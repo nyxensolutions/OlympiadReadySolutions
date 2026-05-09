@@ -1,0 +1,443 @@
+[
+  {
+    "QuestionText": "What is 3 + 4?",
+    "Options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "3 + 4 = 7. Count on from 3: 4, 5, 6, 7."
+  },
+  {
+    "QuestionText": "What is 9 - 3?",
+    "Options": ["A) 5", "B) 7", "C) 6", "D) 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "9 - 3 = 6. Count back 3 from 9: 8, 7, 6."
+  },
+  {
+    "QuestionText": "What is 5 + 0?",
+    "Options": ["A) 0", "B) 1", "C) 10", "D) 5"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Any number plus zero stays the same. So 5 + 0 = 5."
+  },
+  {
+    "QuestionText": "There are 12 birds on a tree. 3 more birds come and sit. How many birds are there now?",
+    "Options": ["A) 9", "B) 14", "C) 15", "D) 16"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "12 + 3 = 15. There are 15 birds on the tree now."
+  },
+  {
+    "QuestionText": "What is 20 + 15?",
+    "Options": ["A) 25", "B) 30", "C) 35", "D) 45"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "20 + 15: add tens (20 + 10 = 30) then ones (30 + 5 = 35)."
+  },
+  {
+    "QuestionText": "What is 8 - 8?",
+    "Options": ["A) 1", "B) 0", "C) 8", "D) 16"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "When you subtract a number from itself, the answer is always 0. So 8 - 8 = 0."
+  },
+  {
+    "QuestionText": "What is 14 - 4?",
+    "Options": ["A) 18", "B) 8", "C) 10", "D) 11"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "14 - 4 = 10. Subtract the ones: 4 - 4 = 0. Tens stay as 1. So the answer is 10."
+  },
+  {
+    "QuestionText": "A basket has 6 mangoes. Rani puts 3 more mangoes in it. How many mangoes are in the basket now?",
+    "Options": ["A) 3", "B) 8", "C) 9", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "6 + 3 = 9. There are 9 mangoes in the basket."
+  },
+  {
+    "QuestionText": "What is 11 + 6?",
+    "Options": ["A) 16", "B) 17", "C) 18", "D) 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "11 + 6 = 17. Add the ones: 1 + 6 = 7. Tens stay as 1. Answer is 17."
+  },
+  {
+    "QuestionText": "What is 0 + 0?",
+    "Options": ["A) 1", "B) 2", "C) 0", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Zero plus zero equals zero. Nothing added to nothing is still nothing."
+  },
+  {
+    "QuestionText": "What is 25 - 5?",
+    "Options": ["A) 30", "B) 15", "C) 20", "D) 22"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "25 - 5 = 20. Subtract the ones: 5 - 5 = 0. Tens stay as 2. Answer is 20."
+  },
+  {
+    "QuestionText": "Raju has 10 marbles. He gives 4 to his friend. How many does he have left?",
+    "Options": ["A) 14", "B) 4", "C) 6", "D) 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "10 - 4 = 6. Raju has 6 marbles left."
+  },
+  {
+    "QuestionText": "What is 30 + 20?",
+    "Options": ["A) 10", "B) 60", "C) 50", "D) 52"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "30 + 20 = 50. Add the tens: 3 + 2 = 5 tens. Answer is 50."
+  },
+  {
+    "QuestionText": "What is 7 - 0?",
+    "Options": ["A) 0", "B) 1", "C) 70", "D) 7"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Any number minus zero stays the same. So 7 - 0 = 7."
+  },
+  {
+    "QuestionText": "What is 36 - 6?",
+    "Options": ["A) 42", "B) 30", "C) 26", "D) 32"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "36 - 6 = 30. Subtract ones: 6 - 6 = 0. Tens stay as 3. Answer is 30."
+  },
+  {
+    "QuestionText": "There are 8 red flowers and 1 yellow flower in a vase. How many flowers are there in all?",
+    "Options": ["A) 7", "B) 9", "C) 10", "D) 81"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "8 + 1 = 9. There are 9 flowers in the vase."
+  },
+  {
+    "QuestionText": "What is 4 + 5?",
+    "Options": ["A) 8", "B) 10", "C) 9", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "4 + 5 = 9. Count on from 4: 5, 6, 7, 8, 9."
+  },
+  {
+    "QuestionText": "What is 50 - 20?",
+    "Options": ["A) 70", "B) 30", "C) 20", "D) 25"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "50 - 20 = 30. Subtract the tens: 5 - 2 = 3 tens. Answer is 30."
+  },
+  {
+    "QuestionText": "What is 0 + 9?",
+    "Options": ["A) 0", "B) 1", "C) 90", "D) 9"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Zero plus any number gives that same number. So 0 + 9 = 9."
+  },
+  {
+    "QuestionText": "A box has 15 chocolates. 5 are eaten. How many chocolates are left?",
+    "Options": ["A) 20", "B) 5", "C) 10", "D) 11"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "15 - 5 = 10. There are 10 chocolates left in the box."
+  },
+  {
+    "QuestionText": "What is 22 + 11?",
+    "Options": ["A) 11", "B) 33", "C) 32", "D) 34"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "22 + 11: add tens (2 + 1 = 3) and ones (2 + 1 = 3). Answer is 33."
+  },
+  {
+    "QuestionText": "What is 9 - 9?",
+    "Options": ["A) 1", "B) 9", "C) 18", "D) 0"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Any number subtracted from itself equals 0. So 9 - 9 = 0."
+  },
+  {
+    "QuestionText": "What is 47 - 3?",
+    "Options": ["A) 50", "B) 43", "C) 44", "D) 45"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "47 - 3 = 44. Subtract the ones: 7 - 3 = 4. Tens stay as 4. Answer is 44."
+  },
+  {
+    "QuestionText": "Mia has 7 stickers. Her mother gives her 2 more. How many stickers does she have now?",
+    "Options": ["A) 5", "B) 8", "C) 9", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "7 + 2 = 9. Mia now has 9 stickers."
+  },
+  {
+    "QuestionText": "What is 13 + 5?",
+    "Options": ["A) 8", "B) 17", "C) 18", "D) 19"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "13 + 5 = 18. Add the ones: 3 + 5 = 8. Tens stay as 1. Answer is 18."
+  },
+  {
+    "QuestionText": "What is 6 - 0?",
+    "Options": ["A) 0", "B) 6", "C) 60", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Any number minus zero stays the same. So 6 - 0 = 6."
+  },
+  {
+    "QuestionText": "What is 68 - 4?",
+    "Options": ["A) 72", "B) 64", "C) 65", "D) 63"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "68 - 4 = 64. Subtract the ones: 8 - 4 = 4. Tens stay as 6. Answer is 64."
+  },
+  {
+    "QuestionText": "A pond has 10 ducks. 4 ducks fly away. How many ducks are left in the pond?",
+    "Options": ["A) 14", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "10 - 4 = 6. There are 6 ducks left in the pond."
+  },
+  {
+    "QuestionText": "What is 41 + 7?",
+    "Options": ["A) 34", "B) 47", "C) 48", "D) 49"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "41 + 7 = 48. Add the ones: 1 + 7 = 8. Tens stay as 4. Answer is 48."
+  },
+  {
+    "QuestionText": "What is 0 - 0?",
+    "Options": ["A) 1", "B) 0", "C) 10", "D) 00"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Zero minus zero equals zero. 0 - 0 = 0."
+  },
+  {
+    "QuestionText": "What is 59 - 3?",
+    "Options": ["A) 62", "B) 55", "C) 57", "D) 56"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "59 - 3 = 56. Subtract the ones: 9 - 3 = 6. Tens stay as 5. Answer is 56."
+  },
+  {
+    "QuestionText": "A child has 5 blue pens and 4 red pens. How many pens does the child have in all?",
+    "Options": ["A) 1", "B) 8", "C) 9", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "5 + 4 = 9. The child has 9 pens in all."
+  },
+  {
+    "QuestionText": "What is 16 + 3?",
+    "Options": ["A) 13", "B) 18", "C) 19", "D) 20"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "16 + 3 = 19. Add the ones: 6 + 3 = 9. Tens stay as 1. Answer is 19."
+  },
+  {
+    "QuestionText": "What is 0 + 0 + 5?",
+    "Options": ["A) 0", "B) 1", "C) 50", "D) 5"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "0 + 0 = 0, then 0 + 5 = 5. Adding zeros doesn't change the answer."
+  },
+  {
+    "QuestionText": "What is 79 - 6?",
+    "Options": ["A) 85", "B) 72", "C) 73", "D) 74"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "79 - 6 = 73. Subtract ones: 9 - 6 = 3. Tens stay as 7. Answer is 73."
+  },
+  {
+    "QuestionText": "There are 20 children in a class. 10 go out to play. How many children are still in the class?",
+    "Options": ["A) 30", "B) 5", "C) 10", "D) 15"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "20 - 10 = 10. There are 10 children still in the class."
+  },
+  {
+    "QuestionText": "What is 32 + 5?",
+    "Options": ["A) 27", "B) 36", "C) 37", "D) 38"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "32 + 5 = 37. Add the ones: 2 + 5 = 7. Tens stay as 3. Answer is 37."
+  },
+  {
+    "QuestionText": "What is 4 + 0 + 3?",
+    "Options": ["A) 0", "B) 43", "C) 7", "D) 8"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "4 + 0 = 4, then 4 + 3 = 7. Zero does not change the sum."
+  },
+  {
+    "QuestionText": "What is 88 - 4?",
+    "Options": ["A) 92", "B) 82", "C) 84", "D) 85"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "88 - 4 = 84. Subtract the ones: 8 - 4 = 4. Tens stay as 8. Answer is 84."
+  },
+  {
+    "QuestionText": "Tina has 11 toffees. She gets 7 more from her friend. How many toffees does she have in all?",
+    "Options": ["A) 4", "B) 17", "C) 18", "D) 19"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "11 + 7 = 18. Tina has 18 toffees in all."
+  },
+  {
+    "QuestionText": "What is 24 + 3?",
+    "Options": ["A) 21", "B) 26", "C) 27", "D) 28"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "24 + 3 = 27. Add the ones: 4 + 3 = 7. Tens stay as 2. Answer is 27."
+  },
+  {
+    "QuestionText": "What happens when you add 0 to any number?",
+    "Options": ["A) The number becomes 0", "B) The number doubles", "C) The number stays the same", "D) The number becomes 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Zero in Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding zero to any number does not change it. For example, 5 + 0 = 5."
+  },
+  {
+    "QuestionText": "What is 97 - 4?",
+    "Options": ["A) 91", "B) 94", "C) 93", "D) 92"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "97 - 4 = 93. Subtract the ones: 7 - 4 = 3. Tens stay as 9. Answer is 93."
+  },
+  {
+    "QuestionText": "A tree has 9 apples. 6 more apples grow on it. How many apples are on the tree now?",
+    "Options": ["A) 3", "B) 14", "C) 15", "D) 16"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "9 + 6 = 15. There are 15 apples on the tree now."
+  },
+  {
+    "QuestionText": "What is 53 + 4?",
+    "Options": ["A) 49", "B) 56", "C) 57", "D) 58"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "53 + 4 = 57. Add the ones: 3 + 4 = 7. Tens stay as 5. Answer is 57."
+  },
+  {
+    "QuestionText": "What is 33 - 1?",
+    "Options": ["A) 34", "B) 31", "C) 32", "D) 30"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "33 - 1 = 32. Subtract the ones: 3 - 1 = 2. Tens stay as 3. Answer is 32."
+  },
+  {
+    "QuestionText": "Karan had 18 balloons. 5 balloons burst. How many balloons does he have now?",
+    "Options": ["A) 23", "B) 12", "C) 13", "D) 14"],
+    "CorrectAnswer": "C",
+    "Topic": "Computation Operations",
+    "SubTopic": "Simple Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "18 - 5 = 13. Karan has 13 balloons left."
+  },
+  {
+    "QuestionText": "What is 40 + 40?",
+    "Options": ["A) 44", "B) 80", "C) 90", "D) 100"],
+    "CorrectAnswer": "B",
+    "Topic": "Computation Operations",
+    "SubTopic": "Addition of Single/Double Digits (no carry)",
+    "Difficulty": "Foundation",
+    "Explanation": "40 + 40 = 80. Add the tens: 4 + 4 = 8 tens. Answer is 80."
+  },
+  {
+    "QuestionText": "What is 99 - 9?",
+    "Options": ["A) 108", "B) 89", "C) 91", "D) 90"],
+    "CorrectAnswer": "D",
+    "Topic": "Computation Operations",
+    "SubTopic": "Subtraction (no borrowing)",
+    "Difficulty": "Foundation",
+    "Explanation": "99 - 9 = 90. Subtract the ones: 9 - 9 = 0. Tens stay as 9. Answer is 90."
+  }
+]

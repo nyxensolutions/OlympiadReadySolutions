@@ -1,0 +1,26 @@
+# Roll-up gitignore for both sub-projects
+# (Node)
+node_modules/
+.next/
+out/
+*.log
+.env
+.env.local
+.env.*.local
+
+# (.NET)
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code session data
+.claude/
+
+# dotnet user-secrets (stored in AppData, never in project — but belt-and-suspenders)
+secrets.json

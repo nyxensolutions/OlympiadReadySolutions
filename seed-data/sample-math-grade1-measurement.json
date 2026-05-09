@@ -1,0 +1,434 @@
+[
+  {
+    "QuestionText": "A pencil is 5 handspans long. A ruler is 8 handspans long. Which one is LONGER?",
+    "Options": ["A) Pencil", "B) Ruler", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "8 handspans is more than 5 handspans, so the ruler is longer."
+  },
+  {
+    "QuestionText": "A bag of rice is HEAVIER than a bag of feathers. Which bag is lighter?",
+    "Options": ["A) Bag of rice", "B) Bag of feathers", "C) Both are equally heavy", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "A bag of feathers is lighter because the rice bag is heavier."
+  },
+  {
+    "QuestionText": "A big pot holds MORE water than a small cup. Which one holds LESS water?",
+    "Options": ["A) Big pot", "B) Small cup", "C) Both hold the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "The small cup holds less water than the big pot."
+  },
+  {
+    "QuestionText": "Tara walks 10 footsteps to reach the door. Mina walks 6 footsteps to reach the same door. Who is CLOSER to the door?",
+    "Options": ["A) Tara", "B) Mina", "C) Both are equally close", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "Mina takes only 6 footsteps — fewer steps means she is closer to the door."
+  },
+  {
+    "QuestionText": "Three ribbons are given: Red (3 handspans), Blue (7 handspans), Yellow (5 handspans). Which ribbon is the LONGEST?",
+    "Options": ["A) Red", "B) Yellow", "C) Blue", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Blue ribbon is 7 handspans, which is the most. So Blue is the longest."
+  },
+  {
+    "QuestionText": "An elephant is HEAVIER than a dog. A dog is HEAVIER than a cat. Which animal is the LIGHTEST?",
+    "Options": ["A) Elephant", "B) Dog", "C) Cat", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Cat is lighter than dog, and dog is lighter than elephant. So cat is the lightest."
+  },
+  {
+    "QuestionText": "A bucket can hold MORE water than a glass. A glass can hold MORE water than a spoon. Which holds the MOST water?",
+    "Options": ["A) Spoon", "B) Glass", "C) Bucket", "D) All hold the same"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "Bucket holds more than glass which holds more than spoon. So bucket holds the most."
+  },
+  {
+    "QuestionText": "Ravi measures his desk using his handspan. He counts 6 handspans. His sister counts 6 handspans of the same desk. Whose handspan is bigger if Ravi's hand is larger?",
+    "Options": ["A) Sister's handspan is bigger", "B) Ravi's handspan is bigger", "C) Both are the same size", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "If Ravi's hand is larger, one of his handspans covers more length. So his handspan is bigger."
+  },
+  {
+    "QuestionText": "A tree is 9 handspans tall. A shrub is 4 handspans tall. Which one is SHORTER?",
+    "Options": ["A) Tree", "B) Shrub", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "4 handspans is less than 9 handspans. So the shrub is shorter."
+  },
+  {
+    "QuestionText": "A watermelon is HEAVIER than an apple. Which fruit is lighter?",
+    "Options": ["A) Watermelon", "B) Apple", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "The apple is lighter because the watermelon is heavier."
+  },
+  {
+    "QuestionText": "A swimming pool holds MORE water than a bathtub. Which one holds LESS water?",
+    "Options": ["A) Swimming pool", "B) Bathtub", "C) Both hold the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "The bathtub holds less water than the swimming pool."
+  },
+  {
+    "QuestionText": "Aryan takes 12 footsteps to go from the door to the window. Reema takes 9 footsteps for the same distance. Whose footsteps are BIGGER?",
+    "Options": ["A) Aryan's footsteps", "B) Reema's footsteps", "C) Both are same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "Reema takes fewer steps for the same distance, so each of her footsteps is bigger (covers more ground)."
+  },
+  {
+    "QuestionText": "Four ropes: Rope A = 2 handspans, Rope B = 8 handspans, Rope C = 5 handspans, Rope D = 3 handspans. Which is the SHORTEST?",
+    "Options": ["A) Rope A", "B) Rope B", "C) Rope C", "D) Rope D"],
+    "CorrectAnswer": "A",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Rope A is only 2 handspans — the least among all. So Rope A is the shortest."
+  },
+  {
+    "QuestionText": "A feather, a stone, and a leaf are placed on a balance. The stone goes down the most. Which object is the HEAVIEST?",
+    "Options": ["A) Feather", "B) Leaf", "C) Stone", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "The side that goes down on a balance has more weight. The stone goes down the most, so it is the heaviest."
+  },
+  {
+    "QuestionText": "A jug can hold 5 cups of water. A bottle can hold 3 cups of water. Which holds MORE?",
+    "Options": ["A) Bottle", "B) Jug", "C) Both hold the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "The jug holds 5 cups of water — more than the bottle's 3 cups. So the jug holds more."
+  },
+  {
+    "QuestionText": "Priya measures the length of her room using footsteps and gets 8 footsteps. Her father measures it and gets 6 footsteps. Why did her father get a smaller number?",
+    "Options": ["A) Father counted wrong", "B) Father's footsteps are bigger", "C) Father's footsteps are smaller", "D) The room shrank"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "If father uses bigger footsteps, he covers the same distance in fewer steps. So 6 bigger footsteps = 8 smaller footsteps."
+  },
+  {
+    "QuestionText": "A worm is 2 handspans long. A snake is 10 handspans long. Which is LONGER?",
+    "Options": ["A) Worm", "B) Both are equal", "C) Cannot say", "D) Snake"],
+    "CorrectAnswer": "D",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "10 handspans is more than 2 handspans. So the snake is longer."
+  },
+  {
+    "QuestionText": "A pumpkin is HEAVIER than a potato. A potato is HEAVIER than a pea. Which vegetable is the HEAVIEST?",
+    "Options": ["A) Pea", "B) Potato", "C) Pumpkin", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Pumpkin is heavier than potato, which is heavier than pea. So pumpkin is the heaviest."
+  },
+  {
+    "QuestionText": "A teaspoon holds LESS water than a bowl. Which one holds MORE water?",
+    "Options": ["A) Teaspoon", "B) Bowl", "C) Both hold the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "The bowl holds more water than the teaspoon."
+  },
+  {
+    "QuestionText": "Sonu measures his book with his handspan and gets 3 handspans. Tina measures the same book and gets 4 handspans. Whose handspan is SMALLER?",
+    "Options": ["A) Sonu's", "B) Tina's", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "Tina needed more handspans to cover the same length — so her handspan is smaller."
+  },
+  {
+    "QuestionText": "Three sticks: Green (6 handspans), Orange (6 handspans), Purple (6 handspans). Which stick is the LONGEST?",
+    "Options": ["A) Green", "B) Orange", "C) Purple", "D) All are equal"],
+    "CorrectAnswer": "D",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "All three sticks are 6 handspans long — they are all equal in length."
+  },
+  {
+    "QuestionText": "A book, a pencil, and a feather are kept on a balance. The feather goes up the highest. Which is the LIGHTEST?",
+    "Options": ["A) Book", "B) Pencil", "C) Feather", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "On a balance, the lighter object goes up. The feather goes up the most, so it is the lightest."
+  },
+  {
+    "QuestionText": "A water tank holds MORE water than a water bottle. A water bottle holds MORE than a glass. Which holds the LEAST water?",
+    "Options": ["A) Tank", "B) Bottle", "C) Glass", "D) All hold the same"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "Glass holds less than bottle, and bottle holds less than tank. So glass holds the least."
+  },
+  {
+    "QuestionText": "It takes Meena 5 footsteps to cross the garden. It takes Kiran 5 footsteps to cross the same garden. But Kiran's feet are bigger. What does that tell us about Kiran's garden path?",
+    "Options": ["A) Kiran's path is shorter", "B) Kiran's path is longer", "C) Both paths are the same", "D) Cannot say"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "It is the SAME garden. Both are measuring the same path — just with different sized feet."
+  },
+  {
+    "QuestionText": "A table is 4 handspans tall. A chair is 2 handspans tall. Which is SHORTER?",
+    "Options": ["A) Table", "B) Chair", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "2 handspans is less than 4 handspans. So the chair is shorter."
+  },
+  {
+    "QuestionText": "A school bag is HEAVIER than a lunchbox. A lunchbox is HEAVIER than a pencil. Which is the LIGHTEST?",
+    "Options": ["A) School bag", "B) Lunchbox", "C) Pencil", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Pencil is lighter than lunchbox, which is lighter than school bag. So pencil is the lightest."
+  },
+  {
+    "QuestionText": "A bucket can hold 10 mugs of water. A jug can hold 4 mugs of water. Which holds LESS?",
+    "Options": ["A) Bucket", "B) Jug", "C) Both hold the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "The jug holds only 4 mugs of water — less than the bucket's 10 mugs."
+  },
+  {
+    "QuestionText": "Anu measures her arm using handspans and gets 2 handspans. Her arm is 2 of her OWN handspans. What unit did she use?",
+    "Options": ["A) Ruler", "B) Footstep", "C) Centimetre", "D) Handspan"],
+    "CorrectAnswer": "D",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "Anu used handspans — a non-standard unit of measurement — to measure her arm."
+  },
+  {
+    "QuestionText": "Five children line up. The TALLEST child stands at one end and the SHORTEST child stands at the other end. Riya is the shortest. Where is Riya standing?",
+    "Options": ["A) In the middle", "B) At the tallest end", "C) At the shortest end", "D) Cannot say"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Riya is the shortest child, so she stands at the shortest end."
+  },
+  {
+    "QuestionText": "A toy car weighs the same as 4 erasers. A toy train weighs the same as 9 erasers. Which toy is HEAVIER?",
+    "Options": ["A) Toy car", "B) Toy train", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "The toy train weighs 9 erasers while the toy car weighs only 4 erasers. So the toy train is heavier."
+  },
+  {
+    "QuestionText": "A small bottle is full of water. A big bowl is only half full. Which contains MORE water right now?",
+    "Options": ["A) Small bottle (full)", "B) Big bowl (half full)", "C) Both contain the same", "D) Cannot say without knowing sizes"],
+    "CorrectAnswer": "D",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "We cannot say for sure — a big bowl half-full might still hold more than a small bottle that is full. We need to know the actual sizes."
+  },
+  {
+    "QuestionText": "Raj counts 7 footsteps to cross the classroom. Dev counts 7 footsteps to cross the same classroom. Both have the same sized feet. What can you say about the distance they measured?",
+    "Options": ["A) Raj measured more", "B) Dev measured more", "C) Both measured the same distance", "D) Cannot say"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "Same number of steps + same sized feet = same distance. Both measured the same distance."
+  },
+  {
+    "QuestionText": "A crayon is 3 handspans long. A pen is 4 handspans long. A marker is 6 handspans long. Which is the SHORTEST?",
+    "Options": ["A) Marker", "B) Pen", "C) Crayon", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "The crayon is only 3 handspans — the least among all three. So the crayon is the shortest."
+  },
+  {
+    "QuestionText": "A cow is HEAVIER than a goat. A goat is HEAVIER than a rabbit. Which animal is the HEAVIEST?",
+    "Options": ["A) Rabbit", "B) Goat", "C) Cow", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Cow is heavier than goat, which is heavier than rabbit. So the cow is the heaviest."
+  },
+  {
+    "QuestionText": "A bathtub holds MORE water than a glass. A glass holds MORE than a teaspoon. What holds the MOST water among the three?",
+    "Options": ["A) Glass", "B) Teaspoon", "C) Bathtub", "D) All hold the same"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "Bathtub holds more than glass, which holds more than teaspoon. So bathtub holds the most."
+  },
+  {
+    "QuestionText": "Sita uses her handspan to measure a ribbon. She counts 5 handspans. Her brother uses his handspan (which is bigger) to measure the SAME ribbon. How many handspans will he count?",
+    "Options": ["A) More than 5", "B) Fewer than 5", "C) Exactly 5", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "A bigger handspan covers more in one go. So her brother needs fewer handspans to measure the same ribbon."
+  },
+  {
+    "QuestionText": "A sunflower plant is 8 handspans tall. A rose plant is 5 handspans tall. A cactus is 3 handspans tall. Which plant is the TALLEST?",
+    "Options": ["A) Rose", "B) Cactus", "C) Sunflower", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Sunflower is 8 handspans — the most among all three. So the sunflower is the tallest."
+  },
+  {
+    "QuestionText": "A pineapple weighs the same as 6 apples. A mango weighs the same as 2 apples. Which fruit is LIGHTER?",
+    "Options": ["A) Pineapple", "B) Mango", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Mango weighs only 2 apples while pineapple weighs 6 apples. So mango is lighter."
+  },
+  {
+    "QuestionText": "A pot can hold 8 cups of milk. A pan can hold 5 cups of milk. Which vessel holds MORE milk?",
+    "Options": ["A) Pan", "B) Pot", "C) Both hold the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "The pot holds 8 cups — more than the pan's 5 cups. So the pot holds more."
+  },
+  {
+    "QuestionText": "A child takes 3 footsteps to cross a small mat. Another child takes 5 footsteps to cross the SAME mat. Whose footstep is BIGGER?",
+    "Options": ["A) The child who took 5 steps", "B) The child who took 3 steps", "C) Both footsteps are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "Fewer steps for the same distance means each step covers more. So the child with 3 steps has a bigger footstep."
+  },
+  {
+    "QuestionText": "A wall is 6 handspans wide. A door is 3 handspans wide. Which is NARROWER?",
+    "Options": ["A) Wall", "B) Door", "C) Both are equal", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "3 handspans is less than 6 handspans. So the door is narrower."
+  },
+  {
+    "QuestionText": "A stone, a cotton ball, and an iron ball are on a balance. The iron ball is on one side and goes DOWN. Which object is the HEAVIEST?",
+    "Options": ["A) Stone", "B) Cotton ball", "C) Iron ball", "D) Cannot say"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "The side that goes down on a balance is heavier. The iron ball side goes down, so it is the heaviest."
+  },
+  {
+    "QuestionText": "A big drum holds MORE water than a small mug. Which holds LESS water?",
+    "Options": ["A) Big drum", "B) Small mug", "C) Both hold the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "The small mug holds less water than the big drum."
+  },
+  {
+    "QuestionText": "Why is it important to use the SAME unit when measuring and comparing lengths?",
+    "Options": ["A) Because bigger units are always better", "B) So the comparison is fair and correct", "C) Because handspans are always accurate", "D) It does not matter which unit you use"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "When comparing lengths, we must use the same unit so that the comparison is fair and gives a correct result."
+  },
+  {
+    "QuestionText": "A pencil box is 4 handspans long. A notebook is 5 handspans long. A textbook is 4 handspans long. Which is the LONGEST?",
+    "Options": ["A) Pencil box", "B) Notebook", "C) Textbook", "D) Pencil box and Textbook are equal and longest"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Length (Longest/Shortest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Notebook is 5 handspans — the most among all three. So the notebook is the longest."
+  },
+  {
+    "QuestionText": "A baby is LIGHTER than its mother. Its mother is LIGHTER than its grandmother? Wait — which statement sounds WRONG for most families?",
+    "Options": ["A) Baby is lighter than mother", "B) Mother is lighter than grandmother", "C) Baby is the lightest", "D) Grandmother is the heaviest"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Weight (Heaviest/Lightest)",
+    "Difficulty": "Foundation",
+    "Explanation": "Usually a mother is heavier than an elderly grandmother. So saying the mother is lighter than the grandmother sounds unusual in most cases."
+  },
+  {
+    "QuestionText": "A glass is full of juice. An identical glass is only half full of juice. Which glass has MORE juice?",
+    "Options": ["A) Half-full glass", "B) Full glass", "C) Both have the same", "D) Cannot say"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "SubTopic": "Capacity (Holds More/Less)",
+    "Difficulty": "Foundation",
+    "Explanation": "A full glass has more juice than a half-full glass of the same size."
+  },
+  {
+    "QuestionText": "Kavya measures a hallway using her footsteps: 10 steps. Her baby brother measures the same hallway: 20 steps. What does this tell us?",
+    "Options": ["A) The hallway changed size", "B) Kavya counted wrong", "C) Kavya's footsteps are bigger", "D) Baby's footsteps are bigger"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "SubTopic": "Non-Standard Units (Handspan, Footsteps)",
+    "Difficulty": "Foundation",
+    "Explanation": "10 bigger steps = 20 smaller steps for the same distance. So Kavya's footsteps are bigger (she is older and taller)."
+  }
+]
