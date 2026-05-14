@@ -1,0 +1,107 @@
+"use client";
+
+import {
+  Brain,
+  Clock,
+  FileText,
+  Medal,
+  TrendingUp,
+  Zap,
+  type LucideIcon,
+} from "lucide-react";
+
+interface Feature {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  gradient: string;
+}
+
+const FEATURES: Feature[] = [
+  {
+    icon: Zap,
+    title: "Infinite fresh questions",
+    description:
+      "AI generates a brand-new paper every session. Unlike static question banks, you'll never run out of practice material — and never see the same question twice.",
+    gradient: "from-yellow-500 to-orange-500",
+  },
+  {
+    icon: Brain,
+    title: "Instant AI explanations",
+    description:
+      "Every question comes with a clear, step-by-step explanation. Understand the concept, not just the answer — powered by Claude AI.",
+    gradient: "from-violet-500 to-purple-600",
+  },
+  {
+    icon: TrendingUp,
+    title: "Topic mastery heatmap",
+    description:
+      "A live heatmap tracks your mastery across every topic, updated after every test. Always know exactly what to work on next.",
+    gradient: "from-emerald-500 to-green-600",
+  },
+  {
+    icon: Clock,
+    title: "Timed exam simulation",
+    description:
+      "Practice with a real countdown timer per question. Build the speed and focus you need for the actual Olympiad exam day.",
+    gradient: "from-blue-500 to-cyan-500",
+  },
+  {
+    icon: FileText,
+    title: "Download as PDF",
+    description:
+      "Save any practice paper as a clean, printer-ready PDF — perfect for offline revision, group study, or keeping a record.",
+    gradient: "from-rose-500 to-pink-600",
+  },
+  {
+    icon: Medal,
+    title: "All major exams covered",
+    description:
+      "IMO, NSO, IEO, IGKO, IHO, ICSO, iiO and more — question styles and difficulty levels are calibrated to each Olympiad's pattern.",
+    gradient: "from-amber-500 to-yellow-500",
+  },
+];
+
+export function FeaturesSection() {
+  return (
+    <section id="features" className="bg-white px-4 py-20 sm:py-32">
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-16 text-center">
+          <p className="text-sm font-semibold uppercase tracking-widest text-brand-600">
+            Why OlympiadReady
+          </p>
+          <h2 className="mt-2 text-balance text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+            Everything a serious Olympiad student needs
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
+            No static question banks. No recycled papers. Intelligent, personalised
+            practice — powered by AI.
+          </p>
+        </div>
+
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {FEATURES.map(({ icon: Icon, title, description, gradient }) => (
+            <div
+              key={title}
+              className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-8 transition hover:border-slate-300 hover:shadow-xl"
+            >
+              {/* Gradient overlay on hover */}
+              <div
+                className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-0 transition duration-300 group-hover:opacity-5`}
+              />
+              <div className="relative z-10">
+                <div
+                  className={`mb-6 inline-flex rounded-xl bg-gradient-to-br ${gradient} p-3 text-white`}
+                >
+                  <Icon className="h-6 w-6" />
+                </div>
+                <h3 className="mb-3 text-lg font-bold text-slate-900">{title}</h3>
+                <p className="leading-relaxed text-slate-600">{description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

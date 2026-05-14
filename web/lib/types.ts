@@ -99,6 +99,25 @@ export const SUBJECTS = [
   "Computers",
   "AI"
 ] as const;
+
+export type Subject = (typeof SUBJECTS)[number];
+
+export const SUBJECT_GRADE_MAP: Record<Subject, { min: number; max: number }> = {
+  Math:                 { min: 1,  max: 12 },
+  Science:              { min: 1,  max: 12 },
+  English:              { min: 1,  max: 12 },
+  "Logical Reasoning":  { min: 1,  max: 12 },
+  Computers:            { min: 1,  max: 10 },
+  AI:                   { min: 1,  max: 10 },
+  "General Knowledge":  { min: 1,  max: 10 },
+  Hindi:                { min: 3,  max: 10 },
+};
+
+export function isSubjectAvailable(subject: Subject, grade: number): boolean {
+  const range = SUBJECT_GRADE_MAP[subject];
+  return grade >= range.min && grade <= range.max;
+}
+
 export const DIFFICULTIES = ["Foundation", "Advanced", "Olympiad"] as const;
 export const QUANTITIES = [5, 10, 20, 35] as const;
 export const SECONDS_PER_QUESTION = 90;

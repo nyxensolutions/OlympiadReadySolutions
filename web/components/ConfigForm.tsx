@@ -7,9 +7,11 @@ import {
   DIFFICULTIES,
   QUANTITIES,
   SUBJECTS,
+  isSubjectAvailable,
   type GeneratedPaper,
   type PreviewRequest,
-  type QuotaError
+  type QuotaError,
+  type Subject
 } from "@/lib/types";
 import { SubjectCard } from "./SubjectCard";
 
@@ -30,6 +32,17 @@ export function ConfigForm({
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [resetNotice, setResetNotice] = useState<string | null>(null);
+
+  function handleGradeChange(newGrade: number) {
+    setGrade(newGrade);
+    setResetNotice(null);
+    if (!isSubjectAvailable(subject as Subject, newGrade)) {
+      const fallback = SUBJECTS.find((s) => isSubjectAvailable(s, newGrade)) ?? SUBJECTS[0];
+      setSubject(fallback);
+      setResetNotice(`${subject} isn't offered at Class ${newGrade} — switched to ${fallback}.`);
+    }
+  }
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -69,23 +82,33 @@ export function ConfigForm({
       <div>
         <p className="text-sm font-semibold text-slate-700">Pick a subject</p>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {SUBJECTS.map((s) => (
-            <SubjectCard
-              key={s}
-              name={s}
-              selected={subject === s}
-              onClick={() => setSubject(s)}
-            />
-          ))}
+          {SUBJECTS.map((s) => {
+            const unavailable = !isSubjectAvailable(s, grade);
+            return (
+              <SubjectCard
+                key={s}
+                name={s}
+                selected={subject === s}
+                onClick={() => { setSubject(s); setResetNotice(null); }}
+                disabled={unavailable}
+              />
+            );
+          })}
         </div>
       </div>
+
+      {resetNotice && (
+        <p className="mt-2 text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
+          {resetNotice}
+        </p>
+      )}
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
           Class
           <select
             value={grade}
-            onChange={(e) => setGrade(Number(e.target.value))}
+            onChange={(e) => handleGradeChange(Number(e.target.value))}
             className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-600/20"
           >
             {Array.from({ length: 12 }, (_, i) => i + 1).map((g) => (

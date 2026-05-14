@@ -26,24 +26,29 @@ const ICONS: Record<string, LucideIcon> = {
 export function SubjectCard({
   name,
   selected,
-  onClick
+  onClick,
+  disabled = false
 }: {
   name: string;
   selected: boolean;
   onClick: () => void;
+  disabled?: boolean;
 }) {
   const Icon = ICONS[name] ?? BookOpen;
   return (
     <button
       type="button"
-      onClick={onClick}
+      onClick={disabled ? undefined : onClick}
+      title={disabled ? "Not available for this class" : undefined}
       className={`flex flex-col items-center gap-2 rounded-xl border p-4 transition ${
-        selected
-          ? "border-brand-600 bg-brand-50 text-brand-700 shadow-sm"
-          : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
+        disabled
+          ? "cursor-not-allowed border-slate-100 bg-slate-50 text-slate-300"
+          : selected
+            ? "border-brand-600 bg-brand-50 text-brand-700 shadow-sm"
+            : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
       }`}
     >
-      <Icon className={`h-7 w-7 ${selected ? "text-brand-600" : "text-slate-500"}`} />
+      <Icon className={`h-7 w-7 ${disabled ? "text-slate-300" : selected ? "text-brand-600" : "text-slate-500"}`} />
       <span className="text-center text-sm font-semibold leading-tight">{name}</span>
     </button>
   );

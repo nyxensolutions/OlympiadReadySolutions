@@ -4,8 +4,9 @@ import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Olympiad Ready",
-  description: "AI-generated Olympiad practice papers for Indian school students."
+  title: "OlympiadReady — India's AI Olympiad Coach",
+  description:
+    "Infinite AI-generated practice papers, instant explanations, and topic mastery tracking for IMO, NSO, IEO, IGKO and every major school Olympiad. Classes 1–12."
 };
 
 export default function RootLayout({

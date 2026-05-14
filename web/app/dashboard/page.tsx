@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, Loader2, Sparkles } from "lucide-react";
+import { ArrowRight, Flame, Loader2, Sparkles, Trophy } from "lucide-react";
 import { useAuth, SignedIn, SignedOut } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
 import { MasteryHeatmap } from "@/components/MasteryHeatmap";
@@ -17,6 +17,104 @@ function formatDuration(seconds: number): string {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
   return `${m}m ${s}s`;
+}
+
+function computeStreak(results: DashboardSummary["results"]): number {
+  if (results.length === 0) return 0;
+  const dates = [
+    ...new Set(results.map((r) => r.completedAt.split("T")[0]))
+  ].sort().reverse();
+  const today = new Date().toISOString().split("T")[0];
+  const yesterday = new Date(Date.now() - 86_400_000).toISOString().split("T")[0];
+  if (dates[0] !== today && dates[0] !== yesterday) return 0;
+  let streak = 1;
+  for (let i = 1; i < dates.length; i++) {
+    const diff =
+      (new Date(dates[i - 1]).getTime() - new Date(dates[i]).getTime()) / 86_400_000;
+    if (diff === 1) streak++;
+    else break;
+  }
+  return streak;
+}
+
+type Badge = {
+  id: string;
+  emoji: string;
+  label: string;
+  description: string;
+  earned: boolean;
+};
+
+function computeBadges(data: DashboardSummary): Badge[] {
+  const { results } = data;
+  const streak = computeStreak(results);
+  const bestPct =
+    results.length === 0
+      ? 0
+      : Math.max(
+          ...results.map((r) =>
+            r.totalQuestions > 0 ? (r.score / r.totalQuestions) * 100 : 0
+          )
+        );
+
+  return [
+    {
+      id: "first_test",
+      emoji: "🚀",
+      label: "First Step",
+      description: "Complete your first practice test",
+      earned: results.length >= 1,
+    },
+    {
+      id: "five_tests",
+      emoji: "🔁",
+      label: "On a Roll",
+      description: "Complete 5 practice tests",
+      earned: results.length >= 5,
+    },
+    {
+      id: "ten_tests",
+      emoji: "💪",
+      label: "Dedicated",
+      description: "Complete 10 practice tests",
+      earned: results.length >= 10,
+    },
+    {
+      id: "sharpshooter",
+      emoji: "🎯",
+      label: "Sharpshooter",
+      description: "Score 90% or above in any test",
+      earned: bestPct >= 90,
+    },
+    {
+      id: "perfect",
+      emoji: "⭐",
+      label: "Perfect Score",
+      description: "Get every question right in a test",
+      earned: results.some((r) => r.score === r.totalQuestions && r.totalQuestions > 0),
+    },
+    {
+      id: "streak_3",
+      emoji: "🔥",
+      label: "3-Day Streak",
+      description: "Practice 3 days in a row",
+      earned: streak >= 3,
+    },
+    {
+      id: "streak_7",
+      emoji: "🏅",
+      label: "Week Warrior",
+      description: "Practice every day for a week",
+      earned: streak >= 7,
+    },
+    {
+      id: "speed",
+      emoji: "⚡",
+      label: "Speed Demon",
+      description: "Finish a 10-question test in under 5 minutes",
+      earned: results.some((r) => r.totalQuestions >= 10 && r.timeTakenSeconds < 300),
+    },
+  ];
 }
 
 export default function DashboardPage() {
@@ -101,6 +199,9 @@ function DashboardBody() {
   if (!data) return null;
 
   const lastResult = data.results[0];
+  const streak = computeStreak(data.results);
+  const badges = computeBadges(data);
+  const earnedCount = badges.filter((b) => b.earned).length;
   const avg =
     data.results.length === 0
       ? 0
@@ -141,24 +242,71 @@ function DashboardBody() {
         </div>
       </section>
 
-      <div className="mt-6 grid gap-4 lg:grid-cols-3">
+      {/* Streak banner — shown only when active */}
+      {streak >= 1 && (
+        <div className="mt-4 flex items-center gap-3 rounded-2xl border border-orange-200 bg-orange-50 px-5 py-3">
+          <Flame className="h-6 w-6 text-orange-500" />
+          <div>
+            <p className="text-sm font-bold text-orange-800">
+              {streak}-day streak! Keep it up 🔥
+            </p>
+            <p className="text-xs text-orange-600">
+              {streak >= 7
+                ? "You're on fire — a whole week of consistent practice!"
+                : "Practice again tomorrow to extend your streak."}
+            </p>
+          </div>
+        </div>
+      )}
+
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Stat label="Tests taken" value={String(data.results.length)} />
         <Stat
           label="Average score"
           value={data.results.length === 0 ? "—" : `${avg}%`}
         />
         <Stat
-          label="Last test"
-          value={
-            lastResult
-              ? `${lastResult.score}/${lastResult.totalQuestions} · ${formatDuration(
-                  lastResult.timeTakenSeconds
-                )}`
-              : "—"
-          }
-          sub={lastResult ? new Date(lastResult.completedAt).toLocaleString() : undefined}
+          label="Practice streak"
+          value={streak === 0 ? "—" : `${streak} day${streak === 1 ? "" : "s"}`}
+          sub={streak >= 1 ? "consecutive days" : "Start today!"}
+          accent="text-orange-500"
+        />
+        <Stat
+          label="Badges earned"
+          value={`${earnedCount} / ${badges.length}`}
+          sub="See below"
         />
       </div>
+
+      {/* Achievements */}
+      <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="flex items-center gap-2">
+          <Trophy className="h-5 w-5 text-amber-500" />
+          <h2 className="text-lg font-semibold text-slate-900">Achievements</h2>
+          <span className="ml-auto text-xs text-slate-400">
+            {earnedCount} of {badges.length} earned
+          </span>
+        </div>
+        <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {badges.map((badge) => (
+            <div
+              key={badge.id}
+              title={badge.description}
+              className={`flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition ${
+                badge.earned
+                  ? "border-amber-200 bg-amber-50"
+                  : "border-slate-100 bg-slate-50 opacity-40 grayscale"
+              }`}
+            >
+              <span className="text-2xl">{badge.emoji}</span>
+              <p className={`text-xs font-bold ${badge.earned ? "text-amber-800" : "text-slate-500"}`}>
+                {badge.label}
+              </p>
+              <p className="text-[10px] leading-tight text-slate-400">{badge.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div className="flex items-center justify-between">
@@ -195,16 +343,18 @@ function DashboardBody() {
 function Stat({
   label,
   value,
-  sub
+  sub,
+  accent
 }: {
   label: string;
   value: string;
   sub?: string;
+  accent?: string;
 }) {
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
       <p className="text-xs uppercase tracking-wide text-slate-500">{label}</p>
-      <p className="mt-1 text-2xl font-bold text-slate-900">{value}</p>
+      <p className={`mt-1 text-2xl font-bold ${accent ?? "text-slate-900"}`}>{value}</p>
       {sub && <p className="mt-1 text-xs text-slate-500">{sub}</p>}
     </div>
   );
