@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Loader2, Sparkles, TrendingUp } from "lucide-react";
+import { GraduationCap, Loader2, Sparkles, TrendingUp } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import {
   DIFFICULTIES,
@@ -25,7 +25,7 @@ export function ConfigForm({
 }: {
   initialConfig?: Partial<PreviewRequest>;
   adaptiveMessage?: string;
-  onGenerated: (config: PreviewRequest, paper: GeneratedPaper) => void;
+  onGenerated: (config: PreviewRequest, paper: GeneratedPaper, simulationMode: boolean) => void;
   onQuotaExceeded: (info: QuotaError) => void;
 }) {
   const { getToken } = useAuth();
@@ -33,6 +33,7 @@ export function ConfigForm({
   const [grade, setGrade] = useState<number>(initialConfig?.grade ?? 6);
   const [difficulty, setDifficulty] = useState<string>(initialConfig?.difficulty ?? "Foundation");
   const [count, setCount] = useState<number>(initialConfig?.count ?? 5);
+  const [simMode, setSimMode] = useState(false);
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -70,7 +71,7 @@ export function ConfigForm({
       }
       if (!res.ok) throw new Error((await res.text()) || `Request failed (${res.status})`);
       const paper: GeneratedPaper = await res.json();
-      onGenerated(config, paper);
+      onGenerated(config, paper, simMode);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong");
     } finally {
@@ -201,10 +202,38 @@ export function ConfigForm({
         </p>
       </div>
 
+      {/* Simulation mode toggle */}
+      <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 hover:bg-slate-100">
+        <div className="relative mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
+          <input
+            type="checkbox"
+            checked={simMode}
+            onChange={(e) => setSimMode(e.target.checked)}
+            className="peer sr-only"
+          />
+          <div className={`h-5 w-5 rounded border-2 transition ${simMode ? "border-brand-600 bg-brand-600" : "border-slate-300 bg-white"}`}>
+            {simMode && (
+              <svg className="h-full w-full p-0.5 text-white" viewBox="0 0 12 12" fill="none">
+                <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            )}
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center gap-1.5">
+            <GraduationCap className="h-3.5 w-3.5 text-brand-600" />
+            <span className="text-sm font-semibold text-slate-800">Exam Simulation Mode</span>
+          </div>
+          <p className="mt-0.5 text-xs text-slate-500">
+            Full-screen, no navigation, timed pressure — mirrors a real exam hall. View OMR sheet on completion.
+          </p>
+        </div>
+      </label>
+
       <button
         type="submit"
         disabled={loading}
-        className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-cta-600 px-4 py-3 text-sm font-bold text-white shadow-md shadow-cta-600/20 transition hover:bg-cta-700 disabled:cursor-not-allowed disabled:bg-slate-400"
+        className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-cta-600 px-4 py-3 text-sm font-bold text-white shadow-md shadow-cta-600/20 transition hover:bg-cta-700 disabled:cursor-not-allowed disabled:bg-slate-400"
       >
         {loading ? (
           <>
@@ -214,7 +243,7 @@ export function ConfigForm({
         ) : (
           <>
             <Sparkles className="h-4 w-4" />
-            Generate &amp; Start Test
+            {simMode ? "Enter Exam Hall" : "Generate & Start Test"}
           </>
         )}
       </button>

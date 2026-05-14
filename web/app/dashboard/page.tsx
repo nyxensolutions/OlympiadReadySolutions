@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, Flame, Lock, Loader2, Shield, Sparkles, Trophy } from "lucide-react";
+import { ArrowRight, BarChart2, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy } from "lucide-react";
 import { useAuth, SignedIn, SignedOut } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
 import { MasteryHeatmap } from "@/components/MasteryHeatmap";
@@ -152,6 +152,8 @@ function DashboardBody() {
   const [data, setData] = useState<DashboardSummary | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [shareToken, setShareToken] = useState<string | null>(null);
+  const [shareCopied, setShareCopied] = useState(false);
   const [shieldState, setShieldState] = useState<{ shields: number; usedDates: string[] }>({
     shields: 0,
     usedDates: [],
@@ -235,7 +237,7 @@ function DashboardBody() {
               Track scores, spot weak topics, and keep your streak alive.
             </p>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-3">
             <SubscriptionBadge
               status={{
                 tier: data.subscription.tier,
@@ -244,6 +246,34 @@ function DashboardBody() {
                 allowed: data.subscription.used < data.subscription.limit
               }}
             />
+            <button
+              type="button"
+              onClick={async () => {
+                if (shareToken) {
+                  const url = `${window.location.origin}/parent/${shareToken}`;
+                  await navigator.clipboard.writeText(url);
+                  setShareCopied(true);
+                  setTimeout(() => setShareCopied(false), 2500);
+                  return;
+                }
+                const token = await getToken();
+                const res = await fetch(`${API_URL}/api/share/token`, {
+                  headers: token ? { Authorization: `Bearer ${token}` } : {}
+                });
+                if (res.ok) {
+                  const { token: t } = await res.json();
+                  setShareToken(t);
+                  const url = `${window.location.origin}/parent/${t}`;
+                  await navigator.clipboard.writeText(url);
+                  setShareCopied(true);
+                  setTimeout(() => setShareCopied(false), 2500);
+                }
+              }}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-white/30 bg-white/10 px-3 py-2 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
+            >
+              <Link2 className="h-4 w-4" />
+              {shareCopied ? "Link copied!" : "Share with parent"}
+            </button>
             <Link
               href="/"
               className="inline-flex items-center gap-1.5 rounded-xl bg-cta-600 px-4 py-2.5 text-sm font-bold text-white shadow-md shadow-cta-600/30 transition hover:bg-cta-700"
@@ -338,6 +368,9 @@ function DashboardBody() {
           />
         </div>
 
+        {/* Weekly report */}
+        <WeeklyReport results={data.results} />
+
         {/* Achievements */}
         <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <div className="flex items-center gap-2">
@@ -416,6 +449,90 @@ function DashboardBody() {
 
       </div>
     </>
+  );
+}
+
+function WeeklyReport({ results }: { results: DashboardSummary["results"] }) {
+  const weekAgo = new Date(Date.now() - 7 * 86_400_000).toISOString();
+  const prevWeekAgo = new Date(Date.now() - 14 * 86_400_000).toISOString();
+
+  const thisWeek = results.filter((r) => r.completedAt >= weekAgo);
+  const lastWeek = results.filter((r) => r.completedAt >= prevWeekAgo && r.completedAt < weekAgo);
+
+  if (thisWeek.length === 0 && lastWeek.length === 0) return null;
+
+  const avgScore = (arr: typeof results) =>
+    arr.length === 0
+      ? null
+      : Math.round(arr.reduce((a, r) => a + (r.totalQuestions > 0 ? (r.score / r.totalQuestions) * 100 : 0), 0) / arr.length);
+
+  const thisAvg = avgScore(thisWeek);
+  const lastAvg = avgScore(lastWeek);
+  const delta = thisAvg !== null && lastAvg !== null ? thisAvg - lastAvg : null;
+
+  const subjectSet = new Set(thisWeek.map((r) => r.subject));
+  const subjects = [...subjectSet];
+
+  const motivation =
+    thisWeek.length === 0
+      ? "No practice yet this week. Even 5 minutes counts!"
+      : delta !== null && delta > 5
+      ? `Up ${delta}% vs last week — you're improving! 🚀`
+      : delta !== null && delta < -5
+      ? "Scores dipped a bit — review your weak topics below."
+      : thisWeek.length >= 5
+      ? "Fantastic consistency this week! Keep it going."
+      : "Good start — aim for 5 sessions this week.";
+
+  return (
+    <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+      <div className="flex items-center gap-2 border-b border-slate-100 px-6 py-4">
+        <BarChart2 className="h-5 w-5 text-brand-600" />
+        <h2 className="text-lg font-semibold text-slate-900">This Week</h2>
+        <span className="ml-auto text-xs text-slate-400">Last 7 days</span>
+      </div>
+      <div className="p-6">
+        <div className="grid gap-4 sm:grid-cols-3">
+          <div className="rounded-xl bg-brand-50 p-4 text-center">
+            <p className="text-2xl font-extrabold text-brand-700">{thisWeek.length}</p>
+            <p className="mt-0.5 text-xs text-brand-600">Tests this week</p>
+          </div>
+          <div className="rounded-xl bg-emerald-50 p-4 text-center">
+            <p className="text-2xl font-extrabold text-emerald-700">
+              {thisAvg !== null ? `${thisAvg}%` : "—"}
+            </p>
+            <p className="mt-0.5 text-xs text-emerald-600">Average score</p>
+          </div>
+          <div className="rounded-xl bg-violet-50 p-4 text-center">
+            <p className="text-2xl font-extrabold text-violet-700">{subjects.length}</p>
+            <p className="mt-0.5 text-xs text-violet-600">
+              {subjects.length === 1 ? "Subject" : "Subjects"} practiced
+            </p>
+          </div>
+        </div>
+
+        {delta !== null && (
+          <div className={`mt-4 flex items-center gap-2 rounded-lg px-3 py-2 text-sm ${delta >= 0 ? "bg-emerald-50 text-emerald-700" : "bg-red-50 text-red-700"}`}>
+            <TrendingUp className={`h-4 w-4 ${delta >= 0 ? "" : "rotate-180"}`} />
+            <span className="font-medium">
+              {delta >= 0 ? `+${delta}%` : `${delta}%`} vs last week
+            </span>
+          </div>
+        )}
+
+        {subjects.length > 0 && (
+          <div className="mt-4 flex flex-wrap gap-1.5">
+            {subjects.map((s) => (
+              <span key={s} className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                {s}
+              </span>
+            ))}
+          </div>
+        )}
+
+        <p className="mt-4 text-xs italic text-slate-500">{motivation}</p>
+      </div>
+    </section>
   );
 }
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ChevronLeft, ChevronRight, Flag, Timer } from "lucide-react";
+import { AlertTriangle, ChevronLeft, ChevronRight, Flag, Timer } from "lucide-react";
 import {
   SECONDS_PER_QUESTION,
   type AttemptResult,
@@ -18,10 +18,12 @@ function formatTime(seconds: number): string {
 export function TestArena({
   config,
   paper,
+  simulationMode = false,
   onSubmit
 }: {
   config: PreviewRequest;
   paper: GeneratedPaper;
+  simulationMode?: boolean;
   onSubmit: (result: AttemptResult) => void;
 }) {
   const questions = paper.questions;
@@ -29,14 +31,11 @@ export function TestArena({
   const totalSeconds = total * SECONDS_PER_QUESTION;
 
   const [current, setCurrent] = useState(0);
-  const [answers, setAnswers] = useState<(string | null)[]>(() =>
-    Array(total).fill(null)
-  );
+  const [answers, setAnswers] = useState<(string | null)[]>(() => Array(total).fill(null));
   const [flagged, setFlagged] = useState<boolean[]>(() => Array(total).fill(false));
   const [remaining, setRemaining] = useState(totalSeconds);
   const startedAt = useRef<number>(Date.now());
 
-  // We submit on timeout via this ref so the interval doesn't carry stale state
   const submitRef = useRef<() => void>();
   submitRef.current = () => {
     onSubmit({
@@ -52,39 +51,177 @@ export function TestArena({
   useEffect(() => {
     const id = window.setInterval(() => {
       setRemaining((r) => {
-        if (r <= 1) {
-          window.clearInterval(id);
-          submitRef.current?.();
-          return 0;
-        }
+        if (r <= 1) { window.clearInterval(id); submitRef.current?.(); return 0; }
         return r - 1;
       });
     }, 1000);
     return () => window.clearInterval(id);
   }, []);
 
-  const q = questions[current];
   const progress = useMemo(
     () => Math.round(((totalSeconds - remaining) / totalSeconds) * 100),
     [remaining, totalSeconds]
   );
+  const isUrgent = remaining <= 60;
+  const q = questions[current];
 
   function pick(option: string) {
-    setAnswers((prev) => {
-      const next = [...prev];
-      next[current] = option;
-      return next;
-    });
+    setAnswers((prev) => { const next = [...prev]; next[current] = option; return next; });
   }
-
   function toggleFlag() {
-    setFlagged((prev) => {
-      const next = [...prev];
-      next[current] = !next[current];
-      return next;
-    });
+    setFlagged((prev) => { const next = [...prev]; next[current] = !next[current]; return next; });
   }
 
+  // ── Simulation mode: full-screen exam hall ──────────────────────────────
+  if (simulationMode) {
+    return (
+      <div className="fixed inset-0 z-50 flex flex-col overflow-auto bg-white">
+        {/* Exam header bar */}
+        <div className={`flex shrink-0 items-center justify-between border-b px-6 py-3 ${isUrgent ? "border-red-300 bg-red-50" : "border-slate-200 bg-slate-50"}`}>
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">Exam Simulation</p>
+            <p className="text-sm font-bold text-slate-800">
+              Class {config.grade} {config.subject} · {config.difficulty}
+            </p>
+          </div>
+          <div className={`flex items-center gap-2 rounded-xl px-4 py-2 font-mono text-xl font-black ${isUrgent ? "animate-pulse bg-red-100 text-red-700" : "bg-slate-100 text-slate-800"}`}>
+            {isUrgent && <AlertTriangle className="h-5 w-5" />}
+            {formatTime(remaining)}
+          </div>
+          <p className="text-sm font-semibold text-slate-500">
+            Q {current + 1} / {total}
+          </p>
+        </div>
+
+        {/* Progress bar */}
+        <div className="h-1 shrink-0 bg-slate-100">
+          <div
+            className={`h-full transition-all ${isUrgent ? "bg-red-500" : "bg-brand-600"}`}
+            style={{ width: `${progress}%` }}
+          />
+        </div>
+
+        {/* Question area */}
+        <div className="mx-auto w-full max-w-3xl flex-1 px-6 py-8">
+          {/* Flag banner */}
+          {flagged[current] && (
+            <div className="mb-4 flex items-center gap-2 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-700">
+              <Flag className="h-3.5 w-3.5" /> Marked for review
+            </div>
+          )}
+
+          <p className="text-lg font-semibold leading-relaxed text-slate-900">{q.q}</p>
+
+          <ul className="mt-6 grid gap-3">
+            {q.options.map((opt, i) => {
+              const isPicked = answers[current] === opt;
+              return (
+                <li key={i}>
+                  <button
+                    type="button"
+                    onClick={() => pick(opt)}
+                    className={`flex w-full items-center gap-4 rounded-xl border-2 px-5 py-4 text-left text-sm transition ${
+                      isPicked
+                        ? "border-brand-600 bg-brand-50 text-brand-900"
+                        : "border-slate-200 bg-white text-slate-700 hover:border-brand-300 hover:bg-slate-50"
+                    }`}
+                  >
+                    <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-mono font-bold text-sm ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
+                      {String.fromCharCode(65 + i)}
+                    </span>
+                    <span className="flex-1">{opt}</span>
+                    {isPicked && (
+                      <svg className="h-5 w-5 shrink-0 text-brand-600" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      </svg>
+                    )}
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+
+          {/* Question navigation */}
+          <div className="mt-8 flex items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setCurrent((c) => Math.max(0, c - 1))}
+              disabled={current === 0}
+              className="inline-flex items-center gap-1 rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50 disabled:opacity-40"
+            >
+              <ChevronLeft className="h-4 w-4" /> Prev
+            </button>
+            <button
+              type="button"
+              onClick={toggleFlag}
+              className={`inline-flex items-center gap-1 rounded-lg border px-4 py-2.5 text-sm font-medium transition ${
+                flagged[current]
+                  ? "border-amber-400 bg-amber-50 text-amber-700"
+                  : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+              }`}
+            >
+              <Flag className="h-4 w-4" />
+              {flagged[current] ? "Unflag" : "Flag"}
+            </button>
+
+            <div className="ml-auto flex gap-2">
+              {current < total - 1 ? (
+                <button
+                  type="button"
+                  onClick={() => setCurrent((c) => Math.min(total - 1, c + 1))}
+                  className="inline-flex items-center gap-1 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700"
+                >
+                  Next <ChevronRight className="h-4 w-4" />
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => submitRef.current?.()}
+                  className="rounded-xl bg-cta-600 px-6 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-cta-700"
+                >
+                  Submit Exam
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Question palette (compact, bottom of sim) */}
+          <div className="mt-10 border-t border-slate-100 pt-6">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-slate-400">Question Palette</p>
+            <div className="flex flex-wrap gap-1.5">
+              {questions.map((_, i) => {
+                const answered = answers[i] !== null;
+                const isFlag = flagged[i];
+                const isCur = i === current;
+                return (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => setCurrent(i)}
+                    className={`h-8 w-8 rounded text-xs font-bold transition ${
+                      isCur ? "bg-brand-600 text-white"
+                      : isFlag ? "bg-amber-100 text-amber-700 ring-1 ring-amber-400"
+                      : answered ? "bg-emerald-100 text-emerald-800"
+                      : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+                    }`}
+                  >
+                    {i + 1}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="mt-3 flex gap-4 text-xs text-slate-500">
+              <span className="flex items-center gap-1"><span className="inline-block h-3 w-3 rounded bg-emerald-100" />Answered</span>
+              <span className="flex items-center gap-1"><span className="inline-block h-3 w-3 rounded bg-amber-100 ring-1 ring-amber-400" />Flagged</span>
+              <span className="flex items-center gap-1"><span className="inline-block h-3 w-3 rounded bg-slate-100" />Unanswered</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Normal mode ──────────────────────────────────────────────────────────
   return (
     <div className="grid w-full max-w-6xl gap-6 lg:grid-cols-[1fr_240px]">
       <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -92,7 +229,7 @@ export function TestArena({
           <span className="font-semibold text-slate-700">
             Question {current + 1} of {total}
           </span>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 font-mono text-slate-700">
+          <span className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono ${isUrgent ? "animate-pulse bg-red-100 text-red-700" : "bg-slate-100 text-slate-700"}`}>
             <Timer className="h-3.5 w-3.5" />
             {formatTime(remaining)}
           </span>
@@ -100,7 +237,7 @@ export function TestArena({
 
         <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-slate-100">
           <div
-            className="h-full bg-brand-600 transition-all"
+            className={`h-full transition-all ${isUrgent ? "bg-red-500" : "bg-brand-600"}`}
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -121,11 +258,7 @@ export function TestArena({
                       : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
                   }`}
                 >
-                  <span
-                    className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full font-mono text-xs ${
-                      isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"
-                    }`}
-                  >
+                  <span className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full font-mono text-xs ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
                     {String.fromCharCode(65 + i)}
                   </span>
                   <span>{opt}</span>
@@ -193,13 +326,10 @@ export function TestArena({
                 type="button"
                 onClick={() => setCurrent(i)}
                 className={`h-8 w-8 rounded text-xs font-semibold transition ${
-                  isCurrent
-                    ? "bg-brand-600 text-white"
-                    : isFlag
-                    ? "bg-achiever-50 text-achiever-700 ring-1 ring-achiever-600"
-                    : answered
-                    ? "bg-emerald-100 text-emerald-800"
-                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                  isCurrent ? "bg-brand-600 text-white"
+                  : isFlag ? "bg-achiever-50 text-achiever-700 ring-1 ring-achiever-600"
+                  : answered ? "bg-emerald-100 text-emerald-800"
+                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                 }`}
               >
                 {i + 1}

@@ -18,8 +18,8 @@ import { UpgradeModal } from "./UpgradeModal";
 
 type Phase =
   | { kind: "config"; suggestedConfig?: Partial<PreviewRequest>; adaptiveMessage?: string }
-  | { kind: "arena"; config: PreviewRequest; paper: GeneratedPaper }
-  | { kind: "results"; result: AttemptResult };
+  | { kind: "arena"; config: PreviewRequest; paper: GeneratedPaper; simulationMode: boolean }
+  | { kind: "results"; result: AttemptResult; simulationMode: boolean };
 
 export function GeneratorFlow({ initialConfig }: { initialConfig?: Partial<PreviewRequest> } = {}) {
   const [phase, setPhase] = useState<Phase>({ kind: "config", suggestedConfig: initialConfig });
@@ -73,8 +73,8 @@ export function GeneratorFlow({ initialConfig }: { initialConfig?: Partial<Previ
           <ConfigForm
             initialConfig={phase.suggestedConfig}
             adaptiveMessage={phase.adaptiveMessage}
-            onGenerated={(config, paper) => {
-              setPhase({ kind: "arena", config, paper });
+            onGenerated={(config, paper, simulationMode) => {
+              setPhase({ kind: "arena", config, paper, simulationMode });
               void refresh();
             }}
             onQuotaExceeded={handleQuotaExceeded}
@@ -84,12 +84,14 @@ export function GeneratorFlow({ initialConfig }: { initialConfig?: Partial<Previ
           <TestArena
             config={phase.config}
             paper={phase.paper}
-            onSubmit={(result) => setPhase({ kind: "results", result })}
+            simulationMode={phase.simulationMode}
+            onSubmit={(result) => setPhase({ kind: "results", result, simulationMode: phase.simulationMode })}
           />
         )}
         {phase.kind === "results" && (
           <ResultsScreen
             result={phase.result}
+            simulationMode={phase.simulationMode}
             onRestart={() => handleRestart(phase.result)}
           />
         )}

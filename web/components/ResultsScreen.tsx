@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Download, RotateCcw } from "lucide-react";
+import { CheckCircle2, Download, RotateCcw, Share2, XCircle } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import type { AttemptResult } from "@/lib/types";
 import { CircularScore } from "./CircularScore";
@@ -17,9 +17,11 @@ function formatDuration(seconds: number): string {
 
 export function ResultsScreen({
   result,
+  simulationMode = false,
   onRestart
 }: {
   result: AttemptResult;
+  simulationMode?: boolean;
   onRestart: () => void;
 }) {
   const { paperId, questions, userAnswers, flagged, timeTakenSeconds, config } = result;
@@ -32,6 +34,7 @@ export function ResultsScreen({
 
   const [downloading, setDownloading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
   const submitted = useRef(false);
 
   // Persist the result once. Strict-mode guarded so the double-mount in dev doesn't double-insert.
@@ -111,6 +114,28 @@ export function ResultsScreen({
             </button>
             <button
               type="button"
+              onClick={() => {
+                const pct = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
+                const url = new URL("/challenge", window.location.origin);
+                url.searchParams.set("s", config.subject);
+                url.searchParams.set("g", String(config.grade));
+                url.searchParams.set("d", config.difficulty);
+                url.searchParams.set("c", String(questions.length));
+                url.searchParams.set("score", String(score));
+                url.searchParams.set("total", String(questions.length));
+                url.searchParams.set("pct", String(pct));
+                navigator.clipboard.writeText(url.toString()).then(() => {
+                  setCopied(true);
+                  setTimeout(() => setCopied(false), 2500);
+                });
+              }}
+              className="inline-flex items-center gap-2 rounded-xl border border-brand-300 bg-brand-50 px-4 py-2.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100"
+            >
+              <Share2 className="h-4 w-4" />
+              {copied ? "Link copied!" : "Challenge a friend"}
+            </button>
+            <button
+              type="button"
               onClick={onRestart}
               className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
             >
@@ -124,6 +149,74 @@ export function ResultsScreen({
           )}
         </div>
       </section>
+
+      {/* OMR sheet — shown in simulation mode before the full review */}
+      {simulationMode && (
+        <section className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+          <div className="bg-slate-800 px-6 py-4">
+            <h2 className="text-sm font-bold uppercase tracking-widest text-slate-300">OMR Answer Sheet</h2>
+            <p className="mt-0.5 text-xs text-slate-400">Your responses vs. correct answers</p>
+          </div>
+          <div className="overflow-x-auto p-4">
+            <table className="w-full text-center text-sm">
+              <thead>
+                <tr className="border-b border-slate-100 text-xs font-semibold uppercase tracking-wide text-slate-400">
+                  <th className="pb-2 pr-4 text-left">Q</th>
+                  {["A", "B", "C", "D"].map((l) => (
+                    <th key={l} className="w-10 pb-2">{l}</th>
+                  ))}
+                  <th className="pb-2 pl-4 text-left">Result</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-50">
+                {questions.map((q, i) => {
+                  const correctIdx = q.options.indexOf(q.answer);
+                  const userIdx = userAnswers[i] !== null ? q.options.indexOf(userAnswers[i]!) : -1;
+                  const isCorrect = userIdx === correctIdx;
+                  return (
+                    <tr key={i} className={`${isCorrect ? "bg-emerald-50/40" : userAnswers[i] === null ? "" : "bg-red-50/40"}`}>
+                      <td className="py-1.5 pr-4 text-left font-semibold text-slate-600">{i + 1}</td>
+                      {[0, 1, 2, 3].map((optIdx) => {
+                        const isCorrectBubble = optIdx === correctIdx;
+                        const isUserBubble = optIdx === userIdx;
+                        return (
+                          <td key={optIdx} className="py-1.5">
+                            <span className={`inline-flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold transition ${
+                              isCorrectBubble && isUserBubble
+                                ? "bg-emerald-500 text-white"
+                                : isUserBubble
+                                ? "bg-red-500 text-white"
+                                : isCorrectBubble
+                                ? "bg-emerald-200 text-emerald-800 ring-2 ring-emerald-400"
+                                : "bg-slate-100 text-slate-400"
+                            }`}>
+                              {String.fromCharCode(65 + optIdx)}
+                            </span>
+                          </td>
+                        );
+                      })}
+                      <td className="py-1.5 pl-4 text-left">
+                        {userAnswers[i] === null ? (
+                          <span className="text-xs text-slate-400">—</span>
+                        ) : isCorrect ? (
+                          <CheckCircle2 className="h-4 w-4 text-emerald-500" />
+                        ) : (
+                          <XCircle className="h-4 w-4 text-red-500" />
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <div className="border-t border-slate-100 px-6 py-3 text-xs text-slate-500">
+            <span className="mr-4"><span className="inline-block h-3 w-3 rounded-full bg-emerald-500 align-middle" /> Correct answer picked</span>
+            <span className="mr-4"><span className="inline-block h-3 w-3 rounded-full bg-red-500 align-middle" /> Wrong answer picked</span>
+            <span><span className="inline-block h-3 w-3 rounded-full bg-emerald-200 ring-1 ring-emerald-400 align-middle" /> Correct answer (not chosen)</span>
+          </div>
+        </section>
+      )}
 
       <section className="mt-6 grid gap-3">
         <h2 className="text-lg font-semibold text-slate-900">Review answers</h2>
