@@ -67,59 +67,39 @@ public class PapersController : ControllerBase
             // -------------------------------------------------------
             string jsonContent;
             List<Question> questions;
-            bool fromBank = false;
-            bool fromCache = false;
 
             if (quota.Tier == "Free")
             {
+                // Free tier: serve from question bank (randomly sampled — fresh selection each time).
+                // Falls back to Claude only when the bank has too few questions for this combo.
                 var bankQuestions = await _bank.TryGetRandomAsync(
-                    req.Subject, req.Grade, req.Difficulty, req.Count, ct);
+                    req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct);
 
                 if (bankQuestions is not null)
                 {
                     _log.LogInformation(
-                        "Free tier — serving {Count} questions from QuestionBank for {Subject} G{Grade} {Difficulty}",
+                        "Free tier — serving {Count} questions from bank for {Subject} G{Grade} {Difficulty}",
                         req.Count, req.Subject, req.Grade, req.Difficulty);
                     questions = bankQuestions;
                     jsonContent = JsonSerializer.Serialize(questions);
-                    fromBank = true;
                 }
                 else
                 {
-                    // Bank not yet seeded for this combination — fall back to Claude
                     _log.LogInformation(
-                        "Free tier — QuestionBank insufficient for {Subject} G{Grade} {Difficulty}; falling back to Claude",
+                        "Free tier — bank insufficient for {Subject} G{Grade} {Difficulty}; falling back to Claude",
                         req.Subject, req.Grade, req.Difficulty);
                     questions = await _claude.GenerateQuestionsAsync(
-                        req.Subject, req.Grade, req.Difficulty, req.Count, ct);
+                        req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct);
                     jsonContent = JsonSerializer.Serialize(questions);
                 }
             }
             else
             {
-                // Pro: try the paper cache first (exact config hit reuses stored JSON),
-                // otherwise call Claude for fresh live questions.
-                var cacheKey = PaperCacheKey.Compute(req.Subject, req.Grade, req.Difficulty, req.Count);
-
-                var cached = await _db.Papers.AsNoTracking()
-                    .Where(p => p.ContentHash == cacheKey)
-                    .OrderByDescending(p => p.CreatedAt)
-                    .FirstOrDefaultAsync(ct);
-
-                if (cached is not null)
-                {
-                    _log.LogInformation("Pro tier — question cache HIT for {CacheKey}", cacheKey);
-                    jsonContent = cached.JsonContent;
-                    questions = JsonSerializer.Deserialize<List<Question>>(jsonContent) ?? new();
-                    fromCache = true;
-                }
-                else
-                {
-                    _log.LogInformation("Pro tier — question cache MISS; calling Claude");
-                    questions = await _claude.GenerateQuestionsAsync(
-                        req.Subject, req.Grade, req.Difficulty, req.Count, ct);
-                    jsonContent = JsonSerializer.Serialize(questions);
-                }
+                // Pro tier: always call Claude for a genuinely fresh, unique paper every time.
+                _log.LogInformation("Pro tier — generating fresh questions via Claude");
+                questions = await _claude.GenerateQuestionsAsync(
+                    req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct);
+                jsonContent = JsonSerializer.Serialize(questions);
             }
 
             var paper = new QuestionPaper
@@ -132,6 +112,7 @@ public class PapersController : ControllerBase
                 JsonContent = jsonContent,
                 ContentHash = PaperCacheKey.Compute(req.Subject, req.Grade, req.Difficulty, req.Count)
             };
+            // ContentHash is kept for future analytics; it is no longer used as a cache lookup key.
             _db.Papers.Add(paper);
             await _db.SaveChangesAsync(ct);
 
@@ -142,9 +123,7 @@ public class PapersController : ControllerBase
                 subject = paper.Subject,
                 grade = paper.Grade,
                 difficulty = paper.DifficultyLevel,
-                questions,
-                fromBank,
-                cached = fromCache
+                questions
             });
         }
         catch (InvalidOperationException ex)

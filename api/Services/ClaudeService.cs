@@ -136,15 +136,20 @@ public class ClaudeService
     }
 
     public async Task<List<Question>> GenerateQuestionsAsync(
-        string subject, int grade, string difficulty, int count, CancellationToken ct = default)
+        string subject, int grade, string difficulty, int count,
+        string? topic = null, CancellationToken ct = default)
     {
         if (string.IsNullOrWhiteSpace(_apiKey) || _apiKey.StartsWith("REPLACE_"))
             throw new InvalidOperationException(
                 "Anthropic API key not configured. Set Anthropic:ApiKey via user-secrets or appsettings.");
 
+        var topicClause = topic is not null
+            ? $" ALL questions must be exclusively about the topic \"{topic}\" — do not include questions on other topics."
+            : "";
+
         var user =
             $"Generate exactly {count} multiple-choice questions for Class {grade} {subject} " +
-            $"at {difficulty} difficulty. Follow the schema and rules from the system prompt strictly.";
+            $"at {difficulty} difficulty.{topicClause} Follow the schema and rules from the system prompt strictly.";
 
         // System block as an array with cache_control so Anthropic caches the prompt across calls.
         // Below the cache threshold, this is a no-op; once SystemPrompt grows past ~1024 tokens

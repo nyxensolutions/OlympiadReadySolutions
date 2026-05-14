@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, Flame, Loader2, Sparkles, Trophy } from "lucide-react";
+import { ArrowRight, Flame, Lock, Loader2, Shield, Sparkles, Trophy } from "lucide-react";
 import { useAuth, SignedIn, SignedOut } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
 import { MasteryHeatmap } from "@/components/MasteryHeatmap";
@@ -10,14 +10,19 @@ import { RecentPapersCard } from "@/components/RecentPapersCard";
 import { ScoreTrendChart } from "@/components/ScoreTrendChart";
 import { SubscriptionBadge } from "@/components/SubscriptionBadge";
 import type { DashboardSummary } from "@/lib/types";
+import { getShieldState, useShield as consumeShield } from "@/lib/streakShield";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
-function computeStreak(results: DashboardSummary["results"]): number {
-  if (results.length === 0) return 0;
-  const dates = [
-    ...new Set(results.map((r) => r.completedAt.split("T")[0]))
-  ].sort().reverse();
+function computeStreak(
+  results: DashboardSummary["results"],
+  shieldedDates: string[] = []
+): number {
+  if (results.length === 0 && shieldedDates.length === 0) return 0;
+  const practicedDates = new Set(results.map((r) => r.completedAt.split("T")[0]));
+  shieldedDates.forEach((d) => practicedDates.add(d));
+  const dates = [...practicedDates].sort().reverse();
+  if (dates.length === 0) return 0;
   const today = new Date().toISOString().split("T")[0];
   const yesterday = new Date(Date.now() - 86_400_000).toISOString().split("T")[0];
   if (dates[0] !== today && dates[0] !== yesterday) return 0;
@@ -147,6 +152,10 @@ function DashboardBody() {
   const [data, setData] = useState<DashboardSummary | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [shieldState, setShieldState] = useState<{ shields: number; usedDates: string[] }>({
+    shields: 0,
+    usedDates: [],
+  });
 
   useEffect(() => {
     if (!isLoaded) return;
@@ -161,7 +170,12 @@ function DashboardBody() {
         });
         if (!res.ok) throw new Error(`Failed to load dashboard (${res.status})`);
         const summary: DashboardSummary = await res.json();
-        if (!cancelled) setData(summary);
+        if (!cancelled) {
+          setData(summary);
+          const tier = summary.subscription.tier as "Free" | "Pro";
+          const ss = getShieldState(tier);
+          setShieldState({ shields: ss.shields, usedDates: ss.usedDates });
+        }
       } catch (err) {
         if (!cancelled) setError(err instanceof Error ? err.message : "Failed to load");
       } finally {
@@ -192,7 +206,7 @@ function DashboardBody() {
 
   if (!data) return null;
 
-  const streak = computeStreak(data.results);
+  const streak = computeStreak(data.results, shieldState.usedDates);
   const badges = computeBadges(data);
   const earnedCount = badges.filter((b) => b.earned).length;
   const avg =
@@ -245,10 +259,10 @@ function DashboardBody() {
       <div className="mx-auto max-w-6xl px-4 py-8 space-y-6">
 
         {/* Streak banner */}
-        {streak >= 1 && (
-          <div className="flex items-center gap-3 rounded-2xl border border-orange-200 bg-orange-50 px-5 py-4">
+        {streak >= 1 ? (
+          <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-orange-200 bg-orange-50 px-5 py-4">
             <Flame className="h-6 w-6 shrink-0 text-orange-500" />
-            <div>
+            <div className="flex-1">
               <p className="text-sm font-bold text-orange-800">
                 {streak}-day streak! Keep it up 🔥
               </p>
@@ -258,6 +272,46 @@ function DashboardBody() {
                   : "Practice again tomorrow to extend your streak."}
               </p>
             </div>
+            {data.subscription.tier === "Pro" && shieldState.shields > 0 && (
+              <div className="flex items-center gap-1.5 rounded-xl bg-indigo-100 px-3 py-1.5 text-xs font-semibold text-indigo-700">
+                <Shield className="h-3.5 w-3.5" />
+                {shieldState.shields} shield{shieldState.shields === 1 ? "" : "s"} left this month
+              </div>
+            )}
+          </div>
+        ) : (
+          /* Streak broken — show shield option for Pro */
+          <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-sm">
+            <Flame className="h-6 w-6 shrink-0 text-slate-300" />
+            <div className="flex-1">
+              <p className="text-sm font-bold text-slate-700">No active streak</p>
+              <p className="text-xs text-slate-500">
+                {data.subscription.tier === "Pro" && shieldState.shields > 0
+                  ? "Use a streak shield to protect yesterday's progress, or practise today to start a new streak."
+                  : "Practise today to start building your streak!"}
+              </p>
+            </div>
+            {data.subscription.tier === "Pro" && shieldState.shields > 0 && (
+              <button
+                type="button"
+                onClick={() => {
+                  const ok = consumeShield(data.subscription.tier as "Free" | "Pro");
+                  if (ok) {
+                    const updated = getShieldState(data.subscription.tier as "Free" | "Pro");
+                    setShieldState({ shields: updated.shields, usedDates: updated.usedDates });
+                  }
+                }}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-brand-600 px-4 py-2 text-xs font-bold text-white shadow-sm transition hover:bg-brand-700"
+              >
+                <Shield className="h-3.5 w-3.5" />
+                Use shield ({shieldState.shields} left)
+              </button>
+            )}
+            {data.subscription.tier === "Free" && (
+              <div className="rounded-xl border border-brand-200 bg-brand-50 px-3 py-2 text-xs text-brand-700">
+                <span className="font-bold">Pro</span> users get 2 streak shields/month.
+              </div>
+            )}
           </div>
         )}
 
@@ -298,17 +352,31 @@ function DashboardBody() {
               <div
                 key={badge.id}
                 title={badge.description}
-                className={`flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition ${
+                className={`relative flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition ${
                   badge.earned
-                    ? "border-amber-200 bg-amber-50"
-                    : "border-slate-100 bg-slate-50 opacity-40 grayscale"
+                    ? "border-amber-200 bg-gradient-to-b from-amber-50 to-white shadow-sm"
+                    : "border-slate-200 bg-white"
                 }`}
               >
-                <span className="text-2xl">{badge.emoji}</span>
+                {!badge.earned && (
+                  <span className="absolute right-2 top-2 rounded-full bg-slate-100 p-0.5">
+                    <Lock className="h-3 w-3 text-slate-400" />
+                  </span>
+                )}
+                <span className={`text-2xl ${badge.earned ? "" : "grayscale opacity-50"}`}>
+                  {badge.emoji}
+                </span>
                 <p className={`text-xs font-bold ${badge.earned ? "text-amber-800" : "text-slate-500"}`}>
                   {badge.label}
                 </p>
-                <p className="text-[10px] leading-tight text-slate-400">{badge.description}</p>
+                <p className={`text-[10px] leading-tight ${badge.earned ? "text-amber-600" : "text-slate-400"}`}>
+                  {badge.description}
+                </p>
+                {badge.earned && (
+                  <span className="mt-0.5 rounded-full bg-amber-200 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-amber-800">
+                    Earned
+                  </span>
+                )}
               </div>
             ))}
           </div>

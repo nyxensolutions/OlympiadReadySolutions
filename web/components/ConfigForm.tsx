@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Loader2, Sparkles } from "lucide-react";
+import { Loader2, Sparkles, TrendingUp } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import {
   DIFFICULTIES,
@@ -18,17 +18,21 @@ import { SubjectCard } from "./SubjectCard";
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
 export function ConfigForm({
+  initialConfig,
+  adaptiveMessage,
   onGenerated,
   onQuotaExceeded
 }: {
+  initialConfig?: Partial<PreviewRequest>;
+  adaptiveMessage?: string;
   onGenerated: (config: PreviewRequest, paper: GeneratedPaper) => void;
   onQuotaExceeded: (info: QuotaError) => void;
 }) {
   const { getToken } = useAuth();
-  const [subject, setSubject] = useState<string>("Math");
-  const [grade, setGrade] = useState<number>(6);
-  const [difficulty, setDifficulty] = useState<string>("Foundation");
-  const [count, setCount] = useState<number>(5);
+  const [subject, setSubject] = useState<string>(initialConfig?.subject ?? "Math");
+  const [grade, setGrade] = useState<number>(initialConfig?.grade ?? 6);
+  const [difficulty, setDifficulty] = useState<string>(initialConfig?.difficulty ?? "Foundation");
+  const [count, setCount] = useState<number>(initialConfig?.count ?? 5);
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -88,6 +92,17 @@ export function ConfigForm({
       </div>
 
       <div className="p-6">
+
+      {adaptiveMessage && (
+        <div className="mb-5 flex items-start gap-3 rounded-xl border border-brand-200 bg-brand-50 px-4 py-3">
+          <TrendingUp className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" />
+          <div>
+            <p className="text-xs font-bold text-brand-800">AI Recommendation</p>
+            <p className="text-xs text-brand-700">{adaptiveMessage}</p>
+          </div>
+        </div>
+      )}
+
       <div>
         <p className="text-sm font-semibold text-slate-700">Pick a subject</p>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -131,26 +146,34 @@ export function ConfigForm({
         <fieldset className="flex flex-col gap-1 text-sm font-medium text-slate-700">
           <legend>Level</legend>
           <div className="mt-1 flex gap-2">
-            {DIFFICULTIES.map((d) => (
-              <label
-                key={d}
-                className={`flex-1 cursor-pointer rounded-lg border px-3 py-2 text-center text-sm transition ${
-                  difficulty === d
-                    ? "border-brand-600 bg-brand-50 text-brand-700"
-                    : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
-                }`}
-              >
-                <input
-                  type="radio"
-                  name="difficulty"
-                  value={d}
-                  checked={difficulty === d}
-                  onChange={() => setDifficulty(d)}
-                  className="sr-only"
-                />
-                {d}
-              </label>
-            ))}
+            {DIFFICULTIES.map((d) => {
+              const isRecommended = initialConfig?.difficulty === d && adaptiveMessage;
+              return (
+                <label
+                  key={d}
+                  className={`relative flex-1 cursor-pointer rounded-lg border px-3 py-2 text-center text-sm transition ${
+                    difficulty === d
+                      ? "border-brand-600 bg-brand-50 text-brand-700"
+                      : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+                  }`}
+                >
+                  {isRecommended && (
+                    <span className="absolute -top-2 left-1/2 -translate-x-1/2 rounded-full bg-cta-600 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-white">
+                      AI Pick
+                    </span>
+                  )}
+                  <input
+                    type="radio"
+                    name="difficulty"
+                    value={d}
+                    checked={difficulty === d}
+                    onChange={() => setDifficulty(d)}
+                    className="sr-only"
+                  />
+                  {d}
+                </label>
+              );
+            })}
           </div>
         </fieldset>
       </div>

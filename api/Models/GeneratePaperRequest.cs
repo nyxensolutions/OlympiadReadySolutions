@@ -15,6 +15,10 @@ public class GeneratePaperRequest : IValidatableObject
     [Range(1, 50)]
     public int Count { get; set; } = 10;
 
+    /// <summary>Optional: restrict questions to this topic (must match QB topic strings).</summary>
+    [StringLength(80)]
+    public string? Topic { get; set; }
+
     // Mirrors SUBJECT_GRADE_MAP in web/lib/types.ts — keep in sync.
     private static readonly Dictionary<string, (int Min, int Max)> GradeRanges = new(StringComparer.OrdinalIgnoreCase)
     {

@@ -29,29 +29,27 @@ public class QuestionBankService
     /// </summary>
     public async Task<List<Question>?> TryGetRandomAsync(
         string subject, int grade, string difficulty, int count,
-        CancellationToken ct = default)
+        string? topic = null, CancellationToken ct = default)
     {
-        // Count available first to avoid pulling the whole table.
-        var available = await _db.QuestionBank
+        var baseQuery = _db.QuestionBank
             .Where(q => q.Subject == subject
                      && q.Grade == grade
-                     && q.Difficulty == difficulty)
-            .CountAsync(ct);
+                     && q.Difficulty == difficulty);
+
+        if (topic is not null)
+            baseQuery = baseQuery.Where(q => q.Topic == topic);
+
+        var available = await baseQuery.CountAsync(ct);
 
         if (available < count)
         {
             _log.LogInformation(
-                "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty}; need {Count}",
-                available, subject, grade, difficulty, count);
+                "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty} topic={Topic}; need {Count}",
+                available, subject, grade, difficulty, topic ?? "any", count);
             return null;
         }
 
-        // Random sample via ORDER BY NEWID() — EF Core translates Guid.NewGuid() to NEWID() on SQL Server,
-        // which gives true per-row randomness (unlike RAND() which is evaluated once per statement).
-        var items = await _db.QuestionBank
-            .Where(q => q.Subject == subject
-                     && q.Grade == grade
-                     && q.Difficulty == difficulty)
+        var items = await baseQuery
             .OrderBy(_ => Guid.NewGuid())
             .Take(count)
             .AsNoTracking()

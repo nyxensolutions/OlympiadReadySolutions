@@ -43,6 +43,7 @@ export type PreviewRequest = {
   grade: number;
   difficulty: string;
   count: number;
+  topic?: string;
 };
 
 export type GeneratedPaper = {
@@ -52,7 +53,6 @@ export type GeneratedPaper = {
   grade: number;
   difficulty: string;
   questions: Question[];
-  cached?: boolean;
 };
 
 export type AttemptResult = {
@@ -63,6 +63,29 @@ export type AttemptResult = {
   timeTakenSeconds: number;
   config: PreviewRequest;
 };
+
+export function recommendNextDifficulty(
+  scorePct: number,
+  currentDifficulty: string
+): { difficulty: string; reason: string } | null {
+  const order = ["Foundation", "Advanced", "Olympiad"];
+  const idx = order.indexOf(currentDifficulty);
+  if (idx === -1) return null;
+
+  if (scorePct >= 80 && idx < order.length - 1) {
+    return {
+      difficulty: order[idx + 1],
+      reason: `Great score (${Math.round(scorePct)}%)! You're ready to step up.`,
+    };
+  }
+  if (scorePct < 45 && idx > 0) {
+    return {
+      difficulty: order[idx - 1],
+      reason: `Score was ${Math.round(scorePct)}%. Build confidence at a lower level first.`,
+    };
+  }
+  return null;
+}
 
 export type SubscriptionStatus = {
   tier: "Free" | "Pro";

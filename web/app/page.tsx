@@ -3,8 +3,23 @@ import { Sparkles } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { GeneratorFlow } from "@/components/GeneratorFlow";
 import { LandingPage } from "@/components/LandingPage";
+import type { PreviewRequest } from "@/lib/types";
 
-export default function Home() {
+export default function Home({
+  searchParams
+}: {
+  searchParams?: { subject?: string; grade?: string; difficulty?: string; topic?: string };
+}) {
+  const initialConfig: Partial<PreviewRequest> | undefined =
+    searchParams && Object.keys(searchParams).length > 0
+      ? {
+          subject: searchParams.subject,
+          grade: searchParams.grade ? Number(searchParams.grade) : undefined,
+          difficulty: searchParams.difficulty,
+          topic: searchParams.topic,
+        }
+      : undefined;
+
   return (
     <>
       {/* ── Signed-out: full marketing landing page ── */}
@@ -24,22 +39,25 @@ export default function Home() {
           <div className="bg-gradient-brand px-4 py-10 text-white">
             <div className="mx-auto max-w-6xl">
               <p className="text-xs font-semibold uppercase tracking-widest text-brand-200">
-                Practice Session
+                {initialConfig?.topic ? `Topic: ${initialConfig.topic}` : "Practice Session"}
               </p>
               <h1 className="mt-1 flex items-center gap-3 text-2xl font-extrabold sm:text-3xl">
                 <Sparkles className="h-7 w-7 text-yellow-300" />
-                What would you like to practice today?
+                {initialConfig?.topic
+                  ? `Practice: ${initialConfig.topic}`
+                  : "What would you like to practice today?"}
               </h1>
               <p className="mt-2 max-w-xl text-sm text-brand-200">
-                Pick a subject, class, and difficulty — Claude AI generates a fresh,
-                exam-style paper in seconds.
+                {initialConfig?.topic
+                  ? `Focused on ${initialConfig.topic} — ${initialConfig.subject ?? ""} Class ${initialConfig.grade ?? ""}.`
+                  : "Pick a subject, class, and difficulty — Claude AI generates a fresh, exam-style paper in seconds."}
               </p>
             </div>
           </div>
 
           {/* Generator content */}
           <div className="mx-auto max-w-6xl px-4 py-8">
-            <GeneratorFlow />
+            <GeneratorFlow initialConfig={initialConfig} />
           </div>
         </div>
       </SignedIn>
