@@ -16,7 +16,7 @@ export function CTASection() {
         </p>
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <SignUpButton mode="modal">
-            <button className="inline-flex items-center gap-2 rounded-xl bg-white px-8 py-4 font-bold text-blue-700 shadow-lg transition hover:bg-blue-50 hover:shadow-xl">
+            <button className="inline-flex items-center gap-2 rounded-xl bg-cta-600 px-8 py-4 font-bold text-white shadow-lg shadow-cta-600/30 transition hover:bg-cta-700 hover:shadow-xl">
               <Sparkles className="h-5 w-5" />
               Create free account
             </button>

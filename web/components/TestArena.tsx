@@ -86,7 +86,7 @@ export function TestArena({
   }
 
   return (
-    <div className="grid w-full max-w-5xl gap-6 lg:grid-cols-[1fr_220px]">
+    <div className="grid w-full max-w-6xl gap-6 lg:grid-cols-[1fr_240px]">
       <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div className="flex items-center justify-between text-sm">
           <span className="font-semibold text-slate-700">
@@ -169,7 +169,7 @@ export function TestArena({
               <button
                 type="button"
                 onClick={() => submitRef.current?.()}
-                className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
+                className="rounded-xl bg-cta-600 px-4 py-2 text-sm font-bold text-white shadow-md shadow-cta-600/20 transition hover:bg-cta-700"
               >
                 Submit test
               </button>

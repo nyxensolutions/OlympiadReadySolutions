@@ -7,9 +7,10 @@ export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-hero px-4 pb-24 pt-20 text-white sm:pt-28">
       {/* Animated background blobs */}
-      <div className="pointer-events-none absolute inset-0 opacity-20">
-        <div className="absolute right-20 top-10 h-72 w-72 rounded-full bg-indigo-400 blur-3xl" />
-        <div className="absolute bottom-10 left-10 h-72 w-72 rounded-full bg-blue-300 blur-3xl" />
+      <div className="pointer-events-none absolute inset-0 opacity-30">
+        <div className="absolute right-20 top-10 h-80 w-80 rounded-full bg-violet-500 blur-3xl" />
+        <div className="absolute bottom-10 left-10 h-72 w-72 rounded-full bg-indigo-400 blur-3xl" />
+        <div className="absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent-600/20 blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-5xl text-center">
@@ -34,7 +35,7 @@ export function HeroSection() {
         {/* CTAs */}
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <SignUpButton mode="modal">
-            <button className="inline-flex items-center gap-2 rounded-xl bg-white px-8 py-4 font-bold text-blue-700 shadow-lg transition hover:bg-blue-50 hover:shadow-xl">
+            <button className="inline-flex items-center gap-2 rounded-xl bg-cta-600 px-8 py-4 font-bold text-white shadow-lg shadow-cta-600/30 transition hover:bg-cta-700 hover:shadow-xl">
               Start practising — it&apos;s free
               <ArrowRight className="h-5 w-5" />
             </button>

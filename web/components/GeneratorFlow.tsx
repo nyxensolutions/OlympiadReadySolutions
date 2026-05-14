@@ -36,7 +36,7 @@ export function GeneratorFlow() {
   }
 
   return (
-    <div className="w-full max-w-5xl">
+    <div className="w-full max-w-6xl">
       {phase.kind === "config" && (
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <SubscriptionBadge status={status} />
