@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "An ionic bond is formed by:",
+    "Options": [
+      "A) Sharing of electrons",
+      "B) Transfer of electrons between atoms",
+      "C) Metallic electron sea",
+      "D) Van der Waals forces"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Ionic Bonding",
+    "Difficulty": "Foundation",
+    "Explanation": "Ionic bond: complete transfer of electrons from metal (low IE) to non-metal (high EA). Electrostatic attraction between oppositely charged ions."
+  },
+  {
+    "QuestionText": "A covalent bond is formed by:",
+    "Options": [
+      "A) Transfer of electrons",
+      "B) Sharing of electrons between atoms",
+      "C) Ionic attraction",
+      "D) Metallic bonding"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Covalent Bonding",
+    "Difficulty": "Foundation",
+    "Explanation": "Covalent bond: mutual sharing of one or more pairs of electrons between atoms, typically non-metals."
+  },
+  {
+    "QuestionText": "The Lewis structure of water (H\u2082O) shows:",
+    "Options": [
+      "A) 2 bond pairs, 0 lone pairs",
+      "B) 2 bond pairs, 2 lone pairs on O",
+      "C) 1 bond pair, 3 lone pairs",
+      "D) 4 bond pairs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Lewis Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Water: O has 6 valence electrons. Forms 2 bonds with H (2 bond pairs). Remaining 4 electrons = 2 lone pairs on O."
+  },
+  {
+    "QuestionText": "VSEPR theory predicts molecular shape based on:",
+    "Options": [
+      "A) Bond lengths only",
+      "B) Repulsion between electron pairs around central atom",
+      "C) Number of bonds only",
+      "D) Polarity of bonds"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "VSEPR: electron pairs (bonding and lone) repel each other and arrange to minimize repulsion, determining molecular geometry."
+  },
+  {
+    "QuestionText": "The shape of BeCl\u2082 (no lone pairs on Be, 2 bond pairs) is:",
+    "Options": [
+      "A) Bent",
+      "B) Tetrahedral",
+      "C) Linear",
+      "D) Trigonal planar"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "2 bond pairs, 0 lone pairs \u2192 linear geometry (180\u00b0 bond angle). Example: BeCl\u2082, CO\u2082."
+  },
+  {
+    "QuestionText": "The shape of water (2 bond pairs, 2 lone pairs) is:",
+    "Options": [
+      "A) Linear",
+      "B) Bent (V-shaped)",
+      "C) Tetrahedral",
+      "D) Trigonal pyramidal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "Electron geometry is tetrahedral but 2 lone pairs push bond pairs down \u2192 bent shape. H-O-H angle \u2248 104.5\u00b0."
+  },
+  {
+    "QuestionText": "The shape of ammonia NH\u2083 (3 bond pairs, 1 lone pair) is:",
+    "Options": [
+      "A) Trigonal planar",
+      "B) Trigonal pyramidal",
+      "C) Tetrahedral",
+      "D) Linear"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "Electron geometry: tetrahedral (4 pairs). With 1 lone pair: trigonal pyramidal molecular shape. H-N-H \u2248 107\u00b0."
+  },
+  {
+    "QuestionText": "sp\u00b3 hybridization involves mixing of:",
+    "Options": [
+      "A) 1s and 3p orbitals",
+      "B) 1s and 2p and 1d orbitals",
+      "C) 1s and 2p orbitals giving 4 hybrid orbitals",
+      "D) 2s and 1p orbitals"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Hybridization",
+    "Difficulty": "Foundation",
+    "Explanation": "sp\u00b3 hybridization: 1 s + 3 p \u2192 4 equivalent sp\u00b3 hybrid orbitals arranged tetrahedrally (109.5\u00b0). Example: CH\u2084, H\u2082O, NH\u2083."
+  },
+  {
+    "QuestionText": "The hybridization of carbon in ethylene (C\u2082H\u2084) is:",
+    "Options": [
+      "A) sp",
+      "B) sp\u00b2",
+      "C) sp\u00b3",
+      "D) sp\u00b3d"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Hybridization",
+    "Difficulty": "Foundation",
+    "Explanation": "Ethylene C\u2082H\u2084: each C forms 3 sigma bonds (sp\u00b2) and contributes to one \u03c0 bond (unhybridized p orbitals). sp\u00b2 \u2192 trigonal planar, 120\u00b0."
+  },
+  {
+    "QuestionText": "The hybridization of carbon in acetylene (C\u2082H\u2082) is:",
+    "Options": [
+      "A) sp",
+      "B) sp\u00b2",
+      "C) sp\u00b3",
+      "D) sp\u00b3d\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Hybridization",
+    "Difficulty": "Foundation",
+    "Explanation": "Acetylene (HC\u2261CH): each C forms 2 sigma bonds (sp) and 2 \u03c0 bonds (2 unhybridized p orbitals). sp \u2192 linear, 180\u00b0."
+  },
+  {
+    "QuestionText": "A coordinate (dative) covalent bond is formed when:",
+    "Options": [
+      "A) Both atoms share one electron each",
+      "B) One atom provides both electrons for the bond",
+      "C) Electrons are fully transferred",
+      "D) Ionic charges attract"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Covalent Bonding",
+    "Difficulty": "Foundation",
+    "Explanation": "Coordinate bond: lone pair from one atom (donor) donated to electron-deficient atom (acceptor). Once formed, indistinguishable from normal covalent bond."
+  },
+  {
+    "QuestionText": "Electronegativity difference determines bond polarity. C-F bond is:",
+    "Options": [
+      "A) Non-polar covalent",
+      "B) Polar covalent",
+      "C) Ionic",
+      "D) Metallic"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Bond Polarity",
+    "Difficulty": "Foundation",
+    "Explanation": "Electronegativity: C=2.5, F=4.0. Difference=1.5 \u2192 polar covalent (not ionic, which requires >1.7-2.0). F pulls electrons strongly."
+  },
+  {
+    "QuestionText": "The bond order of O\u2082 according to MO theory is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 2.5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Molecular Orbital Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "O\u2082 MO config: (\u03c31s)\u00b2(\u03c3*1s)\u00b2(\u03c32s)\u00b2(\u03c3*2s)\u00b2(\u03c32pz)\u00b2(\u03c02px)\u00b2(\u03c02py)\u00b2(\u03c0*2px)\u00b9(\u03c0*2py)\u00b9. BO=(10\u22126)/2=2."
+  },
+  {
+    "QuestionText": "The magnetic nature of O\u2082 is:",
+    "Options": [
+      "A) Diamagnetic",
+      "B) Paramagnetic",
+      "C) Ferromagnetic",
+      "D) Antiferromagnetic"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Molecular Orbital Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "O\u2082 has two unpaired electrons in degenerate \u03c0* orbitals (Hund's rule). Unpaired electrons \u2192 paramagnetic. This was a triumph of MO theory over Lewis structure."
+  },
+  {
+    "QuestionText": "Hydrogen bonding is a special type of:",
+    "Options": [
+      "A) Covalent bond",
+      "B) Ionic bond",
+      "C) Intermolecular force involving H\u2013F, H\u2013O, or H\u2013N",
+      "D) Metallic bond"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Intermolecular Forces",
+    "Difficulty": "Foundation",
+    "Explanation": "Hydrogen bonds form when H is bonded to highly electronegative F, O, or N. The partially positive H attracts the lone pair of F/O/N on another molecule."
+  },
+  {
+    "QuestionText": "Van der Waals forces are:",
+    "Options": [
+      "A) Strongest intermolecular forces",
+      "B) Weak intermolecular forces present in all molecules",
+      "C) Present only in ionic compounds",
+      "D) Forces within covalent bonds"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Intermolecular Forces",
+    "Difficulty": "Foundation",
+    "Explanation": "Van der Waals forces (London dispersion + dipole-dipole) are weak, present in all molecules. They increase with molecular size."
+  },
+  {
+    "QuestionText": "The bond angle in methane (CH\u2084) is:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 109.5\u00b0",
+      "C) 120\u00b0",
+      "D) 180\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "CH\u2084 has sp\u00b3 hybridization with 4 equivalent bond pairs. Perfect tetrahedral geometry: 109.5\u00b0."
+  },
+  {
+    "QuestionText": "Number of sigma and pi bonds in CH\u2082=CH\u2082 (ethylene):",
+    "Options": [
+      "A) 4\u03c3, 1\u03c0",
+      "B) 5\u03c3, 1\u03c0",
+      "C) 4\u03c3, 2\u03c0",
+      "D) 6\u03c3, 0\u03c0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Sigma and Pi Bonds",
+    "Difficulty": "Advanced",
+    "Explanation": "Ethylene: C=C (1\u03c3+1\u03c0), each C\u2013H: 1\u03c3. Total: 1(C=C)+4(C-H)=5\u03c3 bonds, 1\u03c0 bond."
+  },
+  {
+    "QuestionText": "Which of the following is a non-polar molecule despite having polar bonds?",
+    "Options": [
+      "A) HCl",
+      "B) H\u2082O",
+      "C) CO\u2082",
+      "D) NH\u2083"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Bond Polarity",
+    "Difficulty": "Advanced",
+    "Explanation": "CO\u2082 is linear \u2014 the two C=O dipoles point in opposite directions and cancel. Net dipole=0 \u2192 non-polar molecule despite polar bonds."
+  },
+  {
+    "QuestionText": "The type of bond broken in the reaction H\u2082 \u2192 2H is:",
+    "Options": [
+      "A) Ionic bond",
+      "B) Hydrogen bond",
+      "C) Nonpolar covalent bond",
+      "D) Van der Waals force"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Covalent Bonding",
+    "Difficulty": "Foundation",
+    "Explanation": "H\u2082 has a non-polar covalent bond (equal sharing). Bond dissociation requires 436 kJ/mol."
+  },
+  {
+    "QuestionText": "VSEPR predicts that lone pair\u2013lone pair repulsion is __ bond pair\u2013bond pair repulsion:",
+    "Options": [
+      "A) Less than",
+      "B) Equal to",
+      "C) Greater than",
+      "D) Independent of"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "Repulsion order: lp\u2013lp > lp\u2013bp > bp\u2013bp. Lone pairs occupy more space (not directed to other nucleus), causing greater repulsion."
+  },
+  {
+    "QuestionText": "Resonance in benzene means:",
+    "Options": [
+      "A) Alternate double and single bonds fixed",
+      "B) Actual bond is average of contributing structures",
+      "C) Bonds vibrate",
+      "D) Electrons are in ionic configuration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Resonance",
+    "Difficulty": "Advanced",
+    "Explanation": "Resonance: electron delocalization means the actual structure is an average (hybrid) of contributing structures. Benzene's C-C bonds are all equal (1.5 bond order)."
+  },
+  {
+    "QuestionText": "The bond order in N\u2082 is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 2.5"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Molecular Orbital Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "N\u2082 has triple bond (1\u03c3 + 2\u03c0). Bond order = 3. This makes N\u2082 very stable (bond energy 945 kJ/mol)."
+  },
+  {
+    "QuestionText": "Formal charge on oxygen in O\u2083 (ozone) contributing structure is:",
+    "Options": [
+      "A) 0",
+      "B) \u22121 on terminal O",
+      "C) +1 on central O",
+      "D) B and C both occur in different structures"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Resonance",
+    "Difficulty": "Olympiad",
+    "Explanation": "O\u2083 has two resonance structures. Central O has +1 formal charge, terminal double-bonded O has 0, terminal single-bonded O has \u22121. These two structures resonate."
+  },
+  {
+    "QuestionText": "The hybridization of Xe in XeF\u2084 is:",
+    "Options": [
+      "A) sp\u00b3",
+      "B) sp\u00b2",
+      "C) sp\u00b3d",
+      "D) sp\u00b3d\u00b2"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Hybridization",
+    "Difficulty": "Advanced",
+    "Explanation": "XeF\u2084: Xe has 2 lone pairs + 4 bond pairs = 6 electron pairs \u2192 sp\u00b3d\u00b2 hybridization \u2192 octahedral electron geometry \u2192 square planar molecular shape."
+  },
+  {
+    "QuestionText": "Molecular orbital theory predicts that He\u2082 is:",
+    "Options": [
+      "A) Stable diatomic",
+      "B) Unstable (bond order=0)",
+      "C) Paramagnetic",
+      "D) Ionic"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Molecular Orbital Theory",
+    "Difficulty": "Olympiad",
+    "Explanation": "He\u2082: (\u03c31s)\u00b2(\u03c3*1s)\u00b2. Bonding electrons=2, antibonding=2. BO=(2\u22122)/2=0. No net bonding \u2192 He\u2082 doesn't exist."
+  },
+  {
+    "QuestionText": "Lattice energy increases with:",
+    "Options": [
+      "A) Increasing ionic radii",
+      "B) Decreasing ionic charge",
+      "C) Increasing ionic charge and decreasing ionic radius",
+      "D) Increasing distance between ions"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Ionic Bonding",
+    "Difficulty": "Advanced",
+    "Explanation": "Lattice energy \u221d charge product / ion separation. Higher charges and smaller ions \u2192 stronger electrostatic attraction \u2192 higher lattice energy."
+  },
+  {
+    "QuestionText": "The type of hybridization in PCl\u2085 is:",
+    "Options": [
+      "A) sp\u00b3",
+      "B) sp\u00b3d",
+      "C) sp\u00b3d\u00b2",
+      "D) dsp\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Hybridization",
+    "Difficulty": "Advanced",
+    "Explanation": "PCl\u2085: P has 5 bond pairs, no lone pairs \u2192 sp\u00b3d hybridization \u2192 trigonal bipyramidal shape with 5 bonds."
+  },
+  {
+    "QuestionText": "In MO theory, bonding molecular orbital has:",
+    "Options": [
+      "A) Higher energy than atomic orbitals",
+      "B) Lower energy than atomic orbitals",
+      "C) Same energy as atomic orbitals",
+      "D) No fixed energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Molecular Orbital Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "Bonding MO (constructive interference of AOs) has lower energy than the parent AOs \u2014 stabilizing. Antibonding MO (\u03c3*) has higher energy \u2014 destabilizing."
+  },
+  {
+    "QuestionText": "The number of lone pairs on S in SF\u2086 is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "SF\u2086: S forms 6 bonds with F (sp\u00b3d\u00b2 hybridization). No lone pairs on S. Octahedral shape, all F atoms equivalent."
+  },
+  {
+    "QuestionText": "A sigma bond is formed by:",
+    "Options": [
+      "A) Lateral overlap of orbitals",
+      "B) Head-on (axial) overlap of orbitals",
+      "C) Both",
+      "D) Ionic transfer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Sigma and Pi Bonds",
+    "Difficulty": "Foundation",
+    "Explanation": "Sigma (\u03c3) bond: head-on overlap along the internuclear axis. Pi (\u03c0) bond: sideways (lateral) overlap of parallel p orbitals."
+  },
+  {
+    "QuestionText": "Which has the shortest bond length?",
+    "Options": [
+      "A) C\u2013C single bond",
+      "B) C=C double bond",
+      "C) C\u2261C triple bond",
+      "D) C\u2013H bond"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Bond Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Bond length decreases with increasing bond order: C\u2261C (1.20 \u00c5) < C=C (1.34 \u00c5) < C\u2013C (1.54 \u00c5). More shared electrons \u2192 stronger, shorter bond."
+  },
+  {
+    "QuestionText": "The geometry of SF\u2084 (4 bond pairs + 1 lone pair) is:",
+    "Options": [
+      "A) Trigonal bipyramidal",
+      "B) Seesaw",
+      "C) Tetrahedral",
+      "D) Square planar"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Olympiad",
+    "Explanation": "5 electron pairs (1 lone + 4 bond) \u2192 trigonal bipyramidal arrangement. Lone pair in equatorial position \u2192 seesaw (sawhorse) shape."
+  },
+  {
+    "QuestionText": "The resonance energy of benzene refers to:",
+    "Options": [
+      "A) Energy needed to break all bonds",
+      "B) Extra stability due to electron delocalization (compared to hypothetical Kekul\u00e9 structure)",
+      "C) Energy released during formation",
+      "D) Bond dissociation energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Resonance",
+    "Difficulty": "Olympiad",
+    "Explanation": "Resonance energy (delocalization energy) = difference between actual energy of benzene and hypothetical 1,3,5-cyclohexatriene. About 150 kJ/mol for benzene."
+  },
+  {
+    "QuestionText": "Which of the following is the strongest hydrogen bond?",
+    "Options": [
+      "A) N\u2013H\u00b7\u00b7\u00b7N",
+      "B) O\u2013H\u00b7\u00b7\u00b7O",
+      "C) F\u2013H\u00b7\u00b7\u00b7F",
+      "D) N\u2013H\u00b7\u00b7\u00b7F"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Intermolecular Forces",
+    "Difficulty": "Advanced",
+    "Explanation": "H-bond strength follows electronegativity of atom bonded to H. F is most electronegative, so F\u2013H\u00b7\u00b7\u00b7F is the strongest hydrogen bond."
+  },
+  {
+    "QuestionText": "Back bonding occurs in BF\u2083 because:",
+    "Options": [
+      "A) B has extra lone pairs",
+      "B) F lone pair donates to empty p orbital of B",
+      "C) F and B form ionic bond",
+      "D) B has 4 bonds"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Covalent Bonding",
+    "Difficulty": "Olympiad",
+    "Explanation": "In BF\u2083, B is electron deficient (empty 2p). F lone pairs back-donate into empty p orbital of B (p\u03c0-p\u03c0 bonding). This stabilizes BF\u2083 and explains shorter B-F bond than expected."
+  },
+  {
+    "QuestionText": "Dipole moment is defined as:",
+    "Options": [
+      "A) Sum of bond energies",
+      "B) Product of charge and distance between charges",
+      "C) Electronegativity difference",
+      "D) Bond order \u00d7 length"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Bond Polarity",
+    "Difficulty": "Foundation",
+    "Explanation": "Dipole moment \u03bc = q \u00d7 d (charge \u00d7 bond length). Unit: Debye (D). Measures polarity of bond or molecule."
+  },
+  {
+    "QuestionText": "NaCl is soluble in water because:",
+    "Options": [
+      "A) Covalent bonds break easily",
+      "B) Water molecules hydrate Na\u207a and Cl\u207b ions, releasing hydration energy",
+      "C) Temperature increases",
+      "D) Electronegativity equalizes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Ionic Bonding",
+    "Difficulty": "Advanced",
+    "Explanation": "Dissolution: lattice energy (overcome) < hydration energy (gained). Water surrounds ions (ion-dipole interaction). For NaCl, hydration energy exceeds lattice energy."
+  },
+  {
+    "QuestionText": "Which of the following has the maximum bond angle?",
+    "Options": [
+      "A) NH\u2083",
+      "B) H\u2082O",
+      "C) NF\u2083",
+      "D) CH\u2084"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "Bond angles: CH\u2084=109.5\u00b0, NH\u2083=107\u00b0, H\u2082O=104.5\u00b0, NF\u2083=102\u00b0. CH\u2084 has 4 equivalent bp, no lone pairs \u2014 ideal tetrahedral angle."
+  },
+  {
+    "QuestionText": "In the Lewis structure, the octet rule states that atoms tend to:",
+    "Options": [
+      "A) Lose all electrons",
+      "B) Gain 8 electrons total",
+      "C) Have 8 electrons in valence shell",
+      "D) Form 8 bonds"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Lewis Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Octet rule: atoms tend to gain, lose or share electrons to achieve 8 electrons in valence shell (noble gas configuration). H follows duet rule (2 electrons)."
+  },
+  {
+    "QuestionText": "Number of pi bonds in CO\u2082:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Sigma and Pi Bonds",
+    "Difficulty": "Advanced",
+    "Explanation": "CO\u2082: O=C=O. Each C=O has 1\u03c3+1\u03c0. Total: 2\u03c3 + 2\u03c0. Number of pi bonds = 2."
+  },
+  {
+    "QuestionText": "The geometry of ClF\u2083 (3 bond pairs, 2 lone pairs) is:",
+    "Options": [
+      "A) Trigonal planar",
+      "B) T-shaped",
+      "C) Trigonal pyramidal",
+      "D) Bent"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Olympiad",
+    "Explanation": "5 electron pairs \u2192 trigonal bipyramidal arrangement. 2 lone pairs occupy equatorial positions \u2192 T-shaped molecular geometry."
+  },
+  {
+    "QuestionText": "Which of the following molecules is polar?",
+    "Options": [
+      "A) CCl\u2084",
+      "B) BF\u2083",
+      "C) CHCl\u2083",
+      "D) CS\u2082"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Bond Polarity",
+    "Difficulty": "Advanced",
+    "Explanation": "CHCl\u2083 (chloroform): tetrahedral with one H instead of Cl \u2014 asymmetric dipole moments don't cancel. CCl\u2084, BF\u2083, CS\u2082 are symmetric \u2192 non-polar."
+  },
+  {
+    "QuestionText": "Bond energy is the energy required to:",
+    "Options": [
+      "A) Form a bond from ions",
+      "B) Break a bond into neutral atoms (homolytic)",
+      "C) Form an ionic compound",
+      "D) Melt the substance"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Bond Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Bond dissociation energy = energy needed to break a bond homolytically (each atom gets one electron) in gas phase. Higher bond energy \u2192 stronger, more stable bond."
+  },
+  {
+    "QuestionText": "In a metallic bond, the valence electrons are:",
+    "Options": [
+      "A) Localized on specific atoms",
+      "B) Delocalized (free electron sea)",
+      "C) Transferred to non-metal",
+      "D) In discrete molecular orbitals"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Metallic Bonding",
+    "Difficulty": "Foundation",
+    "Explanation": "Metallic bonding: valence electrons leave atoms and move freely throughout the metal lattice (electron sea). This explains electrical conductivity, malleability, and luster."
+  },
+  {
+    "QuestionText": "In hybridization, the number of hybrid orbitals formed equals:",
+    "Options": [
+      "A) Number of bonds",
+      "B) Number of lone pairs",
+      "C) Number of atomic orbitals that mixed",
+      "D) 4 always"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Hybridization",
+    "Difficulty": "Foundation",
+    "Explanation": "Conservation of orbitals: n atomic orbitals mix to give exactly n hybrid orbitals. sp=2, sp\u00b2=3, sp\u00b3=4, sp\u00b3d=5, sp\u00b3d\u00b2=6."
+  },
+  {
+    "QuestionText": "London dispersion forces are stronger in:",
+    "Options": [
+      "A) Small molecules",
+      "B) Molecules with permanent dipoles only",
+      "C) Larger molecules with more electrons",
+      "D) Polar molecules only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Intermolecular Forces",
+    "Difficulty": "Advanced",
+    "Explanation": "London forces arise from instantaneous/induced dipoles. Larger molecules with more electrons are more polarizable \u2192 stronger dispersion forces. Hence I\u2082 is solid, F\u2082 is gas at room temperature."
+  },
+  {
+    "QuestionText": "The VSEPR geometry of PCl\u2085 is:",
+    "Options": [
+      "A) Square pyramidal",
+      "B) Octahedral",
+      "C) Trigonal bipyramidal",
+      "D) Tetrahedral"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "VSEPR Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "PCl\u2085: 5 bond pairs, no lone pairs \u2192 trigonal bipyramidal. Angles: 120\u00b0 (equatorial) and 90\u00b0 (axial-equatorial)."
+  },
+  {
+    "QuestionText": "The formal charge of nitrogen in NO\u2083\u207b (nitrate, Lewis structure) can be:",
+    "Options": [
+      "A) 0",
+      "B) +1",
+      "C) +1 on N and \u22121 on O",
+      "D) Depends on resonance structure"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Resonance",
+    "Difficulty": "Olympiad",
+    "Explanation": "In each resonance structure of NO\u2083\u207b: N has formal charge +1 (forms 4 bonds with 0 lone pairs: 5\u22120\u22124=+1). Two singly-bonded O atoms: \u22121 each. One doubly-bonded O: 0."
+  },
+  {
+    "QuestionText": "The angle between hybrid orbitals in sp hybridization is:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 109.5\u00b0",
+      "C) 120\u00b0",
+      "D) 180\u00b0"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Chemistry - Chemical Bonding",
+    "SubTopic": "Hybridization",
+    "Difficulty": "Foundation",
+    "Explanation": "sp hybridization (1s+1p): 2 hybrid orbitals point in opposite directions \u2192 180\u00b0 (linear geometry). Example: BeCl\u2082, C in acetylene."
+  }
+]

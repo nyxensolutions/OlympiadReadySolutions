@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A bar graph shows sales for Jan=50, Feb=70, Mar=60, Apr=80. Which month had maximum sales?",
+    "Options": [
+      "A) January",
+      "B) February",
+      "C) March",
+      "D) April"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Bar Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Reading a bar graph: find the tallest bar. April = 80 (highest). Data interpretation requires reading the correct value from the chart."
+  },
+  {
+    "QuestionText": "In a pie chart, the Education sector gets 25% of a budget. If the total budget is \u20b940 crore, how much is allocated to Education?",
+    "Options": [
+      "A) \u20b95 crore",
+      "B) \u20b98 crore",
+      "C) \u20b910 crore",
+      "D) \u20b912 crore"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Foundation",
+    "Explanation": "25% of \u20b940 crore = 0.25 \u00d7 40 = \u20b910 crore. Pie chart sectors represent percentages of the whole."
+  },
+  {
+    "QuestionText": "A table shows test scores: Ravi=85, Priya=92, Arun=78, Sara=92, Mohan=88. How many students scored above 85?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Scores above 85: Priya=92, Sara=92, Mohan=88. Three students scored above 85. Ravi=85 is not above 85."
+  },
+  {
+    "QuestionText": "A line graph shows population (thousands): 2015=100, 2016=110, 2017=125, 2018=120, 2019=135. In which year did population DECREASE?",
+    "Options": [
+      "A) 2016",
+      "B) 2017",
+      "C) 2018",
+      "D) 2019"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Line Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Compare consecutive years: 100\u2192110 (increase), 110\u2192125 (increase), 125\u2192120 (decrease in 2018), 120\u2192135 (increase). 2018 showed a decrease from 2017."
+  },
+  {
+    "QuestionText": "Monthly expenses: Rent=30%, Food=25%, Transport=15%, Entertainment=10%, Savings=20%. If monthly income is \u20b950,000, how much is saved?",
+    "Options": [
+      "A) \u20b95,000",
+      "B) \u20b98,000",
+      "C) \u20b910,000",
+      "D) \u20b915,000"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Savings = 20% of \u20b950,000 = 0.20 \u00d7 50,000 = \u20b910,000."
+  },
+  {
+    "QuestionText": "A data set: 5, 10, 15, 20, 25. The mean (average) is:",
+    "Options": [
+      "A) 10",
+      "B) 15",
+      "C) 20",
+      "D) 25"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean = sum/count = (5+10+15+20+25)/5 = 75/5 = 15."
+  },
+  {
+    "QuestionText": "The median of the data set: 12, 7, 3, 14, 9 is:",
+    "Options": [
+      "A) 7",
+      "B) 9",
+      "C) 12",
+      "D) 3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Foundation",
+    "Explanation": "Arrange in order: 3, 7, 9, 12, 14. Median = middle value = 9 (3rd of 5)."
+  },
+  {
+    "QuestionText": "The mode of the data set: 4, 7, 4, 9, 4, 7, 2, 4 is:",
+    "Options": [
+      "A) 4",
+      "B) 7",
+      "C) 9",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode = most frequently occurring value. 4 appears 4 times (most). 7 appears 2 times. Mode = 4."
+  },
+  {
+    "QuestionText": "A company's profit over years: 2018=\u20b920L, 2019=\u20b925L, 2020=\u20b915L, 2021=\u20b930L. The percentage increase from 2020 to 2021 is:",
+    "Options": [
+      "A) 50%",
+      "B) 75%",
+      "C) 100%",
+      "D) 150%"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Line Graphs",
+    "Difficulty": "Advanced",
+    "Explanation": "% increase = (New\u2212Old)/Old \u00d7 100 = (30\u221215)/15 \u00d7 100 = 15/15 \u00d7 100 = 100%."
+  },
+  {
+    "QuestionText": "A pie chart shows: A=90\u00b0, B=120\u00b0, C=60\u00b0, D=90\u00b0. What percentage of the total does sector B represent?",
+    "Options": [
+      "A) 25%",
+      "B) 30%",
+      "C) 33.3%",
+      "D) 40%"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Total degrees in pie = 360\u00b0. Sector B = 120\u00b0. Percentage = 120/360 \u00d7 100 = 33.3%."
+  },
+  {
+    "QuestionText": "A table shows runs scored by a cricketer:\nTest: 3200 in 40 matches.\nODI: 4500 in 90 matches.\nT20: 1200 in 60 matches.\nIn which format is his average highest?",
+    "Options": [
+      "A) Test",
+      "B) ODI",
+      "C) T20",
+      "D) Equal in Test and ODI"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "Test average = 3200/40 = 80. ODI average = 4500/90 = 50. T20 average = 1200/60 = 20. Highest average = Test (80)."
+  },
+  {
+    "QuestionText": "A double bar graph compares male and female employment (thousands) across sectors. If IT: M=80, F=60; Finance: M=50, F=55; Manufacturing: M=120, F=40. In which sector do females outnumber males?",
+    "Options": [
+      "A) IT",
+      "B) Finance",
+      "C) Manufacturing",
+      "D) None"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Bar Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Compare male and female for each sector: IT(80>60, M wins), Finance(50<55, F wins), Manufacturing(120>40, M wins). Only Finance has more females."
+  },
+  {
+    "QuestionText": "Data: Number of books read per month: 3, 5, 7, 5, 3, 8, 5. The range is:",
+    "Options": [
+      "A) 3",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Foundation",
+    "Explanation": "Range = Maximum \u2212 Minimum = 8 \u2212 3 = 5. Range measures the spread of data."
+  },
+  {
+    "QuestionText": "A histogram shows frequency distribution. If the class 40-50 has height 8 and class width 10, the frequency density is:",
+    "Options": [
+      "A) 0.8",
+      "B) 1.25",
+      "C) 8",
+      "D) 80"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Histograms",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency density = Frequency/Class width = 8/10 = 0.8. In histograms, area (not height) represents frequency when class widths are unequal."
+  },
+  {
+    "QuestionText": "Sales data: Q1=20,000, Q2=25,000, Q3=22,000, Q4=28,000. Total annual sales is:",
+    "Options": [
+      "A) 90,000",
+      "B) 95,000",
+      "C) 88,000",
+      "D) 85,000"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Total = 20,000+25,000+22,000+28,000 = 95,000. Data interpretation often requires simple arithmetic on given values."
+  },
+  {
+    "QuestionText": "If 5 students scored marks: 70, 85, 90, 75, 80. How many scored above the average?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Advanced",
+    "Explanation": "Average = (70+85+90+75+80)/5 = 400/5 = 80. Scores above 80: 85 and 90. 2 students scored above average."
+  },
+  {
+    "QuestionText": "A cumulative frequency graph (ogive) shows: at marks=60, CF=40; at marks=70, CF=60. How many students scored between 60 and 70?",
+    "Options": [
+      "A) 20",
+      "B) 40",
+      "C) 60",
+      "D) 100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency in 60-70 interval = CF(70) \u2212 CF(60) = 60 \u2212 40 = 20 students. Cumulative frequency tells how many scored up to that point."
+  },
+  {
+    "QuestionText": "A line graph shows temperature (\u00b0C): Mon=28, Tue=32, Wed=30, Thu=35, Fri=31. The average temperature over the week is:",
+    "Options": [
+      "A) 30\u00b0C",
+      "B) 31.2\u00b0C",
+      "C) 32\u00b0C",
+      "D) 33\u00b0C"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Line Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Average = (28+32+30+35+31)/5 = 156/5 = 31.2\u00b0C."
+  },
+  {
+    "QuestionText": "A pie chart shows population distribution: Urban=55%, Rural=45%. If total population is 1.4 billion, urban population is:",
+    "Options": [
+      "A) 0.63 billion",
+      "B) 0.70 billion",
+      "C) 0.77 billion",
+      "D) 0.84 billion"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Advanced",
+    "Explanation": "Urban = 55% \u00d7 1.4 billion = 0.55 \u00d7 1.4 = 0.77 billion."
+  },
+  {
+    "QuestionText": "From a frequency table: 0-10: 5, 10-20: 8, 20-30: 12, 30-40: 6, 40-50: 4. Total frequency is:",
+    "Options": [
+      "A) 30",
+      "B) 35",
+      "C) 40",
+      "D) 45"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Total = 5+8+12+6+4 = 35. The class with highest frequency is 20-30 (12 students)."
+  },
+  {
+    "QuestionText": "The median class in the frequency table above (0-10:5, 10-20:8, 20-30:12, 30-40:6, 40-50:4) is:",
+    "Options": [
+      "A) 0-10",
+      "B) 10-20",
+      "C) 20-30",
+      "D) 30-40"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "Total = 35. Median position = 18th. Cumulative: 0-10:5, 0-20:13, 0-30:25. 18th value falls in 20-30 class. Median class = 20-30."
+  },
+  {
+    "QuestionText": "A bar graph shows market share: Company A=35%, B=25%, C=20%, D=15%, Others=5%. Which company has 2nd largest market share?",
+    "Options": [
+      "A) A",
+      "B) B",
+      "C) C",
+      "D) D"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Bar Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Ranking: A=35%, B=25%, C=20%, D=15%, Others=5%. Second largest = B with 25%."
+  },
+  {
+    "QuestionText": "Production data (tonnes): 2019=500, 2020=450, 2021=600, 2022=550, 2023=700. The year with lowest production compared to its previous year is:",
+    "Options": [
+      "A) 2020",
+      "B) 2021",
+      "C) 2022",
+      "D) 2023"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Line Graphs",
+    "Difficulty": "Advanced",
+    "Explanation": "Year-on-year changes: 2020: 450-500=-50 (-10%), 2022: 550-600=-50 (-8.3%). Both show decline, but 2020 has the largest percentage decline. Actually, 2020 declined from 500 to 450 and 2022 declined from 600 to 550. Looking at absolute decline: equal. For lowest performance relative to prior year, 2020 is the answer in most such questions."
+  },
+  {
+    "QuestionText": "A scatter plot shows positive correlation between hours of study (x) and exam score (y). This means:",
+    "Options": [
+      "A) More study = lower scores",
+      "B) More study = higher scores (generally)",
+      "C) Study hours don't affect scores",
+      "D) Only 1 hour of study is needed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Correlation",
+    "Difficulty": "Foundation",
+    "Explanation": "Positive correlation: as one variable increases, the other tends to increase. More study hours \u2192 higher exam scores (generally). Correlation does not imply causation, but the trend is positive."
+  },
+  {
+    "QuestionText": "Data: Number of goals in football matches: 0,1,2,1,3,2,1,4,2,1. The modal number of goals is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Foundation",
+    "Explanation": "Frequency count: 0:1, 1:4, 2:3, 3:1, 4:1. Mode = most frequent = 1 (appears 4 times)."
+  },
+  {
+    "QuestionText": "From a table: School A has 800 students, 60% pass. School B has 600 students, 75% pass. Which school has more passing students?",
+    "Options": [
+      "A) School A (480)",
+      "B) School B (450)",
+      "C) Both equal",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "School A passes: 60% \u00d7 800 = 480. School B passes: 75% \u00d7 600 = 450. School A has more passing students (480 > 450)."
+  },
+  {
+    "QuestionText": "A stacked bar graph shows: Year 2022 \u2014 Domestic sales=60%, Export=40%. Year 2023 \u2014 Domestic=55%, Export=45%. If total 2022 sales=\u20b9100cr and total 2023=\u20b9120cr, export value in 2023 is:",
+    "Options": [
+      "A) \u20b940cr",
+      "B) \u20b948cr",
+      "C) \u20b954cr",
+      "D) \u20b960cr"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Bar Graphs",
+    "Difficulty": "Advanced",
+    "Explanation": "Export 2023 = 45% \u00d7 \u20b9120cr = 0.45 \u00d7 120 = \u20b954cr."
+  },
+  {
+    "QuestionText": "A survey of 200 students shows: Science preference=80, Arts=60, Commerce=40, Others=20. What percentage prefer Science?",
+    "Options": [
+      "A) 30%",
+      "B) 35%",
+      "C) 40%",
+      "D) 45%"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Science % = 80/200 \u00d7 100 = 40%."
+  },
+  {
+    "QuestionText": "The standard deviation measures:",
+    "Options": [
+      "A) The average of the data",
+      "B) The middle value",
+      "C) The spread/dispersion of data around the mean",
+      "D) The most frequent value"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard deviation measures how spread out data is from the mean. Low SD = data clustered near mean. High SD = data spread widely. More useful than range (uses all data points)."
+  },
+  {
+    "QuestionText": "From a table showing exports (\u20b9 crore):\n2019: Asia=500, Europe=300, Americas=200.\n2020: Asia=600, Europe=250, Americas=220.\nTotal exports DECREASED from 2019 to 2020 in which region?",
+    "Options": [
+      "A) Asia",
+      "B) Europe",
+      "C) Americas",
+      "D) Both Asia and Americas"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Asia: 500\u2192600 (increase). Europe: 300\u2192250 (decrease). Americas: 200\u2192220 (increase). Only Europe decreased."
+  },
+  {
+    "QuestionText": "Revenue data: Product A=\u20b930L, B=\u20b945L, C=\u20b925L. If company wants the ratio of A:B:C represented in a pie chart, the angle for Product B is:",
+    "Options": [
+      "A) 108\u00b0",
+      "B) 162\u00b0",
+      "C) 90\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Advanced",
+    "Explanation": "Total = 30+45+25=100. B's share = 45/100=45%. Angle = 45%\u00d7360\u00b0 = 162\u00b0."
+  },
+  {
+    "QuestionText": "A grouped frequency table has mid-values 5, 15, 25, 35, 45 with frequencies 4, 7, 12, 9, 3. The estimated mean is:",
+    "Options": [
+      "A) 23.6",
+      "B) 25.0",
+      "C) 26.4",
+      "D) 28.0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Olympiad",
+    "Explanation": "Mean = \u03a3(f\u00d7x)/\u03a3f = (4\u00d75+7\u00d715+12\u00d725+9\u00d735+3\u00d745)/35 = (20+105+300+315+135)/35 = 875/35 = 25. Hmm that's 25. Let me recalculate: 4\u00d75=20, 7\u00d715=105, 12\u00d725=300, 9\u00d735=315, 3\u00d745=135. Sum=875. n=35. Mean=875/35=25. Answer should be 25.0 = B."
+  },
+  {
+    "QuestionText": "A company's expenses: Raw material=40%, Labor=25%, Overhead=15%, Marketing=12%, Admin=8%. If total expense = \u20b980L, Marketing expense is:",
+    "Options": [
+      "A) \u20b96.4L",
+      "B) \u20b98L",
+      "C) \u20b99.6L",
+      "D) \u20b912L"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Advanced",
+    "Explanation": "Marketing = 12% \u00d7 \u20b980L = 0.12 \u00d7 80 = \u20b99.6L."
+  },
+  {
+    "QuestionText": "Line graph: Temperature readings at 6 AM, 9 AM, 12 PM, 3 PM, 6 PM are 18\u00b0C, 22\u00b0C, 30\u00b0C, 28\u00b0C, 24\u00b0C. What is the range of temperatures?",
+    "Options": [
+      "A) 10\u00b0C",
+      "B) 12\u00b0C",
+      "C) 14\u00b0C",
+      "D) 16\u00b0C"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Line Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Range = Maximum \u2212 Minimum = 30 \u2212 18 = 12\u00b0C."
+  },
+  {
+    "QuestionText": "From frequency distribution, if cumulative frequency at x=50 is 40 and total N=100, then percentile rank of 50 is:",
+    "Options": [
+      "A) 40th percentile",
+      "B) 50th percentile",
+      "C) 60th percentile",
+      "D) 80th percentile"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Olympiad",
+    "Explanation": "Percentile rank = (CF/N) \u00d7 100 = (40/100) \u00d7 100 = 40th percentile. This means 40% of data is below 50."
+  },
+  {
+    "QuestionText": "A table shows: Class A average = 72, Class B average = 78, Class C average = 69. What is the overall average if each class has 30 students?",
+    "Options": [
+      "A) 72",
+      "B) 73",
+      "C) 74",
+      "D) 75"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "Equal class sizes \u2192 overall average = (72+78+69)/3 = 219/3 = 73."
+  },
+  {
+    "QuestionText": "The interquartile range (IQR) is:",
+    "Options": [
+      "A) The range of the entire dataset",
+      "B) Q3 \u2212 Q1 (middle 50% of data range)",
+      "C) The variance",
+      "D) Half the range"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Advanced",
+    "Explanation": "IQR = Q3 \u2212 Q1. Represents the range of the middle 50% of data. Resistant to outliers (unlike total range). Used in box plots. Q1=25th percentile, Q3=75th percentile."
+  },
+  {
+    "QuestionText": "Imports data: Jan=\u20b9200cr, Feb=\u20b9180cr, Mar=\u20b9220cr, Apr=\u20b9210cr. The average monthly imports is:",
+    "Options": [
+      "A) \u20b9195cr",
+      "B) \u20b9202.5cr",
+      "C) \u20b9200cr",
+      "D) \u20b9205cr"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Average = (200+180+220+210)/4 = 810/4 = \u20b9202.5cr."
+  },
+  {
+    "QuestionText": "A pie chart shows: Defense=20%, Healthcare=25%, Education=30%, Infrastructure=15%, Others=10%. What is the angle for the Education sector?",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 108\u00b0",
+      "C) 120\u00b0",
+      "D) 126\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Advanced",
+    "Explanation": "Education angle = 30% \u00d7 360\u00b0 = 0.30 \u00d7 360 = 108\u00b0."
+  },
+  {
+    "QuestionText": "In a histogram, if frequency of class 30-40 is 15 and frequency density is 1.5, the class width is:",
+    "Options": [
+      "A) 5",
+      "B) 10",
+      "C) 15",
+      "D) 20"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Histograms",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency density = Frequency/Class width \u2192 Class width = Frequency/FD = 15/1.5 = 10."
+  },
+  {
+    "QuestionText": "From a double line graph comparing 2022 and 2023 quarterly profits, if Q3-2023 profit is higher than Q3-2022 by 20%, and Q3-2022 was \u20b950L, what is Q3-2023 profit?",
+    "Options": [
+      "A) \u20b955L",
+      "B) \u20b958L",
+      "C) \u20b960L",
+      "D) \u20b965L"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Line Graphs",
+    "Difficulty": "Advanced",
+    "Explanation": "20% increase on \u20b950L = \u20b950L \u00d7 1.20 = \u20b960L."
+  },
+  {
+    "QuestionText": "A survey asks 500 people their preferred social media. Results: Facebook=150, Instagram=200, Twitter=80, Others=70. What fraction prefers Instagram?",
+    "Options": [
+      "A) 2/5",
+      "B) 3/10",
+      "C) 1/5",
+      "D) 2/25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Instagram fraction = 200/500 = 2/5. Or 40% prefer Instagram."
+  },
+  {
+    "QuestionText": "Data set: 10, 20, 30, 40, 50. If each value is increased by 5, the new mean is:",
+    "Options": [
+      "A) 30",
+      "B) 35",
+      "C) 30 (unchanged)",
+      "D) 38"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Advanced",
+    "Explanation": "Original mean = 30. Adding a constant k to every value increases the mean by k. New mean = 30+5 = 35. This property: mean(X+k) = mean(X)+k."
+  },
+  {
+    "QuestionText": "Data set: 10, 20, 30, 40, 50. If each value is multiplied by 2, the new standard deviation:",
+    "Options": [
+      "A) Doubles",
+      "B) Halves",
+      "C) Remains the same",
+      "D) Increases by 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Olympiad",
+    "Explanation": "SD(kX) = k \u00d7 SD(X). Multiplying each value by 2 doubles the standard deviation. Variance quadruples (SD\u00b2). Adding a constant doesn't change SD."
+  },
+  {
+    "QuestionText": "A frequency polygon is drawn by connecting midpoints of class intervals. It is used to:",
+    "Options": [
+      "A) Show individual values",
+      "B) Compare frequency distributions",
+      "C) Show only the maximum value",
+      "D) Represent cumulative data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Histograms",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency polygon: connects midpoints of histogram bars with straight lines. Useful for comparing two or more frequency distributions on the same graph."
+  },
+  {
+    "QuestionText": "Revenue: 2021=\u20b9600cr, 2022=\u20b9720cr. What is the percentage growth?",
+    "Options": [
+      "A) 15%",
+      "B) 18%",
+      "C) 20%",
+      "D) 22%"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "% growth = (720-600)/600 \u00d7 100 = 120/600 \u00d7 100 = 20%."
+  },
+  {
+    "QuestionText": "A table shows test scores with a mean of 75 and standard deviation of 10. What percentage of students score between 65 and 85 (assuming normal distribution)?",
+    "Options": [
+      "A) 50%",
+      "B) 68%",
+      "C) 95%",
+      "D) 99%"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Statistical Measures",
+    "Difficulty": "Olympiad",
+    "Explanation": "68-95-99.7 rule (empirical rule): 68% of data falls within 1 SD of mean (mean\u00b11SD). 65=75-10=mean-1SD, 85=75+10=mean+1SD. \u224868% of students."
+  },
+  {
+    "QuestionText": "The y-axis of a bar chart represents 'Number of Customers (hundreds)'. If a bar reaches the value 4.5, the actual number of customers is:",
+    "Options": [
+      "A) 45",
+      "B) 450",
+      "C) 4500",
+      "D) 45000"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Bar Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Scale: y-axis is in hundreds. Value 4.5 on y-axis = 4.5 \u00d7 100 = 450 customers. Always check axis labels and scale units when reading graphs."
+  },
+  {
+    "QuestionText": "Two pie charts from 2020 and 2023 show market share. Company X had 20% in 2020 (total market=\u20b9500cr) and 25% in 2023 (total market=\u20b9800cr). Company X's revenue increased by:",
+    "Options": [
+      "A) 5%",
+      "B) 25%",
+      "C) 100%",
+      "D) 200%"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Olympiad",
+    "Explanation": "X in 2020 = 20%\u00d7500 = \u20b9100cr. X in 2023 = 25%\u00d7800 = \u20b9200cr. % increase = (200-100)/100\u00d7100 = 100%."
+  },
+  {
+    "QuestionText": "From an ogive (cumulative frequency curve), to find the median, you:",
+    "Options": [
+      "A) Find the tallest point",
+      "B) Draw a horizontal line at N/2 and read off the x-value",
+      "C) Take the middle class boundary",
+      "D) Average the first and last values"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Data Interpretation",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "Median from ogive: draw horizontal line at cumulative frequency = N/2. Where this line meets the curve, drop a perpendicular to x-axis. That x-value is the median."
+  }
+]

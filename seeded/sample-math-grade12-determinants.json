@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If A is a square matrix of order 3 and |A| = 4, then the value of |2A| is:",
+    "Options": ["A) 8", "B) 12", "C) 32", "D) 64"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "For a matrix of order n, |kA| = kⁿ|A|. Here, 2³ * 4 = 8 * 4 = 32."
+  },
+  {
+    "QuestionText": "If A is a square matrix of order 3, then |adj A| is equal to:",
+    "Options": ["A) |A|", "B) |A|²", "C) |A|³", "D) 3|A|"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Advanced",
+    "Explanation": "The property for the determinant of an adjoint is |adj A| = |A|ⁿ⁻¹. For n=3, it is |A|²."
+  },
+  {
+    "QuestionText": "If the points (x, -2), (5, 2), and (8, 8) are collinear, then the value of x is:",
+    "Options": ["A) -3", "B) 3", "C) 1", "D) 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Area of Triangle",
+    "Difficulty": "Advanced",
+    "Explanation": "For collinear points, the determinant of the matrix forming the area of the triangle must be zero."
+  },
+  {
+    "QuestionText": "If A is an invertible matrix of order 2, then det(A⁻¹) is equal to:",
+    "Options": ["A) det(A)", "B) 1/det(A)", "C) 1", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "Since AA⁻¹ = I, taking the determinant of both sides gives det(A)det(A⁻¹) = 1."
+  },
+  {
+    "QuestionText": "The value of the determinant |1 a b+c; 1 b c+a; 1 c a+b| is:",
+    "Options": ["A) 0", "B) 1", "C) a+b+c", "D) (a-b)(b-c)(c-a)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding column 2 to column 3 makes column 3 a multiple of column 1 (all entries a+b+c), resulting in a zero determinant."
+  },
+  {
+    "QuestionText": "If A is a non-singular square matrix of order n, then |adj(adj A)| is:",
+    "Options": ["A) |A|^(n-1)", "B) |A|^(n-1)²", "C) |A|^(n-2)", "D) |A|^(n-2)²"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using the identity for double adjoints, the power of the determinant becomes (n-1)²."
+  },
+  {
+    "QuestionText": "Let A be a square matrix of order 3 × 3, then |kA| is equal to:",
+    "Options": ["A) k|A|", "B) k²|A|", "C) k³|A|", "D) 3k|A|"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "Scalar multiplication in determinants scales by the power of the order."
+  },
+  {
+    "QuestionText": "The minor of the element 6 in the determinant |1 2 3; 4 5 6; 7 8 9| is:",
+    "Options": ["A) 6", "B) -6", "C) 10", "D) -10"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Minors and Cofactors",
+    "Difficulty": "Foundation",
+    "Explanation": "Minor is the determinant of the matrix after deleting the 2nd row and 3rd column: |1 2; 7 8| = 8 - 14 = -6."
+  },
+  {
+    "QuestionText": "If A and B are square matrices of the same order n, then |AB| is:",
+    "Options": ["A) |A| + |B|", "B) |A||B|", "C) |A|/|B|", "D) n|A||B|"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "The determinant of a product of matrices equals the product of their individual determinants."
+  },
+  {
+    "QuestionText": "If the area of a triangle with vertices (2, -6), (5, 4), and (k, 4) is 35 sq units, then k is:",
+    "Options": ["A) 12", "B) -2", "C) -12, -2", "D) 12, -2"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Area of Triangle",
+    "Difficulty": "Advanced",
+    "Explanation": "Applying the area formula 1/2|det| = 35 and solving for both absolute value cases."
+  },
+  {
+    "QuestionText": "If A is a square matrix such that A² = I, then |A| is:",
+    "Options": ["A) 1", "B) -1", "C) ±1", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "|A²| = |I| implies |A|² = 1, so |A| = ±1."
+  },
+  {
+    "QuestionText": "Which of the following is correct?",
+    "Options": ["A) Determinant is a square matrix", "B) Determinant is a number associated with a matrix", "C) Determinant is a number associated with a square matrix", "D) None of these"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "A determinant is a scalar value uniquely defined for square matrices only."
+  },
+  {
+    "QuestionText": "If Δ = |a11 a12 a13; a21 a22 a23; a31 a32 a33| and Aij is cofactor of aij, then value of Δ is:",
+    "Options": ["A) a11A31 + a12A32 + a13A33", "B) a11A11 + a12A21 + a13A31", "C) a21A11 + a22A12 + a23A13", "D) a11A11 + a21A21 + a31A31"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Minors and Cofactors",
+    "Difficulty": "Advanced",
+    "Explanation": "The determinant is the sum of products of elements of any row/column with their corresponding cofactors."
+  },
+  {
+    "QuestionText": "If A is a square matrix of order 3, such that |A| = 5, then |adj A| is:",
+    "Options": ["A) 5", "B) 25", "C) 125", "D) 1/5"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "|adj A| = |A|³⁻¹ = 5² = 25."
+  },
+  {
+    "QuestionText": "If a, b, c are in A.P., then the determinant |x+1 x+2 x+a; x+2 x+3 x+b; x+3 x+4 x+c| is:",
+    "Options": ["A) 0", "B) 1", "C) x", "D) 2x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Olympiad",
+    "Explanation": "Applying row operations R1 + R3 - 2R2 and using the A.P. property a+c-2b=0 results in a zero row."
+  },
+  {
+    "QuestionText": "For what value of x is the matrix [1-x 2; 3 4] singular?",
+    "Options": ["A) 1", "B) 2", "C) -1/2", "D) -1/4"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "A matrix is singular if its determinant is zero: 4(1-x) - 6 = 0 → 4 - 4x = 6 → x = -1/2."
+  },
+  {
+    "QuestionText": "If A is a 3 × 3 matrix and |A| = 2, then |A adj A| is:",
+    "Options": ["A) 2", "B) 4", "C) 8", "D) 16"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Olympiad",
+    "Explanation": "A adj A = |A|I. Thus |A adj A| = ||A|I| = |A|³ = 2³ = 8."
+  },
+  {
+    "QuestionText": "The determinant |x 1 1; 1 x 1; 1 1 x| is equal to:",
+    "Options": ["A) (x-1)²(x+2)", "B) (x+1)²(x-2)", "C) (x-1)(x+2)²", "D) x³-1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard cyclic determinant form factors into (x+2)(x-1)²."
+  },
+  {
+    "QuestionText": "If A is a skew-symmetric matrix of odd order, its determinant is:",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) Always positive"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "The determinant of any odd-order skew-symmetric matrix is zero."
+  },
+  {
+    "QuestionText": "If A is a square matrix of order 3 and |A| = 2, then |adj(adj A)| is:",
+    "Options": ["A) 8", "B) 16", "C) 64", "D) 256"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Olympiad",
+    "Explanation": "|adj(adj A)| = |A|^(n-1)² = 2^(3-1)² = 2⁴ = 16."
+  },
+  {
+    "QuestionText": "A system of linear equations AX = B is inconsistent if:",
+    "Options": ["A) |A| ≠ 0", "B) |A| = 0 and (adj A)B ≠ 0", "C) |A| = 0 and (adj A)B = 0", "D) |A| = 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Solution of Linear Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "If the determinant is zero and the product of adjoint A with B is non-zero, no solution exists."
+  },
+  {
+    "QuestionText": "If A = [2 3; 1 4], then adj A is:",
+    "Options": ["A) [4 -3; -1 2]", "B) [4 3; 1 2]", "C) [2 -1; -3 4]", "D) [1 4; 2 3]"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "For a 2x2 matrix [a b; c d], the adjoint is [d -b; -c a]."
+  },
+  {
+    "QuestionText": "The cofactor of the element 5 in the determinant |1 2 3; 4 5 6; 7 8 9| is:",
+    "Options": ["A) -12", "B) 12", "C) -10", "D) -18"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Minors and Cofactors",
+    "Difficulty": "Advanced",
+    "Explanation": "C22 = (-1)²⁺² |1 3; 7 9| = 9 - 21 = -12."
+  },
+  {
+    "QuestionText": "If |x 2; 18 x| = |6 2; 18 6|, then x is:",
+    "Options": ["A) 6", "B) ±6", "C) -6", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "x² - 36 = 36 - 36 → x² = 36 → x = ±6."
+  },
+  {
+    "QuestionText": "The number of distinct real roots of |sin x cos x cos x; cos x sin x cos x; cos x cos x sin x| = 0 in [-π/4, π/4] is:",
+    "Options": ["A) 0", "B) 2", "C) 1", "D) 3"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Olympiad",
+    "Explanation": "Determinant simplifies to (sin x + 2 cos x)(sin x - cos x)² = 0. In the range, only sin x = cos x (x = π/4) is possible."
+  },
+  {
+    "QuestionText": "If A is a square matrix of order 3 and |A| = 3, then |adj A| is:",
+    "Options": ["A) 3", "B) 9", "C) 27", "D) 81"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "Using |adj A| = |A|ⁿ⁻¹, we get 3² = 9."
+  },
+  {
+    "QuestionText": "The inverse of the matrix [cos θ sin θ; -sin θ cos θ] is:",
+    "Options": ["A) [cos θ -sin θ; sin θ cos θ]", "B) [cos θ sin θ; -sin θ cos θ]", "C) [sin θ cos θ; -cos θ sin θ]", "D) [-cos θ sin θ; sin θ cos θ]"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Advanced",
+    "Explanation": "For this orthogonal matrix, the inverse is simply its transpose."
+  },
+  {
+    "QuestionText": "If A is a square matrix such that A(adj A) = 5I, then |A| is:",
+    "Options": ["A) 5", "B) 25", "C) 125", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "Since A(adj A) = |A|I, comparing the two gives |A| = 5."
+  },
+  {
+    "QuestionText": "Value of |log e log e²; log e³ log e⁴| is:",
+    "Options": ["A) 0", "B) -2", "C) 2", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Advanced",
+    "Explanation": "|1 2; 3 4| = 4 - 6 = -2."
+  },
+  {
+    "QuestionText": "If x, y, z are non-zero real numbers, then inverse of [x 0 0; 0 y 0; 0 0 z] is:",
+    "Options": ["A) [1/x 0 0; 0 1/y 0; 0 0 1/z]", "B) [x 0 0; 0 y 0; 0 0 z]", "C) xyz I", "D) 1/xyz I"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "The inverse of a diagonal matrix is a diagonal matrix of the reciprocals of its elements."
+  },
+  {
+    "QuestionText": "If A is a matrix of order 3 and det(A) = 5, then det(A') is:",
+    "Options": ["A) 5", "B) -5", "C) 1/5", "D) 25"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "The determinant of a matrix and its transpose are always equal."
+  },
+  {
+    "QuestionText": "Two determinants are equal if:",
+    "Options": ["A) Their corresponding elements are equal", "B) Their values are equal", "C) Their orders are equal", "D) They have same rows"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "Determinants are scalar values; 'equality' refers to their numerical results."
+  },
+  {
+    "QuestionText": "If each element of a 3x3 determinant is multiplied by 3, the value of the new determinant is:",
+    "Options": ["A) 3 times the original", "B) 9 times the original", "C) 27 times the original", "D) Unchanged"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Advanced",
+    "Explanation": "Since each of the 3 rows is multiplied by 3, the total factor is 3³ = 27."
+  },
+  {
+    "QuestionText": "If A is a square matrix of order n, then adj(kA) is:",
+    "Options": ["A) k adj A", "B) kⁿ adj A", "C) kⁿ⁻¹ adj A", "D) kⁿ⁺¹ adj A"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Olympiad",
+    "Explanation": "Scalar k comes out of the adj(A) with a power of (n-1)."
+  },
+  {
+    "QuestionText": "If a determinant has two identical rows, its value is:",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) Infinite"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "Identical rows (or columns) always result in a zero determinant."
+  },
+  {
+    "QuestionText": "The system x+y=2 and 2x+2y=4 has:",
+    "Options": ["A) Unique solution", "B) No solution", "C) Infinitely many solutions", "D) x=1, y=1 only"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Solution of Linear Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "The equations are dependent; |A|=0 and (adj A)B=0."
+  },
+  {
+    "QuestionText": "If A is a square matrix, A⁻¹ exists if and only if:",
+    "Options": ["A) |A| = 0", "B) |A| ≠ 0", "C) A is symmetric", "D) A is skew-symmetric"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "A matrix must be non-singular (non-zero determinant) to be invertible."
+  },
+  {
+    "QuestionText": "If A² - A + I = 0, then the inverse of A is:",
+    "Options": ["A) A - I", "B) I - A", "C) A + I", "D) A"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiply by A⁻¹: A - I + A⁻¹ = 0 → A⁻¹ = I - A."
+  },
+  {
+    "QuestionText": "The maximum value of a 2x2 determinant with entries from {0, 1} is:",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Advanced",
+    "Explanation": "For [a b; c d], ad-bc is max when ad=1 and bc=0, giving 1."
+  },
+  {
+    "QuestionText": "If rows and columns of a determinant are interchanged, its value:",
+    "Options": ["A) Changes sign", "B) Becomes zero", "C) Remains unchanged", "D) Becomes reciprocal"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the transposition property: |A| = |A'|."
+  },
+  {
+    "QuestionText": "If any two rows of a determinant are interchanged, its value:",
+    "Options": ["A) Remains same", "B) Becomes zero", "C) Changes sign", "D) Becomes double"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "A single row/column swap negates the determinant's value."
+  },
+  {
+    "QuestionText": "If A is a non-singular matrix, then |A⁻¹| is:",
+    "Options": ["A) |A|", "B) 1/|A|", "C) -|A|", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "Fundamental property of inverse determinants."
+  },
+  {
+    "QuestionText": "Cramer's rule is applicable only when:",
+    "Options": ["A) Determinant of coefficients is non-zero", "B) Determinant of coefficients is zero", "C) Equations are homogeneous", "D) Matrix is singular"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Solution of Linear Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Cramer's rule requires division by the determinant, so it cannot be zero."
+  },
+  {
+    "QuestionText": "If |x 7; 3 x| = -4, then x is:",
+    "Options": ["A) 4, -4", "B) √17, -√17", "C) 17, -17", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "x² - 21 = -4 → x² = 17 → x = ±√17."
+  },
+  {
+    "QuestionText": "The area of a triangle with vertices (a, 0), (0, b), and (0, 0) is:",
+    "Options": ["A) ab", "B) 1/2 ab", "C) 1/2 |ab|", "D) 2ab"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Area of Triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "Using 1/2 |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)| gives 1/2 |a(b-0)| = 1/2 |ab|."
+  },
+  {
+    "QuestionText": "If A is a square matrix of order 3, then |A - A'| is:",
+    "Options": ["A) |A|", "B) -|A|", "C) 0", "D) 2|A|"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Advanced",
+    "Explanation": "A-A' is skew-symmetric of order 3, thus its determinant is zero."
+  },
+  {
+    "QuestionText": "The cofactor of element a21 in |2 -3 5; 6 0 4; 1 5 -7| is:",
+    "Options": ["A) -4", "B) 4", "C) 15", "D) -15"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Minors and Cofactors",
+    "Difficulty": "Advanced",
+    "Explanation": "A21 = (-1)³ |-3 5; 5 -7| = -(21 - 25) = 4."
+  },
+  {
+    "QuestionText": "If A = [1 2; 3 4], then |A adj A| is:",
+    "Options": ["A) 4", "B) -4", "C) 0", "D) 16"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Olympiad",
+    "Explanation": "|A adj A| = ||A|I| = |A|² = (-2)² = 4."
+  },
+  {
+    "QuestionText": "If A and B are invertible matrices, then (AB)⁻¹ is:",
+    "Options": ["A) A⁻¹B⁻¹", "B) B⁻¹A⁻¹", "C) AB", "D) BA"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Adjoint and Inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "Inverse of a product is the product of inverses in reverse order."
+  },
+  {
+    "QuestionText": "The determinant of an identity matrix of any order is:",
+    "Options": ["A) 0", "B) 1", "C) n", "D) -1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Determinants",
+    "SubTopic": "Properties of Determinants",
+    "Difficulty": "Foundation",
+    "Explanation": "Identity matrices always have a determinant of 1."
+  }
+]

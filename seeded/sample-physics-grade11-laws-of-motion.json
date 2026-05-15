@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Newton's first law is also called the law of:",
+    "Options": [
+      "A) Acceleration",
+      "B) Inertia",
+      "C) Momentum",
+      "D) Action-Reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's first law states that a body remains at rest or in uniform motion unless acted upon by a net external force. This is the law of inertia."
+  },
+  {
+    "QuestionText": "Newton's second law states that force equals:",
+    "Options": [
+      "A) Mass \u00d7 Velocity",
+      "B) Mass \u00d7 Acceleration",
+      "C) Mass \u00d7 Displacement",
+      "D) Velocity \u00d7 Time"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "F = ma. Force is directly proportional to the rate of change of momentum, which equals mass \u00d7 acceleration."
+  },
+  {
+    "QuestionText": "Newton's third law states: For every action there is:",
+    "Options": [
+      "A) A greater reaction",
+      "B) An equal and opposite reaction",
+      "C) No reaction",
+      "D) A smaller reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's third law: Forces always occur in pairs \u2014 equal in magnitude, opposite in direction, acting on different bodies."
+  },
+  {
+    "QuestionText": "The SI unit of force is:",
+    "Options": [
+      "A) kg\u00b7m",
+      "B) Joule",
+      "C) Newton",
+      "D) Pascal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "1 Newton = 1 kg\u00b7m/s\u00b2. Force causes a 1 kg mass to accelerate at 1 m/s\u00b2."
+  },
+  {
+    "QuestionText": "A body of mass 5 kg is acted on by a net force of 20 N. Its acceleration is:",
+    "Options": [
+      "A) 100 m/s\u00b2",
+      "B) 25 m/s\u00b2",
+      "C) 4 m/s\u00b2",
+      "D) 15 m/s\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "F=ma \u2192 a=F/m=20/5=4 m/s\u00b2."
+  },
+  {
+    "QuestionText": "The property of a body to resist change in its state of motion is:",
+    "Options": [
+      "A) Momentum",
+      "B) Force",
+      "C) Inertia",
+      "D) Friction"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Inertia is the tendency of an object to resist changes in its velocity. It is directly proportional to mass."
+  },
+  {
+    "QuestionText": "The momentum of a 2 kg ball moving at 5 m/s is:",
+    "Options": [
+      "A) 2.5 kg\u00b7m/s",
+      "B) 7 kg\u00b7m/s",
+      "C) 10 kg\u00b7m/s",
+      "D) 0.4 kg\u00b7m/s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Linear Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "p = mv = 2\u00d75 = 10 kg\u00b7m/s."
+  },
+  {
+    "QuestionText": "The law of conservation of momentum states that in the absence of external forces:",
+    "Options": [
+      "A) Velocity is conserved",
+      "B) Total momentum of a system remains constant",
+      "C) Kinetic energy is conserved",
+      "D) Acceleration is zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Conservation of Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "Without net external force, the total momentum of an isolated system remains constant."
+  },
+  {
+    "QuestionText": "Static friction is always __ kinetic friction:",
+    "Options": [
+      "A) Less than",
+      "B) Equal to",
+      "C) Greater than or equal to",
+      "D) Proportional to"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "Static friction (max) \u2265 kinetic friction. It takes more force to start moving an object than to keep it moving."
+  },
+  {
+    "QuestionText": "The coefficient of friction (\u03bc) is defined as:",
+    "Options": [
+      "A) Normal force / Friction force",
+      "B) Friction force / Normal force",
+      "C) Mass / Weight",
+      "D) Force / Area"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "\u03bc = Friction force / Normal force. It is dimensionless and depends on the surfaces in contact."
+  },
+  {
+    "QuestionText": "A person standing in a moving bus falls forward when the bus stops suddenly. This illustrates:",
+    "Options": [
+      "A) Newton's 3rd law",
+      "B) Newton's 2nd law",
+      "C) Newton's 1st law (inertia)",
+      "D) Conservation of energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "The person's body tends to maintain its forward motion (inertia) when the bus decelerates suddenly."
+  },
+  {
+    "QuestionText": "A gun fires a bullet. The gun recoils due to:",
+    "Options": [
+      "A) Newton's 1st law",
+      "B) Newton's 2nd law",
+      "C) Newton's 3rd law",
+      "D) Conservation of energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "The bullet is pushed forward (action), the gun is pushed backward (equal and opposite reaction) \u2014 Newton's third law."
+  },
+  {
+    "QuestionText": "Impulse is defined as:",
+    "Options": [
+      "A) Force \u00d7 Distance",
+      "B) Force \u00d7 Time",
+      "C) Mass \u00d7 Velocity\u00b2",
+      "D) Force / Time"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Impulse and Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "Impulse = Force \u00d7 Time = Change in Momentum. Its SI unit is N\u00b7s = kg\u00b7m/s."
+  },
+  {
+    "QuestionText": "A 1500 kg car moving at 20 m/s is stopped by brakes in 4 s. The braking force is:",
+    "Options": [
+      "A) 3750 N",
+      "B) 7500 N",
+      "C) 15000 N",
+      "D) 30000 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "a=(0\u221220)/4=\u22125 m/s\u00b2. F=ma=1500\u00d75=7500 N."
+  },
+  {
+    "QuestionText": "Two objects of masses 2 kg and 4 kg collide and stick together. Before collision, 2 kg moves at 6 m/s and 4 kg is at rest. Final velocity is:",
+    "Options": [
+      "A) 3 m/s",
+      "B) 2 m/s",
+      "C) 4 m/s",
+      "D) 6 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Conservation of Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "p_initial = 2\u00d76+4\u00d70=12. p_final=(2+4)v=6v. v=12/6=2 m/s."
+  },
+  {
+    "QuestionText": "The maximum angle of inclination for which a block stays at rest on a rough surface (\u03bc=0.5) is:",
+    "Options": [
+      "A) 30\u00b0",
+      "B) arctan(0.5) \u2248 26.6\u00b0",
+      "C) 45\u00b0",
+      "D) 60\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Advanced",
+    "Explanation": "At maximum angle: tan \u03b8 = \u03bc = 0.5. \u03b8 = arctan(0.5) \u2248 26.6\u00b0. This is the angle of repose."
+  },
+  {
+    "QuestionText": "For a body moving in a vertical circle, minimum speed at the top to maintain contact is:",
+    "Options": [
+      "A) sqrt(gR)",
+      "B) sqrt(2gR)",
+      "C) sqrt(5gR)",
+      "D) sqrt(gR/2)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "At top: centripetal force = gravity. mv\u00b2/R = mg \u2192 v = sqrt(gR)."
+  },
+  {
+    "QuestionText": "The minimum speed at the bottom of a vertical circle to complete the loop is:",
+    "Options": [
+      "A) sqrt(gR)",
+      "B) sqrt(2gR)",
+      "C) sqrt(5gR)",
+      "D) sqrt(3gR)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "Using energy conservation from bottom to top and minimum condition at top: v_bottom = sqrt(5gR)."
+  },
+  {
+    "QuestionText": "A body of mass m on a frictionless surface is connected by a string to a hanging mass M. Tension in string is:",
+    "Options": [
+      "A) Mg",
+      "B) mMg/(m+M)",
+      "C) (m+M)g",
+      "D) mg"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "Acceleration a=Mg/(m+M). Tension T=ma=mMg/(m+M)."
+  },
+  {
+    "QuestionText": "A 60 kg person stands in a lift accelerating upward at 2 m/s\u00b2. The apparent weight is (g=10):",
+    "Options": [
+      "A) 600 N",
+      "B) 480 N",
+      "C) 720 N",
+      "D) 700 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "Apparent weight = m(g+a) = 60(10+2) = 720 N."
+  },
+  {
+    "QuestionText": "In a head-on elastic collision between equal masses where one is at rest:",
+    "Options": [
+      "A) Both continue moving",
+      "B) First stops and second moves with first's velocity",
+      "C) Both stop",
+      "D) First reverses direction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Conservation of Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "For equal mass elastic collision with one at rest: the moving body stops and the stationary one moves with the original velocity. Perfect momentum and energy transfer."
+  },
+  {
+    "QuestionText": "A block of 3 kg on a surface with \u03bc=0.4 is pulled by 20 N. Net acceleration (g=10):",
+    "Options": [
+      "A) 2.67 m/s\u00b2",
+      "B) 5.33 m/s\u00b2",
+      "C) 2.4 m/s\u00b2",
+      "D) 4 m/s\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Advanced",
+    "Explanation": "Friction=\u03bcmg=0.4\u00d73\u00d710=12 N. Net force=20\u221212=8 N. a=8/3\u22482.67 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Pseudo force arises in a/an:",
+    "Options": [
+      "A) Inertial frame",
+      "B) Non-inertial (accelerating) frame",
+      "C) Rotating inertial frame",
+      "D) Gravitational frame"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Non-Inertial Frames",
+    "Difficulty": "Advanced",
+    "Explanation": "In a non-inertial (accelerating) reference frame, a fictitious (pseudo) force F=\u2212ma must be introduced to apply Newton's laws."
+  },
+  {
+    "QuestionText": "The normal reaction on a body lying on a horizontal surface equals:",
+    "Options": [
+      "A) Zero",
+      "B) Weight minus friction",
+      "C) The weight of the body",
+      "D) Twice the weight"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "For horizontal surface with no vertical acceleration, N=mg. Normal force balances weight exactly."
+  },
+  {
+    "QuestionText": "The tension in a string supporting a 5 kg mass in a lift moving at constant velocity (g=10) is:",
+    "Options": [
+      "A) 0",
+      "B) 25 N",
+      "C) 50 N",
+      "D) 100 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Constant velocity means zero acceleration. Net force=0, so T=mg=5\u00d710=50 N."
+  },
+  {
+    "QuestionText": "Friction acts to:",
+    "Options": [
+      "A) Always increase motion",
+      "B) Oppose relative motion between surfaces",
+      "C) Increase normal force",
+      "D) Eliminate gravity"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "Friction is a contact force that opposes relative motion (kinetic) or tendency of motion (static) between surfaces."
+  },
+  {
+    "QuestionText": "An object placed on a weighing machine in a freely falling lift reads:",
+    "Options": [
+      "A) Its true weight",
+      "B) Double weight",
+      "C) Half weight",
+      "D) Zero (weightlessness)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "In free fall, the lift and object both accelerate at g. The normal force=0, so apparent weight=0 \u2014 weightlessness."
+  },
+  {
+    "QuestionText": "Rocket propulsion is an application of:",
+    "Options": [
+      "A) Newton's 1st law",
+      "B) Newton's 2nd law",
+      "C) Conservation of energy",
+      "D) Newton's 3rd law and conservation of momentum"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Conservation of Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "Rocket expels gas backward (action); rocket moves forward (reaction). This is simultaneously Newton's 3rd law and conservation of momentum."
+  },
+  {
+    "QuestionText": "Centripetal force for a car going around a banked curve at speed v on radius r with banking angle \u03b8 is provided by:",
+    "Options": [
+      "A) Friction only",
+      "B) Normal force component only",
+      "C) Combination of normal force and friction",
+      "D) Gravity only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Olympiad",
+    "Explanation": "On a banked curve, horizontal component of N provides centripetal force. Friction provides additional centripetal force or opposes slipping depending on speed."
+  },
+  {
+    "QuestionText": "A ball is whirled in a horizontal circle on a string. If speed is doubled, centripetal force needed becomes:",
+    "Options": [
+      "A) Double",
+      "B) Half",
+      "C) Four times",
+      "D) Same"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "F=mv\u00b2/r. If v doubles, F \u221d v\u00b2, so F becomes 4 times."
+  },
+  {
+    "QuestionText": "Rate of change of momentum equals:",
+    "Options": [
+      "A) Impulse",
+      "B) Applied force",
+      "C) Kinetic energy",
+      "D) Work done"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "dp/dt = F (Newton's 2nd law in its original form). Rate of change of momentum = net external force."
+  },
+  {
+    "QuestionText": "A 0.1 kg ball moving at 20 m/s hits a wall and rebounds at 20 m/s. Change in momentum is:",
+    "Options": [
+      "A) 0",
+      "B) 2 kg\u00b7m/s",
+      "C) 4 kg\u00b7m/s",
+      "D) 40 kg\u00b7m/s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Impulse and Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "Initial momentum=+2 kg\u00b7m/s. Final momentum=\u22122 kg\u00b7m/s. Change=\u22122\u2212(+2)=\u22124. Magnitude=4 kg\u00b7m/s."
+  },
+  {
+    "QuestionText": "The banking angle \u03b8 of a road for a vehicle at speed v on radius r (no friction) satisfies:",
+    "Options": [
+      "A) tan \u03b8 = v\u00b2/rg",
+      "B) tan \u03b8 = rg/v\u00b2",
+      "C) sin \u03b8 = v\u00b2/rg",
+      "D) cos \u03b8 = v\u00b2/rg"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Olympiad",
+    "Explanation": "On banked curve without friction: N sin\u03b8=mv\u00b2/r and N cos\u03b8=mg. Dividing: tan \u03b8 = v\u00b2/rg."
+  },
+  {
+    "QuestionText": "A frame attached to a car braking suddenly is a:",
+    "Options": [
+      "A) Inertial frame",
+      "B) Non-inertial frame",
+      "C) Rotating frame",
+      "D) Zero-gravity frame"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Non-Inertial Frames",
+    "Difficulty": "Advanced",
+    "Explanation": "A braking car is decelerating \u2014 an accelerating (non-inertial) reference frame."
+  },
+  {
+    "QuestionText": "If F=0, then momentum is:",
+    "Options": [
+      "A) Increasing",
+      "B) Decreasing",
+      "C) Constant",
+      "D) Zero"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Conservation of Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "dp/dt=F=0 means p=constant. Zero net force means conserved momentum (not necessarily zero momentum)."
+  },
+  {
+    "QuestionText": "A block slides down a 30\u00b0 frictionless incline. Acceleration is:",
+    "Options": [
+      "A) g",
+      "B) g/2",
+      "C) g sin30\u00b0=g/2",
+      "D) g cos30\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "On frictionless incline: a = g sin\u03b8 = 10\u00d7sin30\u00b0 = 10\u00d70.5 = 5 m/s\u00b2 = g/2."
+  },
+  {
+    "QuestionText": "For two blocks connected by a string on a frictionless surface with forces applied, the string exerts:",
+    "Options": [
+      "A) Compressive force",
+      "B) Tension (pulling force)",
+      "C) No force",
+      "D) Varying force always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Strings can only pull, never push. They exert tension \u2014 a pulling force along the string direction."
+  },
+  {
+    "QuestionText": "Lami's theorem applies to:",
+    "Options": [
+      "A) Two concurrent forces",
+      "B) Three concurrent coplanar forces in equilibrium",
+      "C) Four parallel forces",
+      "D) Non-concurrent forces"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Equilibrium",
+    "Difficulty": "Olympiad",
+    "Explanation": "Lami's theorem: for three concurrent coplanar forces in equilibrium, each force is proportional to the sine of the angle between the other two."
+  },
+  {
+    "QuestionText": "The 'spring balance' measures:",
+    "Options": [
+      "A) Mass",
+      "B) Volume",
+      "C) Weight (gravitational force)",
+      "D) Inertia"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "A spring balance measures force (weight = mg). A beam balance measures mass by comparison."
+  },
+  {
+    "QuestionText": "An 80 kg astronaut on Moon (g_moon=1.6 m/s\u00b2). The weight on Moon is:",
+    "Options": [
+      "A) 80 N",
+      "B) 128 N",
+      "C) 800 N",
+      "D) 500 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "W=mg=80\u00d71.6=128 N. Mass remains 80 kg everywhere; weight changes with gravity."
+  },
+  {
+    "QuestionText": "For a body executing uniform circular motion, the net force is:",
+    "Options": [
+      "A) Zero",
+      "B) Tangential",
+      "C) Centripetal (toward centre)",
+      "D) Centrifugal (away from centre)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "Uniform circular motion requires net centripetal force pointing toward the centre to continuously change the direction of velocity."
+  },
+  {
+    "QuestionText": "A ball on a string is whirled in a vertical circle of radius 1 m. Min speed at top for maintaining tension in string (g=10):",
+    "Options": [
+      "A) sqrt(10) m/s",
+      "B) 10 m/s",
+      "C) sqrt(5) m/s",
+      "D) 5 m/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Min speed at top: v_min=sqrt(gR)=sqrt(10\u00d71)=sqrt(10) m/s."
+  },
+  {
+    "QuestionText": "A 4 kg block on frictionless floor is pushed with 12 N. Acceleration is:",
+    "Options": [
+      "A) 48 m/s\u00b2",
+      "B) 3 m/s\u00b2",
+      "C) 8 m/s\u00b2",
+      "D) 16 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "F=ma \u2192 a=12/4=3 m/s\u00b2."
+  },
+  {
+    "QuestionText": "A 10 kg block rests on a 5 kg block on a frictionless surface. A 30 N force is applied to the 5 kg block. Acceleration of system is:",
+    "Options": [
+      "A) 2 m/s\u00b2",
+      "B) 3 m/s\u00b2",
+      "C) 6 m/s\u00b2",
+      "D) 1.5 m/s\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both blocks accelerate together (friction between them): a=F/(m1+m2)=30/15=2 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Impulsive forces act for:",
+    "Options": [
+      "A) Long duration",
+      "B) Very short duration",
+      "C) Constant duration",
+      "D) Infinite duration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Impulse and Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "Impulsive forces are very large forces acting for very short times (e.g., bat hitting ball, explosions). Despite short duration, they produce significant change in momentum."
+  },
+  {
+    "QuestionText": "Rolling friction is __ sliding friction:",
+    "Options": [
+      "A) Greater than",
+      "B) Equal to",
+      "C) Less than",
+      "D) Unrelated to"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "Rolling friction is much smaller than sliding friction. Wheels reduce friction, which is why vehicles use wheels."
+  },
+  {
+    "QuestionText": "In a tug of war, both teams pull with equal force. The rope:",
+    "Options": [
+      "A) Moves toward stronger team",
+      "B) Remains stationary (net force zero)",
+      "C) Breaks always",
+      "D) Accelerates in both directions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "Equal and opposite forces = zero net force = rope stays stationary. The first team to apply greater force wins."
+  },
+  {
+    "QuestionText": "The frictional force on a stationary body when no external force tries to move it is:",
+    "Options": [
+      "A) Maximum static friction",
+      "B) Kinetic friction",
+      "C) Zero",
+      "D) Equal to weight"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Advanced",
+    "Explanation": "Static friction is a self-adjusting force. It only arises to oppose an attempted relative motion. With no external force trying to move the body, static friction = 0."
+  },
+  {
+    "QuestionText": "A particle moves in a circle of radius 2 m at 4 m/s. Its centripetal acceleration is:",
+    "Options": [
+      "A) 2 m/s\u00b2",
+      "B) 4 m/s\u00b2",
+      "C) 8 m/s\u00b2",
+      "D) 16 m/s\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "a_c = v\u00b2/r = 16/2 = 8 m/s\u00b2."
+  },
+  {
+    "QuestionText": "A 2 kg mass moving at 10 m/s collides with a stationary 8 kg mass. If they stick together, final speed is:",
+    "Options": [
+      "A) 10 m/s",
+      "B) 5 m/s",
+      "C) 2 m/s",
+      "D) 4 m/s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Laws of Motion",
+    "SubTopic": "Conservation of Momentum",
+    "Difficulty": "Olympiad",
+    "Explanation": "p_initial=2\u00d710=20. (2+8)v=20 \u2192 v=2 m/s."
+  }
+]

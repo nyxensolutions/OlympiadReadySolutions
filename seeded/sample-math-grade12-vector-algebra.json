@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The magnitude of the vector i + j + k is:",
+    "Options": ["A) 1", "B) √2", "C) √3", "D) 3"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "The magnitude of a vector ai + bj + ck is √(a² + b² + c²). Here, √(1² + 1² + 1²) = √3."
+  },
+  {
+    "QuestionText": "The unit vector in the direction of the vector a = 2i + 3j + k is:",
+    "Options": ["A) (2i + 3j + k)/14", "B) (2i + 3j + k)/√14", "C) (2i + 3j + k)/13", "D) (2i + 3j + k)/√13"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "A unit vector is found by dividing the vector by its magnitude, which is √(2²+3²+1²) = √14."
+  },
+  {
+    "QuestionText": "If a and b are two collinear vectors, then which of the following is incorrect?",
+    "Options": ["A) b = λa for some scalar λ", "B) a = ±b", "C) The respective components of a and b are proportional", "D) Both vectors a and b have the same direction"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Advanced",
+    "Explanation": "Collinear vectors can have opposite directions; they just need to be parallel to the same line."
+  },
+  {
+    "QuestionText": "The value of λ for which the vectors 2i - 3j + 4k and ai + 6j - 8k are collinear is:",
+    "Options": ["A) 4", "B) -4", "C) 3", "D) -3"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Advanced",
+    "Explanation": "For collinearity, the ratio of components must be equal: 2/a = -3/6 = 4/-8. Thus -3/6 = -1/2, so 2/a = -1/2 gives a = -4."
+  },
+  {
+    "QuestionText": "The scalar product of the vectors 5i - j - 3k and i + 3j - 5k is:",
+    "Options": ["A) 15", "B) 17", "C) 12", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Foundation",
+    "Explanation": "Scalar product is a₁a₂ + b₁b₂ + c₁c₂. Here, (5)(1) + (-1)(3) + (-3)(-5) = 5 - 3 + 15 = 17."
+  },
+  {
+    "QuestionText": "If the angle between two vectors a and b is θ, then a·b ≥ 0 only when:",
+    "Options": ["A) 0 ≤ θ ≤ π/2", "B) 0 ≤ θ ≤ π", "C) π/2 ≤ θ ≤ π", "D) 0 < θ < π/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Foundation",
+    "Explanation": "a·b = |a||b| cos θ. This is non-negative when cos θ is non-negative, which occurs in the first quadrant."
+  },
+  {
+    "QuestionText": "The projection of the vector i + 3j + 7k on the vector 7i - j + 8k is:",
+    "Options": ["A) 60/√114", "B) 114/√60", "C) 19/√114", "D) 60/√59"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Projection of a on b is (a·b)/|b|. Here, (7 - 3 + 56) / √(49+1+64) = 60/√114."
+  },
+  {
+    "QuestionText": "If |a| = 10, |b| = 2 and a·b = 12, then |a x b| is:",
+    "Options": ["A) 16", "B) 20", "C) 8", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Using Lagrange's identity: |a x b|² = |a|²|b|² - (a·b)² = (100)(4) - 144 = 256. Thus, |a x b| = 16."
+  },
+  {
+    "QuestionText": "The area of a parallelogram whose adjacent sides are given by the vectors a = 3i + j + 4k and b = i - j + k is:",
+    "Options": ["A) √42", "B) √43", "C) 2√42", "D) 42"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Area is |a x b|. a x b = |i j k; 3 1 4; 1 -1 1| = 5i + j - 4k. Magnitude = √(25+1+16) = √42."
+  },
+  {
+    "QuestionText": "The vector product of two non-zero vectors a and b is zero if and only if:",
+    "Options": ["A) a is perpendicular to b", "B) a is parallel to b", "C) a is equal to b", "D) a is negative of b"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Foundation",
+    "Explanation": "|a x b| = |a||b| sin θ. This is zero when sin θ = 0, meaning the vectors are parallel or collinear."
+  },
+  {
+    "QuestionText": "If θ is the angle between two vectors a and b, then |a·b| = |a x b| when θ is:",
+    "Options": ["A) 0", "B) π/4", "C) π/2", "D) π"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Advanced",
+    "Explanation": "|a||b| cos θ = |a||b| sin θ leads to tan θ = 1, so θ = π/4."
+  },
+  {
+    "QuestionText": "The position vector of the midpoint of the line segment joining P(2, 3, 4) and Q(4, 1, -2) is:",
+    "Options": ["A) 3i + 2j + k", "B) 3i + 2j - k", "C) 6i + 4j + 2k", "D) 3i - 2j + k"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Section Formula",
+    "Difficulty": "Foundation",
+    "Explanation": "Midpoint is ((2+4)/2, (3+1)/2, (4-2)/2) = (3, 2, 1)."
+  },
+  {
+    "QuestionText": "If a, b, c are unit vectors such that a + b + c = 0, then the value of a·b + b·c + c·a is:",
+    "Options": ["A) 1", "B) 3", "C) -3/2", "D) 3/2"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Olympiad",
+    "Explanation": "(a+b+c)² = |a|²+|b|²+|c|²+2(a·b+b·c+c·a) = 0. Since unit vectors have magnitude 1, 3 + 2(sum) = 0 gives sum = -3/2."
+  },
+  {
+    "QuestionText": "The direction cosines of the vector 2i + 2j - k are:",
+    "Options": ["A) 2/3, 2/3, -1/3", "B) 2/9, 2/9, -1/9", "C) 1/3, 1/3, -1/3", "D) 2, 2, -1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "Direction cosines are the components of the unit vector. Magnitude = √(4+4+1) = 3."
+  },
+  {
+    "QuestionText": "The value of i·(j x k) + j·(i x k) + k·(i x j) is:",
+    "Options": ["A) 0", "B) -1", "C) 1", "D) 3"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Advanced",
+    "Explanation": "i·i + j·(-j) + k·k = 1 - 1 + 1 = 1."
+  },
+  {
+    "QuestionText": "A vector with initial point (2, 1) and terminal point (-5, 7) is:",
+    "Options": ["A) -7i + 6j", "B) 7i - 6j", "C) -3i + 8j", "D) 3i - 8j"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "Vector is (x₂-x₁)i + (y₂-y₁)j = (-5-2)i + (7-1)j = -7i + 6j."
+  },
+  {
+    "QuestionText": "If |a x b|² + |a·b|² = 144 and |a| = 4, then |b| is:",
+    "Options": ["A) 3", "B) 12", "C) 9", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "By Lagrange's identity, |a|²|b|² = 144. So 16|b|² = 144, |b|² = 9, |b| = 3."
+  },
+  {
+    "QuestionText": "Two vectors a and b are perpendicular if:",
+    "Options": ["A) a x b = 0", "B) a·b = 0", "C) a·b = 1", "D) a x b = 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Foundation",
+    "Explanation": "The dot product involves cos 90°, which is zero."
+  },
+  {
+    "QuestionText": "The area of a triangle with vertices (1, 1, 2), (2, 3, 5) and (1, 5, 5) is:",
+    "Options": ["A) √61/2", "B) √61", "C) 61/2", "D) √59/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Olympiad",
+    "Explanation": "Area is 1/2 |AB x AC|. AB = i+2j+3k, AC = 0i+4j+3k. AB x AC = -6i-3j+4k. Magnitude = √(36+9+16) = √61."
+  },
+  {
+    "QuestionText": "If a = i + j + k and b = i - j, the projection of a on b is:",
+    "Options": ["A) 0", "B) 1", "C) √2", "D) 1/√2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Projection = (a·b)/|b| = (1-1+0)/√2 = 0."
+  },
+  {
+    "QuestionText": "The angle between vectors i - j and j - k is:",
+    "Options": ["A) 60°", "B) 120°", "C) 90°", "D) 150°"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "cos θ = (a·b)/(|a||b|) = (0-1+0)/(√2 * √2) = -1/2. Thus θ = 120°."
+  },
+  {
+    "QuestionText": "If a is a non-zero vector of magnitude 'a' and λ is a non-zero scalar, then λa is a unit vector if:",
+    "Options": ["A) λ = 1", "B) λ = -1", "C) a = |λ|", "D) a = 1/|λ|"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "|λa| = |λ||a| = 1 implies a = 1/|λ|."
+  },
+  {
+    "QuestionText": "Vector addition follows which property?",
+    "Options": ["A) Commutative", "B) Associative", "C) Both A and B", "D) None of these"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Addition of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "Vectors satisfy a + b = b + a and (a + b) + c = a + (b + c)."
+  },
+  {
+    "QuestionText": "If the vectors i - j + k, 2i + j - k and i + λj + k are coplanar, then λ is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) -1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Olympiad",
+    "Explanation": "For coplanarity, the scalar triple product (determinant) must be zero. Solving |1 -1 1; 2 1 -1; 1 λ 1| = 0 gives λ = 1."
+  },
+  {
+    "QuestionText": "The magnitude of the vector product of unit vectors i and j is:",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) √2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Foundation",
+    "Explanation": "i x j = k, and the magnitude of k is 1."
+  },
+  {
+    "QuestionText": "Which of the following is a scalar quantity?",
+    "Options": ["A) Force", "B) Velocity", "C) Distance", "D) Acceleration"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "Distance has only magnitude, while the others are vectors with direction."
+  },
+  {
+    "QuestionText": "If |a| = 3, |b| = 4 and the angle between them is 60°, then a·b is:",
+    "Options": ["A) 6", "B) 12", "C) 6√3", "D) 12√3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Foundation",
+    "Explanation": "a·b = 3 * 4 * cos 60° = 12 * 1/2 = 6."
+  },
+  {
+    "QuestionText": "The unit vector perpendicular to both vectors i + j and j + k is:",
+    "Options": ["A) (i - j + k)/√3", "B) (i + j + k)/√3", "C) (i - j - k)/√3", "D) k"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Calculated using (a x b)/|a x b|. i+j x j+k = i - j + k."
+  },
+  {
+    "QuestionText": "For any vector a, the value of (a·i)i + (a·j)j + (a·k)k is:",
+    "Options": ["A) a", "B) 3a", "C) 0", "D) |a|"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Advanced",
+    "Explanation": "This represents the resolution of a vector into its rectangular components."
+  },
+  {
+    "QuestionText": "If |a+b| = |a-b|, then the angle between a and b is:",
+    "Options": ["A) 0", "B) π/4", "C) π/2", "D) π"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Squaring both sides gives a·b = 0, which means the vectors are perpendicular."
+  },
+  {
+    "QuestionText": "The vector a = i + j + k makes equal angles with the coordinate axes. These angles are:",
+    "Options": ["A) cos⁻¹(1/3)", "B) cos⁻¹(1/√3)", "C) 45°", "D) 60°"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Advanced",
+    "Explanation": "The direction cosines are 1/√3, 1/√3, 1/√3, so the angle is cos⁻¹(1/√3)."
+  },
+  {
+    "QuestionText": "If a vector makes angles α, β, γ with the axes, then cos²α + cos²β + cos²γ is:",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) -1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a fundamental property of direction cosines: l² + m² + n² = 1."
+  },
+  {
+    "QuestionText": "If |a x b| = a·b, then the angle between a and b is:",
+    "Options": ["A) 0", "B) π/2", "C) π/4", "D) π"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Foundation",
+    "Explanation": "sin θ = cos θ implies tan θ = 1, so θ = 45° or π/4."
+  },
+  {
+    "QuestionText": "The scalar triple product [a b c] represents the volume of a:",
+    "Options": ["A) Tetrahedron", "B) Parallelepiped", "C) Sphere", "D) Cylinder"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Geometrically, [a b c] is the volume of the parallelepiped formed by the vectors as coterminous edges."
+  },
+  {
+    "QuestionText": "If a = 2i + j - 3k and b = i - 2j + k, then |2a - b| is:",
+    "Options": ["A) √74", "B) √75", "C) √76", "D) √70"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Addition of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "2a - b = 3i + 4j - 7k. Magnitude = √(9 + 16 + 49) = √74."
+  },
+  {
+    "QuestionText": "The vectors a and -a are:",
+    "Options": ["A) Collinear", "B) Equal", "C) Unit vectors", "D) Perpendicular"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "They are parallel to the same line but in opposite directions."
+  },
+  {
+    "QuestionText": "The dot product of i with i is:",
+    "Options": ["A) 0", "B) 1", "C) k", "D) j"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Foundation",
+    "Explanation": "i·i = |i||i| cos 0 = 1 * 1 * 1 = 1."
+  },
+  {
+    "QuestionText": "If |a| = 8, |b| = 3 and |a x b| = 12, then the angle between a and b is:",
+    "Options": ["A) 30°", "B) 45°", "C) 60°", "D) 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Advanced",
+    "Explanation": "sin θ = |a x b| / (|a||b|) = 12 / (8 * 3) = 1/2. Thus θ = 30°."
+  },
+  {
+    "QuestionText": "The position vector of a point R which divides the join of P and Q with position vectors a and b in ratio m:n externally is:",
+    "Options": ["A) (mb + na)/(m+n)", "B) (mb - na)/(m-n)", "@) (ma - nb)/(m-n)", "D) (ma + nb)/(m+n)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Section Formula",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard formula for external division in vectors."
+  },
+  {
+    "QuestionText": "If a, b are two vectors such that |a| = 2, |b| = 1 and a·b = 1, then the angle between them is:",
+    "Options": ["A) π/6", "B) π/4", "C) π/3", "D) π/2"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Foundation",
+    "Explanation": "cos θ = 1 / (2 * 1) = 1/2, so θ = 60° or π/3."
+  },
+  {
+    "QuestionText": "The value of j·(k x i) is:",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) i"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Foundation",
+    "Explanation": "k x i = j, and j·j = 1."
+  },
+  {
+    "QuestionText": "If a is a unit vector and (x - a)·(x + a) = 8, then |x| is:",
+    "Options": ["A) 3", "B) √8", "C) 9", "D) 7"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "|x|² - |a|² = 8. Since |a|=1, |x|² = 9, so |x| = 3."
+  },
+  {
+    "QuestionText": "Two vectors having the same initial point are called:",
+    "Options": ["A) Collinear vectors", "B) Co-initial vectors", "C) Equal vectors", "D) Like vectors"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "Definition of co-initial vectors."
+  },
+  {
+    "QuestionText": "If a = 2i + 2j + 3k, b = -i + 2j + k and c = 3i + j, then a + λb is perpendicular to c if λ is:",
+    "Options": ["A) 8", "B) 4", "C) 2", "D) 5"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Olympiad",
+    "Explanation": "(a + λb)·c = 0 → (2-λ)3 + (2+2λ)1 + 0 = 0 → 6 - 3λ + 2 + 2λ = 0 → 8 - λ = 0, so λ = 8."
+  },
+  {
+    "QuestionText": "The work done by a force F = i + j - k in displacing a particle from A(1, 2, 3) to B(2, 3, 4) is:",
+    "Options": ["A) 1 unit", "B) 2 units", "C) 3 units", "D) 0 units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Advanced",
+    "Explanation": "Displacement d = i+j+k. Work = F·d = (1)(1) + (1)(1) + (-1)(1) = 1."
+  },
+  {
+    "QuestionText": "The vector component of a vector a in the direction of b is:",
+    "Options": ["A) ((a·b)/|b|²) b", "B) ((a·b)/|b|) b", "C) (a·b) b", "D) a x b"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Olympiad",
+    "Explanation": "It is the scalar projection multiplied by the unit vector in direction b."
+  },
+  {
+    "QuestionText": "If a, b are unit vectors and θ is the angle between them, then |a - b| is:",
+    "Options": ["A) 2 sin(θ/2)", "B) 2 cos(θ/2)", "C) sin(θ/2)", "D) cos(θ/2)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Scalar Product",
+    "Difficulty": "Olympiad",
+    "Explanation": "|a-b|² = 1 + 1 - 2 cos θ = 2(1 - cos θ) = 4 sin²(θ/2)."
+  },
+  {
+    "QuestionText": "A zero vector has:",
+    "Options": ["A) Magnitude 0", "B) Indeterminate direction", "C) Both A and B", "D) Magnitude 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Basics of Vectors",
+    "Difficulty": "Foundation",
+    "Explanation": "A zero vector starts and ends at the same point."
+  },
+  {
+    "QuestionText": "If a, b are adjacent sides of a triangle, its area is:",
+    "Options": ["A) |a x b|", "B) 1/2 |a x b|", "C) a·b", "D) 1/2 a·b"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Foundation",
+    "Explanation": "Geometric interpretation of the magnitude of the cross product."
+  },
+  {
+    "QuestionText": "If |a| = 3, |b| = √2/3 and |a x b| = 1, then the angle between a and b is:",
+    "Options": ["A) π/6", "B) π/4", "C) π/3", "D) π/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Vector Algebra",
+    "SubTopic": "Vector Product",
+    "Difficulty": "Advanced",
+    "Explanation": "sin θ = 1 / (3 * √2/3) = 1/√2, so θ = 45° or π/4."
+  }
+]

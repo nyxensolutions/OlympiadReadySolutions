@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The order of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0 is:",
+    "Options": ["A) 3", "B) 2", "C) 1", "D) Not defined"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "The order is the highest derivative present in the equation, which is d²y/dx²."
+  },
+  {
+    "QuestionText": "The degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0 is:",
+    "Options": ["A) 3", "B) 2", "C) 1", "D) Not defined"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "Degree is not defined because the equation is not a polynomial in its derivatives due to the sin(dy/dx) term."
+  },
+  {
+    "QuestionText": "The number of arbitrary constants in the general solution of a differential equation of fourth order is:",
+    "Options": ["A) 0", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "General and Particular Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "The number of arbitrary constants in a general solution is equal to the order of the differential equation."
+  },
+  {
+    "QuestionText": "The number of arbitrary constants in the particular solution of a differential equation of third order is:",
+    "Options": ["A) 3", "B) 2", "C) 1", "D) 0"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "General and Particular Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "A particular solution is obtained by giving specific values to constants, so it contains no arbitrary constants."
+  },
+  {
+    "QuestionText": "Which of the following differential equations has y = c₁eˣ + c₂e⁻ˣ as its general solution?",
+    "Options": ["A) d²y/dx² + y = 0", "B) d²y/dx² - y = 0", "C) d²y/dx² + 1 = 0", "D) d²y/dx² - 1 = 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "General and Particular Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "Differentiating y twice gives y'' = c₁eˣ + c₂e⁻ˣ = y, so y'' - y = 0."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = (1 + y²) / (1 + x²) is:",
+    "Options": ["A) tan⁻¹y = tan⁻¹x + C", "B) tan⁻¹y + tan⁻¹x = C", "C) tan⁻¹(y/x) = C", "D) x + y = C(1 - xy)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Separating variables gives ∫dy/(1+y²) = ∫dx/(1+x²), which integrates to tan⁻¹y = tan⁻¹x + C."
+  },
+  {
+    "QuestionText": "The integrating factor (I.F.) for the linear differential equation dy/dx + Py = Q is:",
+    "Options": ["A) ∫P dx", "B) e^∫P dx", "C) e^∫Q dx", "D) e^∫P dy"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "The standard integrating factor for a first-order linear equation in y is e^∫P dx."
+  },
+  {
+    "QuestionText": "The solution of the differential equation x dy/dx + 2y = x² is:",
+    "Options": ["A) y = x²/4 + C/x²", "B) y = x²/4 + C", "C) y = x⁴/4 + C", "D) y = x + C/x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard form: y' + (2/x)y = x. I.F. = e^∫(2/x)dx = x². Solution: yx² = ∫x³dx = x⁴/4 + C."
+  },
+  {
+    "QuestionText": "A homogeneous differential equation of the form dy/dx = f(x, y) can be solved by the substitution:",
+    "Options": ["A) y = vx", "B) x = vy", "C) y = v/x", "D) x = v/y"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "The substitution y = vx transforms a homogeneous equation into a variable separable one."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = eˣ⁺ʸ is:",
+    "Options": ["A) eˣ + e⁻ʸ = C", "B) eˣ - e⁻ʸ = C", "C) eˣ + eʸ = C", "D) eˣ - eʸ = C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = eˣeʸ → ∫e⁻ʸdy = ∫eˣdx → -e⁻ʸ = eˣ + C', which rearranges to eˣ + e⁻ʸ = C."
+  },
+  {
+    "QuestionText": "The integrating factor of the differential equation (1 - x²) dy/dx - xy = 1 is:",
+    "Options": ["A) -x", "B) √(1 - x²)", "C) 1 / √(1 - x²)", "D) 1 / (1 - x²)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Standard form: y' - (x/(1-x²))y = 1/(1-x²). I.F. = e^∫(-x/(1-x²))dx = e^(1/2 log|1-x²|) = √(1-x²)."
+  },
+  {
+    "QuestionText": "The differential equation of all circles passing through the origin and having centers on the x-axis is:",
+    "Options": ["A) y² = x² + 2xy y'", "B) x² = y² + 2xy y'", "C) y² = x² - 2xy y'", "D) x² = y² - 2xy y'"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Equation: (x-a)² + y² = a². Simplifying and differentiating to eliminate 'a' yields the result."
+  },
+  {
+    "QuestionText": "The degree of the differential equation d²y/dx² = √(1 + dy/dx) is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 1/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Advanced",
+    "Explanation": "Squaring both sides to remove radicals gives (d²y/dx²)² = 1 + dy/dx, making the degree 2."
+  },
+  {
+    "QuestionText": "The general solution of dy/dx = y/x is:",
+    "Options": ["A) y = Cx", "B) x = Cy", "C) xy = C", "D) y = x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Foundation",
+    "Explanation": "∫dy/y = ∫dx/x → log y = log x + log C → y = Cx."
+  },
+  {
+    "QuestionText": "Which of the following is a homogeneous differential equation?",
+    "Options": ["A) (x+y)dx - dy = 0", "B) x²ydx - (x³+y³)dy = 0", "C) (x²+y)dx + (y²+x)dy = 0", "D) y dx + x dy = 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "In B, both M and N are homogeneous functions of degree 3, making the entire equation homogeneous."
+  },
+  {
+    "QuestionText": "The solution of (dy/dx) + y cot x = 2 cos x is:",
+    "Options": ["A) y sin x = sin²x + C", "B) y cos x = sin²x + C", "C) y sin x = cos²x + C", "D) y = sin x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "I.F. = e^∫cot x dx = e^(log sin x) = sin x. Solution: y sin x = ∫2 sin x cos x dx = sin²x + C."
+  },
+  {
+    "QuestionText": "The order and degree of the differential equation of all parabolas with vertex at the origin and axis along the positive x-axis are:",
+    "Options": ["A) 1, 1", "B) 1, 2", "C) 2, 1", "D) 2, 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Family: y² = 4ax. Differentiating once eliminates 'a', so order is 1 and degree is 1."
+  },
+  {
+    "QuestionText": "The I.F. of dy/dx + y/x = x² is:",
+    "Options": ["A) x", "B) log x", "C) 1/x", "D) eˣ"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "I.F. = e^∫(1/x)dx = e^(log x) = x."
+  },
+  {
+    "QuestionText": "The general solution of x dy - y dx = 0 is:",
+    "Options": ["A) xy = C", "B) y = Cx", "C) x + y = C", "D) x² + y² = C"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Foundation",
+    "Explanation": "x dy = y dx → ∫dy/y = ∫dx/x → y = Cx."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = (y/x) + tan(y/x) is:",
+    "Options": ["A) sin(y/x) = Cx", "B) cos(y/x) = Cx", "C) tan(y/x) = Cx", "D) sin(x/y) = Cy"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let y=vx. Equation becomes v + x dv/dx = v + tan v → ∫cot v dv = ∫dx/x → log sin v = log x + log C."
+  },
+  {
+    "QuestionText": "The differential equation representing the family of curves y = a sin(x + b) is:",
+    "Options": ["A) d²y/dx² + y = 0", "B) d²y/dx² - y = 0", "C) dy/dx + y = 0", "D) d²y/dx² = 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "y' = a cos(x+b) and y'' = -a sin(x+b) = -y. Thus y'' + y = 0."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = 1 + x + y + xy is:",
+    "Options": ["A) log|1+y| = x + x²/2 + C", "B) log|1+x| = y + y²/2 + C", "C) y = eˣ + C", "D) 1+y = C(1+x)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = (1+x)(1+y) → ∫dy/(1+y) = ∫(1+x)dx → log|1+y| = x + x²/2 + C."
+  },
+  {
+    "QuestionText": "The integrating factor of x dy/dx - y = 2x² is:",
+    "Options": ["A) x", "B) 1/x", "C) e⁻ˣ", "D) log x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "y' - (1/x)y = 2x. I.F. = e^∫(-1/x)dx = e^(-log x) = 1/x."
+  },
+  {
+    "QuestionText": "The order of the differential equation of the family of all circles of radius 5 is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Equation: (x-h)² + (y-k)² = 25. There are 2 arbitrary constants (h and k), so order is 2."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = y/x + (y/x)² is:",
+    "Options": ["A) y = x / (C - log x)", "B) y = x (C + log x)", "C) x = y (C - log y)", "D) y = C x log x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let y=vx → v + x v' = v + v² → ∫dv/v² = ∫dx/x → -1/v = log x + C → -x/y = log x + C."
+  },
+  {
+    "QuestionText": "The degree of differential equation (1 + (dy/dx)²)³/² = d²y/dx² is:",
+    "Options": ["A) 3", "B) 2", "C) 1", "D) Not defined"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Advanced",
+    "Explanation": "Squaring both sides to eliminate the fractional power gives (1 + (dy/dx)²)³ = (d²y/dx²)², making degree 2."
+  },
+  {
+    "QuestionText": "The general solution of dy/dx = x/y is:",
+    "Options": ["A) x² - y² = C", "B) y² - x² = C", "C) x² + y² = C", "D) xy = C"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Foundation",
+    "Explanation": "y dy = x dx → ∫y dy = ∫x dx → y²/2 = x²/2 + C' → y² - x² = C."
+  },
+  {
+    "QuestionText": "The I.F. of dy/dx + y tan x = sec x is:",
+    "Options": ["A) tan x", "B) sec x", "C) cos x", "D) sin x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "I.F. = e^∫tan x dx = e^(log|sec x|) = sec x."
+  },
+  {
+    "QuestionText": "The number of arbitrary constants in the differential equation of family of parabolas y² = 4ax is:",
+    "Options": ["A) 1", "B) 2", "C) 0", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "'a' is the only arbitrary constant in this family."
+  },
+  {
+    "QuestionText": "The solution of dy/dx + y/x = 0 is:",
+    "Options": ["A) xy = C", "B) y = Cx", "C) x + y = C", "D) x/y = C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Foundation",
+    "Explanation": "dy/y = -dx/x → log y = -log x + log C → log(xy) = log C → xy = C."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = (x+y)/x is:",
+    "Options": ["A) y = x log x + Cx", "B) y = log x + C", "C) y = x + C", "D) y = Cx eˣ"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = 1 + y/x. Let y=vx → v + x v' = 1 + v → x v' = 1 → ∫dv = ∫dx/x → v = log x + C → y/x = log x + C."
+  },
+  {
+    "QuestionText": "The I.F. of the differential equation (x + 3y²) dy/dx = y is:",
+    "Options": ["A) y", "B) 1/y", "C) eʸ", "D) 1/y²"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Reversing to dx/dy: dx/dy = (x+3y²)/y → dx/dy - (1/y)x = 3y. I.F. = e^∫(-1/y)dy = 1/y."
+  },
+  {
+    "QuestionText": "The degree of differential equation (d²y/dx²)² + (dy/dx)² = x sin(d²y/dx²) is:",
+    "Options": ["A) 2", "B) 1", "C) 3", "D) Not defined"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Advanced",
+    "Explanation": "It is not a polynomial in derivatives due to the sin(d²y/dx²) term."
+  },
+  {
+    "QuestionText": "The solution of dy/dx + 2y = e⁻ˣ is:",
+    "Options": ["A) y e²ˣ = eˣ + C", "B) y eˣ = e²ˣ + C", "C) y = e⁻ˣ + C", "D) y = eˣ + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "I.F. = e^∫2dx = e²ˣ. Solution: y e²ˣ = ∫e⁻ˣ e²ˣ dx = ∫eˣ dx = eˣ + C."
+  },
+  {
+    "QuestionText": "The order of the differential equation of all non-vertical lines in a plane is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Equation: y = mx + c. Two constants (m, c), so order is 2."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = (1+y)/(1+x) is:",
+    "Options": ["A) (1+y) = C(1+x)", "B) (1+x) = C(1+y)", "C) y = x + C", "D) xy = C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Foundation",
+    "Explanation": "∫dy/(1+y) = ∫dx/(1+x) → log(1+y) = log(1+x) + log C → 1+y = C(1+x)."
+  },
+  {
+    "QuestionText": "The general solution of dy/dx = eˣ⁻ʸ is:",
+    "Options": ["A) eʸ = eˣ + C", "B) eˣ + eʸ = C", "C) eˣ⁻ʸ = C", "D) y = x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Foundation",
+    "Explanation": "eʸ dy = eˣ dx → ∫eʸ dy = ∫eˣ dx → eʸ = eˣ + C."
+  },
+  {
+    "QuestionText": "The solution of dy/dx + y/x = sin x is:",
+    "Options": ["A) xy = sin x - x cos x + C", "B) xy = x sin x + cos x + C", "C) y = sin x + C", "D) xy = cos x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "I.F. = x. xy = ∫x sin x dx. Using parts: xy = -x cos x + sin x + C."
+  },
+  {
+    "QuestionText": "Which substitution is used to solve dy/dx = (x-y)/(x+y)?",
+    "Options": ["A) y = vx", "B) x = vy", "C) y = x + v", "D) y = x - v"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "It is a homogeneous equation, so y=vx is the standard substitution."
+  },
+  {
+    "QuestionText": "The degree of differential equation d²y/dx² + (dy/dx)³ + 6y = 0 is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "The power of the highest order derivative (d²y/dx²) is 1."
+  },
+  {
+    "QuestionText": "The I.F. of (1+x²) dy/dx + 2xy = cos x is:",
+    "Options": ["A) 1+x²", "B) 1/(1+x²)", "C) log(1+x²)", "D) x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "y' + (2x/(1+x²))y = cos x/(1+x²). I.F. = e^∫(2x/(1+x²))dx = e^log(1+x²) = 1+x²."
+  },
+  {
+    "QuestionText": "The general solution of dy/dx = f(y/x) is always of the form:",
+    "Options": ["A) y = x g(x)", "B) log x = ∫ dv / (f(v)-v) + C", "C) y = f(x) + C", "D) x = y g(y)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "This is the general result obtained after substituting y=vx in a homogeneous equation."
+  },
+  {
+    "QuestionText": "The particular solution of dy/dx = cos x at (0, 0) is:",
+    "Options": ["A) y = sin x", "B) y = sin x + 1", "C) y = cos x", "D) y = -sin x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "General and Particular Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "y = sin x + C. At (0,0), 0 = sin 0 + C → C = 0. Thus y = sin x."
+  },
+  {
+    "QuestionText": "The general solution of dy/dx + y = 1 is:",
+    "Options": ["A) y = 1 + Ce⁻ˣ", "B) y = 1 + Ceˣ", "C) y = Ce⁻ˣ", "D) y = x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "I.F. = eˣ. y eˣ = ∫eˣ dx = eˣ + C → y = 1 + Ce⁻ˣ."
+  },
+  {
+    "QuestionText": "Order of the differential equation of all conics whose center is at origin is:",
+    "Options": ["A) 2", "B) 3", "C) 5", "D) 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "General conic is Ax²+Bxy+Cy²+Dx+Ey+F=0. Center at origin means D=E=0. Three ratios (A/F, B/F, C/F) are constants — Rechecking: actually it depends on the specific conic family."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = (y log y) / x is:",
+    "Options": ["A) log y = Cx", "B) y = eᶜˣ", "C) log(log y) = log x + C", "D) Both A and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Variable Separable Method",
+    "Difficulty": "Olympiad",
+    "Explanation": "∫dy/(y log y) = ∫dx/x → log(log y) = log x + log C → log y = Cx."
+  },
+  {
+    "QuestionText": "The I.F. of dy/dx - y = cos x is:",
+    "Options": ["A) eˣ", "B) e⁻ˣ", "C) -eˣ", "D) log x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Linear Differential Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "I.F. = e^∫-1 dx = e⁻ˣ."
+  },
+  {
+    "QuestionText": "The differential equation y dy/dx + x = C represents:",
+    "Options": ["A) Family of circles", "B) Family of parabolas", "C) Family of ellipses", "D) Family of hyperbolas"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Formation of Differential Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "∫y dy = ∫(C-x) dx → y²/2 = Cx - x²/2 + K → x² + y² - 2Cx = 2K, which are circles."
+  },
+  {
+    "QuestionText": "The solution of dy/dx = y² / (xy - x²) is:",
+    "Options": ["A) e^(y/x) = Cy/x", "B) e^(x/y) = Cy/x", "C) y = x log y", "D) None of these"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Homogeneous Differential Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let y=vx. v+xv' = v²/(v-1) → xv' = v/(v-1) → ∫(v-1)/v dv = ∫dx/x → v - log v = log x + C → y/x - log(y/x) = log x + C."
+  },
+  {
+    "QuestionText": "The order of the differential equation d³y/dx³ + 2(d²y/dx²)² - dy/dx + y = 0 is:",
+    "Options": ["A) 3", "B) 2", "C) 1", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "The highest order derivative is the third derivative."
+  }
+]

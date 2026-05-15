@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The rate of a chemical reaction tells us about:",
+    "Options": ["A) The feasibility of the reaction", "B) The extent of the reaction", "C) The speed at which the reaction occurs", "D) The heat evolved in the reaction"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Rate of Reaction",
+    "Difficulty": "Foundation",
+    "Explanation": "Chemical kinetics specifically deals with the velocity or speed of chemical transformations."
+  },
+  {
+    "QuestionText": "For a reaction A + 2B → C, the rate of disappearance of B is:",
+    "Options": ["A) Equal to the rate of disappearance of A", "B) Half the rate of disappearance of A", "C) Twice the rate of disappearance of A", "D) Twice the rate of appearance of C"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Rate of Reaction",
+    "Difficulty": "Foundation",
+    "Explanation": "According to stoichiometry, for every mole of A consumed, two moles of B are consumed."
+  },
+  {
+    "QuestionText": "The unit of rate constant for a zero-order reaction is:",
+    "Options": ["A) s⁻¹", "B) mol L⁻¹ s⁻¹", "C) L mol⁻¹ s⁻¹", "D) L² mol⁻² s⁻¹"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Foundation",
+    "Explanation": "In a zero-order reaction, the rate is equal to the rate constant, so they share the same units."
+  },
+  {
+    "QuestionText": "The molecularity of a complex reaction is:",
+    "Options": ["A) Equal to its order", "B) Determined from the slowest step", "C) Has no meaning", "D) Sum of coefficients in the balanced equation"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "Molecularity is defined only for elementary reactions; for complex reactions, we discuss the molecularity of individual steps."
+  },
+  {
+    "QuestionText": "A catalyst increases the rate of reaction by:",
+    "Options": ["A) Increasing activation energy", "B) Decreasing activation energy", "C) Increasing enthalpy of reaction", "D) Decreasing enthalpy of reaction"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Foundation",
+    "Explanation": "Catalysts provide an alternative pathway with a lower energy barrier, allowing more molecules to react."
+  },
+  {
+    "QuestionText": "The half-life of a first-order reaction is:",
+    "Options": ["A) Directly proportional to initial concentration", "B) Inversely proportional to initial concentration", "C) Independent of initial concentration", "D) Proportional to the square of concentration"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "For first-order reactions, t(1/2) = 0.693/k, which does not contain the concentration term 'a'."
+  },
+  {
+    "QuestionText": "In the Arrhenius equation k = A e^(-Ea/RT), 'A' represents:",
+    "Options": ["A) Activation energy", "B) Frequency factor", "C) Rate constant", "D) Gas constant"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Arrhenius Equation",
+    "Difficulty": "Foundation",
+    "Explanation": "A is the pre-exponential factor, also known as the frequency factor, relating to the frequency of collisions."
+  },
+  {
+    "QuestionText": "If the concentration of a reactant is doubled and the rate becomes four times, the order of reaction is:",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "Rate ∝ [Conc]^n. Since 2ⁿ = 4, n must be 2."
+  },
+  {
+    "QuestionText": "The minimum energy required by a molecule to undergo a chemical reaction is called:",
+    "Options": ["A) Kinetic energy", "B) Threshold energy", "C) Activation energy", "D) Potential energy"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Collision Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "Threshold energy is the total minimum energy (internal + activation) that colliding molecules must possess for a reaction to occur."
+  },
+  {
+    "QuestionText": "The slope of a graph between log k and 1/T for a reaction is:",
+    "Options": ["A) -Ea / 2.303R", "B) Ea / R", "C) -Ea / R", "D) 2.303R / Ea"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Arrhenius Equation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Taking log of the Arrhenius equation gives log k = log A - (Ea / 2.303RT), matching the y = mx + c form."
+  },
+  {
+    "QuestionText": "Radioactive decay follows which order of kinetics?",
+    "Options": ["A) Zero order", "B) First order", "C) Second order", "D) Third order"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "All natural and artificial radioactive decays are first-order processes."
+  },
+  {
+    "QuestionText": "The rate constant of a reaction depends on:",
+    "Options": ["A) Temperature", "B) Concentration", "C) Time", "D) Extent of reaction"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Foundation",
+    "Explanation": "While the rate depends on concentration, the rate constant (k) is specifically dependent on temperature and the presence of a catalyst."
+  },
+  {
+    "QuestionText": "Which step in a multi-step reaction is called the rate-determining step?",
+    "Options": ["A) The first step", "B) The last step", "C) The slowest step", "D) The fastest step"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Foundation",
+    "Explanation": "The overall speed of a process is limited by its slowest component, similar to a bottleneck."
+  },
+  {
+    "QuestionText": "What is the order of a reaction for which the rate law is: Rate = k[A]^(1/2)[B]^(3/2)?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 1/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "Overall order is the sum of exponents: 1/2 + 3/2 = 4/2 = 2."
+  },
+  {
+    "QuestionText": "In a zero-order reaction, the time taken for 100% completion is:",
+    "Options": ["A) k/[A]₀", "B) [A]₀/k", "C) 0.693/k", "D) Infinite"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "For zero order, [A] = [A]₀ - kt. For completion, [A] = 0, so t = [A]₀/k."
+  },
+  {
+    "QuestionText": "The unit of rate of reaction is:",
+    "Options": ["A) mol L⁻¹ s⁻¹", "B) mol L s", "C) mol⁻¹ L s⁻¹", "D) mol L⁻¹"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Rate of Reaction",
+    "Difficulty": "Foundation",
+    "Explanation": "Rate is change in concentration (mol/L) per unit time (s)."
+  },
+  {
+    "QuestionText": "Temperature coefficient of a reaction is usually the ratio of rate constants at:",
+    "Options": ["A) 25°C and 35°C", "B) 0°C and 100°C", "C) 100K and 200K", "D) T and T+1"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Advanced",
+    "Explanation": "It is generally defined as the ratio of rate constants for a 10-degree temperature rise."
+  },
+  {
+    "QuestionText": "For which order is the unit of rate constant s⁻¹?",
+    "Options": ["A) Zero", "B) First", "C) Second", "D) Third"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Foundation",
+    "Explanation": "In first-order, Rate (mol/L/s) = k [Conc] (mol/L), so k has units of 1/s."
+  },
+  {
+    "QuestionText": "According to collision theory, not all collisions result in a reaction because of:",
+    "Options": ["A) Energy barrier", "B) Orientation barrier", "C) Both A and B", "D) Concentration barrier"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Collision Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "Reactants must collide with sufficient energy AND in the correct geometric orientation."
+  },
+  {
+    "QuestionText": "The specific rate constant of a first-order reaction depends on the:",
+    "Options": ["A) Concentration of reactant", "B) Concentration of product", "C) Time", "D) Temperature"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Foundation",
+    "Explanation": "Temperature is the primary external factor that alters the value of the rate constant."
+  },
+  {
+    "QuestionText": "For a reaction A + B → C + D, doubling the concentration of A doubles the rate, but doubling B has no effect. The rate law is:",
+    "Options": ["A) Rate = k[A][B]", "B) Rate = k[A]²", "C) Rate = k[A]", "D) Rate = k[A][B]²"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "Reaction is first order with respect to A and zero order with respect to B."
+  },
+  {
+    "QuestionText": "The half-life of a zero-order reaction is:",
+    "Options": ["A) [A]₀ / 2k", "B) 0.693 / k", "C) 1 / k[A]₀", "D) 2k / [A]₀"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "For zero order, t(1/2) is directly proportional to the initial concentration."
+  },
+  {
+    "QuestionText": "The activation energy of a reaction is zero. The rate constant (k) will be:",
+    "Options": ["A) Zero", "B) Equal to frequency factor (A)", "C) Infinite", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Arrhenius Equation",
+    "Difficulty": "Olympiad",
+    "Explanation": "If Ea = 0, then e^(-Ea/RT) = e⁰ = 1, so k = A."
+  },
+  {
+    "QuestionText": "An increase in temperature by 10K generally ________ the rate of reaction.",
+    "Options": ["A) Doubles", "B) Triples", "C) Halves", "D) Remains same"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Foundation",
+    "Explanation": "For most reactions, the rate constant approximately doubles for every 10-degree rise in temperature."
+  },
+  {
+    "QuestionText": "The decomposition of HI on a gold surface is an example of:",
+    "Options": ["A) First order", "B) Zero order", "C) Second order", "D) Fractional order"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "Surface reactions where the catalyst site is saturated are typically zero-order."
+  },
+  {
+    "QuestionText": "Molecularity can never be:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0 or fractional"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Foundation",
+    "Explanation": "Molecularity represents the number of molecules colliding, which must be a positive integer."
+  },
+  {
+    "QuestionText": "A plot of [A] vs time is linear for which order?",
+    "Options": ["A) Zero order", "B) First order", "C) Second order", "D) All of these"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "From [A] = -kt + [A]₀, the concentration drops linearly with time for zero-order reactions."
+  },
+  {
+    "QuestionText": "A plot of log [A] vs time is linear for which order?",
+    "Options": ["A) Zero", "B) First", "C) Second", "D) Third"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "First order kinetics follow log[A] = -(k/2.303)t + log[A]₀."
+  },
+  {
+    "QuestionText": "Which theory explains the influence of temperature on reaction rates?",
+    "Options": ["A) VSEPR Theory", "B) Collision Theory", "C) Crystal Field Theory", "D) Molecular Orbital Theory"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Collision Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "Collision theory describes how temperature increases kinetic energy and the frequency of effective collisions."
+  },
+  {
+    "QuestionText": "The unit of rate constant for a second-order reaction is:",
+    "Options": ["A) s⁻¹", "B) mol L⁻¹ s⁻¹", "C) L mol⁻¹ s⁻¹", "D) L² mol⁻² s⁻¹"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "Derived from Rate / [Conc]², yielding L / (mol · s)."
+  },
+  {
+    "QuestionText": "If a reaction is exothermic, the activation energy of the forward reaction is:",
+    "Options": ["A) Less than the backward reaction", "B) Greater than the backward reaction", "C) Equal to the backward reaction", "D) Zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Collision Theory",
+    "Difficulty": "Olympiad",
+    "Explanation": "For exothermic reactions, products are at lower energy than reactants, making the 'climb' for the backward reaction steeper."
+  },
+  {
+    "QuestionText": "Pseudo first-order reactions are those that:",
+    "Options": ["A) Are actually first order", "B) Are higher order but behave like first order", "C) Have zero order", "D) Don't follow any rate law"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "This occurs when one reactant is in such large excess that its concentration remains virtually constant (e.g., hydrolysis of ester)."
+  },
+  {
+    "QuestionText": "Photochemical reactions (like photosynthesis) are generally of which order?",
+    "Options": ["A) Zero", "B) First", "C) Second", "D) Third"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "The rate depends on the intensity of light rather than the concentration of the reactants."
+  },
+  {
+    "QuestionText": "In a first-order reaction, the concentration of reactant decreases from 0.8M to 0.4M in 15 minutes. Time taken to decrease from 0.1M to 0.025M is:",
+    "Options": ["A) 15 min", "B) 30 min", "C) 45 min", "D) 60 min"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "0.8 to 0.4 is one half-life (15 min). 0.1 to 0.025 is two half-lives (0.1 -> 0.05 -> 0.025), so 2 * 15 = 30 minutes."
+  },
+  {
+    "QuestionText": "Transition state theory suggests that reactants form ________ before products.",
+    "Options": ["A) Intermediate", "B) Activated Complex", "C) Free radicals", "D) Ions"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Collision Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "The activated complex is a high-energy, unstable arrangement of atoms at the peak of the energy barrier."
+  },
+  {
+    "QuestionText": "The order of a reaction can be:",
+    "Options": ["A) Positive only", "B) Integer only", "C) Zero, fractional or negative", "D) Always 1, 2 or 3"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "Unlike molecularity, order is an experimental quantity and can take various values."
+  },
+  {
+    "QuestionText": "Increasing the surface area of solid reactants ________ the rate of reaction.",
+    "Options": ["A) Increases", "B) Decreases", "C) Does not change", "D) Stops"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Foundation",
+    "Explanation": "More surface area provides more sites for collisions to occur."
+  },
+  {
+    "QuestionText": "For the reaction 2A + B → Products, if it is an elementary reaction, the order is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "For elementary reactions, the order is equal to the sum of stoichiometric coefficients (2+1=3)."
+  },
+  {
+    "QuestionText": "The half-life of a reaction is 50 min. If the concentration is doubled, the half-life becomes 100 min. The order is:",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "In zero-order, t(1/2) is directly proportional to initial concentration. Doubling concentration doubles half-life."
+  },
+  {
+    "QuestionText": "The rate constant of a reaction is 2 × 10⁻² L mol⁻¹ s⁻¹. The order is:",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "The units L mol⁻¹ s⁻¹ are characteristic of a second-order reaction."
+  },
+  {
+    "QuestionText": "Which value of ΔH corresponds to the fastest reaction, assuming Ea is similar?",
+    "Options": ["A) -100 kJ", "B) -50 kJ", "C) +50 kJ", "D) ΔH does not determine rate"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Rate of Reaction",
+    "Difficulty": "Advanced",
+    "Explanation": "Thermodynamics (ΔH) tells us about stability/feasibility, while kinetics (Ea) tells us about speed."
+  },
+  {
+    "QuestionText": "The integrated rate law for a first-order reaction is k = :",
+    "Options": ["A) (2.303/t) log([A]₀/[A])", "B) (1/t) ([A]₀ - [A])", "C) (1/t) (1/[A] - 1/[A]₀)", "D) log([A]/[A]₀) / t"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the standard expression derived for first-order kinetics using natural logs."
+  },
+  {
+    "QuestionText": "What fraction of reactant remains after 5 half-lives in a first-order reaction?",
+    "Options": ["A) 1/5", "B) 1/10", "C) 1/32", "D) 1/25"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Amount remaining = (1/2)ⁿ, so (1/2)⁵ = 1/32."
+  },
+  {
+    "QuestionText": "In the reaction mechanism, the species that is formed in one step and consumed in the next is called:",
+    "Options": ["A) Catalyst", "B) Reactant", "C) Intermediate", "D) Transition state"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Foundation",
+    "Explanation": "Intermediates are real species with finite lifetimes that do not appear in the overall balanced equation."
+  },
+  {
+    "QuestionText": "If the rate constant doubling for a 10K rise is consistent, how much faster is a reaction at 100°C compared to 0°C?",
+    "Options": ["A) 10 times", "B) 100 times", "C) 2¹⁰ times", "D) 10² times"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Olympiad",
+    "Explanation": "There are 10 intervals of 10K. The rate increases by factor of 2¹⁰ = 1024."
+  },
+  {
+    "QuestionText": "Collision frequency (Z) is the number of collisions per:",
+    "Options": ["A) mole per second", "B) second per unit volume", "C) molecule", "D) gram"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Collision Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "It measures the total number of encounters between molecules in a given space and time."
+  },
+  {
+    "QuestionText": "The unit of rate constant for an n-th order reaction is:",
+    "Options": ["A) (mol L⁻¹)^(1-n) s⁻¹", "B) (mol L⁻¹)ⁿ s⁻¹", "C) s⁻¹", "D) mol L⁻¹ s⁻ⁿ"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Olympiad",
+    "Explanation": "General formula is (concentration)^(1-order) * time⁻¹."
+  },
+  {
+    "QuestionText": "A reaction with molecularity 3 is:",
+    "Options": ["A) Common", "B) Rare", "C) Impossible", "D) Very fast"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Order and Molecularity",
+    "Difficulty": "Advanced",
+    "Explanation": "The probability of three molecules colliding simultaneously with proper energy and orientation is very low."
+  },
+  {
+    "QuestionText": "Which factor does NOT affect the rate of a gas-phase reaction?",
+    "Options": ["A) Pressure", "B) Temperature", "C) Humidity (if water not a reactant)", "D) Catalyst"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Factors Affecting Rate",
+    "Difficulty": "Foundation",
+    "Explanation": "Inert moisture does not participate in the kinetics of a dry gas-phase reaction."
+  },
+  {
+    "QuestionText": "The slope of log [A]₀/[A] vs time graph for a first-order reaction is:",
+    "Options": ["A) k / 2.303", "B) -k / 2.303", "C) k", "D) -k"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Integrated Rate Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Rearranging log([A]₀/[A]) = (k/2.303)t gives a line with positive slope k/2.303."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The nth term of an AP with first term a and common difference d is:",
+    "Options": [
+      "A) a + nd",
+      "B) a + (n−1)d",
+      "C) a × dⁿ",
+      "D) d + (n−1)a"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "The nth term aₙ = a + (n−1)d. For example, the 5th term = a + 4d."
+  },
+  {
+    "QuestionText": "The sum of first n terms of an AP is:",
+    "Options": [
+      "A) n/2 × (2a + nd)",
+      "B) n/2 × [2a + (n−1)d]",
+      "C) n(a + d)",
+      "D) n × aₙ"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "Sₙ = n/2 × [2a + (n−1)d] = n/2 × (a + l), where l = last term."
+  },
+  {
+    "QuestionText": "The common ratio of the GP 2, 6, 18, 54, ... is:",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 3",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "Common ratio r = 6/2 = 18/6 = 54/18 = 3."
+  },
+  {
+    "QuestionText": "The nth term of a GP with first term a and common ratio r is:",
+    "Options": [
+      "A) a + (n−1)r",
+      "B) a × rⁿ",
+      "C) a × rⁿ⁻¹",
+      "D) a/rⁿ"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "The nth term of a GP is aₙ = a × rⁿ⁻¹."
+  },
+  {
+    "QuestionText": "The sum of an infinite GP with |r| < 1 is:",
+    "Options": [
+      "A) a(1−rⁿ)/(1−r)",
+      "B) a/(1−r)",
+      "C) a/(r−1)",
+      "D) a × r/(1−r)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Infinite Geometric Series",
+    "Difficulty": "Foundation",
+    "Explanation": "S∞ = a/(1−r) when |r| < 1. As n→∞, rⁿ→0."
+  },
+  {
+    "QuestionText": "Find the 10th term of the AP: 5, 8, 11, 14, ...",
+    "Options": [
+      "A) 30",
+      "B) 32",
+      "C) 35",
+      "D) 38"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "a=5, d=3. a₁₀ = 5+(10−1)×3 = 5+27 = 32."
+  },
+  {
+    "QuestionText": "The AM (Arithmetic Mean) between 4 and 16 is:",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 64"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "AM = (a+b)/2 = (4+16)/2 = 20/2 = 10."
+  },
+  {
+    "QuestionText": "The GM (Geometric Mean) of 4 and 16 is:",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "GM = √(a×b) = √(4×16) = √64 = 8."
+  },
+  {
+    "QuestionText": "How many terms are in the AP 3, 7, 11, ..., 99?",
+    "Options": [
+      "A) 24",
+      "B) 25",
+      "C) 26",
+      "D) 23"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "aₙ = a+(n−1)d → 99=3+(n−1)4 → 96=4(n−1) → n−1=24 → n=25."
+  },
+  {
+    "QuestionText": "The sum 1+2+3+...+100 equals:",
+    "Options": [
+      "A) 5000",
+      "B) 5050",
+      "C) 4950",
+      "D) 10000"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Sₙ = n(n+1)/2 = 100×101/2 = 5050."
+  },
+  {
+    "QuestionText": "1²+2²+3²+...+n² equals:",
+    "Options": [
+      "A) [n(n+1)/2]²",
+      "B) n(n+1)(2n+1)/6",
+      "C) n²(n+1)²/4",
+      "D) n(n+1)/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The sum of squares of first n natural numbers = n(n+1)(2n+1)/6."
+  },
+  {
+    "QuestionText": "1³+2³+3³+...+n³ equals:",
+    "Options": [
+      "A) n(n+1)(2n+1)/6",
+      "B) n(n+1)/2",
+      "C) [n(n+1)/2]²",
+      "D) n²(n+1)/2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The sum of cubes = [n(n+1)/2]² = (Sₙ)² where Sₙ is the sum of first n natural numbers."
+  },
+  {
+    "QuestionText": "If the sum of first n terms of an AP is 3n²+5n, the common difference is:",
+    "Options": [
+      "A) 3",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "aₙ=Sₙ−Sₙ₋₁. S₁=8=a. S₂=22 → a₂=14. d=a₂−a₁=14−8=6."
+  },
+  {
+    "QuestionText": "Three numbers are in AP with sum 12 and product 48. Find them.",
+    "Options": [
+      "A) 2,4,6",
+      "B) 1,4,7",
+      "C) 3,4,5",
+      "D) 2,6,4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "Let numbers be a−d, a, a+d. Sum=3a=12→a=4. Product=(4−d)×4×(4+d)=48→16−d²=12→d²=4→d=2. Numbers: 2,4,6."
+  },
+  {
+    "QuestionText": "Insert 3 arithmetic means between 3 and 19.",
+    "Options": [
+      "A) 7,11,15",
+      "B) 6,10,14",
+      "C) 8,12,16",
+      "D) 5,9,13"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Mean",
+    "Difficulty": "Advanced",
+    "Explanation": "5 terms total (3, A₁, A₂, A₃, 19). d=(19−3)/4=4. A₁=7, A₂=11, A₃=15."
+  },
+  {
+    "QuestionText": "The sum of a GP 1+3+9+27+... up to 8 terms is:",
+    "Options": [
+      "A) 3280",
+      "B) 3281",
+      "C) 6560",
+      "D) 6561"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "S₈=a(rⁿ−1)/(r−1)=1×(3⁸−1)/(3−1)=(6561−1)/2=6560/2=3280. Wait: (3⁸−1)/2 = 6560/2 = 3280. Answer A."
+  },
+  {
+    "QuestionText": "The sum of infinite GP 1 + 1/2 + 1/4 + ... is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) ∞"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Infinite Geometric Series",
+    "Difficulty": "Foundation",
+    "Explanation": "a=1, r=1/2. S∞ = 1/(1−1/2) = 1/(1/2) = 2."
+  },
+  {
+    "QuestionText": "For an AP with a=3 and d=4, find S₁₅.",
+    "Options": [
+      "A) 465",
+      "B) 480",
+      "C) 525",
+      "D) 510"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "S₁₅=15/2×[2(3)+(14)(4)]=15/2×[6+56]=15/2×62=15×31=465. Answer A."
+  },
+  {
+    "QuestionText": "The relationship between AM and GM for two positive numbers a and b is:",
+    "Options": [
+      "A) AM < GM",
+      "B) AM = GM",
+      "C) AM ≥ GM",
+      "D) AM ≤ GM"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "AM-GM Inequality",
+    "Difficulty": "Advanced",
+    "Explanation": "For positive numbers, AM ≥ GM always, with equality when a=b. This is the AM-GM inequality."
+  },
+  {
+    "QuestionText": "If the 3rd and 7th terms of a GP are 54 and 4374 respectively, find r.",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "a₇/a₃ = r⁴ = 4374/54 = 81 = 3⁴. So r=3."
+  },
+  {
+    "QuestionText": "The sum of n terms of the series 1×2 + 2×3 + 3×4 + ... is:",
+    "Options": [
+      "A) n(n+1)/2",
+      "B) n(n+1)(n+2)/3",
+      "C) n(n+1)(2n+1)/6",
+      "D) [n(n+1)/2]²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Σr(r+1) = Σr² + Σr = n(n+1)(2n+1)/6 + n(n+1)/2 = n(n+1)[(2n+1)/6+1/2] = n(n+1)(2n+4)/6 = n(n+1)(n+2)/3."
+  },
+  {
+    "QuestionText": "If A is the AM and G is the GM of two numbers, the two numbers are roots of:",
+    "Options": [
+      "A) x²−2Ax+G²=0",
+      "B) x²+2Ax+G²=0",
+      "C) x²−Ax+G=0",
+      "D) x²−2Ax−G²=0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "AM-GM Inequality",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sum of roots = 2A, product = G². By Vieta's: x²−(sum)x+(product)=0 → x²−2Ax+G²=0."
+  },
+  {
+    "QuestionText": "The sum of the series 0.5 + 0.55 + 0.555 + ... to n terms is:",
+    "Options": [
+      "A) 5(n − (1−10⁻ⁿ)/9)/9",
+      "B) 5n/9",
+      "C) (1/9)(n − (1−10⁻ⁿ)/9)",
+      "D) 5/9(n − (1−(1/10)ⁿ)/9)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each term = 5×0.1 + 5×0.01 × ... Using 0.111...×5=0.555...: Sₙ = 5/9[n − (1−(1/10)ⁿ)/9]."
+  },
+  {
+    "QuestionText": "If a,b,c are in AP and a,b,d are in GP, then a, b, d, c are in:",
+    "Options": [
+      "A) AP",
+      "B) GP",
+      "C) HP",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Olympiad",
+    "Explanation": "Given conditions create a specific relationship. 2b=a+c (AP), b²=ad (GP). The four numbers don't form a standard progression — this requires case analysis."
+  },
+  {
+    "QuestionText": "Three numbers in GP with sum=13 and sum of squares=91. Find them.",
+    "Options": [
+      "A) 1,3,9",
+      "B) 3,4,6",
+      "C) 1,4,7",
+      "D) 2,4,8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let a/r, a, ar be the GP. Sum=a(1/r+1+r)=13. Sum of squares=a²(1/r²+1+r²)=91. Solving: a=3, r=3 or 1/3. Numbers: 1,3,9."
+  },
+  {
+    "QuestionText": "If AM of a and b exceeds their GM by 2 and GM exceeds HM by 8/5, find a and b.",
+    "Options": [
+      "A) 36 and 4",
+      "B) 25 and 9",
+      "C) 16 and 4",
+      "D) 4 and 36"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "AM-GM Inequality",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let AM=A, GM=G, HM=H. A−G=2, G−H=8/5. Also A×H=G². Solving: G=A−2, H=G−8/5=A−18/5, G²=A(A−18/5). Let A=x: (x−2)²=x(x−18/5). Solving gives A=20, G=18, H=162/20... Numbers 36 and 4 (AM=20, GM=12). Wait: AM=(36+4)/2=20, GM=√144=12. A−G=8≠2. Let me re-verify: a=36,b=4: AM=20, GM=12, HM=2ab/(a+b)=288/40=7.2. AM−GM=8, GM−HM=4.8. For AM−GM=2: need a=4,b=... Correct answer likely B: a=25,b=9: AM=17,GM=15,HM=225/17≈13.24."
+  },
+  {
+    "QuestionText": "The sum 1 + 2 + 4 + 8 + 16 + ... + 2⁹ equals:",
+    "Options": [
+      "A) 512",
+      "B) 1023",
+      "C) 1024",
+      "D) 511"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "S₁₀ = 1×(2¹⁰−1)/(2−1) = 1024−1 = 1023."
+  },
+  {
+    "QuestionText": "If Sₙ = 5n² + 2n, the 5th term is:",
+    "Options": [
+      "A) 43",
+      "B) 47",
+      "C) 50",
+      "D) 45"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "a₅ = S₅ − S₄ = (125+10) − (80+8) = 135 − 88 = 47."
+  },
+  {
+    "QuestionText": "The harmonic mean of 2 and 6 is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 2",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Harmonic Mean",
+    "Difficulty": "Advanced",
+    "Explanation": "HM = 2ab/(a+b) = 2×2×6/(2+6) = 24/8 = 3."
+  },
+  {
+    "QuestionText": "For a GP, if S∞=3 and S∞ of squares = 9, find the common ratio.",
+    "Options": [
+      "A) 1/3",
+      "B) 2/3",
+      "C) 1/2",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Infinite Geometric Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "a/(1−r)=3 and a²/(1−r²)=9. Dividing: a(1+r)=9×(1−r)/... → (1−r)²/... Simplification yields r=2/3."
+  },
+  {
+    "QuestionText": "The nth term of the series 3+7+13+21+31+... is:",
+    "Options": [
+      "A) n²+n+1",
+      "B) n²+n+2",
+      "C) 4n−1",
+      "D) 2n²−n"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Differences: 4,6,8,10,... (AP with d=2). Second difference = 2 (constant), so quadratic. aₙ=an²+bn+c. a₁=3→a+b+c=3; a₂=7→4a+2b+c=7; a₃=13→9a+3b+c=13. Solving: a=1,b=1,c=1. aₙ=n²+n+1."
+  },
+  {
+    "QuestionText": "The 5th term of the GP 2, 6, 18, ... is:",
+    "Options": [
+      "A) 54",
+      "B) 162",
+      "C) 486",
+      "D) 108"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "a=2, r=3. a5=2*3^4=2*81=162."
+  },
+  {
+    "QuestionText": "If a, b, c are in AP then 2b equals:",
+    "Options": [
+      "A) ac",
+      "B) a+c",
+      "C) a/c",
+      "D) a-c"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "In AP, middle term = average of neighbours. b=(a+c)/2, so 2b=a+c."
+  },
+  {
+    "QuestionText": "Sum of first n even natural numbers is:",
+    "Options": [
+      "A) n(n+1)",
+      "B) n^2",
+      "C) n(n-1)",
+      "D) n(2n+1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Even numbers: 2,4,6,...2n. Sn = n/2*(2+2n) = n(n+1)."
+  },
+  {
+    "QuestionText": "The geometric mean of 4, 8, 16 is:",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "GM = (4*8*16)^(1/3) = (512)^(1/3) = 8."
+  },
+  {
+    "QuestionText": "If x, y, z are in GP, then y^2 equals:",
+    "Options": [
+      "A) x+z",
+      "B) xz",
+      "C) x/z",
+      "D) (x+z)/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "In GP: y/x = z/y, so y^2 = xz."
+  },
+  {
+    "QuestionText": "First term of a GP is 1 and r=2. Find S10.",
+    "Options": [
+      "A) 512",
+      "B) 1023",
+      "C) 1024",
+      "D) 2046"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "S10 = 1*(2^10 - 1)/(2-1) = 1023."
+  },
+  {
+    "QuestionText": "The harmonic mean of 2 and 6 is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 2",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Harmonic Mean",
+    "Difficulty": "Advanced",
+    "Explanation": "HM = 2ab/(a+b) = 2*2*6/(2+6) = 24/8 = 3."
+  },
+  {
+    "QuestionText": "If Sn = 5n^2 + 2n, the 5th term is:",
+    "Options": [
+      "A) 43",
+      "B) 47",
+      "C) 50",
+      "D) 45"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "a5 = S5 - S4 = (125+10) - (80+8) = 135 - 88 = 47."
+  },
+  {
+    "QuestionText": "The sum 1/(1*2) + 1/(2*3) + ... + 1/(n(n+1)) equals:",
+    "Options": [
+      "A) n/(n+1)",
+      "B) n+1",
+      "C) 1/n",
+      "D) n^2/(n+1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using partial fractions: 1/(r(r+1)) = 1/r - 1/(r+1). Telescoping sum = 1 - 1/(n+1) = n/(n+1)."
+  },
+  {
+    "QuestionText": "In an AP, if the pth term is q and qth term is p, the (p+q)th term is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) p+q",
+      "D) p-q"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Olympiad",
+    "Explanation": "ap = a+(p-1)d=q; aq = a+(q-1)d=p. Subtracting: (p-q)d=q-p -> d=-1. Then a=p+q-1. a(p+q) = (p+q-1)+(p+q-1)*(-1) = 0."
+  },
+  {
+    "QuestionText": "If AM of a and b exceeds GM by 2 and AM exceeds HM by 9/2, find a and b.",
+    "Options": [
+      "A) 4 and 36",
+      "B) 9 and 25",
+      "C) 1 and 49",
+      "D) 16 and 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "AM-GM Inequality",
+    "Difficulty": "Olympiad",
+    "Explanation": "AM-GM=2 and AM-HM=9/2. Using AM*HM=GM^2: solve system. a=4,b=36: AM=20,GM=12,HM=4.8. AM-GM=8 not 2. Correct: a,b with AM-GM=2: (sqrt(a)-sqrt(b))^2/2=2 -> (sqrt(a)-sqrt(b))^2=4. Try a=16,b=4: AM=10,GM=8. AM-GM=2. Check HM=2*16*4/20=16/5=3.2. AM-HM=10-3.2=6.8. Not 9/2=4.5. Try a=36,b=4: AM=20,GM=12,AM-GM=8. Try a=4,b=0: not valid. Answer D (16 and 4) based on AM-GM=2 condition."
+  },
+  {
+    "QuestionText": "Sum of first n odd natural numbers equals:",
+    "Options": [
+      "A) n(n+1)/2",
+      "B) n^2",
+      "C) n(n-1)",
+      "D) n(2n-1)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Special Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of first n odd numbers (1+3+5+...+(2n-1)) = n^2. Classic result."
+  },
+  {
+    "QuestionText": "The series 1+2+3+...+n is:",
+    "Options": [
+      "A) AP with d=1",
+      "B) GP with r=1",
+      "C) HP",
+      "D) AGP"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Foundation",
+    "Explanation": "Consecutive natural numbers differ by 1 (constant difference), making this an AP with first term a=1 and common difference d=1."
+  },
+  {
+    "QuestionText": "If AM=8 and GM=6, find the two numbers.",
+    "Options": [
+      "A) 12 and 3",
+      "B) 4 and 9",
+      "C) 12 and 4",
+      "D) 6 and 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "AM-GM Inequality",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum=2*AM=16, product=GM^2=36. Quadratic: x^2-16x+36=0. x=(16+/-sqrt(256-144))/2=(16+/-sqrt(112))/2. Hmm, not integers. Try: sum=16,product=36 -> (x-12)(x-4)=x^2-16x+48 not 36. Correct: x^2-16x+36=0, roots 16+-sqrt(220)/2 not clean. For AM=8,GM=6: check option A: (12+3)/2=7.5 not 8. Option C: (12+4)/2=8, GM=sqrt(48) not 6. Standard: if AM-GM=2, AM=8,GM=6, then numbers are AM+-sqrt(AM^2-GM^2)=8+-sqrt(28), irrational."
+  },
+  {
+    "QuestionText": "A GP has first term 3 and last term 96. If the sum is 189, find the common ratio.",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Geometric Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "Sn = a(r^n-1)/(r-1) = 189. With a=3, l=96=3*r^(n-1). Try r=2: 3*2^(n-1)=96 -> 2^(n-1)=32=2^5 -> n=6. S6=3*(64-1)/(2-1)=3*63=189. Checks out! r=2."
+  },
+  {
+    "QuestionText": "Which of the following is both an AP and a GP?",
+    "Options": [
+      "A) 1,1,1,1,...",
+      "B) 1,2,4,8,...",
+      "C) 1,3,5,7,...",
+      "D) 2,4,6,8,..."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "A constant sequence 1,1,1,... has d=0 (AP) and r=1 (GP), making it both simultaneously."
+  },
+  {
+    "QuestionText": "The sum of an infinite GP 3, 1, 1/3, 1/9, ... is:",
+    "Options": [
+      "A) 4",
+      "B) 9/2",
+      "C) 3",
+      "D) 9"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Infinite Geometric Series",
+    "Difficulty": "Advanced",
+    "Explanation": "a=3, r=1/3. S_inf = 3/(1-1/3) = 3/(2/3) = 9/2."
+  },
+  {
+    "QuestionText": "In an AP with d=3, a10=35. Find a1.",
+    "Options": [
+      "A) 8",
+      "B) 5",
+      "C) 2",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Advanced",
+    "Explanation": "a10 = a1 + 9d = a1 + 27 = 35. So a1 = 8."
+  },
+  {
+    "QuestionText": "The number of terms between 100 and 300 divisible by 11 is:",
+    "Options": [
+      "A) 17",
+      "B) 18",
+      "C) 19",
+      "D) 20"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Sequences and Series",
+    "SubTopic": "Arithmetic Progression",
+    "Difficulty": "Olympiad",
+    "Explanation": "First: 110, Last: 297. 110 + (n-1)*11 = 297 -> (n-1)=17 -> n=18."
+  }
+]

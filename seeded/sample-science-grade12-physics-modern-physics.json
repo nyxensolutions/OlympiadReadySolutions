@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The work function of a metal depends on:",
+    "Options": ["A) The frequency of incident light", "B) The intensity of incident light", "C) The nature of the metal surface", "D) The velocity of incident electrons"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dual Nature of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Work function is a characteristic property of the material, representing the minimum energy needed to eject an electron from its surface."
+  },
+  {
+    "QuestionText": "According to Einstein's photoelectric equation, the maximum kinetic energy of photoelectrons is proportional to:",
+    "Options": ["A) Intensity of light", "B) Frequency of light", "C) Velocity of light", "D) Wavelength of light"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Foundation",
+    "Explanation": "Einstein showed that K_max = hν - Φ, where ν is the frequency and Φ is the work function."
+  },
+  {
+    "QuestionText": "The de Broglie wavelength of a particle is inversely proportional to its:",
+    "Options": ["A) Mass", "B) Velocity", "C) Momentum", "D) Energy"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dual Nature of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "The de Broglie relation is λ = h/p, where p is the momentum of the particle."
+  },
+  {
+    "QuestionText": "In the Bohr model of the atom, the angular momentum of an electron is quantized as:",
+    "Options": ["A) n h / 2π", "B) n h / π", "C) h / 2πn", "D) n² h / 2π"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Foundation",
+    "Explanation": "Bohr's second postulate states that electrons revolve only in orbits where angular momentum is an integral multiple of h/2π."
+  },
+  {
+    "QuestionText": "The energy of an electron in the n-th Bohr orbit of a hydrogen atom is proportional to:",
+    "Options": ["A) n", "B) 1/n", "C) n²", "D) 1/n²"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Advanced",
+    "Explanation": "The energy level is given by E_n = -13.6/n² eV, showing an inverse square relationship with the principal quantum number."
+  },
+  {
+    "QuestionText": "The radius of a nucleus of mass number A is proportional to:",
+    "Options": ["A) A", "B) A^(1/2)", "C) A^(1/3)", "D) A²"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Advanced",
+    "Explanation": "The nuclear radius is given by R = R₀ A^(1/3), implying that nuclear density is constant for all nuclei."
+  },
+  {
+    "QuestionText": "In a nuclear reactor, the function of a moderator is to:",
+    "Options": ["A) Absorb neutrons", "B) Accelerate neutrons", "C) Slow down neutrons", "D) Produce neutrons"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "Moderators like heavy water or graphite slow down fast neutrons to thermal speeds to sustain a chain reaction."
+  },
+  {
+    "QuestionText": "Which series of the hydrogen spectrum lies in the visible region?",
+    "Options": ["A) Lyman series", "B) Balmer series", "C) Paschen series", "D) Brackett series"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Foundation",
+    "Explanation": "The Balmer series corresponds to transitions ending at n=2, which emit light in the visible spectrum."
+  },
+  {
+    "QuestionText": "The half-life of a radioactive substance is 10 days. The time taken for 75% of the substance to decay is:",
+    "Options": ["A) 15 days", "B) 20 days", "C) 30 days", "D) 40 days"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Advanced",
+    "Explanation": "After one half-life (10 days), 50% remains. After two half-lives (20 days), 25% remains, meaning 75% has decayed."
+  },
+  {
+    "QuestionText": "A p-type semiconductor is formed by doping pure silicon with:",
+    "Options": ["A) Phosphorus", "B) Arsenic", "C) Boron", "D) Antimony"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Foundation",
+    "Explanation": "Doping with trivalent impurities like Boron creates 'holes' as majority charge carriers, making it p-type."
+  },
+  {
+    "QuestionText": "The depletion layer in a p-n junction diode is caused by:",
+    "Options": ["A) Drift of electrons", "B) Diffusion of charge carriers", "C) Battery potential", "D) Doping concentration"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Advanced",
+    "Explanation": "Diffusion of electrons and holes across the junction leaves behind immobile ions, forming the depletion region."
+  },
+  {
+    "QuestionText": "If the frequency of incident light is less than the threshold frequency, the number of photoelectrons emitted is:",
+    "Options": ["A) Zero", "B) Proportional to intensity", "C) Proportional to frequency", "D) Constant"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Foundation",
+    "Explanation": "No photoemission occurs if the photon energy is less than the work function, regardless of intensity."
+  },
+  {
+    "QuestionText": "The mass defect in a nucleus is converted into:",
+    "Options": ["A) Kinetic energy", "B) Binding energy", "C) Potential energy", "D) Thermal energy"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "The difference between the mass of a nucleus and its constituents is released as energy (E=mc²) to hold the nucleus together."
+  },
+  {
+    "QuestionText": "Davisson-Germer experiment proved the:",
+    "Options": ["A) Particle nature of light", "B) Wave nature of electrons", "C) Nuclear structure", "D) Quantization of energy"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dual Nature of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "The experiment demonstrated electron diffraction, which is a wave phenomenon."
+  },
+  {
+    "QuestionText": "Which particle is emitted when a neutron decays into a proton inside a nucleus?",
+    "Options": ["A) Alpha particle", "B) Beta-minus particle", "C) Positron", "D) Gamma ray"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Advanced",
+    "Explanation": "In beta-minus decay, a neutron transforms into a proton, an electron (beta particle), and an antineutrino."
+  },
+  {
+    "QuestionText": "For an LED to emit light, the p-n junction must be:",
+    "Options": ["A) Forward biased", "B) Reverse biased", "C) Unbiased", "D) Highly doped and reverse biased"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Foundation",
+    "Explanation": "Forward bias allows electrons and holes to recombine at the junction, releasing energy as photons."
+  },
+  {
+    "QuestionText": "The stopping potential in a photoelectric experiment depends on:",
+    "Options": ["A) Only intensity", "B) Only frequency", "C) Frequency and nature of material", "D) Intensity and distance"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Advanced",
+    "Explanation": "Stopping potential eV_0 = hν - Φ depends on the photon energy (frequency) and the surface property (work function)."
+  },
+  {
+    "QuestionText": "In the ground state of a hydrogen atom, the electron speed is approximately:",
+    "Options": ["A) c/137", "B) c/10", "C) c/2", "D) c/1000"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Olympiad",
+    "Explanation": "The speed is calculated using v = e² / (2ε₀h), where the ratio v/c is known as the fine-structure constant (≈ 1/137)."
+  },
+  {
+    "QuestionText": "Nuclear forces are:",
+    "Options": ["A) Long range and repulsive", "B) Short range and attractive", "C) Charge dependent", "D) Gravitational in nature"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "Nuclear forces are the strongest known forces but operate only over very short distances (~10⁻¹⁵ m)."
+  },
+  {
+    "QuestionText": "The energy gap in a superconductor is:",
+    "Options": ["A) Zero", "B) Very large", "C) Small but non-zero", "D) Infinite"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Olympiad",
+    "Explanation": "Superconductivity involves the formation of Cooper pairs, which are separated from normal states by a small energy gap."
+  },
+  {
+    "QuestionText": "What happens to the wavelength of a photon after it undergoes Compton scattering?",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains same", "D) Becomes zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dual Nature of Matter",
+    "Difficulty": "Olympiad",
+    "Explanation": "Part of the photon's energy is transferred to the electron, so the scattered photon has lower energy and a longer wavelength."
+  },
+  {
+    "QuestionText": "Alpha particles are nuclei of:",
+    "Options": ["A) Hydrogen", "B) Helium", "C) Lithium", "D) Deuterium"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "An alpha particle consists of two protons and two neutrons, identical to a Helium-4 nucleus."
+  },
+  {
+    "QuestionText": "The majority charge carriers in an n-type semiconductor are:",
+    "Options": ["A) Holes", "B) Electrons", "C) Neutrons", "D) Protons"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Foundation",
+    "Explanation": "N-type (negative type) semiconductors are doped with pentavalent atoms that provide extra free electrons."
+  },
+  {
+    "QuestionText": "The shortest wavelength in the Lyman series is (R is Rydberg constant):",
+    "Options": ["A) R", "B) 1/R", "C) 4/R", "D) 9/R"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Advanced",
+    "Explanation": "Shortest wavelength occurs when n_initial = ∞. 1/λ = R(1/1² - 1/∞²) = R, so λ = 1/R."
+  },
+  {
+    "QuestionText": "Binding energy per nucleon is a measure of:",
+    "Options": ["A) Total mass", "B) Nuclear stability", "C) Number of protons", "D) Radioactive decay rate"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "Nuclei with higher binding energy per nucleon are more tightly bound and therefore more stable."
+  },
+  {
+    "QuestionText": "In a full-wave rectifier, the output frequency for a 50Hz input is:",
+    "Options": ["A) 25 Hz", "B) 50 Hz", "C) 100 Hz", "D) 200 Hz"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Advanced",
+    "Explanation": "A full-wave rectifier converts both halves of the AC cycle into DC pulses, doubling the frequency of the ripple."
+  },
+  {
+    "QuestionText": "Zener diodes are used as:",
+    "Options": ["A) Amplifiers", "B) Oscillators", "C) Voltage regulators", "D) Rectifiers"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Foundation",
+    "Explanation": "Zener diodes are designed to operate in the reverse breakdown region to maintain a constant voltage."
+  },
+  {
+    "QuestionText": "The momentum of a photon of frequency ν is:",
+    "Options": ["A) hν/c", "B) hνc", "C) h/ν", "D) ν/c"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Advanced",
+    "Explanation": "p = E/c = hν/c."
+  },
+  {
+    "QuestionText": "Which transition in hydrogen atom emits a photon of lowest frequency?",
+    "Options": ["A) n=2 to n=1", "B) n=4 to n=3", "C) n=3 to n=2", "D) n=∞ to n=1"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Advanced",
+    "Explanation": "Energy levels get closer as n increases; the transition between higher, adjacent levels involves the least energy change."
+  },
+  {
+    "QuestionText": "Gamma rays are:",
+    "Options": ["A) Charged particles", "B) High energy electromagnetic waves", "C) Helium nuclei", "D) Electrons"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "Gamma rays are neutral, massless photons emitted during transitions between nuclear energy levels."
+  },
+  {
+    "QuestionText": "Solar cells work on the principle of:",
+    "Options": ["A) Thermionic emission", "B) Photovoltaic effect", "C) Field emission", "D) Radioactivity"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Foundation",
+    "Explanation": "The photovoltaic effect generates an EMF when light is incident on the p-n junction of the cell."
+  },
+  {
+    "QuestionText": "Threshold wavelength for a metal is 500 nm. If light of 600 nm is incident, the photoemission will:",
+    "Options": ["A) Increase", "B) Decrease", "C) Not occur", "D) Occur with higher energy"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Advanced",
+    "Explanation": "Photoemission requires λ_incident ≤ λ_threshold. 600 nm has less energy than the work function."
+  },
+  {
+    "QuestionText": "The ratio of the volume of an atom to the volume of its nucleus is of the order of:",
+    "Options": ["A) 10³", "B) 10⁶", "C) 10¹²", "D) 10¹⁵"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Olympiad",
+    "Explanation": "Atomic radius is ~10⁻¹⁰ m, nuclear radius is ~10⁻¹⁴ m. Volume ratio (R/r)³ ≈ (10⁴)³ = 10¹²."
+  },
+  {
+    "QuestionText": "Curie (Ci) is a unit of:",
+    "Options": ["A) Energy", "B) Radioactivity", "C) Time", "D) Mass"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "One Curie is defined as 3.7 × 10¹⁰ disintegrations per second."
+  },
+  {
+    "QuestionText": "The logic gate that performs the inversion operation is:",
+    "Options": ["A) OR gate", "B) AND gate", "C) NOT gate", "D) NAND gate"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Foundation",
+    "Explanation": "A NOT gate outputs the opposite of its single input."
+  },
+  {
+    "QuestionText": "For a given kinetic energy, which particle has the shortest de Broglie wavelength?",
+    "Options": ["A) Electron", "B) Proton", "C) Alpha particle", "D) Neutron"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dual Nature of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "λ = h/√(2mK). For same K, wavelength is inversely proportional to √m. Alpha particle has the largest mass."
+  },
+  {
+    "QuestionText": "The maximum number of electrons that can be accommodated in the n=3 shell is:",
+    "Options": ["A) 8", "B) 18", "C) 32", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Foundation",
+    "Explanation": "The formula for the number of electrons in a shell is 2n². For n=3, 2(3)² = 18."
+  },
+  {
+    "QuestionText": "Fission of a heavy nucleus is triggered by:",
+    "Options": ["A) Electron impact", "B) Proton impact", "C) Neutron impact", "D) Alpha impact"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "Absorption of a slow neutron makes a heavy nucleus like U-235 unstable, causing it to split."
+  },
+  {
+    "QuestionText": "In a p-n junction, forward bias ________ the barrier potential.",
+    "Options": ["A) Increases", "B) Decreases", "C) Eliminates", "D) Reverses"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Advanced",
+    "Explanation": "Forward bias opposes the built-in electric field, lowering the potential barrier and allowing current to flow."
+  },
+  {
+    "QuestionText": "Energy of a photon of wavelength λ is:",
+    "Options": ["A) hc/λ", "B) hλ/c", "C) λ/hc", "D) h/cλ"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard energy-wavelength relation for photons."
+  },
+  {
+    "QuestionText": "The force responsible for radioactive alpha decay is:",
+    "Options": ["A) Gravitational", "B) Electromagnetic", "C) Strong nuclear", "D) Weak nuclear"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Olympiad",
+    "Explanation": "Alpha decay occurs due to the competition between the strong nuclear force and electromagnetic repulsion, though it is often discussed via quantum tunneling."
+  },
+  {
+    "QuestionText": "Universal logic gates are:",
+    "Options": ["A) AND and OR", "B) NAND and NOR", "C) NOT and XOR", "D) All gates"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Advanced",
+    "Explanation": "NAND and NOR gates can be combined to create any other logic function."
+  },
+  {
+    "QuestionText": "Slope of V_0 vs ν graph in photoelectric effect gives:",
+    "Options": ["A) h", "B) h/e", "C) e/h", "D) Work function"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Advanced",
+    "Explanation": "From V_0 = (h/e)ν - Φ/e, the slope is h/e."
+  },
+  {
+    "QuestionText": "Bohr's radius of the first orbit of hydrogen is r_0. The radius of the second orbit is:",
+    "Options": ["A) 2r_0", "B) 4r_0", "C) 8r_0", "D) r_0/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Advanced",
+    "Explanation": "Radius r_n ∝ n². Thus r_2 = (2)²r_0 = 4r_0."
+  },
+  {
+    "QuestionText": "The process where two light nuclei combine to form a heavier nucleus is:",
+    "Options": ["A) Fission", "B) Fusion", "C) Chain reaction", "D) Beta decay"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Foundation",
+    "Explanation": "Nuclear fusion occurs at extremely high temperatures, such as in the sun, and releases massive energy."
+  },
+  {
+    "QuestionText": "Transistors act as a switch in which region?",
+    "Options": ["A) Active region", "B) Cut-off region only", "C) Saturation region only", "D) Both cut-off and saturation"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Semiconductors",
+    "Difficulty": "Olympiad",
+    "Explanation": "In switching circuits, the transistor is driven between 'OFF' (cut-off) and 'ON' (saturation)."
+  },
+  {
+    "QuestionText": "One unified atomic mass unit (1 u) is equivalent to how much energy?",
+    "Options": ["A) 931.5 MeV", "B) 1.6 MeV", "C) 1.5 keV", "D) 100 J"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Advanced",
+    "Explanation": "Using E=mc², 1u ≈ 1.66 × 10⁻²⁷ kg corresponds to 931.5 MeV."
+  },
+  {
+    "QuestionText": "Heavy water is used in nuclear reactors as a:",
+    "Options": ["A) Fuel", "B) Coolant", "C) Moderator", "D) Both B and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Nuclei",
+    "Difficulty": "Advanced",
+    "Explanation": "Heavy water serves the dual role of slowing down neutrons and carrying away excess heat."
+  },
+  {
+    "QuestionText": "Photoelectric effect demonstrates that light consists of:",
+    "Options": ["A) Longitudinal waves", "B) Transverse waves", "C) Quanta of energy", "D) Stationary waves"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Photoelectric Effect",
+    "Difficulty": "Foundation",
+    "Explanation": "It provides evidence for the particle-like (photon) behavior of light."
+  },
+  {
+    "QuestionText": "Rutherford's alpha-scattering experiment led to the discovery of:",
+    "Options": ["A) Electron", "B) Proton", "C) Nucleus", "D) Neutron"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Atoms",
+    "Difficulty": "Foundation",
+    "Explanation": "Large angle deflections of alpha particles showed that the positive charge and mass of an atom are concentrated in a tiny central region."
+  }
+]

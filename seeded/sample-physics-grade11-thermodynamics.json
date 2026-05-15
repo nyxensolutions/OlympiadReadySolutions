@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The zeroth law of thermodynamics defines:",
+    "Options": [
+      "A) Energy conservation",
+      "B) Temperature and thermal equilibrium",
+      "C) Entropy",
+      "D) Work done by gas"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Foundation",
+    "Explanation": "If A is in thermal equilibrium with B, and B with C, then A is in thermal equilibrium with C. This defines temperature and is the basis of thermometers."
+  },
+  {
+    "QuestionText": "The first law of thermodynamics is a statement of:",
+    "Options": [
+      "A) Conservation of momentum",
+      "B) Conservation of energy",
+      "C) Direction of heat flow",
+      "D) Entropy increase"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Foundation",
+    "Explanation": "\u0394U = Q \u2212 W. Energy supplied as heat = increase in internal energy + work done by system. This is the first law (conservation of energy)."
+  },
+  {
+    "QuestionText": "In an isothermal process:",
+    "Options": [
+      "A) Temperature is constant",
+      "B) Pressure is constant",
+      "C) Volume is constant",
+      "D) No heat exchange"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Foundation",
+    "Explanation": "Iso = same, thermal = temperature. Isothermal process: temperature constant (\u0394T=0, \u0394U=0 for ideal gas), so Q=W."
+  },
+  {
+    "QuestionText": "In an adiabatic process:",
+    "Options": [
+      "A) Temperature is constant",
+      "B) Pressure is constant",
+      "C) No heat exchange (Q=0)",
+      "D) Volume is constant"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Foundation",
+    "Explanation": "Adiabatic: no heat exchange with surroundings (Q=0). First law: \u0394U=\u2212W. Work done by gas decreases its internal energy (temperature drops)."
+  },
+  {
+    "QuestionText": "In an isobaric process:",
+    "Options": [
+      "A) Volume is constant",
+      "B) Temperature is constant",
+      "C) Pressure is constant",
+      "D) No heat exchange"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Foundation",
+    "Explanation": "Isobaric = constant pressure (iso=same, baric=pressure). Examples: boiling water at atmospheric pressure."
+  },
+  {
+    "QuestionText": "In an isochoric (isovolumetric) process:",
+    "Options": [
+      "A) Pressure is constant",
+      "B) Volume is constant",
+      "C) Temperature is constant",
+      "D) Heat exchange is zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Foundation",
+    "Explanation": "Isochoric = constant volume. W=P\u00b7\u0394V=0. All heat supplied goes into increasing internal energy: Q=\u0394U."
+  },
+  {
+    "QuestionText": "The efficiency of a Carnot engine operating between T\u2081 (hot) and T\u2082 (cold) is:",
+    "Options": [
+      "A) T\u2081/T\u2082",
+      "B) T\u2082/T\u2081",
+      "C) 1 \u2212 T\u2082/T\u2081",
+      "D) (T\u2081\u2212T\u2082)/T\u2082"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Foundation",
+    "Explanation": "\u03b7 = 1 \u2212 T\u2082/T\u2081 = (T\u2081\u2212T\u2082)/T\u2081. Efficiency can never be 100% as long as T\u2082 > 0 K."
+  },
+  {
+    "QuestionText": "The second law of thermodynamics states that heat flows spontaneously:",
+    "Options": [
+      "A) From cold to hot",
+      "B) From hot to cold",
+      "C) In both directions equally",
+      "D) Only in a vacuum"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Foundation",
+    "Explanation": "Clausius statement of 2nd law: Heat cannot spontaneously flow from a colder body to a hotter body without external work."
+  },
+  {
+    "QuestionText": "Entropy is a measure of:",
+    "Options": [
+      "A) Temperature",
+      "B) Disorder or randomness of a system",
+      "C) Internal energy",
+      "D) Heat capacity"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Foundation",
+    "Explanation": "Entropy S is a state function measuring molecular disorder. It always increases in irreversible processes (2nd law: \u0394S \u2265 0 for universe)."
+  },
+  {
+    "QuestionText": "For an ideal gas in an isothermal expansion, internal energy:",
+    "Options": [
+      "A) Increases",
+      "B) Decreases",
+      "C) Remains constant",
+      "D) Doubles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Foundation",
+    "Explanation": "For ideal gas, internal energy depends only on temperature. Isothermal \u2192 \u0394T=0 \u2192 \u0394U=0."
+  },
+  {
+    "QuestionText": "The specific heat capacity at constant pressure (Cp) is __ Cv for an ideal gas:",
+    "Options": [
+      "A) Less than",
+      "B) Equal to",
+      "C) Greater than",
+      "D) Unrelated to"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Foundation",
+    "Explanation": "Cp = Cv + R (Mayer's relation). At constant pressure, some heat does work against atmosphere, requiring more heat for same temperature rise."
+  },
+  {
+    "QuestionText": "The Carnot cycle consists of:",
+    "Options": [
+      "A) Two isothermal and two adiabatic processes",
+      "B) Two isobaric and two isochoric processes",
+      "C) Four isothermal processes",
+      "D) Four adiabatic processes"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Foundation",
+    "Explanation": "Carnot cycle: Isothermal expansion \u2192 Adiabatic expansion \u2192 Isothermal compression \u2192 Adiabatic compression. It is the most efficient possible cycle."
+  },
+  {
+    "QuestionText": "The work done by an ideal gas in an isothermal process is:",
+    "Options": [
+      "A) Zero",
+      "B) nRT ln(V\u2082/V\u2081)",
+      "C) nCv\u0394T",
+      "D) P\u0394V only for small changes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Advanced",
+    "Explanation": "W = nRT ln(V\u2082/V\u2081). For ideal gas isothermal expansion, PV=nRT=constant, so W = \u222bP dV = nRT ln(V\u2082/V\u2081)."
+  },
+  {
+    "QuestionText": "A Carnot engine operates between 600 K and 300 K. Its efficiency is:",
+    "Options": [
+      "A) 25%",
+      "B) 50%",
+      "C) 75%",
+      "D) 100%"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Advanced",
+    "Explanation": "\u03b7 = 1 \u2212 T\u2082/T\u2081 = 1 \u2212 300/600 = 1 \u2212 0.5 = 50%."
+  },
+  {
+    "QuestionText": "In an adiabatic process for an ideal gas: TV^(\u03b3\u22121) = constant means:",
+    "Options": [
+      "A) Temperature and volume are inversely related",
+      "B) Temperature decreases as volume increases",
+      "C) The gas follows Boyle's law",
+      "D) Pressure remains constant"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Advanced",
+    "Explanation": "TV^(\u03b3\u22121) = constant. If V increases, V^(\u03b3\u22121) increases, so T must decrease. Adiabatic expansion cools the gas."
+  },
+  {
+    "QuestionText": "The ratio Cp/Cv = \u03b3 for a monoatomic ideal gas is:",
+    "Options": [
+      "A) 4/3",
+      "B) 5/3",
+      "C) 7/5",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Advanced",
+    "Explanation": "Monoatomic gas: f=3 degrees of freedom. Cv=3R/2, Cp=Cv+R=5R/2. \u03b3=Cp/Cv=5/3\u22481.67."
+  },
+  {
+    "QuestionText": "\u03b3 = Cp/Cv for a diatomic gas (like O\u2082, N\u2082) is:",
+    "Options": [
+      "A) 5/3",
+      "B) 4/3",
+      "C) 7/5",
+      "D) 3/2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Advanced",
+    "Explanation": "Diatomic gas: f=5 (3 trans+2 rot). Cv=5R/2, Cp=7R/2. \u03b3=7/5=1.4."
+  },
+  {
+    "QuestionText": "The efficiency of a heat engine can NEVER be 100% because:",
+    "Options": [
+      "A) Friction always exists",
+      "B) All heat must be converted, but some must go to cold reservoir",
+      "C) Engines always break down",
+      "D) First law prevents it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Advanced",
+    "Explanation": "The 2nd law requires that some heat must be rejected to a cold reservoir. \u03b7=1\u2212T\u2082/T\u2081 < 1 as long as T\u2082>0 (above absolute zero)."
+  },
+  {
+    "QuestionText": "What is \u0394U for a cyclic process?",
+    "Options": [
+      "A) Maximum",
+      "B) Q\u2212W",
+      "C) Zero",
+      "D) Positive always"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Advanced",
+    "Explanation": "In a cyclic process, the system returns to its initial state. All state functions (including U) return to original values: \u0394U=0. Therefore Q=W."
+  },
+  {
+    "QuestionText": "Kelvin-Planck statement of 2nd law: It is impossible to construct a device that:",
+    "Options": [
+      "A) Converts work to heat",
+      "B) Operates in cycles converting entire heat to work",
+      "C) Transfers heat from hot to cold",
+      "D) Uses any fuel"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Advanced",
+    "Explanation": "No cyclic engine can convert all heat input entirely to work (no 100% efficiency). Some heat must always be rejected."
+  },
+  {
+    "QuestionText": "The triple point of water is:",
+    "Options": [
+      "A) 0\u00b0C, 1 atm",
+      "B) 273.16 K, 0.006 atm",
+      "C) 100\u00b0C, 1 atm",
+      "D) 273 K, 0 atm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Temperature Scales",
+    "Difficulty": "Advanced",
+    "Explanation": "Triple point = 273.16 K (0.01\u00b0C) at 611.7 Pa (0.006 atm). All three phases (solid, liquid, gas) coexist. Used as a thermodynamic fixed point."
+  },
+  {
+    "QuestionText": "The relation between Cp, Cv and R (gas constant) is:",
+    "Options": [
+      "A) Cp \u2212 Cv = 2R",
+      "B) Cp + Cv = R",
+      "C) Cp \u2212 Cv = R",
+      "D) Cp \u00d7 Cv = R"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Advanced",
+    "Explanation": "Mayer's relation: Cp \u2212 Cv = R. The extra R accounts for work done by gas at constant pressure when expanding."
+  },
+  {
+    "QuestionText": "Work done in a P-V diagram is represented by:",
+    "Options": [
+      "A) Area under the P-axis",
+      "B) Area under the V-axis",
+      "C) Area enclosed by or under the process curve",
+      "D) The slope of the curve"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Advanced",
+    "Explanation": "W=\u222bP dV = area under the P-V curve. For a cyclic process, it's the area enclosed by the cycle."
+  },
+  {
+    "QuestionText": "Which thermodynamic process has the steepest slope in P-V diagram?",
+    "Options": [
+      "A) Isothermal",
+      "B) Isobaric",
+      "C) Adiabatic",
+      "D) Isochoric"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Advanced",
+    "Explanation": "Adiabatic slope = \u2212\u03b3P/V. Isothermal slope = \u2212P/V. Since \u03b3>1, adiabatic curve is steeper than isothermal at any point."
+  },
+  {
+    "QuestionText": "When a refrigerator operates, heat is moved from cold to hot. This is possible because:",
+    "Options": [
+      "A) It violates 2nd law",
+      "B) External work is supplied",
+      "C) Cold reservoir has more entropy",
+      "D) Entropy is destroyed inside"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Advanced",
+    "Explanation": "Refrigerators don't violate the 2nd law \u2014 they require external work input (electrical energy) to move heat from cold to hot reservoir."
+  },
+  {
+    "QuestionText": "COP (Coefficient of Performance) of a refrigerator is:",
+    "Options": [
+      "A) W/Q_cold",
+      "B) Q_cold/W",
+      "C) Q_hot/W",
+      "D) W/Q_hot"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Olympiad",
+    "Explanation": "COP = Heat removed from cold / Work done = Q_cold/W. A higher COP means more efficient refrigeration."
+  },
+  {
+    "QuestionText": "For an ideal gas, work done in adiabatic process is:",
+    "Options": [
+      "A) nCv\u0394T",
+      "B) \u2212nCv\u0394T",
+      "C) nR\u0394T/(\u03b3\u22121)",
+      "D) PV ln(V\u2082/V\u2081)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Olympiad",
+    "Explanation": "Adiabatic Q=0. \u0394U=Q\u2212W \u2192 \u0394U=\u2212W. \u0394U=nCv\u0394T. So W=\u2212\u0394U=\u2212nCv\u0394T."
+  },
+  {
+    "QuestionText": "Entropy change for a reversible process:",
+    "Options": [
+      "A) Always positive",
+      "B) Always negative",
+      "C) Always zero",
+      "D) Can be positive or negative"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u0394S_universe = 0 for reversible processes. This means the process can be reversed without changing entropy of universe."
+  },
+  {
+    "QuestionText": "The slope of isothermal process in P-V diagram is:",
+    "Options": [
+      "A) \u2212\u03b3P/V",
+      "B) \u2212P/V",
+      "C) P/V",
+      "D) \u2212RT/V\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Olympiad",
+    "Explanation": "PV=nRT=constant. P=nRT/V. dP/dV=\u2212nRT/V\u00b2=\u2212P/V."
+  },
+  {
+    "QuestionText": "A Carnot engine has 40% efficiency. The temperature of cold reservoir is 27\u00b0C. Hot reservoir temperature is:",
+    "Options": [
+      "A) 400 K",
+      "B) 500 K",
+      "C) 600 K",
+      "D) 300 K"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u03b7=1\u2212T\u2082/T\u2081 \u2192 0.4=1\u2212300/T\u2081 \u2192 T\u2081=300/0.6=500 K."
+  },
+  {
+    "QuestionText": "The internal energy of an ideal gas depends only on:",
+    "Options": [
+      "A) Pressure",
+      "B) Volume",
+      "C) Temperature",
+      "D) All of above"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Foundation",
+    "Explanation": "For an ideal gas, U depends only on temperature (U=nCvT). This is a key property \u2014 no intermolecular PE."
+  },
+  {
+    "QuestionText": "The specific heat capacity of water is approximately:",
+    "Options": [
+      "A) 1 J/(kg\u00b7K)",
+      "B) 4200 J/(kg\u00b7K)",
+      "C) 420 J/(kg\u00b7K)",
+      "D) 42000 J/(kg\u00b7K)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Foundation",
+    "Explanation": "Specific heat of water \u2248 4200 J/(kg\u00b7K) = 4.2 kJ/(kg\u00b7K). This high value makes water an excellent coolant and climate regulator."
+  },
+  {
+    "QuestionText": "An ideal gas is compressed adiabatically. Its temperature:",
+    "Options": [
+      "A) Decreases",
+      "B) Remains constant",
+      "C) Increases",
+      "D) First increases then decreases"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Advanced",
+    "Explanation": "Adiabatic compression: W done ON gas \u2192 W negative for gas \u2192 \u0394U=\u2212W > 0 \u2192 temperature rises. Air in bicycle pump gets hot."
+  },
+  {
+    "QuestionText": "The latent heat of fusion is energy used to:",
+    "Options": [
+      "A) Heat a liquid",
+      "B) Convert solid to liquid at constant temperature",
+      "C) Convert liquid to gas",
+      "D) Cool a solid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Foundation",
+    "Explanation": "Latent heat of fusion: energy needed to change phase from solid\u2192liquid (e.g., ice\u2192water) at constant temperature. Used to break intermolecular bonds."
+  },
+  {
+    "QuestionText": "Which process in the Carnot cycle does useful work?",
+    "Options": [
+      "A) Only isothermal compression",
+      "B) Only adiabatic compression",
+      "C) Both isothermal expansion and adiabatic expansion",
+      "D) Isothermal expansion only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Olympiad",
+    "Explanation": "Work is done BY the gas during both expansions (isothermal at T\u2081 and adiabatic). Work done ON gas during compressions. Net work = area enclosed in P-V cycle."
+  },
+  {
+    "QuestionText": "\u0394H = \u0394U + P\u0394V is the equation for:",
+    "Options": [
+      "A) Entropy change",
+      "B) Enthalpy change",
+      "C) Gibbs energy",
+      "D) Helmholtz free energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Laws of Thermodynamics",
+    "Difficulty": "Advanced",
+    "Explanation": "Enthalpy H = U + PV. \u0394H = \u0394U + P\u0394V (at constant P). Enthalpy change equals heat absorbed at constant pressure."
+  },
+  {
+    "QuestionText": "In a free expansion of an ideal gas into vacuum, work done and heat absorbed are:",
+    "Options": [
+      "A) W>0, Q>0",
+      "B) W=0, Q=0",
+      "C) W>0, Q=0",
+      "D) W=0, Q>0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Olympiad",
+    "Explanation": "Free expansion into vacuum: no external pressure to work against \u2192 W=0. Insulated container \u2192 Q=0. By first law: \u0394U=0, T constant for ideal gas."
+  },
+  {
+    "QuestionText": "Temperature is measured on the Kelvin scale. 0\u00b0C in Kelvin is:",
+    "Options": [
+      "A) 0 K",
+      "B) 100 K",
+      "C) 273 K",
+      "D) 373 K"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Temperature Scales",
+    "Difficulty": "Foundation",
+    "Explanation": "T(K) = T(\u00b0C) + 273.15. 0\u00b0C = 273.15 K \u2248 273 K. Absolute zero = 0 K = \u2212273\u00b0C."
+  },
+  {
+    "QuestionText": "The principle of a heat pump is to:",
+    "Options": [
+      "A) Convert all electricity to heat",
+      "B) Pump heat from cold outside to warm inside using work",
+      "C) Pump cold air from outside",
+      "D) Operate in reverse of an engine"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Advanced",
+    "Explanation": "A heat pump uses work to transfer heat from cold reservoir to hot reservoir. COP of heat pump = Q_hot/W = 1+COP_refrigerator."
+  },
+  {
+    "QuestionText": "For a monoatomic ideal gas, degrees of freedom are:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 5"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Advanced",
+    "Explanation": "Monoatomic gas (like noble gases) has 3 translational degrees of freedom only. Cv=(f/2)R=(3/2)R."
+  },
+  {
+    "QuestionText": "During reversible Carnot cycle, the total entropy change of universe is:",
+    "Options": [
+      "A) Positive",
+      "B) Negative",
+      "C) Zero",
+      "D) Equal to efficiency"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Carnot cycle is a reversible cycle. All reversible processes have \u0394S_universe=0. For irreversible processes, \u0394S_universe>0."
+  },
+  {
+    "QuestionText": "Stefan-Boltzmann law states that power radiated by a black body \u221d:",
+    "Options": [
+      "A) T",
+      "B) T\u00b2",
+      "C) T\u00b3",
+      "D) T\u2074"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Heat Transfer",
+    "Difficulty": "Advanced",
+    "Explanation": "P = \u03c3AT\u2074. The power radiated by a black body is proportional to the fourth power of absolute temperature. \u03c3 = 5.67\u00d710\u207b\u2078 W/(m\u00b2K\u2074)."
+  },
+  {
+    "QuestionText": "Newton's law of cooling states that rate of heat loss is proportional to:",
+    "Options": [
+      "A) Temperature of body",
+      "B) Temperature difference between body and surroundings",
+      "C) Surface area only",
+      "D) Mass of body"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Heat Transfer",
+    "Difficulty": "Foundation",
+    "Explanation": "dQ/dt \u221d (T\u2212T\u2080) where T is body temperature and T\u2080 is surrounding temperature. Valid for small temperature differences."
+  },
+  {
+    "QuestionText": "Which process has maximum work done for same change in volume in a P-V diagram?",
+    "Options": [
+      "A) Isothermal",
+      "B) Adiabatic",
+      "C) Isobaric",
+      "D) Isochoric"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Olympiad",
+    "Explanation": "Isobaric: W=P\u0394V (highest pressure maintained). Isothermal and adiabatic have lower pressures as volume increases. Isobaric gives maximum area (work) for same \u0394V."
+  },
+  {
+    "QuestionText": "The efficiency of any real heat engine is always __ Carnot efficiency:",
+    "Options": [
+      "A) Greater than",
+      "B) Equal to",
+      "C) Less than",
+      "D) Independent of"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Carnot Engine",
+    "Difficulty": "Advanced",
+    "Explanation": "The Carnot efficiency is the theoretical maximum for any heat engine between two temperatures. Real engines are less efficient due to irreversibilities, friction, and heat losses."
+  },
+  {
+    "QuestionText": "Equipartition of energy theorem states each degree of freedom has energy:",
+    "Options": [
+      "A) kT",
+      "B) (1/2)kT",
+      "C) (3/2)kT",
+      "D) 2kT"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Specific Heat Capacity",
+    "Difficulty": "Advanced",
+    "Explanation": "Each degree of freedom contributes (1/2)kT per molecule (or (1/2)RT per mole). This is the Equipartition Theorem."
+  },
+  {
+    "QuestionText": "Thermal conductivity measures how well a material:",
+    "Options": [
+      "A) Stores heat",
+      "B) Reflects heat",
+      "C) Conducts heat",
+      "D) Radiates heat"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Heat Transfer",
+    "Difficulty": "Foundation",
+    "Explanation": "Thermal conductivity k measures how easily heat flows through a material. Metals have high k; insulators have low k."
+  },
+  {
+    "QuestionText": "In an isobaric process, work done W=:",
+    "Options": [
+      "A) Zero",
+      "B) nCv\u0394T",
+      "C) P\u0394V = nR\u0394T",
+      "D) nRT ln(V2/V1)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Advanced",
+    "Explanation": "At constant pressure: W=P\u0394V. For ideal gas: P\u0394V=nR\u0394T. So W=nR\u0394T."
+  },
+  {
+    "QuestionText": "An irreversible process always has entropy change of the universe:",
+    "Options": [
+      "A) Zero",
+      "B) Negative",
+      "C) Positive",
+      "D) Constant"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Advanced",
+    "Explanation": "Second law: \u0394S_universe \u2265 0. For irreversible processes \u0394S_universe > 0 (strictly positive). Only reversible processes have \u0394S_universe=0."
+  },
+  {
+    "QuestionText": "The PdV work done in an isochoric process is:",
+    "Options": [
+      "A) Maximum",
+      "B) nCv\u0394T",
+      "C) nR\u0394T",
+      "D) Zero"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Thermodynamics",
+    "SubTopic": "Thermodynamic Processes",
+    "Difficulty": "Foundation",
+    "Explanation": "Isochoric = constant volume. \u0394V=0, so W=P\u0394V=0. All heat supplied goes to increasing internal energy."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Find the missing number in the series: 2, 6, 12, 20, 30, ?",
+    "Options": ["A) 40", "B) 42", "C) 44", "D) 46"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The difference between consecutive terms is increasing by 2: +4, +6, +8, +10, so the next is +12. 30 + 12 = 42."
+  },
+  {
+    "QuestionText": "In a certain code, 'COMPUTER' is written as 'RFUVQNPC'. How is 'MEDICINE' written in that code?",
+    "Options": ["A) EOJDJEFM", "B) EOIDIFEM", "C) MFEJDJOE", "D) EOJDEJFM"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The word is reversed, and each letter is shifted to the next (+1), except the first and last letters which swap positions. MEDICINE becomes E...M with intermediate letters +1."
+  },
+  {
+    "QuestionText": "Pointing to a photograph, Vipul said, 'She is the daughter of my grandfather's only son.' How is Vipul related to the girl in the photograph?",
+    "Options": ["A) Father", "B) Brother", "C) Cousin", "D) Uncle"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Grandfather's only son is Vipul's father. The daughter of Vipul's father is Vipul's sister. Therefore, Vipul is her brother."
+  },
+  {
+    "QuestionText": "If '+' means 'divided by', '-' means 'add', 'x' means 'minus' and '/' means 'multiplied by', what is the value of: 24 + 12 - 8 x 6 / 2?",
+    "Options": ["A) -2", "B) 10", "C) -8", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Mathematical Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "Substituting signs: 24 / 12 + 8 - 6 * 2. Using BODMAS: 2 + 8 - 12 = 10 - 12 = -2."
+  },
+  {
+    "QuestionText": "A man walks 5 km towards South and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?",
+    "Options": ["A) West", "B) South", "C) South-West", "D) North-East"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "He moves South, then West, then South again. The vector displacement is in the South-West direction."
+  },
+  {
+    "QuestionText": "Statements: All poets are day-dreamers. All painters are day-dreamers. \nConclusions: I. All painters are poets. II. Some day-dreamers are not painters.",
+    "Options": ["A) Only I follows", "B) Only II follows", "C) Neither I nor II follows", "D) Both follow"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Being in the same larger set (day-dreamers) doesn't make the subsets (poets/painters) overlap. Conclusion II is not necessarily true from the premises given."
+  },
+  {
+    "QuestionText": "Find the odd one out:",
+    "Options": ["A) 27", "B) 64", "C) 125", "D) 144"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "27 (3³), 64 (4³), and 125 (5³) are perfect cubes. 144 (12²) is a perfect square but not a perfect cube."
+  },
+  {
+    "QuestionText": "Choose the word which is least like the other words in the group:",
+    "Options": ["A) Copper", "B) Zinc", "C) Brass", "D) Aluminum"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Copper, Zinc, and Aluminum are pure metals. Brass is an alloy (Copper + Zinc)."
+  },
+  {
+    "QuestionText": "In a row of boys, If A is 10th from left and B is 9th from right and they interchange their positions, A becomes 15th from left. How many boys are there in the row?",
+    "Options": ["A) 23", "B) 27", "C) 28", "D) 31"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Total = New position of A + Old position of B - 1 = 15 + 9 - 1 = 23."
+  },
+  {
+    "QuestionText": "If 1st October is Sunday, then 1st November will be:",
+    "Options": ["A) Monday", "B) Tuesday", "C) Wednesday", "D) Thursday"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "October has 31 days. 31 divided by 7 leaves a remainder of 3. Sunday + 3 days = Wednesday."
+  },
+  {
+    "QuestionText": "Find the missing character: [4, 9, 2], [3, 5, 7], [8, 1, ?]",
+    "Options": ["A) 9", "B) 6", "C) 15", "D) 14"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Matrix Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is a magic square where every row and column adds up to 15. 8 + 1 + 6 = 15."
+  },
+  {
+    "QuestionText": "Which letter will be 6th to the right of the 11th letter from the left end in the English alphabet?",
+    "Options": ["A) Q", "B) P", "C) R", "D) S"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphabet Test",
+    "Difficulty": "Foundation",
+    "Explanation": "11th + 6th = 17th letter. The 17th letter of the alphabet is Q."
+  },
+  {
+    "QuestionText": "Book : Publisher :: Film : ?",
+    "Options": ["A) Writer", "B) Editor", "C) Director", "D) Producer"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "As a publisher is responsible for the final output and financing of a book, a producer handles the same for a film."
+  },
+  {
+    "QuestionText": "If FISH is written as EHRG, how is JUNGLE written in that code?",
+    "Options": ["A) ITMFKD", "B) ITNFKD", "C) KVOHMF", "D) TIMFKD"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Each letter is shifted back by one (-1). J-1=I, U-1=T, N-1=M, G-1=F, L-1=K, E-1=D."
+  },
+  {
+    "QuestionText": "A clock is started at noon. By 10 minutes past 5, the hour hand has turned through:",
+    "Options": ["A) 145°", "B) 150°", "C) 155°", "D) 160°"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Clock",
+    "Difficulty": "Advanced",
+    "Explanation": "Hour hand moves 30° per hour and 0.5° per minute. 5 hours (150°) + 10 mins (5°) = 155°."
+  },
+  {
+    "QuestionText": "Six people are sitting in a circle. A is facing B, B is to the right of E and left of C. C is to the left of D. F is to the right of A. Who is facing D?",
+    "Options": ["A) E", "B) F", "C) A", "D) C"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Seating Arrangement",
+    "Difficulty": "Olympiad",
+    "Explanation": "Arranging them in a circle based on the clockwise/anti-clockwise cues reveals E is opposite to D."
+  },
+  {
+    "QuestionText": "Find the missing number: 7, 26, 63, 124, 215, ?",
+    "Options": ["A) 342", "B) 343", "C) 441", "D) 344"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is (n³ - 1). 2³-1, 3³-1, 4³-1, 5³-1, 6³-1. The next is 7³-1 = 343 - 1 = 342."
+  },
+  {
+    "QuestionText": "Choose the alternative which closely resembles the mirror image of the word: EFFECTIVE",
+    "Options": ["A) EVITCeffE", "B) EVITCEFFE (reversed letters)", "C) ƎVITTƆƎℲƎ", "D) None"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "In a mirror image, the left becomes right and letters are laterally inverted."
+  },
+  {
+    "QuestionText": "Statement: Should higher education be restricted to only those who can afford it?\nArgument: I. No, education is a basic right. II. Yes, the government cannot bear the burden.",
+    "Options": ["A) Only I is strong", "B) Only II is strong", "C) Both are strong", "D) Neither is strong"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Critical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Argument I is a strong social principle. Argument II is weak because there are other ways to fund education besides just the government or individuals."
+  },
+  {
+    "QuestionText": "If 'a' is taller than 'b', 'b' is taller than 'c', and 'd' is taller than 'a', who is the shortest?",
+    "Options": ["A) a", "B) b", "C) c", "D) d"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Ordering: d > a > b > c. Therefore, c is the shortest."
+  },
+  {
+    "QuestionText": "How many squares are there in a 4x4 grid?",
+    "Options": ["A) 16", "B) 20", "C) 30", "D) 25"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Advanced",
+    "Explanation": "Formula for squares in an nxn grid: 1² + 2² + 3² + ... + n². For 4x4: 1+4+9+16 = 30."
+  },
+  {
+    "QuestionText": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+    "Options": ["A) 22", "B) 26", "C) 23", "D) 20"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern alternates between subtracting 2 and subtracting 4. 24 - 2 = 22."
+  },
+  {
+    "QuestionText": "Choose the word which is least like the others:",
+    "Options": ["A) Calendar", "B) Date", "C) Day", "D) Month"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Date, Day, and Month are components of a Calendar."
+  },
+  {
+    "QuestionText": "If water is called black, black is called tree, tree is called blue, blue is called rain, what is the color of the clear sky?",
+    "Options": ["A) Black", "B) Blue", "C) Rain", "D) Tree"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The color of the sky is blue. In this code, blue is called rain."
+  },
+  {
+    "QuestionText": "In a family, a man has a wife, three sons and their wives, and every son's family has three children. How many members are there in the family?",
+    "Options": ["A) 12", "B) 17", "C) 15", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Mathematical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Man + Wife (2) + 3 sons (3) + 3 daughters-in-law (3) + 9 grandchildren (9) = 17."
+  },
+  {
+    "QuestionText": "Which number replaces the question mark? 3 : 27 :: 4 : ?",
+    "Options": ["A) 16", "B) 64", "C) 28", "D) 32"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "The relation is n : n³. 4³ = 64."
+  },
+  {
+    "QuestionText": "A cube is painted red on all sides and then cut into 64 small cubes of equal size. How many cubes have no side painted?",
+    "Options": ["A) 4", "B) 8", "C) 16", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Cube and Dice",
+    "Difficulty": "Olympiad",
+    "Explanation": "Formula for cubes with no sides painted: (n-2)³. Here n=4 (since 4³=64), so (4-2)³ = 2³ = 8."
+  },
+  {
+    "QuestionText": "Statements: All cars are wheels. Some wheels are spokes.\nConclusions: I. Some cars are spokes. II. Some spokes are wheels.",
+    "Options": ["A) Only I follows", "B) Only II follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "All spokes being wheels is directly implied by 'Some wheels are spokes' (conversion), but Spokes and Cars don't necessarily interact."
+  },
+  {
+    "QuestionText": "If HONESTY is coded as 5132468, how is TONY coded?",
+    "Options": ["A) 4238", "B) 4138", "C) 2438", "D) 4236"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Direct letter-to-digit mapping: T=4, O=2, N=3, Y=8."
+  },
+  {
+    "QuestionText": "What is the angle between the minute hand and the hour hand of a clock when the time is 8.30?",
+    "Options": ["A) 80°", "B) 75°", "C) 60°", "D) 105°"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Clock",
+    "Difficulty": "Advanced",
+    "Explanation": "Angle = |30H - 5.5M| = |30(8) - 5.5(30)| = |240 - 165| = 75°."
+  },
+  {
+    "QuestionText": "Arrange the words in a meaningful sequence: 1. Key 2. Door 3. Lock 4. Room 5. Switch on",
+    "Options": ["A) 5,1,2,4,3", "B) 4,2,1,5,3", "C) 1,3,2,4,5", "D) 1,2,3,5,4"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Sequence",
+    "Difficulty": "Foundation",
+    "Explanation": "Key is used in the Lock to open the Door to enter the Room and Switch on the lights."
+  },
+  {
+    "QuestionText": "If 10+20=30, 20+30=40, then 30+40=?",
+    "Options": ["A) 70", "B) 50", "C) 10", "D) 60"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Puzzles",
+    "Difficulty": "Advanced",
+    "Explanation": "The logic is (Sum - 0, Sum - 10, Sum - 20...). 10+20=30, 20+30-10=40, 30+40-20=50."
+  },
+  {
+    "QuestionText": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+    "Options": ["A) Mother", "B) Grandmother", "C) Sister", "D) Daughter"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Only daughter of my mother is 'Myself' (the woman). So, she is his mother."
+  },
+  {
+    "QuestionText": "Find the next term: AZ, CX, EV, ?",
+    "Options": ["A) GT", "B) GS", "C) HT", "D) HS"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphabet Series",
+    "Difficulty": "Foundation",
+    "Explanation": "First letter: A(+2)C(+2)E(+2)G. Second letter (reverse): Z(-2)X(-2)V(-2)T."
+  },
+  {
+    "QuestionText": "A man is facing North-West. He turns 90° in the clockwise direction and then 135° in the anti-clockwise direction. Which direction is he facing now?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Net turn = 135(ACW) - 90(CW) = 45° ACW. North-West turned 45° ACW is West."
+  },
+  {
+    "QuestionText": "Find the odd number: 1, 4, 9, 16, 23, 25",
+    "Options": ["A) 9", "B) 16", "C) 23", "D) 25"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "All are perfect squares except 23."
+  },
+  {
+    "QuestionText": "If P is the brother of Q; Q is the son of R; R is the wife of S; how is P related to S?",
+    "Options": ["A) Father", "B) Brother", "C) Son", "D) Uncle"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "R and S are parents. P and Q are their sons."
+  },
+  {
+    "QuestionText": "SCD, TEF, UGH, ____, WKL",
+    "Options": ["A) CMN", "B) UJI", "C) VIJ", "D) IJT"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphabet Series",
+    "Difficulty": "Foundation",
+    "Explanation": "First letter: S, T, U, V, W. Remaining: CD, EF, GH, IJ, KL."
+  },
+  {
+    "QuestionText": "Which number is in the middle of 20 and 40?",
+    "Options": ["A) 25", "B) 30", "C) 35", "D) 31"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Ranking",
+    "Difficulty": "Foundation",
+    "Explanation": "(20+40)/2 = 30."
+  },
+  {
+    "QuestionText": "How many dots lie opposite to the face having three dots when the figure is folded to form a cube?",
+    "Options": ["A) 2", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Cube and Dice",
+    "Difficulty": "Advanced",
+    "Explanation": "In a standard net, alternate faces are opposite."
+  },
+  {
+    "QuestionText": "Melt : Liquid :: Freeze : ?",
+    "Options": ["A) Ice", "B) Solid", "C) Condense", "D) Crystal"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Melting results in a liquid state; freezing results in a solid state."
+  },
+  {
+    "QuestionText": "If 'light' is 'morning', 'morning' is 'dark', 'dark' is 'night', 'night' is 'sunshine', when do we sleep?",
+    "Options": ["A) Night", "B) Sunshine", "C) Dark", "D) Morning"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "We sleep at night. Night is called sunshine."
+  },
+  {
+    "QuestionText": "A is 3 years older than B and 3 years younger than C. While B and D are twins. How many years older is C than D?",
+    "Options": ["A) 2", "B) 3", "C) 6", "D) 12"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "C = A+3, A = B+3, B = D. So C = (D+3)+3 = D+6."
+  },
+  {
+    "QuestionText": "Odometer is to mileage as compass is to:",
+    "Options": ["A) Speed", "B) Hiking", "C) Needle", "D) Direction"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Odometer measures mileage; a compass indicates direction."
+  },
+  {
+    "QuestionText": "Find the number of triangles in a pentagon with all diagonals drawn.",
+    "Options": ["A) 25", "B) 30", "C) 35", "D) 20"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Olympiad",
+    "Explanation": "Systematic counting of small, composite, and large triangles reveals 35."
+  },
+  {
+    "QuestionText": "Pointing to a lady, a man said, 'The son of her only brother is the brother of my wife.' How is the lady related to the man?",
+    "Options": ["A) Mother's sister", "B) Grandmother", "C) Sister of father-in-law", "D) Mother-in-law"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Brother of my wife = Brother-in-law. His father = Father-in-law. The lady is the sister of that father-in-law."
+  },
+  {
+    "QuestionText": "Which word does NOT belong with the others?",
+    "Options": ["A) Guitar", "B) Flute", "C) Violin", "D) Cello"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Guitar, Violin, and Cello are string instruments. The flute is a wind instrument."
+  },
+  {
+    "QuestionText": "3, 5, 11, 14, 17, 21. Find the odd one.",
+    "Options": ["A) 14", "B) 17", "C) 21", "D) 11"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "All others are odd numbers/primes; 14 is even."
+  },
+  {
+    "QuestionText": "If MADRAS is coded as NBESBT, how is BOMBAY coded?",
+    "Options": ["A) CPNCBX", "B) CPNCBZ", "C) CPNCBY", "D) CQOCBZ"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Each letter is +1. B-C, O-P, M-N, B-C, A-B, Y-Z."
+  },
+  {
+    "QuestionText": "What comes next in the sequence? 1, 1, 2, 3, 5, 8, 13, ?",
+    "Options": ["A) 21", "B) 20", "C) 19", "D) 22"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the Fibonacci sequence where each term is the sum of the two preceding ones. 8 + 13 = 21."
+  }
+]

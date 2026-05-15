@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If f(x) = |x| at x = 0, which of the following is true?",
+    "Options": ["A) Continuous and Differentiable", "B) Continuous but not Differentiable", "C) Differentiable but not Continuous", "D) Neither Continuous nor Differentiable"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Foundation",
+    "Explanation": "The function |x| is continuous at 0, but the left-hand and right-hand derivatives are -1 and 1 respectively, so it is not differentiable."
+  },
+  {
+    "QuestionText": "The derivative of sin(x²) with respect to x is:",
+    "Options": ["A) cos(x²)", "B) 2x cos(x²)", "C) 2x sin(x²)", "D) -2x cos(x²)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Foundation",
+    "Explanation": "Applying the chain rule: derivative of sin(u) is cos(u) multiplied by the derivative of x², which is 2x."
+  },
+  {
+    "QuestionText": "If y = log(log x), then dy/dx is:",
+    "Options": ["A) 1/x", "B) 1/(x log x)", "C) (log x)/x", "D) 1/log x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "By chain rule, d/dx(log(log x)) = (1/log x) * d/dx(log x) = 1/(x log x)."
+  },
+  {
+    "QuestionText": "The function f(x) = [x], where [x] is the greatest integer function, is continuous at:",
+    "Options": ["A) 1", "B) 1.5", "C) -2", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Continuity",
+    "Difficulty": "Advanced",
+    "Explanation": "The greatest integer function is discontinuous at all integers but continuous at all non-integral points like 1.5."
+  },
+  {
+    "QuestionText": "If x = at² and y = 2at, then dy/dx is:",
+    "Options": ["A) t", "B) 1/t", "C) 2/t", "D) a/t"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Parametric Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = (dy/dt) / (dx/dt) = 2a / 2at = 1/t."
+  },
+  {
+    "QuestionText": "If y = tan⁻¹x, then d²y/dx² is:",
+    "Options": ["A) 1/(1+x²)", "B) -2x/(1+x²)²", "C) 2x/(1+x²)²", "D) -1/(1+x²)²"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Second Order Derivatives",
+    "Difficulty": "Advanced",
+    "Explanation": "First derivative is 1/(1+x²). Differentiating again using power rule and chain rule gives -2x/(1+x²)²."
+  },
+  {
+    "QuestionText": "The value of k for which f(x) = {kx+1 if x≤5, 3x-5 if x>5} is continuous at x=5 is:",
+    "Options": ["A) 9/5", "B) 5/9", "C) 2", "D) 8/5"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Continuity",
+    "Difficulty": "Advanced",
+    "Explanation": "LHL = k(5)+1; RHL = 3(5)-5 = 10. Setting 5k+1 = 10 gives k = 9/5."
+  },
+  {
+    "QuestionText": "If y = e^(3 log x), then dy/dx is:",
+    "Options": ["A) 3x²", "B) 3x", "C) 3e^(3 log x)", "D) 1/x³"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "y = e^(log x³) = x³. Thus dy/dx = 3x²."
+  },
+  {
+    "QuestionText": "Derivative of cos⁻¹(sin x) with respect to x is:",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) 1/√(1-x²)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Inverse Trig Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "cos⁻¹(sin x) = cos⁻¹(cos(π/2 - x)) = π/2 - x. Its derivative is -1."
+  },
+  {
+    "QuestionText": "If f(x) = x sin(1/x) for x≠0 and f(0)=0, then at x=0, f is:",
+    "Options": ["A) Continuous and Differentiable", "B) Continuous but not Differentiable", "C) Differentiable but not Continuous", "D) Neither"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Olympiad",
+    "Explanation": "Limit as x→0 is 0 by squeeze theorem, so it is continuous. However, the limit for the derivative involves cos(1/x) which oscillates."
+  },
+  {
+    "QuestionText": "If y = √sin x + y, then dy/dx is:",
+    "Options": ["A) cos x / (2y-1)", "B) sin x / (2y-1)", "C) cos x / (y-1)", "D) cos x / (2y+1)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Implicit Differentiation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Squaring both sides: y² = sin x + y. Differentiating gives 2y(dy/dx) = cos x + dy/dx, then solve for dy/dx."
+  },
+  {
+    "QuestionText": "Derivative of log₁₀x with respect to x is:",
+    "Options": ["A) 1/x", "B) 1/(x logₑ10)", "C) (logₑ10)/x", "D) 10/x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "Using change of base: log₁₀x = (logₑx)/(logₑ10). Differentiating gives 1/(x logₑ10)."
+  },
+  {
+    "QuestionText": "If f(x) = kx² is differentiable at x=1, what is the value of f'(1)?",
+    "Options": ["A) k", "B) 2k", "C) k²", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Foundation",
+    "Explanation": "f'(x) = 2kx. At x=1, f'(1) = 2k."
+  },
+  {
+    "QuestionText": "If y = sin⁻¹x + cos⁻¹x, then dy/dx is:",
+    "Options": ["A) 0", "B) 1", "C) π/2", "D) 2/√(1-x²)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Inverse Trig Differentiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Since sin⁻¹x + cos⁻¹x = π/2 (a constant), its derivative is zero."
+  },
+  {
+    "QuestionText": "If y = xˣ, then dy/dx is:",
+    "Options": ["A) xˣ(1 + log x)", "B) xˣ log x", "C) x·xˣ⁻¹", "D) 1 + log x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Taking log: log y = x log x. Differentiating gives (1/y)dy/dx = 1 + log x, so dy/dx = y(1 + log x)."
+  },
+  {
+    "QuestionText": "The function f(x) = e^|x| is:",
+    "Options": ["A) Continuous and differentiable everywhere", "B) Continuous everywhere but not differentiable at x=0", "C) Not continuous at x=0", "D) Differentiable at x=0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Advanced",
+    "Explanation": "Exponential is continuous, but the absolute value inside creates a sharp corner (cusp) at x=0, making it non-differentiable there."
+  },
+  {
+    "QuestionText": "Derivative of a constant function is always:",
+    "Options": ["A) 1", "B) 0", "C) The constant itself", "D) Undefined"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Foundation",
+    "Explanation": "A constant function does not change, so its rate of change (derivative) is zero."
+  },
+  {
+    "QuestionText": "If y = sin(ax + b), then d²y/dx² is:",
+    "Options": ["A) a² cos(ax + b)", "B) -a² sin(ax + b)", "C) -a sin(ax + b)", "D) a² sin(ax + b)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Second Order Derivatives",
+    "Difficulty": "Advanced",
+    "Explanation": "y' = a cos(ax + b). y'' = a(-a sin(ax + b)) = -a² sin(ax + b)."
+  },
+  {
+    "QuestionText": "The derivative of tan x with respect to x is:",
+    "Options": ["A) sec x", "B) sec² x", "C) -sec² x", "D) tan² x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard derivative formula for trigonometric functions."
+  },
+  {
+    "QuestionText": "If f(x) is continuous in [a, b] and differentiable in (a, b), Rolle's theorem applies if:",
+    "Options": ["A) f(a) = f(b)", "B) f(a) ≠ f(b)", "C) f'(a) = f'(b)", "D) f(a) = 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Mean Value Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Rolle's theorem specifically requires the function values at the endpoints to be equal."
+  },
+  {
+    "QuestionText": "Derivative of 2^x is:",
+    "Options": ["A) x · 2ˣ⁻¹", "B) 2ˣ log 2", "C) 2ˣ / log 2", "D) 2ˣ"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard formula for d/dx(aˣ) is aˣ log a."
+  },
+  {
+    "QuestionText": "If f(x) = {sin x / x if x≠0, 1 if x=0}, then at x=0 f is:",
+    "Options": ["A) Continuous", "B) Discontinuous", "C) Not defined", "D) Differentiable"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Continuity",
+    "Difficulty": "Foundation",
+    "Explanation": "The limit of sin x / x as x approaches 0 is 1, which matches f(0)."
+  },
+  {
+    "QuestionText": "If y = log(sin x), then dy/dx is:",
+    "Options": ["A) tan x", "B) cot x", "C) 1/sin x", "D) cos x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = (1/sin x) * cos x = cot x."
+  },
+  {
+    "QuestionText": "If x - y = π, then dy/dx is:",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) π"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Implicit Differentiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Differentiating both sides: 1 - dy/dx = 0, so dy/dx = 1."
+  },
+  {
+    "QuestionText": "Derivative of tan⁻¹((3x - x³) / (1 - 3x²)) is:",
+    "Options": ["A) 3/(1+x²)", "B) 1/(1+x²)", "C) 3/(1+3x²)", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Inverse Trig Differentiation",
+    "Difficulty": "Olympiad",
+    "Explanation": "The expression is the formula for 3 tan⁻¹x. Its derivative is 3/(1+x²)."
+  },
+  {
+    "QuestionText": "If y = sin⁻¹(2x√(1-x²)), then dy/dx is:",
+    "Options": ["A) 2/√(1-x²)", "B) 1/√(1-x²)", "C) -2/√(1-x²)", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Inverse Trig Differentiation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Substituting x = sin θ simplifies the expression to sin⁻¹(sin 2θ) = 2θ = 2 sin⁻¹x."
+  },
+  {
+    "QuestionText": "The function f(x) = |x-1| + |x-2| is not differentiable at:",
+    "Options": ["A) x=1 only", "B) x=2 only", "C) x=1 and x=2", "D) x=0"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Advanced",
+    "Explanation": "Absolute value functions are not differentiable where the internal expression is zero (at the corner points)."
+  },
+  {
+    "QuestionText": "If y = cos(sin x), then dy/dx is:",
+    "Options": ["A) -sin(sin x) cos x", "B) sin(sin x) cos x", "C) -sin(cos x)", "D) cos(cos x)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Advanced",
+    "Explanation": "By chain rule, d/dx(cos(u)) = -sin(u) * du/dx, where u = sin x."
+  },
+  {
+    "QuestionText": "Mean Value Theorem states that there exists c in (a, b) such that f'(c) equals:",
+    "Options": ["A) [f(b) - f(a)] / (b - a)", "B) 0", "C) f(a) - f(b)", "D) [f(a) + f(b)] / 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Mean Value Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "The derivative at c is the slope of the secant line joining endpoints."
+  },
+  {
+    "QuestionText": "If y = log x², then dy/dx is:",
+    "Options": ["A) 2/x", "B) 1/x²", "C) 2x", "D) 1/x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Foundation",
+    "Explanation": "log x² = 2 log x. Derivative of 2 log x is 2/x."
+  },
+  {
+    "QuestionText": "If f(x) = x², then f is continuous on:",
+    "Options": ["A) (0, ∞)", "B) R", "C) [0, 1]", "D) Z"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Continuity",
+    "Difficulty": "Foundation",
+    "Explanation": "Polynomial functions are continuous over the entire set of real numbers."
+  },
+  {
+    "QuestionText": "Derivative of sec⁻¹x is:",
+    "Options": ["A) 1/(x√(x²-1))", "B) 1/√(1-x²)", "C) 1/(1+x²)", "D) -1/(x√(x²-1))"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Inverse Trig Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard formula for the derivative of sec⁻¹x."
+  },
+  {
+    "QuestionText": "If y = sin x + cos x, then d²y/dx² + y is:",
+    "Options": ["A) 0", "B) 2y", "C) -y", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Second Order Derivatives",
+    "Difficulty": "Olympiad",
+    "Explanation": "y' = cos x - sin x. y'' = -sin x - cos x = -y. Thus y'' + y = 0."
+  },
+  {
+    "QuestionText": "If y = logₑ(eˣ), then dy/dx is:",
+    "Options": ["A) eˣ", "B) 1", "C) x", "D) 1/eˣ"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Foundation",
+    "Explanation": "y = logₑ(eˣ) simplifies to y = x. The derivative of x is 1."
+  },
+  {
+    "QuestionText": "A function is continuous at x=a if:",
+    "Options": ["A) LHL = RHL", "B) f(a) exists", "C) LHL = RHL = f(a)", "D) f'(a) exists"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Continuity",
+    "Difficulty": "Foundation",
+    "Explanation": "Continuity requires the limit to exist and be equal to the function's value at that point."
+  },
+  {
+    "QuestionText": "If y = tan(x + y), then dy/dx is:",
+    "Options": ["A) sec²(x+y) / (1 - sec²(x+y))", "B) sec²(x+y)", "C) 1", "D) -1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Implicit Differentiation",
+    "Difficulty": "Olympiad",
+    "Explanation": "dy/dx = sec²(x+y) * (1 + dy/dx). Solving for dy/dx gives the result."
+  },
+  {
+    "QuestionText": "Derivative of e^(cos x) is:",
+    "Options": ["A) e^(cos x)", "B) -sin x e^(cos x)", "C) sin x e^(cos x)", "D) -cos x e^(cos x)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Advanced",
+    "Explanation": "d/dx(e^u) = e^u * du/dx, where u = cos x."
+  },
+  {
+    "QuestionText": "If f(x) = |x|³, is f''(0) defined?",
+    "Options": ["A) Yes, f''(0)=0", "B) No", "C) Yes, f''(0)=6", "D) Yes, f''(0)=1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Second Order Derivatives",
+    "Difficulty": "Olympiad",
+    "Explanation": "f(x) = x³ for x≥0 and -x³ for x<0. f'(x)=3x² for x≥0 and -3x² for x<0. f''(x)=6x for x≥0 and -6x for x<0. At 0, both are 0."
+  },
+  {
+    "QuestionText": "If y = x¹⁰, then d¹⁰y/dx¹⁰ is:",
+    "Options": ["A) 0", "B) 1", "C) 10!", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Second Order Derivatives",
+    "Difficulty": "Advanced",
+    "Explanation": "The n-th derivative of xⁿ is n!."
+  },
+  {
+    "QuestionText": "The derivative of cot x with respect to x is:",
+    "Options": ["A) csc² x", "B) -csc² x", "C) -csc x cot x", "D) sec² x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard trigonometric derivative identity."
+  },
+  {
+    "QuestionText": "If y = logₐx, then dy/dx is:",
+    "Options": ["A) 1/x", "B) 1/(x log a)", "C) log a / x", "D) x log a"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Logarithmic Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "Using change of base formula before differentiating."
+  },
+  {
+    "QuestionText": "Function f(x) = x² + 3x + 2 is differentiable on:",
+    "Options": ["A) (0, ∞)", "B) R", "C) [0, 1]", "D) Z"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Foundation",
+    "Explanation": "Polynomials are differentiable everywhere on the real line."
+  },
+  {
+    "QuestionText": "If y = sin⁻¹(x/a), then dy/dx is:",
+    "Options": ["A) 1/√(a²-x²)", "B) a/√(a²-x²)", "C) 1/√(1-x²)", "D) 1/(a²+x²)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Inverse Trig Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "Using chain rule: (1/√(1-(x/a)²)) * (1/a) = 1/√(a²-x²)."
+  },
+  {
+    "QuestionText": "If f(x) is differentiable at x=c, then f is:",
+    "Options": ["A) Continuous at x=c", "B) Discontinuous at x=c", "C) Constant", "D) Zero at x=c"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Foundation",
+    "Explanation": "Differentiability at a point implies continuity at that point."
+  },
+  {
+    "QuestionText": "If y = √(x + √(x + ...)), then dy/dx is:",
+    "Options": ["A) 1/(2y-1)", "B) 1/(y-1)", "C) 1/(2y+1)", "D) 2y-1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Implicit Differentiation",
+    "Difficulty": "Olympiad",
+    "Explanation": "y = √(x + y) → y² = x + y. Differentiating gives 2y y' = 1 + y', so y' = 1/(2y-1)."
+  },
+  {
+    "QuestionText": "Derivative of csc x with respect to x is:",
+    "Options": ["A) -csc x cot x", "B) csc x cot x", "C) -csc² x", "D) -sec x tan x"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard trigonometric derivative identity."
+  },
+  {
+    "QuestionText": "If y = tan⁻¹(√x), then dy/dx is:",
+    "Options": ["A) 1/(1+x)", "B) 1 / (2√x (1+x))", "C) 1 / (1+√x)", "D) √x / (1+x)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Inverse Trig Differentiation",
+    "Difficulty": "Advanced",
+    "Explanation": "By chain rule: (1/(1+(√x)²)) * (1/2√x) = 1 / (2√x (1+x))."
+  },
+  {
+    "QuestionText": "If f(x) = [x], its derivative at x=1.5 is:",
+    "Options": ["A) 0", "B) 1", "C) Undefined", "D) 1.5"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Advanced",
+    "Explanation": "At non-integral points, the greatest integer function is constant, so its derivative is zero."
+  },
+  {
+    "QuestionText": "If y = sin(x°), then dy/dx is:",
+    "Options": ["A) cos(x°)", "B) (π/180) cos(x°)", "C) 180/π cos(x°)", "D) -cos(x°)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Chain Rule",
+    "Difficulty": "Olympiad",
+    "Explanation": "Calculus derivatives require radians. x° = πx/180. Derivative of sin(πx/180) is (π/180) cos(πx/180)."
+  },
+  {
+    "QuestionText": "Derivative of |x| for x < 0 is:",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) Undefined"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Continuity and Differentiability",
+    "SubTopic": "Differentiability",
+    "Difficulty": "Foundation",
+    "Explanation": "For x < 0, |x| = -x. The derivative of -x is -1."
+  }
+]

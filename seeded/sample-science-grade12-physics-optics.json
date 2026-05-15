@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "A ray of light passes from vacuum into a medium of refractive index n. If the angle of incidence is twice the angle of refraction, then the angle of incidence is:",
+    "Options": ["A) cos⁻¹(n/2)", "B) sin⁻¹(n/2)", "C) 2 cos⁻¹(n/2)", "D) 2 sin⁻¹(n/2)"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Advanced",
+    "Explanation": "Using Snell's Law: sin(2r)/sin(r) = n. Since sin(2r) = 2sin(r)cos(r), we get 2cos(r) = n, so r = cos⁻¹(n/2). Thus i = 2r = 2cos⁻¹(n/2)."
+  },
+  {
+    "QuestionText": "The focal length of a biconvex lens of refractive index 1.5 is 20 cm. When immersed in a liquid of refractive index 1.33, its focal length will:",
+    "Options": ["A) Increase", "B) Decrease", "C) Remain same", "D) Become zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Advanced",
+    "Explanation": "According to the Lens Maker's Formula, focal length increases when the difference between the refractive index of the lens and the medium decreases."
+  },
+  {
+    "QuestionText": "In Young's Double Slit Experiment, if the distance between the slits is halved and the distance between the slits and screen is doubled, the fringe width becomes:",
+    "Options": ["A) Unchanged", "B) Doubled", "C) Four times", "D) Halved"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Advanced",
+    "Explanation": "Fringe width β = λD/d. If D becomes 2D and d becomes d/2, the new width β' = λ(2D)/(d/2) = 4β."
+  },
+  {
+    "QuestionText": "The phenomenon of total internal reflection occurs when light travels from:",
+    "Options": ["A) Rarer to denser medium", "B) Denser to rarer medium", "C) Vacuum to air", "D) Any medium to any medium"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "Total internal reflection requires the light to move from a denser to a rarer medium and strike the interface at an angle greater than the critical angle."
+  },
+  {
+    "QuestionText": "The power of a thin convex lens of focal length 25 cm is:",
+    "Options": ["A) 4 D", "B) -4 D", "C) 0.04 D", "D) 25 D"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Power P = 1/f (in meters). P = 1/0.25 = 4 Dioptres."
+  },
+  {
+    "QuestionText": "Which of the following properties of light supports the wave theory but not the particle theory?",
+    "Options": ["A) Reflection", "B) Refraction", "C) Interference", "D) Rectilinear propagation"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Foundation",
+    "Explanation": "Interference and diffraction are phenomena uniquely associated with the superposition of waves."
+  },
+  {
+    "QuestionText": "A magnifying glass of focal length 5 cm is used by a person with normal vision. The maximum magnifying power is:",
+    "Options": ["A) 5", "B) 6", "C) 4", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Optical Instruments",
+    "Difficulty": "Advanced",
+    "Explanation": "M = 1 + D/f. For normal vision (D=25cm), M = 1 + 25/5 = 6."
+  },
+  {
+    "QuestionText": "The sky appears blue because of:",
+    "Options": ["A) Reflection", "B) Refraction", "C) Scattering", "D) Dispersion"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "Rayleigh scattering causes shorter wavelengths (blue) to scatter much more than longer wavelengths (red)."
+  },
+  {
+    "QuestionText": "An object is placed at a distance of 10 cm from a convex mirror of focal length 15 cm. The image is:",
+    "Options": ["A) Real and inverted", "B) Virtual and erect", "C) Real and erect", "D) Virtual and inverted"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Reflection of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "A convex mirror always produces a virtual, erect, and diminished image regardless of the object's position."
+  },
+  {
+    "QuestionText": "Brewster's angle for a medium of refractive index √3 is:",
+    "Options": ["A) 30°", "B) 45°", "C) 60°", "D) 90°"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Advanced",
+    "Explanation": "According to Brewster's Law, tan(i_p) = n. Here tan(i_p) = √3, which gives i_p = 60°."
+  },
+  {
+    "QuestionText": "In an astronomical telescope, the focal length of the objective is 100 cm and that of the eyepiece is 5 cm. The magnifying power for relaxed eye is:",
+    "Options": ["A) 20", "B) 105", "C) 95", "D) 500"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Optical Instruments",
+    "Difficulty": "Foundation",
+    "Explanation": "Magnification M = f_o / f_e = 100 / 5 = 20."
+  },
+  {
+    "QuestionText": "The refractive index of glass is 1.5. The speed of light in glass is:",
+    "Options": ["A) 2 × 10⁸ m/s", "B) 3 × 10⁸ m/s", "C) 4.5 × 10⁸ m/s", "D) 1.5 × 10⁸ m/s"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "v = c/n = (3 × 10⁸) / 1.5 = 2 × 10⁸ m/s."
+  },
+  {
+    "QuestionText": "For a thin prism, the angle of minimum deviation δ is related to the prism angle A by:",
+    "Options": ["A) δ = (n-1)A", "B) δ = nA", "C) δ = A/n", "D) δ = (n+1)A"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "This approximation holds for prisms with very small angles (A < 10°)."
+  },
+  {
+    "QuestionText": "If the wavelength of light used in a microscope is decreased, the resolving power:",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains same", "D) Becomes zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Optical Instruments",
+    "Difficulty": "Advanced",
+    "Explanation": "Resolving power is inversely proportional to wavelength (R.P. ∝ 1/λ)."
+  },
+  {
+    "QuestionText": "The wavefront due to a point source at a very large distance is:",
+    "Options": ["A) Spherical", "B) Cylindrical", "C) Plane", "D) Parabolic"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Foundation",
+    "Explanation": "At large distances, the curvature of the spherical wavefront becomes so small that it appears plane."
+  },
+  {
+    "QuestionText": "Critical angle for a medium is 45°. The refractive index of the medium is:",
+    "Options": ["A) √2", "B) 2", "C) 1.5", "D) 1/√2"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Advanced",
+    "Explanation": "n = 1/sin(C) = 1/sin(45°) = 1/(1/√2) = √2."
+  },
+  {
+    "QuestionText": "In diffraction due to a single slit, the width of the central maximum is:",
+    "Options": ["A) λD/d", "B) 2λD/d", "C) λD/2d", "D) λ/d"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Advanced",
+    "Explanation": "The central maximum extends between the first minima on either side, which occur at angular positions ±λ/d."
+  },
+  {
+    "QuestionText": "When two thin lenses of power +5 D and -3 D are placed in contact, the net power of the combination is:",
+    "Options": ["A) +8 D", "B) +2 D", "C) -15 D", "D) +4 D"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Power of combination P = P₁ + P₂ = 5 + (-3) = +2 Dioptres."
+  },
+  {
+    "QuestionText": "The image formed by an objective of a compound microscope is:",
+    "Options": ["A) Virtual, erect, and magnified", "B) Real, inverted, and magnified", "C) Virtual, inverted, and diminished", "D) Real, inverted, and diminished"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Optical Instruments",
+    "Difficulty": "Advanced",
+    "Explanation": "The objective lens creates a real, inverted image which then acts as the object for the eyepiece lens."
+  },
+  {
+    "QuestionText": "According to Huygens' Principle, each point on a wavefront acts as a source of:",
+    "Options": ["A) Primary waves", "B) Secondary wavelets", "C) Stationary waves", "D) Longitudinal waves"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Foundation",
+    "Explanation": "These secondary wavelets spread out in all directions at the speed of light to form the next wavefront."
+  },
+  {
+    "QuestionText": "A ray of light is incident normally on a glass slab. The angle of refraction is:",
+    "Options": ["A) 90°", "B) 0°", "C) 45°", "D) 180°"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "Normal incidence means the angle of incidence is 0°, and by Snell's Law, the angle of refraction is also 0°."
+  },
+  {
+    "QuestionText": "The focal length of a plane mirror is:",
+    "Options": ["A) Zero", "B) Infinite", "C) 25 cm", "D) Negative"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Reflection of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "A plane mirror has no curvature (radius is infinite), so its focal length (R/2) is also infinite."
+  },
+  {
+    "QuestionText": "Dispersion of light is caused by:",
+    "Options": ["A) Different wavelengths traveling at different speeds in a medium", "B) Reflection from a surface", "C) Diffraction through a slit", "D) Interference of waves"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Advanced",
+    "Explanation": "Refractive index depends on wavelength; hence different colors bend by different amounts in a prism."
+  },
+  {
+    "QuestionText": "The ratio of intensities of two waves is 9:1. The ratio of their amplitudes is:",
+    "Options": ["A) 3:1", "B) 81:1", "C) 9:1", "D) 1:3"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Advanced",
+    "Explanation": "Intensity I is proportional to the square of amplitude A. A₁/A₂ = √(I₁/I₂) = √9 = 3."
+  },
+  {
+    "QuestionText": "Which mirror is used as a rear-view mirror in vehicles?",
+    "Options": ["A) Concave", "B) Convex", "C) Plane", "D) Parabolic"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Reflection of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "Convex mirrors provide a wider field of view and always produce an erect image."
+  },
+  {
+    "QuestionText": "For constructive interference, the path difference between two waves should be:",
+    "Options": ["A) nλ", "B) (2n+1)λ/2", "C) λ/4", "D) Zero only"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Advanced",
+    "Explanation": "Constructive interference occurs when waves arrive in phase, meaning the path difference is an integral multiple of wavelength."
+  },
+  {
+    "QuestionText": "A real image is formed by a convex lens when the object is placed:",
+    "Options": ["A) Between F and O", "B) At F", "C) Beyond F", "D) At Infinity only"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Foundation",
+    "Explanation": "If the object is inside the focal length (between F and O), the image becomes virtual and erect."
+  },
+  {
+    "QuestionText": "In a Young's Double Slit Experiment, the central fringe is always:",
+    "Options": ["A) Dark", "B) Bright", "C) Colored", "D) Missing"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Foundation",
+    "Explanation": "At the center, the path difference is zero, leading to constructive interference and a bright fringe."
+  },
+  {
+    "QuestionText": "The focal length of a lens is +10 cm. The lens is:",
+    "Options": ["A) Concave", "B) Convex", "C) Plano-concave", "D) Cylindrical"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Foundation",
+    "Explanation": "By convention, converging (convex) lenses have a positive focal length."
+  },
+  {
+    "QuestionText": "A ray of light incident at the Brewster angle is reflected. The angle between reflected and refracted rays is:",
+    "Options": ["A) 0°", "B) 45°", "C) 90°", "D) 180°"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Olympiad",
+    "Explanation": "At Brewster's angle, the reflected ray is perfectly polarized, and the angle between reflected and refracted rays is exactly 90°."
+  },
+  {
+    "QuestionText": "The magnifying power of an astronomical telescope in normal adjustment is 10. The length of the telescope is 110 cm. Find f_o.",
+    "Options": ["A) 10 cm", "B) 100 cm", "C) 11 cm", "D) 110 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Optical Instruments",
+    "Difficulty": "Olympiad",
+    "Explanation": "L = f_o + f_e = 110. M = f_o / f_e = 10 → f_o = 10f_e. Substituting gives 11f_e = 110, so f_e=10 and f_o=100."
+  },
+  {
+    "QuestionText": "Mirage is a phenomenon due to:",
+    "Options": ["A) Diffraction", "B) Scattering", "C) Total Internal Reflection", "D) Interference"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Advanced",
+    "Explanation": "Mirage occurs due to the bending of light in layers of air with different temperatures, eventually leading to total internal reflection."
+  },
+  {
+    "QuestionText": "Which color of light travels fastest in glass?",
+    "Options": ["A) Red", "B) Violet", "C) Yellow", "D) All travel at same speed"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Advanced",
+    "Explanation": "Red light has the longest wavelength and the smallest refractive index, so it travels the fastest in a medium."
+  },
+  {
+    "QuestionText": "A lens of power +2 D and a lens of power -1 D are kept in contact. The focal length of the combination is:",
+    "Options": ["A) 1 m", "B) 2 m", "C) 50 cm", "D) 10 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Advanced",
+    "Explanation": "P = 2 - 1 = 1 D. f = 1/P = 1/1 = 1 meter."
+  },
+  {
+    "QuestionText": "Optical fibers work on the principle of:",
+    "Options": ["A) Scattering", "B) Total Internal Reflection", "C) Dispersion", "D) Interference"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "Light is trapped inside the fiber core by continuous total internal reflection off the cladding."
+  },
+  {
+    "QuestionText": "The unit of refractive index is:",
+    "Options": ["A) meter", "B) Dioptre", "C) Degree", "D) Unitless"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "Refractive index is a ratio of two speeds or two sines, so it has no units."
+  },
+  {
+    "QuestionText": "Polarization of light can be achieved using a:",
+    "Options": ["A) Prism", "B) Polaroid", "C) Convex Lens", "D) Concave Mirror"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Foundation",
+    "Explanation": "A polaroid filter allows only waves vibrating in one specific plane to pass through."
+  },
+  {
+    "QuestionText": "The distance of the second dark fringe from the center in YDSE is:",
+    "Options": ["A) λD/d", "B) 1.5 λD/d", "C) 2 λD/d", "D) 0.5 λD/d"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Dark fringes occur at (n - 0.5)β. For n=2, distance = (2 - 0.5)β = 1.5 λD/d."
+  },
+  {
+    "QuestionText": "Chromatic aberration in a lens is caused by:",
+    "Options": ["A) Diffraction", "B) Reflection", "C) Dispersion", "D) Polarization"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Advanced",
+    "Explanation": "Because focal length depends on refractive index, which varies with color, different colors focus at different points."
+  },
+  {
+    "QuestionText": "The focal length of a concave lens is 20 cm. Its power is:",
+    "Options": ["A) 5 D", "B) -5 D", "C) 2 D", "D) -2 D"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Concave lenses have negative focal lengths. P = 1 / (-0.2) = -5 D."
+  },
+  {
+    "QuestionText": "The phase difference between two points on the same wavefront is:",
+    "Options": ["A) π", "B) π/2", "C) Zero", "D) 2π"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, a wavefront is a surface of constant phase."
+  },
+  {
+    "QuestionText": "Malus's Law is given by the expression:",
+    "Options": ["A) I = I₀ cos θ", "B) I = I₀ cos²θ", "C) I = I₀ sin²θ", "D) I = I₀ tan θ"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Advanced",
+    "Explanation": "Intensity of polarized light transmitted through an analyzer varies as the square of the cosine of the angle between them."
+  },
+  {
+    "QuestionText": "A point object is placed at the center of curvature of a concave mirror. Its image will be formed at:",
+    "Options": ["A) Focus", "B) Center of curvature", "C) Infinity", "D) Pole"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Reflection of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "When u = R, v = R. The image is real, inverted, and of the same size as the object."
+  },
+  {
+    "QuestionText": "Spherical aberration can be reduced by using:",
+    "Options": ["A) Parabolic mirrors", "B) Monochromatic light", "C) Thicker lenses", "D) Polaroids"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Reflection of Light",
+    "Difficulty": "Olympiad",
+    "Explanation": "Parabolic mirrors reflect all parallel rays to a single focal point, unlike spherical mirrors."
+  },
+  {
+    "QuestionText": "If the angle of a prism is A and the refractive index is cot(A/2), the angle of minimum deviation is:",
+    "Options": ["A) 180° - 2A", "B) 180° - 3A", "C) 90° - A", "D) 180° - A"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using the prism formula n = sin((A+δ)/2) / sin(A/2). Solving with n = cos(A/2)/sin(A/2) yields δ = 180 - 2A."
+  },
+  {
+    "QuestionText": "The speed of light in vacuum is approximately:",
+    "Options": ["A) 3 × 10⁸ m/s", "B) 3 × 10¹⁰ m/s", "C) 3 × 10⁶ m/s", "D) 3 × 10⁷ m/s"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Refraction of Light",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a universal physical constant (c)."
+  },
+  {
+    "QuestionText": "In Young's Double Slit Experiment, white light is used. The central fringe will be:",
+    "Options": ["A) White", "B) Red", "C) Blue", "D) Black"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Advanced",
+    "Explanation": "At the center, path difference is zero for all colors, so they all interfere constructively to form white."
+  },
+  {
+    "QuestionText": "An object is placed at infinity from a concave lens. The image is formed at:",
+    "Options": ["A) Center of curvature", "B) Focus", "C) Infinity", "D) Pole"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Lenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Concave lenses diverge parallel rays, making them appear to come from the focus on the same side."
+  },
+  {
+    "QuestionText": "The limit of resolution of the human eye is approximately:",
+    "Options": ["A) 1 minute", "B) 1 degree", "C) 1 second", "D) 10 minutes"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Optical Instruments",
+    "Difficulty": "Advanced",
+    "Explanation": "The eye can distinguish two points if they subtend an angle of about 1/60th of a degree."
+  },
+  {
+    "QuestionText": "Intensity of light depends on which property of the wave?",
+    "Options": ["A) Frequency", "B) Wavelength", "C) Amplitude", "D) Speed"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wave Optics",
+    "Difficulty": "Foundation",
+    "Explanation": "Intensity is proportional to the square of the amplitude."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Kepler's first law states that planets move in:",
+    "Options": [
+      "A) Circular orbits",
+      "B) Elliptical orbits with Sun at one focus",
+      "C) Parabolic paths",
+      "D) Straight lines"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Kepler's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Kepler's first law (Law of Orbits): Every planet revolves around the Sun in an elliptical orbit with the Sun at one of the two foci."
+  },
+  {
+    "QuestionText": "Kepler's second law (Law of Areas) states:",
+    "Options": [
+      "A) T\u00b2 \u221d r\u00b3",
+      "B) Orbital speed is constant",
+      "C) The line from Sun to planet sweeps equal areas in equal times",
+      "D) Planets move in circles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Kepler's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "The radius vector sweeps equal areas in equal intervals \u2014 planet moves faster when closer to the Sun (perihelion) and slower when farther (aphelion)."
+  },
+  {
+    "QuestionText": "Kepler's third law states:",
+    "Options": [
+      "A) T \u221d r\u00b2",
+      "B) T\u00b2 \u221d r\u00b3",
+      "C) T \u221d r",
+      "D) T\u00b3 \u221d r\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Kepler's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "T\u00b2 \u221d a\u00b3 where T is period and a is semi-major axis. This is the Law of Periods."
+  },
+  {
+    "QuestionText": "Universal gravitational constant G has SI unit:",
+    "Options": [
+      "A) N\u00b7m/kg",
+      "B) N\u00b7m\u00b2/kg\u00b2",
+      "C) kg\u00b7m/s\u00b2",
+      "D) N/kg\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Newton's Law of Gravitation",
+    "Difficulty": "Foundation",
+    "Explanation": "From F=Gm\u2081m\u2082/r\u00b2: G=Fr\u00b2/(m\u2081m\u2082). Unit: [N\u00b7m\u00b2/kg\u00b2]."
+  },
+  {
+    "QuestionText": "If the distance between two masses is doubled, gravitational force becomes:",
+    "Options": [
+      "A) Double",
+      "B) Half",
+      "C) One-fourth",
+      "D) Four times"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Newton's Law of Gravitation",
+    "Difficulty": "Foundation",
+    "Explanation": "F \u221d 1/r\u00b2. Doubling r makes F \u221d 1/(2r)\u00b2 = 1/4 of original."
+  },
+  {
+    "QuestionText": "Acceleration due to gravity g on Earth's surface is approximately:",
+    "Options": [
+      "A) 9.8 cm/s\u00b2",
+      "B) 9.8 m/s\u00b2",
+      "C) 9.8 km/s\u00b2",
+      "D) 98 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Foundation",
+    "Explanation": "g \u2248 9.8 m/s\u00b2 \u2248 10 m/s\u00b2 near Earth's surface. It varies slightly with latitude and altitude."
+  },
+  {
+    "QuestionText": "Weight of a body is:",
+    "Options": [
+      "A) Same everywhere",
+      "B) Mass \u00d7 gravitational acceleration",
+      "C) Same as mass",
+      "D) Zero in space"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Foundation",
+    "Explanation": "W=mg. Weight is the gravitational force on a body. It varies with location (g changes); mass does not."
+  },
+  {
+    "QuestionText": "The escape velocity from Earth is approximately:",
+    "Options": [
+      "A) 7.9 km/s",
+      "B) 11.2 km/s",
+      "C) 3 km/s",
+      "D) 25 km/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Escape Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "v_escape = sqrt(2gR) = sqrt(2\u00d79.8\u00d76.4\u00d710\u2076) \u2248 11.2 km/s from Earth."
+  },
+  {
+    "QuestionText": "The orbital velocity of a satellite near Earth's surface is approximately:",
+    "Options": [
+      "A) 11.2 km/s",
+      "B) 7.9 km/s",
+      "C) 3 km/s",
+      "D) 5 km/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Foundation",
+    "Explanation": "v_orbital = sqrt(gR) \u2248 sqrt(9.8\u00d76.4\u00d710\u2076) \u2248 7.9 km/s. Note v_escape = \u221a2 \u00d7 v_orbital."
+  },
+  {
+    "QuestionText": "A geostationary satellite has a time period of:",
+    "Options": [
+      "A) 12 hours",
+      "B) 24 hours",
+      "C) 1 month",
+      "D) 1 year"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Foundation",
+    "Explanation": "A geostationary satellite has T=24 hours \u2014 it remains stationary over a fixed point on Earth's equator. Used for communication and weather satellites."
+  },
+  {
+    "QuestionText": "g decreases as altitude increases because:",
+    "Options": [
+      "A) Air pressure decreases",
+      "B) Distance from Earth's centre increases, reducing gravitational pull",
+      "C) Temperature decreases",
+      "D) Mass of satellite decreases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Foundation",
+    "Explanation": "g = GM/r\u00b2. As altitude h increases, r = R+h increases, and g decreases with the square of distance from centre."
+  },
+  {
+    "QuestionText": "Gravitational potential energy at infinity is taken as:",
+    "Options": [
+      "A) Maximum positive",
+      "B) Minimum negative",
+      "C) Zero",
+      "D) mg"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Gravitational Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravitational PE = \u2212GMm/r. At r\u2192\u221e, PE\u21920. This reference is convenient; PE is negative for bound systems."
+  },
+  {
+    "QuestionText": "For a satellite in circular orbit, the required centripetal force is provided by:",
+    "Options": [
+      "A) Rocket engines",
+      "B) Earth's gravitational force",
+      "C) Atmospheric pressure",
+      "D) Magnetic force"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravity provides the centripetal force for circular orbit: GMm/r\u00b2 = mv\u00b2/r."
+  },
+  {
+    "QuestionText": "g at the centre of Earth is:",
+    "Options": [
+      "A) Maximum",
+      "B) g = 9.8 m/s\u00b2",
+      "C) Infinite",
+      "D) Zero"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "At Earth's centre, all mass pulls equally in all directions. Net gravitational force = 0, so g = 0 at centre."
+  },
+  {
+    "QuestionText": "The formula g' = g(1\u22122h/R) applies when:",
+    "Options": [
+      "A) h >> R",
+      "B) h is comparable to R",
+      "C) h << R (small altitude)",
+      "D) h = 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "For small heights h << R: g' = g(1\u22122h/R). For large altitudes, exact formula g' = g(R/(R+h))\u00b2 must be used."
+  },
+  {
+    "QuestionText": "If Earth's radius shrinks to half but mass stays same, g at surface becomes:",
+    "Options": [
+      "A) Halved",
+      "B) Doubled",
+      "C) Four times",
+      "D) Same"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "g=GM/R\u00b2. If R\u2192R/2: g'=GM/(R/2)\u00b2=4GM/R\u00b2=4g."
+  },
+  {
+    "QuestionText": "The time period of a geostationary satellite depends on:",
+    "Options": [
+      "A) Its mass",
+      "B) Height above equator",
+      "C) Both mass and height",
+      "D) Neither \u2014 it is fixed at 24 hours by definition"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "T=2\u03c0 sqrt(r\u00b3/GM). Period depends on orbital radius r (height). All satellites at geostationary radius (~36000 km) have T=24h regardless of mass."
+  },
+  {
+    "QuestionText": "The orbital speed of a satellite decreases as:",
+    "Options": [
+      "A) Mass increases",
+      "B) Radius of orbit increases",
+      "C) Radius decreases",
+      "D) Mass decreases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "v_orbital = sqrt(GM/r). As orbital radius r increases, v decreases. Higher orbits are slower."
+  },
+  {
+    "QuestionText": "Gravitational potential at a point is defined as:",
+    "Options": [
+      "A) Work done per unit mass to bring mass from that point to infinity",
+      "B) Work done per unit mass to bring mass from infinity to that point",
+      "C) PE \u00d7 mass",
+      "D) g \u00d7 distance"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Gravitational Potential Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "V = W/m = work done per unit mass to bring a test mass from infinity to that point. V = \u2212GM/r (negative)."
+  },
+  {
+    "QuestionText": "Two satellites orbit Earth at heights r and 4r. Ratio of orbital velocities v\u2081:v\u2082:",
+    "Options": [
+      "A) 1:2",
+      "B) 2:1",
+      "C) 1:4",
+      "D) 4:1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "v \u221d 1/sqrt(r). v\u2081/v\u2082 = sqrt(r\u2082/r\u2081) = sqrt(4r/r) = sqrt(4) = 2. v\u2081:v\u2082 = 2:1."
+  },
+  {
+    "QuestionText": "A planet has half the radius and twice the density of Earth. Its surface gravity compared to Earth is:",
+    "Options": [
+      "A) Same",
+      "B) Double",
+      "C) Half",
+      "D) Four times"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Olympiad",
+    "Explanation": "g=(4/3)\u03c0G\u03c1R. g'/g = (\u03c1'/\u03c1)\u00d7(R'/R) = 2\u00d7(1/2) = 1. Same."
+  },
+  {
+    "QuestionText": "Ratio of periods of two satellites at heights h\u2081=0 and h\u2082=R above Earth (R=Earth's radius):",
+    "Options": [
+      "A) 1:2",
+      "B) 1:2\u221a2",
+      "C) 1:4",
+      "D) 1:8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Olympiad",
+    "Explanation": "T\u221dr^(3/2). r\u2081=R, r\u2082=2R. T\u2081/T\u2082=(R/2R)^(3/2)=(1/2)^(3/2)=1/(2\u221a2)."
+  },
+  {
+    "QuestionText": "Escape velocity from a planet of mass M and radius R is:",
+    "Options": [
+      "A) sqrt(GM/R)",
+      "B) sqrt(2GM/R)",
+      "C) sqrt(2GM/R\u00b2)",
+      "D) 2GM/R"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Escape Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "Setting KE=|PE|: (1/2)mv\u00b2=GMm/R \u2192 v=sqrt(2GM/R)."
+  },
+  {
+    "QuestionText": "The value of G (universal gravitational constant) was first determined experimentally by:",
+    "Options": [
+      "A) Kepler",
+      "B) Newton",
+      "C) Cavendish",
+      "D) Galileo"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Newton's Law of Gravitation",
+    "Difficulty": "Advanced",
+    "Explanation": "Henry Cavendish used a torsion balance in 1798 to experimentally measure G, confirming Newton's law of gravitation numerically."
+  },
+  {
+    "QuestionText": "For a body inside a hollow spherical shell, gravitational field is:",
+    "Options": [
+      "A) Equal to surface value",
+      "B) Proportional to distance from centre",
+      "C) Zero",
+      "D) Double the surface value"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Gravitational Field",
+    "Difficulty": "Olympiad",
+    "Explanation": "By shell theorem, a uniform spherical shell exerts zero net gravitational force on any body inside it. Field inside = 0."
+  },
+  {
+    "QuestionText": "The total energy of a satellite in circular orbit is:",
+    "Options": [
+      "A) Positive",
+      "B) Zero",
+      "C) \u2212GMm/2r",
+      "D) GMm/r"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Olympiad",
+    "Explanation": "KE=GMm/2r, PE=\u2212GMm/r. Total E=KE+PE=GMm/2r\u2212GMm/r=\u2212GMm/2r. Negative total energy indicates a bound system."
+  },
+  {
+    "QuestionText": "If Earth suddenly stops rotating, weight of a body at equator would:",
+    "Options": [
+      "A) Decrease",
+      "B) Increase",
+      "C) Remain same",
+      "D) Become zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Olympiad",
+    "Explanation": "Earth's rotation reduces effective g at equator by \u03c9\u00b2R. If rotation stops, \u03c9=0, so effective g increases back to true g."
+  },
+  {
+    "QuestionText": "g at depth d below Earth's surface is:",
+    "Options": [
+      "A) g(1+d/R)",
+      "B) g(1\u2212d/R)",
+      "C) gd/R",
+      "D) g/d"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "g_depth = g(1\u2212d/R). At surface d=0: g'=g. At centre d=R: g'=0. Linearly decreases."
+  },
+  {
+    "QuestionText": "The period of revolution of Jupiter is 12 Earth-years. Its orbital radius compared to Earth's is:",
+    "Options": [
+      "A) 12 AU",
+      "B) 144 AU",
+      "C) 12^(2/3) AU",
+      "D) 5.24 AU"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Kepler's Laws",
+    "Difficulty": "Olympiad",
+    "Explanation": "T\u00b2\u221dr\u00b3 \u2192 r\u00b3=T\u00b2=144 \u2192 r=144^(1/3)=5.24 AU."
+  },
+  {
+    "QuestionText": "Gravitational potential inside a uniform solid sphere varies as:",
+    "Options": [
+      "A) \u22121/r",
+      "B) Linear with r",
+      "C) Parabolic (r\u00b2)",
+      "D) \u2212r"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Gravitational Potential Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Inside solid sphere: V=\u2212GM(3R\u00b2\u2212r\u00b2)/2R\u00b3. This has an r\u00b2 (parabolic) dependence inside."
+  },
+  {
+    "QuestionText": "The binding energy of a satellite of mass m orbiting at radius r is:",
+    "Options": [
+      "A) GMm/r",
+      "B) GMm/2r",
+      "C) \u2212GMm/r",
+      "D) GMm/(2r\u00b2)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Olympiad",
+    "Explanation": "Binding energy = \u2212Total energy = \u2212(\u2212GMm/2r) = GMm/2r. It is the energy needed to free the satellite from orbit."
+  },
+  {
+    "QuestionText": "If mass of Sun is doubled while keeping Earth's orbital radius same, Earth's year would:",
+    "Options": [
+      "A) Double",
+      "B) Halve",
+      "C) Become 1/sqrt(2) times",
+      "D) Remain same"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Kepler's Laws",
+    "Difficulty": "Olympiad",
+    "Explanation": "T=2\u03c0 sqrt(r\u00b3/GM). If M doubles: T'=T\u00d7sqrt(1/2)=T/sqrt(2). Year becomes 1/sqrt(2) times shorter."
+  },
+  {
+    "QuestionText": "The gravitational field E at distance r from mass M is:",
+    "Options": [
+      "A) GMr",
+      "B) GM/r",
+      "C) GM/r\u00b2",
+      "D) GMm/r\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Gravitational Field",
+    "Difficulty": "Advanced",
+    "Explanation": "Gravitational field (intensity) E=F/m=GM/r\u00b2. It is per unit test mass (independent of test mass)."
+  },
+  {
+    "QuestionText": "Weightlessness in a satellite is because:",
+    "Options": [
+      "A) There is no gravity in space",
+      "B) Gravity is too weak at that height",
+      "C) Satellite and occupants both free-fall toward Earth together",
+      "D) Satellite moves too fast for gravity to act"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "In orbit, both satellite and astronauts are in free fall. The normal force between them is zero \u2014 apparent weightlessness. Gravity is still present (~90% of surface value at ISS orbit)."
+  },
+  {
+    "QuestionText": "If the gravitational force between two objects is F, and the distance is tripled, new force is:",
+    "Options": [
+      "A) F/3",
+      "B) F/6",
+      "C) F/9",
+      "D) 9F"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Newton's Law of Gravitation",
+    "Difficulty": "Foundation",
+    "Explanation": "F\u221d1/r\u00b2. If r\u21923r: F'=F/(3)\u00b2=F/9."
+  },
+  {
+    "QuestionText": "Geosynchronous satellite orbit height above Earth is approximately:",
+    "Options": [
+      "A) 400 km",
+      "B) 3600 km",
+      "C) 36000 km",
+      "D) 360000 km"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Foundation",
+    "Explanation": "Geostationary orbit is at ~36,000 km (36 \u00d7 10\u2076 m) above Earth's surface. ISS is at ~400 km."
+  },
+  {
+    "QuestionText": "Newton's law of gravitation: F = Gm\u2081m\u2082/r\u00b2. The force is:",
+    "Options": [
+      "A) Only attractive",
+      "B) Only repulsive",
+      "C) Both depending on masses",
+      "D) Zero at infinite distance exactly"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Newton's Law of Gravitation",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravity is always attractive. Unlike electric force, there are no negative gravitational charges."
+  },
+  {
+    "QuestionText": "The gravitational constant G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2. A small value implies:",
+    "Options": [
+      "A) Gravity is strong",
+      "B) Gravity is the weakest fundamental force",
+      "C) G varies with temperature",
+      "D) Gravity depends on composition"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Newton's Law of Gravitation",
+    "Difficulty": "Advanced",
+    "Explanation": "The very small value of G means gravity between ordinary masses is negligible. Only when planetary/stellar masses are involved does gravity become significant."
+  },
+  {
+    "QuestionText": "At what height above Earth's surface is g reduced to (g/4)? (R = Earth's radius)",
+    "Options": [
+      "A) R",
+      "B) 2R",
+      "C) R/2",
+      "D) 3R"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Olympiad",
+    "Explanation": "g'=g\u00d7(R/(R+h))\u00b2=g/4 \u2192 (R+h)\u00b2=4R\u00b2 \u2192 R+h=2R \u2192 h=R."
+  },
+  {
+    "QuestionText": "Among the following, which is a consequence of Newton's first law and explains why planets orbit?",
+    "Options": [
+      "A) Gravity alone",
+      "B) Tangential inertia + radial gravity",
+      "C) Electromagnetic force",
+      "D) Strong nuclear force"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "A planet would travel in a straight line (inertia) if not for gravity. Gravity continuously pulls it inward while inertia keeps it moving tangentially \u2014 the result is an orbit."
+  },
+  {
+    "QuestionText": "The gravitational PE between two masses m and M separated by r is:",
+    "Options": [
+      "A) GMm/r",
+      "B) \u2212GMm/r",
+      "C) GMm/r\u00b2",
+      "D) \u2212GMm/r\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Gravitational Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravitational PE = \u2212GMm/r. It is negative because gravity is attractive and work must be done against gravity to separate the masses."
+  },
+  {
+    "QuestionText": "Kepler's second law is a consequence of conservation of:",
+    "Options": [
+      "A) Linear momentum",
+      "B) Energy",
+      "C) Angular momentum",
+      "D) Mass"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Kepler's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "Equal areas in equal times means the angular momentum L=mr\u00b2\u03c9 is constant \u2014 angular momentum conservation. Gravity (central force) exerts zero torque."
+  },
+  {
+    "QuestionText": "If Earth's mass doubles (radius same), escape velocity changes by factor:",
+    "Options": [
+      "A) sqrt(2)",
+      "B) 2",
+      "C) 1/sqrt(2)",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Escape Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "v_esc=sqrt(2GM/R)\u221dsqrt(M). If M doubles: v_esc'=sqrt(2)\u00d7v_esc. Factor = sqrt(2)."
+  },
+  {
+    "QuestionText": "Moon has no atmosphere because:",
+    "Options": [
+      "A) Moon has no oxygen",
+      "B) Moon's escape velocity is very low (~2.4 km/s), gas molecules escape",
+      "C) Moon is too cold",
+      "D) Moon has no magnetic field"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Escape Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "Moon's escape velocity \u22482.4 km/s. Thermal speeds of gas molecules (especially light ones like H\u2082, He) exceed this, so they escape into space over time."
+  },
+  {
+    "QuestionText": "For a satellite to escape Earth from orbit at radius r, additional energy needed is:",
+    "Options": [
+      "A) GMm/r",
+      "B) GMm/2r",
+      "C) \u2212GMm/2r",
+      "D) Zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total energy in orbit = \u2212GMm/2r. Energy at infinity=0. Energy needed = 0\u2212(\u2212GMm/2r) = GMm/2r."
+  },
+  {
+    "QuestionText": "The gravitational field is a:",
+    "Options": [
+      "A) Scalar field",
+      "B) Vector field",
+      "C) Tensor field",
+      "D) Dimensionless field"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Gravitational Field",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravitational field E=GM/r\u00b2 is a vector field \u2014 it has both magnitude and direction (pointing toward the mass creating it)."
+  },
+  {
+    "QuestionText": "Value of g on Moon is about 1/6 of Earth. A man's weight on Moon vs Earth:",
+    "Options": [
+      "A) Same",
+      "B) 6 times less",
+      "C) 6 times more",
+      "D) Zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Foundation",
+    "Explanation": "W=mg. g_moon = g_earth/6. So W_moon = W_earth/6. Weight is 1/6th on Moon; mass is unchanged."
+  },
+  {
+    "QuestionText": "Two planets of masses M and 4M have equal radii. Ratio of their escape velocities:",
+    "Options": [
+      "A) 1:2",
+      "B) 1:4",
+      "C) 2:1",
+      "D) 4:1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Escape Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "v_esc\u221dsqrt(M/R). Equal radii: v\u2081/v\u2082=sqrt(M/4M)=sqrt(1/4)=1/2. Ratio=1:2."
+  },
+  {
+    "QuestionText": "Gravitational force is described as a long-range force because:",
+    "Options": [
+      "A) It only acts at large distances",
+      "B) It never becomes exactly zero even at very large distances",
+      "C) It increases with distance",
+      "D) It acts faster than light"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Newton's Law of Gravitation",
+    "Difficulty": "Advanced",
+    "Explanation": "F=Gm\u2081m\u2082/r\u00b2 \u2192 0 only as r\u2192\u221e. Gravity never completely vanishes; it is felt across the entire universe."
+  },
+  {
+    "QuestionText": "The time period of a satellite at height h above Earth is proportional to:",
+    "Options": [
+      "A) (R+h)",
+      "B) (R+h)^(3/2)",
+      "C) sqrt(R+h)",
+      "D) (R+h)\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "T=2\u03c0 sqrt(r\u00b3/GM) \u221d r^(3/2) where r=R+h. This is Kepler's third law applied to satellites."
+  }
+]

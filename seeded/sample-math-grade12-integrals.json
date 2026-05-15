@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The value of ∫ (x² + 1) dx is:",
+    "Options": ["A) x³/3 + x + C", "B) x³/3 + C", "C) x² + x + C", "D) 2x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "Applying the power rule ∫xⁿdx = xⁿ⁺¹/(n+1), we get x³/3 + x + C."
+  },
+  {
+    "QuestionText": "∫ sec²x dx is equal to:",
+    "Options": ["A) tan x + C", "B) -tan x + C", "C) cot x + C", "D) sec x tan x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "The derivative of tan x is sec²x, so the integral of sec²x is tan x + C."
+  },
+  {
+    "QuestionText": "Evaluate ∫ (2x / (x² + 1)) dx.",
+    "Options": ["A) log|x² + 1| + C", "B) 2 log|x² + 1| + C", "C) tan⁻¹x + C", "D) x² + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Substitution",
+    "Difficulty": "Foundation",
+    "Explanation": "Let t = x² + 1, then dt = 2x dx. The integral becomes ∫(1/t)dt = log|t| + C."
+  },
+  {
+    "QuestionText": "∫ eˣ dx is:",
+    "Options": ["A) eˣ + C", "B) eˣ/x + C", "C) x eˣ + C", "D) eˣ⁺¹ + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "The exponential function eˣ is its own integral and derivative."
+  },
+  {
+    "QuestionText": "The value of ∫ sin 2x dx is:",
+    "Options": ["A) -1/2 cos 2x + C", "B) 1/2 cos 2x + C", "C) -cos 2x + C", "D) 2 cos 2x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "∫ sin(ax) dx = -1/a cos(ax) + C. Here a = 2."
+  },
+  {
+    "QuestionText": "∫ (1 / √(1 - x²)) dx is equal to:",
+    "Options": ["A) sin⁻¹x + C", "B) cos⁻¹x + C", "C) tan⁻¹x + C", "D) sec⁻¹x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard formula for the integral resulting in the inverse sine function."
+  },
+  {
+    "QuestionText": "Evaluate ∫ tan x dx.",
+    "Options": ["A) log|sec x| + C", "B) log|sin x| + C", "C) -log|sec x| + C", "D) sec²x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Substitution",
+    "Difficulty": "Advanced",
+    "Explanation": "Rewrite tan x as sin x / cos x and use substitution t = cos x."
+  },
+  {
+    "QuestionText": "The value of definite integral ∫ from 0 to 1 (x) dx is:",
+    "Options": ["A) 1", "B) 1/2", "C) 2", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "[x²/2] evaluated from 0 to 1 gives 1/2 - 0 = 1/2."
+  },
+  {
+    "QuestionText": "∫ from 0 to π/2 (sin x) dx is:",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) π/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "[-cos x] from 0 to π/2 = -cos(π/2) - (-cos 0) = 0 + 1 = 1."
+  },
+  {
+    "QuestionText": "The property ∫ from a to b f(x) dx = ∫ from a to b f(a+b-x) dx is known as:",
+    "Options": ["A) King's Property", "B) Queen's Property", "C) Identity Property", "D) Addition Property"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "This is one of the most useful properties for solving symmetric definite integrals."
+  },
+  {
+    "QuestionText": "Evaluate ∫ x eˣ dx.",
+    "Options": ["A) eˣ(x - 1) + C", "B) eˣ(x + 1) + C", "C) x eˣ + C", "D) eˣ + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Parts",
+    "Difficulty": "Advanced",
+    "Explanation": "Using ILATE rule, let u = x and dv = eˣ dx. Integral is uv - ∫vdu."
+  },
+  {
+    "QuestionText": "∫ (dx / (x² + a²)) is:",
+    "Options": ["A) (1/a) tan⁻¹(x/a) + C", "B) tan⁻¹(x/a) + C", "C) (1/a) sin⁻¹(x/a) + C", "D) log|x² + a²| + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard integral form for inverse tangent functions."
+  },
+  {
+    "QuestionText": "∫ from -a to a f(x) dx = 0 if f(x) is:",
+    "Options": ["A) An even function", "B) An odd function", "C) A periodic function", "D) A constant function"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "For an odd function f(-x) = -f(x), the area from -a to 0 cancels the area from 0 to a."
+  },
+  {
+    "QuestionText": "The value of ∫ from 0 to π/2 (sin x / (sin x + cos x)) dx is:",
+    "Options": ["A) π/2", "B) π/4", "C) π", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Applying King's property and adding the two integrals results in ∫ 1 dx from 0 to π/2, then divide by 2."
+  },
+  {
+    "QuestionText": "∫ (dx / (x² - a²)) is:",
+    "Options": ["A) (1/2a) log|(x-a)/(x+a)| + C", "B) (1/2a) log|(x+a)/(x-a)| + C", "C) (1/a) tan⁻¹(x/a) + C", "D) log|x² - a²| + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard result derived using partial fractions: 1/(x²-a²) = [1/(x-a) - 1/(x+a)] / 2a."
+  },
+  {
+    "QuestionText": "Evaluate ∫ log x dx.",
+    "Options": ["A) x log x - x + C", "B) 1/x + C", "C) x log x + C", "D) x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Parts",
+    "Difficulty": "Advanced",
+    "Explanation": "Take u = log x and dv = 1 dx. Result is x log x - ∫(1/x * x) dx."
+  },
+  {
+    "QuestionText": "∫ eˣ (f(x) + f'(x)) dx is equal to:",
+    "Options": ["A) eˣ f(x) + C", "B) eˣ f'(x) + C", "C) eˣ + f(x) + C", "D) f(x) + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Parts",
+    "Difficulty": "Advanced",
+    "Explanation": "This is a special form of integration by parts where the derivative is present."
+  },
+  {
+    "QuestionText": "The value of ∫ from 0 to π/2 (log tan x) dx is:",
+    "Options": ["A) π/2", "B) 0", "C) 1", "D) π/4"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using King's property, log tan(π/2 - x) = log cot x = -log tan x. Adding gives 2I = 0."
+  },
+  {
+    "QuestionText": "Evaluate ∫ (dx / (sin²x cos²x)).",
+    "Options": ["A) tan x - cot x + C", "B) tan x + cot x + C", "C) sec x + csc x + C", "D) sin x + cos x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Replace 1 in numerator with sin²x + cos²x, then split the fraction."
+  },
+  {
+    "QuestionText": "∫ (dx / √(x² + a²)) is:",
+    "Options": ["A) log|x + √(x² + a²)| + C", "B) sin⁻¹(x/a) + C", "C) tan⁻¹(x/a) + C", "D) (1/a) log|x + a| + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard integral formula for hyperbolic-like square root forms."
+  },
+  {
+    "QuestionText": "The value of ∫ from 2 to 3 (1/x) dx is:",
+    "Options": ["A) log(3/2)", "B) log(2/3)", "C) log 5", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "[log x] from 2 to 3 = log 3 - log 2 = log(3/2)."
+  },
+  {
+    "QuestionText": "∫ from 0 to π |cos x| dx is:",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Split at π/2. ∫cos x from 0 to π/2 is 1. ∫-cos x from π/2 to π is 1. Sum is 2."
+  },
+  {
+    "QuestionText": "If ∫ from 0 to a f(x) dx = ∫ from 0 to a f(a - x) dx, evaluate ∫ from 0 to π (x sin x / (1 + cos²x)) dx.",
+    "Options": ["A) π²/2", "B) π²/4", "C) π/4", "D) π/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Apply property to get rid of x in numerator, then use substitution u = cos x."
+  },
+  {
+    "QuestionText": "Evaluate ∫ (sin⁻¹x / √(1 - x²)) dx.",
+    "Options": ["A) (sin⁻¹x)²/2 + C", "B) sin⁻¹x + C", "C) cos⁻¹x + C", "D) 1/2 (sin⁻¹x) + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Substitution",
+    "Difficulty": "Advanced",
+    "Explanation": "Let u = sin⁻¹x, then du = 1/√(1-x²) dx. Integral is ∫u du = u²/2 + C."
+  },
+  {
+    "QuestionText": "∫ (x / ((x+1)(x+2))) dx can be solved using:",
+    "Options": ["A) Partial Fractions", "B) Substitution", "C) Integration by Parts", "D) Limit of Sum"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration using Partial Fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "The integrand is a proper rational function with linear factors in the denominator."
+  },
+  {
+    "QuestionText": "The integral ∫ from 0 to ∞ (e⁻ˣ) dx is:",
+    "Options": ["A) 1", "B) 0", "C) ∞", "D) -1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "[-e⁻ˣ] from 0 to ∞ = 0 - (-1) = 1."
+  },
+  {
+    "QuestionText": "Evaluate ∫ (1 / (1 + cos x)) dx.",
+    "Options": ["A) tan(x/2) + C", "B) cot(x/2) + C", "C) tan x + C", "D) 1/2 tan(x/2) + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Use identity 1 + cos x = 2 cos²(x/2). Integral becomes 1/2 ∫ sec²(x/2) dx."
+  },
+  {
+    "QuestionText": "∫ tan²x dx is:",
+    "Options": ["A) tan x - x + C", "B) tan x + x + C", "C) sec²x + C", "D) sec x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "tan²x = sec²x - 1. Integrating sec²x gives tan x and integrating 1 gives x."
+  },
+  {
+    "QuestionText": "The value of ∫ from 0 to 2π (sin x) dx is:",
+    "Options": ["A) 0", "B) 2", "C) 4", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "The area above the x-axis for sin x from 0 to π cancels the area below from π to 2π."
+  },
+  {
+    "QuestionText": "∫ (dx / (sin x + cos x)) is often solved by:",
+    "Options": ["A) Multiplying by √2", "B) Substitution t = tan(x/2)", "C) Partial fractions", "D) Both A and B"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard methods for linear combinations of sin and cos."
+  },
+  {
+    "QuestionText": "Evaluate ∫ x sin x dx.",
+    "Options": ["A) -x cos x + sin x + C", "B) x cos x - sin x + C", "C) x sin x + cos x + C", "D) -x sin x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Parts",
+    "Difficulty": "Advanced",
+    "Explanation": "u = x, dv = sin x dx. Result is -x cos x - ∫(-cos x) dx."
+  },
+  {
+    "QuestionText": "∫ dx / (1 + x²) from 0 to 1 is:",
+    "Options": ["A) π/4", "B) π/2", "C) 1", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "[tan⁻¹x] from 0 to 1 = tan⁻¹(1) - tan⁻¹(0) = π/4."
+  },
+  {
+    "QuestionText": "The value of ∫ from 0 to π/2 (sinⁿx / (sinⁿx + cosⁿx)) dx is always:",
+    "Options": ["A) π/4", "B) π/2", "C) 0", "D) π/n"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Olympiad",
+    "Explanation": "By applying King's property, the integral value is independent of n."
+  },
+  {
+    "QuestionText": "Evaluate ∫ eˣ (1/x - 1/x²) dx.",
+    "Options": ["A) eˣ/x + C", "B) -eˣ/x² + C", "C) eˣ log x + C", "D) x eˣ + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Parts",
+    "Difficulty": "Advanced",
+    "Explanation": "Matches the form ∫eˣ(f+f')dx where f(x) = 1/x."
+  },
+  {
+    "QuestionText": "∫ from -1 to 1 (x³ + sin x) dx is:",
+    "Options": ["A) 0", "B) 2", "C) 1", "D) π"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Both x³ and sin x are odd functions, so their integral over a symmetric interval is zero."
+  },
+  {
+    "QuestionText": "The value of ∫ (dx / (x log x)) is:",
+    "Options": ["A) log|log x| + C", "B) (log x)²/2 + C", "C) log x + C", "D) 1/x² + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Substitution",
+    "Difficulty": "Advanced",
+    "Explanation": "Let u = log x, then du = 1/x dx. Integral becomes ∫(1/u)du."
+  },
+  {
+    "QuestionText": "Evaluate ∫ dx / √(a² - x²).",
+    "Options": ["A) sin⁻¹(x/a) + C", "B) cos⁻¹(x/a) + C", "C) (1/a) sin⁻¹(x/a) + C", "D) log|x + a| + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard integral result for the arcsine function."
+  },
+  {
+    "QuestionText": "The definite integral ∫ from 0 to π/4 (tan x) dx is:",
+    "Options": ["A) 1/2 log 2", "B) log 2", "C) π/4", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "[log|sec x|] from 0 to π/4 = log|sec(π/4)| - log 1 = log √2 = 1/2 log 2."
+  },
+  {
+    "QuestionText": "∫ (2x + 3)⁵ dx is:",
+    "Options": ["A) (2x + 3)⁶ / 12 + C", "B) (2x + 3)⁶ / 6 + C", "C) (2x + 3)⁶ + C", "D) 10(2x + 3)⁴ + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Substitution",
+    "Difficulty": "Foundation",
+    "Explanation": "Use substitution u = 2x+3. Result is u⁶ / (6 * 2) + C."
+  },
+  {
+    "QuestionText": "∫ from 1 to 2 (x²) dx is:",
+    "Options": ["A) 7/3", "B) 8/3", "C) 1/3", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "[x³/3] from 1 to 2 = 8/3 - 1/3 = 7/3."
+  },
+  {
+    "QuestionText": "Evaluate ∫ x √(x-1) dx.",
+    "Options": ["A) 2/5 (x-1)^(5/2) + 2/3 (x-1)^(3/2) + C", "B) 2/5 x^(5/2) + C", "C) (x-1)^(3/2) + C", "D) 2/3 (x-1)^(3/2) + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Substitution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let u = x-1, then x = u+1. Integral is ∫(u+1)u^(1/2) du."
+  },
+  {
+    "QuestionText": "∫ (dx / (x² + 2x + 2)) is:",
+    "Options": ["A) tan⁻¹(x+1) + C", "B) tan⁻¹x + 1 + C", "C) log|x² + 2x + 2| + C", "D) sin⁻¹(x+1) + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Complete the square in denominator: (x+1)² + 1. Then use tan⁻¹ formula."
+  },
+  {
+    "QuestionText": "∫ from 0 to 1 (eˣ) dx is:",
+    "Options": ["A) e - 1", "B) e", "C) 1", "D) e + 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "[eˣ] from 0 to 1 = e¹ - e⁰ = e - 1."
+  },
+  {
+    "QuestionText": "The value of ∫ sin³x dx is:",
+    "Options": ["A) 1/3 cos³x - cos x + C", "B) -1/3 sin³x + C", "C) cos³x + C", "D) -cos x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Rewrite sin³x as sin x (1 - cos²x) and use substitution u = cos x."
+  },
+  {
+    "QuestionText": "Evaluate ∫ (log x)² dx.",
+    "Options": ["A) x(log x)² - 2x log x + 2x + C", "B) (log x)³ / 3 + C", "C) 2 log x / x + C", "D) x(log x)² + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Parts",
+    "Difficulty": "Olympiad",
+    "Explanation": "Use parts twice with u = (log x)² and then with u = log x."
+  },
+  {
+    "QuestionText": "∫ from -π/2 to π/2 (cos x) dx is:",
+    "Options": ["A) 2", "B) 0", "C) 1", "D) π"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Properties of Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "Since cos x is even, the integral is 2 * ∫cos x from 0 to π/2 = 2 * 1 = 2."
+  },
+  {
+    "QuestionText": "∫ sec x dx is:",
+    "Options": ["A) log|sec x + tan x| + C", "B) log|sec x| + C", "C) tan x + C", "D) sec x tan x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Indefinite Integrals",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard formula obtained by multiplying numerator and denominator by (sec x + tan x)."
+  },
+  {
+    "QuestionText": "Evaluate ∫ x² log x dx.",
+    "Options": ["A) x³/3 log x - x³/9 + C", "B) x³/3 log x + C", "C) x²/2 log x - x²/4 + C", "D) log x / x + C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Integration by Parts",
+    "Difficulty": "Advanced",
+    "Explanation": "Using ILATE, u = log x, dv = x² dx. UV - ∫VDU = (x³/3)log x - ∫(x³/3 * 1/x)dx."
+  },
+  {
+    "QuestionText": "∫ from 0 to 1 (dx / √(1-x²)) is:",
+    "Options": ["A) π/2", "B) π/4", "C) 1", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Foundation",
+    "Explanation": "[sin⁻¹x] from 0 to 1 = sin⁻¹ 1 - 0 = π/2."
+  },
+  {
+    "QuestionText": "The integral of f(x) = [x] from 0 to 2 is:",
+    "Options": ["A) 1", "B) 2", "C) 1.5", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Integrals",
+    "SubTopic": "Definite Integrals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Area under greatest integer function: from 0 to 1 it is 0, from 1 to 2 it is 1. Total area = 0 + 1 = 1."
+  }
+]

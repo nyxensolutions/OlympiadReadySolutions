@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "In triangle ABC, D and E are points on the sides AB and AC respectively such that DE || BC. If AD = 6 cm, DB = 9 cm and AE = 8 cm, then AC is:",
+    "Options": ["A) 12 cm", "B) 20 cm", "C) 15 cm", "D) 10 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "By BPT, AD/DB = AE/EC. 6/9 = 8/EC => EC = (9*8)/6 = 12 cm. AC = AE + EC = 8 + 12 = 20 cm."
+  },
+  {
+    "QuestionText": "If in two triangles ABC and PQR, AB/QR = BC/RP = CA/PQ, then:",
+    "Options": ["A) ΔPQR ~ ΔCAB", "B) ΔPQR ~ ΔABC", "C) ΔCBA ~ ΔPQR", "D) ΔBCA ~ ΔPQR"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Advanced",
+    "Explanation": "Matching corresponding sides: AB corresponds to QR, BC to RP, and CA to PQ. This corresponds to the vertices order PQR ~ CAB."
+  },
+  {
+    "QuestionText": "The areas of two similar triangles are in the ratio 25:64. The ratio of their corresponding sides is:",
+    "Options": ["A) 25:64", "B) 64:25", "C) 5:8", "D) 8:5"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides. So, side ratio = √(25/64) = 5/8."
+  },
+  {
+    "QuestionText": "In ΔABC, if DE || BC, AD = x, DB = x-2, AE = x+2 and EC = x-1, then the value of x is:",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 3.5"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "x/(x-2) = (x+2)/(x-1) => x(x-1) = (x-2)(x+2) => x² - x = x² - 4 => -x = -4 => x = 4."
+  },
+  {
+    "QuestionText": "A vertical pole of length 6 m casts a shadow 4 m long on the ground and at the same time a tower casts a shadow 28 m long. The height of the tower is:",
+    "Options": ["A) 40 m", "B) 42 m", "C) 38 m", "D) 44 m"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Advanced",
+    "Explanation": "Triangles formed by objects and their shadows are similar. 6/4 = h/28 => h = (6 * 28) / 4 = 42 m."
+  },
+  {
+    "QuestionText": "It is given that ΔABC ~ ΔDFE, ∠A = 30°, ∠C = 50°, AB = 5 cm, AC = 8 cm and DF = 7.5 cm. Then, which of the following is true?",
+    "Options": ["A) DE = 12 cm, ∠F = 50°", "B) DE = 12 cm, ∠F = 100°", "C) EF = 12 cm, ∠D = 100°", "D) EF = 12 cm, ∠D = 30°"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Olympiad",
+    "Explanation": "∠B = 180 - (30+50) = 100°. Corresponding angles: ∠D=∠A=30°, ∠F=∠B=100°, ∠E=∠C=50°. Ratio AB/DF = 5/7.5 = 2/3. AC/DE = 2/3 => 8/DE = 2/3 => DE = 12 cm."
+  },
+  {
+    "QuestionText": "If in triangles ABC and DEF, ∠A = ∠E, ∠B = ∠F, then:",
+    "Options": ["A) AB/DE = BC/DF", "B) AB/EF = AC/DE", "C) BC/EF = AC/DF", "D) BC/DE = AB/FE"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Advanced",
+    "Explanation": "By AA similarity, ΔABC ~ ΔEFD. Thus AB/EF = BC/FD = AC/ED."
+  },
+  {
+    "QuestionText": "The ratio of the areas of two similar triangles is equal to the ratio of:",
+    "Options": ["A) Their corresponding sides", "B) The squares of their corresponding sides", "C) The cubes of their corresponding sides", "D) Their corresponding perimeters"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard theorem: Area(1)/Area(2) = (Side1/Side2)²."
+  },
+  {
+    "QuestionText": "D, E, F are the midpoints of sides BC, CA and AB of ΔABC. The ratio of the area of ΔDEF and ΔABC is:",
+    "Options": ["A) 1:2", "B) 1:4", "C) 2:3", "D) 4:5"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "ΔDEF is similar to ΔABC with side ratio 1:2. Area ratio is (1/2)² = 1:4."
+  },
+  {
+    "QuestionText": "In an equilateral triangle ABC, if AD ⊥ BC, then AD² is equal to:",
+    "Options": ["A) 3/4 BC²", "B) 2 BC²", "C) 3 BC²", "D) 4 BC²"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "In ΔABD, AB² = AD² + BD². a² = AD² + (a/2)² => AD² = a² - a²/4 = 3/4 a² = 3/4 BC²."
+  },
+  {
+    "QuestionText": "If ΔABC ~ ΔPQR, perimeter of ΔABC = 32 cm, perimeter of ΔPQR = 48 cm and PR = 6 cm, then length of AC is:",
+    "Options": ["A) 9 cm", "B) 4 cm", "C) 8 cm", "D) 18 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Ratio of perimeters = Ratio of corresponding sides. 32/48 = AC/PR => 2/3 = AC/6 => AC = 4 cm."
+  },
+  {
+    "QuestionText": "A line drawn parallel to one side of a triangle divides the other two sides in the same ratio. This is known as:",
+    "Options": ["A) Pythagoras Theorem", "B) Thales Theorem", "C) Midpoint Theorem", "D) Converse of BPT"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "Also called the Basic Proportionality Theorem (BPT)."
+  },
+  {
+    "QuestionText": "If ΔABC ~ ΔQRP, Area(ΔABC)/Area(ΔPQR) = 9/4, AB = 18 cm and BC = 15 cm, then PR is equal to:",
+    "Options": ["A) 10 cm", "B) 12 cm", "C) 20/3 cm", "D) 8 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Area ratio = (BC/RP)². 9/4 = (15/RP)² => 3/2 = 15/RP => RP = (15*2)/3 = 10 cm."
+  },
+  {
+    "QuestionText": "All ________ triangles are similar.",
+    "Options": ["A) Isosceles", "B) Equilateral", "C) Right", "D) Scalene"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Foundation",
+    "Explanation": "All equilateral triangles have angles of 60°, so they are always similar by AAA criteria."
+  },
+  {
+    "QuestionText": "In ΔABC, AB = 6√3 cm, AC = 12 cm and BC = 6 cm. The angle B is:",
+    "Options": ["A) 120°", "B) 60°", "C) 90°", "D) 45°"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "AB² + BC² = (6√3)² + 6² = 108 + 36 = 144. AC² = 12² = 144. Since AB²+BC²=AC², ∠B=90°."
+  },
+  {
+    "QuestionText": "If SSS criterion is used for similarity, it means the ________ are proportional.",
+    "Options": ["A) Angles", "B) Sides", "C) Areas", "D) Medians"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Foundation",
+    "Explanation": "SSS stands for Side-Side-Side proportionality."
+  },
+  {
+    "QuestionText": "Corresponding ________ of similar triangles are in the same ratio as their corresponding sides.",
+    "Options": ["A) Altitudes", "B) Medians", "C) Angle bisectors", "D) All of the above"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Every linear dimension (altitudes, medians, perimeters) of similar triangles follows the same side ratio."
+  },
+  {
+    "QuestionText": "In triangle ABC, ∠A = 90° and AD ⊥ BC. Then, AD² is:",
+    "Options": ["A) BD * CD", "B) AB * AC", "C) BC * AD", "D) AB² + AC²"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Olympiad",
+    "Explanation": "In a right triangle, the altitude to the hypotenuse divides the triangle into two similar triangles. ΔABD ~ ΔCAD => AD/CD = BD/AD => AD² = BD * CD."
+  },
+  {
+    "QuestionText": "The area of an isosceles right triangle with hypotenuse 8 cm is:",
+    "Options": ["A) 32 cm²", "B) 16 cm²", "C) 64 cm²", "D) 8 cm²"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "2x² = 8² => 2x² = 64 => x² = 32. Area = 1/2 * x * x = 1/2 * 32 = 16 cm²."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a criterion for similarity of triangles?",
+    "Options": ["A) AAA", "B) SAS", "C) SSS", "D) RHS"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Advanced",
+    "Explanation": "RHS is a congruence criterion. AAA, SAS, and SSS are similarity criteria."
+  },
+  {
+    "QuestionText": "If the corresponding angles of two triangles are equal, then they are:",
+    "Options": ["A) Congruent", "B) Similar", "C) Equal in area", "D) Isosceles"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the AAA (Angle-Angle-Angle) similarity criterion."
+  },
+  {
+    "QuestionText": "The sides of two similar triangles are in the ratio 4:9. Areas of these triangles are in the ratio:",
+    "Options": ["A) 2:3", "B) 4:9", "C) 81:16", "D) 16:81"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Area ratio = (Side ratio)² = (4/9)² = 16/81."
+  },
+  {
+    "QuestionText": "Diagonals of a trapezium ABCD with AB || DC intersect each other at O. If AB = 2CD, then Ratio of Area(ΔAOB) to Area(ΔCOD) is:",
+    "Options": ["A) 1:2", "B) 2:1", "C) 4:1", "D) 1:4"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "ΔAOB ~ ΔCOD (AA criteria). Side ratio AB/CD = 2/1. Area ratio = (2/1)² = 4:1."
+  },
+  {
+    "QuestionText": "Two polygons of the same number of sides are similar if their corresponding angles are equal and their corresponding sides are:",
+    "Options": ["A) Equal", "B) Proportional", "C) Parallel", "D) Perpendicular"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basics of Similarity",
+    "Difficulty": "Foundation",
+    "Explanation": "The definition of similar figures requires equal angles and proportional sides."
+  },
+  {
+    "QuestionText": "In triangle PQR, ST || QR. If PS = 1 cm, SQ = 2 cm, then Area(ΔPST) : Area(ΔPQR) is:",
+    "Options": ["A) 1:4", "B) 1:9", "C) 1:2", "D) 1:3"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "ΔPST ~ ΔPQR. Side ratio PS/PQ = 1/(1+2) = 1/3. Area ratio = (1/3)² = 1:9."
+  },
+  {
+    "QuestionText": "The lengths of the diagonals of a rhombus are 16 cm and 12 cm. The side of the rhombus is:",
+    "Options": ["A) 9 cm", "B) 10 cm", "C) 8 cm", "D) 20 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "Rhombus diagonals bisect at 90°. Half lengths are 8 and 6. Side² = 8² + 6² = 100 => Side = 10 cm."
+  },
+  {
+    "QuestionText": "If ΔABC ~ ΔEDF and ΔABC is not similar to ΔDEF, then which of the following is NOT true?",
+    "Options": ["A) BC * EF = AC * FD", "B) AB * EF = AC * DE", "C) BC * DE = AB * EF", "D) BC * DF = AC * EF"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Olympiad",
+    "Explanation": "From ΔABC ~ ΔEDF, AB/ED = BC/DF = AC/EF. Thus AB*DF=BC*ED, AB*EF=AC*ED, and BC*EF=AC*DF. Option C (BC*DE = AB*EF) is false."
+  },
+  {
+    "QuestionText": "If ΔABC and ΔDEF are similar and their areas are 64 cm² and 121 cm² respectively. If EF = 15.4 cm, then BC is:",
+    "Options": ["A) 11.2 cm", "B) 12.1 cm", "C) 11 cm", "D) 15 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "√(64/121) = BC/15.4 => 8/11 = BC/15.4 => BC = (8 * 15.4)/11 = 11.2 cm."
+  },
+  {
+    "QuestionText": "Triangle ABC is such that AB = 3 cm, BC = 2 cm, CA = 2.5 cm. If ΔABC ~ ΔDEF and EF = 4 cm, then perimeter of ΔDEF is:",
+    "Options": ["A) 7.5 cm", "B) 15 cm", "C) 22.5 cm", "D) 30 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Perimeter(ABC) = 7.5. BC/EF = 2/4 = 1/2. Perimeter(DEF) = 2 * Perimeter(ABC) = 15 cm."
+  },
+  {
+    "QuestionText": "Thales belonged to which country?",
+    "Options": ["A) India", "B) Egypt", "C) Greece", "D) Rome"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "Thales of Miletus was a famous Greek mathematician."
+  },
+  {
+    "QuestionText": "A line DE is drawn parallel to base BC of ΔABC, meeting AB in D and AC in E. If AB = 4AD, then AE : AC is:",
+    "Options": ["A) 4:1", "B) 1:4", "C) 1:3", "D) 3:1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "By BPT corollaries, AD/AB = AE/AC. If AB = 4AD, then AD/AB = 1/4. So AE/AC = 1/4."
+  },
+  {
+    "QuestionText": "If ΔABC ~ ΔPQR and AM and PN are medians, then Area(ABC)/Area(PQR) is equal to:",
+    "Options": ["A) AM/PN", "B) (AM/PN)²", "C) BC/QR", "D) AB/PQ"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Area ratio is the square of the ratio of medians, just like sides."
+  },
+  {
+    "QuestionText": "In ΔABC, ∠B = 90° and BD ⊥ AC. If AC = 9 cm and AD = 3 cm, then BD is:",
+    "Options": ["A) 3√2 cm", "B) 2√3 cm", "C) 3 cm", "D) 3.5 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Olympiad",
+    "Explanation": "CD = AC - AD = 6 cm. BD² = AD * CD = 3 * 6 = 18 => BD = √18 = 3√2 cm."
+  },
+  {
+    "QuestionText": "If ΔABC is an equilateral triangle and AD is altitude, then 4 AD² = :",
+    "Options": ["A) 3 AB²", "B) 2 AB²", "C) AB²", "D) 4 AB²"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "AD² = 3/4 AB² => 4 AD² = 3 AB²."
+  },
+  {
+    "QuestionText": "Corresponding sides of two similar triangles are in the ratio 2:3. If the area of the smaller triangle is 48 cm², then the area of the larger triangle is:",
+    "Options": ["A) 72 cm²", "B) 108 cm²", "C) 100 cm²", "D) 96 cm²"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "48/Area2 = (2/3)² = 4/9 => Area2 = (48 * 9)/4 = 108 cm²."
+  },
+  {
+    "QuestionText": "An internal bisector of an angle of a triangle divides the opposite side in the ratio of the sides containing the angle. This is:",
+    "Options": ["A) BPT", "B) Angle Bisector Theorem", "C) Pythagoras Theorem", "D) Similarity criterion"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Though not explicitly named in all textbooks, it's a standard property derived from BPT."
+  },
+  {
+    "QuestionText": "In ΔABC, if ∠A = ∠D, ∠B = ∠E and AB/DE = 1/2, then the triangles are:",
+    "Options": ["A) Similar but not congruent", "B) Congruent but not similar", "C) Both similar and congruent", "D) Neither similar nor congruent"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Foundation",
+    "Explanation": "AAA ensures similarity. Since side ratio is 1:2 (not 1:1), they are not congruent."
+  },
+  {
+    "QuestionText": "In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides. This is:",
+    "Options": ["A) Thales Theorem", "B) Pythagoras Theorem", "C) Midpoint Theorem", "D) Angle Bisector Theorem"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "Fundamental theorem for right-angled triangles."
+  },
+  {
+    "QuestionText": "If ΔABC ~ ΔPQR and Area(ABC)/Area(PQR) = 1/4, then the ratio of their altitudes is:",
+    "Options": ["A) 1:4", "B) 1:2", "C) 1:16", "D) 2:1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Altitude ratio = √(Area ratio) = √1/4 = 1/2."
+  },
+  {
+    "QuestionText": "How many similar triangles are formed by the altitude drawn to the hypotenuse of a right triangle?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Criteria for Similarity",
+    "Difficulty": "Advanced",
+    "Explanation": "Three: The two small triangles formed, and the original large triangle (all are similar to each other)."
+  },
+  {
+    "QuestionText": "In ΔABC, XY || BC. If AX = 1 cm, XB = 3 cm, BC = 6 cm, then XY is:",
+    "Options": ["A) 1.5 cm", "B) 2 cm", "C) 1 cm", "D) 3 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "ΔAXY ~ ΔABC. AX/AB = XY/BC. 1/(1+3) = XY/6 => 1/4 = XY/6 => XY = 1.5 cm."
+  },
+  {
+    "QuestionText": "If a triangle has sides 3 cm, 4 cm, 5 cm, it is a:",
+    "Options": ["A) Right triangle", "B) Acute triangle", "C) Obtuse triangle", "D) Equilateral triangle"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "3² + 4² = 9 + 16 = 25 = 5². Satisfies Pythagoras theorem."
+  },
+  {
+    "QuestionText": "In ΔABC ~ ΔPQR, if AB = 4, PQ = 6 and Area(ABC) = 16, then Area(PQR) is:",
+    "Options": ["A) 24", "B) 36", "C) 64", "D) 54"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "16/Area2 = (4/6)² = 16/36 => Area2 = 36."
+  },
+  {
+    "QuestionText": "Two vertical poles of height 9 m and 14 m stand on a plane ground. If the distance between their feet is 12 m, find the distance between their tops.",
+    "Options": ["A) 13 m", "B) 15 m", "C) 17 m", "D) 20 m"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "Form a right triangle with base 12 and height (14-9)=5. Dist² = 12² + 5² = 144 + 25 = 169. Dist = 13 m."
+  },
+  {
+    "QuestionText": "If Area(ΔABC) = 9 cm² and Area(ΔPQR) = 16 cm² and they are similar, then AB/PQ is:",
+    "Options": ["A) 9/16", "B) 16/9", "C) 3/4", "D) 4/3"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Side ratio = √(Area ratio) = √9/16 = 3/4."
+  },
+  {
+    "QuestionText": "ΔABC ~ ΔDEF and Area(ABC) = 4 * Area(DEF). If BC = 12 cm, find EF.",
+    "Options": ["A) 6 cm", "B) 3 cm", "C) 24 cm", "D) 48 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Properties of Similar Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Area ratio = 4/1 => Side ratio = 2/1. 12/EF = 2 => EF = 6 cm."
+  },
+  {
+    "QuestionText": "Median of a triangle divides it into two triangles of:",
+    "Options": ["A) Equal area", "B) Same shape", "C) Proportional sides", "D) Equal perimeter"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basics of Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a basic property of medians."
+  },
+  {
+    "QuestionText": "If side of a square is 'a', its diagonal is:",
+    "Options": ["A) a√2", "B) 2a", "C) a/2", "D) a²"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Pythagoras Theorem Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "Diag² = a² + a² = 2a² => Diag = a√2."
+  },
+  {
+    "QuestionText": "In triangle ABC, AD is the bisector of ∠A. If AB = 10, AC = 14, BC = 6, find BD.",
+    "Options": ["A) 2.5", "B) 3.5", "C) 2.4", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basic Proportionality Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "BD/DC = AB/AC = 10/14 = 5/7. BD = 5/12 * 6 = 2.5."
+  },
+  {
+    "QuestionText": "Similar triangles have the same shape but not necessarily the same:",
+    "Options": ["A) Angles", "B) Sides", "C) Size", "D) Proportion"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Triangles",
+    "SubTopic": "Basics of Similarity",
+    "Difficulty": "Foundation",
+    "Explanation": "Similarity implies same shape (angles); same size is reserved for congruence."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Two point charges q₁ and q₂ are placed at a distance r. If the distance is doubled, the force between them becomes:",
+    "Options": ["A) 2F", "B) F/2", "C) 4F", "D) F/4"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "According to Coulomb's Law, force is inversely proportional to the square of distance (F ∝ 1/r²)."
+  },
+  {
+    "QuestionText": "The electric flux through a closed surface containing a net charge 'q' is given by:",
+    "Options": ["A) q/ε₀", "B) ε₀/q", "C) qε₀", "D) q²/ε₀"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Gauss's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Gauss's Law states that the total electric flux out of a closed surface is equal to the charge enclosed divided by the permittivity."
+  },
+  {
+    "QuestionText": "A parallel plate capacitor is charged and then the battery is disconnected. If the distance between plates is increased, the energy stored:",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains same", "D) Becomes zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitors",
+    "Difficulty": "Advanced",
+    "Explanation": "Charge Q remains constant; since C = ε₀A/d, increasing d decreases C. Energy U = Q²/2C increases as C decreases."
+  },
+  {
+    "QuestionText": "Three capacitors of capacitance 3μF each are connected in series. The equivalent capacitance is:",
+    "Options": ["A) 9μF", "B) 1μF", "C) 3μF", "D) 1.5μF"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Foundation",
+    "Explanation": "In series, 1/Cs = 1/C₁ + 1/C₂ + 1/C₃. Here, 1/3 + 1/3 + 1/3 = 1, so Cs = 1μF."
+  },
+  {
+    "QuestionText": "The electric potential at a point on the axial line of a dipole varies with distance 'r' as:",
+    "Options": ["A) 1/r", "B) 1/r²", "C) 1/r³", "D) r"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Potential",
+    "Difficulty": "Advanced",
+    "Explanation": "For an electric dipole, the potential V at a distant point follows a 1/r² relationship, unlike a single point charge."
+  },
+  {
+    "QuestionText": "If the electric field is uniform, the equipotential surfaces are:",
+    "Options": ["A) Spheres", "B) Planes perpendicular to the field", "C) Concentric cylinders", "D) Parabolic surfaces"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Equipotential Surfaces",
+    "Difficulty": "Advanced",
+    "Explanation": "Equipotential surfaces are always perpendicular to the electric field lines."
+  },
+  {
+    "QuestionText": "In a non-uniform electric field, an electric dipole experiences:",
+    "Options": ["A) Torque only", "B) Net force only", "C) Both torque and net force", "D) Neither force nor torque"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Dipole",
+    "Difficulty": "Olympiad",
+    "Explanation": "The varying field strength at the two ends of the dipole leads to a net translational force in addition to rotational torque."
+  },
+  {
+    "QuestionText": "The dielectric constant of a metal is:",
+    "Options": ["A) 0", "B) 1", "C) Infinity", "D) -1"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dielectrics",
+    "Difficulty": "Foundation",
+    "Explanation": "Metals are perfect conductors; their internal electric field is zero, leading to an infinite dielectric constant."
+  },
+  {
+    "QuestionText": "Two charges +Q and -Q are placed at a certain distance. At the midpoint between them:",
+    "Options": ["A) E = 0, V = 0", "B) E ≠ 0, V = 0", "C) E = 0, V ≠ 0", "D) E ≠ 0, V ≠ 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Field and Potential",
+    "Difficulty": "Advanced",
+    "Explanation": "Potential is scalar (V - V = 0), but electric field vectors point in the same direction and add up."
+  },
+  {
+    "QuestionText": "What is the work done in moving a 2C charge through a potential difference of 5V?",
+    "Options": ["A) 2.5 J", "B) 10 J", "C) 7 J", "D) 0.4 J"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Work W = qV. Therefore, 2C * 5V = 10 Joules."
+  },
+  {
+    "QuestionText": "A soap bubble is given a negative charge. Its radius will:",
+    "Options": ["A) Increase", "B) Decrease", "C) Remain unchanged", "D) Fluctuate"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Due to mutual repulsion between the same type of charges distributed on its surface, the bubble expands."
+  },
+  {
+    "QuestionText": "The SI unit of electric dipole moment is:",
+    "Options": ["A) C-m", "B) C/m", "C) C-m²", "D) N/C"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Dipole",
+    "Difficulty": "Foundation",
+    "Explanation": "Dipole moment p = q × 2l, where q is charge (Coulomb) and 2l is distance (meter)."
+  },
+  {
+    "QuestionText": "A hollow conducting sphere of radius R is given a charge Q. The electric field at its center is:",
+    "Options": ["A) Q/(4πε₀R²)", "B) Zero", "C) Q/(2πε₀R²)", "D) Infinite"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Gauss's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Inside a hollow conductor, the electric field is always zero because the charge resides entirely on the outer surface."
+  },
+  {
+    "QuestionText": "Which of the following is the unit of electric field intensity?",
+    "Options": ["A) V-m", "B) N/C", "C) C/N", "D) J/C"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Field",
+    "Difficulty": "Foundation",
+    "Explanation": "Electric field intensity is force per unit charge (E = F/q), measured in Newton/Coulomb."
+  },
+  {
+    "QuestionText": "The capacitance of a parallel plate capacitor does NOT depend on:",
+    "Options": ["A) Area of plates", "B) Distance between plates", "C) Material of the plates", "D) Medium between the plates"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Foundation",
+    "Explanation": "Capacitance C = εA/d depends on geometry and the dielectric medium, not the metal used for the plates."
+  },
+  {
+    "QuestionText": "An electron enters a region of uniform electric field perpendicular to the field lines. Its path will be:",
+    "Options": ["A) Straight line", "B) Circular", "C) Parabolic", "D) Elliptical"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Field",
+    "Difficulty": "Advanced",
+    "Explanation": "The constant force in the direction of the field causes the charge to follow a parabolic trajectory, similar to projectile motion."
+  },
+  {
+    "QuestionText": "When a dielectric slab is introduced between the plates of a charged capacitor (disconnected from battery), the potential difference:",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains constant", "D) Becomes zero"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dielectrics",
+    "Difficulty": "Advanced",
+    "Explanation": "Introduction of a dielectric increases capacitance (C' = kC). Since Q = CV is constant, V must decrease."
+  },
+  {
+    "QuestionText": "The torque experienced by a dipole of moment p in a uniform electric field E is maximum when the angle between p and E is:",
+    "Options": ["A) 0°", "B) 45°", "C) 90°", "D) 180°"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Dipole",
+    "Difficulty": "Foundation",
+    "Explanation": "Torque τ = pE sin θ. It is maximum when sin θ = 1, which occurs at θ = 90°."
+  },
+  {
+    "QuestionText": "Two point charges are separated by a distance d in air. If a copper plate is placed between them, the force will:",
+    "Options": ["A) Increase", "B) Decrease", "C) Become zero", "D) Remain unchanged"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Copper is a metal (k = ∞). The force in a medium F_m = F/k; therefore F/∞ = 0."
+  },
+  {
+    "QuestionText": "The work done in rotating a dipole from θ = 0° to θ = 180° in a uniform field E is:",
+    "Options": ["A) pE", "B) 2pE", "C) Zero", "D) -pE"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Dipole",
+    "Difficulty": "Olympiad",
+    "Explanation": "Work W = pE(cos θ₁ - cos θ₂). For 0° to 180°, W = pE(1 - (-1)) = 2pE."
+  },
+  {
+    "QuestionText": "Electric field lines always start from:",
+    "Options": ["A) Positive charge and end at negative", "B) Negative charge and end at positive", "C) Any charge and end at infinity", "D) Infinity and end at infinity"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Field",
+    "Difficulty": "Foundation",
+    "Explanation": "By convention, field lines represent the direction of force on a positive test charge."
+  },
+  {
+    "QuestionText": "If the radius of an equipotential sphere is doubled for a point charge, the potential at the surface becomes:",
+    "Options": ["A) Half", "B) Double", "C) One-fourth", "D) Unchanged"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Potential",
+    "Difficulty": "Foundation",
+    "Explanation": "Potential V = kQ/r. If r is doubled, V becomes V/2."
+  },
+  {
+    "QuestionText": "A metallic sphere is placed in a uniform electric field. The lines of force follow the path:",
+    "Options": ["A) Straight through", "B) Curved around but entering the sphere", "C) Ending on the surface and starting again", "D) Zero lines pass through the interior"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Gauss's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Electric field lines are perpendicular to the surface of a conductor and cannot exist inside it."
+  },
+  {
+    "QuestionText": "The capacitance of a spherical conductor of radius R is proportional to:",
+    "Options": ["A) R", "B) R²", "C) 1/R", "D) 1/R²"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Foundation",
+    "Explanation": "The capacitance of an isolated spherical conductor is C = 4πε₀R."
+  },
+  {
+    "QuestionText": "Quantization of charge implies that:",
+    "Options": ["A) Charge can be any value", "B) Charge exists in integral multiples of 'e'", "C) Total charge is conserved", "D) Like charges repel"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Experimental evidence shows charge is always found as Q = ±ne, where n is an integer."
+  },
+  {
+    "QuestionText": "The electric potential energy of a system of two positive charges increases when they are:",
+    "Options": ["A) Moved further apart", "B) Brought closer together", "C) Rotated", "D) Neutralized"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Potential Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "Work must be done against electrostatic repulsion to bring like charges closer, increasing the potential energy."
+  },
+  {
+    "QuestionText": "Millikan's oil drop experiment established that:",
+    "Options": ["A) Mass is quantized", "B) Electric charge is quantized", "C) Electrons have wave nature", "D) Nucleus is positive"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Millikan found the charge on every drop was a multiple of a basic fundamental unit."
+  },
+  {
+    "QuestionText": "Van de Graaff generator is used for:",
+    "Options": ["A) Measuring current", "B) Producing high voltage", "C) Storing magnetic energy", "D) Measuring potential"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitors",
+    "Difficulty": "Foundation",
+    "Explanation": "It is an electrostatic generator that uses a moving belt to accumulate very high electric potentials on a hollow metal globe."
+  },
+  {
+    "QuestionText": "If the net flux through a Gaussian surface is zero, it can be concluded that:",
+    "Options": ["A) There is no charge inside", "B) The net charge inside is zero", "C) The electric field is zero everywhere", "D) Surface is a conductor"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Gauss's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Zero flux means the sum of positive and negative charges inside is zero, not necessarily that no charges exist."
+  },
+  {
+    "QuestionText": "Which quantity is represented by the area under a Force-Distance graph for two charges?",
+    "Options": ["A) Potential Energy", "B) Work done", "C) Flux", "D) Capacitance"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Potential Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "Work is the integral of Force over Distance (W = ∫F dr)."
+  },
+  {
+    "QuestionText": "The unit of permittivity of free space (ε₀) is:",
+    "Options": ["A) C²N⁻¹m⁻²", "B) Nm²C⁻²", "C) C²Nm²", "D) Farad-meter"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Derived from Coulomb's Law F = (1/4πε₀)(q₁q₂/r²)."
+  },
+  {
+    "QuestionText": "In a parallel plate capacitor, if the area is doubled and distance is halved, the capacitance becomes:",
+    "Options": ["A) Doubled", "B) Four times", "C) Half", "D) Unchanged"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Advanced",
+    "Explanation": "C = ε₀A/d. If A' = 2A and d' = d/2, then C' = ε₀(2A)/(d/2) = 4C."
+  },
+  {
+    "QuestionText": "The electric field intensity at an infinite distance from a point charge is:",
+    "Options": ["A) Zero", "B) Infinite", "C) Constant", "D) kQ"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Field",
+    "Difficulty": "Foundation",
+    "Explanation": "E = kQ/r². As r approach infinity, E approaches zero."
+  },
+  {
+    "QuestionText": "An electric dipole is placed at the center of a sphere. The net flux through the sphere is:",
+    "Options": ["A) q/ε₀", "B) 2q/ε₀", "C) Zero", "D) p/ε₀"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Gauss's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "A dipole consists of +q and -q. The net charge enclosed is zero, so the flux is zero."
+  },
+  {
+    "QuestionText": "A unit positive charge is moved from one point to another on an equipotential surface. The work done is:",
+    "Options": ["A) Positive", "B) Negative", "C) Zero", "D) Maximum"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Equipotential Surfaces",
+    "Difficulty": "Foundation",
+    "Explanation": "Work W = q(V₂ - V₁). On an equipotential surface V₂ = V₁, so W = 0."
+  },
+  {
+    "QuestionText": "Which follows the 1/r³ law for electric field intensity?",
+    "Options": ["A) Point charge", "B) Linear charge", "C) Short dipole", "D) Infinite sheet"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Dipole",
+    "Difficulty": "Olympiad",
+    "Explanation": "While a point charge follows 1/r², a dipole's field drops off faster as 1/r³ at large distances."
+  },
+  {
+    "QuestionText": "A capacitor of 10μF is charged to 100V. The energy stored is:",
+    "Options": ["A) 0.05 J", "B) 0.1 J", "C) 1 J", "D) 10 J"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitors",
+    "Difficulty": "Advanced",
+    "Explanation": "U = 1/2 CV² = 0.5 * 10 * 10⁻⁶ * 100² = 0.5 * 10 * 10⁻⁶ * 10000 = 0.05 J."
+  },
+  {
+    "QuestionText": "The potential at a point due to a charge is 9V. If the charge is doubled and distance is tripled, the potential becomes:",
+    "Options": ["A) 6V", "B) 18V", "C) 3V", "D) 27V"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Potential",
+    "Difficulty": "Olympiad",
+    "Explanation": "V = kQ/r. New V' = k(2Q)/(3r) = 2/3 V = 2/3 * 9 = 6V."
+  },
+  {
+    "QuestionText": "If n identical capacitors are connected in parallel, the net capacitance is:",
+    "Options": ["A) C/n", "B) nC", "C) C", "D) n²C"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Foundation",
+    "Explanation": "In parallel, capacitance adds up: Cp = C + C + ... (n times) = nC."
+  },
+  {
+    "QuestionText": "The dielectric constant of water is about 80. This means the force between two charges in water is:",
+    "Options": ["A) 80 times more than in air", "B) 80 times less than in air", "C) Same as in air", "D) Zero"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Medium force F_m = F_air / k. With k=80, it is 1/80th of the air force."
+  },
+  {
+    "QuestionText": "The electric field inside a conductor placed in an external field is:",
+    "Options": ["A) Sum of external and internal", "B) Equal to external", "C) Zero", "D) Double the external"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Gauss's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Free electrons redistribute until their field perfectly cancels the external field inside the material."
+  },
+  {
+    "QuestionText": "Coulomb's Law is valid for distance as small as:",
+    "Options": ["A) 10⁻¹⁵ m", "B) 10⁻¹⁰ m", "C) 1 mm", "D) Any distance"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Olympiad",
+    "Explanation": "It remains valid down to nuclear dimensions (about 10⁻¹⁵ m), below which nuclear forces dominate."
+  },
+  {
+    "QuestionText": "When two capacitors are connected in series, which quantity remains the same for both?",
+    "Options": ["A) Voltage", "B) Charge", "C) Energy", "D) Capacitance"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Foundation",
+    "Explanation": "In a series circuit, the charge 'Q' flowing from the source must be the same on all plates."
+  },
+  {
+    "QuestionText": "A dipole is placed in a uniform electric field. The net force on it is:",
+    "Options": ["A) pE", "B) -pE", "C) Zero", "D) 2qE"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Dipole",
+    "Difficulty": "Advanced",
+    "Explanation": "Since the field is uniform, +qE and -qE act on the charges, resulting in a net zero translational force."
+  },
+  {
+    "QuestionText": "One microfarad is equal to:",
+    "Options": ["A) 10⁻³ F", "B) 10⁻⁶ F", "C) 10⁻⁹ F", "D) 10⁻¹² F"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Foundation",
+    "Explanation": "Prefix 'micro' (μ) represents one-millionth or 10⁻⁶."
+  },
+  {
+    "QuestionText": "A point charge q is rotated around another point charge Q in a circle of radius r. The work done is:",
+    "Options": ["A) qQ/4πε₀r", "B) qQ/4πε₀r²", "C) Zero", "D) 2πr"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Potential",
+    "Difficulty": "Advanced",
+    "Explanation": "Force is radial and displacement is tangential (angle 90°), or simply, the path is on an equipotential line."
+  },
+  {
+    "QuestionText": "Polarization of a dielectric occurs because of:",
+    "Options": ["A) Flow of electrons", "B) Alignment of molecular dipoles", "C) Heating of the material", "D) Loss of charge"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Dielectrics",
+    "Difficulty": "Advanced",
+    "Explanation": "External electric field induces or aligns small dipole moments within the molecules of the insulator."
+  },
+  {
+    "QuestionText": "Lightning conductors are based on the principle of:",
+    "Options": ["A) Corona discharge", "B) Electromagnetic induction", "C) Mutual capacitance", "D) Dielectric breakdown"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Field",
+    "Difficulty": "Olympiad",
+    "Explanation": "The sharp points on lightning rods create a high field that ionizes air, helping to bleed off charge safely."
+  },
+  {
+    "QuestionText": "The ratio of electric force to gravitational force between two protons is of the order of:",
+    "Options": ["A) 10³⁶", "B) 10⁴²", "C) 1", "D) 10⁻³⁶"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Coulomb's Law",
+    "Difficulty": "Olympiad",
+    "Explanation": "Electromagnetic forces are incredibly strong compared to gravity—about 36 orders of magnitude for protons."
+  },
+  {
+    "QuestionText": "The SI unit of capacitance is named after:",
+    "Options": ["A) Newton", "B) Faraday", "C) Coulomb", "D) Ohm"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Capacitance",
+    "Difficulty": "Foundation",
+    "Explanation": "The unit is the Farad (F), named in honor of Michael Faraday for his contributions to electromagnetism."
+  }
+]

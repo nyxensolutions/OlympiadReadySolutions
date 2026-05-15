@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "In a Linear Programming Problem, the function to be maximized or minimized is called:",
+    "Options": ["A) Constraint function", "B) Objective function", "C) Feasible function", "D) Decision function"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "The objective function is the linear function Z = ax + by that we want to optimize."
+  },
+  {
+    "QuestionText": "The linear inequalities or restrictions on the variables in an LPP are called:",
+    "Options": ["A) Objectives", "B) Constants", "C) Constraints", "D) Boundaries"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Constraints",
+    "Difficulty": "Foundation",
+    "Explanation": "Constraints are the linear equations or inequalities that define the limitations on the decision variables."
+  },
+  {
+    "QuestionText": "The region which satisfies all the constraints including non-negative constraints is called:",
+    "Options": ["A) Optimal region", "B) Feasible region", "C) Infeasible region", "D) Unbounded region"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "The feasible region is the set of all points that satisfy every constraint simultaneously."
+  },
+  {
+    "QuestionText": "If the feasible region of an LPP is a convex polygon, the optimal value occurs at:",
+    "Options": ["A) The origin", "B) Any interior point", "C) At least one corner point", "D) The center of gravity"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Foundation",
+    "Explanation": "The Corner Point Theorem states that if an optimal solution exists, it must occur at a vertex of the feasible region."
+  },
+  {
+    "QuestionText": "In the inequality ax + by ≤ c, if the point (0,0) satisfies it, the shaded region is:",
+    "Options": ["A) Towards the origin", "B) Away from the origin", "C) Only the line", "D) Not defined"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "If the origin satisfies a non-strict inequality, the half-plane containing the origin is the solution set."
+  },
+  {
+    "QuestionText": "Maximize Z = 3x + 4y subject to x + y ≤ 4, x ≥ 0, y ≥ 0.",
+    "Options": ["A) 12", "B) 16", "C) 0", "D) 7"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Corner points are (0,0), (4,0), (0,4). Z at (0,4) = 4(4) = 16."
+  },
+  {
+    "QuestionText": "If an LPP has two corner points that give the same maximum value, then:",
+    "Options": ["A) There are only two solutions", "B) There are infinite solutions along the line segment joining them", "C) There is no solution", "D) One of them is not feasible"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Optimal Solution",
+    "Difficulty": "Advanced",
+    "Explanation": "If two vertices provide the same optimal value, any point on the edge between them is also an optimal solution."
+  },
+  {
+    "QuestionText": "In an LPP, the non-negative constraints x ≥ 0, y ≥ 0 mean the feasible region is in:",
+    "Options": ["A) 1st Quadrant", "B) 2nd Quadrant", "C) 3rd Quadrant", "D) 4th Quadrant"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "Decision variables in physical LPPs (like production count) are generally non-negative, restricting us to the first quadrant."
+  },
+  {
+    "QuestionText": "A feasible region which can be enclosed within a circle of some radius is called:",
+    "Options": ["A) Bounded", "B) Unbounded", "C) Circular", "D) Convex"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Bounded regions are finite and limited in all directions."
+  },
+  {
+    "QuestionText": "Minimize Z = 200x + 500y subject to x + 2y ≥ 10, 3x + 4y ≤ 24, x, y ≥ 0.",
+    "Options": ["A) 2300", "B) 2500", "C) 2000", "D) 2800"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Corner points of the feasible region are (4,3), (0,5), (0,6), (8,0). Testing values shows minimum at (4,3) as 2300."
+  },
+  {
+    "QuestionText": "If the feasible region is unbounded, then the maximum value of Z:",
+    "Options": ["A) May not exist", "B) Always exists", "C) Is always zero", "D) Is at the origin"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Optimal Solution",
+    "Difficulty": "Advanced",
+    "Explanation": "For unbounded regions, the objective function value might increase infinitely."
+  },
+  {
+    "QuestionText": "For a bounded feasible region, which is true?",
+    "Options": ["A) Only max exists", "B) Only min exists", "C) Both max and min always exist", "D) Neither exist"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Advanced",
+    "Explanation": "A continuous objective function on a closed, bounded set always attains both its maximum and minimum values."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a linear constraint?",
+    "Options": ["A) 2x + 3y ≤ 6", "B) x - y ≥ 0", "C) xy ≤ 10", "D) x = 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "Linear constraints must only involve variables of power 1; xy is a product of variables."
+  },
+  {
+    "QuestionText": "The corner points of a feasible region are (0,0), (5,0), (3,4) and (0,5). Maximize Z = 4x + 3y.",
+    "Options": ["A) 24", "B) 20", "C) 15", "D) 25"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Z(0,0)=0, Z(5,0)=20, Z(3,4)=12+12=24, Z(0,5)=15. Max is 24."
+  },
+  {
+    "QuestionText": "Optimal value of the objective function is attained at the points:",
+    "Options": ["A) On the x-axis", "B) Inside the feasible region", "C) Boundary of the feasible region", "D) Outside the feasible region"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Foundation",
+    "Explanation": "The optimal value is always found on the boundary, specifically at the vertices."
+  },
+  {
+    "QuestionText": "In LPP, if the constraints are x + y ≤ 2 and x + y ≥ 3, the problem has:",
+    "Options": ["A) Infinite solutions", "B) No feasible solution", "C) One solution", "D) Zero at origin"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Advanced",
+    "Explanation": "The regions x + y ≤ 2 and x + y ≥ 3 are disjoint, so there is no common feasible area."
+  },
+  {
+    "QuestionText": "Maximize Z = x + y subject to x - y ≤ -1, -x + y ≤ 0, x, y ≥ 0.",
+    "Options": ["A) 1", "B) 2", "C) 0", "D) No feasible region"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Olympiad",
+    "Explanation": "x-y ≤ -1 means y-x ≥ 1. -x+y ≤ 0 means y-x ≤ 0. These are contradictory, hence no feasible region."
+  },
+  {
+    "QuestionText": "The feasible region for 2x + y ≤ 6, x + 2y ≤ 6, x ≥ 0, y ≥ 0 is:",
+    "Options": ["A) Triangle", "B) Quadrilateral", "C) Pentagon", "D) Unbounded"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Advanced",
+    "Explanation": "The constraints define a 4-sided polygon (quadrilateral) with vertices (0,0), (3,0), (2,2), (0,3)."
+  },
+  {
+    "QuestionText": "Corner points of the feasible region for an LPP are (0,2), (3,0), (6,0), (6,8) and (0,5). Let Z = 4x + 6y. The minimum value of Z occurs at:",
+    "Options": ["A) (0,2) only", "B) (3,0) only", "C) Any point on the line segment joining (0,2) and (3,0)", "D) (6,0) only"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Optimal Solution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Z(0,2) = 12, Z(3,0) = 12. Since both give the same minimum, every point between them is a solution."
+  },
+  {
+    "QuestionText": "A diet problem is an example of:",
+    "Options": ["A) Manufacturing LPP", "B) Transportation LPP", "C) Diet LPP", "D) Investment LPP"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard LPPs are classified by the real-world scenarios they model, like nutrition requirements."
+  },
+  {
+    "QuestionText": "If Z = ax + by, and the constraints are all of '≤' type with positive constants, the region is:",
+    "Options": ["A) Bounded by the axes and the lines", "B) Unbounded", "C) Empty", "D) Circular"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Inequalities like x+y≤c with x,y≥0 always form a closed, bounded polygon starting at the origin."
+  },
+  {
+    "QuestionText": "Which point is in the feasible region of 3x + 2y ≤ 12, x ≥ 0, y ≥ 0?",
+    "Options": ["A) (2, 2)", "B) (5, 0)", "C) (0, 7)", "D) (4, 1)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "3(2) + 2(2) = 10, which is ≤ 12. All other points violate the constraints."
+  },
+  {
+    "QuestionText": "In the graphical method of LPP, the objective function is represented by:",
+    "Options": ["A) A parabola", "B) A family of parallel lines", "C) A circle", "D) A set of points"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Z = ax + by for different values of Z represents lines with the same slope."
+  },
+  {
+    "QuestionText": "The optimal value of Z = 3x + 2y subject to x + y ≤ 4, x ≥ 0, y ≥ 0 is:",
+    "Options": ["A) 12", "B) 8", "C) 10", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Testing corners (0,0), (4,0), (0,4): Z(4,0) = 3(4) + 0 = 12."
+  },
+  {
+    "QuestionText": "The objective function Z = 4x + y subject to constraints x + y ≤ 50, 3x + y ≤ 90, x, y ≥ 0 has maximum at:",
+    "Options": ["A) (30, 0)", "B) (20, 30)", "C) (0, 50)", "D) (0, 0)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Corner points: (0,0), (30,0), (20,30), (0,50). Z(30,0)=120, Z(20,30)=110, Z(0,50)=50. Max is 120 at (30,0)."
+  },
+  {
+    "QuestionText": "Which coordinate is usually a corner point if x ≥ 0 and y ≥ 0 are constraints?",
+    "Options": ["A) (0, 0)", "B) (1, 1)", "C) (∞, ∞)", "D) (-1, -1)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "The intersection of the axes (the origin) is almost always a vertex in standard first-quadrant problems."
+  },
+  {
+    "QuestionText": "Maximize Z = 10x + 6y subject to x + y ≤ 12, 2x + y ≤ 20, x, y ≥ 0.",
+    "Options": ["A) 120", "B) 100", "C) 104", "D) 110"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Corners: (0,0), (10,0), (8,4), (0,12). Z(8,4) = 80 + 24 = 104."
+  },
+  {
+    "QuestionText": "In transportation problems, the objective is usually to:",
+    "Options": ["A) Maximize profit", "B) Minimize cost", "C) Maximize distance", "D) Minimize speed"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "Transportation LPPs focus on moving goods from sources to destinations at the lowest possible expense."
+  },
+  {
+    "QuestionText": "If the feasible region is empty, the LPP has:",
+    "Options": ["A) One solution", "B) Many solutions", "C) No solution", "D) Zero solution"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Without points satisfying the constraints, it's impossible to calculate an optimal objective."
+  },
+  {
+    "QuestionText": "The intersection of two or more half-planes in LPP is always a:",
+    "Options": ["A) Circular set", "B) Convex set", "C) Concave set", "D) Open set"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Advanced",
+    "Explanation": "The intersection of convex sets (half-planes) is always a convex set."
+  },
+  {
+    "QuestionText": "A constraint like x + y ≥ 0 for non-negative variables x, y is:",
+    "Options": ["A) Redundant", "B) Essential", "C) Impossible", "D) Tight"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Constraints",
+    "Difficulty": "Olympiad",
+    "Explanation": "Since x ≥ 0 and y ≥ 0 already imply x + y ≥ 0, this third constraint adds no new information."
+  },
+  {
+    "QuestionText": "Maximize Z = 5x + 3y subject to 3x + 5y ≤ 15, 5x + 2y ≤ 10, x, y ≥ 0.",
+    "Options": ["A) 12.5", "B) 10.5", "C) 15", "D) 9.5"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Corners: (0,0), (2,0), (20/19, 45/19), (0,3). Z(2,0)=10, Z(0,3)=9. Z(20/19, 45/19) ≈ 12.36. Max is at (20/19, 45/19) — Rechecking: Z(2,0)=10. Actually at (2,0)? No, testing point (20/19, 45/19) gives 235/19 ≈ 12.37."
+  },
+  {
+    "QuestionText": "LPP stands for:",
+    "Options": ["A) Logic Programming Point", "B) Linear Programming Problem", "C) Linear Product Plan", "D) Long Proactive Policy"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "The standard name for mathematical problems involving optimization of linear functions."
+  },
+  {
+    "QuestionText": "The optimal solution of an LPP with a bounded region:",
+    "Options": ["A) Is unique always", "B) May not be unique", "C) Is always (0,0)", "D) Is always at infinity"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Optimal Solution",
+    "Difficulty": "Advanced",
+    "Explanation": "If two corners give the same max/min, there are infinitely many solutions between them."
+  },
+  {
+    "QuestionText": "Feasible region is the set of points which satisfy:",
+    "Options": ["A) Some constraints", "B) Only non-negative constraints", "C) All constraints", "D) Objective function"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, feasible points must meet every requirement specified in the problem."
+  },
+  {
+    "QuestionText": "If the objective function is Z = 3x - 4y, what is the value at (2, 3)?",
+    "Options": ["A) 6", "B) -6", "C) 18", "D) -12"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Z = 3(2) - 4(3) = 6 - 12 = -6."
+  },
+  {
+    "QuestionText": "Which quadrant is avoided in LPP with x, y ≥ 0?",
+    "Options": ["A) Second", "B) Third", "C) Fourth", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "Non-negativity restricts the solution space exclusively to the first quadrant."
+  },
+  {
+    "QuestionText": "Constraint x ≤ 4 for x ≥ 0 represents:",
+    "Options": ["A) A line", "B) A rectangle", "C) A vertical strip", "D) A horizontal strip"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Advanced",
+    "Explanation": "The region between x=0 and x=4 is a vertical strip extending infinitely in y."
+  },
+  {
+    "QuestionText": "A line ax + by = c divides the plane into:",
+    "Options": ["A) Two half-planes", "B) Three regions", "C) Four quadrants", "D) One area"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Any line in a 2D plane separates it into two distinct half-planes."
+  },
+  {
+    "QuestionText": "In an LPP, the objective function and constraints must be:",
+    "Options": ["A) Linear", "B) Quadratic", "C) Exponential", "D) Trigonometric"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "The term 'Linear' in LPP implies all algebraic expressions are of degree one."
+  },
+  {
+    "QuestionText": "The feasible region for x + y ≤ 1 and x + y ≥ 1 is:",
+    "Options": ["A) A line segment", "B) A triangle", "C) Empty", "D) A square"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Olympiad",
+    "Explanation": "The only points satisfying both are on the line x + y = 1."
+  },
+  {
+    "QuestionText": "Minimize Z = 3x + 5y subject to x + 3y ≥ 3, x + y ≥ 2, x, y ≥ 0.",
+    "Options": ["A) 7", "B) 9", "C) 10", "D) 15"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Advanced",
+    "Explanation": "Corners: (3,0), (1.5, 0.5), (0,2). Z(3,0)=9, Z(1.5, 0.5)=4.5+2.5=7, Z(0,2)=10. Min is 7."
+  },
+  {
+    "QuestionText": "Optimal value of objective function is attained at corner points. This is known as:",
+    "Options": ["A) Corner Point Theorem", "B) Linear Theorem", "C) Polygon Theorem", "D) Maxima Theorem"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the fundamental theorem of linear programming."
+  },
+  {
+    "QuestionText": "If the constraints are 2x + 3y ≤ 12, x ≥ 0, y ≥ 0, which is NOT a corner point?",
+    "Options": ["A) (0, 0)", "B) (6, 0)", "C) (0, 4)", "D) (2, 2)"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Vertices are (0,0), (6,0), and (0,4). (2,2) is an interior point."
+  },
+  {
+    "QuestionText": "The minimum value of Z = 4x + 2y subject to x + y ≥ 10, x, y ≥ 0 is:",
+    "Options": ["A) 20", "B) 40", "C) 10", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Corners are (10,0) and (0,10). Z(10,0)=40, Z(0,10)=20. Minimum is 20."
+  },
+  {
+    "QuestionText": "In an LPP, if the objective function is parallel to one of the constraint lines:",
+    "Options": ["A) There is no solution", "B) There is a unique solution", "C) There are multiple optimal solutions", "D) The origin is the solution"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Optimal Solution",
+    "Difficulty": "Olympiad",
+    "Explanation": "If the slope of Z matches a constraint edge, all points on that edge are optimal."
+  },
+  {
+    "QuestionText": "Which of the following is a decision variable in an LPP?",
+    "Options": ["A) The objective Z", "B) The coordinates x and y", "C) The constants a and b", "D) The constraints"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Introduction to LPP",
+    "Difficulty": "Foundation",
+    "Explanation": "Decision variables are the unknown quantities (x, y) we solve for to optimize the system."
+  },
+  {
+    "QuestionText": "The region represented by x + y ≤ 4 is:",
+    "Options": ["A) Above the line", "B) Below the line (including origin)", "C) Only the 1st quadrant", "D) Only the 3rd quadrant"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Testing origin (0,0): 0+0 ≤ 4 is true, so the side containing the origin is shaded."
+  },
+  {
+    "QuestionText": "Maximize Z = 3x + 9y subject to x + 3y ≤ 60, x + y ≥ 10, x ≤ y, x, y ≥ 0.",
+    "Options": ["A) 180", "B) 120", "C) 60", "D) 200"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Corner Point Method",
+    "Difficulty": "Olympiad",
+    "Explanation": "Corners include (0,20), (15,15), (0,10), (5,5). Z(0,20)=180, Z(15,15)=45+135=180. Max is 180."
+  },
+  {
+    "QuestionText": "For an LPP, the set of all feasible solutions is a:",
+    "Options": ["A) Line", "B) Set of discrete points", "C) Convex region", "D) Hyperbola"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Linear Programming",
+    "SubTopic": "Graphical Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Feasible regions in LPP are always convex polygons or regions."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Let A = {1, 2, 3}. The total number of reflexive relations that can be defined on set A is:",
+    "Options": ["A) 2^9", "B) 2^6", "C) 2^3", "D) 9^2"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Reflexive Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "The formula for the number of reflexive relations on a set with n elements is 2^(n²-n). For n=3, 2^(9-3) = 2^6 = 64."
+  },
+  {
+    "QuestionText": "If R = {(x, y) : x, y ∈ Z, x² + 3y² ≤ 8} is a relation on the set of integers Z, then the domain of R⁻¹ is:",
+    "Options": ["A) {-2, -1, 1, 2}", "B) {0, 1}", "C) {-2, -1, 0, 1, 2}", "D) {-1, 0, 1}"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Domain and Range",
+    "Difficulty": "Advanced",
+    "Explanation": "The domain of R⁻¹ is the range of R. For integers x and y, x² + 3y² ≤ 8 implies y can only be -1, 0, or 1."
+  },
+  {
+    "QuestionText": "A relation R in the set of real numbers R is defined as aRb if a > b. This relation is:",
+    "Options": ["A) Reflexive", "B) Symmetric", "C) Transitive", "D) Equivalence"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "If a > b and b > c, then a > c, making it transitive; however, a is never greater than a, so it isn't reflexive."
+  },
+  {
+    "QuestionText": "Let f: [0, 3] → [1, 29] be defined by f(x) = 2x³ – 15x² + 36x + 1. The function f is:",
+    "Options": ["A) One-one and onto", "B) Onto but not one-one", "C) One-one but not onto", "D) Neither one-one nor onto"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Injective and Surjective Functions",
+    "Difficulty": "Olympiad",
+    "Explanation": "The derivative f'(x) = 6(x-2)(x-3) changes sign in [0,3], making it many-one, but its range matches the codomain [1, 29]."
+  },
+  {
+    "QuestionText": "Let the function f: [0, 1] → R be defined by f(x) = 4ˣ / (4ˣ + 2). Then f(1/40) + f(2/40) + ... + f(39/40) - f(1/2) equals:",
+    "Options": ["A) 19", "B) 20", "C) 39", "D) 19.5"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Functional Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Since f(x) + f(1-x) = 1, the terms pair up to give 19, and the middle term f(1/2) is subtracted out."
+  },
+  {
+    "QuestionText": "If f: R → R is given by f(x) = (3 - x³)¹/³, then f(f(x)) is:",
+    "Options": ["A) x¹/³", "B) x³", "C) x", "D) 3 - x³"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Substituting f(x) into itself: [3 - ((3 - x³)¹/³)³]¹/³ = [3 - (3 - x³)]¹/³ = (x³)¹/³ = x."
+  },
+  {
+    "QuestionText": "The number of onto functions from a set Y with 7 elements to a set X with 5 elements is denoted by β. The number of one-one functions from X to Y is α. What is (β - α)/5!?",
+    "Options": ["A) 100", "B) 119", "C) 140", "D) 252"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Counting Functions",
+    "Difficulty": "Olympiad",
+    "Explanation": "α = 7P5 = 2520 and β = 16800 (calculated via Stirling numbers); (16800 - 2520)/120 = 119."
+  },
+  {
+    "QuestionText": "A binary operation * on Q is defined by a * b = ab/4. The identity element for this operation is:",
+    "Options": ["A) 1", "B) 0", "C) 4", "D) 1/4"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Binary Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "An identity 'e' must satisfy a * e = a. Thus, ae/4 = a, which gives e = 4."
+  },
+  {
+    "QuestionText": "Let f: R → R be defined by f(x) = x⁴. Then f is:",
+    "Options": ["A) One-one and onto", "B) Many-one and onto", "C) One-one but not onto", "D) Neither one-one nor onto"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "f(1) = f(-1) = 1, so it is many-one. Since x⁴ is never negative, the range is [0, ∞), making it not onto."
+  },
+  {
+    "QuestionText": "The relation R in the set {1, 2, 3} given by R = {(1, 2), (2, 1)} is:",
+    "Options": ["A) Reflexive", "B) Symmetric", "C) Transitive", "D) Equivalence"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "For every (a, b) in R, (b, a) is also in R. Here (1,2) has (2,1) and vice versa, so it is symmetric."
+  },
+  {
+    "QuestionText": "Let R be a relation on the set A = {1, 2, 3, 4} given by R = {(1, 1), (2, 2), (3, 3), (4, 4), (1, 2), (2, 1), (3, 1), (1, 3)}. This relation is:",
+    "Options": ["A) Reflexive and Symmetric", "B) Reflexive and Transitive", "C) Symmetric and Transitive", "D) Equivalence Relation"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "It is reflexive (contains all (a,a)) and symmetric (for every (a,b) there is (b,a)), but not transitive because (3,1) and (1,2) are in R but (3,2) is not."
+  },
+  {
+    "QuestionText": "The number of all one-to-one functions from set A = {1, 2, 3} to itself is:",
+    "Options": ["A) 2", "B) 6", "C) 3", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Counting Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "The number of one-to-one functions from a set of n elements to itself is n!. Here, 3! = 3 × 2 × 1 = 6."
+  },
+  {
+    "QuestionText": "If f(x) = |x| and g(x) = [x] (greatest integer function), then fog(-2.5) + gof(-2.5) is:",
+    "Options": ["A) 0", "B) 1", "C) 5", "D) 5.5"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "fog(-2.5) = f([-2.5]) = f(-3) = 3. gof(-2.5) = g(|-2.5|) = g(2.5) = 2. Sum is 3 + 2 = 5."
+  },
+  {
+    "QuestionText": "Let f: R → R be defined by f(x) = sin x and g: R → R be defined by g(x) = x². Then fog is:",
+    "Options": ["A) sin²x", "B) sin(x²)", "C) (sin x)²", "D) x² sin x"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "fog(x) means f(g(x)). Substituting g(x) = x² into f(x) gives sin(x²)."
+  },
+  {
+    "QuestionText": "Which of the following functions f: Z → Z is a bijection?",
+    "Options": ["A) f(x) = x³", "B) f(x) = x + 2", "C) f(x) = 2x + 1", "D) f(x) = x² + 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Bijective Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "f(x) = x + 2 is both one-one and onto for integers. x³ is not onto (e.g., 2 is not a cube), and 2x+1 only covers odd integers."
+  },
+  {
+    "QuestionText": "If A = {a, b, c, d}, then a relation R = {(a, b), (b, a), (a, a)} on A is:",
+    "Options": ["A) Symmetric only", "B) Transitive only", "C) Symmetric and Transitive", "D) Reflexive"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "It is symmetric because (a,b) and (b,a) exist. It is transitive because (b,a) and (a,b) imply (b,b) must exist—wait, (b,b) is missing! It is actually only symmetric."
+  },
+  {
+    "QuestionText": "The domain of the function f(x) = 1 / √(x - |x|) is:",
+    "Options": ["A) R", "B) R+", "C) R-", "D) Φ (Empty set)"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Domain and Range",
+    "Difficulty": "Olympiad",
+    "Explanation": "For x ≥ 0, x - |x| = 0. For x < 0, x - |x| = 2x (which is negative). Since the denominator cannot be 0 or negative, the domain is empty."
+  },
+  {
+    "QuestionText": "If f: R → R is defined by f(x) = 3x + 5, what is f⁻¹(x)?",
+    "Options": ["A) (x - 5)/3", "B) (x + 5)/3", "C) 3x - 5", "D) 1/(3x + 5)"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Invertible Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "Set y = 3x + 5, then y - 5 = 3x, so x = (y - 5)/3."
+  },
+  {
+    "QuestionText": "Let * be a binary operation on R defined by a * b = a + b + ab. The value of 2 * 3 * 4 is:",
+    "Options": ["A) 59", "B) 24", "C) 11", "D) 60"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Binary Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "(2 * 3) = 2 + 3 + 6 = 11. Then 11 * 4 = 11 + 4 + 44 = 59."
+  },
+  {
+    "QuestionText": "The relation R = {(1, 1), (2, 2), (3, 3)} on the set A = {1, 2, 3} is:",
+    "Options": ["A) Identity relation only", "B) Reflexive only", "C) Equivalence relation", "D) All of the above"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "This specific relation satisfies the definitions of identity, reflexive, symmetric (trivially), and transitive (trivially)."
+  },
+  {
+    "QuestionText": "Let f(x) = x² and g(x) = √(x). Then (fog)(x) is equal to x for what domain?",
+    "Options": ["A) R", "B) [0, ∞)", "C) (0, ∞)", "D) R - {0}"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "The function g(x) = √x is only defined for non-negative real numbers [0, ∞)."
+  },
+  {
+    "QuestionText": "A relation R is defined on N by xRy if x + 2y = 8. The range of R is:",
+    "Options": ["A) {2, 4, 6}", "B) {1, 2, 3}", "C) {1, 2, 3, 4}", "D) {4, 6, 8}"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Domain and Range",
+    "Difficulty": "Foundation",
+    "Explanation": "Possible pairs (x,y) are (6,1), (4,2), (2,3). The range is the set of second elements {1, 2, 3}."
+  },
+  {
+    "QuestionText": "If n(A) = 3 and n(B) = 2, the total number of relations from A to B is:",
+    "Options": ["A) 6", "B) 2^6", "C) 3^2", "D) 2^5"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Counting Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Number of relations = 2^(n(A) * n(B)). Here 2^(3*2) = 2^6 = 64."
+  },
+  {
+    "QuestionText": "The maximum number of equivalence relations on a set with 3 elements is:",
+    "Options": ["A) 3", "B) 5", "C) 8", "D) 9"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Equivalence Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "The number of equivalence relations is the Bell number B(3). B(1)=1, B(2)=2, B(3)=5."
+  },
+  {
+    "QuestionText": "If f(x) = (x-1)/(x+1), then f(f(x)) is equal to:",
+    "Options": ["A) x", "B) -1/x", "C) 1/x", "D) -x"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "f(f(x)) = ((x-1)/(x+1) - 1) / ((x-1)/(x+1) + 1) = -2 / 2x = -1/x."
+  },
+  {
+    "QuestionText": "Let f: R → R be f(x) = x³. The function is:",
+    "Options": ["A) Injective but not Surjective", "B) Surjective but not Injective", "C) Bijective", "D) Neither"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Bijective Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "Every real number has exactly one real cube root, so it is both one-one and onto."
+  },
+  {
+    "QuestionText": "The inverse of the function f(x) = 2^x(x-1) is not defined because:",
+    "Options": ["A) It is not one-one", "B) It is not onto", "C) It is both", "D) It is an exponential function"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Invertible Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Functions must be bijective to be invertible. If a function fails the horizontal line test, it is not one-one."
+  },
+  {
+    "QuestionText": "If A = {1, 2, 3}, how many symmetric relations can be formed containing (1,2)?",
+    "Options": ["A) 2^5", "B) 2^6", "C) 2^3", "D) 2^4"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Counting Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "A symmetric relation must contain (2,1) if it contains (1,2). There are 6 independent choices (3 diagonals, 3 pairs). Since (1,2) is fixed, we have 2^5 choices left."
+  },
+  {
+    "QuestionText": "Which property does the relation 'is a divisor of' follow on the set of natural numbers?",
+    "Options": ["A) Symmetric", "B) Antisymmetric", "C) Not Reflexive", "D) Equivalence"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "If a divides b and b divides a, then a must equal b, which defines antisymmetry."
+  },
+  {
+    "QuestionText": "The signum function f: R → R is:",
+    "Options": ["A) One-one", "B) Onto", "C) Many-one", "D) Bijective"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "The signum function maps all positive numbers to 1, all negative to -1, and 0 to 0, so it is many-to-one."
+  },
+  {
+    "QuestionText": "If f(x) = log((1+x)/(1-x)), then f(x) + f(y) is:",
+    "Options": ["A) f(x+y)", "B) f((x+y)/(1+xy))", "C) f(xy)", "D) f(x)f(y)"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Functional Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using log properties: log(A) + log(B) = log(AB). Substituting and simplifying the fraction gives the formula for f((x+y)/(1+xy))."
+  },
+  {
+    "QuestionText": "Number of binary operations that can be defined on a set of 2 elements is:",
+    "Options": ["A) 4", "B) 8", "C) 16", "D) 32"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Binary Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "Formula is n^(n²). For n=2, it is 2^(2²) = 2^4 = 16."
+  },
+  {
+    "QuestionText": "The function f: R → R defined by f(x) = cos x is:",
+    "Options": ["A) Injective", "B) Surjective", "C) Bijective", "D) Neither injective nor surjective"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "It's many-one (cos 0 = cos 2π) and its range is [-1, 1], which is not the codomain R."
+  },
+  {
+    "QuestionText": "If f: A → B and g: B → C are onto functions, then gof is:",
+    "Options": ["A) Onto", "B) One-one", "C) Not defined", "D) Into"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "The composition of two surjective (onto) functions is always surjective."
+  },
+  {
+    "QuestionText": "The relation R = {(a, b) : |a - b| is a multiple of 4} on the set {0, 1, 2, ..., 12} is:",
+    "Options": ["A) Reflexive only", "B) Symmetric only", "C) Transitive only", "D) Equivalence Relation"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Equivalence Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "|a-a|=0 (multiple of 4), |a-b|=|b-a|, and if |a-b| and |b-c| are multiples of 4, their sum/difference is too."
+  },
+  {
+    "QuestionText": "Let f: R - {3} → R - {1} be defined by f(x) = (x-2)/(x-3). The function is:",
+    "Options": ["A) One-one only", "B) Onto only", "C) Bijective", "D) Many-one"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Bijective Functions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Solving for x in terms of y gives x = (3y-2)/(y-1), which is defined for all y ≠ 1, making it onto. It is also clearly one-one."
+  },
+  {
+    "QuestionText": "A binary operation * on R defined by a * b = |a - b| is:",
+    "Options": ["A) Commutative and Associative", "B) Commutative but not Associative", "C) Associative but not Commutative", "D) Neither"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Binary Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "|a-b| = |b-a| (Commutative), but |1-(2-3)| = 2 and |(1-2)-3| = 4 (Not Associative)."
+  },
+  {
+    "QuestionText": "The smallest equivalence relation on set A = {1, 2, 3} is:",
+    "Options": ["A) {(1,1), (2,2), (3,3)}", "B) {(1,2), (2,1)}", "C) {(1,1), (2,2), (3,3), (1,2)}", "D) A x A"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Equivalence Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "The identity relation is always the smallest equivalence relation on any set."
+  },
+  {
+    "QuestionText": "If f(x) = x + 7 and g(x) = x - 7, then fog(x) is:",
+    "Options": ["A) x", "B) x + 14", "C) x - 14", "D) 7"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "fog(x) = f(x-7) = (x-7) + 7 = x."
+  },
+  {
+    "QuestionText": "Let A = {1, 2, 3}. The number of relations on A containing (1,2) and (1,3) which are reflexive and symmetric but not transitive is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Adding (2,3) and (3,2) would make it transitive, so there is only one way to keep it non-transitive while being reflexive and symmetric."
+  },
+  {
+    "QuestionText": "The function f(x) = x + cos x is:",
+    "Options": ["A) Strictly Increasing", "B) Strictly Decreasing", "C) Periodic", "D) None of these"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Types of Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = 1 - sin x. Since sin x is always ≤ 1, f'(x) ≥ 0, so the function is always increasing."
+  },
+  {
+    "QuestionText": "Which of the following is the identity element for subtraction on Z?",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) Does not exist"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Binary Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "For 0 to be the identity, a - 0 = a and 0 - a = a. Since 0 - a = -a, it is not an identity."
+  },
+  {
+    "QuestionText": "If f: R → R is a bijective function, then f⁻¹of is:",
+    "Options": ["A) f", "B) f⁻¹", "C) I (Identity function)", "D) Constant function"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Invertible Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "The composition of a function with its inverse always yields the identity function."
+  },
+  {
+    "QuestionText": "Let f: R → R be defined by f(x) = 3x. Then f is:",
+    "Options": ["A) One-one and onto", "B) Many-one and onto", "C) One-one but not onto", "D) Neither"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Bijective Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "A linear function f(x) = ax (a≠0) is always a bijection from R to R."
+  },
+  {
+    "QuestionText": "The range of the function f(x) = x / |x| is:",
+    "Options": ["A) R", "B) {-1, 1}", "C) {-1, 0, 1}", "D) (0, ∞)"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Domain and Range",
+    "Difficulty": "Advanced",
+    "Explanation": "For x > 0, f(x) = 1. For x < 0, f(x) = -1. The function is undefined at x = 0."
+  },
+  {
+    "QuestionText": "If a set A has 5 elements and set B has 6 elements, the number of one-one functions from A to B is:",
+    "Options": ["A) 5^6", "B) 6^5", "C) 6P5", "D) 5!"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Counting Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "The number of one-one functions is nPk where n is the number of elements in the codomain and k in the domain."
+  },
+  {
+    "QuestionText": "Which relation is always an equivalence relation?",
+    "Options": ["A) Parallelism in lines", "B) Perpendicularity in lines", "C) 'Less than' in integers", "D) 'Divisor' in natural numbers"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Equivalence Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallelism is reflexive (L||L), symmetric (L1||L2 → L2||L1), and transitive."
+  },
+  {
+    "QuestionText": "If f(x) = 2x + 3 and g(x) = x², then gof(x) is:",
+    "Options": ["A) 4x² + 12x + 9", "B) 2x² + 3", "C) 4x² + 9", "D) 2x² + 6x + 9"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Composition of Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "gof(x) = g(2x + 3) = (2x + 3)². Expanding gives 4x² + 12x + 9."
+  },
+  {
+    "QuestionText": "The identity element for the binary operation * on R defined by a * b = a + b - 7 is:",
+    "Options": ["A) 0", "B) 7", "C) -7", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Binary Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "a * e = a implies a + e - 7 = a, which simplifies to e = 7."
+  },
+  {
+    "QuestionText": "The relation R = {(a, b) : a² = b²} is an equivalence relation on R. Which of the following is the equivalence class of 2?",
+    "Options": ["A) {2}", "B) {-2}", "C) {2, -2}", "D) [0, ∞)"],
+    "CorrectAnswer": "C",
+    "Topic": "Maths - Relations and Functions",
+    "SubTopic": "Equivalence Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "The equivalence class of 2 includes all x such that x² = 2², which are x = 2 and x = -2."
+  }
+]

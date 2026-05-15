@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "What is a computer?",
+    "Options": ["A) A toy", "B) An electronic machine", "C) A fruit", "D) A type of animal"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "A computer is a machine that runs on electricity to help us do work."
+  },
+  {
+    "QuestionText": "Which of these is a natural thing (not made by man)?",
+    "Options": ["A) Computer", "B) Tree", "C) Car", "D) Television"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Natural vs Man-made",
+    "Difficulty": "Foundation",
+    "Explanation": "Trees grow in nature, while computers, cars, and TVs are made by humans."
+  },
+  {
+    "QuestionText": "Computers work very ________.",
+    "Options": ["A) Slowly", "B) Fast", "C) Sleepily", "D) Loudly"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Features of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "One of the best things about computers is that they can do calculations and tasks very quickly."
+  },
+  {
+    "QuestionText": "Which machine is used to keep our food and drinks cold?",
+    "Options": ["A) Toaster", "B) Refrigerator", "C) Washing Machine", "D) Laptop"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "A refrigerator (fridge) is a machine built to keep items cold."
+  },
+  {
+    "QuestionText": "Does a computer get tired like humans do?",
+    "Options": ["A) Yes, always", "B) Yes, after 1 hour", "C) No, never", "D) Only on Sundays"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Human vs Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "Machines like computers do not get tired or bored like people do."
+  },
+  {
+    "QuestionText": "Which of these is a 'Smart Machine'?",
+    "Options": ["A) Bicycle", "B) Computer", "C) Hammer", "D) Pencil"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers are called smart machines because they can perform many different tasks."
+  },
+  {
+    "QuestionText": "A computer runs on __________.",
+    "Options": ["A) Fuel", "B) Food", "C) Electricity", "D) Water"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers need electrical power to turn on and function."
+  },
+  {
+    "QuestionText": "Which of these tasks can you do on a computer?",
+    "Options": ["A) Draw pictures", "B) Cook noodles", "C) Wash clothes", "D) Brush teeth"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "You can use a computer to draw, play games, or solve sums."
+  },
+  {
+    "QuestionText": "A laptop is a type of computer that you can _______.",
+    "Options": ["A) Eat", "B) Carry easily", "C) Use as a chair", "D) Plant in a garden"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Laptops are portable computers that can be carried from one place to another."
+  },
+  {
+    "QuestionText": "Which machine helps us to travel long distances by air?",
+    "Options": ["A) Bus", "B) Bicycle", "C) Aeroplane", "D) Computer"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "An aeroplane is a machine used for air travel."
+  },
+  {
+    "QuestionText": "Which of these is a man-made thing?",
+    "Options": ["A) Sun", "B) Moon", "C) Chair", "D) River"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Natural vs Man-made",
+    "Difficulty": "Foundation",
+    "Explanation": "Humans build chairs using wood or plastic."
+  },
+  {
+    "QuestionText": "Computers help us to store a lot of __________.",
+    "Options": ["A) Information", "B) Toys", "C) Clothes", "D) Water"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Features of Computer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Computers have a memory that can store many files and information."
+  },
+  {
+    "QuestionText": "Identify the machine that works on fuel (petrol/diesel).",
+    "Options": ["A) Computer", "B) Car", "C) Toaster", "D) Calculator"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Olympiad",
+    "Explanation": "Most cars use fuel to run, while the others listed use electricity or batteries."
+  },
+  {
+    "QuestionText": "Which of these is a very small computer that fits in your palm?",
+    "Options": ["A) Desktop", "B) Mainframe", "C) Smartphone", "D) Washing Machine"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Olympiad",
+    "Explanation": "A smartphone is a pocket-sized computer."
+  },
+  {
+    "QuestionText": "Can a computer think on its own like a human?",
+    "Options": ["A) Yes", "B) No", "C) Only when it's sunny", "D) Yes, if it is big"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Human vs Computer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Computers need instructions from humans; they cannot think independently."
+  },
+  {
+    "QuestionText": "Machines make our work __________.",
+    "Options": ["A) Harder", "B) Slower", "C) Easier", "D) Boring"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "The main purpose of any machine is to make human work easier and faster."
+  },
+  {
+    "QuestionText": "Which part of the computer looks like a TV?",
+    "Options": ["A) Keyboard", "B) Mouse", "C) Monitor", "D) CPU"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "The monitor is the screen where we see the work done on the computer."
+  },
+  {
+    "QuestionText": "A computer never makes ___________.",
+    "Options": ["A) Mistakes", "B) Sounds", "C) Pictures", "D) Music"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Features of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "If given correct instructions, a computer is very accurate and does not make mistakes."
+  },
+  {
+    "QuestionText": "Which machine is used to wash dirty clothes?",
+    "Options": ["A) Microwave", "B) Washing Machine", "C) Computer", "D) Fan"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "The washing machine is designed specifically for cleaning laundry."
+  },
+  {
+    "QuestionText": "Desktop computers are usually kept on a _________.",
+    "Options": ["A) Bed", "B) Desk", "C) Tree", "D) Pocket"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "As the name suggests, Desktop computers are meant to be kept on a desk or table."
+  },
+  {
+    "QuestionText": "What do we call the things provided to us by nature?",
+    "Options": ["A) Electronic things", "B) Natural things", "C) Computer things", "D) Plastic things"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Natural vs Man-made",
+    "Difficulty": "Foundation",
+    "Explanation": "Things like air, water, animals, and plants are natural things."
+  },
+  {
+    "QuestionText": "Which of these machines works without electricity?",
+    "Options": ["A) Computer", "B) Sharpener", "C) Laptop", "D) Tablet"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Olympiad",
+    "Explanation": "A manual pencil sharpener uses human power, not electricity."
+  },
+  {
+    "QuestionText": "We can play __________ on a computer.",
+    "Options": ["A) Football in the mud", "B) Games", "C) Hide and seek in the park", "D) Cricket in the rain"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers allow us to play digital video games."
+  },
+  {
+    "QuestionText": "Which machine helps us to see things far away in space?",
+    "Options": ["A) Microscope", "B) Telescope", "C) Computer", "D) Calculator"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "A telescope is a machine/tool used to look at stars and planets."
+  },
+  {
+    "QuestionText": "A tablet is ______ than a desktop computer.",
+    "Options": ["A) Heavier", "B) Smaller", "C) Louder", "D) Taller"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Tablets are handheld devices, making them much smaller than desktop setups."
+  },
+  {
+    "QuestionText": "What does a computer need to start?",
+    "Options": ["A) Fuel", "B) Power/Electricity", "C) Water", "D) Sunlight"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers are electronic machines that require power to operate."
+  },
+  {
+    "QuestionText": "Which of these is NOT a machine?",
+    "Options": ["A) Fan", "B) Dog", "C) Mixer", "D) Phone"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Natural vs Man-made",
+    "Difficulty": "Foundation",
+    "Explanation": "A dog is a living, natural being, not a machine."
+  },
+  {
+    "QuestionText": "Computers can help us solve math __________.",
+    "Options": ["A) Books", "B) Sums", "C) Toys", "D) Pencils"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers are excellent at doing calculations and math problems."
+  },
+  {
+    "QuestionText": "Which of these machines is found in the kitchen?",
+    "Options": ["A) Car", "B) Microwave Oven", "C) Bed", "D) Shower"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "A microwave oven is a common kitchen machine used to heat food."
+  },
+  {
+    "QuestionText": "Can you use a computer to watch movies?",
+    "Options": ["A) Yes", "B) No", "C) Only if it's a cartoon", "D) Only in the morning"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "Watching movies and videos is a very common use for computers."
+  },
+  {
+    "QuestionText": "Why is a computer called a machine?",
+    "Options": ["A) Because it is made of wood", "B) Because it makes our work easy", "C) Because it grows in the ground", "D) Because it can breathe"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Olympiad",
+    "Explanation": "The definition of a machine is something man-made that makes work easier."
+  },
+  {
+    "QuestionText": "Which machine do we use to take photographs?",
+    "Options": ["A) Printer", "B) Camera", "C) Iron", "D) Calculator"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "A camera is a machine designed to capture photos."
+  },
+  {
+    "QuestionText": "Human beings have feelings, but computers _________.",
+    "Options": ["A) Have more feelings", "B) Do not have feelings", "C) Feel sad when it rains", "D) Feel happy when they win"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Human vs Computer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Computers are non-living machines and do not have emotions or feelings."
+  },
+  {
+    "QuestionText": "A computer works on the ________ given by us.",
+    "Options": ["A) Food", "B) Instructions", "C) Water", "D) Clothes"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Introduction to Computers",
+    "Difficulty": "Olympiad",
+    "Explanation": "A computer follows commands or instructions provided by the user."
+  },
+  {
+    "QuestionText": "Which computer is used in offices and kept on a table?",
+    "Options": ["A) Laptop", "B) Desktop", "C) Smartphone", "D) Tablet"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Desktop computers are designed for stationary use on a desk."
+  },
+  {
+    "QuestionText": "Which of these is a natural source of light?",
+    "Options": ["A) Bulb", "B) Torch", "C) Sun", "D) Candle"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Natural vs Man-made",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Sun is a natural thing; bulbs, torches, and candles are man-made."
+  },
+  {
+    "QuestionText": "We can listen to __________ on a computer.",
+    "Options": ["A) Food", "B) Music", "C) Pictures", "D) Games"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers can play audio files like songs and stories."
+  },
+  {
+    "QuestionText": "Which of these is NOT a type of computer?",
+    "Options": ["A) Laptop", "B) Tablet", "C) Bicycle", "D) Smartphone"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "A bicycle is a vehicle, not a computer."
+  },
+  {
+    "QuestionText": "A computer can remember many things because it has a ________.",
+    "Options": ["A) Brain", "B) Memory", "C) Stomach", "D) Heart"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Features of Computer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Computers store data in their memory."
+  },
+  {
+    "QuestionText": "Can you book flight tickets using a computer?",
+    "Options": ["A) Yes", "B) No", "C) Only if you are a pilot", "D) Only at night"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Computers are widely used to book tickets for travel online."
+  },
+  {
+    "QuestionText": "Which machine is used to press clothes and remove wrinkles?",
+    "Options": ["A) Toaster", "B) Iron", "C) Computer", "D) Fan"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "An electric iron is used to smooth out clothes."
+  },
+  {
+    "QuestionText": "Who works faster for big calculations?",
+    "Options": ["A) Human", "B) Computer", "C) Cat", "D) Tree"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Human vs Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers can calculate large numbers much faster than humans."
+  },
+  {
+    "QuestionText": "A tablet has a __________ screen.",
+    "Options": ["A) Touch", "B) Paper", "C) Wooden", "D) Water"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Tablets are operated by touching the screen with fingers."
+  },
+  {
+    "QuestionText": "Which of these is an example of a machine found outside the house?",
+    "Options": ["A) Mixer", "B) Tractor", "C) Microwave", "D) Iron"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Olympiad",
+    "Explanation": "A tractor is a machine used in farms, typically outside."
+  },
+  {
+    "QuestionText": "Humans can make mistakes, but a computer is usually __________.",
+    "Options": ["A) Wrong", "B) Accurate", "C) Silly", "D) Lazy"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Features of Computer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Accurate means correct and without errors."
+  },
+  {
+    "QuestionText": "We can send __________ to friends using a computer.",
+    "Options": ["A) Messages/Emails", "B) Chocolates physically", "C) Real flowers", "D) Water"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Computers allow us to send digital messages across the world instantly."
+  },
+  {
+    "QuestionText": "Which of these is a machine that runs on a battery?",
+    "Options": ["A) Wall clock", "B) Tree", "C) River", "D) Mountain"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "Wall clocks are machines that use battery cells for power."
+  },
+  {
+    "QuestionText": "A computer is used in schools for ________.",
+    "Options": ["A) Cooking lunch", "B) Teaching and learning", "C) Gardening", "D) Sleeping"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Uses of Computer",
+    "Difficulty": "Foundation",
+    "Explanation": "Computers are great tools for education."
+  },
+  {
+    "QuestionText": "Which of these machines helps us to stay cool in summer?",
+    "Options": ["A) Heater", "B) Air Conditioner", "C) Oven", "D) Toaster"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Common Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "An Air Conditioner (AC) cools the air in a room."
+  },
+  {
+    "QuestionText": "What should you do before touching a computer?",
+    "Options": ["A) Make hands wet", "B) Make hands clean and dry", "C) Throw water on it", "D) Eat food over it"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Computer Lab Rules",
+    "Difficulty": "Olympiad",
+    "Explanation": "To keep computers safe, we must always have clean and dry hands."
+  }
+]

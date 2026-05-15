@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is the output of: print(type(5))?",
+    "Options": [
+      "A) int",
+      "B) <class 'int'>",
+      "C) integer",
+      "D) 5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "type() returns the class of the value. print(type(5)) displays <class 'int'>. Similarly: type(5.0) \u2192 float, type('hello') \u2192 str, type(True) \u2192 bool."
+  },
+  {
+    "QuestionText": "Which of the following is a mutable data structure in Python?",
+    "Options": [
+      "A) Tuple",
+      "B) String",
+      "C) List",
+      "D) frozenset"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Mutable = can be changed after creation. List is mutable (append, remove, modify). Tuple, string, frozenset are immutable \u2014 once created, cannot be modified."
+  },
+  {
+    "QuestionText": "What does len([1, 2, 3, 4, 5]) return?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 15"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Built-in Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "len() returns the number of elements. The list [1,2,3,4,5] has 5 elements, so len() returns 5."
+  },
+  {
+    "QuestionText": "What is the output of: print(10 // 3)?",
+    "Options": [
+      "A) 3.33",
+      "B) 3",
+      "C) 4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "// is integer (floor) division. 10 // 3 = 3 (discards decimal). 10 / 3 = 3.333... (regular division). 10 % 3 = 1 (modulo/remainder)."
+  },
+  {
+    "QuestionText": "What will this print?\nfor i in range(1, 6):\n    print(i, end=' ')",
+    "Options": [
+      "A) 1 2 3 4 5 6",
+      "B) 0 1 2 3 4 5",
+      "C) 1 2 3 4 5",
+      "D) 1 2 3 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Loops",
+    "Difficulty": "Foundation",
+    "Explanation": "range(1, 6) generates 1, 2, 3, 4, 5 (6 is excluded). end=' ' prints values on same line with spaces."
+  },
+  {
+    "QuestionText": "Which keyword is used to define a function in Python?",
+    "Options": [
+      "A) function",
+      "B) define",
+      "C) def",
+      "D) fun"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "def keyword defines a function in Python. Syntax: def function_name(parameters): (followed by indented body). Unlike C/Java, no curly braces."
+  },
+  {
+    "QuestionText": "What is the output of: print('Hello' * 3)?",
+    "Options": [
+      "A) HelloHelloHello",
+      "B) Hello 3",
+      "C) Hello*3",
+      "D) Error"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Strings",
+    "Difficulty": "Foundation",
+    "Explanation": "String repetition: 'Hello' * 3 = 'HelloHelloHello'. Python allows * operator with strings to repeat them."
+  },
+  {
+    "QuestionText": "What does the following return?\nmy_list = [3, 1, 4, 1, 5]\nprint(my_list[2])",
+    "Options": [
+      "A) 1",
+      "B) 4",
+      "C) 3",
+      "D) 5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Lists",
+    "Difficulty": "Foundation",
+    "Explanation": "Python uses 0-based indexing. my_list[0]=3, my_list[1]=1, my_list[2]=4. Index 2 = third element = 4."
+  },
+  {
+    "QuestionText": "What is the output of: print(bool(0))?",
+    "Options": [
+      "A) True",
+      "B) 0",
+      "C) False",
+      "D) Error"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "bool(0) = False. In Python, 0, empty string, None, empty list/dict/tuple are all falsy. Any non-zero number or non-empty collection is truthy."
+  },
+  {
+    "QuestionText": "Which of the following correctly creates a dictionary in Python?",
+    "Options": [
+      "A) d = {1, 2, 3}",
+      "B) d = [1: 'a', 2: 'b']",
+      "C) d = {'a': 1, 'b': 2}",
+      "D) d = (a=1, b=2)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Dictionaries",
+    "Difficulty": "Foundation",
+    "Explanation": "Dictionary: {key: value} pairs. Option A is a set. Option C is correct: {'a': 1, 'b': 2}. Access: d['a'] \u2192 1."
+  },
+  {
+    "QuestionText": "What is the output of:\nx = 5\nif x > 3:\n    print('A')\nelif x > 1:\n    print('B')\nelse:\n    print('C')",
+    "Options": [
+      "A) A",
+      "B) B",
+      "C) C",
+      "D) AB"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Conditionals",
+    "Difficulty": "Foundation",
+    "Explanation": "x=5. First condition: 5>3 is True \u2192 prints 'A' and stops. elif and else are skipped once a condition is met."
+  },
+  {
+    "QuestionText": "What does the 'return' statement do in a function?",
+    "Options": [
+      "A) Ends the program",
+      "B) Sends a value back to the caller and exits the function",
+      "C) Prints the value",
+      "D) Stores the value in memory"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "return sends a value back to wherever the function was called and exits the function. A function without return returns None."
+  },
+  {
+    "QuestionText": "What is a lambda function in Python?",
+    "Options": [
+      "A) A function defined with def",
+      "B) An anonymous function defined with lambda keyword",
+      "C) A recursive function",
+      "D) A built-in function"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Lambda: anonymous (unnamed) one-line function. Syntax: lambda args: expression. E.g., square = lambda x: x**2. Equivalent to def square(x): return x**2."
+  },
+  {
+    "QuestionText": "What is the output of:\nnums = [1, 2, 3, 4, 5]\nresult = list(filter(lambda x: x % 2 == 0, nums))\nprint(result)",
+    "Options": [
+      "A) [1, 3, 5]",
+      "B) [2, 4]",
+      "C) [1, 2, 3, 4, 5]",
+      "D) [True, False, True, False, True]"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functional Programming",
+    "Difficulty": "Advanced",
+    "Explanation": "filter() returns elements where the function returns True. x%2==0 is True for even numbers. Even numbers in [1,2,3,4,5] = [2,4]."
+  },
+  {
+    "QuestionText": "List comprehension [x**2 for x in range(4)] produces:",
+    "Options": [
+      "A) [0, 1, 4, 9]",
+      "B) [1, 4, 9, 16]",
+      "C) [0, 1, 2, 3]",
+      "D) [1, 2, 3, 4]"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "List Comprehension",
+    "Difficulty": "Advanced",
+    "Explanation": "range(4) = [0,1,2,3]. x**2 for each: 0\u00b2=0, 1\u00b2=1, 2\u00b2=4, 3\u00b2=9. Result: [0,1,4,9]."
+  },
+  {
+    "QuestionText": "What is the purpose of 'try...except' in Python?",
+    "Options": [
+      "A) To create loops",
+      "B) To define functions",
+      "C) To handle exceptions (errors) gracefully",
+      "D) To import modules"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Exception Handling",
+    "Difficulty": "Foundation",
+    "Explanation": "try...except: handles runtime errors without crashing the program. try: code that might raise an error. except: code that runs if error occurs. finally: code that always runs."
+  },
+  {
+    "QuestionText": "Which method adds an element to the end of a list?",
+    "Options": [
+      "A) list.add()",
+      "B) list.insert()",
+      "C) list.append()",
+      "D) list.extend()"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Lists",
+    "Difficulty": "Foundation",
+    "Explanation": "append(x): adds x to the end. insert(i, x): inserts x at index i. extend(iterable): adds all elements of iterable. add() is for sets."
+  },
+  {
+    "QuestionText": "What does 'OOP' stand for?",
+    "Options": [
+      "A) Object-Oriented Programming",
+      "B) Output-Oriented Processing",
+      "C) Operator Overloading Protocol",
+      "D) Open Object Platform"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "OOP",
+    "Difficulty": "Foundation",
+    "Explanation": "OOP (Object-Oriented Programming): programming paradigm based on objects and classes. Key concepts: encapsulation, inheritance, polymorphism, abstraction. Python fully supports OOP."
+  },
+  {
+    "QuestionText": "In Python OOP, '__init__' is:",
+    "Options": [
+      "A) A destructor",
+      "B) A constructor (called when object is created)",
+      "C) A static method",
+      "D) An inherited method"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "OOP",
+    "Difficulty": "Advanced",
+    "Explanation": "__init__ is the initializer/constructor. Called automatically when an object is instantiated. Used to set initial attribute values. 'self' refers to the instance being created."
+  },
+  {
+    "QuestionText": "What is 'inheritance' in OOP?",
+    "Options": [
+      "A) A class using methods of another class",
+      "B) Passing values to functions",
+      "C) Creating multiple objects",
+      "D) Deleting objects"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "OOP",
+    "Difficulty": "Advanced",
+    "Explanation": "Inheritance: a child class inherits attributes and methods from a parent class. Child can add new features or override inherited ones. Python supports single and multiple inheritance."
+  },
+  {
+    "QuestionText": "What is the output of:\ndef greet(name='World'):\n    return f'Hello, {name}!'\nprint(greet())",
+    "Options": [
+      "A) Hello, !",
+      "B) Hello, World!",
+      "C) Error",
+      "D) Hello, name!"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "Default parameter: if name not provided, uses 'World'. greet() \u2192 greet(name='World') \u2192 'Hello, World!'. f-strings format variables directly in strings."
+  },
+  {
+    "QuestionText": "What is the time complexity of accessing an element in a Python list by index?",
+    "Options": [
+      "A) O(n)",
+      "B) O(log n)",
+      "C) O(1)",
+      "D) O(n\u00b2)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "List element access by index = O(1) (constant time). Lists in Python are implemented as arrays \u2014 any index can be accessed directly. Linear search = O(n)."
+  },
+  {
+    "QuestionText": "What does 'pass' do in Python?",
+    "Options": [
+      "A) Exits a function",
+      "B) Skips current iteration",
+      "C) Does nothing; a placeholder statement",
+      "D) Raises an exception"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "pass = null operation. Used where code is syntactically required but no action needed (e.g., empty class/function body). 'continue' skips iteration; 'break' exits loop."
+  },
+  {
+    "QuestionText": "What is the output of:\ns = 'Hello, World!'\nprint(s[7:12])",
+    "Options": [
+      "A) World",
+      "B) Hello",
+      "C) orld!",
+      "D) World!"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Strings",
+    "Difficulty": "Advanced",
+    "Explanation": "String slicing [start:end] \u2014 start inclusive, end exclusive. s[7]='W', s[8]='o', s[9]='r', s[10]='l', s[11]='d'. s[7:12] = 'World'."
+  },
+  {
+    "QuestionText": "Which sorting algorithm has average time complexity O(n log n)?",
+    "Options": [
+      "A) Bubble sort",
+      "B) Selection sort",
+      "C) Insertion sort",
+      "D) Merge sort"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Merge sort: O(n log n) average and worst case. Bubble, selection, insertion sort: O(n\u00b2) average. Quick sort: O(n log n) average but O(n\u00b2) worst case."
+  },
+  {
+    "QuestionText": "What is a Python generator?",
+    "Options": [
+      "A) A function that returns a list",
+      "B) A function using yield to produce values one at a time (lazy evaluation)",
+      "C) A class that generates random numbers",
+      "D) A built-in data type"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Advanced Python",
+    "Difficulty": "Olympiad",
+    "Explanation": "Generator: uses yield instead of return. Returns a generator object (iterator). Values generated lazily (on demand) \u2014 memory efficient for large sequences. E.g., def gen(): yield 1; yield 2."
+  },
+  {
+    "QuestionText": "What is the output of:\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)",
+    "Options": [
+      "A) [1, 2, 3]",
+      "B) [1, 2, 3, 4]",
+      "C) Error",
+      "D) [4]"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Advanced",
+    "Explanation": "b = a creates a reference to the SAME list (not a copy). Modifying b also modifies a. To copy: b = a.copy() or b = a[:]. This demonstrates Python's reference semantics."
+  },
+  {
+    "QuestionText": "What is recursion?",
+    "Options": [
+      "A) A loop that counts backwards",
+      "B) A function that calls itself",
+      "C) A way to import modules",
+      "D) A method to sort lists"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "Recursion: a function that calls itself. Must have a base case (stopping condition) to avoid infinite recursion. Common for: factorial, Fibonacci, tree traversal, etc."
+  },
+  {
+    "QuestionText": "What is the output of:\ndef factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n-1)\nprint(factorial(5))",
+    "Options": [
+      "A) 15",
+      "B) 100",
+      "C) 120",
+      "D) 24"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "factorial(5)=5\u00d7factorial(4)=5\u00d74\u00d73\u00d72\u00d71=120. Base case: factorial(0)=1."
+  },
+  {
+    "QuestionText": "What does the 'global' keyword do in Python?",
+    "Options": [
+      "A) Creates a global variable",
+      "B) Allows a function to modify a variable defined outside it",
+      "C) Makes all variables global",
+      "D) Imports global modules"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "global: inside a function, declare 'global x' to modify the global variable x (not create a local copy). Without global, assigning to x inside a function creates a local variable."
+  },
+  {
+    "QuestionText": "What is a Python decorator?",
+    "Options": [
+      "A) A comment added to code",
+      "B) A function that modifies another function's behavior",
+      "C) A CSS-like styling tool",
+      "D) A built-in class"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Advanced Python",
+    "Difficulty": "Olympiad",
+    "Explanation": "Decorator: @decorator syntax. A function that wraps another function to add behavior before/after. Used for logging, authentication, timing. E.g., @staticmethod, @classmethod, @property."
+  },
+  {
+    "QuestionText": "What is a 'set' in Python?",
+    "Options": [
+      "A) An ordered collection of elements",
+      "B) An unordered collection of unique elements",
+      "C) A collection with key-value pairs",
+      "D) An immutable sequence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Set: unordered, no duplicates, mutable. {1, 2, 3}. Supports set operations: union, intersection, difference. Doesn't support indexing (unordered). Useful for removing duplicates."
+  },
+  {
+    "QuestionText": "What is the output of:\nprint(2 ** 3 ** 2)",
+    "Options": [
+      "A) 64",
+      "B) 512",
+      "C) 72",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Operators",
+    "Difficulty": "Olympiad",
+    "Explanation": "** (exponentiation) is right-associative: 2**(3**2) = 2**9 = 512. Not (2**3)**2 = 64. This is different from most other operators."
+  },
+  {
+    "QuestionText": "What does 'enumerate' do in Python?",
+    "Options": [
+      "A) Converts a list to a set",
+      "B) Returns index and element pairs from an iterable",
+      "C) Counts distinct elements",
+      "D) Sorts a list with numbering"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Built-in Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "enumerate(iterable): yields (index, value) pairs. E.g., for i, val in enumerate(['a','b','c']): gives (0,'a'), (1,'b'), (2,'c'). Avoids manual index management."
+  },
+  {
+    "QuestionText": "What is the output of:\nmy_dict = {'a': 1, 'b': 2}\nprint(my_dict.get('c', 0))",
+    "Options": [
+      "A) None",
+      "B) KeyError",
+      "C) 0",
+      "D) c"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Dictionaries",
+    "Difficulty": "Advanced",
+    "Explanation": "dict.get(key, default): returns the value for key if present, else default. 'c' not in dict \u2192 returns default 0. Without default: get('c') returns None (not KeyError)."
+  },
+  {
+    "QuestionText": "What is a Python module?",
+    "Options": [
+      "A) A single function",
+      "B) A Python file containing code that can be imported",
+      "C) A built-in data type",
+      "D) A loop construct"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Modules",
+    "Difficulty": "Foundation",
+    "Explanation": "Module: a Python file (.py) containing functions, classes, and variables. Import with 'import module_name'. Standard library modules: math, os, sys, datetime. Third-party: numpy, pandas."
+  },
+  {
+    "QuestionText": "Which is the correct way to open a file for reading in Python?",
+    "Options": [
+      "A) open('file.txt')",
+      "B) open('file.txt', 'r')",
+      "C) open('file.txt', mode='read')",
+      "D) Both A and B"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "File Handling",
+    "Difficulty": "Advanced",
+    "Explanation": "open('file.txt') defaults to mode='r' (read). Explicit: open('file.txt', 'r'). Other modes: 'w' (write), 'a' (append), 'rb' (read binary). Both A and B are correct for reading."
+  },
+  {
+    "QuestionText": "What is the output of: print([1,2,3] + [4,5])?",
+    "Options": [
+      "A) [5,7,3]",
+      "B) [1,2,3,4,5]",
+      "C) [1,2,3,[4,5]]",
+      "D) Error"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Lists",
+    "Difficulty": "Foundation",
+    "Explanation": "List concatenation with + joins two lists: [1,2,3] + [4,5] = [1,2,3,4,5]. Creates a new list. Does not modify original lists."
+  },
+  {
+    "QuestionText": "Which of the following is used to read a line from a file in Python?",
+    "Options": [
+      "A) file.read()",
+      "B) file.readline()",
+      "C) file.readall()",
+      "D) file.getline()"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "File Handling",
+    "Difficulty": "Foundation",
+    "Explanation": "readline(): reads one line at a time including newline. read(): reads entire file. readlines(): reads all lines into a list. readline() is memory-efficient for large files."
+  },
+  {
+    "QuestionText": "What is 'polymorphism' in OOP?",
+    "Options": [
+      "A) An object having multiple names",
+      "B) Different classes having methods with the same name but different implementations",
+      "C) A class inheriting from multiple parents",
+      "D) A method that changes its return type"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "OOP",
+    "Difficulty": "Advanced",
+    "Explanation": "Polymorphism: same method name works differently in different classes. E.g., draw() in Circle, Square, Triangle all do different things. Enables flexible, extensible code."
+  },
+  {
+    "QuestionText": "What is the purpose of 'self' in Python class methods?",
+    "Options": [
+      "A) Refers to the class itself",
+      "B) Refers to the specific instance (object) calling the method",
+      "C) Is a required keyword with no meaning",
+      "D) Refers to the parent class"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "OOP",
+    "Difficulty": "Foundation",
+    "Explanation": "'self' is a reference to the current instance of the class. Allows methods to access instance attributes and other methods. Python doesn't automatically pass it \u2014 must be first parameter."
+  },
+  {
+    "QuestionText": "What does *args in a function definition do?",
+    "Options": [
+      "A) Makes arguments optional",
+      "B) Accepts any number of positional arguments as a tuple",
+      "C) Accepts keyword arguments",
+      "D) Passes a list directly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Olympiad",
+    "Explanation": "*args: collects additional positional arguments into a tuple. E.g., def f(*args): print(args). f(1,2,3) \u2192 (1,2,3). **kwargs collects keyword arguments into a dict."
+  },
+  {
+    "QuestionText": "What is the output of:\nprint(list(map(str, [1, 2, 3])))",
+    "Options": [
+      "A) [1, 2, 3]",
+      "B) ['1', '2', '3']",
+      "C) '123'",
+      "D) [str, str, str]"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functional Programming",
+    "Difficulty": "Advanced",
+    "Explanation": "map(function, iterable): applies function to each element. map(str, [1,2,3]) converts each int to str. list() converts map object to list: ['1','2','3']."
+  },
+  {
+    "QuestionText": "What is the Big-O of searching a key in a Python dictionary?",
+    "Options": [
+      "A) O(n)",
+      "B) O(log n)",
+      "C) O(1) average",
+      "D) O(n\u00b2)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Python dict uses hash tables. Hash lookup = O(1) average (hash computed directly to bucket). Worst case O(n) with many collisions, but rare. Much faster than list search O(n)."
+  },
+  {
+    "QuestionText": "What is 'encapsulation' in OOP?",
+    "Options": [
+      "A) Inheriting from multiple classes",
+      "B) Bundling data and methods together and restricting direct access",
+      "C) Same method working on different types",
+      "D) Creating multiple instances of a class"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "OOP",
+    "Difficulty": "Advanced",
+    "Explanation": "Encapsulation: hiding internal state and requiring interaction through methods. In Python: _protected (single underscore) and __private (double underscore) attributes. Promotes modularity."
+  },
+  {
+    "QuestionText": "What does the 'zip' function do?",
+    "Options": [
+      "A) Compresses files",
+      "B) Combines multiple iterables into tuples",
+      "C) Sorts a list",
+      "D) Removes duplicates"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Built-in Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "zip(a, b): creates iterator of tuples pairing elements. zip([1,2],[3,4]) \u2192 [(1,3),(2,4)]. Stops at shortest. Useful for iterating multiple lists simultaneously."
+  },
+  {
+    "QuestionText": "What is the output of:\nmy_tuple = (1, 2, 3)\nmy_tuple[0] = 10",
+    "Options": [
+      "A) (10, 2, 3)",
+      "B) TypeError: tuples are immutable",
+      "C) (1, 2, 3)",
+      "D) No output"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Tuples are immutable \u2014 you cannot change elements after creation. Attempting to assign raises TypeError. Use a list if you need mutability."
+  },
+  {
+    "QuestionText": "What is 'scope' in Python?",
+    "Options": [
+      "A) The size of a program",
+      "B) The region where a variable is accessible",
+      "C) The speed of execution",
+      "D) The indentation level"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Scope: LEGB rule \u2014 Local, Enclosing, Global, Built-in. Variables defined inside a function are local. Python searches LEGB order when resolving variable names."
+  },
+  {
+    "QuestionText": "What is the output of: print(sorted([3, 1, 4, 1, 5, 9], reverse=True))?",
+    "Options": [
+      "A) [1, 1, 3, 4, 5, 9]",
+      "B) [9, 5, 4, 3, 1, 1]",
+      "C) Error",
+      "D) [3, 1, 4, 1, 5, 9]"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "Built-in Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "sorted() returns a new sorted list. reverse=True sorts in descending order. The original list is unchanged. Use list.sort() to sort in-place."
+  },
+  {
+    "QuestionText": "What is a 'class variable' vs 'instance variable' in Python?",
+    "Options": [
+      "A) Class variable is defined inside __init__; instance is outside",
+      "B) Class variable is shared by all instances; instance variable is unique to each object",
+      "C) They are the same thing",
+      "D) Class variables cannot be changed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Python Programming",
+    "SubTopic": "OOP",
+    "Difficulty": "Olympiad",
+    "Explanation": "Class variable: defined in class body, shared by all instances. Instance variable: defined with self.var in __init__, unique per object. Accessing class var via instance can shadow with instance var."
+  }
+]

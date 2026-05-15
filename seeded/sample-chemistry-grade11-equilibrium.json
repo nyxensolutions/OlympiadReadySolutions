@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The law of mass action states that the rate of reaction is proportional to:",
+    "Options": [
+      "A) Product of concentrations of reactants",
+      "B) Sum of concentrations",
+      "C) Temperature only",
+      "D) Catalyst concentration"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Chemical Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "Rate ∝ [A]^m [B]^n for aA + bB → products. The equilibrium constant is derived from this principle."
+  },
+  {
+    "QuestionText": "For the reaction N₂ + 3H₂ ⇌ 2NH₃, Kc is:",
+    "Options": [
+      "A) [N₂][H₂]³/[NH₃]²",
+      "B) [NH₃]²/[N₂][H₂]³",
+      "C) [NH₃]/[N₂][H₂]",
+      "D) [N₂][H₂]/[NH₃]"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Foundation",
+    "Explanation": "Kc = products/reactants = [NH₃]²/([N₂][H₂]³). Concentrations raised to stoichiometric coefficients."
+  },
+  {
+    "QuestionText": "Le Chatelier's principle states that if a system at equilibrium is disturbed, it will:",
+    "Options": [
+      "A) Reach a new equilibrium with the same K",
+      "B) Shift to oppose the disturbance",
+      "C) Increase in temperature",
+      "D) Increase in pressure always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Le Chatelier's Principle",
+    "Difficulty": "Foundation",
+    "Explanation": "Le Chatelier: equilibrium shifts to counteract any change (increased concentration, pressure, or temperature change)."
+  },
+  {
+    "QuestionText": "Increasing concentration of reactants shifts equilibrium:",
+    "Options": [
+      "A) Backward",
+      "B) Forward (toward products)",
+      "C) Has no effect",
+      "D) Depends on temperature"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Le Chatelier's Principle",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding more reactants: system opposes by consuming them → shifts forward. This is Le Chatelier's principle."
+  },
+  {
+    "QuestionText": "For the reaction: 2SO₂ + O₂ ⇌ 2SO₃ + heat, increasing temperature shifts equilibrium:",
+    "Options": [
+      "A) Forward (more SO₃)",
+      "B) Backward (more SO₂)",
+      "C) No effect",
+      "D) Depends on pressure"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Le Chatelier's Principle",
+    "Difficulty": "Foundation",
+    "Explanation": "Exothermic reaction (heat is product). Increasing T = adding heat. System shifts backward to remove heat."
+  },
+  {
+    "QuestionText": "The relationship between Kp and Kc is:",
+    "Options": [
+      "A) Kp = Kc",
+      "B) Kp = Kc(RT)^Δn",
+      "C) Kp = Kc/RT",
+      "D) Kp = Kc − Δn"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Foundation",
+    "Explanation": "Kp = Kc(RT)^Δn where Δn = moles of gaseous products − moles of gaseous reactants. For Δn=0: Kp=Kc."
+  },
+  {
+    "QuestionText": "Solubility product (Ksp) of AgCl is 1.8×10⁻¹⁰. The solubility of AgCl in pure water is:",
+    "Options": [
+      "A) 1.8×10⁻¹⁰ M",
+      "B) 1.34×10⁻⁵ M",
+      "C) 3.6×10⁻¹⁰ M",
+      "D) 9×10⁻⁶ M"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "AgCl → Ag⁺ + Cl⁻. s² = Ksp = 1.8×10⁻¹⁰. s = sqrt(1.8×10⁻¹⁰) = 1.34×10⁻⁵ M."
+  },
+  {
+    "QuestionText": "A pH of 7 at 25°C indicates:",
+    "Options": [
+      "A) Acidic solution",
+      "B) Neutral solution",
+      "C) Basic solution",
+      "D) Depends on solute"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "pH = −log[H⁺]. At 25°C, Kw = 10⁻¹⁴. Pure water: [H⁺] = 10⁻⁷ M, pH = 7 (neutral)."
+  },
+  {
+    "QuestionText": "The pH of 0.01 M HCl solution is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 7",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "HCl is strong acid — fully dissociates. [H⁺] = 0.01 M = 10⁻² M. pH = −log(10⁻²) = 2."
+  },
+  {
+    "QuestionText": "The conjugate base of H₂O is:",
+    "Options": [
+      "A) H₃O⁺",
+      "B) OH⁻",
+      "C) H₂O₂",
+      "D) O²⁻"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "H₂O donates proton → H₂O − H⁺ = OH⁻. The conjugate base has one fewer proton than the acid."
+  },
+  {
+    "QuestionText": "According to Brønsted-Lowry theory, an acid is:",
+    "Options": [
+      "A) Proton acceptor",
+      "B) Proton donor",
+      "C) Electron pair donor",
+      "D) Electron pair acceptor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "Brønsted-Lowry: acid = proton (H⁺) donor; base = proton acceptor. This extends beyond Arrhenius definition."
+  },
+  {
+    "QuestionText": "According to Lewis theory, an acid is:",
+    "Options": [
+      "A) Proton donor",
+      "B) Proton acceptor",
+      "C) Electron pair acceptor",
+      "D) Electron pair donor"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "Lewis acid: electron pair acceptor (e.g., BF₃, Al³⁺). Lewis base: electron pair donor (e.g., NH₃, F⁻). Most general acid-base theory."
+  },
+  {
+    "QuestionText": "A buffer solution resists change in:",
+    "Options": [
+      "A) Temperature",
+      "B) Concentration",
+      "C) pH",
+      "D) Pressure"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Buffer Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "Buffer = weak acid + its conjugate base (or weak base + conjugate acid). Resists pH change on addition of small amounts of acid or base."
+  },
+  {
+    "QuestionText": "Henderson-Hasselbalch equation is:",
+    "Options": [
+      "A) pH = pKa + log([A⁻]/[HA])",
+      "B) pH = pKa − log([A⁻]/[HA])",
+      "C) pH = Ka × [HA]/[A⁻]",
+      "D) pH = pKw − pKa"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Buffer Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "pH = pKa + log([A⁻]/[HA]). At equal concentrations of acid and conjugate base: pH = pKa. Useful for buffer design."
+  },
+  {
+    "QuestionText": "When Kc > 1, the equilibrium favors:",
+    "Options": [
+      "A) Reactants",
+      "B) Products",
+      "C) Neither",
+      "D) Depends on temperature"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Foundation",
+    "Explanation": "Kc > 1: [products] > [reactants] at equilibrium → product-favored. Kc < 1: reactant-favored. Kc = 1: roughly equal."
+  },
+  {
+    "QuestionText": "The common ion effect refers to:",
+    "Options": [
+      "A) Addition of a common catalyst",
+      "B) Suppression of ionization/solubility by adding an ion already in solution",
+      "C) Increasing ionization of weak acid",
+      "D) Neutralization reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Common ion suppresses equilibrium: adding Cl⁻ to AgCl solution decreases AgCl solubility. Adding CH₃COO⁻ suppresses acetic acid ionization."
+  },
+  {
+    "QuestionText": "The ionic product of water Kw at 25°C is:",
+    "Options": [
+      "A) 10⁻⁷",
+      "B) 10⁻¹⁴",
+      "C) 10⁻⁷ mol/L",
+      "D) 14"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "Kw = [H⁺][OH⁻] = 10⁻¹⁴ mol²/L² at 25°C. It increases with temperature. Kw=10⁻¹⁴ means pH+pOH=14."
+  },
+  {
+    "QuestionText": "pH + pOH at 25°C equals:",
+    "Options": [
+      "A) 0",
+      "B) 7",
+      "C) 14",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "pKw = pH + pOH = 14 at 25°C. If pH=3 (acidic), pOH=11, [OH⁻]=10⁻¹¹ M."
+  },
+  {
+    "QuestionText": "For a weak acid HA with Ka = 10⁻⁵, the pKa is:",
+    "Options": [
+      "A) −5",
+      "B) 5",
+      "C) 10⁻⁵",
+      "D) 0.00001"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "pKa = −log Ka = −log(10⁻⁵) = 5. A larger pKa means weaker acid."
+  },
+  {
+    "QuestionText": "Adding excess NaCl to a saturated AgCl solution will:",
+    "Options": [
+      "A) Increase Ksp",
+      "B) Increase AgCl solubility",
+      "C) Decrease AgCl solubility (common ion effect)",
+      "D) Have no effect"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Cl⁻ is a common ion. Adding it shifts AgCl ⇌ Ag⁺ + Cl⁻ backward → less AgCl dissolves. Ksp unchanged."
+  },
+  {
+    "QuestionText": "The degree of dissociation of a weak electrolyte increases upon:",
+    "Options": [
+      "A) Adding more electrolyte",
+      "B) Increasing concentration",
+      "C) Dilution (decreasing concentration)",
+      "D) Adding common ion"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Ostwald dilution law: α = sqrt(Ka/C). As C decreases (dilution), α increases. Infinite dilution → complete dissociation."
+  },
+  {
+    "QuestionText": "For the reaction A + B ⇌ C + D, if Kc = 4 and [A]=[B]=1 M initially, [C] at equilibrium is:",
+    "Options": [
+      "A) 0.67 M",
+      "B) 4 M",
+      "C) 2 M",
+      "D) 1 M"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Advanced",
+    "Explanation": "Let x = moles reacted. Kc = x²/(1−x)² = 4 → x/(1−x) = 2 → x = 2−2x → 3x=2 → x=2/3=0.67 M."
+  },
+  {
+    "QuestionText": "The Arrhenius definition of a base is a substance that:",
+    "Options": [
+      "A) Accepts protons",
+      "B) Donates protons",
+      "C) Produces OH⁻ ions in water",
+      "D) Accepts electron pairs"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "Arrhenius: acid produces H⁺ in water; base produces OH⁻ in water. This was the earliest acid-base theory (1884)."
+  },
+  {
+    "QuestionText": "Reaction quotient Qc compared to Kc tells us:",
+    "Options": [
+      "A) Rate of reaction",
+      "B) Direction equilibrium will shift",
+      "C) Temperature of reaction",
+      "D) Heat of reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Advanced",
+    "Explanation": "If Qc < Kc: forward reaction proceeds. If Qc > Kc: reverse reaction proceeds. If Qc = Kc: at equilibrium. Q/K comparison predicts direction."
+  },
+  {
+    "QuestionText": "Hydrolysis of a salt of strong base and weak acid gives:",
+    "Options": [
+      "A) Acidic solution",
+      "B) Neutral solution",
+      "C) Basic solution",
+      "D) Depends on salt amount"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Hydrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "E.g., CH₃COONa: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. The anion hydrolyzes to give OH⁻ → basic."
+  },
+  {
+    "QuestionText": "Ksp of Ag₂CrO₄ = 1.12×10⁻¹². Solubility s of Ag₂CrO₄ is:",
+    "Options": [
+      "A) 1.12×10⁻¹² M",
+      "B) 6.54×10⁻⁵ M",
+      "C) sqrt(1.12×10⁻¹²) M",
+      "D) 4.03×10⁻⁵ M"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ag₂CrO₄ → 2Ag⁺ + CrO₄²⁻. Ksp=(2s)²(s)=4s³=1.12×10⁻¹². s³=2.8×10⁻¹³. s=6.54×10⁻⁵ M."
+  },
+  {
+    "QuestionText": "A solution of NaCl has pH = 7. This is because:",
+    "Options": [
+      "A) NaCl is acidic",
+      "B) Na⁺ and Cl⁻ don't hydrolyze (salt of strong acid + strong base)",
+      "C) Cl⁻ is a strong base",
+      "D) Na⁺ is a strong acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Hydrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "NaCl = strong acid (HCl) + strong base (NaOH). Neither ion hydrolyzes. Solution is neutral (pH=7)."
+  },
+  {
+    "QuestionText": "The degree of ionization of acetic acid increases when:",
+    "Options": [
+      "A) More acetic acid is added",
+      "B) HCl is added",
+      "C) Water is added (dilution)",
+      "D) Temperature decreases"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Ka = Cα²/(1−α) ≈ Cα² for small α. Dilution decreases C; for constant Ka, α increases. Ostwald dilution law."
+  },
+  {
+    "QuestionText": "Which of the following is amphoteric?",
+    "Options": [
+      "A) HCl",
+      "B) NaOH",
+      "C) H₂O",
+      "D) CH₄"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "Amphoteric species can act as both acid and base. Water: H₂O + H⁺ → H₃O⁺ (base) or H₂O → H⁺ + OH⁻ (acid). Also Al(OH)₃, amino acids."
+  },
+  {
+    "QuestionText": "For the reaction: 2NO₂(g) ⇌ N₂O₄(g). Increasing pressure shifts equilibrium:",
+    "Options": [
+      "A) Backward (toward NO₂)",
+      "B) Forward (toward N₂O₄)",
+      "C) No effect",
+      "D) Depends on temperature"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Le Chatelier's Principle",
+    "Difficulty": "Advanced",
+    "Explanation": "Increasing pressure favors fewer moles of gas. 2 moles NO₂ → 1 mole N₂O₄. System shifts forward (right)."
+  },
+  {
+    "QuestionText": "Ka × Kb for a conjugate acid-base pair equals:",
+    "Options": [
+      "A) Ka",
+      "B) Kb",
+      "C) Kw",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "For conjugate pair (HA and A⁻): Ka × Kb = Kw = 10⁻¹⁴. Stronger acid → weaker conjugate base."
+  },
+  {
+    "QuestionText": "At high temperature, the equilibrium N₂ + O₂ ⇌ 2NO shifts forward because:",
+    "Options": [
+      "A) Reaction is exothermic",
+      "B) Reaction is endothermic (ΔH > 0)",
+      "C) Pressure increases",
+      "D) N₂ decomposes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Le Chatelier's Principle",
+    "Difficulty": "Advanced",
+    "Explanation": "Formation of NO is highly endothermic (ΔH = +180 kJ/mol). High temperatures (lightning, engines) provide needed energy, shifting equilibrium forward."
+  },
+  {
+    "QuestionText": "The equilibrium constant K is affected by:",
+    "Options": [
+      "A) Adding catalyst",
+      "B) Increasing pressure",
+      "C) Changing temperature",
+      "D) Changing concentration"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Foundation",
+    "Explanation": "K changes only with temperature. Catalyst, pressure (for gases), concentration changes shift equilibrium position but do NOT change K value."
+  },
+  {
+    "QuestionText": "For a reaction with Kc = 10⁻³⁰, we expect:",
+    "Options": [
+      "A) Products predominate strongly",
+      "B) Reactants predominate strongly",
+      "C) Equal amounts of reactants and products",
+      "D) Reaction is instantaneous"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Advanced",
+    "Explanation": "K = 10⁻³⁰ << 1. This means products' concentration is negligible compared to reactants. Equilibrium lies far to the left (reactant side)."
+  },
+  {
+    "QuestionText": "Buffer capacity is maximum when:",
+    "Options": [
+      "A) pH = 0",
+      "B) [HA] >> [A⁻]",
+      "C) pH = pKa (equal concentrations of acid and base)",
+      "D) Temperature is high"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Buffer Solutions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Buffer capacity is maximum at pH = pKa when [HA] = [A⁻]. Buffer is effective approximately within pKa ± 1 pH unit."
+  },
+  {
+    "QuestionText": "Ostwald's dilution law: Ka = Cα². This approximation holds when:",
+    "Options": [
+      "A) α is close to 1",
+      "B) α is very small (α << 1)",
+      "C) C is very large",
+      "D) Temperature is low"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Olympiad",
+    "Explanation": "Exact: Ka = Cα²/(1−α). For weak acids α << 1, so (1−α) ≈ 1, giving Ka ≈ Cα². Valid when degree of ionization < 5%."
+  },
+  {
+    "QuestionText": "For the Haber process (N₂ + 3H₂ → 2NH₃), high pressure is used because:",
+    "Options": [
+      "A) K increases with pressure",
+      "B) Rate is too slow at low pressure",
+      "C) Reaction has fewer moles on product side; pressure shifts equilibrium forward",
+      "D) Pressure decreases activation energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Le Chatelier's Principle",
+    "Difficulty": "Advanced",
+    "Explanation": "4 mol gas → 2 mol gas. High pressure favors fewer moles (forward reaction). Also increases rate. Temperature is a compromise (lower T favors equilibrium but slows kinetics)."
+  },
+  {
+    "QuestionText": "Polyprotic acid H₃PO₄ undergoes stepwise dissociation. Ka₁ vs Ka₂ vs Ka₃:",
+    "Options": [
+      "A) Ka₁ < Ka₂ < Ka₃",
+      "B) Ka₁ > Ka₂ > Ka₃",
+      "C) Ka₁ = Ka₂ = Ka₃",
+      "D) All equal Kw"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each successive Ka is smaller. Removing H⁺ from increasingly negatively charged species is harder. Ka₁ >> Ka₂ >> Ka₃ for H₃PO₄."
+  },
+  {
+    "QuestionText": "What is the pH of a 0.1 M NaOH solution?",
+    "Options": [
+      "A) 1",
+      "B) 13",
+      "C) 7",
+      "D) 11"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Foundation",
+    "Explanation": "NaOH is strong base: [OH⁻]=0.1 M=10⁻¹ M. pOH=1. pH=14−1=13."
+  },
+  {
+    "QuestionText": "A buffer of pH 5 can be prepared using:",
+    "Options": [
+      "A) HCl and NaCl",
+      "B) CH₃COOH (pKa=4.74) and CH₃COONa",
+      "C) NaOH and NaCl",
+      "D) Na₂CO₃ and NaHCO₃"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Buffer Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "Buffer pH = pKa ± 1. pKa of acetic acid = 4.74 ≈ 5. Acetic acid/sodium acetate buffer works well at pH ≈ 4-6."
+  },
+  {
+    "QuestionText": "If K for forward reaction is K, then K for reverse reaction is:",
+    "Options": [
+      "A) −K",
+      "B) K²",
+      "C) 1/K",
+      "D) K/2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Foundation",
+    "Explanation": "Reverse reaction: K_rev = 1/K_fwd. If forward K is large, reverse K is small. Products of forward = reactants of reverse."
+  },
+  {
+    "QuestionText": "Precipitation occurs when:",
+    "Options": [
+      "A) Q < Ksp",
+      "B) Q = Ksp",
+      "C) Q > Ksp",
+      "D) Q = 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "When Q (ion product) > Ksp, solution is supersaturated. Excess ions precipitate out until Q = Ksp (equilibrium reached)."
+  },
+  {
+    "QuestionText": "The solubility of CaF₂ in pure water given Ksp = 3.4×10⁻¹¹:",
+    "Options": [
+      "A) 3.4×10⁻¹¹ M",
+      "B) 2.04×10⁻⁴ M",
+      "C) 6.8×10⁻¹¹ M",
+      "D) 1.84×10⁻⁴ M"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Ionic Equilibrium",
+    "Difficulty": "Olympiad",
+    "Explanation": "CaF₂ → Ca²⁺ + 2F⁻. Ksp = s(2s)² = 4s³ = 3.4×10⁻¹¹. s³ = 8.5×10⁻¹². s = (8.5×10⁻¹²)^(1/3) = 2.04×10⁻⁴ M."
+  },
+  {
+    "QuestionText": "Indicators used in acid-base titrations change colour at:",
+    "Options": [
+      "A) pH = 7 always",
+      "B) The equivalence point",
+      "C) Their pKa (transition range)",
+      "D) pH = 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Indicators are weak acids themselves. Colour change occurs near their pKa. For strong acid-strong base, any indicator with pKa near 7 works."
+  },
+  {
+    "QuestionText": "At the equivalence point in a strong acid-weak base titration, the pH is:",
+    "Options": [
+      "A) 7",
+      "B) Greater than 7",
+      "C) Less than 7",
+      "D) Equal to pKb"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Strong acid + weak base (e.g., HCl + NH₃). At equivalence: NH₄Cl solution. NH₄⁺ hydrolyzes (acidic cation): pH < 7."
+  },
+  {
+    "QuestionText": "For equilibrium: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), adding an inert gas at constant volume:",
+    "Options": [
+      "A) Shifts equilibrium forward",
+      "B) Shifts equilibrium backward",
+      "C) Has no effect on equilibrium",
+      "D) Increases K"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Le Chatelier's Principle",
+    "Difficulty": "Olympiad",
+    "Explanation": "Adding inert gas at constant volume doesn't change partial pressures of reactants/products. No shift in equilibrium. (Different at constant total pressure.)"
+  },
+  {
+    "QuestionText": "Simultaneous equilibria: Kc for overall reaction equals:",
+    "Options": [
+      "A) Sum of Kc values",
+      "B) Product of Kc values",
+      "C) Average of Kc values",
+      "D) Largest Kc"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Equilibrium Constant",
+    "Difficulty": "Olympiad",
+    "Explanation": "For sequential reactions A→B→C: K_overall = K₁ × K₂. Multiply Kc values for combined steps (like Hess's law for enthalpy)."
+  },
+  {
+    "QuestionText": "The fraction of molecules in a solution with energy ≥ Ea (activation energy) follows:",
+    "Options": [
+      "A) Arrhenius equation",
+      "B) Boltzmann distribution",
+      "C) Raoult's law",
+      "D) Henry's law"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Chemical Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "The Maxwell-Boltzmann distribution gives fraction of molecules with energy ≥ Ea as e^(−Ea/RT). This underlies the Arrhenius equation for reaction rates."
+  },
+  {
+    "QuestionText": "Weak acid HA has Ka = 1.8×10⁻⁵. pKa ≈:",
+    "Options": [
+      "A) 1.8",
+      "B) 5",
+      "C) 4.74",
+      "D) 9.26"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Acid-Base Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "pKa = −log(1.8×10⁻⁵) = −log(1.8) − log(10⁻⁵) = −0.26 + 5 = 4.74. Same as acetic acid's pKa."
+  },
+  {
+    "QuestionText": "Dissolution of CO₂ in water is described by:",
+    "Options": [
+      "A) Raoult's law",
+      "B) Henry's law",
+      "C) Dalton's law",
+      "D) Boyle's law"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Equilibrium",
+    "SubTopic": "Chemical Equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Henry's law: solubility of gas ∝ partial pressure of gas above liquid. Relevant for carbonation of drinks and blood oxygen transport."
+  }
+]

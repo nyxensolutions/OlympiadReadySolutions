@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "A charged particle moves through a magnetic field. The magnetic force acting on it is maximum when the angle between its velocity and the magnetic field is:",
+    "Options": ["A) 0°", "B) 45°", "C) 90°", "D) 180°"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Effects of Current",
+    "Difficulty": "Foundation",
+    "Explanation": "The magnetic force is given by F = qvB sin θ; it is maximum when sin θ = 1, which occurs at 90°."
+  },
+  {
+    "QuestionText": "The SI unit of magnetic flux density is:",
+    "Options": ["A) Weber", "B) Tesla", "C) Gauss", "D) Maxwell"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Tesla (T) is the SI unit for magnetic field induction or magnetic flux density."
+  },
+  {
+    "QuestionText": "A cyclotron cannot accelerate:",
+    "Options": ["A) Protons", "B) Alpha particles", "C) Electrons", "D) Deuterons"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Advanced",
+    "Explanation": "Electrons have very small mass; their speed increases so rapidly that they quickly become relativistic, causing them to go out of step with the oscillating electric field."
+  },
+  {
+    "QuestionText": "The magnetic field at the center of a circular current-carrying loop of radius R is:",
+    "Options": ["A) μ₀I / 2R", "B) μ₀I / 4R", "C) μ₀I / 2πR", "D) μ₀I / R"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Biot-Savart Law",
+    "Difficulty": "Foundation",
+    "Explanation": "According to Biot-Savart Law, the field at the center is μ₀I / 2R."
+  },
+  {
+    "QuestionText": "The sensitivity of a moving coil galvanometer can be increased by:",
+    "Options": ["A) Decreasing the number of turns", "B) Increasing the magnetic field", "C) Decreasing the area of the coil", "D) Increasing the spring constant"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Galvanometer",
+    "Difficulty": "Advanced",
+    "Explanation": "Current sensitivity is NBA/k; increasing the magnetic field (B) directly increases sensitivity."
+  },
+  {
+    "QuestionText": "Which of the following materials is most suitable for making the core of an electromagnet?",
+    "Options": ["A) Steel", "B) Soft iron", "C) Copper", "D) Aluminum"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Soft iron has high permeability and low retentivity, allowing it to be easily magnetized and demagnetized."
+  },
+  {
+    "QuestionText": "Two parallel wires carrying currents in the same direction ________ each other.",
+    "Options": ["A) Repel", "B) Attract", "C) Neither attract nor repel", "D) Rotate"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Foundation",
+    "Explanation": "Wires with parallel currents attract, while those with anti-parallel currents repel."
+  },
+  {
+    "QuestionText": "The magnetic susceptibility of a paramagnetic substance is:",
+    "Options": ["A) Small and negative", "B) Small and positive", "C) Large and positive", "D) Zero"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Paramagnetic substances are weakly attracted by magnets, indicated by a small positive susceptibility."
+  },
+  {
+    "QuestionText": "A long solenoid has n turns per unit length and carries a current I. The magnetic field inside it is:",
+    "Options": ["A) μ₀nI", "B) μ₀NI", "C) μ₀I / n", "D) Zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Ampere's Circuital Law",
+    "Difficulty": "Foundation",
+    "Explanation": "The magnetic field inside an ideal long solenoid is uniform and given by B = μ₀nI."
+  },
+  {
+    "QuestionText": "The vertical component of the Earth's magnetic field is zero at:",
+    "Options": ["A) Magnetic poles", "B) Magnetic equator", "C) 45° latitude", "D) Everywhere"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Earth's Magnetism",
+    "Difficulty": "Advanced",
+    "Explanation": "At the magnetic equator, the dip angle is 0°, meaning the field is entirely horizontal."
+  },
+  {
+    "QuestionText": "A galvanometer can be converted into a voltmeter by connecting a:",
+    "Options": ["A) Low resistance in series", "B) High resistance in series", "C) Low resistance in parallel", "D) High resistance in parallel"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Galvanometer",
+    "Difficulty": "Advanced",
+    "Explanation": "A high series resistance limits the current and allows the device to measure potential difference without affecting the circuit."
+  },
+  {
+    "QuestionText": "The trajectory of a charged particle moving perpendicular to a uniform magnetic field is:",
+    "Options": ["A) Straight line", "B) Parabola", "C) Circle", "D) Helix"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Foundation",
+    "Explanation": "The magnetic force acts as a centripetal force, keeping the particle in a circular path."
+  },
+  {
+    "QuestionText": "Ampere's Circuital Law is analogous to which law in electrostatics?",
+    "Options": ["A) Coulomb's Law", "B) Gauss's Law", "C) Ohm's Law", "D) Lenz's Law"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Ampere's Circuital Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Both relate the integral of a field over a closed path/surface to the source (current or charge) enclosed."
+  },
+  {
+    "QuestionText": "A proton and an alpha particle enter a magnetic field with the same velocity. The ratio of the radii of their paths is:",
+    "Options": ["A) 1:1", "B) 1:2", "C) 2:1", "D) 1:4"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Olympiad",
+    "Explanation": "r = mv/qB. For same v and B, r ∝ m/q. For proton (1/1) and alpha (4/2), the ratio is 1:2."
+  },
+  {
+    "QuestionText": "Hysteresis is a phenomenon shown by:",
+    "Options": ["A) Diamagnetic substances", "B) Paramagnetic substances", "C) Ferromagnetic substances", "D) Non-magnetic substances"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Ferromagnetic materials retain magnetism even after the external field is removed, leading to the hysteresis loop."
+  },
+  {
+    "QuestionText": "The magnetic moment of a current loop depends on:",
+    "Options": ["A) Current only", "B) Area only", "C) Current and Area", "D) Magnetic field"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Magnetic moment M = NIA, where N is turns, I is current, and A is the area vector."
+  },
+  {
+    "QuestionText": "At the Curie temperature, a ferromagnetic substance becomes:",
+    "Options": ["A) Diamagnetic", "B) Paramagnetic", "C) Non-magnetic", "D) Superconducting"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Above this temperature, thermal agitation overcomes the alignment of magnetic domains."
+  },
+  {
+    "QuestionText": "The force per unit length between two parallel wires is given by:",
+    "Options": ["A) μ₀I₁I₂ / 2πd", "B) μ₀I₁I₂ / 4πd", "C) μ₀I₁I₂ / d", "D) Zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard formula derived from the interaction of one wire's field with the other wire's current."
+  },
+  {
+    "QuestionText": "Angle of dip at the magnetic equator is:",
+    "Options": ["A) 0°", "B) 90°", "C) 45°", "D) 180°"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Earth's Magnetism",
+    "Difficulty": "Foundation",
+    "Explanation": "The dip needle sits perfectly horizontal at the magnetic equator."
+  },
+  {
+    "QuestionText": "A toroid is essentially a:",
+    "Options": ["A) Straight solenoid", "B) Circular solenoid", "C) Flat coil", "D) Capacitor"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Ampere's Circuital Law",
+    "Difficulty": "Foundation",
+    "Explanation": "A toroid is a solenoid bent into a hollow anchor ring or doughnut shape."
+  },
+  {
+    "QuestionText": "If a diamagnetic substance is placed in a non-uniform magnetic field, it tends to move:",
+    "Options": ["A) From stronger to weaker field", "B) From weaker to stronger field", "C) Circularly", "D) It does not move"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Diamagnetic materials develop a repulsive force in the presence of an external magnetic field."
+  },
+  {
+    "QuestionText": "Work done by a magnetic field on a moving charge is always:",
+    "Options": ["A) Positive", "B) Negative", "C) Zero", "D) Maximum"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Advanced",
+    "Explanation": "The magnetic force is always perpendicular to the velocity (F = qv x B), so W = F·d = 0."
+  },
+  {
+    "QuestionText": "The radius of the path of a charged particle in a magnetic field is proportional to its:",
+    "Options": ["A) Energy", "B) Momentum", "C) Charge", "D) Magnetic field"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Advanced",
+    "Explanation": "r = mv/qB. Since mv is momentum (p), r is directly proportional to momentum."
+  },
+  {
+    "QuestionText": "The horizontal and vertical components of Earth's magnetic field are equal. The angle of dip at that place is:",
+    "Options": ["A) 30°", "B) 45°", "C) 60°", "D) 0°"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Earth's Magnetism",
+    "Difficulty": "Advanced",
+    "Explanation": "tan θ = V/H. If V = H, then tan θ = 1, giving θ = 45°."
+  },
+  {
+    "QuestionText": "A shunt is a:",
+    "Options": ["A) High resistance in parallel", "B) Low resistance in series", "C) Low resistance in parallel", "D) High resistance in series"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Galvanometer",
+    "Difficulty": "Foundation",
+    "Explanation": "A shunt allows most of the current to bypass the galvanometer, enabling it to measure large currents as an ammeter."
+  },
+  {
+    "QuestionText": "The permeability of free space (μ₀) has the value:",
+    "Options": ["A) 4π × 10⁻⁷ T-m/A", "B) 4π × 10⁻⁹ T-m/A", "C) 1.6 × 10⁻¹⁹ T-m/A", "D) 8.85 × 10⁻¹² T-m/A"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Biot-Savart Law",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a fundamental physical constant used in electromagnetism."
+  },
+  {
+    "QuestionText": "Lorentz force is the sum of:",
+    "Options": ["A) Magnetic and Gravitational forces", "B) Electric and Magnetic forces", "C) Electric and Nuclear forces", "D) Two magnetic forces"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Foundation",
+    "Explanation": "F = q(E + v x B) describes the total force on a charge in both fields."
+  },
+  {
+    "QuestionText": "Magnetic field lines form:",
+    "Options": ["A) Closed loops", "B) Open curves starting from North", "C) Straight lines", "D) Loops only inside the magnet"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Unlike electric field lines, magnetic field lines are continuous and have no start or end point."
+  },
+  {
+    "QuestionText": "The magnetic field produced by a moving electron is:",
+    "Options": ["A) Zero", "B) Constant", "C) Variable", "D) Dependent on its speed"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Biot-Savart Law",
+    "Difficulty": "Advanced",
+    "Explanation": "A moving charge constitutes a current, and the resulting magnetic field strength depends on its velocity."
+  },
+  {
+    "QuestionText": "When a magnetic dipole is placed in a uniform magnetic field, it experiences:",
+    "Options": ["A) Net force and torque", "B) Net force only", "C) Torque only", "D) Neither"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Advanced",
+    "Explanation": "The equal and opposite forces on the two poles cancel out (net force = 0), but they create a couple (torque)."
+  },
+  {
+    "QuestionText": "The core of a transformer is laminated to reduce:",
+    "Options": ["A) Hysteresis loss", "B) Eddy current loss", "C) Copper loss", "D) Magnetic leakage"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Laminations break up the large paths for circulating eddy currents, reducing heat dissipation."
+  },
+  {
+    "QuestionText": "A thin bar magnet of length L and magnetic moment M is bent into a semi-circle. The new magnetic moment is:",
+    "Options": ["A) M/π", "B) 2M/π", "C) M", "D) πM"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "New distance between poles is 2R = 2(L/π). M' = m * (2L/π) = 2M/π."
+  },
+  {
+    "QuestionText": "Relative permeability (μᵣ) of a diamagnetic substance is:",
+    "Options": ["A) μᵣ > 1", "B) μᵣ < 1", "C) μᵣ = 1", "D) μᵣ = 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Diamagnetic substances have negative susceptibility, so μᵣ = 1 + χ is less than 1."
+  },
+  {
+    "QuestionText": "Gauss's law for magnetism (∮B·dA = 0) implies:",
+    "Options": ["A) Magnetic poles exist", "B) Monopoles do not exist", "C) Magnetic field is uniform", "D) No current flows"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "The net flux through any closed surface is zero because magnets always have two poles (dipoles)."
+  },
+  {
+    "QuestionText": "Velocity selector uses crossed fields to select particles of a specific velocity v equal to:",
+    "Options": ["A) E/B", "B) B/E", "C) E*B", "D) √(E/B)"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Advanced",
+    "Explanation": "When qE = qvB, the particle moves undeflected. Thus v = E/B."
+  },
+  {
+    "QuestionText": "The SI unit of magnetic pole strength is:",
+    "Options": ["A) A-m", "B) A/m", "C) A-m²", "D) Tesla"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Pole strength is measured in Ampere-meters."
+  },
+  {
+    "QuestionText": "Superconductors exhibit perfect:",
+    "Options": ["A) Paramagnetism", "B) Diamagnetism", "C) Ferromagnetism", "D) Ferrimagnetism"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Meissner effect describes how superconductors expel all magnetic field lines from their interior."
+  },
+  {
+    "QuestionText": "Which law gives the direction of magnetic field lines around a straight current-carrying wire?",
+    "Options": ["A) Right hand thumb rule", "B) Left hand rule", "C) Lenz's law", "D) Snell's law"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Biot-Savart Law",
+    "Difficulty": "Foundation",
+    "Explanation": "The thumb points in current direction, and fingers curl in the direction of the magnetic field."
+  },
+  {
+    "QuestionText": "The magnetic field inside the hollow part of a toroid is:",
+    "Options": ["A) Maximum", "B) Minimum", "C) Zero", "D) Uniform"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Ampere's Circuital Law",
+    "Difficulty": "Advanced",
+    "Explanation": "According to Ampere's Law, no current is enclosed in the central hollow space of the doughnut."
+  },
+  {
+    "QuestionText": "What is the angle of dip at the magnetic poles of Earth?",
+    "Options": ["A) 0°", "B) 45°", "C) 90°", "D) 180°"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Earth's Magnetism",
+    "Difficulty": "Foundation",
+    "Explanation": "At the poles, the magnetic field lines are vertical, so the needle points straight down."
+  },
+  {
+    "QuestionText": "The energy stored in the magnetic field of an inductor is proportional to:",
+    "Options": ["A) Current", "B) Square of current", "C) Square root of current", "D) Voltage"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Energy U = 1/2 LI²."
+  },
+  {
+    "QuestionText": "If the number of turns in a solenoid is doubled while length remains same, the magnetic field:",
+    "Options": ["A) Doubles", "B) Halves", "C) quadruples", "D) Remains same"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Ampere's Circuital Law",
+    "Difficulty": "Advanced",
+    "Explanation": "B = μ₀(N/L)I. If N is doubled, B is doubled."
+  },
+  {
+    "QuestionText": "Magnetic declination is the angle between:",
+    "Options": ["A) Magnetic meridian and Geographic meridian", "B) Horizontal and vertical field components", "C) Axis of rotation and orbit", "D) Dip needle and horizontal"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Earth's Magnetism",
+    "Difficulty": "Advanced",
+    "Explanation": "Declination accounts for the fact that magnetic north is not the same as true (geographic) north."
+  },
+  {
+    "QuestionText": "The unit of magnetic permeability is:",
+    "Options": ["A) Henry/meter", "B) Tesla-meter/Ampere", "C) Both A and B", "D) Weber/m²"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Biot-Savart Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Both units are equivalent and used for μ."
+  },
+  {
+    "QuestionText": "An electron is moving north in a field pointing east. The force is:",
+    "Options": ["A) Downward", "B) Upward", "C) South", "D) West"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using Fleming's Left Hand Rule: index (E), middle (current is South because electron is North), thumb points Down."
+  },
+  {
+    "QuestionText": "A compass needle is made of which material?",
+    "Options": ["A) Steel", "B) Soft iron", "C) Copper", "D) Lead"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Earth's Magnetism",
+    "Difficulty": "Foundation",
+    "Explanation": "Steel is a permanent magnet with high retentivity, suitable for compasses."
+  },
+  {
+    "QuestionText": "Magnetic flux is a:",
+    "Options": ["A) Scalar quantity", "B) Vector quantity", "C) Tensor", "D) Constant"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetism Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Flux is the dot product of Magnetic field and Area (B·A), making it a scalar."
+  },
+  {
+    "QuestionText": "The magnetic moment of an electron revolving in an orbit of radius r with speed v is:",
+    "Options": ["A) evr / 2", "B) evr", "C) e / vr", "D) 2 / evr"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Moving Charges",
+    "Difficulty": "Olympiad",
+    "Explanation": "Current I = e / (2πr/v). Area A = πr². M = IA = (ev / 2πr) * πr² = evr / 2."
+  },
+  {
+    "QuestionText": "Permeability is maximum for:",
+    "Options": ["A) Diamagnetic", "B) Paramagnetic", "C) Ferromagnetic", "D) All same"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Magnetic Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Ferromagnetic materials can increase magnetic flux by thousands of times."
+  },
+  {
+    "QuestionText": "Biot-Savart Law is applicable to:",
+    "Options": ["A) Large current elements", "B) Infinitesimal current elements", "C) Only circular loops", "D) Only straight wires"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Biot-Savart Law",
+    "Difficulty": "Foundation",
+    "Explanation": "The law provides the field contribution (dB) from a very small length (dl) of wire."
+  }
+]

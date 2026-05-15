@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Which of the following is known as the 'functional unit of inheritance'?",
+    "Options": ["A) Chromosome", "B) Gene", "C) Nucleotide", "D) Genome"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Genes are segments of DNA that carry the genetic information from parents to offspring."
+  },
+  {
+    "QuestionText": "A cross between two tall pea plants resulted in some dwarf offspring. What must be the genotype of the parents?",
+    "Options": ["A) TT and tt", "B) Tt and Tt", "C) TT and Tt", "D) tt and tt"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "For dwarf offspring (tt) to appear, both parents must be carriers of the recessive allele (heterozygous Tt)."
+  },
+  {
+    "QuestionText": "The enzyme responsible for unwinding the DNA double helix during replication is:",
+    "Options": ["A) DNA Polymerase", "B) Ligase", "C) Helicase", "D) Primase"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "DNA Replication",
+    "Difficulty": "Foundation",
+    "Explanation": "Helicase breaks the hydrogen bonds between bases to 'unzip' the DNA strands."
+  },
+  {
+    "QuestionText": "Which nitrogenous base is found in RNA but NOT in DNA?",
+    "Options": ["A) Adenine", "B) Cytosine", "C) Thymine", "D) Uracil"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "In RNA, Uracil replaces Thymine as the complementary base to Adenine."
+  },
+  {
+    "QuestionText": "The phenotypic ratio of a Mendelian monohybrid cross in the F2 generation is:",
+    "Options": ["A) 1:2:1", "B) 3:1", "C) 9:3:3:1", "D) 1:1"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Mendel observed that crossing hybrids (Tt x Tt) produced dominant and recessive traits in a 3:1 ratio."
+  },
+  {
+    "QuestionText": "In a DNA molecule, if Cytosine makes up 20% of the bases, what percentage of the bases is Adenine?",
+    "Options": ["A) 20%", "B) 30%", "C) 40%", "D) 80%"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "By Chargaff's rule, G=C=20%, so G+C=40%. The remaining 60% is A+T, meaning A=30%."
+  },
+  {
+    "QuestionText": "The process of protein synthesis from mRNA is called:",
+    "Options": ["A) Transcription", "B) Translation", "C) Replication", "D) Transformation"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Translation is the process where ribosomes decode mRNA to assemble a specific sequence of amino acids."
+  },
+  {
+    "QuestionText": "Which type of mutation involves the replacement of a single purine base by a pyrimidine base?",
+    "Options": ["A) Transition", "B) Transversion", "C) Inversion", "D) Insertion"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Olympiad",
+    "Explanation": "A transversion is a point mutation where a purine (A/G) is swapped for a pyrimidine (C/T) or vice-versa."
+  },
+  {
+    "QuestionText": "The 'Start Codon' for translation in almost all organisms is:",
+    "Options": ["A) UAA", "B) UGA", "C) AUG", "D) UAG"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "AUG codes for the amino acid Methionine and serves as the signal to start building the protein chain."
+  },
+  {
+    "QuestionText": "Which phenomenon explains the fact that human blood group AB shows both A and B antigens?",
+    "Options": ["A) Incomplete dominance", "B) Co-dominance", "C) Multiple allelism", "D) Epistasis"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Co-dominance occurs when both alleles in a heterozygote are fully expressed."
+  },
+  {
+    "QuestionText": "DNA replication is described as 'semiconservative' because:",
+    "Options": ["A) Only half of the DNA is copied", "B) One strand is old and one is new", "C) It uses RNA primers", "D) Errors are rarely made"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "DNA Replication",
+    "Difficulty": "Advanced",
+    "Explanation": "Each resulting DNA double helix contains one original (parental) strand and one newly synthesized strand."
+  },
+  {
+    "QuestionText": "The experiment that proved DNA is the genetic material in bacteriophages was conducted by:",
+    "Options": ["A) Griffith", "B) Avery, MacLeod, and McCarty", "C) Hershey and Chase", "D) Watson and Crick"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Hershey and Chase used radioactive labeling of sulfur (protein) and phosphorus (DNA) to confirm DNA enters the bacteria."
+  },
+  {
+    "QuestionText": "A person with Down Syndrome has three copies of which chromosome?",
+    "Options": ["A) 13", "B) 18", "C) 21", "D) 23"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Down Syndrome is also known as Trisomy 21."
+  },
+  {
+    "QuestionText": "What is the role of tRNA during protein synthesis?",
+    "Options": ["A) Copying DNA", "B) Bringing amino acids to the ribosome", "C) Forming the ribosome structure", "D) Carrying the genetic code to the cytoplasm"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Transfer RNA (tRNA) acts as an adapter, matching amino acids to the codons on mRNA."
+  },
+  {
+    "QuestionText": "The distance between two consecutive base pairs in the DNA double helix is:",
+    "Options": ["A) 3.4 nm", "B) 0.34 nm", "C) 2 nm", "D) 34 nm"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "The pitch of the helix is 3.4 nm with 10 base pairs per turn, making the gap between pairs 0.34 nm."
+  },
+  {
+    "QuestionText": "Mendel's 'Law of Independent Assortment' is best demonstrated by a:",
+    "Options": ["A) Monohybrid cross", "B) Dihybrid cross", "C) Test cross", "D) Back cross"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "A dihybrid cross tracks two traits at once, showing that alleles of different genes segregate independently."
+  },
+  {
+    "QuestionText": "Which enzyme joins the Okazaki fragments on the lagging strand?",
+    "Options": ["A) DNA Polymerase I", "B) DNA Polymerase III", "C) DNA Ligase", "D) Topoisomerase"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "DNA Replication",
+    "Difficulty": "Advanced",
+    "Explanation": "DNA Ligase acts as 'molecular glue' to seal the nicks between DNA fragments."
+  },
+  {
+    "QuestionText": "The central dogma of molecular biology is:",
+    "Options": ["A) DNA -> Protein -> RNA", "B) Protein -> RNA -> DNA", "C) DNA -> RNA -> Protein", "D) RNA -> DNA -> Protein"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "It describes the flow of genetic information from DNA (storage) to RNA (messenger) to Protein (function)."
+  },
+  {
+    "QuestionText": "Which of the following is a 'Stop Codon'?",
+    "Options": ["A) AUG", "B) UGG", "C) UAA", "D) GUG"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "UAA, UAG, and UGA are the three codons that signal the end of translation."
+  },
+  {
+    "QuestionText": "The phenomenon where a single gene can influence multiple, seemingly unrelated phenotypic traits is called:",
+    "Options": ["A) Polygenic inheritance", "B) Pleiotropy", "C) Multiple allelism", "D) Epistasis"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Pleiotropy is seen in disorders like Phenylketonuria, where one gene defect affects skin pigment and mental health."
+  },
+  {
+    "QuestionText": "In sickle cell anemia, the glutamic acid in the beta-globin chain is replaced by:",
+    "Options": ["A) Leucine", "B) Valine", "C) Serine", "D) Alanine"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "This point mutation occurs at the 6th position of the beta-globin chain, changing the cell's shape."
+  },
+  {
+    "QuestionText": "During DNA replication, the leading strand is synthesized in the direction:",
+    "Options": ["A) 3' -> 5'", "B) 5' -> 3'", "C) Both ways", "D) Depends on the organism"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "DNA Replication",
+    "Difficulty": "Foundation",
+    "Explanation": "DNA Polymerase can only add nucleotides to the 3' end, so the new strand grows 5' to 3'."
+  },
+  {
+    "QuestionText": "The total number of possible codons in the genetic code is:",
+    "Options": ["A) 20", "B) 16", "C) 64", "D) 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Since there are 4 bases and a triplet code, 4^3 = 64 combinations are possible."
+  },
+  {
+    "QuestionText": "An organism with two identical alleles for a trait is said to be:",
+    "Options": ["A) Heterozygous", "B) Hemizygous", "C) Homozygous", "D) Hybrid"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Homozygous individuals (TT or tt) possess two copies of the same allele."
+  },
+  {
+    "QuestionText": "The non-coding sequences of a eukaryotic gene are called:",
+    "Options": ["A) Exons", "B) Introns", "C) Promoters", "D) Operons"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Introns are 'intervening' sequences removed during RNA splicing before translation."
+  },
+  {
+    "QuestionText": "Which of the following traits in humans is an example of polygenic inheritance?",
+    "Options": ["A) Blood group", "B) Skin color", "C) Color blindness", "D) Hemophilia"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Skin color is controlled by multiple genes, leading to a continuous range of phenotypes."
+  },
+  {
+    "QuestionText": "The unit of DNA that contains a nitrogenous base, a pentose sugar, and a phosphate group is a:",
+    "Options": ["A) Nucleoside", "B) Nucleotide", "C) Histone", "D) Codon"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Nucleotides are the monomers of DNA and RNA; a nucleoside lacks the phosphate group."
+  },
+  {
+    "QuestionText": "In the Lac Operon, lactose acts as an:",
+    "Options": ["A) Repressor", "B) Inducer", "C) Operator", "D) Promoter"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Lactose binds to the repressor, removing it from the operator and 'turning on' the gene."
+  },
+  {
+    "QuestionText": "A Test Cross involves crossing an F1 hybrid with:",
+    "Options": ["A) Dominant parent", "B) Recessive parent", "C) Another F1 hybrid", "D) Any parent"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Crossing with a homozygous recessive individual reveals if the hybrid is carrying a hidden recessive allele."
+  },
+  {
+    "QuestionText": "The conversion of RNA into DNA is called:",
+    "Options": ["A) Translation", "B) Reverse Transcription", "C) Replication", "D) Splicing"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "This process is used by retroviruses like HIV to integrate their genome into the host."
+  },
+  {
+    "QuestionText": "Human males are heterogametic because they produce:",
+    "Options": ["A) Only X-type sperm", "B) Only Y-type sperm", "C) Both X and Y-type sperm", "D) Sperm with 46 chromosomes"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Males have XY sex chromosomes, meaning 50% of sperm carry X and 50% carry Y."
+  },
+  {
+    "QuestionText": "Which model of DNA structure was proposed by Watson and Crick in 1953?",
+    "Options": ["A) Single-stranded helix", "B) Triple helix", "C) Double helix", "D) Linear structure"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "They described DNA as two antiparallel strands twisted around each other."
+  },
+  {
+    "QuestionText": "The enzyme used in the Griffith transformation experiment to prove DNA was the transforming principle was:",
+    "Options": ["A) Protease", "B) RNase", "C) DNase", "D) Lipase"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Avery and colleagues found that only DNase (not Protease or RNase) could stop the transformation."
+  },
+  {
+    "QuestionText": "An example of a sex-linked recessive disorder is:",
+    "Options": ["A) Sickle cell anemia", "B) Phenylketonuria", "C) Hemophilia", "D) Cystic fibrosis"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Hemophilia is caused by a recessive gene on the X chromosome, making it more common in males."
+  },
+  {
+    "QuestionText": "The primary enzyme of transcription is:",
+    "Options": ["A) DNA Polymerase", "B) RNA Polymerase", "C) Reverse Transcriptase", "D) Restriction Endonuclease"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "RNA Polymerase reads the DNA template to create a complementary strand of RNA."
+  },
+  {
+    "QuestionText": "What is the 'wobble hypothesis' related to?",
+    "Options": ["A) DNA structure", "B) tRNA-mRNA base pairing", "C) Protein folding", "D) Chromosome movement"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Olympiad",
+    "Explanation": "It suggests that the 3rd base of a codon can pair loosely with a tRNA anticodon, allowing 61 codons to be read by fewer tRNAs."
+  },
+  {
+    "QuestionText": "A change in a single base pair of DNA is called a:",
+    "Options": ["A) Frame-shift mutation", "B) Chromosomal aberration", "C) Point mutation", "D) Non-disjunction"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Point mutations involve a single 'letter' change in the genetic code."
+  },
+  {
+    "QuestionText": "The specific region of DNA where RNA Polymerase binds to start transcription is the:",
+    "Options": ["A) Operator", "B) Promoter", "C) Terminator", "D) Enhancer"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "The promoter contains specific sequences that the cell's machinery recognizes to initiate a gene's expression."
+  },
+  {
+    "QuestionText": "Turner Syndrome is characterized by which chromosomal composition?",
+    "Options": ["A) 45, XO", "B) 47, XXY", "C) 47, XYY", "D) 45, YO"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Individuals with Turner Syndrome are female but are missing one X chromosome."
+  },
+  {
+    "QuestionText": "Which type of bond stabilizes the double helix by connecting base pairs across strands?",
+    "Options": ["A) Covalent bond", "B) Ionic bond", "C) Hydrogen bond", "D) Peptide bond"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "Adenine and Thymine share two hydrogen bonds, while Guanine and Cytosine share three."
+  },
+  {
+    "QuestionText": "The synthesis of mRNA is completed when RNA Polymerase reaches the:",
+    "Options": ["A) Stop codon", "B) Terminator sequence", "C) Anticodon", "D) Promoter"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "A terminator sequence on the DNA signals the end of the transcription unit."
+  },
+  {
+    "QuestionText": "Mendel's 'Law of Segregation' states that:",
+    "Options": ["A) Genes move together during meiosis", "B) Alleles separate into different gametes", "C) Traits are always blended", "D) DNA replication is semi-conservative"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "During gamete formation, the two alleles for a gene separate so each gamete gets only one."
+  },
+  {
+    "QuestionText": "Which organelle is the site of protein synthesis?",
+    "Options": ["A) Nucleus", "B) Mitochondria", "C) Ribosome", "D) Golgi body"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Protein Synthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Ribosomes read mRNA and link amino acids to form proteins."
+  },
+  {
+    "QuestionText": "A gene that hides the effect of another gene at a different locus is showing:",
+    "Options": ["A) Dominance", "B) Epistasis", "C) Pleiotropy", "D) Linkage"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Olympiad",
+    "Explanation": "Epistasis involves one gene masking the expression of another gene, like 'albino' genes masking fur color genes."
+  },
+  {
+    "QuestionText": "Splicing of RNA occurs in:",
+    "Options": ["A) Cytoplasm", "B) Nucleus", "C) Ribosome", "D) Endoplasmic reticulum"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "RNA must be processed (introns removed) within the nucleus before it is exported for translation."
+  },
+  {
+    "QuestionText": "DNA Polymerase III requires which of the following to start synthesis?",
+    "Options": ["A) A free 5' phosphate group", "B) An RNA primer with a 3' -OH group", "C) A protein tag", "D) A promoter sequence"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "DNA Replication",
+    "Difficulty": "Advanced",
+    "Explanation": "Polymerases cannot start from scratch; they need an existing hydroxyl group on a primer to add the first DNA nucleotide."
+  },
+  {
+    "QuestionText": "What ratio is expected in a dihybrid test cross if the genes are not linked?",
+    "Options": ["A) 9:3:3:1", "B) 1:1:1:1", "C) 3:1", "D) 1:2:1"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Mendelian Inheritance",
+    "Difficulty": "Olympiad",
+    "Explanation": "A dihybrid test cross (AaBb x aabb) results in an even 1:1:1:1 distribution of phenotypes if independent assortment occurs."
+  },
+  {
+    "QuestionText": "The Hershey-Chase experiment used which radioactive isotope to label proteins?",
+    "Options": ["A) Phosphorus-32", "B) Sulfur-35", "C) Carbon-14", "D) Nitrogen-15"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "Sulfur is found in some amino acids but not in DNA, making it a perfect marker for proteins."
+  },
+  {
+    "QuestionText": "An extra chromosome 21 in humans leads to:",
+    "Options": ["A) Klinefelter Syndrome", "B) Turner Syndrome", "C) Down Syndrome", "D) Cri-du-chat Syndrome"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Biology",
+    "SubTopic": "Principles of Inheritance",
+    "Difficulty": "Foundation",
+    "Explanation": "This condition, known as trisomy 21, occurs due to non-disjunction during meiosis."
+  },
+  {
+    "QuestionText": "Chargaff's Rule states that in a DNA sample:",
+    "Options": ["A) A = G and T = C", "B) A + G = T + C", "C) A = T and G = C", "D) Both B and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Biology",
+    "SubTopic": "Molecular Basis of Inheritance",
+    "Difficulty": "Advanced",
+    "Explanation": "The rule establishes base pairing (A-T, G-C) and that the total purines equals the total pyrimidines."
+  }
+]

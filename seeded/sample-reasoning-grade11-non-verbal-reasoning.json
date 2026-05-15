@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Mirror image: If a clock shows 3:00 and you see its mirror image, what time does the mirror show?",
+    "Options": [
+      "A) 3:00",
+      "B) 9:00",
+      "C) 6:00",
+      "D) 12:00"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Mirror image of a clock: the reflection reverses left-right. 3:00 in a mirror appears as 9:00. The left side becomes right and vice versa."
+  },
+  {
+    "QuestionText": "Figure series: If a square has 4 corners, a pentagon has 5, a hexagon has 6, then how many corners does an octagon have?",
+    "Options": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 9"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Octa = 8. Octagon has 8 sides and 8 corners. Greek number prefixes: penta=5, hexa=6, hepta=7, octa=8, nona=9, deca=10."
+  },
+  {
+    "QuestionText": "Paper folding: A square paper is folded in half twice and a hole is punched. When unfolded, how many holes are there?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Each fold doubles the layers. Two folds = 4 layers. One punch through 4 layers = 4 holes when unfolded."
+  },
+  {
+    "QuestionText": "In a figure, a circle is inside a square. Which option represents: 'some circles are squares'?",
+    "Options": [
+      "A) Two separate circles",
+      "B) Circle completely inside square",
+      "C) Two overlapping circles",
+      "D) Circle and square overlapping partially"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "'Some circles are squares' = partial overlap. Partial overlap means some (but not all) of each set share membership. Two separate circles = no overlap; inside = all circles are squares."
+  },
+  {
+    "QuestionText": "Count the number of triangles in a figure divided into 9 smaller triangles arranged in 3 rows.",
+    "Options": [
+      "A) 9",
+      "B) 13",
+      "C) 18",
+      "D) 27"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Advanced",
+    "Explanation": "A triangle divided into smaller triangles: count individual small triangles + medium-sized + large triangles. For 9 small triangles in a 3-row arrangement: 9 small + 3 medium + 1 large = 13."
+  },
+  {
+    "QuestionText": "Embedded figures: Which simpler figure is 'hidden' inside a complex figure of a star?",
+    "Options": [
+      "A) Circle",
+      "B) Triangle",
+      "C) Hexagon",
+      "D) Square"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "A 6-pointed star is created by overlapping two triangles. Triangles are the basic shapes embedded in a star pattern."
+  },
+  {
+    "QuestionText": "If shape A has 3 lines of symmetry and shape B has 4 lines of symmetry, shape C likely has 6 lines of symmetry if it is a:",
+    "Options": [
+      "A) Pentagon",
+      "B) Square",
+      "C) Regular hexagon",
+      "D) Rectangle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "Lines of symmetry for regular polygons = number of sides. Triangle: 3, Square: 4, Regular hexagon: 6. Regular hexagon has 6 lines of symmetry."
+  },
+  {
+    "QuestionText": "Water image: If a letter 'T' is reflected in water (horizontal mirror), the water image looks like:",
+    "Options": [
+      "A) T (unchanged)",
+      "B) T flipped upside down (⊥)",
+      "C) Reversed T (mirror image)",
+      "D) A cross (+)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Water Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Water image = reflection in a horizontal surface. Top becomes bottom, bottom becomes top. T flipped vertically gives ⊥ (the letter upside down). Mirror image = left-right reversal."
+  },
+  {
+    "QuestionText": "Dice problem: On a standard dice, opposite faces sum to 7. If 6 is on top, which number is on the bottom?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Dice",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard dice: opposite faces sum to 7. 6+1=7, 5+2=7, 4+3=7. So opposite to 6 is 1."
+  },
+  {
+    "QuestionText": "A cube is painted red on all faces and then cut into 27 smaller equal cubes. How many small cubes have exactly 2 red faces?",
+    "Options": [
+      "A) 8",
+      "B) 12",
+      "C) 6",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Cutting",
+    "Difficulty": "Advanced",
+    "Explanation": "3×3×3 cube cut into 27. Edge cubes (not corners) have exactly 2 painted faces. 12 edges of a cube × 1 middle cube per edge = 12 cubes with 2 faces."
+  },
+  {
+    "QuestionText": "A cube is painted and cut into 27. How many small cubes have exactly 3 red faces?",
+    "Options": [
+      "A) 1",
+      "B) 6",
+      "C) 8",
+      "D) 12"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Cutting",
+    "Difficulty": "Advanced",
+    "Explanation": "Corner cubes have exactly 3 painted faces. A cube has 8 corners → 8 corner cubes → 8 small cubes with 3 faces painted."
+  },
+  {
+    "QuestionText": "A cube is painted and cut into 27. How many small cubes have NO red faces?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Cutting",
+    "Difficulty": "Advanced",
+    "Explanation": "Only the center cube (interior) has no faces on the outside and thus 0 painted faces. Only 1 center cube in a 3×3×3 cube."
+  },
+  {
+    "QuestionText": "In a figure matrix (3×3 grid) where figures follow a pattern, if the pattern shows adding one dot each row, and the first column has 1,2,3 dots respectively, the second column likely shows:",
+    "Options": [
+      "A) 1,2,3",
+      "B) 2,3,4",
+      "C) 1,1,1",
+      "D) 3,3,3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Matrix",
+    "Difficulty": "Foundation",
+    "Explanation": "In a figure matrix, the pattern applies across rows and columns. If rows increase by 1, the second column would be 2,3,4 (one more than the first column's pattern)."
+  },
+  {
+    "QuestionText": "How many squares are in a 3×3 grid (including all sizes)?",
+    "Options": [
+      "A) 9",
+      "B) 14",
+      "C) 16",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Advanced",
+    "Explanation": "1×1 squares: 9. 2×2 squares: 4. 3×3 squares: 1. Total: 9+4+1=14. General formula: n(n+1)(2n+1)/6 for squares in an n×n grid."
+  },
+  {
+    "QuestionText": "A transparent sheet with a pattern is folded at the middle. The overlapping pattern creates a symmetrical image. This tests:",
+    "Options": [
+      "A) Mirror symmetry",
+      "B) Translational symmetry",
+      "C) Paper folding and symmetry",
+      "D) Rotational symmetry"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Folding a transparent sheet creates symmetry — the two halves overlap as mirror images. This tests understanding of paper folding and reflection symmetry."
+  },
+  {
+    "QuestionText": "Figure analogy: Circle is to Sphere as Square is to:",
+    "Options": [
+      "A) Rectangle",
+      "B) Cube",
+      "C) Pentagon",
+      "D) Cylinder"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Circle (2D) → Sphere (3D equivalent). Square (2D) → Cube (3D equivalent). The relationship is 2D shape : 3D counterpart."
+  },
+  {
+    "QuestionText": "Rotation: A figure 'P' is rotated 90° clockwise. The resulting figure looks like:",
+    "Options": [
+      "A) d",
+      "B) q",
+      "C) b",
+      "D) Γ (rotated P)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Rotation",
+    "Difficulty": "Advanced",
+    "Explanation": "90° clockwise rotation: top goes to right, right goes to bottom, etc. The letter P's vertical line goes horizontal at bottom, and the curved part goes downward and to the right."
+  },
+  {
+    "QuestionText": "Series: In a visual sequence, a circle has 1 dot, then 3 dots, then 6 dots. The next figure has:",
+    "Options": [
+      "A) 8 dots",
+      "B) 9 dots",
+      "C) 10 dots",
+      "D) 12 dots"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Differences: 1, 3, 6 → differences are 2, 3. Next difference = 4, so next = 6+4=10. Triangular number sequence: 1,3,6,10,15."
+  },
+  {
+    "QuestionText": "Dice net: A net has 6 squares in a cross pattern (+). When folded, which pairs of squares are opposite each other?",
+    "Options": [
+      "A) Adjacent squares",
+      "B) Squares that don't share an edge when net is in cross form",
+      "C) All squares are adjacent",
+      "D) None are opposite"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Dice",
+    "Difficulty": "Olympiad",
+    "Explanation": "When folding a net, opposite faces are determined by which faces end up facing each other. In a standard cross net, the center and one arm are opposite; the two side arms that wrap around are opposite."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a regular pentagon have?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A regular pentagon has 5 lines of symmetry — each passes through a vertex and the midpoint of the opposite side. Lines of symmetry = number of sides for regular polygons."
+  },
+  {
+    "QuestionText": "Figure classification: Which of the following shapes has rotational symmetry of order 4?",
+    "Options": [
+      "A) Equilateral triangle",
+      "B) Regular pentagon",
+      "C) Square",
+      "D) Regular hexagon"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "Rotational symmetry of order 4 = looks the same 4 times during a 360° rotation = every 90°. Square has order-4 symmetry. Triangle: order 3. Pentagon: order 5. Hexagon: order 6."
+  },
+  {
+    "QuestionText": "Hidden figure: A complex pattern contains a basic shape. To find an embedded equilateral triangle, you look for:",
+    "Options": [
+      "A) Any three-sided figure",
+      "B) Three equal sides with 60° angles",
+      "C) Right-angle triangle",
+      "D) Any triangle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Equilateral triangle: all three sides equal, all angles 60°. In embedded figure problems, identify the basic shape's defining characteristics to find it within complex patterns."
+  },
+  {
+    "QuestionText": "Visual pattern: In a 3×3 matrix, numbers increase by 2 across rows and by 3 down columns. If top-left is 1, the center cell (row 2, col 2) contains:",
+    "Options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Matrix",
+    "Difficulty": "Advanced",
+    "Explanation": "Row 1: 1, 3, 5. Row 2: 4, 6, 8. Row 3: 7, 9, 11. Center (row2, col2) = 6. +2 across rows, +3 down columns."
+  },
+  {
+    "QuestionText": "A square paper is folded along a diagonal. The resulting shape is:",
+    "Options": [
+      "A) A smaller square",
+      "B) A rectangle",
+      "C) An isosceles right triangle",
+      "D) An equilateral triangle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Folding a square along its diagonal creates an isosceles right triangle (two equal sides = sides of square, right angle preserved, 45°-45°-90° triangle)."
+  },
+  {
+    "QuestionText": "Figure analogy: Arrow pointing UP is to Arrow pointing DOWN as... What is the relationship?",
+    "Options": [
+      "A) 90° rotation",
+      "B) 180° rotation (vertical flip)",
+      "C) Mirror image (left-right)",
+      "D) Translation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "UP to DOWN = 180° rotation or vertical flip. A 90° rotation would give a LEFT or RIGHT arrow. This tests understanding of transformations."
+  },
+  {
+    "QuestionText": "Counting triangles: How many triangles are in a triangle divided into 4 equal smaller triangles?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Advanced",
+    "Explanation": "4 small triangles + 1 large triangle (the whole) = 5 triangles. Also check for medium-sized triangles — in a triangle divided into 4 equal parts, there are 4 small + 1 large = 5."
+  },
+  {
+    "QuestionText": "A cube with side 3 cm is cut into unit cubes (1×1×1). How many unit cubes are formed?",
+    "Options": [
+      "A) 9",
+      "B) 18",
+      "C) 27",
+      "D) 36"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Cutting",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume of 3×3×3 cube = 27 cm³. Volume of each unit cube = 1 cm³. Number of unit cubes = 27/1 = 27."
+  },
+  {
+    "QuestionText": "What is the minimum number of colors needed to color the faces of a cube so that no two adjacent faces share the same color?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Cutting",
+    "Difficulty": "Olympiad",
+    "Explanation": "A cube has 6 faces. Opposite faces don't touch. 3 pairs of opposite faces. Each pair can share a color (pairs don't touch). Minimum colors = 3 (one per pair of opposite faces)."
+  },
+  {
+    "QuestionText": "In a visual analogy, if a circle is to a square as a sphere is to:",
+    "Options": [
+      "A) Cylinder",
+      "B) Cube",
+      "C) Cone",
+      "D) Pyramid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Circle (2D curved) → Square (2D straight-sided). Sphere (3D curved) → Cube (3D straight-sided). The relationship: curved to straight-edged, 2D to 3D."
+  },
+  {
+    "QuestionText": "Mirror image of 3:00 on a clock face is which time?",
+    "Options": [
+      "A) 9:00",
+      "B) 12:00",
+      "C) 6:00",
+      "D) 3:00"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Mirror image formula for clock: Mirror time = 12:00 - original time = 12:00 - 3:00 = 9:00. Or: when hour hand points right (3:00), mirror shows it pointing left (9:00)."
+  },
+  {
+    "QuestionText": "Series: The number of sides: 3, 4, 5, 6, ? (pattern is regular polygons)",
+    "Options": [
+      "A) 7",
+      "B) 8",
+      "C) 9",
+      "D) 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangle (3), Square (4), Pentagon (5), Hexagon (6), Heptagon (7). Each shape adds one side. Next = 7 sides (heptagon)."
+  },
+  {
+    "QuestionText": "A 4×4 grid contains how many rectangles (including squares)?",
+    "Options": [
+      "A) 16",
+      "B) 36",
+      "C) 60",
+      "D) 100"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Olympiad",
+    "Explanation": "Number of rectangles in n×n grid = C(n+1,2)² = [n(n+1)/2]². For 4×4: [4×5/2]² = 10² = 100. This counts all possible rectangle combinations of rows and columns."
+  },
+  {
+    "QuestionText": "What transformation changes a figure without changing its size or shape?",
+    "Options": [
+      "A) Dilation",
+      "B) Rotation",
+      "C) Reflection",
+      "D) Both B and C (rigid motions/isometries)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Transformations",
+    "Difficulty": "Advanced",
+    "Explanation": "Rigid motions (isometries) preserve size and shape: rotation, reflection, translation. Dilation changes size. Rotation and reflection are both isometries, so both B and C are correct."
+  },
+  {
+    "QuestionText": "A cube has how many vertices (corners)?",
+    "Options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 12"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Cube: 6 faces, 12 edges, 8 vertices. Euler's formula: F+V-E=2 → 6+8-12=2 ✓. Tetrahedron: F=4, V=4, E=6."
+  },
+  {
+    "QuestionText": "In non-verbal series, figures are rotated by 45° clockwise each step. After 8 steps, the figure is:",
+    "Options": [
+      "A) Rotated 360° = back to original",
+      "B) Rotated 315°",
+      "C) Rotated 90°",
+      "D) Rotated 180°"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Rotation",
+    "Difficulty": "Advanced",
+    "Explanation": "8 × 45° = 360°. After 360°, the figure has completed a full rotation and is back to its original orientation."
+  },
+  {
+    "QuestionText": "Figure classification: Which figure has both line symmetry and rotational symmetry?",
+    "Options": [
+      "A) Scalene triangle",
+      "B) Circle",
+      "C) Irregular polygon",
+      "D) Right-angled triangle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "Circle has infinite lines of symmetry AND infinite order of rotational symmetry (looks identical after any angle of rotation). It has the highest degree of symmetry."
+  },
+  {
+    "QuestionText": "Cube cutting: A 3×3×3 cube has how many unit cubes with exactly 1 painted face?",
+    "Options": [
+      "A) 6",
+      "B) 12",
+      "C) 24",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Cutting",
+    "Difficulty": "Olympiad",
+    "Explanation": "Face-center cubes have exactly 1 painted face. A cube has 6 faces, each with 1 center cube in a 3×3 arrangement. Total face-center cubes = 6."
+  },
+  {
+    "QuestionText": "In a figure, there are both circles and squares. A Venn diagram showing 'some circles are squares, some squares are circles, and some are neither' would show:",
+    "Options": [
+      "A) Two separate circles",
+      "B) One circle inside the other",
+      "C) Two overlapping circles",
+      "D) One circle only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "'Some of each are both' = partial overlap in the Venn diagram. The overlapping region represents items that are both circles AND squares. Separate circles = no overlap."
+  },
+  {
+    "QuestionText": "Paper cutting: A square paper is folded in half (rectangular fold) and cut along the folded edge diagonally. When opened, the result is:",
+    "Options": [
+      "A) Two triangles",
+      "B) A diamond/rhombus shape",
+      "C) A square with triangular holes",
+      "D) Two separate triangles with cut-off edge"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Advanced",
+    "Explanation": "Folding creates two layers; diagonal cut through both creates symmetric cuts. When opened, the symmetric cuts form a diamond/rhombus pattern. Paper folding questions require spatial visualization."
+  },
+  {
+    "QuestionText": "What is the next figure in the pattern: ○, ◑, ●, ◑, ○, ◑, ●, ?",
+    "Options": [
+      "A) ○",
+      "B) ◑",
+      "C) ●",
+      "D) □"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern: Empty, Half, Full, Half, Empty, Half, Full, ? The sequence is: ○,◑,●,◑ repeating. Position 8 = same as position 4 = ◑ (half-filled)."
+  },
+  {
+    "QuestionText": "How many faces does a triangular prism have?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangular prism: 2 triangular bases + 3 rectangular lateral faces = 5 faces. Vertices: 6. Edges: 9. Check: F+V-E=2: 5+6-9=2 ✓."
+  },
+  {
+    "QuestionText": "Reflection vs. Rotation: Which transformation does NOT change the 'handedness' (chirality) of a figure?",
+    "Options": [
+      "A) Reflection",
+      "B) Rotation",
+      "C) Both change it",
+      "D) Both preserve it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Transformations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rotation preserves chirality (handedness). Reflection reverses it (mirror image is the 'other hand'). This is why R and its mirror image (Я) cannot be superimposed by rotation alone."
+  },
+  {
+    "QuestionText": "Visual pattern: In a matrix, each row sums to 15. Row 1: 2, 7, 6. Row 2: 9, 5, 1. Row 3: 4, ?, 8.",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 5"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Matrix",
+    "Difficulty": "Advanced",
+    "Explanation": "Row 3 must sum to 15: 4+?+8=15 → ?=3. This is the Lo Shu magic square where all rows, columns, and diagonals sum to 15."
+  },
+  {
+    "QuestionText": "Analogical reasoning with shapes: Triangle is to 3 as Pentagon is to 5. What is Octagon to?",
+    "Options": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 9"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangle=3 sides, Pentagon=5 sides, Octagon=8 sides. 'Octa' means 8 (like octopus has 8 tentacles)."
+  },
+  {
+    "QuestionText": "A tetrahedron has how many faces?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Tetrahedron: 4 triangular faces, 4 vertices, 6 edges. 'Tetra' = 4. Cube = 6 faces, Octahedron = 8 faces. Euler: 4+4-6=2 ✓."
+  },
+  {
+    "QuestionText": "In a figure sequence, shapes alternate between filled and empty. After 5 filled triangles interspersed with 4 empty circles, the pattern is: △●△●△●△●△. What is the 10th term?",
+    "Options": [
+      "A) Filled triangle",
+      "B) Empty circle",
+      "C) Filled circle",
+      "D) Empty triangle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Odd positions: △ (filled triangle). Even positions: ● (empty circle). 10th term = even position = ● (empty circle)."
+  },
+  {
+    "QuestionText": "A regular hexagon can be divided into how many equilateral triangles of the same size?",
+    "Options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Advanced",
+    "Explanation": "A regular hexagon is composed of 6 equilateral triangles all sharing a common central point. This is why honeycombs (hexagons made of triangles) are structurally strong."
+  },
+  {
+    "QuestionText": "How many edges does a cube have?",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 12"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Cube: 6 faces, 8 vertices, 12 edges. Euler's formula F+V-E=2: 6+8-12=2 ✓. The 12 edges form 3 groups of 4 parallel edges (along x, y, z axes)."
+  },
+  {
+    "QuestionText": "A shape has rotational symmetry of order 6. This means it looks identical after rotating by:",
+    "Options": [
+      "A) 90°",
+      "B) 60°",
+      "C) 45°",
+      "D) 30°"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "Order 6 symmetry = 6 identical positions in 360°. Angle of rotation = 360°/6 = 60°. E.g., regular hexagon has order-6 rotational symmetry (looks same every 60°)."
+  },
+  {
+    "QuestionText": "Paper folding: A rectangular sheet is folded to make 4 layers. A hole is punched through all layers. How many holes after unfolding?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "4 layers = 4 holes. Each layer gets punched through → 4 holes total when unfolded (one hole per layer)."
+  }
+]

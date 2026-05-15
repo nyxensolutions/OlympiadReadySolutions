@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "SQL stands for:",
+    "Options": [
+      "A) Structured Query Language",
+      "B) Simple Query Language",
+      "C) Standard Query Logic",
+      "D) System Query Language"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Introduction to SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "SQL = Structured Query Language. Standard language for managing relational databases. Used to create, read, update, delete (CRUD) data in relational database management systems (RDBMS)."
+  },
+  {
+    "QuestionText": "Which SQL command retrieves data from a table?",
+    "Options": [
+      "A) INSERT",
+      "B) UPDATE",
+      "C) SELECT",
+      "D) CREATE"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "SELECT retrieves data. Basic syntax: SELECT column1, column2 FROM table_name WHERE condition. SELECT * retrieves all columns."
+  },
+  {
+    "QuestionText": "Which command inserts a new row into a table?",
+    "Options": [
+      "A) INSERT INTO",
+      "B) ADD ROW",
+      "C) NEW RECORD",
+      "D) APPEND"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DML",
+    "Difficulty": "Foundation",
+    "Explanation": "INSERT INTO table_name (col1, col2) VALUES (val1, val2). Adds a new row. Must match column order and data types."
+  },
+  {
+    "QuestionText": "Which SQL clause filters rows based on a condition?",
+    "Options": [
+      "A) HAVING",
+      "B) ORDER BY",
+      "C) WHERE",
+      "D) GROUP BY"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "WHERE filters rows before aggregation. E.g., SELECT * FROM students WHERE age > 18. HAVING filters after GROUP BY (filters groups, not individual rows)."
+  },
+  {
+    "QuestionText": "A primary key in a database table must be:",
+    "Options": [
+      "A) Null",
+      "B) Unique and not null",
+      "C) Shared between tables",
+      "D) Any data type"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Primary key: unique identifier for each row. Must be UNIQUE and NOT NULL. Each table can have only one primary key (can be composite \u2014 multiple columns)."
+  },
+  {
+    "QuestionText": "A foreign key is used to:",
+    "Options": [
+      "A) Create a primary key",
+      "B) Link two tables by referencing a primary key in another table",
+      "C) Delete a table",
+      "D) Update column values"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Foreign key: attribute in one table that references the primary key in another. Enforces referential integrity \u2014 ensures related records exist. Creates relationships between tables."
+  },
+  {
+    "QuestionText": "Which command modifies existing data in a table?",
+    "Options": [
+      "A) INSERT",
+      "B) MODIFY",
+      "C) UPDATE",
+      "D) CHANGE"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DML",
+    "Difficulty": "Foundation",
+    "Explanation": "UPDATE table SET col = value WHERE condition. Without WHERE, updates ALL rows (dangerous). Always use WHERE clause with UPDATE."
+  },
+  {
+    "QuestionText": "Which SQL command removes rows from a table?",
+    "Options": [
+      "A) REMOVE",
+      "B) TRUNCATE",
+      "C) DROP",
+      "D) DELETE"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DML",
+    "Difficulty": "Foundation",
+    "Explanation": "DELETE FROM table WHERE condition. Removes specific rows. TRUNCATE removes all rows but keeps table structure (faster, not logged). DROP deletes entire table structure."
+  },
+  {
+    "QuestionText": "What does 'SELECT DISTINCT' do?",
+    "Options": [
+      "A) Selects all columns",
+      "B) Selects unique values (removes duplicates)",
+      "C) Selects the first row",
+      "D) Selects empty values"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "SELECT DISTINCT: eliminates duplicate rows from result. E.g., SELECT DISTINCT city FROM customers returns each city only once."
+  },
+  {
+    "QuestionText": "The ORDER BY clause is used to:",
+    "Options": [
+      "A) Filter rows",
+      "B) Sort results (ASC or DESC)",
+      "C) Group data",
+      "D) Join tables"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "ORDER BY col1 ASC, col2 DESC. Sorts result set. ASC = ascending (default), DESC = descending. Used with SELECT statements."
+  },
+  {
+    "QuestionText": "What is normalization in databases?",
+    "Options": [
+      "A) Making all values equal",
+      "B) Organizing data to reduce redundancy and improve integrity",
+      "C) Sorting data alphabetically",
+      "D) Encrypting data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Normalization: process of organizing tables to reduce redundancy and dependency. Forms: 1NF (atomic values), 2NF (no partial dependency), 3NF (no transitive dependency). Improves data integrity."
+  },
+  {
+    "QuestionText": "What is a JOIN in SQL?",
+    "Options": [
+      "A) Adding two tables together",
+      "B) Combining rows from two or more tables based on a related column",
+      "C) Merging table structures",
+      "D) Splitting a table"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Joins",
+    "Difficulty": "Foundation",
+    "Explanation": "JOIN combines rows from multiple tables based on a condition (usually matching foreign key). Types: INNER, LEFT, RIGHT, FULL OUTER, CROSS JOIN."
+  },
+  {
+    "QuestionText": "INNER JOIN returns:",
+    "Options": [
+      "A) All rows from both tables",
+      "B) All rows from left table only",
+      "C) Only rows with matching values in both tables",
+      "D) Rows without matches"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Joins",
+    "Difficulty": "Advanced",
+    "Explanation": "INNER JOIN: most common join. Returns only rows where the join condition is met in BOTH tables. Excludes non-matching rows."
+  },
+  {
+    "QuestionText": "LEFT JOIN returns:",
+    "Options": [
+      "A) All rows from right table",
+      "B) All rows from left table and matching rows from right",
+      "C) Only matching rows",
+      "D) All rows from both tables"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Joins",
+    "Difficulty": "Advanced",
+    "Explanation": "LEFT JOIN (LEFT OUTER JOIN): returns ALL rows from left table, and matching rows from right table. Non-matching right rows show NULL."
+  },
+  {
+    "QuestionText": "What does GROUP BY do?",
+    "Options": [
+      "A) Sorts results",
+      "B) Filters rows",
+      "C) Groups rows with same values for aggregate functions",
+      "D) Joins tables"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Advanced",
+    "Explanation": "GROUP BY groups rows with same column value. Used with aggregate functions: COUNT, SUM, AVG, MAX, MIN. E.g., SELECT dept, COUNT(*) FROM emp GROUP BY dept."
+  },
+  {
+    "QuestionText": "The HAVING clause is used with:",
+    "Options": [
+      "A) WHERE clause",
+      "B) Individual row filtering",
+      "C) GROUP BY (filters groups after aggregation)",
+      "D) ORDER BY only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Advanced",
+    "Explanation": "HAVING filters groups created by GROUP BY. WHERE filters before grouping; HAVING filters after. E.g., GROUP BY dept HAVING COUNT(*) > 5 (departments with more than 5 employees)."
+  },
+  {
+    "QuestionText": "What is a DBMS?",
+    "Options": [
+      "A) Database Management System",
+      "B) Data Backup Management Software",
+      "C) Digital Binary Management Service",
+      "D) Distributed Base Master System"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "DBMS: software that manages databases. Examples: MySQL, PostgreSQL, Oracle, SQL Server, SQLite. Provides interface between users and data, handles storage, retrieval, security."
+  },
+  {
+    "QuestionText": "What is an index in a database?",
+    "Options": [
+      "A) The order of columns",
+      "B) A data structure that speeds up data retrieval",
+      "C) The row number",
+      "D) The column name"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Index: separate data structure (like a book index) that maps values to row locations. Speeds up SELECT queries on indexed columns. Trade-off: slower INSERTs/UPDATEs, more storage."
+  },
+  {
+    "QuestionText": "Which SQL aggregate function counts all rows?",
+    "Options": [
+      "A) SUM()",
+      "B) AVG()",
+      "C) COUNT()",
+      "D) MAX()"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Aggregate Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "COUNT(*) counts all rows. COUNT(column) counts non-null values. SUM: total. AVG: average. MAX/MIN: highest/lowest value."
+  },
+  {
+    "QuestionText": "What does NULL mean in SQL?",
+    "Options": [
+      "A) Zero",
+      "B) Empty string",
+      "C) Unknown or missing value",
+      "D) False"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "NULL \u2260 zero, empty string, or false. NULL means unknown/missing value. Use IS NULL (not = NULL) to check. NULL in arithmetic gives NULL. Aggregate functions ignore NULLs."
+  },
+  {
+    "QuestionText": "What is a VIEW in SQL?",
+    "Options": [
+      "A) A physical table copy",
+      "B) A virtual table based on a stored query",
+      "C) A backup of the database",
+      "D) A window in the GUI"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Advanced SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "VIEW: a named query stored in the database. Appears as a virtual table. Simplifies complex queries, provides abstraction, restricts access to certain data. CREATE VIEW name AS SELECT..."
+  },
+  {
+    "QuestionText": "Which command creates a new table?",
+    "Options": [
+      "A) MAKE TABLE",
+      "B) CREATE TABLE",
+      "C) NEW TABLE",
+      "D) BUILD TABLE"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DDL",
+    "Difficulty": "Foundation",
+    "Explanation": "CREATE TABLE table_name (col1 datatype, col2 datatype, ...). DDL (Data Definition Language) command. Defines structure: columns, data types, constraints."
+  },
+  {
+    "QuestionText": "What is the ACID property in databases?",
+    "Options": [
+      "A) Atomicity, Consistency, Isolation, Durability",
+      "B) Accuracy, Completeness, Integrity, Data",
+      "C) Atomicity, Capacity, Index, Deduplication",
+      "D) Access, Create, Insert, Delete"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "ACID: properties ensuring reliable database transactions. Atomicity (all or nothing), Consistency (valid state), Isolation (concurrent transactions independent), Durability (committed data persists)."
+  },
+  {
+    "QuestionText": "What does SQL LIKE operator do?",
+    "Options": [
+      "A) Checks equality",
+      "B) Pattern matching with wildcards (% and _)",
+      "C) Checks greater than",
+      "D) Joins tables"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "LIKE for pattern matching. % = any number of characters. _ = exactly one character. E.g., WHERE name LIKE 'A%' (starts with A). WHERE name LIKE '_o%' (second char is o)."
+  },
+  {
+    "QuestionText": "First Normal Form (1NF) requires:",
+    "Options": [
+      "A) No null values",
+      "B) Atomic (indivisible) values in each cell, no repeating groups",
+      "C) No foreign keys",
+      "D) Primary key only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Normalization",
+    "Difficulty": "Advanced",
+    "Explanation": "1NF: each cell contains atomic (indivisible) value. No repeating groups or arrays. Every column must have a unique name. Rows must be uniquely identifiable (primary key)."
+  },
+  {
+    "QuestionText": "What is a subquery in SQL?",
+    "Options": [
+      "A) A partial query",
+      "B) A query nested inside another query",
+      "C) A faster version of a query",
+      "D) A backup query"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Advanced SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "Subquery (nested query): SELECT inside another SELECT, INSERT, UPDATE, or DELETE. E.g., SELECT * FROM emp WHERE salary > (SELECT AVG(salary) FROM emp)."
+  },
+  {
+    "QuestionText": "Which SQL command removes a table completely?",
+    "Options": [
+      "A) DELETE TABLE",
+      "B) REMOVE TABLE",
+      "C) DROP TABLE",
+      "D) CLEAR TABLE"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DDL",
+    "Difficulty": "Foundation",
+    "Explanation": "DROP TABLE table_name: deletes the table and all its data permanently. TRUNCATE: removes all data but keeps structure. DELETE: removes specific rows. DDL commands cannot be rolled back easily."
+  },
+  {
+    "QuestionText": "What does the IN operator do in SQL?",
+    "Options": [
+      "A) Joins tables",
+      "B) Checks if a value is in a list of values",
+      "C) Tests NULL values",
+      "D) Calculates aggregate"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "IN: WHERE col IN (val1, val2, val3). Equivalent to multiple OR conditions. NOT IN: excludes values. Also used with subqueries: WHERE id IN (SELECT id FROM table)."
+  },
+  {
+    "QuestionText": "What is an ER diagram?",
+    "Options": [
+      "A) Error report",
+      "B) Entity-Relationship diagram showing database structure",
+      "C) Execution Result",
+      "D) Encrypted Record"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Design",
+    "Difficulty": "Foundation",
+    "Explanation": "ER diagram: visual representation of entities (tables), attributes (columns), and relationships between them. Used in database design before implementation. Shows cardinality (1:1, 1:N, M:N)."
+  },
+  {
+    "QuestionText": "Referential integrity means:",
+    "Options": [
+      "A) All values are unique",
+      "B) Foreign key values must match existing primary key values",
+      "C) All NULLs are eliminated",
+      "D) Data is encrypted"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Referential integrity: foreign key value must either be NULL or match an existing primary key value in the referenced table. Prevents orphaned records. Enforced by database constraints."
+  },
+  {
+    "QuestionText": "What is the difference between DELETE and TRUNCATE?",
+    "Options": [
+      "A) No difference",
+      "B) DELETE removes specific rows (can WHERE); TRUNCATE removes all rows (no WHERE, faster)",
+      "C) TRUNCATE removes columns; DELETE removes rows",
+      "D) DELETE is for DDL; TRUNCATE is for DML"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DML",
+    "Difficulty": "Advanced",
+    "Explanation": "DELETE: DML, removes specific rows (with WHERE), can be rolled back, triggers fire. TRUNCATE: DDL, removes all rows, cannot rollback in most DBs, faster (doesn't log each row)."
+  },
+  {
+    "QuestionText": "What is a stored procedure?",
+    "Options": [
+      "A) Data stored in the database",
+      "B) A precompiled SQL program stored in the database",
+      "C) An encrypted query",
+      "D) A backup procedure"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Advanced SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "Stored procedure: precompiled collection of SQL statements stored in the database. Executed with EXEC/CALL. Benefits: reusability, performance (precompiled), security (access control)."
+  },
+  {
+    "QuestionText": "What is SQL injection?",
+    "Options": [
+      "A) Adding data via SQL",
+      "B) Security vulnerability where malicious SQL is inserted through user input",
+      "C) Inserting image data",
+      "D) A database backup technique"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Security",
+    "Difficulty": "Advanced",
+    "Explanation": "SQL injection: attacker enters SQL code in input fields to manipulate queries. E.g., entering '; DROP TABLE users; --' in a login field. Prevention: parameterized queries, prepared statements."
+  },
+  {
+    "QuestionText": "What is the purpose of the AUTO_INCREMENT attribute?",
+    "Options": [
+      "A) Automatically updates the column",
+      "B) Automatically generates a unique integer value for each new row",
+      "C) Automatically backs up data",
+      "D) Automatically indexes the column"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DDL",
+    "Difficulty": "Foundation",
+    "Explanation": "AUTO_INCREMENT (MySQL) or SERIAL (PostgreSQL): automatically assigns next integer value for each new row. Commonly used for primary key IDs. Each new row gets the next incremented value."
+  },
+  {
+    "QuestionText": "What is cardinality in database relationships?",
+    "Options": [
+      "A) The number of tables",
+      "B) The number specifying how many instances of one entity relate to another (1:1, 1:N, M:N)",
+      "C) The number of columns",
+      "D) The order of rows"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Design",
+    "Difficulty": "Advanced",
+    "Explanation": "Cardinality: one-to-one (1:1), one-to-many (1:N), many-to-many (M:N). E.g., one customer can have many orders (1:N). M:N relationships need a junction/bridge table."
+  },
+  {
+    "QuestionText": "What does ROLLBACK do in a database transaction?",
+    "Options": [
+      "A) Saves all changes permanently",
+      "B) Undoes all changes made in the current transaction",
+      "C) Backs up the database",
+      "D) Resets the schema"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Transactions",
+    "Difficulty": "Advanced",
+    "Explanation": "ROLLBACK: undoes all changes made since the last COMMIT or SAVEPOINT. Part of transaction management. Ensures atomicity \u2014 either all changes commit or all roll back."
+  },
+  {
+    "QuestionText": "What is the SELECT TOP / LIMIT clause used for?",
+    "Options": [
+      "A) Finding maximum value",
+      "B) Restricting number of rows returned",
+      "C) Limiting column count",
+      "D) Setting a maximum aggregate value"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "LIMIT n (MySQL/PostgreSQL) or TOP n (SQL Server): returns only first n rows. E.g., SELECT * FROM products ORDER BY price LIMIT 5 returns 5 cheapest products."
+  },
+  {
+    "QuestionText": "Which normal form eliminates transitive dependencies?",
+    "Options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Normalization",
+    "Difficulty": "Olympiad",
+    "Explanation": "3NF: eliminates transitive dependency (non-key attribute depending on another non-key attribute). In 3NF: all attributes depend only on the primary key (not on other non-key attributes)."
+  },
+  {
+    "QuestionText": "What is a CROSS JOIN?",
+    "Options": [
+      "A) Joins on a common column",
+      "B) Returns Cartesian product (all combinations of rows)",
+      "C) Joins only non-matching rows",
+      "D) Joins tables of different databases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Joins",
+    "Difficulty": "Olympiad",
+    "Explanation": "CROSS JOIN: returns every combination of rows from both tables (Cartesian product). m rows \u00d7 n rows = m\u00d7n results. Rarely used directly; useful for generating combinations."
+  },
+  {
+    "QuestionText": "What does the EXISTS operator do?",
+    "Options": [
+      "A) Checks if a column exists",
+      "B) Returns TRUE if a subquery returns any rows",
+      "C) Checks if a value is not null",
+      "D) Verifies table existence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Advanced SQL",
+    "Difficulty": "Olympiad",
+    "Explanation": "EXISTS: used in WHERE clause to test if a subquery returns at least one row. IF subquery has results \u2192 TRUE. More efficient than IN for large datasets in many DBs."
+  },
+  {
+    "QuestionText": "What is the purpose of a trigger in SQL?",
+    "Options": [
+      "A) Starts the database",
+      "B) Automatically executes code when a specified event occurs (INSERT/UPDATE/DELETE)",
+      "C) Triggers backup",
+      "D) Initializes a connection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Advanced SQL",
+    "Difficulty": "Olympiad",
+    "Explanation": "Trigger: procedural code that executes automatically on table events. BEFORE/AFTER INSERT, UPDATE, DELETE. Used for auditing, validation, cascading updates. Cannot be called directly."
+  },
+  {
+    "QuestionText": "Which SQL keyword is used to combine result sets of two queries?",
+    "Options": [
+      "A) JOIN",
+      "B) MERGE",
+      "C) UNION",
+      "D) COMBINE"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Advanced SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "UNION combines result sets of two SELECT statements (removes duplicates). UNION ALL keeps duplicates (faster). Both SELECT statements must have same number of columns and compatible types."
+  },
+  {
+    "QuestionText": "The 'BETWEEN' operator in SQL:",
+    "Options": [
+      "A) Calculates difference",
+      "B) Selects values in an inclusive range",
+      "C) Finds middle value",
+      "D) Connects two tables"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "DQL",
+    "Difficulty": "Foundation",
+    "Explanation": "BETWEEN val1 AND val2: selects values from val1 to val2 inclusive. Works with numbers, text, dates. WHERE age BETWEEN 18 AND 25 includes 18 and 25."
+  },
+  {
+    "QuestionText": "What is a transaction in database terms?",
+    "Options": [
+      "A) A financial operation only",
+      "B) A unit of work that is either fully completed or fully rolled back",
+      "C) A type of join",
+      "D) A stored procedure"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Transactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Transaction: sequence of SQL operations treated as a single unit. BEGIN TRANSACTION \u2192 operations \u2192 COMMIT (save) or ROLLBACK (undo). Ensures ACID properties."
+  },
+  {
+    "QuestionText": "What does the COALESCE function do?",
+    "Options": [
+      "A) Joins strings",
+      "B) Returns the first non-NULL value from a list",
+      "C) Converts data types",
+      "D) Rounds numbers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "SQL Functions",
+    "Difficulty": "Olympiad",
+    "Explanation": "COALESCE(val1, val2, ...): returns first non-NULL value. E.g., COALESCE(phone, email, 'No contact') returns phone if not null, else email, else the string. Useful for handling NULLs."
+  },
+  {
+    "QuestionText": "Which constraint ensures all values in a column are different?",
+    "Options": [
+      "A) NOT NULL",
+      "B) PRIMARY KEY",
+      "C) UNIQUE",
+      "D) CHECK"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "UNIQUE constraint: all values in a column must be different (allows one NULL, unlike PRIMARY KEY). Can have multiple UNIQUE constraints per table. One PRIMARY KEY per table."
+  },
+  {
+    "QuestionText": "What does the AVG() function compute?",
+    "Options": [
+      "A) Maximum value",
+      "B) Sum of values",
+      "C) Arithmetic mean (average) of non-NULL values",
+      "D) Count of rows"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Aggregate Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "AVG(column): computes arithmetic mean of non-NULL values. SELECT AVG(salary) FROM employees returns average salary. NULLs are ignored in AVG calculation."
+  },
+  {
+    "QuestionText": "A composite key is a primary key consisting of:",
+    "Options": [
+      "A) A single column",
+      "B) Two or more columns that together uniquely identify a row",
+      "C) Foreign keys",
+      "D) Indexed columns only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Composite key: multiple columns together form the primary key. Neither column alone is unique, but the combination is. E.g., (StudentID, CourseID) in an enrollment table."
+  },
+  {
+    "QuestionText": "What does the NOT NULL constraint do?",
+    "Options": [
+      "A) Prevents duplicate values",
+      "B) Ensures a column cannot have NULL (empty) values",
+      "C) Creates an index",
+      "D) Specifies default value"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "NOT NULL constraint: the column must always have a value. INSERT without providing that column's value will fail. Different from UNIQUE (which allows one NULL)."
+  },
+  {
+    "QuestionText": "What is a NoSQL database?",
+    "Options": [
+      "A) A database with no SQL support",
+      "B) A non-relational database designed for unstructured data at scale",
+      "C) A database without tables",
+      "D) SQL database without joins"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and SQL",
+    "SubTopic": "Database Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "NoSQL: not only SQL. Non-relational databases designed for scalability and flexible schemas. Types: document (MongoDB), key-value (Redis), column (Cassandra), graph (Neo4j). Better for unstructured big data."
+  }
+]

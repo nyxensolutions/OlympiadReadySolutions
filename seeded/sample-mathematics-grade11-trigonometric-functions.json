@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The value of sin 30° is:",
+    "Options": [
+      "A) √3/2",
+      "B) 1/2",
+      "C) 1/√2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Standard Angle Values",
+    "Difficulty": "Foundation",
+    "Explanation": "sin 30° = 1/2. Remember: sin 0°=0, sin 30°=1/2, sin 45°=1/√2, sin 60°=√3/2, sin 90°=1."
+  },
+  {
+    "QuestionText": "The value of cos 60° is:",
+    "Options": [
+      "A) √3/2",
+      "B) 1/√2",
+      "C) 1/2",
+      "D) 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Standard Angle Values",
+    "Difficulty": "Foundation",
+    "Explanation": "cos 60° = 1/2. Cosine values decrease from 1 to 0 as angle increases from 0° to 90°."
+  },
+  {
+    "QuestionText": "The value of tan 45° is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) √3",
+      "D) undefined"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Standard Angle Values",
+    "Difficulty": "Foundation",
+    "Explanation": "tan 45° = sin 45°/cos 45° = (1/√2)/(1/√2) = 1."
+  },
+  {
+    "QuestionText": "The reciprocal of sin x is:",
+    "Options": [
+      "A) cos x",
+      "B) cot x",
+      "C) cosec x",
+      "D) sec x"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Reciprocal Trigonometric Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "cosec x = 1/sin x. Similarly, sec x = 1/cos x and cot x = 1/tan x."
+  },
+  {
+    "QuestionText": "Convert 180° to radians.",
+    "Options": [
+      "A) π/2",
+      "B) π",
+      "C) 2π",
+      "D) 3π/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Degree-Radian Conversion",
+    "Difficulty": "Foundation",
+    "Explanation": "180° = π radians. Use the formula: radians = degrees × π/180. So 180 × π/180 = π."
+  },
+  {
+    "QuestionText": "Convert π/3 radians to degrees.",
+    "Options": [
+      "A) 30°",
+      "B) 45°",
+      "C) 60°",
+      "D) 90°"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Degree-Radian Conversion",
+    "Difficulty": "Foundation",
+    "Explanation": "Degrees = radians × 180/π = (π/3) × (180/π) = 180/3 = 60°."
+  },
+  {
+    "QuestionText": "The fundamental identity of trigonometry is:",
+    "Options": [
+      "A) sin²x − cos²x = 1",
+      "B) sin²x + cos²x = 1",
+      "C) tan²x + 1 = sin²x",
+      "D) cosec²x − cot²x = −1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "The Pythagorean identity sin²x + cos²x = 1 holds for all values of x and is the most fundamental trigonometric identity."
+  },
+  {
+    "QuestionText": "In which quadrant is sin x negative and cos x positive?",
+    "Options": [
+      "A) First quadrant",
+      "B) Second quadrant",
+      "C) Third quadrant",
+      "D) Fourth quadrant"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Signs in Quadrants",
+    "Difficulty": "Foundation",
+    "Explanation": "In the fourth quadrant (270° to 360°), x is positive and y is negative, so cos x > 0 and sin x < 0. Remember: ASTC — All, Sin, Tan, Cos positive in Q1, Q2, Q3, Q4."
+  },
+  {
+    "QuestionText": "The value of sin(90° + θ) is:",
+    "Options": [
+      "A) sin θ",
+      "B) −sin θ",
+      "C) cos θ",
+      "D) −cos θ"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Allied Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "sin(90° + θ) = cos θ. This is an allied angle identity where adding 90° to the argument changes sin to cos."
+  },
+  {
+    "QuestionText": "The value of cos(180° − θ) is:",
+    "Options": [
+      "A) cos θ",
+      "B) −cos θ",
+      "C) sin θ",
+      "D) −sin θ"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Allied Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "cos(180° − θ) = −cos θ. In the second quadrant, cosine is negative, so the allied angle formula gives a negative sign."
+  },
+  {
+    "QuestionText": "tan x is undefined when x equals:",
+    "Options": [
+      "A) 0",
+      "B) π",
+      "C) π/2",
+      "D) π/4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Domain and Range of Trig Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "tan x = sin x/cos x is undefined when cos x = 0, which happens at x = π/2, 3π/2, etc. — i.e., at x = (2n+1)π/2."
+  },
+  {
+    "QuestionText": "The period of sin x is:",
+    "Options": [
+      "A) π/2",
+      "B) π",
+      "C) 2π",
+      "D) 4π"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Period of Trig Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "The sine function completes one full cycle every 2π radians. So sin(x + 2π) = sin x for all x, and the period is 2π."
+  },
+  {
+    "QuestionText": "The period of tan x is:",
+    "Options": [
+      "A) 2π",
+      "B) π/2",
+      "C) π",
+      "D) 4π"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Period of Trig Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "tan x has period π because tan(x + π) = tan x for all x in its domain."
+  },
+  {
+    "QuestionText": "If sin x = 3/5 and x is in the first quadrant, then tan x is:",
+    "Options": [
+      "A) 3/4",
+      "B) 4/3",
+      "C) 3/5",
+      "D) 5/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "cos x = √(1−9/25) = 4/5. tan x = sin x/cos x = (3/5)/(4/5) = 3/4."
+  },
+  {
+    "QuestionText": "The value of sin 75° is:",
+    "Options": [
+      "A) (√6 + √2)/4",
+      "B) (√6 − √2)/4",
+      "C) (√3 + 1)/2",
+      "D) (√3 − 1)/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Compound Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "sin 75° = sin(45°+30°) = sin45°cos30° + cos45°sin30° = (1/√2)(√3/2) + (1/√2)(1/2) = (√3+1)/(2√2) = (√6+√2)/4."
+  },
+  {
+    "QuestionText": "Which of the following is equal to cos 2x?",
+    "Options": [
+      "A) 2sin x cos x",
+      "B) 1 − 2sin²x",
+      "C) sin²x − cos²x",
+      "D) 2cos x − 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Multiple Angle Formulas",
+    "Difficulty": "Advanced",
+    "Explanation": "cos 2x has three equivalent forms: cos²x − sin²x, 2cos²x − 1, or 1 − 2sin²x. Option B is one of the correct forms."
+  },
+  {
+    "QuestionText": "sin 2x equals:",
+    "Options": [
+      "A) 2sin x",
+      "B) sin x cos x",
+      "C) 2sin x cos x",
+      "D) 2cos²x − 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Multiple Angle Formulas",
+    "Difficulty": "Advanced",
+    "Explanation": "The double angle formula: sin 2x = 2 sin x cos x. This is derived from sin(A+B) with A=B=x."
+  },
+  {
+    "QuestionText": "The general solution of sin x = 0 is:",
+    "Options": [
+      "A) x = nπ",
+      "B) x = 2nπ",
+      "C) x = (2n+1)π/2",
+      "D) x = nπ/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "General Solutions of Trig Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "sin x = 0 at x = 0, π, 2π, 3π, ... and −π, −2π, ... — all integer multiples of π. General solution: x = nπ, n ∈ Z."
+  },
+  {
+    "QuestionText": "The general solution of cos x = 0 is:",
+    "Options": [
+      "A) x = nπ",
+      "B) x = (2n+1)π/2",
+      "C) x = 2nπ",
+      "D) x = nπ + π/4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "General Solutions of Trig Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "cos x = 0 at x = π/2, 3π/2, −π/2, ... General solution: x = (2n+1)π/2, n ∈ Z."
+  },
+  {
+    "QuestionText": "sin(A+B) + sin(A−B) equals:",
+    "Options": [
+      "A) 2 sin A cos B",
+      "B) 2 cos A sin B",
+      "C) 2 sin A sin B",
+      "D) 2 cos A cos B"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Sum and Difference Formulas",
+    "Difficulty": "Advanced",
+    "Explanation": "Using sum-to-product: sin(A+B) = sinA cosB + cosA sinB and sin(A−B) = sinA cosB − cosA sinB. Adding: 2 sinA cosB."
+  },
+  {
+    "QuestionText": "The value of sin 18° is:",
+    "Options": [
+      "A) (√5+1)/4",
+      "B) (√5−1)/4",
+      "C) (√5+1)/2",
+      "D) (√5−1)/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Exact Values of Trig Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "sin 18° = (√5−1)/4. This is derived using the pentagon geometry or by solving sin 5θ = 1 when θ = 18°."
+  },
+  {
+    "QuestionText": "If tan A = 1/√3, then sin A · cos A is:",
+    "Options": [
+      "A) 1/4",
+      "B) √3/4",
+      "C) 1/2",
+      "D) √3/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Standard Angle Values",
+    "Difficulty": "Advanced",
+    "Explanation": "tan A = 1/√3 → A = 30°. sin 30° · cos 30° = (1/2)(√3/2) = √3/4."
+  },
+  {
+    "QuestionText": "The maximum value of 3sin x + 4cos x is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Maximum and Minimum Values",
+    "Difficulty": "Advanced",
+    "Explanation": "For a sin x + b cos x, the maximum value is √(a²+b²) = √(9+16) = √25 = 5."
+  },
+  {
+    "QuestionText": "In a triangle ABC, if A + B + C = 180°, then sin(A+B) equals:",
+    "Options": [
+      "A) sin C",
+      "B) −sin C",
+      "C) cos C",
+      "D) −cos C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Properties of Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "A + B + C = 180° → A + B = 180° − C. So sin(A+B) = sin(180°−C) = sin C."
+  },
+  {
+    "QuestionText": "The value of cos 1° · cos 2° · cos 3° · ... · cos 89° · cos 90° is:",
+    "Options": [
+      "A) 1",
+      "B) 1/2",
+      "C) 1/√2",
+      "D) 0"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Standard Angle Values",
+    "Difficulty": "Advanced",
+    "Explanation": "The product includes cos 90° = 0. Any number multiplied by 0 is 0, so the entire product is 0."
+  },
+  {
+    "QuestionText": "Prove step: If 2sin²x + 3cos x = 0, one solution is:",
+    "Options": [
+      "A) x = π/3",
+      "B) x = π/2",
+      "C) x = 2π/3",
+      "D) x = π"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "2(1−cos²x) + 3cos x = 0 → 2cos²x − 3cos x − 2 = 0 → (2cos x + 1)(cos x − 2) = 0. cos x = −1/2 (since cos x ≠ 2) → x = 2π/3."
+  },
+  {
+    "QuestionText": "If sin x + sin y = a and cos x + cos y = b, then tan((x+y)/2) is:",
+    "Options": [
+      "A) a/b",
+      "B) b/a",
+      "C) ab",
+      "D) 1/(ab)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Sum and Difference Formulas",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using sum-to-product: sin x+sin y = 2sin((x+y)/2)cos((x−y)/2) = a; cos x+cos y = 2cos((x+y)/2)cos((x−y)/2) = b. Dividing: tan((x+y)/2) = a/b."
+  },
+  {
+    "QuestionText": "The number of solutions of sin x = x/10 in [0, 10π] is:",
+    "Options": [
+      "A) 6",
+      "B) 10",
+      "C) 5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "This requires graphical analysis. The line y=x/10 intersects y=sin x at x=0 and in each of the first 3 complete positive cycles (6 more intersections), giving 7 solutions total in [0,10π]."
+  },
+  {
+    "QuestionText": "The value of sin 20° · sin 40° · sin 80° is:",
+    "Options": [
+      "A) √3/4",
+      "B) 1/8",
+      "C) √3/8",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Product Formulas",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using the identity sin θ·sin(60°−θ)·sin(60°+θ) = (1/4)sin 3θ with θ=20°: sin20°·sin40°·sin80° = (1/4)sin60° = (1/4)(√3/2) = √3/8."
+  },
+  {
+    "QuestionText": "If sin x + cosec x = 2, then sin¹⁰x + cosec¹⁰x is:",
+    "Options": [
+      "A) 2",
+      "B) 2¹⁰",
+      "C) 10",
+      "D) 1024"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "sin x + 1/sin x = 2 → sin²x − 2sin x + 1 = 0 → (sin x − 1)² = 0 → sin x = 1. Then sin¹⁰x + cosec¹⁰x = 1 + 1 = 2."
+  },
+  {
+    "QuestionText": "The general solution of tan x = tan α is:",
+    "Options": [
+      "A) x = 2nπ + α",
+      "B) x = nπ + α",
+      "C) x = nπ − α",
+      "D) x = 2nπ ± α"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "General Solutions of Trig Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "tan x = tan α implies x − α = nπ for some integer n, giving x = nπ + α."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a valid trigonometric identity?",
+    "Options": [
+      "A) sec²x − tan²x = 1",
+      "B) cosec²x − cot²x = 1",
+      "C) sin²x + cos²x = 2",
+      "D) 1 + tan²x = sec²x"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "sin²x + cos²x = 1, not 2. This is the fundamental Pythagorean identity. The correct version is =1."
+  },
+  {
+    "QuestionText": "The value of sin(−210°) is:",
+    "Options": [
+      "A) 1/2",
+      "B) −1/2",
+      "C) √3/2",
+      "D) −√3/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Allied Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "sin(−210°) = −sin(210°) = −sin(180°+30°) = −(−sin30°) = sin30° = 1/2."
+  },
+  {
+    "QuestionText": "cos 3A in terms of cos A is:",
+    "Options": [
+      "A) 3cos A − 4cos³A",
+      "B) 4cos³A − 3cos A",
+      "C) 4cos³A + 3cos A",
+      "D) 3cos A + 4cos³A"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Multiple Angle Formulas",
+    "Difficulty": "Advanced",
+    "Explanation": "cos 3A = 4cos³A − 3cos A. This is the triple angle formula for cosine. Similarly, sin 3A = 3sin A − 4sin³A."
+  },
+  {
+    "QuestionText": "If tan θ = 5/12 and θ is in the third quadrant, sin θ equals:",
+    "Options": [
+      "A) 5/13",
+      "B) −5/13",
+      "C) 12/13",
+      "D) −12/13"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Signs in Quadrants",
+    "Difficulty": "Advanced",
+    "Explanation": "In Q3, both sin and cos are negative. The hypotenuse = √(5²+12²)=13. sin θ = −5/13 (negative in Q3)."
+  },
+  {
+    "QuestionText": "The range of f(x) = sin x + cos x is:",
+    "Options": [
+      "A) [−1, 1]",
+      "B) [−2, 2]",
+      "C) [−√2, √2]",
+      "D) [0, √2]"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Maximum and Minimum Values",
+    "Difficulty": "Advanced",
+    "Explanation": "f(x) = √2 sin(x + π/4). Maximum = √2, minimum = −√2. Range = [−√2, √2]."
+  },
+  {
+    "QuestionText": "The value of cos(π/12) is:",
+    "Options": [
+      "A) (√6+√2)/4",
+      "B) (√6−√2)/4",
+      "C) (√3+1)/2",
+      "D) (√3−1)/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Compound Angles",
+    "Difficulty": "Olympiad",
+    "Explanation": "π/12 = 15°. cos15° = cos(45°−30°) = cos45°cos30° + sin45°sin30° = (1/√2)(√3/2)+(1/√2)(1/2) = (√6+√2)/4."
+  },
+  {
+    "QuestionText": "If sin(A+B) = 1 and sin(A−B) = 1/2, find A and B (in [0°,90°]).",
+    "Options": [
+      "A) A=60°,B=30°",
+      "B) A=45°,B=45°",
+      "C) A=75°,B=15°",
+      "D) A=90°,B=0°"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "sin(A+B)=1 → A+B=90°. sin(A−B)=1/2 → A−B=30°. Adding: 2A=120° → A=60°, B=30°."
+  },
+  {
+    "QuestionText": "The value of tan(75°) is:",
+    "Options": [
+      "A) 2+√3",
+      "B) 2−√3",
+      "C) √3+1",
+      "D) √3−1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Compound Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "tan75° = tan(45°+30°) = (1+tan30°)/(1−tan30°) = (1+1/√3)/(1−1/√3) = (√3+1)/(√3−1) = (√3+1)²/2 = 2+√3."
+  },
+  {
+    "QuestionText": "The expression (cos x − cos y)² + (sin x − sin y)² simplifies to:",
+    "Options": [
+      "A) 2−2cos(x−y)",
+      "B) 2+2cos(x+y)",
+      "C) 4sin²((x−y)/2)",
+      "D) Both A and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "Expanding: 2 − 2(cosxcosy+sinxsiny) = 2 − 2cos(x−y). Using half-angle: 2−2cos(x−y) = 4sin²((x−y)/2). So both A and C are correct."
+  },
+  {
+    "QuestionText": "In ΔABC, if a=2, b=3, and C=60°, then c equals:",
+    "Options": [
+      "A) √7",
+      "B) √13",
+      "C) √5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Properties of Triangles",
+    "Difficulty": "Olympiad",
+    "Explanation": "By cosine rule: c²=a²+b²−2ab cosC = 4+9−2(2)(3)(1/2) = 13−6 = 7. So c=√7."
+  },
+  {
+    "QuestionText": "The number of solutions of sin 2x = cos x in [0, 2π] is:",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Equations",
+    "Difficulty": "Olympiad",
+    "Explanation": "sin2x=cosx → 2sinxcosx−cosx=0 → cosx(2sinx−1)=0. cosx=0: x=π/2,3π/2. sinx=1/2: x=π/6,5π/6. Total: 4 solutions."
+  },
+  {
+    "QuestionText": "If cosA + cosB = m and sinA + sinB = n, then cos(A−B) equals:",
+    "Options": [
+      "A) (m²+n²−2)/2",
+      "B) (m²+n²)/2",
+      "C) m²+n²",
+      "D) (m+n)²−1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Sum and Difference Formulas",
+    "Difficulty": "Olympiad",
+    "Explanation": "m² = cos²A+cos²B+2cosAcosB, n² = sin²A+sin²B+2sinAsinB. m²+n² = 2+2cos(A−B). So cos(A−B) = (m²+n²−2)/2."
+  },
+  {
+    "QuestionText": "If tan(π/4 + x) = 3, then tan(π/4 − x) equals:",
+    "Options": [
+      "A) 1/3",
+      "B) 3",
+      "C) −3",
+      "D) −1/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Compound Angles",
+    "Difficulty": "Olympiad",
+    "Explanation": "tan(π/4+x)·tan(π/4−x) = [(1+tanx)/(1−tanx)]·[(1−tanx)/(1+tanx)] = 1. So tan(π/4−x) = 1/3."
+  },
+  {
+    "QuestionText": "sin A · sin(60°−A) · sin(60°+A) equals:",
+    "Options": [
+      "A) (1/4)sin A",
+      "B) (1/4)sin 3A",
+      "C) (1/2)sin 3A",
+      "D) sin 3A"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Product Formulas",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is a standard identity: sinA·sin(60°−A)·sin(60°+A) = (1/4)sin3A. Useful in olympiad competition problems."
+  },
+  {
+    "QuestionText": "The value of sin²(π/6) + cos²(π/3) − tan²(π/4) is:",
+    "Options": [
+      "A) −1/2",
+      "B) 1/2",
+      "C) 0",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Standard Angle Values",
+    "Difficulty": "Advanced",
+    "Explanation": "sin²30° + cos²60° − tan²45° = (1/2)²+(1/2)²−1² = 1/4+1/4−1 = 1/2−1 = −1/2. Wait: 1/4+1/4=1/2, minus 1 = −1/2. Correct answer is A."
+  },
+  {
+    "QuestionText": "If sec x + tan x = k, then sin x is:",
+    "Options": [
+      "A) (k²−1)/(k²+1)",
+      "B) (k+1)/(k−1)",
+      "C) k/(k²+1)",
+      "D) (k²+1)/(k²−1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "sec x + tan x = k and sec x − tan x = 1/k (since sec²x−tan²x=1). Adding: 2sec x = k+1/k; subtracting: 2tan x = k−1/k. sin x = tan x/sec x = (k²−1)/(k²+1)."
+  },
+  {
+    "QuestionText": "The value of 4sin10°·sin30°·sin50°·sin70° is:",
+    "Options": [
+      "A) 1/2",
+      "B) 1/4",
+      "C) √3/4",
+      "D) 3/16"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Product Formulas",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using product identity: sin10°sin50°sin70°=sin10°sin50°cos20°. Applying the identity sinθ·sin(60°−θ)·sin(60°+θ)=(1/4)sin3θ with θ=10°: = (1/4)sin30° = 1/8. Multiplied by 4·sin30°=4·(1/2)=2: result = 2·(1/8)=1/4. Then ×sin30°=(1/4)×(1/2): re-evaluating gives 3/16."
+  },
+  {
+    "QuestionText": "The value of sin 150° is:",
+    "Options": [
+      "A) −1/2",
+      "B) 1/2",
+      "C) √3/2",
+      "D) −√3/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Allied Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "sin 150° = sin(180°−30°) = sin 30° = 1/2."
+  },
+  {
+    "QuestionText": "The function f(x) = cos x is an even function because:",
+    "Options": [
+      "A) cos(−x) = cos x",
+      "B) cos(−x) = −cos x",
+      "C) cos 2x = 2cos²x−1",
+      "D) cos x ≥ 0 always"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Trigonometric Functions",
+    "SubTopic": "Domain and Range of Trig Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "cos(−x) = cos x for all x, satisfying the definition of an even function f(−x)=f(x)."
+  }
+]

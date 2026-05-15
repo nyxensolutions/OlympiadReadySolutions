@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If Rohan is standing 3rd from the left in a line of 5 children, how many children are standing to his right?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "If he is 3rd, there are 2 children before him and 2 children after him (3 + 2 = 5)."
+  },
+  {
+    "QuestionText": "In a row of cars, the Red car is at the 1st position from the front. Which car is just behind it?",
+    "Options": ["A) The 3rd car", "B) The 2nd car", "C) The last car", "D) No car"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "The 2nd position is always immediately behind the 1st position."
+  },
+  {
+    "QuestionText": "There are 4 birds on a branch. The Blue bird is the tallest. Which bird is at the top rank for height?",
+    "Options": ["A) Green bird", "B) Red bird", "C) Blue bird", "D) Yellow bird"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "Tallest means having the highest rank in height."
+  },
+  {
+    "QuestionText": "Anil is taller than Sam. Sam is taller than Tom. Who is the tallest among them?",
+    "Options": ["A) Sam", "B) Tom", "C) Anil", "D) Cannot tell"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "Since Anil > Sam and Sam > Tom, Anil is the tallest."
+  },
+  {
+    "QuestionText": "If you are the last person in a line of 10 people, what is your position from the front?",
+    "Options": ["A) 1st", "B) 5th", "C) 9th", "D) 10th"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "The last person in a line of 10 is at the 10th position."
+  },
+  {
+    "QuestionText": "Which animal is the heaviest: An Elephant, a Cat, or a Mouse?",
+    "Options": ["A) Mouse", "B) Cat", "C) Elephant", "D) All are equal"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "An elephant is much larger and heavier than a cat or a mouse."
+  },
+  {
+    "QuestionText": "If Monday is the 1st day of the week, what is the 3rd day?",
+    "Options": ["A) Tuesday", "B) Wednesday", "C) Thursday", "D) Sunday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "1st: Monday, 2nd: Tuesday, 3rd: Wednesday."
+  },
+  {
+    "QuestionText": "In a stack of 3 books, the Math book is at the bottom. Which book is at the 1st position from the top?",
+    "Options": ["A) The Math book", "B) The Middle book", "C) The Top book", "D) No book"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "Counting from the top, the top-most book is 1st."
+  },
+  {
+    "QuestionText": "A rabbit, a turtle, and a snail are in a race. The rabbit is the fastest. Who will likely be 1st?",
+    "Options": ["A) Snail", "B) Turtle", "C) Rabbit", "D) All together"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "The fastest person or animal usually reaches the finish line first."
+  },
+  {
+    "QuestionText": "If there are 7 days in a week, what is the position of the last day?",
+    "Options": ["A) 1st", "B) 6th", "C) 7th", "D) 8th"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "The last day of a 7-day week is the 7th day."
+  },
+  {
+    "QuestionText": "There are 5 apples in a row. If you eat the 2nd and 4th apple, how many are left?",
+    "Options": ["A) 5", "B) 3", "C) 2", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "5 total - 2 eaten = 3 remaining."
+  },
+  {
+    "QuestionText": "Who is standing exactly in the middle of a line of 3 people?",
+    "Options": ["A) The 1st person", "B) The 2nd person", "C) The 3rd person", "D) No one"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "In a group of 3, the 2nd person has one person on each side."
+  },
+  {
+    "QuestionText": "Looking at a ladder, which rung is the highest?",
+    "Options": ["A) The bottom rung", "B) The middle rung", "C) The top rung", "D) The 2nd rung"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "The top of the ladder is its highest point."
+  },
+  {
+    "QuestionText": "If today is the 5th day of the month, what was the date yesterday?",
+    "Options": ["A) 6th", "B) 4th", "C) 1st", "D) 3rd"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Yesterday is the day before; 5 - 1 = 4."
+  },
+  {
+    "QuestionText": "Which object is the shortest: A Pencil, a Ruler, or a Flagpole?",
+    "Options": ["A) Flagpole", "B) Ruler", "C) Pencil", "D) They are the same"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "A pencil is usually shorter than a ruler or a flagpole."
+  },
+  {
+    "QuestionText": "In the word 'CAT', which letter is in the 2nd position?",
+    "Options": ["A) C", "B) T", "C) A", "D) B"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "C is 1st, A is 2nd, and T is 3rd."
+  },
+  {
+    "QuestionText": "Four friends are sitting on a bench. Tina is to the left of Meena. Who is further to the right?",
+    "Options": ["A) Tina", "B) Meena", "C) Both", "D) Neither"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Olympiad",
+    "Explanation": "If Tina is on the left, Meena must be to her right."
+  },
+  {
+    "QuestionText": "Which month comes 2nd in the year?",
+    "Options": ["A) January", "B) March", "C) February", "D) April"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "January is 1st and February is 2nd."
+  },
+  {
+    "QuestionText": "If a cat is smaller than a dog, and a dog is smaller than a horse, which is the smallest?",
+    "Options": ["A) Horse", "B) Dog", "C) Cat", "D) Elephant"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "The cat is smaller than the others mentioned."
+  },
+  {
+    "QuestionText": "In a queue, if you move from 4th place to 2nd place, are you closer to the front?",
+    "Options": ["A) Yes", "B) No", "C) Same position", "D) Further away"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "The 1st and 2nd positions are closer to the start of a line than the 4th."
+  },
+  {
+    "QuestionText": "Which is the 5th letter of the Alphabet?",
+    "Options": ["A) D", "B) E", "C) F", "D) G"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "A(1), B(2), C(3), D(4), E(5)."
+  },
+  {
+    "QuestionText": "A bag has 3 balls: Red, Blue, and Green. If Red is first and Green is last, what is the position of Blue?",
+    "Options": ["A) 1st", "B) 3rd", "C) 2nd", "D) 4th"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "The color between the first and last in a group of three is the 2nd."
+  },
+  {
+    "QuestionText": "Which is the lightest: A feather, a brick, or a school bag?",
+    "Options": ["A) School bag", "B) Brick", "C) Feather", "D) All are light"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "A feather is very light and can fly in the wind."
+  },
+  {
+    "QuestionText": "In a race of 6 people, if Sam is just ahead of the person in 4th place, what is Sam's rank?",
+    "Options": ["A) 5th", "B) 3rd", "C) 2nd", "D) 1st"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Being ahead of 4th means Sam is in 3rd place."
+  },
+  {
+    "QuestionText": "If a tree has 4 branches and the bird is on the 4th branch from the bottom, is it on the highest branch?",
+    "Options": ["A) Yes", "B) No", "C) Maybe", "D) It's on the ground"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Olympiad",
+    "Explanation": "In a set of 4, the 4th one from the bottom is the top."
+  },
+  {
+    "QuestionText": "Which number is the greatest: 5, 12, 8, or 2?",
+    "Options": ["A) 5", "B) 8", "C) 12", "D) 2"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "12 is the largest number in this list."
+  },
+  {
+    "QuestionText": "If you count backwards from 5, what is the 2nd number you say?",
+    "Options": ["A) 4", "B) 3", "C) 2", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Counting backwards: 5 (1st), 4 (2nd)."
+  },
+  {
+    "QuestionText": "In the word 'BEE', which letter position is repeated?",
+    "Options": ["A) 1st and 2nd", "B) 2nd and 3rd", "C) 1st and 3rd", "D) None"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Olympiad",
+    "Explanation": "The letter 'E' is at both the 2nd and 3rd positions."
+  },
+  {
+    "QuestionText": "There are 3 slides at the park. The Red one is the longest. Which slide will take the most time to go down?",
+    "Options": ["A) Blue slide", "B) Green slide", "C) Red slide", "D) All take same time"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "A longer slide usually takes more time to travel from top to bottom."
+  },
+  {
+    "QuestionText": "If Sonu is 2nd in line and Monu is 4th, how many people are between them?",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "The person in 3rd place is between the 2nd and 4th."
+  },
+  {
+    "QuestionText": "Which container can hold the most water: A cup, a bucket, or a spoon?",
+    "Options": ["A) Spoon", "B) Cup", "C) Bucket", "D) All are same"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "A bucket is much larger and has a higher capacity."
+  },
+  {
+    "QuestionText": "If you are 5th from the right and 1st from the left in a small line, how many people are in the line?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Advanced",
+    "Explanation": "If you are 1st from left, you are the start. If you are 5th from right, there are 4 people to your right. 1 + 4 = 5."
+  },
+  {
+    "QuestionText": "Which star is the brightest in a picture if Star A is brighter than Star B, and Star B is brighter than Star C?",
+    "Options": ["A) Star C", "B) Star B", "C) Star A", "D) All are dim"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Olympiad",
+    "Explanation": "Star A has the highest level of brightness."
+  },
+  {
+    "QuestionText": "In a pile of 5 coins, which coin is at the top?",
+    "Options": ["A) 1st coin", "B) 5th coin", "C) 3rd coin", "D) Bottom coin"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "When counting from the top down, the first coin you see is the 1st."
+  },
+  {
+    "QuestionText": "If the sun is above the clouds and the birds are below the clouds, which is highest?",
+    "Options": ["A) Birds", "B) Clouds", "C) Sun", "D) The ground"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sun > Clouds > Birds."
+  },
+  {
+    "QuestionText": "In a list of names: Ali, Ben, Cal, Dan. Who is 3rd?",
+    "Options": ["A) Ali", "B) Ben", "C) Cal", "D) Dan"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "1st: Ali, 2nd: Ben, 3rd: Cal."
+  },
+  {
+    "QuestionText": "If a blue box is bigger than a red box, and the red box is bigger than a green box, which box is the middle size?",
+    "Options": ["A) Blue", "B) Green", "C) Red", "D) None"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Olympiad",
+    "Explanation": "Blue (Big) > Red (Middle) > Green (Small)."
+  },
+  {
+    "QuestionText": "If you finish a race after the 2nd person but before the 4th person, what is your rank?",
+    "Options": ["A) 1st", "B) 3rd", "C) 5th", "D) 2nd"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "Between 2nd and 4th is the 3rd position."
+  },
+  {
+    "QuestionText": "Which animal is the slowest: A Cheetah, a Snail, or a Dog?",
+    "Options": ["A) Dog", "B) Cheetah", "C) Snail", "D) All are fast"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "A snail moves much slower than the other two."
+  },
+  {
+    "QuestionText": "In a building with 3 floors, which floor is the ground floor?",
+    "Options": ["A) 3rd floor", "B) 2nd floor", "C) 1st floor", "D) The roof"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "The first level of a building is the ground or 1st floor."
+  },
+  {
+    "QuestionText": "If there are 8 crayons in a box, which is the position of the last crayon?",
+    "Options": ["A) 1st", "B) 7th", "C) 8th", "D) 10th"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "The count of the last item equals the total number of items."
+  },
+  {
+    "QuestionText": "Who is shorter: A 5-year-old boy or his father?",
+    "Options": ["A) The father", "B) The boy", "C) Both are same", "D) Cannot tell"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "Children are almost always shorter than their parents."
+  },
+  {
+    "QuestionText": "In a row of 5 chairs, if you sit on the middle chair, which position is it?",
+    "Options": ["A) 2nd", "B) 3rd", "C) 4th", "D) 5th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Olympiad",
+    "Explanation": "In 5 chairs, the 3rd chair has 2 on the left and 2 on the right."
+  },
+  {
+    "QuestionText": "Which day comes just before Friday?",
+    "Options": ["A) Saturday", "B) Wednesday", "C) Thursday", "D) Monday"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "Thursday is the day that precedes Friday."
+  },
+  {
+    "QuestionText": "If your name is 1st in the class list, are you at the beginning or the end?",
+    "Options": ["A) End", "B) Middle", "C) Beginning", "D) Nowhere"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "1st place is the start or beginning of a list."
+  },
+  {
+    "QuestionText": "Which fruit is the smallest: A Watermelon, a Strawberry, or a Pumpkin?",
+    "Options": ["A) Watermelon", "B) Pumpkin", "C) Strawberry", "D) All are big"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "A strawberry is much smaller than a watermelon or a pumpkin."
+  },
+  {
+    "QuestionText": "If 3 kids are standing in a line, how many kids are behind the first kid?",
+    "Options": ["A) 3", "B) 2", "C) 1", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total 3 - 1st kid = 2 kids remaining."
+  },
+  {
+    "QuestionText": "In the alphabet, which letter is just before 'B'?",
+    "Options": ["A) C", "B) A", "C) D", "D) Z"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Foundation",
+    "Explanation": "A is the very first letter, appearing before B."
+  },
+  {
+    "QuestionText": "If a ladder has 10 steps, which step is halfway up?",
+    "Options": ["A) 1st", "B) 10th", "C) 5th", "D) 2nd"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Positioning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Half of 10 is 5."
+  },
+  {
+    "QuestionText": "Which is the tallest building: A 2-story house or a 10-story apartment?",
+    "Options": ["A) 2-story house", "B) 10-story apartment", "C) Both same", "D) Neither"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "More stories/floors usually mean a taller building."
+  }
+]
