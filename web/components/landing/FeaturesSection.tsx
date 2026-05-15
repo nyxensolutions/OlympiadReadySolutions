@@ -29,7 +29,7 @@ const FEATURES: Feature[] = [
     icon: Brain,
     title: "Instant AI explanations",
     description:
-      "Every question comes with a clear, step-by-step explanation. Understand the concept, not just the answer — powered by Claude AI.",
+      "Every question comes with a clear, step-by-step explanation. Understand the concept, not just the answer — powered by AI.",
     gradient: "from-violet-500 to-purple-600",
   },
   {

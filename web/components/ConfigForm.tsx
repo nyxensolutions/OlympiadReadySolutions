@@ -82,13 +82,13 @@ export function ConfigForm({
   return (
     <form
       onSubmit={onSubmit}
-      className="w-full max-w-4xl overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md"
+      className="w-full max-w-4xl overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-md"
     >
       {/* Card header */}
-      <div className="bg-gradient-brand px-6 py-5">
+      <div className="bg-gradient-hero px-6 py-5">
         <h2 className="text-base font-bold text-white">Configure your practice paper</h2>
         <p className="mt-0.5 text-xs text-brand-200">
-          Choose a subject, class, and difficulty level to get started
+          AI generates fresh, exam-ready questions in seconds — no repeats
         </p>
       </div>
 
@@ -104,31 +104,8 @@ export function ConfigForm({
         </div>
       )}
 
-      <div>
-        <p className="text-sm font-semibold text-slate-700">Pick a subject</p>
-        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {SUBJECTS.map((s) => {
-            const unavailable = !isSubjectAvailable(s, grade);
-            return (
-              <SubjectCard
-                key={s}
-                name={s}
-                selected={subject === s}
-                onClick={() => { setSubject(s); setResetNotice(null); }}
-                disabled={unavailable}
-              />
-            );
-          })}
-        </div>
-      </div>
-
-      {resetNotice && (
-        <p className="mt-2 text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
-          {resetNotice}
-        </p>
-      )}
-
-      <div className="mt-6 grid gap-4 sm:grid-cols-2">
+      {/* Grade + Level — shown first */}
+      <div className="grid gap-4 sm:grid-cols-2">
         <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
           Class
           <select
@@ -177,6 +154,30 @@ export function ConfigForm({
             })}
           </div>
         </fieldset>
+      </div>
+
+      {/* Subject selection — below grade/level */}
+      <div className="mt-6">
+        <p className="text-sm font-semibold text-slate-700">Pick a subject</p>
+        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {SUBJECTS.map((s) => {
+            const unavailable = !isSubjectAvailable(s, grade);
+            return (
+              <SubjectCard
+                key={s}
+                name={s}
+                selected={subject === s}
+                onClick={() => { setSubject(s); setResetNotice(null); }}
+                disabled={unavailable}
+              />
+            );
+          })}
+        </div>
+        {resetNotice && (
+          <p className="mt-2 text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
+            {resetNotice}
+          </p>
+        )}
       </div>
 
       <div className="mt-6">

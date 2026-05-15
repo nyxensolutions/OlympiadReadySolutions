@@ -7,7 +7,7 @@ const STEPS = [
     icon: FileText,
     title: "Generate paper",
     description:
-      "Pick your subject, class, and difficulty. Claude AI instantly builds a fresh exam-style paper — Foundation, Advanced, or full Olympiad level.",
+      "Pick your subject, class, and difficulty. Our AI instantly builds a fresh exam-style paper — Foundation, Advanced, or full Olympiad level.",
   },
   {
     icon: Clock,

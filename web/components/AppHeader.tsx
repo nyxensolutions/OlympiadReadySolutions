@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, GraduationCap, LayoutDashboard, LogIn } from "lucide-react";
+import { BookOpen, Crown, GraduationCap, LayoutDashboard, LogIn } from "lucide-react";
 import {
   SignedIn,
   SignedOut,
@@ -10,7 +10,7 @@ import {
   UserButton
 } from "@clerk/nextjs";
 
-export function AppHeader({ active }: { active?: "home" | "dashboard" | "topics" }) {
+export function AppHeader({ active }: { active?: "home" | "dashboard" | "topics" | "weekly-exam" }) {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/50 bg-white/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
@@ -62,6 +62,15 @@ export function AppHeader({ active }: { active?: "home" | "dashboard" | "topics"
             >
               <LayoutDashboard className="h-3.5 w-3.5" />
               Dashboard
+            </Link>
+            <Link
+              href="/weekly-exam"
+              className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition ${
+                active === "weekly-exam" ? "bg-amber-50 text-amber-700" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+              }`}
+            >
+              <Crown className="h-3.5 w-3.5" />
+              Weekly Exam
             </Link>
           </nav>
         </SignedIn>

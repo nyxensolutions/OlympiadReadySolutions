@@ -30,7 +30,7 @@ export default function ChallengePage({
     <div className="min-h-screen bg-slate-50">
       <AppHeader active="home" />
 
-      <div className="bg-gradient-brand px-4 py-12 text-white">
+      <div className="bg-gradient-hero px-4 py-12 text-white">
         <div className="mx-auto max-w-2xl text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur-sm">
             <Swords className="h-4 w-4 text-yellow-300" />

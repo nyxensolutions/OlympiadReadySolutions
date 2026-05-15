@@ -6,6 +6,7 @@ import { FeaturesSection } from "./landing/FeaturesSection";
 import { HeroSection } from "./landing/HeroSection";
 import { HowItWorksSection } from "./landing/HowItWorksSection";
 import { LandingFooter } from "./landing/LandingFooter";
+import { LandingLeaderboard } from "./landing/LandingLeaderboard";
 import { SocialProofSection } from "./landing/SocialProofSection";
 import { SubjectCoverageSection } from "./landing/SubjectCoverageSection";
 import { TestimonialsSection } from "./landing/TestimonialsSection";
@@ -18,6 +19,7 @@ export function LandingPage() {
       <FeaturesSection />
       <HowItWorksSection />
       <TestimonialsSection />
+      <LandingLeaderboard />
       <AiCalloutSection />
       <SubjectCoverageSection />
       <CTASection />

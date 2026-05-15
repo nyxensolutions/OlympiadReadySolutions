@@ -2,9 +2,11 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, BarChart2, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy } from "lucide-react";
+import { ArrowRight, BarChart2, BookOpen, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy } from "lucide-react";
 import { useAuth, SignedIn, SignedOut } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
+import { DailyQuizCard } from "@/components/DailyQuizCard";
+import { LeaderboardSection } from "@/components/LeaderboardCard";
 import { MasteryHeatmap } from "@/components/MasteryHeatmap";
 import { RecentPapersCard } from "@/components/RecentPapersCard";
 import { ScoreTrendChart } from "@/components/ScoreTrendChart";
@@ -211,6 +213,10 @@ function DashboardBody() {
   const streak = computeStreak(data.results, shieldState.usedDates);
   const badges = computeBadges(data);
   const earnedCount = badges.filter((b) => b.earned).length;
+
+  // Grade for daily quiz: most recent paper's grade, fallback 6
+  const preferredGrade = data.papers[0]?.grade ?? 6;
+
   const avg =
     data.results.length === 0
       ? 0
@@ -224,7 +230,7 @@ function DashboardBody() {
   return (
     <>
       {/* Gradient page banner */}
-      <div className="bg-gradient-brand px-4 py-10 text-white">
+      <div className="bg-gradient-hero px-4 py-10 text-white">
         <div className="mx-auto max-w-6xl flex flex-wrap items-center justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-brand-200">
@@ -311,7 +317,7 @@ function DashboardBody() {
           </div>
         ) : (
           /* Streak broken — show shield option for Pro */
-          <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-sm">
+          <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 px-5 py-4 shadow-sm">
             <Flame className="h-6 w-6 shrink-0 text-slate-300" />
             <div className="flex-1">
               <p className="text-sm font-bold text-slate-700">No active streak</p>
@@ -368,13 +374,18 @@ function DashboardBody() {
           />
         </div>
 
+        {/* Daily quiz */}
+        <DailyQuizCard grade={preferredGrade} />
+
         {/* Weekly report */}
         <WeeklyReport results={data.results} />
 
         {/* Achievements */}
-        <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex items-center gap-2">
-            <Trophy className="h-5 w-5 text-amber-500" />
+        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
+          <div className="flex items-center gap-3">
+            <div className="inline-flex rounded-xl bg-gradient-to-br from-amber-500 to-yellow-500 p-2.5 text-white shadow-sm">
+              <Trophy className="h-5 w-5" />
+            </div>
             <h2 className="text-lg font-semibold text-slate-900">Achievements</h2>
             <span className="ml-auto text-xs text-slate-400">
               {earnedCount} of {badges.length} earned
@@ -416,9 +427,14 @@ function DashboardBody() {
         </section>
 
         {/* Score trend */}
-        <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
           <div className="flex items-center justify-between">
-            <h2 className="text-lg font-semibold text-slate-900">Score trend</h2>
+            <div className="flex items-center gap-3">
+              <div className="inline-flex rounded-xl bg-gradient-to-br from-brand-600 to-accent-600 p-2.5 text-white shadow-sm">
+                <TrendingUp className="h-5 w-5" />
+              </div>
+              <h2 className="text-lg font-semibold text-slate-900">Score trend</h2>
+            </div>
             <span className="text-xs text-slate-500">
               Last {data.results.length} test{data.results.length === 1 ? "" : "s"}
             </span>
@@ -429,23 +445,36 @@ function DashboardBody() {
         </section>
 
         {/* Topic mastery */}
-        <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold text-slate-900">Topic mastery</h2>
-          <p className="mt-1 text-xs text-slate-500">
-            Updated after every test. Shows your most recent score per topic.
-          </p>
+        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
+          <div className="flex items-center gap-3">
+            <div className="inline-flex rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 p-2.5 text-white shadow-sm">
+              <BookOpen className="h-5 w-5" />
+            </div>
+            <div>
+              <h2 className="text-lg font-semibold text-slate-900">Topic mastery</h2>
+              <p className="text-xs text-slate-500">Updated after every test. Shows your most recent score per topic.</p>
+            </div>
+          </div>
           <div className="mt-4">
             <MasteryHeatmap entries={data.mastery} />
           </div>
         </section>
 
         {/* Recent papers */}
-        <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold text-slate-900">Recent papers</h2>
+        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
+          <div className="flex items-center gap-3">
+            <div className="inline-flex rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 p-2.5 text-white shadow-sm">
+              <FileText className="h-5 w-5" />
+            </div>
+            <h2 className="text-lg font-semibold text-slate-900">Recent papers</h2>
+          </div>
           <div className="mt-3">
             <RecentPapersCard papers={data.papers} />
           </div>
         </section>
+
+        {/* Leaderboard */}
+        <LeaderboardSection />
 
       </div>
     </>
@@ -485,9 +514,11 @@ function WeeklyReport({ results }: { results: DashboardSummary["results"] }) {
       : "Good start — aim for 5 sessions this week.";
 
   return (
-    <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-      <div className="flex items-center gap-2 border-b border-slate-100 px-6 py-4">
-        <BarChart2 className="h-5 w-5 text-brand-600" />
+    <section className="overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-sm">
+      <div className="flex items-center gap-3 border-b border-slate-100 px-6 py-4">
+        <div className="inline-flex rounded-xl bg-gradient-to-br from-violet-500 to-purple-600 p-2 text-white shadow-sm">
+          <BarChart2 className="h-4 w-4" />
+        </div>
         <h2 className="text-lg font-semibold text-slate-900">This Week</h2>
         <span className="ml-auto text-xs text-slate-400">Last 7 days</span>
       </div>
@@ -550,7 +581,7 @@ function Stat({
   gradient?: string;
 }) {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+    <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-5 shadow-sm">
       {gradient && (
         <div className={`absolute left-0 right-0 top-0 h-1 bg-gradient-to-r ${gradient}`} />
       )}

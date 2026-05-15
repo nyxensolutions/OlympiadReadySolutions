@@ -1,7 +1,7 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import { Sparkles } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
-import { GeneratorFlow } from "@/components/GeneratorFlow";
+import { PracticeShell } from "@/components/PracticeShell";
 import { LandingPage } from "@/components/LandingPage";
 import type { PreviewRequest } from "@/lib/types";
 
@@ -36,7 +36,7 @@ export default function Home({
           <AppHeader active="home" />
 
           {/* Gradient page banner */}
-          <div className="bg-gradient-brand px-4 py-10 text-white">
+          <div className="bg-gradient-hero px-4 py-10 text-white">
             <div className="mx-auto max-w-6xl">
               <p className="text-xs font-semibold uppercase tracking-widest text-brand-200">
                 {initialConfig?.topic ? `Topic: ${initialConfig.topic}` : "Practice Session"}
@@ -50,14 +50,14 @@ export default function Home({
               <p className="mt-2 max-w-xl text-sm text-brand-200">
                 {initialConfig?.topic
                   ? `Focused on ${initialConfig.topic} — ${initialConfig.subject ?? ""} Class ${initialConfig.grade ?? ""}.`
-                  : "Pick a subject, class, and difficulty — Claude AI generates a fresh, exam-style paper in seconds."}
+                  : "Pick a subject, class, and difficulty — AI generates a fresh, exam-style paper in seconds."}
               </p>
             </div>
           </div>
 
           {/* Generator content */}
           <div className="mx-auto max-w-6xl px-4 py-8">
-            <GeneratorFlow initialConfig={initialConfig} />
+            <PracticeShell initialConfig={initialConfig} />
           </div>
         </div>
       </SignedIn>

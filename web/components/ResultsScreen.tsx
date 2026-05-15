@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { CheckCircle2, Download, RotateCcw, Share2, XCircle } from "lucide-react";
+import { CheckCircle2, Download, MessageCircle, RotateCcw, Share2, XCircle } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import type { AttemptResult } from "@/lib/types";
 import { CircularScore } from "./CircularScore";
@@ -35,7 +35,42 @@ export function ResultsScreen({
   const [downloading, setDownloading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+  const [shared, setShared] = useState(false);
   const submitted = useRef(false);
+
+  const pct = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
+
+  async function copyToClipboard(text: string) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.cssText = "position:fixed;top:-9999px;left:-9999px;opacity:0";
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        ta.remove();
+      }
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch {
+      // silent — button still shows feedback
+    }
+  }
+
+  function shareToParent() {
+    const msg =
+      `🎓 Great news! My child scored ${pct}% on their OlympiadReady practice test!\n\n` +
+      `📚 Subject: ${config.subject} · Class ${config.grade} · Level: ${config.difficulty}\n` +
+      `✅ Score: ${score}/${questions.length} questions correct\n\n` +
+      `Consistent daily practice is the key to Olympiad success 🏆\n` +
+      `Practice at: https://olympiadready.com`;
+    window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank");
+    setShared(true);
+    setTimeout(() => setShared(false), 3000);
+  }
 
   // Persist the result once. Strict-mode guarded so the double-mount in dev doesn't double-insert.
   useEffect(() => {
@@ -85,8 +120,8 @@ export function ResultsScreen({
 
   return (
     <div className="w-full max-w-5xl">
-      <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-        <div className="bg-gradient-brand px-6 py-5">
+      <section className="overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-sm">
+        <div className="bg-gradient-hero px-6 py-5">
           <p className="text-xs font-semibold uppercase tracking-widest text-brand-200">Result</p>
           <h2 className="mt-0.5 text-lg font-bold text-white">
             Class {config.grade} {config.subject} · {config.difficulty}
@@ -115,7 +150,6 @@ export function ResultsScreen({
             <button
               type="button"
               onClick={() => {
-                const pct = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
                 const url = new URL("/challenge", window.location.origin);
                 url.searchParams.set("s", config.subject);
                 url.searchParams.set("g", String(config.grade));
@@ -124,15 +158,20 @@ export function ResultsScreen({
                 url.searchParams.set("score", String(score));
                 url.searchParams.set("total", String(questions.length));
                 url.searchParams.set("pct", String(pct));
-                navigator.clipboard.writeText(url.toString()).then(() => {
-                  setCopied(true);
-                  setTimeout(() => setCopied(false), 2500);
-                });
+                void copyToClipboard(url.toString());
               }}
               className="inline-flex items-center gap-2 rounded-xl border border-brand-300 bg-brand-50 px-4 py-2.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100"
             >
               <Share2 className="h-4 w-4" />
               {copied ? "Link copied!" : "Challenge a friend"}
+            </button>
+            <button
+              type="button"
+              onClick={shareToParent}
+              className="inline-flex items-center gap-2 rounded-xl border border-emerald-300 bg-emerald-50 px-4 py-2.5 text-sm font-semibold text-emerald-700 transition hover:bg-emerald-100"
+            >
+              <MessageCircle className="h-4 w-4" />
+              {shared ? "Sent to WhatsApp!" : "Share to Parent"}
             </button>
             <button
               type="button"

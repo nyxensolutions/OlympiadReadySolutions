@@ -18,7 +18,7 @@ export function AiCalloutSection() {
             <div>
               <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold">
                 <Sparkles className="h-3.5 w-3.5 text-yellow-300" />
-                Powered by Claude AI
+                Powered by AI
               </div>
               <h2 className="text-2xl font-extrabold leading-tight sm:text-3xl">
                 Not a question bank.
@@ -27,9 +27,9 @@ export function AiCalloutSection() {
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-blue-100">
                 Every other platform serves the same recycled question pool to every
-                student. OlympiadReady uses Claude — Anthropic&apos;s frontier AI — to
-                generate fresh, syllabus-aligned questions tailored to your exact class
-                and level. Every. Single. Session.
+                student. OlympiadReady uses advanced AI to generate fresh,
+                syllabus-aligned questions tailored to your exact class and level.
+                Every. Single. Session.
               </p>
             </div>
             <div className="space-y-3">

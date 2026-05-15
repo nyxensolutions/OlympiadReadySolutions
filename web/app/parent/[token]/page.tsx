@@ -47,7 +47,7 @@ export default function ParentDashboardPage() {
       </header>
 
       {/* Page banner */}
-      <div className="bg-gradient-brand px-4 py-10 text-white">
+      <div className="bg-gradient-hero px-4 py-10 text-white">
         <div className="mx-auto max-w-6xl">
           <p className="text-xs font-semibold uppercase tracking-widest text-brand-200">Parent Dashboard</p>
           <h1 className="mt-1 text-2xl font-extrabold sm:text-3xl">Student progress overview</h1>

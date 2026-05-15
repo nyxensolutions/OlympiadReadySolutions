@@ -144,3 +144,25 @@ export function isSubjectAvailable(subject: Subject, grade: number): boolean {
 export const DIFFICULTIES = ["Foundation", "Advanced", "Olympiad"] as const;
 export const QUANTITIES = [5, 10, 20, 35] as const;
 export const SECONDS_PER_QUESTION = 90;
+
+export type LeaderboardEntry = {
+  rank: number;
+  displayName: string;
+  bestScorePct: number;
+  medal: "Gold" | "Silver" | "Bronze" | "None";
+};
+
+export type DailyQuizQuestion = {
+  questionId: string;
+  questionText: string;
+  options: string[];
+  subject: string;
+  topic: string;
+  difficulty: string;
+};
+
+export type DailyQuizAnswer = {
+  correctAnswer: string;
+  isCorrect: boolean;
+  explanation: string;
+};
