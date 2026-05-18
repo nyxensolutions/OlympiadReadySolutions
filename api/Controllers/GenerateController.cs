@@ -25,7 +25,7 @@ public class GenerateController : ControllerBase
         try
         {
             var questions = await _claude.GenerateQuestionsAsync(
-                req.Subject, req.Grade, req.Difficulty, req.Count, ct);
+                req.Subject, req.Grade, req.Difficulty, req.Count, null, ct);
             return Ok(questions);
         }
         catch (InvalidOperationException ex)

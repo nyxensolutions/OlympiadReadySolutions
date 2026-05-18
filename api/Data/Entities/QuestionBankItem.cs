@@ -4,7 +4,7 @@ public class QuestionBankItem
 {
     public Guid QuestionBankId { get; set; }
 
-    /// <summary>Math | Science | English | Hindi | General Knowledge | Logical Reasoning | Computers | AI</summary>
+    /// <summary>SOF-canonical: Mathematics | Science | English | Hindi | General Knowledge | Social Studies | Logical Reasoning | Cyber | Commerce | AI</summary>
     public string Subject { get; set; } = "";
 
     public int Grade { get; set; }

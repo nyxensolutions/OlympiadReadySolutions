@@ -1,11 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using OlympiadReady.Api.Services;
 
 namespace OlympiadReady.Api.Models;
 
 public class GeneratePaperRequest : IValidatableObject
 {
     [Required]
-    public string Subject { get; set; } = "Math";
+    public string Subject { get; set; } = "Mathematics";
 
     [Range(1, 12)]
     public int Grade { get; set; } = 6;
@@ -20,20 +21,37 @@ public class GeneratePaperRequest : IValidatableObject
     public string? Topic { get; set; }
 
     // Mirrors SUBJECT_GRADE_MAP in web/lib/types.ts — keep in sync.
+    // Subject names are SOF-canonical; SubjectNormalizer maps aliases before this is checked.
     private static readonly Dictionary<string, (int Min, int Max)> GradeRanges = new(StringComparer.OrdinalIgnoreCase)
     {
-        ["Math"]               = (1, 12),
-        ["Science"]            = (1, 12),
+        ["Mathematics"]        = (1, 12),
+        ["Science"]            = (1, 8),   // general science (NSO junior)
+        ["Science-Physics"]    = (6, 12),
+        ["Science-Chemistry"]  = (6, 12),
+        ["Science-Biology"]    = (6, 12),
         ["English"]            = (1, 12),
         ["Logical Reasoning"]  = (1, 12),
-        ["Computers"]          = (1, 10),
+        ["Computer Science"]   = (1, 12),
         ["AI"]                 = (1, 10),
         ["General Knowledge"]  = (1, 10),
+        ["Social Studies"]     = (1, 10),
         ["Hindi"]              = (3, 10),
+        ["Commerce"]           = (11, 12),
     };
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {
+        // Normalize alias → canonical name in-place so downstream code always sees clean values.
+        var (canonical, recognized) = SubjectNormalizer.Normalize(Subject);
+        if (!recognized)
+        {
+            yield return new ValidationResult(
+                SubjectNormalizer.UnrecognisedMessage(Subject),
+                [nameof(Subject)]);
+            yield break;
+        }
+        Subject = canonical!;
+
         if (!GradeRanges.TryGetValue(Subject, out var range))
         {
             yield return new ValidationResult(
