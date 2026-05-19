@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using OlympiadReady.Api.Data;
 using OlympiadReady.Api.Models;
 using OlympiadReady.Api.Services;
 
@@ -10,17 +12,20 @@ namespace OlympiadReady.Api.Controllers;
 [Route("api/billing")]
 public class BillingController : ControllerBase
 {
+    private readonly AppDbContext _db;
     private readonly UserService _users;
     private readonly SubscriptionService _subs;
     private readonly RazorpayService _razorpay;
     private readonly ILogger<BillingController> _log;
 
     public BillingController(
+        AppDbContext db,
         UserService users,
         SubscriptionService subs,
         RazorpayService razorpay,
         ILogger<BillingController> log)
     {
+        _db = db;
         _users = users;
         _subs = subs;
         _razorpay = razorpay;
@@ -40,6 +45,51 @@ public class BillingController : ControllerBase
             allowed = quota.Allowed
         });
     }
+
+    [HttpGet("history")]
+    public async Task<IActionResult> History(CancellationToken ct)
+    {
+        var user = await _users.GetOrSyncAsync(User, ct);
+
+        var subscriptions = await _db.Subscriptions
+            .Where(s => s.UserId == user.UserId)
+            .OrderByDescending(s => s.StartDate)
+            .Select(s => new
+            {
+                type        = "subscription",
+                id          = s.SubscriptionId,
+                planName    = s.PlanName,
+                startDate   = s.StartDate,
+                endDate     = s.EndDate,
+                isActive    = s.IsActive
+            })
+            .ToListAsync(ct);
+
+        var pdfPurchases = await _db.PdfPurchases
+            .Where(p => p.UserId == user.UserId)
+            .OrderByDescending(p => p.PurchasedAt)
+            .Select(p => new
+            {
+                type              = "pdf",
+                id                = p.PdfPurchaseId,
+                subject           = p.Subject,
+                grade             = p.Grade,
+                amountInPaise     = p.AmountInPaise,
+                isFree            = p.RazorpayOrderId == "FREE",
+                razorpayOrderId   = p.RazorpayOrderId,
+                razorpayPaymentId = p.RazorpayPaymentId,
+                purchasedAt       = p.PurchasedAt
+            })
+            .ToListAsync(ct);
+
+        return Ok(new
+        {
+            currentTier   = await _subs.GetActiveTierAsync(user.UserId, ct),
+            subscriptions,
+            pdfPurchases
+        });
+    }
+
 
     [HttpPost("checkout")]
     public async Task<IActionResult> Checkout([FromBody] CheckoutRequest req, CancellationToken ct)

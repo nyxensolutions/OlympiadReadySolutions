@@ -126,12 +126,13 @@ public class PracticePapersController : ControllerBase
         // Record the free download before streaming
         _db.PdfPurchases.Add(new PdfPurchase
         {
-            UserId           = user.UserId,
-            Grade            = grade,
-            Subject          = subject,
-            RazorpayOrderId  = FreeMarker,
+            UserId            = user.UserId,
+            Grade             = grade,
+            Subject           = subject,
+            RazorpayOrderId   = FreeMarker,
             RazorpayPaymentId = FreeMarker,
-            PurchasedAt      = DateTime.UtcNow
+            AmountInPaise     = 0,
+            PurchasedAt       = DateTime.UtcNow
         });
         await _db.SaveChangesAsync(ct);
 
@@ -203,6 +204,7 @@ public class PracticePapersController : ControllerBase
             Subject           = req.Subject,
             RazorpayOrderId   = req.OrderId,
             RazorpayPaymentId = req.PaymentId,
+            AmountInPaise     = PdfPriceInPaise,
             PurchasedAt       = DateTime.UtcNow
         });
         await _db.SaveChangesAsync(ct);

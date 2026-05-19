@@ -9,5 +9,6 @@ public class PdfPurchase
     public string Subject { get; set; } = "";
     public string RazorpayOrderId { get; set; } = "";
     public string RazorpayPaymentId { get; set; } = "";
+    public int AmountInPaise { get; set; }
     public DateTime PurchasedAt { get; set; }
 }

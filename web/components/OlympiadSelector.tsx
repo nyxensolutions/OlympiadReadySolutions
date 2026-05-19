@@ -337,10 +337,10 @@ export function OlympiadSelector({
         </button>
 
         {/* Scrollable track */}
-        <div className="relative flex-1 overflow-hidden">
+        <div className="relative flex-1 min-w-0">
           <div
             ref={scrollRef}
-            className="flex gap-4 overflow-x-auto pb-3 snap-x scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            className="flex gap-4 overflow-x-auto px-2 -mx-2 py-4 -my-4 snap-x scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
             {ORG_GROUPS.map((group) => (
               <div key={group.label} className="flex shrink-0 flex-col gap-1">
@@ -358,16 +358,16 @@ export function OlympiadSelector({
                         key={id}
                         type="button"
                         onClick={() => onSelect(id)}
-                        className={`snap-start shrink-0 w-40 rounded-2xl border-2 overflow-hidden text-left transition-all duration-150 ${
+                        className={`snap-start shrink-0 w-40 h-52 rounded-2xl border-2 overflow-hidden text-left transition-all duration-150 flex flex-col ${
                           isSelected
                             ? `${a.border} ${a.bg} shadow-lg ring-2 ring-offset-1 ${a.border}`
                             : "border-slate-200 bg-white hover:border-slate-300 hover:shadow-md"
                         }`}
                       >
-                        {/* Coloured top accent bar */}
-                        <div className={`h-1 w-full ${o.barClass} ${isSelected ? "opacity-100" : "opacity-40"}`} />
+                        {/* Coloured top accent bar — always visible, thicker on selected */}
+                        <div className={`w-full shrink-0 ${o.barClass} transition-all duration-150 ${isSelected ? "h-2.5" : "h-2"}`} />
 
-                        <div className="p-3.5">
+                        <div className="p-3.5 flex flex-col flex-1 min-h-0">
                           {/* Icon + active badge */}
                           <div className="flex items-start justify-between">
                             <span className="text-xl leading-none">{o.icon}</span>
@@ -410,15 +410,6 @@ export function OlympiadSelector({
               </div>
             ))}
           </div>
-
-          {/* Left fade */}
-          {canLeft && (
-            <div className="pointer-events-none absolute left-0 top-0 bottom-3 w-8 bg-gradient-to-r from-slate-50 to-transparent" />
-          )}
-          {/* Right fade */}
-          {canRight && (
-            <div className="pointer-events-none absolute right-0 top-0 bottom-3 w-8 bg-gradient-to-l from-slate-50 to-transparent" />
-          )}
         </div>
 
         {/* Right arrow */}

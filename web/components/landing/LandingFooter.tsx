@@ -29,8 +29,8 @@ export function LandingFooter() {
           <div>
             <h3 className="mb-4 font-semibold text-slate-900">Product</h3>
             <ul className="space-y-2.5 text-sm text-slate-600">
-              <li><a href="#features" className="transition hover:text-brand-600">Features</a></li>
-              <li><a href="#how-it-works" className="transition hover:text-brand-600">How It Works</a></li>
+              <li><Link href="/#features" className="transition hover:text-brand-600">Features</Link></li>
+              <li><Link href="/#how-it-works" className="transition hover:text-brand-600">How It Works</Link></li>
               <li><Link href="/topics" className="transition hover:text-brand-600">Syllabus Map</Link></li>
               <li><Link href="/weekly-exam" className="transition hover:text-brand-600">Weekly Exam</Link></li>
               <li><Link href="/dashboard" className="transition hover:text-brand-600">Dashboard</Link></li>
