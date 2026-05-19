@@ -53,7 +53,7 @@ UPDATE QuestionBank SET Subject = 'General Knowledge'
 WHERE LOWER(TRIM(Subject)) IN ('general knowledge','generalknowledge','gk','igko','general studies','gs');
 
 UPDATE QuestionBank SET Subject = 'Social Studies'
-WHERE LOWER(TRIM(Subject)) IN ('social studies','socialstudies','sst','ss','social science','isso','evs');
+WHERE LOWER(TRIM(Subject)) IN ('social studies','social-studies','socialstudies','socialscience','sst','ss','social science','isso','evs');
 
 UPDATE QuestionBank SET Subject = 'Logical Reasoning'
 WHERE LOWER(TRIM(Subject)) IN ('logical reasoning','logical-reasoning','logicalreasoning',
@@ -98,7 +98,7 @@ UPDATE QuestionPapers SET Subject = 'General Knowledge'
 WHERE LOWER(TRIM(Subject)) IN ('general knowledge','generalknowledge','gk','igko','general studies','gs');
 
 UPDATE QuestionPapers SET Subject = 'Social Studies'
-WHERE LOWER(TRIM(Subject)) IN ('social studies','socialstudies','sst','ss','social science','isso','evs');
+WHERE LOWER(TRIM(Subject)) IN ('social studies','social-studies','socialstudies','socialscience','sst','ss','social science','isso','evs');
 
 UPDATE QuestionPapers SET Subject = 'Logical Reasoning'
 WHERE LOWER(TRIM(Subject)) IN ('logical reasoning','logical-reasoning','logicalreasoning',
@@ -143,7 +143,7 @@ UPDATE UserMastery SET Subject = 'General Knowledge'
 WHERE LOWER(TRIM(Subject)) IN ('general knowledge','generalknowledge','gk','igko','general studies','gs');
 
 UPDATE UserMastery SET Subject = 'Social Studies'
-WHERE LOWER(TRIM(Subject)) IN ('social studies','socialstudies','sst','ss','social science','isso','evs');
+WHERE LOWER(TRIM(Subject)) IN ('social studies','social-studies','socialstudies','socialscience','sst','ss','social science','isso','evs');
 
 UPDATE UserMastery SET Subject = 'Logical Reasoning'
 WHERE LOWER(TRIM(Subject)) IN ('logical reasoning','logical-reasoning','logicalreasoning',
