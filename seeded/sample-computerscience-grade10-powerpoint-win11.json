@@ -1,0 +1,492 @@
+[
+  {
+    "QuestionText": "In MS PowerPoint 2016, which view allows you to modify the global layout, default font styles, background graphics, and placeholder positions across all slides in a presentation at once?",
+    "Options": ["A) Slide Sorter View", "B) Slide Master View", "C) Handout Master View", "D) Reading View"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Slide Master View controls the universal structural blueprint of a presentation. Any change made to the master slide automatically propagates down to all associated slides."
+  },
+  {
+    "QuestionText": "Which native Windows 11 terminal shell combines traditional Command Prompt (cmd), Windows PowerShell, and Windows Subsystem for Linux (WSL) environments into a single multi-tabbed window console?",
+    "Options": ["A) Windows PowerShell ISE", "B) Windows Terminal", "C) Remote Desktop Connection", "D) Task Manager Terminal"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Foundation",
+    "Explanation": "Windows Terminal is a modern host application for command-line utilities. It supports multiple tabs, rich text formatting, profiles, and custom configurations natively."
+  },
+  {
+    "QuestionText": "You want a specific graphic object on an MS PowerPoint 2016 slide to move along a customized curved path across the screen. Which animation category should you apply?",
+    "Options": ["A) Entrance Effects", "B) Emphasis Effects", "C) Exit Effects", "D) Motion Paths"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Motion Paths enable users to define specific vector or freeform pathways for structural assets to traverse during a slideshow delivery phase."
+  },
+  {
+    "QuestionText": "What type of storage allocation volume does the Windows 11 'Storage Spaces' feature create by grouping multiple physical hard drives together into a single flexible pool?",
+    "Options": ["A) Virtual Hard Disk (VHD)", "B) Storage Pool / Virtual Drive", "C) Dynamic Cache Partition", "D) Extended RAID Directory"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "Storage Spaces allows users to combine multiple cheap or disparate physical internal/external storage media arrays into a single logical pool that can be protected with redundancy layers."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, what is the key difference between a 'Transition' and an 'Animation'?",
+    "Options": [
+      "A) Transitions apply to text strings; Animations apply only to external video files.",
+      "B) Transitions control the motion effects between slides; Animations apply to individual elements on a single slide.",
+      "C) Transitions require manual mouse clicks; Animations are completely automated by default.",
+      "D) Transitions are configured in the Master View; Animations can only be mapped in Normal View."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Transitions handle the visual blending mechanics during page turn loops between slides, whereas Animations govern how specific shapes, titles, or objects act within a particular canvas space."
+  },
+  {
+    "QuestionText": "Which Windows 11 shortcut combination instantly invokes the updated Cast panel utility to mirror the primary display out to an external wireless Miracult device or Smart TV display module?",
+    "Options": ["A) Win + P", "B) Win + K", "C) Win + C", "D) Win + H"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "`Win + K` deploys the modern Quick Settings Cast overlay to quickly discover and connect with local audio/video hardware sinks over wireless channels. (`Win + P` handles physical projection topologies)."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, which tool pane allows you to see a linear, chronological stack layout of all motion sequences mapped to a slide, letting you reorder items or change timings via drag-and-drop tracks?",
+    "Options": ["A) Selection Pane", "B) Animation Pane", "C) Slide Sorter Interface", "D) Timing Console"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "The Animation Pane lists all animation objects on the active slide, showing duration blocks, trigger states, and sequence sorting ladders clearly."
+  },
+  {
+    "QuestionText": "What hidden performance tracking system interface layer inside Windows 11 was updated with a navigation sidebar layout to trace real-time CPU, Memory, Disk, Wi-Fi, and GPU load distributions?",
+    "Options": ["A) Device Manager console", "B) Performance Monitor log", "C) Task Manager", "D) System Information summary"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Foundation",
+    "Explanation": "The redesigned Task Manager in Windows 11 organizes core tabs like Processes, Performance, and App History into a clean, modern vertical sidebar layout."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, what happens when you press the shortcut key combination Shift + F5?",
+    "Options": [
+      "A) The slide show launches immediately from the very first slide.",
+      "B) The presentation file prompts the user for a web-based presentation loop setup.",
+      "C) The slide show begins executing strictly from the current active slide.",
+      "D) The presentation toggles into Handout Master view mode instantly."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "While `F5` triggers a presentation tracking process from Slide 1, `Shift + F5` bypasses early elements to launch from the slide currently active in the workspace."
+  },
+  {
+    "QuestionText": "Which security feature in Windows 11 utilizes virtualization-based hardware processing logic to isolate critical system components inside secure memory blocks, blocking kernel exploits?",
+    "Options": ["A) BitLocker Matrix encryption", "B) Core Isolation / Memory Integrity", "C) Windows Defender SmartScreen", "D) User Account Control sandbox"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Olympiad",
+    "Explanation": "Core Isolation relies on hardware virtualization to run crucial OS logic routines inside an isolated bubble, preventing malware from injecting code directly into high-privilege kernel layers."
+  },
+  {
+    "QuestionText": "Which feature in MS PowerPoint 2016 allows users to define custom, non-linear presentation sequences by linking specific presentation slide subsets to target target pathways without creating duplicate files?",
+    "Options": ["A) Custom Slide Show", "B) Rehearse Timings tool", "C) Set Up Slide Show wizard", "D) Broadcast Slideshow utility"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Custom Slide Shows allow presenters to name and group a subset of presentation sheets, skipping irrelevant slides depending on the specific audience profile."
+  },
+  {
+    "QuestionText": "What command structure is typed inside the Windows 11 Run dialog (`Win + R`) to launch the core Microsoft Management Console Local Group Policy Editor interface?",
+    "Options": ["A) regedit.exe", "B) gpedit.msc", "C) msconfig.exe", "D) devmgmt.msc"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "`gpedit.msc` launches the Management Console layer to adjust advanced security protocols and policy options across local system paths."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, which tool records the presentation duration metrics across individual sheets while you practice speaking, keeping a log to automate the timing of a self-running loop?",
+    "Options": ["A) Record Slide Show wizard", "B) Rehearse Timings", "C) Presenter View panel", "D) Animation Timeline manager"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Rehearse Timings traces speech habits and notes the seconds spent on each frame, offering to apply those timestamps automatically for autonomous deployment."
+  },
+  {
+    "QuestionText": "Under Windows 11 default architecture rules, which built-in security tool runs isolated sandboxed system spaces to safely execute suspicious or unknown desktop `.exe` files without impacting the host OS file tree?",
+    "Options": ["A) Windows Sandbox", "B) Device Manager isolation", "C) Windows Firewall rules", "D) System Restore interface"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "Windows Sandbox provides a lightweight, disposable desktop environment that isolates untrusted software runs. Closing the sandbox permanently deletes all session data."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, if you wish to export an interactive hierarchy chart of your organization structure directly onto a canvas, which asset family should you insert?",
+    "Options": ["A) Chart tracking nodes", "B) SmartArt Graphics", "C) Quick Shapes array", "D) WordArt elements"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "SmartArt supplies preconfigured visual layout models for lists, process loops, matrix blocks, and organizational charts."
+  },
+  {
+    "QuestionText": "What native Windows 11 feature utilizes hardware cryptographic elements to encrypt entire physical operating system drive partitions, preventing data access if a laptop is stolen?",
+    "Options": ["A) BitLocker Drive Encryption", "B) Windows Hello Secure Key", "C) TPM 2.0 validation layer", "D) SmartScreen protection lock"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "BitLocker locks down raw volume files completely. It checks the TPM chip status during boot sequences to authorize partition data decryption operations safely."
+  },
+  {
+    "QuestionText": "Which shortcut key is pressed during an active MS PowerPoint 2016 slideshow execution loop to immediately clear the display canvas, rendering it as a completely solid white screen?",
+    "Options": ["A) B", "B) W", "C) Esc", "D) F11"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Pressing the `W` key toggles the presentation stream into a clean white sheet (and back). Pressing `B` forces a pitch-black layout context, helpful for drawing focus to the speaker."
+  },
+  {
+    "QuestionText": "What tool in Windows 11 allows users to look up deep hardware component metrics, check driver file revisions, or analyze conflicting resource allocation details?",
+    "Options": ["A) Device Manager", "B) Control Panel programs", "C) Task Manager services", "D) Disk Management utility"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Foundation",
+    "Explanation": "Device Manager catalogs all interconnected internal and external peripheral hardware components, handling firmware driver changes and resource allocation troubleshooting."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, what type of object placeholder is inserted onto a Slide Master layout to pull active alphanumeric values like the session date, index counters, or company legal notices into slide bottom rows?",
+    "Options": ["A) SmartArt nodes", "B) Text Box boundaries", "C) Header and Footer placeholders", "D) Action Buttons links"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Header and Footer fields pull systemic data fields dynamically onto the canvas margins based on master layout settings."
+  },
+  {
+    "QuestionText": "Which system file system format serves as the modern standard default deployment infrastructure framework for Windows 11 OS disk partitions due to its superior file permissions and tracking logs?",
+    "Options": ["A) FAT32", "B) exFAT", "C) NTFS", "D) EXT4"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "NTFS (New Technology File System) provides robust file storage properties, security descriptors, shadow copy logs, and structural file fault-tolerance features required by Windows 11."
+  },
+  {
+    "QuestionText": "Which MS PowerPoint 2016 presenter utility maps a dual-screen arrangement to show slide speaker notes and upcoming frames on the laptop screen, while outputting a clean slide view to the projector?",
+    "Options": ["A) Reading view console", "B) Presenter View", "C) Slide Sorter layout", "D) Handout Master setup"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Presenter View provides a comprehensive tracking dashboard on the local control monitor, tracking time elapsed, structural note points, and next cue cards safely."
+  },
+  {
+    "QuestionText": "What key combination is executed inside the Windows 11 desktop workspace shell environment to capture a snapshot of strictly the active app window layer into the system clipboard path?",
+    "Options": ["A) Print Screen", "B) Alt + Print Screen", "C) Win + Print Screen", "D) Ctrl + Print Screen"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "While `Print Screen` alone captures the entire multi-monitor real estate, pressing `Alt + Print Screen` isolates only the top active program window boundary frame."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, what tool extracts spatial styles, coloring logic, and coordinate assets from an existing shape to instantly paint them onto a newly drawn element?",
+    "Options": ["A) Format Painter", "B) Shape Effects drop-down", "C) Eyedropper tool", "D) SmartArt adjustments"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "The Format Painter brush copies styling data (fill, borders, shadow paths) from a selected element and applies it directly by clicking another target object."
+  },
+  {
+    "QuestionText": "Which system utility path inside Windows 11 manages active background system dependencies and background system routines (like print spoolers or network routing components) that run without an app interface?",
+    "Options": ["A) Task Manager Processes", "B) Services console (services.msc)", "C) Registry Editor paths", "D) Task Scheduler matrix"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "The Services snap-in configuration window monitors background execution logic loops, handling startup conditions, manual triggers, or diagnostic error responses."
+  },
+  {
+    "QuestionText": "What is the primary function of the 'Slide Sorter View' interface workspace inside an MS PowerPoint 2016 development loop?",
+    "Options": [
+      "A) To type detailed paragraph speaker notes for printing layout templates.",
+      "B) To view a miniature grid array of every presentation slide, making reordering via drag-and-drop quick and easy.",
+      "C) To draw precise freeform layout line tracks across media assets.",
+      "D) To record webcam narration sequences across slide timings."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Slide Sorter View displays the presentation as an adjustable thumbnail matrix, optimized for mass reorganizations, adding transitions, or hidden slide exclusions."
+  },
+  {
+    "QuestionText": "Which operational mode inside Windows 11 isolates regular desktop actions from third-party application modules, loading only core mouse, storage, display, and keyboard drivers for troubleshooting?",
+    "Options": ["A) Safe Mode", "B) Airplane Mode", "C) Virtualization sandbox", "D) Tablet Layout Mode"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "Safe Mode drops structural overhead, avoiding startup malware links or buggy peripheral graphics drivers to help isolate system hardware failures."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, which option in the Animation effect options dialog configures a sound link snippet to play at the exact start cue of a text movement?",
+    "Options": ["A) Timing properties tab", "B) Sound dropdown menu", "C) Smart Lookup link", "D) Triggers setup module"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Opening an animation's advanced Effect Options displays a Sound dropdown menu to link audio alerts directly to an object's onset cue."
+  },
+  {
+    "QuestionText": "What diagnostic tool inside Windows 11 traces active memory use, processing threads, network resource claims, and storage input/output speeds down to specific execution thread paths?",
+    "Options": ["A) Performance Monitor", "B) Resource Monitor", "C) System Information matrix", "D) Registry Editor console"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "Resource Monitor expands on basic Task Manager stats, displaying granular real-time resource allocations across active `.exe` processes and associated handles."
+  },
+  {
+    "QuestionText": "What file path extension signature does an exported standalone MS PowerPoint 2016 Show file have, which launches straight into a fullscreen presentation view instead of opening the editor window?",
+    "Options": ["A) .pptx", "B) .potx", "C) .ppsx", "D) .thmx"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "The `.ppsx` extension tells the PowerPoint engine to bypass the development workspace entirely, launching straight into presentation mode for end users."
+  },
+  {
+    "QuestionText": "Which native cloud storage component is deeply baked into the Windows 11 File Explorer path, handling real-time folder synchronization and web backup configurations?",
+    "Options": ["A) Google Drive Link", "B) OneDrive", "C) iCloud Drive wrapper", "D) Dropbox System Link"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Foundation",
+    "Explanation": "Microsoft OneDrive provides cloud synchronization tools integrated natively into the Windows 11 File Explorer directory tree."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, if you wish to configure an interactive button on a slide that immediately opens an external document file or branches to a specific slide when clicked during a live loop, what tool do you use?",
+    "Options": ["A) Action Settings / Action Buttons", "B) Format Shape paths", "C) Layout Master linkages", "D) SmartArt connections"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Action Settings allow shapes or dedicated Action Buttons to perform system tasks, execute macros, or open hyperlinks during live presentation mode."
+  },
+  {
+    "QuestionText": "Which command-line system file diagnostic check tool is run within an administrative Terminal window in Windows 11 to scan for, verify, and restore corrupted core system files?",
+    "Options": ["A) chkdsk /f", "B) sfc /scannow", "C) ipconfig /all", "D) systeminfo"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "The System File Checker (`sfc /scannow`) inspects all critical OS digital signatures, replacing broken or altered files with clean system cache copies."
+  },
+  {
+    "QuestionText": "Which specialized printing layout selection in MS PowerPoint 2016 outputs thumbnail slide strips alongside empty lined rows for audience notation capture?",
+    "Options": ["A) Full Page Slides print out", "B) Notes Pages ledger", "C) Handouts (3 Slides per page layout)", "D) Outline layout configuration"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Printing Handouts with 3 slides per page generates a clean layout with thumbnails on the left and ruled blank lines on the right for taking notes."
+  },
+  {
+    "QuestionText": "What storage location configuration path stores old system directory data components during a custom Windows 11 upgrade installation process, allowing rollbacks if stability issues emerge?",
+    "Options": ["A) System Volume Information folder", "B) Windows.old", "C) $Recycle.Bin root link", "D) ProgramData backup matrix"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "The `Windows.old` folder archives previous OS installation files during system upgrades, acting as a rollback backup if compatibility issues surface."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, which animation trigger command makes an animation effect play simultaneously alongside the preceding effect item in the timeline stack track?",
+    "Options": ["A) Start On Click", "B) Start With Previous", "C) Start After Previous", "D) Trigger By Object Break"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "'Start With Previous' groups animation timings together, triggering concurrent visual effects on a single slide without needing extra mouse clicks."
+  },
+  {
+    "QuestionText": "Which user interface customization tool in Windows 11 allows users to pick prepackaged wallpaper collections, custom accents, app sound profiles, and light or dark style rules under unified desktop properties?",
+    "Options": ["A) Personalization Settings / Themes", "B) System Properties interface", "C) Accessibility Drawer configurations", "D) Device Hub layout options"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Foundation",
+    "Explanation": "The Personalization menu in Windows 11 manages themes, coordinating wallpapers, system accent colors, transparency modes, and dark/light system behavior."
+  },
+  {
+    "QuestionText": "To pull vector-based drawing charts into an MS PowerPoint 2016 layout file that update automatically whenever data changes in an external source Excel spreadsheet, which command should you use?",
+    "Options": [
+      "A) Standard Insert Picture link",
+      "B) Paste Special -> Paste Link (OLE Object)",
+      "C) SmartArt structural ingestion loop",
+      "D) Quick Parts code injection model"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using Object Linking and Embedding (OLE) via Paste Link establishes an active system data bridge, so any changes made to the source spreadsheet automatically update the presentation asset."
+  },
+  {
+    "QuestionText": "What action sequence does the Windows 11 shortcut combination Win + L trigger?",
+    "Options": [
+      "A) Instantly launches the native Windows File Explorer interface.",
+      "B) Minimizes all active workspace application windows to taskbar anchors.",
+      "C) Locks the active user workstation account profile, returning to the lock screen.",
+      "D) Toggles Live Captions audio transcription processes on-device."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Foundation",
+    "Explanation": "`Win + L` immediately signs out of active user interface execution states, locking the desktop until a password or Windows Hello PIN is entered."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, which tool under the Review tab scans a file layout against international accessibility guidelines to ensure users with screen readers can process the slide content?",
+    "Options": ["A) Document Inspector", "B) Smart Lookup console", "C) Check Accessibility", "D) Research Pane linker"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Check Accessibility evaluates presentation assets against usability parameters, flagging missing alt-text fields or poor contrast choices before distribution."
+  },
+  {
+    "QuestionText": "Which specialized networking tool command profile is run in the Windows 11 console shell to verify connection latency down a sequence of hop router nodes toward an external web address target?",
+    "Options": ["A) ipconfig /renew", "B) ping", "C) tracert", "D) netstat -a"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "The Traceroute (`tracert`) diagnostic utility maps network pathways by tracing the route packets take to a target address, listing intermediate router hops and transit latency values."
+  },
+  {
+    "QuestionText": "What happens when you check the 'Hide Slide' option for a specific frame entry inside an MS PowerPoint 2016 presentation file?",
+    "Options": [
+      "A) The targeted slide is permanently deleted from the raw `.pptx` source asset archive.",
+      "B) The slide is hidden inside the editing workspace canvas, but still displays during presentation mode.",
+      "C) The slide remains accessible in the editing sidebar grid workspace, but is skipped during fullscreen slideshow presentation runs.",
+      "D) The slide contents are encrypted with local file permissions passwords."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Hide Slide allows creators to preserve backup charts or conditional slides in the development view while keeping them out of main audience presentation streams."
+  },
+  {
+    "QuestionText": "Which structural window snapping feature tool utility can be launched in Windows 11 by pressing the shortcut combination Win + Z?",
+    "Options": ["A) Task View panel creation matrix", "B) Snap Layouts grid selection overlay", "C) Widgets slide out canvas", "D) Live Captions overlay configuration"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "`Win + Z` provides an instant keyboard overlay for the Snap Layouts matrix, allowing users to quickly snap windows into clean multi-tasking grids using numeric keys."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, what type of shape asset family contains prepackaged navigation logic fields that map mouse events directly to presentation steps (such as home or backward navigation tracks)?",
+    "Options": ["A) Connectors line assets", "B) Callout boxes", "C) Action Buttons", "D) SmartArt shapes layout"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Action Buttons include universal icon graphics pre-wired to navigate presentations, open files, or launch macros when clicked."
+  },
+  {
+    "QuestionText": "What sub-system engine architecture modification inside Windows 11 allows users to execute natively packaged Android applications directly on an x86/ARM desktop shell framework?",
+    "Options": [
+      "A) Windows Subsystem for Linux (WSL2)",
+      "B) Windows Subsystem for Android (WSA)",
+      "C) Hyper-V Core Manager",
+      "D) .NET Framework Application Sandbox"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "Windows Subsystem for Android (WSA) runs a proxy virtualization layer that handles mobile APK frameworks natively within regular Windows desktop layouts."
+  },
+  {
+    "QuestionText": "Which presentation view mode in MS PowerPoint 2016 is explicitly optimized to help you practice your delivery by showing slides sequentially along with matching notes text fields in an aligned, vertical document outline orientation?",
+    "Options": ["A) Outline View", "B) Handout Master view", "C) Notes Page view", "D) Reading View console"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Notes Page View isolates one slide per printed page container, pairing it with a large dedicated rich text block at the bottom for speaker cues and lecture notes."
+  },
+  {
+    "QuestionText": "What physical partition structure holds initial operating system bootstrap loader directions used to verify secure system initialization pathways inside UEFI ecosystems?",
+    "Options": ["A) Master Boot Record sector", "B) EFI System Partition (ESP)", "C) Windows Registry configuration file", "D) Virtual Swap space configuration"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Olympiad",
+    "Explanation": "The EFI System Partition is an NTFS/FAT formatted physical drive slice containing basic hardware drivers and boot managers required by UEFI firmware initialization loops."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, what formatting option allows you to merge multiple distinct drawing shapes into a brand-new custom geometric path asset via operations like Union, Combine, or Subtract?",
+    "Options": ["A) Group Shapes tool", "B) Merge Shapes utility", "C) SmartArt Graphic compilation", "D) Convert to Freeform path"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Merge Shapes handles Boolean vector paths (Union, Combine, Fragment, Intersect, Subtract), enabling the design of intricate, custom shapes right on the presentation canvas."
+  },
+  {
+    "QuestionText": "What background automation layout engine panel inside Windows 11 organizes complex task executions based on specific schedules or event triggers (e.g., triggering a cleanup script every Sunday at 3 AM)?",
+    "Options": ["A) Task Scheduler", "B) Services manager tracking app", "C) Local Group Policy tree", "D) Windows Update ledger"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 Advanced",
+    "Difficulty": "Advanced",
+    "Explanation": "Task Scheduler automates system administration scripts, running maintenance or software operations exactly when designated conditional triggers occur."
+  },
+  {
+    "QuestionText": "Which functional key is pressed during an active MS PowerPoint 2016 slideshow stream to summon an interactive pointer tools pop-up grid overlay, allowing the user to pick laser pointers, digital pens, or highlighter tools?",
+    "Options": ["A) Ctrl + P", "B) Ctrl + A", "C) Ctrl + H", "D) Ctrl + M"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "`Ctrl + P` toggles the active mouse cursor into a live digital drawing pen tool during presentation playback. Hitting `Ctrl + A` restores the standard arrow cursor pointer pattern."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, what happens if you check the 'Loop continuously until \"Esc\"' option inside the Set Up Show configuration wizard dialog frame?",
+    "Options": [
+      "A) Slides will advance strictly on voice-activated microphone prompt triggers.",
+      "B) The presentation show will instantly reverse execution tracking arrays backward upon completion.",
+      "C) The presentation slide show will automatically cycle back to Slide 1 after the final slide is shown, running indefinitely until the user hits Escape.",
+      "D) Every individual object animation sequence will replay on infinite loop scales within each slide path."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Enabling continuous looping keeps presentations cycling automatically from the end slide back to the beginning, making it ideal for unattended display kiosks or trade show booths."
+  }
+]

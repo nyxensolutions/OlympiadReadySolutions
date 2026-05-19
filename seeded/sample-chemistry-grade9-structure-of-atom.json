@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Who discovered the electron?",
+    "Options": [
+      "A) Rutherford",
+      "B) J.J. Thomson",
+      "C) Bohr",
+      "D) Chadwick"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Discovery of Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "J.J. Thomson discovered the electron in 1897 using cathode ray tube experiments. He proposed the 'plum pudding' model of the atom."
+  },
+  {
+    "QuestionText": "The nucleus of an atom was discovered by:",
+    "Options": [
+      "A) Thomson",
+      "B) Bohr",
+      "C) Rutherford",
+      "D) Dalton"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Rutherford discovered the nucleus through his gold foil experiment (1911). Alpha particles were deflected by a tiny, dense, positive nucleus."
+  },
+  {
+    "QuestionText": "In Rutherford's gold foil experiment, most alpha particles:",
+    "Options": [
+      "A) Were absorbed by gold",
+      "B) Were deflected back",
+      "C) Passed straight through with slight deflection",
+      "D) Were converted to protons"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Most alpha particles passed through with little deflection (atom is mostly empty space). Very few were deflected back (hit the nucleus). This led to the nuclear model."
+  },
+  {
+    "QuestionText": "Charge on a proton is:",
+    "Options": [
+      "A) -1",
+      "B) 0",
+      "C) +1",
+      "D) +2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "Proton: charge = +1 (positive). Electron: charge = -1. Neutron: charge = 0 (neutral). An atom is overall neutral (protons = electrons)."
+  },
+  {
+    "QuestionText": "Neutrons were discovered by:",
+    "Options": [
+      "A) Thomson",
+      "B) Rutherford",
+      "C) Chadwick",
+      "D) Bohr"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Discovery of Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "James Chadwick discovered the neutron in 1932 by bombarding beryllium with alpha particles. Neutrons have no charge and reside in the nucleus."
+  },
+  {
+    "QuestionText": "The mass number of an atom is:",
+    "Options": [
+      "A) Number of protons only",
+      "B) Number of electrons only",
+      "C) Number of protons + neutrons",
+      "D) Number of electrons + neutrons"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Mass number (A) = protons + neutrons. Atomic number (Z) = protons = electrons. Neutrons = A - Z."
+  },
+  {
+    "QuestionText": "Atomic number of an element equals the number of:",
+    "Options": [
+      "A) Neutrons",
+      "B) Protons (= electrons in neutral atom)",
+      "C) Mass units",
+      "D) Shells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Atomic number Z = number of protons. In neutral atom: protons = electrons. This defines the element."
+  },
+  {
+    "QuestionText": "Carbon has atomic number 6 and mass number 12. Number of neutrons = ?",
+    "Options": [
+      "A) 6",
+      "B) 12",
+      "C) 18",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Neutrons = mass number - atomic number = 12 - 6 = 6."
+  },
+  {
+    "QuestionText": "Isotopes are atoms of the same element with:",
+    "Options": [
+      "A) Same mass number, different atomic number",
+      "B) Same atomic number, different mass number",
+      "C) Same number of neutrons",
+      "D) Different elements"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "Isotopes: same atomic number (same element, same protons, same electrons) but different mass number (different number of neutrons)."
+  },
+  {
+    "QuestionText": "Isotopes of hydrogen are:",
+    "Options": [
+      "A) \u00b9H, \u00b2H, \u00b3H (protium, deuterium, tritium)",
+      "B) He and H",
+      "C) H and O",
+      "D) \u00b9H and \u00b2He"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "Hydrogen isotopes: \u00b9H (protium, no neutron), \u00b2H (deuterium, 1 neutron), \u00b3H (tritium, 2 neutrons, radioactive). All have 1 proton."
+  },
+  {
+    "QuestionText": "Isobars are atoms with:",
+    "Options": [
+      "A) Same atomic number",
+      "B) Same mass number but different atomic numbers",
+      "C) Same number of neutrons",
+      "D) Same electron configuration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Advanced",
+    "Explanation": "Isobars: same mass number but different atomic numbers (different elements). E.g., \u2074\u2070Ar and \u2074\u2070Ca (mass=40, but Ar Z=18, Ca Z=20)."
+  },
+  {
+    "QuestionText": "In Bohr's model, electrons move in:",
+    "Options": [
+      "A) Random paths",
+      "B) Fixed circular orbits (shells) at fixed energy levels",
+      "C) Elliptical orbits",
+      "D) The nucleus"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Bohr's model (1913): electrons orbit nucleus in fixed circular shells at specific energy levels. Electron doesn't emit radiation while in these orbits."
+  },
+  {
+    "QuestionText": "The maximum number of electrons in the 2nd shell (L shell) is:",
+    "Options": [
+      "A) 2",
+      "B) 8",
+      "C) 18",
+      "D) 32"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Max electrons in nth shell = 2n\u00b2. Shell 1(K): 2\u00d71\u00b2=2. Shell 2(L): 2\u00d72\u00b2=8. Shell 3(M): 2\u00d73\u00b2=18. Shell 4(N): 2\u00d74\u00b2=32."
+  },
+  {
+    "QuestionText": "Electronic configuration of sodium (Z=11) is:",
+    "Options": [
+      "A) 2,8,1",
+      "B) 2,9",
+      "C) 2,8,3",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Na (Z=11): K=2, L=8, M=1. Total=11. The 1 electron in outermost shell = valence electron. Na readily loses it to form Na\u207a."
+  },
+  {
+    "QuestionText": "Valence electrons are:",
+    "Options": [
+      "A) Electrons in the nucleus",
+      "B) Electrons in the innermost shell",
+      "C) Electrons in the outermost shell",
+      "D) Total electrons"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Valence electrons: electrons in the outermost shell. Determine chemical properties and bonding. Elements with 8 valence electrons are stable (noble gases, octet)."
+  },
+  {
+    "QuestionText": "Which particle determines the chemical properties of an element?",
+    "Options": [
+      "A) Neutrons",
+      "B) Protons",
+      "C) Electrons (especially valence electrons)",
+      "D) Mass number"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Electrons (especially valence electrons) determine chemical behaviour \u2014 bonding, reactivity, ion formation. Isotopes of same element have same chemical properties."
+  },
+  {
+    "QuestionText": "Atomic number of chlorine is 17. Its electronic configuration is:",
+    "Options": [
+      "A) 2,8,7",
+      "B) 2,9,6",
+      "C) 2,15",
+      "D) 8,9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Cl (Z=17): K=2, L=8, M=7. Total=17. 7 valence electrons \u2192 needs 1 more \u2192 forms Cl\u207b \u2192 valency 1."
+  },
+  {
+    "QuestionText": "The outermost shell of an atom is called the:",
+    "Options": [
+      "A) Nucleus",
+      "B) Core",
+      "C) Valence shell",
+      "D) K shell"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Valence shell = outermost shell. Contains valence electrons. Determines bonding and chemical reactivity."
+  },
+  {
+    "QuestionText": "Oxygen (Z=8) has how many valence electrons?",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "O (Z=8): K=2, L=6. Valence electrons = 6. Needs 2 more to complete octet. Valency = 2. Forms O\u00b2\u207b."
+  },
+  {
+    "QuestionText": "Which model was proposed by J.J. Thomson?",
+    "Options": [
+      "A) Nuclear model",
+      "B) Planetary model",
+      "C) Plum pudding model",
+      "D) Quantum model"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Thomson's plum pudding model: atom = positive sphere with electrons (plums) embedded like raisins in pudding. Disproved by Rutherford's experiment."
+  },
+  {
+    "QuestionText": "In \u00b9\u2074\u2086C (carbon-14), the superscript is:",
+    "Options": [
+      "A) Atomic number",
+      "B) Valency",
+      "C) Mass number",
+      "D) Number of electrons"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Notation \u1d2czX: A (superscript) = mass number, Z (subscript) = atomic number, X = symbol. \u00b9\u2074\u2086C: mass number=14, atomic number=6."
+  },
+  {
+    "QuestionText": "Electron was discovered using:",
+    "Options": [
+      "A) Gold foil experiment",
+      "B) Cathode ray tube",
+      "C) Cloud chamber",
+      "D) Geiger counter"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Discovery of Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "Thomson used cathode ray tubes (CRT). The ray deflected by electric and magnetic fields \u2192 concluded rays are negatively charged particles (electrons)."
+  },
+  {
+    "QuestionText": "An atom has 11 protons, 11 electrons, 12 neutrons. It is:",
+    "Options": [
+      "A) Na-23",
+      "B) Na-24",
+      "C) Mg-23",
+      "D) Na-11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Protons=11 \u2192 Z=11 \u2192 Sodium (Na). Mass number = 11+12 = 23. So it's \u00b2\u00b3\u2081\u2081Na (Na-23)."
+  },
+  {
+    "QuestionText": "Maximum number of electrons in the first shell is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "First shell (K shell): 2n\u00b2 = 2\u00d71\u00b2 = 2 electrons maximum."
+  },
+  {
+    "QuestionText": "Electrons are found:",
+    "Options": [
+      "A) In the nucleus",
+      "B) In shells around the nucleus",
+      "C) Randomly throughout atom",
+      "D) Only in the outermost shell"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Electrons orbit the nucleus in defined shells (energy levels): K, L, M, N. Electrons have negligible mass compared to protons and neutrons."
+  },
+  {
+    "QuestionText": "Isotopes have same chemical properties because they have:",
+    "Options": [
+      "A) Same mass number",
+      "B) Same number of protons and electrons (same electronic configuration)",
+      "C) Same number of neutrons",
+      "D) Different elements"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "Isotopes have the same atomic number \u2192 same electrons \u2192 same electronic configuration \u2192 same chemical properties. Different neutrons \u2192 different mass only."
+  },
+  {
+    "QuestionText": "Rutherford's model was improved by Bohr because it couldn't explain:",
+    "Options": [
+      "A) Existence of nucleus",
+      "B) Why electrons don't spiral into nucleus (stability of orbits)",
+      "C) Nuclear charge",
+      "D) Presence of neutrons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Advanced",
+    "Explanation": "Classical physics: orbiting electrons should continuously radiate energy and spiral into nucleus. Bohr's postulates (fixed orbits, fixed energy) explained atomic stability."
+  },
+  {
+    "QuestionText": "Calcium (Z=20) electronic configuration is:",
+    "Options": [
+      "A) 2,8,8,2",
+      "B) 2,8,10",
+      "C) 2,18",
+      "D) 2,8,8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Ca (Z=20): K=2, L=8, M=8, N=2. Note: M shell doesn't fill to 18 immediately; it remains at 8 while N starts filling."
+  },
+  {
+    "QuestionText": "The drawback of Rutherford's model was:",
+    "Options": [
+      "A) It didn't explain the nucleus",
+      "B) It couldn't explain atomic stability and line spectra",
+      "C) It included too many particles",
+      "D) It ignored electrons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Advanced",
+    "Explanation": "Rutherford's model failed to explain: (1) why electrons don't lose energy and spiral in (stability), (2) why atoms emit line spectra (discrete energy)."
+  },
+  {
+    "QuestionText": "Number of valence electrons in carbon (Z=6):",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "C (Z=6): K=2, L=4. Valence electrons=4. Forms 4 bonds (covalent). Tetravalent carbon is the basis of organic chemistry."
+  },
+  {
+    "QuestionText": "When an electron moves from higher to lower energy level:",
+    "Options": [
+      "A) Energy is absorbed",
+      "B) Energy is emitted as light (photon)",
+      "C) Proton is released",
+      "D) Atom becomes ionised"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Advanced",
+    "Explanation": "Bohr's model: electron falling from higher (excited) to lower (ground) orbit emits a photon of energy = E_high - E_low. This creates line spectra."
+  },
+  {
+    "QuestionText": "In nuclear notation \u2075\u2076Fe, Fe has how many neutrons?",
+    "Options": [
+      "A) 26",
+      "B) 30",
+      "C) 56",
+      "D) 82"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Fe (iron) Z=26. Mass number=56. Neutrons = 56-26 = 30."
+  },
+  {
+    "QuestionText": "Radioactive isotopes (radioisotopes) are used in:",
+    "Options": [
+      "A) Making furniture",
+      "B) Cancer treatment, medical imaging, carbon dating",
+      "C) Cooking food",
+      "D) Making glass"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "Radioisotopes: \u00b9\u00b3\u00b9I (thyroid cancer), \u2076\u2070Co (cancer radiotherapy), \u00b9\u2074C (carbon dating), \u00b2\u00b3\u2078U (nuclear power), Tc-99m (medical imaging)."
+  },
+  {
+    "QuestionText": "Thomson's 'plum pudding' model was disproved by Rutherford because:",
+    "Options": [
+      "A) Plums don't exist",
+      "B) Some alpha particles rebounded back (indicating tiny dense nucleus)",
+      "C) The model had too many electrons",
+      "D) Electrons weren't discovered yet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "If Thomson's model were correct, diffuse positive charge couldn't deflect alpha particles much. The large-angle scattering proved a tiny, dense, positive nucleus."
+  },
+  {
+    "QuestionText": "How many electrons, protons, neutrons in \u00b3\u00b2\u2081\u2086S?",
+    "Options": [
+      "A) 16e, 16p, 16n",
+      "B) 16e, 16p, 32n",
+      "C) 32e, 32p, 16n",
+      "D) 16e, 32p, 16n"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "\u00b3\u00b2\u2081\u2086S: Z=16 \u2192 protons=16, electrons=16 (neutral). Neutrons = 32-16 = 16."
+  },
+  {
+    "QuestionText": "Atomic mass of chlorine is 35.5 because:",
+    "Options": [
+      "A) Chlorine has 35.5 protons",
+      "B) Chlorine is an average of \u00b3\u2075Cl (75%) and \u00b3\u2077Cl (25%) isotopes",
+      "C) All Cl atoms have mass 35.5",
+      "D) Cl has 17.5 neutrons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Advanced",
+    "Explanation": "Atomic mass is weighted average of isotope masses: (35\u00d775 + 37\u00d725)/100 = (2625+925)/100 = 35.5 u."
+  },
+  {
+    "QuestionText": "The Bohr model successfully explained:",
+    "Options": [
+      "A) Multi-electron atoms",
+      "B) Hydrogen spectrum line series",
+      "C) Chemical bonding",
+      "D) Nuclear stability"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Advanced",
+    "Explanation": "Bohr's model successfully explained hydrogen spectrum (Balmer, Lyman series). Failed for multi-electron atoms."
+  },
+  {
+    "QuestionText": "The mass of an electron compared to a proton is approximately:",
+    "Options": [
+      "A) Equal",
+      "B) Twice",
+      "C) 1/1840th",
+      "D) 100 times less"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "Electron mass \u2248 9.1\u00d710\u207b\u00b3\u00b9 kg. Proton mass \u2248 1.67\u00d710\u207b\u00b2\u2077 kg. Ratio \u2248 1/1840. Electrons are negligibly light compared to protons and neutrons."
+  },
+  {
+    "QuestionText": "The number of shells in an atom of potassium (Z=19) is:",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "K (Z=19): K=2, L=8, M=8, N=1. 4 shells used. Configuration: 2,8,8,1."
+  },
+  {
+    "QuestionText": "Protons are located in:",
+    "Options": [
+      "A) The electron shells",
+      "B) The nucleus",
+      "C) Outside the atom",
+      "D) Throughout the atom"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "Protons (and neutrons) are in the nucleus. Electrons orbit in shells outside the nucleus. The nucleus is tiny (~10\u207b\u00b9\u2075 m) compared to atom (~10\u207b\u00b9\u2070 m)."
+  },
+  {
+    "QuestionText": "Carbon-12 and Carbon-14 are:",
+    "Options": [
+      "A) Isobars",
+      "B) Isotopes of carbon",
+      "C) Different elements",
+      "D) Allotropes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "Both have Z=6 (carbon) but C-12 has 6 neutrons, C-14 has 8 neutrons \u2192 different mass number \u2192 isotopes."
+  },
+  {
+    "QuestionText": "The number of valence electrons in noble gases (except He) is:",
+    "Options": [
+      "A) 0",
+      "B) 2",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Noble gases (Ne, Ar, Kr, Xe, Rn): 8 valence electrons (complete octet) \u2192 stable, inert. Helium has 2 (complete K shell)."
+  },
+  {
+    "QuestionText": "The concept of shells/orbits was part of:",
+    "Options": [
+      "A) Dalton's model",
+      "B) Thomson's model",
+      "C) Bohr's model",
+      "D) Rutherford's model"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Bohr (1913) proposed fixed circular orbits/shells at specific energy levels. Rutherford had electrons orbiting but without quantised energy. Dalton had no electrons."
+  },
+  {
+    "QuestionText": "Isotope C-14 has how many neutrons?",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 14",
+      "D) 20"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "C-14: mass number=14, Z=6 (carbon). Neutrons = 14-6 = 8."
+  },
+  {
+    "QuestionText": "An anion has:",
+    "Options": [
+      "A) More protons than electrons",
+      "B) More electrons than protons (gained electrons)",
+      "C) Equal protons and electrons",
+      "D) No electrons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Anion: negative ion. Formed by gaining electrons. E.g., Cl + e\u207b \u2192 Cl\u207b. More electrons (17+1=18) than protons (17) \u2192 negative charge."
+  },
+  {
+    "QuestionText": "Electronic configuration of Mg\u00b2\u207a (Z=12):",
+    "Options": [
+      "A) 2,8,2",
+      "B) 2,8",
+      "C) 2,10",
+      "D) 2,8,0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Advanced",
+    "Explanation": "Mg (Z=12): 2,8,2. Mg\u00b2\u207a: lost 2 electrons \u2192 2,8 (same as Ne). Mg\u00b2\u207a has 10 electrons."
+  },
+  {
+    "QuestionText": "Which element has the electronic configuration 2,8,8,1?",
+    "Options": [
+      "A) Na",
+      "B) K",
+      "C) Ca",
+      "D) Ar"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "2,8,8,1 \u2192 total 19 electrons \u2192 Z=19 \u2192 Potassium (K)."
+  },
+  {
+    "QuestionText": "The outermost shell can hold maximum:",
+    "Options": [
+      "A) 2 electrons",
+      "B) 8 electrons",
+      "C) 18 electrons",
+      "D) 32 electrons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "The outermost shell (valence shell) can hold maximum 8 electrons, regardless of which shell it is. This is the octet rule."
+  },
+  {
+    "QuestionText": "Why don't isotopes have different chemical properties?",
+    "Options": [
+      "A) They have different mass",
+      "B) Electrons are not involved in nuclear reactions",
+      "C) Same number of electrons \u2192 same electronic configuration \u2192 same chemistry",
+      "D) Neutrons are in outer shells"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Advanced",
+    "Explanation": "Chemical properties are determined by electron arrangement. Isotopes have same atomic number \u2192 same electrons \u2192 identical chemical behaviour. Only physical properties (mass, radioactivity) differ."
+  },
+  {
+    "QuestionText": "The subatomic particle with no charge is:",
+    "Options": [
+      "A) Proton",
+      "B) Electron",
+      "C) Neutron",
+      "D) Positron"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Structure of Atom",
+    "SubTopic": "Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "Neutron has zero electric charge. Discovered by Chadwick (1932). Located in nucleus with proton. Mass \u2248 proton mass."
+  }
+]

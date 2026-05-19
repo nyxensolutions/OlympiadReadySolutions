@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Which of the following diagrams indicates the best relation between Travelers, Train and Bus?",
+    "Options": ["A) Three disjoint circles", "B) Two intersecting circles inside a large circle", "C) Two disjoint circles inside a large circle", "D) One circle inside another, with a third intersecting both"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Travelers can travel by either Train or Bus. However, a Train is not a Bus. Thus, Train and Bus are disjoint circles, both partially overlapping with the Travelers circle (or contained within a broad Travelers context). Standard representation: Travelers intersects both, while Train and Bus stay separate."
+  },
+  {
+    "QuestionText": "Statements: (I) All cups are plates. (II) All plates are spoons. Conclusion: (1) All cups are spoons. (2) Some spoons are cups.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both (1) and (2) follow", "D) Neither follows"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Foundation",
+    "Explanation": "If all A are B and all B are C, then all A are C. Since all cups are plates and all plates are spoons, all cups are spoons. If all cups are spoons, then at least some spoons must be cups."
+  },
+  {
+    "QuestionText": "In a group of 60 people, 25 speak Hindi, 15 speak English and 5 speak both. How many people speak neither Hindi nor English?",
+    "Options": ["A) 20", "B) 25", "C) 30", "D) 35"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Advanced",
+    "Explanation": "Total speakers = (Hindi) + (English) - (Both) = 25 + 15 - 5 = 35. People who speak neither = Total - Speakers = 60 - 35 = 25."
+  },
+  {
+    "QuestionText": "Statements: (I) Some dogs are bats. (II) Some bats are cats. Conclusion: (1) Some dogs are cats. (2) Some cats are dogs.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) None follows"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "There is no direct link between dogs and cats in the statements. 'Some A are B' and 'Some B are C' does not necessarily imply 'Some A are C'."
+  },
+  {
+    "QuestionText": "Which diagram represents the relation between Women, Mothers, and Doctors?",
+    "Options": ["A) Two circles inside a large one", "B) One circle inside another, with a third intersecting both", "C) Three intersecting circles", "D) Two disjoint circles intersecting a third"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Advanced",
+    "Explanation": "All Mothers are Women (one circle inside another). Some Women and some Mothers are Doctors (the third circle intersects both inner and outer circles)."
+  },
+  {
+    "QuestionText": "Statements: (I) All carrots are birds. (II) Some birds are trees. Conclusion: (1) All carrots are trees. (2) Some trees are carrots.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "While all carrots are part of the 'birds' group, trees only intersect with 'birds'. We cannot confirm if that intersection includes the 'carrots' area."
+  },
+  {
+    "QuestionText": "Identify the region representing 'Doctors who are neither Players nor Artists' if D=Doctor, P=Player, A=Artist (interlocking circles).",
+    "Options": ["A) Intersection of all three", "B) Region in D only", "C) Intersection of D and P", "D) Region in D and A"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "The region that lies exclusively within the Doctor circle without overlapping Players or Artists represents this group."
+  },
+  {
+    "QuestionText": "Statements: (I) No door is dog. (II) All dogs are cats. Conclusion: (1) No door is cat. (2) Some cats are dogs.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Either (1) or (2) follows", "D) Both follow"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Olympiad",
+    "Explanation": "If all dogs are cats, then 'some cats are dogs' is logically true. However, 'No door is cat' is not necessarily true because cats could be much larger than dogs and still overlap with doors."
+  },
+  {
+    "QuestionText": "Which diagram represents the relationship between Nitrogen, Ice, and Air?",
+    "Options": ["A) Three disjoint circles", "B) Nitrogen inside Air, Ice separate", "C) All three intersecting", "D) Ice inside Air, Nitrogen separate"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Nitrogen is a major component of Air (Nitrogen inside Air). Ice is solid water and is not part of Nitrogen or Air in this context."
+  },
+  {
+    "QuestionText": "Statements: (I) All schools are colleges. (II) No college is a university. Conclusion: (1) No school is a university. (2) Some colleges are schools.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) None follows"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Since all schools are within colleges, and no college can be a university, schools are also barred from being universities. Also, 'All A are B' implies 'Some B are A'."
+  },
+  {
+    "QuestionText": "In a survey of 100 students, 60 like Math, 40 like Science, and 20 like both. How many like Math only?",
+    "Options": ["A) 40", "B) 20", "C) 60", "D) 80"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Math only = Total Math - Both = 60 - 20 = 40."
+  },
+  {
+    "QuestionText": "Statements: (I) Some papers are pens. (II) All pencils are pens. Conclusion: (1) Some papers are pencils. (2) Some pens are pencils.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "All pencils are pens, so some pens are definitely pencils. However, papers and pencils both relate to pens, but not necessarily to each other."
+  },
+  {
+    "QuestionText": "Which diagram represents: Fruits, Apples, Oranges?",
+    "Options": ["A) Three intersecting circles", "B) Two separate circles inside one large circle", "C) Three separate circles", "D) One circle inside another, inside another"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Both Apples and Oranges are Fruits, but an Apple is not an Orange."
+  },
+  {
+    "QuestionText": "Statements: (I) All poets are daydreamers. (II) All painters are daydreamers. Conclusion: (1) All painters are poets. (2) Some daydreamers are not painters.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both groups are subsets of daydreamers, but they don't have to overlap. Conclusion 2 is a 'negative' which cannot be definitely derived from 'positive' statements."
+  },
+  {
+    "QuestionText": "Which diagram best represents: Husband, Wife, Family?",
+    "Options": ["A) Three intersecting circles", "B) Two disjoint circles inside one large circle", "C) One circle inside another, inside another", "D) Three disjoint circles"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Husband and Wife are distinct individuals who together form parts of a Family."
+  },
+  {
+    "QuestionText": "Statements: (I) No man is a monkey. (II) Hari is a man. Conclusion: (1) Hari is not a monkey. (2) Hari might be a monkey.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Either (1) or (2) follows", "D) Neither follows"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Foundation",
+    "Explanation": "If no man can be a monkey, and Hari is a man, Hari cannot be a monkey."
+  },
+  {
+    "QuestionText": "Which diagram represents: Vegetables, Potato, Cabbage?",
+    "Options": ["A) Three intersecting circles", "B) Two disjoint circles inside one large circle", "C) One circle inside another, inside another", "D) Three disjoint circles"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Potato and Cabbage are both types of Vegetables, but they are different from each other."
+  },
+  {
+    "QuestionText": "Statements: (I) Some skirts are shirts. (II) All shirts are trousers. Conclusion: (1) Some skirts are trousers. (2) All trousers are skirts.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Since all shirts are trousers and some skirts are shirts, that 'some' part of skirts is now within trousers."
+  },
+  {
+    "QuestionText": "In a Venn diagram, if a circle 'A' is completely inside 'B', and 'B' is completely inside 'C', what is the relation between 'A' and 'C'?",
+    "Options": ["A) All A are C", "B) Some A are C", "C) No A is C", "D) All C are A"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a nested relationship. If A belongs to B, and B belongs to C, then A must belong to C."
+  },
+  {
+    "QuestionText": "Statements: (I) All stars are moons. (II) All moons are planets. Conclusion: (1) All stars are planets. (2) Some planets are stars.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a basic transitive property of 'All' statements."
+  },
+  {
+    "QuestionText": "Which diagram represents: Elephant, Wolf, Animals?",
+    "Options": ["A) Three intersecting circles", "B) Two disjoint circles inside one large circle", "C) Three separate circles", "D) One circle inside another"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Elephants and Wolves are both Animals but separate species."
+  },
+  {
+    "QuestionText": "Statements: (I) Some doctors are fools. (II) Hari is a doctor. Conclusion: (1) Hari is a fool. (2) Some fools are doctors.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "We don't know if Hari belongs to the 'foolish' part of the doctors. However, 'Some A are B' always implies 'Some B are A'."
+  },
+  {
+    "QuestionText": "Which diagram represents: Earth, Sea, Sun?",
+    "Options": ["A) Three disjoint circles", "B) Sea inside Earth, Sun separate", "C) All three intersecting", "D) Earth inside Sun, Sea inside Earth"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Sea is on the Earth. The Sun is a separate celestial body."
+  },
+  {
+    "QuestionText": "Statements: (I) All fishes are tortoises. (II) No tortoise is a crocodile. Conclusion: (1) No fish is a crocodile. (2) No crocodile is a fish.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) None follows"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "If fish are inside tortoise and no tortoise can touch crocodile, then fish can never touch crocodile either."
+  },
+  {
+    "QuestionText": "In a class of 50 students, 30 study History, 25 study Geography and 10 study both. How many students study Geography only?",
+    "Options": ["A) 15", "B) 25", "C) 10", "D) 20"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Geography only = Total Geography - Both = 25 - 10 = 15."
+  },
+  {
+    "QuestionText": "Statements: (I) Some ants are parrots. (II) All parrots are apples. Conclusion: (1) All apples are parrots. (2) Some ants are apples.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Since all parrots are apples and some ants are parrots, those ants are also apples. However, all apples don't have to be parrots."
+  },
+  {
+    "QuestionText": "Which diagram represents: Clerk, Government Employee, Educated Person?",
+    "Options": ["A) Three disjoint circles", "B) Three intersecting circles", "C) One inside another inside another", "D) Two disjoint intersecting a third"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Olympiad",
+    "Explanation": "Some clerks are govt employees, some are not. Some govt employees are educated, some are clerks, etc. All three categories can overlap in various ways."
+  },
+  {
+    "QuestionText": "Statements: (I) All windows are doors. (II) All doors are walls. Conclusion: (1) All windows are walls. (2) All walls are windows.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Foundation",
+    "Explanation": "The first conclusion is a direct transitive inference. The second is a converse, which isn't necessarily true."
+  },
+  {
+    "QuestionText": "Which diagram represents: Sun, Moon, Molecule?",
+    "Options": ["A) Three disjoint circles", "B) Two intersecting circles inside one large", "C) Two disjoint circles inside one large circle", "D) Three intersecting circles"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Advanced",
+    "Explanation": "Sun and Moon are both composed of Molecules. However, the Sun is not the Moon. Thus, Sun and Moon are circles inside the Molecule circle."
+  },
+  {
+    "QuestionText": "Statements: (I) No bat is ball. (II) No ball is wicket. Conclusion: (1) No bat is wicket. (2) Some wickets are bats.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Either (1) or (2) follows", "D) Neither follows"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Two negative statements provide no definite relationship between the first and third terms."
+  },
+  {
+    "QuestionText": "Which diagram represents: Whale, Fishes, Crocodile?",
+    "Options": ["A) Three intersecting circles", "B) Three disjoint circles", "C) Two disjoint inside one", "D) Two intersecting inside one"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Advanced",
+    "Explanation": "A Whale is a mammal, not a fish. A Crocodile is a reptile. All three are distinct biological groups."
+  },
+  {
+    "QuestionText": "Statements: (I) All players are students. (II) All students are tall. Conclusion: (1) All players are tall. (2) All tall people are players.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Foundation",
+    "Explanation": "All A are B, all B are C implies All A are C."
+  },
+  {
+    "QuestionText": "If A = set of even numbers, B = set of prime numbers, which number lies in the intersection of A and B?",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "2 is the only even prime number."
+  },
+  {
+    "QuestionText": "Statements: (I) Some doctors are teachers. (II) All teachers are counselors. Conclusion: (1) Some doctors are counselors. (2) Some counselors are doctors.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Since all teachers are counselors and some doctors are teachers, the intersection area is also within counselors."
+  },
+  {
+    "QuestionText": "Which diagram represents: Police, Thief, Criminal?",
+    "Options": ["A) Three disjoint circles", "B) Thief inside Criminal, Police separate", "C) All three intersecting", "D) Criminal inside Police, Thief separate"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "A Thief is a type of Criminal. Police are a separate law enforcement body."
+  },
+  {
+    "QuestionText": "Statements: (I) All papers are trees. (II) All books are trees. Conclusion: (1) Some papers are books. (2) All books are papers.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both groups are inside 'trees' but don't necessarily have to overlap with each other."
+  },
+  {
+    "QuestionText": "In a Venn diagram, if there are 3 interlocking circles (A, B, C), the center-most region represents:",
+    "Options": ["A) A only", "B) A and B only", "C) A, B, and C", "D) None of these"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "The overlap of all three circles represents elements common to all sets."
+  },
+  {
+    "QuestionText": "Statements: (I) All liquids are solids. (II) Some solids are gases. Conclusion: (1) Some liquids are gases. (2) Some gases are solids.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "The second conclusion is a valid conversion of statement II. The first cannot be proven."
+  },
+  {
+    "QuestionText": "Which diagram represents: Men, Fathers, Lawyers?",
+    "Options": ["A) Three intersecting", "B) Father inside Men, Lawyer intersects both", "C) Three disjoint", "D) Father inside Men, Lawyer separate"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Advanced",
+    "Explanation": "All Fathers are Men. Some Men and some Fathers are Lawyers."
+  },
+  {
+    "QuestionText": "Statements: (I) Most boys are cricket players. (II) Some girls are cricket players. Conclusion: (1) Some boys are girls. (2) Some cricket players are boys.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Foundation",
+    "Explanation": "'Most' is treated as 'Some'. Some boys are players implies some players are boys."
+  },
+  {
+    "QuestionText": "Which diagram represents: Copper, Paper, Wire?",
+    "Options": ["A) Three disjoint", "B) Copper inside Wire, Paper separate", "C) Wire and Copper intersecting, Paper separate", "D) Three intersecting"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Advanced",
+    "Explanation": "Some Wires are made of Copper, and some Copper is used in Wires. Paper is unrelated."
+  },
+  {
+    "QuestionText": "Statements: (I) No apple is a plum. (II) All plums are oranges. Conclusion: (1) Some oranges are plums. (2) All oranges are plums.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "If all plums are oranges, some oranges must be plums."
+  },
+  {
+    "QuestionText": "Identify: Singers, Boys, Dancers.",
+    "Options": ["A) Disjoint", "B) All three intersecting", "C) One inside another", "D) Two inside one"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "A boy can be both a singer and a dancer."
+  },
+  {
+    "QuestionText": "Statements: (I) Some gems are diamonds. (II) Some diamonds are rings. Conclusion: (1) Some rings are gems. (2) Some gems are rings.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Two 'Some' statements with a common middle term don't create a definite link between the other two."
+  },
+  {
+    "QuestionText": "Which diagram represents: Musicians, Instrumentalists, Violinists?",
+    "Options": ["A) Three disjoint", "B) Three intersecting", "C) One inside another inside another", "D) Two inside one"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "All Violinists are Instrumentalists, and all Instrumentalists are Musicians."
+  },
+  {
+    "QuestionText": "Statements: (I) All pens are roads. (II) All roads are houses. Conclusion: (1) All houses are pens. (2) Some houses are pens.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Foundation",
+    "Explanation": "If all pens are within houses, then at least some houses are pens."
+  },
+  {
+    "QuestionText": "Relation: Mammal, Cow, Bat.",
+    "Options": ["A) Two separate inside one large", "B) Three disjoint", "C) Three intersecting", "D) One inside another"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Advanced",
+    "Explanation": "Both Cows and Bats are Mammals, but they are different animals."
+  },
+  {
+    "QuestionText": "Statements: (I) No cat is white. (II) Some white things are milk. Conclusion: (1) Some cats are milk. (2) Some milk is white.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Conclusion 2 is a valid conversion of statement II."
+  },
+  {
+    "QuestionText": "Relation: Paper, Stationery, Ink.",
+    "Options": ["A) Two intersecting inside one large", "B) Three disjoint", "C) Two disjoint inside one large", "D) Three intersecting"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Paper and Ink are types of Stationery, but Paper is not Ink."
+  },
+  {
+    "QuestionText": "Statements: (I) All books are pages. (II) Some pages are covers. Conclusion: (1) Some books are covers. (2) Some covers are books.",
+    "Options": ["A) Only (1) follows", "B) Only (2) follows", "C) Both follow", "D) Neither follows"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Covers overlap with pages, but we can't be sure they overlap with the 'books' portion of pages."
+  }
+]

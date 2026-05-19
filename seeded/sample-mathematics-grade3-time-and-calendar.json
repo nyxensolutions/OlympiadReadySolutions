@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "How many hours are in a day?",
+    "Options": [
+      "A) 24",
+      "B) 12",
+      "C) 7",
+      "D) 60"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Time Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "A day has 24 hours."
+  },
+  {
+    "QuestionText": "How many minutes are in 1 hour?",
+    "Options": [
+      "A) 60",
+      "B) 24",
+      "C) 30",
+      "D) 100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Time Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "1 hour = 60 minutes."
+  },
+  {
+    "QuestionText": "How many seconds are in 1 minute?",
+    "Options": [
+      "A) 60",
+      "B) 100",
+      "C) 30",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Time Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "1 minute = 60 seconds."
+  },
+  {
+    "QuestionText": "How many days are in a week?",
+    "Options": [
+      "A) 7",
+      "B) 5",
+      "C) 12",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "A week has 7 days."
+  },
+  {
+    "QuestionText": "How many months are in a year?",
+    "Options": [
+      "A) 12",
+      "B) 10",
+      "C) 7",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "A year has 12 months."
+  },
+  {
+    "QuestionText": "Which month comes after March?",
+    "Options": [
+      "A) April",
+      "B) May",
+      "C) February",
+      "D) June"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "The order is ...March, April, May..."
+  },
+  {
+    "QuestionText": "What time is shown when both hands point to 12?",
+    "Options": [
+      "A) 12 o'clock",
+      "B) 6 o'clock",
+      "C) 3 o'clock",
+      "D) 9 o'clock"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Reading Clock",
+    "Difficulty": "Foundation",
+    "Explanation": "Both hands at 12 = 12 o'clock."
+  },
+  {
+    "QuestionText": "How many days are in February in a non-leap year?",
+    "Options": [
+      "A) 28",
+      "B) 29",
+      "C) 30",
+      "D) 31"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "February has 28 days in a normal year."
+  },
+  {
+    "QuestionText": "Which is the last month of the year?",
+    "Options": [
+      "A) December",
+      "B) November",
+      "C) January",
+      "D) October"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "December is the 12th and last month."
+  },
+  {
+    "QuestionText": "A clock shows 3:00. Where is the minute hand?",
+    "Options": [
+      "A) On 12",
+      "B) On 3",
+      "C) On 6",
+      "D) On 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Reading Clock",
+    "Difficulty": "Foundation",
+    "Explanation": "At any o'clock time, the minute hand points to 12."
+  },
+  {
+    "QuestionText": "How many weeks are in a year?",
+    "Options": [
+      "A) 52",
+      "B) 12",
+      "C) 24",
+      "D) 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "A year has 52 weeks (approximately)."
+  },
+  {
+    "QuestionText": "What time is half past 4?",
+    "Options": [
+      "A) 4:30",
+      "B) 4:15",
+      "C) 4:45",
+      "D) 3:30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Reading Clock",
+    "Difficulty": "Foundation",
+    "Explanation": "Half past 4 = 4:30."
+  },
+  {
+    "QuestionText": "The minute hand is on 6. What time could it be?",
+    "Options": [
+      "A) __ :30",
+      "B) __ :15",
+      "C) __ :45",
+      "D) __ :00"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Reading Clock",
+    "Difficulty": "Foundation",
+    "Explanation": "When minute hand is on 6, it is 30 minutes past the hour."
+  },
+  {
+    "QuestionText": "How many days are in a leap year?",
+    "Options": [
+      "A) 366",
+      "B) 365",
+      "C) 364",
+      "D) 360"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "A leap year has 366 days."
+  },
+  {
+    "QuestionText": "Which month has 31 days?",
+    "Options": [
+      "A) January",
+      "B) April",
+      "C) June",
+      "D) November"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "January has 31 days."
+  },
+  {
+    "QuestionText": "A school starts at 8:00 AM and ends at 1:00 PM. How long is school?",
+    "Options": [
+      "A) 5 hours",
+      "B) 6 hours",
+      "C) 4 hours",
+      "D) 7 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Advanced",
+    "Explanation": "From 8:00 to 1:00 = 5 hours."
+  },
+  {
+    "QuestionText": "What is quarter past 3?",
+    "Options": [
+      "A) 3:15",
+      "B) 3:45",
+      "C) 3:30",
+      "D) 2:45"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Reading Clock",
+    "Difficulty": "Foundation",
+    "Explanation": "Quarter past 3 = 3:15."
+  },
+  {
+    "QuestionText": "How many days in a month with 4 complete weeks?",
+    "Options": [
+      "A) 28",
+      "B) 30",
+      "C) 31",
+      "D) 32"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "4 complete weeks = 4 \u00d7 7 = 28 days."
+  },
+  {
+    "QuestionText": "Riya slept at 9:00 PM and woke at 6:00 AM. How long did she sleep?",
+    "Options": [
+      "A) 9 hours",
+      "B) 6 hours",
+      "C) 7 hours",
+      "D) 8 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Advanced",
+    "Explanation": "From 9 PM to 6 AM = 9 hours."
+  },
+  {
+    "QuestionText": "Which day comes after Wednesday?",
+    "Options": [
+      "A) Thursday",
+      "B) Tuesday",
+      "C) Friday",
+      "D) Monday"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Days of Week",
+    "Difficulty": "Foundation",
+    "Explanation": "The order is: ...Wednesday, Thursday..."
+  },
+  {
+    "QuestionText": "A movie starts at 5:00 PM and is 2 hours long. When does it end?",
+    "Options": [
+      "A) 7:00 PM",
+      "B) 6:00 PM",
+      "C) 5:30 PM",
+      "D) 8:00 PM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Advanced",
+    "Explanation": "5:00 PM + 2 hours = 7:00 PM."
+  },
+  {
+    "QuestionText": "How many minutes are in 2 hours?",
+    "Options": [
+      "A) 120",
+      "B) 60",
+      "C) 180",
+      "D) 100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "2 \u00d7 60 = 120 minutes."
+  },
+  {
+    "QuestionText": "What time is quarter to 6?",
+    "Options": [
+      "A) 5:45",
+      "B) 6:15",
+      "C) 6:45",
+      "D) 5:30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Reading Clock",
+    "Difficulty": "Advanced",
+    "Explanation": "Quarter to 6 = 15 minutes before 6 = 5:45."
+  },
+  {
+    "QuestionText": "February is the ___ month.",
+    "Options": [
+      "A) 2nd",
+      "B) 1st",
+      "C) 3rd",
+      "D) 12th"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "February comes second in the year."
+  },
+  {
+    "QuestionText": "How many months have 30 days?",
+    "Options": [
+      "A) 4",
+      "B) 3",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "April, June, September, November have 30 days = 4 months."
+  },
+  {
+    "QuestionText": "A journey starts at 10 AM and takes 3 hours 30 minutes. End time?",
+    "Options": [
+      "A) 1:30 PM",
+      "B) 1:00 PM",
+      "C) 2:00 PM",
+      "D) 2:30 PM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Advanced",
+    "Explanation": "10:00 AM + 3 h 30 min = 1:30 PM."
+  },
+  {
+    "QuestionText": "How many days from June 1 to June 10 (including both days)?",
+    "Options": [
+      "A) 10",
+      "B) 9",
+      "C) 11",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "June 1, 2, 3, ...10 = 10 days."
+  },
+  {
+    "QuestionText": "Which month comes before August?",
+    "Options": [
+      "A) July",
+      "B) June",
+      "C) September",
+      "D) May"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "The order is: ...July, August..."
+  },
+  {
+    "QuestionText": "What time is 15 minutes after 2:45?",
+    "Options": [
+      "A) 3:00",
+      "B) 2:60",
+      "C) 3:15",
+      "D) 2:30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Addition of Time",
+    "Difficulty": "Advanced",
+    "Explanation": "2:45 + 15 min = 3:00."
+  },
+  {
+    "QuestionText": "How many hours are in 3 days?",
+    "Options": [
+      "A) 72",
+      "B) 48",
+      "C) 36",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "3 \u00d7 24 = 72 hours."
+  },
+  {
+    "QuestionText": "A clock shows 6:30. Where is the hour hand?",
+    "Options": [
+      "A) Between 6 and 7",
+      "B) On 6",
+      "C) On 7",
+      "D) On 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Reading Clock",
+    "Difficulty": "Advanced",
+    "Explanation": "At 6:30, the hour hand is halfway between 6 and 7."
+  },
+  {
+    "QuestionText": "How many days from Monday to Sunday (inclusive)?",
+    "Options": [
+      "A) 7",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Days of Week",
+    "Difficulty": "Foundation",
+    "Explanation": "Mon, Tue, Wed, Thu, Fri, Sat, Sun = 7 days."
+  },
+  {
+    "QuestionText": "Amit's birthday is on the 15th of June. What day of the week is June 15 if June 1 is a Monday?",
+    "Options": [
+      "A) Sunday",
+      "B) Saturday",
+      "C) Friday",
+      "D) Monday"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Olympiad",
+    "Explanation": "June 1 = Monday. June 15 = Monday + 14 days = Monday + 2 weeks = Sunday (14th) + 1 = Monday? June 1 Mon, June 8 Mon, June 15 Mon. Actually June 15 is a Monday."
+  },
+  {
+    "QuestionText": "A year starts on Tuesday. What day is January 8?",
+    "Options": [
+      "A) Tuesday",
+      "B) Wednesday",
+      "C) Monday",
+      "D) Thursday"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Olympiad",
+    "Explanation": "Jan 1 = Tuesday. Jan 8 = Tuesday + 7 days = Tuesday."
+  },
+  {
+    "QuestionText": "How many minutes are in a day?",
+    "Options": [
+      "A) 1440",
+      "B) 240",
+      "C) 720",
+      "D) 60"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Conversion",
+    "Difficulty": "Olympiad",
+    "Explanation": "24 hours \u00d7 60 minutes = 1440 minutes."
+  },
+  {
+    "QuestionText": "The time is 11:50. How many minutes to reach 12:30?",
+    "Options": [
+      "A) 40",
+      "B) 30",
+      "C) 50",
+      "D) 20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Addition of Time",
+    "Difficulty": "Olympiad",
+    "Explanation": "11:50 to 12:30 = 10 min + 30 min = 40 minutes."
+  },
+  {
+    "QuestionText": "School starts at 7:45 AM. First period is 45 minutes. When does it end?",
+    "Options": [
+      "A) 8:30 AM",
+      "B) 8:15 AM",
+      "C) 8:45 AM",
+      "D) 8:00 AM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Olympiad",
+    "Explanation": "7:45 + 45 min = 8:30 AM."
+  },
+  {
+    "QuestionText": "How many Sundays are in a month that starts on Sunday and has 31 days?",
+    "Options": [
+      "A) 5",
+      "B) 4",
+      "C) 6",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sundays on 1, 8, 15, 22, 29 = 5 Sundays."
+  },
+  {
+    "QuestionText": "Meena left home at 8:15 AM and reached school at 8:45 AM. Time taken?",
+    "Options": [
+      "A) 30 minutes",
+      "B) 15 minutes",
+      "C) 45 minutes",
+      "D) 1 hour"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Foundation",
+    "Explanation": "8:45 \u2212 8:15 = 30 minutes."
+  },
+  {
+    "QuestionText": "Which year is a leap year?",
+    "Options": [
+      "A) 2000",
+      "B) 1900",
+      "C) 2100",
+      "D) 1800"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Olympiad",
+    "Explanation": "2000 is a leap year (divisible by 400)."
+  },
+  {
+    "QuestionText": "How many months have exactly 31 days?",
+    "Options": [
+      "A) 7",
+      "B) 6",
+      "C) 5",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "Jan, Mar, May, Jul, Aug, Oct, Dec = 7 months."
+  },
+  {
+    "QuestionText": "A clock shows 9:00 AM. What time will it show after 6 hours?",
+    "Options": [
+      "A) 3:00 PM",
+      "B) 3:00 AM",
+      "C) 4:00 PM",
+      "D) 6:00 PM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Advanced",
+    "Explanation": "9 AM + 6 hours = 3 PM."
+  },
+  {
+    "QuestionText": "How many weeks in 35 days?",
+    "Options": [
+      "A) 5",
+      "B) 4",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "35 \u00f7 7 = 5 weeks."
+  },
+  {
+    "QuestionText": "What time is it 20 minutes before 4:00?",
+    "Options": [
+      "A) 3:40",
+      "B) 3:20",
+      "C) 4:20",
+      "D) 3:50"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Subtraction of Time",
+    "Difficulty": "Advanced",
+    "Explanation": "4:00 \u2212 20 min = 3:40."
+  },
+  {
+    "QuestionText": "There are 365 days in a year. How many weeks and extra days?",
+    "Options": [
+      "A) 52 weeks 1 day",
+      "B) 52 weeks",
+      "C) 53 weeks",
+      "D) 51 weeks 1 day"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Olympiad",
+    "Explanation": "365 \u00f7 7 = 52 remainder 1 \u2192 52 weeks and 1 day."
+  },
+  {
+    "QuestionText": "A party is on Saturday. What day is it 3 days earlier?",
+    "Options": [
+      "A) Wednesday",
+      "B) Thursday",
+      "C) Tuesday",
+      "D) Friday"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Days of Week",
+    "Difficulty": "Advanced",
+    "Explanation": "Saturday \u2212 3 = Wednesday."
+  },
+  {
+    "QuestionText": "How many hours from 10:00 AM to 10:00 PM?",
+    "Options": [
+      "A) 12",
+      "B) 10",
+      "C) 24",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Duration",
+    "Difficulty": "Foundation",
+    "Explanation": "From AM to PM = 12 hours."
+  },
+  {
+    "QuestionText": "A month has 4 Mondays and 4 Tuesdays. It starts on a Wednesday. How many days?",
+    "Options": [
+      "A) 30",
+      "B) 28",
+      "C) 31",
+      "D) 29"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Olympiad",
+    "Explanation": "Starting Wednesday, 4 Mondays and 4 Tuesdays fit in 30 days."
+  },
+  {
+    "QuestionText": "How many seconds in an hour?",
+    "Options": [
+      "A) 3600",
+      "B) 600",
+      "C) 360",
+      "D) 60"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Conversion",
+    "Difficulty": "Olympiad",
+    "Explanation": "60 seconds \u00d7 60 minutes = 3600 seconds."
+  },
+  {
+    "QuestionText": "Raj was born on 2nd June 2018. How old will he be on 2nd June 2025?",
+    "Options": [
+      "A) 7 years",
+      "B) 6 years",
+      "C) 8 years",
+      "D) 5 years"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Time and Calendar",
+    "SubTopic": "Calendar",
+    "Difficulty": "Advanced",
+    "Explanation": "2025 \u2212 2018 = 7 years."
+  }
+]

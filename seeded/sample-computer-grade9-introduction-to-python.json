@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Python is which type of language?",
+    "Options": [
+      "A) Compiled, low-level",
+      "B) Interpreted, high-level, general-purpose",
+      "C) Assembly language",
+      "D) Machine language"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Python: interpreted, high-level, general-purpose. Created by Guido van Rossum (1991). Named after Monty Python."
+  },
+  {
+    "QuestionText": "In Python 2.7, which is used to print output?",
+    "Options": [
+      "A) print('Hello')",
+      "B) print 'Hello'",
+      "C) echo 'Hello'",
+      "D) cout 'Hello'"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Python 2.7: print is a statement: print 'Hello'. Python 3: print('Hello') is a function. NCO syllabus mentions Python 2.7.0."
+  },
+  {
+    "QuestionText": "To get user input in Python 2.7, use:",
+    "Options": [
+      "A) get()",
+      "B) input() for expressions, raw_input() for strings",
+      "C) scan()",
+      "D) cin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Python 2.7: raw_input() reads input as string. input() evaluates as Python expression. Python 3: only input() \u2014 always returns string."
+  },
+  {
+    "QuestionText": "A Python comment starts with:",
+    "Options": [
+      "A) //",
+      "B) /* */",
+      "C) #",
+      "D) --"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Python single-line comments start with #. Multi-line: use triple quotes. # This is a comment."
+  },
+  {
+    "QuestionText": "In Python, which data type stores True or False?",
+    "Options": [
+      "A) int",
+      "B) str",
+      "C) bool",
+      "D) float"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Boolean (bool): True or False (capital T/F). Used in conditions. 5 > 3 evaluates to True. 'hello' == 'HELLO' evaluates to False."
+  },
+  {
+    "QuestionText": "Python uses __ to define code blocks instead of braces:",
+    "Options": [
+      "A) Semicolons",
+      "B) Indentation (spaces or tabs)",
+      "C) Parentheses",
+      "D) Square brackets"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Python uses indentation (whitespace) to define code blocks. Standard: 4 spaces. Inconsistent indentation causes IndentationError."
+  },
+  {
+    "QuestionText": "In Python, 'int' data type stores:",
+    "Options": [
+      "A) Decimal numbers",
+      "B) Whole numbers (integers)",
+      "C) Text strings",
+      "D) True/False values"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "int: integer (whole numbers). E.g., 5, -3, 0. float: decimal numbers (3.14). str: text. Operations: +, -, *, /, // (floor), % (modulus), ** (power)."
+  },
+  {
+    "QuestionText": "What is the output of: print(10 % 3) in Python?",
+    "Options": [
+      "A) 3",
+      "B) 3.33",
+      "C) 1",
+      "D) 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "% = modulus (remainder). 10 divided by 3 = 3 remainder 1. So 10 % 3 = 1."
+  },
+  {
+    "QuestionText": "Python 'list' is:",
+    "Options": [
+      "A) Immutable collection",
+      "B) Ordered, mutable collection of items",
+      "C) Collection of unique items",
+      "D) Key-value pairs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "List: ordered, mutable (changeable), allows duplicates. [1, 2, 3, 'hello']. Tuple: immutable. Set: unique. Dict: key-value pairs."
+  },
+  {
+    "QuestionText": "How do you access the first element of a Python list mylist = [10, 20, 30]?",
+    "Options": [
+      "A) mylist[1]",
+      "B) mylist[0]",
+      "C) mylist.first()",
+      "D) mylist(0)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Python indexing starts at 0. mylist[0] = 10, mylist[1] = 20, mylist[2] = 30. Negative indexing: mylist[-1] = 30 (last)."
+  },
+  {
+    "QuestionText": "The 'for' loop in Python:",
+    "Options": [
+      "A) Runs a fixed number of times only",
+      "B) Iterates over a sequence (list, string, range)",
+      "C) Tests a condition before each iteration",
+      "D) Is same as while loop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "Python for loop: for item in iterable. Iterates through each element. for i in range(5): runs 0,1,2,3,4. for char in 'hello': iterates each character."
+  },
+  {
+    "QuestionText": "Python 'range(5)' generates:",
+    "Options": [
+      "A) 1, 2, 3, 4, 5",
+      "B) 0, 1, 2, 3, 4",
+      "C) 0, 1, 2, 3, 4, 5",
+      "D) 5, 4, 3, 2, 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "range(5) = 0, 1, 2, 3, 4 (5 values starting from 0). range(1,6) = 1,2,3,4,5. range(0,10,2) = 0,2,4,6,8 (step 2)."
+  },
+  {
+    "QuestionText": "Python 'while' loop continues as long as:",
+    "Options": [
+      "A) A counter reaches a number",
+      "B) A condition remains True",
+      "C) User provides input",
+      "D) List has elements"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "while condition: executes block while condition is True. Must ensure condition eventually becomes False to avoid infinite loop."
+  },
+  {
+    "QuestionText": "Python 'def' keyword is used to:",
+    "Options": [
+      "A) Define a variable",
+      "B) Define a function",
+      "C) Delete a variable",
+      "D) Declare a class"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "def function_name(parameters): defines a function. Call with function_name(arguments). Functions promote code reuse and modularity."
+  },
+  {
+    "QuestionText": "Python 'return' statement:",
+    "Options": [
+      "A) Prints a value",
+      "B) Exits function and optionally returns a value to caller",
+      "C) Repeats the loop",
+      "D) Imports a module"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "return value: exits the function and sends value back to the caller. A function without return gives None. Multiple values: return a, b (returns tuple)."
+  },
+  {
+    "QuestionText": "To find the length of a string in Python:",
+    "Options": [
+      "A) string.size()",
+      "B) len(string)",
+      "C) string.length",
+      "D) count(string)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Strings",
+    "Difficulty": "Foundation",
+    "Explanation": "len() function returns length of string, list, tuple, dict. len('Hello') = 5. len([1,2,3]) = 3."
+  },
+  {
+    "QuestionText": "String concatenation in Python uses which operator?",
+    "Options": [
+      "A) ampersand &",
+      "B) plus +",
+      "C) dot .",
+      "D) comma ,"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Strings",
+    "Difficulty": "Foundation",
+    "Explanation": "+ concatenates strings: 'Hello' + ' ' + 'World' = 'Hello World'. * repeats: 'Hi' * 3 = 'HiHiHi'. Cannot concatenate str and int directly."
+  },
+  {
+    "QuestionText": "In Python, 'if', 'elif', 'else' is used for:",
+    "Options": [
+      "A) Loops",
+      "B) Conditional decision-making",
+      "C) Function definitions",
+      "D) Module imports"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "if condition: [block]. elif other_condition: [block]. else: [block]. Colons end each clause. Python evaluates in order; first True clause executes."
+  },
+  {
+    "QuestionText": "Python 'import' statement:",
+    "Options": [
+      "A) Exports a module",
+      "B) Loads and makes available a module's functions and classes",
+      "C) Installs a package",
+      "D) Creates a new module"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Modules",
+    "Difficulty": "Foundation",
+    "Explanation": "import module: loads module. import math gives math.sqrt(16). from math import sqrt gives sqrt(16) directly."
+  },
+  {
+    "QuestionText": "Python 'turtle' module is used for:",
+    "Options": [
+      "A) Web scraping",
+      "B) Drawing graphics (turtle graphics)",
+      "C) Data analysis",
+      "D) Network programming"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Modules",
+    "Difficulty": "Foundation",
+    "Explanation": "turtle module: draw shapes/patterns by controlling a turtle cursor. import turtle; turtle.forward(100); turtle.right(90). Great for learning programming visually."
+  },
+  {
+    "QuestionText": "What is the output of: print(2 ** 10) in Python?",
+    "Options": [
+      "A) 20",
+      "B) 512",
+      "C) 1024",
+      "D) 100"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "** = exponentiation. 2**10 = 2^10 = 1024."
+  },
+  {
+    "QuestionText": "Python dictionary is:",
+    "Options": [
+      "A) Ordered list of items",
+      "B) Collection of key-value pairs",
+      "C) Set of unique values",
+      "D) Immutable sequence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Dictionary (dict): key:value pairs. Access: d['key']. Keys must be unique and immutable. Values can be anything."
+  },
+  {
+    "QuestionText": "To add an element to a Python list, use:",
+    "Options": [
+      "A) list.add()",
+      "B) list.append()",
+      "C) list.insert_end()",
+      "D) list.push()"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "list.append(element): adds to end. list.insert(index, element): adds at position. list.extend(other_list): adds all elements of another list."
+  },
+  {
+    "QuestionText": "Python 'not' operator:",
+    "Options": [
+      "A) Multiplies boolean",
+      "B) Reverses boolean value",
+      "C) Compares two values",
+      "D) Concatenates strings"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "not: logical NOT. not True = False. not False = True. Python logical operators: and, or, not. Used in conditions."
+  },
+  {
+    "QuestionText": "Slicing mylist = [1,2,3,4,5]; mylist[1:4] gives:",
+    "Options": [
+      "A) [1,2,3,4]",
+      "B) [2,3,4]",
+      "C) [2,3,4,5]",
+      "D) [1,2,3]"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Advanced",
+    "Explanation": "Slicing: list[start:stop]. Stop is exclusive. mylist[1:4] = elements at index 1,2,3 = [2,3,4]."
+  },
+  {
+    "QuestionText": "Python 'break' statement:",
+    "Options": [
+      "A) Pauses the loop",
+      "B) Exits the current loop immediately",
+      "C) Skips the current iteration",
+      "D) Ends the program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "break: immediately exits the innermost loop. continue: skips rest of current iteration. pass: does nothing (placeholder)."
+  },
+  {
+    "QuestionText": "Python 'continue' statement:",
+    "Options": [
+      "A) Exits loop",
+      "B) Skips current iteration and continues with next",
+      "C) Continues to next function",
+      "D) Resumes after break"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "continue: skips remaining code in current iteration, jumps to next iteration of loop. break exits loop completely."
+  },
+  {
+    "QuestionText": "In Python, floor division uses which operator?",
+    "Options": [
+      "A) single slash /",
+      "B) double slash //",
+      "C) percent %",
+      "D) double asterisk **"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "// = floor division (integer division, rounds down). 7//2 = 3 (not 3.5). / = regular division (returns float). % = modulus."
+  },
+  {
+    "QuestionText": "Python 'tuple' differs from list in being:",
+    "Options": [
+      "A) Faster for all operations",
+      "B) Immutable (cannot be changed after creation)",
+      "C) Unordered",
+      "D) Can only hold numbers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Tuple: ordered, immutable. (1, 2, 3). Cannot change elements after creation. Suitable for data that should not change."
+  },
+  {
+    "QuestionText": "Python set data structure:",
+    "Options": [
+      "A) Ordered sequence",
+      "B) Unordered collection of unique elements",
+      "C) Key-value pairs",
+      "D) Immutable sequence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Foundation",
+    "Explanation": "Set: unordered, no duplicates. {1,2,3}. Fast membership testing. Set operations: union, intersection, difference. {1,2,2,3} becomes {1,2,3}."
+  },
+  {
+    "QuestionText": "What does type(42) return in Python?",
+    "Options": [
+      "A) 'integer'",
+      "B) int",
+      "C) 42",
+      "D) True"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "type(value): returns the data type. type(42) gives int. type('hello') gives str. type(3.14) gives float. type([1,2,3]) gives list."
+  },
+  {
+    "QuestionText": "In Python, to convert string to integer:",
+    "Options": [
+      "A) str(x)",
+      "B) int(x)",
+      "C) float(x)",
+      "D) char(x)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "int(x): converts to integer. int('42') gives 42. str(x): to string. float(x): to float. input() returns string, so convert: age = int(input('Enter age: '))."
+  },
+  {
+    "QuestionText": "Python string method .upper() does what?",
+    "Options": [
+      "A) Counts uppercase letters",
+      "B) Converts all characters to uppercase",
+      "C) Finds first uppercase letter",
+      "D) Removes uppercase letters"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Strings",
+    "Difficulty": "Foundation",
+    "Explanation": "'hello'.upper() gives 'HELLO'. 'HELLO'.lower() gives 'hello'. 'hello world'.title() gives 'Hello World'."
+  },
+  {
+    "QuestionText": "Python 'split()' method:",
+    "Options": [
+      "A) Divides a number",
+      "B) Splits string into list of substrings",
+      "C) Separates code blocks",
+      "D) Breaks the loop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Strings",
+    "Difficulty": "Foundation",
+    "Explanation": "'hello world'.split() gives ['hello','world']. '1,2,3'.split(',') gives ['1','2','3']. join() reverses: ','.join(['1','2','3']) gives '1,2,3'."
+  },
+  {
+    "QuestionText": "Python 'in' keyword checks:",
+    "Options": [
+      "A) Loop iteration",
+      "B) Membership \u2014 if item exists in sequence",
+      "C) Import status",
+      "D) Variable type"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "in: membership test. 'hello' in 'hello world' gives True. 3 in [1,2,3] gives True. 'key' in dict checks if key exists. Also used in for loops."
+  },
+  {
+    "QuestionText": "Which operator checks equality in Python?",
+    "Options": [
+      "A) single equals =",
+      "B) double equals ==",
+      "C) triple equals ===",
+      "D) keyword eq"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "== checks equality (5==5 gives True). = is assignment (x=5). != is not equal. >, <, >=, <= are comparison operators."
+  },
+  {
+    "QuestionText": "Python 'None' represents:",
+    "Options": [
+      "A) 0",
+      "B) False",
+      "C) Null/absence of value",
+      "D) Empty string"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Types",
+    "Difficulty": "Foundation",
+    "Explanation": "None: Python's null value representing absence of value. Function with no return gives None. Check with: if x is None."
+  },
+  {
+    "QuestionText": "Python exception handling uses:",
+    "Options": [
+      "A) if...else blocks",
+      "B) try...except blocks",
+      "C) error...catch blocks",
+      "D) test...handle blocks"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Error Handling",
+    "Difficulty": "Advanced",
+    "Explanation": "try: [risky code]. except ErrorType: [handle error]. else: [runs if no exception]. finally: [always runs]."
+  },
+  {
+    "QuestionText": "Python list comprehension [x**2 for x in range(5)] produces:",
+    "Options": [
+      "A) [0,1,4,9,16,25]",
+      "B) [1,4,9,16,25]",
+      "C) [0,1,4,9,16]",
+      "D) [0,1,2,3,4]"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Olympiad",
+    "Explanation": "range(5) = 0,1,2,3,4. x**2 for each: 0,1,4,9,16. Result: [0,1,4,9,16]. List comprehension is a concise way to create lists."
+  },
+  {
+    "QuestionText": "Python 'random.randint(1,10)' generates:",
+    "Options": [
+      "A) Random float between 1 and 10",
+      "B) Random integer between 1 and 10 inclusive",
+      "C) Random integer 1 to 9",
+      "D) Always the same number"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Modules",
+    "Difficulty": "Foundation",
+    "Explanation": "random.randint(a,b): generates random integer >= a and <= b inclusive. random.random(): float 0.0 to 1.0. random.choice(list): random element."
+  },
+  {
+    "QuestionText": "In Python, a function that calls itself is:",
+    "Options": [
+      "A) A loop",
+      "B) A recursive function",
+      "C) An infinite function",
+      "D) A class method"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Recursive function: calls itself. Needs base case to stop. Classic examples: factorial, Fibonacci. factorial(n) = n * factorial(n-1). factorial(0) = 1 (base case)."
+  },
+  {
+    "QuestionText": "Python 'pass' statement is used to:",
+    "Options": [
+      "A) Pass values to functions",
+      "B) Do nothing (placeholder for empty blocks)",
+      "C) Skip loop iteration",
+      "D) Exit function"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "pass: does nothing. Used as placeholder where code is required syntactically but no action is needed. def empty_function(): pass. if condition: pass."
+  },
+  {
+    "QuestionText": "Python open() function for writing to a file uses mode:",
+    "Options": [
+      "A) 'r'",
+      "B) 'w'",
+      "C) 'x'",
+      "D) 'a'"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "File Handling",
+    "Difficulty": "Foundation",
+    "Explanation": "open(filename, mode). 'r'=read, 'w'=write (creates/overwrites), 'a'=append, 'x'=create new only. Always close file or use 'with' statement."
+  },
+  {
+    "QuestionText": "The 'len()' function works on:",
+    "Options": [
+      "A) Only strings",
+      "B) Strings, lists, tuples, dicts, sets",
+      "C) Only numbers",
+      "D) Only lists"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "len() returns length/count for: strings (number of characters), lists/tuples (number of elements), dicts (number of key-value pairs), sets (number of elements)."
+  },
+  {
+    "QuestionText": "Python 'elif' is short for:",
+    "Options": [
+      "A) else if",
+      "B) early if",
+      "C) end loop if",
+      "D) external if"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Control Flow",
+    "Difficulty": "Foundation",
+    "Explanation": "elif = else if. Checks additional conditions when previous conditions are False. Can have multiple elif blocks. Equivalent to else-if in other languages."
+  },
+  {
+    "QuestionText": "In Python, which symbol is used for string multiplication?",
+    "Options": [
+      "A) +",
+      "B) *",
+      "C) **",
+      "D) &"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Strings",
+    "Difficulty": "Foundation",
+    "Explanation": "* repeats strings: 'Hi' * 3 = 'HiHiHi'. Also repeats lists: [0] * 5 = [0,0,0,0,0]. + concatenates: 'Hello' + ' World' = 'Hello World'."
+  },
+  {
+    "QuestionText": "Python 'sorted()' function:",
+    "Options": [
+      "A) Modifies original list",
+      "B) Returns a new sorted list without modifying original",
+      "C) Works only on numbers",
+      "D) Same as list.sort()"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Data Structures",
+    "Difficulty": "Advanced",
+    "Explanation": "sorted(iterable): returns new sorted list. list.sort(): modifies list in-place, returns None. sorted([3,1,2]) gives [1,2,3]. Both support reverse=True and key parameter."
+  },
+  {
+    "QuestionText": "In Python 2.7, division 7/2 gives:",
+    "Options": [
+      "A) 3.5",
+      "B) 3",
+      "C) 4",
+      "D) Error"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Operators",
+    "Difficulty": "Advanced",
+    "Explanation": "Python 2: integer division by default (7/2=3). Python 3: true division (7/2=3.5). In Python 2, use 7.0/2 or float(7)/2 for true division, or from __future__ import division."
+  },
+  {
+    "QuestionText": "Python 'input()' in Python 3 always returns:",
+    "Options": [
+      "A) Integer",
+      "B) Float",
+      "C) String",
+      "D) List"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "input() always returns a string in Python 3. Convert as needed: int(input('Enter number: ')) for integer. Python 2 raw_input() also returns string."
+  },
+  {
+    "QuestionText": "Python 'abs()' function returns:",
+    "Options": [
+      "A) Abstract value",
+      "B) Absolute value (always positive)",
+      "C) Average",
+      "D) Ascii value"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Introduction to Python",
+    "SubTopic": "Python Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "abs(x): returns absolute value (magnitude). abs(-5)=5, abs(5)=5, abs(-3.14)=3.14. Built-in function \u2014 no import needed."
+  }
+]

@@ -79,6 +79,40 @@ public class RazorpayService
         return new OrderResult(parsed.Id, parsed.Amount, parsed.Currency);
     }
 
+    public async Task<OrderResult> CreatePdfOrderAsync(
+        int grade, string subject, Guid userId, CancellationToken ct = default)
+    {
+        if (!IsConfigured)
+            throw new InvalidOperationException("Razorpay credentials are not configured.");
+
+        const int amountInPaise = 2900; // ₹29
+        var receipt = $"pdf_{userId.ToString("N")[..12]}_{grade}_{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
+
+        var payload = new
+        {
+            amount = amountInPaise,
+            currency = "INR",
+            receipt,
+            notes = new { userId = userId.ToString(), grade = grade.ToString(), subject }
+        };
+
+        using var req = new HttpRequestMessage(HttpMethod.Post, "https://api.razorpay.com/v1/orders");
+        req.Content = JsonContent.Create(payload);
+        using var res = await _http.SendAsync(req, ct);
+        var body = await res.Content.ReadAsStringAsync(ct);
+
+        if (!res.IsSuccessStatusCode)
+        {
+            _log.LogError("Razorpay PDF order failed {Status}: {Body}", res.StatusCode, body);
+            throw new HttpRequestException($"Razorpay error {(int)res.StatusCode}: {body}");
+        }
+
+        var parsed = System.Text.Json.JsonSerializer.Deserialize<RazorpayOrderResponse>(body)
+            ?? throw new InvalidOperationException("Empty Razorpay PDF order response");
+
+        return new OrderResult(parsed.Id, parsed.Amount, parsed.Currency);
+    }
+
     public bool VerifySignature(string orderId, string paymentId, string signature)
     {
         if (string.IsNullOrEmpty(_keySecret)) return false;

@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "What is Scratch?",
+        "Options":  [
+                        "A) A visual programming language for creating games and animations",
+                        "B) A drawing tool",
+                        "C) A word processor",
+                        "D) A spreadsheet program"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scratch Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Scratch is a free visual programming language where you snap blocks together to create projects."
+    },
+    {
+        "QuestionText":  "Who created Scratch?",
+        "Options":  [
+                        "A) MIT Media Lab",
+                        "B) Microsoft",
+                        "C) Apple",
+                        "D) Google"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scratch Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Scratch was created by the Lifelong Kindergarten Group at MIT Media Lab."
+    },
+    {
+        "QuestionText":  "What is a sprite in Scratch?",
+        "Options":  [
+                        "A) A character or object that performs actions",
+                        "B) A background image",
+                        "C) A sound file",
+                        "D) A block of code"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sprites",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A sprite is any character or object in Scratch that you can program to move, speak, or act."
+    },
+    {
+        "QuestionText":  "What is the stage in Scratch?",
+        "Options":  [
+                        "A) The background area where sprites move",
+                        "B) A type of sprite",
+                        "C) A sound block",
+                        "D) A costume"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Stage and Backdrop",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The stage is the area in Scratch where your project plays out. Sprites move on the stage."
+    },
+    {
+        "QuestionText":  "What are Scratch blocks used for?",
+        "Options":  [
+                        "A) To give instructions to sprites",
+                        "B) To draw pictures",
+                        "C) To type text",
+                        "D) To play music"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Scratch blocks are coding instructions that tell sprites what to do when snapped together."
+    },
+    {
+        "QuestionText":  "Which block starts most Scratch programs?",
+        "Options":  [
+                        "A) When green flag clicked",
+                        "B) When space key pressed",
+                        "C) When sprite clicked",
+                        "D) When backdrop changes"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The \u0027When green flag clicked\u0027 block is the most common starting block in Scratch programs."
+    },
+    {
+        "QuestionText":  "What does the green flag button do in Scratch?",
+        "Options":  [
+                        "A) Starts the program",
+                        "B) Stops the program",
+                        "C) Deletes a sprite",
+                        "D) Saves the project"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scratch Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Clicking the green flag runs your Scratch project from the beginning."
+    },
+    {
+        "QuestionText":  "What does the red stop button do in Scratch?",
+        "Options":  [
+                        "A) Stops the program from running",
+                        "B) Starts the program",
+                        "C) Deletes all sprites",
+                        "D) Changes the backdrop"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scratch Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The red stop button halts all running scripts in your Scratch project."
+    },
+    {
+        "QuestionText":  "What is a backdrop in Scratch?",
+        "Options":  [
+                        "A) The background image on the stage",
+                        "B) A type of sprite",
+                        "C) A sound block",
+                        "D) A costume"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Stage and Backdrop",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A backdrop is the background image shown on the stage behind the sprites."
+    },
+    {
+        "QuestionText":  "What is a costume in Scratch?",
+        "Options":  [
+                        "A) A different look or outfit for a sprite",
+                        "B) A background image",
+                        "C) A sound",
+                        "D) A type of block"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sprites",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A costume is one of several appearance options for a sprite, like different outfits or poses."
+    },
+    {
+        "QuestionText":  "Which category of blocks controls movement in Scratch?",
+        "Options":  [
+                        "A) Motion blocks",
+                        "B) Sound blocks",
+                        "C) Looks blocks",
+                        "D) Control blocks"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Motion blocks (in blue) control how sprites move, turn, and change position on the stage."
+    },
+    {
+        "QuestionText":  "What colour are Motion blocks in Scratch?",
+        "Options":  [
+                        "A) Blue",
+                        "B) Purple",
+                        "C) Orange",
+                        "D) Green"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Motion blocks are blue in colour and control how sprites move on the stage."
+    },
+    {
+        "QuestionText":  "Which block makes a sprite say something in Scratch?",
+        "Options":  [
+                        "A) Say [ ] for [ ] seconds",
+                        "B) Move [ ] steps",
+                        "C) Play sound",
+                        "D) Change colour"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Looks Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The \u0027Say\u0027 block makes a speech bubble appear above the sprite with your chosen text."
+    },
+    {
+        "QuestionText":  "What does the \u0027Move 10 steps\u0027 block do?",
+        "Options":  [
+                        "A) Moves the sprite 10 steps forward",
+                        "B) Turns the sprite 10 degrees",
+                        "C) Jumps the sprite up",
+                        "D) Shrinks the sprite"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Motion Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The \u0027Move 10 steps\u0027 block moves the sprite forward by 10 steps in the direction it is facing."
+    },
+    {
+        "QuestionText":  "What is a script in Scratch?",
+        "Options":  [
+                        "A) A set of blocks joined together to give instructions",
+                        "B) A type of backdrop",
+                        "C) A sprite costume",
+                        "D) A sound file"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scripts",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A script is a sequence of connected blocks that tells a sprite what to do."
+    },
+    {
+        "QuestionText":  "Which block makes a sprite wait before doing the next action?",
+        "Options":  [
+                        "A) Wait [ ] seconds",
+                        "B) Stop all",
+                        "C) Go to x:0 y:0",
+                        "D) Repeat [ ]"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Control Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The \u0027Wait\u0027 block pauses the script for a set number of seconds before continuing."
+    },
+    {
+        "QuestionText":  "What does the \u0027Repeat 10\u0027 block do?",
+        "Options":  [
+                        "A) Runs the blocks inside it 10 times",
+                        "B) Moves the sprite 10 steps",
+                        "C) Waits 10 seconds",
+                        "D) Plays a sound 10 times"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Control Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Repeat block loops the blocks inside it a specified number of times."
+    },
+    {
+        "QuestionText":  "Where do you find the Scratch website?",
+        "Options":  [
+                        "A) scratch.mit.edu",
+                        "B) scratch.com",
+                        "C) scratch.google.com",
+                        "D) scratch.apple.com"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scratch Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The official Scratch website is at scratch.mit.edu, run by MIT."
+    },
+    {
+        "QuestionText":  "What does \u0027Play sound\u0027 block do?",
+        "Options":  [
+                        "A) Plays a chosen sound in the project",
+                        "B) Moves the sprite",
+                        "C) Changes the backdrop",
+                        "D) Stops the program"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sound Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The \u0027Play sound\u0027 block plays a selected audio file in your Scratch project."
+    },
+    {
+        "QuestionText":  "Which block changes how a sprite looks?",
+        "Options":  [
+                        "A) Looks blocks",
+                        "B) Motion blocks",
+                        "C) Sound blocks",
+                        "D) Sensing blocks"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Looks Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Looks blocks (purple) control a sprite\u0027s appearance — size, costume, visibility, and effects."
+    },
+    {
+        "QuestionText":  "What happens when you snap two blocks together in Scratch?",
+        "Options":  [
+                        "A) The second block runs after the first",
+                        "B) Both blocks run at the same time",
+                        "C) The first block is deleted",
+                        "D) Nothing happens"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scripts",
+        "Difficulty":  "Foundation",
+        "Explanation":  "When blocks are snapped together, they run in order — the second block executes after the first finishes."
+    },
+    {
+        "QuestionText":  "What is the Scratch editor?",
+        "Options":  [
+                        "A) The screen where you build your Scratch project",
+                        "B) A type of sprite",
+                        "C) A block category",
+                        "D) A sound file"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scratch Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Scratch editor is the main interface where you create and test your projects."
+    },
+    {
+        "QuestionText":  "Which block makes a sprite go to a specific position?",
+        "Options":  [
+                        "A) Go to x:[ ] y:[ ]",
+                        "B) Move 10 steps",
+                        "C) Turn 90 degrees",
+                        "D) Change size"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Motion Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The \u0027Go to x y\u0027 block teleports the sprite to the exact coordinates you enter on the stage."
+    },
+    {
+        "QuestionText":  "What are Events blocks used for?",
+        "Options":  [
+                        "A) To trigger scripts when something happens",
+                        "B) To move sprites",
+                        "C) To change costumes",
+                        "D) To play sounds"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Events blocks start scripts when something happens, like clicking the green flag or pressing a key."
+    },
+    {
+        "QuestionText":  "What colour are Control blocks in Scratch?",
+        "Options":  [
+                        "A) Orange",
+                        "B) Blue",
+                        "C) Purple",
+                        "D) Green"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Control blocks are orange in colour and include loops, conditionals, and wait blocks."
+    },
+    {
+        "QuestionText":  "Mia wants her sprite to move back and forth forever. Which block should she use?",
+        "Options":  [
+                        "A) Forever block containing move and turn steps",
+                        "B) Repeat 10 block",
+                        "C) Wait 2 seconds block",
+                        "D) Stop all block"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Control Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The \u0027Forever\u0027 block loops its contents endlessly, making the sprite keep moving until stopped."
+    },
+    {
+        "QuestionText":  "What does the \u0027If...then\u0027 block do?",
+        "Options":  [
+                        "A) Runs blocks inside only if a condition is true",
+                        "B) Runs blocks forever",
+                        "C) Waits for a click",
+                        "D) Stops the sprite"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Control Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The \u0027If...then\u0027 block checks a condition and only runs the inside blocks if the condition is true."
+    },
+    {
+        "QuestionText":  "Raj wants his sprite to change costume every second. Which blocks does he need?",
+        "Options":  [
+                        "A) Forever block + Switch costume + Wait 1 second",
+                        "B) Only move block",
+                        "C) Only play sound block",
+                        "D) Only change size block"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Looks Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "To animate a sprite, use a Forever loop containing a Switch Costume block and a Wait block."
+    },
+    {
+        "QuestionText":  "What does it mean to debug a Scratch project?",
+        "Options":  [
+                        "A) Find and fix errors in the scripts",
+                        "B) Add a new sprite",
+                        "C) Change the backdrop",
+                        "D) Record a sound"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Debugging",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Debugging means identifying and correcting mistakes in your code so the project works correctly."
+    },
+    {
+        "QuestionText":  "Priya\u0027s sprite keeps moving off the screen. Which block can keep it on stage?",
+        "Options":  [
+                        "A) If on edge, bounce",
+                        "B) Move 10 steps",
+                        "C) Change size by 10",
+                        "D) Switch backdrop"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Motion Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The \u0027If on edge, bounce\u0027 block makes the sprite bounce back when it reaches the edge of the stage."
+    },
+    {
+        "QuestionText":  "Which block would you use to make a sprite glide smoothly to a new position?",
+        "Options":  [
+                        "A) Glide [ ] secs to x:[ ] y:[ ]",
+                        "B) Move 10 steps",
+                        "C) Go to random position",
+                        "D) Turn 15 degrees"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Motion Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Glide block moves a sprite smoothly to the given coordinates over the specified number of seconds."
+    },
+    {
+        "QuestionText":  "What is the difference between \u0027Repeat 10\u0027 and \u0027Forever\u0027 in Scratch?",
+        "Options":  [
+                        "A) Repeat 10 runs 10 times; Forever runs until stopped",
+                        "B) They are exactly the same",
+                        "C) Forever runs 10 times; Repeat runs once",
+                        "D) Repeat 10 never stops"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Control Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Repeat runs a set number of times and then stops; Forever loops endlessly until the program is stopped."
+    },
+    {
+        "QuestionText":  "Arjun wants two sprites to talk to each other in turns. Which block should he use to create pauses?",
+        "Options":  [
+                        "A) Wait [ ] seconds",
+                        "B) Stop all",
+                        "C) Delete sprite",
+                        "D) Change backdrop"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Control Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Wait block pauses a sprite\u0027s script so the other sprite can speak or act in sequence."
+    },
+    {
+        "QuestionText":  "What do Sensing blocks do in Scratch?",
+        "Options":  [
+                        "A) Detect conditions like touching a colour or key press",
+                        "B) Control movement",
+                        "C) Change costume",
+                        "D) Play music"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sensing Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Sensing blocks detect things in the environment — like key presses, mouse clicks, or touching another sprite."
+    },
+    {
+        "QuestionText":  "Which block checks if a sprite is touching another sprite?",
+        "Options":  [
+                        "A) Touching [ ]?",
+                        "B) Move 10 steps",
+                        "C) Change size",
+                        "D) Switch backdrop"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sensing Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The \u0027Touching\u0027 sensing block checks if the sprite is touching a specified sprite or colour."
+    },
+    {
+        "QuestionText":  "Tina wants her sprite to grow bigger each time it is clicked. Which blocks does she need?",
+        "Options":  [
+                        "A) When this sprite clicked + Change size by [ ]",
+                        "B) Green flag + Move steps",
+                        "C) Forever + Play sound",
+                        "D) Stop all + Switch costume"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Looks Blocks",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Using \u0027When this sprite clicked\u0027 with \u0027Change size by\u0027 increases the sprite\u0027s size each time it is clicked."
+    },
+    {
+        "QuestionText":  "What is a variable in Scratch?",
+        "Options":  [
+                        "A) A container that stores a changing value like a score",
+                        "B) A type of sprite",
+                        "C) A backdrop image",
+                        "D) A loop block"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Variables",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A variable stores data that can change as the program runs, such as a score or timer value."
+    },
+    {
+        "QuestionText":  "How do you add a new sprite in Scratch?",
+        "Options":  [
+                        "A) Click the sprite library button or upload an image",
+                        "B) Press the green flag",
+                        "C) Click the stop button",
+                        "D) Change the backdrop"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sprites",
+        "Difficulty":  "Advanced",
+        "Explanation":  "You can add sprites from Scratch\u0027s built-in library, draw your own, or upload an image from your computer."
+    },
+    {
+        "QuestionText":  "What does \u0027broadcast\u0027 do in Scratch?",
+        "Options":  [
+                        "A) Sends a message that other scripts can receive and react to",
+                        "B) Moves the sprite",
+                        "C) Changes the costume",
+                        "D) Stops the project"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Events",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Broadcast block sends a message to trigger other scripts that use the \u0027When I receive\u0027 block."
+    },
+    {
+        "QuestionText":  "Sana made a score variable. It starts at 0 and increases by 1 each time the sprite touches a star sprite. Which blocks are needed?",
+        "Options":  [
+                        "A) When touching star: Change score by 1",
+                        "B) When green flag: Move 10 steps",
+                        "C) Forever: Switch costume",
+                        "D) Repeat 5: Play sound"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Variables",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Use a sensing block (touching star?) inside a Forever loop, and when true, change the score variable by 1."
+    },
+    {
+        "QuestionText":  "Rohan wants his sprite to move right when the right arrow key is pressed and left when the left arrow key is pressed. How many \u0027When key pressed\u0027 blocks does he need?",
+        "Options":  [
+                        "A) 2 blocks — one for each key",
+                        "B) 1 block for both keys",
+                        "C) 4 blocks",
+                        "D) No blocks needed"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Events",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Each key needs its own \u0027When [key] pressed\u0027 event block, so two separate scripts are needed."
+    },
+    {
+        "QuestionText":  "What is the correct order to make a sprite animate through costumes continuously?",
+        "Options":  [
+                        "A) When green flag clicked → Forever → Next costume → Wait 0.2 seconds",
+                        "B) Forever → Green flag → Wait → Costume",
+                        "C) Wait → Green flag → Forever → Sound",
+                        "D) Costume → Forever → Green flag → Wait"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scripts",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Start with the green flag event, then loop forever: switch to next costume, wait briefly, and repeat."
+    },
+    {
+        "QuestionText":  "Neha notices her sprite runs the wrong script first. What should she check?",
+        "Options":  [
+                        "A) The order of blocks in the script and which event triggers it",
+                        "B) The colour of the sprite",
+                        "C) The backdrop image",
+                        "D) The sound file used"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Debugging",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Debugging involves checking which event starts the script and whether the blocks are in the correct order."
+    },
+    {
+        "QuestionText":  "Which combination creates a simple quiz in Scratch?",
+        "Options":  [
+                        "A) Ask [ ] and wait + If answer = [ ] then say \u0027Correct\u0027",
+                        "B) Move + Sound + Backdrop",
+                        "C) Forever + Glide + Costume",
+                        "D) Broadcast + Repeat + Size"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sensing Blocks",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The \u0027Ask and wait\u0027 block captures user input; the \u0027If answer =\u0027 block checks it to give feedback."
+    },
+    {
+        "QuestionText":  "A Scratch project has 3 sprites each with their own scripts. When the green flag is clicked, all scripts start at the same time. What is this called?",
+        "Options":  [
+                        "A) Parallel execution",
+                        "B) Sequential execution",
+                        "C) Looping",
+                        "D) Debugging"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scripts",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "When multiple scripts start from the same event, they run simultaneously — this is called parallel execution."
+    },
+    {
+        "QuestionText":  "Amit wants to make a game where the sprite bounces faster each time it touches the wall. Which approach is BEST?",
+        "Options":  [
+                        "A) Use a variable for speed and increase it each time \u0027If on edge, bounce\u0027 triggers",
+                        "B) Use only the move block",
+                        "C) Use only the wait block",
+                        "D) Use a forever loop with no condition"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Variables",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A speed variable that increments each bounce gives increasing speed, requiring variables, sensing, and control blocks together."
+    },
+    {
+        "QuestionText":  "What is the difference between \u0027Stop all\u0027 and \u0027Stop this script\u0027 in Scratch?",
+        "Options":  [
+                        "A) Stop all halts every script; Stop this script only stops the current one",
+                        "B) They do the same thing",
+                        "C) Stop this script halts all sprites",
+                        "D) Stop all only stops sounds"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Control Blocks",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Stop all\u0027 ends every running script in the project; \u0027Stop this script\u0027 only ends the script it is in."
+    },
+    {
+        "QuestionText":  "Riya wants a sprite to follow the mouse pointer. Which block achieves this inside a Forever loop?",
+        "Options":  [
+                        "A) Go to mouse-pointer",
+                        "B) Move 10 steps",
+                        "C) Glide 1 secs to x:0 y:0",
+                        "D) Turn 90 degrees"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Motion Blocks",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Inside a Forever loop, \u0027Go to mouse-pointer\u0027 continuously moves the sprite to wherever the mouse is."
+    },
+    {
+        "QuestionText":  "Which Scratch feature allows you to share your project with others online?",
+        "Options":  [
+                        "A) Clicking \u0027Share\u0027 on the Scratch website",
+                        "B) Pressing the green flag",
+                        "C) Using the broadcast block",
+                        "D) Changing the backdrop"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Scratch Basics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "On the Scratch website, clicking the Share button makes your project publicly visible to others in the community."
+    },
+    {
+        "QuestionText":  "What type of blocks are used to add sound effects in Scratch?",
+        "Options":  [
+                        "A) Sound blocks",
+                        "B) Motion blocks",
+                        "C) Looks blocks",
+                        "D) Sensing blocks"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Introduction to Scratch",
+        "SubTopic":  "Sound Blocks",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Sound blocks (in pink/magenta) are used to play sounds, music, and sound effects in Scratch projects."
+    }
+]

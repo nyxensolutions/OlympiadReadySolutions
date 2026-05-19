@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is a database?",
+    "Options": [
+      "A) A type of computer program",
+      "B) An organised collection of structured data stored electronically for easy access, management, and updating",
+      "C) A backup copy of computer files",
+      "D) A type of network storage device"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "A database is an organised collection of related data stored systematically. Examples: school student records (name, roll number, marks), hospital patient records, bank account data, e-commerce product catalogues. Benefits: efficient storage, quick retrieval, data sharing, reduced redundancy, data integrity. Managed by DBMS (Database Management System). Types: Relational (tables \u2014 MySQL, Oracle), NoSQL (documents, key-value \u2014 MongoDB, Redis), Hierarchical, Network databases."
+  },
+  {
+    "QuestionText": "What is a DBMS?",
+    "Options": [
+      "A) Digital Backup Management System",
+      "B) Database Management System \u2014 software that creates, manages, and provides controlled access to databases",
+      "C) Data Byte Messaging System",
+      "D) Dynamic Binary Memory Storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "DBMS (Database Management System): software layer between users/applications and the actual database. Functions: data definition (create tables/structure), data manipulation (insert, update, delete, query), data control (security, access permissions), transaction management (ACID properties), backup and recovery. Examples: MySQL, Oracle, Microsoft SQL Server, PostgreSQL (relational DBMS); MongoDB, Cassandra (NoSQL DBMS); SQLite (lightweight, embedded). Every app from WhatsApp to banking uses a DBMS behind the scenes."
+  },
+  {
+    "QuestionText": "What is a 'table' in a relational database?",
+    "Options": [
+      "A) A list of all database files",
+      "B) A structured data organisation with rows (records) and columns (fields/attributes)",
+      "C) A visual chart of database relationships",
+      "D) A backup copy of database contents"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Relational Databases",
+    "Difficulty": "Foundation",
+    "Explanation": "A relational database table organises data in a grid: Rows (records/tuples): each row represents one entity (one student, one product, one transaction). Columns (fields/attributes): each column represents one characteristic (Name, Age, Marks). Example Students table: | RollNo | Name | Age | Marks | | 1 | Priya | 14 | 92 | | 2 | Rahul | 13 | 85 |. A database typically has multiple related tables. Tables are similar to Excel spreadsheets but with strict rules and relationships."
+  },
+  {
+    "QuestionText": "What is a primary key in a database?",
+    "Options": [
+      "A) The most important piece of information in a table",
+      "B) A column (or combination) that uniquely identifies each row \u2014 no two rows can have the same primary key value",
+      "C) The first column in every database table",
+      "D) A password used to access the database"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Relational Databases",
+    "Difficulty": "Foundation",
+    "Explanation": "Primary key: unique identifier for each record. Properties: unique (no two rows have same value), not null (must have a value), unchanging (shouldn't change over time). Examples: Student Roll Number, Aadhaar number, ISBN (book), Vehicle registration number, PAN card number. Importance: allows precise identification and retrieval of specific records, forms basis for relationships between tables. Auto-increment: DBMS automatically generates sequential IDs (1, 2, 3...) for primary keys."
+  },
+  {
+    "QuestionText": "What is SQL?",
+    "Options": [
+      "A) Structured Query Language \u2014 the standard language for managing relational databases",
+      "B) System Quality Level \u2014 a database certification",
+      "C) Sequential Query Logic \u2014 a programming concept",
+      "D) Standard Query Library \u2014 a database toolkit"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "SQL (Structured Query Language): standard language for interacting with relational databases. Key commands: SELECT (retrieve data), INSERT (add data), UPDATE (modify data), DELETE (remove data), CREATE TABLE (create new table), DROP TABLE (delete table). Example: 'SELECT Name, Marks FROM Students WHERE Marks > 80 ORDER BY Marks DESC' \u2014 retrieves names and marks of students scoring above 80, sorted by marks. SQL is used by MySQL, Oracle, SQL Server, PostgreSQL, SQLite. Essential skill for developers and data analysts."
+  },
+  {
+    "QuestionText": "What does SELECT * FROM Students; do in SQL?",
+    "Options": [
+      "A) Selects the best students from the database",
+      "B) Retrieves all columns and all rows from the Students table",
+      "C) Selects only the first student record",
+      "D) Creates a new Students table"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "SELECT * FROM Students: * (asterisk) means ALL columns. FROM specifies the table. Result: every row and every column from the Students table. Better practice: name specific columns instead of * \u2014 'SELECT Name, RollNo FROM Students' \u2014 faster (less data transferred), clearer intent. WHERE clause filters rows: 'SELECT * FROM Students WHERE Class=8'. ORDER BY sorts: 'ORDER BY Name ASC'. LIMIT restricts rows returned: 'LIMIT 10' (first 10 records)."
+  },
+  {
+    "QuestionText": "What is a 'field' in a database?",
+    "Options": [
+      "A) An area of land used for data centres",
+      "B) A single column in a database table representing one attribute/characteristic of all records",
+      "C) A single record (row) in a database",
+      "D) The name of a database"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Database terminology: Table: the entire dataset grid. Record (row/tuple): one complete entry \u2014 one student's complete data. Field (column/attribute): one characteristic across all records \u2014 all students' marks. Cell: intersection of a row and column \u2014 one student's specific mark. Example Students table: Fields = RollNo, Name, Age, Marks, Class. Records = data for each individual student. Each field has a data type (integer, varchar/text, date, boolean) defining what values it accepts."
+  },
+  {
+    "QuestionText": "What is data redundancy and why is it a problem?",
+    "Options": [
+      "A) Having too many database tables",
+      "B) Storing the same data in multiple places unnecessarily \u2014 wastes storage, causes inconsistency if one copy is updated and others aren't",
+      "C) Having a backup copy of important data",
+      "D) Using too many data types in one table"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Data redundancy: same data stored multiple times in different places. Problems: wasted storage space, update anomaly (update one copy, forget others \u2192 inconsistent data \u2014 student address updated in one table but not another), insert anomaly (must enter same data repeatedly), delete anomaly (deleting a record may accidentally delete related data). Solution: database normalisation \u2014 organise tables to eliminate redundancy, using relationships and foreign keys instead of duplicate data."
+  },
+  {
+    "QuestionText": "What is a 'foreign key' in a relational database?",
+    "Options": [
+      "A) A key used by external users to access the database",
+      "B) A column that references the primary key of another table, establishing a relationship between tables",
+      "C) A backup key if the primary key fails",
+      "D) A key for accessing international databases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Relational Databases",
+    "Difficulty": "Advanced",
+    "Explanation": "Foreign key: links two tables. Example: Students table (StudentID primary key), Marks table has StudentID as a foreign key \u2014 links each mark record to the correct student. Enforces referential integrity: can't add a mark for a non-existent StudentID, can't delete a student who has marks records. Enables JOINs: combining data from multiple related tables. Relational databases derive their power from relationships between tables via primary key \u2192 foreign key links."
+  },
+  {
+    "QuestionText": "What is the WHERE clause in SQL?",
+    "Options": [
+      "A) Specifies which table to query",
+      "B) Filters rows, returning only records that meet the specified condition",
+      "C) Specifies the order of results",
+      "D) Defines which columns to display"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "WHERE clause filters records: 'SELECT * FROM Students WHERE Class = 8' \u2014 only Class 8 students. Multiple conditions: AND ('WHERE Class=8 AND Marks>75'), OR ('WHERE Class=8 OR Class=9'), NOT ('WHERE NOT City=\"Delhi\"'). Comparison operators: =, !=, >, <, >=, <=. Pattern matching: 'WHERE Name LIKE \"Pr%\"' (names starting with 'Pr'). Range: 'WHERE Marks BETWEEN 60 AND 80'. List: 'WHERE City IN (\"Delhi\",\"Mumbai\",\"Chennai\")'. WHERE is fundamental to database queries \u2014 rarely want ALL records."
+  },
+  {
+    "QuestionText": "What is normalisation in databases?",
+    "Options": [
+      "A) Converting database to binary format",
+      "B) Organising database tables to reduce redundancy and improve data integrity by applying normal form rules",
+      "C) Normalising data values to a 0-1 scale",
+      "D) Making all tables the same size"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Relational Databases",
+    "Difficulty": "Advanced",
+    "Explanation": "Normalisation: structuring database to eliminate redundancy. Normal forms: 1NF (First Normal Form): each column atomic (no multiple values in one cell), each row unique. 2NF: 1NF + every non-key attribute fully dependent on entire primary key. 3NF: 2NF + no transitive dependencies (non-key attribute depending on another non-key). Example: instead of storing City and State (redundant \u2014 state depends on city), create a Cities table and reference it. Properly normalised databases: less storage, easier updates, consistent data."
+  },
+  {
+    "QuestionText": "What is a JOIN operation in SQL?",
+    "Options": [
+      "A) Merging two databases into one",
+      "B) Combining rows from two or more tables based on a related column (key relationship)",
+      "C) Adding new records to a table",
+      "D) Connecting to a database server"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "SQL JOIN: combines data from multiple related tables. Types: INNER JOIN: returns only matching rows from both tables. LEFT JOIN: all rows from left table + matching from right (nulls where no match). RIGHT JOIN: opposite. FULL OUTER JOIN: all rows from both. Example: 'SELECT Students.Name, Marks.Score FROM Students INNER JOIN Marks ON Students.StudentID = Marks.StudentID' \u2014 gets student names with their scores. Joins enable the relational model's power \u2014 store data efficiently in separate tables, combine when needed."
+  },
+  {
+    "QuestionText": "What are the ACID properties of database transactions?",
+    "Options": [
+      "A) Access, Control, Integrity, Distribution",
+      "B) Atomicity, Consistency, Isolation, Durability \u2014 ensuring reliable database transactions",
+      "C) Authentication, Confidentiality, Integrity, Data-security",
+      "D) Automated, Concurrent, Independent, Distributed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "ACID \u2014 essential for reliable transactions: Atomicity: transaction is all-or-nothing (bank transfer: both debit AND credit must succeed, or neither). Consistency: transaction brings database from one valid state to another (balance can't go negative if rule exists). Isolation: concurrent transactions don't interfere with each other. Durability: committed transactions persist even after system crashes (data written to disk). Without ACID: imagine bank transfer where money debited but crash before credit \u2014 money vanishes. Critical for banking, healthcare, e-commerce."
+  },
+  {
+    "QuestionText": "What is a NoSQL database?",
+    "Options": [
+      "A) A database that doesn't use any structured query language",
+      "B) Non-relational databases designed for flexible schemas, horizontal scaling, and specific data models (documents, key-value, graphs)",
+      "C) A database that's not as good as SQL databases",
+      "D) An older type of database predating SQL"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "NoSQL (Not Only SQL): alternatives to relational databases. Types: Document stores (MongoDB \u2014 store JSON-like documents, flexible schema), Key-Value stores (Redis, DynamoDB \u2014 fast simple lookups), Column-family (Cassandra \u2014 for time-series data, IoT), Graph databases (Neo4j \u2014 relationships between entities). When to use NoSQL: massive scale (billions of records), flexible/changing data structures, specific access patterns. When SQL wins: complex relationships, strict consistency, ad-hoc queries. Major services: WhatsApp (Cassandra), Twitter/Netflix (multiple NoSQL), Google Maps (Graph)."
+  },
+  {
+    "QuestionText": "What is data backup and recovery in databases?",
+    "Options": [
+      "A) Copying the database to an external server for performance",
+      "B) Creating copies of database data to restore in case of corruption, hardware failure, or accidental deletion",
+      "C) Removing old records to improve database performance",
+      "D) Compressing database files to save storage space"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Database backup: copying data to secure secondary location. Types: Full backup (complete copy \u2014 safest, largest), Incremental backup (only changes since last backup \u2014 smaller, faster), Differential backup (changes since last full backup). Recovery: restoring from backup after data loss. DBMS features: point-in-time recovery (restore to any past moment using transaction logs), automatic backups, geo-redundant backup (different locations protect against disasters). India's digital banking and government databases maintain multiple backup copies in different states to ensure service continuity."
+  },
+  {
+    "QuestionText": "What is the difference between DELETE and DROP in SQL?",
+    "Options": [
+      "A) They are identical commands",
+      "B) DELETE removes specific rows (data); DROP removes entire table structure (and data)",
+      "C) DELETE removes tables; DROP removes databases",
+      "D) DELETE is reversible; DROP removes the database completely"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "SQL data removal commands: DELETE FROM table WHERE condition: removes specific rows meeting condition. Table structure remains. Can be rolled back in a transaction. Example: 'DELETE FROM Students WHERE Class=7' (removes all Class 7 students). TRUNCATE: removes all rows (like DELETE without WHERE) but faster \u2014 cannot easily rollback. DROP TABLE tablename: destroys the entire table including its structure, all data, all indexes. Extremely destructive \u2014 table must be recreated. DROP DATABASE: removes entire database. Always backup before using DROP."
+  },
+  {
+    "QuestionText": "What is an index in a database?",
+    "Options": [
+      "A) A list of all tables in a database",
+      "B) A data structure that improves the speed of data retrieval operations on a table",
+      "C) The primary key of a table",
+      "D) A numbered catalogue of database records"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Database index: like a book index \u2014 allows finding data without scanning every row. Without index: 'SELECT * FROM Students WHERE Name=\"Priya\"' scans ALL rows (full table scan \u2014 slow for millions of records). With index on Name: DBMS goes directly to matching rows \u2014 much faster. Types: B-tree index (default, good for range queries), Hash index (exact match only), Composite index (multiple columns). Trade-off: indexes speed reads but slow writes (index must be updated with every insert/update/delete). Create index on frequently queried columns (foreign keys, search fields)."
+  },
+  {
+    "QuestionText": "What is cloud storage and how does it differ from local storage?",
+    "Options": [
+      "A) Cloud storage is always faster than local storage",
+      "B) Cloud storage saves data on remote servers accessed via internet; local storage is on-device (HDD/SSD) \u2014 faster, no internet needed",
+      "C) They are identical except cloud storage costs more",
+      "D) Local storage is for personal files; cloud storage is for business only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "Storage comparison: Local (HDD/SSD/USB): fastest access (no internet delay), works offline, complete privacy, one-time cost, limited by device capacity, lost if device damaged. Cloud (Google Drive, OneDrive, iCloud, AWS S3): accessible from any device/location, automatic backup, easy sharing/collaboration, subscription cost, requires internet, privacy depends on provider. Hybrid approach: store active files locally (speed) + backup to cloud (safety). India's DigiLocker: government cloud storage for official documents (Aadhaar, driving licence, PAN) \u2014 part of Digital India initiative."
+  },
+  {
+    "QuestionText": "Assertion: A well-designed database should minimise data redundancy. Reason: Redundant data causes update anomalies where the same information exists inconsistently across multiple locations. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: minimising redundancy is a core database design principle (normalisation). Reason TRUE and correctly explains: if a student's address is stored in 5 different tables and the student moves, all 5 must be updated simultaneously. If even one is missed, queries on different tables return different (inconsistent) addresses. Maintaining consistent redundant data is error-prone and labour-intensive. Solution: store address in ONE place (Students table), other tables reference it via StudentID foreign key."
+  },
+  {
+    "QuestionText": "What is the INSERT statement in SQL used for?",
+    "Options": [
+      "A) Adding new tables to the database",
+      "B) Adding new rows (records) of data to a table",
+      "C) Inserting images into database records",
+      "D) Adding new columns to an existing table"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "SQL INSERT: 'INSERT INTO Students (RollNo, Name, Age, Marks) VALUES (101, \"Priya\", 14, 92)'. Adds a new row to the table. Can omit column names if providing values for ALL columns in order: 'INSERT INTO Students VALUES (102, \"Rahul\", 13, 85)'. Insert multiple rows: 'INSERT INTO Students VALUES (103, \"Asha\", 14, 78), (104, \"Dev\", 15, 91)'. Auto-increment primary key: don't include in INSERT \u2014 database assigns automatically. The four basic SQL operations: SELECT (Read), INSERT (Create), UPDATE (Update), DELETE (Delete) = CRUD operations."
+  },
+  {
+    "QuestionText": "What is the UPDATE statement in SQL?",
+    "Options": [
+      "A) Updates the database software version",
+      "B) Modifies existing data in one or more rows of a table",
+      "C) Creates an updated copy of the entire table",
+      "D) Refreshes the database connection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "SQL UPDATE: 'UPDATE Students SET Marks=95 WHERE RollNo=101' \u2014 changes Priya's marks to 95. CRITICAL: always use WHERE clause \u2014 'UPDATE Students SET Marks=95' (without WHERE) changes ALL rows to 95! Update multiple columns: 'UPDATE Students SET Marks=95, Class=9 WHERE RollNo=101'. Good practice: preview with SELECT before running UPDATE, test in transaction (can rollback if mistake), maintain audit log of changes for important data (banks track every account change)."
+  },
+  {
+    "QuestionText": "What is database security?",
+    "Options": [
+      "A) Physically locking server rooms",
+      "B) Measures protecting database from unauthorised access, modification, disclosure, or destruction",
+      "C) Making database backups only",
+      "D) Using strong passwords for database software"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Database security encompasses: Authentication (verifying who accesses the database \u2014 username/password, certificate), Authorisation (access control \u2014 users only see/modify data they're permitted to), Encryption (data encrypted at rest and in transit), Audit trails (logging all access and changes), SQL injection prevention (malicious code via input fields \u2014 use parameterised queries), Regular patching, Network security (firewall, private network). India's IT Act and upcoming PDPB (Personal Data Protection Bill) require organisations to protect databases containing personal data."
+  },
+  {
+    "QuestionText": "What is SQL injection?",
+    "Options": [
+      "A) A method to speed up SQL queries",
+      "B) A cyber attack inserting malicious SQL code via user input to manipulate or extract database data",
+      "C) Injecting new data into a database",
+      "D) A method for importing data from external files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "SQL injection: attacker enters malicious SQL in an input field. Example: login form asks for username \u2014 attacker types: 'admin' OR '1'='1' \u2014 poorly written query becomes: SELECT * FROM Users WHERE Username='admin' OR '1'='1' \u2014 always true, bypasses login! Can also extract, modify, or delete entire databases. Prevention: parameterised queries/prepared statements (never concatenate user input directly into SQL), input validation, principle of least privilege. One of the most common web vulnerabilities (OWASP Top 10). Prevention requires proper coding practices from developers."
+  },
+  {
+    "QuestionText": "What is the difference between HDD and SSD for data storage?",
+    "Options": [
+      "A) HDD uses electricity; SSD uses magnetism",
+      "B) HDD uses spinning magnetic platters (slower, cheaper per GB); SSD uses flash memory chips (faster, more expensive per GB, no moving parts)",
+      "C) SSD can store more data than HDD",
+      "D) HDD is for laptops; SSD is for desktop computers only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "HDD (Hard Disk Drive): magnetic platters spinning at 5400-7200 RPM, read/write heads move mechanically. Speed: 80-160 MB/s read. Advantages: cheaper per GB (\u20b92-4/GB), larger capacities (up to 20TB). Disadvantages: slow (mechanical), fragile (vulnerable to drops/shocks), noise, power-hungry. SSD (Solid State Drive): NAND flash memory chips, no moving parts. Speed: 500-7000 MB/s read (30-50\u00d7 faster). Advantages: fast, silent, shock-resistant, lighter. Disadvantages: more expensive (\u20b98-15/GB). Ideal: SSD for OS/programs (speed) + HDD for mass storage (cost)."
+  },
+  {
+    "QuestionText": "What is a data dictionary in database management?",
+    "Options": [
+      "A) A glossary of business terminology",
+      "B) A repository of metadata describing the database structure \u2014 tables, columns, data types, constraints, and relationships",
+      "C) A dictionary database containing word definitions",
+      "D) A translation tool for database queries in different languages"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Data dictionary (system catalogue): stores metadata \u2014 data ABOUT the data. Contains: table names and descriptions, column names, data types (VARCHAR(50), INT, DATE), constraints (NOT NULL, UNIQUE, primary/foreign keys), relationships between tables, user access permissions. Maintained automatically by DBMS. SHOW TABLES (MySQL) and DESCRIBE tablename commands query the data dictionary. Helps developers understand database structure, DBAs manage the database, and DBMS enforce integrity rules. Essential reference for anyone working with an existing database."
+  },
+  {
+    "QuestionText": "What does ORDER BY do in SQL?",
+    "Options": [
+      "A) Organises the table structure",
+      "B) Sorts the query result by specified column(s) in ascending or descending order",
+      "C) Orders the columns from left to right",
+      "D) Establishes the order in which tables are searched"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "ORDER BY sorts query results: 'SELECT * FROM Students ORDER BY Marks DESC' \u2014 sorts by marks, highest first. ASC (ascending, default): A-Z, 1-10. DESC (descending): Z-A, 10-1. Multiple columns: 'ORDER BY Class ASC, Marks DESC' \u2014 sort by class first, then by marks within each class. Without ORDER BY: results returned in arbitrary order (insertion order or internal DBMS order \u2014 not guaranteed). Always use ORDER BY when result sequence matters (top 10, ranked lists, chronological logs)."
+  },
+  {
+    "QuestionText": "What is RAID in storage systems?",
+    "Options": [
+      "A) Redundant Array of Independent Disks \u2014 combines multiple drives for performance and/or fault tolerance",
+      "B) Rapid Access to Internet Data",
+      "C) Random Access Information Device",
+      "D) Relational Array of Integrated Data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Storage",
+    "Difficulty": "Olympiad",
+    "Explanation": "RAID: storage technology combining multiple physical disks. RAID 0 (Striping): splits data across drives \u2014 faster read/write, no redundancy (one drive fails = all data lost). RAID 1 (Mirroring): duplicates data on two drives \u2014 if one fails, other continues \u2014 full redundancy, 50% usable capacity. RAID 5: striping + distributed parity \u2014 good balance of performance and fault tolerance, can survive one drive failure. Used in servers, NAS (Network Attached Storage), enterprise storage. Home users: RAID 1 for important data backup. Cloud storage providers use RAID + geo-redundancy for critical data."
+  },
+  {
+    "QuestionText": "What are aggregate functions in SQL?",
+    "Options": [
+      "A) Functions that combine data from multiple databases",
+      "B) Functions performing calculations on sets of rows \u2014 COUNT, SUM, AVG, MAX, MIN",
+      "C) Functions that aggregate SQL queries",
+      "D) Functions for combining string data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "SQL aggregate functions summarise multiple rows: COUNT(*): total number of rows. SUM(Marks): total of all marks. AVG(Marks): average marks. MAX(Marks): highest mark. MIN(Marks): lowest mark. Used with GROUP BY: 'SELECT Class, AVG(Marks) FROM Students GROUP BY Class' \u2014 average marks for each class. HAVING: filters groups (like WHERE but for aggregated data): 'HAVING AVG(Marks) > 70'. Essential for data analysis, reports, dashboards. These functions work across thousands/millions of rows instantly."
+  },
+  {
+    "QuestionText": "What is the GROUP BY clause in SQL used for?",
+    "Options": [
+      "A) Groups database tables together",
+      "B) Groups rows with the same values in specified column(s) so aggregate functions apply to each group separately",
+      "C) Groups the output into a specific number of rows",
+      "D) Groups related columns in the SELECT statement"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "GROUP BY: used with aggregate functions to calculate per-group statistics. Example: 'SELECT Class, COUNT(*), AVG(Marks) FROM Students GROUP BY Class' \u2014 shows number of students and average marks for each class. Without GROUP BY: aggregate functions return one value for the entire table. GROUP BY creates one row of results per unique group value. Order: SELECT \u2192 FROM \u2192 WHERE (filter before grouping) \u2192 GROUP BY \u2192 HAVING (filter after grouping) \u2192 ORDER BY \u2192 LIMIT."
+  },
+  {
+    "QuestionText": "What is CREATE TABLE in SQL?",
+    "Options": [
+      "A) Creates a new database",
+      "B) Defines a new table structure with specified columns and their data types in the database",
+      "C) Creates a copy of an existing table",
+      "D) Creates a temporary table for one query only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "CREATE TABLE defines a new table: CREATE TABLE Students (RollNo INT PRIMARY KEY, Name VARCHAR(50) NOT NULL, Age INT, Marks DECIMAL(5,2), Class INT DEFAULT 8); Defines: column names, data types (INT, VARCHAR, DATE, DECIMAL, BOOLEAN), constraints (PRIMARY KEY, NOT NULL, UNIQUE, DEFAULT, FOREIGN KEY, CHECK). Common data types: INT/INTEGER (whole numbers), VARCHAR(n) (variable text up to n characters), DATE (YYYY-MM-DD), DECIMAL(p,d) (decimal numbers), BOOLEAN (TRUE/FALSE). Once created, INSERT adds data; ALTER TABLE modifies structure."
+  },
+  {
+    "QuestionText": "What is a transaction in a database?",
+    "Options": [
+      "A) Any query run on the database",
+      "B) A sequence of database operations treated as a single unit that either all succeed or all fail",
+      "C) A financial record in a banking database",
+      "D) The transfer of data between two databases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Database transaction: a group of operations executed as one atomic unit. Example \u2014 bank transfer (debit \u20b91000 from Account A, credit \u20b91000 to Account B): both operations must succeed together or neither executes. SQL transaction control: BEGIN TRANSACTION \u2192 operations \u2192 COMMIT (save changes permanently) or ROLLBACK (undo all changes if error occurs). Without transactions: a crash between debit and credit could lose money permanently. ACID properties ensure transaction reliability. Every financial system, booking system, and inventory system relies on transactions."
+  },
+  {
+    "QuestionText": "What is a flat file database?",
+    "Options": [
+      "A) A database stored on a flat surface",
+      "B) A simple single-table database stored as a plain text file (like CSV) without relationships",
+      "C) A database with no indexes",
+      "D) A database that stores only numbers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Flat file database: simplest database form \u2014 data stored in a single file (CSV, TXT) as rows of plain text. No relationships between tables, no data types enforcement, no query language. Example: a CSV file of student names and marks. Advantages: simple, portable, human-readable. Disadvantages: redundancy (repeated data), limited query capability, slow for large data, no concurrent user access control. Relational databases solve these problems. Flat files are still used for data exchange between systems (CSV export/import) but not as primary database systems."
+  },
+  {
+    "QuestionText": "What does DDL stand for in SQL?",
+    "Options": [
+      "A) Data Definition Language \u2014 SQL commands that define database structure (CREATE, ALTER, DROP)",
+      "B) Dynamic Data Linking \u2014 a method to connect databases",
+      "C) Database Design Layout \u2014 the visual design of tables",
+      "D) Data Duplication Layer \u2014 backup mechanism"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "SQL command categories: DDL (Data Definition Language): defines structure \u2014 CREATE TABLE, ALTER TABLE (add/modify columns), DROP TABLE, CREATE INDEX. DML (Data Manipulation Language): manipulates data \u2014 SELECT, INSERT, UPDATE, DELETE. DCL (Data Control Language): controls access \u2014 GRANT (give permissions), REVOKE (remove permissions). TCL (Transaction Control Language): manages transactions \u2014 COMMIT, ROLLBACK, SAVEPOINT. Understanding these categories helps organise SQL knowledge and understand different aspects of database management."
+  },
+  {
+    "QuestionText": "What is a view in SQL?",
+    "Options": [
+      "A) A way to display a database's visual interface",
+      "B) A virtual table based on a SQL query \u2014 shows specific data without storing it separately",
+      "C) A backup snapshot of the database",
+      "D) A chart generated from database data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Olympiad",
+    "Explanation": "SQL View: a saved SELECT query treated as a virtual table. 'CREATE VIEW Class8Toppers AS SELECT Name, Marks FROM Students WHERE Class=8 AND Marks>=90'. Benefits: simplifies complex queries (save once, use as table), security (users query view, don't access underlying table directly), data abstraction (shows only relevant columns/rows). Views don't store data \u2014 they execute the underlying query when accessed. Materialised views: do store data (updated periodically) \u2014 faster but potentially stale. Used extensively in reporting and data access control."
+  },
+  {
+    "QuestionText": "What is a stored procedure in a database?",
+    "Options": [
+      "A) A procedure for storing physical database backups",
+      "B) Precompiled SQL code stored in the database and executed on demand \u2014 like a function for the database",
+      "C) A method of storing images in a database",
+      "D) A procedure automatically run when the database starts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Stored procedure: a named, precompiled set of SQL statements stored in the database and called by applications. Benefits: performance (precompiled, executes faster), security (applications call procedure, can't directly access tables), reusability (write once, call from many applications), maintenance (change procedure without changing application code), network efficiency (one call executes multiple statements). Example: a 'TransferFunds' stored procedure handles the entire bank transfer logic (validation, debit, credit, logging) atomically. Used extensively in enterprise databases (Oracle, SQL Server)."
+  },
+  {
+    "QuestionText": "What is the purpose of constraints in database design?",
+    "Options": [
+      "A) To limit the number of users who can access the database",
+      "B) Rules enforced on table columns to ensure data validity, integrity, and consistency",
+      "C) Performance limits set on database queries",
+      "D) Security restrictions on database administrators"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Database constraints enforce business rules at the database level: NOT NULL: column cannot be empty (Name cannot be null). UNIQUE: all values in column must be different (email address). PRIMARY KEY: unique + not null identifier. FOREIGN KEY: references primary key of another table (referential integrity). CHECK: custom rule ('CHECK (Age >= 5 AND Age <= 18)' \u2014 ensures valid student age). DEFAULT: default value if none provided ('DEFAULT 8' for class). Constraints prevent bad data entry \u2014 better to enforce at database than application level (applications can have bugs, multiple apps share one database)."
+  },
+  {
+    "QuestionText": "What is the COUNT function in SQL used for?",
+    "Options": [
+      "A) Counts the number of tables in a database",
+      "B) Counts rows \u2014 COUNT(*) counts all rows; COUNT(column) counts non-null values in that column",
+      "C) Counts only unique values",
+      "D) Counts the number of SQL queries executed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "COUNT function: COUNT(*): counts ALL rows (including nulls). COUNT(column): counts rows where column is NOT NULL. COUNT(DISTINCT column): counts unique non-null values. Examples: 'SELECT COUNT(*) FROM Students' \u2014 total students. 'SELECT COUNT(*) FROM Students WHERE Class=8' \u2014 Class 8 students (with WHERE). 'SELECT Class, COUNT(*) FROM Students GROUP BY Class' \u2014 students per class. Use cases: finding record totals, checking if data exists, statistics. SUM sums numeric values; COUNT counts rows."
+  },
+  {
+    "QuestionText": "What is data integrity in databases?",
+    "Options": [
+      "A) The speed at which data is accessed",
+      "B) Accuracy, consistency, and reliability of data throughout its lifecycle",
+      "C) The quantity of data stored in the database",
+      "D) Security measures protecting the database from hackers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Data integrity: ensuring data is accurate, consistent, and trustworthy. Types: Entity integrity (each row uniquely identifiable \u2014 primary key constraint). Referential integrity (foreign key references must exist \u2014 can't have marks for non-existent student). Domain integrity (values must be valid for column type/constraints \u2014 age can't be -5 or 'abc'). User-defined integrity (business rules \u2014 marks between 0-100). Maintained through: constraints, transactions, validation rules, access controls. Poor data integrity: wrong medical records, billing errors, wrong inventory counts \u2014 potentially catastrophic consequences."
+  },
+  {
+    "QuestionText": "What is the DISTINCT keyword in SQL?",
+    "Options": [
+      "A) Marks a column as the primary key",
+      "B) Returns only unique values, eliminating duplicate entries from the result",
+      "C) Distinguishes between tables with similar names",
+      "D) Marks important records for priority access"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "DISTINCT: 'SELECT DISTINCT City FROM Students' \u2014 returns each city only once even if many students are from the same city. Without DISTINCT: 'SELECT City FROM Students' \u2014 returns 'Delhi' once per Delhi student (many duplicates). Use cases: finding all unique values (distinct product categories, distinct cities), counting unique values ('SELECT COUNT(DISTINCT City) FROM Students' \u2014 how many different cities). DISTINCT is evaluated after WHERE but before ORDER BY and LIMIT. Performance note: DISTINCT requires sorting \u2014 can be slow on large tables without proper indexes."
+  },
+  {
+    "QuestionText": "What is the difference between a database and a spreadsheet?",
+    "Options": [
+      "A) Spreadsheets are more powerful than databases",
+      "B) Spreadsheets are simpler (one table, limited rows, formula-focused); databases handle multiple related tables, millions of records, concurrent users, complex queries",
+      "C) They are identical tools",
+      "D) Databases are only for financial data; spreadsheets are for all data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Spreadsheet (Excel, Google Sheets): single file, limited rows (~1M in Excel), suited for calculation/analysis, one user at a time, no referential integrity. Database (MySQL, Oracle): multiple related tables, millions/billions of records, multiple concurrent users, enforces data rules, complex queries via SQL, user access control, transaction support. Use spreadsheet for: personal finance, small datasets, quick analysis, charts. Use database for: web applications, enterprise systems, large datasets, multiple users, mission-critical data. Many businesses mistakenly use Excel where a database is needed \u2014 leading to data quality problems."
+  },
+  {
+    "QuestionText": "What is database indexing and what is the trade-off?",
+    "Options": [
+      "A) Numbering database rows \u2014 no trade-off",
+      "B) Creating data structures for fast lookups \u2014 trade-off: indexes speed reads but slow writes (insert/update/delete must maintain indexes)",
+      "C) Encrypting database content \u2014 trade-off is security vs speed",
+      "D) Compressing database files \u2014 trade-off is space vs speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Index trade-off: Read performance: with index on Name, finding 'Priya' in 10M records takes milliseconds (B-tree traversal) vs seconds (full scan). Write performance: every INSERT/UPDATE/DELETE must also update all relevant indexes \u2014 more indexes = slower writes. Storage: indexes consume additional disk space. Guidance: index columns frequently used in WHERE, JOIN, and ORDER BY. Don't index every column (especially on write-heavy tables). Monitor query performance with EXPLAIN/EXPLAIN ANALYZE. Database optimisation is a key skill for developers handling large-scale applications."
+  },
+  {
+    "QuestionText": "What is a data warehouse?",
+    "Options": [
+      "A) A physical building storing computer servers",
+      "B) A centralised repository storing large volumes of historical data from multiple sources for analysis and reporting",
+      "C) A database for storing product inventory",
+      "D) A cloud storage service for data backups"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Data warehouse: centralised system collecting data from multiple sources (sales systems, CRM, inventory, HR) into one place for analysis and business intelligence. Characteristics: Organised for analysis (not transactions), historical data (years of records), optimised for complex queries, ETL process (Extract, Transform, Load data from source systems). Tools: Amazon Redshift, Google BigQuery, Snowflake. Data mining: finding patterns in warehouse data. Business intelligence: generating insights from data for decisions. India's major banks maintain data warehouses analysing millions of transactions to detect fraud and personalise services."
+  },
+  {
+    "QuestionText": "Statement 1: SQL is only used for querying (reading) data from databases. Statement 2: SQL includes commands for defining structure (DDL), manipulating data (DML), and controlling access (DCL). Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 FALSE: SQL does far more than just querying. Statement 2 TRUE: SQL covers: DDL (CREATE, ALTER, DROP \u2014 structure), DML (SELECT, INSERT, UPDATE, DELETE \u2014 data), DCL (GRANT, REVOKE \u2014 access control), TCL (COMMIT, ROLLBACK \u2014 transactions). SELECT is the most commonly used command, but SQL is a complete database interaction language. Common misconception: 'SQL is just for queries.' Reality: SQL handles the entire lifecycle of data in relational databases from creation to deletion."
+  },
+  {
+    "QuestionText": "What is the purpose of the LIMIT clause in SQL?",
+    "Options": [
+      "A) Limits the number of users who can run the query",
+      "B) Restricts the number of rows returned in the query result",
+      "C) Limits the number of tables in a JOIN",
+      "D) Sets a maximum value for a column"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "LIMIT restricts result size: 'SELECT * FROM Students ORDER BY Marks DESC LIMIT 10' \u2014 top 10 students by marks. LIMIT n: returns first n rows. LIMIT n OFFSET m: skips first m rows then returns n rows (used for pagination \u2014 page 2 of results). Performance: even without ORDER BY, LIMIT stops scanning once enough rows found \u2014 faster for large tables. Use cases: top N lists, pagination (websites showing 20 results per page), preventing runaway queries returning millions of rows. MySQL/SQLite use LIMIT; SQL Server uses TOP n; Oracle uses ROWNUM."
+  },
+  {
+    "QuestionText": "What is an entity in database design?",
+    "Options": [
+      "A) A row of data in any table",
+      "B) A real-world object or concept about which data is stored in a database (e.g., Student, Teacher, Course)",
+      "C) A database constraint rule",
+      "D) A type of SQL query"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Relational Databases",
+    "Difficulty": "Foundation",
+    "Explanation": "Entity: any distinguishable real-world thing about which we store information. Examples: Student (entity) \u2192 attributes: RollNo, Name, Age, Marks. Teacher (entity) \u2192 attributes: TeacherID, Name, Subject. Course (entity) \u2192 attributes: CourseID, CourseName, Credits. Entity Relationship (ER) diagram: visual representation of entities and relationships between them \u2014 used in database design before writing SQL. Each entity typically becomes a table in the relational database. Attributes become columns; instances of the entity become rows."
+  },
+  {
+    "QuestionText": "What is the role of a Database Administrator (DBA)?",
+    "Options": [
+      "A) Writes application code that uses the database",
+      "B) Designs, implements, maintains, backs up, secures, and optimises databases",
+      "C) Sells database software licences",
+      "D) Uses the database for daily business operations"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "DBA (Database Administrator) responsibilities: Installation and configuration of DBMS, Schema design and implementation, User account management and access control, Performance monitoring and query optimisation, Backup and recovery planning and testing, Capacity planning (predicting storage/performance needs), Security auditing, Software updates and patching. High-demand career in India's IT sector \u2014 DBAs maintain the databases powering banks, healthcare systems, e-commerce platforms, and government systems. Certifications: Oracle DBA, MySQL DBA, Microsoft SQL Server DBA."
+  },
+  {
+    "QuestionText": "What is data mining?",
+    "Options": [
+      "A) Physically extracting minerals from the earth using computers",
+      "B) Discovering patterns, trends, and insights from large datasets using statistical and machine learning techniques",
+      "C) Copying data from one database to another",
+      "D) Archiving old data to secondary storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Database Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Data mining: extracting useful knowledge from large datasets. Techniques: Classification (predict category \u2014 will customer churn?), Clustering (find natural groups \u2014 customer segments), Association rules (items bought together \u2014 'customers who buy X also buy Y'), Regression (predict numeric value \u2014 house price). Applications: fraud detection (unusual transaction patterns), recommendation engines (Netflix, Amazon), medical diagnosis (disease risk patterns), credit scoring, targeted marketing. Requires large data + algorithms + domain knowledge. India's Aadhaar database enables large-scale government data analysis for welfare targeting."
+  },
+  {
+    "QuestionText": "What is a relational database?",
+    "Options": [
+      "A) A database for storing family relationship records",
+      "B) A database that organises data into related tables connected by keys, eliminating redundancy",
+      "C) A database with emotional data about customer relationships",
+      "D) A database stored on related (networked) computers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Relational Databases",
+    "Difficulty": "Foundation",
+    "Explanation": "Relational database: data organised into multiple related tables. 'Relational' refers to mathematical set theory (Codd's relational model, 1970). Tables relate to each other via primary key \u2192 foreign key links. Example: Students table, Subjects table, Marks table \u2014 linked by StudentID and SubjectID. Query combining tables using SQL JOINs. Advantages: eliminates redundancy (student name stored once, referenced many times), maintains consistency, powerful queries across multiple tables. RDBMS examples: MySQL (open source), Oracle (enterprise), SQL Server (Microsoft), PostgreSQL, SQLite."
+  },
+  {
+    "QuestionText": "What is the AVG() function in SQL?",
+    "Options": [
+      "A) Returns the first value alphabetically",
+      "B) Calculates the arithmetic mean (average) of numeric values in a specified column",
+      "C) Finds the average row length in a table",
+      "D) Calculates the average number of queries per second"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "SQL",
+    "Difficulty": "Foundation",
+    "Explanation": "AVG(): calculates arithmetic mean. 'SELECT AVG(Marks) FROM Students' \u2014 average marks of all students. 'SELECT AVG(Marks) FROM Students WHERE Class=8' \u2014 average for Class 8 only. With GROUP BY: 'SELECT Class, AVG(Marks) FROM Students GROUP BY Class' \u2014 average per class. NULL values are ignored by AVG (not treated as 0). Related: SUM()/COUNT(*) = manual average calculation. ROUND(): round the result \u2014 'SELECT ROUND(AVG(Marks), 2)' rounds to 2 decimal places. AVG is one of the most common aggregate functions in business reporting."
+  },
+  {
+    "QuestionText": "What are the main types of relationships in database design?",
+    "Options": [
+      "A) Linear, Circular, and Binary",
+      "B) One-to-One, One-to-Many, and Many-to-Many",
+      "C) Direct, Indirect, and Recursive",
+      "D) Parent, Child, and Sibling"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Database and Storage",
+    "SubTopic": "Relational Databases",
+    "Difficulty": "Advanced",
+    "Explanation": "Database relationships: One-to-One (1:1): one student \u2192 one library card. Implemented by foreign key in either table. One-to-Many (1:N): most common \u2014 one teacher \u2192 many students; one order \u2192 many items. Foreign key in the 'many' table. Many-to-Many (M:N): students \u2194 courses (student takes many courses; course has many students). Implemented via junction/bridge table: StudentCourses (StudentID, CourseID, EnrollmentDate). ER diagrams represent these relationships visually. Correct relationship modelling is fundamental to good database design."
+  }
+]

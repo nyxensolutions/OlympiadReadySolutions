@@ -1,0 +1,402 @@
+[
+  {
+    "QuestionText": "What is the place value of 7 in the number 742?",
+    "Options": ["A) 7", "B) 70", "C) 700", "D) 74"],
+    "CorrectAnswer": "C",
+    "Topic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "The 7 is in the hundreds place, so its value is 700."
+  },
+  {
+    "QuestionText": "Which of the following is an even number?",
+    "Options": ["A) 13", "B) 25", "C) 48", "D) 99"],
+    "CorrectAnswer": "C",
+    "Topic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Numbers ending in 0, 2, 4, 6, or 8 are even."
+  },
+  {
+    "QuestionText": "Find the sum of the largest 2-digit number and the smallest 1-digit number.",
+    "Options": ["A) 100", "B) 109", "C) 99", "D) 10"],
+    "CorrectAnswer": "A",
+    "Topic": "Addition & Subtraction",
+    "Difficulty": "Olympiad",
+    "Explanation": "Largest 2-digit (99) + Smallest 1-digit (1) = 100."
+  },
+  {
+    "QuestionText": "What is 45 + 25?",
+    "Options": ["A) 60", "B) 70", "C) 65", "D) 80"],
+    "CorrectAnswer": "B",
+    "Topic": "Addition & Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "45 + 25 = 70."
+  },
+  {
+    "QuestionText": "Subtract 18 from 50.",
+    "Options": ["A) 32", "B) 42", "C) 38", "D) 48"],
+    "CorrectAnswer": "A",
+    "Topic": "Addition & Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "50 - 18 = 32."
+  },
+  {
+    "QuestionText": "5 + 5 + 5 + 5 + 5 is the same as:",
+    "Options": ["A) 5 x 4", "B) 5 x 5", "C) 5 + 5", "D) 25 + 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding 5 five times is 5 multiplied by 5."
+  },
+  {
+    "QuestionText": "If one cat has 4 legs, how many legs do 9 cats have?",
+    "Options": ["A) 13", "B) 32", "C) 36", "D) 40"],
+    "CorrectAnswer": "C",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Advanced",
+    "Explanation": "9 x 4 = 36."
+  },
+  {
+    "QuestionText": "Divide 20 by 4.",
+    "Options": ["A) 4", "B) 5", "C) 10", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Foundation",
+    "Explanation": "4 times 5 equals 20."
+  },
+  {
+    "QuestionText": "Which shape has 3 sides and 3 corners?",
+    "Options": ["A) Square", "B) Rectangle", "C) Triangle", "D) Circle"],
+    "CorrectAnswer": "C",
+    "Topic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangles are defined by their three sides."
+  },
+  {
+    "QuestionText": "A football is an example of which 3D shape?",
+    "Options": ["A) Circle", "B) Cylinder", "C) Sphere", "D) Cube"],
+    "CorrectAnswer": "C",
+    "Topic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "A round 3D object is a sphere."
+  },
+  {
+    "QuestionText": "How many centimeters are in 2 meters?",
+    "Options": ["A) 20 cm", "B) 200 cm", "C) 2000 cm", "D) 2 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "Difficulty": "Advanced",
+    "Explanation": "1 meter = 100 cm, so 2 meters = 200 cm."
+  },
+  {
+    "QuestionText": "Which is heavier: 500g or 1kg?",
+    "Options": ["A) 500g", "B) 1kg", "C) Both are equal", "D) 100g"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "Difficulty": "Advanced",
+    "Explanation": "1kg is 1000g, which is more than 500g."
+  },
+  {
+    "QuestionText": "What time is shown when the big hand is at 12 and the small hand is at 7?",
+    "Options": ["A) 12:07", "B) 7:12", "C) 7 o'clock", "D) 6:30"],
+    "CorrectAnswer": "C",
+    "Topic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Minute hand at 12 signifies the top of the hour."
+  },
+  {
+    "QuestionText": "Which month comes after June?",
+    "Options": ["A) May", "B) July", "C) August", "D) April"],
+    "CorrectAnswer": "B",
+    "Topic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "The order is May, June, July."
+  },
+  {
+    "QuestionText": "How many 10-rupee notes make 50 rupees?",
+    "Options": ["A) 10", "B) 5", "C) 2", "D) 50"],
+    "CorrectAnswer": "B",
+    "Topic": "Money",
+    "Difficulty": "Foundation",
+    "Explanation": "5 x 10 = 50."
+  },
+  {
+    "QuestionText": "If you buy a toy for ₹30 and give ₹50, how much change do you get?",
+    "Options": ["A) ₹20", "B) ₹30", "C) ₹10", "D) ₹80"],
+    "CorrectAnswer": "A",
+    "Topic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "50 - 30 = 20."
+  },
+  {
+    "QuestionText": "Identify the pattern: 10, 20, 30, 40, ___.",
+    "Options": ["A) 41", "B) 45", "C) 50", "D) 60"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "This is skip counting by 10."
+  },
+  {
+    "QuestionText": "If 1 ⭐️ = 2 points, how many points are ⭐️⭐️⭐️?",
+    "Options": ["A) 3", "B) 5", "C) 6", "D) 2"],
+    "CorrectAnswer": "C",
+    "Topic": "Data Handling",
+    "Difficulty": "Foundation",
+    "Explanation": "3 stars x 2 points each = 6 points."
+  },
+  {
+    "QuestionText": "Which is the smallest 3-digit number?",
+    "Options": ["A) 999", "B) 111", "C) 100", "D) 101"],
+    "CorrectAnswer": "C",
+    "Topic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "100 is the first number with three digits."
+  },
+  {
+    "QuestionText": "What is 10 more than 89?",
+    "Options": ["A) 90", "B) 99", "C) 100", "D) 79"],
+    "CorrectAnswer": "B",
+    "Topic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "89 + 10 = 99."
+  },
+  {
+    "QuestionText": "Find the missing number: 15 + ___ = 30.",
+    "Options": ["A) 10", "B) 15", "C) 20", "D) 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Addition & Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "30 - 15 = 15."
+  },
+  {
+    "QuestionText": "How many tens are in 60?",
+    "Options": ["A) 10", "B) 6", "C) 60", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "6 tens make sixty."
+  },
+  {
+    "QuestionText": "A square has how many equal sides?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "All four sides of a square are equal."
+  },
+  {
+    "QuestionText": "Which unit is used to measure milk?",
+    "Options": ["A) Meters", "B) Liters", "C) Kilograms", "D) Centimeters"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "Difficulty": "Foundation",
+    "Explanation": "Liters are used for liquids."
+  },
+  {
+    "QuestionText": "If today is Tuesday, what day was it yesterday?",
+    "Options": ["A) Monday", "B) Wednesday", "C) Sunday", "D) Friday"],
+    "CorrectAnswer": "A",
+    "Topic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Monday comes before Tuesday."
+  },
+  {
+    "QuestionText": "10 x 0 = ___",
+    "Options": ["A) 10", "B) 1", "C) 0", "D) 100"],
+    "CorrectAnswer": "C",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Any number times zero is zero."
+  },
+  {
+    "QuestionText": "What is the expanded form of 506?",
+    "Options": ["A) 50 + 6", "B) 500 + 60", "C) 500 + 6", "D) 5 + 0 + 6"],
+    "CorrectAnswer": "C",
+    "Topic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "5 hundreds, 0 tens, and 6 ones."
+  },
+  {
+    "QuestionText": "Which number comes between 399 and 401?",
+    "Options": ["A) 398", "B) 402", "C) 400", "D) 300"],
+    "CorrectAnswer": "C",
+    "Topic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "400 follows 399 and precedes 401."
+  },
+  {
+    "QuestionText": "7 x 5 = ___",
+    "Options": ["A) 30", "B) 35", "C) 40", "D) 25"],
+    "CorrectAnswer": "B",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Basic multiplication fact."
+  },
+  {
+    "QuestionText": "How many corners does a circle have?",
+    "Options": ["A) 0", "B) 1", "C) 4", "D) 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "Circles have no corners/vertices."
+  },
+  {
+    "QuestionText": "An ice cream cone is an example of which shape?",
+    "Options": ["A) Cylinder", "B) Sphere", "C) Cone", "D) Cube"],
+    "CorrectAnswer": "C",
+    "Topic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "The shape is a cone."
+  },
+  {
+    "QuestionText": "32 + 10 + 8 = ___",
+    "Options": ["A) 40", "B) 50", "C) 48", "D) 52"],
+    "CorrectAnswer": "B",
+    "Topic": "Addition & Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "32 + 8 = 40, 40 + 10 = 50."
+  },
+  {
+    "QuestionText": "If a box has 10 pencils, how many pencils are in 5 boxes?",
+    "Options": ["A) 15", "B) 50", "C) 40", "D) 60"],
+    "CorrectAnswer": "B",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Foundation",
+    "Explanation": "10 x 5 = 50."
+  },
+  {
+    "QuestionText": "What is the value of three ₹20 notes?",
+    "Options": ["A) ₹40", "B) ₹50", "C) ₹60", "D) ₹80"],
+    "CorrectAnswer": "C",
+    "Topic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "20 + 20 + 20 = 60."
+  },
+  {
+    "QuestionText": "The month with the fewest days is ________.",
+    "Options": ["A) January", "B) February", "C) June", "D) December"],
+    "CorrectAnswer": "B",
+    "Topic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "February has 28 or 29 days."
+  },
+  {
+    "QuestionText": "How many sides does a hexagon have?",
+    "Options": ["A) 5", "B) 6", "C) 8", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Geometry",
+    "Difficulty": "Advanced",
+    "Explanation": "Hexa means six."
+  },
+  {
+    "QuestionText": "If you share 18 candies among 2 children, how many does each get?",
+    "Options": ["A) 8", "B) 9", "C) 10", "D) 7"],
+    "CorrectAnswer": "B",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Advanced",
+    "Explanation": "18 divided by 2 is 9."
+  },
+  {
+    "QuestionText": "Complete: 5, 10, 15, 20, ___.",
+    "Options": ["A) 21", "B) 25", "C) 30", "D) 22"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip counting by 5s."
+  },
+  {
+    "QuestionText": "Which of these is the longest?",
+    "Options": ["A) 10 cm", "B) 10 meters", "C) 100 cm", "D) 1 meter"],
+    "CorrectAnswer": "B",
+    "Topic": "Measurement",
+    "Difficulty": "Olympiad",
+    "Explanation": "10 meters is 1000 cm, which is much longer than the others."
+  },
+  {
+    "QuestionText": "Find the value of 88 - 0.",
+    "Options": ["A) 0", "B) 8", "C) 88", "D) 80"],
+    "CorrectAnswer": "C",
+    "Topic": "Addition & Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtracting zero does not change the number."
+  },
+  {
+    "QuestionText": "How many days are in 3 weeks?",
+    "Options": ["A) 10", "B) 21", "C) 15", "D) 30"],
+    "CorrectAnswer": "B",
+    "Topic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "7 x 3 = 21."
+  },
+  {
+    "QuestionText": "Which sign makes the statement true? 5 ___ 5 = 25",
+    "Options": ["A) +", "B) -", "C) x", "D) ÷"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "5 times 5 is 25."
+  },
+  {
+    "QuestionText": "There are 5 birds on a tree. 2 fly away. 4 more come. How many are there now?",
+    "Options": ["A) 7", "B) 3", "C) 11", "D) 9"],
+    "CorrectAnswer": "A",
+    "Topic": "Addition & Subtraction",
+    "Difficulty": "Olympiad",
+    "Explanation": "5 - 2 + 4 = 7."
+  },
+  {
+    "QuestionText": "Which of these is a flat shape?",
+    "Options": ["A) Cube", "B) Sphere", "C) Rectangle", "D) Cylinder"],
+    "CorrectAnswer": "C",
+    "Topic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "Rectangle is 2D; the others are 3D."
+  },
+  {
+    "QuestionText": "Double of 15 is ________.",
+    "Options": ["A) 20", "B) 30", "C) 25", "D) 45"],
+    "CorrectAnswer": "B",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Advanced",
+    "Explanation": "15 + 15 or 15 x 2 = 30."
+  },
+  {
+    "QuestionText": "What time is 'Half past 10'?",
+    "Options": ["A) 10:00", "B) 10:30", "C) 11:30", "D) 9:30"],
+    "CorrectAnswer": "B",
+    "Topic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Half past means 30 minutes after the hour."
+  },
+  {
+    "QuestionText": "How many wheels are on 10 bicycles?",
+    "Options": ["A) 10", "B) 20", "C) 30", "D) 12"],
+    "CorrectAnswer": "B",
+    "Topic": "Multiplication & Division",
+    "Difficulty": "Foundation",
+    "Explanation": "10 x 2 = 20."
+  },
+  {
+    "QuestionText": "The value of a ₹100 note is the same as how many ₹20 notes?",
+    "Options": ["A) 2", "B) 5", "C) 10", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Money",
+    "Difficulty": "Olympiad",
+    "Explanation": "100 divided by 20 is 5."
+  },
+  {
+    "QuestionText": "Which is the ordinal number for 5?",
+    "Options": ["A) Five", "B) Fifth", "C) Fiveth", "D) 55"],
+    "CorrectAnswer": "B",
+    "Topic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "The position of 5 is called 'fifth'."
+  },
+  {
+    "QuestionText": "What comes next: 🍎, 🍌, 🍎, 🍌, ___?",
+    "Options": ["A) 🍌", "B) 🍎", "C) 🍊", "D) 🍇"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Simple alternating pattern."
+  }
+]

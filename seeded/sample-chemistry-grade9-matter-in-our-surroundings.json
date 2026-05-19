@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Matter is defined as anything that has:",
+    "Options": [
+      "A) Colour and smell",
+      "B) Mass and occupies space",
+      "C) Temperature only",
+      "D) Electrical charge"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Matter: anything that has mass and occupies space (has volume). The five states of matter include solid, liquid, gas, plasma, and Bose-Einstein condensate."
+  },
+  {
+    "QuestionText": "The process of change from solid to liquid is called:",
+    "Options": [
+      "A) Vaporisation",
+      "B) Condensation",
+      "C) Fusion (melting)",
+      "D) Sublimation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Melting/fusion: solid \u2192 liquid. Freezing: liquid \u2192 solid. Vaporisation: liquid \u2192 gas. Condensation: gas \u2192 liquid."
+  },
+  {
+    "QuestionText": "The temperature at which a solid melts is its:",
+    "Options": [
+      "A) Boiling point",
+      "B) Melting point",
+      "C) Condensation point",
+      "D) Sublimation point"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Melting point: temperature at which a solid changes to liquid at a given pressure. For water: 0\u00b0C. During melting, temperature remains constant."
+  },
+  {
+    "QuestionText": "The melting point of ice is:",
+    "Options": [
+      "A) 37\u00b0C",
+      "B) 100\u00b0C",
+      "C) 0\u00b0C",
+      "D) \u2212273\u00b0C"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Ice melts at 0\u00b0C (273 K) at standard pressure. Water boils at 100\u00b0C (373 K) at 1 atm."
+  },
+  {
+    "QuestionText": "Latent heat is:",
+    "Options": [
+      "A) Heat that raises temperature",
+      "B) Heat absorbed/released during phase change at constant temperature",
+      "C) Heat stored in fuel",
+      "D) Heat lost to surroundings"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Latent heat: energy absorbed or released during a phase change without temperature change. Latent heat of fusion (melting) and vaporisation."
+  },
+  {
+    "QuestionText": "Sublimation is the change of state from:",
+    "Options": [
+      "A) Liquid to gas",
+      "B) Gas to solid",
+      "C) Solid directly to gas (without liquid stage)",
+      "D) Solid to liquid"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Sublimation: solid \u2192 gas without passing through liquid state. Examples: dry ice (CO\u2082), camphor, naphthalene (moth balls), iodine."
+  },
+  {
+    "QuestionText": "Dry ice is:",
+    "Options": [
+      "A) Very cold ice",
+      "B) Solid CO\u2082",
+      "C) Frozen water",
+      "D) Liquid nitrogen"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Dry ice = solid CO\u2082. Sublimes at \u221278\u00b0C (doesn't melt to liquid under normal pressure). Used as refrigerant and in fog machines."
+  },
+  {
+    "QuestionText": "Diffusion is the process of:",
+    "Options": [
+      "A) Mixing of liquids only",
+      "B) Movement of particles from high concentration to low concentration",
+      "C) Separation of mixtures",
+      "D) Distillation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Diffusion: spontaneous mixing due to random movement of particles from high \u2192 low concentration. Gases diffuse fastest, solids slowest."
+  },
+  {
+    "QuestionText": "Gases diffuse faster than liquids because gas particles:",
+    "Options": [
+      "A) Have more mass",
+      "B) Have higher kinetic energy and move freely",
+      "C) Are lighter in colour",
+      "D) Have fixed positions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Gas particles have high kinetic energy, large spaces between them \u2192 diffuse rapidly. Liquid particles are closer and slower."
+  },
+  {
+    "QuestionText": "The property of liquids to exert pressure on the walls of container is due to:",
+    "Options": [
+      "A) Surface tension",
+      "B) Random motion and collision of particles",
+      "C) Viscosity",
+      "D) Evaporation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "Gas/liquid particles in random motion collide with container walls \u2192 exert pressure. Higher temperature \u2192 faster motion \u2192 greater pressure."
+  },
+  {
+    "QuestionText": "The boiling point of water at higher altitude (lower pressure) is:",
+    "Options": [
+      "A) Higher than 100\u00b0C",
+      "B) Same as 100\u00b0C",
+      "C) Lower than 100\u00b0C",
+      "D) Above 200\u00b0C"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Advanced",
+    "Explanation": "Boiling point decreases with decreasing atmospheric pressure. At high altitude (low pressure), water boils below 100\u00b0C \u2014 food takes longer to cook."
+  },
+  {
+    "QuestionText": "Evaporation is a:",
+    "Options": [
+      "A) Bulk phenomenon occurring throughout the liquid",
+      "B) Surface phenomenon occurring only at the surface",
+      "C) Change at high temperature only",
+      "D) Same as boiling"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Evaporation: surface phenomenon \u2014 molecules at surface with enough KE escape. Can occur at any temperature. Boiling: bulk phenomenon \u2014 throughout the liquid at boiling point."
+  },
+  {
+    "QuestionText": "Evaporation causes:",
+    "Options": [
+      "A) Heating of surroundings",
+      "B) Cooling of surroundings",
+      "C) No temperature change",
+      "D) Only in water"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Evaporation causes cooling. Evaporating molecules take away latent heat from surface \u2192 surface cools. E.g., sweating cools the body."
+  },
+  {
+    "QuestionText": "Solids have:",
+    "Options": [
+      "A) Definite shape and volume",
+      "B) Definite volume but not shape",
+      "C) Neither definite shape nor volume",
+      "D) Indefinite shape and volume"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Solids: definite shape and volume (rigid). Liquids: definite volume, variable shape. Gases: neither definite shape nor volume."
+  },
+  {
+    "QuestionText": "Liquids have:",
+    "Options": [
+      "A) Definite shape and volume",
+      "B) Definite volume, takes shape of container",
+      "C) Indefinite volume",
+      "D) Fixed arrangement of particles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Liquids: fixed volume (incompressible) but take the shape of their container. Particles can move freely but stay close together."
+  },
+  {
+    "QuestionText": "Gas particles are:",
+    "Options": [
+      "A) Closely packed in fixed positions",
+      "B) Freely moving with large spaces between them",
+      "C) Vibrating only in fixed positions",
+      "D) Stationary"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Gases: particles far apart, move freely in all directions, fill any container. Highly compressible. No definite shape or volume."
+  },
+  {
+    "QuestionText": "The interconversion of states of matter depends on:",
+    "Options": [
+      "A) Colour of substance",
+      "B) Temperature and pressure",
+      "C) Solubility",
+      "D) Density only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Changing temperature or pressure changes state of matter. E.g., increasing pressure liquefies gases; decreasing temperature solidifies liquids."
+  },
+  {
+    "QuestionText": "Tyndall effect is observed in:",
+    "Options": [
+      "A) True solutions",
+      "B) Colloids (scattering of light by colloidal particles)",
+      "C) All mixtures",
+      "D) Pure compounds"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Mixtures",
+    "Difficulty": "Advanced",
+    "Explanation": "Tyndall effect: scattering of a beam of light by colloidal particles. Makes light path visible (sunlight through dust). True solutions don't show Tyndall effect."
+  },
+  {
+    "QuestionText": "What is plasma?",
+    "Options": [
+      "A) A liquid metal",
+      "B) Ionised gas \u2014 4th state of matter",
+      "C) Very cold gas",
+      "D) Mixture of solid and gas"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "Plasma: super-heated ionised gas (electrons stripped from atoms). Found in stars, lightning, neon signs. Sometimes called 4th state of matter."
+  },
+  {
+    "QuestionText": "Which of the following undergoes sublimation?",
+    "Options": [
+      "A) Water",
+      "B) Salt",
+      "C) Iodine",
+      "D) Iron"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Iodine sublimes (solid \u2192 gas directly) when heated. Other examples: camphor, naphthalene (mothballs), dry ice (CO\u2082), ammonium chloride."
+  },
+  {
+    "QuestionText": "Brownian motion demonstrates:",
+    "Options": [
+      "A) Flow of heat",
+      "B) Random motion of particles in a medium",
+      "C) Gravity",
+      "D) Chemical reactions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "Brownian motion: random zigzag movement of small particles (pollen, dust) due to collision by invisible molecules of the medium. Proved existence of molecules."
+  },
+  {
+    "QuestionText": "The rate of evaporation increases when:",
+    "Options": [
+      "A) Humidity is high",
+      "B) Temperature decreases",
+      "C) Temperature increases",
+      "D) Pressure increases"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Evaporation increases with higher temperature (more molecules have enough KE), lower humidity, increased surface area, and wind."
+  },
+  {
+    "QuestionText": "A true solution is:",
+    "Options": [
+      "A) Homogeneous mixture where solute particles are < 1 nm",
+      "B) Any liquid mixture",
+      "C) Always coloured",
+      "D) A suspension"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Mixtures",
+    "Difficulty": "Advanced",
+    "Explanation": "True solution: homogeneous, transparent, particles < 1 nm (molecular/ionic size). Cannot be separated by filtration. Does not show Tyndall effect."
+  },
+  {
+    "QuestionText": "When perfume is sprayed in a room, it spreads due to:",
+    "Options": [
+      "A) Gravity",
+      "B) Diffusion",
+      "C) Convection",
+      "D) Radiation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Diffusion: perfume molecules spread from high concentration (spray) to low concentration (rest of room) due to random particle motion."
+  },
+  {
+    "QuestionText": "The latent heat of vaporisation is always __ latent heat of fusion for the same substance.",
+    "Options": [
+      "A) Less than",
+      "B) Equal to",
+      "C) Greater than",
+      "D) Zero"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Advanced",
+    "Explanation": "Latent heat of vaporisation (liquid \u2192 gas) > latent heat of fusion (solid \u2192 liquid). More energy needed to overcome stronger intermolecular forces during vaporisation."
+  },
+  {
+    "QuestionText": "Surface tension in water is responsible for:",
+    "Options": [
+      "A) Brownian motion",
+      "B) Tyndall effect",
+      "C) Insects walking on water surface",
+      "D) Sublimation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "Surface tension: cohesive forces between water molecules create a 'skin' at surface. Allows small, light objects (insects, needle) to rest on surface."
+  },
+  {
+    "QuestionText": "Compressed natural gas (CNG) is gas stored as:",
+    "Options": [
+      "A) Solid",
+      "B) Gas under high pressure (compressed)",
+      "C) Liquid",
+      "D) Plasma"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "CNG: gas compressed to very high pressure for storage in tanks. LPG (liquefied petroleum gas) is stored as liquid under pressure."
+  },
+  {
+    "QuestionText": "The boiling point of a liquid is the temperature at which:",
+    "Options": [
+      "A) Surface molecules evaporate",
+      "B) Vapor pressure = atmospheric pressure (bulk boiling occurs)",
+      "C) All molecules escape",
+      "D) Sublimation occurs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Advanced",
+    "Explanation": "Boiling point: temperature where vapour pressure = external pressure \u2192 bubbles form throughout the liquid \u2192 boiling."
+  },
+  {
+    "QuestionText": "Which state of matter has the highest intermolecular forces?",
+    "Options": [
+      "A) Gas",
+      "B) Liquid",
+      "C) Solid",
+      "D) Plasma"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Solids have strongest intermolecular forces \u2192 particles in fixed positions \u2192 rigid. In gases, forces are negligible."
+  },
+  {
+    "QuestionText": "Gases are easily compressible because:",
+    "Options": [
+      "A) Gas molecules are small",
+      "B) Large empty spaces between gas molecules",
+      "C) Gas molecules have high mass",
+      "D) Gas is colourless"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Gas molecules have large spaces between them \u2192 can be compressed to bring them closer. Solids and liquids already have molecules close together \u2192 nearly incompressible."
+  },
+  {
+    "QuestionText": "Change from gas to solid directly (without liquid) is:",
+    "Options": [
+      "A) Condensation",
+      "B) Freezing",
+      "C) Deposition",
+      "D) Sublimation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Advanced",
+    "Explanation": "Deposition: gas \u2192 solid directly. Opposite of sublimation. Example: frost forming on cold surfaces (water vapour \u2192 ice without liquid water stage)."
+  },
+  {
+    "QuestionText": "Kelvin temperature = Celsius temperature + ?",
+    "Options": [
+      "A) 100",
+      "B) 273",
+      "C) 373",
+      "D) 32"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Temperature Scales",
+    "Difficulty": "Foundation",
+    "Explanation": "K = \u00b0C + 273. Absolute zero = 0 K = -273\u00b0C. Kelvin scale: no negative values."
+  },
+  {
+    "QuestionText": "0\u00b0C in Kelvin is:",
+    "Options": [
+      "A) 0 K",
+      "B) 100 K",
+      "C) 273 K",
+      "D) 373 K"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Temperature Scales",
+    "Difficulty": "Foundation",
+    "Explanation": "K = \u00b0C + 273 = 0 + 273 = 273 K."
+  },
+  {
+    "QuestionText": "Mixture of oil and water is separated by:",
+    "Options": [
+      "A) Filtration",
+      "B) Distillation",
+      "C) Separating funnel",
+      "D) Evaporation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Separation Methods",
+    "Difficulty": "Foundation",
+    "Explanation": "Immiscible liquids (oil and water) of different densities are separated by a separating funnel \u2014 the denser liquid drains from the bottom."
+  },
+  {
+    "QuestionText": "Chromatography separates components based on:",
+    "Options": [
+      "A) Density",
+      "B) Boiling point",
+      "C) Differential adsorption on stationary phase",
+      "D) Solubility in any solvent"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Separation Methods",
+    "Difficulty": "Advanced",
+    "Explanation": "Chromatography: components adsorb differently on stationary phase (paper, silica) and are carried at different rates by moving phase (solvent) \u2192 separated."
+  },
+  {
+    "QuestionText": "Which method separates salt from seawater?",
+    "Options": [
+      "A) Filtration",
+      "B) Decantation",
+      "C) Evaporation/distillation",
+      "D) Sublimation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Separation Methods",
+    "Difficulty": "Foundation",
+    "Explanation": "Evaporation: water evaporates, leaving solid salt behind. Distillation: collect pure water by condensation. Both can be used."
+  },
+  {
+    "QuestionText": "Sand and water can be separated by:",
+    "Options": [
+      "A) Evaporation",
+      "B) Chromatography",
+      "C) Filtration",
+      "D) Sublimation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Separation Methods",
+    "Difficulty": "Foundation",
+    "Explanation": "Filtration separates insoluble solid (sand) from liquid (water). The filter paper allows water through but retains sand."
+  },
+  {
+    "QuestionText": "Viscosity of a liquid is its:",
+    "Options": [
+      "A) Surface tension",
+      "B) Resistance to flow",
+      "C) Evaporation rate",
+      "D) Density"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "Viscosity: internal friction between layers of a flowing liquid. High viscosity liquids (honey, glycerol) flow slowly. Low viscosity (water, alcohol) flow quickly."
+  },
+  {
+    "QuestionText": "The smell from food cooking spreads to another room due to:",
+    "Options": [
+      "A) Gravity",
+      "B) Diffusion of food molecules (gas particles)",
+      "C) Radiation",
+      "D) Conduction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Diffusion: food molecules (volatile organic compounds) spread by random motion from kitchen to other rooms."
+  },
+  {
+    "QuestionText": "During melting, the temperature:",
+    "Options": [
+      "A) Increases throughout",
+      "B) Decreases",
+      "C) Remains constant (latent heat used to break bonds)",
+      "D) First increases then decreases"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "During melting, absorbed heat goes into breaking intermolecular bonds (latent heat) rather than raising temperature. Temperature stays at melting point until all solid melts."
+  },
+  {
+    "QuestionText": "Distillation separates:",
+    "Options": [
+      "A) Insoluble solids from liquids",
+      "B) Miscible liquids with different boiling points",
+      "C) Immiscible liquids",
+      "D) Coloured components"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Separation Methods",
+    "Difficulty": "Foundation",
+    "Explanation": "Distillation: separates miscible liquids by heating (more volatile liquid vaporises first) and condensing separately. Used to separate alcohol-water mixtures."
+  },
+  {
+    "QuestionText": "Which property of gas makes it possible to fill a balloon?",
+    "Options": [
+      "A) Definite shape",
+      "B) High density",
+      "C) Ability to expand and fill any container",
+      "D) Fixed volume"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Gas expands to fill any container. This property allows gas to fill balloons, tyres, and containers of any shape and size."
+  },
+  {
+    "QuestionText": "During condensation, heat is:",
+    "Options": [
+      "A) Absorbed from surroundings",
+      "B) Released to surroundings",
+      "C) Not involved",
+      "D) Stored in the liquid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Condensation: gas \u2192 liquid. Gas molecules lose energy \u2192 release latent heat to surroundings. Reverse of evaporation (which absorbs heat)."
+  },
+  {
+    "QuestionText": "Intermolecular space is maximum in:",
+    "Options": [
+      "A) Solids",
+      "B) Liquids",
+      "C) Gases",
+      "D) Plasma"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "States of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "Gas molecules have large spaces between them (>>100\u00d7 molecular diameter). Liquids have small spaces. Solids have minimal spaces."
+  },
+  {
+    "QuestionText": "Crystallization is a process used to:",
+    "Options": [
+      "A) Separate miscible liquids",
+      "B) Obtain pure solid crystals from a solution",
+      "C) Separate immiscible liquids",
+      "D) Make colloids"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Separation Methods",
+    "Difficulty": "Advanced",
+    "Explanation": "Crystallization: super-saturated solution cooled \u2192 solute crystallises out as pure crystals. Used to purify salt, sugar, copper sulphate, alum."
+  },
+  {
+    "QuestionText": "The kinetic energy of particles in a substance __ with temperature.",
+    "Options": [
+      "A) Decreases",
+      "B) Remains constant",
+      "C) Increases",
+      "D) First decreases then increases"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Foundation",
+    "Explanation": "KE \u221d Temperature. As temperature increases, particles move faster \u2192 more KE. This is why heating can change states (overcome intermolecular forces)."
+  },
+  {
+    "QuestionText": "At absolute zero (0 K), particle motion:",
+    "Options": [
+      "A) Continues normally",
+      "B) Becomes maximum",
+      "C) Becomes minimum (essentially ceases)",
+      "D) Causes sublimation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Properties of Matter",
+    "Difficulty": "Advanced",
+    "Explanation": "Absolute zero = 0 K = \u2212273\u00b0C. Theoretically, all particle motion stops. In reality, quantum mechanical zero-point energy remains."
+  },
+  {
+    "QuestionText": "Why does a desert cooler cool better in hot dry weather than humid weather?",
+    "Options": [
+      "A) Dry air conducts heat better",
+      "B) Evaporation of water is faster in dry air (lower humidity) \u2192 more cooling",
+      "C) Dry air is heavier",
+      "D) Humid air has more oxygen"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Advanced",
+    "Explanation": "Evaporation rate \u221d (1/humidity). Low humidity \u2192 faster evaporation \u2192 more cooling. High humidity \u2192 slower evaporation \u2192 less effective cooling."
+  },
+  {
+    "QuestionText": "Which method is used to separate miscible liquids with close boiling points?",
+    "Options": [
+      "A) Simple distillation",
+      "B) Fractional distillation",
+      "C) Filtration",
+      "D) Crystallisation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Separation Methods",
+    "Difficulty": "Advanced",
+    "Explanation": "Fractional distillation: used for liquids with close boiling points (petroleum fractions, alcohol-water close boiling points). Uses a fractionating column for better separation."
+  },
+  {
+    "QuestionText": "Which of these is a physical change?",
+    "Options": [
+      "A) Burning of paper",
+      "B) Rusting of iron",
+      "C) Melting of wax",
+      "D) Digestion of food"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Matter in Our Surroundings",
+    "SubTopic": "Changes of State",
+    "Difficulty": "Foundation",
+    "Explanation": "Melting of wax is a physical change \u2014 no new substance is formed, just a change of state. Burning, rusting, and digestion involve chemical changes (new substances formed)."
+  }
+]

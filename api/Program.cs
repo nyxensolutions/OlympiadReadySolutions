@@ -23,7 +23,7 @@ builder.Services.AddHttpClient<ClaudeService>(c =>
     c.Timeout = TimeSpan.FromSeconds(120);
 });
 
-builder.Services.AddSingleton<PdfService>();
+builder.Services.AddScoped<PdfService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<SubscriptionService>();
 builder.Services.AddScoped<MasteryService>();
@@ -76,6 +76,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseStaticFiles();
 app.UseCors(CorsPolicy);
 app.UseAuthentication();
 app.UseAuthorization();

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "How many terms does 3x\u00b2\u22122y+7 have?",
+    "Options": [
+      "A) 3",
+      "B) 2",
+      "C) 4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Parts of expression",
+    "Difficulty": "Foundation",
+    "Explanation": "3x\u00b2, \u22122y, and 7 are three separate terms."
+  },
+  {
+    "QuestionText": "What is the coefficient of x in \u22129x?",
+    "Options": [
+      "A) \u22129",
+      "B) 9",
+      "C) x",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Coefficient",
+    "Difficulty": "Foundation",
+    "Explanation": "The coefficient is the numerical part: \u22129."
+  },
+  {
+    "QuestionText": "Which are like terms: 4x\u00b2, 3x, \u22122x\u00b2, 5y?",
+    "Options": [
+      "A) 4x\u00b2 and \u22122x\u00b2",
+      "B) 4x\u00b2 and 3x",
+      "C) 3x and 5y",
+      "D) \u22122x\u00b2 and 3x"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Like terms",
+    "Difficulty": "Foundation",
+    "Explanation": "Like terms share same variable and power: both are x\u00b2."
+  },
+  {
+    "QuestionText": "Simplify: 5x+3y\u22122x+y",
+    "Options": [
+      "A) 3x+4y",
+      "B) 3x\u22124y",
+      "C) 7x+4y",
+      "D) 3x+2y"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Simplification",
+    "Difficulty": "Foundation",
+    "Explanation": "(5\u22122)x+(3+1)y=3x+4y."
+  },
+  {
+    "QuestionText": "What is the degree of 4x\u00b3y\u00b2?",
+    "Options": [
+      "A) 5",
+      "B) 3",
+      "C) 2",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "Degree=sum of powers=3+2=5."
+  },
+  {
+    "QuestionText": "Add: (3a+2b)+(5a\u22124b)",
+    "Options": [
+      "A) 8a\u22122b",
+      "B) 8a+2b",
+      "C) \u22122a+6b",
+      "D) 2a+6b"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "(3+5)a+(2\u22124)b=8a\u22122b."
+  },
+  {
+    "QuestionText": "Subtract (4x\u22123y) from (7x+y)",
+    "Options": [
+      "A) 3x+4y",
+      "B) 3x\u22124y",
+      "C) 11x\u22122y",
+      "D) \u22123x+4y"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "7x+y\u22124x+3y=3x+4y."
+  },
+  {
+    "QuestionText": "Evaluate 3x\u00b2\u22122x+1 when x=2.",
+    "Options": [
+      "A) 9",
+      "B) 13",
+      "C) 5",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Evaluation",
+    "Difficulty": "Foundation",
+    "Explanation": "3(4)\u22122(2)+1=12\u22124+1=9."
+  },
+  {
+    "QuestionText": "What is a monomial?",
+    "Options": [
+      "A) Expression with exactly one term",
+      "B) Expression with 2 terms",
+      "C) Expression with 3 terms",
+      "D) Any algebraic expression"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Types of expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "Mono=one. e.g. 5x\u00b2y."
+  },
+  {
+    "QuestionText": "What is a binomial?",
+    "Options": [
+      "A) Expression with exactly two terms",
+      "B) Expression with one term",
+      "C) Expression with three terms",
+      "D) Expression with no variables"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Types of expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "Bi=two. e.g. x+2."
+  },
+  {
+    "QuestionText": "What is a trinomial?",
+    "Options": [
+      "A) Expression with exactly three terms",
+      "B) Two terms",
+      "C) One term",
+      "D) Four terms"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Types of expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "Tri=three. e.g. x\u00b2+2x+1."
+  },
+  {
+    "QuestionText": "Multiply: 3x \u00d7 4x\u00b2",
+    "Options": [
+      "A) 12x\u00b3",
+      "B) 12x\u00b2",
+      "C) 7x\u00b3",
+      "D) 12x"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Multiplication of monomials",
+    "Difficulty": "Advanced",
+    "Explanation": "3\u00d74=12; x\u00d7x\u00b2=x\u00b3. Result: 12x\u00b3."
+  },
+  {
+    "QuestionText": "Expand: 2x(3x\u22125)",
+    "Options": [
+      "A) 6x\u00b2\u221210x",
+      "B) 6x\u00b2+10x",
+      "C) 5x\u00b2\u221210x",
+      "D) 6x+10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Distributive multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "2x\u00d73x=6x\u00b2; 2x\u00d7(\u22125)=\u221210x."
+  },
+  {
+    "QuestionText": "Add: (x\u00b2+3x\u22122)+(2x\u00b2\u2212x+5)",
+    "Options": [
+      "A) 3x\u00b2+2x+3",
+      "B) 3x\u00b2\u22122x+3",
+      "C) 3x\u00b2+4x+7",
+      "D) x\u00b2+2x+3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Addition of polynomials",
+    "Difficulty": "Advanced",
+    "Explanation": "(1+2)x\u00b2+(3\u22121)x+(\u22122+5)=3x\u00b2+2x+3."
+  },
+  {
+    "QuestionText": "Subtract: (3a\u00b2\u22122a+1)\u2212(a\u00b2+3a\u22124)",
+    "Options": [
+      "A) 2a\u00b2\u22125a+5",
+      "B) 2a\u00b2+a\u22123",
+      "C) 4a\u00b2+a\u22123",
+      "D) 2a\u00b2\u22125a\u22123"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Subtraction of polynomials",
+    "Difficulty": "Advanced",
+    "Explanation": "(3\u22121)a\u00b2+(\u22122\u22123)a+(1+4)=2a\u00b2\u22125a+5."
+  },
+  {
+    "QuestionText": "Find 2xy+3yz when x=1,y=2,z=3.",
+    "Options": [
+      "A) 22",
+      "B) 12",
+      "C) 18",
+      "D) 30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Evaluation",
+    "Difficulty": "Advanced",
+    "Explanation": "2(1)(2)+3(2)(3)=4+18=22."
+  },
+  {
+    "QuestionText": "Simplify: (3m)\u00b2+(2n)\u00b2",
+    "Options": [
+      "A) 9m\u00b2+4n\u00b2",
+      "B) 5m\u00b2n\u00b2",
+      "C) 6m\u00b2+4n\u00b2",
+      "D) 9m+4n"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Simplification",
+    "Difficulty": "Advanced",
+    "Explanation": "(3m)\u00b2=9m\u00b2; (2n)\u00b2=4n\u00b2."
+  },
+  {
+    "QuestionText": "What is the degree of 4x\u00b3+2x\u00b2\u22127x+9?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "Highest power of x is 3."
+  },
+  {
+    "QuestionText": "Expand: (x+3)(x\u22124)",
+    "Options": [
+      "A) x\u00b2\u2212x\u221212",
+      "B) x\u00b2+x\u221212",
+      "C) x\u00b2\u221212",
+      "D) x\u00b2+7x\u221212"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Multiplication of binomials",
+    "Difficulty": "Advanced",
+    "Explanation": "x\u00b2\u22124x+3x\u221212=x\u00b2\u2212x\u221212."
+  },
+  {
+    "QuestionText": "P=3a+2, Q=a\u22125. Find P+Q.",
+    "Options": [
+      "A) 4a\u22123",
+      "B) 4a+3",
+      "C) 2a\u22123",
+      "D) 4a\u22127"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Addition of expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "(3a+2)+(a\u22125)=4a\u22123."
+  },
+  {
+    "QuestionText": "Constant term in 5x\u00b2\u22123x+7 is ___",
+    "Options": [
+      "A) 7",
+      "B) 5",
+      "C) \u22123",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Parts of expression",
+    "Difficulty": "Foundation",
+    "Explanation": "The constant term has no variable: 7."
+  },
+  {
+    "QuestionText": "Coefficient of x\u00b2 in 3x\u00b3+5x\u00b2\u22122x+1 is ___",
+    "Options": [
+      "A) 5",
+      "B) 3",
+      "C) \u22122",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Coefficient",
+    "Difficulty": "Foundation",
+    "Explanation": "The term 5x\u00b2 has coefficient 5."
+  },
+  {
+    "QuestionText": "Simplify: 4xy+7xy\u22123xy",
+    "Options": [
+      "A) 8xy",
+      "B) 14xy",
+      "C) 4xy",
+      "D) xy"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Like terms",
+    "Difficulty": "Foundation",
+    "Explanation": "(4+7\u22123)xy=8xy."
+  },
+  {
+    "QuestionText": "Which equals (2a+3b)\u00b2?",
+    "Options": [
+      "A) 4a\u00b2+12ab+9b\u00b2",
+      "B) 4a\u00b2+9b\u00b2",
+      "C) 4a\u00b2\u221212ab+9b\u00b2",
+      "D) 2a\u00b2+6ab+3b\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Special products",
+    "Difficulty": "Advanced",
+    "Explanation": "(2a)\u00b2+2(2a)(3b)+(3b)\u00b2=4a\u00b2+12ab+9b\u00b2."
+  },
+  {
+    "QuestionText": "A=2x+1, B=x\u22123. Find A\u00d7B.",
+    "Options": [
+      "A) 2x\u00b2\u22125x\u22123",
+      "B) 2x\u00b2+5x\u22123",
+      "C) 2x\u00b2\u22125x+3",
+      "D) 3x\u00b2\u22125x\u22123"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Multiplication of binomials",
+    "Difficulty": "Advanced",
+    "Explanation": "2x(x\u22123)+1(x\u22123)=2x\u00b2\u22126x+x\u22123=2x\u00b2\u22125x\u22123."
+  },
+  {
+    "QuestionText": "Factors of x\u00b2\u22129 are ___",
+    "Options": [
+      "A) (x+3)(x\u22123)",
+      "B) (x+3)\u00b2",
+      "C) (x\u22123)\u00b2",
+      "D) x(x\u22129)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Factorization",
+    "Difficulty": "Advanced",
+    "Explanation": "x\u00b2\u22129=(x+3)(x\u22123) (difference of squares)."
+  },
+  {
+    "QuestionText": "Evaluate a\u00b2\u2212b\u00b2 when a=5, b=3.",
+    "Options": [
+      "A) 16",
+      "B) 4",
+      "C) 34",
+      "D) 64"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Evaluation",
+    "Difficulty": "Foundation",
+    "Explanation": "25\u22129=16."
+  },
+  {
+    "QuestionText": "Simplify: x(x+2)+3(x+2)",
+    "Options": [
+      "A) (x+2)(x+3)",
+      "B) x\u00b2+5x+6",
+      "C) Both A and B",
+      "D) x\u00b2+2x+3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Factorization",
+    "Difficulty": "Advanced",
+    "Explanation": "x(x+2)+3(x+2)=(x+2)(x+3)=x\u00b2+5x+6."
+  },
+  {
+    "QuestionText": "Sum of all terms of x\u00b2+3x+2 when x=1 is ___",
+    "Options": [
+      "A) 6",
+      "B) 1",
+      "C) 5",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Evaluation",
+    "Difficulty": "Advanced",
+    "Explanation": "1+3+2=6."
+  },
+  {
+    "QuestionText": "Perimeter of rectangle: length=(3x+2), breadth=(x+4)",
+    "Options": [
+      "A) 8x+12",
+      "B) 4x+6",
+      "C) 3x\u00b2+14x+8",
+      "D) 6x+4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Real-life application",
+    "Difficulty": "Advanced",
+    "Explanation": "2(3x+2+x+4)=2(4x+6)=8x+12."
+  },
+  {
+    "QuestionText": "x=\u22121 in x\u00b3\u2212x\u00b2+x\u22121 gives ___",
+    "Options": [
+      "A) \u22124",
+      "B) 0",
+      "C) \u22122",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Evaluation",
+    "Difficulty": "Advanced",
+    "Explanation": "\u22121\u22121\u22121\u22121=\u22124."
+  },
+  {
+    "QuestionText": "Degree of a constant polynomial (e.g. 7) is ___",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) \u22121",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "Constant polynomial has degree 0."
+  },
+  {
+    "QuestionText": "Simplify: (a+b+c)+(a\u2212b\u2212c)",
+    "Options": [
+      "A) 2a",
+      "B) 2a+2c",
+      "C) 2b+2c",
+      "D) a+b+c"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "a+b+c+a\u2212b\u2212c=2a."
+  },
+  {
+    "QuestionText": "3x+7=22. What is x?",
+    "Options": [
+      "A) 5",
+      "B) 3",
+      "C) 7",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Simple equations",
+    "Difficulty": "Foundation",
+    "Explanation": "3x=15 \u2192 x=5."
+  },
+  {
+    "QuestionText": "F=E\u2212V+2. If E=12, V=8, find F.",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Real-life algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "F=12\u22128+2=6 (Euler's formula)."
+  },
+  {
+    "QuestionText": "(a+b)(a\u2212b) = ?",
+    "Options": [
+      "A) a\u00b2\u2212b\u00b2",
+      "B) a\u00b2+b\u00b2",
+      "C) a\u00b2\u22122ab+b\u00b2",
+      "D) a\u00b2+2ab+b\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Special products",
+    "Difficulty": "Foundation",
+    "Explanation": "Product of sum and difference=difference of squares."
+  },
+  {
+    "QuestionText": "Which is a quadratic polynomial?",
+    "Options": [
+      "A) 3x\u00b2+2x\u22121",
+      "B) 2x\u00b3+x",
+      "C) 4x+5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Types of polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "Degree 2 means highest power is x\u00b2."
+  },
+  {
+    "QuestionText": "(3x+2)\u00b2\u2212(3x\u22122)\u00b2 = ?",
+    "Options": [
+      "A) 24x",
+      "B) 9x\u00b2\u22124",
+      "C) 4",
+      "D) 12x\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Special products",
+    "Difficulty": "Olympiad",
+    "Explanation": "(a+b)\u00b2\u2212(a\u2212b)\u00b2=4ab=4(3x)(2)=24x."
+  },
+  {
+    "QuestionText": "Factor: 6x\u00b2+9x",
+    "Options": [
+      "A) 3x(2x+3)",
+      "B) 6x(x+9)",
+      "C) 3(2x\u00b2+3x)",
+      "D) x(6x+9)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Factorization",
+    "Difficulty": "Advanced",
+    "Explanation": "GCF=3x. 6x\u00b2+9x=3x(2x+3)."
+  },
+  {
+    "QuestionText": "x+y=7 and xy=12. Find x\u00b2+y\u00b2.",
+    "Options": [
+      "A) 25",
+      "B) 1",
+      "C) 49",
+      "D) 37"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Special identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "x\u00b2+y\u00b2=(x+y)\u00b2\u22122xy=49\u221224=25."
+  },
+  {
+    "QuestionText": "'Twice a number decreased by 5' in algebra is ___",
+    "Options": [
+      "A) 2n\u22125",
+      "B) 2n+5",
+      "C) 5\u22122n",
+      "D) n/2\u22125"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Translating to algebra",
+    "Difficulty": "Foundation",
+    "Explanation": "Twice n=2n; decreased by 5=\u22125. Expression: 2n\u22125."
+  },
+  {
+    "QuestionText": "Expand (x+2)\u00b3.",
+    "Options": [
+      "A) x\u00b3+6x\u00b2+12x+8",
+      "B) x\u00b3+3x\u00b2+3x+1",
+      "C) x\u00b3+8",
+      "D) x\u00b3+2x\u00b2+4x+8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Special products",
+    "Difficulty": "Olympiad",
+    "Explanation": "(a+b)\u00b3=a\u00b3+3a\u00b2b+3ab\u00b2+b\u00b3."
+  },
+  {
+    "QuestionText": "Add: (x\u00b3\u22123x+4)+(x\u00b2+5x\u22122)",
+    "Options": [
+      "A) x\u00b3+x\u00b2+2x+2",
+      "B) 2x\u00b3+2x+2",
+      "C) x\u00b3+x\u00b2+8x+2",
+      "D) x\u00b3+x\u00b2\u22122x+2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Addition of polynomials",
+    "Difficulty": "Advanced",
+    "Explanation": "x\u00b3+x\u00b2+(\u22123+5)x+(4\u22122)=x\u00b3+x\u00b2+2x+2."
+  },
+  {
+    "QuestionText": "Evaluate (p+q)\u00b2+(p\u2212q)\u00b2 for p=3,q=2.",
+    "Options": [
+      "A) 26",
+      "B) 50",
+      "C) 2",
+      "D) 25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Special products",
+    "Difficulty": "Advanced",
+    "Explanation": "2(p\u00b2+q\u00b2)=2(9+4)=26."
+  },
+  {
+    "QuestionText": "What is (a+b)\u00b2\u2212(a\u2212b)\u00b2 \u00f7 4?",
+    "Options": [
+      "A) ab",
+      "B) a+b",
+      "C) a\u00b2\u2212b\u00b2",
+      "D) 2ab"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Special products",
+    "Difficulty": "Olympiad",
+    "Explanation": "Difference=4ab; \u00f74=ab."
+  },
+  {
+    "QuestionText": "What is the value of the expression x\u00b2+5x\u22126 when x=1?",
+    "Options": [
+      "A) 0",
+      "B) \u22126",
+      "C) 5",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Evaluation",
+    "Difficulty": "Advanced",
+    "Explanation": "1+5\u22126=0."
+  },
+  {
+    "QuestionText": "Identify the polynomial: 3x^(1/2)+2",
+    "Options": [
+      "A) Not a polynomial",
+      "B) Monomial",
+      "C) Binomial",
+      "D) Quadratic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Types of expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "Polynomials must have whole number exponents. x^(1/2) is not a whole number power."
+  },
+  {
+    "QuestionText": "Area of a square with side (2x+3) is ___",
+    "Options": [
+      "A) 4x\u00b2+12x+9",
+      "B) 4x\u00b2+9",
+      "C) 8x+6",
+      "D) 4x\u00b2+6x+9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Real-life algebra",
+    "Difficulty": "Advanced",
+    "Explanation": "(2x+3)\u00b2=4x\u00b2+12x+9."
+  },
+  {
+    "QuestionText": "If p(x)=x\u00b2\u22125x+6, find p(2).",
+    "Options": [
+      "A) 0",
+      "B) 4",
+      "C) \u22124",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Evaluation",
+    "Difficulty": "Advanced",
+    "Explanation": "4\u221210+6=0."
+  },
+  {
+    "QuestionText": "'Sum of a number and its square' in algebra is ___",
+    "Options": [
+      "A) n+n\u00b2",
+      "B) n\u00d7n\u00b2",
+      "C) 2n",
+      "D) n\u00b2\u2212n"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions",
+    "SubTopic": "Translating to algebra",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of n and n\u00b2: n+n\u00b2."
+  }
+]

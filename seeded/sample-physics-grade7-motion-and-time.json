@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The distance covered per unit time is called",
+    "Options": [
+      "A) Speed",
+      "B) Velocity",
+      "C) Acceleration",
+      "D) Force"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed = Distance / Time. It tells how fast an object moves regardless of direction."
+  },
+  {
+    "QuestionText": "The SI unit of speed is",
+    "Options": [
+      "A) Metre per second (m/s)",
+      "B) Kilometre per hour (km/h)",
+      "C) Centimetre per second (cm/s)",
+      "D) Metre (m)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Units",
+    "Difficulty": "Foundation",
+    "Explanation": "The SI unit of speed is metre per second (m/s)."
+  },
+  {
+    "QuestionText": "A car travels 120 km in 2 hours. Its speed is",
+    "Options": [
+      "A) 60 km/h",
+      "B) 240 km/h",
+      "C) 30 km/h",
+      "D) 120 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed calculation",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed = Distance/Time = 120/2 = 60 km/h."
+  },
+  {
+    "QuestionText": "The device used to measure distance travelled by a vehicle is called",
+    "Options": [
+      "A) Odometer",
+      "B) Speedometer",
+      "C) Thermometer",
+      "D) Ammeter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Measurement devices",
+    "Difficulty": "Foundation",
+    "Explanation": "An odometer (also called trip meter) records the total distance travelled by a vehicle."
+  },
+  {
+    "QuestionText": "The device that measures the speed of a vehicle is called",
+    "Options": [
+      "A) Speedometer",
+      "B) Odometer",
+      "C) Barometer",
+      "D) Tachometer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Measurement devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A speedometer indicates the current speed of a vehicle."
+  },
+  {
+    "QuestionText": "The basic unit of time in SI system is",
+    "Options": [
+      "A) Second (s)",
+      "B) Minute (min)",
+      "C) Hour (h)",
+      "D) Millisecond (ms)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Units of time",
+    "Difficulty": "Foundation",
+    "Explanation": "The SI unit of time is the second (s)."
+  },
+  {
+    "QuestionText": "A body moving in a straight line with uniform speed has",
+    "Options": [
+      "A) Uniform motion",
+      "B) Non-uniform motion",
+      "C) Accelerated motion",
+      "D) Oscillatory motion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Types of motion",
+    "Difficulty": "Foundation",
+    "Explanation": "Uniform motion: equal distances in equal intervals of time along a straight line."
+  },
+  {
+    "QuestionText": "A body moving with changing speed has",
+    "Options": [
+      "A) Non-uniform motion",
+      "B) Uniform motion",
+      "C) No motion",
+      "D) Rotational motion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Types of motion",
+    "Difficulty": "Foundation",
+    "Explanation": "Non-uniform motion: unequal distances covered in equal time intervals; speed changes."
+  },
+  {
+    "QuestionText": "The time period of a simple pendulum depends mainly on",
+    "Options": [
+      "A) Length of the pendulum",
+      "B) Mass of the bob",
+      "C) Amplitude of swing",
+      "D) Material of the string"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Pendulum",
+    "Difficulty": "Foundation",
+    "Explanation": "The time period T = 2\u03c0\u221a(L/g) depends on the length L and gravity g, NOT on mass or amplitude (for small swings)."
+  },
+  {
+    "QuestionText": "One oscillation of a pendulum is",
+    "Options": [
+      "A) One complete to-and-fro swing",
+      "B) Half a swing",
+      "C) One swing forward",
+      "D) One swing back"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Pendulum",
+    "Difficulty": "Foundation",
+    "Explanation": "One oscillation = one complete to-and-fro motion (from one side to the other and back)."
+  },
+  {
+    "QuestionText": "The time taken for one complete oscillation is called",
+    "Options": [
+      "A) Time period",
+      "B) Frequency",
+      "C) Amplitude",
+      "D) Speed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Time period",
+    "Difficulty": "Foundation",
+    "Explanation": "Time period: the time for one complete oscillation of a pendulum."
+  },
+  {
+    "QuestionText": "Convert 72 km/h to m/s",
+    "Options": [
+      "A) 20 m/s",
+      "B) 72 m/s",
+      "C) 25.2 m/s",
+      "D) 4 m/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "To convert km/h to m/s: multiply by 5/18. 72 \u00d7 5/18 = 20 m/s."
+  },
+  {
+    "QuestionText": "Convert 15 m/s to km/h",
+    "Options": [
+      "A) 54 km/h",
+      "B) 15 km/h",
+      "C) 4.17 km/h",
+      "D) 150 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "To convert m/s to km/h: multiply by 18/5. 15 \u00d7 18/5 = 54 km/h."
+  },
+  {
+    "QuestionText": "A train travels 450 km in 5 hours. What is its average speed?",
+    "Options": [
+      "A) 90 km/h",
+      "B) 2250 km/h",
+      "C) 45 km/h",
+      "D) 100 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Average speed",
+    "Difficulty": "Foundation",
+    "Explanation": "Average speed = Total distance/Total time = 450/5 = 90 km/h."
+  },
+  {
+    "QuestionText": "A distance-time graph of uniform motion is a",
+    "Options": [
+      "A) Straight line",
+      "B) Curved line",
+      "C) Horizontal line",
+      "D) Vertical line"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Distance-time graph",
+    "Difficulty": "Foundation",
+    "Explanation": "Uniform motion produces a straight line (with positive slope) on a distance-time graph."
+  },
+  {
+    "QuestionText": "The slope of a distance-time graph represents",
+    "Options": [
+      "A) Speed",
+      "B) Distance",
+      "C) Time",
+      "D) Acceleration"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Distance-time graph",
+    "Difficulty": "Advanced",
+    "Explanation": "Slope = rise/run = distance/time = speed. Steeper slope means greater speed."
+  },
+  {
+    "QuestionText": "A horizontal line on a distance-time graph means the object is",
+    "Options": [
+      "A) Stationary (at rest)",
+      "B) Moving at uniform speed",
+      "C) Accelerating",
+      "D) Decelerating"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Distance-time graph",
+    "Difficulty": "Foundation",
+    "Explanation": "A horizontal line means distance is not changing with time: the object is stationary."
+  },
+  {
+    "QuestionText": "A steeper slope on a distance-time graph indicates",
+    "Options": [
+      "A) Greater speed",
+      "B) Lesser speed",
+      "C) Same speed",
+      "D) Zero speed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Distance-time graph",
+    "Difficulty": "Advanced",
+    "Explanation": "Steeper slope = greater rise (distance) per unit run (time) = greater speed."
+  },
+  {
+    "QuestionText": "The pendulum of a clock makes 60 oscillations in 30 seconds. Its time period is",
+    "Options": [
+      "A) 0.5 s",
+      "B) 2 s",
+      "C) 30 s",
+      "D) 60 s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Time period calculation",
+    "Difficulty": "Advanced",
+    "Explanation": "Time period = Total time / Number of oscillations = 30/60 = 0.5 s."
+  },
+  {
+    "QuestionText": "Sundial is one of the oldest devices to measure ___",
+    "Options": [
+      "A) Time",
+      "B) Distance",
+      "C) Speed",
+      "D) Temperature"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Measurement of time",
+    "Difficulty": "Foundation",
+    "Explanation": "Sundials use the shadow of a gnomon cast by the sun to indicate the time of day."
+  },
+  {
+    "QuestionText": "A stone is dropped from a cliff. Its speed ___",
+    "Options": [
+      "A) Increases with time",
+      "B) Remains constant",
+      "C) Decreases with time",
+      "D) Is zero throughout"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Non-uniform motion",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravity accelerates the falling stone: its speed increases over time (non-uniform motion)."
+  },
+  {
+    "QuestionText": "The distance between two stations is 120 km. A train stops for 0.5 h in between and takes total 2.5 h. Its actual running speed is",
+    "Options": [
+      "A) 60 km/h",
+      "B) 48 km/h",
+      "C) 240 km/h",
+      "D) 80 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed calculation",
+    "Difficulty": "Advanced",
+    "Explanation": "Running time = 2.5 - 0.5 = 2 h. Speed = 120/2 = 60 km/h."
+  },
+  {
+    "QuestionText": "Two towns A and B are 100 km apart. Car X takes 2 h and Car Y takes 4 h. Ratio of their speeds",
+    "Options": [
+      "A) 2:1",
+      "B) 1:2",
+      "C) 1:4",
+      "D) 4:1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed ratio",
+    "Difficulty": "Advanced",
+    "Explanation": "Speed X = 50 km/h, Speed Y = 25 km/h. Ratio = 50:25 = 2:1."
+  },
+  {
+    "QuestionText": "An athlete runs 400 m in 50 seconds. Speed in m/s",
+    "Options": [
+      "A) 8 m/s",
+      "B) 400 m/s",
+      "C) 50 m/s",
+      "D) 20 m/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed calculation",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed = 400/50 = 8 m/s."
+  },
+  {
+    "QuestionText": "Which motion does a child on a swing undergo?",
+    "Options": [
+      "A) Oscillatory (periodic) motion",
+      "B) Linear motion",
+      "C) Circular motion",
+      "D) Random motion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Types of motion",
+    "Difficulty": "Foundation",
+    "Explanation": "A swing moves back and forth periodically: oscillatory motion."
+  },
+  {
+    "QuestionText": "The motion of Earth around the Sun is",
+    "Options": [
+      "A) Periodic (circular/elliptical)",
+      "B) Random",
+      "C) Non-periodic",
+      "D) Translatory"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Types of motion",
+    "Difficulty": "Foundation",
+    "Explanation": "Earth's orbit around the Sun repeats in a fixed period (one year): periodic motion."
+  },
+  {
+    "QuestionText": "A second pendulum has a time period of",
+    "Options": [
+      "A) 2 seconds",
+      "B) 1 second",
+      "C) 60 seconds",
+      "D) 0.5 seconds"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Second pendulum",
+    "Difficulty": "Advanced",
+    "Explanation": "A second pendulum is defined as one with a time period of 2 seconds (1 second each way)."
+  },
+  {
+    "QuestionText": "Average speed = ___",
+    "Options": [
+      "A) Total distance / Total time",
+      "B) Total displacement / Total time",
+      "C) Change in speed / Time",
+      "D) Distance \u00d7 Time"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Average speed",
+    "Difficulty": "Foundation",
+    "Explanation": "Average speed = Total distance covered / Total time taken."
+  },
+  {
+    "QuestionText": "If a car travels 60 km in 1 h and 90 km in 2 h total, its average speed is",
+    "Options": [
+      "A) 50 km/h",
+      "B) 75 km/h",
+      "C) 45 km/h",
+      "D) 60 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Average speed",
+    "Difficulty": "Advanced",
+    "Explanation": "Total distance=150 km. Total time=3 h. Average speed=150/3=50 km/h."
+  },
+  {
+    "QuestionText": "A body covers equal distances in unequal time intervals. Its motion is",
+    "Options": [
+      "A) Non-uniform",
+      "B) Uniform",
+      "C) Periodic",
+      "D) Random"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Uniform vs non-uniform",
+    "Difficulty": "Foundation",
+    "Explanation": "Uniform motion requires equal distances in equal time intervals. Unequal time for equal distances = non-uniform."
+  },
+  {
+    "QuestionText": "The graph of distance vs time for non-uniform motion is",
+    "Options": [
+      "A) A curve",
+      "B) A straight line",
+      "C) Horizontal",
+      "D) Vertical"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Distance-time graph",
+    "Difficulty": "Foundation",
+    "Explanation": "Non-uniform motion produces a curved (not straight) distance-time graph."
+  },
+  {
+    "QuestionText": "A freely falling body starting from rest falls 5 m in the first second and 20 m in the first 2 seconds. This shows",
+    "Options": [
+      "A) Non-uniform (accelerated) motion",
+      "B) Uniform motion",
+      "C) Deceleration",
+      "D) No motion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Free fall",
+    "Difficulty": "Advanced",
+    "Explanation": "Unequal distances (5 m, then 15 m more) in equal time intervals = non-uniform/accelerated motion."
+  },
+  {
+    "QuestionText": "The motion of the hands of a clock is",
+    "Options": [
+      "A) Periodic and circular",
+      "B) Oscillatory",
+      "C) Linear",
+      "D) Random"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Types of motion",
+    "Difficulty": "Foundation",
+    "Explanation": "Clock hands move in circles with a fixed period: periodic and circular motion."
+  },
+  {
+    "QuestionText": "A car accelerates from 0 to 60 km/h in 10 seconds. This is an example of",
+    "Options": [
+      "A) Non-uniform (accelerated) motion",
+      "B) Uniform motion",
+      "C) Oscillatory motion",
+      "D) Rotational motion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Acceleration",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed is changing (increasing): non-uniform accelerated motion."
+  },
+  {
+    "QuestionText": "Speed of light is approximately",
+    "Options": [
+      "A) 3 \u00d7 10^8 m/s",
+      "B) 3 \u00d7 10^6 m/s",
+      "C) 3 \u00d7 10^10 m/s",
+      "D) 3 \u00d7 10^5 m/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed of light",
+    "Difficulty": "Advanced",
+    "Explanation": "The speed of light in vacuum is approximately 3 \u00d7 10^8 m/s (300,000 km/s)."
+  },
+  {
+    "QuestionText": "A cyclist and a pedestrian start at the same time. The cyclist's distance-time line is steeper. Who is faster?",
+    "Options": [
+      "A) The cyclist",
+      "B) The pedestrian",
+      "C) Both same speed",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Distance-time graph",
+    "Difficulty": "Advanced",
+    "Explanation": "Steeper slope on distance-time graph = greater speed. Cyclist is faster."
+  },
+  {
+    "QuestionText": "In a speed-time graph of uniform motion the graph is",
+    "Options": [
+      "A) A horizontal straight line",
+      "B) A line with positive slope",
+      "C) A curve",
+      "D) A vertical line"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed-time graph",
+    "Difficulty": "Advanced",
+    "Explanation": "Uniform motion = constant speed. Speed vs time graph is a horizontal line."
+  },
+  {
+    "QuestionText": "How long does it take to travel 300 km at 60 km/h?",
+    "Options": [
+      "A) 5 hours",
+      "B) 18000 hours",
+      "C) 60 hours",
+      "D) 500 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Time from speed and distance",
+    "Difficulty": "Foundation",
+    "Explanation": "Time = Distance/Speed = 300/60 = 5 hours."
+  },
+  {
+    "QuestionText": "Distance covered in 3 hours at 40 km/h",
+    "Options": [
+      "A) 120 km",
+      "B) 13.3 km",
+      "C) 43 km",
+      "D) 360 km"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Distance from speed and time",
+    "Difficulty": "Foundation",
+    "Explanation": "Distance = Speed \u00d7 Time = 40 \u00d7 3 = 120 km."
+  },
+  {
+    "QuestionText": "The bob of a pendulum starts from extreme position. It reaches the other extreme in 0.8 s. What is the time period?",
+    "Options": [
+      "A) 1.6 s",
+      "B) 0.8 s",
+      "C) 0.4 s",
+      "D) 3.2 s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Time period",
+    "Difficulty": "Advanced",
+    "Explanation": "From one extreme to the other is half a period. Full period = 2 \u00d7 0.8 = 1.6 s."
+  },
+  {
+    "QuestionText": "A pendulum completes 20 oscillations in 40 seconds. Its frequency is",
+    "Options": [
+      "A) 0.5 Hz",
+      "B) 20 Hz",
+      "C) 40 Hz",
+      "D) 2 Hz"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Frequency",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency = number of oscillations / time = 20/40 = 0.5 Hz."
+  },
+  {
+    "QuestionText": "Frequency and time period are related as",
+    "Options": [
+      "A) f = 1/T",
+      "B) f = T",
+      "C) f = T/2",
+      "D) f = 2T"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Frequency-period relation",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency (f) = 1/Time period (T). They are reciprocals of each other."
+  },
+  {
+    "QuestionText": "A train 200 m long passes a pole in 10 seconds. Speed of train is",
+    "Options": [
+      "A) 20 m/s",
+      "B) 2000 m/s",
+      "C) 10 m/s",
+      "D) 200 m/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Train speed calculation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Speed = distance/time = 200/10 = 20 m/s. The entire train must pass the pole: distance = train length."
+  },
+  {
+    "QuestionText": "Two trains each 100 m long approach each other at 30 m/s and 20 m/s. Time to pass each other completely",
+    "Options": [
+      "A) 4 seconds",
+      "B) 5 seconds",
+      "C) 10 seconds",
+      "D) 200 seconds"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Relative speed",
+    "Difficulty": "Olympiad",
+    "Explanation": "Combined length = 200 m. Relative speed = 30+20 = 50 m/s. Time = 200/50 = 4 s."
+  },
+  {
+    "QuestionText": "A car travels first half of a journey at 60 km/h and second half at 40 km/h. Average speed for entire journey",
+    "Options": [
+      "A) 48 km/h",
+      "B) 50 km/h",
+      "C) 100 km/h",
+      "D) 24 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Average speed formula",
+    "Difficulty": "Olympiad",
+    "Explanation": "Harmonic mean: 2\u00d760\u00d740/(60+40) = 4800/100 = 48 km/h."
+  },
+  {
+    "QuestionText": "A bird flying in a straight path covers 50 m in the first second 50 m in second and third seconds each. Its motion is",
+    "Options": [
+      "A) Uniform",
+      "B) Non-uniform",
+      "C) Accelerating",
+      "D) Decelerating"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Uniform motion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Equal distances (50 m) in equal time intervals (1 s each): uniform motion."
+  },
+  {
+    "QuestionText": "A boat travels 30 km downstream in 3 h and 30 km upstream in 5 h. Speed of stream is",
+    "Options": [
+      "A) 2 km/h",
+      "B) 10 km/h",
+      "C) 6 km/h",
+      "D) 8 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Relative speed in fluid",
+    "Difficulty": "Olympiad",
+    "Explanation": "Downstream speed=10 km/h. Upstream=6 km/h. Stream speed=(10-6)/2=2 km/h."
+  },
+  {
+    "QuestionText": "Distance-time graph of two objects A and B: A's line starts at origin with slope 2, B's with slope 4. At what time do they have the same distance from origin?",
+    "Options": [
+      "A) They never have same distance from origin after t=0",
+      "B) At t=1",
+      "C) At t=2",
+      "D) At t=4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Graph interpretation",
+    "Difficulty": "Olympiad",
+    "Explanation": "A: d=2t. B: d=4t. These are never equal for t>0 (both start at origin but diverge). They meet only at t=0."
+  },
+  {
+    "QuestionText": "A cheetah runs 100 m in 4 seconds and a horse runs 200 m in 10 seconds. Which is faster?",
+    "Options": [
+      "A) Cheetah (25 m/s) vs Horse (20 m/s): Cheetah",
+      "B) Horse",
+      "C) Both equal",
+      "D) Cannot compare"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Speed comparison",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cheetah: 100/4=25 m/s. Horse: 200/10=20 m/s. Cheetah is faster."
+  },
+  {
+    "QuestionText": "If the length of a pendulum is increased four times its time period becomes",
+    "Options": [
+      "A) Twice the original",
+      "B) Four times",
+      "C) Half",
+      "D) Same"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion and Time",
+    "SubTopic": "Pendulum and length",
+    "Difficulty": "Olympiad",
+    "Explanation": "T = 2\u03c0\u221a(L/g). If L becomes 4L: T_new = 2\u03c0\u221a(4L/g) = 2\u00d72\u03c0\u221a(L/g) = 2T. Time period doubles."
+  }
+]

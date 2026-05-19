@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The mean (average) of 5, 10, 15, 20, 25 is:",
+    "Options": [
+      "A) 10",
+      "B) 15",
+      "C) 20",
+      "D) 25"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean=(5+10+15+20+25)/5=75/5=15."
+  },
+  {
+    "QuestionText": "The median of 3, 7, 2, 9, 5 is:",
+    "Options": [
+      "A) 2",
+      "B) 5",
+      "C) 7",
+      "D) 9"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Arrange: 2,3,5,7,9. Middle value (3rd of 5) = 5."
+  },
+  {
+    "QuestionText": "The mode of the data 4,3,4,6,3,4,7,3,4 is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode=most frequent. 4 appears 4 times, 3 appears 3 times. Mode=4."
+  },
+  {
+    "QuestionText": "The range of 12, 7, 3, 14, 9, 2 is:",
+    "Options": [
+      "A) 10",
+      "B) 12",
+      "C) 14",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Dispersion",
+    "Difficulty": "Foundation",
+    "Explanation": "Range=Max\u2212Min=14\u22122=12."
+  },
+  {
+    "QuestionText": "A bar graph represents data using:",
+    "Options": [
+      "A) Lines",
+      "B) Rectangular bars",
+      "C) Circles",
+      "D) Points"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Foundation",
+    "Explanation": "Bar graphs use rectangular bars of equal width. The height (or length) of each bar represents the frequency or value."
+  },
+  {
+    "QuestionText": "A histogram differs from a bar graph in that:",
+    "Options": [
+      "A) It uses circles",
+      "B) It has no gaps between bars (continuous data)",
+      "C) It uses lines",
+      "D) It shows percentages only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Foundation",
+    "Explanation": "Histogram: no gaps between bars (continuous data). Bar graph: gaps between bars (discrete data/categories)."
+  },
+  {
+    "QuestionText": "Primary data is:",
+    "Options": [
+      "A) Data collected by someone else",
+      "B) Data from textbooks",
+      "C) Data collected firsthand by the investigator",
+      "D) Data from the internet"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Collection",
+    "Difficulty": "Foundation",
+    "Explanation": "Primary data: collected directly by the researcher through surveys, experiments, etc. Secondary data: collected by others (already published)."
+  },
+  {
+    "QuestionText": "A frequency polygon is drawn by connecting the:",
+    "Options": [
+      "A) Tops of the bars of a histogram",
+      "B) Midpoints of the tops of histogram bars",
+      "C) Bottom of the bars",
+      "D) Corners of the histogram"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Foundation",
+    "Explanation": "Frequency polygon: connect the midpoints of the top of each bar of the histogram with straight lines."
+  },
+  {
+    "QuestionText": "Class mark (mid-value) of the class 20-30 is:",
+    "Options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Class mark = (lower limit + upper limit)/2 = (20+30)/2 = 25."
+  },
+  {
+    "QuestionText": "The class width of the class 10-20 is:",
+    "Options": [
+      "A) 5",
+      "B) 10",
+      "C) 15",
+      "D) 30"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Class width = upper limit \u2212 lower limit = 20\u221210 = 10."
+  },
+  {
+    "QuestionText": "If 5 is added to every observation, the mean:",
+    "Options": [
+      "A) Remains same",
+      "B) Increases by 5",
+      "C) Decreases by 5",
+      "D) Multiplies by 5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean of (X+5) = Mean(X)+5. Adding a constant to all values increases the mean by that constant."
+  },
+  {
+    "QuestionText": "If every observation is multiplied by 3, the mean:",
+    "Options": [
+      "A) Increases by 3",
+      "B) Remains same",
+      "C) Multiplies by 3",
+      "D) Divides by 3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean(kX) = k\u00d7Mean(X). Multiplying every value by k multiplies the mean by k."
+  },
+  {
+    "QuestionText": "A cumulative frequency table shows:",
+    "Options": [
+      "A) Frequency of each class",
+      "B) Running total of frequencies up to each class",
+      "C) Difference of frequencies",
+      "D) Mode of each class"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Cumulative frequency: running total. If class 1 has 5, class 2 has 8, class 3 has 12: cumulative frequencies are 5, 13, 25."
+  },
+  {
+    "QuestionText": "The mean of first n natural numbers is:",
+    "Options": [
+      "A) n/2",
+      "B) (n+1)/2",
+      "C) n",
+      "D) n(n+1)/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "First n naturals: 1,2,...,n. Sum = n(n+1)/2. Mean = sum/n = (n+1)/2."
+  },
+  {
+    "QuestionText": "The mean of 10 observations is 15. If one observation is incorrect and changed from 12 to 20, new mean = ?",
+    "Options": [
+      "A) 15.8",
+      "B) 16.2",
+      "C) 14.2",
+      "D) 15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Original sum=150. Correct sum=150\u221212+20=158. New mean=158/10=15.8."
+  },
+  {
+    "QuestionText": "Ogive is a graph of:",
+    "Options": [
+      "A) Frequency vs class mark",
+      "B) Cumulative frequency vs upper class boundary",
+      "C) Mode vs frequency",
+      "D) Range vs class"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Advanced",
+    "Explanation": "Ogive (cumulative frequency curve): plots cumulative frequency against the upper class boundary. Used to find median graphically."
+  },
+  {
+    "QuestionText": "The mean of 4 numbers is 10. If a fifth number 15 is added, new mean = ?",
+    "Options": [
+      "A) 10",
+      "B) 11",
+      "C) 12.5",
+      "D) 13"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Original sum=40. New sum=40+15=55. New mean=55/5=11."
+  },
+  {
+    "QuestionText": "For a dataset, if mode = 8 and mean = 11, then by empirical relationship, median \u2248",
+    "Options": [
+      "A) 10",
+      "B) 11",
+      "C) 9",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Empirical relationship: Mode \u2248 3\u00d7Median \u2212 2\u00d7Mean. 8\u22483\u00d7Median\u221222 \u2192 3\u00d7Median\u224830 \u2192 Median\u224810."
+  },
+  {
+    "QuestionText": "The data: 4, 7, 3, 10, 7, 5, 7. Median after arranging:",
+    "Options": [
+      "A) 5",
+      "B) 7",
+      "C) 6",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Arranged: 3,4,5,7,7,7,10. n=7. Median = 4th value = 7."
+  },
+  {
+    "QuestionText": "Data set: 2, 4, 6, 8. The mean is 5 and the deviations from mean sum to:",
+    "Options": [
+      "A) 5",
+      "B) 4",
+      "C) 0",
+      "D) 20"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Deviations from mean: (2\u22125)+(4\u22125)+(6\u22125)+(8\u22125)=\u22123+(\u22121)+1+3=0. The deviations from the mean always sum to zero."
+  },
+  {
+    "QuestionText": "Class interval 20\u221230. Lower class boundary is 20. In exclusive method, what does this mean?",
+    "Options": [
+      "A) 20 belongs to this class",
+      "B) 20 belongs to the previous class",
+      "C) 20 is the class mark",
+      "D) 20 is excluded from this class but 30 is included"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "In inclusive method: both limits included. In exclusive method: lower limit included, upper limit excluded. So 20 is included in 20\u221230."
+  },
+  {
+    "QuestionText": "The class 30\u221240 has frequency 10. The frequency density (class width=10) is:",
+    "Options": [
+      "A) 1",
+      "B) 10",
+      "C) 100",
+      "D) 0.1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency density = frequency/class width = 10/10 = 1."
+  },
+  {
+    "QuestionText": "The sum of all frequencies equals:",
+    "Options": [
+      "A) Mean",
+      "B) Mode",
+      "C) Total number of observations",
+      "D) Median"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "The sum of all frequencies = total number of observations (n). This is used in finding the median class (look for n/2)."
+  },
+  {
+    "QuestionText": "The mean of 1, 2, 3, ..., 10 is:",
+    "Options": [
+      "A) 5",
+      "B) 5.5",
+      "C) 6",
+      "D) 4.5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=55. Mean=55/10=5.5. Or using formula: (n+1)/2=(10+1)/2=5.5."
+  },
+  {
+    "QuestionText": "A data set has an even number of observations. The median is:",
+    "Options": [
+      "A) The middle value",
+      "B) The average of the two middle values",
+      "C) The most frequent value",
+      "D) The range"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "For even n: median = average of (n/2)th and (n/2+1)th values after arranging in order."
+  },
+  {
+    "QuestionText": "Which is most affected by extreme values (outliers)?",
+    "Options": [
+      "A) Mode",
+      "B) Median",
+      "C) Mean",
+      "D) Range"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Mean is most sensitive to extreme values (outliers). Adding one very large or small value significantly changes the mean. Median and mode are resistant to outliers."
+  },
+  {
+    "QuestionText": "A pie chart showing expenditure: food=40%, rent=25%, others=35%. If total=\u20b910,000, rent = ?",
+    "Options": [
+      "A) \u20b92,000",
+      "B) \u20b92,500",
+      "C) \u20b93,500",
+      "D) \u20b94,000"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Foundation",
+    "Explanation": "Rent = 25% \u00d7 10,000 = \u20b92,500."
+  },
+  {
+    "QuestionText": "The class with the highest frequency in a grouped data is called the:",
+    "Options": [
+      "A) Median class",
+      "B) Modal class",
+      "C) Mean class",
+      "D) Quartile class"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Modal class: the class with the highest frequency. Used to estimate mode in grouped data."
+  },
+  {
+    "QuestionText": "In a frequency polygon, the class marks are plotted on:",
+    "Options": [
+      "A) y-axis",
+      "B) x-axis",
+      "C) Origin",
+      "D) Any axis"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Foundation",
+    "Explanation": "Class marks are on the x-axis; frequencies are on the y-axis."
+  },
+  {
+    "QuestionText": "The median of 11 observations is the:",
+    "Options": [
+      "A) 5th value",
+      "B) 6th value",
+      "C) 5.5th value",
+      "D) 11th value"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "For n=11 (odd): median = ((n+1)/2)th = 6th value."
+  },
+  {
+    "QuestionText": "Mean of x, x+1, x+2, x+3, x+4 is:",
+    "Options": [
+      "A) x+1",
+      "B) x+2",
+      "C) x+3",
+      "D) 5x"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum=5x+10. Mean=5x+10)/5=x+2. For consecutive values, mean = middle value."
+  },
+  {
+    "QuestionText": "The most suitable average for qualitative data (like grades, colors) is:",
+    "Options": [
+      "A) Mean",
+      "B) Median",
+      "C) Mode",
+      "D) Range"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode can be used for categorical/qualitative data. Mean and median require numerical values."
+  },
+  {
+    "QuestionText": "A data set has frequency table: 0:3, 1:5, 2:4, 3:3, 4:1. Total observations = ?",
+    "Options": [
+      "A) 10",
+      "B) 15",
+      "C) 16",
+      "D) 20"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "Total=3+5+4+3+1=16."
+  },
+  {
+    "QuestionText": "Mean of a, a+d, a+2d, a+3d, a+4d (AP with 5 terms):",
+    "Options": [
+      "A) a",
+      "B) a+d",
+      "C) a+2d",
+      "D) a+4d"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "For an AP, mean = middle term = a+2d (3rd of 5 terms). Also: sum=5a+10d, mean=(5a+10d)/5=a+2d."
+  },
+  {
+    "QuestionText": "The score of 5 students: 70, 85, 90, 65, 80. Number of students above mean:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Mean=(70+85+90+65+80)/5=390/5=78. Above 78: 85 and 90 \u2192 2 students."
+  },
+  {
+    "QuestionText": "Data: 12, 15, 18, 21, 24. What is the mean deviation from mean?",
+    "Options": [
+      "A) 0",
+      "B) 3.6",
+      "C) 4.2",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Dispersion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Mean=18. Deviations:|12\u221218|=6,|15\u221218|=3,|18\u221218|=0,|21\u221218|=3,|24\u221218|=6. Sum=18. Mean deviation=18/5=3.6."
+  },
+  {
+    "QuestionText": "For the data 5, 5, 5, 5, 5, the value of the mean, median, and mode are:",
+    "Options": [
+      "A) All different",
+      "B) Mean>median>mode",
+      "C) All equal to 5",
+      "D) Mean=5, others undefined"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "When all values are the same (5), mean=median=mode=5. Perfect symmetry."
+  },
+  {
+    "QuestionText": "A histogram has bars with widths 5 each. The y-axis shows:",
+    "Options": [
+      "A) Class marks",
+      "B) Frequencies",
+      "C) Cumulative frequencies",
+      "D) Percentages only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Foundation",
+    "Explanation": "When all class widths are equal, y-axis of histogram shows frequency (count). When unequal, y-axis shows frequency density."
+  },
+  {
+    "QuestionText": "The relationship between mean, median, and mode for a moderately skewed distribution:",
+    "Options": [
+      "A) Mean=Median=Mode",
+      "B) Mode=3Median\u22122Mean",
+      "C) Mean=3Mode\u22122Median",
+      "D) No fixed relationship"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Karl Pearson's empirical relationship: Mode = 3\u00d7Median \u2212 2\u00d7Mean (for moderately skewed distributions)."
+  },
+  {
+    "QuestionText": "Total of observations \u00d7 relative frequency of a class = ?",
+    "Options": [
+      "A) Class mark",
+      "B) Frequency of the class",
+      "C) Cumulative frequency",
+      "D) Class width"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Frequency Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "Relative frequency = f/n. So n \u00d7 relative frequency = f (frequency of that class)."
+  },
+  {
+    "QuestionText": "If the mean of 6 numbers is 8, their sum is:",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 14",
+      "D) 48"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum = mean \u00d7 n = 8 \u00d7 6 = 48."
+  },
+  {
+    "QuestionText": "The mode of 2,3,4,5,6 (no repeats) is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) No mode",
+      "D) 2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode = most frequently occurring value. All values appear once \u2192 no mode (or it may be said all values are mode \u2014 unimodal doesn't apply)."
+  },
+  {
+    "QuestionText": "A pie chart has sector angle for category A = 90\u00b0. Percentage for A:",
+    "Options": [
+      "A) 25%",
+      "B) 40%",
+      "C) 90%",
+      "D) 50%"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Data Representation",
+    "Difficulty": "Foundation",
+    "Explanation": "Percentage = (angle/360\u00b0)\u00d7100 = (90/360)\u00d7100 = 25%."
+  },
+  {
+    "QuestionText": "Mean of a dataset = 50. All values increased by 10%. New mean = ?",
+    "Options": [
+      "A) 55",
+      "B) 60",
+      "C) 50",
+      "D) 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "10% increase: each value becomes 1.1\u00d7 original. New mean = 1.1\u00d750 = 55."
+  },
+  {
+    "QuestionText": "Data: 40, 50, 60, 70, 80. Variance:",
+    "Options": [
+      "A) 100",
+      "B) 200",
+      "C) 300",
+      "D) 400"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Dispersion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Mean=60. Deviations\u00b2: 400,100,0,100,400. Sum=1000. Variance=1000/5=200."
+  },
+  {
+    "QuestionText": "Which of the following is a measure of dispersion?",
+    "Options": [
+      "A) Mean",
+      "B) Median",
+      "C) Range",
+      "D) Mode"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Dispersion",
+    "Difficulty": "Foundation",
+    "Explanation": "Measures of dispersion: Range, Variance, Standard Deviation, Inter-Quartile Range. These measure the spread. Mean, Median, Mode are measures of central tendency."
+  },
+  {
+    "QuestionText": "For 'grouped data', the mean using step deviation method uses:",
+    "Options": [
+      "A) Actual frequencies",
+      "B) Deviations from assumed mean, divided by class width",
+      "C) Cumulative frequencies",
+      "D) Quartiles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Step deviation (coded deviation) method: u = (x\u2212A)/h where A = assumed mean, h = class width. Mean = A + (\u03a3fu/\u03a3f)\u00d7h."
+  },
+  {
+    "QuestionText": "Data: 8, 5, 7, 10, 15, 5, 8, 5. The mode is:",
+    "Options": [
+      "A) 5",
+      "B) 7",
+      "C) 8",
+      "D) 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "5 appears 3 times (most frequent). Mode = 5."
+  },
+  {
+    "QuestionText": "If the mean of 10, 20, 30 and x is 25, then x =",
+    "Options": [
+      "A) 20",
+      "B) 30",
+      "C) 40",
+      "D) 25"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "(10+20+30+x)/4=25 \u2192 60+x=100 \u2192 x=40."
+  },
+  {
+    "QuestionText": "The median of 15 observations is the:",
+    "Options": [
+      "A) 7th",
+      "B) 8th",
+      "C) 7.5th",
+      "D) 15th"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "For n=15 (odd), median = ((15+1)/2)th = 8th value."
+  }
+]

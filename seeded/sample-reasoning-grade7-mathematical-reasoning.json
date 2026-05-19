@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is the next number: 5, 10, 20, 40, ___?",
+    "Options": [
+      "A) 80",
+      "B) 70",
+      "C) 60",
+      "D) 50"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Each term doubles: 40\u00d72=80."
+  },
+  {
+    "QuestionText": "Find the missing term: 2, 5, 10, 17, 26, ___",
+    "Options": [
+      "A) 37",
+      "B) 35",
+      "C) 36",
+      "D) 38"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Differences: 3,5,7,9,11 (odd numbers). 26+11=37."
+  },
+  {
+    "QuestionText": "What is 25% of 200?",
+    "Options": [
+      "A) 50",
+      "B) 25",
+      "C) 100",
+      "D) 75"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Percentages",
+    "Difficulty": "Foundation",
+    "Explanation": "25% \u00d7 200 = 0.25 \u00d7 200 = 50."
+  },
+  {
+    "QuestionText": "If a rectangle has length 8 cm and width 5 cm, its area is ___",
+    "Options": [
+      "A) 40 cm\u00b2",
+      "B) 26 cm\u00b2",
+      "C) 13 cm\u00b2",
+      "D) 80 cm\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of rectangle = length \u00d7 width = 8 \u00d7 5 = 40 cm\u00b2."
+  },
+  {
+    "QuestionText": "The sum of angles in a triangle is ___",
+    "Options": [
+      "A) 180\u00b0",
+      "B) 360\u00b0",
+      "C) 90\u00b0",
+      "D) 270\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "The interior angles of any triangle sum to 180\u00b0."
+  },
+  {
+    "QuestionText": "A number is divisible by 9 if",
+    "Options": [
+      "A) The sum of its digits is divisible by 9",
+      "B) It ends in 9",
+      "C) It is odd",
+      "D) It ends in 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Divisibility Rules",
+    "Difficulty": "Foundation",
+    "Explanation": "Divisibility by 9: sum of digits divisible by 9. E.g. 729: 7+2+9=18, 18\u00f79=2. Yes."
+  },
+  {
+    "QuestionText": "What is the LCM of 4 and 6?",
+    "Options": [
+      "A) 12",
+      "B) 24",
+      "C) 8",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiples of 4: 4,8,12. Multiples of 6: 6,12. LCM = 12."
+  },
+  {
+    "QuestionText": "What is the HCF of 12 and 18?",
+    "Options": [
+      "A) 6",
+      "B) 3",
+      "C) 9",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "HCF",
+    "Difficulty": "Foundation",
+    "Explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. HCF = 6."
+  },
+  {
+    "QuestionText": "If 5 pens cost \u20b935, what do 8 pens cost?",
+    "Options": [
+      "A) \u20b956",
+      "B) \u20b940",
+      "C) \u20b970",
+      "D) \u20b948"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Ratio and Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Cost per pen = 35\u00f75 = \u20b97. 8 pens = 8\u00d77 = \u20b956."
+  },
+  {
+    "QuestionText": "A train travels 180 km in 3 hours. Its speed is ___",
+    "Options": [
+      "A) 60 km/h",
+      "B) 90 km/h",
+      "C) 45 km/h",
+      "D) 30 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Speed Distance Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed = Distance \u00f7 Time = 180 \u00f7 3 = 60 km/h."
+  },
+  {
+    "QuestionText": "A pipe fills a tank in 6 hours. Another empties it in 12 hours. Both open: tank fills in ___",
+    "Options": [
+      "A) 12 hours",
+      "B) 6 hours",
+      "C) 4 hours",
+      "D) 18 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Pipes and Cisterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Net rate = 1/6 - 1/12 = 2/12 - 1/12 = 1/12 per hour. Time = 12 hours."
+  },
+  {
+    "QuestionText": "What is the value of 7\u00b2 - 3\u00b2?",
+    "Options": [
+      "A) 40",
+      "B) 46",
+      "C) 10",
+      "D) 49"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "7\u00b2=49, 3\u00b2=9. 49-9=40."
+  },
+  {
+    "QuestionText": "The sum of first 10 natural numbers is ___",
+    "Options": [
+      "A) 55",
+      "B) 50",
+      "C) 45",
+      "D) 100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Arithmetic Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum = n(n+1)/2 = 10\u00d711/2 = 55."
+  },
+  {
+    "QuestionText": "If a:b = 2:3 and b:c = 3:4, then a:c = ___",
+    "Options": [
+      "A) 2:4 = 1:2",
+      "B) 2:3",
+      "C) 3:4",
+      "D) 1:3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Ratio",
+    "Difficulty": "Advanced",
+    "Explanation": "a:b:c = 2:3:4. So a:c = 2:4 = 1:2."
+  },
+  {
+    "QuestionText": "The perimeter of an equilateral triangle with side 7 cm is ___",
+    "Options": [
+      "A) 21 cm",
+      "B) 14 cm",
+      "C) 28 cm",
+      "D) 49 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Perimeter",
+    "Difficulty": "Foundation",
+    "Explanation": "Equilateral triangle: all sides equal. Perimeter = 3\u00d77 = 21 cm."
+  },
+  {
+    "QuestionText": "What is the probability of getting a Head in a single toss of a fair coin?",
+    "Options": [
+      "A) 1/2",
+      "B) 1",
+      "C) 0",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Two equally likely outcomes: Head or Tail. P(Head) = 1/2."
+  },
+  {
+    "QuestionText": "A bag has 3 red and 5 blue balls. Probability of picking a red ball?",
+    "Options": [
+      "A) 3/8",
+      "B) 5/8",
+      "C) 1/2",
+      "D) 1/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Total balls = 8. P(red) = 3/8."
+  },
+  {
+    "QuestionText": "The average (mean) of 4, 8, 12, 16 is ___",
+    "Options": [
+      "A) 10",
+      "B) 8",
+      "C) 12",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean = (4+8+12+16)/4 = 40/4 = 10."
+  },
+  {
+    "QuestionText": "The median of 3, 5, 7, 9, 11 is ___",
+    "Options": [
+      "A) 7",
+      "B) 5",
+      "C) 9",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Median",
+    "Difficulty": "Foundation",
+    "Explanation": "Odd number of terms. Middle value (3rd of 5) = 7."
+  },
+  {
+    "QuestionText": "The mode of 2, 3, 3, 4, 5, 3, 6 is ___",
+    "Options": [
+      "A) 3",
+      "B) 2",
+      "C) 4",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Mode",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode = most frequent value. 3 appears 3 times."
+  },
+  {
+    "QuestionText": "If 20% of a number is 30, the number is ___",
+    "Options": [
+      "A) 150",
+      "B) 60",
+      "C) 15",
+      "D) 300"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Percentage Reverse",
+    "Difficulty": "Foundation",
+    "Explanation": "20% \u00d7 x = 30 \u2192 x = 30 \u00f7 0.20 = 150."
+  },
+  {
+    "QuestionText": "A shopkeeper sells an item for \u20b9120 that costs \u20b9100. Profit % is ___",
+    "Options": [
+      "A) 20%",
+      "B) 12%",
+      "C) 10%",
+      "D) 25%"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Profit and Loss",
+    "Difficulty": "Foundation",
+    "Explanation": "Profit = 120-100=\u20b920. Profit% = (20/100)\u00d7100 = 20%."
+  },
+  {
+    "QuestionText": "Simple interest on \u20b91000 at 5% per annum for 2 years is ___",
+    "Options": [
+      "A) \u20b9100",
+      "B) \u20b950",
+      "C) \u20b9150",
+      "D) \u20b9200"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Simple Interest",
+    "Difficulty": "Foundation",
+    "Explanation": "SI = P\u00d7R\u00d7T/100 = 1000\u00d75\u00d72/100 = \u20b9100."
+  },
+  {
+    "QuestionText": "If the ratio of boys to girls is 3:2 and there are 30 boys, how many girls are there?",
+    "Options": [
+      "A) 20",
+      "B) 15",
+      "C) 25",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Ratio",
+    "Difficulty": "Foundation",
+    "Explanation": "If 3 parts = 30, 1 part = 10. Girls = 2 parts = 20."
+  },
+  {
+    "QuestionText": "The value of (-3) \u00d7 (-4) is ___",
+    "Options": [
+      "A) 12",
+      "B) -12",
+      "C) 7",
+      "D) -7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Integers",
+    "Difficulty": "Foundation",
+    "Explanation": "Negative \u00d7 Negative = Positive. (-3)\u00d7(-4) = +12."
+  },
+  {
+    "QuestionText": "What is the square root of 144?",
+    "Options": [
+      "A) 12",
+      "B) 11",
+      "C) 13",
+      "D) 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Square Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "12\u00d712=144. \u221a144=12."
+  },
+  {
+    "QuestionText": "In a class of 40 students, 25% scored above 90%. How many students scored above 90%?",
+    "Options": [
+      "A) 10",
+      "B) 25",
+      "C) 15",
+      "D) 20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Percentage",
+    "Difficulty": "Foundation",
+    "Explanation": "25% of 40 = 0.25 \u00d7 40 = 10 students."
+  },
+  {
+    "QuestionText": "If 3x + 5 = 20, then x = ___",
+    "Options": [
+      "A) 5",
+      "B) 15",
+      "C) 3",
+      "D) 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Linear Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "3x = 20-5 = 15. x = 15\u00f73 = 5."
+  },
+  {
+    "QuestionText": "The volume of a cube with side 3 cm is ___",
+    "Options": [
+      "A) 27 cm\u00b3",
+      "B) 9 cm\u00b3",
+      "C) 18 cm\u00b3",
+      "D) 81 cm\u00b3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Volume",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume of cube = side\u00b3 = 3\u00b3 = 27 cm\u00b3."
+  },
+  {
+    "QuestionText": "Two numbers are in ratio 5:7. Their sum is 60. The larger number is ___",
+    "Options": [
+      "A) 35",
+      "B) 25",
+      "C) 42",
+      "D) 30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Ratio",
+    "Difficulty": "Advanced",
+    "Explanation": "5x+7x=60 \u2192 12x=60 \u2192 x=5. Larger = 7x = 35."
+  },
+  {
+    "QuestionText": "A car travels 240 km at 60 km/h. Time taken is ___",
+    "Options": [
+      "A) 4 hours",
+      "B) 3 hours",
+      "C) 6 hours",
+      "D) 2 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Speed Distance Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Time = Distance \u00f7 Speed = 240 \u00f7 60 = 4 hours."
+  },
+  {
+    "QuestionText": "If x/3 = 4, then x = ___",
+    "Options": [
+      "A) 12",
+      "B) 3",
+      "C) 7",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Linear Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "x = 4 \u00d7 3 = 12."
+  },
+  {
+    "QuestionText": "The number 72 = 8 \u00d7 9. Both 8 and 9 are factors of 72. So GCD(72, 24) = ___",
+    "Options": [
+      "A) 24",
+      "B) 8",
+      "C) 12",
+      "D) 72"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "HCF",
+    "Difficulty": "Advanced",
+    "Explanation": "Factors of 72: 1,2,3,4,6,8,9,12,18,24,36,72. Factors of 24: 1,2,3,4,6,8,12,24. GCD = 24."
+  },
+  {
+    "QuestionText": "A rectangular field is 40 m long and 30 m wide. Its perimeter is ___",
+    "Options": [
+      "A) 140 m",
+      "B) 120 m",
+      "C) 1200 m",
+      "D) 70 m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Perimeter",
+    "Difficulty": "Foundation",
+    "Explanation": "Perimeter of rectangle = 2(l+w) = 2(40+30) = 2\u00d770 = 140 m."
+  },
+  {
+    "QuestionText": "Area of a triangle with base 10 cm and height 6 cm is ___",
+    "Options": [
+      "A) 30 cm\u00b2",
+      "B) 60 cm\u00b2",
+      "C) 15 cm\u00b2",
+      "D) 25 cm\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of triangle = \u00bd \u00d7 base \u00d7 height = \u00bd \u00d7 10 \u00d7 6 = 30 cm\u00b2."
+  },
+  {
+    "QuestionText": "The sum of all angles in a quadrilateral is ___",
+    "Options": [
+      "A) 360\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 540\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of interior angles in a quadrilateral (4 sides) = (4-2)\u00d7180\u00b0 = 360\u00b0."
+  },
+  {
+    "QuestionText": "What is 2\u00b3 + 3\u00b2 ?",
+    "Options": [
+      "A) 17",
+      "B) 13",
+      "C) 11",
+      "D) 19"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "2\u00b3=8, 3\u00b2=9. 8+9=17."
+  },
+  {
+    "QuestionText": "Which is a prime number?",
+    "Options": [
+      "A) 29",
+      "B) 27",
+      "C) 35",
+      "D) 49"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Prime Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "29 is prime (only divisible by 1 and itself). 27=3\u00b3, 35=5\u00d77, 49=7\u00b2."
+  },
+  {
+    "QuestionText": "LCM of 12 and 18 is ___",
+    "Options": [
+      "A) 36",
+      "B) 24",
+      "C) 18",
+      "D) 72"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "Prime factorisation: 12=2\u00b2\u00d73, 18=2\u00d73\u00b2. LCM=2\u00b2\u00d73\u00b2=4\u00d79=36."
+  },
+  {
+    "QuestionText": "Find the next term: 1, 8, 27, 64, ___",
+    "Options": [
+      "A) 125",
+      "B) 100",
+      "C) 81",
+      "D) 216"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Cubes: 1\u00b3=1, 2\u00b3=8, 3\u00b3=27, 4\u00b3=64, 5\u00b3=125."
+  },
+  {
+    "QuestionText": "If profit% = 25% and cost price = \u20b9400, selling price = ___",
+    "Options": [
+      "A) \u20b9500",
+      "B) \u20b9300",
+      "C) \u20b9450",
+      "D) \u20b9600"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Profit and Loss",
+    "Difficulty": "Advanced",
+    "Explanation": "SP = CP\u00d7(1 + profit/100) = 400\u00d71.25 = \u20b9500."
+  },
+  {
+    "QuestionText": "Two trains 100m and 80m long approach each other at 50 km/h and 30 km/h. Time to pass completely is ___",
+    "Options": [
+      "A) 9 sec (approx)",
+      "B) 6 sec",
+      "C) 12 sec",
+      "D) 3 sec"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Trains",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total length=180m. Relative speed=80km/h=80/3.6 m/s\u224822.2m/s. Time=180\u00f722.2\u22488.1\u22489 sec."
+  },
+  {
+    "QuestionText": "A ladder 10m long leans against a wall reaching 8m high. The foot of ladder is ___ from the wall",
+    "Options": [
+      "A) 6m",
+      "B) 8m",
+      "C) 5m",
+      "D) 4m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Pythagoras",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a(10\u00b2-8\u00b2)=\u221a(100-64)=\u221a36=6m."
+  },
+  {
+    "QuestionText": "Compound interest on \u20b91000 at 10% p.a. for 2 years (annual compounding) is ___",
+    "Options": [
+      "A) \u20b9210",
+      "B) \u20b9200",
+      "C) \u20b9220",
+      "D) \u20b9100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Compound Interest",
+    "Difficulty": "Advanced",
+    "Explanation": "CI: A=1000\u00d7(1.1)\u00b2=1000\u00d71.21=\u20b91210. CI=\u20b91210-\u20b91000=\u20b9210."
+  },
+  {
+    "QuestionText": "The HCF of two numbers is 4 and their LCM is 48. One number is 16. The other is ___",
+    "Options": [
+      "A) 12",
+      "B) 8",
+      "C) 24",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "HCF LCM Relationship",
+    "Difficulty": "Advanced",
+    "Explanation": "HCF \u00d7 LCM = Product of two numbers. 4\u00d748=192. Other = 192\u00f716=12."
+  },
+  {
+    "QuestionText": "Sum of first n odd numbers = ?",
+    "Options": [
+      "A) n\u00b2 (always)",
+      "B) n",
+      "C) 2n",
+      "D) n(n+1)/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum of first n odd numbers: 1+3+5+...+(2n-1) = n\u00b2. E.g. 1+3+5+7=16=4\u00b2."
+  },
+  {
+    "QuestionText": "If a number is increased by 20% then decreased by 20%, the net change is ___",
+    "Options": [
+      "A) 4% decrease",
+      "B) 0% (no change)",
+      "C) 4% increase",
+      "D) 2% decrease"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Percentage",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let x=100. After +20%=120. After -20% of 120=96. Net change=(96-100)/100=-4% decrease."
+  },
+  {
+    "QuestionText": "The number of diagonals of a hexagon (6-sided polygon) is ___",
+    "Options": [
+      "A) 9",
+      "B) 6",
+      "C) 12",
+      "D) 15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Diagonals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Diagonals = n(n-3)/2 = 6\u00d73/2 = 9."
+  },
+  {
+    "QuestionText": "If x + y = 10 and x - y = 4, then x = ___ and y = ___",
+    "Options": [
+      "A) x=7, y=3",
+      "B) x=6, y=4",
+      "C) x=8, y=2",
+      "D) x=5, y=5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Simultaneous Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "Add equations: 2x=14, x=7. y=10-7=3."
+  },
+  {
+    "QuestionText": "The mean of 5 numbers is 12. If one number 6 is removed, the new mean is ___",
+    "Options": [
+      "A) 13.5",
+      "B) 12",
+      "C) 11",
+      "D) 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Mathematical Reasoning",
+    "SubTopic": "Mean",
+    "Difficulty": "Advanced",
+    "Explanation": "Total=5\u00d712=60. New total=60-6=54. New mean=54\u00f74=13.5."
+  }
+]

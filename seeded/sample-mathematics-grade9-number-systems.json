@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which of the following is an irrational number?",
+    "Options": [
+      "A) \u221a4",
+      "B) \u221a9",
+      "C) \u221a2",
+      "D) 0.25"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "\u221a2 \u2248 1.41421... is non-terminating, non-repeating \u2014 an irrational number. \u221a4=2 and \u221a9=3 are integers (rational). 0.25=1/4 is rational."
+  },
+  {
+    "QuestionText": "Every rational number is:",
+    "Options": [
+      "A) A natural number",
+      "B) A whole number",
+      "C) An integer",
+      "D) A real number"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Real numbers include all rational and irrational numbers. Rational numbers are a subset of real numbers. Not every rational is a natural, whole, or integer (e.g., 1/2)."
+  },
+  {
+    "QuestionText": "The decimal expansion of 1/3 is:",
+    "Options": [
+      "A) 0.3",
+      "B) 0.33",
+      "C) 0.333...",
+      "D) 0.3\u0304 (0.3 repeating)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "1/3 = 0.3333... (non-terminating, repeating). This is a rational number because it has a repeating pattern. Written as 0.3\u0304."
+  },
+  {
+    "QuestionText": "Which of these is a terminating decimal?",
+    "Options": [
+      "A) 1/3",
+      "B) 1/7",
+      "C) 1/4",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "A fraction p/q terminates if q (in lowest terms) has only 2 and 5 as prime factors. 1/4 = 1/2\u00b2 \u2192 terminates = 0.25. 1/3, 1/7, 1/6 are non-terminating repeating."
+  },
+  {
+    "QuestionText": "\u03c0 (pi) is:",
+    "Options": [
+      "A) Rational",
+      "B) An integer",
+      "C) Irrational",
+      "D) A whole number"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "\u03c0 = 3.14159265... is non-terminating and non-repeating, making it irrational. It cannot be expressed as p/q where p, q are integers and q\u22600."
+  },
+  {
+    "QuestionText": "Between any two rational numbers, there exist:",
+    "Options": [
+      "A) No numbers",
+      "B) Exactly one rational number",
+      "C) Infinitely many rational numbers",
+      "D) Only irrational numbers"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Rational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The rationals are dense: between any two rationals a and b, there are infinitely many rationals (e.g., (a+b)/2, and then between each of those, infinitely more)."
+  },
+  {
+    "QuestionText": "The value of \u221a2 \u00d7 \u221a3 is:",
+    "Options": [
+      "A) \u221a5",
+      "B) \u221a6",
+      "C) 6",
+      "D) 2\u221a3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Foundation",
+    "Explanation": "\u221a2 \u00d7 \u221a3 = \u221a(2\u00d73) = \u221a6. Using the rule: \u221aa \u00d7 \u221ab = \u221a(ab)."
+  },
+  {
+    "QuestionText": "Rationalize the denominator: 1/\u221a2",
+    "Options": [
+      "A) \u221a2/2",
+      "B) 1/\u221a2",
+      "C) 2/\u221a2",
+      "D) \u221a2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Foundation",
+    "Explanation": "1/\u221a2 \u00d7 \u221a2/\u221a2 = \u221a2/2. Multiply numerator and denominator by \u221a2 to rationalize."
+  },
+  {
+    "QuestionText": "Which is the correct order from smallest to largest?",
+    "Options": [
+      "A) \u221a2 < \u221a3 < 2",
+      "B) 2 < \u221a3 < \u221a2",
+      "C) \u221a3 < \u221a2 < 2",
+      "D) \u221a2 < 2 < \u221a3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "\u221a2 \u2248 1.41, \u221a3 \u2248 1.73, 2 = 2. So \u221a2 < \u221a3 < 2. Comparing surds: the larger the radicand, the larger the surd."
+  },
+  {
+    "QuestionText": "If x = 2 + \u221a3, then 1/x is:",
+    "Options": [
+      "A) 2 - \u221a3",
+      "B) 2 + \u221a3",
+      "C) 1/(2+\u221a3)",
+      "D) \u221a3 - 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Advanced",
+    "Explanation": "1/(2+\u221a3) \u00d7 (2-\u221a3)/(2-\u221a3) = (2-\u221a3)/(4-3) = (2-\u221a3)/1 = 2-\u221a3. Rationalize by multiplying by conjugate."
+  },
+  {
+    "QuestionText": "Which of the following represents a number on the number line that is irrational?",
+    "Options": [
+      "A) The point at 3/4",
+      "B) The point at -2",
+      "C) The point at \u221a5",
+      "D) The point at 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "\u221a5 \u2248 2.236... is irrational. It can be located on the number line geometrically (using right triangles) but cannot be expressed as a fraction."
+  },
+  {
+    "QuestionText": "The product of two irrational numbers is:",
+    "Options": [
+      "A) Always irrational",
+      "B) Always rational",
+      "C) Sometimes rational, sometimes irrational",
+      "D) Always an integer"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a2 \u00d7 \u221a2 = 2 (rational). \u221a2 \u00d7 \u221a3 = \u221a6 (irrational). So the product can be either. The set of irrationals is NOT closed under multiplication."
+  },
+  {
+    "QuestionText": "2\u221a3 + 3\u221a3 = ?",
+    "Options": [
+      "A) 5\u221a6",
+      "B) 6\u221a3",
+      "C) 5\u221a3",
+      "D) 6\u221a6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Foundation",
+    "Explanation": "Like surds can be added: 2\u221a3 + 3\u221a3 = (2+3)\u221a3 = 5\u221a3. Similar to combining like terms: 2x + 3x = 5x."
+  },
+  {
+    "QuestionText": "What is (\u221a5)\u00b2?",
+    "Options": [
+      "A) 25",
+      "B) \u221a25",
+      "C) 5",
+      "D) 10"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Foundation",
+    "Explanation": "(\u221a5)\u00b2 = 5. The square and square root are inverse operations: (\u221aa)\u00b2 = a for a \u2265 0."
+  },
+  {
+    "QuestionText": "The value of 0.\u03043\u0304 (0.333...) as a fraction is:",
+    "Options": [
+      "A) 3/10",
+      "B) 33/100",
+      "C) 1/3",
+      "D) 3/99"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "Let x = 0.333... Then 10x = 3.333... Subtract: 9x = 3, so x = 3/9 = 1/3."
+  },
+  {
+    "QuestionText": "Natural numbers are:",
+    "Options": [
+      "A) {..., -2, -1, 0, 1, 2, ...}",
+      "B) {0, 1, 2, 3, ...}",
+      "C) {1, 2, 3, 4, ...}",
+      "D) All fractions"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Natural numbers = counting numbers = {1, 2, 3, ...}. Whole numbers = {0, 1, 2, 3, ...}. Integers include negatives."
+  },
+  {
+    "QuestionText": "Which property holds: a + b = b + a for real numbers?",
+    "Options": [
+      "A) Associative property",
+      "B) Commutative property",
+      "C) Distributive property",
+      "D) Identity property"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Properties of Real Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Commutative property of addition: a + b = b + a. Order doesn't matter for addition and multiplication. Associative: (a+b)+c = a+(b+c). Distributive: a(b+c) = ab+ac."
+  },
+  {
+    "QuestionText": "Express 1.\u03042\u0304 (1.2222...) as a fraction:",
+    "Options": [
+      "A) 12/10",
+      "B) 11/9",
+      "C) 12/9",
+      "D) 4/3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Advanced",
+    "Explanation": "Let x=1.222... 10x=12.222... 10x-x=11 \u2192 9x=11 \u2192 x=11/9. Check: 11/9=1.222... \u2713"
+  },
+  {
+    "QuestionText": "Find one rational number between \u221a2 and \u221a3.",
+    "Options": [
+      "A) 1.5",
+      "B) \u221a2.5",
+      "C) 1.7",
+      "D) Both A and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Rational Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a2\u22481.414, \u221a3\u22481.732. Rational numbers between them: 1.5, 1.6, 1.7, etc. Both 1.5 and 1.7 lie between \u221a2 and \u221a3."
+  },
+  {
+    "QuestionText": "The value of 3^0 is:",
+    "Options": [
+      "A) 0",
+      "B) 3",
+      "C) 1",
+      "D) -1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "Any non-zero number raised to the power 0 equals 1: a\u2070 = 1 for a \u2260 0. So 3\u2070 = 1."
+  },
+  {
+    "QuestionText": "Which is correct? 2^(1/2) equals:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) \u221a2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "a^(1/n) = \u207f\u221aa. So 2^(1/2) = \u221a2. Similarly 8^(1/3) = \u221b8 = 2."
+  },
+  {
+    "QuestionText": "Simplify: (27)^(1/3)",
+    "Options": [
+      "A) 3",
+      "B) 9",
+      "C) \u221a27",
+      "D) 27"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "27^(1/3) = \u221b27 = 3, since 3\u00b3 = 27."
+  },
+  {
+    "QuestionText": "If a = 2 + \u221a3 and b = 2 - \u221a3, find a \u00d7 b.",
+    "Options": [
+      "A) 4",
+      "B) 1",
+      "C) 7",
+      "D) 4-\u221a3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Advanced",
+    "Explanation": "(2+\u221a3)(2-\u221a3) = 2\u00b2 - (\u221a3)\u00b2 = 4 - 3 = 1. Difference of squares formula: (a+b)(a-b) = a\u00b2-b\u00b2."
+  },
+  {
+    "QuestionText": "Which is larger: 2^10 or 10^2?",
+    "Options": [
+      "A) 2^10",
+      "B) 10^2",
+      "C) Equal",
+      "D) Cannot compare"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "2^10 = 1024. 10^2 = 100. So 2^10 > 10^2."
+  },
+  {
+    "QuestionText": "The value of \u221a(3/4) is:",
+    "Options": [
+      "A) 3/4",
+      "B) \u221a3/4",
+      "C) \u221a3/2",
+      "D) 3/2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a(3/4) = \u221a3/\u221a4 = \u221a3/2. Using the rule: \u221a(a/b) = \u221aa/\u221ab."
+  },
+  {
+    "QuestionText": "A number with decimal expansion 0.010110111011110... is:",
+    "Options": [
+      "A) Rational",
+      "B) Irrational",
+      "C) An integer",
+      "D) A natural number"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is non-repeating (though structured). Non-terminating, non-repeating decimal = irrational. Rational numbers always have terminating or repeating decimals."
+  },
+  {
+    "QuestionText": "Simplify: 4^(3/2)",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 12",
+      "D) 16"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "4^(3/2) = (4^(1/2))^3 = 2^3 = 8. Or: 4^(3/2) = (4^3)^(1/2) = 64^(1/2) = 8."
+  },
+  {
+    "QuestionText": "The HCF and LCM of two numbers a and b satisfy:",
+    "Options": [
+      "A) HCF + LCM = a + b",
+      "B) HCF \u00d7 LCM = a \u00d7 b",
+      "C) HCF/LCM = a/b",
+      "D) HCF - LCM = a - b"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "HCF \u00d7 LCM = Product of the two numbers = a \u00d7 b. Important property used in problems. E.g., HCF(4,6)=2, LCM(4,6)=12, 2\u00d712=24=4\u00d76."
+  },
+  {
+    "QuestionText": "Rationalize: 1/(\u221a5 + \u221a2)",
+    "Options": [
+      "A) (\u221a5 - \u221a2)/3",
+      "B) (\u221a5 + \u221a2)/3",
+      "C) (\u221a5 - \u221a2)/7",
+      "D) 1/(\u221a5 - \u221a2)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiply by (\u221a5-\u221a2)/(\u221a5-\u221a2): numerator = \u221a5-\u221a2, denominator = 5-2=3. Result: (\u221a5-\u221a2)/3."
+  },
+  {
+    "QuestionText": "Which number is a perfect square?",
+    "Options": [
+      "A) 50",
+      "B) 72",
+      "C) 81",
+      "D) 90"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "81 = 9\u00b2 = 9\u00d79. Perfect squares: 1,4,9,16,25,36,49,64,81,100... 50, 72, 90 are not perfect squares."
+  },
+  {
+    "QuestionText": "\u221a72 simplified is:",
+    "Options": [
+      "A) 6\u221a2",
+      "B) 8\u221a2",
+      "C) 6\u221a3",
+      "D) 4\u221a3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Foundation",
+    "Explanation": "\u221a72 = \u221a(36\u00d72) = \u221a36 \u00d7 \u221a2 = 6\u221a2."
+  },
+  {
+    "QuestionText": "The set of whole numbers is denoted by:",
+    "Options": [
+      "A) N",
+      "B) W",
+      "C) Z",
+      "D) Q"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Notation: N = natural numbers, W = whole numbers, Z = integers, Q = rational numbers, R = real numbers, I or Q' = irrationals."
+  },
+  {
+    "QuestionText": "Find: 2^3 \u00d7 2^4",
+    "Options": [
+      "A) 4^7",
+      "B) 2^7",
+      "C) 2^12",
+      "D) 8^4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "a^m \u00d7 a^n = a^(m+n). So 2^3 \u00d7 2^4 = 2^(3+4) = 2^7 = 128."
+  },
+  {
+    "QuestionText": "An example of a number that is NOT a real number is:",
+    "Options": [
+      "A) \u221a(-1)",
+      "B) \u221a2",
+      "C) -5",
+      "D) 0.001"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a(-1) = i (imaginary number). Real numbers include all rationals and irrationals but NOT square roots of negative numbers (those are complex/imaginary)."
+  },
+  {
+    "QuestionText": "Euclid's Division Lemma states: for any two positive integers a and b, there exist unique integers q and r such that:",
+    "Options": [
+      "A) a = bq + r, 0 \u2264 r < b",
+      "B) a = qb + r, 0 \u2264 q < r",
+      "C) a \u00d7 b = q + r",
+      "D) a + b = qr"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Theory",
+    "Difficulty": "Advanced",
+    "Explanation": "Euclid's Division Lemma: a = bq + r where 0 \u2264 r < b. a = dividend, b = divisor, q = quotient, r = remainder. Used in finding HCF."
+  },
+  {
+    "QuestionText": "The smallest irrational number greater than 1 is:",
+    "Options": [
+      "A) \u221a2",
+      "B) \u03c0",
+      "C) There is no smallest irrational",
+      "D) 1.1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Between any two irrationals (or between any real number and \u221a2) there are infinitely many irrationals. There is no 'smallest' irrational greater than 1 \u2014 the irrationals are dense."
+  },
+  {
+    "QuestionText": "Simplify: (x^2)^3 / x^4",
+    "Options": [
+      "A) x^2",
+      "B) x^4",
+      "C) x^6",
+      "D) x^10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(x^2)^3 = x^6. x^6/x^4 = x^(6-4) = x^2. Using rules: (a^m)^n = a^mn and a^m/a^n = a^(m-n)."
+  },
+  {
+    "QuestionText": "Between 1 and 2, how many irrational numbers exist?",
+    "Options": [
+      "A) 0",
+      "B) Finitely many",
+      "C) Exactly one (\u221a2)",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "There are infinitely many irrational numbers between any two distinct real numbers. \u221a2, \u221a3-1, \u03c0/4, and infinitely more lie between 1 and 2."
+  },
+  {
+    "QuestionText": "If 2^x = 8, then x = ?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "8 = 2^3. So 2^x = 2^3 \u2192 x = 3."
+  },
+  {
+    "QuestionText": "The decimal expansion of a rational number is always:",
+    "Options": [
+      "A) Non-terminating",
+      "B) Non-repeating",
+      "C) Either terminating or non-terminating repeating",
+      "D) Always exactly 2 decimal places"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "Rational numbers have decimal expansions that either terminate (like 1/4=0.25) or are non-terminating but repeating (like 1/3=0.333...). This is the key property distinguishing them from irrationals."
+  },
+  {
+    "QuestionText": "\u221a3 is irrational. Proof is by:",
+    "Options": [
+      "A) Induction",
+      "B) Direct proof",
+      "C) Contradiction",
+      "D) Construction"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Proof by contradiction: Assume \u221a3 = p/q (lowest terms). Then 3 = p\u00b2/q\u00b2, so p\u00b2 = 3q\u00b2, meaning 3|p\u00b2, so 3|p. Let p=3k. Then 9k\u00b2=3q\u00b2, q\u00b2=3k\u00b2, so 3|q. But this contradicts p,q having no common factor."
+  },
+  {
+    "QuestionText": "The value of (64)^(-1/3) is:",
+    "Options": [
+      "A) -4",
+      "B) 1/4",
+      "C) 4",
+      "D) 1/8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "64^(1/3) = 4 (since 4\u00b3=64). 64^(-1/3) = 1/64^(1/3) = 1/4."
+  },
+  {
+    "QuestionText": "Which of the following is a rational number between 1/4 and 1/2?",
+    "Options": [
+      "A) 1/3",
+      "B) 1/6",
+      "C) 2/3",
+      "D) 3/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Rational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "1/4=0.25, 1/2=0.5. Checking: 1/3\u22480.333 (between 0.25 and 0.5). 1/6\u22480.167 (less than 1/4). 2/3\u22480.667 and 3/4=0.75 (both greater than 1/2)."
+  },
+  {
+    "QuestionText": "Evaluate: (\u22121)^101",
+    "Options": [
+      "A) 1",
+      "B) \u22121",
+      "C) 101",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "(\u22121)^n = \u22121 when n is odd, +1 when n is even. 101 is odd, so (\u22121)^101 = \u22121."
+  },
+  {
+    "QuestionText": "Which best describes the set of integers Z?",
+    "Options": [
+      "A) {..., \u22122, \u22121, 0, 1, 2, ...}",
+      "B) {1, 2, 3, ...}",
+      "C) {0, 1, 2, ...}",
+      "D) All positive numbers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Number Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Integers Z = all positive integers, zero, and all negative integers: {..., -2, -1, 0, 1, 2, ...}. Every natural and whole number is also an integer."
+  },
+  {
+    "QuestionText": "Simplify: \u221a12 + \u221a27",
+    "Options": [
+      "A) 3\u221a3",
+      "B) 4\u221a3",
+      "C) 5\u221a3",
+      "D) 6\u221a3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a12=2\u221a3, \u221a27=3\u221a3. Sum = 2\u221a3 + 3\u221a3 = 5\u221a3."
+  },
+  {
+    "QuestionText": "Express 2.4\u0304 (2.444...) as a fraction.",
+    "Options": [
+      "A) 24/10",
+      "B) 22/9",
+      "C) 22/10",
+      "D) 24/9"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Advanced",
+    "Explanation": "x=2.444... 10x=24.444... 10x-x=22 \u2192 9x=22 \u2192 x=22/9."
+  },
+  {
+    "QuestionText": "What is the sum of \u221a2 and -\u221a2?",
+    "Options": [
+      "A) 2\u221a2",
+      "B) 0",
+      "C) 2",
+      "D) \u221a4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Surds",
+    "Difficulty": "Foundation",
+    "Explanation": "\u221a2 + (-\u221a2) = 0. Adding a number and its additive inverse gives zero. This shows that irrational numbers, like rationals, have additive inverses."
+  },
+  {
+    "QuestionText": "If a and b are two distinct positive irrational numbers, then (a+b)/2 is:",
+    "Options": [
+      "A) Always irrational",
+      "B) Always rational",
+      "C) Always an integer",
+      "D) Not necessarily rational or irrational"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "(\u221a2 + \u221a8)/2 = (\u221a2 + 2\u221a2)/2 = 3\u221a2/2 (irrational). (\u221a2 + (2-\u221a2))/2 = 1 (rational). The average of two irrationals can be either. Answer D is correct."
+  },
+  {
+    "QuestionText": "The value of 5^(\u22122) is:",
+    "Options": [
+      "A) \u221225",
+      "B) \u221210",
+      "C) 1/25",
+      "D) 25"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Number Systems",
+    "SubTopic": "Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "a^(-n) = 1/a^n. So 5^(-2) = 1/5^2 = 1/25."
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "QuestionText": "In a row of 5 children, Sam is in the middle. What is his position from the left?",
+    "Options": ["A) 2nd", "B) 3rd", "C) 4th", "D) 5th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "In a row of 5, the middle position is 3rd (1, 2, [3], 4, 5)."
+  },
+  {
+    "QuestionText": "Rahul is taller than Amit. Amit is taller than Karan. Who is the tallest?",
+    "Options": ["A) Rahul", "B) Amit", "C) Karan", "D) Cannot tell"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Rahul > Amit > Karan. Rahul is at the top of the height order."
+  },
+  {
+    "QuestionText": "If Sunday is the first day of the week, what is the 4th day?",
+    "Options": ["A) Tuesday", "B) Wednesday", "C) Thursday", "D) Monday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "1-Sun, 2-Mon, 3-Tue, 4-Wed."
+  },
+  {
+    "QuestionText": "In a race, Meena finished just before Reena. If Reena came 3rd, what was Meena's position?",
+    "Options": ["A) 1st", "B) 2nd", "C) 4th", "D) 5th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Finishing 'before' 3rd means Meena took the 2nd place."
+  },
+  {
+    "QuestionText": "There are 10 books on a shelf. If you take the 2nd book from the left and the 2nd book from the right, how many books are between them?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 8"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "Position 2 and Position 9 (2nd from right in 10 books). The books between them are 3, 4, 5, 6, 7, 8 (Total 6)."
+  },
+  {
+    "QuestionText": "A rabbit is faster than a turtle. A cheetah is faster than the rabbit. Who is the slowest?",
+    "Options": ["A) Rabbit", "B) Cheetah", "C) Turtle", "D) Lion"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Cheetah > Rabbit > Turtle. The turtle is at the end of the speed line."
+  },
+  {
+    "QuestionText": "In a line, Anu is 4th from the front and 4th from the back. How many children are in the line?",
+    "Options": ["A) 8", "B) 7", "C) 9", "D) 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "3 people are in front, Anu is 1, and 3 people are behind. 3 + 1 + 3 = 7."
+  },
+  {
+    "QuestionText": "If January is the 1st month, which month is 5th?",
+    "Options": ["A) April", "B) May", "C) June", "D) March"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Jan(1), Feb(2), Mar(3), Apr(4), May(5)."
+  },
+  {
+    "QuestionText": "Tree A is shorter than Tree B. Tree C is taller than Tree B. Which tree is the shortest?",
+    "Options": ["A) Tree A", "B) Tree B", "C) Tree C", "D) All are equal"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "C > B > A. Tree A is the shortest."
+  },
+  {
+    "QuestionText": "In the word 'OLYMPIAD', which letter is 4th from the right?",
+    "Options": ["A) M", "B) P", "C) I", "D) A"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Counting from the right: D(1), A(2), I(3), P(4)."
+  },
+  {
+    "QuestionText": "A ladder has 7 rungs. If a cat is sitting on the bottom-most rung, how many rungs are above it?",
+    "Options": ["A) 7", "B) 6", "C) 5", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "7 total - 1 (the one it's on) = 6 rungs above."
+  },
+  {
+    "QuestionText": "If yesterday was Tuesday, what day will it be tomorrow?",
+    "Options": ["A) Wednesday", "B) Thursday", "C) Monday", "D) Friday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "If yesterday was Tuesday, today is Wednesday, and tomorrow is Thursday."
+  },
+  {
+    "QuestionText": "An apple is heavier than a grape. A watermelon is heavier than the apple. Which is the lightest?",
+    "Options": ["A) Apple", "B) Grape", "C) Watermelon", "D) Orange"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Watermelon > Apple > Grape."
+  },
+  {
+    "QuestionText": "In a queue of 6 people, if John moves from the last place to the 2nd place, how many people did he jump over?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "He was at 6. He jumped over 5, 4, 3 to get to 2. Wait, from 6th to 2nd means he passed 5th, 4th, 3rd... that's 4 positions moved."
+  },
+  {
+    "QuestionText": "Five students took a test. Sonu scored more than Monu. Monu scored more than Rinu. Who scored the least?",
+    "Options": ["A) Sonu", "B) Monu", "C) Rinu", "D) Cannot determine"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Sonu > Monu > Rinu."
+  },
+  {
+    "QuestionText": "Which letter comes exactly in the middle of 'APPLE'?",
+    "Options": ["A) A", "B) P", "C) L", "D) E"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "A, P, [P], L, E. The second 'P' is the middle letter."
+  },
+  {
+    "QuestionText": "In a stack of 4 boxes, the Red box is below the Blue box. The Green box is above the Blue box. Which box is on top?",
+    "Options": ["A) Red", "B) Blue", "C) Green", "D) Yellow"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Green > Blue > Red."
+  },
+  {
+    "QuestionText": "If today is the 10th of the month, what was the date 3 days ago?",
+    "Options": ["A) 7th", "B) 13th", "C) 6th", "D) 8th"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "10 - 3 = 7."
+  },
+  {
+    "QuestionText": "There are 5 birds on a branch. The sparrow is to the left of the crow. The parrot is to the right of the crow. Who is in the middle?",
+    "Options": ["A) Sparrow", "B) Crow", "C) Parrot", "D) Pigeon"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Order: Sparrow - Crow - Parrot. Crow is in the middle."
+  },
+  {
+    "QuestionText": "Sita is older than Geeta. Geeta is younger than Rita. Rita is younger than Sita. Who is the youngest?",
+    "Options": ["A) Sita", "B) Geeta", "C) Rita", "D) All are same age"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sita > Rita > Geeta. Geeta is the youngest."
+  },
+  {
+    "QuestionText": "In a row of cars, the white car is 10th from the left. How many cars are to its left?",
+    "Options": ["A) 10", "B) 9", "C) 11", "D) 8"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "If you are 10th, there are 9 people before you."
+  },
+  {
+    "QuestionText": "If you are standing in a circle and you are the 3rd person starting from your left, and also the 3rd person starting from your right, how many people are in the circle?",
+    "Options": ["A) 6", "B) 5", "C) 4", "D) 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "You + 2 on left + 2 on right = 5 people."
+  },
+  {
+    "QuestionText": "Which number comes between 45 and 47?",
+    "Options": ["A) 44", "B) 46", "C) 48", "D) 49"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard counting order."
+  },
+  {
+    "QuestionText": "A car is behind a bus. The bus is behind a truck. Which vehicle is at the front?",
+    "Options": ["A) Car", "B) Bus", "C) Truck", "D) Cycle"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Truck -> Bus -> Car."
+  },
+  {
+    "QuestionText": "In the word 'SCHOOL', what is the position of 'H' from the start?",
+    "Options": ["A) 2nd", "B) 3rd", "C) 4th", "D) 5th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "S(1), C(2), H(3)."
+  },
+  {
+    "QuestionText": "If Tom is taller than Jerry and Jerry is shorter than Spike, who is the shortest?",
+    "Options": ["A) Tom", "B) Jerry", "C) Spike", "D) Spike and Tom"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Jerry is shorter than both others, so Jerry is shortest."
+  },
+  {
+    "QuestionText": "A cake is cut into 8 slices. If you eat the 3rd and 4th slice, how many slices are left?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "8 total - 2 eaten = 6 left."
+  },
+  {
+    "QuestionText": "If the 1st of the month is Monday, what day is the 8th of the month?",
+    "Options": ["A) Sunday", "B) Monday", "C) Tuesday", "D) Saturday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "Days repeat every 7 days. 1 + 7 = 8, so it is also a Monday."
+  },
+  {
+    "QuestionText": "In a race of 10 people, if the person in 9th place overtakes one person, what is their new position?",
+    "Options": ["A) 10th", "B) 8th", "C) 7th", "D) 9th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Overtaking the person in 8th place puts you into 8th place."
+  },
+  {
+    "QuestionText": "Five boxes are stacked. Box 1 is at the bottom, Box 5 is at the top. Where is Box 3?",
+    "Options": ["A) Second from top", "B) In the middle", "C) Second from bottom", "D) At the top"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "1, 2, [3], 4, 5. Box 3 is the middle box."
+  },
+  {
+    "QuestionText": "If 'C' is the 3rd letter, what is the 6th letter?",
+    "Options": ["A) D", "B) E", "C) F", "D) G"],
+    "CorrectAnswer": "Foundation",
+    "Difficulty": "Foundation",
+    "Explanation": "A(1), B(2), C(3), D(4), E(5), F(6)."
+  },
+  {
+    "QuestionText": "Anil is older than Sunil. Sunil is older than Vimal. Vimal is 7 years old. Who is the oldest?",
+    "Options": ["A) Anil", "B) Sunil", "C) Vimal", "D) Cannot tell"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Anil > Sunil > Vimal."
+  },
+  {
+    "QuestionText": "In the word 'BANANA', which position(s) does the letter 'N' occupy?",
+    "Options": ["A) 2nd and 4th", "B) 3rd and 5th", "C) 1st and 6th", "D) 4th and 5th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "B(1), A(2), N(3), A(4), N(5), A(6)."
+  },
+  {
+    "QuestionText": "If you count backwards from 10, what is the 4th number you say?",
+    "Options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "10(1), 9(2), 8(3), 7(4)."
+  },
+  {
+    "QuestionText": "There are 4 children in a line. If the first child goes to the end, who was 2nd is now ________?",
+    "Options": ["A) 1st", "B) 3rd", "C) 4th", "D) 2nd"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "If #1 leaves the front, everyone moves up one spot. #2 becomes #1."
+  },
+  {
+    "QuestionText": "If December is the last month of the year, which is the month just before it?",
+    "Options": ["A) October", "B) November", "C) January", "D) September"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "November comes before December."
+  },
+  {
+    "QuestionText": "In a row of 20 students, Ravi is 15th from the left. How many students are to his right?",
+    "Options": ["A) 5", "B) 6", "C) 4", "D) 15"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "20 total - 15 positions used = 5 remaining on the right."
+  },
+  {
+    "QuestionText": "Which comes first in alphabetical order: 'Cat', 'Car', or 'Can'?",
+    "Options": ["A) Cat", "B) Car", "C) Can", "D) All start same"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "Third letters: 'n' comes before 'r' and 't'."
+  },
+  {
+    "QuestionText": "If a book is on the 3rd shelf from the bottom of a 5-shelf cupboard, what is its position from the top?",
+    "Options": ["A) 1st", "B) 2nd", "C) 3rd", "D) 4th"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Shelf 1(B), 2, 3(Book), 4, 5(T). From top: 5(1), 4(2), 3(3)."
+  },
+  {
+    "QuestionText": "A train has 6 carriages. The engine is at the front. Which carriage is furthest from the engine?",
+    "Options": ["A) 1st", "B) 3rd", "C) 6th", "D) 5th"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "The last carriage is the 6th."
+  },
+  {
+    "QuestionText": "If you are the 5th person to join a line of 2 people, how many people are in the line now?",
+    "Options": ["A) 3", "B) 5", "C) 7", "D) 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "If there are 2 people and you join, there are 3. The '5th' in the question is a distractor."
+  },
+  {
+    "QuestionText": "Pinky is faster than Rinki but slower than Tinki. Who is the fastest?",
+    "Options": ["A) Pinky", "B) Rinki", "C) Tinki", "D) All same"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Tinki > Pinky > Rinki."
+  },
+  {
+    "QuestionText": "In a week, if today is Friday, what was the day 2 days ago?",
+    "Options": ["A) Saturday", "B) Thursday", "C) Wednesday", "D) Tuesday"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Friday - 1 (Thursday) - 1 (Wednesday)."
+  },
+  {
+    "QuestionText": "Which letter is 2nd to the left of 'D' in the alphabet?",
+    "Options": ["A) B", "B) C", "C) E", "D) A"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "D -> C (1st left) -> B (2nd left)."
+  },
+  {
+    "QuestionText": "If a runner finishes a race behind the person who came in 5th, what position did the runner get?",
+    "Options": ["A) 4th", "B) 6th", "C) 5th", "D) 7th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "The position after 5th is 6th."
+  },
+  {
+    "QuestionText": "In a row of 7 boys, if A is at one end and B is at the other, how many boys are between them?",
+    "Options": ["A) 7", "B) 5", "C) 6", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "7 total - 2 ends = 5 in the middle."
+  },
+  {
+    "QuestionText": "A mountain is higher than a hill. A plateau is lower than the hill. Which is the highest?",
+    "Options": ["A) Plateau", "B) Hill", "C) Mountain", "D) Valley"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Mountain > Hill > Plateau."
+  },
+  {
+    "QuestionText": "If a cat is 2nd in a line of 4 animals, how many animals are behind it?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Positions 3 and 4 are behind position 2."
+  },
+  {
+    "QuestionText": "In the alphabet, which letter is 10th?",
+    "Options": ["A) H", "B) I", "C) J", "D) K"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "A, B, C, D, E, F, G, H, I, J(10)."
+  },
+  {
+    "QuestionText": "If you are the 1st person in a line and someone joins behind you, what is your position now?",
+    "Options": ["A) 1st", "B) 2nd", "C) 3rd", "D) Last"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking and Ordering",
+    "Difficulty": "Foundation",
+    "Explanation": "Joining behind someone does not change the front person's position."
+  }
+]

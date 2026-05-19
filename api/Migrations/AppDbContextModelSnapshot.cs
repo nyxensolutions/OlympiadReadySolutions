@@ -58,6 +58,123 @@ namespace OlympiadReady.Api.Migrations
                     b.ToTable("MockTestResults", (string)null);
                 });
 
+            modelBuilder.Entity("OlympiadReady.Api.Data.Entities.OlympiadSchedule", b =>
+                {
+                    b.Property<int>("OlympiadScheduleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OlympiadScheduleId"));
+
+                    b.Property<int>("AcademicYear")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ExamDateFrom")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ExamDateText")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<DateTime?>("ExamDateTo")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
+                    b.Property<int?>("GradeMax")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("GradeMin")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("LastVerified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Notes")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("OfficialWebsite")
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
+                    b.Property<string>("OlympiadName")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<string>("OrgName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("RegistrationWindow")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("ResultDateText")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Stage")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("OlympiadScheduleId");
+
+                    b.HasIndex("AcademicYear", "OrgName");
+
+                    b.ToTable("OlympiadSchedules", (string)null);
+                });
+
+            modelBuilder.Entity("OlympiadReady.Api.Data.Entities.PdfPurchase", b =>
+                {
+                    b.Property<Guid>("PdfPurchaseId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("NEWID()");
+
+                    b.Property<int>("Grade")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("PurchasedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETDATE()");
+
+                    b.Property<string>("RazorpayOrderId")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("RazorpayPaymentId")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("PdfPurchaseId");
+
+                    b.HasIndex("UserId", "Grade", "Subject");
+
+                    b.ToTable("PdfPurchases", (string)null);
+                });
+
             modelBuilder.Entity("OlympiadReady.Api.Data.Entities.QuestionBankItem", b =>
                 {
                     b.Property<Guid>("QuestionBankId")
@@ -285,6 +402,17 @@ namespace OlympiadReady.Api.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("OlympiadReady.Api.Data.Entities.PdfPurchase", b =>
+                {
+                    b.HasOne("OlympiadReady.Api.Data.Entities.User", "User")
+                        .WithMany("PdfPurchases")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("OlympiadReady.Api.Data.Entities.QuestionPaper", b =>
                 {
                     b.HasOne("OlympiadReady.Api.Data.Entities.User", "User")
@@ -323,6 +451,8 @@ namespace OlympiadReady.Api.Migrations
                     b.Navigation("Mastery");
 
                     b.Navigation("Papers");
+
+                    b.Navigation("PdfPurchases");
 
                     b.Navigation("Results");
 

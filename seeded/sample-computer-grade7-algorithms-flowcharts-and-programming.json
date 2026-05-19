@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "An algorithm is",
+    "Options": [
+      "A) A step-by-step set of instructions to solve a problem",
+      "B) A programming language",
+      "C) A type of hardware",
+      "D) A computer virus"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Algorithm basics",
+    "Difficulty": "Foundation",
+    "Explanation": "An algorithm is a finite, ordered sequence of well-defined instructions to solve a problem or accomplish a task."
+  },
+  {
+    "QuestionText": "A flowchart is",
+    "Options": [
+      "A) A diagram that represents the steps of an algorithm using symbols",
+      "B) A type of spreadsheet",
+      "C) A computer program",
+      "D) A network diagram"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation",
+    "Explanation": "Flowcharts use standardised symbols to visually represent the flow of steps in an algorithm or process."
+  },
+  {
+    "QuestionText": "In a flowchart, an oval/rounded rectangle represents",
+    "Options": [
+      "A) Start or End (Terminal)",
+      "B) A process step",
+      "C) A decision",
+      "D) Input/output"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Flowchart symbols",
+    "Difficulty": "Foundation",
+    "Explanation": "Oval/terminator symbol marks the start and end of a flowchart."
+  },
+  {
+    "QuestionText": "In a flowchart, a rectangle represents",
+    "Options": [
+      "A) A process (computation or action step)",
+      "B) Decision",
+      "C) Start/end",
+      "D) Input/output"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Flowchart symbols",
+    "Difficulty": "Foundation",
+    "Explanation": "Rectangle: a processing step \u2014 an action or computation being performed (e.g. Calculate sum)."
+  },
+  {
+    "QuestionText": "In a flowchart, a diamond represents",
+    "Options": [
+      "A) A decision (Yes/No question)",
+      "B) A process",
+      "C) Start/end",
+      "D) Data storage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Flowchart symbols",
+    "Difficulty": "Foundation",
+    "Explanation": "Diamond: a decision point with typically two exits \u2014 Yes and No (or True/False)."
+  },
+  {
+    "QuestionText": "In a flowchart, a parallelogram represents",
+    "Options": [
+      "A) Input or Output",
+      "B) A process",
+      "C) A decision",
+      "D) Start/end"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Flowchart symbols",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallelogram: input (reading data) or output (displaying results)."
+  },
+  {
+    "QuestionText": "The three basic control structures in programming are",
+    "Options": [
+      "A) Sequence, Selection (decision), and Iteration (loop)",
+      "B) Input, process, output",
+      "C) Variables, functions, classes",
+      "D) Data, code, output"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Control structures",
+    "Difficulty": "Foundation",
+    "Explanation": "All programs are built from: sequence (step by step), selection (if/else), and iteration (loops)."
+  },
+  {
+    "QuestionText": "An 'if-else' statement is an example of",
+    "Options": [
+      "A) Selection (decision/conditional)",
+      "B) Sequence",
+      "C) Iteration",
+      "D) Function"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Selection",
+    "Difficulty": "Foundation",
+    "Explanation": "If-else: tests a condition; if true, one block executes; if false, the other block executes."
+  },
+  {
+    "QuestionText": "A 'for' loop or 'while' loop is an example of",
+    "Options": [
+      "A) Iteration (repetition)",
+      "B) Sequence",
+      "C) Selection",
+      "D) Function"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Iteration",
+    "Difficulty": "Foundation",
+    "Explanation": "Loops repeat a block of code: for (known number of times), while (while condition is true)."
+  },
+  {
+    "QuestionText": "A variable in programming is",
+    "Options": [
+      "A) A named storage location that holds a value which can change",
+      "B) A fixed constant",
+      "C) A type of loop",
+      "D) A flowchart symbol"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Variables",
+    "Difficulty": "Foundation",
+    "Explanation": "Variables store data values that can change during program execution (e.g. score = 0; score can be updated)."
+  },
+  {
+    "QuestionText": "A 'constant' in programming is",
+    "Options": [
+      "A) A value that does not change during program execution",
+      "B) A variable",
+      "C) A loop",
+      "D) An output statement"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Constants",
+    "Difficulty": "Foundation",
+    "Explanation": "Constants have fixed values that cannot be changed after assignment (e.g. PI = 3.14159)."
+  },
+  {
+    "QuestionText": "Which of the following is a valid variable name in most programming languages?",
+    "Options": [
+      "A) totalScore",
+      "B) total Score",
+      "C) 2score",
+      "D) total-score"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Variable naming rules",
+    "Difficulty": "Foundation",
+    "Explanation": "Variable names cannot start with a number, contain spaces, or use hyphens. CamelCase (totalScore) is valid."
+  },
+  {
+    "QuestionText": "A 'function' (or procedure) in programming is",
+    "Options": [
+      "A) A reusable block of code that performs a specific task",
+      "B) A type of loop",
+      "C) A variable",
+      "D) A data type"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Functions allow code reuse: define once, call many times. Improves code organisation and reduces repetition."
+  },
+  {
+    "QuestionText": "Pseudocode is",
+    "Options": [
+      "A) A description of an algorithm in plain language (not a real programming language)",
+      "B) A type of code",
+      "C) A flowchart",
+      "D) Machine language"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Pseudocode",
+    "Difficulty": "Foundation",
+    "Explanation": "Pseudocode uses informal, English-like statements to describe algorithm logic without worrying about programming syntax."
+  },
+  {
+    "QuestionText": "'Debugging' means",
+    "Options": [
+      "A) Finding and fixing errors (bugs) in a program",
+      "B) Writing new code",
+      "C) Compiling a program",
+      "D) Running a program"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Debugging",
+    "Difficulty": "Foundation",
+    "Explanation": "Debugging: the process of identifying, isolating, and correcting errors (bugs) in a program."
+  },
+  {
+    "QuestionText": "A 'syntax error' occurs when",
+    "Options": [
+      "A) The code violates the rules of the programming language",
+      "B) The program gives wrong output",
+      "C) The computer crashes",
+      "D) Memory is full"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Types of errors",
+    "Difficulty": "Foundation",
+    "Explanation": "Syntax errors: rule violations in the programming language (e.g. missing semicolon, wrong keyword). Detected at compile time."
+  },
+  {
+    "QuestionText": "A 'logic error' occurs when",
+    "Options": [
+      "A) The program runs but produces incorrect results due to a flaw in reasoning",
+      "B) The syntax is wrong",
+      "C) The program crashes",
+      "D) Memory is full"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Types of errors",
+    "Difficulty": "Advanced",
+    "Explanation": "Logic errors: the program runs without syntax errors but the output is wrong because the algorithm is incorrect."
+  },
+  {
+    "QuestionText": "A 'runtime error' occurs when",
+    "Options": [
+      "A) The program crashes or behaves unexpectedly while running",
+      "B) The syntax is wrong",
+      "C) The output is wrong logically",
+      "D) The program won't compile"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Types of errors",
+    "Difficulty": "Advanced",
+    "Explanation": "Runtime errors: occur during execution \u2014 e.g. dividing by zero, accessing invalid memory, or null pointer exceptions."
+  },
+  {
+    "QuestionText": "Binary number system uses only the digits",
+    "Options": [
+      "A) 0 and 1",
+      "B) 0 to 7",
+      "C) 0 to 9",
+      "D) 0 to 15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Number systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Binary (base-2) uses only digits 0 and 1. It is the fundamental number system used inside computers."
+  },
+  {
+    "QuestionText": "The binary number 1010 is equal to what in decimal?",
+    "Options": [
+      "A) 10",
+      "B) 8",
+      "C) 12",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Binary to decimal",
+    "Difficulty": "Foundation",
+    "Explanation": "1010 binary = 1\u00d78 + 0\u00d74 + 1\u00d72 + 0\u00d71 = 8 + 2 = 10 decimal."
+  },
+  {
+    "QuestionText": "The decimal number 13 in binary is",
+    "Options": [
+      "A) 1101",
+      "B) 1010",
+      "C) 1001",
+      "D) 1111"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Decimal to binary",
+    "Difficulty": "Advanced",
+    "Explanation": "13 = 8+4+1 = 1\u00d78 + 1\u00d74 + 0\u00d72 + 1\u00d71 = 1101 binary."
+  },
+  {
+    "QuestionText": "An 'array' is",
+    "Options": [
+      "A) A collection of elements of the same data type stored in consecutive memory locations",
+      "B) A single variable",
+      "C) A loop",
+      "D) A function"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Data structures",
+    "Difficulty": "Advanced",
+    "Explanation": "Array: an ordered, indexed collection of items of the same type. Accessed by index (arr[0], arr[1]...)."
+  },
+  {
+    "QuestionText": "Sorting algorithms arrange data in",
+    "Options": [
+      "A) A specified order (ascending or descending)",
+      "B) Random order",
+      "C) Insertion order only",
+      "D) No particular order"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Sorting",
+    "Difficulty": "Advanced",
+    "Explanation": "Sorting algorithms (bubble sort, selection sort, insertion sort) rearrange data into a defined order."
+  },
+  {
+    "QuestionText": "In bubble sort, adjacent elements are compared and",
+    "Options": [
+      "A) Swapped if they are in the wrong order",
+      "B) Never swapped",
+      "C) Deleted if wrong order",
+      "D) Added together"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Bubble sort",
+    "Difficulty": "Advanced",
+    "Explanation": "Bubble sort: repeatedly compare adjacent pairs, swap if out of order. Larger elements 'bubble' to the end."
+  },
+  {
+    "QuestionText": "Binary search works on",
+    "Options": [
+      "A) Sorted lists (divides list in half each time)",
+      "B) Unsorted lists",
+      "C) Only numerical data",
+      "D) Linked lists only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Searching algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Binary search: requires sorted list; compare middle element, eliminate half, repeat. O(log n) complexity."
+  },
+  {
+    "QuestionText": "Linear search",
+    "Options": [
+      "A) Checks every element one by one from the start",
+      "B) Only checks the middle",
+      "C) Requires sorted data",
+      "D) Uses division"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Searching algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Linear (sequential) search: checks each element in order until the target is found or the list ends. O(n) complexity."
+  },
+  {
+    "QuestionText": "What is the output of: x = 5; y = 3; print(x + y)?",
+    "Options": [
+      "A) 8",
+      "B) 53",
+      "C) 15",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Basic programming output",
+    "Difficulty": "Foundation",
+    "Explanation": "x + y = 5 + 3 = 8. The + operator adds numerical values."
+  },
+  {
+    "QuestionText": "What does the modulus (%) operator do?",
+    "Options": [
+      "A) Returns the remainder after division",
+      "B) Multiplies numbers",
+      "C) Divides numbers",
+      "D) Returns the quotient"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Operators",
+    "Difficulty": "Foundation",
+    "Explanation": "Modulus: 10 % 3 = 1 (remainder of 10 \u00f7 3). Used to check divisibility, odd/even, etc."
+  },
+  {
+    "QuestionText": "What is 7 % 2?",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Modulus operator",
+    "Difficulty": "Foundation",
+    "Explanation": "7 \u00f7 2 = 3 remainder 1. So 7 % 2 = 1."
+  },
+  {
+    "QuestionText": "A 'loop counter' (like i in a for loop) is used to",
+    "Options": [
+      "A) Track how many times the loop has executed",
+      "B) Name the loop",
+      "C) Store the output",
+      "D) Check conditions"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Loops",
+    "Difficulty": "Foundation",
+    "Explanation": "Loop counter: a variable that increments each iteration, controlling the number of times the loop runs."
+  },
+  {
+    "QuestionText": "An infinite loop occurs when",
+    "Options": [
+      "A) The loop's termination condition is never met",
+      "B) The loop runs exactly 10 times",
+      "C) The loop has a counter",
+      "D) The loop processes arrays"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Loops",
+    "Difficulty": "Foundation",
+    "Explanation": "Infinite loop: loop condition never becomes false so the loop runs forever. A bug unless intentional (server loops)."
+  },
+  {
+    "QuestionText": "High-level programming languages are",
+    "Options": [
+      "A) Closer to human language and easier for programmers to understand",
+      "B) Closer to machine language",
+      "C) Only understood by CPUs",
+      "D) Written in binary"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Programming languages",
+    "Difficulty": "Foundation",
+    "Explanation": "High-level languages (Python, Java, C++) use English-like syntax. Low-level languages (assembly, machine code) are closer to hardware."
+  },
+  {
+    "QuestionText": "A compiler translates",
+    "Options": [
+      "A) The entire source code to machine code before execution",
+      "B) One line at a time",
+      "C) Only comments",
+      "D) Only functions"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Compiler vs interpreter",
+    "Difficulty": "Advanced",
+    "Explanation": "Compiler: translates whole source code to machine code at once before running. Interpreter: translates and runs line by line."
+  },
+  {
+    "QuestionText": "An interpreter translates and executes code",
+    "Options": [
+      "A) Line by line during runtime",
+      "B) All at once before running",
+      "C) Only functions",
+      "D) After compilation"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Compiler vs interpreter",
+    "Difficulty": "Advanced",
+    "Explanation": "Interpreter: translates each statement to machine code and executes it immediately. Python uses an interpreter."
+  },
+  {
+    "QuestionText": "Source code is",
+    "Options": [
+      "A) The human-readable program written by the programmer",
+      "B) Machine binary code",
+      "C) Executable file",
+      "D) Compiled output"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Source code",
+    "Difficulty": "Foundation",
+    "Explanation": "Source code: the original program as written in a programming language, readable by humans."
+  },
+  {
+    "QuestionText": "Machine code is",
+    "Options": [
+      "A) Binary instructions directly executed by the CPU",
+      "B) High-level source code",
+      "C) Assembly language",
+      "D) Pseudocode"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Machine code",
+    "Difficulty": "Foundation",
+    "Explanation": "Machine code: binary (0s and 1s) instructions that a CPU can execute directly. All programs ultimately run as machine code."
+  },
+  {
+    "QuestionText": "The hexadecimal (base-16) system uses",
+    "Options": [
+      "A) Digits 0-9 and letters A-F",
+      "B) Digits 0-7",
+      "C) Digits 0-9 only",
+      "D) Digits 0-1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Hexadecimal",
+    "Difficulty": "Advanced",
+    "Explanation": "Hexadecimal: base-16 system using 0-9 and A-F (A=10, B=11, C=12, D=13, E=14, F=15). Used in memory addresses, HTML colours."
+  },
+  {
+    "QuestionText": "The logical AND operation returns true only when",
+    "Options": [
+      "A) Both inputs are true",
+      "B) At least one input is true",
+      "C) Both are false",
+      "D) Neither is true"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Logical operators",
+    "Difficulty": "Advanced",
+    "Explanation": "AND (&&): true only if BOTH operands are true. True AND True = True; anything with False = False."
+  },
+  {
+    "QuestionText": "The logical OR operation returns true when",
+    "Options": [
+      "A) At least one input is true",
+      "B) Both inputs must be true",
+      "C) Both inputs are false",
+      "D) The first is true only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Logical operators",
+    "Difficulty": "Advanced",
+    "Explanation": "OR (||): true if AT LEAST ONE operand is true. False OR False = False; everything else = True."
+  },
+  {
+    "QuestionText": "The logical NOT operation",
+    "Options": [
+      "A) Reverses the truth value (NOT true = false)",
+      "B) Makes both true",
+      "C) Makes both false",
+      "D) Adds values"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Logical operators",
+    "Difficulty": "Foundation",
+    "Explanation": "NOT: reverses Boolean value. NOT true = false. NOT false = true."
+  },
+  {
+    "QuestionText": "In object-oriented programming, a 'class' is",
+    "Options": [
+      "A) A blueprint/template for creating objects",
+      "B) An array",
+      "C) A loop type",
+      "D) A variable"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "OOP concepts",
+    "Difficulty": "Olympiad",
+    "Explanation": "Class: defines attributes (data) and methods (behaviour) that objects of that class will have."
+  },
+  {
+    "QuestionText": "Recursion in programming is when",
+    "Options": [
+      "A) A function calls itself to solve a smaller version of the problem",
+      "B) A loop repeats",
+      "C) A variable changes",
+      "D) A function uses two loops"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Recursion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Recursion: a function that calls itself with a smaller input until a base case is reached. Used in factorial, Fibonacci, tree traversal."
+  },
+  {
+    "QuestionText": "The time complexity O(n) means",
+    "Options": [
+      "A) The algorithm's time grows linearly with input size",
+      "B) Constant time",
+      "C) Squared growth",
+      "D) Logarithmic growth"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Algorithm complexity",
+    "Difficulty": "Olympiad",
+    "Explanation": "Big-O notation describes algorithm efficiency. O(n) = linear (if n doubles, time doubles)."
+  },
+  {
+    "QuestionText": "What does an algorithm's 'efficiency' refer to?",
+    "Options": [
+      "A) How fast and how little memory it uses to solve a problem",
+      "B) How many lines of code it has",
+      "C) How readable the code is",
+      "D) How many functions it has"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Algorithm efficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "Algorithmic efficiency: time complexity (speed) and space complexity (memory usage). Better algorithms solve problems faster with less memory."
+  },
+  {
+    "QuestionText": "Which flowchart symbol is used to connect different parts of the flowchart across pages?",
+    "Options": [
+      "A) Connector (small circle)",
+      "B) Rectangle",
+      "C) Diamond",
+      "D) Parallelogram"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Flowchart symbols",
+    "Difficulty": "Advanced",
+    "Explanation": "The connector symbol (circle or on-page connector) links different parts of a flowchart, especially when it spans multiple pages."
+  },
+  {
+    "QuestionText": "A 'test case' in programming is",
+    "Options": [
+      "A) A specific set of inputs used to check if a program produces the correct output",
+      "B) A type of loop",
+      "C) A debugging tool",
+      "D) A compiler option"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Software testing",
+    "Difficulty": "Advanced",
+    "Explanation": "Test cases: defined inputs with expected outputs used to verify program correctness. Unit testing, integration testing."
+  },
+  {
+    "QuestionText": "Structured programming avoids",
+    "Options": [
+      "A) Uncontrolled jumps (like GOTO) in favour of sequence, selection, and iteration",
+      "B) All loops",
+      "C) All decisions",
+      "D) Any output"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Structured programming",
+    "Difficulty": "Olympiad",
+    "Explanation": "Structured programming: uses only sequence, selection, and iteration control structures; avoids GOTO for maintainability."
+  },
+  {
+    "QuestionText": "What is the output: for i in range(3): print(i)?",
+    "Options": [
+      "A) 0, 1, 2 (three separate lines)",
+      "B) 1, 2, 3",
+      "C) 0, 1, 2, 3",
+      "D) 3, 2, 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Python loops",
+    "Difficulty": "Advanced",
+    "Explanation": "range(3) generates 0, 1, 2 (three values starting from 0). The loop prints 0, then 1, then 2."
+  },
+  {
+    "QuestionText": "What does 'DRY' stand for in programming best practices?",
+    "Options": [
+      "A) Don't Repeat Yourself",
+      "B) Do Repeat Yearly",
+      "C) Debug, Refactor, Yield",
+      "D) Design, Run, Yield"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Programming principles",
+    "Difficulty": "Olympiad",
+    "Explanation": "DRY: Don't Repeat Yourself \u2014 avoid code duplication by using functions, loops, and abstractions."
+  },
+  {
+    "QuestionText": "A 'stack' data structure works on the principle of",
+    "Options": [
+      "A) Last In, First Out (LIFO)",
+      "B) First In, First Out (FIFO)",
+      "C) Random access",
+      "D) Sorted order"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms, Flowcharts and Programming",
+    "SubTopic": "Data structures",
+    "Difficulty": "Olympiad",
+    "Explanation": "Stack: LIFO \u2014 the last item pushed onto the stack is the first to be popped off. Like a stack of plates."
+  }
+]

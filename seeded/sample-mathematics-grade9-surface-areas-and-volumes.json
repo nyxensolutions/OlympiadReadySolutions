@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The total surface area of a cube with side a is:",
+    "Options": [
+      "A) 4a\u00b2",
+      "B) 5a\u00b2",
+      "C) 6a\u00b2",
+      "D) a\u00b3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "A cube has 6 identical square faces. TSA = 6 \u00d7 a\u00b2 = 6a\u00b2."
+  },
+  {
+    "QuestionText": "Volume of a cube with side 3 cm is:",
+    "Options": [
+      "A) 9 cm\u00b3",
+      "B) 18 cm\u00b3",
+      "C) 27 cm\u00b3",
+      "D) 54 cm\u00b3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume of cube = a\u00b3 = 3\u00b3 = 27 cm\u00b3."
+  },
+  {
+    "QuestionText": "The lateral surface area of a cuboid l\u00d7b\u00d7h is:",
+    "Options": [
+      "A) 2(lb+bh+hl)",
+      "B) 2(l+b)\u00d7h",
+      "C) lbh",
+      "D) l+b+h"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cuboid",
+    "Difficulty": "Foundation",
+    "Explanation": "Lateral (curved) surface area = perimeter of base \u00d7 height = 2(l+b)\u00d7h. TSA = 2(lb+bh+hl)."
+  },
+  {
+    "QuestionText": "Volume of a cuboid with dimensions 4\u00d73\u00d72 is:",
+    "Options": [
+      "A) 9",
+      "B) 24",
+      "C) 26",
+      "D) 48"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cuboid",
+    "Difficulty": "Foundation",
+    "Explanation": "V = l\u00d7b\u00d7h = 4\u00d73\u00d72 = 24 cm\u00b3."
+  },
+  {
+    "QuestionText": "The curved surface area of a cylinder with radius r and height h is:",
+    "Options": [
+      "A) \u03c0r\u00b2h",
+      "B) 2\u03c0rh",
+      "C) 2\u03c0r(r+h)",
+      "D) \u03c0r\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Foundation",
+    "Explanation": "CSA of cylinder = 2\u03c0rh (lateral surface area). TSA = 2\u03c0r(r+h) = 2\u03c0rh + 2\u03c0r\u00b2."
+  },
+  {
+    "QuestionText": "Volume of a cylinder with r=7 cm, h=10 cm (\u03c0=22/7) is:",
+    "Options": [
+      "A) 44 cm\u00b3",
+      "B) 220 cm\u00b3",
+      "C) 1540 cm\u00b3",
+      "D) 4400 cm\u00b3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Foundation",
+    "Explanation": "V = \u03c0r\u00b2h = (22/7)\u00d749\u00d710 = 22\u00d77\u00d710 = 1540 cm\u00b3."
+  },
+  {
+    "QuestionText": "The slant height of a cone with radius r and height h is:",
+    "Options": [
+      "A) r+h",
+      "B) \u221a(r+h)",
+      "C) \u221a(r\u00b2+h\u00b2)",
+      "D) r\u00d7h"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "Slant height l = \u221a(r\u00b2+h\u00b2) by Pythagoras (r, h, l form a right triangle)."
+  },
+  {
+    "QuestionText": "The curved surface area of a cone is:",
+    "Options": [
+      "A) \u03c0rl",
+      "B) \u03c0r\u00b2",
+      "C) \u03c0r(r+l)",
+      "D) 2\u03c0rl"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "CSA of cone = \u03c0rl where r is radius and l is slant height. TSA = \u03c0rl + \u03c0r\u00b2 = \u03c0r(l+r)."
+  },
+  {
+    "QuestionText": "Volume of a cone is:",
+    "Options": [
+      "A) \u03c0r\u00b2h",
+      "B) (1/3)\u03c0r\u00b2h",
+      "C) (2/3)\u03c0r\u00b3",
+      "D) \u03c0rh"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume of cone = (1/3)\u03c0r\u00b2h. A cone is 1/3 of the volume of a cylinder with the same base and height."
+  },
+  {
+    "QuestionText": "The surface area of a sphere with radius r is:",
+    "Options": [
+      "A) \u03c0r\u00b2",
+      "B) 2\u03c0r\u00b2",
+      "C) 3\u03c0r\u00b2",
+      "D) 4\u03c0r\u00b2"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Foundation",
+    "Explanation": "Surface area of a sphere = 4\u03c0r\u00b2."
+  },
+  {
+    "QuestionText": "Volume of a sphere with radius r is:",
+    "Options": [
+      "A) (1/3)\u03c0r\u00b3",
+      "B) (2/3)\u03c0r\u00b3",
+      "C) \u03c0r\u00b3",
+      "D) (4/3)\u03c0r\u00b3"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume of sphere = (4/3)\u03c0r\u00b3."
+  },
+  {
+    "QuestionText": "Volume of a hemisphere with radius r is:",
+    "Options": [
+      "A) 2\u03c0r\u00b3",
+      "B) (2/3)\u03c0r\u00b3",
+      "C) (4/3)\u03c0r\u00b3",
+      "D) \u03c0r\u00b3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume of hemisphere = half the sphere = (1/2)\u00d7(4/3)\u03c0r\u00b3 = (2/3)\u03c0r\u00b3."
+  },
+  {
+    "QuestionText": "Total surface area of a hemisphere (including flat face) is:",
+    "Options": [
+      "A) 2\u03c0r\u00b2",
+      "B) 3\u03c0r\u00b2",
+      "C) 4\u03c0r\u00b2",
+      "D) \u03c0r\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Foundation",
+    "Explanation": "Curved surface = 2\u03c0r\u00b2 (half sphere). Flat circular face = \u03c0r\u00b2. TSA = 2\u03c0r\u00b2 + \u03c0r\u00b2 = 3\u03c0r\u00b2."
+  },
+  {
+    "QuestionText": "A cylinder has r=7, h=14. Volume in cm\u00b3 (\u03c0=22/7):",
+    "Options": [
+      "A) 154",
+      "B) 2156",
+      "C) 3080",
+      "D) 1540"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "V = \u03c0r\u00b2h = (22/7)\u00d749\u00d714 = 22\u00d77\u00d714 = 2156 cm\u00b3."
+  },
+  {
+    "QuestionText": "If the radius of a sphere is doubled, its volume becomes:",
+    "Options": [
+      "A) 2 times",
+      "B) 4 times",
+      "C) 8 times",
+      "D) 16 times"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "V = (4/3)\u03c0r\u00b3. If r\u21922r: V = (4/3)\u03c0(2r)\u00b3 = 8\u00d7(4/3)\u03c0r\u00b3 = 8 times original volume."
+  },
+  {
+    "QuestionText": "A cone has r=6 cm, slant height l=10 cm. CSA =",
+    "Options": [
+      "A) 60\u03c0",
+      "B) 120\u03c0",
+      "C) 240\u03c0",
+      "D) 36\u03c0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Advanced",
+    "Explanation": "CSA = \u03c0rl = \u03c0\u00d76\u00d710 = 60\u03c0 cm\u00b2."
+  },
+  {
+    "QuestionText": "A cone and cylinder have same base area and height. Ratio of volumes is:",
+    "Options": [
+      "A) 1:1",
+      "B) 1:2",
+      "C) 1:3",
+      "D) 2:3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "V_cone = (1/3)\u03c0r\u00b2h, V_cylinder = \u03c0r\u00b2h. Ratio = 1:3. A cone holds 1/3 the volume of the corresponding cylinder."
+  },
+  {
+    "QuestionText": "Volume of sphere with r=3 cm (\u03c0=22/7):",
+    "Options": [
+      "A) 88 cm\u00b3",
+      "B) 113.1 cm\u00b3",
+      "C) 792/7 cm\u00b3",
+      "D) 100 cm\u00b3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "V=(4/3)\u00d7(22/7)\u00d727 = (4\u00d722\u00d727)/(3\u00d77) = 2376/21 = 792/7 \u2248 113.1 cm\u00b3."
+  },
+  {
+    "QuestionText": "A cuboid has surface area 150 cm\u00b2. If it's a cube, side = ?",
+    "Options": [
+      "A) 5",
+      "B) 6",
+      "C) 10",
+      "D) 25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "6a\u00b2=150 \u2192 a\u00b2=25 \u2192 a=5 cm."
+  },
+  {
+    "QuestionText": "The total surface area of a cylinder (r=5, h=7, \u03c0=22/7) =",
+    "Options": [
+      "A) 220 cm\u00b2",
+      "B) 330 cm\u00b2",
+      "C) 440 cm\u00b2",
+      "D) 376.57 cm\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA=2\u03c0r(r+h)=2\u00d7(22/7)\u00d75\u00d7(5+7)=2\u00d7(22/7)\u00d75\u00d712=2\u00d7(22/7)\u00d760=2640/7=377.14\u2248440 when \u03c0\u22483.14."
+  },
+  {
+    "QuestionText": "Height of a cone is 12 and slant height is 13. Its radius is:",
+    "Options": [
+      "A) 1",
+      "B) 5",
+      "C) 7",
+      "D) 10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "l\u00b2=r\u00b2+h\u00b2 \u2192 169=r\u00b2+144 \u2192 r\u00b2=25 \u2192 r=5. (5-12-13 Pythagorean triple)"
+  },
+  {
+    "QuestionText": "A sphere fits exactly inside a cube of side 6 cm. The radius of sphere = ?",
+    "Options": [
+      "A) 3",
+      "B) 6",
+      "C) 9",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "Sphere inscribed in cube: diameter = side of cube. d=6 \u2192 r=3 cm."
+  },
+  {
+    "QuestionText": "Diagonal of a cuboid l\u00d7b\u00d7h is:",
+    "Options": [
+      "A) l+b+h",
+      "B) \u221a(lb+bh+hl)",
+      "C) \u221a(l\u00b2+b\u00b2+h\u00b2)",
+      "D) lbh"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cuboid",
+    "Difficulty": "Advanced",
+    "Explanation": "Space diagonal = \u221a(l\u00b2+b\u00b2+h\u00b2) by 3D Pythagoras theorem."
+  },
+  {
+    "QuestionText": "A hollow cylinder has outer radius R, inner radius r, height h. Volume of material = ?",
+    "Options": [
+      "A) \u03c0(R\u00b2\u2212r\u00b2)h",
+      "B) \u03c0R\u00b2h",
+      "C) \u03c0r\u00b2h",
+      "D) \u03c0(R+r)h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "Volume of hollow cylinder = outer volume \u2212 inner volume = \u03c0R\u00b2h \u2212 \u03c0r\u00b2h = \u03c0(R\u00b2\u2212r\u00b2)h."
+  },
+  {
+    "QuestionText": "The volume of a cone = 1/3 of cylinder. If a cone and hemisphere have same base (r) and height (r), their volumes ratio is:",
+    "Options": [
+      "A) 1:2",
+      "B) 2:1",
+      "C) 1:3",
+      "D) 1:1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Olympiad",
+    "Explanation": "V_cone = (1/3)\u03c0r\u00b3. V_hemisphere = (2/3)\u03c0r\u00b3. Ratio = (1/3):(2/3) = 1:2."
+  },
+  {
+    "QuestionText": "How many lead balls of radius 1 cm can be made from a lead sphere of radius 4 cm?",
+    "Options": [
+      "A) 16",
+      "B) 32",
+      "C) 64",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "V_big = (4/3)\u03c0\u00d764. V_small = (4/3)\u03c0\u00d71. Number = 64/1 = 64."
+  },
+  {
+    "QuestionText": "If a cube has TSA = 96 cm\u00b2, volume = ?",
+    "Options": [
+      "A) 16 cm\u00b3",
+      "B) 24 cm\u00b3",
+      "C) 64 cm\u00b3",
+      "D) 8 cm\u00b3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Advanced",
+    "Explanation": "6a\u00b2=96 \u2192 a\u00b2=16 \u2192 a=4. V=a\u00b3=64 cm\u00b3."
+  },
+  {
+    "QuestionText": "The area of the base of a cylinder = 154 cm\u00b2 (\u03c0=22/7). Its radius = ?",
+    "Options": [
+      "A) 5",
+      "B) 7",
+      "C) 14",
+      "D) 22"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Foundation",
+    "Explanation": "\u03c0r\u00b2=154 \u2192 (22/7)r\u00b2=154 \u2192 r\u00b2=154\u00d77/22=49 \u2192 r=7 cm."
+  },
+  {
+    "QuestionText": "Water in a cylindrical tank with r=7 and h=15 has volume (\u03c0=22/7):",
+    "Options": [
+      "A) 660",
+      "B) 1540",
+      "C) 2310",
+      "D) 3080"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "V=\u03c0r\u00b2h=(22/7)\u00d749\u00d715=22\u00d77\u00d715=2310 cm\u00b3."
+  },
+  {
+    "QuestionText": "Cone's radius is doubled and height is halved. New volume compared to old:",
+    "Options": [
+      "A) Same",
+      "B) Double",
+      "C) Half",
+      "D) Four times"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Olympiad",
+    "Explanation": "V=(1/3)\u03c0r\u00b2h. New V=(1/3)\u03c0(2r)\u00b2(h/2)=(1/3)\u03c0\u00d74r\u00b2\u00d7h/2=2\u00d7(1/3)\u03c0r\u00b2h=2V. Doubled."
+  },
+  {
+    "QuestionText": "The volume of a right circular cone with base area B and height h is:",
+    "Options": [
+      "A) Bh",
+      "B) Bh/3",
+      "C) 2Bh/3",
+      "D) 3Bh"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "V = (1/3)\u00d7B\u00d7h where B = \u03c0r\u00b2 is the base area."
+  },
+  {
+    "QuestionText": "A wire of radius r and length l is melted into a sphere. Volume of sphere = ?",
+    "Options": [
+      "A) \u03c0r\u00b2l",
+      "B) \u03c0rl",
+      "C) \u03c0r\u00b2",
+      "D) 2\u03c0rl"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "Volume is conserved when melting/reshaping. Wire volume = \u03c0r\u00b2l = sphere volume."
+  },
+  {
+    "QuestionText": "Curved surface area of cone : curved surface area of cylinder (same r, h) = ?",
+    "Options": [
+      "A) l:h",
+      "B) r:l",
+      "C) h:l",
+      "D) 1:2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Olympiad",
+    "Explanation": "CSA_cone = \u03c0rl. CSA_cylinder = 2\u03c0rh. Ratio = l:(2h). If same r only: \u03c0rl/2\u03c0rh = l/2h. For same r and h: ratio = l:2h = l:(2h)."
+  },
+  {
+    "QuestionText": "A rectangular box (8\u00d75\u00d73) has volume:",
+    "Options": [
+      "A) 16",
+      "B) 120",
+      "C) 79",
+      "D) 200"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cuboid",
+    "Difficulty": "Foundation",
+    "Explanation": "V = 8\u00d75\u00d73 = 120 cm\u00b3."
+  },
+  {
+    "QuestionText": "TSA of cuboid 4\u00d73\u00d72 =",
+    "Options": [
+      "A) 24",
+      "B) 32",
+      "C) 48",
+      "D) 52"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cuboid",
+    "Difficulty": "Foundation",
+    "Explanation": "TSA=2(lb+bh+hl)=2(12+6+8)=2\u00d726=52 cm\u00b2."
+  },
+  {
+    "QuestionText": "The surface area of the curved part of hemisphere = ?",
+    "Options": [
+      "A) \u03c0r\u00b2",
+      "B) 2\u03c0r\u00b2",
+      "C) 3\u03c0r\u00b2",
+      "D) 4\u03c0r\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Foundation",
+    "Explanation": "CSA of hemisphere = 2\u03c0r\u00b2 (half the sphere's total surface area of 4\u03c0r\u00b2)."
+  },
+  {
+    "QuestionText": "Volume of cone with r=3, h=4 (exact):",
+    "Options": [
+      "A) 12\u03c0",
+      "B) 36\u03c0",
+      "C) 4\u03c0",
+      "D) 48\u03c0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "V=(1/3)\u03c0r\u00b2h=(1/3)\u03c0\u00d79\u00d74=12\u03c0."
+  },
+  {
+    "QuestionText": "A cube has volume 125 cm\u00b3. Its surface area is:",
+    "Options": [
+      "A) 25 cm\u00b2",
+      "B) 50 cm\u00b2",
+      "C) 125 cm\u00b2",
+      "D) 150 cm\u00b2"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "V=a\u00b3=125 \u2192 a=5. TSA=6a\u00b2=6\u00d725=150 cm\u00b2."
+  },
+  {
+    "QuestionText": "Surface area of sphere with r=7 (\u03c0=22/7):",
+    "Options": [
+      "A) 154",
+      "B) 308",
+      "C) 616",
+      "D) 1232"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Foundation",
+    "Explanation": "SA=4\u03c0r\u00b2=4\u00d7(22/7)\u00d749=4\u00d722\u00d77=616 cm\u00b2."
+  },
+  {
+    "QuestionText": "Height of cone=6, radius=8. Slant height:",
+    "Options": [
+      "A) 10",
+      "B) 14",
+      "C) 7",
+      "D) 100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Foundation",
+    "Explanation": "l=\u221a(r\u00b2+h\u00b2)=\u221a(64+36)=\u221a100=10. (6-8-10 Pythagorean triple)"
+  },
+  {
+    "QuestionText": "If each side of a cube is halved, its volume becomes:",
+    "Options": [
+      "A) 1/2",
+      "B) 1/4",
+      "C) 1/8",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "V=a\u00b3. If a\u2192a/2: V=(a/2)\u00b3=a\u00b3/8=V/8. Volume becomes 1/8 of original."
+  },
+  {
+    "QuestionText": "TSA of cone with r=5, l=13:",
+    "Options": [
+      "A) 90\u03c0",
+      "B) 65\u03c0",
+      "C) 25\u03c0",
+      "D) 120\u03c0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cone",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA=\u03c0r(r+l)=\u03c0\u00d75\u00d7(5+13)=5\u03c0\u00d718=90\u03c0."
+  },
+  {
+    "QuestionText": "Cylindrical tank volume = 30800 cm\u00b3, radius = 14 cm (\u03c0=22/7). Height = ?",
+    "Options": [
+      "A) 5 cm",
+      "B) 7 cm",
+      "C) 10 cm",
+      "D) 50 cm"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Olympiad",
+    "Explanation": "V=\u03c0r\u00b2h \u2192 30800=(22/7)\u00d7196\u00d7h \u2192 30800=616h \u2192 h=50 cm."
+  },
+  {
+    "QuestionText": "TSA of a hemisphere with r=7 (\u03c0=22/7) =",
+    "Options": [
+      "A) 154",
+      "B) 231",
+      "C) 308",
+      "D) 462"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA=3\u03c0r\u00b2=3\u00d7(22/7)\u00d749=3\u00d722\u00d77=462 cm\u00b2."
+  },
+  {
+    "QuestionText": "A metal sphere of r=4 melted into 8 smaller equal spheres. Radius of each small sphere:",
+    "Options": [
+      "A) 0.5",
+      "B) 1",
+      "C) 2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "V_big=(4/3)\u03c0\u00d764. 8\u00d7V_small=(4/3)\u03c0\u00d764. V_small=(4/3)\u03c0\u00d78 \u2192 r\u00b3=8 \u2192 r=2."
+  },
+  {
+    "QuestionText": "Ratio of volumes of cone and sphere of same radius:",
+    "Options": [
+      "A) 1:3",
+      "B) 1:4",
+      "C) 4:9",
+      "D) 3:4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Sphere",
+    "Difficulty": "Olympiad",
+    "Explanation": "V_cone (h=r)=(1/3)\u03c0r\u00b3. V_sphere=(4/3)\u03c0r\u00b3. Ratio=(1/3):(4/3)=1:4."
+  },
+  {
+    "QuestionText": "The number of faces of a cuboid is:",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cuboid",
+    "Difficulty": "Foundation",
+    "Explanation": "A cuboid has 6 rectangular faces (3 pairs of opposite faces), 12 edges, and 8 vertices."
+  },
+  {
+    "QuestionText": "If volume of cube A is 8 times volume of cube B, ratio of their edges is:",
+    "Options": [
+      "A) 8:1",
+      "B) 4:1",
+      "C) 2:1",
+      "D) 1:2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "V\u221da\u00b3. V_A/V_B=8 \u2192 (a_A/a_B)\u00b3=8 \u2192 a_A/a_B=2. Ratio=2:1."
+  },
+  {
+    "QuestionText": "Volume of cube with side 5 cm = ?",
+    "Options": [
+      "A) 25 cm\u00b3",
+      "B) 100 cm\u00b3",
+      "C) 125 cm\u00b3",
+      "D) 150 cm\u00b3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "V=a\u00b3=5\u00b3=125 cm\u00b3."
+  },
+  {
+    "QuestionText": "TSA of cube with side 4 cm = ?",
+    "Options": [
+      "A) 16 cm\u00b2",
+      "B) 64 cm\u00b2",
+      "C) 96 cm\u00b2",
+      "D) 48 cm\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Surface Areas and Volumes",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "TSA=6a\u00b2=6\u00d716=96 cm\u00b2."
+  }
+]

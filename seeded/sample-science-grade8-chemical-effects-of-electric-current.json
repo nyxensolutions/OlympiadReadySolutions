@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "When electric current is passed through a conducting solution, which process occurs?",
+    "Options": [
+      "A) Combustion",
+      "B) Electrolysis",
+      "C) Photosynthesis",
+      "D) Fermentation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Electrolysis is the process by which a chemical change is produced in a substance by passing electric current through it. The substance (electrolyte) is decomposed by the electric current. Example: passing current through water (with dissolved electrolyte) decomposes it into hydrogen and oxygen gases."
+  },
+  {
+    "QuestionText": "An electrolyte is a substance that:",
+    "Options": [
+      "A) Produces electricity when heated",
+      "B) Conducts electricity when dissolved in water or melted, due to free ions",
+      "C) Blocks electric current in a solution",
+      "D) Changes colour when electricity passes through it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Electrolytes are substances that produce free ions when dissolved in water (or melted), allowing electricity to flow. Examples: salt (NaCl \u2192 Na\u207a + Cl\u207b), copper sulphate (CuSO\u2084 \u2192 Cu\u00b2\u207a + SO\u2084\u00b2\u207b), acids, bases. Non-electrolytes (sugar, alcohol) do not produce ions and do not conduct electricity in solution."
+  },
+  {
+    "QuestionText": "In electrolysis, positive ions (cations) migrate toward which electrode?",
+    "Options": [
+      "A) Anode (positive electrode)",
+      "B) Cathode (negative electrode)",
+      "C) They do not move",
+      "D) Both electrodes equally"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "In electrolysis: positive ions (cations, e.g., Cu\u00b2\u207a, Na\u207a, H\u207a) migrate toward the cathode (negative electrode) because opposite charges attract. Negative ions (anions, e.g., Cl\u207b, SO\u2084\u00b2\u207b, OH\u207b) migrate toward the anode (positive electrode). At each electrode, chemical reactions (reduction at cathode, oxidation at anode) occur."
+  },
+  {
+    "QuestionText": "Which of the following is a good conductor of electricity?",
+    "Options": [
+      "A) Distilled water",
+      "B) Sugar solution",
+      "C) Copper sulphate solution",
+      "D) Pure alcohol"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Copper sulphate (CuSO\u2084) solution contains free Cu\u00b2\u207a and SO\u2084\u00b2\u207b ions that carry electric current \u2014 it is a good electrolyte/conductor. Distilled water has almost no ions (pure H\u2082O), sugar doesn't ionise, and alcohol doesn't ionise \u2014 all are poor conductors (non-electrolytes or very weak electrolytes)."
+  },
+  {
+    "QuestionText": "Electroplating is the process of:",
+    "Options": [
+      "A) Extracting metals from ores using electricity",
+      "B) Depositing a thin layer of one metal onto another using electrolysis",
+      "C) Purifying water using electric current",
+      "D) Generating electricity from chemical reactions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "Electroplating uses electrolysis to deposit a thin, adherent layer of one metal (e.g., gold, silver, chromium, nickel) onto the surface of another metal object. The object to be plated is the cathode; the plating metal is the anode; the electrolyte solution contains ions of the plating metal. Used for: corrosion protection, aesthetics, hardening surfaces."
+  },
+  {
+    "QuestionText": "In electroplating a key with silver: which material should be the cathode?",
+    "Options": [
+      "A) Silver rod",
+      "B) Copper rod",
+      "C) The key to be plated",
+      "D) Carbon rod"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "In electroplating: cathode = object to be plated (key), anode = metal to be deposited (silver rod), electrolyte = silver nitrate solution. Silver ions (Ag\u207a) migrate from solution to cathode (key) and are deposited as silver metal. The silver anode dissolves to replenish Ag\u207a ions in solution, maintaining constant concentration."
+  },
+  {
+    "QuestionText": "LED (Light Emitting Diode) lights up when electric current flows through it. What does this demonstrate?",
+    "Options": [
+      "A) Chemical effect of electric current",
+      "B) Heating effect of electric current",
+      "C) Magnetic effect of electric current",
+      "D) Luminous effect of electric current"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Effects of Electric Current",
+    "Difficulty": "Foundation",
+    "Explanation": "LED demonstrates the luminous (light-producing) effect of electric current. In an LED, electrons recombine with holes releasing energy as photons (light). While this could be classified as an electromagnetic/luminous effect, heating effect is seen in bulb filaments, magnetic effect in electromagnets, and chemical effect in electrolysis. LED is a direct conversion of electrical energy to light."
+  },
+  {
+    "QuestionText": "Electrolysis of brine (salt water) produces which gases?",
+    "Options": [
+      "A) Hydrogen and oxygen",
+      "B) Chlorine and hydrogen, with sodium hydroxide solution",
+      "C) Carbon dioxide and water",
+      "D) Sodium and chlorine gases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Electrolysis of brine (NaCl solution): At cathode: 2H\u207a + 2e\u207b \u2192 H\u2082 (hydrogen gas produced). At anode: 2Cl\u207b \u2192 Cl\u2082 + 2e\u207b (chlorine gas produced). The remaining Na\u207a and OH\u207b ions form NaOH (sodium hydroxide) solution. All three products are commercially important: Cl\u2082 for disinfectants/PVC, H\u2082 for fuel, NaOH for soap/paper making."
+  },
+  {
+    "QuestionText": "Which effect of electric current is used in the electroplating process?",
+    "Options": [
+      "A) Heating effect",
+      "B) Magnetic effect",
+      "C) Chemical effect",
+      "D) Luminous effect"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "Electroplating uses the chemical effect of electric current \u2014 passing current through an electrolyte solution causes chemical changes (deposition of metal ions at the cathode). Heating effect is used in heaters/bulbs; magnetic effect in motors/electromagnets; luminous effect in LEDs. These are the four main effects of electric current: heating, magnetic, chemical, and luminous."
+  },
+  {
+    "QuestionText": "Why is chromium electroplated on steel taps and handles?",
+    "Options": [
+      "A) Chromium makes the surface flexible",
+      "B) Chromium provides a hard, shiny, corrosion-resistant surface",
+      "C) Chromium makes the surface magnetic",
+      "D) Chromium reduces the weight of the tap"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "Chromium electroplating gives steel objects: (1) a bright, shiny silver appearance (aesthetic), (2) a very hard surface (Chromium is harder than steel \u2014 scratch resistant), (3) excellent corrosion resistance (chromium doesn't rust or tarnish). Used on taps, car bumpers, cutlery, and tools to extend life and improve appearance."
+  },
+  {
+    "QuestionText": "When copper sulphate solution is electrolysed using copper electrodes, what is observed?",
+    "Options": [
+      "A) Copper deposits on anode; copper dissolves at cathode",
+      "B) Copper deposits at cathode; copper dissolves from anode; solution concentration stays constant",
+      "C) Both electrodes dissolve equally",
+      "D) Oxygen is released at cathode and hydrogen at anode"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "With copper electrodes and CuSO\u2084 electrolyte: At cathode: Cu\u00b2\u207a + 2e\u207b \u2192 Cu (copper deposits). At anode: Cu \u2192 Cu\u00b2\u207a + 2e\u207b (copper dissolves). The anode copper dissolves at exactly the same rate as copper deposits at cathode \u2014 maintaining constant Cu\u00b2\u207a concentration. This is used in copper refining to purify copper from impure copper anodes."
+  },
+  {
+    "QuestionText": "Which of the following is NOT an application of electrolysis?",
+    "Options": [
+      "A) Electroplating jewellery with gold",
+      "B) Purifying copper metal",
+      "C) Generating electricity in a battery",
+      "D) Extracting aluminium from bauxite ore"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "A battery generates electricity from SPONTANEOUS chemical reactions (galvanic cell) \u2014 the reverse of electrolysis. Electrolysis uses electricity to drive non-spontaneous chemical reactions. Electroplating (gold, silver), copper refining, aluminium extraction (Hall-H\u00e9roult process), and water purification/splitting are all applications of electrolysis."
+  },
+  {
+    "QuestionText": "Assertion: Distilled water does not conduct electricity, but adding a pinch of salt makes it conduct. Reason: Salt (NaCl) dissociates into Na\u207a and Cl\u207b ions which carry electric current through the water. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: pure distilled water has almost no ions and is a very poor conductor. Adding salt dramatically increases conductivity. Reason TRUE and correctly explains: NaCl \u2192 Na\u207a + Cl\u207b in water. These mobile ions carry charge through the solution when electric field is applied \u2014 cations move toward cathode, anions toward anode. More ions = better conductivity. This principle explains why seawater conducts electricity (dissolved salts) and why electricity is dangerous near water."
+  },
+  {
+    "QuestionText": "The process of electroplating a spoon with silver requires a current of 0.5 A for 30 minutes. What is the total charge passed?",
+    "Options": [
+      "A) 900 C",
+      "B) 60 C",
+      "C) 15 C",
+      "D) 0.25 C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Charge (Q) = Current (I) \u00d7 Time (t). Time = 30 min = 30 \u00d7 60 = 1800 s. Q = 0.5 A \u00d7 1800 s = 900 Coulombs. More charge passed means more metal deposited (Faraday's first law: mass deposited \u221d charge passed). This relationship allows precise control of plating thickness."
+  },
+  {
+    "QuestionText": "Which metal is produced at the cathode when molten aluminium oxide is electrolysed?",
+    "Options": [
+      "A) Oxygen",
+      "B) Carbon",
+      "C) Aluminium",
+      "D) Iron"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Aluminium is extracted by electrolysis of molten aluminium oxide (Al\u2082O\u2083): At cathode: Al\u00b3\u207a + 3e\u207b \u2192 Al (liquid aluminium collected). At anode: 2O\u00b2\u207b \u2192 O\u2082 + 4e\u207b (oxygen gas \u2014 reacts with carbon anodes producing CO\u2082). The Hall-H\u00e9roult process requires enormous electricity \u2014 aluminium is energy-intensive to produce. This is why recycling aluminium saves ~95% of the energy needed for primary production."
+  },
+  {
+    "QuestionText": "What is meant by Faraday's first law of electrolysis?",
+    "Options": [
+      "A) The current used is proportional to the voltage applied",
+      "B) The mass of substance deposited/liberated is directly proportional to the charge passed",
+      "C) Both electrodes dissolve at equal rates",
+      "D) The temperature of the electrolyte increases with current"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Faraday's First Law: m = ZQ = ZIt, where m = mass deposited, Z = electrochemical equivalent (constant for each element), Q = charge = I \u00d7 t. Double the charge passed \u2192 double the mass deposited. This allows precise calculation of plating thickness for industrial electroplating. Faraday's Second Law: equal charges deposit masses proportional to chemical equivalent masses."
+  },
+  {
+    "QuestionText": "In the electrolysis of dilute sulphuric acid, what gases are produced at each electrode?",
+    "Options": [
+      "A) Anode: oxygen; cathode: hydrogen",
+      "B) Anode: hydrogen; cathode: oxygen",
+      "C) Both electrodes: oxygen",
+      "D) Both electrodes: hydrogen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Electrolysis of dilute H\u2082SO\u2084 (or any electrolyte in water with inert electrodes): At cathode: 2H\u207a + 2e\u207b \u2192 H\u2082 (hydrogen gas). At anode: 4OH\u207b \u2192 2H\u2082O + O\u2082 + 4e\u207b (oxygen gas). Volume ratio H\u2082:O\u2082 = 2:1 (same as water's formula H\u2082O). This decomposition of water (electrolysis) reverses the synthesis of water \u2014 demonstration of water's composition."
+  },
+  {
+    "QuestionText": "Why is gold electroplating used on jewellery that contains a cheaper base metal?",
+    "Options": [
+      "A) Gold makes the jewellery magnetic",
+      "B) Gold coating provides the appearance and prestige of gold at much lower cost",
+      "C) Gold makes the jewellery stronger",
+      "D) Base metal alone cannot be shaped into jewellery"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "Gold is extremely expensive as bulk material. Electroplating a thin layer of gold (~1-5 microns) onto cheaper base metals (brass, copper, silver) gives the appearance, luster, and some properties of gold at a fraction of the cost. Gold plating also provides corrosion resistance. This is why 'gold-plated' and 'solid gold' are very different in value."
+  },
+  {
+    "QuestionText": "A student tests three liquids \u2014 lemon juice, oil, and salt water \u2014 with a simple circuit (battery, bulb, probes). Bulb glows brightly in salt water, dimly in lemon juice, and not at all in oil. What can be concluded?",
+    "Options": [
+      "A) Salt water, lemon juice, and oil are all electrolytes",
+      "B) Salt water has most ions (best conductor), lemon juice has few ions (weak electrolyte), oil has no ions (non-electrolyte)",
+      "C) Only salt water is an electrolyte; lemon juice and oil are not",
+      "D) Brightness depends only on the colour of the liquid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Bulb brightness \u221d current \u221d ion concentration: Salt water: high NaCl concentration \u2192 many Na\u207a and Cl\u207b ions \u2192 bright bulb (strong electrolyte). Lemon juice: citric acid partially ionises \u2192 fewer H\u207a ions \u2192 dim bulb (weak electrolyte). Oil: hydrocarbons don't ionise \u2192 no ions \u2192 no current \u2192 bulb doesn't glow (non-electrolyte). This tester is a simple device to classify conductors."
+  },
+  {
+    "QuestionText": "The LED used as an indicator in circuits requires very small current. A resistor is connected in series to:",
+    "Options": [
+      "A) Increase voltage to make LED brighter",
+      "B) Limit current to prevent LED from burning out",
+      "C) Convert AC current to DC for the LED",
+      "D) Measure current flowing through the LED"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Effects of Electric Current",
+    "Difficulty": "Advanced",
+    "Explanation": "LEDs have a maximum current rating (typically 20 mA for standard LEDs). Without a series resistor, the circuit would draw excessive current (limited only by internal resistance), potentially burning out the LED almost instantly. The resistor limits current to a safe operating value while allowing the LED to emit light. Ohm's law: I = (V_supply \u2212 V_LED) / R_series."
+  },
+  {
+    "QuestionText": "In an electrolytic cell, which electrode is connected to the negative terminal of the battery?",
+    "Options": [
+      "A) Anode",
+      "B) Cathode",
+      "C) Both electrodes",
+      "D) Neither \u2014 electrolytic cells don't use batteries"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "The cathode is connected to the negative terminal of the external power source (battery/power supply). Electrons flow from battery negative terminal \u2192 cathode \u2192 electrolyte (where reduction occurs). The anode is connected to the positive terminal \u2014 electrons flow from anode \u2192 positive terminal. Memory aid: Cathode = negative = reduction (CAThode \u2014 CAT reduces mice, reduction at cathode)."
+  },
+  {
+    "QuestionText": "Copper refinement by electrolysis involves:",
+    "Options": [
+      "A) Pure copper as cathode, impure copper as anode, CuSO\u2084 solution",
+      "B) Impure copper as cathode, pure copper as anode, NaCl solution",
+      "C) Both electrodes of impure copper",
+      "D) Carbon electrodes in CuSO\u2084 solution"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Copper refining (electrorefining): Anode = impure copper (dissolves: Cu + impurities \u2192 Cu\u00b2\u207a + impurity ions). Cathode = thin pure copper sheet (copper deposits: Cu\u00b2\u207a + 2e\u207b \u2192 pure Cu). Electrolyte = CuSO\u2084 (acidified). Impurities (Ag, Au, Pt) either dissolve separately or fall to bottom as 'anode slime' (valuable by-products). Result: 99.99% pure copper at cathode. Used for electrical-grade copper."
+  },
+  {
+    "QuestionText": "What is the advantage of tin-plating steel cans used for food storage?",
+    "Options": [
+      "A) Tin is heavier making cans stronger",
+      "B) Tin is non-toxic and resistant to corrosion, protecting both food and the steel underneath",
+      "C) Tin is cheaper than steel",
+      "D) Tin improves the taste of stored food"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Advanced",
+    "Explanation": "Tin (Sn) electroplating on steel food cans provides: (1) Corrosion protection \u2014 tin doesn't rust, protecting the steel from oxidation. (2) Non-toxicity \u2014 tin is safe for food contact (unlike lead or cadmium). (3) Solderability \u2014 tin-plated cans can be easily sealed. If the tin layer is scratched, however, the steel rusts faster (galvanic cell between dissimilar metals). Tin's electropositive nature relative to steel in neutral/acidic conditions matters here."
+  },
+  {
+    "QuestionText": "How does the process of water purification in swimming pools use the chemical effect of electricity?",
+    "Options": [
+      "A) Electrolysis of salt in pool water produces chlorine which disinfects water",
+      "B) Electricity heats pool water killing bacteria by heat",
+      "C) Electric current kills bacteria directly by electrocution",
+      "D) Electrolysis produces ozone from pool water oxygen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Saltwater pool chlorination: Salt (NaCl) is added to pool water. Electrolysis of this brine produces chlorine (Cl\u2082) at the anode. Cl\u2082 dissolves in water to form hypochlorous acid (HOCl) \u2014 a powerful disinfectant that kills bacteria, viruses, and algae. This eliminates the need to add chlorine chemicals manually. The process is continuous and self-regulating when salt levels are maintained."
+  },
+  {
+    "QuestionText": "Why is the quantity of a substance deposited in electrolysis greater for metals with lower valency (ionic charge)?",
+    "Options": [
+      "A) Lower valency metals are lighter",
+      "B) Lower valency means fewer electrons needed per ion \u2014 more atoms deposited per Coulomb of charge",
+      "C) Higher valency ions repel each other more",
+      "D) Lower valency metals are always more soluble"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Olympiad",
+    "Explanation": "At the cathode: each ion requires electrons equal to its valency (charge). Ag\u207a needs 1e\u207b; Cu\u00b2\u207a needs 2e\u207b; Al\u00b3\u207a needs 3e\u207b. For the same charge Q = 1 Faraday (96,500 C): Ag deposits 108g (valency 1), Cu deposits 32g (valency 2, molar mass 64/2=32), Al deposits 9g (valency 3, molar mass 27/3=9). Lower valency \u2192 more moles deposited per Faraday \u2192 more atoms \u2192 greater mass (if molar mass is similar)."
+  },
+  {
+    "QuestionText": "A bicycle is dipped in an electrolytic bath of nickel sulphate solution for nickel plating. Which part of the bicycle is the cathode?",
+    "Options": [
+      "A) The nickel rod in the solution",
+      "B) The bicycle itself",
+      "C) The battery's positive terminal",
+      "D) The solution itself"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "In electroplating: the object to be plated = cathode (connected to negative terminal). The bicycle is the cathode. Ni\u00b2\u207a ions from solution migrate to the bicycle surface and are reduced: Ni\u00b2\u207a + 2e\u207b \u2192 Ni, depositing nickel. The nickel rod (anode) dissolves to replenish Ni\u00b2\u207a ions. The bicycle must be thoroughly cleaned before plating to ensure good adhesion."
+  },
+  {
+    "QuestionText": "The electrolysis of acidified water produces gases in a 2:1 volume ratio (H\u2082:O\u2082). What does this tell us about water's composition?",
+    "Options": [
+      "A) Water contains 2 times more hydrogen than oxygen by mass",
+      "B) Water contains 2 hydrogen atoms for every 1 oxygen atom (H\u2082O)",
+      "C) The experiment proves water is a mixture not a compound",
+      "D) Oxygen is 2 times more electronegative than hydrogen"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Electrolysis of water: 2H\u2082O \u2192 2H\u2082 + O\u2082. This produces exactly 2 volumes H\u2082 for every 1 volume O\u2082. By Avogadro's law (equal volumes at same T,P contain equal moles), 2 moles H\u2082 and 1 mole O\u2082 are produced from 2 moles H\u2082O \u2014 confirming water's molecular formula is H\u2082O (2 hydrogen atoms per oxygen atom). This experiment was historically used to determine water's composition."
+  },
+  {
+    "QuestionText": "Which of the following ions is attracted to the cathode during electrolysis?",
+    "Options": [
+      "A) Cl\u207b",
+      "B) SO\u2084\u00b2\u207b",
+      "C) Cu\u00b2\u207a",
+      "D) OH\u207b"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Cathode is negative. Cations (positive ions) are attracted to the negative cathode. Cu\u00b2\u207a is a positively charged cation (copper ion with 2+ charge). Cl\u207b, SO\u2084\u00b2\u207b, and OH\u207b are anions (negatively charged) \u2014 they are attracted to the positive anode, not the cathode. Cu\u00b2\u207a + 2e\u207b \u2192 Cu at cathode (reduction/deposition of copper metal)."
+  },
+  {
+    "QuestionText": "Statement 1: All liquids conduct electricity. Statement 2: Only liquids containing mobile charged particles (ions or electrons) conduct electricity. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 is FALSE: many liquids do NOT conduct electricity \u2014 pure water, oil, alcohol, sugar solution, and most organic liquids are non-conductors or very poor conductors. Statement 2 is TRUE: conduction requires mobile charge carriers. In electrolyte solutions: mobile ions carry charge. In liquid metals (molten metals): free electrons carry charge. Without mobile charges, no current flows regardless of whether the substance is liquid."
+  },
+  {
+    "QuestionText": "Zinc is electroplated on iron objects (galvanised iron) to prevent rusting. What is the advantage of zinc over simply painting the iron?",
+    "Options": [
+      "A) Zinc is cheaper than paint",
+      "B) Zinc provides sacrificial protection \u2014 even if scratched, zinc oxidises preferentially protecting the iron",
+      "C) Zinc is electrically conductive enhancing current flow",
+      "D) Zinc increases the strength of iron when bonded to it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Advanced",
+    "Explanation": "Paint: physical barrier that stops rust while intact. If scratched, the exposed iron rusts rapidly. Zinc electroplating: provides both barrier AND sacrificial (cathodic) protection. Zinc is more electropositive than iron \u2014 in the presence of moisture, zinc oxidises (corrodes) preferentially, acting as a sacrificial anode. Even if the zinc layer is scratched, zinc metal nearby corrodes instead of the iron, continuously protecting it electrochemically."
+  },
+  {
+    "QuestionText": "How does a silver coating prevent a copper spoon from tarnishing?",
+    "Options": [
+      "A) Silver is less reactive than copper \u2014 silver layer doesn't tarnish as easily as bare copper",
+      "B) Silver is heavier than copper preventing air from reaching the surface",
+      "C) Silver electrochemically reduces oxygen preventing its reaction with copper",
+      "D) Silver coating increases the spoon's temperature above tarnishing point"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Advanced",
+    "Explanation": "Copper tarnishes (turns green/black) when it reacts with sulphur compounds and oxygen in air. Silver is much less reactive than copper with these atmospheric components \u2014 a silver layer doesn't tarnish nearly as quickly (silver tarnishing from H\u2082S is much slower). The silver layer acts as a barrier between reactive copper and corrosive atmosphere. This is why silver-plated cutlery retains its shine much longer than bare copper."
+  },
+  {
+    "QuestionText": "What safety precaution should be taken when doing electrolysis experiments in school labs?",
+    "Options": [
+      "A) Always use high voltage (220V) for best results",
+      "B) Use low voltage DC power supply and handle electrodes carefully; avoid touching live connections",
+      "C) Add as much salt as possible to maximise conductivity",
+      "D) Electrodes should always be made of aluminium"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Safety in electrolysis: Use 3-9V DC (low voltage) \u2014 safe for school labs. Never touch live electrodes (can cause shock even at low voltages). Handle chemicals (acids, solutions) carefully \u2014 wear gloves/goggles. Hydrogen gas produced is flammable \u2014 no flames near the experiment. Chlorine produced from salt solutions is toxic \u2014 use in ventilated area. Teacher supervision required for acid electrolytes."
+  },
+  {
+    "QuestionText": "Which law relates the amount of substance deposited to the charge passed in electrolysis?",
+    "Options": [
+      "A) Ohm's law",
+      "B) Newton's law",
+      "C) Faraday's law of electrolysis",
+      "D) Boyle's law"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Faraday's laws of electrolysis (1833-1834) relate charge to mass deposited: First law \u2014 mass deposited is directly proportional to charge passed (m \u221d Q = It). Second law \u2014 masses of different substances deposited by same charge are proportional to their chemical equivalent masses. These laws are fundamental to quantitative electrochemistry and industrial electroplating design."
+  },
+  {
+    "QuestionText": "Which of the following demonstrates that electricity can cause a chemical change?",
+    "Options": [
+      "A) A bulb lighting up when connected to a battery",
+      "B) A motor spinning when powered",
+      "C) Blue copper sulphate solution turning colourless as copper plates out at the cathode",
+      "D) A wire getting warm when current flows"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "The chemical effect of electricity: when electricity passes through CuSO\u2084 solution, Cu\u00b2\u207a ions are deposited at cathode (solution loses blue colour as Cu\u00b2\u207a is consumed \u2192 solution becomes colourless). This is a clear chemical change caused by electricity. Option A demonstrates luminous effect; B demonstrates mechanical effect; D demonstrates heating effect. Only C shows a CHEMICAL change."
+  },
+  {
+    "QuestionText": "Electroplating of an iron object with copper requires which setup?",
+    "Options": [
+      "A) Iron as anode, copper as cathode, iron sulphate solution",
+      "B) Copper as anode, iron object as cathode, copper sulphate solution",
+      "C) Both electrodes of copper, iron sulphate solution",
+      "D) Iron as cathode and anode, copper sulphate solution"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "For copper electroplating on iron: Cathode = iron object (to be plated). Anode = copper (source of Cu ions). Electrolyte = copper sulphate (CuSO\u2084) solution. Process: Cu anode dissolves \u2192 Cu\u00b2\u207a ions \u2192 migrate to iron cathode \u2192 Cu\u00b2\u207a + 2e\u207b \u2192 Cu (deposits on iron). The copper layer protects iron from corrosion and improves conductivity for electrical applications."
+  },
+  {
+    "QuestionText": "A student electroplates a copper coin with silver. After 10 minutes, the mass of the coin has increased by 0.2 g of silver. What is the likely observation about the silver anode?",
+    "Options": [
+      "A) Silver anode mass has increased by 0.2 g",
+      "B) Silver anode mass has decreased by approximately 0.2 g",
+      "C) Silver anode remains unchanged",
+      "D) Silver anode dissolves completely"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Advanced",
+    "Explanation": "In silver electroplating with silver anode: Cathode: Ag\u207a + e\u207b \u2192 Ag (0.2 g silver deposited on coin). Anode: Ag \u2192 Ag\u207a + e\u207b (same mass of silver dissolves from anode to replenish Ag\u207a ions). Mass deposited at cathode = mass dissolved from anode (approximately, by Faraday's laws). So the silver anode decreases by approximately 0.2 g \u2014 maintaining constant Ag\u207a concentration in the electrolyte."
+  },
+  {
+    "QuestionText": "Electrolysis is used in the anodising of aluminium. What does anodising do?",
+    "Options": [
+      "A) Removes the natural oxide layer from aluminium",
+      "B) Thickens the natural oxide layer making aluminium more corrosion-resistant and allowing dyeing",
+      "C) Coats aluminium with a layer of tin for conductivity",
+      "D) Purifies aluminium by removing impurities"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Olympiad",
+    "Explanation": "Anodising makes the aluminium object the ANODE in electrolysis (unlike electroplating where it is the cathode). Oxygen produced at the anode oxidises the aluminium surface, thickening the natural Al\u2082O\u2083 layer from ~4 nm (natural) to 5-25 \u00b5m. This thicker oxide layer: provides superior corrosion resistance, is very hard, is porous (can be dyed in various colours), and improves adhesion of paint and coatings. Used for aircraft parts, consumer electronics, and cookware."
+  },
+  {
+    "QuestionText": "When electricity passes through the human body, it is dangerous primarily because:",
+    "Options": [
+      "A) The human body acts as an electrolyte \u2014 current causes chemical changes in body tissues",
+      "B) The human body conducts electricity \u2014 current can cause burns, cardiac arrest, and electrocution",
+      "C) Electricity generates light inside the body",
+      "D) Electricity increases blood pressure only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Effects of Electric Current",
+    "Difficulty": "Advanced",
+    "Explanation": "Electric shock danger: (1) Muscle/nerve effects \u2014 even 10 mA through the heart can cause ventricular fibrillation (irregular beating \u2192 death). 50-100 mA is typically lethal. (2) Burns \u2014 current through body tissues heats them (I\u00b2R heating effect). (3) Burns at entry/exit points. The human body (with ~70% water + dissolved ions) has ~100,000 ohm skin resistance (dry) \u2014 reduced to ~1,000 ohm when wet, making wet skin electrical contact 100\u00d7 more dangerous."
+  },
+  {
+    "QuestionText": "Why do 'galvanic' or electrolytic corrosion problems occur when two different metals are in contact in the presence of moisture?",
+    "Options": [
+      "A) The two metals react directly with each other",
+      "B) The moisture acts as an electrolyte in an electrochemical cell \u2014 the more reactive metal corrodes as the anode",
+      "C) Heat from both metals accelerates corrosion",
+      "D) Different metals attract different types of bacteria that corrode them"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Galvanic corrosion: when two dissimilar metals contact each other in a moist environment, they form a galvanic cell (battery). Moisture is the electrolyte. The more reactive metal (anode in the reactivity series) corrodes preferentially: it loses electrons (oxidises) while the less reactive metal (cathode) is protected. Example: steel fasteners in aluminium aircraft panels corrode. Prevention: insulate dissimilar metals, use sacrificial anodes, apply protective coatings."
+  },
+  {
+    "QuestionText": "During electrolysis, which reaction occurs at the anode?",
+    "Options": [
+      "A) Reduction \u2014 gain of electrons",
+      "B) Oxidation \u2014 loss of electrons",
+      "C) Neutralisation \u2014 acid-base reaction",
+      "D) Precipitation \u2014 ion exchange"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "At the anode (positive electrode): anions (negative ions) are attracted and OXIDISED \u2014 they lose electrons to the anode. The anode accepts electrons from anions. Example: 2Cl\u207b \u2192 Cl\u2082 + 2e\u207b (chloride ions oxidised to chlorine gas). At cathode: cations are REDUCED \u2014 they gain electrons. Memory: OIL RIG (Oxidation Is Loss, Reduction Is Gain of electrons). Anode = Oxidation; Cathode = Reduction."
+  },
+  {
+    "QuestionText": "Why is the electrolyte in a car battery different from the electrolyte used for electroplating?",
+    "Options": [
+      "A) Car batteries use distilled water; electroplating uses salt solution",
+      "B) Car batteries use sulphuric acid (generates electricity); electroplating uses metal salt solutions (requires electricity)",
+      "C) Both use identical electrolytes \u2014 sulphate solutions",
+      "D) Car batteries use solid electrolytes; electroplating uses liquid electrolytes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Car battery (galvanic cell): H\u2082SO\u2084 (sulphuric acid) electrolyte enables spontaneous electrochemical reactions that GENERATE electricity from chemical energy (Pb + PbO\u2082 in H\u2082SO\u2084). Electroplating (electrolytic cell): metal salt solution (CuSO\u2084, AgNO\u2083) provides the ions to be deposited; external electricity is CONSUMED to drive the non-spontaneous plating reaction. Different purpose, different electrolyte \u2014 but both involve ionic conduction through liquid."
+  },
+  {
+    "QuestionText": "What is meant by an 'inert' electrode in electrolysis?",
+    "Options": [
+      "A) An electrode that becomes very hot during electrolysis",
+      "B) An electrode (like graphite or platinum) that does not react or dissolve in the electrolysis process",
+      "C) An electrode that cannot conduct electricity",
+      "D) An electrode that is neutral in charge"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Inert electrodes (graphite/carbon or platinum) do NOT participate chemically in the electrolysis reaction \u2014 they only serve to conduct electrons to/from the electrolyte. Reactions at the electrodes involve only the electrolyte's ions. If reactive electrodes (like copper) are used, the electrode itself dissolves/deposits, changing the ion concentration in solution. Inert electrodes are used when the electrolyte composition must remain constant."
+  },
+  {
+    "QuestionText": "Statement 1: Greater current passed during electroplating results in thicker plating. Statement 2: By Faraday's first law, mass deposited is proportional to charge (= current \u00d7 time). Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1 TRUE: greater current (or longer time) \u2192 more charge \u2192 more mass deposited \u2192 thicker coating. Plating thickness is precisely controlled by adjusting current and time. Statement 2 TRUE: Faraday's First Law: m = ZIt (Z = electrochemical equivalent). Both statements are correct and statement 2 directly supports statement 1 mathematically. Industrial electroplating uses this relationship to achieve precise plating thicknesses (e.g., 1 micron for cosmetic, 25+ microns for engineering wear protection)."
+  },
+  {
+    "QuestionText": "Which of the following statements about electrolysis is INCORRECT?",
+    "Options": [
+      "A) Electrolysis uses electrical energy to drive chemical reactions",
+      "B) The cathode is where reduction occurs",
+      "C) Non-electrolytes can be electrolysed by increasing voltage",
+      "D) Faraday's law relates mass deposited to charge passed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement C is INCORRECT: increasing voltage does not make non-electrolytes conduct or undergo electrolysis. Non-electrolytes (sugar, oil, alcohol) do not ionise \u2014 they have no mobile charge carriers regardless of voltage. Only substances that produce free ions (electrolytes) can undergo electrolysis. High voltage through a non-electrolyte still produces no current (until dielectric breakdown, which is a different phenomenon)."
+  },
+  {
+    "QuestionText": "Electrolysis of copper sulphate with inert (carbon) electrodes: which gas is released at the anode?",
+    "Options": [
+      "A) Hydrogen",
+      "B) Chlorine",
+      "C) Copper vapour",
+      "D) Oxygen"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "With inert carbon electrodes in CuSO\u2084: Cathode: Cu\u00b2\u207a + 2e\u207b \u2192 Cu (copper deposits). Anode: water is oxidised (since SO\u2084\u00b2\u207b is hard to oxidise): 2H\u2082O \u2192 O\u2082 + 4H\u207a + 4e\u207b (oxygen gas released). The solution becomes more acidic as Cu\u00b2\u207a is removed and H\u207a accumulates. With copper anode, copper dissolves instead of O\u2082 being released."
+  },
+  {
+    "QuestionText": "Why is silver used in electroplating cutlery rather than simply making cutlery from solid silver?",
+    "Options": [
+      "A) Solid silver cutlery is too heavy to use",
+      "B) Silver electroplating uses a tiny amount of expensive silver over a cheap base metal, achieving the same appearance at far lower cost",
+      "C) Solid silver reacts with food making it unsafe",
+      "D) Electroplated silver is harder than solid silver"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Foundation",
+    "Explanation": "Silver is a precious metal \u2014 extremely expensive. Silver-plated cutlery deposits just microns of silver onto a base metal (nickel silver, stainless steel, or copper), achieving the same aesthetic appearance and some of the corrosion resistance at a tiny fraction of the cost. EPNS (Electroplated Nickel Silver) cutlery uses this principle. The thickness of silver plating determines durability and classification (e.g., A1 = thickest quality)."
+  },
+  {
+    "QuestionText": "What happens to the mass of a copper anode during electrolysis with copper sulphate and a copper cathode?",
+    "Options": [
+      "A) Anode mass increases",
+      "B) Anode mass decreases",
+      "C) Anode mass stays constant",
+      "D) Anode dissolves completely instantly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "During electrolysis of CuSO\u2084 with copper electrodes: the copper anode dissolves (Cu \u2192 Cu\u00b2\u207a + 2e\u207b) \u2014 its mass decreases. Simultaneously, the same mass of copper deposits at the cathode (Cu\u00b2\u207a + 2e\u207b \u2192 Cu) \u2014 cathode mass increases. The electrolyte concentration (Cu\u00b2\u207a) remains approximately constant. This is the basis of copper electrorefining."
+  },
+  {
+    "QuestionText": "A student uses a tester (battery + LED) to test various solutions. The LED glows when testing copper sulphate solution. This confirms that:",
+    "Options": [
+      "A) Copper sulphate solution produces electricity on its own",
+      "B) Copper sulphate solution conducts electricity \u2014 it is an electrolyte containing free ions",
+      "C) The LED generates current when in contact with blue solutions",
+      "D) Copper is a metal and all metals conduct electricity"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Foundation",
+    "Explanation": "The LED glowing confirms current flows through the circuit \u2014 meaning CuSO\u2084 solution conducts electricity. This happens because CuSO\u2084 ionises: CuSO\u2084 \u2192 Cu\u00b2\u207a + SO\u2084\u00b2\u207b. These free mobile ions carry electric current through the solution, completing the circuit and allowing the LED to light up. The solution acts as an electrolyte \u2014 it conducts electricity due to its free ions."
+  },
+  {
+    "QuestionText": "What is the purpose of adding a small amount of dilute sulphuric acid when electrolyzing water?",
+    "Options": [
+      "A) To make the water taste better",
+      "B) To increase the number of ions in solution, improving conductivity for electrolysis",
+      "C) To prevent hydrogen gas from forming",
+      "D) To speed up the deposition of oxygen at cathode"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electrolysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Pure water is an extremely poor conductor (very few H\u207a and OH\u207b ions from water's slight self-ionisation). Adding a small amount of dilute H\u2082SO\u2084 dramatically increases H\u207a and SO\u2084\u00b2\u207b ion concentration, making the solution a good conductor. The H\u2082SO\u2084 itself doesn't get consumed in the overall reaction (H\u2082 and O\u2082 are produced from water); it just acts as a 'carrying electrolyte' to allow current to flow efficiently."
+  },
+  {
+    "QuestionText": "The process of coating iron with zinc (galvanisation) can be done by which method other than electroplating?",
+    "Options": [
+      "A) Hot-dip galvanising \u2014 dipping iron in molten zinc",
+      "B) Painting zinc oxide onto the surface",
+      "C) Spraying zinc powder mixed with water",
+      "D) Electrostatic deposition of zinc ions from air"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemical Effects of Electric Current",
+    "SubTopic": "Electroplating",
+    "Difficulty": "Advanced",
+    "Explanation": "Hot-dip galvanising: clean iron/steel is dipped in molten zinc (450\u00b0C). Zinc bonds metallurgically with the steel surface, forming zinc-iron alloy layers topped with pure zinc. This gives a thicker, tougher coating than electroplating. Used for structural steel (bridges, lamp posts, guardrails). Electroplating gives thinner, more uniform, smoother coatings \u2014 preferred for automotive parts and decorative items."
+  }
+]

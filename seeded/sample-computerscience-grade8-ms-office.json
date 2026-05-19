@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Microsoft Word is used for:",
+    "Options": [
+      "A) Creating spreadsheets with formulas",
+      "B) Word processing \u2014 creating and editing text documents",
+      "C) Creating slideshows and presentations",
+      "D) Managing databases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "MS Word: word processing software for creating/editing text documents. Features: formatting (fonts, styles), tables, images, spelling/grammar check, mail merge, page layout, track changes. Output: .docx files. Excel: spreadsheets/calculations. PowerPoint: presentations. Access: databases. Publisher: desktop publishing. OneNote: notes. All are part of Microsoft Office suite (now Microsoft 365)."
+  },
+  {
+    "QuestionText": "What is the keyboard shortcut to Save a document in MS Office?",
+    "Options": [
+      "A) Ctrl+P",
+      "B) Ctrl+S",
+      "C) Ctrl+Z",
+      "D) Ctrl+X"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Essential MS Office keyboard shortcuts: Ctrl+S = Save, Ctrl+Z = Undo, Ctrl+Y = Redo, Ctrl+X = Cut, Ctrl+C = Copy, Ctrl+V = Paste, Ctrl+P = Print, Ctrl+A = Select All, Ctrl+B = Bold, Ctrl+I = Italic, Ctrl+U = Underline, Ctrl+F = Find, Ctrl+H = Replace, Ctrl+N = New document, Ctrl+O = Open, F7 = Spell check."
+  },
+  {
+    "QuestionText": "What is a cell in MS Excel?",
+    "Options": [
+      "A) A paragraph in a Word document",
+      "B) The intersection of a row and column in a spreadsheet",
+      "C) A slide in PowerPoint",
+      "D) A field in a database"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "In Excel, a cell is the basic unit \u2014 the intersection of a row (numbered 1, 2, 3...) and a column (lettered A, B, C...). Cell address/reference: column letter + row number (e.g., A1, B5, C12). Active cell: the currently selected cell, shown with a border and its address in the Name Box (top left). Cells contain: values (numbers, text, dates), formulas (=SUM(A1:A10)), or are blank."
+  },
+  {
+    "QuestionText": "What formula would you use in Excel to add numbers in cells A1 through A10?",
+    "Options": [
+      "A) =ADD(A1:A10)",
+      "B) =TOTAL(A1,A10)",
+      "C) =SUM(A1:A10)",
+      "D) =PLUS(A1:A10)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "=SUM(A1:A10) adds all values from cell A1 to A10. Excel formulas always start with '='. The colon (:) denotes a range (all cells between A1 and A10). Other essential functions: =AVERAGE(A1:A10) \u2014 mean value, =MAX(A1:A10) \u2014 largest value, =MIN(A1:A10) \u2014 smallest, =COUNT(A1:A10) \u2014 count of numbers, =IF(condition,yes,no) \u2014 conditional logic."
+  },
+  {
+    "QuestionText": "In MS PowerPoint, a 'slide' is:",
+    "Options": [
+      "A) A page of a Word document",
+      "B) A single page/frame of a presentation",
+      "C) A cell in Excel",
+      "D) A record in a database"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "In PowerPoint, a slide is a single page of a presentation. A presentation typically has multiple slides, each containing text, images, charts, videos, or animations. Slide components: Title area, Content area (text, images, media), Slide number, Speaker notes (below slide \u2014 visible to presenter). Views: Normal (editing), Slide Sorter (rearrange), Reading View, Slide Show (full-screen presentation)."
+  },
+  {
+    "QuestionText": "What is 'slide transition' in PowerPoint?",
+    "Options": [
+      "A) Moving text within a slide",
+      "B) The animation effect used when moving from one slide to the next",
+      "C) Changing the slide layout",
+      "D) Converting slides to Word document"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Slide transition: the visual effect that occurs when advancing from one slide to the next during a slideshow. Types: Fade, Push, Wipe, Dissolve, Zoom, Fly. Animation: motion of individual elements WITHIN a slide (text appearing word by word, image flying in). Transition = between slides; Animation = within a slide. Both accessed from the Transitions/Animations tabs in PowerPoint. Overusing flashy transitions/animations appears unprofessional \u2014 use subtle effects for business presentations."
+  },
+  {
+    "QuestionText": "What is the function of VLOOKUP in Excel?",
+    "Options": [
+      "A) Creates a chart from selected data",
+      "B) Searches for a value in the first column of a table and returns a value from another column in the same row",
+      "C) Calculates the vertical sum of a column",
+      "D) Filters data in a table by vertical criteria"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "VLOOKUP (Vertical Lookup): =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]). Example: find a student's grade based on their ID. Searches the FIRST column of table_array for lookup_value, then returns the value from col_index_num column of that row. range_lookup: FALSE = exact match, TRUE = approximate match. Modern Excel has XLOOKUP (more powerful, no column number needed). Essential for data analysis and business reporting."
+  },
+  {
+    "QuestionText": "What does the 'IF' function do in Excel?",
+    "Options": [
+      "A) Finds data in a table",
+      "B) Returns different values based on whether a condition is TRUE or FALSE",
+      "C) Counts cells meeting a condition",
+      "D) Sums cells meeting a condition"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "IF function: =IF(logical_test, value_if_true, value_if_false). Example: =IF(B2>=40,\"Pass\",\"Fail\") \u2014 if B2 is 40 or more, shows 'Pass', otherwise 'Fail'. Can be nested: =IF(B2>=90,\"A\",IF(B2>=75,\"B\",IF(B2>=60,\"C\",\"F\"))). Related: COUNTIF (count cells meeting condition), SUMIF (sum cells meeting condition), AVERAGEIF."
+  },
+  {
+    "QuestionText": "How do you create an absolute cell reference in Excel?",
+    "Options": [
+      "A) By adding % before the cell address",
+      "B) By adding $ before column letter and/or row number (e.g., $A$1)",
+      "C) By typing the cell address in CAPS",
+      "D) By pressing Ctrl when clicking the cell"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Absolute reference ($A$1): doesn't change when formula is copied to other cells. Relative reference (A1): changes based on relative position (A1 becomes B1 when copied right). Mixed: $A1 (column fixed, row changes) or A$1 (row fixed, column changes). Use case: calculating sales tax where the tax rate is in one fixed cell ($B$1) and sales figures are in different rows. Press F4 to cycle through reference types when editing a cell reference."
+  },
+  {
+    "QuestionText": "What is Mail Merge in MS Word?",
+    "Options": [
+      "A) Merging two Word documents into one",
+      "B) Creating personalised letters/emails for multiple recipients by combining a document template with a data source",
+      "C) A feature to send emails directly from Word",
+      "D) Merging track changes from multiple reviewers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Mail Merge: creates personalised documents for many recipients automatically. Example: school result letters \u2014 one template with merge fields (<<Name>>, <<Marks>>, <<Grade>>), combined with an Excel data source containing each student's data. Word fills in the fields for each row of data, producing 500 personalised letters automatically instead of typing each one. Uses: letters, emails, labels, envelopes, certificates. Steps: main document \u2192 data source \u2192 insert merge fields \u2192 preview \u2192 merge."
+  },
+  {
+    "QuestionText": "What is the purpose of 'Track Changes' in MS Word?",
+    "Options": [
+      "A) Tracks the time spent editing a document",
+      "B) Records all insertions, deletions, and formatting changes so reviewers can see what was changed",
+      "C) Saves different versions of the document automatically",
+      "D) Tracks when a document was last opened"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Track Changes: collaborators can see every edit \u2014 insertions appear underlined, deletions appear as strikethrough (in a different colour per reviewer). The original author can then Accept (keep changes) or Reject (restore original) each edit. Essential for collaborative document editing \u2014 used by editors, legal professionals, academics. Related: Comments \u2014 reviewers add notes without changing text. Both visible under Review tab."
+  },
+  {
+    "QuestionText": "In Excel, what does the '#DIV/0!' error mean?",
+    "Options": [
+      "A) The formula is too complex",
+      "B) A formula is attempting to divide by zero or an empty cell",
+      "C) There is not enough memory to calculate",
+      "D) The formula references an invalid cell"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "#DIV/0! error: division by zero is mathematically undefined. Occurs when a formula divides by 0 or an empty cell: =A1/B1 where B1=0 \u2192 #DIV/0!. Fix: use IFERROR or IF: =IF(B1=0,\"N/A\",A1/B1) or =IFERROR(A1/B1,\"N/A\"). Other Excel errors: #REF! (invalid cell reference), #VALUE! (wrong data type), #NAME? (unrecognised formula name), #N/A (value not found \u2014 common with VLOOKUP), ##### (column too narrow to display value)."
+  },
+  {
+    "QuestionText": "What is a Pivot Table in Excel?",
+    "Options": [
+      "A) A table that rotates 360 degrees when clicked",
+      "B) An interactive data summary tool that reorganises and summarises large datasets for analysis",
+      "C) A table containing pivot points for engineering calculations",
+      "D) A table that links data from multiple workbooks"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pivot Table: powerful data analysis tool that automatically summarises, groups, and analyses large datasets. Without writing formulas, you can: sum sales by region and month, count orders by product category, find average scores by teacher and subject. Features: drag-and-drop fields, filter data, group dates, create Pivot Charts. Used extensively in business intelligence and data analysis. Insert \u2192 PivotTable. Essential skill for anyone working with data in Excel."
+  },
+  {
+    "QuestionText": "Which chart type is BEST for showing the relationship between two numerical variables?",
+    "Options": [
+      "A) Pie chart",
+      "B) Bar chart",
+      "C) Scatter (XY) chart",
+      "D) Line chart"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Chart types for data: Scatter (XY): shows relationship/correlation between two numeric variables (e.g., study hours vs marks). Line: shows trends over time (e.g., monthly sales). Bar/Column: compares values across categories (e.g., sales by region). Pie: shows parts of a whole/proportions (e.g., market share). Histogram: frequency distribution. Pie charts are often overused \u2014 they're poor for comparing many slices or similar values. Choose chart type based on the story your data tells."
+  },
+  {
+    "QuestionText": "What is the purpose of the 'AutoFill' feature in Excel?",
+    "Options": [
+      "A) Automatically fills cells with data from the internet",
+      "B) Extends patterns or sequences to fill a range of cells based on the selected pattern",
+      "C) Fills selected cells with a random colour",
+      "D) Automatically saves the file periodically"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "AutoFill (drag the small square 'fill handle' at bottom-right of selected cell): Excel detects and continues patterns. Examples: Type '1, 2' \u2192 drag \u2192 3, 4, 5...; Type 'Monday' \u2192 drag \u2192 Tuesday, Wednesday...; Type 'Jan' \u2192 drag \u2192 Feb, Mar...; Type a formula \u2192 drag \u2192 formula applies to each row. Saves enormous time with large datasets. Can also fill dates with custom intervals (every 7 days, every month). Right-click-drag for more options."
+  },
+  {
+    "QuestionText": "What is the 'Normal' view in PowerPoint?",
+    "Options": [
+      "A) A view showing all slides as thumbnails without content",
+      "B) The default editing view showing slide, thumbnail panel, notes area",
+      "C) A full-screen presentation mode",
+      "D) A view that compresses all slides for printing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "PowerPoint views: Normal view (default): slide editing area + Slides panel (thumbnails on left) + Notes panel (below slide for speaker notes). Slide Sorter: all slides as thumbnails \u2014 easy rearranging and overview. Notes Page: one slide per page with notes below \u2014 for printing speaker notes. Reading View: slide show in window without full-screen. Slide Show: full-screen presentation mode (F5 for all, Shift+F5 from current slide). Presenter View: shows current slide + notes + next slide on presenter's screen."
+  },
+  {
+    "QuestionText": "What is a 'worksheet' vs 'workbook' in Excel?",
+    "Options": [
+      "A) They are the same thing",
+      "B) Workbook = the entire Excel file; worksheet = a single sheet/tab within the workbook",
+      "C) Worksheet is the old name for workbook",
+      "D) Workbook is for calculations; worksheet is for charts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Workbook: the entire Excel file (.xlsx) \u2014 analogous to a physical book. Worksheet (Sheet): a single tab within the workbook \u2014 analogous to a page in the book. Each workbook can have multiple worksheets (Sheet1, Sheet2...) \u2014 right-click tab to rename, add, delete, move. Formulas can reference cells across sheets: =Sheet2!A1. Default: 1 worksheet per new workbook. Useful for: separating data by month (Jan, Feb, Mar sheets) or category within one file."
+  },
+  {
+    "QuestionText": "Which feature in Word allows you to automatically number pages?",
+    "Options": [
+      "A) Auto-numbering from the Home tab",
+      "B) Page Numbers from the Insert tab",
+      "C) Numbers from the Format menu",
+      "D) Sequential Numbering from Review tab"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Insert \u2192 Page Number: automatically inserts and numbers pages throughout the document. Options: position (top/bottom of page, margins), alignment (left/centre/right), format (1, 2, 3 or i, ii, iii or A, B, C), start numbering from any number. Page numbers are placed in the Header or Footer area. If you add/delete pages, numbering automatically adjusts. Different numbering for different sections (e.g., Roman numerals for contents pages, Arabic for main text)."
+  },
+  {
+    "QuestionText": "What is a macro in MS Office?",
+    "Options": [
+      "A) A large font size",
+      "B) A recorded sequence of commands/actions that can be replayed to automate repetitive tasks",
+      "C) A type of table spanning multiple pages",
+      "D) A shortcut for formatting"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Advanced",
+    "Explanation": "Macro: recorded series of commands/keystrokes that automates repetitive tasks. Record a macro: Developer tab \u2192 Record Macro \u2192 perform actions \u2192 Stop Recording. Play the macro to repeat those exact actions instantly. Macros are written in VBA (Visual Basic for Applications). Example: format 1000 rows consistently, generate monthly reports, validate data entry. Security: macros can contain malicious code \u2014 enable only from trusted sources. .xlsm (macro-enabled workbook) vs .xlsx (no macros)."
+  },
+  {
+    "QuestionText": "What is the function of 'Conditional Formatting' in Excel?",
+    "Options": [
+      "A) Formats cells based on specific conditions or rules \u2014 highlights patterns visually",
+      "B) Applies formatting only when certain conditions are typed",
+      "C) Checks formatting errors in the document",
+      "D) Automatically formats headers and footers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Conditional Formatting: automatically applies formatting (colours, icons, data bars) to cells based on their values. Examples: highlight cells > 90 in green, < 40 in red; create heat maps of sales data; add red arrows for decreasing values, green for increasing; highlight duplicate values; top/bottom 10% rules. Makes patterns and outliers immediately visible. Home tab \u2192 Conditional Formatting \u2192 New Rule (or preset rules). Removes the need to manually colour-code data."
+  },
+  {
+    "QuestionText": "What is the difference between .xls and .xlsx file formats?",
+    "Options": [
+      "A) .xls is for text; .xlsx is for numbers",
+      "B) .xls is the older Excel format (97-2003); .xlsx is the modern XML-based format with more rows and features",
+      "C) .xlsx is encrypted; .xls is not",
+      "D) They are completely different applications"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": ".xls (Excel 97-2003): binary format, max 65,536 rows \u00d7 256 columns, limited features. .xlsx (Excel 2007+): XML-based (zipped text files inside), max 1,048,576 rows \u00d7 16,384 columns, supports more colours, pivot table features, smaller file size. .xlsm: macro-enabled workbook (xlsx + VBA macros). .xlsb: binary version of xlsx \u2014 smaller and faster for huge datasets. Always save as .xlsx unless compatibility with older Excel is needed. Similar evolution: .doc \u2192 .docx, .ppt \u2192 .pptx."
+  },
+  {
+    "QuestionText": "Which PowerPoint feature allows you to present to a remote audience over the internet?",
+    "Options": [
+      "A) Animation Pane",
+      "B) Presenter Coach",
+      "C) Present Online / Teams/Zoom screen sharing",
+      "D) Print to PDF"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Remote presentation options: Present Online (via Microsoft 365) sends a link to remote viewers who see slides in their browser. More commonly: screen sharing in Microsoft Teams, Zoom, Google Meet \u2014 share the PowerPoint window while running the presentation. Presenter Coach (AI-powered): analyses your presentation practice, giving feedback on pace, filler words, and monotone voice. Presenter View shows speaker notes privately while audience sees the main presentation."
+  },
+  {
+    "QuestionText": "What does 'F2' key do in Excel?",
+    "Options": [
+      "A) Opens a new workbook",
+      "B) Enters edit mode for the active cell, allowing formula/content editing",
+      "C) Saves the file",
+      "D) Starts a spell check"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "F2 in Excel: enters edit mode for the currently selected cell \u2014 you can then edit the content or formula. Blue brackets appear around cells referenced in the formula. Press Escape to cancel editing. Other Excel function keys: F4 (toggle absolute/relative reference while editing formula), F5 (Go To \u2014 navigate to specific cell), F7 (spell check), F9 (recalculate all formulas), F11 (create chart from selected data), F12 (Save As)."
+  },
+  {
+    "QuestionText": "What is the purpose of 'Slide Master' in PowerPoint?",
+    "Options": [
+      "A) The first slide of every presentation",
+      "B) A master template slide that controls the default design, fonts, and layout for all slides in a presentation",
+      "C) A tool that creates slides automatically from text",
+      "D) The slide shown during a presentation automatically"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Olympiad",
+    "Explanation": "Slide Master: a hierarchy of templates controlling the design for all slides. Changes to Slide Master (logo position, font, background colour) automatically apply to all slides \u2014 maintaining consistency. Useful for: company presentations (consistent branding), educational materials, professional templates. View \u2192 Slide Master to edit. Contains: Slide Master (top) and Layout Masters (below \u2014 for different slide types: title, content, blank). Avoids manually formatting every slide individually."
+  },
+  {
+    "QuestionText": "What does COUNTIF function do in Excel?",
+    "Options": [
+      "A) Counts all filled cells in a range",
+      "B) Counts cells in a range that meet a specified criterion",
+      "C) Adds values that meet a condition",
+      "D) Formats cells based on count"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "=COUNTIF(range, criteria): counts cells meeting a condition. Examples: =COUNTIF(B2:B100,\"Pass\") \u2014 counts how many 'Pass' entries. =COUNTIF(C2:C50,\">80\") \u2014 counts marks above 80. =COUNTIF(A2:A100,\"Delhi\") \u2014 counts Delhi entries. COUNTIFS: multiple criteria. SUMIF: sum based on condition. AVERAGEIF: average based on condition. These functions avoid creating helper columns and make data analysis efficient in large datasets."
+  },
+  {
+    "QuestionText": "What is the purpose of 'Freeze Panes' in Excel?",
+    "Options": [
+      "A) Permanently locks cells to prevent editing",
+      "B) Keeps specific rows or columns visible while scrolling through large datasets",
+      "C) Freezes the current view for screenshots",
+      "D) Prevents the workbook from being closed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Freeze Panes (View tab \u2192 Freeze Panes): keeps header rows/columns visible when scrolling through large datasets. Example: freeze row 1 (headers) \u2014 when you scroll down to row 500, column headers (Name, Age, Score...) remain visible at the top. Split: divides the window into panes that can scroll independently. Unfreeze: View \u2192 Freeze Panes \u2192 Unfreeze All. Essential when working with databases or large tables in Excel."
+  },
+  {
+    "QuestionText": "What is 'Word Art' in MS Word/PowerPoint?",
+    "Options": [
+      "A) Artistic word paintings",
+      "B) Pre-designed text with special visual effects \u2014 shadows, glows, curves, outlines",
+      "C) A tool for inserting poetry into documents",
+      "D) An AI tool that writes text automatically"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Foundation",
+    "Explanation": "WordArt: decorative text with visual effects \u2014 predefined styles with shadows, reflections, glows, 3D effects, gradient fills, curved paths. Insert tab \u2192 WordArt. Used in: title pages, posters, certificates, flyers \u2014 where artistic text adds visual impact. Regular documents (reports, letters) should use standard text formatting, not WordArt. Can be edited, resized, and transformed into various shapes (curved, arch, wave paths)."
+  },
+  {
+    "QuestionText": "What is the 'Ribbon' in Microsoft Office applications?",
+    "Options": [
+      "A) A decorative border around documents",
+      "B) The tabbed toolbar at the top of Office applications organising commands into logical groups",
+      "C) A feature for adding coloured borders to text",
+      "D) A status bar at the bottom showing document statistics"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Foundation",
+    "Explanation": "The Ribbon (introduced in Office 2007): the main interface element at the top of Word, Excel, PowerPoint. Organised into: Tabs (Home, Insert, Page Layout, Formulas/Design, Review, View...), Groups (within each tab \u2014 related commands), Commands (buttons, dropdowns within groups). Replaces traditional menus. Can be minimised (Ctrl+F1). Contextual tabs appear when specific objects are selected (e.g., Table Tools when clicking a table). Quick Access Toolbar (above ribbon) for frequently used commands."
+  },
+  {
+    "QuestionText": "What is the keyboard shortcut to insert a new slide in PowerPoint?",
+    "Options": [
+      "A) Ctrl+N",
+      "B) Ctrl+M",
+      "C) Ctrl+S",
+      "D) Ctrl+I"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+M: inserts a new slide in PowerPoint after the currently selected slide. Ctrl+N: creates a new presentation file. Ctrl+D: duplicates the current slide (keeps same layout and content). In Slide panel (left): Enter key also adds a new slide. Home tab \u2192 New Slide \u2192 choose from layout options. Shortcuts save time in presentation creation \u2014 right-click in the slides panel also offers insert options."
+  },
+  {
+    "QuestionText": "What is the 'Spelling and Grammar' check shortcut in MS Office?",
+    "Options": [
+      "A) Ctrl+G",
+      "B) F7",
+      "C) Ctrl+Shift+S",
+      "D) Alt+F4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Foundation",
+    "Explanation": "F7: opens Spelling and Grammar check dialog in Word, Excel, and PowerPoint. Features: checks spelling (red underline), grammar (blue underline in Word), suggests corrections. AutoCorrect: automatically fixes common typos as you type (teh \u2192 the). Proofing Tools accessible under Review tab. Editor (in Microsoft 365): AI-powered writing assistant checking grammar, clarity, conciseness, formality, and style \u2014 more advanced than basic spell check."
+  },
+  {
+    "QuestionText": "What is the purpose of the 'Format Painter' tool in MS Office?",
+    "Options": [
+      "A) Creates artwork within documents",
+      "B) Copies formatting from one element and applies it to another",
+      "C) Paints cells with colour based on value",
+      "D) Formats the entire document consistently"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Foundation",
+    "Explanation": "Format Painter (paintbrush icon in Home tab): copies ALL formatting (font, size, colour, bold, italic, borders, cell styles) from one element and applies to another with a single click. Steps: select formatted source \u2192 click Format Painter \u2192 click destination. Double-click Format Painter to apply to multiple destinations (click each one, press Esc when done). Huge time saver for consistent formatting across large documents \u2014 avoids manually reapplying each format option."
+  },
+  {
+    "QuestionText": "Assertion: In Excel, cell references in formulas automatically adjust when the formula is copied to a new cell. Reason: Excel uses relative referencing by default \u2014 references are relative to the formula's position. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: copying =A1+B1 from C1 to C2 \u2192 formula becomes =A2+B2 automatically. Reason TRUE and correctly explains: relative references (A1, B1) represent 'one cell to the left' and 'two cells to the left' of the formula cell. When copied down one row, references adjust down one row. This makes formulas reusable across rows/columns without manual editing. To prevent adjustment: use absolute references ($A$1, $B$1) which always point to the same cell regardless of where the formula is."
+  },
+  {
+    "QuestionText": "What is a 'Table' in MS Word and why is it useful?",
+    "Options": [
+      "A) A decorative border element",
+      "B) A grid of rows and columns for organising data, making comparisons and structured information easy to read",
+      "C) A database link to Excel",
+      "D) A way to display mathematical tables only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Word tables: grids of rows and columns for organising structured data. Insert via Insert \u2192 Table or draw manually. Features: merge cells (spanning multiple columns/rows), sort rows, add formulas for simple calculations, apply table styles for professional appearance. Uses: comparison tables, timetables, data presentation, forms. Tables improve readability for structured information vs plain text. Borders, shading, and cell alignment can all be customised. Tables can be converted to/from text."
+  },
+  {
+    "QuestionText": "What does the AVERAGE function do in Excel?",
+    "Options": [
+      "A) Finds the middle value in a sorted list",
+      "B) Calculates the arithmetic mean of a range of numbers",
+      "C) Returns the most frequent value",
+      "D) Calculates a weighted average"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "=AVERAGE(A1:A10): calculates arithmetic mean (sum \u00f7 count) of numbers in the range. =MEDIAN(A1:A10): middle value when sorted (not affected by outliers). =MODE(A1:A10): most frequently occurring value. AVERAGE is the mathematical mean \u2014 affected by extreme values (outliers). Example: test scores 60, 70, 80, 90, 10 \u2192 AVERAGE = 62, but the 10 drags it down. AVERAGEIF: average for cells meeting a criterion. AVERAGEIFS: multiple criteria."
+  },
+  {
+    "QuestionText": "Which view in Excel shows how the spreadsheet will look when printed?",
+    "Options": [
+      "A) Normal view",
+      "B) Page Break Preview",
+      "C) Print Preview / Page Layout view",
+      "D) Freeze Pane view"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Print Preview (Ctrl+P \u2192 see preview on right) or Page Layout view (View \u2192 Page Layout): shows how the spreadsheet will print \u2014 page breaks, margins, headers/footers. Page Break Preview (View \u2192 Page Break Preview): shows blue dotted lines indicating where pages break \u2014 drag lines to adjust. Essential before printing large spreadsheets to ensure data fits correctly and pages break at logical points. Set print area, scale to fit, repeat header rows on each page using Page Layout tab."
+  },
+  {
+    "QuestionText": "What is a 'Table of Contents' in MS Word and how is it created?",
+    "Options": [
+      "A) A list of tables in the document, created manually",
+      "B) An automatically generated list of headings with page numbers, created from Heading styles",
+      "C) A summary of the document's main points",
+      "D) An index of all words in the document"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Table of Contents (TOC): automatically generated from text formatted with Heading styles (Heading 1, Heading 2, Heading 3). Insert \u2192 Table of Contents \u2192 Automatic Table. Word collects all headings and their page numbers, creates a linked TOC. If you add/edit headings: right-click TOC \u2192 Update Field. Custom TOC: specify heading levels to include. The TOC entries are clickable (Ctrl+click) to navigate the document. Essential for long reports, theses, and manuals."
+  },
+  {
+    "QuestionText": "What does 'CSV' stand for and when is it useful?",
+    "Options": [
+      "A) Comma Separated Values \u2014 a simple text format for tabular data compatible with any spreadsheet application",
+      "B) Certified Spreadsheet Version",
+      "C) Computer Stored Variables",
+      "D) Combined Sheet View"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "CSV (Comma Separated Values): plain text file where each line is a row and values within each row are separated by commas. Example: 'Name,Age,Score' / 'Priya,14,85'. Advantages: universal compatibility (any OS, any spreadsheet, databases, programming languages), very small file size, human-readable in any text editor. Disadvantages: no formatting, no formulas, no multiple sheets, no special characters handling (commas in data cause issues). Used for: data export/import between systems, database backups, app data interchange."
+  },
+  {
+    "QuestionText": "What is the purpose of 'Protect Sheet' in Excel?",
+    "Options": [
+      "A) Saves the sheet to a secure cloud location",
+      "B) Locks cells from being edited, preventing accidental or unauthorised changes to formulas/data",
+      "C) Encrypts the entire workbook with a password",
+      "D) Creates a read-only copy of the sheet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Protect Sheet (Review \u2192 Protect Sheet): locks cells to prevent editing. By default, all cells are 'locked' but this only takes effect when protection is enabled. Common workflow: unlock cells where users should enter data (Format Cells \u2192 Protection \u2192 uncheck Locked), then protect the sheet \u2014 users can only edit the unlocked cells. Optional password protection. Use case: create a form/template where calculated cells (formulas) are protected but input cells are editable. Protect Workbook: prevents structural changes (adding/deleting sheets)."
+  },
+  {
+    "QuestionText": "Statement 1: Excel's SUM function ignores text values in the range. Statement 2: Excel functions like SUM and AVERAGE automatically skip cells containing text, counting only numeric values. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 TRUE: =SUM(A1:A5) where A3 contains text 'N/A' \u2192 SUM ignores that cell and adds only numbers. Statement 2 TRUE: SUM, AVERAGE, MIN, MAX, COUNT all skip text and blank cells. COUNT: counts numbers only; COUNTA: counts all non-blank cells (including text); COUNTBLANK: counts empty cells. However, text that LOOKS like numbers (stored as text) IS skipped by SUM \u2014 this common issue is fixed by using VALUE() function or Data \u2192 Text to Columns conversion."
+  },
+  {
+    "QuestionText": "What is the purpose of 'AutoSum' in Excel?",
+    "Options": [
+      "A) Automatically calculates and displays the sum of selected cells with one click",
+      "B) Sums values while automatically formatting the result",
+      "C) A feature that sums data imported from the internet",
+      "D) Auto-saves the file after every sum calculation"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "AutoSum (\u03a3 button in Home or Formulas tab, or Alt+=): automatically inserts a SUM formula for the most logical range above or to the left of the selected cell. Click on an empty cell below a column of numbers \u2192 press Alt+= \u2192 Excel guesses the range \u2192 press Enter. Also works for AVERAGE, COUNT, MAX, MIN (click dropdown arrow next to \u03a3). Huge time saver for quickly summing large ranges without typing the formula manually."
+  },
+  {
+    "QuestionText": "How do you insert an image into a Word document?",
+    "Options": [
+      "A) File \u2192 Insert Image",
+      "B) Insert tab \u2192 Pictures \u2192 choose This Device (local) or Online Pictures",
+      "C) Right-click anywhere \u2192 Insert Image",
+      "D) View \u2192 Insert \u2192 Image"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Insert tab \u2192 Pictures: This Device (local file from computer), Stock Images (free library in Microsoft 365), Online Pictures (Bing image search), Screenshot (capture screen region). After inserting: Picture Format tab appears for editing (crop, colour correction, artistic effects, text wrapping). Text wrapping determines how text flows around the image: In Line with Text (moves with text), Square, Tight, Behind Text, In Front of Text, Through."
+  },
+  {
+    "QuestionText": "What is 'Find and Replace' (Ctrl+H) used for in MS Word?",
+    "Options": [
+      "A) Finding lost files on the computer",
+      "B) Searching for specific text and replacing it with different text throughout a document",
+      "C) Finding and fixing grammatical errors",
+      "D) Replacing images with text descriptions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Find (Ctrl+F): locates specific text in the document \u2014 highlights all occurrences, allows navigation between them. Replace (Ctrl+H): finds specific text AND replaces it with different text \u2014 Replace (one at a time) or Replace All (every occurrence simultaneously). Example: you wrote 'colour' throughout a document but need American 'color' \u2014 Replace All instantly changes all 200+ occurrences. Also finds/replaces formatting. Use Match Case, Whole Words options to prevent unintended replacements."
+  },
+  {
+    "QuestionText": "What does 'landscape' vs 'portrait' orientation mean for a document?",
+    "Options": [
+      "A) Landscape = smaller margins; portrait = larger margins",
+      "B) Portrait = tall vertical page (taller than wide); landscape = wide horizontal page (wider than tall)",
+      "C) Landscape = used for photos; portrait = used for text only",
+      "D) They refer to the printer type, not page orientation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Page orientation: Portrait: standard vertical orientation (width < height) \u2014 used for most documents (letters, reports, essays). Landscape: horizontal orientation (width > height) \u2014 wider pages used for: wide tables, presentations when printed, spreadsheets, certificates, brochures. Changed in: Word/Excel: Page Layout \u2192 Orientation. PowerPoint is landscape by default (16:9 or 4:3 widescreen). Different sections of a Word document can have different orientations."
+  },
+  {
+    "QuestionText": "What is the function of 'Comments' in MS Word/Excel?",
+    "Options": [
+      "A) Comments format the text they are attached to",
+      "B) Notes added to specific parts of a document for review/collaboration without changing the actual content",
+      "C) Automatic footnotes generated by Word",
+      "D) Hidden text visible only to the author"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Foundation",
+    "Explanation": "Comments: annotations attached to specific text/cells for collaboration and review. In Word: Review \u2192 New Comment; text displays in a margin bubble. In Excel: Review \u2192 New Comment (appears as a small red triangle in cell corner, visible on hover) or New Note (older style). Comments are separate from content \u2014 don't change the document. Multiple reviewers can add comments; others can Reply. Resolved comments can be marked as done. Different from Track Changes (which records actual edits to content)."
+  },
+  {
+    "QuestionText": "What is 'pagination' in MS Word?",
+    "Options": [
+      "A) Creating page numbers only on odd pages",
+      "B) The arrangement of content across pages, including page breaks, orphan/widow control, and keeping content together",
+      "C) Converting a document to PDF format",
+      "D) Setting the page background colour"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Pagination: how text flows across pages. Controlled by: Page Breaks (Ctrl+Enter: manual page break, starts new page), Paragraph settings (Keep with Next: keeps a heading with its following paragraph, Keep Lines Together: prevents splitting paragraphs, Widow/Orphan Control: prevents single lines stranded at page top/bottom). Automatic pagination: Word flows text across pages as you type. Section breaks allow different formatting (orientation, margins, page numbering) for different document sections."
+  },
+  {
+    "QuestionText": "What does 'merge cells' do in Excel?",
+    "Options": [
+      "A) Combines data from multiple cells into one formula",
+      "B) Combines two or more adjacent cells into one larger cell",
+      "C) Links two separate worksheets together",
+      "D) Imports data from multiple files into one cell"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Merge Cells (Home \u2192 Merge & Center or Merge Cells): combines selected adjacent cells into one cell that spans their combined area. Common uses: table headers spanning multiple columns, decorative formatting. Caution: merged cells cause problems with sorting, filtering, formulas referencing the area, and copying/pasting. Only the top-left value is kept when merging (others are deleted). Better alternative for centering headers: use 'Center Across Selection' (Format Cells \u2192 Alignment) which doesn't actually merge."
+  },
+  {
+    "QuestionText": "What is the purpose of 'Page Setup' in Excel for printing?",
+    "Options": [
+      "A) Sets up the computer screen display resolution",
+      "B) Controls print settings: paper size, margins, orientation, scaling, print area, headers/footers",
+      "C) Sets the default font for new workbooks",
+      "D) Configures internet connection for online printing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Page Setup (Page Layout tab or Ctrl+P \u2192 Page Setup link): Paper size (A4/A3/Letter), Orientation (portrait/landscape), Scaling (Fit Sheet on One Page, or percentage), Print Area (define which cells to print), Margins (top/bottom/left/right), Headers/Footers (appear on every printed page \u2014 sheet name, date, page numbers), Row/Column to repeat on each page (freeze equivalent for printing). Preview first with Ctrl+P to see exactly what prints before wasting paper."
+  },
+  {
+    "QuestionText": "Assertion: PowerPoint animations should be used thoughtfully and sparingly in professional presentations. Reason: Excessive animations distract from the content, slow down the presentation, and can appear unprofessional. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: professional presentation best practices recommend minimal, purposeful animation. Reason TRUE and correctly explains: excessive bouncing text, spinning logos, and sound effects distract from the message, annoy the audience, and signal lack of confidence in the content itself. Purposeful animation: fade in key points as you discuss them (controls information reveal), subtle slide transitions maintain visual flow. Rule: if the animation doesn't add meaning, remove it. Simplicity and strong content > flashy effects."
+  },
+  {
+    "QuestionText": "What is 'Headers and Footers' in MS Word/Excel?",
+    "Options": [
+      "A) The first and last paragraphs of a document",
+      "B) Text areas at the top (header) and bottom (footer) of each page that repeat across all pages",
+      "C) Special formatting for headings in the document",
+      "D) The title page and bibliography of a document"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Foundation",
+    "Explanation": "Headers (top of page) and Footers (bottom of page): appear on every page automatically. Common contents: page numbers, document title, company name, date, file path, author. Insert \u2192 Header & Footer or double-click the top/bottom margin area. Different first page header/footer (common for title pages). Different odd/even page headers (for book-style documents). In Excel: Page Layout \u2192 Print Titles \u2192 Header/Footer \u2014 for printing. Professional documents always include page numbers in headers/footers."
+  },
+  {
+    "QuestionText": "What is the difference between 'Cut' and 'Copy' in MS Office?",
+    "Options": [
+      "A) Cut removes the original; Copy keeps the original \u2014 both place content in clipboard for pasting",
+      "B) They are identical operations",
+      "C) Cut is for text; Copy is for images",
+      "D) Copy removes the original; Cut keeps the original"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - MS Office",
+    "SubTopic": "MS Office General",
+    "Difficulty": "Foundation",
+    "Explanation": "Cut (Ctrl+X): removes content from the source location and places it in the clipboard. The source is empty after cutting. Paste elsewhere to move the content. Copy (Ctrl+C): duplicates content to clipboard without affecting the source \u2014 original remains intact. Paste (Ctrl+V): inserts clipboard content at the cursor position. Clipboard stores multiple items (Office Clipboard: up to 24 items). Paste Special (Ctrl+Alt+V): paste with specific options (values only, formatting only, transpose, etc.)."
+  }
+]

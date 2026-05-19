@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which part of a plant absorbs water from the soil?",
+    "Options": [
+      "A) Roots",
+      "B) Leaves",
+      "C) Stem",
+      "D) Flower"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Parts of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Roots anchor the plant and absorb water and minerals from soil."
+  },
+  {
+    "QuestionText": "Which part of a plant makes food using sunlight?",
+    "Options": [
+      "A) Leaves",
+      "B) Roots",
+      "C) Stem",
+      "D) Flower"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Parts of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Leaves contain chlorophyll and make food using sunlight (photosynthesis)."
+  },
+  {
+    "QuestionText": "What do plants need to make their own food?",
+    "Options": [
+      "A) Sunlight, water, and air",
+      "B) Only water",
+      "C) Only sunlight",
+      "D) Only soil"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Plants need sunlight, water, and carbon dioxide (air) to make food."
+  },
+  {
+    "QuestionText": "Which of these is a creeper?",
+    "Options": [
+      "A) Pumpkin",
+      "B) Mango",
+      "C) Neem",
+      "D) Banyan"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "A creeper grows along the ground. Pumpkin is a creeper."
+  },
+  {
+    "QuestionText": "Which animal eats only plants?",
+    "Options": [
+      "A) Cow",
+      "B) Lion",
+      "C) Tiger",
+      "D) Wolf"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Animals",
+    "Difficulty": "Foundation",
+    "Explanation": "Cow is a herbivore \u2014 it eats only plants."
+  },
+  {
+    "QuestionText": "Which animal eats only meat?",
+    "Options": [
+      "A) Lion",
+      "B) Deer",
+      "C) Rabbit",
+      "D) Elephant"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Animals",
+    "Difficulty": "Foundation",
+    "Explanation": "Lion is a carnivore \u2014 it eats only meat."
+  },
+  {
+    "QuestionText": "An animal that eats both plants and animals is called?",
+    "Options": [
+      "A) Omnivore",
+      "B) Herbivore",
+      "C) Carnivore",
+      "D) Scavenger"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Animals",
+    "Difficulty": "Foundation",
+    "Explanation": "Omnivores eat both plants and animals. Examples: humans, crow."
+  },
+  {
+    "QuestionText": "Which part of a plant carries water from roots to leaves?",
+    "Options": [
+      "A) Stem",
+      "B) Flower",
+      "C) Fruit",
+      "D) Seed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Parts of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "The stem transports water and nutrients throughout the plant."
+  },
+  {
+    "QuestionText": "Which of these is a herb?",
+    "Options": [
+      "A) Tulsi",
+      "B) Mango",
+      "C) Banyan",
+      "D) Peepal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Tulsi (Holy Basil) is a small herb plant with a soft stem."
+  },
+  {
+    "QuestionText": "Where do seeds grow into new plants?",
+    "Options": [
+      "A) Soil",
+      "B) Water only",
+      "C) Rocks",
+      "D) Sand only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plant Growth",
+    "Difficulty": "Foundation",
+    "Explanation": "Seeds germinate and grow best in suitable soil."
+  },
+  {
+    "QuestionText": "Which part of a plant protects the seed?",
+    "Options": [
+      "A) Fruit",
+      "B) Leaf",
+      "C) Stem",
+      "D) Root"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Parts of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "The fruit develops from the flower and contains seeds inside it."
+  },
+  {
+    "QuestionText": "A plant with a woody, hard trunk is called a?",
+    "Options": [
+      "A) Tree",
+      "B) Herb",
+      "C) Creeper",
+      "D) Climber"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Trees have hard, woody trunks. Example: mango, banyan."
+  },
+  {
+    "QuestionText": "Which animal has a backbone?",
+    "Options": [
+      "A) Fish",
+      "B) Ant",
+      "C) Cockroach",
+      "D) Butterfly"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Fish have a backbone (vertebrate). Insects do not."
+  },
+  {
+    "QuestionText": "Which of these animals lives both on land and in water?",
+    "Options": [
+      "A) Frog",
+      "B) Fish",
+      "C) Cow",
+      "D) Eagle"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Habitats",
+    "Difficulty": "Foundation",
+    "Explanation": "Frogs are amphibians \u2014 they live both on land and in water."
+  },
+  {
+    "QuestionText": "A butterfly begins its life as a?",
+    "Options": [
+      "A) Caterpillar",
+      "B) Pupa",
+      "C) Egg",
+      "D) Adult"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Life Cycles",
+    "Difficulty": "Advanced",
+    "Explanation": "A butterfly starts as an egg, hatches into a caterpillar, then becomes a pupa."
+  },
+  {
+    "QuestionText": "Which of the following is a water plant?",
+    "Options": [
+      "A) Lotus",
+      "B) Rose",
+      "C) Sunflower",
+      "D) Tulsi"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Lotus grows in water."
+  },
+  {
+    "QuestionText": "Cactus survives in desert because it stores?",
+    "Options": [
+      "A) Water in its stem",
+      "B) Food in roots",
+      "C) Air in leaves",
+      "D) Sunlight in spines"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plant Adaptations",
+    "Difficulty": "Advanced",
+    "Explanation": "Cactus stores water in its thick stem to survive dry conditions."
+  },
+  {
+    "QuestionText": "Which animal can change its colour to blend with surroundings?",
+    "Options": [
+      "A) Chameleon",
+      "B) Tiger",
+      "C) Elephant",
+      "D) Horse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Adaptations",
+    "Difficulty": "Advanced",
+    "Explanation": "Chameleons can change their skin colour for camouflage."
+  },
+  {
+    "QuestionText": "A baby cat is called a?",
+    "Options": [
+      "A) Kitten",
+      "B) Cub",
+      "C) Calf",
+      "D) Pup"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Young Ones",
+    "Difficulty": "Foundation",
+    "Explanation": "A baby cat is called a kitten."
+  },
+  {
+    "QuestionText": "Which sense do plants lack compared to animals?",
+    "Options": [
+      "A) Ability to move from place to place",
+      "B) Ability to make food",
+      "C) Ability to reproduce",
+      "D) Ability to breathe"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plants vs Animals",
+    "Difficulty": "Advanced",
+    "Explanation": "Animals can move around, but plants are rooted to one place."
+  },
+  {
+    "QuestionText": "What is the process by which plants make their own food called?",
+    "Options": [
+      "A) Photosynthesis",
+      "B) Respiration",
+      "C) Germination",
+      "D) Pollination"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Photosynthesis is the process plants use to make food using sunlight."
+  },
+  {
+    "QuestionText": "Which plant part do we eat in a potato?",
+    "Options": [
+      "A) Root (tuber)",
+      "B) Leaf",
+      "C) Fruit",
+      "D) Seed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plant Parts We Eat",
+    "Difficulty": "Foundation",
+    "Explanation": "Potato is a tuber \u2014 it is a modified root (underground stem)."
+  },
+  {
+    "QuestionText": "A spider has how many legs?",
+    "Options": [
+      "A) 8",
+      "B) 6",
+      "C) 4",
+      "D) 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Facts",
+    "Difficulty": "Advanced",
+    "Explanation": "Spiders are arachnids and have 8 legs."
+  },
+  {
+    "QuestionText": "Which of these animals is a mammal?",
+    "Options": [
+      "A) Whale",
+      "B) Shark",
+      "C) Octopus",
+      "D) Frog"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Whales are mammals \u2014 they breathe air and feed milk to young."
+  },
+  {
+    "QuestionText": "Which part of a plant grows new plants in vegetative reproduction?",
+    "Options": [
+      "A) Leaves (in some plants), stem cuttings",
+      "B) Only seeds",
+      "C) Only flowers",
+      "D) Only roots"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Reproduction",
+    "Difficulty": "Advanced",
+    "Explanation": "Some plants can grow from cuttings of leaves or stems."
+  },
+  {
+    "QuestionText": "A dog and cat belong to which group of animals?",
+    "Options": [
+      "A) Mammals",
+      "B) Reptiles",
+      "C) Amphibians",
+      "D) Birds"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Dogs and cats are mammals \u2014 they give birth to live young."
+  },
+  {
+    "QuestionText": "Which of these trees has leaves year round (evergreen)?",
+    "Options": [
+      "A) Neem",
+      "B) Mulberry",
+      "C) Banana",
+      "D) Peepal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Plants",
+    "Difficulty": "Advanced",
+    "Explanation": "Neem is an evergreen tree; it retains its leaves throughout the year."
+  },
+  {
+    "QuestionText": "Which plant grows without soil in some places?",
+    "Options": [
+      "A) Hydrilla (water plant)",
+      "B) Mango",
+      "C) Sunflower",
+      "D) Rose"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plant Habitats",
+    "Difficulty": "Advanced",
+    "Explanation": "Hydrilla is an aquatic plant that grows underwater without soil."
+  },
+  {
+    "QuestionText": "Which gas do plants release during photosynthesis?",
+    "Options": [
+      "A) Oxygen",
+      "B) Carbon dioxide",
+      "C) Nitrogen",
+      "D) Hydrogen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Plants release oxygen during photosynthesis, which animals breathe."
+  },
+  {
+    "QuestionText": "The green colour of plants is due to?",
+    "Options": [
+      "A) Chlorophyll",
+      "B) Water",
+      "C) Sunlight",
+      "D) Soil"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "Chlorophyll is the green pigment in leaves that captures sunlight."
+  },
+  {
+    "QuestionText": "Which animal builds a dam across rivers?",
+    "Options": [
+      "A) Beaver",
+      "B) Lion",
+      "C) Elephant",
+      "D) Monkey"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Behaviour",
+    "Difficulty": "Advanced",
+    "Explanation": "Beavers build dams using sticks and mud."
+  },
+  {
+    "QuestionText": "What is a group of fish called?",
+    "Options": [
+      "A) A school",
+      "B) A herd",
+      "C) A flock",
+      "D) A pack"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Groups",
+    "Difficulty": "Advanced",
+    "Explanation": "A group of fish is called a school."
+  },
+  {
+    "QuestionText": "In which season do most flowering plants bloom in India?",
+    "Options": [
+      "A) Spring",
+      "B) Summer",
+      "C) Monsoon",
+      "D) Winter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Seasonal Changes",
+    "Difficulty": "Advanced",
+    "Explanation": "Most plants flower in spring when conditions are favourable."
+  },
+  {
+    "QuestionText": "Which plant is used to make medicine for fever?",
+    "Options": [
+      "A) Cinchona",
+      "B) Neem only",
+      "C) Tulsi only",
+      "D) Rose"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Medicinal Plants",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cinchona bark is the source of quinine, used to treat malaria/fever."
+  },
+  {
+    "QuestionText": "What does a seed need to start growing (germinate)?",
+    "Options": [
+      "A) Water, warmth, and air",
+      "B) Only sunlight",
+      "C) Only soil",
+      "D) Only water"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plant Growth",
+    "Difficulty": "Advanced",
+    "Explanation": "Seeds need moisture, warmth, and air to germinate."
+  },
+  {
+    "QuestionText": "Which part of a flower produces pollen?",
+    "Options": [
+      "A) Stamen",
+      "B) Pistil",
+      "C) Petal",
+      "D) Sepal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Flower Parts",
+    "Difficulty": "Olympiad",
+    "Explanation": "The stamen is the male part of a flower that produces pollen."
+  },
+  {
+    "QuestionText": "How do animals help in pollination?",
+    "Options": [
+      "A) They carry pollen from flower to flower",
+      "B) They make seeds",
+      "C) They water plants",
+      "D) They cut leaves"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Pollination",
+    "Difficulty": "Olympiad",
+    "Explanation": "Bees, butterflies, and other animals carry pollen between flowers."
+  },
+  {
+    "QuestionText": "Which type of root does a carrot have?",
+    "Options": [
+      "A) Tap root",
+      "B) Fibrous root",
+      "C) Aerial root",
+      "D) Prop root"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Roots",
+    "Difficulty": "Olympiad",
+    "Explanation": "A carrot is a tap root \u2014 a single large main root."
+  },
+  {
+    "QuestionText": "A plant that traps and eats insects is?",
+    "Options": [
+      "A) Venus flytrap",
+      "B) Cactus",
+      "C) Rose",
+      "D) Mango"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Unusual Plants",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Venus flytrap is a carnivorous plant that eats insects."
+  },
+  {
+    "QuestionText": "A cow gives milk. In which category does this food come from?",
+    "Options": [
+      "A) Animal product",
+      "B) Plant product",
+      "C) Mineral",
+      "D) Synthetic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Food Sources",
+    "Difficulty": "Foundation",
+    "Explanation": "Milk comes from cows, so it is an animal product."
+  },
+  {
+    "QuestionText": "What is the relationship where both animals benefit?",
+    "Options": [
+      "A) Mutualism",
+      "B) Parasitism",
+      "C) Predation",
+      "D) Competition"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Relationships",
+    "Difficulty": "Olympiad",
+    "Explanation": "Mutualism is when both organisms benefit, e.g. bees and flowers."
+  },
+  {
+    "QuestionText": "Which gas do plants take in for photosynthesis?",
+    "Options": [
+      "A) Carbon dioxide",
+      "B) Oxygen",
+      "C) Nitrogen",
+      "D) Helium"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Plants take in carbon dioxide (CO\u2082) from the air to make food."
+  },
+  {
+    "QuestionText": "A hen hatches from a?",
+    "Options": [
+      "A) Egg",
+      "B) Live birth",
+      "C) Bud",
+      "D) Spore"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Reproduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Hens lay eggs; chicks hatch from those eggs."
+  },
+  {
+    "QuestionText": "Which plant has thorns for protection?",
+    "Options": [
+      "A) Rose",
+      "B) Mango",
+      "C) Banana",
+      "D) Peepal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plant Adaptations",
+    "Difficulty": "Foundation",
+    "Explanation": "Rose plants have thorns that protect them from being eaten."
+  },
+  {
+    "QuestionText": "Which insects help plants by pollinating them?",
+    "Options": [
+      "A) Bees and butterflies",
+      "B) Mosquitoes",
+      "C) Cockroaches",
+      "D) Ants only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Pollination",
+    "Difficulty": "Advanced",
+    "Explanation": "Bees and butterflies carry pollen from flower to flower."
+  },
+  {
+    "QuestionText": "Animals that are active at night are called?",
+    "Options": [
+      "A) Nocturnal",
+      "B) Diurnal",
+      "C) Aquatic",
+      "D) Arboreal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Behaviour",
+    "Difficulty": "Advanced",
+    "Explanation": "Nocturnal animals are active at night, like owls and bats."
+  },
+  {
+    "QuestionText": "What is the food stored in a seed called?",
+    "Options": [
+      "A) Cotyledon",
+      "B) Root",
+      "C) Stem",
+      "D) Flower"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Seed Structure",
+    "Difficulty": "Olympiad",
+    "Explanation": "The cotyledon provides food to the seed embryo during germination."
+  },
+  {
+    "QuestionText": "Which animal is known as the king of the jungle?",
+    "Options": [
+      "A) Lion",
+      "B) Elephant",
+      "C) Tiger",
+      "D) Leopard"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Animal Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "The lion is often called the king of the jungle."
+  },
+  {
+    "QuestionText": "A plant that uses another plant for support but does not harm it is?",
+    "Options": [
+      "A) Climber",
+      "B) Parasite",
+      "C) Epiphyte",
+      "D) Saprophyte"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Types of Plants",
+    "Difficulty": "Olympiad",
+    "Explanation": "Climbers use other plants or objects as support without harming them."
+  },
+  {
+    "QuestionText": "How does a cactus prevent water loss?",
+    "Options": [
+      "A) Thick waxy skin and spines instead of leaves",
+      "B) Large broad leaves",
+      "C) Lots of roots",
+      "D) Shedding leaves"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Plants and Animals",
+    "SubTopic": "Plant Adaptations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cactus has a thick, waxy skin and spines (modified leaves) to reduce water loss."
+  }
+]

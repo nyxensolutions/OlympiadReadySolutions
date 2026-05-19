@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "A man starts from a point and walks 2 km North, then turns East and walks 10 km, then turns North and walks 3 km, and finally turns East and walks 2 km. How far is he from the starting point?",
+    "Options": ["A) 10 km", "B) 13 km", "C) 15 km", "D) 17 km"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Total North distance = 2 + 3 = 5 km. Total East distance = 10 + 2 = 12 km. Using Pythagoras theorem: Distance = √(5² + 12²) = √(25 + 144) = √169 = 13 km."
+  },
+  {
+    "QuestionText": "If North-East becomes North, North becomes North-West and so on, what will West become?",
+    "Options": ["A) North-West", "B) South-West", "C) South", "D) South-East"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Change",
+    "Difficulty": "Advanced",
+    "Explanation": "The directions are rotating 45 degrees counter-clockwise. West rotating 45 degrees counter-clockwise becomes South-West."
+  },
+  {
+    "QuestionText": "A person walks 5 km towards South and then turns to the right. After walking 3 km, he turns to the left and walks 5 km. Now in which direction is he from the starting place?",
+    "Options": ["A) West", "B) South", "C) South-West", "D) North-East"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "He moved South, then West (right turn from South), then South again (left turn from West). He is now South and West from the origin."
+  },
+  {
+    "QuestionText": "One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. To which direction was he facing?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Shadow Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "In the morning, the sun is in the East, so shadows fall towards the West. If the shadow is to Suresh's right, and the shadow is West, then Suresh must be facing South (so that West is his right side)."
+  },
+  {
+    "QuestionText": "A child is looking for his father. He went 90 metres in the East before turning to his right. He went 20 metres before turning to his right again to look for his father at his uncle's place 30 metres from this point. His father was not there. From here he went 100 metres to the North before meeting his father in a street. How far did the son meet his father from the starting point?",
+    "Options": ["A) 80 m", "B) 100 m", "C) 140 m", "D) 260 m"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "Net displacement East = 90 - 30 = 60 m. Net displacement North = 100 - 20 = 80 m. Shortest distance = √(60² + 80²) = √(3600 + 6400) = √10000 = 100 m."
+  },
+  {
+    "QuestionText": "Kailash faces towards North. Turning to his right, he walks 25 metres. He then turns to his left and walks 30 metres. Next, he moves 25 metres to his right. He then turns to his right again and walks 55 metres. Finally, he turns to the right and moves 40 metres. In which direction is he now from his starting point?",
+    "Options": ["A) South-West", "B) South", "C) North-West", "D) South-East"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Tracing the path: Start (0,0) -> Right (East) to (25,0) -> Left (North) to (25,30) -> Right (East) to (50,30) -> Right (South) to (50,-25) -> Right (West) to (10,-25). The point (10, -25) is South and East of the origin."
+  },
+  {
+    "QuestionText": "Deepa moved a distance of 75 metres towards the North. She then turned to the left and walked about 25 metres, turned left again and walked 80 metres. Finally, she turned to the right at an angle of 45°. In which direction was she moving finally?",
+    "Options": ["A) South-East", "B) South-West", "C) North-West", "D) North-East"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Angular Movement",
+    "Difficulty": "Advanced",
+    "Explanation": "She was walking South after the second left turn. A right turn of 45° from South points her towards South-West."
+  },
+  {
+    "QuestionText": "Johnson left for his office in his car. He drove 15 km towards North and then 10 km towards West. He then turned to the South and covered 5 km. Further, he turned to the East and moved 8 km. Finally, he turned right and drove 10 km. How far and in which direction is he from his starting point?",
+    "Options": ["A) 2 km West", "B) 5 km East", "C) 3 km North", "D) 2 km South"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Vertical: 15 (N) - 5 (S) - 10 (Right turn from East is South) = 0. Horizontal: 10 (W) - 8 (E) = 2 km West."
+  },
+  {
+    "QuestionText": "If A is to the South of B and C is to the East of B, in what direction is A with respect to C?",
+    "Options": ["A) North-East", "B) North-West", "C) South-East", "D) South-West"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Relative Direction",
+    "Difficulty": "Foundation",
+    "Explanation": "From C, you must look West to align with B and then South to align with A. Thus, A is South-West of C."
+  },
+  {
+    "QuestionText": "A clock is so placed that at 12 noon its minute hand points towards North-East. In which direction does its hour hand point at 1:30 pm?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Clock Directions",
+    "Difficulty": "Olympiad",
+    "Explanation": "At 12:00, the hand normally points North. If North is called North-East, the clock is rotated 45° clockwise. At 1:30, the hour hand is between 1 and 2 (45° from 12). Rotated another 45°, it points exactly East."
+  },
+  {
+    "QuestionText": "Starting from a point P, Sachin walked 20 metres towards South. He turned left and walked 30 metres. He then turned left and walked 20 metres. He again turned left and walked 40 metres and reached a point Q. How far and in which direction is the point Q from the point P?",
+    "Options": ["A) 20 m West", "B) 10 m East", "C) 10 m West", "D) 10 m North"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "South 20m, East 30m, North 20m, West 40m. The vertical movements cancel out. Horizontal: 30 (E) - 40 (W) = 10m West."
+  },
+  {
+    "QuestionText": "A man is facing North-West. He turns 90° in the clockwise direction and then 135° in the anticlockwise direction. Which direction is he facing now?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Angular Movement",
+    "Difficulty": "Advanced",
+    "Explanation": "Net rotation = 135 (ACW) - 90 (CW) = 45° Anticlockwise. North-West rotated 45° Anticlockwise is West."
+  },
+  {
+    "QuestionText": "One evening before sunset, Rekha and Hema were talking to each other face to face. If Hema's shadow was exactly to the right of Hema, which direction was Rekha facing?",
+    "Options": ["A) North", "B) South", "C) East", "D) Data inadequate"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Shadow Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "Evening sun is West, shadows are East. If shadow is to Hema's right, Hema faces North. Since Rekha is facing Hema, Rekha faces South."
+  },
+  {
+    "QuestionText": "A man walks 1 km towards East and then he turns to South and walks 5 km. Again he turns to East and walks 2 km, after this he turns to North and walks 9 km. Now, how far is he from his starting point?",
+    "Options": ["A) 3 km", "B) 4 km", "C) 5 km", "D) 7 km"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Total East = 1 + 2 = 3 km. Total North = 9 - 5 = 4 km. Distance = √(3² + 4²) = 5 km."
+  },
+  {
+    "QuestionText": "If South-East becomes North, North-East becomes West and so on. What will West become?",
+    "Options": ["A) North-East", "B) North-West", "C) South-East", "D) South-West"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Change",
+    "Difficulty": "Olympiad",
+    "Explanation": "South-East to North is a 135° counter-clockwise rotation. West rotated 135° counter-clockwise becomes South-East."
+  },
+  {
+    "QuestionText": "A boy rode his bicycle Northward, then turned left and rode 1 km and again turned left and rode 2 km. He found himself 1 km west of his starting point. How far did he ride northward initially?",
+    "Options": ["A) 1 km", "B) 2 km", "C) 3 km", "D) 5 km"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "He rode X North, 1 West, 2 South. To be 1 km West of the start, his North and South movements must cancel out. Thus, X = 2 km."
+  },
+  {
+    "QuestionText": "X and Y start from the same point. X walks 40 m North. Y walks 80 m East then turns North and walks 40 m. How far is X from Y now?",
+    "Options": ["A) 40 m", "B) 80 m", "C) 120 m", "D) 160 m"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Both are at the same North level (40m). X is at (0, 40) and Y is at (80, 40). The distance between them is 80 m."
+  },
+  {
+    "QuestionText": "Laxman went 15 km to the West from my house, then turned left and walked 20 km. He then turned East and walked 25 km and finally turning left covered 20 km. How far was he from my house?",
+    "Options": ["A) 5 km", "B) 10 km", "C) 40 km", "D) 80 km"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "West 15, South 20, East 25, North 20. North/South cancel. East/West: 25 (E) - 15 (W) = 10 km East."
+  },
+  {
+    "QuestionText": "A man is facing West. He turns 45° in the clockwise direction and then another 180° in the same direction and then 270° in the anticlockwise direction. Which direction is he facing now?",
+    "Options": ["A) South", "B) North-West", "C) West", "D) South-West"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Angular Movement",
+    "Difficulty": "Advanced",
+    "Explanation": "Net rotation = (45 + 180) CW - 270 ACW = 225 CW - 270 ACW = 45° ACW. West rotated 45° ACW is South-West."
+  },
+  {
+    "QuestionText": "A and B start walking from the same point. A goes North and covers 3 km; then turns right and covers 4 km. B goes West and covers 5 km, then turns right and covers 3 km. How far apart are they from each other?",
+    "Options": ["A) 1 km", "B) 9 km", "C) 10 km", "D) 12 km"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "A is at (4, 3). B is at (-5, 3). Since they are on the same North line, distance = 4 - (-5) = 9 km."
+  },
+  {
+    "QuestionText": "One morning Udai and Vishal were talking to each other face to face at a crossing. If Vishal's shadow was exactly to the left of Udai, which direction was Udai facing?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Shadow Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "Morning shadow is West. If West is Udai's left, Udai faces North."
+  },
+  {
+    "QuestionText": "Starting from the point X, Jayant walked 15 m towards West. He turned left and walked 20 m. He then turned left and walked 15 m. After this he turned to his right and walked 12 m. How far and in which direction is now Jayant from X?",
+    "Options": ["A) 32 m South", "B) 47 m East", "C) 42 m North", "D) 27 m South"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "West 15, South 20, East 15, South 12. East/West cancel. Total South = 20 + 12 = 32 m."
+  },
+  {
+    "QuestionText": "A rat runs 20' towards East and turns to right, runs 10' and turns to right, runs 9' and again turns to left, runs 5' and then turns to left, runs 12' and finally turns to left and runs 6'. Now, which direction is the rat facing?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Sequence: East -> South (R) -> West (R) -> South (L) -> East (L) -> North (L). Final direction is North."
+  },
+  {
+    "QuestionText": "A watch reads 4:30. If the minute hand points East, in what direction will the hour hand point?",
+    "Options": ["A) North", "B) North-West", "C) South-East", "D) North-East"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Clock Directions",
+    "Difficulty": "Olympiad",
+    "Explanation": "At 4:30, the minute hand points South (at 6). If South is East, the clock is rotated 90° ACW. The hour hand at 4:30 is between 4 and 5 (South-East). Rotated 90° ACW, South-East becomes North-East."
+  },
+  {
+    "QuestionText": "Ganesh walks 12 km towards North. He turns right and walks 10 km. He turns right and walks 12 km. Finally he turns left and walks 5 km. How far and in which direction is he from the starting point?",
+    "Options": ["A) 15 km East", "B) 15 km West", "C) 5 km East", "D) 10 km West"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "North 12, East 10, South 12, East 5. North/South cancel. Total East = 10 + 5 = 15 km."
+  },
+  {
+    "QuestionText": "Village Q is to the North of Village P. Village R is to the East of Village Q. Village S is to the Left of Village P. In which direction is S with respect to R?",
+    "Options": ["A) West", "B) South-West", "C) South", "D) North-West"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Relative Direction",
+    "Difficulty": "Advanced",
+    "Explanation": "P is origin (0,0). Q is North (0,1). R is East of Q (1,1). S is West of P (-1,0). From R(1,1) to S(-1,0) is South and West."
+  },
+  {
+    "QuestionText": "A man walks 30 m towards South. Then, turning to his right, he walks 30 m. Then, turning to his left, he walks 20 m. Again, he turns to his left and walks 30 m. How far is he from his initial position?",
+    "Options": ["A) 20 m", "B) 30 m", "C) 50 m", "D) 60 m"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "South 30, West 30, South 20, East 30. East/West cancel. Total South = 30 + 20 = 50 m."
+  },
+  {
+    "QuestionText": "If South-West becomes North, what will North-East become?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Change",
+    "Difficulty": "Advanced",
+    "Explanation": "South-West and North-East are opposite. If South-West is North, its opposite (North-East) must be South."
+  },
+  {
+    "QuestionText": "A river flows West to East and on the way turns left and goes in a semi-circle round a hillock, and then turns left at right angles. In what direction is the river finally flowing?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Path Tracing",
+    "Difficulty": "Olympiad",
+    "Explanation": "Flows East. Turn left -> North. Semi-circle -> turns 180° to point South. Turn left (90°) from South -> East."
+  },
+  {
+    "QuestionText": "Radha moves towards South-East a distance of 7 km, then she moves towards West and travels a distance of 14 km. From here she moves towards North-West a distance of 7 km and finally she moves a distance of 4 km towards East. How far is she now from the starting point?",
+    "Options": ["A) 3 km", "B) 4 km", "C) 10 km", "D) 11 km"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "The South-East and North-West 7km paths are parallel and opposite, canceling the vertical displacement. She moved 14 km West and 4 km East. Net displacement = 14 - 4 = 10 km West."
+  },
+  {
+    "QuestionText": "A taxi driver commenced his journey from a point and drove 10 km towards North and turned to his left and drove another 5 km. After waiting to meet a friend here he turned to his right and continued to drive another 10 km. He has covered a distance of 25 km so far but in which direction would he be now from the starting point?",
+    "Options": ["A) North", "B) East", "C) North-West", "D) South-East"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "North 10, West 5, North 10. He is North and West of the start."
+  },
+  {
+    "QuestionText": "A person walks 4 km towards East, then 3 km towards North. What is the shortest distance from his starting point?",
+    "Options": ["A) 5 km", "B) 7 km", "C) 12 km", "D) 1 km"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Shortest Distance",
+    "Difficulty": "Foundation",
+    "Explanation": "Distance = √(4² + 3²) = √25 = 5 km."
+  },
+  {
+    "QuestionText": "From his house, Lokesh went 15 km to the North. Then he turned West and covered 10 km. Then he turned South and covered 5 km. Finally turning to East, he covered 10 km. In which direction is he from his house?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "North 15, West 10, South 5, East 10. East/West cancel. Remaining North = 15 - 5 = 10 km."
+  },
+  {
+    "QuestionText": "A girl leaves from her home. She first walks 30 m in North-West direction and then 30 m in South-West direction. Next, she walks 30 m in South-East direction. Finally, she turns towards her house. In which direction is she moving?",
+    "Options": ["A) North-East", "B) North-West", "C) South-East", "D) South-West"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "She has walked three sides of a square rotated 45°. To return home from the South-East corner to the North-West origin, she must move North-East."
+  },
+  {
+    "QuestionText": "A man is facing South. He turns 135° in the anticlockwise direction and then 180° in the clockwise direction. Which direction is he facing now?",
+    "Options": ["A) North-East", "B) North-West", "C) South-East", "D) South-West"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Angular Movement",
+    "Difficulty": "Advanced",
+    "Explanation": "Net rotation = 180 (CW) - 135 (ACW) = 45° Clockwise. South rotated 45° CW is South-West."
+  },
+  {
+    "QuestionText": "One morning after sunrise, Vikram and Shailesh were standing in a lawn with their backs to each other. Vikram's shadow fell exactly towards left hand side. Which direction was Shailesh facing?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Shadow Problems",
+    "Difficulty": "Olympiad",
+    "Explanation": "Morning shadow is West. If West is Vikram's left, Vikram faces North. Since Shailesh's back is to Vikram, Shailesh faces South."
+  },
+  {
+    "QuestionText": "A man walks 6 km South, turns left and walks 4 km, again turns left and walks 5 km. Which direction is he facing now?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "South -> East (L) -> North (L). Final direction is North."
+  },
+  {
+    "QuestionText": "Point A is 5 m West of Point B. Point C is 5 m South of Point B. In which direction is Point A from Point C?",
+    "Options": ["A) North-East", "B) North-West", "C) South-East", "D) South-West"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Relative Direction",
+    "Difficulty": "Foundation",
+    "Explanation": "From C(0,-5) to A(-5,0) involves moving North and West."
+  },
+  {
+    "QuestionText": "I am facing South. I turn right and walk 20 m. Then I turn right again and walk 10 m. Then I turn left and walk 10 m and then turning right walk 20 m. Then I turn right again and walk 60 m. In which direction am I from the starting point?",
+    "Options": ["A) North", "B) North-West", "C) North-East", "D) South-East"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Trace: West 20, North 10, West 10, North 20, East 60. Net North = 10+20=30. Net East = 60-20-10=30. Result: North-East."
+  },
+  {
+    "QuestionText": "If East becomes North-West, what will North-West become?",
+    "Options": ["A) South", "B) East", "C) South-West", "D) North"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Change",
+    "Difficulty": "Advanced",
+    "Explanation": "East to North-West is 135° ACW. North-West rotated 135° ACW is South."
+  },
+  {
+    "QuestionText": "A compass was damaged and its needle turned in such a manner that the pointer which was showing East is now showing South. One person went towards North according to the damaged compass. In which direction did he actually go?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Compass Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "If East is showing South, the compass is rotated 90° CW. To find actual North, we look at what points to North on the compass. Since everything is shifted 90° CW, the actual West is now pointing to North on the compass."
+  },
+  {
+    "QuestionText": "Khattu walks 6 km towards North, then turns left and walks 4 km. Again he turns left and walks 6 km. How far is he from his starting point?",
+    "Options": ["A) 4 km", "B) 6 km", "C) 10 km", "D) 12 km"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "North 6, West 4, South 6. North/South cancel. Displacement is 4 km West."
+  },
+  {
+    "QuestionText": "Suresh walks 4 km East, then turns right and walks 3 km. How far is he from his starting point?",
+    "Options": ["A) 5 km", "B) 7 km", "C) 1 km", "D) 12 km"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Shortest Distance",
+    "Difficulty": "Foundation",
+    "Explanation": "Displacement = √(4² + 3²) = 5 km."
+  },
+  {
+    "QuestionText": "A man walks 5 km East, turns right and walks 12 km. Then he turns left and walks 10 km. Which direction is he facing?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "East -> South (R) -> East (L). Final direction is East."
+  },
+  {
+    "QuestionText": "Two cars start from the opposite places of a main road, 150 km apart. First car runs for 25 km and takes a right turn and then runs 15 km. It then turns left and then runs for another 25 km and then takes the direction back to reach the main road. In the meantime, due to minor breakdown, the other car has run only 35 km along the main road. What would be the distance between the two cars at this point?",
+    "Options": ["A) 65 km", "B) 75 km", "C) 80 km", "D) 85 km"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Linear Movement",
+    "Difficulty": "Olympiad",
+    "Explanation": "Car A on main road: 25 + 25 = 50 km from its start. Car B on main road: 35 km from its start. Total distance covered on main road = 50 + 35 = 85 km. Distance between them = 150 - 85 = 65 km."
+  },
+  {
+    "QuestionText": "One morning after sunrise, Seeta and Geeta were standing in Chowk in Mumbai with their backs towards each other. Seeta’s shadow fell exactly towards left hand side. Which direction was Geeta facing?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Shadow Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "Morning shadow is West. West is Seeta's left, so Seeta faces North. Geeta is back-to-back, so Geeta faces South."
+  },
+  {
+    "QuestionText": "If East becomes South, what will North-West become?",
+    "Options": ["A) North-East", "B) South-East", "C) South-West", "D) North-West"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Change",
+    "Difficulty": "Advanced",
+    "Explanation": "East to South is 90° CW rotation. North-West rotated 90° CW is North-East."
+  },
+  {
+    "QuestionText": "Starting from a point, a man walks 2 km North, turns right and walks 3 km, turns left and walks 2 km. In which direction is he now with respect to the starting point?",
+    "Options": ["A) North-East", "B) North-West", "C) South-East", "D) South-West"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Relative Direction",
+    "Difficulty": "Foundation",
+    "Explanation": "He moved North, then East, then North again. He is North-East of the origin."
+  },
+  {
+    "QuestionText": "Rahul walks 30 m North, turns right and walks 40 m, turns right again and walks 30 m. How far is he from his starting point?",
+    "Options": ["A) 30 m", "B) 40 m", "C) 70 m", "D) 100 m"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "North 30, East 40, South 30. North/South cancel. Displacement is 40 m East."
+  },
+  {
+    "QuestionText": "A person starts walking from a point in East direction and after walking 5 km, he turns left and walks 5 km. Then he turns left again and walks 5 km. Which direction is he from the starting point?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "East 5, North 5, West 5. East/West cancel. Remaining displacement is 5 km North."
+  }
+]

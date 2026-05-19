@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is an operating system (OS)?",
+    "Options": [
+      "A) A type of computer hardware",
+      "B) System software that manages computer hardware and software resources",
+      "C) A programming language",
+      "D) A type of application software"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "An Operating System (OS) is system software that acts as an intermediary between users and computer hardware. It manages CPU, memory, files, and I/O devices. Examples: Windows 11, macOS Ventura, Linux, Android, iOS. Without an OS, users would need to program in machine language directly. Key functions: process management, memory management, file management, device management, security."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a function of an operating system?",
+    "Options": [
+      "A) Memory management",
+      "B) File management",
+      "C) Writing application programs",
+      "D) Process management"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "Writing application programs is done by software developers/programmers, NOT the OS. OS functions include: Memory management (allocating RAM), File management (organising files/folders), Process management (CPU scheduling), Device management (drivers for hardware), Security (user authentication, access control), and Error handling."
+  },
+  {
+    "QuestionText": "What is RAM?",
+    "Options": [
+      "A) Random Access Memory \u2014 volatile memory used for currently running programs",
+      "B) Read-only memory that stores permanent data",
+      "C) A type of processor",
+      "D) A storage device like a hard disk"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "RAM (Random Access Memory) is volatile (temporary) memory \u2014 data is lost when power is off. It stores currently running programs and active data so the CPU can access them quickly. More RAM = better multitasking. Typical: 4GB-32GB in laptops/PCs. ROM (Read-Only Memory) stores permanent firmware (BIOS). Hard disk/SSD provides non-volatile permanent storage."
+  },
+  {
+    "QuestionText": "Which number system uses only digits 0 and 1?",
+    "Options": [
+      "A) Decimal",
+      "B) Octal",
+      "C) Hexadecimal",
+      "D) Binary"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Binary number system (base-2) uses only two digits: 0 and 1. All computer operations are performed in binary because electronic circuits have two states: OFF (0) and ON (1). Decimal = base-10 (0-9), Octal = base-8 (0-7), Hexadecimal = base-16 (0-9, A-F). Binary number: 1010\u2082 = 10\u2081\u2080 (1\u00d78 + 0\u00d74 + 1\u00d72 + 0\u00d71)."
+  },
+  {
+    "QuestionText": "Convert binary 1101 to decimal:",
+    "Options": [
+      "A) 11",
+      "B) 13",
+      "C) 15",
+      "D) 14"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Binary to decimal: multiply each bit by its positional value (powers of 2) from right to left: 1101\u2082 = 1\u00d72\u00b3 + 1\u00d72\u00b2 + 0\u00d72\u00b9 + 1\u00d72\u2070 = 8 + 4 + 0 + 1 = 13\u2081\u2080. Positional values for 4 bits: 8, 4, 2, 1. Binary is the fundamental language of computers \u2014 all data (text, images, sound) is ultimately stored as 0s and 1s."
+  },
+  {
+    "QuestionText": "What is the full form of CPU?",
+    "Options": [
+      "A) Central Processing Unit",
+      "B) Computer Processing Unit",
+      "C) Core Processing Unit",
+      "D) Central Program Utility"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "CPU (Central Processing Unit) is the brain of the computer \u2014 it executes program instructions. Components: ALU (Arithmetic Logic Unit \u2014 performs calculations and logical operations), Control Unit (directs operations, fetches/decodes instructions), Registers (tiny, ultra-fast temporary storage). Speed measured in GHz. Modern CPUs have multiple cores (dual-core, quad-core, octa-core) for parallel processing."
+  },
+  {
+    "QuestionText": "What is the difference between hardware and software?",
+    "Options": [
+      "A) Hardware is free; software costs money",
+      "B) Hardware = physical components you can touch; software = programs and data",
+      "C) Hardware runs programs; software manufactures hardware",
+      "D) They are the same thing with different names"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Fundamentals",
+    "Difficulty": "Foundation",
+    "Explanation": "Hardware = physical components: CPU, RAM, hard disk, monitor, keyboard, mouse, motherboard (tangible, can be touched). Software = programs and data: OS, applications, games (intangible, instructions). Software runs on hardware. System software (OS) manages hardware; Application software (Word, Chrome) serves users. Firmware = software embedded in hardware (BIOS). Without software, hardware is just expensive metal and plastic."
+  },
+  {
+    "QuestionText": "Which storage unit is the largest?",
+    "Options": [
+      "A) Kilobyte (KB)",
+      "B) Megabyte (MB)",
+      "C) Gigabyte (GB)",
+      "D) Terabyte (TB)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "Storage hierarchy (smallest to largest): Bit \u2192 Byte (8 bits) \u2192 Kilobyte (1024 B) \u2192 Megabyte (1024 KB) \u2192 Gigabyte (1024 MB) \u2192 Terabyte (1024 GB) \u2192 Petabyte (1024 TB) \u2192 Exabyte. A Terabyte = 1,024 GB. Modern hard drives: 1-4 TB. USB drives: 16 GB - 256 GB. A single byte can store one character; a TB can store about 250,000 songs."
+  },
+  {
+    "QuestionText": "What is multitasking in an operating system?",
+    "Options": [
+      "A) Running multiple hardware components simultaneously",
+      "B) The ability of an OS to run multiple processes/programs apparently simultaneously by rapidly switching the CPU",
+      "C) Using multiple keyboards and mice at once",
+      "D) Installing multiple operating systems"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "Multitasking: the OS gives each running program a tiny slice of CPU time, switching between them so rapidly that they appear to run simultaneously. Example: playing music + browsing + downloading = three processes getting CPU turns rapidly. True simultaneous execution occurs only with multi-core CPUs (each core handles a different task). The OS's process scheduler determines which process gets CPU time and for how long."
+  },
+  {
+    "QuestionText": "Which of the following is an input device?",
+    "Options": [
+      "A) Monitor",
+      "B) Printer",
+      "C) Scanner",
+      "D) Speaker"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Input devices send data INTO the computer: keyboard, mouse, scanner, microphone, webcam, touchscreen, joystick, barcode reader, digital camera. Output devices receive data FROM the computer: monitor, printer, speakers, projector. Scanner converts physical documents/images into digital files (input). Monitor displays output. Printer produces physical output. Touch screens are both input and output (I/O devices)."
+  },
+  {
+    "QuestionText": "What is the function of a compiler?",
+    "Options": [
+      "A) It connects computers to a network",
+      "B) It translates high-level programming language code into machine language (executable code)",
+      "C) It compresses files to save storage space",
+      "D) It protects computers from viruses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Software",
+    "Difficulty": "Advanced",
+    "Explanation": "A compiler translates an entire high-level language program (C++, Java, C) into machine code (binary executable) at once before execution. The process: Source code \u2192 Compiler \u2192 Object code \u2192 Linker \u2192 Executable. Advantages: compiled programs run fast. Interpreter: translates and executes line by line (Python, JavaScript) \u2014 slower but easier to debug. Assembler: converts assembly language to machine code."
+  },
+  {
+    "QuestionText": "What is BIOS?",
+    "Options": [
+      "A) Basic Input Output System \u2014 firmware that initialises hardware when a computer starts",
+      "B) A type of operating system",
+      "C) A programming language for hardware",
+      "D) A file format for images"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Advanced",
+    "Explanation": "BIOS (Basic Input/Output System) is firmware stored in ROM chip on the motherboard. When you power on, BIOS runs first: POST (Power-On Self-Test) checks hardware, then locates and loads the OS bootloader from storage. Modern systems use UEFI (Unified Extensible Firmware Interface) \u2014 a more advanced BIOS replacement. BIOS settings: boot order, system time, hardware configuration. Accessible by pressing Del/F2 during startup."
+  },
+  {
+    "QuestionText": "What is virtual memory?",
+    "Options": [
+      "A) Memory that doesn't physically exist",
+      "B) Hard disk space used as an extension of RAM when RAM is full",
+      "C) Memory used only for virtual reality applications",
+      "D) Cloud-based memory storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Virtual memory: the OS uses a portion of hard disk/SSD (swap file/page file) as additional RAM when physical RAM is full. The OS swaps less-used data from RAM to disk and loads needed data. This allows running programs larger than physical RAM. Disadvantage: disk access is much slower than RAM \u2014 causes slowdown (thrashing). Example: 8GB RAM + 4GB virtual memory = 12GB apparent memory for programs."
+  },
+  {
+    "QuestionText": "Assertion: The OS is loaded into RAM when a computer starts. Reason: RAM provides fast access to the OS, allowing quick execution of OS functions. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: BIOS/UEFI loads the OS kernel from storage into RAM during boot. Reason TRUE and correctly explains: RAM (random access) is vastly faster than storage (SSD/HDD) \u2014 CPU can fetch OS code from RAM in nanoseconds vs microseconds from SSD. Loading OS into RAM allows fast system calls and quick response to user actions. Without this, every OS operation would require slow disk access, making the computer unusably slow."
+  },
+  {
+    "QuestionText": "What is the purpose of device drivers?",
+    "Options": [
+      "A) They physically move hardware components",
+      "B) Software that allows the OS to communicate with and control hardware devices",
+      "C) They prevent hardware from overheating",
+      "D) They backup data from hardware to cloud"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "Device drivers are software translators between the OS and hardware devices. Each device (printer, graphics card, sound card, WiFi adapter) needs a specific driver. The driver translates generic OS commands into device-specific instructions the hardware understands. Without drivers: plug in a printer \u2192 OS doesn't know how to communicate \u2192 doesn't work. Windows Update often downloads drivers automatically. Plug-and-Play (PnP) devices install drivers automatically."
+  },
+  {
+    "QuestionText": "Which type of OS allows multiple users to use the same computer simultaneously?",
+    "Options": [
+      "A) Single-user OS",
+      "B) Multi-user OS",
+      "C) Real-time OS",
+      "D) Batch OS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Advanced",
+    "Explanation": "Multi-user OS allows multiple users to access the same system simultaneously (usually via network terminals): Unix, Linux, mainframe OS. Each user gets their own session, resources, and file space. Single-user OS (Windows, macOS): designed for one user at a time. Real-time OS (RTOS): for time-critical systems (aircraft, medical devices, industrial robots) where response must occur within microseconds. Batch OS: processes jobs in batches without user interaction (early computers)."
+  },
+  {
+    "QuestionText": "What is the decimal equivalent of hexadecimal 1A?",
+    "Options": [
+      "A) 26",
+      "B) 21",
+      "C) 16",
+      "D) 31"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Hexadecimal (base-16): digits 0-9 and A-F (A=10, B=11, C=12, D=13, E=14, F=15). 1A\u2081\u2086 = 1\u00d716\u00b9 + A\u00d716\u2070 = 1\u00d716 + 10\u00d71 = 16 + 10 = 26\u2081\u2080. Hex is used in computing because it compactly represents binary: one hex digit = 4 binary bits. Example: FF\u2081\u2086 = 255\u2081\u2080 = 11111111\u2082. Used for: memory addresses, colour codes (#FF5733), ASCII values."
+  },
+  {
+    "QuestionText": "What is the function of ALU (Arithmetic Logic Unit)?",
+    "Options": [
+      "A) Stores long-term data",
+      "B) Performs arithmetic (+, -, \u00d7, \u00f7) and logical (AND, OR, NOT, comparisons) operations",
+      "C) Manages input and output operations",
+      "D) Controls the sequence of instruction execution"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "The ALU is the computation engine inside the CPU. Arithmetic operations: addition, subtraction, multiplication, division. Logical operations: AND, OR, NOT, XOR (bitwise operations), comparisons (greater than, equal to). Every calculation in any program \u2014 from adding numbers to comparing values in an if-statement \u2014 ultimately executes in the ALU. The Control Unit directs what the ALU processes; registers hold the operands and results."
+  },
+  {
+    "QuestionText": "Which of the following is secondary storage?",
+    "Options": [
+      "A) RAM",
+      "B) ROM",
+      "C) Cache memory",
+      "D) Hard disk drive (HDD)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "Storage hierarchy: Primary (fast, volatile, near CPU): Registers \u2192 Cache \u2192 RAM. Secondary (slow, non-volatile, permanent): HDD, SSD, USB drive, CD/DVD, SD card. HDD is secondary storage \u2014 stores data permanently (OS, files, programs) even when powered off. ROM is primary but permanent (holds BIOS firmware). Cache = ultra-fast memory between CPU and RAM (L1, L2, L3 cache). Secondary storage is slower but much larger capacity and cheaper per GB."
+  },
+  {
+    "QuestionText": "What does 'booting' a computer mean?",
+    "Options": [
+      "A) Shutting down the computer",
+      "B) The process of starting a computer and loading the operating system",
+      "C) Installing new software",
+      "D) Connecting to the internet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "Booting = starting a computer: Cold boot = starting from powered-off state. Warm boot = restarting from running state. Boot process: Power on \u2192 BIOS/UEFI runs POST \u2192 BIOS finds bootloader on storage \u2192 Bootloader loads OS kernel into RAM \u2192 OS initialises hardware \u2192 Login screen appears. 'Bootstrap' (pulling yourself up by your bootstraps) \u2014 the computer loads its own startup program. Bootstrap loader is a tiny program in ROM that starts the boot process."
+  },
+  {
+    "QuestionText": "What is the difference between SSD and HDD?",
+    "Options": [
+      "A) SSD is larger in capacity; HDD is faster",
+      "B) SSD uses flash memory (no moving parts) \u2014 faster, more durable; HDD uses magnetic platters \u2014 slower, cheaper per GB",
+      "C) They are identical \u2014 different brands only",
+      "D) SSD is for mobile devices; HDD is for servers only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "SSD (Solid State Drive): flash memory chips, no moving parts, read speeds 500-7000 MB/s, silent, shock-resistant, uses less power, more expensive per GB. HDD (Hard Disk Drive): magnetic spinning platters + read/write heads, 80-160 MB/s read speed, mechanical (moving parts), cheaper per GB, more capacity for the price. Modern PCs often combine: SSD for OS/programs (speed) + HDD for mass storage (cost). India's IT sector primarily uses SSDs in laptops for reliability."
+  },
+  {
+    "QuestionText": "What is 'open source' software?",
+    "Options": [
+      "A) Software that is free to use but source code is hidden",
+      "B) Software whose source code is publicly available for anyone to view, modify, and distribute",
+      "C) Software developed by the government only",
+      "D) Software that runs without installation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Software",
+    "Difficulty": "Foundation",
+    "Explanation": "Open source software: source code is publicly available under a license allowing viewing, modification, and redistribution. Examples: Linux OS, Firefox browser, LibreOffice, VLC player, Python, MySQL, Android (base). Advantages: free, community-improved, transparent (security auditable), customisable. Closed/proprietary software (Windows, MS Office, Photoshop): source code is secret, requires purchase. India actively promotes open source for government systems (BOSS Linux, Digital India initiatives)."
+  },
+  {
+    "QuestionText": "What is the purpose of a UPS (Uninterruptible Power Supply)?",
+    "Options": [
+      "A) To increase computer processing speed",
+      "B) To provide emergency battery power to a computer when mains electricity fails",
+      "C) To connect computers to the internet",
+      "D) To upgrade software automatically"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "UPS provides backup battery power when mains electricity is interrupted (power cut) or fluctuates dangerously. Benefits: prevents data loss (gives time to save and shut down properly), protects hardware from power surges and fluctuations, allows continued work during short outages. Common in India due to frequent power cuts. Types: standby UPS (switches on power cut), line-interactive (filters fluctuations), online (continuously runs on battery \u2014 most protection)."
+  },
+  {
+    "QuestionText": "Which of the following is an example of application software?",
+    "Options": [
+      "A) Windows 11",
+      "B) Linux",
+      "C) MS Word",
+      "D) Android kernel"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Software",
+    "Difficulty": "Foundation",
+    "Explanation": "Application software: programs that perform specific user tasks \u2014 MS Word (word processing), Excel (spreadsheets), Photoshop (image editing), Chrome (web browser), WhatsApp (messaging), games. System software manages hardware: OS (Windows, Linux, macOS, Android), device drivers, utilities (antivirus, disk defragmenter), compilers. System software works in the background; application software serves the user directly."
+  },
+  {
+    "QuestionText": "Statement 1: A computer can directly execute high-level language programs without any translation. Statement 2: High-level language code must be translated to machine code (binary) by a compiler or interpreter before the CPU can execute it. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Software",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 FALSE: CPUs only execute machine code (binary instructions). Statement 2 TRUE: High-level languages (Python, Java, C++) are human-readable but incomprehensible to CPUs. A compiler translates entire programs to machine code before running; an interpreter translates and executes line-by-line. Without this translation step, the CPU cannot understand 'if x > 5: print(x)' \u2014 it only understands specific binary instruction patterns."
+  },
+  {
+    "QuestionText": "What is a 'kernel' in an operating system?",
+    "Options": [
+      "A) A type of computer virus",
+      "B) The core of the OS that directly manages hardware, processes, memory, and system calls",
+      "C) A user interface component",
+      "D) A file compression algorithm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Olympiad",
+    "Explanation": "The kernel is the core component of the OS \u2014 the bridge between applications and hardware. Functions: process scheduling, memory management, device driver management, system calls (interface for programs to request OS services). Types: Monolithic kernel (Linux \u2014 all OS services in kernel space, fast but large), Microkernel (minimal kernel, services run in user space \u2014 more stable/secure), Hybrid (Windows, macOS \u2014 combines both approaches). User programs interact with the kernel through system calls."
+  },
+  {
+    "QuestionText": "What is cache memory and why is it used?",
+    "Options": [
+      "A) Internet browsing history stored on disk",
+      "B) Ultra-fast memory between CPU and RAM that stores frequently accessed data to reduce access time",
+      "C) Backup memory for when RAM fails",
+      "D) Memory used for graphics processing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Cache memory is small, extremely fast SRAM (Static RAM) between the CPU and main RAM. Levels: L1 (smallest, fastest, inside CPU core, ~32KB), L2 (larger, slightly slower, ~256KB-1MB), L3 (shared between cores, ~4-32MB). Principle: recently/frequently used data is likely needed again (locality of reference). Cache stores this data \u2014 CPU checks cache first before slower RAM. Hit rate ~95%+ means most accesses are fast. Cache dramatically reduces average memory access time."
+  },
+  {
+    "QuestionText": "Which of the following best describes a GUI (Graphical User Interface)?",
+    "Options": [
+      "A) A command-line interface where users type text commands",
+      "B) A visual interface using windows, icons, menus, and pointer (WIMP) for user interaction",
+      "C) An interface for programming applications",
+      "D) A network interface for connecting computers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "GUI (Graphical User Interface): visual elements \u2014 windows, icons, menus, buttons, pointer (mouse/touch). Examples: Windows desktop, macOS, Android/iOS touchscreen. User-friendly \u2014 no commands to memorise. CLI (Command Line Interface): text commands typed (Linux terminal, Windows Command Prompt) \u2014 powerful, scriptable, faster for experts. WIMP = Windows, Icons, Menus, Pointer \u2014 the standard GUI paradigm developed at Xerox PARC, popularised by Apple Mac (1984) and Windows (1985)."
+  },
+  {
+    "QuestionText": "Assertion: More cores in a CPU generally means better performance for parallel tasks. Reason: Multiple cores can execute different threads of a program simultaneously. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Olympiad",
+    "Explanation": "Assertion TRUE: multi-core processors improve performance for multi-threaded workloads (video rendering, 3D games, server applications). Reason TRUE and correctly explains: each core is an independent processor that can handle a separate thread simultaneously. Quad-core = 4 parallel threads. BUT: not all programs are well-parallelised \u2014 some tasks are inherently sequential. Single-threaded performance depends more on clock speed. Modern CPUs: 8-24 cores in consumer chips (Intel Core i9, AMD Ryzen 9)."
+  },
+  {
+    "QuestionText": "What does 'defragmentation' do to a hard disk?",
+    "Options": [
+      "A) Deletes all files permanently",
+      "B) Reorganises fragmented files so they are stored in contiguous sectors, improving read speed",
+      "C) Scans for and removes viruses",
+      "D) Compresses files to save space"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Advanced",
+    "Explanation": "Fragmentation: as files are created/deleted/modified, the HDD stores file pieces (fragments) in non-contiguous sectors. The read head must jump between locations \u2014 slowing access. Defragmentation rearranges fragments into contiguous sequences. Results: faster file access, improved overall HDD performance. Note: SSDs should NOT be defragmented \u2014 they have no moving parts (access time is uniform regardless of location), and defragmentation unnecessarily writes/erases cells, reducing SSD lifespan."
+  },
+  {
+    "QuestionText": "What is the primary purpose of an antivirus program?",
+    "Options": [
+      "A) To speed up internet connection",
+      "B) To detect, prevent, and remove malicious software (malware) from a computer",
+      "C) To manage computer files and folders",
+      "D) To update the operating system"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Software",
+    "Difficulty": "Foundation",
+    "Explanation": "Antivirus software protects against malware \u2014 viruses, worms, trojans, ransomware, spyware, adware. Methods: Signature-based detection (matching known malware code patterns in a database), Heuristic analysis (detecting suspicious behaviour patterns), Sandboxing (running suspicious code in isolated environment). Popular: Windows Defender, Avast, Norton, Kaspersky, Quick Heal (India). Must be updated regularly \u2014 new malware created daily. Cannot protect against unknown zero-day attacks."
+  },
+  {
+    "QuestionText": "Which of the following correctly shows the decimal value of binary 10000?",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 16",
+      "D) 32"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "10000\u2082 = 1\u00d72\u2074 + 0\u00d72\u00b3 + 0\u00d72\u00b2 + 0\u00d72\u00b9 + 0\u00d72\u2070 = 16 + 0 + 0 + 0 + 0 = 16\u2081\u2080. Each additional bit position doubles the value: 1\u21922\u21924\u21928\u219216\u219232\u219264\u2192128. Binary 10000 has a 1 in the 5th position (2\u2074=16). Powers of 2 are crucial in computing: 2\u00b9\u2070 = 1024 (1 KB), 2\u00b2\u2070 = 1,048,576 (1 MB), 2\u00b3\u2070 \u2248 1 billion (1 GB)."
+  },
+  {
+    "QuestionText": "What is the role of the Control Unit (CU) in a CPU?",
+    "Options": [
+      "A) Performs all arithmetic calculations",
+      "B) Directs the operation of the processor by fetching, decoding, and executing instructions",
+      "C) Stores data permanently",
+      "D) Manages network connections"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Advanced",
+    "Explanation": "The Control Unit is the CPU's manager/coordinator. It: Fetches instructions from memory, Decodes them (determines what operation is needed), Generates control signals to direct ALU, registers, and memory, Manages the fetch-decode-execute cycle. The CU doesn't execute calculations (ALU does) but orchestrates which components do what and when. Think of CU as the conductor and ALU as the orchestra."
+  },
+  {
+    "QuestionText": "Which utility program recovers space by removing temporary and unnecessary files?",
+    "Options": [
+      "A) Compiler",
+      "B) Disk Cleanup / Storage Sense",
+      "C) Device Manager",
+      "D) Task Manager"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Software",
+    "Difficulty": "Foundation",
+    "Explanation": "Disk Cleanup (Windows) / Storage Sense removes: temporary internet files, downloaded program files, recycle bin contents, system error memory dump files, thumbnail cache. Frees disk space and can improve performance. Other utilities: Device Manager (manages hardware devices/drivers), Task Manager (shows/terminates running processes, CPU/RAM usage), Defragmenter (reorganises HDD), System Restore (reverts to earlier system state), Backup (copies data for recovery)."
+  },
+  {
+    "QuestionText": "What does 'plug and play' (PnP) mean for hardware devices?",
+    "Options": [
+      "A) Devices that work without electricity",
+      "B) Hardware that is automatically recognised and configured by the OS without manual driver installation",
+      "C) Devices that can play music automatically",
+      "D) Hardware that works across all operating systems without changes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Plug and Play: when you connect a PnP device (USB drive, modern printer, webcam), the OS automatically detects it, identifies the device, and installs appropriate drivers without user intervention. This contrasts with older hardware requiring manual driver installation and system configuration. PnP is now standard for USB, Thunderbolt, and most modern interfaces. The OS maintains a device database \u2014 if a driver isn't built-in, Windows Update may download it automatically."
+  },
+  {
+    "QuestionText": "What is the purpose of the Recycle Bin / Trash in an operating system?",
+    "Options": [
+      "A) Permanent deletion of all files",
+      "B) Temporary storage for deleted files, allowing recovery before permanent deletion",
+      "C) Storage for system temporary files",
+      "D) Backup storage for important files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "The Recycle Bin (Windows) / Trash (macOS/Linux) provides a safety net for deleted files. When you 'delete' a file normally, it's moved to Recycle Bin \u2014 not immediately erased. You can restore files from here. Permanently delete: empty the Recycle Bin or use Shift+Delete (Windows). The file's actual data remains on disk until overwritten \u2014 recovery software can sometimes restore files even after emptying Recycle Bin. 'Secure delete' tools overwrite the data to prevent recovery."
+  },
+  {
+    "QuestionText": "Statement 1: ROM is volatile memory. Statement 2: RAM is volatile memory that loses data when power is off. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "Statement 1 FALSE: ROM (Read-Only Memory) is NON-volatile \u2014 it retains data without power (holds BIOS firmware permanently). Statement 2 TRUE: RAM is volatile \u2014 it needs constant power to maintain data. When you shut down without saving, unsaved RAM data is lost. This is why saving your work (to disk) is essential. Types of non-volatile memory: ROM, Flash (USB drives, SSDs), HDD. Types of volatile: RAM (DRAM, SRAM), CPU registers, cache."
+  },
+  {
+    "QuestionText": "What is a 'process' in operating system terminology?",
+    "Options": [
+      "A) A physical hardware component",
+      "B) A program in execution \u2014 an active instance of a program with its own memory space and resources",
+      "C) A type of computer file",
+      "D) A network connection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Olympiad",
+    "Explanation": "A process = a program that is currently executing. It consists of: program code, current activity (program counter), stack (local variables, function calls), heap (dynamic memory), and data. Multiple instances of the same program = multiple processes. The OS manages processes: creating, scheduling (CPU time allocation), suspending, resuming, and terminating. Task Manager (Windows) / Activity Monitor (Mac) shows all running processes. A process can contain multiple threads."
+  },
+  {
+    "QuestionText": "What is the fetch-decode-execute cycle?",
+    "Options": [
+      "A) A method of copying files",
+      "B) The fundamental cycle of CPU operation: fetch instruction from memory, decode it, execute it",
+      "C) The process of downloading data from internet",
+      "D) A backup procedure for important data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Olympiad",
+    "Explanation": "The fetch-decode-execute (instruction) cycle is how CPUs process instructions: 1. FETCH: Control Unit retrieves next instruction from RAM (address in Program Counter). 2. DECODE: CU interprets the instruction (what operation? what data?). 3. EXECUTE: ALU performs the operation; result stored in register or memory. 4. Repeat billions of times per second. CPU speed (GHz) = billion cycles per second. A single instruction can include ADD, MOVE, COMPARE, JUMP operations. This cycle underpins ALL computation."
+  },
+  {
+    "QuestionText": "Which of the following is a 32-bit operating system limitation?",
+    "Options": [
+      "A) Cannot connect to internet",
+      "B) Can only address up to 4 GB of RAM",
+      "C) Cannot run multiple programs",
+      "D) Cannot display colour graphics"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Olympiad",
+    "Explanation": "32-bit OS: memory addresses are 32 bits long \u2192 2\u00b3\u00b2 = 4,294,967,296 bytes \u2248 4 GB maximum addressable RAM. If you install 8 GB RAM in a 32-bit OS system, only ~3.2 GB is actually usable. 64-bit OS: addresses are 64 bits \u2192 2\u2076\u2074 = 18 exabytes (theoretically). Modern Windows, macOS, Linux are 64-bit. 64-bit also supports larger individual files (FAT32 max file size = 4 GB; NTFS = 16 TB). All modern computers should use 64-bit OS."
+  },
+  {
+    "QuestionText": "What is the purpose of Task Manager in Windows?",
+    "Options": [
+      "A) To create scheduled appointments",
+      "B) To monitor and manage running processes, CPU/RAM usage, and terminate unresponsive applications",
+      "C) To manage hardware driver installations",
+      "D) To schedule automatic file backups"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "Task Manager (Ctrl+Alt+Del \u2192 Task Manager): shows all running processes with their CPU, RAM, disk, and network usage; allows force-quitting frozen/unresponsive applications; shows startup programs; monitors system performance. Useful when: a program freezes ('not responding') and won't close normally \u2014 select it in Task Manager \u2192 End Task. Also helps identify programs consuming excessive resources. Linux equivalent: top/htop. macOS equivalent: Activity Monitor."
+  },
+  {
+    "QuestionText": "What is the ASCII code system?",
+    "Options": [
+      "A) A programming language for creating ASCII art",
+      "B) American Standard Code for Information Interchange \u2014 a character encoding standard assigning numbers to letters, digits, and symbols",
+      "C) A type of antivirus software",
+      "D) A network security protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Fundamentals",
+    "Difficulty": "Advanced",
+    "Explanation": "ASCII (American Standard Code for Information Interchange): assigns a unique number (0-127) to each character. 'A' = 65, 'a' = 97, '0' = 48, space = 32. Computers store and transmit characters as these numbers (in binary). Extended ASCII uses 8 bits (0-255) for additional characters. Unicode (UTF-8/UTF-16) extends beyond ASCII to cover all world languages (100,000+ characters) including Hindi (Devanagari), Chinese, Arabic, Emojis. All text in computers is ultimately numbers."
+  },
+  {
+    "QuestionText": "What is the main function of the motherboard?",
+    "Options": [
+      "A) To store data permanently",
+      "B) The main circuit board connecting and allowing communication between all computer components",
+      "C) To process graphics only",
+      "D) To provide power to external devices"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "The motherboard (mainboard) is the central circuit board that connects all components: CPU socket, RAM slots, storage connectors (SATA, M.2), PCIe slots (GPU, expansion cards), USB/audio ports, BIOS chip, power connectors. It provides pathways (buses) for data to travel between components. Every computer has a motherboard. Form factors: ATX (full desktop), Micro-ATX, Mini-ITX (small systems). The chipset on the motherboard manages data flow between CPU and other components."
+  },
+  {
+    "QuestionText": "What does 'formatting' a storage device do?",
+    "Options": [
+      "A) Changes the colour of the drive icon",
+      "B) Prepares the drive with a file system structure, erasing all existing data",
+      "C) Increases the drive's storage capacity",
+      "D) Creates a backup of all files on the drive"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "Formatting creates a new file system on a storage device (HDD, SSD, USB drive), effectively erasing all data and setting up the structure to store new files. File systems: NTFS (Windows default \u2014 supports large files, permissions, encryption), FAT32 (compatible with all devices \u2014 max 4GB file size), exFAT (for large files on flash drives), ext4 (Linux). Quick format: creates new file system structure without erasing every sector. Full format: also scans for bad sectors. Always backup before formatting."
+  },
+  {
+    "QuestionText": "Which key combination is used to force quit a program in Windows?",
+    "Options": [
+      "A) Ctrl + C",
+      "B) Ctrl + Alt + Delete",
+      "C) Alt + F4",
+      "D) Windows + D"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+Alt+Delete: opens security screen (Lock, Sign out, Task Manager, Shutdown). From there, Task Manager allows force-quitting frozen programs. Alt+F4: closes the currently active window/application (normal close, not force quit). Ctrl+C: copy (or interrupt a running command in terminal). Windows+D: show/hide desktop. For direct Task Manager: Ctrl+Shift+Esc. On macOS, force quit: Cmd+Option+Esc."
+  },
+  {
+    "QuestionText": "What is the purpose of a file extension?",
+    "Options": [
+      "A) To make filenames longer for security",
+      "B) Indicates the file type and the application that should open it",
+      "C) To compress the file automatically",
+      "D) To show the file's creation date"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Operating System",
+    "Difficulty": "Foundation",
+    "Explanation": "File extensions (the part after the dot) identify file type: .docx (Word document), .pdf (Portable Document Format), .jpg/.png (images), .mp3/.wav (audio), .mp4/.avi (video), .exe (Windows executable program), .py (Python script), .html (webpage), .zip (compressed archive). The OS uses extensions to determine which application opens the file. Without extensions (or with wrong extension), the OS may not know how to open the file."
+  },
+  {
+    "QuestionText": "What is the difference between 'save' and 'save as' in application software?",
+    "Options": [
+      "A) They are identical functions",
+      "B) Save: updates the existing file in place. Save As: creates a new file (can change name, format, location)",
+      "C) Save is for text files; Save As is for images",
+      "D) Save As permanently deletes the original file"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Software",
+    "Difficulty": "Foundation",
+    "Explanation": "Save (Ctrl+S): overwrites the existing file with current changes \u2014 same name, same location, same format. Save As (Ctrl+Shift+S / F12): creates a new copy \u2014 you can specify a new filename, location, or file format. Use Save As to: create a version copy (document_v2.docx), convert format (save .docx as .pdf), or save to a new location. Save As doesn't delete the original \u2014 both versions exist (unless you save over the same filename)."
+  },
+  {
+    "QuestionText": "What is pipelining in CPU architecture?",
+    "Options": [
+      "A) Network data transmission through pipes",
+      "B) Overlapping the execution of multiple instructions by dividing the fetch-decode-execute cycle into stages",
+      "C) A method of cooling the CPU",
+      "D) A type of memory cache organization"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pipelining: like an assembly line for instructions. Instead of completing one instruction before starting the next, multiple instructions are in different pipeline stages simultaneously. 5-stage pipeline: Fetch \u2192 Decode \u2192 Execute \u2192 Memory Access \u2192 Write Back. While instruction 1 executes, instruction 2 decodes, instruction 3 fetches. Ideally, a new instruction completes every clock cycle (instead of every 5). This dramatically increases throughput without increasing clock speed. Modern CPUs have 10-20+ pipeline stages."
+  },
+  {
+    "QuestionText": "What is the purpose of a power supply unit (PSU) in a desktop computer?",
+    "Options": [
+      "A) To store emergency backup power",
+      "B) To convert AC mains electricity to the DC voltages required by computer components",
+      "C) To regulate internet connection speed",
+      "D) To cool the processor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "PSU (Power Supply Unit): converts 230V AC (mains electricity in India) to DC voltages: +12V (CPU, GPU, motors), +5V (storage, older components), +3.3V (RAM, some logic circuits). Rated in Watts \u2014 choose PSU wattage to match system requirements. Efficiency rated by 80+ certification (80 Plus Bronze/Silver/Gold/Platinum = 80-94% efficient). Laptops use external AC adapters (brick) doing the same conversion. Poor PSU quality causes system instability and can damage components."
+  },
+  {
+    "QuestionText": "What is a GPU (Graphics Processing Unit) and how does it differ from a CPU?",
+    "Options": [
+      "A) GPU manages RAM; CPU manages storage",
+      "B) GPU has thousands of simpler cores optimised for parallel graphical/mathematical computation; CPU has fewer powerful cores for general-purpose sequential tasks",
+      "C) GPU is faster than CPU for all tasks",
+      "D) They are the same type of processor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Fundamentals and OS",
+    "SubTopic": "Hardware",
+    "Difficulty": "Olympiad",
+    "Explanation": "CPU: 4-24 powerful cores, optimised for sequential processing, complex branch logic, OS/application tasks. GPU: thousands of simpler cores (NVIDIA RTX 4090 has 16,384 CUDA cores), optimised for parallel mathematical operations. GPU excels at: rendering graphics (3D games, video), machine learning/AI training (matrix multiplication), scientific simulation, cryptocurrency mining. Modern AI revolution (ChatGPT, Stable Diffusion) relies heavily on GPU computing. Integrated GPU: built into CPU chip (less powerful). Discrete GPU: separate card (more powerful)."
+  }
+]

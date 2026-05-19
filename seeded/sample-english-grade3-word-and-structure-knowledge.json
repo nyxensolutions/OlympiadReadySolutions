@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "Which word is a noun?",
+        "Options":  [
+                        "A) Mango",
+                        "B) Run",
+                        "C) Happy",
+                        "D) Slowly"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Parts of Speech",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A noun is the name of a person, place, animal, or thing. \u0027Mango\u0027 is the name of a fruit (thing)."
+    },
+    {
+        "QuestionText":  "Which word is a verb?",
+        "Options":  [
+                        "A) Jump",
+                        "B) Beautiful",
+                        "C) Quickly",
+                        "D) Apple"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Parts of Speech",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A verb is an action or doing word. \u0027Jump\u0027 is an action."
+    },
+    {
+        "QuestionText":  "Which word is an adjective?",
+        "Options":  [
+                        "A) Tall",
+                        "B) Run",
+                        "C) Mango",
+                        "D) She"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Parts of Speech",
+        "Difficulty":  "Foundation",
+        "Explanation":  "An adjective describes a noun. \u0027Tall\u0027 describes how something looks or is."
+    },
+    {
+        "QuestionText":  "Choose the correct article: \u0027___ elephant has a long trunk.\u0027",
+        "Options":  [
+                        "A) An",
+                        "B) A",
+                        "C) The",
+                        "D) No article"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Articles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027An\u0027 is used before words starting with a vowel sound. \u0027Elephant\u0027 starts with a vowel \u0027e\u0027."
+    },
+    {
+        "QuestionText":  "Which sentence is correct?",
+        "Options":  [
+                        "A) She goes to school every day.",
+                        "B) She go to school every day.",
+                        "C) She going to school every day.",
+                        "D) She gone to school every day."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Subject-Verb Agreement",
+        "Difficulty":  "Foundation",
+        "Explanation":  "With a singular subject (she), the verb takes -s: \u0027goes\u0027 not \u0027go\u0027."
+    },
+    {
+        "QuestionText":  "The plural of \u0027child\u0027 is — ",
+        "Options":  [
+                        "A) Children",
+                        "B) Childs",
+                        "C) Childes",
+                        "D) Childrens"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Plurals",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Child\u0027 has an irregular plural: \u0027children\u0027. We do not simply add -s."
+    },
+    {
+        "QuestionText":  "Which is the opposite (antonym) of \u0027hot\u0027?",
+        "Options":  [
+                        "A) Cold",
+                        "B) Warm",
+                        "C) Cool",
+                        "D) Chilly"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Antonyms",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The direct opposite of \u0027hot\u0027 is \u0027cold\u0027."
+    },
+    {
+        "QuestionText":  "Which word means the same (synonym) as \u0027happy\u0027?",
+        "Options":  [
+                        "A) Joyful",
+                        "B) Sad",
+                        "C) Angry",
+                        "D) Tired"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Synonyms",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Joyful\u0027 and \u0027happy\u0027 both mean feeling pleasure or contentment."
+    },
+    {
+        "QuestionText":  "Choose the correct pronoun: \u0027___ is my best friend.\u0027 (talking about a girl)",
+        "Options":  [
+                        "A) She",
+                        "B) He",
+                        "C) They",
+                        "D) It"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Pronouns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027She\u0027 is the pronoun used for a female person."
+    },
+    {
+        "QuestionText":  "Which punctuation mark is used at the end of a question?",
+        "Options":  [
+                        "A) Question mark (?)",
+                        "B) Full stop (.)",
+                        "C) Exclamation mark (!)",
+                        "D) Comma (,)"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Punctuation",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Questions end with a question mark (?): \u0027Where are you going?\u0027"
+    },
+    {
+        "QuestionText":  "\u0027The dog barked loudly.\u0027 Which word is an adverb?",
+        "Options":  [
+                        "A) Loudly",
+                        "B) Dog",
+                        "C) Barked",
+                        "D) The"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Parts of Speech",
+        "Difficulty":  "Foundation",
+        "Explanation":  "An adverb modifies a verb. \u0027Loudly\u0027 tells us HOW the dog barked."
+    },
+    {
+        "QuestionText":  "Choose the correct preposition: \u0027The cat is sitting ___ the chair.\u0027",
+        "Options":  [
+                        "A) On",
+                        "B) In",
+                        "C) Under",
+                        "D) Over"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Prepositions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027On\u0027 shows the cat is on top of/resting on the surface of the chair."
+    },
+    {
+        "QuestionText":  "Which word is a conjunction (joining word)?",
+        "Options":  [
+                        "A) And",
+                        "B) Run",
+                        "C) Blue",
+                        "D) Mango"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Conjunctions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027And\u0027 joins words, phrases, or sentences together."
+    },
+    {
+        "QuestionText":  "The past tense of \u0027eat\u0027 is — ",
+        "Options":  [
+                        "A) Ate",
+                        "B) Eated",
+                        "C) Eating",
+                        "D) Eaten"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Verb Tenses",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Eat\u0027 is an irregular verb; its past tense is \u0027ate\u0027, not \u0027eated\u0027."
+    },
+    {
+        "QuestionText":  "Which sentence uses capital letters correctly?",
+        "Options":  [
+                        "A) Riya and I went to Delhi.",
+                        "B) riya and i went to Delhi.",
+                        "C) Riya And I Went To Delhi.",
+                        "D) riya and I went to delhi."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Capitalisation",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Proper nouns (Riya, Delhi) and the pronoun \u0027I\u0027 are always capitalised."
+    },
+    {
+        "QuestionText":  "A word that sounds like another but has a different meaning is called a — ",
+        "Options":  [
+                        "A) Homophone",
+                        "B) Synonym",
+                        "C) Antonym",
+                        "D) Prefix"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Homophones",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Homophones sound alike but differ in meaning/spelling: e.g., \u0027see\u0027 and \u0027sea\u0027, \u0027hear\u0027 and \u0027here\u0027."
+    },
+    {
+        "QuestionText":  "Which sentence is in the present continuous tense?",
+        "Options":  [
+                        "A) She is reading a book.",
+                        "B) She reads a book.",
+                        "C) She read a book.",
+                        "D) She will read a book."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Verb Tenses",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Present continuous = is/am/are + verb-ing. \u0027She is reading\u0027 shows an action happening now."
+    },
+    {
+        "QuestionText":  "What does the prefix \u0027un-\u0027 mean in the word \u0027unhappy\u0027?",
+        "Options":  [
+                        "A) Not",
+                        "B) Very",
+                        "C) Before",
+                        "D) Again"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Prefixes",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The prefix \u0027un-\u0027 means \u0027not\u0027: \u0027unhappy\u0027 = not happy."
+    },
+    {
+        "QuestionText":  "What does the suffix \u0027-ful\u0027 mean in \u0027colourful\u0027?",
+        "Options":  [
+                        "A) Full of",
+                        "B) Without",
+                        "C) One who",
+                        "D) Can be"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Suffixes",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The suffix \u0027-ful\u0027 means \u0027full of\u0027: \u0027colourful\u0027 = full of colour."
+    },
+    {
+        "QuestionText":  "\u0027The children played in the park.\u0027 Identify the subject.",
+        "Options":  [
+                        "A) The children",
+                        "B) Played",
+                        "C) In the park",
+                        "D) The park"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Subject and Predicate",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The subject is who/what does the action. \u0027The children\u0027 is who played."
+    },
+    {
+        "QuestionText":  "Which sentence is in the future tense?",
+        "Options":  [
+                        "A) She will bake a cake tomorrow.",
+                        "B) She bakes a cake.",
+                        "C) She baked a cake.",
+                        "D) She is baking a cake."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Verb Tenses",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Future tense uses \u0027will\u0027 + base verb: \u0027will bake\u0027 indicates a future action."
+    },
+    {
+        "QuestionText":  "A contraction is two words joined with an apostrophe. What is the contraction for \u0027do not\u0027?",
+        "Options":  [
+                        "A) Don\u0027t",
+                        "B) Do\u0027nt",
+                        "C) Dont",
+                        "D) Do not\u0027"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Contractions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Do not\u0027 contracts to \u0027don\u0027t\u0027 — the apostrophe replaces the missing letter \u0027o\u0027."
+    },
+    {
+        "QuestionText":  "Choose the correct comparative form: \u0027This box is ___ than that one.\u0027 (big)",
+        "Options":  [
+                        "A) Bigger",
+                        "B) More big",
+                        "C) Most big",
+                        "D) Biggest"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Comparatives",
+        "Difficulty":  "Advanced",
+        "Explanation":  "One-syllable adjectives form comparatives by adding -er: \u0027big\u0027 → \u0027bigger\u0027."
+    },
+    {
+        "QuestionText":  "Which sentence uses \u0027their\u0027 correctly?",
+        "Options":  [
+                        "A) The children forgot their lunch.",
+                        "B) Their is a cat outside.",
+                        "C) I will go their tomorrow.",
+                        "D) Their going to school."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Homophones in Context",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Their\u0027 is a possessive pronoun: \u0027their lunch\u0027 = the lunch belonging to them."
+    },
+    {
+        "QuestionText":  "A compound word is formed by joining two words. Which is a compound word?",
+        "Options":  [
+                        "A) Sunflower",
+                        "B) Running",
+                        "C) Beautiful",
+                        "D) Happily"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Compound Words",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Sunflower\u0027 = \u0027sun\u0027 + \u0027flower\u0027 — two complete words joined to form a new word."
+    },
+    {
+        "QuestionText":  "Identify the correct sentence with proper comma use.",
+        "Options":  [
+                        "A) I like cats, dogs, and rabbits.",
+                        "B) I like cats dogs and rabbits.",
+                        "C) I like, cats dogs and rabbits.",
+                        "D) I like cats, dogs and, rabbits."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Punctuation",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Items in a list are separated by commas. A comma (Oxford comma) before \u0027and\u0027 is also correct."
+    },
+    {
+        "QuestionText":  "\u0027He ran quickly to catch the bus.\u0027 Identify the adverb.",
+        "Options":  [
+                        "A) Quickly",
+                        "B) Ran",
+                        "C) Bus",
+                        "D) He"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Adverbs",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Quickly\u0027 modifies the verb \u0027ran\u0027, telling us how he ran — it is an adverb."
+    },
+    {
+        "QuestionText":  "Which word is spelled correctly?",
+        "Options":  [
+                        "A) Beautiful",
+                        "B) Beautifull",
+                        "C) Beutiful",
+                        "D) Beautyful"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Spelling",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The correct spelling is \u0027beautiful\u0027 (beauty + ful, with the \u0027y\u0027 changing to \u0027i\u0027)."
+    },
+    {
+        "QuestionText":  "The plural of \u0027mouse\u0027 is — ",
+        "Options":  [
+                        "A) Mice",
+                        "B) Mouses",
+                        "C) Mices",
+                        "D) Mouse"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Irregular Plurals",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Mouse\u0027 has an irregular plural \u0027mice\u0027, like \u0027louse\u0027→\u0027lice\u0027 and \u0027house\u0027→\u0027houses\u0027 (regular)."
+    },
+    {
+        "QuestionText":  "Choose the correct form: \u0027There ___ many birds in the tree.\u0027",
+        "Options":  [
+                        "A) Are",
+                        "B) Is",
+                        "C) Am",
+                        "D) Was"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Subject-Verb Agreement",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Many birds\u0027 is plural, so it takes the plural verb \u0027are\u0027."
+    },
+    {
+        "QuestionText":  "Which option correctly identifies the figure of speech in \u0027The wind whispered through the trees\u0027?",
+        "Options":  [
+                        "A) Personification",
+                        "B) Simile",
+                        "C) Metaphor",
+                        "D) Alliteration"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Figures of Speech",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Personification gives human qualities (whispering) to a non-human thing (wind)."
+    },
+    {
+        "QuestionText":  "\u0027As brave as a lion\u0027 is an example of a — ",
+        "Options":  [
+                        "A) Simile",
+                        "B) Metaphor",
+                        "C) Personification",
+                        "D) Alliteration"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Figures of Speech",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A simile compares two things using \u0027as\u0027 or \u0027like\u0027: \u0027as brave as a lion\u0027."
+    },
+    {
+        "QuestionText":  "\u0027Peter Piper picked a peck of pickled peppers\u0027 uses — ",
+        "Options":  [
+                        "A) Alliteration",
+                        "B) Rhyme",
+                        "C) Onomatopoeia",
+                        "D) Simile"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Figures of Speech",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Alliteration is the repetition of the same consonant sound at the start of nearby words (P sound here)."
+    },
+    {
+        "QuestionText":  "Words like \u0027buzz\u0027, \u0027hiss\u0027, and \u0027splash\u0027 that imitate sounds are called — ",
+        "Options":  [
+                        "A) Onomatopoeia",
+                        "B) Alliteration",
+                        "C) Metaphors",
+                        "D) Homophones"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Figures of Speech",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Onomatopoeia describes words whose pronunciation imitates the sound they describe."
+    },
+    {
+        "QuestionText":  "\u0027She is a shining star\u0027 is a — ",
+        "Options":  [
+                        "A) Metaphor",
+                        "B) Simile",
+                        "C) Personification",
+                        "D) Alliteration"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Figures of Speech",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A metaphor directly states that one thing IS another (without \u0027like\u0027 or \u0027as\u0027): she = a star."
+    },
+    {
+        "QuestionText":  "What is the passive voice of \u0027The cat chased the mouse\u0027?",
+        "Options":  [
+                        "A) The mouse was chased by the cat.",
+                        "B) The mouse chased the cat.",
+                        "C) The cat was chased by the mouse.",
+                        "D) The mouse is chasing the cat."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Active and Passive Voice",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Passive voice: object becomes subject + was/were + past participle + by + subject."
+    },
+    {
+        "QuestionText":  "Which sentence uses the subjunctive mood correctly?",
+        "Options":  [
+                        "A) If I were a bird, I would fly.",
+                        "B) If I was a bird, I would fly.",
+                        "C) If I am a bird, I will fly.",
+                        "D) If I be a bird, I would fly."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Subjunctive Mood",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The subjunctive \u0027were\u0027 is used for hypothetical/unreal conditions: \u0027If I were…\u0027"
+    },
+    {
+        "QuestionText":  "Which word is correctly hyphenated?",
+        "Options":  [
+                        "A) Well-known author",
+                        "B) Well known author",
+                        "C) Wellknown author",
+                        "D) Well-known-author"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Hyphenation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Compound adjectives before a noun are hyphenated: \u0027a well-known author\u0027 (but \u0027the author is well known\u0027)."
+    },
+    {
+        "QuestionText":  "\u0027She not only sings but also dances.\u0027 This uses the correlative conjunction pair — ",
+        "Options":  [
+                        "A) Not only…but also",
+                        "B) Either…or",
+                        "C) Neither…nor",
+                        "D) Both…and"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Conjunctions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Not only…but also\u0027 is a correlative conjunction pair that adds and emphasises two related ideas."
+    },
+    {
+        "QuestionText":  "The word \u0027autobiography\u0027 can be broken into: auto (self) + bio (life) + graphy (writing). It means — ",
+        "Options":  [
+                        "A) A book a person writes about their own life",
+                        "B) A book about cars",
+                        "C) A life science book",
+                        "D) A writing exercise"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Word Origins",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Breaking words into roots/prefixes: auto=self + bio=life + graphy=writing = self-written life story."
+    },
+    {
+        "QuestionText":  "Which sentence correctly uses a semicolon?",
+        "Options":  [
+                        "A) She loves reading; he prefers sport.",
+                        "B) She loves; reading he prefers sport.",
+                        "C) She loves reading, he; prefers sport.",
+                        "D) She; loves reading he prefers sport."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Punctuation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A semicolon joins two independent but related clauses: \u0027She loves reading; he prefers sport.\u0027"
+    },
+    {
+        "QuestionText":  "The sentence \u0027Who did you see at the park?\u0027 — \u0027who\u0027 should actually be — ",
+        "Options":  [
+                        "A) Whom (object of the verb \u0027see\u0027)",
+                        "B) Who is correct",
+                        "C) Which",
+                        "D) That"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Who vs Whom",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Whom\u0027 is used as an object: \u0027You saw whom at the park?\u0027 → \u0027Whom did you see?\u0027"
+    },
+    {
+        "QuestionText":  "\u0027The bouquet of flowers was beautiful.\u0027 Why is \u0027was\u0027 correct (not \u0027were\u0027)?",
+        "Options":  [
+                        "A) The subject is \u0027bouquet\u0027 (singular), not \u0027flowers\u0027",
+                        "B) \u0027Flowers\u0027 is plural so \u0027were\u0027 is correct",
+                        "C) \u0027Bouquet\u0027 is plural",
+                        "D) Collective nouns take plural verbs"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Subject-Verb Agreement",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The subject is \u0027bouquet\u0027 (singular), not \u0027flowers\u0027 (which is part of a prepositional phrase). Singular subject → singular verb \u0027was\u0027."
+    },
+    {
+        "QuestionText":  "\u0027Hardly had she sat down when the phone rang.\u0027 This structure expresses — ",
+        "Options":  [
+                        "A) A past action immediately followed by another (inversion after \u0027hardly\u0027)",
+                        "B) Future events",
+                        "C) A condition",
+                        "D) A comparison"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Advanced Grammar",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Hardly…when\u0027 with subject-auxiliary inversion is a literary structure showing one action just preceded another."
+    },
+    {
+        "QuestionText":  "Which sentence has a dangling modifier?",
+        "Options":  [
+                        "A) Having finished the exam, the students celebrated.",
+                        "B) Running to school, the bag was heavy.",
+                        "C) She reads books carefully.",
+                        "D) They played well together."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Dangling Modifiers",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Running to school, the bag was heavy\u0027 — the bag cannot run; the subject should be \u0027she\u0027 or \u0027he\u0027 (the person running)."
+    },
+    {
+        "QuestionText":  "\u0027The pen is mightier than the sword.\u0027 This is an example of — ",
+        "Options":  [
+                        "A) Metaphor (and a proverb/idiom)",
+                        "B) Simile",
+                        "C) Alliteration",
+                        "D) Onomatopoeia"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Figurative Language",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "It is a metaphor: \u0027pen\u0027 (writing/ideas) and \u0027sword\u0027 (physical force) are compared directly without \u0027like/as\u0027."
+    },
+    {
+        "QuestionText":  "In the sentence \u0027She gave him a book\u0027, \u0027him\u0027 is a — ",
+        "Options":  [
+                        "A) Indirect object",
+                        "B) Direct object",
+                        "C) Subject",
+                        "D) Predicate"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Sentence Structure",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Him\u0027 is the indirect object (who receives the book); \u0027book\u0027 is the direct object (what is given)."
+    },
+    {
+        "QuestionText":  "Which is an example of a complex sentence?",
+        "Options":  [
+                        "A) Although it was raining, they went for a walk.",
+                        "B) They went for a walk.",
+                        "C) It rained and they walked.",
+                        "D) They walked quickly."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Types of Sentences",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A complex sentence has one main clause + one subordinate clause joined by a subordinating conjunction (\u0027although\u0027)."
+    },
+    {
+        "QuestionText":  "The word \u0027telephone\u0027 comes from Greek \u0027tele\u0027 (far) + \u0027phone\u0027 (voice/sound). A \u0027telescope\u0027 would mean — ",
+        "Options":  [
+                        "A) A device for seeing far (tele=far + scope=see)",
+                        "B) A device for hearing",
+                        "C) A phone for TV",
+                        "D) A type of microscope"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Etymology",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Tele\u0027 (far) + \u0027scope\u0027 (see/look) = telescope, a device for viewing distant objects."
+    },
+    {
+        "QuestionText":  "Which sentence correctly uses \u0027fewer\u0027 vs \u0027less\u0027?",
+        "Options":  [
+                        "A) There are fewer books on the shelf today.",
+                        "B) There are less books on the shelf today.",
+                        "C) There is fewer water in the glass.",
+                        "D) I have less chairs than you."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Word and Structure Knowledge",
+        "SubTopic":  "Fewer vs Less",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Fewer\u0027 is used with countable nouns (books, chairs); \u0027less\u0027 with uncountable nouns (water, time)."
+    }
+]

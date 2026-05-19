@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A pattern goes: 2, 4, 6, 8, ___. What comes next?",
+    "Options": [
+      "A) 10",
+      "B) 9",
+      "C) 12",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: +2 each time. 8+2=10."
+  },
+  {
+    "QuestionText": "Pattern: A, B, A, B, ___. What comes next?",
+    "Options": [
+      "A) A",
+      "B) B",
+      "C) C",
+      "D) D"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Letter Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "AB repeating pattern. After B comes A."
+  },
+  {
+    "QuestionText": "Pattern: 1, 3, 5, 7, ___. Next?",
+    "Options": [
+      "A) 9",
+      "B) 8",
+      "C) 10",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: odd numbers +2. 7+2=9."
+  },
+  {
+    "QuestionText": "Pattern: circle, square, circle, square, ___. Next shape?",
+    "Options": [
+      "A) Circle",
+      "B) Square",
+      "C) Triangle",
+      "D) Oval"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Shape Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Repeating pattern CS CS \u2192 next is C."
+  },
+  {
+    "QuestionText": "Pattern: 5, 10, 15, 20, ___. Next?",
+    "Options": [
+      "A) 25",
+      "B) 22",
+      "C) 30",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip counting by 5. 20+5=25."
+  },
+  {
+    "QuestionText": "Pattern: red, red, blue, red, red, blue, ___. Next?",
+    "Options": [
+      "A) Red",
+      "B) Blue",
+      "C) Green",
+      "D) Yellow"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Colour Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern RRB repeating. After blue comes R."
+  },
+  {
+    "QuestionText": "Pattern: 10, 20, 30, 40, ___. Next?",
+    "Options": [
+      "A) 50",
+      "B) 45",
+      "C) 60",
+      "D) 55"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip counting by 10. 40+10=50."
+  },
+  {
+    "QuestionText": "Pattern: 1, 4, 9, 16, ___. Next?",
+    "Options": [
+      "A) 25",
+      "B) 20",
+      "C) 36",
+      "D) 18"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "These are square numbers: 1\u00b2,2\u00b2,3\u00b2,4\u00b2,5\u00b2=25."
+  },
+  {
+    "QuestionText": "Pattern: \u25b3, \u25b3\u25b3, \u25b3\u25b3\u25b3, ___. Next?",
+    "Options": [
+      "A) \u25b3\u25b3\u25b3\u25b3",
+      "B) \u25b3\u25b3\u25b3\u25b3\u25b3",
+      "C) \u25b3\u25b3",
+      "D) \u25b3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Growing Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Each step adds one \u25b3. Next has 4."
+  },
+  {
+    "QuestionText": "Pattern: 100, 90, 80, 70, ___. Next?",
+    "Options": [
+      "A) 60",
+      "B) 50",
+      "C) 65",
+      "D) 55"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: \u221210 each time. 70\u221210=60."
+  },
+  {
+    "QuestionText": "Pattern: 3, 6, 9, 12, ___. Next?",
+    "Options": [
+      "A) 15",
+      "B) 14",
+      "C) 18",
+      "D) 13"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip counting by 3. 12+3=15."
+  },
+  {
+    "QuestionText": "Pattern: A, C, E, G, ___. Next letter?",
+    "Options": [
+      "A) I",
+      "B) H",
+      "C) J",
+      "D) F"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Letter Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Skip one letter each time: A_C_E_G_I."
+  },
+  {
+    "QuestionText": "Pattern: 1, 2, 4, 8, ___. Next?",
+    "Options": [
+      "A) 16",
+      "B) 12",
+      "C) 10",
+      "D) 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern: \u00d72. 8\u00d72=16."
+  },
+  {
+    "QuestionText": "Pattern goes: small, medium, large, small, medium, large, ___. Next?",
+    "Options": [
+      "A) Small",
+      "B) Medium",
+      "C) Large",
+      "D) Extra large"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Repeating Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern repeats. After large comes small."
+  },
+  {
+    "QuestionText": "Pattern: 2, 5, 8, 11, ___. Next?",
+    "Options": [
+      "A) 14",
+      "B) 13",
+      "C) 15",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern: +3. 11+3=14."
+  },
+  {
+    "QuestionText": "What is the rule for: 50, 45, 40, 35, 30?",
+    "Options": [
+      "A) Subtract 5",
+      "B) Add 5",
+      "C) Subtract 10",
+      "D) Add 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern subtracts 5 each time."
+  },
+  {
+    "QuestionText": "Pattern: 1, 1, 2, 3, 5, ___. Next?",
+    "Options": [
+      "A) 8",
+      "B) 7",
+      "C) 6",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Fibonacci: each number = sum of previous two. 3+5=8."
+  },
+  {
+    "QuestionText": "Pattern: \u2665\u2665\u2663, \u2665\u2665\u2663, \u2665\u2665\u2663. What is the 7th symbol?",
+    "Options": [
+      "A) \u2665",
+      "B) \u2663",
+      "C) \u2666",
+      "D) \u2660"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Pattern Position",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern repeats every 3: \u2665\u2665\u2663. Position 7: 7\u00f73=2R1 \u2192 1st in pattern = \u2665."
+  },
+  {
+    "QuestionText": "Which number continues the pattern: 4, 8, 12, 16, __?",
+    "Options": [
+      "A) 20",
+      "B) 18",
+      "C) 24",
+      "D) 22"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: +4. 16+4=20."
+  },
+  {
+    "QuestionText": "Pattern: AB, BC, CD, DE, ___. Next?",
+    "Options": [
+      "A) EF",
+      "B) DE",
+      "C) FG",
+      "D) EG"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Letter Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Each pair shifts by 1 letter. DE\u2192EF."
+  },
+  {
+    "QuestionText": "Pattern: 100, 200, 300, 400, ___. Next?",
+    "Options": [
+      "A) 500",
+      "B) 450",
+      "C) 600",
+      "D) 550"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip counting by 100. 400+100=500."
+  },
+  {
+    "QuestionText": "What comes 3rd in this pattern: circle, triangle, square, circle, triangle, square?",
+    "Options": [
+      "A) Square",
+      "B) Triangle",
+      "C) Circle",
+      "D) Pentagon"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Shape Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: circle, triangle, square. 3rd is square."
+  },
+  {
+    "QuestionText": "Pattern: 1, 3, 9, 27, ___. Next?",
+    "Options": [
+      "A) 81",
+      "B) 54",
+      "C) 63",
+      "D) 30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pattern: \u00d73. 27\u00d73=81."
+  },
+  {
+    "QuestionText": "A growing pattern: \u2605, \u2605\u2605\u2605, \u2605\u2605\u2605\u2605\u2605, ___. Next?",
+    "Options": [
+      "A) \u2605\u2605\u2605\u2605\u2605\u2605\u2605",
+      "B) \u2605\u2605\u2605\u2605\u2605\u2605",
+      "C) \u2605\u2605\u2605\u2605\u2605\u2605\u2605\u2605",
+      "D) \u2605\u2605\u2605\u2605"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Growing Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pattern adds 2 each time: 1,3,5,7. Next=7."
+  },
+  {
+    "QuestionText": "Pattern: 2, 6, 18, 54, ___. Next?",
+    "Options": [
+      "A) 162",
+      "B) 108",
+      "C) 81",
+      "D) 72"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pattern: \u00d73. 54\u00d73=162."
+  },
+  {
+    "QuestionText": "What is the missing number: 5, 10, ___, 20, 25?",
+    "Options": [
+      "A) 15",
+      "B) 12",
+      "C) 18",
+      "D) 17"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: +5. 10+5=15."
+  },
+  {
+    "QuestionText": "Pattern: T, W, T, F, S, S, M, T, ___. (Days of week, starting Tuesday)",
+    "Options": [
+      "A) W",
+      "B) T",
+      "C) F",
+      "D) M"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Letter Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Days: Tue, Wed, Thu, Fri, Sat, Sun, Mon, Tue, Wed."
+  },
+  {
+    "QuestionText": "Which pattern grows by doubling?",
+    "Options": [
+      "A) 2, 4, 8, 16, 32",
+      "B) 2, 4, 6, 8, 10",
+      "C) 5, 10, 15, 20, 25",
+      "D) 1, 3, 5, 7, 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "2,4,8,16,32 doubles each time."
+  },
+  {
+    "QuestionText": "Pattern: 1, 4, 9, 16, 25. What kind of numbers are these?",
+    "Options": [
+      "A) Square numbers",
+      "B) Cube numbers",
+      "C) Even numbers",
+      "D) Prime numbers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "1=1\u00b2, 4=2\u00b2, 9=3\u00b2, 16=4\u00b2, 25=5\u00b2. These are perfect squares."
+  },
+  {
+    "QuestionText": "Which is the 10th term of: 3, 6, 9, 12, ...?",
+    "Options": [
+      "A) 30",
+      "B) 27",
+      "C) 33",
+      "D) 20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pattern: \u00d73 table. 10th term = 3\u00d710 = 30."
+  },
+  {
+    "QuestionText": "A tile pattern repeats every 4 tiles: blue, red, yellow, green. What colour is the 13th tile?",
+    "Options": [
+      "A) Blue",
+      "B) Red",
+      "C) Yellow",
+      "D) Green"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Pattern Position",
+    "Difficulty": "Olympiad",
+    "Explanation": "13\u00f74=3R1. 1st tile = blue."
+  },
+  {
+    "QuestionText": "Pattern: 1, 2, 3, 1, 2, 3, 1, ___. Next?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 1",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Repeating Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern 123 repeating. After 1 comes 2."
+  },
+  {
+    "QuestionText": "What is the rule: 64, 32, 16, 8, 4?",
+    "Options": [
+      "A) Divide by 2",
+      "B) Multiply by 2",
+      "C) Subtract 8",
+      "D) Subtract 16"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Each number is halved (\u00f72)."
+  },
+  {
+    "QuestionText": "Pattern of shapes: \u25cb, \u25cb\u25cb, \u25cb\u25cb\u25cb, \u25cb\u25cb\u25cb\u25cb. How many circles in the 6th group?",
+    "Options": [
+      "A) 6",
+      "B) 5",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Growing Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Each step adds 1. 6th group = 6 circles."
+  },
+  {
+    "QuestionText": "Pattern: Jan, Mar, May, Jul, ___. Next?",
+    "Options": [
+      "A) Sep",
+      "B) Aug",
+      "C) Oct",
+      "D) Nov"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Calendar Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Every other month (skipping one). Jul+2=Sep."
+  },
+  {
+    "QuestionText": "What is the missing number: 45, 40, 35, ___, 25, 20?",
+    "Options": [
+      "A) 30",
+      "B) 28",
+      "C) 32",
+      "D) 27"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: \u22125. 35\u22125=30."
+  },
+  {
+    "QuestionText": "Pattern: \u2663\u2663\u2666, \u2663\u2663\u2666\u2666, \u2663\u2663\u2666\u2666\u2666. What comes next?",
+    "Options": [
+      "A) \u2663\u2663\u2666\u2666\u2666\u2666",
+      "B) \u2663\u2663\u2663\u2666\u2666",
+      "C) \u2663\u2666\u2666\u2666\u2666",
+      "D) \u2663\u2663\u2663\u2666"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Growing Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "The \u2666 increases by 1 each time: 1,2,3,4. Next = \u2663\u2663\u2666\u2666\u2666\u2666."
+  },
+  {
+    "QuestionText": "A staircase pattern: row 1 has 1 block, row 2 has 2, row 3 has 3. Total blocks in 5 rows?",
+    "Options": [
+      "A) 15",
+      "B) 10",
+      "C) 12",
+      "D) 20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Growing Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "1+2+3+4+5=15."
+  },
+  {
+    "QuestionText": "Pattern: 2, 3, 5, 7, 11, ___. Next?",
+    "Options": [
+      "A) 13",
+      "B) 12",
+      "C) 15",
+      "D) 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "These are prime numbers. Next prime after 11 is 13."
+  },
+  {
+    "QuestionText": "Pattern: 1, 8, 27, 64, ___. Next?",
+    "Options": [
+      "A) 125",
+      "B) 100",
+      "C) 216",
+      "D) 81"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "These are cube numbers: 1\u00b3,2\u00b3,3\u00b3,4\u00b3,5\u00b3=125."
+  },
+  {
+    "QuestionText": "Which shows a repeating pattern of 3?",
+    "Options": [
+      "A) Red, Blue, Green, Red, Blue, Green",
+      "B) Red, Red, Blue",
+      "C) Red, Blue, Red, Blue",
+      "D) Red, Blue, Green, Yellow"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Repeating Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "A unit of 3 repeating: RBG, RBG."
+  },
+  {
+    "QuestionText": "A pattern of triangles: 1, 4, 9, 16. These represent?",
+    "Options": [
+      "A) Triangle numbers squared",
+      "B) Square numbers",
+      "C) Cube numbers",
+      "D) Prime numbers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "1=1\u00b2, 4=2\u00b2, 9=3\u00b2, 16=4\u00b2 \u2014 these are perfect squares."
+  },
+  {
+    "QuestionText": "What is the 5th term in: 7, 14, 21, 28, ___?",
+    "Options": [
+      "A) 35",
+      "B) 42",
+      "C) 28",
+      "D) 34"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: \u00d77 table. 5th term = 7\u00d75=35."
+  },
+  {
+    "QuestionText": "A pattern: each row has 2 more dots than the last. Row 1=1 dot. Row 4 has?",
+    "Options": [
+      "A) 7 dots",
+      "B) 6 dots",
+      "C) 8 dots",
+      "D) 5 dots"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Growing Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Row 1=1, Row 2=3, Row 3=5, Row 4=7."
+  },
+  {
+    "QuestionText": "Which pattern rule gives: 100, 50, 25, 12.5?",
+    "Options": [
+      "A) Divide by 2",
+      "B) Subtract 50",
+      "C) Subtract 25",
+      "D) Multiply by 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each term is halved: 100\u00f72=50, 50\u00f72=25, 25\u00f72=12.5."
+  },
+  {
+    "QuestionText": "Pattern: J, F, M, A, M, J, J, A, ___. Next?",
+    "Options": [
+      "A) S",
+      "B) O",
+      "C) N",
+      "D) D"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Calendar Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "First letters of months. After August (A) comes September (S)."
+  },
+  {
+    "QuestionText": "Pattern: 3, 7, 11, 15, 19. Next two terms?",
+    "Options": [
+      "A) 23 and 27",
+      "B) 21 and 25",
+      "C) 22 and 26",
+      "D) 20 and 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pattern: +4. 19+4=23, 23+4=27."
+  },
+  {
+    "QuestionText": "What is the 8th number in: 1, 2, 4, 8, 16, 32, 64, ___?",
+    "Options": [
+      "A) 128",
+      "B) 96",
+      "C) 256",
+      "D) 100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Number Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pattern: \u00d72. 7th=64, 8th=128."
+  },
+  {
+    "QuestionText": "In a pattern ABCABC, what is the 11th letter?",
+    "Options": [
+      "A) B",
+      "B) A",
+      "C) C",
+      "D) D"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Pattern Position",
+    "Difficulty": "Olympiad",
+    "Explanation": "11\u00f73=3R2. 2nd in pattern ABC = B."
+  },
+  {
+    "QuestionText": "A pattern: 1 white, 3 black, 1 white, 3 black. What is the 9th bead?",
+    "Options": [
+      "A) Black",
+      "B) White",
+      "C) Grey",
+      "D) Red"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Patterns",
+    "SubTopic": "Pattern Position",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pattern unit=4 (1W+3B). 9\u00f74=2R1. 1st in unit = White."
+  }
+]

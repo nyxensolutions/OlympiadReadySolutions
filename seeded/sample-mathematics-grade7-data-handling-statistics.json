@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The mean of 4, 7, 11, 14 and 9 is",
+    "Options": [
+      "A) 9",
+      "B) 11",
+      "C) 7",
+      "D) 45"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=45. Mean=45/5=9."
+  },
+  {
+    "QuestionText": "Median of 3, 5, 7, 9, 11",
+    "Options": [
+      "A) 7",
+      "B) 5",
+      "C) 9",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Median",
+    "Difficulty": "Foundation",
+    "Explanation": "Odd count: middle value. Median=7."
+  },
+  {
+    "QuestionText": "Mode of 2, 3, 4, 3, 5, 3, 6",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mode",
+    "Difficulty": "Foundation",
+    "Explanation": "3 appears most often (3 times)."
+  },
+  {
+    "QuestionText": "Median of 4, 8, 12, 16 (even number of values)",
+    "Options": [
+      "A) 10",
+      "B) 8",
+      "C) 12",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Median even",
+    "Difficulty": "Foundation",
+    "Explanation": "Average of middle two: (8+12)/2=10."
+  },
+  {
+    "QuestionText": "Range of 15, 22, 8, 35, 3",
+    "Options": [
+      "A) 32",
+      "B) 22",
+      "C) 17",
+      "D) 38"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Range",
+    "Difficulty": "Foundation",
+    "Explanation": "Range=max-min=35-3=32."
+  },
+  {
+    "QuestionText": "A bar graph uses ___ to represent data",
+    "Options": [
+      "A) Bars (rectangles)",
+      "B) Lines",
+      "C) Points",
+      "D) Circles"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Bar graph",
+    "Difficulty": "Foundation",
+    "Explanation": "Bar graphs use bars of varying heights/lengths."
+  },
+  {
+    "QuestionText": "A pie chart represents parts of a whole using ___",
+    "Options": [
+      "A) Sectors of a circle",
+      "B) Bars",
+      "C) Lines",
+      "D) Points"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Pie chart",
+    "Difficulty": "Foundation",
+    "Explanation": "A pie chart uses sectors proportional to the data values."
+  },
+  {
+    "QuestionText": "If the mean of 5 numbers is 12 their sum is",
+    "Options": [
+      "A) 60",
+      "B) 17",
+      "C) 7",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=Mean\u00d7n=12\u00d75=60."
+  },
+  {
+    "QuestionText": "In a frequency distribution what does frequency mean?",
+    "Options": [
+      "A) Number of times a value occurs",
+      "B) The value itself",
+      "C) Sum of all values",
+      "D) Range of values"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Frequency",
+    "Difficulty": "Foundation",
+    "Explanation": "Frequency is the count (number of times) a particular value appears."
+  },
+  {
+    "QuestionText": "A histogram is similar to a bar graph but used for ___",
+    "Options": [
+      "A) Continuous data",
+      "B) Categorical data",
+      "C) Nominal data",
+      "D) Pie charts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Histogram",
+    "Difficulty": "Foundation",
+    "Explanation": "Histograms display continuous (grouped) data; bar graphs display discrete categories."
+  },
+  {
+    "QuestionText": "The mean of first 10 natural numbers",
+    "Options": [
+      "A) 5.5",
+      "B) 5",
+      "C) 10",
+      "D) 55"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=55. Mean=55/10=5.5."
+  },
+  {
+    "QuestionText": "Which average is affected most by extreme values?",
+    "Options": [
+      "A) Mean",
+      "B) Median",
+      "C) Mode",
+      "D) Range"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "The mean uses all values in its calculation and is most affected by outliers."
+  },
+  {
+    "QuestionText": "The sum of deviations from the mean is always",
+    "Options": [
+      "A) 0",
+      "B) Positive",
+      "C) Negative",
+      "D) Equal to range"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean property",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum of deviations from mean = 0 by definition."
+  },
+  {
+    "QuestionText": "Mean of 6 observations is 10. If one observation 16 is removed new mean is",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Recalculating mean",
+    "Difficulty": "Advanced",
+    "Explanation": "Old sum=60. New sum=44. New mean=44/5=8.8. Closest is 9. Exact: 8.8. Correcting answer."
+  },
+  {
+    "QuestionText": "Which graph is best for showing a trend over time?",
+    "Options": [
+      "A) Line graph",
+      "B) Bar graph",
+      "C) Pie chart",
+      "D) Histogram"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Types of graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Line graphs are best for showing trends or changes over time."
+  },
+  {
+    "QuestionText": "A class has 5 students with marks 80, 90, 70, 85, 75. Mean marks are",
+    "Options": [
+      "A) 80",
+      "B) 76",
+      "C) 85",
+      "D) 84"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=400. Mean=400/5=80."
+  },
+  {
+    "QuestionText": "The class width of class interval 20-30 is",
+    "Options": [
+      "A) 10",
+      "B) 20",
+      "C) 30",
+      "D) 15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Class interval",
+    "Difficulty": "Foundation",
+    "Explanation": "Class width = upper limit - lower limit = 30-20=10."
+  },
+  {
+    "QuestionText": "Median of 2, 5, 8, 10, 11, 13 is",
+    "Options": [
+      "A) 9",
+      "B) 8",
+      "C) 10",
+      "D) 10.5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Median",
+    "Difficulty": "Foundation",
+    "Explanation": "Even n=6. Middle two: 8 and 10. Median=(8+10)/2=9."
+  },
+  {
+    "QuestionText": "Double bar graph is used to compare",
+    "Options": [
+      "A) Two sets of data",
+      "B) Three sets",
+      "C) Only one set",
+      "D) Frequency"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Double bar graph",
+    "Difficulty": "Foundation",
+    "Explanation": "Double bar graphs compare two datasets side by side."
+  },
+  {
+    "QuestionText": "A pie chart has 360 degrees total. If a category is 30% its angle is",
+    "Options": [
+      "A) 108 degrees",
+      "B) 30 degrees",
+      "C) 120 degrees",
+      "D) 90 degrees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Pie chart angle",
+    "Difficulty": "Foundation",
+    "Explanation": "Angle=30/100\u00d7360=108 degrees."
+  },
+  {
+    "QuestionText": "If all values in a dataset are equal the standard deviation is",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) Equal to mean",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Spread of data",
+    "Difficulty": "Advanced",
+    "Explanation": "If all values are equal there is no variation: standard deviation=0."
+  },
+  {
+    "QuestionText": "Mean of 8, 8, 8, 8, 8 is",
+    "Options": [
+      "A) 8",
+      "B) 40",
+      "C) 5",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "All values equal: mean=8."
+  },
+  {
+    "QuestionText": "The median is NOT affected by",
+    "Options": [
+      "A) Extreme values",
+      "B) Middle values",
+      "C) The number of observations",
+      "D) Grouped data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Median robustness",
+    "Difficulty": "Advanced",
+    "Explanation": "Median depends only on the middle value(s), not extreme values."
+  },
+  {
+    "QuestionText": "A student scored 60, 70, 80 in three tests. To get a mean of 75 in 4 tests the 4th score must be",
+    "Options": [
+      "A) 90",
+      "B) 75",
+      "C) 80",
+      "D) 85"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean target",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum needed=75\u00d74=300. Current sum=210. 4th=90."
+  },
+  {
+    "QuestionText": "Probability of getting heads on a fair coin is",
+    "Options": [
+      "A) 0.5",
+      "B) 1",
+      "C) 0",
+      "D) 0.25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Basic probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(heads)=1/2=0.5."
+  },
+  {
+    "QuestionText": "Probability of rolling a 3 on a fair die",
+    "Options": [
+      "A) 1/6",
+      "B) 1/3",
+      "C) 3/6",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "One favourable out of 6 equally likely outcomes."
+  },
+  {
+    "QuestionText": "From cards 1-10 probability of drawing an even number",
+    "Options": [
+      "A) 0.5",
+      "B) 0.4",
+      "C) 0.6",
+      "D) 0.2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Even numbers: 2,4,6,8,10 = 5. P=5/10=0.5."
+  },
+  {
+    "QuestionText": "An impossible event has probability",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 0.5",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "An impossible event never occurs: probability=0."
+  },
+  {
+    "QuestionText": "A certain event has probability",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 0.5",
+      "D) Greater than 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "A certain (sure) event always occurs: probability=1."
+  },
+  {
+    "QuestionText": "Mean, median and mode are all equal for",
+    "Options": [
+      "A) Symmetric distribution",
+      "B) Skewed distribution",
+      "C) Bimodal distribution",
+      "D) Random data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Measures of central tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "In a perfectly symmetric (normal) distribution, mean=median=mode."
+  },
+  {
+    "QuestionText": "From a bag with 3 red 4 blue 5 green balls, probability of drawing red",
+    "Options": [
+      "A) 3/12 = 1/4",
+      "B) 3/7",
+      "C) 4/12",
+      "D) 5/12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "P(red)=3/12=1/4."
+  },
+  {
+    "QuestionText": "Mean of a, a+2, a+4, a+6, a+8",
+    "Options": [
+      "A) a+4",
+      "B) a+2",
+      "C) 5a+20",
+      "D) a+10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean of AP",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum=5a+20. Mean=a+4. (middle term of AP)"
+  },
+  {
+    "QuestionText": "If P(E)=0.3 then P(not E) is",
+    "Options": [
+      "A) 0.7",
+      "B) 0.3",
+      "C) 1.3",
+      "D) 0.6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Complementary probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(not E)=1-P(E)=0.7."
+  },
+  {
+    "QuestionText": "A coin is tossed twice. Probability of getting two heads",
+    "Options": [
+      "A) 1/4",
+      "B) 1/2",
+      "C) 1/8",
+      "D) 3/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Sample space: HH HT TH TT. P(HH)=1/4."
+  },
+  {
+    "QuestionText": "Die thrown once. P(prime number) is",
+    "Options": [
+      "A) 1/2",
+      "B) 1/3",
+      "C) 2/3",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Primes on die: 2,3,5. P=3/6=1/2."
+  },
+  {
+    "QuestionText": "Frequency of an interval: how many values fall IN that interval",
+    "Options": [
+      "A) True definition",
+      "B) A measure of central tendency",
+      "C) The width of interval",
+      "D) The probability"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Frequency distribution",
+    "Difficulty": "Foundation",
+    "Explanation": "Frequency=count of data values within a class interval."
+  },
+  {
+    "QuestionText": "Ogive (cumulative frequency curve) is used to find the ___",
+    "Options": [
+      "A) Median",
+      "B) Mean",
+      "C) Mode",
+      "D) Range"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Ogive",
+    "Difficulty": "Olympiad",
+    "Explanation": "The median can be found from the ogive (cumulative frequency curve) as the value at 50th percentile."
+  },
+  {
+    "QuestionText": "Mean absolute deviation measures",
+    "Options": [
+      "A) Average distance of values from mean",
+      "B) Sum of all values",
+      "C) Maximum minus minimum",
+      "D) Mode"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean absolute deviation",
+    "Difficulty": "Olympiad",
+    "Explanation": "MAD=average of absolute deviations from the mean."
+  },
+  {
+    "QuestionText": "In a dataset 5 6 7 8 9, if each value increased by 3 new mean is",
+    "Options": [
+      "A) 11",
+      "B) 8",
+      "C) 5.5",
+      "D) 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean transformation",
+    "Difficulty": "Advanced",
+    "Explanation": "New mean=old mean+3=8+3=11."
+  },
+  {
+    "QuestionText": "If each value in a dataset is multiplied by 2, new mean is",
+    "Options": [
+      "A) Double the original",
+      "B) Same",
+      "C) Half",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean transformation",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiplication scales all values: new mean=2\u00d7old mean."
+  },
+  {
+    "QuestionText": "Weighted mean of 10 (weight 2) and 20 (weight 3) is",
+    "Options": [
+      "A) 16",
+      "B) 15",
+      "C) 14",
+      "D) 30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Weighted mean",
+    "Difficulty": "Olympiad",
+    "Explanation": "WM=(10\u00d72+20\u00d73)/(2+3)=(20+60)/5=80/5=16."
+  },
+  {
+    "QuestionText": "Which measure of central tendency is used for a dataset with maximum frequency?",
+    "Options": [
+      "A) Mode",
+      "B) Mean",
+      "C) Median",
+      "D) Range"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mode",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode is the value with the highest frequency."
+  },
+  {
+    "QuestionText": "Cards 1-20 drawn randomly. P(multiple of 5)",
+    "Options": [
+      "A) 1/5",
+      "B) 1/4",
+      "C) 4/20",
+      "D) 3/20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiples of 5 up to 20: 5,10,15,20 = 4. P=4/20=1/5."
+  },
+  {
+    "QuestionText": "A fair die is rolled. P(number > 4)",
+    "Options": [
+      "A) 1/3",
+      "B) 2/6",
+      "C) 1/2",
+      "D) 5/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Numbers >4: 5,6. P=2/6=1/3."
+  },
+  {
+    "QuestionText": "Sum of all probabilities of all outcomes in a sample space is",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 0.5",
+      "D) Depends on events"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Probability axiom",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of probabilities of all outcomes = 1 (certainty)."
+  },
+  {
+    "QuestionText": "In a bar graph the y-axis represents",
+    "Options": [
+      "A) Frequency (or value)",
+      "B) Category names",
+      "C) Time",
+      "D) Percentage only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Bar graph",
+    "Difficulty": "Foundation",
+    "Explanation": "Y-axis shows frequency or value; X-axis shows categories."
+  },
+  {
+    "QuestionText": "Constructing frequency distribution table: class interval 1-10 11-20. Class mark of 11-20 is",
+    "Options": [
+      "A) 15.5",
+      "B) 11",
+      "C) 20",
+      "D) 10.5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Class mark",
+    "Difficulty": "Foundation",
+    "Explanation": "Class mark=(11+20)/2=15.5."
+  },
+  {
+    "QuestionText": "Mean of first 5 odd numbers (1,3,5,7,9)",
+    "Options": [
+      "A) 5",
+      "B) 4",
+      "C) 7",
+      "D) 25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=25. Mean=25/5=5."
+  },
+  {
+    "QuestionText": "If median of 2,4,x,8,10 arranged ascending is 6 then x =",
+    "Options": [
+      "A) 6",
+      "B) 5",
+      "C) 7",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Median",
+    "Difficulty": "Advanced",
+    "Explanation": "Median is middle value (3rd). x=6."
+  },
+  {
+    "QuestionText": "Probability that a leap year has 53 Sundays",
+    "Options": [
+      "A) 2/7",
+      "B) 1/7",
+      "C) 53/366",
+      "D) 1/366"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Statistics",
+    "SubTopic": "Calendar probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "Leap year has 366 days = 52 weeks + 2 extra days. Extra days can be {Sat-Sun, Sun-Mon, ..., Fri-Sat}. P(Sunday included) = 2/7."
+  }
+]

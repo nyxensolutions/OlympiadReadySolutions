@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Newton's First Law is also called the law of:",
+    "Options": [
+      "A) Acceleration",
+      "B) Action-Reaction",
+      "C) Inertia",
+      "D) Conservation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's First Law states a body at rest stays at rest and a body in motion continues in motion unless acted upon by an external force. This property of matter is inertia."
+  },
+  {
+    "QuestionText": "Force = Mass \u00d7 ?",
+    "Options": [
+      "A) Velocity",
+      "B) Speed",
+      "C) Acceleration",
+      "D) Displacement"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's 2nd Law: F = ma. Force = mass \u00d7 acceleration."
+  },
+  {
+    "QuestionText": "The SI unit of force is:",
+    "Options": [
+      "A) kg",
+      "B) Joule",
+      "C) Newton",
+      "D) Pascal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "1 Newton (N) = 1 kg\u00b7m/s\u00b2. Force that gives 1 kg mass an acceleration of 1 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Newton's Third Law states:",
+    "Options": [
+      "A) F=ma",
+      "B) Every action has an equal and opposite reaction",
+      "C) Inertia is resistance to change",
+      "D) Momentum is conserved"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "3rd Law: For every action, there is an equal and opposite reaction. Forces always occur in pairs on DIFFERENT objects."
+  },
+  {
+    "QuestionText": "Momentum is defined as:",
+    "Options": [
+      "A) Force \u00d7 time",
+      "B) Mass \u00d7 velocity",
+      "C) Mass \u00d7 acceleration",
+      "D) Force \u00d7 distance"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "Momentum (p) = m \u00d7 v. SI unit: kg\u00b7m/s. It is a vector quantity."
+  },
+  {
+    "QuestionText": "Law of conservation of momentum states that in the absence of external forces:",
+    "Options": [
+      "A) Velocity is conserved",
+      "B) Kinetic energy is conserved",
+      "C) Total momentum is conserved",
+      "D) Acceleration is zero"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "Without external forces, total momentum before = total momentum after any event (collision, explosion, etc.)."
+  },
+  {
+    "QuestionText": "A 5 kg object at rest receives a force of 20 N. Acceleration = ?",
+    "Options": [
+      "A) 0.25 m/s\u00b2",
+      "B) 2 m/s\u00b2",
+      "C) 4 m/s\u00b2",
+      "D) 100 m/s\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "a = F/m = 20/5 = 4 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Inertia is directly related to:",
+    "Options": [
+      "A) Speed",
+      "B) Volume",
+      "C) Mass",
+      "D) Force"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Inertia \u221d mass. More massive objects have greater inertia \u2014 harder to change their state of motion."
+  },
+  {
+    "QuestionText": "A gun fires a bullet. The gun recoils due to:",
+    "Options": [
+      "A) Newton's 1st Law",
+      "B) Newton's 2nd Law",
+      "C) Newton's 3rd Law",
+      "D) Law of Gravitation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Bullet pushed forward (action) \u2192 gun pushed backward (reaction). Newton's 3rd Law. Both forces are equal and opposite."
+  },
+  {
+    "QuestionText": "A 1500 kg car moving at 20 m/s has momentum = ?",
+    "Options": [
+      "A) 750 kg\u00b7m/s",
+      "B) 3000 kg\u00b7m/s",
+      "C) 30000 kg\u00b7m/s",
+      "D) 1500 kg\u00b7m/s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "p = mv = 1500 \u00d7 20 = 30,000 kg\u00b7m/s."
+  },
+  {
+    "QuestionText": "A passenger in a bus falls forward when the bus stops suddenly. This is due to:",
+    "Options": [
+      "A) Newton's 3rd Law",
+      "B) Law of Gravitation",
+      "C) Newton's 1st Law (inertia of motion)",
+      "D) Law of Conservation of Energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "The passenger's body continues moving forward (inertia of motion) when the bus decelerates."
+  },
+  {
+    "QuestionText": "Force is a __ quantity.",
+    "Options": [
+      "A) Scalar",
+      "B) Vector",
+      "C) Dimensionless",
+      "D) None of above"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Force has both magnitude and direction \u2192 vector quantity."
+  },
+  {
+    "QuestionText": "Impulse = Force \u00d7 time = ?",
+    "Options": [
+      "A) Acceleration",
+      "B) Change in momentum",
+      "C) Work done",
+      "D) Kinetic energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "Impulse = Ft = m(v-u) = change in momentum. SI unit: N\u00b7s = kg\u00b7m/s."
+  },
+  {
+    "QuestionText": "Two balls, 1 kg at 4 m/s and 2 kg at rest, collide and stick. Final velocity = ?",
+    "Options": [
+      "A) 2 m/s",
+      "B) 1.33 m/s",
+      "C) 4 m/s",
+      "D) 3 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "By conservation of momentum: 1\u00d74+2\u00d70=(1+2)v \u2192 4=3v \u2192 v=4/3\u22481.33 m/s."
+  },
+  {
+    "QuestionText": "Friction is a force that:",
+    "Options": [
+      "A) Increases motion",
+      "B) Opposes relative motion between surfaces",
+      "C) Acts in the direction of motion",
+      "D) Acts vertically always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "Friction opposes relative motion between surfaces in contact. It acts parallel to surfaces and opposite to the direction of motion."
+  },
+  {
+    "QuestionText": "Which type of friction acts on a stationary object?",
+    "Options": [
+      "A) Kinetic friction",
+      "B) Rolling friction",
+      "C) Static friction",
+      "D) Viscous friction"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "Static friction acts when object is stationary. Kinetic friction acts during motion. Static friction \u2265 kinetic friction for same surfaces."
+  },
+  {
+    "QuestionText": "If mass is doubled and force kept same, acceleration:",
+    "Options": [
+      "A) Doubles",
+      "B) Remains same",
+      "C) Halves",
+      "D) Quadruples"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "F=ma \u2192 a=F/m. If m doubles, a=F/(2m)=half of original. Acceleration halves."
+  },
+  {
+    "QuestionText": "Rate of change of momentum equals:",
+    "Options": [
+      "A) Velocity",
+      "B) Acceleration",
+      "C) Force",
+      "D) Kinetic energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's 2nd Law: F = dp/dt = rate of change of momentum."
+  },
+  {
+    "QuestionText": "A 10 kg object has momentum 50 kg\u00b7m/s. Its speed = ?",
+    "Options": [
+      "A) 0.5 m/s",
+      "B) 5 m/s",
+      "C) 10 m/s",
+      "D) 500 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "v = p/m = 50/10 = 5 m/s."
+  },
+  {
+    "QuestionText": "A body A of mass 2 kg is at rest on a frictionless surface. Body B of mass 1 kg hits it at 6 m/s and they stick together. Final velocity = ?",
+    "Options": [
+      "A) 1 m/s",
+      "B) 2 m/s",
+      "C) 3 m/s",
+      "D) 4 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "Conservation of momentum: 1\u00d76+2\u00d70=3v \u2192 v=2 m/s."
+  },
+  {
+    "QuestionText": "To float in water, an object must have density __ water.",
+    "Options": [
+      "A) Greater than",
+      "B) Equal to",
+      "C) Less than or equal to",
+      "D) At least 3 times"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Foundation",
+    "Explanation": "Archimedes' principle: object floats when buoyant force \u2265 weight \u2192 density of object \u2264 density of fluid."
+  },
+  {
+    "QuestionText": "Pressure = Force / ?",
+    "Options": [
+      "A) Volume",
+      "B) Mass",
+      "C) Area",
+      "D) Length"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Pressure = Force/Area. SI unit: Pascal (Pa) = N/m\u00b2."
+  },
+  {
+    "QuestionText": "Why do needles and knives have sharp edges?",
+    "Options": [
+      "A) To look good",
+      "B) To increase pressure (small area \u2192 large pressure)",
+      "C) To reduce pressure",
+      "D) To increase surface area"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "P=F/A. Small area \u2192 large pressure for same force. Sharp edge has very small area \u2192 cuts easily."
+  },
+  {
+    "QuestionText": "Pascal's law states that pressure applied to an enclosed fluid is transmitted:",
+    "Options": [
+      "A) In one direction only",
+      "B) Equally in all directions",
+      "C) Upward only",
+      "D) Downward only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Pascal's law: pressure applied to a fluid in a closed container is transmitted equally in all directions throughout the fluid."
+  },
+  {
+    "QuestionText": "Hydraulic machines (like brakes) work on:",
+    "Options": [
+      "A) Newton's 3rd Law",
+      "B) Archimedes' Principle",
+      "C) Pascal's Law",
+      "D) Bernoulli's Principle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Hydraulic brakes/lifts: Pascal's law. Pressure on small piston \u2192 transmitted to large piston \u2192 multiplied force output."
+  },
+  {
+    "QuestionText": "Buoyant force equals:",
+    "Options": [
+      "A) Weight of the object",
+      "B) Volume of the object \u00d7 g",
+      "C) Weight of displaced fluid",
+      "D) Density \u00d7 Volume \u00d7 g\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Foundation",
+    "Explanation": "Archimedes' Principle: buoyant force = weight of fluid displaced = \u03c1_fluid \u00d7 V_displaced \u00d7 g."
+  },
+  {
+    "QuestionText": "A person pushing a wall exerts a force on the wall. The wall:",
+    "Options": [
+      "A) Does not exert any force back",
+      "B) Exerts an equal and opposite force back",
+      "C) Exerts a larger force back",
+      "D) Exerts a smaller force back"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's 3rd Law: wall pushes back with equal and opposite force. Action-reaction pairs."
+  },
+  {
+    "QuestionText": "Balanced forces on an object result in:",
+    "Options": [
+      "A) Acceleration",
+      "B) Deceleration",
+      "C) Zero net force \u2192 no change in state of motion",
+      "D) Circular motion"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Balanced forces = equal and opposite \u2192 net force = 0 \u2192 no acceleration. Object stays at rest or continues at constant velocity."
+  },
+  {
+    "QuestionText": "When a rocket launches, the exhaust gases go down and the rocket goes:",
+    "Options": [
+      "A) Down",
+      "B) Sideways",
+      "C) Up (reaction to exhaust)",
+      "D) In circles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's 3rd Law: gases pushed down (action) \u2192 rocket pushed up (reaction). Rocket propulsion works in vacuum of space too."
+  },
+  {
+    "QuestionText": "The force of friction between a block and floor depends on:",
+    "Options": [
+      "A) Speed of block only",
+      "B) Surface area of contact only",
+      "C) Normal force and nature of surfaces",
+      "D) Mass and velocity"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Advanced",
+    "Explanation": "Friction force = \u03bcN where \u03bc = coefficient of friction (nature of surfaces) and N = normal force. Independent of contact area and speed (for kinetic friction)."
+  },
+  {
+    "QuestionText": "An object is in equilibrium if:",
+    "Options": [
+      "A) Net force is maximum",
+      "B) Net force is zero",
+      "C) Acceleration is maximum",
+      "D) Velocity is zero only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Equilibrium: net force = 0 \u2192 zero acceleration. Object can be at rest (static) or moving at constant velocity (dynamic equilibrium)."
+  },
+  {
+    "QuestionText": "Dimensional formula of force is:",
+    "Options": [
+      "A) MLT\u207b\u00b9",
+      "B) MLT\u207b\u00b2",
+      "C) ML\u00b2T\u207b\u00b2",
+      "D) M\u207b\u00b9LT"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "F=ma: [F]=[M][LT\u207b\u00b2]=MLT\u207b\u00b2. Newton's second law gives the dimensional formula."
+  },
+  {
+    "QuestionText": "A 2 kg ball moving at 5 m/s hits a wall and bounces back at 5 m/s. Change in momentum = ?",
+    "Options": [
+      "A) 0",
+      "B) 10 kg\u00b7m/s",
+      "C) 20 kg\u00b7m/s",
+      "D) 5 kg\u00b7m/s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "Initial p=+10. Final p=-10 (reversed). \u0394p=(-10)-(+10)=-20 kg\u00b7m/s. Magnitude=20 kg\u00b7m/s."
+  },
+  {
+    "QuestionText": "Why does a swimmer push water backward to move forward?",
+    "Options": [
+      "A) Newton's 1st Law",
+      "B) Newton's 2nd Law",
+      "C) Newton's 3rd Law",
+      "D) Law of Momentum"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Swimmer pushes water backward (action). Water pushes swimmer forward (reaction). Newton's 3rd Law."
+  },
+  {
+    "QuestionText": "The momentum of a photon (massless particle):",
+    "Options": [
+      "A) is zero",
+      "B) is infinite",
+      "C) is E/c (from E=mc\u00b2)",
+      "D) equals hf/c"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Olympiad",
+    "Explanation": "Photon momentum p=h/\u03bb=hf/c (de Broglie). Even massless particles have momentum via E=pc."
+  },
+  {
+    "QuestionText": "Normal force on a 5 kg book resting on a table (g=10) is:",
+    "Options": [
+      "A) 0 N",
+      "B) 5 N",
+      "C) 50 N",
+      "D) 500 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "On horizontal surface at rest: Normal force N = Weight = mg = 5\u00d710 = 50 N."
+  },
+  {
+    "QuestionText": "Action and reaction forces act on:",
+    "Options": [
+      "A) The same object",
+      "B) Different objects",
+      "C) The same surface",
+      "D) The same point"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's 3rd Law: action-reaction pairs act on DIFFERENT objects. They never cancel each other because they act on different bodies."
+  },
+  {
+    "QuestionText": "The unit of momentum is:",
+    "Options": [
+      "A) N",
+      "B) N\u00b7s",
+      "C) J",
+      "D) kg\u00b7m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "Momentum p=mv has unit kg\u00b7m/s = N\u00b7s (since N=kg\u00b7m/s\u00b2). Both are equivalent SI units."
+  },
+  {
+    "QuestionText": "A bomb at rest explodes into two fragments. If one moves at 10 m/s East, the other moves:",
+    "Options": [
+      "A) 10 m/s East",
+      "B) 10 m/s West (but may have different mass)",
+      "C) In the same direction",
+      "D) At rest"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Advanced",
+    "Explanation": "Initial momentum=0. After explosion: m\u2081v\u2081+m\u2082v\u2082=0. If m\u2081=m\u2082: v\u2082=-v\u2081 (opposite direction). If masses differ, speeds differ but momenta are equal and opposite."
+  },
+  {
+    "QuestionText": "When net force on a body is doubled, acceleration:",
+    "Options": [
+      "A) Halves",
+      "B) Doubles",
+      "C) Quadruples",
+      "D) Stays same"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "F=ma. If F\u21922F and m is constant: 2F=m\u00d7a' \u2192 a'=2a. Acceleration doubles."
+  },
+  {
+    "QuestionText": "Weightlessness experienced by astronauts in orbit is because:",
+    "Options": [
+      "A) No gravity in space",
+      "B) Gravity is reduced in space",
+      "C) Both astronaut and spacecraft free-fall together",
+      "D) Moon blocks gravity"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "Astronauts in orbit are in continuous free-fall toward Earth (both they and the spacecraft fall at same rate). Normal force=0 \u2192 apparent weightlessness."
+  },
+  {
+    "QuestionText": "Friction can be reduced by:",
+    "Options": [
+      "A) Increasing surface roughness",
+      "B) Using lubricants (oil, grease)",
+      "C) Increasing normal force",
+      "D) Increasing contact area"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "Lubricants reduce friction by creating a smooth layer between surfaces. Ball bearings and polishing also reduce friction."
+  },
+  {
+    "QuestionText": "Density = Mass / ?",
+    "Options": [
+      "A) Area",
+      "B) Length",
+      "C) Volume",
+      "D) Force"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Density = mass/volume. SI unit: kg/m\u00b3. A denser material has more mass per unit volume."
+  },
+  {
+    "QuestionText": "The reading of a weighing scale in a freely falling lift = ?",
+    "Options": [
+      "A) True weight",
+      "B) Double the weight",
+      "C) Zero (weightlessness)",
+      "D) Half the weight"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "In free fall: a=g downward. Normal force N=m(g-a)=m(g-g)=0. Scale reads zero \u2192 apparent weightlessness."
+  },
+  {
+    "QuestionText": "A body of mass m moving at v has kinetic energy. If mass doubles at same velocity, momentum:",
+    "Options": [
+      "A) Stays same",
+      "B) Doubles",
+      "C) Halves",
+      "D) Quadruples"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "p=mv. If m\u21922m at same v: p=2mv. Momentum doubles."
+  },
+  {
+    "QuestionText": "The direction of friction force on a sliding block on a surface is:",
+    "Options": [
+      "A) Same as velocity",
+      "B) Perpendicular to velocity",
+      "C) Opposite to velocity",
+      "D) At 45\u00b0 to velocity"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Friction",
+    "Difficulty": "Foundation",
+    "Explanation": "Kinetic friction acts opposite to the direction of motion to oppose it."
+  },
+  {
+    "QuestionText": "Mass is a __ quantity while weight is a __ quantity.",
+    "Options": [
+      "A) Vector, Scalar",
+      "B) Scalar, Vector",
+      "C) Scalar, Scalar",
+      "D) Vector, Vector"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "Mass = scalar (magnitude only). Weight = force due to gravity = vector (has direction \u2014 downward)."
+  },
+  {
+    "QuestionText": "A 60 kg person stands in a lift moving up at 2 m/s\u00b2 (g=10). Apparent weight = ?",
+    "Options": [
+      "A) 600 N",
+      "B) 720 N",
+      "C) 480 N",
+      "D) 600 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "Apparent weight = m(g+a) = 60(10+2) = 720 N. Moving up with acceleration increases apparent weight."
+  },
+  {
+    "QuestionText": "Momentum of a 2 kg ball at 15 m/s is:",
+    "Options": [
+      "A) 7.5 kg\u00b7m/s",
+      "B) 13 kg\u00b7m/s",
+      "C) 30 kg\u00b7m/s",
+      "D) 17 kg\u00b7m/s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Momentum",
+    "Difficulty": "Foundation",
+    "Explanation": "p=mv=2\u00d715=30 kg\u00b7m/s."
+  },
+  {
+    "QuestionText": "Forces of 3N and 4N act at right angles on an object. Net force = ?",
+    "Options": [
+      "A) 1N",
+      "B) 5N",
+      "C) 7N",
+      "D) 12N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Force and Laws of Motion",
+    "SubTopic": "Newton's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "Net force (perpendicular forces): F=\u221a(3\u00b2+4\u00b2)=\u221a(9+16)=\u221a25=5N. Pythagorean theorem."
+  }
+]

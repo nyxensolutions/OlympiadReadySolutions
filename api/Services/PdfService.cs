@@ -7,119 +7,310 @@ namespace OlympiadReady.Api.Services;
 
 public class PdfService
 {
-    private const string Brand = "#2563eb";
+    private const string Brand   = "#2563eb";
     private const string Achiever = "#f59e0b";
+    private const string DarkText = "#1e293b";
+    private const string SubText  = "#64748b";
+    private const string LightBg  = "#f8fafc";
+    private const string BorderGray = "#e2e8f0";
+    private const string CorrectGreen = "#16a34a";
+    private const string WrongRed    = "#dc2626";
+
+    private readonly string? _logoPath;
+
+    public PdfService(IWebHostEnvironment env)
+    {
+        var candidate = Path.Combine(env.WebRootPath, "logo.png");
+        _logoPath = File.Exists(candidate) ? candidate : null;
+    }
 
     public byte[] GeneratePaperPdf(PdfExportRequest data)
     {
         var doc = Document.Create(c =>
         {
+            // ── Page 1-N: Questions ───────────────────────────────
             c.Page(p =>
             {
                 p.Size(PageSizes.A4);
-                p.Margin(36);
-                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(Fonts.Calibri));
+                p.Margin(40);
+                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(Fonts.Calibri).FontColor(DarkText));
 
-                p.Header().Element(BuildHeader(data));
-                p.Content().Element(BuildBody(data));
-                p.Footer().AlignCenter().Text(t =>
-                {
-                    t.Span("Olympiad Ready · ").FontSize(9).FontColor(Colors.Grey.Medium);
-                    t.CurrentPageNumber().FontSize(9);
-                    t.Span(" / ").FontSize(9);
-                    t.TotalPages().FontSize(9);
-                });
+                p.Header().Element(container => BuildHeader(container, data));
+                p.Content().Element(container => BuildBody(container, data));
+                p.Footer().Element(BuildFooter);
             });
 
+            // ── Final page: Answer Key ────────────────────────────
             c.Page(p =>
             {
                 p.Size(PageSizes.A4);
-                p.Margin(36);
-                p.DefaultTextStyle(t => t.FontSize(11));
+                p.Margin(40);
+                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(Fonts.Calibri).FontColor(DarkText));
 
-                p.Header().PaddingBottom(12).Text("Learning Key").FontSize(18).Bold().FontColor(Brand);
-                p.Content().Element(BuildAnswerKey(data));
+                p.Header().Element(container => BuildAnswerKeyHeader(container, data));
+                p.Content().Element(container => BuildAnswerKey(container, data));
+                p.Footer().Element(BuildFooter);
             });
         });
 
         return doc.GeneratePdf();
     }
 
-    private static Action<IContainer> BuildHeader(PdfExportRequest d) => container =>
-    {
-        container.PaddingBottom(12).BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingBottom(8).Row(row =>
-        {
-            row.RelativeItem().Column(col =>
-            {
-                col.Item().Text("Olympiad Ready").FontSize(16).Bold().FontColor(Brand);
-                col.Item().Text(d.Title).FontSize(11).FontColor(Colors.Grey.Darken1);
-            });
-            row.ConstantItem(180).AlignRight().Column(col =>
-            {
-                col.Item().Text($"Class {d.Grade} · {d.Subject}").SemiBold();
-                col.Item().Text($"Level: {d.Difficulty}").FontColor(Colors.Grey.Darken1).FontSize(10);
-                col.Item().Text($"Questions: {d.Questions.Count}").FontColor(Colors.Grey.Darken1).FontSize(10);
-            });
-        });
-    };
+    // ── Header ─────────────────────────────────────────────────────────────────
 
-    private static Action<IContainer> BuildBody(PdfExportRequest d) => container =>
+    private void BuildHeader(IContainer container, PdfExportRequest d)
     {
-        container.PaddingTop(12).Column(col =>
-        {
-            col.Spacing(10);
-            for (var i = 0; i < d.Questions.Count; i++)
+        container
+            .BorderBottom(2).BorderColor(Brand)
+            .PaddingBottom(10)
+            .Row(row =>
             {
-                var idx = i;
-                var q = d.Questions[i];
-                col.Item().Element(e => RenderQuestion(e, idx + 1, q));
-            }
-        });
-    };
-
-    private static void RenderQuestion(IContainer container, int number, Question q)
-    {
-        container.Column(col =>
-        {
-            col.Item().Row(r =>
-            {
-                r.AutoItem().PaddingRight(8).Text($"{number}.").Bold().FontColor(Brand);
-                r.RelativeItem().Text(q.Q);
-            });
-            col.Item().PaddingLeft(20).PaddingTop(4).Column(opts =>
-            {
-                for (var i = 0; i < q.Options.Count; i++)
+                // Logo block
+                row.ConstantItem(70).Column(col =>
                 {
-                    var letter = ((char)('A' + i)).ToString();
-                    opts.Item().Text($"({letter})  {q.Options[i]}").FontSize(10);
-                }
+                    if (_logoPath != null)
+                        col.Item().Height(64).Width(64).Image(_logoPath).FitArea();
+                    else
+                        col.Item().Height(64).Width(64)
+                           .Background(Brand).AlignCenter().AlignMiddle()
+                           .Text("OR").Bold().FontSize(18).FontColor(Colors.White);
+                });
+
+                row.ConstantItem(10);
+
+                // Title block
+                row.RelativeItem().Column(col =>
+                {
+                    col.Item().Text("OlympiadReady").FontSize(18).Bold().FontColor(Brand);
+                    col.Item().Text(d.Title).FontSize(11).FontColor(SubText).SemiBold();
+                });
+
+                // Metadata block
+                row.ConstantItem(160).AlignRight().Column(col =>
+                {
+                    col.Item().AlignRight().Text($"Class {d.Grade}  ·  {d.Subject}").SemiBold().FontSize(10);
+                    col.Item().AlignRight().Text($"Level: {d.Difficulty}").FontColor(SubText).FontSize(9);
+                    col.Item().AlignRight().Text($"{d.Questions.Count} Questions  ·  All MCQ").FontColor(SubText).FontSize(9);
+                    col.Item().AlignRight().Text($"Generated: {DateTime.Today:dd MMM yyyy}").FontColor(SubText).FontSize(8);
+                });
             });
+    }
+
+    private void BuildAnswerKeyHeader(IContainer container, PdfExportRequest d)
+    {
+        container
+            .BorderBottom(2).BorderColor(Achiever)
+            .PaddingBottom(10)
+            .Row(row =>
+            {
+                row.ConstantItem(70).Column(col =>
+                {
+                    if (_logoPath != null)
+                        col.Item().Height(64).Width(64).Image(_logoPath).FitArea();
+                    else
+                        col.Item().Height(64).Width(64)
+                           .Background(Brand).AlignCenter().AlignMiddle()
+                           .Text("OR").Bold().FontSize(18).FontColor(Colors.White);
+                });
+
+                row.ConstantItem(10);
+
+                row.RelativeItem().Column(col =>
+                {
+                    col.Item().Text("OlympiadReady").FontSize(18).Bold().FontColor(Brand);
+                    col.Item().Text("Answer Key & Explanations").FontSize(13).SemiBold().FontColor(Achiever);
+                });
+
+                row.ConstantItem(160).AlignRight().Column(col =>
+                {
+                    col.Item().AlignRight().Text($"Class {d.Grade}  ·  {d.Subject}").SemiBold().FontSize(10);
+                    col.Item().AlignRight().Text($"Level: {d.Difficulty}").FontColor(SubText).FontSize(9);
+                });
+            });
+    }
+
+    // ── Footer ─────────────────────────────────────────────────────────────────
+
+    private static void BuildFooter(IContainer container)
+    {
+        container
+            .BorderTop(1).BorderColor(BorderGray)
+            .PaddingTop(6)
+            .Row(row =>
+            {
+                row.RelativeItem().Text(t =>
+                {
+                    t.Span("www.olympiadready.com").FontSize(8).FontColor(SubText);
+                    t.Span("  ·  © ").FontSize(8).FontColor(SubText);
+                    t.Span($"{DateTime.Today.Year} OlympiadReady. All rights reserved.").FontSize(8).FontColor(SubText);
+                });
+                row.ConstantItem(80).AlignRight().Text(t =>
+                {
+                    t.Span("Page ").FontSize(8).FontColor(SubText);
+                    t.CurrentPageNumber().FontSize(8).FontColor(SubText);
+                    t.Span(" of ").FontSize(8).FontColor(SubText);
+                    t.TotalPages().FontSize(8).FontColor(SubText);
+                });
+            });
+    }
+
+    // ── Questions body ─────────────────────────────────────────────────────────
+
+    private static void BuildBody(IContainer container, PdfExportRequest d)
+    {
+        container.PaddingTop(16).Column(col =>
+        {
+            col.Spacing(14);
+
+            // Instructions box
+            col.Item()
+               .Background(LightBg)
+               .Border(1).BorderColor(BorderGray)
+               .Padding(10)
+               .Text(t =>
+               {
+                   t.Span("Instructions: ").Bold().FontSize(9);
+                   t.Span("Each question has one correct answer. Circle the letter of your choice. No negative marking unless specified.").FontSize(9).FontColor(SubText);
+               });
+
+            for (var i = 0; i < d.Questions.Count; i++)
+                col.Item().Element(e => RenderQuestion(e, i + 1, d.Questions[i]));
         });
     }
 
-    private static Action<IContainer> BuildAnswerKey(PdfExportRequest d) => container =>
+    private static void RenderQuestion(IContainer container, int number, Question q)
     {
-        container.Column(col =>
+        container
+            .Border(1).BorderColor(BorderGray)
+            .Background(Colors.White)
+            .Padding(10)
+            .Column(col =>
+            {
+                // Question text
+                col.Item().Row(r =>
+                {
+                    r.ConstantItem(22).Text($"Q{number}.").Bold().FontColor(Brand).FontSize(11);
+                    r.RelativeItem().Text(q.Q).FontSize(11);
+                });
+
+                // Options grid (2 columns)
+                col.Item().PaddingTop(6).PaddingLeft(22).Row(row =>
+                {
+                    row.RelativeItem().Column(optCol =>
+                    {
+                        for (var i = 0; i < q.Options.Count; i += 2)
+                        {
+                            var letter = (char)('A' + i);
+                            optCol.Item().Text($"({letter})  {q.Options[i]}").FontSize(10).FontColor(SubText);
+                        }
+                    });
+                    row.RelativeItem().Column(optCol =>
+                    {
+                        for (var i = 1; i < q.Options.Count; i += 2)
+                        {
+                            var letter = (char)('A' + i);
+                            optCol.Item().Text($"({letter})  {q.Options[i]}").FontSize(10).FontColor(SubText);
+                        }
+                    });
+                });
+            });
+    }
+
+    // ── Answer Key body ────────────────────────────────────────────────────────
+
+    private static void BuildAnswerKey(IContainer container, PdfExportRequest d)
+    {
+        container.PaddingTop(16).Column(col =>
         {
-            col.Spacing(8);
+            col.Spacing(10);
+
+            // Quick answer grid first
+            col.Item().Column(grid =>
+            {
+                grid.Item()
+                    .Background(Brand).Padding(8)
+                    .Text("Quick Answer Reference").Bold().FontSize(11).FontColor(Colors.White);
+
+                grid.Item()
+                    .Border(1).BorderColor(BorderGray)
+                    .Padding(8)
+                    .Column(gc =>
+                    {
+                        var rows = (int)Math.Ceiling(d.Questions.Count / 5.0);
+                        for (var r = 0; r < rows; r++)
+                        {
+                            var rowIdx = r;
+                            gc.Item().Row(row =>
+                            {
+                                for (var c = 0; c < 5; c++)
+                                {
+                                    var idx = rowIdx * 5 + c;
+                                    if (idx >= d.Questions.Count) break;
+                                    var q = d.Questions[idx];
+                                    var ansIdx = q.Options.IndexOf(q.Answer);
+                                    var letter = ansIdx >= 0 ? ((char)('A' + ansIdx)).ToString() : "?";
+                                    var colIdx = c;
+                                    row.RelativeItem().Text(t =>
+                                    {
+                                        t.Span($"Q{idx + 1}: ").FontSize(9).FontColor(SubText);
+                                        t.Span(letter).Bold().FontSize(9).FontColor(CorrectGreen);
+                                        if (colIdx < 4) t.Span("   ").FontSize(9);
+                                    });
+                                }
+                            });
+                        }
+                    });
+            });
+
+            // Detailed explanations
+            col.Item()
+               .Background(Achiever).Padding(8)
+               .Text("Detailed Explanations").Bold().FontSize(11).FontColor(Colors.White);
+
             for (var i = 0; i < d.Questions.Count; i++)
             {
                 var n = i + 1;
                 var q = d.Questions[i];
-                col.Item().Background(Colors.Grey.Lighten4).Padding(8).Column(c =>
-                {
-                    c.Item().Row(r =>
-                    {
-                        r.AutoItem().PaddingRight(6).Text($"Q{n}.").Bold().FontColor(Brand);
-                        r.RelativeItem().Text(t =>
+                var ansIdx = q.Options.IndexOf(q.Answer);
+                var ansLetter = ansIdx >= 0 ? ((char)('A' + ansIdx)).ToString() : "?";
+
+                col.Item()
+                   .Border(1).BorderColor(BorderGray)
+                   .Column(c =>
+                   {
+                       // Question header bar
+                       c.Item()
+                        .Background(LightBg)
+                        .Padding(8)
+                        .Row(r =>
                         {
-                            t.Span("Answer: ").Bold();
-                            t.Span(q.Answer).FontColor(Achiever);
+                            r.ConstantItem(24).Text($"Q{n}.").Bold().FontColor(Brand);
+                            r.RelativeItem().Text(q.Q).FontSize(10);
                         });
-                    });
-                    c.Item().PaddingTop(2).Text(q.Explanation).FontSize(10).FontColor(Colors.Grey.Darken2);
-                });
+
+                       // Answer + explanation
+                       c.Item().Padding(8).Column(inner =>
+                       {
+                           inner.Item().Text(t =>
+                           {
+                               t.Span("Correct Answer: ").Bold().FontSize(10);
+                               t.Span($"({ansLetter}) {q.Answer}").FontSize(10).FontColor(CorrectGreen).Bold();
+                           });
+                           inner.Item().PaddingTop(4).Text(q.Explanation).FontSize(9.5f).FontColor(SubText);
+                       });
+                   });
             }
+
+            // Copyright footer on answer key page
+            col.Item().PaddingTop(12).Text(t =>
+            {
+                t.Span("This practice paper was generated by OlympiadReady (www.olympiadready.com). ")
+                 .FontSize(8).FontColor(SubText);
+                t.Span($"© {DateTime.Today.Year} OlympiadReady. Reproduction for personal educational use is permitted. ")
+                 .FontSize(8).FontColor(SubText);
+                t.Span("Commercial reproduction or redistribution is prohibited.")
+                 .FontSize(8).FontColor(SubText);
+            });
         });
-    };
+    }
 }

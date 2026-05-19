@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "The main idea of a passage is — ",
+        "Options":  [
+                        "A) What the passage is mostly about",
+                        "B) The first sentence",
+                        "C) The last sentence",
+                        "D) A minor detail"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Reading Comprehension",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The main idea is the central topic or message that the whole passage discusses."
+    },
+    {
+        "QuestionText":  "What does \u0027enormous\u0027 mean?",
+        "Options":  [
+                        "A) Very large",
+                        "B) Very small",
+                        "C) Very fast",
+                        "D) Very loud"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Enormous\u0027 means extremely large in size."
+    },
+    {
+        "QuestionText":  "What does \u0027ancient\u0027 mean?",
+        "Options":  [
+                        "A) Very old",
+                        "B) Very new",
+                        "C) Very fast",
+                        "D) Very small"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Ancient\u0027 describes something that is very old, often from long ago in history."
+    },
+    {
+        "QuestionText":  "What does \u0027curious\u0027 mean?",
+        "Options":  [
+                        "A) Eager to learn or know",
+                        "B) Angry",
+                        "C) Sad",
+                        "D) Tired"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Curious\u0027 means wanting to find out and learn about things."
+    },
+    {
+        "QuestionText":  "What does \u0027exhausted\u0027 mean?",
+        "Options":  [
+                        "A) Very tired",
+                        "B) Very happy",
+                        "C) Very hungry",
+                        "D) Very cold"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Exhausted\u0027 means extremely tired, having used up all energy."
+    },
+    {
+        "QuestionText":  "A dictionary is used to find — ",
+        "Options":  [
+                        "A) The meaning and spelling of words",
+                        "B) Pictures of animals",
+                        "C) Maps of countries",
+                        "D) Stories"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Reference Skills",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A dictionary lists words alphabetically with their meanings, pronunciation, and spelling."
+    },
+    {
+        "QuestionText":  "In alphabetical order, which word comes FIRST?",
+        "Options":  [
+                        "A) Apple, Ant, Arrow",
+                        "B) Arrow, Ant, Apple",
+                        "C) Apple, Arrow, Ant",
+                        "D) Ant, Arrow, Apple"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Alphabetical Order",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Both \u0027Apple\u0027 and \u0027Ant\u0027 start with \u0027Ap\u0027 and \u0027An\u0027 — \u0027An\u0027 comes before \u0027Ap\u0027, so Ant is first."
+    },
+    {
+        "QuestionText":  "What is a synonym for \u0027brave\u0027?",
+        "Options":  [
+                        "A) Courageous",
+                        "B) Cowardly",
+                        "C) Timid",
+                        "D) Afraid"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Synonyms",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Courageous\u0027 means showing courage, the same meaning as \u0027brave\u0027."
+    },
+    {
+        "QuestionText":  "What is the antonym of \u0027shallow\u0027?",
+        "Options":  [
+                        "A) Deep",
+                        "B) Wide",
+                        "C) Narrow",
+                        "D) Long"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Antonyms",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The opposite of \u0027shallow\u0027 (not deep) is \u0027deep\u0027."
+    },
+    {
+        "QuestionText":  "\u0027The sun rose above the hills.\u0027 What does \u0027rose\u0027 mean here?",
+        "Options":  [
+                        "A) Appeared/came up",
+                        "B) A flower",
+                        "C) Fell down",
+                        "D) Ran quickly"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Context Clues",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Rose\u0027 is the past tense of \u0027rise\u0027 — the sun came up above the horizon."
+    },
+    {
+        "QuestionText":  "What does the word \u0027transparent\u0027 mean?",
+        "Options":  [
+                        "A) You can see through it",
+                        "B) You cannot see through it",
+                        "C) It is very colourful",
+                        "D) It is very heavy"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A transparent object allows light to pass through so you can see what is behind it."
+    },
+    {
+        "QuestionText":  "A title of a book or passage tells you — ",
+        "Options":  [
+                        "A) What it is about (the main topic)",
+                        "B) Who wrote it",
+                        "C) How long it is",
+                        "D) The last event in the story"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Reading Skills",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Titles give the reader a clue about the main subject or theme of the text."
+    },
+    {
+        "QuestionText":  "What does \u0027predict\u0027 mean?",
+        "Options":  [
+                        "A) To say what will happen before it does",
+                        "B) To look at the past",
+                        "C) To read aloud",
+                        "D) To underline words"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Foundation",
+        "Explanation":  "To predict is to make a guess about future events based on clues or information."
+    },
+    {
+        "QuestionText":  "\u0027He was as quiet as a mouse.\u0027 This sentence tells us he was — ",
+        "Options":  [
+                        "A) Very quiet",
+                        "B) Very noisy",
+                        "C) Very small",
+                        "D) Very fast"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Figurative Language in Context",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The simile \u0027quiet as a mouse\u0027 means extremely quiet, since mice move silently."
+    },
+    {
+        "QuestionText":  "What does \u0027rapidly\u0027 mean?",
+        "Options":  [
+                        "A) Very quickly",
+                        "B) Very slowly",
+                        "C) Very loudly",
+                        "D) Very softly"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Rapidly\u0027 is an adverb meaning with great speed — very quickly."
+    },
+    {
+        "QuestionText":  "When you read to find a specific piece of information quickly, you — ",
+        "Options":  [
+                        "A) Scan the text",
+                        "B) Read every word carefully",
+                        "C) Skip the passage",
+                        "D) Read backwards"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Reading Strategies",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Scanning means moving your eyes quickly over text to locate specific words or facts."
+    },
+    {
+        "QuestionText":  "Read: \u0027Maya loved books. Every evening she would sit under the oak tree and read for hours.\u0027 What can we INFER about Maya?",
+        "Options":  [
+                        "A) She is a keen reader who enjoys reading in her free time.",
+                        "B) She dislikes sports.",
+                        "C) She has no friends.",
+                        "D) She lives in a library."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Inference",
+        "Difficulty":  "Advanced",
+        "Explanation":  "We can infer her love of reading from her daily habit of reading for hours under the tree."
+    },
+    {
+        "QuestionText":  "What does the word \u0027investigate\u0027 mean?",
+        "Options":  [
+                        "A) To examine carefully to find the truth",
+                        "B) To invite someone",
+                        "C) To run away from",
+                        "D) To build something new"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Advanced",
+        "Explanation":  "To investigate is to look into something carefully and systematically to discover facts."
+    },
+    {
+        "QuestionText":  "\u0027The athlete\u0027s performance was remarkable.\u0027 What does \u0027remarkable\u0027 mean?",
+        "Options":  [
+                        "A) Worthy of notice; impressive",
+                        "B) Ordinary",
+                        "C) Disappointing",
+                        "D) Very slow"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary in Context",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Remarkable\u0027 means striking or noteworthy — something that draws attention because it stands out."
+    },
+    {
+        "QuestionText":  "A paragraph\u0027s topic sentence usually — ",
+        "Options":  [
+                        "A) States the main idea of the paragraph",
+                        "B) Ends the paragraph",
+                        "C) Gives a specific detail",
+                        "D) Asks a question"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Paragraph Structure",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The topic sentence introduces what the paragraph will be about; it is usually the first sentence."
+    },
+    {
+        "QuestionText":  "What is the difference between fact and opinion?",
+        "Options":  [
+                        "A) A fact can be proved; an opinion is a personal belief",
+                        "B) They are the same thing",
+                        "C) A fact is always true; an opinion is always false",
+                        "D) A fact is shorter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Fact vs Opinion",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Facts are verifiable statements (\u0027The Earth orbits the Sun\u0027); opinions express personal views (\u0027Summer is the best season\u0027)."
+    },
+    {
+        "QuestionText":  "Which of these is a fact?",
+        "Options":  [
+                        "A) The Pacific Ocean is the largest ocean on Earth.",
+                        "B) Blue is the prettiest colour.",
+                        "C) Dogs are better pets than cats.",
+                        "D) Summer is more enjoyable than winter."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Fact vs Opinion",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Pacific Ocean being the largest is a provable, measurable fact; the others are opinions."
+    },
+    {
+        "QuestionText":  "\u0027After the storm, the streets were flooded.\u0027 What is the cause in this sentence?",
+        "Options":  [
+                        "A) The storm",
+                        "B) The streets",
+                        "C) Flooding",
+                        "D) After"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Cause and Effect",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The storm (cause) led to the streets being flooded (effect)."
+    },
+    {
+        "QuestionText":  "\u0027Nocturnal\u0027 animals are active at — ",
+        "Options":  [
+                        "A) Night",
+                        "B) Day",
+                        "C) Dawn only",
+                        "D) Dusk only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary in Science Context",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Nocturnal\u0027 comes from Latin \u0027nox\u0027 (night) and describes animals that are active at night."
+    },
+    {
+        "QuestionText":  "What does \u0027consequence\u0027 mean?",
+        "Options":  [
+                        "A) The result of an action",
+                        "B) The beginning of a story",
+                        "C) A type of question",
+                        "D) A comparison"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A consequence is what happens as a result of an action or event."
+    },
+    {
+        "QuestionText":  "In reading, a \u0027context clue\u0027 helps you — ",
+        "Options":  [
+                        "A) Work out the meaning of an unfamiliar word from surrounding text",
+                        "B) Find the author\u0027s name",
+                        "C) Count words",
+                        "D) Find pictures"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Reading Strategies",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Context clues are hints in the nearby words and sentences that help you understand unknown vocabulary."
+    },
+    {
+        "QuestionText":  "\u0027Despite the cold weather, the children played outside.\u0027 What does \u0027despite\u0027 mean?",
+        "Options":  [
+                        "A) Even though / in spite of",
+                        "B) Because of",
+                        "C) After",
+                        "D) Before"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary in Context",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Despite\u0027 introduces a contrast — the cold weather was a challenge, but the children played anyway."
+    },
+    {
+        "QuestionText":  "The word \u0027biodiversity\u0027 means — ",
+        "Options":  [
+                        "A) A wide variety of living things in an area",
+                        "B) One type of animal",
+                        "C) A science laboratory",
+                        "D) A garden"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Subject-Specific Vocabulary",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027Bio\u0027 (life) + \u0027diversity\u0027 (variety) = the variety of life forms in a given ecosystem."
+    },
+    {
+        "QuestionText":  "What does \u0027persevere\u0027 mean?",
+        "Options":  [
+                        "A) Keep trying despite difficulties",
+                        "B) Give up easily",
+                        "C) Run very fast",
+                        "D) Speak loudly"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Advanced",
+        "Explanation":  "To persevere is to continue working towards a goal despite obstacles or discouragement."
+    },
+    {
+        "QuestionText":  "Read: \u0027The shopkeeper frowned and crossed his arms when the customer entered.\u0027 How is the shopkeeper feeling?",
+        "Options":  [
+                        "A) Unwelcoming or suspicious",
+                        "B) Friendly and happy",
+                        "C) Sad and lonely",
+                        "D) Excited and eager"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Reading Body Language Clues",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Frowning and crossing arms are body language signals suggesting the person is defensive or unfriendly."
+    },
+    {
+        "QuestionText":  "\u0027She had a photographic memory — she could recall every page she had ever read.\u0027 What does this tell us?",
+        "Options":  [
+                        "A) She could remember things perfectly and in great detail",
+                        "B) She liked photography",
+                        "C) She read many books but forgot them",
+                        "D) She had a camera"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Figurative Language",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "\u0027Photographic memory\u0027 is a metaphor comparing her memory to a camera that records everything accurately."
+    },
+    {
+        "QuestionText":  "What is an \u0027allegory\u0027?",
+        "Options":  [
+                        "A) A story where characters represent abstract ideas like good, evil, or truth",
+                        "B) A type of poem with rhyme",
+                        "C) A word that sounds like another",
+                        "D) A question in a passage"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Literary Terms",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "In an allegory, characters and events are symbols for deeper moral, political, or philosophical concepts."
+    },
+    {
+        "QuestionText":  "Read: \u0027The scientist\u0027s hypothesis was confirmed by three independent experiments.\u0027 What does \u0027hypothesis\u0027 mean?",
+        "Options":  [
+                        "A) A proposed explanation tested by experiments",
+                        "B) A final conclusion",
+                        "C) A type of experiment",
+                        "D) A laboratory machine"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Academic Vocabulary",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A hypothesis is a testable, educated prediction or proposed explanation for an observed phenomenon."
+    },
+    {
+        "QuestionText":  "\u0027Ambiguous\u0027 means — ",
+        "Options":  [
+                        "A) Open to more than one meaning; unclear",
+                        "B) Absolutely certain",
+                        "C) Very ambitious",
+                        "D) Easily understood"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Something ambiguous can be interpreted in more than one way, causing uncertainty or confusion."
+    },
+    {
+        "QuestionText":  "In literature, \u0027foreshadowing\u0027 means — ",
+        "Options":  [
+                        "A) Hints given early in the story about what will happen later",
+                        "B) The shadow cast by a character",
+                        "C) The climax of the story",
+                        "D) A type of poem"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Literary Devices",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Foreshadowing uses clues or hints to suggest future plot events, building suspense."
+    },
+    {
+        "QuestionText":  "What does \u0027altruistic\u0027 mean?",
+        "Options":  [
+                        "A) Caring about others\u0027 wellbeing more than your own",
+                        "B) Selfish",
+                        "C) Very intelligent",
+                        "D) Very athletic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Advanced Vocabulary",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "An altruistic person acts unselfishly for the benefit of others, without expecting reward."
+    },
+    {
+        "QuestionText":  "\u0027The committee tabled the proposal.\u0027 In British English, \u0027tabled\u0027 means — ",
+        "Options":  [
+                        "A) Put forward for discussion",
+                        "B) Postponed",
+                        "C) Rejected",
+                        "D) Approved"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Vocabulary with Regional Difference",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "In British English, \u0027to table\u0027 a proposal means to bring it forward for consideration. (In American English, it means to postpone — a tricky difference!)"
+    },
+    {
+        "QuestionText":  "What is the meaning of \u0027paradox\u0027?",
+        "Options":  [
+                        "A) A statement that seems contradictory but may be true",
+                        "B) A simple fact",
+                        "C) A type of story",
+                        "D) A comparison using \u0027like\u0027"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Literary Terms",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A paradox appears to contradict itself yet contains truth: \u0027Less is more\u0027 is a famous paradox."
+    },
+    {
+        "QuestionText":  "Read this passage: \u0027The old lighthouse stood alone, its beam sweeping the dark water, guiding ships home safely. Tonight, as always, it kept its lonely vigil.\u0027 What mood does the passage create?",
+        "Options":  [
+                        "A) Lonely but purposeful",
+                        "B) Frightening and dangerous",
+                        "C) Joyful and celebratory",
+                        "D) Confusing and chaotic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Tone and Mood",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Words like \u0027alone\u0027, \u0027lonely\u0027, and \u0027vigil\u0027 create an atmosphere of solitude, yet the lighthouse purposefully guides ships — a bittersweet, dedicated mood."
+    },
+    {
+        "QuestionText":  "What does \u0027meticulous\u0027 mean?",
+        "Options":  [
+                        "A) Very careful and precise with details",
+                        "B) Careless and sloppy",
+                        "C) Very fast",
+                        "D) Extremely loud"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Advanced Vocabulary",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A meticulous person pays extremely close attention to every detail, leaving nothing to chance."
+    },
+    {
+        "QuestionText":  "The word \u0027democracy\u0027 comes from Greek \u0027demos\u0027 (people) + \u0027kratos\u0027 (rule). It means — ",
+        "Options":  [
+                        "A) Rule by the people",
+                        "B) Rule by kings",
+                        "C) Rule by the army",
+                        "D) Rule by priests"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Etymology",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Democracy is a system of government where power rests with the people (through elections)."
+    },
+    {
+        "QuestionText":  "\u0027Irony\u0027 in literature means — ",
+        "Options":  [
+                        "A) Saying or doing the opposite of what is expected to create effect",
+                        "B) Repeating the same word",
+                        "C) Describing something in great detail",
+                        "D) A happy ending"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Literary Devices",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Irony involves a contrast between expectation and reality, used for humour, emphasis, or critique."
+    },
+    {
+        "QuestionText":  "Read: \u0027He claimed he was honest, yet he told three lies before breakfast.\u0027 This is an example of — ",
+        "Options":  [
+                        "A) Dramatic irony / verbal irony",
+                        "B) Alliteration",
+                        "C) Foreshadowing",
+                        "D) Onomatopoeia"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Literary Devices",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Irony: he claims honesty but the truth (three lies) contradicts this, creating a pointed contrast."
+    },
+    {
+        "QuestionText":  "\u0027Ubiquitous\u0027 means — ",
+        "Options":  [
+                        "A) Seeming to be everywhere at once",
+                        "B) Very rare and unusual",
+                        "C) Very loud",
+                        "D) Very old"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Advanced Vocabulary",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Ubiquitous describes something found everywhere or appearing to be present everywhere at the same time."
+    },
+    {
+        "QuestionText":  "What is the difference between \u0027explicit\u0027 and \u0027implicit\u0027 information in a text?",
+        "Options":  [
+                        "A) Explicit is directly stated; implicit is suggested but not directly said",
+                        "B) Explicit is false; implicit is true",
+                        "C) They mean the same thing",
+                        "D) Explicit is longer; implicit is shorter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Reading Skills",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Explicit information is clearly written out; implicit information must be inferred from clues in the text."
+    },
+    {
+        "QuestionText":  "A reliable source of information is one that — ",
+        "Options":  [
+                        "A) Is accurate, up-to-date, and from a trustworthy author or organisation",
+                        "B) Has the most colourful pictures",
+                        "C) Is the longest",
+                        "D) Has the most difficult words"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Information Literacy",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Reliability depends on accuracy, authority, currency, and objectivity of the source."
+    },
+    {
+        "QuestionText":  "\u0027Ephemeral\u0027 means — ",
+        "Options":  [
+                        "A) Lasting only a very short time",
+                        "B) Lasting forever",
+                        "C) Very loud",
+                        "D) Very bright"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Advanced Vocabulary",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Ephemeral describes things that are fleeting or transitory — like a rainbow or a mayfly\u0027s life."
+    },
+    {
+        "QuestionText":  "A narrator who knows the thoughts and feelings of ALL characters is called — ",
+        "Options":  [
+                        "A) Omniscient (all-knowing) narrator",
+                        "B) First-person narrator",
+                        "C) Third-person limited narrator",
+                        "D) Unreliable narrator"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Narration",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "An omniscient narrator has complete knowledge of all characters\u0027 inner lives and the full story world."
+    },
+    {
+        "QuestionText":  "\u0027Poignant\u0027 describes something that — ",
+        "Options":  [
+                        "A) Evokes a keen sense of sadness or regret",
+                        "B) Is extremely funny",
+                        "C) Is very complicated",
+                        "D) Is physically sharp"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Advanced Vocabulary",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Poignant describes an emotion that is deeply moving, often tinged with sadness or bittersweet nostalgia."
+    },
+    {
+        "QuestionText":  "When evaluating an argument, a \u0027counterargument\u0027 is — ",
+        "Options":  [
+                        "A) A point that opposes the main argument",
+                        "B) Evidence that supports the claim",
+                        "C) A restatement of the main idea",
+                        "D) A type of paragraph"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Reading and Vocabulary",
+        "SubTopic":  "Argumentation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A counterargument challenges or opposes the main argument; acknowledging and rebutting it strengthens your case."
+    }
+]

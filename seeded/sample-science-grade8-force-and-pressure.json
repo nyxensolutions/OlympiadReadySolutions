@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Force is defined as:",
+    "Options": [
+      "A) Energy stored in an object",
+      "B) A push or pull that changes or tends to change the state of an object",
+      "C) The speed of a moving object",
+      "D) The weight of an object"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Foundation",
+    "Explanation": "Force is a push or pull that can change an object's state of rest or motion, change its speed, change its direction, or change its shape. Force is a vector quantity \u2014 it has both magnitude and direction. SI unit of force is the Newton (N)."
+  },
+  {
+    "QuestionText": "What is pressure?",
+    "Options": [
+      "A) Force applied to an object",
+      "B) Force per unit area",
+      "C) Weight of a liquid column",
+      "D) Energy per unit volume"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Pressure = Force / Area (P = F/A). SI unit is Pascal (Pa) = N/m\u00b2. The same force applied over a smaller area produces greater pressure. This is why a sharp knife (small area) cuts better than a blunt one, and why snowshoes (large area) prevent sinking into snow."
+  },
+  {
+    "QuestionText": "A dam has broad walls at the base because:",
+    "Options": [
+      "A) It looks more stable architecturally",
+      "B) Water pressure increases with depth \u2014 wider base withstands greater pressure",
+      "C) Broad base reduces cost of construction",
+      "D) Base must be broad to hold the weight of the structure above"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Liquid pressure increases with depth: P = \u03c1gh (density \u00d7 gravity \u00d7 height). At the base of a dam, water pressure is greatest. The broad base increases the area over which this pressure acts, reducing the force per unit area on the dam's foundations and increasing structural stability. Dams are always broader at the bottom than at the top."
+  },
+  {
+    "QuestionText": "Atmospheric pressure at sea level is approximately:",
+    "Options": [
+      "A) 100 Pa",
+      "B) 1000 Pa",
+      "C) 101,325 Pa",
+      "D) 1,000,000 Pa"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard atmospheric pressure at sea level is 101,325 Pa (approximately 1 atm or 1 bar). This means a column of air from sea level to the top of the atmosphere exerts a force of about 101,325 N per square metre on surfaces. We don't feel this pressure because it acts equally in all directions, and our bodies' internal pressure balances it."
+  },
+  {
+    "QuestionText": "A sharp needle can pierce skin easily but a blunt pin cannot with the same force. Why?",
+    "Options": [
+      "A) Sharp needle has more mass",
+      "B) Sharp needle has smaller tip area \u2014 same force over smaller area creates greater pressure",
+      "C) Blunt pin has less force behind it",
+      "D) Sharp needle is harder and therefore stronger"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Pressure = Force/Area. The needle tip has an extremely small area, so even a moderate force creates very high pressure that exceeds skin's resistance. The blunt pin's larger area distributes the same force, creating lower pressure insufficient to pierce skin. This principle is used in syringes, pins, surgical needles, and cutting tools."
+  },
+  {
+    "QuestionText": "Which of the following is an example of a contact force?",
+    "Options": [
+      "A) Gravity",
+      "B) Magnetic force",
+      "C) Friction",
+      "D) Electrostatic force"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Foundation",
+    "Explanation": "Contact forces require physical contact between objects: friction, normal reaction, tension, spring force, air resistance. Non-contact forces act at a distance without physical contact: gravity (gravitational force), magnetic force, electrostatic force. Friction only exists when surfaces touch and move relative to each other."
+  },
+  {
+    "QuestionText": "Buoyant force (upthrust) acts on an object submerged in a fluid because:",
+    "Options": [
+      "A) The fluid above pushes down on the object",
+      "B) Pressure below the object is greater than pressure above, creating an upward net force",
+      "C) The object repels the fluid electromagnetically",
+      "D) Gravity acts upward on the fluid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Liquid pressure increases with depth (P = \u03c1gh). An object submerged in liquid: pressure on the bottom face (greater depth) > pressure on the top face (lesser depth). This difference creates a net upward force \u2014 buoyant force (Archimedes' principle). If buoyant force \u2265 object's weight, the object floats."
+  },
+  {
+    "QuestionText": "Archimedes' principle states:",
+    "Options": [
+      "A) Every action has an equal and opposite reaction",
+      "B) Upthrust equals the weight of fluid displaced by the object",
+      "C) Pressure in a fluid acts equally in all directions",
+      "D) Force equals mass times acceleration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Archimedes' principle: the upward buoyant force on a body submerged in a fluid equals the weight of the fluid displaced by the body. If the object is less dense than the fluid, the displaced fluid's weight exceeds the object's weight \u2014 the object floats. If denser, the object sinks. Used to design ships, submarines, and to determine density of irregular objects."
+  },
+  {
+    "QuestionText": "Pressure in a liquid depends on:",
+    "Options": [
+      "A) Only the density of the liquid",
+      "B) The depth and density of the liquid (P = \u03c1gh)",
+      "C) The volume of the liquid only",
+      "D) The shape of the container"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Liquid pressure: P = \u03c1gh where \u03c1 = density of liquid, g = gravitational acceleration, h = depth below surface. Pressure increases with depth (h) and is greater in denser liquids (\u03c1). Shape of container does NOT affect pressure at a given depth (Pascal's principle \u2014 pressure is transmitted equally in all directions). A thin tall container and a wide short one both have the same pressure at the same depth if filled with the same liquid."
+  },
+  {
+    "QuestionText": "Why do mountaineers carry oxygen cylinders at high altitudes?",
+    "Options": [
+      "A) Oxygen concentration decreases with altitude but pressure of available oxygen also drops",
+      "B) Oxygen is absent above 5000 m altitude",
+      "C) Cold temperatures at altitude destroy oxygen molecules",
+      "D) Mountaineers burn more oxygen due to extreme exercise only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "At high altitudes, atmospheric pressure decreases (P = \u03c1gh \u2014 less air column above). Lower pressure means fewer oxygen molecules per litre of air (same 21% composition but lower density). The partial pressure of oxygen drops, making inhalation provide less O\u2082 per breath. This causes altitude sickness. Oxygen cylinders provide concentrated O\u2082 at higher pressure, compensating for the low ambient oxygen."
+  },
+  {
+    "QuestionText": "A submarine dives deep into the ocean. What happens to water pressure on its hull?",
+    "Options": [
+      "A) Pressure decreases as submarine moves deeper",
+      "B) Pressure increases with depth",
+      "C) Pressure remains constant throughout water",
+      "D) Pressure depends only on the submarine's speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Water pressure increases with depth: P = \u03c1gh. Seawater density ~1025 kg/m\u00b3; at 1 km depth: P = 1025 \u00d7 10 \u00d7 1000 \u2248 10.25 MPa (about 100 atmospheres). Submarines must be constructed with thick, reinforced pressure hulls to withstand these enormous crushing pressures. At the deepest ocean point (Mariana Trench, ~11 km), pressure exceeds 1000 atmospheres."
+  },
+  {
+    "QuestionText": "The hydraulic brake system in cars works on which principle?",
+    "Options": [
+      "A) Archimedes' principle",
+      "B) Pascal's principle \u2014 pressure applied to enclosed fluid is transmitted equally in all directions",
+      "C) Newton's third law only",
+      "D) Bernoulli's principle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Pascal's principle: pressure applied to a confined fluid is transmitted undiminished in all directions. In hydraulic brakes: pressing the brake pedal applies pressure to brake fluid which is transmitted through tubes to brake pads at all four wheels simultaneously with equal pressure. Hydraulic systems can also amplify force \u2014 small force on small piston creates large force on large piston (same pressure, larger area)."
+  },
+  {
+    "QuestionText": "A wooden block is pushed along a table. Which forces act on it?",
+    "Options": [
+      "A) Only applied force in direction of motion",
+      "B) Applied force, friction (opposing motion), normal reaction (upward), and gravity (downward)",
+      "C) Only gravity and normal reaction",
+      "D) Applied force and gravity only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Advanced",
+    "Explanation": "Forces on the sliding block: Applied force (horizontal, direction of motion), Friction (horizontal, opposing motion), Normal reaction/Normal force (perpendicular to surface, upward \u2014 from surface on block), Weight/Gravity (downward). These four forces act simultaneously. If applied force = friction, the block moves at constant velocity (net force = 0). If applied > friction, block accelerates."
+  },
+  {
+    "QuestionText": "If you apply 10 N force on an area of 2 m\u00b2, and then the same force on 0.5 m\u00b2, the ratio of pressures is:",
+    "Options": [
+      "A) 1:1",
+      "B) 1:4",
+      "C) 4:1",
+      "D) 2:0.5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "P\u2081 = 10/2 = 5 Pa; P\u2082 = 10/0.5 = 20 Pa. Ratio P\u2081:P\u2082 = 5:20 = 1:4. When the same force is applied over a smaller area, pressure is inversely proportional to area. Halving the area doubles the pressure; quartering the area (2 m\u00b2 \u2192 0.5 m\u00b2, factor of 4) quadruples the pressure."
+  },
+  {
+    "QuestionText": "Which of the following is a non-contact force?",
+    "Options": [
+      "A) Tension in a rope",
+      "B) Normal reaction",
+      "C) Gravitational force",
+      "D) Friction"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravitational force acts between masses even without contact across any distance \u2014 Earth pulls the Moon, the Sun pulls Earth, without direct contact. Similarly, magnetic and electrostatic forces act at a distance. Tension, normal reaction, and friction all require physical contact between objects."
+  },
+  {
+    "QuestionText": "What is meant by 'force of gravity' on Earth?",
+    "Options": [
+      "A) The upward force that prevents objects from flying off Earth",
+      "B) The attractive force Earth exerts on all objects, pulling them toward Earth's centre",
+      "C) The force of Earth's rotation on objects",
+      "D) The electromagnetic force between Earth and objects"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravity is the attractive force that Earth exerts on all objects with mass, directed toward Earth's centre. This force gives objects weight (W = mg, where g \u2248 10 m/s\u00b2 on Earth's surface). It keeps us on the ground, makes objects fall, and keeps the Moon in orbit around Earth. Every mass attracts every other mass \u2014 this is Newton's Universal Law of Gravitation."
+  },
+  {
+    "QuestionText": "A force is applied perpendicular to a flat surface. The force is 50 N and the area is 5 m\u00b2. What is the pressure?",
+    "Options": [
+      "A) 250 Pa",
+      "B) 55 Pa",
+      "C) 10 Pa",
+      "D) 45 Pa"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "P = F/A = 50 N \u00f7 5 m\u00b2 = 10 Pa. The pressure is 10 Pascals (10 N/m\u00b2). Remember: pressure is the force distributed over the area \u2014 the greater the area, the lower the pressure for the same force applied."
+  },
+  {
+    "QuestionText": "Assertion: Atmospheric pressure decreases with altitude. Reason: At higher altitudes, the column of air above is shorter and less dense. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Assertion TRUE: atmospheric pressure decreases with altitude (e.g., at 5,500 m altitude, pressure is ~50% of sea level). Reason TRUE and correctly explains: atmospheric pressure is caused by the weight of the air column above a point. At higher altitudes, the column above is shorter and the air is less dense (fewer molecules per unit volume) \u2014 so the weight (and pressure) of the air above is less."
+  },
+  {
+    "QuestionText": "A steel ship floats but a small steel nail sinks. Why?",
+    "Options": [
+      "A) Ship has more mass and floats by mass",
+      "B) Ship is hollow \u2014 its average density is less than water; nail is solid with density greater than water",
+      "C) Ship is coated with a special material that repels water",
+      "D) Ship uses engines to stay afloat"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "A ship is hollow \u2014 it encloses a large volume of air. Its average density (total mass \u00f7 total volume including air) is much less than water (avg ~0.1-0.3 g/cm\u00b3 vs. water 1.0 g/cm\u00b3). By Archimedes' principle, it displaces water equal to its weight and floats. A solid steel nail (density ~7.8 g/cm\u00b3) is much denser than water \u2014 it displaces less water than its own weight and sinks."
+  },
+  {
+    "QuestionText": "In which of the following situations is pressure greatest?",
+    "Options": [
+      "A) Elephant standing on flat feet (large area)",
+      "B) Stiletto heel shoe (very small area)",
+      "C) A man standing flat-footed",
+      "D) A car with four wide tyres"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Pressure = Force/Area. Stiletto heels have an extremely small heel area (~1 cm\u00b2 per heel). The woman's weight distributed over this tiny area creates extremely high pressure \u2014 often greater than an elephant's foot pressure despite the elephant's much greater weight. An elephant's foot distributes weight over ~1500 cm\u00b2; a stiletto heel concentrates it into ~1 cm\u00b2."
+  },
+  {
+    "QuestionText": "Which statement about pressure in connected liquids is correct?",
+    "Options": [
+      "A) Pressure at a given depth depends on the shape of the container",
+      "B) Pressure at the same depth is equal throughout a connected liquid at rest",
+      "C) Pressure is greater in narrow containers than wide ones",
+      "D) Pressure decreases with depth in liquids"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "In a connected liquid at rest (hydrostatic equilibrium), pressure at any given depth is the same regardless of the shape, size, or cross-section of the container \u2014 only depth matters. This is why liquid in connected containers (like a U-tube) seeks the same level, and why hydraulic systems transmit pressure uniformly. This is Pascal's principle in action."
+  },
+  {
+    "QuestionText": "The suction cup sticks to a wall because:",
+    "Options": [
+      "A) Suction cups produce a magnetic force",
+      "B) Pressing the cup removes air \u2014 atmospheric pressure outside pushes the cup against the wall",
+      "C) Special adhesive in the cup bonds to the surface",
+      "D) The cup produces its own suction force"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "When a suction cup is pressed against a smooth surface, the flexible cup deforms and expels the air underneath, creating a partial vacuum (low pressure region). Atmospheric pressure outside the cup (~101,325 Pa) pushes the cup against the surface, holding it in place. The force holding it = atmospheric pressure \u00d7 cup area. If air leaks in, the pressure difference reduces and the cup falls."
+  },
+  {
+    "QuestionText": "Two blocks A and B have the same weight. Block A has a base area of 10 cm\u00b2 and Block B has 2 cm\u00b2. Which exerts more pressure on the floor?",
+    "Options": [
+      "A) Block A",
+      "B) Block B",
+      "C) Both equal \u2014 same weight",
+      "D) Cannot be determined without density"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "P = F/A. Same force (weight) but Block B has smaller area (2 cm\u00b2 vs 10 cm\u00b2). P_B = W/2 vs P_A = W/10. P_B is 5 times P_A. Block B exerts 5 times greater pressure despite the same weight, because its weight is concentrated over a much smaller area."
+  },
+  {
+    "QuestionText": "Camels have broad flat feet. How does this help them walk on sand?",
+    "Options": [
+      "A) Broad feet create more friction preventing slipping",
+      "B) Broad feet reduce pressure on sand, preventing them from sinking",
+      "C) Broad feet store water for desert survival",
+      "D) Broad feet keep them warmer in cold desert nights"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Camel's broad padded feet distribute their body weight over a large area, reducing pressure on the sand surface. Less pressure means less sinking into soft sand. Similarly, snowshoes, ski poles with baskets, and the broad blades of snowploughs all use increased area to reduce pressure and prevent sinking into soft surfaces."
+  },
+  {
+    "QuestionText": "What would happen to water pressure at the base of a container if the container is tilted?",
+    "Options": [
+      "A) Pressure increases as container tilts",
+      "B) Pressure decreases as the effective depth decreases",
+      "C) Pressure remains the same \u2014 only depth below surface matters",
+      "D) Pressure depends on the angle of tilt only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Liquid pressure depends on VERTICAL depth (h in P = \u03c1gh) \u2014 not the path the liquid takes or the angle of the container. When a container tilts, the water level adjusts and the vertical depth at the base changes. If the vertical depth decreases (as base rises), pressure at the base decreases. If water level and vertical depth to the base remain constant, pressure is unchanged. The key insight is that only vertical depth matters, not the tilt angle per se."
+  },
+  {
+    "QuestionText": "Which of the following correctly explains why mercury barometers use mercury rather than water?",
+    "Options": [
+      "A) Mercury is more readily available than water",
+      "B) Mercury is much denser \u2014 atmosphere supports only ~76 cm of mercury but ~10.3 metres of water",
+      "C) Water evaporates from the barometer tube",
+      "D) Mercury is transparent making readings easier"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Atmospheric pressure can support a column of any liquid \u2014 the height depends on the liquid's density. Mercury (density 13,600 kg/m\u00b3) produces a manageable column of ~760 mm (76 cm). Water (density 1000 kg/m\u00b3) would require a column of ~10.3 metres \u2014 too tall to be practical as a barometer. Mercury's high density allows a compact instrument. (Note: mercury vapour is toxic, so aneroid barometers are safer alternatives now.)"
+  },
+  {
+    "QuestionText": "A hydraulic lift uses a small piston of area 10 cm\u00b2 and a large piston of area 200 cm\u00b2. If 500 N is applied on the small piston, what is the force on the large piston?",
+    "Options": [
+      "A) 500 N",
+      "B) 1000 N",
+      "C) 10000 N",
+      "D) 25 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pascal's principle: pressure is transmitted equally. P = F\u2081/A\u2081 = F\u2082/A\u2082. So F\u2082 = F\u2081 \u00d7 (A\u2082/A\u2081) = 500 \u00d7 (200/10) = 500 \u00d7 20 = 10,000 N. The hydraulic system amplifies force by the ratio of piston areas. This is how car lifts, hydraulic jacks, and heavy machinery achieve force multiplication."
+  },
+  {
+    "QuestionText": "Pressure of 20 Pa acts on an area of 4 m\u00b2. What is the force exerted?",
+    "Options": [
+      "A) 5 N",
+      "B) 24 N",
+      "C) 80 N",
+      "D) 16 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "F = P \u00d7 A = 20 Pa \u00d7 4 m\u00b2 = 80 N. This is a rearrangement of P = F/A. Knowing any two of pressure, force, and area allows calculation of the third."
+  },
+  {
+    "QuestionText": "Why does a balloon expand when you blow air into it?",
+    "Options": [
+      "A) Air cools and contracts pulling the balloon outward",
+      "B) Air pressure inside the balloon increases, pushing outward on the elastic rubber",
+      "C) Air is lighter than outside air causing it to rise and expand",
+      "D) Gravity pulls the balloon downward stretching it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "When air is blown into a balloon, more air molecules are added inside. These molecules collide with the balloon walls more frequently, increasing the internal air pressure. This increased pressure pushes outward on the elastic rubber walls, causing expansion. The balloon stops expanding when the elastic tension of the rubber balances the excess internal pressure."
+  },
+  {
+    "QuestionText": "Force and pressure \u2014 which statement is CORRECT?",
+    "Options": [
+      "A) Force and pressure are the same thing",
+      "B) Large force always means large pressure",
+      "C) Pressure depends on both force and area",
+      "D) Pressure is always larger than force numerically"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Pressure = Force/Area. Large force over large area can produce small pressure (elephant on flat ground). Small force over tiny area can produce large pressure (needle tip). Pressure depends on BOTH force AND area \u2014 you cannot determine pressure from force alone without knowing area. Force and pressure are different quantities with different units (N vs Pa)."
+  },
+  {
+    "QuestionText": "The instrument used to measure atmospheric pressure is:",
+    "Options": [
+      "A) Thermometer",
+      "B) Barometer",
+      "C) Manometer",
+      "D) Hydrometer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "A barometer measures atmospheric pressure. Types: mercury barometer (Torricelli's barometer, 1643 \u2014 mercury column in evacuated tube) and aneroid barometer (mechanical device with a flexible metal capsule that expands/contracts with pressure changes). Thermometer measures temperature; manometer measures gas/liquid pressure differences; hydrometer measures liquid density."
+  },
+  {
+    "QuestionText": "Statement 1: Pressure acts in all directions in a liquid at rest. Statement 2: A fish at a depth of 10 m experiences water pressure from all sides \u2014 above, below, and sideways equally at that depth. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1 TRUE: in a fluid at rest, pressure at any point is equal in all directions (isotropic) \u2014 Pascal's principle. Statement 2 TRUE: a fish at 10 m depth experiences pressure of \u03c1gh from all directions simultaneously. Total pressure from above, below, left, right, front, and back is equal (~101 kPa from atmosphere + \u03c1gh from water column) at that depth."
+  },
+  {
+    "QuestionText": "What is the SI unit of pressure?",
+    "Options": [
+      "A) Newton",
+      "B) Joule",
+      "C) Pascal",
+      "D) Bar"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "The SI unit of pressure is the Pascal (Pa), named after Blaise Pascal. 1 Pa = 1 N/m\u00b2 (one Newton of force per square metre of area). Other common units: kPa (kilopascal = 1000 Pa), MPa (megapascal), bar (\u2248 100,000 Pa), atm (atmosphere \u2248 101,325 Pa). Blood pressure is often measured in mmHg (millimetres of mercury)."
+  },
+  {
+    "QuestionText": "A student pushes a drawing pin into a notice board with 10 N force. The pin tip area is 0.001 cm\u00b2. Calculate the pressure at the pin tip.",
+    "Options": [
+      "A) 10 Pa",
+      "B) 100,000 Pa",
+      "C) 1,000,000,000 Pa",
+      "D) 1000 Pa"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Convert area: 0.001 cm\u00b2 = 0.001 \u00d7 10\u207b\u2074 m\u00b2 = 10\u207b\u2077 m\u00b2. P = F/A = 10 N \u00f7 10\u207b\u2077 m\u00b2 = 10\u2078 Pa = 100,000,000 Pa = 10\u2078 Pa \u2248 1 billion Pa. This immense pressure is why the pin easily penetrates cork or wood \u2014 extremely concentrated force creates pressure exceeding the compressive strength of these materials."
+  },
+  {
+    "QuestionText": "Torricelli's experiment proved the existence of:",
+    "Options": [
+      "A) Liquid pressure",
+      "B) Atmospheric pressure",
+      "C) Magnetic force",
+      "D) Surface tension"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Evangelista Torricelli (1643) filled a glass tube (closed at one end) with mercury, inverted it in a dish of mercury. The mercury column did not fall completely \u2014 it stabilised at ~760 mm above the dish. The empty space above was a vacuum. Torricelli concluded that atmospheric pressure on the mercury in the dish supported the column \u2014 directly proving atmospheric pressure exists and can be measured."
+  },
+  {
+    "QuestionText": "Which of the following explains how a drinking straw works?",
+    "Options": [
+      "A) The mouth creates a suction force that pulls liquid",
+      "B) Atmospheric pressure pushes liquid up the straw when mouth pressure is reduced by sucking",
+      "C) Capillary action draws liquid through the narrow tube",
+      "D) Gravity pulls liquid upward through the straw"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "When you suck on a straw, you reduce air pressure inside the straw and mouth (creating partial vacuum). Atmospheric pressure (outside the glass, acting on the liquid surface) is now greater than the pressure at the straw's top \u2014 this pressure difference pushes the liquid UP the straw into your mouth. You are not 'sucking' liquid; atmospheric pressure is pushing it up."
+  },
+  {
+    "QuestionText": "Why does a nail driven into wood stay in place?",
+    "Options": [
+      "A) Magnetic attraction between nail and wood",
+      "B) Friction between nail surface and wood fibres holds it in place",
+      "C) Nail creates chemical bonds with wood",
+      "D) Wood pressure from above holds the nail"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Foundation",
+    "Explanation": "When a nail is hammered into wood, it compresses and displaces wood fibres. These fibres exert strong frictional forces on the nail's surface from all sides, gripping it firmly. Pulling the nail out requires overcoming this friction. Rough, ridged nails (like ring-shank nails) grip better than smooth ones by increasing interlocking between nail surface and wood fibres."
+  },
+  {
+    "QuestionText": "At great ocean depths, pressure can crush metal spheres. Which property of water causes this?",
+    "Options": [
+      "A) High temperature at depth",
+      "B) High density of seawater increases pressure greatly with depth",
+      "C) Water at depth is frozen and ice is stronger than metal",
+      "D) Ocean currents at depth exert enormous forces"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "P = \u03c1gh. Seawater density (~1025 kg/m\u00b3) \u00d7 g (10 m/s\u00b2) \u00d7 h (depth). At 10,000 m (Mariana Trench): P = 1025 \u00d7 10 \u00d7 10,000 \u2248 102.5 MPa \u2248 1000 atm. This pressure of ~1000 times atmospheric pressure can crush unprotected metal vessels. Deep-sea submersibles like the Trieste (which visited the Mariana Trench in 1960) have walls 13-15 cm thick to withstand this crushing pressure."
+  },
+  {
+    "QuestionText": "What is the relationship between the pressure in a gas and its volume, at constant temperature?",
+    "Options": [
+      "A) Pressure increases as volume increases",
+      "B) Pressure decreases as volume decreases",
+      "C) Pressure increases as volume decreases (inversely proportional)",
+      "D) Pressure and volume are unrelated"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Boyle's Law: at constant temperature, gas pressure \u00d7 volume = constant (PV = k, or P\u2081V\u2081 = P\u2082V\u2082). If volume decreases, pressure increases proportionally (inverse relationship). Squeezing a gas into half its volume doubles its pressure. This explains how bicycle pumps work, why aerosol cans must not be punctured, and how breathing works (diaphragm increases lung volume to reduce pressure, drawing air in)."
+  },
+  {
+    "QuestionText": "Which of the following forces ALWAYS opposes the relative motion between surfaces?",
+    "Options": [
+      "A) Normal force",
+      "B) Gravity",
+      "C) Friction",
+      "D) Buoyancy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Foundation",
+    "Explanation": "Friction always acts in the direction opposite to the actual or attempted relative motion between surfaces in contact. If an object moves right, friction acts left. If you try to push an object right (but it doesn't move), static friction acts left. This opposing nature of friction is what makes it resist motion and cause energy dissipation as heat."
+  },
+  {
+    "QuestionText": "A force of 200 N is applied over an area of 0.04 m\u00b2. What is the pressure?",
+    "Options": [
+      "A) 8 Pa",
+      "B) 5000 Pa",
+      "C) 8000 Pa",
+      "D) 200.04 Pa"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "P = F/A = 200 N \u00f7 0.04 m\u00b2 = 5000 Pa. This is a straightforward application of the pressure formula. Always check units \u2014 force in Newtons, area in m\u00b2, gives pressure in Pascals (Pa)."
+  },
+  {
+    "QuestionText": "A gas is compressed to half its original volume. If its original pressure was 100 kPa, what is the new pressure (temperature constant)?",
+    "Options": [
+      "A) 50 kPa",
+      "B) 100 kPa",
+      "C) 200 kPa",
+      "D) 400 kPa"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Boyle's Law: P\u2081V\u2081 = P\u2082V\u2082. V\u2082 = V\u2081/2 (half original volume). 100 \u00d7 V\u2081 = P\u2082 \u00d7 V\u2081/2. P\u2082 = 100 \u00d7 2 = 200 kPa. Halving the volume doubles the pressure. The same number of gas molecules now occupy half the space \u2014 they collide with the walls twice as often, doubling pressure."
+  },
+  {
+    "QuestionText": "When you squeeze a full plastic water bottle, water squirts out from a hole. This demonstrates:",
+    "Options": [
+      "A) Atmospheric pressure",
+      "B) Pascal's principle \u2014 applied pressure transmitted through liquid",
+      "C) Archimedes' principle",
+      "D) Surface tension"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Squeezing the bottle applies pressure to the enclosed liquid. By Pascal's principle, this applied pressure is transmitted undiminished through the liquid in all directions \u2014 including toward the hole, where the pressure difference between inside and outside pushes water out. The liquid transmits the applied pressure rather than absorbing it, demonstrating Pascal's principle."
+  },
+  {
+    "QuestionText": "What force keeps satellites in orbit around Earth?",
+    "Options": [
+      "A) Magnetic force from Earth",
+      "B) Gravitational force from Earth pulling the satellite inward",
+      "C) Atmospheric drag pushing the satellite forward",
+      "D) Solar wind pressure from the Sun"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Force",
+    "Difficulty": "Advanced",
+    "Explanation": "A satellite in circular orbit is continuously 'falling' toward Earth due to gravity \u2014 but its horizontal velocity is so great that as it falls, Earth's curved surface curves away at the same rate. Gravity provides the centripetal force keeping the satellite in circular orbit. Without gravity, the satellite would fly off in a straight line; without velocity, it would fall straight down. Orbital speed at 400 km altitude is ~7.7 km/s."
+  },
+  {
+    "QuestionText": "Statement 1: Pressure at the bottom of two containers \u2014 one filled with water to 1 m and one with mercury to 1 m \u2014 is different. Statement 2: Liquid pressure depends on density. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 TRUE: P_water = \u03c1_water \u00d7 g \u00d7 h = 1000 \u00d7 10 \u00d7 1 = 10,000 Pa; P_mercury = \u03c1_Hg \u00d7 g \u00d7 h = 13,600 \u00d7 10 \u00d7 1 = 136,000 Pa. Mercury column gives 13.6\u00d7 greater pressure than water at same depth. Statement 2 TRUE: P = \u03c1gh \u2014 density directly affects pressure. Both statements are correct and consistent with each other."
+  },
+  {
+    "QuestionText": "In which of the following situations is pressure used advantageously in everyday life?",
+    "Options": [
+      "A) Wide tyres reduce pressure on road surface for off-road vehicles",
+      "B) Scissors \u2014 sharp blades concentrate force over tiny area for cutting",
+      "C) Snow shoes prevent sinking",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "All three are practical applications of the pressure principle (P = F/A): Wide tyres increase area \u2192 reduce pressure \u2192 less sinking in soft ground (off-road). Sharp scissor blades reduce area \u2192 increase pressure \u2192 easier cutting. Snowshoes increase area \u2192 reduce pressure \u2192 prevent sinking in snow. Understanding pressure is fundamental to designing tools, footwear, vehicles, and structures."
+  },
+  {
+    "QuestionText": "Which of the following correctly explains why small insects can walk on water?",
+    "Options": [
+      "A) Insects are lighter than air",
+      "B) Insects exert very low pressure due to tiny leg area and water's surface tension supports them",
+      "C) Insects secrete oils that repel water",
+      "D) Water's pressure pushes insects upward by buoyancy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Water striders and some insects can walk on water due to two factors: (1) Their very small foot/leg area means their weight creates very low pressure on the water surface; (2) Water's surface tension (hydrogen bonding between water molecules creates a 'skin') supports this low pressure without breaking. If you apply too much pressure (large area or heavy object), surface tension is overcome and the object sinks."
+  },
+  {
+    "QuestionText": "Which of the following is an application of atmospheric pressure in everyday life?",
+    "Options": [
+      "A) A syringe drawing in liquid when the plunger is pulled",
+      "B) A ball rolling down a slope",
+      "C) A boat floating on water",
+      "D) A magnet attracting iron filings"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Atmospheric Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "When a syringe's plunger is pulled back, air pressure inside the cylinder decreases. Atmospheric pressure outside acts on the liquid surface and pushes liquid into the syringe (through the needle) to equalise pressure. This is how syringes, pipettes, and drinking straws work \u2014 atmospheric pressure does the actual pushing."
+  },
+  {
+    "QuestionText": "A force of 1000 N acts over an area of 250 cm\u00b2. What is the pressure in Pa?",
+    "Options": [
+      "A) 4 Pa",
+      "B) 40 Pa",
+      "C) 400 Pa",
+      "D) 40,000 Pa"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Convert area: 250 cm\u00b2 = 250 \u00d7 10\u207b\u2074 m\u00b2 = 0.025 m\u00b2. P = F/A = 1000 N \u00f7 0.025 m\u00b2 = 40,000 Pa = 40 kPa. Always convert cm\u00b2 to m\u00b2 (divide by 10,000) before calculating pressure in Pascals."
+  },
+  {
+    "QuestionText": "Why do divers experience 'the bends' when ascending too quickly from deep water?",
+    "Options": [
+      "A) Cold water causes muscle cramps",
+      "B) Rapid pressure decrease causes dissolved nitrogen to form bubbles in blood and tissues",
+      "C) Lack of oxygen at depth affects the brain",
+      "D) Water enters the lungs during rapid ascent"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Force and Pressure",
+    "SubTopic": "Liquid Pressure",
+    "Difficulty": "Olympiad",
+    "Explanation": "At depth, high pressure causes more nitrogen to dissolve in divers' blood (Henry's Law). If the diver ascends too quickly, pressure drops rapidly and dissolved nitrogen comes out of solution as bubbles in blood and tissues \u2014 like opening a fizzy drink bottle quickly. These nitrogen bubbles cause severe joint pain ('the bends'), paralysis, or death. Slow ascent with decompression stops allows nitrogen to safely diffuse out through the lungs."
+  }
+]

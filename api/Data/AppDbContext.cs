@@ -13,6 +13,8 @@ public class AppDbContext : DbContext
     public DbSet<Subscription> Subscriptions => Set<Subscription>();
     public DbSet<UserMastery> Mastery => Set<UserMastery>();
     public DbSet<QuestionBankItem> QuestionBank => Set<QuestionBankItem>();
+    public DbSet<PdfPurchase> PdfPurchases => Set<PdfPurchase>();
+    public DbSet<OlympiadSchedule> OlympiadSchedules => Set<OlympiadSchedule>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
@@ -91,6 +93,39 @@ public class AppDbContext : DbContext
                 .WithMany(u => u.Mastery)
                 .HasForeignKey(x => x.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        b.Entity<PdfPurchase>(e =>
+        {
+            e.ToTable("PdfPurchases");
+            e.HasKey(x => x.PdfPurchaseId);
+            e.Property(x => x.PdfPurchaseId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.Subject).HasMaxLength(100).IsRequired();
+            e.Property(x => x.RazorpayOrderId).HasMaxLength(100);
+            e.Property(x => x.RazorpayPaymentId).HasMaxLength(100);
+            e.Property(x => x.PurchasedAt).HasDefaultValueSql("GETDATE()");
+            e.HasIndex(x => new { x.UserId, x.Grade, x.Subject });
+            e.HasOne(x => x.User)
+                .WithMany(u => u.PdfPurchases)
+                .HasForeignKey(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        b.Entity<OlympiadSchedule>(e =>
+        {
+            e.ToTable("OlympiadSchedules");
+            e.HasKey(x => x.OlympiadScheduleId);
+            e.Property(x => x.OrgName).HasMaxLength(100).IsRequired();
+            e.Property(x => x.OlympiadName).HasMaxLength(150).IsRequired();
+            e.Property(x => x.FullName).HasMaxLength(300).IsRequired();
+            e.Property(x => x.Subject).HasMaxLength(100).IsRequired();
+            e.Property(x => x.Stage).HasMaxLength(100);
+            e.Property(x => x.RegistrationWindow).HasMaxLength(200);
+            e.Property(x => x.ExamDateText).HasMaxLength(200);
+            e.Property(x => x.ResultDateText).HasMaxLength(200);
+            e.Property(x => x.OfficialWebsite).HasMaxLength(300);
+            e.Property(x => x.Notes).HasMaxLength(500);
+            e.HasIndex(x => new { x.AcademicYear, x.OrgName });
         });
 
         b.Entity<QuestionBankItem>(e =>

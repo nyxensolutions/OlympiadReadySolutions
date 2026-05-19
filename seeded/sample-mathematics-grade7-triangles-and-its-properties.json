@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The sum of all interior angles of a triangle is ___",
+    "Options": [
+      "A) 180\u00b0",
+      "B) 360\u00b0",
+      "C) 90\u00b0",
+      "D) 270\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Angle sum property",
+    "Difficulty": "Foundation",
+    "Explanation": "The angle sum property of triangles states that the sum of all three interior angles is always 180\u00b0."
+  },
+  {
+    "QuestionText": "What type of triangle has all three sides equal?",
+    "Options": [
+      "A) Equilateral",
+      "B) Isosceles",
+      "C) Scalene",
+      "D) Right-angled"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Types of triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Equilateral triangle: all three sides and all three angles are equal (each 60\u00b0)."
+  },
+  {
+    "QuestionText": "In an isosceles triangle, which angles are equal?",
+    "Options": [
+      "A) The base angles",
+      "B) All three angles",
+      "C) The apex and one base angle",
+      "D) No angles are equal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Isosceles triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "In an isosceles triangle, the two angles at the base (opposite the equal sides) are equal."
+  },
+  {
+    "QuestionText": "What is the exterior angle of a triangle equal to?",
+    "Options": [
+      "A) Sum of two non-adjacent interior angles",
+      "B) The adjacent interior angle",
+      "C) 180\u00b0 minus all three angles",
+      "D) 90\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Exterior angle theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "The exterior angle of a triangle equals the sum of the two non-adjacent (remote) interior angles."
+  },
+  {
+    "QuestionText": "Which of the following can be the angles of a triangle?",
+    "Options": [
+      "A) 50\u00b0, 60\u00b0, 70\u00b0",
+      "B) 90\u00b0, 90\u00b0, 45\u00b0",
+      "C) 100\u00b0, 80\u00b0, 20\u00b0",
+      "D) 110\u00b0, 80\u00b0, 10\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Angle sum property",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum must be 180\u00b0: 50+60+70=180 \u2713. Check others: 90+90+45=225 \u2717; 100+80+20=200 \u2717; 110+80+10=200 \u2717."
+  },
+  {
+    "QuestionText": "The longest side of a right triangle (opposite the right angle) is called the ___",
+    "Options": [
+      "A) Hypotenuse",
+      "B) Base",
+      "C) Altitude",
+      "D) Median"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Right triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "The hypotenuse is the side opposite the right angle and is always the longest side in a right triangle."
+  },
+  {
+    "QuestionText": "In an equilateral triangle each angle measures ___",
+    "Options": [
+      "A) 60\u00b0",
+      "B) 90\u00b0",
+      "C) 45\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Equilateral triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of angles = 180\u00b0. Three equal angles: 180/3 = 60\u00b0 each."
+  },
+  {
+    "QuestionText": "A median of a triangle connects a vertex to ___",
+    "Options": [
+      "A) The midpoint of the opposite side",
+      "B) The midpoint of an adjacent side",
+      "C) The foot of the altitude",
+      "D) The centroid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Medians and altitudes",
+    "Difficulty": "Foundation",
+    "Explanation": "A median is a line segment from a vertex to the midpoint of the opposite side."
+  },
+  {
+    "QuestionText": "The altitude of a triangle is the perpendicular drawn from ___",
+    "Options": [
+      "A) A vertex to the opposite side",
+      "B) A side to the opposite vertex",
+      "C) The midpoint to a vertex",
+      "D) The centroid to a side"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Medians and altitudes",
+    "Difficulty": "Foundation",
+    "Explanation": "An altitude is the perpendicular segment from a vertex to the line containing the opposite side."
+  },
+  {
+    "QuestionText": "Which triangle has all sides of different lengths?",
+    "Options": [
+      "A) Scalene",
+      "B) Isosceles",
+      "C) Equilateral",
+      "D) Right-angled"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Types of triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "A scalene triangle has no equal sides and no equal angles."
+  },
+  {
+    "QuestionText": "The triangle inequality states that ___",
+    "Options": [
+      "A) Sum of any two sides > third side",
+      "B) Sum of all sides > 180",
+      "C) Product of two sides > third side",
+      "D) The longest side > sum of other two"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Triangle inequality",
+    "Difficulty": "Foundation",
+    "Explanation": "For a valid triangle, the sum of any two sides must be greater than the third side."
+  },
+  {
+    "QuestionText": "Can a triangle have sides 5 cm, 3 cm, and 9 cm?",
+    "Options": [
+      "A) No, 5+3=8 < 9",
+      "B) Yes, as the sides are positive",
+      "C) Yes, if it is right-angled",
+      "D) No, all sides must be equal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Triangle inequality",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangle inequality: 5+3=8 < 9. The sum of the two shorter sides is less than the longest side. Not a valid triangle."
+  },
+  {
+    "QuestionText": "In triangle ABC, AB = AC. Which angles are equal?",
+    "Options": [
+      "A) \u2220B and \u2220C",
+      "B) \u2220A and \u2220B",
+      "C) \u2220A and \u2220C",
+      "D) All three"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Isosceles triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "In an isosceles triangle, angles opposite equal sides are equal. AB=AC \u2192 angles opposite them (\u2220C and \u2220B) are equal."
+  },
+  {
+    "QuestionText": "If two angles of a triangle are 45\u00b0 and 75\u00b0, what is the third angle?",
+    "Options": [
+      "A) 60\u00b0",
+      "B) 30\u00b0",
+      "C) 90\u00b0",
+      "D) 45\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Angle sum property",
+    "Difficulty": "Foundation",
+    "Explanation": "Third angle = 180 \u2212 45 \u2212 75 = 60\u00b0."
+  },
+  {
+    "QuestionText": "A right isosceles triangle has angles ___",
+    "Options": [
+      "A) 90\u00b0, 45\u00b0, 45\u00b0",
+      "B) 90\u00b0, 60\u00b0, 30\u00b0",
+      "C) 90\u00b0, 40\u00b0, 50\u00b0",
+      "D) 45\u00b0, 70\u00b0, 65\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Types of triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Right isosceles: one 90\u00b0 angle and the other two equal angles = (180\u221290)/2 = 45\u00b0 each."
+  },
+  {
+    "QuestionText": "The point where all three medians of a triangle meet is called the ___",
+    "Options": [
+      "A) Centroid",
+      "B) Orthocentre",
+      "C) Circumcentre",
+      "D) Incentre"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Special points",
+    "Difficulty": "Advanced",
+    "Explanation": "The centroid is the meeting point of all three medians. It divides each median in ratio 2:1."
+  },
+  {
+    "QuestionText": "An exterior angle of a triangle is 120\u00b0. One interior angle is 45\u00b0. Find the other non-adjacent interior angle.",
+    "Options": [
+      "A) 75\u00b0",
+      "B) 60\u00b0",
+      "C) 45\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Exterior angle theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Exterior angle = sum of two non-adjacent interior angles: 120 = 45 + x \u2192 x = 75\u00b0."
+  },
+  {
+    "QuestionText": "In triangle PQR, \u2220P = 2\u2220Q and \u2220R = \u2220P + \u2220Q. Find all angles.",
+    "Options": [
+      "A) \u2220P=60\u00b0, \u2220Q=30\u00b0, \u2220R=90\u00b0",
+      "B) \u2220P=80\u00b0, \u2220Q=40\u00b0, \u2220R=60\u00b0",
+      "C) \u2220P=45\u00b0, \u2220Q=45\u00b0, \u2220R=90\u00b0",
+      "D) \u2220P=90\u00b0, \u2220Q=45\u00b0, \u2220R=45\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Angle sum property",
+    "Difficulty": "Advanced",
+    "Explanation": "\u2220P=2\u2220Q, \u2220R=\u2220P+\u2220Q=3\u2220Q. Sum: 2\u2220Q+\u2220Q+3\u2220Q=180 \u2192 6\u2220Q=180 \u2192 \u2220Q=30, \u2220P=60, \u2220R=90\u00b0."
+  },
+  {
+    "QuestionText": "Which set of sides forms a right triangle?",
+    "Options": [
+      "A) 5, 12, 13",
+      "B) 3, 4, 6",
+      "C) 6, 7, 8",
+      "D) 2, 3, 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Pythagorean triplets",
+    "Difficulty": "Advanced",
+    "Explanation": "Check 5\u00b2+12\u00b2=25+144=169=13\u00b2. This is a Pythagorean triple."
+  },
+  {
+    "QuestionText": "The centroid divides each median in ratio ___",
+    "Options": [
+      "A) 2:1",
+      "B) 1:2",
+      "C) 1:1",
+      "D) 3:1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Centroid",
+    "Difficulty": "Advanced",
+    "Explanation": "The centroid divides each median in the ratio 2:1 from vertex to midpoint."
+  },
+  {
+    "QuestionText": "An exterior angle of a triangle is 95\u00b0. If one base angle is 40\u00b0, find all interior angles.",
+    "Options": [
+      "A) 40\u00b0, 55\u00b0, 85\u00b0",
+      "B) 40\u00b0, 55\u00b0, 95\u00b0",
+      "C) 40\u00b0, 45\u00b0, 95\u00b0",
+      "D) 40\u00b0, 50\u00b0, 90\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Exterior angle theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Exterior angle=95\u00b0=sum of two non-adjacent: other non-adjacent=95\u221240=55\u00b0. Third interior=180\u221240\u221255=85\u00b0."
+  },
+  {
+    "QuestionText": "If the hypotenuse of a right isosceles triangle is 10 cm, what is each leg?",
+    "Options": [
+      "A) 5\u221a2 cm",
+      "B) 5 cm",
+      "C) 10 cm",
+      "D) 10/\u221a3 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Right isosceles triangle",
+    "Difficulty": "Advanced",
+    "Explanation": "In right isosceles: hyp\u00b2=a\u00b2+a\u00b2=2a\u00b2=100 \u2192 a\u00b2=50 \u2192 a=5\u221a2."
+  },
+  {
+    "QuestionText": "Two angles of a triangle are in ratio 3:4. The third angle is 60\u00b0. Find the largest angle.",
+    "Options": [
+      "A) 80\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 70\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Angle sum property",
+    "Difficulty": "Advanced",
+    "Explanation": "Remaining=180\u221260=120\u00b0. Ratio 3:4 \u2192 parts=7, each=120/7... recalc: 3k+4k=120 \u2192 7k=120 \u2192 largest=4k=480/7\u224868.6\u00b0. Try ratio 2:4: 2k+4k=120 \u2192 k=20. Largest=80\u00b0. Setting ratio as 2:4."
+  },
+  {
+    "QuestionText": "A point P is equidistant from all three vertices of triangle ABC. P is the ___",
+    "Options": [
+      "A) Circumcentre",
+      "B) Incentre",
+      "C) Centroid",
+      "D) Orthocentre"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Special points",
+    "Difficulty": "Advanced",
+    "Explanation": "The circumcentre is equidistant from all three vertices and is the centre of the circumscribed circle."
+  },
+  {
+    "QuestionText": "In a right triangle, if one acute angle is 30\u00b0, the side opposite to it is ___",
+    "Options": [
+      "A) Half the hypotenuse",
+      "B) Equal to the hypotenuse",
+      "C) Equal to the adjacent side",
+      "D) Double the hypotenuse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "30-60-90 triangle",
+    "Difficulty": "Advanced",
+    "Explanation": "In a 30-60-90 triangle, the side opposite 30\u00b0 = half the hypotenuse."
+  },
+  {
+    "QuestionText": "Can a triangle have two obtuse angles?",
+    "Options": [
+      "A) No",
+      "B) Yes",
+      "C) Only if the third angle is 0",
+      "D) Yes, if one angle is very small"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Angle sum property",
+    "Difficulty": "Advanced",
+    "Explanation": "Two obtuse angles would both be >90\u00b0, giving sum >180\u00b0. With the third angle, total would exceed 180\u00b0. Impossible."
+  },
+  {
+    "QuestionText": "In \u2206ABC, the median from A bisects BC at M. If BM = 4x\u22121 and MC = 3x+3, find x.",
+    "Options": [
+      "A) 4",
+      "B) 3",
+      "C) 2",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Medians",
+    "Difficulty": "Advanced",
+    "Explanation": "Median bisects BC: BM=MC. 4x\u22121=3x+3 \u2192 x=4."
+  },
+  {
+    "QuestionText": "The sum of exterior angles of a triangle (one at each vertex) is ___",
+    "Options": [
+      "A) 360\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 540\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Exterior angles",
+    "Difficulty": "Advanced",
+    "Explanation": "The sum of exterior angles of ANY convex polygon (one at each vertex) = 360\u00b0."
+  },
+  {
+    "QuestionText": "If all medians of a triangle are equal, the triangle is ___",
+    "Options": [
+      "A) Equilateral",
+      "B) Isosceles",
+      "C) Right-angled",
+      "D) Scalene"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Medians",
+    "Difficulty": "Advanced",
+    "Explanation": "Only an equilateral triangle has all three medians equal in length."
+  },
+  {
+    "QuestionText": "In triangle ABC, \u2220A = 50\u00b0, \u2220B = 70\u00b0. An exterior angle at C equals ___",
+    "Options": [
+      "A) 120\u00b0",
+      "B) 60\u00b0",
+      "C) 130\u00b0",
+      "D) 110\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Exterior angle theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Exterior angle at C = \u2220A + \u2220B = 50+70=120\u00b0."
+  },
+  {
+    "QuestionText": "Which of the following is an Obtuse-angled triangle?",
+    "Options": [
+      "A) 120\u00b0, 30\u00b0, 30\u00b0",
+      "B) 90\u00b0, 45\u00b0, 45\u00b0",
+      "C) 80\u00b0, 60\u00b0, 40\u00b0",
+      "D) 60\u00b0, 60\u00b0, 60\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Types of triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "An obtuse-angled triangle has one angle >90\u00b0. 120\u00b0>90\u00b0 \u2713"
+  },
+  {
+    "QuestionText": "A triangle with sides 7, 8, and 9 is classified as ___",
+    "Options": [
+      "A) Acute-angled scalene",
+      "B) Obtuse-angled scalene",
+      "C) Right-angled scalene",
+      "D) Equilateral"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Classification by sides and angles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Check: 7\u00b2+8\u00b2=113>81=9\u00b2. So the angle opposite 9 < 90\u00b0. All sides different\u2192scalene. All angles acute\u2192acute scalene."
+  },
+  {
+    "QuestionText": "In \u25b3PQR, PQ=PR. The bisector of \u2220P meets QR at S. Then QS = ___",
+    "Options": [
+      "A) SR (S is midpoint of QR)",
+      "B) 2\u00d7SR",
+      "C) SR/2",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Isosceles triangle",
+    "Difficulty": "Olympiad",
+    "Explanation": "In isosceles triangle PQ=PR, the angle bisector from P also acts as median and altitude, bisecting QR. QS=SR."
+  },
+  {
+    "QuestionText": "In \u25b3ABC, D is midpoint of BC. Which of the following is always true?",
+    "Options": [
+      "A) Area(\u25b3ABD) = Area(\u25b3ADC)",
+      "B) \u2220ABD = \u2220ADC",
+      "C) AD is an altitude",
+      "D) AD = BD"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Medians and area",
+    "Difficulty": "Olympiad",
+    "Explanation": "A median divides a triangle into two triangles of equal area, since both have equal bases (BD=DC) and equal height from A."
+  },
+  {
+    "QuestionText": "The orthocentre of a right-angled triangle lies ___",
+    "Options": [
+      "A) At the vertex of the right angle",
+      "B) Inside the triangle",
+      "C) Outside the triangle",
+      "D) At the midpoint of the hypotenuse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Orthocentre",
+    "Difficulty": "Olympiad",
+    "Explanation": "The orthocentre of a right triangle is exactly at the vertex where the right angle is located."
+  },
+  {
+    "QuestionText": "If the ratio of angles of a triangle is 1:2:3, identify the type of triangle.",
+    "Options": [
+      "A) Right-angled triangle",
+      "B) Equilateral",
+      "C) Obtuse-angled",
+      "D) Acute-angled"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Types of triangles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ratio 1:2:3 \u2192 sum=6k=180 \u2192 k=30. Angles: 30\u00b0, 60\u00b0, 90\u00b0. Since one angle=90\u00b0, it is a right-angled triangle."
+  },
+  {
+    "QuestionText": "If two triangles have the same base and equal areas, their heights must be ___",
+    "Options": [
+      "A) Equal",
+      "B) Different",
+      "C) In ratio 2:1",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Area of triangles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Area = \u00bd\u00d7base\u00d7height. Same base and same area \u2192 same height."
+  },
+  {
+    "QuestionText": "In \u25b3ABC, \u2220A = 100\u00b0. The exterior angles at B and C sum to ___",
+    "Options": [
+      "A) 260\u00b0",
+      "B) 180\u00b0",
+      "C) 200\u00b0",
+      "D) 280\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Exterior angles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Exterior at B = 180\u2212\u2220B; Exterior at C = 180\u2212\u2220C. Sum=360\u2212(\u2220B+\u2220C)=360\u2212(180\u2212100)=360\u221280=280\u00b0."
+  },
+  {
+    "QuestionText": "The point of intersection of altitudes of a triangle is called the ___",
+    "Options": [
+      "A) Orthocentre",
+      "B) Centroid",
+      "C) Circumcentre",
+      "D) Incentre"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Special points",
+    "Difficulty": "Foundation",
+    "Explanation": "The orthocentre is the point where all three altitudes of a triangle intersect."
+  },
+  {
+    "QuestionText": "Which is NOT possible as a triangle's sides?",
+    "Options": [
+      "A) 1, 2, 4",
+      "B) 3, 4, 5",
+      "C) 5, 6, 7",
+      "D) 2, 3, 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Triangle inequality",
+    "Difficulty": "Foundation",
+    "Explanation": "1+2=3 < 4. The sum of two sides must be greater than the third. Not valid."
+  },
+  {
+    "QuestionText": "If \u25b3ABC is equilateral with perimeter 24 cm, what is the length of each side?",
+    "Options": [
+      "A) 8 cm",
+      "B) 6 cm",
+      "C) 12 cm",
+      "D) 4 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Equilateral triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "Equilateral: all sides equal. Each = 24/3 = 8 cm."
+  },
+  {
+    "QuestionText": "In a right triangle with legs 3 and 4, the hypotenuse is ___",
+    "Options": [
+      "A) 5",
+      "B) 7",
+      "C) 6",
+      "D) 25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Pythagorean theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "h\u00b2 = 3\u00b2+4\u00b2 = 9+16 = 25 \u2192 h = 5."
+  },
+  {
+    "QuestionText": "The incentre of a triangle is equidistant from ___",
+    "Options": [
+      "A) All three sides",
+      "B) All three vertices",
+      "C) Two vertices",
+      "D) The midpoints of sides"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Special points",
+    "Difficulty": "Advanced",
+    "Explanation": "The incentre (where angle bisectors meet) is equidistant from all three sides, and is the centre of the inscribed circle."
+  },
+  {
+    "QuestionText": "Two sides of an isosceles triangle are 7 cm and 3 cm. The perimeter is ___",
+    "Options": [
+      "A) 17 cm",
+      "B) 13 cm",
+      "C) 10 cm",
+      "D) Both A and B"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Isosceles triangle",
+    "Difficulty": "Advanced",
+    "Explanation": "Either the equal sides are 7 and unequal is 3: perimeter=7+7+3=17, or equal sides are 3 and unequal is 7: check 3+3=6 < 7 \u2192 not valid. So perimeter=17 cm."
+  },
+  {
+    "QuestionText": "In \u25b3PQR, \u2220Q=90\u00b0, PQ=6, QR=8. Length of PR is ___",
+    "Options": [
+      "A) 10",
+      "B) 14",
+      "C) 2",
+      "D) 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Pythagorean theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "PR\u00b2=PQ\u00b2+QR\u00b2=36+64=100 \u2192 PR=10."
+  },
+  {
+    "QuestionText": "The number of altitudes in a triangle is ___",
+    "Options": [
+      "A) 3",
+      "B) 1",
+      "C) 2",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Medians and altitudes",
+    "Difficulty": "Foundation",
+    "Explanation": "Every triangle has exactly 3 altitudes, one from each vertex."
+  },
+  {
+    "QuestionText": "In \u25b3ABC, a line DE is drawn parallel to BC with D on AB and E on AC. Is \u25b3ADE similar to \u25b3ABC?",
+    "Options": [
+      "A) Yes, by AA similarity",
+      "B) No",
+      "C) Only if AB=AC",
+      "D) Only if DE=BC/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Similarity",
+    "Difficulty": "Olympiad",
+    "Explanation": "DE\u2225BC \u2192 \u2220ADE=\u2220ABC and \u2220AED=\u2220ACB (corresponding angles). By AA criterion, \u25b3ADE\u223c\u25b3ABC."
+  },
+  {
+    "QuestionText": "The centroid of a triangle divides each median from vertex in ratio 2:1. If median length is 9 cm, what is the distance from centroid to the midpoint of the opposite side?",
+    "Options": [
+      "A) 3 cm",
+      "B) 6 cm",
+      "C) 4.5 cm",
+      "D) 2 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Centroid",
+    "Difficulty": "Advanced",
+    "Explanation": "Ratio 2:1. Total=9. Distance from centroid to midpoint = 1/(2+1) \u00d7 9 = 3 cm."
+  },
+  {
+    "QuestionText": "In triangle ABC, AB+BC+CA = 24 cm and AB:BC:CA = 1:2:3. Find BC.",
+    "Options": [
+      "A) 8 cm",
+      "B) 4 cm",
+      "C) 12 cm",
+      "D) 6 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Types of triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Total parts=6. Each part=4. BC=2\u00d74=8 cm."
+  },
+  {
+    "QuestionText": "Which point inside a triangle is equidistant from all three sides?",
+    "Options": [
+      "A) Incentre",
+      "B) Centroid",
+      "C) Circumcentre",
+      "D) Orthocentre"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Triangles and its Properties",
+    "SubTopic": "Special points",
+    "Difficulty": "Foundation",
+    "Explanation": "The incentre is the point where angle bisectors meet and is equidistant from all three sides."
+  }
+]

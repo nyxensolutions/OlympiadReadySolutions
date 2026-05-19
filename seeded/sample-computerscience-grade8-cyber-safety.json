@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is cyberbullying?",
+    "Options": [
+      "A) Aggressive driving behaviour",
+      "B) Using digital technology to harass, threaten, or embarrass others",
+      "C) Hacking into school computer systems",
+      "D) Playing violent video games"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Cyberbullying uses digital platforms \u2014 social media, messaging apps, online gaming, email \u2014 to bully others. Forms: sending threatening/cruel messages, spreading rumours online, sharing embarrassing photos/videos without consent, creating fake profiles to mock someone, excluding from online groups. Steps if cyberbullied: don't respond, screenshot evidence, block the person, tell a trusted adult, report to the platform and police if needed."
+  },
+  {
+    "QuestionText": "A strong password should:",
+    "Options": [
+      "A) Be your name or birthday for easy memory",
+      "B) Contain at least 8-12 characters mixing uppercase, lowercase, numbers, and symbols",
+      "C) Be the same across all accounts for convenience",
+      "D) Be shared with close friends for backup"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Password Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Strong password characteristics: 12+ characters (longer = exponentially harder to crack), mix of uppercase (A-Z), lowercase (a-z), numbers (0-9), and symbols (!@#$%), no dictionary words or personal info (name, birthday), unique to each account (if one site is breached, others are safe). Use a password manager (LastPass, Bitwarden) to generate and store complex unique passwords. Enable 2FA as an additional layer."
+  },
+  {
+    "QuestionText": "What should you do if you receive an email asking for your password or bank details?",
+    "Options": [
+      "A) Reply with the information \u2014 the email is probably legitimate",
+      "B) Delete it and report it as phishing \u2014 legitimate organisations never ask for passwords via email",
+      "C) Share only your password, not bank details",
+      "D) Forward it to friends to warn them"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Phishing",
+    "Difficulty": "Foundation",
+    "Explanation": "Phishing rule: NO legitimate organisation (bank, Google, government, PayPal) will EVER ask for your password or full bank details via email. If in doubt: don't click links in the email \u2014 instead, go directly to the website by typing the URL. Check sender email address carefully (banks@service.com vs the actual bank domain). Report phishing: forward to the real organisation (abuse@bank.com) and delete. India's cybercrime portal: cybercrime.gov.in \u2014 report online fraud."
+  },
+  {
+    "QuestionText": "What is digital footprint?",
+    "Options": [
+      "A) Physical damage caused by computer usage",
+      "B) The trail of data you leave behind through online activities \u2014 websites visited, posts made, accounts created",
+      "C) A type of virus spread through social media",
+      "D) The energy consumed by digital devices"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Privacy",
+    "Difficulty": "Foundation",
+    "Explanation": "Digital footprint: permanent data trail from online activities. Active: consciously created (social media posts, comments, photos shared, online purchases). Passive: automatically collected without awareness (browsing history, location data, cookies, IP address logs, app usage data). Impacts: affects college admissions/job applications (employers google candidates), targeted advertising, privacy risks. Manage it: use privacy settings, think before posting, regularly review and delete old posts, use private browsing for sensitive searches."
+  },
+  {
+    "QuestionText": "What is the recommended age limit for most social media platforms?",
+    "Options": [
+      "A) 10 years",
+      "B) 13 years (COPPA in USA; similar rules globally)",
+      "C) 16 years",
+      "D) 18 years"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Most social media platforms (Facebook, Instagram, Twitter/X, TikTok, Snapchat, WhatsApp) require users to be at least 13 years old. This aligns with COPPA (Children's Online Privacy Protection Act \u2014 USA) which regulates collection of personal data from children under 13. India's PDPB (Personal Data Protection Bill) similarly protects minors' data. Younger users face risks: cyberbullying, inappropriate content, predators, privacy violations, and negative mental health effects."
+  },
+  {
+    "QuestionText": "What does it mean to 'share content responsibly' online?",
+    "Options": [
+      "A) Always sharing all content you see to spread awareness",
+      "B) Verifying information before sharing, respecting others' privacy, and considering the impact of your posts",
+      "C) Only sharing content from government websites",
+      "D) Using only secure (HTTPS) websites to share content"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Foundation",
+    "Explanation": "Responsible sharing: verify authenticity before sharing (fake news spreads faster than true news), respect others' privacy (don't share personal information/photos without consent), consider long-term impact (posts are permanent \u2014 future employers may see them), check copyright (don't share others' creative work without credit), respect cultural sensitivities. India's IT Act: spreading false information or defamatory content online is punishable. Rule: if you wouldn't be comfortable with a teacher/parent seeing it, don't post it."
+  },
+  {
+    "QuestionText": "What is identity theft online?",
+    "Options": [
+      "A) Creating a fictional character for online gaming",
+      "B) Stealing someone's personal information to impersonate them or commit fraud",
+      "C) Using someone's profile picture without permission",
+      "D) Logging into someone's account with their permission"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Privacy",
+    "Difficulty": "Foundation",
+    "Explanation": "Online identity theft: criminals steal personal information (name, PAN card, Aadhaar, credit card numbers, passwords) to: open fraudulent accounts, apply for loans, make purchases, file fake tax returns, commit crimes in the victim's name. Sources of data: phishing, data breaches, social engineering, malware, oversharing on social media. Prevention: strong unique passwords, 2FA, monitor bank statements, check credit report, be cautious what personal info you share online."
+  },
+  {
+    "QuestionText": "What should you do if an online stranger asks to meet in person?",
+    "Options": [
+      "A) Meet them in a public place alone",
+      "B) Share your address for them to visit",
+      "C) Never agree without telling a trusted adult; if meeting, always take an adult and meet in a public place",
+      "D) Share your school address so they can find you"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Online strangers: people online may not be who they claim. Online grooming: predators build trust with children online before attempting to meet in person. Safety rules: never share personal information (address, school, phone number) with strangers online; tell a trusted adult if someone online makes you uncomfortable or asks to meet; if meeting ever arranged, take a parent/guardian and meet only in crowded public places. Report suspicious behaviour to parents, school, and police (India: Childline 1098)."
+  },
+  {
+    "QuestionText": "What is screen time management and why is it important?",
+    "Options": [
+      "A) Adjusting screen brightness to protect eyes",
+      "B) Intentionally limiting and balancing time spent on digital devices for health and wellbeing",
+      "C) Using multiple screens simultaneously for productivity",
+      "D) Scheduling automatic screen lock for security"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Wellbeing",
+    "Difficulty": "Foundation",
+    "Explanation": "Screen time management: consciously limiting recreational device use for mental/physical health. Risks of excessive screen time: sleep disruption (blue light suppresses melatonin), reduced physical activity, poor posture, eye strain, reduced face-to-face social skills, academic impact, addiction (social media algorithms designed for engagement). WHO recommends no screen time for under 2, limited for ages 2-5. For teens: balance is key \u2014 educational vs recreational. Built-in tools: Android Digital Wellbeing, Apple Screen Time, Windows Family Safety."
+  },
+  {
+    "QuestionText": "What is malware and how can you protect yourself?",
+    "Options": [
+      "A) A type of social media platform",
+      "B) Malicious software \u2014 protected against by antivirus, avoiding suspicious downloads, keeping OS updated",
+      "C) Slow internet connection",
+      "D) A computer hardware defect"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Malware Protection",
+    "Difficulty": "Foundation",
+    "Explanation": "Malware (malicious software) harms computers/data. Types: virus, worm, trojan, ransomware, spyware. Protection: install reputable antivirus (Windows Defender, Avast, Quick Heal), keep OS and apps updated (patches security vulnerabilities), avoid clicking suspicious links/attachments, don't download from untrusted sources, use strong passwords, enable firewall, backup data regularly (ransomware protection). In India: cybercrime.gov.in to report malware-related crime."
+  },
+  {
+    "QuestionText": "What is 'copyright' and why does it matter online?",
+    "Options": [
+      "A) The right to copy any content you find online",
+      "B) Legal protection for creators \u2014 their work cannot be copied, shared, or used without permission",
+      "C) A government program that controls internet content",
+      "D) A fee paid to websites for viewing content"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Foundation",
+    "Explanation": "Copyright: automatically protects original creative works (music, photos, videos, text, code) \u2014 the creator has exclusive rights to reproduce, distribute, adapt. Online copyright violations: downloading paid movies/music illegally (piracy), using copyrighted images without credit/permission, copy-pasting text without attribution. Creative Commons licenses: allow specific types of reuse. India's Copyright Act 1957 covers digital content. Punishment: fines and imprisonment. Fair use: limited use for education, commentary, research may be permitted."
+  },
+  {
+    "QuestionText": "What is 'netiquette'?",
+    "Options": [
+      "A) A network connection quality measure",
+      "B) Etiquette (good manners/behavior) applied to online communication",
+      "C) A net filtering technology",
+      "D) Internet speed testing protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Foundation",
+    "Explanation": "Netiquette (internet + etiquette): standards of appropriate online behaviour. Rules: don't type in ALL CAPS (implies shouting/anger), be respectful in comments/messages, credit sources, don't spam, respect privacy (don't share others' personal info), think before you post (permanent), be patient with online help communities, use appropriate language for the platform (formal in email, more casual in chat). The golden rule applies online: treat others as you'd like to be treated."
+  },
+  {
+    "QuestionText": "What is a secure website and how can you identify it?",
+    "Options": [
+      "A) A website belonging to the government only",
+      "B) A website using HTTPS (shown by a padlock icon) indicating encrypted connection",
+      "C) A website that doesn't show advertisements",
+      "D) A website with more than 1000 users"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Identifying secure websites: HTTPS in URL (not HTTP), padlock icon in browser address bar, valid SSL/TLS certificate (click padlock to view details \u2014 should match the organisation), correct domain spelling (phishers use subtle misspellings: paypa1.com vs paypal.com). Always verify HTTPS for: logging in, banking, shopping, entering personal information. HTTP sites: data can be intercepted. Note: HTTPS only means data is encrypted \u2014 it doesn't guarantee the website itself is legitimate or trustworthy."
+  },
+  {
+    "QuestionText": "What is the purpose of privacy settings on social media?",
+    "Options": [
+      "A) To make your profile look more professional",
+      "B) To control who can see your posts, personal information, and contact you",
+      "C) To increase your number of followers",
+      "D) Required settings for using social media in India"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Privacy",
+    "Difficulty": "Foundation",
+    "Explanation": "Privacy settings control: Who sees your posts (public, friends, friends of friends, only me), who can send friend/follow requests, who can tag you in photos, what personal info (phone number, email, birthday, location) is visible, whether search engines can index your profile. Best practices: set profile to private (especially for minors), only accept requests from known people, don't publicly share phone number/address, regularly review app permissions (which apps can access location, contacts, camera). Review settings periodically \u2014 platforms change defaults."
+  },
+  {
+    "QuestionText": "What does 'backing up data' mean and why is it important?",
+    "Options": [
+      "A) Moving data backwards in history",
+      "B) Creating copies of important data in a separate location to prevent permanent loss",
+      "C) Sending data to the manufacturer for safekeeping",
+      "D) Encrypting data for security"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Data Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Data backup: copying important files to a second location (external hard drive, USB, cloud) so originals can be restored if lost. Causes of data loss: hardware failure, accidental deletion, ransomware encryption, theft, fire/flood, OS corruption. 3-2-1 backup rule: 3 copies of data, on 2 different storage types, with 1 offsite/cloud. Frequency: critical data \u2014 daily; regular data \u2014 weekly. India's increasing digitalisation (Aadhaar, DigiLocker, UPI transaction records) makes data backup crucial for individuals and businesses."
+  },
+  {
+    "QuestionText": "Assertion: You should use different passwords for different online accounts. Reason: If one site is hacked and your password is stolen, unique passwords prevent access to your other accounts. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Password Security",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: unique passwords for each account is essential security practice. Reason TRUE and correctly explains: credential stuffing attacks \u2014 criminals take leaked username/password pairs from one breach and automatically try them on hundreds of other sites. If you use the same password everywhere, one breach compromises all your accounts. Data breaches happen regularly (LinkedIn 2021: 700M records, Facebook 2021: 533M records). Solution: password manager generates and stores unique complex passwords."
+  },
+  {
+    "QuestionText": "What is 'safe browsing' practice?",
+    "Options": [
+      "A) Only browsing websites your school approves",
+      "B) Following practices that protect you from online threats while browsing \u2014 verifying URLs, avoiding suspicious sites, using HTTPS",
+      "C) Using only a child-safe browser",
+      "D) Browsing only educational content"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Safe browsing practices: check URL carefully before clicking (hover over links to see destination), prefer HTTPS sites, don't click suspicious pop-ups ('Your computer has a virus! Click to fix!'), avoid downloading software from unofficial sources, use browser's built-in safe browsing (Google Safe Browsing warns about dangerous sites), keep browser updated, use ad-blockers to reduce malicious ad exposure, don't enter personal info on sites without HTTPS, log out of accounts when using public computers."
+  },
+  {
+    "QuestionText": "What personal information should you NEVER share online with strangers?",
+    "Options": [
+      "A) Your favourite movie",
+      "B) Your full name, address, school name, phone number, passwords, and financial information",
+      "C) Your favourite sports team",
+      "D) Your general city of residence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Privacy",
+    "Difficulty": "Foundation",
+    "Explanation": "Never share with strangers online: Full name, Home address, School name and schedule, Phone number, Passwords (even to 'friends'), Financial information (card numbers, bank details), Aadhaar/PAN number, Location in real-time (can enable stalking), Daily routine (helps predators and thieves). This information enables: physical harm (stalking/theft), identity theft, phishing attacks, cyberbullying. 'Strangers' includes online-only contacts you've never met in person, even if they seem friendly."
+  },
+  {
+    "QuestionText": "What is India's Cyber Crime Reporting Portal?",
+    "Options": [
+      "A) www.cybersafe.in",
+      "B) www.cybercrime.gov.in",
+      "C) www.cyberpolice.gov.in",
+      "D) www.cybercell.india.gov"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Legal Framework",
+    "Difficulty": "Advanced",
+    "Explanation": "India's National Cyber Crime Reporting Portal: cybercrime.gov.in \u2014 to report all types of cybercrimes. Also: Call 1930 (National Cybercrime Helpline) for immediate cybercrime/fraud assistance. Categories: financial fraud (UPI fraud, credit card fraud), social media crimes, cyberbullying, ransomware. Managed by the Ministry of Home Affairs under Indian Cyber Crime Coordination Centre (I4C). IT Act 2000 and amendments cover computer crimes. Financial fraud: also report to bank immediately to try to block transactions."
+  },
+  {
+    "QuestionText": "What is the IT Act, 2000 in India?",
+    "Options": [
+      "A) A law governing the import of computer hardware",
+      "B) India's primary law for electronic commerce and cybercrime \u2014 provides legal recognition to digital transactions and punishes cyber offences",
+      "C) A law about internet pricing",
+      "D) A regulation for IT company tax"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Legal Framework",
+    "Difficulty": "Advanced",
+    "Explanation": "IT Act 2000 (Information Technology Act): India's key legislation for digital activities. Covers: Legal recognition of digital signatures and electronic contracts, Cybercrimes (hacking, identity theft, cyberstalking, spreading obscene content \u2014 punishable with imprisonment and fines), Data protection responsibilities of companies, CERT-In (Indian Computer Emergency Response Team) powers, Electronic governance. Amended 2008 (added sections on data privacy, cyber terrorism, child pornography). Constantly evolving with new rules (IT Rules 2021 for social media intermediaries)."
+  },
+  {
+    "QuestionText": "What is 'spyware'?",
+    "Options": [
+      "A) Software used by government intelligence agencies",
+      "B) Malware that secretly monitors and collects user information and sends it to a third party",
+      "C) Security software that monitors network traffic",
+      "D) A parental control application"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Malware Protection",
+    "Difficulty": "Advanced",
+    "Explanation": "Spyware: malware that secretly collects user data without knowledge: keyloggers (record keystrokes \u2014 captures passwords, credit card numbers), screen recorders, browsing history trackers, microphone/camera activators. Installed through: malicious email attachments, infected downloads, malicious websites. Signs of infection: slower performance, strange pop-ups, data usage increase. Detection/removal: antivirus/anti-malware tools (Malwarebytes). Prevention: keep OS/apps updated, download only from trusted sources, use reputable browser."
+  },
+  {
+    "QuestionText": "What is 'ransomware' and how does it work?",
+    "Options": [
+      "A) Software that demands payment to use basic computer features",
+      "B) Malware that encrypts victim's files and demands payment (ransom) for the decryption key",
+      "C) Spam emails demanding money",
+      "D) A scam website posing as a banking portal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Malware Protection",
+    "Difficulty": "Advanced",
+    "Explanation": "Ransomware: encrypts all files on infected computers/networks making them inaccessible. Displays ransom note demanding payment (usually cryptocurrency) for decryption key. Famous attacks: WannaCry (2017 \u2014 affected NHS, banks, 150 countries), REvil, LockBit. Prevention: regular backups (then you can restore without paying), keep OS/software updated, email vigilance (most ransomware enters via phishing emails), network segmentation. Never pay ransom \u2014 no guarantee of decryption and encourages criminals. Report to cybercrime.gov.in."
+  },
+  {
+    "QuestionText": "What is 'two-factor authentication' (2FA) and why is it important?",
+    "Options": [
+      "A) Using two different browsers for security",
+      "B) Verifying identity with two different factors (password + OTP/biometric) making accounts much harder to hack",
+      "C) Having two email addresses for different purposes",
+      "D) Logging in from two devices simultaneously"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Password Security",
+    "Difficulty": "Foundation",
+    "Explanation": "2FA: adds a second verification layer after password. Even if a password is stolen, the attacker can't login without the second factor. Factors: Something you KNOW (password), Something you HAVE (OTP on phone, authenticator app), Something you ARE (fingerprint, face). India's UPI mandates 2FA (MPIN + device binding or biometric). All major platforms support 2FA \u2014 enable it everywhere. Authenticator apps (Google Authenticator, Microsoft Authenticator) are more secure than SMS OTP (vulnerable to SIM swapping)."
+  },
+  {
+    "QuestionText": "What is 'fake news' and how can you spot it?",
+    "Options": [
+      "A) News broadcast on non-government channels",
+      "B) Deliberately false or misleading information presented as news \u2014 spotted by checking multiple reputable sources",
+      "C) News that is unfavourable to the government",
+      "D) Satirical news articles from comedy websites"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Foundation",
+    "Explanation": "Fake news: fabricated/manipulated information spreading online. Types: completely false, misleading (true facts out of context), satire mistaken for real news, deepfakes (AI-manipulated videos). How to spot: check multiple reputable sources (Times of India, NDTV, BBC), verify with fact-checking sites (India: AltNews.in, FactChecker.in, Boom), check image authenticity (Google Reverse Image Search), look for credible author/publication, check publication date, look at URL carefully. India's IT Rules 2021 require social media platforms to act on fake news. WhatsApp (major fake news spreader in India) limits forwarding."
+  },
+  {
+    "QuestionText": "What should you do if you see someone being cyberbullied?",
+    "Options": [
+      "A) Join in to fit in with the group",
+      "B) Ignore it \u2014 it's not your business",
+      "C) Don't participate, support the victim privately, report the content to the platform, tell a trusted adult",
+      "D) Share the bullying content to raise awareness"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Responding to cyberbullying as a bystander: Don't join in or share the bullying content (sharing amplifies harm). Support the victim privately (send a kind message \u2014 'that's not okay, I'm here for you'). Report the content to the platform (all major platforms have reporting mechanisms). Tell a trusted adult (teacher, parent, school counsellor). Save evidence (screenshots) in case needed for formal complaints. Bystanders who don't act implicitly enable bullying. Speaking up (upstander vs bystander) can significantly reduce cyberbullying."
+  },
+  {
+    "QuestionText": "Assertion: Once content is posted online, you can control where it goes by deleting the original. Reason: Copied, screenshotted, or shared content persists even after the original is deleted. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true \u2014 deleting works",
+      "B) The assertion is false; the reason is true \u2014 online content is effectively permanent",
+      "C) Both are false",
+      "D) The assertion is true; reason is false"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Footprint",
+    "Difficulty": "Advanced",
+    "Explanation": "The assertion is FALSE \u2014 deleting the original does NOT remove all copies. Reason is TRUE and explains why: the moment something is posted, it can be screenshot, downloaded, shared, cached by search engines (Google cache), archived (Wayback Machine), or forwarded to thousands. Even 'disappearing' Snapchat messages can be screenshotted. The internet's permanence is why 'think before you post' is crucial \u2014 embarrassing or harmful content can resurface years later. The myth that 'delete = gone' is dangerously false."
+  },
+  {
+    "QuestionText": "What is 'grooming' in the context of online safety?",
+    "Options": [
+      "A) Organising photos and files online",
+      "B) When an adult builds a manipulative, deceptive relationship with a child to exploit or abuse them",
+      "C) Preparing a computer for optimal performance",
+      "D) Training students in digital skills"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Online grooming: an adult (or older person) systematically builds trust with a child online through friendship, gifts, sympathy, or shared interests \u2014 with the aim of exploitation or abuse. Signs: stranger online being unusually interested in you, asking for personal details, giving excessive compliments, asking for photos, trying to keep communication secret from parents. Protect yourself: never share personal info or photos with online strangers, tell a trusted adult if someone online makes you uncomfortable. Report to police (Childline 1098) or cybercrime.gov.in."
+  },
+  {
+    "QuestionText": "What is a Trojan horse in computing?",
+    "Options": [
+      "A) A very large computer program",
+      "B) Malware disguised as legitimate, useful software that creates a backdoor for attackers",
+      "C) A type of antivirus software",
+      "D) A network protocol for secure data transfer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Malware Protection",
+    "Difficulty": "Advanced",
+    "Explanation": "Trojan (Trojan horse): named after the Greek myth \u2014 appears as legitimate software (free game, useful tool, fake antivirus) but contains hidden malicious code. Once installed: creates backdoor access for attacker, downloads more malware, steals data, captures keystrokes, allows remote control. Different from viruses (self-replicating) \u2014 Trojans don't spread on their own. Spread via email attachments, pirated software, malicious websites. Prevention: download only from official/trusted sources, verify software legitimacy."
+  },
+  {
+    "QuestionText": "What does 'HTTPS' ensure for users of a website?",
+    "Options": [
+      "A) The website is free from malware",
+      "B) Data transmitted between your browser and the server is encrypted and cannot be read by eavesdroppers",
+      "C) The website is registered with the government",
+      "D) The website will never show advertisements"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTPS provides: Encryption (data scrambled during transmission \u2014 unreadable if intercepted), Authentication (server certificate proves the site is who it claims), Integrity (data can't be modified in transit). What HTTPS does NOT guarantee: the website's content is legitimate, the website owner is trustworthy, the site doesn't have malware. Phishing sites CAN use HTTPS (encrypted but still fraudulent). Always combine HTTPS verification with URL verification. The padlock means encrypted, not safe content."
+  },
+  {
+    "QuestionText": "What is the safest way to use public computers (school lab, library, internet cafe)?",
+    "Options": [
+      "A) Save passwords in the browser for faster access next time",
+      "B) Use incognito/private mode, never save passwords, log out of all accounts, clear history after use",
+      "C) Use the same accounts you use at home",
+      "D) Create new accounts specifically for public computers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "Public computer safety: Use incognito/private browsing mode (doesn't save browsing history, cookies, form data). NEVER save passwords in the browser \u2014 next user can access. Log out of ALL accounts after use (not just close the tab). Clear browsing history and cookies if you forgot incognito mode. Don't access sensitive accounts (banking) on public computers if avoidable. Check for physical keyloggers (suspicious USB devices plugged into keyboard port). Be aware of shoulder surfers. Never leave the computer unattended while logged in."
+  },
+  {
+    "QuestionText": "What is UPI fraud and how can you protect yourself?",
+    "Options": [
+      "A) Getting too much money from UPI transactions",
+      "B) Criminals fraudulently obtaining UPI PIN or initiating false payment requests \u2014 protect by never sharing PIN/OTP",
+      "C) UPI app crashing during payment",
+      "D) Bank fees for UPI transactions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "UPI fraud methods: Vishing (voice call pretending to be bank employee asking for UPI PIN/OTP), Fake collect requests (send money request to 'receive' money \u2014 actually paying out), QR code scams (scanning malicious QR codes), fake UPI apps. Protection: NEVER share UPI PIN or OTP with anyone (not even 'bank employees'), 'Collect' money never requires PIN entry, banks never call asking for PIN, verify merchant before scanning QR. If defrauded: report immediately to bank (block UPI), cybercrime.gov.in, call 1930 (National Cyber Helpline)."
+  },
+  {
+    "QuestionText": "Statement 1: Private (incognito) browsing makes you completely anonymous online. Statement 2: Incognito mode only prevents local storage (history, cookies) \u2014 your ISP, network admin, and websites can still see your activity. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1 FALSE: incognito/private mode is NOT anonymous \u2014 it only affects local browser storage. Statement 2 TRUE and explains the limitation: your ISP sees all your traffic (required for routing), network admin at school/office sees your activity, websites see your IP address and can track via fingerprinting, Google/Chrome still knows (logged-in). For true anonymity: use VPN (hides from ISP) or Tor network (multiple layers of encryption). Incognito is useful to prevent others using the same device from seeing your history \u2014 not for hiding from the internet."
+  },
+  {
+    "QuestionText": "What is a 'botnet' in the context of cybersecurity?",
+    "Options": [
+      "A) A legitimate network of robots used in manufacturing",
+      "B) A network of infected computers (bots) secretly controlled by criminals to carry out attacks",
+      "C) A type of internet speed test tool",
+      "D) A network security monitoring system"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Malware Protection",
+    "Difficulty": "Olympiad",
+    "Explanation": "Botnet (robot network): malware infects thousands/millions of computers (bots/zombies) across the world. Infected computers, controlled remotely by the criminal (botmaster), are used for: DDoS attacks (overloading servers), spam campaigns, cryptocurrency mining, click fraud, spreading more malware. Device owners usually unaware their machine is infected and participating in attacks. Famous botnets: Mirai (IoT devices \u2014 600,000 cameras used to attack Dyn 2016), Emotet (banking trojan + botnet). Prevention: keep devices updated, use antivirus, secure IoT devices."
+  },
+  {
+    "QuestionText": "What is the importance of software updates for cybersecurity?",
+    "Options": [
+      "A) Updates add new features only \u2014 not related to security",
+      "B) Updates patch security vulnerabilities that criminals actively exploit \u2014 unpatched systems are primary attack targets",
+      "C) Updates are only important for antivirus software",
+      "D) Updates reduce computer performance \u2014 should be avoided"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Data Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Software updates critically include security patches fixing known vulnerabilities. WannaCry ransomware (2017) exploited a Windows vulnerability \u2014 Microsoft had released a patch 2 months earlier but millions hadn't updated. Unpatched systems are easy targets for automated attacks scanning for known vulnerabilities. Enable automatic updates for: OS (Windows Update, macOS updates), antivirus (signature databases), browsers, and apps. Outdated software is one of the top causes of cybersecurity breaches. Free and frequent updates are why regular patching is fundamental security hygiene."
+  },
+  {
+    "QuestionText": "What is 'social media addiction' and what are its signs?",
+    "Options": [
+      "A) Having more than 3 social media accounts",
+      "B) Compulsive, excessive social media use that interferes with daily life, sleep, relationships, and schoolwork",
+      "C) Spending money on social media advertising",
+      "D) Using social media for school projects"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Wellbeing",
+    "Difficulty": "Foundation",
+    "Explanation": "Social media addiction: compulsive use beyond personal control. Signs: checking phone first thing in morning and last at night, anxiety when unable to access, neglecting homework/chores/sleep for social media, measuring self-worth by likes/followers, FOMO (Fear Of Missing Out), losing track of time while scrolling. Causes: dopamine feedback loop (likes trigger reward, creating craving). Solutions: screen time limits, notification reduction, scheduled 'phone-free' times, offline hobbies, discussing with parents/counsellors."
+  },
+  {
+    "QuestionText": "What is 'phishing' and how do you recognise a phishing email?",
+    "Options": [
+      "A) Legitimate marketing emails from companies",
+      "B) Deceptive emails impersonating trusted entities to steal credentials \u2014 recognised by urgency, generic greetings, suspicious links, poor grammar",
+      "C) Spam advertising products",
+      "D) Automated notifications from banking apps"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Phishing",
+    "Difficulty": "Foundation",
+    "Explanation": "Phishing email signs: Generic greeting ('Dear Customer' instead of your name), Urgent/threatening language ('Your account will be suspended in 24 hours!'), Suspicious sender email (support@bank-security-alert.com instead of official domain), Links that don't match the company website (hover to check), Poor spelling and grammar, Unexpected attachments, Requests for passwords/PINs/OTPs. Protect: never click links in suspicious emails \u2014 type the URL directly. Contact organisation directly using official contact information."
+  },
+  {
+    "QuestionText": "What does 'digital literacy' mean?",
+    "Options": [
+      "A) Typing speed and computer hardware knowledge only",
+      "B) The ability to critically evaluate, use, create, and communicate information using digital technologies",
+      "C) Reading and writing digital text messages",
+      "D) Knowing how to use Microsoft Office applications"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Advanced",
+    "Explanation": "Digital literacy: comprehensive ability to use digital technologies effectively and critically. Components: Technical skills (operating devices, using software), Information literacy (finding, evaluating, using information), Media literacy (critically analysing online content), Communication (appropriate digital communication), Privacy/security awareness, Creative production (creating digital content), Problem-solving with technology. Digital literacy is increasingly an essential life skill \u2014 as important as reading and writing. India's Digital Literacy Mission aims to train millions of citizens in basic digital skills."
+  },
+  {
+    "QuestionText": "What is 'end-to-end encryption' in messaging apps?",
+    "Options": [
+      "A) Messages encrypted only on the sender's device",
+      "B) Messages encrypted throughout transmission \u2014 only sender and recipient can read; not even the service provider",
+      "C) Encryption that ends when the message is opened",
+      "D) Encryption for messages ending with specific codes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Data Security",
+    "Difficulty": "Advanced",
+    "Explanation": "End-to-end encryption (E2EE): messages are encrypted on sender's device and can only be decrypted by the recipient's device \u2014 no one in between (ISP, the messaging company, government, hackers) can read the content. The service provider stores only encrypted ciphertext. WhatsApp, Signal, iMessage use E2EE. Regular SMS: not end-to-end encrypted \u2014 telecom provider can read. E2EE protects against eavesdropping and data breaches \u2014 even if WhatsApp's servers are hacked, message content remains unreadable."
+  },
+  {
+    "QuestionText": "What is responsible use of AI tools like chatbots for schoolwork?",
+    "Options": [
+      "A) Using AI to write all assignments and submitting as your own work",
+      "B) Using AI to understand concepts, brainstorm ideas, and check your work \u2014 but writing assignments yourself and citing AI use when required",
+      "C) Avoiding AI completely \u2014 it's always cheating",
+      "D) Using AI only for maths, not for writing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Advanced",
+    "Explanation": "Responsible AI use in education: Appropriate: using AI to explain concepts you don't understand, brainstorm ideas (then develop yourself), check grammar, get feedback on your draft, research starting points. Inappropriate: submitting AI-written work as your own (academic dishonesty/plagiarism), using AI during tests/exams unless permitted, not developing your own thinking skills. Many schools/exams are developing AI use policies. Building your own skills remains essential \u2014 AI is a tool to enhance, not replace, your learning. Always follow your school's specific guidelines."
+  },
+  {
+    "QuestionText": "What is 'informed consent' in the context of online privacy?",
+    "Options": [
+      "A) Agreeing to all website terms without reading them",
+      "B) Knowingly and willingly agreeing to how your personal data will be collected and used, after being informed clearly",
+      "C) Consent required before sending any email",
+      "D) A legal requirement for downloading apps"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Privacy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Informed consent in data privacy: companies must clearly explain: what data they collect, how it's used, who it's shared with, how long it's stored. Users must genuinely understand and agree (not buried in 50-page terms). GDPR (EU) and India's PDPB require meaningful consent. Problems: 'accept all cookies' dark patterns, incomprehensible privacy policies, bundled consent. Best practice: read privacy settings, choose 'reject non-essential cookies', use privacy-focused alternatives. Children's consent requires parental approval. Your data has value \u2014 you're the product when a service is 'free'."
+  },
+  {
+    "QuestionText": "How should you handle sensitive personal documents digitally?",
+    "Options": [
+      "A) Store them in public cloud folders for easy access anywhere",
+      "B) Store encrypted, use strong passwords, share only when necessary via secure channels, and keep backup copies",
+      "C) Email them to yourself for safekeeping",
+      "D) Print and store physical copies only \u2014 digital storage is unsafe"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Data Security",
+    "Difficulty": "Advanced",
+    "Explanation": "Handling sensitive documents (Aadhaar, PAN, passport scans, financial records): Store in encrypted folders (VeraCrypt, BitLocker, AES encryption), password-protect PDFs before emailing, use secure file sharing (not public Google Drive links), enable 2FA on cloud accounts holding documents, share only what's necessary (don't email Aadhaar card unless required), maintain offline backups, use India's DigiLocker (government cloud) for official documents. Never share sensitive document scans via WhatsApp/social media \u2014 even to 'trusted' groups that may be compromised."
+  },
+  {
+    "QuestionText": "What is 'screen addiction' and what strategies help manage it?",
+    "Options": [
+      "A) Eye damage from screen brightness",
+      "B) Difficulty controlling screen use \u2014 managed by scheduled breaks, offline activities, notification management, and screen time tracking tools",
+      "C) Becoming dependent on autocorrect features",
+      "D) Preferring screens over printed text for all reading"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Wellbeing",
+    "Difficulty": "Foundation",
+    "Explanation": "Screen management strategies: 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds \u2014 prevents eye strain), scheduled phone-free times (meals, 1 hour before bed, during study), disable non-essential notifications (each ping creates dopamine spike), use Do Not Disturb modes, place phone in another room while sleeping, engage in offline hobbies (sports, reading physical books, cooking), have family 'tech-free' time. Apps: Android Digital Wellbeing, Apple Screen Time track and limit usage by category."
+  },
+  {
+    "QuestionText": "What is the danger of 'oversharing' on social media?",
+    "Options": [
+      "A) Wasting mobile data",
+      "B) Enabling stalkers, thieves, and scammers to exploit personal information and location data",
+      "C) Violating social media's character limits",
+      "D) Boring your followers with too many posts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Privacy",
+    "Difficulty": "Foundation",
+    "Explanation": "Oversharing risks: Posting real-time location ('at the airport for 2 weeks') alerts burglars to empty home. School name + photo allows predators to find children. Daily routine (gym at 6am, home alone afternoons) enables stalking. Financial success posts can attract scammers or jealous reactions. Embarrassing content affects future college/job applications. Friends-only posts: friends' accounts can be hacked or friends can screenshot. Rule: assume anything online may eventually become public. Share selectively, use privacy settings, avoid real-time location sharing."
+  },
+  {
+    "QuestionText": "What is cyber hygiene?",
+    "Options": [
+      "A) Cleaning computer screens and keyboards",
+      "B) Regular practices that maintain computer security and protect against cyber threats \u2014 like brushing teeth for computers",
+      "C) Antivirus software subscription renewal",
+      "D) Regular data backup only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Data Security",
+    "Difficulty": "Advanced",
+    "Explanation": "Cyber hygiene: regular security maintenance practices: Update software/OS regularly (patch vulnerabilities), Use strong unique passwords + password manager, Enable 2FA everywhere, Regular data backups (3-2-1 rule), Keep antivirus updated and run scans, Review app permissions periodically, Log out of accounts on shared devices, Clear unused accounts, Monitor bank statements for fraud, Be vigilant about phishing. Just as physical hygiene prevents disease, cyber hygiene prevents most common cyberattacks. Most breaches result from neglecting basic hygiene."
+  },
+  {
+    "QuestionText": "Statement 1: Cybersecurity is only important for businesses and governments. Statement 2: Individual users are primary targets for phishing, identity theft, and financial fraud. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Data Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Statement 1 FALSE: cybersecurity is crucial for individuals \u2014 personal financial data, identity information, and privacy are all at risk. Statement 2 TRUE: individuals are major targets because: they have valuable financial information (banking, credit cards), tend to have weaker security than businesses, and are more susceptible to social engineering. India sees millions of individual cyber fraud cases annually (UPI fraud, phishing, identity theft). Every internet user needs personal cybersecurity awareness. Cybercriminals target the easiest victims regardless of whether they're individuals or organisations."
+  },
+  {
+    "QuestionText": "What is a 'digital will' or 'digital legacy'?",
+    "Options": [
+      "A) A legally binding electronic will replacing a physical will",
+      "B) Planning what happens to your digital accounts and data after death \u2014 who gets access and which accounts should be deleted",
+      "C) Transferring digital skills to the next generation",
+      "D) Leaving money to technology charities"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Olympiad",
+    "Explanation": "Digital legacy planning: increasingly important as people store valuable data, memories (photos), and assets (cryptocurrency, domain names, subscription services) digitally. Options: Facebook Legacy Contact (nominates someone to manage your memorial page), Google Inactive Account Manager (shares data with trusted contacts after inactivity), password manager legacy access, legal digital will specifying account access. With billions of digital accounts, families increasingly need access to deceased loved ones' digital lives \u2014 photos, important documents, messages."
+  },
+  {
+    "QuestionText": "What is 'disinformation' vs 'misinformation'?",
+    "Options": [
+      "A) They are synonyms for fake news",
+      "B) Misinformation = false info spread without intent to deceive; disinformation = false info spread deliberately to deceive or manipulate",
+      "C) Disinformation is more serious because it involves government deception only",
+      "D) Misinformation involves images; disinformation involves text"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Digital Citizenship",
+    "Difficulty": "Advanced",
+    "Explanation": "Key distinction: Misinformation: false or inaccurate information spread by someone who believes it is true \u2014 no malicious intent. Example: sharing a misleading health tip believing it's helpful. Disinformation: deliberately false information created and spread with intent to deceive, manipulate, or harm. Example: political propaganda, deep fake videos, coordinated influence campaigns. Both are harmful regardless of intent. In the digital age, disinformation can spread globally in seconds. Tools: fact-checking sites, media literacy education, platform policies. India's IT Rules 2021 require platforms to remove disinformation."
+  },
+  {
+    "QuestionText": "What is 'e-safety' or 'internet safety' education important for Grade 8 students?",
+    "Options": [
+      "A) Learning to use Microsoft Office efficiently",
+      "B) Developing awareness and skills to navigate online risks, protect personal information, and make responsible digital choices",
+      "C) Programming skills for cybersecurity careers",
+      "D) Understanding internet technical protocols"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "E-safety/internet safety education at Grade 8 level covers: recognising and avoiding online risks (phishing, predators, cyberbullying, fake news), protecting personal information, understanding digital footprint, responsible social media use, copyright and plagiarism, managing screen time, critical evaluation of online information, reporting online concerns. At this age, students are actively using social media, online gaming, and messaging \u2014 understanding risks enables safer, smarter digital participation. Skills learned now protect students throughout life as digital technologies continue to evolve."
+  },
+  {
+    "QuestionText": "What is 'dark web' and should you access it?",
+    "Options": [
+      "A) Websites that have dark colour themes",
+      "B) A hidden part of the internet accessible via special browsers, often used for illegal activities \u2014 avoid for safety and legal reasons",
+      "C) The internet during nighttime hours",
+      "D) Old websites no longer maintained"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Online Safety",
+    "Difficulty": "Olympiad",
+    "Explanation": "Dark web: a portion of the internet only accessible via special software (Tor browser), not indexed by regular search engines. While some legitimate uses exist (anonymous journalism in authoritarian countries), it's predominantly associated with: illegal marketplaces (drugs, stolen data, weapons), criminal forums, illegal content. Accessing dark web for illegal purposes is a crime in India. Regular users have NO reason to access it. The 'surface web' (Google-indexed) and 'deep web' (private databases, email, banking \u2014 legitimate, password-protected) are different from the criminal dark web."
+  },
+  {
+    "QuestionText": "What are the risks of using the same email for all online accounts?",
+    "Options": [
+      "A) Email storage fills up faster",
+      "B) A single email breach/phishing attack gives attackers access to reset passwords for all linked accounts",
+      "C) Internet speed decreases with multiple account associations",
+      "D) No significant risks \u2014 convenience outweighs concerns"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Cyber Safety",
+    "SubTopic": "Password Security",
+    "Difficulty": "Advanced",
+    "Explanation": "Using the same email everywhere: if that email account is compromised (phished, password guessed, data breach), attackers can: request password resets for all linked accounts (bank, social media, shopping), use 'forgot password' to take over every account associated with that email. Best practices: use a separate, highly-secured email for banking/financial accounts, enable 2FA on email account (critical gateway), use aliases/separate email for less important accounts (reduces spam and breach exposure), regularly check haveibeenpwned.com for breach status."
+  }
+]

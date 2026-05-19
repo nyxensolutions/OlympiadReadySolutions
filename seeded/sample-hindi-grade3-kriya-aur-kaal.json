@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "क्रिया किसे कहते हैं?",
+        "Options":  [
+                        "A) कार्य के होने या करने का बोध कराने वाला शब्द",
+                        "B) नाम बताने वाला",
+                        "C) विशेषता बताने वाला",
+                        "D) जगह बताने वाला"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "क्रिया कार्य का बोध कराती है — खाना, पीना, सोना।"
+    },
+    {
+        "QuestionText":  "सकर्मक क्रिया में क्या होता है?",
+        "Options":  [
+                        "A) क्रिया के साथ कर्म (object) होता है",
+                        "B) कर्म नहीं होता",
+                        "C) केवल भाव बताती है",
+                        "D) विशेषता बताती है"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सकर्मक में कर्म होता है — मैंने सेब खाया।"
+    },
+    {
+        "QuestionText":  "अकर्मक क्रिया में क्या होता है?",
+        "Options":  [
+                        "A) क्रिया के साथ कोई कर्म नहीं होता",
+                        "B) कर्म होता है",
+                        "C) केवल गुण बताती है",
+                        "D) संज्ञा होती है"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "बच्चा रोया — अकर्मक।"
+    },
+    {
+        "QuestionText":  "काल का अर्थ क्या है?",
+        "Options":  [
+                        "A) क्रिया के घटित होने के समय का बोध",
+                        "B) स्थान का बोध",
+                        "C) मात्रा का बोध",
+                        "D) गुण का बोध"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "काल बताता है — भूत, वर्तमान या भविष्य।"
+    },
+    {
+        "QuestionText":  "हिंदी में काल के कितने मुख्य भेद हैं?",
+        "Options":  [
+                        "A) तीन — भूत, वर्तमान, भविष्य",
+                        "B) दो",
+                        "C) चार",
+                        "D) पाँच"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भूतकाल, वर्तमानकाल, भविष्यकाल।"
+    },
+    {
+        "QuestionText":  "राम खेलता है — कौन-सा काल?",
+        "Options":  [
+                        "A) वर्तमानकाल",
+                        "B) भूतकाल",
+                        "C) भविष्यकाल",
+                        "D) संभावितकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "वर्तमानकाल।"
+    },
+    {
+        "QuestionText":  "राम खेला — कौन-सा काल?",
+        "Options":  [
+                        "A) भूतकाल",
+                        "B) वर्तमानकाल",
+                        "C) भविष्यकाल",
+                        "D) सामान्यकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भूतकाल।"
+    },
+    {
+        "QuestionText":  "राम खेलेगा — कौन-सा काल?",
+        "Options":  [
+                        "A) भविष्यकाल",
+                        "B) भूतकाल",
+                        "C) वर्तमानकाल",
+                        "D) सामान्यकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भविष्यकाल।"
+    },
+    {
+        "QuestionText":  "राम रोज़ स्कूल जाता है — कौन-सा काल?",
+        "Options":  [
+                        "A) सामान्य वर्तमानकाल",
+                        "B) अपूर्ण वर्तमान",
+                        "C) पूर्ण वर्तमान",
+                        "D) भूतकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सामान्य वर्तमानकाल।"
+    },
+    {
+        "QuestionText":  "राम खाना खा रहा है — कौन-सा काल?",
+        "Options":  [
+                        "A) अपूर्ण वर्तमानकाल",
+                        "B) सामान्य वर्तमान",
+                        "C) पूर्ण भूत",
+                        "D) भविष्य"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "अपूर्ण वर्तमान — जारी।"
+    },
+    {
+        "QuestionText":  "वह जा चुका था — कौन-सा काल?",
+        "Options":  [
+                        "A) पूर्ण भूतकाल",
+                        "B) सामान्य भूत",
+                        "C) अपूर्ण भूत",
+                        "D) भविष्यकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "पूर्ण भूतकाल।"
+    },
+    {
+        "QuestionText":  "राम आया — कौन-सा काल?",
+        "Options":  [
+                        "A) सामान्य भूतकाल",
+                        "B) अपूर्ण भूत",
+                        "C) पूर्ण भूत",
+                        "D) वर्तमानकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सामान्य भूतकाल।"
+    },
+    {
+        "QuestionText":  "वह कल जाएगी — कौन-सा काल?",
+        "Options":  [
+                        "A) सामान्य भविष्यकाल",
+                        "B) भूतकाल",
+                        "C) वर्तमानकाल",
+                        "D) संभाव्य भविष्य"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सामान्य भविष्यकाल।"
+    },
+    {
+        "QuestionText":  "वह पढ़ रही थी — कौन-सा काल?",
+        "Options":  [
+                        "A) अपूर्ण भूतकाल",
+                        "B) सामान्य भूत",
+                        "C) पूर्ण भूत",
+                        "D) वर्तमानकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "अपूर्ण भूतकाल।"
+    },
+    {
+        "QuestionText":  "वे खेल चुके हैं — कौन-सा काल?",
+        "Options":  [
+                        "A) पूर्ण वर्तमानकाल",
+                        "B) सामान्य वर्तमान",
+                        "C) अपूर्ण वर्तमान",
+                        "D) भूतकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Advanced",
+        "Explanation":  "पूर्ण वर्तमानकाल।"
+    },
+    {
+        "QuestionText":  "वह पढ़ती होगी — कौन-सा काल?",
+        "Options":  [
+                        "A) संभाव्य / अनुमानार्थ",
+                        "B) सामान्य भविष्य",
+                        "C) पूर्ण भविष्य",
+                        "D) सामान्य भूत"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Advanced",
+        "Explanation":  "संभावना — अनुमानार्थ।"
+    },
+    {
+        "QuestionText":  "संयुक्त क्रिया का उदाहरण कौन-सा है?",
+        "Options":  [
+                        "A) उठ जाना, पढ़ लेना",
+                        "B) खाना, पीना",
+                        "C) जाता है",
+                        "D) खाया था"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "संयुक्त क्रिया दो क्रियाओं से बनती है।"
+    },
+    {
+        "QuestionText":  "प्रेरणार्थक क्रिया का उदाहरण?",
+        "Options":  [
+                        "A) सुलाना, पढ़ाना, खिलाना",
+                        "B) सोना",
+                        "C) सोया",
+                        "D) सो रहा है"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "प्रेरणार्थक — एक कर्ता दूसरे को काम के लिए प्रेरित करता है।"
+    },
+    {
+        "QuestionText":  "सहायक क्रिया किसे कहते हैं?",
+        "Options":  [
+                        "A) मुख्य क्रिया की सहायता करने वाली — है, था, होगा",
+                        "B) स्वतंत्र क्रिया",
+                        "C) संज्ञा",
+                        "D) विशेषण"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "है, था, होगा — सहायक क्रियाएँ।"
+    },
+    {
+        "QuestionText":  "पूर्वकालिक क्रिया का उदाहरण?",
+        "Options":  [
+                        "A) खाकर जाओ, पढ़कर सोओ",
+                        "B) खाता है",
+                        "C) जा रहा है",
+                        "D) खाएगा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "पूर्वकालिक — पहले पूरी हो, फिर अगली।"
+    },
+    {
+        "QuestionText":  "नामधातु क्रिया किसे कहते हैं?",
+        "Options":  [
+                        "A) संज्ञा/विशेषण से बनी क्रिया — गरमाना",
+                        "B) मूल क्रिया",
+                        "C) सहायक",
+                        "D) संयुक्त"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "गरम → गरमाना — नामधातु।"
+    },
+    {
+        "QuestionText":  "द्विकर्मक क्रिया किसे कहते हैं?",
+        "Options":  [
+                        "A) जिसके दो कर्म हों — राम को किताब दी",
+                        "B) एक कर्म वाली",
+                        "C) बिना कर्म",
+                        "D) भाव बताने वाली"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "देना, भेजना — द्विकर्मक।"
+    },
+    {
+        "QuestionText":  "पकाना किस मूल धातु से बना है?",
+        "Options":  [
+                        "A) पक",
+                        "B) पका",
+                        "C) पकाव",
+                        "D) पकौड़ा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "पक + आना → पकाना।"
+    },
+    {
+        "QuestionText":  "सोना से प्रेरणार्थक क्रिया क्या होगी?",
+        "Options":  [
+                        "A) सुलाना",
+                        "B) सोना",
+                        "C) सोया",
+                        "D) सोएगा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "सो → सुलाना।"
+    },
+    {
+        "QuestionText":  "मैं, तुम, वह — होना का वर्तमान रूप?",
+        "Options":  [
+                        "A) मैं हूँ, तुम हो, वह है",
+                        "B) मैं है, तुम है",
+                        "C) मैं था, तुम थे",
+                        "D) मैं हूँगा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "होना — वर्तमान: हूँ, हो, है।"
+    },
+    {
+        "QuestionText":  "भूतकाल में होना का रूप?",
+        "Options":  [
+                        "A) मैं था/थी, तुम थे, वह था/थी",
+                        "B) मैं हूँ, तुम हो",
+                        "C) मैं हूँगा",
+                        "D) मैं रहूँगा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भूत — था/थी।"
+    },
+    {
+        "QuestionText":  "भविष्यकाल में होना का रूप?",
+        "Options":  [
+                        "A) मैं हूँगा, तुम होगे, वह होगा",
+                        "B) मैं हूँ, तुम हो",
+                        "C) मैं था",
+                        "D) मैं था/थी"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भविष्य — हूँगा/होगे/होगा।"
+    },
+    {
+        "QuestionText":  "आज्ञार्थक वाक्य में क्रिया का रूप?",
+        "Options":  [
+                        "A) जाओ, बैठो, खाइए",
+                        "B) प्रश्न रूप",
+                        "C) कथन रूप",
+                        "D) संभावना रूप"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "जाओ, खाइए — आज्ञार्थक।"
+    },
+    {
+        "QuestionText":  "बच्चा दौड़ा — दौड़ा किस प्रकार की क्रिया है?",
+        "Options":  [
+                        "A) अकर्मक",
+                        "B) सकर्मक",
+                        "C) सहायक",
+                        "D) प्रेरणार्थक"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "दौड़ा — अकर्मक।"
+    },
+    {
+        "QuestionText":  "माँ ने बच्चे को दूध पिलाया — पिलाया किस प्रकार?",
+        "Options":  [
+                        "A) प्रेरणार्थक सकर्मक",
+                        "B) अकर्मक",
+                        "C) सहायक",
+                        "D) नामधातु"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "पिलाना = पीना का प्रेरणार्थक।"
+    },
+    {
+        "QuestionText":  "सीता गाती है — क्रिया का लिंग?",
+        "Options":  [
+                        "A) स्त्रीलिंग",
+                        "B) पुल्लिंग",
+                        "C) उभयलिंग",
+                        "D) अपरिवर्तित"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "गाती है — स्त्रीलिंग।"
+    },
+    {
+        "QuestionText":  "राम गाता है — क्रिया का लिंग?",
+        "Options":  [
+                        "A) पुल्लिंग",
+                        "B) स्त्रीलिंग",
+                        "C) उभयलिंग",
+                        "D) अपरिवर्तित"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "गाता है — पुल्लिंग।"
+    },
+    {
+        "QuestionText":  "राम ने रोटी खाई — खाई में लिंग-वचन?",
+        "Options":  [
+                        "A) स्त्रीलिंग एकवचन (रोटी के अनुसार)",
+                        "B) पुल्लिंग",
+                        "C) बहुवचन",
+                        "D) अपरिवर्तित"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "ने के साथ सकर्मक में क्रिया कर्म के अनुसार।"
+    },
+    {
+        "QuestionText":  "बच्चे खेल रहे हैं — कौन-सा काल?",
+        "Options":  [
+                        "A) अपूर्ण वर्तमानकाल",
+                        "B) सामान्य वर्तमान",
+                        "C) पूर्ण वर्तमान",
+                        "D) भविष्यकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "खेल रहे हैं — जारी।"
+    },
+    {
+        "QuestionText":  "तुम जाओ — जाओ किस मनोदशा में?",
+        "Options":  [
+                        "A) आज्ञार्थक",
+                        "B) वर्तमान",
+                        "C) भूतकाल",
+                        "D) संभाव्य"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "जाओ — आज्ञार्थक।"
+    },
+    {
+        "QuestionText":  "काश! वह आता! — किस प्रकार की मनोदशा?",
+        "Options":  [
+                        "A) इच्छार्थक / संभावनार्थक",
+                        "B) वर्तमान",
+                        "C) भूत",
+                        "D) आज्ञार्थक"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "काश! — इच्छा।"
+    },
+    {
+        "QuestionText":  "वह जा सकता है — सकता किस प्रकार का पद?",
+        "Options":  [
+                        "A) सहायक क्रिया (Modal)",
+                        "B) मुख्य क्रिया",
+                        "C) विशेषण",
+                        "D) क्रिया-विशेषण"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "सकता — Modal सहायक।"
+    },
+    {
+        "QuestionText":  "खाओ — यह किस पुरुष के लिए?",
+        "Options":  [
+                        "A) मध्यम पुरुष — तुम",
+                        "B) उत्तम पुरुष",
+                        "C) अन्य पुरुष",
+                        "D) सभी"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "खाओ — तुम।"
+    },
+    {
+        "QuestionText":  "खाइए — यह किस पुरुष के लिए?",
+        "Options":  [
+                        "A) मध्यम पुरुष आदरसूचक — आप",
+                        "B) उत्तम पुरुष",
+                        "C) अन्य पुरुष",
+                        "D) बहुवचन"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "खाइए — आप।"
+    },
+    {
+        "QuestionText":  "हम जाएँगे — कौन-सा काल?",
+        "Options":  [
+                        "A) भविष्यकाल, बहुवचन",
+                        "B) भूतकाल",
+                        "C) वर्तमानकाल",
+                        "D) संभाव्य"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "जाएँगे — भविष्यकाल।"
+    },
+    {
+        "QuestionText":  "पढ़ा लेना किस प्रकार की क्रिया है?",
+        "Options":  [
+                        "A) संयुक्त क्रिया",
+                        "B) मूल क्रिया",
+                        "C) प्रेरणार्थक",
+                        "D) अकर्मक"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "दो क्रियाओं का मेल — संयुक्त।"
+    },
+    {
+        "QuestionText":  "मोहन ने मुझे किताब दी — कितने कर्म?",
+        "Options":  [
+                        "A) दो — मुझे और किताब",
+                        "B) एक — किताब",
+                        "C) एक — मुझे",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "दी — द्विकर्मक।"
+    },
+    {
+        "QuestionText":  "वह नाचती है — क्रिया का वचन?",
+        "Options":  [
+                        "A) एकवचन",
+                        "B) बहुवचन",
+                        "C) अनिश्चित",
+                        "D) अपरिवर्तित"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "वह एकवचन — क्रिया एकवचन।"
+    },
+    {
+        "QuestionText":  "वे नाचती हैं — क्रिया का वचन?",
+        "Options":  [
+                        "A) बहुवचन",
+                        "B) एकवचन",
+                        "C) अनिश्चित",
+                        "D) अपरिवर्तित"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "वे बहुवचन — क्रिया बहुवचन।"
+    },
+    {
+        "QuestionText":  "मैं जाऊँगा — काल-पुरुष?",
+        "Options":  [
+                        "A) भविष्यकाल, उत्तम पुरुष, पुल्लिंग",
+                        "B) भविष्य, मध्यम पुरुष",
+                        "C) भविष्य, अन्य पुरुष",
+                        "D) भूतकाल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "काल",
+        "Difficulty":  "Foundation",
+        "Explanation":  "जाऊँगा — मैं + भविष्य + पुल्लिंग।"
+    },
+    {
+        "QuestionText":  "खाकर किस प्रकार की क्रिया है?",
+        "Options":  [
+                        "A) पूर्वकालिक क्रिया",
+                        "B) मुख्य क्रिया",
+                        "C) सहायक",
+                        "D) नामधातु"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Advanced",
+        "Explanation":  "खाकर — पूर्वकालिक।"
+    },
+    {
+        "QuestionText":  "जाना, आना, खाना — किस प्रकार की क्रियाएँ?",
+        "Options":  [
+                        "A) मूल क्रियाएँ (धातु + ना)",
+                        "B) संयुक्त",
+                        "C) प्रेरणार्थक",
+                        "D) नामधातु"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "जा + ना = जाना — मूल।"
+    },
+    {
+        "QuestionText":  "कर्म के आधार पर क्रिया के कितने भेद?",
+        "Options":  [
+                        "A) दो — सकर्मक और अकर्मक",
+                        "B) तीन",
+                        "C) चार",
+                        "D) एक"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सकर्मक (कर्म है) और अकर्मक (कर्म नहीं)।"
+    },
+    {
+        "QuestionText":  "लिखना, पढ़ना, खाना — सकर्मक या अकर्मक?",
+        "Options":  [
+                        "A) सकर्मक",
+                        "B) अकर्मक",
+                        "C) दोनों",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "पढ़ना — क्या पढ़ा? किताब (कर्म) — सकर्मक।"
+    },
+    {
+        "QuestionText":  "हँसना, रोना, सोना — सकर्मक या अकर्मक?",
+        "Options":  [
+                        "A) अकर्मक",
+                        "B) सकर्मक",
+                        "C) दोनों",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "क्रिया",
+        "Difficulty":  "Foundation",
+        "Explanation":  "हँसना, रोना — कर्म नहीं — अकर्मक।"
+    }
+]

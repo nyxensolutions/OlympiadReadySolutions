@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "Anything that has mass and takes up space is called — ",
+        "Options":  [
+                        "A) Matter",
+                        "B) Energy",
+                        "C) Light",
+                        "D) Sound"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Matter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Matter is defined as anything that has mass and occupies space (volume)."
+    },
+    {
+        "QuestionText":  "Water is an example of — ",
+        "Options":  [
+                        "A) Liquid",
+                        "B) Solid",
+                        "C) Gas",
+                        "D) Plasma"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "States of Matter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Water at room temperature is a liquid — it has a definite volume but takes the shape of its container."
+    },
+    {
+        "QuestionText":  "Which state of matter has a fixed shape and fixed volume?",
+        "Options":  [
+                        "A) Solid",
+                        "B) Liquid",
+                        "C) Gas",
+                        "D) Vapour"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "States of Matter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Solids have a definite shape and volume because their particles are tightly packed in fixed positions."
+    },
+    {
+        "QuestionText":  "Which state of matter has no fixed shape and no fixed volume?",
+        "Options":  [
+                        "A) Gas",
+                        "B) Liquid",
+                        "C) Solid",
+                        "D) Ice"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "States of Matter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Gas particles move freely, filling any container completely — no fixed shape or volume."
+    },
+    {
+        "QuestionText":  "When water is heated strongly, it changes to — ",
+        "Options":  [
+                        "A) Water vapour (steam)",
+                        "B) Ice",
+                        "C) Solid",
+                        "D) Metal"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Changing States",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Heating water to 100°C causes it to boil and turn into water vapour (steam) — a gas."
+    },
+    {
+        "QuestionText":  "When water is cooled to 0°C, it changes to — ",
+        "Options":  [
+                        "A) Ice",
+                        "B) Steam",
+                        "C) Vapour",
+                        "D) Hot water"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Changing States",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Water freezes at 0°C, becoming ice — a solid."
+    },
+    {
+        "QuestionText":  "The change from liquid to gas (by heating) is called — ",
+        "Options":  [
+                        "A) Evaporation or boiling",
+                        "B) Melting",
+                        "C) Freezing",
+                        "D) Condensation"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Changes of State",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Evaporation is liquid→gas at the surface; boiling is rapid evaporation throughout the liquid."
+    },
+    {
+        "QuestionText":  "The change from gas to liquid (by cooling) is called — ",
+        "Options":  [
+                        "A) Condensation",
+                        "B) Evaporation",
+                        "C) Freezing",
+                        "D) Melting"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Changes of State",
+        "Difficulty":  "Foundation",
+        "Explanation":  "When a gas cools, its particles slow down and come closer together, becoming a liquid — condensation."
+    },
+    {
+        "QuestionText":  "Wood, stone, iron, and plastic are all examples of — ",
+        "Options":  [
+                        "A) Solids",
+                        "B) Liquids",
+                        "C) Gases",
+                        "D) Mixtures"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Solids",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Wood, stone, iron, and plastic all have fixed shapes and volumes — they are solids."
+    },
+    {
+        "QuestionText":  "Which property helps us use iron to make knives and scissors?",
+        "Options":  [
+                        "A) It is hard and can be sharpened",
+                        "B) It is soft",
+                        "C) It is light",
+                        "D) It is transparent"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Materials",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Iron is hard and strong, so it can be shaped, sharpened, and used to cut things."
+    },
+    {
+        "QuestionText":  "Which material is used for making window panes because it is transparent?",
+        "Options":  [
+                        "A) Glass",
+                        "B) Wood",
+                        "C) Metal",
+                        "D) Plastic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Materials",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Glass is transparent — light passes through it — making it ideal for windows."
+    },
+    {
+        "QuestionText":  "Rubber is used for making erasers because it is — ",
+        "Options":  [
+                        "A) Flexible and can rub off pencil marks",
+                        "B) Very hard",
+                        "C) Transparent",
+                        "D) Magnetic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Materials",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Rubber is flexible and has friction, which allows it to rub away pencil graphite from paper."
+    },
+    {
+        "QuestionText":  "Which material is the best conductor of electricity?",
+        "Options":  [
+                        "A) Copper (metal)",
+                        "B) Wood",
+                        "C) Rubber",
+                        "D) Plastic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Conductors and Insulators",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Metals like copper allow electric current to flow through them easily — they are good conductors."
+    },
+    {
+        "QuestionText":  "Plastic and rubber do NOT conduct electricity. They are called — ",
+        "Options":  [
+                        "A) Insulators",
+                        "B) Conductors",
+                        "C) Magnets",
+                        "D) Mixtures"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Conductors and Insulators",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Insulators do not allow electric current to flow through them, making them safe for coating wires."
+    },
+    {
+        "QuestionText":  "Which of these is magnetic?",
+        "Options":  [
+                        "A) Iron",
+                        "B) Wood",
+                        "C) Rubber",
+                        "D) Glass"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Magnetic Materials",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Iron is a magnetic material — it is attracted to magnets."
+    },
+    {
+        "QuestionText":  "Which material is waterproof and used to make raincoats?",
+        "Options":  [
+                        "A) Rubber/waterproof plastic",
+                        "B) Cotton",
+                        "C) Wool",
+                        "D) Paper"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Materials",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Rubber and waterproof plastics do not absorb water, keeping rain out."
+    },
+    {
+        "QuestionText":  "The melting point of a solid is the temperature at which it — ",
+        "Options":  [
+                        "A) Changes from solid to liquid",
+                        "B) Changes from liquid to gas",
+                        "C) Becomes harder",
+                        "D) Mixes with water"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Melting Point",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The melting point is the specific temperature at which a solid material becomes a liquid."
+    },
+    {
+        "QuestionText":  "Ice at room temperature melts. This is because — ",
+        "Options":  [
+                        "A) Room temperature is above 0°C (ice\u0027s melting point)",
+                        "B) Air is wet",
+                        "C) Sun melts all things",
+                        "D) Ice is always liquid"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Melting and Temperature",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Ice\u0027s melting point is 0°C; room temperature (~25°C) is higher, so ice absorbs heat and melts."
+    },
+    {
+        "QuestionText":  "A mixture can be separated because — ",
+        "Options":  [
+                        "A) The substances in it keep their own properties",
+                        "B) They change chemically",
+                        "C) They melt together",
+                        "D) They become one new substance"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Mixtures",
+        "Difficulty":  "Advanced",
+        "Explanation":  "In a mixture, substances are physically combined and keep their own properties, allowing separation."
+    },
+    {
+        "QuestionText":  "Which method separates sand from water?",
+        "Options":  [
+                        "A) Filtration",
+                        "B) Evaporation",
+                        "C) Sieving",
+                        "D) Magnetic separation"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Separating Mixtures",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Filtration uses a filter paper to trap solid sand particles while water passes through."
+    },
+    {
+        "QuestionText":  "Which method separates a soluble solid (like salt) from water?",
+        "Options":  [
+                        "A) Evaporation",
+                        "B) Filtration",
+                        "C) Sieving",
+                        "D) Sedimentation"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Separating Mixtures",
+        "Difficulty":  "Advanced",
+        "Explanation":  "When water evaporates by heating, dissolved salt is left behind as a solid."
+    },
+    {
+        "QuestionText":  "Which method separates iron filings from sand?",
+        "Options":  [
+                        "A) Using a magnet",
+                        "B) Sieving",
+                        "C) Filtration",
+                        "D) Dissolving"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Separating Mixtures",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A magnet attracts iron filings, separating them from non-magnetic sand."
+    },
+    {
+        "QuestionText":  "Sugar dissolves in water to make a solution. This means the sugar — ",
+        "Options":  [
+                        "A) Breaks into tiny particles and mixes evenly with water",
+                        "B) Melts",
+                        "C) Reacts to form a new substance",
+                        "D) Sinks to the bottom"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Solutions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Dissolving is a physical change where a solute disperses evenly throughout a solvent."
+    },
+    {
+        "QuestionText":  "Which is an example of a chemical change (new substance formed)?",
+        "Options":  [
+                        "A) Burning wood",
+                        "B) Melting ice",
+                        "C) Dissolving salt",
+                        "D) Cutting paper"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Physical vs Chemical Changes",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Burning wood produces ash, CO₂, and water — entirely new substances. It is a chemical change."
+    },
+    {
+        "QuestionText":  "Rusting of iron is a chemical change because — ",
+        "Options":  [
+                        "A) Iron reacts with oxygen and water to form a new substance (rust)",
+                        "B) Rust can be easily removed",
+                        "C) Iron changes colour only",
+                        "D) It is reversible"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Chemical Changes",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Rust (iron oxide) is a new substance with different properties — it cannot be turned back into iron easily."
+    },
+    {
+        "QuestionText":  "Which material is the hardest naturally occurring substance on Earth?",
+        "Options":  [
+                        "A) Diamond",
+                        "B) Iron",
+                        "C) Granite",
+                        "D) Quartz"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Materials",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Diamond is the hardest natural material, rated 10 on the Mohs hardness scale."
+    },
+    {
+        "QuestionText":  "Solubility means — ",
+        "Options":  [
+                        "A) How much of a substance dissolves in a liquid at a given temperature",
+                        "B) How fast a substance melts",
+                        "C) How hard a substance is",
+                        "D) How transparent a substance is"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Solubility",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Solubility is the amount of solute that can dissolve in a solvent at a specific temperature."
+    },
+    {
+        "QuestionText":  "A candle melts when lit, but wax can be re-solidified by cooling. This shows that — ",
+        "Options":  [
+                        "A) Melting is a reversible physical change",
+                        "B) Burning is reversible",
+                        "C) Wax is a liquid at all times",
+                        "D) Cooling creates a new substance"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Reversible Changes",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Melting and solidifying are physical changes that do not alter the chemical nature of the substance."
+    },
+    {
+        "QuestionText":  "Which property of metals makes them useful for making pots and pans?",
+        "Options":  [
+                        "A) They conduct heat well",
+                        "B) They are transparent",
+                        "C) They are insulators",
+                        "D) They are very light"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Metals",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Metals are good conductors of heat, allowing cooking pots to transfer heat from the flame to food efficiently."
+    },
+    {
+        "QuestionText":  "Foam used in mattresses and cushions is valued because it is — ",
+        "Options":  [
+                        "A) Soft, springy, and moulds to body shape",
+                        "B) Very heavy",
+                        "C) Waterproof",
+                        "D) Magnetic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Materials",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Foam\u0027s open-cell structure makes it compressible and springy, providing comfort in cushions and mattresses."
+    },
+    {
+        "QuestionText":  "A student mixes iron filings, sand, and salt in water. Describe the correct sequence to separate all three.",
+        "Options":  [
+                        "A) Magnet (iron) → filter (sand) → evaporate (salt)",
+                        "B) Filter then evaporate then magnet",
+                        "C) Evaporate then sieve then magnet",
+                        "D) Dissolve all, then sieve"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Separation Techniques",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Step 1: magnet removes iron filings. Step 2: filter removes sand. Step 3: evaporation leaves salt crystals."
+    },
+    {
+        "QuestionText":  "Why does a gas fill the entire container it is kept in?",
+        "Options":  [
+                        "A) Gas particles move randomly at high speed in all directions",
+                        "B) Gas is very heavy",
+                        "C) Gas particles are fixed in place",
+                        "D) Gas is attracted to container walls"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Kinetic Theory",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Gas particles have enough kinetic energy to move freely and spread throughout any available volume."
+    },
+    {
+        "QuestionText":  "Water at 100°C turns to steam. This needs heat energy (540 cal/g). The heat used during boiling — ",
+        "Options":  [
+                        "A) Breaks bonds between water molecules without raising temperature",
+                        "B) Raises temperature rapidly",
+                        "C) Creates a new substance",
+                        "D) Is lost to the ground"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Latent Heat",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Latent heat of vaporisation is absorbed to break intermolecular bonds; temperature stays at 100°C during boiling."
+    },
+    {
+        "QuestionText":  "Steel is an alloy of iron and carbon. An alloy is — ",
+        "Options":  [
+                        "A) A mixture of two or more metals (or metal + non-metal) with better properties",
+                        "B) A pure element",
+                        "C) A chemical compound only",
+                        "D) A natural ore"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Alloys",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Alloys are mixtures designed to have improved properties like greater hardness, resistance, or conductivity."
+    },
+    {
+        "QuestionText":  "If 10 g of salt dissolves completely in 100 mL water, what is the concentration in g/mL?",
+        "Options":  [
+                        "A) 0.1 g/mL",
+                        "B) 1 g/mL",
+                        "C) 10 g/mL",
+                        "D) 0.01 g/mL"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Concentration",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Concentration = 10 g ÷ 100 mL = 0.1 g/mL."
+    },
+    {
+        "QuestionText":  "Chromatography separates — ",
+        "Options":  [
+                        "A) Different coloured dyes in ink by how fast they move through paper",
+                        "B) Sand from water",
+                        "C) Iron from sand",
+                        "D) Salt from sugar"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Advanced Separation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "In paper chromatography, different dye molecules travel at different speeds, separating into distinct bands."
+    },
+    {
+        "QuestionText":  "Glass is made mainly from — ",
+        "Options":  [
+                        "A) Sand (silicon dioxide) melted at high temperature",
+                        "B) Iron ore",
+                        "C) Plastic",
+                        "D) Limestone only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Materials Science",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Glass is primarily made by melting silica (sand), soda ash, and limestone at very high temperatures."
+    },
+    {
+        "QuestionText":  "Recycling aluminium cans saves about 95% of the energy needed to make new aluminium. This is because — ",
+        "Options":  [
+                        "A) Re-melting scrap needs far less energy than extracting from ore",
+                        "B) Aluminium is cheap",
+                        "C) Recycled aluminium is purer",
+                        "D) New aluminium is heavier"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Materials and Environment",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Extracting aluminium from bauxite ore by electrolysis is extremely energy-intensive; recycling bypasses this."
+    },
+    {
+        "QuestionText":  "Dry ice is solid carbon dioxide. It goes directly from solid to gas without becoming liquid. This process is called — ",
+        "Options":  [
+                        "A) Sublimation",
+                        "B) Evaporation",
+                        "C) Condensation",
+                        "D) Freezing"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "States of Matter",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Sublimation is the direct change from solid to gas without passing through the liquid state."
+    },
+    {
+        "QuestionText":  "Density is mass per unit volume. Water has density 1 g/mL. If an object has density 0.8 g/mL, it will — ",
+        "Options":  [
+                        "A) Float on water",
+                        "B) Sink",
+                        "C) Dissolve",
+                        "D) Stay suspended"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Density and Floating",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Objects less dense than water (density \u003c 1 g/mL) float; denser objects sink."
+    },
+    {
+        "QuestionText":  "Mixing vinegar and baking soda produces bubbles of CO₂. This is a — ",
+        "Options":  [
+                        "A) Chemical change because a new gas is produced",
+                        "B) Physical change",
+                        "C) Reversible change",
+                        "D) Dissolving process"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Chemical vs Physical Change",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Production of CO₂ (a new substance) confirms this is a chemical reaction, not a physical change."
+    },
+    {
+        "QuestionText":  "Which of these changes is REVERSIBLE?",
+        "Options":  [
+                        "A) Dissolving sugar in water",
+                        "B) Burning paper",
+                        "C) Rusting iron",
+                        "D) Cooking an egg"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Reversible vs Irreversible",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Sugar can be recovered by evaporating the water — it is a reversible physical change."
+    },
+    {
+        "QuestionText":  "Thermoplastics can be melted and reshaped many times. Thermosetting plastics cannot. Which is better for reuse/recycling?",
+        "Options":  [
+                        "A) Thermoplastics",
+                        "B) Thermosetting plastics",
+                        "C) Both are equally recyclable",
+                        "D) Neither can be recycled"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Types of Plastics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Thermoplastics can be repeatedly melted and remoulded, making them recyclable; thermosetting plastics are set permanently."
+    },
+    {
+        "QuestionText":  "A litre of oil and a litre of water are mixed and left to stand. The oil — ",
+        "Options":  [
+                        "A) Floats on top of water because oil is less dense",
+                        "B) Sinks below water",
+                        "C) Mixes completely",
+                        "D) Dissolves in water"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Immiscible Liquids",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Oil (density ~0.9 g/mL) is less dense than water (1 g/mL) and they do not mix — oil forms a separate layer on top."
+    },
+    {
+        "QuestionText":  "Ceramics (clay pots, tiles) are hard but brittle. This means — ",
+        "Options":  [
+                        "A) They resist scratching but break under impact",
+                        "B) They bend easily",
+                        "C) They conduct electricity",
+                        "D) They are magnetic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Properties of Ceramics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Hardness means scratch resistance; brittleness means they crack rather than deform under sudden force."
+    },
+    {
+        "QuestionText":  "If you cool steam at 100°C it becomes water, and if you cool water to 0°C it becomes ice. Both are examples of — ",
+        "Options":  [
+                        "A) Changes of state (physical changes)",
+                        "B) Chemical reactions",
+                        "C) Evaporation",
+                        "D) Burning"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Changes of State",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Condensation and freezing are physical changes of state — no new substance is formed."
+    },
+    {
+        "QuestionText":  "Concrete is made of cement, sand, gravel, and water. It is — ",
+        "Options":  [
+                        "A) A mixture (composite material)",
+                        "B) A pure substance",
+                        "C) A metal alloy",
+                        "D) An element"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Composite Materials",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Concrete is a composite mixture; its components retain their properties and no chemical change occurs when combined (before hardening)."
+    },
+    {
+        "QuestionText":  "A substance that can change its shape easily but not its volume is — ",
+        "Options":  [
+                        "A) A liquid",
+                        "B) A solid",
+                        "C) A gas",
+                        "D) An alloy"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "States of Matter",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Liquids have fixed volume but take the shape of their container — they flow but don\u0027t compress significantly."
+    },
+    {
+        "QuestionText":  "Biogas is produced when — ",
+        "Options":  [
+                        "A) Bacteria break down organic waste in the absence of oxygen",
+                        "B) Coal burns",
+                        "C) Water evaporates",
+                        "D) Plants photosynthesize"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "New Materials",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Anaerobic bacteria decompose plant/animal waste, producing biogas (mainly methane) used as fuel."
+    },
+    {
+        "QuestionText":  "The process by which water is purified by repeated evaporation and condensation is called — ",
+        "Options":  [
+                        "A) Distillation",
+                        "B) Filtration",
+                        "C) Sieving",
+                        "D) Chromatography"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Matter and Materials",
+        "SubTopic":  "Separation Methods",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Distillation involves boiling a liquid and condensing its vapour, leaving impurities behind."
+    }
+]

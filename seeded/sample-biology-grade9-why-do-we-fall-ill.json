@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Health is defined by WHO as:",
+    "Options": [
+      "A) Absence of disease",
+      "B) A state of complete physical, mental, and social well-being",
+      "C) Having a strong body",
+      "D) Not feeling pain"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Health",
+    "Difficulty": "Foundation",
+    "Explanation": "WHO definition of health: 'A state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity.'"
+  },
+  {
+    "QuestionText": "Disease is defined as:",
+    "Options": [
+      "A) Any discomfort",
+      "B) A condition where normal functioning is impaired",
+      "C) Only bacterial infections",
+      "D) Loss of appetite"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Disease",
+    "Difficulty": "Foundation",
+    "Explanation": "Disease: a specific condition that impairs the normal functioning of an organism. Has specific causes (pathogens, deficiencies, genetics) and produces characteristic signs/symptoms."
+  },
+  {
+    "QuestionText": "Acute diseases are:",
+    "Options": [
+      "A) Long-lasting (months/years)",
+      "B) Short-term, rapid onset (days/weeks)",
+      "C) Always infectious",
+      "D) Non-curable"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Types of Disease",
+    "Difficulty": "Foundation",
+    "Explanation": "Acute: rapid onset, short duration (common cold, cholera, typhoid). Chronic: long-lasting (tuberculosis, diabetes, cancer). Acute can be severe but resolves quickly."
+  },
+  {
+    "QuestionText": "Chronic diseases are:",
+    "Options": [
+      "A) Caused by viruses only",
+      "B) Long-lasting diseases (months/years)",
+      "C) Very sudden and brief",
+      "D) Always fatal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Types of Disease",
+    "Difficulty": "Foundation",
+    "Explanation": "Chronic diseases persist for a long time: diabetes (lifelong), tuberculosis (months), arthritis. Usually cause more damage to health than acute diseases over time."
+  },
+  {
+    "QuestionText": "Infectious diseases are caused by:",
+    "Options": [
+      "A) Deficiency of nutrients",
+      "B) Pathogens (microorganisms) that can spread from person to person",
+      "C) Genetic mutations only",
+      "D) Stress"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Types of Disease",
+    "Difficulty": "Foundation",
+    "Explanation": "Infectious (communicable) diseases: caused by pathogens (bacteria, viruses, fungi, protozoa, worms). Can be transmitted (person to person, or via vector, water, air)."
+  },
+  {
+    "QuestionText": "Non-infectious diseases are:",
+    "Options": [
+      "A) Always caused by bacteria",
+      "B) Not caused by pathogens \u2014 cannot spread between persons",
+      "C) Only genetic",
+      "D) Less serious than infectious diseases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Types of Disease",
+    "Difficulty": "Foundation",
+    "Explanation": "Non-infectious: cancer, diabetes, heart disease, deficiency diseases (scurvy, rickets). Not caused by pathogens. Cannot be transmitted. Related to lifestyle, genetics, environment."
+  },
+  {
+    "QuestionText": "Antibiotics treat diseases caused by:",
+    "Options": [
+      "A) Viruses",
+      "B) Bacteria",
+      "C) Fungi",
+      "D) Protozoa"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Treatment",
+    "Difficulty": "Foundation",
+    "Explanation": "Antibiotics: substances that kill or inhibit bacteria. Have NO effect on viruses. Discovered by Fleming (penicillin). Specific antibiotics for specific bacteria."
+  },
+  {
+    "QuestionText": "Vaccination works by:",
+    "Options": [
+      "A) Killing pathogens directly",
+      "B) Stimulating the immune system to produce antibodies in advance",
+      "C) Treating symptoms",
+      "D) Blocking entry of pathogens"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Vaccines: introduce weakened/dead/fragments of pathogen. Immune system produces antibodies and memory cells. Future infection \u2192 rapid immune response \u2192 no disease."
+  },
+  {
+    "QuestionText": "AIDS is caused by:",
+    "Options": [
+      "A) Bacteria",
+      "B) Fungus",
+      "C) Virus (HIV)",
+      "D) Protozoa"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "AIDS (Acquired Immunodeficiency Syndrome): caused by HIV (Human Immunodeficiency Virus). HIV attacks helper T-cells \u2192 weakens immune system \u2192 opportunistic infections."
+  },
+  {
+    "QuestionText": "Malaria is caused by:",
+    "Options": [
+      "A) Virus",
+      "B) Bacterium",
+      "C) Protozoan (Plasmodium)",
+      "D) Worm"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Malaria: caused by Plasmodium (protozoan). Transmitted by female Anopheles mosquito. Infects RBCs \u2192 periodic fever. Treatment: antimalarials (quinine, chloroquine, artemisinin)."
+  },
+  {
+    "QuestionText": "Tuberculosis (TB) is caused by:",
+    "Options": [
+      "A) Virus",
+      "B) Mycobacterium tuberculosis (bacterium)",
+      "C) Fungus",
+      "D) Protozoan"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "TB: caused by Mycobacterium tuberculosis. Airborne transmission (coughing). Primarily affects lungs but can affect any organ. BCG vaccine provides protection."
+  },
+  {
+    "QuestionText": "Cholera is caused by:",
+    "Options": [
+      "A) Virus",
+      "B) Vibrio cholerae (bacterium)",
+      "C) Fungus",
+      "D) Protozoan"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Cholera: Vibrio cholerae, waterborne disease. Severe watery diarrhoea \u2192 dehydration. Transmitted through contaminated water and food. Prevented by clean water and sanitation."
+  },
+  {
+    "QuestionText": "The common cold is caused by:",
+    "Options": [
+      "A) Bacteria",
+      "B) Virus (rhinovirus mainly)",
+      "C) Fungus",
+      "D) Cold weather"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Common cold: caused by rhinoviruses (200+ different viruses). Airborne and contact transmission. No effective vaccine (too many virus types). Antibiotics don't work."
+  },
+  {
+    "QuestionText": "Vector-borne diseases are spread by:",
+    "Options": [
+      "A) Direct contact only",
+      "B) Intermediate organisms (vectors) like mosquitoes, ticks, fleas",
+      "C) Contaminated food only",
+      "D) Air only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Modes of Transmission",
+    "Difficulty": "Foundation",
+    "Explanation": "Vector-borne: an organism (vector) carries the pathogen and transmits to another host. Mosquito: malaria, dengue, filaria. Fly: typhoid. Flea: plague. Tick: Lyme disease."
+  },
+  {
+    "QuestionText": "Dengue fever is transmitted by:",
+    "Options": [
+      "A) Anopheles mosquito",
+      "B) Aedes mosquito",
+      "C) Culex mosquito",
+      "D) Housefly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Dengue: caused by dengue virus, transmitted by Aedes aegypti mosquito (daytime biter). Symptoms: high fever, severe headache, joint pain ('breakbone fever'), rash."
+  },
+  {
+    "QuestionText": "Filariasis (elephantiasis) is caused by:",
+    "Options": [
+      "A) Bacteria",
+      "B) Virus",
+      "C) Filarial worm (Wuchereria bancrofti)",
+      "D) Fungus"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Filariasis: caused by filarial worm Wuchereria bancrofti. Transmitted by Culex mosquito. Blocks lymph vessels \u2192 elephantiasis (swollen limbs, especially legs)."
+  },
+  {
+    "QuestionText": "The immune system protects the body by:",
+    "Options": [
+      "A) Producing stomach acid",
+      "B) Creating physical barriers only",
+      "C) Producing antibodies and immune cells to fight pathogens",
+      "D) Cooling the body"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Immunity",
+    "Difficulty": "Foundation",
+    "Explanation": "Immune system: produces antibodies (proteins that bind and neutralise antigens), activates phagocytes (engulf pathogens), creates memory cells (rapid future response)."
+  },
+  {
+    "QuestionText": "Penicillin was discovered by:",
+    "Options": [
+      "A) Louis Pasteur",
+      "B) Alexander Fleming",
+      "C) Robert Koch",
+      "D) Jenner"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Treatment",
+    "Difficulty": "Foundation",
+    "Explanation": "Penicillin discovered by Alexander Fleming (1928) \u2014 he noticed mould (Penicillium) killed bacteria on his petri dish. First antibiotic. Revolutionised treatment of bacterial infections."
+  },
+  {
+    "QuestionText": "Pasteurisation kills:",
+    "Options": [
+      "A) All microorganisms permanently",
+      "B) Pathogens in food/drink by heating briefly to specific temperature",
+      "C) Only viruses",
+      "D) Only fungi"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Pasteurisation (Louis Pasteur): heat food/drink (e.g., milk) to 72\u00b0C for 15 seconds \u2192 kills pathogenic bacteria without significantly affecting taste. Used for milk, juice, wine."
+  },
+  {
+    "QuestionText": "Immunity acquired after recovering from a disease is:",
+    "Options": [
+      "A) Artificial active immunity",
+      "B) Natural passive immunity",
+      "C) Natural active immunity",
+      "D) Artificial passive immunity"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Immunity",
+    "Difficulty": "Advanced",
+    "Explanation": "Natural active immunity: body produces its own antibodies after exposure to pathogen during natural infection. Long-lasting. Vaccination = artificial active immunity."
+  },
+  {
+    "QuestionText": "Typhoid fever symptoms include:",
+    "Options": [
+      "A) Rash and joint pain",
+      "B) Sustained high fever, headache, abdominal pain",
+      "C) Only diarrhoea",
+      "D) No fever"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Typhoid: caused by Salmonella typhi (bacterium). Waterborne. Symptoms: sustained high fever (39-40\u00b0C), headache, weakness, abdominal pain. Widal test diagnoses it."
+  },
+  {
+    "QuestionText": "The Widal test is used to diagnose:",
+    "Options": [
+      "A) Malaria",
+      "B) Typhoid",
+      "C) Tuberculosis",
+      "D) Dengue"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Widal test: detects antibodies against Salmonella typhi in blood. Used to diagnose typhoid fever. Positive after 2nd week of infection."
+  },
+  {
+    "QuestionText": "Scurvy is caused by deficiency of:",
+    "Options": [
+      "A) Vitamin A",
+      "B) Vitamin B12",
+      "C) Vitamin C",
+      "D) Vitamin D"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Deficiency Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Scurvy: Vitamin C (ascorbic acid) deficiency. Symptoms: bleeding gums, poor wound healing, joint pain. Vitamin C essential for collagen synthesis."
+  },
+  {
+    "QuestionText": "Rickets is caused by deficiency of:",
+    "Options": [
+      "A) Vitamin A",
+      "B) Vitamin B",
+      "C) Vitamin C",
+      "D) Vitamin D"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Deficiency Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Rickets: Vitamin D deficiency in children \u2192 impaired calcium absorption \u2192 weak, soft, deformed bones. Adults: osteomalacia. Sunlight exposure + dietary sources."
+  },
+  {
+    "QuestionText": "The causative agent of plague is:",
+    "Options": [
+      "A) Virus",
+      "B) Yersinia pestis (bacterium)",
+      "C) Protozoan",
+      "D) Fungus"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Advanced",
+    "Explanation": "Plague: Yersinia pestis. Transmitted by rat fleas. Three forms: bubonic (lymph nodes), pneumonic (lungs), septicaemic (blood). Historical Black Death killed 1/3 of Europe."
+  },
+  {
+    "QuestionText": "Antiseptics and disinfectants prevent disease by:",
+    "Options": [
+      "A) Boosting immunity",
+      "B) Killing or inhibiting microorganisms",
+      "C) Providing nutrients",
+      "D) Reducing fever"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Antiseptics: applied to living tissue (wounds, skin) to prevent infection. Disinfectants: applied to non-living surfaces. Examples: Dettol, iodine, alcohol, bleach (for surfaces)."
+  },
+  {
+    "QuestionText": "Rabies is spread by:",
+    "Options": [
+      "A) Mosquito",
+      "B) Contaminated water",
+      "C) Bite of infected animal (dog, bat)",
+      "D) Airborne droplets"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Rabies: caused by lyssavirus. Transmitted through saliva of infected animals (bite/scratch). Attacks nervous system \u2192 invariably fatal once symptoms appear. Vaccine available (post-exposure)."
+  },
+  {
+    "QuestionText": "Hepatitis B is caused by:",
+    "Options": [
+      "A) Bacterium",
+      "B) Virus",
+      "C) Fungus",
+      "D) Protozoan"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Hepatitis B: HBV (Hepatitis B Virus). Attacks liver. Transmitted: blood, sexual contact, mother to child. Can cause chronic liver disease and cancer. Vaccine available."
+  },
+  {
+    "QuestionText": "Prevention is better than cure because:",
+    "Options": [
+      "A) Treatment is impossible",
+      "B) Prevention is cheaper, avoids suffering, and prevents disease spread",
+      "C) All diseases are preventable",
+      "D) Medicines are not effective"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Prevention: cheaper, avoids suffering, stops spread. Methods: vaccination, hygiene, sanitation, safe food/water, vector control, proper nutrition."
+  },
+  {
+    "QuestionText": "Polio (poliomyelitis) is caused by:",
+    "Options": [
+      "A) Bacteria",
+      "B) Poliovirus",
+      "C) Protozoan",
+      "D) Nutritional deficiency"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Polio: poliovirus infects motor neurons \u2192 muscle paralysis. Oral Polio Vaccine (OPV) = Sabin vaccine. Injectable (IPV) = Salk vaccine. India certified polio-free in 2014."
+  },
+  {
+    "QuestionText": "Antibiotic resistance occurs because:",
+    "Options": [
+      "A) Antibiotics kill all bacteria",
+      "B) Some bacteria survive antibiotic treatment and multiply",
+      "C) Patients take too many antibiotics",
+      "D) Antibiotics change into viruses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Treatment",
+    "Difficulty": "Advanced",
+    "Explanation": "Antibiotic resistance: natural selection. Bacteria with random mutations survive antibiotic \u2192 multiply \u2192 resistant population. Accelerated by incomplete antibiotic courses, overuse."
+  },
+  {
+    "QuestionText": "Jaundice (yellow skin/eyes) is a symptom of:",
+    "Options": [
+      "A) Malaria only",
+      "B) Liver disease (hepatitis, obstruction of bile duct)",
+      "C) Cold and cough",
+      "D) Kidney disease only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Jaundice: yellowish tinge due to excess bilirubin (from RBC breakdown) in blood. Liver normally processes bilirubin. Liver damage/hepatitis \u2192 bilirubin accumulates."
+  },
+  {
+    "QuestionText": "Night blindness is caused by deficiency of:",
+    "Options": [
+      "A) Vitamin B",
+      "B) Vitamin C",
+      "C) Vitamin A",
+      "D) Iron"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Deficiency Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Night blindness (nyctalopia): Vitamin A deficiency. Vitamin A needed to produce rhodopsin (visual pigment in rod cells). Also causes xerophthalmia (dry eyes), corneal damage."
+  },
+  {
+    "QuestionText": "BCG vaccine is given to prevent:",
+    "Options": [
+      "A) Smallpox",
+      "B) Tuberculosis",
+      "C) Polio",
+      "D) Measles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "BCG (Bacillus Calmette-Guerin): vaccine against tuberculosis. Given at birth. Provides significant protection against severe forms of TB in children."
+  },
+  {
+    "QuestionText": "Safe drinking water prevents:",
+    "Options": [
+      "A) Malaria",
+      "B) Rabies",
+      "C) Typhoid, cholera, dysentery",
+      "D) Dengue"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Waterborne diseases prevented by safe water: typhoid, cholera, dysentery (bacterial), hepatitis A (viral), giardiasis (protozoan). Boiling, chlorination, filtration ensure safety."
+  },
+  {
+    "QuestionText": "Malnutrition is:",
+    "Options": [
+      "A) Only undernutrition",
+      "B) Improper nutrition \u2014 overnutrition OR undernutrition OR specific deficiencies",
+      "C) Eating too many calories only",
+      "D) A bacterial disease"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Health",
+    "Difficulty": "Foundation",
+    "Explanation": "Malnutrition: inadequate nutrition. Includes undernutrition (too little food/nutrients), overnutrition (obesity), or specific deficiencies (vitamin A, iron, iodine, etc.)."
+  },
+  {
+    "QuestionText": "Iodine deficiency causes:",
+    "Options": [
+      "A) Anaemia",
+      "B) Goitre (swelling of thyroid gland)",
+      "C) Rickets",
+      "D) Scurvy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Deficiency Diseases",
+    "Difficulty": "Foundation",
+    "Explanation": "Iodine deficiency: thyroid can't produce thyroxine \u2192 thyroid enlarges (goitre). In pregnancy: cretinism in foetus. Iodised salt prevents it."
+  },
+  {
+    "QuestionText": "Kala-azar (leishmaniasis) is caused by:",
+    "Options": [
+      "A) Bacteria",
+      "B) Virus",
+      "C) Leishmania donovani (protozoan), transmitted by sandfly",
+      "D) Worm"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Advanced",
+    "Explanation": "Kala-azar (visceral leishmaniasis): caused by Leishmania donovani (protozoan). Transmitted by female Phlebotomus sandfly. Affects liver, spleen, bone marrow. Endemic in Bihar/Jharkhand."
+  },
+  {
+    "QuestionText": "The first vaccine was developed by Edward Jenner against:",
+    "Options": [
+      "A) Malaria",
+      "B) Smallpox (using cowpox)",
+      "C) Tuberculosis",
+      "D) Polio"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Edward Jenner (1796): vaccinated boy with cowpox \u2192 protected against smallpox. First vaccine. 'Vaccine' from Latin 'vacca' = cow. Smallpox eradicated globally in 1980."
+  },
+  {
+    "QuestionText": "Signs of disease are different from symptoms because:",
+    "Options": [
+      "A) They are the same thing",
+      "B) Signs are objectively measured (by doctor); symptoms are subjectively felt by patient",
+      "C) Symptoms are measured by doctor",
+      "D) Signs are only seen in chronic disease"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Disease",
+    "Difficulty": "Advanced",
+    "Explanation": "Symptoms: what patient experiences (fever, pain, fatigue). Signs: objective, measurable evidence (elevated temperature on thermometer, rash visible, abnormal blood test)."
+  },
+  {
+    "QuestionText": "Communicable diseases spread from person to person by:",
+    "Options": [
+      "A) Direct contact, droplets, vectors, contaminated food/water",
+      "B) Genetic inheritance only",
+      "C) Chemical exposure",
+      "D) Cannot spread at all"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Modes of Transmission",
+    "Difficulty": "Foundation",
+    "Explanation": "Communicable disease spread: direct contact (skin diseases), airborne droplets (TB, cold, flu), vectors (mosquito, fly), contaminated food/water (cholera, typhoid)."
+  },
+  {
+    "QuestionText": "Antivirals are drugs that:",
+    "Options": [
+      "A) Kill bacteria",
+      "B) Target and inhibit viruses",
+      "C) Boost red blood cells",
+      "D) Kill fungi"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Treatment",
+    "Difficulty": "Advanced",
+    "Explanation": "Antivirals: drugs targeting viral infections. E.g., oseltamivir (Tamiflu) for influenza, acyclovir for herpes, antiretrovirals (ARVs) for HIV/AIDS. Fewer than antibiotics \u2014 viruses are harder to target."
+  },
+  {
+    "QuestionText": "Sleeping sickness (African trypanosomiasis) is caused by:",
+    "Options": [
+      "A) Bacteria",
+      "B) Virus",
+      "C) Trypanosoma (protozoan), transmitted by tsetse fly",
+      "D) Worm"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Advanced",
+    "Explanation": "Sleeping sickness: Trypanosoma brucei (protozoan). Transmitted by tsetse fly. Attacks nervous system \u2192 disrupts sleep-wake cycle. Fatal if untreated. Endemic in sub-Saharan Africa."
+  },
+  {
+    "QuestionText": "The most important personal hygiene practice preventing disease spread is:",
+    "Options": [
+      "A) Wearing masks always",
+      "B) Regular handwashing with soap",
+      "C) Avoiding all exercise",
+      "D) Taking vitamins daily"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Handwashing: single most effective personal hygiene measure. Removes pathogens from hands. Prevents faecal-oral diseases (cholera, typhoid, hepatitis A, diarrhoea)."
+  },
+  {
+    "QuestionText": "Hormonal diseases like diabetes are:",
+    "Options": [
+      "A) Infectious",
+      "B) Non-infectious (not caused by pathogens)",
+      "C) Caused by viruses only",
+      "D) Always genetic"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Types of Disease",
+    "Difficulty": "Foundation",
+    "Explanation": "Diabetes: non-infectious hormonal disease. Type 1: autoimmune, insufficient insulin. Type 2: insulin resistance. Not caused by pathogen, cannot spread between persons."
+  },
+  {
+    "QuestionText": "Community health depends on:",
+    "Options": [
+      "A) Individual health only",
+      "B) Clean water, proper sanitation, healthcare access, pollution control",
+      "C) Only vaccination",
+      "D) Genetic factors"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Health",
+    "Difficulty": "Foundation",
+    "Explanation": "Community health: requires clean water supply, proper waste disposal, sewage treatment, vaccination programs, healthcare access, education about hygiene \u2014 not just individual behaviour."
+  },
+  {
+    "QuestionText": "The function of WBCs (leucocytes) in disease is:",
+    "Options": [
+      "A) Transport oxygen",
+      "B) Defend against pathogens (phagocytosis, antibody production)",
+      "C) Clot blood",
+      "D) Carry nutrients"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Immunity",
+    "Difficulty": "Foundation",
+    "Explanation": "WBCs (white blood cells): immune defence. Neutrophils: phagocytose bacteria. Lymphocytes: produce antibodies (B-cells), attack cells (T-cells). Monocytes: phagocytose large particles."
+  },
+  {
+    "QuestionText": "Dengue fever blood test shows:",
+    "Options": [
+      "A) Increased WBC count",
+      "B) Decreased platelet count (thrombocytopenia)",
+      "C) Increased haemoglobin",
+      "D) Increased RBC count"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Diseases",
+    "Difficulty": "Advanced",
+    "Explanation": "Dengue: virus affects platelet-producing cells \u2192 platelet count drops. Dangerously low platelets \u2192 bleeding risk. NS1 antigen test or ELISA diagnoses dengue."
+  },
+  {
+    "QuestionText": "Proper food storage prevents disease by:",
+    "Options": [
+      "A) Destroying nutrients",
+      "B) Preventing microbial growth and toxin production",
+      "C) Increasing flavour",
+      "D) Adding preservatives automatically"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Refrigeration: slows bacterial growth. Boiling: kills pathogens. Canning: creates anaerobic environment. Prevents food poisoning (Salmonella, Staphylococcus aureus, Clostridium botulinum)."
+  },
+  {
+    "QuestionText": "Which disease was declared eradicated worldwide by WHO in 1980?",
+    "Options": [
+      "A) Malaria",
+      "B) Polio",
+      "C) Smallpox",
+      "D) Tuberculosis"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Why Do We Fall Ill",
+    "SubTopic": "Prevention",
+    "Difficulty": "Foundation",
+    "Explanation": "Smallpox: declared eradicated in 1980 by WHO \u2014 the only human infectious disease to be fully eradicated through a global vaccination programme. Last natural case: 1977."
+  }
+]

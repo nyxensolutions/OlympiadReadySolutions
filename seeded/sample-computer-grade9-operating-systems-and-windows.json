@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "An Operating System (OS) is:",
+    "Options": [
+      "A) A hardware device",
+      "B) System software managing hardware and software resources",
+      "C) An application program",
+      "D) A programming language"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "OS: core software managing computer hardware, software resources, and provides common services. Examples: Windows, macOS, Linux, Android, iOS. Without OS, a computer cannot function."
+  },
+  {
+    "QuestionText": "Which is NOT an example of an operating system?",
+    "Options": [
+      "A) Windows 10",
+      "B) macOS",
+      "C) Android",
+      "D) MS Word"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "MS Word is an application software, not an OS. OS: Windows, macOS, Linux, Android, iOS, Chrome OS. Applications run on top of the OS."
+  },
+  {
+    "QuestionText": "GUI stands for:",
+    "Options": [
+      "A) General User Interface",
+      "B) Graphical User Interface",
+      "C) Graphics Utility Interface",
+      "D) Global Unified Interface"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "GUI (Graphical User Interface): visual interface using icons, windows, menus, mouse. Makes computing accessible. vs CLI (Command Line Interface): text commands only. Windows, macOS = GUI."
+  },
+  {
+    "QuestionText": "The Windows 7 'Taskbar' is located:",
+    "Options": [
+      "A) At the top of screen",
+      "B) At the bottom of screen",
+      "C) On the left side",
+      "D) In the center"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Windows taskbar: at bottom by default (can be moved). Contains: Start button, pinned apps, running apps, notification area (system tray) with clock."
+  },
+  {
+    "QuestionText": "'Multitasking' in an OS means:",
+    "Options": [
+      "A) Running multiple computers simultaneously",
+      "B) Running multiple programs simultaneously",
+      "C) Using multiple users at same time",
+      "D) Performing multiple internet tasks"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Multitasking: OS allows multiple programs to run simultaneously. CPU rapidly switches between programs creating illusion of simultaneous execution. Modern OS use preemptive multitasking."
+  },
+  {
+    "QuestionText": "'Real-time Operating System' (RTOS) is used in:",
+    "Options": [
+      "A) General desktop computing",
+      "B) Systems requiring immediate, deterministic responses (medical devices, aircraft, robots)",
+      "C) Only gaming",
+      "D) Only mobile phones"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Types of OS",
+    "Difficulty": "Advanced",
+    "Explanation": "RTOS: processes data with strict timing constraints \u2014 must respond within guaranteed time. Used in: pacemakers, aircraft control, industrial robots, anti-lock brakes, air traffic control."
+  },
+  {
+    "QuestionText": "A 'distributed operating system' manages:",
+    "Options": [
+      "A) A single powerful computer",
+      "B) Multiple computers working together as a single system",
+      "C) Only database operations",
+      "D) Only file systems"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Types of OS",
+    "Difficulty": "Advanced",
+    "Explanation": "Distributed OS: manages multiple networked computers appearing as one system. Resources shared transparently. Used in cloud computing, scientific computing clusters (Google, Amazon)."
+  },
+  {
+    "QuestionText": "'Virtual memory' in an OS:",
+    "Options": [
+      "A) Is a type of RAM",
+      "B) Uses hard disk space to extend apparent RAM",
+      "C) Creates virtual machines",
+      "D) Is cloud storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Virtual memory: uses portion of hard disk as extension of RAM. When RAM full, less-used data swapped to disk (paging/swapping). Allows running programs larger than physical RAM. Slower than RAM."
+  },
+  {
+    "QuestionText": "In Windows, the 'Recycle Bin' holds:",
+    "Options": [
+      "A) Temporary internet files",
+      "B) Files deleted from hard drive (not permanently deleted yet)",
+      "C) Virus-infected files",
+      "D) Compressed files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Recycle Bin: temporary storage for deleted files. Files not permanently deleted until Recycle Bin is emptied. Allows recovery of accidentally deleted files. Shift+Delete bypasses Recycle Bin."
+  },
+  {
+    "QuestionText": "The Windows 'Control Panel' allows:",
+    "Options": [
+      "A) Only changing wallpaper",
+      "B) Configuring system settings (display, sound, network, users, etc.)",
+      "C) Only software installation",
+      "D) Only hardware management"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Control Panel: central hub for Windows settings. Configure: display, sound, network, hardware, user accounts, security, time/language, accessibility. In Windows 10, many settings moved to Settings app."
+  },
+  {
+    "QuestionText": "'Process management' by an OS includes:",
+    "Options": [
+      "A) Managing printers",
+      "B) Creating, scheduling, and terminating programs/processes",
+      "C) Only file management",
+      "D) Network configuration only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Process management: OS creates process when program runs, schedules CPU time (scheduling algorithms), handles multiple processes, terminates processes. Task Manager shows running processes."
+  },
+  {
+    "QuestionText": "File extensions identify:",
+    "Options": [
+      "A) File size",
+      "B) The type and associated application of a file (.docx=Word, .jpg=image)",
+      "C) File creation date",
+      "D) File author"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "File extension: letters after the dot indicating file type. .docx (Word), .xlsx (Excel), .pdf, .mp3 (audio), .mp4 (video), .jpg/.png (image), .exe (executable), .zip (compressed)."
+  },
+  {
+    "QuestionText": "'Formatting' a storage device:",
+    "Options": [
+      "A) Changes its capacity",
+      "B) Prepares it for use by creating a file system (erases all data)",
+      "C) Repairs physical damage",
+      "D) Increases speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Formatting: prepares storage by creating file system (NTFS, FAT32, exFAT) and erasing all data. High-level format: creates file system. Low-level format: manufacturer's process marking sectors."
+  },
+  {
+    "QuestionText": "'NTFS' is a:",
+    "Options": [
+      "A) Network protocol",
+      "B) File system used in Windows",
+      "C) Type of processor",
+      "D) Database format"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "NTFS (New Technology File System): Windows default file system. Supports large files, permissions, encryption, journaling. FAT32: older, cross-platform, limited to 4GB per file. exFAT: for flash drives."
+  },
+  {
+    "QuestionText": "The 'Ctrl+Alt+Delete' shortcut in Windows:",
+    "Options": [
+      "A) Shuts down the computer immediately",
+      "B) Opens Task Manager/security options",
+      "C) Restarts the computer",
+      "D) Deletes all files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+Alt+Delete: opens security screen with options: Lock, Switch User, Sign out, Change password, Task Manager. Ctrl+Shift+Escape: opens Task Manager directly."
+  },
+  {
+    "QuestionText": "'Task Manager' in Windows shows:",
+    "Options": [
+      "A) To-do lists",
+      "B) Running processes, CPU/memory usage, and allows terminating programs",
+      "C) Scheduled tasks only",
+      "D) Network speed only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Task Manager (Ctrl+Shift+Esc): shows running processes, performance (CPU, RAM, disk, network usage), startup programs, services. Can end unresponsive programs ('End Task')."
+  },
+  {
+    "QuestionText": "'Driver' software is:",
+    "Options": [
+      "A) A game about driving",
+      "B) Software that allows OS to communicate with hardware devices",
+      "C) A type of virus",
+      "D) Internet software"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Device driver: software translating OS commands to hardware-specific instructions. Printer driver, graphics driver, sound driver. Without correct driver, hardware won't function properly."
+  },
+  {
+    "QuestionText": "Linux is an example of:",
+    "Options": [
+      "A) Proprietary, paid OS",
+      "B) Open-source OS (free, modifiable source code)",
+      "C) Mobile-only OS",
+      "D) Closed-source OS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Types of OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Linux: open-source OS (kernel created by Linus Torvalds, 1991). Free, customisable. Distributions: Ubuntu, Fedora, Debian, CentOS, Kali. Used in servers, Android (Linux kernel), supercomputers."
+  },
+  {
+    "QuestionText": "'Batch processing OS' processes:",
+    "Options": [
+      "A) One job at a time interactively",
+      "B) Jobs collected in batches and processed without user interaction",
+      "C) Multiple users simultaneously",
+      "D) Only scientific data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Types of OS",
+    "Difficulty": "Advanced",
+    "Explanation": "Batch processing: collects jobs into a batch, processes automatically without user interaction. Early mainframe computing. Still used for: payroll, bank statement generation, bill processing."
+  },
+  {
+    "QuestionText": "'Swapping' in OS refers to:",
+    "Options": [
+      "A) Exchanging files between users",
+      "B) Moving processes between RAM and disk (virtual memory mechanism)",
+      "C) Replacing hardware",
+      "D) Changing OS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Swapping: when RAM is full, OS moves inactive process/data to swap space (disk) \u2192 frees RAM for active processes \u2192 swaps back when needed. Slower than RAM but extends available memory."
+  },
+  {
+    "QuestionText": "The 'Windows Registry' is:",
+    "Options": [
+      "A) A list of Windows users",
+      "B) Hierarchical database storing OS and application configuration settings",
+      "C) A backup of system files",
+      "D) A list of installed hardware"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Advanced",
+    "Explanation": "Windows Registry: central database storing configuration for OS and applications. HKEY_LOCAL_MACHINE, HKEY_CURRENT_USER, etc. Edited with Registry Editor (regedit) \u2014 dangerous if misused."
+  },
+  {
+    "QuestionText": "'Safe Mode' in Windows starts the OS with:",
+    "Options": [
+      "A) Maximum features enabled",
+      "B) Minimal drivers and programs (for troubleshooting)",
+      "C) Internet connection disabled",
+      "D) All users logged in"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Safe Mode: starts Windows with minimal drivers and services. Used to diagnose/fix problems. No unnecessary drivers, no startup programs, basic VGA display. Access by pressing F8 at startup."
+  },
+  {
+    "QuestionText": "'Defragmentation' of a hard disk:",
+    "Options": [
+      "A) Deletes files",
+      "B) Reorganises fragmented data for faster access",
+      "C) Formats the disk",
+      "D) Backs up the disk"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Defragmentation: rearranges fragmented file pieces into contiguous storage \u2192 improves HDD read speed. Not needed for SSDs (they have no moving parts). Windows: Optimise Drives."
+  },
+  {
+    "QuestionText": "'BIOS' stands for:",
+    "Options": [
+      "A) Basic Internet Operating System",
+      "B) Basic Input/Output System",
+      "C) Binary Input Output Software",
+      "D) Basic Integrated OS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "BIOS: firmware stored in ROM on motherboard. Performs POST (Power-On Self-Test), initialises hardware, loads the OS bootloader. Modern replacement: UEFI (Unified Extensible Firmware Interface)."
+  },
+  {
+    "QuestionText": "Which of these is an interactive (time-sharing) OS?",
+    "Options": [
+      "A) Batch processing system",
+      "B) Windows, Linux \u2014 respond immediately to user input",
+      "C) Real-time OS for machinery",
+      "D) Distributed OS only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Types of OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Interactive/time-sharing OS: gives each user/process a time slice of CPU. Responds to input immediately. Windows, Linux, macOS are interactive OS. Users perceive instantaneous response."
+  },
+  {
+    "QuestionText": "In Windows, 'Shortcuts' (.lnk files) are:",
+    "Options": [
+      "A) Copies of the original file",
+      "B) Pointers/links to the original file or program",
+      "C) Compressed files",
+      "D) Read-only versions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Shortcut: a small file pointing to the original. Deleting shortcut doesn't delete original. Identified by arrow on icon. Used to access programs/files quickly from Desktop/taskbar."
+  },
+  {
+    "QuestionText": "'User Account Control' (UAC) in Windows:",
+    "Options": [
+      "A) Controls internet usage",
+      "B) Asks for permission before allowing programs to make system changes",
+      "C) Manages user passwords only",
+      "D) Controls Wi-Fi access"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "UAC: security feature prompting for confirmation/admin password before allowing programs to make significant system changes. Prevents malware from making unauthorised changes silently."
+  },
+  {
+    "QuestionText": "'Kernel' is the __ of an operating system.",
+    "Options": [
+      "A) User interface",
+      "B) Core/heart that manages hardware resources directly",
+      "C) Application software",
+      "D) File manager"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Kernel: core of OS. Manages: CPU scheduling, memory management, device I/O, system calls. Directly interacts with hardware. Everything else (shell, applications) sits on top of kernel."
+  },
+  {
+    "QuestionText": "The Windows 'Start Menu' provides access to:",
+    "Options": [
+      "A) Only internet",
+      "B) Installed applications, settings, search, and power options",
+      "C) Only files",
+      "D) Only control panel"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Start Menu (Windows button): access point for apps, search, settings, documents, power (sleep, restart, shutdown). Pinned and recently used apps displayed. Open with Windows key."
+  },
+  {
+    "QuestionText": "'Clipboard' in Windows stores:",
+    "Options": [
+      "A) System files",
+      "B) Recently cut or copied data (text, images, files) for pasting",
+      "C) Browser history",
+      "D) Recently opened applications"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Clipboard: temporary memory holding cut/copied content. Ctrl+C = Copy, Ctrl+X = Cut (to clipboard), Ctrl+V = Paste. Windows 10+ clipboard history: Win+V shows clipboard history."
+  },
+  {
+    "QuestionText": "'Multi-user OS' allows:",
+    "Options": [
+      "A) Multiple programs on one computer",
+      "B) Multiple users to access system simultaneously",
+      "C) One user at a time only",
+      "D) Multiple computers to share one monitor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Types of OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Multi-user OS: Linux, Unix, mainframe OS. Multiple users simultaneously access the system, each with own files/settings. Network/mainframe environments. Windows also supports multiple user accounts."
+  },
+  {
+    "QuestionText": "'Page fault' in OS occurs when:",
+    "Options": [
+      "A) An error in printing",
+      "B) CPU accesses a page not currently in RAM (must be loaded from disk)",
+      "C) A program crashes",
+      "D) Network disconnection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Page fault: accessed memory page not in RAM \u2192 OS must load it from disk (swap space) \u2192 slower. Many page faults = 'thrashing' \u2192 system becomes very slow. Solution: more RAM."
+  },
+  {
+    "QuestionText": "The process of starting or restarting a computer is called:",
+    "Options": [
+      "A) Logging in",
+      "B) Booting",
+      "C) Initialising",
+      "D) Loading"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Booting: starting up computer. Cold boot: from powered off state. Warm boot: restart without full power off (Ctrl+Alt+Delete or Start\u2192Restart). BIOS/UEFI \u2192 bootloader \u2192 OS loads."
+  },
+  {
+    "QuestionText": "'Disk Cleanup' utility in Windows:",
+    "Options": [
+      "A) Physically cleans the hard drive",
+      "B) Removes temporary files, system files to free up disk space",
+      "C) Defragments the disk",
+      "D) Backs up important files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Disk Cleanup: removes temp files, cached files, Recycle Bin contents, old Windows Update files. Frees up disk space. Access via right-click drive \u2192 Properties \u2192 Disk Cleanup."
+  },
+  {
+    "QuestionText": "In Windows file system, 'root directory' is:",
+    "Options": [
+      "A) The Desktop folder",
+      "B) The top-most directory (C:\\) from which all other directories branch",
+      "C) The Windows folder",
+      "D) The Documents folder"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Root directory: top level of file system hierarchy. Windows: C:\\ (or D:\\). Unix/Linux: / All other directories are subdirectories of root. Tree structure branches from root."
+  },
+  {
+    "QuestionText": "Which Windows 7 feature allows you to pin programmes to the taskbar?",
+    "Options": [
+      "A) Right-click programme \u2192 'Pin to taskbar'",
+      "B) Drag to desktop only",
+      "C) Only from Control Panel",
+      "D) Not possible in Windows 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Pin to Taskbar: right-click a programme shortcut or running programme's taskbar icon \u2192 'Pin to taskbar'. Keeps it there for quick access. Unpin: right-click \u2192 'Unpin from taskbar'."
+  },
+  {
+    "QuestionText": "'Snap' feature in Windows:",
+    "Options": [
+      "A) Creates screenshots",
+      "B) Allows snapping windows to screen edges/corners for side-by-side view",
+      "C) Locks the screen",
+      "D) Zooms in on screen"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Snap (Aero Snap): drag window to screen edge \u2192 snaps to half/quarter screen. Or Win+Left/Right arrow. Allows easy side-by-side multitasking. Windows 7 introduced basic snap; Windows 10/11 improved it."
+  },
+  {
+    "QuestionText": "A 'directory' in OS terminology is same as:",
+    "Options": [
+      "A) A file",
+      "B) A folder (container for files and other folders)",
+      "C) A programme",
+      "D) A drive"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Directory = folder. A container that organises files and subdirectories. 'Directory' is Unix/Linux term; 'Folder' is Windows GUI term. Same concept."
+  },
+  {
+    "QuestionText": "Windows 7 'Aero' interface features:",
+    "Options": [
+      "A) Black and white display",
+      "B) Transparent glass effect, Aero Peek, Shake, Snap",
+      "C) Command-line only",
+      "D) No visual effects"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Aero (Windows Vista/7): glass-like transparent window borders, Aero Peek (show desktop preview), Aero Shake (shake window to minimise others), Aero Snap (window docking). Requires capable GPU."
+  },
+  {
+    "QuestionText": "'Hibernate' in Windows:",
+    "Options": [
+      "A) Turns off the monitor only",
+      "B) Saves RAM contents to disk and powers off completely (resumes quickly)",
+      "C) Puts computer in low-power mode keeping RAM active",
+      "D) Shuts down without saving"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Hibernate: saves RAM state to disk file (hiberfil.sys) \u2192 powers off. Resumes quickly to exact previous state. vs Sleep: keeps RAM powered (faster resume but uses electricity)."
+  },
+  {
+    "QuestionText": "In Windows, 'Hidden files' are:",
+    "Options": [
+      "A) Deleted files",
+      "B) System/configuration files not shown by default (to prevent accidental changes)",
+      "C) Encrypted files",
+      "D) Corrupted files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Hidden files: not displayed by default in File Explorer. Usually system files. View hidden files: Folder Options \u2192 View \u2192 'Show hidden files'. Common hidden files: .ini, pagefile.sys."
+  },
+  {
+    "QuestionText": "The 'PATH' environment variable in OS stores:",
+    "Options": [
+      "A) Your documents folder location",
+      "B) List of directories searched when running commands in terminal",
+      "C) Network path of shared drives",
+      "D) Installation path of Windows"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "PATH: environment variable listing directories where OS looks for executable programs when you type a command. Without correct PATH, commands not found. E.g., Python, Java added to PATH for terminal use."
+  },
+  {
+    "QuestionText": "'System Restore' in Windows:",
+    "Options": [
+      "A) Reinstalls Windows completely",
+      "B) Reverts system to a previous restore point without affecting personal files",
+      "C) Backs up files to cloud",
+      "D) Repairs hardware"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "System Restore: reverts OS settings/registry to a previous restore point (created before changes/installs). Doesn't delete personal files but removes recently installed programs. Good for fixing software issues."
+  },
+  {
+    "QuestionText": "'Spooling' in OS refers to:",
+    "Options": [
+      "A) Winding cables",
+      "B) Storing print jobs in queue before sending to printer",
+      "C) Network data buffering",
+      "D) Video streaming buffer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Spooling (Simultaneous Peripheral Operations Online): stores print jobs in a queue (spool). Computer sends jobs to spool quickly; printer processes at its slower speed. Allows computer to continue working."
+  },
+  {
+    "QuestionText": "Which Windows shortcut takes a screenshot?",
+    "Options": [
+      "A) Ctrl+P",
+      "B) Alt+Print Screen (active window) or Print Screen (full screen)",
+      "C) Ctrl+S",
+      "D) F12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Print Screen (PrtScn): captures full screen to clipboard. Alt+Print Screen: captures only active window. Win+Shift+S: Snip & Sketch tool. Win+Print Screen: saves screenshot as file."
+  },
+  {
+    "QuestionText": "'Event Viewer' in Windows:",
+    "Options": [
+      "A) Manages calendar events",
+      "B) Logs system events, errors, warnings for diagnostics",
+      "C) Shows upcoming Windows updates",
+      "D) Tracks user activity for billing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Advanced",
+    "Explanation": "Event Viewer: shows detailed logs of system events (Application, Security, System). Useful for diagnosing crashes, driver errors, login events, failed operations. Accessed via Control Panel or search."
+  },
+  {
+    "QuestionText": "'Memory leak' in programming/OS is:",
+    "Options": [
+      "A) RAM physically leaking electricity",
+      "B) A program fails to release memory it no longer needs, gradually consuming all RAM",
+      "C) Disk space being used up",
+      "D) Network bandwidth being consumed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "OS Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Memory leak: program allocates memory but doesn't free it when done. Memory usage grows over time \u2192 system slows \u2192 eventually crashes. Common in programs with poor memory management. Fixed by closing/restarting program."
+  },
+  {
+    "QuestionText": "The Windows 7 'Libraries' feature:",
+    "Options": [
+      "A) Provides access to local library databases",
+      "B) Virtual folders that aggregate content from multiple locations into one view",
+      "C) Only for music files",
+      "D) Requires internet connection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Libraries (Windows 7+): virtual folders that collect content from multiple locations (local + network). Documents Library includes My Documents + Public Documents. Simplifies file management."
+  },
+  {
+    "QuestionText": "'Plug and Play' means:",
+    "Options": [
+      "A) Devices require manual driver installation",
+      "B) Devices automatically detected and configured by OS when connected",
+      "C) Only for gaming devices",
+      "D) Online-only device setup"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Plug and Play (PnP): connect device \u2192 OS automatically detects, installs drivers, configures. USB devices are PnP. Introduced with Windows 95 \u2014 previously all hardware needed manual configuration."
+  },
+  {
+    "QuestionText": "Which type of OS serves requests from multiple computers on a network?",
+    "Options": [
+      "A) Embedded OS",
+      "B) Network/Server OS",
+      "C) Real-time OS",
+      "D) Mobile OS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Operating Systems and Windows",
+    "SubTopic": "Types of OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Network/Server OS: designed to manage and share resources on a network. Examples: Windows Server, Linux server distributions. Handles user accounts, file sharing, web hosting, database services."
+  }
+]

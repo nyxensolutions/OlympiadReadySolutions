@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Work is done when:",
+    "Options": [
+      "A) A force acts on an object",
+      "B) A force acts and displacement occurs in the direction of force",
+      "C) An object is at rest",
+      "D) Friction is present"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = Fd cos\u03b8. Work is done only when force causes displacement. If displacement is zero (pushing a wall) or force is perpendicular to displacement, work = 0."
+  },
+  {
+    "QuestionText": "SI unit of work and energy is:",
+    "Options": [
+      "A) Newton",
+      "B) Watt",
+      "C) Joule",
+      "D) Pascal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "1 Joule = 1 Newton \u00d7 1 metre. Work and energy both measured in Joules."
+  },
+  {
+    "QuestionText": "Work done = ?",
+    "Options": [
+      "A) Force \u00d7 Time",
+      "B) Force \u00d7 Displacement",
+      "C) Force \u00d7 Acceleration",
+      "D) Mass \u00d7 Velocity"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = F \u00d7 d (when force and displacement are in same direction). More generally: W = Fd cos\u03b8."
+  },
+  {
+    "QuestionText": "Kinetic energy of a moving object is:",
+    "Options": [
+      "A) mgh",
+      "B) \u00bdmv\u00b2",
+      "C) mv",
+      "D) F\u00d7d"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "KE = \u00bdmv\u00b2. Depends on mass and square of speed. Always positive."
+  },
+  {
+    "QuestionText": "Potential energy due to position in a gravitational field is:",
+    "Options": [
+      "A) \u00bdmv\u00b2",
+      "B) mv",
+      "C) mgh",
+      "D) Fv"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravitational PE = mgh. Depends on mass, g, and height above reference level."
+  },
+  {
+    "QuestionText": "Law of conservation of energy states:",
+    "Options": [
+      "A) Energy is created by machines",
+      "B) Total energy remains constant; can only be converted",
+      "C) Mechanical energy is always conserved",
+      "D) KE is always conserved"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Energy can neither be created nor destroyed; it can only be converted from one form to another. Total energy of a closed system is constant."
+  },
+  {
+    "QuestionText": "Power is defined as:",
+    "Options": [
+      "A) Force \u00d7 Distance",
+      "B) Work / Time",
+      "C) Energy \u00d7 Time",
+      "D) Force / Time"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "Power P = Work/Time = Energy/Time. SI unit: Watt (W). 1 W = 1 J/s."
+  },
+  {
+    "QuestionText": "A machine does 600 J of work in 30s. Its power is:",
+    "Options": [
+      "A) 2 W",
+      "B) 20 W",
+      "C) 200 W",
+      "D) 18000 W"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "P = W/t = 600/30 = 20 W."
+  },
+  {
+    "QuestionText": "Work-Energy Theorem states:",
+    "Options": [
+      "A) Work equals potential energy",
+      "B) Net work done = change in kinetic energy",
+      "C) Work equals power \u00d7 time",
+      "D) Work = mgh always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "W_net = \u0394KE = \u00bdmv\u00b2 - \u00bdmu\u00b2. Net work changes the kinetic energy of an object."
+  },
+  {
+    "QuestionText": "A person lifts a 10 kg object to height 3m (g=10). Work done = ?",
+    "Options": [
+      "A) 30 J",
+      "B) 100 J",
+      "C) 300 J",
+      "D) 3000 J"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = mgh = 10 \u00d7 10 \u00d7 3 = 300 J."
+  },
+  {
+    "QuestionText": "KE of 4 kg object moving at 5 m/s = ?",
+    "Options": [
+      "A) 20 J",
+      "B) 25 J",
+      "C) 50 J",
+      "D"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "KE = \u00bdmv\u00b2 = \u00bd\u00d74\u00d725 = 50 J."
+  },
+  {
+    "QuestionText": "If speed is doubled, kinetic energy becomes:",
+    "Options": [
+      "A) 20 J",
+      "B) 25 J",
+      "C) 50 J",
+      "D) 100 J"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "KE \u221d v\u00b2. If v doubles: KE = \u00bdm(2v)\u00b2 = 4(\u00bdmv\u00b2). Kinetic energy quadruples."
+  },
+  {
+    "QuestionText": "At maximum height, a projectile's PE is maximum and KE is:",
+    "Options": [
+      "A) Maximum",
+      "B) Minimum (zero for vertical throw)",
+      "C) Equal to PE",
+      "D) Negative"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "At max height: KE = 0 (for vertical throw) and PE = maximum. Total mechanical energy is conserved (if no friction)."
+  },
+  {
+    "QuestionText": "1 horse power (HP) = ?",
+    "Options": [
+      "A) 550 W",
+      "B) 736 W",
+      "C) 746 W",
+      "D) 1000 W"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 HP = 746 W. Old unit of power named after horsepower. 1 kW = 1000 W."
+  },
+  {
+    "QuestionText": "Commercial unit of energy is:",
+    "Options": [
+      "A) Joule",
+      "B) Watt",
+      "C) kWh (kilowatt-hour)",
+      "D) Calorie"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 kWh = 1 unit of electricity = 3.6 \u00d7 10\u2076 J. Used in electricity bills. 1 kWh = 1000 W \u00d7 3600 s."
+  },
+  {
+    "QuestionText": "1 kWh = ?",
+    "Options": [
+      "A) 3.6 \u00d7 10\u00b3 J",
+      "B) 3.6 \u00d7 10\u2076 J",
+      "C) 3.6 \u00d7 10\u2079 J",
+      "D) 1000 J"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 kWh = 1000 W \u00d7 3600 s = 3.6 \u00d7 10\u2076 J."
+  },
+  {
+    "QuestionText": "Work done by friction is always:",
+    "Options": [
+      "A) Positive",
+      "B) Zero",
+      "C) Negative",
+      "D) Equal to KE"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Advanced",
+    "Explanation": "Friction opposes motion \u2192 acts opposite to displacement \u2192 W = Fd cos180\u00b0 = -Fd. Always negative."
+  },
+  {
+    "QuestionText": "A ball of mass 2 kg falls from rest from 10m height. KE just before hitting ground (g=10) = ?",
+    "Options": [
+      "A) 100 J",
+      "B) 200 J",
+      "C) 400 J",
+      "D) 20 J"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "All PE converts to KE. KE = PE = mgh = 2\u00d710\u00d710 = 200 J."
+  },
+  {
+    "QuestionText": "Gravitational PE is measured with respect to a:",
+    "Options": [
+      "A) Fixed universal point",
+      "B) Reference level (chosen arbitrarily)",
+      "C) Highest point",
+      "D) Ground only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "PE is measured relative to a chosen reference level (usually ground). PE can be positive or negative depending on choice."
+  },
+  {
+    "QuestionText": "A machine with power 5000 W does work for 2 minutes. Work done = ?",
+    "Options": [
+      "A) 2500 J",
+      "B) 10000 J",
+      "C) 600000 J",
+      "D) 6000 J"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "W = P\u00d7t = 5000 \u00d7 120 = 600,000 J = 6\u00d710\u2075 J."
+  },
+  {
+    "QuestionText": "If you push a wall and it doesn't move, work done = ?",
+    "Options": [
+      "A) Very large",
+      "B) F \u00d7 d",
+      "C) Zero (no displacement)",
+      "D) mgh"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "Work = Force \u00d7 displacement. If wall doesn't move: displacement = 0 \u2192 W = 0."
+  },
+  {
+    "QuestionText": "Energy stored in a stretched spring is:",
+    "Options": [
+      "A) Kinetic energy",
+      "B) Gravitational PE",
+      "C) Elastic potential energy",
+      "D) Thermal energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Elastic PE = \u00bdkx\u00b2 stored in stretched/compressed spring. Released as KE when spring returns to natural length."
+  },
+  {
+    "QuestionText": "Total mechanical energy = ?",
+    "Options": [
+      "A) KE + PE",
+      "B) KE - PE",
+      "C) KE \u00d7 PE",
+      "D) KE / PE"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Total mechanical energy = KE + PE. In absence of friction, this is conserved (constant throughout motion)."
+  },
+  {
+    "QuestionText": "A boy of mass 40 kg runs up a flight of stairs of height 5m in 10s (g=10). Power generated = ?",
+    "Options": [
+      "A) 100 W",
+      "B) 200 W",
+      "C) 400 W",
+      "D) 2000 W"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Advanced",
+    "Explanation": "W=mgh=40\u00d710\u00d75=2000 J. P=W/t=2000/10=200 W."
+  },
+  {
+    "QuestionText": "Which form of energy is released when wood is burned?",
+    "Options": [
+      "A) Kinetic energy",
+      "B) Chemical energy \u2192 Heat + Light",
+      "C) Electrical energy",
+      "D) Nuclear energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Forms of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Wood stores chemical energy. Burning converts it to heat and light energy."
+  },
+  {
+    "QuestionText": "A pendulum at one extreme has maximum:",
+    "Options": [
+      "A) KE",
+      "B) PE",
+      "C) Speed",
+      "D) Acceleration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "At the extreme positions, pendulum momentarily stops (v=0, KE=0). All energy is PE (maximum height)."
+  },
+  {
+    "QuestionText": "At the mean position, pendulum has maximum:",
+    "Options": [
+      "A) PE",
+      "B) Height",
+      "C) KE",
+      "D) Potential energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "At mean position (lowest point), height=minimum (PE=minimum), speed=maximum \u2192 KE = maximum."
+  },
+  {
+    "QuestionText": "Work done when force is perpendicular to displacement (\u03b8=90\u00b0) = ?",
+    "Options": [
+      "A) Maximum",
+      "B) Minimum (zero)",
+      "C) Equal to force",
+      "D) Equal to displacement"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = Fd cos90\u00b0 = 0. Centripetal force does no work on circular orbit. Normal force does no work on horizontal motion."
+  },
+  {
+    "QuestionText": "A 2 kg ball moving at 10 m/s has KE = ?",
+    "Options": [
+      "A) 20 J",
+      "B) 100 J",
+      "C) 200 J",
+      "D) 50 J"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "KE = \u00bdmv\u00b2 = \u00bd\u00d72\u00d7100 = 100 J."
+  },
+  {
+    "QuestionText": "Solar panels convert __ energy to __ energy.",
+    "Options": [
+      "A) Chemical to electrical",
+      "B) Light (solar) to electrical",
+      "C) Thermal to mechanical",
+      "D) Nuclear to electrical"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Forms of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Solar cells/panels use photoelectric effect to convert light (solar) energy directly into electrical energy."
+  },
+  {
+    "QuestionText": "Which is NOT a renewable source of energy?",
+    "Options": [
+      "A) Solar",
+      "B) Wind",
+      "C) Coal",
+      "D) Hydroelectric"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Forms of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Coal is a fossil fuel \u2014 non-renewable. Solar, wind, and hydro are renewable (naturally replenished)."
+  },
+  {
+    "QuestionText": "The efficiency of a machine is:",
+    "Options": [
+      "A) Output energy / Input energy \u00d7 100%",
+      "B) Input energy / Output energy \u00d7 100%",
+      "C) Power / Time \u00d7 100%",
+      "D) Always 100%"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Advanced",
+    "Explanation": "Efficiency = (useful output energy / total input energy) \u00d7 100%. Real machines have efficiency < 100% due to friction losses."
+  },
+  {
+    "QuestionText": "An electric bulb uses 60 W for 5 hours. Energy consumed (in kWh) = ?",
+    "Options": [
+      "A) 0.3 kWh",
+      "B) 3 kWh",
+      "C) 300 kWh",
+      "D) 60 kWh"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Advanced",
+    "Explanation": "Energy = Power \u00d7 Time = 60W \u00d7 5h = 300 Wh = 0.3 kWh."
+  },
+  {
+    "QuestionText": "An elevator motor lifts 500 kg through 10m in 20s (g=10). Power of motor = ?",
+    "Options": [
+      "A) 1000 W",
+      "B) 2500 W",
+      "C) 5000 W",
+      "D) 25000 W"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Advanced",
+    "Explanation": "W=mgh=500\u00d710\u00d710=50000 J. P=50000/20=2500 W."
+  },
+  {
+    "QuestionText": "When a car brakes, kinetic energy converts mainly to:",
+    "Options": [
+      "A) Electrical energy",
+      "B) Potential energy",
+      "C) Heat energy (friction)",
+      "D) Sound energy only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Friction between brake pads and disc converts KE to heat. Regenerative braking (in EVs) converts some to electrical energy."
+  },
+  {
+    "QuestionText": "Energy can be measured in:",
+    "Options": [
+      "A) Joules",
+      "B) kWh",
+      "C) Calories",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "Energy can be expressed in Joules (SI), kWh (commercial), Calories (food/nutrition), BTU (British). All are units of energy."
+  },
+  {
+    "QuestionText": "If work done against gravity = 500 J, PE gained = ?",
+    "Options": [
+      "A) 0 J",
+      "B) 250 J",
+      "C) 500 J",
+      "D) 1000 J"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Work done against gravity = PE gained. Energy is stored as gravitational PE."
+  },
+  {
+    "QuestionText": "Watt-second equals:",
+    "Options": [
+      "A) 1 kWh",
+      "B) 1 Joule",
+      "C) 1 calorie",
+      "D) 1 Newton"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 Watt-second = 1 J (since 1 W = 1 J/s). Power \u00d7 time = energy."
+  },
+  {
+    "QuestionText": "A body of mass m falls freely from height h. Just before hitting ground, v = ?",
+    "Options": [
+      "A) mgh",
+      "B) \u221a(mgh)",
+      "C) \u221a(2gh)",
+      "D) 2gh"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "PE = KE: mgh = \u00bdmv\u00b2 \u2192 v = \u221a(2gh). Mass cancels."
+  },
+  {
+    "QuestionText": "Nuclear energy is energy stored in:",
+    "Options": [
+      "A) Electrons",
+      "B) Chemical bonds",
+      "C) Atomic nucleus",
+      "D) Gravitational field"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Forms of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Nuclear energy is released from the nucleus (fission or fusion). Enormous energy (E=mc\u00b2)."
+  },
+  {
+    "QuestionText": "Negative work is done when:",
+    "Options": [
+      "A) Force and displacement are parallel",
+      "B) Force and displacement are anti-parallel (opposite directions)",
+      "C) Mass is large",
+      "D) Force is large"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = Fd cos\u03b8. When \u03b8=180\u00b0: W = -Fd. Friction does negative work. Brakes do negative work."
+  },
+  {
+    "QuestionText": "A hydroelectric power station converts:",
+    "Options": [
+      "A) Solar to electrical",
+      "B) Gravitational PE of water to electrical",
+      "C) Chemical to electrical",
+      "D) Nuclear to electrical"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Forms of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Hydroelectric: water flows down (PE \u2192 KE) \u2192 turns turbines \u2192 generates electricity. Clean, renewable energy."
+  },
+  {
+    "QuestionText": "KE of a 5 kg object at 4 m/s equals PE at height h (g=10). Find h.",
+    "Options": [
+      "A) 0.4 m",
+      "B) 0.8 m",
+      "C) 1.6 m",
+      "D) 4 m"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "KE=\u00bd\u00d75\u00d716=40 J. PE=mgh=5\u00d710\u00d7h=40 \u2192 h=0.8 m."
+  },
+  {
+    "QuestionText": "What is the work done in moving a 20 N force over 4 m at 60\u00b0 to displacement?",
+    "Options": [
+      "A) 40 J",
+      "B) 69.3 J",
+      "C) 80 J",
+      "D) 20 J"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Advanced",
+    "Explanation": "W=Fd cos\u03b8=20\u00d74\u00d7cos60\u00b0=80\u00d70.5=40 J."
+  },
+  {
+    "QuestionText": "The energy transformation in a microphone is:",
+    "Options": [
+      "A) Electrical to sound",
+      "B) Sound to electrical",
+      "C) Mechanical to light",
+      "D) Light to electrical"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Forms of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Microphone: sound (mechanical) \u2192 electrical signal. Speaker: electrical \u2192 sound. Both are transducers."
+  },
+  {
+    "QuestionText": "A 100 W bulb and a 40 W bulb both run for 1 hour. Total energy consumed = ?",
+    "Options": [
+      "A) 100 Wh",
+      "B) 140 Wh",
+      "C) 60 Wh",
+      "D) 40 Wh"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "Total energy = (100+40)\u00d71 = 140 Wh = 0.14 kWh."
+  },
+  {
+    "QuestionText": "In an ideal (no friction) pendulum, total mechanical energy:",
+    "Options": [
+      "A) Increases",
+      "B) Decreases",
+      "C) Remains constant",
+      "D) Oscillates"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Without friction: KE + PE = constant at all positions. Energy just converts between KE and PE forms."
+  },
+  {
+    "QuestionText": "Work done in pulling a 10 kg block 5m along frictionless floor with F=50N (horizontal) is:",
+    "Options": [
+      "A) 100 J",
+      "B) 250 J",
+      "C) 500 J",
+      "D) 50 J"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W=F\u00d7d=50\u00d75=250 J (force and displacement are parallel, \u03b8=0\u00b0, cos0\u00b0=1)."
+  },
+  {
+    "QuestionText": "Which has more KE: 2 kg at 4 m/s or 4 kg at 2 m/s?",
+    "Options": [
+      "A) First (2 kg at 4 m/s)",
+      "B) Second (4 kg at 2 m/s)",
+      "C) Both equal",
+      "D) Cannot compare"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "KE\u2081=\u00bd\u00d72\u00d716=16 J. KE\u2082=\u00bd\u00d74\u00d74=8 J. First object has more KE."
+  },
+  {
+    "QuestionText": "A motor lifts 200 kg water to a tank 10m above in 5 minutes (g=10). Power = ?",
+    "Options": [
+      "A) 666 W",
+      "B) 333 W",
+      "C) 1000 W",
+      "D) 100 W"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work and Energy",
+    "SubTopic": "Power",
+    "Difficulty": "Advanced",
+    "Explanation": "W=mgh=200\u00d710\u00d710=20000 J. P=W/t=20000/300\u2248666.7 W."
+  }
+]

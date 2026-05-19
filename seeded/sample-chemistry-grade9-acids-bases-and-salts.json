@@ -1,0 +1,703 @@
+[
+  {
+    "QuestionText": "Arrhenius definition: an acid is a substance that produces __ in water.",
+    "Options": [
+      "A) OH\u207b ions",
+      "B) H\u207a ions",
+      "C) Na\u207a ions",
+      "D) Cl\u207b ions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "Arrhenius: acid produces H\u207a (H\u2083O\u207a) in water; base produces OH\u207b. E.g., HCl \u2192 H\u207a + Cl\u207b; NaOH \u2192 Na\u207a + OH\u207b."
+  },
+  {
+    "QuestionText": "The pH of pure water is:",
+    "Options": [
+      "A) 0",
+      "B) 7",
+      "C) 14",
+      "D) 1"
+    ],
+    "CorreortAnswer": "B",
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "pH Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "Pure water: pH = 7 (neutral). pH < 7 = acidic. pH > 7 = basic/alkaline. pH = 0 = strongest acid. pH = 14 = strongest base."
+  },
+  {
+    "QuestionText": "Which ion is responsible for acidic nature of acids?",
+    "Options": [
+      "A) OH\u207b",
+      "B) H\u207a (H\u2083O\u207a)",
+      "C) Cl\u207b",
+      "D) Na\u207a"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Foundation",
+    "Explanation": "H\u207a ions (or more accurately H\u2083O\u207a, hydronium ions) make solutions acidic. Their concentration determines pH."
+  },
+  {
+    "QuestionText": "Litmus paper turns __ in acid and __ in base.",
+    "Options": [
+      "A) Blue, Red",
+      "B) Red, Blue",
+      "C) Yellow, Green",
+      "D) Green, Yellow"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Indicators",
+    "Difficulty": "Foundation",
+    "Explanation": "Litmus: red in acid (pH<7), blue in base (pH>7), purple in neutral. Classic acid-base indicator."
+  },
+  {
+    "QuestionText": "pH scale ranges from:",
+    "Options": [
+      "A) 0 to 7",
+      "B) 1 to 14",
+      "C) 0 to 14",
+      "D) -7 to 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "pH Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "pH scale: 0 (most acidic) to 14 (most basic). pH 7 = neutral. Originally defined as -log[H\u207a]."
+  },
+  {
+    "QuestionText": "HCl + NaOH \u2192 NaCl + H\u2082O. This is:",
+    "Options": [
+      "A) Decomposition",
+      "B) Neutralisation",
+      "C) Displacement",
+      "D) Combination"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Neutralisation",
+    "Difficulty": "Foundation",
+    "Explanation": "Neutralisation: acid + base \u2192 salt + water. H\u207a + OH\u207b \u2192 H\u2082O. HCl (acid) + NaOH (base) \u2192 NaCl (salt) + H\u2082O."
+  },
+  {
+    "QuestionText": "Common salt (NaCl) is formed by reaction of:",
+    "Options": [
+      "A) HCl + NaOH",
+      "B) H\u2082SO\u2084 + Na\u2082O",
+      "C) HNO\u2083 + Na",
+      "D) HCl + Na\u2082CO\u2083"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "NaCl: HCl (hydrochloric acid) + NaOH (sodium hydroxide) \u2192 NaCl + H\u2082O."
+  },
+  {
+    "QuestionText": "Baking soda is:",
+    "Options": [
+      "A) Na\u2082CO\u2083",
+      "B) NaHCO\u2083",
+      "C) NaOH",
+      "D) Na\u2082SO\u2084"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Baking soda = sodium bicarbonate = NaHCO\u2083. Washing soda = Na\u2082CO\u2083. Caustic soda = NaOH."
+  },
+  {
+    "QuestionText": "Washing soda (Na\u2082CO\u2083\u00b710H\u2082O) is:",
+    "Options": [
+      "A) Acidic",
+      "B) Neutral",
+      "C) Basic",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Na\u2082CO\u2083 is a salt of weak acid (H\u2082CO\u2083) + strong base (NaOH). Salt of weak acid and strong base \u2192 basic solution (pH > 7)."
+  },
+  {
+    "QuestionText": "The pH of lemon juice is approximately:",
+    "Options": [
+      "A) 2-3 (acidic)",
+      "B) 7 (neutral)",
+      "C) 9-10 (basic)",
+      "D) 14 (very basic)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "pH Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "Lemon juice contains citric acid \u2192 pH \u2248 2-3 (acidic). Blood: 7.4. Milk: 6.5. Vinegar: 2.4. Bleach: 12-13."
+  },
+  {
+    "QuestionText": "Milk of magnesia (Mg(OH)\u2082) is used for:",
+    "Options": [
+      "A) Cleaning",
+      "B) Treating acidity (neutralises stomach acid)",
+      "C) Making glass",
+      "D) Preserving food"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "Mg(OH)\u2082 is a mild alkali \u2014 neutralises excess HCl in stomach. Used as antacid. Also used as laxative."
+  },
+  {
+    "QuestionText": "Strong acids fully dissociate in water. Which is a strong acid?",
+    "Options": [
+      "A) CH\u2083COOH (acetic acid)",
+      "B) HCl (hydrochloric acid)",
+      "C) H\u2082CO\u2083 (carbonic acid)",
+      "D) H\u2083PO\u2084 (phosphoric acid)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Strong acids: HCl, H\u2082SO\u2084, HNO\u2083, HBr, HI, HClO\u2084. They fully ionise in water. Weak acids: CH\u2083COOH, H\u2082CO\u2083, H\u2083PO\u2084, HF (partial ionisation)."
+  },
+  {
+    "QuestionText": "NaOH is a:",
+    "Options": [
+      "A) Weak base",
+      "B) Strong base",
+      "C) Salt",
+      "D) Acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Bases",
+    "Difficulty": "Foundation",
+    "Explanation": "NaOH = sodium hydroxide = strong base. Fully ionises: NaOH \u2192 Na\u207a + OH\u207b. Strong bases: NaOH, KOH, Ca(OH)\u2082."
+  },
+  {
+    "QuestionText": "pH of a solution increases when:",
+    "Options": [
+      "A) More acid added",
+      "B) More base added",
+      "C) Diluted with acid",
+      "D) Temperature increases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "pH Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding base increases OH\u207b concentration \u2192 decreases H\u207a \u2192 pH increases. Adding acid decreases pH."
+  },
+  {
+    "QuestionText": "Ants' sting causes burning sensation due to:",
+    "Options": [
+      "A) H\u2082SO\u2084",
+      "B) Methanoic (formic) acid (HCOOH)",
+      "C) Acetic acid",
+      "D) Oxalic acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Acids in Nature",
+    "Difficulty": "Foundation",
+    "Explanation": "Ant sting injects formic acid (methanoic acid, HCOOH). The burning sensation is its acidic nature. Treated with baking soda (NaHCO\u2083) to neutralise."
+  },
+  {
+    "QuestionText": "The acid in vinegar is:",
+    "Options": [
+      "A) Citric acid",
+      "B) Acetic acid (ethanoic acid)",
+      "C) Tartaric acid",
+      "D) Lactic acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Acids in Nature",
+    "Difficulty": "Foundation",
+    "Explanation": "Vinegar = dilute acetic acid (ethanoic acid, CH\u2083COOH). 5-8% acetic acid in water. Used in cooking and food preservation."
+  },
+  {
+    "QuestionText": "Plaster of Paris (POP) is:",
+    "Options": [
+      "A) CaSO\u2084\u00b72H\u2082O",
+      "B) CaSO\u2084\u00b7\u00bdH\u2082O",
+      "C) CaCO\u2083",
+      "D) CaO"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Advanced",
+    "Explanation": "POP = CaSO\u2084\u00b7\u00bdH\u2082O (calcium sulphate hemihydrate). Made by heating gypsum (CaSO\u2084\u00b72H\u2082O) to 120\u00b0C. Sets hard when mixed with water (reverse reaction)."
+  },
+  {
+    "QuestionText": "Bleaching powder is:",
+    "Options": [
+      "A) CaOCl\u2082",
+      "B) Ca(OCl)\u2082",
+      "C) Ca(ClO\u2083)\u2082",
+      "D) CaCl\u2082"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Advanced",
+    "Explanation": "Bleaching powder = CaOCl\u2082 (calcium chlorohypochlorite). Made by passing Cl\u2082 over slaked lime Ca(OH)\u2082. Used for water treatment, bleaching."
+  },
+  {
+    "QuestionText": "Universal indicator shows __ colour for neutral solutions.",
+    "Options": [
+      "A) Red",
+      "B) Blue",
+      "C) Yellow/Green",
+      "D) Purple"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Indicators",
+    "Difficulty": "Foundation",
+    "Explanation": "Universal indicator: shows colour range across pH. pH 7 (neutral) \u2192 green. pH 1 \u2192 red. pH 14 \u2192 violet. A mixture of several indicators."
+  },
+  {
+    "QuestionText": "Soap is made from:",
+    "Options": [
+      "A) Acid + Base \u2192 Salt",
+      "B) Fat/oil + strong base (NaOH) \u2192 soap + glycerol",
+      "C) Salt + water",
+      "D) Acid + acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Saponification: fat/oil + NaOH \u2192 sodium salt of fatty acid (soap) + glycerol. Soap is a sodium salt of a fatty acid."
+  },
+  {
+    "QuestionText": "Hydrochloric acid in human stomach:",
+    "Options": [
+      "A) Kills pathogens and activates pepsin",
+      "B) Causes heartburn only",
+      "C) Is neutral",
+      "D) Is not present"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Acids in Nature",
+    "Difficulty": "Foundation",
+    "Explanation": "Stomach HCl (pH 1.5-3.5): kills most ingested bacteria, activates pepsinogen \u2192 pepsin (protein-digesting enzyme), provides acidic environment for digestion."
+  },
+  {
+    "QuestionText": "Antacids work by:",
+    "Options": [
+      "A) Increasing HCl production",
+      "B) Neutralising excess stomach acid",
+      "C) Absorbing food",
+      "D) Increasing pH of blood"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "Antacids: weak bases (Mg(OH)\u2082, Al(OH)\u2083, NaHCO\u2083, CaCO\u2083) neutralise excess HCl in stomach \u2192 relieve acidity/heartburn."
+  },
+  {
+    "QuestionText": "Acid rain has pH:",
+    "Options": [
+      "A) = 7",
+      "B) > 7",
+      "C) < 7 (below 5.6)",
+      "D) = 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "pH Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "Normal rain: pH 5.6 (slightly acidic due to CO\u2082). Acid rain: pH < 5.6 (due to SO\u2082, NO\u2093 from industrial/vehicle emissions \u2192 H\u2082SO\u2084, HNO\u2083 in rain)."
+  },
+  {
+    "QuestionText": "Boric acid is used in:",
+    "Options": [
+      "A) Making paint",
+      "B) Eyewash (mild antiseptic)",
+      "C) Industrial chemicals only",
+      "D) Baking"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "Boric acid (H\u2083BO\u2083): mild antiseptic used in eyewash solutions. Also used in insecticides and food preservation (borax - sodium borate)."
+  },
+  {
+    "QuestionText": "Which of these is a salt?",
+    "Options": [
+      "A) H\u2082SO\u2084",
+      "B) NaOH",
+      "C) Na\u2082SO\u2084",
+      "D) HCl"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Salt = ionic compound formed by neutralisation. Na\u2082SO\u2084 (sodium sulphate) is a salt. H\u2082SO\u2084 = acid. NaOH = base. HCl = acid."
+  },
+  {
+    "QuestionText": "The sour taste of curd is due to:",
+    "Options": [
+      "A) Citric acid",
+      "B) Lactic acid",
+      "C) Acetic acid",
+      "D) Oxalic acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Acids in Nature",
+    "Difficulty": "Foundation",
+    "Explanation": "Lactic acid (CH\u2083CH(OH)COOH) is produced by bacteria (Lactobacillus) fermenting lactose in milk \u2192 curd. Also in sore muscles after exercise."
+  },
+  {
+    "QuestionText": "Sodium hydroxide solution is used to:",
+    "Options": [
+      "A) Treat acidity",
+      "B) Make soap, paper, rayon (industrial base)",
+      "C) Drink as antacid",
+      "D) Test for CO\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "NaOH (caustic soda): industrial applications \u2014 soap making, paper production, rayon manufacture, drain cleaners, biodiesel production."
+  },
+  {
+    "QuestionText": "Salt of strong acid and weak base gives __ solution.",
+    "Options": [
+      "A) Acidic",
+      "B) Basic",
+      "C) Neutral",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Advanced",
+    "Explanation": "NH\u2084Cl: strong acid (HCl) + weak base (NH\u2083). In water, NH\u2084\u207a hydrolyses \u2192 acidic solution. Rule: weak acid + strong base \u2192 basic. Strong acid + weak base \u2192 acidic."
+  },
+  {
+    "QuestionText": "Gypsum is:",
+    "Options": [
+      "A) CaSO\u2084",
+      "B) CaSO\u2084\u00b72H\u2082O",
+      "C) CaCO\u2083",
+      "D) Ca(OH)\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Gypsum = CaSO\u2084\u00b72H\u2082O (calcium sulphate dihydrate). Used in making POP, cement, blackboard chalk. When heated to 120\u00b0C \u2192 POP (CaSO\u2084\u00b7\u00bdH\u2082O)."
+  },
+  {
+    "QuestionText": "The formula of common salt is:",
+    "Options": [
+      "A) KCl",
+      "B) NaCl",
+      "C) Na\u2082CO\u2083",
+      "D) NaHCO\u2083"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Common salt = table salt = NaCl (sodium chloride). KCl = potassium chloride. Na\u2082CO\u2083 = washing soda. NaHCO\u2083 = baking soda."
+  },
+  {
+    "QuestionText": "Acids have pH:",
+    "Options": [
+      "A) Equal to 7",
+      "B) Greater than 7",
+      "C) Less than 7",
+      "D) Greater than 14"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "pH Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "pH < 7 = acidic. pH = 7 = neutral. pH > 7 = basic/alkaline. Lower pH = stronger acid."
+  },
+  {
+    "QuestionText": "Bases that are soluble in water are called:",
+    "Options": [
+      "A) Salts",
+      "B) Alkalis",
+      "C) Oxides",
+      "D) Acids"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Bases",
+    "Difficulty": "Foundation",
+    "Explanation": "Alkali = soluble base. All alkalis are bases but not all bases are alkalis. NaOH, KOH, NH\u2083(aq) are alkalis. Insoluble bases: Cu(OH)\u2082, Fe(OH)\u2083."
+  },
+  {
+    "QuestionText": "H\u2082SO\u2084 reacts with Zn to produce:",
+    "Options": [
+      "A) ZnO + H\u2082O",
+      "B) ZnSO\u2084 + H\u2082\u2191",
+      "C) ZnH\u2082 + SO\u2084",
+      "D) ZnS + H\u2082O"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Zn + H\u2082SO\u2084 \u2192 ZnSO\u2084 + H\u2082\u2191. Displacement reaction \u2014 Zn displaces H from acid. H\u2082 gas is produced."
+  },
+  {
+    "QuestionText": "pH of human blood is approximately:",
+    "Options": [
+      "A) 4.5",
+      "B) 6.0",
+      "C) 7.4",
+      "D) 8.5"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "pH Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "Blood pH \u2248 7.35-7.45 (slightly basic). Maintained by buffer systems. pH < 7.35 = acidosis; pH > 7.45 = alkalosis (both dangerous)."
+  },
+  {
+    "QuestionText": "Efflorescence is:",
+    "Options": [
+      "A) Gaining water from air",
+      "B) Losing water of crystallisation to air",
+      "C) Formation of precipitate",
+      "D) Dissolution in water"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Advanced",
+    "Explanation": "Efflorescence: hydrated salts (like Na\u2082CO\u2083\u00b710H\u2082O) lose water of crystallisation to air \u2192 become powdery. Opposite of hygroscopy (absorbing water from air)."
+  },
+  {
+    "QuestionText": "Crystal of blue vitriol is:",
+    "Options": [
+      "A) CuSO\u2084",
+      "B) CuSO\u2084\u00b75H\u2082O",
+      "C) Cu\u2082SO\u2084",
+      "D) CuS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Blue vitriol = copper sulphate pentahydrate = CuSO\u2084\u00b75H\u2082O. Blue crystals. When heated loses water \u2192 white anhydrous CuSO\u2084. Anhydrous CuSO\u2084 + water \u2192 turns blue (test for water)."
+  },
+  {
+    "QuestionText": "Water of crystallisation is:",
+    "Options": [
+      "A) Water produced during reactions",
+      "B) Fixed amount of water molecules in crystal structure of salt",
+      "C) Water used in dissolving salts",
+      "D) Any water in solution"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Water of crystallisation: specific number of water molecules in definite ratio in crystal lattice. E.g., FeSO\u2084\u00b77H\u2082O (green vitriol), Na\u2082SO\u2084\u00b710H\u2082O (Glauber's salt)."
+  },
+  {
+    "QuestionText": "Strong base + weak acid produces a salt with what pH?",
+    "Options": [
+      "A) Acidic",
+      "B) Neutral",
+      "C) Basic",
+      "D) Depends on temperature"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Advanced",
+    "Explanation": "NaOH (strong) + CH\u2083COOH (weak) \u2192 CH\u2083COONa + H\u2082O. CH\u2083COO\u207b hydrolyses in water \u2192 basic solution. Rule: salt of strong base + weak acid \u2192 basic."
+  },
+  {
+    "QuestionText": "Sodium hydrogen carbonate (baking soda) releases CO\u2082 when heated. This CO\u2082 makes:",
+    "Options": [
+      "A) Food more dense",
+      "B) Food rise and become soft",
+      "C) Food more acidic",
+      "D) Food more salty"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "2NaHCO\u2083 \u2192 Na\u2082CO\u2083 + H\u2082O + CO\u2082. CO\u2082 gas creates bubbles in dough \u2192 bread/cake rises and becomes soft. Baking powder = NaHCO\u2083 + tartaric acid (to prevent Na\u2082CO\u2083 aftertaste)."
+  },
+  {
+    "QuestionText": "Green vitriol is:",
+    "Options": [
+      "A) CuSO\u2084\u00b75H\u2082O",
+      "B) FeSO\u2084\u00b77H\u2082O",
+      "C) ZnSO\u2084\u00b77H\u2082O",
+      "D) MgSO\u2084\u00b77H\u2082O"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Salts",
+    "Difficulty": "Foundation",
+    "Explanation": "Green vitriol = FeSO\u2084\u00b77H\u2082O (ferrous sulphate heptahydrate) \u2014 green crystals. Blue vitriol = CuSO\u2084\u00b75H\u2082O. White vitriol = ZnSO\u2084\u00b77H\u2082O. Epsom salt = MgSO\u2084\u00b77H\u2082O."
+  },
+  {
+    "QuestionText": "Muriatic acid is the common name for:",
+    "Options": [
+      "A) H\u2082SO\u2084",
+      "B) HNO\u2083",
+      "C) HCl",
+      "D) HF"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Muriatic acid = hydrochloric acid (HCl). Common names: muriatic acid (HCl), oil of vitriol (H\u2082SO\u2084), aqua fortis (HNO\u2083), aqua regia (HCl:HNO\u2083 = 3:1)."
+  },
+  {
+    "QuestionText": "Indicators are:",
+    "Options": [
+      "A) Catalysts",
+      "B) Dyes that change colour based on pH",
+      "C) Salts",
+      "D) Strong acids"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Indicators",
+    "Difficulty": "Foundation",
+    "Explanation": "Indicators: organic dyes that change colour depending on pH. E.g., litmus (plant-based), phenolphthalein (colourless in acid, pink in base), methyl orange."
+  },
+  {
+    "QuestionText": "Phenolphthalein in alkaline solution is:",
+    "Options": [
+      "A) Colourless",
+      "B) Yellow",
+      "C) Red",
+      "D) Pink/Magenta"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Indicators",
+    "Difficulty": "Foundation",
+    "Explanation": "Phenolphthalein: colourless in acidic/neutral (pH < 8.2), pink/magenta in basic (pH > 8.2). Used to detect strong bases in titrations."
+  },
+  {
+    "QuestionText": "Water is amphoteric because:",
+    "Options": [
+      "A) It is a strong acid",
+      "B) It can act as both acid and base",
+      "C) It has no pH",
+      "D) It contains H\u207a and OH\u207b"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Definitions",
+    "Difficulty": "Advanced",
+    "Explanation": "Amphoteric substance: can act as acid or base. Water donates H\u207a (acid) in some reactions, accepts H\u207a (base) in others. NH\u2083 also amphoteric. Al(OH)\u2083 = amphoteric hydroxide."
+  },
+  {
+    "QuestionText": "Which acid is found in tamarind?",
+    "Options": [
+      "A) Citric acid",
+      "B) Tartaric acid",
+      "C) Oxalic acid",
+      "D) Lactic acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Acids in Nature",
+    "Difficulty": "Foundation",
+    "Explanation": "Tartaric acid is found in tamarind. Citric acid: lemon, orange. Oxalic acid: spinach, tomato. Lactic acid: curd."
+  },
+  {
+    "QuestionText": "Concentrated sulphuric acid is:",
+    "Options": [
+      "A) Dilute and safe",
+      "B) Highly corrosive and acts as dehydrating agent",
+      "C) A weak acid",
+      "D) Used to treat burns"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Advanced",
+    "Explanation": "Conc. H\u2082SO\u2084 = highly corrosive, dehydrating, oxidising agent. Never add water to conc. H\u2082SO\u2084 \u2014 add acid to water. Used in car batteries, fertilizer production."
+  },
+  {
+    "QuestionText": "Acid + Metal carbonate \u2192 Salt + Water + ?",
+    "Options": [
+      "A) H\u2082 gas",
+      "B) CO\u2082 gas",
+      "C) O\u2082 gas",
+      "D) Cl\u2082 gas"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Foundation",
+    "Explanation": "HCl + Na\u2082CO\u2083 \u2192 2NaCl + H\u2082O + CO\u2082\u2191. CO\u2082 gas is released when acid reacts with carbonates. Test: CO\u2082 turns lime water milky."
+  },
+  {
+    "QuestionText": "Which ion makes a solution basic?",
+    "Options": [
+      "A) H\u207a",
+      "B) Na\u207a",
+      "C) OH\u207b",
+      "D) Cl\u207b"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Bases",
+    "Difficulty": "Foundation",
+    "Explanation": "OH\u207b (hydroxide ion) makes solutions basic. pH > 7 means [OH\u207b] > [H\u207a]. Bases produce OH\u207b in water."
+  },
+  {
+    "QuestionText": "The process of dissolving an acid/base in water is:",
+    "Options": [
+      "A) Always endothermic",
+      "B) Always exothermic",
+      "C) Exothermic (heat released) for strong acids/bases",
+      "D) Temperature-neutral"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Advanced",
+    "Explanation": "Dissolving strong acids (H\u2082SO\u2084, HCl) and bases (NaOH) in water is exothermic \u2014 heat released. Always add acid to water (not reverse) to avoid violent splashing."
+  },
+  {
+    "QuestionText": "Rust (Fe\u2082O\u2083\u00b7xH\u2082O) reacts with dilute HCl to form:",
+    "Options": [
+      "A) FeCl\u2082 + H\u2082O",
+      "B) FeCl\u2083 + H\u2082O",
+      "C) No reaction",
+      "D) Fe + Cl\u2082 + H\u2082O"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Acids Bases and Salts",
+    "SubTopic": "Properties of Acids",
+    "Difficulty": "Advanced",
+    "Explanation": "Fe\u2082O\u2083 + 6HCl \u2192 2FeCl\u2083 + 3H\u2082O. Metal oxide + acid \u2192 salt + water. Fe\u2082O\u2083 is a basic oxide, reacts with acid."
+  }
+]

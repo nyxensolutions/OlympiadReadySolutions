@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What does HTML stand for?",
+    "Options": [
+      "A) High-level Text Markup Language",
+      "B) HyperText Markup Language \u2014 the standard language for creating web pages",
+      "C) Hyperlinked Text Management Language",
+      "D) HyperText Modern Language"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML (HyperText Markup Language): the standard language for creating web pages. 'HyperText' = text with links (hyperlinks) to other documents. 'Markup Language' = uses tags to annotate/label content. HTML defines the structure and content of web pages. CSS styles them (colours, fonts, layout). JavaScript makes them interactive. A basic web page is an HTML file (.html or .htm) sent from web server to browser, which renders it visually. Tim Berners-Lee invented HTML in 1989-1991."
+  },
+  {
+    "QuestionText": "What is an HTML tag?",
+    "Options": [
+      "A) A label attached to web page files",
+      "B) A keyword enclosed in angle brackets (<>) that defines the structure and meaning of web content",
+      "C) A type of hyperlink",
+      "D) A comment in HTML code"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML tags: keywords surrounded by < and >. Most tags come in pairs: opening tag <tagname> and closing tag </tagname>. Example: <p>This is a paragraph.</p>. Content between tags is affected by the tag's meaning. Self-closing tags don't need a closing tag: <br> (line break), <img> (image), <hr> (horizontal rule), <input>. Tags define meaning: <h1> (main heading), <p> (paragraph), <a> (link), <ul> (unordered list), <table> (table), <form> (form)."
+  },
+  {
+    "QuestionText": "What is the correct basic structure of an HTML document?",
+    "Options": [
+      "A) <html><body><head>content</head></body></html>",
+      "B) <!DOCTYPE html><html><head>...</head><body>...</body></html>",
+      "C) <webpage><title>...</title><content>...</content></webpage>",
+      "D) <document><header>...</header><main>...</main></document>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard HTML5 document structure: <!DOCTYPE html> (declares HTML5), <html lang='en'> (root element), <head> (metadata: title, CSS links, character set \u2014 NOT visible on page), <body> (all visible page content). The <head> section contains: <title> (browser tab title), <meta charset='UTF-8'> (character encoding), <link rel='stylesheet'> (CSS file link), <script> (JavaScript). The <body> section holds all visible content: headings, paragraphs, images, links, tables, forms."
+  },
+  {
+    "QuestionText": "What does the <a> tag do in HTML?",
+    "Options": [
+      "A) Adds an animation to the page",
+      "B) Creates a hyperlink to another web page, file, email address, or location on the same page",
+      "C) Aligns text to the centre",
+      "D) Creates an abbreviation tooltip"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<a> (anchor) tag creates hyperlinks: <a href='https://www.google.com'>Visit Google</a>. The 'href' attribute specifies the destination URL. target='_blank': opens link in new tab. href='mailto:email@example.com': opens email client. href='#section-id': jumps to element with that ID on same page. The text between <a> and </a> is the clickable link text (blue underlined by default). Navigation menus are typically lists of <a> tags inside <nav>."
+  },
+  {
+    "QuestionText": "What is the purpose of the <img> tag in HTML?",
+    "Options": [
+      "A) Applies image styles to text",
+      "B) Embeds an image into the web page",
+      "C) Creates an image placeholder",
+      "D) Links to an external image file without displaying it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<img> tag: self-closing, embeds images. Attributes: src (source \u2014 file path or URL): <img src='photo.jpg'>. alt (alternative text \u2014 shown if image fails; essential for screen readers/accessibility): <img src='photo.jpg' alt='Student at desk'>. width and height: control dimensions in pixels or percentage. <img src='logo.png' alt='Company Logo' width='200'>. Good alt text describes image content for visually impaired users and for SEO (search engine indexing)."
+  },
+  {
+    "QuestionText": "What is CSS?",
+    "Options": [
+      "A) Computer Style Scripting",
+      "B) Cascading Style Sheets \u2014 language for styling HTML elements (colours, fonts, layout, spacing)",
+      "C) Controlled Scripting System",
+      "D) Common Server Syntax"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "CSS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "CSS (Cascading Style Sheets): separates presentation from HTML structure. Controls: colours, fonts, font sizes, spacing (margin, padding), layout (flexbox, grid), borders, backgrounds, animations, responsive design (different layouts for mobile vs desktop). Three ways to apply CSS: Inline (style attribute on element \u2014 lowest reusability), Internal (<style> tag in <head> \u2014 for single page), External (separate .css file linked with <link> \u2014 best practice for maintaining consistency across multiple pages)."
+  },
+  {
+    "QuestionText": "What do HTML heading tags <h1> to <h6> represent?",
+    "Options": [
+      "A) Different font sizes only",
+      "B) Six levels of section headings \u2014 <h1> most important/largest, <h6> least important/smallest",
+      "C) Six different colours for text",
+      "D) Header, subheader, and four decoration levels"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML headings: <h1> = main page title (use once per page \u2014 important for SEO), <h2> = major section headings, <h3> = subsection headings, <h4>, <h5>, <h6> = progressively smaller sub-headings. Browsers display them with decreasing font sizes by default. Headings create document hierarchy/outline. SEO (Search Engine Optimisation): search engines use headings to understand page structure and content \u2014 proper heading use improves search ranking. Accessibility: screen readers use headings for navigation \u2014 don't skip levels (don't jump from <h1> to <h4>)."
+  },
+  {
+    "QuestionText": "What is the difference between <ul> and <ol> in HTML?",
+    "Options": [
+      "A) <ul> is for unordered (bulleted) lists; <ol> is for ordered (numbered) lists",
+      "B) <ul> is for underlined text; <ol> is for overlapping lists",
+      "C) They create identical lists",
+      "D) <ul> is for horizontal lists; <ol> is for vertical lists"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML lists: <ul> (unordered list): items marked with bullets (\u2022): <ul><li>Apple</li><li>Banana</li></ul>. <ol> (ordered list): items numbered automatically: <ol><li>First</li><li>Second</li></ol>. <li> (list item): used inside both <ul> and <ol>. <dl> (description list): term-definition pairs. Lists can be nested. CSS can customise markers: list-style-type (disc, circle, square, decimal, lower-alpha, lower-roman). Navigation menus are commonly built using <ul> with CSS styling."
+  },
+  {
+    "QuestionText": "What does the 'src' attribute in an <img> tag specify?",
+    "Options": [
+      "A) The style of the image border",
+      "B) The source path or URL of the image file to display",
+      "C) The screen resolution for displaying the image",
+      "D) The search keywords for the image"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML attributes provide additional information about elements: src = source. In <img src='images/photo.jpg'>: relative path (image in 'images' folder relative to HTML file). In <img src='https://example.com/photo.jpg'>: absolute URL. If src path is wrong: image shows as broken (alt text displays instead). Common attributes: href (hyperlink destination for <a>), src (source for <img>, <script>), class (CSS class name), id (unique identifier), style (inline CSS), alt (alternative text for images), type (input type for <input>)."
+  },
+  {
+    "QuestionText": "What is the role of JavaScript in web development?",
+    "Options": [
+      "A) Defines the structure of web pages",
+      "B) Adds interactivity and dynamic behaviour to web pages",
+      "C) Styles web pages with colours and fonts",
+      "D) Stores web page data on servers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Web technologies: HTML (structure/content), CSS (presentation/styling), JavaScript (behaviour/interactivity). JavaScript enables: form validation (check before submitting), dynamic content (update without page reload \u2014 live search results), animations and visual effects, responding to user events (click, hover, key press), calling APIs for live data (weather, maps), creating full web applications. All modern browsers execute JavaScript. Node.js runs JavaScript on servers. JavaScript frameworks: React, Angular, Vue (front-end), Express (back-end)."
+  },
+  {
+    "QuestionText": "What is the <table> element used for in HTML?",
+    "Options": [
+      "A) Designing page layout and positioning",
+      "B) Displaying structured data in rows and columns",
+      "C) Creating navigation menus",
+      "D) Organising style rules"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML table structure: <table> (container), <tr> (table row), <th> (table header cell \u2014 bold, centred by default), <td> (table data cell). Structure: <table><tr><th>Name</th><th>Marks</th></tr><tr><td>Priya</td><td>92</td></tr></table>. Other elements: <thead> (header section), <tbody> (body), <tfoot> (footer), colspan (span multiple columns), rowspan (span multiple rows). Tables are for tabular data \u2014 NOT for page layout (use CSS flexbox/grid instead). Border, padding, spacing controlled by CSS."
+  },
+  {
+    "QuestionText": "What is a 'form' in HTML and why is it used?",
+    "Options": [
+      "A) A visual template for page design",
+      "B) An HTML element that collects user input and submits it to a server for processing",
+      "C) A method for formatting text",
+      "D) A type of database table in web development"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML form: <form action='/submit' method='POST'>. Collects user data. Input types: <input type='text'> (text field), <input type='password'> (hidden input), <input type='email'>, <input type='number'>, <input type='checkbox'>, <input type='radio'>, <input type='submit'> (submit button), <textarea> (multi-line text), <select> (dropdown). action: URL to send data. method: GET (data in URL \u2014 for searches) or POST (data in request body \u2014 for forms with sensitive data). Forms are how users: login, register, search, purchase, contact."
+  },
+  {
+    "QuestionText": "What is the purpose of the <title> tag in HTML?",
+    "Options": [
+      "A) Displays a large title at the top of the web page content",
+      "B) Sets the text shown in the browser tab and used by search engines as the page title",
+      "C) Creates the main heading visible on the page",
+      "D) Titles each section of the web page"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<title>: placed inside <head> \u2014 not visible on the page itself. Appears in: browser tab (shows page name), browser bookmarks, browser history, search engine results (blue link text). Good title: concise (50-60 characters), descriptive ('Grade 8 Maths - Chapter 3 | SchoolName'), includes important keywords. SEO importance: search engines use <title> to determine page relevance for search queries. Every web page should have a unique, descriptive title. The <h1> tag (visible on page) is different from <title> (browser tab)."
+  },
+  {
+    "QuestionText": "What is the <div> tag in HTML used for?",
+    "Options": [
+      "A) Division line \u2014 creates a horizontal line across the page",
+      "B) A generic container element for grouping other HTML elements, primarily for CSS styling and layout",
+      "C) Displays a definition of a term",
+      "D) Divides tables into sections"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<div> (division): a block-level generic container with no inherent styling \u2014 used to group elements for CSS targeting or JavaScript manipulation. Common pattern: <div class='card'><h2>Title</h2><p>Content</p></div> \u2014 CSS styles .card with border, background, padding. Alternative semantic elements (HTML5): <header>, <nav>, <main>, <article>, <section>, <aside>, <footer> \u2014 convey meaning about content. Use semantic tags when content type matches (navigation = <nav>), use <div> when purely for grouping/styling without semantic meaning."
+  },
+  {
+    "QuestionText": "What does 'responsive web design' mean?",
+    "Options": [
+      "A) A website that responds quickly to user clicks",
+      "B) Web design that adapts its layout to different screen sizes (mobile, tablet, desktop) using CSS",
+      "C) A website that responds to voice commands",
+      "D) Websites designed to respond to user feedback automatically"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Responsive web design: one website works well on all devices. Techniques: CSS media queries ('at screen width < 768px, use mobile layout'), flexible grid layouts (CSS Grid, Flexbox), flexible images (max-width: 100%), viewport meta tag (<meta name='viewport' content='width=device-width, initial-scale=1'>). Mobile-first design: design for mobile screens first, then enhance for larger screens. Importance: 60%+ of web traffic is mobile in India. Google uses mobile-friendliness as a search ranking factor. Bootstrap: popular CSS framework providing responsive grid system."
+  },
+  {
+    "QuestionText": "What is the 'class' attribute in HTML used for?",
+    "Options": [
+      "A) Specifies which grade/class level the page is for",
+      "B) Assigns one or more CSS class names to an element for styling or JavaScript manipulation",
+      "C) Creates classified/secret sections of the page",
+      "D) Specifies the programming class (object) associated with the element"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "CSS Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML class attribute: <p class='highlight'>This text is highlighted.</p>. In CSS: .highlight { background-color: yellow; }. Multiple classes: <p class='large bold red'>. Multiple elements can share the same class. CSS class selector: .classname (dot prefix). ID attribute: id='unique' \u2014 must be unique on the page, referenced with # in CSS (#idname). Use class for repeated styling patterns (buttons, cards, alerts); use id for unique elements (main navigation, page header). JavaScript uses classList.add(), classList.remove() to dynamically change classes."
+  },
+  {
+    "QuestionText": "What is HTTP vs HTTPS in the context of web development?",
+    "Options": [
+      "A) HTTP is for text; HTTPS is for images",
+      "B) HTTP = unencrypted data transfer; HTTPS = encrypted transfer using SSL/TLS \u2014 essential for security",
+      "C) HTTPS is slower than HTTP",
+      "D) HTTP is for modern browsers; HTTPS for older browsers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTP (HyperText Transfer Protocol): stateless request-response protocol \u2014 browser requests page, server responds. HTTP sends data unencrypted \u2014 anyone intercepting traffic can read passwords, form data. HTTPS: HTTP + TLS/SSL encryption. Benefits: encrypts data in transit, authenticates server identity (certificate), maintains data integrity. Implementation: web server installs SSL certificate (free via Let's Encrypt), redirects HTTP to HTTPS. All modern websites must use HTTPS \u2014 browsers label HTTP sites 'Not Secure'. Search engines (Google) rank HTTPS sites higher."
+  },
+  {
+    "QuestionText": "What is a web server?",
+    "Options": [
+      "A) A person who serves web pages to users",
+      "B) Software or hardware that stores, processes, and delivers web pages to clients (browsers) over HTTP/HTTPS",
+      "C) The computer you use to browse the web",
+      "D) A high-speed internet connection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Web server: stores website files (HTML, CSS, JavaScript, images) and responds to browser requests. When you type google.com: DNS resolves to Google's server IP \u2192 browser sends HTTP request \u2192 web server processes it \u2192 sends back HTML \u2192 browser renders the page. Popular web server software: Apache (open source, widely used), Nginx (high-performance, efficient), Microsoft IIS (Windows servers). Web hosting: renting space on a web server to host your website. Cloud hosting: AWS, Google Cloud, Azure. India's cloud market: rapidly growing with Jio Cloud, AWS India, Azure India regions."
+  },
+  {
+    "QuestionText": "What is the <meta> tag used for in HTML?",
+    "Options": [
+      "A) Creates metadata tables on web pages",
+      "B) Provides metadata about the HTML document \u2014 character set, page description, author, viewport settings",
+      "C) Creates social media sharing buttons",
+      "D) Adds hidden messages to web pages"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "<meta> tags go inside <head> \u2014 not visible on page. Common uses: <meta charset='UTF-8'> (character encoding \u2014 supports all languages including Hindi). <meta name='description' content='Page description'> (shown in search results under page title \u2014 important for SEO and click-through rates). <meta name='viewport' content='width=device-width, initial-scale=1'> (essential for responsive mobile design). <meta name='keywords'> (less important now \u2014 Google ignores, but other search engines may use). Open Graph meta tags: control how page appears when shared on social media."
+  },
+  {
+    "QuestionText": "What is the difference between inline and block HTML elements?",
+    "Options": [
+      "A) Inline elements are bold; block elements are not",
+      "B) Block elements start on a new line, take full width; inline elements flow within text content, take only needed width",
+      "C) Block elements are for large content; inline for small",
+      "D) They are identical in all browsers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Block-level elements: start on a new line, take full available width: <div>, <p>, <h1>-<h6>, <ul>, <ol>, <table>, <form>, <header>, <section>. Inline elements: flow within text, only take needed width, don't force new lines: <a>, <span>, <strong>, <em>, <img>, <input>, <button>. CSS can change this: display: block (makes inline element behave as block), display: inline (opposite), display: inline-block (inline flow but can have width/height). Understanding this is fundamental to controlling HTML layout."
+  },
+  {
+    "QuestionText": "What is an HTML comment and how is it written?",
+    "Options": [
+      "A) // comment text",
+      "B) <!-- comment text -->",
+      "C) /* comment text */",
+      "D) # comment text"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML comments: <!-- this is a comment --> \u2014 ignored by the browser (not rendered). Uses: explaining complex HTML to future developers, temporarily hiding code without deleting, noting where sections start/end. <!-- Main Navigation --> ... <!-- End Main Navigation -->. Comments ARE visible in the browser's View Source \u2014 don't put passwords or secret information in HTML comments. CSS comments: /* comment */. JavaScript comments: // single line or /* multi-line */. Each language has its own comment syntax."
+  },
+  {
+    "QuestionText": "What is the purpose of the <head> section vs <body> section in HTML?",
+    "Options": [
+      "A) <head> is for text content; <body> is for images",
+      "B) <head> contains metadata and resources (title, CSS links, scripts) \u2014 not visible; <body> contains all visible page content",
+      "C) <head> is displayed at the top of the page; <body> is the main area",
+      "D) They are interchangeable sections"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML document structure: <head>: invisible to page visitors \u2014 contains: <title> (browser tab), <meta> (page metadata), <link> (external CSS), <script> (JavaScript files), <style> (internal CSS). <body>: everything users see \u2014 headings (<h1>-<h6>), paragraphs (<p>), images (<img>), links (<a>), tables (<table>), forms (<form>), lists (<ul>/<ol>), divs (<div>), semantic sections (<header>, <nav>, <main>, <footer>). Browser rendering: downloads HTML \u2192 reads <head> (loads CSS/JS) \u2192 renders <body> content visually."
+  },
+  {
+    "QuestionText": "What is an API in web development?",
+    "Options": [
+      "A) Application Programming Interface \u2014 a way for different software applications to communicate and share data",
+      "B) Advanced Page Integration \u2014 a method of combining web pages",
+      "C) Automated Page Interface \u2014 a tool for creating pages automatically",
+      "D) Application Preview Integration \u2014 a testing framework"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "API (Application Programming Interface): a set of rules and protocols allowing different software to communicate. Web APIs: your app sends an HTTP request to the API, receives data (usually JSON format). Examples: weather app uses OpenWeatherMap API, payment apps use Paytm/Razorpay API, maps use Google Maps API, login with Google uses Google's OAuth API. India's UPI (Unified Payment Interface) is an API enabling different bank apps to interoperate. REST API: most common web API style using HTTP methods (GET, POST, PUT, DELETE)."
+  },
+  {
+    "QuestionText": "What is the HTML <input> tag used for?",
+    "Options": [
+      "A) Adding input (audio/video) media to a page",
+      "B) Creating interactive form elements for collecting user input (text, checkboxes, radio buttons, etc.)",
+      "C) Increasing the font size of text",
+      "D) Importing external files into the HTML page"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<input> creates various form controls via the type attribute: type='text' (single line text), type='password' (masked text), type='email' (email with validation), type='number' (numeric), type='checkbox' (tick box), type='radio' (one of many options), type='submit' (submit button), type='file' (file upload), type='date' (date picker), type='range' (slider). Attributes: name (field identifier sent with form), placeholder (hint text), required (mandatory field), maxlength (character limit), value (initial/current value). Essential for all web forms."
+  },
+  {
+    "QuestionText": "What does SEO stand for and why is it important for websites?",
+    "Options": [
+      "A) Secure Encryption Online \u2014 encrypts website data",
+      "B) Search Engine Optimisation \u2014 improving website visibility in search engine results to attract more visitors",
+      "C) Server Enhancement Operations \u2014 improving server speed",
+      "D) Static Element Operations \u2014 managing static website content"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "SEO (Search Engine Optimisation): techniques to rank higher in Google/Bing/other search results. Why: 90%+ of web traffic starts with a search engine; first page results get 95%+ of clicks. On-page SEO: meaningful <title> tags, proper heading hierarchy, relevant content, meta descriptions, alt text for images, fast loading speed, mobile responsiveness, HTTPS. Off-page SEO: links from other reputable websites (backlinks). Technical SEO: site speed, clean URLs, structured data (Schema markup). India's e-commerce (Flipkart, Amazon India) invest heavily in SEO for product discovery."
+  },
+  {
+    "QuestionText": "What is the <span> tag used for in HTML?",
+    "Options": [
+      "A) Creates spanning table cells",
+      "B) An inline container for styling or scripting a portion of text without creating a new line",
+      "C) Spans the full width of the page",
+      "D) Creates a special paragraph type"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<span>: generic inline container \u2014 like <div> but inline (doesn't force new line). Used to style specific words/phrases within text: 'The <span class=\"highlight\">important keyword</span> is critical.' CSS: .highlight { color: red; font-weight: bold; }. JavaScript: document.querySelector('span').style.color = 'blue'. Has no inherent visual styling \u2014 purely for targeted CSS/JS application. <strong> (bold, semantic \u2014 important text), <em> (italic, semantic \u2014 emphasised text) have inherent meaning. Use <span> for pure styling without semantic meaning."
+  },
+  {
+    "QuestionText": "What is website hosting?",
+    "Options": [
+      "A) The software used to design websites",
+      "B) Storing website files on a server connected to the internet so users worldwide can access them",
+      "C) The process of testing a website before launch",
+      "D) The act of registering a domain name"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Website hosting: renting space on a web server to make your website accessible online. Types: Shared hosting (many websites on one server \u2014 cheapest, limited performance), VPS (Virtual Private Server \u2014 dedicated portion of server), Dedicated server (entire physical server \u2014 most control/performance), Cloud hosting (AWS, Google Cloud \u2014 scalable), Managed WordPress hosting (optimised for WordPress). Domain name: website address (yourschool.edu.in) registered separately via domain registrars. India's popular hosting: GoDaddy India, Hostinger, BigRock. Free hosting: GitHub Pages (static sites), Netlify, Vercel."
+  },
+  {
+    "QuestionText": "Assertion: HTML defines the content and structure of web pages, not their appearance. Reason: Appearance (colours, fonts, layout) is handled by CSS \u2014 separating structure from presentation is a best practice. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: HTML defines semantic structure \u2014 <h1> = heading, <p> = paragraph, <nav> = navigation. It doesn't define how they look. Reason TRUE and correctly explains: CSS was created specifically to handle all visual presentation, separating concerns. Benefits of separation: change entire site's appearance by editing one CSS file (not every HTML page), HTML remains clean and readable, easier maintenance, different CSS can style same HTML for print vs screen vs mobile. Mixing HTML with inline styles is considered poor practice for anything beyond quick prototyping."
+  },
+  {
+    "QuestionText": "What is the difference between a domain name and an IP address?",
+    "Options": [
+      "A) Domain names are for websites; IP addresses for email",
+      "B) Domain names are human-readable website addresses; IP addresses are the numeric addresses computers use \u2014 DNS translates between them",
+      "C) IP addresses are more secure than domain names",
+      "D) Domain names are temporary; IP addresses are permanent"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Domain name: human-readable address (google.com, ncert.nic.in, cbse.gov.in). IP address: numeric machine address (142.250.195.142). DNS (Domain Name System): translates domain name to IP so browser can connect. Domain registration: pay annual fee to domain registrar (GoDaddy, Namecheap, BigRock) to 'rent' a domain name. TLDs (Top Level Domains): .com (commercial), .in (India), .org (organisation), .edu (education), .gov (government). Subdomains: mail.google.com, maps.google.com \u2014 different sections of the same domain."
+  },
+  {
+    "QuestionText": "What is the purpose of the 'alt' attribute in the <img> tag?",
+    "Options": [
+      "A) Alters the image appearance",
+      "B) Provides alternative text displayed if image fails to load and read by screen readers for accessibility",
+      "C) Sets the alternate image source if the primary fails",
+      "D) Allows users to alter/edit the image"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "alt (alternative text): <img src='photo.jpg' alt='Students in science laboratory'>. Purposes: displayed when image cannot load (broken link, slow connection), read by screen readers to describe image to visually impaired users (accessibility), used by search engines to understand image content (image SEO). Empty alt (alt=''): for purely decorative images \u2014 tells screen readers to skip it. Never omit alt \u2014 missing alt is an accessibility violation. Descriptive alt helps visually impaired users get the same information as sighted users. Web Content Accessibility Guidelines (WCAG) require meaningful alt text."
+  },
+  {
+    "QuestionText": "What is the purpose of <br> and <hr> tags in HTML?",
+    "Options": [
+      "A) <br> creates bold-red text; <hr> creates highlighted red text",
+      "B) <br> inserts a line break within text; <hr> inserts a horizontal rule (dividing line)",
+      "C) <br> breaks out of a table; <hr> highlights a row",
+      "D) Both create paragraph separations"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<br> (break): self-closing, forces a new line within text: 'Line 1<br>Line 2'. Use sparingly \u2014 don't use multiple <br> tags to create space (use CSS margin/padding instead). Appropriate use: addresses (123 Main St<br>Delhi 110001), poetry with line breaks. <hr> (horizontal rule): self-closing, inserts a thematic break as a horizontal line across the page. Used between sections of content to visually separate them. CSS can style both: hr { border: 2px solid blue; }."
+  },
+  {
+    "QuestionText": "What does the <strong> tag mean in HTML?",
+    "Options": [
+      "A) Makes text stronger (heavier weight) for printing",
+      "B) Marks text as strongly important \u2014 displayed bold by default; conveys semantic importance",
+      "C) Creates a strong border around text",
+      "D) Increases the text size by 50%"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<strong>: semantic tag indicating content is of strong importance, urgency, or seriousness. Visually bold by default. Screen readers may announce it with emphasis. <em> (emphasis): semantic importance/emphasis \u2014 visually italic by default. Semantic vs presentational: use <strong>/<em> when the content is genuinely important/emphasised. Use CSS (font-weight: bold, font-style: italic) for purely visual styling. <b> (bold) and <i> (italic) are presentational without semantic meaning. Good HTML: choose tags based on MEANING, not just appearance. Then use CSS to style the appearance."
+  },
+  {
+    "QuestionText": "What is a web browser and how does it work?",
+    "Options": [
+      "A) Software that creates websites",
+      "B) Client application that requests, receives, and renders web pages from servers",
+      "C) A type of internet connection",
+      "D) A web server management tool"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Browser: software that retrieves and displays web content. Process: user types URL \u2192 browser sends HTTP request to web server \u2192 server returns HTML/CSS/JavaScript files \u2192 browser rendering engine parses HTML (DOM tree), applies CSS (CSSOM), executes JavaScript \u2192 renders visual page on screen. Components: rendering engine (Blink in Chrome/Edge, Gecko in Firefox, WebKit in Safari), JavaScript engine (V8 in Chrome), networking, storage (cookies, localStorage). Popular browsers: Chrome (~65% global share), Safari, Edge, Firefox, Brave. India: Chrome dominates (~94% mobile, ~82% desktop)."
+  },
+  {
+    "QuestionText": "What is the ORDER of CSS specificity when multiple rules apply to the same element?",
+    "Options": [
+      "A) Inline styles > ID selectors > Class selectors > Element selectors",
+      "B) Element selectors > Class selectors > ID selectors > Inline styles",
+      "C) All rules have equal priority",
+      "D) The alphabetically first rule always wins"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "CSS Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "CSS specificity determines which rule wins when multiple rules apply: 1. Inline style (style attribute \u2014 highest): style='color:red'. 2. ID selector (#elementId): most specific type of selector. 3. Class selector (.className), attribute selectors, pseudo-classes (:hover). 4. Element/tag selector (p, h1, div \u2014 lowest specificity). !important overrides all (avoid unless necessary). Equal specificity: last rule in CSS wins (cascading). Understanding specificity prevents frustrating debugging issues where CSS changes seem to have no effect."
+  },
+  {
+    "QuestionText": "What is JSON and how is it used in web development?",
+    "Options": [
+      "A) JavaScript Object Notation \u2014 a lightweight data format for exchanging data between servers and web applications",
+      "B) Java Source Object Node \u2014 a Java programming component",
+      "C) Joint Service Operation Network \u2014 a network protocol",
+      "D) JavaScript Operating System Node \u2014 a runtime environment"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "JSON (JavaScript Object Notation): human-readable text format for data interchange. Structure: key-value pairs, arrays, nested objects. Example: {\"name\": \"Priya\", \"age\": 14, \"marks\": [92, 85, 78]}. Why JSON: lightweight (small file size), easy to parse in any language, native JavaScript support. Replaced XML as the dominant web data format. APIs return JSON data: weather API returns {\"city\": \"Delhi\", \"temp\": 35, \"humidity\": 65}. JavaScript: JSON.parse() (text to object), JSON.stringify() (object to text). Used in web apps, mobile apps, configuration files (package.json in Node.js)."
+  },
+  {
+    "QuestionText": "What is the purpose of CSS 'margin' vs 'padding'?",
+    "Options": [
+      "A) They are identical",
+      "B) Margin = space OUTSIDE an element's border; Padding = space INSIDE an element's border",
+      "C) Margin = space inside; Padding = space outside",
+      "D) Margin is for text; Padding is for images"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "CSS Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "CSS box model: every HTML element is a box with: Content (text/image), Padding (space between content and border \u2014 inside background), Border (visible line around element), Margin (space between element and neighbouring elements \u2014 outside background). Example: button { padding: 10px 20px; margin: 5px; border: 1px solid blue; }. margin: auto (centres block elements horizontally). Shorthand: margin: 10px 20px (top-bottom, left-right), margin: 10px 20px 15px 25px (top, right, bottom, left \u2014 clockwise)."
+  },
+  {
+    "QuestionText": "What does the HTML 'id' attribute do?",
+    "Options": [
+      "A) Sets the order (identification number) of elements on a page",
+      "B) Assigns a unique identifier to an element \u2014 used for CSS styling, JavaScript targeting, and anchor links",
+      "C) Identifies the creator of the HTML element",
+      "D) Sets the importance level of the element"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "id attribute: must be unique per page (only one element with a given id). Uses: CSS targeting (#myDiv { color: red; } \u2014 hash prefix), JavaScript manipulation (document.getElementById('myDiv')), anchor links (href='#section2' jumps to element id='section2'). Difference from class: class can be used multiple times (many elements can share a class \u2014 for group styling), id is unique (one element). Use id for: page section anchors, specific form elements, unique JavaScript targets. Use class for: repeated styling patterns."
+  },
+  {
+    "QuestionText": "What is the difference between GET and POST methods in HTML forms?",
+    "Options": [
+      "A) GET submits more data; POST submits less",
+      "B) GET appends data to the URL (visible, for searches); POST sends data in the request body (hidden, for forms with sensitive data)",
+      "C) They are identical \u2014 both send data securely",
+      "D) POST is for images; GET is for text data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "HTML form methods: GET: data appended to URL (?name=Priya&marks=92) \u2014 visible in browser address bar, bookmarkable, cached, limited length (~2000 chars). Use for: search forms, filters (sharing search results via URL). POST: data in HTTP request body \u2014 not visible in URL, no length limit, not cached. Use for: login forms, registration, payments, any sensitive data, file uploads. Security: GET exposes data in URL (passwords visible in browser history, logs). POST is more secure for sensitive data. Both should use HTTPS for encryption."
+  },
+  {
+    "QuestionText": "What is DOM (Document Object Model)?",
+    "Options": [
+      "A) Database of Multimedia \u2014 stores images and videos",
+      "B) Document Object Model \u2014 a programming interface representing the HTML page as a tree of objects that JavaScript can manipulate",
+      "C) Dynamic Output Method \u2014 a way to render HTML pages",
+      "D) Design Object Module \u2014 a CSS framework"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "DOM: browser creates a tree structure from HTML \u2014 every element becomes a node that JavaScript can access and modify. JavaScript DOM manipulation: document.getElementById('title').textContent = 'New Title'; (changes heading text). document.querySelector('.button').style.color = 'red'; (changes button colour). document.createElement('p'); (creates new element). Remove elements, add event listeners, change classes. This enables dynamic web pages \u2014 updating content, responding to clicks, animations \u2014 all without reloading the page. Frameworks (React, Vue) build on DOM manipulation with efficient 'virtual DOM' optimization."
+  },
+  {
+    "QuestionText": "What is a cookie in web development?",
+    "Options": [
+      "A) A visual element on a web page",
+      "B) A small text file stored in the browser by a website to remember user information between sessions",
+      "C) A type of web advertisement",
+      "D) A JavaScript function for storing data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "HTTP cookies: small text files (max 4KB) stored by the browser on behalf of a website. Set by server via Set-Cookie header or JavaScript. Uses: Session management (keep user logged in), Personalisation (remember language preference, dark mode), Tracking (advertising cookies track across websites). Types: Session cookies (deleted when browser closes), Persistent (expire after set date), Third-party (from different domain \u2014 used for cross-site tracking). GDPR requires cookie consent. Accessed in JavaScript: document.cookie. Users can clear cookies in browser settings."
+  },
+  {
+    "QuestionText": "What is the purpose of the <link> tag in HTML?",
+    "Options": [
+      "A) Creates visible hyperlinks on the page",
+      "B) Links external resources to the HTML document \u2014 primarily used to attach external CSS stylesheets",
+      "C) Links images and media files",
+      "D) Creates navigation links between pages"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<link> tag: placed in <head>, self-closing. Primary use: <link rel='stylesheet' href='styles.css'> \u2014 links external CSS file. Other uses: <link rel='icon' href='favicon.ico'> (browser tab icon), <link rel='preload'> (preloads resources for performance), <link rel='canonical'> (SEO \u2014 specifies preferred URL). rel attribute: specifies relationship between current document and linked resource. Different from <a> tag: <a> creates visible clickable links in the page content; <link> in <head> connects resources without creating visible links."
+  },
+  {
+    "QuestionText": "What is 'web accessibility'?",
+    "Options": [
+      "A) How fast a website loads",
+      "B) Designing websites usable by people with disabilities \u2014 using proper HTML semantics, alt text, keyboard navigation, and colour contrast",
+      "C) The ability to access websites from any device",
+      "D) A measure of how many users can access a website simultaneously"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Web accessibility (a11y): ensuring websites work for all users, including those with: visual impairments (screen readers \u2014 need alt text, semantic HTML, ARIA labels), motor disabilities (keyboard navigation \u2014 tab through elements, no mouse required), hearing impairments (captions for videos), cognitive disabilities (clear layout, simple language). Standards: WCAG (Web Content Accessibility Guidelines) 2.1 \u2014 globally recognised. In India: Rights of Persons with Disabilities Act 2016 recommends accessible digital services. Good accessibility also improves usability for all users and helps SEO."
+  },
+  {
+    "QuestionText": "What is the <script> tag used for in HTML?",
+    "Options": [
+      "A) Writing play scripts within web pages",
+      "B) Embedding or linking JavaScript code to add interactivity to the web page",
+      "C) Scripting server-side database operations",
+      "D) Controlling web page printing scripts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<script>: embeds or links JavaScript. Inline: <script>alert('Hello!');</script>. External file: <script src='script.js'></script>. Placement: traditionally in <head>, but placing before </body> is better practice (HTML loads first, then JS \u2014 prevents blocking page rendering). async attribute: script downloads asynchronously without blocking. defer: waits for HTML parsing to complete before executing. Multiple scripts can be included. JavaScript between script tags runs in the browser. Modern best practice: use external .js files and defer/async for performance."
+  },
+  {
+    "QuestionText": "What is meant by 'URL encoding'?",
+    "Options": [
+      "A) Encrypting URLs for security",
+      "B) Converting special characters in URLs to percent-encoded format (%20 for space, %40 for @) so they're safe in HTTP requests",
+      "C) Compressing URLs to make them shorter",
+      "D) Encoding the HTML content of a URL destination"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "URL encoding (percent encoding): URLs can only contain certain safe ASCII characters. Special characters must be encoded: space \u2192 %20, @ \u2192 %40, & \u2192 %26, = \u2192 %3D, + \u2192 %2B, Indian characters encoded as UTF-8 hex sequences. Example: searching 'Delhi University' \u2192 URL becomes ?q=Delhi%20University. HTML forms automatically encode submitted values. Why: URLs are plain text transmitted over internet \u2014 encoding prevents special characters being misinterpreted as URL structure (& in query string separates parameters \u2014 if data contains &, must be encoded as %26)."
+  },
+  {
+    "QuestionText": "What is a 'static' vs 'dynamic' website?",
+    "Options": [
+      "A) Static sites have moving images; dynamic sites are plain text",
+      "B) Static sites serve fixed pre-written HTML files; dynamic sites generate HTML on-demand from databases/code",
+      "C) Static sites are older; dynamic sites use modern design",
+      "D) Dynamic sites work without internet; static sites require internet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Static website: pre-written HTML/CSS/JS files served directly. Content same for all users, only changes when developer manually edits files. Fast, simple, cheap to host. Examples: personal portfolio, brochure sites, documentation. Dynamic website: server generates HTML on-demand using code (PHP, Python, Node.js) + database. Content varies by user/time/request. Examples: e-commerce (personalised product pages), social media (personalised feeds), banking (account data), Wikipedia (editable content). India's e-governance websites (DigiLocker, IRCTC) are dynamic \u2014 fetching real-time user-specific data."
+  },
+  {
+    "QuestionText": "What is the purpose of using semantic HTML5 elements like <header>, <nav>, <main>, <footer>?",
+    "Options": [
+      "A) They display differently from <div> elements visually",
+      "B) They convey meaning about page structure to browsers, search engines, and screen readers \u2014 improving accessibility and SEO",
+      "C) They are required by modern browsers",
+      "D) They automatically apply CSS styling"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "HTML5 semantic elements: <header> (page/section header), <nav> (navigation links), <main> (primary content), <article> (self-contained content), <section> (thematic grouping), <aside> (sidebar/tangential content), <footer> (page/section footer). Benefits: Accessibility (screen readers navigate to <nav>, skip to <main>), SEO (search engines understand page structure), Readability (code self-documents its purpose), Maintainability. Before HTML5: everything was <div> \u2014 same visual result but no meaning. Semantic HTML: right element for the right purpose based on content meaning."
+  },
+  {
+    "QuestionText": "What is a URL shortener and how does it work?",
+    "Options": [
+      "A) A tool that removes characters from URLs to reduce size",
+      "B) A service that creates a short redirect URL (e.g., bit.ly/abc123) that redirects to the full long URL",
+      "C) A browser extension that compresses web pages",
+      "D) A search engine feature that shortens search result URLs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "URL shorteners (bit.ly, TinyURL, t.co): create short memorable URLs that redirect to longer ones. Process: service stores mapping (short code \u2192 full URL), when user visits short URL, server redirects (HTTP 301/302) to destination. Uses: social media sharing (Twitter's character limits), marketing campaigns (tracking click analytics), QR codes. Risk: destination unknown before clicking \u2014 malicious actors use shorteners to hide phishing/malware URLs. Click tracking: shortener services provide analytics (how many clicked, from where, what device). Safe practice: hover over link or use URL expander to preview destination before clicking."
+  },
+  {
+    "QuestionText": "What is 'caching' in web browsers and why is it useful?",
+    "Options": [
+      "A) A browser security feature blocking malicious websites",
+      "B) Storing copies of web resources (images, CSS, JS) locally so they load faster on repeat visits without re-downloading",
+      "C) A technique for storing user passwords safely",
+      "D) Compressing web page data for faster transmission"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Browser cache: stores local copies of recently visited page resources. Benefits: faster page loads (no re-download from server), reduced bandwidth usage, better experience on slow connections. Cache control: server sends headers (Cache-Control, Expires) telling browser how long to cache resources. Static assets (logo.png, styles.css) cached for days/weeks. Dynamic content: shorter cache or no-cache. Clear cache: when website updates but browser shows old version (Ctrl+Shift+Del). CDNs use caching at geographic servers. Cache busting: append version to filename (styles.v2.css) to force fresh download."
+  },
+  {
+    "QuestionText": "What makes a good, professional website design?",
+    "Options": [
+      "A) Maximum colours and animations to capture attention",
+      "B) Consistent layout, fast loading, clear navigation, readable typography, mobile responsiveness, and purposeful content",
+      "C) As much information on each page as possible",
+      "D) Using the latest and most complex technologies available"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "Web Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Good web design principles: Usability (easy navigation, clear calls-to-action), Accessibility (works for all users), Performance (fast loading \u2014 3 seconds or users leave), Consistency (same layout/colours throughout), Mobile responsiveness (works on all screen sizes), Visual hierarchy (important content stands out), Whitespace (breathing room for content, not cluttered), Readability (good contrast, appropriate font size \u226516px for body text), Credibility (professional appearance builds trust). India-specific: design for slow networks (optimise images), support multiple languages, consider feature phones/low-end devices still common in rural areas."
+  },
+  {
+    "QuestionText": "What is the purpose of viewport meta tag in HTML?",
+    "Options": [
+      "A) Displays the website in a video player",
+      "B) Controls how the browser scales and renders the page on different screen sizes \u2014 essential for mobile responsiveness",
+      "C) Sets the video quality for embedded content",
+      "D) Manages page viewing permissions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - HTML and Web Basics",
+    "SubTopic": "CSS Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "<meta name='viewport' content='width=device-width, initial-scale=1'>: tells the browser to: width=device-width (match screen width \u2014 not assume desktop width), initial-scale=1 (don't zoom in/out by default). Without this: mobile browsers assume desktop width (~980px) and scale down \u2014 tiny unreadable text, forced zooming. With this: browser uses actual device width, CSS media queries work correctly, responsive layouts display properly. Essential for any website that should work on mobile (which is every modern website). Part of the required HTML5 mobile setup."
+  }
+]

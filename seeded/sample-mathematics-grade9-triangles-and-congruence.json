@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Two triangles are congruent if they have the same:",
+    "Options": [
+      "A) Shape only",
+      "B) Size only",
+      "C) Shape and size",
+      "D) Area only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence",
+    "Difficulty": "Foundation",
+    "Explanation": "Congruent figures have both the same shape and the same size. They are exact copies of each other."
+  },
+  {
+    "QuestionText": "The SAS congruence criterion requires:",
+    "Options": [
+      "A) Two sides and any angle",
+      "B) Two sides and the included angle",
+      "C) Three sides",
+      "D) Two angles and any side"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence Criteria",
+    "Difficulty": "Foundation",
+    "Explanation": "SAS (Side-Angle-Side): two triangles are congruent if two sides and the included angle of one equal two sides and the included angle of the other."
+  },
+  {
+    "QuestionText": "The ASA congruence criterion states:",
+    "Options": [
+      "A) Two angles and any side are equal",
+      "B) Three angles are equal",
+      "C) Two angles and the included side are equal",
+      "D) Two sides and any angle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence Criteria",
+    "Difficulty": "Foundation",
+    "Explanation": "ASA (Angle-Side-Angle): two angles and the included side between them equal in both triangles \u2192 triangles congruent."
+  },
+  {
+    "QuestionText": "If two sides of a triangle are equal, the triangle is:",
+    "Options": [
+      "A) Scalene",
+      "B) Isosceles",
+      "C) Equilateral",
+      "D) Right-angled"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Types of Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Isosceles triangle: exactly two sides equal. Equilateral: all three equal. Scalene: all different."
+  },
+  {
+    "QuestionText": "In an isosceles triangle, the angles opposite to the equal sides are:",
+    "Options": [
+      "A) Right angles",
+      "B) Different",
+      "C) Equal",
+      "D) Supplementary"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Isosceles triangle theorem: if two sides are equal, the base angles (angles opposite to equal sides) are also equal."
+  },
+  {
+    "QuestionText": "Sum of all angles of a triangle is:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 360\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "Angle sum property: the sum of interior angles of any triangle = 180\u00b0."
+  },
+  {
+    "QuestionText": "An exterior angle of a triangle equals:",
+    "Options": [
+      "A) The adjacent interior angle",
+      "B) Sum of all interior angles",
+      "C) Sum of the two non-adjacent (remote) interior angles",
+      "D) 180\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Exterior angle theorem: an exterior angle of a triangle = sum of the two remote (non-adjacent) interior angles."
+  },
+  {
+    "QuestionText": "The SSS congruence criterion requires:",
+    "Options": [
+      "A) Three angles to be equal",
+      "B) Three sides of one triangle equal to three sides of the other",
+      "C) Two sides and one angle equal",
+      "D) Two angles and one side equal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence Criteria",
+    "Difficulty": "Foundation",
+    "Explanation": "SSS (Side-Side-Side): if all three sides of one triangle are equal to the three sides of another, the triangles are congruent."
+  },
+  {
+    "QuestionText": "The RHS congruence criterion applies to:",
+    "Options": [
+      "A) Any triangles",
+      "B) Isosceles triangles only",
+      "C) Right-angled triangles",
+      "D) Equilateral triangles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence Criteria",
+    "Difficulty": "Foundation",
+    "Explanation": "RHS (Right angle-Hypotenuse-Side): applies only to right-angled triangles. If hypotenuse and one side of two right triangles are equal, they are congruent."
+  },
+  {
+    "QuestionText": "In a triangle, if two angles are 60\u00b0 and 70\u00b0, the third angle is:",
+    "Options": [
+      "A) 40\u00b0",
+      "B) 50\u00b0",
+      "C) 60\u00b0",
+      "D) 70\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "Third angle = 180\u00b0 \u2212 60\u00b0 \u2212 70\u00b0 = 50\u00b0."
+  },
+  {
+    "QuestionText": "The side opposite to the greatest angle in a triangle is:",
+    "Options": [
+      "A) The smallest side",
+      "B) The longest side",
+      "C) Equal to the other sides",
+      "D) The median"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "In a triangle, the greater the angle, the longer the side opposite to it. Largest angle \u2192 longest side."
+  },
+  {
+    "QuestionText": "The sum of any two sides of a triangle must be:",
+    "Options": [
+      "A) Equal to the third side",
+      "B) Less than the third side",
+      "C) Greater than the third side",
+      "D) Twice the third side"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Inequality",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangle inequality: a + b > c for any triangle with sides a, b, c. This ensures the triangle can be formed."
+  },
+  {
+    "QuestionText": "Can a triangle have sides 3, 4, 8?",
+    "Options": [
+      "A) Yes",
+      "B) No",
+      "C) Only if it's right-angled",
+      "D) Only if angles are given"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Inequality",
+    "Difficulty": "Foundation",
+    "Explanation": "3 + 4 = 7 < 8. This violates the triangle inequality (sum of any two sides must exceed the third). Not a valid triangle."
+  },
+  {
+    "QuestionText": "In \u0394ABC \u2245 \u0394PQR by SAS, if AB=PQ, BC=QR, and \u2220B=\u2220Q=70\u00b0, then:",
+    "Options": [
+      "A) AC=QR",
+      "B) \u2220A=\u2220P",
+      "C) AC=PR",
+      "D) \u2220C=\u2220P"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence",
+    "Difficulty": "Advanced",
+    "Explanation": "Corresponding parts of congruent triangles are equal (CPCT). \u0394ABCcongruent \u0394PQR \u2192 AC=PR (corresponding sides)."
+  },
+  {
+    "QuestionText": "The AAS congruence criterion states:",
+    "Options": [
+      "A) Three angles equal",
+      "B) Two angles and any corresponding side are equal",
+      "C) Any two sides and included angle",
+      "D) Hypotenuse and angle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence Criteria",
+    "Difficulty": "Foundation",
+    "Explanation": "AAS (Angle-Angle-Side): two angles and a non-included side are equal in both triangles."
+  },
+  {
+    "QuestionText": "In an equilateral triangle, each angle measures:",
+    "Options": [
+      "A) 45\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Types of Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Equilateral triangle: all sides equal \u2192 all angles equal. Each angle = 180\u00b0/3 = 60\u00b0."
+  },
+  {
+    "QuestionText": "Median of a triangle connects a vertex to:",
+    "Options": [
+      "A) The opposite angle",
+      "B) The midpoint of the opposite side",
+      "C) The longest side",
+      "D) The foot of the altitude"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Median: segment from a vertex to the midpoint of the opposite side. A triangle has 3 medians, all meeting at the centroid."
+  },
+  {
+    "QuestionText": "The point where three medians of a triangle meet is the:",
+    "Options": [
+      "A) Circumcentre",
+      "B) Incentre",
+      "C) Centroid",
+      "D) Orthocentre"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Centroid: intersection of medians. It divides each median in 2:1 ratio from vertex. Circumcentre = intersection of perpendicular bisectors."
+  },
+  {
+    "QuestionText": "An altitude of a triangle is perpendicular to:",
+    "Options": [
+      "A) The vertex",
+      "B) The adjacent side",
+      "C) The opposite side (or its extension)",
+      "D) The median"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Altitude: perpendicular from a vertex to the opposite side (or its extension). The foot of the altitude is on the opposite side."
+  },
+  {
+    "QuestionText": "If in \u0394ABC, AB = AC and \u2220B = 50\u00b0, find \u2220A.",
+    "Options": [
+      "A) 50\u00b0",
+      "B) 80\u00b0",
+      "C) 100\u00b0",
+      "D) 130\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "AB=AC \u2192 \u2220B=\u2220C=50\u00b0. \u2220A = 180\u00b0\u221250\u00b0\u221250\u00b0 = 80\u00b0."
+  },
+  {
+    "QuestionText": "The longest side of a right-angled triangle (opposite to 90\u00b0) is the:",
+    "Options": [
+      "A) Base",
+      "B) Altitude",
+      "C) Hypotenuse",
+      "D) Median"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Types of Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "In a right-angled triangle, the hypotenuse is opposite the 90\u00b0 angle and is always the longest side."
+  },
+  {
+    "QuestionText": "In \u0394ABC, if \u2220A = 90\u00b0, then BC\u00b2 =",
+    "Options": [
+      "A) AB\u00b2 + BC\u00b2",
+      "B) AB\u00b2 + AC\u00b2",
+      "C) AC\u00b2 + BC\u00b2",
+      "D) AB \u00d7 AC"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Pythagoras",
+    "Difficulty": "Foundation",
+    "Explanation": "Pythagoras' theorem: hypotenuse\u00b2 = sum of squares of other two sides. BC (hypotenuse, opposite 90\u00b0) \u2192 BC\u00b2 = AB\u00b2 + AC\u00b2."
+  },
+  {
+    "QuestionText": "Which set of sides can form a right triangle?",
+    "Options": [
+      "A) 5, 10, 15",
+      "B) 7, 24, 25",
+      "C) 3, 4, 6",
+      "D) 5, 12, 14"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Pythagoras",
+    "Difficulty": "Advanced",
+    "Explanation": "Check Pythagorean triple: 7\u00b2+24\u00b2=49+576=625=25\u00b2. So 7,24,25 is a right triangle."
+  },
+  {
+    "QuestionText": "The perpendicular bisectors of a triangle's sides meet at the:",
+    "Options": [
+      "A) Centroid",
+      "B) Incentre",
+      "C) Orthocentre",
+      "D) Circumcentre"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Circumcentre: equidistant from all three vertices. Point where perpendicular bisectors meet. It's the centre of the circumscribed circle."
+  },
+  {
+    "QuestionText": "Angle bisectors of a triangle meet at the:",
+    "Options": [
+      "A) Centroid",
+      "B) Orthocentre",
+      "C) Incentre",
+      "D) Circumcentre"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Incentre: intersection of angle bisectors. Equidistant from all three sides. Centre of the inscribed circle."
+  },
+  {
+    "QuestionText": "In a triangle, the exterior angle is always:",
+    "Options": [
+      "A) Equal to the interior opposite angles",
+      "B) Less than either remote interior angle",
+      "C) Greater than either remote interior angle",
+      "D) 90\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "An exterior angle equals the sum of both remote interior angles, so it is greater than either one individually."
+  },
+  {
+    "QuestionText": "The altitude to the hypotenuse of a right triangle divides it into two triangles, each similar to:",
+    "Options": [
+      "A) Each other only",
+      "B) The original triangle only",
+      "C) Both each other and the original triangle",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "When altitude from right angle meets hypotenuse, it creates two triangles each similar to the original and similar to each other."
+  },
+  {
+    "QuestionText": "The congruence symbol is:",
+    "Options": [
+      "A) ~",
+      "B) =",
+      "C) \u2245",
+      "D) \u2261"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence",
+    "Difficulty": "Foundation",
+    "Explanation": "\u2245 denotes congruence. ~ is used for similarity. = is equality. \u2261 is sometimes used for identical equivalence."
+  },
+  {
+    "QuestionText": "In \u0394ABC, if AB = 5, BC = 12, AC = 13, then \u2220B =",
+    "Options": [
+      "A) 30\u00b0",
+      "B) 45\u00b0",
+      "C) 60\u00b0",
+      "D) 90\u00b0"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Pythagoras",
+    "Difficulty": "Foundation",
+    "Explanation": "5\u00b2+12\u00b2=25+144=169=13\u00b2. This is a Pythagorean triple (5-12-13), so it's a right triangle with the right angle at B."
+  },
+  {
+    "QuestionText": "The orthocentre of a right-angled triangle is at:",
+    "Options": [
+      "A) The midpoint of hypotenuse",
+      "B) The vertex of the right angle",
+      "C) The centroid",
+      "D) The circumcentre"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Orthocentre is where altitudes meet. In a right triangle, two altitudes are the legs themselves, which intersect at the right angle vertex."
+  },
+  {
+    "QuestionText": "How many congruence criteria are there for triangles?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence Criteria",
+    "Difficulty": "Advanced",
+    "Explanation": "Five congruence criteria: SSS, SAS, ASA, AAS, RHS. AAA is NOT a congruence criterion (only similarity)."
+  },
+  {
+    "QuestionText": "In \u25b3ABC, AB = AC. Median AD \u22a5 BC. What can be concluded?",
+    "Options": [
+      "A) AD is also the altitude",
+      "B) BD = DC",
+      "C) \u2220ABD = \u2220ACD",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "In isosceles triangle, the median from the apex bisects the base perpendicularly. All three properties hold simultaneously: AD is altitude, median, and angle bisector."
+  },
+  {
+    "QuestionText": "AAA criterion proves triangles are:",
+    "Options": [
+      "A) Congruent",
+      "B) Similar",
+      "C) Equal in area",
+      "D) Isosceles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence Criteria",
+    "Difficulty": "Advanced",
+    "Explanation": "AAA proves similarity (same shape, not necessarily same size). It does NOT prove congruence. For congruence, we need at least one side condition."
+  },
+  {
+    "QuestionText": "In \u25b3PQR \u2245 \u25b3LMN, if \u2220P = 40\u00b0 and \u2220Q = 80\u00b0, then \u2220N =",
+    "Options": [
+      "A) 40\u00b0",
+      "B) 80\u00b0",
+      "C) 60\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence",
+    "Difficulty": "Advanced",
+    "Explanation": "\u2220R = 180\u00b0\u221240\u00b0\u221280\u00b0=60\u00b0. \u25b3PQR \u2245 \u25b3LMN: P\u2194L, Q\u2194M, R\u2194N. So \u2220N=\u2220R=60\u00b0."
+  },
+  {
+    "QuestionText": "The sum of exterior angles of a triangle is:",
+    "Options": [
+      "A) 180\u00b0",
+      "B) 270\u00b0",
+      "C) 360\u00b0",
+      "D) 540\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Each exterior angle + its interior angle = 180\u00b0. Total interior = 180\u00b0. Total of exterior+interior = 3\u00d7180\u00b0=540\u00b0. So exterior total = 540\u00b0\u2212180\u00b0=360\u00b0."
+  },
+  {
+    "QuestionText": "The sum of two sides of a triangle is 10. The third side can be:",
+    "Options": [
+      "A) 10",
+      "B) 11",
+      "C) 0",
+      "D) 9"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Inequality",
+    "Difficulty": "Advanced",
+    "Explanation": "Third side must be less than 10 (sum of other two) and greater than 0 (difference of other two). 9 satisfies this."
+  },
+  {
+    "QuestionText": "In \u25b3ABC, \u2220A = 50\u00b0. The sum of \u2220B and \u2220C is:",
+    "Options": [
+      "A) 50\u00b0",
+      "B) 100\u00b0",
+      "C) 130\u00b0",
+      "D) 180\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "\u2220A+\u2220B+\u2220C=180\u00b0 \u2192 \u2220B+\u2220C=180\u00b0\u221250\u00b0=130\u00b0."
+  },
+  {
+    "QuestionText": "Congruent triangles have:",
+    "Options": [
+      "A) Same area only",
+      "B) Same perimeter only",
+      "C) Same shape but different sizes",
+      "D) Same area and perimeter"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence",
+    "Difficulty": "Foundation",
+    "Explanation": "Congruent triangles are identical in all respects: same sides, angles, area, and perimeter."
+  },
+  {
+    "QuestionText": "The angle in a semicircle is always:",
+    "Options": [
+      "A) 45\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Thales' theorem: an angle inscribed in a semicircle (subtended by the diameter) is always 90\u00b0."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a valid set of angle measures for a triangle?",
+    "Options": [
+      "A) 60\u00b0, 60\u00b0, 60\u00b0",
+      "B) 40\u00b0, 70\u00b0, 70\u00b0",
+      "C) 90\u00b0, 50\u00b0, 40\u00b0",
+      "D) 50\u00b0, 60\u00b0, 80\u00b0"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "50\u00b0+60\u00b0+80\u00b0=190\u00b0\u2260180\u00b0. This is not valid. (A) 180\u00b0 \u2713 (B) 180\u00b0 \u2713 (C) 180\u00b0 \u2713 (D) 190\u00b0 \u2717."
+  },
+  {
+    "QuestionText": "CPCT stands for:",
+    "Options": [
+      "A) Common Parts of Congruent Triangles",
+      "B) Corresponding Parts of Congruent Triangles",
+      "C) Complementary Parts Congruence Theorem",
+      "D) Central Property of Congruent Triangles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Congruence",
+    "Difficulty": "Foundation",
+    "Explanation": "CPCT: Corresponding Parts of Congruent Triangles are equal. Once we establish congruence, all corresponding sides and angles are equal."
+  },
+  {
+    "QuestionText": "In a right triangle, if one acute angle is 30\u00b0, the other is:",
+    "Options": [
+      "A) 30\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 45\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of angles = 180\u00b0. 90\u00b0+30\u00b0+third=180\u00b0 \u2192 third=60\u00b0."
+  },
+  {
+    "QuestionText": "The perpendicular from a vertex of an isosceles triangle to the base:",
+    "Options": [
+      "A) Bisects the vertex angle only",
+      "B) Bisects the base only",
+      "C) Bisects both the base and the vertex angle",
+      "D) Is equal to the base"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "In an isosceles triangle, the perpendicular from the apex bisects the base AND the apex angle. It's simultaneously altitude, median, and angle bisector from the apex."
+  },
+  {
+    "QuestionText": "If all three medians of a triangle are equal, the triangle is:",
+    "Options": [
+      "A) Right-angled",
+      "B) Isosceles",
+      "C) Equilateral",
+      "D) Scalene"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Equilateral triangles have all three medians equal. Conversely, if all medians are equal, the triangle is equilateral."
+  },
+  {
+    "QuestionText": "The number of altitudes in a triangle is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Lines in Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Every triangle has 3 altitudes \u2014 one from each vertex. They all meet at the orthocentre."
+  },
+  {
+    "QuestionText": "The measure of each interior angle of a regular hexagon is:",
+    "Options": [
+      "A) 108\u00b0",
+      "B) 120\u00b0",
+      "C) 135\u00b0",
+      "D) 90\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Interior angle of regular polygon = (n\u22122)\u00d7180\u00b0/n. For hexagon n=6: 4\u00d7180\u00b0/6=120\u00b0."
+  },
+  {
+    "QuestionText": "In \u25b3ABC, if AB = 7, AC = 7, and BC = 10, the triangle is:",
+    "Options": [
+      "A) Scalene",
+      "B) Equilateral",
+      "C) Right-angled",
+      "D) Isosceles"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Types of Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "AB=AC=7 (two equal sides) \u2192 isosceles triangle."
+  },
+  {
+    "QuestionText": "If \u2220A = \u2220B = \u2220C in a triangle, each angle measures:",
+    "Options": [
+      "A) 45\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 30\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "3\u2220A=180\u00b0 \u2192 \u2220A=60\u00b0. All angles equal \u2192 equilateral triangle."
+  },
+  {
+    "QuestionText": "The exterior angle of a triangle equals 120\u00b0 and one non-adjacent interior angle is 70\u00b0. The other non-adjacent interior angle is:",
+    "Options": [
+      "A) 40\u00b0",
+      "B) 50\u00b0",
+      "C) 60\u00b0",
+      "D) 70\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Exterior angle = sum of two remote interior angles. 120\u00b0 = 70\u00b0 + x \u2192 x = 50\u00b0."
+  },
+  {
+    "QuestionText": "Which of the following is an Isosceles Right Triangle's angles?",
+    "Options": [
+      "A) 30\u00b0, 60\u00b0, 90\u00b0",
+      "B) 45\u00b0, 45\u00b0, 90\u00b0",
+      "C) 60\u00b0, 60\u00b0, 60\u00b0",
+      "D) 50\u00b0, 50\u00b0, 80\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Triangles and Congruence",
+    "SubTopic": "Types of Triangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Isosceles + right angle: two equal angles + 90\u00b0. Equal angles: (180\u00b0\u221290\u00b0)/2=45\u00b0. So 45\u00b0\u221245\u00b0\u221290\u00b0."
+  }
+]

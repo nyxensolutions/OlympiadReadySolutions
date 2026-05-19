@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "Who treats sick people?",
+        "Options":  [
+                        "A) Doctor",
+                        "B) Engineer",
+                        "C) Farmer",
+                        "D) Teacher"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A doctor diagnoses and treats sick people. Doctors work in hospitals, clinics, and health centres."
+    },
+    {
+        "QuestionText":  "Who teaches children in a school?",
+        "Options":  [
+                        "A) Teacher",
+                        "B) Doctor",
+                        "C) Farmer",
+                        "D) Policeman"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A teacher educates children and helps them learn. Teachers work in schools, colleges, and other learning institutions."
+    },
+    {
+        "QuestionText":  "Who grows food for us?",
+        "Options":  [
+                        "A) Farmer",
+                        "B) Shopkeeper",
+                        "C) Driver",
+                        "D) Chef"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A farmer grows crops like wheat, rice, fruits, and vegetables. Farmers feed the nation."
+    },
+    {
+        "QuestionText":  "Who protects us from crime?",
+        "Options":  [
+                        "A) Policeman",
+                        "B) Fireman",
+                        "C) Doctor",
+                        "D) Postman"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A policeman maintains law and order and protects the community from crime. They wear uniforms and carry out patrols."
+    },
+    {
+        "QuestionText":  "Who puts out fires and rescues people?",
+        "Options":  [
+                        "A) Firefighter",
+                        "B) Policeman",
+                        "C) Doctor",
+                        "D) Soldier"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A firefighter extinguishes fires and rescues people from burning buildings and other emergencies."
+    },
+    {
+        "QuestionText":  "Who delivers letters and parcels to our homes?",
+        "Options":  [
+                        "A) Postman",
+                        "B) Milkman",
+                        "C) Baker",
+                        "D) Carpenter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A postman delivers letters, postcards, and parcels from the post office to people\u0027s homes."
+    },
+    {
+        "QuestionText":  "Who builds houses and buildings?",
+        "Options":  [
+                        "A) Mason / Builder",
+                        "B) Farmer",
+                        "C) Tailor",
+                        "D) Doctor"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A mason or builder constructs buildings using bricks, cement, and other materials."
+    },
+    {
+        "QuestionText":  "Who makes clothes for us?",
+        "Options":  [
+                        "A) Tailor",
+                        "B) Weaver",
+                        "C) Cobbler",
+                        "D) Potter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A tailor stitches and repairs clothes. They use a sewing machine, needle, and thread."
+    },
+    {
+        "QuestionText":  "Who fixes broken pipes and water taps?",
+        "Options":  [
+                        "A) Plumber",
+                        "B) Electrician",
+                        "C) Carpenter",
+                        "D) Mason"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A plumber installs and repairs water supply pipes, taps, and drainage systems."
+    },
+    {
+        "QuestionText":  "Who repairs electrical faults in our homes?",
+        "Options":  [
+                        "A) Electrician",
+                        "B) Plumber",
+                        "C) Carpenter",
+                        "D) Mason"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "An electrician installs and repairs electrical systems, wiring, switches, and appliances."
+    },
+    {
+        "QuestionText":  "Who makes furniture like tables and chairs?",
+        "Options":  [
+                        "A) Carpenter",
+                        "B) Tailor",
+                        "C) Potter",
+                        "D) Cobbler"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A carpenter works with wood to make and repair furniture like tables, chairs, and cupboards."
+    },
+    {
+        "QuestionText":  "Who repairs shoes?",
+        "Options":  [
+                        "A) Cobbler (Mochi)",
+                        "B) Potter",
+                        "C) Weaver",
+                        "D) Blacksmith"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A cobbler (Mochi) repairs and makes shoes and other leather goods."
+    },
+    {
+        "QuestionText":  "Who makes pots and clay items?",
+        "Options":  [
+                        "A) Potter",
+                        "B) Cobbler",
+                        "C) Weaver",
+                        "D) Blacksmith"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A potter makes pots, plates, and other items out of clay using a potter\u0027s wheel and then baking them."
+    },
+    {
+        "QuestionText":  "Who is a veterinarian?",
+        "Options":  [
+                        "A) A doctor who treats animals",
+                        "B) A farmer who grows vegetables",
+                        "C) A builder who builds sheds",
+                        "D) A tailor who makes pet clothes"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A veterinarian (vet) is a doctor who examines, diagnoses, and treats animals."
+    },
+    {
+        "QuestionText":  "Who invented the telephone?",
+        "Options":  [
+                        "A) Alexander Graham Bell",
+                        "B) Thomas Edison",
+                        "C) Albert Einstein",
+                        "D) Nikola Tesla"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Alexander Graham Bell invented the telephone in 1876. It revolutionised long-distance communication."
+    },
+    {
+        "QuestionText":  "Who invented the electric light bulb?",
+        "Options":  [
+                        "A) Thomas Edison",
+                        "B) Alexander Graham Bell",
+                        "C) Michael Faraday",
+                        "D) Albert Einstein"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Thomas Edison invented the practical electric light bulb in 1879. He also invented the phonograph and held over 1,000 patents."
+    },
+    {
+        "QuestionText":  "Who invented the aeroplane?",
+        "Options":  [
+                        "A) Wright Brothers (Orville and Wilbur)",
+                        "B) Henry Ford",
+                        "C) Thomas Edison",
+                        "D) Alexander Graham Bell"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Wright Brothers (Orville and Wilbur Wright) made the first successful powered aeroplane flight at Kitty Hawk, USA, in December 1903."
+    },
+    {
+        "QuestionText":  "Who invented the computer?",
+        "Options":  [
+                        "A) Charles Babbage (Analytical Engine)",
+                        "B) Alan Turing",
+                        "C) Bill Gates",
+                        "D) Steve Jobs"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Charles Babbage is called the \u0027Father of the Computer\u0027 for designing the Analytical Engine (1837), an early mechanical computer."
+    },
+    {
+        "QuestionText":  "Who invented the printing press?",
+        "Options":  [
+                        "A) Johannes Gutenberg",
+                        "B) Thomas Edison",
+                        "C) Alexander Graham Bell",
+                        "D) Galileo Galilei"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Johannes Gutenberg invented the movable-type printing press around 1440, revolutionising the spread of books and information."
+    },
+    {
+        "QuestionText":  "Who discovered penicillin (the first antibiotic)?",
+        "Options":  [
+                        "A) Alexander Fleming",
+                        "B) Louis Pasteur",
+                        "C) Joseph Lister",
+                        "D) Edward Jenner"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Alexander Fleming discovered penicillin in 1928 when he noticed a mould killing bacteria in his lab. It saved millions of lives."
+    },
+    {
+        "QuestionText":  "Who invented the steam engine?",
+        "Options":  [
+                        "A) James Watt (improved it)",
+                        "B) Thomas Edison",
+                        "C) Alexander Graham Bell",
+                        "D) Henry Ford"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "James Watt significantly improved the steam engine in the 1760s-70s, making it practical for industry and transport, powering the Industrial Revolution."
+    },
+    {
+        "QuestionText":  "Who invented the World Wide Web (Internet)?",
+        "Options":  [
+                        "A) Tim Berners-Lee",
+                        "B) Bill Gates",
+                        "C) Mark Zuckerberg",
+                        "D) Steve Jobs"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Tim Berners-Lee invented the World Wide Web in 1989 at CERN. He made information sharing over the internet possible through hyperlinks."
+    },
+    {
+        "QuestionText":  "Who invented the radio?",
+        "Options":  [
+                        "A) Guglielmo Marconi",
+                        "B) Alexander Graham Bell",
+                        "C) Thomas Edison",
+                        "D) Nikola Tesla"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Guglielmo Marconi is credited with inventing the radio communication system in 1895. India\u0027s J.C. Bose also made pioneering contributions."
+    },
+    {
+        "QuestionText":  "Who is the bank manager?",
+        "Options":  [
+                        "A) A person who manages a bank and its staff",
+                        "B) A person who prints money",
+                        "C) A shopkeeper who sells goods",
+                        "D) A doctor who treats patients"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A bank manager oversees the operations of a bank branch, manages staff, approves loans, and ensures customer service."
+    },
+    {
+        "QuestionText":  "What is a librarian\u0027s job?",
+        "Options":  [
+                        "A) Managing and organising books and helping readers find resources",
+                        "B) Teaching in a school",
+                        "C) Delivering newspapers",
+                        "D) Treating sick people"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A librarian manages a library\u0027s collection of books, helps readers find resources, and organises the catalogue."
+    },
+    {
+        "QuestionText":  "Who invented vaccination (the first vaccine)?",
+        "Options":  [
+                        "A) Edward Jenner (smallpox vaccine)",
+                        "B) Louis Pasteur",
+                        "C) Alexander Fleming",
+                        "D) Joseph Lister"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Edward Jenner created the first vaccine in 1796 — for smallpox. He noticed that milkmaids who caught cowpox were immune to smallpox."
+    },
+    {
+        "QuestionText":  "Who is an architect?",
+        "Options":  [
+                        "A) A person who designs buildings and structures",
+                        "B) A person who builds houses",
+                        "C) A person who paints buildings",
+                        "D) A person who cleans buildings"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "An architect designs buildings and structures, creating plans and models before construction begins. They focus on both functionality and aesthetics."
+    },
+    {
+        "QuestionText":  "Who invented the telescope?",
+        "Options":  [
+                        "A) Hans Lippershey (1608); Galileo improved it",
+                        "B) Isaac Newton",
+                        "C) Galileo Galilei",
+                        "D) Nicolaus Copernicus"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Hans Lippershey patented the first telescope in 1608. Galileo then built an improved version and used it to study the sky, discovering Jupiter\u0027s moons."
+    },
+    {
+        "QuestionText":  "Who invented the microscope?",
+        "Options":  [
+                        "A) Antonie van Leeuwenhoek (first practical one)",
+                        "B) Louis Pasteur",
+                        "C) Robert Hooke",
+                        "D) Alexander Fleming"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Antonie van Leeuwenhoek is considered the \u0027Father of Microbiology\u0027 for creating powerful microscopes that first observed bacteria and microorganisms (1670s)."
+    },
+    {
+        "QuestionText":  "Who discovered gravity?",
+        "Options":  [
+                        "A) Sir Isaac Newton",
+                        "B) Albert Einstein",
+                        "C) Galileo Galilei",
+                        "D) Aristotle"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Sir Isaac Newton is credited with discovering the law of gravity in 1687. The famous (possibly apocryphal) story says a falling apple inspired him."
+    },
+    {
+        "QuestionText":  "Who invented the television?",
+        "Options":  [
+                        "A) John Logie Baird",
+                        "B) Thomas Edison",
+                        "C) Guglielmo Marconi",
+                        "D) Alexander Graham Bell"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "John Logie Baird demonstrated the first working television system in 1926."
+    },
+    {
+        "QuestionText":  "Who discovered the Theory of Relativity?",
+        "Options":  [
+                        "A) Albert Einstein",
+                        "B) Isaac Newton",
+                        "C) Galileo Galilei",
+                        "D) Niels Bohr"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Albert Einstein developed the Special Theory of Relativity (1905) and the General Theory of Relativity (1915). His famous equation is E=mc²."
+    },
+    {
+        "QuestionText":  "Who invented the X-ray?",
+        "Options":  [
+                        "A) Wilhelm Röntgen",
+                        "B) Marie Curie",
+                        "C) Louis Pasteur",
+                        "D) Alexander Fleming"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Wilhelm Röntgen discovered X-rays in 1895. He was awarded the first Nobel Prize in Physics in 1901 for this discovery."
+    },
+    {
+        "QuestionText":  "Who invented the automobile (petrol-powered car)?",
+        "Options":  [
+                        "A) Karl Benz",
+                        "B) Henry Ford",
+                        "C) Thomas Edison",
+                        "D) James Watt"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Karl Benz is credited with inventing the first petrol-powered automobile in 1885 — the Benz Patent-Motorwagen."
+    },
+    {
+        "QuestionText":  "Henry Ford is famous for inventing which production method?",
+        "Options":  [
+                        "A) Assembly line manufacturing of the Model T car",
+                        "B) Steam engine",
+                        "C) Telephone",
+                        "D) Aeroplane"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Henry Ford introduced the moving assembly line in 1913 for his Model T car, making cars affordable for ordinary people."
+    },
+    {
+        "QuestionText":  "Who is a nutritionist?",
+        "Options":  [
+                        "A) A person who gives advice on diet and healthy eating",
+                        "B) A person who treats broken bones",
+                        "C) A chef who cooks food",
+                        "D) A person who grows vegetables"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A nutritionist studies food and its effect on health. They advise people on what to eat for good health, weight management, and disease prevention."
+    },
+    {
+        "QuestionText":  "Who is a journalist?",
+        "Options":  [
+                        "A) A person who gathers and reports news",
+                        "B) A person who prints books",
+                        "C) A person who delivers newspapers",
+                        "D) A person who manages a TV channel"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A journalist researches, writes, and reports news stories for newspapers, magazines, TV, radio, and online media."
+    },
+    {
+        "QuestionText":  "Who discovered the structure of DNA?",
+        "Options":  [
+                        "A) Watson and Crick (with Rosalind Franklin\u0027s data)",
+                        "B) Charles Darwin",
+                        "C) Gregor Mendel",
+                        "D) Louis Pasteur"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "James Watson and Francis Crick, using X-ray crystallography data from Rosalind Franklin and Maurice Wilkins, described the double-helix structure of DNA in 1953."
+    },
+    {
+        "QuestionText":  "Who invented dynamite?",
+        "Options":  [
+                        "A) Alfred Nobel",
+                        "B) Thomas Edison",
+                        "C) James Watt",
+                        "D) Michael Faraday"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Alfred Nobel invented dynamite in 1867. He later established the Nobel Prizes with his fortune to recognise outstanding achievements in science, literature, and peace."
+    },
+    {
+        "QuestionText":  "Who formulated the Laws of Motion?",
+        "Options":  [
+                        "A) Sir Isaac Newton",
+                        "B) Albert Einstein",
+                        "C) Galileo Galilei",
+                        "D) Robert Hooke"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Sir Isaac Newton formulated the three Laws of Motion in his landmark work \u0027Principia Mathematica\u0027 (1687). These laws describe how objects move."
+    },
+    {
+        "QuestionText":  "Who is an environmentalist?",
+        "Options":  [
+                        "A) A person who works to protect nature and the environment",
+                        "B) A person who studies chemicals",
+                        "C) A person who builds dams",
+                        "D) A person who plants crops"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "An environmentalist works to protect the natural world by raising awareness, advocating policies, and taking direct action to conserve nature."
+    },
+    {
+        "QuestionText":  "Who invented the battery?",
+        "Options":  [
+                        "A) Alessandro Volta",
+                        "B) Michael Faraday",
+                        "C) Thomas Edison",
+                        "D) Benjamin Franklin"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Alessandro Volta invented the first electric battery (voltaic pile) in 1800. The unit of electric voltage — the Volt — is named after him."
+    },
+    {
+        "QuestionText":  "Who discovered electricity?",
+        "Options":  [
+                        "A) Benjamin Franklin (lightning is electricity); Michael Faraday (electromagnetism)",
+                        "B) Thomas Edison",
+                        "C) Nikola Tesla",
+                        "D) Alessandro Volta"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Benjamin Franklin proved lightning is electricity with his kite experiment (1752). Michael Faraday later discovered electromagnetic induction, making electric generators and motors possible."
+    },
+    {
+        "QuestionText":  "What tool does a surgeon use to cut during operations?",
+        "Options":  [
+                        "A) Scalpel",
+                        "B) Stethoscope",
+                        "C) Thermometer",
+                        "D) Syringe"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A surgeon uses a scalpel (a very sharp knife) to make incisions during surgical operations."
+    },
+    {
+        "QuestionText":  "Who is a social worker?",
+        "Options":  [
+                        "A) A person who helps disadvantaged people and communities",
+                        "B) A person who sells goods",
+                        "C) A government officer",
+                        "D) A scientist"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Community Helpers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A social worker provides support services to individuals, families, and communities — especially those facing poverty, abuse, or other social problems."
+    },
+    {
+        "QuestionText":  "The Nobel Prize was instituted by Alfred Nobel in which year?",
+        "Options":  [
+                        "A) 1895 (first awarded 1901)",
+                        "B) 1876",
+                        "C) 1900",
+                        "D) 1910"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Alfred Nobel signed his will establishing the Nobel Prizes in 1895, and the first prizes were awarded in 1901."
+    },
+    {
+        "QuestionText":  "Who invented the diesel engine?",
+        "Options":  [
+                        "A) Rudolf Diesel",
+                        "B) Karl Benz",
+                        "C) James Watt",
+                        "D) Thomas Edison"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Rudolf Diesel invented the diesel engine in 1897. Diesel engines are more fuel-efficient than petrol engines and are used in trucks, trains, and ships."
+    },
+    {
+        "QuestionText":  "Who made the first successful vaccine against polio?",
+        "Options":  [
+                        "A) Jonas Salk",
+                        "B) Edward Jenner",
+                        "C) Alexander Fleming",
+                        "D) Louis Pasteur"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Jonas Salk developed the first safe and effective polio vaccine in 1955. Albert Sabin later developed an oral polio vaccine."
+    },
+    {
+        "QuestionText":  "Who designed the first successful human-carried hot air balloon?",
+        "Options":  [
+                        "A) Montgolfier Brothers",
+                        "B) Wright Brothers",
+                        "C) Guglielmo Marconi",
+                        "D) Nikola Tesla"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Inventions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Joseph-Michel and Jacques-Étienne Montgolfier (Montgolfier Brothers) launched the first successful hot air balloon carrying humans in November 1783 in France."
+    },
+    {
+        "QuestionText":  "Sunita Williams is an Indian-American astronaut. How many spacewalks has she completed?",
+        "Options":  [
+                        "A) 7 (total about 50+ hours)",
+                        "B) 3",
+                        "C) 10",
+                        "D) 5"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "GK and Current Affairs",
+        "SubTopic":  "Scientists",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Sunita Williams holds the record for female astronauts with 7 spacewalks totalling about 50 hours and 40 minutes of spacewalk time."
+    }
+]

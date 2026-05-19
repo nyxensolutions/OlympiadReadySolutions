@@ -1,0 +1,467 @@
+[
+  {
+    "QuestionText": "Which network topology connects all nodes to a single central hub or switch, making the entire network dependent on that central device's operational stability?",
+    "Options": ["A) Bus Topology", "B) Star Topology", "C) Ring Topology", "D) Mesh Topology"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "In a Star Topology, all peripheral stations are linked to a central node (like a switch). If a single station cable fails, only that node goes down; if the central switch fails, the whole network drops."
+  },
+  {
+    "QuestionText": "What does the HTML anchor tag attribute 'target=\"_blank\"' instruct the web browser to do when a user clicks the hyperlink?",
+    "Options": [
+      "A) Open the linked document in the same frame window layer.",
+      "B) Open the linked document in a completely new window or tab.",
+      "C) Download the linked file directly onto local storage without rendering.",
+      "D) Clear out all background CSS layouts before parsing the text."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `target=\"_blank\"` attribute tells the browser engine to retain the current page and render the target URL inside a fresh tab or window container."
+  },
+  {
+    "QuestionText": "What category of malware disguises itself as a legitimate, safe utility program to trick a user into running it, only to unleash a malicious payload in the background?",
+    "Options": ["A) Computer Worm", "B) Trojan Horse", "C) Spyware tracking block", "D) Ransomware block"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Trojan Horses mimic functional programs (like games or utility tools) but hide embedded code to open backdoors for attackers once executed."
+  },
+  {
+    "QuestionText": "Which layer of the standard Open Systems Interconnection (OSI) reference model handles data routing, packet switching, and logical IP address mapping across separate networks?",
+    "Options": ["A) Physical Layer", "B) Data Link Layer", "C) Network Layer", "D) Transport Layer"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "The Network Layer manages end-to-end packet delivery, translating logical network pathways and choosing the best routing hops across routers."
+  },
+  {
+    "QuestionText": "What is the correct CSS declaration syntax to change the text color of all level-1 heading elements (`<h1>`) to blue?",
+    "Options": ["A) h1 {color: blue;}", "B) h1 {text-color = blue;}", "C) <h1 color=\"blue\">", "D) h1:color = \"blue\";"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "A standard CSS block consists of a selector (`h1`), followed by curly braces containing a property (`color`) and its assigned value (`blue`), separated by a colon and ended with a semicolon."
+  },
+  {
+    "QuestionText": "What security threat vector describes an attacker injecting false data into a local network routing mechanism to redirect a user's web requests away from an authentic site toward a duplicate malicious portal?",
+    "Options": ["A) Phishing", "B) DNS Spoofing / Pharming", "C) Denial of Service (DoS)", "D) Brute Force attack"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "DNS Spoofing alters domain resolution tables, causing users to land on fake clone sites even when they type the correct URL into their browser."
+  },
+  {
+    "QuestionText": "What data transmission mode allows communication signals to flow in both directions simultaneously across a single network channel, like a live telephone line conversation?",
+    "Options": ["A) Simplex", "B) Half-Duplex", "C) Full-Duplex", "D) Serial Multiplexing"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "Full-Duplex allows both nodes to transmit and receive data at the same time over shared frequencies, unlike Half-Duplex where nodes must take turns."
+  },
+  {
+    "QuestionText": "Which HTML tag is used to embed an inline cascading style sheet definition directly inside the header block section of a single web document file?",
+    "Options": ["A) <css>", "B) <script>", "C) <style>", "D) <link>"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `<style>` tag encloses internal CSS definitions within the `<head>` block of an HTML page, styling elements across that specific file."
+  },
+  {
+    "QuestionText": "What legal frameworks protect your rights over your creative intellectual work, like software code, digital books, graphics, or musical arrangements?",
+    "Options": ["A) Creative Licenses", "B) Intellectual Property Rights (IPR)", "C) Cyber Security Acts", "D) Universal Data Regulations"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Intellectual Property Rights give creators legal control over how their inventions, designs, and artistic works are used and shared."
+  },
+  {
+    "QuestionText": "Which networking device operates at the physical layer of the OSI model to broadcast incoming data packets indiscriminately out to every connected port, increasing network congestion?",
+    "Options": ["A) Network Switch", "B) Router Gateway", "C) Hub", "D) Hardware Firewall"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "Hubs lack data filtering logic. They simply regenerate and broadcast electrical signals across all active ports, whereas Switches look up MAC addresses to send packets precisely to the target node."
+  },
+  {
+    "QuestionText": "In HTML, which attribute must be included inside an image tag (`<img>`) to provide descriptive substitute text if the image file fails to load or for screen readers to process?",
+    "Options": ["A) title", "B) src", "C) alt", "D) longdesc"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `alt` (alternative text) attribute provides fallback descriptions that appear if an image fails to load, and helps visually impaired users navigate pages using screen readers."
+  },
+  {
+    "QuestionText": "What fraudulent method involves sending deceptive, authentic-looking emails to scare or trick users into revealing sensitive credentials on fake financial landing pages?",
+    "Options": ["A) Phishing", "B) Worm injection", "C) Spyware scanning", "D) Ransomware drop"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Phishing is a social engineering attack that uses spoofed communications to harvest personal credentials, account pins, or credit numbers."
+  },
+  {
+    "QuestionText": "What type of unique network address identifier is permanently burned into a device's network interface card (NIC) at the factory, acting as a physical fingerprint at the Data Link layer?",
+    "Options": ["A) IP Address", "B) Hostname string", "C) MAC Address", "D) Subnet Mask code"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "The Media Access Control (MAC) address is a unique 48-bit physical identifier assigned to a network card during manufacturing."
+  },
+  {
+    "QuestionText": "Which type of Cascading Style Sheet setup references a separate, external `.css` configuration file by using a `<link>` tag within the web document's head section?",
+    "Options": ["A) Inline CSS", "B) Internal CSS", "C) External CSS", "D) Embedded CSS"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "External CSS keeps code organized by pulling structural styling layouts from an independent stylesheet file, letting you update the look of multiple web pages at once."
+  },
+  {
+    "QuestionText": "What type of malicious code replicates independently across network connections without needing a host program or file to hitch a ride on, rapidly devouring system bandwidth?",
+    "Options": ["A) File Virus", "B) Macro Infection", "C) Computer Worm", "D) Logic Bomb track"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "Unlike a standard virus that needs human interaction to run infected files, worms are standalone programs that actively exploit network vulnerabilities to copy themselves from machine to machine."
+  },
+  {
+    "QuestionText": "Which structural routing protocol maps alphabetic domain paths (like 'www.sofworld.org') to their corresponding numerical system IP addresses (like '192.0.2.1') across the web?",
+    "Options": ["A) HTTP", "B) FTP", "C) DNS (Domain Name System)", "D) SMTP"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "DNS operates as an automated phonebook for the internet, resolving domain names into the numerical IP addresses that routers use to locate servers."
+  },
+  {
+    "QuestionText": "What is the correct HTML tags combination to construct a clean, numbered ordered list sequence down a page?",
+    "Options": [
+      "A) <ul type=\"1\">...</ul>",
+      "B) <ol><li>...</li></ol>",
+      "C) <list type=\"numbered\">...",
+      "D) <dl><ol>...</ol></dl>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "Ordered lists are declared with the `<ol>` container, and each specific row entry inside the sequence is wrapped with list item `<li>` tags."
+  },
+  {
+    "QuestionText": "What sort of asymmetric cryptographic validation tag confirms that a downloadable application or email came from an authorized sender and wasn't altered by third parties?",
+    "Options": ["A) Firewall certificate", "B) Digital Signature", "C) CAPTCHA validation pool", "D) Access Token code"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "Digital signatures use public-key cryptography to verify authenticity and integrity, ensuring data hasn't been tampered with since it was signed."
+  },
+  {
+    "QuestionText": "Which guided transmission medium utilizes thin glass or plastic fibers to transmit data as modulated light pulses, making it immune to electromagnetic interference?",
+    "Options": ["A) Shielded Twisted Pair (STP)", "B) Coaxial Cable", "C) Fiber Optic Cable", "D) Unshielded Twisted Pair (UTP)"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "Fiber optic cables carry data as fast light beams through internal reflection, providing massive bandwidth over long distances without any signal loss from electronic noise."
+  },
+  {
+    "QuestionText": "Which CSS property is adjusted to introduce empty padding spaces around text content inside an element's borders?",
+    "Options": ["A) margin", "B) padding", "C) border-spacing", "D) line-height"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Advanced",
+    "Explanation": "The `padding` property adds breathing room between an element's inner content and its perimeter border line, while `margin` clears space outside the border."
+  },
+  {
+    "QuestionText": "What form of digital footprint consists of data records that you intentionally share online, such as posting photos, writing blog entries, or sending emails?",
+    "Options": ["A) Passive digital footprint", "B) Active digital footprint", "C) Encrypted signature", "D) System cache history"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "An active footprint grows whenever a user intentionally publishes or submits data online, whereas a passive footprint is collected behind the scenes (like server logs tracking your IP history)."
+  },
+  {
+    "QuestionText": "Which TCP/IP protocol manages secure web page transfers across browser pipelines by wrapping standard HTTP operations inside an SSL/TLS encryption layer?",
+    "Options": ["A) HTTP 1.1", "B) HTTPS", "C) SSH console", "D) SFTP pipeline"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTPS (Hypertext Transfer Protocol Secure) encrypts user inputs and server outputs, keeping credentials safe from intermediate eavesdropping."
+  },
+  {
+    "QuestionText": "To define an image as a hyperlink destination in HTML, you should wrap the `<img>` tag inside which container element?",
+    "Options": ["A) <link>", "B) <a>", "C) <href>", "D) <anchor>"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "Nesting an `<img>` tag inside anchor tags (`<a>...</a>`) makes the image clickable, routing users to the address specified in the anchor's `href` attribute."
+  },
+  {
+    "QuestionText": "What software utility or hardware setup inspects data traffic passing into your network, blocking unauthorized ports based on custom security rule profiles?",
+    "Options": ["A) Network Bridge", "B) Repeater node", "C) Firewall", "D) Antivirus scanner"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Firewalls act as security barriers, monitoring incoming and outgoing traffic to block suspicious connections while keeping authorized data channels open."
+  },
+  {
+    "QuestionText": "What networking metric measures the time delay it takes for a data packet to travel from a source node to its destination across a network path?",
+    "Options": ["A) Bandwidth capacity", "B) Throughput", "C) Latency", "D) Jitter fluctuation"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "Latency measures system delays or lag times during packet transmissions, usually calculated as the round-trip time in milliseconds."
+  },
+  {
+    "QuestionText": "What is the correct HTML tag to create a cell row entry inside a data table header row section, automatically bolding and centering the text?",
+    "Options": ["A) <td>", "B) <head>", "C) <th>", "D) <tr-head>"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `<th>` (Table Header) tag defines a header cell, while standard data rows use `<tr>` and regular cell inputs use `<td>`."
+  },
+  {
+    "QuestionText": "What international legal concept allows limited use of copyrighted material without permission for specific educational, commentary, or research activities?",
+    "Options": ["A) Plagiarism permissions", "B) Fair Use / Fair Dealing", "C) Public Domain waiver", "D) Open Access code"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "The Fair Use doctrine allows people to use small excerpts of copyrighted work for criticism, news reporting, teaching, or research without infringing on the copyright."
+  },
+  {
+    "QuestionText": "Which type of network spans a large geographical area like an entire country or continent by linking multiple smaller local area networks together?",
+    "Options": ["A) LAN", "B) MAN", "C) WAN (Wide Area Network)", "D) PAN"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "WANs span broad distances using public or leased trans-oceanic phone lines and satellites. The internet is the largest public WAN in operation."
+  },
+  {
+    "QuestionText": "If you apply the CSS property rule 'font-style: italic;' to a text element, what change occurs?",
+    "Options": [
+      "A) The text thickness shifts to bold styles.",
+      "B) The text characters tilt sideways into a slanted italic format.",
+      "C) The characters are converted into small capitalized letter structures.",
+      "D) A line is drawn underneath the text block row."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `font-style` property controls the slant of typography elements, switching between normal, italic, or oblique options."
+  },
+  {
+    "QuestionText": "What form of malicious identity deception involves an attacker building clone websites or fake social profiles to trick users into believing they are interacting with a trusted friend or business entity?",
+    "Options": ["A) Identity Theft / Impersonation", "B) Cyberstalking", "C) Data sniffing", "D) Adware tracking"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "Online impersonation mimics real identities to trick victims into sending money, sharing data, or compromising system access links."
+  },
+  {
+    "QuestionText": "Which transport layer protocol handles data deliveries by using a stateless, connectionless approach that prioritizes streaming speed over packet verification checks?",
+    "Options": ["A) TCP", "B) UDP (User Datagram Protocol)", "C) IPX/SPX", "D) NetBEUI layer"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "UDP avoids the overhead of connection handshakes and verification checks, making it perfect for time-sensitive tasks like online gaming or live video streams."
+  },
+  {
+    "QuestionText": "What type of HTML list uses bullet points by default to organize structural rows instead of numbers?",
+    "Options": ["A) Ordered List", "B) Unordered List", "C) Definition List", "D) Index Array"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "Unordered lists are initialized using `<ul>` container tags, displaying items with bullet symbols like discs, circles, or squares."
+  },
+  {
+    "QuestionText": "What form of malware tracks user keystrokes in secret to steal passwords, financial login pins, and credit numbers from the system?",
+    "Options": ["A) Keylogger", "B) Ransomware extortion utility", "C) Adware engine", "D) Rootkit payload"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Keyloggers record physical typing inputs and upload the raw text logs to attackers, compromising account credentials silently."
+  },
+  {
+    "QuestionText": "What hardware device connects two separate local networks that use entirely different communication protocol rules?",
+    "Options": ["A) Network Bridge", "B) Repeater node", "C) Gateway", "D) Network Switch"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "Gateways act as protocol converters, translating data traffic between networks with completely different core architectures."
+  },
+  {
+    "QuestionText": "In the CSS box model diagram structure, what layer sits between the inner padding space and the outer margin boundaries?",
+    "Options": ["A) Content zone", "B) Border", "C) Outline canvas", "D) Glow vector"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Advanced",
+    "Explanation": "The CSS box model layers expand outward from the core: Content -> Padding -> Border -> Margin."
+  },
+  {
+    "QuestionText": "What online behavior involves persistently using digital communication tools to harass, intimidate, or frighten another individual?",
+    "Options": ["A) Phishing", "B) Cyberbullying", "C) Plagiarism", "D) Identity spoofing"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Cyberbullying encompasses sending abusive text chains, publishing malicious gossip, or sharing private photos online to isolate or humiliate targets."
+  },
+  {
+    "QuestionText": "Which protocol safely handles remote desktop command-line operations by encrypting all administration traffic sessions over the network?",
+    "Options": ["A) Telnet", "B) SSH (Secure Shell)", "C) FTP", "D) POP3"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "SSH replaced cleartext options like Telnet by running remote commands through a securely encrypted shell connection."
+  },
+  {
+    "QuestionText": "What is the correct HTML tag to insert a single standalone line break row shift without adding paragraph spacing?",
+    "Options": ["A) <lb>", "B) <break>", "C) <br>", "D) <p-line>"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `<br>` tag is an empty inline element that instantly drops the remaining text onto a fresh line without requiring a closing tag."
+  },
+  {
+    "QuestionText": "What browser-based tracking tool saves small text string entries on local drives to preserve shopping cart inputs, account preferences, or login states across browsing sessions?",
+    "Options": ["A) Cache repository", "B) History log", "C) Cookie", "D) Bookmark tree"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Cookies store session tokens and preference keys locally, helping web servers identify users and customize pages across visits."
+  },
+  {
+    "QuestionText": "What network security tool acts as an un-encrypted proxy link trap designed to lure hackers away from vital production resources, helping administrators analyze threat behaviors?",
+    "Options": ["A) Firewall rule", "B) Honeypot", "C) Intrusion Shield", "D) DMZ cluster"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Olympiad",
+    "Explanation": "Honeypots mimic real, vulnerable servers to safely trick and trap attackers, letting security teams monitor exploit tools and patch vulnerabilities."
+  },
+  {
+    "QuestionText": "Which CSS property is adjusted to toggle an element's background color?",
+    "Options": ["A) text-background", "B) background-color", "C) color-back", "D) element-fill"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `background-color` property defines the color fill layer for elements behind their text or image contents."
+  },
+  {
+    "QuestionText": "What is the act of copying another creator's intellectual designs, code structures, or research text and presenting them as your own original work?",
+    "Options": ["A) Phishing", "B) Identity theft", "C) Plagiarism", "D) Spoofing"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Plagiarism means claiming authorship over someone else's work without proper citations or attribution, which violates academic integrity and copyright policies."
+  },
+  {
+    "QuestionText": "Which application layer protocol automatically assigns unique, dynamic IP configurations to client machines as they join a local network, preventing manual address conflicts?",
+    "Options": ["A) DNS", "B) DHCP (Dynamic Host Configuration Protocol)", "C) LDAP console", "D) ICMP tracker"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "DHCP automates network setup by pulling temporary IP addresses, gateway pointers, and DNS records from a pool and leasing them to new devices."
+  },
+  {
+    "QuestionText": "What is the correct HTML tag to insert an internal horizontal dividing rule line across a page layout?",
+    "Options": ["A) <line>", "B) <hr>", "C) <border>", "D) <divide>"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "The `<hr>` (Horizontal Rule) empty tag draws a straight line partition across the page to visually break up content sections."
+  },
+  {
+    "QuestionText": "What form of malware encrypts physical storage drive files, holding the system hostage and demanding digital currency payments before giving back the decryption keys?",
+    "Options": ["A) Keylogger", "B) Adware payload", "C) Ransomware", "D) Rootkit block"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Ransomware locks down access to user data through encryption, using pop-up messages to demand payment in exchange for restoration keys."
+  },
+  {
+    "QuestionText": "Which type of computer network links personal accessories, smartwatches, and headsets right to an individual's smartphone or laptop via short-range Bluetooth frequencies?",
+    "Options": ["A) LAN", "B) PAN (Personal Area Network)", "C) MAN", "D) SAN"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "PANs focus on short-range wireless or wired linkages (typically up to 10 meters) around an individual's personal workspace."
+  },
+  {
+    "QuestionText": "Which CSS font property is configured to adjust text thickness levels between lightweight and bold style settings?",
+    "Options": ["A) font-style", "B) font-weight", "C) font-size", "D) text-decoration"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Advanced",
+    "Explanation": "The `font-weight` property sets typography line thicknesses using terms like 'bold' or numerical values ranging from 100 to 900."
+  },
+  {
+    "QuestionText": "What sort of network security tool continuously monitors data paths for matching exploit scripts, alerting administrators or actively changing firewall rules to block suspicious traffic patterns?",
+    "Options": ["A) Firewall filter", "B) IDS / IPS (Intrusion Detection/Prevention System)", "C) Secure Socket Layer node", "D) Proxy client connection"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Olympiad",
+    "Explanation": "IDS/IPS platforms inspect packet payloads for known exploit patterns, dropping malicious traffic packets instantly to safeguard network services."
+  },
+  {
+    "QuestionText": "Which HTML tag is used to format a block of text as a top-tier level-1 heading?",
+    "Options": ["A) <heading>", "B) <head>", "C) <h1>", "D) <h66>"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "HTML & CSS",
+    "Difficulty": "Foundation",
+    "Explanation": "`<h1>` renders the largest primary heading on a page, with heading sizes scaling down in importance through to `<h6>`."
+  },
+  {
+    "QuestionText": "What encryption framework secures sensitive personal information by establishing a private, encrypted tunnel link over public networks, shielding transactions from public Wi-Fi trackers?",
+    "Options": ["A) Firewall channel", "B) VPN (Virtual Private Network)", "C) Cookies index file", "D) Tor link bridge"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Cyber Safety",
+    "Difficulty": "Advanced",
+    "Explanation": "VPNs mask real IP addresses and scramble active network traffic inside an encrypted connection tunnel, preventing external node trackers from snooping on user behaviors."
+  }
+]

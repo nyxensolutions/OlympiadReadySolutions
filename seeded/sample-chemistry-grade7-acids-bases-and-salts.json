@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Acids taste sour",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only strong acids",
+      "D) Only weak acids"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Properties of acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Acids taste sour (citric acid in lemon, acetic acid in vinegar)."
+  },
+  {
+    "QuestionText": "Bases taste bitter and feel soapy",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only strong bases",
+      "D) Only alkalis"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Properties of bases",
+    "Difficulty": "Foundation",
+    "Explanation": "Bases taste bitter and feel slippery/soapy."
+  },
+  {
+    "QuestionText": "Blue litmus turns red in acidic solution",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only with strong acids",
+      "D) Only with HCl"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Litmus",
+    "Difficulty": "Foundation",
+    "Explanation": "Acids turn blue litmus red."
+  },
+  {
+    "QuestionText": "Red litmus turns blue in basic solution",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only NaOH",
+      "D) Only strong bases"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Litmus",
+    "Difficulty": "Foundation",
+    "Explanation": "Bases turn red litmus blue."
+  },
+  {
+    "QuestionText": "pH less than 7 means the solution is acidic",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Neutral",
+      "D) Basic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "pH scale",
+    "Difficulty": "Foundation",
+    "Explanation": "pH < 7: acidic."
+  },
+  {
+    "QuestionText": "pH greater than 7 means the solution is basic",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Acidic",
+      "D) Neutral"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "pH scale",
+    "Difficulty": "Foundation",
+    "Explanation": "pH > 7: basic/alkaline."
+  },
+  {
+    "QuestionText": "Pure water has pH 7 (neutral)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) pH 0",
+      "D) pH 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Water pH",
+    "Difficulty": "Foundation",
+    "Explanation": "Pure water is neutral: pH = 7."
+  },
+  {
+    "QuestionText": "Acid in lemon juice is citric acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Acetic acid",
+      "D) HCl"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Natural acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Lemon juice contains citric acid."
+  },
+  {
+    "QuestionText": "Vinegar contains acetic acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Citric acid",
+      "D) HCl"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Natural acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Vinegar is dilute acetic acid (ethanoic acid)."
+  },
+  {
+    "QuestionText": "Stomach produces hydrochloric acid for digestion",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Citric acid",
+      "D) Sulphuric acid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Gastric acid",
+    "Difficulty": "Foundation",
+    "Explanation": "Stomach secretes HCl for digestion."
+  },
+  {
+    "QuestionText": "Turmeric turns red-brown in basic solution",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Stays yellow",
+      "D) Turns blue"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Natural indicators",
+    "Difficulty": "Advanced",
+    "Explanation": "Turmeric is yellow in neutral/acid but red-brown in base."
+  },
+  {
+    "QuestionText": "China rose indicator turns dark pink in acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Green in acid",
+      "D) Blue in acid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Natural indicators",
+    "Difficulty": "Foundation",
+    "Explanation": "China rose turns dark pink/magenta in acid, green in base."
+  },
+  {
+    "QuestionText": "Neutralisation: acid + base gives salt and water",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only salt",
+      "D) Only water"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Neutralisation",
+    "Difficulty": "Foundation",
+    "Explanation": "Acid + Base \u2192 Salt + Water."
+  },
+  {
+    "QuestionText": "NaOH is a strong base",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Weak acid",
+      "D) Neutral salt"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "NaOH is a strong alkali."
+  },
+  {
+    "QuestionText": "HCl is a strong acid that fully ionises in water",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Weak acid",
+      "D) Base"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Strong acids",
+    "Difficulty": "Advanced",
+    "Explanation": "HCl completely ionises in water: strong acid."
+  },
+  {
+    "QuestionText": "Baking soda is NaHCO3 (sodium bicarbonate)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) NaCl",
+      "D) NaOH"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Baking soda",
+    "Difficulty": "Foundation",
+    "Explanation": "Baking soda = sodium hydrogen carbonate NaHCO3."
+  },
+  {
+    "QuestionText": "Baking soda releases CO2 gas with acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) O2 gas",
+      "D) H2 gas"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Baking soda",
+    "Difficulty": "Foundation",
+    "Explanation": "NaHCO3 + acid \u2192 salt + H2O + CO2."
+  },
+  {
+    "QuestionText": "Washing soda is Na2CO3 (sodium carbonate)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) NaCl",
+      "D) NaHCO3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Washing soda",
+    "Difficulty": "Foundation",
+    "Explanation": "Washing soda = Na2CO3, a base."
+  },
+  {
+    "QuestionText": "Slaked lime is Ca(OH)2",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) CaO",
+      "D) CaCO3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Calcium compounds",
+    "Difficulty": "Foundation",
+    "Explanation": "Slaked lime = calcium hydroxide Ca(OH)2."
+  },
+  {
+    "QuestionText": "Quicklime is CaO (calcium oxide)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Ca(OH)2",
+      "D) CaCO3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Calcium compounds",
+    "Difficulty": "Foundation",
+    "Explanation": "Quicklime = CaO, formed by heating limestone."
+  },
+  {
+    "QuestionText": "Antacids neutralise excess stomach acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Increase acid",
+      "D) Are neutral"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Antacids",
+    "Difficulty": "Advanced",
+    "Explanation": "Antacids are mild bases that neutralise excess HCl."
+  },
+  {
+    "QuestionText": "Acid rain has pH below 5.6",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) pH 7",
+      "D) pH above 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Acid rain",
+    "Difficulty": "Advanced",
+    "Explanation": "Normal rain pH ~5.6; acid rain pH < 5.6."
+  },
+  {
+    "QuestionText": "CO2 dissolved in rainwater forms carbonic acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Hydrochloric acid",
+      "D) Sulphuric acid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Carbonic acid",
+    "Difficulty": "Foundation",
+    "Explanation": "CO2 + H2O \u2192 H2CO3 (carbonic acid)."
+  },
+  {
+    "QuestionText": "Common salt is NaCl",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) NaOH",
+      "D) HCl"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Common salt",
+    "Difficulty": "Foundation",
+    "Explanation": "Common salt = sodium chloride NaCl."
+  },
+  {
+    "QuestionText": "Milk of magnesia contains Mg(OH)2",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) MgCl2",
+      "D) MgSO4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Antacids",
+    "Difficulty": "Foundation",
+    "Explanation": "Milk of magnesia = Mg(OH)2 suspension used as antacid."
+  },
+  {
+    "QuestionText": "Blood pH is approximately 7.4 (slightly basic)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) pH 6 (acidic)",
+      "D) pH 8.5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Blood pH",
+    "Difficulty": "Advanced",
+    "Explanation": "Blood pH 7.35-7.45: slightly basic."
+  },
+  {
+    "QuestionText": "Bee sting is acidic: relieved by applying baking soda",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Apply vinegar",
+      "D) Apply acid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Bee sting",
+    "Difficulty": "Foundation",
+    "Explanation": "Bee sting (formic acid) neutralised by baking soda (base)."
+  },
+  {
+    "QuestionText": "Wasp sting is alkaline: relieved by vinegar",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Apply baking soda",
+      "D) Apply lime"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Wasp sting",
+    "Difficulty": "Advanced",
+    "Explanation": "Wasp sting is alkaline; vinegar (acid) neutralises it."
+  },
+  {
+    "QuestionText": "Ant sting contains formic acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Acetic acid",
+      "D) Citric acid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Ant sting",
+    "Difficulty": "Foundation",
+    "Explanation": "Ants inject formic acid (HCOOH)."
+  },
+  {
+    "QuestionText": "Litmus turns red in acid and blue in base",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Blue in acid, red in base",
+      "D) Always red"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Litmus",
+    "Difficulty": "Foundation",
+    "Explanation": "Litmus: red in acid, blue in base."
+  },
+  {
+    "QuestionText": "Phenolphthalein is pink in base and colourless in acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Blue in acid",
+      "D) Yellow in base"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Phenolphthalein",
+    "Difficulty": "Advanced",
+    "Explanation": "Phenolphthalein: colourless in acid/neutral, pink in base."
+  },
+  {
+    "QuestionText": "Methyl orange is red in acid and yellow in base",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Blue in acid",
+      "D) Green in base"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Methyl orange",
+    "Difficulty": "Advanced",
+    "Explanation": "Methyl orange: red in acid, yellow in base."
+  },
+  {
+    "QuestionText": "Universal indicator is green at neutral pH 7",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Red at neutral",
+      "D) Blue at neutral"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Universal indicator",
+    "Difficulty": "Advanced",
+    "Explanation": "Universal indicator: green at pH 7, red/orange at low pH, blue/violet at high pH."
+  },
+  {
+    "QuestionText": "Acid pickling uses acids to remove rust from metals",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Uses bases",
+      "D) Uses salt only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Industrial acids",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pickling uses dilute HCl or H2SO4 to remove iron oxide (rust) from steel surfaces."
+  },
+  {
+    "QuestionText": "Alkalis are bases soluble in water",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) All bases are alkalis",
+      "D) Acids soluble in water"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Alkalis",
+    "Difficulty": "Foundation",
+    "Explanation": "Alkalis = water-soluble bases; all alkalis are bases but not vice versa."
+  },
+  {
+    "QuestionText": "Toothpaste is slightly basic to neutralise mouth acids",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Slightly acidic",
+      "D) Strongly basic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Toothpaste",
+    "Difficulty": "Advanced",
+    "Explanation": "Toothpaste is basic (pH ~8-9) to neutralise bacterial acids that erode tooth enamel."
+  },
+  {
+    "QuestionText": "NaOH + HCl \u2192 NaCl + H2O (salt + water)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) NaOH + HCl \u2192 Na + Cl2 + H2",
+      "D) Not a reaction"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Neutralisation",
+    "Difficulty": "Foundation",
+    "Explanation": "Classic acid-base neutralisation: NaOH + HCl \u2192 NaCl + H2O."
+  },
+  {
+    "QuestionText": "Lemon juice has pH approximately 2-3",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) pH 7",
+      "D) pH 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "pH values",
+    "Difficulty": "Advanced",
+    "Explanation": "Lemon juice is strongly acidic: pH ~2-3 due to citric acid."
+  },
+  {
+    "QuestionText": "Acid + metal carbonate \u2192 salt + water + CO2",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Salt + O2",
+      "D) Only CO2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Acid reactions",
+    "Difficulty": "Advanced",
+    "Explanation": "E.g. HCl + CaCO3 \u2192 CaCl2 + H2O + CO2."
+  },
+  {
+    "QuestionText": "Acid + metal \u2192 salt + hydrogen gas",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Salt + oxygen",
+      "D) Only salt"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Acid with metal",
+    "Difficulty": "Advanced",
+    "Explanation": "E.g. Zn + H2SO4 \u2192 ZnSO4 + H2 gas."
+  },
+  {
+    "QuestionText": "Concentrated strong acid has pH near 0",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) pH 7",
+      "D) pH 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "pH extremes",
+    "Difficulty": "Olympiad",
+    "Explanation": "Strong concentrated acids have pH at or below 0."
+  },
+  {
+    "QuestionText": "Rising blood CO2 triggers faster breathing to expel it",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Slower breathing",
+      "D) No effect"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Blood pH regulation",
+    "Difficulty": "Olympiad",
+    "Explanation": "More CO2 \u2192 more carbonic acid \u2192 lower blood pH \u2192 faster breathing to expel CO2."
+  },
+  {
+    "QuestionText": "Blue litmus staying blue means solution is not acidic",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Definitely neutral",
+      "D) Definitely basic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Litmus test",
+    "Difficulty": "Foundation",
+    "Explanation": "Blue litmus stays blue in neutral or basic solutions; only turns red in acid."
+  },
+  {
+    "QuestionText": "Calcium hydroxide is a base not an acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) It is an acid",
+      "D) It is neutral"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Ca(OH)2 is a base (produces OH- ions)."
+  },
+  {
+    "QuestionText": "Lactic acid is found in sour milk and curd",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Citric acid",
+      "D) Acetic acid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Natural acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Lactic acid is produced by Lactobacillus fermenting lactose in milk."
+  },
+  {
+    "QuestionText": "Neutralisation is exothermic (releases heat)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Endothermic",
+      "D) No heat change"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Thermodynamics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Neutralisation of strong acid with strong base releases ~57 kJ/mol: exothermic."
+  },
+  {
+    "QuestionText": "Tamarind contains tartaric acid",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Citric acid",
+      "D) Lactic acid"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Natural acids",
+    "Difficulty": "Foundation",
+    "Explanation": "Tamarind's sourness is due to tartaric acid."
+  },
+  {
+    "QuestionText": "The pH scale ranges from 0 to 14",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) 0 to 7",
+      "D) 7 to 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "pH scale",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard pH scale: 0 (most acidic) to 14 (most basic), with 7 as neutral."
+  },
+  {
+    "QuestionText": "Carbonic acid makes soda drinks slightly acidic",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Basic",
+      "D) Neutral"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Carbonated drinks",
+    "Difficulty": "Foundation",
+    "Explanation": "CO2 dissolved in soda water forms carbonic acid (H2CO3), making drinks acidic."
+  },
+  {
+    "QuestionText": "HCl + NaOH: the salt formed is NaCl",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) NaHCO3",
+      "D) Na2CO3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Acids, Bases and Salts",
+    "SubTopic": "Neutralisation product",
+    "Difficulty": "Foundation",
+    "Explanation": "HCl + NaOH \u2192 NaCl (common salt) + H2O."
+  }
+]

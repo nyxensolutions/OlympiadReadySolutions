@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "What is shelter?",
+        "Options":  [
+                        "A) A place that protects us from rain, heat, cold, and danger",
+                        "B) A type of clothing",
+                        "C) A type of food",
+                        "D) A vehicle"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Shelter is a structure like a house that protects us from rain, wind, heat, cold, and other dangers."
+    },
+    {
+        "QuestionText":  "What is a pucca house?",
+        "Options":  [
+                        "A) A permanent house made of bricks, cement, and stone",
+                        "B) A temporary house made of mud",
+                        "C) A house on water",
+                        "D) A house in a tree"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A pucca house is a permanent, durable structure built with bricks, cement, stone, or concrete."
+    },
+    {
+        "QuestionText":  "What is a kutcha house?",
+        "Options":  [
+                        "A) A temporary house made of mud, bamboo, thatch, or wood",
+                        "B) A pucca house",
+                        "C) A floating house",
+                        "D) A house on stilts"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A kutcha house is a temporary or semi-permanent structure made of natural materials like mud, bamboo, thatch, and wood."
+    },
+    {
+        "QuestionText":  "What type of house do people in flood-prone areas build?",
+        "Options":  [
+                        "A) Houses on stilts (raised above ground)",
+                        "B) Underground houses",
+                        "C) Tents",
+                        "D) Floating houses"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "In flood-prone areas, people build houses on stilts — raised platforms above the ground — to stay safe when floods occur."
+    },
+    {
+        "QuestionText":  "What type of houses do people in very cold, snowy areas like Ladakh build?",
+        "Options":  [
+                        "A) Stone or mud houses with thick walls and flat roofs",
+                        "B) Houses with large windows",
+                        "C) Thatched roof houses",
+                        "D) Glass houses"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "In cold regions like Ladakh, thick stone or mud walls and flat roofs help retain heat and prevent snow from piling up."
+    },
+    {
+        "QuestionText":  "What is an igloo?",
+        "Options":  [
+                        "A) A temporary dome-shaped house made of snow blocks, used by Inuit people",
+                        "B) A mud house",
+                        "C) A bamboo house",
+                        "D) A stone cave"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Igloos are temporary shelters made from blocks of compacted snow. They are used by Inuit people in Arctic regions."
+    },
+    {
+        "QuestionText":  "Why do houses in hilly areas (like Himachal Pradesh) have sloping roofs?",
+        "Options":  [
+                        "A) So that snow and rain slide off easily",
+                        "B) Because they look beautiful",
+                        "C) Because of wind",
+                        "D) Because of government rules"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Sloping roofs in hilly areas allow snow and rainwater to slide off quickly, preventing the roof from collapsing under the weight."
+    },
+    {
+        "QuestionText":  "What is a tent?",
+        "Options":  [
+                        "A) A portable temporary shelter made of cloth or canvas",
+                        "B) A permanent house",
+                        "C) A stone house",
+                        "D) A floating house"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A tent is a portable shelter made of fabric supported by poles and ropes, used by campers, nomads, and in emergencies."
+    },
+    {
+        "QuestionText":  "Which material is NOT commonly used to build a pucca house?",
+        "Options":  [
+                        "A) Dry grass (thatch)",
+                        "B) Bricks",
+                        "C) Cement",
+                        "D) Steel"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Dry grass or thatch is used for kutcha houses. Pucca houses use bricks, cement, stone, steel, and concrete."
+    },
+    {
+        "QuestionText":  "What is a houseboat?",
+        "Options":  [
+                        "A) A boat that has been modified to be used as a permanent dwelling on water",
+                        "B) A boat for fishing only",
+                        "C) A type of pucca house",
+                        "D) A floating market"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Houseboats are homes built on water. They are famous in Dal Lake (Kashmir) and Kerala backwaters."
+    },
+    {
+        "QuestionText":  "Why do we need clothing?",
+        "Options":  [
+                        "A) To protect the body from weather, injuries, and to maintain modesty",
+                        "B) Only to look fashionable",
+                        "C) Only for festivals",
+                        "D) Only for warmth in winter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Clothing protects our body from sun, rain, cold, and injuries. It also helps us maintain modesty and express our identity."
+    },
+    {
+        "QuestionText":  "Which fabric is best suited for hot summer weather?",
+        "Options":  [
+                        "A) Cotton",
+                        "B) Wool",
+                        "C) Synthetic fibre",
+                        "D) Silk"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Cotton is a natural fibre that absorbs sweat, is breathable, and keeps the body cool — perfect for hot weather."
+    },
+    {
+        "QuestionText":  "Which fabric keeps us warm in winter?",
+        "Options":  [
+                        "A) Wool",
+                        "B) Cotton",
+                        "C) Silk",
+                        "D) Nylon"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Wool is a natural fibre from sheep\u0027s fleece. It traps air and provides excellent insulation, keeping us warm in winter."
+    },
+    {
+        "QuestionText":  "Where does cotton come from?",
+        "Options":  [
+                        "A) Cotton plant (its boll/seed pod)",
+                        "B) Sheep",
+                        "C) Silkworm",
+                        "D) Synthetic chemicals"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Cotton fibre comes from the boll (seed pod) of the cotton plant. India is one of the world\u0027s largest cotton producers."
+    },
+    {
+        "QuestionText":  "Where does wool come from?",
+        "Options":  [
+                        "A) Sheep (and also from goats, camels, rabbits)",
+                        "B) Cotton plant",
+                        "C) Silkworms",
+                        "D) Synthetic chemicals"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Wool is obtained by shearing (cutting) the fleece (hair) of sheep. Cashmere comes from goats, and angora from rabbits."
+    },
+    {
+        "QuestionText":  "Where does silk come from?",
+        "Options":  [
+                        "A) Silkworm cocoons",
+                        "B) Cotton plant",
+                        "C) Wool from sheep",
+                        "D) Synthetic chemicals"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Silk is produced by silkworms. The worm wraps itself in a cocoon of silk thread, which is then unwound to make silk fabric."
+    },
+    {
+        "QuestionText":  "Which Indian state is famous for silk production?",
+        "Options":  [
+                        "A) Karnataka (Mysore silk)",
+                        "B) Punjab",
+                        "C) Rajasthan",
+                        "D) Gujarat"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Karnataka, especially Mysore and Ramanagara, is India\u0027s top silk-producing state. Mysore silk sarees are world-famous."
+    },
+    {
+        "QuestionText":  "Which Indian state is famous for cotton (Denim / Calico) production?",
+        "Options":  [
+                        "A) Gujarat",
+                        "B) Kerala",
+                        "C) West Bengal",
+                        "D) Himachal Pradesh"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Gujarat is India\u0027s largest cotton-producing state. The Ahmedabad region was historically India\u0027s textile capital."
+    },
+    {
+        "QuestionText":  "The traditional dress of Rajasthan for women is?",
+        "Options":  [
+                        "A) Ghagra-Choli (Lehenga-Choli)",
+                        "B) Saree",
+                        "C) Salwar Kameez",
+                        "D) Kurta Pyjama"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Ghagra-Choli (a flared skirt and blouse) is the traditional dress of women in Rajasthan, often with bright colours and mirror work."
+    },
+    {
+        "QuestionText":  "The traditional dress of men in Punjab is?",
+        "Options":  [
+                        "A) Kurta-Pyjama with turban",
+                        "B) Dhoti-Kurta",
+                        "C) Lungi",
+                        "D) Sherwani only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Men in Punjab traditionally wear a Kurta-Pyjama with a colourful turban (dastar/pagri). Bhangra dancers often wear this attire."
+    },
+    {
+        "QuestionText":  "A \u0027Saree\u0027 is worn in which way?",
+        "Options":  [
+                        "A) It is draped around the body — about 5–9 metres of cloth",
+                        "B) It is stitched like a dress",
+                        "C) It is tied like a belt",
+                        "D) It is worn like a jacket"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A saree is a long piece of unstitched cloth (usually 5–9 metres) draped around the body in various styles. It is India\u0027s most iconic traditional dress."
+    },
+    {
+        "QuestionText":  "Why do people in Kerala and Tamil Nadu wear lungis?",
+        "Options":  [
+                        "A) Light, cool, and comfortable in the hot, humid climate",
+                        "B) Because it is a school uniform",
+                        "C) Because they are expensive",
+                        "D) Because of government rules"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Lungi is a light, loosely wrapped lower garment popular in South India. Its lightweight cotton material is ideal for the hot, humid climate."
+    },
+    {
+        "QuestionText":  "The woollen shawl \u0027Pashmina\u0027 comes from which region?",
+        "Options":  [
+                        "A) Kashmir (from Pashmina goat wool)",
+                        "B) Rajasthan",
+                        "C) Punjab",
+                        "D) Gujarat"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Pashmina shawls are made from the fine wool of the Changthangi goat found in the high-altitude Ladakh and Kashmir regions. They are world-renowned for softness."
+    },
+    {
+        "QuestionText":  "What is the difference between cotton and synthetic fabric?",
+        "Options":  [
+                        "A) Cotton is natural (from plants); synthetic (nylon, polyester) is man-made from chemicals",
+                        "B) Cotton is expensive; synthetic is cheap",
+                        "C) Cotton is only for winter; synthetic for summer",
+                        "D) There is no difference"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Cotton is a natural fibre from the cotton plant. Synthetic fibres like nylon and polyester are manufactured from petroleum-based chemicals."
+    },
+    {
+        "QuestionText":  "What is \u0027Khadi\u0027?",
+        "Options":  [
+                        "A) Hand-spun and hand-woven cloth associated with India\u0027s freedom movement",
+                        "B) Machine-made cotton",
+                        "C) A type of silk",
+                        "D) A synthetic fabric"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Khadi is hand-spun and hand-woven cloth promoted by Mahatma Gandhi during India\u0027s independence movement as a symbol of self-reliance."
+    },
+    {
+        "QuestionText":  "Which Indian festival is associated with buying new clothes?",
+        "Options":  [
+                        "A) Diwali",
+                        "B) Holi",
+                        "C) Eid",
+                        "D) All major festivals"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "It is a tradition in India to buy and wear new clothes during major festivals like Diwali, Eid, Christmas, and Baisakhi."
+    },
+    {
+        "QuestionText":  "What is a \u0027Chikankari\u0027 saree associated with?",
+        "Options":  [
+                        "A) Lucknow (UP) — fine embroidery on cotton or muslin",
+                        "B) Varanasi — Banarasi silk",
+                        "C) Mysore — silk",
+                        "D) Kanchipuram — silk"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Chikankari is a delicate hand-embroidery style from Lucknow (Uttar Pradesh). It is typically done on white cotton or muslin fabric."
+    },
+    {
+        "QuestionText":  "What are \u0027Jamdani\u0027 sarees?",
+        "Options":  [
+                        "A) Finely hand-woven muslin sarees from Bangladesh and West Bengal",
+                        "B) Silk sarees from Karnataka",
+                        "C) Cotton sarees from Gujarat",
+                        "D) Embroidered sarees from Rajasthan"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Jamdani is a fine handwoven muslin fabric from the Bengal region (both West Bengal, India, and Bangladesh). It is a UNESCO Intangible Cultural Heritage."
+    },
+    {
+        "QuestionText":  "Which type of shelter is temporary and used during disasters?",
+        "Options":  [
+                        "A) Relief camp / tent shelter",
+                        "B) Pucca house",
+                        "C) High-rise apartment",
+                        "D) Houseboat"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Advanced",
+        "Explanation":  "During floods, earthquakes, or other disasters, governments and NGOs set up temporary relief camps with tents or temporary shelters for displaced people."
+    },
+    {
+        "QuestionText":  "What is \u0027affordable housing\u0027?",
+        "Options":  [
+                        "A) Housing designed to be within the financial reach of low-income families",
+                        "B) Luxury apartments",
+                        "C) Government offices",
+                        "D) Rented shops"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Affordable housing refers to housing units priced or rented at a level that low-income and middle-income families can afford without financial strain. India\u0027s PMAY scheme promotes this."
+    },
+    {
+        "QuestionText":  "What is the Pradhan Mantri Awas Yojana (PMAY)?",
+        "Options":  [
+                        "A) A government scheme to provide affordable housing to the poor and homeless",
+                        "B) A food scheme",
+                        "C) An education scheme",
+                        "D) A health insurance scheme"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "PMAY (Pradhan Mantri Awas Yojana) is India\u0027s flagship housing scheme that aims to provide \u0027Housing for All\u0027 — affordable pucca houses to eligible beneficiaries."
+    },
+    {
+        "QuestionText":  "Which region of India is famous for the \u0027Banjara\u0027 embroidered clothing style?",
+        "Options":  [
+                        "A) Telangana and Maharashtra",
+                        "B) Rajasthan",
+                        "C) Punjab",
+                        "D) Gujarat"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Banjara embroidery is the vibrant, mirror-work textile art of the Banjara tribal communities of Telangana and Maharashtra."
+    },
+    {
+        "QuestionText":  "What is \u0027Ikat\u0027 fabric?",
+        "Options":  [
+                        "A) A fabric where threads are resist-dyed before weaving, creating blurred geometric patterns",
+                        "B) A plain cotton fabric",
+                        "C) A synthetic fabric",
+                        "D) A Rajasthani embroidery style"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Ikat is a traditional weaving technique where threads are resist-dyed in patterns before weaving. Famous in Odisha (Sambalpuri), Telangana, and Gujarat (Patola)."
+    },
+    {
+        "QuestionText":  "Why are firefighters\u0027 uniforms made of fire-resistant material?",
+        "Options":  [
+                        "A) To protect them from heat and flames during firefighting",
+                        "B) Because it looks impressive",
+                        "C) Because it is cheap",
+                        "D) Because it is light"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Firefighters\u0027 uniforms (Nomex or similar material) are designed to resist fire, reflect heat, and protect the wearer during fire emergencies."
+    },
+    {
+        "QuestionText":  "Why do doctors and nurses wear white or light-coloured uniforms?",
+        "Options":  [
+                        "A) White shows dirt quickly — promotes hygiene and cleanliness",
+                        "B) Because white is a cool colour",
+                        "C) Because it is cheaper",
+                        "D) Because it is the law"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Light-coloured uniforms show stains and dirt immediately, encouraging healthcare workers to maintain hygiene and cleanliness in medical settings."
+    },
+    {
+        "QuestionText":  "What are raincoats made from?",
+        "Options":  [
+                        "A) Waterproof material like PVC, rubber, or nylon",
+                        "B) Cotton",
+                        "C) Wool",
+                        "D) Silk"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Raincoats are made from waterproof materials that repel water, keeping the wearer dry during rain."
+    },
+    {
+        "QuestionText":  "What is \u0027Batik\u0027 printing?",
+        "Options":  [
+                        "A) A wax-resist dyeing technique used on fabric",
+                        "B) A type of weaving",
+                        "C) A form of embroidery",
+                        "D) A fabric from Kashmir"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Batik is a traditional technique of decorating fabric using wax-resist dyeing. Hot wax is applied to areas that should not be dyed, creating patterns."
+    },
+    {
+        "QuestionText":  "Why do astronauts wear special spacesuits?",
+        "Options":  [
+                        "A) To survive in space — protection from vacuum, temperature extremes, and radiation",
+                        "B) Because they look cool",
+                        "C) Because it is a rule",
+                        "D) To identify them"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Spacesuits protect astronauts from the vacuum of space, extreme temperatures (–120°C to +120°C), radiation, and micrometeoroids."
+    },
+    {
+        "QuestionText":  "Which fibre is obtained from the flax plant?",
+        "Options":  [
+                        "A) Linen (flax)",
+                        "B) Cotton",
+                        "C) Jute",
+                        "D) Silk"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Linen is a natural fibre made from the stalks of the flax plant. It is lightweight, breathable, and stronger than cotton."
+    },
+    {
+        "QuestionText":  "What is \u0027Zari\u0027 work in Indian textiles?",
+        "Options":  [
+                        "A) Gold or silver metallic thread woven or embroidered into fabric",
+                        "B) A type of dyeing",
+                        "C) A weaving pattern",
+                        "D) A fabric from Bengal"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Zari is fine metallic thread (gold or silver) woven into fabric or used for embroidery. It is prominent in Banarasi silk sarees and wedding attire."
+    },
+    {
+        "QuestionText":  "The \u0027Phulkari\u0027 embroidery is associated with which Indian state?",
+        "Options":  [
+                        "A) Punjab",
+                        "B) Rajasthan",
+                        "C) West Bengal",
+                        "D) Odisha"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Phulkari (meaning \u0027flower work\u0027) is a traditional embroidery style from Punjab, featuring colourful geometric and floral patterns on cotton or khadi fabric."
+    },
+    {
+        "QuestionText":  "Why are sloping roofs more common in coastal and rainy areas?",
+        "Options":  [
+                        "A) To allow rainwater to drain quickly and prevent leakage",
+                        "B) Because they look beautiful",
+                        "C) Because they are cheap",
+                        "D) Because of tradition only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Advanced",
+        "Explanation":  "In areas with heavy rainfall (coastal India, Northeast India), sloping roofs allow rainwater to run off quickly, preventing water logging and roof damage."
+    },
+    {
+        "QuestionText":  "What is \u0027jute\u0027 used for?",
+        "Options":  [
+                        "A) Making bags, ropes, mats, and coarse fabric (gunny sacks)",
+                        "B) Making silk sarees",
+                        "C) Making cotton cloth",
+                        "D) Making woollen sweaters"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Jute is a natural plant fibre used to make gunny bags, ropes, rugs, mats, and coarse fabric. West Bengal is India\u0027s leading jute-producing state."
+    },
+    {
+        "QuestionText":  "What is a \u0027dupatta\u0027?",
+        "Options":  [
+                        "A) A long scarf worn over the shoulders with traditional Indian attire",
+                        "B) A type of saree",
+                        "C) A blouse",
+                        "D) A lower garment"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A dupatta is a long scarf (stole) typically worn draped over the shoulders or head with salwar kameez, lehenga-choli, or other traditional Indian outfits."
+    },
+    {
+        "QuestionText":  "What is the \u0027Bandhani\u0027 style of clothing?",
+        "Options":  [
+                        "A) Tie-and-dye textile from Rajasthan and Gujarat",
+                        "B) Embroidery from Punjab",
+                        "C) Ikat weaving from Odisha",
+                        "D) Block printing from Jaipur"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Bandhani (Bandhej) is a traditional tie-and-dye technique from Rajasthan and Gujarat, where fabric is tied at intervals before dyeing to create dotted patterns."
+    },
+    {
+        "QuestionText":  "An \u0027apartment\u0027 is a type of __ house.",
+        "Options":  [
+                        "A) Multi-storeyed pucca house unit in a building",
+                        "B) Kutcha house",
+                        "C) Floating house",
+                        "D) Temporary shelter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "An apartment (flat) is a self-contained unit in a multi-storeyed residential building — a type of pucca housing common in cities."
+    },
+    {
+        "QuestionText":  "What material is a \u0027kachha\u0027 roof typically made from?",
+        "Options":  [
+                        "A) Thatch, bamboo, palm leaves, or grass",
+                        "B) Concrete",
+                        "C) Steel",
+                        "D) Asbestos sheets"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Kutcha roofs use locally available natural materials like thatch (dried grass), bamboo, palm leaves, or mud — cheaper but less durable than pucca roofs."
+    },
+    {
+        "QuestionText":  "What is a \u0027Yurt\u0027?",
+        "Options":  [
+                        "A) A portable, round tent-like dwelling used by nomads in Central Asia",
+                        "B) A Japanese pagoda",
+                        "C) A Tibetan monastery",
+                        "D) A type of igloo"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A yurt is a portable, circular dwelling made of a wooden frame covered with felt or skins, traditionally used by nomadic peoples of Central Asia (Mongolia, Kazakhstan)."
+    },
+    {
+        "QuestionText":  "What is the role of \u0027insulation\u0027 in clothing and shelter?",
+        "Options":  [
+                        "A) To trap air and reduce heat transfer — keeping us warm in cold and cool in heat",
+                        "B) Only for decoration",
+                        "C) Only for waterproofing",
+                        "D) Only for strength"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Shelter",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Insulation in clothing (like wool) and buildings (like double-brick walls, thermocol) traps air to slow heat transfer, keeping interiors warm in winter and cool in summer."
+    },
+    {
+        "QuestionText":  "The Kartik Purnima fair at Pushkar requires pilgrims to wear which traditional Rajasthani attire?",
+        "Options":  [
+                        "A) Dhoti-Kurta or Ghagra-Choli in white or bright colours",
+                        "B) Business suits",
+                        "C) Modern western clothing",
+                        "D) Army uniforms"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Clothing",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "At the sacred Pushkar fair, devotees traditionally wear white or saffron dhoti-kurta (men) or ghagra-choli (women) during the holy dip in Pushkar Lake."
+    }
+]

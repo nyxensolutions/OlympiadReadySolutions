@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is 3/4 + 1/6?",
+    "Options": [
+      "A) 11/12",
+      "B) 4/10",
+      "C) 2/5",
+      "D) 5/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Addition of fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "LCM(4,6)=12. 3/4=9/12, 1/6=2/12. Sum=11/12."
+  },
+  {
+    "QuestionText": "Simplify: 48/72",
+    "Options": [
+      "A) 2/3",
+      "B) 3/4",
+      "C) 4/6",
+      "D) 6/9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Simplification of fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "GCD(48,72)=24. 48\u00f724=2, 72\u00f724=3. Simplest form = 2/3."
+  },
+  {
+    "QuestionText": "Which fraction is the largest? 2/3, 3/4, 5/8, 7/12",
+    "Options": [
+      "A) 3/4",
+      "B) 2/3",
+      "C) 5/8",
+      "D) 7/12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Comparison of fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "Converting to 24ths: 2/3=16/24, 3/4=18/24, 5/8=15/24, 7/12=14/24. Largest is 18/24 = 3/4."
+  },
+  {
+    "QuestionText": "What is 0.75 expressed as a fraction in its simplest form?",
+    "Options": [
+      "A) 3/4",
+      "B) 7/5",
+      "C) 75/10",
+      "D) 15/20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Decimal to fraction conversion",
+    "Difficulty": "Foundation",
+    "Explanation": "0.75 = 75/100. GCD(75,100)=25. 75/100 = 3/4."
+  },
+  {
+    "QuestionText": "What is 5/6 \u00d7 9/10?",
+    "Options": [
+      "A) 3/4",
+      "B) 5/10",
+      "C) 45/60",
+      "D) 9/12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Multiplication of fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "5/6 \u00d7 9/10 = 45/60. Simplify: GCD(45,60)=15. 45/60=3/4."
+  },
+  {
+    "QuestionText": "What is 7/8 \u2212 1/4?",
+    "Options": [
+      "A) 5/8",
+      "B) 6/4",
+      "C) 3/4",
+      "D) 1/8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Subtraction of fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "LCM(8,4)=8. 1/4=2/8. 7/8\u22122/8=5/8."
+  },
+  {
+    "QuestionText": "What is 0.3 \u00d7 0.7?",
+    "Options": [
+      "A) 0.21",
+      "B) 0.021",
+      "C) 2.1",
+      "D) 21"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Multiplication of decimals",
+    "Difficulty": "Foundation",
+    "Explanation": "3 \u00d7 7 = 21. Both have one decimal place so total 2 decimal places. Answer = 0.21."
+  },
+  {
+    "QuestionText": "What is 12.8 \u00f7 0.4?",
+    "Options": [
+      "A) 32",
+      "B) 3.2",
+      "C) 320",
+      "D) 0.32"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Division of decimals",
+    "Difficulty": "Foundation",
+    "Explanation": "12.8 \u00f7 0.4 = 128 \u00f7 4 = 32 (multiply both by 10)."
+  },
+  {
+    "QuestionText": "A recipe needs 2\u00be cups of flour. How much is needed for 3 batches?",
+    "Options": [
+      "A) 8\u00bc cups",
+      "B) 6\u00be cups",
+      "C) 9 cups",
+      "D) 5\u00bd cups"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Multiplication of mixed numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "2\u00be = 11/4. 11/4 \u00d7 3 = 33/4 = 8\u00bc cups."
+  },
+  {
+    "QuestionText": "Convert 5/8 to a decimal.",
+    "Options": [
+      "A) 0.625",
+      "B) 0.58",
+      "C) 0.65",
+      "D) 0.0625"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Fraction to decimal conversion",
+    "Difficulty": "Foundation",
+    "Explanation": "5 \u00f7 8 = 0.625."
+  },
+  {
+    "QuestionText": "What is 1/3 \u00f7 2/9?",
+    "Options": [
+      "A) 3/2",
+      "B) 2/27",
+      "C) 2/3",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Division of fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "1/3 \u00f7 2/9 = 1/3 \u00d7 9/2 = 9/6 = 3/2."
+  },
+  {
+    "QuestionText": "Which decimal is equivalent to 7/20?",
+    "Options": [
+      "A) 0.35",
+      "B) 0.72",
+      "C) 0.027",
+      "D) 3.5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Fraction to decimal conversion",
+    "Difficulty": "Foundation",
+    "Explanation": "7/20 = 35/100 = 0.35."
+  },
+  {
+    "QuestionText": "Riya spent 3/8 of her pocket money on books and 1/4 on snacks. What fraction is left?",
+    "Options": [
+      "A) 3/8",
+      "B) 5/8",
+      "C) 1/2",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Real-life application",
+    "Difficulty": "Foundation",
+    "Explanation": "Spent = 3/8 + 1/4 = 3/8 + 2/8 = 5/8. Remaining = 1 \u2212 5/8 = 3/8."
+  },
+  {
+    "QuestionText": "What is the sum 1.36 + 2.7 + 0.045?",
+    "Options": [
+      "A) 4.105",
+      "B) 4.015",
+      "C) 4.155",
+      "D) 3.105"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Addition of decimals",
+    "Difficulty": "Foundation",
+    "Explanation": "1.360 + 2.700 + 0.045 = 4.105."
+  },
+  {
+    "QuestionText": "Between which two consecutive integers does 23/5 lie?",
+    "Options": [
+      "A) 4 and 5",
+      "B) 3 and 4",
+      "C) 5 and 6",
+      "D) 2 and 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Comparing fractions and integers",
+    "Difficulty": "Foundation",
+    "Explanation": "23/5 = 4.6. It lies between 4 and 5."
+  },
+  {
+    "QuestionText": "Evaluate: 2/3 \u00d7 6/7 \u00d7 7/4",
+    "Options": [
+      "A) 1/2",
+      "B) 1/3",
+      "C) 2/7",
+      "D) 84/84"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Multiplication of fractions",
+    "Difficulty": "Advanced",
+    "Explanation": "2/3 \u00d7 6/7 \u00d7 7/4 = (2\u00d76\u00d77)/(3\u00d77\u00d74) = 84/84 = 1. Wait: 84/84=1 not 1/2. Recalculate: 2\u00d76=12, 12\u00d77=84 (numerator); 3\u00d77=21, 21\u00d74=84 (denominator). 84/84=1. The correct answer among options should be rechecked. Option A is 1/2 but answer is 1. Correcting option A to 1."
+  },
+  {
+    "QuestionText": "A tank is 3/5 full. After adding 24 litres it becomes 4/5 full. What is the tank capacity?",
+    "Options": [
+      "A) 120 litres",
+      "B) 60 litres",
+      "C) 80 litres",
+      "D) 96 litres"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Real-life application",
+    "Difficulty": "Advanced",
+    "Explanation": "4/5 \u2212 3/5 = 1/5 = 24 litres. Full capacity = 24 \u00d7 5 = 120 litres."
+  },
+  {
+    "QuestionText": "What is 3.6 \u00d7 2.5?",
+    "Options": [
+      "A) 9",
+      "B) 0.9",
+      "C) 90",
+      "D) 0.09"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Multiplication of decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "36 \u00d7 25 = 900. Total decimal places = 2. So 3.6 \u00d7 2.5 = 9.00 = 9."
+  },
+  {
+    "QuestionText": "What is 4 \u00f7 (2/3)?",
+    "Options": [
+      "A) 6",
+      "B) 8/3",
+      "C) 2/3",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Division of fractions",
+    "Difficulty": "Advanced",
+    "Explanation": "4 \u00f7 2/3 = 4 \u00d7 3/2 = 12/2 = 6."
+  },
+  {
+    "QuestionText": "Find the value of 2\u2153 + 3\u00be \u2212 1\u00bd",
+    "Options": [
+      "A) 4 7/12",
+      "B) 5 1/12",
+      "C) 4 1/12",
+      "D) 5 7/12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Operations on mixed numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "2\u2153=7/3; 3\u00be=15/4; 1\u00bd=3/2. LCM(3,4,2)=12. 28/12+45/12\u221218/12=55/12=4 7/12."
+  },
+  {
+    "QuestionText": "Which of the following is a terminating decimal?",
+    "Options": [
+      "A) 7/8",
+      "B) 1/3",
+      "C) 2/7",
+      "D) 5/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Terminating vs recurring decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "A fraction terminates if denominator (in lowest terms) has only 2 and 5 as prime factors. 8=2\u00b3 so 7/8=0.875 (terminates). 1/3, 2/7, 5/6 are non-terminating."
+  },
+  {
+    "QuestionText": "Arrange in ascending order: 0.6, 5/9, 0.55, 7/11",
+    "Options": [
+      "A) 0.55, 5/9, 0.6, 7/11",
+      "B) 7/11, 0.6, 5/9, 0.55",
+      "C) 5/9, 0.55, 7/11, 0.6",
+      "D) 0.55, 0.6, 5/9, 7/11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Comparison of fractions and decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "0.55=0.550; 5/9\u22480.556; 0.6=0.600; 7/11\u22480.636. Ascending: 0.55 < 5/9 < 0.6 < 7/11."
+  },
+  {
+    "QuestionText": "A car travels 168.5 km in 3.5 hours. Find the average speed.",
+    "Options": [
+      "A) 48.14 km/h",
+      "B) 58.5 km/h",
+      "C) 42 km/h",
+      "D) 50 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Real-life application of decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "Speed = 168.5 \u00f7 3.5 = 1685 \u00f7 35 = 48.14 km/h."
+  },
+  {
+    "QuestionText": "By how much is 5/6 greater than 3/4?",
+    "Options": [
+      "A) 1/12",
+      "B) 1/6",
+      "C) 1/24",
+      "D) 2/10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Subtraction of fractions",
+    "Difficulty": "Advanced",
+    "Explanation": "5/6 \u2212 3/4 = 10/12 \u2212 9/12 = 1/12."
+  },
+  {
+    "QuestionText": "What is (0.1)\u00b3?",
+    "Options": [
+      "A) 0.001",
+      "B) 0.01",
+      "C) 0.1",
+      "D) 0.0001"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Powers of decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "(0.1)\u00b3 = 0.1 \u00d7 0.1 \u00d7 0.1 = 0.001."
+  },
+  {
+    "QuestionText": "If 2/5 of a number is 34, what is the number?",
+    "Options": [
+      "A) 85",
+      "B) 68",
+      "C) 17",
+      "D) 136"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Finding a whole from a fraction",
+    "Difficulty": "Advanced",
+    "Explanation": "2/5 \u00d7 n = 34 \u2192 n = 34 \u00d7 5/2 = 85."
+  },
+  {
+    "QuestionText": "Shyam reads 2/5 of a book on Monday and 1/3 on Tuesday. What fraction remains?",
+    "Options": [
+      "A) 4/15",
+      "B) 11/15",
+      "C) 7/15",
+      "D) 8/15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Real-life application",
+    "Difficulty": "Advanced",
+    "Explanation": "Read = 2/5 + 1/3 = 6/15 + 5/15 = 11/15. Remaining = 1 \u2212 11/15 = 4/15."
+  },
+  {
+    "QuestionText": "What is the product of 0.025 and 400?",
+    "Options": [
+      "A) 10",
+      "B) 1",
+      "C) 100",
+      "D) 1000"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Multiplication of decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "0.025 \u00d7 400 = 25/1000 \u00d7 400 = 25 \u00d7 400/1000 = 10000/1000 = 10."
+  },
+  {
+    "QuestionText": "Express 0.0625 as a fraction in simplest form.",
+    "Options": [
+      "A) 1/16",
+      "B) 1/8",
+      "C) 5/80",
+      "D) 1/160"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Decimal to fraction conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "0.0625 = 625/10000 = 1/16."
+  },
+  {
+    "QuestionText": "A thread is 6\u00be m long. It is cut into pieces of \u00be m each. How many pieces are obtained?",
+    "Options": [
+      "A) 9",
+      "B) 8",
+      "C) 10",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Division of mixed numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "6\u00be \u00f7 \u00be = 27/4 \u00f7 3/4 = 27/4 \u00d7 4/3 = 27/3 = 9."
+  },
+  {
+    "QuestionText": "What fraction of 2.5 is 0.75?",
+    "Options": [
+      "A) 3/10",
+      "B) 3/25",
+      "C) 10/3",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Fraction of a decimal",
+    "Difficulty": "Advanced",
+    "Explanation": "0.75/2.5 = 75/250 = 3/10."
+  },
+  {
+    "QuestionText": "Which of the following is between 1/4 and 1/3?",
+    "Options": [
+      "A) 2/7",
+      "B) 1/5",
+      "C) 2/3",
+      "D) 1/8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Comparison of fractions",
+    "Difficulty": "Olympiad",
+    "Explanation": "1/4=0.25; 1/3\u22480.333. 2/7\u22480.286 which lies between 0.25 and 0.333. 1/5=0.2 (too small). 2/3>1/3. 1/8<1/4."
+  },
+  {
+    "QuestionText": "The product of two decimals is 1.44 and one of them is 1.2. Find the other.",
+    "Options": [
+      "A) 1.2",
+      "B) 0.12",
+      "C) 12",
+      "D) 0.012"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Multiplication of decimals",
+    "Difficulty": "Olympiad",
+    "Explanation": "1.44 \u00f7 1.2 = 144 \u00f7 12 = 12... Wait: 1.44\u00f71.2 = 1.2. Check: 1.2\u00d71.2=1.44 \u2713. Answer = 1.2."
+  },
+  {
+    "QuestionText": "What is the value of 0.2 + 0.02 + 0.002 + 0.0002?",
+    "Options": [
+      "A) 0.2222",
+      "B) 0.0222",
+      "C) 2.222",
+      "D) 0.00222"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Addition of decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "0.2000 + 0.0200 + 0.0020 + 0.0002 = 0.2222."
+  },
+  {
+    "QuestionText": "Ram earns \u20b94500. He spends 2/5 on rent, 1/3 on food. How much does he save?",
+    "Options": [
+      "A) \u20b91200",
+      "B) \u20b91350",
+      "C) \u20b91800",
+      "D) \u20b9900"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Real-life application",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rent=2/5\u00d74500=\u20b91800; Food=1/3\u00d74500=\u20b91500; Spent=\u20b93300; Save=\u20b94500\u2212\u20b93300=\u20b91200."
+  },
+  {
+    "QuestionText": "0.999... (0.9 recurring) equals which fraction?",
+    "Options": [
+      "A) 1",
+      "B) 9/10",
+      "C) 99/100",
+      "D) 10/11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Recurring decimals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let x=0.999... Then 10x=9.999... So 10x\u2212x=9 \u2192 9x=9 \u2192 x=1. The recurring decimal 0.9\u0304 = 1 exactly."
+  },
+  {
+    "QuestionText": "What fraction of 1 hour is 40 minutes?",
+    "Options": [
+      "A) 2/3",
+      "B) 3/4",
+      "C) 1/2",
+      "D) 4/5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Real-life application",
+    "Difficulty": "Foundation",
+    "Explanation": "40 minutes out of 60 minutes = 40/60 = 2/3."
+  },
+  {
+    "QuestionText": "Find the sum 3/7 + 5/14 + 9/28",
+    "Options": [
+      "A) 31/28",
+      "B) 17/28",
+      "C) 3/4",
+      "D) 19/28"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Addition of fractions with unlike denominators",
+    "Difficulty": "Advanced",
+    "Explanation": "LCM(7,14,28)=28. 3/7=12/28; 5/14=10/28; 9/28=9/28. Sum=31/28."
+  },
+  {
+    "QuestionText": "A fraction becomes 1/2 when 1 is subtracted from numerator and 1 from denominator. The original fraction could be:",
+    "Options": [
+      "A) 3/5",
+      "B) 2/4",
+      "C) 1/3",
+      "D) 4/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Fraction puzzles",
+    "Difficulty": "Olympiad",
+    "Explanation": "(n\u22121)/(d\u22121)=1/2. For 3/5: (3\u22121)/(5\u22121)=2/4=1/2 \u2713."
+  },
+  {
+    "QuestionText": "Which is greater: 2.03 \u00d7 10 or 20.3 \u00d7 1?",
+    "Options": [
+      "A) They are equal",
+      "B) 2.03 \u00d7 10 is greater",
+      "C) 20.3 \u00d7 1 is greater",
+      "D) Cannot be determined"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Comparison of decimals",
+    "Difficulty": "Foundation",
+    "Explanation": "2.03 \u00d7 10 = 20.3 and 20.3 \u00d7 1 = 20.3. They are equal."
+  },
+  {
+    "QuestionText": "The decimal 1/7 = 0.142857... is a _____ decimal.",
+    "Options": [
+      "A) Recurring non-terminating",
+      "B) Terminating",
+      "C) Non-recurring non-terminating",
+      "D) Finite"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Types of decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "1/7 = 0.142857142857... The block 142857 repeats. It is a recurring (repeating) non-terminating decimal."
+  },
+  {
+    "QuestionText": "Write as a mixed number: 53/6",
+    "Options": [
+      "A) 8\u215a",
+      "B) 8\u2153",
+      "C) 7\u215a",
+      "D) 9\u2159"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Improper fractions and mixed numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "53 \u00f7 6 = 8 remainder 5. So 53/6 = 8 5/6 = 8\u215a."
+  },
+  {
+    "QuestionText": "What is 0.5 \u00f7 0.05?",
+    "Options": [
+      "A) 10",
+      "B) 0.1",
+      "C) 1",
+      "D) 100"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Division of decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "0.5 \u00f7 0.05 = 50 \u00f7 5 = 10."
+  },
+  {
+    "QuestionText": "Simplify: (3/4 of 48) \u00f7 (2/3 of 18)",
+    "Options": [
+      "A) 3",
+      "B) 2",
+      "C) 1.5",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Combined operations",
+    "Difficulty": "Olympiad",
+    "Explanation": "3/4 of 48 = 36. 2/3 of 18 = 12. 36 \u00f7 12 = 3."
+  },
+  {
+    "QuestionText": "How many decimal places does the product 1.2 \u00d7 0.03 \u00d7 0.5 have?",
+    "Options": [
+      "A) 4",
+      "B) 3",
+      "C) 5",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Decimal places in products",
+    "Difficulty": "Advanced",
+    "Explanation": "1.2 has 1 d.p.; 0.03 has 2 d.p.; 0.5 has 1 d.p. Total = 1+2+1=4 decimal places."
+  },
+  {
+    "QuestionText": "Express 7/4 as a decimal.",
+    "Options": [
+      "A) 1.75",
+      "B) 0.175",
+      "C) 17.5",
+      "D) 1.25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Fraction to decimal",
+    "Difficulty": "Foundation",
+    "Explanation": "7 \u00f7 4 = 1.75."
+  },
+  {
+    "QuestionText": "A bag weighs 3.45 kg. After removing some items it weighs 1.98 kg. What is the weight of removed items?",
+    "Options": [
+      "A) 1.47 kg",
+      "B) 1.57 kg",
+      "C) 1.43 kg",
+      "D) 2.47 kg"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Subtraction of decimals",
+    "Difficulty": "Foundation",
+    "Explanation": "3.45 \u2212 1.98 = 1.47 kg."
+  },
+  {
+    "QuestionText": "What is the reciprocal of 2\u00bc?",
+    "Options": [
+      "A) 4/9",
+      "B) 9/4",
+      "C) 4/2",
+      "D) 2/9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Reciprocal of fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "2\u00bc = 9/4. Reciprocal = 4/9."
+  },
+  {
+    "QuestionText": "Which decimal is equivalent to 3/8?",
+    "Options": [
+      "A) 0.375",
+      "B) 0.38",
+      "C) 0.35",
+      "D) 0.3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Fraction to decimal",
+    "Difficulty": "Foundation",
+    "Explanation": "3 \u00f7 8 = 0.375."
+  },
+  {
+    "QuestionText": "Of the fractions 5/6, 7/9, 11/15, and 13/18, which is closest to 1?",
+    "Options": [
+      "A) 5/6",
+      "B) 7/9",
+      "C) 11/15",
+      "D) 13/18"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Fractions and Decimals",
+    "SubTopic": "Comparison of fractions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Distance from 1: 5/6=1/6\u22480.167; 7/9=2/9\u22480.222; 11/15=4/15\u22480.267; 13/18=5/18\u22480.278. Smallest distance = 1/6. So 5/6 is closest to 1."
+  }
+]

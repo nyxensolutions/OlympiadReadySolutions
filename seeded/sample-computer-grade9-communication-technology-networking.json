@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A 'network' in computing connects:",
+    "Options": [
+      "A) Only two computers",
+      "B) Two or more computers to share resources and data",
+      "C) Only printers",
+      "D) Hardware components within one computer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Network: two or more computers connected to share resources (files, printers, internet) and communicate. Types: LAN, WAN, MAN, PAN, Internet."
+  },
+  {
+    "QuestionText": "LAN stands for:",
+    "Options": [
+      "A) Large Area Network",
+      "B) Local Area Network",
+      "C) Linked Access Network",
+      "D) Limited Access Node"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "LAN (Local Area Network): network in a limited area (home, school, office building). High speed, privately owned. WAN (Wide Area Network): large geographic area (internet is largest WAN)."
+  },
+  {
+    "QuestionText": "WAN stands for:",
+    "Options": [
+      "A) Wide Area Network",
+      "B) Wireless Access Node",
+      "C) Web Application Network",
+      "D) Wired Area Node"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "WAN: Wide Area Network. Spans large geographic areas (cities, countries). Connects multiple LANs. The Internet is the world's largest WAN. Typically slower than LAN, uses public/leased lines."
+  },
+  {
+    "QuestionText": "What is an IP address?",
+    "Options": [
+      "A) A website name",
+      "B) A unique numerical address identifying a device on a network",
+      "C) A password",
+      "D) An email address"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "IP (Internet Protocol) address: unique numerical label assigned to each device on a network. IPv4: 32-bit (e.g., 192.168.1.1). IPv6: 128-bit. Used for routing data packets."
+  },
+  {
+    "QuestionText": "A 'router' in networking:",
+    "Options": [
+      "A) Stores data permanently",
+      "B) Forwards data packets between networks",
+      "C) Connects peripherals to a computer",
+      "D) Boosts Wi-Fi signal only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Router: connects multiple networks, routes data packets based on IP address. Home router connects LAN to internet (WAN). Also assigns IP addresses via DHCP."
+  },
+  {
+    "QuestionText": "'Bandwidth' in networking refers to:",
+    "Options": [
+      "A) Physical width of cables",
+      "B) Maximum data transfer rate of a network connection",
+      "C) Number of connected devices",
+      "D) Distance of network"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Bandwidth: maximum data that can be transmitted per unit time. Measured in Mbps (megabits per second) or Gbps. Higher bandwidth = faster data transfer."
+  },
+  {
+    "QuestionText": "Wi-Fi uses what technology for wireless communication?",
+    "Options": [
+      "A) Infrared",
+      "B) Radio waves",
+      "C) Bluetooth",
+      "D) Fibre optic"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Wi-Fi: wireless networking using radio waves (IEEE 802.11 standards). Operates at 2.4 GHz and 5 GHz frequencies. Allows devices to connect to network without cables."
+  },
+  {
+    "QuestionText": "Email is sent using which protocol?",
+    "Options": [
+      "A) HTTP",
+      "B) FTP",
+      "C) SMTP",
+      "D) POP3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "SMTP (Simple Mail Transfer Protocol): sends email. POP3/IMAP: receive/retrieve email. HTTP: web browsing. FTP: file transfer."
+  },
+  {
+    "QuestionText": "A 'modem' converts:",
+    "Options": [
+      "A) Analogue to digital signals and vice versa",
+      "B) Radio signals to electricity",
+      "C) Electrical to optical signals",
+      "D) IP addresses to domain names"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Modem (MOdulator-DEModulator): converts digital computer signals to analogue for telephone lines, and vice versa. DSL modem for broadband. Cable modem for cable internet."
+  },
+  {
+    "QuestionText": "The Internet is best described as:",
+    "Options": [
+      "A) A single large computer",
+      "B) A global network of networks",
+      "C) A software application",
+      "D) A type of LAN"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Internet: global system of interconnected networks using TCP/IP protocol. World Wide Web (WWW) is a service on the internet. Internet \u2260 WWW (internet is infrastructure; WWW is a service)."
+  },
+  {
+    "QuestionText": "A 'hub' in networking:",
+    "Options": [
+      "A) Routes data intelligently to destinations",
+      "B) Broadcasts data to all devices on the network",
+      "C) Connects different networks",
+      "D) Assigns IP addresses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Hub: basic device broadcasting data to all connected devices. Less efficient than switch. Switch: sends data only to specific destination device (MAC address). Hub is mostly obsolete now."
+  },
+  {
+    "QuestionText": "Multimedia refers to:",
+    "Options": [
+      "A) Multiple computer monitors",
+      "B) Combination of text, audio, video, images, and animation",
+      "C) Multiple operating systems",
+      "D) Multiple processors"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Multimedia",
+    "Difficulty": "Foundation",
+    "Explanation": "Multimedia: integration of multiple content types. Text, audio, images, video, animation \u2014 delivered through computers or electronic devices. Used in education, entertainment, communication."
+  },
+  {
+    "QuestionText": "Bluetooth is used for:",
+    "Options": [
+      "A) Long-range communication",
+      "B) Short-range wireless communication between devices",
+      "C) Internet access",
+      "D) Fibre optic communication"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Bluetooth: short-range wireless (typically 10m). Connects headphones, keyboards, mice, smartphones, printers. Uses 2.4 GHz radio. Lower power than Wi-Fi. PAN (Personal Area Network)."
+  },
+  {
+    "QuestionText": "Encryption in networking is used to:",
+    "Options": [
+      "A) Speed up data transfer",
+      "B) Secure data by encoding it so only authorised parties can read it",
+      "C) Compress files",
+      "D) Expand bandwidth"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Encryption: converts data to unreadable format (ciphertext). Only those with key can decrypt. HTTPS uses SSL/TLS encryption. Protects sensitive data (passwords, banking) in transit."
+  },
+  {
+    "QuestionText": "A 'switch' in networking is better than a hub because it:",
+    "Options": [
+      "A) Is cheaper",
+      "B) Sends data only to the specific destination device (not all)",
+      "C) Works without electricity",
+      "D) Connects to the internet directly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Switch: uses MAC address tables to send data only to intended device. More efficient, secure, and faster than hub. Reduces network congestion. Foundation of modern LANs."
+  },
+  {
+    "QuestionText": "The TCP/IP protocol is used for:",
+    "Options": [
+      "A) Formatting documents",
+      "B) Communication rules governing internet data transmission",
+      "C) Computer graphics",
+      "D) Database management"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "TCP/IP: suite of communication protocols governing internet data transmission. TCP: ensures reliable, ordered delivery. IP: addressing and routing. The foundation of the internet."
+  },
+  {
+    "QuestionText": "'Firewall' in networking:",
+    "Options": [
+      "A) Physically protects servers from fire",
+      "B) Monitors and filters network traffic based on security rules",
+      "C) Speeds up internet connection",
+      "D) Backs up data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Firewall: security system (hardware or software) monitoring and controlling incoming/outgoing network traffic based on security rules. Protects network from unauthorized access and attacks."
+  },
+  {
+    "QuestionText": "MAN stands for:",
+    "Options": [
+      "A) Multi-Access Network",
+      "B) Metropolitan Area Network",
+      "C) Main Area Network",
+      "D) Massive Area Network"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "MAN: Metropolitan Area Network. Covers a city or large campus. Larger than LAN, smaller than WAN. Cable TV networks are examples. Connects multiple LANs in a metropolitan area."
+  },
+  {
+    "QuestionText": "Cloud computing means:",
+    "Options": [
+      "A) Computing using actual clouds for storage",
+      "B) Delivering computing services (storage, software, servers) over the internet",
+      "C) Weather forecasting with computers",
+      "D) Wireless networking only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Cloud computing: on-demand computing resources (storage, processing, software) over the internet. Pay-as-you-go. Examples: Google Drive, Dropbox, AWS, Azure, iCloud."
+  },
+  {
+    "QuestionText": "Social networking sites are used to:",
+    "Options": [
+      "A) Store business data",
+      "B) Connect people, share content, communicate online",
+      "C) Only professional networking",
+      "D) Send virus-free emails"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Social networking: platforms for people to connect, share content, communicate. Facebook, Instagram, Twitter, LinkedIn, YouTube, WhatsApp. Revolutionised communication and media."
+  },
+  {
+    "QuestionText": "'Ping' command is used to:",
+    "Options": [
+      "A) Speed up internet",
+      "B) Test connectivity to another host/IP address",
+      "C) Download files",
+      "D) Send emails"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "Ping: tests connectivity. Sends ICMP echo requests; measures round-trip time in milliseconds. Ping google.com \u2192 shows if connected and how fast. Timeout \u2192 connection issue."
+  },
+  {
+    "QuestionText": "An ISP (Internet Service Provider) provides:",
+    "Options": [
+      "A) Only software",
+      "B) Internet access and related services",
+      "C) Only hardware",
+      "D) Only cloud storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "ISP: company providing internet access. E.g., BSNL, Airtel, Jio, ACT, Hathway. Services: broadband, fibre, mobile data, web hosting, email. You pay ISP for internet access."
+  },
+  {
+    "QuestionText": "'Data packet' in networking is:",
+    "Options": [
+      "A) A box for shipping computers",
+      "B) A formatted unit of data transmitted over a network",
+      "C) A type of file compression",
+      "D) A data backup"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Packet: small unit of data for transmission. Large data split into packets. Each packet has header (source, destination, sequence number) + payload (data). Reassembled at destination."
+  },
+  {
+    "QuestionText": "The World Wide Web (WWW) is:",
+    "Options": [
+      "A) The entire internet",
+      "B) A service on the internet: web pages linked by hyperlinks",
+      "C) A networking hardware",
+      "D) An operating system"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "WWW: service running on the internet. Web pages (HTML) linked by hyperlinks. Invented by Tim Berners-Lee (1989). WWW \u2260 Internet. Internet: infrastructure. WWW: a service on it."
+  },
+  {
+    "QuestionText": "'Cybersecurity' aims to protect:",
+    "Options": [
+      "A) Only hardware",
+      "B) Digital systems, networks, and data from attacks, damage, and unauthorized access",
+      "C) Only software",
+      "D) Only passwords"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Cybersecurity: protecting computers, networks, programs, and data from attack, damage, unauthorized access. Includes firewalls, encryption, antivirus, 2FA, security policies."
+  },
+  {
+    "QuestionText": "'Phishing' is a cyberattack where:",
+    "Options": [
+      "A) Hackers physically steal a computer",
+      "B) Attackers deceive users into revealing sensitive info via fake emails/sites",
+      "C) Programs multiply themselves",
+      "D) Data is encrypted for ransom"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Phishing: social engineering attack. Fake emails/websites mimic legitimate ones to steal passwords, credit card info. 'Click this link' \u2192 fake bank website. Spear phishing: targeted attack."
+  },
+  {
+    "QuestionText": "A 'search engine' is used to:",
+    "Options": [
+      "A) Search files on your computer",
+      "B) Index and search web pages on the internet",
+      "C) Filter spam emails",
+      "D) Manage network security"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Search engine: web service that indexes web pages and allows searching. Examples: Google, Bing, Yahoo, DuckDuckGo. Uses crawlers to index web, algorithms to rank results."
+  },
+  {
+    "QuestionText": "'Streaming' media over the internet means:",
+    "Options": [
+      "A) Downloading before playback",
+      "B) Continuous transmission allowing real-time playback without full download",
+      "C) Compressing media files",
+      "D) Creating backup copies"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Multimedia",
+    "Difficulty": "Foundation",
+    "Explanation": "Streaming: play media as it downloads. No need to wait for full download. Netflix, YouTube, Spotify = streaming services. Requires stable internet. Buffer = brief pause when data temporarily unavailable."
+  },
+  {
+    "QuestionText": "'HTTPS' is more secure than HTTP because:",
+    "Options": [
+      "A) It is faster",
+      "B) Data is encrypted using SSL/TLS",
+      "C) It uses a different port",
+      "D) It blocks all cookies"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTPS = HTTP + SSL/TLS encryption. Data encrypted in transit \u2014 protects passwords, credit cards. Browser shows padlock icon. All legitimate banking/shopping sites use HTTPS."
+  },
+  {
+    "QuestionText": "'Malware' refers to:",
+    "Options": [
+      "A) Faulty hardware",
+      "B) Any malicious software designed to harm computer systems",
+      "C) Poor quality software",
+      "D) Software errors"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Malware (malicious software): umbrella term for virus, worm, trojan, ransomware, spyware, adware. Designed to damage, disrupt, or gain unauthorized access to systems."
+  },
+  {
+    "QuestionText": "A 'proxy server' in networking:",
+    "Options": [
+      "A) Duplicates a server",
+      "B) Acts as intermediary between client and server (for security, caching, anonymity)",
+      "C) Provides IP addresses",
+      "D) Connects two different networks"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "Proxy server: intermediary. Client requests go through proxy \u2192 proxy forwards to server \u2192 returns response. Benefits: anonymity (hides client IP), content filtering, caching (speeds up repeated requests)."
+  },
+  {
+    "QuestionText": "VPN stands for:",
+    "Options": [
+      "A) Virtual Private Node",
+      "B) Virtual Private Network",
+      "C) Very Powerful Network",
+      "D) Variable Protocol Node"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "VPN (Virtual Private Network): encrypted tunnel over public internet. Provides privacy (hides IP), security (encrypts traffic), allows remote access to private networks. Used by businesses and privacy-conscious users."
+  },
+  {
+    "QuestionText": "'Podcast' is a type of:",
+    "Options": [
+      "A) Video streaming",
+      "B) Digital audio content distributed via internet for download/streaming",
+      "C) Social networking",
+      "D) Cloud storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Multimedia",
+    "Difficulty": "Foundation",
+    "Explanation": "Podcast: episodic series of digital audio files (sometimes video). Available to subscribe and download/stream. Growing medium for education, news, entertainment."
+  },
+  {
+    "QuestionText": "The 'bandwidth' difference between 100 Mbps and 1 Gbps:",
+    "Options": [
+      "A) 100 times faster for 1 Gbps",
+      "B) 10 times faster for 1 Gbps",
+      "C) Same speed",
+      "D) 1 Gbps is slower"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "1 Gbps = 1000 Mbps = 10 \u00d7 100 Mbps. 1 Gbps is 10 times faster. Gbps (Gigabits per second), Mbps (Megabits per second). 1 Gbps = 1000 Mbps."
+  },
+  {
+    "QuestionText": "'Broadband' internet connection is characterised by:",
+    "Options": [
+      "A) Very slow speed (dial-up)",
+      "B) High-speed internet connection always active",
+      "C) Wireless only connection",
+      "D) Mobile data only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Broadband: high-speed always-on internet (vs dial-up which was slow and temporary). Types: DSL (phone line), cable, fibre optic, satellite, mobile (4G/5G). Faster than 256 Kbps by definition."
+  },
+  {
+    "QuestionText": "In networking, 'topology' refers to:",
+    "Options": [
+      "A) Geographic location of servers",
+      "B) The physical or logical arrangement of nodes in a network",
+      "C) Speed of network",
+      "D) Type of cables used"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Network topology: arrangement of nodes (computers, devices) and connections. Physical topology: actual physical layout. Types: Bus, Star, Ring, Mesh, Tree, Hybrid."
+  },
+  {
+    "QuestionText": "Star topology has all devices connected to:",
+    "Options": [
+      "A) Each other directly",
+      "B) A central hub or switch",
+      "C) A single cable (bus)",
+      "D) A ring configuration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Star topology: all devices connect to central hub/switch. Most common in modern LANs. Advantage: one cable fails \u2192 only that device affected. Disadvantage: hub/switch failure = entire network down."
+  },
+  {
+    "QuestionText": "'Cookie' in web browsing is:",
+    "Options": [
+      "A) A type of virus",
+      "B) A small file stored by websites on your browser to remember information",
+      "C) An encrypted file",
+      "D) A type of cache"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Cookie: small text file stored by website in browser. Remembers: login status, preferences, shopping cart items. Session cookie: deleted when browser closes. Persistent: stays longer. Privacy concern."
+  },
+  {
+    "QuestionText": "4G vs 5G mobile network:",
+    "Options": [
+      "A) 5G is slower",
+      "B) 5G provides much faster speeds and lower latency than 4G",
+      "C) They are the same",
+      "D) 4G is more widely available than 5G everywhere"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "5G: fifth generation mobile network. Much faster than 4G (up to 20 Gbps vs 100 Mbps). Ultra-low latency (<1ms vs 50ms). Enables IoT, smart cities, autonomous vehicles. Still being deployed globally."
+  },
+  {
+    "QuestionText": "'IoT' stands for:",
+    "Options": [
+      "A) Internet of Technology",
+      "B) Internet of Things",
+      "C) Input Output Technology",
+      "D) Integrated Online Transfer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "IoT (Internet of Things): network of physical devices (smart TV, thermostat, refrigerator, wearables) connected to internet. Collect and share data. Smart homes, industry 4.0."
+  },
+  {
+    "QuestionText": "'Net neutrality' means:",
+    "Options": [
+      "A) Internet is neutral (no content)",
+      "B) ISPs must treat all internet traffic equally (no throttling or blocking)",
+      "C) Internet access is free",
+      "D) All websites load at the same speed always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "Net neutrality: principle that ISPs must treat all internet data equally \u2014 can't block, throttle, or charge more for specific websites/services. Controversial policy debate globally."
+  },
+  {
+    "QuestionText": "'Spam' email is:",
+    "Options": [
+      "A) A virus",
+      "B) Unsolicited bulk email (often advertising or scams)",
+      "C) An encrypted message",
+      "D) A legitimate newsletter"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Spam: unwanted, unsolicited bulk email. Often advertising, phishing, or scams. Spam filters in email clients/servers block most spam. Estimated 45% of all email traffic is spam."
+  },
+  {
+    "QuestionText": "'WWW' was invented by:",
+    "Options": [
+      "A) Bill Gates",
+      "B) Steve Jobs",
+      "C) Tim Berners-Lee",
+      "D) Vint Cerf"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Tim Berners-Lee: invented WWW in 1989 at CERN. First web server 1990. Father of World Wide Web. Vint Cerf: co-inventor of TCP/IP ('Father of the Internet'). Bill Gates: Microsoft."
+  },
+  {
+    "QuestionText": "Downloading vs Uploading:",
+    "Options": [
+      "A) Same process",
+      "B) Download = data from server to device; Upload = data from device to server",
+      "C) Download = sending data; Upload = receiving",
+      "D) Only download uses bandwidth"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Download: receive data (streaming video, getting files). Upload: send data (posting photos, sending email). Most home connections have faster download than upload speed (asymmetric)."
+  },
+  {
+    "QuestionText": "'Ransomware' is:",
+    "Options": [
+      "A) A type of antivirus",
+      "B) Malware that encrypts files and demands payment for decryption",
+      "C) A network monitoring tool",
+      "D) Phishing email"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Ransomware: encrypts victim's files \u2192 demands cryptocurrency ransom for decryption key. Growing threat. Prevention: regular backups, updated software, antivirus, not clicking suspicious links."
+  },
+  {
+    "QuestionText": "NFC (Near Field Communication) allows:",
+    "Options": [
+      "A) Long-range internet",
+      "B) Very short-range wireless communication (a few centimetres)",
+      "C) Satellite communication",
+      "D) Fibre optic networking"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "NFC: wireless communication within ~4 cm. Used for: contactless payments (Google Pay, Apple Pay, UPI tap), access cards, data sharing between phones. No pairing needed (unlike Bluetooth)."
+  },
+  {
+    "QuestionText": "'Bandwidth throttling' means:",
+    "Options": [
+      "A) Increasing internet speed",
+      "B) ISP intentionally slowing down internet connection",
+      "C) Filtering content",
+      "D) Compressing data for faster transfer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "Throttling: ISP deliberately slows your internet speed (e.g., after reaching data limit, or for certain services). VPNs can sometimes bypass throttling. Related to net neutrality debate."
+  },
+  {
+    "QuestionText": "Which device assigns IP addresses to devices on a network automatically?",
+    "Options": [
+      "A) Switch",
+      "B) DHCP server (often built into router)",
+      "C) Modem",
+      "D) Hub"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "DHCP (Dynamic Host Configuration Protocol) server automatically assigns IP addresses to devices joining the network. Home routers include a DHCP server. Prevents manual IP configuration."
+  },
+  {
+    "QuestionText": "The full form of Wi-Fi is:",
+    "Options": [
+      "A) Wireless Fidelity",
+      "B) Wide Frequency",
+      "C) Wireless Finance",
+      "D) It has no full form \u2014 just a brand name"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Wi-Fi has no official full form \u2014 it was created as a brand name by the Wi-Fi Alliance. Often misattributed to \"Wireless Fidelity\" but that was a retronym. It is based on IEEE 802.11 standards."
+  },
+  {
+    "QuestionText": "In mesh topology:",
+    "Options": [
+      "A) All devices connect to a central hub",
+      "B) Every device connects to every other device",
+      "C) Devices form a ring",
+      "D) One device connects to all others"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Communication Technology Networking",
+    "SubTopic": "Networking Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Mesh topology: every node connects to every other node. Most fault-tolerant and reliable. Multiple paths for data. Expensive and complex. Used in critical networks (military, backbone)."
+  }
+]

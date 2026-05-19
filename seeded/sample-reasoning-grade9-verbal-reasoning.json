@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "'Doctor' is to 'Hospital' as 'Teacher' is to:",
+    "Options": [
+      "A) Book",
+      "B) Student",
+      "C) School",
+      "D) Lecture"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Analogy: Doctor works in Hospital. Teacher works in School. Workplace relationship analogy."
+  },
+  {
+    "QuestionText": "Odd one out: Cat, Dog, Parrot, Eagle, Rabbit",
+    "Options": [
+      "A) Cat",
+      "B) Parrot",
+      "C) Eagle",
+      "D) Dog"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Cat, Dog, Rabbit = domestic pets. Parrot = bird but also a common pet. Eagle = wild bird, not a pet. Eagle is the odd one out as it's a bird of prey and not domesticated."
+  },
+  {
+    "QuestionText": "Coding: If CAT = 3-1-20, then DOG = ?",
+    "Options": [
+      "A) 4-14-7",
+      "B) 4-15-7",
+      "C) 3-14-8",
+      "D) 5-14-7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "A=1, B=2, C=3, D=4, O=15, G=7. CAT = C(3), A(1), T(20). DOG = D(4), O(15), G(7) = 4-15-7."
+  },
+  {
+    "QuestionText": "Series: A, C, E, G, ?, K",
+    "Options": [
+      "A) H",
+      "B) I",
+      "C) J",
+      "D) L"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "A, C, E, G, I, K \u2014 alternate letters (skip one). A(1), C(3), E(5), G(7), I(9), K(11). Next is I."
+  },
+  {
+    "QuestionText": "Blood relation: A is B's father. B is C's son. What is A to C?",
+    "Options": [
+      "A) Son",
+      "B) Brother",
+      "C) Grandfather",
+      "D) Uncle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "A is father of B. B is son of C, meaning C is B's parent. But A is B's father, so C must be B's mother. A (father) is grandfather to... wait: C is B's son means B is C's father, and A is B's father \u2192 A is C's grandfather."
+  },
+  {
+    "QuestionText": "If SCHOOL = SFOLLO, what does HOUSE = ?",
+    "Options": [
+      "A) HOUFE",
+      "B) HPUSE",
+      "C) GPURF",
+      "D) Cannot determine without the pattern"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern needs clarification. Without a clear consistent coding rule, the answer cannot be determined. In competitive exams, always identify the exact pattern from the given example."
+  },
+  {
+    "QuestionText": "Find the odd one out: Violin, Guitar, Flute, Sitar, Veena",
+    "Options": [
+      "A) Violin",
+      "B) Guitar",
+      "C) Flute",
+      "D) Sitar"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Violin, Guitar, Sitar, Veena are all string instruments. Flute is a wind instrument. Flute is the odd one out."
+  },
+  {
+    "QuestionText": "Analogy: Book : Library :: Painting : ?",
+    "Options": [
+      "A) Studio",
+      "B) Gallery",
+      "C) Museum",
+      "D) Artist"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Books are kept/displayed in a Library. Paintings are displayed in a Gallery. Collection place analogy."
+  },
+  {
+    "QuestionText": "Alphabet test: Which letter is 7th from the right end in MATHEMATICS?",
+    "Options": [
+      "A) M",
+      "B) T",
+      "C) A",
+      "D) E"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Alphabet Test",
+    "Difficulty": "Foundation",
+    "Explanation": "MATHEMATICS: M-A-T-H-E-M-A-T-I-C-S (11 letters). 7th from right: position 11-7+1=5 from left. M(1)A(2)T(3)H(4)E(5). 5th letter = E."
+  },
+  {
+    "QuestionText": "Direction: Ram starts walking North, turns right, then turns right again. He is now facing:",
+    "Options": [
+      "A) North",
+      "B) East",
+      "C) South",
+      "D) West"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Start: North. Turn right \u2192 East. Turn right again \u2192 South. He is now facing South."
+  },
+  {
+    "QuestionText": "Series: 2, 6, 18, 54, ?",
+    "Options": [
+      "A) 108",
+      "B) 126",
+      "C) 162",
+      "D) 216"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "Each term multiplied by 3: 2\u00d73=6, 6\u00d73=18, 18\u00d73=54, 54\u00d73=162. Geometric progression with ratio 3."
+  },
+  {
+    "QuestionText": "If 'COLD' is coded as 'DPME', how is 'WARM' coded?",
+    "Options": [
+      "A) XBSN",
+      "B) WBSN",
+      "C) XARM",
+      "D) XARN"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Each letter is shifted one position forward. C\u2192D, O\u2192P, L\u2192M, D\u2192E. Similarly: W\u2192X, A\u2192B, R\u2192S, M\u2192N = XBSN."
+  },
+  {
+    "QuestionText": "'Chair' is to 'Furniture' as 'Rose' is to:",
+    "Options": [
+      "A) Red",
+      "B) Garden",
+      "C) Flower",
+      "D) Thorns"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Chair is a type of Furniture (category). Rose is a type of Flower (category). Part-to-category analogy."
+  },
+  {
+    "QuestionText": "Odd one out: Square, Circle, Triangle, Rectangle, Cube",
+    "Options": [
+      "A) Circle",
+      "B) Triangle",
+      "C) Rectangle",
+      "D) Cube"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Square, Circle, Triangle, Rectangle are all 2D (flat) shapes. Cube is a 3D solid. Cube is the odd one out."
+  },
+  {
+    "QuestionText": "Blood relation: Pointing to a photograph, a man says, 'She is the daughter of my father's only son.' Who is the woman?",
+    "Options": [
+      "A) Sister",
+      "B) Niece",
+      "C) Daughter",
+      "D) Wife"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Father's only son = himself (the man speaking). The woman is the daughter of himself = his daughter."
+  },
+  {
+    "QuestionText": "Ranking: In a row, A is 5th from left and 10th from right. How many people are in the row?",
+    "Options": [
+      "A) 13",
+      "B) 14",
+      "C) 15",
+      "D) 16"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Total = position from left + position from right - 1 = 5 + 10 - 1 = 14."
+  },
+  {
+    "QuestionText": "Find the missing term: ACE, BDF, CEG, ?",
+    "Options": [
+      "A) DFH",
+      "B) DEG",
+      "C) EFH",
+      "D) DGI"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern: each group is 3 consecutive alternate letters. A-C-E, B-D-F, C-E-G, D-F-H. Each starting letter increases by 1, letters in each group skip one."
+  },
+  {
+    "QuestionText": "If 'Apple' = 50, 'Mango' = 52, then 'Grape' = ?",
+    "Options": [
+      "A) 50",
+      "B) 52",
+      "C) 51",
+      "D) 48"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Apple=5 letters\u00d710=50. Mango=5 letters\u00d710+2=52 (alternately number of letters\u00d710+vowels). Apple: 2 vowels: 5\u00d710+0? Grape: G-R-A-P-E, 5 letters, 2 vowels (a,e)=5\u00d710+1=51."
+  },
+  {
+    "QuestionText": "Logical Venn diagram: Which set includes Mammals, Dogs, and Dalmatians?",
+    "Options": [
+      "A) Three separate circles",
+      "B) Dalmatians inside Dogs inside Mammals",
+      "C) Dogs inside Dalmatians inside Mammals",
+      "D) All three overlapping equally"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Logical Venn Diagrams",
+    "Difficulty": "Foundation",
+    "Explanation": "Hierarchy: Dalmatians (specific breed) \u2282 Dogs (species) \u2282 Mammals (class). Dalmatians circle is smallest, fully inside Dogs, which is fully inside Mammals."
+  },
+  {
+    "QuestionText": "Letter series: Z, X, V, T, ?, P",
+    "Options": [
+      "A) Q",
+      "B) R",
+      "C) S",
+      "D) O"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "Z(26), X(24), V(22), T(20), R(18), P(16). Each letter decreases by 2. Missing letter: R(18)."
+  },
+  {
+    "QuestionText": "Series: 1, 1, 2, 3, 5, 8, 13, ?",
+    "Options": [
+      "A) 18",
+      "B) 20",
+      "C) 21",
+      "D) 25"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "Fibonacci sequence: each term = sum of previous two. 8+13=21. This is the most famous mathematical sequence."
+  },
+  {
+    "QuestionText": "Statement and Conclusion: 'All cats are animals. Tom is a cat.' Conclusion: Tom is an animal.",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cannot determine",
+      "D) Partially true"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Statement and Conclusion",
+    "Difficulty": "Foundation",
+    "Explanation": "Deductive reasoning: All cats \u2192 animals. Tom \u2192 cat. Therefore Tom \u2192 animal. This is a valid syllogism. The conclusion follows necessarily from the premises."
+  },
+  {
+    "QuestionText": "Coding: If WHITE = 65432 and BLACK = 14156, then WHILE = ?",
+    "Options": [
+      "A) 65412",
+      "B) 65432",
+      "C) 65413",
+      "D) 64532"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "W=6, H=5, I=4, T=3, E=2, B=1, L=1, A=4, C=5, K=6. WHILE: W=6, H=5, I=4, L=1, E=2 = 65412."
+  },
+  {
+    "QuestionText": "'North is to South' as 'East is to':",
+    "Options": [
+      "A) North",
+      "B) Right",
+      "C) West",
+      "D) Up"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "North and South are opposite directions. Similarly, East and West are opposite directions."
+  },
+  {
+    "QuestionText": "Alphabet position: Which letter is exactly in the middle of the English alphabet?",
+    "Options": [
+      "A) M",
+      "B) N",
+      "C) M and N both",
+      "D) L"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Alphabet Test",
+    "Difficulty": "Foundation",
+    "Explanation": "English alphabet has 26 letters. No single middle letter. 13th letter = M, 14th letter = N. M and N are both middle letters (13th and 14th of 26)."
+  },
+  {
+    "QuestionText": "Statement: Some roses are red. Some red things are expensive. Conclusion: Some roses are expensive.",
+    "Options": [
+      "A) Definitely true",
+      "B) Definitely false",
+      "C) Probably true",
+      "D) Cannot be determined"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Statement and Conclusion",
+    "Difficulty": "Advanced",
+    "Explanation": "'Some roses are red' and 'some red things are expensive' \u2014 we cannot conclude that the red roses are the expensive ones. The conclusion doesn't necessarily follow."
+  },
+  {
+    "QuestionText": "Coding: PENCIL = QFODJM. What is the code for PAPER?",
+    "Options": [
+      "A) QBQFS",
+      "B) QCQFS",
+      "C) RBQFS",
+      "D) QAQFS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Each letter +1: P\u2192Q, E\u2192F, N\u2192O, C\u2192D, I\u2192J, L\u2192M. PAPER: P\u2192Q, A\u2192B, P\u2192Q, E\u2192F, R\u2192S = QBQFS."
+  },
+  {
+    "QuestionText": "Direction: A man walks 5 km North, then 5 km East, then 5 km South. How far is he from the starting point?",
+    "Options": [
+      "A) 0 km",
+      "B) 5 km",
+      "C) 10 km",
+      "D) 15 km"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "North 5 km, East 5 km, South 5 km. North and South cancel \u2192 net displacement 0 N-S. Still 5 km East of start. Distance = 5 km East."
+  },
+  {
+    "QuestionText": "Find the odd one out: Copper, Steel, Iron, Aluminium, Gold",
+    "Options": [
+      "A) Copper",
+      "B) Steel",
+      "C) Iron",
+      "D) Aluminium"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Copper, Iron, Aluminium, Gold are all elements (pure metals). Steel is an alloy (mixture of iron and carbon). Steel is the odd one out."
+  },
+  {
+    "QuestionText": "Analogy: Pen : Write :: Knife : ?",
+    "Options": [
+      "A) Sharp",
+      "B) Cut",
+      "C) Kitchen",
+      "D) Iron"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Pen is used to Write. Knife is used to Cut. Tool-to-function analogy."
+  },
+  {
+    "QuestionText": "Word series: BDFH, JLNP, RTVX, ?",
+    "Options": [
+      "A) BDFI",
+      "B) ZACE",
+      "C) ZBDF",
+      "D) ZABD"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Advanced",
+    "Explanation": "Each group: 4 letters, skipping one letter each. BDFH (b,d,f,h - positions 2,4,6,8). JLNP (10,12,14,16). RTVX (18,20,22,24). Next: Z(26)B(2)D(4)F(6) = ZBDF."
+  },
+  {
+    "QuestionText": "Number analogy: 4 : 64 :: 3 : ?",
+    "Options": [
+      "A) 9",
+      "B) 27",
+      "C) 36",
+      "D) 81"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "4\u00b3 = 64. Similarly 3\u00b3 = 27. The pattern is n : n\u00b3 (cube relationship)."
+  },
+  {
+    "QuestionText": "If the first half of the alphabet is reversed, which letter comes in the 3rd place?",
+    "Options": [
+      "A) C",
+      "B) K",
+      "C) M",
+      "D) X"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Alphabet Test",
+    "Difficulty": "Advanced",
+    "Explanation": "First half: A to M (13 letters). Reversed: M, L, K, J, I, H, G, F, E, D, C, B, A. 3rd position = K. Wait: M(1st), L(2nd), K(3rd). Answer is K."
+  },
+  {
+    "QuestionText": "Ranking: Riya is taller than Priya but shorter than Siya. Tia is taller than Siya. Who is the shortest?",
+    "Options": [
+      "A) Riya",
+      "B) Priya",
+      "C) Siya",
+      "D) Tia"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Order: Tia > Siya > Riya > Priya. Priya is the shortest."
+  },
+  {
+    "QuestionText": "Coding: In a code, '123' means 'hot boiled water', '23' means 'boiled water', what does '1' mean?",
+    "Options": [
+      "A) Water",
+      "B) Boiled",
+      "C) Hot",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "'123' = hot boiled water. '23' = boiled water. Removing '1' leaves 'boiled water'. So '1' must represent 'hot'."
+  },
+  {
+    "QuestionText": "Odd one out: January, March, May, July, August",
+    "Options": [
+      "A) January",
+      "B) March",
+      "C) August",
+      "D) May"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "January, March, May, July all have 31 days AND come before August alphabetically. But the key: Jan, Mar, May, Jul are months with 31 days, and August also has 31 days \u2014 so no odd one there. However Jan, Mar, May, Jul are all odd-numbered months (1,3,5,7) while August is the 8th (even). So August is odd one out."
+  },
+  {
+    "QuestionText": "Statement: All fish live in water. Shark is a fish. Conclusion: Shark lives in water.",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cannot determine",
+      "D) Partially true"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Statement and Conclusion",
+    "Difficulty": "Foundation",
+    "Explanation": "Valid syllogism. Major premise (All fish \u2192 water) + Minor premise (Shark \u2192 fish) \u2192 Conclusion (Shark \u2192 water). Deductive reasoning \u2014 conclusion necessarily follows."
+  },
+  {
+    "QuestionText": "Letter coding: If INDIA = 9-14-4-9-1, then BHARAT = ?",
+    "Options": [
+      "A) 2-8-1-18-1-20",
+      "B) 2-7-1-18-1-20",
+      "C) 3-8-1-18-1-20",
+      "D) 2-8-2-18-1-20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "A=1,B=2,C=3...I=9,N=14,D=4. BHARAT: B=2,H=8,A=1,R=18,A=1,T=20 = 2-8-1-18-1-20."
+  },
+  {
+    "QuestionText": "Verbal analogy: Bread : Bakery :: Car : ?",
+    "Options": [
+      "A) Road",
+      "B) Garage",
+      "C) Factory",
+      "D) Driver"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Bread is made in a Bakery. Car is made in a Factory. Place of manufacture analogy."
+  },
+  {
+    "QuestionText": "Missing letter: B_G_B_GB_",
+    "Options": [
+      "A) GBGB",
+      "B) GBGG",
+      "C) GBBG",
+      "D) BGBG"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern: BGBGBGBG... Alternating B and G. B_G_B_GB_ = BGBGBGBG. Missing: G,B,G,B (positions 2,4,6,9). So missing = GBGB."
+  },
+  {
+    "QuestionText": "Odd one out: Mango, Apple, Potato, Banana, Orange",
+    "Options": [
+      "A) Mango",
+      "B) Apple",
+      "C) Potato",
+      "D) Banana"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Mango, Apple, Banana, Orange are fruits. Potato is a vegetable (grows underground as tuber). Potato is the odd one out."
+  },
+  {
+    "QuestionText": "Number coding: If MANGO = 13-1-14-7-15, what is PAPAYA?",
+    "Options": [
+      "A) 16-1-16-1-25-1",
+      "B) 16-1-16-1-24-1",
+      "C) 15-1-16-1-25-1",
+      "D) 16-2-16-2-25-2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "A=1,P=16,Y=25. PAPAYA: P=16,A=1,P=16,A=1,Y=25,A=1 = 16-1-16-1-25-1."
+  },
+  {
+    "QuestionText": "Direction: Facing North, turn left twice. Now facing:",
+    "Options": [
+      "A) North",
+      "B) East",
+      "C) South",
+      "D) West"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Face North. Turn left \u2192 West. Turn left again \u2192 South. Facing South."
+  },
+  {
+    "QuestionText": "Series: 7, 14, 21, 28, 35, ?",
+    "Options": [
+      "A) 40",
+      "B) 42",
+      "C) 43",
+      "D) 45"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiples of 7: 7,14,21,28,35,42. Next = 7\u00d76 = 42."
+  },
+  {
+    "QuestionText": "Analogy: River : Ocean :: Creek : ?",
+    "Options": [
+      "A) Lake",
+      "B) Sea",
+      "C) River",
+      "D) Stream"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogy",
+    "Difficulty": "Advanced",
+    "Explanation": "A Creek is a smaller version of a River (flows into river). A River is a smaller version of an Ocean. Both are size/scale analogies within the same water body category."
+  },
+  {
+    "QuestionText": "Alphabet: How many letters are between 'F' and 'M' in English alphabet?",
+    "Options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Alphabet Test",
+    "Difficulty": "Foundation",
+    "Explanation": "F(6) to M(13). Letters between: G,H,I,J,K,L = 6 letters. (13-6-1 = 6 letters between, not including F and M)"
+  },
+  {
+    "QuestionText": "Logical reasoning: No pencils are pens. All pens are markers. Conclusion: No pencils are markers.",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cannot determine",
+      "D) Partially true"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Statement and Conclusion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Even though no pencils are pens, and all pens are markers, some markers might not be pens (if markers have members that aren't pens, and pencils could be those). Cannot definitely conclude."
+  },
+  {
+    "QuestionText": "Coding: NOTEBOOK is coded as EONOBEOTK. What pattern is used?",
+    "Options": [
+      "A) Letters reversed",
+      "B) Pairs of letters swapped",
+      "C) Every alternate letter moved",
+      "D) Vowels moved to end"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "NOTEBOOK: N-O-T-E-B-O-O-K. Swap pairs: ON-OT-EB-OO-KT \u2192 rearranged. Actually: NO\u2192ON, TE\u2192ET, BO\u2192OB, OK\u2192KO? Check: O-N-E-T-O-B-O-K. Pairs swapped: (NO)\u2192ON, (TE)\u2192ET, (BO)\u2192OB, (OK)\u2192KO."
+  },
+  {
+    "QuestionText": "Sequence: 3, 9, 27, 81, 243, ?",
+    "Options": [
+      "A) 486",
+      "B) 729",
+      "C) 648",
+      "D) 324"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Series Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "Powers of 3: 3\u00b9=3, 3\u00b2=9, 3\u00b3=27, 3\u2074=81, 3\u2075=243, 3\u2076=729."
+  },
+  {
+    "QuestionText": "Blood relations: A man's mother's only daughter's son is the man's:",
+    "Options": [
+      "A) Son",
+      "B) Brother",
+      "C) Nephew",
+      "D) Cousin"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Man's mother's only daughter = his sister. His sister's son = his nephew."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The probability of an impossible event is:",
+    "Options": [
+      "A) 1",
+      "B) 0.5",
+      "C) 0",
+      "D) undefined"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "An impossible event can never occur. P(impossible event) = 0. A certain event has P = 1."
+  },
+  {
+    "QuestionText": "The probability of a sure (certain) event is:",
+    "Options": [
+      "A) 0",
+      "B) 0.5",
+      "C) between 0 and 1",
+      "D) 1"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A certain event always occurs, so its probability = 1."
+  },
+  {
+    "QuestionText": "If P(E) = 0.7, then P(not E) = ?",
+    "Options": [
+      "A) 0.7",
+      "B) 0.3",
+      "C) 1.7",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "P(E) + P(not E) = 1 \u2192 P(not E) = 1 - 0.7 = 0.3."
+  },
+  {
+    "QuestionText": "Probability of an event E satisfies:",
+    "Options": [
+      "A) P(E) > 1",
+      "B) P(E) < 0",
+      "C) 0 \u2264 P(E) \u2264 1",
+      "D) P(E) = 0 always"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Probability is always between 0 (impossible) and 1 (certain) inclusive."
+  },
+  {
+    "QuestionText": "A coin is tossed. Probability of getting a head is:",
+    "Options": [
+      "A) 0",
+      "B) 1/4",
+      "C) 1/2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "A fair coin has 2 equally likely outcomes (H, T). P(H) = 1/2."
+  },
+  {
+    "QuestionText": "A die is rolled. Probability of getting 4 is:",
+    "Options": [
+      "A) 1/4",
+      "B) 1/6",
+      "C) 4/6",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "A fair die has 6 equally likely outcomes {1,2,3,4,5,6}. P(4) = 1/6."
+  },
+  {
+    "QuestionText": "A die is rolled. Probability of getting an even number is:",
+    "Options": [
+      "A) 1/6",
+      "B) 1/3",
+      "C) 1/2",
+      "D) 2/3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Even numbers: {2,4,6} \u2014 3 outcomes out of 6. P(even) = 3/6 = 1/2."
+  },
+  {
+    "QuestionText": "A bag has 3 red and 5 blue balls. Probability of picking a red ball is:",
+    "Options": [
+      "A) 3/5",
+      "B) 5/8",
+      "C) 3/8",
+      "D) 1/3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Total balls = 8. P(red) = 3/8."
+  },
+  {
+    "QuestionText": "A card is drawn from a standard 52-card deck. Probability of drawing a king is:",
+    "Options": [
+      "A) 1/13",
+      "B) 1/52",
+      "C) 4/52=1/13",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "There are 4 kings in 52 cards. P(king) = 4/52 = 1/13."
+  },
+  {
+    "QuestionText": "Empirical probability is based on:",
+    "Options": [
+      "A) Theory",
+      "B) Actual experimental results",
+      "C) Mathematical calculations only",
+      "D) Intuition"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Empirical (experimental) probability = number of times event occurred / total number of trials. It's based on observation."
+  },
+  {
+    "QuestionText": "P(E) = number of outcomes favourable to E / ?",
+    "Options": [
+      "A) Number of unfavourable outcomes",
+      "B) Total number of outcomes",
+      "C) Number of trials",
+      "D) 100"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "P(E) = favourable outcomes / total equally likely outcomes. This is the classical (theoretical) definition."
+  },
+  {
+    "QuestionText": "A coin is tossed 200 times and heads appear 110 times. Experimental P(heads) = ?",
+    "Options": [
+      "A) 1/2",
+      "B) 9/20",
+      "C) 11/20",
+      "D) 110"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Experimental P(heads) = 110/200 = 11/20 = 0.55."
+  },
+  {
+    "QuestionText": "A die is thrown 150 times. Number 5 appears 30 times. P(5) experimentally = ?",
+    "Options": [
+      "A) 5/150",
+      "B) 1/5",
+      "C) 30/150 = 1/5",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Experimental P(5) = 30/150 = 1/5 = 0.2."
+  },
+  {
+    "QuestionText": "The sum of probabilities of all elementary events of an experiment is:",
+    "Options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1",
+      "D) depends on event"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "The probabilities of all possible outcomes of an experiment must sum to 1."
+  },
+  {
+    "QuestionText": "From 52 cards, P(ace of spades) = ?",
+    "Options": [
+      "A) 1/52",
+      "B) 4/52",
+      "C) 1/13",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "There is only 1 ace of spades in 52 cards. P = 1/52."
+  },
+  {
+    "QuestionText": "P(getting a prime number on rolling a die) = ?",
+    "Options": [
+      "A) 1/2",
+      "B) 2/3",
+      "C) 1/3",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Primes on die: {2,3,5} \u2014 3 out of 6. P = 3/6 = 1/2."
+  },
+  {
+    "QuestionText": "Two coins tossed together. Sample space = ?",
+    "Options": [
+      "A) {HH, TT}",
+      "B) {HH, HT, TH, TT}",
+      "C) {H, T}",
+      "D) {HH, HT, TT}"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Sample Space",
+    "Difficulty": "Foundation",
+    "Explanation": "Two coins: Each can be H or T. Sample space = {HH, HT, TH, TT} \u2014 4 equally likely outcomes."
+  },
+  {
+    "QuestionText": "P(at least one head when two coins tossed) = ?",
+    "Options": [
+      "A) 1/4",
+      "B) 1/2",
+      "C) 3/4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Favourable: {HH, HT, TH} = 3 out of 4. P = 3/4. (Alternatively: 1 - P(no head) = 1 - 1/4 = 3/4)"
+  },
+  {
+    "QuestionText": "P(both heads when two coins tossed) = ?",
+    "Options": [
+      "A) 1/4",
+      "B) 1/2",
+      "C) 3/4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Favourable: {HH} = 1 out of 4. P(HH) = 1/4."
+  },
+  {
+    "QuestionText": "A bag has 5 red, 3 green, 2 white balls. P(green) = ?",
+    "Options": [
+      "A) 3/10",
+      "B) 5/10",
+      "C) 3/5",
+      "D) 1/5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Total = 10. P(green) = 3/10."
+  },
+  {
+    "QuestionText": "As the number of trials in an experiment increases, the experimental probability:",
+    "Options": [
+      "A) Increases to 1",
+      "B) Decreases to 0",
+      "C) Approaches the theoretical probability",
+      "D) Remains exactly theoretical"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Law of large numbers: as trials \u2192 \u221e, empirical probability \u2192 theoretical probability. More trials = more reliable estimate."
+  },
+  {
+    "QuestionText": "P(E) = 0 means the event E is:",
+    "Options": [
+      "A) Certain",
+      "B) Likely",
+      "C) Impossible",
+      "D) Uncertain"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "P = 0 means the event can never happen (impossible event)."
+  },
+  {
+    "QuestionText": "A die is thrown. P(number > 4) = ?",
+    "Options": [
+      "A) 1/3",
+      "B) 2/3",
+      "C) 1/6",
+      "D) 1/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Numbers > 4: {5, 6} = 2 outcomes. P = 2/6 = 1/3."
+  },
+  {
+    "QuestionText": "P(getting number less than 1 on a die) = ?",
+    "Options": [
+      "A) 0",
+      "B) 1/6",
+      "C) 1",
+      "D) 1/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Die faces: {1,2,3,4,5,6}. No face shows a number < 1. P = 0/6 = 0 (impossible event)."
+  },
+  {
+    "QuestionText": "A deck has 52 cards. P(red card) = ?",
+    "Options": [
+      "A) 1/4",
+      "B) 1/2",
+      "C) 1/13",
+      "D) 26"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "26 red (hearts+diamonds) out of 52. P = 26/52 = 1/2."
+  },
+  {
+    "QuestionText": "P(face card) from 52 deck cards = ?",
+    "Options": [
+      "A) 1/13",
+      "B) 3/13",
+      "C) 12/52 = 3/13",
+      "D) 4/52"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Face cards: J, Q, K of all 4 suits = 12 cards. P = 12/52 = 3/13."
+  },
+  {
+    "QuestionText": "A bag contains 4 black, 3 red, 2 blue balls. A ball drawn randomly. P(not black) = ?",
+    "Options": [
+      "A) 4/9",
+      "B) 5/9",
+      "C) 4/5",
+      "D) 1/9"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Advanced",
+    "Explanation": "P(black) = 4/9. P(not black) = 1 - 4/9 = 5/9."
+  },
+  {
+    "QuestionText": "When a die is thrown, the event 'getting an odd number' and 'getting an even number' are:",
+    "Options": [
+      "A) Certain events",
+      "B) Impossible events",
+      "C) Complementary events",
+      "D) Independent events"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "Complementary events: mutually exclusive and exhaustive. Odd = {1,3,5}, Even = {2,4,6}. Together cover all outcomes; can't occur simultaneously."
+  },
+  {
+    "QuestionText": "In an experiment, if n(E) = favourable outcomes and n(S) = total outcomes, then P(E) = ?",
+    "Options": [
+      "A) n(S)/n(E)",
+      "B) n(E)/n(S)",
+      "C) n(E) \u00d7 n(S)",
+      "D) n(E) \u2212 n(S)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "P(E) = n(E)/n(S). Number of favourable outcomes divided by total number of equally likely outcomes."
+  },
+  {
+    "QuestionText": "P(not E) is also written as:",
+    "Options": [
+      "A) P(E)",
+      "B) 1 + P(E)",
+      "C) 1 \u2212 P(E)",
+      "D) P(E)/2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "P(complement of E) = P(E') = 1 \u2212 P(E). Complementary rule of probability."
+  },
+  {
+    "QuestionText": "A letter is picked from 'MATHEMATICS'. Probability it is 'M' = ?",
+    "Options": [
+      "A) 1/11",
+      "B) 2/11",
+      "C) 3/11",
+      "D) 4/11"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "MATHEMATICS has 11 letters. M appears twice. P(M) = 2/11."
+  },
+  {
+    "QuestionText": "A die is thrown. Event E = {2, 4, 6}. What type of event is this?",
+    "Options": [
+      "A) Impossible",
+      "B) Certain",
+      "C) Complementary to odd numbers",
+      "D) An elementary event"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "E = {2,4,6} (even) is complementary to E' = {1,3,5} (odd). Together they form the complete sample space."
+  },
+  {
+    "QuestionText": "A survey finds 30 students like cricket, 20 like football out of 100. P(likes cricket) = ?",
+    "Options": [
+      "A) 3/10",
+      "B) 2/10",
+      "C) 1/2",
+      "D) 5/10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Experimental P = 30/100 = 3/10 = 0.3."
+  },
+  {
+    "QuestionText": "In 50 spins of a spinner with 4 equal sections (A, B, C, D), A appeared 15 times. P(A) experimentally =?",
+    "Options": [
+      "A) 1/4",
+      "B) 3/10",
+      "C) 15",
+      "D) 35/50"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Experimental P(A) = 15/50 = 3/10 = 0.3. Theoretical P(A) = 1/4 = 0.25."
+  },
+  {
+    "QuestionText": "P(king or ace) from 52-card deck = ?",
+    "Options": [
+      "A) 1/13",
+      "B) 2/13",
+      "C) 8/52 = 2/13",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "4 kings + 4 aces = 8 cards. P = 8/52 = 2/13."
+  },
+  {
+    "QuestionText": "If one letter is randomly selected from the word 'BANANA', P(A) = ?",
+    "Options": [
+      "A) 1/6",
+      "B) 2/6",
+      "C) 3/6",
+      "D) 4/6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "BANANA: B-A-N-A-N-A = 6 letters. A appears 3 times. P(A) = 3/6 = 1/2."
+  },
+  {
+    "QuestionText": "Weather forecast says 40% chance of rain. P(no rain) = ?",
+    "Options": [
+      "A) 0.4",
+      "B) 0.6",
+      "C) 40",
+      "D) 60"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "P(rain) = 0.4. P(no rain) = 1 - 0.4 = 0.6 = 60%."
+  },
+  {
+    "QuestionText": "A class has 18 boys and 12 girls. A student chosen randomly. P(girl) = ?",
+    "Options": [
+      "A) 2/5",
+      "B) 3/5",
+      "C) 12",
+      "D) 18/30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(girl) = 12/(18+12) = 12/30 = 2/5."
+  },
+  {
+    "QuestionText": "P(at least one head) when 3 coins tossed = ?",
+    "Options": [
+      "A) 3/8",
+      "B) 7/8",
+      "C) 1/8",
+      "D) 1/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Total outcomes = 2\u00b3 = 8. P(no head) = 1/8 (TTT). P(at least one head) = 1 - 1/8 = 7/8."
+  },
+  {
+    "QuestionText": "Selecting 3 simultaneously from {1,2,3,4,5}. P(all odd) = ?",
+    "Options": [
+      "A) 1/5",
+      "B) 1/10",
+      "C) 3/10",
+      "D) 6/10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "Odd numbers: {1,3,5}. C(3,3)=1 way to select all 3 odd. Total ways to select 3 from 5: C(5,3)=10. P = 1/10."
+  },
+  {
+    "QuestionText": "If P(E) = 3/7, P(not E) = ?",
+    "Options": [
+      "A) 4/7",
+      "B) 3/7",
+      "C) 7/3",
+      "D) 1/7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "P(not E) = 1 - 3/7 = 4/7."
+  },
+  {
+    "QuestionText": "Throwing two dice simultaneously. Total number of outcomes is:",
+    "Options": [
+      "A) 6",
+      "B) 12",
+      "C) 36",
+      "D) 72"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Sample Space",
+    "Difficulty": "Advanced",
+    "Explanation": "Each die has 6 outcomes. Two dice: 6 \u00d7 6 = 36 total outcomes."
+  },
+  {
+    "QuestionText": "Throwing two dice, P(sum = 7) = ?",
+    "Options": [
+      "A) 1/6",
+      "B) 7/36",
+      "C) 6/36 = 1/6",
+      "D) 1/12"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum=7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 outcomes. P = 6/36 = 1/6."
+  },
+  {
+    "QuestionText": "A number chosen from 1-20. P(divisible by both 2 and 3) = ?",
+    "Options": [
+      "A) 1/10",
+      "B) 3/20",
+      "C) 2/10",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Divisible by 6: {6,12,18} = 3 numbers. P = 3/20."
+  },
+  {
+    "QuestionText": "P(E) cannot be:",
+    "Options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1",
+      "D) 1.5"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Probability must satisfy 0 \u2264 P(E) \u2264 1. Values greater than 1 or less than 0 are impossible for probability."
+  },
+  {
+    "QuestionText": "P(E) = 1/3. Expected frequency of E in 600 trials = ?",
+    "Options": [
+      "A) 100",
+      "B) 200",
+      "C) 300",
+      "D) 400"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Expected frequency = P(E) \u00d7 total trials = (1/3) \u00d7 600 = 200."
+  },
+  {
+    "QuestionText": "A jar has 10 white, 15 black, 5 red marbles. P(white or red) = ?",
+    "Options": [
+      "A) 1/2",
+      "B) 1/3",
+      "C) 1/4",
+      "D) 2/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "P(white or red) = (10+5)/30 = 15/30 = 1/2."
+  },
+  {
+    "QuestionText": "The complement rule states: P(A) + P(A') = ?",
+    "Options": [
+      "A) 0",
+      "B) 2",
+      "C) 1",
+      "D) P(A)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "For any event A and its complement A': P(A) + P(A') = 1. They are exhaustive and mutually exclusive."
+  },
+  {
+    "QuestionText": "A number is chosen at random from 1 to 10. P(prime number) = ?",
+    "Options": [
+      "A) 2/5",
+      "B) 3/10",
+      "C) 1/2",
+      "D) 4/10"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Empirical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Primes from 1-10: {2,3,5,7} = 4 numbers. P = 4/10 = 2/5. Note: 1 is not prime."
+  },
+  {
+    "QuestionText": "If outcomes are equally likely and there are n possible outcomes, probability of any one outcome is:",
+    "Options": [
+      "A) n",
+      "B) 1/n",
+      "C) n/1",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Probability",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "For equally likely outcomes, each outcome has probability 1/n where n = total outcomes."
+  }
+]

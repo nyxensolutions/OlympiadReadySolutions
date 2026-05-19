@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Mirror Image: If a mirror is placed on the line MN, which of the answer figures is the right image of the given figure 'PRAYER'?",
+    "Options": ["A) ꓤƎ⅄∀ꓤꓒ", "B) ꓒꓤ∀⅄Eꓤ", "C) ꓤƎY∀ꓤP", "D) REYARP"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "In a mirror image, the left and right sides are interchanged. The word starts with 'P' on the left, so the mirror image must end with a reversed 'P' on the right."
+  },
+  {
+    "QuestionText": "Pattern Completion: Select a figure from the choices which will continue the same series: [Square with 1 dot] -> [Square with 2 dots] -> [Square with 3 dots] -> ?",
+    "Options": ["A) Square with 2 dots", "B) Square with 3 dots", "C) Square with 4 dots", "D) Empty Square"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The number of dots increases by one in each successive step."
+  },
+  {
+    "QuestionText": "Paper Folding: A square transparent sheet with a pattern is folded along the dotted line. How would the pattern look? [Line with a triangle on left, dot on right]",
+    "Options": ["A) Triangle and dot overlap", "B) Triangle and dot side by side", "C) Only triangle visible", "D) Only dot visible"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Advanced",
+    "Explanation": "When a transparent sheet is folded, the patterns from both halves are superimposed on one another without changing their individual shapes."
+  },
+  {
+    "QuestionText": "Embedded Figures: Find the choice in which the given 'X' shape is hidden.",
+    "Options": ["A) Figure 1", "B) Figure 2", "C) Figure 3", "D) Figure 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "By visually scanning the options, the exact geometry of shape 'X' can be traced within the lines of Figure 1."
+  },
+  {
+    "QuestionText": "Water Image: Choose the correct water image of the figure 'NUCLEAR'.",
+    "Options": ["A) ꓠꓴꓚꓡꓱꓯꓤ", "B) ꓵꓶꓚꓡꓱꓯꓤ", "C) ꓠUCLƎ∀ꓤ", "D) ꓠꓵꓚꓡꓱꓯꓤ"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Water Images",
+    "Difficulty": "Advanced",
+    "Explanation": "In a water image, the top and bottom are interchanged while left and right remain the same. The 'U' becomes an inverted 'U', and 'A' becomes '∀'."
+  },
+  {
+    "QuestionText": "Paper Cutting: A piece of paper is folded and punched as shown. How will it appear when opened? [Folded twice into a square, small circle cut in center]",
+    "Options": ["A) 1 circle", "B) 2 circles", "C) 4 circles", "D) 8 circles"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Paper Cutting",
+    "Difficulty": "Advanced",
+    "Explanation": "Folding once creates 2 layers; folding twice creates 4 layers. One punch through 4 layers results in 4 holes when unfolded."
+  },
+  {
+    "QuestionText": "Figure Matrix: Complete the 3x3 matrix where rows follow a logic: [Circle], [Circle with line], [Circle with cross]...",
+    "Options": ["A) Square", "B) Square with cross", "C) Triangle", "D) Rectangle"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Figure Matrix",
+    "Difficulty": "Advanced",
+    "Explanation": "Each row adds a specific element (line then another line to form a cross) to the base shape of that row."
+  },
+  {
+    "QuestionText": "Mirror Image: Find the mirror image of the time 3:25 as seen in a vertical mirror.",
+    "Options": ["A) 9:35", "B) 8:35", "C) 7:35", "D) 8:25"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Olympiad",
+    "Explanation": "Shortcut for mirror clock: Subtract the time from 11:60. 11:60 - 3:25 = 8:35."
+  },
+  {
+    "QuestionText": "Group the figures: [1, 3, 5 are triangles], [2, 4, 6 are circles], [7, 8, 9 are squares]. Identify the sets.",
+    "Options": ["A) (1,3,5), (2,4,6), (7,8,9)", "B) (1,2,3), (4,5,6), (7,8,9)", "C) (1,5,9), (2,3,4), (6,7,8)", "D) None"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification of Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Figures are grouped based on the number of sides or common geometric properties."
+  },
+  {
+    "QuestionText": "Analogy: [Triangle : 3 sides] :: [Pentagon : ?]",
+    "Options": ["A) 4 sides", "B) 5 sides", "C) 6 sides", "D) 8 sides"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "The relationship is 'Shape : Number of sides'."
+  },
+  {
+    "QuestionText": "Figure Counting: How many triangles are in a square with both diagonals drawn?",
+    "Options": ["A) 4", "B) 6", "C) 8", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Advanced",
+    "Explanation": "There are 4 small triangles and 4 larger triangles formed by combining two smaller ones. Total = 8."
+  },
+  {
+    "QuestionText": "Rule Detection: Select the figure which satisfies the rule: 'Dots move clockwise'.",
+    "Options": ["A) Fig A", "B) Fig B", "C) Fig C", "D) Fig D"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Rule Detection",
+    "Difficulty": "Advanced",
+    "Explanation": "In Fig A, the position of the black dot shifts 90 degrees clockwise in every frame."
+  },
+  {
+    "QuestionText": "Cubes and Dice: If the number 6 is on the bottom, which number will be on the top? (Standard Dice)",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Foundation",
+    "Explanation": "In a standard dice, opposite faces always sum to 7. $7 - 6 = 1$."
+  },
+  {
+    "QuestionText": "Series: [Arrow pointing Up] -> [Arrow pointing Right] -> [Arrow pointing Down] -> ?",
+    "Options": ["A) Up", "B) Left", "C) Right", "D) Down"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The arrow rotates 90 degrees clockwise in each step. After Down comes Left."
+  },
+  {
+    "QuestionText": "Odd One Out: [Square], [Rectangle], [Rhombus], [Circle]",
+    "Options": ["A) Square", "B) Rectangle", "C) Rhombus", "D) Circle"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Square, Rectangle, and Rhombus are polygons (made of straight lines). Circle is a curvilinear figure."
+  },
+  {
+    "QuestionText": "Pattern Completion: Fill in the missing quadrant for a symmetry pattern.",
+    "Options": ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Pattern Completion",
+    "Difficulty": "Advanced",
+    "Explanation": "The missing piece must be a mirror image of the adjacent quadrant to maintain overall rotational symmetry."
+  },
+  {
+    "QuestionText": "Embedded Figures: Which option contains a hidden 'Z' shape?",
+    "Options": ["A) Figure A", "B) Figure B", "C) Figure C", "D) Figure D"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Scanning the lines of the complex figure B reveals the specific angles and lengths that form a 'Z'."
+  },
+  {
+    "QuestionText": "Cubes and Dice: Two positions of a dice are shown. Which number is opposite to 4? [1,2,4] and [1,3,5]",
+    "Options": ["A) 2", "B) 3", "C) 5", "D) 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Advanced",
+    "Explanation": "Since 1 is common, rotating from 1: (1-2-4) and (1-3-5). 2 is opposite 3, and 4 is opposite 5. (Wait, let's re-verify). Standard rule: If one face is common, the other faces in same order are opposite. 2-3, 4-5."
+  },
+  {
+    "QuestionText": "Water Image: Find the water image of the number '8'.",
+    "Options": ["A) 8", "B) Inverted 8", "C) Side 8", "D) None"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Water Images",
+    "Difficulty": "Foundation",
+    "Explanation": "The number 8 is vertically symmetrical; its water image looks identical to the original."
+  },
+  {
+    "QuestionText": "Paper Folding: Fold a circle along the diameter. Then fold again. What shape is formed?",
+    "Options": ["A) Semicircle", "B) Quadrant", "C) Triangle", "D) Rectangle"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Folding a circle once makes a semicircle. Folding it again makes a 1/4th slice, known as a quadrant."
+  },
+  {
+    "QuestionText": "Figure Counting: How many squares are in a 3x3 grid?",
+    "Options": ["A) 9", "B) 10", "C) 13", "D) 14"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Olympiad",
+    "Explanation": "Formula for nxn grid: $\\sum n^2$. For 3x3: $3^2 + 2^2 + 1^2 = 9 + 4 + 1 = 14$."
+  },
+  {
+    "QuestionText": "Mirror Image: What is the mirror image of 'WHITE'?",
+    "Options": ["A) ƎTIHW", "B) ƎTIHW (letters reversed)", "C) ETIHW", "D) W H I T E"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Advanced",
+    "Explanation": "The order of letters reverses and each letter itself is mirrored. 'E' being the rightmost becomes the leftmost mirrored 'Ǝ'."
+  },
+  {
+    "QuestionText": "Classification: Which figure is the odd one? [Shaded 1/2], [Shaded 2/4], [Shaded 3/6], [Shaded 4/5]",
+    "Options": ["A) Fig 1", "B) Fig 2", "C) Fig 3", "D) Fig 4"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Figures 1, 2, and 3 represent exactly 50% shading. Figure 4 represents 80% shading."
+  },
+  {
+    "QuestionText": "Analogy: [Line : Square] :: [Arc : ?]",
+    "Options": ["A) Sphere", "B) Circle", "C) Triangle", "D) Cylinder"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "A square is formed by lines; a circle is formed by an arc (or is a closed arc)."
+  },
+  {
+    "QuestionText": "Water Image: Find the water image of the letter 'M'.",
+    "Options": ["A) M", "B) W", "C) E", "D) 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Water Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Inverting 'M' vertically makes it look like 'W'."
+  },
+  {
+    "QuestionText": "Paper Cutting: Cut a triangle out of a twice-folded square. How many triangles will appear?",
+    "Options": ["A) 2", "B) 4", "C) 8", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Paper Cutting",
+    "Difficulty": "Advanced",
+    "Explanation": "Twice-folded paper has 4 layers. One cut results in 4 instances when opened."
+  },
+  {
+    "QuestionText": "Embedded Figures: Which of the answer figures contains the question figure 'L'?",
+    "Options": ["A) Square", "B) Triangle", "C) Hexagon", "D) Cross"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "An 'L' shape is formed by any two perpendicular adjacent sides of a square."
+  },
+  {
+    "QuestionText": "Dot Situation: A dot is placed inside a Circle and Triangle but outside a Square. Which figure satisfies this?",
+    "Options": ["A) Fig 1", "B) Fig 2", "C) Fig 3", "D) Fig 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Dot Situation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Only Fig 3 has an area that is common to the Circle and Triangle but does not include the Square."
+  },
+  {
+    "QuestionText": "Series: [Square] -> [Pentagon] -> [Hexagon] -> ?",
+    "Options": ["A) Square", "B) Heptagon", "C) Octagon", "D) Circle"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The number of sides increases by 1 in each step: 4, 5, 6, 7."
+  },
+  {
+    "QuestionText": "Cubes and Dice: A cube has 6 colors. Red is opposite Blue. Yellow is opposite Green. What is opposite White?",
+    "Options": ["A) Black", "B) Orange", "C) It depends", "D) Impossible to tell"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Advanced",
+    "Explanation": "Usually, standard logic assumes Black and White as the final pair, but in a specific problem, the remaining color (e.g. Black) must be opposite White."
+  },
+  {
+    "QuestionText": "Mirror Image: Find the mirror image of '123'.",
+    "Options": ["A) 321", "B) ƐՇ⇂", "C) 123", "D) 3 2 1 reversed"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Advanced",
+    "Explanation": "The numbers reverse order (3 becomes first) and each digit is mirrored."
+  },
+  {
+    "QuestionText": "Figure Matrix: [Empty Circle], [Half Shaded Circle], [Fully Shaded Circle]... apply to Square.",
+    "Options": ["A) Fully Shaded Square", "B) Half Shaded Square", "C) Empty Square", "D) Triangle"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Figure Matrix",
+    "Difficulty": "Foundation",
+    "Explanation": "The progression moves from empty to fully shaded."
+  },
+  {
+    "QuestionText": "Odd One Out: Which figure is different? [N], [Z], [S], [E]",
+    "Options": ["A) N", "B) Z", "C) S", "D) E"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "N, Z, and S are formed by 3 straight lines or have similar rotational symmetry. E has 4 lines."
+  },
+  {
+    "QuestionText": "Rule Detection: 'The closed figure becomes open and the open figure becomes closed'. Which pair follows this?",
+    "Options": ["A) Pair 1", "B) Pair 2", "C) Pair 3", "D) Pair 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Rule Detection",
+    "Difficulty": "Advanced",
+    "Explanation": "Check the transformation between the first and second figures in the pair."
+  },
+  {
+    "QuestionText": "Counting Figures: How many circles are in a 5-ring Olympic logo?",
+    "Options": ["A) 5", "B) 6", "C) 10", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "The logo is composed of exactly 5 interlocking rings/circles."
+  },
+  {
+    "QuestionText": "Analogy: [Full Circle : Semicircle] :: [Square : ?]",
+    "Options": ["A) Rectangle", "B) Triangle", "C) Quarter Square", "D) Hexagon"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Advanced",
+    "Explanation": "A semicircle is half a circle. A rectangle (if cut down the middle) is half a square (or another square). Correct logic: dividing shape into two equal halves."
+  },
+  {
+    "QuestionText": "Water Image: What is the water image of 'HELP'?",
+    "Options": ["A) HƎLꓒ", "B) HELP", "C) ꓧꓱꓶꓒ", "D) P L E H"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Water Images",
+    "Difficulty": "Advanced",
+    "Explanation": "The letters are inverted vertically. H remains H, E remains E, L becomes ꓶ, P becomes ꓒ."
+  },
+  {
+    "QuestionText": "Paper Folding: Fold a square diagonally. Then fold again. What is the shape?",
+    "Options": ["A) Small square", "B) Small triangle", "C) Rectangle", "D) Diamond"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Folding a square diagonally once creates a large triangle. Folding that triangle again creates a smaller right-angled triangle."
+  },
+  {
+    "QuestionText": "Embedded Figures: Find the shape 'T' in the following designs.",
+    "Options": ["A) Design 1", "B) Design 2", "C) Design 3", "D) Design 4"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Look for one horizontal line and one vertical line meeting in the center."
+  },
+  {
+    "QuestionText": "Dot Situation: Dot is inside Square and Circle. Which figure satisfies this?",
+    "Options": ["A) Fig A", "B) Fig B", "C) Fig C", "D) Fig D"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Dot Situation",
+    "Difficulty": "Advanced",
+    "Explanation": "The dot must be placed in the overlap area between the square and the circle."
+  },
+  {
+    "QuestionText": "Series: [Clock at 12:00] -> [Clock at 12:15] -> [Clock at 12:30] -> ?",
+    "Options": ["A) 12:45", "B) 1:00", "C) 12:15", "D) 12:00"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The time increases by 15-minute intervals."
+  },
+  {
+    "QuestionText": "Pattern Completion: Which piece completes the star pattern?",
+    "Options": ["A) Piece A", "B) Piece B", "C) Piece C", "D) Piece D"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Pattern Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "Identify the missing 'arm' of the star that matches the symmetry of the others."
+  },
+  {
+    "QuestionText": "Odd One Out: Which figure is the odd one? [Circle with 1 line], [Circle with 2 lines], [Circle with 3 lines], [Circle with a dot]",
+    "Options": ["A) 1st", "B) 2nd", "C) 3rd", "D) 4th"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "The first three involve lines; the fourth introduces a different element (a dot)."
+  },
+  {
+    "QuestionText": "Analogy: [Box : Cube] :: [Circle : ?]",
+    "Options": ["A) Sphere", "B) Cylinder", "C) Oval", "D) Cone"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "A cube is the 3D version of a square/box; a sphere is the 3D version of a circle."
+  },
+  {
+    "QuestionText": "Mirror Image: Mirror image of the number '0'.",
+    "Options": ["A) 0", "B) 1", "C) Empty", "D) 8"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "The number 0 is perfectly symmetrical."
+  },
+  {
+    "QuestionText": "Paper Cutting: A square paper is folded into a triangle. A small hole is made at the corner. What will it look like opened?",
+    "Options": ["A) 1 hole", "B) 2 holes", "C) 4 holes", "D) No holes"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Paper Cutting",
+    "Difficulty": "Advanced",
+    "Explanation": "One fold creates 2 layers. One hole through 2 layers results in 2 holes."
+  },
+  {
+    "QuestionText": "Embedded Figures: Which choice has a hidden 'V' shape?",
+    "Options": ["A) Figure 1", "B) Figure 2", "C) Figure 3", "D) Figure 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Scanning the intersecting lines in Figure 3 reveals the 'V'."
+  },
+  {
+    "QuestionText": "Figure Matrix: [Vertical Line], [Horizontal Line], [Plus Sign]... apply to diagonal lines.",
+    "Options": ["A) Plus sign", "B) Cross sign (X)", "C) Circle", "D) Square"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Figure Matrix",
+    "Difficulty": "Advanced",
+    "Explanation": "Combining the first and second elements results in the third element (superimposition)."
+  },
+  {
+    "QuestionText": "Counting Figures: How many rectangles are in a 2x1 grid (two squares side by side)?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Counting Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "There are 2 individual squares (which are also rectangles) and 1 large rectangle combining both. Total = 3."
+  },
+  {
+    "QuestionText": "Series: [Shaded top left] -> [Shaded top right] -> [Shaded bottom right] -> ?",
+    "Options": ["A) Shaded bottom left", "B) Shaded center", "C) Shaded top left", "D) Shaded bottom right"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The shaded region moves clockwise from quadrant to quadrant."
+  }
+]

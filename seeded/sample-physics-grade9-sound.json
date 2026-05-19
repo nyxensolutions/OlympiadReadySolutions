@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Sound is a __ wave.",
+    "Options": [
+      "A) Transverse",
+      "B) Electromagnetic",
+      "C) Longitudinal",
+      "D) Light"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Nature of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound is a longitudinal mechanical wave \u2014 compressions and rarefactions in the direction of propagation. It requires a medium to travel."
+  },
+  {
+    "QuestionText": "Speed of sound in air at room temperature is approximately:",
+    "Options": [
+      "A) 3\u00d710\u2078 m/s",
+      "B) 340 m/s",
+      "C) 1480 m/s",
+      "D) 5130 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Speed of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed of sound in air \u2248 340 m/s at 20\u00b0C. In water \u2248 1480 m/s. In steel \u2248 5130 m/s. Fastest in solids."
+  },
+  {
+    "QuestionText": "Sound travels fastest in:",
+    "Options": [
+      "A) Air",
+      "B) Water",
+      "C) Vacuum",
+      "D) Solids"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Speed of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed of sound: solid > liquid > gas. Molecules are closest in solids, allowing faster vibration transfer."
+  },
+  {
+    "QuestionText": "Sound cannot travel through:",
+    "Options": [
+      "A) Air",
+      "B) Water",
+      "C) Vacuum",
+      "D) Iron"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Nature of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound is a mechanical wave requiring a medium. Vacuum has no particles to vibrate \u2192 sound cannot travel."
+  },
+  {
+    "QuestionText": "The frequency of sound that determines its pitch. Higher pitch means:",
+    "Options": [
+      "A) Lower frequency",
+      "B) Higher frequency",
+      "C) Higher amplitude",
+      "D) Higher wavelength"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Pitch \u221d frequency. Higher frequency = higher pitch (shrill sound). Lower frequency = lower pitch (deep sound)."
+  },
+  {
+    "QuestionText": "The amplitude of a sound wave determines its:",
+    "Options": [
+      "A) Pitch",
+      "B) Frequency",
+      "C) Speed",
+      "D) Loudness"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Loudness \u221d (Amplitude)\u00b2. Greater amplitude = louder sound."
+  },
+  {
+    "QuestionText": "The unit of loudness is:",
+    "Options": [
+      "A) Hertz",
+      "B) Newton",
+      "C) Decibel (dB)",
+      "D) Watt"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Loudness measured in decibels (dB). Normal conversation \u2248 60 dB. Threshold of hearing = 0 dB. Pain threshold \u2248 120-130 dB."
+  },
+  {
+    "QuestionText": "Frequency is defined as:",
+    "Options": [
+      "A) Number of waves per metre",
+      "B) Number of vibrations per second",
+      "C) Distance between two compressions",
+      "D) Time for one vibration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Frequency f = number of vibrations (cycles) per second. SI unit: Hertz (Hz)."
+  },
+  {
+    "QuestionText": "The time period and frequency are related by:",
+    "Options": [
+      "A) f = T",
+      "B) f = 1/T",
+      "C) f = T\u00b2",
+      "D) f \u00d7 T = 2\u03c0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "f = 1/T. If frequency = 5 Hz, time period T = 0.2s. Frequency and time period are reciprocals."
+  },
+  {
+    "QuestionText": "The wavelength of sound is:",
+    "Options": [
+      "A) Distance between two compressions",
+      "B) Speed \u00d7 frequency",
+      "C) 1/frequency",
+      "D) Amplitude \u00d7 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Wavelength \u03bb = distance between two successive compressions (or rarefactions). v = f\u03bb."
+  },
+  {
+    "QuestionText": "Echo is produced by __ of sound.",
+    "Options": [
+      "A) Refraction",
+      "B) Diffraction",
+      "C) Reflection",
+      "D) Absorption"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Echo is reflected sound. Minimum distance for distinct echo = 17m (time for ear to distinguish echo: 0.1s, v=340m/s \u2192 2d=34m \u2192 d=17m)."
+  },
+  {
+    "QuestionText": "Minimum distance for echo (speed=340 m/s, persistence=0.1s) is:",
+    "Options": [
+      "A) 17 m",
+      "B) 34 m",
+      "C) 340 m",
+      "D) 3.4 m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound travels to wall and back: 2d=340\u00d70.1=34m \u2192 d=17m."
+  },
+  {
+    "QuestionText": "Ultrasound has frequency:",
+    "Options": [
+      "A) Below 20 Hz",
+      "B) 20 Hz to 20 kHz",
+      "C) Above 20 kHz",
+      "D) Above 1 GHz"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Range of Hearing",
+    "Difficulty": "Foundation",
+    "Explanation": "Human hearing: 20 Hz to 20,000 Hz. Infrasound: below 20 Hz. Ultrasound: above 20 kHz."
+  },
+  {
+    "QuestionText": "Bats use __ for navigation.",
+    "Options": [
+      "A) Visible light",
+      "B) Infrared radiation",
+      "C) Ultrasound (echolocation)",
+      "D) Electrical signals"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Bats emit ultrasound pulses and detect echoes (echolocation) to navigate and find prey in darkness."
+  },
+  {
+    "QuestionText": "SONAR stands for:",
+    "Options": [
+      "A) Sound and Radio",
+      "B) Sound Navigation And Ranging",
+      "C) Surface Ocean Navigation and Ranging",
+      "D) Supersonic Ocean Ranging"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "SONAR: Sound Navigation And Ranging. Uses ultrasound to detect underwater objects, measure ocean depth."
+  },
+  {
+    "QuestionText": "The quality (timbre) of sound is determined by:",
+    "Options": [
+      "A) Frequency only",
+      "B) Amplitude only",
+      "C) The waveform (overtones present)",
+      "D) Speed of sound"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Timbre/quality: determined by the shape of the waveform (mix of fundamental frequency and overtones). Allows distinguishing instruments playing same note."
+  },
+  {
+    "QuestionText": "Speed of sound in water \u2248 ?",
+    "Options": [
+      "A) 340 m/s",
+      "B) 1500 m/s",
+      "C) 5000 m/s",
+      "D) 3\u00d710\u2078 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Speed of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound travels in water at \u2248 1480-1500 m/s. About 4\u00d7 faster than in air. Even faster in metals like iron (~5130 m/s)."
+  },
+  {
+    "QuestionText": "Reverberation is:",
+    "Options": [
+      "A) Single clear echo",
+      "B) Persistence of sound due to multiple reflections",
+      "C) Refraction of sound",
+      "D) Absorption of sound"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Reverberation: prolonged sound due to multiple reflections in an enclosed space. Controlled using soft, sound-absorbing materials in concert halls."
+  },
+  {
+    "QuestionText": "Infrasound has frequency:",
+    "Options": [
+      "A) Above 20 kHz",
+      "B) 20 Hz to 20 kHz",
+      "C) Below 20 Hz",
+      "D) Above 1 MHz"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Range of Hearing",
+    "Difficulty": "Foundation",
+    "Explanation": "Infrasound: frequency below 20 Hz. Produced by earthquakes, whales, elephants. Humans cannot hear it."
+  },
+  {
+    "QuestionText": "The formula v = f\u03bb relates:",
+    "Options": [
+      "A) Velocity, frequency, and wavelength",
+      "B) Velocity, force, and length",
+      "C) Volume, frequency, and loudness",
+      "D) Vibration, frequency, and amplitude"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "v = f\u03bb: wave speed = frequency \u00d7 wavelength. Fundamental wave equation."
+  },
+  {
+    "QuestionText": "Sound waves in air consist of:",
+    "Options": [
+      "A) Compressions only",
+      "B) Rarefactions only",
+      "C) Alternating compressions and rarefactions",
+      "D) Transverse vibrations"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Nature of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound wave: regions of compression (high pressure) and rarefaction (low pressure) alternating longitudinally."
+  },
+  {
+    "QuestionText": "Audible range of human ear is:",
+    "Options": [
+      "A) 0 to 20 Hz",
+      "B) 20 Hz to 20,000 Hz",
+      "C) 20 kHz to 100 kHz",
+      "D) 0 to 100 Hz"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Range of Hearing",
+    "Difficulty": "Foundation",
+    "Explanation": "Human hearing range: 20 Hz to 20 kHz (20,000 Hz). Children can hear up to 20 kHz; elderly often can't hear high frequencies."
+  },
+  {
+    "QuestionText": "A sound wave has frequency 500 Hz and wavelength 0.68 m. Speed = ?",
+    "Options": [
+      "A) 340 m/s",
+      "B) 680 m/s",
+      "C) 0.00136 m/s",
+      "D) 7.35 m/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "v = f\u03bb = 500 \u00d7 0.68 = 340 m/s."
+  },
+  {
+    "QuestionText": "Sound from a source at 300m takes how long to reach you? (v=340 m/s)",
+    "Options": [
+      "A) 0.88s",
+      "B) 1.13s",
+      "C) 102000s",
+      "D) 0.57s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Speed of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "t = d/v = 300/340 \u2248 0.88 s."
+  },
+  {
+    "QuestionText": "During a thunderstorm, lightning is seen 3s before thunder (v_sound=340 m/s). Distance of lightning = ?",
+    "Options": [
+      "A) 340 m",
+      "B) 680 m",
+      "C) 1020 m",
+      "D) 113 m"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Speed of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Light travels almost instantly. Sound: d = v\u00d7t = 340\u00d73 = 1020 m \u2248 1 km."
+  },
+  {
+    "QuestionText": "Stethoscope works on the principle of:",
+    "Options": [
+      "A) Reflection of sound",
+      "B) Refraction of sound",
+      "C) Multiple reflections in a tube",
+      "D) Ultrasound imaging"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Stethoscope uses multiple reflections of sound within its tubes to amplify and transmit heart/lung sounds to the doctor's ears."
+  },
+  {
+    "QuestionText": "Ultrasound is used in:",
+    "Options": [
+      "A) Sonar",
+      "B) Medical imaging (sonography)",
+      "C) Industrial flaw detection",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Ultrasound applications: SONAR (underwater), medical imaging (prenatal scans), industrial flaw detection, cleaning jewelry."
+  },
+  {
+    "QuestionText": "The Doppler effect refers to change in __ due to relative motion.",
+    "Options": [
+      "A) Amplitude",
+      "B) Speed",
+      "C) Frequency (pitch)",
+      "D) Wavelength only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Doppler Effect",
+    "Difficulty": "Advanced",
+    "Explanation": "Doppler effect: observed frequency changes when source and observer are in relative motion. Ambulance siren sounds higher when approaching."
+  },
+  {
+    "QuestionText": "A sound wave has time period T = 0.002s. Frequency = ?",
+    "Options": [
+      "A) 50 Hz",
+      "B) 500 Hz",
+      "C) 5000 Hz",
+      "D) 0.002 Hz"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "f = 1/T = 1/0.002 = 500 Hz."
+  },
+  {
+    "QuestionText": "Which material is best for soundproofing?",
+    "Options": [
+      "A) Concrete",
+      "B) Steel",
+      "C) Glass",
+      "D) Foam/soft materials"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Soft, porous materials (foam, carpet, curtains) absorb sound energy \u2192 reduce reflection and reverberation \u2192 soundproofing."
+  },
+  {
+    "QuestionText": "Wavelength of 440 Hz sound in air (v=340 m/s) is:",
+    "Options": [
+      "A) 0.52 m",
+      "B) 0.77 m",
+      "C) 1.29 m",
+      "D) 149600 m"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "\u03bb = v/f = 340/440 \u2248 0.77 m."
+  },
+  {
+    "QuestionText": "Loudness is measured on a scale using:",
+    "Options": [
+      "A) Linear scale",
+      "B) Logarithmic scale (decibels)",
+      "C) Exponential scale",
+      "D) Quadratic scale"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "dB scale is logarithmic. 10 dB increase = 10\u00d7 power increase. 20 dB = 100\u00d7 power. Reflects human perception of loudness."
+  },
+  {
+    "QuestionText": "During echolocation, a bat emits a pulse and receives echo after 0.02s. Distance to obstacle (v=340 m/s) = ?",
+    "Options": [
+      "A) 1.7 m",
+      "B) 3.4 m",
+      "C) 6.8 m",
+      "D) 0.34 m"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Total distance = v\u00d7t = 340\u00d70.02 = 6.8 m. Sound travels to obstacle AND back. d = 6.8/2 = 3.4 m."
+  },
+  {
+    "QuestionText": "Speed of sound increases with:",
+    "Options": [
+      "A) Decreasing temperature",
+      "B) Increasing temperature",
+      "C) Increasing humidity decreases speed",
+      "D) Less dense medium"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Speed of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "v_sound \u221d \u221aT (absolute temperature). Warmer air \u2192 faster sound. v \u2248 331 + 0.6T m/s where T is in \u00b0C."
+  },
+  {
+    "QuestionText": "A compression in a sound wave corresponds to:",
+    "Options": [
+      "A) Region of low pressure",
+      "B) Region of low density",
+      "C) Region of high pressure and high density",
+      "D) Silence"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Nature of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Compression: molecules pushed together \u2192 high density and high pressure. Rarefaction: molecules spread out \u2192 low density and low pressure."
+  },
+  {
+    "QuestionText": "Seismic waves (earthquake waves) are:",
+    "Options": [
+      "A) Light waves",
+      "B) Electromagnetic waves",
+      "C) Mechanical (sound-like) waves",
+      "D) X-rays"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Nature of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Seismic waves are mechanical waves propagating through Earth. P-waves (longitudinal) and S-waves (transverse). Similar to sound."
+  },
+  {
+    "QuestionText": "Music differs from noise because music has:",
+    "Options": [
+      "A) Lower frequency",
+      "B) Regular, periodic waveforms",
+      "C) Greater amplitude",
+      "D) No reflections"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Music has regular, periodic vibrations at specific frequencies. Noise has irregular, non-periodic vibrations."
+  },
+  {
+    "QuestionText": "Wavelength is the distance between:",
+    "Options": [
+      "A) Compression and next rarefaction",
+      "B) Two consecutive compressions",
+      "C) Source and observer",
+      "D) Two nodes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Wavelength \u03bb = distance between two consecutive compressions (or two consecutive rarefactions)."
+  },
+  {
+    "QuestionText": "The human ear detects sound via vibrations of:",
+    "Options": [
+      "A) Cochlea only",
+      "B) Eardrum (tympanic membrane)",
+      "C) Pinna only",
+      "D) Auditory nerve only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Human Ear",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound \u2192 eardrum vibrates \u2192 three ossicles (hammer, anvil, stirrup) amplify \u2192 cochlea (fluid + hair cells) \u2192 auditory nerve \u2192 brain."
+  },
+  {
+    "QuestionText": "The function of the pinna (outer ear flap) is to:",
+    "Options": [
+      "A) Amplify sound electrically",
+      "B) Collect and direct sound into ear canal",
+      "C) Detect frequency",
+      "D) Generate nerve signals"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Human Ear",
+    "Difficulty": "Foundation",
+    "Explanation": "Pinna: the visible outer ear. Collects sound waves and funnels them into the ear canal toward the eardrum."
+  },
+  {
+    "QuestionText": "Noise pollution is harmful because it can cause:",
+    "Options": [
+      "A) High blood pressure",
+      "B) Hearing loss",
+      "C) Stress and insomnia",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Chronic noise pollution: hearing loss, high blood pressure (hypertension), stress, sleep disorders, reduced productivity."
+  },
+  {
+    "QuestionText": "An echo is heard after the sound returns from a surface. The voice takes 0.5s to complete a round trip. Distance to wall (v=340 m/s) = ?",
+    "Options": [
+      "A) 85 m",
+      "B) 170 m",
+      "C) 680 m",
+      "D) 340 m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "d = v\u00d7t/2 = 340\u00d70.5/2 = 85 m."
+  },
+  {
+    "QuestionText": "Frequency 20 Hz, wavelength = ?  (v=340 m/s)",
+    "Options": [
+      "A) 17 m",
+      "B) 8.5 m",
+      "C) 340 m",
+      "D) 0.059 m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "\u03bb = v/f = 340/20 = 17 m. Low frequency sound has long wavelength."
+  },
+  {
+    "QuestionText": "What is 'timbre' or 'quality' of sound?",
+    "Options": [
+      "A) Loudness",
+      "B) Pitch",
+      "C) The tone colour distinguishing same note from different instruments",
+      "D) Speed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Timbre allows us to distinguish a violin from a flute playing the same note at the same loudness. Determined by harmonic content."
+  },
+  {
+    "QuestionText": "Ultrasound waves used in sonography have frequency in the range:",
+    "Options": [
+      "A) 20 Hz to 20 kHz",
+      "B) 1-18 MHz",
+      "C) 1-10 Hz",
+      "D) 1-10 GHz"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Medical ultrasound: typically 1-18 MHz (1,000,000-18,000,000 Hz). Much higher than audible range."
+  },
+  {
+    "QuestionText": "Which animal can hear infrasound?",
+    "Options": [
+      "A) Bats",
+      "B) Dogs",
+      "C) Elephants",
+      "D) Cats"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Range of Hearing",
+    "Difficulty": "Advanced",
+    "Explanation": "Elephants communicate using infrasound (below 20 Hz) over long distances. Bats use ultrasound. Dogs hear up to 65 kHz."
+  },
+  {
+    "QuestionText": "The velocity of sound in a medium depends on:",
+    "Options": [
+      "A) Frequency",
+      "B) Amplitude",
+      "C) Elasticity and density of medium",
+      "D) Loudness"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Speed of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "v = \u221a(E/\u03c1) where E = elasticity (stiffness) and \u03c1 = density. High elasticity \u2192 fast sound. High density \u2192 slower sound (but metals are both dense and elastic, so still fast)."
+  },
+  {
+    "QuestionText": "Sound intensity at 100 dB vs 80 dB: ratio of intensities = ?",
+    "Options": [
+      "A) 20:1",
+      "B) 100:1",
+      "C) 1000:1",
+      "D) 10:1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u03b2 = 10 log(I/I\u2080). \u0394\u0392 = 20 dB. 20 = 10 log(I\u2081/I\u2082) \u2192 log(I\u2081/I\u2082)=2 \u2192 I\u2081/I\u2082=100. 100 dB is 100\u00d7 more intense than 80 dB."
+  },
+  {
+    "QuestionText": "Rolling thunder (prolonged) vs sharp crack of lightning are due to:",
+    "Options": [
+      "A) Multiple lightning strikes",
+      "B) Sound reaching us from different parts of the extended lightning channel at different times",
+      "C) Echo from clouds",
+      "D) Higher frequency at closer distance"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "Extended lightning channel: sound from near end arrives first (sharp), then gradually from farther parts \u2192 prolonged rumble."
+  },
+  {
+    "QuestionText": "Sonar is used to:",
+    "Options": [
+      "A) Detect EM radiation",
+      "B) Detect underwater objects by measuring echo time",
+      "C) Measure atmospheric pressure",
+      "D) Map the sky"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "SONAR uses ultrasound pulses and measures the time for echoes to return from underwater objects (submarines, fish, sea floor). Distance = v \u00d7 t/2."
+  }
+]

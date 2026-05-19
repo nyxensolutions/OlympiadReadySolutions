@@ -13,4 +13,5 @@ public class User
     public List<MockTestResult> Results { get; set; } = new();
     public List<Subscription> Subscriptions { get; set; } = new();
     public List<UserMastery> Mastery { get; set; } = new();
+    public List<PdfPurchase> PdfPurchases { get; set; } = new();
 }

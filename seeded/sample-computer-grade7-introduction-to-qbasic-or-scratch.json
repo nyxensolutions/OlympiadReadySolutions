@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "QBASIC stands for Quick Beginners All-purpose Symbolic Instruction Code",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) QBASIC = Quantum BASIC",
+      "D) QBASIC = Quick Binary System"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC basics",
+    "Difficulty": "Foundation",
+    "Explanation": "QBASIC is a beginner-friendly programming language by Microsoft, derived from BASIC."
+  },
+  {
+    "QuestionText": "PRINT in QBASIC displays output on the screen",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) PRINT reads input",
+      "D) PRINT stores values"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC commands",
+    "Difficulty": "Foundation",
+    "Explanation": "PRINT 'Hello' displays Hello on screen."
+  },
+  {
+    "QuestionText": "INPUT in QBASIC accepts user keyboard entry",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) INPUT displays output",
+      "D) INPUT creates loops"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC commands",
+    "Difficulty": "Foundation",
+    "Explanation": "INPUT 'Enter name: '; N$ stores keyboard entry in N$."
+  },
+  {
+    "QuestionText": "Variables ending with $ in QBASIC store text (string) data",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) $ means integer",
+      "D) $ means decimal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC variables",
+    "Difficulty": "Foundation",
+    "Explanation": "QBASIC naming: N$ = string (text), N = numeric."
+  },
+  {
+    "QuestionText": "CLS in QBASIC clears the output screen",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) CLS closes program",
+      "D) CLS copies data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC commands",
+    "Difficulty": "Foundation",
+    "Explanation": "CLS (Clear Screen): clears display for a clean output screen."
+  },
+  {
+    "QuestionText": "END in QBASIC terminates program execution",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) END starts a loop",
+      "D) END clears screen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC commands",
+    "Difficulty": "Foundation",
+    "Explanation": "END: terminates program. Should be the last executable statement."
+  },
+  {
+    "QuestionText": "REM in QBASIC adds comments (remarks) ignored during execution",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) REM runs expressions",
+      "D) REM clears screen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC comments",
+    "Difficulty": "Foundation",
+    "Explanation": "REM REMark: documents code. Lines starting with REM are not executed."
+  },
+  {
+    "QuestionText": "IF...THEN...ELSE in QBASIC is used for conditional execution",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) IF...THEN is a loop",
+      "D) IF...THEN stores data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC control structures",
+    "Difficulty": "Foundation",
+    "Explanation": "IF condition THEN action ELSE alternative: branches execution based on a test."
+  },
+  {
+    "QuestionText": "FOR...NEXT in QBASIC repeats a block a specific number of times",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) FOR...NEXT runs while a condition is true",
+      "D) FOR...NEXT is conditional only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC loops",
+    "Difficulty": "Foundation",
+    "Explanation": "FOR i = 1 TO 10 ... NEXT i: executes body 10 times."
+  },
+  {
+    "QuestionText": "WHILE...WEND in QBASIC repeats while a condition is true",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) WHILE...WEND runs a fixed number of times",
+      "D) WHILE...WEND never loops"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC loops",
+    "Difficulty": "Foundation",
+    "Explanation": "WHILE condition ... WEND: continues while condition is true."
+  },
+  {
+    "QuestionText": "PRINT 5 + 3 in QBASIC outputs 8",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Outputs 53",
+      "D) Outputs 15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC arithmetic",
+    "Difficulty": "Foundation",
+    "Explanation": "PRINT evaluates 5+3=8 and displays 8."
+  },
+  {
+    "QuestionText": "GOSUB in QBASIC calls a subroutine and RETURN brings back control",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) GOSUB ends program",
+      "D) GOSUB creates variables"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC subroutines",
+    "Difficulty": "Advanced",
+    "Explanation": "GOSUB label: jumps to subroutine; RETURN: returns to line after GOSUB."
+  },
+  {
+    "QuestionText": "GOTO in QBASIC jumps unconditionally to a specified line or label",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) GOTO returns from subroutine",
+      "D) GOTO ends program"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC control flow",
+    "Difficulty": "Foundation",
+    "Explanation": "GOTO lineNumber: unconditional jump. Generally avoided in structured programming."
+  },
+  {
+    "QuestionText": "SQR(16) in QBASIC returns 4 (square root)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Returns 256",
+      "D) Returns 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC functions",
+    "Difficulty": "Foundation",
+    "Explanation": "SQR(n) = square root of n. SQR(16) = 4."
+  },
+  {
+    "QuestionText": "INT(7.9) in QBASIC returns 7 (integer part)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Returns 8",
+      "D) Returns 7.9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC functions",
+    "Difficulty": "Foundation",
+    "Explanation": "INT(n): largest integer <= n (floor). INT(7.9) = 7."
+  },
+  {
+    "QuestionText": "ABS(-5) in QBASIC returns 5 (absolute value)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Returns -5",
+      "D) Returns 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC functions",
+    "Difficulty": "Foundation",
+    "Explanation": "ABS(n): magnitude without sign. ABS(-5) = 5."
+  },
+  {
+    "QuestionText": "Scratch is a visual block-based programming language created by MIT",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Microsoft created Scratch",
+      "D) Google created Scratch"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Scratch (MIT Media Lab): drag-and-drop block programming for children and beginners."
+  },
+  {
+    "QuestionText": "In Scratch, a sprite is a programmable character or object on screen",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Sprite is a background",
+      "D) Sprite is a block category"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch",
+    "Difficulty": "Foundation",
+    "Explanation": "Sprites are the characters/objects in a project; each has scripts, costumes, and sounds."
+  },
+  {
+    "QuestionText": "Costumes in Scratch are different visual appearances of a sprite",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Costumes are background images",
+      "D) Costumes are sound files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch",
+    "Difficulty": "Foundation",
+    "Explanation": "Switching costumes creates animation effects for a sprite."
+  },
+  {
+    "QuestionText": "Backdrops in Scratch are background images for the stage",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Backdrops are sprite costumes",
+      "D) Backdrops are scripts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch",
+    "Difficulty": "Foundation",
+    "Explanation": "Backdrops: background images for the main stage area."
+  },
+  {
+    "QuestionText": "The 'when green flag clicked' block starts a Scratch script",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Green flag stops program",
+      "D) Green flag clears stage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch events",
+    "Difficulty": "Foundation",
+    "Explanation": "Green flag click event: the primary trigger to start running scripts."
+  },
+  {
+    "QuestionText": "The 'forever' block in Scratch creates an infinite loop",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Forever runs once",
+      "D) Forever runs 10 times"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch loops",
+    "Difficulty": "Foundation",
+    "Explanation": "Forever block: repeats enclosed blocks continuously until stopped."
+  },
+  {
+    "QuestionText": "The 'repeat (10)' block in Scratch runs enclosed blocks 10 times",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Repeat 10 runs forever",
+      "D) Repeat 10 runs once"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch loops",
+    "Difficulty": "Foundation",
+    "Explanation": "Repeat(n): executes the enclosed script exactly n times."
+  },
+  {
+    "QuestionText": "The 'if...then' block in Scratch executes blocks only if condition is true",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) If...then always runs",
+      "D) If...then never runs"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch conditionals",
+    "Difficulty": "Foundation",
+    "Explanation": "Conditional execution: if condition is true, run enclosed blocks; otherwise skip."
+  },
+  {
+    "QuestionText": "The 'ask and wait' block in Scratch collects user input",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Ask and wait plays sound",
+      "D) Ask and wait moves sprite"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch input",
+    "Difficulty": "Foundation",
+    "Explanation": "Ask and wait: displays question, waits for user to type; stores answer in 'answer' variable."
+  },
+  {
+    "QuestionText": "The 'broadcast' block in Scratch sends a message to trigger scripts in other sprites",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Broadcast plays sounds",
+      "D) Broadcast moves sprites"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch communication",
+    "Difficulty": "Advanced",
+    "Explanation": "Broadcast: event-based messaging between sprites; triggers 'when I receive' blocks."
+  },
+  {
+    "QuestionText": "The 'glide to' block smoothly moves a sprite to a position over time",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Glide instantly teleports",
+      "D) Glide rotates sprite"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch motion",
+    "Difficulty": "Foundation",
+    "Explanation": "'Glide (1) secs to x y': animates smooth movement to target coordinates."
+  },
+  {
+    "QuestionText": "In QBASIC, C = A + B stores the sum of A and B in variable C",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) C = A + B prints the sum",
+      "D) C = A + B creates a loop"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC arithmetic",
+    "Difficulty": "Foundation",
+    "Explanation": "Assignment: C = A + B evaluates the right side and stores result in C."
+  },
+  {
+    "QuestionText": "A nested loop is a loop inside another loop",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Nested loop runs once",
+      "D) Nested loop is always infinite"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Loops",
+    "Difficulty": "Advanced",
+    "Explanation": "Nested loops: inner loop completes all iterations for each outer loop iteration."
+  },
+  {
+    "QuestionText": "DIM scores(10) in QBASIC declares an array named scores with 10 elements",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) DIM creates a subroutine",
+      "D) DIM clears variables"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC arrays",
+    "Difficulty": "Advanced",
+    "Explanation": "DIM(dimension): declares arrays. DIM scores(10) allocates space for elements 0-10."
+  },
+  {
+    "QuestionText": "FOR I = 1 TO 5: PRINT I: NEXT I prints 1, 2, 3, 4, 5",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Prints 5 4 3 2 1",
+      "D) Prints 0 1 2 3 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC loops",
+    "Difficulty": "Foundation",
+    "Explanation": "FOR I=1 TO 5: loop runs with I=1,2,3,4,5; PRINT I outputs each value."
+  },
+  {
+    "QuestionText": "STEP keyword in QBASIC FOR loop sets the increment value",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) STEP sets start value",
+      "D) STEP stops the loop"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC loops",
+    "Difficulty": "Advanced",
+    "Explanation": "FOR I = 0 TO 10 STEP 2: I takes values 0,2,4,6,8,10. Negative STEP counts down."
+  },
+  {
+    "QuestionText": "LEN('Hello') in QBASIC returns 5",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Returns 4",
+      "D) Returns 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC string functions",
+    "Difficulty": "Advanced",
+    "Explanation": "LEN(s$) = number of characters. 'Hello' has 5 characters: H,e,l,l,o."
+  },
+  {
+    "QuestionText": "MID$('HELLO', 2, 3) in QBASIC returns 'ELL'",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Returns 'HEL'",
+      "D) Returns 'LLO'"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC string functions",
+    "Difficulty": "Advanced",
+    "Explanation": "MID$(string, start, length): starts at position 2 ('E'), takes 3 chars: E,L,L."
+  },
+  {
+    "QuestionText": "The 'pen down' block in Scratch draws a line as the sprite moves",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Pen down stops movement",
+      "D) Pen down deletes sprite"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch pen tools",
+    "Difficulty": "Foundation",
+    "Explanation": "Pen extension: pen down = sprite draws as it moves; pen up = no drawing."
+  },
+  {
+    "QuestionText": "In Scratch, variables can be global (all sprites) or local (one sprite)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) All variables are global",
+      "D) All variables are local"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch variables",
+    "Difficulty": "Advanced",
+    "Explanation": "Variable scope: global for all sprites, or local to one sprite only."
+  },
+  {
+    "QuestionText": "Scratch Operators category has math blocks (+, -, *, /)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Operators has only motion",
+      "D) Operators has only events"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch operators",
+    "Difficulty": "Foundation",
+    "Explanation": "Operators category: arithmetic (+,-,*,/), comparison (>,<,=), logical (and,or,not), and math functions."
+  },
+  {
+    "QuestionText": "'Touching colour' block in Scratch detects when sprite touches a specific colour",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) It detects key presses",
+      "D) It detects sound"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch sensing",
+    "Difficulty": "Advanced",
+    "Explanation": "Colour-touching detection is used for collision with coloured areas on the stage backdrop."
+  },
+  {
+    "QuestionText": "LOCATE r, c in QBASIC positions cursor at row r, column c",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) LOCATE sets variable",
+      "D) LOCATE clears screen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC screen",
+    "Difficulty": "Advanced",
+    "Explanation": "LOCATE row, column: positions text cursor before printing; useful for formatting output."
+  },
+  {
+    "QuestionText": "In Scratch, 'set x to 0' places the sprite at horizontal centre of stage",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) x=0 is the left edge",
+      "D) x=0 is the right edge"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch coordinates",
+    "Difficulty": "Foundation",
+    "Explanation": "Scratch stage: x=-240 (left) to 240 (right), 0 is centre. y=-180 (bottom) to 180 (top)."
+  },
+  {
+    "QuestionText": "DATA and READ in QBASIC store and read pre-defined values in the program",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) DATA gets keyboard input",
+      "D) DATA prints to screen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC data",
+    "Difficulty": "Advanced",
+    "Explanation": "DATA stores constants in program code; READ sequentially assigns them to variables."
+  },
+  {
+    "QuestionText": "'Stop all' in Scratch stops all scripts in all sprites",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Stop all deletes sprites",
+      "D) Stop all pauses 1 second"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch control",
+    "Difficulty": "Foundation",
+    "Explanation": "'Stop all': halts execution of all scripts; equivalent to pressing the red stop button."
+  },
+  {
+    "QuestionText": "Decomposition in computational thinking means breaking a problem into smaller parts",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Decomposition sorts data",
+      "D) Decomposition counts iterations"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Computational thinking",
+    "Difficulty": "Foundation",
+    "Explanation": "Decomposition: dividing a complex problem into smaller, manageable sub-problems."
+  },
+  {
+    "QuestionText": "Pattern recognition means identifying similarities to simplify problem solving",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Pattern recognition finds files",
+      "D) Pattern recognition recognises fonts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Computational thinking",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern recognition: spotting trends or repeating structures across problems to apply known solutions."
+  },
+  {
+    "QuestionText": "Abstraction means focusing on essential details and ignoring irrelevant ones",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Abstraction adds more details",
+      "D) Abstraction removes all data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Computational thinking",
+    "Difficulty": "Foundation",
+    "Explanation": "Abstraction: hide unnecessary complexity; work with simplified models."
+  },
+  {
+    "QuestionText": "A valid algorithm must eventually terminate (be finite)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) An algorithm can run forever",
+      "D) An algorithm has no steps"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Algorithm properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Algorithm properties: finite, definite, effective, and have defined input/output."
+  },
+  {
+    "QuestionText": "In Scratch, the 'size' block changes sprite size as a percentage",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Size block changes colour",
+      "D) Size block changes costume"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch appearance",
+    "Difficulty": "Foundation",
+    "Explanation": "Set size to 50%: half original. Set to 200%: double. Useful for scaling animation."
+  },
+  {
+    "QuestionText": "Scratch's step-by-step execution helps find logic errors in scripts",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Scratch has no debug features",
+      "D) Scratch automatically deletes bugs"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "Scratch debugging",
+    "Difficulty": "Advanced",
+    "Explanation": "Scratch highlights active blocks when running; you can click individual blocks to test them."
+  },
+  {
+    "QuestionText": "BASIC was designed in 1964 to be easy for beginners to learn",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) BASIC was made for experts only",
+      "D) BASIC was made in 1990"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "BASIC history",
+    "Difficulty": "Foundation",
+    "Explanation": "BASIC (1964, Dartmouth): Beginner's All-purpose Symbolic Instruction Code. Designed for non-technical students."
+  },
+  {
+    "QuestionText": "In QBASIC, the modulus operator MOD gives the remainder after division",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) MOD multiplies numbers",
+      "D) MOD divides exactly"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Introduction to QBASIC and Scratch",
+    "SubTopic": "QBASIC operators",
+    "Difficulty": "Foundation",
+    "Explanation": "10 MOD 3 = 1 (remainder of 10/3). Used to check odd/even, divisibility, etc."
+  }
+]

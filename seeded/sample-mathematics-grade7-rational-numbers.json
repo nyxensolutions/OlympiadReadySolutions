@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which of the following is a rational number?",
+    "Options": [
+      "A) 5/7",
+      "B) \u221a2",
+      "C) \u03c0",
+      "D) \u221a5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Definition",
+    "Difficulty": "Foundation",
+    "Explanation": "A rational number can be expressed as p/q where p,q are integers and q\u22600. 5/7 fits this. \u221a2,\u03c0,\u221a5 are irrational."
+  },
+  {
+    "QuestionText": "What is the additive inverse of \u22127/9?",
+    "Options": [
+      "A) 7/9",
+      "B) \u22129/7",
+      "C) 9/7",
+      "D) \u22127/9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Additive inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "(\u22127/9)+7/9=0, so 7/9 is the additive inverse."
+  },
+  {
+    "QuestionText": "Which rational number lies between 1/4 and 1/2?",
+    "Options": [
+      "A) 3/8",
+      "B) 2/3",
+      "C) 1/8",
+      "D) 3/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Between two rationals",
+    "Difficulty": "Foundation",
+    "Explanation": "1/4=0.25 and 1/2=0.5. 3/8=0.375 lies between them."
+  },
+  {
+    "QuestionText": "\u22125 is a rational number because:",
+    "Options": [
+      "A) \u22125=\u22125/1",
+      "B) Negatives are not rational",
+      "C) It has no decimal form",
+      "D) It is not an integer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Every integer is rational. \u22125=\u22125/1 is of the form p/q with q\u22600."
+  },
+  {
+    "QuestionText": "Write \u221214/21 in simplest form.",
+    "Options": [
+      "A) \u22122/3",
+      "B) 2/3",
+      "C) \u22127/10",
+      "D) \u22123/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Standard form",
+    "Difficulty": "Foundation",
+    "Explanation": "GCD(14,21)=7. \u221214/21=\u22122/3."
+  },
+  {
+    "QuestionText": "What is 3/5 + (\u22124/5)?",
+    "Options": [
+      "A) \u22121/5",
+      "B) 1/5",
+      "C) 7/5",
+      "D) \u22127/5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "(3\u22124)/5=\u22121/5."
+  },
+  {
+    "QuestionText": "What is (\u22123/7)\u00d7(\u221214/9)?",
+    "Options": [
+      "A) 2/3",
+      "B) \u22122/3",
+      "C) 3/2",
+      "D) \u22123/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplication",
+    "Difficulty": "Foundation",
+    "Explanation": "Neg\u00d7Neg=Pos. 3\u00d714=42; 7\u00d79=63; 42/63=2/3."
+  },
+  {
+    "QuestionText": "Multiplicative inverse of \u22125/8 is ___",
+    "Options": [
+      "A) \u22128/5",
+      "B) 8/5",
+      "C) 5/8",
+      "D) \u22125/8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplicative inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "(\u22125/8)\u00d7(\u22128/5)=1."
+  },
+  {
+    "QuestionText": "Find: (\u22125/6)\u00f7(5/12)",
+    "Options": [
+      "A) \u22122",
+      "B) 2",
+      "C) \u221225/72",
+      "D) 25/72"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Division",
+    "Difficulty": "Foundation",
+    "Explanation": "(\u22125/6)\u00d7(12/5)=\u221260/30=\u22122."
+  },
+  {
+    "QuestionText": "\u22123/4 on the number line lies between ___",
+    "Options": [
+      "A) \u22121 and 0",
+      "B) 0 and 1",
+      "C) \u22122 and \u22121",
+      "D) 1 and 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Number line",
+    "Difficulty": "Foundation",
+    "Explanation": "\u22123/4=\u22120.75 is between \u22121 and 0."
+  },
+  {
+    "QuestionText": "Sum of a rational number and its additive inverse is ___",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2\u00d7the number",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Additive inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "x+(\u2212x)=0 by definition."
+  },
+  {
+    "QuestionText": "How many rational numbers exist between any two distinct rationals?",
+    "Options": [
+      "A) Infinitely many",
+      "B) 1",
+      "C) 10",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Density property",
+    "Difficulty": "Foundation",
+    "Explanation": "Density property: infinitely many rationals lie between any two distinct rationals."
+  },
+  {
+    "QuestionText": "Standard form of \u221215/(\u221225) is ___",
+    "Options": [
+      "A) 3/5",
+      "B) \u22123/5",
+      "C) 5/3",
+      "D) \u22125/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Standard form",
+    "Difficulty": "Foundation",
+    "Explanation": "\u221215/(\u221225)=15/25=3/5."
+  },
+  {
+    "QuestionText": "If q=1 in p/q, then p/q is ___",
+    "Options": [
+      "A) An integer",
+      "B) A fraction",
+      "C) Irrational",
+      "D) Complex"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Integers and rationals",
+    "Difficulty": "Foundation",
+    "Explanation": "p/1=p, which is an integer."
+  },
+  {
+    "QuestionText": "0 divided by any non-zero rational number equals ___",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) Itself",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Division",
+    "Difficulty": "Foundation",
+    "Explanation": "0/q=0 for any q\u22600."
+  },
+  {
+    "QuestionText": "Evaluate: 4/9\u2212(\u22122/3)",
+    "Options": [
+      "A) 10/9",
+      "B) 2/9",
+      "C) \u22122/9",
+      "D) \u221210/9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "4/9\u2212(\u22122/3)=4/9+6/9=10/9."
+  },
+  {
+    "QuestionText": "Simplify: (\u22122/3)\u00d7(9/4)\u00d7(\u22128/3)",
+    "Options": [
+      "A) 4",
+      "B) \u22124",
+      "C) 3",
+      "D) \u22123"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "2 negatives\u2192positive. (2\u00d79\u00d78)/(3\u00d74\u00d73)=144/36=4."
+  },
+  {
+    "QuestionText": "Rational number halfway between \u22121/4 and 1/2 is ___",
+    "Options": [
+      "A) 1/8",
+      "B) 1/4",
+      "C) 3/8",
+      "D) \u22121/8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Midpoint",
+    "Difficulty": "Advanced",
+    "Explanation": "(\u22121/4+1/2)/2=(1/4)/2=1/8."
+  },
+  {
+    "QuestionText": "Which rational is its own multiplicative inverse?",
+    "Options": [
+      "A) 1 and \u22121",
+      "B) Only 1",
+      "C) 0",
+      "D) Only \u22121"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplicative inverse",
+    "Difficulty": "Advanced",
+    "Explanation": "1\u00d71=1 \u2713 and (\u22121)\u00d7(\u22121)=1 \u2713. Both are their own reciprocals."
+  },
+  {
+    "QuestionText": "p/q is negative when ___",
+    "Options": [
+      "A) p and q have opposite signs",
+      "B) Only when p<0",
+      "C) Only when q<0",
+      "D) Both are negative"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Sign",
+    "Difficulty": "Advanced",
+    "Explanation": "Opposite signs \u2192 negative quotient."
+  },
+  {
+    "QuestionText": "Sum of two rationals is \u22121. One is \u22125/6. Find the other.",
+    "Options": [
+      "A) \u22121/6",
+      "B) 1/6",
+      "C) \u221211/6",
+      "D) 11/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Addition",
+    "Difficulty": "Advanced",
+    "Explanation": "x=\u22121\u2212(\u22125/6)=\u22126/6+5/6=\u22121/6."
+  },
+  {
+    "QuestionText": "Product of two rationals is \u22124/9. One is 8/3. Find the other.",
+    "Options": [
+      "A) \u22121/6",
+      "B) 1/6",
+      "C) \u221232/27",
+      "D) 32/27"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "x=(\u22124/9)\u00f7(8/3)=(\u22124/9)\u00d7(3/8)=\u221212/72=\u22121/6."
+  },
+  {
+    "QuestionText": "Express 0.3 recurring as a rational.",
+    "Options": [
+      "A) 1/3",
+      "B) 3/10",
+      "C) 33/100",
+      "D) 1/30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Recurring decimal",
+    "Difficulty": "Advanced",
+    "Explanation": "x=0.333...\u219210x=3.333...\u21929x=3\u2192x=1/3."
+  },
+  {
+    "QuestionText": "Solve: x+3/7=5/14",
+    "Options": [
+      "A) \u22121/14",
+      "B) 1/14",
+      "C) 11/14",
+      "D) \u221211/14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "x=5/14\u22123/7=5/14\u22126/14=\u22121/14."
+  },
+  {
+    "QuestionText": "Compare: \u22127/8 ___ \u22125/6",
+    "Options": [
+      "A) < (less than)",
+      "B) > (greater than)",
+      "C) =",
+      "D) \u2265"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Comparison",
+    "Difficulty": "Advanced",
+    "Explanation": "LCM=24. \u22127/8=\u221221/24; \u22125/6=\u221220/24. \u221221<\u221220 so \u22127/8 < \u22125/6."
+  },
+  {
+    "QuestionText": "Ascending order: \u22122/3, 3/4, \u22121/2, 1/6",
+    "Options": [
+      "A) \u22122/3, \u22121/2, 1/6, 3/4",
+      "B) \u22121/2, \u22122/3, 1/6, 3/4",
+      "C) 3/4, 1/6, \u22121/2, \u22122/3",
+      "D) \u22122/3, 1/6, \u22121/2, 3/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Decimals: \u22120.667, \u22120.5, 0.167, 0.75."
+  },
+  {
+    "QuestionText": "Rational whose product with 8/15 equals 1 is ___",
+    "Options": [
+      "A) 15/8",
+      "B) \u221215/8",
+      "C) 8/15",
+      "D) \u22128/15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplicative inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "Reciprocal of 8/15 is 15/8."
+  },
+  {
+    "QuestionText": "Fraction exactly between 0 and \u22121/2 is ___",
+    "Options": [
+      "A) \u22121/4",
+      "B) \u22123/4",
+      "C) \u22121/8",
+      "D) \u22125/8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Midpoint",
+    "Difficulty": "Advanced",
+    "Explanation": "(0+(\u22121/2))/2=\u22121/4."
+  },
+  {
+    "QuestionText": "\u22126/(\u22127) in standard form is ___",
+    "Options": [
+      "A) 6/7",
+      "B) \u22126/7",
+      "C) 7/6",
+      "D) \u22127/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Standard form",
+    "Difficulty": "Foundation",
+    "Explanation": "Both negatives cancel: 6/7."
+  },
+  {
+    "QuestionText": "If a>b for rationals, is a+c>b+c for all rational c?",
+    "Options": [
+      "A) Yes, always",
+      "B) Only if c>0",
+      "C) Only if c<0",
+      "D) Never"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Inequality",
+    "Difficulty": "Olympiad",
+    "Explanation": "Additive property of inequality: a>b \u27f9 a+c>b+c for any c."
+  },
+  {
+    "QuestionText": "A rational number equals its own negative. It must be ___",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) \u22121",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Special properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "x=\u2212x \u2192 2x=0 \u2192 x=0."
+  },
+  {
+    "QuestionText": "Mediant of 1/3 and 1/2 (add numerators; add denominators) is ___",
+    "Options": [
+      "A) 2/5",
+      "B) 1/5",
+      "C) 3/7",
+      "D) 4/9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Between two rationals",
+    "Difficulty": "Olympiad",
+    "Explanation": "(1+1)/(3+2)=2/5. 1/3<2/5<1/2 \u2713"
+  },
+  {
+    "QuestionText": "Multiplying numerator and denominator of p/q by same non-zero integer ___",
+    "Options": [
+      "A) Gives an equivalent fraction",
+      "B) Changes the value",
+      "C) Makes it irrational",
+      "D) Gives the reciprocal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Equivalent fractions",
+    "Difficulty": "Foundation",
+    "Explanation": "kp/kq=p/q so value is unchanged."
+  },
+  {
+    "QuestionText": "(\u22123/4)\u00d71=\u22123/4 illustrates ___",
+    "Options": [
+      "A) Multiplicative identity",
+      "B) Closure",
+      "C) Distributive",
+      "D) Associative"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "1 is the multiplicative identity."
+  },
+  {
+    "QuestionText": "Rational that is 3/4 less than 1/6 is ___",
+    "Options": [
+      "A) \u22127/12",
+      "B) 7/12",
+      "C) 11/12",
+      "D) \u221211/12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "1/6\u22123/4=2/12\u22129/12=\u22127/12."
+  },
+  {
+    "QuestionText": "If (3/4)\u00d7x=\u22129/16, find x.",
+    "Options": [
+      "A) \u22123/4",
+      "B) 3/4",
+      "C) \u221227/64",
+      "D) 27/64"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Equations",
+    "Difficulty": "Advanced",
+    "Explanation": "x=(\u22129/16)\u00f7(3/4)=(\u22129/16)\u00d7(4/3)=\u22123/4."
+  },
+  {
+    "QuestionText": "Is 22/7 exact value of \u03c0?",
+    "Options": [
+      "A) No, 22/7 is rational but \u03c0 is irrational",
+      "B) Yes, they are equal",
+      "C) 22/7 = \u03c0 exactly",
+      "D) 22/7 < \u03c0 always"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Rational vs irrational",
+    "Difficulty": "Advanced",
+    "Explanation": "22/7\u22483.14286; \u03c0\u22483.14159. Different numbers."
+  },
+  {
+    "QuestionText": "How many rationals have absolute value equal to 3/5?",
+    "Options": [
+      "A) Exactly 2 (3/5 and \u22123/5)",
+      "B) 1",
+      "C) Infinitely many",
+      "D) None"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Absolute value",
+    "Difficulty": "Advanced",
+    "Explanation": "Only x=3/5 and x=\u22123/5 satisfy |x|=3/5."
+  },
+  {
+    "QuestionText": "Which is NOT a rational number?",
+    "Options": [
+      "A) \u221a7",
+      "B) \u221222/7",
+      "C) 0.666...",
+      "D) \u22124"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a7 is irrational. The others are rational."
+  },
+  {
+    "QuestionText": "Evaluate: (3/4+1/2)\u00f7(5/6\u22121/3)",
+    "Options": [
+      "A) 5/2",
+      "B) 3/2",
+      "C) 5/4",
+      "D) 5/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Combined operations",
+    "Difficulty": "Advanced",
+    "Explanation": "Numerator=5/4; Denominator=1/2; 5/4\u00f71/2=5/2."
+  },
+  {
+    "QuestionText": "Product of a rational with its reciprocal is always ___",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) \u22121",
+      "D) The number itself"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplicative inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "(p/q)\u00d7(q/p)=1."
+  },
+  {
+    "QuestionText": "0 has ___ multiplicative inverse.",
+    "Options": [
+      "A) No",
+      "B) 1 as its",
+      "C) Itself as its",
+      "D) \u22121 as its"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Special properties",
+    "Difficulty": "Foundation",
+    "Explanation": "No number \u00d70 = 1, so 0 has no multiplicative inverse."
+  },
+  {
+    "QuestionText": "Number line \u22121 to 1 divided into 8 equal parts. 3rd mark right of \u22121 is ___",
+    "Options": [
+      "A) \u22121/4",
+      "B) 1/4",
+      "C) \u22121/2",
+      "D) 3/8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Number line",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each part=1/4. Marks: \u22123/4, \u22121/2, \u22121/4. Third = \u22121/4."
+  },
+  {
+    "QuestionText": "Simplify: \u22128/15 \u00d7 25/4",
+    "Options": [
+      "A) \u221210/3",
+      "B) 10/3",
+      "C) \u22125/3",
+      "D) 5/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "(\u22128\u00d725)/(15\u00d74)=\u2212200/60=\u221210/3."
+  },
+  {
+    "QuestionText": "Find 3 rationals between \u22121/2 and 0.",
+    "Options": [
+      "A) \u22123/8, \u22121/4, \u22121/8",
+      "B) 1/8, 1/4, 3/8",
+      "C) \u22123/2, \u22121, \u22121/2",
+      "D) 1, 2, 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Between two rationals",
+    "Difficulty": "Advanced",
+    "Explanation": "\u22123/8, \u22121/4, \u22121/8 all lie between \u22124/8=\u22121/2 and 0."
+  },
+  {
+    "QuestionText": "(a/b+c/d)+e/f = a/b+(c/d+e/f) illustrates ___",
+    "Options": [
+      "A) Associative property of addition",
+      "B) Commutative",
+      "C) Distributive",
+      "D) Identity"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Grouping changes, sum stays same: associative property."
+  },
+  {
+    "QuestionText": "Express 0.142857 recurring as a fraction.",
+    "Options": [
+      "A) 1/7",
+      "B) 1/6",
+      "C) 2/7",
+      "D) 5/7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Recurring decimal",
+    "Difficulty": "Olympiad",
+    "Explanation": "1\u00f77=0.142857142857... so 0.142857 recurring = 1/7."
+  },
+  {
+    "QuestionText": "Rational numbers are closed under division means ___",
+    "Options": [
+      "A) a/b \u00f7 c/d is rational for c/d\u22600",
+      "B) Including division by 0",
+      "C) Only for positive rationals",
+      "D) Only for integers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Closure property",
+    "Difficulty": "Olympiad",
+    "Explanation": "Closed means the result is still rational, provided divisor \u2260 0."
+  },
+  {
+    "QuestionText": "Standard form: denominator must be ___ and GCD of |numerator| and denominator must be ___",
+    "Options": [
+      "A) positive; 1",
+      "B) negative; 1",
+      "C) positive; the numerator",
+      "D) 1; prime"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Standard form",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard form of rational: denominator > 0 and GCD(|p|,q)=1."
+  },
+  {
+    "QuestionText": "Which rational number when added to 5/8 gives 0?",
+    "Options": [
+      "A) \u22125/8",
+      "B) 5/8",
+      "C) 8/5",
+      "D) \u22128/5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Rational Numbers",
+    "SubTopic": "Additive inverse",
+    "Difficulty": "Foundation",
+    "Explanation": "5/8+(\u22125/8)=0. The additive inverse is \u22125/8."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Basis for classification of living organisms is:",
+    "Options": [
+      "A) Size only",
+      "B) Colour",
+      "C) Evolutionary relationships and similarities in features",
+      "D) Habitat"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Classification is based on evolutionary relationships (phylogeny), morphological (structural) similarities, biochemical/molecular data, and developmental similarities."
+  },
+  {
+    "QuestionText": "Taxonomy is the science of:",
+    "Options": [
+      "A) Studying fossils",
+      "B) Naming, describing, and classifying organisms",
+      "C) Studying heredity",
+      "D) Studying ecosystems"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Taxonomy: science of naming, describing, and classifying organisms. Carl Linnaeus (father of taxonomy) developed binomial nomenclature and hierarchical classification."
+  },
+  {
+    "QuestionText": "The correct hierarchy of classification from broadest to most specific is:",
+    "Options": [
+      "A) Species \u2192 Genus \u2192 Family \u2192 Order \u2192 Class \u2192 Phylum \u2192 Kingdom",
+      "B) Kingdom \u2192 Phylum \u2192 Class \u2192 Order \u2192 Family \u2192 Genus \u2192 Species",
+      "C) Genus \u2192 Species \u2192 Family \u2192 Class",
+      "D) Phylum \u2192 Kingdom \u2192 Class \u2192 Order"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Classification Hierarchy",
+    "Difficulty": "Foundation",
+    "Explanation": "Taxonomic hierarchy (KPCOFGS): Kingdom \u2192 Phylum \u2192 Class \u2192 Order \u2192 Family \u2192 Genus \u2192 Species. Remember: King Philip Came Over For Good Soup."
+  },
+  {
+    "QuestionText": "Binomial nomenclature gives each organism:",
+    "Options": [
+      "A) One name in local language",
+      "B) Two-part Latin name (Genus + species)",
+      "C) Three names",
+      "D) A number code"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Binomial nomenclature (Linnaeus): Genus name (capitalised) + species name (lowercase) in italics or underlined. E.g., Homo sapiens (humans), Panthera leo (lion)."
+  },
+  {
+    "QuestionText": "Monera kingdom includes:",
+    "Options": [
+      "A) Fungi",
+      "B) Prokaryotes (bacteria and archaea)",
+      "C) Plants",
+      "D) Animals"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Five Kingdom Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Five Kingdom Classification (Whittaker): Monera (prokaryotes), Protista (unicellular eukaryotes), Fungi, Plantae, Animalia."
+  },
+  {
+    "QuestionText": "Fungi are different from plants because fungi:",
+    "Options": [
+      "A) Have cell walls",
+      "B) Are multicellular",
+      "C) Are heterotrophic (absorptive nutrition, no chlorophyll)",
+      "D) Live on land"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Five Kingdom Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Fungi: eukaryotic, heterotrophic (decomposers/parasites), cell wall of chitin, absorb nutrients externally. No chlorophyll. E.g., mushrooms, yeast, Penicillium, Aspergillus."
+  },
+  {
+    "QuestionText": "Amoeba is classified in Kingdom:",
+    "Options": [
+      "A) Monera",
+      "B) Protista",
+      "C) Fungi",
+      "D) Animalia"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Five Kingdom Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Protista: unicellular eukaryotes. E.g., Amoeba, Paramecium, Euglena, diatoms, Plasmodium (malaria parasite). Have nucleus and membrane-bound organelles."
+  },
+  {
+    "QuestionText": "The plant kingdom (Plantae) is divided based on:",
+    "Options": [
+      "A) Size",
+      "B) Presence/absence of vascular tissue and seeds",
+      "C) Colour",
+      "D) Temperature preference"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Plant groups: Thallophyta (no differentiation), Bryophyta (no vascular), Pteridophyta (vascular, no seeds), Gymnosperms (naked seeds), Angiosperms (seeds in fruits)."
+  },
+  {
+    "QuestionText": "Mosses and liverworts belong to:",
+    "Options": [
+      "A) Thallophyta",
+      "B) Bryophyta",
+      "C) Pteridophyta",
+      "D) Gymnospermae"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Bryophyta: non-vascular land plants (amphibians of plant world). No true roots, stems, leaves. Examples: moss (Funaria), liverwort (Marchantia). Need water for reproduction."
+  },
+  {
+    "QuestionText": "Ferns belong to:",
+    "Options": [
+      "A) Bryophyta",
+      "B) Thallophyta",
+      "C) Pteridophyta",
+      "D) Gymnospermae"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Pteridophyta (ferns and allies): vascular plants without seeds. Reproduce by spores. Examples: fern, horsetail (Equisetum), clubmoss. First land plants with vascular tissue."
+  },
+  {
+    "QuestionText": "Gymnosperms are plants that:",
+    "Options": [
+      "A) Have seeds enclosed in fruits",
+      "B) Have naked seeds (not enclosed in fruit)",
+      "C) Have no seeds",
+      "D) Are always trees"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Gymnosperms: naked seeds on scales (not enclosed in fruit). Examples: pine (Pinus), cedar, cycas. 'Gymno' = naked, 'sperm' = seed."
+  },
+  {
+    "QuestionText": "Angiosperms have seeds enclosed in:",
+    "Options": [
+      "A) Cones",
+      "B) Spores",
+      "C) Fruits (ovary wall)",
+      "D) Nothing \u2014 naked seeds"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Angiosperms (flowering plants): seeds enclosed in fruits (mature ovary). Largest plant group (~300,000 species). Examples: mango, wheat, grass."
+  },
+  {
+    "QuestionText": "Monocots differ from dicots in having:",
+    "Options": [
+      "A) Two cotyledons",
+      "B) One cotyledon in the seed",
+      "C) No seeds",
+      "D) Tap roots always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Monocots (1 cotyledon): grass, maize, rice, wheat, lily, orchid. Dicots (2 cotyledons): bean, pea, rose, mango, sunflower. Monocots have parallel venation; dicots have reticulate."
+  },
+  {
+    "QuestionText": "Porifera (sponges) are:",
+    "Options": [
+      "A) Multicellular with true tissues",
+      "B) Simplest multicellular animals without true tissues",
+      "C) Unicellular",
+      "D) Insects"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Porifera: simplest multicellular animals. No true tissues/organs. Body full of pores (porifera = pore-bearing). Examples: Sycon, Euspongia. All aquatic, mostly marine."
+  },
+  {
+    "QuestionText": "Cnidarians (Coelenterata) have:",
+    "Options": [
+      "A) Three germ layers",
+      "B) Two germ layers and stinging cells (cnidocytes)",
+      "C) No body cavity",
+      "D) Bilateral symmetry"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Cnidarians: 2 germ layers (diploblastic), radial symmetry, stinging cells. E.g., Hydra, jellyfish, coral, sea anemone. First animals with true tissues."
+  },
+  {
+    "QuestionText": "Earthworm belongs to Phylum:",
+    "Options": [
+      "A) Mollusca",
+      "B) Arthropoda",
+      "C) Annelida",
+      "D) Echinodermata"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Annelida: segmented worms. Examples: earthworm (Lumbricus), leech (Hirudinaria), Nereis. True coelomates with segmented body."
+  },
+  {
+    "QuestionText": "Arthropoda is the largest phylum with:",
+    "Options": [
+      "A) Fish and amphibians",
+      "B) Insects, spiders, crustaceans, centipedes (jointed limbs, exoskeleton)",
+      "C) Worms",
+      "D) Molluscs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Arthropoda: largest animal phylum. Jointed legs, exoskeleton (chitin). Classes: Insecta, Arachnida, Crustacea, Myriapoda. Examples: cockroach, spider, crab, centipede."
+  },
+  {
+    "QuestionText": "Vertebrates differ from invertebrates in having:",
+    "Options": [
+      "A) More legs",
+      "B) A backbone (vertebral column)",
+      "C) Larger size",
+      "D) More complex behaviour only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Vertebrates: have a vertebral column (backbone/spine). Subdivision of Phylum Chordata. All other animals are invertebrates (no backbone)."
+  },
+  {
+    "QuestionText": "Amphibians can live:",
+    "Options": [
+      "A) Only in water",
+      "B) Only on land",
+      "C) Both in water and on land",
+      "D) Only in deserts"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Amphibia: 'double life' \u2014 in water as larvae (gills), on land as adults (lungs/skin). E.g., frog, toad, salamander, caecilian. Cold-blooded."
+  },
+  {
+    "QuestionText": "Reptiles are different from amphibians in having:",
+    "Options": [
+      "A) Dry scaly skin and internal fertilisation",
+      "B) Moist skin",
+      "C) Gills as adults",
+      "D) Always living in water"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Reptiles: dry, scaly skin (keratin), internal fertilisation, amniotic eggs (no need to return to water), cold-blooded. E.g., lizard, snake, crocodile, turtle."
+  },
+  {
+    "QuestionText": "Birds (Aves) are characterised by:",
+    "Options": [
+      "A) Cold-blooded",
+      "B) Mammary glands",
+      "C) Feathers, wings, warm-blooded",
+      "D) Scales all over"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Aves: feathers (unique to birds), forelimbs modified as wings, warm-blooded (homeothermic), hollow bones (lightness for flight), beak, lay eggs."
+  },
+  {
+    "QuestionText": "Mammals are distinguished by:",
+    "Options": [
+      "A) Having fins",
+      "B) Mammary glands (producing milk) and hair/fur",
+      "C) Laying eggs always",
+      "D) Cold-blooded metabolism"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Mammals: mammary glands (nurse young), hair/fur, warm-blooded, live birth (mostly). E.g., dog, whale, bat, human. Monotremes (platypus) lay eggs but still nurse young."
+  },
+  {
+    "QuestionText": "Algae belong to which kingdom?",
+    "Options": [
+      "A) Plantae",
+      "B) Monera (some)",
+      "C) Protista (most multicellular)",
+      "D) Both Plantae and Protista depending on complexity"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Algae: diverse group. Cyanobacteria = blue-green algae (Monera). Unicellular algae (diatoms, green algae, Euglena) = Protista. Multicellular algae like Spirogyra, Chara = Plantae or Protista depending on classification system."
+  },
+  {
+    "QuestionText": "Nematoda (roundworms) are important because:",
+    "Options": [
+      "A) They are always harmless",
+      "B) Many are parasites (Ascaris, hookworm, filarial worm)",
+      "C) They photosynthesize",
+      "D) They are all marine"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Nematoda: round, unsegmented worms. Pseudocoelomate. Many parasitic: Ascaris (roundworm), Wuchereria (filariasis), Ancylostoma (hookworm). Others are free-living soil decomposers."
+  },
+  {
+    "QuestionText": "Mollusca includes:",
+    "Options": [
+      "A) Insects and spiders",
+      "B) Snails, clams, octopus, squid",
+      "C) Earthworms and leeches",
+      "D) Starfish and sea urchins"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Mollusca: soft-bodied (often with shell), muscular foot. Examples: snail, slug, clam, oyster, octopus, squid, cuttlefish. Second largest animal phylum."
+  },
+  {
+    "QuestionText": "Echinodermata have:",
+    "Options": [
+      "A) Radial symmetry, spiny skin, water vascular system",
+      "B) Bilateral symmetry",
+      "C) Exoskeleton of chitin",
+      "D) All live in freshwater"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Echinodermata: spiny-skinned, radial symmetry (as adults), water vascular system (tube feet for movement/feeding). E.g., starfish (sea star), sea urchin, sea cucumber, brittle star."
+  },
+  {
+    "QuestionText": "The two kingdom classification was proposed by:",
+    "Options": [
+      "A) Whittaker",
+      "B) Woese",
+      "C) Carl Linnaeus",
+      "D) Darwin"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Linnaeus proposed two kingdoms: Plantae and Animalia. Whittaker (1969) proposed Five Kingdom classification. Woese proposed three domain system (Bacteria, Archaea, Eukarya)."
+  },
+  {
+    "QuestionText": "Platyhelminthes (flatworms) are:",
+    "Options": [
+      "A) Round and segmented",
+      "B) Flat, no body cavity (acoelomate)",
+      "C) Radially symmetric",
+      "D) Aquatic only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Platyhelminthes: dorsoventrally flattened, triploblastic, acoelomate (no body cavity). Tapeworm (Taenia), liver fluke (Fasciola), Planaria. Many are parasites."
+  },
+  {
+    "QuestionText": "Which is NOT a characteristic of fish (Pisces)?",
+    "Options": [
+      "A) Aquatic",
+      "B) Cold-blooded",
+      "C) Gills for breathing",
+      "D) Mammary glands"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Fish: aquatic, gills, scales, cold-blooded (ectotherm), fins. No mammary glands (that's mammals). Examples: shark, rohu, catla, seahorse."
+  },
+  {
+    "QuestionText": "Lichens are a symbiotic relationship between:",
+    "Options": [
+      "A) Two plants",
+      "B) Algae (or cyanobacteria) and fungi",
+      "C) Bacteria and animals",
+      "D) Roots and fungi"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Lichen: mutualistic association of algae (provides food by photosynthesis) + fungi (provides water, minerals, protection). Pioneer species on bare rock. Sensitive to air pollution."
+  },
+  {
+    "QuestionText": "The common name for all plants with flowers is:",
+    "Options": [
+      "A) Gymnosperms",
+      "B) Angiosperms",
+      "C) Pteridophytes",
+      "D) Bryophytes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Angiosperms = flowering plants. 'Angio' = enclosed, 'sperm' = seed. Seeds enclosed in fruits. Most diverse and successful plant group on Earth today."
+  },
+  {
+    "QuestionText": "Whale is classified as a mammal, not a fish, because:",
+    "Options": [
+      "A) It is large",
+      "B) It lives in water",
+      "C) It breathes with lungs and nurses young with milk",
+      "D) It has fins"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Despite aquatic lifestyle, whales are mammals: breathe air with lungs, warm-blooded, give live birth, nurse young with milk, have hair (vestigial). Convergent evolution with fish."
+  },
+  {
+    "QuestionText": "Three domain system classifies life into:",
+    "Options": [
+      "A) Plant, Animal, Fungi",
+      "B) Bacteria, Archaea, Eukarya",
+      "C) Prokaryote, Eukaryote, Virus",
+      "D) 5 kingdoms"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Woese's Three Domain system (based on rRNA analysis): Bacteria, Archaea (extreme environment prokaryotes), Eukarya (all eukaryotes). More fundamental than 5-kingdom."
+  },
+  {
+    "QuestionText": "Cockroach belongs to which class?",
+    "Options": [
+      "A) Arachnida",
+      "B) Crustacea",
+      "C) Insecta",
+      "D) Myriapoda"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Cockroach: Class Insecta. Features: 3 pairs of legs, 3 body segments (head, thorax, abdomen), 1 pair of antennae, wings. Phylum Arthropoda."
+  },
+  {
+    "QuestionText": "Parasites are organisms that:",
+    "Options": [
+      "A) Help their host",
+      "B) Live on/in another organism (host) and harm it",
+      "C) Are free-living decomposers",
+      "D) Cannot survive without sunlight"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Parasites: derive nutrients from host at host's expense. Ectoparasites: lice, fleas. Endoparasites: tapeworm, Plasmodium. Different from mutualism (both benefit) or commensalism (one benefits, other unharmed)."
+  },
+  {
+    "QuestionText": "Thallophyta (algae, fungi) are characterized by:",
+    "Options": [
+      "A) Differentiated roots, stems, leaves",
+      "B) No well-differentiated plant body (thallus)",
+      "C) Production of flowers and seeds",
+      "D) Having vascular tissue"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Thallophyta: plant body is a thallus (undifferentiated, no true roots/stems/leaves). Includes algae and some fungi. Examples: Spirogyra, Ulva, Fucus."
+  },
+  {
+    "QuestionText": "Cryptogams are plants that:",
+    "Options": [
+      "A) Produce flowers",
+      "B) Have hidden reproductive organs (no flowers/seeds)",
+      "C) Are always aquatic",
+      "D) Produce fruits"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Advanced",
+    "Explanation": "Cryptogams: 'hidden marriage' \u2014 Thallophyta, Bryophyta, Pteridophyta. Reproduce by spores, no flowers/seeds. Phanerogams (Gymno+Angiosperms): visible reproductive structures, seeds."
+  },
+  {
+    "QuestionText": "The study of classification of organisms is called:",
+    "Options": [
+      "A) Anatomy",
+      "B) Physiology",
+      "C) Systematics (Taxonomy)",
+      "D) Ecology"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Systematics/Taxonomy: science of identifying, naming, describing, and classifying organisms. Aims to show evolutionary relationships. 'Taxis' = arrangement, 'nomos' = law."
+  },
+  {
+    "QuestionText": "Viruses are NOT classified in any kingdom because:",
+    "Options": [
+      "A) They are plants",
+      "B) They are acellular (no cells) \u2014 not truly living",
+      "C) They are too small",
+      "D) They cannot reproduce"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Viruses: acellular (no cellular structure), can only reproduce inside host cells. Neither living nor non-living. Classified separately. Made of nucleic acid (DNA/RNA) + protein coat."
+  },
+  {
+    "QuestionText": "Pisces, Amphibia, Reptilia, Aves, Mammalia are all classes in Phylum:",
+    "Options": [
+      "A) Arthropoda",
+      "B) Mollusca",
+      "C) Echinodermata",
+      "D) Chordata (Vertebrata)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Chordata: have notochord (at some stage), dorsal hollow nerve cord, pharyngeal gill slits. Vertebrates (fish, amphibians, reptiles, birds, mammals) are the most advanced chordates."
+  },
+  {
+    "QuestionText": "Sea horse is classified as:",
+    "Options": [
+      "A) Crustacean",
+      "B) Mollusc",
+      "C) Fish (Pisces)",
+      "D) Reptile"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Advanced",
+    "Explanation": "Sea horse (Hippocampus): classified as fish \u2014 has gills, fins, scales. Despite unusual appearance and upright posture. Males carry eggs in brooding pouch."
+  },
+  {
+    "QuestionText": "Carl Linnaeus is known as the father of:",
+    "Options": [
+      "A) Evolution",
+      "B) Genetics",
+      "C) Modern Taxonomy",
+      "D) Ecology"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Principles of Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Carl Linnaeus (1707-1778): developed binomial nomenclature and hierarchical classification. Published Systema Naturae. Father of modern taxonomy/systematics."
+  },
+  {
+    "QuestionText": "Phanerogams include:",
+    "Options": [
+      "A) Bryophytes and algae",
+      "B) Angiosperms and Gymnosperms (seed-bearing plants)",
+      "C) Ferns and mosses",
+      "D) All land plants"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Phanerogams ('visible marriage'): produce visible flowers/cones + seeds. Gymnosperms (naked seeds) + Angiosperms (seeds in fruit). Contrast with cryptogams (spore plants)."
+  },
+  {
+    "QuestionText": "Coelomates have:",
+    "Options": [
+      "A) No body cavity",
+      "B) A false body cavity",
+      "C) A true body cavity (coelom) lined by mesoderm",
+      "D) External skeleton only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Advanced",
+    "Explanation": "Coelomates: true coelom (body cavity lined by mesoderm). Allows organs to develop. Annelida, Mollusca, Arthropoda, Echinodermata, Chordata. Acoelomate: no cavity (flatworms)."
+  },
+  {
+    "QuestionText": "The five kingdoms in Whittaker's classification are:",
+    "Options": [
+      "A) Monera, Protista, Fungi, Plantae, Animalia",
+      "B) Bacteria, Algae, Fungi, Plants, Animals",
+      "C) Prokaryote, Eukaryote, Virus, Fungi, Plants",
+      "D) Only 3 kingdoms"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Five Kingdom Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Whittaker (1969) Five Kingdoms: Monera, Protista, Fungi, Plantae, Animalia. Based on cell type, nutrition mode, and body organization."
+  },
+  {
+    "QuestionText": "Bryophytes are called the amphibians of the plant world because:",
+    "Options": [
+      "A) They live in water only",
+      "B) They need water for reproduction but live on land",
+      "C) They produce amphibians",
+      "D) They look like amphibians"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Bryophytes: live on land but need water for fertilization (swimming sperm). Like amphibians: water for reproduction, land for adult life."
+  },
+  {
+    "QuestionText": "Decomposers include:",
+    "Options": [
+      "A) Producers (plants)",
+      "B) Herbivores",
+      "C) Bacteria and fungi",
+      "D) Carnivores"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Decomposers: bacteria and fungi break down dead organic matter into simple inorganic compounds recycled back to environment. Essential for nutrient cycling."
+  },
+  {
+    "QuestionText": "Simplest animals to show bilateral symmetry are:",
+    "Options": [
+      "A) Sponges",
+      "B) Cnidarians",
+      "C) Flatworms (Platyhelminthes)",
+      "D) Arthropods"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Advanced",
+    "Explanation": "Platyhelminthes: first animals with bilateral symmetry and triploblastic (3 germ layers). Bilateral symmetry allows directionality in movement."
+  },
+  {
+    "QuestionText": "Spirogyra is a:",
+    "Options": [
+      "A) Fungus",
+      "B) Animal",
+      "C) Filamentous green alga",
+      "D) Bacterium"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Plant Kingdom",
+    "Difficulty": "Foundation",
+    "Explanation": "Spirogyra: filamentous green alga with characteristic spiral chloroplasts. Found in freshwater ponds. Photosynthetic. Classified in Thallophyta."
+  },
+  {
+    "QuestionText": "The group of chordates without a true vertebral column is:",
+    "Options": [
+      "A) Mammals",
+      "B) Protochordates (e.g., Amphioxus, Herdmania)",
+      "C) Reptiles",
+      "D) Fish"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Diversity in Living Organisms",
+    "SubTopic": "Animal Kingdom",
+    "Difficulty": "Olympiad",
+    "Explanation": "Protochordates: have notochord but no true vertebral column. E.g., Amphioxus (Branchiostoma), sea squirt (Herdmania). Represent transition to vertebrates."
+  }
+]

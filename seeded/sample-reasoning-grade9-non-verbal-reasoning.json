@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "In mirror image problems, the mirror is placed vertically on the right. The letter 'b' becomes:",
+    "Options": [
+      "A) d",
+      "B) p",
+      "C) q",
+      "D) b"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Vertical mirror on right: image is flipped left-right. 'b' (opening faces right) \u2192 mirror image has opening facing left = 'd'."
+  },
+  {
+    "QuestionText": "Water image of the letter 'A' is:",
+    "Options": [
+      "A) V",
+      "B) Inverted A",
+      "C) Same A",
+      "D) \u039b"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Water Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Water image = reflection from below (horizontal flip). 'A' flipped vertically (top-bottom) looks like an inverted A (\u039b-like). Water images are upside-down versions."
+  },
+  {
+    "QuestionText": "A square piece of paper is folded in half and a hole punched. When unfolded, how many holes appear?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Folded once: 1 punch through 2 layers = 2 holes when unfolded. Folded twice: 4 holes. Folded three times: 8 holes. The number of holes = 2^n where n = number of folds."
+  },
+  {
+    "QuestionText": "Embedded figures: Find the simpler figure hidden within a complex figure. This tests:",
+    "Options": [
+      "A) Memory recall",
+      "B) Ability to identify a basic shape within a complex design",
+      "C) Colour perception",
+      "D) Mathematical reasoning"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Embedded figures: identify a given simple figure hidden within a complex design. Tests visual discrimination and pattern recognition."
+  },
+  {
+    "QuestionText": "Figure series: If the pattern shows shapes increasing by one side each time (triangle, square, pentagon...), the next is:",
+    "Options": [
+      "A) Pentagon",
+      "B) Hexagon",
+      "C) Heptagon",
+      "D) Octagon"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangle (3 sides), Square (4 sides), Pentagon (5 sides), Hexagon (6 sides). Each polygon increases by one side."
+  },
+  {
+    "QuestionText": "A cube has how many faces?",
+    "Options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Foundation",
+    "Explanation": "Cube: 6 faces (all squares), 8 vertices, 12 edges. Opposite faces are parallel."
+  },
+  {
+    "QuestionText": "On a standard dice, opposite faces always sum to:",
+    "Options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard dice: 1 opposite to 6 (sum 7), 2 opposite to 5 (sum 7), 3 opposite to 4 (sum 7). All opposite face pairs sum to 7."
+  },
+  {
+    "QuestionText": "Non-verbal analogy: The relationship between a circle and a sphere (2D to 3D) is similar to square and:",
+    "Options": [
+      "A) Rectangle",
+      "B) Cube",
+      "C) Cylinder",
+      "D) Pyramid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Circle (2D) \u2192 Sphere (3D equivalent). Square (2D) \u2192 Cube (3D equivalent). Both involve going from flat shape to corresponding solid."
+  },
+  {
+    "QuestionText": "Pattern completion: If a 3\u00d73 grid has a pattern where each row sums to 15, this is a:",
+    "Options": [
+      "A) Number square",
+      "B) Magic square",
+      "C) Perfect square",
+      "D) Logical square"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Matrices",
+    "Difficulty": "Advanced",
+    "Explanation": "Magic square: arrangement of numbers in grid where rows, columns, and diagonals all sum to the same number (magic constant). Classic 3\u00d73 magic square has constant 15."
+  },
+  {
+    "QuestionText": "If you fold a paper in half twice and cut a triangle from the corner, when unfolded you get:",
+    "Options": [
+      "A) 2 triangles",
+      "B) 4 triangles",
+      "C) 8 triangles",
+      "D) 1 square hole"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Folded twice = 4 layers. One cut in corner = 4 holes/cuts when unfolded. The exact shape depends on fold position, but principle: 2\u00b2 = 4 layers \u2192 4 cuts."
+  },
+  {
+    "QuestionText": "Mirror placed horizontally below an image. The image reflected is its:",
+    "Options": [
+      "A) Left-right flip",
+      "B) Top-bottom flip",
+      "C) 180\u00b0 rotation",
+      "D) Same image"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Horizontal mirror (below): water image \u2014 flips top to bottom. Vertical mirror (right/left): flips left to right."
+  },
+  {
+    "QuestionText": "The number of small triangles in a triangle divided into 4 rows is:",
+    "Options": [
+      "A) 4",
+      "B) 9",
+      "C) 10",
+      "D) 16"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Counting",
+    "Difficulty": "Advanced",
+    "Explanation": "Triangle divided into 4 rows: smallest triangles = 16, upward-pointing row triangles added. Total triangles of all sizes = n(n+2)(2n+1)/8 where n=4 rows = 10."
+  },
+  {
+    "QuestionText": "Analogy (figure): Triangle is to Prism as Circle is to:",
+    "Options": [
+      "A) Cone",
+      "B) Sphere",
+      "C) Cylinder",
+      "D) Cube"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Extend (stretch) a triangle \u2192 Triangular Prism. Extend a circle \u2192 Cylinder. Square \u2192 Cuboid. This tests 2D to 3D solid relationship by extrusion."
+  },
+  {
+    "QuestionText": "How many rectangles (including squares) are in a 3\u00d73 grid?",
+    "Options": [
+      "A) 9",
+      "B) 18",
+      "C) 36",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Counting",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rectangles in m\u00d7n grid: C(m+1,2) \u00d7 C(n+1,2). For 3\u00d73: C(4,2) \u00d7 C(4,2) = 6\u00d76 = 36. Counts all possible rectangles including squares."
+  },
+  {
+    "QuestionText": "Paper cutting: Square paper folded diagonally, a cut made along the fold creates:",
+    "Options": [
+      "A) Two squares",
+      "B) Two triangles",
+      "C) Two rectangles",
+      "D) A parallelogram"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Square folded diagonally = triangle. Cut along fold line (diagonal) = two triangles (the two halves of the square)."
+  },
+  {
+    "QuestionText": "Figure odd one out: Circle, Oval, Ellipse, Sphere",
+    "Options": [
+      "A) Circle",
+      "B) Oval",
+      "C) Ellipse",
+      "D) Sphere"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Circle, Oval, Ellipse are 2D (flat) curved shapes. Sphere is a 3D solid. Sphere is the odd one out."
+  },
+  {
+    "QuestionText": "Cubes painted and cut: A 3\u00d73\u00d73 cube is painted on all sides and cut into 27 small cubes. How many have NO face painted?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 8",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Advanced",
+    "Explanation": "In 3\u00d73\u00d73 cube cut to 27 small cubes: corner(3 painted)=8, edge(2 painted)=12, face(1 painted)=6, center(0 painted)=1. Only the 1 center cube has no painted faces."
+  },
+  {
+    "QuestionText": "A figure rotated 90\u00b0 clockwise: the letter 'T' becomes:",
+    "Options": [
+      "A) \u22a3 (T rotated left)",
+      "B) \u22a2 (T rotated right)",
+      "C) Inverted T",
+      "D) Same T"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Rotation",
+    "Difficulty": "Foundation",
+    "Explanation": "T rotated 90\u00b0 clockwise: the top of T points right. The crossbar is now on the left side. Looks like \u22a2."
+  },
+  {
+    "QuestionText": "Non-verbal series: Square with 1 dot, Square with 2 dots, Square with 4 dots. Next:",
+    "Options": [
+      "A) 6 dots",
+      "B) 7 dots",
+      "C) 8 dots",
+      "D) 9 dots"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Pattern: 1, 2, 4, 8 \u2014 dots double each time (multiply by 2). Next = 4\u00d72 = 8."
+  },
+  {
+    "QuestionText": "Counting figures: How many triangles in a Star of David (Star inside hexagon)?",
+    "Options": [
+      "A) 6",
+      "B) 12",
+      "C) 24",
+      "D) 18"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Counting",
+    "Difficulty": "Advanced",
+    "Explanation": "Star of David has: 6 small triangles at points + 6 triangle combinations inside = 12 triangles total (depending on exact counting, including overlapping regions)."
+  },
+  {
+    "QuestionText": "Figure matrix: In a 3\u00d73 matrix, each row and column has shapes increasing in size. The missing figure is:",
+    "Options": [
+      "A) Small shape",
+      "B) Medium shape",
+      "C) Large shape",
+      "D) Pattern must be analysed"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "Matrix reasoning requires examining both row and column patterns. Without seeing the actual matrix, the answer depends on analysing all patterns. This tests logical reasoning about visual patterns."
+  },
+  {
+    "QuestionText": "A 2D shape with 6 equal sides is a:",
+    "Options": [
+      "A) Pentagon",
+      "B) Hexagon",
+      "C) Octagon",
+      "D) Heptagon"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "Hexagon: 6 sides. Pentagon: 5. Heptagon: 7. Octagon: 8. Regular hexagon: all sides equal. Honeycombs are hexagonal."
+  },
+  {
+    "QuestionText": "If image is reflected in a vertical mirror, which axis of symmetry is demonstrated?",
+    "Options": [
+      "A) Horizontal axis",
+      "B) Vertical axis",
+      "C) Diagonal axis",
+      "D) No axis"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Vertical mirror reflection = symmetry about a vertical axis (left-right flip). Horizontal mirror = symmetry about horizontal axis (top-bottom flip = water image)."
+  },
+  {
+    "QuestionText": "Completing the figure: If the left half of a symmetrical figure is given, the right half is its:",
+    "Options": [
+      "A) Rotation",
+      "B) Mirror image (reflection about the axis)",
+      "C) Exact copy",
+      "D) Different shape"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Completion",
+    "Difficulty": "Foundation",
+    "Explanation": "Completing a symmetrical figure: the missing half is the mirror image of the given half, reflected across the axis of symmetry."
+  },
+  {
+    "QuestionText": "How many squares of ALL sizes are in a 4\u00d74 grid?",
+    "Options": [
+      "A) 16",
+      "B) 20",
+      "C) 25",
+      "D) 30"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Counting",
+    "Difficulty": "Olympiad",
+    "Explanation": "Count squares by size: 1\u00d71=16, 2\u00d72=9, 3\u00d73=4, 4\u00d74=1. Total=16+9+4+1=30."
+  },
+  {
+    "QuestionText": "Dice net: When a cross-shaped net is folded into a cube, opposite faces are:",
+    "Options": [
+      "A) Always adjacent",
+      "B) Faces separated by 2 folds in the net",
+      "C) The top and bottom faces only",
+      "D) Cannot be determined without the net"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Advanced",
+    "Explanation": "Which faces are opposite depends on the specific arrangement of the net. Different valid cube nets have different opposite face arrangements. The exact net must be given to determine opposite faces."
+  },
+  {
+    "QuestionText": "Series: Right-pointing arrow, upward arrow, left-pointing arrow, downward arrow, ?",
+    "Options": [
+      "A) Right-pointing arrow",
+      "B) Upward arrow",
+      "C) Diagonal arrow",
+      "D) Same downward arrow"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Arrows rotate 90\u00b0 clockwise: Right \u2192 Up \u2192 Left \u2192 Down \u2192 Right. Pattern repeats every 4. Next = Right-pointing arrow."
+  },
+  {
+    "QuestionText": "A rectangle has which lines of symmetry?",
+    "Options": [
+      "A) None",
+      "B) 1",
+      "C) 2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "Rectangle (non-square): 2 lines of symmetry (vertical midline and horizontal midline). Square: 4 lines (2 midlines + 2 diagonals). Circle: infinite lines."
+  },
+  {
+    "QuestionText": "Transformation: If a square becomes a circle, what does a triangle become?",
+    "Options": [
+      "A) Circle",
+      "B) Sphere",
+      "C) Depends on the transformation rule",
+      "D) Ellipse"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Advanced",
+    "Explanation": "Without a defined transformation rule, cannot determine the answer. Transformation questions require a clear pattern/rule from the given example."
+  },
+  {
+    "QuestionText": "Visual analogy: Grid with X pattern becomes Grid with O pattern. Grid with diagonal pattern becomes:",
+    "Options": [
+      "A) Grid with X",
+      "B) Grid with O pattern",
+      "C) Grid with reverse diagonal",
+      "D) Cannot determine without seeing the actual figures"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Non-verbal analogy questions require visual inspection of the figures. The relationship must be identified from the given pair and applied to find the answer. Without actual figures, cannot determine."
+  },
+  {
+    "QuestionText": "In a 3\u00d73\u00d73 painted cube cut into 27, how many small cubes have exactly 2 faces painted?",
+    "Options": [
+      "A) 6",
+      "B) 8",
+      "C) 12",
+      "D) 24"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Advanced",
+    "Explanation": "Edge cubes (not corners): 3\u00d73\u00d73 has 12 edges, each with 1 middle cube (3\u00d73 only has 1 non-corner per edge in a 3-unit cube) = 12 cubes with exactly 2 painted faces."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a regular hexagon have?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "Regular hexagon: 6 lines of symmetry \u2014 3 through opposite vertices and 3 through midpoints of opposite sides. Regular polygon with n sides has n lines of symmetry."
+  },
+  {
+    "QuestionText": "A dice is thrown. The face with 3 dots is visible. Which is the opposite face?",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard dice: opposite faces sum to 7. 3 is opposite to 4 (3+4=7). 1 opposite 6. 2 opposite 5."
+  },
+  {
+    "QuestionText": "Series of figures: Each figure adds a circle inside. If figure 1 has 1 circle, figure 4 has:",
+    "Options": [
+      "A) 3 circles",
+      "B) 4 circles",
+      "C) 5 circles",
+      "D) 8 circles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Figure n has n circles. Figure 4 has 4 circles. Linear progression with n circles in figure n."
+  },
+  {
+    "QuestionText": "Paper folding and cutting test assesses:",
+    "Options": [
+      "A) Mathematical calculation ability",
+      "B) Spatial visualisation \u2014 ability to mentally fold/unfold shapes",
+      "C) Memory only",
+      "D) Reading comprehension"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Paper folding/cutting tests: spatial visualisation and mental rotation abilities. Ability to mentally predict the appearance of a folded paper after cutting."
+  },
+  {
+    "QuestionText": "The figure that looks the SAME after rotation of 180\u00b0 is:",
+    "Options": [
+      "A) Letter 'F'",
+      "B) Letter 'S'",
+      "C) Letter 'P'",
+      "D) Letter 'L'"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Rotation",
+    "Difficulty": "Advanced",
+    "Explanation": "'S' rotated 180\u00b0 still looks like 'S' (has point symmetry/rotational symmetry of order 2). 'Z', 'N', 'H', 'X', 'O' also have 180\u00b0 rotational symmetry."
+  },
+  {
+    "QuestionText": "Embedded figures: A triangle hidden in a larger design has which angles?",
+    "Options": [
+      "A) All 90\u00b0",
+      "B) Sum of 180\u00b0",
+      "C) All equal 60\u00b0",
+      "D) Sum of 360\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangle: sum of all interior angles = 180\u00b0. This is true regardless of the triangle's size or shape. Quadrilateral: 360\u00b0. Pentagon: 540\u00b0."
+  },
+  {
+    "QuestionText": "Counting: How many triangles in a figure of a triangle divided into 4 equal smaller triangles?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Counting",
+    "Difficulty": "Foundation",
+    "Explanation": "4 small triangles + 1 large outer triangle = 5 triangles total. Always count triangles of ALL sizes, not just the smallest ones."
+  },
+  {
+    "QuestionText": "Water image of the number '5' looks like:",
+    "Options": [
+      "A) 5",
+      "B) Inverted 5 (vertically flipped)",
+      "C) Mirror 5 (horizontally flipped)",
+      "D) S shape"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Water Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Water image = reflection in horizontal surface = vertical flip (top-bottom). Digit 5 flipped vertically looks like an inverted 5."
+  },
+  {
+    "QuestionText": "A shape with rotational symmetry of order 4 looks the same after rotation of:",
+    "Options": [
+      "A) 45\u00b0",
+      "B) 90\u00b0",
+      "C) 120\u00b0",
+      "D) 180\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "Rotational symmetry of order 4: looks the same 4 times in one full 360\u00b0 rotation. Each rotation = 360\u00b0/4 = 90\u00b0. Examples: square, plus sign, swastika."
+  },
+  {
+    "QuestionText": "How many cubes of all sizes exist in a 2\u00d72\u00d72 cube?",
+    "Options": [
+      "A) 8",
+      "B) 9",
+      "C) 10",
+      "D) 16"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cubes and Dice",
+    "Difficulty": "Advanced",
+    "Explanation": "2\u00d72\u00d72 cube: 8 small (1\u00d71\u00d71) cubes + 1 large (2\u00d72\u00d72) cube = 9 cubes total."
+  },
+  {
+    "QuestionText": "In figure rotation, 90\u00b0 anti-clockwise is same as __ clockwise.",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 360\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Rotation",
+    "Difficulty": "Advanced",
+    "Explanation": "90\u00b0 anti-clockwise = 270\u00b0 clockwise. 90\u00b0 clockwise = 270\u00b0 anti-clockwise. Total rotation in both directions for a full circle = 360\u00b0."
+  },
+  {
+    "QuestionText": "The mirror image of 'bd' is:",
+    "Options": [
+      "A) bd",
+      "B) db",
+      "C) qp",
+      "D) pq"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Advanced",
+    "Explanation": "Vertical mirror (on right): each letter flipped left-right. b\u2192d, d\u2192b. But also the ORDER of letters reverses (right letter comes first in mirror). 'bd' mirror = 'db' reversed = 'qp'? Actually: b flips to d, d flips to b, and order reverses. 'bd' \u2192 'db' with each letter flipped: b becomes d, d becomes b \u2192 'db'. But each b\u2192d, d\u2192b, so db flipped = bd... The simplest answer: mirror of 'b' is 'd' and mirror of 'd' is 'b'. If the word order also reverses: 'bd' \u2192 'db'. If only letters flip: 'db'. Mirror of p is q, q is p. So qp=mirror of db? The answer pq means p(mirror of d? no, mirror of b=d, mirror of d=b)."
+  },
+  {
+    "QuestionText": "How many rectangles (all sizes) are in a 2\u00d73 grid of cells?",
+    "Options": [
+      "A) 6",
+      "B) 12",
+      "C) 18",
+      "D) 24"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Counting",
+    "Difficulty": "Advanced",
+    "Explanation": "Rectangles in m\u00d7n grid: C(m+1,2) \u00d7 C(n+1,2). For 2\u00d73: C(3,2) \u00d7 C(4,2) = 3 \u00d7 6 = 18."
+  },
+  {
+    "QuestionText": "A regular pentagon has interior angles of:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 100\u00b0",
+      "C) 108\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "Regular pentagon: each interior angle = (n-2)\u00d7180\u00b0/n = (5-2)\u00d7180\u00b0/5 = 3\u00d736\u00b0 = 108\u00b0. Triangle:60\u00b0. Square:90\u00b0. Hexagon:120\u00b0."
+  },
+  {
+    "QuestionText": "Which letter has a vertical line of symmetry?",
+    "Options": [
+      "A) F",
+      "B) G",
+      "C) A",
+      "D) N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A is symmetric about a vertical axis (left half mirrors right half). Letters with vertical symmetry: A, H, I, M, O, T, U, V, W, X, Y. F, G, N do not."
+  },
+  {
+    "QuestionText": "A solid with 5 faces, 8 edges, and 5 vertices is a:",
+    "Options": [
+      "A) Cube",
+      "B) Tetrahedron",
+      "C) Square pyramid",
+      "D) Triangular prism"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "Square pyramid: 5 faces (1 square base + 4 triangular). 8 edges (4 base + 4 lateral). 5 vertices (4 base + 1 apex). Verify Euler: F+V-E=2: 5+5-8=2. \u2713"
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a circle have?",
+    "Options": [
+      "A) 1",
+      "B) 4",
+      "C) 8",
+      "D) Infinite"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Geometrical Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A circle has infinite lines of symmetry \u2014 any diameter of the circle is a line of symmetry. This makes the circle the most symmetric shape."
+  },
+  {
+    "QuestionText": "Figure counting: How many squares of ALL sizes are in a 3x3 grid?",
+    "Options": [
+      "A) 9",
+      "B) 12",
+      "C) 14",
+      "D) 16"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Counting",
+    "Difficulty": "Advanced",
+    "Explanation": "1x1 squares = 9. 2x2 squares = 4. 3x3 squares = 1. Total = 9+4+1 = 14."
+  },
+  {
+    "QuestionText": "Pattern: What comes next in the shape sequence \u2014 Triangle, Square, Pentagon, Hexagon?",
+    "Options": [
+      "A) Circle",
+      "B) Octagon",
+      "C) Heptagon",
+      "D) Oval"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Each shape has one more side: 3,4,5,6... next is 7 sides = Heptagon."
+  }
+]

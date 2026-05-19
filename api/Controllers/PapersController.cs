@@ -85,12 +85,15 @@ public class PapersController : ControllerBase
                 }
                 else
                 {
-                    _log.LogInformation(
-                        "Free tier — bank insufficient for {Subject} G{Grade} {Difficulty}; falling back to Claude",
+                    _log.LogWarning(
+                        "Free tier — bank insufficient for {Subject} G{Grade} {Difficulty}; returning error",
                         req.Subject, req.Grade, req.Difficulty);
-                    questions = await _claude.GenerateQuestionsAsync(
-                        req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct);
-                    jsonContent = JsonSerializer.Serialize(questions);
+                    return StatusCode(StatusCodes.Status503ServiceUnavailable, new
+                    {
+                        code = "BANK_INSUFFICIENT",
+                        message = $"Not enough questions in the bank for {req.Subject} Class {req.Grade} ({req.Difficulty}) yet. Try a different subject, grade, or difficulty — or upgrade to Pro for AI-generated papers.",
+                        upgrade = true
+                    });
                 }
             }
             else

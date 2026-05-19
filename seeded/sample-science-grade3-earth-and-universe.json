@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "Which planet do we live on?",
+        "Options":  [
+                        "A) Earth",
+                        "B) Mars",
+                        "C) Venus",
+                        "D) Jupiter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets",
+        "Difficulty":  "Foundation",
+        "Explanation":  "We live on planet Earth, the third planet from the Sun in our Solar System."
+    },
+    {
+        "QuestionText":  "The Sun is a — ",
+        "Options":  [
+                        "A) Star",
+                        "B) Planet",
+                        "C) Moon",
+                        "D) Comet"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Sun",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Sun is a star — a huge ball of hot gas that produces light and heat energy."
+    },
+    {
+        "QuestionText":  "How many planets are in our Solar System?",
+        "Options":  [
+                        "A) 8",
+                        "B) 9",
+                        "C) 7",
+                        "D) 10"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Solar System",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our Solar System has 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+        "QuestionText":  "Which is the largest planet in our Solar System?",
+        "Options":  [
+                        "A) Jupiter",
+                        "B) Saturn",
+                        "C) Earth",
+                        "D) Mars"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Jupiter is the largest planet, so massive that all other planets could fit inside it."
+    },
+    {
+        "QuestionText":  "Which planet is known as the Red Planet?",
+        "Options":  [
+                        "A) Mars",
+                        "B) Venus",
+                        "C) Saturn",
+                        "D) Uranus"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Mars appears red because its surface is covered in iron oxide (rust), earning it the name Red Planet."
+    },
+    {
+        "QuestionText":  "The Moon is a natural — ",
+        "Options":  [
+                        "A) Satellite of Earth",
+                        "B) Star",
+                        "C) Planet",
+                        "D) Comet"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Moon",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Moon is Earth\u0027s natural satellite; it orbits Earth and does not produce its own light."
+    },
+    {
+        "QuestionText":  "What causes day and night on Earth?",
+        "Options":  [
+                        "A) Earth\u0027s rotation on its axis",
+                        "B) Earth\u0027s revolution around the Sun",
+                        "C) Moon\u0027s movement",
+                        "D) Sun moving around Earth"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Day and Night",
+        "Difficulty":  "Foundation",
+        "Explanation":  "As Earth rotates on its axis every 24 hours, the side facing the Sun has day and the other side has night."
+    },
+    {
+        "QuestionText":  "What causes the seasons (summer, winter, spring, autumn)?",
+        "Options":  [
+                        "A) Earth\u0027s tilted axis as it revolves around the Sun",
+                        "B) Earth rotating faster",
+                        "C) Moon blocking Sun",
+                        "D) Sun moving closer"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Seasons",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Earth\u0027s axial tilt means different hemispheres receive more or less sunlight at different times of year."
+    },
+    {
+        "QuestionText":  "How long does Earth take to go once around the Sun?",
+        "Options":  [
+                        "A) 365.25 days (1 year)",
+                        "B) 24 hours",
+                        "C) 28 days",
+                        "D) 12 months exactly"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Earth\u0027s Revolution",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Earth completes one orbit (revolution) around the Sun in approximately 365.25 days — one year."
+    },
+    {
+        "QuestionText":  "The layer of air surrounding Earth is called the — ",
+        "Options":  [
+                        "A) Atmosphere",
+                        "B) Lithosphere",
+                        "C) Hydrosphere",
+                        "D) Biosphere"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Earth\u0027s Layers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The atmosphere is the blanket of gases surrounding Earth that makes life possible."
+    },
+    {
+        "QuestionText":  "Which planet has beautiful rings around it?",
+        "Options":  [
+                        "A) Saturn",
+                        "B) Jupiter",
+                        "C) Mars",
+                        "D) Neptune"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Saturn is famous for its stunning ring system made of ice and rock particles."
+    },
+    {
+        "QuestionText":  "Stars appear to twinkle because — ",
+        "Options":  [
+                        "A) Atmosphere bends their light",
+                        "B) They flash on and off",
+                        "C) They are spinning",
+                        "D) They are very hot"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Stars",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Starlight is bent (refracted) by layers of moving air in Earth\u0027s atmosphere, making stars appear to twinkle."
+    },
+    {
+        "QuestionText":  "The closest star to Earth (apart from the Sun) is — ",
+        "Options":  [
+                        "A) Proxima Centauri",
+                        "B) Sirius",
+                        "C) Polaris (North Star)",
+                        "D) Betelgeuse"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Stars",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Proxima Centauri is about 4.2 light-years away, making it the nearest star to our Solar System."
+    },
+    {
+        "QuestionText":  "A comet is made of — ",
+        "Options":  [
+                        "A) Ice, dust, and rock that glows near the Sun",
+                        "B) Hot gas like a star",
+                        "C) Solid rock only",
+                        "D) Water only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Comets",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Comets are icy bodies; when they near the Sun, the ice vaporises forming a glowing tail."
+    },
+    {
+        "QuestionText":  "Which gas makes up most of Earth\u0027s atmosphere?",
+        "Options":  [
+                        "A) Nitrogen (about 78%)",
+                        "B) Oxygen",
+                        "C) Carbon dioxide",
+                        "D) Hydrogen"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Atmosphere",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Nitrogen makes up about 78% of Earth\u0027s atmosphere; oxygen makes up about 21%."
+    },
+    {
+        "QuestionText":  "An eclipse of the Sun (solar eclipse) occurs when — ",
+        "Options":  [
+                        "A) Moon comes between Earth and Sun",
+                        "B) Earth comes between Moon and Sun",
+                        "C) Sun is very far away",
+                        "D) Earth stops rotating"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Solar Eclipse",
+        "Difficulty":  "Foundation",
+        "Explanation":  "During a solar eclipse, the Moon blocks sunlight from reaching part of Earth."
+    },
+    {
+        "QuestionText":  "The North Star (Polaris) is useful for navigation because — ",
+        "Options":  [
+                        "A) It stays almost directly above the North Pole",
+                        "B) It is the brightest star",
+                        "C) It changes colour",
+                        "D) It rises in the east"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Navigation",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Polaris is nearly directly above Earth\u0027s North Pole so it appears almost motionless, helping navigate north."
+    },
+    {
+        "QuestionText":  "One light-year is — ",
+        "Options":  [
+                        "A) The distance light travels in one year (about 9.5 trillion km)",
+                        "B) The time light takes to reach the Moon",
+                        "C) A unit of time",
+                        "D) The distance from Earth to Mars"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Astronomical Distances",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Light travels ~300,000 km/s, so in one year it covers about 9.46 × 10¹² km — called one light-year."
+    },
+    {
+        "QuestionText":  "Gravity from the Moon mainly causes — ",
+        "Options":  [
+                        "A) Ocean tides on Earth",
+                        "B) Seasons",
+                        "C) Earthquakes",
+                        "D) Day and night"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Moon\u0027s Gravity",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Moon\u0027s gravitational pull attracts Earth\u0027s oceans, causing the rise and fall of tides twice daily."
+    },
+    {
+        "QuestionText":  "Why is there no sound in outer space?",
+        "Options":  [
+                        "A) Sound needs a medium (air or matter) to travel; space is a vacuum",
+                        "B) Sound moves too slowly",
+                        "C) Astronauts cannot hear",
+                        "D) Space absorbs sound"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Space",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Sound waves need particles to vibrate through; space has no air/matter, so sound cannot travel there."
+    },
+    {
+        "QuestionText":  "Which layer of the atmosphere protects Earth from harmful UV rays?",
+        "Options":  [
+                        "A) Ozone layer (stratosphere)",
+                        "B) Troposphere",
+                        "C) Mesosphere",
+                        "D) Exosphere"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Atmosphere Layers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The ozone layer in the stratosphere absorbs most of the Sun\u0027s harmful ultraviolet radiation."
+    },
+    {
+        "QuestionText":  "An asteroid is different from a planet because — ",
+        "Options":  [
+                        "A) It is much smaller and orbits the Sun in a belt between Mars and Jupiter",
+                        "B) It has a tail",
+                        "C) It is a type of star",
+                        "D) It orbits a planet"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Asteroids",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Asteroids are rocky/metallic bodies, most found in the Asteroid Belt between Mars and Jupiter."
+    },
+    {
+        "QuestionText":  "Phases of the Moon (new moon to full moon) occur because — ",
+        "Options":  [
+                        "A) We see different amounts of the Moon\u0027s sunlit half as it orbits Earth",
+                        "B) Moon produces its own light",
+                        "C) Earth\u0027s shadow covers Moon",
+                        "D) Sun moves around Moon"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Moon Phases",
+        "Difficulty":  "Advanced",
+        "Explanation":  "As the Moon orbits Earth, the angle between Sun, Moon, and Earth changes, revealing different lit portions."
+    },
+    {
+        "QuestionText":  "The inner planets (Mercury, Venus, Earth, Mars) are rocky. The outer planets (Jupiter, Saturn, Uranus, Neptune) are mainly — ",
+        "Options":  [
+                        "A) Gas giants (hydrogen and helium)",
+                        "B) Rocky too",
+                        "C) Made of ice only",
+                        "D) Made of water"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Outer planets are called gas giants because they consist mainly of hydrogen, helium, and other gases."
+    },
+    {
+        "QuestionText":  "Earth\u0027s crust is broken into large pieces called — ",
+        "Options":  [
+                        "A) Tectonic plates",
+                        "B) Continents",
+                        "C) Rocks",
+                        "D) Oceans"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Earth\u0027s Structure",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Tectonic plates are large sections of Earth\u0027s crust that float on the mantle and slowly move."
+    },
+    {
+        "QuestionText":  "Earthquakes occur mainly because — ",
+        "Options":  [
+                        "A) Tectonic plates move and collide or slide past each other",
+                        "B) Volcanoes explode",
+                        "C) Heavy rain erodes soil",
+                        "D) Oceans overflow"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Earthquakes",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The movement of tectonic plates creates pressure; when plates slip, energy is released as seismic waves (earthquakes)."
+    },
+    {
+        "QuestionText":  "A lunar eclipse occurs when — ",
+        "Options":  [
+                        "A) Earth\u0027s shadow falls on the Moon",
+                        "B) Moon blocks the Sun",
+                        "C) Moon moves away from Earth",
+                        "D) Sun is hidden by clouds"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Lunar Eclipse",
+        "Difficulty":  "Advanced",
+        "Explanation":  "During a lunar eclipse, Earth is directly between Sun and Moon, casting its shadow on the Moon."
+    },
+    {
+        "QuestionText":  "Why does Mercury have extreme temperatures (very hot day, very cold night)?",
+        "Options":  [
+                        "A) It has no atmosphere to hold heat or block radiation",
+                        "B) It is closest to Sun",
+                        "C) It spins very fast",
+                        "D) It has ice caps"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets and Atmosphere",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Without an atmosphere, Mercury has no insulation — extreme heat in sunlight, extreme cold in shadow."
+    },
+    {
+        "QuestionText":  "The Milky Way is — ",
+        "Options":  [
+                        "A) The galaxy containing our Solar System",
+                        "B) A group of planets",
+                        "C) A star cluster",
+                        "D) A comet\u0027s tail"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Galaxies",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Milky Way is a spiral galaxy containing over 200 billion stars, including our Sun."
+    },
+    {
+        "QuestionText":  "Which planet has the most moons?",
+        "Options":  [
+                        "A) Saturn (95 confirmed moons)",
+                        "B) Jupiter",
+                        "C) Uranus",
+                        "D) Neptune"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets\u0027 Moons",
+        "Difficulty":  "Advanced",
+        "Explanation":  "As of 2023, Saturn has 95 confirmed moons, the most of any planet in our Solar System."
+    },
+    {
+        "QuestionText":  "Earth is about 150 million km from the Sun. Light travels at 300,000 km/s. How long does sunlight take to reach Earth?",
+        "Options":  [
+                        "A) About 8 minutes",
+                        "B) 1 hour",
+                        "C) 1 day",
+                        "D) 1 second"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Light Travel Time",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "150,000,000 ÷ 300,000 = 500 seconds ≈ 8.3 minutes."
+    },
+    {
+        "QuestionText":  "The greenhouse effect occurs when — ",
+        "Options":  [
+                        "A) Gases in the atmosphere trap heat from Earth, warming the planet",
+                        "B) Sun gets closer to Earth",
+                        "C) Ozone blocks cold air",
+                        "D) Clouds reflect heat to space"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Climate",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "CO₂, methane, and water vapour trap outgoing infrared radiation, warming Earth like a greenhouse."
+    },
+    {
+        "QuestionText":  "If Earth did not tilt on its axis, what would happen to seasons?",
+        "Options":  [
+                        "A) There would be no seasons; every day would be the same",
+                        "B) Seasons would be stronger",
+                        "C) Only summer would exist",
+                        "D) Nights would be longer"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Seasons and Tilt",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Earth\u0027s 23.5° tilt causes seasons; without tilt, all latitudes would receive constant sunlight year-round."
+    },
+    {
+        "QuestionText":  "A spacecraft leaves Earth at 40,000 km/h. The Moon is 384,000 km away. How long to reach the Moon?",
+        "Options":  [
+                        "A) About 9.6 hours",
+                        "B) 24 hours",
+                        "C) 3 days",
+                        "D) 1 hour"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Space Maths",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "384,000 ÷ 40,000 = 9.6 hours."
+    },
+    {
+        "QuestionText":  "Why do astronauts float in the International Space Station (ISS)?",
+        "Options":  [
+                        "A) The ISS is in free fall (orbit) around Earth, creating weightlessness",
+                        "B) There is no gravity in space",
+                        "C) The ISS is too far from Earth",
+                        "D) Air pressure is zero"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Weightlessness",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The ISS and astronauts are in constant free fall (orbital motion) so they experience apparent weightlessness."
+    },
+    {
+        "QuestionText":  "Black holes are regions of space where gravity is so strong that — ",
+        "Options":  [
+                        "A) Even light cannot escape",
+                        "B) Stars are born",
+                        "C) Planets form rings",
+                        "D) Comets lose tails"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Black Holes",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A black hole\u0027s gravity exceeds the escape velocity of light; anything crossing the event horizon cannot return."
+    },
+    {
+        "QuestionText":  "Mars has the largest volcano in the Solar System (Olympus Mons, 22 km tall). It is about how many times taller than Mount Everest (8.8 km)?",
+        "Options":  [
+                        "A) About 2.5 times",
+                        "B) 5 times",
+                        "C) 10 times",
+                        "D) Same height"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Space Comparison",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "22 km ÷ 8.8 km ≈ 2.5 times taller than Mount Everest."
+    },
+    {
+        "QuestionText":  "The Big Bang theory says the Universe began — ",
+        "Options":  [
+                        "A) About 13.8 billion years ago from a very hot, dense point",
+                        "B) 1 billion years ago",
+                        "C) With the Sun forming",
+                        "D) When Earth was created"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Universe Origins",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Modern cosmology places the Big Bang at approximately 13.8 billion years ago, creating space, time, and matter."
+    },
+    {
+        "QuestionText":  "Why does Venus have the highest surface temperature of all planets (462°C) even though Mercury is closer to the Sun?",
+        "Options":  [
+                        "A) Venus has a thick CO₂ atmosphere causing an extreme greenhouse effect",
+                        "B) Venus is larger",
+                        "C) Venus has no night side",
+                        "D) Venus reflects more light"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets and Climate",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Venus\u0027s dense CO₂ atmosphere traps enormous heat; Mercury, with no atmosphere, loses heat rapidly at night."
+    },
+    {
+        "QuestionText":  "Spacecraft re-entering Earth\u0027s atmosphere heat up because of — ",
+        "Options":  [
+                        "A) Friction with air molecules",
+                        "B) The Sun\u0027s heat",
+                        "C) Burning fuel",
+                        "D) Electricity"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Atmospheric Re-entry",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Air molecules cannot move out of the way fast enough; friction between spacecraft and dense air generates intense heat."
+    },
+    {
+        "QuestionText":  "If there were 9 planets and Pluto is excluded, how many are left? And Pluto is now called a — ",
+        "Options":  [
+                        "A) 8 planets; Pluto is a dwarf planet",
+                        "B) 7; it became an asteroid",
+                        "C) 8; Pluto is a comet",
+                        "D) 8; Pluto is a moon"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Dwarf Planets",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "In 2006 the IAU reclassified Pluto as a dwarf planet, leaving 8 classical planets in our Solar System."
+    },
+    {
+        "QuestionText":  "The Hubble Space Telescope is valuable because — ",
+        "Options":  [
+                        "A) It orbits above Earth\u0027s atmosphere, giving clearer images than ground telescopes",
+                        "B) It is on the Moon",
+                        "C) It uses sound waves",
+                        "D) It can travel to stars"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Space Exploration",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Above the distorting atmosphere, Hubble captures clearer, sharper images of distant galaxies and nebulae."
+    },
+    {
+        "QuestionText":  "Ocean tides are HIGHEST during full moon and new moon. This is because — ",
+        "Options":  [
+                        "A) Sun and Moon are aligned, combining their gravitational pull",
+                        "B) Oceans are warmer",
+                        "C) Earth spins faster",
+                        "D) Moon is farthest"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Spring Tides",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "When Sun, Moon, and Earth align (new/full moon), their combined gravity creates higher spring tides."
+    },
+    {
+        "QuestionText":  "The asteroid belt lies between which two planets?",
+        "Options":  [
+                        "A) Mars and Jupiter",
+                        "B) Earth and Mars",
+                        "C) Jupiter and Saturn",
+                        "D) Saturn and Uranus"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Asteroid Belt",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The asteroid belt, containing millions of rocky objects, orbits between Mars and Jupiter."
+    },
+    {
+        "QuestionText":  "Titan (Saturn\u0027s moon) has seas of liquid methane. This shows that — ",
+        "Options":  [
+                        "A) Liquids can exist on other worlds but need not be water",
+                        "B) Only Earth has liquid",
+                        "C) All moons have water",
+                        "D) Methane is a gas everywhere"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planetary Science",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Titan\u0027s -180°C surface temperature keeps methane liquid; it proves liquids aren\u0027t unique to Earth, just different chemistry."
+    },
+    {
+        "QuestionText":  "If astronauts on Mars call Earth and the planets are at maximum distance (401 million km), how long does the radio signal take?",
+        "Options":  [
+                        "A) About 22 minutes",
+                        "B) 8 minutes",
+                        "C) 1 hour",
+                        "D) 3 minutes"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Communication in Space",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Radio waves travel at speed of light: 401,000,000 km ÷ 300,000 km/s = ~1,337 s ≈ 22 minutes."
+    },
+    {
+        "QuestionText":  "Meteor showers occur when Earth passes through — ",
+        "Options":  [
+                        "A) A trail of debris left by a comet",
+                        "B) Another planet\u0027s orbit",
+                        "C) A cloud of gas",
+                        "D) An asteroid field"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Meteors",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Comets shed dust trails; when Earth\u0027s orbit crosses these trails, debris burns in the atmosphere as meteors."
+    },
+    {
+        "QuestionText":  "Why is the sky blue?",
+        "Options":  [
+                        "A) Air molecules scatter short blue wavelengths of sunlight more than red",
+                        "B) Blue paint in clouds",
+                        "C) Oceans reflect blue light",
+                        "D) The Sun is blue"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Scattering of Light",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Rayleigh scattering causes air molecules to scatter blue light (shorter wavelength) in all directions across the sky."
+    },
+    {
+        "QuestionText":  "Geostationary satellites orbit Earth at about 36,000 km and stay above the same spot. They are used mainly for — ",
+        "Options":  [
+                        "A) TV broadcasting and weather monitoring",
+                        "B) GPS navigation",
+                        "C) Deep space exploration",
+                        "D) Mapping ocean floors"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Satellites",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Geostationary satellites match Earth\u0027s rotation, staying fixed over one location — ideal for TV/weather."
+    },
+    {
+        "QuestionText":  "Which planet rotates on its side (axial tilt of about 98°)?",
+        "Options":  [
+                        "A) Uranus",
+                        "B) Saturn",
+                        "C) Mars",
+                        "D) Venus"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Earth and Universe",
+        "SubTopic":  "Planets",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Uranus has an extreme axial tilt of ~98°, making it appear to rotate on its side relative to its orbit."
+    }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "An algorithm is:",
+    "Options": [
+      "A) A type of computer language",
+      "B) A step-by-step set of instructions to solve a problem",
+      "C) A hardware component",
+      "D) A software application"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Algorithm: finite set of well-defined instructions to solve a problem or accomplish a task. Properties: finite, definite, effective, has input/output."
+  },
+  {
+    "QuestionText": "A flowchart uses which shape for a decision?",
+    "Options": [
+      "A) Rectangle",
+      "B) Oval/circle",
+      "C) Diamond",
+      "D) Parallelogram"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation",
+    "Explanation": "Flowchart shapes: Oval = Start/End. Rectangle = Process. Diamond = Decision. Parallelogram = Input/Output. Arrow = Flow direction."
+  },
+  {
+    "QuestionText": "What shape represents Start/End in a flowchart?",
+    "Options": [
+      "A) Rectangle",
+      "B) Diamond",
+      "C) Oval/Terminal",
+      "D) Parallelogram"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation",
+    "Explanation": "Oval (terminal) = Start or End of a flowchart. Always present at the beginning and end."
+  },
+  {
+    "QuestionText": "In programming, a 'variable' is:",
+    "Options": [
+      "A) A fixed value",
+      "B) A named storage location whose value can change",
+      "C) A type of loop",
+      "D) An error in code"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Variable: a named memory location that stores data. Its value can be changed during program execution. E.g., x = 5; x = x + 1 \u2192 x is now 6."
+  },
+  {
+    "QuestionText": "A 'loop' in programming is used to:",
+    "Options": [
+      "A) Stop a program",
+      "B) Repeat a block of code multiple times",
+      "C) Store a value",
+      "D) Display output"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Loop: repeats a block of code. Types: for loop (known iterations), while loop (condition-based), do-while. Prevents writing the same code multiple times."
+  },
+  {
+    "QuestionText": "In Visual Basic, which is used to display output?",
+    "Options": [
+      "A) INPUT",
+      "B) PRINT",
+      "C) MsgBox or Print",
+      "D) ECHO"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Visual Basic",
+    "Difficulty": "Foundation",
+    "Explanation": "VB: MsgBox('Hello') displays a dialog. Print is used in forms. InputBox gets user input. VB uses event-driven programming."
+  },
+  {
+    "QuestionText": "A pseudocode is:",
+    "Options": [
+      "A) Fake code that doesn't run",
+      "B) Plain language description of an algorithm (informal code)",
+      "C) A type of compiled language",
+      "D) Machine language"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Pseudocode: informal high-level description of algorithm using human-readable language + programming constructs. Not actual code \u2014 helps plan logic before coding."
+  },
+  {
+    "QuestionText": "An 'infinite loop' in programming:",
+    "Options": [
+      "A) Runs exactly 10 times",
+      "B) Never terminates (runs forever due to condition always being true)",
+      "C) Is a type of array",
+      "D) Runs only once"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Infinite loop: loop condition never becomes false \u2192 runs indefinitely \u2192 program hangs/crashes. Bug to avoid. E.g., while(true) {} in most languages is infinite."
+  },
+  {
+    "QuestionText": "In a flowchart, the parallelogram shape represents:",
+    "Options": [
+      "A) A decision",
+      "B) Input or Output",
+      "C) A process step",
+      "D) Start/End"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallelogram = Input/Output. Shows data entering (INPUT name) or leaving (PRINT result) the algorithm."
+  },
+  {
+    "QuestionText": "Binary number 1010 in decimal is:",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "1010\u2082: 1\u00d72\u00b3 + 0\u00d72\u00b2 + 1\u00d72\u00b9 + 0\u00d72\u2070 = 8+0+2+0 = 10\u2081\u2080."
+  },
+  {
+    "QuestionText": "Hexadecimal number A in decimal is:",
+    "Options": [
+      "A) 9",
+      "B) 10",
+      "C) 11",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Hex digits: 0-9, then A=10, B=11, C=12, D=13, E=14, F=15. Hexadecimal = base 16."
+  },
+  {
+    "QuestionText": "An 'array' in programming is:",
+    "Options": [
+      "A) A single variable",
+      "B) A collection of elements of same type stored in contiguous memory",
+      "C) A type of loop",
+      "D) A decision structure"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Array: stores multiple values of same data type. Accessed by index. E.g., marks[0]=85, marks[1]=90. Efficient for processing collections of data."
+  },
+  {
+    "QuestionText": "'Debugging' in programming means:",
+    "Options": [
+      "A) Adding new features",
+      "B) Finding and fixing errors (bugs) in code",
+      "C) Compiling code",
+      "D) Running a program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Debugging: process of finding, analysing, and fixing errors (bugs) in code. IDEs have debuggers that allow stepping through code, watching variables."
+  },
+  {
+    "QuestionText": "In Visual Basic, 'If...Then...Else' is used for:",
+    "Options": [
+      "A) Loops",
+      "B) Conditional decision making",
+      "C) Declaring variables",
+      "D) Input only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Visual Basic",
+    "Difficulty": "Foundation",
+    "Explanation": "If...Then...Else: executes different code blocks based on a condition. If condition Then [code] Else [alternate code] End If."
+  },
+  {
+    "QuestionText": "An algorithm to find the largest of three numbers requires how many comparisons?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Minimum 2 comparisons: compare first two \u2192 keep larger \u2192 compare with third. 2 comparisons find maximum of 3 numbers."
+  },
+  {
+    "QuestionText": "What does 'high-level language' mean?",
+    "Options": [
+      "A) Very fast machine code",
+      "B) Human-readable programming language (Python, Java, C++) close to English",
+      "C) Binary language",
+      "D) Language used only by experts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "High-level languages: human-readable, closer to English (Python, Java, C++, VB). Must be compiled/interpreted to machine code. Low-level: assembly language, machine code."
+  },
+  {
+    "QuestionText": "A 'compiler' translates:",
+    "Options": [
+      "A) Machine code to high-level language",
+      "B) Entire high-level program to machine code at once",
+      "C) One line at a time",
+      "D) Only variables"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Compiler: translates entire source code to machine code at once. Creates executable file. Interpreter: translates and executes line by line (Python). Assembler: converts assembly to machine code."
+  },
+  {
+    "QuestionText": "In binary, the base (radix) is:",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 2",
+      "D) 16"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Number systems: Binary (base 2: digits 0,1), Octal (base 8), Decimal (base 10: 0-9), Hexadecimal (base 16: 0-9,A-F)."
+  },
+  {
+    "QuestionText": "Decimal 15 in binary is:",
+    "Options": [
+      "A) 1110",
+      "B) 1111",
+      "C) 1010",
+      "D) 0101"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "15\u2081\u2080 = 8+4+2+1 = 1\u00d72\u00b3+1\u00d72\u00b2+1\u00d72\u00b9+1\u00d72\u2070 = 1111\u2082."
+  },
+  {
+    "QuestionText": "The 'FOR' loop in Visual Basic:",
+    "Options": [
+      "A) Runs forever",
+      "B) Repeats for a fixed number of times",
+      "C) Runs based on user input",
+      "D) Only runs once"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Visual Basic",
+    "Difficulty": "Foundation",
+    "Explanation": "For...Next loop: For i = 1 To 10 ... Next i. Runs exactly 10 times. Counter controlled loop. WHILE loop: condition controlled."
+  },
+  {
+    "QuestionText": "An 'event-driven' program responds to:",
+    "Options": [
+      "A) Only timer events",
+      "B) User actions like mouse clicks and keyboard input",
+      "C) Hardware failures only",
+      "D) Network events only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Visual Basic",
+    "Difficulty": "Advanced",
+    "Explanation": "Event-driven programming: program responds to events (clicks, key presses, form loads). Visual Basic is event-driven. Code is written in event handlers (Sub Button_Click etc.)."
+  },
+  {
+    "QuestionText": "Bubble sort works by:",
+    "Options": [
+      "A) Randomly selecting pivot elements",
+      "B) Repeatedly swapping adjacent elements if out of order",
+      "C) Dividing array in half",
+      "D) Using a separate sorted list"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Bubble sort: compares adjacent pairs, swaps if out of order, repeats until sorted. Simple but slow O(n\u00b2). Larger elements 'bubble up' to end."
+  },
+  {
+    "QuestionText": "What is the output of: x=5, y=3, z=x+y, Print z?",
+    "Options": [
+      "A) 53",
+      "B) 8",
+      "C) 2",
+      "D) 15"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "x=5, y=3. z = x+y = 5+3 = 8. Print z outputs 8. Basic arithmetic in code."
+  },
+  {
+    "QuestionText": "In programming, a 'function' is:",
+    "Options": [
+      "A) A variable type",
+      "B) A reusable block of code that performs a specific task",
+      "C) A type of error",
+      "D) A flowchart symbol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Function: named, reusable block of code. Can take inputs (parameters), return output. Promotes code reuse, reduces duplication. Also called: subroutine, procedure, method."
+  },
+  {
+    "QuestionText": "The decimal number 25 in hexadecimal is:",
+    "Options": [
+      "A) 18",
+      "B) 19",
+      "C) 1A",
+      "D) 1F"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "25 \u00f7 16 = 1 remainder 9. So 25\u2081\u2080 = 19\u2081\u2086. Check: 1\u00d716 + 9 = 25. \u2713"
+  },
+  {
+    "QuestionText": "An 'IF' statement without an ELSE:",
+    "Options": [
+      "A) Always causes an error",
+      "B) Executes the code block only if condition is true, skips if false",
+      "C) Runs the block always",
+      "D) Is infinite"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "IF without ELSE: only executes block when condition is True. When condition is False, block is skipped and program continues after the IF statement."
+  },
+  {
+    "QuestionText": "'Concatenation' in programming means:",
+    "Options": [
+      "A) Multiplying strings",
+      "B) Joining strings together",
+      "C) Comparing strings",
+      "D) Deleting strings"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Concatenation: joining strings. In VB: & operator. 'Hello' & ' World' = 'Hello World'. In Python: +. Used to combine text and variable values."
+  },
+  {
+    "QuestionText": "What is ASCII?",
+    "Options": [
+      "A) A programming language",
+      "B) American Standard Code for Information Interchange (numeric codes for characters)",
+      "C) A type of memory",
+      "D) A network protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "ASCII: standard numeric codes for characters. A=65, B=66, a=97, 0=48. First 128 characters. Extended ASCII: 256. Unicode: supports all world languages."
+  },
+  {
+    "QuestionText": "A 'nested loop' is:",
+    "Options": [
+      "A) A loop that runs only once",
+      "B) A loop inside another loop",
+      "C) An infinite loop",
+      "D) A loop with no conditions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Nested loop: loop inside another loop. Used for 2D operations (matrix, grid, tables). Inner loop completes all iterations for each iteration of outer loop. E.g., multiplication table."
+  },
+  {
+    "QuestionText": "Which of these is NOT a programming logic error?",
+    "Options": [
+      "A) Division by zero",
+      "B) Wrong formula",
+      "C) Missing semicolon (syntax error)",
+      "D) Infinite loop"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Syntax error: violates language rules (missing semicolon, bracket). Caught by compiler. Logic error: program runs but gives wrong result (wrong formula, wrong condition). Runtime error: crashes during execution (division by zero)."
+  },
+  {
+    "QuestionText": "The binary addition 1 + 1 equals:",
+    "Options": [
+      "A) 2",
+      "B) 10",
+      "C) 11",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Binary addition: 1 + 1 = 10 (decimal 2). 0+0=0, 0+1=1, 1+0=1, 1+1=10 (write 0, carry 1). The '2' doesn't exist in binary."
+  },
+  {
+    "QuestionText": "In a flowchart, the rectangle (process box) contains:",
+    "Options": [
+      "A) Start or end",
+      "B) A yes/no decision",
+      "C) A processing step (calculation or action)",
+      "D) Input from user"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation",
+    "Explanation": "Rectangle (process box): contains an action, calculation, or processing step. E.g., 'Calculate area = length \u00d7 width' or 'Add 1 to counter'."
+  },
+  {
+    "QuestionText": "'Octal' number system has base:",
+    "Options": [
+      "A) 2",
+      "B) 8",
+      "C) 10",
+      "D) 16"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Octal: base 8, digits 0-7. Used in early computing and Unix file permissions. Decimal 8 = Octal 10. Decimal 255 = Octal 377."
+  },
+  {
+    "QuestionText": "A subroutine differs from a function in that it:",
+    "Options": [
+      "A) Can't take parameters",
+      "B) Doesn't return a value (just performs a task)",
+      "C) Runs faster",
+      "D) Can't be called from main program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Subroutine/Procedure: performs a task, returns no value. Function: performs task AND returns a value. In VB: Sub (subroutine), Function (returns value)."
+  },
+  {
+    "QuestionText": "Scratch is a programming language designed for:",
+    "Options": [
+      "A) Professional software development",
+      "B) Beginners and children to learn programming concepts visually",
+      "C) Database management",
+      "D) Network programming"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Scratch: block-based visual programming language by MIT. Drag-and-drop code blocks \u2192 no syntax errors. Ideal for learning programming concepts (loops, conditions, events) visually."
+  },
+  {
+    "QuestionText": "Python 2.7 print statement syntax is:",
+    "Options": [
+      "A) print(\"Hello\")",
+      "B) print \"Hello\"",
+      "C) Print(\"Hello\")",
+      "D) cout<<\"Hello\""
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Introduction to Python",
+    "Difficulty": "Foundation",
+    "Explanation": "Python 2.7: print \"Hello\" (statement). Python 3: print(\"Hello\") (function). NCO syllabus mentions Python 2.7.0 specifically. Python 3 changed print from statement to function."
+  },
+  {
+    "QuestionText": "In Python, which is used to get user input?",
+    "Options": [
+      "A) input()",
+      "B) scan()",
+      "C) read()",
+      "D) get()"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Introduction to Python",
+    "Difficulty": "Foundation",
+    "Explanation": "Python: input() reads user input as string. In Python 2.7: raw_input() for string, input() for expression. Python 3: only input()."
+  },
+  {
+    "QuestionText": "The greatest common divisor (GCD) algorithm repeatedly:",
+    "Options": [
+      "A) Multiplies numbers",
+      "B) Divides the larger by smaller and replaces with remainder (Euclidean algorithm)",
+      "C) Adds numbers",
+      "D) Compares directly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Euclidean algorithm: GCD(a,b) = GCD(b, a mod b) until b=0. E.g., GCD(48,18): 48 mod 18=12, GCD(18,12): 18 mod 12=6, GCD(12,6): 12 mod 6=0 \u2192 GCD=6."
+  },
+  {
+    "QuestionText": "A 'flowchart' is useful for:",
+    "Options": [
+      "A) Drawing pictures",
+      "B) Visualising an algorithm/process step by step",
+      "C) Writing code directly",
+      "D) Testing programs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation",
+    "Explanation": "Flowchart: graphical representation of an algorithm or process. Helps plan logic before coding, document processes, identify errors in logic, communicate algorithms clearly."
+  },
+  {
+    "QuestionText": "Decimal 10 in binary is:",
+    "Options": [
+      "A) 1000",
+      "B) 1010",
+      "C) 0110",
+      "D) 1100"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "10\u2081\u2080 = 8+2 = 1\u00d72\u00b3+0\u00d72\u00b2+1\u00d72\u00b9+0\u00d72\u2070 = 1010\u2082."
+  },
+  {
+    "QuestionText": "'Selection sort' algorithm:",
+    "Options": [
+      "A) Repeatedly swaps adjacent elements",
+      "B) Finds minimum element and places it at beginning, repeats for rest",
+      "C) Splits array in half recursively",
+      "D) Inserts each element in correct position"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Selection sort: find minimum in unsorted portion \u2192 swap to correct position \u2192 reduce unsorted portion by 1 \u2192 repeat. O(n\u00b2) time complexity."
+  },
+  {
+    "QuestionText": "Python indentation is:",
+    "Options": [
+      "A) Optional \u2014 just good practice",
+      "B) Mandatory \u2014 defines code blocks",
+      "C) Only for comments",
+      "D) Not used in Python"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Introduction to Python",
+    "Difficulty": "Foundation",
+    "Explanation": "Python uses indentation (spaces or tabs) to define code blocks (if, for, while, functions). Unlike C/Java which use braces {}. Inconsistent indentation causes IndentationError."
+  },
+  {
+    "QuestionText": "In Visual Basic, the 'While...Wend' loop:",
+    "Options": [
+      "A) Runs a fixed number of times",
+      "B) Runs while a condition is True",
+      "C) Always runs at least once",
+      "D) Is the same as For...Next"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Visual Basic",
+    "Difficulty": "Foundation",
+    "Explanation": "While...Wend: pre-condition loop. Tests condition first; if True, executes loop body; repeats. If condition is False initially, loop body never executes."
+  },
+  {
+    "QuestionText": "'Modular programming' divides a program into:",
+    "Options": [
+      "A) Only two parts",
+      "B) Independent modules/functions each performing specific tasks",
+      "C) Equal-sized blocks",
+      "D) Sequential steps only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Modular programming: breaking program into smaller, independent, reusable modules (functions/procedures). Benefits: easier debugging, maintainability, reusability, collaboration."
+  },
+  {
+    "QuestionText": "What is a flowchart 'connector' symbol?",
+    "Options": [
+      "A) Diamond",
+      "B) Circle (used to connect different parts of a flowchart across pages)",
+      "C) Rectangle",
+      "D) Parallelogram"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation",
+    "Explanation": "Connector (circle): connects different parts of a flowchart, often when continuing on another page. Labelled with a letter or number for matching connection points."
+  },
+  {
+    "QuestionText": "In Python, 'elif' is short for:",
+    "Options": [
+      "A) Else if",
+      "B) Early if",
+      "C) End loop if",
+      "D) External if"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Introduction to Python",
+    "Difficulty": "Foundation",
+    "Explanation": "Python: if...elif...else structure. 'elif' = else if. Checks additional conditions when previous conditions are False. Can have multiple elif blocks. Equivalent to if-else if in other languages."
+  },
+  {
+    "QuestionText": "Binary subtraction: 1010 - 0011 = ?",
+    "Options": [
+      "A) 0101",
+      "B) 0111",
+      "C) 1101",
+      "D) 0100"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "1010\u2082 = 10\u2081\u2080, 0011\u2082 = 3\u2081\u2080. 10-3=7\u2081\u2080 = 0111\u2082."
+  },
+  {
+    "QuestionText": "A 'string' data type stores:",
+    "Options": [
+      "A) Numbers only",
+      "B) Text characters",
+      "C) Boolean values",
+      "D) Decimal numbers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "String: data type for text. Sequence of characters enclosed in quotes. 'Hello', 'India123'. String operations: concatenation, length, substring, upper/lowercase."
+  },
+  {
+    "QuestionText": "Scratch uses __ instead of typed code:",
+    "Options": [
+      "A) Flowcharts",
+      "B) Drag-and-drop coloured blocks",
+      "C) Binary code",
+      "D) Voice commands"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Scratch: visual block-based programming. Drag coloured blocks (motion, looks, sound, events, control, sensing, operators, variables) to create programs. No syntax errors possible."
+  },
+  {
+    "QuestionText": "Hexadecimal is used in computing because:",
+    "Options": [
+      "A) It's easier than decimal",
+      "B) It compactly represents binary (4 bits = 1 hex digit)",
+      "C) Computers use base 16 internally",
+      "D) It has more digits than decimal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Algorithms Flowcharts and Programming",
+    "SubTopic": "Number Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Hex is convenient shorthand for binary: each hex digit = exactly 4 binary bits. 0xF = 1111\u2082. Memory addresses, color codes (RGB #FF5500) use hex. Compact representation."
+  }
+]

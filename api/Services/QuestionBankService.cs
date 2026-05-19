@@ -28,13 +28,14 @@ public class QuestionBankService
     /// fewer than <paramref name="count"/> questions for that combination.
     /// </summary>
     public async Task<List<Question>?> TryGetRandomAsync(
-        string subject, int grade, string difficulty, int count,
+        string subject, int grade, string? difficulty, int count,
         string? topic = null, CancellationToken ct = default)
     {
         var baseQuery = _db.QuestionBank
-            .Where(q => q.Subject == subject
-                     && q.Grade == grade
-                     && q.Difficulty == difficulty);
+            .Where(q => q.Subject == subject && q.Grade == grade);
+
+        if (difficulty is not null)
+            baseQuery = baseQuery.Where(q => q.Difficulty == difficulty);
 
         if (topic is not null)
             baseQuery = baseQuery.Where(q => q.Topic == topic);
@@ -45,7 +46,7 @@ public class QuestionBankService
         {
             _log.LogInformation(
                 "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty} topic={Topic}; need {Count}",
-                available, subject, grade, difficulty, topic ?? "any", count);
+                available, subject, grade, difficulty ?? "any", topic ?? "any", count);
             return null;
         }
 

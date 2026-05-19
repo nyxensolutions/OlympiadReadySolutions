@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "In MS Word, Ctrl+B is used to:",
+    "Options": [
+      "A) Begin a new document",
+      "B) Bold text",
+      "C) Bookmark a page",
+      "D) Break a page"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+B = Bold. Ctrl+I = Italic. Ctrl+U = Underline. Ctrl+S = Save. Ctrl+P = Print. Ctrl+Z = Undo. Ctrl+Y = Redo."
+  },
+  {
+    "QuestionText": "The 'Find and Replace' function in MS Word is accessed by:",
+    "Options": [
+      "A) Ctrl+F (Find), Ctrl+H (Replace)",
+      "B) Ctrl+R",
+      "C) Ctrl+A",
+      "D) Ctrl+G"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+F = Find (search for text). Ctrl+H = Find and Replace (find text and replace with new text). Ctrl+G = Go To (jump to page/bookmark)."
+  },
+  {
+    "QuestionText": "Mail Merge in MS Word is used to:",
+    "Options": [
+      "A) Merge multiple Word files",
+      "B) Send personalised letters/emails to many recipients using a data source",
+      "C) Merge cells in a table",
+      "D) Import Excel data into Word"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Mail Merge: creates personalised copies of a document (letters, emails, labels) by combining a template with a data source (Excel spreadsheet, contacts list)."
+  },
+  {
+    "QuestionText": "Format Painter in MS Office is used to:",
+    "Options": [
+      "A) Paint text in colourful formats",
+      "B) Copy formatting from one place and apply to another",
+      "C) Draw shapes",
+      "D) Change background"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Format Painter (paintbrush icon): copies formatting (font, size, colour, bold, spacing) from selected text/object and 'paints' it onto other text/objects. Double-click to apply multiple times."
+  },
+  {
+    "QuestionText": "In MS Excel, a formula always starts with:",
+    "Options": [
+      "A) Letters",
+      "B) Numbers",
+      "C) = (equals sign)",
+      "D) # (hash)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "All Excel formulas begin with =. E.g., =A1+B1, =SUM(A1:A10), =AVERAGE(B1:B5), =IF(C1>100,'Pass','Fail')."
+  },
+  {
+    "QuestionText": "The SUM function in Excel:",
+    "Options": [
+      "A) Adds all values in a range",
+      "B) Finds the average",
+      "C) Counts cells",
+      "D) Finds the maximum"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "=SUM(A1:A10) adds all values from A1 to A10. =AVERAGE(): arithmetic mean. =COUNT(): counts numbers. =MAX(): maximum. =MIN(): minimum."
+  },
+  {
+    "QuestionText": "In Excel, the AVERAGE function returns:",
+    "Options": [
+      "A) Sum of values",
+      "B) Maximum value",
+      "C) Arithmetic mean of values",
+      "D) Count of values"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "=AVERAGE(A1:A5): sum divided by count. E.g., AVERAGE(2,4,6) = (2+4+6)/3 = 4."
+  },
+  {
+    "QuestionText": "In MS Excel, absolute cell reference uses:",
+    "Options": [
+      "A) $ sign before row and/or column ($A$1)",
+      "B) # sign",
+      "C) @ sign",
+      "D) % sign"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Absolute reference: $A$1 \u2014 row and column fixed when formula is copied. Relative: A1 (changes). Mixed: $A1 (column fixed) or A$1 (row fixed). Press F4 to toggle."
+  },
+  {
+    "QuestionText": "'Conditional Formatting' in Excel applies formatting based on:",
+    "Options": [
+      "A) Manual selection only",
+      "B) Cell values meeting specific conditions",
+      "C) Font only",
+      "D) Only colour changes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Conditional Formatting: automatically formats cells based on rules. E.g., colour cells red if value < 0, or green if value > target. Found in Home tab."
+  },
+  {
+    "QuestionText": "In MS Excel, 'Data Validation' is used to:",
+    "Options": [
+      "A) Check grammar",
+      "B) Restrict what data can be entered in cells",
+      "C) Sort data",
+      "D) Format cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Data Validation: restricts data entry in cells. E.g., only allow numbers between 1-100, or only from a drop-down list, or only dates. Prevents invalid data entry."
+  },
+  {
+    "QuestionText": "The 'IF' function in Excel has syntax:",
+    "Options": [
+      "A) IF(condition; true_value; false_value)",
+      "B) =IF(logical_test, value_if_true, value_if_false)",
+      "C) IF condition THEN value",
+      "D) =IF[condition](true, false)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "=IF(logical_test, value_if_true, value_if_false). E.g., =IF(A1>=50, 'Pass', 'Fail'). Nested IF: =IF(A1>=90,'A', IF(A1>=80,'B','C'))."
+  },
+  {
+    "QuestionText": "In MS PowerPoint, a 'slide layout' provides:",
+    "Options": [
+      "A) The content of the slide",
+      "B) A pre-designed arrangement of placeholders on the slide",
+      "C) Animation settings",
+      "D) Background music"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Slide layouts: pre-designed arrangements with placeholders for title, content, images, etc. Select from Layout in Home tab. Ensures consistent, professional formatting."
+  },
+  {
+    "QuestionText": "Animations in PowerPoint control:",
+    "Options": [
+      "A) Slide transitions",
+      "B) How individual elements (text, images) appear/disappear on a slide",
+      "C) Background colours",
+      "D) Font choices"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Animations: control how individual elements enter, exit, or emphasise within a slide. Slide Transitions: effects between slides. Both found in Animations/Transitions tabs."
+  },
+  {
+    "QuestionText": "In PowerPoint, 'Slide Master' is used to:",
+    "Options": [
+      "A) Add slides",
+      "B) Create a consistent design applied to all slides",
+      "C) Delete slides",
+      "D) Print slides"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Slide Master: controls the default design (fonts, colours, backgrounds, layouts) for all slides. Changes to Slide Master apply to entire presentation. Found in View tab."
+  },
+  {
+    "QuestionText": "The VLOOKUP function in Excel:",
+    "Options": [
+      "A) Validates data entry",
+      "B) Searches for a value in the first column of a range and returns a value from another column",
+      "C) Calculates vertical totals",
+      "D) Creates vertical charts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "=VLOOKUP(lookup_value, table_array, col_index, [exact/approximate]). Vertical lookup \u2014 searches first column of range, returns value from specified column. Common for data retrieval."
+  },
+  {
+    "QuestionText": "'Track Changes' in MS Word allows:",
+    "Options": [
+      "A) Only the author to edit",
+      "B) Recording all edits for review (useful for collaborative editing)",
+      "C) Automatic spell checking",
+      "D) Version history only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Track Changes: records all insertions, deletions, formatting changes. Other users can review and accept/reject changes. Essential for collaborative document editing and review."
+  },
+  {
+    "QuestionText": "In Excel, the COUNT function:",
+    "Options": [
+      "A) Sums all values",
+      "B) Counts cells containing numbers",
+      "C) Counts all non-empty cells",
+      "D) Counts specific text"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "COUNT: counts cells with numbers only. COUNTA: counts all non-empty cells. COUNTIF: counts cells meeting a condition. E.g., =COUNTIF(A1:A10,'>50') counts cells > 50."
+  },
+  {
+    "QuestionText": "In MS Word, 'watermark' is used to:",
+    "Options": [
+      "A) Add visible water drops to document",
+      "B) Add faint text/image in background of page (e.g., DRAFT, CONFIDENTIAL)",
+      "C) Protect document with password",
+      "D) Add a border around page"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Watermark: faint text/image in page background. Common uses: DRAFT, CONFIDENTIAL, company logo. Found in Design tab \u2192 Watermark."
+  },
+  {
+    "QuestionText": "'Freeze Panes' in Excel:",
+    "Options": [
+      "A) Prevents any editing",
+      "B) Keeps row/column headers visible while scrolling through data",
+      "C) Locks the file",
+      "D) Hides rows"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Freeze Panes: keeps selected rows/columns visible as you scroll. Useful for large spreadsheets. View tab \u2192 Freeze Panes. Freeze Top Row, Freeze First Column, or custom."
+  },
+  {
+    "QuestionText": "In MS Excel, 'Data Tools' include:",
+    "Options": [
+      "A) Only Sort and Filter",
+      "B) Remove Duplicates, Text to Columns, Data Validation, Consolidate, What-If Analysis",
+      "C) Only Charts",
+      "D) Only Formulas"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Data Tools (Data tab): Remove Duplicates (eliminates duplicate rows), Text to Columns (splits text by delimiter), Data Validation (restrict input), Consolidate (combine data), What-If Analysis."
+  },
+  {
+    "QuestionText": "'Thesaurus' in MS Word helps to:",
+    "Options": [
+      "A) Check spelling errors",
+      "B) Find synonyms and antonyms for words",
+      "C) Translate text",
+      "D) Check grammar"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Thesaurus: finds synonyms (and sometimes antonyms) for selected word. Right-click \u2192 Synonyms \u2192 Thesaurus. Improves vocabulary and writing variety."
+  },
+  {
+    "QuestionText": "In Excel, which function finds the highest value in a range?",
+    "Options": [
+      "A) TOP()",
+      "B) HIGH()",
+      "C) MAX()",
+      "D) LARGEST()"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "MAX(range): returns highest value. MIN(): lowest. LARGE(range,k): kth largest. SMALL(range,k): kth smallest. E.g., =MAX(A1:A100) finds maximum in 100 cells."
+  },
+  {
+    "QuestionText": "'Slide Show' view in PowerPoint:",
+    "Options": [
+      "A) Edits slides",
+      "B) Runs the presentation in fullscreen for the audience",
+      "C) Shows all slides as thumbnails",
+      "D) Shows speaker notes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Slide Show view: presents slides fullscreen. F5 = start from beginning. Shift+F5 = start from current slide. Esc = exit. Presenter view shows notes on your screen while audience sees slides."
+  },
+  {
+    "QuestionText": "'Columns' in MS Word can be used to:",
+    "Options": [
+      "A) Create tables only",
+      "B) Divide page text into multiple columns (newspaper-style)",
+      "C) Only format Excel data",
+      "D) Set page width"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Columns (Layout \u2192 Columns): divides the page text into 2, 3, or more columns. Used in newsletters, newspapers, brochures. Column break: Ctrl+Shift+Enter."
+  },
+  {
+    "QuestionText": "In Excel, 'Formula Auditing' allows you to:",
+    "Options": [
+      "A) Format formulas",
+      "B) Trace precedents/dependents, check for errors in formulas",
+      "C) Create new formulas",
+      "D) Delete formulas"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Formula Auditing (Formulas tab): Trace Precedents (which cells feed into formula), Trace Dependents (which cells use the formula), Error Checking, Evaluate Formula (step through)."
+  },
+  {
+    "QuestionText": "'Protecting' a worksheet in Excel prevents:",
+    "Options": [
+      "A) Viewing data",
+      "B) Unauthorised modifications to locked cells",
+      "C) Printing",
+      "D) Opening the file"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Protect Sheet (Review tab): prevents editing of locked cells. A password can be set. Locked cells: cannot be edited when sheet is protected. Allows keeping formulas safe."
+  },
+  {
+    "QuestionText": "The 'Drop Cap' feature in MS Word:",
+    "Options": [
+      "A) Drops the font size",
+      "B) Creates an enlarged first capital letter at the beginning of paragraph",
+      "C) Removes capital letters",
+      "D) Drops the margin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Drop Cap: large capital letter at paragraph start, typically spanning 2-3 lines. Often seen in books, magazines for visual interest. Insert tab \u2192 Drop Cap."
+  },
+  {
+    "QuestionText": "'Pivot Table' in Excel is used for:",
+    "Options": [
+      "A) Turning data sideways",
+      "B) Summarising, analysing, exploring large datasets interactively",
+      "C) Creating flowcharts",
+      "D) Sorting data only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Pivot Table: powerful tool for summarising and analysing large datasets. Drag fields to rows, columns, values, filters. Create dynamic summaries without formulas."
+  },
+  {
+    "QuestionText": "In MS Word, 'Headers and Footers' appear:",
+    "Options": [
+      "A) Only on the first page",
+      "B) At the top (header) and bottom (footer) of every page",
+      "C) Only when printed",
+      "D) In the margin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Headers: at top of every page. Footers: at bottom. Can contain page numbers, date, document title, author. Insert tab \u2192 Header/Footer. Double-click to edit."
+  },
+  {
+    "QuestionText": "In MS PowerPoint, 'Presenter View' provides:",
+    "Options": [
+      "A) Full-screen slides only",
+      "B) Slides on main display + speaker notes, timer, next slide on presenter's screen",
+      "C) A presentation style guide",
+      "D) Audience attendance tracking"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Presenter View (with dual monitors): presenter sees current slide, next slide preview, speaker notes, timer. Audience sees full-screen presentation. Slide Show tab \u2192 Use Presenter View."
+  },
+  {
+    "QuestionText": "'AutoSum' button in Excel:",
+    "Options": [
+      "A) Automatically fills a series",
+      "B) Quickly inserts SUM formula for adjacent cells",
+      "C) Summarises data in a pivot table",
+      "D) Auto-formats numbers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "AutoSum (\u03a3): click cell below/right of numbers \u2192 AutoSum selects range automatically \u2192 press Enter. Also accessible via Alt+=. Can also do Average, Count, Max, Min."
+  },
+  {
+    "QuestionText": "'Text to Columns' in Excel splits:",
+    "Options": [
+      "A) A table into multiple tables",
+      "B) Text in one column into multiple columns based on delimiter",
+      "C) Text sideways",
+      "D) Merges text columns"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Text to Columns: splits text in one column into separate columns using a delimiter (comma, space, tab) or fixed width. E.g., 'John Smith' in A1 \u2192 'John' in A1, 'Smith' in B1."
+  },
+  {
+    "QuestionText": "Which tab in MS Word contains the 'Spelling & Grammar' check?",
+    "Options": [
+      "A) Insert",
+      "B) View",
+      "C) Review",
+      "D) Home"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Review tab: Spelling & Grammar (F7), Thesaurus, Word Count, Track Changes, Comments, Compare, Protect Document. One-stop for document review functions."
+  },
+  {
+    "QuestionText": "In Excel, the COUNT function vs COUNTA function:",
+    "Options": [
+      "A) Both count same things",
+      "B) COUNT counts numbers only; COUNTA counts all non-empty cells",
+      "C) COUNTA counts only text",
+      "D) COUNT counts text; COUNTA counts numbers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "COUNT: numbers only. COUNTA: any non-empty cell (text, numbers, errors). COUNTBLANK: empty cells. COUNTIF: cells matching condition. E.g., =COUNTA(A1:A10) counts all filled cells."
+  },
+  {
+    "QuestionText": "'SmartArt' in MS Office is used to:",
+    "Options": [
+      "A) Create smart contracts",
+      "B) Create visually appealing graphics representing information and ideas",
+      "C) Connect to internet",
+      "D) Import smart devices"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "SmartArt: pre-designed graphics for lists, processes, cycles, hierarchies, relationships. Insert tab \u2192 SmartArt. Automatically formats and arranges text into visual diagrams."
+  },
+  {
+    "QuestionText": "In MS Excel, the $ in formula =$A$1+B1 means:",
+    "Options": [
+      "A) Currency format",
+      "B) Absolute reference for A1 (fixed), relative for B1 (changes when copied)",
+      "C) Formula error",
+      "D) Both are absolute"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "$A$1: absolute \u2014 won't change when formula is copied. B1: relative \u2014 will change (B2, B3...) when formula is copied down. Mixed: $A1 (column fixed, row changes) or A$1 (row fixed, column changes)."
+  },
+  {
+    "QuestionText": "MS Word's 'Table of Contents' feature:",
+    "Options": [
+      "A) Lists all tables in the document",
+      "B) Auto-generates a clickable list of headings and page numbers",
+      "C) Creates a database of contents",
+      "D) Is only available in PDF"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Table of Contents: References tab \u2192 Table of Contents. Auto-generates from heading styles (H1, H2, H3). Updates automatically. Entries are clickable links in digital documents."
+  },
+  {
+    "QuestionText": "The 'Sort' function in MS Excel allows sorting:",
+    "Options": [
+      "A) Only alphabetically",
+      "B) By any column, ascending or descending, with multiple levels",
+      "C) Only numerically",
+      "D) Only by date"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Sort: Data tab \u2192 Sort. Sort by multiple columns (primary, secondary sort keys). Ascending (A-Z, 0-9) or Descending (Z-A, 9-0). Sort by values, cell colour, font colour, or icon."
+  },
+  {
+    "QuestionText": "A 'template' in MS Office is:",
+    "Options": [
+      "A) A blank document",
+      "B) A pre-designed document with placeholders, formatting, and layout ready to use",
+      "C) A file backup",
+      "D) A macro"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Office",
+    "Difficulty": "Foundation",
+    "Explanation": "Template: pre-designed document (.dotx for Word, .xltx for Excel, .potx for PowerPoint). Contains predefined formatting, layouts, placeholders. Saves time for common document types."
+  },
+  {
+    "QuestionText": "The 'COUNTIF' function in Excel:",
+    "Options": [
+      "A) Counts all cells",
+      "B) Counts cells that meet a specified condition",
+      "C) Counts if condition is false",
+      "D) Is not a valid function"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "=COUNTIF(range, criteria). E.g., =COUNTIF(A1:A10,'>50') counts cells > 50. =COUNTIF(B1:B20,'Pass') counts cells containing 'Pass'. COUNTIFS: multiple conditions."
+  },
+  {
+    "QuestionText": "In MS Word, 'Styles' are used to:",
+    "Options": [
+      "A) Only change colour",
+      "B) Apply consistent formatting (font, size, spacing) throughout a document",
+      "C) Create graphics",
+      "D) Format only headings"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Styles: sets of formatting instructions. Apply 'Heading 1', 'Body Text', etc. for consistency. Enables Table of Contents generation. Home tab \u2192 Styles gallery."
+  },
+  {
+    "QuestionText": "'Chart' types available in MS Excel include:",
+    "Options": [
+      "A) Only bar and pie",
+      "B) Column, Bar, Line, Pie, Area, Scatter, Radar, and many more",
+      "C) Only line charts",
+      "D) Only scatter plots"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Excel chart types: Column, Bar, Line, Pie, Area, XY Scatter, Bubble, Stock, Surface, Radar, Treemap, Histogram, and more. Choose based on data type and what you want to show."
+  },
+  {
+    "QuestionText": "'Document Views' in MS Word include:",
+    "Options": [
+      "A) Only Print Layout",
+      "B) Print Layout, Read Mode, Web Layout, Outline, Draft",
+      "C) Only Draft and Outline",
+      "D) Normal and Extended"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "MS Word views (View tab): Print Layout (default, shows page as it prints), Read Mode (tablet-friendly), Web Layout (as web page), Outline (document structure), Draft (basic editing)."
+  },
+  {
+    "QuestionText": "'Macros' in MS Office are:",
+    "Options": [
+      "A) Types of documents",
+      "B) Recorded sequences of commands that can be replayed to automate tasks",
+      "C) Security features",
+      "D) Cloud services"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Office",
+    "Difficulty": "Advanced",
+    "Explanation": "Macros: automated sequences of commands. Record with macro recorder, or write in VBA (Visual Basic for Applications). Automate repetitive tasks. View tab or Developer tab."
+  },
+  {
+    "QuestionText": "Which Excel function calculates loan payments?",
+    "Options": [
+      "A) LOAN()",
+      "B) PAY()",
+      "C) PMT()",
+      "D) REPAY()"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "PMT(rate, nper, pv): calculates periodic payment for a loan. rate=interest rate per period, nper=total payments, pv=present value (loan amount). Financial function."
+  },
+  {
+    "QuestionText": "'Hyperlink' in MS Office documents:",
+    "Options": [
+      "A) Only works in Word",
+      "B) Creates clickable links to web pages, files, email, or bookmarks",
+      "C) Requires internet always",
+      "D) Can only link to websites"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Office",
+    "Difficulty": "Foundation",
+    "Explanation": "Hyperlink: Insert tab \u2192 Hyperlink (Ctrl+K). Links to: websites, email addresses, files on computer, bookmarks within same document, other sheets in Excel. Appears underlined by default."
+  },
+  {
+    "QuestionText": "'Page Break' in MS Word:",
+    "Options": [
+      "A) Deletes a page",
+      "B) Forces content to start on a new page",
+      "C) Adjusts margins",
+      "D) Splits the window"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Page Break (Ctrl+Enter): manually forces a new page. Used to start chapters or sections on fresh pages. Layout tab \u2192 Breaks \u2192 Page Break. Vs Section Break (new section with different formatting)."
+  },
+  {
+    "QuestionText": "Protecting a Word document with a password:",
+    "Options": [
+      "A) Makes it read-only only",
+      "B) Requires password to open and/or edit the document",
+      "C) Encrypts all data permanently",
+      "D) Is not possible in Word"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Document protection: File \u2192 Info \u2192 Protect Document \u2192 Encrypt with Password. Can restrict editing or require password to open. Review tab \u2192 Restrict Editing for content restrictions."
+  },
+  {
+    "QuestionText": "The Wrap Text feature in MS Word is used for:",
+    "Options": [
+      "A) Wrapping text around images",
+      "B) Adding borders",
+      "C) Creating columns",
+      "D) Rotating text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Wrap Text: controls how text flows around an image or object. Options: Square, Tight, Through, Top and Bottom, Behind Text, In Front of Text. Picture Format tab \u2192 Wrap Text."
+  },
+  {
+    "QuestionText": "The shortcut to Save As in MS Word is:",
+    "Options": [
+      "A) Ctrl+S",
+      "B) F12",
+      "C) Ctrl+A",
+      "D) Ctrl+Shift+S"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "F12 = Save As (opens dialog to choose location and name). Ctrl+S = Save (saves to current location without dialog). Alt+F4 closes the application."
+  }
+]

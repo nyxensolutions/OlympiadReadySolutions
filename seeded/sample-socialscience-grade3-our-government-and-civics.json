@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "What is a government?",
+        "Options":  [
+                        "A) A system of people who make and enforce the rules and laws of a country",
+                        "B) A group of teachers",
+                        "C) A business organisation",
+                        "D) A sports team"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A government is the group of people responsible for managing a country, state, or city — making laws, providing services, and ensuring order."
+    },
+    {
+        "QuestionText":  "India is a __.",
+        "Options":  [
+                        "A) Democratic republic — people choose their representatives through elections",
+                        "B) Kingdom — ruled by a king",
+                        "C) Dictatorship",
+                        "D) Colony"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "India is a democratic republic. Citizens elect their representatives through free and fair elections. The head of state (President) holds a constitutional position."
+    },
+    {
+        "QuestionText":  "What is a democracy?",
+        "Options":  [
+                        "A) A system of government where citizens choose their leaders by voting",
+                        "B) Rule by one person",
+                        "C) Rule by the army",
+                        "D) Rule by a king"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Democracy means \u0027rule by the people\u0027. Citizens participate in government by electing representatives in regular, free, and fair elections."
+    },
+    {
+        "QuestionText":  "Who is the head of the Indian government (executive)?",
+        "Options":  [
+                        "A) Prime Minister",
+                        "B) President",
+                        "C) Chief Minister",
+                        "D) Speaker"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Prime Minister is the head of the central government and leads the Council of Ministers. The President is the constitutional head of state."
+    },
+    {
+        "QuestionText":  "Who is the constitutional head of India?",
+        "Options":  [
+                        "A) President",
+                        "B) Prime Minister",
+                        "C) Chief Justice",
+                        "D) Speaker of Lok Sabha"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The President of India is the constitutional head of state, holding a largely ceremonial role. The Prime Minister is the effective head of government."
+    },
+    {
+        "QuestionText":  "What is the Lok Sabha?",
+        "Options":  [
+                        "A) The lower house of India\u0027s Parliament — the House of the People",
+                        "B) The upper house",
+                        "C) A state assembly",
+                        "D) A court"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Lok Sabha (House of the People) is the lower house of India\u0027s Parliament. Its members are directly elected by citizens. It has 545 seats."
+    },
+    {
+        "QuestionText":  "What is the Rajya Sabha?",
+        "Options":  [
+                        "A) The upper house of India\u0027s Parliament — the Council of States",
+                        "B) The lower house",
+                        "C) A state assembly",
+                        "D) A high court"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Rajya Sabha (Council of States) is the upper house of India\u0027s Parliament, representing India\u0027s states and union territories. Members are not directly elected."
+    },
+    {
+        "QuestionText":  "What is the Supreme Court of India?",
+        "Options":  [
+                        "A) The highest court in India — the final authority on constitutional matters",
+                        "B) A state court",
+                        "C) A district court",
+                        "D) A civil court only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Supreme Court is India\u0027s highest judicial body. It has the final authority on constitutional interpretation and hears appeals from High Courts."
+    },
+    {
+        "QuestionText":  "What is a High Court?",
+        "Options":  [
+                        "A) The highest court in each state of India",
+                        "B) The highest court in India",
+                        "C) A district court",
+                        "D) A family court"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Each state has a High Court — the highest court at the state level. It hears appeals from lower courts and has jurisdiction over state matters."
+    },
+    {
+        "QuestionText":  "What is a Panchayat?",
+        "Options":  [
+                        "A) A local government body for rural areas — villages are governed through Gram Panchayats",
+                        "B) A city government body",
+                        "C) A state government body",
+                        "D) A central government body"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A Panchayat is the local self-government body at the village level. The Gram Panchayat manages village administration, development, and welfare."
+    },
+    {
+        "QuestionText":  "Who is the head of a Gram Panchayat?",
+        "Options":  [
+                        "A) Sarpanch (Gram Pradhan)",
+                        "B) Collector",
+                        "C) MLA",
+                        "D) MP"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Sarpanch (also called Gram Pradhan in UP) is the elected head of the Gram Panchayat, responsible for village administration and development."
+    },
+    {
+        "QuestionText":  "What is a municipality?",
+        "Options":  [
+                        "A) A local government body for towns and small cities",
+                        "B) A village government body",
+                        "C) A district government body",
+                        "D) A state government body"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A municipality (Nagar Palika) is the local governing body for towns and smaller cities, providing civic services like water, roads, sanitation, and streetlights."
+    },
+    {
+        "QuestionText":  "What is a Municipal Corporation?",
+        "Options":  [
+                        "A) A local government body for large cities",
+                        "B) A municipality",
+                        "C) A state government body",
+                        "D) A central government body"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Municipal Corporations (Mahanagar Palika) govern large cities like Delhi, Mumbai, and Chennai — providing civic services including water, roads, sanitation, hospitals, and parks."
+    },
+    {
+        "QuestionText":  "What is a Collector (District Collector)?",
+        "Options":  [
+                        "A) A senior IAS officer who heads a district administration",
+                        "B) A tax collector only",
+                        "C) A museum curator",
+                        "D) A police officer"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The District Collector (Deputy Commissioner) is the senior IAS officer responsible for overall administration of a district — revenue, law and order, and welfare programmes."
+    },
+    {
+        "QuestionText":  "What is a constitution?",
+        "Options":  [
+                        "A) A document containing the fundamental laws and principles that govern a country",
+                        "B) A history book",
+                        "C) A law about courts",
+                        "D) A list of government offices"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A constitution is the supreme law of the land, laying down the fundamental principles, rights, and structure of government that all laws must follow."
+    },
+    {
+        "QuestionText":  "India\u0027s Constitution was adopted on which date?",
+        "Options":  [
+                        "A) 26 November 1949 (came into force 26 January 1950)",
+                        "B) 15 August 1947",
+                        "C) 26 January 1947",
+                        "D) 2 October 1950"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "India\u0027s Constituent Assembly adopted the Constitution on 26 November 1949 (now celebrated as Constitution Day). It came into force on 26 January 1950 (Republic Day)."
+    },
+    {
+        "QuestionText":  "What are \u0027Fundamental Rights\u0027 in India?",
+        "Options":  [
+                        "A) Basic rights guaranteed to all citizens by the Constitution",
+                        "B) Rights given only to the rich",
+                        "C) Rights given only to adults",
+                        "D) Rules for government employees"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Fundamental Rights are basic rights guaranteed by India\u0027s Constitution to all citizens — including rights to equality, freedom of speech, and freedom of religion."
+    },
+    {
+        "QuestionText":  "What is the \u0027Right to Education\u0027?",
+        "Options":  [
+                        "A) The constitutional right of children aged 6–14 to free and compulsory education",
+                        "B) The right to choose any school",
+                        "C) The right to study abroad",
+                        "D) A right only for college students"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Right to Education (RTE, 2009) guarantees free and compulsory education for all children between 6 and 14 years as a Fundamental Right under Article 21A."
+    },
+    {
+        "QuestionText":  "What is a citizen\u0027s \u0027Fundamental Duty\u0027?",
+        "Options":  [
+                        "A) A duty prescribed in the Constitution that every citizen must fulfil — e.g., respect the national flag",
+                        "B) A right given by the government",
+                        "C) A service provided to citizens",
+                        "D) A privilege for adults only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Fundamental Duties (Article 51A) are obligations of every Indian citizen — like respecting the national flag, protecting the environment, and promoting harmony."
+    },
+    {
+        "QuestionText":  "What is the right to vote called?",
+        "Options":  [
+                        "A) Franchise / Suffrage",
+                        "B) Fundamental right",
+                        "C) Civil liberty",
+                        "D) Legal right"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The right to vote (franchise or suffrage) allows citizens to participate in democracy by choosing their representatives in elections."
+    },
+    {
+        "QuestionText":  "At what age can Indian citizens vote?",
+        "Options":  [
+                        "A) 18 years",
+                        "B) 21 years",
+                        "C) 25 years",
+                        "D) 16 years"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "All Indian citizens above 18 years of age have the right to vote in elections. The voting age was reduced from 21 to 18 by the 61st Constitutional Amendment in 1988."
+    },
+    {
+        "QuestionText":  "What is the Election Commission of India?",
+        "Options":  [
+                        "A) An independent constitutional body that conducts and oversees free and fair elections",
+                        "B) A court",
+                        "C) A government ministry",
+                        "D) A parliament committee"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Election Commission of India (ECI) is an independent constitutional body responsible for administering elections to Parliament, state legislatures, and the offices of President and Vice President."
+    },
+    {
+        "QuestionText":  "What is a General Election in India?",
+        "Options":  [
+                        "A) National election to choose members of the Lok Sabha held every 5 years",
+                        "B) State assembly election",
+                        "C) Local body election",
+                        "D) By-election"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A General Election (Lok Sabha Election) is held every five years to elect all 543 constituencies of the Lok Sabha. India\u0027s general elections are the world\u0027s largest democratic exercise."
+    },
+    {
+        "QuestionText":  "What is a Chief Minister?",
+        "Options":  [
+                        "A) The head of government in an Indian state",
+                        "B) The head of a district",
+                        "C) The head of India",
+                        "D) The head of a city"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Chief Minister is the elected head of the state government, leading the state\u0027s Council of Ministers and responsible for state administration."
+    },
+    {
+        "QuestionText":  "What is a Governor?",
+        "Options":  [
+                        "A) The constitutional head of an Indian state, appointed by the President",
+                        "B) The head of a district",
+                        "C) An elected official of a state",
+                        "D) A court judge"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Governor is the constitutional head of a state, appointed by the President of India. Similar to the President at the central level, the Governor\u0027s role is largely ceremonial."
+    },
+    {
+        "QuestionText":  "What is the \u0027separation of powers\u0027?",
+        "Options":  [
+                        "A) Division of government into three branches — Legislature, Executive, and Judiciary — to prevent abuse of power",
+                        "B) Giving power only to one person",
+                        "C) Dividing the country into states",
+                        "D) Separation of political parties"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Separation of powers divides governmental authority among the Legislature (makes laws), Executive (implements laws), and Judiciary (interprets laws) to prevent any one branch from becoming too powerful."
+    },
+    {
+        "QuestionText":  "What is a \u0027coalition government\u0027?",
+        "Options":  [
+                        "A) A government formed by an alliance of two or more political parties who together have a majority",
+                        "B) A government led by one strong party",
+                        "C) A military government",
+                        "D) A temporary government"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A coalition government is formed when no single party wins an outright majority, so two or more parties form an alliance to collectively form the government."
+    },
+    {
+        "QuestionText":  "What is the Directive Principles of State Policy?",
+        "Options":  [
+                        "A) Guidelines in the Constitution directing the government to work for social and economic justice",
+                        "B) Fundamental rights of citizens",
+                        "C) Rules for the judiciary",
+                        "D) Laws of the legislature"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Directive Principles of State Policy (Part IV of India\u0027s Constitution) are non-justiciable guidelines that direct the State to achieve social, economic, and political justice for all citizens."
+    },
+    {
+        "QuestionText":  "What is a \u0027budget\u0027?",
+        "Options":  [
+                        "A) A financial plan estimating income and expenditure for the next year",
+                        "B) A list of laws",
+                        "C) An annual report of elections",
+                        "D) A court document"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A budget is the government\u0027s annual financial plan, presented in Parliament, estimating revenues (income) and expenditures (spending) for the coming financial year."
+    },
+    {
+        "QuestionText":  "What is the difference between a citizen and a permanent resident?",
+        "Options":  [
+                        "A) A citizen has full constitutional rights including voting; a permanent resident has rights to live and work but not vote",
+                        "B) They are the same",
+                        "C) A citizen cannot vote",
+                        "D) A permanent resident has more rights"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A citizen has full rights including voting and holding public office. A permanent resident (like a foreign national with PR status) can live and work legally but cannot vote."
+    },
+    {
+        "QuestionText":  "What is the RTI (Right to Information) Act?",
+        "Options":  [
+                        "A) A law enabling citizens to seek information from public authorities — ensuring government transparency",
+                        "B) A right to travel",
+                        "C) A right to free education",
+                        "D) A right to free internet"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The RTI Act (2005) gives Indian citizens the right to request information from any public authority. It promotes transparency, accountability, and citizen participation in governance."
+    },
+    {
+        "QuestionText":  "What is \u0027universal adult franchise\u0027 in India?",
+        "Options":  [
+                        "A) All citizens above 18 can vote, regardless of gender, religion, caste, or wealth",
+                        "B) Only men can vote",
+                        "C) Only educated people can vote",
+                        "D) Only property owners can vote"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "India adopted universal adult franchise from day one — all citizens above 18 have the right to vote, irrespective of gender, religion, caste, economic status, or education."
+    },
+    {
+        "QuestionText":  "India has a __ form of government.",
+        "Options":  [
+                        "A) Federal with a strong Centre (quasi-federal)",
+                        "B) Purely federal (states have supreme power)",
+                        "C) Unitary (Centre has all power)",
+                        "D) Confederate"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "India\u0027s government is quasi-federal — it has a federal structure (Centre and States), but the Centre has overriding powers in matters of national importance."
+    },
+    {
+        "QuestionText":  "What is a \u0027by-election\u0027?",
+        "Options":  [
+                        "A) An election held to fill a vacant seat between two general elections",
+                        "B) A general election",
+                        "C) A state election",
+                        "D) A local body election"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A by-election (bye-poll) is held to fill a seat that has become vacant due to death, resignation, or disqualification of a member between regular elections."
+    },
+    {
+        "QuestionText":  "The Speaker presides over which house?",
+        "Options":  [
+                        "A) Lok Sabha (lower house of Parliament)",
+                        "B) Rajya Sabha",
+                        "C) State Legislative Assembly",
+                        "D) Supreme Court"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Speaker of the Lok Sabha presides over sessions of the lower house of Parliament, maintaining order and conduct of debates."
+    },
+    {
+        "QuestionText":  "The Chairman presides over which house?",
+        "Options":  [
+                        "A) Rajya Sabha (upper house of Parliament)",
+                        "B) Lok Sabha",
+                        "C) State Assembly",
+                        "D) Supreme Court"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Vice President of India ex-officio serves as the Chairman of the Rajya Sabha, presiding over its sessions."
+    },
+    {
+        "QuestionText":  "What is the role of the CAG (Comptroller and Auditor General)?",
+        "Options":  [
+                        "A) Auditing government accounts to ensure public money is spent correctly",
+                        "B) Making laws",
+                        "C) Conducting elections",
+                        "D) Heading the police"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The CAG (Comptroller and Auditor General) is a constitutional authority that audits the accounts of the central and state governments to ensure public funds are used properly."
+    },
+    {
+        "QuestionText":  "What is the UPSC?",
+        "Options":  [
+                        "A) Union Public Service Commission — conducts civil services exams like IAS, IPS, IFS",
+                        "B) An education board",
+                        "C) A court",
+                        "D) A Parliament committee"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The UPSC (Union Public Service Commission) is a constitutional body that recruits officers for central government services, including the prestigious IAS (Indian Administrative Service) and IPS (Indian Police Service)."
+    },
+    {
+        "QuestionText":  "What is a \u0027no confidence motion\u0027?",
+        "Options":  [
+                        "A) A motion in Parliament where the opposition tries to show the government no longer has the support of the majority",
+                        "B) A regular vote",
+                        "C) A budget vote",
+                        "D) A constitutional amendment"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A no-confidence motion is a formal motion in the Lok Sabha where the opposition challenges whether the government (Council of Ministers) still commands a majority. If passed, the government must resign."
+    },
+    {
+        "QuestionText":  "India\u0027s Parliament has how many houses?",
+        "Options":  [
+                        "A) 2 (Lok Sabha and Rajya Sabha)",
+                        "B) 3",
+                        "C) 1",
+                        "D) 4"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "India\u0027s Parliament is bicameral — it has two houses: the Lok Sabha (lower house) and the Rajya Sabha (upper house)."
+    },
+    {
+        "QuestionText":  "What is the 73rd Constitutional Amendment?",
+        "Options":  [
+                        "A) It gave constitutional status to Panchayati Raj Institutions (local self-government in rural areas)",
+                        "B) It reduced the voting age to 18",
+                        "C) It added Fundamental Duties",
+                        "D) It created the election commission"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The 73rd Amendment (1992) gave constitutional status to Panchayati Raj Institutions, mandating elections to village, block, and district panchayats and reserving seats for women and SC/ST."
+    },
+    {
+        "QuestionText":  "What are \u0027scheduled castes\u0027 and \u0027scheduled tribes\u0027 in India?",
+        "Options":  [
+                        "A) Constitutionally recognised marginalised communities with special protection and reservation",
+                        "B) Upper castes",
+                        "C) Wealthy communities",
+                        "D) Government employees"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Scheduled Castes (formerly \u0027untouchables\u0027, now Dalits) and Scheduled Tribes (Adivasis) are constitutionally recognised communities who receive special protections, reservations in education and employment, and welfare schemes."
+    },
+    {
+        "QuestionText":  "What is the National Human Rights Commission (NHRC)?",
+        "Options":  [
+                        "A) An independent body investigating human rights violations in India",
+                        "B) A police force",
+                        "C) A court",
+                        "D) A ministry"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The NHRC investigates complaints of human rights violations by state and central government agencies in India and recommends remedies."
+    },
+    {
+        "QuestionText":  "What is \u0027judicial review\u0027?",
+        "Options":  [
+                        "A) The power of courts to examine laws and executive actions for constitutional validity",
+                        "B) A court reviewing judges",
+                        "C) Parliament checking court decisions",
+                        "D) Citizens checking government actions"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Judicial review is the power of courts (especially the Supreme Court) to examine whether laws enacted by Parliament or actions of the executive are consistent with the Constitution."
+    },
+    {
+        "QuestionText":  "What is the Lokpal?",
+        "Options":  [
+                        "A) An independent anti-corruption ombudsman for the central government of India",
+                        "B) A state court",
+                        "C) A local government body",
+                        "D) A parliament committee"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The Lokpal (Lokayukta at state level) is an independent anti-corruption ombudsman mandated to investigate corruption allegations against public servants, including central government officials."
+    },
+    {
+        "QuestionText":  "India\u0027s Finance Commission is constituted every __ years.",
+        "Options":  [
+                        "A) 5 years",
+                        "B) 3 years",
+                        "C) 10 years",
+                        "D) 2 years"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "India\u0027s Finance Commission is constituted every five years to recommend how central taxes should be distributed between the Centre and states."
+    },
+    {
+        "QuestionText":  "What is \u0027NOTA\u0027 in Indian elections?",
+        "Options":  [
+                        "A) None Of The Above — an option on the EVM ballot for voters who reject all candidates",
+                        "B) A type of EVM button",
+                        "C) A voting method",
+                        "D) A candidate name"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "NOTA (None of the Above) was introduced in Indian elections in 2013, allowing voters to officially register disapproval of all candidates on the ballot."
+    },
+    {
+        "QuestionText":  "Who appoints the Chief Election Commissioner of India?",
+        "Options":  [
+                        "A) The President of India",
+                        "B) The Prime Minister",
+                        "C) The Parliament",
+                        "D) The Supreme Court"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Chief Election Commissioner and other Election Commissioners are appointed by the President of India."
+    },
+    {
+        "QuestionText":  "What is the meaning of \u0027secular\u0027 in India\u0027s Constitution?",
+        "Options":  [
+                        "A) The state treats all religions equally and does not favour any particular religion",
+                        "B) The state has a national religion",
+                        "C) The state bans all religions",
+                        "D) The state controls religious practices"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "India is a secular state — the government does not promote or discriminate against any religion and all citizens have freedom of religion."
+    },
+    {
+        "QuestionText":  "What is the meaning of \u0027sovereign\u0027 in India\u0027s Constitution?",
+        "Options":  [
+                        "A) India is fully independent and not subject to any foreign power",
+                        "B) India is under the UN",
+                        "C) India is part of the British Commonwealth",
+                        "D) India depends on other countries"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Government and Civics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Sovereign means India is a fully independent nation — free to determine its own domestic and foreign policies without interference from any external authority."
+    }
+]
