@@ -20,6 +20,8 @@ public class GeneratePaperRequest : IValidatableObject
     [StringLength(80)]
     public string? Topic { get; set; }
 
+    public bool MistakesOnly { get; set; } = false;
+
     // Mirrors SUBJECT_GRADE_MAP in web/lib/types.ts — keep in sync.
     // Subject names are SOF-canonical; SubjectNormalizer maps aliases before this is checked.
     private static readonly Dictionary<string, (int Min, int Max)> GradeRanges = new(StringComparer.OrdinalIgnoreCase)

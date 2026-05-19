@@ -50,6 +50,46 @@ public class TestsController : ControllerBase
             TimeTakenSeconds = req.TimeTakenSeconds
         };
         _db.Results.Add(result);
+
+        // Process mistakes
+        for (int i = 0; i < questions.Count; i++)
+        {
+            var q = questions[i];
+            var userAnswer = req.Answers[i];
+            var isCorrect = q.Answer == userAnswer;
+
+            // Search for unresolved mistake containing this question text
+            var existingMistake = await _db.UserMistakes
+                .FirstOrDefaultAsync(m => m.UserId == user.UserId && m.QuestionJson.Contains(q.Q) && !m.IsResolved, ct);
+
+            if (!isCorrect)
+            {
+                if (existingMistake == null)
+                {
+                    var mistake = new UserMistake
+                    {
+                        UserId = user.UserId,
+                        Subject = paper.Subject ?? "",
+                        Grade = paper.Grade,
+                        Topic = q.Topic ?? "General",
+                        QuestionJson = JsonSerializer.Serialize(q),
+                        CorrectAnswer = q.Answer,
+                        UserAnswer = userAnswer,
+                        IsResolved = false,
+                        OccurredAt = DateTime.UtcNow
+                    };
+                    _db.UserMistakes.Add(mistake);
+                }
+            }
+            else
+            {
+                if (existingMistake != null)
+                {
+                    existingMistake.IsResolved = true;
+                }
+            }
+        }
+
         await _db.SaveChangesAsync(ct);
 
         await _mastery.UpdateFromAttemptAsync(user.UserId, paper.Subject ?? "", questions, req.Answers, ct);

@@ -21,7 +21,7 @@ type Phase =
   | { kind: "arena"; config: PreviewRequest; paper: GeneratedPaper; simulationMode: boolean }
   | { kind: "results"; result: AttemptResult; simulationMode: boolean };
 
-export function GeneratorFlow({ initialConfig }: { initialConfig?: Partial<PreviewRequest> } = {}) {
+export function GeneratorFlow({ initialConfig, autoStart }: { initialConfig?: Partial<PreviewRequest>, autoStart?: boolean } = {}) {
   const [phase, setPhase] = useState<Phase>({ kind: "config", suggestedConfig: initialConfig });
   const [showUpgrade, setShowUpgrade] = useState(false);
   const [upgradeReason, setUpgradeReason] = useState<string | undefined>(undefined);
@@ -73,6 +73,7 @@ export function GeneratorFlow({ initialConfig }: { initialConfig?: Partial<Previ
           <ConfigForm
             initialConfig={phase.suggestedConfig}
             adaptiveMessage={phase.adaptiveMessage}
+            autoStart={autoStart}
             onGenerated={(config, paper, simulationMode) => {
               setPhase({ kind: "arena", config, paper, simulationMode });
               void refresh();

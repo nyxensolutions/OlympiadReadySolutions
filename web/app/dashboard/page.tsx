@@ -11,6 +11,7 @@ import { MasteryHeatmap } from "@/components/MasteryHeatmap";
 import { RecentPapersCard } from "@/components/RecentPapersCard";
 import { ScoreTrendChart } from "@/components/ScoreTrendChart";
 import { SubscriptionBadge } from "@/components/SubscriptionBadge";
+import { OnboardingModal } from "@/components/OnboardingModal";
 import type { DashboardSummary } from "@/lib/types";
 import { getShieldState, useShield as consumeShield } from "@/lib/streakShield";
 
@@ -119,6 +120,16 @@ function computeBadges(data: DashboardSummary): Badge[] {
 }
 
 export default function DashboardPage() {
+  const [showOnboarding, setShowOnboarding] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      if (!localStorage.getItem("hasCompletedOnboarding")) {
+        setShowOnboarding(true);
+      }
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-slate-50">
       <AppHeader active="dashboard" />
@@ -126,6 +137,14 @@ export default function DashboardPage() {
         <SignedOutPrompt />
       </SignedOut>
       <SignedIn>
+        {showOnboarding && (
+          <OnboardingModal
+            onComplete={() => {
+              localStorage.setItem("hasCompletedOnboarding", "true");
+              setShowOnboarding(false);
+            }}
+          />
+        )}
         <DashboardBody />
       </SignedIn>
     </div>
@@ -230,7 +249,7 @@ function DashboardBody() {
   return (
     <>
       {/* Gradient page banner */}
-      <div className="bg-gradient-hero px-4 py-10 text-white">
+      <div className="bg-gradient-hero px-4 py-10 text-white shadow-md">
         <div className="mx-auto max-w-6xl flex flex-wrap items-center justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-brand-200">
@@ -282,7 +301,7 @@ function DashboardBody() {
             </button>
             <Link
               href="/"
-              className="inline-flex items-center gap-1.5 rounded-xl bg-cta-600 px-4 py-2.5 text-sm font-bold text-white shadow-md shadow-cta-600/30 transition hover:bg-cta-700"
+              className="inline-flex items-center gap-1.5 rounded-xl bg-cta-600 px-4 py-2.5 text-sm font-bold text-white shadow-lg shadow-cta-600/30 transition-all hover:bg-cta-700 hover:scale-105"
             >
               <Sparkles className="h-4 w-4" />
               New paper
@@ -317,7 +336,7 @@ function DashboardBody() {
           </div>
         ) : (
           /* Streak broken — show shield option for Pro */
-          <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 px-5 py-4 shadow-sm">
+          <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md px-5 py-4 shadow-md transition-all">
             <Flame className="h-6 w-6 shrink-0 text-slate-300" />
             <div className="flex-1">
               <p className="text-sm font-bold text-slate-700">No active streak</p>
@@ -351,6 +370,30 @@ function DashboardBody() {
           </div>
         )}
 
+        {/* Mistake Bank Banner */}
+        {data.mistakeCount > 0 && (
+          <div className="flex flex-wrap items-center gap-4 rounded-2xl border border-red-200 bg-red-50/60 backdrop-blur-md px-5 py-4 shadow-md transition-all">
+            <div className="inline-flex rounded-xl bg-gradient-to-br from-red-500 to-rose-600 p-2.5 text-white shadow-md">
+              <BookOpen className="h-5 w-5" />
+            </div>
+            <div className="flex-1 min-w-[200px]">
+              <p className="text-sm font-bold text-red-900">
+                You have {data.mistakeCount} unresolved mistake{data.mistakeCount === 1 ? "" : "s"}
+              </p>
+              <p className="text-xs text-red-700 mt-0.5">
+                Revise what you got wrong! Click below to generate a test focused entirely on fixing your mistakes.
+              </p>
+            </div>
+            <Link
+              href={`/?mistakes=true&subject=${data.results[0]?.subject || "Math"}&grade=${preferredGrade}`}
+              className="inline-flex items-center gap-1.5 rounded-xl bg-red-600 px-4 py-2.5 text-xs font-bold text-white shadow-lg shadow-red-600/30 transition hover:bg-red-700 hover:scale-105"
+            >
+              <Sparkles className="h-3.5 w-3.5" />
+              Practice Mistakes
+            </Link>
+          </div>
+        )}
+
         {/* Stat cards */}
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Stat label="Tests taken" value={String(data.results.length)} gradient="from-brand-600 to-accent-600" />
@@ -381,7 +424,7 @@ function DashboardBody() {
         <WeeklyReport results={data.results} />
 
         {/* Achievements */}
-        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
+        <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">
           <div className="flex items-center gap-3">
             <div className="inline-flex rounded-xl bg-gradient-to-br from-amber-500 to-yellow-500 p-2.5 text-white shadow-sm">
               <Trophy className="h-5 w-5" />
@@ -427,7 +470,7 @@ function DashboardBody() {
         </section>
 
         {/* Score trend */}
-        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
+        <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="inline-flex rounded-xl bg-gradient-to-br from-brand-600 to-accent-600 p-2.5 text-white shadow-sm">
@@ -445,7 +488,7 @@ function DashboardBody() {
         </section>
 
         {/* Topic mastery */}
-        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
+        <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">
           <div className="flex items-center gap-3">
             <div className="inline-flex rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 p-2.5 text-white shadow-sm">
               <BookOpen className="h-5 w-5" />
@@ -461,7 +504,7 @@ function DashboardBody() {
         </section>
 
         {/* Recent papers */}
-        <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm">
+        <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">
           <div className="flex items-center gap-3">
             <div className="inline-flex rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 p-2.5 text-white shadow-sm">
               <FileText className="h-5 w-5" />
@@ -581,7 +624,7 @@ function Stat({
   gradient?: string;
 }) {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-5 shadow-sm">
+    <div className="relative overflow-hidden rounded-2xl border border-white/40 bg-white/70 backdrop-blur-md p-5 shadow-md transition-all hover:scale-105 hover:shadow-lg">
       {gradient && (
         <div className={`absolute left-0 right-0 top-0 h-1 bg-gradient-to-r ${gradient}`} />
       )}

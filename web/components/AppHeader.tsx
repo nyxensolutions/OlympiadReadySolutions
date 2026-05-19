@@ -119,7 +119,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
           </SignedOut>
           <SignedIn>
             <div className="flex flex-col gap-1">
-              <MobileNavLink href="/" label="Practice" onClick={() => setMobileOpen(false)} />
+              <MobileNavLink href="/" label="Practice" onClick={() => setMobileOpen(false)} active={active === "home"} />
               <MobileNavLink href="/topics" label="Syllabus Map" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/dashboard" label="Dashboard" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/practice-papers" label="Practice Papers" onClick={() => setMobileOpen(false)} />
@@ -155,18 +155,34 @@ function NavLink({
     : `${base} text-slate-600 hover:bg-slate-100 hover:text-slate-900`;
 
   return (
-    <Link href={href} className={cls}>
+    <Link 
+      href={href} 
+      className={cls}
+      onClick={(e) => {
+        if (active) {
+          e.preventDefault();
+          window.location.reload();
+        }
+      }}
+    >
       {icon}
       {label}
     </Link>
   );
 }
 
-function MobileNavLink({ href, label, onClick }: { href: string; label: string; onClick?: () => void }) {
+function MobileNavLink({ href, label, onClick, active }: { href: string; label: string; onClick?: () => void; active?: boolean }) {
   return (
     <Link
       href={href}
-      onClick={onClick}
+      onClick={(e) => {
+        if (active) {
+          e.preventDefault();
+          window.location.reload();
+        } else if (onClick) {
+          onClick();
+        }
+      }}
       className="rounded-lg px-3 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
     >
       {label}

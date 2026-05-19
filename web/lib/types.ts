@@ -36,6 +36,7 @@ export type DashboardSummary = {
     masteryScore: number;
     lastUpdated: string;
   }>;
+  mistakeCount: number;
 };
 
 export type PreviewRequest = {
@@ -44,6 +45,7 @@ export type PreviewRequest = {
   difficulty: string;
   count: number;
   topic?: string;
+  mistakesOnly?: boolean;
 };
 
 export type GeneratedPaper = {

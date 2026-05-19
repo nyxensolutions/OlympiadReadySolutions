@@ -14,4 +14,5 @@ public class User
     public List<Subscription> Subscriptions { get; set; } = new();
     public List<UserMastery> Mastery { get; set; } = new();
     public List<PdfPurchase> PdfPurchases { get; set; } = new();
+    public List<UserMistake> Mistakes { get; set; } = new();
 }

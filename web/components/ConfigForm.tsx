@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { GraduationCap, Loader2, Sparkles, TrendingUp } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import {
@@ -17,14 +17,71 @@ import { SubjectCard } from "./SubjectCard";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
+function GenerationLoader({ subject, grade, count, mistakesOnly }: { subject: string; grade: number; count: number; mistakesOnly?: boolean }) {
+  const [msgIdx, setMsgIdx] = useState(0);
+  const messages = mistakesOnly
+    ? [
+        "Scanning database for unresolved mistakes...",
+        "Retrieving your past incorrect answers...",
+        "Compiling mistake review paper...",
+        "Formatting your practice session..."
+      ]
+    : [
+        `Analyzing Class ${grade} ${subject} curriculum...`,
+        "Gathering past Olympiad patterns...",
+        `Generating ${count} exam-level questions...`,
+        "Applying difficulty scaling...",
+        "Formatting your exam paper..."
+      ];
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setMsgIdx((prev) => (prev < messages.length - 1 ? prev + 1 : prev));
+    }, 2000);
+    return () => clearInterval(timer);
+  }, [messages.length]);
+
+  return (
+    <div className="w-full max-w-4xl overflow-hidden rounded-2xl border border-slate-200 bg-white/60 backdrop-blur-md shadow-lg p-8 min-h-[450px] flex flex-col items-center justify-center">
+      <div className="w-full max-w-md space-y-6 animate-pulse opacity-70">
+        {/* Skeleton Header */}
+        <div className="flex items-center justify-between border-b border-slate-200 pb-4">
+          <div className="h-6 w-1/3 bg-slate-300 rounded-md"></div>
+          <div className="h-6 w-1/4 bg-slate-300 rounded-md"></div>
+        </div>
+        {/* Skeleton Questions */}
+        {[1, 2, 3].map((i) => (
+          <div key={i} className="space-y-4 pt-2">
+            <div className="h-4 w-3/4 bg-slate-300 rounded"></div>
+            <div className="space-y-2.5 pl-4">
+              <div className="h-3 w-1/2 bg-slate-200 rounded"></div>
+              <div className="h-3 w-2/3 bg-slate-200 rounded"></div>
+              <div className="h-3 w-1/3 bg-slate-200 rounded"></div>
+            </div>
+          </div>
+        ))}
+      </div>
+      
+      <div className="mt-12 flex flex-col items-center">
+        <Loader2 className="h-8 w-8 animate-spin text-brand-600 mb-4" />
+        <p className="text-sm font-semibold text-brand-700 h-6 transition-all duration-300">
+          {messages[msgIdx]}
+        </p>
+      </div>
+    </div>
+  );
+}
+
 export function ConfigForm({
   initialConfig,
   adaptiveMessage,
+  autoStart,
   onGenerated,
   onQuotaExceeded
 }: {
   initialConfig?: Partial<PreviewRequest>;
   adaptiveMessage?: string;
+  autoStart?: boolean;
   onGenerated: (config: PreviewRequest, paper: GeneratedPaper, simulationMode: boolean) => void;
   onQuotaExceeded: (info: QuotaError) => void;
 }) {
@@ -34,10 +91,21 @@ export function ConfigForm({
   const [difficulty, setDifficulty] = useState<string>(initialConfig?.difficulty ?? "Foundation");
   const [count, setCount] = useState<number>(initialConfig?.count ?? 5);
   const [simMode, setSimMode] = useState(false);
+  const [mistakesOnly] = useState<boolean>(initialConfig?.mistakesOnly ?? false);
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [resetNotice, setResetNotice] = useState<string | null>(null);
+
+  const hasAutoStarted = useRef(false);
+
+  useEffect(() => {
+    if (autoStart && !hasAutoStarted.current) {
+      hasAutoStarted.current = true;
+      const fakeEvent = { preventDefault: () => {} } as React.FormEvent;
+      onSubmit(fakeEvent);
+    }
+  }, [autoStart]); // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleGradeChange(newGrade: number) {
     setGrade(newGrade);
@@ -53,7 +121,7 @@ export function ConfigForm({
     e.preventDefault();
     setLoading(true);
     setError(null);
-    const config: PreviewRequest = { subject, grade, difficulty, count };
+    const config: PreviewRequest = { subject, grade, difficulty, count, mistakesOnly };
     try {
       const token = await getToken();
       const res = await fetch(`${API_URL}/api/papers/generate`, {
@@ -79,13 +147,17 @@ export function ConfigForm({
     }
   }
 
+  if (loading) {
+    return <GenerationLoader subject={subject} grade={grade} count={count} mistakesOnly={mistakesOnly} />;
+  }
+
   return (
     <form
       onSubmit={onSubmit}
-      className="w-full max-w-4xl overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 shadow-md"
+      className="w-full max-w-4xl overflow-hidden rounded-2xl border border-white/40 bg-white/70 backdrop-blur-md shadow-xl transition-all"
     >
       {/* Card header */}
-      <div className="bg-gradient-hero px-6 py-5">
+      <div className="bg-gradient-hero px-6 py-5 shadow-sm">
         <h2 className="text-base font-bold text-white">Configure your practice paper</h2>
         <p className="mt-0.5 text-xs text-brand-200">
           AI generates fresh, exam-ready questions in seconds — no repeats
@@ -111,7 +183,7 @@ export function ConfigForm({
           <select
             value={grade}
             onChange={(e) => handleGradeChange(Number(e.target.value))}
-            className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-600/20"
+            className="rounded-lg border border-slate-300 bg-white/80 backdrop-blur-sm px-3 py-2 text-sm focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-600/20"
           >
             {Array.from({ length: 12 }, (_, i) => i + 1).map((g) => (
               <option key={g} value={g}>
@@ -131,8 +203,8 @@ export function ConfigForm({
                   key={d}
                   className={`relative flex-1 cursor-pointer rounded-lg border px-3 py-2 text-center text-sm transition ${
                     difficulty === d
-                      ? "border-brand-600 bg-brand-50 text-brand-700"
-                      : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+                      ? "border-brand-600 bg-brand-50/80 text-brand-700 shadow-sm"
+                      : "border-slate-300 bg-white/80 text-slate-700 hover:bg-slate-50"
                   }`}
                 >
                   {isRecommended && (
@@ -190,8 +262,8 @@ export function ConfigForm({
               onClick={() => setCount(n)}
               className={`rounded-full border px-4 py-1.5 text-sm font-medium transition ${
                 count === n
-                  ? "border-brand-600 bg-brand-600 text-white"
-                  : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+                  ? "border-brand-600 bg-brand-600 text-white shadow-sm"
+                  : "border-slate-300 bg-white/80 backdrop-blur-sm text-slate-700 hover:bg-slate-50"
               }`}
             >
               {n}
@@ -204,7 +276,7 @@ export function ConfigForm({
       </div>
 
       {/* Simulation mode toggle */}
-      <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 hover:bg-slate-100">
+      <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-xl border border-slate-200 bg-white/60 backdrop-blur-sm px-4 py-3 shadow-sm hover:bg-slate-50/80 transition-colors">
         <div className="relative mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
           <input
             type="checkbox"
@@ -234,19 +306,10 @@ export function ConfigForm({
       <button
         type="submit"
         disabled={loading}
-        className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-cta-600 px-4 py-3 text-sm font-bold text-white shadow-md shadow-cta-600/20 transition hover:bg-cta-700 disabled:cursor-not-allowed disabled:bg-slate-400"
+        className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-cta-600 px-4 py-3.5 text-sm font-bold text-white shadow-lg shadow-cta-600/30 transform transition-all hover:bg-cta-700 hover:scale-[1.02] disabled:cursor-not-allowed disabled:bg-slate-400 disabled:scale-100 disabled:shadow-none"
       >
-        {loading ? (
-          <>
-            <Loader2 className="h-4 w-4 animate-spin" />
-            Generating {count} questions…
-          </>
-        ) : (
-          <>
-            <Sparkles className="h-4 w-4" />
-            {simMode ? "Enter Exam Hall" : "Generate & Start Test"}
-          </>
-        )}
+        <Sparkles className="h-5 w-5" />
+        {simMode ? "Enter Exam Hall" : "Generate & Start Test"}
       </button>
 
       {error && (
@@ -259,3 +322,4 @@ export function ConfigForm({
     </form>
   );
 }
+

@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { PreviewRequest } from "@/lib/types";
 import { GeneratorFlow } from "@/components/GeneratorFlow";
 import { OlympiadSelector, OLYMPIAD_DATA, type OlympiadId } from "@/components/OlympiadSelector";
+import { OnboardingModal, type OnboardingData } from "@/components/OnboardingModal";
 import {
   AtomSketch,
   AIChipSketch,
@@ -53,18 +54,45 @@ export function PracticeShell({
   initialConfig?: Partial<PreviewRequest>;
 }) {
   const [olympiad, setOlympiad] = useState<OlympiadId>("open");
+  const [showOnboarding, setShowOnboarding] = useState(false);
+  const [autoStart, setAutoStart] = useState(initialConfig?.mistakesOnly ?? false);
+  const [onboardingConfig, setOnboardingConfig] = useState<Partial<PreviewRequest> | undefined>(undefined);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      if (!localStorage.getItem("hasCompletedOnboarding")) {
+        setShowOnboarding(true);
+      }
+    }
+  }, []);
+
   const olympiadInfo = OLYMPIAD_DATA.find((o) => o.id === olympiad)!;
   const { Left, Right } = SKETCH_PAIRS[olympiad] ?? DEFAULT_SKETCHES;
   const rot = ROTATE[olympiad] ?? DEFAULT_ROTATE;
 
   // Pre-fill the subject field when a specific olympiad is selected
   const subjectOverride: Partial<PreviewRequest> | undefined =
-    olympiadInfo.subject
+    onboardingConfig ||
+    (olympiadInfo.subject
       ? { ...(initialConfig ?? {}), subject: olympiadInfo.subject }
-      : initialConfig;
+      : initialConfig);
+
+  const handleOnboardingComplete = (data: OnboardingData) => {
+    localStorage.setItem("hasCompletedOnboarding", "true");
+    setOlympiad(data.olympiadId);
+    setOnboardingConfig({
+      grade: data.grade,
+      subject: data.subject,
+      difficulty: "Foundation",
+      count: 10,
+    });
+    setAutoStart(true);
+    setShowOnboarding(false);
+  };
 
   return (
     <div className="relative w-full">
+      {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
       {/* Left gutter sketch */}
       <div
         className="pointer-events-none absolute -left-10 top-20 hidden opacity-40 xl:block"
@@ -95,10 +123,9 @@ export function PracticeShell({
         <Left className="text-slate-300" />
       </div>
 
-      {/* Olympiad selector */}
       <OlympiadSelector selected={olympiad} onSelect={setOlympiad} />
 
-      <GeneratorFlow initialConfig={subjectOverride} />
+      <GeneratorFlow key={olympiad} initialConfig={subjectOverride} autoStart={autoStart} />
     </div>
   );
 }

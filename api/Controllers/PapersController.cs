@@ -61,16 +61,52 @@ public class PapersController : ControllerBase
 
             // -------------------------------------------------------
             // Routing strategy
-            // Free tier  → QuestionBank (pre-seeded, random sample)
-            //              Falls back to Claude only when bank is thin.
+            // Free tier (or Test Accounts) → QuestionBank (pre-seeded, random sample)
+            //              Falls back to Claude only when bank is thin (except for test accounts which will just fail).
             // Pro tier   → QuestionPaper cache first, then Claude live.
             // -------------------------------------------------------
             string jsonContent;
             List<Question> questions;
 
-            if (quota.Tier == "Free")
+            bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) || 
+                                 user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
+
+            if (req.MistakesOnly)
             {
-                // Free tier: serve from question bank (randomly sampled — fresh selection each time).
+                var query = _db.UserMistakes
+                    .AsNoTracking()
+                    .Where(m => m.UserId == user.UserId && !m.IsResolved && m.Subject == req.Subject && m.Grade == req.Grade);
+
+                if (!string.IsNullOrEmpty(req.Topic))
+                {
+                    query = query.Where(m => m.Topic == req.Topic);
+                }
+
+                var unresolvedMistakes = await query
+                    .OrderBy(m => Guid.NewGuid()) // Random order
+                    .Take(req.Count)
+                    .ToListAsync(ct);
+
+                if (unresolvedMistakes.Count == 0)
+                {
+                    return BadRequest(new
+                    {
+                        code = "NO_MISTAKES",
+                        message = $"No unresolved mistakes found for {req.Subject} Class {req.Grade}."
+                    });
+                }
+
+                questions = unresolvedMistakes
+                    .Select(m => JsonSerializer.Deserialize<Question>(m.QuestionJson))
+                    .Where(q => q != null)
+                    .Cast<Question>()
+                    .ToList();
+
+                jsonContent = JsonSerializer.Serialize(questions);
+            }
+            else if (quota.Tier == "Free" || isTestAccount)
+            {
+                // Free tier / Test Account: serve from question bank (randomly sampled — fresh selection each time).
                 // Falls back to Claude only when the bank has too few questions for this combo.
                 var bankQuestions = await _bank.TryGetRandomAsync(
                     req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct);

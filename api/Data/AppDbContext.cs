@@ -15,6 +15,7 @@ public class AppDbContext : DbContext
     public DbSet<QuestionBankItem> QuestionBank => Set<QuestionBankItem>();
     public DbSet<PdfPurchase> PdfPurchases => Set<PdfPurchase>();
     public DbSet<OlympiadSchedule> OlympiadSchedules => Set<OlympiadSchedule>();
+    public DbSet<UserMistake> UserMistakes => Set<UserMistake>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
@@ -144,6 +145,23 @@ public class AppDbContext : DbContext
             e.HasIndex(x => new { x.Subject, x.Grade, x.Difficulty });
             // Index for topic drill-down
             e.HasIndex(x => new { x.Subject, x.Grade, x.Difficulty, x.Topic });
+        });
+
+        b.Entity<UserMistake>(e =>
+        {
+            e.ToTable("UserMistakes");
+            e.HasKey(x => x.MistakeId);
+            e.Property(x => x.MistakeId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.Subject).HasMaxLength(100).IsRequired();
+            e.Property(x => x.Topic).HasMaxLength(100).IsRequired();
+            e.Property(x => x.CorrectAnswer).HasMaxLength(10).IsRequired();
+            e.Property(x => x.UserAnswer).HasMaxLength(10).IsRequired();
+            e.Property(x => x.OccurredAt).HasDefaultValueSql("GETDATE()");
+            e.HasOne(x => x.User)
+                .WithMany(u => u.Mistakes)
+                .HasForeignKey(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+            e.HasIndex(x => new { x.UserId, x.IsResolved });
         });
     }
 }
