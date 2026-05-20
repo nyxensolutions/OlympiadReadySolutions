@@ -5,6 +5,8 @@ import {
   Clock,
   FileText,
   Medal,
+  MicVocal,
+  Trophy,
   TrendingUp,
   Zap,
   type LucideIcon,
@@ -59,6 +61,20 @@ const FEATURES: Feature[] = [
     description:
       "IMO, NSO, IEO, IGKO, IHO, ICSO, iiO and more — question styles and difficulty levels are calibrated to each Olympiad's pattern.",
     gradient: "from-amber-500 to-yellow-500",
+  },
+  {
+    icon: Trophy,
+    title: "Level 1 & Level 2 prep",
+    description:
+      "Cleared Level 1? Switch to Level 2 mode for harder, national-round style questions calibrated to the Achievers Section of top Olympiad papers.",
+    gradient: "from-indigo-500 to-brand-600",
+  },
+  {
+    icon: MicVocal,
+    title: "Hummingbird Spell Bee",
+    description:
+      "India's popular Spell Bee competition — now with structured practice. Grade-wise word lists with definitions, usage examples, and memory tips.",
+    gradient: "from-violet-500 to-purple-600",
   },
 ];
 

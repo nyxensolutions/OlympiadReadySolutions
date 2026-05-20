@@ -18,7 +18,7 @@ public class ClaudeService
 
         # Task
         Generate a fresh set of multiple-choice questions tailored to the requested
-        Class (1-12), Subject (Math, Science, English, Hindi, General Knowledge,
+        Class (1-12), Subject (Math, Science, English, Hindi, Social Studies, General Knowledge,
         Logical Reasoning, Computers, or AI), and Difficulty level.
 
         For Hindi, write the question text, options, and explanation in Hindi (Devanagari
@@ -112,6 +112,16 @@ public class ClaudeService
                                "Natural Language Processing", "Robotics",
                                "Smart Devices", "Chatbots and Voice Assistants",
                                "AI Ethics", "Data and Bias".
+          Social Studies     → "Our World", "Indian Geography", "World Geography",
+                               "Ancient Indian History", "Medieval Indian History",
+                               "Modern Indian History", "Indian Civics",
+                               "Environment and Ecology", "Culture and Heritage",
+                               "Natural Disasters", "Economics Basics", "Current Affairs".
+                               For Social Studies, draw on the SOF ISSO (International Social
+                               Studies Olympiad) syllabus aligned with NCERT / CBSE. Cover
+                               history, geography, civics, economics. Use factual, verifiable
+                               questions — avoid opinion-based content. Avoid questions with
+                               answers that change over time (current events, record-holders).
 
         Pick from the list when applicable; if you must invent a topic, keep it short and consistent.
         Use the SAME topic string for every question targeting the same concept inside one paper.
@@ -137,7 +147,7 @@ public class ClaudeService
 
     public async Task<List<Question>> GenerateQuestionsAsync(
         string subject, int grade, string difficulty, int count,
-        string? topic = null, CancellationToken ct = default)
+        string? topic = null, CancellationToken ct = default, string? olympiadLevel = null)
     {
         if (string.IsNullOrWhiteSpace(_apiKey) || _apiKey.StartsWith("REPLACE_"))
             throw new InvalidOperationException(
@@ -147,9 +157,15 @@ public class ClaudeService
             ? $" ALL questions must be exclusively about the topic \"{topic}\" — do not include questions on other topics."
             : "";
 
+        var levelClause = olympiadLevel == "L2"
+            ? " These questions are for a LEVEL 2 (national/state round) Olympiad student who has already cleared Level 1. " +
+              "Increase complexity further — multi-step reasoning, non-obvious insights, competitive distractors. " +
+              "Target the Achievers Section / Section B style of top Olympiad papers."
+            : " These questions are for a LEVEL 1 (school round) Olympiad student.";
+
         var user =
             $"Generate exactly {count} multiple-choice questions for Class {grade} {subject} " +
-            $"at {difficulty} difficulty.{topicClause} Follow the schema and rules from the system prompt strictly.";
+            $"at {difficulty} difficulty.{topicClause}{levelClause} Follow the schema and rules from the system prompt strictly.";
 
         // System block as an array with cache_control so Anthropic caches the prompt across calls.
         // Below the cache threshold, this is a no-op; once SystemPrompt grows past ~1024 tokens

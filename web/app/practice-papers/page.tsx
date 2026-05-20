@@ -23,7 +23,7 @@ type SubjectInfo = {
 const SUBJECT_ICONS: Record<string, string> = {
   Math: "🧮", Science: "🔬", English: "📖", Hindi: "📜",
   "General Knowledge": "🌍", "Logical Reasoning": "🧩",
-  Computers: "💻", AI: "🤖",
+  Computers: "💻", AI: "🤖", "Social Studies": "🗺️",
 };
 
 const SUBJECT_COLORS: Record<string, { bg: string; border: string; badge: string; bar: string }> = {
@@ -35,6 +35,7 @@ const SUBJECT_COLORS: Record<string, { bg: string; border: string; badge: string
   "Logical Reasoning":{ bg: "bg-rose-50",    border: "border-rose-200",    badge: "bg-rose-100 text-rose-700",      bar: "bg-rose-500"    },
   Computers:          { bg: "bg-indigo-50",  border: "border-indigo-200",  badge: "bg-indigo-100 text-indigo-700",  bar: "bg-indigo-500"  },
   AI:                 { bg: "bg-fuchsia-50", border: "border-fuchsia-200", badge: "bg-fuchsia-100 text-fuchsia-700",bar: "bg-fuchsia-500" },
+  "Social Studies":   { bg: "bg-teal-50",   border: "border-teal-200",   badge: "bg-teal-100 text-teal-700",      bar: "bg-teal-500"   },
 };
 
 function loadRazorpay(): Promise<boolean> {

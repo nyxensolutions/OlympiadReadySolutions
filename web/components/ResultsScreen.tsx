@@ -1,9 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { CheckCircle2, Download, MessageCircle, RotateCcw, Share2, XCircle } from "lucide-react";
+import { CheckCircle2, Download, LayoutDashboard, MessageCircle, RotateCcw, Share2, XCircle } from "lucide-react";
+import Link from "next/link";
 import { useAuth } from "@clerk/nextjs";
 import type { AttemptResult } from "@/lib/types";
+import { Analytics } from "@/lib/analytics";
 import { CircularScore } from "./CircularScore";
 import { ReviewCard } from "./ReviewCard";
 
@@ -36,6 +38,7 @@ export function ResultsScreen({
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [shared, setShared] = useState(false);
+  const [badgeEarned, setBadgeEarned] = useState<string | null>(null);
   const submitted = useRef(false);
 
   const pct = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
@@ -68,6 +71,7 @@ export function ResultsScreen({
       `Consistent daily practice is the key to Olympiad success 🏆\n` +
       `Practice at: https://olympiadready.com`;
     window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank");
+    Analytics.sharedToParent(pct);
     setShared(true);
     setTimeout(() => setShared(false), 3000);
   }
@@ -76,22 +80,46 @@ export function ResultsScreen({
   useEffect(() => {
     if (submitted.current) return;
     submitted.current = true;
+
+    // Track test completion in Umami
+    Analytics.testCompleted({
+      subject: config.subject,
+      grade: config.grade,
+      difficulty: config.difficulty,
+      totalQuestions: questions.length,
+      scorePct: pct,
+      timeTakenSeconds,
+    });
+
     (async () => {
       const token = await getToken();
-      fetch(`${API_URL}/api/tests/submit`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          ...(token ? { Authorization: `Bearer ${token}` } : {})
-        },
-        body: JSON.stringify({
-          paperId,
-          answers: userAnswers,
-          timeTakenSeconds
-        })
-      }).catch((e) => console.warn("Test submit failed:", e));
+      try {
+        await fetch(`${API_URL}/api/tests/submit`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            ...(token ? { Authorization: `Bearer ${token}` } : {})
+          },
+          body: JSON.stringify({
+            paperId,
+            answers: userAnswers,
+            timeTakenSeconds
+          })
+        });
+        // Check for first-test badge
+        const prevCount = Number(localStorage.getItem("testCount") ?? "0");
+        const newCount = prevCount + 1;
+        localStorage.setItem("testCount", String(newCount));
+        if (prevCount === 0) setBadgeEarned("🚀 First Step badge earned! Check your achievements on the dashboard.");
+        else if (newCount === 5) setBadgeEarned("🔁 On a Roll badge earned! You've completed 5 tests.");
+        else if (newCount === 10) setBadgeEarned("💪 Dedicated badge earned! 10 tests done.");
+        else if (pct >= 90) setBadgeEarned("🎯 Sharpshooter badge earned! Great score!");
+        else if (pct === 100) setBadgeEarned("⭐ Perfect Score badge earned!");
+      } catch (e) {
+        console.warn("Test submit failed:", e);
+      }
     })();
-  }, [paperId, userAnswers, timeTakenSeconds, getToken]);
+  }, [paperId, userAnswers, timeTakenSeconds, getToken]); // eslint-disable-line react-hooks/exhaustive-deps
 
   async function downloadPdf() {
     setDownloading(true);
@@ -111,6 +139,7 @@ export function ResultsScreen({
       a.click();
       a.remove();
       URL.revokeObjectURL(url);
+      Analytics.pdfDownloaded(config.subject, config.grade, config.difficulty);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Download failed");
     } finally {
@@ -159,6 +188,7 @@ export function ResultsScreen({
                 url.searchParams.set("total", String(questions.length));
                 url.searchParams.set("pct", String(pct));
                 void copyToClipboard(url.toString());
+                Analytics.challengeShared(config.subject, config.grade);
               }}
               className="inline-flex items-center gap-2 rounded-xl border border-brand-300 bg-brand-50 px-4 py-2.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100"
             >
@@ -181,10 +211,23 @@ export function ResultsScreen({
               <RotateCcw className="h-4 w-4" />
               New paper
             </button>
+            <Link
+              href="/dashboard"
+              className="inline-flex items-center gap-2 rounded-xl border border-brand-200 bg-brand-50 px-4 py-2.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100"
+            >
+              <LayoutDashboard className="h-4 w-4" />
+              View achievements
+            </Link>
           </div>
 
           {error && (
             <p className="mt-3 text-sm text-red-700">{error}</p>
+          )}
+          {badgeEarned && (
+            <div className="mt-3 flex items-center gap-2 rounded-xl border border-amber-200 bg-amber-50 px-4 py-2.5 text-sm text-amber-800">
+              <span className="text-lg">🏆</span>
+              <span className="font-semibold">{badgeEarned}</span>
+            </div>
           )}
         </div>
       </section>

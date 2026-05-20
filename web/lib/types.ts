@@ -39,6 +39,8 @@ export type DashboardSummary = {
   mistakeCount: number;
 };
 
+export type OlympiadLevel = "L1" | "L2";
+
 export type PreviewRequest = {
   subject: string;
   grade: number;
@@ -46,6 +48,7 @@ export type PreviewRequest = {
   count: number;
   topic?: string;
   mistakesOnly?: boolean;
+  olympiadLevel?: OlympiadLevel;
 };
 
 export type GeneratedPaper = {
@@ -119,6 +122,7 @@ export const SUBJECTS = [
   "Science",
   "English",
   "Hindi",
+  "Social Studies",
   "General Knowledge",
   "Logical Reasoning",
   "Computers",
@@ -135,6 +139,7 @@ export const SUBJECT_GRADE_MAP: Record<Subject, { min: number; max: number }> = 
   Computers:            { min: 1,  max: 10 },
   AI:                   { min: 1,  max: 10 },
   "General Knowledge":  { min: 1,  max: 10 },
+  "Social Studies":     { min: 3,  max: 10 },
   Hindi:                { min: 3,  max: 10 },
 };
 

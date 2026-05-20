@@ -9,6 +9,7 @@ import {
   Cpu,
   Globe,
   Languages,
+  Map,
   type LucideIcon
 } from "lucide-react";
 
@@ -18,6 +19,7 @@ const ICONS: Record<string, LucideIcon> = {
   English: BookOpen,
   Hindi: Languages,
   "General Knowledge": Globe,
+  "Social Studies": Map,
   "Logical Reasoning": Brain,
   Computers: Cpu,
   AI: BrainCircuit

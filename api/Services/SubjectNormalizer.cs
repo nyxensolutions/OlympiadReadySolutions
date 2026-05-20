@@ -24,6 +24,7 @@ public static class SubjectNormalizer
         "Computer Science",
         "Commerce",
         "AI",
+        "Spell Bee",
     ];
 
     // All keys are lowercase; values are canonical names.
@@ -120,6 +121,17 @@ public static class SubjectNormalizer
         // AI (custom)
         ["ai"]                       = "AI",
         ["artificial intelligence"]  = "AI",
+
+        // Spell Bee (Humming Bird Spelling Competition)
+        ["spell bee"]                = "Spell Bee",
+        ["spellbee"]                 = "Spell Bee",
+        ["spelling bee"]             = "Spell Bee",
+        ["spellingbee"]              = "Spell Bee",
+        ["hbc"]                      = "Spell Bee",
+        ["hummingbird"]              = "Spell Bee",
+        ["humming bird"]             = "Spell Bee",
+        ["spelling"]                 = "Spell Bee",
+        ["spell-bee"]                = "Spell Bee",
     };
 
     /// <summary>

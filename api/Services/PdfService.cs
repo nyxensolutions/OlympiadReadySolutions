@@ -40,7 +40,19 @@ public class PdfService
                 p.Footer().Element(BuildFooter);
             });
 
-            // ── Final page: Answer Key ────────────────────────────
+            // ── OMR Answer Sheet (blank — student fills this in) ──
+            c.Page(p =>
+            {
+                p.Size(PageSizes.A4);
+                p.Margin(40);
+                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(Fonts.Calibri).FontColor(DarkText));
+
+                p.Header().Element(container => BuildOmrHeader(container, data));
+                p.Content().Element(container => BuildOmrSheet(container, data));
+                p.Footer().Element(BuildFooter);
+            });
+
+            // ── Final page: Answer Key & Explanations ────────────
             c.Page(p =>
             {
                 p.Size(PageSizes.A4);
@@ -94,6 +106,138 @@ public class PdfService
                     col.Item().AlignRight().Text($"Generated: {DateTime.Today:dd MMM yyyy}").FontColor(SubText).FontSize(8);
                 });
             });
+    }
+
+    private void BuildOmrHeader(IContainer container, PdfExportRequest d)
+    {
+        container
+            .BorderBottom(2).BorderColor(DarkText)
+            .PaddingBottom(10)
+            .Row(row =>
+            {
+                row.ConstantItem(70).Column(col =>
+                {
+                    if (_logoPath != null)
+                        col.Item().Height(64).Width(64).Image(_logoPath).FitArea();
+                    else
+                        col.Item().Height(64).Width(64)
+                           .Background(Brand).AlignCenter().AlignMiddle()
+                           .Text("OR").Bold().FontSize(18).FontColor(Colors.White);
+                });
+
+                row.ConstantItem(10);
+
+                row.RelativeItem().Column(col =>
+                {
+                    col.Item().Text("OlympiadReady").FontSize(18).Bold().FontColor(Brand);
+                    col.Item().Text("OMR Answer Sheet").FontSize(13).SemiBold().FontColor(DarkText);
+                    col.Item().PaddingTop(2).Text("Fill one bubble per question. Use a ball-point pen.").FontSize(9).FontColor(SubText);
+                });
+
+                row.ConstantItem(160).AlignRight().Column(col =>
+                {
+                    col.Item().AlignRight().Text($"Class {d.Grade}  ·  {d.Subject}").SemiBold().FontSize(10);
+                    col.Item().AlignRight().Text($"Level: {d.Difficulty}").FontColor(SubText).FontSize(9);
+                    col.Item().AlignRight().Text($"{d.Questions.Count} Questions").FontColor(SubText).FontSize(9);
+                });
+            });
+    }
+
+    private static void BuildOmrSheet(IContainer container, PdfExportRequest d)
+    {
+        container.PaddingTop(16).Column(col =>
+        {
+            // Student info box
+            col.Item()
+               .Border(1).BorderColor(BorderGray)
+               .Background(LightBg)
+               .Padding(10)
+               .Column(info =>
+               {
+                   info.Item().Row(row =>
+                   {
+                       row.RelativeItem().Column(c =>
+                       {
+                           c.Item().Text("Student Name: ____________________________________").FontSize(10);
+                           c.Item().PaddingTop(6).Text("Roll No / Seat No: __________________________").FontSize(10);
+                       });
+                       row.ConstantItem(20);
+                       row.ConstantItem(140).Column(c =>
+                       {
+                           c.Item().Text("Date: ________________________").FontSize(10);
+                           c.Item().PaddingTop(6).Text("Score: __________ / " + d.Questions.Count).FontSize(10);
+                       });
+                   });
+               });
+
+            col.Item().PaddingTop(8).Text(t =>
+            {
+                t.Span("Instructions: ").Bold().FontSize(9);
+                t.Span("Darken the bubble corresponding to your answer completely. Do NOT tick, cross or half-fill. Use only blue/black ink.").FontSize(9).FontColor(SubText);
+            });
+
+            // OMR grid — 2 columns of questions side by side
+            col.Item().PaddingTop(14).Column(grid =>
+            {
+                const int cols = 2;
+                var rowCount = (int)Math.Ceiling(d.Questions.Count / (double)cols);
+
+                for (var r = 0; r < rowCount; r++)
+                {
+                    var rowIndex = r;
+                    grid.Item().PaddingBottom(4).Row(rowContainer =>
+                    {
+                        for (var c = 0; c < cols; c++)
+                        {
+                            var qIdx = rowIndex * cols + c;
+
+                            if (qIdx >= d.Questions.Count)
+                            {
+                                rowContainer.RelativeItem();
+                                continue;
+                            }
+
+                            var qNum = qIdx + 1;
+
+                            if (c > 0)
+                                rowContainer.ConstantItem(20);
+
+                            rowContainer.RelativeItem().Border(1).BorderColor(BorderGray).Padding(5).Row(qRow =>
+                            {
+                                // Question number
+                                qRow.ConstantItem(28)
+                                    .AlignMiddle()
+                                    .Text($"Q{qNum}").Bold().FontSize(10).FontColor(Brand);
+
+                                // Bubbles A B C D
+                                foreach (var letter in new[] { "A", "B", "C", "D" })
+                                {
+                                    var l = letter;
+                                    qRow.ConstantItem(30).AlignMiddle().AlignCenter().Column(bCol =>
+                                    {
+                                        bCol.Item().AlignCenter()
+                                            .Text(l).FontSize(8).FontColor(SubText).SemiBold();
+                                        bCol.Item().PaddingTop(2).AlignCenter()
+                                            .Width(16).Height(16)
+                                            .Border(1.5f).BorderColor(DarkText)
+                                            .Background(Colors.White)
+                                            .Text("").FontSize(8);
+                                    });
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+
+            // Legend
+            col.Item().PaddingTop(12).Text(t =>
+            {
+                t.Span("⬤ Fill the bubble completely   ").FontSize(9).FontColor(SubText);
+                t.Span("○ Unfilled = Not attempted   ").FontSize(9).FontColor(SubText);
+                t.Span("Each correct answer = 1 mark  ·  No negative marking").FontSize(9).FontColor(SubText);
+            });
+        });
     }
 
     private void BuildAnswerKeyHeader(IContainer container, PdfExportRequest d)

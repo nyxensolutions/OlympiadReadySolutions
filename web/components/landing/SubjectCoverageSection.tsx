@@ -9,6 +9,8 @@ import {
   Cpu,
   Globe,
   Languages,
+  Map,
+  MicVocal,
   type LucideIcon,
 } from "lucide-react";
 
@@ -18,6 +20,7 @@ interface SubjectRow {
   grades: string;
   exams: string;
   accent: string;
+  badge?: string;
 }
 
 const SUBJECT_ROWS: SubjectRow[] = [
@@ -28,7 +31,9 @@ const SUBJECT_ROWS: SubjectRow[] = [
   { icon: Cpu,          name: "Computers",           grades: "Class 1–10", exams: "ICSO · CCO",         accent: "bg-slate-100 text-slate-600"  },
   { icon: BrainCircuit, name: "AI",                  grades: "Class 1–10", exams: "iiO",                accent: "bg-indigo-50 text-indigo-600" },
   { icon: Globe,        name: "General Knowledge",   grades: "Class 1–10", exams: "IGKO · GKIO",        accent: "bg-amber-50 text-amber-600"   },
+  { icon: Map,          name: "Social Studies",      grades: "Class 3–10", exams: "ISSO · GKIO",        accent: "bg-teal-50 text-teal-600"     },
   { icon: Languages,    name: "Hindi",               grades: "Class 3–10", exams: "IHO · ABHO",         accent: "bg-orange-50 text-orange-600" },
+  { icon: MicVocal,     name: "Spell Bee",           grades: "Class 1–8",  exams: "Hummingbird Spell Bee", accent: "bg-purple-50 text-purple-600", badge: "New" },
 ];
 
 export function SubjectCoverageSection() {
@@ -43,12 +48,13 @@ export function SubjectCoverageSection() {
             Every subject. Every class.
           </h2>
           <p className="mt-3 text-slate-500">
-            Mapped to the official syllabi of India&apos;s leading Olympiad organisations.
+            Mapped to the official syllabi of India&apos;s leading Olympiad organisations — including{" "}
+            <span className="font-semibold text-purple-600">Hummingbird Spell Bee</span>.
           </p>
         </div>
 
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-          {SUBJECT_ROWS.map(({ icon: Icon, name, grades, exams, accent }, idx) => (
+          {SUBJECT_ROWS.map(({ icon: Icon, name, grades, exams, accent, badge }, idx) => (
             <div
               key={name}
               className={`flex items-center gap-4 px-5 py-4 ${
@@ -59,7 +65,12 @@ export function SubjectCoverageSection() {
                 <Icon className="h-5 w-5" />
               </div>
               <div className="min-w-0 flex-1">
-                <p className="font-semibold text-slate-900">{name}</p>
+                <div className="flex items-center gap-2">
+                  <p className="font-semibold text-slate-900">{name}</p>
+                  {badge && (
+                    <span className="rounded-full bg-purple-100 px-2 py-0.5 text-[10px] font-bold text-purple-700">{badge}</span>
+                  )}
+                </div>
                 <p className="text-xs text-slate-500">{exams}</p>
               </div>
               <span className="shrink-0 rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">

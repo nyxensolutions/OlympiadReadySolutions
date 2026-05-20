@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, Receipt, X } from "lucide-react";
+import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X } from "lucide-react";
 import { useState } from "react";
 import {
   SignedIn,
@@ -19,7 +19,8 @@ export type ActivePage =
   | "topics"
   | "weekly-exam"
   | "practice-papers"
-  | "olympiad-dates";
+  | "olympiad-dates"
+  | "spell-bee";
 
 export function AppHeader({ active }: { active?: ActivePage }) {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -64,6 +65,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
             <NavLink href="/practice-papers" label="Question Papers" icon={<FileText className="h-3.5 w-3.5" />} active={active === "practice-papers"} accent />
             <NavLink href="/olympiad-dates" label="Dates" icon={<Calendar className="h-3.5 w-3.5" />} active={active === "olympiad-dates"} />
             <NavLink href="/weekly-exam" label="Weekly Exam" icon={<Crown className="h-3.5 w-3.5" />} active={active === "weekly-exam"} amber />
+            <NavLink href="/spell-bee" label="Spell Bee" icon={<MicVocal className="h-3.5 w-3.5" />} active={active === "spell-bee"} violet />
           </nav>
         </SignedIn>
 
@@ -125,6 +127,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <MobileNavLink href="/practice-papers" label="Practice Papers" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/olympiad-dates" label="Olympiad Dates" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/weekly-exam" label="Weekly Exam" onClick={() => setMobileOpen(false)} />
+              <MobileNavLink href="/spell-bee" label="Spell Bee 🐝" onClick={() => setMobileOpen(false)} />
             </div>
           </SignedIn>
         </div>
@@ -137,17 +140,21 @@ export function AppHeader({ active }: { active?: ActivePage }) {
 }
 
 function NavLink({
-  href, label, icon, active, accent, amber
+  href, label, icon, active, accent, amber, violet
 }: {
-  href: string; label: string; icon?: React.ReactNode; active?: boolean; accent?: boolean; amber?: boolean;
+  href: string; label: string; icon?: React.ReactNode; active?: boolean; accent?: boolean; amber?: boolean; violet?: boolean;
 }) {
   const base = "inline-flex items-center gap-1.5 rounded-lg px-2.5 py-2 text-sm font-medium transition whitespace-nowrap";
   const cls = active
-    ? amber
+    ? violet
+      ? `${base} bg-violet-50 text-violet-700`
+      : amber
       ? `${base} bg-amber-50 text-amber-700`
       : accent
       ? `${base} bg-brand-50 text-brand-700`
       : `${base} bg-brand-50 text-brand-700`
+    : violet
+    ? `${base} text-slate-600 hover:bg-violet-50 hover:text-violet-700`
     : amber
     ? `${base} text-slate-600 hover:bg-amber-50 hover:text-amber-700`
     : accent

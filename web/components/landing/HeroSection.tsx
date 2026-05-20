@@ -29,7 +29,8 @@ export function HeroSection() {
         {/* Sub-headline */}
         <p className="mx-auto mb-10 max-w-2xl text-lg text-white/90 sm:text-xl">
           AI-generated practice papers, instant explanations, and topic-by-topic mastery
-          tracking — built for IMO, NSO, IEO, IGKO and every major school Olympiad.
+          tracking — for IMO, NSO, IEO, IGKO, Hummingbird Spell Bee, and every major school Olympiad.
+          Prepare for <span className="font-semibold text-yellow-200">Level 1 or Level 2</span> with questions calibrated to your round.
         </p>
 
         {/* CTAs */}
@@ -51,8 +52,8 @@ export function HeroSection() {
         <div className="mt-12 flex flex-col items-center gap-8 sm:flex-row sm:justify-center">
           {[
             { value: "500+",  label: "Students practising" },
-            { value: "8",     label: "Subjects covered"    },
-            { value: "∞",     label: "Fresh questions"     },
+            { value: "9+",    label: "Subjects + Spell Bee" },
+            { value: "∞",     label: "AI-fresh questions"  },
           ].map(({ value, label }, i) => (
             <div key={label} className="flex items-center gap-4">
               {i > 0 && <div className="hidden h-10 w-px bg-white/20 sm:block" />}

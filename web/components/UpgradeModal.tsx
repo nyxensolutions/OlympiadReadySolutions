@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Crown, Loader2, X } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import type { CheckoutResponse } from "@/lib/types";
+import { Analytics } from "@/lib/analytics";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -44,6 +45,11 @@ export function UpgradeModal({
   const { getToken } = useAuth();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // Track whenever the modal becomes visible
+  useEffect(() => {
+    if (open) Analytics.upgradeModalOpened(reason);
+  }, [open, reason]);
 
   if (!open) return null;
 
@@ -94,6 +100,7 @@ export function UpgradeModal({
               })
             });
             if (!v.ok) throw new Error((await v.text()) || `Verify failed (${v.status})`);
+            Analytics.upgradeCompleted();
             onUpgraded();
             onClose();
           } catch (err) {

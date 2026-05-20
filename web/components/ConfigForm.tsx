@@ -9,10 +9,12 @@ import {
   SUBJECTS,
   isSubjectAvailable,
   type GeneratedPaper,
+  type OlympiadLevel,
   type PreviewRequest,
   type QuotaError,
   type Subject
 } from "@/lib/types";
+import { Analytics } from "@/lib/analytics";
 import { SubjectCard } from "./SubjectCard";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
@@ -92,6 +94,9 @@ export function ConfigForm({
   const [count, setCount] = useState<number>(initialConfig?.count ?? 5);
   const [simMode, setSimMode] = useState(false);
   const [mistakesOnly] = useState<boolean>(initialConfig?.mistakesOnly ?? false);
+  const [olympiadLevel, setOlympiadLevel] = useState<OlympiadLevel>(
+    (initialConfig?.olympiadLevel) ?? "L1"
+  );
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -121,7 +126,7 @@ export function ConfigForm({
     e.preventDefault();
     setLoading(true);
     setError(null);
-    const config: PreviewRequest = { subject, grade, difficulty, count, mistakesOnly };
+    const config: PreviewRequest = { subject, grade, difficulty, count, mistakesOnly, olympiadLevel };
     try {
       const token = await getToken();
       const res = await fetch(`${API_URL}/api/papers/generate`, {
@@ -134,11 +139,20 @@ export function ConfigForm({
       });
       if (res.status === 402) {
         const info: QuotaError = await res.json();
+        Analytics.quotaExceeded(subject, grade);
         onQuotaExceeded(info);
         return;
       }
       if (!res.ok) throw new Error((await res.text()) || `Request failed (${res.status})`);
       const paper: GeneratedPaper = await res.json();
+      Analytics.paperGenerated({
+        subject,
+        grade,
+        difficulty,
+        count,
+        simulationMode: simMode,
+        mistakesOnly,
+      });
       onGenerated(config, paper, simMode);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong");
@@ -175,6 +189,42 @@ export function ConfigForm({
           </div>
         </div>
       )}
+
+      {/* Olympiad level selector */}
+      <div className="mb-5 rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-3">
+        <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-2">Preparing for</p>
+        <div className="flex gap-3">
+          {(["L1", "L2"] as OlympiadLevel[]).map((lvl) => {
+            const isActive = olympiadLevel === lvl;
+            const info = lvl === "L1"
+              ? { label: "Level 1 — School Exam", desc: "First round, school-level competition" }
+              : { label: "Level 2 — National Exam", desc: "Advanced round for top Level 1 qualifiers" };
+            return (
+              <button
+                key={lvl}
+                type="button"
+                onClick={() => {
+                  setOlympiadLevel(lvl);
+                  if (lvl === "L2" && difficulty === "Foundation") setDifficulty("Advanced");
+                }}
+                className={`flex-1 rounded-xl border px-3 py-2.5 text-left text-sm transition ${
+                  isActive
+                    ? "border-brand-600 bg-brand-50 shadow-sm"
+                    : "border-slate-200 bg-white hover:bg-slate-50"
+                }`}
+              >
+                <span className={`font-bold block ${isActive ? "text-brand-700" : "text-slate-700"}`}>{info.label}</span>
+                <span className={`text-[11px] ${isActive ? "text-brand-500" : "text-slate-400"}`}>{info.desc}</span>
+              </button>
+            );
+          })}
+        </div>
+        {olympiadLevel === "L2" && (
+          <p className="mt-2 text-[11px] text-brand-600 bg-brand-50 rounded-lg px-2 py-1">
+            Level 2 prep: we&apos;ll focus on harder, application-style Olympiad questions. &quot;Olympiad&quot; difficulty recommended.
+          </p>
+        )}
+      </div>
 
       {/* Grade + Level — shown first */}
       <div className="grid gap-4 sm:grid-cols-2">

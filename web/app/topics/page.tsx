@@ -18,6 +18,8 @@ type FlowState =
   | { kind: "arena"; config: PreviewRequest; paper: GeneratedPaper; topic: TopicEntry }
   | { kind: "results"; result: AttemptResult; topic: TopicEntry };
 
+type ApiError = { code?: string; message?: string; upgrade?: boolean };
+
 export default function TopicsPage() {
   return (
     <div className="min-h-screen bg-slate-50">
@@ -48,6 +50,7 @@ function TopicsBody() {
 
   const [flow, setFlow] = useState<FlowState>({ kind: "grid" });
   const [generateError, setGenerateError] = useState<string | null>(null);
+  const [quotaExceeded, setQuotaExceeded] = useState(false);
 
   useEffect(() => {
     if (!isLoaded) return;
@@ -81,6 +84,7 @@ function TopicsBody() {
 
   async function startTopic(topic: TopicEntry) {
     setGenerateError(null);
+    setQuotaExceeded(false);
     setFlow({ kind: "loading", topic });
     try {
       const token = await getToken();
@@ -99,9 +103,23 @@ function TopicsBody() {
         },
         body: JSON.stringify(body),
       });
+
+      if (res.status === 402) {
+        setQuotaExceeded(true);
+        setFlow({ kind: "grid" });
+        return;
+      }
+
       if (!res.ok) {
-        const err = await res.json().catch(() => ({}));
-        throw new Error((err as { error?: string }).error ?? "Failed to generate paper.");
+        const err: ApiError = await res.json().catch(() => ({}));
+        const code = err.code ?? "";
+        if (code === "BANK_INSUFFICIENT") {
+          throw new Error(
+            `Not enough questions in the bank for ${activeSubject} Class ${safeGrade} — ${topic.topic} (${difficulty}). ` +
+            `Try a different difficulty level, or upgrade to Pro for AI-generated papers.`
+          );
+        }
+        throw new Error(err.message ?? "Failed to generate paper.");
       }
       const paper: GeneratedPaper = await res.json();
       setFlow({ kind: "arena", config: body, paper, topic });
@@ -157,6 +175,16 @@ function TopicsBody() {
         {generateError && (
           <div className="mb-6 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
             {generateError}
+          </div>
+        )}
+
+        {quotaExceeded && (
+          <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+            <p className="font-semibold">Monthly paper limit reached</p>
+            <p className="mt-1">
+              You&apos;ve used all your free papers this month.{" "}
+              <a href="/" className="underline font-medium">Upgrade to Pro</a> for unlimited AI-generated papers.
+            </p>
           </div>
         )}
 

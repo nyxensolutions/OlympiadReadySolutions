@@ -21,10 +21,22 @@ export default function RootLayout({
         <body className="min-h-screen bg-slate-50 text-slate-900">
           {children}
           <WhatsAppFloat />
+
+          {/* Razorpay checkout */}
           <Script
             src="https://checkout.razorpay.com/v1/checkout.js"
             strategy="afterInteractive"
           />
+
+          {/* Umami — privacy-first analytics (no cookies, no banner needed) */}
+          {process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID && (
+            <Script
+              defer
+              src="https://cloud.umami.is/script.js"
+              data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
+              strategy="afterInteractive"
+            />
+          )}
         </body>
       </html>
     </ClerkProvider>

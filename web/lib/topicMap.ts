@@ -8,6 +8,20 @@ export type TopicEntry = {
 };
 
 export const TOPIC_MAP: Record<Subject, TopicEntry[]> = {
+  "Social Studies": [
+    { topic: "Our World",              description: "Maps, globes, directions, continents, and oceans",                       emoji: "🌍", grades: { min: 3, max: 5 } },
+    { topic: "Indian Geography",       description: "States, rivers, mountains, deserts, and climate zones of India",          emoji: "🗺️", grades: { min: 4, max: 10 } },
+    { topic: "World Geography",        description: "Continents, countries, capitals, oceans, and world landmarks",            emoji: "🌐", grades: { min: 5, max: 10 } },
+    { topic: "Ancient Indian History", description: "Indus Valley, Vedic era, Mauryan and Gupta empires",                     emoji: "🏛️", grades: { min: 4, max: 10 } },
+    { topic: "Medieval Indian History",description: "Delhi Sultanate, Mughal Empire, Vijayanagara, Maratha empire",           emoji: "🕌", grades: { min: 5, max: 10 } },
+    { topic: "Modern Indian History",  description: "British rule, freedom struggle, independence movement, key leaders",     emoji: "🇮🇳", grades: { min: 5, max: 10 } },
+    { topic: "Indian Civics",          description: "Constitution, fundamental rights, Parliament, government structure",      emoji: "⚖️", grades: { min: 6, max: 10 } },
+    { topic: "Environment & Ecology",  description: "Ecosystems, food chains, conservation, climate change, natural resources", emoji: "🌿", grades: { min: 3, max: 8 } },
+    { topic: "Culture & Heritage",     description: "Indian festivals, art forms, dance, music, and traditions",               emoji: "🎭", grades: { min: 4, max: 8 } },
+    { topic: "Natural Disasters",      description: "Earthquakes, floods, volcanoes, cyclones, tsunamis, and disaster management", emoji: "🌪️", grades: { min: 4, max: 8 } },
+    { topic: "Economics Basics",       description: "Markets, supply-demand, resources, money, and trade concepts",           emoji: "💰", grades: { min: 8, max: 10 } },
+    { topic: "Current Affairs",        description: "Recent events, world affairs, national news, and global issues",          emoji: "📰", grades: { min: 5, max: 10 } },
+  ],
   Math: [
     { topic: "Shapes and Patterns",     description: "Basic 2D shapes, patterns, counting",             emoji: "🔷", grades: { min: 1, max: 3 } },
     { topic: "Number Systems",          description: "Natural, whole, rational, prime numbers",           emoji: "🔢", grades: { min: 1, max: 8 } },

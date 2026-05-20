@@ -16,6 +16,7 @@ public class AppDbContext : DbContext
     public DbSet<PdfPurchase> PdfPurchases => Set<PdfPurchase>();
     public DbSet<OlympiadSchedule> OlympiadSchedules => Set<OlympiadSchedule>();
     public DbSet<UserMistake> UserMistakes => Set<UserMistake>();
+    public DbSet<SpellBeeWord> SpellBeeWords => Set<SpellBeeWord>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
@@ -162,6 +163,24 @@ public class AppDbContext : DbContext
                 .HasForeignKey(x => x.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
             e.HasIndex(x => new { x.UserId, x.IsResolved });
+        });
+
+        b.Entity<SpellBeeWord>(e =>
+        {
+            e.ToTable("SpellBeeWords");
+            e.HasKey(x => x.SpellBeeWordId);
+            e.Property(x => x.SpellBeeWordId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.Word).HasMaxLength(100).IsRequired();
+            e.Property(x => x.Difficulty).HasMaxLength(20).IsRequired();
+            e.Property(x => x.Category).HasMaxLength(80).IsRequired();
+            e.Property(x => x.Definition).HasMaxLength(500).IsRequired();
+            e.Property(x => x.UsageSentence).HasMaxLength(500).IsRequired();
+            e.Property(x => x.Origin).HasMaxLength(100);
+            e.Property(x => x.Pronunciation).HasMaxLength(150);
+            e.Property(x => x.MemoryTip).HasMaxLength(300);
+            e.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
+            e.HasIndex(x => new { x.Grade, x.Difficulty, x.Category });
+            e.HasIndex(x => x.Word).IsUnique();
         });
     }
 }
