@@ -70,11 +70,26 @@ export default function PracticePapersPage() {
 function PracticePapersBody() {
   const { getToken, isLoaded, isSignedIn } = useAuth();
 
-  const [grade,    setGrade]    = useState(5);
+  const [grade, setGrade] = useState(() => {
+    if (typeof window !== "undefined") {
+      const stored = localStorage.getItem("olympiad_grade");
+      return stored ? Number(stored) : 1;
+    }
+    return 1;
+  });
+  
+  const handleGradeChange = (newGrade: number) => {
+    setGrade(newGrade);
+    setNotice(null);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("olympiad_grade", newGrade.toString());
+    }
+  };
+
   const [subjects, setSubjects] = useState<SubjectInfo[]>([]);
   const [loadingSubjects, setLoadingSubjects] = useState(false);
   const [downloading, setDownloading] = useState<string | null>(null);
-  const [paying,      setPaying]      = useState<string | null>(null);
+  const [paying, setPaying] = useState<string | null>(null);
   const [notice, setNotice] = useState<{ kind: "ok" | "err"; msg: string } | null>(null);
 
   const fetchSubjects = useCallback(async () => {
@@ -215,7 +230,7 @@ function PracticePapersBody() {
   return (
     <>
       {/* Hero banner */}
-      <div className="bg-gradient-to-br from-brand-700 via-brand-600 to-indigo-600 px-4 py-12 text-white">
+      <div className="bg-gradient-hero px-4 py-12 text-white">
         <div className="mx-auto max-w-5xl">
           <div className="flex items-center gap-3">
             <div className="rounded-xl bg-white/10 p-2.5">
@@ -269,24 +284,20 @@ function PracticePapersBody() {
         )}
 
         {/* Class picker */}
-        <div className="mb-8 flex flex-wrap items-center gap-4">
-          <span className="text-sm font-semibold text-slate-700">Select Class:</span>
-          <div className="flex flex-wrap gap-2">
+        <div className="mb-8 flex items-center gap-4">
+          <label htmlFor="classSelect" className="text-sm font-semibold text-slate-700">Select Class:</label>
+          <select
+            id="classSelect"
+            value={grade}
+            onChange={(e) => handleGradeChange(Number(e.target.value))}
+            className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 cursor-pointer hover:border-brand-300"
+          >
             {Array.from({ length: 12 }, (_, i) => i + 1).map((g) => (
-              <button
-                key={g}
-                type="button"
-                onClick={() => { setGrade(g); setNotice(null); }}
-                className={`rounded-lg border px-3 py-1.5 text-sm font-semibold transition ${
-                  grade === g
-                    ? "border-brand-600 bg-brand-600 text-white shadow"
-                    : "border-slate-300 bg-white text-slate-700 hover:border-brand-300 hover:bg-brand-50"
-                }`}
-              >
-                {g}
-              </button>
+              <option key={g} value={g}>
+                Class {g}
+              </option>
             ))}
-          </div>
+          </select>
         </div>
 
         {/* Info strip */}
@@ -299,6 +310,22 @@ function PracticePapersBody() {
               <a href="/sign-in" className="text-brand-600 underline">Sign in</a> to access free & paid downloads.
             </span>
           </SignedOut>
+        </div>
+
+        {/* Spell Bee Promo */}
+        <div className="mb-6 rounded-2xl border border-violet-200 bg-gradient-to-r from-violet-50 to-purple-50 p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+          <div className="flex items-center gap-3">
+            <div className="rounded-xl bg-violet-100 p-2.5 text-violet-600">
+              <span className="text-xl">🐝</span>
+            </div>
+            <div>
+              <h3 className="font-bold text-violet-900">Looking for Spell Bee practice?</h3>
+              <p className="text-sm text-violet-700">Get spelling-specific papers with vocabulary and memory tips.</p>
+            </div>
+          </div>
+          <a href="/spell-bee" className="shrink-0 rounded-xl bg-violet-600 px-5 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-violet-700">
+            Go to Spell Bee →
+          </a>
         </div>
 
         {/* Subject grid */}

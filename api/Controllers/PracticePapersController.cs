@@ -51,12 +51,22 @@ public class PracticePapersController : ControllerBase
     {
         if (grade < 1 || grade > 12) return BadRequest("Grade must be between 1 and 12.");
 
-        var subjects = await _db.QuestionBank
+        var qBankSubjects = await _db.QuestionBank
             .Where(q => q.Grade == grade)
             .Select(q => q.Subject)
             .Distinct()
-            .OrderBy(s => s)
             .ToListAsync(ct);
+
+        var purchasedSubjects = await _db.PdfPurchases
+            .Where(p => p.Grade == grade)
+            .Select(p => p.Subject)
+            .Distinct()
+            .ToListAsync(ct);
+
+        var subjects = qBankSubjects.Union(purchasedSubjects)
+            .Distinct()
+            .OrderBy(s => s)
+            .ToList();
 
         // Check which subjects have a free download already used (signed-in only)
         HashSet<string> freeUsed = new();
@@ -94,33 +104,37 @@ public class PracticePapersController : ControllerBase
     public async Task<IActionResult> FreePdf(
         [FromQuery] int grade,
         [FromQuery] string subject,
+        [FromQuery] string? topic,
         CancellationToken ct)
     {
         if (grade < 1 || grade > 12) return BadRequest("Invalid grade.");
         if (string.IsNullOrWhiteSpace(subject)) return BadRequest("Subject is required.");
 
         var user = await _users.GetOrSyncAsync(User, ct);
+        
+        // Use a composite key for topics if provided
+        var purchaseKey = string.IsNullOrWhiteSpace(topic) ? subject : $"{subject}|{topic}";
 
         // Enforce one-per-user limit
         var alreadyDownloaded = await _db.PdfPurchases.AnyAsync(
             p => p.UserId == user.UserId
               && p.Grade == grade
-              && p.Subject == subject
+              && p.Subject == purchaseKey
               && p.RazorpayOrderId == FreeMarker, ct);
 
         if (alreadyDownloaded)
             return StatusCode(409, new
             {
                 code    = "FREE_LIMIT_REACHED",
-                message = $"You have already downloaded the free {subject} Class {grade} paper. " +
+                message = $"You have already downloaded the free {purchaseKey} Class {grade} paper. " +
                           $"Get the full 50-question version for ₹{PdfPriceInPaise / 100}."
             });
 
-        var questions = await _bank.TryGetRandomAsync(subject, grade, null, FreeQuestionCount, null, ct);
+        var questions = await _bank.TryGetRandomAsync(subject, grade, null, FreeQuestionCount, topic, ct);
         if (questions is null || questions.Count == 0)
             return StatusCode(503, new
             {
-                message = $"Not enough questions in bank for {subject} Class {grade}. Try another subject."
+                message = $"Not enough questions in bank for {purchaseKey} Class {grade}. Try another subject."
             });
 
         // Record the free download before streaming
@@ -128,7 +142,7 @@ public class PracticePapersController : ControllerBase
         {
             UserId            = user.UserId,
             Grade             = grade,
-            Subject           = subject,
+            Subject           = purchaseKey,
             RazorpayOrderId   = FreeMarker,
             RazorpayPaymentId = FreeMarker,
             AmountInPaise     = 0,
@@ -138,7 +152,7 @@ public class PracticePapersController : ControllerBase
 
         var exportReq = new PdfExportRequest
         {
-            Title      = $"Class {grade} {subject} — Free Practice Paper (10 Questions)",
+            Title      = $"Class {grade} {subject} {(string.IsNullOrWhiteSpace(topic) ? "" : $"- {topic} ")}— Free Practice Paper (10 Questions)",
             Subject    = subject,
             Grade      = grade,
             Difficulty = "Mixed",
@@ -146,8 +160,8 @@ public class PracticePapersController : ControllerBase
         };
 
         var bytes    = _pdf.GeneratePaperPdf(exportReq);
-        var filename = $"OlympiadReady-Free-{subject}-Class{grade}.pdf";
-        _log.LogInformation("Free PDF served: {Subject} G{Grade} for {UserId}", subject, grade, user.UserId);
+        var filename = $"OlympiadReady-Free-{subject}{(string.IsNullOrWhiteSpace(topic) ? "" : $"-{topic}")}-Class{grade}.pdf";
+        _log.LogInformation("Free PDF served: {Subject} {Topic} G{Grade} for {UserId}", subject, topic, grade, user.UserId);
         return File(bytes, "application/pdf", filename);
     }
 
@@ -174,7 +188,8 @@ public class PracticePapersController : ControllerBase
             amount   = order.AmountInPaise,
             currency = order.Currency,
             grade    = req.Grade,
-            subject  = req.Subject
+            subject  = req.Subject,
+            topic    = req.Topic
         });
     }
 
@@ -195,13 +210,14 @@ public class PracticePapersController : ControllerBase
         if (string.IsNullOrWhiteSpace(req.Subject)) return BadRequest("Subject is required.");
 
         var user = await _users.GetOrSyncAsync(User, ct);
+        var purchaseKey = string.IsNullOrWhiteSpace(req.Topic) ? req.Subject : $"{req.Subject}|{req.Topic}";
 
         // Record each payment — one entry per paid download transaction
         _db.PdfPurchases.Add(new PdfPurchase
         {
             UserId            = user.UserId,
             Grade             = req.Grade,
-            Subject           = req.Subject,
+            Subject           = purchaseKey,
             RazorpayOrderId   = req.OrderId,
             RazorpayPaymentId = req.PaymentId,
             AmountInPaise     = PdfPriceInPaise,
@@ -210,16 +226,16 @@ public class PracticePapersController : ControllerBase
         await _db.SaveChangesAsync(ct);
 
         // Generate and return the PDF immediately
-        var questions = await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, PaidQuestionCount, null, ct);
+        var questions = await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, PaidQuestionCount, req.Topic, ct);
         if (questions is null || questions.Count == 0)
             return StatusCode(503, new
             {
-                message = $"Not enough questions in bank for {req.Subject} Class {req.Grade}."
+                message = $"Not enough questions in bank for {purchaseKey} Class {req.Grade}."
             });
 
         var exportReq = new PdfExportRequest
         {
-            Title      = $"Class {req.Grade} {req.Subject} — Practice Paper (50 Questions)",
+            Title      = $"Class {req.Grade} {req.Subject} {(string.IsNullOrWhiteSpace(req.Topic) ? "" : $"- {req.Topic} ")}— Practice Paper (50 Questions)",
             Subject    = req.Subject,
             Grade      = req.Grade,
             Difficulty = "Mixed",
@@ -227,10 +243,10 @@ public class PracticePapersController : ControllerBase
         };
 
         var bytes    = _pdf.GeneratePaperPdf(exportReq);
-        var filename = $"OlympiadReady-{req.Subject}-Class{req.Grade}-50Q.pdf";
+        var filename = $"OlympiadReady-{req.Subject}{(string.IsNullOrWhiteSpace(req.Topic) ? "" : $"-{req.Topic}")}-Class{req.Grade}-50Q.pdf";
         _log.LogInformation(
-            "Paid PDF served: {Subject} G{Grade} for {UserId} via order {OrderId}",
-            req.Subject, req.Grade, user.UserId, req.OrderId);
+            "Paid PDF served: {Subject} {Topic} G{Grade} for {UserId} via order {OrderId}",
+            req.Subject, req.Topic, req.Grade, user.UserId, req.OrderId);
 
         return File(bytes, "application/pdf", filename);
     }

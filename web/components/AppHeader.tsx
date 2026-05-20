@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X } from "lucide-react";
+import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X, Sparkles } from "lucide-react";
 import { useState } from "react";
 import {
   SignedIn,
@@ -12,6 +12,7 @@ import {
   UserButton
 } from "@clerk/nextjs";
 import { PurchasesPanel } from "./PurchasesPanel";
+import { UpgradeModal } from "./UpgradeModal";
 
 export type ActivePage =
   | "home"
@@ -25,6 +26,7 @@ export type ActivePage =
 export function AppHeader({ active }: { active?: ActivePage }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [purchasesOpen, setPurchasesOpen] = useState(false);
+  const [upgradeOpen, setUpgradeOpen] = useState(false);
 
   return (
     <>
@@ -53,6 +55,9 @@ export function AppHeader({ active }: { active?: ActivePage }) {
             <Link href="/olympiad-dates" className={`text-sm font-medium transition ${active === "olympiad-dates" ? "text-brand-600" : "text-slate-600 hover:text-brand-600"}`}>
               Olympiad Dates
             </Link>
+            <Link href="/#try-it" className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100">
+              <Sparkles className="h-4 w-4" /> Try It
+            </Link>
           </nav>
         </SignedOut>
 
@@ -72,6 +77,15 @@ export function AppHeader({ active }: { active?: ActivePage }) {
         {/* Right side */}
         <div className="flex items-center gap-2">
           <SignedIn>
+            <button
+              type="button"
+              onClick={() => setUpgradeOpen(true)}
+              title="Upgrade to Pro"
+              className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-achiever-300 bg-achiever-50 px-2.5 py-1.5 text-xs font-semibold text-achiever-700 transition hover:bg-achiever-100 hover:shadow-sm"
+            >
+              <Crown className="h-3.5 w-3.5" />
+              Go Pro
+            </button>
             <button
               type="button"
               onClick={() => setPurchasesOpen(true)}
@@ -114,6 +128,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
         <div className="border-t border-slate-200 bg-white px-4 py-3 sm:hidden">
           <SignedOut>
             <div className="flex flex-col gap-1">
+              <Link href="/#try-it" className="rounded-lg px-3 py-2 text-sm font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 flex items-center gap-2" onClick={() => setMobileOpen(false)}><Sparkles className="h-4 w-4" /> Try It</Link>
               <Link href="/#features" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Features</Link>
               <Link href="/#how-it-works" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>How It Works</Link>
               <Link href="/olympiad-dates" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Olympiad Dates</Link>
@@ -128,6 +143,13 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <MobileNavLink href="/olympiad-dates" label="Olympiad Dates" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/weekly-exam" label="Weekly Exam" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/spell-bee" label="Spell Bee 🐝" onClick={() => setMobileOpen(false)} />
+              <button
+                type="button"
+                onClick={() => { setMobileOpen(false); setUpgradeOpen(true); }}
+                className="mt-1 flex items-center gap-2 rounded-lg border border-achiever-300 bg-achiever-50 px-3 py-2.5 text-sm font-semibold text-achiever-700 hover:bg-achiever-100"
+              >
+                <Crown className="h-4 w-4" /> Upgrade to Pro
+              </button>
             </div>
           </SignedIn>
         </div>
@@ -135,6 +157,14 @@ export function AppHeader({ active }: { active?: ActivePage }) {
     </header>
 
     {purchasesOpen && <PurchasesPanel onClose={() => setPurchasesOpen(false)} />}
+    {upgradeOpen && (
+      <UpgradeModal
+        open={upgradeOpen}
+        onClose={() => setUpgradeOpen(false)}
+        onUpgraded={() => setUpgradeOpen(false)}
+        reason="Unlock Level 2 practice, unlimited papers, detailed AI explanations and more."
+      />
+    )}
     </>
   );
 }

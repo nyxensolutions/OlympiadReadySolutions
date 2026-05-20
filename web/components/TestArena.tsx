@@ -58,7 +58,15 @@ export function TestArena({
     return () => window.clearInterval(id);
   }, []);
 
+  const answeredCount = useMemo(
+    () => answers.filter((a) => a !== null).length,
+    [answers]
+  );
   const progress = useMemo(
+    () => Math.round((answeredCount / total) * 100),
+    [answeredCount, total]
+  );
+  const timeProgress = useMemo(
     () => Math.round(((totalSeconds - remaining) / totalSeconds) * 100),
     [remaining, totalSeconds]
   );
@@ -93,12 +101,21 @@ export function TestArena({
           </p>
         </div>
 
-        {/* Progress bar */}
-        <div className="h-1 shrink-0 bg-slate-100">
-          <div
-            className={`h-full transition-all ${isUrgent ? "bg-red-500" : "bg-brand-600"}`}
-            style={{ width: `${progress}%` }}
-          />
+        {/* Dual progress bar: answers (primary) + time (secondary) */}
+        <div className="shrink-0">
+          <div className="h-1.5 bg-slate-200">
+            <div
+              className="h-full transition-all duration-300 bg-brand-500"
+              style={{ width: `${progress}%` }}
+              title={`${answeredCount} of ${total} answered`}
+            />
+          </div>
+          <div className="h-0.5 bg-slate-100">
+            <div
+              className={`h-full transition-all ${isUrgent ? "bg-red-400" : "bg-slate-400"}`}
+              style={{ width: `${timeProgress}%` }}
+            />
+          </div>
         </div>
 
         {/* Question area */}
@@ -237,9 +254,14 @@ export function TestArena({
 
         <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-slate-100">
           <div
-            className={`h-full transition-all ${isUrgent ? "bg-red-500" : "bg-brand-600"}`}
+            className="h-full transition-all duration-300 bg-brand-600 rounded-full"
             style={{ width: `${progress}%` }}
+            title={`${answeredCount} of ${total} answered`}
           />
+        </div>
+        <div className="mt-1 flex justify-between text-[10px] text-slate-400">
+          <span>{answeredCount} answered</span>
+          <span>{total - answeredCount} remaining</span>
         </div>
 
         <p className="mt-6 text-base leading-relaxed text-slate-900">{q.q}</p>

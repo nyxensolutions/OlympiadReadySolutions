@@ -147,4 +147,12 @@ export const TOPIC_MAP: Record<Subject, TopicEntry[]> = {
     { topic: "AI Ethics",                      description: "Bias, fairness, privacy, safety",         emoji: "⚖️", grades: { min: 6, max: 10 } },
     { topic: "Data and Bias",                  description: "Data collection, bias in AI models",      emoji: "📂", grades: { min: 7, max: 10 } },
   ],
+  "Spell Bee": [
+    { topic: "Spelling Rules",                 description: "Phonics, silent letters, and common rules",emoji: "📝", grades: { min: 1, max: 12 } },
+    { topic: "Vocabulary",                     description: "Word meanings, synonyms, and antonyms",    emoji: "📚", grades: { min: 1, max: 12 } },
+    { topic: "Word Usage",                     description: "Correct usage of words in sentences",      emoji: "✍️", grades: { min: 1, max: 12 } },
+    { topic: "Prefixes & Suffixes",            description: "Root words and affixes",                   emoji: "🔗", grades: { min: 3, max: 12 } },
+    { topic: "Homophones & Homonyms",          description: "Words that sound or look the same",        emoji: "🔄", grades: { min: 2, max: 12 } },
+    { topic: "Idioms & Phrases",               description: "Common English idioms and expressions",    emoji: "💬", grades: { min: 4, max: 12 } },
+  ],
 };

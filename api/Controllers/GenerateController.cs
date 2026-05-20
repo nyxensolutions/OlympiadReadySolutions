@@ -8,27 +8,41 @@ namespace OlympiadReady.Api.Controllers;
 [Route("api/generate")]
 public class GenerateController : ControllerBase
 {
-    private readonly ClaudeService _claude;
+    private readonly QuestionBankService _bank;
     private readonly ILogger<GenerateController> _log;
 
-    public GenerateController(ClaudeService claude, ILogger<GenerateController> log)
+    public GenerateController(QuestionBankService bank, ILogger<GenerateController> log)
     {
-        _claude = claude;
+        _bank = bank;
         _log = log;
     }
 
-    /// <summary>Open endpoint: generates 5 sample questions, no auth required.</summary>
+    /// <summary>Open endpoint: generates 5 sample questions from the DB, no auth required.</summary>
     [HttpPost("preview")]
     public async Task<ActionResult<List<Question>>> Preview(
         [FromBody] PreviewRequest req, CancellationToken ct)
     {
         try
         {
-            var questions = await _claude.GenerateQuestionsAsync(
+            var questions = await _bank.TryGetRandomAsync(
                 req.Subject, req.Grade, req.Difficulty, req.Count, null, ct);
+                
+            if (questions == null || questions.Count < req.Count)
+            {
+                // If not enough questions, just return what we have or an error.
+                // Since this is just a preview, let's try to get any questions for that subject/grade
+                questions = await _bank.TryGetRandomAsync(
+                    req.Subject, req.Grade, null, req.Count, null, ct);
+            }
+
+            if (questions == null || !questions.Any())
+            {
+                return Problem("Not enough sample questions available for this subject and grade.", statusCode: 404);
+            }
+
             return Ok(questions);
         }
-        catch (InvalidOperationException ex)
+        catch (Exception ex)
         {
             _log.LogWarning(ex, "Preview generation failed");
             return Problem(ex.Message, statusCode: 500);

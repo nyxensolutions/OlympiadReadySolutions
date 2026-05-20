@@ -79,6 +79,8 @@ export function GeneratorFlow({ initialConfig, autoStart }: { initialConfig?: Pa
               void refresh();
             }}
             onQuotaExceeded={handleQuotaExceeded}
+            onRequiresUpgrade={() => openUpgrade("Level 2 practice requires a Pro subscription.")}
+            status={status}
           />
         )}
         {phase.kind === "arena" && (

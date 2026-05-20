@@ -217,11 +217,8 @@ public class PdfService
                                     {
                                         bCol.Item().AlignCenter()
                                             .Text(l).FontSize(8).FontColor(SubText).SemiBold();
-                                        bCol.Item().PaddingTop(2).AlignCenter()
-                                            .Width(16).Height(16)
-                                            .Border(1.5f).BorderColor(DarkText)
-                                            .Background(Colors.White)
-                                            .Text("").FontSize(8);
+                                        bCol.Item().AlignCenter()
+                                            .Text("○").FontSize(16).FontColor(DarkText);
                                     });
                                 }
                             });
@@ -282,13 +279,15 @@ public class PdfService
             .PaddingTop(6)
             .Row(row =>
             {
-                row.RelativeItem().Text(t =>
+                row.RelativeItem().AlignLeft().Text(t =>
+                {
+                    t.Span($"© {DateTime.Today.Year} OlympiadReady. All rights reserved.").FontSize(8).FontColor(SubText);
+                });
+                row.RelativeItem().AlignCenter().Text(t =>
                 {
                     t.Span("www.olympiadready.com").FontSize(8).FontColor(SubText);
-                    t.Span("  ·  © ").FontSize(8).FontColor(SubText);
-                    t.Span($"{DateTime.Today.Year} OlympiadReady. All rights reserved.").FontSize(8).FontColor(SubText);
                 });
-                row.ConstantItem(80).AlignRight().Text(t =>
+                row.RelativeItem().AlignRight().Text(t =>
                 {
                     t.Span("Page ").FontSize(8).FontColor(SubText);
                     t.CurrentPageNumber().FontSize(8).FontColor(SubText);

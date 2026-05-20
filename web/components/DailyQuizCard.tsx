@@ -6,11 +6,11 @@ import type { DailyQuizQuestion, DailyQuizAnswer } from "@/lib/types";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
-const STORAGE_KEY = "olympiad_daily_quiz";
+const getStorageKey = (grade: number) => `olympiad_daily_quiz_g${grade}`;
 
 type StoredState = {
   date: string;
-  questionId: string;
+  question: DailyQuizQuestion;
   picked: string | null;
   correct: boolean | null;
 };
@@ -29,37 +29,39 @@ export function DailyQuizCard({ grade }: { grade: number }) {
 
   // Restore today's answer from localStorage
   useEffect(() => {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(getStorageKey(grade));
     const stored: StoredState | null = raw ? JSON.parse(raw) : null;
 
-    const fetchAndRestore = async (storedState: StoredState) => {
-      try {
-        const r = await fetch(`${API_URL}/api/quiz/daily?grade=${grade}`);
-        const q: DailyQuizQuestion | null = r.ok ? await r.json() : null;
-        if (q) {
-          setQuestion(q);
-          setPicked(storedState.picked);
-          if (storedState.picked) {
-            const a = await revealAnswer(storedState.questionId, storedState.picked);
-            if (a) setAnswer(a);
-          }
-        }
-      } finally {
+    if (stored && stored.date === todayKey() && stored.question) {
+      setQuestion(stored.question);
+      setPicked(stored.picked);
+      if (stored.picked) {
+        revealAnswer(stored.question.questionId, stored.picked).then((a) => {
+          if (a) setAnswer(a);
+          setLoading(false);
+        });
+      } else {
         setLoading(false);
       }
-    };
-
-    if (stored && stored.date === todayKey()) {
-      fetchAndRestore(stored);
       return;
     }
 
-    // New day — fetch fresh question
+    // New day or no stored state — fetch fresh question
     fetch(`${API_URL}/api/quiz/daily?grade=${grade}`)
       .then((r) => r.ok ? r.json() : null)
       .then((q: DailyQuizQuestion | null) => {
-        if (q) setQuestion(q);
-        else setError("No question available today. Check back soon!");
+        if (q) {
+          setQuestion(q);
+          const newState: StoredState = {
+            date: todayKey(),
+            question: q,
+            picked: null,
+            correct: null
+          };
+          localStorage.setItem(getStorageKey(grade), JSON.stringify(newState));
+        } else {
+          setError("No question available today. Check back soon!");
+        }
       })
       .catch(() => setError("Could not load today's question."))
       .finally(() => setLoading(false));
@@ -85,11 +87,11 @@ export function DailyQuizCard({ grade }: { grade: number }) {
       setAnswer(result);
       const stored: StoredState = {
         date: todayKey(),
-        questionId: question.questionId,
+        question: question,
         picked: option,
         correct: result.isCorrect,
       };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+      localStorage.setItem(getStorageKey(grade), JSON.stringify(stored));
     }
     setSubmitting(false);
   }

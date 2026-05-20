@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import { GraduationCap, Loader2, Sparkles, TrendingUp } from "lucide-react";
+import { GraduationCap, Sparkles, TrendingUp } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import {
   DIFFICULTIES,
@@ -21,54 +21,105 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
 function GenerationLoader({ subject, grade, count, mistakesOnly }: { subject: string; grade: number; count: number; mistakesOnly?: boolean }) {
   const [msgIdx, setMsgIdx] = useState(0);
+  const [dots, setDots] = useState(".");
+  const [progress, setProgress] = useState(0);
+
   const messages = mistakesOnly
     ? [
-        "Scanning database for unresolved mistakes...",
-        "Retrieving your past incorrect answers...",
-        "Compiling mistake review paper...",
-        "Formatting your practice session..."
+        "Scanning your mistake history",
+        "Retrieving past incorrect answers",
+        "Building targeted review set",
+        "Formatting your practice session"
       ]
     : [
-        `Analyzing Class ${grade} ${subject} curriculum...`,
-        "Gathering past Olympiad patterns...",
-        `Generating ${count} exam-level questions...`,
-        "Applying difficulty scaling...",
-        "Formatting your exam paper..."
+        `Analysing Class ${grade} ${subject} curriculum`,
+        "Gathering Olympiad question patterns",
+        `Generating ${count} exam-level questions`,
+        "Calibrating difficulty parameters",
+        "Finalising your exam paper"
       ];
 
   useEffect(() => {
-    const timer = setInterval(() => {
+    const msgTimer = setInterval(() => {
       setMsgIdx((prev) => (prev < messages.length - 1 ? prev + 1 : prev));
-    }, 2000);
-    return () => clearInterval(timer);
+    }, 2200);
+    const dotTimer = setInterval(() => {
+      setDots((d) => (d.length >= 3 ? "." : d + "."));
+    }, 500);
+    // Smooth progress fill over ~10s
+    const progTimer = setInterval(() => {
+      setProgress((p) => (p < 92 ? p + 1 : p));
+    }, 110);
+    return () => { clearInterval(msgTimer); clearInterval(dotTimer); clearInterval(progTimer); };
   }, [messages.length]);
 
+  const nodes = [0, 1, 2, 3, 4];
+
   return (
-    <div className="w-full max-w-4xl overflow-hidden rounded-2xl border border-slate-200 bg-white/60 backdrop-blur-md shadow-lg p-8 min-h-[450px] flex flex-col items-center justify-center">
-      <div className="w-full max-w-md space-y-6 animate-pulse opacity-70">
-        {/* Skeleton Header */}
-        <div className="flex items-center justify-between border-b border-slate-200 pb-4">
-          <div className="h-6 w-1/3 bg-slate-300 rounded-md"></div>
-          <div className="h-6 w-1/4 bg-slate-300 rounded-md"></div>
-        </div>
-        {/* Skeleton Questions */}
-        {[1, 2, 3].map((i) => (
-          <div key={i} className="space-y-4 pt-2">
-            <div className="h-4 w-3/4 bg-slate-300 rounded"></div>
-            <div className="space-y-2.5 pl-4">
-              <div className="h-3 w-1/2 bg-slate-200 rounded"></div>
-              <div className="h-3 w-2/3 bg-slate-200 rounded"></div>
-              <div className="h-3 w-1/3 bg-slate-200 rounded"></div>
-            </div>
-          </div>
+    <div className="w-full max-w-4xl overflow-hidden rounded-2xl border border-brand-200/60 bg-gradient-to-br from-slate-900 via-brand-950 to-slate-900 shadow-2xl p-8 min-h-[420px] flex flex-col items-center justify-center relative">
+      {/* Animated grid background */}
+      <div className="absolute inset-0 opacity-10" style={{
+        backgroundImage: `linear-gradient(rgba(99,102,241,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.4) 1px, transparent 1px)`,
+        backgroundSize: "40px 40px"
+      }} />
+
+      {/* Glowing orb */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-brand-600/10 blur-3xl pointer-events-none" />
+
+      {/* Neural nodes animation */}
+      <div className="relative flex items-center gap-3 mb-8">
+        {nodes.map((i) => (
+          <div
+            key={i}
+            className="rounded-full bg-brand-400"
+            style={{
+              width: i === 2 ? 14 : 8,
+              height: i === 2 ? 14 : 8,
+              opacity: msgIdx >= i ? 1 : 0.25,
+              boxShadow: msgIdx >= i ? '0 0 10px 2px rgba(99,102,241,0.7)' : 'none',
+              transition: 'all 0.5s ease',
+              animation: `pulse ${1.2 + i * 0.15}s ease-in-out infinite alternate`
+            }}
+          />
         ))}
+        <style>{`@keyframes pulse { from { transform: scale(1); } to { transform: scale(1.4); } }`}</style>
       </div>
-      
-      <div className="mt-12 flex flex-col items-center">
-        <Loader2 className="h-8 w-8 animate-spin text-brand-600 mb-4" />
-        <p className="text-sm font-semibold text-brand-700 h-6 transition-all duration-300">
-          {messages[msgIdx]}
-        </p>
+
+      {/* AI Brain icon */}
+      <div className="mb-5 relative">
+        <div className="h-16 w-16 rounded-2xl bg-brand-600/20 border border-brand-500/30 flex items-center justify-center backdrop-blur-sm">
+          <Sparkles className="h-8 w-8 text-brand-300" style={{ animation: 'spin 3s linear infinite' }} />
+        </div>
+        <div className="absolute -top-1 -right-1 h-4 w-4 rounded-full bg-emerald-400 border-2 border-slate-900 flex items-center justify-center">
+          <div className="h-2 w-2 rounded-full bg-emerald-300 animate-ping" />
+        </div>
+      </div>
+
+      {/* Message */}
+      <p className="text-base font-bold text-white mb-1 text-center tracking-tight transition-all duration-500">
+        {messages[msgIdx]}{dots}
+      </p>
+      <p className="text-xs text-brand-300 mb-6 text-center">AI-powered · Olympiad-grade · Fresh every time</p>
+
+      {/* Progress bar */}
+      <div className="w-full max-w-xs">
+        <div className="flex justify-between text-[10px] text-brand-400 mb-1.5 font-mono">
+          <span>Generating</span>
+          <span>{progress}%</span>
+        </div>
+        <div className="h-1.5 w-full rounded-full bg-slate-700 overflow-hidden">
+          <div
+            className="h-full rounded-full bg-gradient-to-r from-brand-400 to-violet-400 transition-all duration-200"
+            style={{ width: `${progress}%` }}
+          />
+        </div>
+      </div>
+
+      {/* Skeleton rows below */}
+      <div className="mt-8 w-full max-w-xs space-y-2 opacity-20">
+        {["w-3/4", "w-1/2", "w-2/3"].map((w, i) => (
+          <div key={i} className={`h-2 ${w} rounded bg-slate-500 animate-pulse`} />
+        ))}
       </div>
     </div>
   );
@@ -79,17 +130,28 @@ export function ConfigForm({
   adaptiveMessage,
   autoStart,
   onGenerated,
-  onQuotaExceeded
+  onQuotaExceeded,
+  onRequiresUpgrade,
+  status
 }: {
   initialConfig?: Partial<PreviewRequest>;
   adaptiveMessage?: string;
   autoStart?: boolean;
   onGenerated: (config: PreviewRequest, paper: GeneratedPaper, simulationMode: boolean) => void;
   onQuotaExceeded: (info: QuotaError) => void;
+  onRequiresUpgrade?: () => void;
+  status?: { tier: "Free" | "Pro" } | null;
 }) {
   const { getToken } = useAuth();
   const [subject, setSubject] = useState<string>(initialConfig?.subject ?? "Math");
-  const [grade, setGrade] = useState<number>(initialConfig?.grade ?? 6);
+  const [grade, setGrade] = useState<number>(() => {
+    if (initialConfig?.grade) return initialConfig.grade;
+    if (typeof window !== "undefined") {
+      const stored = localStorage.getItem("olympiad_grade");
+      return stored ? Number(stored) : 1;
+    }
+    return 1;
+  });
   const [difficulty, setDifficulty] = useState<string>(initialConfig?.difficulty ?? "Foundation");
   const [count, setCount] = useState<number>(initialConfig?.count ?? 5);
   const [simMode, setSimMode] = useState(false);
@@ -115,6 +177,9 @@ export function ConfigForm({
   function handleGradeChange(newGrade: number) {
     setGrade(newGrade);
     setResetNotice(null);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("olympiad_grade", newGrade.toString());
+    }
     if (!isSubjectAvailable(subject as Subject, newGrade)) {
       const fallback = SUBJECTS.find((s) => isSubjectAvailable(s, newGrade)) ?? SUBJECTS[0];
       setSubject(fallback);
@@ -196,23 +261,38 @@ export function ConfigForm({
         <div className="flex gap-3">
           {(["L1", "L2"] as OlympiadLevel[]).map((lvl) => {
             const isActive = olympiadLevel === lvl;
+            const isLocked = lvl === "L2" && status?.tier !== "Pro";
             const info = lvl === "L1"
-              ? { label: "Level 1 — School Exam", desc: "First round, school-level competition" }
-              : { label: "Level 2 — National Exam", desc: "Advanced round for top Level 1 qualifiers" };
+              ? { label: "Level 1", desc: "First round, school-level competition" }
+              : { label: "Level 2", desc: "Advanced round for top Level 1 qualifiers" };
             return (
               <button
                 key={lvl}
                 type="button"
+                title={isLocked ? "Level 2 is available for Pro subscribers only" : undefined}
                 onClick={() => {
-                  setOlympiadLevel(lvl);
-                  if (lvl === "L2" && difficulty === "Foundation") setDifficulty("Advanced");
+                  if (isLocked) {
+                    onRequiresUpgrade?.();
+                  } else {
+                    setOlympiadLevel(lvl);
+                    if (lvl === "L2") setDifficulty("Olympiad");
+                  }
                 }}
-                className={`flex-1 rounded-xl border px-3 py-2.5 text-left text-sm transition ${
+                className={`flex-1 rounded-xl border px-3 py-2.5 text-left text-sm transition relative ${
                   isActive
                     ? "border-brand-600 bg-brand-50 shadow-sm"
-                    : "border-slate-200 bg-white hover:bg-slate-50"
+                    : isLocked
+                      ? "border-slate-200 bg-slate-50 opacity-60 cursor-pointer hover:opacity-80 hover:border-achiever-300"
+                      : "border-slate-200 bg-white hover:bg-slate-50"
                 }`}
               >
+                {isLocked && (
+                  <div className="absolute top-2 right-2 flex h-5 w-5 items-center justify-center rounded-full bg-slate-200">
+                    <svg className="h-3 w-3 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                  </div>
+                )}
                 <span className={`font-bold block ${isActive ? "text-brand-700" : "text-slate-700"}`}>{info.label}</span>
                 <span className={`text-[11px] ${isActive ? "text-brand-500" : "text-slate-400"}`}>{info.desc}</span>
               </button>
@@ -221,7 +301,7 @@ export function ConfigForm({
         </div>
         {olympiadLevel === "L2" && (
           <p className="mt-2 text-[11px] text-brand-600 bg-brand-50 rounded-lg px-2 py-1">
-            Level 2 prep: we&apos;ll focus on harder, application-style Olympiad questions. &quot;Olympiad&quot; difficulty recommended.
+            Level 2 prep: we focus on harder, application-style Olympiad questions.
           </p>
         )}
       </div>

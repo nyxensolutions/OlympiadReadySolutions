@@ -71,7 +71,7 @@ const FEATURES: Feature[] = [
   },
   {
     icon: MicVocal,
-    title: "Hummingbird Spell Bee",
+    title: "Spell Bee",
     description:
       "India's popular Spell Bee competition — now with structured practice. Grade-wise word lists with definitions, usage examples, and memory tips.",
     gradient: "from-violet-500 to-purple-600",

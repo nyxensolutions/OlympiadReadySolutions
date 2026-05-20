@@ -126,7 +126,8 @@ export const SUBJECTS = [
   "General Knowledge",
   "Logical Reasoning",
   "Computers",
-  "AI"
+  "AI",
+  "Spell Bee"
 ] as const;
 
 export type Subject = (typeof SUBJECTS)[number];
@@ -141,6 +142,7 @@ export const SUBJECT_GRADE_MAP: Record<Subject, { min: number; max: number }> = 
   "General Knowledge":  { min: 1,  max: 10 },
   "Social Studies":     { min: 3,  max: 10 },
   Hindi:                { min: 3,  max: 10 },
+  "Spell Bee":          { min: 1,  max: 12 },
 };
 
 export function isSubjectAvailable(subject: Subject, grade: number): boolean {

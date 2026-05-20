@@ -29,7 +29,7 @@ export function HeroSection() {
         {/* Sub-headline */}
         <p className="mx-auto mb-10 max-w-2xl text-lg text-white/90 sm:text-xl">
           AI-generated practice papers, instant explanations, and topic-by-topic mastery
-          tracking — for IMO, NSO, IEO, IGKO, Hummingbird Spell Bee, and every major school Olympiad.
+          tracking — for IMO, NSO, IEO, IGKO, Spell Bee, and every major school Olympiad.
           Prepare for <span className="font-semibold text-yellow-200">Level 1 or Level 2</span> with questions calibrated to your round.
         </p>
 
@@ -41,8 +41,12 @@ export function HeroSection() {
               <ArrowRight className="h-5 w-5" />
             </button>
           </SignUpButton>
+          <a href="#try-it" className="inline-flex items-center gap-2 rounded-xl border border-white/30 bg-white/10 px-8 py-4 font-semibold text-white backdrop-blur-sm transition hover:bg-white/20">
+            <Sparkles className="h-5 w-5 text-yellow-300" />
+            Try it now
+          </a>
           <SignInButton mode="modal">
-            <button className="rounded-xl border border-white/30 bg-white/10 px-8 py-4 font-semibold text-white backdrop-blur-sm transition hover:bg-white/20">
+            <button className="rounded-xl border border-white/30 bg-transparent px-8 py-4 font-semibold text-white backdrop-blur-sm transition hover:bg-white/10">
               Sign in
             </button>
           </SignInButton>

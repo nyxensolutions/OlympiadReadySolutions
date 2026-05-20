@@ -102,7 +102,7 @@ function WeeklyExamBody() {
   return (
     <>
       {/* Banner */}
-      <div className="bg-gradient-to-br from-amber-500 via-orange-500 to-cta-600 px-4 py-12 text-white">
+      <div className="bg-gradient-hero px-4 py-12 text-white">
         <div className="mx-auto max-w-4xl text-center">
           <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-sm font-semibold backdrop-blur-sm">
             <Crown className="h-4 w-4 text-yellow-300" />

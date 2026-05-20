@@ -44,9 +44,17 @@ public class QuestionBankService
 
         if (available < count)
         {
+            if (topic != null)
+            {
+                _log.LogInformation(
+                    "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty} topic={Topic}; falling back to any topic",
+                    available, subject, grade, difficulty ?? "any", topic);
+                return await TryGetRandomAsync(subject, grade, difficulty, count, null, ct);
+            }
+
             _log.LogInformation(
-                "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty} topic={Topic}; need {Count}",
-                available, subject, grade, difficulty ?? "any", topic ?? "any", count);
+                "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty}; need {Count}",
+                available, subject, grade, difficulty ?? "any", count);
             return null;
         }
 

@@ -6,13 +6,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export type OlympiadId =
   | "open"
   | "hbcse"
-  | "sof_imo" | "sof_nso" | "sof_ieo" | "sof_nco"
+  | "sof_imo" | "sof_nso" | "sof_ieo" | "sof_nco" | "sof_isso" | "sof_igko"
   | "silverzone_math" | "silverzone_science" | "silverzone_english" | "silverzone_computer"
   | "unified_nstse" | "unified_uieo"
+  | "crest_cmo" | "crest_cso" | "crest_ceo"
   | "math_olympiad"
   | "science_olympiad"
   | "computer_olympiad"
-  | "english_olympiad";
+  | "english_olympiad"
+  | "spell_bee";
 
 type OlympiadEntry = {
   id: OlympiadId;
@@ -114,6 +116,32 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     barClass: "bg-indigo-500",
     subject: "Computers",
   },
+  {
+    id: "sof_isso",
+    name: "SOF ISSO",
+    org: "SOF",
+    orgFull: "Science Olympiad Foundation",
+    fullName: "International Social Studies Olympiad",
+    description: "History, Geography, Political Science & Economics.",
+    grades: "Class 3–10",
+    icon: "🗺️",
+    accent: "teal",
+    barClass: "bg-teal-500",
+    subject: "Social Studies",
+  },
+  {
+    id: "sof_igko",
+    name: "SOF IGKO",
+    org: "SOF",
+    orgFull: "Science Olympiad Foundation",
+    fullName: "International General Knowledge Olympiad",
+    description: "Current affairs, life skills & general awareness.",
+    grades: "Class 1–10",
+    icon: "🌍",
+    accent: "amber",
+    barClass: "bg-amber-600",
+    subject: "General Knowledge",
+  },
 
   // ── SilverZone ───────────────────────────────────────────────
   {
@@ -197,6 +225,47 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     subject: "English",
   },
 
+  // ── Crest Olympiads ──────────────────────────────────────────
+  {
+    id: "crest_cmo",
+    name: "CREST CMO",
+    org: "CREST",
+    orgFull: "CREST Olympiads",
+    fullName: "CREST Mathematics Olympiad",
+    description: "Innovative online math assessment for conceptual depth.",
+    grades: "Class 1–10",
+    icon: "🏆",
+    accent: "sky",
+    barClass: "bg-sky-500",
+    subject: "Math",
+  },
+  {
+    id: "crest_cso",
+    name: "CREST CSO",
+    org: "CREST",
+    orgFull: "CREST Olympiads",
+    fullName: "CREST Science Olympiad",
+    description: "Practical and application-based science competition.",
+    grades: "Class 1–10",
+    icon: "🔬",
+    accent: "emerald",
+    barClass: "bg-emerald-500",
+    subject: "Science",
+  },
+  {
+    id: "crest_ceo",
+    name: "CREST CEO",
+    org: "CREST",
+    orgFull: "CREST Olympiads",
+    fullName: "CREST English Olympiad",
+    description: "High-quality English language and grammar assessment.",
+    grades: "Class 1–10",
+    icon: "📖",
+    accent: "violet",
+    barClass: "bg-violet-500",
+    subject: "English",
+  },
+
   // ── Subject-level ─────────────────────────────────────────────
   {
     id: "math_olympiad",
@@ -250,6 +319,21 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     barClass: "bg-pink-500",
     subject: "English",
   },
+
+  // ── Spell Bee ────────────────────────────────────────────────
+  {
+    id: "spell_bee",
+    name: "Spell Bee",
+    org: "General",
+    orgFull: "All Spell Bee Competitions",
+    fullName: "Spell Bee Preparation",
+    description: "Vocabulary, spelling rules, phonetics, and synonyms.",
+    grades: "Class 1–12",
+    icon: "🐝",
+    accent: "amber",
+    barClass: "bg-amber-500",
+    subject: "Spell Bee",
+  },
 ];
 
 const ACCENT_CLASSES: Record<
@@ -277,11 +361,13 @@ const ACCENT_CLASSES: Record<
 // Group tiles by org family for visual section headers
 const ORG_GROUPS: { label: string; ids: OlympiadId[] }[] = [
   { label: "General", ids: ["open"] },
-  { label: "HBCSE Olympiads", ids: ["hbcse"] },
-  { label: "SOF Olympiads", ids: ["sof_imo", "sof_nso", "sof_ieo", "sof_nco"] },
+  { label: "SOF Olympiads", ids: ["sof_imo", "sof_nso", "sof_ieo", "sof_nco", "sof_isso", "sof_igko"] },
   { label: "SilverZone Olympiads", ids: ["silverzone_math", "silverzone_science", "silverzone_english", "silverzone_computer"] },
   { label: "Unified Council", ids: ["unified_nstse", "unified_uieo"] },
+  { label: "CREST Olympiads", ids: ["crest_cmo", "crest_cso", "crest_ceo"] },
+  { label: "HBCSE Olympiads", ids: ["hbcse"] },
   { label: "By Subject", ids: ["math_olympiad", "science_olympiad", "computer_olympiad", "english_olympiad"] },
+  { label: "Spell Bee", ids: ["spell_bee"] },
 ];
 
 export function OlympiadSelector({
@@ -324,31 +410,32 @@ export function OlympiadSelector({
       </p>
 
       {/* Scrollable ribbon with arrow buttons */}
-      <div className="relative flex items-center gap-2">
+      <div className="relative group">
         {/* Left arrow */}
         <button
           type="button"
           onClick={() => scroll("left")}
           disabled={!canLeft}
           aria-label="Scroll left"
-          className={`shrink-0 rounded-full border border-slate-200 bg-white p-1.5 shadow-sm transition hover:bg-slate-50 disabled:opacity-0 disabled:pointer-events-none`}
+          className={`absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 shrink-0 rounded-full border border-slate-200 bg-white p-1.5 shadow-md transition hover:bg-slate-50 disabled:opacity-0 disabled:pointer-events-none`}
         >
           <ChevronLeft className="h-4 w-4 text-slate-600" />
         </button>
 
         {/* Scrollable track */}
-        <div className="relative flex-1 min-w-0">
+        <div className="relative w-full" style={{overflow: 'hidden', paddingLeft: '4px', paddingRight: '4px'}}>
           <div
             ref={scrollRef}
-            className="flex gap-4 overflow-x-auto px-2 -mx-2 py-4 -my-4 snap-x scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            className="flex gap-4 overflow-x-auto snap-x scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            style={{padding: '16px 4px 16px 6px'}}
           >
             {ORG_GROUPS.map((group) => (
               <div key={group.label} className="flex shrink-0 flex-col gap-1">
                 {/* Group header */}
-                <span className="mb-1 text-[9px] font-bold uppercase tracking-widest text-slate-300 pl-0.5">
+                <span className="mb-1 text-[9px] font-bold uppercase tracking-widest text-slate-400 pl-0.5">
                   {group.label}
                 </span>
-                <div className="flex gap-2">
+                <div className="flex gap-3">
                   {group.ids.map((id) => {
                     const o = OLYMPIAD_DATA.find((x) => x.id === id)!;
                     const isSelected = selected === id;
@@ -360,7 +447,7 @@ export function OlympiadSelector({
                         onClick={() => onSelect(id)}
                         className={`snap-start shrink-0 w-40 h-52 rounded-2xl border-2 overflow-hidden text-left transition-all duration-150 flex flex-col ${
                           isSelected
-                            ? `${a.border} ${a.bg} shadow-lg ring-2 ring-offset-1 ${a.border}`
+                            ? `${a.border} ${a.bg} shadow-lg ring-2 ring-inset ${a.border}`
                             : "border-slate-200 bg-white hover:border-slate-300 hover:shadow-md"
                         }`}
                       >
@@ -418,7 +505,7 @@ export function OlympiadSelector({
           onClick={() => scroll("right")}
           disabled={!canRight}
           aria-label="Scroll right"
-          className="shrink-0 rounded-full border border-slate-200 bg-white p-1.5 shadow-sm transition hover:bg-slate-50 disabled:opacity-0 disabled:pointer-events-none"
+          className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 shrink-0 rounded-full border border-slate-200 bg-white p-1.5 shadow-md transition hover:bg-slate-50 disabled:opacity-0 disabled:pointer-events-none"
         >
           <ChevronRight className="h-4 w-4 text-slate-600" />
         </button>

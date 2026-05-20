@@ -1,0 +1,11 @@
+# Set once per session
+$env:OLYMPIAD_ADMIN_KEY = "cnCB0OJ52LKmXzdNSFRH4TviWqIGUbMt"
+
+# Dry run first (always a good habit)
+powershell -ExecutionPolicy Bypass -File ".\import-spellbee.ps1" -DryRun
+
+# Real import (local dev)
+powershell -ExecutionPolicy Bypass -File ".\import-spellbee.ps1" -ApiBase "http://localhost:5080"
+
+# Production
+powershell -ExecutionPolicy Bypass -File ".\import-spellbee.ps1" -ApiBase "https://your-prod-url.com"

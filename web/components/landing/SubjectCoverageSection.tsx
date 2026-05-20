@@ -33,7 +33,7 @@ const SUBJECT_ROWS: SubjectRow[] = [
   { icon: Globe,        name: "General Knowledge",   grades: "Class 1–10", exams: "IGKO · GKIO",        accent: "bg-amber-50 text-amber-600"   },
   { icon: Map,          name: "Social Studies",      grades: "Class 3–10", exams: "ISSO · GKIO",        accent: "bg-teal-50 text-teal-600"     },
   { icon: Languages,    name: "Hindi",               grades: "Class 3–10", exams: "IHO · ABHO",         accent: "bg-orange-50 text-orange-600" },
-  { icon: MicVocal,     name: "Spell Bee",           grades: "Class 1–8",  exams: "Hummingbird Spell Bee", accent: "bg-purple-50 text-purple-600", badge: "New" },
+  { icon: MicVocal,     name: "Spell Bee",           grades: "Class 1–8",  exams: "Spell Bee Competitions", accent: "bg-purple-50 text-purple-600", badge: "New" },
 ];
 
 export function SubjectCoverageSection() {
@@ -49,7 +49,7 @@ export function SubjectCoverageSection() {
           </h2>
           <p className="mt-3 text-slate-500">
             Mapped to the official syllabi of India&apos;s leading Olympiad organisations — including{" "}
-            <span className="font-semibold text-purple-600">Hummingbird Spell Bee</span>.
+            <span className="font-semibold text-purple-600">Spell Bee</span>.
           </p>
         </div>
 

@@ -47,7 +47,8 @@ public class TestsController : ControllerBase
             PaperId = paper.PaperId,
             Score = score,
             TotalQuestions = questions.Count,
-            TimeTakenSeconds = req.TimeTakenSeconds
+            TimeTakenSeconds = req.TimeTakenSeconds,
+            CompletedAt = DateTime.UtcNow
         };
         _db.Results.Add(result);
 

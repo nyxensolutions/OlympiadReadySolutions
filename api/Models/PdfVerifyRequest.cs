@@ -7,4 +7,5 @@ public class PdfVerifyRequest
     public string Signature { get; set; } = "";
     public int Grade { get; set; }
     public string Subject { get; set; } = "";
+    public string? Topic { get; set; }
 }

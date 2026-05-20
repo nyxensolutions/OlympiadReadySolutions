@@ -20,6 +20,9 @@ type FlowState =
 
 type ApiError = { code?: string; message?: string; upgrade?: boolean };
 
+import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
+
 export default function TopicsPage() {
   return (
     <div className="min-h-screen bg-slate-50">
@@ -33,7 +36,9 @@ export default function TopicsPage() {
         </div>
       </SignedOut>
       <SignedIn>
-        <TopicsBody />
+        <Suspense fallback={<div className="p-8 text-center"><Loader2 className="h-6 w-6 animate-spin mx-auto text-brand-600"/></div>}>
+          <TopicsBody />
+        </Suspense>
       </SignedIn>
     </div>
   );
@@ -41,11 +46,28 @@ export default function TopicsPage() {
 
 function TopicsBody() {
   const { getToken, isLoaded } = useAuth();
+  const searchParams = useSearchParams();
+  const initialSubject = (searchParams?.get("subject") as Subject) || "Math";
+  const initialGrade = searchParams?.get("grade") 
+    ? Number(searchParams.get("grade")) 
+    : typeof window !== "undefined" && localStorage.getItem("olympiad_grade") 
+      ? Number(localStorage.getItem("olympiad_grade")) 
+      : 1;
+
   const [mastery, setMastery] = useState<DashboardSummary["mastery"]>([]);
   const [loadingMastery, setLoadingMastery] = useState(true);
 
-  const [activeSubject, setActiveSubject] = useState<Subject>("Math");
-  const [grade, setGrade] = useState(6);
+  const [activeSubject, setActiveSubject] = useState<Subject>(initialSubject);
+  const [grade, setGrade] = useState(initialGrade);
+  
+  const handleGradeChange = (newGrade: number) => {
+    setGrade(newGrade);
+    setFlow({ kind: "grid" });
+    if (typeof window !== "undefined") {
+      localStorage.setItem("olympiad_grade", newGrade.toString());
+    }
+  };
+
   const [difficulty, setDifficulty] = useState("Foundation");
 
   const [flow, setFlow] = useState<FlowState>({ kind: "grid" });
@@ -194,10 +216,7 @@ function TopicsBody() {
             Class
             <select
               value={safeGrade}
-              onChange={(e) => {
-                setGrade(Number(e.target.value));
-                setFlow({ kind: "grid" });
-              }}
+              onChange={(e) => handleGradeChange(Number(e.target.value))}
               className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-600/20"
             >
               {validGrades.map((g) => (

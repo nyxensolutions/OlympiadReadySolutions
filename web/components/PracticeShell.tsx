@@ -123,7 +123,13 @@ export function PracticeShell({
         <Left className="text-slate-300" />
       </div>
 
-      <OlympiadSelector selected={olympiad} onSelect={setOlympiad} />
+      <OlympiadSelector 
+        selected={olympiad} 
+        onSelect={(id) => {
+          setOlympiad(id);
+          setAutoStart(false);
+        }} 
+      />
 
       <GeneratorFlow key={olympiad} initialConfig={subjectOverride} autoStart={autoStart} />
     </div>
