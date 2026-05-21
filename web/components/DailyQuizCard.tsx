@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { BookOpen, CheckCircle2, Loader2, Sparkles, XCircle } from "lucide-react";
 import type { DailyQuizQuestion, DailyQuizAnswer } from "@/lib/types";
+import { MarkdownMath } from "./MarkdownMath";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -146,9 +147,14 @@ export function DailyQuizCard({ grade, subject }: { grade: number; subject?: str
             </div>
 
             {/* Question */}
-            <p className="text-sm font-medium leading-relaxed text-slate-800">
-              {question.questionText}
-            </p>
+            <div className="text-sm font-medium leading-relaxed text-slate-800">
+              <MarkdownMath content={question.questionText} />
+            </div>
+            {question.imageUrl && (
+              <div className="mt-3 flex justify-start">
+                <img src={question.imageUrl} alt="Question Diagram" className="max-h-40 rounded-lg border border-slate-200 shadow-sm" />
+              </div>
+            )}
 
             {/* Options */}
             <div className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -178,7 +184,7 @@ export function DailyQuizCard({ grade, subject }: { grade: number; subject?: str
                     <span className="mt-0.5 shrink-0 rounded-md bg-slate-100 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">
                       {letter}
                     </span>
-                    <span className="leading-snug">{opt}</span>
+                    <MarkdownMath content={opt} className="leading-snug" />
                   </button>
                 );
               })}
@@ -203,7 +209,7 @@ export function DailyQuizCard({ grade, subject }: { grade: number; subject?: str
                   </span>
                 </div>
                 {answer.explanation && (
-                  <p className="mt-2 text-xs leading-relaxed text-slate-600">{answer.explanation}</p>
+                  <MarkdownMath content={answer.explanation} className="mt-2 text-xs text-slate-600" />
                 )}
                 <p className="mt-3 text-xs text-slate-400">Come back tomorrow for a new question!</p>
               </div>

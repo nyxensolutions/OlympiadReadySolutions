@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The standard equation of a circle with centre (0,0) and radius r is:",
+    "Options": [
+      "A) x^2 + y^2 = r",
+      "B) x^2 + y^2 = r^2",
+      "C) (x+r)^2 + y^2 = 1",
+      "D) x^2 - y^2 = r^2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Foundation",
+    "Explanation": "The standard circle equation centred at origin with radius r is x^2 + y^2 = r^2."
+  },
+  {
+    "QuestionText": "The centre and radius of the circle x^2 + y^2 - 6x + 4y - 3 = 0 are:",
+    "Options": [
+      "A) (3,-2), r=4",
+      "B) (-3,2), r=4",
+      "C) (3,-2), r=16",
+      "D) (6,-4), r=4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Advanced",
+    "Explanation": "Complete the square: (x-3)^2+(y+2)^2 = 3+9+4 = 16. Centre=(3,-2), r=4."
+  },
+  {
+    "QuestionText": "The parabola y^2 = 4ax opens in which direction?",
+    "Options": [
+      "A) Upward",
+      "B) Downward",
+      "C) Rightward (positive x)",
+      "D) Leftward"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Foundation",
+    "Explanation": "y^2=4ax with a>0 opens to the right (positive x-direction). Vertex is at origin."
+  },
+  {
+    "QuestionText": "The focus of the parabola y^2 = 12x is at:",
+    "Options": [
+      "A) (3,0)",
+      "B) (-3,0)",
+      "C) (0,3)",
+      "D) (0,-3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Foundation",
+    "Explanation": "y^2=4ax -> 4a=12 -> a=3. Focus is at (a,0)=(3,0)."
+  },
+  {
+    "QuestionText": "The directrix of the parabola y^2 = 8x is:",
+    "Options": [
+      "A) x = 2",
+      "B) x = -2",
+      "C) y = 2",
+      "D) y = -2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Foundation",
+    "Explanation": "4a=8 -> a=2. Directrix is x=-a=-2."
+  },
+  {
+    "QuestionText": "The eccentricity of a circle is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) Greater than 1",
+      "D) Between 0 and 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Foundation",
+    "Explanation": "A circle has eccentricity e=0. The concept of focus collapses to the centre itself."
+  },
+  {
+    "QuestionText": "The standard form of an ellipse with major axis along x-axis is:",
+    "Options": [
+      "A) x^2/a^2 + y^2/b^2 = 1 where a > b",
+      "B) x^2/b^2 + y^2/a^2 = 1 where a > b",
+      "C) x^2 + y^2 = a^2",
+      "D) x^2/a^2 - y^2/b^2 = 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Foundation",
+    "Explanation": "Ellipse x^2/a^2 + y^2/b^2 = 1 with a > b has major axis along x-axis with foci at (\u00b1c,0) where c^2=a^2-b^2."
+  },
+  {
+    "QuestionText": "The eccentricity of an ellipse satisfies:",
+    "Options": [
+      "A) e > 1",
+      "B) e = 1",
+      "C) 0 < e < 1",
+      "D) e = 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Foundation",
+    "Explanation": "Ellipse has eccentricity 0 < e < 1. Circle: e=0. Parabola: e=1. Hyperbola: e>1."
+  },
+  {
+    "QuestionText": "For the ellipse x^2/16 + y^2/9 = 1, the value of c (focal distance) is:",
+    "Options": [
+      "A) 5",
+      "B) 7",
+      "C) sqrt(7)",
+      "D) sqrt(5)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Advanced",
+    "Explanation": "c^2 = a^2 - b^2 = 16 - 9 = 7. c = sqrt(7)."
+  },
+  {
+    "QuestionText": "The foci of the ellipse x^2/25 + y^2/9 = 1 are at:",
+    "Options": [
+      "A) (\u00b13,0)",
+      "B) (\u00b14,0)",
+      "C) (0,\u00b14)",
+      "D) (\u00b15,0)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Advanced",
+    "Explanation": "a^2=25, b^2=9. c^2=25-9=16. c=4. Foci at (\u00b14,0) since a>b and major axis is along x."
+  },
+  {
+    "QuestionText": "The standard equation of a hyperbola with transverse axis along x-axis is:",
+    "Options": [
+      "A) x^2/a^2 + y^2/b^2 = 1",
+      "B) x^2/a^2 - y^2/b^2 = 1",
+      "C) y^2/a^2 - x^2/b^2 = 1",
+      "D) x^2 + y^2 = a^2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Foundation",
+    "Explanation": "Hyperbola with transverse axis along x: x^2/a^2 - y^2/b^2 = 1."
+  },
+  {
+    "QuestionText": "The eccentricity of a hyperbola is:",
+    "Options": [
+      "A) e = 0",
+      "B) 0 < e < 1",
+      "C) e = 1",
+      "D) e > 1"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Foundation",
+    "Explanation": "Hyperbola has eccentricity e > 1. This distinguishes it from ellipse (0<e<1) and parabola (e=1)."
+  },
+  {
+    "QuestionText": "The asymptotes of x^2/a^2 - y^2/b^2 = 1 are:",
+    "Options": [
+      "A) y = \u00b1(a/b)x",
+      "B) y = \u00b1(b/a)x",
+      "C) x = \u00b1a",
+      "D) y = \u00b1a"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Advanced",
+    "Explanation": "The hyperbola x^2/a^2 - y^2/b^2 = 1 has asymptotes y = \u00b1(b/a)x."
+  },
+  {
+    "QuestionText": "The axis of symmetry of parabola x^2 = 4ay is:",
+    "Options": [
+      "A) x-axis",
+      "B) y-axis",
+      "C) y = x",
+      "D) x = a"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Foundation",
+    "Explanation": "x^2=4ay is symmetric about the y-axis (it opens upward or downward)."
+  },
+  {
+    "QuestionText": "The vertex of the parabola (y-2)^2 = 8(x-1) is:",
+    "Options": [
+      "A) (1,2)",
+      "B) (2,1)",
+      "C) (-1,-2)",
+      "D) (0,0)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard form (y-k)^2 = 4a(x-h). Vertex is at (h,k) = (1,2)."
+  },
+  {
+    "QuestionText": "The length of the latus rectum of y^2 = 4ax is:",
+    "Options": [
+      "A) a",
+      "B) 2a",
+      "C) 4a",
+      "D) 8a"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Advanced",
+    "Explanation": "The latus rectum is the chord through the focus perpendicular to the axis. Its length = 4a."
+  },
+  {
+    "QuestionText": "For ellipse x^2/a^2 + y^2/b^2 = 1, the sum of distances from any point on it to the two foci is:",
+    "Options": [
+      "A) a",
+      "B) 2a",
+      "C) b",
+      "D) 2b"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Advanced",
+    "Explanation": "By the definition of ellipse, the sum of distances from any point to the two foci = 2a (constant)."
+  },
+  {
+    "QuestionText": "The length of latus rectum of ellipse x^2/a^2 + y^2/b^2 = 1 (a > b) is:",
+    "Options": [
+      "A) 2b^2/a",
+      "B) 2a^2/b",
+      "C) b^2/a",
+      "D) a^2/b"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Advanced",
+    "Explanation": "Length of latus rectum of ellipse = 2b^2/a."
+  },
+  {
+    "QuestionText": "Which of the following is a degenerate conic?",
+    "Options": [
+      "A) Circle",
+      "B) Parabola",
+      "C) Point",
+      "D) Hyperbola"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Classification of Conics",
+    "Difficulty": "Advanced",
+    "Explanation": "A degenerate conic is a special limiting case. A point (x^2/a^2+y^2/b^2=0) is a degenerate ellipse."
+  },
+  {
+    "QuestionText": "The condition for the line y = mx + c to be tangent to circle x^2 + y^2 = r^2 is:",
+    "Options": [
+      "A) c^2 = r^2(1+m^2)",
+      "B) c = mr",
+      "C) c^2 = m^2 - r^2",
+      "D) mc = r"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Advanced",
+    "Explanation": "Distance from centre (0,0) to y=mx+c equals r: |c|/sqrt(1+m^2) = r -> c^2 = r^2(1+m^2)."
+  },
+  {
+    "QuestionText": "The number of tangents from an external point to a circle is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) Infinite"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Foundation",
+    "Explanation": "From any external point, exactly 2 tangents can be drawn to a circle."
+  },
+  {
+    "QuestionText": "The equation x^2 + y^2 + 2gx + 2fy + c = 0 represents a circle if:",
+    "Options": [
+      "A) g^2+f^2-c > 0",
+      "B) g^2+f^2-c = 0",
+      "C) g^2+f^2-c < 0",
+      "D) g^2+f^2 = c always"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Advanced",
+    "Explanation": "This is a real circle with radius r=sqrt(g^2+f^2-c) when g^2+f^2-c > 0."
+  },
+  {
+    "QuestionText": "The parabola x^2 = -4ay (a > 0) opens:",
+    "Options": [
+      "A) Right",
+      "B) Left",
+      "C) Upward",
+      "D) Downward"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Foundation",
+    "Explanation": "x^2 = -4ay has the negative sign, meaning the parabola opens downward."
+  },
+  {
+    "QuestionText": "The foci of hyperbola x^2/9 - y^2/16 = 1 are at:",
+    "Options": [
+      "A) (\u00b13,0)",
+      "B) (\u00b14,0)",
+      "C) (\u00b15,0)",
+      "D) (0,\u00b15)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Advanced",
+    "Explanation": "c^2=a^2+b^2=9+16=25. c=5. Foci at (\u00b15,0)."
+  },
+  {
+    "QuestionText": "The eccentricity of the parabola y^2 = 4ax is:",
+    "Options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1",
+      "D) 2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Foundation",
+    "Explanation": "A parabola always has eccentricity e=1. This distinguishes it from ellipse and hyperbola."
+  },
+  {
+    "QuestionText": "The relation between a, b, c for a hyperbola x^2/a^2 - y^2/b^2 = 1 is:",
+    "Options": [
+      "A) c^2 = a^2 - b^2",
+      "B) c^2 = a^2 + b^2",
+      "C) b^2 = a^2 + c^2",
+      "D) a^2 = b^2 + c^2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Advanced",
+    "Explanation": "For hyperbola: c^2 = a^2 + b^2 (unlike ellipse where c^2=a^2-b^2)."
+  },
+  {
+    "QuestionText": "The centre of ellipse x^2/16 + y^2/9 = 1 is:",
+    "Options": [
+      "A) (4,3)",
+      "B) (0,0)",
+      "C) (4,0)",
+      "D) (0,3)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Foundation",
+    "Explanation": "The standard ellipse x^2/a^2 + y^2/b^2 = 1 is always centred at the origin (0,0)."
+  },
+  {
+    "QuestionText": "Length of major axis of x^2/25 + y^2/16 = 1 is:",
+    "Options": [
+      "A) 5",
+      "B) 8",
+      "C) 10",
+      "D) 16"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Foundation",
+    "Explanation": "a^2=25 -> a=5. Length of major axis = 2a = 10."
+  },
+  {
+    "QuestionText": "A conic section with e = 1 is a:",
+    "Options": [
+      "A) Circle",
+      "B) Ellipse",
+      "C) Parabola",
+      "D) Hyperbola"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Classification of Conics",
+    "Difficulty": "Foundation",
+    "Explanation": "e=0: circle, 0<e<1: ellipse, e=1: parabola, e>1: hyperbola."
+  },
+  {
+    "QuestionText": "The chord joining the ends of the latus rectum of a parabola is called:",
+    "Options": [
+      "A) Focal chord",
+      "B) Directrix",
+      "C) Latus rectum",
+      "D) Axis"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Foundation",
+    "Explanation": "The latus rectum is the chord passing through the focus perpendicular to the axis of the parabola."
+  },
+  {
+    "QuestionText": "The tangent to circle x^2+y^2=25 at point (3,4) is:",
+    "Options": [
+      "A) 3x+4y=25",
+      "B) 4x+3y=25",
+      "C) 3x-4y=25",
+      "D) x+y=5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Advanced",
+    "Explanation": "Tangent to x^2+y^2=r^2 at (x1,y1) is xx1+yy1=r^2. So 3x+4y=25."
+  },
+  {
+    "QuestionText": "Which conic has two directrices?",
+    "Options": [
+      "A) Parabola",
+      "B) Circle",
+      "C) Ellipse",
+      "D) None"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Advanced",
+    "Explanation": "Ellipse and hyperbola each have two foci and two directrices (one corresponding to each focus). Parabola has one focus and one directrix."
+  },
+  {
+    "QuestionText": "The equation of the chord of contact from external point (x1,y1) to circle x^2+y^2=r^2 is:",
+    "Options": [
+      "A) xx1+yy1=r",
+      "B) xx1+yy1=r^2",
+      "C) x^2+y^2=x1y1",
+      "D) x/x1+y/y1=1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Olympiad",
+    "Explanation": "The chord of contact from external point (x1,y1) to x^2+y^2=r^2 is xx1+yy1=r^2. This connects the two tangent points."
+  },
+  {
+    "QuestionText": "The minimum distance from the origin to the ellipse x^2/a^2+y^2/b^2=1 (a>b) is:",
+    "Options": [
+      "A) a",
+      "B) b",
+      "C) a-b",
+      "D) a+b"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Olympiad",
+    "Explanation": "The minimum distance from origin (centre) to the ellipse is b (semi-minor axis), achieved at the end of the minor axis."
+  },
+  {
+    "QuestionText": "Conics are cross-sections of a:",
+    "Options": [
+      "A) Sphere",
+      "B) Cylinder",
+      "C) Double-napped cone",
+      "D) Cube"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Classification of Conics",
+    "Difficulty": "Foundation",
+    "Explanation": "Conic sections are formed when a plane cuts a double-napped (two-cone) cone at different angles."
+  },
+  {
+    "QuestionText": "The eccentricity of ellipse x^2/25 + y^2/9 = 1 is:",
+    "Options": [
+      "A) 3/5",
+      "B) 4/5",
+      "C) 5/4",
+      "D) 5/3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Advanced",
+    "Explanation": "c^2=25-9=16, c=4. e=c/a=4/5."
+  },
+  {
+    "QuestionText": "If the parabola y^2=4x and x^2=4y intersect, find the common points (other than origin):",
+    "Options": [
+      "A) (4,4)",
+      "B) (2,2)",
+      "C) (1,1)",
+      "D) (3,3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Olympiad",
+    "Explanation": "y^2=4x and x^2=4y. Substitute x=y^2/4 into x^2=4y: y^4/16=4y -> y^3=64 -> y=4. x=4. Point=(4,4)."
+  },
+  {
+    "QuestionText": "The number of points common to a circle and a parabola can be at most:",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Classification of Conics",
+    "Difficulty": "Olympiad",
+    "Explanation": "A circle and parabola are both degree-2 curves. By Bezout's theorem, two conics can intersect in at most 4 points."
+  },
+  {
+    "QuestionText": "For hyperbola x^2/16 - y^2/9 = 1, the eccentricity is:",
+    "Options": [
+      "A) 5/4",
+      "B) 4/5",
+      "C) 5/3",
+      "D) 3/5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Advanced",
+    "Explanation": "c^2=16+9=25, c=5. a=4. e=c/a=5/4."
+  },
+  {
+    "QuestionText": "The conjugate axis of hyperbola x^2/a^2 - y^2/b^2 = 1 is along the:",
+    "Options": [
+      "A) x-axis",
+      "B) y-axis",
+      "C) Line y=x",
+      "D) Origin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Advanced",
+    "Explanation": "The conjugate axis of the hyperbola x^2/a^2 - y^2/b^2 = 1 lies along the y-axis, with length 2b."
+  },
+  {
+    "QuestionText": "A circle passing through origin and having centre (2,3) has equation:",
+    "Options": [
+      "A) x^2+y^2-4x-6y=0",
+      "B) x^2+y^2+4x+6y=0",
+      "C) x^2+y^2=13",
+      "D) (x-2)^2+(y-3)^2=13"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Circle",
+    "Difficulty": "Olympiad",
+    "Explanation": "Centre (2,3), through (0,0): r^2=(2-0)^2+(3-0)^2=13. Equation: (x-2)^2+(y-3)^2=13 -> x^2+y^2-4x-6y+13-13=0 -> x^2+y^2-4x-6y=0."
+  },
+  {
+    "QuestionText": "The point on parabola y^2=4x nearest to focus (1,0) is:",
+    "Options": [
+      "A) (0,0)",
+      "B) (1,2)",
+      "C) (4,4)",
+      "D) (1,-2)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Olympiad",
+    "Explanation": "The nearest point on y^2=4x to the focus is the vertex (0,0), at distance = a = 1. (Directrix distance from vertex = a, focus distance = a too, confirming vertex.)"
+  },
+  {
+    "QuestionText": "The two parabolas y^2=4x and x^2=4y divide the first quadrant into how many regions?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Olympiad",
+    "Explanation": "The two parabolas intersect at (0,0) and (4,4), dividing the first quadrant into 3 distinct regions."
+  },
+  {
+    "QuestionText": "The length of latus rectum of hyperbola x^2/9 - y^2/16 = 1 is:",
+    "Options": [
+      "A) 32/3",
+      "B) 16/3",
+      "C) 8",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Advanced",
+    "Explanation": "Length of latus rectum of hyperbola = 2b^2/a = 2*16/3 = 32/3."
+  },
+  {
+    "QuestionText": "The general second-degree equation Ax^2+Bxy+Cy^2+Dx+Ey+F=0 represents a parabola when:",
+    "Options": [
+      "A) B^2-4AC > 0",
+      "B) B^2-4AC = 0",
+      "C) B^2-4AC < 0",
+      "D) A=C"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Classification of Conics",
+    "Difficulty": "Olympiad",
+    "Explanation": "The discriminant B^2-4AC determines the conic type: <0 ellipse, =0 parabola, >0 hyperbola."
+  },
+  {
+    "QuestionText": "The equation of normal to parabola y^2=4ax at point (at^2, 2at) is:",
+    "Options": [
+      "A) y = -tx + 2at + at^3",
+      "B) y = tx - 2at - at^3",
+      "C) y+tx=2at+at^3",
+      "D) y=tx+at^2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Olympiad",
+    "Explanation": "Normal to y^2=4ax at parameter t is y+tx=2at+at^3. This is a standard result in conic tangent/normal theory."
+  },
+  {
+    "QuestionText": "For the ellipse with a=5, b=4, the length of latus rectum is:",
+    "Options": [
+      "A) 32/5",
+      "B) 25/4",
+      "C) 16/5",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Advanced",
+    "Explanation": "Latus rectum = 2b^2/a = 2*16/5 = 32/5."
+  },
+  {
+    "QuestionText": "The equation x^2/9 - y^2/9 = 1 is a rectangular hyperbola with eccentricity:",
+    "Options": [
+      "A) 1",
+      "B) sqrt(2)",
+      "C) 2",
+      "D) sqrt(3)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Hyperbola",
+    "Difficulty": "Olympiad",
+    "Explanation": "For x^2/a^2 - y^2/a^2 = 1 (rectangular hyperbola a=b): e=sqrt(1+b^2/a^2)=sqrt(2)."
+  },
+  {
+    "QuestionText": "A parabola with vertex at origin, axis along y-axis and passing through (6,3) has equation:",
+    "Options": [
+      "A) x^2=12y",
+      "B) y^2=12x",
+      "C) x^2=3y",
+      "D) x^2=18y"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Parabola",
+    "Difficulty": "Advanced",
+    "Explanation": "Form x^2=4ay. Through (6,3): 36=4a*3 -> 4a=12 -> a=3. Equation: x^2=12y."
+  },
+  {
+    "QuestionText": "The length of minor axis of x^2/25+y^2/16=1 is:",
+    "Options": [
+      "A) 4",
+      "B) 8",
+      "C) 5",
+      "D) 10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Conic Sections",
+    "SubTopic": "Ellipse",
+    "Difficulty": "Foundation",
+    "Explanation": "b^2=16 -> b=4. Length of minor axis = 2b = 8."
+  }
+]

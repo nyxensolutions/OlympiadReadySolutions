@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If 'A' is coded as 1 and 'B' is coded as 2, what is the code for 'AB'?",
+    "Options": ["A) 11", "B) 22", "C) 12", "D) 21"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Since A=1 and B=2, putting them together for 'AB' gives 12."
+  },
+  {
+    "QuestionText": "In a secret code, 'RED' is called 'BLUE'. What is the color of a stop sign in this code?",
+    "Options": ["A) Red", "B) Blue", "C) Green", "D) Yellow"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "A stop sign is Red. In this code, Red is called Blue."
+  },
+  {
+    "QuestionText": "If 'CAT' is coded as 'DBU' (each letter moves one step forward), what is 'D' coded as?",
+    "Options": ["A) C", "B) E", "C) F", "D) G"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The letter after D is E."
+  },
+  {
+    "QuestionText": "If 1 means 'Sun' and 2 means 'Moon', what does '1 2' mean?",
+    "Options": ["A) Moon Sun", "B) Sun Sun", "C) Sun Moon", "D) Moon Moon"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "1 is Sun and 2 is Moon, so 1 2 is Sun Moon."
+  },
+  {
+    "QuestionText": "If 'APPLE' is coded as '12345', what number stands for the letter 'P'?",
+    "Options": ["A) 1", "B) 2", "C) 4", "D) 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "In A(1)P(2)P(3)L(4)E(5), the letter P is represented by 2 and 3."
+  },
+  {
+    "QuestionText": "In a code, 'UP' is 'DOWN' and 'LEFT' is 'RIGHT'. What is the opposite of 'UP' in this code?",
+    "Options": ["A) UP", "B) LEFT", "C) DOWN", "D) RIGHT"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The opposite of 'UP' is 'DOWN'. But in this code, 'DOWN' is called 'UP' (reverse logic)."
+  },
+  {
+    "QuestionText": "If 'BOY' is coded as 'CPZ' (each letter moves 1 step forward), what is 'GIRL' coded as?",
+    "Options": ["A) HJSM", "B) FHQK", "C) GKSM", "D) HJTM"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "G+1=H, I+1=J, R+1=S, L+1=M. So, HJSM."
+  },
+  {
+    "QuestionText": "If a Dog is called a 'Cat', and a Cat is called a 'Lion', what animal meows?",
+    "Options": ["A) Dog", "B) Cat", "C) Lion", "D) Tiger"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "A Cat meows. In this code, a Cat is called a Lion."
+  },
+  {
+    "QuestionText": "If 'STAR' is coded as 'RATS' (the word is reversed), what is 'TOPS' coded as?",
+    "Options": ["A) SPOT", "B) STOP", "C) POTS", "D) TOPS"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Reversing T-O-P-S gives S-P-O-T."
+  },
+  {
+    "QuestionText": "If 5 = 🍎 and 6 = 🍌, what is 5 + 6 in fruit code?",
+    "Options": ["A) 🍎🍎", "B) 🍌🍌", "C) 🍎🍌", "D) 🍌🍎"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "5 is Apple and 6 is Banana, so 5 6 is Apple Banana."
+  },
+  {
+    "QuestionText": "If '1' is 'A', '2' is 'B', and '3' is 'C', what is '321'?",
+    "Options": ["A) ABC", "B) CBA", "C) BAC", "D) CAB"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "3=C, 2=B, 1=A. Together they make CBA."
+  },
+  {
+    "QuestionText": "In a special language, 'Water' is 'Food' and 'Food' is 'Tree'. What do we drink when thirsty?",
+    "Options": ["A) Water", "B) Food", "C) Tree", "D) Juice"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "We drink Water, but in this code, Water is called 'Food'."
+  },
+  {
+    "QuestionText": "If 'PEN' is 'QFO', what is the code for 'P'?",
+    "Options": ["A) Q", "B) O", "C) F", "D) P"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The first letter P changes to Q (the next letter)."
+  },
+  {
+    "QuestionText": "If 'Book' is coded as '11', what is 'Books' likely coded as?",
+    "Options": ["A) 11", "B) 111", "C) 12", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Adding an 's' usually adds a digit or changes the code slightly in simple logic."
+  },
+  {
+    "QuestionText": "If 🎈 = 1 and 🚗 = 0, what is 🎈🚗🎈?",
+    "Options": ["A) 111", "B) 101", "C) 010", "D) 000"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Balloon(1) Car(0) Balloon(1) makes 101."
+  },
+  {
+    "QuestionText": "If 'MORNING' is '1' and 'NIGHT' is '2', what is the code for 'SUNSET' likely to be?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "If times of day are numbered, a new time gets a new number."
+  },
+  {
+    "QuestionText": "If 'SKY' is 'BLUE', and 'BLUE' is 'GREEN', what is the color of the sky in this code?",
+    "Options": ["A) Sky", "B) Blue", "C) Green", "D) Yellow"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The sky is Blue. In this code, Blue is called Green."
+  },
+  {
+    "QuestionText": "If 'HOT' is coded as 'COLD', what is 'FIRE' coded as?",
+    "Options": ["A) Hot", "B) Cold", "C) Ice", "D) Warm"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The code uses opposites. Fire is hot, and the code for hot is Cold."
+  },
+  {
+    "QuestionText": "If '2' is 'B' and '4' is 'D', what is '6'?",
+    "Options": ["A) E", "B) F", "C) G", "D) H"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The numbers match the alphabet position (2nd is B, 4th is D, 6th is F)."
+  },
+  {
+    "QuestionText": "If 'BAT' is '7' and 'BALL' is '8', which word is longer in the code?",
+    "Options": ["A) BAT", "B) BALL", "C) They are same", "D) Cannot tell"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "8 is a larger number than 7, matching the longer word 'BALL'."
+  },
+  {
+    "QuestionText": "In a code, 'Smile' is 'Cry'. What do you do when you are happy?",
+    "Options": ["A) Smile", "B) Laugh", "C) Cry", "D) Sleep"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "You smile when happy. In this code, Smile is called Cry."
+  },
+  {
+    "QuestionText": "If 'A' = 🍎, 'B' = 🍎🍎, what is 'C'?",
+    "Options": ["A) 🍎", "B) 🍎🍎", "C) 🍎🍎🍎", "D) 🍌"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The number of apples increases with each letter."
+  },
+  {
+    "QuestionText": "If 'GO' is '715', what is 'G'?",
+    "Options": ["A) 7", "B) 1", "C) 5", "D) 15"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "G is the 7th letter and O is the 15th letter. So G=7."
+  },
+  {
+    "QuestionText": "If 'MAN' is 'NAM', what is 'TEN'?",
+    "Options": ["A) NET", "B) ENT", "C) TEN", "D) NEE"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The word is spelled backwards."
+  },
+  {
+    "QuestionText": "If 'BIRD' is 'FLY', and 'FISH' is 'SWIM', what is 'BIRD' in this code?",
+    "Options": ["A) Bird", "B) Fly", "C) Swim", "D) Fish"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code uses the action the animal does."
+  },
+  {
+    "QuestionText": "If 'HAPPY' is 'SAD', what is the code for 'SAD'?",
+    "Options": ["A) Happy", "B) Sad", "C) Joy", "D) Cry"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "If the code uses opposites, the code for Sad is Happy."
+  },
+  {
+    "QuestionText": "If 'CIRCLE' is 'O' and 'SQUARE' is '[]', what is 'CIRCLE'?",
+    "Options": ["A) Square", "B) O", "C) Triangle", "D) []"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code uses a symbol that looks like the shape."
+  },
+  {
+    "QuestionText": "If '123' is 'CAT', what is '1'?",
+    "Options": ["A) C", "B) A", "C) T", "D) B"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The first number matches the first letter."
+  },
+  {
+    "QuestionText": "If 'MILK' is 'WHITE', and 'GRASS' is 'GREEN', what is 'MILK'?",
+    "Options": ["A) White", "B) Green", "C) Milk", "D) Cow"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code uses the color of the object."
+  },
+  {
+    "QuestionText": "In a code 'HE' is 'IF', what is 'H'?",
+    "Options": ["A) H", "B) I", "C) G", "D) E"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "H moves one step forward to become I."
+  },
+  {
+    "QuestionText": "If 🌕 = Night and ☀️ = Day, what is ☀️ in code?",
+    "Options": ["A) Night", "B) Day", "C) Moon", "D) Star"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The sun symbol represents Day."
+  },
+  {
+    "QuestionText": "If 'DOG' is '4-15-7', what is 'D'?",
+    "Options": ["A) 4", "B) 15", "C) 7", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "D is the 4th letter of the alphabet."
+  },
+  {
+    "QuestionText": "If 'ICE' is 'COLD' and 'SUN' is 'HOT', what is 'ICE'?",
+    "Options": ["A) Sun", "B) Cold", "C) Hot", "D) Fire"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code describes how the object feels."
+  },
+  {
+    "QuestionText": "If '3' is 'TRIANGLE', how many sides does '3' have in this code?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "A triangle has 3 sides."
+  },
+  {
+    "QuestionText": "If 'RED' is 3, 'BLUE' is 4, what is 'GREEN'?",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The number is the count of letters in the word (G-R-E-E-N = 5)."
+  },
+  {
+    "QuestionText": "If 'NO' is 'ON', what is 'UP'?",
+    "Options": ["A) PU", "B) UP", "C) UN", "D) OP"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The letters are swapped/reversed."
+  },
+  {
+    "QuestionText": "In a code, 'EAT' is 'TEA', what is the code doing?",
+    "Options": ["A) Adding letters", "B) Moving letters", "C) Changing colors", "D) Nothing"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The same letters (E, A, T) are just moved to different spots."
+  },
+  {
+    "QuestionText": "If 'LION' is 'KING', what is 'LION'?",
+    "Options": ["A) Animal", "B) King", "C) Cat", "D) Roar"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code uses the nickname or title."
+  },
+  {
+    "QuestionText": "If 🍎+🍎 = 2, what is 🍎?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "1 + 1 = 2, so one apple is 1."
+  },
+  {
+    "QuestionText": "If 'CAR' is 'ROAD' and 'BOAT' is 'WATER', where does a 'CAR' go in code?",
+    "Options": ["A) Road", "B) Water", "C) Sky", "D) Air"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code tells you where the vehicle travels."
+  },
+  {
+    "QuestionText": "If 'A' is 'Z', and 'B' is 'Y', what is the code for the first letter of the alphabet?",
+    "Options": ["A) A", "B) B", "C) Z", "D) Y"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The first letter is A. In this code, A is Z."
+  },
+  {
+    "QuestionText": "If 'PEN' is 'WRITE', what is 'PENCIL' likely to be?",
+    "Options": ["A) Write", "B) Read", "C) Draw", "D) Sleep"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both pens and pencils are used for writing."
+  },
+  {
+    "QuestionText": "If '10' is 'TEN', what is '5'?",
+    "Options": ["A) FOUR", "B) FIVE", "C) SIX", "D) TEN"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code is just the word for the number."
+  },
+  {
+    "QuestionText": "If 'RAIN' is 'WET', what is 'SUN'?",
+    "Options": ["A) Dry", "B) Wet", "C) Cold", "D) Blue"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rain makes things wet; the Sun makes things dry."
+  },
+  {
+    "QuestionText": "If 'ME' is 'EM', what is 'WE'?",
+    "Options": ["A) EW", "B) WE", "C) ME", "D) US"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The letters are reversed."
+  },
+  {
+    "QuestionText": "If 'BALL' is 'ROUND', what is 'BOX'?",
+    "Options": ["A) Round", "B) Square", "C) Circle", "D) Oval"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The code describes the shape of the object."
+  },
+  {
+    "QuestionText": "If '1' is 'START' and '10' is 'END', what is '1'?",
+    "Options": ["A) End", "B) Start", "C) Middle", "D) Finish"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "1 is coded as START."
+  },
+  {
+    "QuestionText": "If 'B' becomes 'D' (skip one letter), what does 'C' become?",
+    "Options": ["A) D", "B) E", "C) F", "D) G"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Skip D after C, and you get E."
+  },
+  {
+    "QuestionText": "If 'HELLO' is '5', what is 'HI'?",
+    "Options": ["A) 5", "B) 2", "C) 3", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The number is the count of letters (H-I = 2)."
+  },
+  {
+    "QuestionText": "If 'MOON' is 'NIGHT', what is 'SUN'?",
+    "Options": ["A) Night", "B) Day", "C) Morning", "D) Evening"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The Sun is associated with Day."
+  }
+]

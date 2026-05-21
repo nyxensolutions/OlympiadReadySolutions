@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Enthalpy (H) is defined as:",
+    "Options": [
+      "A) U \u2212 PV",
+      "B) U + PV",
+      "C) G + TS",
+      "D) A + PV"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Foundation",
+    "Explanation": "H = U + PV. At constant pressure, \u0394H = Q_p (heat absorbed at constant pressure)."
+  },
+  {
+    "QuestionText": "A reaction with \u0394H < 0 is called:",
+    "Options": [
+      "A) Endothermic",
+      "B) Exothermic",
+      "C) Isothermal",
+      "D) Isobaric"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Foundation",
+    "Explanation": "Exothermic reactions release heat (\u0394H < 0). Endothermic reactions absorb heat (\u0394H > 0)."
+  },
+  {
+    "QuestionText": "Hess's law states that:",
+    "Options": [
+      "A) Enthalpy depends on path",
+      "B) Total enthalpy change is same regardless of route taken",
+      "C) Entropy is conserved",
+      "D) Free energy is always negative"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Hess's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Hess's law: \u0394H for a reaction is path-independent. Enthalpy is a state function \u2014 only depends on initial and final states."
+  },
+  {
+    "QuestionText": "Standard enthalpy of formation (\u0394H\u00b0f) of an element in its standard state is:",
+    "Options": [
+      "A) Maximum",
+      "B) Zero",
+      "C) Negative",
+      "D) Equal to its ionization energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy of Formation",
+    "Difficulty": "Foundation",
+    "Explanation": "\u0394H\u00b0f of any element in its standard state = 0 by definition. This is the reference for calculating other enthalpies."
+  },
+  {
+    "QuestionText": "The enthalpy change of combustion is always:",
+    "Options": [
+      "A) Positive",
+      "B) Zero",
+      "C) Negative",
+      "D) Variable"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Foundation",
+    "Explanation": "Combustion releases heat \u2192 exothermic \u2192 \u0394H_combustion < 0 always."
+  },
+  {
+    "QuestionText": "Gibbs free energy G is defined as:",
+    "Options": [
+      "A) H + TS",
+      "B) H \u2212 TS",
+      "C) U + PV + TS",
+      "D) H/T"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "G = H \u2212 TS. \u0394G determines spontaneity: \u0394G < 0 (spontaneous), \u0394G > 0 (non-spontaneous), \u0394G = 0 (equilibrium)."
+  },
+  {
+    "QuestionText": "A reaction is spontaneous at all temperatures when:",
+    "Options": [
+      "A) \u0394H > 0 and \u0394S > 0",
+      "B) \u0394H < 0 and \u0394S < 0",
+      "C) \u0394H < 0 and \u0394S > 0",
+      "D) \u0394H > 0 and \u0394S < 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394G = \u0394H \u2212 T\u0394S. For \u0394G < 0 at all T: \u0394H < 0 and \u0394S > 0. Both terms make G more negative."
+  },
+  {
+    "QuestionText": "The standard entropy (S\u00b0) of a perfect crystal at 0 K is:",
+    "Options": [
+      "A) Maximum",
+      "B) 1",
+      "C) Zero",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Foundation",
+    "Explanation": "Third law of thermodynamics: entropy of a perfect crystal is zero at absolute zero. Only one possible microstate (W=1, S=k ln 1=0)."
+  },
+  {
+    "QuestionText": "Entropy increases when:",
+    "Options": [
+      "A) Gas dissolves in liquid",
+      "B) Solid melts to liquid",
+      "C) Gas compresses",
+      "D) Temperature decreases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Foundation",
+    "Explanation": "Melting increases disorder (molecular freedom). Dissolving a gas decreases entropy. Compression decreases entropy."
+  },
+  {
+    "QuestionText": "\u0394G\u00b0 = \u2212RT ln K relates:",
+    "Options": [
+      "A) Standard free energy change to equilibrium constant",
+      "B) Enthalpy to temperature",
+      "C) Entropy to equilibrium",
+      "D) Free energy to activation energy"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394G\u00b0 = \u2212RT ln K. When K > 1 (forward reaction favored), ln K > 0, \u0394G\u00b0 < 0. Connects thermodynamics with equilibrium."
+  },
+  {
+    "QuestionText": "The bomb calorimeter measures:",
+    "Options": [
+      "A) \u0394H at constant pressure",
+      "B) \u0394U at constant volume",
+      "C) \u0394G",
+      "D) \u0394S"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Advanced",
+    "Explanation": "Bomb calorimeter is a closed rigid vessel \u2014 constant volume. Measures \u0394U (internal energy change). \u0394H = \u0394U + \u0394ngRT."
+  },
+  {
+    "QuestionText": "Bond dissociation energy is always:",
+    "Options": [
+      "A) Negative",
+      "B) Zero",
+      "C) Positive",
+      "D) Equal to bond order"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Foundation",
+    "Explanation": "Breaking a bond requires energy input \u2192 endothermic \u2192 positive. Bond formation releases energy (negative). Bond energies are always positive."
+  },
+  {
+    "QuestionText": "Using bond energies: \u0394H_rxn = \u03a3(bonds broken) \u2212 \u03a3(bonds formed). For exothermic reaction:",
+    "Options": [
+      "A) Bonds broken > bonds formed (energy)",
+      "B) Bonds formed > bonds broken (energy)",
+      "C) Equal",
+      "D) Only bonds broken matters"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Hess's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Exothermic: more energy released (bonds formed) than absorbed (bonds broken). Net energy released \u2192 \u0394H < 0."
+  },
+  {
+    "QuestionText": "\u0394H\u00b0 for: C(s) + O\u2082(g) \u2192 CO\u2082(g) is the enthalpy of:",
+    "Options": [
+      "A) Formation only",
+      "B) Combustion only",
+      "C) Both formation and combustion of C",
+      "D) Sublimation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy of Formation",
+    "Difficulty": "Advanced",
+    "Explanation": "This reaction forms CO\u2082 from elements in standard states (\u0394H\u00b0f of CO\u2082) AND combustion of carbon. Both definitions give same equation."
+  },
+  {
+    "QuestionText": "When \u0394G = 0:",
+    "Options": [
+      "A) Reaction is complete",
+      "B) System is at equilibrium",
+      "C) Enthalpy is zero",
+      "D) Entropy is zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "\u0394G = 0 at equilibrium. Forward and reverse reaction rates are equal. No net change in composition."
+  },
+  {
+    "QuestionText": "The lattice enthalpy is obtained using:",
+    "Options": [
+      "A) Hess's law directly",
+      "B) Born-Haber cycle",
+      "C) Raoult's law",
+      "D) Le Chatelier principle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Hess's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Born-Haber cycle applies Hess's law indirectly to calculate lattice enthalpy (not directly measurable) from known quantities."
+  },
+  {
+    "QuestionText": "Entropy change \u0394S = Q_rev/T applies to:",
+    "Options": [
+      "A) Irreversible processes",
+      "B) Adiabatic processes only",
+      "C) Reversible processes",
+      "D) All processes"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394S = Q_rev/T is valid for reversible heat transfer only. For irreversible processes, \u0394S > Q_irrev/T."
+  },
+  {
+    "QuestionText": "For the reaction A(l) \u2192 A(g), the sign of \u0394S is:",
+    "Options": [
+      "A) Negative",
+      "B) Zero",
+      "C) Positive",
+      "D) Depends on temperature"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Foundation",
+    "Explanation": "Vaporization increases disorder dramatically (gas >> liquid freedom). \u0394S > 0."
+  },
+  {
+    "QuestionText": "The relationship \u0394G = \u0394H \u2212 T\u0394S predicts spontaneity at:",
+    "Options": [
+      "A) 0 K only",
+      "B) Any temperature",
+      "C) 25\u00b0C only",
+      "D) Above 100\u00b0C"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "\u0394G = \u0394H \u2212 T\u0394S works at any temperature. The T\u0394S term makes temperature crucial in determining spontaneity."
+  },
+  {
+    "QuestionText": "An endothermic reaction with \u0394S > 0 is spontaneous when:",
+    "Options": [
+      "A) T is very low",
+      "B) T is very high",
+      "C) At all temperatures",
+      "D) Never spontaneous"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394G = \u0394H \u2212 T\u0394S. For \u0394H > 0 and \u0394S > 0: \u0394G < 0 when T\u0394S > \u0394H, i.e., at high temperatures."
+  },
+  {
+    "QuestionText": "Enthalpy of neutralization of strong acid-strong base is approximately:",
+    "Options": [
+      "A) +57 kJ/mol",
+      "B) \u221257 kJ/mol",
+      "C) +100 kJ/mol",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Advanced",
+    "Explanation": "Strong acid-strong base neutralization: H\u207a + OH\u207b \u2192 H\u2082O, \u0394H \u2248 \u221257 kJ/mol. Constant because it's always the same reaction."
+  },
+  {
+    "QuestionText": "Kirchhoff's equation relates \u0394H at different temperatures. If Cp(products) > Cp(reactants):",
+    "Options": [
+      "A) \u0394H decreases with temperature",
+      "B) \u0394H increases with temperature",
+      "C) \u0394H remains constant",
+      "D) Entropy increases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Kirchhoff's law: d\u0394H/dT = \u0394Cp. If \u0394Cp > 0 (products have higher Cp), \u0394H increases with temperature."
+  },
+  {
+    "QuestionText": "Work done by gas at constant pressure when 2 moles react giving \u0394n_g = +1 at 298 K is approximately:",
+    "Options": [
+      "A) 2.48 kJ",
+      "B) 4.96 kJ",
+      "C) 1.24 kJ",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Olympiad",
+    "Explanation": "w = \u2212P\u0394V = \u2212\u0394n_g RT = \u22121\u00d78.314\u00d7298 \u2248 \u22122477 J \u2248 \u22122.48 kJ. Work done BY gas = 2.48 kJ."
+  },
+  {
+    "QuestionText": "The free energy change \u0394G for a process with K=1000 at 298 K (R=8.314) is:",
+    "Options": [
+      "A) +17.1 kJ",
+      "B) \u221217.1 kJ",
+      "C) \u221234.2 kJ",
+      "D) +5.7 kJ"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u0394G\u00b0=\u2212RT ln K=\u22128.314\u00d7298\u00d7ln(1000)=\u22128.314\u00d7298\u00d76.908\u2248\u221217100 J=\u221217.1 kJ."
+  },
+  {
+    "QuestionText": "Which of the following has maximum entropy?",
+    "Options": [
+      "A) Ice at 0\u00b0C",
+      "B) Water at 25\u00b0C",
+      "C) Steam at 100\u00b0C",
+      "D) Water at 50\u00b0C"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Foundation",
+    "Explanation": "Entropy: solid < liquid < gas. Steam (gas) has much greater disorder and entropy than ice (solid) or liquid water."
+  },
+  {
+    "QuestionText": "The heat of dissolution of NaCl in water is approximately +4 kJ/mol. This means:",
+    "Options": [
+      "A) Dissolution is exothermic",
+      "B) NaCl does not dissolve in water",
+      "C) Dissolution is slightly endothermic but entropy drives it",
+      "D) Entropy decreases on dissolution"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394H = +4 kJ/mol (slightly endothermic) but dissolution occurs spontaneously. \u0394G < 0 because T\u0394S > \u0394H (large positive entropy change)."
+  },
+  {
+    "QuestionText": "\u0394H\u00b0 of a reaction = \u03a3\u0394H\u00b0f(products) \u2212 \u03a3\u0394H\u00b0f(reactants). This is:",
+    "Options": [
+      "A) Kirchhoff's law",
+      "B) Born-Haber equation",
+      "C) Hess's law in terms of standard enthalpies of formation",
+      "D) Avogadro's law"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Hess's Law",
+    "Difficulty": "Advanced",
+    "Explanation": "This is a direct application of Hess's law. \u0394H\u00b0rxn = \u03a3(n\u0394H\u00b0f products) \u2212 \u03a3(n\u0394H\u00b0f reactants)."
+  },
+  {
+    "QuestionText": "For a reaction: \u0394H = \u2212200 kJ, \u0394S = \u2212500 J/K at 298 K. \u0394G is:",
+    "Options": [
+      "A) \u221251 kJ",
+      "B) \u2212349 kJ",
+      "C) \u221251 kJ",
+      "D) +51 kJ"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u0394G=\u0394H\u2212T\u0394S=\u2212200\u2212298\u00d7(\u22120.5)=\u2212200+149=\u221251 kJ."
+  },
+  {
+    "QuestionText": "The work done in expansion against constant external pressure P_ext is:",
+    "Options": [
+      "A) w = \u2212P_ext \u0394V",
+      "B) w = +P_ext \u0394V",
+      "C) w = nRT ln(V\u2082/V\u2081)",
+      "D) w = 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Advanced",
+    "Explanation": "For irreversible expansion: w = \u2212P_ext \u0394V. Negative for expansion (system does work on surroundings). For reversible: w = \u2212nRT ln(V\u2082/V\u2081)."
+  },
+  {
+    "QuestionText": "Trouton's rule states that for most liquids, \u0394S_vap \u2248:",
+    "Options": [
+      "A) 21 J/(mol\u00b7K)",
+      "B) 42 J/(mol\u00b7K)",
+      "C) 88 J/(mol\u00b7K)",
+      "D) 57 J/(mol\u00b7K)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Trouton's rule: \u0394S_vap = \u0394H_vap/T_boil \u2248 88 J/(mol\u00b7K) for most liquids. Water deviates (~109) due to hydrogen bonding."
+  },
+  {
+    "QuestionText": "The Carnot efficiency \u03b7 = 1 \u2212 T_cold/T_hot. This applies to:",
+    "Options": [
+      "A) Chemical reactions",
+      "B) Heat engines",
+      "C) Galvanic cells",
+      "D) Electrolysis"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "Carnot efficiency is the maximum efficiency for a heat engine. While derived in physics, the thermodynamic principles apply to all energy conversion."
+  },
+  {
+    "QuestionText": "Internal energy U of an ideal gas depends on:",
+    "Options": [
+      "A) Pressure and volume",
+      "B) Temperature only",
+      "C) Pressure only",
+      "D) Volume only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Foundation",
+    "Explanation": "For ideal gas, there are no intermolecular forces. Internal energy depends only on kinetic energy (temperature): U = nCvT."
+  },
+  {
+    "QuestionText": "At equilibrium, \u0394G = 0 and K = exp(\u2212\u0394G\u00b0/RT). This means \u0394G\u00b0 controls:",
+    "Options": [
+      "A) Rate of reaction",
+      "B) Position of equilibrium (value of K)",
+      "C) Activation energy",
+      "D) Bond energies"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394G\u00b0 determines K (equilibrium constant). \u0394G (not \u0394G\u00b0) = 0 at equilibrium. \u0394G\u00b0 = \u2212RT ln K."
+  },
+  {
+    "QuestionText": "Evaporation at room temperature is spontaneous. This is because:",
+    "Options": [
+      "A) \u0394H < 0",
+      "B) Kinetic energy of some molecules exceeds intermolecular forces",
+      "C) Temperature is above boiling point",
+      "D) \u0394G > 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Foundation",
+    "Explanation": "Even below boiling point, molecules with high kinetic energy (from Maxwell-Boltzmann distribution) can escape from liquid surface. This is evaporation."
+  },
+  {
+    "QuestionText": "Resonance energy can be measured from:",
+    "Options": [
+      "A) Direct observation",
+      "B) Difference between calculated (bond energies) and observed heat of combustion",
+      "C) Mass spectrometry",
+      "D) X-ray diffraction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Resonance (stabilization) energy = \u0394H(calculated from localized bond energies) \u2212 \u0394H(observed). Benzene's observed \u0394H_combustion is lower (more stable) than expected."
+  },
+  {
+    "QuestionText": "Which expression represents the 2nd law of thermodynamics?",
+    "Options": [
+      "A) \u0394U = Q \u2212 W",
+      "B) \u0394S_universe \u2265 0",
+      "C) G = H \u2212 TS",
+      "D) H = U + PV"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Advanced",
+    "Explanation": "Second law: entropy of the universe always increases (irreversible) or stays same (reversible). \u0394S_universe \u2265 0."
+  },
+  {
+    "QuestionText": "The combustion of 1 mol CH\u2084 gives \u0394H = \u2212890 kJ. If 8 g CH\u2084 is burned (MW=16), heat released is:",
+    "Options": [
+      "A) 890 kJ",
+      "B) 445 kJ",
+      "C) 1780 kJ",
+      "D) 222.5 kJ"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Advanced",
+    "Explanation": "8 g CH\u2084 = 8/16 = 0.5 mol. Heat = 0.5 \u00d7 890 = 445 kJ."
+  },
+  {
+    "QuestionText": "Absolute entropy (3rd law) cannot be zero for:",
+    "Options": [
+      "A) Perfect crystal at 0 K",
+      "B) Real substance at any T > 0 K",
+      "C) Diamond at 0 K",
+      "D) Liquid He at 0 K"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Olympiad",
+    "Explanation": "At T > 0 K, thermal motion exists \u2192 W > 1 \u2192 S = k ln W > 0. Only perfect crystal at exactly 0 K can have S=0."
+  },
+  {
+    "QuestionText": "For a spontaneous process at constant T and P:",
+    "Options": [
+      "A) \u0394G > 0",
+      "B) \u0394G = 0",
+      "C) \u0394G < 0",
+      "D) \u0394G is undefined"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Spontaneous processes at constant T and P have \u0394G < 0. This is the criterion for spontaneity under most laboratory conditions."
+  },
+  {
+    "QuestionText": "The enthalpy of neutralization is less for weak acid-strong base than strong-strong because:",
+    "Options": [
+      "A) More heat produced",
+      "B) Some energy used to ionize the weak acid (\u0394H_ionization > 0)",
+      "C) Less entropy change",
+      "D) Weak acids have lower molar mass"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Weak acids are partially ionized. Energy must first ionize the acid (endothermic). Net \u0394H is less exothermic than \u221257 kJ/mol (strong-strong value)."
+  },
+  {
+    "QuestionText": "Spontaneity and rate of reaction are:",
+    "Options": [
+      "A) Always the same",
+      "B) Independent concepts (\u0394G determines feasibility, not rate)",
+      "C) Determined by temperature only",
+      "D) Determined by \u0394H only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "Thermodynamics tells if a reaction is feasible (\u0394G < 0) but not how fast. Kinetics (activation energy) controls rate. Diamond \u2192 graphite is spontaneous (\u0394G < 0) but extremely slow."
+  },
+  {
+    "QuestionText": "Which of the following processes has \u0394S < 0?",
+    "Options": [
+      "A) Sublimation of dry ice",
+      "B) Dissolving NaCl in water",
+      "C) Freezing of water at 0\u00b0C",
+      "D) Vaporization of ethanol"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Foundation",
+    "Explanation": "Freezing converts liquid (more disorder) to solid (ordered crystal). \u0394S < 0 (entropy decreases). For other options, disorder increases."
+  },
+  {
+    "QuestionText": "The standard free energy change \u0394G\u00b0 is related to EMF of a cell by:",
+    "Options": [
+      "A) \u0394G\u00b0 = nFE\u00b0",
+      "B) \u0394G\u00b0 = \u2212nFE\u00b0",
+      "C) \u0394G\u00b0 = nRTE\u00b0",
+      "D) \u0394G\u00b0 = \u2212RT/E\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u0394G\u00b0 = \u2212nFE\u00b0. For spontaneous cell (E\u00b0>0): \u0394G\u00b0 < 0. This connects thermodynamics with electrochemistry."
+  },
+  {
+    "QuestionText": "Endothermic dissolution that occurs spontaneously (like NH\u2084NO\u2083 in water) is driven by:",
+    "Options": [
+      "A) Negative enthalpy",
+      "B) Large positive entropy change",
+      "C) Decrease in volume",
+      "D) High temperature"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Entropy",
+    "Difficulty": "Advanced",
+    "Explanation": "NH\u2084NO\u2083 dissolves endothermically but spontaneously because \u0394S >> 0 (ions dispersed in solution). T\u0394S > \u0394H \u2192 \u0394G < 0."
+  },
+  {
+    "QuestionText": "At constant temperature and pressure, useful work obtainable from a system equals:",
+    "Options": [
+      "A) \u0394H",
+      "B) \u2212\u0394G",
+      "C) \u0394U",
+      "D) T\u0394S"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Maximum non-expansion work = \u2212\u0394G. This is the maximum useful work (electrical work in fuel cells, for example). \u0394G is the 'available' energy."
+  },
+  {
+    "QuestionText": "Enthalpy of atomization is the enthalpy change when:",
+    "Options": [
+      "A) Atoms form a molecule",
+      "B) 1 mol of substance is converted to isolated gaseous atoms",
+      "C) Electrons are removed",
+      "D) Substance melts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Advanced",
+    "Explanation": "Atomization enthalpy: substance \u2192 gaseous atoms. For metals like Na(s) \u2192 Na(g). Always endothermic (bonds broken). Key step in Born-Haber cycle."
+  },
+  {
+    "QuestionText": "The heat content at constant pressure equals:",
+    "Options": [
+      "A) Internal energy U",
+      "B) Enthalpy H",
+      "C) Gibbs free energy G",
+      "D) Entropy S"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Foundation",
+    "Explanation": "At constant pressure, heat absorbed = \u0394H. Enthalpy H = U + PV, so \u0394H = \u0394U + P\u0394V = Q_p."
+  },
+  {
+    "QuestionText": "The relationship between \u0394H and \u0394U for ideal gas is:",
+    "Options": [
+      "A) \u0394H = \u0394U",
+      "B) \u0394H = \u0394U + \u0394n_g RT",
+      "C) \u0394H = \u0394U \u2212 PV",
+      "D) \u0394H = \u0394U \u00d7 T"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394H = \u0394U + \u0394(PV) = \u0394U + \u0394n_g RT for ideal gas, where \u0394n_g = moles of gaseous products \u2212 moles of gaseous reactants."
+  },
+  {
+    "QuestionText": "For a reaction at equilibrium, the relationship between \u0394G\u00b0 and K is:",
+    "Options": [
+      "A) \u0394G\u00b0 = RT ln K",
+      "B) \u0394G\u00b0 = \u2212RT ln K",
+      "C) \u0394G\u00b0 = K/RT",
+      "D) K = \u0394G\u00b0/RT"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Gibbs Free Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "\u0394G\u00b0 = \u2212RT ln K. When K > 1 (forward favored): ln K > 0, \u0394G\u00b0 < 0. When K < 1: \u0394G\u00b0 > 0."
+  },
+  {
+    "QuestionText": "Which process is always exothermic?",
+    "Options": [
+      "A) Vaporization",
+      "B) Sublimation",
+      "C) Bond formation",
+      "D) Ionization"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Thermodynamics",
+    "SubTopic": "Enthalpy",
+    "Difficulty": "Foundation",
+    "Explanation": "Bond formation always releases energy (exothermic, \u0394H < 0). Breaking bonds requires energy (endothermic). Vaporization, sublimation, and ionization are all endothermic."
+  }
+]

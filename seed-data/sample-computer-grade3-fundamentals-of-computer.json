@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "A computer is a machine that — ",
+        "Options":  [
+                        "A) Processes data and gives useful output",
+                        "B) Watches television",
+                        "C) Cooks food",
+                        "D) Plays music only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Introduction to Computers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A computer takes input data, processes it, and produces output — it can perform many tasks."
+    },
+    {
+        "QuestionText":  "Which part of the computer do you use to type letters?",
+        "Options":  [
+                        "A) Keyboard",
+                        "B) Mouse",
+                        "C) Monitor",
+                        "D) Printer"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Input Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The keyboard is an input device with keys used to type letters, numbers, and commands."
+    },
+    {
+        "QuestionText":  "Which part of the computer shows pictures and text on a screen?",
+        "Options":  [
+                        "A) Monitor",
+                        "B) Keyboard",
+                        "C) Printer",
+                        "D) Speaker"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Output Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The monitor (screen) is an output device that displays visual information to the user."
+    },
+    {
+        "QuestionText":  "Which part of the computer is used to point and click?",
+        "Options":  [
+                        "A) Mouse",
+                        "B) Keyboard",
+                        "C) Monitor",
+                        "D) Scanner"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Input Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The mouse is an input device that moves the cursor on screen and is used to click on items."
+    },
+    {
+        "QuestionText":  "Which device prints documents on paper?",
+        "Options":  [
+                        "A) Printer",
+                        "B) Monitor",
+                        "C) Scanner",
+                        "D) Speaker"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Output Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A printer is an output device that produces a hard copy of digital documents on paper."
+    },
+    {
+        "QuestionText":  "The \u0027brain\u0027 of the computer that processes all instructions is the — ",
+        "Options":  [
+                        "A) CPU (Central Processing Unit)",
+                        "B) Monitor",
+                        "C) Keyboard",
+                        "D) Mouse"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "CPU",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The CPU is the processor — it carries out all arithmetic and logical operations in a computer."
+    },
+    {
+        "QuestionText":  "RAM stands for — ",
+        "Options":  [
+                        "A) Random Access Memory",
+                        "B) Read All Memory",
+                        "C) Random Action Mode",
+                        "D) Read Access Mode"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Memory",
+        "Difficulty":  "Foundation",
+        "Explanation":  "RAM is the computer\u0027s temporary working memory that stores data while programs are running."
+    },
+    {
+        "QuestionText":  "Which of these is an INPUT device?",
+        "Options":  [
+                        "A) Microphone",
+                        "B) Printer",
+                        "C) Speaker",
+                        "D) Monitor"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Input and Output",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A microphone captures sound input — it records audio that the computer can process."
+    },
+    {
+        "QuestionText":  "Which of these is an OUTPUT device?",
+        "Options":  [
+                        "A) Speakers",
+                        "B) Keyboard",
+                        "C) Mouse",
+                        "D) Scanner"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Input and Output",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Speakers output sound from the computer so the user can hear audio."
+    },
+    {
+        "QuestionText":  "The full form of CPU is — ",
+        "Options":  [
+                        "A) Central Processing Unit",
+                        "B) Computer Power Unit",
+                        "C) Central Printing Unit",
+                        "D) Computer Processing Unit"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Computer Terminology",
+        "Difficulty":  "Foundation",
+        "Explanation":  "CPU = Central Processing Unit — the electronic circuitry that executes instructions."
+    },
+    {
+        "QuestionText":  "A laptop is a type of computer that is — ",
+        "Options":  [
+                        "A) Portable and runs on a battery",
+                        "B) Very large and fixed in one place",
+                        "C) Used only in offices",
+                        "D) Used only for gaming"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Types of Computers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A laptop is a portable personal computer with a built-in battery, screen, and keyboard."
+    },
+    {
+        "QuestionText":  "Which type of computer fits in the palm of your hand?",
+        "Options":  [
+                        "A) Smartphone / Palmtop",
+                        "B) Desktop computer",
+                        "C) Supercomputer",
+                        "D) Mainframe"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Types of Computers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Smartphones and palmtops are pocket-sized computers with touch screens."
+    },
+    {
+        "QuestionText":  "Computers were invented mainly to — ",
+        "Options":  [
+                        "A) Perform calculations faster and more accurately than humans",
+                        "B) Watch movies",
+                        "C) Play games only",
+                        "D) Print newspapers"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "History of Computers",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Early computers were built to perform complex mathematical calculations far faster and more accurately than humans."
+    },
+    {
+        "QuestionText":  "Which generation of computers used transistors?",
+        "Options":  [
+                        "A) Second generation (1950s–1960s)",
+                        "B) First generation",
+                        "C) Third generation",
+                        "D) Fourth generation"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Computer Generations",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Second-generation computers replaced vacuum tubes with transistors, making them smaller and faster."
+    },
+    {
+        "QuestionText":  "Which of these stores data PERMANENTLY even when the computer is switched off?",
+        "Options":  [
+                        "A) Hard disk (ROM/storage)",
+                        "B) RAM",
+                        "C) Cache",
+                        "D) Register"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Storage",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Hard disks and solid-state drives store data permanently; RAM loses data when power is off."
+    },
+    {
+        "QuestionText":  "The operating system (OS) of a computer — ",
+        "Options":  [
+                        "A) Manages hardware and software and provides a user interface",
+                        "B) Types letters on screen",
+                        "C) Prints documents",
+                        "D) Connects to the internet only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Operating Systems",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The OS (e.g., Windows, macOS, Android) controls all computer resources and lets users run programs."
+    },
+    {
+        "QuestionText":  "Binary numbers use only two digits: — ",
+        "Options":  [
+                        "A) 0 and 1",
+                        "B) 1 and 2",
+                        "C) 0 and 9",
+                        "D) A and B"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Binary System",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Computers use the binary (base-2) number system with only 0 and 1, representing OFF and ON states."
+    },
+    {
+        "QuestionText":  "The binary number 1010 equals which decimal number?",
+        "Options":  [
+                        "A) 10",
+                        "B) 12",
+                        "C) 8",
+                        "D) 5"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Binary Conversion",
+        "Difficulty":  "Advanced",
+        "Explanation":  "1010 in binary = 1×8 + 0×4 + 1×2 + 0×1 = 8 + 0 + 2 + 0 = 10."
+    },
+    {
+        "QuestionText":  "What is the smallest unit of data in a computer?",
+        "Options":  [
+                        "A) Bit (0 or 1)",
+                        "B) Byte",
+                        "C) Kilobyte",
+                        "D) Megabyte"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Data Units",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A bit is the fundamental unit of data — a single binary digit, either 0 or 1."
+    },
+    {
+        "QuestionText":  "How many bits make one byte?",
+        "Options":  [
+                        "A) 8",
+                        "B) 4",
+                        "C) 16",
+                        "D) 2"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Data Units",
+        "Difficulty":  "Advanced",
+        "Explanation":  "1 byte = 8 bits. A byte is the standard unit for representing a single character."
+    },
+    {
+        "QuestionText":  "1 Kilobyte (KB) is approximately — ",
+        "Options":  [
+                        "A) 1,024 bytes",
+                        "B) 1,000 bits",
+                        "C) 100 bytes",
+                        "D) 512 bytes"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Data Units",
+        "Difficulty":  "Advanced",
+        "Explanation":  "1 KB = 1,024 bytes (2¹⁰). The base-2 convention is used in computing."
+    },
+    {
+        "QuestionText":  "Which software allows a user to browse websites on the internet?",
+        "Options":  [
+                        "A) Web browser (e.g., Chrome, Firefox)",
+                        "B) Media player",
+                        "C) Word processor",
+                        "D) Antivirus"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Software Types",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A web browser is application software that retrieves and displays web pages from the internet."
+    },
+    {
+        "QuestionText":  "An algorithm is — ",
+        "Options":  [
+                        "A) A step-by-step set of instructions to solve a problem",
+                        "B) A type of computer",
+                        "C) A virus",
+                        "D) A storage device"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Algorithms",
+        "Difficulty":  "Advanced",
+        "Explanation":  "An algorithm is a finite, ordered set of well-defined instructions for solving a problem or accomplishing a task."
+    },
+    {
+        "QuestionText":  "What does a \u0027firewall\u0027 do?",
+        "Options":  [
+                        "A) Monitors and controls incoming/outgoing network traffic to protect the computer",
+                        "B) Speeds up the CPU",
+                        "C) Increases storage",
+                        "D) Plays music"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Cybersecurity",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A firewall is a security system that filters network traffic based on rules to block unauthorised access."
+    },
+    {
+        "QuestionText":  "Which type of software do we pay for and must not copy illegally?",
+        "Options":  [
+                        "A) Proprietary (commercial) software",
+                        "B) Open-source software",
+                        "C) Freeware",
+                        "D) Public domain software"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Software Types",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Proprietary software is owned by a company; using it without a licence or copying it illegally is software piracy."
+    },
+    {
+        "QuestionText":  "The process of finding and fixing errors in a program is called — ",
+        "Options":  [
+                        "A) Debugging",
+                        "B) Coding",
+                        "C) Formatting",
+                        "D) Booting"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Programming Concepts",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Debugging is the process of identifying, locating, and correcting errors (bugs) in software code."
+    },
+    {
+        "QuestionText":  "Which component of a computer stores the BIOS and is read-only?",
+        "Options":  [
+                        "A) ROM (Read-Only Memory)",
+                        "B) RAM",
+                        "C) Hard drive",
+                        "D) USB"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Memory Types",
+        "Difficulty":  "Advanced",
+        "Explanation":  "ROM contains firmware like the BIOS that starts the computer; its data cannot be overwritten in normal use."
+    },
+    {
+        "QuestionText":  "A touchscreen is both an input AND output device because — ",
+        "Options":  [
+                        "A) It displays information (output) and accepts touch commands (input)",
+                        "B) It only shows pictures",
+                        "C) It only accepts typing",
+                        "D) It is only for phones"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Input and Output",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A touchscreen receives finger/stylus input and simultaneously displays visual output — it is a dual-purpose device."
+    },
+    {
+        "QuestionText":  "Multitasking in a computer means — ",
+        "Options":  [
+                        "A) Running multiple programs at the same time",
+                        "B) Using multiple keyboards",
+                        "C) Printing multiple pages",
+                        "D) Having many users"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Operating Systems",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Multitasking allows the OS to switch rapidly between tasks, giving the appearance of simultaneous execution."
+    },
+    {
+        "QuestionText":  "OCR (Optical Character Recognition) software can — ",
+        "Options":  [
+                        "A) Convert scanned text images into editable digital text",
+                        "B) Print documents faster",
+                        "C) Connect to Wi-Fi",
+                        "D) Compress video files"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Software Applications",
+        "Difficulty":  "Advanced",
+        "Explanation":  "OCR analyses images of text and converts them into machine-readable, editable text."
+    },
+    {
+        "QuestionText":  "In binary, what is 7 + 1?",
+        "Options":  [
+                        "A) 1000 (decimal 8)",
+                        "B) 0111",
+                        "C) 1001",
+                        "D) 1100"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Binary Arithmetic",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "7 in binary = 0111; 0111 + 0001 = 1000 (carry propagates), which is decimal 8."
+    },
+    {
+        "QuestionText":  "A computer has 8 GB RAM. A program needs 10 GB RAM. What will happen?",
+        "Options":  [
+                        "A) The program will run slowly or crash due to insufficient RAM.",
+                        "B) The program will run perfectly.",
+                        "C) The program will create more RAM.",
+                        "D) The RAM will expand automatically."
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Computer Hardware",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Insufficient RAM causes the system to use slower virtual memory (swap), making the program run very slowly or crash."
+    },
+    {
+        "QuestionText":  "Which sorting algorithm works by repeatedly swapping adjacent elements that are in the wrong order?",
+        "Options":  [
+                        "A) Bubble sort",
+                        "B) Merge sort",
+                        "C) Quick sort",
+                        "D) Selection sort"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Algorithms",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Bubble sort repeatedly compares adjacent elements and swaps them if out of order, \u0027bubbling\u0027 large values to the end."
+    },
+    {
+        "QuestionText":  "In hexadecimal (base 16), the letter \u0027A\u0027 represents — ",
+        "Options":  [
+                        "A) 10",
+                        "B) 11",
+                        "C) 15",
+                        "D) 16"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Number Systems",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Hexadecimal uses 0-9 then A-F: A=10, B=11, C=12, D=13, E=14, F=15."
+    },
+    {
+        "QuestionText":  "What does \u0027volatile memory\u0027 mean?",
+        "Options":  [
+                        "A) Memory that loses its data when power is removed",
+                        "B) Memory that is very fast",
+                        "C) Memory that is permanent",
+                        "D) Memory on a USB drive"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Memory Types",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Volatile memory (like RAM) requires continuous power to retain data; it is cleared when the computer is turned off."
+    },
+    {
+        "QuestionText":  "A cache memory is placed between the CPU and RAM because — ",
+        "Options":  [
+                        "A) It is much faster than RAM and stores frequently used data for quick CPU access",
+                        "B) It is cheaper than RAM",
+                        "C) It stores the operating system",
+                        "D) It is larger than RAM"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Computer Architecture",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Cache memory (L1, L2, L3) bridges the speed gap between the fast CPU and the slower main RAM, improving performance."
+    },
+    {
+        "QuestionText":  "If a CPU runs at 3 GHz (3 billion cycles per second), how many cycles occur in one millisecond?",
+        "Options":  [
+                        "A) 3,000,000 (3 million)",
+                        "B) 3,000",
+                        "C) 3 billion",
+                        "D) 300,000"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "CPU Speed",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "1 GHz = 10⁹ cycles/s. 3 GHz = 3×10⁹/s. 1 ms = 10⁻³ s. Cycles = 3×10⁹ × 10⁻³ = 3×10⁶ = 3 million."
+    },
+    {
+        "QuestionText":  "What is \u0027lossless compression\u0027?",
+        "Options":  [
+                        "A) Reducing file size without any data loss — original file can be fully recovered",
+                        "B) Reducing file size by permanently removing data",
+                        "C) Encrypting a file",
+                        "D) Copying a file faster"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Data Compression",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Lossless formats (ZIP, PNG) reduce size by encoding patterns more efficiently; the original data is perfectly restored."
+    },
+    {
+        "QuestionText":  "The Internet of Things (IoT) refers to — ",
+        "Options":  [
+                        "A) Everyday physical objects connected to the internet and sharing data",
+                        "B) A type of virus",
+                        "C) A social media platform",
+                        "D) A high-speed processor"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Emerging Technologies",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "IoT connects devices (fridges, cars, sensors) to the internet, enabling them to collect and exchange data."
+    },
+    {
+        "QuestionText":  "Quantum computing uses \u0027qubits\u0027 instead of bits. A qubit can be — ",
+        "Options":  [
+                        "A) 0, 1, or both simultaneously (superposition)",
+                        "B) Only 0",
+                        "C) Only 1",
+                        "D) Either 0 or 1 but not both"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Advanced Computing",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Quantum superposition allows a qubit to represent 0 and 1 simultaneously, enabling parallel computation."
+    },
+    {
+        "QuestionText":  "Which data structure uses LIFO (Last In, First Out) order?",
+        "Options":  [
+                        "A) Stack",
+                        "B) Queue",
+                        "C) Array",
+                        "D) Linked list"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Data Structures",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A stack works like a pile of plates: the last item added (pushed) is the first removed (popped) — LIFO."
+    },
+    {
+        "QuestionText":  "Machine learning is a branch of AI where — ",
+        "Options":  [
+                        "A) Computers learn from data to improve at tasks without being explicitly programmed",
+                        "B) Computers follow fixed rules only",
+                        "C) Humans program every decision",
+                        "D) Machines teach people"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Artificial Intelligence",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Machine learning algorithms detect patterns in data and improve their performance through experience/training."
+    },
+    {
+        "QuestionText":  "What does \u0027overclocking\u0027 a CPU mean?",
+        "Options":  [
+                        "A) Running the CPU faster than its rated speed to gain performance (with risk of overheating)",
+                        "B) Turning the CPU off",
+                        "C) Updating the CPU firmware",
+                        "D) Replacing the CPU"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Advanced Hardware",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Overclocking pushes the CPU clock speed beyond the manufacturer\u0027s specification, increasing performance but generating more heat."
+    },
+    {
+        "QuestionText":  "A Turing Test is passed when — ",
+        "Options":  [
+                        "A) A human cannot distinguish the AI\u0027s responses from a real human\u0027s",
+                        "B) A computer beats a human at chess",
+                        "C) A robot walks without falling",
+                        "D) A computer reads text aloud"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Artificial Intelligence",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Alan Turing proposed the imitation game: if a judge can\u0027t tell the AI from a human in conversation, the machine is \u0027intelligent\u0027."
+    },
+    {
+        "QuestionText":  "Which type of computer architecture separates memory for data and instructions, avoiding the \u0027von Neumann bottleneck\u0027?",
+        "Options":  [
+                        "A) Harvard architecture",
+                        "B) Von Neumann architecture",
+                        "C) RISC architecture",
+                        "D) CISC architecture"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Computer Architecture",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Harvard architecture uses separate memory buses for data and instructions, enabling simultaneous access and faster processing."
+    },
+    {
+        "QuestionText":  "An encryption key of 256 bits means there are approximately ___ possible keys.",
+        "Options":  [
+                        "A) 2²⁵⁶ (an astronomically large number)",
+                        "B) 256",
+                        "C) 65,536",
+                        "D) 1 million"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Cryptography",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "256-bit encryption has 2²⁵⁶ possible keys — more than atoms in the observable universe, making brute-force attacks impractical."
+    },
+    {
+        "QuestionText":  "What is \u0027latency\u0027 in computing?",
+        "Options":  [
+                        "A) The delay between a request and the response",
+                        "B) The processing speed of the CPU",
+                        "C) The amount of RAM",
+                        "D) The screen resolution"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Performance Metrics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Latency is the time lag between cause and effect (e.g., sending a network request and receiving a response)."
+    },
+    {
+        "QuestionText":  "\u0027Big Data\u0027 refers to — ",
+        "Options":  [
+                        "A) Extremely large datasets that require special tools to process and analyse",
+                        "B) Any dataset saved on a computer",
+                        "C) A specific software programme",
+                        "D) A type of hard drive"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Data Science",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Big Data is characterised by Volume, Velocity, and Variety — datasets too large for traditional databases to handle."
+    },
+    {
+        "QuestionText":  "A compiler converts — ",
+        "Options":  [
+                        "A) High-level source code into machine code (executable program)",
+                        "B) Machine code into source code",
+                        "C) Data into images",
+                        "D) Files into compressed archives"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Programming",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A compiler translates the entire high-level program into machine code before execution, unlike an interpreter (line by line)."
+    },
+    {
+        "QuestionText":  "Blockchain technology stores data in — ",
+        "Options":  [
+                        "A) Linked, cryptographically secured blocks that cannot be altered retroactively",
+                        "B) A single centralised server",
+                        "C) Random order without links",
+                        "D) A cloud folder"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Fundamentals of Computer",
+        "SubTopic":  "Emerging Technologies",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Each blockchain block contains a cryptographic hash of the previous block, making tampering with any block detectable."
+    }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A clause is a group of words that:",
+    "Options": [
+      "A) Has a noun only",
+      "B) Has a subject and a predicate (verb)",
+      "C) Expresses an incomplete idea always",
+      "D) Begins with a capital letter always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "A clause is a group of words containing both a subject and a predicate (finite verb). It can be independent (main clause \u2014 complete sentence) or dependent (subordinate clause \u2014 needs a main clause). 'She runs' = independent clause. 'Because she is fast' = dependent clause (incomplete alone). A phrase lacks a finite verb: 'running fast' = phrase, not clause."
+  },
+  {
+    "QuestionText": "What is an independent (main) clause?",
+    "Options": [
+      "A) A clause that depends on another clause for meaning",
+      "B) A clause that expresses a complete thought and can stand alone as a sentence",
+      "C) A clause beginning with a subordinating conjunction",
+      "D) A clause containing an adjective"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "An independent (main) clause expresses a complete thought and can stand alone as a grammatically correct sentence: 'She went to school.' It does not require any other clause to make sense. Dependent (subordinate) clauses cannot stand alone: 'Although she was tired' \u2014 incomplete (although what?). A sentence must have at least one independent clause."
+  },
+  {
+    "QuestionText": "Identify the subordinate clause in: 'She stayed home because she was ill.'",
+    "Options": [
+      "A) She stayed home",
+      "B) because she was ill",
+      "C) was ill",
+      "D) She stayed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "'Because she was ill' is the subordinate (dependent) clause \u2014 it has a subject (she) and verb (was) but cannot stand alone. It is introduced by the subordinating conjunction 'because' which makes it dependent on the main clause ('She stayed home') for complete meaning. Together they form a complex sentence."
+  },
+  {
+    "QuestionText": "A simple sentence contains:",
+    "Options": [
+      "A) Two independent clauses joined by a conjunction",
+      "B) One independent clause with no dependent clauses",
+      "C) One independent and one dependent clause",
+      "D) Multiple clauses of all types"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "A simple sentence has one independent clause with a single subject and predicate. It may have phrases but no subordinate clauses: 'She reads books' (simple). 'The tall girl in the blue dress reads interesting books' (still simple \u2014 one subject, one verb, phrases added). Compound sentence = two+ independent clauses; Complex = one main + one+ dependent clause; Compound-complex = two+ main + one+ dependent clauses."
+  },
+  {
+    "QuestionText": "Which is a compound sentence?",
+    "Options": [
+      "A) Although it was late, she kept working.",
+      "B) She studied hard, and she passed the exam.",
+      "C) She who works hard succeeds.",
+      "D) Tired and hungry, she reached home."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "A compound sentence contains two or more independent clauses joined by a coordinating conjunction (FANBOYS) or semicolon: 'She studied hard, AND she passed the exam' \u2014 two complete thoughts joined by 'and'. Option A = complex (subordinating conjunction 'although'). C = complex (relative clause 'who works hard'). D = simple sentence (participial phrase, one main clause)."
+  },
+  {
+    "QuestionText": "Identify the type: 'When the rain stopped, the children went out to play.'",
+    "Options": [
+      "A) Simple",
+      "B) Compound",
+      "C) Complex",
+      "D) Compound-complex"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "Complex sentence = one main (independent) clause + one or more subordinate (dependent) clauses. 'When the rain stopped' = dependent adverbial clause (time). 'The children went out to play' = main (independent) clause. The subordinating conjunction 'when' introduces the dependent clause. Complex sentences express clear logical relationships between ideas."
+  },
+  {
+    "QuestionText": "An adjective clause (relative clause) begins with:",
+    "Options": [
+      "A) Because, although, since",
+      "B) Who, whom, whose, which, that",
+      "C) When, where, why",
+      "D) If, unless, until"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "Adjective (relative) clauses modify nouns and begin with relative pronouns (who, whom, whose, which, that) or relative adverbs (when, where, why \u2014 though these are sometimes called adverbial relative clauses). 'The girl WHO won the prize is my sister' \u2014 'who won the prize' modifies 'girl'. 'Because/although/since' = adverb clauses of reason/concession; 'If/unless' = adverb clauses of condition."
+  },
+  {
+    "QuestionText": "An adverb clause modifies a:",
+    "Options": [
+      "A) Noun only",
+      "B) Pronoun only",
+      "C) Verb, adjective, or another adverb",
+      "D) Preposition"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "Adverb clauses modify verbs (telling when, where, why, how, under what condition), adjectives, or other adverbs: 'She came WHEN I called' (modifies 'came' \u2014 when?). 'She is more confident THAN she was last year' (modifies adjective 'confident'). They are introduced by subordinating conjunctions: when, where, because, although, if, since, as, until, before, after, while."
+  },
+  {
+    "QuestionText": "A noun clause functions as a:",
+    "Options": [
+      "A) Modifier of another noun",
+      "B) Noun in the sentence (subject, object, or complement)",
+      "C) Connector between two independent clauses",
+      "D) Modifier of the main verb always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "A noun clause functions as a noun \u2014 it can be: Subject ('WHAT she said surprised me'), Object ('I know THAT she is right'), Subject complement ('The truth is WHAT you saw'), Object of preposition ('I am interested in WHAT he does'). Noun clauses begin with: that, what, who, whom, whose, which, when, where, why, how, whether, if."
+  },
+  {
+    "QuestionText": "Identify the noun clause in: 'She told me that she would come.'",
+    "Options": [
+      "A) She told me",
+      "B) that she would come",
+      "C) She told",
+      "D) would come"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "'That she would come' is a noun clause functioning as the direct object of 'told' \u2014 it answers 'what did she tell me?' 'That' introduces the noun clause (here it is a subordinating conjunction, not a relative pronoun). The entire clause 'that she would come' acts as a single noun (object). Noun clauses can replace single nouns in any noun position."
+  },
+  {
+    "QuestionText": "Assertion: 'Unless you work hard, you will not succeed' is a complex sentence. Reason: It contains one main clause ('you will not succeed') and one dependent adverb clause of condition ('Unless you work hard'). Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: the sentence is complex (one main + one dependent clause). Reason TRUE and correctly explains: 'Unless you work hard' = dependent adverb clause of condition (introduced by 'unless' = 'if not'). 'You will not succeed' = main independent clause. Complex sentence definition: one main clause + one/more subordinate clauses. The reason accurately identifies both clauses and their types."
+  },
+  {
+    "QuestionText": "Which sentence is compound-complex?",
+    "Options": [
+      "A) She ran and he swam.",
+      "B) If you study, you will pass.",
+      "C) She worked hard because she wanted to succeed, and she finally got the promotion.",
+      "D) The girl who came yesterday left her bag."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "Compound-complex sentence = two+ independent clauses + one+ dependent clause. Option C: 'She worked hard' (independent) + 'because she wanted to succeed' (dependent adverb clause) + 'she finally got the promotion' (independent) = 2 independent + 1 dependent = compound-complex. Option A = compound (two independent). B = complex (one main + one dependent). D = complex (one main + relative clause)."
+  },
+  {
+    "QuestionText": "A phrase differs from a clause because a phrase:",
+    "Options": [
+      "A) Has no words",
+      "B) Lacks a finite verb (or a subject-verb combination)",
+      "C) Always begins with a preposition",
+      "D) Cannot be part of a sentence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "A clause has a subject AND a finite verb. A phrase lacks one or both (usually lacks a finite verb): 'Running fast' (participial phrase \u2014 no subject, non-finite verb), 'on the table' (prepositional phrase \u2014 no subject or verb), 'to win the prize' (infinitive phrase \u2014 no subject, non-finite verb). Phrases function as parts of clauses but cannot stand alone as sentences."
+  },
+  {
+    "QuestionText": "What is a restrictive (defining) relative clause?",
+    "Options": [
+      "A) A relative clause that adds extra information and is set off by commas",
+      "B) A relative clause that is essential to identify which person/thing is meant \u2014 not set off by commas",
+      "C) A clause that restricts the use of passive voice",
+      "D) A clause beginning with 'although' showing restriction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "Restrictive (defining) relative clause: essential information that identifies which specific noun is meant. Cannot be removed without changing meaning. NOT set off by commas: 'The girl THAT WON THE PRIZE is my sister' (which girl? the one who won). Non-restrictive: adds extra, removable information, set off by commas: 'My sister, WHO IS A DOCTOR, lives in Delhi' (only one sister \u2014 the clause just adds info)."
+  },
+  {
+    "QuestionText": "Identify the type of adverb clause in: 'She smiled as she spoke.'",
+    "Options": [
+      "A) Condition",
+      "B) Reason",
+      "C) Time/Manner",
+      "D) Concession"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "'As she spoke' is an adverb clause of time (and/or manner) \u2014 'as' can indicate both simultaneity (at the same time as) and manner (in the way that). Here: 'as she spoke' = while/when she was speaking (time) \u2014 two actions happening simultaneously. Types of adverb clauses: Time (when, while, as, before, after), Reason (because, since, as), Condition (if, unless), Concession (although, though, even if), Manner (as, as if)."
+  },
+  {
+    "QuestionText": "'She will come provided that you invite her.' What type of clause is 'provided that you invite her'?",
+    "Options": [
+      "A) Noun clause",
+      "B) Adjective clause",
+      "C) Adverb clause of condition",
+      "D) Adverb clause of reason"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "'Provided that you invite her' is an adverb clause of condition \u2014 'provided that' = 'on the condition that'. It modifies the main verb 'will come', specifying the condition under which she will come. Other conditional conjunctions: if, unless, as long as, in case, on condition that. It functions as an adverb, modifying the main clause verb."
+  },
+  {
+    "QuestionText": "Transform into a complex sentence: 'He was tired. He continued working.'",
+    "Options": [
+      "A) He was tired and he continued working.",
+      "B) Although he was tired, he continued working.",
+      "C) He was tired, he continued working.",
+      "D) He was tired; he continued working."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "A complex sentence requires one main clause and one subordinate clause connected by a subordinating conjunction. 'ALTHOUGH he was tired' = dependent concessive clause. 'He continued working' = main clause. 'Although' captures the contrast/concession perfectly. Option A = compound (coordinating 'and'). C = comma splice (incorrect \u2014 two independent clauses joined only by comma). D = compound with semicolon (not complex)."
+  },
+  {
+    "QuestionText": "What is a dangling modifier?",
+    "Options": [
+      "A) A modifier correctly placed next to what it modifies",
+      "B) A modifying phrase that has no clear noun to modify in the sentence \u2014 its intended subject is missing",
+      "C) An adverb that comes after the verb",
+      "D) A clause at the end of a sentence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "A dangling modifier is a participial or other modifying phrase where the intended subject is absent from the sentence: 'RUNNING down the street, the rain started to fall.' (Who was running? The rain? \u2014 the intended runner is not in the sentence.) Correction: 'RUNNING down the street, I felt the rain start to fall.' The modifier must be adjacent to and clearly refer to its subject."
+  },
+  {
+    "QuestionText": "Identify the type of sentence: 'What a wonderful day it is!'",
+    "Options": [
+      "A) Declarative",
+      "B) Interrogative",
+      "C) Imperative",
+      "D) Exclamatory"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "Exclamatory sentences express strong emotion and end with an exclamation mark: 'What a wonderful day it is!' Types of sentences by purpose: Declarative (makes a statement: 'It is a wonderful day.'), Interrogative (asks a question: 'Is it a wonderful day?'), Imperative (gives a command: 'Enjoy the day!'), Exclamatory (expresses strong feeling: 'What a day!'). Exclamatory sentences often begin with 'What' or 'How.'"
+  },
+  {
+    "QuestionText": "Which is an example of a misplaced modifier?",
+    "Options": [
+      "A) She nearly ran five miles.",
+      "B) Running quickly, she caught the bus.",
+      "C) He found a wallet walking in the park.",
+      "D) She sat quietly reading her book."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "'He found a wallet WALKING IN THE PARK' \u2014 misplaced modifier. As written, 'walking in the park' seems to modify 'wallet' (the wallet was walking?). The participial phrase is in the wrong position. Correct: 'WALKING IN THE PARK, he found a wallet' or 'While he was walking in the park, he found a wallet.' Option A ('nearly ran five miles') could also be argued as ambiguous \u2014 she almost ran 5 miles vs she ran almost 5 miles."
+  },
+  {
+    "QuestionText": "Statement 1: Every sentence must have at least one finite verb. Statement 2: A finite verb has a definite subject, tense, and person. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 TRUE: a complete sentence requires at least one finite verb (one limited by subject, tense, number, person). Non-finite forms (infinitive to go, gerund running, participle gone) cannot serve as main sentence verb. Statement 2 TRUE: a finite verb agrees with its subject (person, number), shows tense (past/present/future), and is limited in meaning by these features. Both are correct and complementary grammar principles."
+  },
+  {
+    "QuestionText": "'The boy who came yesterday brought a gift.' Which clause is the relative (adjective) clause?",
+    "Options": [
+      "A) The boy brought a gift",
+      "B) who came yesterday",
+      "C) brought a gift",
+      "D) came yesterday"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "'Who came yesterday' is a restrictive relative (adjective) clause \u2014 it begins with relative pronoun 'who', has subject (who) and verb (came), and modifies the noun 'boy' (which boy? \u2014 the one who came yesterday). The main clause is 'The boy...brought a gift.' Adjective clauses answer 'which one?' or 'what kind?' about the noun they modify."
+  },
+  {
+    "QuestionText": "Convert to complex sentence: 'She is honest. I trust her.'",
+    "Options": [
+      "A) She is honest and I trust her.",
+      "B) Because she is honest, I trust her.",
+      "C) She is honest, I trust her.",
+      "D) She is honest but I trust her."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "To create a complex sentence, use a subordinating conjunction to show the relationship: 'BECAUSE she is honest, I trust her.' 'Because' introduces an adverb clause of reason \u2014 honest is the reason for trust. Option A = compound (coordinating 'and'). C = comma splice (error). D = compound with 'but' (implying contrast \u2014 incorrect logic here). Option B correctly expresses the cause-effect relationship as a complex sentence."
+  },
+  {
+    "QuestionText": "What is a subordinating conjunction?",
+    "Options": [
+      "A) A conjunction that joins two equal independent clauses",
+      "B) A conjunction that introduces a dependent clause and connects it to a main clause",
+      "C) A pronoun used to introduce adjective clauses",
+      "D) A conjunction used to list items in a series"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "Subordinating conjunctions introduce dependent (subordinate) clauses and connect them to main clauses, establishing a relationship: time (when, while, before, after, until, since), reason (because, since, as), condition (if, unless, provided that), concession (although, even though, though), manner (as, as if). They make the clause they introduce 'subordinate' to (less important than) the main clause."
+  },
+  {
+    "QuestionText": "In 'She said that she would help', identify the type of that-clause:",
+    "Options": [
+      "A) Relative clause (adjective)",
+      "B) Adverb clause (condition)",
+      "C) Noun clause (object of said)",
+      "D) Main clause"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "'That she would help' is a noun clause functioning as the direct object of 'said' \u2014 it tells WHAT she said. 'That' here is a subordinating conjunction (not relative pronoun \u2014 it does not refer to a preceding noun). When 'that' introduces a clause functioning as noun (subject, object, complement), it forms a noun clause. This is the most common usage of 'that' as conjunction in English."
+  },
+  {
+    "QuestionText": "Which of the following sentences contains an elliptical clause?",
+    "Options": [
+      "A) She works harder than her brother works.",
+      "B) She works harder than her brother does.",
+      "C) She works harder than her brother.",
+      "D) She works harder than her brother's work."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "An elliptical clause has words omitted because they can be understood from context: 'She works harder than her brother [does/works].' In option C, 'does' or 'works' is omitted \u2014 it is implied from the main clause. This omission is called ellipsis. Options A and B are complete. Option D is ungrammatical. Elliptical clauses are common in comparisons where the second part omits a repeated verb."
+  },
+  {
+    "QuestionText": "What is a conditional sentence (if-clause)?",
+    "Options": [
+      "A) A sentence asking a condition from someone",
+      "B) A sentence expressing a condition and its result \u2014 usually with an 'if' clause",
+      "C) A sentence using conditional pronouns only",
+      "D) A sentence with modal verbs only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "Conditional sentences express a condition (if-clause) and its result (main clause). Types: Zero conditional (general truth: 'If water boils, it evaporates'), First conditional (real/possible: 'If it rains, I will stay home'), Second conditional (unreal present: 'If I were rich, I would travel'), Third conditional (unreal past: 'If she had studied, she would have passed')."
+  },
+  {
+    "QuestionText": "Identify the error in: 'Being a rainy day, she decided not to go out.'",
+    "Options": [
+      "A) 'Being' should be 'It being'",
+      "B) 'Being a rainy day' is a dangling modifier \u2014 it should say 'Because it was a rainy day' or 'It being a rainy day'",
+      "C) 'decided' should be 'decides'",
+      "D) There is no error"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "'Being a rainy day' is a dangling participle \u2014 the implied subject of 'being' should match the subject of the main clause ('she'). But 'she' is not a rainy day. The modifier needs a logical subject: 'Because it was a rainy day, she decided not to go out' (correct \u2014 'because' clause clearly shows the cause). Or: 'It being a rainy day, she decided not to go out' (absolute phrase with explicit subject 'it'). Dangling modifiers create illogical or ambiguous meanings."
+  },
+  {
+    "QuestionText": "A complex sentence showing contrast is correctly formed as:",
+    "Options": [
+      "A) She is rich and she is unhappy.",
+      "B) Although she is rich, she is unhappy.",
+      "C) If she is rich, she is unhappy.",
+      "D) She is rich so she is unhappy."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "'Although she is rich, she is unhappy' = complex sentence with adverb clause of concession ('although' introduces surprising contrast). 'Although' sets up the expectation that wealth = happiness, then contradicts it. Option A = compound (no contrast intended). C = complex but conditional (not contrast). D = compound with 'so' implying consequence (wrong logic \u2014 wealth causing unhappiness is a causal claim, not just concession)."
+  },
+  {
+    "QuestionText": "Statement 1: A phrase cannot stand alone as a sentence. Statement 2: A phrase lacks a finite verb. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "Statement 1 TRUE: a phrase lacks the complete subject-verb structure needed for a standalone sentence ('Running fast' cannot stand alone as a sentence \u2014 it is a fragment). Statement 2 TRUE: phrases lack finite verbs (verbs limited by subject/tense/person). 'Running fast' has a non-finite participle. 'On the table' has no verb. Both statements are correct and Statement 2 explains why Statement 1 is true."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a type of subordinate clause?",
+    "Options": [
+      "A) Noun clause",
+      "B) Adjective clause",
+      "C) Adverb clause",
+      "D) Coordinating clause"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "Subordinate clauses have three types based on function: Noun clause (functions as noun), Adjective/Relative clause (modifies noun), Adverb clause (modifies verb/adjective/adverb). There is NO 'coordinating clause' \u2014 'coordinating' refers to conjunctions that join INDEPENDENT clauses (not subordinate ones). When two independent clauses are joined by coordinating conjunctions, neither is subordinate."
+  },
+  {
+    "QuestionText": "Transform to a complex sentence using a noun clause: 'What will happen next? I don't know.'",
+    "Options": [
+      "A) I don't know what will happen next.",
+      "B) I don't know, what will happen next.",
+      "C) What will happen next that I don't know.",
+      "D) I know not what will happen next."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "'What will happen next' becomes an embedded noun clause (object of 'know'). In embedded questions (noun clauses), word order changes from question order to statement order: 'What WILL HAPPEN next?' (question order) \u2192 'what WILL HAPPEN next' (statement order in noun clause \u2014 note: NOT inverted). 'I don't know WHAT WILL HAPPEN NEXT' = correct complex sentence with noun clause object."
+  },
+  {
+    "QuestionText": "Identify the type of sentence: 'Please close the window.'",
+    "Options": [
+      "A) Declarative",
+      "B) Interrogative",
+      "C) Imperative",
+      "D) Exclamatory"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "'Please close the window' is an imperative sentence \u2014 it gives a polite command or request. Imperative sentences: begin with a verb (or 'please' + verb), have implied subject 'you', used for commands, requests, instructions, invitations: 'Come here,' 'Please sit down,' 'Don't touch that,' 'Enjoy your meal.' The addition of 'please' makes the command polite but it remains imperative."
+  },
+  {
+    "QuestionText": "What is a compound sentence with a semicolon?",
+    "Options": [
+      "A) A sentence with three or more independent clauses",
+      "B) Two independent clauses joined by a semicolon instead of a coordinating conjunction",
+      "C) A sentence where the semicolon replaces the subordinating conjunction",
+      "D) An error \u2014 semicolons cannot join clauses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "A semicolon can join two closely related independent clauses in a compound sentence without a coordinating conjunction: 'She studied hard; she passed the exam.' This is equivalent to 'She studied hard, and she passed the exam.' The semicolon implies a close relationship between the two independent clauses. A conjunctive adverb (however, therefore, moreover) may follow the semicolon: 'She was tired; however, she continued working.'"
+  },
+  {
+    "QuestionText": "Rewrite as a complex sentence: 'The thief ran away. The police came.'",
+    "Options": [
+      "A) The thief ran away and the police came.",
+      "B) The thief ran away before the police came.",
+      "C) The thief ran away; the police came.",
+      "D) The thief ran away so the police came."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "'The thief ran away BEFORE the police came' = complex sentence. 'Before the police came' is a dependent adverb clause of time, introduced by subordinating conjunction 'before'. The sentence correctly shows the sequence: thief escaped, then police arrived. Option A = compound; C = compound (semicolon); D = compound (causal, wrong logic \u2014 police didn't come because thief ran away). Only B creates a complex sentence."
+  },
+  {
+    "QuestionText": "What is the difference between 'who' and 'whom' when introducing clauses?",
+    "Options": [
+      "A) 'Who' introduces noun clauses; 'whom' introduces adjective clauses",
+      "B) 'Who' = nominative (subject function); 'whom' = objective (object function) in the clause",
+      "C) They are interchangeable in modern English at all times",
+      "D) 'Who' is for humans; 'whom' is for objects and animals"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "'Who' is nominative (subject): 'The girl WHO WON is my sister' (who = subject of 'won'). 'Whom' is objective (object): 'The person WHOM I met is kind' (whom = object of 'met'). Test: substitute 'he/she' (nominative) \u2192 use 'who'; substitute 'him/her' (objective) \u2192 use 'whom'. 'She met HER' \u2192 'whom I met.' 'HE won' \u2192 'who won.' Both can introduce relative clauses (adjective) or interrogative clauses."
+  },
+  {
+    "QuestionText": "A student writes: 'She is the girl that I told you about her.' What is the error?",
+    "Options": [
+      "A) 'that' should be 'who'",
+      "B) 'her' is redundant \u2014 the relative pronoun 'that' already functions as the object of 'about'",
+      "C) 'told' should be 'tell'",
+      "D) 'about' should be 'of'"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "'She is the girl that I told you about HER' contains a pronoun resumptive error. 'That' already serves as the object of 'about' (about + that = 'about whom/that I told you'). Adding 'her' duplicates the object. Correct: 'She is the girl THAT I told you ABOUT' or 'She is the girl ABOUT WHOM I told you.' This error (adding a redundant pronoun after the relative) is common in learner English."
+  },
+  {
+    "QuestionText": "How does a compound sentence differ from a compound-complex sentence?",
+    "Options": [
+      "A) Compound has one clause; compound-complex has two",
+      "B) Compound has only independent clauses; compound-complex has two+ independent AND one+ dependent clause",
+      "C) Compound sentences use semicolons; compound-complex use commas only",
+      "D) They are the same structure with different names"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "Compound sentence: two+ independent clauses, no dependent clauses: 'She sings and he dances.' Compound-complex sentence: two+ independent clauses + one+ dependent clause: 'She sings because she loves music, and he dances whenever she performs.' The 'compound' part refers to multiple independent clauses; the 'complex' part refers to the additional dependent clause(s). This is the most sophisticated sentence structure."
+  },
+  {
+    "QuestionText": "Statement 1: 'He came, saw, and conquered' is a simple sentence. Statement 2: A simple sentence can have multiple verbs (predicates) as long as they share the same subject. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 TRUE: 'He came, saw, and conquered' is a simple sentence with compound predicate (three verbs sharing one subject 'He'). Statement 2 TRUE: a simple sentence can have: compound subject ('She and he came'), compound predicate ('She sang and danced'), or both \u2014 as long as there is only ONE independent clause with no subordinate clauses. Multiple predicates sharing a subject do NOT make a compound sentence."
+  },
+  {
+    "QuestionText": "Which sentence uses a first conditional correctly?",
+    "Options": [
+      "A) If I was rich, I would travel the world.",
+      "B) If it rains tomorrow, I will stay home.",
+      "C) If she had studied, she would have passed.",
+      "D) If water boils, it turns to steam."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "First conditional = real/possible present or future condition: 'if + simple present, will + V1.' 'If it RAINS tomorrow, I WILL STAY home' \u2014 describes a real possibility. Option A = second conditional (unreal present \u2014 'was' should be 'were'). C = third conditional (unreal past). D = zero conditional (universal truth/general fact). First conditional expresses genuine possibilities."
+  },
+  {
+    "QuestionText": "Transform: 'She studied hard. She passed the exam.' Combine using a subordinate clause.",
+    "Options": [
+      "A) She studied hard so she passed the exam.",
+      "B) She studied hard and passed the exam.",
+      "C) Because she studied hard, she passed the exam.",
+      "D) She studied hard; she passed the exam."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "'Because she studied hard, she passed the exam' = complex sentence with adverb clause of reason. 'Because' = subordinating conjunction, 'she studied hard' = dependent clause, 'she passed the exam' = main clause. Options A and D are compound sentences. Option B is a simple sentence with compound predicate. Only C creates a complex sentence showing the cause-effect relationship."
+  },
+  {
+    "QuestionText": "What is a relative pronoun's function in an adjective clause?",
+    "Options": [
+      "A) It only introduces the clause without a grammatical role inside it",
+      "B) It introduces the clause AND simultaneously functions as subject, object, or possessive within the clause",
+      "C) It only appears at the end of adjective clauses",
+      "D) It replaces adverbs in the main clause"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "A relative pronoun serves a dual role: (1) connects the adjective clause to the main clause, AND (2) functions grammatically WITHIN the clause. 'The man WHO came = 'who' is subject of 'came.' 'The book THAT I read' = 'that' is object of 'read.' 'The girl WHOSE bag was stolen' = 'whose' is possessive determiner. This dual function distinguishes relative pronouns from subordinating conjunctions (which only connect, without a role inside the clause)."
+  },
+  {
+    "QuestionText": "Identify the sentence type: 'Neither she came nor did she call.'",
+    "Options": [
+      "A) Simple",
+      "B) Compound",
+      "C) Complex",
+      "D) Exclamatory"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "'Neither she came nor did she call' is a compound sentence joined by the correlative conjunction pair 'neither\u2026nor.' It joins two independent clauses: 'she came' and 'she called' (negated). Both clauses can stand independently (with some restructuring). Correlative conjunctions (neither\u2026nor, either\u2026or, both\u2026and, not only\u2026but also) connect equal grammatical structures \u2014 here two independent clauses."
+  },
+  {
+    "QuestionText": "Which sentence is a zero conditional?",
+    "Options": [
+      "A) If I had money, I would buy a car.",
+      "B) If she calls, I will answer.",
+      "C) If you heat ice, it melts.",
+      "D) If she had come, I would have seen her."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "Zero conditional = universal truth or general fact: 'if + simple present, simple present.' 'If you heat ice, it melts' \u2014 always true, no exceptions (scientific fact). Form: both clauses in simple present. First conditional (B): possible/real future \u2014 'if + present, will + V1.' Second conditional (A): unreal present \u2014 'if + past, would + V1.' Third conditional (D): unreal past \u2014 'if + past perfect, would have + V3.'"
+  },
+  {
+    "QuestionText": "A participial phrase at the beginning of a sentence must:",
+    "Options": [
+      "A) Always be followed by a comma and then the object it modifies",
+      "B) Refer to (modify) the subject of the main clause to avoid dangling",
+      "C) Contain a past participle only",
+      "D) Be enclosed in parentheses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "Opening participial phrases must logically refer to the subject of the main clause: 'RUNNING to catch the bus, she dropped her bag' \u2713 (she was running \u2014 subject matches). 'RUNNING to catch the bus, her bag dropped' \u2717 (dangling \u2014 'her bag' wasn't running). A comma follows the opening participial phrase. The phrase can use present (-ing) or past (-ed) participle. Misplacement creates dangling modifiers."
+  },
+  {
+    "QuestionText": "Convert into a single complex sentence: 'The storm was severe. The flight was cancelled.'",
+    "Options": [
+      "A) The storm was severe and the flight was cancelled.",
+      "B) Because the storm was severe, the flight was cancelled.",
+      "C) The storm was severe; the flight was cancelled.",
+      "D) Despite the storm, the flight was cancelled."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "'Because the storm was severe, the flight was cancelled' = complex sentence. 'Because' (subordinating conjunction of reason) introduces the dependent adverb clause, showing the storm as the cause of cancellation. Options A, C = compound sentences. Option D = complex (despite = preposition, not conjunction \u2014 'despite the storm' is a phrase not a clause), though it's close. B is the clearest complex sentence transformation."
+  },
+  {
+    "QuestionText": "Statement 1: Compound sentences can be punctuated with a comma + coordinating conjunction OR a semicolon. Statement 2: 'She was tired, but she continued' and 'She was tired; she continued' are both compound sentences. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 TRUE: compound sentences are punctuated as: IC + comma + FANBOYS + IC, OR IC + semicolon + IC (OR IC + semicolon + conjunctive adverb + comma + IC). Both are standard. Statement 2 TRUE: 'She was tired, but she continued' (comma + coordinating conjunction 'but') and 'She was tired; she continued' (semicolon) are both compound sentences \u2014 two independent clauses joined by different punctuation methods."
+  },
+  {
+    "QuestionText": "Which of the following is a correctly formed exclamatory sentence?",
+    "Options": [
+      "A) How beautiful she is!",
+      "B) How she is beautiful!",
+      "C) What beautiful she is!",
+      "D) She is how beautiful!"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "Exclamatory sentences starting with 'How': How + adjective/adverb + subject + verb! = 'How BEAUTIFUL she IS!' Starting with 'What': What + a/an + adjective + noun + subject + verb! = 'What a beautiful girl she is!' Option B reverses word order incorrectly. C uses 'What' without 'a/an' before the adjective (no noun to modify). D is not a valid exclamatory structure."
+  },
+  {
+    "QuestionText": "In indirect (reported) speech, a complex sentence is formed from the original direct speech. 'She said, \"I am tired\"' becomes:",
+    "Options": [
+      "A) She said that she is tired.",
+      "B) She said that she was tired.",
+      "C) She said she is tired.",
+      "D) She says that she was tired."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Advanced",
+    "Explanation": "Indirect speech: reporting verb 'said' (past) triggers backshift: 'I am tired' (present) \u2192 'she was tired' (past). Structure: 'She said THAT she WAS tired' = complex sentence (main clause: She said + noun clause: that she was tired). 'That' may be omitted in informal English but is preferred formally. The reporting clause + noun clause form the complex sentence of indirect speech."
+  },
+  {
+    "QuestionText": "What is a cleft sentence?",
+    "Options": [
+      "A) A sentence split at a clause boundary with a semicolon",
+      "B) A sentence restructured with 'It is/was...that/who' to emphasise one element",
+      "C) A sentence where the subject and object are reversed",
+      "D) A sentence using two coordinating conjunctions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar: Clauses and Sentences",
+    "SubTopic": "Clauses",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cleft sentences highlight/emphasise a specific element: 'IT WAS Priya WHO won the prize' (emphasising Priya as winner). Base sentence: 'Priya won the prize.' 'IT + be + highlighted element + THAT/WHO + rest of sentence.' Another form (pseudo-cleft): 'WHAT she needs is more practice.' Cleft sentences are complex structures \u2014 they allow writers to focus the reader's attention on a specific piece of information."
+  }
+]

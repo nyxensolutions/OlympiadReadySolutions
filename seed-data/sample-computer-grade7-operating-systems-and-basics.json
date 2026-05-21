@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "An operating system (OS) is",
+    "Options": [
+      "A) System software that manages hardware and software resources",
+      "B) A word processor",
+      "C) A programming language",
+      "D) A web browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS basics",
+    "Difficulty": "Foundation",
+    "Explanation": "The OS is the core software that manages CPU, memory, storage, I/O devices, and provides an interface for users and applications."
+  },
+  {
+    "QuestionText": "Examples of operating systems include",
+    "Options": [
+      "A) Windows, macOS, Linux, Android, and iOS",
+      "B) MS Word, Excel",
+      "C) Chrome, Firefox",
+      "D) Python, Java"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS examples",
+    "Difficulty": "Foundation",
+    "Explanation": "OS examples: Microsoft Windows, Apple macOS, Linux distributions, Android (mobile), iOS (Apple mobile)."
+  },
+  {
+    "QuestionText": "The part of the OS that is always in main memory and manages core functions is",
+    "Options": [
+      "A) The kernel",
+      "B) The shell",
+      "C) The GUI",
+      "D) The file system"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS kernel",
+    "Difficulty": "Advanced",
+    "Explanation": "The kernel is the core of the OS: it manages memory, processes, I/O, and hardware communication directly."
+  },
+  {
+    "QuestionText": "The interface that allows users to interact with the OS using a command line is called",
+    "Options": [
+      "A) CLI (Command Line Interface)",
+      "B) GUI",
+      "C) Desktop",
+      "D) File manager"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS interfaces",
+    "Difficulty": "Foundation",
+    "Explanation": "CLI: text-based interface where users type commands (e.g. MS-DOS prompt, Linux terminal/bash shell)."
+  },
+  {
+    "QuestionText": "The interface that uses icons, windows, and a mouse is called",
+    "Options": [
+      "A) GUI (Graphical User Interface)",
+      "B) CLI",
+      "C) Command prompt",
+      "D) Terminal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS interfaces",
+    "Difficulty": "Foundation",
+    "Explanation": "GUI: visual interface with icons, menus, and windows (e.g. Windows Desktop, macOS Finder). Easier for beginners than CLI."
+  },
+  {
+    "QuestionText": "Which of the following is an example of a CLI OS?",
+    "Options": [
+      "A) MS-DOS (Microsoft Disk Operating System)",
+      "B) Windows 11",
+      "C) macOS",
+      "D) Android"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS types",
+    "Difficulty": "Foundation",
+    "Explanation": "MS-DOS was a command-line operating system with no graphical interface, used in early PCs."
+  },
+  {
+    "QuestionText": "The OS function that allocates memory to running programs and manages it is",
+    "Options": [
+      "A) Memory management",
+      "B) File management",
+      "C) Process scheduling",
+      "D) I/O management"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Memory management: OS allocates RAM to processes, handles virtual memory, and ensures programs don't overwrite each other."
+  },
+  {
+    "QuestionText": "The OS function that decides which process gets CPU time and when is",
+    "Options": [
+      "A) Process scheduling",
+      "B) Memory management",
+      "C) File management",
+      "D) Device management"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS functions",
+    "Difficulty": "Advanced",
+    "Explanation": "Process/CPU scheduler: allocates CPU time to processes using algorithms (FCFS, Round Robin, SJF) for efficient multitasking."
+  },
+  {
+    "QuestionText": "A file system organises data into",
+    "Options": [
+      "A) Files and directories (folders) on storage devices",
+      "B) Programs",
+      "C) Network packets",
+      "D) Hardware components"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "File systems",
+    "Difficulty": "Foundation",
+    "Explanation": "File system (FAT32, NTFS, ext4): organises data into files and directories, manages storage space allocation."
+  },
+  {
+    "QuestionText": "Windows uses NTFS as its primary file system. NTFS stands for",
+    "Options": [
+      "A) New Technology File System",
+      "B) Network Transfer File System",
+      "C) Normal Transfer File System",
+      "D) New Transfer Format System"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "File systems",
+    "Difficulty": "Advanced",
+    "Explanation": "NTFS (New Technology File System): default Windows file system; supports large files, permissions, encryption, journaling."
+  },
+  {
+    "QuestionText": "The process of loading the OS into memory when a computer starts is called",
+    "Options": [
+      "A) Booting",
+      "B) Shutting down",
+      "C) Formatting",
+      "D) Defragmenting"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Booting",
+    "Difficulty": "Foundation",
+    "Explanation": "Booting: the startup sequence that loads the OS from storage into RAM so the computer can operate."
+  },
+  {
+    "QuestionText": "RAM (Random Access Memory) is",
+    "Options": [
+      "A) Volatile memory that temporarily stores data currently in use",
+      "B) Permanent storage",
+      "C) Read-only memory",
+      "D) A type of processor"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Memory types",
+    "Difficulty": "Foundation",
+    "Explanation": "RAM: fast, volatile (loses data on power off) memory used for active programs and data; temporary working memory."
+  },
+  {
+    "QuestionText": "ROM (Read Only Memory) is",
+    "Options": [
+      "A) Non-volatile memory that stores permanent firmware (e.g. BIOS)",
+      "B) Temporary memory",
+      "C) A type of hard disk",
+      "D) A processor"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Memory types",
+    "Difficulty": "Foundation",
+    "Explanation": "ROM: non-volatile memory containing pre-programmed instructions (BIOS/UEFI) that don't change on power off."
+  },
+  {
+    "QuestionText": "Virtual memory is",
+    "Options": [
+      "A) Disk space used as an extension of RAM when RAM is full",
+      "B) Faster than RAM",
+      "C) A type of ROM",
+      "D) Cloud storage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Virtual memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Virtual memory: the OS uses a portion of the hard disk as additional RAM when physical RAM is insufficient (page file/swap space)."
+  },
+  {
+    "QuestionText": "A process is",
+    "Options": [
+      "A) A program in execution (with its own memory space and resources)",
+      "B) A stored program only",
+      "C) A file on disk",
+      "D) A hardware component"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Processes",
+    "Difficulty": "Advanced",
+    "Explanation": "Process: an active instance of a program being executed; has code, data, stack, and system resources allocated to it."
+  },
+  {
+    "QuestionText": "Multitasking OS allows",
+    "Options": [
+      "A) Multiple processes to run concurrently (or seemingly so) on one CPU",
+      "B) Only one program at a time",
+      "C) Only background programs",
+      "D) No user programs"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Multitasking",
+    "Difficulty": "Foundation",
+    "Explanation": "Multitasking: the OS rapidly switches between processes, giving the illusion of simultaneous execution on a single CPU."
+  },
+  {
+    "QuestionText": "A deadlock in an OS occurs when",
+    "Options": [
+      "A) Two or more processes are stuck waiting for resources held by each other",
+      "B) A process runs too fast",
+      "C) Memory is full",
+      "D) Disk is full"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS problems",
+    "Difficulty": "Olympiad",
+    "Explanation": "Deadlock: circular waiting \u2014 Process A holds resource 1 and wants resource 2; Process B holds resource 2 and wants resource 1. Both stuck."
+  },
+  {
+    "QuestionText": "The Windows Registry is",
+    "Options": [
+      "A) A centralised database storing OS and application configuration settings",
+      "B) A type of file",
+      "C) A program manager",
+      "D) A memory type"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Advanced",
+    "Explanation": "Registry: hierarchical database in Windows storing system and application settings, user preferences, and hardware configurations."
+  },
+  {
+    "QuestionText": "Which key combination opens Task Manager in Windows?",
+    "Options": [
+      "A) Ctrl+Alt+Delete (then select Task Manager) or Ctrl+Shift+Esc",
+      "B) Alt+F4",
+      "C) Ctrl+Z",
+      "D) Windows+D"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Windows shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Task Manager: shows running processes, CPU/memory usage, and allows ending unresponsive programs."
+  },
+  {
+    "QuestionText": "The Control Panel in Windows is used to",
+    "Options": [
+      "A) Configure system settings, hardware, and software",
+      "B) Write programs",
+      "C) Browse the internet",
+      "D) Manage files only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Windows OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Control Panel (Settings in Windows 10/11): central location for system configuration (display, sound, network, user accounts)."
+  },
+  {
+    "QuestionText": "Linux is a",
+    "Options": [
+      "A) Free, open-source OS used on servers, desktops, and embedded systems",
+      "B) Paid closed-source OS",
+      "C) Mobile OS only",
+      "D) A type of browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Linux",
+    "Difficulty": "Foundation",
+    "Explanation": "Linux: open-source kernel by Linus Torvalds (1991). Distributions: Ubuntu, Fedora, Debian. Powers most web servers."
+  },
+  {
+    "QuestionText": "Android is based on",
+    "Options": [
+      "A) The Linux kernel",
+      "B) Windows NT kernel",
+      "C) macOS kernel",
+      "D) iOS kernel"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Android OS",
+    "Difficulty": "Foundation",
+    "Explanation": "Android (Google, 2008): built on the Linux kernel. The world's most widely used mobile OS."
+  },
+  {
+    "QuestionText": "The BIOS/UEFI is firmware stored in",
+    "Options": [
+      "A) ROM on the motherboard",
+      "B) RAM",
+      "C) Hard disk",
+      "D) GPU"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "BIOS/UEFI",
+    "Difficulty": "Foundation",
+    "Explanation": "BIOS (Basic Input/Output System) or UEFI: firmware in ROM that initialises hardware during boot and passes control to the OS bootloader."
+  },
+  {
+    "QuestionText": "Device drivers are",
+    "Options": [
+      "A) Software that allows the OS to communicate with hardware devices",
+      "B) Physical hardware",
+      "C) A type of application",
+      "D) Malware"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Device drivers",
+    "Difficulty": "Foundation",
+    "Explanation": "Device drivers: programs that translate OS commands into device-specific instructions (e.g. printer driver, graphics driver)."
+  },
+  {
+    "QuestionText": "A 'process state diagram' in OS shows transitions between",
+    "Options": [
+      "A) New, Ready, Running, Waiting/Blocked, and Terminated states",
+      "B) Only running and stopped",
+      "C) Only memory states",
+      "D) File system states"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Process states",
+    "Difficulty": "Olympiad",
+    "Explanation": "OS processes cycle through: New \u2192 Ready \u2192 Running \u2192 Waiting (I/O) \u2192 Ready again \u2192 Terminated."
+  },
+  {
+    "QuestionText": "Paging in memory management divides",
+    "Options": [
+      "A) Memory into fixed-size frames/pages to allow non-contiguous allocation",
+      "B) Memory into programs only",
+      "C) Memory into 1 block",
+      "D) Memory into files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Memory management",
+    "Difficulty": "Olympiad",
+    "Explanation": "Paging: physical memory divided into fixed frames; logical memory into pages. Eliminates external fragmentation."
+  },
+  {
+    "QuestionText": "Segmentation in memory management divides",
+    "Options": [
+      "A) Memory into variable-size logical segments (code, data, stack)",
+      "B) Memory into fixed pages",
+      "C) Memory alphabetically",
+      "D) Memory into RAM and ROM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Memory management",
+    "Difficulty": "Olympiad",
+    "Explanation": "Segmentation: divides process memory into logical segments of variable sizes, reflecting program structure."
+  },
+  {
+    "QuestionText": "A 'system call' is how",
+    "Options": [
+      "A) Application programs request services from the OS kernel",
+      "B) The OS starts up",
+      "C) Hardware communicates with CPU",
+      "D) Files are saved"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "System calls",
+    "Difficulty": "Olympiad",
+    "Explanation": "System calls (open, read, write, fork, exec): the interface between user-space programs and the kernel."
+  },
+  {
+    "QuestionText": "The 'shell' in an OS is",
+    "Options": [
+      "A) The user interface layer (CLI or GUI) that interacts with the kernel",
+      "B) The kernel itself",
+      "C) The file system",
+      "D) Device drivers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS shell",
+    "Difficulty": "Advanced",
+    "Explanation": "Shell: the user-facing interface that interprets commands and calls kernel functions (bash, zsh for CLI; Windows Explorer for GUI)."
+  },
+  {
+    "QuestionText": "Context switching is when",
+    "Options": [
+      "A) The OS saves the state of one process and restores another to the CPU",
+      "B) Memory is cleared",
+      "C) A file is saved",
+      "D) A program is compiled"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Process management",
+    "Difficulty": "Olympiad",
+    "Explanation": "Context switch: CPU saves current process state (registers, PC) to PCB and loads the next process's state. Enables multitasking."
+  },
+  {
+    "QuestionText": "Thrashing in OS occurs when",
+    "Options": [
+      "A) Excessive page swapping causes the system to spend more time swapping than executing",
+      "B) System runs very fast",
+      "C) Memory is cleared",
+      "D) CPU speed increases"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Virtual memory",
+    "Difficulty": "Olympiad",
+    "Explanation": "Thrashing: system spends more time moving pages between RAM and disk than executing processes; caused by too little RAM."
+  },
+  {
+    "QuestionText": "The 'ls' command in Linux lists",
+    "Options": [
+      "A) Files and directories in the current directory",
+      "B) Running processes",
+      "C) Memory usage",
+      "D) Network status"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Linux commands",
+    "Difficulty": "Advanced",
+    "Explanation": "ls (list): displays files and directories. ls -l shows detailed listing; ls -a shows hidden files."
+  },
+  {
+    "QuestionText": "The 'cd' command in command line changes",
+    "Options": [
+      "A) The current directory",
+      "B) The CPU speed",
+      "C) File permissions",
+      "D) The OS version"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "CLI commands",
+    "Difficulty": "Foundation",
+    "Explanation": "cd (change directory): navigates between directories. cd .. moves up one level."
+  },
+  {
+    "QuestionText": "The 'mkdir' command creates",
+    "Options": [
+      "A) A new directory (folder)",
+      "B) A new file",
+      "C) A new user",
+      "D) A new process"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "CLI commands",
+    "Difficulty": "Foundation",
+    "Explanation": "mkdir (make directory): creates a new folder. E.g. mkdir Projects creates a folder named Projects."
+  },
+  {
+    "QuestionText": "The 'cp' command in Linux copies",
+    "Options": [
+      "A) Files or directories",
+      "B) Processes",
+      "C) Permissions only",
+      "D) Network packets"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Linux commands",
+    "Difficulty": "Advanced",
+    "Explanation": "cp source destination: copies files. cp -r copies directories recursively."
+  },
+  {
+    "QuestionText": "The 'rm' command in Linux removes",
+    "Options": [
+      "A) Files (permanently \u2014 no recycle bin)",
+      "B) Directories only",
+      "C) Processes",
+      "D) Users"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Linux commands",
+    "Difficulty": "Advanced",
+    "Explanation": "rm: deletes files permanently in Linux (no undo). rm -r removes directories recursively. Use with caution."
+  },
+  {
+    "QuestionText": "Permissions in Linux (rwx) stand for",
+    "Options": [
+      "A) Read, Write, and Execute",
+      "B) Run, Write, Exit",
+      "C) Read, Write, Exit",
+      "D) Run, Wait, Execute"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Linux permissions",
+    "Difficulty": "Advanced",
+    "Explanation": "Linux permissions: r (read), w (write), x (execute). Set for owner, group, and others (e.g. rwxr-xr-x)."
+  },
+  {
+    "QuestionText": "The 'chmod' command changes",
+    "Options": [
+      "A) File permissions in Linux",
+      "B) File content",
+      "C) Directory names",
+      "D) User passwords"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Linux commands",
+    "Difficulty": "Advanced",
+    "Explanation": "chmod (change mode): modifies read/write/execute permissions for files and directories."
+  },
+  {
+    "QuestionText": "Defragmentation of a hard disk",
+    "Options": [
+      "A) Reorganises scattered file fragments to improve read speed",
+      "B) Deletes files",
+      "C) Formats the disk",
+      "D) Increases disk size"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Disk management",
+    "Difficulty": "Foundation",
+    "Explanation": "Defragmentation: reorganises fragmented files on HDD into contiguous blocks for faster access. Not needed for SSDs."
+  },
+  {
+    "QuestionText": "A file extension tells the OS and user",
+    "Options": [
+      "A) What type of file it is and which application can open it",
+      "B) The file size",
+      "C) The file location",
+      "D) The file creation date"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "File management",
+    "Difficulty": "Foundation",
+    "Explanation": "File extension: .docx (Word), .xlsx (Excel), .jpg (image), .mp3 (audio), .exe (executable)."
+  },
+  {
+    "QuestionText": "Formatting a disk",
+    "Options": [
+      "A) Prepares it for use by writing a new file system (erases all data)",
+      "B) Defrags the disk",
+      "C) Backs up data",
+      "D) Installs the OS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Disk management",
+    "Difficulty": "Foundation",
+    "Explanation": "Formatting: creates a new file system on a storage device. Low-level format zeros sectors; high-level writes file system."
+  },
+  {
+    "QuestionText": "The 'ping' command tests",
+    "Options": [
+      "A) Network connectivity to a host by sending ICMP echo requests",
+      "B) File transfers",
+      "C) System performance",
+      "D) Processor speed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Networking commands",
+    "Difficulty": "Advanced",
+    "Explanation": "ping hostname/IP: sends ICMP packets to test if a host is reachable and measures round-trip time."
+  },
+  {
+    "QuestionText": "The 'ipconfig' (Windows) or 'ifconfig' (Linux) command displays",
+    "Options": [
+      "A) IP address and network configuration of the computer",
+      "B) Running processes",
+      "C) Disk space",
+      "D) File permissions"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Networking commands",
+    "Difficulty": "Advanced",
+    "Explanation": "ipconfig/ifconfig: shows network interface details including IP address, subnet mask, default gateway."
+  },
+  {
+    "QuestionText": "A scheduler decides",
+    "Options": [
+      "A) Which process gets CPU time and in what order",
+      "B) Memory allocation",
+      "C) File access",
+      "D) Network routing"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "CPU scheduling",
+    "Difficulty": "Advanced",
+    "Explanation": "CPU scheduler: selects which ready process gets CPU next using algorithms (FCFS, SJF, Round Robin, Priority)."
+  },
+  {
+    "QuestionText": "An interrupt is",
+    "Options": [
+      "A) A signal that tells the CPU to stop current tasks and handle an urgent event",
+      "B) A type of error only",
+      "C) A programming command",
+      "D) A file operation"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Interrupts",
+    "Difficulty": "Advanced",
+    "Explanation": "Interrupt: hardware or software signal that preempts the CPU to handle high-priority events (keypress, I/O completion, timer)."
+  },
+  {
+    "QuestionText": "The file allocation table (FAT) in FAT32 file system",
+    "Options": [
+      "A) Keeps track of which disk clusters belong to each file",
+      "B) Is only for RAM",
+      "C) Manages processes",
+      "D) Controls CPU speed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "File systems",
+    "Difficulty": "Advanced",
+    "Explanation": "FAT (File Allocation Table): a table on disk listing which clusters are used by each file and which are free."
+  },
+  {
+    "QuestionText": "Open source software has",
+    "Options": [
+      "A) Publicly available source code that anyone can view, modify, and distribute",
+      "B) Only free price",
+      "C) Only for Linux",
+      "D) No support available"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Software types",
+    "Difficulty": "Foundation",
+    "Explanation": "Open source: source code is available for anyone to view, modify, and distribute. Examples: Linux, Firefox, LibreOffice."
+  },
+  {
+    "QuestionText": "Proprietary software is",
+    "Options": [
+      "A) Software owned by a company/individual with restricted use and source code",
+      "B) Free and open",
+      "C) Always expensive",
+      "D) Available only on Linux"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "Software types",
+    "Difficulty": "Foundation",
+    "Explanation": "Proprietary software: owned by developer, source code is secret, users must agree to license (Windows, MS Office, Adobe)."
+  },
+  {
+    "QuestionText": "A batch OS processes",
+    "Options": [
+      "A) Jobs in batches without user interaction during processing",
+      "B) One job at a time interactively",
+      "C) All jobs simultaneously",
+      "D) Only real-time jobs"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS types",
+    "Difficulty": "Olympiad",
+    "Explanation": "Batch OS: queues jobs and runs them without user intervention. Efficient for large repetitive tasks (payroll processing)."
+  },
+  {
+    "QuestionText": "A real-time OS (RTOS) is used in",
+    "Options": [
+      "A) Time-critical systems requiring guaranteed response times (e.g. medical devices, aircraft)",
+      "B) Office computers",
+      "C) Gaming consoles only",
+      "D) Home PCs"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Operating Systems and Basics",
+    "SubTopic": "OS types",
+    "Difficulty": "Olympiad",
+    "Explanation": "RTOS: strict timing guarantees. Used in embedded systems: pacemakers, anti-lock brakes, aircraft controls."
+  }
+]

@@ -1,5 +1,6 @@
 export type Question = {
   q: string;
+  imageUrl?: string;
   options: string[];
   answer: string;
   explanation: string;
@@ -166,6 +167,7 @@ export type LeaderboardEntry = {
 export type DailyQuizQuestion = {
   questionId: string;
   questionText: string;
+  imageUrl?: string;
   options: string[];
   subject: string;
   topic: string;

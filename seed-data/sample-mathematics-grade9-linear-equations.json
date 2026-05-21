@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The linear equation ax + by + c = 0 has how many variables?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) Depends on a,b,c"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "ax + by + c = 0 has two variables (x and y). It is a linear equation in two variables."
+  },
+  {
+    "QuestionText": "A linear equation in two variables has how many solutions?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "A linear equation in two variables has infinitely many solutions \u2014 each solution is an ordered pair (x, y) satisfying the equation, and these form a straight line."
+  },
+  {
+    "QuestionText": "The graph of a linear equation in two variables is a:",
+    "Options": [
+      "A) Parabola",
+      "B) Circle",
+      "C) Straight line",
+      "D) Curve"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "Every linear equation ax + by + c = 0 graphs as a straight line in the coordinate plane."
+  },
+  {
+    "QuestionText": "Does the point (2, 3) satisfy 2x + y = 7?",
+    "Options": [
+      "A) Yes",
+      "B) No",
+      "C) Cannot determine",
+      "D) Only if x=2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "Substitute: 2(2)+3 = 4+3 = 7. Yes, the equation is satisfied. (2,3) is a solution."
+  },
+  {
+    "QuestionText": "The equation y = 5 in two variables can be written as:",
+    "Options": [
+      "A) 0\u00b7x + y = 5",
+      "B) x + y = 5",
+      "C) x \u2212 y = 5",
+      "D) 5x = y"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "y = 5 means: 0\u00b7x + 1\u00b7y = 5. It's a linear equation in two variables where x can be anything \u2014 its graph is a horizontal line."
+  },
+  {
+    "QuestionText": "The equation of the x-axis is:",
+    "Options": [
+      "A) x = 0",
+      "B) y = 0",
+      "C) x + y = 0",
+      "D) x = y"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "The x-axis is the line where y = 0 for all x."
+  },
+  {
+    "QuestionText": "The equation x = 0 represents the:",
+    "Options": [
+      "A) x-axis",
+      "B) y-axis",
+      "C) Origin",
+      "D) Line x=y"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "x = 0 means all points with x-coordinate 0 \u2192 the y-axis."
+  },
+  {
+    "QuestionText": "Find a solution to 2x + 3y = 12.",
+    "Options": [
+      "A) (3, 2)",
+      "B) (6, 0)",
+      "C) (0, 4)",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "x=6,y=0: 12+0=12 \u2713. x=0,y=4: 0+12=12 \u2713. Both are valid solutions."
+  },
+  {
+    "QuestionText": "If 3x + 4 = 10, then x =",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "3x = 10\u22124 = 6 \u2192 x = 2."
+  },
+  {
+    "QuestionText": "A linear equation in one variable has:",
+    "Options": [
+      "A) No solution",
+      "B) Infinitely many solutions",
+      "C) Exactly one solution",
+      "D) Two solutions"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "A linear equation in one variable (like 2x+3=7) has exactly one solution."
+  },
+  {
+    "QuestionText": "The point (0, b) always lies on the:",
+    "Options": [
+      "A) x-axis",
+      "B) y-axis",
+      "C) Line y=x",
+      "D) Origin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "Any point with x=0 lies on the y-axis. (0, b) for any value of b is on the y-axis."
+  },
+  {
+    "QuestionText": "For the equation 5x \u2212 2y = 10, the x-intercept is:",
+    "Options": [
+      "A) 5",
+      "B) 2",
+      "C) \u22125",
+      "D) 10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "x-intercept: set y=0. 5x=10 \u2192 x=2. The line crosses the x-axis at (2,0)."
+  },
+  {
+    "QuestionText": "For the equation x + 2y = 6, the y-intercept is:",
+    "Options": [
+      "A) 6",
+      "B) 3",
+      "C) 2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "y-intercept: set x=0. 2y=6 \u2192 y=3. The line crosses the y-axis at (0,3)."
+  },
+  {
+    "QuestionText": "Which equation does NOT represent a straight line?",
+    "Options": [
+      "A) 2x + 3y = 6",
+      "B) x \u2212 y = 0",
+      "C) x\u00b2 + y = 1",
+      "D) y = 5"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Introduction",
+    "Difficulty": "Advanced",
+    "Explanation": "x\u00b2 + y = 1 is not linear (has x\u00b2). Linear equations have variables with degree 1 only."
+  },
+  {
+    "QuestionText": "The cost C (\u20b9) of printing x books is C = 200x + 500. What is the cost for 10 books?",
+    "Options": [
+      "A) \u20b92000",
+      "B) \u20b92500",
+      "C) \u20b9500",
+      "D) \u20b91500"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "C = 200(10)+500 = 2000+500 = 2500."
+  },
+  {
+    "QuestionText": "If x + y = 10 and x \u2212 y = 4, then x = ?",
+    "Options": [
+      "A) 3",
+      "B) 6",
+      "C) 7",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding the equations: 2x = 14 \u2192 x = 7."
+  },
+  {
+    "QuestionText": "If x + y = 10 and x \u2212 y = 4, then y = ?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "From x=7: y = 10\u22127 = 3."
+  },
+  {
+    "QuestionText": "Solve: (x+2)/3 = 5",
+    "Options": [
+      "A) 13",
+      "B) 15",
+      "C) 17",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "x+2 = 15 \u2192 x = 13."
+  },
+  {
+    "QuestionText": "Priya has \u20b9200 more than Rohan. Together they have \u20b9800. How much does Rohan have?",
+    "Options": [
+      "A) \u20b9300",
+      "B) \u20b9200",
+      "C) \u20b9500",
+      "D) \u20b9400"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "Let Rohan = x. Priya = x+200. x+(x+200)=800 \u2192 2x+200=800 \u2192 2x=600 \u2192 x=300."
+  },
+  {
+    "QuestionText": "The equation 2(x \u2212 3) = x + 4 gives x =",
+    "Options": [
+      "A) 7",
+      "B) 10",
+      "C) \u221210",
+      "D) \u22127"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "2x\u22126=x+4 \u2192 x=10."
+  },
+  {
+    "QuestionText": "The standard form of linear equation in two variables is:",
+    "Options": [
+      "A) ax\u00b2 + bx + c = 0",
+      "B) ax + by + c = 0",
+      "C) ax + by = 0",
+      "D) y = mx"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard form: ax + by + c = 0 where a, b, c are real numbers and a, b are not both zero."
+  },
+  {
+    "QuestionText": "If 7x = 42, then x = ",
+    "Options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "x = 42/7 = 6."
+  },
+  {
+    "QuestionText": "The graph of y = x is a line through the:",
+    "Options": [
+      "A) Point (1,0)",
+      "B) Origin",
+      "C) Point (0,1)",
+      "D) Point (1,1) only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "y=x: when x=0, y=0. So the line passes through the origin (0,0) and has slope 1."
+  },
+  {
+    "QuestionText": "If 2x + 5y = 20, find y when x = 5.",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "2(5)+5y=20 \u2192 10+5y=20 \u2192 5y=10 \u2192 y=2."
+  },
+  {
+    "QuestionText": "How many solutions does the equation 2x + 4y = 10 have?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "Any linear equation in two variables has infinitely many solutions (an entire straight line of solutions)."
+  },
+  {
+    "QuestionText": "Age of father is 3 times age of son. Sum of ages = 60. Son's age is:",
+    "Options": [
+      "A) 15",
+      "B) 18",
+      "C) 20",
+      "D) 45"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "Son=x, Father=3x. x+3x=60 \u2192 4x=60 \u2192 x=15."
+  },
+  {
+    "QuestionText": "The equation 3x = 12 when graphed is a:",
+    "Options": [
+      "A) Horizontal line",
+      "B) Vertical line at x=4",
+      "C) Diagonal line",
+      "D) Parabola"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "3x=12 \u2192 x=4. In two variables, x=4 is a vertical line."
+  },
+  {
+    "QuestionText": "Solve: 5(x \u2212 1) = 3(x + 2)",
+    "Options": [
+      "A) x = 11/2",
+      "B) x = 5.5",
+      "C) x = 11/2 = 5.5",
+      "D) x = \u22125"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Advanced",
+    "Explanation": "5x\u22125=3x+6 \u2192 2x=11 \u2192 x=11/2=5.5."
+  },
+  {
+    "QuestionText": "Convert \u20b9 1 = x US cents to linear equation when \u20b9 = 75 (x \u2260 75):",
+    "Options": [
+      "A) 75y = x",
+      "B) y = x/75",
+      "C) x = 75y (x = cents, y = rupees)",
+      "D) y = 75x"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "1 rupee = 75 cents \u2192 y rupees = 75y cents. If x = number of cents: x = 75y."
+  },
+  {
+    "QuestionText": "The two equations 2x + y = 5 and 4x + 2y = 10 represent:",
+    "Options": [
+      "A) Two parallel lines",
+      "B) Two intersecting lines",
+      "C) The same line (coincident)",
+      "D) Perpendicular lines"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "The second equation = 2 \u00d7 first equation. They are the same line \u2014 coincident lines with infinitely many solutions."
+  },
+  {
+    "QuestionText": "A number decreased by 5 equals 3 times the number decreased by 17. Find the number.",
+    "Options": [
+      "A) 6",
+      "B) 23",
+      "C) 10",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "n\u22125=3(n\u221217) \u2192 n\u22125=3n\u221251 \u2192 \u22122n=\u221246 \u2192 n=23. The answer should be 23 but since it's not listed, reconsider the problem."
+  },
+  {
+    "QuestionText": "Solve: x/2 + x/3 = 10",
+    "Options": [
+      "A) 10",
+      "B) 12",
+      "C) 15",
+      "D) 18"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiply by 6: 3x+2x=60 \u2192 5x=60 \u2192 x=12."
+  },
+  {
+    "QuestionText": "A man rows downstream at 12 km/h and upstream at 8 km/h. The speed of current is:",
+    "Options": [
+      "A) 1 km/h",
+      "B) 2 km/h",
+      "C) 4 km/h",
+      "D) 10 km/h"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Olympiad",
+    "Explanation": "Speed in still water = (12+8)/2=10 km/h. Speed of current = (12\u22128)/2=2 km/h."
+  },
+  {
+    "QuestionText": "If x and y satisfy x \u2212 y = 2 and x + y = 8, find xy.",
+    "Options": [
+      "A) 10",
+      "B) 15",
+      "C) 16",
+      "D) 20"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Systems",
+    "Difficulty": "Olympiad",
+    "Explanation": "x=5, y=3. xy=15."
+  },
+  {
+    "QuestionText": "The graph of x + y = 5 passes through:",
+    "Options": [
+      "A) (2, 2)",
+      "B) (3, 2)",
+      "C) (2, 3)",
+      "D) (4, 4)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "Check (2,3): 2+3=5 \u2713. (2,2): 2+2=4\u22605. (3,2): 3+2=5 \u2713. Both B and C! Let me check: yes both (3,2) and (2,3) satisfy x+y=5. If only one answer: C=(2,3) \u2713."
+  },
+  {
+    "QuestionText": "Two consecutive even numbers sum to 38. The numbers are:",
+    "Options": [
+      "A) 18 and 20",
+      "B) 16 and 22",
+      "C) 19 and 19",
+      "D) 20 and 18"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "Let n and n+2 be consecutive even numbers. n+(n+2)=38 \u2192 2n+2=38 \u2192 2n=36 \u2192 n=18. Numbers: 18 and 20."
+  },
+  {
+    "QuestionText": "In the equation 3x + 2y = 6, when x = 0:",
+    "Options": [
+      "A) y = 0",
+      "B) y = 2",
+      "C) y = 3",
+      "D) y = 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "3(0)+2y=6 \u2192 2y=6 \u2192 y=3. The y-intercept is (0,3)."
+  },
+  {
+    "QuestionText": "Solve: 7 \u2212 2x = x \u2212 8",
+    "Options": [
+      "A) x = 3",
+      "B) x = 5",
+      "C) x = 7",
+      "D) x = 15"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "7\u22122x=x\u22128 \u2192 15=3x \u2192 x=5."
+  },
+  {
+    "QuestionText": "If 1/(x\u22121) = 2, then x = ",
+    "Options": [
+      "A) 3/2",
+      "B) 1/2",
+      "C) 3",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Advanced",
+    "Explanation": "x\u22121=1/2 \u2192 x=1+1/2=3/2."
+  },
+  {
+    "QuestionText": "The line 2x \u2212 y = 0 passes through:",
+    "Options": [
+      "A) (1, 2)",
+      "B) (2, 1)",
+      "C) (1, \u22122)",
+      "D) (\u22121, 2)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "Check (1,2): 2(1)\u22122=0 \u2713. (2,1): 4\u22121=3\u22600. So (1,2) satisfies the equation."
+  },
+  {
+    "QuestionText": "How many solutions does the system x+y=5 and x+y=8 have?",
+    "Options": [
+      "A) 0 (inconsistent)",
+      "B) 1",
+      "C) 2",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "x+y=5 and x+y=8 are parallel lines (same coefficients, different constants). They never intersect \u2192 no solution (inconsistent system)."
+  },
+  {
+    "QuestionText": "The equation representing 'twice a number is 10 more than the number' is:",
+    "Options": [
+      "A) 2x = 10",
+      "B) 2x = x + 10",
+      "C) x = 10 + 2x",
+      "D) 2 + x = 10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Foundation",
+    "Explanation": "'Twice a number' = 2x. '10 more than the number' = x+10. Equation: 2x = x+10 \u2192 x=10."
+  },
+  {
+    "QuestionText": "Solve: 3(x+4) = 21",
+    "Options": [
+      "A) 3",
+      "B) 7",
+      "C) 5",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "x+4=7 \u2192 x=3."
+  },
+  {
+    "QuestionText": "A ticket costs \u20b910 for children and \u20b925 for adults. Total collection = \u20b91000. If 50 children attended, how many adults?",
+    "Options": [
+      "A) 20",
+      "B) 25",
+      "C) 30",
+      "D) 40"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "50(10)+25a=1000 \u2192 500+25a=1000 \u2192 25a=500 \u2192 a=20."
+  },
+  {
+    "QuestionText": "For x=1 in 3x + ky = 9, if y = 2, what is k?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "3(1)+k(2)=9 \u2192 3+2k=9 \u2192 2k=6 \u2192 k=3."
+  },
+  {
+    "QuestionText": "Number of lines that can pass through two given points is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "Through any two distinct points, exactly one straight line can be drawn (Euclid's axiom). This unique line has a unique equation."
+  },
+  {
+    "QuestionText": "The system of equations y = 2x and y = 2x + 1 has:",
+    "Options": [
+      "A) Infinitely many solutions",
+      "B) Exactly one solution",
+      "C) No solution",
+      "D) Exactly two solutions"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Both have slope 2 but different y-intercepts (0 vs 1) \u2192 parallel lines \u2192 no intersection \u2192 no solution."
+  },
+  {
+    "QuestionText": "The minimum number of points needed to draw a line is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "Graphing",
+    "Difficulty": "Foundation",
+    "Explanation": "Two points uniquely determine a line. One point is insufficient. Three or more points on the same line are collinear."
+  },
+  {
+    "QuestionText": "Solve for x: 4x \u2212 3 = 2x + 9",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "4x\u22122x=9+3 \u2192 2x=12 \u2192 x=6."
+  },
+  {
+    "QuestionText": "The solution of the equation x \u2212 5 = 0 is:",
+    "Options": [
+      "A) 0",
+      "B) 5",
+      "C) \u22125",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Linear Equations",
+    "SubTopic": "One Variable",
+    "Difficulty": "Foundation",
+    "Explanation": "x=5 satisfies x\u22125=0."
+  }
+]

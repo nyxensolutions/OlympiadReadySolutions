@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If sin A = 3/4, then the value of cos A is:",
+    "Options": ["A) 4/3", "B) √7/4", "C) 7/4", "D) 1/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "Using sin²A + cos²A = 1: (3/4)² + cos²A = 1 => 9/16 + cos²A = 1 => cos²A = 7/16 => cos A = √7/4."
+  },
+  {
+    "QuestionText": "The value of (sin 30° + cos 30°) - (sin 60° + cos 60°) is:",
+    "Options": ["A) -1", "B) 0", "C) 1", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "(1/2 + √3/2) - (√3/2 + 1/2) = 0."
+  },
+  {
+    "QuestionText": "If tan θ = a/b, then the value of (b sin θ - a cos θ) / (b sin θ + a cos θ) is:",
+    "Options": ["A) (b² - a²) / (b² + a²)", "B) (a² - b²) / (a² + b²)", "C) a² / (a² + b²)", "D) 0"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "Divide numerator and denominator by cos θ: (b tan θ - a) / (b tan θ + a). Substitute tan θ = a/b: (b(a/b) - a) / (b(a/b) + a) = (a - a) / (a + a) = 0."
+  },
+  {
+    "QuestionText": "The value of (1 + tan² θ) (1 - sin² θ) is:",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(sec² θ) * (cos² θ) = (1 / cos² θ) * cos² θ = 1."
+  },
+  {
+    "QuestionText": "If 4 tan θ = 3, then (4 sin θ - cos θ) / (4 sin θ + cos θ) is equal to:",
+    "Options": ["A) 2/3", "B) 1/3", "C) 1/2", "D) 3/4"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "tan θ = 3/4. Divide eq by cos θ: (4 tan θ - 1) / (4 tan θ + 1) = (3 - 1) / (3 + 1) = 2/4 = 1/2."
+  },
+  {
+    "QuestionText": "If cos A = 4/5, then the value of tan A is:",
+    "Options": ["A) 3/5", "B) 3/4", "C) 4/3", "D) 1/8"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "If cos A = adj/hyp = 4/5, then opp = √(5² - 4²) = 3. tan A = opp/adj = 3/4."
+  },
+  {
+    "QuestionText": "The value of (sin θ / (1 + cos θ)) is equal to:",
+    "Options": ["A) (1 + cos θ) / sin θ", "B) (1 - cos θ) / sin θ", "C) (1 - sin θ) / cos θ", "D) (1 + sin θ) / cos θ"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "Multiply numerator and denominator by (1 - cos θ): [sin θ (1 - cos θ)] / (1 - cos² θ) = [sin θ (1 - cos θ)] / sin² θ = (1 - cos θ) / sin θ."
+  },
+  {
+    "QuestionText": "If sin θ - cos θ = 0, then the value of (sin⁴ θ + cos⁴ θ) is:",
+    "Options": ["A) 1", "B) 3/4", "C) 1/2", "D) 1/4"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "sin θ = cos θ => tan θ = 1 => θ = 45°. sin⁴ 45° + cos⁴ 45° = (1/√2)⁴ + (1/√2)⁴ = 1/4 + 1/4 = 1/2."
+  },
+  {
+    "QuestionText": "Value of (sec² 10° - cot² 80°) is:",
+    "Options": ["A) 1", "B) 0", "C) 3/2", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "cot 80° = tan 10°. sec² 10° - tan² 10° = 1."
+  },
+  {
+    "QuestionText": "If sin A + sin² A = 1, then the value of the expression (cos² A + cos⁴ A) is:",
+    "Options": ["A) 1", "B) 1/2", "C) 2", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "sin A = 1 - sin² A = cos² A. Therefore, cos² A + cos⁴ A = sin A + (sin A)² = sin A + sin² A = 1."
+  },
+  {
+    "QuestionText": "The value of tan 30° / cot 60° is:",
+    "Options": ["A) 1/√3", "B) 1", "C) √3", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "tan 30° = 1/√3 and cot 60° = 1/√3. Ratio is 1."
+  },
+  {
+    "QuestionText": "If cos(α + β) = 0, then sin(α - β) can be reduced to:",
+    "Options": ["A) cos β", "B) cos 2β", "C) sin α", "D) sin 2α"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Olympiad",
+    "Explanation": "α + β = 90° => α = 90° - β. sin(α - β) = sin(90° - β - β) = sin(90° - 2β) = cos 2β."
+  },
+  {
+    "QuestionText": "The value of (sin² 45° + cos² 45°) is:",
+    "Options": ["A) 1/2", "B) 1", "C) 0", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard identity sin² θ + cos² θ = 1 for any angle θ."
+  },
+  {
+    "QuestionText": "If sin A = 1/2, then the value of cot A is:",
+    "Options": ["A) √3", "B) 1/√3", "C) √3/2", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "sin A = 1/2 => A = 30°. cot 30° = √3."
+  },
+  {
+    "QuestionText": "The value of (sec A + tan A) (1 - sin A) is:",
+    "Options": ["A) sec A", "B) sin A", "C) cosec A", "D) cos A"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "[(1 + sin A) / cos A] * (1 - sin A) = (1 - sin² A) / cos A = cos² A / cos A = cos A."
+  },
+  {
+    "QuestionText": "If a pole 6 m high casts a shadow 2√3 m long on the ground, then the sun’s elevation is:",
+    "Options": ["A) 60°", "B) 45°", "C) 30°", "D) 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "tan θ = Height / Shadow = 6 / 2√3 = 3 / √3 = √3. tan 60° = √3, so θ = 60°."
+  },
+  {
+    "QuestionText": "The value of cos 1° cos 2° cos 3° ... cos 90° is:",
+    "Options": ["A) 1", "B) 0", "C) -1", "D) 1/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "cos 90° = 0. Since 0 is a factor in the product, the entire expression becomes 0."
+  },
+  {
+    "QuestionText": "If x tan 45° cos 60° = sin 60° cot 60°, then x is equal to:",
+    "Options": ["A) 1", "B) √3", "C) 1/2", "D) 1/√2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "x(1)(1/2) = (√3/2)(1/√3) => x/2 = 1/2 => x = 1."
+  },
+  {
+    "QuestionText": "If sin θ + cos θ = √2 cos θ, then value of tan θ is:",
+    "Options": ["A) √2 - 1", "B) √2 + 1", "C) √2", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Olympiad",
+    "Explanation": "Divide by cos θ: tan θ + 1 = √2 => tan θ = √2 - 1."
+  },
+  {
+    "QuestionText": "If triangle ABC is right angled at C, then the value of cos(A + B) is:",
+    "Options": ["A) 0", "B) 1", "C) 1/2", "D) √3/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "A + B + C = 180°. If C = 90°, then A + B = 90°. cos 90° = 0."
+  },
+  {
+    "QuestionText": "Given that sin α = 1/2 and cos β = 1/2, then the value of (α + β) is:",
+    "Options": ["A) 0°", "B) 30°", "C) 60°", "D) 90°"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "α = 30° and β = 60°. α + β = 90°."
+  },
+  {
+    "QuestionText": "If sec θ + tan θ = x, then sec θ is:",
+    "Options": ["A) (x² + 1) / x", "B) (x² + 1) / 2x", "C) (x² - 1) / 2x", "D) (x² - 1) / x"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "We know sec²θ - tan²θ = 1, so sec θ - tan θ = 1/x. Adding the two equations gives 2 sec θ = x + 1/x = (x² + 1) / x."
+  },
+  {
+    "QuestionText": "The value of (tan 1° tan 2° ... tan 89°) is:",
+    "Options": ["A) 0", "B) 1", "C) √3", "D) 1/√3"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "tan 1° * tan 89° = tan 1° * cot 1° = 1. All terms pair up to 1, with tan 45° = 1 in the middle."
+  },
+  {
+    "QuestionText": "If cos 9α = sin α and 9α < 90°, then the value of tan 5α is:",
+    "Options": ["A) 1/√3", "B) √3", "C) 1", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "cos 9α = cos(90° - α) => 9α = 90° - α => 10α = 90° => α = 9°. tan 5α = tan 45° = 1."
+  },
+  {
+    "QuestionText": "The maximum value of 1 / cosec θ is:",
+    "Options": ["A) 0", "B) 1", "C) 1/2", "D) Not defined"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "1 / cosec θ = sin θ. The maximum value of sin θ is 1."
+  },
+  {
+    "QuestionText": "If sin θ = 1/3, then the value of (2 cot² θ + 2) is:",
+    "Options": ["A) 6", "B) 9", "C) 18", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "2(cot² θ + 1) = 2 cosec² θ = 2 / sin² θ = 2 / (1/9) = 18."
+  },
+  {
+    "QuestionText": "What is the value of (cosec² θ - 1) tan² θ?",
+    "Options": ["A) 1", "B) 0", "C) cos² θ", "D) sin² θ"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "cot² θ * tan² θ = 1."
+  },
+  {
+    "QuestionText": "If sec A = 15/7 and A+B = 90°, find cosec B.",
+    "Options": ["A) 7/15", "B) 15/7", "C) 8/15", "D) 15/8"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "cosec B = cosec(90 - A) = sec A = 15/7."
+  },
+  {
+    "QuestionText": "In a right triangle ABC, sin A = 1/2. What is the value of (3 cos A - 4 cos³ A)?",
+    "Options": ["A) 0", "B) 1", "C) 1/2", "D) √3/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Olympiad",
+    "Explanation": "sin A = 1/2 => A = 30°. cos 30° = √3/2. Expression = 3(√3/2) - 4(3√3/8) = 3√3/2 - 3√3/2 = 0."
+  },
+  {
+    "QuestionText": "The ratio of the length of a rod and its shadow is 1:√3. The angle of elevation of the sun is:",
+    "Options": ["A) 30°", "B) 45°", "C) 60°", "D) 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "tan θ = 1/√3 => θ = 30°."
+  },
+  {
+    "QuestionText": "If cos A + cos² A = 1, find sin² A + sin⁴ A.",
+    "Options": ["A) 0", "B) 1/2", "C) 1", "D) 2"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "cos A = 1 - cos² A = sin² A. Then sin² A + (sin² A)² = cos A + cos² A = 1."
+  },
+  {
+    "QuestionText": "If tan θ = 4/3, what is sin θ + cos θ?",
+    "Options": ["A) 7/3", "B) 7/5", "C) 5/7", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "opp=4, adj=3, hyp=5. sin θ = 4/5, cos θ = 3/5. Sum = 7/5."
+  },
+  {
+    "QuestionText": "Value of (1 - tan² 45°) / (1 + tan² 45°) is:",
+    "Options": ["A) tan 90°", "B) 1", "C) sin 45°", "D) cos 90°"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "(1 - 1) / (1 + 1) = 0. cos 90° = 0."
+  },
+  {
+    "QuestionText": "If sin(A - B) = 1/2 and cos(A + B) = 1/2, then A and B are:",
+    "Options": ["A) 45°, 15°", "B) 30°, 30°", "C) 60°, 30°", "D) 45°, 45°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "A - B = 30° and A + B = 60°. Adding gives 2A = 90° => A = 45°, B = 15°."
+  },
+  {
+    "QuestionText": "The value of sin 60° cos 30° + sin 30° cos 60° is:",
+    "Options": ["A) 1", "B) 2", "C) 1/2", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "(√3/2 * √3/2) + (1/2 * 1/2) = 3/4 + 1/4 = 1."
+  },
+  {
+    "QuestionText": "If 2 sin 2θ = √3, then θ is:",
+    "Options": ["A) 30°", "B) 45°", "C) 60°", "D) 15°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "sin 2θ = √3/2 => 2θ = 60° => θ = 30°."
+  },
+  {
+    "QuestionText": "The value of (1 + cot² θ) / (1 + tan² θ) is:",
+    "Options": ["A) sec² θ", "B) -1", "C) cot² θ", "D) tan² θ"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "cosec² θ / sec² θ = (1/sin² θ) / (1/cos² θ) = cos² θ / sin² θ = cot² θ."
+  },
+  {
+    "QuestionText": "If sec θ = 25/7, then sin θ is:",
+    "Options": ["A) 7/24", "B) 24/25", "C) 7/25", "D) 24/7"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "hyp=25, adj=7, opp = √(25² - 7²) = 24. sin θ = 24/25."
+  },
+  {
+    "QuestionText": "What is the value of (cos θ sin θ tan θ + cos θ sin θ cot θ)?",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) sin θ"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "cos θ sin θ (sin θ/cos θ) + cos θ sin θ (cos θ/sin θ) = sin² θ + cos² θ = 1."
+  },
+  {
+    "QuestionText": "Which is the largest value?",
+    "Options": ["A) sin 30°", "B) sin 45°", "C) sin 60°", "D) sin 90°"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "sin θ increases from 0 to 1 as θ goes from 0° to 90°."
+  },
+  {
+    "QuestionText": "If sin A = cos A, then the value of 2 tan² A + sin² A - 1 is:",
+    "Options": ["A) 3/2", "B) 5/2", "C) 1/2", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "A = 45°. 2(1)² + (1/√2)² - 1 = 2 + 1/2 - 1 = 1.5 = 3/2."
+  },
+  {
+    "QuestionText": "The value of cot 10° cot 20° cot 70° cot 80° is:",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) √3"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "(cot 10° * cot 80°) * (cot 20° * cot 70°) = (cot 10° * tan 10°) * (cot 20° * tan 20°) = 1 * 1 = 1."
+  },
+  {
+    "QuestionText": "If cosec θ = 2 and cot θ = √3 p, then p is:",
+    "Options": ["A) 1", "B) 1/√3", "C) √3", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "cosec θ = 2 => θ = 30°. cot 30° = √3. So √3 p = √3 => p = 1."
+  },
+  {
+    "QuestionText": "In right ΔABC, ∠B = 90°. If tan A = 1, then 2 sin A cos A is:",
+    "Options": ["A) 1", "B) 1/2", "C) 2", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "tan A = 1 => A = 45°. 2 (1/√2) (1/√2) = 2 * 1/2 = 1."
+  },
+  {
+    "QuestionText": "If sin θ + sin² θ = 1, then the value of (cos² θ + cos⁴ θ) is:",
+    "Options": ["A) 1", "B) 2", "C) 0", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "sin θ = 1 - sin² θ = cos² θ. So cos² θ + cos⁴ θ = sin θ + sin² θ = 1."
+  },
+  {
+    "QuestionText": "If sec A = 5/4, find the value of (1-tan A)/(1+tan A).",
+    "Options": ["A) 1/7", "B) 7", "C) 2/3", "D) 1/4"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "cos A = 4/5 => tan A = 3/4. Result = (1-3/4)/(1+3/4) = (1/4)/(7/4) = 1/7."
+  },
+  {
+    "QuestionText": "Value of (sin 90° - cos 0°) is:",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) 2"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios of Specific Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "1 - 1 = 0."
+  },
+  {
+    "QuestionText": "If cot θ = 7/8, find (1+sin θ)(1-sin θ) / (1+cos θ)(1-cos θ).",
+    "Options": ["A) 7/8", "B) 8/7", "C) 49/64", "D) 64/49"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(1 - sin² θ) / (1 - cos² θ) = cos² θ / sin² θ = cot² θ = (7/8)² = 49/64."
+  },
+  {
+    "QuestionText": "If tan A = cot B, then A + B is:",
+    "Options": ["A) 0°", "B) 45°", "C) 90°", "D) 180°"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "tan A = tan(90 - B) => A = 90 - B => A + B = 90°."
+  },
+  {
+    "QuestionText": "Which ratio is reciprocal of cos θ?",
+    "Options": ["A) sin θ", "B) sec θ", "C) cot θ", "D) tan θ"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Trigonometry",
+    "SubTopic": "Trigonometric Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "Definition: sec θ = 1 / cos θ."
+  }
+]

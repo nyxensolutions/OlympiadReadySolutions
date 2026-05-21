@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The drift velocity of free electrons in a conductor is very small, yet a bulb glows immediately when switched on because:",
+    "Options": ["A) Electrons move with the speed of light", "B) The electric field is established almost instantly", "C) Electrons are already present in the bulb", "D) Drift velocity increases when the switch is closed"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "The electromagnetic signal (electric field) travels at nearly the speed of light, causing all electrons in the circuit to start moving simultaneously."
+  },
+  {
+    "QuestionText": "A wire of resistance R is stretched to double its length. Its new resistance will be:",
+    "Options": ["A) 2R", "B) 4R", "C) R/2", "D) R/4"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Advanced",
+    "Explanation": "When stretched, the volume remains constant. Doubling length (L) halves the area (A). Since R = ρL/A, the new resistance is ρ(2L)/(A/2) = 4R."
+  },
+  {
+    "QuestionText": "Which of the following is a non-ohmic conductor?",
+    "Options": ["A) Copper wire", "B) Constantan", "C) Semiconductor diode", "D) Silver"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Ohm's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Non-ohmic conductors do not show a linear relationship between Voltage and Current; diodes are a classic example."
+  },
+  {
+    "QuestionText": "Kirchhoff’s First Law (ΣI = 0) is based on the law of conservation of:",
+    "Options": ["A) Energy", "B) Momentum", "C) Charge", "D) Mass"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Kirchhoff's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "The junction rule states that total current entering a junction must equal total current leaving it, implying charge cannot be created or destroyed."
+  },
+  {
+    "QuestionText": "Kirchhoff’s Second Law (ΣΔV = 0) is based on the law of conservation of:",
+    "Options": ["A) Charge", "B) Energy", "C) Momentum", "D) Power"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Kirchhoff's Laws",
+    "Difficulty": "Foundation",
+    "Explanation": "The loop rule states that the algebraic sum of changes in potential around any closed loop must be zero, as energy must be conserved."
+  },
+  {
+    "QuestionText": "The resistivity of a semiconductor ________ with an increase in temperature.",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains constant", "D) First increases then decreases"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Advanced",
+    "Explanation": "In semiconductors, more charge carriers become available at higher temperatures, reducing resistivity."
+  },
+  {
+    "QuestionText": "A carbon resistor is marked with rings: Yellow, Violet, Brown, and Gold. Its resistance is:",
+    "Options": ["A) 470 Ω ± 5%", "B) 47 Ω ± 10%", "C) 4700 Ω ± 5%", "D) 4.7 Ω ± 5%"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Color Coding",
+    "Difficulty": "Advanced",
+    "Explanation": "Yellow=4, Violet=7, Brown=10¹, Gold=5% tolerance. Result = 47 × 10¹ = 470 Ω."
+  },
+  {
+    "QuestionText": "In a Wheatstone bridge, the bridge is said to be balanced when the current through the galvanometer is:",
+    "Options": ["A) Maximum", "B) Minimum", "C) Zero", "D) Infinite"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Wheatstone Bridge",
+    "Difficulty": "Foundation",
+    "Explanation": "A balanced bridge occurs when the potential at both ends of the galvanometer is the same, resulting in zero current deflection."
+  },
+  {
+    "QuestionText": "Internal resistance of a cell is mainly due to:",
+    "Options": ["A) The material of the plates", "B) The electrolyte of the cell", "C) The shape of the cell", "D) The container of the cell"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Internal Resistance",
+    "Difficulty": "Foundation",
+    "Explanation": "The opposition offered by the electrolyte to the flow of ions between the electrodes causes internal resistance."
+  },
+  {
+    "QuestionText": "A potentiometer is superior to a voltmeter for measuring EMF because:",
+    "Options": ["A) It is cheaper", "B) It does not draw any current from the cell at null point", "C) It is easier to use", "D) It measures potential difference only"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Potentiometer",
+    "Difficulty": "Advanced",
+    "Explanation": "Because it works on a null-deflection method, it measures the true EMF without causing a potential drop across the internal resistance."
+  },
+  {
+    "QuestionText": "The SI unit of mobility of charge carriers is:",
+    "Options": ["A) m² V⁻¹ s⁻¹", "B) m V s", "C) m/s", "D) V/m"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Mobility (μ) is the drift velocity per unit electric field (v_d / E)."
+  },
+  {
+    "QuestionText": "Two bulbs of 25W and 100W are connected in series. Which bulb will glow brighter?",
+    "Options": ["A) 25W bulb", "B) 100W bulb", "C) Both equally", "D) Neither will glow"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Power",
+    "Difficulty": "Olympiad",
+    "Explanation": "The 25W bulb has higher resistance (R = V²/P). In series, P_actual = I²R, so the higher resistance bulb consumes more power."
+  },
+  {
+    "QuestionText": "Temperature coefficient of resistance (α) is negative for:",
+    "Options": ["A) Metals", "B) Electrolytes", "C) Semiconductors", "D) Both B and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Advanced",
+    "Explanation": "Resistivity decreases with temperature for semiconductors and electrolytes, unlike metals."
+  },
+  {
+    "QuestionText": "The relation between current (I) and drift velocity (v_d) is:",
+    "Options": ["A) I = neAv_d", "B) I = v_d/neA", "C) I = ne/Av_d", "D) I = n²eAv_d"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Current is the product of charge carrier density, electronic charge, cross-sectional area, and drift velocity."
+  },
+  {
+    "QuestionText": "The unit of electrical conductivity is:",
+    "Options": ["A) Ohm-meter", "B) Ohm⁻¹ meter⁻¹", "C) Ohm", "D) Volt/ampere"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Foundation",
+    "Explanation": "Conductivity is the reciprocal of resistivity (1/ρ), measured in Siemens/meter or Ω⁻¹m⁻¹."
+  },
+  {
+    "QuestionText": "A current of 5A flows through a resistor of 10Ω for 2 minutes. The heat produced is:",
+    "Options": ["A) 30,000 J", "B) 3,000 J", "C) 300 J", "D) 6,000 J"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Heating Effects of Current",
+    "Difficulty": "Advanced",
+    "Explanation": "H = I²Rt = (5)² * 10 * 120s = 25 * 10 * 120 = 30,000 J."
+  },
+  {
+    "QuestionText": "If the length of a potentiometer wire is increased, the sensitivity:",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains unchanged", "D) Becomes zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Potentiometer",
+    "Difficulty": "Advanced",
+    "Explanation": "Increasing length decreases the potential gradient (V/L), meaning a smaller potential difference can be measured over a larger distance."
+  },
+  {
+    "QuestionText": "One kilowatt-hour (kWh) is equal to:",
+    "Options": ["A) 3.6 × 10⁶ J", "B) 3.6 × 10³ J", "C) 1,000 J", "D) 3,600 J"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 kWh = 1000W × 3600s = 3,600,000 Joules."
+  },
+  {
+    "QuestionText": "Terminal potential difference (V) of a cell of EMF (E) and internal resistance (r) while discharging is:",
+    "Options": ["A) V = E + Ir", "B) V = E - Ir", "C) V = E", "D) V = Ir"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Internal Resistance",
+    "Difficulty": "Foundation",
+    "Explanation": "During discharge, part of the EMF is lost as a potential drop (Ir) across the internal resistance."
+  },
+  {
+    "QuestionText": "Two resistors are in the ratio 1:4. If they are connected in parallel, the ratio of power dissipated is:",
+    "Options": ["A) 1:4", "B) 4:1", "C) 1:16", "D) 16:1"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Power",
+    "Difficulty": "Advanced",
+    "Explanation": "In parallel, Voltage (V) is constant. P = V²/R, so P₁/P₂ = R₂/R₁ = 4/1."
+  },
+  {
+    "QuestionText": "Which material is used to make standard resistors because of its low temperature coefficient?",
+    "Options": ["A) Manganin", "B) Copper", "C) Aluminum", "D) Silicon"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Advanced",
+    "Explanation": "Alloys like Manganin and Constantan have resistivity that changes very little with temperature."
+  },
+  {
+    "QuestionText": "Electric current is a scalar quantity because:",
+    "Options": ["A) It has no direction", "B) It does not follow laws of vector addition", "C) It is always positive", "D) It follows Ohm's Law"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Even though current has direction, currents at junctions add algebraically, not using vector triangles."
+  },
+  {
+    "QuestionText": "The EMF of a cell depends upon:",
+    "Options": ["A) Amount of electrolyte", "B) Size of electrodes", "C) Nature of electrodes and electrolyte", "D) Distance between electrodes"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Internal Resistance",
+    "Difficulty": "Foundation",
+    "Explanation": "EMF is a property of the chemical couple used in the cell."
+  },
+  {
+    "QuestionText": "A wire has resistance 12Ω. It is bent into the form of a circle. The resistance between two diametrically opposite points is:",
+    "Options": ["A) 12Ω", "B) 6Ω", "C) 3Ω", "D) 24Ω"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Olympiad",
+    "Explanation": "The circle splits into two parallel semi-circles of 6Ω each. R_eq = (6 × 6)/(6 + 6) = 3Ω."
+  },
+  {
+    "QuestionText": "In the experiment of a Meter Bridge, the null point is usually preferred at the center to:",
+    "Options": ["A) Save time", "B) Minimize percentage error", "C) Increase current", "D) Protect the galvanometer"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Meter Bridge",
+    "Difficulty": "Advanced",
+    "Explanation": "The sensitivity is highest and end-resistance errors are minimized when the balance point is near the center (50 cm)."
+  },
+  {
+    "QuestionText": "When n identical cells of EMF E and internal resistance r are connected in series to an external R, the current is:",
+    "Options": ["A) nE / (R + nr)", "B) E / (R + r)", "C) nE / (nR + r)", "D) E / (nR + r)"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Cells and Batteries",
+    "Difficulty": "Advanced",
+    "Explanation": "Total EMF = nE and total internal resistance = nr. Current = Total EMF / Total Resistance."
+  },
+  {
+    "QuestionText": "Maximum power is delivered to the external load R when:",
+    "Options": ["A) R = r", "B) R > r", "C) R < r", "D) R = 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Power",
+    "Difficulty": "Olympiad",
+    "Explanation": "According to the Maximum Power Transfer Theorem, load resistance should equal internal resistance for max power."
+  },
+  {
+    "QuestionText": "If the current in a circuit is doubled, the power dissipated becomes:",
+    "Options": ["A) Doubled", "B) Four times", "C) Half", "D) Constant"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Power",
+    "Difficulty": "Foundation",
+    "Explanation": "Power P = I²R. If I becomes 2I, P becomes (2I)²R = 4P."
+  },
+  {
+    "QuestionText": "Ohm's Law is valid only when:",
+    "Options": ["A) Temperature remains constant", "B) Pressure remains constant", "C) Voltage is high", "D) Current is low"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Ohm's Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Physical conditions like temperature and strain must remain constant for resistance to stay constant."
+  },
+  {
+    "QuestionText": "The unit of current density (J) is:",
+    "Options": ["A) A/m", "B) A/m²", "C) A-m", "D) A-m²"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Current density is current per unit area (J = I/A)."
+  },
+  {
+    "QuestionText": "The resistance of an ideal ammeter should be:",
+    "Options": ["A) Zero", "B) Infinite", "C) 100 Ω", "D) 1 Ω"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Meter Bridge",
+    "Difficulty": "Foundation",
+    "Explanation": "An ammeter is connected in series; zero resistance ensures it doesn't change the circuit current."
+  },
+  {
+    "QuestionText": "The resistance of an ideal voltmeter should be:",
+    "Options": ["A) Zero", "B) Infinite", "C) 1000 Ω", "D) 10 Ω"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Potentiometer",
+    "Difficulty": "Foundation",
+    "Explanation": "An ideal voltmeter should draw zero current from the circuit to accurately measure potential."
+  },
+  {
+    "QuestionText": "Superconductors have a resistance of:",
+    "Options": ["A) Very high", "B) Zero", "C) Constant", "D) Negative"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Advanced",
+    "Explanation": "Below a critical temperature, certain materials lose all electrical resistance."
+  },
+  {
+    "QuestionText": "If potential difference across a conductor is doubled, the drift velocity of electrons:",
+    "Options": ["A) Doubles", "B) Halves", "C) quadruples", "D) Remains same"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "v_d ∝ E and E = V/L, so v_d ∝ V."
+  },
+  {
+    "QuestionText": "When 5 resistors of 5Ω each are connected in parallel, the equivalent resistance is:",
+    "Options": ["A) 25Ω", "B) 1Ω", "C) 5Ω", "D) 0.5Ω"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Foundation",
+    "Explanation": "R_eq = R/n = 5/5 = 1Ω."
+  },
+  {
+    "QuestionText": "The relaxation time (τ) in a conductor ________ with an increase in temperature.",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains same", "D) Becomes infinite"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "At higher temperatures, ions vibrate more vigorously, increasing the frequency of collisions and reducing time between them."
+  },
+  {
+    "QuestionText": "The potential gradient along a potentiometer wire depends on:",
+    "Options": ["A) Only current", "B) Current and resistance per unit length", "C) Only the battery EMF", "D) The length of the wire only"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Potentiometer",
+    "Difficulty": "Advanced",
+    "Explanation": "k = V/L = IR/L. It depends on the current flowing through the wire and its own resistance characteristics."
+  },
+  {
+    "QuestionText": "Which effect of current is used in a fuse wire?",
+    "Options": ["A) Magnetic effect", "B) Chemical effect", "C) Heating effect", "D) Optical effect"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Heating Effects of Current",
+    "Difficulty": "Foundation",
+    "Explanation": "A fuse melts when excessive current generates enough heat (I²R) to reach its melting point."
+  },
+  {
+    "QuestionText": "Three resistors 2Ω, 4Ω, and 6Ω are in series. The current through each is:",
+    "Options": ["A) Different", "B) Same", "C) 2:4:6 ratio", "D) Zero"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Foundation",
+    "Explanation": "In a series circuit, there is only one path for current, so it is identical for all components."
+  },
+  {
+    "QuestionText": "If the EMF of a cell is 2V and it sends a current of 0.5A through a 3Ω resistor, the internal resistance is:",
+    "Options": ["A) 1Ω", "B) 0.5Ω", "C) 1.5Ω", "D) 2Ω"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Internal Resistance",
+    "Difficulty": "Advanced",
+    "Explanation": "r = (E/I) - R = (2/0.5) - 3 = 4 - 3 = 1Ω."
+  },
+  {
+    "QuestionText": "Two wires of same material have lengths L and 2L and radii r and 2r. The ratio of their resistivity is:",
+    "Options": ["A) 1:1", "B) 1:2", "C) 1:4", "D) 2:1"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Advanced",
+    "Explanation": "Resistivity is a material property and does not depend on dimensions."
+  },
+  {
+    "QuestionText": "The resistivity of an alloy like Nichrome is ________ that of its constituent metals.",
+    "Options": ["A) Higher than", "B) Lower than", "C) Same as", "D) Zero compared to"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Resistance and Resistivity",
+    "Difficulty": "Foundation",
+    "Explanation": "Alloys are generally designed to have higher resistance and lower temperature coefficients than pure metals."
+  },
+  {
+    "QuestionText": "Which meter works on the principle of a balanced Wheatstone Bridge?",
+    "Options": ["A) Ammeter", "B) Voltmeter", "C) Meter Bridge", "D) Potentiometer"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Meter Bridge",
+    "Difficulty": "Foundation",
+    "Explanation": "A Meter Bridge is the practical application of the Wheatstone Bridge for measuring unknown resistance."
+  },
+  {
+    "QuestionText": "If n cells each of EMF E are connected in parallel, the total EMF is:",
+    "Options": ["A) nE", "B) E", "C) E/n", "D) n²E"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Cells and Batteries",
+    "Difficulty": "Foundation",
+    "Explanation": "Cells in parallel provide the same EMF as a single cell but can deliver more current for a longer time."
+  },
+  {
+    "QuestionText": "The fuse wire should have:",
+    "Options": ["A) High resistance and low melting point", "B) Low resistance and high melting point", "C) High resistance and high melting point", "D) Low resistance and low melting point"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Heating Effects of Current",
+    "Difficulty": "Advanced",
+    "Explanation": "High resistance ensures heat generation; low melting point ensures it breaks the circuit before damage occurs."
+  },
+  {
+    "QuestionText": "Electron volt (eV) is a unit of:",
+    "Options": ["A) Potential", "B) Charge", "C) Energy", "D) Current"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Electric Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 eV is the energy gained by an electron when accelerated through a potential difference of 1 Volt."
+  },
+  {
+    "QuestionText": "The current flowing through a conductor is 1.6A. The number of electrons passing through a cross-section per second is:",
+    "Options": ["A) 10¹⁹", "B) 1.6 × 10¹⁹", "C) 10¹⁸", "D) 6.25 × 10¹⁸"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "n = I/e = 1.6 / (1.6 × 10⁻¹⁹) = 10¹⁹."
+  },
+  {
+    "QuestionText": "Potentiometer measures potential difference more accurately because it acts like a voltmeter of:",
+    "Options": ["A) Zero resistance", "B) Infinite resistance", "C) Constant resistance", "D) Negative resistance"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Physics",
+    "SubTopic": "Potentiometer",
+    "Difficulty": "Olympiad",
+    "Explanation": "By taking no current from the source being measured, it behaves as a voltmeter with infinite input impedance."
+  },
+  {
+    "QuestionText": "The Kirchhoff’s laws are applicable to:",
+    "Options": ["A) AC only", "B) DC only", "C) Both AC and DC", "D) Passive circuits only"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Physics",
+    "SubTopic": "Kirchhoff's Laws",
+    "Difficulty": "Advanced",
+    "Explanation": "Kirchhoff’s laws apply to any circuit, regardless of the nature of the supply, as long as it's a closed network."
+  },
+  {
+    "QuestionText": "The drift velocity of electrons depends upon:",
+    "Options": ["A) Electric field", "B) Temperature", "C) Relaxation time", "D) All of the above"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Physics",
+    "SubTopic": "Current Electricity Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "v_d = (eEτ)/m. Here E is field and τ depends on temperature."
+  }
+]

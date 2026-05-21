@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The longest chord of a circle is the:",
+    "Options": [
+      "A) Radius",
+      "B) Diameter",
+      "C) Arc",
+      "D) Secant"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "The diameter is the longest chord, passing through the centre. Diameter = 2 \u00d7 radius."
+  },
+  {
+    "QuestionText": "A chord that passes through the centre is called the:",
+    "Options": [
+      "A) Arc",
+      "B) Sector",
+      "C) Diameter",
+      "D) Secant"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "A diameter is a chord that passes through the centre of the circle, dividing it into two equal halves (semicircles)."
+  },
+  {
+    "QuestionText": "The angle subtended by an arc at the centre is __ the angle at any point on the remaining part of the circle.",
+    "Options": [
+      "A) Equal to",
+      "B) Half of",
+      "C) Double",
+      "D) Unrelated to"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Inscribed angle theorem: the central angle is double the inscribed angle subtended by the same arc."
+  },
+  {
+    "QuestionText": "Angles in the same segment of a circle are:",
+    "Options": [
+      "A) Supplementary",
+      "B) Equal",
+      "C) Complementary",
+      "D) Unequal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Angles subtended by the same chord on the same side of it (same segment) are equal."
+  },
+  {
+    "QuestionText": "The angle in a semicircle is always:",
+    "Options": [
+      "A) 45\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Thales' theorem: any angle inscribed in a semicircle (angle subtended by a diameter) is a right angle (90\u00b0)."
+  },
+  {
+    "QuestionText": "A tangent to a circle is:",
+    "Options": [
+      "A) A chord inside the circle",
+      "B) A line that intersects the circle at two points",
+      "C) A line touching the circle at exactly one point",
+      "D) A line outside the circle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Foundation",
+    "Explanation": "A tangent touches the circle at exactly one point (the point of tangency). A secant intersects at two points."
+  },
+  {
+    "QuestionText": "The tangent to a circle at any point is perpendicular to:",
+    "Options": [
+      "A) Another tangent",
+      "B) The radius at that point",
+      "C) The diameter",
+      "D) The chord"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Foundation",
+    "Explanation": "Tangent\u22a5radius at the point of contact. This is a fundamental property used in many tangent problems."
+  },
+  {
+    "QuestionText": "Two tangents drawn from an external point to a circle are:",
+    "Options": [
+      "A) Perpendicular to each other",
+      "B) Equal in length",
+      "C) Parallel",
+      "D) Unequal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Foundation",
+    "Explanation": "The two tangents from an external point to a circle are equal in length. This is proved by RHS congruence of the two triangles formed."
+  },
+  {
+    "QuestionText": "Equal chords of a circle are:",
+    "Options": [
+      "A) At equal distances from the centre",
+      "B) Parallel to each other",
+      "C) Perpendicular to each other",
+      "D) Not related"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Chord Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Equal chords are equidistant from the centre. Conversely, chords equidistant from the centre are equal."
+  },
+  {
+    "QuestionText": "The perpendicular from the centre of a circle to a chord:",
+    "Options": [
+      "A) Bisects the chord",
+      "B) Is equal to the radius",
+      "C) Passes through the endpoints",
+      "D) Is parallel to the chord"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Chord Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "The perpendicular from the centre bisects the chord (splits it into two equal halves). Conversely, the perpendicular bisector of a chord passes through the centre."
+  },
+  {
+    "QuestionText": "The area of a circle with radius r is:",
+    "Options": [
+      "A) 2\u03c0r",
+      "B) \u03c0r",
+      "C) \u03c0r\u00b2",
+      "D) 2\u03c0r\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Foundation",
+    "Explanation": "Area = \u03c0r\u00b2. Circumference = 2\u03c0r. These are the two fundamental circle formulas. \u03c0 \u2248 3.14159."
+  },
+  {
+    "QuestionText": "The circumference of a circle with diameter 14 cm is (\u03c0 = 22/7):",
+    "Options": [
+      "A) 22 cm",
+      "B) 44 cm",
+      "C) 88 cm",
+      "D) 154 cm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Foundation",
+    "Explanation": "Circumference = \u03c0d = (22/7)\u00d714 = 44 cm."
+  },
+  {
+    "QuestionText": "ABCD is a cyclic quadrilateral. If \u2220A = 70\u00b0, then \u2220C = ?",
+    "Options": [
+      "A) 70\u00b0",
+      "B) 90\u00b0",
+      "C) 110\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Cyclic Quadrilaterals",
+    "Difficulty": "Foundation",
+    "Explanation": "In a cyclic quadrilateral, opposite angles are supplementary: \u2220A + \u2220C = 180\u00b0 \u2192 \u2220C = 110\u00b0."
+  },
+  {
+    "QuestionText": "The opposite angles of a cyclic quadrilateral sum to:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 360\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Cyclic Quadrilaterals",
+    "Difficulty": "Foundation",
+    "Explanation": "Cyclic quadrilateral theorem: opposite angles are supplementary (sum = 180\u00b0)."
+  },
+  {
+    "QuestionText": "An arc that is less than a semicircle is called a:",
+    "Options": [
+      "A) Major arc",
+      "B) Sector",
+      "C) Minor arc",
+      "D) Segment"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "Minor arc < semicircle. Major arc > semicircle. A semicircle is exactly half the circle."
+  },
+  {
+    "QuestionText": "The region between a chord and the minor arc is called a:",
+    "Options": [
+      "A) Sector",
+      "B) Minor segment",
+      "C) Major segment",
+      "D) Arc"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "Segment = region between a chord and an arc. Minor segment is between the chord and minor arc. Sector = region between two radii and an arc."
+  },
+  {
+    "QuestionText": "The area of a sector with radius r and angle \u03b8 (in degrees) is:",
+    "Options": [
+      "A) (\u03b8/360\u00b0) \u00d7 \u03c0r\u00b2",
+      "B) (\u03b8/180\u00b0) \u00d7 \u03c0r\u00b2",
+      "C) \u03b8 \u00d7 r",
+      "D) 2\u03c0r\u03b8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Advanced",
+    "Explanation": "Area of sector = (\u03b8/360\u00b0) \u00d7 \u03c0r\u00b2 where \u03b8 is the central angle in degrees."
+  },
+  {
+    "QuestionText": "The length of arc with radius r and central angle \u03b8\u00b0 is:",
+    "Options": [
+      "A) (\u03b8/360\u00b0) \u00d7 2\u03c0r",
+      "B) (\u03b8/180\u00b0) \u00d7 \u03c0r",
+      "C) \u03b8 \u00d7 r",
+      "D) 2\u03b8r"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Advanced",
+    "Explanation": "Arc length = (\u03b8/360\u00b0) \u00d7 2\u03c0r."
+  },
+  {
+    "QuestionText": "A chord is 8 cm long. Distance from the centre to the chord is 3 cm. Radius of circle is:",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Chord Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "The perpendicular from centre bisects chord. Half chord = 4. By Pythagoras: r\u00b2 = 4\u00b2+3\u00b2 = 16+9 = 25 \u2192 r=5."
+  },
+  {
+    "QuestionText": "O is the centre of circle. \u2220AOB = 80\u00b0 (central angle). The inscribed angle \u2220ACB (on major arc) =",
+    "Options": [
+      "A) 80\u00b0",
+      "B) 40\u00b0",
+      "C) 160\u00b0",
+      "D) 20\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Inscribed angle = central angle/2. \u2220ACB = 80\u00b0/2 = 40\u00b0."
+  },
+  {
+    "QuestionText": "Two circles of radii 5 cm and 3 cm intersect. The maximum number of common tangents is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Advanced",
+    "Explanation": "When two circles intersect (overlap), they have exactly 2 common tangents (both external). If one circle is inside the other: 0 tangents. External: 4 tangents."
+  },
+  {
+    "QuestionText": "The radius of a circle inscribed in a right triangle with legs 3, 4 and hypotenuse 5 is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Inscribed and Circumscribed",
+    "Difficulty": "Olympiad",
+    "Explanation": "Inradius r = (a+b\u2212c)/2 = (3+4\u22125)/2 = 2/2 = 1."
+  },
+  {
+    "QuestionText": "The circumradius of a right triangle with hypotenuse c is:",
+    "Options": [
+      "A) c",
+      "B) c/2",
+      "C) c/\u221a2",
+      "D) 2c"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Inscribed and Circumscribed",
+    "Difficulty": "Advanced",
+    "Explanation": "For a right triangle, the circumradius = hypotenuse/2. The circumcentre is at the midpoint of the hypotenuse."
+  },
+  {
+    "QuestionText": "A point P is outside a circle of radius 5. PO = 13. Length of tangent from P to circle =",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 13"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Advanced",
+    "Explanation": "Tangent\u00b2 = PO\u00b2 \u2212 r\u00b2 = 169 \u2212 25 = 144. Tangent = 12."
+  },
+  {
+    "QuestionText": "In a circle, a chord is 6 cm from the centre. If radius is 10, chord length is:",
+    "Options": [
+      "A) 8",
+      "B) 12",
+      "C) 16",
+      "D) 20"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Chord Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Half-chord = \u221a(r\u00b2\u2212d\u00b2) = \u221a(100\u221236) = \u221a64 = 8. Chord = 2\u00d78 = 16."
+  },
+  {
+    "QuestionText": "Two circles touch externally. Their radii are 4 and 6. Distance between centres = ?",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 10",
+      "D) 24"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Foundation",
+    "Explanation": "External tangency: distance between centres = sum of radii = 4+6 = 10."
+  },
+  {
+    "QuestionText": "Two circles touch internally. Radii are 8 and 3. Distance between centres = ?",
+    "Options": [
+      "A) 5",
+      "B) 11",
+      "C) 24",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Advanced",
+    "Explanation": "Internal tangency: distance between centres = difference of radii = 8\u22123 = 5."
+  },
+  {
+    "QuestionText": "A quadrilateral ABCD is cyclic. If \u2220B = 80\u00b0 and \u2220D = 100\u00b0, then:",
+    "Options": [
+      "A) It is not a cyclic quadrilateral",
+      "B) It can be cyclic (\u2220B+\u2220D=180\u00b0)",
+      "C) \u2220A+\u2220C must equal 180\u00b0",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Cyclic Quadrilaterals",
+    "Difficulty": "Advanced",
+    "Explanation": "\u2220B+\u2220D=180\u00b0 \u2713 (satisfies cyclic condition). For it to be cyclic, \u2220A+\u2220C must also = 180\u00b0. Both conditions are needed and related."
+  },
+  {
+    "QuestionText": "Area of a circle with radius 7 cm (\u03c0 = 22/7) is:",
+    "Options": [
+      "A) 22 cm\u00b2",
+      "B) 44 cm\u00b2",
+      "C) 154 cm\u00b2",
+      "D) 308 cm\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Foundation",
+    "Explanation": "Area = \u03c0r\u00b2 = (22/7)\u00d77\u00b2 = (22/7)\u00d749 = 22\u00d77 = 154 cm\u00b2."
+  },
+  {
+    "QuestionText": "How many circles can pass through three non-collinear points?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "Exactly one circle passes through any three non-collinear points. If the points are collinear, no circle can pass through them."
+  },
+  {
+    "QuestionText": "The angle subtended by a diameter at any point on the circle is:",
+    "Options": [
+      "A) 45\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "The diameter subtends a central angle of 180\u00b0. The inscribed angle = 180\u00b0/2 = 90\u00b0. (Thales' theorem)"
+  },
+  {
+    "QuestionText": "The region enclosed between two concentric circles is called a:",
+    "Options": [
+      "A) Segment",
+      "B) Sector",
+      "C) Annulus (ring)",
+      "D) Arc"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Advanced",
+    "Explanation": "Annulus: the ring-shaped region between two concentric circles (same centre, different radii). Its area = \u03c0(R\u00b2\u2212r\u00b2)."
+  },
+  {
+    "QuestionText": "In the given figure, O is the centre, \u2220BOC = 100\u00b0. \u2220BAC (in major segment) = ?",
+    "Options": [
+      "A) 50\u00b0",
+      "B) 100\u00b0",
+      "C) 80\u00b0",
+      "D) 130\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Inscribed angle theorem: \u2220BAC = \u2220BOC/2 = 50\u00b0. The inscribed angle in major segment = half the central angle."
+  },
+  {
+    "QuestionText": "Concentric circles are circles:",
+    "Options": [
+      "A) With same radius",
+      "B) With same diameter",
+      "C) With different centres",
+      "D) With the same centre"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "Concentric circles share the same centre but have different radii. Like rings in a target."
+  },
+  {
+    "QuestionText": "Radius of circle = 5. A chord is at distance 4 from centre. Length of chord = ?",
+    "Options": [
+      "A) 3",
+      "B) 6",
+      "C) 8",
+      "D) 10"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Chord Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Half chord = \u221a(5\u00b2\u22124\u00b2) = \u221a(25\u221216)=3. Chord = 2\u00d73=6."
+  },
+  {
+    "QuestionText": "The tangent at any point of a circle is perpendicular to the radius. This means:",
+    "Options": [
+      "A) Tangent is a chord",
+      "B) Tangent is a secant",
+      "C) Tangent-radius form a right angle",
+      "D) Tangent bisects radius"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Foundation",
+    "Explanation": "At the point of tangency, the tangent line and the radius form a 90\u00b0 angle. This property is used to find distances in tangent problems."
+  },
+  {
+    "QuestionText": "The angle between two tangents drawn from an external point P to a circle with \u2220POO'=? If the arc angle subtended is 120\u00b0:",
+    "Options": [
+      "A) 30\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Olympiad",
+    "Explanation": "If the central angle subtended by the arc between tangent points = 120\u00b0, then angle at P = 180\u00b0 \u2212 120\u00b0 = 60\u00b0. Angle between tangents = 180\u00b0 \u2212 central angle."
+  },
+  {
+    "QuestionText": "A chord of length 2\u221a3 in a circle of radius 2. The angle subtended at centre is:",
+    "Options": [
+      "A) 30\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Chord Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using the relationship: chord = 2r sin(\u03b8/2). 2\u221a3 = 2(2)sin(\u03b8/2) \u2192 sin(\u03b8/2)=\u221a3/2 \u2192 \u03b8/2=60\u00b0 \u2192 \u03b8=120\u00b0."
+  },
+  {
+    "QuestionText": "The arc length of a semicircle with radius 7 (\u03c0=22/7) is:",
+    "Options": [
+      "A) 22",
+      "B) 44",
+      "C) 14",
+      "D) 154"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Foundation",
+    "Explanation": "Circumference = 2\u03c0r = 2\u00d7(22/7)\u00d77 = 44. Semicircle arc = 44/2 = 22 cm."
+  },
+  {
+    "QuestionText": "The circumference to diameter ratio for any circle is:",
+    "Options": [
+      "A) 2\u03c0",
+      "B) \u03c0",
+      "C) \u03c0/2",
+      "D) 4\u03c0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Foundation",
+    "Explanation": "C/d = \u03c0 (pi) for every circle. This constant ratio defines \u03c0. C = \u03c0d = 2\u03c0r."
+  },
+  {
+    "QuestionText": "In a circle, which is always a chord?",
+    "Options": [
+      "A) Tangent",
+      "B) Secant",
+      "C) Diameter",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "A chord joins two points on the circle. Diameter is a chord that passes through the centre. Tangent touches circle at one point (not a chord). Secant is a line through two points (extends beyond circle)."
+  },
+  {
+    "QuestionText": "Sector area with r=6 and \u03b8=60\u00b0 (\u03c0=22/7):",
+    "Options": [
+      "A) 18.86 cm\u00b2",
+      "B) 22 cm\u00b2",
+      "C) 36\u03c0 cm\u00b2",
+      "D) 6\u03c0 cm\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Area and Circumference",
+    "Difficulty": "Advanced",
+    "Explanation": "Sector area = (60/360)\u00d7\u03c0\u00d736 = (1/6)\u00d7(22/7)\u00d736 = 132/7 \u2248 18.86 cm\u00b2."
+  },
+  {
+    "QuestionText": "If two chords AB and CD of a circle intersect at E, then:",
+    "Options": [
+      "A) AE \u00d7 EB = CE \u00d7 ED",
+      "B) AE + EB = CE + ED",
+      "C) AB = CD",
+      "D) AE = CE"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Chord Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "Intersecting chords theorem: AE \u00d7 EB = CE \u00d7 ED (products of segments are equal)."
+  },
+  {
+    "QuestionText": "A regular hexagon inscribed in a circle of radius r: side of hexagon = ?",
+    "Options": [
+      "A) r/2",
+      "B) r",
+      "C) r\u221a2",
+      "D) r\u221a3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Inscribed and Circumscribed",
+    "Difficulty": "Olympiad",
+    "Explanation": "A regular hexagon inscribed in a circle has its side equal to the radius. This is a beautiful geometric fact."
+  },
+  {
+    "QuestionText": "In ABCD cyclic quadrilateral, \u2220A+\u2220C=180\u00b0 and \u2220B+\u2220D=180\u00b0. If \u2220A=3\u2220C, find \u2220A.",
+    "Options": [
+      "A) 120\u00b0",
+      "B) 135\u00b0",
+      "C) 90\u00b0",
+      "D) 45\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Cyclic Quadrilaterals",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u2220A+\u2220C=180\u00b0 and \u2220A=3\u2220C \u2192 3\u2220C+\u2220C=180\u00b0 \u2192 4\u2220C=180\u00b0 \u2192 \u2220C=45\u00b0 \u2192 \u2220A=135\u00b0."
+  },
+  {
+    "QuestionText": "How many common tangents do two circles have when one is inside the other?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Tangents",
+    "Difficulty": "Advanced",
+    "Explanation": "When one circle is completely inside another (non-touching), there are 0 common tangents. They have: 0 (one inside), 1 (internal tangency), 2 (intersecting), 3 (external tangency), 4 (external non-touching)."
+  },
+  {
+    "QuestionText": "The sum of central angles of a circle is:",
+    "Options": [
+      "A) 180\u00b0",
+      "B) 270\u00b0",
+      "C) 360\u00b0",
+      "D) 720\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "All central angles of a circle sum to 360\u00b0 (a complete rotation around the centre)."
+  },
+  {
+    "QuestionText": "A chord of a circle divides it into:",
+    "Options": [
+      "A) Two equal parts",
+      "B) Two sectors",
+      "C) Two segments",
+      "D) Two semicircles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "A chord divides a circle into two parts called segments \u2014 minor segment (smaller) and major segment (larger)."
+  },
+  {
+    "QuestionText": "Equal arcs of a circle subtend __ angles at the centre.",
+    "Options": [
+      "A) Unequal",
+      "B) Supplementary",
+      "C) Complementary",
+      "D) Equal"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Angle Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Equal arcs of a circle (or congruent circles) subtend equal angles at the centre. This is both a theorem and its converse."
+  },
+  {
+    "QuestionText": "The longest chord of a circle passes through the:",
+    "Options": [
+      "A) Circumference",
+      "B) Centre",
+      "C) Edge",
+      "D) Arc"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Circles",
+    "SubTopic": "Basic Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "The diameter is the longest chord and it passes through the centre of the circle."
+  }
+]

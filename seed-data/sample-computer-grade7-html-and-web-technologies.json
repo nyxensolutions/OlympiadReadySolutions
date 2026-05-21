@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "HTML stands for",
+    "Options": [
+      "A) HyperText Markup Language",
+      "B) HyperText Machine Language",
+      "C) High Transfer Markup Language",
+      "D) HyperText Making Language"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML is the standard language for creating web pages."
+  },
+  {
+    "QuestionText": "A web browser displays web pages and is used to navigate the internet",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Browsers create pages",
+      "D) Browsers store data only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Browsers (Chrome, Firefox, Edge) interpret HTML/CSS/JS to display web pages."
+  },
+  {
+    "QuestionText": "<!DOCTYPE html> declaration must be the first line of an HTML document",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) It can appear anywhere",
+      "D) It is optional"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML structure",
+    "Difficulty": "Foundation",
+    "Explanation": "<!DOCTYPE html> declares HTML5 document type to the browser."
+  },
+  {
+    "QuestionText": "The <body> tag contains all visible page content",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <head> contains visible content",
+      "D) <html> contains visible content"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML structure",
+    "Difficulty": "Foundation",
+    "Explanation": "Everything visible on the page goes inside <body>."
+  },
+  {
+    "QuestionText": "The <head> tag contains metadata, title, and CSS links",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <body> has metadata",
+      "D) <head> has visible content"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML structure",
+    "Difficulty": "Foundation",
+    "Explanation": "<head> contains non-visible page information: title, meta tags, CSS links."
+  },
+  {
+    "QuestionText": "The largest heading in HTML is <h1>",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <h6> is largest",
+      "D) All headings are same size"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML headings",
+    "Difficulty": "Foundation",
+    "Explanation": "<h1> is the most important/largest heading; <h6> is the smallest."
+  },
+  {
+    "QuestionText": "The <p> tag creates a paragraph",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <div> creates a paragraph",
+      "D) <span> creates a paragraph"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML tags",
+    "Difficulty": "Foundation",
+    "Explanation": "<p>Text</p> defines a paragraph, adding spacing above and below."
+  },
+  {
+    "QuestionText": "The <br> tag inserts a line break without starting a new paragraph",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <br> creates a new paragraph",
+      "D) <br> has a closing tag"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML tags",
+    "Difficulty": "Foundation",
+    "Explanation": "<br> is a self-closing void element that forces a line break."
+  },
+  {
+    "QuestionText": "The <a> tag with href attribute creates a hyperlink",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <link> creates hyperlinks",
+      "D) <url> creates hyperlinks"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML links",
+    "Difficulty": "Foundation",
+    "Explanation": "<a href='url'>Link text</a> creates a clickable hyperlink."
+  },
+  {
+    "QuestionText": "The href attribute specifies the destination URL of a link",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) It sets link colour",
+      "D) It sets link size"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML attributes",
+    "Difficulty": "Foundation",
+    "Explanation": "href (hypertext reference) = the URL the link points to."
+  },
+  {
+    "QuestionText": "The <img> tag uses src attribute to specify the image file",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <image> tag is used",
+      "D) src is optional"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML images",
+    "Difficulty": "Foundation",
+    "Explanation": "<img src='file.jpg' alt='desc'> displays an image."
+  },
+  {
+    "QuestionText": "The alt attribute in <img> provides text for screen readers and when image fails",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) alt sets image size",
+      "D) alt is decorative only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML accessibility",
+    "Difficulty": "Foundation",
+    "Explanation": "alt text is essential for accessibility and fallback display."
+  },
+  {
+    "QuestionText": "<ul> creates an unordered (bullet) list and <ol> creates a numbered list",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <ul> is numbered",
+      "D) <ol> is bulleted"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML lists",
+    "Difficulty": "Foundation",
+    "Explanation": "<ul> = unordered (bullets), <ol> = ordered (numbers), both use <li> for items."
+  },
+  {
+    "QuestionText": "The <b> or <strong> tag makes text bold",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <i> makes text bold",
+      "D) <u> makes text bold"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML formatting",
+    "Difficulty": "Foundation",
+    "Explanation": "<b> and <strong> both render text bold; <strong> also conveys semantic importance."
+  },
+  {
+    "QuestionText": "CSS stands for Cascading Style Sheets",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Creative Style Script",
+      "D) Coded Style Sheets"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS basics",
+    "Difficulty": "Foundation",
+    "Explanation": "CSS is used to style web pages (colours, fonts, layout, spacing)."
+  },
+  {
+    "QuestionText": "CSS can be applied inline, internally, or via an external file",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only external files",
+      "D) Only inline"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS methods",
+    "Difficulty": "Foundation",
+    "Explanation": "Three CSS methods: inline style attribute, <style> in <head>, linked external .css file."
+  },
+  {
+    "QuestionText": "The CSS 'color' property sets text colour",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) background-color sets text colour",
+      "D) font-color sets text colour"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS properties",
+    "Difficulty": "Foundation",
+    "Explanation": "color: red; sets text to red. background-color sets the background."
+  },
+  {
+    "QuestionText": "HTML table uses <table>, <tr>, <th>, <td> tags",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <table>, <row>, <cell>",
+      "D) <grid>, <row>, <col>"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML tables",
+    "Difficulty": "Foundation",
+    "Explanation": "<tr> = row, <th> = header cell, <td> = data cell."
+  },
+  {
+    "QuestionText": "The <form> tag collects user input on a web page",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <form> displays text",
+      "D) <form> creates links"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML forms",
+    "Difficulty": "Foundation",
+    "Explanation": "<form> wraps input elements to collect and submit user data."
+  },
+  {
+    "QuestionText": "target='_blank' in an <a> tag opens the link in a new tab",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Opens in same tab",
+      "D) Downloads the file"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML links",
+    "Difficulty": "Foundation",
+    "Explanation": "target='_blank' opens linked page in new browser tab/window."
+  },
+  {
+    "QuestionText": "HTTP is the protocol for transferring web pages between browser and server",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) HTTP stores files",
+      "D) HTTP creates web pages"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Internet protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTP (HyperText Transfer Protocol) defines browser-server communication for the web."
+  },
+  {
+    "QuestionText": "HTTPS adds encryption (SSL/TLS) to HTTP for secure communication",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) HTTPS is only for emails",
+      "D) HTTPS is identical to HTTP"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web security",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTPS encrypts data in transit, protecting passwords and personal information."
+  },
+  {
+    "QuestionText": "The CSS class selector uses a dot (.) and the ID selector uses a hash (#)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Class uses # and ID uses .",
+      "D) Both use the same symbol"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS selectors",
+    "Difficulty": "Advanced",
+    "Explanation": "CSS: .className for class, #idName for ID. Classes reusable; IDs unique per page."
+  },
+  {
+    "QuestionText": "JavaScript adds interactivity and dynamic behaviour to web pages",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) JavaScript styles pages",
+      "D) JavaScript structures pages"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "JavaScript basics",
+    "Difficulty": "Foundation",
+    "Explanation": "JavaScript enables dynamic content, form validation, animations, and user interaction."
+  },
+  {
+    "QuestionText": "A search engine indexes the web to return results for keyword queries",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) A search engine hosts files",
+      "D) A search engine builds websites"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Internet basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Search engines (Google, Bing) crawl, index, and rank web pages for user queries."
+  },
+  {
+    "QuestionText": "Responsive web design makes pages adapt to different screen sizes",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Makes pages load faster only",
+      "D) Changes page colours only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Responsive design",
+    "Difficulty": "Advanced",
+    "Explanation": "Responsive design uses fluid grids and media queries to optimise layout for any screen."
+  },
+  {
+    "QuestionText": "CSS media queries apply styles based on screen/device properties",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Play media files",
+      "D) Create animations"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS media queries",
+    "Difficulty": "Advanced",
+    "Explanation": "@media (max-width: 768px) { } applies styles only when screen width is 768px or less."
+  },
+  {
+    "QuestionText": "The <canvas> element in HTML5 is used for drawing graphics with JavaScript",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <canvas> displays images",
+      "D) <canvas> creates forms"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML5 features",
+    "Difficulty": "Olympiad",
+    "Explanation": "<canvas> provides a JavaScript-controlled drawing surface for 2D graphics."
+  },
+  {
+    "QuestionText": "HTML5 semantic elements (<header>, <nav>, <article>) give meaning to page structure",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) They only add styling",
+      "D) They are decorative"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML5 semantics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Semantic HTML5 elements improve readability, SEO, and accessibility by describing content meaning."
+  },
+  {
+    "QuestionText": "GET method sends data in the URL; POST sends data in the request body",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Both are identical",
+      "D) POST uses the URL"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTTP methods",
+    "Difficulty": "Olympiad",
+    "Explanation": "GET: data visible in URL (suitable for searching). POST: data hidden in body (suitable for forms, login)."
+  },
+  {
+    "QuestionText": "CSS Flexbox creates flexible one-dimensional (row or column) layouts",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Flexbox creates 3D effects",
+      "D) Flexbox only styles text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS Flexbox",
+    "Difficulty": "Olympiad",
+    "Explanation": "Flexbox: CSS layout model for distributing and aligning items along a single axis."
+  },
+  {
+    "QuestionText": "Web accessibility ensures websites are usable by people with disabilities",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Accessibility makes pages colourful",
+      "D) Accessibility is optional"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web accessibility",
+    "Difficulty": "Olympiad",
+    "Explanation": "Web accessibility (WCAG) ensures people with visual, auditory, or cognitive disabilities can use websites."
+  },
+  {
+    "QuestionText": "Cookies store small data files in the browser to remember user sessions",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cookies are malware",
+      "D) Cookies store large files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web technologies",
+    "Difficulty": "Advanced",
+    "Explanation": "Cookies: small text files stored by websites on the browser to persist session data, preferences, and login state."
+  },
+  {
+    "QuestionText": "DNS translates domain names like google.com into IP addresses",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) DNS creates web pages",
+      "D) DNS stores emails"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "DNS",
+    "Difficulty": "Olympiad",
+    "Explanation": "DNS (Domain Name System): the internet's directory that converts human-readable domain names to IP addresses."
+  },
+  {
+    "QuestionText": "An IP address uniquely identifies a device on a network",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) IP identifies files",
+      "D) IP identifies browsers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Networking basics",
+    "Difficulty": "Foundation",
+    "Explanation": "IPv4 address (e.g. 192.168.1.1) uniquely identifies each device on a network."
+  },
+  {
+    "QuestionText": "The <title> tag sets the text shown in the browser tab",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <title> adds a heading",
+      "D) <title> is invisible always"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML structure",
+    "Difficulty": "Foundation",
+    "Explanation": "<title> in <head> sets the browser tab/window title and appears in search engine results."
+  },
+  {
+    "QuestionText": "An HTML attribute provides additional information about an HTML element",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Attributes replace tags",
+      "D) Attributes are always optional"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML attributes",
+    "Difficulty": "Foundation",
+    "Explanation": "Attributes appear inside the opening tag and modify element behaviour: <a href='url'>, <img src='file' alt='text'>."
+  },
+  {
+    "QuestionText": "The <ul> list items have circular/square bullets by default",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) <ul> has numbers",
+      "D) <ul> has letters"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML lists",
+    "Difficulty": "Foundation",
+    "Explanation": "<ul> default: disc bullets. <ol> default: decimal numbers. Both customisable with CSS."
+  },
+  {
+    "QuestionText": "The <table> attribute 'border' adds a visible border around cells",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) border has no effect",
+      "D) border changes colours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML tables",
+    "Difficulty": "Foundation",
+    "Explanation": "<table border='1'> adds a 1-pixel border. Modern practice: use CSS border property instead."
+  },
+  {
+    "QuestionText": "Inline CSS uses the 'style' attribute directly on an HTML element",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Inline CSS uses <style> tag",
+      "D) Inline CSS is in a file"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS methods",
+    "Difficulty": "Foundation",
+    "Explanation": "Inline: <p style='color:red;'>Text</p>. Highest specificity but hardest to maintain."
+  },
+  {
+    "QuestionText": "The href attribute in <link> tag in <head> links an external CSS file",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) src attribute links CSS",
+      "D) style attribute links CSS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML-CSS linking",
+    "Difficulty": "Foundation",
+    "Explanation": "<link rel='stylesheet' href='styles.css'> in <head> attaches an external CSS file."
+  },
+  {
+    "QuestionText": "External CSS file has .css extension",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) .style extension",
+      "D) .html extension"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "CSS files",
+    "Difficulty": "Foundation",
+    "Explanation": "External stylesheets are saved with .css extension (e.g. styles.css, main.css)."
+  },
+  {
+    "QuestionText": "HTML5 introduced the <video> and <audio> tags for embedding media",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Flash player is used instead",
+      "D) <media> tag is used"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML5 media",
+    "Difficulty": "Advanced",
+    "Explanation": "HTML5 <video> and <audio> elements allow embedding media directly without plugins like Flash."
+  },
+  {
+    "QuestionText": "The <meta charset='UTF-8'> tag specifies the character encoding of the page",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) It sets the language",
+      "D) It hides the page"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML meta tags",
+    "Difficulty": "Advanced",
+    "Explanation": "UTF-8 encoding supports all Unicode characters; <meta charset='UTF-8'> ensures correct text rendering."
+  },
+  {
+    "QuestionText": "A favicon is the small icon shown in the browser tab for a website",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Favicon is a CSS property",
+      "D) Favicon is a JavaScript file"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web design",
+    "Difficulty": "Foundation",
+    "Explanation": "Favicon: the small icon (16x16 or 32x32 px) linked in <head> that represents a website in browser tabs and bookmarks."
+  },
+  {
+    "QuestionText": "The <strong> tag has the same visual effect as <b> but also carries semantic meaning",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) They are identical in all ways",
+      "D) <strong> is invisible"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML semantics",
+    "Difficulty": "Advanced",
+    "Explanation": "Both render bold, but <strong> indicates the text is of strong importance to browsers and screen readers."
+  },
+  {
+    "QuestionText": "A URL has components: protocol, domain, path, and optional query string",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) URL has only domain",
+      "D) URL has only the page name"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "URL structure",
+    "Difficulty": "Advanced",
+    "Explanation": "URL structure: https://www.example.com/page?key=value (protocol://domain/path?query)"
+  },
+  {
+    "QuestionText": "HTML comments are written as <!-- comment --> and are not displayed",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Comments use // ",
+      "D) Comments use /* */"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML comments",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML comments: <!-- This is a comment --> are invisible in the browser but visible in source code."
+  },
+  {
+    "QuestionText": "The W3C sets standards for HTML and web technologies",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Google sets HTML standards",
+      "D) Microsoft sets HTML standards"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web standards",
+    "Difficulty": "Foundation",
+    "Explanation": "W3C (World Wide Web Consortium), founded by Tim Berners-Lee, develops and maintains web standards (HTML, CSS, etc.)."
+  },
+  {
+    "QuestionText": "HTTP port 80 and HTTPS port 443 are the standard default ports",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Both use port 8080",
+      "D) HTTP uses port 443"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Networking",
+    "Difficulty": "Olympiad",
+    "Explanation": "Default ports: HTTP = 80, HTTPS = 443. These are standard well-known port numbers for web traffic."
+  }
+]

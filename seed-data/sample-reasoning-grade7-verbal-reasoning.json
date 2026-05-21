@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Find the odd one out: Dog, Cat, Cow, Rose",
+    "Options": [
+      "A) Rose (plant, not animal)",
+      "B) Dog",
+      "C) Cat",
+      "D) Cow"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "Dog, Cat, Cow are animals; Rose is a plant."
+  },
+  {
+    "QuestionText": "Find the odd one out: Mango, Apple, Banana, Carrot",
+    "Options": [
+      "A) Carrot (vegetable)",
+      "B) Mango",
+      "C) Apple",
+      "D) Banana"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "Mango, Apple, Banana are fruits; Carrot is a vegetable."
+  },
+  {
+    "QuestionText": "Analogy \u2014 Book : Library :: Painting : ___",
+    "Options": [
+      "A) Museum",
+      "B) School",
+      "C) Hospital",
+      "D) Shop"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Books are in a library; paintings are in a museum."
+  },
+  {
+    "QuestionText": "Analogy \u2014 Pen : Write :: Knife : ___",
+    "Options": [
+      "A) Cut",
+      "B) Draw",
+      "C) Cook",
+      "D) Dig"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "A pen is used to write; a knife is used to cut."
+  },
+  {
+    "QuestionText": "Analogy \u2014 Doctor : Patient :: Teacher : ___",
+    "Options": [
+      "A) Student",
+      "B) Doctor",
+      "C) Nurse",
+      "D) Engineer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "A doctor serves a patient; a teacher serves a student."
+  },
+  {
+    "QuestionText": "A is brother of B. B is sister of C. A is related to C as ___",
+    "Options": [
+      "A) Brother",
+      "B) Sister",
+      "C) Uncle",
+      "D) Nephew"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "A is male. B is female. A is the brother of C."
+  },
+  {
+    "QuestionText": "Synonym of Enormous",
+    "Options": [
+      "A) Huge",
+      "B) Tiny",
+      "C) Weak",
+      "D) Quiet"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Synonyms",
+    "Difficulty": "Foundation",
+    "Explanation": "Enormous = extremely large. Huge is its synonym."
+  },
+  {
+    "QuestionText": "Antonym of Ancient",
+    "Options": [
+      "A) Modern",
+      "B) Old",
+      "C) Antique",
+      "D) Historic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Antonyms",
+    "Difficulty": "Foundation",
+    "Explanation": "Ancient = very old. Modern = new/contemporary."
+  },
+  {
+    "QuestionText": "Series: 2, 4, 8, 16, ___",
+    "Options": [
+      "A) 32",
+      "B) 30",
+      "C) 24",
+      "D) 18"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Each term doubles: 16\u00d72=32."
+  },
+  {
+    "QuestionText": "Series: 3, 6, 9, 12, ___",
+    "Options": [
+      "A) 15",
+      "B) 14",
+      "C) 13",
+      "D) 16"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiples of 3: add 3 each time."
+  },
+  {
+    "QuestionText": "Series: 1, 4, 9, 16, 25, ___",
+    "Options": [
+      "A) 36",
+      "B) 30",
+      "C) 35",
+      "D) 40"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Perfect squares: 6\u00b2=36."
+  },
+  {
+    "QuestionText": "Letter series: A, C, E, G, ___",
+    "Options": [
+      "A) I",
+      "B) H",
+      "C) J",
+      "D) K"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Alternate letters: skip one each time."
+  },
+  {
+    "QuestionText": "Letter series: Z, X, V, T, ___",
+    "Options": [
+      "A) R",
+      "B) S",
+      "C) Q",
+      "D) P"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Reverse alphabet, every other letter."
+  },
+  {
+    "QuestionText": "FISH coded as GJTI means +1 shift. BIRD coded as ___",
+    "Options": [
+      "A) CJSE",
+      "B) BIRD",
+      "C) AJQC",
+      "D) DKSG"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "B+1=C, I+1=J, R+1=S, D+1=E = CJSE."
+  },
+  {
+    "QuestionText": "Decode 8-5-12-12-15 where A=1 B=2...",
+    "Options": [
+      "A) HELLO",
+      "B) WORLD",
+      "C) GREAT",
+      "D) SUPER"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "H=8, E=5, L=12, L=12, O=15 = HELLO."
+  },
+  {
+    "QuestionText": "Odd one out: Jupiter, Mars, Earth, Sun",
+    "Options": [
+      "A) Sun (star)",
+      "B) Jupiter",
+      "C) Mars",
+      "D) Earth"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "Jupiter, Mars, Earth are planets; Sun is a star."
+  },
+  {
+    "QuestionText": "Odd one out: Violin, Guitar, Piano, Flute",
+    "Options": [
+      "A) Flute (wind instrument)",
+      "B) Violin",
+      "C) Guitar",
+      "D) Piano"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Advanced",
+    "Explanation": "Violin, Guitar, Piano are string instruments; Flute is a wind instrument."
+  },
+  {
+    "QuestionText": "Analogy \u2014 Ear : Hear :: Eye : ___",
+    "Options": [
+      "A) See",
+      "B) Smell",
+      "C) Touch",
+      "D) Taste"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Ear:Hear :: Eye:See \u2014 sense organ:sense."
+  },
+  {
+    "QuestionText": "Analogy \u2014 Tailor : Sew :: Carpenter : ___",
+    "Options": [
+      "A) Build",
+      "B) Write",
+      "C) Prescribe",
+      "D) Teach"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "A tailor sews; a carpenter builds. Profession:task."
+  },
+  {
+    "QuestionText": "Man faces North, turns 90\u00b0 clockwise, then 180\u00b0. Faces ___",
+    "Options": [
+      "A) West",
+      "B) East",
+      "C) North",
+      "D) South"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "North +90\u00b0 = East. East +180\u00b0 = West."
+  },
+  {
+    "QuestionText": "P taller than Q. Q taller than R. Shortest is ___",
+    "Options": [
+      "A) R",
+      "B) P",
+      "C) Q",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Ranking",
+    "Difficulty": "Foundation",
+    "Explanation": "P > Q > R. R is shortest."
+  },
+  {
+    "QuestionText": "A is 3 years older than B. B is 2 years younger than C. C=15. A=?",
+    "Options": [
+      "A) 16",
+      "B) 13",
+      "C) 14",
+      "D) 17"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Age Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "C=15, B=13, A=16."
+  },
+  {
+    "QuestionText": "Fibonacci: 1, 1, 2, 3, 5, 8, 13, ___",
+    "Options": [
+      "A) 21",
+      "B) 20",
+      "C) 18",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "8+13=21."
+  },
+  {
+    "QuestionText": "Which first alphabetically: Mango, Apple, Banana, Cherry?",
+    "Options": [
+      "A) Apple",
+      "B) Mango",
+      "C) Banana",
+      "D) Cherry"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Alphabetical Order",
+    "Difficulty": "Foundation",
+    "Explanation": "A before B, C, M."
+  },
+  {
+    "QuestionText": "Odd one out: Wheat, Rice, Barley, Potato",
+    "Options": [
+      "A) Potato (vegetable)",
+      "B) Wheat",
+      "C) Rice",
+      "D) Barley"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "Wheat, Rice, Barley are grains; Potato is a vegetable."
+  },
+  {
+    "QuestionText": "Angle between clock hands at 3:00",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 45\u00b0",
+      "D) 0\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Clock Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Hour hand at 3 (90\u00b0 from 12); minute at 12. Angle = 90\u00b0."
+  },
+  {
+    "QuestionText": "Big : Small :: Fast : ___",
+    "Options": [
+      "A) Slow",
+      "B) Large",
+      "C) Rapid",
+      "D) Quick"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Antonym Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Big:Small antonym pair. Fast:Slow same."
+  },
+  {
+    "QuestionText": "Author : Book :: Composer : ___",
+    "Options": [
+      "A) Music",
+      "B) Library",
+      "C) Lyrics",
+      "D) Painting"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Author creates book; composer creates music."
+  },
+  {
+    "QuestionText": "Day series: Monday, Wednesday, Friday, ___",
+    "Options": [
+      "A) Sunday",
+      "B) Tuesday",
+      "C) Thursday",
+      "D) Saturday"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Day Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Alternate days: Fri skip Sat = Sun."
+  },
+  {
+    "QuestionText": "All Globs are Blobs. All Blobs are Flobs. Therefore all Globs are ___",
+    "Options": [
+      "A) Flobs",
+      "B) Not Flobs",
+      "C) Sometimes Flobs",
+      "D) Unknown"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Globs \u2282 Blobs \u2282 Flobs."
+  },
+  {
+    "QuestionText": "Today is Wednesday. Day after 10 days?",
+    "Options": [
+      "A) Saturday",
+      "B) Friday",
+      "C) Sunday",
+      "D) Monday"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Calendar",
+    "Difficulty": "Foundation",
+    "Explanation": "Wed +7 = Wed. Wed +3 more = Saturday."
+  },
+  {
+    "QuestionText": "36:6 :: 81:___ (square:square root)",
+    "Options": [
+      "A) 9",
+      "B) 8",
+      "C) 7",
+      "D) 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Number Analogies",
+    "Difficulty": "Advanced",
+    "Explanation": "\u221a36=6, \u221a81=9."
+  },
+  {
+    "QuestionText": "Alphabetical order of Mango, Apple, Banana, Cherry \u2014 3rd is ___",
+    "Options": [
+      "A) Cherry",
+      "B) Mango",
+      "C) Apple",
+      "D) Banana"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Alphabetical Order",
+    "Difficulty": "Foundation",
+    "Explanation": "Apple, Banana, Cherry, Mango. 3rd = Cherry."
+  },
+  {
+    "QuestionText": "'A stitch in time ___'",
+    "Options": [
+      "A) Saves nine",
+      "B) Makes a line",
+      "C) Heals a wound",
+      "D) Cuts the vine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Proverbs",
+    "Difficulty": "Foundation",
+    "Explanation": "Timely action prevents bigger problems."
+  },
+  {
+    "QuestionText": "All roses are flowers. All flowers are plants. All roses are ___",
+    "Options": [
+      "A) Plants",
+      "B) Not plants",
+      "C) Animals",
+      "D) Trees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Advanced",
+    "Explanation": "Roses \u2282 flowers \u2282 plants."
+  },
+  {
+    "QuestionText": "Missing term: ACE, BDF, CEG, ___",
+    "Options": [
+      "A) DFH",
+      "B) EGI",
+      "C) CFH",
+      "D) DGI"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Each group: consecutive letters, starting 1,2,3,4. DFH = 4,6,8."
+  },
+  {
+    "QuestionText": "Antonym of Transparent",
+    "Options": [
+      "A) Opaque",
+      "B) Clear",
+      "C) Visible",
+      "D) Bright"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Antonyms",
+    "Difficulty": "Foundation",
+    "Explanation": "Transparent = see-through; Opaque = cannot see through."
+  },
+  {
+    "QuestionText": "Happy, Joyful, Cheerful, Melancholy \u2014 odd one out",
+    "Options": [
+      "A) Melancholy (sad)",
+      "B) Happy",
+      "C) Joyful",
+      "D) Cheerful"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "Melancholy means sadness; others mean happiness."
+  },
+  {
+    "QuestionText": "Some cats are dogs. All dogs are birds. Therefore some cats are ___",
+    "Options": [
+      "A) Birds",
+      "B) Not birds",
+      "C) All birds",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Syllogism",
+    "Difficulty": "Olympiad",
+    "Explanation": "Those cats that are dogs are also birds. Some cats = birds."
+  },
+  {
+    "QuestionText": "If + means \u00d7 and \u00d7 means \u2212, find 4 + 3 \u00d7 2",
+    "Options": [
+      "A) 10",
+      "B) 12",
+      "C) 14",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Operator Substitution",
+    "Difficulty": "Olympiad",
+    "Explanation": "4+3 = 4\u00d73=12. 12\u00d72 = 12-2=10."
+  },
+  {
+    "QuestionText": "Walk 5 km North then 3 km East. Distance from start?",
+    "Options": [
+      "A) \u221a34 km (approx 5.83 km)",
+      "B) 8 km",
+      "C) 5 km",
+      "D) 3 km"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Distance Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pythagoras: \u221a(25+9)=\u221a34\u22485.83 km."
+  },
+  {
+    "QuestionText": "Ravi is 5th from left and 7th from right in a row. Total people?",
+    "Options": [
+      "A) 11",
+      "B) 10",
+      "C) 12",
+      "D) 13"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Position Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Total = 5+7-1 = 11."
+  },
+  {
+    "QuestionText": "5th from right in MATHEMATICS (11 letters)?",
+    "Options": [
+      "A) A",
+      "B) T",
+      "C) I",
+      "D) C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Letter Counting",
+    "Difficulty": "Advanced",
+    "Explanation": "S=1,C=2,I=3,T=4,A=5 from right. 5th from right = A."
+  },
+  {
+    "QuestionText": "Analogy \u2014 Ice : Cold :: Fire : ___",
+    "Options": [
+      "A) Hot",
+      "B) Wet",
+      "C) Dark",
+      "D) Soft"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Ice is cold; Fire is hot."
+  },
+  {
+    "QuestionText": "Series: 100, 81, 64, 49, ___",
+    "Options": [
+      "A) 36",
+      "B) 25",
+      "C) 40",
+      "D) 16"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Decreasing squares: 10\u00b2,9\u00b2,8\u00b2,7\u00b2,6\u00b2=36."
+  },
+  {
+    "QuestionText": "PENCIL coded by reversing = ___",
+    "Options": [
+      "A) LICNEP",
+      "B) PENCIL",
+      "C) PLCENI",
+      "D) CIPNEL"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Reverse P-E-N-C-I-L = L-I-C-N-E-P."
+  },
+  {
+    "QuestionText": "Walk 4 km East then 3 km North. Distance from start?",
+    "Options": [
+      "A) 5 km",
+      "B) 7 km",
+      "C) 4 km",
+      "D) 3 km"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Distance Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Pythagoras: \u221a(16+9)=\u221a25=5 km."
+  },
+  {
+    "QuestionText": "Odd one out: Circle, Square, Triangle, Red",
+    "Options": [
+      "A) Red (colour not shape)",
+      "B) Circle",
+      "C) Square",
+      "D) Triangle"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "Circle, Square, Triangle are shapes; Red is a colour."
+  },
+  {
+    "QuestionText": "Analogy \u2014 Sun : Day :: Moon : ___",
+    "Options": [
+      "A) Night",
+      "B) Morning",
+      "C) Noon",
+      "D) Dusk"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "The sun is associated with day; the moon with night."
+  },
+  {
+    "QuestionText": "Series: 1, 3, 7, 15, 31, ___",
+    "Options": [
+      "A) 63",
+      "B) 62",
+      "C) 60",
+      "D) 64"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Verbal Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each term = previous\u00d72 + 1: 31\u00d72+1=63."
+  }
+]

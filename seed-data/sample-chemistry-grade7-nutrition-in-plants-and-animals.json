@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Photosynthesis uses sunlight CO2 and water to make glucose and O2",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Uses N2",
+      "D) Uses H2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "6CO2 + 6H2O + light \u2192 C6H12O6 + 6O2."
+  },
+  {
+    "QuestionText": "Raw materials for photosynthesis are CO2 and water",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Glucose and O2",
+      "D) Nitrogen and water"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "CO2 and water are the inorganic reactants for photosynthesis."
+  },
+  {
+    "QuestionText": "Chlorophyll is the green pigment that traps sunlight for photosynthesis",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Carotene traps sunlight",
+      "D) No pigment needed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Chlorophyll",
+    "Difficulty": "Foundation",
+    "Explanation": "Chlorophyll in chloroplasts absorbs light energy for photosynthesis."
+  },
+  {
+    "QuestionText": "Chlorophyll is found in chloroplasts",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) In mitochondria",
+      "D) In nucleus"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Chloroplasts are the organelles containing chlorophyll."
+  },
+  {
+    "QuestionText": "O2 is released as a by-product of photosynthesis",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) CO2 released",
+      "D) N2 released"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Photosynthesis output",
+    "Difficulty": "Foundation",
+    "Explanation": "O2 comes from splitting of water molecules in the light reactions."
+  },
+  {
+    "QuestionText": "Cuscuta has no chlorophyll and is a parasitic plant",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Autotrophic",
+      "D) Saprophytic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Parasitic plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Cuscuta wraps around host plants and absorbs nutrients directly."
+  },
+  {
+    "QuestionText": "Pitcher plant is insectivorous and obtains nitrogen from insects",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Gets carbon from insects",
+      "D) Gets oxygen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Insectivorous plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Pitcher plant traps insects for nitrogen in N-poor soils."
+  },
+  {
+    "QuestionText": "Rhizobium bacteria fix atmospheric nitrogen in root nodules of legumes",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Fix CO2",
+      "D) Fix O2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Nitrogen fixation",
+    "Difficulty": "Foundation",
+    "Explanation": "Rhizobium converts N2 into ammonia usable by plants."
+  },
+  {
+    "QuestionText": "Autotrophic organisms make their own food from inorganic substances",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Eat other organisms",
+      "D) Break down dead matter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Autotrophic nutrition",
+    "Difficulty": "Foundation",
+    "Explanation": "Autotrophs (green plants) produce organic food from CO2 and H2O."
+  },
+  {
+    "QuestionText": "Heterotrophic organisms obtain food by consuming others",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Make their own food",
+      "D) Use CO2 directly"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Heterotrophic nutrition",
+    "Difficulty": "Foundation",
+    "Explanation": "Heterotrophs (animals) cannot make their own food."
+  },
+  {
+    "QuestionText": "Saprophytes break down dead organic matter for nutrition",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Hunt prey",
+      "D) Parasitise living hosts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Saprophytic nutrition",
+    "Difficulty": "Foundation",
+    "Explanation": "Saprophytes (fungi, bacteria) decompose dead matter and absorb nutrients."
+  },
+  {
+    "QuestionText": "Starch in leaves is tested with iodine solution (blue-black colour)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Benedict's test",
+      "D) Litmus test"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Starch test",
+    "Difficulty": "Foundation",
+    "Explanation": "Iodine \u2192 blue-black indicates starch (photosynthesis product)."
+  },
+  {
+    "QuestionText": "Variegated leaf experiment proves chlorophyll is needed for photosynthesis",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Proves CO2 needed",
+      "D) Proves water needed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Chlorophyll experiment",
+    "Difficulty": "Advanced",
+    "Explanation": "Only green (chlorophyll) regions turn blue-black with iodine."
+  },
+  {
+    "QuestionText": "KOH experiment proves CO2 is needed for photosynthesis",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Proves light needed",
+      "D) Proves chlorophyll needed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "CO2 experiment",
+    "Difficulty": "Advanced",
+    "Explanation": "KOH removes CO2; leaves without CO2 show no starch."
+  },
+  {
+    "QuestionText": "Covering part of leaf with black paper proves light is needed",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Proves CO2 needed",
+      "D) Proves chlorophyll needed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Light experiment",
+    "Difficulty": "Advanced",
+    "Explanation": "Covered region (no light) shows no starch; uncovered region shows starch."
+  },
+  {
+    "QuestionText": "Xylem transports water and minerals from roots to leaves",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Transports food",
+      "D) Transports O2 only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Xylem",
+    "Difficulty": "Foundation",
+    "Explanation": "Xylem: unidirectional flow of water and mineral salts upward."
+  },
+  {
+    "QuestionText": "Phloem transports food (sucrose) from leaves to all plant parts",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Transports water only",
+      "D) Transports minerals only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Phloem",
+    "Difficulty": "Foundation",
+    "Explanation": "Phloem: bidirectional transport of organic solutes."
+  },
+  {
+    "QuestionText": "Stomata are pores on leaves for gas exchange",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) For water absorption",
+      "D) For mineral absorption"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Stomata",
+    "Difficulty": "Foundation",
+    "Explanation": "CO2 enters and O2/H2O vapour exit through stomata."
+  },
+  {
+    "QuestionText": "Guard cells control opening and closing of stomata",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Epidermis controls",
+      "D) Xylem controls"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Guard cells",
+    "Difficulty": "Advanced",
+    "Explanation": "Guard cell turgor pressure changes open/close stomata."
+  },
+  {
+    "QuestionText": "In the dark plants only respire and do not photosynthesize",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only photosynthesize",
+      "D) Do both equally"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Plant respiration",
+    "Difficulty": "Advanced",
+    "Explanation": "Photosynthesis requires light; respiration is continuous."
+  },
+  {
+    "QuestionText": "Herbivores eat only plants",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Eat only animals",
+      "D) Eat both"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Herbivores",
+    "Difficulty": "Foundation",
+    "Explanation": "Herbivores (cow, rabbit, deer) feed exclusively on plants."
+  },
+  {
+    "QuestionText": "Carnivores eat only other animals",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Eat only plants",
+      "D) Eat both"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Carnivores",
+    "Difficulty": "Foundation",
+    "Explanation": "Carnivores (lion, eagle) feed exclusively on animals."
+  },
+  {
+    "QuestionText": "Omnivores eat both plants and animals",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only plants",
+      "D) Only animals"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Omnivores",
+    "Difficulty": "Foundation",
+    "Explanation": "Omnivores (humans, bears) eat both plant and animal food."
+  },
+  {
+    "QuestionText": "The primary energy source for life on Earth is sunlight via photosynthesis",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Geothermal heat",
+      "D) Wind"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Energy flow",
+    "Difficulty": "Foundation",
+    "Explanation": "Almost all ecosystem energy derives from solar energy captured by photosynthesis."
+  },
+  {
+    "QuestionText": "A food chain always starts with a producer (green plant)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Starts with herbivore",
+      "D) Starts with carnivore"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Food chains",
+    "Difficulty": "Foundation",
+    "Explanation": "Producers capture solar energy: base of all food chains."
+  },
+  {
+    "QuestionText": "Decomposers recycle nutrients by breaking down dead organisms",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Compete with producers",
+      "D) Are primary consumers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Decomposers",
+    "Difficulty": "Foundation",
+    "Explanation": "Bacteria and fungi break down dead matter into inorganic compounds."
+  },
+  {
+    "QuestionText": "Transpiration is the loss of water vapour mainly through leaf stomata",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Through roots",
+      "D) Through stem bark"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Transpiration",
+    "Difficulty": "Foundation",
+    "Explanation": "Transpiration stream drives water up through xylem."
+  },
+  {
+    "QuestionText": "Light intensity is a limiting factor for photosynthesis",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Has no effect",
+      "D) Decreases photosynthesis"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Limiting factors",
+    "Difficulty": "Advanced",
+    "Explanation": "Increasing light boosts photosynthesis rate up to saturation point."
+  },
+  {
+    "QuestionText": "Magnesium is the central atom of the chlorophyll molecule",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Iron is central",
+      "D) Calcium is central"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Mineral nutrients",
+    "Difficulty": "Advanced",
+    "Explanation": "Mg2+ is at the centre of chlorophyll's porphyrin ring."
+  },
+  {
+    "QuestionText": "Nitrogen deficiency causes yellowing (chlorosis) in plants",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Causes purple leaves",
+      "D) Causes blue leaves"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Nitrogen deficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "Nitrogen is needed for chlorophyll; deficiency causes chlorosis."
+  },
+  {
+    "QuestionText": "Chemosynthesis uses chemical energy (not light) to make food",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Uses sunlight",
+      "D) Uses mechanical energy"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Chemosynthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "Chemoautotrophs oxidise inorganic compounds for energy."
+  },
+  {
+    "QuestionText": "Aquatic plants often have stomata on upper leaf surface",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Lower surface only",
+      "D) No stomata"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Aquatic adaptation",
+    "Difficulty": "Advanced",
+    "Explanation": "Upper surface stomata allow gas exchange with atmosphere above water."
+  },
+  {
+    "QuestionText": "Palisade mesophyll cells are densely packed with chloroplasts",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Spongy mesophyll is main site",
+      "D) Epidermis has most chloroplasts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Leaf anatomy",
+    "Difficulty": "Advanced",
+    "Explanation": "Palisade cells near upper leaf surface: primary photosynthesis site."
+  },
+  {
+    "QuestionText": "Glucose formula is C6H12O6 with C:H:O ratio of 1:2:1",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) 1:1:1 ratio",
+      "D) 2:1:1 ratio"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Glucose",
+    "Difficulty": "Advanced",
+    "Explanation": "6C:12H:6O simplifies to 1:2:1."
+  },
+  {
+    "QuestionText": "Transpiration pull drives water up xylem by cohesion-tension mechanism",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Root pumps water up",
+      "D) Diffusion only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Water transport",
+    "Difficulty": "Olympiad",
+    "Explanation": "Transpiration creates tension; cohesion of water molecules transmits this up xylem."
+  },
+  {
+    "QuestionText": "Aerobic respiration: C6H12O6 + 6O2 \u2192 6CO2 + 6H2O + energy",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) CO2 + H2O \u2192 glucose",
+      "D) Glucose + CO2 \u2192 O2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Respiration",
+    "Difficulty": "Advanced",
+    "Explanation": "Aerobic respiration oxidises glucose completely."
+  },
+  {
+    "QuestionText": "Plants respire 24 hours a day (day and night)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only at night",
+      "D) Only during day"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Plant respiration",
+    "Difficulty": "Foundation",
+    "Explanation": "Respiration is continuous in all living cells."
+  },
+  {
+    "QuestionText": "Phosphorus is essential for root development and ATP (energy transfer)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Nitrogen for roots",
+      "D) Potassium for roots"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Phosphorus function",
+    "Difficulty": "Advanced",
+    "Explanation": "Phosphorus is part of ATP and DNA; essential for roots and flowering."
+  },
+  {
+    "QuestionText": "Potassium regulates stomatal opening via guard cell turgor",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Nitrogen does this",
+      "D) Calcium does this"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Potassium",
+    "Difficulty": "Olympiad",
+    "Explanation": "K+ ions enter guard cells; water follows by osmosis; stomata open."
+  },
+  {
+    "QuestionText": "Carnivorous plants get nitrogen from insects they capture",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Get carbon from insects",
+      "D) Get oxygen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Carnivorous plants",
+    "Difficulty": "Olympiad",
+    "Explanation": "In N-poor soil carnivorous plants supplement nitrogen by digesting insects."
+  },
+  {
+    "QuestionText": "White regions of variegated leaf cannot photosynthesize (no chlorophyll)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Can photosynthesize",
+      "D) More efficient"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Variegated leaves",
+    "Difficulty": "Advanced",
+    "Explanation": "No chlorophyll = no photosynthesis regardless of light availability."
+  },
+  {
+    "QuestionText": "Root hair cells use active transport to absorb minerals against concentration gradient",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Passive diffusion only",
+      "D) Osmosis only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Active transport",
+    "Difficulty": "Olympiad",
+    "Explanation": "Active transport uses energy (ATP) to move minerals into root cells."
+  },
+  {
+    "QuestionText": "Algae produce roughly half of Earth's oxygen",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only 1%",
+      "D) 90% of O2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Algae",
+    "Difficulty": "Olympiad",
+    "Explanation": "Marine phytoplankton account for ~50% of global photosynthesis."
+  },
+  {
+    "QuestionText": "Calcium is essential for strong bones and teeth in animals",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Nitrogen for bones",
+      "D) Iron for bones"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Mineral nutrition",
+    "Difficulty": "Foundation",
+    "Explanation": "Calcium (Ca) is the main mineral in bone and tooth structures."
+  },
+  {
+    "QuestionText": "Iodine solution turns blue-black in presence of starch",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Orange = starch",
+      "D) Blue-black = protein"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Starch test",
+    "Difficulty": "Foundation",
+    "Explanation": "Classic test for starch: iodine turns from yellow-brown to blue-black."
+  },
+  {
+    "QuestionText": "Fungi obtain nutrition by absorbing from dead or living organic matter",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Photosynthesis",
+      "D) Hunting prey"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Fungal nutrition",
+    "Difficulty": "Foundation",
+    "Explanation": "Fungi are heterotrophic absorbers (saprophytic or parasitic)."
+  },
+  {
+    "QuestionText": "The word for plants making their own food is autotrophic nutrition",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Heterotrophic",
+      "D) Saprophytic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Terminology",
+    "Difficulty": "Foundation",
+    "Explanation": "Auto = self; autotrophic plants produce their own organic food."
+  },
+  {
+    "QuestionText": "The word equation for photosynthesis: CO2 + H2O + light \u2192 glucose + O2",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Glucose + O2 \u2192 CO2 + H2O",
+      "D) CO2 + O2 \u2192 glucose + H2O"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Photosynthesis word equation",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the standard word equation for photosynthesis."
+  },
+  {
+    "QuestionText": "Assimilation is the process by which cells use absorbed nutrients",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Same as digestion",
+      "D) Same as absorption"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Assimilation",
+    "Difficulty": "Foundation",
+    "Explanation": "Assimilation: absorbed nutrients are used to build cell components and release energy."
+  },
+  {
+    "QuestionText": "Nitrogen in soil comes partly from bacterial decomposition and nitrogen fixation",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only from rain",
+      "D) Only from rocks"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry/Biology - Nutrition in Plants and Animals",
+    "SubTopic": "Nitrogen cycle",
+    "Difficulty": "Olympiad",
+    "Explanation": "Nitrogen enters soil through decomposition of organic matter and biological nitrogen fixation."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which of the following is a perfect cube?",
+    "Options": [
+      "A) 125",
+      "B) 150",
+      "C) 180",
+      "D) 200"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Perfect Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "125 = 5³. Check others: 150 = 2×3×5², 180 = 2²×3²×5, 200 = 2³×5² — none form a perfect cube."
+  },
+  {
+    "QuestionText": "What is the cube root of 512?",
+    "Options": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 9"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Root by Prime Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "512 = 2⁹ = (2³)³. So ∛512 = 2³ = 8."
+  },
+  {
+    "QuestionText": "The cube of a negative number is always:",
+    "Options": [
+      "A) Positive",
+      "B) Negative",
+      "C) Zero",
+      "D) Positive or negative"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Properties of Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "(-a)³ = (-a)×(-a)×(-a) = (a²)×(-a) = -a³. A negative number multiplied odd number of times always gives a negative result."
+  },
+  {
+    "QuestionText": "What is the smallest number by which 88 must be multiplied to make it a perfect cube?",
+    "Options": [
+      "A) 11",
+      "B) 44",
+      "C) 121",
+      "D) 22"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Smallest Multiplier for Perfect Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "88 = 2³ × 11. The factor 11 appears only once. For a perfect cube, every prime must appear in multiples of 3. We need two more 11s: multiply by 11² = 121? No — we need 11² to make 11³? Wait: 88×11 = 968 = 2³×11². Still needs one more 11. 88×121 = 10648 = 2³×11³. So multiply by 121. CorrectAnswer: C."
+  },
+  {
+    "QuestionText": "∛(-729) = ?",
+    "Options": [
+      "A) 9",
+      "B) -9",
+      "C) 27",
+      "D) -27"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Root of Negative Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "729 = 9³. Therefore ∛(-729) = -∛729 = -9."
+  },
+  {
+    "QuestionText": "If the volume of a cube is 2197 cm³, what is its side length?",
+    "Options": [
+      "A) 11 cm",
+      "B) 12 cm",
+      "C) 13 cm",
+      "D) 14 cm"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Application of Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume of cube = side³. Side = ∛2197. 13³ = 13×13×13 = 169×13 = 2197. So side = 13 cm."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a perfect cube?",
+    "Options": [
+      "A) 1000",
+      "B) 1331",
+      "C) 1444",
+      "D) 1728"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Perfect Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "1000=10³ ✓, 1331=11³ ✓, 1728=12³ ✓. For 1444: ∛1444 ≈ 11.3, not an integer. So 1444 is not a perfect cube."
+  },
+  {
+    "QuestionText": "How many perfect cubes lie between 100 and 1000 (exclusive)?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Perfect Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "5³=125, 6³=216, 7³=343, 8³=512, 9³=729. All lie strictly between 100 and 1000. That's 5 perfect cubes."
+  },
+  {
+    "QuestionText": "Find ∛(0.001331).",
+    "Options": [
+      "A) 0.11",
+      "B) 0.011",
+      "C) 1.1",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Root of Decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "0.001331 = 1331/1000000. ∛(1331/1000000) = ∛1331/∛1000000 = 11/100 = 0.11."
+  },
+  {
+    "QuestionText": "By what smallest number should 1600 be divided to make it a perfect cube?",
+    "Options": [
+      "A) 25",
+      "B) 50",
+      "C) 200",
+      "D) 100"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Smallest Divisor for Perfect Cube",
+    "Difficulty": "Advanced",
+    "Explanation": "1600 = 2⁶ × 5². For a perfect cube, all prime exponents must be multiples of 3. 2⁶=(2²)³ ✓. 5² needs one more 5 to make 5³, but we're dividing, so we remove 5²: 1600/25 = 64 = 4³. But 64 = 2⁶ = (2²)³ ✓. However dividing by 25 gives 64. Alternatively: to get a perfect cube by division, we remove the excess: 5² cannot be completed to 5³ by division, so divide by 5² and also check 2⁶: 2⁶=(2³)² — dividing by 2^(6 mod 3)=2^0=1 for 2. So divide only by 5²=25? 1600/25=64=4³ ✓. But 200 = 8×25. Let's check: 1600/200 = 8 = 2³ ✓. Also perfect cube. Smallest divisor: 25 gives 64 ✓, which is smaller than 200. So answer is 25 — option A. CorrectAnswer: A."
+  },
+  {
+    "QuestionText": "The value of ∛(27 × 64) is:",
+    "Options": [
+      "A) 9",
+      "B) 12",
+      "C) 18",
+      "D) 24"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Properties of Cube Roots",
+    "Difficulty": "Advanced",
+    "Explanation": "∛(27×64) = ∛27 × ∛64 = 3 × 4 = 12."
+  },
+  {
+    "QuestionText": "If x³ = 0.000216, then x = ?",
+    "Options": [
+      "A) 0.006",
+      "B) 0.06",
+      "C) 0.6",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Root of Decimals",
+    "Difficulty": "Advanced",
+    "Explanation": "0.000216 = 216/1000000. ∛(216/1000000) = ∛216/∛1000000 = 6/100 = 0.06."
+  },
+  {
+    "QuestionText": "Which of the following numbers is both a perfect square and a perfect cube?",
+    "Options": [
+      "A) 36",
+      "B) 64",
+      "C) 81",
+      "D) 100"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Perfect Cubes",
+    "Difficulty": "Advanced",
+    "Explanation": "64 = 8² = 4³. It is both a perfect square and a perfect cube. 36=6² but ∛36≈3.3 (not a cube). 81=9² but ∛81≈4.3 (not a cube). 100=10² but ∛100≈4.6 (not a cube)."
+  },
+  {
+    "QuestionText": "The digit in the units place of the cube of 37 is:",
+    "Options": [
+      "A) 1",
+      "B) 3",
+      "C) 7",
+      "D) 9"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Properties of Cubes",
+    "Difficulty": "Advanced",
+    "Explanation": "The units digit of a cube depends only on the units digit of the number. Units digit of 37 is 7. 7³ = 343, units digit is 3. So the units digit of 37³ is 3."
+  },
+  {
+    "QuestionText": "If ∛x = 4, what is ∛(8x)?",
+    "Options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 2∛8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Properties of Cube Roots",
+    "Difficulty": "Advanced",
+    "Explanation": "∛x = 4 → x = 64. ∛(8x) = ∛(8×64) = ∛512 = 8. Alternatively: ∛(8x) = ∛8 × ∛x = 2 × 4 = 8."
+  },
+  {
+    "QuestionText": "Which of the following correctly lists all cubes of numbers from 1 to 5?",
+    "Options": [
+      "A) 1, 8, 27, 64, 125",
+      "B) 1, 6, 27, 64, 125",
+      "C) 1, 8, 26, 64, 125",
+      "D) 2, 8, 27, 64, 125"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Perfect Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "1³=1, 2³=8, 3³=27, 4³=64, 5³=125. Only option A has all values correct."
+  },
+  {
+    "QuestionText": "The sum of cubes of first n natural numbers = [n(n+1)/2]². What is the sum of cubes of 1 to 6?",
+    "Options": [
+      "A) 441",
+      "B) 484",
+      "C) 529",
+      "D) 576"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Patterns in Cube Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum = [6×7/2]² = [21]² = 441."
+  },
+  {
+    "QuestionText": "∛(216/343) = ?",
+    "Options": [
+      "A) 6/7",
+      "B) 7/6",
+      "C) 36/49",
+      "D) 49/36"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Root of Fractions",
+    "Difficulty": "Advanced",
+    "Explanation": "∛(216/343) = ∛216/∛343 = 6/7. (Since 6³=216 and 7³=343.)"
+  },
+  {
+    "QuestionText": "If a³ + b³ = 35 and a + b = 5, find ab.",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Application of Cube Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Use identity: a³+b³ = (a+b)(a²-ab+b²) = (a+b)[(a+b)²-3ab]. So 35 = 5×[25-3ab] → 7 = 25-3ab → 3ab = 18 → ab = 6. Wait: 35/5=7, 25-3ab=7, 3ab=18, ab=6. CorrectAnswer: D."
+  },
+  {
+    "QuestionText": "The cube of an even number is always divisible by:",
+    "Options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 12"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Properties of Cubes",
+    "Difficulty": "Olympiad",
+    "Explanation": "Any even number can be written as 2k. Its cube = (2k)³ = 8k³, which is always divisible by 8. While it may also be divisible by 4 and 6 depending on k, only 8 is guaranteed for ALL even numbers."
+  },
+  {
+    "QuestionText": "If ∛(x+3) = 4, what is x?",
+    "Options": [
+      "A) 58",
+      "B) 61",
+      "C) 64",
+      "D) 67"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Equations with Cube Roots",
+    "Difficulty": "Olympiad",
+    "Explanation": "∛(x+3) = 4 → x+3 = 4³ = 64 → x = 61."
+  },
+  {
+    "QuestionText": "The difference between the cubes of two consecutive natural numbers n and (n+1) is 127. Find n.",
+    "Options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Application of Cube Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "(n+1)³ - n³ = 3n² + 3n + 1 = 127 → 3n²+3n = 126 → n²+n = 42 → n²+n-42=0 → (n+7)(n-6)=0 → n=6."
+  },
+  {
+    "QuestionText": "Using prime factorisation, find the cube root of 74088.",
+    "Options": [
+      "A) 38",
+      "B) 40",
+      "C) 42",
+      "D) 44"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Root by Prime Factorisation",
+    "Difficulty": "Olympiad",
+    "Explanation": "74088 = 8 × 9261 = 8 × 3 × 3087 = 8 × 3 × 3 × 1029 = 8 × 9 × 1029 = 8 × 9 × 3 × 343 = 2³ × 3³ × 7³. ∛74088 = 2 × 3 × 7 = 42."
+  },
+  {
+    "QuestionText": "Statement 1: ∛(-a) = -∛a for all real numbers. Statement 2: Every real number has exactly one real cube root. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Properties of Cube Roots",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1: TRUE — cube root preserves sign, so ∛(-a) = -∛a. Statement 2: TRUE — unlike square roots, every real number (positive, negative, or zero) has exactly one real cube root. Complex roots are excluded from this context."
+  },
+  {
+    "QuestionText": "A metal cube of side 6 cm is melted and recast into smaller cubes of side 2 cm each. How many smaller cubes are formed?",
+    "Options": [
+      "A) 18",
+      "B) 24",
+      "C) 27",
+      "D) 36"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Application of Cube Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Volume of large cube = 6³ = 216 cm³. Volume of each small cube = 2³ = 8 cm³. Number of small cubes = 216/8 = 27."
+  },
+  {
+    "QuestionText": "∛216 = ?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "6³ = 6×6×6 = 216. ∛216 = 6. Cube root means finding the number that when cubed gives the radicand. Prime factorisation: 216 = 2³×3³ = (2×3)³ = 6³."
+  },
+  {
+    "QuestionText": "Which of the following is a perfect cube?",
+    "Options": [
+      "A) 64",
+      "B) 100",
+      "C) 150",
+      "D) 200"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "64 = 4³. Check: 4×4×4=64 ✓. 100: ∛100≈4.64 (not integer). 150,200: also not perfect cubes. A perfect cube = n³ for integer n."
+  },
+  {
+    "QuestionText": "The cube of a negative number is:",
+    "Options": [
+      "A) Always positive",
+      "B) Always negative",
+      "C) Always zero",
+      "D) Can be positive or negative"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "Negative × Negative × Negative = Negative. (-2)³ = -8. (-3)³ = -27. Rule: Odd power of negative = negative. Even power of negative = positive. Cube is odd power (3), so cube of negative = negative."
+  },
+  {
+    "QuestionText": "∛(-125) = ?",
+    "Options": [
+      "A) 5",
+      "B) -5",
+      "C) 25",
+      "D) Not defined"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "(-5)³ = -125. So ∛(-125) = -5. Unlike square roots, cube roots of negative numbers ARE real. ∛(-x) = -∛(x)."
+  },
+  {
+    "QuestionText": "The smallest number by which 72 should be multiplied to make it a perfect cube:",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 9"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Advanced",
+    "Explanation": "72 = 2³×3². For a perfect cube, all prime factors must appear in multiples of 3. 3 appears twice; multiply by 3 to make 3³: 72×3 = 216 = 2³×3³ = 6³. Smallest multiplier = 3."
+  },
+  {
+    "QuestionText": "The cube of 1.2 is:",
+    "Options": [
+      "A) 1.44",
+      "B) 1.728",
+      "C) 1.44",
+      "D) 2.4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "1.2³ = 1.2×1.2×1.2 = 1.44×1.2 = 1.728. Or: (12/10)³ = 1728/1000 = 1.728."
+  },
+  {
+    "QuestionText": "∛(27/64) = ?",
+    "Options": [
+      "A) 3/4",
+      "B) 3/8",
+      "C) 9/4",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "∛(27/64) = ∛27/∛64 = 3/4. 27=3³, 64=4³."
+  },
+  {
+    "QuestionText": "If n³ = 4096, find n:",
+    "Options": [
+      "A) 14",
+      "B) 15",
+      "C) 16",
+      "D) 18"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "16³ = 16×16×16 = 256×16 = 4096. So n=16. Check: 15³=3375, 16³=4096 ✓."
+  },
+  {
+    "QuestionText": "Which digit can be the unit digit of a perfect cube?",
+    "Options": [
+      "A) Only 1,4,5,6,9",
+      "B) Any digit 0-9",
+      "C) Only 0,1,8",
+      "D) Only even digits"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Advanced",
+    "Explanation": "Unit digits of cubes: 1³=1, 2³=8, 3³=7, 4³=4, 5³=5, 6³=6, 7³=3, 8³=2, 9³=9, 0³=0. All 10 digits (0-9) appear as unit digits of some perfect cube. Contrast with squares (only 0,1,4,5,6,9)."
+  },
+  {
+    "QuestionText": "The cube root of 0.000512 is:",
+    "Options": [
+      "A) 0.8",
+      "B) 0.08",
+      "C) 0.008",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Advanced",
+    "Explanation": "0.000512 = 512/1000000. ∛(512/1000000) = ∛512/∛1000000 = 8/100 = 0.08. Check: 0.08³ = 0.000512 ✓."
+  },
+  {
+    "QuestionText": "If the cube of a number is 2197, what is 4 times that number?",
+    "Options": [
+      "A) 48",
+      "B) 52",
+      "C) 56",
+      "D) 60"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "∛2197=13 (since 13³=2197). 4×13=52."
+  },
+  {
+    "QuestionText": "The smallest perfect cube greater than 1000 is:",
+    "Options": [
+      "A) 1024",
+      "B) 1028",
+      "C) 1331",
+      "D) 1024"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "10³=1000, 11³=1331. The smallest perfect cube greater than 1000 is 11³=1331."
+  },
+  {
+    "QuestionText": "Assertion: The cube root of a negative rational number is negative. Reason: For real cube roots, ∛(-a) = -∛(a) for any positive real number a. Which is correct?",
+    "Options": [
+      "A) Both true and Reason correctly explains",
+      "B) Assertion false",
+      "C) Both false",
+      "D) Assertion true; Reason false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. Assertion: ∛(-8)=-2 ✓. Reason: (-a)^(1/3) = -(a^(1/3)) because (-a)=(-1)×a and ∛(-1)=-1. So ∛(-a)=∛(-1)×∛(a)=-∛(a). This is why cube roots of negative numbers are real (unlike square roots of negatives)."
+  },
+  {
+    "QuestionText": "The volume of a cube is 15625 cm³. Find its surface area:",
+    "Options": [
+      "A) 3750 cm²",
+      "B) 5625 cm²",
+      "C) 6250 cm²",
+      "D) 3600 cm²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Advanced",
+    "Explanation": "Volume = side³ = 15625 → side = ∛15625 = 25 (25³=15625). Surface area = 6×side² = 6×625 = 3750 cm²."
+  },
+  {
+    "QuestionText": "Which of the following pairs are both perfect cubes?",
+    "Options": [
+      "A) 8 and 16",
+      "B) 27 and 125",
+      "C) 64 and 100",
+      "D) 32 and 243"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "27=3³ and 125=5³ — both perfect cubes ✓. 8=2³ (perfect cube) but 16=2⁴ (not a perfect cube). 64=4³ (perfect cube) but 100 is not. 32=2⁵ and 243=3⁵ — neither is a perfect cube."
+  },
+  {
+    "QuestionText": "By what smallest number should 1458 be divided to make it a perfect cube?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 6",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Advanced",
+    "Explanation": "1458 = 2×729 = 2×3⁶. For a perfect cube: 3⁶=(3²)³ = perfect cube. But 2 appears once (needs 0 or 3 times). Divide by 2: 1458/2=729=3⁶=9³. Smallest divisor = 2."
+  },
+  {
+    "QuestionText": "Find ∛(8×27×64):",
+    "Options": [
+      "A) 24",
+      "B) 28",
+      "C) 32",
+      "D) 36"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "∛(8×27×64) = ∛8 × ∛27 × ∛64 = 2×3×4 = 24."
+  },
+  {
+    "QuestionText": "The sum of cubes of first 3 natural numbers is:",
+    "Options": [
+      "A) 36",
+      "B) 38",
+      "C) 44",
+      "D) 51"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "1³+2³+3³ = 1+8+27 = 36. Formula: sum of cubes of first n natural numbers = [n(n+1)/2]². For n=3: [3×4/2]² = 6² = 36 ✓."
+  },
+  {
+    "QuestionText": "If a = ∛x and b = ∛y, then ∛(xy) = ?",
+    "Options": [
+      "A) ab",
+      "B) a+b",
+      "C) a/b",
+      "D) a²b²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Advanced",
+    "Explanation": "∛(xy) = ∛x × ∛y = a×b = ab. Property of cube roots: ∛(pq) = ∛p × ∛q. Similar to √(pq) = √p × √q for square roots."
+  },
+  {
+    "QuestionText": "The cube of an even number is always:",
+    "Options": [
+      "A) Odd",
+      "B) Even",
+      "C) Divisible by 8",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Advanced",
+    "Explanation": "Even number = 2k. (2k)³ = 8k³. This is: always even (B ✓) AND always divisible by 8 (C ✓). Examples: 2³=8, 4³=64, 6³=216 — all divisible by 8. Both B and C are true."
+  },
+  {
+    "QuestionText": "Assertion: There is no real cube root of -27. Reason: Cube roots of negative numbers are imaginary. Which is correct?",
+    "Options": [
+      "A) Both true and Reason explains",
+      "B) Both false — ∛(-27)=-3, a real number",
+      "C) Assertion true, Reason false",
+      "D) Assertion false, Reason true"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both statements are FALSE. ∛(-27) = -3 (a real number), because (-3)³=-27. Cube roots of negative numbers ARE real (unlike square roots). The imaginary/complex roots arise only for square roots of negatives. This distinguishes square roots (2nd roots) from cube roots (3rd roots) in terms of real number behavior."
+  },
+  {
+    "QuestionText": "How many prime factors does the cube of 12 have?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 6",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Olympiad",
+    "Explanation": "12 = 2²×3. 12³ = 2⁶×3³. Number of distinct prime factors = 2 (the primes 2 and 3). Total prime factors counting multiplicity = 6+3=9. The question asks how many distinct primes, which is 2. Note: distinction between 'distinct prime factors' and 'total prime factors.'"
+  },
+  {
+    "QuestionText": "Find x if ∛(x+1) = 4:",
+    "Options": [
+      "A) 63",
+      "B) 64",
+      "C) 65",
+      "D) 66"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Advanced",
+    "Explanation": "∛(x+1) = 4 → x+1 = 4³ = 64 → x = 63. Cubing both sides: x+1=64, so x=63. Verify: ∛(63+1)=∛64=4 ✓."
+  },
+  {
+    "QuestionText": "The difference between consecutive perfect cubes 3³ and 2³ is:",
+    "Options": [
+      "A) 9",
+      "B) 19",
+      "C) 26",
+      "D) 18"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cubes",
+    "Difficulty": "Foundation",
+    "Explanation": "3³-2³ = 27-8 = 19. In general, n³-(n-1)³ = 3n²-3n+1 (a quadratic in n). For n=3: 9-9+1+18=19... Actually: 3n²-3n+1 = 3(9)-3(3)+1 = 27-9+1 = 19 ✓."
+  },
+  {
+    "QuestionText": "Which is larger: ∛1000 or √100?",
+    "Options": [
+      "A) ∛1000",
+      "B) √100",
+      "C) Both equal",
+      "D) Cannot compare"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Cubes and Cube Roots",
+    "SubTopic": "Cube Roots",
+    "Difficulty": "Foundation",
+    "Explanation": "∛1000 = 10 (since 10³=1000). √100 = 10 (since 10²=100). Both equal 10. They are equal."
+  }
+]

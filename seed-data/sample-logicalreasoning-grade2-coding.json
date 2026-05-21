@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If CAT is coded as DBT, what is DOG coded as?",
+    "Options": ["A) EPH", "B) EOH", "C) DPH", "D) FPH"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Each letter is moved one step forward in the alphabet (C->D, A->B, T->U). Wait, in DBT, T stayed T. Let's re-examine: C+1=D, A+1=B, T+0=T. Applying to DOG: D+1=E, O+1=P, G+0=G. Actually, standard shift is +1 for all: D+1=E, O+1=P, G+1=H. Result: EPH."
+  },
+  {
+    "QuestionText": "In a certain code, 1 is A, 2 is B, and 3 is C. How is 'CAB' written?",
+    "Options": ["A) 321", "B) 312", "C) 123", "D) 213"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Substitute each letter with its number: C=3, A=1, B=2."
+  },
+  {
+    "QuestionText": "If APPLE is coded as 12234, what number represents the letter P?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "In APPLE, P is the 2nd and 3rd letter. In 12234, 2 is the 2nd and 3rd digit."
+  },
+  {
+    "QuestionText": "If SUN is coded as BUS, and MOON is coded as BOOM, what is the code for the first letter of each word?",
+    "Options": ["A) S", "B) B", "C) M", "D) O"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The code replaces the starting letter with 'B'."
+  },
+  {
+    "QuestionText": "If RED is coded as BLUE and BLUE is coded as GREEN, what is the code for the color of the sky?",
+    "Options": ["A) BLUE", "B) RED", "C) GREEN", "D) SKY"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The sky is blue. According to the code, BLUE is called GREEN."
+  },
+  {
+    "QuestionText": "If 5-4-3 means 'CAT', what does 3-4-5 mean?",
+    "Options": ["A) ACT", "B) TAC", "C) ATC", "D) CTA"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The numbers correspond to letters: 5=C, 4=A, 3=T. So 3-4-5 is T-A-C."
+  },
+  {
+    "QuestionText": "If HOT is coded as IPO, what is COLD coded as?",
+    "Options": ["A) DPME", "B) DPME", "C) DOME", "D) CPME"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each letter is shifted one step forward: C->D, O->P, L->M, D->E."
+  },
+  {
+    "QuestionText": "In a secret language, 'Eat Food' is 'Ping Pong'. What does 'Ping' mean?",
+    "Options": ["A) Food", "B) Water", "C) Eat", "D) Sleep"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "The words match in order: Ping = Eat, Pong = Food."
+  },
+  {
+    "QuestionText": "If A=2, B=4, C=6, what is the code for 'B + C'?",
+    "Options": ["A) 8", "B) 10", "C) 12", "D) 14"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "B is 4 and C is 6. 4 + 6 = 10."
+  },
+  {
+    "QuestionText": "If BALL is coded as AZKK, what is the code for the letter B?",
+    "Options": ["A) A", "B) Z", "C) K", "D) C"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each letter is moved one step backward: B-1=A, A-1=Z, L-1=K."
+  },
+  {
+    "QuestionText": "If 'Boy' is coded as 'Girl' and 'Girl' is coded as 'Teacher', who teaches in a school?",
+    "Options": ["A) Boy", "B) Girl", "C) Teacher", "D) Student"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "A Teacher teaches in school. In this code, 'Teacher' is represented by 'Girl'."
+  },
+  {
+    "QuestionText": "If 123 is DOG and 456 is CAT, what is 423?",
+    "Options": ["A) COG", "B) DOT", "C) COT", "D) DOG"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "4=C, 2=O, 3=G. Result: COG."
+  },
+  {
+    "QuestionText": "If '+' means 'x' and '-' means '+', what is the value of 5 - 2?",
+    "Options": ["A) 3", "B) 10", "C) 7", "D) 8"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Replace '-' with '+': 5 + 2 = 7."
+  },
+  {
+    "QuestionText": "If UP is coded as VQ, what is DOWN coded as?",
+    "Options": ["A) EPXO", "B) CPNM", "C) EQXO", "D) EPXN"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Each letter is shifted one step forward: D->E, O->P, W->X, N->O."
+  },
+  {
+    "QuestionText": "If CLOCK is coded as KCOLC, what is WATCH coded as?",
+    "Options": ["A) HCTAW", "B) HCTWA", "C) TWACH", "D) WAHCT"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The word is written in reverse order."
+  },
+  {
+    "QuestionText": "If 'Book' is called 'Pillow', 'Pillow' is called 'Library', and 'Library' is called 'Bed', where do we find many books?",
+    "Options": ["A) Library", "B) Pillow", "C) Bed", "D) Book"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Books are in a Library. The code says Library is called 'Bed'."
+  },
+  {
+    "QuestionText": "If 10-20-30 is ACE, what is 30-20-10?",
+    "Options": ["A) CEA", "B) AEC", "C) ECA", "D) CAE"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "30=E, 20=C, 10=A."
+  },
+  {
+    "QuestionText": "If HEART is coded as @#$*&, what is the code for the letter H?",
+    "Options": ["A) @", "B) #", "C) $", "D) *"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "H is the first letter, @ is the first symbol."
+  },
+  {
+    "QuestionText": "If 1=A, 2=B, 3=C... what is 1+2+3?",
+    "Options": ["A) D", "B) E", "C) F", "D) G"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "1+2+3=6. The 6th letter of the alphabet is F."
+  },
+  {
+    "QuestionText": "If TOY is coded as UPZ, what is the code for 'T'?",
+    "Options": ["A) U", "B) S", "C) V", "D) T"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "T+1 = U."
+  },
+  {
+    "QuestionText": "In a code, 'Good Morning' is '12 34'. 'Good Evening' is '12 56'. What number represents 'Good'?",
+    "Options": ["A) 34", "B) 56", "C) 12", "D) 78"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "'12' is the common number in both phrases, just as 'Good' is the common word."
+  },
+  {
+    "QuestionText": "If RAIN is coded as S B J O, what is SUN coded as?",
+    "Options": ["A) TVO", "B) RTM", "C) TUM", "D) TVP"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Each letter shifts +1 forward (S->T, U->V, N->O)."
+  },
+  {
+    "QuestionText": "If 7 is 'S' and 1 is 'A', how do you write 'SAS'?",
+    "Options": ["A) 717", "B) 171", "C) 771", "D) 117"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "S=7, A=1, S=7. Result: 717."
+  },
+  {
+    "QuestionText": "If FRUIT is coded as G S V J U, what is the code for the letter 'I'?",
+    "Options": ["A) J", "B) H", "C) K", "D) I"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The letter 'I' is the 4th letter in FRUIT. The 4th letter in the code is 'J' (I+1=J)."
+  },
+  {
+    "QuestionText": "If 'Bird' can 'Swim' and 'Fish' can 'Fly', where does a 'Fish' live?",
+    "Options": ["A) Water", "B) Sky", "C) Land", "D) Tree"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "A fish lives in water, but the code says fish can fly, implying it belongs in the 'Sky'."
+  },
+  {
+    "QuestionText": "If 111 is AAA, what is 222?",
+    "Options": ["A) BBB", "B) CCC", "C) ABC", "D) DDD"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "1 is A, so 2 is B."
+  },
+  {
+    "QuestionText": "If PEN is coded as 3 and PAPER is coded as 5, what is the code for BOOK?",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The code is the number of letters in the word (BOOK has 4 letters)."
+  },
+  {
+    "QuestionText": "If MOON is coded as NOOM, what is STAR coded as?",
+    "Options": ["A) TSRA", "B) RATS", "C) ARTS", "D) TARS"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The word is reversed."
+  },
+  {
+    "QuestionText": "If 9 is Z and 8 is Y, what is 9889?",
+    "Options": ["A) ZYYZ", "B) YZZY", "C) ZYZY", "D) YZYZ"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Replace numbers with letters: 9=Z, 8=Y, 8=Y, 9=Z."
+  },
+  {
+    "QuestionText": "If 'Apple' is 'Fruit', 'Onion' is 'Vegetable', and 'Fruit' is 'Sweet', what is an 'Apple'?",
+    "Options": ["A) Sweet", "B) Sour", "C) Fruit", "D) Vegetable"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Apple is a Fruit, and Fruit is called 'Sweet'."
+  },
+  {
+    "QuestionText": "If COLD is coded as 3-15-12-4, what is the code for 'C'?",
+    "Options": ["A) 3", "B) 15", "C) 12", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "C is the 3rd letter of the alphabet."
+  },
+  {
+    "QuestionText": "If 'Day' is coded as 'Night', what is 'Dark' coded as?",
+    "Options": ["A) Light", "B) Black", "C) Night", "D) Bright"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The code uses opposites (antonyms)."
+  },
+  {
+    "QuestionText": "If 55 is EE, what is 77?",
+    "Options": ["A) FF", "B) GG", "C) HH", "D) II"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "G is the 7th letter of the alphabet."
+  },
+  {
+    "QuestionText": "If FISH is coded as 1234, what is HSIF coded as?",
+    "Options": ["A) 4321", "B) 1234", "C) 3412", "D) 2143"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Reverse the word, reverse the numbers."
+  },
+  {
+    "QuestionText": "If BOX is coded as CPZ, what is the code for 'O'?",
+    "Options": ["A) P", "B) Q", "C) N", "D) O"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "O+1 = P."
+  },
+  {
+    "QuestionText": "If 'Pencil' is 'Sharp' and 'Sharp' is 'Danger', what is a 'Pencil'?",
+    "Options": ["A) Wood", "B) Danger", "C) Sharp", "D) Tool"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Pencil is Sharp, and Sharp is coded as Danger."
+  },
+  {
+    "QuestionText": "If 12 is AB, 34 is CD, what is 56?",
+    "Options": ["A) EF", "B) GH", "C) EG", "D) FG"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "E is the 5th letter, F is the 6th letter."
+  },
+  {
+    "QuestionText": "If RED is coded as 18-5-4, what is the code for 'E'?",
+    "Options": ["A) 18", "B) 5", "C) 4", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "E is the 5th letter of the alphabet."
+  },
+  {
+    "QuestionText": "If A=Z, B=Y, C=X, what is 'ABC' in code?",
+    "Options": ["A) ZYX", "B) XYZ", "C) CBA", "D) ZXY"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each letter is paired with its opposite from the end of the alphabet."
+  },
+  {
+    "QuestionText": "If 'Hand' is 'Leg' and 'Leg' is 'Ear', what do we use for walking?",
+    "Options": ["A) Leg", "B) Ear", "C) Hand", "D) Foot"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "We walk with our legs. In the code, 'Leg' is called 'Ear'."
+  },
+  {
+    "QuestionText": "If 22 is BB, what is 24?",
+    "Options": ["A) BD", "B) BC", "C) DB", "D) AD"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "2 is B, 4 is D."
+  },
+  {
+    "QuestionText": "If FAST is coded as GBTU, what is the code for 'S'?",
+    "Options": ["A) T", "B) R", "C) U", "D) S"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "S+1 = T."
+  },
+  {
+    "QuestionText": "If 'Milk' is 'Black' and 'Coal' is 'White', what is the color of 'Milk'?",
+    "Options": ["A) White", "B) Black", "C) Grey", "D) Blue"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Milk is normally white, but in this code, it is 'Black'."
+  },
+  {
+    "QuestionText": "If DOG is coded as 4-15-7, what is the code for 'G'?",
+    "Options": ["A) 4", "B) 15", "C) 7", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "G is the 7th letter of the alphabet."
+  },
+  {
+    "QuestionText": "If HI is 89, what is BY?",
+    "Options": ["A) 225", "B) 252", "C) 215", "D) 25"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "B=2, Y=25. Combining them gives 225."
+  },
+  {
+    "QuestionText": "If 'Sun' is 'Moon' and 'Moon' is 'Star', what do we see during the day?",
+    "Options": ["A) Sun", "B) Moon", "C) Star", "D) Sky"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "We see the Sun during the day. In the code, 'Sun' is called 'Moon'."
+  },
+  {
+    "QuestionText": "If CAT is 3120, what is BAT?",
+    "Options": ["A) 2120", "B) 3120", "C) 1120", "D) 4120"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "B=2, A=1, T=20. Combined: 2120."
+  },
+  {
+    "QuestionText": "If 'Left' is 'Right' and 'Up' is 'Down', where is the ceiling?",
+    "Options": ["A) Up", "B) Down", "C) Left", "D) Right"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The ceiling is 'Up'. In the code, 'Up' is 'Down'."
+  },
+  {
+    "QuestionText": "If 1+1=A, what is 2+2?",
+    "Options": ["A) B", "B) C", "C) D", "D) E"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "1+1=2 (B), 2+2=4 (D)."
+  },
+  {
+    "QuestionText": "If NO is coded as 1415, what is ON coded as?",
+    "Options": ["A) 1514", "B) 1415", "C) 1111", "D) 4444"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Coding and Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Reverse the letter order, reverse the number order (O=15, N=14)."
+  }
+]

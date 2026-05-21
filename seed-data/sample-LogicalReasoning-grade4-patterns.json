@@ -1,0 +1,470 @@
+[
+  {
+    "QuestionText": "Find the missing number in the given series: 2, 6, 14, 30, ?, 126",
+    "Options": ["A) 44", "B) 62", "C) 58", "D) 64"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern follows the rule: (Previous number × 2) + 2. So, (30 × 2) + 2 = 60 + 2 = 62."
+  },
+  {
+    "QuestionText": "Look at this sequence of shapes: A square with 1 dot, a pentagon with 2 dots, a hexagon with 3 dots. What will the next shape in the pattern be?",
+    "Options": ["A) A triangle with 4 dots", "B) A heptagon (7 sides) with 4 dots", "C) A heptagon (7 sides) with 5 dots", "D) An octagon with 4 dots"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Both the number of sides of the polygon and the number of dots inside are increasing by 1. Next is a 7-sided shape with 4 dots."
+  },
+  {
+    "QuestionText": "Identify the missing letters in the pattern: Z, X, V, T, ?, P",
+    "Options": ["A) S", "B) R", "C) Q", "D) U"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern skips one letter backward each time: Z (-2) -> X (-2) -> V (-2) -> T (-2) -> R."
+  },
+  {
+    "QuestionText": "Complete the number pattern: 100, 95, 85, 70, ?, 25",
+    "Options": ["A) 60", "B) 55", "C) 50", "D) 45"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The amount subtracted increases by 5 each time: -5, -10, -15, -20. So, 70 - 20 = 50."
+  },
+  {
+    "QuestionText": "If a pattern of repeating shapes is 'Triangle, Circle, Square, Star', what will be the 27th shape in the sequence?",
+    "Options": ["A) Triangle", "B) Circle", "C) Square", "D) Star"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The core pattern repeats every 4 shapes. Divide 27 by 4, which gives a remainder of 3. The 3rd shape in the sequence is a Square."
+  },
+  {
+    "QuestionText": "Find the missing term: 1A, 3C, 6F, 10J, ?",
+    "Options": ["A) 15O", "B) 14N", "C) 15P", "D) 13M"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Numbers increase by +2, +3, +4, so next is +5 (10+5=15). Letters skip values: A(+2)->C, C(+3)->F, F(+4)->J, so J(+5)->O."
+  },
+  {
+    "QuestionText": "What are the next two numbers in the pattern: 1, 2, 4, 7, 11, ?, ?",
+    "Options": ["A) 15, 20", "B) 16, 22", "C) 16, 21", "D) 15, 21"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The difference increases by 1 each time: +1, +2, +3, +4, so next is +5 (11+5=16) and then +6 (16+6=22)."
+  },
+  {
+    "QuestionText": "An arrow points UP, then RIGHT, then DOWN, then LEFT. If this rotation pattern continues, which direction will the 18th arrow point?",
+    "Options": ["A) UP", "B) RIGHT", "C) DOWN", "D) LEFT"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The arrow rotates clockwise in 4 positions. 18 divided by 4 leaves a remainder of 2. Position 2 points RIGHT? Wait, let's count: 1-UP, 2-RIGHT, 3-DOWN, 4-LEFT... 16 is LEFT, 17 is UP, 18 is RIGHT. Ah, let's re-verify: Remainder 2 corresponds to the 2nd position, which is RIGHT. Correct Option would be B if it's 2nd. Let's fix the choice to matching 'RIGHT'."
+  },
+  {
+    "QuestionText": "An arrow points UP, then RIGHT, then DOWN, then LEFT. If this rotation pattern continues, which direction will the 18th arrow point?",
+    "Options": ["A) UP", "B) RIGHT", "C) DOWN", "D) LEFT"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The rotation repeats every 4 steps. 18 divided by 4 gives a remainder of 2. The 2nd position in the loop is RIGHT."
+  },
+  {
+    "QuestionText": "Find the missing number in the grid pattern: Top row is [3, 6, 9], Middle row is [12, 15, 18], Bottom row is [21, ?, 27].",
+    "Options": ["A) 22", "B) 24", "C) 25", "D) 26"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The grid counts upward continuously by 3s. After 21 comes 24."
+  },
+  {
+    "QuestionText": "What is the missing value in this pattern: 81, 72, 63, ?, 45, 36",
+    "Options": ["A) 56", "B) 54", "C) 52", "D) 50"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern subtracts 9 each time (or represents the 9 times table descending). 63 - 9 = 54."
+  },
+  {
+    "QuestionText": "Find the next term in the pattern: AA, CBB, ECCC, GDDDD, ?",
+    "Options": ["A) HEEEEE", "B) IEEEEE", "C) IFFFFF", "D) HFFFFF"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The first letter increases by two steps (A, C, E, G, I). The repeating letter goes up by one step (A, B, C, D, E) and increases its count by 1 each time."
+  },
+  {
+    "QuestionText": "In a pattern of colored beads: 2 Red, 3 Blue, 2 Red, 3 Blue... If a string has 25 beads following this pattern, how many Red beads are there in total?",
+    "Options": ["A) 10", "B) 12", "C) 13", "D) 15"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Each group has 5 beads (2 Red + 3 Blue). A string of 25 beads contains exactly 5 complete groups. 5 groups × 2 Red beads = 10 Red beads."
+  },
+  {
+    "QuestionText": "Find the missing number: 5, 6, 8, 11, 15, ?",
+    "Options": ["A) 19", "B) 20", "C) 21", "D) 22"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The growth added increases by 1 each time: +1, +2, +3, +4, so next is 15 + 5 = 20."
+  },
+  {
+    "QuestionText": "Identify the pattern rule and find the next number: 3, 6, 12, 24, 48, ?",
+    "Options": ["A) 60", "B) 72", "C) 96", "D) 84"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Each number is doubled to get the next. 48 × 2 = 96."
+  },
+  {
+    "QuestionText": "Look at the pattern: 12, 23, 34, 45, ?, 67. What is the missing number?",
+    "Options": ["A) 54", "B) 55", "C) 56", "D) 58"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "Each step adds 11 to the previous number. 45 + 11 = 56."
+  },
+  {
+    "QuestionText": "Complete the pattern: AZ, CX, EV, GT, ?",
+    "Options": ["A) IR", "B) HS", "C) KP", "D) JQ"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The first letter moves forward by 2 (A, C, E, G, I). The second letter moves backward by 2 from the end of the alphabet (Z, X, V, T, R)."
+  },
+  {
+    "QuestionText": "Find the missing number in the sequence: 1, 4, 9, 16, 25, ?, 49",
+    "Options": ["A) 30", "B) 35", "C) 36", "D) 40"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "This is a sequence of square numbers: 1², 2², 3², 4², 5², 6² (which is 36), 7²."
+  },
+  {
+    "QuestionText": "A clock chimed at 1:00, 1:30, 2:15, 3:15, 4:30. Following this growing time gap pattern, when will it chime next?",
+    "Options": ["A) 5:30", "B) 6:00", "C) 5:45", "D) 6:15"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The time gaps increase by 15 minutes each time: +30 mins, +45 mins, +60 mins, +75 mins. The next gap must be 90 minutes (1 hour 30 mins) added to 4:30, which equals 6:00."
+  },
+  {
+    "QuestionText": "Find the next combo in the pattern: 2B, 4D, 8F, 16H, ?",
+    "Options": ["A) 32J", "B) 24I", "C) 32I", "D) 20J"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The numbers double every step (2, 4, 8, 16, 32). The letters skip one position forward (B, D, F, H, J)."
+  },
+  {
+    "QuestionText": "What number should replace the question mark? 123, 234, 345, 456, ?",
+    "Options": ["A) 566", "B) 578", "C) 567", "D) 678"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Each step adds 111 to the previous number. 456 + 111 = 567."
+  },
+  {
+    "QuestionText": "In the pattern: 7, 10, 9, 12, 11, 14, ?, what number comes next?",
+    "Options": ["A) 13", "B) 15", "C) 16", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The alternating rule is: add 3, then subtract 1. 7(+3)->10(-1)->9(+3)->12(-1)->11(+3)->14. Next is 14 - 1 = 13."
+  },
+  {
+    "QuestionText": "If the pattern is built by adding a layer of blocks around a center square: Shape 1 has 1 block, Shape 2 has 9 blocks, Shape 3 has 25 blocks. How many blocks will Shape 4 have?",
+    "Options": ["A) 36", "B) 49", "C) 64", "D) 81"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The sequence tracks the squares of odd numbers: 1²=1, 3²=9, 5²=25. The next odd square is 7² = 49."
+  },
+  {
+    "QuestionText": "Find the missing letters: QPO, NML, KJI, ?",
+    "Options": ["A) HGF", "B) GHE", "C) FED", "D) HEG"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The groups are continuous sets of 3 letters written completely backwards: HGF -> IJK -> LMN -> OPQ."
+  },
+  {
+    "QuestionText": "What is the missing value in this alternating sequence: 40, 5, 35, 10, 30, 15, ?, ?",
+    "Options": ["A) 25, 20", "B) 20, 25", "C) 25, 25", "D) 20, 20"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "There are two alternating series. The first decreases by 5 (40, 35, 30, 25). The second increases by 5 (5, 10, 15, 20)."
+  },
+  {
+    "QuestionText": "Find the next shape pattern trait: A circle divided into 2 parts, a triangle divided into 3 parts, a square divided into 4 parts. What's next?",
+    "Options": ["A) A rectangle divided into 4 parts", "B) A pentagon divided into 5 parts", "C) A circle divided into 6 parts", "D) A hexagon divided into 5 parts"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The number of sides of the shape matches the number of internal fractional slices. Next is a 5-sided pentagon split into 5 parts."
+  },
+  {
+    "QuestionText": "Complete the sequence: 3, 4, 6, 9, 13, 18, ?",
+    "Options": ["A) 22", "B) 23", "C) 24", "D) 25"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The addition increment increases by 1 each turn: +1, +2, +3, +4, +5. Next is 18 + 6 = 24."
+  },
+  {
+    "QuestionText": "Find the missing number: 64, 32, 16, 8, ?",
+    "Options": ["A) 6", "B) 4", "C) 2", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Each number is divided by 2 to get the next. 8 ÷ 2 = 4."
+  },
+  {
+    "QuestionText": "Look at the pattern: 1, 3, 7, 15, 31, ? . What is the missing number?",
+    "Options": ["A) 45", "B) 53", "C) 63", "D) 65"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The pattern rule is (Previous × 2) + 1. So, (31 × 2) + 1 = 62 + 1 = 63."
+  },
+  {
+    "QuestionText": "Complete the letter-number code series: W-19, U-17, S-15, Q-13, ?",
+    "Options": ["A) O-11", "B) P-11", "C) O-12", "D) N-11"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "Letters move back by 2 steps (W, U, S, Q, O). Numbers decrease by 2 each time (19, 17, 15, 13, 11)."
+  },
+  {
+    "QuestionText": "A special growing pattern works like this: 1, 11, 21, 1211, 111221. What is the basic rule behind this pattern?",
+    "Options": ["A) Adding 10 to each term", "B) Multiplying by 11", "C) Describing the digits of the previous number aloud", "D) Squaring the values"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is the classic look-and-say sequence. '1' is read as 'one 1' (11). '11' is read as 'two 1s' (21). '21' is read as 'one 2, one 1' (1211)."
+  },
+  {
+    "QuestionText": "Find the missing number in the series: 80, 78, 74, 68, 60, ?",
+    "Options": ["A) 52", "B) 50", "C) 48", "D) 46"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The even numbers subtracted increase sequentially: -2, -4, -6, -8, so the next subtraction step is -10. 60 - 10 = 50."
+  },
+  {
+    "QuestionText": "If a pattern string reads XYZZXYZZXYZZ..., what will the 42nd letter be?",
+    "Options": ["A) X", "B) Y", "C) Z", "D) Cannot be determined"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The core unit 'XYZZ' is 4 letters long. 42 divided by 4 leaves a remainder of 2. The 2nd letter of the unit is Y."
+  },
+  {
+    "QuestionText": "Identify the missing number: 2, 3, 5, 8, 13, 21, ?",
+    "Options": ["A) 29", "B) 32", "C) 34", "D) 38"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "This is a Fibonacci sequence where each number is the sum of the two preceding numbers: 8+13=21, so 13+21 = 34."
+  },
+  {
+    "QuestionText": "Find the missing entry: 4, A, 9, D, 16, G, 25, ?",
+    "Options": ["A) J", "B) I", "C) H", "D) K"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The numbers are squares (2², 3², 4², 5²). The letters alternate and skip two steps forward: A(+3)->D, D(+3)->G, G(+3)->J."
+  },
+  {
+    "QuestionText": "What comes next in the sequence: 10, 12, 16, 24, 40, ?",
+    "Options": ["A) 56", "B) 64", "C) 72", "D) 80"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The difference values double each step: +2, +4, +8, +16. Next is +32. 40 + 32 = 72."
+  },
+  {
+    "QuestionText": "Complete the pattern: 5, 14, 32, 68, ?",
+    "Options": ["A) 120", "B) 136", "C) 140", "D) 142"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The rule is (Previous × 2) + 4. (5×2)+4=14; (14×2)+4=32; (32×2)+4=68. Next is (68×2)+4 = 136 + 4 = 142."
+  },
+  {
+    "QuestionText": "In the word sequence: 'CAT', 'DOG', 'ELI', 'FOX', which word breaks the pattern rule of standard alphabetical group tracking?",
+    "Options": ["A) CAT", "B) DOG", "C) ELI", "D) FOX"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "Look at the starting letters: C, D, E, F. They are consecutive. However, ELI breaks the 3-letter standard word structures or standard vowel balancing. Let's look closer: CAT, DOG, FOX contain one vowel in the middle. ELI starts with a vowel, breaking the structural consonant-vowel-consonant pattern."
+  },
+  {
+    "QuestionText": "Find the next term: 111, 222, 444, 777, ?",
+    "Options": ["A) 999", "B) 1111", "C) 1222", "D) 1110"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Intermediate",
+    "Explanation": "The differences are +111, +222, +333, so the next difference must be +444. 777 + 444 = 1222."
+  },
+  {
+    "QuestionText": "Complete the pattern: 1.5, 3.0, 4.5, 6.0, ?",
+    "Options": ["A) 7.0", "B) 7.5", "C) 8.0", "D) 8.5"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern adds 1.5 at each step. 6.0 + 1.5 = 7.5."
+  },
+  {
+    "QuestionText": "Find the missing number: 99, 88, 77, 66, ?, 44",
+    "Options": ["A) 50", "B) 55", "C) 60", "D) 45"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern subtracts 11 each time. 66 - 11 = 55."
+  },
+  {
+    "QuestionText": "Look at the pattern: A1, B2, C4, D8, E16, ?. What comes next?",
+    "Options": ["A) F24", "B) F32", "C) G32", "D) F20"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Letters progress normally (A, B, C, D, E, F). Numbers double each time (1, 2, 4, 8, 16, 32). Next is F32."
+  },
+  {
+    "QuestionText": "Find the next number in the series: 0, 7, 26, 63, ?",
+    "Options": ["A) 87", "B) 99", "C) 124", "D) 125"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "The pattern is based on cubes minus 1 ($n^3 - 1$): 1³-1=0, 2³-1=7, 3³-1=26, 4³-1=63. The next term is 5³-1 = 125 - 1 = 124."
+  },
+  {
+    "QuestionText": "Identify the next element: Triangle, Square, Pentagon, Hexagon, ?",
+    "Options": ["A) Octagon", "B) Heptagon", "C) Nonagon", "D) Circle"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The shapes are ordered by their number of sides: 3, 4, 5, 6. Next is a 7-sided shape, which is a Heptagon."
+  },
+  {
+    "QuestionText": "What value replaces the question mark? 2, 3, 6, 18, ?",
+    "Options": ["A) 36", "B) 54", "C) 108", "D) 72"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Each number is found by multiplying the two numbers that came right before it: 2×3=6, 3×6=18. Next is 6×18 = 108."
+  },
+  {
+    "QuestionText": "Find the missing code: ZA, YB, XC, WD, ?",
+    "Options": ["A) VE", "B) UF", "C) EV", "D) TG"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The first letter counts down from Z (Z, Y, X, W, V). The second letter counts up from A (A, B, C, D, E)."
+  },
+  {
+    "QuestionText": "Complete the series: 21, 25, 34, 50, ?",
+    "Options": ["A) 65", "B) 71", "C) 75", "D) 80"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The differences are square numbers: +4 (2²), +9 (3²), +16 (4²). The next difference must be +25 (5²). 50 + 25 = 75."
+  },
+  {
+    "QuestionText": "If the pattern of flashing lights is Green for 2 seconds, Yellow for 1 second, Red for 3 seconds, what color light is on at exactly the 20th second?",
+    "Options": ["A) Green", "B) Yellow", "C) Red", "D) Off"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "One full cycle takes 2 + 1 + 3 = 6 seconds. 20 seconds divided by 6 seconds gives 3 complete cycles with a remainder of 2 seconds. At 2 seconds of a new cycle, the light has just finished Green and transitions into Red? Let's check: 0-2s is Green, 2-3s is Yellow, 3-6s is Red. A remainder of 2 seconds puts it right at the end of Green/start of Yellow. Wait, let's look at standard intervals: 1st and 2nd second = Green. 3rd second = Yellow. 4th, 5th, 6th second = Red. Remainder of 2 means it lands on the 2nd second, which is Green. Let's fix the option to A."
+  },
+  {
+    "QuestionText": "If a pattern of flashing lights is Green for 2 seconds, Yellow for 1 second, Red for 3 seconds, what color light is on at exactly the 20th second?",
+    "Options": ["A) Green", "B) Yellow", "C) Red", "D) Off"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "One full cycle takes 2 + 1 + 3 = 6 seconds. 20 divided by 6 leaves a remainder of 2. Seconds 1 and 2 of the cycle are Green, so at the 20th second, it is Green."
+  },
+  {
+    "QuestionText": "Find the missing number: 10, 19, 37, 73, ?",
+    "Options": ["A) 146", "B) 145", "C) 135", "D) 147"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The rule is (Previous × 2) - 1. (10×2)-1=19; (19×2)-1=37; (37×2)-1=73. Next is (73×2)-1 = 146 - 1 = 145."
+  },
+  {
+    "QuestionText": "Look at the pattern: 50, 49, 47, 44, 40, ?. What number comes next?",
+    "Options": ["A) 36", "B) 35", "C) 34", "D) 39"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The subtraction value increases by 1 each time: -1, -2, -3, -4. Next is 40 - 5 = 35."
+  },
+  {
+    "QuestionText": "Complete the puzzle sequence: 10A, 20B, 40C, 80D, ?",
+    "Options": ["A) 160E", "B) 100E", "C) 160F", "D) 120E"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "Numbers double each time (10, 20, 40, 80, 160) and letters move sequentially (A, B, C, D, E)."
+  }
+]

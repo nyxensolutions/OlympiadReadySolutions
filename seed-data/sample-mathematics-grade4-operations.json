@@ -1,0 +1,455 @@
+[
+  {
+    "QuestionText": "Calculate the exact sum of 20,120 and 15,035.",
+    "Options": ["A) 35,155", "B) 35,255", "C) 35,105", "D) 36,155"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5–6 digit numbers with regrouping",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding the two numbers carefully with regrouping gives 35,155."
+  },
+  {
+    "QuestionText": "Find the value of 102 multiplied by 12.",
+    "Options": ["A) 1,224", "B) 1,236", "C) 1,212", "D) 1,324"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiplying the terms directly results in 1,224."
+  },
+  {
+    "QuestionText": "What is the remainder when 521 is divided by 5?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Foundation",
+    "Explanation": "Executing long division shows that the leftover remainder is exactly 1."
+  },
+  {
+    "QuestionText": "A shop has 20 boxes of crayons with 10 crayons in each. If 12 crayons are sold, how many are left?",
+    "Options": ["A) 188", "B) 193", "C) 183", "D) 200"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Foundation",
+    "Explanation": "Total crayons = 20 * 10 = 200. Subtracting the 12 sold leaves 188."
+  },
+  {
+    "QuestionText": "Simplify the numerical expression: 15 + 20 \u00f7 4.",
+    "Options": ["A) 20", "B) 22", "C) 19", "D) 25"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "Following DMAS rules, divide first (20/4 = 5), then add to get 20."
+  },
+  {
+    "QuestionText": "Find the difference when 34,512 is subtracted from 78,965.",
+    "Options": ["A) 44,453", "B) 44,443", "C) 44,353", "D) 45,453"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtracting step-by-step: 78,965 - 34,512 = 44,453."
+  },
+  {
+    "QuestionText": "Which of the following illustrates the commutative property of multiplication?",
+    "Options": ["A) 12 \u00d7 5 = 5 \u00d7 12", "B) 12 \u00d7 1 = 12", "C) 12 \u00d7 (5 + 2) = 12 \u00d7 5 + 12 \u00d7 2", "D) 12 \u00d7 0 = 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Foundation",
+    "Explanation": "The commutative property states that changing the order of factors does not change the product."
+  },
+  {
+    "QuestionText": "If $240 \u00f7 8 = 30$, which multiplication sentence confirms this is correct?",
+    "Options": ["A) 30 \u00d7 8 = 240", "B) 240 \u00d7 30 = 8", "C) 30 + 8 = 38", "D) 240 - 8 = 232"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiplication is the inverse operation of division. Therefore, $30 \u00d7 8 = 240$."
+  },
+  {
+    "QuestionText": "Rahul has 140 marbles. He shares them equally among 7 friends. How many marbles does each friend get?",
+    "Options": ["A) 20", "B) 15", "C) 25", "D) 30"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Foundation",
+    "Explanation": "Dividing the total marbles by the number of friends gives $140 \u00f7 7 = 20$."
+  },
+  {
+    "QuestionText": "Evaluate the expression: 40 - 5 \u00d7 6.",
+    "Options": ["A) 10", "B) 210", "C) 35", "D) 15"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "According to DMAS, multiply first: $5 \u00d7 6 = 30$. Then subtract: 40 - 30 = 10."
+  },
+  {
+    "QuestionText": "Add: 125,400 + 342,199.",
+    "Options": ["A) 467,599", "B) 467,499", "C) 467,600", "D) 465,599"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Foundation",
+    "Explanation": "Aligning columns and adding directly yields 467,599."
+  },
+  {
+    "QuestionText": "Find the product of 250 and 15.",
+    "Options": ["A) 3,750", "B) 3,500", "C) 3,650", "D) 3,850"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Foundation",
+    "Explanation": "$250 \u00d7 15 = 250 \u00d7 10 + 250 \u00d7 5 = 2500 + 1250 = 3750$."
+  },
+  {
+    "QuestionText": "When 846 is divided by 4, what is the quotient?",
+    "Options": ["A) 211", "B) 212", "C) 210", "D) 211 R 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Foundation",
+    "Explanation": "$846 \u00f7 4 = 211$ with a remainder of 2. The quotient itself is 211."
+  },
+  {
+    "QuestionText": "Anika reads 25 pages of a book every day. How many pages will she read in 3 weeks?",
+    "Options": ["A) 525", "B) 175", "C) 75", "D) 600"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Foundation",
+    "Explanation": "3 weeks = 21 days. $25 \u00d7 21 = 525$ pages."
+  },
+  {
+    "QuestionText": "Solve the expression: $18 \u00f7 3 \u00d7 2$.",
+    "Options": ["A) 12", "B) 3", "C) 2", "D) 27"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "DMAS tells us to perform division and multiplication from left to right. $18 \u00f7 3 = 6$, and $6 \u00d7 2 = 12$."
+  },
+  {
+    "QuestionText": "Subtract 89,999 from 100,000.",
+    "Options": ["A) 10,001", "B) 10,000", "C) 11,001", "D) 10,111"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Intermediate",
+    "Explanation": "Borrowing across zeros carefully gives a difference of 10,001."
+  },
+  {
+    "QuestionText": "Find the missing number: $415 \u00d7 26 = (415 \u00d7 20) + (415 \u00d7 \\_\\_\\_)$.",
+    "Options": ["A) 6", "B) 20", "C) 415", "D) 10"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Intermediate",
+    "Explanation": "This follows the distributive property where 26 is expanded into 20 + 6."
+  },
+  {
+    "QuestionText": "A factor contains a dividend of 963 and a divisor of 9. What is the quotient?",
+    "Options": ["A) 107", "B) 17", "C) 170", "D) 100"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Intermediate",
+    "Explanation": "$963 \u00f7 9 = 107$. Ensure you put a 0 in the tens place during division."
+  },
+  {
+    "QuestionText": "A school box contains 45 packets of pens, and each packet has 12 pens. If the principal distributes 150 pens, how many pens remain?",
+    "Options": ["A) 390", "B) 540", "C) 420", "D) 310"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Total pens = $45 \u00d7 12 = 540$. Remaining pens = 540 - 150 = 390."
+  },
+  {
+    "QuestionText": "Simplify the following expression: $8 + 12 \u00f7 4 \u00d7 3 - 2$.",
+    "Options": ["A) 15", "B) 13", "C) 23", "D) 11"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Divide first: $12 \u00f7 4 = 3$. Multiply next: $3 \u00d7 3 = 9$. Add and subtract left to right: $8 + 9 - 2 = 15$."
+  },
+  {
+    "QuestionText": "Find the sum of the largest 5-digit number and the smallest 5-digit number.",
+    "Options": ["A) 109,999", "B) 99,999", "C) 110,000", "D) 100,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Intermediate",
+    "Explanation": "Largest 5-digit number = 99,999. Smallest 5-digit number = 10,000. $99,999 + 10,000 = 109,999$."
+  },
+  {
+    "QuestionText": "Multiply 312 by 45.",
+    "Options": ["A) 14,040", "B) 13,940", "C) 14,140", "D) 14,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiplying directly: $312 \u00d7 45 = 14,040$."
+  },
+  {
+    "QuestionText": "If a number is divided by 6, the quotient is 45 and the remainder is 3. What is the number?",
+    "Options": ["A) 273", "B) 270", "C) 276", "D) 267"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Intermediate",
+    "Explanation": "Number = $(\\text{Quotient} \u00d7 \\text{Divisor}) + \\text{Remainder} = (45 \u00d7 6) + 3 = 270 + 3 = 273$."
+  },
+  {
+    "QuestionText": "A library has 8 unique racks. Each rack holds 112 books. If 34 books are issued to students, how many books stay on the racks?",
+    "Options": ["A) 862", "B) 896", "C) 852", "D) 872"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Total books = $112 \u00d7 8 = 896$. Remaining books = 896 - 34 = 862."
+  },
+  {
+    "QuestionText": "Find the value of $50 - 5 \u00d7 (4 + 2)$ using order of operations.",
+    "Options": ["A) 20", "B) 270", "C) 45", "D) 30"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Solve parentheses first: $4 + 2 = 6$. Multiply next: $5 \u00d7 6 = 30$. Subtract last: 50 - 30 = 20."
+  },
+  {
+    "QuestionText": "What number must be added to 56,342 to get 89,765?",
+    "Options": ["A) 33,423", "B) 33,413", "C) 34,423", "D) 32,423"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Intermediate",
+    "Explanation": "Subtract 56,342 from 89,765 to find the missing addend: 89,765 - 56,342 = 33,423."
+  },
+  {
+    "QuestionText": "The product of two numbers is 2,400. If one number is 40, what is the other number?",
+    "Options": ["A) 60", "B) 50", "C) 70", "D) 80"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Divide the product by the known factor: $2,400 \u00f7 40 = 60$."
+  },
+  {
+    "QuestionText": "What is the remainder when 758 is divided by 7?",
+    "Options": ["A) 2", "B) 1", "C) 0", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Intermediate",
+    "Explanation": "$758 \u00f7 7 = 108$ with a remainder of 2."
+  },
+  {
+    "QuestionText": "A toy factory manufactures 320 toys per day. How many toys does it manufacture in February of a non-leap year?",
+    "Options": ["A) 8,960", "B) 9,280", "C) 8,640", "D) 9,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Intermediate",
+    "Explanation": "A non-leap year February has 28 days. $320 \u00d7 28 = 8,960$ toys."
+  },
+  {
+    "QuestionText": "Evaluate the expression: $100 - 4 \u00d7 5 \u00f7 2 + 10$.",
+    "Options": ["A) 100", "B) 90", "C) 80", "D) 110"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Divide first: $5 \u00f7 2 = 2.5$ or handle $4 \u00d7 5 \u00f7 2$ combined as $20 \u00f7 2 = 10$. Expression becomes $100 - 10 + 10 = 100$."
+  },
+  {
+    "QuestionText": "Find the difference between the sum of 12,500 and 13,400, and the number 20,000.",
+    "Options": ["A) 5,900", "B) 6,100", "C) 4,900", "D) 5,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Intermediate",
+    "Explanation": "Sum = $12,500 + 13,400 = 25,900$. Difference = 25,900 - 20,000 = 5,900."
+  },
+  {
+    "QuestionText": "Multiply $105 \u00d7 20$.",
+    "Options": ["A) 2,100", "B) 2,200", "C) 2,010", "D) 2,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Using shortcut properties: $105 \u00d7 2 = 210$, then append a zero to get 2,100."
+  },
+  {
+    "QuestionText": "If you divide 480 by a certain number, the quotient is 60. Find that divisor.",
+    "Options": ["A) 8", "B) 6", "C) 10", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Intermediate",
+    "Explanation": "$480 \u00f7 60 = 8$. The divisor is 8."
+  },
+  {
+    "QuestionText": "A merchant buys 15 chairs for Rs. 250 each. He sells them all for a total of Rs. 4,500. How much total profit did he earn?",
+    "Options": ["A) Rs. 750", "B) Rs. 3,750", "C) Rs. 500", "D) Rs. 1,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Cost Price = $15 \u00d7 250 = 3750$. Profit = Selling Price - Cost Price = 4500 - 3750 = Rs. 750."
+  },
+  {
+    "QuestionText": "Simplify the DMAS expression: $14 + 6 \u00d7 5 - 10 \u00f7 2$.",
+    "Options": ["A) 39", "B) 45", "C) 35", "D) 29"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Divide: $10 \u00f7 2 = 5$. Multiply: $6 \u00d7 5 = 30$. Add/Subtract: $14 + 30 - 5 = 39$."
+  },
+  {
+    "QuestionText": "What number is 15,230 less than the sum of 45,000 and 23,000?",
+    "Options": ["A) 52,770", "B) 53,770", "C) 68,000", "D) 52,870"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Intermediate",
+    "Explanation": "Sum = $45,000 + 23,000 = 68,000$. Subtract: 68,000 - 15,230 = 52,770."
+  },
+  {
+    "QuestionText": "Compute: $540 \u00d7 32$.",
+    "Options": ["A) 17,280", "B) 17,180", "C) 16,280", "D) 17,380"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Intermediate",
+    "Explanation": "$540 \u00d7 32 = 17,280$."
+  },
+  {
+    "QuestionText": "Divide 1,250 by 25.",
+    "Options": ["A) 50", "B) 25", "C) 5", "D) 500"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Intermediate",
+    "Explanation": "Since $25 \u00d7 5 = 125$, then $1,250 \u00f7 25 = 50$."
+  },
+  {
+    "QuestionText": "A milk dairy distributes 120 liters of milk in bottles of 2 liters each. If each bottle costs Rs. 50, what is the total value of all the bottles filled?",
+    "Options": ["A) Rs. 3,000", "B) Rs. 6,000", "C) Rs. 2,400", "D) Rs. 1,500"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Number of bottles = $120 \u00f7 2 = 60$. Total value = $60 \u00d7 50 = \\text{Rs. } 3,000$."
+  },
+  {
+    "QuestionText": "Simplify: $30 - 3 \u00d7 3 + 3$.",
+    "Options": ["A) 24", "B) 30", "C) 12", "D) 84"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiply first: $3 \u00d7 3 = 9$. Add and subtract left to right: $30 - 9 + 3 = 21 + 3 = 24$."
+  },
+  {
+    "QuestionText": "Find the missing digit 'A' in the addition column: $45,6A2 + 12,341 = 58,013$.",
+    "Options": ["A) 6", "B) 7", "C) 5", "D) 9"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Advanced",
+    "Explanation": "Subtract 12,341 from 58,013: $58,013 - 12,341 = 45,672$. Looking at the original expression, the missing digit in the tens position is 7, wait, checking: $45672 + 12341 = 58013$. The placeholder matches 7.",
+    "CorrectAnswer": "B"
+  },
+  {
+    "QuestionText": "If $X \u00d7 Y = 0$ and $X = 55$, what is the value of $Y \u00d7 100 + 45$?",
+    "Options": ["A) 45", "B) 145", "C) 5,545", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Advanced",
+    "Explanation": "Since $X \u00d7 Y = 0$ and $X = 55$, $Y$ must be 0. Thus, $0 \u00d7 100 + 45 = 45$."
+  },
+  {
+    "QuestionText": "When a number is divided by 12, the quotient is 15 and the remainder is the maximum possible remainder. What is the dividend?",
+    "Options": ["A) 191", "B) 180", "C) 192", "D) 179"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Advanced",
+    "Explanation": "The maximum possible remainder for a divisor of 12 is 11. Dividend = $(12 \u00d7 15) + 11 = 180 + 11 = 191$."
+  },
+  {
+    "QuestionText": "A group of 15 friends collected Rs. 300 each for a party. They spent Rs. 3,500 on food and activities, and decided to split the leftover cash equally. How much did each friend get back?",
+    "Options": ["A) Rs. 66", "B) Rs. 50", "C) Rs. 100", "D) Rs. 75"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Advanced",
+    "Explanation": "Total collected = $15 \u00d7 300 = 4,500$. Leftover money = 4,500 - 3,500 = 1,000. Individual split = $1,000 \u00f7 15 = 66.66$, rounded or nearest accurate value choice matching base text framework math logic.",
+    "Options": ["A) Rs. 66", "B) Rs. 1,000", "C) Rs. 500", "D) Rs. 200"],
+    "CorrectAnswer": "A"
+  },
+  {
+    "QuestionText": "Find the value of the expression: $120 \u00f7 [3 \u00d7 (4 + 6)] - 2$.",
+    "Options": ["A) 2", "B) 0", "C) 4", "D) 10"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "Parentheses first: $4 + 6 = 10$. Square brackets next: $3 \u00d7 10 = 30$. Divide: $120 \u00f7 30 = 4$. Finally, subtract: 4 - 2 = 2."
+  },
+  {
+    "QuestionText": "The difference between two numbers is 4,512. If the smaller number is 12,345, find the sum of both numbers.",
+    "Options": ["A) 29,202", "B) 16,857", "C) 21,378", "D) 28,112"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Addition and subtraction of 5\u20136 digit numbers with regrouping",
+    "Difficulty": "Advanced",
+    "Explanation": "Larger number = $12,345 + 4,512 = 16,857$. Sum of both numbers = 12,345 + 16,857 = 29,202."
+  },
+  {
+    "QuestionText": "If $\u2605 \u00d7 4 = \u25c6$ and $\u25c6 - \u2605 = 36$, what is the value of $\u2605$?",
+    "Options": ["A) 12", "B) 9", "C) 16", "D) 18"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Multiplication of 3-digit by 2-digit numbers; properties (commutative, associative, distributive)",
+    "Difficulty": "Advanced",
+    "Explanation": "Substituting $\u25c6$: $4\u2605 - \u2605 = 36 \\implies 3\u2605 = 36 \\implies \u2605 = 12$."
+  },
+  {
+    "QuestionText": "A sequence of numbers follows the division pattern where each consecutive number is divided by 3. If the first number is 729, find the 4th number in the sequence.",
+    "Options": ["A) 27", "B) 81", "C) 9", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Division: long division with remainder; relationship between multiplication and division",
+    "Difficulty": "Advanced",
+    "Explanation": "1st: 729; 2nd: $729 \u00f7 3 = 243$; 3rd: $243 \u00f7 3 = 81$; 4th: $81 \u00f7 3 = 27$."
+  },
+  {
+    "QuestionText": "A fruit vendor bought 12 crates of mangoes, with each crate containing 48 mangoes. He found that 36 mangoes were completely rotten and threw them away. He sold the remaining good mangoes in small packs of 6. How many packs did he make?",
+    "Options": ["A) 90", "B) 96", "C) 84", "D) 100"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Word problems involving all four operations (multi-step)",
+    "Difficulty": "Advanced",
+    "Explanation": "Total mangoes = $12 \u00d7 48 = 576$. Good mangoes = 576 - 36 = 540. Packs created = $540 \u00f7 6 = 90$."
+  },
+  {
+    "QuestionText": "Find the value of $A$ if the equation holds true: $45 \u00f7 5 \u00d7 A - 12 = 60$.",
+    "Options": ["A) 8", "B) 6", "C) 7", "D) 9"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Operations — Addition, Subtraction, Multiplication, Division",
+    "SubTopic": "Order of operations (BODMAS/DMAS) — simple expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "Simplify division: $45 \u00f7 5 = 9$. Equation becomes $9 \u00d7 A - 12 = 60 \\implies 9 \u00d7 A = 72 \\implies A = 8$."
+  }
+]

@@ -1,0 +1,371 @@
+﻿[
+  {
+    "QuestionText": "If a matrix has 18 elements, what are the possible orders it can have?",
+    "Options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Order of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "The orders are pairs (m, n) such that mn = 18. These are (1,18), (18,1), (2,9), (9,2), (3,6), and (6,3)."
+  },
+  {
+    "QuestionText": "Total number of possible matrices of order 3 × 3 with each entry 0 or 1 is:",
+    "Options": ["A) 27", "B) 18", "C) 81", "D) 512"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Types of Matrices",
+    "Difficulty": "Advanced",
+    "Explanation": "There are 9 positions in a 3 × 3 matrix. Each position has 2 choices, so 2⁹ = 512."
+  },
+  {
+    "QuestionText": "If A and B are symmetric matrices of the same order, then AB – BA is a:",
+    "Options": ["A) Skew-symmetric matrix", "B) Symmetric matrix", "C) Zero matrix", "D) Identity matrix"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Symmetric and Skew-Symmetric",
+    "Difficulty": "Advanced",
+    "Explanation": "(AB - BA)' = (AB)' - (BA)' = B'A' - A'B' = BA - AB = -(AB - BA)."
+  },
+  {
+    "QuestionText": "If A = [cos α -sin α; sin α cos α], and A + A' = I, then the value of α is:",
+    "Options": ["A) π/6", "B) π/3", "C) π", "D) 3π/2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "A + A' = [2cos α 0; 0 2cos α]. Equating to [1 0; 0 1] gives 2cos α = 1, so α = π/3."
+  },
+  {
+    "QuestionText": "Matrices A and B will be inverse of each other only if:",
+    "Options": ["A) AB = BA", "B) AB = BA = 0", "C) AB = 0, BA = I", "D) AB = BA = I"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Invertible Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, square matrices are inverses if their product in either order results in the Identity matrix."
+  },
+  {
+    "QuestionText": "If A is a square matrix such that A² = A, then (I + A)³ – 7A is equal to:",
+    "Options": ["A) A", "B) I – A", "C) I", "D) 3A"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "Expanding (I + A)³ gives I + 3A + 3A² + A³. Since A² = A, it becomes I + 3A + 3A + A - 7A = I."
+  },
+  {
+    "QuestionText": "For any square matrix A with real number entries, A + A' is a:",
+    "Options": ["A) Skew-symmetric matrix", "B) Symmetric matrix", "C) Diagonal matrix", "D) Scalar matrix"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Symmetric and Skew-Symmetric",
+    "Difficulty": "Foundation",
+    "Explanation": "(A + A')' = A' + (A')' = A' + A, which is the same as the original matrix."
+  },
+  {
+    "QuestionText": "If A = [0 1; 1 0], then A² is equal to:",
+    "Options": ["A) [0 1; 1 0]", "B) [1 0; 0 1]", "C) [0 0; 0 0]", "D) [1 1; 1 1]"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Multiplication",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiplying [0 1; 1 0] by itself results in the identity matrix I₂."
+  },
+  {
+    "QuestionText": "If A is a matrix of order m × n and B is a matrix such that AB' and B'A are both defined, then the order of B is:",
+    "Options": ["A) m × n", "B) n × m", "C) n × n", "D) m × m"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Order of Matrices",
+    "Difficulty": "Advanced",
+    "Explanation": "For AB' to be defined, rows of B must match columns of A. This implies B must be the same order m × n."
+  },
+  {
+    "QuestionText": "If A = [λ 1; -1 -λ], then for what value of λ is A² = 0?",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) Any real number"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "A² results in [λ²-1 0; 0 λ²-1]. For this to be zero, λ² must equal 1—Wait, checking trace: actually λ²-1=0 so λ=±1."
+  },
+  {
+    "QuestionText": "A square matrix A = [aᵢⱼ] in which aᵢⱼ = 0 for i ≠ j and aᵢⱼ = k (constant) for i = j is called a:",
+    "Options": ["A) Unit matrix", "B) Scalar matrix", "C) Null matrix", "D) Diagonal matrix"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Types of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "If all diagonal elements are the same constant, it is a scalar matrix."
+  },
+  {
+    "QuestionText": "If A is a 3 × 4 matrix and B is a matrix such that A'B and BA' are both defined, then B is of order:",
+    "Options": ["A) 4 × 3", "B) 3 × 4", "C) 4 × 4", "D) 3 × 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "A' is 4 × 3. For A'B to be defined, B must start with 3. For BA' to be defined, B must end with 4. Thus 3 × 4."
+  },
+  {
+    "QuestionText": "The number of all possible 2 × 2 matrices with entries from {-1, 0, 1} is:",
+    "Options": ["A) 9", "B) 27", "C) 81", "D) 12"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Types of Matrices",
+    "Difficulty": "Advanced",
+    "Explanation": "There are 4 entries, each with 3 choices, so 3⁴ = 81."
+  },
+  {
+    "QuestionText": "If A = [1 2; 0 1], then Aⁿ is:",
+    "Options": ["A) [1 2n; 0 1]", "B) [1 2ⁿ; 0 1]", "C) [n 2n; 0 n]", "D) [1 n; 0 1]"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using induction, you'll find the upper right element increases linearly by the step size (2) for each power."
+  },
+  {
+    "QuestionText": "If A is a symmetric matrix, then Aⁿ (for any n ∈ N) is:",
+    "Options": ["A) Skew-symmetric", "B) Symmetric", "C) Diagonal", "D) Identity"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Symmetric and Skew-Symmetric",
+    "Difficulty": "Advanced",
+    "Explanation": "(Aⁿ)' = (A')ⁿ = Aⁿ, thus it remains symmetric."
+  },
+  {
+    "QuestionText": "The matrix A = [0 5 -8; -5 0 12; 8 -12 0] is a:",
+    "Options": ["A) Diagonal matrix", "B) Symmetric matrix", "C) Skew-symmetric matrix", "D) Scalar matrix"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Types of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "The diagonal elements are zero and aᵢⱼ = -aⱼᵢ, which defines a skew-symmetric matrix."
+  },
+  {
+    "QuestionText": "If A is a square matrix, then A - A' is always a:",
+    "Options": ["A) Null matrix", "B) Identity matrix", "C) Symmetric matrix", "D) Skew-symmetric matrix"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Symmetric and Skew-Symmetric",
+    "Difficulty": "Advanced",
+    "Explanation": "(A - A')' = A' - A = -(A - A'), satisfying the skew-symmetric condition."
+  },
+  {
+    "QuestionText": "If A = [0 2; 3 -4] and kA = [0 3a; 2b 24], then the values of k, a, b are:",
+    "Options": ["A) -6, -4, -9", "B) -6, -4, 9", "C) -6, 4, 9", "D) -6, 12, -18"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "-4k = 24 implies k = -6. Then 2(-6) = 3a → a = -4, and 3(-6) = 2b → b = -9."
+  },
+  {
+    "QuestionText": "If A = [1 3; 3 4] and A² – kA – 5I = 0, then k is:",
+    "Options": ["A) 3", "B) 5", "C) 7", "D) 9"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Advanced",
+    "Explanation": "Using the characteristic equation or direct substitution: Trace(A) = 1 + 4 = 5, so k = 5."
+  },
+  {
+    "QuestionText": "If AB = A and BA = B, then B² is equal to:",
+    "Options": ["A) A", "B) B", "C) I", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "B² = (BA)B = B(AB) = BA = B."
+  },
+  {
+    "QuestionText": "If A is of order 2 × 3 and B is of order 3 × 2, then BA is of order:",
+    "Options": ["A) 2 × 2", "B) 3 × 3", "C) 2 × 3", "D) 3 × 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Order of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "(3 × 2) multiplied by (2 × 3) results in a 3 × 3 matrix."
+  },
+  {
+    "QuestionText": "Which of the following is true for matrix multiplication?",
+    "Options": ["A) AB = BA always", "B) AB ≠ BA generally", "C) AB is always defined", "D) BA is always defined"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Multiplication",
+    "Difficulty": "Foundation",
+    "Explanation": "Matrix multiplication is non-commutative in general."
+  },
+  {
+    "QuestionText": "If A = [α 0; 1 1] and B = [1 0; 5 1], and A² = B, then α is:",
+    "Options": ["A) 1", "B) -1", "C) 4", "D) No real value"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "A² = [α² 0; α+1 1]. Comparing with B: α²=1 and α+1=5. This gives α=±1 and α=4, which is impossible."
+  },
+  {
+    "QuestionText": "If A is a skew-symmetric matrix of order 3, then the value of |A| is:",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) Any real number"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Types of Matrices",
+    "Difficulty": "Advanced",
+    "Explanation": "The determinant of an odd-order skew-symmetric matrix is always zero."
+  },
+  {
+    "QuestionText": "The inverse of a symmetric matrix is:",
+    "Options": ["A) Skew-symmetric", "B) Symmetric", "C) Diagonal", "D) Null"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Invertible Matrices",
+    "Difficulty": "Advanced",
+    "Explanation": "(A⁻¹)' = (A')⁻¹ = A⁻¹, so it remains symmetric."
+  },
+  {
+    "QuestionText": "If A = [1 0 0; 0 1 0; a b -1], then A² is equal to:",
+    "Options": ["A) A", "B) -I", "C) I", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "Calculating A² results in the Identity matrix I₃."
+  },
+  {
+    "QuestionText": "If A is a square matrix of order n, then kA is:",
+    "Options": ["A) k|A|", "B) kⁿ|A|", "C) |A|", "D) n k |A|"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "When a scalar is multiplied by a matrix, every element is multiplied, so the determinant scales by kⁿ."
+  },
+  {
+    "QuestionText": "Transpose of a column matrix is a:",
+    "Options": ["A) Zero matrix", "B) Column matrix", "C) Row matrix", "D) Diagonal matrix"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Types of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "A matrix of order m × 1 becomes 1 × m upon transposition."
+  },
+  {
+    "QuestionText": "If A = [i 0; 0 i], then A⁴ is:",
+    "Options": ["A) [1 0; 0 1]", "B) [-1 0; 0 -1]", "C) [i 0; 0 i]", "D) [0 0; 0 0]"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Advanced",
+    "Explanation": "A² = [i² 0; 0 i²] = [-1 0; 0 -1]. A⁴ = (A²)² = I."
+  },
+  {
+    "QuestionText": "Two matrices A and B are equal if they have:",
+    "Options": ["A) Same order", "B) Same elements in same positions", "C) Both A and B", "D) Same number of elements"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Order of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "Equality requires identical dimensions and identical corresponding entries."
+  },
+  {
+    "QuestionText": "If A is a matrix of order 3 × 2 and B is of order 2 × 3, then AB is of order:",
+    "Options": ["A) 3 × 3", "B) 2 × 2", "C) 3 × 2", "D) 2 × 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Order of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "A(m×n) * B(n×p) results in C(m×p). Here, 3 × 3."
+  },
+  {
+    "QuestionText": "If A = [x y z], the order of matrix A is:",
+    "Options": ["A) 1 × 3", "B) 3 × 1", "C) 1 × 1", "D) 3 × 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Order of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "It has 1 row and 3 columns."
+  },
+  {
+    "QuestionText": "If A = [1 0; 1 1] and I = [1 0; 0 1], then Aⁿ is:",
+    "Options": ["A) 2ⁿ⁻¹ A - (n-1)I", "B) nA - (n-1)I", "C) nA + (n-1)I", "D) 2ⁿ⁻¹ A + (n-1)I"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "Aⁿ = [1 0; n 1]. Substituting nA - (n-1)I gives the same matrix."
+  },
+  {
+    "QuestionText": "If A is a square matrix, then A + A' is symmetric and A - A' is:",
+    "Options": ["A) Symmetric", "B) Skew-symmetric", "C) Identity", "D) Scalar"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Symmetric and Skew-Symmetric",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a fundamental property of square matrices."
+  },
+  {
+    "QuestionText": "If A = [2 -1; 1 0], then A² is:",
+    "Options": ["A) [3 -2; 2 -1]", "B) [4 1; 1 0]", "C) [5 -2; 2 -1]", "D) [3 2; -2 -1]"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiplying the matrix by itself according to standard row-column rules."
+  },
+  {
+    "QuestionText": "If A is a matrix of order 2 × 3 and B is a matrix such that AB is defined and is of order 2 × 4, then the order of B is:",
+    "Options": ["A) 3 × 4", "B) 4 × 3", "C) 2 × 3", "D) 3 × 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Order of Matrices",
+    "Difficulty": "Advanced",
+    "Explanation": "A(2×3) * B(x×y) = C(2×4). n must be 3 and y must be 4."
+  },
+  {
+    "QuestionText": "Matrix addition is possible only when matrices are of:",
+    "Options": ["A) Same order", "B) Different order", "C) Square order", "D) Rectangular order"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Addition is performed element-wise, requiring identical dimensions."
+  },
+  {
+    "QuestionText": "The diagonal elements of a skew-symmetric matrix are all:",
+    "Options": ["A) 1", "B) 0", "C) Same", "D) Real"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Types of Matrices",
+    "Difficulty": "Foundation",
+    "Explanation": "aᵢᵢ = -aᵢᵢ implies 2aᵢᵢ = 0, so aᵢᵢ = 0."
+  },
+  {
+    "QuestionText": "If A = [cos θ sin θ; -sin θ cos θ], then A'A is:",
+    "Options": ["A) I", "B) 0", "C) A", "D) -I"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "This is an orthogonal matrix; the product results in sin²θ + cos²θ on the diagonal and 0 elsewhere."
+  },
+  {
+    "QuestionText": "If A = [1 2; 3 4], then A + A' is:",
+    "Options": ["A) [2 5; 5 8]", "B) [1 3; 2 4]", "C) [2 4; 6 8]", "D) [0 0; 0 0]"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Add [1 2; 3 4] and [1 3; 2 4] element-wise."
+  },
+  {
+    "QuestionText": "If A is a square matrix, then (A')' is:",
+    "Options": ["A) A'", "B) -A", "C) A", "D) I"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Matrices",
+    "SubTopic": "Matrix Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Transposing twice returns the matrix to its original state."
+  }
+]

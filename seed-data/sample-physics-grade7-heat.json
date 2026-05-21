@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Heat is a form of ___",
+    "Options": [
+      "A) Energy",
+      "B) Force",
+      "C) Matter",
+      "D) Pressure"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Nature of heat",
+    "Difficulty": "Foundation",
+    "Explanation": "Heat is a form of energy that transfers from a hotter body to a cooler body."
+  },
+  {
+    "QuestionText": "Temperature is measured using a ___",
+    "Options": [
+      "A) Thermometer",
+      "B) Barometer",
+      "C) Hygrometer",
+      "D) Anemometer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Measuring temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "A thermometer measures temperature using the expansion of liquid (mercury or alcohol) in a glass tube."
+  },
+  {
+    "QuestionText": "The SI unit of temperature is ___",
+    "Options": [
+      "A) Kelvin (K)",
+      "B) Celsius (C)",
+      "C) Fahrenheit (F)",
+      "D) Joule (J)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Units",
+    "Difficulty": "Foundation",
+    "Explanation": "The SI unit of temperature is Kelvin (K). Celsius is commonly used in daily life."
+  },
+  {
+    "QuestionText": "Water boils at ___ degrees Celsius at standard pressure",
+    "Options": [
+      "A) 100",
+      "B) 0",
+      "C) 37",
+      "D) 212"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Boiling point",
+    "Difficulty": "Foundation",
+    "Explanation": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at standard atmospheric pressure."
+  },
+  {
+    "QuestionText": "The normal human body temperature is approximately",
+    "Options": [
+      "A) 37 degrees C",
+      "B) 100 degrees C",
+      "C) 0 degrees C",
+      "D) 98 degrees C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Body temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "Normal human body temperature is approximately 37 degrees Celsius (98.6 degrees Fahrenheit)."
+  },
+  {
+    "QuestionText": "Heat flows from a ___ body to a ___ body",
+    "Options": [
+      "A) Hotter to cooler",
+      "B) Cooler to hotter",
+      "C) Equal temperature bodies",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Direction of heat flow",
+    "Difficulty": "Foundation",
+    "Explanation": "Heat always flows spontaneously from a region of higher temperature to lower temperature."
+  },
+  {
+    "QuestionText": "The process of heat transfer through direct contact is called",
+    "Options": [
+      "A) Conduction",
+      "B) Convection",
+      "C) Radiation",
+      "D) Absorption"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Modes of heat transfer",
+    "Difficulty": "Foundation",
+    "Explanation": "Conduction is the transfer of heat through direct physical contact between particles."
+  },
+  {
+    "QuestionText": "Heat transfer in liquids and gases primarily occurs by",
+    "Options": [
+      "A) Convection",
+      "B) Conduction",
+      "C) Radiation",
+      "D) Both A and B"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Convection",
+    "Difficulty": "Foundation",
+    "Explanation": "In liquids and gases, heat is mainly transferred by convection \u2014 the movement of heated fluid."
+  },
+  {
+    "QuestionText": "Radiation is heat transfer that occurs",
+    "Options": [
+      "A) Without any medium",
+      "B) Only through solids",
+      "C) Only through liquids",
+      "D) Only through gases"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Radiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Radiation transfers heat through electromagnetic waves and requires no medium (can occur through vacuum)."
+  },
+  {
+    "QuestionText": "Which material is a good conductor of heat?",
+    "Options": [
+      "A) Copper",
+      "B) Wood",
+      "C) Plastic",
+      "D) Rubber"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Conductors",
+    "Difficulty": "Foundation",
+    "Explanation": "Metals like copper have free electrons that allow rapid transfer of heat: they are good conductors."
+  },
+  {
+    "QuestionText": "Poor conductors of heat are called",
+    "Options": [
+      "A) Insulators",
+      "B) Conductors",
+      "C) Radiators",
+      "D) Convectors"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Insulators",
+    "Difficulty": "Foundation",
+    "Explanation": "Materials that do not conduct heat well are called insulators (e.g. wood, plastic, rubber)."
+  },
+  {
+    "QuestionText": "Thermometer used in hospitals to measure body temperature is a",
+    "Options": [
+      "A) Clinical thermometer",
+      "B) Laboratory thermometer",
+      "C) Maximum-minimum thermometer",
+      "D) Digital thermometer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Types of thermometers",
+    "Difficulty": "Foundation",
+    "Explanation": "A clinical thermometer has a narrow range (35-42 degrees C) suitable for measuring body temperature."
+  },
+  {
+    "QuestionText": "The kink in a clinical thermometer ___",
+    "Options": [
+      "A) Prevents mercury from falling back on its own",
+      "B) Increases sensitivity",
+      "C) Is for decoration",
+      "D) Marks 37 degrees C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Clinical thermometer",
+    "Difficulty": "Foundation",
+    "Explanation": "The kink (constriction) prevents mercury from returning to the bulb so readings remain stable."
+  },
+  {
+    "QuestionText": "The maximum-minimum thermometer is used to measure",
+    "Options": [
+      "A) Highest and lowest temperatures in a day",
+      "B) Only maximum temperature",
+      "C) Only minimum temperature",
+      "D) Boiling point"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Maximum-minimum thermometer",
+    "Difficulty": "Foundation",
+    "Explanation": "This thermometer records both the highest and lowest temperatures over a period."
+  },
+  {
+    "QuestionText": "Ice melts at ___ degrees Celsius",
+    "Options": [
+      "A) 0",
+      "B) 100",
+      "C) -10",
+      "D) 37"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Melting point",
+    "Difficulty": "Foundation",
+    "Explanation": "Pure ice melts (and water freezes) at 0 degrees Celsius at standard atmospheric pressure."
+  },
+  {
+    "QuestionText": "Conversion: 37 degrees C to Kelvin",
+    "Options": [
+      "A) 310 K",
+      "B) 37 K",
+      "C) 237 K",
+      "D) 274 K"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Temperature conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "K = C + 273 = 37 + 273 = 310 K."
+  },
+  {
+    "QuestionText": "Conversion: 0 degrees C to Fahrenheit",
+    "Options": [
+      "A) 32 F",
+      "B) 0 F",
+      "C) 100 F",
+      "D) 273 F"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Temperature conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "F = (9/5 \u00d7 C) + 32 = 0 + 32 = 32 F."
+  },
+  {
+    "QuestionText": "Conversion: 212 degrees F to Celsius",
+    "Options": [
+      "A) 100 C",
+      "B) 32 C",
+      "C) 180 C",
+      "D) 37 C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Temperature conversion",
+    "Difficulty": "Advanced",
+    "Explanation": "C = (F-32) \u00d7 5/9 = (212-32) \u00d7 5/9 = 180 \u00d7 5/9 = 100 C."
+  },
+  {
+    "QuestionText": "Land breeze blows from land to sea at night because",
+    "Options": [
+      "A) Land cools faster than sea",
+      "B) Sea cools faster than land",
+      "C) Wind always blows from land",
+      "D) Temperature is equal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Convection in nature",
+    "Difficulty": "Advanced",
+    "Explanation": "Land cools faster at night creating a higher pressure zone over land; air flows from land to sea (land breeze)."
+  },
+  {
+    "QuestionText": "Sea breeze blows from sea to land during daytime because",
+    "Options": [
+      "A) Sea is cooler than land during day",
+      "B) Land is cooler than sea",
+      "C) Wind always blows from sea",
+      "D) Temperature is equal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Convection in nature",
+    "Difficulty": "Advanced",
+    "Explanation": "During day, land heats faster creating low pressure; cooler sea air moves toward land (sea breeze)."
+  },
+  {
+    "QuestionText": "A good absorber of heat is also a good ___ of heat",
+    "Options": [
+      "A) Emitter (radiator)",
+      "B) Reflector",
+      "C) Insulator",
+      "D) Conductor"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Radiation properties",
+    "Difficulty": "Advanced",
+    "Explanation": "A body that absorbs radiation well also emits radiation well (Kirchhoff's law of radiation)."
+  },
+  {
+    "QuestionText": "Dark coloured surfaces absorb ___ heat compared to light coloured surfaces",
+    "Options": [
+      "A) More",
+      "B) Less",
+      "C) Equal",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Absorption of radiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Dark/black surfaces are better absorbers of radiant heat; light/white surfaces reflect more."
+  },
+  {
+    "QuestionText": "A thermos flask (vacuum flask) reduces heat transfer by",
+    "Options": [
+      "A) Eliminating all three modes of transfer",
+      "B) Only preventing conduction",
+      "C) Only preventing convection",
+      "D) Only preventing radiation"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Thermos flask",
+    "Difficulty": "Advanced",
+    "Explanation": "Thermos flask: vacuum eliminates conduction and convection; silvered walls minimise radiation."
+  },
+  {
+    "QuestionText": "Which of these is the best insulator?",
+    "Options": [
+      "A) Wool/still air",
+      "B) Copper",
+      "C) Iron",
+      "D) Aluminium"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Insulators",
+    "Difficulty": "Foundation",
+    "Explanation": "Still air and wool trap air pockets and are excellent insulators. Metals are conductors."
+  },
+  {
+    "QuestionText": "The cooking of food at the base of a vessel and hot liquid rising is an example of",
+    "Options": [
+      "A) Convection",
+      "B) Conduction",
+      "C) Radiation",
+      "D) Vaporisation"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Convection",
+    "Difficulty": "Foundation",
+    "Explanation": "Hot liquid at the base becomes less dense and rises while cool liquid sinks: convection currents."
+  },
+  {
+    "QuestionText": "The handle of a metal spoon in hot soup becomes hot. This is because of",
+    "Options": [
+      "A) Conduction",
+      "B) Convection",
+      "C) Radiation",
+      "D) Absorption"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Conduction",
+    "Difficulty": "Advanced",
+    "Explanation": "Heat travels along the metal spoon from the hot soup to the handle through direct contact: conduction."
+  },
+  {
+    "QuestionText": "Woollen clothes keep us warm because wool",
+    "Options": [
+      "A) Traps air which is a poor conductor",
+      "B) Generates heat",
+      "C) Absorbs body heat",
+      "D) Conducts heat well"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Insulation",
+    "Difficulty": "Advanced",
+    "Explanation": "Wool traps air between its fibres; air is a poor thermal conductor, keeping body heat in."
+  },
+  {
+    "QuestionText": "During summer white clothes are preferred because white",
+    "Options": [
+      "A) Reflects most of the solar radiation",
+      "B) Absorbs most radiation",
+      "C) Is a good emitter",
+      "D) Has no effect on temperature"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Colour and radiation",
+    "Difficulty": "Foundation",
+    "Explanation": "White surfaces reflect most of the sun's radiant energy, keeping the wearer cooler."
+  },
+  {
+    "QuestionText": "Temperature of a substance determines",
+    "Options": [
+      "A) The direction of heat flow when it contacts another substance",
+      "B) The amount of heat in it",
+      "C) Its mass",
+      "D) Its colour"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Temperature vs heat",
+    "Difficulty": "Advanced",
+    "Explanation": "Temperature determines direction of heat flow: heat moves from higher to lower temperature."
+  },
+  {
+    "QuestionText": "Land breeze and sea breeze are examples of heat transfer by",
+    "Options": [
+      "A) Convection",
+      "B) Conduction",
+      "C) Radiation",
+      "D) All three"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Natural convection",
+    "Difficulty": "Advanced",
+    "Explanation": "These are large-scale convection currents caused by differential heating of land and sea."
+  },
+  {
+    "QuestionText": "Which instrument measures the temperature of extremely hot objects like stars without contact?",
+    "Options": [
+      "A) Pyrometer",
+      "B) Clinical thermometer",
+      "C) Alcohol thermometer",
+      "D) Maximum thermometer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Pyrometer",
+    "Difficulty": "Advanced",
+    "Explanation": "A pyrometer measures temperature of very hot bodies by detecting the thermal radiation they emit."
+  },
+  {
+    "QuestionText": "The unit of heat in SI system is",
+    "Options": [
+      "A) Joule (J)",
+      "B) Calorie (cal)",
+      "C) Kelvin (K)",
+      "D) Watt (W)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Unit of heat",
+    "Difficulty": "Foundation",
+    "Explanation": "Heat is a form of energy and its SI unit is the Joule (J)."
+  },
+  {
+    "QuestionText": "Convert 100 degrees C to Kelvin",
+    "Options": [
+      "A) 373 K",
+      "B) 100 K",
+      "C) 273 K",
+      "D) 473 K"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Temperature conversion",
+    "Difficulty": "Foundation",
+    "Explanation": "K = C + 273 = 100 + 273 = 373 K."
+  },
+  {
+    "QuestionText": "Why are birds seen with feathers ruffled on a cold day?",
+    "Options": [
+      "A) To trap more air (insulation) and retain body heat",
+      "B) To appear larger",
+      "C) To dry themselves",
+      "D) To attract mates"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Insulation in nature",
+    "Difficulty": "Advanced",
+    "Explanation": "Ruffled feathers trap more air between them, increasing insulation and reducing heat loss."
+  },
+  {
+    "QuestionText": "The greenhouse effect keeps Earth warm. This is an example of heat transfer by",
+    "Options": [
+      "A) Radiation and absorption",
+      "B) Conduction",
+      "C) Convection",
+      "D) Conduction and convection"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Greenhouse effect",
+    "Difficulty": "Advanced",
+    "Explanation": "Sun's radiation passes through atmosphere, is absorbed by Earth, re-emitted as infrared, and trapped by greenhouse gases: radiation-based process."
+  },
+  {
+    "QuestionText": "Which is a better conductor: iron rod or wooden rod?",
+    "Options": [
+      "A) Iron rod",
+      "B) Wooden rod",
+      "C) Both equal",
+      "D) Depends on size"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Conductors",
+    "Difficulty": "Foundation",
+    "Explanation": "Iron is a metal and a good conductor; wood is a non-metal and a poor conductor (insulator)."
+  },
+  {
+    "QuestionText": "Heat from the sun reaches the Earth through",
+    "Options": [
+      "A) Radiation (vacuum)",
+      "B) Conduction",
+      "C) Convection",
+      "D) Conduction through air"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Radiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Space between Sun and Earth is a vacuum; heat travels by electromagnetic radiation (infrared waves)."
+  },
+  {
+    "QuestionText": "A blackened surface of a vessel is preferred for cooking because dark surfaces",
+    "Options": [
+      "A) Absorb and emit heat better",
+      "B) Reflect heat",
+      "C) Are decorative",
+      "D) Are stronger"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Radiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Black surfaces absorb more heat from flames and also radiate heat into food more efficiently."
+  },
+  {
+    "QuestionText": "Clinical thermometer range is approximately",
+    "Options": [
+      "A) 35 to 42 degrees C",
+      "B) 0 to 100 degrees C",
+      "C) 30 to 50 degrees C",
+      "D) -10 to 110 degrees C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Clinical thermometer",
+    "Difficulty": "Foundation",
+    "Explanation": "Clinical thermometers measure body temperature, so their range is limited to 35-42 degrees C."
+  },
+  {
+    "QuestionText": "Mercury is used in thermometers because it",
+    "Options": [
+      "A) Has uniform expansion, does not stick to glass, is opaque and visible",
+      "B) Is cheap",
+      "C) Is coloured red",
+      "D) Is the lightest metal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Mercury thermometer",
+    "Difficulty": "Foundation",
+    "Explanation": "Mercury expands uniformly with temperature, does not wet glass, has a wide liquid range, and is visible."
+  },
+  {
+    "QuestionText": "Alcohol thermometers are used to measure very low temperatures because alcohol",
+    "Options": [
+      "A) Has a lower freezing point than mercury",
+      "B) Is cheaper",
+      "C) Is coloured",
+      "D) Is lighter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Alcohol thermometer",
+    "Difficulty": "Advanced",
+    "Explanation": "Alcohol freezes at about -115 degrees C, far below mercury's -39 degrees C, making it suitable for very cold environments."
+  },
+  {
+    "QuestionText": "If a hot iron ball is placed in cold water the final temperature of the system will be",
+    "Options": [
+      "A) Between the two initial temperatures",
+      "B) Equal to the iron ball temperature",
+      "C) Equal to the water temperature",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Thermal equilibrium",
+    "Difficulty": "Advanced",
+    "Explanation": "Heat flows from iron to water until they reach the same temperature (thermal equilibrium): between the two initial values."
+  },
+  {
+    "QuestionText": "The thermometer placed in the shade reads the actual air temperature. If placed in sunlight it reads higher because",
+    "Options": [
+      "A) It absorbs radiation directly from the sun",
+      "B) Air is hotter in sunlight",
+      "C) The glass expands",
+      "D) The mercury evaporates"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Measurement accuracy",
+    "Difficulty": "Advanced",
+    "Explanation": "Direct sunlight heats the thermometer bulb by radiation, giving a reading higher than true air temperature."
+  },
+  {
+    "QuestionText": "Which process does NOT require a material medium?",
+    "Options": [
+      "A) Radiation",
+      "B) Conduction",
+      "C) Convection",
+      "D) Both A and B"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Radiation",
+    "Difficulty": "Foundation",
+    "Explanation": "Radiation is the only mode of heat transfer that can occur through vacuum (no medium required)."
+  },
+  {
+    "QuestionText": "Why does the metal lid of a glass jar feel colder than the glass in cold weather?",
+    "Options": [
+      "A) Metal conducts heat away from hand faster",
+      "B) Metal has lower temperature",
+      "C) Glass is warmer",
+      "D) Glass is an insulator that does not feel cold"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Thermal conductivity",
+    "Difficulty": "Olympiad",
+    "Explanation": "Metal conducts heat away from your hand more rapidly, making it feel colder even at the same temperature."
+  },
+  {
+    "QuestionText": "Two rods of same length and material but different cross-sections are heated at one end. Which conducts heat faster?",
+    "Options": [
+      "A) The thicker rod (larger cross-section)",
+      "B) The thinner rod",
+      "C) Both equally",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Thermal conduction",
+    "Difficulty": "Olympiad",
+    "Explanation": "Greater cross-sectional area allows more heat to flow per unit time: thicker rod conducts faster."
+  },
+  {
+    "QuestionText": "When ice is added to a drink the temperature of the drink falls because",
+    "Options": [
+      "A) Heat flows from drink (higher temp) to ice (lower temp)",
+      "B) Ice generates cold",
+      "C) The drink loses mass",
+      "D) Cold flows from ice to drink"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Direction of heat transfer",
+    "Difficulty": "Olympiad",
+    "Explanation": "Heat flows from the warmer drink to the colder ice, lowering the drink's temperature."
+  },
+  {
+    "QuestionText": "A glass of ice water has condensation on the outside because",
+    "Options": [
+      "A) Water vapour in air cools below dew point and condenses",
+      "B) Ice melts and leaks through glass",
+      "C) Water evaporates from inside",
+      "D) Air becomes hotter outside"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Condensation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cold outer surface of glass cools nearby moist air below its dew point, causing water vapour to condense."
+  },
+  {
+    "QuestionText": "The rate of heat conduction through a material depends on",
+    "Options": [
+      "A) Temperature difference, area, material type, and thickness",
+      "B) Only temperature",
+      "C) Only area",
+      "D) Only material type"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Factors affecting conduction",
+    "Difficulty": "Olympiad",
+    "Explanation": "Heat conduction rate depends on: temperature gradient, cross-sectional area, thermal conductivity, and length (thickness)."
+  },
+  {
+    "QuestionText": "Stainless steel vessels are given a copper bottom because",
+    "Options": [
+      "A) Copper is a better conductor of heat for uniform cooking",
+      "B) Copper is cheaper",
+      "C) Stainless steel cannot withstand heat",
+      "D) Copper adds flavour"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Heat",
+    "SubTopic": "Practical application",
+    "Difficulty": "Olympiad",
+    "Explanation": "Copper has very high thermal conductivity, distributing heat uniformly across the base and cooking food evenly."
+  }
+]

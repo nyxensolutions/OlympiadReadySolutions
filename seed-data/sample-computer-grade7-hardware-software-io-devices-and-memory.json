@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Hardware refers to",
+    "Options": [
+      "A) Physical components of a computer that can be touched",
+      "B) Programs and applications",
+      "C) Operating systems",
+      "D) Data files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Hardware basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Hardware: all tangible, physical components \u2014 CPU, RAM, hard disk, keyboard, monitor, etc."
+  },
+  {
+    "QuestionText": "Software refers to",
+    "Options": [
+      "A) Programs and instructions that tell hardware what to do",
+      "B) Physical components",
+      "C) Memory chips",
+      "D) Storage devices"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Software basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Software: intangible programs and data \u2014 OS, applications, utilities, drivers."
+  },
+  {
+    "QuestionText": "The CPU (Central Processing Unit) is",
+    "Options": [
+      "A) The brain of the computer that executes instructions",
+      "B) A storage device",
+      "C) A display device",
+      "D) An input device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "CPU",
+    "Difficulty": "Foundation",
+    "Explanation": "CPU: processes all instructions and calculations. Contains ALU (arithmetic), CU (control), and registers."
+  },
+  {
+    "QuestionText": "The ALU (Arithmetic Logic Unit) in the CPU",
+    "Options": [
+      "A) Performs arithmetic and logical operations",
+      "B) Controls instruction order",
+      "C) Stores programs",
+      "D) Connects to memory"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "CPU components",
+    "Difficulty": "Advanced",
+    "Explanation": "ALU: the part of the CPU that carries out arithmetic (+,-,*,/) and logical (AND, OR, NOT, comparisons) operations."
+  },
+  {
+    "QuestionText": "The Control Unit (CU) in the CPU",
+    "Options": [
+      "A) Directs the flow of instructions and coordinates all CPU components",
+      "B) Performs calculations",
+      "C) Stores data",
+      "D) Connects to internet"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "CPU components",
+    "Difficulty": "Advanced",
+    "Explanation": "Control Unit: fetches instructions from memory, decodes them, and coordinates ALU, registers, and I/O to execute them."
+  },
+  {
+    "QuestionText": "CPU speed is measured in",
+    "Options": [
+      "A) GHz (gigahertz) \u2014 clock cycles per second",
+      "B) GB (gigabytes)",
+      "C) Mbps",
+      "D) Watts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "CPU performance",
+    "Difficulty": "Foundation",
+    "Explanation": "CPU clock speed (GHz): the number of instruction cycles per second. Higher GHz = faster processing (other factors also matter)."
+  },
+  {
+    "QuestionText": "RAM (Random Access Memory) stores",
+    "Options": [
+      "A) Data currently in use \u2014 volatile, loses data on power off",
+      "B) Permanent programs",
+      "C) The OS only",
+      "D) Video output"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "RAM",
+    "Difficulty": "Foundation",
+    "Explanation": "RAM: fast, volatile working memory for active programs and data. More RAM allows more programs to run simultaneously."
+  },
+  {
+    "QuestionText": "The storage capacity of RAM is measured in",
+    "Options": [
+      "A) GB (gigabytes)",
+      "B) GHz",
+      "C) Mbps",
+      "D) Watts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Memory units",
+    "Difficulty": "Foundation",
+    "Explanation": "RAM is measured in GB (4 GB, 8 GB, 16 GB). Larger RAM = more programs and data held in memory simultaneously."
+  },
+  {
+    "QuestionText": "ROM (Read Only Memory) stores",
+    "Options": [
+      "A) Permanent firmware (BIOS/UEFI) that doesn't change on power off",
+      "B) Temporary data",
+      "C) User documents",
+      "D) Programs being run"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "ROM",
+    "Difficulty": "Foundation",
+    "Explanation": "ROM: non-volatile memory with pre-programmed, unchangeable instructions needed at startup."
+  },
+  {
+    "QuestionText": "A Hard Disk Drive (HDD) is",
+    "Options": [
+      "A) Magnetic secondary storage with spinning platters for long-term data",
+      "B) Primary volatile memory",
+      "C) A processing unit",
+      "D) An input device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Storage devices",
+    "Difficulty": "Foundation",
+    "Explanation": "HDD: uses magnetic coating on rotating disks; stores OS, apps, and files permanently. Slower than SSD."
+  },
+  {
+    "QuestionText": "A Solid State Drive (SSD) is",
+    "Options": [
+      "A) Flash memory-based secondary storage; faster and more durable than HDD",
+      "B) Magnetic storage",
+      "C) A type of RAM",
+      "D) A processor"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Storage devices",
+    "Difficulty": "Foundation",
+    "Explanation": "SSD: no moving parts; faster access, lower power, more durable than HDD; increasingly replacing HDDs."
+  },
+  {
+    "QuestionText": "Which storage device has the fastest data access speed?",
+    "Options": [
+      "A) SSD (Solid State Drive)",
+      "B) HDD (Hard Disk Drive)",
+      "C) CD-ROM",
+      "D) Floppy disk"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Storage comparison",
+    "Difficulty": "Advanced",
+    "Explanation": "SSD access times ~0.1 ms; HDD ~5-10 ms (moving parts). RAM is even faster but volatile."
+  },
+  {
+    "QuestionText": "A monitor is an ___ device",
+    "Options": [
+      "A) Output device (displays information)",
+      "B) Input device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Monitor (display): output device showing visual information."
+  },
+  {
+    "QuestionText": "A keyboard is an ___ device",
+    "Options": [
+      "A) Input device (enters text and commands)",
+      "B) Output device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Keyboard: input device for entering text, numbers, and commands."
+  },
+  {
+    "QuestionText": "A mouse is an ___ device",
+    "Options": [
+      "A) Input device (for point-and-click navigation)",
+      "B) Output device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Mouse: pointing input device that controls cursor and selects items on screen."
+  },
+  {
+    "QuestionText": "A printer is an ___ device",
+    "Options": [
+      "A) Output device (produces physical copies of documents)",
+      "B) Input device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Printer: output device that produces hard copies (paper output) of documents and images."
+  },
+  {
+    "QuestionText": "A scanner is an ___ device",
+    "Options": [
+      "A) Input device (converts physical documents to digital)",
+      "B) Output device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Scanner: input device that digitises physical documents, photos, and images."
+  },
+  {
+    "QuestionText": "A microphone is an ___ device",
+    "Options": [
+      "A) Input device (captures audio/sound)",
+      "B) Output device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Microphone: input device that captures sound waves and converts them to digital signals."
+  },
+  {
+    "QuestionText": "Speakers are ___ devices",
+    "Options": [
+      "A) Output devices (produce sound)",
+      "B) Input devices",
+      "C) Storage devices",
+      "D) Processing devices"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Speakers/headphones: output devices that convert digital audio signals to sound waves."
+  },
+  {
+    "QuestionText": "A webcam is an ___ device",
+    "Options": [
+      "A) Input device (captures video and images)",
+      "B) Output device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Webcam: input device that captures live video for video calls, streaming, or recording."
+  },
+  {
+    "QuestionText": "A touch screen is both an",
+    "Options": [
+      "A) Input and output device (displays and detects touch input)",
+      "B) Only input",
+      "C) Only output",
+      "D) Storage device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Touch screen: display (output) with a touch-sensitive layer (input) \u2014 combined I/O device."
+  },
+  {
+    "QuestionText": "Primary storage (main memory) is",
+    "Options": [
+      "A) RAM and ROM \u2014 directly accessible by CPU",
+      "B) HDD and SSD",
+      "C) External drives",
+      "D) Cloud storage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Memory hierarchy",
+    "Difficulty": "Foundation",
+    "Explanation": "Primary storage: directly accessible by CPU at high speed. Includes RAM (volatile) and ROM (non-volatile)."
+  },
+  {
+    "QuestionText": "Secondary storage (auxiliary storage) is",
+    "Options": [
+      "A) HDD, SSD, USB drives, optical discs \u2014 stores data long-term",
+      "B) RAM and ROM",
+      "C) CPU cache",
+      "D) GPU memory"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Memory hierarchy",
+    "Difficulty": "Foundation",
+    "Explanation": "Secondary storage: non-volatile, stores data permanently but accessed slower than primary. HDD, SSD, USB, DVD."
+  },
+  {
+    "QuestionText": "Cache memory is",
+    "Options": [
+      "A) Very fast memory built into the CPU to store frequently used data",
+      "B) Slower than RAM",
+      "C) The same as RAM",
+      "D) Secondary storage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Cache memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Cache (L1, L2, L3): extremely fast, small memory inside/near the CPU. Stores frequently accessed data to reduce CPU wait time."
+  },
+  {
+    "QuestionText": "The memory hierarchy from fastest to slowest is",
+    "Options": [
+      "A) Registers > Cache > RAM > SSD > HDD",
+      "B) RAM > Cache > HDD > SSD",
+      "C) HDD > SSD > RAM > Cache",
+      "D) Cache > RAM > SSD > Registers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Memory hierarchy",
+    "Difficulty": "Advanced",
+    "Explanation": "Speed order (fastest\u2192slowest): Registers > L1/L2/L3 Cache > RAM > SSD > HDD > Optical/Tape."
+  },
+  {
+    "QuestionText": "Virtual memory uses",
+    "Options": [
+      "A) Hard disk space as an extension of RAM when RAM is full",
+      "B) The internet",
+      "C) ROM as extra RAM",
+      "D) CPU registers as extra RAM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Virtual memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Virtual memory: OS uses a page file/swap space on the disk to extend available memory when RAM is insufficient."
+  },
+  {
+    "QuestionText": "The motherboard is",
+    "Options": [
+      "A) The main circuit board connecting all computer components",
+      "B) Only the CPU",
+      "C) Only the RAM",
+      "D) A storage device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Computer components",
+    "Difficulty": "Foundation",
+    "Explanation": "Motherboard (mainboard): the primary PCB connecting CPU, RAM, storage, expansion cards, and I/O ports."
+  },
+  {
+    "QuestionText": "The BIOS chip is located on",
+    "Options": [
+      "A) The motherboard (in ROM)",
+      "B) The CPU",
+      "C) The hard disk",
+      "D) The RAM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "BIOS",
+    "Difficulty": "Foundation",
+    "Explanation": "BIOS (Basic Input/Output System): firmware stored in ROM on the motherboard; initialises hardware at startup."
+  },
+  {
+    "QuestionText": "A GPU (Graphics Processing Unit) is used for",
+    "Options": [
+      "A) Processing and rendering graphics (images, video, 3D)",
+      "B) Running the OS",
+      "C) Managing memory",
+      "D) Storing files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "GPU",
+    "Difficulty": "Advanced",
+    "Explanation": "GPU: specialised processor for rendering graphics. Modern GPUs also used for AI/ML and scientific computing."
+  },
+  {
+    "QuestionText": "USB stands for",
+    "Options": [
+      "A) Universal Serial Bus (for connecting peripheral devices)",
+      "B) Universal System Bus",
+      "C) Unified Serial Bridge",
+      "D) Unique Serial Bus"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Peripheral connections",
+    "Difficulty": "Foundation",
+    "Explanation": "USB: standard interface for connecting peripherals (keyboards, mice, storage, phones) to computers."
+  },
+  {
+    "QuestionText": "HDMI is used to",
+    "Options": [
+      "A) Transmit high-definition video and audio between devices",
+      "B) Connect USB devices",
+      "C) Transfer files",
+      "D) Provide power"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Display connections",
+    "Difficulty": "Foundation",
+    "Explanation": "HDMI (High-Definition Multimedia Interface): transmits uncompressed HD video and audio via a single cable."
+  },
+  {
+    "QuestionText": "The power supply unit (PSU) in a computer",
+    "Options": [
+      "A) Converts AC mains power to DC voltages for computer components",
+      "B) Processes data",
+      "C) Stores data",
+      "D) Controls display"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Computer components",
+    "Difficulty": "Foundation",
+    "Explanation": "PSU: converts 110-240V AC from the wall to stable DC voltages (5V, 12V, 3.3V) required by computer components."
+  },
+  {
+    "QuestionText": "Optical storage devices (CD, DVD, Blu-ray) use",
+    "Options": [
+      "A) Laser light to read and write data",
+      "B) Magnetic fields",
+      "C) Electrical charge",
+      "D) Mechanical spinning only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Optical storage",
+    "Difficulty": "Foundation",
+    "Explanation": "Optical discs: laser beam reads/writes data encoded as microscopic pits and lands on a reflective surface."
+  },
+  {
+    "QuestionText": "A flash drive (USB pen drive) uses",
+    "Options": [
+      "A) Flash memory (NAND) for portable storage",
+      "B) Magnetic storage",
+      "C) Optical storage",
+      "D) Mechanical storage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Portable storage",
+    "Difficulty": "Foundation",
+    "Explanation": "USB flash drive: portable, solid-state flash memory device. No moving parts; compact and rewritable."
+  },
+  {
+    "QuestionText": "SDRAM stands for",
+    "Options": [
+      "A) Synchronous Dynamic Random Access Memory",
+      "B) Sequential Dynamic RAM",
+      "C) Solid-state Dynamic RAM",
+      "D) Synchronous Disk RAM"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "RAM types",
+    "Difficulty": "Advanced",
+    "Explanation": "SDRAM: synchronised to the CPU clock speed for faster data transfer than asynchronous DRAM."
+  },
+  {
+    "QuestionText": "The term 'plug and play' means",
+    "Options": [
+      "A) Devices are automatically recognised and configured when connected",
+      "B) Manual driver installation needed",
+      "C) Only works with specific OS",
+      "D) Requires restarting always"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Plug and play: OS automatically detects and configures newly connected devices without manual driver installation."
+  },
+  {
+    "QuestionText": "A barcode reader is an ___ device",
+    "Options": [
+      "A) Input device (scans barcodes)",
+      "B) Output device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Barcode reader: input device that uses laser/LED to scan and decode barcode data."
+  },
+  {
+    "QuestionText": "Biometric input devices include",
+    "Options": [
+      "A) Fingerprint scanner, iris scanner, and facial recognition",
+      "B) Keyboard and mouse",
+      "C) Monitor and printer",
+      "D) Hard disk and SSD"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Input devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Biometric input: captures unique biological features (fingerprint, iris, face) for identification/authentication."
+  },
+  {
+    "QuestionText": "A light pen is an ___ device",
+    "Options": [
+      "A) Input device (pointing directly at the screen)",
+      "B) Output device",
+      "C) Storage device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Light pen: an input device used to point directly at screen positions; detects light from the screen's refresh."
+  },
+  {
+    "QuestionText": "The number of pixels displayed on screen is called",
+    "Options": [
+      "A) Screen resolution (e.g. 1920\u00d71080)",
+      "B) Refresh rate",
+      "C) Brightness",
+      "D) Colour depth"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Display technology",
+    "Difficulty": "Advanced",
+    "Explanation": "Screen resolution: number of pixels horizontally \u00d7 vertically. Higher resolution = sharper, more detailed image."
+  },
+  {
+    "QuestionText": "Refresh rate of a monitor is measured in",
+    "Options": [
+      "A) Hz (hertz) \u2014 number of times screen refreshes per second",
+      "B) GHz",
+      "C) Mbps",
+      "D) dpi"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Display technology",
+    "Difficulty": "Advanced",
+    "Explanation": "Refresh rate (Hz): how many times per second the screen is redrawn. 60 Hz standard; 144 Hz+ for gaming."
+  },
+  {
+    "QuestionText": "DPI (dots per inch) measures",
+    "Options": [
+      "A) The resolution/precision of a printer or scanner",
+      "B) Screen refresh rate",
+      "C) CPU speed",
+      "D) Storage capacity"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Printers/scanners",
+    "Difficulty": "Advanced",
+    "Explanation": "DPI: dots printed per inch. Higher DPI = sharper, more detailed print/scan output."
+  },
+  {
+    "QuestionText": "An inkjet printer works by",
+    "Options": [
+      "A) Spraying tiny droplets of ink onto paper",
+      "B) Fusing toner powder with heat",
+      "C) Using laser and photoreceptor drum",
+      "D) Striking ribbon on paper"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Printer types",
+    "Difficulty": "Foundation",
+    "Explanation": "Inkjet: sprays microscopic ink droplets through tiny nozzles onto paper. Good for colour, photos."
+  },
+  {
+    "QuestionText": "A laser printer works by",
+    "Options": [
+      "A) Using a laser beam, photoreceptor drum, and heat-fused toner",
+      "B) Spraying ink droplets",
+      "C) Striking a ribbon",
+      "D) Using LED light only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Printer types",
+    "Difficulty": "Foundation",
+    "Explanation": "Laser printer: laser draws image on charged drum; toner adheres to charged areas; heat fuses toner to paper."
+  },
+  {
+    "QuestionText": "Storage capacity is measured in",
+    "Options": [
+      "A) Bytes, KB, MB, GB, TB (in increasing order)",
+      "B) GHz, MHz",
+      "C) Mbps, Gbps",
+      "D) Watts, Amps"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Storage units",
+    "Difficulty": "Foundation",
+    "Explanation": "Bytes \u2192 KB (1024 B) \u2192 MB (1024 KB) \u2192 GB (1024 MB) \u2192 TB (1024 GB) \u2192 PB."
+  },
+  {
+    "QuestionText": "1 GB is equal to",
+    "Options": [
+      "A) 1024 MB (mebibyte definition)",
+      "B) 1000 MB",
+      "C) 512 MB",
+      "D) 2048 MB"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Storage units",
+    "Difficulty": "Advanced",
+    "Explanation": "1 GB = 1024 MB (binary). In marketing, 1 GB = 1000 MB is often used. In computing: 1 GiB = 1024 MiB."
+  },
+  {
+    "QuestionText": "Input devices feed data ___ the computer",
+    "Options": [
+      "A) Into (data entry)",
+      "B) Out of",
+      "C) Through",
+      "D) Around"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O concept",
+    "Difficulty": "Foundation",
+    "Explanation": "Input devices: keyboard, mouse, scanner, microphone \u2014 they send data INTO the computer for processing."
+  },
+  {
+    "QuestionText": "Output devices send data ___ the computer",
+    "Options": [
+      "A) Out of (data presentation)",
+      "B) Into",
+      "C) Store within",
+      "D) Process within"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "I/O concept",
+    "Difficulty": "Foundation",
+    "Explanation": "Output devices: monitor, printer, speakers \u2014 they present processed information to the user."
+  },
+  {
+    "QuestionText": "A plotter is a specialised output device used for",
+    "Options": [
+      "A) Printing large-scale technical drawings and blueprints",
+      "B) Scanning documents",
+      "C) Entering text",
+      "D) Playing audio"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Output devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Plotter: precision output device for large-format technical drawings (CAD diagrams, maps, engineering blueprints)."
+  },
+  {
+    "QuestionText": "Ergonomic hardware is designed to",
+    "Options": [
+      "A) Reduce strain and improve comfort during extended computer use",
+      "B) Increase processing speed",
+      "C) Store more data",
+      "D) Connect to the internet"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware, Software, I/O Devices and Memory",
+    "SubTopic": "Ergonomics",
+    "Difficulty": "Foundation",
+    "Explanation": "Ergonomic hardware (curved keyboards, vertical mice, adjustable monitors) reduces repetitive strain injury (RSI)."
+  }
+]

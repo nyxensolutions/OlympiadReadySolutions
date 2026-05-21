@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The area bounded by the curve y = x², x-axis and the lines x = 1 and x = 2 is:",
+    "Options": ["A) 7/3 sq units", "B) 8/3 sq units", "C) 1/3 sq units", "D) 3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "Area is ∫x² dx from 1 to 2, which equals [x³/3] evaluated from 1 to 2, or 8/3 - 1/3 = 7/3."
+  },
+  {
+    "QuestionText": "The area of the region bounded by the curve y = sin x between x = 0 and x = π is:",
+    "Options": ["A) 1 sq unit", "B) 2 sq units", "C) 4 sq units", "D) 0 sq units"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫sin x dx from 0 to π equals [-cos x] from 0 to π, which is -(-1) - (-1) = 2."
+  },
+  {
+    "QuestionText": "Find the area of the region bounded by the parabola y² = 4x and the line x = 3.",
+    "Options": ["A) 8√3 sq units", "B) 4√3 sq units", "C) 12√3 sq units", "D) 16√3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Area is 2 * ∫√(4x) dx from 0 to 3, which is 4 * [x^(3/2) / (3/2)] from 0 to 3, yielding 8√3."
+  },
+  {
+    "QuestionText": "The area of the circle x² + y² = a² is:",
+    "Options": ["A) πa² sq units", "B) 2πa² sq units", "C) πa²/2 sq units", "D) 4πa² sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "Area is 4 * ∫√(a²-x²) dx from 0 to a, which evaluates to the standard circle area formula πa²."
+  },
+  {
+    "QuestionText": "The area of the region bounded by the ellipse x²/a² + y²/b² = 1 is:",
+    "Options": ["A) πab sq units", "B) 2πab sq units", "C) π(a+b) sq units", "D) πa²b² sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Calculated as 4 * (b/a) * ∫√(a²-x²) dx from 0 to a, resulting in πab."
+  },
+  {
+    "QuestionText": "Area bounded by the curve y = cos x between x = 0 and x = 2π is:",
+    "Options": ["A) 0 sq units", "B) 2 sq units", "C) 4 sq units", "D) 1 sq unit"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Total area is ∫|cos x| dx from 0 to 2π, which is 4 times the area of one quadrant (1), totaling 4."
+  },
+  {
+    "QuestionText": "The area bounded by the curve y = x |x|, x-axis and the ordinates x = -1 and x = 1 is:",
+    "Options": ["A) 0 sq units", "B) 1/3 sq units", "C) 2/3 sq units", "D) 1 sq unit"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Split the integral: ∫-x² dx from -1 to 0 and ∫x² dx from 0 to 1; take absolute values of areas to get 1/3 + 1/3 = 2/3."
+  },
+  {
+    "QuestionText": "Find the area of the region bounded by the curve y = √x and y = x.",
+    "Options": ["A) 1/6 sq units", "B) 1/3 sq units", "C) 1/2 sq units", "D) 1 sq unit"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Curves intersect at (0,0) and (1,1). Area is ∫(√x - x) dx from 0 to 1, which equals [2/3 x^(3/2) - x²/2] = 2/3 - 1/2 = 1/6."
+  },
+  {
+    "QuestionText": "Area of the region bounded by y² = 4x and x² = 4y is:",
+    "Options": ["A) 16/3 sq units", "B) 8/3 sq units", "C) 4/3 sq units", "D) 32/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Intersection points are (0,0) and (4,4). Area is ∫(2√x - x²/4) dx from 0 to 4, which is 16/3."
+  },
+  {
+    "QuestionText": "The area bounded by y = x + 1, y = cos x and x-axis from x = 0 to x = π/2 is:",
+    "Options": ["A) π²/8 + π/2 - 1", "B) π²/4 - 1", "C) 1 sq unit", "D) π/2 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Calculate ∫(x + 1 - cos x) dx from 0 to π/2, yielding [x²/2 + x - sin x] = π²/8 + π/2 - 1."
+  },
+  {
+    "QuestionText": "The area of the region bounded by the line y = 3x + 2, the x-axis and the ordinates x = -1 and x = 1 is:",
+    "Options": ["A) 13/3 sq units", "B) 5 sq units", "C) 25/6 sq units", "D) 13/2 sq units"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "The line crosses the x-axis at x = -2/3. Total area is ∫|3x+2| dx from -1 to 1, calculated in two parts (1/6 + 25/6 = 13/3) — Rechecking: (1/2 * 1/3 * 1) + (1/2 * 5/3 * 5) = 1/6 + 25/6 = 26/6 = 13/3."
+  },
+  {
+    "QuestionText": "Area bounded by the curve y = log x, x-axis and the ordinate x = e is:",
+    "Options": ["A) 1 sq unit", "B) e sq units", "C) e - 1 sq units", "D) 2 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Area is ∫log x dx from 1 to e, which is [x log x - x] evaluated from 1 to e, giving (e-e) - (0-1) = 1."
+  },
+  {
+    "QuestionText": "The area of the region bounded by x² = 4y and the line x = 4y - 2 is:",
+    "Options": ["A) 9/8 sq units", "B) 5/8 sq units", "C) 7/8 sq units", "D) 3/8 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Solving x² = x+2 gives x = 2, -1. Area is ∫[(x+2)/4 - x²/4] dx from -1 to 2, yielding 9/8."
+  },
+  {
+    "QuestionText": "Find the area of the region bounded by the curve y² = x and the lines x = 1, x = 4 and the x-axis in the first quadrant.",
+    "Options": ["A) 14/3 sq units", "B) 16/3 sq units", "C) 7/3 sq units", "D) 8/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫√x dx from 1 to 4 = [2/3 x^(3/2)] from 1 to 4 = 2/3 (8 - 1) = 14/3."
+  },
+  {
+    "QuestionText": "Area of the region in the first quadrant enclosed by the x-axis, the line y = x and the circle x² + y² = 32 is:",
+    "Options": ["A) 4π sq units", "B) 16π sq units", "C) 8π sq units", "D) 2π sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Intersection at (4,4). Area = ∫x dx from 0 to 4 + ∫√(32-x²) dx from 4 to √32, which sums to 4π (1/8th of the circle)."
+  },
+  {
+    "QuestionText": "The area bounded by y = |x-1| and y = 1 is:",
+    "Options": ["A) 1 sq unit", "B) 2 sq units", "C) 1/2 sq units", "D) 4 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "The region is a triangle with base from x=0 to x=2 and height 1. Area = 1/2 * 2 * 1 = 1."
+  },
+  {
+    "QuestionText": "The area of the smaller part of the circle x² + y² = a² cut off by the line x = a/√2 is:",
+    "Options": ["A) a²/4 (π - 2) sq units", "B) a²/2 (π - 2) sq units", "C) a²/4 (π - 1) sq units", "D) a² (π/4 - 1) sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Calculated using 2 * ∫√(a²-x²) dx from a/√2 to a, resulting in (a²/4)(π-2)."
+  },
+  {
+    "QuestionText": "The area bounded by the parabola y² = 4ax and its latus rectum (x=a) is:",
+    "Options": ["A) 8a²/3 sq units", "B) 4a²/3 sq units", "C) 2a²/3 sq units", "D) 16a²/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "2 * ∫√(4ax) dx from 0 to a = 4√a * [2/3 x^(3/2)] from 0 to a = 8a²/3."
+  },
+  {
+    "QuestionText": "Area of the region bounded by the curve y = 1/x, x-axis and the lines x = 1, x = 2 is:",
+    "Options": ["A) log 2 sq units", "B) 1/2 sq units", "C) 2 log 2 sq units", "D) 1 sq unit"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫(1/x) dx from 1 to 2 = [log x] from 1 to 2 = log 2."
+  },
+  {
+    "QuestionText": "The area of the region bounded by y = |x|, y = 0 and |x| = 2 is:",
+    "Options": ["A) 4 sq units", "B) 2 sq units", "C) 8 sq units", "D) 1 sq unit"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "Two symmetrical triangles each of base 2 and height 2. Area = 2 * (1/2 * 2 * 2) = 4."
+  },
+  {
+    "QuestionText": "Find the area of the region bounded by x² = 4y, y = 2, y = 4 and the y-axis in the first quadrant.",
+    "Options": ["A) 8/3 (4√2 - 2) sq units", "B) 4/3 (8 - 2√2) sq units", "C) 8/3 (4 - √2) sq units", "D) 4/3 (4√2 - 2) sq units"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫2√y dy from 2 to 4 = 2 * [2/3 y^(3/2)] from 2 to 4 = 4/3 (8 - 2√2)."
+  },
+  {
+    "QuestionText": "The area between the curves y = x and y = x² is:",
+    "Options": ["A) 1/6 sq units", "B) 1/3 sq units", "C) 1/2 sq units", "D) 5/6 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫(x - x²) dx from 0 to 1 = [x²/2 - x³/3] = 1/2 - 1/3 = 1/6."
+  },
+  {
+    "QuestionText": "The area of the region {(x, y) : x² + y² ≤ 1 ≤ x + y} is:",
+    "Options": ["A) π/4 - 1/2 sq units", "B) π/2 - 1 sq units", "C) π/4 + 1/2 sq units", "D) π/2 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Area of the quadrant (π/4) minus area of the triangle formed by the line (1/2)."
+  },
+  {
+    "QuestionText": "Area bounded by the curve y = eˣ, the y-axis and the line y = e is:",
+    "Options": ["A) 1 sq unit", "B) e - 1 sq units", "C) e sq units", "D) log e sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Area is ∫(e - eˣ) dx from 0 to 1 (where eˣ=e at x=1), giving [ex - eˣ] = (e-e) - (0-1) = 1."
+  },
+  {
+    "QuestionText": "The area of the region bounded by y = x³, x-axis and the ordinates x = -2 and x = 1 is:",
+    "Options": ["A) 15/4 sq units", "B) 17/4 sq units", "C) 9/4 sq units", "D) 4 sq units"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫|-x³| dx from -2 to 0 + ∫x³ dx from 0 to 1 = [x⁴/4] from 0 to 2 + [x⁴/4] from 0 to 1 = 4 + 1/4 = 17/4."
+  },
+  {
+    "QuestionText": "Area of the region bounded by y = cos x, x = 0, x = π and y = 0 is:",
+    "Options": ["A) 2 sq units", "B) 1 sq unit", "C) 0 sq units", "D) 4 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫|cos x| dx from 0 to π = ∫cos x from 0 to π/2 + ∫-cos x from π/2 to π = 1 + 1 = 2."
+  },
+  {
+    "QuestionText": "The area bounded by the curve y = x² - 4 and the x-axis is:",
+    "Options": ["A) 32/3 sq units", "B) 16/3 sq units", "C) 8/3 sq units", "D) 4/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫|x²-4| dx from -2 to 2 = 2 * ∫(4-x²) dx from 0 to 2 = 2 * [4x - x³/3] = 2 * (8 - 8/3) = 32/3."
+  },
+  {
+    "QuestionText": "Find the area of the loop of the curve y² = x(x-1)².",
+    "Options": ["A) 4/15 sq units", "B) 8/15 sq units", "C) 2/15 sq units", "D) 1/15 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Area = 2 * ∫(1-x)√x dx from 0 to 1 = 2 * [2/3 x^(3/2) - 2/5 x^(5/2)] = 2 * (2/3 - 2/5) = 4/15."
+  },
+  {
+    "QuestionText": "The area of the region bounded by the curves y = x² + 2, y = x, x = 0 and x = 3 is:",
+    "Options": ["A) 21/2 sq units", "B) 15/2 sq units", "C) 9/2 sq units", "D) 27/2 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫(x² + 2 - x) dx from 0 to 3 = [x³/3 + 2x - x²/2] = (9 + 6 - 9/2) = 15 - 4.5 = 10.5 or 21/2."
+  },
+  {
+    "QuestionText": "The area of the region bounded by y = √x, x = 2y + 3 and the x-axis is:",
+    "Options": ["A) 9 sq units", "B) 18 sq units", "C) 27 sq units", "D) 36 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Integrating with respect to y: intersection at y=3. Area = ∫(2y+3 - y²) dy from 0 to 3 = [y² + 3y - y³/3] = 9 + 9 - 9 = 9."
+  },
+  {
+    "QuestionText": "The area of the region bounded by the y-axis, y = cos x and y = sin x where 0 ≤ x ≤ π/4 is:",
+    "Options": ["A) √2 - 1 sq units", "B) √2 + 1 sq units", "C) 2 - √2 sq units", "D) 1/2 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫(cos x - sin x) dx from 0 to π/4 = [sin x + cos x] from 0 to π/4 = (1/√2 + 1/√2) - (0 + 1) = √2 - 1."
+  },
+  {
+    "QuestionText": "Find the area bounded by the curves y = 6x - x² and y = x² - 2x.",
+    "Options": ["A) 64/3 sq units", "B) 32/3 sq units", "C) 16/3 sq units", "D) 8/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Intersections at x=0, 4. Area = ∫(8x - 2x²) dx from 0 to 4 = [4x² - 2/3 x³] = 64 - 128/3 = 64/3."
+  },
+  {
+    "QuestionText": "The area of the region between y = 4 - x² and the x-axis is:",
+    "Options": ["A) 32/3 sq units", "B) 16/3 sq units", "C) 8/3 sq units", "D) 4/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫(4 - x²) dx from -2 to 2 = [4x - x³/3] = (8 - 8/3) - (-8 + 8/3) = 16 - 16/3 = 32/3."
+  },
+  {
+    "QuestionText": "Area bounded by the curve y = x³ and line y = x is:",
+    "Options": ["A) 1/2 sq units", "B) 1/4 sq units", "C) 1 sq unit", "D) 2 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Two symmetric parts. Area = 2 * ∫(x - x³) dx from 0 to 1 = 2 * [x²/2 - x⁴/4] = 2 * (1/4) = 1/2."
+  },
+  {
+    "QuestionText": "The area of the parabola y² = 4x bounded by its latus rectum is:",
+    "Options": ["A) 8/3 sq units", "B) 4/3 sq units", "C) 16/3 sq units", "D) 2/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "Latus rectum is x=1. Area = 2 * ∫2√x dx from 0 to 1 = 4 * [2/3] = 8/3."
+  },
+  {
+    "QuestionText": "The area bounded by y = √a²-x² and y = 0 is:",
+    "Options": ["A) πa²/2 sq units", "B) πa² sq units", "C) πa²/4 sq units", "D) πa sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the area of a semi-circle with radius a."
+  },
+  {
+    "QuestionText": "Area of the region bounded by x = 2y - y² and the y-axis is:",
+    "Options": ["A) 4/3 sq units", "B) 2/3 sq units", "C) 8/3 sq units", "D) 1/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫(2y - y²) dy from 0 to 2 = [y² - y³/3] = 4 - 8/3 = 4/3."
+  },
+  {
+    "QuestionText": "Find the area of the region bounded by y = |x+3| and x = -6, x = 0 and the x-axis.",
+    "Options": ["A) 9 sq units", "B) 18 sq units", "C) 4.5 sq units", "D) 12 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Two triangles each of base 3 and height 3. Area = 2 * (1/2 * 3 * 3) = 9."
+  },
+  {
+    "QuestionText": "The area bounded by y = tan x, x-axis and the line x = π/4 is:",
+    "Options": ["A) 1/2 log 2 sq units", "B) log 2 sq units", "C) 1 sq unit", "D) π/4 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫tan x dx from 0 to π/4 = [log|sec x|] = log √2 = 1/2 log 2."
+  },
+  {
+    "QuestionText": "The area of the region enclosed between the two circles x² + y² = 1 and (x-1)² + y² = 1 is:",
+    "Options": ["A) 2π/3 - √3/2 sq units", "B) π/3 - √3/4 sq units", "C) 2π/3 + √3/2 sq units", "D) π/6 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Olympiad",
+    "Explanation": "Intersections at x=1/2. Using symmetry and integration results in 2π/3 - √3/2."
+  },
+  {
+    "QuestionText": "Area bounded by y = x² and y = |x| is:",
+    "Options": ["A) 1/3 sq units", "B) 2/3 sq units", "C) 1/6 sq units", "D) 1 sq unit"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Two symmetric parts. Area = 2 * ∫(x - x²) dx from 0 to 1 = 2 * (1/6) = 1/3."
+  },
+  {
+    "QuestionText": "Find the area bounded by the curve y = sin 2x from x = 0 to x = π/2.",
+    "Options": ["A) 1 sq unit", "B) 2 sq units", "C) 1/2 sq units", "D) 0 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫sin 2x dx from 0 to π/2 = [-1/2 cos 2x] = -1/2(-1 - 1) = 1."
+  },
+  {
+    "QuestionText": "The area of the region bounded by x = y², y-axis and the lines y = 1, y = 2 is:",
+    "Options": ["A) 7/3 sq units", "B) 8/3 sq units", "C) 1 sq unit", "D) 3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "∫y² dy from 1 to 2 = [y³/3] = 8/3 - 1/3 = 7/3."
+  },
+  {
+    "QuestionText": "The area bounded by the curves y = √x and y = x³ is:",
+    "Options": ["A) 5/12 sq units", "B) 7/12 sq units", "C) 1/4 sq units", "D) 1/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫(x^(1/2) - x³) dx from 0 to 1 = [2/3 - 1/4] = (8-3)/12 = 5/12."
+  },
+  {
+    "QuestionText": "Area bounded by the curve y = 2x - x², x-axis and x = 0, x = 2 is:",
+    "Options": ["A) 4/3 sq units", "B) 2/3 sq units", "C) 1 sq unit", "D) 8/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫(2x - x²) dx from 0 to 2 = [x² - x³/3] = 4 - 8/3 = 4/3."
+  },
+  {
+    "QuestionText": "The area of the region bounded by y² = 4x and the line y = x is:",
+    "Options": ["A) 8/3 sq units", "B) 16/3 sq units", "C) 4/3 sq units", "D) 32/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "Intersection at (4,4). Area = ∫(2√x - x) dx from 0 to 4 = [4/3 x^(3/2) - x²/2] = 32/3 - 8 = 8/3."
+  },
+  {
+    "QuestionText": "Area of the region bounded by y = x² + 1, y = x, x = 0 and x = 2 is:",
+    "Options": ["A) 8/3 sq units", "B) 14/3 sq units", "C) 10/3 sq units", "D) 2 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area between two curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫(x² + 1 - x) dx from 0 to 2 = [x³/3 + x - x²/2] = 8/3 + 2 - 2 = 8/3."
+  },
+  {
+    "QuestionText": "The area bounded by x = y² and x = 4 is:",
+    "Options": ["A) 32/3 sq units", "B) 16/3 sq units", "C) 8/3 sq units", "D) 64/3 sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "2 * ∫√x dx from 0 to 4 = 2 * [2/3 x^(3/2)] = 4/3 * 8 = 32/3."
+  },
+  {
+    "QuestionText": "Find the area bounded by the curve y = log x, x-axis and x = 1, x = 2.",
+    "Options": ["A) 2 log 2 - 1 sq units", "B) log 2 - 1 sq units", "C) 2 log 2 sq units", "D) 1 sq unit"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Advanced",
+    "Explanation": "∫log x dx from 1 to 2 = [x log x - x] from 1 to 2 = (2 log 2 - 2) - (0 - 1) = 2 log 2 - 1."
+  },
+  {
+    "QuestionText": "The area of the ellipse x²/9 + y²/4 = 1 is:",
+    "Options": ["A) 6π sq units", "B) 36π sq units", "C) 13π sq units", "D) 5π sq units"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Integrals",
+    "SubTopic": "Area under simple curves",
+    "Difficulty": "Foundation",
+    "Explanation": "Area = πab = π(3)(2) = 6π."
+  }
+]

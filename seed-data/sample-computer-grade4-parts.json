@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which device is used to enter text and numbers into the computer?",
+    "Options": [
+      "A) Monitor",
+      "B) Keyboard",
+      "C) Speaker",
+      "D) Printer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A keyboard is the primary input device for typing characters and commands."
+  },
+  {
+    "QuestionText": "Which of these is considered an 'Output Device'?",
+    "Options": [
+      "A) Microphone",
+      "B) Mouse",
+      "C) Monitor",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A monitor displays visual output, making it an output device."
+  },
+  {
+    "QuestionText": "What does the 'ALU' inside the CPU stand for?",
+    "Options": [
+      "A) Arithmetic Logic Unit",
+      "B) All Logic Unit",
+      "C) Added Link Unit",
+      "D) Array Logic Unit"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Advanced",
+    "Explanation": "The ALU is the part of the CPU responsible for mathematical calculations and logical operations."
+  },
+  {
+    "QuestionText": "Which storage device is built inside the computer to store the Operating System and your files permanently?",
+    "Options": [
+      "A) RAM",
+      "B) Hard Disk Drive (HDD)",
+      "C) CD-ROM",
+      "D) Keyboard"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Intermediate",
+    "Explanation": "The HDD (or SSD) is the main non-volatile storage drive in a computer."
+  },
+  {
+    "QuestionText": "Which input device is often used to play video games?",
+    "Options": [
+      "A) Printer",
+      "B) Joystick",
+      "C) Speakers",
+      "D) Monitor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A joystick is a peripheral device used for controlling movement in games."
+  },
+  {
+    "QuestionText": "If you want to record your voice into the computer, what device do you need?",
+    "Options": [
+      "A) Speaker",
+      "B) Microphone",
+      "C) Monitor",
+      "D) Printer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A microphone converts sound waves into digital signals for the computer to process."
+  },
+  {
+    "QuestionText": "What is the function of a 'Headphone'?",
+    "Options": [
+      "A) To input sound",
+      "B) To output sound privately",
+      "C) To process images",
+      "D) To store data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Headphones are output devices that allow the user to listen to audio."
+  },
+  {
+    "QuestionText": "Which part of the CPU acts as the 'control center' for all computer operations?",
+    "Options": [
+      "A) CU (Control Unit)",
+      "B) RAM",
+      "C) Keyboard",
+      "D) Mouse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Intermediate",
+    "Explanation": "The Control Unit (CU) coordinates the activities of all other parts of the computer."
+  },
+  {
+    "QuestionText": "Which of these is a portable, small-sized storage device?",
+    "Options": [
+      "A) Hard Disk Drive",
+      "B) USB Flash Drive",
+      "C) Monitor",
+      "D) CPU"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "A USB flash drive is highly portable and stores data using flash memory."
+  },
+  {
+    "QuestionText": "What kind of printer uses ink to print on paper?",
+    "Options": [
+      "A) Inkjet Printer",
+      "B) 3D Printer",
+      "C) Monitor",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "Inkjet printers create images by spraying tiny droplets of ink onto paper."
+  },
+  {
+    "QuestionText": "What is the primary function of a mouse?",
+    "Options": [
+      "A) Typing text",
+      "B) Selecting and moving objects on the screen",
+      "C) Printing documents",
+      "D) Storing data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "The mouse is a pointing device that controls the cursor on the screen."
+  },
+  {
+    "QuestionText": "Which memory is referred to as 'volatile' memory?",
+    "Options": [
+      "A) RAM",
+      "B) Hard Disk",
+      "C) CD-ROM",
+      "D) Pen Drive"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Advanced",
+    "Explanation": "RAM is volatile because it loses its data when the computer is turned off."
+  },
+  {
+    "QuestionText": "Which device is used to enter images into the computer from paper?",
+    "Options": [
+      "A) Printer",
+      "B) Scanner",
+      "C) Speaker",
+      "D) Keyboard"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "A scanner captures a digital image of a physical document."
+  },
+  {
+    "QuestionText": "What is a 'Touchscreen' considered to be?",
+    "Options": [
+      "A) Input device only",
+      "B) Output device only",
+      "C) Both input and output device",
+      "D) Storage device"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "A touchscreen acts as an input device (when you touch it) and an output device (by displaying information)."
+  },
+  {
+    "QuestionText": "What does a Projector do?",
+    "Options": [
+      "A) Scans paper",
+      "B) Displays a computer screen image onto a wall or large screen",
+      "C) Types words",
+      "D) Stores files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "A projector is an output device used to present images or videos to a large audience."
+  },
+  {
+    "QuestionText": "Which of these is used to store data on a computer but is NOT a disk drive?",
+    "Options": [
+      "A) DVD",
+      "B) Hard Drive",
+      "C) RAM (Memory chips)",
+      "D) CD"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Intermediate",
+    "Explanation": "RAM is memory made of chips, not a spinning disk or optical medium."
+  },
+  {
+    "QuestionText": "Which of the following is NOT an input device?",
+    "Options": [
+      "A) Mouse",
+      "B) Keyboard",
+      "C) Speaker",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Speakers are output devices, as they send sound out to the user."
+  },
+  {
+    "QuestionText": "What is the full form of CPU?",
+    "Options": [
+      "A) Computer Processing Unit",
+      "B) Central Processing Unit",
+      "C) Central Programming Unit",
+      "D) Core Processing Unit"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Foundation",
+    "Explanation": "CPU stands for Central Processing Unit."
+  },
+  {
+    "QuestionText": "Which device can be used to hold a small camera that broadcasts live video?",
+    "Options": [
+      "A) Webcam",
+      "B) Printer",
+      "C) Hard Drive",
+      "D) Speaker"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "A webcam is an input device used to capture and send video."
+  },
+  {
+    "QuestionText": "What is the primary function of a storage device?",
+    "Options": [
+      "A) To type fast",
+      "B) To keep data and programs saved when power is off",
+      "C) To display colors",
+      "D) To perform math"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "Storage provides a way to save information for future use."
+  },
+  {
+    "QuestionText": "Which device is used for printing high-quality professional documents?",
+    "Options": [
+      "A) Mouse",
+      "B) Laser Printer",
+      "C) Keyboard",
+      "D) Microphone"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "Laser printers use toner to print high-quality text and images quickly."
+  },
+  {
+    "QuestionText": "Which part of the computer process is called 'Data'?",
+    "Options": [
+      "A) The raw input we give the computer",
+      "B) The finished result",
+      "C) The storage drive",
+      "D) The screen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "Data is the unprocessed information input into the computer."
+  },
+  {
+    "QuestionText": "Where are the CPU and RAM located?",
+    "Options": [
+      "A) Inside the printer",
+      "B) On the motherboard",
+      "C) Inside the mouse",
+      "D) On the monitor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Intermediate",
+    "Explanation": "The motherboard is the main board where the CPU and RAM are connected."
+  },
+  {
+    "QuestionText": "Which of these is a secondary storage device?",
+    "Options": [
+      "A) RAM",
+      "B) CPU",
+      "C) Pen Drive",
+      "D) Keyboard"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Intermediate",
+    "Explanation": "Secondary storage devices are used to save files for long-term use, like Pen Drives."
+  },
+  {
+    "QuestionText": "What is the purpose of the 'Scroll Wheel' on a mouse?",
+    "Options": [
+      "A) To click icons",
+      "B) To move up and down through a page",
+      "C) To change the color of the screen",
+      "D) To print files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "The scroll wheel is used for navigating through long documents or websites."
+  },
+  {
+    "QuestionText": "Which device is used for drawing directly on a screen?",
+    "Options": [
+      "A) Printer",
+      "B) Graphics Tablet (Stylus)",
+      "C) Keyboard",
+      "D) Speaker"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "A graphics tablet with a stylus allows artists to draw digitally."
+  },
+  {
+    "QuestionText": "Which output device is used to produce sound?",
+    "Options": [
+      "A) Microphone",
+      "B) Speaker",
+      "C) Mouse",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Speakers output audio from the computer."
+  },
+  {
+    "QuestionText": "What is the main task of the RAM?",
+    "Options": [
+      "A) Permanently storing Windows",
+      "B) Temporarily storing data currently being used",
+      "C) Printing documents",
+      "D) Recording sound"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Intermediate",
+    "Explanation": "RAM (Random Access Memory) provides fast access to data while programs are running."
+  },
+  {
+    "QuestionText": "Which of these represents a Hardware component?",
+    "Options": [
+      "A) Windows 10",
+      "B) MS Paint",
+      "C) Monitor",
+      "D) A web browser"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Hardware refers to physical parts like the monitor."
+  },
+  {
+    "QuestionText": "Which device is like a pen used to write on a tablet screen?",
+    "Options": [
+      "A) Stylus",
+      "B) Mouse",
+      "C) Scanner",
+      "D) Speaker"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A stylus is an input tool designed to mimic the feel of a pen on a screen."
+  },
+  {
+    "QuestionText": "What does a computer do with output?",
+    "Options": [
+      "A) Receives it from the user",
+      "B) Presents it to the user",
+      "C) Ignores it",
+      "D) Deletes it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Output is the process of the computer showing processed data."
+  },
+  {
+    "QuestionText": "Which storage medium can hold the most amount of data?",
+    "Options": [
+      "A) CD-ROM",
+      "B) Floppy Disk",
+      "C) Hard Disk Drive",
+      "D) USB Drive"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Intermediate",
+    "Explanation": "Hard drives typically offer significantly more storage space than CDs or small USB drives."
+  },
+  {
+    "QuestionText": "What is the 'Keyboard' layout most commonly called?",
+    "Options": [
+      "A) QWERTY",
+      "B) ABCDE",
+      "C) AZERTY",
+      "D) NUMERIC"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Most standard keyboards follow the QWERTY layout."
+  },
+  {
+    "QuestionText": "Where are the instructions stored that the computer needs to start up?",
+    "Options": [
+      "A) ROM (Read Only Memory)",
+      "B) RAM",
+      "C) Mouse",
+      "D) Speaker"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Advanced",
+    "Explanation": "ROM contains non-volatile instructions that boot up the computer."
+  },
+  {
+    "QuestionText": "Which device would you use to show an educational video to your whole class?",
+    "Options": [
+      "A) Printer",
+      "B) Projector",
+      "C) Scanner",
+      "D) Mouse"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "A projector is the best tool for displaying large-scale video output."
+  },
+  {
+    "QuestionText": "What does 'Input' refer to?",
+    "Options": [
+      "A) The results we get back",
+      "B) The raw data we provide to the computer",
+      "C) The sound output",
+      "D) The memory storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Input is the data sent into the computer for processing."
+  },
+  {
+    "QuestionText": "Which of these is a type of computer mouse?",
+    "Options": [
+      "A) Optical Mouse",
+      "B) Laser Printer",
+      "C) Memory Mouse",
+      "D) Audio Mouse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "Optical mice use a light sensor to track movement."
+  },
+  {
+    "QuestionText": "What does a 'Hard Disk' store?",
+    "Options": [
+      "A) Nothing",
+      "B) Only temporary data",
+      "C) Files, documents, and programs",
+      "D) Only hardware drivers"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "A hard disk is for long-term storage of all user files and system programs."
+  },
+  {
+    "QuestionText": "Which of these is used for 'hard copy' output?",
+    "Options": [
+      "A) Monitor",
+      "B) Printer",
+      "C) Speaker",
+      "D) Microphone"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A hard copy is a physical version of a document, produced by a printer."
+  },
+  {
+    "QuestionText": "What is the CPU's main job?",
+    "Options": [
+      "A) To save files",
+      "B) To process instructions and perform calculations",
+      "C) To display images",
+      "D) To record sound"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Foundation",
+    "Explanation": "The CPU interprets and executes instructions from programs."
+  },
+  {
+    "QuestionText": "Which device connects a computer to the Internet?",
+    "Options": [
+      "A) Printer",
+      "B) Modem/Router",
+      "C) Mouse",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Intermediate",
+    "Explanation": "A modem/router acts as an interface between your computer and the network."
+  },
+  {
+    "QuestionText": "What does a 'Barcode Reader' do?",
+    "Options": [
+      "A) It inputs price and product info",
+      "B) It outputs high-quality images",
+      "C) It stores data",
+      "D) It records video"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Barcode readers input data from products into a point-of-sale system."
+  },
+  {
+    "QuestionText": "Which type of storage is usually found in smartphones?",
+    "Options": [
+      "A) Flash Memory",
+      "B) Large Hard Disk Drives",
+      "C) CD-ROMs",
+      "D) Floppy Disks"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Intermediate",
+    "Explanation": "Smartphones use small, shock-resistant flash memory to store apps and photos."
+  },
+  {
+    "QuestionText": "What is the 'system' part of the computer?",
+    "Options": [
+      "A) The case and motherboard",
+      "B) Just the keyboard",
+      "C) Just the printer",
+      "D) Just the mouse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Foundation",
+    "Explanation": "The system unit typically holds the motherboard, CPU, RAM, and storage."
+  },
+  {
+    "QuestionText": "Which of these is an output device for the visually impaired?",
+    "Options": [
+      "A) Braille printer",
+      "B) Standard mouse",
+      "C) Color monitor",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Output Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "A Braille printer outputs digital text as tactile Braille dots."
+  },
+  {
+    "QuestionText": "What does a 'Motherboard' do?",
+    "Options": [
+      "A) It prints files",
+      "B) It connects all the components of the computer",
+      "C) It records audio",
+      "D) It stores user files"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Intermediate",
+    "Explanation": "The motherboard allows all the computer components to communicate with each other."
+  },
+  {
+    "QuestionText": "What does 'Storage Capacity' mean?",
+    "Options": [
+      "A) How fast the mouse moves",
+      "B) How much data a device can hold",
+      "C) The brightness of the monitor",
+      "D) How loud the speakers are"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "Capacity refers to the amount of space available for files."
+  },
+  {
+    "QuestionText": "What is a 'Webcam' used for?",
+    "Options": [
+      "A) Printing photos",
+      "B) Video conferencing and taking pictures",
+      "C) Storing system files",
+      "D) Typing documents"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Input Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Webcams input video streams for communication."
+  },
+  {
+    "QuestionText": "Which of these devices is a 'portable' storage device?",
+    "Options": [
+      "A) Internal Hard Drive",
+      "B) External Hard Drive",
+      "C) Motherboard",
+      "D) CPU"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "External hard drives are designed to be disconnected and carried between computers."
+  },
+  {
+    "QuestionText": "What does the 'Control Unit' do?",
+    "Options": [
+      "A) It calculates math",
+      "B) It manages the flow of data",
+      "C) It stores photos",
+      "D) It prints paper"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Parts of a Computer",
+    "SubTopic": "CPU",
+    "Difficulty": "Advanced",
+    "Explanation": "The Control Unit directs the operation of the processor."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Read: 'The Renaissance was a period of great intellectual and artistic creativity in Europe, beginning in the 14th century.' What was the Renaissance?",
+    "Options": [
+      "A) A period of war",
+      "B) A period of intellectual and artistic creativity",
+      "C) A scientific revolution only",
+      "D) A political movement"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Main Idea",
+    "Difficulty": "Foundation",
+    "Explanation": "The passage directly states: 'period of great intellectual and artistic creativity'. Reading comprehension requires identifying explicit information from the text."
+  },
+  {
+    "QuestionText": "Read: 'Although the experiment yielded unexpected results, the scientists remained undeterred.' The word 'undeterred' means:",
+    "Options": [
+      "A) Discouraged",
+      "B) Confused",
+      "C) Not discouraged, persevering",
+      "D) Excited"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "'Un-' = not. 'Deterred' = discouraged or stopped. 'Undeterred' = not stopped/discouraged despite setbacks. Context: 'although...unexpected results' supports this meaning."
+  },
+  {
+    "QuestionText": "Read: 'Many scientists believe that dark matter, which cannot be directly observed, makes up about 27% of the universe.' What makes dark matter difficult to study?",
+    "Options": [
+      "A) It is too far away",
+      "B) It cannot be directly observed",
+      "C) It makes up only 27%",
+      "D) Scientists disagree about it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Inference",
+    "Difficulty": "Foundation",
+    "Explanation": "The passage states dark matter 'cannot be directly observed'. This directly answers why it is difficult to study \u2014 you can only infer its presence indirectly."
+  },
+  {
+    "QuestionText": "Read: 'The proliferation of smartphones has transformed social interaction, for better or worse.' The word 'proliferation' most likely means:",
+    "Options": [
+      "A) Decline",
+      "B) Rapid increase and spread",
+      "C) Regulation",
+      "D) Design"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "'Proliferation' = rapid growth/spreading. Context: smartphones 'transforming social interaction' implies they have spread widely. From 'proliferate' = to grow rapidly."
+  },
+  {
+    "QuestionText": "Read: 'Unlike his predecessor, the new CEO adopted a more collaborative approach, consulting employees before making major decisions.' What can we infer about the predecessor?",
+    "Options": [
+      "A) The predecessor was also collaborative",
+      "B) The predecessor made decisions without consulting employees",
+      "C) The predecessor was more successful",
+      "D) The predecessor also consulted employees"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Inference",
+    "Difficulty": "Foundation",
+    "Explanation": "'Unlike his predecessor' + 'collaborative approach, consulting employees' implies the predecessor did NOT consult employees. This is an inference from contrast language."
+  },
+  {
+    "QuestionText": "Read: 'The Amazon rainforest, often called the lungs of the Earth, produces 20% of the world's oxygen.' What does the metaphor 'lungs of the Earth' suggest?",
+    "Options": [
+      "A) The forest breathes like humans",
+      "B) The forest is essential for oxygen production like lungs are for breathing",
+      "C) The forest is shaped like lungs",
+      "D) The forest is located in the lungs of the planet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Figurative Language",
+    "Difficulty": "Advanced",
+    "Explanation": "Metaphor: calling the Amazon 'lungs' suggests it performs a similar function to lungs \u2014 providing oxygen. The passage confirms: 20% of world's oxygen. Metaphors compare function/role."
+  },
+  {
+    "QuestionText": "Read: 'The novel's protagonist, despite facing insurmountable odds, never lost hope.' The word 'protagonist' refers to:",
+    "Options": [
+      "A) The villain",
+      "B) The main character",
+      "C) The author",
+      "D) The narrator"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Terms",
+    "Difficulty": "Foundation",
+    "Explanation": "Protagonist = main character of a story. Antagonist = character opposing the protagonist. The protagonist drives the plot forward."
+  },
+  {
+    "QuestionText": "Read the sentence: 'The government's austerity measures, though unpopular, were deemed necessary to stabilize the economy.' The word 'austerity' suggests:",
+    "Options": [
+      "A) Luxury spending",
+      "B) Severe spending cuts and economic strictness",
+      "C) Increased public investment",
+      "D) Diplomatic negotiations"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Austerity = severe economy/frugality. 'Austerity measures' = government policies of cutting public spending. Context: 'unpopular' and 'stabilize the economy' confirm this meaning."
+  },
+  {
+    "QuestionText": "Read: 'She was an inveterate traveller, having visited over 80 countries in her lifetime.' The word 'inveterate' most nearly means:",
+    "Options": [
+      "A) Occasional",
+      "B) Habitual and long-established",
+      "C) Enthusiastic but rare",
+      "D) Professional"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Inveterate = having a habit so deeply established it is unlikely to change. 'Inveterate traveller' = someone who has always and will always travel extensively."
+  },
+  {
+    "QuestionText": "Read: 'The report argues that economic growth and environmental protection are not mutually exclusive.' 'Mutually exclusive' means:",
+    "Options": [
+      "A) Cannot exist together at the same time",
+      "B) Always occur together",
+      "C) Are equally important",
+      "D) Support each other"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "'Mutually exclusive' = if one occurs, the other cannot. The passage argues they are NOT mutually exclusive \u2014 both economic growth AND environmental protection CAN coexist."
+  },
+  {
+    "QuestionText": "Read: 'The team's victory was pyrrhic \u2014 they won the championship, but three of their key players were injured.' A 'pyrrhic victory' is:",
+    "Options": [
+      "A) A great victory",
+      "B) A victory too costly to be worth winning",
+      "C) An unexpected victory",
+      "D) A narrow victory"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pyrrhic victory: named after King Pyrrhus who won battles at devastating cost. A victory so costly in losses that it's essentially a defeat. Here: won but lost key players."
+  },
+  {
+    "QuestionText": "Read: 'Biodiversity refers to the variety of life on Earth, encompassing all organisms, species, and ecosystems.' Based on this, which statement is true?",
+    "Options": [
+      "A) Biodiversity only refers to plants",
+      "B) Biodiversity includes variety at species, organism, and ecosystem levels",
+      "C) Biodiversity is only measured by species count",
+      "D) Ecosystems are not part of biodiversity"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Explicit Information",
+    "Difficulty": "Foundation",
+    "Explanation": "The passage explicitly states biodiversity encompasses 'all organisms, species, and ecosystems'. This is explicit information \u2014 directly stated in the text."
+  },
+  {
+    "QuestionText": "Read: 'He spoke with such eloquence that the audience was spellbound.' The word 'eloquence' means:",
+    "Options": [
+      "A) Arrogance",
+      "B) Fluency and persuasiveness in speech",
+      "C) Loudness",
+      "D) Speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Eloquence = fluent, expressive, persuasive speech. Context: audience was 'spellbound' (completely captivated) \u2014 consistent with powerful, skillful speech."
+  },
+  {
+    "QuestionText": "Read: 'Despite the pandemic's devastating impact, the city's residents showed remarkable resilience, slowly rebuilding their lives.' The tone of this passage is best described as:",
+    "Options": [
+      "A) Despairing",
+      "B) Celebratory",
+      "C) Hopeful despite hardship",
+      "D) Critical"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Tone and Mood",
+    "Difficulty": "Advanced",
+    "Explanation": "The tone acknowledges devastation ('devastating impact') but emphasizes positive aspects ('remarkable resilience', 'rebuilding'). This combination = hopeful despite hardship."
+  },
+  {
+    "QuestionText": "Read: 'The author's use of repetition throughout the speech served to emphasize his key points and make them memorable.' This statement identifies:",
+    "Options": [
+      "A) A logical fallacy",
+      "B) A rhetorical device",
+      "C) A grammar error",
+      "D) An analogy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Repetition for emphasis = rhetorical device. Rhetoric = the art of persuasion. Rhetorical devices include repetition, anaphora, rhetorical questions, alliteration, antithesis."
+  },
+  {
+    "QuestionText": "Read: 'The Sahara Desert spans 9.2 million km\u00b2, making it the largest hot desert on Earth.' This is a statement of:",
+    "Options": [
+      "A) Opinion",
+      "B) Fact",
+      "C) Inference",
+      "D) Prediction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Fact vs Opinion",
+    "Difficulty": "Foundation",
+    "Explanation": "Facts are verifiable, objective statements. '9.2 million km\u00b2' is measurable. 'Largest hot desert' is a verifiable fact. Opinion would include words like 'beautiful', 'should', 'best'."
+  },
+  {
+    "QuestionText": "Read: 'While proponents argue that renewable energy will solve climate change, critics contend it cannot replace fossil fuels.' This passage presents:",
+    "Options": [
+      "A) Only one viewpoint",
+      "B) Two opposing viewpoints on renewable energy",
+      "C) A solution to climate change",
+      "D) Scientific evidence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Argument Structure",
+    "Difficulty": "Advanced",
+    "Explanation": "The passage presents both proponents (supporters) and critics (opponents) of renewable energy. 'While...critics contend' signals contrasting perspectives."
+  },
+  {
+    "QuestionText": "Read: 'He was a man of few words, but when he spoke, people listened.' The phrase 'a man of few words' means:",
+    "Options": [
+      "A) He had a small vocabulary",
+      "B) He was a quiet, reserved person who spoke rarely",
+      "C) He whispered",
+      "D) He was uneducated"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Idioms and Phrases",
+    "Difficulty": "Foundation",
+    "Explanation": "'A man of few words' = idiom meaning someone who rarely speaks but speaks meaningfully. The passage confirms this: 'when he spoke, people listened' \u2014 his words carried weight."
+  },
+  {
+    "QuestionText": "Read: 'The new policy was met with widespread approbation from the public.' 'Approbation' most nearly means:",
+    "Options": [
+      "A) Disapproval",
+      "B) Indifference",
+      "C) Approval and praise",
+      "D) Confusion"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Olympiad",
+    "Explanation": "Approbation = formal approval, praise. Opposite: disapprobation. Context: 'widespread' approbation from public \u2014 implies broad positive response to the policy."
+  },
+  {
+    "QuestionText": "Read: 'The story's denouement revealed that the butler had committed the crime.' 'Denouement' refers to:",
+    "Options": [
+      "A) The climax",
+      "B) The introduction",
+      "C) The resolution/outcome of a plot",
+      "D) The rising action"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Terms",
+    "Difficulty": "Advanced",
+    "Explanation": "Denouement (French: 'unknotting'): the final resolution where plot threads are resolved. Follows the climax. In a mystery, it's where the solution is revealed."
+  },
+  {
+    "QuestionText": "Read: 'Climate change poses an existential threat to coastal communities around the world.' An 'existential threat' is one that:",
+    "Options": [
+      "A) Is philosophical",
+      "B) Threatens the very existence/survival of something",
+      "C) Is economic",
+      "D) Is temporary"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Existential = relating to existence. An 'existential threat' threatens the continued existence of something \u2014 in this case, coastal communities could cease to exist due to rising seas."
+  },
+  {
+    "QuestionText": "Read: 'The committee recommended several changes but stopped short of calling for a complete overhaul.' 'Stopped short of' means:",
+    "Options": [
+      "A) Refused to consider",
+      "B) Did not go as far as",
+      "C) Strongly recommended",
+      "D) Accidentally omitted"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Idioms and Phrases",
+    "Difficulty": "Advanced",
+    "Explanation": "'Stop short of' = to not go quite as far as something. 'Stopped short of calling for complete overhaul' = recommended changes but didn't go so far as to recommend complete overhaul."
+  },
+  {
+    "QuestionText": "Read: 'Unlike the verbose opening chapter, the conclusion was terse and impactful.' The contrast here is between:",
+    "Options": [
+      "A) Simple and complex ideas",
+      "B) Wordy text and brief, powerful text",
+      "C) Past and present events",
+      "D) Two different authors' styles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Contrast",
+    "Difficulty": "Advanced",
+    "Explanation": "Verbose = using too many words; terse = brief, using few words. The contrast is wordy opening vs. brief conclusion. 'Unlike' signals explicit contrast."
+  },
+  {
+    "QuestionText": "Read: 'Her persistent advocacy for equal rights inspired generations of activists.' The word 'advocacy' means:",
+    "Options": [
+      "A) Opposition",
+      "B) Public support for a cause",
+      "C) Academic study",
+      "D) Professional work"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Advocacy = public support/promotion of a cause. An advocate speaks or acts in favor of something. 'Advocacy for equal rights' = actively supporting equal rights."
+  },
+  {
+    "QuestionText": "A passage states: 'The evidence, while suggestive, is not conclusive.' This tells us:",
+    "Options": [
+      "A) The evidence proves the theory",
+      "B) The evidence provides hints but doesn't fully prove",
+      "C) There is no evidence",
+      "D) The evidence disproves the theory"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Critical Analysis",
+    "Difficulty": "Advanced",
+    "Explanation": "'Suggestive' = hints at, implies. 'Not conclusive' = doesn't definitively prove. The passage says evidence is there (suggestive) but insufficient for certainty (not conclusive)."
+  },
+  {
+    "QuestionText": "Read: 'The study's findings should be taken with a grain of salt, as the sample size was very small.' 'Taken with a grain of salt' means:",
+    "Options": [
+      "A) Accepted completely",
+      "B) Treated with skepticism/not fully believed",
+      "C) Rejected entirely",
+      "D) Chemically tested"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Idioms and Phrases",
+    "Difficulty": "Foundation",
+    "Explanation": "'Take with a grain of salt' = idiomatic expression meaning to be skeptical. Context reinforces: 'small sample size' = reason to be cautious about findings."
+  },
+  {
+    "QuestionText": "Read: 'The protagonist's internal monologue reveals her conflicted emotions about leaving home.' 'Internal monologue' refers to:",
+    "Options": [
+      "A) A long speech to other characters",
+      "B) A character's private thoughts expressed in narrative",
+      "C) A dialogue between two characters",
+      "D) The narrator's description"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Terms",
+    "Difficulty": "Advanced",
+    "Explanation": "Internal monologue = stream of consciousness / inner speech revealing a character's private thoughts. Unlike soliloquy (spoken aloud), internal monologue is entirely private."
+  },
+  {
+    "QuestionText": "Read: 'The economic disparity between urban and rural areas continues to widen.' 'Disparity' means:",
+    "Options": [
+      "A) Similarity",
+      "B) Connection",
+      "C) Marked difference/inequality",
+      "D) Distance"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Disparity = a great difference or inequality. 'Economic disparity' = inequality in economic conditions. 'Continues to widen' confirms growing difference."
+  },
+  {
+    "QuestionText": "Read: 'The painter's work was celebrated for its avant-garde approach.' 'Avant-garde' most nearly means:",
+    "Options": [
+      "A) Traditional",
+      "B) Realistic",
+      "C) Innovative and experimental, ahead of its time",
+      "D) Expensive"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Olympiad",
+    "Explanation": "Avant-garde (French: 'vanguard') = innovative, experimental, ahead of mainstream. In art, avant-garde artists break conventional rules and explore new forms."
+  },
+  {
+    "QuestionText": "Read: 'The author uses foreshadowing to hint at the tragedy to come.' Foreshadowing is:",
+    "Options": [
+      "A) Describing past events",
+      "B) Describing the setting",
+      "C) Hinting at future events",
+      "D) Describing a character's appearance"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Foreshadowing: literary device where the author gives hints or clues about what will happen later. Creates anticipation and dramatic irony. 'Hint at the tragedy to come' confirms this."
+  },
+  {
+    "QuestionText": "Read: 'His speech was replete with platitudes.' 'Platitudes' are:",
+    "Options": [
+      "A) Brilliant insights",
+      "B) Statistical data",
+      "C) Overused, unoriginal remarks lacking meaning",
+      "D) Poetic expressions"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Olympiad",
+    "Explanation": "Platitude = a flat, dull, trite remark, especially one repeated as if it were original. 'Every cloud has a silver lining' is a platitude. Context: 'replete with' (full of) platitudes implies unoriginal speech."
+  },
+  {
+    "QuestionText": "Read the last line of a poem: 'And miles to go before I sleep.' (Frost) This line suggests:",
+    "Options": [
+      "A) A literal bedtime",
+      "B) The speaker has a long journey before rest, possibly life's journey",
+      "C) The speaker is lost",
+      "D) The poem is about sleeping"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Figurative Language",
+    "Difficulty": "Olympiad",
+    "Explanation": "From Frost's 'Stopping by Woods on a Snowy Evening'. 'Miles to go before I sleep' = both literal (far to travel) and metaphorical (much to do before death/rest). Classic example of ambiguity."
+  },
+  {
+    "QuestionText": "Read: 'The scientist's hypothesis was supported by a preponderance of evidence.' 'Preponderance' means:",
+    "Options": [
+      "A) Lack",
+      "B) Overwhelming quantity or weight",
+      "C) Variety",
+      "D) Quality"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Preponderance = the quality of being greater in number, quantity, or importance. 'Preponderance of evidence' is a legal standard meaning 'more likely than not' \u2014 majority of evidence."
+  },
+  {
+    "QuestionText": "Read: 'The government's policy was criticized as myopic.' 'Myopic' in this context means:",
+    "Options": [
+      "A) Clear-sighted",
+      "B) Short-sighted, lacking long-term vision",
+      "C) Expensive",
+      "D) Biased"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Myopic = literally short-sighted (eyesight). Metaphorically = lacking foresight or long-term thinking. A 'myopic policy' focuses only on short-term without considering long-term consequences."
+  },
+  {
+    "QuestionText": "Read: 'The irony of the situation was that the firefighter's own house had burned down.' This is an example of:",
+    "Options": [
+      "A) Verbal irony",
+      "B) Dramatic irony",
+      "C) Situational irony",
+      "D) Cosmic irony"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Situational irony: the outcome is opposite to what was expected. A firefighter (who prevents fires) having their own house burn = ironic incongruity. Verbal irony = saying the opposite of what is meant."
+  },
+  {
+    "QuestionText": "Read: 'She had an ephemeral beauty that faded as quickly as it appeared.' 'Ephemeral' means:",
+    "Options": [
+      "A) Eternal, lasting forever",
+      "B) Radiant",
+      "C) Short-lived, lasting only a short time",
+      "D) Powerful"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Ephemeral = lasting for a very short time. From Greek 'ephemeros' (lasting a day). Context: 'faded as quickly as it appeared' confirms transience."
+  },
+  {
+    "QuestionText": "When a question asks for the 'central theme' of a passage, you should identify:",
+    "Options": [
+      "A) The first sentence",
+      "B) The main underlying message or idea throughout",
+      "C) The last sentence",
+      "D) The title only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Main Idea",
+    "Difficulty": "Foundation",
+    "Explanation": "Theme = the central message, idea, or insight about human experience that the passage conveys throughout. Not just topic (what it's about) but the insight/message about that topic."
+  },
+  {
+    "QuestionText": "Read: 'The article employs a sardonic tone to critique government policy.' 'Sardonic' means:",
+    "Options": [
+      "A) Enthusiastic",
+      "B) Neutral",
+      "C) Grimly mocking or cynically humorous",
+      "D) Sympathetic"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Tone and Mood",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sardonic = disdainfully or cynically humorous, bitter mockery. More cutting than 'sarcastic'. Tone in a passage is revealed by word choice (diction), sentence structure, and attitude toward subject."
+  },
+  {
+    "QuestionText": "Read: 'Water, the elixir of life, is becoming increasingly scarce in many regions.' 'Elixir of life' is:",
+    "Options": [
+      "A) A scientific term for water's chemical properties",
+      "B) A metaphor highlighting water's vital importance",
+      "C) A geological term",
+      "D) A historical reference"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Figurative Language",
+    "Difficulty": "Foundation",
+    "Explanation": "'Elixir of life' = mythical substance granting immortality. Used metaphorically: water is as essential as the elixir. It emphasizes water's absolute necessity for life."
+  },
+  {
+    "QuestionText": "A passage with the sentence 'We must act now before it is too late' reflects:",
+    "Options": [
+      "A) Past tense narrative",
+      "B) Urgency/call to action tone",
+      "C) A reflective, peaceful mood",
+      "D) A balanced, academic tone"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Tone and Mood",
+    "Difficulty": "Foundation",
+    "Explanation": "'We must act now', 'before it is too late' = urgent language. Imperative mood ('must') and time pressure ('before it is too late') create a tone of urgency and call to action."
+  },
+  {
+    "QuestionText": "Read: 'The children's laughter echoed through the empty halls.' The literary device creating atmosphere here is:",
+    "Options": [
+      "A) Metaphor",
+      "B) Onomatopoeia",
+      "C) Juxtaposition of laughter and emptiness",
+      "D) Hyperbole"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Juxtaposition: placing contrasting elements together. 'Laughter' (joy/life) contrasting with 'empty halls' (absence/loneliness) creates a melancholic or nostalgic atmosphere. Also has onomatopoeia (echoed)."
+  },
+  {
+    "QuestionText": "Read: 'The new law was welcomed by most stakeholders, notwithstanding opposition from some industry groups.' 'Notwithstanding' means:",
+    "Options": [
+      "A) Because of",
+      "B) In addition to",
+      "C) Despite, in spite of",
+      "D) As a result of"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "'Notwithstanding' = despite, in spite of. Formal/legal term. 'Welcomed by most...notwithstanding [despite] opposition from some' \u2014 majority welcomed it even though some opposed."
+  },
+  {
+    "QuestionText": "In a comprehension passage, 'making an inference' means:",
+    "Options": [
+      "A) Stating what the author directly says",
+      "B) Drawing a conclusion based on evidence and reasoning, not directly stated",
+      "C) Finding the exact word meaning",
+      "D) Summarizing the passage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Inference",
+    "Difficulty": "Foundation",
+    "Explanation": "Inference = reading between the lines. Using clues in the text plus background knowledge to arrive at a conclusion not explicitly stated. Higher-order comprehension skill."
+  },
+  {
+    "QuestionText": "Read: 'Her countenance fell when she heard the news.' 'Countenance' refers to:",
+    "Options": [
+      "A) Her confidence",
+      "B) Her facial expression",
+      "C) Her voice",
+      "D) Her posture"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Countenance = face, or the expression on someone's face. 'Her countenance fell' = her expression dropped (showed sadness/disappointment). 'To countenance' as verb = to tolerate/approve."
+  },
+  {
+    "QuestionText": "Read: 'The two nations signed the treaty under duress.' 'Under duress' means:",
+    "Options": [
+      "A) Under favorable conditions",
+      "B) Voluntarily",
+      "C) Under pressure or threat",
+      "D) After long negotiations"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Duress = threats, violence, or constraint forcing someone to act against their will. 'Under duress' = coerced, not acting freely. Agreement made under duress may be legally void."
+  },
+  {
+    "QuestionText": "Read: 'His ambiguous statement left everyone wondering what he meant.' An 'ambiguous' statement is one that:",
+    "Options": [
+      "A) Is clearly understood",
+      "B) Has multiple possible interpretations",
+      "C) Is very long",
+      "D) Contains factual errors"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Ambiguous = open to more than one interpretation; unclear. 'Left everyone wondering' confirms the uncertainty caused by the statement."
+  },
+  {
+    "QuestionText": "Read: 'The author's use of the second person (you) creates an intimate connection with readers.' This is an observation about:",
+    "Options": [
+      "A) The setting",
+      "B) The narrative voice/point of view",
+      "C) The plot structure",
+      "D) The theme"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Narrative voice/point of view: first person (I/we), second person (you), third person (he/she/they). Second person is rare but creates direct reader engagement."
+  },
+  {
+    "QuestionText": "Read: 'Critics have long debated whether Shakespeare actually wrote his plays.' This sentence implies:",
+    "Options": [
+      "A) Shakespeare definitely didn't write his plays",
+      "B) There is an unresolved scholarly controversy about authorship",
+      "C) Critics dislike Shakespeare",
+      "D) Shakespeare wrote his plays alone"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Inference",
+    "Difficulty": "Foundation",
+    "Explanation": "'Long debated' = ongoing, unresolved controversy. 'Critics have...debated' = scholarly disagreement. This implies an ongoing discussion, not a settled fact either way."
+  },
+  {
+    "QuestionText": "Read: 'The organization operates with complete transparency.' 'Transparency' here means:",
+    "Options": [
+      "A) Using clear glass in buildings",
+      "B) Openness and accountability in operations",
+      "C) Invisibility",
+      "D) Literal see-through materials"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Transparency (figurative) = openness, making information accessible, not hidden. Organizations 'operate transparently' means their decisions and finances are open to scrutiny."
+  },
+  {
+    "QuestionText": "Read: 'The research was groundbreaking in its approach.' 'Groundbreaking' means:",
+    "Options": [
+      "A) Related to construction",
+      "B) Revolutionary and pioneering",
+      "C) Detailed and long",
+      "D) Controversial"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Vocabulary in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Groundbreaking = innovative, pioneering, breaking new ground. Metaphor: like breaking new ground for building. 'Groundbreaking research' = research that opens new areas of knowledge."
+  }
+]

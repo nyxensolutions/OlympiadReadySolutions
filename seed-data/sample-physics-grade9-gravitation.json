@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The universal law of gravitation was proposed by:",
+    "Options": [
+      "A) Einstein",
+      "B) Newton",
+      "C) Galileo",
+      "D) Kepler"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's Universal Law of Gravitation (1687): every object attracts every other object with a force F = Gm\u2081m\u2082/r\u00b2."
+  },
+  {
+    "QuestionText": "Gravitational force between two objects depends on:",
+    "Options": [
+      "A) Their masses and distance",
+      "B) Their volumes only",
+      "C) Temperature",
+      "D) Their colour"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "F = Gm\u2081m\u2082/r\u00b2. Force depends on masses of both objects and distance (inversely as square of distance)."
+  },
+  {
+    "QuestionText": "If the distance between two objects is doubled, gravitational force becomes:",
+    "Options": [
+      "A) Double",
+      "B) Half",
+      "C) 4 times",
+      "D) 1/4 times"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "F\u221d1/r\u00b2. If r doubles: F\u221d1/4r\u00b2=F/4. Force reduces to one-fourth."
+  },
+  {
+    "QuestionText": "Value of g (acceleration due to gravity) near Earth's surface is approximately:",
+    "Options": [
+      "A) 6.67\u00d710\u207b\u00b9\u00b9 m/s\u00b2",
+      "B) 9.8 m/s\u00b2",
+      "C) 10 m/s\u00b2",
+      "D) Both B and C (approx)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Foundation",
+    "Explanation": "g \u2248 9.8 m/s\u00b2 \u2248 10 m/s\u00b2 (approximate). Problems often use 10 m/s\u00b2 for easy calculation."
+  },
+  {
+    "QuestionText": "Weight of an object is:",
+    "Options": [
+      "A) Same as mass",
+      "B) Force due to gravity = mg",
+      "C) Independent of location",
+      "D) Measured in kg"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "Weight W = mg. It is a force (measured in Newtons). Mass (in kg) is constant; weight varies with g."
+  },
+  {
+    "QuestionText": "Weight of 5 kg object on Earth (g=10 m/s\u00b2) is:",
+    "Options": [
+      "A) 5 N",
+      "B) 10 N",
+      "C) 50 N",
+      "D) 500 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "W = mg = 5 \u00d7 10 = 50 N."
+  },
+  {
+    "QuestionText": "Mass of an object is:",
+    "Options": [
+      "A) Amount of matter it contains",
+      "B) Force due to gravity",
+      "C) Different at different locations",
+      "D) Measured in Newtons"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "Mass = amount of matter = constant everywhere. Weight = mg varies with g."
+  },
+  {
+    "QuestionText": "On the Moon, g = g_Earth/6. Weight of 60 kg person on Moon = ?",
+    "Options": [
+      "A) 60 N",
+      "B) 100 N",
+      "C) 600 N",
+      "D) 360 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "g_moon=10/6\u22481.67 m/s\u00b2. W=mg=60\u00d7(10/6)=100 N."
+  },
+  {
+    "QuestionText": "The gravitational constant G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2. Its unit is:",
+    "Options": [
+      "A) N\u00b7m/kg",
+      "B) N\u00b7m\u00b2/kg\u00b2",
+      "C) m/s\u00b2",
+      "D) N/kg"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "From F=Gm\u2081m\u2082/r\u00b2: G=Fr\u00b2/(m\u2081m\u2082) has unit N\u00b7m\u00b2/kg\u00b2."
+  },
+  {
+    "QuestionText": "Archimedes' Principle states that a body immersed in a fluid experiences a buoyant force equal to:",
+    "Options": [
+      "A) Weight of the body",
+      "B) Volume of the body",
+      "C) Weight of fluid displaced",
+      "D) Pressure \u00d7 volume"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Foundation",
+    "Explanation": "Buoyant force = weight of fluid displaced = \u03c1_fluid \u00d7 V_submerged \u00d7 g."
+  },
+  {
+    "QuestionText": "Objects float when:",
+    "Options": [
+      "A) Their weight < buoyant force",
+      "B) Their weight = buoyant force",
+      "C) Their weight > buoyant force",
+      "D) Their density is high"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Foundation",
+    "Explanation": "An object floats when it displaces fluid equal to its own weight. Weight = Buoyant force \u2192 equilibrium \u2192 floating."
+  },
+  {
+    "QuestionText": "Relative density (specific gravity) of a substance is:",
+    "Options": [
+      "A) Density \u00d7 volume",
+      "B) Density of substance / density of water",
+      "C) Mass / weight",
+      "D) Volume / density"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Density",
+    "Difficulty": "Foundation",
+    "Explanation": "Relative density = density of substance / density of water (1000 kg/m\u00b3). It is dimensionless."
+  },
+  {
+    "QuestionText": "g decreases as altitude increases because:",
+    "Options": [
+      "A) Air pressure decreases",
+      "B) Distance from Earth's centre increases",
+      "C) Temperature decreases",
+      "D) Mass of Earth decreases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Foundation",
+    "Explanation": "g = GM/r\u00b2. As altitude h increases, r=R+h increases \u2192 g decreases with square of distance."
+  },
+  {
+    "QuestionText": "At Earth's centre, g is:",
+    "Options": [
+      "A) Maximum",
+      "B) 9.8 m/s\u00b2",
+      "C) Zero",
+      "D) Infinite"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "At Earth's centre, mass pulls equally from all directions \u2192 net gravitational force = 0 \u2192 g = 0."
+  },
+  {
+    "QuestionText": "Escape velocity from Earth is approximately:",
+    "Options": [
+      "A) 7.9 km/s",
+      "B) 11.2 km/s",
+      "C) 3 km/s",
+      "D) 25 km/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Escape Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "Escape velocity = \u221a(2gR) \u2248 11.2 km/s from Earth's surface."
+  },
+  {
+    "QuestionText": "Orbital velocity of a satellite near Earth's surface is approximately:",
+    "Options": [
+      "A) 7.9 km/s",
+      "B) 11.2 km/s",
+      "C) 5 km/s",
+      "D) 3 km/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Foundation",
+    "Explanation": "Orbital velocity = \u221a(gR) \u2248 7.9 km/s. Note: escape velocity = \u221a2 \u00d7 orbital velocity."
+  },
+  {
+    "QuestionText": "A geostationary satellite has time period of:",
+    "Options": [
+      "A) 12 hours",
+      "B) 24 hours",
+      "C) 1 week",
+      "D) 1 month"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Foundation",
+    "Explanation": "Geostationary satellite: T = 24 hours = same as Earth's rotation. Remains stationary over a fixed point."
+  },
+  {
+    "QuestionText": "The gravitational force between two objects is F. If mass of one is doubled:",
+    "Options": [
+      "A) F/2",
+      "B) F",
+      "C) 2F",
+      "D) 4F"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "F\u221dm\u2081\u00d7m\u2082. If m\u2081 doubles: F' = 2m\u2081\u00d7m\u2082\u00d7G/r\u00b2 = 2F."
+  },
+  {
+    "QuestionText": "Density of water is:",
+    "Options": [
+      "A) 100 kg/m\u00b3",
+      "B) 1000 kg/m\u00b3",
+      "C) 10000 kg/m\u00b3",
+      "D) 1 kg/m\u00b3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Density",
+    "Difficulty": "Foundation",
+    "Explanation": "Density of water = 1000 kg/m\u00b3 = 1 g/cm\u00b3. This is the standard reference for specific gravity."
+  },
+  {
+    "QuestionText": "Pressure at depth h in a liquid: P = ?",
+    "Options": [
+      "A) \u03c1gh",
+      "B) \u03c1g/h",
+      "C) \u03c1/gh",
+      "D) g/\u03c1h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Pressure",
+    "Difficulty": "Advanced",
+    "Explanation": "Pressure due to liquid column P = \u03c1gh. Increases with depth h, density \u03c1, and g."
+  },
+  {
+    "QuestionText": "A 10 N object in water experiences 3 N upthrust. Net downward force = ?",
+    "Options": [
+      "A) 13 N",
+      "B) 7 N",
+      "C) 10 N",
+      "D) 3 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Foundation",
+    "Explanation": "Net downward force = Weight \u2212 Upthrust = 10 \u2212 3 = 7 N."
+  },
+  {
+    "QuestionText": "Free fall means:",
+    "Options": [
+      "A) Falling with air resistance",
+      "B) Falling only under gravity (no other force)",
+      "C) Falling at constant velocity",
+      "D) Falling sideways"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Free Fall",
+    "Difficulty": "Foundation",
+    "Explanation": "Free fall: only gravitational force acts. In vacuum, all objects fall with same acceleration g regardless of mass (Galileo's experiment)."
+  },
+  {
+    "QuestionText": "In vacuum, a feather and a stone dropped together:",
+    "Options": [
+      "A) Stone falls first",
+      "B) Feather falls first",
+      "C) Both fall together (same g)",
+      "D) Neither falls"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Free Fall",
+    "Difficulty": "Foundation",
+    "Explanation": "In vacuum (no air resistance), all objects fall with same acceleration g regardless of mass. Galileo demonstrated this at the Leaning Tower of Pisa."
+  },
+  {
+    "QuestionText": "A ball dropped from 20m height. Time to reach ground (g=10 m/s\u00b2) = ?",
+    "Options": [
+      "A) 1s",
+      "B) 2s",
+      "C) 4s",
+      "D) 10s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Free Fall",
+    "Difficulty": "Foundation",
+    "Explanation": "s=\u00bdgt\u00b2 \u2192 20=\u00bd\u00d710\u00d7t\u00b2 \u2192 t\u00b2=4 \u2192 t=2s."
+  },
+  {
+    "QuestionText": "Earth's gravitational pull on Moon vs Moon's pull on Earth:",
+    "Options": [
+      "A) Earth's pull is greater",
+      "B) Moon's pull is greater",
+      "C) Equal (Newton's 3rd Law)",
+      "D) No pull between them"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Newton's 3rd Law: forces are equal and opposite. Earth pulls Moon with force F; Moon pulls Earth with same force F."
+  },
+  {
+    "QuestionText": "The tide on Earth is caused by:",
+    "Options": [
+      "A) Earth's rotation",
+      "B) Gravitational pull of Moon (mainly)",
+      "C) Sun's heat",
+      "D) Earth's magnetic field"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Advanced",
+    "Explanation": "Tides are primarily caused by the differential gravitational force of the Moon on Earth's ocean water. Sun also contributes but less."
+  },
+  {
+    "QuestionText": "A wooden block of density 600 kg/m\u00b3 is placed in water (1000 kg/m\u00b3). What fraction is submerged?",
+    "Options": [
+      "A) 0.4",
+      "B) 0.6",
+      "C) 0.8",
+      "D) 1.0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Advanced",
+    "Explanation": "Fraction submerged = density of object/density of fluid = 600/1000 = 0.6 (60% submerged)."
+  },
+  {
+    "QuestionText": "Value of G is:",
+    "Options": [
+      "A) 9.8 N\u00b7m\u00b2/kg\u00b2",
+      "B) 6.67\u00d710\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2",
+      "C) 6.67\u00d710\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2",
+      "D) Depends on location"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2. It is a universal constant (same everywhere in the universe)."
+  },
+  {
+    "QuestionText": "Objects sink in water when their density is __ water's density.",
+    "Options": [
+      "A) Less than",
+      "B) Equal to",
+      "C) Greater than",
+      "D) Half of"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Foundation",
+    "Explanation": "If object density > fluid density \u2192 weight > buoyant force \u2192 sinks. If less \u2192 floats. If equal \u2192 neutrally buoyant."
+  },
+  {
+    "QuestionText": "A spring balance measures:",
+    "Options": [
+      "A) Mass",
+      "B) Volume",
+      "C) Weight",
+      "D) Density"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "Spring balance measures force (weight = mg). Beam balance measures mass by comparison."
+  },
+  {
+    "QuestionText": "Weightlessness in a satellite is because:",
+    "Options": [
+      "A) No gravity in space",
+      "B) Gravity is cancelled by Moon",
+      "C) Both satellite and occupants free-fall together",
+      "D) Speed of satellite"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "Satellite and everything inside it are in free fall toward Earth at the same rate. Normal force = 0 \u2192 apparent weightlessness."
+  },
+  {
+    "QuestionText": "Kepler's 3rd Law states T\u00b2 \u221d:",
+    "Options": [
+      "A) r",
+      "B) r\u00b2",
+      "C) r\u00b3",
+      "D) 1/r"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Advanced",
+    "Explanation": "T\u00b2 \u221d r\u00b3. The square of the orbital period is proportional to the cube of the orbital radius."
+  },
+  {
+    "QuestionText": "If g on a planet is 4 m/s\u00b2 and a 10 kg object is placed there, weight = ?",
+    "Options": [
+      "A) 10 N",
+      "B) 25 N",
+      "C) 40 N",
+      "D) 100 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "W = mg = 10 \u00d7 4 = 40 N."
+  },
+  {
+    "QuestionText": "The upthrust on an object equals the weight of fluid displaced regardless of:",
+    "Options": [
+      "A) Shape of object",
+      "B) Density of object",
+      "C) Both A and B",
+      "D) Depth of immersion"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Advanced",
+    "Explanation": "Archimedes' Principle: upthrust = weight of displaced fluid. Depends only on volume displaced, not the shape or material of the object."
+  },
+  {
+    "QuestionText": "Mass of Earth = 6\u00d710\u00b2\u2074 kg, radius = 6.4\u00d710\u2076 m, G=6.67\u00d710\u207b\u00b9\u00b9. g = ?",
+    "Options": [
+      "A) 9.8 m/s\u00b2",
+      "B) 8.9 m/s\u00b2",
+      "C) 10 m/s\u00b2",
+      "D) 11.2 m/s\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "g=GM/R\u00b2=(6.67\u00d710\u207b\u00b9\u00b9\u00d76\u00d710\u00b2\u2074)/(6.4\u00d710\u2076)\u00b2\u22489.8 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Atmospheric pressure at sea level is approximately:",
+    "Options": [
+      "A) 10\u00b3 Pa",
+      "B) 10\u2075 Pa",
+      "C) 10\u2077 Pa",
+      "D) 10\u2079 Pa"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard atmospheric pressure \u2248 101325 Pa \u2248 10\u2075 Pa = 1 bar \u2248 1 atm."
+  },
+  {
+    "QuestionText": "Hydrometer measures:",
+    "Options": [
+      "A) Pressure",
+      "B) Temperature",
+      "C) Relative density of liquids",
+      "D) Viscosity"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Density",
+    "Difficulty": "Foundation",
+    "Explanation": "Hydrometer: instrument based on Archimedes' principle to measure relative density (specific gravity) of liquids."
+  },
+  {
+    "QuestionText": "Two spheres of same size but different masses experience __ gravitational force:",
+    "Options": [
+      "A) Same force",
+      "B) More force for heavier",
+      "C) Less force for heavier",
+      "D) Forces cannot be compared"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Advanced",
+    "Explanation": "F=Gm\u2081m\u2082/r\u00b2. Heavier sphere has more mass \u2192 larger F (but same r since same size). Heavier \u2192 more gravitational force."
+  },
+  {
+    "QuestionText": "The period of a pendulum depends on:",
+    "Options": [
+      "A) Mass of bob",
+      "B) Amplitude of swing",
+      "C) Length of pendulum and g",
+      "D) Material of bob"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "T=2\u03c0\u221a(L/g). Period depends only on length L and g. Independent of mass or amplitude (for small oscillations)."
+  },
+  {
+    "QuestionText": "Gravitational force is always:",
+    "Options": [
+      "A) Repulsive",
+      "B) Attractive",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Universal Law",
+    "Difficulty": "Foundation",
+    "Explanation": "Gravity is always attractive. Unlike electric force (can be repulsive), there are no gravitational charges \u2014 gravity only pulls."
+  },
+  {
+    "QuestionText": "If a stone is tied to a string and whirled in a circle, the centripetal force is provided by:",
+    "Options": [
+      "A) Gravity",
+      "B) Tension in string",
+      "C) Normal force",
+      "D) Friction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "Centripetal force for circular motion is provided by tension in the string, directed toward the centre."
+  },
+  {
+    "QuestionText": "An iron ball and a wooden ball of same volume are held in water. The buoyant force is:",
+    "Options": [
+      "A) Greater on iron",
+      "B) Greater on wood",
+      "C) Same for both (same volume displaced)",
+      "D) Zero for both"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Buoyancy",
+    "Difficulty": "Advanced",
+    "Explanation": "Buoyant force = weight of displaced water = \u03c1_water \u00d7 V \u00d7 g. Same volume \u2192 same displaced water \u2192 same buoyant force."
+  },
+  {
+    "QuestionText": "Centripetal acceleration in circular motion is directed:",
+    "Options": [
+      "A) Tangentially",
+      "B) Away from centre",
+      "C) Toward centre",
+      "D) Downward always"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Circular Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "Centripetal acceleration = v\u00b2/r, directed toward the centre. Centripetal means 'center-seeking'."
+  },
+  {
+    "QuestionText": "A satellite moves in circular orbit. The force providing centripetal acceleration is:",
+    "Options": [
+      "A) Normal force",
+      "B) Thrust from engines",
+      "C) Gravity",
+      "D) Friction"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Satellites",
+    "Difficulty": "Foundation",
+    "Explanation": "For a satellite in orbit, gravity provides the centripetal force: GMm/r\u00b2 = mv\u00b2/r."
+  },
+  {
+    "QuestionText": "Pressure exerted by a solid block is:",
+    "Options": [
+      "A) Mass/Area",
+      "B) Weight/Area",
+      "C) Volume/Area",
+      "D) Force\u00d7Area"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Pressure = Force/Area. For a solid resting on surface: Force = Weight = mg. So P = mg/A."
+  },
+  {
+    "QuestionText": "On Moon (g = g_Earth/6), a 90 kg person's weight in Newtons (g_Earth=10) is:",
+    "Options": [
+      "A) 90 N",
+      "B) 150 N",
+      "C) 540 N",
+      "D) 600 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "g_moon=10/6. W=mg_moon=90\u00d7(10/6)=900/6=150 N."
+  },
+  {
+    "QuestionText": "g is greater at:",
+    "Options": [
+      "A) Poles",
+      "B) Equator",
+      "C) Top of mountains",
+      "D) In space"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Acceleration due to Gravity",
+    "Difficulty": "Advanced",
+    "Explanation": "Earth is slightly flattened at poles \u2192 poles are closer to centre \u2192 larger g. Also, centrifugal effect at equator reduces effective g."
+  },
+  {
+    "QuestionText": "An astronaut weighs 600 N on Earth. On a planet where g is double, weight = ?",
+    "Options": [
+      "A) 300 N",
+      "B) 600 N",
+      "C) 1200 N",
+      "D) 150 N"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "W=mg. If g doubles: W=m(2g)=2mg=2\u00d7600=1200 N."
+  },
+  {
+    "QuestionText": "What is the weight of 15 kg object on Moon (g_moon \u2248 1.6 m/s\u00b2)?",
+    "Options": [
+      "A) 9.38 N",
+      "B) 24 N",
+      "C) 15 N",
+      "D) 150 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Weight",
+    "Difficulty": "Foundation",
+    "Explanation": "W=mg=15\u00d71.6=24 N."
+  },
+  {
+    "QuestionText": "Pressure is a __ quantity.",
+    "Options": [
+      "A) Vector",
+      "B) Scalar",
+      "C) Tensor",
+      "D) Dimensionless"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Gravitation",
+    "SubTopic": "Pressure",
+    "Difficulty": "Foundation",
+    "Explanation": "Pressure is a scalar quantity \u2014 it has magnitude but no direction. (In fluids it acts equally in all directions \u2014 Pascal's law.)"
+  }
+]

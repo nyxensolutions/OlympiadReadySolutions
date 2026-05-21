@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "What is the place value of 7 in the number 725?",
+    "Options": ["A) 7", "B) 70", "C) 700", "D) 72"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "In 725, the 7 is in the hundreds place, so its value is 700."
+  },
+  {
+    "QuestionText": "Which of the following is the largest 3-digit number?",
+    "Options": ["A) 100", "B) 900", "C) 990", "D) 999"],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "999 is the last 3-digit number before we reach 1,000."
+  },
+  {
+    "QuestionText": "Which number comes exactly between 459 and 461?",
+    "Options": ["A) 450", "B) 460", "C) 462", "D) 458"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "The number 460 is one more than 459 and one less than 461."
+  },
+  {
+    "QuestionText": "How is 'Six hundred and nine' written in numerals?",
+    "Options": ["A) 690", "B) 609", "C) 69", "D) 6009"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Six hundred (600) plus nine (9) makes 609."
+  },
+  {
+    "QuestionText": "What is the smallest number that can be formed using the digits 3, 0, and 8 only once?",
+    "Options": ["A) 038", "B) 380", "C) 308", "D) 803"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "A 3-digit number cannot start with zero, so we start with 3, then 0, then 8."
+  },
+  {
+    "QuestionText": "Which sign makes the statement true? 543 ___ 534",
+    "Options": ["A) <", "B) >", "C) =", "D) +"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "543 is greater than 534 because 4 tens is more than 3 tens."
+  },
+  {
+    "QuestionText": "If I am a number with 4 in the ones place, 0 in the tens place, and 9 in the hundreds place, who am I?",
+    "Options": ["A) 409", "B) 940", "C) 904", "D) 490"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Arranging the digits in H-T-O order gives 9 hundreds, 0 tens, and 4 ones."
+  },
+  {
+    "QuestionText": "How many tens are there in the number 280?",
+    "Options": ["A) 8", "B) 28", "C) 80", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "280 can be divided into 28 groups of ten."
+  },
+  {
+    "QuestionText": "Which of these numbers is an Even number?",
+    "Options": ["A) 121", "B) 345", "C) 568", "D) 777"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Even numbers always end in 0, 2, 4, 6, or 8."
+  },
+  {
+    "QuestionText": "What is the expanded form of 834?",
+    "Options": ["A) 8+3+4", "B) 800+34", "C) 800+30+4", "D) 80+30+4"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "834 is made of 8 hundreds, 3 tens, and 4 ones."
+  },
+  {
+    "QuestionText": "Find the missing number in the sequence: 105, 110, 115, ___, 125.",
+    "Options": ["A) 116", "B) 120", "C) 121", "D) 119"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "The sequence is skip-counting forward by 5."
+  },
+  {
+    "QuestionText": "Which abacus shows the number 302?",
+    "Options": ["A) 3 beads in H, 2 in T, 0 in O", "B) 3 beads in H, 0 in T, 2 in O", "C) 2 beads in H, 0 in T, 3 in O", "D) 3 beads in T, 2 in O"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "302 has 3 Hundreds, zero Tens, and 2 Ones."
+  },
+  {
+    "QuestionText": "What is the face value of 5 in 951?",
+    "Options": ["A) 50", "B) 500", "C) 5", "D) 95"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "The face value of a digit is always the digit itself."
+  },
+  {
+    "QuestionText": "Which number is 10 less than 400?",
+    "Options": ["A) 300", "B) 399", "C) 390", "D) 410"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Counting back 10 from 400 gives 390."
+  },
+  {
+    "QuestionText": "I am a 2-digit number. My tens digit is 5 and my ones digit is 3 more than my tens digit. Who am I?",
+    "Options": ["A) 53", "B) 58", "C) 85", "D) 35"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "The tens digit is 5. The ones digit is 5 + 3 = 8. So the number is 58."
+  },
+  {
+    "QuestionText": "What is the successor of 789?",
+    "Options": ["A) 788", "B) 800", "C) 790", "D) 700"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Successor means the number that comes just after (plus 1)."
+  },
+  {
+    "QuestionText": "Which is the smallest 3-digit number formed by using 1, 5, 2?",
+    "Options": ["A) 152", "B) 215", "C) 125", "D) 521"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "To make the smallest number, arrange digits from smallest to largest: 1, 2, 5."
+  },
+  {
+    "QuestionText": "Count backwards by 2: 200, 198, 196, ___.",
+    "Options": ["A) 195", "B) 194", "C) 197", "D) 192"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtracting 2 from 196 gives 194."
+  },
+  {
+    "QuestionText": "Which of the following numbers has a 4 in the tens place?",
+    "Options": ["A) 412", "B) 142", "C) 214", "D) 400"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "In 142, 1 is in Hundreds, 4 is in Tens, and 2 is in Ones."
+  },
+  {
+    "QuestionText": "Which number is the same as 7 hundreds and 15 ones?",
+    "Options": ["A) 715", "B) 7015", "C) 751", "D) 815"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "700 + 15 = 715."
+  },
+  {
+    "QuestionText": "Round the number 43 to the nearest ten.",
+    "Options": ["A) 50", "B) 40", "C) 45", "D) 30"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Since 3 is less than 5, we round down to 40."
+  },
+  {
+    "QuestionText": "What is the difference between the place value and face value of 6 in 462?",
+    "Options": ["A) 60", "B) 54", "C) 0", "D) 66"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "Place value is 60. Face value is 6. 60 - 6 = 54."
+  },
+  {
+    "QuestionText": "Choose the correct number name for 111.",
+    "Options": ["A) One one one", "B) Eleven hundred", "C) One hundred and eleven", "D) One hundred and one"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "111 is read as one hundred eleven."
+  },
+  {
+    "QuestionText": "How many 3-digit numbers can be formed using 4, 7, 9 without repetition?",
+    "Options": ["A) 3", "B) 6", "C) 9", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "The numbers are 479, 497, 749, 794, 947, 974."
+  },
+  {
+    "QuestionText": "What is 100 more than 899?",
+    "Options": ["A) 900", "B) 999", "C) 800", "D) 1000"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "899 + 100 = 999."
+  },
+  {
+    "QuestionText": "A pack of crayons has 10 colors. How many colors are in 10 packs?",
+    "Options": ["A) 10", "B) 20", "C) 100", "D) 110"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "10 groups of 10 equal 100."
+  },
+  {
+    "QuestionText": "Ordinal number for 12 is written as:",
+    "Options": ["A) Twelveth", "B) Twelfth", "C) Twelve", "D) 12th"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Twelfth is the correct spelling for the position of 12."
+  },
+  {
+    "QuestionText": "Which set of numbers is in descending order?",
+    "Options": ["A) 12, 15, 20", "B) 100, 90, 80", "C) 5, 10, 2", "D) 45, 46, 44"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Descending order means going from largest to smallest."
+  },
+  {
+    "QuestionText": "Which number is the predecessor of 500?",
+    "Options": ["A) 501", "B) 490", "C) 499", "D) 400"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Predecessor is the number that comes just before (minus 1)."
+  },
+  {
+    "QuestionText": "The number 0 is an ________ number.",
+    "Options": ["A) Odd", "B) Even", "C) Ordinal", "D) Counting"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Zero is classified as an even number in mathematics."
+  },
+  {
+    "QuestionText": "What is the value of 5 hundreds + 4 tens + 0 ones?",
+    "Options": ["A) 54", "B) 504", "C) 540", "D) 450"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "500 + 40 + 0 = 540."
+  },
+  {
+    "QuestionText": "Which of these is the smallest 2-digit number?",
+    "Options": ["A) 01", "B) 11", "C) 10", "D) 99"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "10 is the first number in the 2-digit sequence."
+  },
+  {
+    "QuestionText": "How many ones make 1 ten?",
+    "Options": ["A) 1", "B) 10", "C) 100", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Ten single units grouped together form one 'Ten'."
+  },
+  {
+    "QuestionText": "Which digit is in the hundreds place in 607?",
+    "Options": ["A) 7", "B) 0", "C) 6", "D) 60"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "In 607, 6 is the hundreds digit, 0 is the tens, and 7 is the ones."
+  },
+  {
+    "QuestionText": "Comparing 231 and 213, which digit determines that 231 is bigger?",
+    "Options": ["A) Hundreds digit", "B) Tens digit", "C) Ones digit", "D) All of them"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Both have 2 in the hundreds place, but 231 has 3 in the tens place while 213 has 1."
+  },
+  {
+    "QuestionText": "What is the sum of the place value of 2 and 5 in the number 254?",
+    "Options": ["A) 7", "B) 25", "C) 250", "D) 70"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "Place value of 2 is 200. Place value of 5 is 50. 200 + 50 = 250."
+  },
+  {
+    "QuestionText": "Which number name matches 444?",
+    "Options": ["A) Forty four", "B) Four hundred forty four", "C) Four four four", "D) Four hundred forty"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "444 is read as four hundred forty-four."
+  },
+  {
+    "QuestionText": "If you skip count by 10s starting from 50, what is the 4th number?",
+    "Options": ["A) 80", "B) 90", "C) 70", "D) 100"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "The sequence is 50 (1st), 60 (2nd), 70 (3rd), 80 (4th)."
+  },
+  {
+    "QuestionText": "How many hundreds are in 1000?",
+    "Options": ["A) 1", "B) 10", "C) 100", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ten hundreds grouped together make one thousand."
+  },
+  {
+    "QuestionText": "The largest 2-digit even number is:",
+    "Options": ["A) 99", "B) 98", "C) 100", "D) 90"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "99 is the largest 2-digit number, but it is odd. 98 is the largest even one."
+  },
+  {
+    "QuestionText": "Which of these is the number 'Nine hundred and ninety'?",
+    "Options": ["A) 909", "B) 999", "C) 990", "D) 919"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "900 plus 90 equals 990."
+  },
+  {
+    "QuestionText": "What is the value of the digit 0 in 504?",
+    "Options": ["A) 10", "B) 0", "C) 100", "D) 50"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Zero always has a value of zero, regardless of its place."
+  },
+  {
+    "QuestionText": "Which number is halfway between 0 and 100?",
+    "Options": ["A) 40", "B) 60", "C) 50", "D) 55"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "50 is the middle point of 100."
+  },
+  {
+    "QuestionText": "A number has 3 in the hundreds place and 12 in the ones place. What is the number?",
+    "Options": ["A) 312", "B) 3012", "C) 321", "D) 42"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Olympiad",
+    "Explanation": "300 + 12 = 312."
+  },
+  {
+    "QuestionText": "Which is an Odd number?",
+    "Options": ["A) 246", "B) 800", "C) 137", "D) 550"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Odd numbers end in 1, 3, 5, 7, or 9."
+  },
+  {
+    "QuestionText": "What is the number for 'Eight hundred eighty-eight'?",
+    "Options": ["A) 808", "B) 880", "C) 888", "D) 818"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "It is written with three 8s."
+  },
+  {
+    "QuestionText": "Counting by 50s: 50, 100, 150, ___.",
+    "Options": ["A) 160", "B) 200", "C) 250", "D) 155"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "150 + 50 = 200."
+  },
+  {
+    "QuestionText": "The place value of 0 in 107 is:",
+    "Options": ["A) 0", "B) 10", "C) 100", "D) 7"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "Even in the tens place, 0 tens is still 0."
+  },
+  {
+    "QuestionText": "Which number is greater than 782 but smaller than 784?",
+    "Options": ["A) 781", "B) 785", "C) 783", "D) 780"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Foundation",
+    "Explanation": "783 is the middle number."
+  },
+  {
+    "QuestionText": "How many digits are in the number 'One thousand'?",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "1,000 has one '1' and three '0's, making it a 4-digit number."
+  }
+]

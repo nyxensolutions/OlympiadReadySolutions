@@ -1,0 +1,362 @@
+[
+  {
+    "QuestionText": "How many vertices does a simple cube have?",
+    "Options": ["A) 8", "B) 6", "C) 12", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Foundation",
+    "Explanation": "A cube has 6 faces, 12 edges, and 8 corner points, which are called vertices."
+  },
+  {
+    "QuestionText": "Which type of angle measures exactly 90 degrees?",
+    "Options": ["A) Right angle", "B) Acute angle", "C) Obtuse angle", "D) Straight angle"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, a right angle measures exactly 90 degrees, forming a perfect square corner."
+  },
+  {
+    "QuestionText": "Find the perimeter of a square if its side length measures 6 cm.",
+    "Options": ["A) 24 cm", "B) 36 cm", "C) 12 cm", "D) 18 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Foundation",
+    "Explanation": "The perimeter of a square is calculated by multiplying the side length by 4: 6 * 4 = 24 cm."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a standard rectangle have?",
+    "Options": ["A) 2", "B) 4", "C) 1", "D) Infinite"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Symmetry: identifying lines of symmetry in 2D shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A standard rectangle has exactly 2 lines of symmetry, running through the midpoints of its opposite sides."
+  },
+  {
+    "QuestionText": "An angle that measures 45 degrees is classified as an:",
+    "Options": ["A) Acute angle", "B) Obtuse angle", "C) Right angle", "D) Reflex angle"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Foundation",
+    "Explanation": "An angle that measures less than 90 degrees is classified as an acute angle."
+  },
+  {
+    "QuestionText": "What is the area of a rectangle with a length of 8 cm and a width of 5 cm?",
+    "Options": ["A) 40 sq cm", "B) 26 sq cm", "C) 13 sq cm", "D) 20 sq cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of a rectangle = length * width. Therefore, 8 * 5 = 40 square centimeters."
+  },
+  {
+    "QuestionText": "Identify the 3D shape that possesses 0 edges and 0 vertices.",
+    "Options": ["A) Sphere", "B) Cone", "C) Cylinder", "D) Prism"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Foundation",
+    "Explanation": "A sphere is completely round with a single continuous surface, meaning it has no flat edges or corner vertices."
+  },
+  {
+    "QuestionText": "How many sides does a regular hexagon have?",
+    "Options": ["A) 6", "B) 5", "C) 8", "D) 7"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Foundation",
+    "Explanation": "A hexagon is a polygon that consists of exactly 6 sides."
+  },
+  {
+    "QuestionText": "Which basic shape exhibits a completely infinite number of lines of symmetry?",
+    "Options": ["A) Circle", "B) Square", "C) Equilateral triangle", "D) Hexagon"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Symmetry: identifying lines of symmetry in 2D shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "Any line passing directly through the center point of a circle serves as a valid line of symmetry."
+  },
+  {
+    "QuestionText": "An angle that measures 135 degrees belongs to which category?",
+    "Options": ["A) Obtuse angle", "B) Acute angle", "C) Right angle", "D) Straight angle"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Foundation",
+    "Explanation": "Angles that measure greater than 90 degrees but less than 180 degrees are classified as obtuse."
+  },
+  {
+    "QuestionText": "A triangle with all three sides of completely different lengths is called a:",
+    "Options": ["A) Scalene triangle", "B) Isosceles triangle", "C) Equilateral triangle", "D) Right triangle"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Intermediate",
+    "Explanation": "A scalene triangle has no equal sides, an isosceles has two equal sides, and an equilateral has three equal sides."
+  },
+  {
+    "QuestionText": "The perimeter of a rectangular field is 40 meters. If its length is 12 meters, find its width.",
+    "Options": ["A) 8 meters", "B) 16 meters", "C) 14 meters", "D) 10 meters"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Intermediate",
+    "Explanation": "Perimeter = 2 * (length + width) -> 40 = 2 * (12 + width) -> 20 = 12 + width -> width = 8 meters."
+  },
+  {
+    "QuestionText": "What is the total number of individual faces on a triangular pyramid?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Intermediate",
+    "Explanation": "A triangular pyramid (tetrahedron) is made up of 1 triangular base and 3 triangular side faces, totaling 4 faces."
+  },
+  {
+    "QuestionText": "An angle is formed by two rays sharing a common endpoint. This common endpoint is called the:",
+    "Options": ["A) Vertex", "B) Origin", "C) Corner", "D) Segment"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Intermediate",
+    "Explanation": "The point where the two rays meet to formulate an angle is scientifically designated as the vertex."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does an equilateral triangle have?",
+    "Options": ["A) 3", "B) 1", "C) 2", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Symmetry: identifying lines of symmetry in 2D shapes",
+    "Difficulty": "Intermediate",
+    "Explanation": "An equilateral triangle has 3 matching sides, meaning a symmetry line can be drawn from each of its 3 vertices to the opposite midpoint."
+  },
+  {
+    "QuestionText": "If the side of a square is doubled, what happens to its total area?",
+    "Options": ["A) It becomes 4 times larger", "B) It is doubled", "C) It remains unchanged", "D) It becomes 8 times larger"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Intermediate",
+    "Explanation": "Area is calculated as side squared ($s^2$). Doubling the side gives $(2s)^2 = 4s^2$, making the total area 4 times larger."
+  },
+  {
+    "QuestionText": "A square has an area of 49 square centimeters. Find its perimeter.",
+    "Options": ["A) 28 cm", "B) 14 cm", "C) 21 cm", "D) 35 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Intermediate",
+    "Explanation": "Since the area is 49 sq cm, the side length is $\\sqrt{49} = 7$ cm. The perimeter is 4 * 7 = 28 cm."
+  },
+  {
+    "QuestionText": "Which word describes lines that run in the same direction and never cross or meet, no matter how far they extend?",
+    "Options": ["A) Parallel lines", "B) Perpendicular lines", "C) Intersecting lines", "D) Vertical lines"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Intermediate",
+    "Explanation": "Parallel lines maintain an identical distance from each other at all times and never intersect."
+  },
+  {
+    "QuestionText": "If you combine two right angles together, what type of angle is produced?",
+    "Options": ["A) Straight angle", "B) Obtuse angle", "C) Reflex angle", "D) Acute angle"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Each right angle is 90 degrees. 90 + 90 = 180 degrees, which matches the description of a straight angle."
+  },
+  {
+    "QuestionText": "How many pairs of parallel sides does a regular regular hexagon contain?",
+    "Options": ["A) 3", "B) 2", "C) 6", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Intermediate",
+    "Explanation": "A regular hexagon has 6 total sides grouped into 3 distinct sets of parallel lines directly opposite each other."
+  },
+  {
+    "QuestionText": "A rectangle has a length of 10 cm. If its perimeter is 32 cm, what is its total area?",
+    "Options": ["A) 60 sq cm", "B) 320 sq cm", "C) 160 sq cm", "D) 80 sq cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Intermediate",
+    "Explanation": "Perimeter = 2 * (10 + width) = 32 -> 10 + width = 16 -> width = 6 cm. Area = 10 * 6 = 60 sq cm."
+  },
+  {
+    "QuestionText": "Identify the regular shape below that possesses exactly 5 lines of symmetry.",
+    "Options": ["A) Regular pentagon", "B) Square", "C) Regular hexagon", "D) Isosceles triangle"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Symmetry: identifying lines of symmetry in 2D shapes",
+    "Difficulty": "Intermediate",
+    "Explanation": "A regular polygon with $n$ sides always contains exactly $n$ unique lines of symmetry. Thus, a pentagon has 5."
+  },
+  {
+    "QuestionText": "What is the total number of edges present on a standard triangular prism?",
+    "Options": ["A) 9", "B) 6", "C) 5", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Intermediate",
+    "Explanation": "A triangular prism features 3 edges on the top base, 3 edges on the bottom base, and 3 vertical connection edges, totaling 9 edges."
+  },
+  {
+    "QuestionText": "An angle measures more than 180 degrees but less than 360 degrees. This angle is a/an:",
+    "Options": ["A) Reflex angle", "B) Obtuse angle", "C) Straight angle", "D) Complete angle"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Angles that exceed a straight line configuration (180 degrees) but remain below a full loop are reflex angles."
+  },
+  {
+    "QuestionText": "A wire loop shaped as an equilateral triangle with a side of 8 cm is unbent and refashioned into a square. What is the side length of this new square?",
+    "Options": ["A) 6 cm", "B) 8 cm", "C) 4 cm", "D) 5 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Intermediate",
+    "Explanation": "Total wire length = perimeter of the triangle = 3 * 8 = 24 cm. Side length of the square = 24 / 4 = 6 cm."
+  },
+  {
+    "QuestionText": "If two lines cross each other at a perfect right angle, they are called:",
+    "Options": ["A) Perpendicular lines", "B) Parallel lines", "C) Oblique lines", "D) Collinear lines"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Intermediate",
+    "Explanation": "Perpendicular lines are geometric lines that cross over or intersect at an exact 90-degree angle."
+  },
+  {
+    "QuestionText": "How many vertices can you count on a standard square pyramid?",
+    "Options": ["A) 5", "B) 4", "C) 8", "D) 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Intermediate",
+    "Explanation": "A square pyramid has 4 vertex corner points located around its square base plus 1 single top point (apex), making 5 vertices."
+  },
+  {
+    "QuestionText": "An isosceles triangle is known to have how many lines of symmetry?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Symmetry: identifying lines of symmetry in 2D shapes",
+    "Difficulty": "Intermediate",
+    "Explanation": "An isosceles triangle has only 2 equal sides, which creates exactly 1 bisecting line of symmetry."
+  },
+  {
+    "QuestionText": "An floor space measuring 6 meters by 4 meters is being covered with square tiles. If each tile is 1 meter on each side, how many tiles are required?",
+    "Options": ["A) 24", "B) 20", "C) 10", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Intermediate",
+    "Explanation": "Area of floor = 6 * 4 = 24 sq meters. Area of one tile = 1 * 1 = 1 sq meter. Number of tiles needed = 24 / 1 = 24."
+  },
+  {
+    "QuestionText": "What is the perimeter of a regular octagon if each individual side length measures 5 cm?",
+    "Options": ["A) 40 cm", "B) 35 cm", "C) 45 cm", "D) 30 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Intermediate",
+    "Explanation": "An octagon has 8 sides. A regular octagon with a side length of 5 cm has a perimeter of 8 * 5 = 40 cm."
+  },
+  {
+    "QuestionText": "A rectangular garden is 15 meters long and has an area of 120 square meters. A fence needs to be built around it. What is the total length of the fence?",
+    "Options": ["A) 46 meters", "B) 23 meters", "C) 38 meters", "D) 50 meters"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Area = length * width -> 120 = 15 * width -> width = 8 meters. Fence needed (perimeter) = 2 * (15 + 8) = 2 * 23 = 46 meters."
+  },
+  {
+    "QuestionText": "An analog clock reads exactly 4:00. What is the measure of the smaller angle between the hour and minute hands?",
+    "Options": ["A) 120 degrees", "B) 90 degrees", "C) 150 degrees", "D) 100 degrees"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Advanced",
+    "Explanation": "Each hour marker on a clock face represents 30 degrees (360 / 12). At 4:00, the hands are 4 hour gaps apart: 4 * 30 = 120 degrees."
+  },
+  {
+    "QuestionText": "How many individual lines of symmetry can be identified in a standard parallelogram that has no equal adjacent sides?",
+    "Options": ["A) 0", "B) 2", "C) 1", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Symmetry: identifying lines of symmetry in 2D shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "A standard non-rhombus parallelogram cannot be folded perfectly along any line to match its sides, meaning it has 0 lines of symmetry."
+  },
+  {
+    "QuestionText": "A large square sheet has a perimeter of 40 cm. It is cut cleanly into two identical rectangles. Find the perimeter of one of these rectangles.",
+    "Options": ["A) 30 cm", "B) 20 cm", "C) 25 cm", "D) 35 cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Advanced",
+    "Explanation": "The square has a side length of 40 / 4 = 10 cm. When cut in half, each rectangle has a length of 10 cm and a width of 5 cm. Perimeter = 2 * (10 + 5) = 30 cm."
+  },
+  {
+    "QuestionText": "If a solid 3D shape has 6 vertices and 9 edges, how many flat faces does it have according to Euler's formula?",
+    "Options": ["A) 5", "B) 6", "C) 4", "D) 7"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Advanced",
+    "Explanation": "Euler's formula states: $F + V - E = 2$. Substituting the values: $F + 6 - 9 = 2 \\implies F - 3 = 2 \\implies F = 5$ faces."
+  },
+  {
+    "QuestionText": "Find the total area of an L-shaped compound figure made by joining a square of side 4 cm and a rectangle of 6 cm by 3 cm along their edges without overlapping.",
+    "Options": ["A) 34 sq cm", "B) 28 sq cm", "C) 40 sq cm", "D) 25 sq cm"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Area of the square = 4 * 4 = 16 sq cm. Area of the rectangle = 6 * 3 = 18 sq cm. Total area = 16 + 18 = 34 sq cm."
+  },
+  {
+    "QuestionText": "Two angles are supplementary, meaning their sum equals 180 degrees. If one angle is twice the size of the other, find the measure of the smaller angle.",
+    "Options": ["A) 60 degrees", "B) 45 degrees", "C) 90 degrees", "D) 30 degrees"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Angles: types of angles (acute, right, obtuse, straight)",
+    "Difficulty": "Advanced",
+    "Explanation": "Let the smaller angle be $x$. The larger angle is $2x$. $x + 2x = 180 \\implies 3x = 180 \\implies x = 60$ degrees."
+  },
+  {
+    "QuestionText": "How many total diagonals can you draw inside a standard regular pentagon?",
+    "Options": ["A) 5", "B) 6", "C) 4", "D) 10"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Advanced",
+    "Explanation": "The number of diagonals in a polygon is $\\frac{n(n-3)}{2}$. For a pentagon ($n=5$): $\\frac{5 * 2}{2} = 5$ diagonals."
+  },
+  {
+    "QuestionText": "A room's floor measures 8 meters long and 6 meters wide. A square carpet with a side length of 4 meters is placed in the center. Find the area of the floor left uncovered.",
+    "Options": ["A) 32 sq meters", "B) 48 sq meters", "C) 16 sq meters", "D) 24 sq meters"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Perimeter and Area: perimeter of simple polygons; area of squares and rectangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Total floor area = 8 * 6 = 48 sq m. Carpet area = 4 * 4 = 16 sq m. Uncovered floor area = 48 - 16 = 32 sq meters."
+  },
+  {
+    "QuestionText": "What is the maximum number of internal right angles that a single trapezoid can contain?",
+    "Options": ["A) 2", "B) 1", "C) 4", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Geometry",
+    "SubTopic": "Basic geometric shapes: properties of 2D shapes and 3D solids",
+    "Difficulty": "Advanced",
+    "Explanation": "A right trapezoid contains exactly 2 right angles formed where the perpendicular leg meets the parallel bases."
+  }
+]

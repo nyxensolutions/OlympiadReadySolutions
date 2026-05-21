@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Electric current is the flow of ___",
+    "Options": [
+      "A) Electric charge (electrons)",
+      "B) Water",
+      "C) Heat",
+      "D) Light"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electric current",
+    "Difficulty": "Foundation",
+    "Explanation": "Electric current is defined as the flow of electric charge (electrons) through a conductor."
+  },
+  {
+    "QuestionText": "The SI unit of electric current is",
+    "Options": [
+      "A) Ampere (A)",
+      "B) Volt (V)",
+      "C) Ohm (\u03a9)",
+      "D) Watt (W)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Units",
+    "Difficulty": "Foundation",
+    "Explanation": "The SI unit of electric current is the Ampere (A), measured using an ammeter."
+  },
+  {
+    "QuestionText": "The device used to measure electric current is",
+    "Options": [
+      "A) Ammeter",
+      "B) Voltmeter",
+      "C) Galvanometer",
+      "D) Ohmmeter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Measuring devices",
+    "Difficulty": "Foundation",
+    "Explanation": "An ammeter measures the electric current flowing in a circuit; it is connected in series."
+  },
+  {
+    "QuestionText": "The potential difference (voltage) in a circuit is measured by a",
+    "Options": [
+      "A) Voltmeter",
+      "B) Ammeter",
+      "C) Galvanometer",
+      "D) Wattmeter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Measuring devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A voltmeter measures the potential difference (voltage) between two points; connected in parallel."
+  },
+  {
+    "QuestionText": "A device that breaks or completes an electric circuit is called a",
+    "Options": [
+      "A) Switch",
+      "B) Battery",
+      "C) Bulb",
+      "D) Wire"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Circuit components",
+    "Difficulty": "Foundation",
+    "Explanation": "A switch controls the flow of current by opening (breaking) or closing (completing) the circuit."
+  },
+  {
+    "QuestionText": "Materials that allow electric current to pass through them are called",
+    "Options": [
+      "A) Conductors",
+      "B) Insulators",
+      "C) Semiconductors",
+      "D) Resistors"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Conductors and insulators",
+    "Difficulty": "Foundation",
+    "Explanation": "Conductors have free electrons that allow electric current to flow through them (e.g. copper, iron)."
+  },
+  {
+    "QuestionText": "Materials that do not allow electric current to pass through are called",
+    "Options": [
+      "A) Insulators",
+      "B) Conductors",
+      "C) Capacitors",
+      "D) Resistors"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Insulators",
+    "Difficulty": "Foundation",
+    "Explanation": "Insulators have tightly bound electrons and do not allow current flow (e.g. rubber, plastic, wood)."
+  },
+  {
+    "QuestionText": "Which of the following is a good conductor of electricity?",
+    "Options": [
+      "A) Copper wire",
+      "B) Rubber",
+      "C) Plastic",
+      "D) Wood"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Conductors",
+    "Difficulty": "Foundation",
+    "Explanation": "Copper is a metal with free electrons and is an excellent conductor of electricity."
+  },
+  {
+    "QuestionText": "The heating effect of electric current is used in",
+    "Options": [
+      "A) Electric heaters and toasters",
+      "B) Fans",
+      "C) Computers",
+      "D) Switches"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Heating effect",
+    "Difficulty": "Foundation",
+    "Explanation": "When current flows through a resistance, heat is generated (Joule's heating): used in heaters, toasters, and bulbs."
+  },
+  {
+    "QuestionText": "The filament of an electric bulb is made of ___",
+    "Options": [
+      "A) Tungsten",
+      "B) Copper",
+      "C) Iron",
+      "D) Aluminium"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electric bulb",
+    "Difficulty": "Foundation",
+    "Explanation": "Tungsten has a very high melting point (~3422 degrees C) and high resistance, making it ideal for bulb filaments."
+  },
+  {
+    "QuestionText": "A fuse wire is used to ___",
+    "Options": [
+      "A) Protect the circuit from excessive current (short circuit)",
+      "B) Increase current",
+      "C) Decrease voltage",
+      "D) Store energy"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Fuse",
+    "Difficulty": "Foundation",
+    "Explanation": "A fuse melts when current exceeds safe limits, breaking the circuit and protecting appliances from damage."
+  },
+  {
+    "QuestionText": "Which material is used for fuse wire?",
+    "Options": [
+      "A) Alloy of tin and lead (low melting point)",
+      "B) Copper",
+      "C) Tungsten",
+      "D) Iron"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Fuse material",
+    "Difficulty": "Foundation",
+    "Explanation": "Fuse wire is made from tin-lead alloy (or other low-melting-point metals) that melt quickly at excess current."
+  },
+  {
+    "QuestionText": "The magnetic effect of electric current was discovered by",
+    "Options": [
+      "A) Hans Christian Oersted",
+      "B) Michael Faraday",
+      "C) Thomas Edison",
+      "D) Alessandro Volta"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "History of electromagnetism",
+    "Difficulty": "Foundation",
+    "Explanation": "Oersted discovered in 1820 that an electric current creates a magnetic field around it."
+  },
+  {
+    "QuestionText": "When electric current passes through a coil of wire wound around an iron core, it acts as a",
+    "Options": [
+      "A) Electromagnet",
+      "B) Permanent magnet",
+      "C) Battery",
+      "D) Capacitor"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electromagnet",
+    "Difficulty": "Foundation",
+    "Explanation": "An electromagnet is a coil of wire carrying current wrapped around a soft iron core; it behaves as a magnet."
+  },
+  {
+    "QuestionText": "An electromagnet loses its magnetism when",
+    "Options": [
+      "A) Current is switched off",
+      "B) Current is increased",
+      "C) Temperature decreases",
+      "D) Iron core is removed"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electromagnet",
+    "Difficulty": "Foundation",
+    "Explanation": "Electromagnets are temporary: they only act as magnets while current flows through the coil."
+  },
+  {
+    "QuestionText": "Which of these uses the heating effect of electric current?",
+    "Options": [
+      "A) Electric iron",
+      "B) Electric bell",
+      "C) Electric motor",
+      "D) Magnetic crane"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Applications of heating effect",
+    "Difficulty": "Foundation",
+    "Explanation": "Electric iron converts electrical energy to heat using the heating effect of current."
+  },
+  {
+    "QuestionText": "An electric bell uses the ___ of electric current",
+    "Options": [
+      "A) Magnetic effect",
+      "B) Heating effect",
+      "C) Chemical effect",
+      "D) Light effect"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Applications of magnetic effect",
+    "Difficulty": "Foundation",
+    "Explanation": "An electric bell uses an electromagnet (magnetic effect) to attract and release the striker to ring the bell."
+  },
+  {
+    "QuestionText": "A circuit in which all components are connected end-to-end in a single path is called",
+    "Options": [
+      "A) Series circuit",
+      "B) Parallel circuit",
+      "C) Open circuit",
+      "D) Short circuit"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Series circuit",
+    "Difficulty": "Foundation",
+    "Explanation": "In a series circuit, components are connected in a single loop; same current flows through all."
+  },
+  {
+    "QuestionText": "In a series circuit if one bulb fuses",
+    "Options": [
+      "A) All other bulbs also go off",
+      "B) Other bulbs become brighter",
+      "C) Other bulbs remain on",
+      "D) Current increases"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Series circuit",
+    "Difficulty": "Advanced",
+    "Explanation": "Series circuit has only one path; if one component fails (breaks), the entire circuit opens and all go off."
+  },
+  {
+    "QuestionText": "In a parallel circuit if one bulb fuses",
+    "Options": [
+      "A) Other bulbs continue to glow",
+      "B) All bulbs go off",
+      "C) Current decreases to zero",
+      "D) Voltage changes"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Parallel circuit",
+    "Difficulty": "Advanced",
+    "Explanation": "Parallel circuits have multiple paths; if one branch fails, other branches remain complete and functional."
+  },
+  {
+    "QuestionText": "Household wiring uses ___ circuit",
+    "Options": [
+      "A) Parallel",
+      "B) Series",
+      "C) Both series and parallel",
+      "D) No circuit"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Household wiring",
+    "Difficulty": "Advanced",
+    "Explanation": "Household wiring uses parallel circuits so each appliance gets the same voltage and operates independently."
+  },
+  {
+    "QuestionText": "A short circuit is dangerous because",
+    "Options": [
+      "A) It causes very high current and fire",
+      "B) It reduces current",
+      "C) It breaks the circuit",
+      "D) It reduces voltage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Short circuit",
+    "Difficulty": "Advanced",
+    "Explanation": "A short circuit creates a low-resistance path: very high current flows, generating heat and potential fire."
+  },
+  {
+    "QuestionText": "The strength of an electromagnet can be increased by",
+    "Options": [
+      "A) Increasing current or number of turns in coil",
+      "B) Decreasing current",
+      "C) Using a smaller iron core",
+      "D) Reducing voltage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electromagnet strength",
+    "Difficulty": "Advanced",
+    "Explanation": "Electromagnet strength depends on: current strength, number of turns, and core material. More turns or higher current = stronger magnet."
+  },
+  {
+    "QuestionText": "The symbol for a battery in a circuit diagram consists of",
+    "Options": [
+      "A) Long and short alternating lines (cells in series)",
+      "B) A circle with B",
+      "C) A rectangle",
+      "D) Two circles"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Circuit symbols",
+    "Difficulty": "Foundation",
+    "Explanation": "Battery symbol: alternating long (positive) and short (negative) lines representing cells connected in series."
+  },
+  {
+    "QuestionText": "Which effect of current is used in electroplating?",
+    "Options": [
+      "A) Chemical effect",
+      "B) Heating effect",
+      "C) Magnetic effect",
+      "D) Light effect"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Chemical effect",
+    "Difficulty": "Advanced",
+    "Explanation": "Electroplating uses the chemical (electrolytic) effect of electric current to deposit a metal layer."
+  },
+  {
+    "QuestionText": "What happens to the resistance of a metallic conductor when its temperature increases?",
+    "Options": [
+      "A) Resistance increases",
+      "B) Resistance decreases",
+      "C) Resistance remains same",
+      "D) Resistance becomes zero"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Resistance and temperature",
+    "Difficulty": "Advanced",
+    "Explanation": "For metallic conductors, resistance increases with temperature due to increased atomic vibrations."
+  },
+  {
+    "QuestionText": "LED stands for",
+    "Options": [
+      "A) Light Emitting Diode",
+      "B) Large Energy Device",
+      "C) Light Energy Detector",
+      "D) Low Energy Diode"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "LED",
+    "Difficulty": "Foundation",
+    "Explanation": "LED (Light Emitting Diode) converts electrical energy directly into light; more efficient than incandescent bulbs."
+  },
+  {
+    "QuestionText": "Which is more energy efficient?",
+    "Options": [
+      "A) LED bulb",
+      "B) Incandescent (filament) bulb",
+      "C) Fluorescent tube",
+      "D) CFL bulb"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Energy efficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "LED bulbs are most energy efficient: they convert most electricity directly to light with minimal heat loss."
+  },
+  {
+    "QuestionText": "MCB stands for",
+    "Options": [
+      "A) Miniature Circuit Breaker",
+      "B) Maximum Current Battery",
+      "C) Magnetic Circuit Board",
+      "D) Minimum Circuit Breaker"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Circuit protection",
+    "Difficulty": "Advanced",
+    "Explanation": "An MCB (Miniature Circuit Breaker) is a safety device that automatically trips when current exceeds safe levels; modern replacement for fuses."
+  },
+  {
+    "QuestionText": "Electric energy is measured in",
+    "Options": [
+      "A) Kilowatt-hour (kWh)",
+      "B) Watt",
+      "C) Ampere",
+      "D) Volt"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electric energy",
+    "Difficulty": "Advanced",
+    "Explanation": "Electrical energy consumed is measured in kilowatt-hours (kWh) or units. 1 unit = 1 kWh."
+  },
+  {
+    "QuestionText": "Power consumed by an appliance is calculated as",
+    "Options": [
+      "A) P = V \u00d7 I",
+      "B) P = V + I",
+      "C) P = V / I",
+      "D) P = I / V"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electric power",
+    "Difficulty": "Advanced",
+    "Explanation": "Power = Voltage \u00d7 Current (P = VI). SI unit: Watt (W)."
+  },
+  {
+    "QuestionText": "An appliance of 1000 W is used for 2 hours. Energy consumed in units (kWh) is",
+    "Options": [
+      "A) 2 kWh",
+      "B) 1 kWh",
+      "C) 0.5 kWh",
+      "D) 2000 kWh"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Energy consumption",
+    "Difficulty": "Advanced",
+    "Explanation": "Energy = Power \u00d7 Time = 1 kW \u00d7 2 h = 2 kWh (2 units)."
+  },
+  {
+    "QuestionText": "The effect of current that makes a compass needle deflect is",
+    "Options": [
+      "A) Magnetic effect",
+      "B) Heating effect",
+      "C) Chemical effect",
+      "D) Light effect"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Magnetic effect",
+    "Difficulty": "Foundation",
+    "Explanation": "Oersted showed that current produces a magnetic field, which deflects a nearby compass needle."
+  },
+  {
+    "QuestionText": "Resistance of a conductor depends on",
+    "Options": [
+      "A) Length, cross-section, and material",
+      "B) Only length",
+      "C) Only temperature",
+      "D) Only cross-section"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Resistance",
+    "Difficulty": "Advanced",
+    "Explanation": "Resistance R = \u03c1L/A, where \u03c1 is resistivity (material property), L is length, and A is cross-sectional area."
+  },
+  {
+    "QuestionText": "If resistance of a wire is doubled (by doubling length) and voltage is same, the current",
+    "Options": [
+      "A) Halves",
+      "B) Doubles",
+      "C) Remains same",
+      "D) Becomes zero"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Ohm's law",
+    "Difficulty": "Advanced",
+    "Explanation": "V = IR. If R doubles and V is constant: I = V/R = V/2R = half the original current."
+  },
+  {
+    "QuestionText": "Which of these is an application of the magnetic effect of current?",
+    "Options": [
+      "A) Electric motor",
+      "B) Electric heater",
+      "C) Electric iron",
+      "D) Fuse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Magnetic effect applications",
+    "Difficulty": "Foundation",
+    "Explanation": "Electric motors use the force on a current-carrying conductor in a magnetic field to produce rotation."
+  },
+  {
+    "QuestionText": "Thick copper wire is used for household wiring because thick wire has",
+    "Options": [
+      "A) Lower resistance and carries high current safely",
+      "B) Higher resistance",
+      "C) Better insulation",
+      "D) Less cost"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Wire thickness",
+    "Difficulty": "Advanced",
+    "Explanation": "Thicker wire has larger cross-section, lower resistance, carries more current without excessive heating."
+  },
+  {
+    "QuestionText": "The purpose of earthing (grounding) in electrical wiring is to",
+    "Options": [
+      "A) Provide safe path for leakage current to Earth",
+      "B) Increase voltage",
+      "C) Reduce current",
+      "D) Decorate wiring"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electrical safety",
+    "Difficulty": "Advanced",
+    "Explanation": "Earthing provides a safe low-resistance path to ground for any fault current, preventing electric shock."
+  },
+  {
+    "QuestionText": "What colour is the earth wire in Indian electrical systems?",
+    "Options": [
+      "A) Green or yellow-green",
+      "B) Red",
+      "C) Black",
+      "D) Blue"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Wiring colour codes",
+    "Difficulty": "Advanced",
+    "Explanation": "Earth wire in India: green or yellow-green. Live: red/brown. Neutral: black/blue."
+  },
+  {
+    "QuestionText": "An electric heater draws 5 A at 220 V. Its power is",
+    "Options": [
+      "A) 1100 W",
+      "B) 44 W",
+      "C) 215 W",
+      "D) 1100 kW"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Power calculation",
+    "Difficulty": "Olympiad",
+    "Explanation": "P = V \u00d7 I = 220 \u00d7 5 = 1100 W."
+  },
+  {
+    "QuestionText": "Three bulbs 60W, 100W, and 40W connected in parallel to 220V. Which draws the most current?",
+    "Options": [
+      "A) 100W bulb",
+      "B) 60W bulb",
+      "C) 40W bulb",
+      "D) All draw same current"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Parallel circuit analysis",
+    "Difficulty": "Olympiad",
+    "Explanation": "P=VI so I=P/V. Higher power = higher current at same voltage. 100W draws most current."
+  },
+  {
+    "QuestionText": "The resistance of a 100W, 220V bulb is approximately",
+    "Options": [
+      "A) 484 \u03a9",
+      "B) 100 \u03a9",
+      "C) 220 \u03a9",
+      "D) 22 \u03a9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Resistance of bulb",
+    "Difficulty": "Olympiad",
+    "Explanation": "R = V^2/P = 220^2/100 = 48400/100 = 484 \u03a9."
+  },
+  {
+    "QuestionText": "Why is tungsten used for bulb filament and not copper?",
+    "Options": [
+      "A) Tungsten has very high melting point and high resistivity",
+      "B) Copper is expensive",
+      "C) Tungsten is cheaper",
+      "D) Copper melts at room temperature"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Bulb filament",
+    "Difficulty": "Olympiad",
+    "Explanation": "Tungsten's very high melting point (3422 C) allows it to operate at white-hot temperatures without melting."
+  },
+  {
+    "QuestionText": "In an electromagnet increasing number of turns while keeping current constant will",
+    "Options": [
+      "A) Increase strength of electromagnet",
+      "B) Decrease strength",
+      "C) Have no effect",
+      "D) Reverse polarity"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electromagnet",
+    "Difficulty": "Olympiad",
+    "Explanation": "More turns means more magnetic field lines: stronger electromagnet for the same current."
+  },
+  {
+    "QuestionText": "Two resistors 4 \u03a9 and 6 \u03a9 in series across 10V. Current in circuit is",
+    "Options": [
+      "A) 1 A",
+      "B) 0.6 A",
+      "C) 2.5 A",
+      "D) 10 A"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Series resistance",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total R = 4+6 = 10 \u03a9. I = V/R = 10/10 = 1 A."
+  },
+  {
+    "QuestionText": "What is the voltage across the 4 \u03a9 resistor in the above question?",
+    "Options": [
+      "A) 4 V",
+      "B) 6 V",
+      "C) 10 V",
+      "D) 2 V"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Voltage divider",
+    "Difficulty": "Olympiad",
+    "Explanation": "V = IR = 1 \u00d7 4 = 4 V."
+  },
+  {
+    "QuestionText": "A fuse of 5A rating is used in a circuit. If current exceeds 5A the fuse",
+    "Options": [
+      "A) Melts and breaks the circuit",
+      "B) Allows higher current",
+      "C) Increases resistance to allow 5A",
+      "D) Increases voltage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Fuse action",
+    "Difficulty": "Foundation",
+    "Explanation": "The fuse wire melts when current exceeds its rated value, breaking the circuit and preventing damage."
+  },
+  {
+    "QuestionText": "Which of these is a correct safety practice with electricity?",
+    "Options": [
+      "A) Never touch electrical appliances with wet hands",
+      "B) Use bare wire without insulation",
+      "C) Overload one socket with many plugs",
+      "D) Touch wires to test if live"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Electrical safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Water conducts electricity: touching live appliances with wet hands risks fatal electric shock."
+  },
+  {
+    "QuestionText": "Voltage (potential difference) is measured in",
+    "Options": [
+      "A) Volts (V)",
+      "B) Amperes (A)",
+      "C) Ohms (\u03a9)",
+      "D) Watts (W)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Units of voltage",
+    "Difficulty": "Foundation",
+    "Explanation": "Potential difference is measured in Volts (V) using a voltmeter."
+  },
+  {
+    "QuestionText": "Nichrome is used as heating element in electric heaters because it",
+    "Options": [
+      "A) Has high resistance and high melting point",
+      "B) Has low resistance",
+      "C) Is cheap",
+      "D) Is a good conductor"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Electric Current and Its Effects",
+    "SubTopic": "Heating element material",
+    "Difficulty": "Advanced",
+    "Explanation": "Nichrome (nickel-chromium alloy) has high resistivity and melting point, producing substantial heat without melting."
+  }
+]

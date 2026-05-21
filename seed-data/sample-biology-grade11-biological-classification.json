@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The five kingdom classification was proposed by:",
+    "Options": [
+      "A) Linnaeus",
+      "B) Whittaker",
+      "C) Haeckel",
+      "D) Woese"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Classification Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "R.H. Whittaker (1969) proposed five kingdoms: Monera (prokaryotes), Protista, Fungi, Plantae, Animalia. Based on cell type, body organization, nutrition, reproduction."
+  },
+  {
+    "QuestionText": "Binomial nomenclature was introduced by:",
+    "Options": [
+      "A) Darwin",
+      "B) Linnaeus",
+      "C) Lamarck",
+      "D) Mendel"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Carl Linnaeus (1753) established binomial nomenclature. Every organism has a two-part scientific name: Genus species (e.g., Homo sapiens). Written in italics; genus capitalized."
+  },
+  {
+    "QuestionText": "The correct hierarchy of taxonomic categories from largest to smallest is:",
+    "Options": [
+      "A) Kingdom \u2192 Phylum \u2192 Class \u2192 Order \u2192 Family \u2192 Genus \u2192 Species",
+      "B) Species \u2192 Genus \u2192 Family \u2192 Order \u2192 Class \u2192 Phylum \u2192 Kingdom",
+      "C) Kingdom \u2192 Class \u2192 Phylum \u2192 Order \u2192 Family \u2192 Genus \u2192 Species",
+      "D) Domain \u2192 Kingdom \u2192 Class \u2192 Phylum \u2192 Order \u2192 Genus \u2192 Species"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Taxonomic hierarchy: Kingdom \u2192 Phylum \u2192 Class \u2192 Order \u2192 Family \u2192 Genus \u2192 Species. Mnemonic: 'King Philip Came Over For Good Soup'."
+  },
+  {
+    "QuestionText": "Prokaryotes belong to kingdom:",
+    "Options": [
+      "A) Protista",
+      "B) Fungi",
+      "C) Monera",
+      "D) Plantae"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Monera",
+    "Difficulty": "Foundation",
+    "Explanation": "Monera: all prokaryotes (bacteria and archaea/archaebacteria). No nuclear membrane, no membrane-bound organelles. Unicellular. Cell wall usually present."
+  },
+  {
+    "QuestionText": "Viruses are classified as:",
+    "Options": [
+      "A) Kingdom Monera",
+      "B) Kingdom Protista",
+      "C) Not classified in the five kingdoms (acellular)",
+      "D) Kingdom Fungi"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Viruses",
+    "Difficulty": "Foundation",
+    "Explanation": "Viruses are acellular (not cellular). They are not classified in the five kingdoms. Obligate intracellular parasites \u2014 can only replicate inside a host cell."
+  },
+  {
+    "QuestionText": "The cell wall of fungi is made of:",
+    "Options": [
+      "A) Cellulose",
+      "B) Chitin",
+      "C) Peptidoglycan",
+      "D) Silica"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Foundation",
+    "Explanation": "Fungal cell wall: chitin (N-acetylglucosamine polymer). Plant cell wall: cellulose. Bacterial cell wall: peptidoglycan. Fungal chitin is also found in insect exoskeletons."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a characteristic of kingdom Plantae?",
+    "Options": [
+      "A) Photosynthetic autotrophs",
+      "B) Eukaryotic cells",
+      "C) Cell wall of peptidoglycan",
+      "D) Multicellular"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Foundation",
+    "Explanation": "Plant cell walls contain cellulose (not peptidoglycan). Peptidoglycan is found in bacterial cell walls. Plants are photosynthetic, eukaryotic, multicellular with cellulose cell walls."
+  },
+  {
+    "QuestionText": "Amoeba belongs to kingdom:",
+    "Options": [
+      "A) Monera",
+      "B) Fungi",
+      "C) Protista",
+      "D) Animalia"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Protista",
+    "Difficulty": "Foundation",
+    "Explanation": "Protista: mostly unicellular eukaryotes. Includes Amoeba (protozoa), Euglena, Paramecium, and slime molds. Diverse group \u2014 eukaryotes that don't fit other kingdoms."
+  },
+  {
+    "QuestionText": "The smallest unit of classification is:",
+    "Options": [
+      "A) Genus",
+      "B) Family",
+      "C) Phylum",
+      "D) Species"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Species is the most specific taxonomic rank. Members of the same species can interbreed and produce fertile offspring. This is the biological species concept (Mayr)."
+  },
+  {
+    "QuestionText": "Mycorrhiza is a symbiotic association between:",
+    "Options": [
+      "A) Bacteria and plant roots",
+      "B) Fungi and plant roots",
+      "C) Algae and fungi",
+      "D) Bacteria and fungi"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Foundation",
+    "Explanation": "Mycorrhiza: mutualistic association of fungi with plant roots. Fungi get carbohydrates; plant gets enhanced mineral/water absorption. 90% of land plants have mycorrhizal associations."
+  },
+  {
+    "QuestionText": "Lichens are a symbiotic association between:",
+    "Options": [
+      "A) Bacteria and algae",
+      "B) Algae and fungi",
+      "C) Fungi and plant roots",
+      "D) Virus and bacteria"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Foundation",
+    "Explanation": "Lichens: symbiosis between algae (or cyanobacteria) and fungi. Algae provides food (photosynthesis); fungi provides water, minerals, and protection. Pioneer organisms on bare rock."
+  },
+  {
+    "QuestionText": "Which kingdom contains organisms that can be both autotrophic and heterotrophic?",
+    "Options": [
+      "A) Monera",
+      "B) Protista",
+      "C) Plantae",
+      "D) Animalia"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Protista",
+    "Difficulty": "Advanced",
+    "Explanation": "Protista shows nutritional diversity: Euglena is autotrophic in light, heterotrophic in dark. Amoeba is heterotrophic (phagocytosis). Slime molds can be saprotrophic."
+  },
+  {
+    "QuestionText": "Bryophytes are called amphibians of the plant kingdom because:",
+    "Options": [
+      "A) They live in water only",
+      "B) They need water for sexual reproduction but can grow on land",
+      "C) They have gills",
+      "D) They can photosynthesize underwater"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Foundation",
+    "Explanation": "Bryophytes (mosses, liverworts): can grow on land but require water for fertilization (motile sperm need water to reach eggs). Like amphibians \u2014 tied to water for reproduction."
+  },
+  {
+    "QuestionText": "The dominant generation in angiosperms is the:",
+    "Options": [
+      "A) Gametophyte",
+      "B) Sporophyte",
+      "C) Both equally",
+      "D) Prothallus"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Advanced",
+    "Explanation": "In angiosperms: sporophyte (2n) is dominant (the plant we see). Gametophyte reduced to pollen (\u2642) and embryo sac (\u2640). In mosses: gametophyte dominant."
+  },
+  {
+    "QuestionText": "Seeds are a characteristic of:",
+    "Options": [
+      "A) All land plants",
+      "B) Bryophytes only",
+      "C) Gymnosperms and angiosperms (spermatophytes)",
+      "D) Ferns"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Foundation",
+    "Explanation": "Seed plants (spermatophytes): gymnosperms (naked seeds, e.g., conifers) and angiosperms (seeds in fruits). Seeds give protection and dispersal advantages. Bryophytes and ferns reproduce by spores."
+  },
+  {
+    "QuestionText": "Phylogenetic classification groups organisms based on:",
+    "Options": [
+      "A) Morphological similarity only",
+      "B) Evolutionary relationships (shared ancestry)",
+      "C) Geographical location",
+      "D) Size and color"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Classification Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Phylogenetics: classification based on evolutionary history (cladistics). Uses molecular data, morphology, and fossils to reconstruct evolutionary trees (cladograms)."
+  },
+  {
+    "QuestionText": "Archaea differ from Bacteria in:",
+    "Options": [
+      "A) Being eukaryotic",
+      "B) Cell membrane lipids, RNA polymerase structure, and lack of peptidoglycan",
+      "C) Having nuclei",
+      "D) Being photosynthetic only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Monera",
+    "Difficulty": "Advanced",
+    "Explanation": "Archaea vs Bacteria: Archaea have unique membrane lipids (ether-linked isoprenoids), different RNA polymerase, no peptidoglycan. Archaea live in extreme environments (hot springs, salt lakes)."
+  },
+  {
+    "QuestionText": "Vascular plants differ from non-vascular plants by having:",
+    "Options": [
+      "A) Flowers",
+      "B) Xylem and phloem for water/nutrient transport",
+      "C) Cell walls",
+      "D) Chlorophyll"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Foundation",
+    "Explanation": "Vascular plants (tracheophytes): have xylem and phloem. Includes ferns, gymnosperms, angiosperms. Non-vascular (bryophytes): no xylem/phloem, limited to moist environments."
+  },
+  {
+    "QuestionText": "Which is a correct scientific name following binomial nomenclature?",
+    "Options": [
+      "A) homo sapiens",
+      "B) Homo Sapiens",
+      "C) Homo sapiens",
+      "D) homo Sapiens"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Binomial nomenclature rules: Genus (capital) + species (lowercase). Whole name italicized when typed, underlined when written. E.g., Homo sapiens."
+  },
+  {
+    "QuestionText": "Mushrooms belong to kingdom:",
+    "Options": [
+      "A) Plantae",
+      "B) Protista",
+      "C) Fungi",
+      "D) Monera"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Foundation",
+    "Explanation": "Mushrooms are macrofungi (basidiomycetes). Kingdom Fungi: heterotrophic (absorptive nutrition), eukaryotic, mostly multicellular, cell wall of chitin."
+  },
+  {
+    "QuestionText": "CAM, C3, and C4 plants are classified based on:",
+    "Options": [
+      "A) Leaf shape",
+      "B) CO\u2082 fixation pathway in photosynthesis",
+      "C) Flowering time",
+      "D) Geographical distribution"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Advanced",
+    "Explanation": "C3 plants: Calvin cycle (3-PGA first product). C4 plants: Hatch-Slack pathway (OAA first, then Calvin cycle in bundle sheath). CAM: CO\u2082 fixed at night. Each adapted to different environments."
+  },
+  {
+    "QuestionText": "The term 'taxon' refers to:",
+    "Options": [
+      "A) A specific organism",
+      "B) Any taxonomic group or category",
+      "C) Binomial name only",
+      "D) Kingdom only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Taxon (plural: taxa): any named group in classification at any rank. A species, genus, family, or order are all taxa."
+  },
+  {
+    "QuestionText": "Cyanobacteria are placed in kingdom Monera because:",
+    "Options": [
+      "A) They are multicellular",
+      "B) They are prokaryotes (no nucleus)",
+      "C) They cannot photosynthesize",
+      "D) They are parasites"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Monera",
+    "Difficulty": "Foundation",
+    "Explanation": "Cyanobacteria (blue-green algae): prokaryotic (no membrane-bound nucleus), photosynthetic, gram-negative bacteria. Placed in Monera. Historically called algae but now classified as bacteria."
+  },
+  {
+    "QuestionText": "HIV (Human Immunodeficiency Virus) is a:",
+    "Options": [
+      "A) DNA virus",
+      "B) Retrovirus (RNA virus with reverse transcriptase)",
+      "C) Bacteriophage",
+      "D) Prion"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Viruses",
+    "Difficulty": "Advanced",
+    "Explanation": "HIV: retrovirus with single-stranded RNA. Reverse transcriptase copies RNA \u2192 DNA, which integrates into host genome (provirus). Attacks CD4\u207a T cells \u2192 AIDS."
+  },
+  {
+    "QuestionText": "The three-domain classification (Woese) includes:",
+    "Options": [
+      "A) Monera, Protista, Eukarya",
+      "B) Bacteria, Archaea, Eukarya",
+      "C) Prokaryota, Eukaryota, Viridae",
+      "D) Bacteria, Fungi, Eukarya"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Classification Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Carl Woese (1990) proposed 3 domains based on rRNA sequences: Bacteria, Archaea, Eukarya. Archaea are more related to Eukarya than to Bacteria."
+  },
+  {
+    "QuestionText": "Type specimen in taxonomy is:",
+    "Options": [
+      "A) Best example of the species",
+      "B) First specimen formally described for a species",
+      "C) Fossil record",
+      "D) Average individual of species"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Type specimen (holotype): the individual specimen formally associated with a species name. Deposited in museums. All other specimens of the species are compared to this reference."
+  },
+  {
+    "QuestionText": "Which plant group first evolved seeds?",
+    "Options": [
+      "A) Mosses",
+      "B) Ferns",
+      "C) Gymnosperms",
+      "D) Angiosperms"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Advanced",
+    "Explanation": "Gymnosperms evolved seeds first (Carboniferous period). 'Gymnosperm' = naked seed (no fruit). Angiosperms (flowering plants) evolved later with enclosed seeds (fruit)."
+  },
+  {
+    "QuestionText": "Which of the following is a connecting link between plants and animals?",
+    "Options": [
+      "A) Euglena",
+      "B) Amoeba",
+      "C) Paramecium",
+      "D) Volvox"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Protista",
+    "Difficulty": "Advanced",
+    "Explanation": "Euglena: has chloroplasts (plant-like, can photosynthesize) but also moves by flagellum and feeds heterotrophically (animal-like). A connecting link between plant and animal kingdoms."
+  },
+  {
+    "QuestionText": "Fungi reproduce by:",
+    "Options": [
+      "A) Seeds",
+      "B) Spores (asexual) and sexual reproduction",
+      "C) Binary fission only",
+      "D) Budding only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Foundation",
+    "Explanation": "Fungi reproduce by spores (sexual and asexual). Asexual: conidia (Aspergillus), sporangiospores (Mucor). Sexual: via various types of spores (ascospores, basidiospores). Some also bud (yeast)."
+  },
+  {
+    "QuestionText": "Diatoms, a type of unicellular algae, belong to kingdom:",
+    "Options": [
+      "A) Plantae",
+      "B) Monera",
+      "C) Protista",
+      "D) Fungi"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Protista",
+    "Difficulty": "Foundation",
+    "Explanation": "Diatoms: unicellular, eukaryotic algae with silica cell walls (frustules). Kingdom Protista. Important primary producers in oceans. Dead diatoms form diatomaceous earth."
+  },
+  {
+    "QuestionText": "The term 'saprophyte' refers to:",
+    "Options": [
+      "A) Organisms that eat other organisms",
+      "B) Organisms that feed on dead/decaying organic matter",
+      "C) Autotrophic organisms",
+      "D) Parasitic organisms"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Nutrition Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Saprophytes (saprotrophs): feed on dead organic matter (decomposers). Most fungi and many bacteria are saprophytic. Essential for nutrient cycling."
+  },
+  {
+    "QuestionText": "Which is the most species-rich phylum of kingdom Animalia?",
+    "Options": [
+      "A) Chordata",
+      "B) Mollusca",
+      "C) Annelida",
+      "D) Arthropoda"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Animalia",
+    "Difficulty": "Advanced",
+    "Explanation": "Arthropoda: ~80% of all described animal species (insects, crustaceans, spiders, etc.). Characterized by exoskeleton, jointed appendages, segmented body."
+  },
+  {
+    "QuestionText": "Plasmids found in bacteria are:",
+    "Options": [
+      "A) Part of the main chromosome",
+      "B) Extra-chromosomal circular DNA",
+      "C) RNA molecules",
+      "D) Ribosomes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Monera",
+    "Difficulty": "Advanced",
+    "Explanation": "Plasmids: small circular DNA molecules in bacteria, separate from main chromosome. Often carry antibiotic resistance genes. Used as vectors in genetic engineering."
+  },
+  {
+    "QuestionText": "Gram-positive bacteria are distinguished by:",
+    "Options": [
+      "A) Red color after Gram staining",
+      "B) Thick peptidoglycan layer retaining crystal violet (purple)",
+      "C) Absence of cell wall",
+      "D) Multiple membranes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Monera",
+    "Difficulty": "Advanced",
+    "Explanation": "Gram staining: G+ bacteria have thick peptidoglycan wall \u2192 retain crystal violet \u2192 purple. G\u2212 bacteria have thin peptidoglycan + outer membrane \u2192 lose crystal violet \u2192 red (safranin)."
+  },
+  {
+    "QuestionText": "The phylum of humans is:",
+    "Options": [
+      "A) Mammalia",
+      "B) Chordata",
+      "C) Vertebrata",
+      "D) Animalia"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Animalia",
+    "Difficulty": "Foundation",
+    "Explanation": "Human classification: Kingdom Animalia \u2192 Phylum Chordata \u2192 Class Mammalia \u2192 Order Primates \u2192 Family Hominidae \u2192 Genus Homo \u2192 Species sapiens."
+  },
+  {
+    "QuestionText": "Quinine, used to treat malaria, is obtained from:",
+    "Options": [
+      "A) Bacteria",
+      "B) Fungi",
+      "C) Cinchona tree (Plantae)",
+      "D) Marine algae"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Plantae",
+    "Difficulty": "Advanced",
+    "Explanation": "Quinine extracted from bark of Cinchona officinalis (South American tree). Many important medicines come from plants: aspirin (willow), morphine (poppy), taxol (yew)."
+  },
+  {
+    "QuestionText": "Which organism is used as a model organism in genetics?",
+    "Options": [
+      "A) Canis lupus familiaris",
+      "B) Drosophila melanogaster (fruit fly)",
+      "C) Homo sapiens",
+      "D) Mus musculus only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Drosophila melanogaster (fruit fly): key model organism. Short generation time, large brood, 4 chromosomes, well-mapped genome. Used by Morgan to discover linked genes and chromosomal theory."
+  },
+  {
+    "QuestionText": "The scientific name of humans is:",
+    "Options": [
+      "A) Homo habilis",
+      "B) Homo neanderthalensis",
+      "C) Homo sapiens",
+      "D) Pan troglodytes"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Modern humans: Homo sapiens (Linnaeus, 1758). 'Homo' = man (genus); 'sapiens' = wise (species). Other human species: H. erectus, H. neanderthalensis (extinct)."
+  },
+  {
+    "QuestionText": "Which kingdom includes the most diverse organisms?",
+    "Options": [
+      "A) Monera",
+      "B) Plantae",
+      "C) Protista",
+      "D) Fungi"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Protista",
+    "Difficulty": "Advanced",
+    "Explanation": "Protista is the most diverse kingdom \u2014 a polyphyletic 'catch-all' group. Includes photosynthetic algae, heterotrophic protozoa, and absorptive slime molds. Modern classification splits it further."
+  },
+  {
+    "QuestionText": "Penicillin, the antibiotic, is obtained from:",
+    "Options": [
+      "A) Bacteria",
+      "B) Penicillium fungi",
+      "C) Plant leaves",
+      "D) Algae"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Foundation",
+    "Explanation": "Penicillin: discovered by Alexander Fleming (1928) from Penicillium notatum (now P. chrysogenum). Works by inhibiting bacterial peptidoglycan synthesis. First antibiotic."
+  },
+  {
+    "QuestionText": "Prions are:",
+    "Options": [
+      "A) RNA viruses",
+      "B) DNA viruses",
+      "C) Misfolded proteins that cause disease (no nucleic acid)",
+      "D) Small bacteria"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Viruses",
+    "Difficulty": "Olympiad",
+    "Explanation": "Prions: infectious protein particles. Misfolded PrP protein converts normal PrP to misfolded form. Cause mad cow disease (BSE), Creutzfeldt-Jakob disease. No nucleic acid."
+  },
+  {
+    "QuestionText": "The concept of analogous organs supports:",
+    "Options": [
+      "A) Common ancestry",
+      "B) Convergent evolution (similar function, different origin)",
+      "C) Divergent evolution",
+      "D) Genetic drift"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Classification Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Analogous organs: similar function but different evolutionary origin (e.g., bird wing and insect wing). Indicates convergent evolution. Homologous organs (similar origin, different function) support common ancestry."
+  },
+  {
+    "QuestionText": "Viruses that infect bacteria are called:",
+    "Options": [
+      "A) Prions",
+      "B) Bacteriophages",
+      "C) Retroviruses",
+      "D) Viroid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Viruses",
+    "Difficulty": "Foundation",
+    "Explanation": "Bacteriophages (phages): viruses that infect bacteria. Used in phage therapy (alternative to antibiotics) and molecular biology research (T4 phage, lambda phage)."
+  },
+  {
+    "QuestionText": "The six-kingdom system adds __ as a separate kingdom:",
+    "Options": [
+      "A) Virus",
+      "B) Archaea",
+      "C) Protozoa",
+      "D) Algae"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Classification Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Six-kingdom system: splits Monera into Eubacteria (true bacteria) and Archaebacteria (Archaea). This reflects the fundamental differences between the two prokaryotic groups."
+  },
+  {
+    "QuestionText": "Convergent evolution produces:",
+    "Options": [
+      "A) Homologous organs",
+      "B) Vestigial organs",
+      "C) Analogous organs",
+      "D) Fossil record"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Classification Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Convergent evolution: unrelated organisms evolve similar traits due to similar selection pressures. Produces analogous organs (e.g., streamlined body in dolphins, sharks, ichthyosaurs)."
+  },
+  {
+    "QuestionText": "Dikaryon in fungi means:",
+    "Options": [
+      "A) One nucleus per cell",
+      "B) Two unfused nuclei per cell (n+n) after plasmogamy",
+      "C) Diploid nucleus",
+      "D) No nucleus"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Olympiad",
+    "Explanation": "Dikaryon: cell containing two genetically different haploid nuclei. Occurs in Ascomycetes and Basidiomycetes after plasmogamy (cytoplasm fusion) but before karyogamy (nuclear fusion)."
+  },
+  {
+    "QuestionText": "The scientific study of naming, classifying, and describing organisms is called:",
+    "Options": [
+      "A) Taxonomy",
+      "B) Ecology",
+      "C) Phylogeny",
+      "D) Systematics"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Taxonomy",
+    "Difficulty": "Foundation",
+    "Explanation": "Taxonomy: the science of classifying organisms. Includes identification, nomenclature, and classification. Systematics is broader \u2014 includes evolutionary relationships."
+  },
+  {
+    "QuestionText": "Which of the following is a feature of all chordates?",
+    "Options": [
+      "A) Four limbs",
+      "B) Backbone",
+      "C) Notochord (at some stage of life)",
+      "D) Warm blood"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Animalia",
+    "Difficulty": "Foundation",
+    "Explanation": "Chordate characteristics: notochord, dorsal hollow nerve cord, pharyngeal slits, post-anal tail (at some stage). Vertebrates have backbone replacing notochord in adults."
+  },
+  {
+    "QuestionText": "Saprophytic nutrition in fungi occurs through:",
+    "Options": [
+      "A) Photosynthesis",
+      "B) Absorption of dissolved organic nutrients",
+      "C) Engulfing particles",
+      "D) Symbiosis only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Fungi",
+    "Difficulty": "Foundation",
+    "Explanation": "Fungi secrete hydrolytic enzymes onto substrate, break down organic matter, then absorb the soluble products. This absorptive mode is characteristic of all fungi."
+  },
+  {
+    "QuestionText": "The gram stain procedure uses which dye first?",
+    "Options": [
+      "A) Safranin",
+      "B) Crystal violet",
+      "C) Methylene blue",
+      "D) Eosin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Biological Classification",
+    "SubTopic": "Kingdom Monera",
+    "Difficulty": "Olympiad",
+    "Explanation": "Gram stain steps: 1) Crystal violet (primary stain) \u2192 2) Gram's iodine (mordant) \u2192 3) Acetone/alcohol (decolorizer) \u2192 4) Safranin (counterstain). G+: purple; G\u2212: red/pink."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If P(A) = 0.6, P(B) = 0.3 and P(A ∩ B) = 0.2, then P(A|B) is:",
+    "Options": ["A) 1/3", "B) 2/3", "C) 1/2", "D) 2/5"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(A|B) = P(A ∩ B) / P(B) = 0.2 / 0.3 = 2/3."
+  },
+  {
+    "QuestionText": "Two events A and B are said to be independent if:",
+    "Options": ["A) P(A ∩ B) = P(A)P(B)", "B) P(A ∪ B) = P(A) + P(B)", "C) P(A|B) = P(B|A)", "D) P(A) = P(B)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Foundation",
+    "Explanation": "Independence means the occurrence of one doesn't affect the probability of the other."
+  },
+  {
+    "QuestionText": "A coin is tossed three times. What is the probability of getting exactly two heads?",
+    "Options": ["A) 1/8", "B) 3/8", "C) 1/2", "D) 1/4"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Foundation",
+    "Explanation": "Favorable outcomes are {HHT, HTH, THH}. Total outcomes = 8. Probability = 3/8."
+  },
+  {
+    "QuestionText": "If P(A) = 1/2, P(B) = 0, then P(A|B) is:",
+    "Options": ["A) 1/2", "B) 0", "C) Not defined", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Conditional probability P(A|B) is only defined when P(B) > 0."
+  },
+  {
+    "QuestionText": "If A and B are independent events, then P(A' ∩ B') is:",
+    "Options": ["A) 1 - P(A ∪ B)", "B) P(A')P(B')", "C) (1 - P(A))(1 - P(B))", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Advanced",
+    "Explanation": "By independence, the complements are also independent, and De Morgan's Law applies."
+  },
+  {
+    "QuestionText": "A die is thrown twice. What is the probability that the sum of the numbers is 10?",
+    "Options": ["A) 1/12", "B) 1/36", "C) 1/6", "D) 5/36"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Favorable pairs: (4,6), (5,5), (6,4). Probability = 3/36 = 1/12."
+  },
+  {
+    "QuestionText": "Which theorem is used to find reverse probabilities (probability of a cause given an effect)?",
+    "Options": ["A) Multiplication theorem", "B) Addition theorem", "C) Bayes' Theorem", "D) Bernoulli's theorem"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bayes' Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "Bayes' Theorem relates current evidence to prior knowledge of conditions."
+  },
+  {
+    "QuestionText": "If X is a random variable and E(X) is its mean, then Var(X) is:",
+    "Options": ["A) E(X²) - [E(X)]²", "B) E(X²) + [E(X)]²", "C) E(X - E(X))", "D) [E(X)]²"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Advanced",
+    "Explanation": "Variance measures the spread of the random variable around its mean."
+  },
+  {
+    "QuestionText": "In a binomial distribution B(n, p), the mean is 4 and variance is 3. What is n?",
+    "Options": ["A) 12", "B) 16", "C) 8", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Advanced",
+    "Explanation": "np = 4, npq = 3. Thus q = 3/4, p = 1/4. n(1/4) = 4 implies n = 16."
+  },
+  {
+    "QuestionText": "Two dice are thrown. The probability that the numbers are different is:",
+    "Options": ["A) 5/6", "B) 1/6", "C) 1/36", "D) 35/36"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Probability same = 6/36 = 1/6. Probability different = 1 - 1/6 = 5/6."
+  },
+  {
+    "QuestionText": "If P(A ∩ B) = 7/10 and P(B) = 17/20, then P(A|B) is:",
+    "Options": ["A) 14/17", "B) 17/20", "C) 7/8", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "(7/10) / (17/20) = (7/10) * (20/17) = 14/17."
+  },
+  {
+    "QuestionText": "A box contains 3 orange and 2 blue balls. If two balls are drawn without replacement, the probability both are blue is:",
+    "Options": ["A) 1/10", "B) 4/25", "C) 2/5", "D) 1/5"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Multiplication Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "(2/5) * (1/4) = 2/20 = 1/10."
+  },
+  {
+    "QuestionText": "For a random variable X, the sum of all probabilities in its distribution must be:",
+    "Options": ["A) 0", "B) 1", "C) 0.5", "D) Variable"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Foundation",
+    "Explanation": "Total probability of all exhaustive and mutually exclusive events is always unity."
+  },
+  {
+    "QuestionText": "In Bayes' Theorem, P(Ei|A) is the probability of:",
+    "Options": ["A) Prior", "B) Posterior", "C) Likelihood", "D) Evidence"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bayes' Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "P(Ei|A) is the posterior probability—the probability after the event A has occurred."
+  },
+  {
+    "QuestionText": "If P(A) = 0.8 and P(B|A) = 0.4, then P(A ∩ B) is:",
+    "Options": ["A) 0.32", "B) 0.5", "C) 1.2", "D) 0.4"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Multiplication Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "P(A ∩ B) = P(A) * P(B|A) = 0.8 * 0.4 = 0.32."
+  },
+  {
+    "QuestionText": "The probability of getting a 5 on a fair die is 1/6. If the die is rolled 10 times, the mean of the number of 5s is:",
+    "Options": ["A) 10/6", "B) 5/6", "C) 1/60", "D) 5"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Advanced",
+    "Explanation": "Mean of binomial distribution is np = 10 * (1/6) = 10/6 or 5/3."
+  },
+  {
+    "QuestionText": "If A and B are mutually exclusive events, then P(A ∩ B) is:",
+    "Options": ["A) 1", "B) 0", "C) P(A)P(B)", "D) P(A) + P(B)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Mutually exclusive events cannot occur at the same time, so their intersection is empty."
+  },
+  {
+    "QuestionText": "Two events A and B are independent. P(A) = 0.3, P(B) = 0.4. P(A ∪ B) is:",
+    "Options": ["A) 0.7", "B) 0.12", "C) 0.58", "D) 0.82"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Advanced",
+    "Explanation": "P(A ∪ B) = P(A) + P(B) - P(A)P(B) = 0.3 + 0.4 - 0.12 = 0.58."
+  },
+  {
+    "QuestionText": "Probability of an impossible event is:",
+    "Options": ["A) 1", "B) 0", "C) 0.5", "D) -1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Events that can never happen have a probability of zero."
+  },
+  {
+    "QuestionText": "Which is a valid property for random variable probabilities P(x)?",
+    "Options": ["A) P(x) < 0", "B) P(x) > 1", "C) 0 ≤ P(x) ≤ 1", "D) Σ P(x) = 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Foundation",
+    "Explanation": "All probabilities must be non-negative and not exceed 1."
+  },
+  {
+    "QuestionText": "Probability of a sure event is:",
+    "Options": ["A) 0", "B) 1", "C) 0.5", "D) 100"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Events that are certain to happen have a probability of 1."
+  },
+  {
+    "QuestionText": "If A ⊂ B, then P(A|B) is:",
+    "Options": ["A) P(A)/P(B)", "B) P(B)/P(A)", "C) 1", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "If A is a subset of B, then A ∩ B = A. So P(A|B) = P(A)/P(B)."
+  },
+  {
+    "QuestionText": "If A and B are independent, P(A) = 1/2 and P(B) = 1/3, find P(A ∩ B).",
+    "Options": ["A) 1/6", "B) 5/6", "C) 1/5", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Foundation",
+    "Explanation": "For independent events, multiply their probabilities: (1/2) * (1/3) = 1/6."
+  },
+  {
+    "QuestionText": "If E and F are events such that P(E) = 0.6, P(F) = 0.2 and P(E|F) = 0.5, then P(F|E) is:",
+    "Options": ["A) 1/6", "B) 1/3", "C) 1/12", "D) 0.5"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(E ∩ F) = P(F)P(E|F) = 0.2 * 0.5 = 0.1. P(F|E) = 0.1 / 0.6 = 1/6."
+  },
+  {
+    "QuestionText": "If P(A) = 0.4, P(B) = 0.8 and P(B|A) = 0.6, then P(A ∪ B) is:",
+    "Options": ["A) 0.96", "B) 1.2", "C) 0.24", "D) 0.8"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "P(A ∩ B) = 0.4 * 0.6 = 0.24. P(A ∪ B) = 0.4 + 0.8 - 0.24 = 0.96."
+  },
+  {
+    "QuestionText": "In a random variable distribution, E(X) is also called:",
+    "Options": ["A) Variance", "B) Standard Deviation", "C) Mean", "D) Median"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Foundation",
+    "Explanation": "Expectation E(X) represents the weighted average or mean of the variable."
+  },
+  {
+    "QuestionText": "The probability of drawing a king or a heart from a deck of 52 cards is:",
+    "Options": ["A) 16/52", "B) 17/52", "C) 4/52", "D) 13/52"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "P(K) = 4/52, P(H) = 13/52, P(K ∩ H) = 1/52. Result = 4+13-1 / 52 = 16/52."
+  },
+  {
+    "QuestionText": "Two events A and B are such that P(A) ≠ 0. If P(B|A) = 1, then:",
+    "Options": ["A) A ⊂ B", "B) B ⊂ A", "C) A ∩ B = Φ", "D) A = Φ"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(A ∩ B) / P(A) = 1 implies P(A ∩ B) = P(A), which means A must be a subset of B."
+  },
+  {
+    "QuestionText": "In binomial distribution, the success probability is p and failure is q. Then:",
+    "Options": ["A) p + q = 1", "B) p = q", "C) p - q = 1", "D) pq = 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Foundation",
+    "Explanation": "Success and failure are complementary events in a Bernoulli trial."
+  },
+  {
+    "QuestionText": "If A and B are independent, which is always true?",
+    "Options": ["A) P(A|B) = P(A)", "B) P(B|A) = P(B)", "C) Both A and B", "D) None"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Foundation",
+    "Explanation": "Independence implies that knowing the result of one event gives no info about the other."
+  },
+  {
+    "QuestionText": "If Var(X) = 9, what is the standard deviation?",
+    "Options": ["A) 81", "B) 3", "C) 4.5", "D) 18"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard deviation is the positive square root of the variance."
+  },
+  {
+    "QuestionText": "A fair die is thrown. Let X be the number appearing. E(X) is:",
+    "Options": ["A) 3.5", "B) 3", "C) 4", "D) 3.25"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum(x * 1/6) = (1+2+3+4+5+6)/6 = 21/6 = 3.5."
+  },
+  {
+    "QuestionText": "If A and B are two events such that P(A) + P(B) - P(A ∩ B) = P(A), then:",
+    "Options": ["A) P(B|A) = 1", "B) P(A|B) = 1", "C) P(B) = P(A ∩ B)", "D) Both B and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(B) = P(A ∩ B) implies B is a subset of A or probabilities match. Then P(A|B) = P(A ∩ B)/P(B) = 1."
+  },
+  {
+    "QuestionText": "Bernoulli trials must have:",
+    "Options": ["A) Infinite trials", "B) Dependent trials", "C) Fixed number of independent trials", "D) Changing probabilities"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Foundation",
+    "Explanation": "Trials must be independent, finite, and have constant probability of success."
+  },
+  {
+    "QuestionText": "The probability that a person hits a target is 1/4. If he fires 7 times, the probability he hits at least once is:",
+    "Options": ["A) 1 - (3/4)⁷", "B) (1/4)⁷", "C) 1 - (1/4)⁷", "D) 7/4"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Advanced",
+    "Explanation": "P(at least one) = 1 - P(none). P(none) = (3/4)⁷."
+  },
+  {
+    "QuestionText": "If P(A) = 0.4 and P(B) = 0.5, and they are mutually exclusive, P(A ∪ B) is:",
+    "Options": ["A) 0.9", "B) 0.2", "C) 0.1", "D) 0.45"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "For mutually exclusive events, just sum the probabilities."
+  },
+  {
+    "QuestionText": "In a binomial distribution, if n=10 and p=0.5, the variance is:",
+    "Options": ["A) 2.5", "B) 5", "C) 1.25", "D) 10"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Advanced",
+    "Explanation": "Variance = npq = 10 * 0.5 * 0.5 = 2.5."
+  },
+  {
+    "QuestionText": "If P(A) = 0.67, P(B) = 0.52 and P(A ∪ B) = 0.85, then P(A ∩ B) is:",
+    "Options": ["A) 0.34", "B) 0.15", "C) 0.25", "D) 0.45"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "P(A ∩ B) = P(A) + P(B) - P(A ∪ B) = 0.67 + 0.52 - 0.85 = 0.34."
+  },
+  {
+    "QuestionText": "A pair of dice is thrown. What is the probability of getting a doublet?",
+    "Options": ["A) 1/6", "B) 1/12", "C) 1/36", "D) 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Doublets are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6). Total 6/36 = 1/6."
+  },
+  {
+    "QuestionText": "If A and B are independent, P(A) = 0.35, P(A ∪ B) = 0.6. Find P(B).",
+    "Options": ["A) 5/13", "B) 0.25", "C) 0.4", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Olympiad",
+    "Explanation": "0.6 = 0.35 + P(B) - 0.35 P(B) → 0.25 = 0.65 P(B) → P(B) = 25/65 = 5/13."
+  },
+  {
+    "QuestionText": "Which distribution describes the number of successes in n independent trials?",
+    "Options": ["A) Normal", "B) Binomial", "C) Poisson", "D) Uniform"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Foundation",
+    "Explanation": "Binomial distribution is the foundation of Bernoulli trials."
+  },
+  {
+    "QuestionText": "If P(A|B) > P(A), then P(B|A) is:",
+    "Options": ["A) > P(B)", "B) < P(B)", "C) = P(B)", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(A ∩ B) / P(B) > P(A) implies P(A ∩ B) > P(A)P(B). Thus P(B|A) = P(A ∩ B)/P(A) > P(B)."
+  },
+  {
+    "QuestionText": "The variance of a constant c is:",
+    "Options": ["A) 0", "B) c", "C) c²", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Advanced",
+    "Explanation": "A constant has no spread or variation, so its variance is zero."
+  },
+  {
+    "QuestionText": "Two balls are drawn from a bag with 10 red and 10 black balls. The probability of one red and one black is:",
+    "Options": ["A) 10/19", "B) 1/2", "C) 1/4", "D) 10/38"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "(10C1 * 10C1) / 20C2 = (10 * 10) / 190 = 100/190 = 10/19."
+  },
+  {
+    "QuestionText": "If P(A) = 1/3, P(B) = 1/4 and P(A ∩ B) = 1/5, then P(B|A) is:",
+    "Options": ["A) 3/5", "B) 4/5", "C) 1/2", "D) 5/12"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(B|A) = (1/5) / (1/3) = 3/5."
+  },
+  {
+    "QuestionText": "In 10 throws of a coin, the probability of at most 1 head is:",
+    "Options": ["A) 11/1024", "B) 1/1024", "C) 10/1024", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Bernoulli Trials",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(0) + P(1) = (1/2)¹⁰ + 10(1/2)¹⁰ = 11/1024."
+  },
+  {
+    "QuestionText": "Total number of outcomes in tossing 4 coins is:",
+    "Options": ["A) 8", "B) 16", "C) 4", "D) 32"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "General Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "2⁴ = 16."
+  },
+  {
+    "QuestionText": "If A and B are independent, then P(A ∩ B') is:",
+    "Options": ["A) P(A)P(B')", "B) P(A) - P(A ∩ B)", "C) Both A and B", "D) P(A) + P(B')"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard probability property for independent events and intersections."
+  },
+  {
+    "QuestionText": "The value of P(A|A) is:",
+    "Options": ["A) 0", "B) 1", "C) P(A)", "D) 1/P(A)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(A ∩ A) / P(A) = P(A) / P(A) = 1."
+  },
+  {
+    "QuestionText": "A random variable X has mean 2. Then E(3X + 5) is:",
+    "Options": ["A) 11", "B) 6", "C) 2", "D) 15"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Probability",
+    "SubTopic": "Random Variables",
+    "Difficulty": "Advanced",
+    "Explanation": "E(aX + b) = aE(X) + b. So 3(2) + 5 = 11."
+  }
+]

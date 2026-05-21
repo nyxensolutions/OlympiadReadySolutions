@@ -63,7 +63,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
 
         <SignedIn>
           {/* Desktop nav */}
-          <nav className="hidden flex-1 items-center justify-start gap-1 lg:gap-2 sm:flex ml-4 lg:ml-6">
+          <nav className="hidden flex-1 items-center justify-start gap-0.5 lg:gap-1 sm:flex ml-2 lg:ml-4">
             <NavLink href="/" label="Practice" icon={<Target className="h-3.5 w-3.5" />} active={active === "home"} />
             <NavLink href="/topics" label="Syllabus Map" icon={<BookOpen className="h-3.5 w-3.5" />} active={active === "topics"} />
             <NavLink href="/dashboard" label="Dashboard" icon={<LayoutDashboard className="h-3.5 w-3.5" />} active={active === "dashboard"} />
@@ -98,16 +98,16 @@ export function AppHeader({ active }: { active?: ActivePage }) {
           </SignedIn>
           <SignedOut>
             <SignInButton mode="modal">
-              <button className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50 whitespace-nowrap">
+              <span role="button" className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50 whitespace-nowrap cursor-pointer">
                 <LogIn className="h-4 w-4" />
                 <span className="hidden sm:inline">Sign in</span>
-              </button>
+              </span>
             </SignInButton>
             <SignUpButton mode="modal">
-              <button className="rounded-lg bg-brand-600 px-3 py-2 text-sm font-semibold text-white transition hover:bg-brand-700 whitespace-nowrap">
+              <span role="button" className="rounded-lg bg-brand-600 px-3 py-2 text-sm font-semibold text-white transition hover:bg-brand-700 whitespace-nowrap cursor-pointer">
                 <span className="hidden sm:inline">Sign up free</span>
                 <span className="sm:hidden">Start free</span>
-              </button>
+              </span>
             </SignUpButton>
           </SignedOut>
 
@@ -172,7 +172,7 @@ function NavLink({
 }: {
   href: string; label: string; icon?: React.ReactNode; active?: boolean; accent?: boolean; amber?: boolean; violet?: boolean;
 }) {
-  const base = "inline-flex shrink-0 items-center gap-1 rounded-lg px-2 py-1.5 text-[13px] font-medium transition whitespace-nowrap";
+  const base = "inline-flex shrink-0 items-center gap-1 rounded-lg px-1.5 lg:px-2 py-1.5 text-xs lg:text-[13px] font-medium transition whitespace-nowrap";
   const cls = active
     ? violet
       ? `${base} bg-violet-50 text-violet-700`

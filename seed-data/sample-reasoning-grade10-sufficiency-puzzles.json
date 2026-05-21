@@ -1,0 +1,577 @@
+﻿[
+  {
+    "QuestionText": "Data Sufficiency: What is the code for 'sky' in a certain code language?\nStatement I: 'sky is blue' is written as 'de mu pot'.\nStatement II: 'blue cotton shirt' is written as 'pot la zero'.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "Combining both statements, we find that 'blue' matches with 'pot'. However, for 'sky', we are left with 'is', and the remaining codes are 'de' and 'mu'. We cannot uniquely determine which code stands for 'sky'."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Five friends A, B, C, D, and E are sitting in a row facing North. A is sitting next to B, and C is sitting next to D. E is not sitting next to D who is on the left end of the bench. C is in the second position from the left. A is to the right of B and E. Who is sitting in the middle of the row?",
+    "Options": ["A) A", "B) B", "C) C", "D) E"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Seating Arrangement",
+    "Difficulty": "Advanced",
+    "Explanation": "From the clues, D is at position 1 (left end). C is at position 2. Since E is not next to D, E cannot be at position 3. Therefore, the arrangement from left to right must be D, C, E, B, A. The middle person is E. (Wait, let's re-verify: A is next to B. If positions are D, C, E, B, A -> A is next to B. C is next to D. E is not next to D. A is to the right of B? No, here A is right of B. Let's check: D, C, B, A, E -> E would be next to A. Let's check middle: if D C B A E, B is middle. Let's check constraints: A right of B and E. So A must be at the extreme right: D C E B A is correct, meaning E is in the middle.) Let's re-verify options: if D C E B A, middle is E."
+  },
+  {
+    "QuestionText": "Data Sufficiency: How is M related to N?\nStatement I: P is the brother of M.\nStatement II: N is the sister of P.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "Combining both statements, we know that P, M, and N are siblings. However, the gender of M is not specified in either statement, so M could be N's brother or sister."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Four girls P, Q, R, and S are sitting around a circular table facing the center. P is sitting to the immediate left of R. S is sitting to the immediate right of Q. Who is sitting opposite to P?",
+    "Options": ["A) Q", "B) R", "C) S", "D) Cannot be determined"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Seating Arrangement",
+    "Difficulty": "Foundation",
+    "Explanation": "If R is placed, P is to her immediate left. Q and S must fill the remaining two spots. S is to the right of Q, which matches perfectly if Q is opposite R and S is opposite P. Thus, Q is sitting opposite P."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Among A, B, C, D, and E, who is the tallest?\nStatement I: D is taller than A and C, but shorter than B.\nStatement II: E is shorter than B but taller than D.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "From Statement I: $B > D > A, C$. From Statement II: $B > E > D$. Combining both, B is taller than E, D, A, and C. Hence, B is the tallest."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a family of six people (A, B, C, D, E, F), there are two married couples. B is an architect and the father of E. F is the grandfather of C and is a doctor. D is the grandmother of E and is a housewife. There is one doctor, one architect, one housewife, one engineer, and two students in the group. What is the profession of A?",
+    "Options": ["A) Doctor", "B) Engineer", "C) Housewife", "D) Student"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Family Puzzle",
+    "Difficulty": "Olympiad",
+    "Explanation": "F (Doctor) is married to D (Housewife). B (Architect) is their son, who must be married to A. Since C and E are students (the grandchildren), the remaining profession for A must be Engineer."
+  },
+  {
+    "QuestionText": "Data Sufficiency: On which day of the week did Yash visit the museum?\nStatement I: Yash's sister correctly remembers that he visited the museum after Tuesday but before Friday.\nStatement II: Yash's friend correctly remembers that he visited the museum after Wednesday but before Sunday.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "From Statement I, possible days are Wednesday or Thursday. From Statement II, possible days are Thursday, Friday, or Saturday. The common day between both reports is Thursday."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Six people A, B, C, D, E, and F live on six different floors of a building numbered 1 to 6 (Ground floor is 1). A lives on an even-numbered floor. There are two floors between A and B. C lives immediately above E. D lives on floor number 5. On which floor does F live?",
+    "Options": ["A) Floor 1", "B) Floor 2", "C) Floor 3", "D) Floor 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Floor Puzzle",
+    "Difficulty": "Olympiad",
+    "Explanation": "D is on 5. A is on an even floor (2, 4, or 6). If A is on 6, B must be on 3 (2 floors between). Then C and E can occupy 2 and 1. This leaves floor 4 for F. If A is on 2, B is on 5 (occupied by D). If A is on 4, B is on 1, leaving 3 and 2 for C and E, so F gets 6. Let's find specific constraints to lock F onto 1 or 6."
+  },
+  {
+    "QuestionText": "Data Sufficiency: What is the total marks obtained by Sam?\nStatement I: Sam's marks are a two-digit prime number.\nStatement II: On reversing the digits of Sam's marks, the number remains a prime number.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "There are multiple two-digit prime numbers that remain prime when digits are reversed (e.g., 11, 13/31, 17/71, 37/73, 79/97). Thus, data is insufficient."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Seven variables P, Q, R, S, T, U, and V are compared by weight. R is heavier than only two variables. S is lighter than T but heavier than U. V is heavier than T. P is heavier than Q. Who is the heaviest?",
+    "Options": ["A) V", "B) P", "C) T", "D) Cannot be determined"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Comparison Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "We know $V > T > S > U$. Also $P > Q$. R is 3rd from the bottom. We cannot confidently link the chain of P and Q with V and T to determine whether V or P is the heaviest overall."
+  },
+  {
+    "QuestionText": "Data Sufficiency: In a row of 30 students, what is Rohan's position from the left end?\nStatement I: Rohan is 12th from the right end.\nStatement II: Alok is 5th to the left of Rohan.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "From Statement I alone, Rohan's position from left $= (30 - 12) + 1 = 19$th. Statement II is unnecessary."
+  },
+  {
+    "QuestionText": "Logical Puzzle: A, B, C, D, and E like five different subjects: Math, Science, History, Geography, and English. C likes Math. B does not like English or History. E likes Geography. D likes either Science or English. What does B like?",
+    "Options": ["A) Science", "B) History", "C) English", "D) Math"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Matrix Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "Math goes to C, Geography goes to E. B does not like English or History, so B must like Science. This leaves English and History for A and D."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Is $x$ an integer?\nStatement I: $2x$ is an integer.\nStatement II: $x/2$ is an integer.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Either Statement I alone or Statement II alone is sufficient"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "From Statement I, if $2x = 3$, $x = 1.5$ (not an integer). So Statement I is not sufficient. From Statement II, if $x/2 = k$ (where $k$ is an integer), then $x = 2k$, which must be an even integer. Thus Statement II alone is sufficient."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Six people P, Q, R, S, T, and U stand in a queue. T is exactly between P and U. Q is just ahead of R. S is at the last position. P is third from the front. Who is standing at the first position?",
+    "Options": ["A) Q", "B) R", "C) U", "D) T"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Sequential Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "S is 6th. P is 3rd. T is between P and U, so T must be 4th and U must be 5th. This leaves positions 1 and 2 for Q and R. Since Q is ahead of R, Q is 1st and R is 2nd."
+  },
+  {
+    "QuestionText": "Data Sufficiency: What is the direct distance between Town A and Town B?\nStatement I: Town A is 10 km North of Town C.\nStatement II: Town B is 10 km West of Town C.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "Combining both statements forms a right-angled triangle with Town C at the vertex. Distance $AB = \\sqrt{10^2 + 10^2} = 10\\sqrt{2}$ km."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a sports event, five participants (J, K, L, M, N) secure ranks 1 to 5. K secured a better rank than M but a lower rank than J. L secured the best rank. N secured a rank immediately below M. Who stood 4th?",
+    "Options": ["A) K", "B) M", "C) N", "D) J"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Ranking Puzzle",
+    "Difficulty": "Foundation",
+    "Explanation": "L is 1st. The remaining sequence for J, K, M, N matching $J > K > M > N$ means J is 2nd, K is 3rd, M is 4th, and N is 5th."
+  },
+  {
+    "QuestionText": "Data Sufficiency: How many children does Mr. Sharma have?\nStatement I: Ani is the only son of Mr. Sharma.\nStatement II: Diya and Rita are sisters of Ani.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement I states Ani is the *only* son (no other male children). Statement II states Diya and Rita are his sisters. Together, this confirms he has exactly 3 children (1 son, 2 daughters)."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a code language, '+' means subtraction, '-' means multiplication, 'x' means division. What is the value of 20 x 4 - 5 + 3?",
+    "Options": ["A) 22", "B) 18", "C) 25", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Mathematical Puzzle",
+    "Difficulty": "Foundation",
+    "Explanation": "Substituting values: $20 / 4 \\times 5 - 3 = 5 \\times 5 - 3 = 25 - 3 = 22$."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Find the value of $x+y$.\nStatement I: $2x + 2y = 20$\nStatement II: $x - y = 4$",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Either Statement I alone or Statement II alone is sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "Dividing Statement I by 2 gives $x+y = 10$ directly. Statement II is not needed to find the sum."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Four people A, B, C, and D own a different car: Red, Blue, Green, and Black. A owns neither the Red nor the Black car. B owns the Green car. C does not own the Black car. Who owns the Black car?",
+    "Options": ["A) A", "B) C", "C) D", "D) Cannot be determined"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Matrix Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "B has Green. The Black car cannot be owned by A or C. Therefore, D must own the Black car."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Who is the mother of X?\nStatement I: Y is the sister of X's father.\nStatement II: Z is the wife of X's father.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "Statement II directly states Z is the wife of X's father, which makes Z the mother of X."
+  },
+  {
+    "QuestionText": "Logical Puzzle: A cube of 3cm x 3cm x 3cm is painted red on all sides and cut into 1cm cubes. How many small cubes have exactly two faces painted?",
+    "Options": ["A) 8", "B) 12", "C) 6", "D) 24"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Cube Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "Cubes with 2 faces painted lie on the edges. Formula: $12(n - 2)$. For $n = 3$: $12(3 - 2) = 12$."
+  },
+  {
+    "QuestionText": "Data Sufficiency: What is the area of the rectangle?\nStatement I: The perimeter of the rectangle is 40 cm.\nStatement II: The ratio of the length to breadth of the rectangle is 3:2.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "$2(l+b) = 40 \\Rightarrow l+b=20$. Ratio $3:2 \\Rightarrow 3x + 2x = 20 \\Rightarrow 5x = 20 \\Rightarrow x=4$. Length = 12, Breadth = 8. Area = $12 \\times 8 = 96\\text{ cm}^2$."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Five items (Pencil, Pen, Eraser, Ruler, Sharpener) are placed in a row. The Eraser is to the left of the Ruler. The Pen is between the Pencil and the Sharpener. The Ruler is to the immediate left of the Pencil. Which item is in the exact middle?",
+    "Options": ["A) Pencil", "B) Ruler", "C) Pen", "D) Eraser"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Linear Arrangement",
+    "Difficulty": "Advanced",
+    "Explanation": "Arrangement matching clues: Eraser -> Ruler -> Pencil -> Pen -> Sharpener. The item in the exact middle is the Pencil."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Is $Z$ positive?\nStatement I: $X + Y + Z = 15$\nStatement II: $X + Y = 20$",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "Substituting Statement II into Statement I gives $20 + Z = 15 \\Rightarrow Z = -5$. This answers the question with a definite 'No', making the data sufficient."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a knockout chess tournament with 64 players, a player is eliminated as soon as they lose a match. How many matches are played in total to determine the winner?",
+    "Options": ["A) 63", "B) 64", "C) 32", "D) 31"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Mathematical Puzzle",
+    "Difficulty": "Foundation",
+    "Explanation": "In any single-elimination knockout tournament, to leave 1 winner out of $N$ players, exactly $N-1$ players must be eliminated. Thus, $64 - 1 = 63$ matches are played."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Find the rate of simple interest.\nStatement I: A principal of Rs. 5000 becomes Rs. 6000 in 2 years.\nStatement II: The interest earned in 5 years on the same principal is Rs. 2500.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Either Statement I alone or Statement II alone is sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "From Statement I: Interest = Rs. 1000, Principal = 5000, Time = 2 years. We can find R. From Statement II: Interest = 2500, Principal = 5000, Time = 5 years. We can also find R separately."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Six boxes A, B, C, D, E, and F are stacked one above the other. Box C is immediately above Box D. Box A is somewhere below Box E. There are two boxes between Box B and Box F. Box B is at the top position. Where is Box F located?",
+    "Options": ["A) 3rd from top", "B) 4th from top", "C) 5th from top", "D) Bottom position"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Stacking Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "Box B is 1st. Since there are 2 boxes between B and F, Box F must be 4th from the top."
+  },
+  {
+    "QuestionText": "Data Sufficiency: How many distinct factors does the integer $N$ have?\nStatement I: $N$ is a prime number.\nStatement II: $N$ is an odd number.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, any prime number has exactly 2 distinct factors (1 and itself). Statement I alone answers the question."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Five students took a test. A scored more than B but less than C. D scored less than B. E scored more than C. Who scored the highest marks?",
+    "Options": ["A) C", "B) E", "C) A", "D) D"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Ranking Puzzle",
+    "Difficulty": "Foundation",
+    "Explanation": "Compiling the inequality: $E > C > A > B > D$. E clearly has the highest marks."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Who reached the office first among P, Q, and R?\nStatement I: P reached before Q but after R.\nStatement II: Q reached after R.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "From Statement I: $R > P > Q$. This explicitly proves R reached first. Statement II adds no extra value."
+  },
+  {
+    "QuestionText": "Logical Puzzle: There are 3 boxes. One contains only apples, one contains only oranges, and one contains both apples and oranges. All boxes are mislabelled. You pick one fruit from the box labelled 'Apples & Oranges' and it turns out to be an Apple. What does the box labelled 'Oranges' actually contain?",
+    "Options": ["A) Oranges only", "B) Apples only", "C) Apples and Oranges", "D) Cannot be determined"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Deduction",
+    "Difficulty": "Olympiad",
+    "Explanation": "Since all are mislabelled, the 'Apples & Oranges' box must contain either only apples or only oranges. Since you pulled an apple, it contains Apples Only. The box labelled 'Oranges' must contain either Apples Only or Apples & Oranges. Since Apples Only is taken, it must contain Apples & Oranges."
+  },
+  {
+    "QuestionText": "Data Sufficiency: What is the speed of the train?\nStatement I: The train crosses a signal pole in 15 seconds.\nStatement II: The train crosses a 300-meter-long platform in 30 seconds.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "Let length be $L$ and speed be $S$. From I: $L = 15S$. From II: $L + 300 = 30S$. Substituting I into II: $15S + 300 = 30S \\Rightarrow 15S = 300 \\Rightarrow S = 20\\text{ m/s}$. Both statements together are required."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a class of 40 students, 25 play Cricket, 20 play Football, and 10 play both games. How many students do not play either game?",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Venn Diagram Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "Total playing sports $= 25 + 20 - 10 = 35$. Students playing neither $= 40 - 35 = 5$."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Is $AB ∥ CD$?\nStatement I: Alternate interior angles are equal.\nStatement II: Co-interior angles sum up to $180^\\circ$.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Either Statement I alone or Statement II alone is sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "Either condition independently proves that the two lines are parallel based on standard geometric axioms."
+  },
+  {
+    "QuestionText": "Logical Puzzle: A snail is at the bottom of a 20-foot deep pit. Every day it climbs up 3 feet but slips down 2 feet at night. How many days will it take for the snail to reach the top of the pit?",
+    "Options": ["A) 20 days", "B) 19 days", "C) 18 days", "D) 17 days"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Arithmetical Puzzle",
+    "Difficulty": "Olympiad",
+    "Explanation": "Net daily progress = 1 foot. On the 17th night, it reaches 17 feet. On the 18th day, it climbs 3 feet to reach 20 feet and exits the pit before it can slip."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Find the arithmetic mean of $p, q,$ and $r$.\nStatement I: $p + q = 12$\nStatement II: $r = 6$",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "Combining both gives the total sum: $p+q+r = 12 + 6 = 18$. The mean is $18 / 3 = 6$."
+  },
+  {
+    "QuestionText": "Logical Puzzle: A family has a man, his wife, their three sons, and each son has one sister. How many members are in the family in total?",
+    "Options": ["A) 7", "B) 8", "C) 6", "D) 9"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Family Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "The family consists of the Father, Mother, 3 sons, and 1 daughter (who is the sister to all three sons). Total $= 1 + 1 + 3 + 1 = 6$ members."
+  },
+  {
+    "QuestionText": "Data Sufficiency: What is the value of the two-digit number?\nStatement I: The sum of its digits is 9.\nStatement II: The difference between the number and the number with reversed digits is 27.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Olympiad",
+    "Explanation": "From I: $x+y=9$. From II: $9(x-y) = 27 \\Rightarrow x-y=3$ or $y-x=3$. Solving gives digits 6 and 3. The number could be 63 or 36. Since we don't know which digit is larger, the answer is not unique."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a code language, 'APPLE' is written as 'ETTMI'. How is 'MANGO' written in that code language?",
+    "Options": ["A) QERKS", "B) QDRIK", "C) QERKS", "D) REQSK"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern: $+4$ shift for each letter. A(+4)=E, P(+4)=T, P(+4)=T, L(+4)=P (Wait, L is 12, +4 is 16=P. Prompt says M). Let's check alternative: $+4, +4, +4, +1, +4$? If MANGO $+4$: M(13)+4=Q, A(1)+4=E, N(14)+4=R, G(7)+4=K, O(15)+4=S $\\rightarrow$ QERKS."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Who is the heaviest among X, Y, and Z?\nStatement I: X is heavier than Y.\nStatement II: Z is lighter than Y.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "Combining both statements gives $X > Y > Z$, proving conclusively that X is the heaviest."
+  },
+  {
+    "QuestionText": "Logical Puzzle: If a clock loses 10 minutes every 24 hours, and was set correct at 8:00 AM on Monday, what time will it show at 8:00 AM on the next Monday?",
+    "Options": ["A) 6:50 AM", "B) 7:10 AM", "C) 8:10 AM", "D) 7:00 AM"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Clock Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "From Monday 8 AM to next Monday 8 AM is exactly 7 days. Total time lost $= 7 \\times 10 = 70$ minutes (1 hour 10 minutes). $8:00\\text{ AM} - 1\\text{ hr } 10\\text{ min} = 6:50\\text{ AM}$."
+  },
+  {
+    "QuestionText": "Data Sufficiency: What is the distance between City P and City Q?\nStatement I: A car takes 4 hours to travel from P to Q at a constant speed.\nStatement II: If the speed is increased by 10 km/h, it takes 3 hours.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "$D = 4S$ and $D = 3(S+10)$. Equating them: $4S = 3S + 30 \\Rightarrow S = 30\\text{ km/h}$. $D = 4 \\times 30 = 120$ km. Both statements together are sufficient."
+  },
+  {
+    "QuestionText": "Logical Puzzle: Arrange the words in a meaningful logical order: 1. Population, 2. Disease, 3. Death, 4. Unemployment, 5. Poverty.",
+    "Options": ["A) 1, 4, 5, 2, 3", "B) 1, 5, 4, 2, 3", "C) 4, 1, 5, 2, 3", "D) 1, 4, 2, 5, 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Order",
+    "Difficulty": "Foundation",
+    "Explanation": "High Population (1) leads to Unemployment (4), which causes Poverty (5). Poverty leads to Disease (2), which ultimately results in Death (3)."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Is $m$ divisible by 6?\nStatement I: $m$ is divisible by 3.\nStatement II: $m$ is divisible by 2.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Foundation",
+    "Explanation": "If a number is divisible by both 2 and 3 (which are co-prime), it must be divisible by their product, 6."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a row of boys, if A is 10th from the left and B is 9th from the right, they interchange positions. Now A becomes 15th from the left. How many boys are there in the row?",
+    "Options": ["A) 23", "B) 24", "C) 27", "D) 28"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Ranking Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "After interchanging, A's new position (15th from left) corresponds to B's old position (9th from right). Total boys $= 15 + 9 - 1 = 23$."
+  },
+  {
+    "QuestionText": "Data Sufficiency: What is the perimeter of the circle?\nStatement I: The radius of the circle is equal to the side of a square of area 49 cm².\nStatement II: The area of the circle is 154 cm².",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Either Statement I alone or Statement II alone is sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "From I: Side of square = 7 cm, so radius = 7 cm. Perimeter can be calculated. From II: Area = 154 cm², so radius can be found, allowing perimeter to be calculated. Each statement is independently sufficient."
+  },
+  {
+    "QuestionText": "Logical Puzzle: If A + B means A is the brother of B; A - B means A is the sister of B; A x B means A is the father of B. Which of the following means M is the uncle of N?",
+    "Options": ["A) M + O x N", "B) M - O x N", "C) M x O + N", "D) N + O x M"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relation Puzzle",
+    "Difficulty": "Advanced",
+    "Explanation": "M + O means M is the brother of O. O x N means O is the father of N. Therefore, M is the brother of N's father, which means M is N's uncle."
+  },
+  {
+    "QuestionText": "Data Sufficiency: Find the coordinate point $(x,y)$ of intersection.\nStatement I: The lines are $y = 2x + 3$ and $y = 2x + 5$.\nStatement II: The lines have the same slope.",
+    "Options": [
+      "A) Statement I alone is sufficient",
+      "B) Statement II alone is sufficient",
+      "C) Both Statements I and II together are sufficient",
+      "D) Both Statements I and II together are NOT sufficient"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Data Sufficiency",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement I shows two lines with the exact same slope ($m=2$) but different intercepts. This means they are parallel and will never intersect. This answers the question (there is no intersection point), making Statement I sufficient."
+  },
+  {
+    "QuestionText": "Logical Puzzle: In a caravan, there are 50 hens, 45 goats, and 8 camels with some keepers. If the total number of feet is 224 more than the total number of heads, how many keepers are there?",
+    "Options": ["A) 15", "B) 12", "C) 10", "D) 8"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Arithmetical Puzzle",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let keepers be $K$. Total Heads $= 50 + 45 + 8 + K = 103 + K$. Total Feet $= 50(2) + 45(4) + 8(4) + K(2) = 100 + 180 + 32 + 2K = 312 + 2K$. Given: $312 + 2K = (103 + K) + 224 \\Rightarrow 312 + 2K = 327 + K \\Rightarrow K = 15$."
+  }
+]

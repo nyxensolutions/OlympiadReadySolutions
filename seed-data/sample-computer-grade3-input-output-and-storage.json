@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "Which of these is used to take pictures and input them into a computer?",
+        "Options":  [
+                        "A) Scanner",
+                        "B) Printer",
+                        "C) Speaker",
+                        "D) Monitor"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Input Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A scanner converts physical images or documents into digital data that a computer can process."
+    },
+    {
+        "QuestionText":  "A webcam is used to — ",
+        "Options":  [
+                        "A) Capture video and images as input to a computer",
+                        "B) Print photos",
+                        "C) Display video",
+                        "D) Store data"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Input Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A webcam is an input device that captures real-time video and images for video calls, streaming, etc."
+    },
+    {
+        "QuestionText":  "Which output device produces sound?",
+        "Options":  [
+                        "A) Speaker",
+                        "B) Printer",
+                        "C) Scanner",
+                        "D) Keyboard"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Output Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Speakers convert digital audio signals into sound waves that we can hear."
+    },
+    {
+        "QuestionText":  "Which storage device can you carry in your pocket and plug into a USB port?",
+        "Options":  [
+                        "A) Pen drive (USB flash drive)",
+                        "B) Hard disk",
+                        "C) CD-ROM",
+                        "D) Floppy disk"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A USB pen drive is a small, portable flash memory storage device that plugs into a USB port."
+    },
+    {
+        "QuestionText":  "A CD-ROM can store approximately — ",
+        "Options":  [
+                        "A) 700 MB of data",
+                        "B) 700 GB",
+                        "C) 7 TB",
+                        "D) 7 MB"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Capacity",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A standard CD-ROM holds approximately 700 MB (megabytes) of data."
+    },
+    {
+        "QuestionText":  "Which device is used to input handwritten text or drawings directly into a computer?",
+        "Options":  [
+                        "A) Graphics tablet (digitiser)",
+                        "B) Scanner",
+                        "C) Printer",
+                        "D) Mouse"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Input Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A graphics tablet and stylus allows direct hand-drawn input, used by artists and designers."
+    },
+    {
+        "QuestionText":  "Which of these stores data on magnetic spinning disks inside a computer?",
+        "Options":  [
+                        "A) HDD (Hard Disk Drive)",
+                        "B) SSD",
+                        "C) USB drive",
+                        "D) DVD"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "HDDs store data magnetically on spinning platters; they are the most common internal storage devices."
+    },
+    {
+        "QuestionText":  "SSD stands for — ",
+        "Options":  [
+                        "A) Solid State Drive",
+                        "B) Super Speed Device",
+                        "C) Secure Storage Disk",
+                        "D) Small System Drive"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "An SSD stores data on flash memory chips with no moving parts — faster and more durable than an HDD."
+    },
+    {
+        "QuestionText":  "Which type of memory is used in smartphones and USB drives?",
+        "Options":  [
+                        "A) Flash memory",
+                        "B) Magnetic memory",
+                        "C) Optical memory",
+                        "D) RAM"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Technology",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Flash memory is non-volatile, solid-state storage used in USBs, SD cards, and smartphones."
+    },
+    {
+        "QuestionText":  "A plotter is an output device used to — ",
+        "Options":  [
+                        "A) Print large, precise technical drawings and diagrams",
+                        "B) Scan documents",
+                        "C) Record audio",
+                        "D) Input text"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Output Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Plotters draw precise lines and shapes, used by engineers and architects for technical drawings."
+    },
+    {
+        "QuestionText":  "Which input device reads barcodes on products in a shop?",
+        "Options":  [
+                        "A) Barcode scanner",
+                        "B) Keyboard",
+                        "C) Mouse",
+                        "D) Camera"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Specialised Input Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Barcode scanners use laser or camera technology to read the encoded product information in barcodes."
+    },
+    {
+        "QuestionText":  "Which storage type uses laser beams to read and write data?",
+        "Options":  [
+                        "A) Optical (CD, DVD, Blu-ray)",
+                        "B) Magnetic (HDD)",
+                        "C) Flash (SSD)",
+                        "D) RAM"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Technology",
+        "Difficulty":  "Foundation",
+        "Explanation":  "CDs, DVDs, and Blu-rays use laser light to read pits and lands on the disc surface."
+    },
+    {
+        "QuestionText":  "The resolution of a monitor refers to — ",
+        "Options":  [
+                        "A) The number of pixels (width × height) on the screen",
+                        "B) The brightness of the screen",
+                        "C) The size of the screen in cm",
+                        "D) The memory inside the monitor"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Monitor Specifications",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Resolution (e.g., 1920×1080) is the number of pixels; higher resolution = sharper, clearer images."
+    },
+    {
+        "QuestionText":  "An e-reader (like Kindle) uses which display technology to look like real paper?",
+        "Options":  [
+                        "A) E-ink (electronic ink) display",
+                        "B) LED display",
+                        "C) Plasma display",
+                        "D) CRT display"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Output Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "E-ink displays reflect ambient light like paper, using tiny black/white particles to form letters."
+    },
+    {
+        "QuestionText":  "HDMI (High Definition Multimedia Interface) is a cable used to — ",
+        "Options":  [
+                        "A) Connect a computer to a monitor/TV and transmit audio + video",
+                        "B) Store data",
+                        "C) Connect to Wi-Fi",
+                        "D) Print documents"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Connectivity",
+        "Difficulty":  "Foundation",
+        "Explanation":  "HDMI cables carry high-quality digital audio and video signals between devices."
+    },
+    {
+        "QuestionText":  "Which input device converts physical documents into digital images by shining a light beam across them?",
+        "Options":  [
+                        "A) Flatbed scanner",
+                        "B) Webcam",
+                        "C) Barcode reader",
+                        "D) Microphone"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Input Devices",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A flatbed scanner moves a light source and CCD sensors across a document to capture a digital image."
+    },
+    {
+        "QuestionText":  "A GPU (Graphics Processing Unit) is specialised for — ",
+        "Options":  [
+                        "A) Rendering graphics, images, and video quickly",
+                        "B) Managing keyboard input",
+                        "C) Storing files",
+                        "D) Connecting to the internet"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Computer Components",
+        "Difficulty":  "Advanced",
+        "Explanation":  "GPUs have thousands of cores optimised for parallel processing of graphical data, essential for games and video."
+    },
+    {
+        "QuestionText":  "Magnetic stripe cards (like some bank cards) store data using — ",
+        "Options":  [
+                        "A) Magnetically encoded stripes on the back of the card",
+                        "B) A barcode",
+                        "C) A chip",
+                        "D) A wireless signal"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The magnetic stripe stores account data encoded as magnetic polarity patterns, read by card readers."
+    },
+    {
+        "QuestionText":  "RFID (Radio Frequency Identification) tags are used in — ",
+        "Options":  [
+                        "A) Library books, passports, and shop security tags to track items",
+                        "B) Keyboards",
+                        "C) Printers",
+                        "D) Hard drives"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Specialised Devices",
+        "Difficulty":  "Advanced",
+        "Explanation":  "RFID uses radio waves to read data from tags without physical contact — used in inventory, access control, etc."
+    },
+    {
+        "QuestionText":  "Blu-ray discs store more data than DVDs because — ",
+        "Options":  [
+                        "A) They use a shorter wavelength blue laser that can write smaller pits",
+                        "B) They are bigger",
+                        "C) They spin faster",
+                        "D) They have two layers only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Shorter wavelengths (blue laser = 405nm vs red DVD laser = 650nm) can focus on smaller areas, increasing capacity."
+    },
+    {
+        "QuestionText":  "NVMe (Non-Volatile Memory Express) SSDs are faster than SATA SSDs because — ",
+        "Options":  [
+                        "A) NVMe connects directly to the CPU via PCIe, bypassing the slower SATA interface",
+                        "B) NVMe has spinning disks",
+                        "C) NVMe uses CD-ROM technology",
+                        "D) NVMe is magnetic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "NVMe uses the PCIe bus for direct CPU communication, achieving sequential read speeds up to 7000 MB/s vs ~600 MB/s for SATA."
+    },
+    {
+        "QuestionText":  "Haptic feedback on a smartphone is — ",
+        "Options":  [
+                        "A) Vibration used to simulate touch sensations as output",
+                        "B) Audio output",
+                        "C) Visual display",
+                        "D) A type of microphone"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Output Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Haptic actuators create physical vibrations/sensations, providing tactile feedback when typing or interacting with apps."
+    },
+    {
+        "QuestionText":  "A joystick is used mainly as an input device for — ",
+        "Options":  [
+                        "A) Gaming and controlling aircraft/drones",
+                        "B) Typing text",
+                        "C) Printing documents",
+                        "D) Storing data"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Input Devices",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Joysticks provide multi-directional input for controlling movement in games, flight simulators, and robotics."
+    },
+    {
+        "QuestionText":  "Which output device provides information for visually impaired users by converting text to raised dots?",
+        "Options":  [
+                        "A) Braille display (refreshable Braille display)",
+                        "B) E-ink screen",
+                        "C) Projector",
+                        "D) Plotter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Accessibility Devices",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Refreshable Braille displays move tiny pins up and down to form Braille characters for blind computer users."
+    },
+    {
+        "QuestionText":  "Data transfer speed from an HDD is limited mainly by — ",
+        "Options":  [
+                        "A) The rotational speed of the spinning platters (measured in RPM)",
+                        "B) The size of the disk",
+                        "C) The colour of the disk",
+                        "D) The cable type only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "HDD Performance",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Faster spinning (e.g., 7200 RPM vs 5400 RPM) reduces seek time and increases data transfer rates on HDDs."
+    },
+    {
+        "QuestionText":  "Which technology allows a device to be charged without a physical cable?",
+        "Options":  [
+                        "A) Wireless (inductive) charging",
+                        "B) Bluetooth",
+                        "C) NFC only",
+                        "D) Wi-Fi"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Wireless Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Inductive charging uses electromagnetic coils to transfer energy wirelessly between a charging pad and device."
+    },
+    {
+        "QuestionText":  "A 4K monitor has a resolution of approximately — ",
+        "Options":  [
+                        "A) 3840 × 2160 pixels (about 8 million pixels)",
+                        "B) 1920 × 1080",
+                        "C) 1280 × 720",
+                        "D) 7680 × 4320"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Display Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "4K (Ultra HD) has ~3840×2160 = ~8.3 million pixels — 4× the pixels of 1080p Full HD."
+    },
+    {
+        "QuestionText":  "Cloud storage means your files are stored — ",
+        "Options":  [
+                        "A) On remote servers accessed via the internet",
+                        "B) On a USB drive",
+                        "C) Inside the CPU",
+                        "D) In RAM"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Cloud Computing",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Cloud storage services (Google Drive, iCloud) store files on internet-connected servers, accessible from anywhere."
+    },
+    {
+        "QuestionText":  "An EEG (electroencephalogram) headset that reads brain signals as computer input is an example of — ",
+        "Options":  [
+                        "A) Brain-computer interface (BCI) input device",
+                        "B) Standard keyboard replacement",
+                        "C) Speaker output",
+                        "D) Storage device"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Future Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "BCI devices convert electrical signals from brain neurons into digital commands, used in medical and research applications."
+    },
+    {
+        "QuestionText":  "\u0027Cold storage\u0027 in computing refers to — ",
+        "Options":  [
+                        "A) Data stored on media accessed infrequently (e.g., archival tape) vs \u0027hot\u0027 frequently-accessed storage",
+                        "B) Storage kept in a refrigerator",
+                        "C) Very fast SSD storage",
+                        "D) RAM storage"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Tiers",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Cold/warm/hot storage tiers balance cost and access speed: tapes (cold) are cheap but slow; SSDs (hot) are fast but expensive."
+    },
+    {
+        "QuestionText":  "A monitor\u0027s refresh rate of 144 Hz means it updates the image — ",
+        "Options":  [
+                        "A) 144 times per second, giving smoother motion in games",
+                        "B) 144 pixels per second",
+                        "C) 144 times per minute",
+                        "D) 144 colours per frame"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Display Technology",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Refresh rate (Hz) is how many times per second the screen redraws; 144 Hz provides much smoother motion than 60 Hz."
+    },
+    {
+        "QuestionText":  "If a hard drive has 500 GB total and 200 GB is used, how much free space remains?",
+        "Options":  [
+                        "A) 300 GB",
+                        "B) 200 GB",
+                        "C) 500 GB",
+                        "D) 100 GB"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Calculation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Free space = 500 GB − 200 GB = 300 GB."
+    },
+    {
+        "QuestionText":  "Which technology combines BOTH the speed of RAM and the permanence of flash storage?",
+        "Options":  [
+                        "A) Intel Optane (3D XPoint/storage-class memory)",
+                        "B) Standard SSD",
+                        "C) HDD with cache",
+                        "D) Optical disc"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Emerging Storage",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Optane/3D XPoint is a storage-class memory that offers near-DRAM speed with non-volatility like flash."
+    },
+    {
+        "QuestionText":  "RAID 1 (mirroring) stores — ",
+        "Options":  [
+                        "A) Identical copies of data on two or more disks for redundancy",
+                        "B) Data split across disks for speed",
+                        "C) Compressed data on one disk",
+                        "D) Encrypted data on network servers"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "RAID Storage",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "RAID 1 mirrors all data to a second disk; if one fails, the other has a perfect copy — no data is lost."
+    },
+    {
+        "QuestionText":  "Fingerprint scanners authenticate identity by — ",
+        "Options":  [
+                        "A) Mapping the unique pattern of ridges and valleys in a fingerprint",
+                        "B) Checking your password",
+                        "C) Reading your retina",
+                        "D) Scanning your face"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Biometric Input",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Fingerprint readers capture the unique minutiae (ridge endings/bifurcations) and compare to stored templates."
+    },
+    {
+        "QuestionText":  "Data latency in storage is measured in — ",
+        "Options":  [
+                        "A) Milliseconds (HDD) or microseconds (SSD) or nanoseconds (RAM)",
+                        "B) Megabytes",
+                        "C) Gigahertz",
+                        "D) Pixels"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Performance Metrics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Access latency measures response delay: RAM ≈ 60 ns, NVMe SSD ≈ 20 µs, HDD ≈ 5–10 ms."
+    },
+    {
+        "QuestionText":  "A holographic storage system stores data in — ",
+        "Options":  [
+                        "A) Three-dimensional patterns of interference within a photosensitive material",
+                        "B) Flat magnetic tracks",
+                        "C) Layered optical grooves",
+                        "D) Silicon transistors"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Future Storage",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Holographic storage encodes data in 3D using laser interference patterns, potentially offering very high density."
+    },
+    {
+        "QuestionText":  "LiDAR sensors (used in self-driving cars) work as input devices by — ",
+        "Options":  [
+                        "A) Emitting laser pulses and measuring return time to build a 3D map of surroundings",
+                        "B) Taking photographs",
+                        "C) Recording audio",
+                        "D) Reading barcodes"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Advanced Input Technologies",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "LiDAR (Light Detection And Ranging) calculates distances from laser pulse travel times, creating detailed 3D point clouds."
+    },
+    {
+        "QuestionText":  "Quantum memory would store data using — ",
+        "Options":  [
+                        "A) Quantum states of particles (superposition and entanglement)",
+                        "B) Magnetic domains",
+                        "C) Optical pits",
+                        "D) Electric charges in transistors"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Quantum Technology",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Quantum memory stores information as quantum states of atoms/photons, enabling quantum networks and computing."
+    },
+    {
+        "QuestionText":  "If a file is 3.5 GB and your USB drive has 4 GB capacity with 1.2 GB already used, can you transfer it?",
+        "Options":  [
+                        "A) No — only 2.8 GB free (4 − 1.2 = 2.8 GB \u003c 3.5 GB)",
+                        "B) Yes, easily",
+                        "C) Yes, if you compress the USB",
+                        "D) No, USB drives can\u0027t hold GB files"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Calculation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Free space = 4 − 1.2 = 2.8 GB, which is less than the 3.5 GB file. Transfer is not possible."
+    },
+    {
+        "QuestionText":  "A \u0027seek time\u0027 of an HDD refers to — ",
+        "Options":  [
+                        "A) Time for the read/write head to move to the correct track on the disk",
+                        "B) Time to transfer data",
+                        "C) Time to boot the computer",
+                        "D) Time for the disk to spin up"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "HDD Performance",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Seek time is the time for the actuator arm to position the read/write head over the target track — a key HDD latency factor."
+    },
+    {
+        "QuestionText":  "Compared to a 5400 RPM HDD, a 7200 RPM HDD — ",
+        "Options":  [
+                        "A) Reads/writes data faster due to higher rotational speed",
+                        "B) Is quieter",
+                        "C) Uses less power",
+                        "D) Is larger"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "HDD Specifications",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "7200 RPM means the disk completes more rotations per second, reducing rotational latency and increasing throughput."
+    },
+    {
+        "QuestionText":  "ECC (Error Correcting Code) RAM is preferred in servers because — ",
+        "Options":  [
+                        "A) It detects and automatically corrects single-bit memory errors, preventing data corruption",
+                        "B) It is cheaper",
+                        "C) It is faster for gaming",
+                        "D) It uses less power"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Memory Technology",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Single-bit errors can cause crashes or data corruption in critical systems; ECC RAM automatically detects and corrects them."
+    },
+    {
+        "QuestionText":  "A neural interface implant that allows a paralysed person to control a computer cursor with thought is an example of — ",
+        "Options":  [
+                        "A) Invasive brain-computer interface (BCI) input",
+                        "B) Standard wireless mouse",
+                        "C) Voice recognition input",
+                        "D) Eye-tracking input"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "BCI Technology",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Implanted electrode arrays (like Neuralink or BrainGate) read motor cortex neuron signals to control external devices."
+    },
+    {
+        "QuestionText":  "SSDs are more reliable than HDDs for mobile devices because — ",
+        "Options":  [
+                        "A) No moving parts means resistance to physical shock and vibration",
+                        "B) SSDs are larger",
+                        "C) SSDs use magnetic storage",
+                        "D) SSDs are cheaper"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Reliability",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Without spinning platters or moving read heads, SSDs are immune to the mechanical failures that affect HDDs in mobile use."
+    },
+    {
+        "QuestionText":  "DNA data storage involves — ",
+        "Options":  [
+                        "A) Encoding digital data (0s and 1s) as sequences of DNA bases (A, T, G, C)",
+                        "B) Growing real organisms to store data",
+                        "C) Using DNA to speed up processors",
+                        "D) Biological RAM"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Future Storage",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "DNA can store ~200 petabytes per gram; researchers encode binary data as nucleotide sequences for ultra-dense archival storage."
+    },
+    {
+        "QuestionText":  "A write-once optical disc (CD-R, DVD-R) works because — ",
+        "Options":  [
+                        "A) A laser permanently burns non-reflective marks (pits) into the dye layer",
+                        "B) Data can be erased with heat",
+                        "C) Magnetic fields write the data",
+                        "D) It uses flash memory internally"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Optical Storage",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "CD-Rs/DVD-Rs use a dye layer that is permanently altered by a write laser to represent data; it cannot be changed."
+    },
+    {
+        "QuestionText":  "If streaming HD video requires 5 Mbps and you have a 100 Mbps connection, how many HD streams can run simultaneously?",
+        "Options":  [
+                        "A) 20 streams (100 ÷ 5 = 20)",
+                        "B) 5 streams",
+                        "C) 50 streams",
+                        "D) 10 streams"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Bandwidth Calculation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "100 Mbps ÷ 5 Mbps per stream = 20 simultaneous HD streams."
+    },
+    {
+        "QuestionText":  "A DRAM cell stores one bit using — ",
+        "Options":  [
+                        "A) A capacitor and a transistor — the charge in the capacitor represents 0 or 1",
+                        "B) Two transistors only",
+                        "C) A magnetic domain",
+                        "D) An optical pit"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Memory Technology",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Dynamic RAM uses a tiny capacitor to hold charge (1) or no charge (0); it must be refreshed constantly as capacitors leak."
+    },
+    {
+        "QuestionText":  "Which storage hierarchy is ordered correctly from FASTEST to SLOWEST?",
+        "Options":  [
+                        "A) CPU registers → Cache → RAM → SSD → HDD → Optical → Tape",
+                        "B) RAM → Cache → SSD → HDD",
+                        "C) Tape → HDD → SSD → RAM → Cache",
+                        "D) HDD → SSD → Cache → RAM"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Input Output and Storage",
+        "SubTopic":  "Storage Hierarchy",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The memory hierarchy: registers (fastest, smallest) → cache → RAM → SSD → HDD → optical → tape (slowest, cheapest, largest)."
+    }
+]

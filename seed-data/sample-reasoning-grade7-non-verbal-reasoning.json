@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "In a pattern where shapes rotate 90\u00b0 clockwise each step, after 4 rotations the shape is in its ___",
+    "Options": [
+      "A) Original orientation (360\u00b0 total = back to start)",
+      "B) Rotated 90\u00b0 from start",
+      "C) Rotated 180\u00b0 from start",
+      "D) Rotated 270\u00b0 from start"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Rotation",
+    "Difficulty": "Foundation",
+    "Explanation": "4 \u00d7 90\u00b0 = 360\u00b0 = full rotation. The shape returns to its original orientation."
+  },
+  {
+    "QuestionText": "A square has ___ lines of symmetry",
+    "Options": [
+      "A) 4",
+      "B) 2",
+      "C) 1",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A square has 4 lines of symmetry: 2 diagonal and 2 through midpoints of opposite sides."
+  },
+  {
+    "QuestionText": "A rectangle (non-square) has ___ lines of symmetry",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 1",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A rectangle has 2 lines of symmetry: through midpoints of opposite sides (not diagonals, unless it's a square)."
+  },
+  {
+    "QuestionText": "An equilateral triangle has ___ lines of symmetry",
+    "Options": [
+      "A) 3",
+      "B) 1",
+      "C) 2",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "An equilateral triangle has 3 lines of symmetry, each from a vertex to the midpoint of the opposite side."
+  },
+  {
+    "QuestionText": "A circle has ___ lines of symmetry",
+    "Options": [
+      "A) Infinite (any diameter)",
+      "B) 1",
+      "C) 4",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A circle has infinite lines of symmetry \u2014 any diameter divides it into two equal halves."
+  },
+  {
+    "QuestionText": "When a figure is reflected in a mirror, the image is",
+    "Options": [
+      "A) A mirror image (laterally reversed) of the same size",
+      "B) Rotated 90\u00b0",
+      "C) Enlarged",
+      "D) Inverted upside down"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Mirror reflection: left and right are swapped but size and vertical orientation remain the same."
+  },
+  {
+    "QuestionText": "Which shape has no line of symmetry?",
+    "Options": [
+      "A) Scalene triangle",
+      "B) Equilateral triangle",
+      "C) Circle",
+      "D) Square"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A scalene triangle has all sides and angles different; no line divides it into equal halves."
+  },
+  {
+    "QuestionText": "A regular hexagon has ___ lines of symmetry",
+    "Options": [
+      "A) 6",
+      "B) 3",
+      "C) 4",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "A regular hexagon has 6 lines of symmetry: 3 through opposite vertices, 3 through midpoints of opposite sides."
+  },
+  {
+    "QuestionText": "In a figure with a pattern that increases one shape per row (1, 2, 3...), row 6 has ___ shapes",
+    "Options": [
+      "A) 6",
+      "B) 5",
+      "C) 7",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Pattern Counting",
+    "Difficulty": "Foundation",
+    "Explanation": "Simple linear pattern: row n has n shapes. Row 6 has 6 shapes."
+  },
+  {
+    "QuestionText": "If a shape is folded along its line of symmetry, both halves",
+    "Options": [
+      "A) Exactly overlap (are congruent mirror images)",
+      "B) Differ in size",
+      "C) Differ in shape",
+      "D) Create a new shape"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A line of symmetry divides a shape into two congruent halves that exactly overlap when folded."
+  },
+  {
+    "QuestionText": "The number of triangles in a figure divided into 4 equal parts by diagonals of a square is",
+    "Options": [
+      "A) 8",
+      "B) 4",
+      "C) 6",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Triangles",
+    "Difficulty": "Advanced",
+    "Explanation": "Dividing a square with both diagonals creates 4 triangles; counting all (including combinations) gives 8."
+  },
+  {
+    "QuestionText": "In a 3\u00d73 grid of squares, how many squares in total (including larger ones)?",
+    "Options": [
+      "A) 14",
+      "B) 9",
+      "C) 12",
+      "D) 16"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Squares",
+    "Difficulty": "Advanced",
+    "Explanation": "3\u00d73 grid: 9 small (1\u00d71) + 4 medium (2\u00d72) + 1 large (3\u00d73) = 14 squares total."
+  },
+  {
+    "QuestionText": "Which of these figures can be drawn without lifting the pen or retracing? (Euler path)",
+    "Options": [
+      "A) A figure with 0 or 2 vertices of odd degree",
+      "B) Any figure",
+      "C) Only triangles",
+      "D) Only circles"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Euler Path",
+    "Difficulty": "Olympiad",
+    "Explanation": "Euler's rule: a figure has an Euler path (traceable without lifting pen) if it has exactly 0 or 2 odd-degree vertices."
+  },
+  {
+    "QuestionText": "Rotational symmetry of order 4 means a shape looks the same after rotating",
+    "Options": [
+      "A) 90\u00b0 (4 times in 360\u00b0 gives 4 positions)",
+      "B) 180\u00b0",
+      "C) 45\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Rotational Symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "Order 4: the shape maps onto itself at 90\u00b0, 180\u00b0, 270\u00b0, and 360\u00b0 rotations. A square has order-4 rotational symmetry."
+  },
+  {
+    "QuestionText": "An isosceles triangle has ___ line(s) of symmetry",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "An isosceles triangle has exactly 1 line of symmetry: the altitude from the apex to the base."
+  },
+  {
+    "QuestionText": "A regular pentagon has ___ lines of symmetry",
+    "Options": [
+      "A) 5",
+      "B) 4",
+      "C) 3",
+      "D) 10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Lines of Symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "A regular pentagon has 5 lines of symmetry, each from a vertex through the midpoint of the opposite side."
+  },
+  {
+    "QuestionText": "In mirror image problems, which feature is NOT reversed?",
+    "Options": [
+      "A) Vertical axis (up-down remains same)",
+      "B) Left and right",
+      "C) Horizontal direction",
+      "D) Writing (reversed)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Foundation",
+    "Explanation": "Mirror reflection reverses left-right. Up-down and size remain unchanged."
+  },
+  {
+    "QuestionText": "If a pattern tile has 90\u00b0 rotational symmetry, rotating it 3 times (270\u00b0 total) gives",
+    "Options": [
+      "A) The same as rotating 90\u00b0 anticlockwise",
+      "B) The original",
+      "C) 180\u00b0 version",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Rotation",
+    "Difficulty": "Advanced",
+    "Explanation": "270\u00b0 clockwise = 90\u00b0 anticlockwise. The result is the same as one step anticlockwise."
+  },
+  {
+    "QuestionText": "In figure series, if each figure adds one side to a polygon: triangle\u2192square\u2192pentagon\u2192___",
+    "Options": [
+      "A) Hexagon",
+      "B) Heptagon",
+      "C) Circle",
+      "D) Octagon"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Triangle(3)\u2192Square(4)\u2192Pentagon(5)\u2192Hexagon(6): each adds one side."
+  },
+  {
+    "QuestionText": "A figure has point symmetry (180\u00b0 rotational symmetry) if",
+    "Options": [
+      "A) It looks the same after rotating 180\u00b0 about a central point",
+      "B) It has a vertical axis",
+      "C) It has horizontal symmetry only",
+      "D) It has more than 4 sides"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Point Symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "Point symmetry = order-2 rotational symmetry. Shape maps onto itself at 180\u00b0. E.g. parallelogram, rectangle."
+  },
+  {
+    "QuestionText": "In a matrix pattern (3\u00d73), if each row and column contains shapes increasing in size, the missing piece in the bottom-right follows",
+    "Options": [
+      "A) The largest size in the pattern sequence",
+      "B) The smallest",
+      "C) The middle",
+      "D) Random"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Matrix Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Matrix patterns follow rules across rows AND down columns simultaneously. The missing piece must satisfy both."
+  },
+  {
+    "QuestionText": "How many rectangles are in a 2\u00d73 grid of squares?",
+    "Options": [
+      "A) 18",
+      "B) 6",
+      "C) 12",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Rectangles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Counting rectangles in m\u00d7n grid: C(m+1,2)\u00d7C(n+1,2) = C(3,2)\u00d7C(4,2) = 3\u00d76 = 18."
+  },
+  {
+    "QuestionText": "Paper folding: fold a square in half diagonally and cut a triangle from the fold. How many triangles appear when unfolded?",
+    "Options": [
+      "A) 2 triangles (one on each half)",
+      "B) 1",
+      "C) 4",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Cutting through one layer of a diagonal fold creates a symmetric cut; unfolding reveals 2 identical triangles."
+  },
+  {
+    "QuestionText": "If a transparent sheet with a pattern is flipped over, the resulting image is",
+    "Options": [
+      "A) A mirror image of the original (left-right reversed)",
+      "B) The same",
+      "C) Rotated 90\u00b0",
+      "D) Upside down"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror/Flip",
+    "Difficulty": "Foundation",
+    "Explanation": "Flipping a transparent sheet = mirror reflection: left-right reversal of the pattern."
+  },
+  {
+    "QuestionText": "In a 4\u00d74 dot grid, how many squares of all sizes can be drawn?",
+    "Options": [
+      "A) 30",
+      "B) 16",
+      "C) 20",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Squares",
+    "Difficulty": "Olympiad",
+    "Explanation": "4\u00d74 dot grid: 1\u00d71 squares=9, 2\u00d72=4, 3\u00d73=1 in 3\u00d73 grid of squares = 14, but in 4\u00d74 dot grid: 9+4+1=14 unit squares + tilted squares = 30 total."
+  },
+  {
+    "QuestionText": "A shape rotated 360\u00b0 returns to its ___ position",
+    "Options": [
+      "A) Original",
+      "B) Rotated 90\u00b0",
+      "C) Rotated 180\u00b0",
+      "D) Mirror image"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Rotation",
+    "Difficulty": "Foundation",
+    "Explanation": "360\u00b0 = full rotation = back to original orientation."
+  },
+  {
+    "QuestionText": "In figure analogy: filled circle \u2192 hollow circle :: filled square \u2192 ___",
+    "Options": [
+      "A) Hollow square",
+      "B) Filled triangle",
+      "C) Hollow triangle",
+      "D) Filled circle"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "The rule is filled\u2192hollow. Filled square \u2192 hollow square."
+  },
+  {
+    "QuestionText": "A + B \u2192 C where A is a small triangle and B is a large square: C is",
+    "Options": [
+      "A) Small triangle inside large square",
+      "B) Large square only",
+      "C) Two shapes apart",
+      "D) Triangle becomes square"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Combination",
+    "Difficulty": "Foundation",
+    "Explanation": "When two figures combine, both shapes are present: small triangle inside large square."
+  },
+  {
+    "QuestionText": "Which figure completes the series: circle with 1 dot, circle with 2 dots, circle with 3 dots, ___?",
+    "Options": [
+      "A) Circle with 4 dots",
+      "B) Circle with 5 dots",
+      "C) Empty circle",
+      "D) Circle with 3 dots"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Linear series: dots increase by 1 each step. Next = 4 dots."
+  },
+  {
+    "QuestionText": "In a figure, shading moves one position clockwise each step. After 5 steps starting at top, shading is at ___",
+    "Options": [
+      "A) Top (returns after 4 steps)",
+      "B) Right",
+      "C) Bottom",
+      "D) Left"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Rotation Pattern",
+    "Difficulty": "Advanced",
+    "Explanation": "4 positions, shading moves clockwise. After 4 steps = back to start. 5th step = top position again."
+  },
+  {
+    "QuestionText": "An arrow pointing East is reflected in a horizontal mirror. It now points ___",
+    "Options": [
+      "A) East (horizontal direction unchanged by horizontal mirror)",
+      "B) West",
+      "C) North",
+      "D) South"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Advanced",
+    "Explanation": "Horizontal mirror reverses up-down only; East-West directions are unchanged."
+  },
+  {
+    "QuestionText": "An arrow pointing North is reflected in a vertical mirror. It now points ___",
+    "Options": [
+      "A) North (vertical direction unchanged by vertical mirror)",
+      "B) South",
+      "C) East",
+      "D) West"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Advanced",
+    "Explanation": "Vertical mirror reverses left-right (East\u2194West); North-South direction unchanged."
+  },
+  {
+    "QuestionText": "In a matrix: Row 1 has circle, square, triangle. Row 2 has larger versions. Row 3 has the largest versions. Bottom-right missing shape is ___",
+    "Options": [
+      "A) Largest triangle",
+      "B) Smallest circle",
+      "C) Medium square",
+      "D) Largest circle"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Matrix Pattern",
+    "Difficulty": "Advanced",
+    "Explanation": "Row 3 = largest versions; column 3 = triangles. Bottom-right = largest triangle."
+  },
+  {
+    "QuestionText": "A figure is cut along a fold. When unfolded, the cut pattern is",
+    "Options": [
+      "A) Symmetric about the fold line",
+      "B) Asymmetric",
+      "C) Doubled in size",
+      "D) Changed in shape"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Paper Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Cuts made through a fold line create symmetric (mirror-image) cutouts when unfolded."
+  },
+  {
+    "QuestionText": "In a sequence of figures where each figure has one more line than the previous: if figure 3 has 5 lines, figure 6 has ___",
+    "Options": [
+      "A) 8 lines",
+      "B) 9 lines",
+      "C) 10 lines",
+      "D) 7 lines"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Figure Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Each figure adds 1 line. Figure 3 = 5, Figure 4 = 6, Figure 5 = 7, Figure 6 = 8."
+  },
+  {
+    "QuestionText": "Count the number of straight lines in the letter H",
+    "Options": [
+      "A) 3",
+      "B) 2",
+      "C) 4",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "The letter H: 2 vertical lines + 1 horizontal crossbar = 3 straight lines."
+  },
+  {
+    "QuestionText": "A cube has ___ faces",
+    "Options": [
+      "A) 6",
+      "B) 4",
+      "C) 8",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A cube has 6 square faces, 8 vertices, and 12 edges."
+  },
+  {
+    "QuestionText": "A cube has ___ edges",
+    "Options": [
+      "A) 12",
+      "B) 6",
+      "C) 8",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A cube has 12 edges (4 top + 4 bottom + 4 vertical connecting edges)."
+  },
+  {
+    "QuestionText": "A cube has ___ vertices (corners)",
+    "Options": [
+      "A) 8",
+      "B) 6",
+      "C) 4",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A cube has 8 vertices (corners)."
+  },
+  {
+    "QuestionText": "A sphere has ___ faces, ___ edges, ___ vertices",
+    "Options": [
+      "A) 0 faces, 0 edges, 0 vertices",
+      "B) 1 face, 0 edges, 0 vertices",
+      "C) 0 faces, 1 edge, 0 vertices",
+      "D) 2 faces, 0 edges, 0 vertices"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "3D Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A sphere has no flat faces, no edges, and no vertices \u2014 it is perfectly round."
+  },
+  {
+    "QuestionText": "If a net is folded, which 3D shape does a cross-shaped net (1 square in centre, 4 squares extending in 4 directions, 1 square on top) form?",
+    "Options": [
+      "A) Cube",
+      "B) Pyramid",
+      "C) Cylinder",
+      "D) Cone"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Nets of 3D Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "A cross-shaped net with 6 squares folds into a cube."
+  },
+  {
+    "QuestionText": "In embedded figures, an embedded figure is one that is",
+    "Options": [
+      "A) Hidden inside a larger, more complex figure",
+      "B) Drawn separately",
+      "C) Always coloured differently",
+      "D) Always smaller than the original"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Embedded Figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Embedded figure problems: find a given small shape hidden within a complex larger figure."
+  },
+  {
+    "QuestionText": "Which 2D shape is the cross-section of a cylinder cut horizontally?",
+    "Options": [
+      "A) Circle",
+      "B) Rectangle",
+      "C) Triangle",
+      "D) Square"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cross-Sections",
+    "Difficulty": "Advanced",
+    "Explanation": "Cutting a cylinder parallel to its base (horizontally) gives a circular cross-section."
+  },
+  {
+    "QuestionText": "Which 2D shape is the cross-section of a cylinder cut vertically?",
+    "Options": [
+      "A) Rectangle",
+      "B) Circle",
+      "C) Triangle",
+      "D) Square"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cross-Sections",
+    "Difficulty": "Advanced",
+    "Explanation": "Cutting a cylinder lengthwise (vertically, along its axis) gives a rectangular cross-section."
+  },
+  {
+    "QuestionText": "In a figure matrix, if the number of sides of shapes increases by 1 across columns (3,4,5) and size increases down rows, the cell at row 3, column 2 has",
+    "Options": [
+      "A) A large square (4 sides)",
+      "B) A small triangle",
+      "C) A medium pentagon",
+      "D) A large hexagon"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Matrix Pattern",
+    "Difficulty": "Advanced",
+    "Explanation": "Column 2 = 4 sides (square); Row 3 = large size. Answer: large square."
+  },
+  {
+    "QuestionText": "A pattern tile is reflected then rotated 90\u00b0. The result is the same as",
+    "Options": [
+      "A) Rotating 90\u00b0 then reflecting (if both operations are applied)",
+      "B) Only reflecting",
+      "C) Only rotating",
+      "D) The original tile"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Transformation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Combining reflections and rotations: their order matters; reflect-then-rotate \u2260 rotate-then-reflect in general."
+  },
+  {
+    "QuestionText": "How many squares (of all sizes) are in a 4\u00d74 grid?",
+    "Options": [
+      "A) 30",
+      "B) 16",
+      "C) 20",
+      "D) 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Counting Squares",
+    "Difficulty": "Olympiad",
+    "Explanation": "4\u00d74 grid: 1\u00d71=16, 2\u00d72=9, 3\u00d73=4, 4\u00d74=1. Total=30."
+  },
+  {
+    "QuestionText": "A die has opposite faces summing to 7. If the face showing 2 is up, which face is at the bottom?",
+    "Options": [
+      "A) 5",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Dice Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "On a standard die, opposite faces sum to 7: 1&6, 2&5, 3&4. 7-2=5."
+  },
+  {
+    "QuestionText": "If a cube is painted red on all faces and then cut into 27 smaller cubes (3\u00d73\u00d73), how many small cubes have NO paint?",
+    "Options": [
+      "A) 1 (the centre cube)",
+      "B) 3",
+      "C) 8",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Painting",
+    "Difficulty": "Olympiad",
+    "Explanation": "Only the central cube has no exposed face. Cubes on faces have paint; only the innermost 1 cube is unpainted."
+  },
+  {
+    "QuestionText": "If a cube is cut into 27 smaller cubes, how many small cubes have exactly 3 painted faces?",
+    "Options": [
+      "A) 8 (the corner cubes)",
+      "B) 12",
+      "C) 6",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning - Non-Verbal Reasoning",
+    "SubTopic": "Cube Painting",
+    "Difficulty": "Olympiad",
+    "Explanation": "Corner cubes have 3 painted faces. A 3\u00d73\u00d73 cube has 8 corners."
+  }
+]

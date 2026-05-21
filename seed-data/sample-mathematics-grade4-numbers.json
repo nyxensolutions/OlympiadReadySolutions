@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "What is the place value of the leading digit in the 6-digit number 101,432?",
+    "Options": ["A) 100,000", "B) 10,000", "C) 1,000", "D) 100"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Foundation",
+    "Explanation": "The leftmost digit is in the lakhs/hundred-thousands place, giving it a value of 100,000."
+  },
+  {
+    "QuestionText": "Round the number 25,300 to the nearest hundred.",
+    "Options": ["A) 25,300", "B) 25,400", "C) 25,200", "D) 25,350"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Looking at the tens place, we round to the nearest hundred which is 25,300."
+  },
+  {
+    "QuestionText": "Which Hindu-Arabic numeral correctly matches the Roman numeral XLIII?",
+    "Options": ["A) 43", "B) 48", "C) 41", "D) 53"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Foundation",
+    "Explanation": "XL represents 40 and III represents 3. Combining them results directly in 43."
+  },
+  {
+    "QuestionText": "Identify if the number 34 is a prime or composite number.",
+    "Options": ["A) Prime", "B) Composite", "C) Neither", "D) Both"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Checking the factors of 34 (1, 2, 17, 34) reveals its classification accurately as a composite number."
+  },
+  {
+    "QuestionText": "Estimate the total sum of 4,300 and 1,205 by rounding to the nearest thousand.",
+    "Options": ["A) 5,000", "B) 6,000", "C) 5,500", "D) 4,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Foundation",
+    "Explanation": "Rounding each number to the closest thousand yields 4,000 and 1,000, summing to 5,000."
+  },
+  {
+    "QuestionText": "What is the place value of 5 in the number 523,412?",
+    "Options": ["A) 500,000", "B) 50,000", "C) 5,000", "D) 500"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Foundation",
+    "Explanation": "The digit 5 is in the lakhs place, so its value is 5,000,000."
+  },
+  {
+    "QuestionText": "Which of the following numbers is the smallest?",
+    "Options": ["A) 124,567", "B) 124,657", "C) 124,576", "D) 124,476"],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Comparing the hundreds place, 400 is smaller than 500 or 600."
+  },
+  {
+    "QuestionText": "What is the Roman numeral for 89?",
+    "Options": ["A) LXXXIX", "B) LXXXXIX", "C) XCIX", "D) LXXXVIIII"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Foundation",
+    "Explanation": "80 is represented as LXXX and 9 is IX. Together they form LXXXIX."
+  },
+  {
+    "QuestionText": "Which of these numbers is a multiple of 7?",
+    "Options": ["A) 24", "B) 35", "C) 44", "D) 50"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "7 multiplied by 5 is 35, making 35 a multiple of 7."
+  },
+  {
+    "QuestionText": "Estimate the difference between 8,764 and 3,211 by rounding to the nearest thousand.",
+    "Options": ["A) 5,000", "B) 6,000", "C) 5,600", "D) 4,000"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Foundation",
+    "Explanation": "8,764 rounds up to 9,000. 3,211 rounds down to 3,000. 9,000 - 3,000 = 6,000."
+  },
+  {
+    "QuestionText": "In the international place value system, 400,000 is read as:",
+    "Options": ["A) Four hundred thousand", "B) Four lakhs", "C) Forty thousand", "D) Four million"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Foundation",
+    "Explanation": "In the international system, commas separate every three digits, making it four hundred thousand."
+  },
+  {
+    "QuestionText": "Round 742,891 to the nearest ten thousand.",
+    "Options": ["A) 740,000", "B) 750,000", "C) 743,000", "D) 700,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The thousands digit is 2, which is less than 5, so we round down to 740,000."
+  },
+  {
+    "QuestionText": "Convert the Roman numeral LXXVI into a Hindu-Arabic numeral.",
+    "Options": ["A) 76", "B) 66", "C) 86", "D) 74"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Foundation",
+    "Explanation": "L (50) + XX (20) + V (5) + I (1) = 76."
+  },
+  {
+    "QuestionText": "What is the only even prime number?",
+    "Options": ["A) 0", "B) 2", "C) 4", "D) 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "2 is the only even number that has exactly two factors: 1 and itself."
+  },
+  {
+    "QuestionText": "A school needs to buy 5,890 notebooks. Round this number to the nearest hundred to estimate the cost.",
+    "Options": ["A) 5,900", "B) 5,800", "C) 6,000", "D) 5,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Foundation",
+    "Explanation": "The tens digit is 9, so we round up to 5,900."
+  },
+  {
+    "QuestionText": "What is the face value of 7 in the number 873,451?",
+    "Options": ["A) 7", "B) 70,000", "C) 7,000", "D) 700"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Intermediate",
+    "Explanation": "The face value of any digit is always the digit itself, regardless of its position."
+  },
+  {
+    "QuestionText": "Arrange the following numbers in descending order: 45,231; 45,321; 45,123.",
+    "Options": ["A) 45,321 > 45,231 > 45,123", "B) 45,123 > 45,231 > 45,321", "C) 45,321 > 45,123 > 45,231", "D) 45,231 > 45,321 > 45,123"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "Descending order means largest to smallest. 45,321 is the greatest, followed by 45,231, then 45,123."
+  },
+  {
+    "QuestionText": "What is the value of the Roman expression XC - LV?",
+    "Options": ["A) XXXV", "B) XLV", "C) XXV", "D) LXV"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Intermediate",
+    "Explanation": "XC is 90 and LV is 55. 90 - 55 = 35. 35 in Roman numerals is XXXV."
+  },
+  {
+    "QuestionText": "Which of the following is a common factor of 12 and 18?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 8"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "6 divides both 12 and 18 perfectly without leaving a remainder."
+  },
+  {
+    "QuestionText": "A warehouse holds 12,450 boxes. If 3,890 boxes are shipped out, estimate the remaining boxes to the nearest thousand.",
+    "Options": ["A) 8,000", "B) 9,000", "C) 10,000", "D) 7,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Intermediate",
+    "Explanation": "12,450 rounds to 12,000 and 3,890 rounds to 4,000. 12,000 - 4,000 = 8,000."
+  },
+  {
+    "QuestionText": "How many thousands make 1 lakh in the Indian numbering system?",
+    "Options": ["A) 10", "B) 100", "C) 1,000", "D) 10000"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Intermediate",
+    "Explanation": "1 lakh is written as 1,000,000 which contains exactly one hundred blocks of one thousand."
+  },
+  {
+    "QuestionText": "Find the difference between the greatest 5-digit number and the smallest 6-digit number.",
+    "Options": ["A) 1", "B) 10", "C) 100", "D) 1,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "Smallest 6-digit number is 100,000. Greatest 5-digit number is 99,999. 100,000 - 99,999 = 1."
+  },
+  {
+    "QuestionText": "Which statement is true about Roman numerals?",
+    "Options": ["A) A symbol can be repeated up to 4 times", "B) V, L, and D are never repeated", "C) I can be subtracted from L and C", "D) There is a symbol for zero"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Intermediate",
+    "Explanation": "The symbols V (5), L (50), and D (500) are never repeated or subtracted in standard formatting."
+  },
+  {
+    "QuestionText": "What is the sum of the first three prime numbers?",
+    "Options": ["A) 6", "B) 10", "C) 17", "D) 11"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "The first three prime numbers are 2, 3, and 5. Their sum is 2 + 3 + 5 = 10."
+  },
+  {
+    "QuestionText": "A farmer harvested 4,711 apples and 2,190 oranges. Estimate the combined harvest to the nearest hundred.",
+    "Options": ["A) 6,900", "B) 7,000", "C) 6,800", "D) 6,500"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Intermediate",
+    "Explanation": "4,711 rounds to 4,700. 2,190 rounds to 2,200. 4,700 + 2,200 = 6,900."
+  },
+  {
+    "QuestionText": "What is the difference between the place value and face value of 4 in 643,219?",
+    "Options": ["A) 39,996", "B) 40,000", "C) 4", "D) 39,990"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Place value is 40,000. Face value is 4. 40,000 - 4 = 39,996."
+  },
+  {
+    "QuestionText": "Form the smallest 6-digit number using the digits 4, 0, 7, 1, 9, 3 without repeating any digit.",
+    "Options": ["A) 013,479", "B) 103,479", "C) 130,479", "D) 103,497"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "A standard number cannot start with 0. The next smallest digit is 1, followed by 0, then 3, 4, 7, 9."
+  },
+  {
+    "QuestionText": "Write 94 as a Roman numeral.",
+    "Options": ["A) XCIV", "B) CVI", "C) LXXXXIV", "D) XCIX"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Intermediate",
+    "Explanation": "90 is written as XC (100 - 10) and 4 is written as IV. Combined they make XCIV."
+  },
+  {
+    "QuestionText": "Identify the composite number from the following options.",
+    "Options": ["A) 23", "B) 29", "C) 33", "D) 37"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "33 has factors other than 1 and itself, namely 3 and 11, making it a composite number."
+  },
+  {
+    "QuestionText": "A movie theater sold 8,104 tickets on Friday and 9,892 tickets on Saturday. Estimate total ticket sales to the nearest thousand.",
+    "Options": ["A) 18,000", "B) 17,000", "C) 19,000", "D) 20,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Intermediate",
+    "Explanation": "8,104 rounds to 8,000. 9,892 rounds up to 10,000. 8,000 + 10,000 = 18,000."
+  },
+  {
+    "QuestionText": "Which digit is in the ten-thousands place in the number 891,045?",
+    "Options": ["A) 8", "B) 9", "C) 1", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Counting from right to left: units, tens, hundreds, thousands, ten-thousands. The digit is 9."
+  },
+  {
+    "QuestionText": "What number is 1,000 more than 49,521?",
+    "Options": ["A) 50,521", "B) 49,621", "C) 59,521", "D) 48,521"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "49,521 + 1,000 = 50,521."
+  },
+  {
+    "QuestionText": "What is the Roman numeral equivalent to the sum of XV and XIV?",
+    "Options": ["A) XXIX", "B) XXXI", "C) XXV", "D) XXVII"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Intermediate",
+    "Explanation": "XV = 15, XIV = 14. 15 + 14 = 29. 29 in Roman numerals is XXIX."
+  },
+  {
+    "QuestionText": "Find the sum of all factors of 6.",
+    "Options": ["A) 6", "B) 12", "C) 10", "D) 8"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "The factors of 6 are 1, 2, 3, and 6. Their sum is 1 + 2 + 3 + 6 = 12."
+  },
+  {
+    "QuestionText": "An stadium has an exact seating capacity of 54,821. Round this to the nearest ten thousand.",
+    "Options": ["A) 50,000", "B) 60,000", "C) 55,000", "D) 54,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Intermediate",
+    "Explanation": "The thousands digit is 4, which is less than 5, so we round down to 50,000."
+  },
+  {
+    "QuestionText": "Write 'Two million, three hundred forty thousand' in standard numeric form.",
+    "Options": ["A) 2,340,000", "B) 234,000", "C) 2,034,000", "D) 23,400,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Intermediate",
+    "Explanation": "Two million (2) followed by three hundred forty thousand (340) gives 2,340,000."
+  },
+  {
+    "QuestionText": "If a number has 4 in the ten-thousands place, 0 in the thousands place, and 9 in the ones place, which could it be?",
+    "Options": ["A) 40,529", "B) 4,029", "C) 41,009", "D) 400,529"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "40,529 matches all position specifications perfectly."
+  },
+  {
+    "QuestionText": "What Roman numeral value represents 10 less than 100?",
+    "Options": ["A) XC", "B) CX", "C) LXXXX", "D) IC"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Intermediate",
+    "Explanation": "100 - 10 = 90. 90 is represented as XC."
+  },
+  {
+    "QuestionText": "Which number is both a factor of 24 and a multiple of 4?",
+    "Options": ["A) 8", "B) 9", "C) 14", "D) 16"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Intermediate",
+    "Explanation": "8 is a factor of 24 ($24 \\div 8 = 3$) and a multiple of 4 ($4 \\times 2 = 8$)."
+  },
+  {
+    "QuestionText": "A truck carrying 15,280 kg of gravel dumps 4,910 kg. Approximate the remaining cargo weight to the nearest thousand.",
+    "Options": ["A) 10,000 kg", "B) 11,000 kg", "C) 9,000 kg", "D) 12,000 kg"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Intermediate",
+    "Explanation": "15,280 rounds to 15,000. 4,910 rounds to 5,000. 15,000 - 5,000 = 10,000 kg."
+  },
+  {
+    "QuestionText": "Find the difference between the place values of the two 3s in the number 432,531.",
+    "Options": ["A) 29,970", "B) 30,030", "C) 30,000", "D) 29,900"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Advanced",
+    "Explanation": "The first 3 is in the ten-thousands place (30,000). The second 3 is in the tens place (30). 30,000 - 30 = 29,970."
+  },
+  {
+    "QuestionText": "I am a 5-digit number. My units digit is 3. My tens digit is double my units digit. My other digits are all 9. Who am I?",
+    "Options": ["A) 99,963", "B) 99,639", "C) 99,936", "D) 96,993"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Units digit = 3. Tens digit = $3 \\times 2 = 6$. Remaining digits are 9, creating 99,963."
+  },
+  {
+    "QuestionText": "Solve the Roman numeric riddle: CL - L - LX = ?",
+    "Options": ["A) XL", "B) XLV", "C) L", "D) XXX"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Advanced",
+    "Explanation": "CL = 150, L = 50, LX = 60. $150 - 50 - 60 = 40$. 40 in Roman numerals is XL."
+  },
+  {
+    "QuestionText": "What is the smallest number that is a multiple of both 6 and 8?",
+    "Options": ["A) 24", "B) 12", "C) 48", "D) 18"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "The Least Common Multiple (LCM) of 6 and 8 is 24."
+  },
+  {
+    "QuestionText": "A commercial flight travels 4,321 miles on day one, and 5,879 miles on day two. Estimate the absolute difference in distance covered to the nearest thousand.",
+    "Options": ["A) 2,000 miles", "B) 1,000 miles", "C) 3,000 miles", "D) 1,500 miles"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Advanced",
+    "Explanation": "5,879 rounds to 6,000. 4,321 rounds to 4,000. 6,000 - 4,000 = 2,000 miles."
+  },
+  {
+    "QuestionText": "How many zeroes are there in the standard numeral notation of One Million?",
+    "Options": ["A) 6", "B) 5", "C) 7", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "6-digit numbers: place value up to lakhs (Indian system) and millions (international)",
+    "Difficulty": "Advanced",
+    "Explanation": "One million is written as 1,000,000 which contains exactly 6 zeroes."
+  },
+  {
+    "QuestionText": "Find the sum of the largest 4-digit number and the smallest 3-digit number.",
+    "Options": ["A) 10,099", "B) 10,100", "C) 9,999", "D) 10,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Comparing, ordering, and rounding numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Largest 4-digit number is 9,999. Smallest 3-digit number is 100. 9,999 + 100 = 10,099."
+  },
+  {
+    "QuestionText": "Which of the following Roman numeral strings is mathematically invalid?",
+    "Options": ["A) VX", "B) XIV", "C) XLVI", "D) LXXXVIII"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Roman numerals up to 100",
+    "Difficulty": "Advanced",
+    "Explanation": "V cannot be subtracted from a larger value like X; 5 less than 10 is simply represented as V."
+  },
+  {
+    "QuestionText": "How many prime numbers are there between 10 and 20?",
+    "Options": ["A) 4", "B) 3", "C) 5", "D) 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Number patterns: odd/even, multiples, factors, prime and composite numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "The prime numbers between 10 and 20 are 11, 13, 17, and 19 (4 total numbers)."
+  },
+  {
+    "QuestionText": "A city library has 84,915 books. If they order 15,105 more, approximate the grand total to the nearest ten thousand.",
+    "Options": ["A) 100,000", "B) 90,000", "C) 110,000", "D) 80,000"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics (IMO) - Number System and Place Value",
+    "SubTopic": "Estimation and approximation in real-world contexts",
+    "Difficulty": "Advanced",
+    "Explanation": "84,915 + 15,105 = 100,020. Rounding to the nearest ten thousand yields 100,000."
+  }
+]

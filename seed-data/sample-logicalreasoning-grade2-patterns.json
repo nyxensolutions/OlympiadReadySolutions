@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Find the missing number in the series: 2, 5, 8, 11, __?",
+    "Options": ["A) 12", "B) 13", "C) 14", "D) 15"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is adding 3 to the previous number (2+3=5, 5+3=8, 8+3=11, 11+3=14)."
+  },
+  {
+    "QuestionText": "What comes next in the pattern? Apple, Banana, Apple, Banana, Apple, ____?",
+    "Options": ["A) Apple", "B) Orange", "C) Banana", "D) Grape"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "This is an ABAB repeating pattern."
+  },
+  {
+    "QuestionText": "Identify the next shape in the sequence: Circle, Square, Triangle, Circle, Square, ____?",
+    "Options": ["A) Circle", "B) Triangle", "C) Rectangle", "D) Square"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern repeats three shapes: Circle, Square, Triangle."
+  },
+  {
+    "QuestionText": "Complete the series: 20, 18, 16, 14, __?",
+    "Options": ["A) 12", "B) 10", "C) 13", "D) 15"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is subtracting 2 from the previous number."
+  },
+  {
+    "QuestionText": "Which letter comes next? A, C, E, G, __?",
+    "Options": ["A) H", "B) I", "C) J", "D) K"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern skips one letter in the alphabet: A (b) C (d) E (f) G (h) I."
+  },
+  {
+    "QuestionText": "Find the missing number: 5, 10, 15, 20, __, 30.",
+    "Options": ["A) 22", "B) 24", "C) 25", "D) 26"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a skip-counting pattern by 5s."
+  },
+  {
+    "QuestionText": "Look at the pattern: (1, 2), (2, 4), (3, 6), (4, __).",
+    "Options": ["A) 7", "B) 8", "C) 9", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The second number in each pair is double the first number (4 x 2 = 8)."
+  },
+  {
+    "QuestionText": "If the pattern is Up, Down, Left, Up, Down, Left... what is the 10th position?",
+    "Options": ["A) Up", "B) Down", "C) Left", "D) Right"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The pattern repeats every 3 steps. 3, 6, and 9 are 'Left'. The 10th starts the pattern over at 'Up'."
+  },
+  {
+    "QuestionText": "What is the next term in the series? 10A, 20B, 30C, __?",
+    "Options": ["A) 30D", "B) 40C", "C) 40D", "D) 50D"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The numbers increase by 10 and the letters follow alphabetical order."
+  },
+  {
+    "QuestionText": "Complete the figure pattern: 1 Star, 3 Stars, 5 Stars, __?",
+    "Options": ["A) 6 Stars", "B) 7 Stars", "C) 8 Stars", "D) 9 Stars"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The number of stars increases by 2 each time (Odd numbers sequence)."
+  },
+  {
+    "QuestionText": "Which number is wrong in this series? 2, 4, 6, 7, 10, 12",
+    "Options": ["A) 4", "B) 6", "C) 7", "D) 10"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The series should be even numbers adding 2. 7 should be 8."
+  },
+  {
+    "QuestionText": "Find the missing part: Sun, Moon, Star, Sun, __, Star.",
+    "Options": ["A) Sun", "B) Moon", "C) Earth", "D) Star"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The repeating sequence is Sun, Moon, Star."
+  },
+  {
+    "QuestionText": "Next in series: 100, 90, 80, 70, __?",
+    "Options": ["A) 65", "B) 60", "C) 50", "D) 75"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is backward skip-counting by 10s."
+  },
+  {
+    "QuestionText": "Look at the arrows: ↑, →, ↓, ←, ↑, __?",
+    "Options": ["A) ↑", "B) ↓", "C) →", "D) ←"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The arrow rotates 90 degrees clockwise each time."
+  },
+  {
+    "QuestionText": "Find the next number: 1, 2, 4, 7, 11, __?",
+    "Options": ["A) 12", "B) 15", "C) 16", "D) 14"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The difference increases: +1, +2, +3, +4. So the next is 11 + 5 = 16."
+  },
+  {
+    "QuestionText": "What comes next? Z, Y, X, W, __?",
+    "Options": ["A) V", "B) U", "C) T", "D) S"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The letters are in reverse alphabetical order."
+  },
+  {
+    "QuestionText": "If Monday is 1, Tuesday is 2, Wednesday is 3, what is Friday?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The numbers represent the order of the days in the week."
+  },
+  {
+    "QuestionText": "Find the missing number: 1, 3, 6, 10, __?",
+    "Options": ["A) 12", "B) 13", "C) 14", "D) 15"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The gap grows: +2, +3, +4. The next gap is +5, so 10+5=15."
+  },
+  {
+    "QuestionText": "A triangle has 3 sides, a square has 4 sides, a pentagon has 5 sides. What shape comes next in the pattern?",
+    "Options": ["A) Circle", "B) Hexagon", "C) Rectangle", "D) Oval"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is increasing the number of sides. A hexagon has 6 sides."
+  },
+  {
+    "QuestionText": "Which is the missing figure? ΔO, ΔΔOO, ΔΔΔOOO, ____?",
+    "Options": ["A) ΔΔΔΔOOOO", "B) ΔΔΔOOOO", "C) ΔΔΔΔOOO", "D) ΔOOOO"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Both the number of triangles and circles increase by one in each step."
+  },
+  {
+    "QuestionText": "What is the next number? 11, 22, 33, 44, __?",
+    "Options": ["A) 45", "B) 50", "C) 55", "D) 66"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "This is skip-counting by 11s."
+  },
+  {
+    "QuestionText": "Identify the missing letter: AB, BC, CD, __?",
+    "Options": ["A) DE", "B) EF", "C) CE", "D) DC"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The second letter of the pair becomes the first letter of the next pair."
+  },
+  {
+    "QuestionText": "Find the next item: 1st, 3rd, 5th, 7th, __?",
+    "Options": ["A) 8th", "B) 9th", "C) 10th", "D) 11th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "This uses ordinal numbers in an odd-number sequence."
+  },
+  {
+    "QuestionText": "Complete the pattern: Red, Blue, Blue, Red, Blue, Blue, __?",
+    "Options": ["A) Blue", "B) Red", "C) Green", "D) Yellow"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is 'Red followed by two Blues' (RBB)."
+  },
+  {
+    "QuestionText": "What comes next? 1, 4, 9, 16, __?",
+    "Options": ["A) 20", "B) 24", "C) 25", "D) 30"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "These are square numbers (1x1, 2x2, 3x3, 4x4, 5x5)."
+  },
+  {
+    "QuestionText": "Which number comes next in the backward sequence? 50, 45, 40, 35, __?",
+    "Options": ["A) 25", "B) 30", "C) 34", "D) 20"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtract 5 from each number."
+  },
+  {
+    "QuestionText": "Find the missing pair: (A, Z), (B, Y), (C, X), (__, __).",
+    "Options": ["A) (D, W)", "B) (D, V)", "C) (E, W)", "D) (D, U)"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The first letter moves forward (A, B, C, D) and the second moves backward (Z, Y, X, W)."
+  },
+  {
+    "QuestionText": "Look at the pattern: 2, 4, 8, 16, __?",
+    "Options": ["A) 20", "B) 24", "C) 32", "D) 30"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each number is doubled to get the next one (16 x 2 = 32)."
+  },
+  {
+    "QuestionText": "What is the next shape? 1 Circle, 1 Square, 2 Circles, 2 Squares, 3 Circles, __?",
+    "Options": ["A) 3 Squares", "B) 4 Circles", "C) 1 Square", "D) 3 Circles"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The number of shapes increases after each complete set of Circle and Square."
+  },
+  {
+    "QuestionText": "Find the missing term: M1, N2, O3, __?",
+    "Options": ["A) P3", "B) Q4", "C) P4", "D) O4"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Letters follow alphabetical order, and numbers increase by 1."
+  },
+  {
+    "QuestionText": "Which number completes the series? 1, 10, 2, 20, 3, __?",
+    "Options": ["A) 4", "B) 30", "C) 40", "D) 13"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is an alternating series: (1, 2, 3) and (10, 20, 30)."
+  },
+  {
+    "QuestionText": "What follows the sequence? Big Small, Big Small, __?",
+    "Options": ["A) Small", "B) Big", "C) Medium", "D) Tiny"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern alternates between Big and Small."
+  },
+  {
+    "QuestionText": "Next in series: 5, 6, 8, 11, 15, __?",
+    "Options": ["A) 16", "B) 19", "C) 20", "D) 21"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The gaps are +1, +2, +3, +4. The next gap is +5, so 15+5=20."
+  },
+  {
+    "QuestionText": "Complete the pattern: 121, 232, 343, __?",
+    "Options": ["A) 454", "B) 444", "C) 565", "D) 434"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The first and last digits increase by 1, and the middle digit also increases by 1."
+  },
+  {
+    "QuestionText": "Find the next letter: B, D, F, H, __?",
+    "Options": ["A) I", "B) J", "C) K", "D) L"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip one letter in the alphabet."
+  },
+  {
+    "QuestionText": "What comes next? 99, 88, 77, 66, __?",
+    "Options": ["A) 50", "B) 44", "C) 55", "D) 60"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtract 11 from each number."
+  },
+  {
+    "QuestionText": "If the sequence is ☀, ☁, ☁, ☀, ☁, ☁... what is the 7th symbol?",
+    "Options": ["A) ☀", "B) ☁", "C) ☂", "D) ★"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern repeats every 3 symbols (1st, 4th, 7th will be the Sun)."
+  },
+  {
+    "QuestionText": "Next in series: 4, 8, 12, 16, __?",
+    "Options": ["A) 18", "B) 20", "C) 22", "D) 24"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip-counting by 4s."
+  },
+  {
+    "QuestionText": "Identify the next term: ACE, BDF, CEG, __?",
+    "Options": ["A) DFH", "B) DFI", "C) EGI", "D) DEF"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each letter in the trio moves one step forward in the alphabet (A->B->C->D; C->D->E->F; E->F->G->H)."
+  },
+  {
+    "QuestionText": "What comes next? 0, 5, 1, 6, 2, 7, __?",
+    "Options": ["A) 3", "B) 8", "C) 4", "D) 9"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is an alternating series: (0, 1, 2, 3) and (5, 6, 7)."
+  },
+  {
+    "QuestionText": "Which is the missing number? 3, 6, 9, __, 15.",
+    "Options": ["A) 10", "B) 11", "C) 12", "D) 13"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip-counting by 3s."
+  },
+  {
+    "QuestionText": "Find the missing figure: [X], [XX], [XXX], [____].",
+    "Options": ["A) [XXXX]", "B) [XXXXX]", "C) [XX]", "D) [X]"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The number of 'X's increases by one."
+  },
+  {
+    "QuestionText": "Next in series: 7, 14, 21, 28, __?",
+    "Options": ["A) 30", "B) 35", "C) 42", "D) 40"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Skip-counting by 7s (7 times table)."
+  },
+  {
+    "QuestionText": "What is next? A1, B2, C3, D4, __?",
+    "Options": ["A) E4", "B) F5", "C) E5", "D) D5"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Alphabet and numbers both move forward by one."
+  },
+  {
+    "QuestionText": "Look at the time: 1:00, 2:00, 3:00, __?",
+    "Options": ["A) 3:30", "B) 4:00", "C) 5:00", "D) 4:30"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern increases by exactly one hour."
+  },
+  {
+    "QuestionText": "Find the next number: 1, 2, 1, 3, 1, 4, 1, __?",
+    "Options": ["A) 1", "B) 5", "C) 6", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The number 1 stays the same, while the other number increases (2, 3, 4, 5)."
+  },
+  {
+    "QuestionText": "What comes next? 25, 20, 15, 10, __?",
+    "Options": ["A) 0", "B) 5", "C) 1", "D) 8"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtract 5 each time."
+  },
+  {
+    "QuestionText": "Identify the missing letter: AZ, BY, CX, __?",
+    "Options": ["A) DW", "B) EV", "C) DU", "D) DX"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "First letter forward, second letter backward."
+  },
+  {
+    "QuestionText": "Complete the series: 2, 4, 6, 8, 10, __?",
+    "Options": ["A) 11", "B) 12", "C) 13", "D) 14"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Skip-counting by 2s."
+  },
+  {
+    "QuestionText": "What is the 5th term? 10, 20, 30, 40, __?",
+    "Options": ["A) 45", "B) 50", "C) 60", "D) 55"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Patterns and Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The numbers increase by 10."
+  }
+]

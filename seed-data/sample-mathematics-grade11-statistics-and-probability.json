@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The mean of 5, 10, 15, 20, 25 is:",
+    "Options": [
+      "A) 10",
+      "B) 15",
+      "C) 20",
+      "D) 25"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean = (5+10+15+20+25)/5 = 75/5 = 15."
+  },
+  {
+    "QuestionText": "The median of 3, 7, 2, 9, 5 (when arranged) is:",
+    "Options": [
+      "A) 5",
+      "B) 7",
+      "C) 2",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Arranged: 2,3,5,7,9. Middle value (3rd of 5) = 5."
+  },
+  {
+    "QuestionText": "The mode of 2, 4, 4, 6, 8, 4, 2 is:",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode is the most frequently occurring value. 4 appears 3 times (most frequent)."
+  },
+  {
+    "QuestionText": "The range of data 5, 12, 7, 19, 3 is:",
+    "Options": [
+      "A) 14",
+      "B) 16",
+      "C) 12",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Dispersion",
+    "Difficulty": "Foundation",
+    "Explanation": "Range = Max - Min = 19 - 3 = 16."
+  },
+  {
+    "QuestionText": "Variance is defined as:",
+    "Options": [
+      "A) Average of squared deviations from mean",
+      "B) Square root of mean",
+      "C) Sum of all values",
+      "D) Difference between max and min"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Foundation",
+    "Explanation": "Variance sigma^2 = (1/n) * Sum (xi - x_bar)^2. It measures spread of data."
+  },
+  {
+    "QuestionText": "Standard Deviation is the __ of Variance:",
+    "Options": [
+      "A) Square",
+      "B) Square root",
+      "C) Double",
+      "D) Half"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard Deviation (SD) = sqrt(Variance). It is in the same units as the data, making it more interpretable."
+  },
+  {
+    "QuestionText": "If a card is drawn from a standard deck of 52 cards, the probability it is a king is:",
+    "Options": [
+      "A) 1/13",
+      "B) 1/4",
+      "C) 4/52",
+      "D) Both A and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(King) = 4/52 = 1/13. There are 4 kings in 52 cards. Both A and C are correct."
+  },
+  {
+    "QuestionText": "The probability of a certain event is:",
+    "Options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1",
+      "D) Between 0 and 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Basic Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "A certain event always occurs. Its probability = 1."
+  },
+  {
+    "QuestionText": "The probability of an impossible event is:",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 0.5",
+      "D) Negative"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Basic Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "An impossible event never occurs. P(impossible) = 0."
+  },
+  {
+    "QuestionText": "For two mutually exclusive events A and B, P(A or B) =:",
+    "Options": [
+      "A) P(A) * P(B)",
+      "B) P(A) + P(B) - P(A and B)",
+      "C) P(A) + P(B)",
+      "D) P(A) - P(B)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Addition Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "Mutually exclusive means P(A and B) = 0. So P(A or B) = P(A) + P(B)."
+  },
+  {
+    "QuestionText": "For any event A, P(A) + P(A') =:",
+    "Options": [
+      "A) 0",
+      "B) 2",
+      "C) 1",
+      "D) P(A)^2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "P(A) + P(A') = 1. This is the complement rule: the event occurs or doesn't."
+  },
+  {
+    "QuestionText": "The coefficient of variation (CV) is:",
+    "Options": [
+      "A) (Mean/SD)*100",
+      "B) (SD/Mean)*100",
+      "C) SD/Range",
+      "D) Variance/Mean"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Dispersion",
+    "Difficulty": "Foundation",
+    "Explanation": "CV = (SD/Mean)*100 expresses standard deviation as a percentage of mean, used to compare variability of different datasets."
+  },
+  {
+    "QuestionText": "Two dice are rolled. Probability of getting a sum of 7 is:",
+    "Options": [
+      "A) 1/6",
+      "B) 5/36",
+      "C) 7/36",
+      "D) 6/36"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Favorable outcomes for sum=7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 outcomes. P = 6/36 = 1/6."
+  },
+  {
+    "QuestionText": "Mean deviation from mean for data 2, 4, 6, 8, 10 is:",
+    "Options": [
+      "A) 2",
+      "B) 2.4",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Dispersion",
+    "Difficulty": "Advanced",
+    "Explanation": "Mean=6. Deviations: 4,2,0,2,4. MD = (4+2+0+2+4)/5 = 12/5 = 2.4."
+  },
+  {
+    "QuestionText": "The variance of first n natural numbers is:",
+    "Options": [
+      "A) (n^2-1)/12",
+      "B) n(n+1)/2",
+      "C) (n+1)(2n+1)/6",
+      "D) n^2/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Advanced",
+    "Explanation": "Variance of 1,2,...,n = (n^2-1)/12. For n=3: data is 1,2,3, mean=2, variance=(1+0+1)/3=2/3. Formula: (9-1)/12=8/12=2/3. Checks out."
+  },
+  {
+    "QuestionText": "If P(A) = 0.6 and P(B) = 0.5 and P(A and B) = 0.3, then P(A or B) is:",
+    "Options": [
+      "A) 0.8",
+      "B) 0.9",
+      "C) 1.1",
+      "D) 0.7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Addition Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "P(A or B) = P(A)+P(B)-P(A and B) = 0.6+0.5-0.3 = 0.8."
+  },
+  {
+    "QuestionText": "A bag has 3 red and 5 blue balls. Probability of drawing a red ball is:",
+    "Options": [
+      "A) 3/5",
+      "B) 5/8",
+      "C) 3/8",
+      "D) 1/3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Total balls = 3+5=8. P(Red) = 3/8."
+  },
+  {
+    "QuestionText": "The mean of grouped data where Sum(f*x) = 500 and Sum(f) = 25 is:",
+    "Options": [
+      "A) 10",
+      "B) 20",
+      "C) 25",
+      "D) 50"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Mean = Sum(f*x)/Sum(f) = 500/25 = 20."
+  },
+  {
+    "QuestionText": "If two events are independent, P(A and B) =:",
+    "Options": [
+      "A) P(A)+P(B)",
+      "B) P(A|B)",
+      "C) P(A)*P(B)",
+      "D) P(A)-P(B)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Advanced",
+    "Explanation": "For independent events, the occurrence of A doesn't affect B. P(A and B) = P(A)*P(B)."
+  },
+  {
+    "QuestionText": "The standard deviation of data 3,3,3,3,3 is:",
+    "Options": [
+      "A) 3",
+      "B) 0",
+      "C) 1",
+      "D) 15"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Foundation",
+    "Explanation": "All values are identical. No variation exists. Variance=0, Standard Deviation=0."
+  },
+  {
+    "QuestionText": "Which measure of central tendency is most affected by extreme values?",
+    "Options": [
+      "A) Mode",
+      "B) Median",
+      "C) Mean",
+      "D) Range"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "The mean uses all values in calculation and is pulled toward outliers. Median and mode are more resistant to extreme values."
+  },
+  {
+    "QuestionText": "P(A') is called the probability of:",
+    "Options": [
+      "A) Certain event",
+      "B) Complement of A",
+      "C) Impossible event",
+      "D) Both A and B"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Complementary Events",
+    "Difficulty": "Foundation",
+    "Explanation": "A' (A prime or A complement) is the event that A does not occur. P(A') = 1 - P(A)."
+  },
+  {
+    "QuestionText": "In a class of 30 students, 18 play cricket and 10 play chess and 5 play both. Probability that a randomly selected student plays at least one is:",
+    "Options": [
+      "A) 23/30",
+      "B) 5/6",
+      "C) 3/5",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Addition Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "n(C or Ch) = 18+10-5=23. P = 23/30."
+  },
+  {
+    "QuestionText": "The empirical relationship between Mean, Median, Mode is:",
+    "Options": [
+      "A) Mode = Mean - 2*Median",
+      "B) Mode = 3*Median - 2*Mean",
+      "C) Mode = 2*Mean - 3*Median",
+      "D) Mode = Mean + Median"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Advanced",
+    "Explanation": "Karl Pearson's empirical formula: Mode = 3*Median - 2*Mean. Useful when mode is hard to calculate directly."
+  },
+  {
+    "QuestionText": "A fair coin is tossed 3 times. Probability of getting at least 2 heads is:",
+    "Options": [
+      "A) 1/2",
+      "B) 3/8",
+      "C) 5/8",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "P(2H) = 3C2*(1/2)^3 = 3/8. P(3H) = 1/8. P(at least 2H) = 3/8+1/8 = 4/8 = 1/2."
+  },
+  {
+    "QuestionText": "Variance of x+k (shifting all data by k) compared to variance of x is:",
+    "Options": [
+      "A) Increases by k",
+      "B) Decreases by k",
+      "C) Unchanged",
+      "D) Multiplied by k"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding a constant to all data shifts the mean but not the spread. Variance (and SD) remains unchanged."
+  },
+  {
+    "QuestionText": "If variance = 9, then standard deviation is:",
+    "Options": [
+      "A) 81",
+      "B) 4.5",
+      "C) 3",
+      "D) 9"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Foundation",
+    "Explanation": "SD = sqrt(variance) = sqrt(9) = 3."
+  },
+  {
+    "QuestionText": "The probability that a leap year has 53 Sundays is:",
+    "Options": [
+      "A) 1/7",
+      "B) 2/7",
+      "C) 52/366",
+      "D) 1/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "Leap year = 366 days = 52 complete weeks + 2 extra days. The 2 extra days could be (Sat,Sun) or (Sun,Mon) out of 7 possibilities. P(53 Sundays) = 2/7."
+  },
+  {
+    "QuestionText": "If P(A) = 1/2, P(B) = 1/3, P(A and B) = 1/4, then P(A or B) is:",
+    "Options": [
+      "A) 5/12",
+      "B) 7/12",
+      "C) 1/2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Addition Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "P(A or B) = 1/2 + 1/3 - 1/4 = 6/12 + 4/12 - 3/12 = 7/12."
+  },
+  {
+    "QuestionText": "The probability of getting a prime number when a die is rolled is:",
+    "Options": [
+      "A) 1/2",
+      "B) 1/3",
+      "C) 2/3",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Prime numbers on a die: 2,3,5. P = 3/6 = 1/2."
+  },
+  {
+    "QuestionText": "If SD of a,b,c is d, then SD of a+3, b+3, c+3 is:",
+    "Options": [
+      "A) d+3",
+      "B) d-3",
+      "C) 3d",
+      "D) d"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding a constant shifts mean but doesn't change dispersion. SD remains d."
+  },
+  {
+    "QuestionText": "The median of an ungrouped dataset with n observations (n odd) is the:",
+    "Options": [
+      "A) n/2 th observation",
+      "B) (n+1)/2 th observation",
+      "C) (n+2)/2 th observation",
+      "D) n th observation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "For odd n, median is the middle value = ((n+1)/2)th observation when arranged in order."
+  },
+  {
+    "QuestionText": "The coefficient of variation of data with mean 20 and SD 5 is:",
+    "Options": [
+      "A) 4%",
+      "B) 25%",
+      "C) 100%",
+      "D) 400%"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Dispersion",
+    "Difficulty": "Advanced",
+    "Explanation": "CV = (SD/Mean)*100 = (5/20)*100 = 25%."
+  },
+  {
+    "QuestionText": "Two cards are drawn from a deck of 52 without replacement. Probability both are aces is:",
+    "Options": [
+      "A) 1/169",
+      "B) 1/221",
+      "C) 4/52",
+      "D) 1/26"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "P = (4/52)*(3/51) = 12/(52*51) = 12/2652 = 1/221."
+  },
+  {
+    "QuestionText": "In a sample of 100, mean=50, SD=10. The coefficient of variation is:",
+    "Options": [
+      "A) 20%",
+      "B) 10%",
+      "C) 50%",
+      "D) 5%"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Dispersion",
+    "Difficulty": "Advanced",
+    "Explanation": "CV = (10/50)*100 = 20%."
+  },
+  {
+    "QuestionText": "P(A|B) represents:",
+    "Options": [
+      "A) Probability of A and B together",
+      "B) Probability of A given B has occurred",
+      "C) P(A)*P(B)",
+      "D) P(A)/P(B)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Conditional Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "P(A|B) is the conditional probability of A given that event B has already occurred."
+  },
+  {
+    "QuestionText": "The sum of all probabilities in a sample space equals:",
+    "Options": [
+      "A) 0",
+      "B) n (number of events)",
+      "C) 1",
+      "D) Varies"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Basic Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "The total probability over the entire sample space = 1. This is the axiom of total probability."
+  },
+  {
+    "QuestionText": "From a group of 4 men and 3 women, a committee of 3 is chosen at random. Probability it has exactly 2 women:",
+    "Options": [
+      "A) 4/35",
+      "B) 12/35",
+      "C) 18/35",
+      "D) 8/35"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "P = (3C2*4C1)/7C3 = (3*4)/35 = 12/35."
+  },
+  {
+    "QuestionText": "The mean and variance of a binomial distribution with n=10, p=0.5 are:",
+    "Options": [
+      "A) Mean=5, Var=2.5",
+      "B) Mean=5, Var=5",
+      "C) Mean=10, Var=2.5",
+      "D) Mean=2.5, Var=5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Probability Distributions",
+    "Difficulty": "Olympiad",
+    "Explanation": "For binomial: Mean=np=5, Variance=npq=10*0.5*0.5=2.5."
+  },
+  {
+    "QuestionText": "The mean deviation about median is minimum compared to deviation about:",
+    "Options": [
+      "A) Mode",
+      "B) Any other point",
+      "C) Mean",
+      "D) Zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Dispersion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Mean deviation is minimized when calculated about the median (property of L1 optimality). Mean minimizes sum of squared deviations (variance)."
+  },
+  {
+    "QuestionText": "Which measure of dispersion is not affected by extreme values?",
+    "Options": [
+      "A) Range",
+      "B) Mean deviation from mean",
+      "C) Standard deviation",
+      "D) Quartile deviation"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Dispersion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Quartile deviation uses only Q1 and Q3 (middle 50% of data), making it unaffected by extreme values unlike range, SD, or mean deviation."
+  },
+  {
+    "QuestionText": "If P(A)=0.4 and A and B are independent with P(B)=0.3, then P(A and B) is:",
+    "Options": [
+      "A) 0.7",
+      "B) 0.12",
+      "C) 0.1",
+      "D) 0.3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Independent Events",
+    "Difficulty": "Advanced",
+    "Explanation": "For independent events: P(A and B)=P(A)*P(B)=0.4*0.3=0.12."
+  },
+  {
+    "QuestionText": "The variance of the data 6,7,10,12,13,4,8,12 is:",
+    "Options": [
+      "A) 6",
+      "B) 9",
+      "C) 7.5",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Advanced",
+    "Explanation": "Mean=72/8=9. Deviations squared: 9,4,1,9,16,25,1,9. Sum=74. Variance=74/8=9.25 approx. Closest answer B."
+  },
+  {
+    "QuestionText": "If events A and B are mutually exclusive then:",
+    "Options": [
+      "A) P(A and B) = P(A)*P(B)",
+      "B) P(A and B) = 0",
+      "C) P(A or B) = 0",
+      "D) They are also independent"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Mutually Exclusive Events",
+    "Difficulty": "Foundation",
+    "Explanation": "Mutually exclusive events cannot occur together, so P(A and B) = 0. Note: mutually exclusive events are NOT necessarily independent."
+  },
+  {
+    "QuestionText": "A die is thrown. P(number > 4) is:",
+    "Options": [
+      "A) 1/6",
+      "B) 1/3",
+      "C) 1/2",
+      "D) 2/3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Numbers > 4 on a die: {5,6}. P = 2/6 = 1/3."
+  },
+  {
+    "QuestionText": "The median of 2, 3, 4, 5, 6, 7 is:",
+    "Options": [
+      "A) 4",
+      "B) 4.5",
+      "C) 5",
+      "D) 3.5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Measures of Central Tendency",
+    "Difficulty": "Foundation",
+    "Explanation": "n=6 (even). Median = average of 3rd and 4th values = (4+5)/2 = 4.5."
+  },
+  {
+    "QuestionText": "The number of outcomes in the sample space when 2 coins are tossed is:",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Sample Space",
+    "Difficulty": "Foundation",
+    "Explanation": "S = {HH, HT, TH, TT}. Total = 4 = 2^2."
+  },
+  {
+    "QuestionText": "If SD of x is sigma, SD of 2x+5 is:",
+    "Options": [
+      "A) 2*sigma+5",
+      "B) 2*sigma",
+      "C) sigma",
+      "D) 4*sigma"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Advanced",
+    "Explanation": "SD of (ax+b) = |a|*SD(x). Adding constant b doesn't change SD. Multiplying by 2 scales SD by 2. So SD = 2*sigma."
+  },
+  {
+    "QuestionText": "The probability that a non-leap year has 53 Sundays is:",
+    "Options": [
+      "A) 1/7",
+      "B) 2/7",
+      "C) 53/365",
+      "D) 1/52"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Classical Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "A non-leap year has 365=52 weeks+1 extra day. That extra day is Sunday with probability 1/7."
+  },
+  {
+    "QuestionText": "If variance of dataset is 0, it means all data values are:",
+    "Options": [
+      "A) Negative",
+      "B) Zero",
+      "C) Equal to each other",
+      "D) Equal to mean only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Statistics and Probability",
+    "SubTopic": "Variance and Standard Deviation",
+    "Difficulty": "Advanced",
+    "Explanation": "Variance=0 means all deviations from mean are zero, i.e., every data value equals the mean \u2014 all values are identical."
+  }
+]

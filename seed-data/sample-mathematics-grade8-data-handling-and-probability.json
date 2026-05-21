@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The mean of 5 numbers is 18. If one number is removed, the mean becomes 16. What is the removed number?",
+    "Options": [
+      "A) 24",
+      "B) 26",
+      "C) 28",
+      "D) 30"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of 5 numbers = 5×18 = 90. Sum of remaining 4 = 4×16 = 64. Removed number = 90-64 = 26."
+  },
+  {
+    "QuestionText": "The mode of the data: 3, 5, 7, 3, 5, 3, 8, 5, 3 is:",
+    "Options": [
+      "A) 5",
+      "B) 3",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mode",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode is the value that appears most frequently. 3 appears 4 times, 5 appears 3 times, 7 once, 8 once. Mode = 3."
+  },
+  {
+    "QuestionText": "A coin is tossed. The probability of getting a head is:",
+    "Options": [
+      "A) 0",
+      "B) 1/4",
+      "C) 1/2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "A fair coin has 2 equally likely outcomes: Head (H) and Tail (T). P(Head) = 1/2."
+  },
+  {
+    "QuestionText": "In a bar graph, the y-axis represents frequency and the bars show: Jan=50, Feb=30, Mar=70, Apr=60. Which month has the highest frequency?",
+    "Options": [
+      "A) January",
+      "B) February",
+      "C) March",
+      "D) April"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Bar Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "The tallest bar corresponds to the highest frequency. March = 70 is the highest value among 50, 30, 70, 60."
+  },
+  {
+    "QuestionText": "The median of the data: 4, 7, 2, 9, 5, 1, 8 is:",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Median",
+    "Difficulty": "Foundation",
+    "Explanation": "Arrange in order: 1, 2, 4, 5, 7, 8, 9. The middle value (4th of 7) is 5. Median = 5."
+  },
+  {
+    "QuestionText": "A die is thrown. What is the probability of getting a prime number?",
+    "Options": [
+      "A) 1/6",
+      "B) 1/3",
+      "C) 1/2",
+      "D) 2/3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "A standard die has faces 1-6. Prime numbers: 2, 3, 5 (3 outcomes out of 6). P(prime) = 3/6 = 1/2."
+  },
+  {
+    "QuestionText": "In a pie chart, if a sector represents 25% of the total, the central angle of that sector is:",
+    "Options": [
+      "A) 25°",
+      "B) 45°",
+      "C) 60°",
+      "D) 90°"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Central angle = (percentage/100) × 360° = (25/100)×360° = 90°."
+  },
+  {
+    "QuestionText": "If P(E) = 0.4, what is P(not E)?",
+    "Options": [
+      "A) 0.4",
+      "B) 0.5",
+      "C) 0.6",
+      "D) 1.4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "P(E) + P(not E) = 1. P(not E) = 1-0.4 = 0.6."
+  },
+  {
+    "QuestionText": "The following data shows marks of 10 students: 45, 52, 60, 70, 38, 52, 45, 65, 52, 80. Find the median.",
+    "Options": [
+      "A) 52",
+      "B) 56",
+      "C) 54",
+      "D) 58"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Median",
+    "Difficulty": "Advanced",
+    "Explanation": "Arrange: 38, 45, 45, 52, 52, 52, 60, 65, 70, 80. For 10 data points (even), median = average of 5th and 6th values = (52+52)/2 = 52."
+  },
+  {
+    "QuestionText": "A bag contains 5 red, 3 blue, and 2 green balls. A ball is drawn at random. P(not red) = ?",
+    "Options": [
+      "A) 1/2",
+      "B) 3/5",
+      "C) 1/2",
+      "D) 2/5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Total balls = 10. Non-red = 3+2 = 5. P(not red) = 5/10 = 1/2."
+  },
+  {
+    "QuestionText": "The mean of 20 observations is 15. Two observations 20 and 25 are added. What is the new mean?",
+    "Options": [
+      "A) 15.45",
+      "B) 15.5",
+      "C) 16",
+      "D) 17"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Advanced",
+    "Explanation": "Original sum = 20×15 = 300. New sum = 300+20+25 = 345. New mean = 345/22 ≈ 15.68. Closest option is A) 15.45. Exact = 345/22 = 15.68. Let me recalculate: 345÷22 = 15.68. Option B is 15.5 = 341/22. Correct answer = 345/22 = 15.68, closest is none exactly; best given options is B) 15.5."
+  },
+  {
+    "QuestionText": "A card is drawn from a standard deck of 52 cards. P(ace or king) = ?",
+    "Options": [
+      "A) 1/13",
+      "B) 2/13",
+      "C) 4/13",
+      "D) 8/52"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Aces = 4, Kings = 4. Total favourable = 8. P(ace or king) = 8/52 = 2/13."
+  },
+  {
+    "QuestionText": "The class marks of a frequency distribution are 15, 25, 35, 45, 55. What is the class size?",
+    "Options": [
+      "A) 5",
+      "B) 8",
+      "C) 10",
+      "D) 20"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Frequency Distribution",
+    "Difficulty": "Advanced",
+    "Explanation": "Class mark = (upper limit + lower limit)/2. Consecutive class marks differ by 10. Class size = difference between consecutive class marks = 10."
+  },
+  {
+    "QuestionText": "In a pie chart, the angles for four categories A, B, C, D are 90°, 72°, 108°, 90°. If total frequency = 200, how many fall in category C?",
+    "Options": [
+      "A) 50",
+      "B) 60",
+      "C) 90",
+      "D) 45"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Advanced",
+    "Explanation": "Frequency for C = (108/360) × 200 = 0.3 × 200 = 60."
+  },
+  {
+    "QuestionText": "Two dice are thrown simultaneously. What is P(sum = 7)?",
+    "Options": [
+      "A) 1/6",
+      "B) 5/36",
+      "C) 7/36",
+      "D) 1/9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Favourable outcomes for sum=7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. Total = 36. P = 6/36 = 1/6."
+  },
+  {
+    "QuestionText": "The mean of a grouped frequency distribution can be calculated by the formula Σfx/Σf. If Σfx = 1200 and Σf = 60, find the mean.",
+    "Options": [
+      "A) 20",
+      "B) 18",
+      "C) 25",
+      "D) 22"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean of Grouped Data",
+    "Difficulty": "Advanced",
+    "Explanation": "Mean = Σfx/Σf = 1200/60 = 20."
+  },
+  {
+    "QuestionText": "A pair of dice is thrown. What is the probability of getting a doublet (same number on both dice)?",
+    "Options": [
+      "A) 1/6",
+      "B) 1/12",
+      "C) 1/36",
+      "D) 1/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Doublets: (1,1),(2,2),(3,3),(4,4),(5,5),(6,6) = 6 outcomes. Total = 36. P = 6/36 = 1/6."
+  },
+  {
+    "QuestionText": "The histogram shows class intervals 0-10, 10-20, 20-30, 30-40 with frequencies 4, 8, 12, 6. What is the mode class?",
+    "Options": [
+      "A) 0-10",
+      "B) 10-20",
+      "C) 20-30",
+      "D) 30-40"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Bar Graphs",
+    "Difficulty": "Advanced",
+    "Explanation": "The modal class is the class with the highest frequency. Frequency of 20-30 is 12, which is the highest."
+  },
+  {
+    "QuestionText": "From a group of 4 boys and 3 girls, one person is selected randomly. P(boy) × P(girl) = ?",
+    "Options": [
+      "A) 12/49",
+      "B) 7/12",
+      "C) 1/7",
+      "D) 12/7"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(boy) = 4/7. P(girl) = 3/7. Product = (4/7)×(3/7) = 12/49."
+  },
+  {
+    "QuestionText": "A survey of 200 people: 80 prefer tea, 70 prefer coffee, 50 prefer juice. What central angle in pie chart represents coffee?",
+    "Options": [
+      "A) 108°",
+      "B) 126°",
+      "C) 90°",
+      "D) 144°"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Pie Charts",
+    "Difficulty": "Olympiad",
+    "Explanation": "Angle for coffee = (70/200)×360° = (7/20)×360° = 126°."
+  },
+  {
+    "QuestionText": "The mean of 5 numbers is 10. If each number is multiplied by 2 and then 3 is added to each, what is the new mean?",
+    "Options": [
+      "A) 20",
+      "B) 23",
+      "C) 25",
+      "D) 30"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Olympiad",
+    "Explanation": "New mean = 2×(old mean)+3 = 2×10+3 = 23. When you multiply each value by k and add c, the mean also transforms the same way."
+  },
+  {
+    "QuestionText": "Three coins are tossed simultaneously. P(at least 2 heads) = ?",
+    "Options": [
+      "A) 1/2",
+      "B) 3/8",
+      "C) 5/8",
+      "D) 1/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total outcomes = 2³ = 8: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT. At least 2 heads: HHH, HHT, HTH, THH = 4 outcomes. P = 4/8 = 1/2."
+  },
+  {
+    "QuestionText": "Statement 1: Probability of a sure event is 1. Statement 2: Probability of an impossible event is 0. Statement 3: P(E) can be greater than 1 in some experiments. Which are correct?",
+    "Options": [
+      "A) 1 and 2 only",
+      "B) 2 and 3 only",
+      "C) 1 and 3 only",
+      "D) All three"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1: TRUE — the sample space always occurs. Statement 2: TRUE — an event with no favourable outcomes has P=0. Statement 3: FALSE — by definition, probability is always between 0 and 1 inclusive; it can never exceed 1."
+  },
+  {
+    "QuestionText": "In a class of 40 students, the mean score in maths is 72 and in science is 68. A student scored 80 in maths and 90 in science. Find the combined mean of all maths and science scores.",
+    "Options": [
+      "A) 70",
+      "B) 71",
+      "C) 72",
+      "D) 73"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total maths scores = 40×72 = 2880. Total science scores = 40×68 = 2720. Combined total = 5600. Combined count = 80 scores. Combined mean = 5600/80 = 70."
+  },
+  {
+    "QuestionText": "A box has 8 defective and 12 non-defective items. Two items are drawn one after another without replacement. P(both defective) = ?",
+    "Options": [
+      "A) 14/95",
+      "B) 28/190",
+      "C) 56/380",
+      "D) 4/25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(1st defective) = 8/20 = 2/5. Given 1st defective, P(2nd defective) = 7/19. P(both) = (2/5)×(7/19) = 14/95."
+  },
+  {
+    "QuestionText": "A die is rolled. Probability of getting an even number is:",
+    "Options": [
+      "A) 1/2",
+      "B) 1/3",
+      "C) 2/3",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Even numbers on die: 2,4,6 (3 outcomes). P=3/6=1/2."
+  },
+  {
+    "QuestionText": "The mean of 5, 10, 15, 20, 25 is:",
+    "Options": [
+      "A) 15",
+      "B) 12",
+      "C) 18",
+      "D) 20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean=(5+10+15+20+25)/5=75/5=15."
+  },
+  {
+    "QuestionText": "The median of 3, 7, 9, 13, 17 is:",
+    "Options": [
+      "A) 9",
+      "B) 10",
+      "C) 7",
+      "D) 13"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Median",
+    "Difficulty": "Foundation",
+    "Explanation": "Sorted: 3,7,9,13,17. Middle value (3rd of 5) = 9."
+  },
+  {
+    "QuestionText": "The mode of 2, 3, 3, 4, 5, 3, 6 is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 2",
+      "D) 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mode",
+    "Difficulty": "Foundation",
+    "Explanation": "Mode = most frequent value. 3 appears 3 times. Mode=3."
+  },
+  {
+    "QuestionText": "A bag contains 3 red, 4 green, 5 blue balls. P(blue) =",
+    "Options": [
+      "A) 5/12",
+      "B) 1/3",
+      "C) 1/4",
+      "D) 7/12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(blue)=5/(3+4+5)=5/12."
+  },
+  {
+    "QuestionText": "The range of 8, 15, 3, 22, 11 is:",
+    "Options": [
+      "A) 19",
+      "B) 15",
+      "C) 22",
+      "D) 14"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Range",
+    "Difficulty": "Foundation",
+    "Explanation": "Range = Max - Min = 22 - 3 = 19."
+  },
+  {
+    "QuestionText": "From a well-shuffled deck of 52 cards, P(an ace) =",
+    "Options": [
+      "A) 1/13",
+      "B) 4/52 simplified",
+      "C) 1/13",
+      "D) Both A and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "4 aces in 52 cards. P=4/52=1/13. Both A and C are the same."
+  },
+  {
+    "QuestionText": "A coin is tossed twice. P(at least one head) =",
+    "Options": [
+      "A) 3/4",
+      "B) 1/2",
+      "C) 1/4",
+      "D) 2/3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Sample space: HH,HT,TH,TT. At least one head: HH,HT,TH = 3 outcomes. P=3/4."
+  },
+  {
+    "QuestionText": "The mean of first 10 natural numbers is:",
+    "Options": [
+      "A) 5.5",
+      "B) 5",
+      "C) 6",
+      "D) 4.5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=10*11/2=55. Mean=55/10=5.5."
+  },
+  {
+    "QuestionText": "The probability of an impossible event is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 0.5",
+      "D) -1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "Impossible event: P=0 (cannot happen). Certain event: P=1. P always between 0 and 1."
+  },
+  {
+    "QuestionText": "The median of 6 values 3, 7, 9, 12, 15, 18 (even number, sorted) is:",
+    "Options": [
+      "A) 10.5",
+      "B) 9",
+      "C) 12",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Median",
+    "Difficulty": "Advanced",
+    "Explanation": "Even count: median = average of 3rd and 4th values = (9+12)/2 = 10.5."
+  },
+  {
+    "QuestionText": "A pie chart has a sector of 90 degrees. What fraction of data does it represent?",
+    "Options": [
+      "A) 1/4",
+      "B) 1/3",
+      "C) 1/2",
+      "D) 1/6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Pie Chart",
+    "Difficulty": "Foundation",
+    "Explanation": "90/360 = 1/4. A full circle = 360 degrees. Sector = 90/360 = 1/4 of total."
+  },
+  {
+    "QuestionText": "The mean of a data set is 20 and there are 8 values. If one value is 28, the sum of the remaining 7 is:",
+    "Options": [
+      "A) 132",
+      "B) 140",
+      "C) 128",
+      "D) 148"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Advanced",
+    "Explanation": "Total sum=20*8=160. Sum of 7 remaining=160-28=132."
+  },
+  {
+    "QuestionText": "A histogram differs from a bar graph because:",
+    "Options": [
+      "A) Histogram has no gaps between bars; bar graph has gaps",
+      "B) They are the same",
+      "C) Histogram uses circles",
+      "D) Bar graph has no labels"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Histogram: bars touch each other (continuous data). Bar graph: bars have gaps (categorical data). Both represent frequency but for different data types."
+  },
+  {
+    "QuestionText": "Two dice are rolled. P(sum = 7) =",
+    "Options": [
+      "A) 1/6",
+      "B) 1/4",
+      "C) 5/36",
+      "D) 7/36"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Advanced",
+    "Explanation": "Favorable: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. Total=36. P=6/36=1/6."
+  },
+  {
+    "QuestionText": "In a class of 40 students, 25 play football. P(randomly chosen student plays football) =",
+    "Options": [
+      "A) 5/8",
+      "B) 5/9",
+      "C) 1/2",
+      "D) 3/8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P=25/40=5/8."
+  },
+  {
+    "QuestionText": "The most appropriate graph to show the distribution of marks among students is:",
+    "Options": [
+      "A) Histogram",
+      "B) Pie chart",
+      "C) Line graph",
+      "D) Pictograph"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Histogram is best for continuous data like marks distribution. Shows frequency in class intervals."
+  },
+  {
+    "QuestionText": "P(drawing a king from a deck of 52 cards) =",
+    "Options": [
+      "A) 1/13",
+      "B) 1/26",
+      "C) 4/13",
+      "D) 1/52"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "4 kings in 52 cards. P=4/52=1/13."
+  },
+  {
+    "QuestionText": "The mean, median, and mode of the data 5, 5, 5, 5, 5 are:",
+    "Options": [
+      "A) All equal to 5",
+      "B) 5, 5, different mode",
+      "C) Different for each",
+      "D) Only mean is 5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Statistics",
+    "Difficulty": "Foundation",
+    "Explanation": "For identical data: Mean=5, Median=5, Mode=5. All three measures of central tendency are equal."
+  },
+  {
+    "QuestionText": "Assertion: The sum of all probabilities in a sample space is always 1. Reason: All possible outcomes together form the certain event, and P(certain event)=1. Which is correct?",
+    "Options": [
+      "A) Both true and Reason correctly explains",
+      "B) Assertion false",
+      "C) Both false",
+      "D) Assertion true; Reason false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. For any sample space: sum of P(all outcomes)=1. The Reason correctly explains this fundamental probability axiom."
+  },
+  {
+    "QuestionText": "If P(E)=0.35, what is P(not E)?",
+    "Options": [
+      "A) 0.65",
+      "B) 0.35",
+      "C) 0.5",
+      "D) 0.75"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Foundation",
+    "Explanation": "P(not E)=1-P(E)=1-0.35=0.65."
+  },
+  {
+    "QuestionText": "A frequency distribution has class intervals 0-10, 10-20, 20-30. The class width is:",
+    "Options": [
+      "A) 10",
+      "B) 5",
+      "C) 20",
+      "D) 15"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Frequency Distribution",
+    "Difficulty": "Foundation",
+    "Explanation": "Class width = upper limit - lower limit = 10-0 = 10."
+  },
+  {
+    "QuestionText": "The mean of three numbers is 25. Two of them are 20 and 30. The third is:",
+    "Options": [
+      "A) 25",
+      "B) 20",
+      "C) 30",
+      "D) 35"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum=25*3=75. Third=75-20-30=25."
+  },
+  {
+    "QuestionText": "A bag has 5 red and 5 blue balls. Two balls are drawn (without replacement). P(both red) =",
+    "Options": [
+      "A) 2/9",
+      "B) 1/4",
+      "C) 1/2",
+      "D) 5/18"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Probability",
+    "Difficulty": "Olympiad",
+    "Explanation": "P(1st red)=5/10=1/2. P(2nd red|1st red)=4/9. P(both)=1/2*4/9=2/9."
+  },
+  {
+    "QuestionText": "The data 12, 15, 18, 21, 24 forms an arithmetic sequence. The mean equals:",
+    "Options": [
+      "A) 18",
+      "B) 15",
+      "C) 21",
+      "D) 20"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Data Handling and Probability",
+    "SubTopic": "Mean",
+    "Difficulty": "Foundation",
+    "Explanation": "Mean of AP = (first+last)/2 = (12+24)/2 = 18. Also: (12+15+18+21+24)/5=90/5=18."
+  }
+]

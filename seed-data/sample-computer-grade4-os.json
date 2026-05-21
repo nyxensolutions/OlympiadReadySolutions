@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which of these is the most popular Operating System for personal computers?",
+    "Options": [
+      "A) MS Paint",
+      "B) Microsoft Windows",
+      "C) MS Word",
+      "D) Google Chrome"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Microsoft Windows is a widely used OS that manages computer hardware and software."
+  },
+  {
+    "QuestionText": "What is the first screen you see after the computer turns on and logs in?",
+    "Options": [
+      "A) Taskbar",
+      "B) Desktop",
+      "C) File Explorer",
+      "D) Recycle Bin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The desktop is the main workspace area."
+  },
+  {
+    "QuestionText": "Where do deleted files go in Windows?",
+    "Options": [
+      "A) Control Panel",
+      "B) Recycle Bin",
+      "C) Taskbar",
+      "D) Documents"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "The Recycle Bin temporarily stores files you have deleted until you empty it."
+  },
+  {
+    "QuestionText": "What is the small picture on the desktop that represents a program or file called?",
+    "Options": [
+      "A) Symbol",
+      "B) Icon",
+      "C) Button",
+      "D) Widget"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "Icons are graphical representations used to launch programs or open files."
+  },
+  {
+    "QuestionText": "Which bar is usually found at the bottom of the Windows desktop?",
+    "Options": [
+      "A) Menu Bar",
+      "B) Taskbar",
+      "C) Title Bar",
+      "D) Scroll Bar"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The taskbar shows open programs and the Start menu."
+  },
+  {
+    "QuestionText": "What do you call a folder inside another folder?",
+    "Options": [
+      "A) Sub-folder",
+      "B) File",
+      "C) Desktop",
+      "D) Shortcut"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "A sub-folder helps organize files hierarchically."
+  },
+  {
+    "QuestionText": "What is the main purpose of an Operating System?",
+    "Options": [
+      "A) To play games only",
+      "B) To act as a bridge between the user and the hardware",
+      "C) To print documents",
+      "D) To browse the internet only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "The OS manages resources and provides services for computer programs."
+  },
+  {
+    "QuestionText": "Which button opens the main menu in Windows to access programs?",
+    "Options": [
+      "A) Power Button",
+      "B) Start Button",
+      "C) Close Button",
+      "D) Refresh Button"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The Start button is the gateway to all installed applications and system settings."
+  },
+  {
+    "QuestionText": "What is a 'File' in a computer?",
+    "Options": [
+      "A) A container for folders",
+      "B) A collection of data stored under a name",
+      "C) A type of printer",
+      "D) A piece of hardware"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "A file is the basic unit of storage for data, documents, or programs."
+  },
+  {
+    "QuestionText": "Which mouse action is used to open an icon?",
+    "Options": [
+      "A) Single click",
+      "B) Double click",
+      "C) Right click",
+      "D) Drag and drop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "Double-clicking is the standard way to launch an application from its icon."
+  },
+  {
+    "QuestionText": "What does the 'Minimize' button do to a window?",
+    "Options": [
+      "A) Closes the program",
+      "B) Makes it full screen",
+      "C) Hides it to the taskbar",
+      "D) Deletes it"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "Minimizing hides the window without closing the program."
+  },
+  {
+    "QuestionText": "Which of these is NOT an Operating System?",
+    "Options": [
+      "A) Windows 11",
+      "B) macOS",
+      "C) MS Word",
+      "D) Linux"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "MS Word is an application software, not an Operating System."
+  },
+  {
+    "QuestionText": "How can you change the name of a file or folder?",
+    "Options": [
+      "A) Delete",
+      "B) Rename",
+      "C) Copy",
+      "D) Paste"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "The rename function allows you to change the name of an existing file or folder."
+  },
+  {
+    "QuestionText": "What do you use to see all the files and folders on your computer?",
+    "Options": [
+      "A) File Explorer",
+      "B) Recycle Bin",
+      "C) Start Menu",
+      "D) Taskbar"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "File Explorer is the tool used for navigating and managing files."
+  },
+  {
+    "QuestionText": "What happens when you click the 'X' button on a window?",
+    "Options": [
+      "A) It minimizes",
+      "B) It refreshes",
+      "C) It closes the program",
+      "D) It saves the file"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The 'X' button is the close button."
+  },
+  {
+    "QuestionText": "Which operating system is created by Apple?",
+    "Options": [
+      "A) Windows",
+      "B) Android",
+      "C) macOS",
+      "D) Linux"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "macOS is the operating system for Apple computers."
+  },
+  {
+    "QuestionText": "What does 'Copy' do to a file?",
+    "Options": [
+      "A) Deletes the original",
+      "B) Creates an exact duplicate",
+      "C) Moves it to a new location",
+      "D) Renames it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Copying keeps the original and creates a duplicate elsewhere."
+  },
+  {
+    "QuestionText": "What is the background image of your desktop called?",
+    "Options": [
+      "A) Icon",
+      "B) Wallpaper",
+      "C) Taskbar",
+      "D) Menu"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The desktop wallpaper is the image displayed as the background."
+  },
+  {
+    "QuestionText": "Which of these is a mobile operating system?",
+    "Options": [
+      "A) Windows 10",
+      "B) Android",
+      "C) Linux",
+      "D) macOS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "Android is designed primarily for touchscreens and mobile devices."
+  },
+  {
+    "QuestionText": "What does 'Drag and Drop' mean?",
+    "Options": [
+      "A) Moving an icon by holding the left mouse button",
+      "B) Deleting a file",
+      "C) Renaming a folder",
+      "D) Opening the start menu"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "Drag and drop is a common way to move items on the desktop."
+  },
+  {
+    "QuestionText": "What is a 'Shortcut' icon?",
+    "Options": [
+      "A) A link to a file or program",
+      "B) A folder",
+      "C) A deleted file",
+      "D) A hardware driver"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Intermediate",
+    "Explanation": "Shortcuts provide a quick way to open programs without searching for the original file."
+  },
+  {
+    "QuestionText": "What is the purpose of the 'Maximize' button?",
+    "Options": [
+      "A) To shrink the window",
+      "B) To make the window fill the entire screen",
+      "C) To close the window",
+      "D) To save the window"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "Maximize makes a window fill the available screen area."
+  },
+  {
+    "QuestionText": "If you want to restore a file you accidentally deleted, where do you look?",
+    "Options": [
+      "A) Documents",
+      "B) Control Panel",
+      "C) Recycle Bin",
+      "D) The Web"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "You can 'restore' items from the Recycle Bin if they haven't been permanently emptied."
+  },
+  {
+    "QuestionText": "Which action allows you to see extra options for a file, like 'Delete' or 'Rename'?",
+    "Options": [
+      "A) Left click",
+      "B) Double click",
+      "C) Right click",
+      "D) Drag"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Right-clicking opens the context menu."
+  },
+  {
+    "QuestionText": "What is a directory in a computer system?",
+    "Options": [
+      "A) A file",
+      "B) A folder",
+      "C) An application",
+      "D) A hardware device"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "Directory is another term for a folder."
+  },
+  {
+    "QuestionText": "Which of these is NOT a function of an Operating System?",
+    "Options": [
+      "A) Managing computer memory",
+      "B) Controlling hardware devices",
+      "C) Creating artistic drawings",
+      "D) Running software applications"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "The OS provides the environment for apps like drawing programs to work, but does not do the drawing itself."
+  },
+  {
+    "QuestionText": "What is the function of the 'Taskbar'?",
+    "Options": [
+      "A) To show open programs and system clock",
+      "B) To store deleted files",
+      "C) To create new files",
+      "D) To act as an OS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The taskbar is the central management bar for the user interface."
+  },
+  {
+    "QuestionText": "To search for a file on your computer, what tool should you use?",
+    "Options": [
+      "A) Start menu search/File Explorer search",
+      "B) Recycle Bin",
+      "C) Wallpaper settings",
+      "D) Power button"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Modern OSs have built-in search tools to help find files."
+  },
+  {
+    "QuestionText": "Which type of software is an Operating System?",
+    "Options": [
+      "A) Application Software",
+      "B) System Software",
+      "C) Utility Software",
+      "D) Gaming Software"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Advanced",
+    "Explanation": "System software manages the hardware and provides a platform for application software."
+  },
+  {
+    "QuestionText": "What is the keyboard shortcut to 'Copy' a selected file?",
+    "Options": [
+      "A) Ctrl + C",
+      "B) Ctrl + V",
+      "C) Ctrl + X",
+      "D) Ctrl + S"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "Ctrl + C is the universal shortcut for Copy."
+  },
+  {
+    "QuestionText": "What does 'Paste' do after you have copied a file?",
+    "Options": [
+      "A) Deletes the original",
+      "B) Places the copied file in a new location",
+      "C) Opens the file",
+      "D) Renames the file"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Paste places the contents of the clipboard into the current folder."
+  },
+  {
+    "QuestionText": "What is the keyboard shortcut for 'Paste'?",
+    "Options": [
+      "A) Ctrl + P",
+      "B) Ctrl + V",
+      "C) Ctrl + C",
+      "D) Ctrl + X"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "Ctrl + V is the universal shortcut for Paste."
+  },
+  {
+    "QuestionText": "Where do you change the date and time settings on your computer?",
+    "Options": [
+      "A) Recycle Bin",
+      "B) Control Panel / Settings",
+      "C) File Explorer",
+      "D) Desktop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "The Control Panel or Settings app is for configuring system settings like date and time."
+  },
+  {
+    "QuestionText": "What happens if you empty the Recycle Bin?",
+    "Options": [
+      "A) Files are restored",
+      "B) Files are permanently deleted",
+      "C) Files are moved to the desktop",
+      "D) Nothing happens"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "Emptying the bin removes the files from the drive entirely."
+  },
+  {
+    "QuestionText": "What is a 'Graphical User Interface' (GUI)?",
+    "Options": [
+      "A) A way to interact using pictures and icons",
+      "B) A way to interact using text only",
+      "C) A type of hardware",
+      "D) A type of printer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Advanced",
+    "Explanation": "GUI makes computers easy to use by using icons, windows, and menus."
+  },
+  {
+    "QuestionText": "What do we call the blinking line that shows where you are typing?",
+    "Options": [
+      "A) Arrow",
+      "B) Cursor",
+      "C) Icon",
+      "D) Folder"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The cursor shows your current position in a text area."
+  },
+  {
+    "QuestionText": "If your computer is frozen, what is one way to try to fix it?",
+    "Options": [
+      "A) Restart the computer",
+      "B) Unplug the screen",
+      "C) Delete all files",
+      "D) Change the wallpaper"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "A restart refreshes the OS and clears temporary memory issues."
+  },
+  {
+    "QuestionText": "What is the file extension for a plain text file?",
+    "Options": [
+      "A) .txt",
+      "B) .png",
+      "C) .exe",
+      "D) .mp3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Advanced",
+    "Explanation": ".txt is the standard file extension for plain text."
+  },
+  {
+    "QuestionText": "How can you create a new folder on the desktop?",
+    "Options": [
+      "A) Right click > New > Folder",
+      "B) Double click the recycle bin",
+      "C) Open the taskbar",
+      "D) Press the power button"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "The right-click context menu provides options to create new items."
+  },
+  {
+    "QuestionText": "Which tool lets you see what programs are currently running?",
+    "Options": [
+      "A) Task Manager",
+      "B) Recycle Bin",
+      "C) Wallpaper",
+      "D) Keyboard"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Advanced",
+    "Explanation": "Task Manager lists all active processes and programs."
+  },
+  {
+    "QuestionText": "What does a folder icon look like?",
+    "Options": [
+      "A) A document",
+      "B) A manila paper folder",
+      "C) A small screen",
+      "D) A trash can"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "The folder icon is designed to resemble a physical paper folder."
+  },
+  {
+    "QuestionText": "Which OS is known as 'open source' and free to use?",
+    "Options": [
+      "A) Windows",
+      "B) Linux",
+      "C) macOS",
+      "D) Android"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Advanced",
+    "Explanation": "Linux is a popular open-source operating system."
+  },
+  {
+    "QuestionText": "What is the purpose of the 'Title Bar' on a window?",
+    "Options": [
+      "A) To show the program name",
+      "B) To store files",
+      "C) To turn off the computer",
+      "D) To change the color"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Intermediate",
+    "Explanation": "The title bar displays the name of the open file or application."
+  },
+  {
+    "QuestionText": "Which mouse button is used to access the context menu?",
+    "Options": [
+      "A) Left button",
+      "B) Right button",
+      "C) Middle wheel",
+      "D) Power button"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Foundation",
+    "Explanation": "The right-click button opens the menu of options for the clicked item."
+  },
+  {
+    "QuestionText": "What is a 'Driver' in an OS?",
+    "Options": [
+      "A) Software that lets the OS talk to hardware",
+      "B) A folder for files",
+      "C) A wallpaper",
+      "D) A type of computer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Advanced",
+    "Explanation": "Drivers are specialized software that allow the OS to control hardware like printers or graphics cards."
+  },
+  {
+    "QuestionText": "What does 'Move' a file do?",
+    "Options": [
+      "A) Keeps the original in the old location",
+      "B) Deletes the original and puts it in a new location",
+      "C) Creates two copies",
+      "D) Renames the file"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "Moving a file changes its file path, so it only exists in the new location."
+  },
+  {
+    "QuestionText": "What is a 'System Tray' or 'Notification Area'?",
+    "Options": [
+      "A) Part of the taskbar showing time/status icons",
+      "B) A folder on the desktop",
+      "C) A deleted file list",
+      "D) A type of printer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "Desktop Environment",
+    "Difficulty": "Advanced",
+    "Explanation": "The system tray contains icons for system functions like volume, network, and clock."
+  },
+  {
+    "QuestionText": "What is the purpose of 'Shut Down'?",
+    "Options": [
+      "A) To put the computer in sleep mode",
+      "B) To turn off the computer completely",
+      "C) To restart the OS",
+      "D) To open the start menu"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Shutting down powers off the computer safely."
+  },
+  {
+    "QuestionText": "Which of these is a file extension for an image?",
+    "Options": [
+      "A) .jpg",
+      "B) .txt",
+      "C) .exe",
+      "D) .pdf"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "File Management",
+    "Difficulty": "Intermediate",
+    "Explanation": ".jpg is a common file format for images."
+  },
+  {
+    "QuestionText": "What is a computer 'User Account'?",
+    "Options": [
+      "A) A way to personalize the OS for different people",
+      "B) A folder for games",
+      "C) A type of keyboard",
+      "D) A printer driver"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Operating System Basics",
+    "SubTopic": "OS Introduction",
+    "Difficulty": "Intermediate",
+    "Explanation": "User accounts keep separate settings, files, and permissions for each person."
+  }
+]

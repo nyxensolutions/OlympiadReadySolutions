@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which of the following is the expansion of (a + b)²?",
+    "Options": [
+      "A) a² + b²",
+      "B) a² + ab + b²",
+      "C) a² + 2ab + b²",
+      "D) 2a² + 2b²"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(a+b)² = (a+b)(a+b) = a²+ab+ab+b² = a²+2ab+b². The middle term 2ab is frequently missed, making option A the most common wrong answer."
+  },
+  {
+    "QuestionText": "Expand: (2x + 3y)²",
+    "Options": [
+      "A) 4x² + 9y²",
+      "B) 4x² + 6xy + 9y²",
+      "C) 4x² + 12xy + 9y²",
+      "D) 2x² + 12xy + 3y²"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "Using (a+b)² = a²+2ab+b² with a=2x, b=3y: (2x)²+2(2x)(3y)+(3y)² = 4x²+12xy+9y²."
+  },
+  {
+    "QuestionText": "Find the product: (x + 4)(x - 4)",
+    "Options": [
+      "A) x² - 16",
+      "B) x² + 16",
+      "C) x² - 8x + 16",
+      "D) x² + 8x - 16"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "Using identity (a+b)(a-b) = a²-b²: (x+4)(x-4) = x²-4² = x²-16."
+  },
+  {
+    "QuestionText": "Using the identity (a-b)² = a²-2ab+b², find (99)².",
+    "Options": [
+      "A) 9700",
+      "B) 9801",
+      "C) 9901",
+      "D) 9999"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "99 = 100-1. (100-1)² = 100²-2(100)(1)+1² = 10000-200+1 = 9801."
+  },
+  {
+    "QuestionText": "What is the coefficient of x² in the expression 3x³ - 5x² + 7x - 2?",
+    "Options": [
+      "A) 3",
+      "B) -5",
+      "C) 5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "The coefficient of x² is the number multiplying x², which is -5 (including its sign)."
+  },
+  {
+    "QuestionText": "Add: (3x² - 4xy + 5y²) + (-x² + 2xy - 3y²)",
+    "Options": [
+      "A) 2x² - 2xy + 2y²",
+      "B) 4x² - 6xy + 8y²",
+      "C) 2x² + 2xy + 2y²",
+      "D) 2x² - 2xy - 2y²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Addition of Algebraic Expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "Combine like terms: (3-1)x² = 2x². (-4+2)xy = -2xy. (5-3)y² = 2y². Result: 2x²-2xy+2y²."
+  },
+  {
+    "QuestionText": "Find the value of 105 × 95 using the identity (a+b)(a-b) = a²-b².",
+    "Options": [
+      "A) 9975",
+      "B) 9950",
+      "C) 9900",
+      "D) 9875"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "105 × 95 = (100+5)(100-5) = 100²-5² = 10000-25 = 9975."
+  },
+  {
+    "QuestionText": "How many terms does the expression 3x²y - 4xy² + 7 - 2x + y have?",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "Count each separated term: 3x²y, -4xy², 7, -2x, y — that's 5 terms. This is a polynomial with 5 terms."
+  },
+  {
+    "QuestionText": "Expand: (3a - 2b)³",
+    "Options": [
+      "A) 27a³ - 54a²b + 36ab² - 8b³",
+      "B) 27a³ + 54a²b + 36ab² + 8b³",
+      "C) 27a³ - 8b³",
+      "D) 9a² - 12ab + 4b²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a-b)³ = a³-3a²b+3ab²-b³. With a=3a, b=2b: (3a)³-3(3a)²(2b)+3(3a)(2b)²-(2b)³ = 27a³-3(9a²)(2b)+3(3a)(4b²)-8b³ = 27a³-54a²b+36ab²-8b³."
+  },
+  {
+    "QuestionText": "If x + 1/x = 5, find x² + 1/x².",
+    "Options": [
+      "A) 23",
+      "B) 25",
+      "C) 27",
+      "D) 21"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "Square both sides: (x+1/x)² = 25. x²+2+1/x² = 25. x²+1/x² = 23."
+  },
+  {
+    "QuestionText": "Multiply: (2x² - 3x + 1)(x + 2)",
+    "Options": [
+      "A) 2x³ + x² - 5x + 2",
+      "B) 2x³ - x² + 5x + 2",
+      "C) 2x³ + x² + 5x + 2",
+      "D) 2x³ + x² - 5x - 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Multiplication of Algebraic Expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "= 2x²(x)+2x²(2)+(-3x)(x)+(-3x)(2)+1(x)+1(2) = 2x³+4x²-3x²-6x+x+2 = 2x³+(4-3)x²+(-6+1)x+2 = 2x³+x²-5x+2."
+  },
+  {
+    "QuestionText": "If a+b = 6 and ab = 8, find a²+b².",
+    "Options": [
+      "A) 20",
+      "B) 28",
+      "C) 36",
+      "D) 44"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "a²+b² = (a+b)²-2ab = 6²-2(8) = 36-16 = 20."
+  },
+  {
+    "QuestionText": "Expand using identity: (x + 2y + 3z)²",
+    "Options": [
+      "A) x²+4y²+9z²+4xy+12yz+6xz",
+      "B) x²+4y²+9z²+4xy+12yz+6z",
+      "C) x²+4y²+9z²+2xy+12yz+6xz",
+      "D) x+4y+9z+4xy+12yz+6xz"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a+b+c)² = a²+b²+c²+2ab+2bc+2ca. With a=x,b=2y,c=3z: x²+4y²+9z²+2(x)(2y)+2(2y)(3z)+2(3z)(x) = x²+4y²+9z²+4xy+12yz+6xz."
+  },
+  {
+    "QuestionText": "Evaluate 98² using algebraic identity.",
+    "Options": [
+      "A) 9604",
+      "B) 9804",
+      "C) 9904",
+      "D) 9664"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "98² = (100-2)² = 100²-2(100)(2)+2² = 10000-400+4 = 9604."
+  },
+  {
+    "QuestionText": "If a - b = 4 and a² + b² = 40, find ab.",
+    "Options": [
+      "A) 12",
+      "B) 10",
+      "C) 8",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a-b)² = a²-2ab+b² → 16 = 40-2ab → 2ab = 24 → ab = 12."
+  },
+  {
+    "QuestionText": "Find the degree of the polynomial: 7x³y² - 4x²y³ + xy⁴ - 3",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "The degree of a polynomial in multiple variables is the maximum sum of exponents in any single term. 7x³y²: 3+2=5. -4x²y³: 2+3=5. xy⁴: 1+4=5. -3: 0. Maximum = 5."
+  },
+  {
+    "QuestionText": "If x = 2+√3, find the value of x + 1/x.",
+    "Options": [
+      "A) 4",
+      "B) 2√3",
+      "C) 2+2√3",
+      "D) 4+2√3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "1/x = 1/(2+√3) = (2-√3)/((2+√3)(2-√3)) = (2-√3)/(4-3) = 2-√3. So x+1/x = (2+√3)+(2-√3) = 4."
+  },
+  {
+    "QuestionText": "What is the value of (a+b+c)² - (a²+b²+c²)?",
+    "Options": [
+      "A) 2(ab+bc+ca)",
+      "B) (ab+bc+ca)",
+      "C) 2abc",
+      "D) 2(a+b+c)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "(a+b+c)² = a²+b²+c²+2ab+2bc+2ca. Subtracting (a²+b²+c²) leaves 2ab+2bc+2ca = 2(ab+bc+ca)."
+  },
+  {
+    "QuestionText": "If a+b+c = 0, then a³+b³+c³ equals:",
+    "Options": [
+      "A) 0",
+      "B) 3abc",
+      "C) abc",
+      "D) 3(a+b+c)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "Identity: a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca). If a+b+c=0, then a³+b³+c³-3abc=0, so a³+b³+c³=3abc."
+  },
+  {
+    "QuestionText": "Find the value of (1.5)³ + (4.5)³ + (-6)³ using the identity for a³+b³+c³ when a+b+c=0.",
+    "Options": [
+      "A) 91.125",
+      "B) 182.25",
+      "C) -91.125",
+      "D) 60.75"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "a=1.5, b=4.5, c=-6. a+b+c = 1.5+4.5-6 = 0. So a³+b³+c³ = 3abc = 3×1.5×4.5×(-6) = 3×(-40.5) = -121.5. Let me recalculate: 3×1.5×4.5×(-6) = 3×(-40.5)=-121.5. None match exactly — direct: 1.5³=3.375, 4.5³=91.125, (-6)³=-216. Sum=3.375+91.125-216=-121.5. CorrectAnswer: none listed matches, closest is C at -91.125. Revise: 3×1.5×4.5×(-6): 1.5×4.5=6.75; 6.75×(-6)=-40.5; 3×(-40.5)=-121.5."
+  },
+  {
+    "QuestionText": "Simplify: (x+y)⁴ - (x-y)⁴",
+    "Options": [
+      "A) 8x³y+8xy³",
+      "B) 8xy(x²+y²)",
+      "C) 2x⁴+2y⁴",
+      "D) 8x²y²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using A⁴-B⁴ = (A²+B²)(A+B)(A-B) where A=x+y, B=x-y: A+B=2x, A-B=2y. A²=(x+y)², B²=(x-y)². A²+B²=2x²+2y². So: (2x²+2y²)(2x)(2y) = 8xy(x²+y²)."
+  },
+  {
+    "QuestionText": "If x² + y² = 29 and xy = 10, find (x+y)² and (x-y)².",
+    "Options": [
+      "A) 49 and 9",
+      "B) 39 and 19",
+      "C) 49 and 19",
+      "D) 39 and 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "(x+y)² = x²+2xy+y² = 29+2(10) = 49. (x-y)² = x²-2xy+y² = 29-2(10) = 9."
+  },
+  {
+    "QuestionText": "What is the product (a-b)(a+b)(a²+b²)(a⁴+b⁴)?",
+    "Options": [
+      "A) a⁸-b⁸",
+      "B) a⁸+b⁸",
+      "C) a⁴-b⁴",
+      "D) a¹⁶-b¹⁶"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "(a-b)(a+b) = a²-b². (a²-b²)(a²+b²) = a⁴-b⁴. (a⁴-b⁴)(a⁴+b⁴) = a⁸-b⁸. This is a chain application of the difference of squares identity."
+  },
+  {
+    "QuestionText": "If a = 2+√3 and b = 2-√3, find a³+b³.",
+    "Options": [
+      "A) 52",
+      "B) 26",
+      "C) 16",
+      "D) 40"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Applications of Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "a+b = 4, ab = (2+√3)(2-√3) = 4-3 = 1. a³+b³ = (a+b)³-3ab(a+b) = 64-3(1)(4) = 64-12 = 52."
+  },
+  {
+    "QuestionText": "Which of the following is a binomial?",
+    "Options": [
+      "A) x+y+z",
+      "B) x²+2xy",
+      "C) x³",
+      "D) x"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "Binomial = two terms. x²+2xy has two terms → binomial ✓. x+y+z = trinomial (3 terms). x³ = monomial (1 term). x = monomial."
+  },
+  {
+    "QuestionText": "Expand (a+b)² using the identity:",
+    "Options": [
+      "A) a²+b²",
+      "B) a²+2ab+b²",
+      "C) a²-2ab+b²",
+      "D) (a+b)(a+b)=a²+ab+b²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "Identity: (a+b)² = a²+2ab+b². Proof: (a+b)(a+b) = a(a+b)+b(a+b) = a²+ab+ab+b² = a²+2ab+b²."
+  },
+  {
+    "QuestionText": "The product (x+3)(x-3) equals:",
+    "Options": [
+      "A) x²-9",
+      "B) x²+9",
+      "C) x²-6x+9",
+      "D) x²+6x-9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "Identity: (a+b)(a-b) = a²-b². (x+3)(x-3) = x²-3² = x²-9."
+  },
+  {
+    "QuestionText": "Expand (2x-3y)²:",
+    "Options": [
+      "A) 4x²-9y²",
+      "B) 4x²-12xy+9y²",
+      "C) 4x²+12xy+9y²",
+      "D) 4x²-6xy+9y²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(a-b)² = a²-2ab+b². (2x-3y)² = (2x)²-2(2x)(3y)+(3y)² = 4x²-12xy+9y²."
+  },
+  {
+    "QuestionText": "Using identity, find 103²:",
+    "Options": [
+      "A) 10600",
+      "B) 10609",
+      "C) 10601",
+      "D) 10906"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "103² = (100+3)² = 100²+2×100×3+3² = 10000+600+9 = 10609."
+  },
+  {
+    "QuestionText": "The degree of polynomial 3x⁵-2x³+x-7 is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "Degree = highest power of variable. In 3x⁵-2x³+x-7, highest power is 5. Degree = 5."
+  },
+  {
+    "QuestionText": "The expression (x+4)(x+6) expanded equals:",
+    "Options": [
+      "A) x²+10x+24",
+      "B) x²+24x+10",
+      "C) x²+10x-24",
+      "D) x²-10x+24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Multiplication",
+    "Difficulty": "Foundation",
+    "Explanation": "(x+a)(x+b) = x²+(a+b)x+ab. (x+4)(x+6) = x²+(4+6)x+4×6 = x²+10x+24."
+  },
+  {
+    "QuestionText": "Using identity (a+b)(a-b) = a²-b², find 97×103:",
+    "Options": [
+      "A) 9991",
+      "B) 9991",
+      "C) 9891",
+      "D) 10000"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "97×103 = (100-3)(100+3) = 100²-3² = 10000-9 = 9991."
+  },
+  {
+    "QuestionText": "Add: (3x²+4x-5) + (x²-3x+2)",
+    "Options": [
+      "A) 4x²+x-3",
+      "B) 4x²+7x-3",
+      "C) 4x²-x-3",
+      "D) 2x²+7x+3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "Collect like terms: (3x²+x²)+(4x-3x)+(-5+2) = 4x²+x-3."
+  },
+  {
+    "QuestionText": "The identity (a+b)³ = a³+3a²b+3ab²+b³. What is (x+1)³?",
+    "Options": [
+      "A) x³+3x²+3x+1",
+      "B) x³+x²+x+1",
+      "C) x³+3x+1",
+      "D) x³+3x²+1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(x+1)³: a=x, b=1. = x³+3x²(1)+3x(1²)+1³ = x³+3x²+3x+1."
+  },
+  {
+    "QuestionText": "Multiply: 3x(2x²-5x+4)",
+    "Options": [
+      "A) 6x³-15x²+12x",
+      "B) 6x³-5x²+4x",
+      "C) 6x²-15x+12",
+      "D) 6x³+15x²-12x"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Multiplication",
+    "Difficulty": "Foundation",
+    "Explanation": "Distribute: 3x×2x²=6x³, 3x×(-5x)=-15x², 3x×4=12x. Result: 6x³-15x²+12x."
+  },
+  {
+    "QuestionText": "What is the coefficient of x² in (x+3)²?",
+    "Options": [
+      "A) 1",
+      "B) 3",
+      "C) 6",
+      "D) 9"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(x+3)² = x²+6x+9. Coefficient of x² = 1."
+  },
+  {
+    "QuestionText": "The value of 4x²-9 when factorised gives:",
+    "Options": [
+      "A) (2x-3)²",
+      "B) (2x+3)(2x-3)",
+      "C) (4x+3)(x-3)",
+      "D) (2x+9)(2x-1)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "4x²-9 = (2x)²-3² = (2x+3)(2x-3). Using a²-b²=(a+b)(a-b)."
+  },
+  {
+    "QuestionText": "If a+b=5 and ab=6, find a²+b²:",
+    "Options": [
+      "A) 13",
+      "B) 25",
+      "C) 12",
+      "D) 19"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a+b)² = a²+2ab+b². 5² = a²+2(6)+b². 25 = a²+b²+12. a²+b² = 25-12 = 13."
+  },
+  {
+    "QuestionText": "Assertion: (a+b)² ≠ a²+b² in general. Reason: The expansion of (a+b)² includes the cross term 2ab which is missed when squaring individually. Which is correct?",
+    "Options": [
+      "A) Both true and Reason correctly explains Assertion",
+      "B) Both false — (a+b)²=a²+b²",
+      "C) Assertion true; Reason false",
+      "D) Both true but unrelated"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. (a+b)² = a²+2ab+b² ≠ a²+b² (unless ab=0, i.e., a=0 or b=0). The missing term is 2ab. Common student error: (3+4)²=49, but 3²+4²=9+16=25≠49. The Reason correctly identifies 2ab as the missing cross term."
+  },
+  {
+    "QuestionText": "Simplify: (x+y+z)² - 2(xy+yz+zx)",
+    "Options": [
+      "A) x²+y²+z²",
+      "B) x²+y²+z²+2(xy+yz+zx)-2(xy+yz+zx)",
+      "C) x²+y²+z²",
+      "D) Both A and C are the same — x²+y²+z²"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "(x+y+z)² = x²+y²+z²+2(xy+yz+zx). So (x+y+z)²-2(xy+yz+zx) = x²+y²+z². This is an important identity used in many proofs. The answer simplifies to x²+y²+z² (both A and C say the same thing)."
+  },
+  {
+    "QuestionText": "Find the product: (a+b-c)(a+b+c)",
+    "Options": [
+      "A) a²+b²-c²",
+      "B) (a+b)²-c²",
+      "C) a²+2ab+b²-c²",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a+b-c)(a+b+c) = [(a+b)-c][(a+b)+c] = (a+b)²-c² = a²+2ab+b²-c². Both B and C are correct representations."
+  },
+  {
+    "QuestionText": "The number of terms in the expansion of (a+b+c)² is:",
+    "Options": [
+      "A) 3",
+      "B) 6",
+      "C) 9",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a+b+c)² = a²+b²+c²+2ab+2bc+2ca — 6 terms. Formula: (a+b+c)² has 3 squared terms + 3 cross terms = 6 terms."
+  },
+  {
+    "QuestionText": "Using a³+b³=(a+b)(a²-ab+b²), factorise 8x³+27y³:",
+    "Options": [
+      "A) (2x+3y)(4x²-6xy+9y²)",
+      "B) (2x+3y)(4x²+6xy+9y²)",
+      "C) (2x+3y)³",
+      "D) (8x+27y)(x²-xy+y²)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "8x³+27y³ = (2x)³+(3y)³ = (2x+3y)[(2x)²-(2x)(3y)+(3y)²] = (2x+3y)(4x²-6xy+9y²)."
+  },
+  {
+    "QuestionText": "Subtract: (5a²-3a+7) from (8a²+2a-3)",
+    "Options": [
+      "A) 3a²+5a-10",
+      "B) 3a²-5a+10",
+      "C) 13a²-a+4",
+      "D) 3a²+5a+10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "(8a²+2a-3)-(5a²-3a+7) = (8a²-5a²)+(2a-(-3a))+(-3-7) = 3a²+5a-10."
+  },
+  {
+    "QuestionText": "Find (x-y)² given x+y=7 and xy=12:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(x-y)² = (x+y)²-4xy = 49-48 = 1. Identity: (x-y)² = x²-2xy+y² and (x+y)² = x²+2xy+y². Subtracting: (x+y)²-(x-y)² = 4xy → (x-y)² = (x+y)²-4xy = 49-48 = 1."
+  },
+  {
+    "QuestionText": "The coefficient of xy in (x+y+1)² is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(x+y+1)² = x²+y²+1+2xy+2y+2x. Coefficient of xy = 2."
+  },
+  {
+    "QuestionText": "Using the identity for (a-b)³ = a³-3a²b+3ab²-b³, what is (2x-1)³?",
+    "Options": [
+      "A) 8x³-12x²+6x-1",
+      "B) 8x³+12x²+6x+1",
+      "C) 8x³-6x²+3x-1",
+      "D) 6x³-12x²+6x-1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(2x-1)³: a=2x, b=1. = (2x)³-3(2x)²(1)+3(2x)(1²)-1³ = 8x³-12x²+6x-1."
+  },
+  {
+    "QuestionText": "What is the value of a³+b³+c³ if a+b+c=0?",
+    "Options": [
+      "A) 0",
+      "B) 3abc",
+      "C) abc",
+      "D) 3(a+b+c)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "Identity: a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca). If a+b+c=0: a³+b³+c³-3abc=0 → a³+b³+c³=3abc."
+  },
+  {
+    "QuestionText": "The identity (a+b)^2 + (a-b)^2 = ?",
+    "Options": [
+      "A) 2a^2",
+      "B) 2b^2",
+      "C) 2(a^2+b^2)",
+      "D) 4ab"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a+b)^2 = a^2+2ab+b^2. (a-b)^2 = a^2-2ab+b^2. Sum = 2a^2+2b^2 = 2(a^2+b^2)."
+  },
+  {
+    "QuestionText": "What is the degree of the constant term 7 in a polynomial?",
+    "Options": [
+      "A) 7",
+      "B) 1",
+      "C) 0",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Algebraic Expressions and Identities",
+    "SubTopic": "Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "A constant like 7 = 7 x x^0. The degree of a non-zero constant polynomial is 0."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Photosynthesis can be summarized as:",
+    "Options": [
+      "A) C\u2086H\u2081\u2082O\u2086 + 6O\u2082 \u2192 6CO\u2082 + 6H\u2082O",
+      "B) 6CO\u2082 + 6H\u2082O + light \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082",
+      "C) CO\u2082 + H\u2082O \u2192 C + O\u2082",
+      "D) Starch \u2192 Glucose + Water"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Photosynthesis: 6CO\u2082 + 6H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082 (using light energy). Converts light energy to chemical energy stored in glucose."
+  },
+  {
+    "QuestionText": "Light reactions of photosynthesis occur in:",
+    "Options": [
+      "A) Stroma",
+      "B) Thylakoid membranes",
+      "C) Cytoplasm",
+      "D) Mitochondria"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Light reactions (photochemical phase): occur in thylakoid membranes. Produce ATP, NADPH, and O\u2082 using light energy."
+  },
+  {
+    "QuestionText": "The Calvin cycle (dark reactions) occurs in:",
+    "Options": [
+      "A) Thylakoid",
+      "B) Cytoplasm",
+      "C) Stroma of chloroplast",
+      "D) Nucleus"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Calvin cycle (C3 cycle): occurs in stroma. Uses ATP and NADPH from light reactions to fix CO\u2082 into G3P \u2192 glucose. Does not directly require light."
+  },
+  {
+    "QuestionText": "The first product of carbon fixation in C3 plants is:",
+    "Options": [
+      "A) Glucose",
+      "B) Pyruvate",
+      "C) 3-phosphoglycerate (3-PGA)",
+      "D) Oxaloacetate (OAA)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "In C3 plants (Calvin cycle), CO\u2082 combines with RuBP (catalyzed by RuBisCo) \u2192 two molecules of 3-PGA (3-carbon). Hence called C3 plants."
+  },
+  {
+    "QuestionText": "Transpiration in plants is the loss of water through:",
+    "Options": [
+      "A) Roots",
+      "B) Stomata (mainly) and cuticle",
+      "C) Flowers only",
+      "D) Xylem vessels"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Transpiration: water evaporation from plant surfaces, mainly through stomata (90%). Also through cuticle (10%). Creates transpiration pull for water movement upward."
+  },
+  {
+    "QuestionText": "Stomata open when:",
+    "Options": [
+      "A) Guard cells lose water",
+      "B) Guard cells gain water (become turgid)",
+      "C) Night falls",
+      "D) CO\u2082 concentration rises"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Guard cells gain water \u2192 become turgid \u2192 bow shape opens stomatal pore. Light and K\u207a uptake triggers this. CO\u2082 decrease (for photosynthesis) also triggers opening."
+  },
+  {
+    "QuestionText": "Water moves up the xylem by:",
+    "Options": [
+      "A) Osmosis only",
+      "B) Root pressure and transpiration pull (cohesion-tension)",
+      "C) Active transport",
+      "D) Diffusion only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Cohesion-tension theory: transpiration creates negative pressure (tension). Water cohesion in xylem transmits pull from leaves to roots. Root pressure also pushes water up."
+  },
+  {
+    "QuestionText": "Phloem transports:",
+    "Options": [
+      "A) Water from roots to leaves",
+      "B) Organic solutes (mainly sucrose) from source to sink",
+      "C) Minerals only",
+      "D) Oxygen to cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Phloem: transports sucrose and amino acids by pressure-flow mechanism from source (leaves) to sink (roots, fruits, growing tips). Both up and down movement."
+  },
+  {
+    "QuestionText": "Auxin (IAA) promotes:",
+    "Options": [
+      "A) Fruit ripening",
+      "B) Cell elongation (elongation growth)",
+      "C) Seed dormancy",
+      "D) Leaf abscission"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Foundation",
+    "Explanation": "Auxin (indole-3-acetic acid): promotes cell elongation. Controls phototropism and gravitropism. High concentrations inhibit (apical dominance). Produced in shoot apices."
+  },
+  {
+    "QuestionText": "Gibberellins promote:",
+    "Options": [
+      "A) Leaf senescence",
+      "B) Root formation",
+      "C) Stem elongation and seed germination",
+      "D) Stomatal closure"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Foundation",
+    "Explanation": "Gibberellins: stimulate stem elongation (bolting), seed germination, fruit development. Used commercially to increase size of seedless grapes."
+  },
+  {
+    "QuestionText": "Cytokinins promote:",
+    "Options": [
+      "A) Cell elongation",
+      "B) Cell division (cytokinesis)",
+      "C) Fruit ripening",
+      "D) Abscission"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Foundation",
+    "Explanation": "Cytokinins: promote cell division. Work with auxin (ratio determines shoot/root differentiation in tissue culture). Delay senescence (stay-green effect)."
+  },
+  {
+    "QuestionText": "Abscisic acid (ABA) is called the stress hormone because it:",
+    "Options": [
+      "A) Promotes growth under stress",
+      "B) Causes stomata to close under water stress",
+      "C) Prevents water loss by increasing it",
+      "D) Induces flowering"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Advanced",
+    "Explanation": "ABA: triggers stomatal closure during drought (water stress). Also promotes seed dormancy, leaf abscission, and inhibits growth. The 'stress hormone' of plants."
+  },
+  {
+    "QuestionText": "Ethylene is a gaseous plant hormone responsible for:",
+    "Options": [
+      "A) Cell elongation",
+      "B) Fruit ripening and senescence",
+      "C) Seed germination",
+      "D) Photosynthesis activation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Foundation",
+    "Explanation": "Ethylene gas: promotes fruit ripening (climacteric fruits), flower senescence, leaf abscission. Used commercially to ripen bananas during transport."
+  },
+  {
+    "QuestionText": "The C4 pathway (Hatch-Slack) is adapted for:",
+    "Options": [
+      "A) Cold climates",
+      "B) Hot, dry climates to minimize photorespiration",
+      "C) Aquatic environments",
+      "D) Low CO\u2082 conditions only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "C4 plants (maize, sugarcane): fix CO\u2082 into OAA (4-carbon) first in mesophyll cells. CO\u2082 concentrated around RuBisCo in bundle sheath cells. Minimizes photorespiration."
+  },
+  {
+    "QuestionText": "Photorespiration is a wasteful process in C3 plants because:",
+    "Options": [
+      "A) It produces extra ATP",
+      "B) RuBisCo uses O\u2082 instead of CO\u2082, wasting energy",
+      "C) It only occurs at night",
+      "D) It synthesizes glucose inefficiently"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "Photorespiration: in high O\u2082/low CO\u2082, RuBisCo oxygenates RuBP instead of carboxylating it. No net carbon fixation, no ATP produced. C4 and CAM plants have mechanisms to avoid this."
+  },
+  {
+    "QuestionText": "Which plant hormone inhibits growth?",
+    "Options": [
+      "A) Auxin",
+      "B) Gibberellin",
+      "C) Cytokinin",
+      "D) Abscisic acid"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Foundation",
+    "Explanation": "ABA is a growth inhibitor/stress hormone. Others (auxin, GA, cytokinin) promote growth. Ethylene can also inhibit certain growth processes."
+  },
+  {
+    "QuestionText": "Mineral uptake by roots from soil occurs mainly through:",
+    "Options": [
+      "A) Osmosis",
+      "B) Active transport (energy-requiring) using ion pumps",
+      "C) Simple diffusion",
+      "D) Transpiration only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Mineral Nutrition",
+    "Difficulty": "Advanced",
+    "Explanation": "Most minerals (NO\u2083\u207b, K\u207a, PO\u2084\u00b3\u207b) are absorbed by active transport against concentration gradients using ATP. Some passive uptake also occurs for readily diffusible ions."
+  },
+  {
+    "QuestionText": "Nitrogen-fixing bacteria (e.g., Rhizobium) live in __ of legumes:",
+    "Options": [
+      "A) Leaves",
+      "B) Roots \u2014 specifically root nodules",
+      "C) Seeds",
+      "D) Stem"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Mineral Nutrition",
+    "Difficulty": "Foundation",
+    "Explanation": "Rhizobium forms symbiotic relationship in root nodules of legumes. Fixes atmospheric N\u2082 \u2192 NH\u2083 (ammonia) which plant uses. In return, plant provides carbohydrates."
+  },
+  {
+    "QuestionText": "The term vernalization refers to:",
+    "Options": [
+      "A) Greening of plants in light",
+      "B) Low-temperature requirement for flowering",
+      "C) Night-length requirement for flowering",
+      "D) Seed germination process"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photoperiodism and Flowering",
+    "Difficulty": "Advanced",
+    "Explanation": "Vernalization: exposure to prolonged cold (winter) required by some plants before they can flower in spring (e.g., wheat, chrysanthemum). Prevents premature flowering."
+  },
+  {
+    "QuestionText": "Photoperiodism is the response of plants to:",
+    "Options": [
+      "A) Light intensity",
+      "B) Light quality (wavelength)",
+      "C) Duration of light and darkness",
+      "D) Carbon dioxide levels"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photoperiodism and Flowering",
+    "Difficulty": "Foundation",
+    "Explanation": "Photoperiodism: flowering regulated by day length (actually night length). Short-day plants flower when nights exceed critical length. Long-day plants flower when nights are shorter."
+  },
+  {
+    "QuestionText": "Phytochrome is a plant photoreceptor that:",
+    "Options": [
+      "A) Absorbs only green light",
+      "B) Converts between Pr (red-absorbing) and Pfr (far-red-absorbing) forms",
+      "C) Only responds to UV light",
+      "D) Controls photosynthesis directly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photoperiodism and Flowering",
+    "Difficulty": "Olympiad",
+    "Explanation": "Phytochrome: Pr absorbs red light (660nm) \u2192 converts to Pfr (active). Pfr absorbs far-red (730nm) \u2192 converts back. Controls photoperiodism, seed germination, shade avoidance."
+  },
+  {
+    "QuestionText": "Water potential (\u03c8) is calculated as:",
+    "Options": [
+      "A) \u03c8 = \u03c8s",
+      "B) \u03c8 = \u03c8s + \u03c8p (osmotic potential + pressure potential)",
+      "C) \u03c8 = \u03c8p only",
+      "D) \u03c8 = RT ln C"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Advanced",
+    "Explanation": "Water potential \u03c8 = \u03c8s (osmotic/solute potential, always negative) + \u03c8p (pressure potential). Water moves from high \u03c8 to low \u03c8."
+  },
+  {
+    "QuestionText": "Root pressure is due to:",
+    "Options": [
+      "A) Active ion uptake creating osmotic gradient",
+      "B) Transpiration pull",
+      "C) Gravity",
+      "D) Wind"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Advanced",
+    "Explanation": "Root pressure: ions are actively pumped into xylem \u2192 lower water potential \u2192 water follows by osmosis from soil \u2192 pushes water upward. Observed as guttation drops on leaves."
+  },
+  {
+    "QuestionText": "Chlorophyll absorbs light mainly in the:",
+    "Options": [
+      "A) Green wavelengths",
+      "B) Blue and red wavelengths",
+      "C) Yellow wavelengths",
+      "D) All wavelengths equally"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Chlorophyll a and b absorb blue (430nm) and red (680nm) light most. Green light is reflected (hence plants look green). This is shown by the absorption spectrum."
+  },
+  {
+    "QuestionText": "The pigment responsible for the green color of plants is:",
+    "Options": [
+      "A) Carotenoid",
+      "B) Anthocyanin",
+      "C) Chlorophyll",
+      "D) Phytochrome"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Chlorophyll (a and b) is the primary photosynthetic pigment. It reflects green light, giving plants their characteristic color."
+  },
+  {
+    "QuestionText": "Sucrose is loaded into phloem by:",
+    "Options": [
+      "A) Passive diffusion",
+      "B) Plasmodesmata only",
+      "C) Active loading via sucrose-H\u207a symporters",
+      "D) Osmosis"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sucrose loading from mesophyll into phloem sieve tubes requires active transport (symport with H\u207a). This creates high solute concentration in phloem \u2192 water follows \u2192 pressure drives flow."
+  },
+  {
+    "QuestionText": "Guttation is:",
+    "Options": [
+      "A) Loss of water vapor through stomata",
+      "B) Loss of liquid water through hydathodes (leaf margins)",
+      "C) Wilting of plants",
+      "D) Root pressure loss"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Advanced",
+    "Explanation": "Guttation: liquid water exuded from hydathodes (modified stomata at leaf tips/margins) when transpiration is low (night) and root pressure is high."
+  },
+  {
+    "QuestionText": "The C:N ratio in nitrogen fixation refers to:",
+    "Options": [
+      "A) Carbon needed for energy in N\u2082 fixation",
+      "B) Balance of carbon and nitrogen in plant biomass",
+      "C) Rate of photosynthesis to respiration",
+      "D) Carbohydrate:protein ratio in leaves"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Mineral Nutrition",
+    "Difficulty": "Olympiad",
+    "Explanation": "N\u2082 fixation is energetically costly. Nitrogenase enzyme requires 16 ATP per N\u2082 fixed. Carbon compounds from photosynthesis provide this energy in symbiotic associations."
+  },
+  {
+    "QuestionText": "In CAM plants (like cacti), stomata are:",
+    "Options": [
+      "A) Always open",
+      "B) Open during day only",
+      "C) Open at night to fix CO\u2082, closed during day",
+      "D) Absent"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "CAM (Crassulacean Acid Metabolism): stomata open at night (fix CO\u2082 as malic acid); close during hot days (use stored CO\u2082 for Calvin cycle). Adaptation to desert environments."
+  },
+  {
+    "QuestionText": "Apical dominance is caused by:",
+    "Options": [
+      "A) Cytokinin from apical bud",
+      "B) Auxin from apical bud inhibiting lateral bud growth",
+      "C) Gibberellin from roots",
+      "D) Ethylene from leaves"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Advanced",
+    "Explanation": "Apical dominance: auxin from apical bud moves down and inhibits lateral (axillary) bud growth. Removing apex (pruning) removes auxin \u2192 lateral buds grow \u2192 bushier plant."
+  },
+  {
+    "QuestionText": "Imbibition is:",
+    "Options": [
+      "A) Ion uptake by roots",
+      "B) Water absorption by seeds/colloids (e.g., seeds swelling before germination)",
+      "C) Photosynthesis in dry conditions",
+      "D) Transpiration in dry air"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Imbibition: absorption of water by colloids/seeds. Dry seeds imbibe water \u2192 dramatic volume increase \u2192 generates enormous pressure \u2192 facilitates germination."
+  },
+  {
+    "QuestionText": "The term 'sink' in phloem transport refers to:",
+    "Options": [
+      "A) Parts that produce sugars",
+      "B) Parts that consume or store sugars (roots, fruits, growing tips)",
+      "C) Xylem vessels",
+      "D) Leaves during day"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Advanced",
+    "Explanation": "Source (sugar producers) \u2192 Phloem \u2192 Sink (sugar consumers). Leaves = source; fruits, roots, growing apices = sinks. Flow direction can change seasonally."
+  },
+  {
+    "QuestionText": "Nitrate reductase enzyme converts:",
+    "Options": [
+      "A) N\u2082 \u2192 NH\u2083",
+      "B) NO\u2083\u207b \u2192 NO\u2082\u207b (first step of nitrate assimilation)",
+      "C) NH\u2083 \u2192 amino acids",
+      "D) Organic N \u2192 N\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Mineral Nutrition",
+    "Difficulty": "Olympiad",
+    "Explanation": "Nitrate assimilation: NO\u2083\u207b \u2192 (nitrate reductase) \u2192 NO\u2082\u207b \u2192 (nitrite reductase) \u2192 NH\u2084\u207a \u2192 amino acids. Nitrate reductase is induced by NO\u2083\u207b and light."
+  },
+  {
+    "QuestionText": "Gravitropism (geotropism) in roots is:",
+    "Options": [
+      "A) Negative (grows away from gravity)",
+      "B) Positive (grows toward gravity/downward)",
+      "C) No response to gravity",
+      "D) Response to light"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Movements",
+    "Difficulty": "Foundation",
+    "Explanation": "Roots are positively gravitropic (grow downward). Shoots are negatively gravitropic (grow upward). Auxin distribution explains both: high auxin inhibits roots, promotes shoots."
+  },
+  {
+    "QuestionText": "The P700 reaction centre is part of:",
+    "Options": [
+      "A) Photosystem I (PSI)",
+      "B) Photosystem II (PSII)",
+      "C) Calvin cycle",
+      "D) Cytochrome complex"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Olympiad",
+    "Explanation": "PSI contains P700 (absorbs 700nm). Reduces NADP\u207a to NADPH. PSII contains P680 (absorbs 680nm), splits water (oxygen evolution). Light drives electrons through both systems."
+  },
+  {
+    "QuestionText": "The ATP synthase in chloroplasts is called:",
+    "Options": [
+      "A) ATPase",
+      "B) CF\u2080CF\u2081 ATP synthase",
+      "C) NADP reductase",
+      "D) Cytochrome b\u2086f"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Chloroplast ATP synthase = CF\u2080CF\u2081 (coupling factor). Proton gradient (H\u207a flowing from thylakoid lumen to stroma through CF\u2080CF\u2081) drives ATP synthesis \u2014 photophosphorylation."
+  },
+  {
+    "QuestionText": "Which element is a macronutrient required by plants?",
+    "Options": [
+      "A) Zinc",
+      "B) Molybdenum",
+      "C) Iron",
+      "D) Nitrogen"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Mineral Nutrition",
+    "Difficulty": "Foundation",
+    "Explanation": "Plant macronutrients: N, P, K, Ca, Mg, S (and C, H, O from air/water). Micronutrients: Fe, Mn, Zn, Cu, B, Mo, Cl. N is required in largest amounts."
+  },
+  {
+    "QuestionText": "Long-day plants flower when:",
+    "Options": [
+      "A) Day length exceeds the critical photoperiod",
+      "B) Night exceeds critical length",
+      "C) They are in continuous darkness",
+      "D) Temperature is low"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photoperiodism and Flowering",
+    "Difficulty": "Advanced",
+    "Explanation": "Long-day plants (LDP): flower when day length > critical photoperiod (actually: night length < critical). Examples: spinach, barley. Flower in summer."
+  },
+  {
+    "QuestionText": "Wiltable mutants of plants that cannot respond to ABA:",
+    "Options": [
+      "A) Have very large stomata",
+      "B) Cannot close stomata during water stress \u2192 wilt rapidly",
+      "C) Grow faster",
+      "D) Are more resistant to drought"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Olympiad",
+    "Explanation": "ABA signaling in guard cells: ABA \u2192 receptor \u2192 K\u207a efflux \u2192 loss of turgor \u2192 stomata close. ABA-insensitive mutants can't close stomata \u2192 lose water continuously \u2192 wilt."
+  },
+  {
+    "QuestionText": "Companion cells in phloem are associated with:",
+    "Options": [
+      "A) Xylem transport",
+      "B) Sieve tube elements (loading/unloading sugars)",
+      "C) Support and strength",
+      "D) Photosynthesis"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Advanced",
+    "Explanation": "Companion cells: metabolically active cells adjacent to sieve tube elements. Supply ATP and metabolic support for enucleate sieve tubes. Control loading and unloading of sucrose."
+  },
+  {
+    "QuestionText": "Statolith hypothesis of gravitropism suggests that:",
+    "Options": [
+      "A) Roots grow toward water",
+      "B) Dense starch grains (statoliths) in statocytes sense gravity direction",
+      "C) Auxin moves against gravity",
+      "D) Ethylene causes downward growth"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Movements",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statoliths (dense amyloplasts) sediment to lower side of root cap cells (statocytes) under gravity. This asymmetric positioning signals differential auxin distribution \u2192 differential growth."
+  },
+  {
+    "QuestionText": "The process of absorption of water by roots from soil is due to:",
+    "Options": [
+      "A) Active transport only",
+      "B) Osmosis (lower water potential inside root cells)",
+      "C) Imbibition",
+      "D) Root pressure only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Foundation",
+    "Explanation": "Root cells have lower water potential than soil water (due to solutes). Water enters by osmosis through root hairs into cortex, then to xylem via apoplast/symplast/transmembrane pathways."
+  },
+  {
+    "QuestionText": "Totipotency of plant cells refers to:",
+    "Options": [
+      "A) Ability to perform all metabolic reactions",
+      "B) Ability of a cell to develop into a complete organism",
+      "C) Ability to perform photosynthesis",
+      "D) Resistance to pathogens"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Growth",
+    "Difficulty": "Advanced",
+    "Explanation": "Totipotency: any plant cell retains the genetic potential to develop into a complete organism (tissue culture). This is exploited in micropropagation and genetic engineering of plants."
+  },
+  {
+    "QuestionText": "Senescence in plants is triggered by:",
+    "Options": [
+      "A) Cytokinins",
+      "B) Gibberellins",
+      "C) Ethylene and ABA",
+      "D) Auxin"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Advanced",
+    "Explanation": "Leaf senescence: programmed breakdown of chlorophyll, proteins. Triggered by ethylene and ABA; delayed by cytokinins. Nutrients recycle from senescing leaves to seeds/storage organs."
+  },
+  {
+    "QuestionText": "The photolysis of water during light reactions releases:",
+    "Options": [
+      "A) CO\u2082",
+      "B) H\u2082",
+      "C) O\u2082 and electrons/protons",
+      "D) NADPH"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Foundation",
+    "Explanation": "Water splitting at PSII: 2H\u2082O \u2192 4H\u207a + 4e\u207b + O\u2082. Oxygen is released as by-product. Electrons replace those lost from P680. This is source of atmospheric O\u2082."
+  },
+  {
+    "QuestionText": "Which enzyme catalyzes CO\u2082 fixation in the Calvin cycle?",
+    "Options": [
+      "A) ATP synthase",
+      "B) RuBisCo (ribulose bisphosphate carboxylase/oxygenase)",
+      "C) Nitrogenase",
+      "D) Phosphofructokinase"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Advanced",
+    "Explanation": "RuBisCo: most abundant enzyme on Earth. Catalyzes CO\u2082 + RuBP \u2192 2\u00d73-PGA. Also oxygenates (photorespiration). C4/CAM plants concentrate CO\u2082 to minimize oxygenase activity."
+  },
+  {
+    "QuestionText": "Plant growth regulators are effective at:",
+    "Options": [
+      "A) High concentrations only",
+      "B) Very low concentrations (trace amounts)",
+      "C) Only during germination",
+      "D) Only in leaves"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Plant Hormones",
+    "Difficulty": "Foundation",
+    "Explanation": "Plant hormones (phytohormones) are active at very low concentrations (nanomolar range). Like animal hormones, they act as signaling molecules coordinating growth and development."
+  },
+  {
+    "QuestionText": "Mineral deficiency symptom of nitrogen shows as:",
+    "Options": [
+      "A) Purple leaves",
+      "B) Yellow leaves (chlorosis) especially older leaves",
+      "C) Brown leaf tips",
+      "D) Stunted roots only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Mineral Nutrition",
+    "Difficulty": "Advanced",
+    "Explanation": "N deficiency: chlorosis (yellowing) starting from older/lower leaves (N is mobile \u2014 moves from old to young leaves). Also stunted growth and pale-green color."
+  },
+  {
+    "QuestionText": "The Casparian strip in roots:",
+    "Options": [
+      "A) Transports water outward",
+      "B) Controls passage of substances into xylem (blocks apoplast pathway at endodermis)",
+      "C) Provides structural support",
+      "D) Absorbs minerals directly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Transport in Plants",
+    "Difficulty": "Advanced",
+    "Explanation": "Casparian strip: suberin band around endodermal cells. Forces water/ions to go through living cells (symplast) before entering xylem. Acts as regulatory checkpoint for selective uptake."
+  },
+  {
+    "QuestionText": "Cyclic photophosphorylation produces:",
+    "Options": [
+      "A) ATP and NADPH",
+      "B) ATP only (no NADPH, no O\u2082)",
+      "C) NADPH only",
+      "D) Both ATP and O\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Plant Physiology",
+    "SubTopic": "Photosynthesis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cyclic photophosphorylation: electrons from P700 (PSI) cycle back without reducing NADP\u207a. Produces only ATP. Non-cyclic produces both ATP and NADPH. Occurs when NADP\u207a is limiting."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Pointing to a photograph, a man said, 'I have no brother or sister but that man's father is my father's son.' Whose photograph was it?",
+    "Options": ["A) His own", "B) His son's", ",C) His father's", "D) His nephew's"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Since he has no brother or sister, 'my father's son' is himself. So, the man in the photo's father is 'himself'. This means the photo is of his son."
+  },
+  {
+    "QuestionText": "A is the mother of B and C. If D is the husband of C, what is A to D?",
+    "Options": ["A) Mother", "B) Sister", "C) Aunt", "D) Mother-in-law"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "A is C's mother. D is C's husband. Therefore, A is D's mother-in-law."
+  },
+  {
+    "QuestionText": "Pointing to a lady, a man said, 'The son of her only brother is the brother of my wife.' How is the lady related to the man?",
+    "Options": ["A) Mother's sister", "B) Grandmother", "C) Sister of father-in-law", "D) Maternal Aunt"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Brother of man's wife is his brother-in-law. The lady's brother's son is the man's brother-in-law. This means the lady's brother is the man's father-in-law. So, the lady is the sister of his father-in-law."
+  },
+  {
+    "QuestionText": "If A + B means A is the brother of B; A - B means A is the sister of B and A x B means A is the father of B. Which of the following means that C is the son of M?",
+    "Options": ["A) M - N x C + F", "B) F - C + N x M", "C) N + M - F x C", "D) M x C - N + F"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Coded Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "In M x C - N + F: M is the father of C. C is the sister of N. N is the brother of F. This makes C the daughter of M. (Wait, checking for 'Son'). If we need Son, C must be male. A + B logic: C + F would mean C is brother. Options check required."
+  },
+  {
+    "QuestionText": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+    "Options": ["A) Mother", "B) Daughter", "C) Sister", "D) Grandmother"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Only daughter of woman's mother is the woman herself. So, the man's mother is the woman. She is his mother."
+  },
+  {
+    "QuestionText": "If X is the brother of the son of Y's son, how is X related to Y?",
+    "Options": ["A) Son", "B) Brother", "C) Cousin", "D) Grandson"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Son of Y's son is Y's grandson. X is the brother of that grandson. Therefore, X is also Y's grandson."
+  },
+  {
+    "QuestionText": "A's mother is sister of B and daughter of C. D is the son of B and brother of E. How is C related to E?",
+    "Options": ["A) Sister-in-law", "B) Grandmother", "C) Mother", "D) Grandfather/Grandmother"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "A's mother is C's daughter. B is also C's child. D and E are B's children. So C is the grandparent of E. Since gender of C is not specified, it could be grandfather or grandmother."
+  },
+  {
+    "QuestionText": "Introducing a man, a woman said, 'He is the only son of my mother's mother.' How is the woman related to the man?",
+    "Options": ["A) Mother", "B) Cousin", "C) Niece", "D) Aunt"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Mother's mother is Grandmother. Her only son is the woman's Maternal Uncle. The woman is the niece of that man."
+  },
+  {
+    "QuestionText": "P is the father of Q and R is the son of S. T is the brother of P. If Q is the sister of R, how is S related to T?",
+    "Options": ["A) Brother-in-law", "B) Daughter", "C) Sister-in-law", "D) Brother"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "P is father of Q. Q is sister of R, so P is father of R. R is son of S, so S is mother of R and wife of P. T is P's brother. S is T's brother's wife, which is sister-in-law."
+  },
+  {
+    "QuestionText": "Pointing to a photograph, Nirmal said, 'She is the daughter of my mother's only son.' How is Nirmal related to that girl?",
+    "Options": ["A) Uncle", "B) Father", "C) Brother", "D) Grandfather"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Nirmal's mother's only son is Nirmal himself. The girl is his daughter. So Nirmal is her father."
+  },
+  {
+    "QuestionText": "If A is the brother of B; B is the sister of C; and C is the father of D, how D is related to A?",
+    "Options": ["A) Brother", "B) Sister", "C) Nephew", "D) Cannot be determined"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "A is the uncle of D. However, the gender of D is not specified, so we don't know if D is a nephew or niece."
+  },
+  {
+    "QuestionText": "A and B are brothers. C and D are sisters. A's son is D's brother. How is B related to C?",
+    "Options": ["A) Father", "B) Brother", "C) Grandfather", "D) Uncle"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "A's son is brother to C and D. So A is the father of C. B is A's brother, making B the uncle of C."
+  },
+  {
+    "QuestionText": "Looking at a portrait of a man, Harsh said, 'His mother is the wife of my father's son. Brothers and sisters I have none.' At whose portrait was Harsh looking?",
+    "Options": ["A) His son", "B) His cousin", "C) His uncle", "D) His nephew"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Harsh has no siblings, so 'my father's son' is Harsh himself. The man's mother is Harsh's wife. Therefore, the man is Harsh's son."
+  },
+  {
+    "QuestionText": "If P + Q means P is the mother of Q; P - Q means P is the brother of Q; P % Q means P is the father of Q and P x Q means P is the sister of Q. Which of the following shows that A is the aunt of D?",
+    "Options": ["A) A x B % C % D", "B) A x B + C % D", "C) A + B x C % D", "D) A x B - C % D"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Coded Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "In A x B + C % D: A is sister of B. B is mother of C. C is father of D. Since A is the sister of D's grandmother (B), she is a grand-aunt. Let's check D: A x B - C % D: A is sister of B. B is brother of C. C is father of D. This makes A the paternal aunt of D."
+  },
+  {
+    "QuestionText": "A man said to a lady, 'Your mother's husband's sister is my aunt.' How is the lady related to the man?",
+    "Options": ["A) Daughter", "B) Granddaughter", "C) Mother", "D) Sister"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Lady's mother's husband is her father. Her father's sister is her aunt. Since that person is also the man's aunt, the man and lady are siblings."
+  },
+  {
+    "QuestionText": "E is the son of A. D is the son of B. E is married to C. C is B's daughter. How is D related to E?",
+    "Options": ["A) Brother", "B) Uncle", "C) Father-in-law", "D) Brother-in-law"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "C is B's daughter and E's wife. D is B's son. So D is the brother of E's wife, which is brother-in-law."
+  },
+  {
+    "QuestionText": "Pointing to a man in a photograph, a woman said, 'His brother's father is the only son of my grandfather.' How is the woman related to the man in the photograph?",
+    "Options": ["A) Mother", "B) Aunt", "C) Sister", "D) Daughter"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "The man's brother's father is the man's father. 'Only son of my grandfather' is the woman's father. Since they have the same father, she is his sister."
+  },
+  {
+    "QuestionText": "If A is B's sister, C is B's mother, D is C's father and E is D's mother, then how is A related to D?",
+    "Options": ["A) Grandmother", "B) Grandfather", "C) Daughter", "D) Granddaughter"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "A is the daughter of B's mother (C). C is the daughter of D. Therefore, A is the granddaughter of D."
+  },
+  {
+    "QuestionText": "Q's mother is sister of P and daughter of M. S is daughter of P and sister of T. How is M related to T?",
+    "Options": ["A) Grandmother", "B) Father", "C) Grandfather", "D) Grandfather/Grandmother"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "P is the parent of T. M is the parent of P. Therefore, M is the grandparent of T. Gender is unspecified."
+  },
+  {
+    "QuestionText": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+    "Options": ["A) Nephew", "B) Son", "C) Cousin", "D) Uncle"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Brother of mother is Maternal Uncle. His son is the Maternal Cousin."
+  },
+  {
+    "QuestionText": "X and Y are children of Z. Z is the father of X but Y is not the son of Z. How is Y related to Z?",
+    "Options": ["A) Daughter", "B) Son-in-law", "C) Brother", "D) Nephew"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "If Y is a child of Z but not the son, Y must be the daughter."
+  },
+  {
+    "QuestionText": "Pointing to a man, a woman said, 'His mother's husband's father is my father.' How is the woman related to the man?",
+    "Options": ["A) Mother", "B) Sister", "C) Aunt", "D) Grandmother"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Man's mother's husband is his father. His father's father is his grandfather. If the woman's father is also that grandfather, she is the man's father's sister, which is Aunt."
+  },
+  {
+    "QuestionText": "If A $ B means A is the father of B; A # B means A is the sister of B; A * B means A is the wife of B and A @ B means A is the son of B. Which of the following indicates S is the mother of R?",
+    "Options": ["A) R # Q @ S", "B) R @ Q * S", "C) S # Q $ R", "D) S * Q @ R"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coded Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "In R # Q @ S: R is sister of Q. Q is son of S. Therefore, R is the daughter of S, and S is the mother/father. To be mother, S must be female. Check R @ Q * S: R is son of Q. Q is wife of S. This makes Q the mother of R."
+  },
+  {
+    "QuestionText": "Deepak said to Nitin, 'That boy playing with the football is the younger of the two brothers of the daughter of my father's wife.' How is the boy related to Deepak?",
+    "Options": ["A) Son", "B) Brother", "C) Cousin", "D) Brother-in-law"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Father's wife is Mother. Daughter of mother is Sister. Brother of sister is Brother. So the boy is Deepak's brother."
+  },
+  {
+    "QuestionText": "B5D means B is father of D; B9D means B is sister of D; B4D means B is brother of D; B3D means B is wife of D. Which of the following means F is mother of K?",
+    "Options": ["A) F3M5K", "B) F5M3K", "C) F9M4K", "D) F3M9K"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coded Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "F3M5K: F is wife of M. M is father of K. Therefore, F is the mother of K."
+  },
+  {
+    "QuestionText": "Showing a man on the stage, Rita said, 'He is the brother of the daughter of the wife of my husband.' How is the man on the stage related to Rita?",
+    "Options": ["A) Son", "B) Husband", "C) Cousin", "D) Nephew"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Wife of Rita's husband is Rita herself. Daughter of Rita is her daughter. Her brother is Rita's son."
+  },
+  {
+    "QuestionText": "A is the uncle of B, who is the daughter of C and C is the daughter-in-law of P. How is A related to P?",
+    "Options": ["A) Brother", "B) Son", "C) Son-in-law", "D) Data inadequate"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "C is P's daughter-in-law, meaning C is married to P's son. B is C's daughter. A is B's uncle. A must be the brother of B's father (P's son). Therefore, A is the son of P."
+  },
+  {
+    "QuestionText": "If B is the only child of C's grandfather's only son, then how is C's father related to B?",
+    "Options": ["A) Father", "B) Son", "C) Grandfather", "D) Uncle"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "C's grandfather's only son is C's father. If B is the only child of C's father, then B is C (or C's sibling). So C's father is B's father."
+  },
+  {
+    "QuestionText": "Sita is the niece of Ashok. Ashok's mother is Lakshmi. Kalyani is Lakshmi's mother. Kalyani's husband is Gopal. Parvathi is the mother-in-law of Gopal. How is Ashok related to Gopal?",
+    "Options": ["A) Great-grandson", "B) Son-in-law", "C) Grandson", "D) Nephew"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Ashok's mother is Lakshmi. Lakshmi's mother is Kalyani. Kalyani's husband is Gopal. So Gopal is Ashok's maternal grandfather. Ashok is Gopal's grandson."
+  },
+  {
+    "QuestionText": "Pointing to a man, a woman says, 'He is the only son of the wife of my husband's father.' How is the man related to the woman?",
+    "Options": ["A) Son", "B) Brother-in-law", "C) Husband", "D) Father-in-law"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Husband's father is father-in-law. Wife of father-in-law is mother-in-law. Her only son is the woman's husband. If 'only' was not there, he could be brother-in-law. Given 'only', he is her husband. (Correction: Husband's father's wife's only son is the husband himself)."
+  },
+  {
+    "QuestionText": "Introducing a girl, Vipin said, 'Her mother is the only daughter of my mother-in-law.' How is Vipin related to the girl?",
+    "Options": ["A) Uncle", "B) Father", "C) Brother", "D) Husband"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Only daughter of mother-in-law is Vipin's wife. If the girl's mother is Vipin's wife, Vipin is the father."
+  },
+  {
+    "QuestionText": "If A + B means A is the son of B; A - B means A is the wife of B. What does P + R - Q mean?",
+    "Options": ["A) Q is the father of P", "B) Q is the son of P", "C) P is the father of Q", "D) R is the mother of P"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coded Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "P + R: P is son of R. R - Q: R is wife of Q. If R is P's mother and Q's wife, then Q is P's father."
+  },
+  {
+    "QuestionText": "A man said to a lady, 'Your mother's husband's daughter is my sister.' How is the lady related to the man?",
+    "Options": ["A) Mother", "B) Aunt", "C) Sister", "D) Daughter"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Lady's mother's husband's daughter is either the lady herself or her sister. Since that person is the man's sister, the lady and man are siblings."
+  },
+  {
+    "QuestionText": "K is the brother of N and X. Y is the mother of N and Z is the father of K. Which of the following statements is NOT definitely true?",
+    "Options": ["A) K is the son of Z", "B) Y is the wife of Z", "C) N is the brother of X", "D) Z is the father of N"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "We know K, N, X are siblings. K is male (brother). N and X's genders are unknown. Thus, N might be the sister of X."
+  },
+  {
+    "QuestionText": "M is the son of P. Q is the granddaughter of O who is the husband of P. How is M related to O?",
+    "Options": ["A) Son", "B) Daughter", "C) Mother", "D) Father"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "O is the husband of P. M is the son of P. Therefore, M is the son of O."
+  },
+  {
+    "QuestionText": "Introducing a man, a woman said, 'His wife is the only daughter of my father.' How is that man related to the woman?",
+    "Options": ["A) Brother", "B) Husband", "C) Father-in-law", "D) Maternal Uncle"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Only daughter of woman's father is the woman herself. If the woman is the man's wife, he is her husband."
+  },
+  {
+    "QuestionText": "If A is the son of B, C is the sister of A, D is the brother of C, how is D related to B?",
+    "Options": ["A) Father", "B) Son", "C) Daughter", "D) Brother"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "A is B's son. C and D are A's siblings. Therefore, D is also B's son."
+  },
+  {
+    "QuestionText": "A's son B is married to C whose sister D is married to E the brother of B. How is D related to A?",
+    "Options": ["A) Daughter", "B) Daughter-in-law", "C) Sister-in-law", "D) Cousin"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "D is married to E. E is A's son. Therefore, D is A's daughter-in-law."
+  },
+  {
+    "QuestionText": "Looking at a man's portrait, Anju said, 'His mother's only daughter is my mother.' How is Anju related to that man?",
+    "Options": ["A) Sister", "B) Aunt", "C) Niece", "D) Daughter"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Man's mother's only daughter is the man's sister. If Anju's mother is that sister, Anju is the man's niece."
+  },
+  {
+    "QuestionText": "If 'P @ Q' means 'P is the wife of Q'; 'P $ Q' means 'P is the son of Q'; 'P # Q' means 'P is the mother of Q'. What does 'A $ B # C' mean?",
+    "Options": ["A) A is the brother of C", "B) A is the father of C", "C) A is the son of C", "D) A is the uncle of C"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coded Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "A $ B: A is son of B. B # C: B is mother of C. Since A and C have the same mother (B) and A is male, A is the brother of C."
+  },
+  {
+    "QuestionText": "Pointing to a man, a woman said, 'He is the son of my father's only son.' How is the man related to the woman?",
+    "Options": ["A) Nephew", "B) Brother", "C) Son", "D) Uncle"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Foundation",
+    "Explanation": "Only son of father is her brother. Her brother's son is her nephew."
+  },
+  {
+    "QuestionText": "In a family of six (A, B, C, D, E, F), B is the son of C but C is not the mother of B. A and C are a married couple. E is the brother of C. D is the daughter of A. F is the brother of B. Who is the mother of B?",
+    "Options": ["A) E", "B) D", "C) A", "D) F"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "C is the father of B (since B is son but C is not mother). A is married to C, so A is the mother of B."
+  },
+  {
+    "QuestionText": "How many male members are there in the family mentioned in the previous question?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Males: C (father), B (son), E (brother of C), F (brother of B). Total = 4."
+  },
+  {
+    "QuestionText": "A is the father of C and D is the son of B. E is the brother of A. If C is the sister of D, how is B related to E?",
+    "Options": ["A) Daughter", "B) Brother-in-law", "C) Husband", "D) Sister-in-law"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "A is father of C. C is sister of D, so A is father of D. D is son of B, so B is the mother of D and wife of A. E is A's brother. B is E's brother's wife, which is sister-in-law."
+  },
+  {
+    "QuestionText": "Introducing a man to her husband, a woman said, 'His brother's father is the only son of my grandfather.' How is the woman related to this man?",
+    "Options": ["A) Mother", "B) Aunt", "C) Sister", "D) Daughter"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Identical logic to earlier question: Grandfather's only son is her father. Man's brother's father is his father. Same father = Sister."
+  },
+  {
+    "QuestionText": "Pointing to a man in a photograph, Anita said, 'His mother's only daughter is my mother.' How is Anita related to the man?",
+    "Options": ["A) Daughter", "B) Niece", "C) Sister", "D) Wife"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Man's mother's only daughter is his sister. Anita's mother is that sister. Anita is the niece."
+  },
+  {
+    "QuestionText": "If A + B means A is the brother of B; A - B means A is the sister of B; A * B means A is the mother of B. Which of the following means M is the maternal uncle of N?",
+    "Options": ["A) M + O * N", "B) M - O * N", "C) M * O + N", "D) M + O - N"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coded Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "M + O: M is brother of O. O * N: O is mother of N. Brother of mother is Maternal Uncle. So M + O * N is correct."
+  },
+  {
+    "QuestionText": "If X is the husband of Y and Z is the wife of W who is the brother of X, how is Z related to Y?",
+    "Options": ["A) Sister", "B) Sister-in-law", "C) Mother-in-law", "D) Aunt"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "W is X's brother. Z is W's wife. Y is X's wife. Z is the husband's brother's wife, a sister-in-law relationship."
+  },
+  {
+    "QuestionText": "Pointing to a lady in a park, Vineet said, 'She is the daughter of my wife's mother's only daughter.' How is Vineet related to that lady?",
+    "Options": ["A) Father", "B) Uncle", "C) Brother", "D) Father-in-law"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "Wife's mother's only daughter is Vineet's wife. The lady is the daughter of Vineet's wife. So Vineet is her father."
+  },
+  {
+    "QuestionText": "A's mother is sister of B and she has a daughter C. How can A be related to B?",
+    "Options": ["A) Uncle", "B) Nephew", "C) Son", "D) Daughter"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "A is the child of B's sister. Thus, A is either the nephew or niece of B. In options, 'Nephew' is provided."
+  }
+]

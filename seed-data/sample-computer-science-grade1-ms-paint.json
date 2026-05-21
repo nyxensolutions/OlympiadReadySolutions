@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Which program is used for drawing and coloring on a computer?",
+    "Options": ["A) MS Paint", "B) MS Word", "C) Calculator", "D) Notepad"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "MS Paint is a simple graphics program used to create drawings."
+  },
+  {
+    "QuestionText": "Which tool is used to draw free-hand lines in MS Paint?",
+    "Options": ["A) Eraser", "B) Pencil tool", "C) Text tool", ") Fill tool"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Foundation",
+    "Explanation": "The Pencil tool works just like a real pencil for drawing lines."
+  },
+  {
+    "QuestionText": "To fill a shape with color, we use the ________ tool.",
+    "Options": ["A) Pencil", "B) Fill with color (Bucket)", "C) Brushes", "D) Airbrush"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Foundation",
+    "Explanation": "The 'Fill with color' tool looks like a paint bucket pouring out paint."
+  },
+  {
+    "QuestionText": "Which tool is used to remove or rub out mistakes in your drawing?",
+    "Options": ["A) Pencil", "B) Eraser tool", "C) Color picker", "D) Shapes"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Foundation",
+    "Explanation": "The Eraser tool removes any part of the drawing you click on."
+  },
+  {
+    "QuestionText": "The area where we draw in MS Paint is called the ________.",
+    "Options": ["A) Paintbrush", "B) Canvas / Drawing Area", "C) Toolbox", "D) Menu bar"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Foundation",
+    "Explanation": "The large white space in the middle is the Drawing Area or Canvas."
+  },
+  {
+    "QuestionText": "Where do we find the colors in MS Paint?",
+    "Options": ["A) Tools group", "B) Shapes group", "C) Color Palette", "D) File menu"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Colors",
+    "Difficulty": "Foundation",
+    "Explanation": "The Color Palette (or Colors group) shows all the available colors."
+  },
+  {
+    "QuestionText": "Which tool is used to draw a perfect circle?",
+    "Options": ["A) Rectangle tool", "B) Oval tool", "C) Line tool", "D) Pencil tool"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Oval tool is used to draw circles and ovals."
+  },
+  {
+    "QuestionText": "The tool used to draw straight lines is called the ________ tool.",
+    "Options": ["A) Curve", "B) Line", "C) Polygon", "D) Pencil"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "The Line tool helps you draw perfectly straight lines."
+  },
+  {
+    "QuestionText": "How many colors can you pick for 'Color 1' at a time?",
+    "Options": ["A) One", "B) Two", "C) Five", "D) All of them"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Colors",
+    "Difficulty": "Olympiad",
+    "Explanation": "Color 1 is your foreground color, and you can pick one at a time."
+  },
+  {
+    "QuestionText": "Which tool looks like a spray can?",
+    "Options": ["A) Brush", "B) Airbrush", "C) Pencil", "D) Magnifier"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Airbrush (found under Brushes) creates a spray-paint effect."
+  },
+  {
+    "QuestionText": "To draw a square, which tool should you select?",
+    "Options": ["A) Circle tool", "B) Rectangle tool", "C) Triangle tool", "D) Line tool"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "The Rectangle tool is used to draw squares and rectangles."
+  },
+  {
+    "QuestionText": "What happens if you use the 'Fill with color' tool on a shape that is not closed?",
+    "Options": ["A) Nothing happens", "B) Only the shape is colored", "C) The color spills over the whole canvas", "D) The computer turns off"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Advanced",
+    "Explanation": "If there is a gap in the lines, the color 'leaks' out to the rest of the drawing."
+  },
+  {
+    "QuestionText": "Which group contains tools like Pencil, Eraser, and Magnifier?",
+    "Options": ["A) Shapes", "B) Tools", "C) Colors", "D) Image"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Foundation",
+    "Explanation": "The Tools group contains the basic drawing instruments."
+  },
+  {
+    "QuestionText": "Which tool is used to see a drawing in a larger size?",
+    "Options": ["A) Eraser", "B) Magnifier", "C) Pencil", "D) Text"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Magnifier tool zooms in to help you see small details."
+  },
+  {
+    "QuestionText": "Can we type our name in MS Paint?",
+    "Options": ["A) No", "B) Yes, using the Text tool", "C) Only by drawing it with a pencil", "D) Only in MS Word"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Text tool (labeled 'A') allows you to type letters and words."
+  },
+  {
+    "QuestionText": "To select a color from the palette, you should ________ it.",
+    "Options": ["A) Right-click", "B) Left-click", "C) Double-click", "D) Drag"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Colors",
+    "Difficulty": "Foundation",
+    "Explanation": "A single left-click on a color box selects that color for 'Color 1'."
+  },
+  {
+    "QuestionText": "Which of these is NOT a tool in MS Paint?",
+    "Options": ["A) Pencil", "B) Eraser", "C) Hammer", "D) Brushes"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Foundation",
+    "Explanation": "A hammer is not a tool used for drawing in MS Paint."
+  },
+  {
+    "QuestionText": "What is the shortcut to 'Undo' a mistake in Paint?",
+    "Options": ["A) Ctrl + S", "B) Ctrl + Z", "C) Ctrl + P", "D) Ctrl + N"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Editing",
+    "Difficulty": "Advanced",
+    "Explanation": "Undo (Ctrl + Z) removes the last action you performed."
+  },
+  {
+    "QuestionText": "Which button do we click to save our drawing?",
+    "Options": ["A) Paint button / File menu", "B) Color palette", "C) Eraser", "D) Close button"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "File Management",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Save option is found under the File menu or the Paint button."
+  },
+  {
+    "QuestionText": "What does the 'Curve tool' do?",
+    "Options": ["A) Draws straight lines", "B) Draws bent or curved lines", "C) Draws squares", "D) Erases"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Curve tool allows you to draw a line and then bend it twice."
+  },
+  {
+    "QuestionText": "Which tool gives different effects like Oil brush, Watercolor, and Crayon?",
+    "Options": ["A) Pencil", "B) Brushes", "C) Text", "D) Shapes"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Brushes menu has many styles to change how your 'paint' looks."
+  },
+  {
+    "QuestionText": "The 'Size' button is used to change the ________ of a line.",
+    "Options": ["A) Color", "B) Thickness", "C) Length", "D) Shape"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Size setting makes your lines or brush strokes thicker or thinner."
+  },
+  {
+    "QuestionText": "What is the default background color in MS Paint?",
+    "Options": ["A) Blue", "B) Black", "C) White", "D) Red"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Foundation",
+    "Explanation": "When you open Paint, the canvas is usually a white color."
+  },
+  {
+    "QuestionText": "Which shape tool has 5 sides?",
+    "Options": ["A) Rectangle", "B) Pentagon", "C) Hexagon", "D) Star"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "A Pentagon is a 5-sided shape available in the Shapes group."
+  },
+  {
+    "QuestionText": "How can you make the eraser bigger?",
+    "Options": ["A) Ctrl + Plus (+)", "B) Ctrl + Minus (-)", "C) Double-click", "D) Right-click"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Advanced",
+    "Explanation": "Holding Ctrl and pressing the Plus key increases the size of the eraser tool."
+  },
+  {
+    "QuestionText": "To start MS Paint, we first click the ________ button.",
+    "Options": ["A) Shut down", "B) Start", "C) Refresh", "D) Help"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Like most programs, you find MS Paint by clicking the Start button."
+  },
+  {
+    "QuestionText": "Which tool allows you to pick a color from one part of a drawing to use it again?",
+    "Options": ["A) Pencil", "B) Color picker", "C) Fill with color", "D) Brushes"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Advanced",
+    "Explanation": "The Color picker tool looks like a dropper and copies colors."
+  },
+  {
+    "QuestionText": "The icon for MS Paint looks like ________.",
+    "Options": ["A) A ball", "B) A palette with a brush", "C) A book", "D) A clock"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "The Paint icon is an artist's palette with a paintbrush."
+  },
+  {
+    "QuestionText": "Can we open a saved drawing in MS Paint?",
+    "Options": ["A) Yes, using 'Open'", "B) No, only new ones", "C) Only on birthdays", "D) Only if it's blue"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation",
+    "Explanation": "The 'Open' command lets you bring back drawings you saved before."
+  },
+  {
+    "QuestionText": "Which key do we hold to draw a perfectly straight line with the Line tool?",
+    "Options": ["A) Spacebar", "B) Shift Key", "C) Caps Lock", "D) Alt Key"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "Holding Shift while drawing with the line or shape tools keeps them straight or even."
+  },
+  {
+    "QuestionText": "To close MS Paint, we click the ________ button in the top right corner.",
+    "Options": ["A) Minimize (-)", "B) Maximize (Square)", "C) Close (X)", "D) Start"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Foundation",
+    "Explanation": "The 'X' button closes the program."
+  },
+  {
+    "QuestionText": "The 'Shapes' group is found on the ________ tab.",
+    "Options": ["A) View", "B) Home", "C) Edit", "D) Help"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Home tab contains most of the drawing tools and shapes."
+  },
+  {
+    "QuestionText": "Which tool is used to draw a star?",
+    "Options": ["A) Polygon", "B) Star tool", "C) Oval", "D) Line"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "MS Paint has specific Star shapes (like 4-point, 5-point, or 6-point stars)."
+  },
+  {
+    "QuestionText": "If you want to erase a large area, it is better to have a ________ eraser.",
+    "Options": ["A) Small", "B) Large", "C) Red", "D) Round"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Foundation",
+    "Explanation": "A larger eraser covers more area and finishes the job faster."
+  },
+  {
+    "QuestionText": "What is the use of the 'Polygon' tool?",
+    "Options": ["A) To draw circles", "B) To draw shapes with many straight sides", "C) To erase", "D) To type text"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "The Polygon tool allows you to create shapes by connecting many points."
+  },
+  {
+    "QuestionText": "Where is the 'Paint button' usually located?",
+    "Options": ["A) Top left corner", "B) Bottom right", "C) Middle of the screen", "D) On the keyboard"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Paint/File button is in the top-left corner of the window."
+  },
+  {
+    "QuestionText": "Which color is 'Color 2' usually used for?",
+    "Options": ["A) Pencil color", "B) Background or Eraser color", "C) Text color", "D) No use"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Colors",
+    "Difficulty": "Advanced",
+    "Explanation": "Color 2 is the background color and is the color the eraser leaves behind."
+  },
+  {
+    "QuestionText": "Can you draw a house in MS Paint?",
+    "Options": ["A) No", "B) Yes, using shapes like rectangles and triangles", "C) Only if you have a printer", "D) Only in the morning"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Combining basic shapes is how you create complex drawings like houses."
+  },
+  {
+    "QuestionText": "The 'Brushes' option is located ________ the Tools group.",
+    "Options": ["A) Inside", "B) Below", "C) Next to", "D) Above"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Olympiad",
+    "Explanation": "Brushes are typically located between the Tools and Shapes groups."
+  },
+  {
+    "QuestionText": "Which tool do you use to draw a triangle?",
+    "Options": ["A) Triangle tool", "B) Oval tool", "C) Rectangle tool", "D) Eraser"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "The Triangle tool is a standard shape in MS Paint."
+  },
+  {
+    "QuestionText": "What happens when you click 'New' in the File menu?",
+    "Options": ["A) The computer restarts", "B) A fresh, blank drawing area opens", "C) Your old drawing is saved", "D) The color changes to green"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "File Management",
+    "Difficulty": "Olympiad",
+    "Explanation": "The 'New' command clears the canvas for a new project."
+  },
+  {
+    "QuestionText": "The tool used to select a part of the drawing is the ________ tool.",
+    "Options": ["A) Select", "B) Pencil", "C) Color palette", "D) Brushes"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Editing",
+    "Difficulty": "Advanced",
+    "Explanation": "The Select tool lets you pick a rectangular or free-form area to move or delete."
+  },
+  {
+    "QuestionText": "Which shape is used to draw a sun?",
+    "Options": ["A) Rectangle", "B) Oval/Circle", "C) Triangle", "D) Eraser"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A sun is usually drawn using the circle (oval) tool."
+  },
+  {
+    "QuestionText": "To make a drawing look like it was painted with a thick oil brush, use ________.",
+    "Options": ["A) Pencil", ") Eraser", "C) Oil brush from Brushes", "D) Fill bucket"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Brushes menu includes an Oil Brush option for this effect."
+  },
+  {
+    "QuestionText": "Can we change the color of a line after drawing it?",
+    "Options": ["A) Yes, using the Fill bucket", "B) No, never", "C) Only if we use the Eraser", "D) Only if the computer is new"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Editing",
+    "Difficulty": "Advanced",
+    "Explanation": "You can use the 'Fill with color' tool to click on an existing line and change its color."
+  },
+  {
+    "QuestionText": "Where can we see the name of our drawing?",
+    "Options": ["A) On the Taskbar", "B) On the Title Bar", "C) On the Color Palette", "D) Under the mouse"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Interface",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Title Bar at the very top of the window shows the file name."
+  },
+  {
+    "QuestionText": "Which tool is best for drawing blades of grass?",
+    "Options": ["A) Rectangle tool", "B) Pencil or thin Brush", "C) Fill bucket", "D) Oval tool"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Olympiad",
+    "Explanation": "The pencil or a thin brush allows for fine, free-hand strokes like grass."
+  },
+  {
+    "QuestionText": "What does 'Edit Colors' allow you to do?",
+    "Options": ["A) Delete colors", "B) Create and add your own custom colors", "C) Turn off the monitor", "D) Erase the drawing"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Colors",
+    "Difficulty": "Advanced",
+    "Explanation": "Edit Colors opens a window where you can mix colors that aren't on the main palette."
+  },
+  {
+    "QuestionText": "Is MS Paint a free program on Windows?",
+    "Options": ["A) Yes", "B) No", "C) Only for teachers", "D) Only on Saturdays"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Paint Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "MS Paint comes built-in with the Windows operating system."
+  },
+  {
+    "QuestionText": "The tool that looks like a magnifying glass is for ________.",
+    "Options": ["A) Drawing", "B) Erasing", "C) Zooming", "D) Typing"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Tools",
+    "Difficulty": "Foundation",
+    "Explanation": "A magnifying glass icon is used for zooming in or out."
+  }
+]

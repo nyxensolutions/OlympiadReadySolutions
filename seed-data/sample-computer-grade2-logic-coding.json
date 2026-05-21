@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "A set of step-by-step instructions to solve a problem is called an ________.",
+    "Options": ["A) Algorithm", "B) Answer", "C) Alphabet", "D) Accident"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "In coding, an algorithm is a clear list of steps to finish a task."
+  },
+  {
+    "QuestionText": "Complete the pattern: 2, 4, 6, 8, __.",
+    "Options": ["A) 9", "B) 10", "C) 12", "D) 11"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is adding 2 to the previous number."
+  },
+  {
+    "QuestionText": "If APPLE is written as 12234, what number represents the letter 'P'?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "In A-P-P-L-E, the second and third positions are 'P', which correspond to the number '2'."
+  },
+  {
+    "QuestionText": "Which of these is the correct order for making tea?",
+    "Options": ["A) Drink -> Pour -> Boil", "B) Boil water -> Add tea -> Pour", "C) Add tea -> Drink -> Boil", "D) Pour -> Drink -> Boil"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Algorithms must follow a logical sequence to work correctly."
+  },
+  {
+    "QuestionText": "Find the odd one out: Circle, Square, Triangle, Red.",
+    "Options": ["A) Circle", "B) Square", "C) Triangle", "D) Red"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "Circle, Square, and Triangle are shapes; Red is a color."
+  },
+  {
+    "QuestionText": "In coding, a 'Bug' is a ________.",
+    "Options": ["A) Small insect", "B) Mistake in the program", "C) Type of mouse", "D) Fast computer"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "A bug is an error that prevents a program from working correctly."
+  },
+  {
+    "QuestionText": "Which shape comes next? Circle, Square, Circle, Square, ____.",
+    "Options": ["A) Triangle", "B) Square", "C) Circle", "D) Rectangle"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern repeats Circle and Square alternately."
+  },
+  {
+    "QuestionText": "If 'Up' is 'Down', then 'Left' is ________.",
+    "Options": ["A) Right", "B) Top", "C) Bottom", "D) Side"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "This describes opposites; the opposite of Left is Right."
+  },
+  {
+    "QuestionText": "A robot needs to reach a ball. The instructions are: Move Forward, Turn Right, Move Forward. If it misses the Turn Right, will it reach the ball?",
+    "Options": ["A) Yes", "B) No", "C) Maybe", "D) Only if it's fast"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Computers and robots follow instructions exactly; a missing step changes the outcome."
+  },
+  {
+    "QuestionText": "Which of these is used to give instructions to a computer?",
+    "Options": ["A) Programming Language", "B) English only", "C) Singing", "D) Drawing pictures"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "We use special languages like Scratch or Python to tell computers what to do."
+  },
+  {
+    "QuestionText": "Find the missing number: 10, 20, 30, __, 50.",
+    "Options": ["A) 35", "B) 40", "C) 45", "D) 60"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is counting in tens."
+  },
+  {
+    "QuestionText": "If CAT is 3-1-20, what is DOG? (Hint: A=1, B=2, C=3...)",
+    "Options": ["A) 4-15-7", "B) 1-2-3", "C) 5-6-7", "D) 4-5-6"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "D is the 4th letter, O is 15th, and G is 7th."
+  },
+  {
+    "QuestionText": "Looking at a mirror, the word 'BOX' will appear ________.",
+    "Options": ["A) Upside down", "B) Left-to-right reversed", "C) The same", "D) Invisible"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Mirror Images",
+    "Difficulty": "Advanced",
+    "Explanation": "Mirrors flip images horizontally."
+  },
+  {
+    "QuestionText": "A computer 'Loop' means to ________.",
+    "Options": ["A) Stop the program", "B) Repeat instructions", "C) Break the computer", "D) Save a file"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "A loop tells the computer to do the same thing over and over again."
+  },
+  {
+    "QuestionText": "Which is the odd one out?",
+    "Options": ["A) Monitor", "B) CPU", "C) Keyboard", "D) Television"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "The first three are computer parts; a TV is a separate appliance."
+  },
+  {
+    "QuestionText": "To make a robot walk in a square, how many times must it 'Turn'?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "A square has four corners, so it needs four turns."
+  },
+  {
+    "QuestionText": "Complete the series: A, C, E, G, __.",
+    "Options": ["A) H", "B) I", "C) J", "D) K"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern skips one letter (A, [B], C, [D], E, [F], G, [H], I)."
+  },
+  {
+    "QuestionText": "Binary language uses only two numbers. They are ________.",
+    "Options": ["A) 1 and 2", "B) 0 and 1", "C) 1 and 10", "D) 0 and 9"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Computers understand 'Off' (0) and 'On' (1)."
+  },
+  {
+    "QuestionText": "If SUN is related to DAY, then MOON is related to ________.",
+    "Options": ["A) Stars", "B) Night", "C) Sky", "D) Dark"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "The sun is seen during the day; the moon is primarily associated with the night."
+  },
+  {
+    "QuestionText": "Which of these is the first step when starting a computer?",
+    "Options": ["A) Switch on the Monitor", "B) Switch on the Main Power", "C) Switch on the UPS", "D) Switch on the CPU"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Everything starts with the main electricity supply."
+  },
+  {
+    "QuestionText": "An 'If-Then' statement is a ________.",
+    "Options": ["A) Question", "B) Condition", "C) Loop", "D) Bug"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "It tells the computer to do something ONLY IF something else is true."
+  },
+  {
+    "QuestionText": "Which shape has the most sides?",
+    "Options": ["A) Triangle", "B) Square", "C) Rectangle", "D) Pentagon"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Analysis",
+    "Difficulty": "Advanced",
+    "Explanation": "Pentagon has 5, Square/Rectangle have 4, Triangle has 3."
+  },
+  {
+    "QuestionText": "Find the odd one out: 11, 22, 33, 45, 55.",
+    "Options": ["A) 11", "B) 33", "C) 45", "D) 55"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Advanced",
+    "Explanation": "All others are double digits of the same number (1-1, 2-2, 3-3, 5-5)."
+  },
+  {
+    "QuestionText": "The brain of a robot where the code is stored is the ________.",
+    "Options": ["A) Motor", "B) Sensor", "C) Controller", "D) Battery"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "The controller acts like the CPU/brain for the robot."
+  },
+  {
+    "QuestionText": "Which comes next in the sequence: 1A, 2B, 3C, __.",
+    "Options": ["A) 4C", "B) 4D", "C) 5D", "D) 3D"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "Both the number and the letter increase by one."
+  },
+  {
+    "QuestionText": "To move a character in a game, you use 'Directional' steps. This is part of ________.",
+    "Options": ["A) Logic", "B) Painting", "C) Typing", "D) Printing"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Movement in games follows the logic of directional commands."
+  },
+  {
+    "QuestionText": "If WATER is coded as BLUE, then GRASS is coded as ________.",
+    "Options": ["A) Green", "B) Red", "C) Yellow", "D) Brown"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "The code describes the natural color of the object."
+  },
+  {
+    "QuestionText": "How many squares are in a 2x2 grid?",
+    "Options": ["A) 2", "B) 4", "C) 5", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Analysis",
+    "Difficulty": "Olympiad",
+    "Explanation": "There are 4 small squares and 1 large square containing them all."
+  },
+  {
+    "QuestionText": "A sequence that never ends is called an ________.",
+    "Options": ["A) Finite Loop", "B) Infinite Loop", "C) Short Loop", "D) Happy Loop"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Infinite means it goes on forever."
+  },
+  {
+    "QuestionText": "If 1=A and 2=B, then 1+2 = ________.",
+    "Options": ["A) C", "B) B", "C) D", "D) E"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "1+2=3, and the 3rd letter is C."
+  },
+  {
+    "QuestionText": "Which is the correct logic: 'If it is raining, then ________.'",
+    "Options": ["A) I will use an umbrella", "B) I will go swimming in the sun", "C) I will water the garden", "D) I will wear sunglasses"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Analysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Umbrellas are the logical response to rain."
+  },
+  {
+    "QuestionText": "In coding, a 'Variable' is like a ________ to store things.",
+    "Options": ["A) Box", "B) Key", "C) Screen", "D) Mouse"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "A variable holds information (like a score) that can change."
+  },
+  {
+    "QuestionText": "Complete the pattern: Up, Down, Left, Right, Up, Down, Left, ____.",
+    "Options": ["A) Up", "B) Down", "C) Right", "D) Left"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The four directions repeat in order."
+  },
+  {
+    "QuestionText": "Which device helps a robot 'feel' or 'see'?",
+    "Options": ["A) Motor", "B) Sensor", "C) Speaker", "D) Light"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Sensors provide input from the world to the robot's logic."
+  },
+  {
+    "QuestionText": "Find the odd one out: Addition, Subtraction, Multiplication, Keyboard.",
+    "Options": ["A) Addition", "B) Subtraction", "C) Multiplication", "D) Keyboard"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Odd One Out",
+    "Difficulty": "Foundation",
+    "Explanation": "The first three are math operations; Keyboard is hardware."
+  },
+  {
+    "QuestionText": "If 10-2=8 and 8-2=6, what is 6-2?",
+    "Options": ["A) 5", "B) 4", "C) 3", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is subtracting 2."
+  },
+  {
+    "QuestionText": "A computer program is written by a ________.",
+    "Options": ["A) Programmer", "B) Driver", "C) Doctor", "D) Farmer"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "A person who writes code is a programmer."
+  },
+  {
+    "QuestionText": "Which shape is inside the other? (A circle inside a square)",
+    "Options": ["A) Square", "B) Circle", "C) Both", "D) None"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Analysis",
+    "Difficulty": "Foundation",
+    "Explanation": "The circle is the inner object."
+  },
+  {
+    "QuestionText": "If 'Hot' is 'Cold', then 'Fast' is ________.",
+    "Options": ["A) Quick", "B) Slow", "C) Run", "D) Stop"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Opposite relationship."
+  },
+  {
+    "QuestionText": "How many letters are in the word 'COMPUTER'?",
+    "Options": ["A) 7", "B) 8", "C) 9", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Analysis",
+    "Difficulty": "Foundation",
+    "Explanation": "C-O-M-P-U-T-E-R is an 8-letter word."
+  },
+  {
+    "QuestionText": "To fix a 'Bug', you must ________ the program.",
+    "Options": ["A) Delete", "B) Debug", "C) Print", "D) Copy"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Debugging is the process of finding and fixing mistakes."
+  },
+  {
+    "QuestionText": "If RED + YELLOW = ORANGE, then BLUE + YELLOW = ________.",
+    "Options": ["A) Purple", "B) Green", "C) Black", "D) White"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Advanced",
+    "Explanation": "This follows the logic of color mixing."
+  },
+  {
+    "QuestionText": "Which number is the smallest?",
+    "Options": ["A) 101", "B) 110", "C) 011", "D) 111"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Analysis",
+    "Difficulty": "Advanced",
+    "Explanation": "011 is 11, which is smaller than 101, 110, and 111."
+  },
+  {
+    "QuestionText": "In an algorithm, if a step is out of order, the result will be ________.",
+    "Options": ["A) Correct", "B) Wrong", "C) Better", "D) Fast"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Correct order is vital for a successful outcome."
+  },
+  {
+    "QuestionText": "If 'Day' comes after 'Night', then 'Tuesday' comes after ________.",
+    "Options": ["A) Monday", "B) Wednesday", "C) Friday", "D) Sunday"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "This describes a 'following' relationship in time."
+  },
+  {
+    "QuestionText": "A computer program works like a ________.",
+    "Options": ["A) Recipe", "B) Random guess", "C) Cloud", "D) Toy"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "A recipe is a list of instructions, just like a program."
+  },
+  {
+    "QuestionText": "Find the next pattern: 1, 3, 5, 7, __.",
+    "Options": ["A) 8", "B) 9", "C) 10", "D) 11"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is odd numbers or adding 2."
+  },
+  {
+    "QuestionText": "Which of these is a logical 'NO'?",
+    "Options": ["A) Fish can fly", "B) Birds can fly", "C) Planes can fly", "D) Rockets can fly"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Logical Analysis",
+    "Difficulty": "Foundation",
+    "Explanation": "Fish typically swim, not fly."
+  },
+  {
+    "QuestionText": "Coding is like talking to a ________.",
+    "Options": ["A) Human", "B) Computer", "C) Plant", "D) Wall"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Coding Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Coding is how we communicate with hardware."
+  },
+  {
+    "QuestionText": "Complete: Hand is to Finger as Foot is to ________.",
+    "Options": ["A) Toe", "B) Knee", "C) Elbow", "D) Leg"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Analogies",
+    "Difficulty": "Foundation",
+    "Explanation": "Fingers are parts of the hand; toes are parts of the foot."
+  }
+]

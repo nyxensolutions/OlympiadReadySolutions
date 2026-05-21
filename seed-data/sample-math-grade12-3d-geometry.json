@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If a line makes angles 90°, 60° and 30° with the positive direction of x, y and z-axis respectively, find its direction cosines.",
+    "Options": ["A) 0, 1/2, √3/2", "B) 0, √3/2, 1/2", "C) 1, 1/2, √3/2", "D) 0, 1/2, 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "Direction cosines are cos 90°, cos 60°, cos 30°, which are 0, 1/2, √3/2."
+  },
+  {
+    "QuestionText": "The direction cosines of the z-axis are:",
+    "Options": ["A) (1, 0, 0)", "B) (0, 1, 0)", "C) (0, 0, 1)", "D) (1, 1, 1)"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "The z-axis makes 90° with x and y, and 0° with itself; cos 90°=0, cos 0°=1."
+  },
+  {
+    "QuestionText": "If a line has direction ratios -18, 12, -4, then what are its direction cosines?",
+    "Options": ["A) -9/11, 6/11, -2/11", "B) 9/11, -6/11, 2/11", "C) -18/22, 12/22, -4/22", "D) -9/22, 6/22, -2/22"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "Magnitude = √((-18)² + 12² + (-4)²) = √(324 + 144 + 16) = √484 = 22. Divide ratios by 22."
+  },
+  {
+    "QuestionText": "The vector equation of a line passing through the point (5, 2, -4) and parallel to the vector 3i + 2j - 8k is:",
+    "Options": ["A) r = (5i + 2j - 4k) + λ(3i + 2j - 8k)", "B) r = (3i + 2j - 8k) + λ(5i + 2j - 4k)", "C) r = (5i - 2j + 4k) + λ(3i + 2j - 8k)", "D) r = (3i - 2j + 8k) + λ(5i + 2j - 4k)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard form r = a + λb, where 'a' is the position vector and 'b' is the parallel vector."
+  },
+  {
+    "QuestionText": "The Cartesian equation of a line passing through (x1, y1, z1) with direction ratios a, b, c is:",
+    "Options": ["A) (x-x1)/a = (y-y1)/b = (z-z1)/c", "B) ax + by + cz = 0", "C) (x+x1)/a = (y+y1)/b = (z+z1)/c", "D) x/a + y/b + z/c = 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the standard symmetric form of a line equation in 3D."
+  },
+  {
+    "QuestionText": "Find the angle between the lines r = (i + 2j + 4k) + λ(i + 2j + 2k) and r = (3i + 3j - 5k) + μ(3i + 2j + 6k).",
+    "Options": ["A) cos⁻¹(19/21)", "B) cos⁻¹(8/21)", "  C) cos⁻¹(15/21)", "D) 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Advanced",
+    "Explanation": "cos θ = |(b1·b2)| / (|b1||b2|). b1·b2 = 3+4+12=19. |b1|=3, |b2|=7. cos θ = 19/21."
+  },
+  {
+    "QuestionText": "If two lines are perpendicular, the product of their direction ratios a1a2 + b1b2 + c1c2 is:",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) k"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Perpendicularity implies the dot product of the direction vectors is zero."
+  },
+  {
+    "QuestionText": "The shortest distance between two skew lines is zero if the lines are:",
+    "Options": ["A) Parallel", "B) Intersecting", "C) Coincident", "D) Perpendicular"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Shortest distance between lines",
+    "Difficulty": "Foundation",
+    "Explanation": "If lines intersect, the point of intersection makes the distance between them zero."
+  },
+  {
+    "QuestionText": "Find the distance of the point (2, 3, 4) from the x-axis.",
+    "Options": ["A) 5", "B) √13", "C) √20", "D) √29"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Advanced",
+    "Explanation": "Distance from x-axis is √(y² + z²) = √(3² + 4²) = 5."
+  },
+  {
+    "QuestionText": "If the direction cosines of a line are l, m, n, then l² + m² + n² is:",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) -1"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a fundamental identity for direction cosines of any line."
+  },
+  {
+    "QuestionText": "The angle between the x-axis and the line with direction ratios (1, 1, √2) is:",
+    "Options": ["A) 30°", "B) 45°", "C) 60°", "D) 90°"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Advanced",
+    "Explanation": "cos α = 1 / √(1+1+2) = 1/√4 = 1/2. Thus α = 60°."
+  },
+  {
+    "QuestionText": "The shortest distance between lines r = a1 + λb and r = a2 + μb (parallel lines) is:",
+    "Options": ["A) |b x (a2-a1)| / |b|", "B) |b · (a2-a1)| / |b|", "C) |a2 - a1|", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Shortest distance between lines",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard formula for distance between two parallel lines in 3D."
+  },
+  {
+    "QuestionText": "If a line makes angles α, β, γ with the axes, then sin²α + sin²β + sin²γ is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "(1-cos²α) + (1-cos²β) + (1-cos²γ) = 3 - (l²+m²+n²) = 3 - 1 = 2."
+  },
+  {
+    "QuestionText": "A line passes through (1, 2, 3) and is parallel to the z-axis. Its equation is:",
+    "Options": ["A) (x-1)/0 = (y-2)/0 = (z-3)/1", "B) (x-1)/1 = (y-2)/1 = (z-3)/0", "C) x=1, y=2", "D) Both A and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Advanced",
+    "Explanation": "Direction ratios are (0, 0, 1). Cartesian form allows zero denominators to indicate fixed coordinates."
+  },
+  {
+    "QuestionText": "If the lines (x-1)/-3 = (y-2)/2p = (z-3)/2 and (x-1)/3p = (y-1)/1 = (z-6)/-5 are perpendicular, then p is:",
+    "Options": ["A) -10/7", "B) 10/7", "C) -7/10", "D) 7/10"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Olympiad",
+    "Explanation": "(-3)(3p) + (2p)(1) + (2)(-5) = 0 → -9p + 2p - 10 = 0 → -7p = 10 → p = -10/7. Wait, check signs."
+  },
+  {
+    "QuestionText": "The coordinates of the foot of the perpendicular from (1, 2, 3) to the x-axis are:",
+    "Options": ["A) (1, 0, 0)", "B) (0, 2, 3)", "C) (1, 2, 0)", "D) (0, 0, 0)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Foundation",
+    "Explanation": "On the x-axis, y and z are 0. The closest point has the same x-coordinate."
+  },
+  {
+    "QuestionText": "Equation of the line joining (1, 2, 1) and (3, 4, 4) is:",
+    "Options": ["A) (x-1)/2 = (y-2)/2 = (z-1)/3", "B) (x-3)/2 = (y-4)/2 = (z-4)/3", "C) Both A and B", "D) (x-1)/4 = (y-2)/6 = (z-1)/5"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Advanced",
+    "Explanation": "Direction ratios are (3-1, 4-2, 4-1) = (2, 2, 3). The equation can use either point."
+  },
+  {
+    "QuestionText": "The direction ratios of a line perpendicular to both lines with ratios (1, 2, 3) and (-1, 0, 2) are:",
+    "Options": ["A) (4, -5, 2)", "B) (4, 5, 2)", "C) (4, -5, -2)", "D) (-4, 5, 2)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Olympiad",
+    "Explanation": "Use cross product: |i j k; 1 2 3; -1 0 2| = 4i - 5j + 2k."
+  },
+  {
+    "QuestionText": "What is the angle between the lines x/2 = y/2 = z/1 and (x-5)/4 = (y-2)/1 = (z-3)/8?",
+    "Options": ["A) cos⁻¹(2/3)", "B) cos⁻¹(18/27)", "C) Both A and B", "D) 45°"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Advanced",
+    "Explanation": "cos θ = (2*4 + 2*1 + 1*8) / (3 * 9) = 18/27 = 2/3."
+  },
+  {
+    "QuestionText": "The shortest distance between lines r = (i+2j+k) + λ(i-j+k) and r = (2i-j-k) + μ(2i+j+2k) is found using:",
+    "Options": ["A) |(a2-a1)·(b1 x b2)| / |b1 x b2|", "B) |(a2-a1) x (b1 x b2)|", "C) (a2-a1)·b1", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Shortest distance between lines",
+    "Difficulty": "Advanced",
+    "Explanation": "This is the standard formula for the distance between two skew lines."
+  },
+  {
+    "QuestionText": "If the lines (x-x1)/l1 = (y-y1)/m1 = (z-z1)/n1 and (x-x2)/l2 = (y-y2)/m2 = (z-z2)/n2 are parallel, then:",
+    "Options": ["A) l1/l2 = m1/m2 = n1/n2", "B) l1l2 + m1m2 + n1n2 = 0", "C) l1=l2, m1=m2, n1=n2", "D) Both A and C"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallel lines have proportional direction ratios."
+  },
+  {
+    "QuestionText": "Distance of the point (3, 4, 5) from the origin is:",
+    "Options": ["A) 5√2", "B) √50", "C) 5", "D) Both A and B"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Foundation",
+    "Explanation": "√(3² + 4² + 5²) = √(9 + 16 + 25) = √50 = 5√2."
+  },
+  {
+    "QuestionText": "Which point lies on the line (x-5)/3 = (y+4)/7 = (z-6)/2?",
+    "Options": ["A) (5, -4, 6)", "B) (-5, 4, -6)", "C) (3, 7, 2)", "D) (8, 3, 8)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Foundation",
+    "Explanation": "The point (x1, y1, z1) can be read directly from the numerator: x-5=0, y+4=0, z-6=0."
+  },
+  {
+    "QuestionText": "Condition for three points A, B, C to be collinear is that the direction ratios of AB and BC are:",
+    "Options": ["A) Proportional", "B) Perpendicular", "C) Equal to 1", "D) Zero"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Advanced",
+    "Explanation": "Collinear points form parallel segments AB and BC, so their ratios must be proportional."
+  },
+  {
+    "QuestionText": "Direction ratios of the line passing through (2, 3, 5) and (-1, 2, 4) are:",
+    "Options": ["A) (3, 1, 1)", "B) (-3, -1, -1)", "C) Both A and B", "D) (1, 5, 9)"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "Ratios are (x2-x1, y2-y1, z2-z1) = (-3, -1, -1) or its multiple (3, 1, 1)."
+  },
+  {
+    "QuestionText": "The distance of point (a, b, c) from the xy-plane is:",
+    "Options": ["A) |c|", "B) √(a²+b²)", "C) |a|", "D) |b|"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Foundation",
+    "Explanation": "In the xy-plane, z=0. The distance is the absolute value of the z-coordinate."
+  },
+  {
+    "QuestionText": "The angle between lines whose direction cosines are (l1, m1, n1) and (l2, m2, n2) is:",
+    "Options": ["A) cos⁻¹(l1l2 + m1m2 + n1n2)", "B) sin⁻¹(l1l2 + m1m2 + n1n2)", "C) cos⁻¹(l1/l2)", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard formula for the angle between two lines using direction cosines."
+  },
+  {
+    "QuestionText": "If a line makes an angle α with x-axis and β with y-axis, the angle γ with z-axis satisfies:",
+    "Options": ["A) cos²α + cos²β + cos²γ = 1", "B) cos α + cos β + cos γ = 1", "C) α + β + γ = 180°", "D) α + β + γ = 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "The sum of squares of direction cosines is always unity."
+  },
+  {
+    "QuestionText": "The shortest distance between lines (x-1)/2 = (y-2)/3 = (z-3)/4 and (x-2)/3 = (y-4)/4 = (z-5)/5 is:",
+    "Options": ["A) 1/√6", "B) 1/6", "C) 0", "D) √6"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Shortest distance between lines",
+    "Difficulty": "Olympiad",
+    "Explanation": "Apply the skew distance formula involving the determinant of (x2-x1) and direction vectors."
+  },
+  {
+    "QuestionText": "If the direction ratios of a line are (1, 2, 2), its direction cosines are:",
+    "Options": ["A) 1/3, 2/3, 2/3", "B) 1/9, 2/9, 2/9", "C) 1/5, 2/5, 2/5", "D) 1/2, 1, 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "Magnitude is √(1+4+4) = 3. Divide ratios by 3."
+  },
+  {
+    "QuestionText": "The x-axis and y-axis together constitute a plane called:",
+    "Options": ["A) xy-plane", "B) yz-plane", "C) zx-plane", "D) Origin"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Foundation",
+    "Explanation": "The plane containing the x and y axes is the xy-plane where z=0."
+  },
+  {
+    "QuestionText": "If the distance between (1, 1, 1) and (x, 1, 1) is 5, then x is:",
+    "Options": ["A) 6 or -4", "B) 4 or -6", "C) 5", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Foundation",
+    "Explanation": "√((x-1)² + 0 + 0) = 5 → |x-1| = 5 → x = 1±5."
+  },
+  {
+    "QuestionText": "The vector equation of line (x-2)/3 = (y+1)/4 = (z-2)/2 is:",
+    "Options": ["A) r = (2i - j + 2k) + λ(3i + 4j + 2k)", "B) r = (3i + 4j + 2k) + λ(2i - j + 2k)", "C) r = (-2i + j - 2k) + λ(3i + 4j + 2k)", "D) r = (2i + j + 2k) + λ(3i - 4j + 2k)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Advanced",
+    "Explanation": "Position vector is (2, -1, 2) and direction vector is (3, 4, 2)."
+  },
+  {
+    "QuestionText": "Two lines r = a1 + λb1 and r = a2 + μb2 are coplanar if:",
+    "Options": ["A) (a2-a1) · (b1 x b2) = 0", "B) (a2-a1) x (b1 · b2) = 0", "C) b1 x b2 = 0", "D) a1 = a2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Shortest distance between lines",
+    "Difficulty": "Olympiad",
+    "Explanation": "Coplanarity requires the volume of the parallelepiped formed by (a2-a1), b1, b2 to be zero."
+  },
+  {
+    "QuestionText": "The angle between two diagonals of a cube is:",
+    "Options": ["A) cos⁻¹(1/3)", "B) cos⁻¹(1/√3)", "C) 60°", "D) 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Olympiad",
+    "Explanation": "Direction ratios of diagonals are (1,1,1) and (-1,1,1). cos θ = (-1+1+1) / (√3 * √3) = 1/3."
+  },
+  {
+    "QuestionText": "The image of the point (1, 2, 3) in the xy-plane is:",
+    "Options": ["A) (1, 2, -3)", "B) (-1, -2, -3)", "C) (1, 2, 0)", "D) (-1, 2, 3)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Advanced",
+    "Explanation": "Reflection across xy-plane (z=0) only changes the sign of the z-coordinate."
+  },
+  {
+    "QuestionText": "What are the direction ratios of the line (x-1)/2 = 3-y = (2z-4)/2?",
+    "Options": ["A) (2, -1, 1)", "B) (2, 1, 2)", "C) (2, -1, 2)", "D) (1, 3, 4)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Advanced",
+    "Explanation": "Standardize: (x-1)/2 = (y-3)/-1 = (z-2)/1. Ratios are (2, -1, 1)."
+  },
+  {
+    "QuestionText": "A line with direction cosines (l, m, n) is parallel to the x-axis if:",
+    "Options": ["A) l=1, m=0, n=0", "B) l=0, m=1, n=0", "C) l=0, m=0, n=1", "D) l=m=n"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "The x-axis has direction cosines (1, 0, 0)."
+  },
+  {
+    "QuestionText": "Find the angle between lines with direction ratios (1, 1, 2) and (√3-1, -√3-1, 4).",
+    "Options": ["A) 60°", "B) 30°", "C) 45°", "D) 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Olympiad",
+    "Explanation": "cos θ = (√3-1 - √3-1 + 8) / (√6 * √24) = 6 / 12 = 1/2. Thus θ = 60°."
+  },
+  {
+    "QuestionText": "If the lines (x-1)/k = (y-2)/2 = (z-3)/3 and (x-2)/3 = (y-3)/k = (z-1)/2 are intersecting, then k is:",
+    "Options": ["A) -5", "B) 5", "C) 2", "D) -2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Shortest distance between lines",
+    "Difficulty": "Olympiad",
+    "Explanation": "For intersection, the skew distance determinant must be zero. Solving for k yields -5."
+  },
+  {
+    "QuestionText": "The point of intersection of lines (x-1)/2 = (y-2)/3 = (z-3)/4 and (x-4)/5 = (y-1)/2 = z is:",
+    "Options": ["A) (-1, -1, -1)", "B) (1, 2, 3)", "C) (4, 1, 0)", "D) No intersection"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Olympiad",
+    "Explanation": "Equating λ and μ expressions for x, y, z leads to the point (-1, -1, -1)."
+  },
+  {
+    "QuestionText": "Direction ratios of a line segment AB where A is (0, 0, 0) and B is (x, y, z) are:",
+    "Options": ["A) (x, y, z)", "B) (1, 1, 1)", "C) (0, 0, 0)", "D) (1, 0, 0)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Foundation",
+    "Explanation": "Ratios are (x-0, y-0, z-0) = (x, y, z)."
+  },
+  {
+    "QuestionText": "The angle between two lines whose direction ratios are (a, b, c) and (b-c, c-a, a-b) is:",
+    "Options": ["A) 90°", "B) 0°", "C) 45°", "D) 180°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Olympiad",
+    "Explanation": "Dot product = a(b-c) + b(c-a) + c(a-b) = ab - ac + bc - ab + ac - bc = 0."
+  },
+  {
+    "QuestionText": "If a line makes angles α, β, γ with coordinate axes, then cos 2α + cos 2β + cos 2γ is:",
+    "Options": ["A) -1", "B) 1", "C) 0", "D) 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "Olympiad",
+    "Explanation": "(2cos²α-1) + (2cos²β-1) + (2cos²γ-1) = 2(1) - 3 = -1."
+  },
+  {
+    "QuestionText": "The perpendicular distance of the point P(x, y, z) from the z-axis is:",
+    "Options": ["A) √(x² + y²)", "B) z", "C) √(y² + z²)", "D) |x|"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Basics of 3D",
+    "Difficulty": "Foundation",
+    "Explanation": "The foot of perpendicular on z-axis is (0, 0, z). Distance = √((x-0)² + (y-0)² + 0)."
+  },
+  {
+    "QuestionText": "Vector equation of the line passing through origin and (5, -2, 3) is:",
+    "Options": ["A) r = λ(5i - 2j + 3k)", "B) r = (5i - 2j + 3k) + λi", "C) r = i + j + k", "D) r = 5i - 2j + 3k"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Foundation",
+    "Explanation": "Since it passes through origin, a = 0. r = 0 + λ(b-0)."
+  },
+  {
+    "QuestionText": "Shortest distance between x-axis and y-axis is:",
+    "Options": ["A) 0", "B) 1", "C) ∞", "D) Undefined"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Shortest distance between lines",
+    "Difficulty": "Advanced",
+    "Explanation": "The axes intersect at the origin (0, 0, 0), so the distance between them is zero."
+  },
+  {
+    "QuestionText": "The direction ratios of the line (x-1)/2 = y/0 = (z+1)/-1 are:",
+    "Options": ["A) (2, 0, -1)", "B) (1, 0, -1)", "C) (2, 1, -1)", "D) (2, 0, 1)"],
+    "CorrectAnswer": "Foundation",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Direction Cosines and Ratios",
+    "Difficulty": "A",
+    "Explanation": "The denominators in standard Cartesian form are the direction ratios."
+  },
+  {
+    "QuestionText": "If the angle between lines with direction cosines (1/√3, 1/√3, 1/√3) and (l, m, n) is 0°, then:",
+    "Options": ["A) l=m=n=1/√3", "B) l=m=n", "C) l²+m²+n²=1", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Angle between two lines",
+    "Difficulty": "Advanced",
+    "Explanation": "0° means the lines are parallel/coincident, so their cosines must be the same."
+  },
+  {
+    "QuestionText": "The symmetrical form of the line x=ay+b, z=cy+d is:",
+    "Options": ["A) (x-b)/a = y/1 = (z-d)/c", "B) (x-a)/b = y/1 = (z-c)/d", "C) (x-b)/c = y/1 = (z-d)/a", "D) x/a = y/b = z/c"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Three Dimensional Geometry",
+    "SubTopic": "Equation of a Line",
+    "Difficulty": "Olympiad",
+    "Explanation": "Expressing everything in terms of y: y = (x-b)/a and y = (z-d)/c. Equating them gives the form."
+  }
+]

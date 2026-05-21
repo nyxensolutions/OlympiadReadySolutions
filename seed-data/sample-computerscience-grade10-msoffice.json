@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "In MS Word 2016, which feature automatically replaces pre-defined text strings with specific symbols or corrected words as you type (e.g., changing '(c)' to '©')?",
+    "Options": ["A) AutoCorrect", "B) AutoFormat", "C) SmartLookup", "D) Quick Parts"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "AutoCorrect in MS Word 2016 fixes spelling errors and converts shorthand character strings into specialized symbols dynamically."
+  },
+  {
+    "QuestionText": "What will be the result of the following MS Excel 2016 formula? =COUNTA(A1:A4) if A1=10, A2=\"Apple\", A3=\"\", and A4=FALSE? (Note: A3 is an empty cell)",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The COUNTA function counts all non-empty cells in a range. It evaluates numbers, text, and boolean values (FALSE), but skips completely blank cells (A3). Thus, 10, 'Apple', and FALSE give a count of 3."
+  },
+  {
+    "QuestionText": "Which tab in MS Word 2016 contains options for configuring Page Setup properties like Orientation, Margins, and Columns?",
+    "Options": ["A) Home", "B) Design", "C) Layout", "D) View"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "In MS Office 2016, the Page Setup group containing orientation, margins, breaks, and column layouts was moved to the 'Layout' tab."
+  },
+  {
+    "QuestionText": "In MS Excel 2016, what happens when you enter the formula =C$4 into cell D4 and then drag the Fill Handle down to cell D5?",
+    "Options": ["A) Cell D5 changes to =D$4", "B) Cell D5 changes to =C$5", "C) Cell D5 remains =C$4", "D) Cell D5 results in a #REF! error"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The dollar sign ($) before the row index indicates an Absolute Row Reference. Moving vertically down shifts the row, but the constraint blocks it, keeping it locked onto =C$4."
+  },
+  {
+    "QuestionText": "Which feature in MS Word 2016 allows you to format the first letter of a paragraph as a large capital letter that sinks down into the text lines below?",
+    "Options": ["A) WordArt", "B) Drop Cap", "C) Superscript", "D) Font Scaling"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Drop Cap configures the opening character of a text block to drop across a designated number of body text lines for visual emphasis."
+  },
+  {
+    "QuestionText": "What Excel 2016 keyboard shortcut instantly toggles the display mode of all cells between showing their calculated numeric results and showing their raw underlying formulas?",
+    "Options": ["A) Ctrl + F1", "B) Ctrl + ` (Grave Accent)", "C) Alt + Enter", "D) Shift + F11"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "`Ctrl + `` toggles formula auditing view, revealing exactly how equations are written across the grid structure."
+  },
+  {
+    "QuestionText": "In MS Word 2016, which view hides the layout margins and backgrounds entirely, optimizing the screen real estate strictly for clean text reading and annotation tracking?",
+    "Options": ["A) Print Layout", "B) Web Layout", "C) Read Mode", "D) Outline View"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Read Mode alters the interface toolbar arrays, setting a fluid book-like dual-page layout perfect for processing digital text document files."
+  },
+  {
+    "QuestionText": "What error string appears in an MS Excel 2016 cell when the column is too narrow to display the numeric value or when a negative time/date calculation occurs?",
+    "Options": ["A) #VALUE!", "B) #NAME?", "C) #######", "D) #DIV/0!"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "A row of hashes indicate that the data exceeds the visible column layout width bounds, resolved by broadening the column borders."
+  },
+  {
+    "QuestionText": "Which type of page break in MS Word 2016 allows you to alter formatting attributes like orientation or headers dynamically for a single isolated page without altering the layout of surrounding pages?",
+    "Options": ["A) Simple Page Break", "B) Section Break (Next Page)", "C) Line Break", "D) Text Wrapping Break"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Section Breaks establish separate administrative sub-structures within a document file, letting users configure distinct layout schemes inside independent fragments."
+  },
+  {
+    "QuestionText": "What will be the result of the MS Excel 2016 formula =ROUND(45.678, -1)?",
+    "Options": ["A) 45.68", "B) 45.7", "C) 50", "D) 40"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Olympiad",
+    "Explanation": "A negative num_digits argument in ROUND targets numbers to the left of the decimal point. Rounding to the nearest multiple of 10 for 45.678 yields 50."
+  },
+  {
+    "QuestionText": "Which specific tool in MS Word 2016 allows you to duplicate all structural formatting details (font style, size, color, background) from one highlighted segment directly onto another text element?",
+    "Options": ["A) Format Painter", "B) Copy-Paste Special", "C) SmartArt Adjust", "D) Quick Styles Library"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Clicking the Format Painter brush copies styling attributes from a selected zone, which can then be applied directly by highlighting alternative target strings."
+  },
+  {
+    "QuestionText": "In MS Excel 2016, if cell A1 contains 5 and cell B1 contains 0, what error string is thrown by the formula =A1/B1?",
+    "Options": ["A) #NULL!", "B) #VALUE!", "C) #DIV/0!", "D) #NUM!"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Dividing a numeric value by zero or referencing an empty cell inside an evaluation divisor loop triggers the #DIV/0! fault indicator."
+  },
+  {
+    "QuestionText": "Which option under the MS Word 2016 Review tab allows users to trace every addition, deletion, and structural formatting adjustment made across a shared collaborative document project?",
+    "Options": ["A) Document Compare", "B) Restrict Editing", "C) Track Changes", "D) Review Pane Console"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Track Changes logs edits using custom markup colors, allowing project managers to approve or discard changes systematically."
+  },
+  {
+    "QuestionText": "What function in MS Excel 2016 matches a designated search key along the leftmost column of a spreadsheet grid matrix range to return data located in an adjacent cell to its right?",
+    "Options": ["A) HLOOKUP", "B) INDEX", "C) VLOOKUP", "D) MATCH"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "VLOOKUP (Vertical Lookup) scans a specified column from top to bottom until it locates a match, then fetches the corresponding data from the target column index."
+  },
+  {
+    "QuestionText": "What key combination is used in MS Word 2016 to insert a manual page break exactly at the current insertion cursor point position?",
+    "Options": ["A) Shift + Enter", "B) Ctrl + Enter", "C) Alt + Enter", "D) Ctrl + Spacebar"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "`Ctrl + Enter` bypasses automated line-fill algorithms, forcing the remaining text to start at the top of the next physical page boundary."
+  },
+  {
+    "QuestionText": "In MS Excel 2016, what will the formula =IF(AND(5>2, 3<=1), \"Pass\", \"Fail\") return?",
+    "Options": ["A) Pass", "B) Fail", "C) #VALUE!", "D) TRUE"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The AND clause requires *all* logical expressions to evaluate as true. Since $5>2$ is true but $3<=1$ is false, the AND statement returns FALSE, triggering the false outcome string 'Fail'."
+  },
+  {
+    "QuestionText": "What is the shortcut key used to launch the absolute 'Go To' window utility option in MS Word 2016, enabling rapid navigation across pages, sections, or bookmarks?",
+    "Options": ["A) F2", "B) F5", "C) F7", "D) F11"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "`F5` or `Ctrl + G` launches the Find and Replace dialog directly onto the 'Go To' navigational tab panel configuration layer."
+  },
+  {
+    "QuestionText": "Which Excel 2016 optimization feature lets a user discover what specific input variable value is required to achieve a targeted outcome balance by executing backward data tracking simulations?",
+    "Options": ["A) Goal Seek", "B) Scenario Manager", "C) Data Tables console", "D) Solver Matrix"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Goal Seek belongs to the What-If Analysis group under the Data tab. It automates reverse variable loops to match an explicit outcome index."
+  },
+  {
+    "QuestionText": "In MS Word 2016, which text wrapping profile allows body sentences to wrap closely around the exact contour path edges of an irregular geometric image frame instead of its square boundary box?",
+    "Options": ["A) Square", "B) Tight", "C) Top and Bottom", "D) Through"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "The 'Tight' wrapping profile pulls text lines inwards to map around the alpha transparency path margins of illustrations or shapes."
+  },
+  {
+    "QuestionText": "What will be the exact output result generated by evaluating the MS Excel 2016 formula =LEN(TRIM(\"  SOF  \"))?",
+    "Options": ["A) 7", "B) 5", "C) 3", "D) 9"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The nested TRIM function slices away all leading and trailing empty space characters from the string, leaving \"SOF\". The outer LEN function calculates character length, returning a value of 3."
+  },
+  {
+    "QuestionText": "Which contextual interface element appears at the upper-left boundary tracking zone above the MS Word 2016 tab line ribbon to hold links for custom tools like Save, Undo, and Redo?",
+    "Options": ["A) Status Bar ribbon", "B) Mini Toolbar array", "C) Quick Access Toolbar", "D) Navigation Pane profile"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "The Quick Access Toolbar can be fully modified by adding frequently used macro hooks or functional shortcut buttons above standard menu zones."
+  },
+  {
+    "QuestionText": "In MS Excel 2016, if a data cell contains the string values 'SOF National Science Olympiad', what will the formula =MID(A1, 5, 8) return?",
+    "Options": ["A) National", "B) National ", "C) Nationa", "D) Olympiad"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The MID function pulls text from a target string starting at character position 5 and spans exactly 8 characters. Characters 5 to 12 form the string 'National'."
+  },
+  {
+    "QuestionText": "What native operational mechanism is used in MS Word 2016 to automate repetitive formatting processes or action sequences by compiling keystrokes into VBA scripts?",
+    "Options": ["A) Template bundles", "B) Quick Parts", "C) Macros", "D) Mail Merge Wizards"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Macros capture serial user workspace edits, compiling operations into single executable commands to automate formatting tasks."
+  },
+  {
+    "QuestionText": "What formatting rule utility is applied in MS Excel 2016 to alter cell styles (like fill backgrounds or font metrics) dynamically based on specific value thresholds?",
+    "Options": ["A) AutoFormat templates", "B) Cell Styles ledger", "C) Conditional Formatting", "D) Format Painter logic"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Conditional Formatting uses logic boundaries to color or sort rows based on real-time grid value updates."
+  },
+  {
+    "QuestionText": "Which layout option group in MS Word 2016 is used to build automated reference architectures like Bibliographies, Table of Authorities, and Citations?",
+    "Options": ["A) Mailings Tab", "B) References Tab", "C) Insert Panel", "D) Review Ledger"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "The References tab handles advanced layout data markers like footnotes, endnotes, index entries, and research citation schemas."
+  },
+  {
+    "QuestionText": "What type of reference formula mapping adjustment occurs in MS Excel 2016 when a cell equation containing =A1+B1 is copied from row 1 down into row 2?",
+    "Options": ["A) Formula retains =A1+B1 exactly", "B) Formula steps to =A2+B2", "C) Formula outputs a #NAME? block", "D) Formula locks to =$A$1+$B$1"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard cell references are Relative by default. Copying the formula downward adapts the row references automatically to match the target coordinates."
+  },
+  {
+    "QuestionText": "Which shortcut command is executed in MS Word 2016 to clean away all manually applied font alterations, returning highlighted segments back to default body text settings?",
+    "Options": ["A) Ctrl + Shift + N", "B) Ctrl + Spacebar", "C) Ctrl + Shift + Z", "D) Ctrl + Backspace"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Highlighting text and hitting `Ctrl + Spacebar` strips out all manual styling overrides, restoring the default font properties of the active paragraph style."
+  },
+  {
+    "QuestionText": "What function is evaluated in MS Excel 2016 to count cells containing numeric values within a targeted cell block range?",
+    "Options": ["A) COUNT", "B) COUNTA", "C) COUNTBLANK", "D) COUNTIF"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Unlike COUNTA (which evaluates all data types), the basic COUNT function strictly tallies cells with valid numeric inputs."
+  },
+  {
+    "QuestionText": "Which utility tab in MS Word 2016 is used to generate personalized labels, envelope fields, and distributed form letter templates via Mail Merge arrays?",
+    "Options": ["A) Insert tab", "B) References tab", "C) Mailings tab", "D) View console"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "The Mailings tab centralizes all tools needed for automated recipient loops, data source integration, and address block configurations."
+  },
+  {
+    "QuestionText": "What function will you apply in MS Excel 2016 to change all character strings in a cell into complete lower-case text configurations?",
+    "Options": ["A) UPPER", "B) LOWER", "C) PROPER", "D) CASELESS"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "LOWER converts all capitalized letters in a string into lowercase format, ignoring non-alphabetic elements."
+  },
+  {
+    "QuestionText": "In MS Word 2016, which component under the View tab allows users to display structural page outlines and quickly drag-and-drop structural heading blocks to reorganize a document?",
+    "Options": ["A) Navigation Pane", "B) Format Drawer", "C) Review Panel", "D) Document Inspector"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "The Navigation Pane populates an interactive outline of heading styles, making structural section rearrangements quick and intuitive."
+  },
+  {
+    "QuestionText": "What is the output result of evaluating the Excel 2016 formula =CEILING(23, 5)?",
+    "Options": ["A) 20", "B) 25", "C) 23", "D) 4.6"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "CEILING rounds a numeric value *up* to the nearest multiple of the specified significance argument. The nearest multiple of 5 above 23 is 25."
+  },
+  {
+    "QuestionText": "Which structural indention profile sets the first sentence line of a paragraph flush at the left margin while driving all subsequent lines inward?",
+    "Options": ["A) First Line Indent", "B) Right Margin Indent", "C) Hanging Indent", "D) Center Justified Shift"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Hanging Indents (commonly used for bibliographies) position the introductory text line proud, shifting subsequent block elements inward."
+  },
+  {
+    "QuestionText": "In MS Excel 2016, which data reference error indicates that an invalid argument data type was passed into a formula configuration layer (e.g., trying to add text to a number)?",
+    "Options": ["A) #NAME?", "B) #VALUE!", "C) #REF!", "D) #NUM!"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The #VALUE! error indicates an operational data type mismatch, such as attempting math calculations using raw string values."
+  },
+  {
+    "QuestionText": "Which tool in MS Word 2016 checks a document's hidden fields for metadata elements, personal authorship tags, or internal XML fragments before publishing it globally?",
+    "Options": ["A) Document Inspector", "B) Smart Lookup console", "C) Compatibility Checker", "D) Research Pane link"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "The Document Inspector scans background fields, letting authors remove hidden personal identifiers from file metadata blocks before distribution."
+  },
+  {
+    "QuestionText": "What symbol sequence is typed at the front edge of a spreadsheet cell space to inform the MS Excel 2016 system engine that an execution formula is being deployed?",
+    "Options": ["A) $", "B) @", "C) =", "D) +"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "The equals sign (=) switches a cell from a basic text storage data node to an active expression evaluation module."
+  },
+  {
+    "QuestionText": "In MS Word 2016, which type of line break splits a sentence onto a fresh line workspace immediately without instantiating a completely new standalone paragraph block layout segment?",
+    "Options": ["A) Hard Return (Enter)", "B) Soft Return (Shift + Enter)", "C) Alt + Enter matrix", "D) Page Break segment"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "A Soft Return (`Shift + Enter`) inserts a line break that wraps text down onto a new line while preserving the active paragraph's unified style formatting rules."
+  },
+  {
+    "QuestionText": "What chart configuration type in MS Excel 2016 projects relative proportional sizing slices composed together into a single unified geometric wheel layout?",
+    "Options": ["A) Bar Chart profile", "B) Pie Chart", "C) Scatter Plot matrix", "D) Radar layout template"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Pie charts break down single data series variables into proportional sections to visualize relative composition values."
+  },
+  {
+    "QuestionText": "What functional field feature in MS Word 2016 populates preconfigured structural segments like cover letters, contact cards, or calendar widgets instantly?",
+    "Options": ["A) Quick Parts", "B) Macro sheets", "C) Drop Cap layouts", "D) Style Galleries"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Quick Parts act as reusable document building blocks, saving structural content templates for instant injection across project paths."
+  },
+  {
+    "QuestionText": "What will be the result of the following nested MS Excel 2016 formula? =MOD(INT(17.9), 4)",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Olympiad",
+    "Explanation": "The inner INT function rounds 17.9 down to the nearest integer, which is 17. The outer MOD function then evaluates the remainder of $17 / 4$, returning a value of 1."
+  },
+  {
+    "QuestionText": "Which horizontal text distribution format in MS Word 2016 aligns a paragraph evenly along both the left and right document margins, adjusting word spacing spaces automatically?",
+    "Options": ["A) Left Aligned", "B) Centered", "C) Justified", "D) Distributed Row Shift"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Justified alignment adds variable spaces between words so that paragraphs present clean vertical boundaries along both side margins."
+  },
+  {
+    "QuestionText": "What key is held down in MS Excel 2016 to select multiple non-adjacent cell blocks located across separate zones of a spreadsheet grid?",
+    "Options": ["A) Shift", "B) Alt", "C) Ctrl", "D) Tab"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Holding down the `Ctrl` key isolates separate cell blocks simultaneously, letting users apply formatting rules to non-contiguous selections."
+  },
+  {
+    "QuestionText": "In MS Word 2016, where are bibliographic source citations stored so they can be reused across entirely separate document files?",
+    "Options": ["A) Document Dictionary file", "B) Master List", "C) Current List ledger", "D) References template index"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Word maintains a global Master List of reference sources locally, alongside a specialized Current List specific to the active document container."
+  },
+  {
+    "QuestionText": "What does a green wavy underline accent indicate underneath a word or sentence string when typing content in MS Word 2016?",
+    "Options": ["A) Contextual spelling alert", "B) Grammatical syntax rule check warning", "C) Hyperlink indicator", "D) Smart Lookup tracking node"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Red underlines call out spelling faults, while green wavy underlines flag grammatical structure or syntax alignment warnings."
+  },
+  {
+    "QuestionText": "What will be the result of the MS Excel 2016 expression: =POWER(COUNT(1,2,3,\"SOF\"), 2)?",
+    "Options": ["A) 9", "B) 16", "C) 25", "D) 4"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Olympiad",
+    "Explanation": "The inner COUNT function tallies only numeric entries, filtering out the string 'SOF' and returning 3. The outer POWER function squares this result ($3^2$), returning 9."
+  },
+  {
+    "QuestionText": "Which native layout tool inside MS Word 2016 displays thumbnail icons of every document page, enabling fast canvas scrolling and layout management?",
+    "Options": ["A) Outline Grid drawer", "B) Navigation Pane (Pages tab)", "C) Layout Matrix view", "D) Split Window profile"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "The Pages tab inside the Navigation Pane generates real-time document page thumbnails for quick multi-page navigation."
+  },
+  {
+    "QuestionText": "What character string error code is thrown by MS Excel 2016 if an expression references a named range that does not exist or was misspelled?",
+    "Options": ["A) #NULL!", "B) #NAME?", "C) #REF!", "D) #VALUE!"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The #NAME? error flags unverified text elements inside expressions, typically caused by syntax typos or referencing missing functional modules."
+  },
+  {
+    "QuestionText": "What formatting technique is executed in MS Word 2016 to tie specific letter designs closely together into customized typography glyphs (e.g., combining 'f' and 'i' into 'fi')?",
+    "Options": ["A) Kerning adjustments", "B) Ligatures", "C) Character Scaling values", "D) Small Caps profiles"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Word",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ligatures are typographic design rules that merge adjacent font characters to prevent overlapping strokes in advanced layouts."
+  },
+  {
+    "QuestionText": "Which functional component in MS Excel 2016 freezes targeted rows or columns at the top or side margins so they stay visible while scrolling through large sheets?",
+    "Options": ["A) Split Windows layer", "B) Hide Columns ledger", "C) Freeze Panes utility", "D) Lock Grid lines array"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "Freeze Panes under the View menu pins header rows or tracking columns in place while scrolling down or across large sheets."
+  },
+  {
+    "QuestionText": "In MS Excel 2016, what will the formula =CONCATENATE(\"Class \", MID(\"Olympiad10\", 9, 2)) return?",
+    "Options": ["A) Class 10", "B) Class Olympiad", "C) Class 9", "D) #VALUE!"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Excel",
+    "Difficulty": "Advanced",
+    "Explanation": "The inner MID function isolates text from 'Olympiad10' starting at index 9 for 2 digits, returning '10'. The outer CONCATENATE function joins this with 'Class ', yielding the string 'Class 10'."
+  }
+]

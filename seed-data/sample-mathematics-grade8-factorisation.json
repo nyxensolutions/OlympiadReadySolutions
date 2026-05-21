@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Factorise: x² - 9",
+    "Options": [
+      "A) (x-3)(x-3)",
+      "B) (x+3)(x-3)",
+      "C) (x+9)(x-1)",
+      "D) (x-9)(x+1)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Difference of Squares",
+    "Difficulty": "Foundation",
+    "Explanation": "x²-9 = x²-3² = (x+3)(x-3) using the identity a²-b² = (a+b)(a-b)."
+  },
+  {
+    "QuestionText": "Find the common factor of 12ab and 18a²b.",
+    "Options": [
+      "A) 6ab",
+      "B) 6a²b",
+      "C) 12ab",
+      "D) 6ab²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Factors of 12ab: 1,2,3,4,6,12,a,b,ab,... Factors of 18a²b: 1,2,3,6,9,18,a,a²,b,ab,a²b,... HCF: 6×a×b = 6ab."
+  },
+  {
+    "QuestionText": "Factorise: 5x² + 10x",
+    "Options": [
+      "A) 5x(x+2)",
+      "B) 5(x²+2x)",
+      "C) x(5x+10)",
+      "D) 5x(x+10)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor Method",
+    "Difficulty": "Foundation",
+    "Explanation": "HCF of 5x² and 10x is 5x. So 5x²+10x = 5x(x+2). While 5(x²+2x) is partially factored and x(5x+10) is partially factored, only 5x(x+2) is fully factored."
+  },
+  {
+    "QuestionText": "Factorise: x² + 6x + 9",
+    "Options": [
+      "A) (x+3)(x-3)",
+      "B) (x+9)(x+1)",
+      "C) (x+3)²",
+      "D) (x+6)(x+3)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Algebraic Identities in Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "x²+6x+9 = x²+2(3)x+3² = (x+3)². This is a perfect square trinomial."
+  },
+  {
+    "QuestionText": "Factorise by regrouping: ab - ac + db - dc",
+    "Options": [
+      "A) (a+d)(b-c)",
+      "B) (a-d)(b+c)",
+      "C) (a+d)(b+c)",
+      "D) (a-c)(b+d)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Regrouping Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Group: (ab-ac)+(db-dc) = a(b-c)+d(b-c) = (a+d)(b-c)."
+  },
+  {
+    "QuestionText": "Factorise: 4a² - 12ab + 9b²",
+    "Options": [
+      "A) (2a-3b)²",
+      "B) (4a-9b)²",
+      "C) (2a+3b)²",
+      "D) (2a-3b)(2a+3b)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Algebraic Identities in Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "4a²-12ab+9b² = (2a)²-2(2a)(3b)+(3b)² = (2a-3b)². This matches the identity (a-b)² = a²-2ab+b²."
+  },
+  {
+    "QuestionText": "Divide: (x²+7x+12) ÷ (x+3)",
+    "Options": [
+      "A) x+4",
+      "B) x+3",
+      "C) x-4",
+      "D) x+5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division of Algebraic Expressions",
+    "Difficulty": "Foundation",
+    "Explanation": "Factorise numerator: x²+7x+12 = (x+3)(x+4). Dividing by (x+3) gives (x+4)."
+  },
+  {
+    "QuestionText": "Which of the following is a factor of x³ - 8?",
+    "Options": [
+      "A) x-2",
+      "B) x+2",
+      "C) x²+4",
+      "D) x-8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Algebraic Identities in Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "x³-8 = x³-2³ = (x-2)(x²+2x+4). So (x-2) is a factor."
+  },
+  {
+    "QuestionText": "Factorise completely: 2x² - 8",
+    "Options": [
+      "A) 2(x-2)(x+2)",
+      "B) (2x-8)(x+1)",
+      "C) 2(x²-4)",
+      "D) (x-2)(2x+4)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor Method",
+    "Difficulty": "Advanced",
+    "Explanation": "2x²-8 = 2(x²-4) = 2(x-2)(x+2). The complete factorisation takes out the common factor 2 first, then applies difference of squares."
+  },
+  {
+    "QuestionText": "Factorise: x² - x - 6",
+    "Options": [
+      "A) (x-3)(x+2)",
+      "B) (x+3)(x-2)",
+      "C) (x-6)(x+1)",
+      "D) (x-2)(x-3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Factorisation of Quadratic Expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "Find two numbers that multiply to -6 and add to -1: (-3) and (+2). So x²-x-6 = (x-3)(x+2). Check: (x-3)(x+2) = x²+2x-3x-6 = x²-x-6 ✓."
+  },
+  {
+    "QuestionText": "Divide: (6x³ - 4x²) ÷ 2x",
+    "Options": [
+      "A) 3x² - 2x",
+      "B) 3x - 2",
+      "C) 6x² - 4x",
+      "D) 3x³ - 2x"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division of Algebraic Expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "(6x³-4x²) ÷ 2x = 6x³/2x - 4x²/2x = 3x² - 2x."
+  },
+  {
+    "QuestionText": "Factorise: a²b - ab²",
+    "Options": [
+      "A) ab(a-b)",
+      "B) a(b-ab)",
+      "C) ab(a+b)",
+      "D) a²b(1-b)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor Method",
+    "Difficulty": "Advanced",
+    "Explanation": "HCF of a²b and ab² is ab. So a²b-ab² = ab(a-b)."
+  },
+  {
+    "QuestionText": "Factorise: x⁴ - 16",
+    "Options": [
+      "A) (x²+4)(x+2)(x-2)",
+      "B) (x²-4)(x²+4)",
+      "C) (x-2)(x+2)(x²-4)",
+      "D) (x-2)⁴"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Difference of Squares",
+    "Difficulty": "Advanced",
+    "Explanation": "x⁴-16 = (x²)²-4² = (x²+4)(x²-4) = (x²+4)(x+2)(x-2). The factor x²+4 cannot be factored further over real numbers."
+  },
+  {
+    "QuestionText": "Divide: (y² - 5y + 6) ÷ (y - 3)",
+    "Options": [
+      "A) y-2",
+      "B) y+2",
+      "C) y-3",
+      "D) y+3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division of Algebraic Expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "y²-5y+6 = (y-2)(y-3). Dividing by (y-3): result is (y-2)."
+  },
+  {
+    "QuestionText": "Factorise: 8a³ + 27b³",
+    "Options": [
+      "A) (2a+3b)(4a²-6ab+9b²)",
+      "B) (2a-3b)(4a²+6ab+9b²)",
+      "C) (2a+3b)³",
+      "D) (8a+27b)(a²-ab+b²)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Algebraic Identities in Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "Using a³+b³ = (a+b)(a²-ab+b²) with a=2a, b=3b: (2a+3b)((2a)²-(2a)(3b)+(3b)²) = (2a+3b)(4a²-6ab+9b²)."
+  },
+  {
+    "QuestionText": "What must be added to x² + 8x to make it a perfect square?",
+    "Options": [
+      "A) 4",
+      "B) 8",
+      "C) 16",
+      "D) 64"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Algebraic Identities in Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "x²+8x+? = (x+k)² = x²+2kx+k². So 2k=8 → k=4. Add k²=16. Then x²+8x+16 = (x+4)²."
+  },
+  {
+    "QuestionText": "Factorise: x² + (a+b)x + ab",
+    "Options": [
+      "A) (x+a)(x+b)",
+      "B) (x-a)(x-b)",
+      "C) (x+ab)(x+1)",
+      "D) (x+a+b)(x)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Factorisation of Quadratic Expressions",
+    "Difficulty": "Advanced",
+    "Explanation": "Find two numbers summing to (a+b) and multiplying to ab: those numbers are a and b. So x²+(a+b)x+ab = (x+a)(x+b)."
+  },
+  {
+    "QuestionText": "Factorise completely: 12x²y - 18xy² + 6xy",
+    "Options": [
+      "A) 6xy(2x-3y+1)",
+      "B) 6x(2xy-3y²+y)",
+      "C) 6xy(2x-3y)",
+      "D) 3xy(4x-6y+2)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor Method",
+    "Difficulty": "Olympiad",
+    "Explanation": "HCF of 12x²y, 18xy², and 6xy is 6xy. Factor out: 6xy(2x-3y+1). Option D = 6xy(2x-3y+1) after simplification — wait: 3xy(4x-6y+2) = 3xy×2(2x-3y+1) = 6xy(2x-3y+1). So both A and D are equivalent. The fully factored form with highest common factor taken is 6xy(2x-3y+1) = A."
+  },
+  {
+    "QuestionText": "Divide (2x⁵ - 4x⁴ + 3x² - 6x) ÷ (x-2)",
+    "Options": [
+      "A) 2x⁴+3x",
+      "B) 2x⁴(x-2)+3x(x-2)",
+      "C) x(2x³+3)",
+      "D) Cannot be divided evenly"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division of Algebraic Expressions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Factor numerator: 2x⁵-4x⁴+3x²-6x = 2x⁴(x-2)+3x(x-2) = (x-2)(2x⁴+3x). Divide by (x-2): result = 2x⁴+3x."
+  },
+  {
+    "QuestionText": "Factorise: a³ - b³ - a + b",
+    "Options": [
+      "A) (a-b)(a²+ab+b²-1)",
+      "B) (a-b)(a+b-1)",
+      "C) (a-b)(a²+ab+b²+1)",
+      "D) (a+b)(a-b-1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Regrouping Method",
+    "Difficulty": "Olympiad",
+    "Explanation": "= (a³-b³)-(a-b) = (a-b)(a²+ab+b²)-(a-b)(1) = (a-b)(a²+ab+b²-1)."
+  },
+  {
+    "QuestionText": "If x-1 is a factor of x³+kx²-x-2, find k.",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) -1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Factor Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "If (x-1) is a factor, then x=1 satisfies the polynomial. Substituting: 1+k-1-2=0 → k-2=0 → k=2."
+  },
+  {
+    "QuestionText": "Factorise: x²y - xy² + xz - yz - x + y",
+    "Options": [
+      "A) (x-y)(xy+z-1)",
+      "B) (x+y)(xy-z+1)",
+      "C) (x-y)(xy-z+1)",
+      "D) (x-y)(xy+z+1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Regrouping Method",
+    "Difficulty": "Olympiad",
+    "Explanation": "Group: (x²y-xy²)+(xz-yz)+(-x+y) = xy(x-y)+z(x-y)-(x-y) = (x-y)(xy+z-1)."
+  },
+  {
+    "QuestionText": "The expression x⁴+4 can be factorised using Sophie Germain Identity as:",
+    "Options": [
+      "A) (x²+2x+2)(x²-2x+2)",
+      "B) (x²+2)²",
+      "C) (x²+2)(x²-2)",
+      "D) (x+2)²(x-2)²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Algebraic Identities in Factorisation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sophie Germain: a⁴+4b⁴ = (a²+2b²+2ab)(a²+2b²-2ab). With b=1: x⁴+4 = (x²+2+2x)(x²+2-2x) = (x²+2x+2)(x²-2x+2)."
+  },
+  {
+    "QuestionText": "Statement 1: A polynomial of degree n has exactly n factors over reals. Statement 2: If p(a)=0 for a polynomial p(x), then (x-a) is a factor of p(x). Which is/are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Factor Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1 is FALSE — a degree-n polynomial has at most n real factors; it may have complex roots or repeated factors. For example, x²+1 has no real factors. Statement 2 is TRUE — this is the Factor Theorem: if p(a)=0, then (x-a) divides p(x) exactly."
+  },
+  {
+    "QuestionText": "Find all factors of x³ - 6x² + 11x - 6.",
+    "Options": [
+      "A) (x-1)(x-2)(x-3)",
+      "B) (x+1)(x+2)(x+3)",
+      "C) (x-1)(x+2)(x-3)",
+      "D) (x-2)(x²+4)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Factor Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "Try x=1: 1-6+11-6=0 ✓. So (x-1) is a factor. Divide: x³-6x²+11x-6 = (x-1)(x²-5x+6) = (x-1)(x-2)(x-3). Verify: x=2: 8-24+22-6=0 ✓; x=3: 27-54+33-6=0 ✓."
+  },
+  {
+    "QuestionText": "Factorise: 6x²+3x",
+    "Options": [
+      "A) 3x(2x+1)",
+      "B) 3(x²+x)",
+      "C) 6x(x+1)",
+      "D) x(6x+3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor",
+    "Difficulty": "Foundation",
+    "Explanation": "HCF of 6x² and 3x is 3x. 6x²+3x = 3x(2x+1). Verify: 3x×2x=6x², 3x×1=3x ✓."
+  },
+  {
+    "QuestionText": "Factorise: x²-9",
+    "Options": [
+      "A) (x-9)(x+1)",
+      "B) (x-3)(x+3)",
+      "C) (x-3)²",
+      "D) x(x-9)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Difference of Squares",
+    "Difficulty": "Foundation",
+    "Explanation": "a²-b² = (a+b)(a-b). x²-9 = x²-3² = (x+3)(x-3)."
+  },
+  {
+    "QuestionText": "Factorise: x²+8x+16",
+    "Options": [
+      "A) (x+4)²",
+      "B) (x+8)(x+2)",
+      "C) (x-4)²",
+      "D) (x+4)(x-4)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Perfect Square",
+    "Difficulty": "Foundation",
+    "Explanation": "x²+8x+16 = x²+2×x×4+4² = (x+4)². Perfect square trinomial: a²+2ab+b²=(a+b)²."
+  },
+  {
+    "QuestionText": "Factorise: 4a²-20ab+25b²",
+    "Options": [
+      "A) (2a+5b)²",
+      "B) (2a-5b)²",
+      "C) (4a-5b)(a-5b)",
+      "D) (2a-5b)(2a+5b)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Perfect Square",
+    "Difficulty": "Foundation",
+    "Explanation": "4a²-20ab+25b² = (2a)²-2(2a)(5b)+(5b)² = (2a-5b)²."
+  },
+  {
+    "QuestionText": "Factorise: ax+ay+bx+by",
+    "Options": [
+      "A) (a+b)(x+y)",
+      "B) a(x+y)+b(x+y)",
+      "C) (ax+by)+(ay+bx)",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Grouping",
+    "Difficulty": "Foundation",
+    "Explanation": "ax+ay+bx+by = a(x+y)+b(x+y) = (a+b)(x+y). All representations are equivalent. Method: factor by grouping."
+  },
+  {
+    "QuestionText": "Factorise: x²+5x+6",
+    "Options": [
+      "A) (x+2)(x+3)",
+      "B) (x+1)(x+6)",
+      "C) (x+2)(x+3) only",
+      "D) (x+6)(x-1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Quadratic Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "Find two numbers with sum=5, product=6: 2+3=5, 2×3=6 ✓. x²+5x+6 = (x+2)(x+3)."
+  },
+  {
+    "QuestionText": "Factorise: y²-y-12",
+    "Options": [
+      "A) (y-4)(y+3)",
+      "B) (y+4)(y-3)",
+      "C) (y-4)(y-3)",
+      "D) (y+4)(y+3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Quadratic Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "Find two numbers with sum=-1, product=-12: -4+3=-1, (-4)×3=-12 ✓. y²-y-12 = (y-4)(y+3)."
+  },
+  {
+    "QuestionText": "Factorise: 25x²-1",
+    "Options": [
+      "A) (5x-1)²",
+      "B) (5x+1)(5x-1)",
+      "C) (25x+1)(x-1)",
+      "D) (5x-1)(5x-1)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Difference of Squares",
+    "Difficulty": "Foundation",
+    "Explanation": "25x²-1 = (5x)²-1² = (5x+1)(5x-1). a²-b²=(a+b)(a-b)."
+  },
+  {
+    "QuestionText": "Division: (x²+5x+6)÷(x+2) = ?",
+    "Options": [
+      "A) x+3",
+      "B) x+2",
+      "C) x-3",
+      "D) x+5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division",
+    "Difficulty": "Foundation",
+    "Explanation": "x²+5x+6 = (x+2)(x+3). Dividing by (x+2): quotient = (x+3). Factorisation makes polynomial division easy."
+  },
+  {
+    "QuestionText": "Factorise completely: 2x²+14x+20",
+    "Options": [
+      "A) (2x+4)(x+5)",
+      "B) 2(x+2)(x+5)",
+      "C) (x+2)(2x+10)",
+      "D) All are equivalent"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Quadratic Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "2x²+14x+20 = 2(x²+7x+10) = 2(x+2)(x+5). All options represent the same factorisation. The fully factored form is 2(x+2)(x+5)."
+  },
+  {
+    "QuestionText": "Factorise: a³-a",
+    "Options": [
+      "A) a(a-1)(a+1)",
+      "B) a(a²-1)",
+      "C) a(a-1)²",
+      "D) a²(a-1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Complete Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "a³-a = a(a²-1) = a(a+1)(a-1). Two steps: first take out common factor a, then use difference of squares."
+  },
+  {
+    "QuestionText": "The process of writing an expression as a product of its factors is called:",
+    "Options": [
+      "A) Expansion",
+      "B) Factorisation",
+      "C) Simplification",
+      "D) Rationalisation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Definition",
+    "Difficulty": "Foundation",
+    "Explanation": "Factorisation: expressing a polynomial as a product of simpler factors. Opposite of expansion. Expansion: (x+3)(x+2)→x²+5x+6. Factorisation: x²+5x+6→(x+3)(x+2)."
+  },
+  {
+    "QuestionText": "Factorise: 12x²y - 18xy²",
+    "Options": [
+      "A) 6xy(2x-3y)",
+      "B) 6x(2xy-3y²)",
+      "C) 6y(2x²-3xy)",
+      "D) All are equivalent"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor",
+    "Difficulty": "Foundation",
+    "Explanation": "12x²y-18xy² = 6xy(2x-3y). All representations are equivalent: 6xy is the HCF. The fully factored form is 6xy(2x-3y)."
+  },
+  {
+    "QuestionText": "Divide: (x³-x²+x-1)÷(x-1)",
+    "Options": [
+      "A) x²+1",
+      "B) x²-1",
+      "C) x²+x+1",
+      "D) x²-x+1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division",
+    "Difficulty": "Advanced",
+    "Explanation": "x³-x²+x-1 = x²(x-1)+1(x-1) = (x-1)(x²+1). Dividing by (x-1): quotient = x²+1."
+  },
+  {
+    "QuestionText": "Assertion: Factorisation is the reverse process of expansion. Reason: In expansion, factors are multiplied; in factorisation, the product is expressed as a multiplication of factors. Which is correct?",
+    "Options": [
+      "A) Both true and Reason correctly explains",
+      "B) Assertion false",
+      "C) Both false",
+      "D) Assertion true; Reason false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Definition",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. Expansion: (a+b)(a-b) → a²-b². Factorisation: a²-b² → (a+b)(a-b). They are inverse processes. The Reason correctly describes the relationship."
+  },
+  {
+    "QuestionText": "Factorise: 16a²b - 4ab²",
+    "Options": [
+      "A) 4ab(4a-b)",
+      "B) 4a(4ab-b²)",
+      "C) 4b(4a²-ab)",
+      "D) 2ab(8a-2b)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor",
+    "Difficulty": "Foundation",
+    "Explanation": "HCF of 16a²b and 4ab² = 4ab. 16a²b-4ab² = 4ab(4a-b)."
+  },
+  {
+    "QuestionText": "Factorise: x⁴-16",
+    "Options": [
+      "A) (x²+4)(x+2)(x-2)",
+      "B) (x²-4)²",
+      "C) (x+2)²(x-2)²",
+      "D) (x²+4)(x²-4)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Difference of Squares",
+    "Difficulty": "Olympiad",
+    "Explanation": "x⁴-16 = (x²)²-4² = (x²+4)(x²-4) = (x²+4)(x+2)(x-2). The second bracket is further factorised using a²-b²=(a+b)(a-b)."
+  },
+  {
+    "QuestionText": "Find the remainder when x²+3x-10 is divided by (x-2):",
+    "Options": [
+      "A) 0",
+      "B) 2",
+      "C) -10",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division",
+    "Difficulty": "Advanced",
+    "Explanation": "x²+3x-10 = (x-2)(x+5). So (x-2) is a factor — remainder = 0. Alternatively, substitute x=2: 4+6-10=0."
+  },
+  {
+    "QuestionText": "Factorise: 9x²+24xy+16y²",
+    "Options": [
+      "A) (3x+4y)²",
+      "B) (3x-4y)²",
+      "C) (9x+16y)²",
+      "D) (3x+4y)(3x-4y)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Perfect Square",
+    "Difficulty": "Foundation",
+    "Explanation": "9x²+24xy+16y² = (3x)²+2(3x)(4y)+(4y)² = (3x+4y)². Perfect square trinomial a²+2ab+b²=(a+b)²."
+  },
+  {
+    "QuestionText": "The HCF of 6a²b, 9ab², and 12a²b² is:",
+    "Options": [
+      "A) 3ab",
+      "B) 36a²b²",
+      "C) 3a²b",
+      "D) 6ab"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Common Factor",
+    "Difficulty": "Advanced",
+    "Explanation": "HCF of coefficients: HCF(6,9,12)=3. Variables: a (min power=1), b (min power=1). HCF = 3ab."
+  },
+  {
+    "QuestionText": "Factorise: p²-17p+72",
+    "Options": [
+      "A) (p-8)(p-9)",
+      "B) (p-8)(p+9)",
+      "C) (p+8)(p-9)",
+      "D) (p+8)(p+9)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Quadratic Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "Find two numbers with sum=-17, product=72: -8+(-9)=-17, (-8)×(-9)=72 ✓. p²-17p+72=(p-8)(p-9)."
+  },
+  {
+    "QuestionText": "Factorise: 49-14a+a²",
+    "Options": [
+      "A) (7-a)²",
+      "B) (a-7)²",
+      "C) (7+a)(7-a)",
+      "D) Both A and B"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Perfect Square",
+    "Difficulty": "Foundation",
+    "Explanation": "49-14a+a² = 7²-2×7×a+a² = (7-a)² = (a-7)² (same thing). Both A and B are correct: (7-a)² = (a-7)²."
+  },
+  {
+    "QuestionText": "If (x+a)(x+b) = x²+7x+12, what are a and b?",
+    "Options": [
+      "A) a=3, b=4",
+      "B) a=2, b=6",
+      "C) a=1, b=12",
+      "D) a=4, b=3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Quadratic Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "(x+a)(x+b)=x²+(a+b)x+ab. a+b=7, ab=12. Solve: 3+4=7, 3×4=12 ✓. a=3,b=4 (or a=4,b=3 — same)."
+  },
+  {
+    "QuestionText": "Divide 6x³+13x²-4x-15 by (2x+3):",
+    "Options": [
+      "A) 3x²+2x-5",
+      "B) 3x²-2x+5",
+      "C) 3x²+5x-2",
+      "D) 6x²+x-5"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Division",
+    "Difficulty": "Olympiad",
+    "Explanation": "6x³+13x²-4x-15 ÷ (2x+3): by long division or factor theorem. Quotient = 3x²+2x-5. Verify: (2x+3)(3x²+2x-5) = 6x³+4x²-10x+9x²+6x-15 = 6x³+13x²-4x-15 ✓."
+  },
+  {
+    "QuestionText": "Factorise: 2x^2 + 7x + 3",
+    "Options": [
+      "A) (2x+1)(x+3)",
+      "B) (x+1)(2x+3)",
+      "C) (2x+3)(x-1)",
+      "D) (x+3)(x+1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Factorisation",
+    "SubTopic": "Quadratic Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "2x^2+7x+3: product = 2x3=6; find numbers summing to 7 with product 6: 6 and 1. Split: 2x^2+6x+x+3 = 2x(x+3)+1(x+3) = (2x+1)(x+3)."
+  }
+]

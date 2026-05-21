@@ -1,0 +1,227 @@
+[
+  {
+    "QuestionText": "What is the place value of the digit 7 in the number 47,205?",
+    "Options": ["A) Hundreds", "B) Thousands", "C) Ten Thousands", "D) Tens"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Number Sense & Place Value",
+    "Difficulty": "Foundation",
+    "Explanation": "In 47,205, 5 is in ones, 0 is in tens, 2 is in hundreds, and 7 is in the thousands place."
+  },
+  {
+    "QuestionText": "Which of the following numbers is a common multiple of both 4 and 6?",
+    "Options": ["A) 18", "B) 16", "C) 24", "D) 8"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Factors & Multiples",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiples of 4 are 4, 8, 12, 16, 20, 24... Multiples of 6 are 6, 12, 18, 24... The number 24 appears in both lists."
+  },
+  {
+    "QuestionText": "Find the difference between the largest 4-digit number and the smallest 4-digit number formed using digits 3, 0, 8, and 5 (without repeating any digit).",
+    "Options": ["A) 5,472", "B) 5,742", "C) 8,217", "D) 5,274"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Number Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "The largest 4-digit number is 8,530. The smallest 4-digit number cannot start with 0, so it is 3,058. Difference: 8,530 - 3,058 = 5,472."
+  },
+  {
+    "QuestionText": "An angle that measures exactly $90^\\circ$ is called a/an ________ angle.",
+    "Options": ["A) Acute", "B) Obtuse", "C) Right", "D) Straight"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, an angle that forms a perfect corner measuring exactly $90^\\circ$ is a right angle."
+  },
+  {
+    "QuestionText": "Which fraction is equivalent to $\\frac{3}{4}$?",
+    "Options": ["A) $\\frac{6}{12}$", "B) $\\frac{9}{12}$", "C) $\\frac{8}{12}$", "D) $\\frac{5}{6}$"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiply the numerator and denominator of $\\frac{3}{4}$ by 3 to get $\\frac{3 \\times 3}{4 \\times 3} = \\frac{9}{12}$."
+  },
+  {
+    "QuestionText": "Convert the mixed number $3\\frac{2}{5}$ into an improper fraction.",
+    "Options": ["A) $\\frac{17}{5}$", "B) $\\frac{11}{5}$", "C) $\\frac{6}{5}$", "D) $\\frac{15}{5}$"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiply the whole number by the denominator and add the numerator: $(3 \\times 5) + 2 = 17$. Keep the denominator the same to get $\\frac{17}{5}$."
+  },
+  {
+    "QuestionText": "What is the perimeter of a rectangle with a length of 12 cm and a width of 7 cm?",
+    "Options": ["A) 19 cm", "B) 84 cm", "C) 38 cm", "D) 26 cm"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Mensuration",
+    "Difficulty": "Intermediate",
+    "Explanation": "Perimeter of a rectangle = $2 \\times (\\text{length} + \\text{width}) = 2 \\times (12 + 7) = 2 \\times 19 = 38$ cm."
+  },
+  {
+    "QuestionText": "Which statement is true about a square?",
+    "Options": ["A) It has 2 equal sides and 2 right angles", "B) It has 4 equal sides and 4 right angles", "C) It has no parallel lines", "D) It has 3 vertices"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "A square is a regular quadrilateral with four equal sides and four right angles ($90^\\circ$)."
+  },
+  {
+    "QuestionText": "Solve: $4,500 \\div 50$.",
+    "Options": ["A) 9", "B) 90", "C) 900", "D) 45"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Number Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "Cancel out one zero from both numbers: $450 \\div 5 = 90$."
+  },
+  {
+    "QuestionText": "What decimal number represents the shaded portion of a grid if 45 out of 100 squares are shaded?",
+    "Options": ["A) 4.5", "B) 0.045", "C) 0.45", "D) 45.0"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Decimals",
+    "Difficulty": "Foundation",
+    "Explanation": "45 out of 100 is written as the fraction $\\frac{45}{100}$, which translates to 0.45 in decimal form."
+  },
+  {
+    "QuestionText": "If a triangle has side lengths of 8 cm, 8 cm, and 5 cm, what type of triangle is it?",
+    "Options": ["A) Equilateral", "B) Scalene", "C) Isosceles", "D) Right-angled"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Geometry",
+    "Difficulty": "Intermediate",
+    "Explanation": "A triangle with two sides of equal length is called an isosceles triangle."
+  },
+  {
+    "QuestionText": "Add the decimals: $14.25 + 3.8$.",
+    "Options": ["A) 14.63", "B) 17.33", "C) 18.05", "D) 17.05"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Decimals",
+    "Difficulty": "Intermediate",
+    "Explanation": "Line up the decimal points: $14.25 + 3.80 = 18.05$."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a regular pentagon have?",
+    "Options": ["A) 1", "B) 3", "C) 5", "D) 0"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Geometry",
+    "Difficulty": "Intermediate",
+    "Explanation": "Any regular polygon has a number of lines of symmetry equal to its number of sides. A regular pentagon has 5 sides, so it has 5 lines of symmetry."
+  },
+  {
+    "QuestionText": "What number must be added to 2,345 to make it 6,000?",
+    "Options": ["A) 3,655", "B) 4,345", "C) 3,755", "D) 3,665"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Number Operations",
+    "Difficulty": "Intermediate",
+    "Explanation": "Subtract 2,345 from 6,000: $6,000 - 2,345 = 3,655$."
+  },
+  {
+    "QuestionText": "Which sign makes the statement true? $\\frac{2}{3}$ ___ $\\frac{5}{6}$",
+    "Options": ["A) >", "B) <", "C) =", "D) +"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate",
+    "Explanation": "Convert $\\frac{2}{3}$ to have a denominator of 6, which gives $\\frac{4}{6}$. Since $\\frac{4}{6} < \\frac{5}{6}$, the correct symbol is <."
+  },
+  {
+    "QuestionText": "A clock shows the time as 3:00. What is the measurement of the smaller angle formed between the hour hand and minute hand?",
+    "Options": ["A) $45^\\circ$", "B) $60^\\circ$", "C) $90^\\circ$", "D) $180^\\circ$"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Geometry & Time",
+    "Difficulty": "Intermediate",
+    "Explanation": "At 3:00, the minute hand points to 12 and the hour hand points to 3, creating a perfect perpendicular right angle of $90^\\circ$."
+  },
+  {
+    "QuestionText": "How many milliliters are there in $4\\frac{1}{2}$ liters?",
+    "Options": ["A) 4,500 mL", "B) 450 mL", "C) 4,250 mL", "D) 4,005 mL"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Measurement Conversion",
+    "Difficulty": "Foundation",
+    "Explanation": "1 liter = 1,000 mL. Therefore, 4 liters = 4,000 mL, and $\\frac{1}{2}$ liter = 500 mL. $4,000 + 500 = 4,500$ mL."
+  },
+  {
+    "QuestionText": "If the area of a square is 64 square centimeters, what is the length of one of its sides?",
+    "Options": ["A) 16 cm", "B) 32 cm", "C) 4 cm", "D) 8 cm"],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Mensuration",
+    "Difficulty": "Intermediate",
+    "Explanation": "The area of a square = $\\text{side} \\times \\text{side}$. Since $8 \\times 8 = 64$, the length of one side is 8 cm."
+  },
+  {
+    "QuestionText": "What is the Roman Numeral for 89?",
+    "Options": ["A) LXXXVIIII", "B) LXXXIX", "C) XCX", "D) LMIX"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Roman Numerals",
+    "Difficulty": "Advanced",
+    "Explanation": "80 is represented as LXXX (50 + 10 + 10 + 10) and 9 is IX. Putting them together gives LXXXIX."
+  },
+  {
+    "QuestionText": "Solve the following expression using DMAS rules: $24 - 4 \\times 5 + 6$.",
+    "Options": ["A) 106", "B) 10", "C) 14", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Order of Operations",
+    "Difficulty": "Intermediate",
+    "Explanation": "According to DMAS, perform multiplication first: $4 \\times 5 = 20$. The expression becomes $24 - 20 + 6$. Then perform addition/subtraction from left to right: $4 + 6 = 10$."
+  },
+  {
+    "QuestionText": "Find the perimeter of a regular hexagon if each side measures 9 cm.",
+    "Options": ["A) 45 cm", "B) 36 cm", "C) 54 cm", "D) 63 cm"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Mensuration",
+    "Difficulty": "Foundation",
+    "Explanation": "A regular hexagon has 6 equal sides. Perimeter = $6 \\times 9 = 54$ cm."
+  },
+  {
+    "QuestionText": "Which of these numbers is prime?",
+    "Options": ["A) 15", "B) 21", "C) 29", "D) 33"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Number Properties",
+    "Difficulty": "Intermediate",
+    "Explanation": "29 has only two factors: 1 and itself. 15 (3x5), 21 (3x7), and 33 (3x11) are all composite numbers."
+  },
+  {
+    "QuestionText": "Convert $\\frac{7}{20}$ into a decimal format.",
+    "Options": ["A) 0.7", "B) 0.35", "C) 0.07", "D) 0.14"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Decimals & Fractions",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiply both the numerator and denominator by 5 to get a base of 100: $\\frac{35}{100} = 0.35$."
+  },
+  {
+    "QuestionText": "If a solid shape has 6 flat square faces, 12 edges, and 8 vertices, what shape is it?",
+    "Options": ["A) Cylinder", "B) Cube", "C) Pyramid", "D) Cone"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "3D Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "A cube matches this exact geometric definition with 6 congruent square faces, 12 straight edges, and 8 corner vertices."
+  },
+  {
+    "QuestionText": "What is the sum of all the factors of 12?",
+    "Options": ["A) 12", "B) 16", "C) 28", "D) 24"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematical Reasoning",
+    "SubTopic": "Factors & Multiples",
+    "Difficulty": "Olympiad",
+    "Explanation": "The factors of 12 are 1, 2, 3, 4, 6, and 12. Sum them up: $1 + 2 + 3 + 4 + 6 + 12 = 28$."
+  }
+]

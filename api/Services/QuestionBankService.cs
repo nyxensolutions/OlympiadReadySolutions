@@ -97,6 +97,7 @@ public class QuestionBankService
 
     public record ImportRow(
         string QuestionText,
+        string? ImageUrl,
         List<string> Options,
         string CorrectAnswer,   // "A" | "B" | "C" | "D"
         string Topic,
@@ -148,6 +149,7 @@ public class QuestionBankService
                 Topic = row.Topic.Trim(),
                 SubTopic = row.SubTopic?.Trim(),
                 QuestionText = row.QuestionText.Trim(),
+                ImageUrl = row.ImageUrl?.Trim(),
                 // StripOptionPrefix handles "A) ...", "A. ...", "(A) ..." formats that
                 // Claude adds despite instructions — the UI renderer adds its own labels.
                 OptionsJson = JsonSerializer.Serialize(
@@ -186,6 +188,7 @@ public class QuestionBankService
         return new Question
         {
             Q = item.QuestionText,
+            ImageUrl = item.ImageUrl,
             Options = options,
             Answer = answer,
             Explanation = item.Explanation,

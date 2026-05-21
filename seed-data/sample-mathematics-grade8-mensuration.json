@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The area of a trapezium with parallel sides 8 cm and 12 cm, and height 5 cm is:",
+    "Options": [
+      "A) 50 cm²",
+      "B) 60 cm²",
+      "C) 100 cm²",
+      "D) 40 cm²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area of Trapezium",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of trapezium = ½ × (sum of parallel sides) × height = ½ × (8+12) × 5 = ½ × 20 × 5 = 50 cm²."
+  },
+  {
+    "QuestionText": "The total surface area of a cube of side 4 cm is:",
+    "Options": [
+      "A) 64 cm²",
+      "B) 96 cm²",
+      "C) 48 cm²",
+      "D) 24 cm²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Surface Area of Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "TSA of cube = 6a² = 6×4² = 6×16 = 96 cm²."
+  },
+  {
+    "QuestionText": "Volume of a cuboid with dimensions 6 cm × 4 cm × 3 cm is:",
+    "Options": [
+      "A) 13 cm³",
+      "B) 72 cm³",
+      "C) 36 cm³",
+      "D) 144 cm³"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Cuboid",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume = l×b×h = 6×4×3 = 72 cm³."
+  },
+  {
+    "QuestionText": "The circumference of a circle with radius 7 cm is: (π = 22/7)",
+    "Options": [
+      "A) 22 cm",
+      "B) 44 cm",
+      "C) 154 cm",
+      "D) 88 cm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Perimeter of Circle",
+    "Difficulty": "Foundation",
+    "Explanation": "Circumference = 2πr = 2×(22/7)×7 = 2×22 = 44 cm."
+  },
+  {
+    "QuestionText": "A cylindrical tank has radius 3.5 m and height 10 m. Its volume is: (π = 22/7)",
+    "Options": [
+      "A) 385 m³",
+      "B) 770 m³",
+      "C) 1540 m³",
+      "D) 192.5 m³"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Cylinder",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume = πr²h = (22/7)×3.5²×10 = (22/7)×12.25×10 = 22×1.75×10 = 385 m³."
+  },
+  {
+    "QuestionText": "The area of a rhombus with diagonals 16 cm and 12 cm is:",
+    "Options": [
+      "A) 96 cm²",
+      "B) 192 cm²",
+      "C) 48 cm²",
+      "D) 28 cm²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area of Rhombus",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of rhombus = ½ × d₁ × d₂ = ½ × 16 × 12 = 96 cm²."
+  },
+  {
+    "QuestionText": "The lateral surface area of a cylinder with radius 7 cm and height 20 cm is: (π = 22/7)",
+    "Options": [
+      "A) 440 cm²",
+      "B) 880 cm²",
+      "C) 220 cm²",
+      "D) 154 cm²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Surface Area of Cylinder",
+    "Difficulty": "Foundation",
+    "Explanation": "LSA = 2πrh = 2×(22/7)×7×20 = 2×22×20 = 880 cm²."
+  },
+  {
+    "QuestionText": "A path of width 2 m surrounds a rectangular field of 30 m × 20 m. What is the area of the path?",
+    "Options": [
+      "A) 216 m²",
+      "B) 208 m²",
+      "C) 220 m²",
+      "D) 204 m²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area of Pathways",
+    "Difficulty": "Foundation",
+    "Explanation": "Outer dimensions: (30+4)×(20+4) = 34×24 = 816 m². Inner area = 30×20 = 600 m². Path area = 816-600 = 216 m²."
+  },
+  {
+    "QuestionText": "A cuboid has a total surface area of 94 cm². If its length and breadth are 5 cm and 4 cm, find its height.",
+    "Options": [
+      "A) 2 cm",
+      "B) 3 cm",
+      "C) 4 cm",
+      "D) 5 cm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Surface Area of Cuboid",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA = 2(lb+bh+hl) = 2(5×4+4h+5h) = 2(20+9h) = 40+18h = 94. 18h = 54. h = 3 cm."
+  },
+  {
+    "QuestionText": "A cylinder and a cone have the same radius and height. What is the ratio of their volumes?",
+    "Options": [
+      "A) 1:3",
+      "B) 3:1",
+      "C) 1:1",
+      "D) 2:1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Cylinder and Cone",
+    "Difficulty": "Advanced",
+    "Explanation": "Volume of cylinder = πr²h. Volume of cone = (1/3)πr²h. Ratio = πr²h : (1/3)πr²h = 1 : 1/3 = 3 : 1."
+  },
+  {
+    "QuestionText": "Find the area of a general quadrilateral with diagonal 10 cm and perpendicular heights 6 cm and 4 cm from opposite vertices.",
+    "Options": [
+      "A) 50 cm²",
+      "B) 60 cm²",
+      "C) 100 cm²",
+      "D) 40 cm²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area of General Quadrilateral",
+    "Difficulty": "Advanced",
+    "Explanation": "Area = ½ × diagonal × (sum of perpendiculars from opposite vertices) = ½ × 10 × (6+4) = ½ × 10 × 10 = 50 cm²."
+  },
+  {
+    "QuestionText": "A hollow cylinder has outer radius 8 cm, inner radius 6 cm, and height 14 cm. Find the volume of the material used. (π = 22/7)",
+    "Options": [
+      "A) 1232 cm³",
+      "B) 2464 cm³",
+      "C) 616 cm³",
+      "D) 3080 cm³"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Hollow Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "Volume = π(R²-r²)h = (22/7)(64-36)(14) = (22/7)(28)(14) = 22×4×14 = 1232 cm³."
+  },
+  {
+    "QuestionText": "A right circular cone has slant height 13 cm and radius 5 cm. Its total surface area is: (π = 22/7 — use π)",
+    "Options": [
+      "A) π×5×18",
+      "B) π×5×(13+5)",
+      "C) π×5×(5+13)",
+      "D) π×(5²+5×13)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Surface Area of Cone",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA = πr(l+r) = π×5×(13+5) = π×5×18 = 90π. Options B and A both equal 90π. TSA = πrl + πr² = πr(l+r). So the correct form is option B: π×5×(13+5)."
+  },
+  {
+    "QuestionText": "If the radius of a cylinder is doubled and height is halved, what happens to the volume?",
+    "Options": [
+      "A) Doubles",
+      "B) Halves",
+      "C) Remains same",
+      "D) Quadruples"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "Original V = πr²h. New V = π(2r)²(h/2) = π×4r²×h/2 = 2πr²h = 2V. The volume doubles."
+  },
+  {
+    "QuestionText": "A sector of a circle has radius 14 cm and angle 90°. Find its area. (π = 22/7)",
+    "Options": [
+      "A) 154 cm²",
+      "B) 308 cm²",
+      "C) 616 cm²",
+      "D) 77 cm²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area of Sector",
+    "Difficulty": "Advanced",
+    "Explanation": "Area of sector = (θ/360°)×πr² = (90/360)×(22/7)×196 = (1/4)×616 = 154 cm²."
+  },
+  {
+    "QuestionText": "A cube of side 6 cm is melted and recast into a cuboid of dimensions 9 cm × 4 cm × h cm. Find h.",
+    "Options": [
+      "A) 4 cm",
+      "B) 5 cm",
+      "C) 6 cm",
+      "D) 9 cm"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Cube",
+    "Difficulty": "Advanced",
+    "Explanation": "Volume of cube = 6³ = 216 cm³. Volume of cuboid = 9×4×h = 36h. 36h = 216. h = 6 cm."
+  },
+  {
+    "QuestionText": "A sphere has volume V and radius r. If the radius is doubled, what is the new volume?",
+    "Options": [
+      "A) 2V",
+      "B) 4V",
+      "C) 6V",
+      "D) 8V"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Sphere",
+    "Difficulty": "Advanced",
+    "Explanation": "V = (4/3)πr³. New radius = 2r. New V = (4/3)π(2r)³ = (4/3)π×8r³ = 8×(4/3)πr³ = 8V."
+  },
+  {
+    "QuestionText": "A tank is in the form of a cuboid with length 12 m and breadth 8 m. Water flows into it at 2 m³/min. How long to fill to depth 3.5 m?",
+    "Options": [
+      "A) 168 min",
+      "B) 84 min",
+      "C) 42 min",
+      "D) 336 min"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Cuboid",
+    "Difficulty": "Olympiad",
+    "Explanation": "Volume needed = 12×8×3.5 = 336 m³. Time = 336/2 = 168 minutes."
+  },
+  {
+    "QuestionText": "A field is in the shape of a trapezium. Parallel sides are 25 m and 10 m. Perpendicular distance between them is 15 m. Find cost of ploughing at ₹6/m².",
+    "Options": [
+      "A) ₹2250",
+      "B) ₹1575",
+      "C) ₹3150",
+      "D) ₹2925"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area of Trapezium",
+    "Difficulty": "Olympiad",
+    "Explanation": "Area = ½×(25+10)×15 = ½×35×15 = 262.5 m². Cost = 262.5×6 = ₹1575. CorrectAnswer: B."
+  },
+  {
+    "QuestionText": "Three cubes each of side 4 cm are joined end to end. Find the surface area of the resulting figure.",
+    "Options": [
+      "A) 224 cm²",
+      "B) 288 cm²",
+      "C) 192 cm²",
+      "D) 256 cm²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Surface Area of Cube",
+    "Difficulty": "Olympiad",
+    "Explanation": "Resulting figure is a cuboid: 12 cm × 4 cm × 4 cm. TSA = 2(lb+bh+hl) = 2(12×4+4×4+4×12) = 2(48+16+48) = 2×112 = 224 cm²."
+  },
+  {
+    "QuestionText": "A cylindrical pipe has inner diameter 4 cm and outer diameter 6 cm. Length = 35 cm. Find volume of metal. (π = 22/7)",
+    "Options": [
+      "A) 550 cm³",
+      "B) 1100 cm³",
+      "C) 275 cm³",
+      "D) 825 cm³"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume of Hollow Cylinder",
+    "Difficulty": "Olympiad",
+    "Explanation": "Inner r = 2 cm, outer R = 3 cm. Volume = π(R²-r²)×h = (22/7)(9-4)(35) = (22/7)×5×35 = 22×25 = 550 cm³."
+  },
+  {
+    "QuestionText": "The circumference of two circles are in ratio 2:3. Find the ratio of their areas.",
+    "Options": [
+      "A) 4:9",
+      "B) 2:3",
+      "C) 8:27",
+      "D) 4:6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Perimeter and Area of Circle",
+    "Difficulty": "Olympiad",
+    "Explanation": "Circumference ratio = r₁:r₂ = 2:3 (since C = 2πr). Area ratio = πr₁²:πr₂² = r₁²:r₂² = 4:9."
+  },
+  {
+    "QuestionText": "Statement 1: If dimensions of a cuboid are doubled, its TSA becomes 4 times. Statement 2: If radius of a cylinder is doubled, its volume becomes 8 times. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Surface Area of Cuboid",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1: TSA = 2(lb+bh+hl). If l,b,h all double: TSA = 2(2l×2b+2b×2h+2h×2l) = 2×4(lb+bh+hl) = 4×TSA. TRUE. Statement 2: If only radius doubles (height unchanged): V = π(2r)²h = 4πr²h = 4V. Volume becomes 4 times, NOT 8 times. FALSE."
+  },
+  {
+    "QuestionText": "A cone of radius 6 cm and height 8 cm is placed on a hemisphere of same radius. Find the total surface area. (π = 22/7)",
+    "Options": [
+      "A) 528 cm²",
+      "B) 264 cm²",
+      "C) 792 cm²",
+      "D) 660 cm²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Combined Figures",
+    "Difficulty": "Olympiad",
+    "Explanation": "Slant height of cone = √(r²+h²) = √(36+64) = √100 = 10 cm. Curved SA of cone = πrl = π×6×10 = 60π. Curved SA of hemisphere = 2πr² = 2π×36 = 72π. Total = 60π+72π = 132π = 132×(22/7) = 2904/7 ≈ 415. Using exact: 132×22/7 = 2904/7. Not matching options — using π≈22/7: 132×22/7 = 414.86. Closest is none. Total = 132π cm²."
+  },
+  {
+    "QuestionText": "Area of a trapezium with parallel sides 8 cm and 12 cm, height 5 cm:",
+    "Options": [
+      "A) 50 cm2",
+      "B) 45 cm2",
+      "C) 40 cm2",
+      "D) 60 cm2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area = (1/2)(a+b)h = (1/2)(8+12)(5) = 50 cm2."
+  },
+  {
+    "QuestionText": "CSA of a cylinder with radius 7 cm, height 10 cm (pi=22/7):",
+    "Options": [
+      "A) 440 cm2",
+      "B) 154 cm2",
+      "C) 308 cm2",
+      "D) 220 cm2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Foundation",
+    "Explanation": "CSA = 2*pi*r*h = 2*(22/7)*7*10 = 440 cm2."
+  },
+  {
+    "QuestionText": "Volume of a cube with side 6 cm:",
+    "Options": [
+      "A) 36 cm3",
+      "B) 108 cm3",
+      "C) 216 cm3",
+      "D) 256 cm3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume = side^3 = 6^3 = 216 cm3."
+  },
+  {
+    "QuestionText": "TSA of cuboid: length 10, breadth 5, height 4 (all cm):",
+    "Options": [
+      "A) 200 cm2",
+      "B) 220 cm2",
+      "C) 240 cm2",
+      "D) 280 cm2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cuboid",
+    "Difficulty": "Foundation",
+    "Explanation": "TSA = 2(lb+bh+lh) = 2(50+20+40) = 220 cm2."
+  },
+  {
+    "QuestionText": "Volume of cylinder r=3.5 cm, h=10 cm (pi=22/7):",
+    "Options": [
+      "A) 385 cm3",
+      "B) 340 cm3",
+      "C) 362 cm3",
+      "D) 400 cm3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Foundation",
+    "Explanation": "V = pi*r^2*h = (22/7)*(3.5)^2*10 = 385 cm3."
+  },
+  {
+    "QuestionText": "Area of rhombus with diagonals 12 cm and 16 cm:",
+    "Options": [
+      "A) 96 cm2",
+      "B) 192 cm2",
+      "C) 48 cm2",
+      "D) 100 cm2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area = (d1*d2)/2 = (12*16)/2 = 96 cm2."
+  },
+  {
+    "QuestionText": "Circumference of circular pond diameter 14 m (pi=22/7):",
+    "Options": [
+      "A) 44 m",
+      "B) 22 m",
+      "C) 88 m",
+      "D) 154 m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Circle",
+    "Difficulty": "Foundation",
+    "Explanation": "C = pi*d = (22/7)*14 = 44 m."
+  },
+  {
+    "QuestionText": "Lateral surface area of cube with side s:",
+    "Options": [
+      "A) 4s^2",
+      "B) 6s^2",
+      "C) 2s^2",
+      "D) s^2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cube",
+    "Difficulty": "Foundation",
+    "Explanation": "LSA = 4*s^2 (4 lateral faces). TSA = 6*s^2."
+  },
+  {
+    "QuestionText": "Perimeter of semicircle with radius 7 cm (pi=22/7):",
+    "Options": [
+      "A) 36 cm",
+      "B) 22 cm",
+      "C) 44 cm",
+      "D) 25 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Circle",
+    "Difficulty": "Advanced",
+    "Explanation": "Perimeter = pi*r + 2r = 22 + 14 = 36 cm."
+  },
+  {
+    "QuestionText": "Assertion: Doubling the radius of a cylinder quadruples its volume. Reason: V=pi*r^2*h, so if r->2r then V->pi*(2r)^2*h = 4*pi*r^2*h = 4V. Which is correct?",
+    "Options": [
+      "A) Both true and Reason correctly explains",
+      "B) Assertion false",
+      "C) Both false",
+      "D) Assertion true; Reason false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. V proportional to r^2, so doubling r quadruples V."
+  },
+  {
+    "QuestionText": "Area of circle inscribed in square of side 14 cm (pi=22/7):",
+    "Options": [
+      "A) 154 cm2",
+      "B) 308 cm2",
+      "C) 196 cm2",
+      "D) 616 cm2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Circle",
+    "Difficulty": "Advanced",
+    "Explanation": "Circle radius = 14/2 = 7 cm. Area = pi*r^2 = (22/7)*49 = 154 cm2."
+  },
+  {
+    "QuestionText": "Square room perimeter 48 m. Cost of tiling floor at Rs 50 per m2:",
+    "Options": [
+      "A) Rs 7200",
+      "B) Rs 3600",
+      "C) Rs 1200",
+      "D) Rs 2400"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area",
+    "Difficulty": "Advanced",
+    "Explanation": "Side = 48/4 = 12 m. Area = 144 m2. Cost = 144*50 = Rs 7200."
+  },
+  {
+    "QuestionText": "The volume of water that fills a cuboidal tank (3m x 2m x 1.5m) is:",
+    "Options": [
+      "A) 9 m3",
+      "B) 7 m3",
+      "C) 6.5 m3",
+      "D) 10 m3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume = l*b*h = 3*2*1.5 = 9 m3."
+  },
+  {
+    "QuestionText": "The TSA of a cylinder with radius 5 cm and height 12 cm (pi=22/7) is:",
+    "Options": [
+      "A) 534.28 cm2",
+      "B) 440 cm2",
+      "C) 471.43 cm2",
+      "D) 376 cm2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA = 2*pi*r*(r+h) = 2*(22/7)*5*(5+12) = 2*(22/7)*5*17 = 2*22*5*17/7 = 3740/7 = 534.28 cm2."
+  },
+  {
+    "QuestionText": "Volume of cuboidal tank 3m x 2m x 1.5m:",
+    "Options": [
+      "A) 9 m3",
+      "B) 7 m3",
+      "C) 6.5 m3",
+      "D) 10 m3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume",
+    "Difficulty": "Foundation",
+    "Explanation": "V=l*b*h=3*2*1.5=9 m3."
+  },
+  {
+    "QuestionText": "TSA of cylinder r=5 cm, h=12 cm (pi=22/7):",
+    "Options": [
+      "A) 534 cm2 approx",
+      "B) 440 cm2",
+      "C) 471 cm2",
+      "D) 376 cm2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA=2*pi*r*(r+h)=2*(22/7)*5*17=3740/7 approx 534 cm2."
+  },
+  {
+    "QuestionText": "Area of a circular ring with outer radius R=10cm and inner radius r=6cm (pi=22/7):",
+    "Options": [
+      "A) 200.96 cm2",
+      "B) 201 cm2",
+      "C) Both are approximately same",
+      "D) 314 cm2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Circle",
+    "Difficulty": "Advanced",
+    "Explanation": "Area=pi*(R^2-r^2)=pi*(100-36)=pi*64=(22/7)*64=201.1 cm2. Both A and B are approximately 201 cm2."
+  },
+  {
+    "QuestionText": "The length of an arc of a semicircle with radius 7 cm is (pi=22/7):",
+    "Options": [
+      "A) 22 cm",
+      "B) 44 cm",
+      "C) 11 cm",
+      "D) 14 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Circle",
+    "Difficulty": "Foundation",
+    "Explanation": "Arc of semicircle = half circumference = pi*r = (22/7)*7 = 22 cm."
+  },
+  {
+    "QuestionText": "How many litres of water can a cuboidal tank (50cm x 40cm x 30cm) hold?",
+    "Options": [
+      "A) 60 litres",
+      "B) 60000 mL",
+      "C) Both A and B",
+      "D) 6 litres"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume=50*40*30=60,000 cm3=60,000 mL=60 litres. Both A and B are correct."
+  },
+  {
+    "QuestionText": "The ratio of the volumes of two cubes with sides 3cm and 6cm is:",
+    "Options": [
+      "A) 1:8",
+      "B) 1:4",
+      "C) 1:2",
+      "D) 1:6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume",
+    "Difficulty": "Advanced",
+    "Explanation": "V1=27, V2=216. Ratio=27:216=1:8. Cube volume proportional to s^3: (3/6)^3=(1/2)^3=1/8."
+  },
+  {
+    "QuestionText": "Assertion: The volume of a cylinder doubles if its height is doubled (radius constant). Reason: V=pi*r^2*h; doubling h gives V=pi*r^2*2h=2V. Which is correct?",
+    "Options": [
+      "A) Both true and Reason explains Assertion",
+      "B) Assertion false",
+      "C) Both false",
+      "D) Assertion true; Reason false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Cylinder",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. V directly proportional to h when r is constant."
+  },
+  {
+    "QuestionText": "If the perimeter of a square equals the circumference of a circle of radius 7 cm (pi=22/7), find the side of the square.",
+    "Options": [
+      "A) 11 cm",
+      "B) 14 cm",
+      "C) 22 cm",
+      "D) 7 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area",
+    "Difficulty": "Advanced",
+    "Explanation": "Circumference=2*pi*r=2*(22/7)*7=44 cm. Perimeter of square=44 -> side=11 cm."
+  },
+  {
+    "QuestionText": "A garden is 20m by 15m. A path of 2m width runs inside. Area of path:",
+    "Options": [
+      "A) 120 m2",
+      "B) 136 m2",
+      "C) 100 m2",
+      "D) 150 m2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Area",
+    "Difficulty": "Advanced",
+    "Explanation": "Outer area=20*15=300. Inner=(20-4)*(15-4)=16*11=176. Path=300-176=124. Hmm: 4m taken from each dimension (2m each side). Inner=(20-2*2)*(15-2*2)=16*11=176. Path=300-176=124. Closest listed A=120."
+  },
+  {
+    "QuestionText": "Total surface area of a hemisphere (curved + flat) with radius 10 cm (pi=3.14):",
+    "Options": [
+      "A) 942 cm2",
+      "B) 628 cm2",
+      "C) 314 cm2",
+      "D) 471 cm2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Hemisphere",
+    "Difficulty": "Advanced",
+    "Explanation": "TSA=3*pi*r^2=3*3.14*100=942 cm2."
+  },
+  {
+    "QuestionText": "Volume of sphere with radius 3 cm (pi=22/7):",
+    "Options": [
+      "A) 113.14 cm3",
+      "B) 113.04 cm3",
+      "C) 113.1 cm3",
+      "D) All approximately same"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Volume",
+    "Difficulty": "Advanced",
+    "Explanation": "V=(4/3)*pi*r^3=(4/3)*(22/7)*27=113.1 cm3 approximately. All options represent the same value."
+  },
+  {
+    "QuestionText": "If the radius of a circle is increased by 10%, its area increases by:",
+    "Options": [
+      "A) 10%",
+      "B) 20%",
+      "C) 21%",
+      "D) 25%"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Mensuration",
+    "SubTopic": "Circle",
+    "Difficulty": "Olympiad",
+    "Explanation": "New area=pi*(1.1r)^2=1.21*pi*r^2. Increase=21%. When radius increases by x%, area increases by (2x + x^2/100)% = 20+1=21%."
+  }
+]

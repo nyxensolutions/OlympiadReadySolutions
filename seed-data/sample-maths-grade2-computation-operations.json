@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "What is the sum of 45 and 37?",
+    "Options": ["A) 72", "B) 82", "C) 75", "D) 85"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "45 + 37 = 82. Remember to carry 1 over to the tens place."
+  },
+  {
+    "QuestionText": "Find the difference between 92 and 45.",
+    "Options": ["A) 57", "B) 47", "C) 53", "D) 43"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "92 - 45 = 47. You need to borrow from the tens place."
+  },
+  {
+    "QuestionText": "Which number should be added to 20 to get 100?",
+    "Options": ["A) 70", "B) 80", "C) 90", "D) 60"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "100 - 20 = 80, so 20 + 80 = 100."
+  },
+  {
+    "QuestionText": "There are 24 red apples and 18 green apples in a basket. How many apples are there in total?",
+    "Options": ["A) 32", "B) 42", "C) 44", "D) 38"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Word Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding 24 and 18 gives a total of 42 apples."
+  },
+  {
+    "QuestionText": "What is 100 - 0?",
+    "Options": ["A) 0", "B) 10", "C) 100", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtracting zero from any number leaves the number unchanged."
+  },
+  {
+    "QuestionText": "If you take away 15 from 50, what is left?",
+    "Options": ["A) 45", "B) 35", "C) 25", "D) 65"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "50 - 15 = 35."
+  },
+  {
+    "QuestionText": "Find the value of 230 + 120.",
+    "Options": ["A) 340", "B) 350", "C) 250", "D) 450"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding the hundreds (2+1) and tens (3+2) gives 350."
+  },
+  {
+    "QuestionText": "Which of the following is the same as 15 + 15 + 15?",
+    "Options": ["A) 30", "B) 45", "C) 40", "D) 50"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Advanced",
+    "Explanation": "15 + 15 = 30, and 30 + 15 = 45."
+  },
+  {
+    "QuestionText": "Rahul has 60 marbles. He gave 25 marbles to his friend. How many marbles does he have now?",
+    "Options": ["A) 45", "B) 35", "C) 85", "D) 40"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Word Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "60 - 25 = 35 marbles remaining."
+  },
+  {
+    "QuestionText": "What is the sum of the smallest 2-digit number and the largest 2-digit number?",
+    "Options": ["A) 100", "B) 109", "C) 110", "D) 99"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Operations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Smallest 2-digit (10) + Largest 2-digit (99) = 109."
+  },
+  {
+    "QuestionText": "Subtract 200 from 550.",
+    "Options": ["A) 750", "B) 350", "C) 300", "D) 250"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "550 - 200 = 350."
+  },
+  {
+    "QuestionText": "45 + 10 is the same as 65 - ___.",
+    "Options": ["A) 20", "B) 10", "C) 5", "D) 15"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Logical Operations",
+    "Difficulty": "Olympiad",
+    "Explanation": "45 + 10 = 55. To make 65 equal to 55, we must subtract 10."
+  },
+  {
+    "QuestionText": "What is 15 more than 75?",
+    "Options": ["A) 80", "B) 90", "C) 100", "D) 85"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "75 + 15 = 90."
+  },
+  {
+    "QuestionText": "If 12 + A = 20, what is the value of A?",
+    "Options": ["A) 10", "B) 8", "C) 7", "D) 32"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Algebraic Thinking",
+    "Difficulty": "Advanced",
+    "Explanation": "Subtract 12 from 20 to find the missing number, which is 8."
+  },
+  {
+    "QuestionText": "How much is 8 tens minus 3 tens?",
+    "Options": ["A) 5", "B) 50", "C) 110", "D) 55"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "80 - 30 = 50, which is 5 tens."
+  },
+  {
+    "QuestionText": "Find the missing digit: 4_ + 23 = 68.",
+    "Options": ["A) 4", "B) 5", "C) 3", "D) 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Olympiad",
+    "Explanation": "8 - 3 = 5, so the missing digit in the ones place is 5."
+  },
+  {
+    "QuestionText": "Subtract 48 from 100.",
+    "Options": ["A) 62", "B) 52", "C) 58", "D) 42"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "100 - 48 = 52."
+  },
+  {
+    "QuestionText": "What is the sum of 14, 26, and 10?",
+    "Options": ["A) 40", "B) 50", "C) 60", "D) 46"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Advanced",
+    "Explanation": "14 + 26 = 40, and 40 + 10 = 50."
+  },
+  {
+    "QuestionText": "Which of the following gives the smallest result?",
+    "Options": ["A) 10 + 5", "B) 20 - 4", "C) 8 + 6", "D) 19 - 8"],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics",
+    "SubTopic": "Logical Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "19 - 8 = 11, which is smaller than 15, 16, and 14."
+  },
+  {
+    "QuestionText": "A book has 88 pages. I have read 38 pages. How many pages are left?",
+    "Options": ["A) 40", "B) 50", "C) 60", "D) 48"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Word Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "88 - 38 = 50 pages left to read."
+  },
+  {
+    "QuestionText": "25 + 25 + 25 + 25 = ___",
+    "Options": ["A) 75", "B) 100", "C) 125", "D) 50"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding 25 four times equals 100."
+  },
+  {
+    "QuestionText": "Which number is 50 less than 150?",
+    "Options": ["A) 200", "B) 100", "C) 50", "D) 110"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "150 - 50 = 100."
+  },
+  {
+    "QuestionText": "What is 0 added to 456?",
+    "Options": ["A) 0", "B) 456", "C) 450", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding zero to any number results in the same number."
+  },
+  {
+    "QuestionText": "If you add 1 to the largest 3-digit number, you get:",
+    "Options": ["A) 999", "B) 1000", "C) 990", "D) 100"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Advanced",
+    "Explanation": "999 + 1 = 1000."
+  },
+  {
+    "QuestionText": "Subtracting a number from itself gives:",
+    "Options": ["A) The number", "B) 0", "C) 1", "D) Double the number"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "For example, 5 - 5 = 0."
+  },
+  {
+    "QuestionText": "What is the total of 12, 13, and 14?",
+    "Options": ["A) 39", "B) 40", "C) 38", "D) 41"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Advanced",
+    "Explanation": "12 + 13 + 14 = 39."
+  },
+  {
+    "QuestionText": "Complete the pattern: 20, 40, 60, ___.",
+    "Options": ["A) 70", "B) 80", "C) 100", "D) 90"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Patterns",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is adding 20 each time. 60 + 20 = 80."
+  },
+  {
+    "QuestionText": "Find the difference between 500 and 250.",
+    "Options": ["A) 350", "B) 250", "C) 300", "D) 150"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "250 is half of 500, so 500 - 250 = 250."
+  },
+  {
+    "QuestionText": "If there are 15 boys and 17 girls in a class, how many students are there?",
+    "Options": ["A) 30", "B) 32", "C) 22", "D) 35"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "15 + 17 = 32."
+  },
+  {
+    "QuestionText": "Which of these is the same as 80 - 20?",
+    "Options": ["A) 30 + 30", "B) 40 + 10", "C) 70 - 20", "D) 50 + 20"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Logical Operations",
+    "Difficulty": "Olympiad",
+    "Explanation": "80 - 20 = 60. 30 + 30 also equals 60."
+  },
+  {
+    "QuestionText": "What must be subtracted from 70 to get 35?",
+    "Options": ["A) 45", "B) 35", "C) 25", "D) 30"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "70 - 35 = 35."
+  },
+  {
+    "QuestionText": "400 + 40 + 4 = ___",
+    "Options": ["A) 404", "B) 444", "C) 440", "D) 4004"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the expanded form of 444."
+  },
+  {
+    "QuestionText": "A baker made 50 cookies and sold 12. How many are left?",
+    "Options": ["A) 48", "B) 38", "C) 42", "D) 32"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Word Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "50 - 12 = 38."
+  },
+  {
+    "QuestionText": "Find the sum of 65 and 25.",
+    "Options": ["A) 80", "B) 90", "C) 85", "D) 100"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "65 + 25 = 90."
+  },
+  {
+    "QuestionText": "Which sign makes the statement correct? 50 + 20 ___ 80 - 10",
+    "Options": ["A) >", "B) <", "C) =", "D) +"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Logical Operations",
+    "Difficulty": "Olympiad",
+    "Explanation": "70 = 70, so the '=' sign is correct."
+  },
+  {
+    "QuestionText": "What is 200 more than 450?",
+    "Options": ["A) 550", "B) 650", "C) 750", "D) 600"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "450 + 200 = 650."
+  },
+  {
+    "QuestionText": "Subtract the smallest 3-digit number from 150.",
+    "Options": ["A) 100", "B) 50", "C) 140", "D) 40"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Operations",
+    "Difficulty": "Olympiad",
+    "Explanation": "150 - 100 (smallest 3-digit number) = 50."
+  },
+  {
+    "QuestionText": "Double of 25 is:",
+    "Options": ["A) 40", "B) 50", "C) 60", "D) 45"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "Double means adding the number to itself: 25 + 25 = 50."
+  },
+  {
+    "QuestionText": "If you have 30 candies and give 10 to Sam and 5 to Anna, how many do you have left?",
+    "Options": ["A) 20", "B) 15", "C) 10", "D) 25"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Word Problems",
+    "Difficulty": "Advanced",
+    "Explanation": "30 - 10 - 5 = 15."
+  },
+  {
+    "QuestionText": "Find the result: 88 - 44.",
+    "Options": ["A) 33", "B) 44", "C) 55", "D) 22"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "88 - 44 = 44."
+  },
+  {
+    "QuestionText": "Add 77 and 11.",
+    "Options": ["A) 87", "B) 88", "C) 99", "D) 78"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "77 + 11 = 88."
+  },
+  {
+    "QuestionText": "What is the missing number? ___ - 10 = 40.",
+    "Options": ["A) 30", "B) 50", "C) 60", "D) 20"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "40 + 10 = 50, so 50 - 10 = 40."
+  },
+  {
+    "QuestionText": "Which operation makes this true? 10 ___ 5 = 15",
+    "Options": ["A) +", "B) -", "C) =", "D) <"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Logical Operations",
+    "Difficulty": "Foundation",
+    "Explanation": "10 plus 5 equals 15."
+  },
+  {
+    "QuestionText": "What is 120 minus 20?",
+    "Options": ["A) 140", "B) 100", "C) 80", "D) 110"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "120 - 20 = 100."
+  },
+  {
+    "QuestionText": "Sum of 35 and 0 is:",
+    "Options": ["A) 0", "B) 35", "C) 350", "D) 53"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding zero changes nothing."
+  },
+  {
+    "QuestionText": "There are 12 eggs in a carton. If 4 are broken, how many are safe?",
+    "Options": ["A) 16", "B) 8", "C) 6", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "12 - 4 = 8 safe eggs."
+  },
+  {
+    "QuestionText": "Find the value: 10 + 20 + 30 + 40.",
+    "Options": ["A) 90", "B) 100", "C) 110", "D) 80"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Addition",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding them step by step: 30 + 30 + 40 = 100."
+  },
+  {
+    "QuestionText": "What is 50 + 50 - 20?",
+    "Options": ["A) 100", "B) 80", "C) 120", "D) 70"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Combined Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "50 + 50 = 100, and 100 - 20 = 80."
+  },
+  {
+    "QuestionText": "If you add 5 to me, I become 25. Who am I?",
+    "Options": ["A) 30", "B) 20", "C) 15", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Number Riddles",
+    "Difficulty": "Advanced",
+    "Explanation": "25 - 5 = 20."
+  },
+  {
+    "QuestionText": "Find the missing number in: 95, 90, 85, ___.",
+    "Options": ["A) 84", "B) 80", "C) 75", "D) 90"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is subtracting 5 each time. 85 - 5 = 80."
+  }
+]

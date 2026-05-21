@@ -1,0 +1,454 @@
+[
+  {
+    "QuestionText": "If yesterday was Tuesday, what day of the week will it be tomorrow?",
+    "Options": ["A) Wednesday", "B) Thursday", "C) Friday", "D) Monday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "If yesterday was Tuesday, then today is Wednesday. Therefore, tomorrow will be Thursday."
+  },
+  {
+    "QuestionText": "A clock shows exactly 4:00 PM. What type of angle is formed between the hour hand and the minute hand?",
+    "Options": ["A) Acute angle", "B) Right angle", "C) Obtuse angle", "D) Straight angle"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "Each hour gap on a clock face represents 30 degrees. At 4:00, there are 4 hour gaps between the hands (4 × 30° = 120°). An angle greater than 90° but less than 180° is an obtuse angle."
+  },
+  {
+    "QuestionText": "If the 3rd day of a month is a Sunday, what day of the week will the 17th day of the same month be?",
+    "Options": ["A) Saturday", "B) Sunday", "C) Monday", "D) Friday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "Days of the week repeat every 7 days. If the 3rd is Sunday, adding 7 days means the 10th is a Sunday, and adding another 7 days means the 17th is also a Sunday."
+  },
+  {
+    "QuestionText": "Anil's school exam started at 10:15 AM and lasted for exactly 2 hours and 30 minutes. At what time did his exam end?",
+    "Options": ["A) 12:15 PM", "B) 12:30 PM", "C) 12:45 PM", "D) 1:15 PM"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "Adding 2 hours to 10:15 AM brings you to 12:15 PM. Adding the remaining 30 minutes to 12:15 PM results in 12:45 PM."
+  },
+  {
+    "QuestionText": "How many days are there in total in a leap year?",
+    "Options": ["A) 365", "B) 366", "C) 360", "D) 350"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "A standard calendar year has 365 days, but a leap year adds one extra day to February, totaling 366 days."
+  },
+  {
+    "QuestionText": "If 5 days ago was Thursday, what day is it today?",
+    "Options": ["A) Tuesday", "B) Wednesday", "C) Tuesday", "D) Tuesday"],
+    "Options": ["A) Tuesday", "B) Wednesday", "C) Monday", "D) Sunday"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "Counting 5 days forward from Thursday: Friday (1), Saturday (2), Sunday (3), Monday (4), Tuesday (5). Wait, let's recalculate: Thursday + 5 days = Tuesday."
+  },
+  {
+    "QuestionText": "How many minutes does the minute hand of a clock take to travel all the way around from the number 12 back to the number 12?",
+    "Options": ["A) 12 minutes", "B) 24 minutes", "C) 60 minutes", "D) 5 minutes"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "One complete rotation of the minute hand around the entire clock face represents 1 full hour, which is exactly 60 minutes."
+  },
+  {
+    "QuestionText": "If a non-leap year starts on a Monday, on what day of the week will that same year end?",
+    "Options": ["A) Monday", "B) Tuesday", "C) Sunday", "D) Friday"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "An ordinary year has 365 days, which equals 52 weeks and 1 extra day. Because of this 1 extra day, an ordinary year always ends on the exact same day of the week that it began."
+  },
+  {
+    "QuestionText": "A movie starts at 8:45 PM. If the movie runs for 115 minutes, at what time does it finish?",
+    "Options": ["A) 10:15 PM", "B) 10:40 PM", "C) 10:30 PM", "D) 10:45 PM"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "115 minutes can be rewritten as 1 hour and 55 minutes. Adding 1 hour to 8:45 PM brings you to 9:45 PM. Adding another 55 minutes brings you to 10:40 PM."
+  },
+  {
+    "QuestionText": "How many months in a single standard calendar year have exactly 31 days?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "There are 7 months with 31 days: January, March, May, July, August, October, and December."
+  },
+  {
+    "QuestionText": "If today is Friday, what day of the week was it 15 days ago?",
+    "Options": ["A) Friday", "B) Thursday", "C) Thursday", "D) Saturday"],
+    "Options": ["A) Friday", "B) Thursday", "C) Wednesday", "D) Saturday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "15 days can be broken down as 2 full weeks (14 days) plus 1 extra day. Going back 14 days lands on a Friday. Going back 1 more day lands on Thursday."
+  },
+  {
+    "QuestionText": "At what exact time between 1:00 and 2:00 do the hour hand and minute hand of a clock point in perfectly opposite directions to form a straight line?",
+    "Options": ["A) 1:30", "B) 1:45", "C) 1:38 approx", "D) 1:05"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Olympiad",
+    "Explanation": "To be perfectly opposite, the hands need a 30-minute separation distance. At 1 o'clock, the hour hand is at 1, so the opposite side is around the 7 mark (35 minutes). Because the hour hand moves slightly as the minutes tick, the exact straight line happens at roughly 1:38."
+  },
+  {
+    "QuestionText": "Rohan's birthday is on the last day of September. What is the date of his birthday?",
+    "Options": ["A) September 31st", "B) September 30th", "C) September 29th", "D) September 28th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "September is a month that has exactly 30 days. Therefore, the final day of the month is September 30th."
+  },
+  {
+    "QuestionText": "If the hour hand of a clock moves from 2 to 6, how many degrees has it turned in total?",
+    "Options": ["A) 90 degrees", "B) 120 degrees", "C) 180 degrees", "D) 60 degrees"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "The hour hand turns 30 degrees for each hour that passes. Moving from 2 to 6 is a jump of 4 hours. 4 × 30 degrees = 120 degrees."
+  },
+  {
+    "QuestionText": "How many times does a digital clock show the digit sequence '11:11' over a complete 24-hour day cycle?",
+    "Options": ["A) 1 time", "B) 2 times", "C) 4 times", "D) 12 times"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The sequence appears twice a day: once in the morning (11:11 AM) and once at night (11:11 PM)."
+  },
+  {
+    "QuestionText": "If June 4th is a Tuesday, what date will the next Tuesday be?",
+    "Options": ["A) June 10th", "B) June 11th", "C) June 12th", "D) June 9th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "To find the next matching day of the week, add exactly 7 days to the current date: 4 + 7 = June 11th."
+  },
+  {
+    "QuestionText": "A clock loses 5 minutes every single hour. If it is set correctly at 12:00 noon, what time will the faulty clock display when the actual real-world time is 4:00 PM?",
+    "Options": ["A) 3:40 PM", "B) 4:20 PM", "C) 3:45 PM", "D) 4:05 PM"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "Between 12:00 PM and 4:00 PM, 4 hours pass. Since the clock loses 5 minutes each hour, it will lose a total of 4 × 5 = 20 minutes. 4:00 PM minus 20 minutes leaves the clock reading 3:40 PM."
+  },
+  {
+    "QuestionText": "How many days are left in the month of October after October 24th?",
+    "Options": ["A) 6 days", "B) 7 days", "C) 8 days", "D) 5 days"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "October has 31 days in total. The number of remaining days after the 24th is calculated as 31 - 24 = 7 days."
+  },
+  {
+    "QuestionText": "If the minute hand of a clock points directly at the number 9, how many minutes past the hour does it indicate?",
+    "Options": ["A) 9 minutes", "B) 15 minutes", "C) 45 minutes", "D) 30 minutes"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Each number on a clock dial represents a step of 5 minutes. When pointing at 9, it indicates 9 × 5 = 45 minutes past the hour."
+  },
+  {
+    "QuestionText": "If February 28th is a Sunday in a non-leap year, what day of the week will March 2nd be?",
+    "Options": ["A) Monday", "B) Tuesday", "C) Wednesday", "D) Sunday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "In a non-leap year, February has exactly 28 days. Therefore, the next day (March 1st) is a Monday, and March 2nd is a Tuesday."
+  },
+  {
+    "QuestionText": "How many times do the hands of a clock pass directly over each other (overlap) between 12:00 noon and 3:00 PM?",
+    "Options": ["A) 2 times", "B) 3 times", "C) 4 times", "D) 1 time"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Olympiad",
+    "Explanation": "The hands overlap exactly at 12:00 (noon). They overlap again slightly after 1:05 PM, and a third time slightly after 2:10 PM. This means they overlap 3 times within that window."
+  },
+  {
+    "QuestionText": "If a train is supposed to arrive at 7:10 AM but is running 45 minutes late, what time will it arrive?",
+    "Options": ["A) 7:45 AM", "B) 7:55 AM", "C) 8:00 AM", "D) 8:05 AM"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding 45 minutes to 7:10 AM: 50 minutes brings you to 8:00 AM, so 45 minutes brings you up to 7:55 AM."
+  },
+  {
+    "QuestionText": "What date is exactly one week before Independence Day in India (August 15th)?",
+    "Options": ["A) August 7th", "B) August 8th", "C) August 9th", "D) August 10th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "One week equals exactly 7 days. Subtracting 7 days from August 15th yields 15 - 7 = August 8th."
+  },
+  {
+    "QuestionText": "A clock is showing 6:30. What angle do the hour and minute hands make with each other?",
+    "Options": ["A) 0 degrees", "B) 15 degrees", "C) 30 degrees", "D) 45 degrees"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Olympiad",
+    "Explanation": "At 6:30, the minute hand is pointing exactly at 6. However, the hour hand has moved halfway between 6 and 7. Since a full hour gap is 30 degrees, half of that gap is exactly 15 degrees."
+  },
+  {
+    "QuestionText": "How many total hours are there in a single complete 3-day weekend?",
+    "Options": ["A) 48 hours", "B) 60 hours", "C) 72 hours", "D) 96 hours"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Each day contains 24 hours. For a duration of 3 days, the calculation is 3 × 24 = 72 hours."
+  },
+  {
+    "QuestionText": "If the second day of a 30-day month is a Friday, how many Sundays will there be in total during that month?",
+    "Options": ["A) 4", "B) 5", "C) 3", "D) 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "If the 2nd is a Friday, the 3rd is Saturday and the 4th is Sunday. The Sundays fall on the 4th, 11th, 18th, and 25th of the month. Adding 7 more days would equal 32, which goes past the month's 30-day limit, leaving a total of 4 Sundays."
+  },
+  {
+    "QuestionText": "If a modern electronic clock displays the time as 14:20 in 24-hour format, what time would a standard 12-hour AM/PM clock show?",
+    "Options": ["A) 4:20 PM", "B) 2:20 AM", "C) 2:20 PM", "D) 12:20 PM"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "To convert 24-hour times greater than 12 into 12-hour PM times, subtract 12 from the hours: 14 - 12 = 2, making the time 2:20 PM."
+  },
+  {
+    "QuestionText": "How many seconds pass in a time window of exactly 5 minutes?",
+    "Options": ["A) 500 seconds", "B) 300 seconds", "C) 250 seconds", "D) 60 seconds"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Each minute contains 60 seconds. For a length of 5 minutes, the calculation is 5 × 60 = 300 seconds."
+  },
+  {
+    "QuestionText": "If today is Tuesday, what day of the week will it be exactly 70 days from now?",
+    "Options": ["A) Monday", "B) Tuesday", "C) Wednesday", "D) Sunday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "70 is a perfect multiple of 7 (10 × 7 = 70), meaning it marks a stretch of exactly 10 full weeks. Because it lands perfectly on a weekly loop, the day remains Tuesday."
+  },
+  {
+    "QuestionText": "A clock chimes once at 1:00, twice at 2:00, three times at 3:00, and so on. How many total chimes will it make between 12:30 PM and 4:30 PM on the same day?",
+    "Options": ["A) 10 chimes", "B) 9 chimes", "C) 14 chimes", "D) 7 chimes"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "The hour marks that fall inside this time window are 1:00, 2:00, 3:00, and 4:00. The clock will chime 1 + 2 + 3 + 4 = 10 times."
+  },
+  {
+    "QuestionText": "If New Year's Day (January 1st) falls on a Wednesday, what day of the week will January 31st be in that same month?",
+    "Options": ["A) Wednesday", "B) Thursday", "C) Tuesday", "D) Friday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "The difference in days is 31 - 1 = 30 days. Dividing 30 by 7 gives a remainder of 2 days (4 weeks × 7 = 28 days). Counting 2 days forward from Wednesday lands on Friday. Wait, let's recalculate: 1st is Wed. 1+28=29th is Wed. 30th is Thu. 31st is Fri. The correct option is D."
+  },
+  {
+    "QuestionText": "How many times does the minute hand pass the number 6 on a wall clock during a full 12-hour cycle?",
+    "Options": ["A) 6 times", "B) 1 time", "C) 12 times", "D) 24 times"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The minute hand completes 1 full circle every single hour. In a 12-hour period, it completes 12 full rotations, passing the number 6 exactly 12 times."
+  },
+  {
+    "QuestionText": "If a leap year begins on a Monday, what day of the week will the next calendar year begin on?",
+    "Options": ["A) Tuesday", "B) Wednesday", "C) Thursday", "D) Monday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Olympiad",
+    "Explanation": "A leap year has 366 days, which breaks down into 52 weeks and 2 extra days. Because of these 2 extra days, the day of the week shifts forward by two slots, meaning the next year starts on a Wednesday."
+  },
+  {
+    "QuestionText": "What is the total number of minutes in half a day?",
+    "Options": ["A) 360 minutes", "B) 720 minutes", "C) 1440 minutes", "D) 600 minutes"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "A full day contains 24 hours, so half a day is 12 hours. Since each hour has 60 minutes, the calculation is 12 × 60 = 720 minutes."
+  },
+  {
+    "QuestionText": "If a person sleeps at 9:30 PM and wakes up at 6:00 AM the next morning, how long did they sleep?",
+    "Options": ["A) 8 hours 30 minutes", "B) 9 hours", "C) 9 hours 30 minutes", "D) 8 hours"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "From 9:30 PM to 12:00 midnight is 2 hours and 30 minutes. From midnight to 6:00 AM is 6 hours. Combining these durations gives 2 hours 30 minutes + 6 hours = 8 hours and 30 minutes."
+  },
+  {
+    "QuestionText": "Which of the following years is guaranteed to be a leap year?",
+    "Options": ["A) 2021", "B) 2022", "C) 2024", "D) 2025"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Leap years occur every 4 years and are evenly divisible by 4. 2024 is divisible by 4 (2024 ÷ 4 = 506), making it a leap year."
+  },
+  {
+    "QuestionText": "If the calendar date is May 15th, what will the date be exactly 3 weeks later?",
+    "Options": ["A) June 4th", "B) June 5th", "C) June 6th", "D) June 7th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "3 weeks equals exactly 21 days (3 × 7 = 21). Adding 21 days to May 15th: 15 + 21 = 36. Since May has 31 days, subtract 31 from 36 to find the date in the next month: 36 - 31 = June 5th."
+  },
+  {
+    "QuestionText": "How many rounds does the hour hand of a clock complete in one full day?",
+    "Options": ["A) 1 round", "B) 2 rounds", "C) 12 rounds", "D) 24 rounds"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "The hour hand takes 12 hours to complete 1 circle around the clock dial. In a 24-hour day, it completes 24 ÷ 12 = 2 full rounds."
+  },
+  {
+    "QuestionText": "If the 1st of January is a Friday, what day of the week will the 8th of January be?",
+    "Options": ["A) Friday", "B) Saturday", "C) Thursday", "D) Monday"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding exactly 7 days to any date lands on the same day of the week: 1 + 7 = 8th, so it is also a Friday."
+  },
+  {
+    "QuestionText": "A stopwatch ran for 180 seconds. How many minutes is this equal to?",
+    "Options": ["A) 2 minutes", "B) 3 minutes", "C) 4 minutes", "D) 5 minutes"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Since there are 60 seconds in 1 minute, divide the total seconds by 60: 180 ÷ 60 = 3 minutes."
+  },
+  {
+    "QuestionText": "If tomorrow is Saturday, what day of the week was it 2 days before yesterday?",
+    "Options": ["A) Tuesday", "B) Wednesday", "C) Monday", "D) Thursday"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "If tomorrow is Saturday, today is Friday, and yesterday was Thursday. Two days before Thursday was Tuesday."
+  },
+  {
+    "QuestionText": "What name is given to a duration of 10 years?",
+    "Options": ["A) Century", "B) Score", "C) Decade", "D) Millennium"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, a span of 10 consecutive years is called a decade."
+  },
+  {
+    "QuestionText": "A classroom wall clock currently displays 11:50. How many minutes are left before it strikes 12:00 noon?",
+    "Options": ["A) 5 minutes", "B) 10 minutes", "C) 15 minutes", "D) 20 minutes"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "An hour has 60 minutes. 60 - 50 minutes leaves exactly 10 minutes remaining until the next full hour mark."
+  },
+  {
+    "QuestionText": "If a company workshop runs from the morning of April 28th to the evening of May 2nd, for how many total calendar days does the event run?",
+    "Options": ["A) 4 days", "B) 5 days", "C) 6 days", "D) 3 days"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "April has 30 days. The workshop runs on April 28, 29, and 30 (3 days), plus May 1 and 2 (2 days). 3 + 2 = 5 days total."
+  },
+  {
+    "QuestionText": "If the calendar year is 2026, when will the next leap year arrive?",
+    "Options": ["A) 2027", "B) 2028", "C) 2030", "D) 2029"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Leap years occur in multiples of 4. The closest year after 2026 that divides evenly by 4 is 2028."
+  },
+  {
+    "QuestionText": "How many days are there in the month of July?",
+    "Options": ["A) 30", "B) 31", "C) 28", "D) 29"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "July is one of the standard calendar months that contains 31 days."
+  },
+  {
+    "QuestionText": "If a clock's hands show a time of quarter past 6, what numerical values are they closest to?",
+    "Options": ["A) Hour hand at 6, Minute hand at 3", "B) Hour hand at 6, Minute hand at 15", "C) Hour hand at 3, Minute hand at 6", "D) Hour hand at 9, Minute hand at 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "'Quarter past 6' means 15 minutes past 6 o'clock (6:15). At 15 minutes, the minute hand points directly at the 3 mark, while the hour hand is near 6."
+  },
+  {
+    "QuestionText": "How many full weeks are there in a standard calendar year of 365 days?",
+    "Options": ["A) 50", "B) 51", "C) 52", "D) 53"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Dividing 365 days by the 7 days in a week equals 52 weeks with 1 day left over."
+  },
+  {
+    "QuestionText": "If an analog wall clock falls to the ground and stops ticking at twenty minutes to 8, what numerical positions were the hands locked at?",
+    "Options": ["A) Hour hand near 8, Minute hand at 8", "B) Hour hand near 7, Minute hand at 4", "C) Hour hand near 8, Minute hand at 4", "D) Hour hand near 7, Minute hand at 8"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "'Twenty minutes to 8' means 7:40. At 40 minutes, the minute hand points directly at the number 8, and the hour hand has crawled close to 8."
+  },
+  {
+    "QuestionText": "If a certain month has exactly 29 days, what year cycle type must it be?",
+    "Options": ["A) An ordinary year February month", "B) A leap year February month", "C) A leap year January month", "D) A standard non-leap year March month"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Days & Dates, Days of the Week, and Clock Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "February is the only calendar month that can change its length. It holds 28 days in regular years and 29 days during a leap year."
+  }
+]

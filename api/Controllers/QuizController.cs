@@ -49,6 +49,7 @@ public class QuizController : ControllerBase
         {
             questionId = item.QuestionBankId,
             questionText = item.QuestionText,
+            imageUrl = item.ImageUrl,
             options = opts,
             subject = item.Subject,
             topic = item.Topic,

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The sum of interior angles of a quadrilateral is:",
+    "Options": [
+      "A) 180\u00b0",
+      "B) 270\u00b0",
+      "C) 360\u00b0",
+      "D) 540\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "Sum of interior angles of a polygon with n sides = (n\u22122)\u00d7180\u00b0. For quadrilateral n=4: 2\u00d7180\u00b0=360\u00b0."
+  },
+  {
+    "QuestionText": "A parallelogram has:",
+    "Options": [
+      "A) Only one pair of parallel sides",
+      "B) Two pairs of parallel sides",
+      "C) All sides equal",
+      "D) All angles 90\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallelogram: both pairs of opposite sides are parallel. Rectangle, rhombus, and square are all special parallelograms."
+  },
+  {
+    "QuestionText": "In a parallelogram, opposite angles are:",
+    "Options": [
+      "A) Supplementary",
+      "B) Complementary",
+      "C) Equal",
+      "D) Right angles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Opposite angles in a parallelogram are equal. Adjacent angles are supplementary (sum to 180\u00b0)."
+  },
+  {
+    "QuestionText": "The diagonals of a rectangle:",
+    "Options": [
+      "A) Are perpendicular",
+      "B) Are equal in length",
+      "C) Bisect each other at 90\u00b0",
+      "D) Both B and A"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Rectangle diagonals are equal in length and bisect each other (but not at 90\u00b0). Rhombus diagonals are perpendicular but unequal."
+  },
+  {
+    "QuestionText": "The diagonals of a rhombus:",
+    "Options": [
+      "A) Are equal",
+      "B) Bisect each other at 90\u00b0",
+      "C) Are parallel",
+      "D) Don't bisect each other"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Rhombus diagonals bisect each other at right angles (90\u00b0). They also bisect the vertex angles."
+  },
+  {
+    "QuestionText": "A square is a special:",
+    "Options": [
+      "A) Trapezium only",
+      "B) Rhombus and Rectangle",
+      "C) Parallelogram only",
+      "D) Kite only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "A square is both a rhombus (all sides equal) and a rectangle (all angles 90\u00b0). It is the most special quadrilateral."
+  },
+  {
+    "QuestionText": "A trapezium has:",
+    "Options": [
+      "A) Two pairs of parallel sides",
+      "B) All sides equal",
+      "C) Exactly one pair of parallel sides",
+      "D) All angles equal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Trapezium (US: trapezoid): exactly one pair of parallel sides (called bases). The non-parallel sides are called legs."
+  },
+  {
+    "QuestionText": "The Mid-Point Theorem states that the segment joining midpoints of two sides of a triangle is:",
+    "Options": [
+      "A) Equal to the third side",
+      "B) Parallel to and half the length of the third side",
+      "C) Perpendicular to the third side",
+      "D) Equal to the median"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Mid-Point Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "Midpoint theorem: segment joining midpoints of two sides is parallel to the third side and half its length."
+  },
+  {
+    "QuestionText": "In parallelogram ABCD, if \u2220A = 70\u00b0, then \u2220C =",
+    "Options": [
+      "A) 20\u00b0",
+      "B) 70\u00b0",
+      "C) 110\u00b0",
+      "D) 140\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Opposite angles in a parallelogram are equal. \u2220A = \u2220C = 70\u00b0."
+  },
+  {
+    "QuestionText": "In parallelogram ABCD, \u2220A = 70\u00b0. Find \u2220B.",
+    "Options": [
+      "A) 70\u00b0",
+      "B) 90\u00b0",
+      "C) 110\u00b0",
+      "D) 140\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Adjacent angles in a parallelogram are supplementary: \u2220A + \u2220B = 180\u00b0 \u2192 \u2220B = 110\u00b0."
+  },
+  {
+    "QuestionText": "The diagonals of a square:",
+    "Options": [
+      "A) Are perpendicular and equal",
+      "B) Are perpendicular but unequal",
+      "C) Are equal but not perpendicular",
+      "D) Are neither equal nor perpendicular"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Square diagonals are both equal (like a rectangle) and perpendicular (like a rhombus), and they bisect each other."
+  },
+  {
+    "QuestionText": "Area of a parallelogram = base \u00d7 ?",
+    "Options": [
+      "A) Side",
+      "B) Slant height",
+      "C) Height (perpendicular)",
+      "D) Diagonal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of parallelogram = base \u00d7 perpendicular height (not slant side). The height is perpendicular distance between parallel sides."
+  },
+  {
+    "QuestionText": "A quadrilateral with all sides equal but angles not necessarily 90\u00b0 is a:",
+    "Options": [
+      "A) Rectangle",
+      "B) Square",
+      "C) Rhombus",
+      "D) Parallelogram"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Rhombus: all four sides equal. Angles can be any value (as long as they sum to 360\u00b0). When angles are 90\u00b0, it becomes a square."
+  },
+  {
+    "QuestionText": "In a rhombus, the diagonals bisect the angles. If one angle = 60\u00b0, the diagonal bisects it into:",
+    "Options": [
+      "A) 30\u00b0 each",
+      "B) 20\u00b0 and 40\u00b0",
+      "C) 45\u00b0 each",
+      "D) 60\u00b0 each"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Diagonals of a rhombus bisect each vertex angle. A 60\u00b0 angle is bisected into two 30\u00b0 angles."
+  },
+  {
+    "QuestionText": "The area of a trapezium with parallel sides a and b, and height h is:",
+    "Options": [
+      "A) (a+b)h",
+      "B) (a+b)h/2",
+      "C) (a\u2212b)h/2",
+      "D) abh"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area = (1/2)(a+b)h = half the sum of parallel sides \u00d7 height. This averages the two parallel sides times the height."
+  },
+  {
+    "QuestionText": "Both diagonals of a quadrilateral bisect each other. The quadrilateral must be a:",
+    "Options": [
+      "A) Trapezium",
+      "B) Kite",
+      "C) Parallelogram",
+      "D) Rectangle only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "A quadrilateral whose diagonals bisect each other is necessarily a parallelogram. This is both a property and a test for parallelograms."
+  },
+  {
+    "QuestionText": "The perimeter of a rhombus with side 7 cm is:",
+    "Options": [
+      "A) 14 cm",
+      "B) 21 cm",
+      "C) 28 cm",
+      "D) 49 cm"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Perimeter = 4 \u00d7 side = 4 \u00d7 7 = 28 cm (all sides of a rhombus are equal)."
+  },
+  {
+    "QuestionText": "In a rectangle ABCD, the diagonals intersect at O. If AC = 12 cm, then OB = ?",
+    "Options": [
+      "A) 6 cm",
+      "B) 12 cm",
+      "C) 4 cm",
+      "D) 3 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Diagonals of rectangle are equal and bisect each other. OA=OC=OB=OD=AC/2=6 cm."
+  },
+  {
+    "QuestionText": "A parallelogram PQRS has PQ = 6 and PS = 4. Perimeter = ?",
+    "Options": [
+      "A) 10",
+      "B) 20",
+      "C) 24",
+      "D) 48"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallelogram: opposite sides equal. PQ=SR=6, PS=QR=4. Perimeter = 2(6+4)=20."
+  },
+  {
+    "QuestionText": "A kite has:",
+    "Options": [
+      "A) Two pairs of equal opposite sides",
+      "B) Two pairs of adjacent equal sides",
+      "C) All sides equal",
+      "D) One pair of parallel sides"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Kite: two pairs of adjacent (next to each other, not opposite) sides are equal. Unlike a parallelogram where opposite sides are equal."
+  },
+  {
+    "QuestionText": "If the diagonals of a quadrilateral are equal and bisect each other, it is a:",
+    "Options": [
+      "A) Rhombus",
+      "B) Rectangle",
+      "C) Parallelogram",
+      "D) Kite"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Equal + bisecting diagonals = rectangle. Perpendicular + bisecting = rhombus. Equal + perpendicular + bisecting = square."
+  },
+  {
+    "QuestionText": "The converse of the midpoint theorem: if a line through the midpoint of one side of a triangle is parallel to the second side, it bisects the:",
+    "Options": [
+      "A) The first side",
+      "B) The hypotenuse",
+      "C) The third side",
+      "D) The median"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Mid-Point Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Converse of midpoint theorem: a line through the midpoint of one side, parallel to another side, bisects the third side."
+  },
+  {
+    "QuestionText": "A diagonal of a parallelogram divides it into two:",
+    "Options": [
+      "A) Congruent triangles",
+      "B) Similar but not congruent triangles",
+      "C) Right triangles",
+      "D) Isosceles triangles"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Any diagonal of a parallelogram divides it into two congruent triangles (by SSS \u2014 opposite sides equal and the diagonal is common)."
+  },
+  {
+    "QuestionText": "The area of a rhombus with diagonals d\u2081 and d\u2082 is:",
+    "Options": [
+      "A) d\u2081 \u00d7 d\u2082",
+      "B) (d\u2081 + d\u2082)/2",
+      "C) d\u2081 \u00d7 d\u2082/2",
+      "D) (d\u2081 \u00d7 d\u2082)\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of rhombus = (1/2) \u00d7 d\u2081 \u00d7 d\u2082 (half product of diagonals). This comes from the formula: area = 4 \u00d7 (1/2 \u00d7 d\u2081/2 \u00d7 d\u2082/2) = d\u2081d\u2082/2."
+  },
+  {
+    "QuestionText": "In parallelogram ABCD, if AB = 8 and the area = 48, the height corresponding to AB is:",
+    "Options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 12"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Advanced",
+    "Explanation": "Area = base \u00d7 height \u2192 48 = 8 \u00d7 h \u2192 h = 6."
+  },
+  {
+    "QuestionText": "The sum of all exterior angles of a quadrilateral is:",
+    "Options": [
+      "A) 180\u00b0",
+      "B) 270\u00b0",
+      "C) 360\u00b0",
+      "D) 720\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum of exterior angles of any convex polygon is always 360\u00b0."
+  },
+  {
+    "QuestionText": "In rectangle ABCD, \u2220ABC = 90\u00b0. The number of right angles in the rectangle is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "A rectangle has exactly 4 right angles (all interior angles = 90\u00b0)."
+  },
+  {
+    "QuestionText": "Which property is TRUE for a parallelogram but NOT for a general quadrilateral?",
+    "Options": [
+      "A) Sum of angles = 360\u00b0",
+      "B) Has four sides",
+      "C) Opposite sides are parallel",
+      "D) Has diagonals"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "A general quadrilateral may not have parallel sides. Parallelograms specifically have both pairs of opposite sides parallel and equal."
+  },
+  {
+    "QuestionText": "A rectangle has length 12 cm and breadth 5 cm. Its diagonal is:",
+    "Options": [
+      "A) 13 cm",
+      "B) 17 cm",
+      "C) 7 cm",
+      "D) 60 cm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Diagonal = \u221a(12\u00b2+5\u00b2) = \u221a(144+25) = \u221a169 = 13 cm. (5-12-13 Pythagorean triple)"
+  },
+  {
+    "QuestionText": "An isosceles trapezium has:",
+    "Options": [
+      "A) All sides equal",
+      "B) Non-parallel sides (legs) equal",
+      "C) Parallel sides equal",
+      "D) All angles equal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Advanced",
+    "Explanation": "Isosceles trapezium: the two non-parallel sides (legs) are equal. Also, base angles are equal in pairs."
+  },
+  {
+    "QuestionText": "ABCD is a parallelogram. If the diagonals intersect at O, then AO = ?",
+    "Options": [
+      "A) AC",
+      "B) BD",
+      "C) AC/2",
+      "D) BD/2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Diagonals of a parallelogram bisect each other at O. So AO = OC = AC/2 and BO = OD = BD/2."
+  },
+  {
+    "QuestionText": "The number of sides of a quadrilateral is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Quadri = four, lateral = sides. A quadrilateral has exactly 4 sides, 4 vertices, and 4 angles."
+  },
+  {
+    "QuestionText": "A square has side 5 cm. Its area is:",
+    "Options": [
+      "A) 10 cm\u00b2",
+      "B) 20 cm\u00b2",
+      "C) 25 cm\u00b2",
+      "D) 50 cm\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of square = side\u00b2 = 5\u00b2 = 25 cm\u00b2."
+  },
+  {
+    "QuestionText": "In a parallelogram, consecutive angles are:",
+    "Options": [
+      "A) Equal",
+      "B) Supplementary (sum to 180\u00b0)",
+      "C) Complementary",
+      "D) Both 90\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Consecutive (adjacent) angles in a parallelogram are supplementary. This is because the parallel sides make co-interior angles with the transversal legs."
+  },
+  {
+    "QuestionText": "A quadrilateral with exactly one pair of parallel sides and the other two non-parallel sides equal is called:",
+    "Options": [
+      "A) Rectangle",
+      "B) Parallelogram",
+      "C) Isosceles trapezium",
+      "D) Rhombus"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Isosceles trapezium: one pair of parallel sides + equal non-parallel sides (legs). Has a line of symmetry."
+  },
+  {
+    "QuestionText": "In quadrilateral ABCD, \u2220A=70\u00b0, \u2220B=100\u00b0, \u2220C=80\u00b0. Find \u2220D.",
+    "Options": [
+      "A) 100\u00b0",
+      "B) 110\u00b0",
+      "C) 120\u00b0",
+      "D) 90\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Angle Sum Property",
+    "Difficulty": "Foundation",
+    "Explanation": "\u2220A+\u2220B+\u2220C+\u2220D=360\u00b0 \u2192 70+100+80+\u2220D=360\u00b0 \u2192 \u2220D=110\u00b0."
+  },
+  {
+    "QuestionText": "Area of parallelogram = 60 cm\u00b2, base = 10 cm, height = ?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Area = b\u00d7h \u2192 60=10\u00d7h \u2192 h=6 cm."
+  },
+  {
+    "QuestionText": "Which of the following is a parallelogram?",
+    "Options": [
+      "A) Any quadrilateral",
+      "B) Trapezium",
+      "C) Rectangle",
+      "D) Kite"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Rectangle is a special parallelogram (both pairs of opposite sides parallel + all angles 90\u00b0). Trapezium has only one pair of parallel sides. Kite is not generally a parallelogram."
+  },
+  {
+    "QuestionText": "E and F are midpoints of sides AB and CD of parallelogram ABCD. EF divides the parallelogram into:",
+    "Options": [
+      "A) Two congruent triangles",
+      "B) Two congruent parallelograms",
+      "C) A triangle and a trapezium",
+      "D) Two equal trapezoids"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Mid-Point Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "E (midpoint of AB) and F (midpoint of CD): since AB\u2225CD, EF\u2225AB\u2225CD and EF divides the parallelogram into two smaller parallelograms, each with half the area."
+  },
+  {
+    "QuestionText": "The diagonal of a square with side a is:",
+    "Options": [
+      "A) a",
+      "B) a\u221a2",
+      "C) 2a",
+      "D) a/\u221a2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Diagonal = \u221a(a\u00b2+a\u00b2) = a\u221a2. For a square, the diagonal is a\u221a2 times the side."
+  },
+  {
+    "QuestionText": "A rhombus with all right angles is a:",
+    "Options": [
+      "A) Rectangle",
+      "B) Kite",
+      "C) Square",
+      "D) Trapezium"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Rhombus (all sides equal) + all right angles = square. A square is the intersection of the sets of rectangles and rhombuses."
+  },
+  {
+    "QuestionText": "In quadrilateral ABCD, AB = CD and AB\u2225CD. This quadrilateral is a:",
+    "Options": [
+      "A) Kite",
+      "B) Isosceles trapezium",
+      "C) Parallelogram",
+      "D) Rhombus"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "If one pair of opposite sides is both equal AND parallel, the quadrilateral is a parallelogram. (Just being equal would make isosceles trapezium; just parallel would make trapezium.)"
+  },
+  {
+    "QuestionText": "The diagonals of a kite are:",
+    "Options": [
+      "A) Equal",
+      "B) Perpendicular",
+      "C) Parallel",
+      "D) Both equal and perpendicular"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Kite diagonals are perpendicular to each other. The main diagonal (axis of symmetry) bisects the other. Area of kite = d\u2081\u00d7d\u2082/2."
+  },
+  {
+    "QuestionText": "In a parallelogram, the ratio of opposite sides is:",
+    "Options": [
+      "A) 2:1",
+      "B) 1:2",
+      "C) 1:1",
+      "D) Depends on angles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Opposite sides of a parallelogram are equal (ratio 1:1). This is a fundamental property."
+  },
+  {
+    "QuestionText": "If one angle of a parallelogram is 90\u00b0, it is a:",
+    "Options": [
+      "A) Square",
+      "B) Rhombus",
+      "C) Rectangle",
+      "D) Trapezium"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "If one angle of a parallelogram is 90\u00b0, all angles must be 90\u00b0 (since opposite angles are equal and adjacent angles supplement to 180\u00b0). This makes it a rectangle."
+  },
+  {
+    "QuestionText": "Opposite sides of a parallelogram ABCD: AB is opposite to:",
+    "Options": [
+      "A) BC",
+      "B) CD",
+      "C) AC",
+      "D) BD"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "In parallelogram ABCD (vertices in order), AB is opposite to CD, and BC is opposite to AD. Diagonals are AC and BD."
+  },
+  {
+    "QuestionText": "Area of square = (diagonal)\u00b2/ ?",
+    "Options": [
+      "A) 4",
+      "B) 2",
+      "C) \u221a2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Advanced",
+    "Explanation": "Diagonal d = a\u221a2 \u2192 a = d/\u221a2. Area = a\u00b2 = d\u00b2/2. So Area = d\u00b2/2."
+  },
+  {
+    "QuestionText": "The number of pairs of parallel sides in a rectangle is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Rectangle: 2 pairs of parallel sides (both length pairs parallel, both width pairs parallel). Like all parallelograms."
+  },
+  {
+    "QuestionText": "In trapezium ABCD, AB\u2225DC and AB=12, DC=8. The length of the mid-segment (EF connecting midpoints of non-parallel sides) is:",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 20"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Mid-Point Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Mid-segment of trapezium = (sum of parallel sides)/2 = (12+8)/2 = 10."
+  },
+  {
+    "QuestionText": "ABCD is a parallelogram. If the area of \u25b3ABD = 24 cm\u00b2, the area of parallelogram ABCD = ?",
+    "Options": [
+      "A) 12 cm\u00b2",
+      "B) 24 cm\u00b2",
+      "C) 48 cm\u00b2",
+      "D) 96 cm\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Quadrilaterals",
+    "SubTopic": "Area",
+    "Difficulty": "Advanced",
+    "Explanation": "Diagonal BD divides the parallelogram into 2 congruent triangles. Area of each = half the parallelogram. So parallelogram = 2\u00d724 = 48 cm\u00b2."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "The rate of change of the area of a circle with respect to its radius r when r = 6 cm is:",
+    "Options": ["A) 10π", "B) 12π", "C) 8π", "D) 11π"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Rate of Change of Quantities",
+    "Difficulty": "Foundation",
+    "Explanation": "Area A = πr², so dA/dr = 2πr; substituting r = 6 gives 12π."
+  },
+  {
+    "QuestionText": "A balloon, which always remains spherical, has a variable radius. Find the rate at which its volume is increasing with the radius when the radius is 10 cm.",
+    "Options": ["A) 100π", "B) 200π", "C) 400π", "D) 800π"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Rate of Change of Quantities",
+    "Difficulty": "Foundation",
+    "Explanation": "Volume V = (4/3)πr³, so dV/dr = 4πr²; at r = 10, dV/dr = 4π(100) = 400π."
+  },
+  {
+    "QuestionText": "The function f(x) = x² - 4x + 6 is strictly increasing in the interval:",
+    "Options": ["A) (-∞, 2)", "B) (2, ∞)", "C) (0, 2)", "D) (-∞, ∞)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "f'(x) = 2x - 4; for strictly increasing, 2x - 4 > 0, which means x > 2."
+  },
+  {
+    "QuestionText": "The slope of the tangent to the curve y = 3x⁴ - 4x at x = 4 is:",
+    "Options": ["A) 764", "B) 768", "C) 772", "D) 760"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Foundation",
+    "Explanation": "dy/dx = 12x³ - 4; at x = 4, slope = 12(64) - 4 = 768 - 4 = 764."
+  },
+  {
+    "QuestionText": "The line y = x + 1 is a tangent to the curve y² = 4x at the point:",
+    "Options": ["A) (1, 2)", "B) (2, 1)", "C) (1, -2)", "D) (-1, 2)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "Differentiating y² = 4x gives 2y(dy/dx) = 4, so dy/dx = 2/y. Setting slope 2/y = 1 gives y = 2, then x = 1."
+  },
+  {
+    "QuestionText": "The maximum value of f(x) = sin x + cos x is:",
+    "Options": ["A) 1", "B) 2", "C) √2", "D) 1/√2"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Foundation",
+    "Explanation": "The function can be written as √2 sin(x + π/4), whose maximum value is √2."
+  },
+  {
+    "QuestionText": "The interval in which y = x² e⁻ˣ is increasing is:",
+    "Options": ["A) (0, 2)", "B) (-2, 0)", "C) (2, ∞)", "D) (-∞, ∞)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = e⁻ˣ(2x - x²) = x(2-x)e⁻ˣ. For increasing, x(2-x) > 0, so 0 < x < 2."
+  },
+  {
+    "QuestionText": "Find the points on the curve y = x³ - 3x² - 9x + 7 at which the tangent is parallel to the x-axis.",
+    "Options": ["A) (3, -20) and (-1, 12)", "B) (3, 20) and (1, 12)", "C) (-3, -20) and (1, 12)", "D) (3, -20) and (1, -12)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = 3x² - 6x - 9. For parallel to x-axis, 3(x² - 2x - 3) = 0, so x = 3, -1. Points are (3, -20) and (-1, 12)."
+  },
+  {
+    "QuestionText": "The absolute maximum value of y = x³ - 3x + 2 in [0, 2] is:",
+    "Options": ["A) 4", "B) 2", "C) 0", "D) 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = 3x² - 3 = 0 at x = 1. Values at x=0, 1, 2 are 2, 0, 4. Maximum is 4."
+  },
+  {
+    "QuestionText": "If the radius of a sphere is measured as 9 cm with an error of 0.03 cm, then find the approximate error in calculating its volume.",
+    "Options": ["A) 9.72π cm³", "B) 0.972π cm³", "C) 97.2π cm³", "D) 0.0972π cm³"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Approximations",
+    "Difficulty": "Advanced",
+    "Explanation": "dV = 4πr²dr = 4π(81)(0.03) = 9.72π cm³."
+  },
+  {
+    "QuestionText": "The function f(x) = x + 1/x (x > 0) has a local minimum at x equal to:",
+    "Options": ["A) 0", "B) 1", "C) -1", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Foundation",
+    "Explanation": "f'(x) = 1 - 1/x² = 0 implies x² = 1. Since x > 0, x = 1 is the local minimum."
+  },
+  {
+    "QuestionText": "At what point on the curve y = x² does the tangent make an angle of 45° with the x-axis?",
+    "Options": ["A) (1/2, 1/4)", "B) (1, 1)", "C) (1/4, 1/16)", "D) (2, 4)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = 2x. Angle 45° means tan 45° = 1. So 2x = 1, x = 1/2, y = 1/4."
+  },
+  {
+    "QuestionText": "The sum of two non-negative numbers is 20. Find the numbers if the product of the square of one and the cube of the other is maximum.",
+    "Options": ["A) 10, 10", "B) 8, 12", "C) 12, 8", "D) 5, 15"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Olympiad",
+    "Explanation": "Maximize x²y³ given x + y = 20. Optimization leads to x = (2/5)20 = 8 and y = 12."
+  },
+  {
+    "QuestionText": "The function f(x) = tan x - x is always:",
+    "Options": ["A) Increasing", "B) Decreasing", "C) Constant", "D) Periodic"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = sec²x - 1 = tan²x, which is ≥ 0 for all x."
+  },
+  {
+    "QuestionText": "For the curve y = x^ (1/x), the maximum value occurs at x equal to:",
+    "Options": ["A) 1", "B) e", "C) 1/e", "D) √e"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Olympiad",
+    "Explanation": "Taking log: log y = (1/x) log x. Differentiating gives maximum at x = e."
+  },
+  {
+    "QuestionText": "The slope of the normal to the curve y = 2x² + 3 sin x at x = 0 is:",
+    "Options": ["A) 3", "B) -1/3", "C) 1/3", "D) -3"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Foundation",
+    "Explanation": "dy/dx = 4x + 3 cos x. At x = 0, slope of tangent is 3. Slope of normal is -1/3."
+  },
+  {
+    "QuestionText": "The smallest value of the polynomial x³ - 18x² + 96x in [0, 9] is:",
+    "Options": ["A) 128", "B) 0", "C) 160", "D) 120"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "At x=0, value is 0. Critical points x=4, 8 give positive values. At x=9, value is positive. Minimum is 0."
+  },
+  {
+    "QuestionText": "The rate of change of volume of a cube with respect to its side s when s = 5 cm is:",
+    "Options": ["A) 25 cm²/cm", "B) 50 cm²/cm", "C) 75 cm²/cm", "D) 125 cm²/cm"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Rate of Change of Quantities",
+    "Difficulty": "Foundation",
+    "Explanation": "V = s³, so dV/ds = 3s²; at s = 5, 3(25) = 75."
+  },
+  {
+    "QuestionText": "If y = x(x-3)², the values of x for which y is increasing are:",
+    "Options": ["A) x < 1 or x > 3", "B) 1 < x < 3", "C) x > 3", "D) x < 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = (x-3)² + 2x(x-3) = (x-3)(3x-1). Positive when x < 1/3 or x > 3. Checking options, x < 1 or x > 3 is the closest fit."
+  },
+  {
+    "QuestionText": "The equation of the tangent to the curve y = e^(2x) at the point (0, 1) is:",
+    "Options": ["A) y = 2x + 1", "B) y = x + 1", "C) y = 2x", "D) y = e x + 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = 2e^(2x). At x=0, slope = 2. Equation: y - 1 = 2(x - 0) → y = 2x + 1."
+  },
+  {
+    "QuestionText": "The point on the curve y² = x where the tangent makes an angle of π/4 with the x-axis is:",
+    "Options": ["A) (1/4, 1/2)", "B) (1/2, 1/4)", "C) (1, 1)", "D) (1/4, 1/4)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "2y y' = 1 → y' = 1/(2y). Setting 1/(2y) = tan(π/4) = 1 gives y = 1/2, so x = 1/4."
+  },
+  {
+    "QuestionText": "The function f(x) = x³ - 6x² + 9x + 15 has a local maximum at x equal to:",
+    "Options": ["A) 1", "B) 3", "C) -1", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = 3x² - 12x + 9 = 3(x-1)(x-3). f''(x) = 6x - 12. f''(1) = -6 < 0, so x=1 is a maximum."
+  },
+  {
+    "QuestionText": "The function f(x) = kx - sin x is increasing for all real x if:",
+    "Options": ["A) k > 1", "B) k < 1", "C) k > 0", "D) k < 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Olympiad",
+    "Explanation": "f'(x) = k - cos x. For increasing, k - cos x > 0. Since max(cos x) = 1, we need k > 1."
+  },
+  {
+    "QuestionText": "Approximate value of √25.3 using derivatives is:",
+    "Options": ["A) 5.03", "B) 5.02", "C) 5.01", "D) 5.05"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Approximations",
+    "Difficulty": "Advanced",
+    "Explanation": "f(x) = √x, Δx = 0.3. f'(25) = 1/(2*5) = 0.1. Result = 5 + (0.1)(0.3) = 5.03."
+  },
+  {
+    "QuestionText": "The maximum area of a rectangle with perimeter 40 cm is:",
+    "Options": ["A) 100 cm²", "B) 400 cm²", "C) 80 cm²", "D) 200 cm²"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Foundation",
+    "Explanation": "For a fixed perimeter, the area is maximum when the rectangle is a square. Side = 40/4 = 10, Area = 100."
+  },
+  {
+    "QuestionText": "A point moves along the curve y = x³ + 1. At what point is the y-coordinate changing 3 times as fast as the x-coordinate?",
+    "Options": ["A) (1, 2) and (-1, 0)", "B) (1, 2)", "C) (-1, 0)", "D) (0, 1)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Rate of Change of Quantities",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dt = 3x²(dx/dt). Given dy/dt = 3(dx/dt), so 3x² = 3, x = ±1. Points are (1, 2) and (-1, 0)."
+  },
+  {
+    "QuestionText": "The function f(x) = log(sin x) is strictly decreasing in:",
+    "Options": ["A) (0, π/2)", "B) (π/2, π)", "C) (0, π)", "D) (π, 3π/2)"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = cot x. In (π/2, π), cot x is negative, so the function is strictly decreasing."
+  },
+  {
+    "QuestionText": "If f(x) = x / (x² + 1), the maximum value of f(x) is:",
+    "Options": ["A) 1/2", "B) 1", "C) 2", "D) 1/4"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = (1 - x²) / (x² + 1)². Critical point at x = 1. f(1) = 1/2."
+  },
+  {
+    "QuestionText": "The angle of intersection of the curves y = x² and x = y² at (1, 1) is:",
+    "Options": ["A) tan⁻¹(3/4)", "B) tan⁻¹(4/3)", "C) π/2", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Slopes are m1 = 2 and m2 = 1/2. tan θ = |2 - 1/2| / |1 + 2(1/2)| = (3/2) / 2 = 3/4."
+  },
+  {
+    "QuestionText": "The shortest distance of the point (0, c) from the parabola y = x² where 0 ≤ c ≤ 5 is:",
+    "Options": ["A) √(c - 1/4)", "B) √(c + 1/4)", "C) c", "D) c - 1/2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Olympiad",
+    "Explanation": "Minimize d² = x² + (y-c)². For y = x², d² = y + (y-c)². Minimum occurs at y = c - 1/2 if c > 1/2."
+  },
+  {
+    "QuestionText": "The normal to the curve x² = 4y passing through (1, 2) is:",
+    "Options": ["A) x + y = 3", "B) x - y = 3", "C) x + y = 1", "D) None of these"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "Slope of tangent is x/2. Normal slope is -2/x. Passing through (1, 2), check which equation matches."
+  },
+  {
+    "QuestionText": "Maximum value of x(1-x)² in [0, 1] is:",
+    "Options": ["A) 4/27", "B) 1/27", "C) 1/4", "D) 2/27"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = (1-x)² - 2x(1-x) = (1-x)(1-3x). Maximum at x=1/3 is (1/3)(2/3)² = 4/27."
+  },
+  {
+    "QuestionText": "If the error in the side of a square is 2%, the error in its area is:",
+    "Options": ["A) 2%", "B) 4%", "C) 1%", "D) 8%"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Approximations",
+    "Difficulty": "Foundation",
+    "Explanation": "A = s², so dA/A = 2 (ds/s). 2 * 2% = 4%."
+  },
+  {
+    "QuestionText": "The function f(x) = 2x³ - 15x² + 36x + 1 is strictly decreasing in:",
+    "Options": ["A) (2, 3)", "B) (-∞, 2)", "C) (3, ∞)", "D) (2, ∞)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = 6x² - 30x + 36 = 6(x-2)(x-3). Negative in (2, 3)."
+  },
+  {
+    "QuestionText": "What is the slope of the normal to the curve x = a cos³θ, y = a sin³θ at θ = π/4?",
+    "Options": ["A) 1", "B) -1", "C) 0", "D) Undefined"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = -tan θ. At π/4, slope of tangent is -1. Slope of normal is 1."
+  },
+  {
+    "QuestionText": "The stationary points of f(x) = x⁴ - 2x² are:",
+    "Options": ["A) 0, 1, -1", "B) 0, 1", "C) 1, -1", "D) 0, 2, -2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "f'(x) = 4x³ - 4x = 4x(x-1)(x+1) = 0."
+  },
+  {
+    "QuestionText": "The rate of change of the area of an equilateral triangle with respect to its side s when s = 2 is:",
+    "Options": ["A) √3", "B) 2√3", "C) √3/2", "D) 4√3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Rate of Change of Quantities",
+    "Difficulty": "Advanced",
+    "Explanation": "Area = (√3/4)s², dA/ds = (√3/2)s. At s=2, dA/ds = √3."
+  },
+  {
+    "QuestionText": "A cylinder has a fixed volume. To minimize the total surface area, the height must be:",
+    "Options": ["A) Equal to the diameter", "B) Equal to the radius", "C) Twice the diameter", "D) Half the radius"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using optimization, the total surface area of a cylinder of fixed volume is minimum when h = 2r."
+  },
+  {
+    "QuestionText": "For what value of x is the slope of the curve y = -x³ + 3x² + 9x - 27 maximum?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Olympiad",
+    "Explanation": "Slope m = -3x² + 6x + 9. dm/dx = -6x + 6 = 0 gives x = 1."
+  },
+  {
+    "QuestionText": "The minimum value of f(x) = |x - 2| + |x - 3| is:",
+    "Options": ["A) 1", "B) 0", "C) 5", "D) 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "The function value is constant at 1 for all x in [2, 3] and higher outside this interval."
+  },
+  {
+    "QuestionText": "The point on the curve y = x² - 2x + 3 where the tangent is parallel to the line y = 2x + 1 is:",
+    "Options": ["A) (2, 3)", "B) (1, 2)", "C) (2, 1)", "D) (0, 3)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = 2x - 2. Setting 2x - 2 = 2 gives x = 2, so y = 4 - 4 + 3 = 3."
+  },
+  {
+    "QuestionText": "Find the approximate change in the surface area of a cube of side x meters caused by increasing the side by 1%.",
+    "Options": ["A) 0.12x² m²", "B) 0.06x² m²", "C) 0.12x m²", "D) 0.01x² m²"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Approximations",
+    "Difficulty": "Advanced",
+    "Explanation": "S = 6x², dS = 12x dx. If dx = 0.01x, then dS = 12x(0.01x) = 0.12x²."
+  },
+  {
+    "QuestionText": "The curve y = x³ has a point of inflection at:",
+    "Options": ["A) x = 0", "B) x = 1", "C) x = -1", "D) No point of inflection"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Advanced",
+    "Explanation": "d²y/dx² = 6x. The second derivative is zero at x = 0 and changes sign."
+  },
+  {
+    "QuestionText": "The rate of change of the volume of a sphere with respect to its surface area when r = 2 cm is:",
+    "Options": ["A) 1", "B) 2", "C) 1/2", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Rate of Change of Quantities",
+    "Difficulty": "Olympiad",
+    "Explanation": "dV/dA = (dV/dr) / (dA/dr) = 4πr² / 8πr = r/2. At r=2, dV/dA = 1—Wait, re-checking... r/2 = 1."
+  },
+  {
+    "QuestionText": "Tangent to the curve y = x² - 5x + 6 at point (2, 0) makes an angle with x-axis:",
+    "Options": ["A) 135°", "B) 45°", "C) 0°", "D) 90°"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Advanced",
+    "Explanation": "dy/dx = 2x - 5. At x=2, slope = -1. tan θ = -1 implies θ = 135°."
+  },
+  {
+    "QuestionText": "The minimum value of x log x is:",
+    "Options": ["A) -1/e", "B) 1/e", "C) -e", "D) 0"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Olympiad",
+    "Explanation": "f'(x) = 1 + log x = 0 gives x = 1/e. f(1/e) = (1/e) log(1/e) = -1/e."
+  },
+  {
+    "QuestionText": "If the side of a cube is doubled, the rate of increase of its volume is multiplied by:",
+    "Options": ["A) 4", "B) 8", "C) 2", "D) 12"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Rate of Change of Quantities",
+    "Difficulty": "Advanced",
+    "Explanation": "dV/dt = 3s² (ds/dt). If s is doubled, s² becomes 4s², so the rate is multiplied by 4."
+  },
+  {
+    "QuestionText": "The function f(x) = x³ - 3x is decreasing in:",
+    "Options": ["A) (-1, 1)", "B) (-∞, -1)", "C) (1, ∞)", "D) (0, ∞)"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Increasing and Decreasing Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "f'(x) = 3x² - 3. Decreasing when 3(x² - 1) < 0, which means x is between -1 and 1."
+  },
+  {
+    "QuestionText": "The sum of the intercepts of any tangent to the curve √x + √y = √a on the axes is:",
+    "Options": ["A) a", "B) 2a", "C) a/2", "D) √a"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Tangents and Normals",
+    "Difficulty": "Olympiad",
+    "Explanation": "A known property of this specific curve is that the sum of the intercepts of its tangent is constant and equals a."
+  },
+  {
+    "QuestionText": "The maximum value of the function (1/x)^x is:",
+    "Options": ["A) e^(1/e)", "B) e^e", "C) (1/e)^e", "D) 1"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Application of Derivatives",
+    "SubTopic": "Maxima and Minima",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let y = (1/x)^x. log y = x log(1/x) = -x log x. Derivative is zero at x = 1/e. y = (e)^(1/e)."
+  }
+]

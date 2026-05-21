@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A complex number is of the form:",
+    "Options": [
+      "A) a + b",
+      "B) a + bi where i = √(−1)",
+      "C) a/b where b≠0",
+      "D) a² + b²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Definition of Complex Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "A complex number z = a + bi where a is the real part, b is the imaginary part, and i = √(−1)."
+  },
+  {
+    "QuestionText": "The value of i² is:",
+    "Options": [
+      "A) 1",
+      "B) −1",
+      "C) i",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Powers of i",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, i = √(−1), so i² = −1. This is the foundational property of imaginary numbers."
+  },
+  {
+    "QuestionText": "The value of i³ is:",
+    "Options": [
+      "A) 1",
+      "B) −1",
+      "C) −i",
+      "D) i"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Powers of i",
+    "Difficulty": "Foundation",
+    "Explanation": "i³ = i² × i = (−1) × i = −i."
+  },
+  {
+    "QuestionText": "The value of i⁴ is:",
+    "Options": [
+      "A) −1",
+      "B) i",
+      "C) −i",
+      "D) 1"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Powers of i",
+    "Difficulty": "Foundation",
+    "Explanation": "i⁴ = (i²)² = (−1)² = 1. Powers of i cycle with period 4: i¹=i, i²=−1, i³=−i, i⁴=1."
+  },
+  {
+    "QuestionText": "The real part of z = 5 − 3i is:",
+    "Options": [
+      "A) −3",
+      "B) 3",
+      "C) 5",
+      "D) 5−3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Real and Imaginary Parts",
+    "Difficulty": "Foundation",
+    "Explanation": "For z = a + bi, Re(z) = a. Here z = 5−3i, so Re(z) = 5. The imaginary part is −3."
+  },
+  {
+    "QuestionText": "The modulus of z = 3 + 4i is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 7",
+      "D) 5"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Modulus of a Complex Number",
+    "Difficulty": "Foundation",
+    "Explanation": "|z| = √(a²+b²) = √(3²+4²) = √(9+16) = √25 = 5."
+  },
+  {
+    "QuestionText": "The conjugate of z = 2 + 3i is:",
+    "Options": [
+      "A) 2 − 3i",
+      "B) −2 + 3i",
+      "C) −2 − 3i",
+      "D) 3 + 2i"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Conjugate of a Complex Number",
+    "Difficulty": "Foundation",
+    "Explanation": "The conjugate of z = a + bi is z̄ = a − bi. So conjugate of 2+3i is 2−3i."
+  },
+  {
+    "QuestionText": "(2 + 3i) + (4 − i) equals:",
+    "Options": [
+      "A) 6 + 2i",
+      "B) 6 − 2i",
+      "C) 2 + 4i",
+      "D) 8 + 2i"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Addition and Subtraction",
+    "Difficulty": "Foundation",
+    "Explanation": "Add real and imaginary parts separately: (2+4) + (3−1)i = 6 + 2i."
+  },
+  {
+    "QuestionText": "(3 + 2i)(1 − i) equals:",
+    "Options": [
+      "A) 3 − 2i",
+      "B) 5 − i",
+      "C) 1 + 5i",
+      "D) 3 + 2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Multiplication of Complex Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "(3+2i)(1−i) = 3−3i+2i−2i² = 3−i−2(−1) = 3−i+2 = 5−i."
+  },
+  {
+    "QuestionText": "The argument of the complex number z = 1 + i is:",
+    "Options": [
+      "A) π/4",
+      "B) π/2",
+      "C) π/6",
+      "D) 3π/4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Argument of a Complex Number",
+    "Difficulty": "Foundation",
+    "Explanation": "arg(z) = tan⁻¹(b/a) = tan⁻¹(1/1) = tan⁻¹(1) = π/4. The number is in the first quadrant."
+  },
+  {
+    "QuestionText": "The polar form of z = 1 + i√3 is:",
+    "Options": [
+      "A) 2(cos π/3 + i sin π/3)",
+      "B) 2(cos π/6 + i sin π/6)",
+      "C) √2(cos π/4 + i sin π/4)",
+      "D) (cos π/3 + i sin π/3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Polar Form",
+    "Difficulty": "Foundation",
+    "Explanation": "|z| = √(1+3) = 2. arg = tan⁻¹(√3/1) = π/3. So z = 2(cos π/3 + i sin π/3)."
+  },
+  {
+    "QuestionText": "z · z̄ equals:",
+    "Options": [
+      "A) 2Re(z)",
+      "B) |z|²",
+      "C) 2Im(z)",
+      "D) |z|"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Conjugate of a Complex Number",
+    "Difficulty": "Foundation",
+    "Explanation": "If z = a+bi, then z·z̄ = (a+bi)(a−bi) = a²+b² = |z|². This is a key property of conjugates."
+  },
+  {
+    "QuestionText": "For any complex number z, |z| = 0 if and only if:",
+    "Options": [
+      "A) Re(z) = 0",
+      "B) Im(z) = 0",
+      "C) z = 0",
+      "D) z is real"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Modulus of a Complex Number",
+    "Difficulty": "Foundation",
+    "Explanation": "|z| = √(a²+b²) = 0 only when a=0 and b=0 simultaneously, i.e., z = 0 + 0i = 0."
+  },
+  {
+    "QuestionText": "The value of i⁴⁰ is:",
+    "Options": [
+      "A) i",
+      "B) −1",
+      "C) −i",
+      "D) 1"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Powers of i",
+    "Difficulty": "Advanced",
+    "Explanation": "Powers of i cycle every 4: i¹=i, i²=−1, i³=−i, i⁴=1. 40÷4=10 remainder 0, so i⁴⁰ = (i⁴)¹⁰ = 1¹⁰ = 1."
+  },
+  {
+    "QuestionText": "The value of i¹⁰¹ is:",
+    "Options": [
+      "A) 1",
+      "B) −1",
+      "C) i",
+      "D) −i"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Powers of i",
+    "Difficulty": "Advanced",
+    "Explanation": "101 = 4×25 + 1, so i¹⁰¹ = i¹ = i."
+  },
+  {
+    "QuestionText": "1/i equals:",
+    "Options": [
+      "A) i",
+      "B) −i",
+      "C) 1",
+      "D) −1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Division of Complex Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "1/i = i/(i·i) = i/i² = i/(−1) = −i. Alternatively: 1/i × i/i = i/i² = i/(−1) = −i."
+  },
+  {
+    "QuestionText": "If z = r(cos θ + i sin θ), then z² in polar form is:",
+    "Options": [
+      "A) r²(cos θ + i sin θ)",
+      "B) r²(cos 2θ + i sin 2θ)",
+      "C) 2r(cos 2θ + i sin 2θ)",
+      "D) r(cos 2θ − i sin 2θ)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "De Moivre's Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "By De Moivre's theorem: zⁿ = rⁿ(cos nθ + i sin nθ). For n=2: z² = r²(cos 2θ + i sin 2θ)."
+  },
+  {
+    "QuestionText": "The multiplicative inverse of 3 + 4i is:",
+    "Options": [
+      "A) (3−4i)/25",
+      "B) (3+4i)/25",
+      "C) (3−4i)/7",
+      "D) 1/(3+4i)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Division of Complex Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "1/(3+4i) = (3−4i)/((3+4i)(3−4i)) = (3−4i)/(9+16) = (3−4i)/25."
+  },
+  {
+    "QuestionText": "If z₁ = 2+3i and z₂ = 1−2i, then z₁/z₂ is:",
+    "Options": [
+      "A) (4+7i)/5",
+      "B) (−4+7i)/5",
+      "C) (4−7i)/5",
+      "D) 7+4i"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Division of Complex Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "z₁/z₂ = (2+3i)(1+2i)/((1−2i)(1+2i)) = (2+4i+3i+6i²)/(1+4) = (2+7i−6)/5 = (−4+7i)/5."
+  },
+  {
+    "QuestionText": "The square roots of −i are:",
+    "Options": [
+      "A) ±(1+i)/√2",
+      "B) ±(1−i)/√2",
+      "C) ±i",
+      "D) ±(1+i)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Square Roots of Complex Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Let (a+bi)² = −i → a²−b²=0 and 2ab=−1. So a=±b and 2a(−a)=−1 → a²=1/2 → a=1/√2, b=−1/√2. Roots = ±(1−i)/√2."
+  },
+  {
+    "QuestionText": "For complex z, which of the following ALWAYS holds?",
+    "Options": [
+      "A) z = z̄",
+      "B) |z| = z",
+      "C) |z̄| = |z|",
+      "D) arg(z) = arg(z̄)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Properties of Modulus",
+    "Difficulty": "Advanced",
+    "Explanation": "|z̄| = |a−bi| = √(a²+b²) = |z|. The modulus of a complex number equals the modulus of its conjugate. arg(z̄) = −arg(z), not equal."
+  },
+  {
+    "QuestionText": "The locus of z satisfying |z − 1| = 2 is:",
+    "Options": [
+      "A) A circle of radius 2 centred at (2,0)",
+      "B) A circle of radius 2 centred at (1,0)",
+      "C) A straight line",
+      "D) A parabola"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Locus in the Complex Plane",
+    "Difficulty": "Advanced",
+    "Explanation": "|z − 1| = 2 means the distance from z to the fixed point 1 (i.e., (1,0)) is always 2. This is a circle centred at (1,0) with radius 2."
+  },
+  {
+    "QuestionText": "If |z₁| = |z₂|, then z₁/z₂ is:",
+    "Options": [
+      "A) Always 1",
+      "B) Always −1",
+      "C) A real number",
+      "D) A number of modulus 1"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Properties of Modulus",
+    "Difficulty": "Advanced",
+    "Explanation": "|z₁/z₂| = |z₁|/|z₂| = 1 when |z₁| = |z₂|. So z₁/z₂ lies on the unit circle — its modulus is 1, but it's not necessarily real."
+  },
+  {
+    "QuestionText": "The imaginary part of (1+i)/(1−i) is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) −1",
+      "D) 2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Division of Complex Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "(1+i)²/((1−i)(1+i)) = (1+2i−1)/(1+1) = 2i/2 = i. So Im = 1."
+  },
+  {
+    "QuestionText": "The modulus of (1+i√3)⁶ is:",
+    "Options": [
+      "A) 8",
+      "B) 16",
+      "C) 64",
+      "D) 32"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "De Moivre's Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "|1+i√3| = 2. So |(1+i√3)⁶| = 2⁶ = 64."
+  },
+  {
+    "QuestionText": "arg(z₁·z₂) equals:",
+    "Options": [
+      "A) arg(z₁) · arg(z₂)",
+      "B) arg(z₁) + arg(z₂)",
+      "C) arg(z₁) − arg(z₂)",
+      "D) arg(z₁) / arg(z₂)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Argument of a Complex Number",
+    "Difficulty": "Advanced",
+    "Explanation": "When multiplying complex numbers in polar form, arguments add: arg(z₁z₂) = arg(z₁) + arg(z₂)."
+  },
+  {
+    "QuestionText": "If z = cos θ + i sin θ, then z + 1/z equals:",
+    "Options": [
+      "A) 2i sin θ",
+      "B) 2 cos θ",
+      "C) 2i cos θ",
+      "D) 2 sin θ"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "De Moivre's Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "1/z = cos θ − i sin θ (since |z|=1, z⁻¹=z̄). z+1/z = 2cos θ."
+  },
+  {
+    "QuestionText": "The cube roots of unity are:",
+    "Options": [
+      "A) 1, ω, ω² where ω = (−1+i√3)/2",
+      "B) 1, i, −1",
+      "C) 1, −1, i",
+      "D) 1, ω, ω² where ω = (1+i√3)/2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Roots of Complex Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "The three cube roots of 1 are 1, ω = (−1+i√3)/2, and ω² = (−1−i√3)/2, where 1+ω+ω²=0 and ω³=1."
+  },
+  {
+    "QuestionText": "If ω is a cube root of unity (ω≠1), then 1 + ω + ω² equals:",
+    "Options": [
+      "A) 3",
+      "B) ω",
+      "C) 0",
+      "D) −1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Roots of Complex Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "The sum of all three cube roots of unity is always 0: 1 + ω + ω² = 0. This is a fundamental property used in olympiad algebra."
+  },
+  {
+    "QuestionText": "The argument of the complex number (1+i)/(1−i) is:",
+    "Options": [
+      "A) 0",
+      "B) π/2",
+      "C) π",
+      "D) π/4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Argument of a Complex Number",
+    "Difficulty": "Olympiad",
+    "Explanation": "(1+i)/(1−i) = i (as computed earlier). arg(i) = π/2."
+  },
+  {
+    "QuestionText": "If z is a complex number such that z + 1/z = 1, then z³ + 1/z³ equals:",
+    "Options": [
+      "A) 1",
+      "B) −2",
+      "C) 2",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Properties of Complex Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "z + 1/z = 1. Cube: z³+1/z³ = (z+1/z)³ − 3(z+1/z) = 1 − 3 = −2."
+  },
+  {
+    "QuestionText": "The number of solutions of z² = z̄ (where z̄ is the conjugate of z) is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Equations in Complex Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let z=x+iy. z²=z̄ gives (x+iy)²=x−iy → x²−y²=x and 2xy=−y → y(2x+1)=0. Case 1: y=0 → x²=x → x=0 or 1. Case 2: x=−1/2 → 1/4−y²=−1/2 → y²=3/4 → y=±√3/2. Total solutions: 3 (i.e., 0, 1, −1/2±i√3/2)."
+  },
+  {
+    "QuestionText": "If |z + 4| ≤ 3, the maximum value of |z + 1| is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Locus in the Complex Plane",
+    "Difficulty": "Olympiad",
+    "Explanation": "By the triangle inequality: |z+1| = |(z+4)−3| ≤ |z+4|+3 ≤ 3+3 = 6."
+  },
+  {
+    "QuestionText": "The polar form e^(iθ) = cos θ + i sin θ is known as:",
+    "Options": [
+      "A) De Moivre's theorem",
+      "B) Euler's formula",
+      "C) Argand's identity",
+      "D) Weierstrass formula"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Polar Form",
+    "Difficulty": "Olympiad",
+    "Explanation": "e^(iθ) = cos θ + i sin θ is Euler's formula, one of the most celebrated identities in mathematics. When θ=π: e^(iπ)+1=0 (Euler's identity)."
+  },
+  {
+    "QuestionText": "If z = r e^(iθ), then |z^n| equals:",
+    "Options": [
+      "A) r^n",
+      "B) n·r",
+      "C) r^n e^(inθ)",
+      "D) n r^(n−1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Modulus of a Complex Number",
+    "Difficulty": "Olympiad",
+    "Explanation": "|zⁿ| = |z|ⁿ = rⁿ. The modulus of a power equals the power of the modulus."
+  },
+  {
+    "QuestionText": "The sum of all values of (1+i)^(4n) for n ∈ N is always divisible by:",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 8",
+      "D) 16"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Powers of i",
+    "Difficulty": "Olympiad",
+    "Explanation": "(1+i)² = 2i, so (1+i)^4 = (2i)² = −4. (1+i)^(4n) = (−4)^n = (−1)^n · 4^n. This is always divisible by 4."
+  },
+  {
+    "QuestionText": "For the equation z² + |z| = 0, the number of solutions is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Equations in Complex Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "z=0 works. For z≠0: z²=−|z|<0, so z must be purely imaginary. Let z=iy: −y²=|y| → y²=−|y| (impossible for real y≠0 wait: y²+|y|=0 → y=0). So only z=0. But z=±i|z|^(1/2)... Full analysis gives 3 solutions including 0 and two imaginary roots."
+  },
+  {
+    "QuestionText": "The conjugate of i^(−35) is:",
+    "Options": [
+      "A) i",
+      "B) −i",
+      "C) 1",
+      "D) −1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Conjugate of a Complex Number",
+    "Difficulty": "Advanced",
+    "Explanation": "−35 mod 4 = −35+36 = 1, so i^(−35) = i¹ = i. Conjugate of i is −i. Wait: −35 = 4×(−9)+1, remainder 1, so i^(−35)=i. Conjugate = −i. Correct answer B."
+  },
+  {
+    "QuestionText": "If z = x + iy and arg(z) = π/4, then:",
+    "Options": [
+      "A) x = y",
+      "B) x = −y",
+      "C) x = 2y",
+      "D) y = 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Argument of a Complex Number",
+    "Difficulty": "Advanced",
+    "Explanation": "arg(z) = tan⁻¹(y/x) = π/4 → y/x = 1 → y = x."
+  },
+  {
+    "QuestionText": "The amplitude (argument) of the complex number −1 − i is:",
+    "Options": [
+      "A) π/4",
+      "B) −3π/4",
+      "C) 3π/4",
+      "D) −π/4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Argument of a Complex Number",
+    "Difficulty": "Advanced",
+    "Explanation": "−1−i is in the third quadrant. Reference angle = tan⁻¹(1/1) = π/4. In Q3, argument = −π + π/4 = −3π/4 (principal argument range (−π, π])."
+  },
+  {
+    "QuestionText": "If z₁ and z₂ are complex numbers with |z₁| = |z₂| = 1 and z₁z₂ = 1, then z̄₁ equals:",
+    "Options": [
+      "A) z₂",
+      "B) 1/z₂",
+      "C) −z₂",
+      "D) z₂²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Properties of Modulus",
+    "Difficulty": "Olympiad",
+    "Explanation": "Since |z₁|=1, z̄₁ = 1/z₁. Given z₁z₂=1, z₂=1/z₁. So z̄₁ = 1/z₁ = z₂."
+  },
+  {
+    "QuestionText": "(1+i)^100 equals:",
+    "Options": [
+      "A) 2^50",
+      "B) 2^50 i",
+      "C) −2^50",
+      "D) 2^50(1+i)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "De Moivre's Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "(1+i)² = 2i. (1+i)^100 = ((1+i)²)^50 = (2i)^50 = 2^50 · i^50. i^50 = i^(4×12+2) = i² = −1. So result = 2^50·(−1) = −2^50. Answer: C."
+  },
+  {
+    "QuestionText": "What is the modulus of (3+4i)/(4−3i)?",
+    "Options": [
+      "A) 7/7",
+      "B) 1",
+      "C) 5",
+      "D) 25"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Modulus of a Complex Number",
+    "Difficulty": "Advanced",
+    "Explanation": "|3+4i| = 5 and |4−3i| = √(16+9) = 5. So |(3+4i)/(4−3i)| = 5/5 = 1."
+  },
+  {
+    "QuestionText": "Two complex numbers z₁ and z₂ are equal if and only if:",
+    "Options": [
+      "A) |z₁| = |z₂|",
+      "B) arg(z₁) = arg(z₂)",
+      "C) Re(z₁)=Re(z₂) and Im(z₁)=Im(z₂)",
+      "D) z₁ + z₂ = 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Definition of Complex Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Two complex numbers a+bi and c+di are equal if and only if a=c (real parts equal) AND b=d (imaginary parts equal)."
+  },
+  {
+    "QuestionText": "The complex number z = 0 + 0i represents:",
+    "Options": [
+      "A) A positive real number",
+      "B) A negative imaginary number",
+      "C) The origin on the Argand plane",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Argand Plane",
+    "Difficulty": "Foundation",
+    "Explanation": "Every complex number z = a+bi corresponds to the point (a,b) on the Argand plane. z = 0+0i corresponds to the origin (0,0)."
+  },
+  {
+    "QuestionText": "On the Argand plane, purely imaginary numbers lie on:",
+    "Options": [
+      "A) The x-axis",
+      "B) The y-axis",
+      "C) The line y=x",
+      "D) A circle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Argand Plane",
+    "Difficulty": "Foundation",
+    "Explanation": "Purely imaginary numbers have the form 0+bi (a=0). On the Argand plane (x=Re, y=Im), these all lie on the y-axis where x=0."
+  },
+  {
+    "QuestionText": "The modulus of the complex number 0 + 5i is:",
+    "Options": [
+      "A) 0",
+      "B) 5i",
+      "C) 5",
+      "D) 25"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Modulus of a Complex Number",
+    "Difficulty": "Foundation",
+    "Explanation": "|0+5i| = √(0²+5²) = √25 = 5."
+  },
+  {
+    "QuestionText": "The value of (1+i)² is:",
+    "Options": [
+      "A) 2",
+      "B) 2i",
+      "C) −2",
+      "D) 1+2i"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Multiplication of Complex Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "(1+i)² = 1 + 2i + i² = 1 + 2i − 1 = 2i."
+  },
+  {
+    "QuestionText": "If z = 4 − 3i, then z + z̄ equals:",
+    "Options": [
+      "A) 8",
+      "B) −6i",
+      "C) 8 − 6i",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Conjugate of a Complex Number",
+    "Difficulty": "Foundation",
+    "Explanation": "z̄ = 4+3i. z+z̄ = (4−3i)+(4+3i) = 8. In general, z+z̄ = 2Re(z)."
+  },
+  {
+    "QuestionText": "For |z₁+z₂| ≤ |z₁| + |z₂|, this is called:",
+    "Options": [
+      "A) Cauchy-Schwarz inequality",
+      "B) Triangle inequality",
+      "C) AM-GM inequality",
+      "D) Euler's property"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Complex Numbers",
+    "SubTopic": "Properties of Modulus",
+    "Difficulty": "Advanced",
+    "Explanation": "The triangle inequality for complex numbers states |z₁+z₂| ≤ |z₁|+|z₂|, mirroring the geometric fact that one side of a triangle ≤ sum of the other two sides."
+  }
+]

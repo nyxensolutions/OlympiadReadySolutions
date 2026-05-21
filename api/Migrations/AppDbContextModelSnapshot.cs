@@ -207,6 +207,9 @@ namespace OlympiadReady.Api.Migrations
                     b.Property<int>("Grade")
                         .HasColumnType("int");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("OptionsJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

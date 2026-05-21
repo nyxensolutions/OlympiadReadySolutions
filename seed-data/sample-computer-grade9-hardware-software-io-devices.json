@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "RAM stands for:",
+    "Options": [
+      "A) Read Access Memory",
+      "B) Random Access Memory",
+      "C) Rapid Application Memory",
+      "D) Read All Memory"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "RAM: Random Access Memory. Primary storage \u2014 holds data/programs currently in use. Volatile (data lost when power off). Faster than hard disk. More RAM = better multitasking."
+  },
+  {
+    "QuestionText": "ROM stands for:",
+    "Options": [
+      "A) Read Only Memory",
+      "B) Random Operation Memory",
+      "C) Read Output Memory",
+      "D) Rapid Output Mode"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "ROM: Read Only Memory. Non-volatile \u2014 retains data without power. Contains BIOS/firmware. Cannot normally be changed by user. EPROM/EEPROM can be erased/reprogrammed."
+  },
+  {
+    "QuestionText": "Which of these is an output device?",
+    "Options": [
+      "A) Keyboard",
+      "B) Scanner",
+      "C) Monitor",
+      "D) Mouse"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Output devices: monitor, printer, speakers, headphones, projector. Input devices: keyboard, mouse, scanner, microphone, webcam. Both: touchscreen, modem."
+  },
+  {
+    "QuestionText": "Which is an input device?",
+    "Options": [
+      "A) Monitor",
+      "B) Printer",
+      "C) Speaker",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Scanner: input device. Converts physical documents/images to digital format. Input: keyboard, mouse, scanner, mic, webcam, joystick. Output: monitor, printer, speaker, projector."
+  },
+  {
+    "QuestionText": "The CPU is responsible for:",
+    "Options": [
+      "A) Storing data permanently",
+      "B) Processing instructions and calculations",
+      "C) Displaying output",
+      "D) Connecting to internet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "CPU (Central Processing Unit): the brain of the computer. Executes instructions, performs arithmetic and logical operations. Contains ALU (calculations), CU (control), registers."
+  },
+  {
+    "QuestionText": "Hard disk drive (HDD) is a type of:",
+    "Options": [
+      "A) Primary (volatile) memory",
+      "B) Secondary (non-volatile) storage",
+      "C) Input device",
+      "D) Output device"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "HDD: secondary storage. Non-volatile (data persists without power). Stores OS, applications, user data permanently. Slower than RAM but much larger capacity and cheaper."
+  },
+  {
+    "QuestionText": "SSD stands for:",
+    "Options": [
+      "A) Solid State Drive",
+      "B) Secondary Storage Disk",
+      "C) Super Speed Drive",
+      "D) Stored State Drive"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "SSD: Solid State Drive. Uses flash memory (no moving parts). Faster, more durable, quieter, lighter than HDD. More expensive per GB. No mechanical failure from drops."
+  },
+  {
+    "QuestionText": "1 GB (gigabyte) equals:",
+    "Options": [
+      "A) 1000 MB",
+      "B) 1024 MB",
+      "C) 1000 KB",
+      "D) 512 MB"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "1 GB = 1024 MB = 1,048,576 KB = 1,073,741,824 bytes. Storage industry uses 1 GB = 1000 MB (SI), but computing traditionally uses 1024. 1 TB = 1024 GB."
+  },
+  {
+    "QuestionText": "The motherboard is:",
+    "Options": [
+      "A) A type of hard disk",
+      "B) Main circuit board connecting all components",
+      "C) A type of RAM",
+      "D) An output device"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "Motherboard: main PCB (Printed Circuit Board). Houses CPU, RAM slots, expansion slots, connectors, BIOS chip. Everything connects to motherboard."
+  },
+  {
+    "QuestionText": "A 'printer' is which type of device?",
+    "Options": [
+      "A) Input",
+      "B) Storage",
+      "C) Output",
+      "D) Processing"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Printer: output device \u2014 converts digital information to physical printed form. Types: inkjet, laser, dot-matrix, 3D printer. Output: monitor, printer, speaker, plotter."
+  },
+  {
+    "QuestionText": "Optical storage devices include:",
+    "Options": [
+      "A) USB flash drives",
+      "B) Hard disks",
+      "C) CD, DVD, Blu-ray discs",
+      "D) SD cards"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Optical storage: uses laser to read/write. CD (700 MB), DVD (4.7-8.5 GB), Blu-ray (25-50 GB). Magnetic storage: HDD. Flash/semiconductor: SSD, USB drives, SD cards."
+  },
+  {
+    "QuestionText": "A 'touchscreen' is which type of device?",
+    "Options": [
+      "A) Input only",
+      "B) Output only",
+      "C) Both input and output",
+      "D) Storage"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Touchscreen: both input (detects touch) and output (displays images). Used in smartphones, tablets, ATMs, kiosks. Other both I/O: modem, network card, headset."
+  },
+  {
+    "QuestionText": "Cache memory is:",
+    "Options": [
+      "A) Slower than RAM",
+      "B) Faster than RAM, used by CPU to store frequently accessed data",
+      "C) Same speed as RAM",
+      "D) Type of secondary storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Cache: ultra-fast memory between CPU and RAM. L1 (fastest, smallest, inside CPU core), L2, L3. Stores frequently used data to reduce CPU-RAM access time. Most expensive memory."
+  },
+  {
+    "QuestionText": "Input devices provide data to the computer. Which is NOT an input device?",
+    "Options": [
+      "A) Barcode scanner",
+      "B) Webcam",
+      "C) Plotter",
+      "D) Microphone"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Plotter: output device (draws vector graphics, technical diagrams). Input devices: barcode scanner, webcam, microphone, keyboard, mouse, joystick, fingerprint sensor."
+  },
+  {
+    "QuestionText": "System software includes:",
+    "Options": [
+      "A) Games, office apps",
+      "B) OS, device drivers, utilities",
+      "C) Web browsers, media players",
+      "D) Only the OS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Software",
+    "Difficulty": "Foundation",
+    "Explanation": "System software: manages hardware, provides platform for applications. OS, device drivers, utilities (disk cleanup, antivirus), programming tools. Application software: MS Office, Chrome, games."
+  },
+  {
+    "QuestionText": "Application software is:",
+    "Options": [
+      "A) Software that manages hardware",
+      "B) Programs designed for specific user tasks (Word processor, games, browsers)",
+      "C) Only the OS",
+      "D) Device drivers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Software",
+    "Difficulty": "Foundation",
+    "Explanation": "Application (app) software: programs for specific user tasks. Examples: MS Word, Chrome, Photoshop, games, Tally, email clients. Runs on top of system software."
+  },
+  {
+    "QuestionText": "The function of an ALU (Arithmetic Logic Unit) in CPU:",
+    "Options": [
+      "A) Stores data",
+      "B) Performs arithmetic and logical operations",
+      "C) Controls data flow",
+      "D) Manages input/output"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "ALU: performs arithmetic (add, subtract, multiply, divide) and logical (AND, OR, NOT, compare) operations. Part of CPU along with Control Unit (CU) and Registers."
+  },
+  {
+    "QuestionText": "Primary memory includes:",
+    "Options": [
+      "A) HDD and SSD",
+      "B) RAM and ROM",
+      "C) DVD and USB",
+      "D) Cache and HDD"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "Primary (main) memory: directly accessible by CPU. RAM (volatile, working memory) + ROM (non-volatile, firmware). Secondary memory: HDD, SSD, DVD, USB (stored permanently, not directly CPU-accessible)."
+  },
+  {
+    "QuestionText": "Volatile memory loses data when:",
+    "Options": [
+      "A) Computer is turned on",
+      "B) Power supply is cut off",
+      "C) CPU is busy",
+      "D) Files are copied"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "Volatile memory (RAM): data lost when power is removed. Non-volatile (ROM, HDD, SSD, USB): data persists without power. This is why you should save your work!"
+  },
+  {
+    "QuestionText": "Which port is most commonly used to connect modern devices like USB drives, keyboards, mice?",
+    "Options": [
+      "A) PS/2",
+      "B) Serial",
+      "C) USB",
+      "D) Parallel"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "USB (Universal Serial Bus): most common connector. USB-A, B, C, Micro, Mini. Hot-pluggable (connect/disconnect without restart). High speed, provides power. Replaced serial, parallel, PS/2 ports."
+  },
+  {
+    "QuestionText": "'Booting' requires the computer to first access:",
+    "Options": [
+      "A) RAM",
+      "B) Hard disk",
+      "C) BIOS/ROM for initial startup",
+      "D) Monitor"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "Boot sequence: Power ON \u2192 BIOS/UEFI (ROM) runs POST \u2192 finds bootable device \u2192 loads bootloader from HDD \u2192 OS loads into RAM. BIOS stored in ROM (non-volatile)."
+  },
+  {
+    "QuestionText": "Inkjet vs laser printer:",
+    "Options": [
+      "A) Inkjet is faster",
+      "B) Laser is generally faster and cheaper per page for volume printing",
+      "C) Inkjet uses toner",
+      "D) They are identical"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Inkjet: uses liquid ink, cheaper to buy, better for photos, slower. Laser: uses toner (powder), faster, cheaper per-page for text, better for office use. Inkjet: liquid ink jets onto paper."
+  },
+  {
+    "QuestionText": "Barcode reader is a type of:",
+    "Options": [
+      "A) Output device",
+      "B) Input device that reads barcodes",
+      "C) Storage device",
+      "D) Processing unit"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Barcode reader: input device using laser/camera to read barcodes (patterns of parallel lines). Used in retail, inventory, libraries. 2D variant: QR code reader."
+  },
+  {
+    "QuestionText": "Bandwidth of memory is measured in:",
+    "Options": [
+      "A) Hz",
+      "B) Bytes per second (GB/s for RAM)",
+      "C) Watts",
+      "D) Pixels"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Memory bandwidth: how fast data can be read from or stored to RAM. Measured in GB/s or MB/s. DDR4 RAM: typically 25-50 GB/s. Higher bandwidth = faster data transfer to CPU."
+  },
+  {
+    "QuestionText": "'Firmware' is:",
+    "Options": [
+      "A) Software that can be easily changed",
+      "B) Permanent software programmed into ROM/flash memory of hardware",
+      "C) A type of virus",
+      "D) Operating system only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Software",
+    "Difficulty": "Advanced",
+    "Explanation": "Firmware: software permanently stored in hardware's ROM or flash memory. BIOS, printer firmware, router firmware. More permanent than software but can sometimes be updated (flashed)."
+  },
+  {
+    "QuestionText": "Which storage has the fastest access speed?",
+    "Options": [
+      "A) Hard Disk Drive (HDD)",
+      "B) Optical disc (DVD)",
+      "C) USB flash drive",
+      "D) SSD (Solid State Drive)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed ranking: RAM > SSD > USB Flash > HDD > Optical. SSD has no moving parts \u2192 much faster than HDD. NVMe SSDs (PCIe) are even faster than SATA SSDs."
+  },
+  {
+    "QuestionText": "HDMI is used for:",
+    "Options": [
+      "A) Network connection",
+      "B) High-definition audio/video output to monitors and TVs",
+      "C) USB connection",
+      "D) Power supply"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "HDMI (High-Definition Multimedia Interface): transmits uncompressed video and audio. Used to connect computers to monitors, TVs, projectors. Single cable for both HD video and audio."
+  },
+  {
+    "QuestionText": "The function of a GPU (Graphics Processing Unit) is:",
+    "Options": [
+      "A) Process all CPU tasks",
+      "B) Handle graphics/video rendering (parallel processing)",
+      "C) Manage network connections",
+      "D) Control input devices"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "GPU: specialised processor for rendering graphics, video, 3D. Has thousands of smaller cores for parallel processing. Also used for AI/machine learning (NVIDIA CUDA). VRAM is GPU memory."
+  },
+  {
+    "QuestionText": "A 'joystick' is used primarily for:",
+    "Options": [
+      "A) Text input",
+      "B) Gaming and aircraft simulation control",
+      "C) Printing",
+      "D) Network connection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Joystick: input device. Controls movement in games, flight simulators, robotic arms. Gamepad/controller: similar but thumb-operated. Mouse: 2D cursor control."
+  },
+  {
+    "QuestionText": "A 'UPS' (Uninterruptible Power Supply) in computing:",
+    "Options": [
+      "A) Is a postal service",
+      "B) Provides battery backup during power cuts",
+      "C) Upgrades processor speed",
+      "D) Manages USB connections"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "UPS: battery backup providing power during electricity cuts. Allows graceful shutdown of computers to prevent data loss. Also conditions power (surge protection)."
+  },
+  {
+    "QuestionText": "'Biometric' input devices use:",
+    "Options": [
+      "A) Keyboard input",
+      "B) Unique physical/behavioural characteristics (fingerprint, retina, face)",
+      "C) Sound waves only",
+      "D) Light sensors only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Biometric devices: identify people by physical traits. Fingerprint scanner, iris scanner, face recognition, voice recognition. Used for authentication/security."
+  },
+  {
+    "QuestionText": "The 'Control Unit' (CU) in CPU:",
+    "Options": [
+      "A) Performs arithmetic",
+      "B) Directs the flow of data between CPU and other components",
+      "C) Stores data permanently",
+      "D) Manages memory"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "CU: coordinates CPU operations, fetches and decodes instructions, controls data flow between ALU, registers, memory, I/O. The 'manager' of CPU operations."
+  },
+  {
+    "QuestionText": "What does 'Plug and Play' mean?",
+    "Options": [
+      "A) Devices need manual setup",
+      "B) OS automatically detects and configures new hardware",
+      "C) Games that plug in",
+      "D) Online gaming"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "Plug and Play: connect device \u2192 OS automatically detects, installs drivers, configures. Most modern hardware is PnP. Previously, hardware needed manual IRQ, DMA settings."
+  },
+  {
+    "QuestionText": "Which is a pointing device?",
+    "Options": [
+      "A) Keyboard",
+      "B) Printer",
+      "C) Mouse",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Pointing devices: mouse, trackball, touchpad, graphics tablet/stylus, joystick. Used to control cursor. Keyboard = keying device. Scanner = imaging input device."
+  },
+  {
+    "QuestionText": "Storage capacity of a Blu-ray disc is approximately:",
+    "Options": [
+      "A) 700 MB",
+      "B) 4.7 GB",
+      "C) 25-50 GB",
+      "D) 1 TB"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Storage: CD \u2248 700 MB. DVD \u2248 4.7 GB (single layer), 8.5 GB (dual). Blu-ray \u2248 25 GB (single layer), 50 GB (dual). Named for blue-violet laser (shorter wavelength = more data)."
+  },
+  {
+    "QuestionText": "'Volatile' and 'non-volatile' describe memory based on:",
+    "Options": [
+      "A) Speed",
+      "B) Whether data is retained without power",
+      "C) Physical size",
+      "D) Price"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "Volatile: needs power to retain data (RAM). Non-volatile: retains data without power (ROM, HDD, SSD, flash). Key distinction for data persistence."
+  },
+  {
+    "QuestionText": "A scanner converts:",
+    "Options": [
+      "A) Digital to physical documents",
+      "B) Physical documents/images to digital format",
+      "C) Sound to text",
+      "D) Video to audio"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Scanner: input device using light/CCD sensors to digitise physical documents, photos, slides. Types: flatbed, document feeder, handheld. OCR software converts scanned text to editable text."
+  },
+  {
+    "QuestionText": "System bus in computers connects:",
+    "Options": [
+      "A) Only CPU to RAM",
+      "B) CPU, memory, and I/O devices (data highway of computer)",
+      "C) Only external devices",
+      "D) Only storage devices"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Advanced",
+    "Explanation": "System bus: communication pathway connecting CPU, memory, and I/O devices. Three types: data bus (carries data), address bus (carries memory addresses), control bus (carries control signals)."
+  },
+  {
+    "QuestionText": "Projector is:",
+    "Options": [
+      "A) Input device",
+      "B) Storage device",
+      "C) Output device",
+      "D) Processing device"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Projector: output device. Projects computer display onto a screen/wall. Used for presentations, classrooms, home theatre. DLP, LCD, LED projector types. Connect via HDMI/VGA."
+  },
+  {
+    "QuestionText": "Flash memory is used in:",
+    "Options": [
+      "A) HDDs",
+      "B) USB drives, SD cards, SSDs",
+      "C) CDs and DVDs",
+      "D) RAM only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Flash memory: non-volatile, solid-state (no moving parts). Used in USB drives, SD cards, SSDs, smartphone storage, camera cards. Electrically erasable and rewritable."
+  },
+  {
+    "QuestionText": "'Pixel' is:",
+    "Options": [
+      "A) A unit of memory",
+      "B) The smallest unit of a digital image/display",
+      "C) A type of printer",
+      "D) A network protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Pixel (picture element): smallest unit of a digital image. Display resolution described by pixels: 1920x1080 (Full HD) = over 2 million pixels. Higher resolution = sharper image."
+  },
+  {
+    "QuestionText": "What is the purpose of a heat sink on a CPU?",
+    "Options": [
+      "A) Generate electricity",
+      "B) Dissipate heat to prevent CPU from overheating",
+      "C) Store data",
+      "D) Connect to internet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "Heat sink: metal component with fins placed on CPU. Absorbs and dissipates heat into surrounding air. Often paired with a fan (CPU cooler). Prevents thermal throttling and damage."
+  },
+  {
+    "QuestionText": "PROM stands for:",
+    "Options": [
+      "A) Professional Read Only Memory",
+      "B) Programmable Read Only Memory",
+      "C) Processed ROM",
+      "D) Primary ROM"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "PROM: Programmable ROM \u2014 can be programmed once after manufacture. EPROM: Erasable (UV light). EEPROM: Electrically Erasable. Flash memory: advanced EEPROM used in modern storage."
+  },
+  {
+    "QuestionText": "'Resolution' of a monitor refers to:",
+    "Options": [
+      "A) Screen brightness",
+      "B) Number of pixels displayed (width \u00d7 height)",
+      "C) Screen size in inches",
+      "D) Refresh rate"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Resolution: number of pixels displayed. 1920x1080 (1080p Full HD). 2560x1440 (1440p/2K). 3840x2160 (4K Ultra HD). Higher resolution = sharper, more detailed image."
+  },
+  {
+    "QuestionText": "A modem connects your home to:",
+    "Options": [
+      "A) Local network only",
+      "B) Your ISP and the internet",
+      "C) Only wireless devices",
+      "D) Only printers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Modem: connects home/office network to ISP. Converts digital signals to/from the medium used by ISP (phone lines, cable, fibre). Many home devices combine modem + router."
+  },
+  {
+    "QuestionText": "Which type of memory is directly accessed by the CPU during processing?",
+    "Options": [
+      "A) Hard disk",
+      "B) DVD",
+      "C) RAM (Random Access Memory)",
+      "D) USB drive"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "CPU directly accesses RAM for active data and programs. Data on HDD/USB must first be loaded into RAM. Cache is even faster (L1/L2/L3) but much smaller than RAM."
+  },
+  {
+    "QuestionText": "Keyboard is which type of device?",
+    "Options": [
+      "A) Output",
+      "B) Storage",
+      "C) Input",
+      "D) Processing"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Keyboard: input device. Sends keystrokes to computer. Types: QWERTY, membrane, mechanical, virtual (touchscreen). Special keys: function keys, modifier keys (Ctrl, Alt, Shift)."
+  },
+  {
+    "QuestionText": "Which storage medium is read-only (cannot be written to by user)?",
+    "Options": [
+      "A) HDD",
+      "B) USB flash drive",
+      "C) CD-ROM/DVD-ROM",
+      "D) SSD"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "CD-ROM/DVD-ROM: Read Only Memory \u2014 data written at factory, cannot be modified by user. CD-R/DVD-R: Write once. CD-RW/DVD-RW: Rewritable (many times)."
+  },
+  {
+    "QuestionText": "'Pixels per inch' (PPI) measures:",
+    "Options": [
+      "A) Printing speed",
+      "B) Display/print resolution density (sharpness)",
+      "C) Memory speed",
+      "D) Processing speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "IO Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "PPI: pixels per inch \u2014 density of pixels. Higher PPI = sharper image. Retina displays: 300+ PPI. Print resolution: DPI (dots per inch). More PPI in same screen size = crisper text and images."
+  },
+  {
+    "QuestionText": "In computing, 'hardware' refers to:",
+    "Options": [
+      "A) Software programs",
+      "B) Physical components of a computer system",
+      "C) Data stored on disk",
+      "D) Network protocols"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - Hardware Software IO Devices",
+    "SubTopic": "Hardware Components",
+    "Difficulty": "Foundation",
+    "Explanation": "Hardware: physical, tangible components. CPU, motherboard, RAM, HDD, monitor, keyboard. Contrast with software (programs, data). Firmware: intermediate \u2014 software embedded in hardware."
+  }
+]

@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "What is a globe?",
+        "Options":  [
+                        "A) A spherical model of the Earth",
+                        "B) A flat map",
+                        "C) A round clock",
+                        "D) A compass"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A globe is a three-dimensional spherical model of Earth, showing the continents, oceans, and countries in their correct shapes and proportions."
+    },
+    {
+        "QuestionText":  "What is a map?",
+        "Options":  [
+                        "A) A flat drawing that represents a part or all of the Earth\u0027s surface",
+                        "B) A three-dimensional model",
+                        "C) A photograph of the Earth",
+                        "D) A globe"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A map is a flat representation of a part or all of the Earth\u0027s surface, drawn on paper or a screen."
+    },
+    {
+        "QuestionText":  "What are the four cardinal directions?",
+        "Options":  [
+                        "A) North, South, East, West",
+                        "B) Up, Down, Left, Right",
+                        "C) Front, Back, Left, Right",
+                        "D) Top, Bottom, East, West"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The four cardinal (main) directions are North, South, East, and West — the fundamental reference directions for navigation."
+    },
+    {
+        "QuestionText":  "The Sun rises in the __?",
+        "Options":  [
+                        "A) East",
+                        "B) West",
+                        "C) North",
+                        "D) South"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Sun rises in the East every morning and sets in the West every evening. This helps us identify directions."
+    },
+    {
+        "QuestionText":  "The Sun sets in the __?",
+        "Options":  [
+                        "A) West",
+                        "B) East",
+                        "C) North",
+                        "D) South"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Sun sets in the West every evening. If you face the setting Sun, West is in front of you, East behind, North to your right, and South to your left."
+    },
+    {
+        "QuestionText":  "If North is in front of you, East is to your __?",
+        "Options":  [
+                        "A) Right",
+                        "B) Left",
+                        "C) Behind",
+                        "D) Below"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "When facing North, East is to your right, West is to your left, and South is behind you."
+    },
+    {
+        "QuestionText":  "What does \u0027N\u0027 stand for on a compass?",
+        "Options":  [
+                        "A) North",
+                        "B) Neutral",
+                        "C) Negative",
+                        "D) Near"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "On a compass, N stands for North — the direction of the geographic North Pole."
+    },
+    {
+        "QuestionText":  "What tool is used to find directions?",
+        "Options":  [
+                        "A) Compass",
+                        "B) Telescope",
+                        "C) Microscope",
+                        "D) Thermometer"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A compass is a navigational tool with a magnetised needle that always points to magnetic North, helping us find directions."
+    },
+    {
+        "QuestionText":  "What colour represents water bodies on a map?",
+        "Options":  [
+                        "A) Blue",
+                        "B) Green",
+                        "C) Brown",
+                        "D) Yellow"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Map Reading",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Blue is used on maps to represent water bodies — oceans, rivers, lakes, and seas."
+    },
+    {
+        "QuestionText":  "What colour represents forests and vegetation on a map?",
+        "Options":  [
+                        "A) Green",
+                        "B) Blue",
+                        "C) Brown",
+                        "D) White"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Map Reading",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Green is used on maps to represent forests, grasslands, plains, and other vegetation."
+    },
+    {
+        "QuestionText":  "What colour represents high mountains and plateaus on a map?",
+        "Options":  [
+                        "A) Brown",
+                        "B) Green",
+                        "C) Blue",
+                        "D) Yellow"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Map Reading",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Brown and dark shades represent high-altitude regions like mountains and plateaus on physical maps."
+    },
+    {
+        "QuestionText":  "What is the \u0027scale\u0027 of a map?",
+        "Options":  [
+                        "A) The ratio between distance on the map and actual distance on the ground",
+                        "B) The size of the map",
+                        "C) The title of the map",
+                        "D) The colour of the map"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Map Reading",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Map scale tells us how much the real world has been reduced. For example, 1 cm on the map = 100 km on the ground."
+    },
+    {
+        "QuestionText":  "What is a map legend (key)?",
+        "Options":  [
+                        "A) A list that explains the symbols and colours used on a map",
+                        "B) The title of the map",
+                        "C) The scale of the map",
+                        "D) The name of the mapmaker"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Map Reading",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The map legend (key) explains what each symbol, colour, or marking on the map represents."
+    },
+    {
+        "QuestionText":  "The Equator is an imaginary line that divides Earth into __ hemispheres.",
+        "Options":  [
+                        "A) Northern and Southern",
+                        "B) Eastern and Western",
+                        "C) Arctic and Antarctic",
+                        "D) Tropical and Polar"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Equator is at 0° latitude and divides Earth into the Northern Hemisphere and the Southern Hemisphere."
+    },
+    {
+        "QuestionText":  "The Prime Meridian is a line of __ that divides Earth into Eastern and Western hemispheres.",
+        "Options":  [
+                        "A) Longitude (0°)",
+                        "B) Latitude (0°)",
+                        "C) Latitude (90°)",
+                        "D) Longitude (180°)"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Prime Meridian (0° longitude) passes through Greenwich, London, and divides Earth into Eastern and Western Hemispheres."
+    },
+    {
+        "QuestionText":  "Lines of latitude are also called __.",
+        "Options":  [
+                        "A) Parallels",
+                        "B) Meridians",
+                        "C) Equators",
+                        "D) Grid lines"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Lines of latitude run horizontally around the Earth, parallel to the Equator. They are called parallels because they never intersect."
+    },
+    {
+        "QuestionText":  "Lines of longitude are also called __.",
+        "Options":  [
+                        "A) Meridians",
+                        "B) Parallels",
+                        "C) Equators",
+                        "D) Tropics"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Lines of longitude run from the North Pole to the South Pole. They are called meridians. The Prime Meridian is 0° longitude."
+    },
+    {
+        "QuestionText":  "What is the North Star (Pole Star) useful for?",
+        "Options":  [
+                        "A) Finding the direction of North at night",
+                        "B) Measuring temperature",
+                        "C) Predicting weather",
+                        "D) Determining the time"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The North Star (Polaris) always appears in the direction of geographic North, making it a reliable navigation reference at night."
+    },
+    {
+        "QuestionText":  "What is a political map?",
+        "Options":  [
+                        "A) A map showing countries, states, capitals, and administrative boundaries",
+                        "B) A map showing physical features",
+                        "C) A map showing climate",
+                        "D) A map showing population"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Types of Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A political map shows human-made boundaries — countries, states, capitals, and major cities."
+    },
+    {
+        "QuestionText":  "What is a physical map?",
+        "Options":  [
+                        "A) A map showing natural features — mountains, rivers, deserts, and plains",
+                        "B) A map showing country borders only",
+                        "C) A map showing roads",
+                        "D) A map showing population"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Types of Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A physical (topographic) map shows natural features of the landscape including mountains, valleys, rivers, plains, and deserts."
+    },
+    {
+        "QuestionText":  "What is an atlas?",
+        "Options":  [
+                        "A) A collection of maps bound together in a book",
+                        "B) A single large map",
+                        "C) A globe",
+                        "D) A compass"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "An atlas is a book containing a collection of maps of countries, continents, and the world, often with additional geographical data."
+    },
+    {
+        "QuestionText":  "What is a Google Map?",
+        "Options":  [
+                        "A) A digital map service by Google for navigation and exploring locations",
+                        "B) A printed road map",
+                        "C) A globe service",
+                        "D) A satellite"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Google Maps is a web and mobile mapping service that provides satellite imagery, street maps, real-time traffic, and navigation directions."
+    },
+    {
+        "QuestionText":  "What are the four intercardinal directions?",
+        "Options":  [
+                        "A) NE, NW, SE, SW",
+                        "B) N, S, E, W",
+                        "C) Up, Down, Left, Right",
+                        "D) NNE, SSW, ENE, WSW"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Intercardinal (ordinal) directions are halfway between the cardinal directions: Northeast (NE), Northwest (NW), Southeast (SE), and Southwest (SW)."
+    },
+    {
+        "QuestionText":  "The Arctic Circle is located at approximately __ latitude.",
+        "Options":  [
+                        "A) 66.5° North",
+                        "B) 23.5° North",
+                        "C) 23.5° South",
+                        "D) 66.5° South"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Arctic Circle is at approximately 66.5° North latitude. Beyond this circle, the Sun does not set on the summer solstice and does not rise on the winter solstice."
+    },
+    {
+        "QuestionText":  "The Antarctic Circle is located at approximately __ latitude.",
+        "Options":  [
+                        "A) 66.5° South",
+                        "B) 23.5° South",
+                        "C) 66.5° North",
+                        "D) 90° South"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Antarctic Circle is at approximately 66.5° South latitude, marking the boundary of the Antarctic polar region."
+    },
+    {
+        "QuestionText":  "Which Indian city is almost on the Tropic of Cancer?",
+        "Options":  [
+                        "A) Bhopal (Madhya Pradesh)",
+                        "B) Mumbai",
+                        "C) Chennai",
+                        "D) Thiruvananthapuram"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Tropic of Cancer (23.5° N) passes through Rajasthan, Gujarat, Madhya Pradesh (near Bhopal), Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram."
+    },
+    {
+        "QuestionText":  "What is GPS (Global Positioning System)?",
+        "Options":  [
+                        "A) A satellite-based navigation system that provides location and time information",
+                        "B) A type of compass",
+                        "C) A paper map system",
+                        "D) A radio navigation system"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "GPS uses a network of satellites to determine the precise location (latitude, longitude, altitude) of a GPS receiver anywhere on Earth."
+    },
+    {
+        "QuestionText":  "What is a topographic map?",
+        "Options":  [
+                        "A) A map showing the elevation and relief of land using contour lines",
+                        "B) A political map",
+                        "C) A weather map",
+                        "D) A road map"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Types of Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A topographic map shows the three-dimensional shape of the land surface using contour lines — lines connecting points of equal elevation."
+    },
+    {
+        "QuestionText":  "What are contour lines on a map?",
+        "Options":  [
+                        "A) Lines connecting points of equal elevation above sea level",
+                        "B) Lines showing roads",
+                        "C) Lines showing rivers",
+                        "D) Lines showing country borders"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Map Reading",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Contour lines on topographic maps connect all points at the same altitude. Closely-spaced contour lines indicate steep slopes; widely-spaced lines indicate gentle slopes."
+    },
+    {
+        "QuestionText":  "What does \u0027latitude 0°\u0027 represent?",
+        "Options":  [
+                        "A) The Equator",
+                        "B) The North Pole",
+                        "C) The South Pole",
+                        "D) The Prime Meridian"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Latitude 0° is the Equator — the imaginary circle equidistant from both poles, dividing Earth into Northern and Southern Hemispheres."
+    },
+    {
+        "QuestionText":  "What does \u0027longitude 180°\u0027 represent?",
+        "Options":  [
+                        "A) The International Date Line",
+                        "B) The Prime Meridian",
+                        "C) The Equator",
+                        "D) The Tropic of Capricorn"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The 180° meridian is the basis for the International Date Line — the line where the calendar date changes. It runs through the Pacific Ocean."
+    },
+    {
+        "QuestionText":  "What is GIS (Geographic Information System)?",
+        "Options":  [
+                        "A) A system for capturing, storing, and analysing geographical data",
+                        "B) A type of GPS",
+                        "C) A paper mapping system",
+                        "D) A satellite service"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "GIS is a computer system for capturing, storing, analysing, and displaying geographical data (maps, satellite images, surveys) to solve real-world problems."
+    },
+    {
+        "QuestionText":  "If you face North and turn 90° clockwise, you face __.",
+        "Options":  [
+                        "A) East",
+                        "B) West",
+                        "C) South",
+                        "D) Northwest"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Turning 90° clockwise from North brings you to East. (N → E → S → W clockwise)."
+    },
+    {
+        "QuestionText":  "A map drawn at scale 1:100,000 means 1 cm on the map equals __ in real life.",
+        "Options":  [
+                        "A) 1 km (100,000 cm)",
+                        "B) 100 m",
+                        "C) 10 km",
+                        "D) 1 m"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Map Reading",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "1:100,000 means every 1 unit on the map represents 100,000 of the same units in reality. Since 100,000 cm = 1 km, 1 cm on the map = 1 km on the ground."
+    },
+    {
+        "QuestionText":  "What is a thematic map?",
+        "Options":  [
+                        "A) A map that shows a specific theme — population, climate, agriculture, or minerals",
+                        "B) A physical map",
+                        "C) A political map",
+                        "D) A road map only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Types of Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A thematic map focuses on a specific geographic theme — for example, a rainfall map, population density map, or land-use map."
+    },
+    {
+        "QuestionText":  "What is \u0027remote sensing\u0027 in geography?",
+        "Options":  [
+                        "A) Collecting information about Earth\u0027s surface from satellites or aircraft without direct contact",
+                        "B) Sending people to remote areas",
+                        "C) A survey conducted on the ground",
+                        "D) A type of compass"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Remote sensing uses satellites and aircraft to collect data (images, radar, infrared) about Earth\u0027s surface — used for weather forecasting, disaster management, and mapmaking."
+    },
+    {
+        "QuestionText":  "The Tropic of Capricorn is at __.",
+        "Options":  [
+                        "A) 23.5° South latitude",
+                        "B) 23.5° North latitude",
+                        "C) 66.5° South",
+                        "D) 0° latitude"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Tropic of Capricorn is at 23.5° South latitude. The Sun is directly overhead here on the December solstice (summer in the Southern Hemisphere)."
+    },
+    {
+        "QuestionText":  "What is a compass rose?",
+        "Options":  [
+                        "A) A diagram on a map showing the cardinal and intercardinal directions",
+                        "B) A type of flower",
+                        "C) A compass pointer",
+                        "D) A circle on the Equator"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A compass rose is the decorative star-shaped diagram on maps showing all 8 or 16 directions (N, NE, E, SE, S, SW, W, NW)."
+    },
+    {
+        "QuestionText":  "Which city is the closest to the Prime Meridian (0° longitude) in the world?",
+        "Options":  [
+                        "A) London (Greenwich), UK",
+                        "B) Paris, France",
+                        "C) Madrid, Spain",
+                        "D) Accra, Ghana"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Prime Meridian (0°) passes through the Royal Observatory in Greenwich, London. Several other cities (Accra, Ghana; Madrid, Spain) also lie near it."
+    },
+    {
+        "QuestionText":  "What is a sketch map?",
+        "Options":  [
+                        "A) A rough, free-hand map drawn to show directions and major landmarks",
+                        "B) An artistic painting",
+                        "C) A satellite image",
+                        "D) A topographic map"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A sketch map is a simple, hand-drawn map (not to scale) used to show the general layout of an area, key landmarks, and routes."
+    },
+    {
+        "QuestionText":  "What is meant by \u0027true north\u0027 vs \u0027magnetic north\u0027?",
+        "Options":  [
+                        "A) True north is the geographic North Pole; magnetic north is where a compass needle points",
+                        "B) They are the same",
+                        "C) True north is a compass reading",
+                        "D) Magnetic north is the geographic pole"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "True North is the direction of the geographic North Pole. Magnetic North is where a compass needle points — slightly different due to Earth\u0027s magnetic field."
+    },
+    {
+        "QuestionText":  "Why is the globe a better representation of the Earth than a flat map?",
+        "Options":  [
+                        "A) A globe maintains accurate shapes, areas, distances, and directions — flat maps distort",
+                        "B) Maps are cheaper",
+                        "C) Maps are more colourful",
+                        "D) Globes are difficult to use"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A globe accurately represents the spherical Earth — shapes, sizes, and distances are correct. Flat maps always have some distortion because they project a 3D surface onto 2D."
+    },
+    {
+        "QuestionText":  "What is the International Date Line?",
+        "Options":  [
+                        "A) The 180° meridian line where the date changes by one day",
+                        "B) The Equator",
+                        "C) The Prime Meridian",
+                        "D) The Tropic of Cancer"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The International Date Line roughly follows the 180° meridian in the Pacific Ocean. Crossing it from west to east, you subtract one day; east to west, you add one day."
+    },
+    {
+        "QuestionText":  "What is a weather map?",
+        "Options":  [
+                        "A) A map showing weather conditions — temperature, rainfall, wind direction, and pressure",
+                        "B) A political map",
+                        "C) A topographic map",
+                        "D) A road map"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Types of Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A weather map (synoptic chart) shows current or forecast weather conditions — temperature zones, rainfall areas, wind patterns, and pressure systems."
+    },
+    {
+        "QuestionText":  "If you stand facing East, which direction is behind you?",
+        "Options":  [
+                        "A) West",
+                        "B) North",
+                        "C) South",
+                        "D) Northeast"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Directions",
+        "Difficulty":  "Foundation",
+        "Explanation":  "If you face East, North is to your left, South to your right, and West is directly behind you."
+    },
+    {
+        "QuestionText":  "Which continent is located entirely in the Southern Hemisphere?",
+        "Options":  [
+                        "A) Australia (Oceania)",
+                        "B) Africa",
+                        "C) South America",
+                        "D) Asia"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Australia is the only continent located entirely within the Southern Hemisphere. Antarctica is also entirely in the Southern Hemisphere."
+    },
+    {
+        "QuestionText":  "A navigational chart used by sailors is called?",
+        "Options":  [
+                        "A) Nautical chart",
+                        "B) Topographic map",
+                        "C) Political map",
+                        "D) Weather chart"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Maps and Directions",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A nautical chart is a map designed for navigation at sea. It shows water depth, coastlines, harbours, hazards, and navigational aids."
+    },
+    {
+        "QuestionText":  "What are time zones?",
+        "Options":  [
+                        "A) Regions of Earth that observe the same standard time, based on longitude",
+                        "B) Types of clocks",
+                        "C) Types of maps",
+                        "D) Calendar zones"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Earth is divided into 24 time zones (one per hour of the day), each 15° of longitude wide. India has one time zone: IST (UTC+5:30)."
+    },
+    {
+        "QuestionText":  "India\u0027s standard time (IST) is based on the longitude passing through which city?",
+        "Options":  [
+                        "A) Mirzapur / Allahabad (82.5° E)",
+                        "B) Delhi",
+                        "C) Mumbai",
+                        "D) Kolkata"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "IST (Indian Standard Time) is UTC+5:30, based on the 82.5° East meridian that passes through Mirzapur (near Allahabad/Prayagraj) in Uttar Pradesh."
+    },
+    {
+        "QuestionText":  "What does \u0027hemispheres\u0027 mean?",
+        "Options":  [
+                        "A) Half spheres — Earth is divided into two halves by the Equator and the Prime Meridian",
+                        "B) Types of circles",
+                        "C) Types of globes",
+                        "D) Parts of a map"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Globe and Maps",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027Hemi\u0027 means half and \u0027sphere\u0027 means ball. Earth\u0027s hemispheres are the Northern, Southern (divided by the Equator) and Eastern, Western (divided by the Prime Meridian)."
+    }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "If 6 workers can do a job in 4 days, how many days will 8 workers take?",
+    "Options": [
+      "A) 2 days",
+      "B) 3 days",
+      "C) 4 days",
+      "D) 6 days"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "More workers → fewer days (inverse proportion). 6×4 = 8×d. d = 24/8 = 3 days."
+  },
+  {
+    "QuestionText": "A car travels 120 km in 3 hours. How far will it travel in 5 hours at the same speed?",
+    "Options": [
+      "A) 150 km",
+      "B) 180 km",
+      "C) 200 km",
+      "D) 240 km"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Distance and time are in direct proportion (constant speed). 120/3 = d/5. d = 200 km."
+  },
+  {
+    "QuestionText": "In a direct proportion, if x increases then y:",
+    "Options": [
+      "A) Decreases",
+      "B) Increases",
+      "C) Remains same",
+      "D) Becomes zero"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "In direct proportion, x/y = k (constant). If x increases, y must also increase to keep the ratio constant."
+  },
+  {
+    "QuestionText": "If 15 workers can build a wall in 48 hours, how many workers are needed to complete it in 30 hours?",
+    "Options": [
+      "A) 20",
+      "B) 24",
+      "C) 30",
+      "D) 36"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Workers×Hours = constant (inverse proportion). 15×48 = W×30. W = 720/30 = 24 workers."
+  },
+  {
+    "QuestionText": "The cost of 7 notebooks is ₹91. What is the cost of 11 notebooks?",
+    "Options": [
+      "A) ₹121",
+      "B) ₹133",
+      "C) ₹143",
+      "D) ₹154"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Cost and number of notebooks are in direct proportion. 91/7 = C/11. C = 91×11/7 = 13×11 = ₹143."
+  },
+  {
+    "QuestionText": "Unitary method: If 3/5 of a tank is filled in 15 minutes, how long to fill the full tank?",
+    "Options": [
+      "A) 9 min",
+      "B) 20 min",
+      "C) 25 min",
+      "D) 30 min"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "3/5 filled in 15 min. 1 full tank takes 15 ÷ (3/5) = 15 × 5/3 = 25 minutes."
+  },
+  {
+    "QuestionText": "A and B can do a work in 12 and 16 days respectively. In how many days can they do it working together?",
+    "Options": [
+      "A) 6 days",
+      "B) 6.857 days",
+      "C) 7 days",
+      "D) 8 days"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Application of Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "A's 1-day work = 1/12. B's 1-day work = 1/16. Together = 1/12+1/16 = 4/48+3/48 = 7/48. Days = 48/7 ≈ 6.857 days."
+  },
+  {
+    "QuestionText": "If a map has scale 1:50000, and two cities are 4 cm apart on the map, what is the actual distance?",
+    "Options": [
+      "A) 1 km",
+      "B) 2 km",
+      "C) 4 km",
+      "D) 5 km"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion - Scale",
+    "Difficulty": "Foundation",
+    "Explanation": "Actual distance = map distance × scale = 4 × 50000 = 200000 cm = 2000 m = 2 km."
+  },
+  {
+    "QuestionText": "If x and y are inversely proportional and x = 15 when y = 8, find y when x = 6.",
+    "Options": [
+      "A) 15",
+      "B) 18",
+      "C) 20",
+      "D) 25"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "xy = constant = 15×8 = 120. When x=6: y = 120/6 = 20."
+  },
+  {
+    "QuestionText": "12 pipes can fill a swimming pool in 4 hours. If 4 pipes are closed, how long will the remaining pipes take?",
+    "Options": [
+      "A) 4 hours",
+      "B) 5 hours",
+      "C) 6 hours",
+      "D) 8 hours"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "Remaining pipes = 12-4 = 8. Inverse proportion: 12×4 = 8×T. T = 48/8 = 6 hours."
+  },
+  {
+    "QuestionText": "A garrison of 900 men has food for 45 days. After 10 days, 300 men leave. For how many more days will the food last?",
+    "Options": [
+      "A) 52.5 days",
+      "B) 50 days",
+      "C) 45 days",
+      "D) 35 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "After 10 days: food left = (45-10)×900 = 35×900 man-days = 31500 man-days. Remaining men = 600. Days = 31500/600 = 52.5 days."
+  },
+  {
+    "QuestionText": "If 8 men can do a piece of work in 10 days working 6 hours/day, how long will 6 men working 8 hours/day take?",
+    "Options": [
+      "A) 10 days",
+      "B) 12 days",
+      "C) 8 days",
+      "D) 15 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Compound Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "Total work = 8×10×6 = 480 man-hours. Time for 6 men at 8 hr/day = 480/(6×8) = 480/48 = 10 days."
+  },
+  {
+    "QuestionText": "The weight of a metal rod is directly proportional to its length. A 35 cm rod weighs 525 g. What is the weight of a 50 cm rod?",
+    "Options": [
+      "A) 700 g",
+      "B) 750 g",
+      "C) 800 g",
+      "D) 850 g"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "525/35 = W/50. W = 525×50/35 = 15×50 = 750 g."
+  },
+  {
+    "QuestionText": "A train takes 3 hours to travel from city A to B at 80 km/h. What speed is needed to cover the same distance in 2 hours?",
+    "Options": [
+      "A) 100 km/h",
+      "B) 110 km/h",
+      "C) 120 km/h",
+      "D) 160 km/h"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "Distance = 80×3 = 240 km. Speed needed = 240/2 = 120 km/h. Speed and time are inversely proportional."
+  },
+  {
+    "QuestionText": "If the ratio x:y = 3:4, find x:y when both x is increased by 20% and y is decreased by 20%.",
+    "Options": [
+      "A) 9:8",
+      "B) 3:4",
+      "C) 18:16",
+      "D) 4:3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Ratios and Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "New x = 3×1.2 = 3.6. New y = 4×0.8 = 3.2. Ratio = 3.6:3.2 = 36:32 = 9:8."
+  },
+  {
+    "QuestionText": "In a school, the ratio of boys to girls is 7:5. If there are 360 students, how many boys are there?",
+    "Options": [
+      "A) 150",
+      "B) 180",
+      "C) 210",
+      "D) 240"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion - Ratios",
+    "Difficulty": "Advanced",
+    "Explanation": "Boys = (7/12)×360 = 7×30 = 210."
+  },
+  {
+    "QuestionText": "20 workers complete a road in 30 days. Work starts with 20 workers, but after 10 days 5 more join. How many days to finish from start?",
+    "Options": [
+      "A) 26",
+      "B) 27",
+      "C) 28",
+      "D) 30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "Total work = 20×30 = 600 man-days. Done in first 10 days = 20×10 = 200 man-days. Remaining = 400 man-days. With 25 workers: 400/25 = 16 days. Total = 10+16 = 26 days."
+  },
+  {
+    "QuestionText": "If 1 man or 2 women or 3 boys can do a work in 88 days. How long will 1 man, 1 woman, and 1 boy together take?",
+    "Options": [
+      "A) 48 days",
+      "B) 44 days",
+      "C) 36 days",
+      "D) 24 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Application of Inverse Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "1 man's 1-day work = 1/88. 1 woman's = 1/176. 1 boy's = 1/264. Together = 1/88+1/176+1/264. LCM(88,176,264)=528. = 6/528+3/528+2/528 = 11/528 = 1/48. Days = 48."
+  },
+  {
+    "QuestionText": "A, B, and C can complete work in 10, 12, 15 days. A and B work for 3 days, then C joins. In how many more days is the work completed?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Application of Inverse Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "A+B's 1-day = 1/10+1/12 = 6/60+5/60 = 11/60. In 3 days: 33/60 = 11/20. Remaining = 1-11/20 = 9/20. A+B+C together = 11/60+1/15 = 11/60+4/60 = 15/60 = 1/4. Days to finish = (9/20)/(1/4) = 9/20×4 = 36/20 = 1.8 ≈ 2 days. Closest answer is A) 2 days. Wait: let me try option B=3: 3×(1/4)=3/4. But remaining was 9/20=0.45, and 3×0.25=0.75>0.45. So 1.8 days. Answer: A."
+  },
+  {
+    "QuestionText": "A mixture of 40 litres contains milk and water in ratio 3:1. How much water must be added to make ratio 1:1?",
+    "Options": [
+      "A) 10 L",
+      "B) 15 L",
+      "C) 20 L",
+      "D) 25 L"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Ratio and Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Milk = (3/4)×40 = 30 L. Water = 10 L. For 1:1 ratio, water must equal milk. Need 30-10 = 20 L more water."
+  },
+  {
+    "QuestionText": "If a:b = 2:3, b:c = 4:5, c:d = 6:7, find a:d.",
+    "Options": [
+      "A) 16:35",
+      "B) 48:105",
+      "C) 24:35",
+      "D) 48:70"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Compound Ratios",
+    "Difficulty": "Olympiad",
+    "Explanation": "a:b:c:d — multiply ratios: a/d = (a/b)×(b/c)×(c/d) = (2/3)×(4/5)×(6/7) = 48/105 = 16/35. So a:d = 16:35."
+  },
+  {
+    "QuestionText": "The ratio of speeds of two trains is 3:5. Train 1 covers 360 km. What distance does train 2 cover in the same time?",
+    "Options": [
+      "A) 500 km",
+      "B) 540 km",
+      "C) 600 km",
+      "D) 650 km"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Speed and distance are directly proportional at same time. Distance ratio = speed ratio = 3:5. Train 2's distance = 360×(5/3) = 600 km."
+  },
+  {
+    "QuestionText": "Statement 1: If x and y vary inversely and z and y vary directly, then x and z vary inversely. Statement 2: y = kx (direct) and y = k/z (inverse) gives xz = k²/k = constant. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Compound Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1: x∝1/y and y∝z → x∝1/(kz) → x∝1/z → x and z are inversely proportional. TRUE. Statement 2: y=k₁x and y=k₂/z. So k₁x=k₂/z → xz=k₂/k₁ = constant → x and z inversely proportional. TRUE."
+  },
+  {
+    "QuestionText": "A factory produces 480 widgets in 8 hours with 6 machines. How many widgets will 10 machines produce in 12 hours?",
+    "Options": [
+      "A) 1000",
+      "B) 1100",
+      "C) 1200",
+      "D) 1440"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Compound Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Production ∝ machines × hours. 480 = k×6×8 = 48k → k=10 (widgets per machine per hour). New production = 10×10×12 = 1200 widgets."
+  },
+  {
+    "QuestionText": "If 8 workers can build a wall in 10 days, 4 workers will take:",
+    "Options": [
+      "A) 20 days",
+      "B) 5 days",
+      "C) 15 days",
+      "D) 40 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Inverse proportion: workers x days = constant. 8x10=4xD -> D=20 days."
+  },
+  {
+    "QuestionText": "A car travels 150 km in 3 hours. At same speed, distance covered in 5 hours is:",
+    "Options": [
+      "A) 250 km",
+      "B) 200 km",
+      "C) 300 km",
+      "D) 225 km"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Direct proportion: 150/3=x/5 -> x=250 km."
+  },
+  {
+    "QuestionText": "If 12 pipes fill a tank in 6 hours, 8 pipes will fill it in:",
+    "Options": [
+      "A) 9 hours",
+      "B) 4 hours",
+      "C) 12 hours",
+      "D) 6 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "12x6=8xT -> T=72/8=9 hours."
+  },
+  {
+    "QuestionText": "The cost of 15 metres of cloth is Rs 600. Cost of 25 metres is:",
+    "Options": [
+      "A) Rs 1000",
+      "B) Rs 900",
+      "C) Rs 800",
+      "D) Rs 1200"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "15/600=25/x -> x=25*600/15=Rs 1000."
+  },
+  {
+    "QuestionText": "20 men can complete a job in 15 days. How many men are needed to complete it in 12 days?",
+    "Options": [
+      "A) 25",
+      "B) 24",
+      "C) 30",
+      "D) 16"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "20x15=Mx12 -> M=300/12=25 men."
+  },
+  {
+    "QuestionText": "A train covers 400 km in 4 hours. How long to cover 1000 km at same speed?",
+    "Options": [
+      "A) 10 hours",
+      "B) 8 hours",
+      "C) 12 hours",
+      "D) 5 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "400/4=1000/T -> T=10 hours."
+  },
+  {
+    "QuestionText": "Unitary Method: If 7 notebooks cost Rs 84, find cost of 13 notebooks.",
+    "Options": [
+      "A) Rs 156",
+      "B) Rs 148",
+      "C) Rs 160",
+      "D) Rs 168"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Cost of 1=84/7=12. Cost of 13=13*12=Rs 156."
+  },
+  {
+    "QuestionText": "A machine produces 450 items in 15 hours. Items produced in 8 hours:",
+    "Options": [
+      "A) 240",
+      "B) 200",
+      "C) 300",
+      "D) 270"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "450/15=x/8 -> x=30*8=240."
+  },
+  {
+    "QuestionText": "A garrison of 500 soldiers has rations for 30 days. If 100 more soldiers join, rations last:",
+    "Options": [
+      "A) 25 days",
+      "B) 20 days",
+      "C) 24 days",
+      "D) 28 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "500x30=600xD -> D=15000/600=25 days."
+  },
+  {
+    "QuestionText": "In which of the following situations is the proportion DIRECT?",
+    "Options": [
+      "A) Distance covered and time taken at constant speed",
+      "B) Number of workers and time to complete a fixed job",
+      "C) Speed and time to travel fixed distance",
+      "D) Price per unit and number of units purchased for fixed budget"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Direct: distance = speed x time; if speed constant, d proportional to t. Inverse: more workers = less time. B, C, D are inverse proportion situations."
+  },
+  {
+    "QuestionText": "A pump empties a tank in 8 hours. How many pumps of same capacity to empty it in 2 hours?",
+    "Options": [
+      "A) 4",
+      "B) 3",
+      "C) 6",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "1 pump x 8 hours = N pumps x 2 hours -> N=4."
+  },
+  {
+    "QuestionText": "If x and y are directly proportional and y=35 when x=7, find y when x=12.",
+    "Options": [
+      "A) 60",
+      "B) 55",
+      "C) 65",
+      "D) 70"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "k=y/x=35/7=5. y=kx=5*12=60."
+  },
+  {
+    "QuestionText": "If x and y are inversely proportional and xy=120, find y when x=15.",
+    "Options": [
+      "A) 8",
+      "B) 10",
+      "C) 6",
+      "D) 12"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "xy=120. When x=15: y=120/15=8."
+  },
+  {
+    "QuestionText": "A car covers 60 km on 5 litres of fuel. Fuel needed for 240 km:",
+    "Options": [
+      "A) 20 litres",
+      "B) 16 litres",
+      "C) 24 litres",
+      "D) 12 litres"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "60/5=240/x -> x=240*5/60=20 litres."
+  },
+  {
+    "QuestionText": "6 taps fill a cistern in 4 hours. 3 taps will fill it in:",
+    "Options": [
+      "A) 8 hours",
+      "B) 2 hours",
+      "C) 6 hours",
+      "D) 12 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Inverse: 6x4=3xT -> T=8 hours."
+  },
+  {
+    "QuestionText": "The graph of direct proportion is:",
+    "Options": [
+      "A) A straight line through the origin",
+      "B) A curve",
+      "C) A horizontal line",
+      "D) A vertical line"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "y=kx is a straight line through origin (0,0) with slope k. Inverse proportion (y=k/x) is a hyperbola."
+  },
+  {
+    "QuestionText": "A sum of Rs 6000 earns Rs 900 interest in 1 year. Interest on Rs 10000 in same time (same rate):",
+    "Options": [
+      "A) Rs 1500",
+      "B) Rs 1200",
+      "C) Rs 1800",
+      "D) Rs 2000"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Interest directly proportional to principal. 6000->900, 10000->x. x=900*10000/6000=1500."
+  },
+  {
+    "QuestionText": "If 500 grams of rice costs Rs 25, the cost of 3.5 kg is:",
+    "Options": [
+      "A) Rs 175",
+      "B) Rs 150",
+      "C) Rs 200",
+      "D) Rs 125"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "3.5 kg=3500g. Cost=25*(3500/500)=25*7=Rs 175."
+  },
+  {
+    "QuestionText": "A school has food for 600 students for 20 days. If 200 more students join, food lasts:",
+    "Options": [
+      "A) 15 days",
+      "B) 12 days",
+      "C) 10 days",
+      "D) 18 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Advanced",
+    "Explanation": "600*20=800*D -> D=12000/800=15 days."
+  },
+  {
+    "QuestionText": "Assertion: In inverse proportion, as one quantity increases the other decreases such that their product remains constant. Reason: If xy=k (constant), then increasing x necessarily decreases y. Which is correct?",
+    "Options": [
+      "A) Both true and Reason correctly explains",
+      "B) Assertion false",
+      "C) Both false",
+      "D) Assertion true; Reason false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. Inverse proportion: xy=k. If x increases, y=k/x decreases. The Reason gives the mathematical explanation."
+  },
+  {
+    "QuestionText": "A contractor employs 20 workers and completes a road in 60 days. How many workers to complete in 40 days?",
+    "Options": [
+      "A) 30",
+      "B) 25",
+      "C) 35",
+      "D) 40"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "20*60=W*40 -> W=1200/40=30 workers."
+  },
+  {
+    "QuestionText": "The constant of proportionality k in y=kx is found by:",
+    "Options": [
+      "A) k=y/x",
+      "B) k=x/y",
+      "C) k=x*y",
+      "D) k=x+y"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "In direct proportion y=kx, k=y/x = constant for all corresponding values of x and y."
+  },
+  {
+    "QuestionText": "24 workers can dig a well in 12 days working 8 hours a day. How many days if 16 workers work 9 hours a day?",
+    "Options": [
+      "A) 16 days",
+      "B) 18 days",
+      "C) 20 days",
+      "D) 14 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total work=24*12*8=2304 worker-hours. 2304=16*D*9=144D -> D=16 days."
+  },
+  {
+    "QuestionText": "A photograph of a building is 5 cm wide. If actual width is 15 m, scale is 1:?",
+    "Options": [
+      "A) 300",
+      "B) 3000",
+      "C) 150",
+      "D) 30"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "5 cm represents 15 m = 1500 cm. Scale=1:300."
+  },
+  {
+    "QuestionText": "If 15 men can reap a field in 28 days, in how many days can 20 men reap the same field?",
+    "Options": [
+      "A) 21 days",
+      "B) 18 days",
+      "C) 25 days",
+      "D) 24 days"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Inverse Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "15*28=20*D -> D=420/20=21 days."
+  },
+  {
+    "QuestionText": "At constant speed, time taken is directly proportional to distance. If 60 km takes 1 hour, 180 km takes:",
+    "Options": [
+      "A) 3 hours",
+      "B) 2 hours",
+      "C) 4 hours",
+      "D) 1.5 hours"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Direct and Inverse Proportion",
+    "SubTopic": "Direct Proportion",
+    "Difficulty": "Foundation",
+    "Explanation": "Direct proportion: 60/1=180/T -> T=3 hours."
+  }
+]

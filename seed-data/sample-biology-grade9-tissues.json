@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A tissue is defined as:",
+    "Options": [
+      "A) A single cell",
+      "B) A group of similar cells performing a common function",
+      "C) A group of organs",
+      "D) The entire organism"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Tissue: group of similar cells working together to perform a specific function. E.g., muscle tissue (contraction), nerve tissue (conduction)."
+  },
+  {
+    "QuestionText": "Plant tissues are broadly classified as:",
+    "Options": [
+      "A) Epithelial and connective",
+      "B) Meristematic and permanent",
+      "C) Muscular and nervous",
+      "D) Skeletal and smooth"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Plant tissues: meristematic (dividing cells, growth) and permanent (non-dividing, specialized functions)."
+  },
+  {
+    "QuestionText": "Meristematic tissue is characterized by:",
+    "Options": [
+      "A) Dead cells with thick walls",
+      "B) Actively dividing cells",
+      "C) No nucleus",
+      "D) Large vacuoles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Meristematic (embryonic) tissue: actively dividing undifferentiated cells. Found at growing tips (shoot apex, root apex) and lateral cambium. Responsible for plant growth."
+  },
+  {
+    "QuestionText": "Xylem tissue transports:",
+    "Options": [
+      "A) Food (sugars) from leaves",
+      "B) Water and mineral salts from roots to leaves",
+      "C) Oxygen",
+      "D) Carbon dioxide"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Xylem: complex vascular tissue transporting water and dissolved minerals upward (roots \u2192 stem \u2192 leaves). Made of vessel elements, tracheids, fibres, parenchyma."
+  },
+  {
+    "QuestionText": "Phloem tissue transports:",
+    "Options": [
+      "A) Water upward",
+      "B) Food (photosynthates) from leaves to other parts",
+      "C) Minerals from soil",
+      "D) Oxygen from leaves"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Phloem: complex tissue transporting food (sucrose, amino acids) made in leaves to other parts \u2014 bidirectional (up and down). Sieve tubes + companion cells."
+  },
+  {
+    "QuestionText": "Parenchyma is a:",
+    "Options": [
+      "A) Dead supportive tissue",
+      "B) Living simple tissue with thin-walled cells for storage",
+      "C) Complex vascular tissue",
+      "D) Protective tissue"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Parenchyma: most common plant tissue. Living cells, thin cell walls, large vacuoles. Functions: storage (starch, water), photosynthesis (chlorenchyma), healing."
+  },
+  {
+    "QuestionText": "The epidermis of plants is:",
+    "Options": [
+      "A) Vascular tissue",
+      "B) Protective outer layer of cells",
+      "C) Meristematic tissue",
+      "D) Storage tissue"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Epidermis: outermost protective layer of cells in plants. Secretes cuticle (waxy layer). Stomata in leaf epidermis control gas exchange and water loss."
+  },
+  {
+    "QuestionText": "Cork cells are:",
+    "Options": [
+      "A) Living cells with chloroplasts",
+      "B) Dead cells with suberin that protect the stem",
+      "C) Meristematic cells",
+      "D) Xylem cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Cork: dead cells impregnated with suberin (waxy waterproof substance). Forms bark of older stems. Protects from water loss, mechanical damage, pathogens."
+  },
+  {
+    "QuestionText": "Epithelial tissue covers:",
+    "Options": [
+      "A) Internal organs",
+      "B) Surfaces (skin, lining organs, cavities)",
+      "C) Bones",
+      "D) Blood vessels only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Epithelial tissue: forms covering/lining of body surfaces, organs, cavities. Functions: protection, secretion, absorption, excretion. Tightly packed cells."
+  },
+  {
+    "QuestionText": "Connective tissue includes:",
+    "Options": [
+      "A) Muscle and nerve",
+      "B) Skin and hair",
+      "C) Blood, bone, cartilage, adipose",
+      "D) Stomach lining"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Connective tissue: diverse tissues with cells embedded in extracellular matrix. Types: blood, bone, cartilage, adipose (fat), fibrous connective, areolar."
+  },
+  {
+    "QuestionText": "Striated (skeletal) muscle is:",
+    "Options": [
+      "A) Involuntary",
+      "B) In the heart only",
+      "C) Voluntary and under conscious control",
+      "D) Not found in limbs"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Skeletal (striated) muscle: voluntary (conscious control), attached to bones, multinucleate, striped appearance. Smooth muscle: involuntary (internal organs). Cardiac: involuntary (heart)."
+  },
+  {
+    "QuestionText": "Smooth muscle is found in:",
+    "Options": [
+      "A) Limbs",
+      "B) Heart",
+      "C) Intestines, blood vessels (involuntary)",
+      "D) Skin surface"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Smooth muscle: involuntary, no striations, uninucleate, spindle-shaped. Found in walls of internal organs: digestive tract, blood vessels, uterus, bladder."
+  },
+  {
+    "QuestionText": "Cardiac muscle is:",
+    "Options": [
+      "A) Voluntary striated",
+      "B) Involuntary striated (in heart only)",
+      "C) Smooth and involuntary",
+      "D) Skeletal muscle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Cardiac muscle: involuntary (heartbeat auto-regulated), striated, branched, with intercalated discs (special junctions). Only in heart walls."
+  },
+  {
+    "QuestionText": "Neurons (nerve cells) are specialized for:",
+    "Options": [
+      "A) Contraction",
+      "B) Storage of fat",
+      "C) Conducting electrical impulses",
+      "D) Producing blood cells"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Neurons: conducting electrical signals. Parts: dendrites (receive signals), cell body, axon (transmit signals), synaptic knobs (pass signal to next neuron)."
+  },
+  {
+    "QuestionText": "Blood is classified as:",
+    "Options": [
+      "A) Epithelial tissue",
+      "B) Muscle tissue",
+      "C) Connective tissue (fluid)",
+      "D) Nervous tissue"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Blood is a fluid connective tissue. Cells (RBCs, WBCs, platelets) suspended in plasma (matrix). Functions: transport, immune defence, clotting."
+  },
+  {
+    "QuestionText": "Bone is hard because of:",
+    "Options": [
+      "A) Collagen fibres only",
+      "B) Calcium and phosphate salts in matrix",
+      "C) Keratin",
+      "D) Haemoglobin"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Bone: hardened connective tissue. Matrix of collagen fibres + calcium phosphate [Ca\u2083(PO\u2084)\u2082] and calcium carbonate \u2192 gives hardness. Bone cells = osteocytes."
+  },
+  {
+    "QuestionText": "Cartilage is found in:",
+    "Options": [
+      "A) Skin",
+      "B) Ear, nose tip, ends of bones (joints)",
+      "C) Muscles",
+      "D) Heart"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Cartilage: flexible but firm connective tissue. Found at joint surfaces, ear pinna, nose tip, trachea rings, intervertebral discs. Cells = chondrocytes; matrix = chondrin."
+  },
+  {
+    "QuestionText": "Adipose tissue stores:",
+    "Options": [
+      "A) Water",
+      "B) Fat and insulates body",
+      "C) Glycogen",
+      "D) Minerals"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Adipose (fat) tissue: stores triglycerides (fat). Insulates body from cold, cushions organs, stores energy. Fat cells = adipocytes."
+  },
+  {
+    "QuestionText": "Sclerenchyma is a plant tissue with:",
+    "Options": [
+      "A) Living cells, thin walls",
+      "B) Dead cells, very thick lignified walls \u2014 provides support",
+      "C) No cell wall",
+      "D) Photosynthetic function"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Sclerenchyma: dead cells with thick, lignified walls. Provides rigid support. Two types: sclereid (stone cells) and fibres (long, like in jute, hemp, flax)."
+  },
+  {
+    "QuestionText": "Collenchyma differs from sclerenchyma in that it:",
+    "Options": [
+      "A) Has dead cells",
+      "B) Is living with unevenly thickened walls \u2014 flexible support",
+      "C) Is the same as parenchyma",
+      "D) Lacks cell walls"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Collenchyma: living cells with unevenly thickened (cellulose) walls. Provides flexible mechanical support. Found in leaf stalks, stems. Can photosynthesise if has chloroplasts."
+  },
+  {
+    "QuestionText": "Guard cells are found in:",
+    "Options": [
+      "A) Roots",
+      "B) Leaf epidermis (control stomata)",
+      "C) Xylem",
+      "D) Phloem"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Guard cells: paired cells in leaf epidermis surrounding stomata (pores). Change shape to open/close stomata \u2014 controlling gas exchange and transpiration."
+  },
+  {
+    "QuestionText": "Muscle fibres are:",
+    "Options": [
+      "A) Small round cells",
+      "B) Elongated multinucleate cells",
+      "C) Dead cells",
+      "D) Non-contractile"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Skeletal muscle fibres: long (up to 30 cm), cylindrical, multinucleate (formed from fusion of many cells = syncytium). Each fibre = one muscle cell."
+  },
+  {
+    "QuestionText": "The epidermis of animals (skin) is primarily:",
+    "Options": [
+      "A) Connective tissue",
+      "B) Muscular tissue",
+      "C) Nervous tissue",
+      "D) Epithelial tissue"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Skin epidermis: stratified squamous epithelium. Multiple layers; outermost cells are dead, flat, keratinised. Provides waterproof barrier against pathogens."
+  },
+  {
+    "QuestionText": "Areolar connective tissue is:",
+    "Options": [
+      "A) Dense connective tissue",
+      "B) Loose connective tissue filling spaces between organs",
+      "C) Blood tissue",
+      "D) Cartilage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Areolar tissue: loosely arranged fibres (collagen and elastin) + various cells. Fills spaces between organs, supports epithelium, contains blood vessels and nerves."
+  },
+  {
+    "QuestionText": "The axon of a neuron is covered by:",
+    "Options": [
+      "A) Bone cells",
+      "B) Myelin sheath (in myelinated neurons)",
+      "C) Collagen",
+      "D) Epithelium"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Myelin sheath: lipid-rich covering around axon by Schwann cells. Insulates axon, speeds up impulse conduction (saltatory conduction). Absent in unmyelinated neurons."
+  },
+  {
+    "QuestionText": "Tendons connect:",
+    "Options": [
+      "A) Bone to bone",
+      "B) Muscle to bone",
+      "C) Muscle to muscle",
+      "D) Cartilage to cartilage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Tendon: dense connective tissue (collagen fibres) connecting muscle to bone. Ligament: connects bone to bone. Both are inelastic (collagen dominant)."
+  },
+  {
+    "QuestionText": "Stomata in leaves open during:",
+    "Options": [
+      "A) Night",
+      "B) Daytime (when guard cells are turgid)",
+      "C) Winter only",
+      "D) When CO\u2082 is high"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Stomata open during day: light \u2192 guard cells absorb water \u2192 become turgid \u2192 open. Close at night to prevent water loss. Also close during drought."
+  },
+  {
+    "QuestionText": "Phloem transports food in which direction?",
+    "Options": [
+      "A) Only upward",
+      "B) Only downward",
+      "C) Both upward and downward (bidirectional)",
+      "D) Only horizontally"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Phloem transport is bidirectional \u2014 from source (leaves) to sinks (roots, fruits, growing tips). Can go both up and down simultaneously in different sieve tubes."
+  },
+  {
+    "QuestionText": "Fibrous connective tissue (tendons, ligaments) has mainly:",
+    "Options": [
+      "A) Elastic fibres",
+      "B) Collagen fibres (strong, non-elastic)",
+      "C) Bone matrix",
+      "D) Fat cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Dense (fibrous) connective tissue: mainly collagen fibres \u2192 great tensile strength, little stretch. Tendons and ligaments resist pulling forces. Elastin fibres in elastic ligaments."
+  },
+  {
+    "QuestionText": "The function of the cuticle in plants is:",
+    "Options": [
+      "A) Photosynthesis",
+      "B) Preventing excess water loss (waterproof waxy layer)",
+      "C) Transporting water",
+      "D) Producing pollen"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Cuticle: waxy layer secreted by epidermis over aerial plant surfaces. Prevents excessive water loss by transpiration. Thick cuticle in desert plants (xerophytes)."
+  },
+  {
+    "QuestionText": "Permanent plant tissues are:",
+    "Options": [
+      "A) Always dividing",
+      "B) Differentiated cells that have stopped dividing (specialised)",
+      "C) Only in roots",
+      "D) Meristematic"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Permanent tissues: derived from meristematic tissues that have differentiated for specific functions. May be simple (parenchyma, collenchyma, sclerenchyma) or complex (xylem, phloem)."
+  },
+  {
+    "QuestionText": "Root hairs increase:",
+    "Options": [
+      "A) The speed of water flow",
+      "B) Surface area for water absorption",
+      "C) The length of roots",
+      "D) Photosynthesis"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Root hairs: extensions of root epidermal cells. Greatly increase surface area for water and mineral absorption from soil. Not separate cells \u2014 extensions of epidermal cells."
+  },
+  {
+    "QuestionText": "Sieve tubes in phloem:",
+    "Options": [
+      "A) Have thick lignified walls",
+      "B) Have perforated end walls (sieve plates) for transport",
+      "C) Are dead at maturity",
+      "D) Transport water only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Sieve tube elements: living cells with perforated end walls (sieve plates). Lack nucleus at maturity. Companion cells assist their function. Food flows through sieve plates."
+  },
+  {
+    "QuestionText": "Ligaments have more __ than tendons.",
+    "Options": [
+      "A) Collagen fibres",
+      "B) Elastin fibres (more flexible)",
+      "C) Bone cells",
+      "D) Cartilage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ligaments: more elastin fibres \u2192 more elastic/stretchy \u2192 allows joint movement. Tendons: mostly collagen \u2192 inelastic \u2192 transmit muscle force efficiently."
+  },
+  {
+    "QuestionText": "Haematopoiesis (blood cell formation) occurs in:",
+    "Options": [
+      "A) Liver",
+      "B) Kidney",
+      "C) Bone marrow",
+      "D) Spleen"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Red bone marrow: site of haematopoiesis \u2014 formation of all blood cells (RBCs, WBCs, platelets) from stem cells. Yellow marrow stores fat."
+  },
+  {
+    "QuestionText": "Meristem at the tip of root and shoot is called:",
+    "Options": [
+      "A) Intercalary meristem",
+      "B) Lateral meristem",
+      "C) Apical meristem",
+      "D) Vascular cambium"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Apical meristem: at tips of root and shoot \u2192 primary growth (increase in length). Lateral meristem (cambium): secondary growth (girth). Intercalary: at nodes (grass regrowth)."
+  },
+  {
+    "QuestionText": "The longest cells in the human body are:",
+    "Options": [
+      "A) Muscle fibres",
+      "B) Nerve cells (neurons)",
+      "C) Blood cells",
+      "D) Bone cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Neurons: can be extremely long. Sciatic nerve (hip to foot): axon up to 1 metre long! Muscle fibres can be 30 cm. Most cells are microscopic."
+  },
+  {
+    "QuestionText": "Vascular cambium in plants is responsible for:",
+    "Options": [
+      "A) Primary growth",
+      "B) Secondary growth (increase in girth)",
+      "C) Seed production",
+      "D) Water absorption"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Lateral meristem (vascular cambium): produces secondary xylem (wood) and secondary phloem \u2192 increases stem diameter (girth). This is why trees have annual rings."
+  },
+  {
+    "QuestionText": "Muscle is to contraction as nerve is to:",
+    "Options": [
+      "A) Absorption",
+      "B) Conduction (of impulses)",
+      "C) Protection",
+      "D) Support"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Muscle = specialised for contraction. Nerve tissue = specialised for conduction of electrical impulses. Each tissue type is specialised for one primary function."
+  },
+  {
+    "QuestionText": "Ciliated epithelium is found in:",
+    "Options": [
+      "A) Skin",
+      "B) Windpipe (trachea) \u2014 moves mucus",
+      "C) Stomach",
+      "D) Heart"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Ciliated epithelium: cells with hair-like cilia on surface. In trachea \u2014 cilia sweep mucus (with trapped dust/bacteria) upward to throat. Also in oviduct (moves egg)."
+  },
+  {
+    "QuestionText": "Simple squamous epithelium (single flat layer) is found in:",
+    "Options": [
+      "A) Skin surface",
+      "B) Alveoli (air sacs of lungs) and blood vessel lining",
+      "C) Intestinal lining",
+      "D) Stomach lining"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Simple squamous: single layer of flat cells. Good for diffusion and filtration. Found in alveoli (gas exchange), blood vessel lining (endothelium), glomerulus of kidney."
+  },
+  {
+    "QuestionText": "Lymph is:",
+    "Options": [
+      "A) Type of blood",
+      "B) Fluid in lymph vessels (derived from interstitial fluid)",
+      "C) Same as plasma",
+      "D) Urine precursor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Lymph: colourless fluid in lymphatic vessels. Derived from interstitial fluid (leaked from blood capillaries). Transports digested fat from intestine, returns excess fluid to blood, contains lymphocytes (immune)."
+  },
+  {
+    "QuestionText": "The cell wall of plant cells is made of:",
+    "Options": [
+      "A) Chitin",
+      "B) Cellulose",
+      "C) Protein",
+      "D) Lipids"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Plant cell wall: primarily cellulose (a polysaccharide). Fungi: chitin. Bacteria: peptidoglycan. Provides rigid support."
+  },
+  {
+    "QuestionText": "Bark (outer covering of trees) is formed by:",
+    "Options": [
+      "A) Vascular cambium",
+      "B) Cork cambium (phellogen)",
+      "C) Apical meristem",
+      "D) Xylem cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Cork cambium (phellogen): lateral meristem producing cork (outer bark). Secondary growth adds girth; cork replaces epidermis in older stems."
+  },
+  {
+    "QuestionText": "Glands secrete substances. They are a type of:",
+    "Options": [
+      "A) Connective tissue",
+      "B) Muscle tissue",
+      "C) Specialised epithelial tissue",
+      "D) Nervous tissue"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Glands: specialised epithelial cells. Exocrine glands (ducts, e.g., sweat, salivary). Endocrine glands (ductless, hormones, e.g., thyroid, adrenal)."
+  },
+  {
+    "QuestionText": "Striations in muscle cells are due to:",
+    "Options": [
+      "A) Cell walls",
+      "B) Regular arrangement of contractile proteins (actin and myosin)",
+      "C) Mitochondria arrangement",
+      "D) Sarcoplasmic reticulum"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Striations: alternating dark (A) and light (I) bands from regular arrangement of thick myosin and thin actin filaments in sarcomeres."
+  },
+  {
+    "QuestionText": "The vascular bundles in plants contain:",
+    "Options": [
+      "A) Parenchyma only",
+      "B) Xylem and Phloem together",
+      "C) Sclerenchyma only",
+      "D) Epidermis cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Foundation",
+    "Explanation": "Vascular bundles: contain xylem (water transport) and phloem (food transport) together. In dicots: phloem outside, xylem inside. Forms the vascular system."
+  },
+  {
+    "QuestionText": "Heart muscle differs from skeletal muscle in being:",
+    "Options": [
+      "A) Striated and voluntary",
+      "B) Striated and involuntary with intercalated discs",
+      "C) Non-striated and voluntary",
+      "D) Non-striated and involuntary"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Cardiac: striated (like skeletal) but involuntary (like smooth). Has intercalated discs (allow rapid spread of electrical signals). Never fatigues."
+  },
+  {
+    "QuestionText": "Which type of epithelium is found in the kidney tubules?",
+    "Options": [
+      "A) Squamous",
+      "B) Columnar",
+      "C) Cuboidal",
+      "D) Ciliated columnar"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Animal Tissues",
+    "Difficulty": "Advanced",
+    "Explanation": "Cuboidal epithelium: cube-shaped cells. Found in kidney tubules, thyroid gland, salivary glands. Functions in secretion and absorption."
+  },
+  {
+    "QuestionText": "Annual rings in wood are formed by:",
+    "Options": [
+      "A) Parenchyma cells",
+      "B) Activity of lateral (vascular) meristem varying seasonally",
+      "C) Phloem cells",
+      "D) Root tip cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Tissues",
+    "SubTopic": "Plant Tissues",
+    "Difficulty": "Olympiad",
+    "Explanation": "Annual rings: alternating bands of large-celled spring wood and small-celled autumn wood. Reflect seasonal activity of vascular cambium. Count rings = age of tree."
+  }
+]

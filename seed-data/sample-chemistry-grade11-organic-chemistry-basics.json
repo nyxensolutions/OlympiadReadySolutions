@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The general formula of alkanes is:",
+    "Options": [
+      "A) CₙH₂ₙ",
+      "B) CₙH₂ₙ₊₂",
+      "C) CₙH₂ₙ₋₂",
+      "D) CₙHₙ"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "Alkanes (saturated hydrocarbons) follow CₙH₂ₙ₊₂. E.g., methane CH₄ (n=1), ethane C₂H₆ (n=2)."
+  },
+  {
+    "QuestionText": "The IUPAC name of CH₃CH₂CH₃ is:",
+    "Options": [
+      "A) Ethane",
+      "B) Propane",
+      "C) Butane",
+      "D) Methane"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "Three carbon chain with single bonds: propane. Prefix prop- = 3 carbons."
+  },
+  {
+    "QuestionText": "Structural isomers have the same:",
+    "Options": [
+      "A) 3D arrangement",
+      "B) Molecular formula but different structural formulas",
+      "C) Physical properties",
+      "D) Functional groups"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Foundation",
+    "Explanation": "Structural (constitutional) isomers: same molecular formula, different connectivity. E.g., n-butane and isobutane are both C₄H₁₀."
+  },
+  {
+    "QuestionText": "Geometric isomerism (cis-trans) occurs in:",
+    "Options": [
+      "A) All organic compounds",
+      "B) Compounds with C=C or C=N with different groups on each carbon",
+      "C) Only cyclic compounds",
+      "D) Only alkanes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Foundation",
+    "Explanation": "Geometric isomers arise when rotation around C=C is restricted and each C bears 2 different groups. cis: same groups same side; trans: opposite sides."
+  },
+  {
+    "QuestionText": "The carbon in CH₄ has how many bonds to hydrogen?",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "Carbon forms 4 bonds (tetravalent). In methane (CH₄), all 4 bonds are to hydrogen atoms."
+  },
+  {
+    "QuestionText": "The IUPAC suffix for a primary alcohol functional group is:",
+    "Options": [
+      "A) -al",
+      "B) -oic acid",
+      "C) -ol",
+      "D) -one"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "Functional group suffixes: -OH = -ol (alcohol), -CHO = -al (aldehyde), C=O = -one (ketone), -COOH = -oic acid."
+  },
+  {
+    "QuestionText": "Homologous series is a group of compounds that:",
+    "Options": [
+      "A) Have same molecular formula",
+      "B) Differ by CH₂ units and show gradation in properties",
+      "C) Have same functional group and same formula",
+      "D) Are only alkanes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "Homologous series: each member differs from next by −CH₂− (14 mass units). Physical properties change gradually; similar chemical properties."
+  },
+  {
+    "QuestionText": "Optical isomers (enantiomers) require a:",
+    "Options": [
+      "A) C=C bond",
+      "B) Chiral (asymmetric) carbon — C bonded to 4 different groups",
+      "C) Ring structure",
+      "D) Functional group"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Advanced",
+    "Explanation": "A chiral carbon (stereocenter) has 4 different substituents. This creates non-superimposable mirror images (enantiomers) that rotate plane-polarized light."
+  },
+  {
+    "QuestionText": "Inductive effect (I effect) refers to:",
+    "Options": [
+      "A) Resonance stabilization",
+      "B) Transmission of charge/polarity through sigma bonds",
+      "C) Lone pair donation to empty orbital",
+      "D) Hyperconjugation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Electronic Effects",
+    "Difficulty": "Advanced",
+    "Explanation": "Inductive effect: permanent polarization transmitted through sigma bonds due to electronegativity differences. −I groups withdraw electrons; +I groups donate."
+  },
+  {
+    "QuestionText": "Mesomeric (resonance) effect refers to:",
+    "Options": [
+      "A) Bond stretching",
+      "B) Delocalization of electrons through pi bonds or lone pairs",
+      "C) Inductive polarization",
+      "D) Steric interactions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Electronic Effects",
+    "Difficulty": "Advanced",
+    "Explanation": "Mesomeric (M) effect: electron delocalization through conjugated π system. −M groups withdraw (C=O); +M groups donate (NH₂, OH). Affects reactivity and stability."
+  },
+  {
+    "QuestionText": "The IUPAC name of (CH₃)₂CHCH₂CH₃ is:",
+    "Options": [
+      "A) 2-methylbutane",
+      "B) Isopentane",
+      "C) 3-methylbutane",
+      "D) 2-methylpropane"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "Longest chain: 4 carbons (butane). Methyl branch at C2. IUPAC name: 2-methylbutane. (Isopentane is an old name.)"
+  },
+  {
+    "QuestionText": "The hybridization of carbon in benzene is:",
+    "Options": [
+      "A) sp",
+      "B) sp²",
+      "C) sp³",
+      "D) sp³d"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "Each C in benzene has sp² hybridization with a remaining p orbital perpendicular to the ring. These p orbitals overlap to form a delocalized π system."
+  },
+  {
+    "QuestionText": "Electrophilic substitution is characteristic of:",
+    "Options": [
+      "A) Alkenes",
+      "B) Alkanes",
+      "C) Aromatic compounds",
+      "D) Alcohols"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Aromatic compounds (like benzene) have delocalized π electrons attracting electrophiles. Substitution preserves aromaticity. E.g., nitration, halogenation of benzene."
+  },
+  {
+    "QuestionText": "Electrophilic addition is characteristic of:",
+    "Options": [
+      "A) Alkanes",
+      "B) Alkenes and alkynes",
+      "C) Benzene",
+      "D) Ethers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Alkenes/alkynes have π electrons acting as nucleophiles attracting electrophiles. Addition breaks the π bond: H₂, HX, X₂, H₂O add across C=C."
+  },
+  {
+    "QuestionText": "Markovnikov's rule states: in HX addition to an unsymmetric alkene:",
+    "Options": [
+      "A) H adds to carbon with more H's",
+      "B) X adds to carbon with more H's",
+      "C) Addition is random",
+      "D) Both products formed equally"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Markovnikov: H adds to C with more H (forms more stable carbocation intermediate). E.g., HBr + propene → 2-bromopropane (major)."
+  },
+  {
+    "QuestionText": "Nucleophilic substitution (SN2) proceeds with:",
+    "Options": [
+      "A) Retention of configuration",
+      "B) Inversion of configuration (Walden inversion)",
+      "C) Racemization",
+      "D) No change in structure"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "SN2: back-side attack by nucleophile while leaving group departs. Configuration at stereocenter inverts (like umbrella flipping). Always gives inverted product."
+  },
+  {
+    "QuestionText": "Free radical mechanism involves:",
+    "Options": [
+      "A) Heterolytic bond breaking (ions)",
+      "B) Homolytic bond breaking (radicals)",
+      "C) Electrophilic attack",
+      "D) Nucleophilic attack"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Homolytic cleavage: each atom gets 1 electron → radicals. Free radical reactions occur in UV light, high temperature, or with initiators. E.g., halogenation of alkanes."
+  },
+  {
+    "QuestionText": "The IUPAC name of CH₃COCH₃ is:",
+    "Options": [
+      "A) Acetaldehyde",
+      "B) Propanol",
+      "C) Propanone",
+      "D) Acetone"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "CH₃COCH₃ has a ketone (C=O) in the middle of 3-carbon chain. IUPAC: propan-2-one (or propanone). Acetone is the common name."
+  },
+  {
+    "QuestionText": "Carboxylic acids have the functional group:",
+    "Options": [
+      "A) −OH",
+      "B) −CHO",
+      "C) −COOH",
+      "D) −C=O"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Functional Groups",
+    "Difficulty": "Foundation",
+    "Explanation": "Carboxylic acid group: −COOH (carbon double-bonded to O and single-bonded to OH). Acidic hydrogen on OH can be lost as H⁺."
+  },
+  {
+    "QuestionText": "The number of sigma bonds in ethylene (H₂C=CH₂) is:",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "C=C has 1σ+1π. Each C-H is 1σ. Total: 1σ(CC) + 4σ(CH) = 5σ bonds + 1π bond."
+  },
+  {
+    "QuestionText": "Which of the following shows +M effect (electron donating by resonance)?",
+    "Options": [
+      "A) −NO₂",
+      "B) −COOH",
+      "C) −NH₂",
+      "D) −CHO"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Electronic Effects",
+    "Difficulty": "Advanced",
+    "Explanation": "−NH₂ has lone pair on N which donates into the aromatic ring by resonance (+M). This activates the ring for electrophilic substitution. −NO₂, −COOH, −CHO have −M effect."
+  },
+  {
+    "QuestionText": "Conformational isomers (conformers) differ in:",
+    "Options": [
+      "A) Molecular formula",
+      "B) Connectivity of atoms",
+      "C) Rotation around sigma bonds",
+      "D) Double bond geometry"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Advanced",
+    "Explanation": "Conformers are interconvertible by rotation around C–C sigma bonds (e.g., staggered vs eclipsed ethane). Not true isomers as they rapidly interconvert."
+  },
+  {
+    "QuestionText": "The IUPAC name of CH₃CH₂OH is:",
+    "Options": [
+      "A) Methanol",
+      "B) Ethanol",
+      "C) Propanol",
+      "D) Ethyl alcohol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "CH₃CH₂OH: 2-carbon chain (eth-) + alcohol (-ol) = ethanol. Common name: ethyl alcohol."
+  },
+  {
+    "QuestionText": "Saponification is the hydrolysis of esters in:",
+    "Options": [
+      "A) Acidic conditions",
+      "B) Alkaline (base) conditions",
+      "C) Neutral water",
+      "D) UV light"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Saponification: ester + NaOH → sodium salt of acid (soap) + alcohol. Used in soap manufacture. Alkaline hydrolysis is irreversible."
+  },
+  {
+    "QuestionText": "The stability order of carbocations is:",
+    "Options": [
+      "A) Methyl > primary > secondary > tertiary",
+      "B) Tertiary > secondary > primary > methyl",
+      "C) Primary > tertiary",
+      "D) All equal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "More alkyl groups → more +I effect and hyperconjugation → greater stabilization → higher stability. 3°>2°>1°>methyl."
+  },
+  {
+    "QuestionText": "Benzene undergoes preferential substitution (not addition) because:",
+    "Options": [
+      "A) Benzene is unreactive",
+      "B) Addition would destroy aromaticity; substitution preserves it",
+      "C) Benzene lacks double bonds",
+      "D) Temperature is too low for addition"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Aromatic stabilization (resonance energy ≈150 kJ/mol) makes substitution preferred. Addition would disrupt the delocalized π system and lose stability."
+  },
+  {
+    "QuestionText": "Friedel-Crafts alkylation introduces __ group to benzene:",
+    "Options": [
+      "A) Nitro (−NO₂)",
+      "B) Sulfonyl",
+      "C) Alkyl (−R)",
+      "D) Halogen"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Friedel-Crafts alkylation: C₆H₆ + RCl + AlCl₃ → C₆H₅R + HCl. AlCl₃ generates carbocation electrophile R⁺."
+  },
+  {
+    "QuestionText": "In IUPAC nomenclature, the longest carbon chain is selected to:",
+    "Options": [
+      "A) Minimize the total number of carbon atoms",
+      "B) Maximize the number of carbons in the parent chain",
+      "C) Include the most substituents",
+      "D) Avoid functional groups"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "IUPAC rule: select the longest continuous carbon chain as parent. Then number from end giving lowest locants to substituents and functional groups."
+  },
+  {
+    "QuestionText": "The compound CH₃−CH=CH₂ is:",
+    "Options": [
+      "A) Propane",
+      "B) Propene",
+      "C) Propyne",
+      "D) Propadiene"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "CH₃CH=CH₂: 3 carbons with one double bond → propene (also called propylene). General formula CₙH₂ₙ for alkenes."
+  },
+  {
+    "QuestionText": "Ortho and para directors in benzene are __ substituents:",
+    "Options": [
+      "A) Electron-withdrawing",
+      "B) Electron-donating (+M effect)",
+      "C) All halogens",
+      "D) Only alkyl groups"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Electron-donating groups (−NH₂, −OH, −alkyl) are ortho/para directors. Electron-withdrawing groups (−NO₂, −COOH) are meta directors."
+  },
+  {
+    "QuestionText": "The IUPAC name of CH₃COOH is:",
+    "Options": [
+      "A) Methanoic acid",
+      "B) Ethanoic acid",
+      "C) Propanoic acid",
+      "D) Acetic acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "CH₃COOH: 2-carbon chain + carboxylic acid suffix = ethanoic acid. Common name: acetic acid."
+  },
+  {
+    "QuestionText": "Hyperconjugation involves:",
+    "Options": [
+      "A) Resonance of double bonds",
+      "B) Delocalization of σ C-H bond electrons into adjacent empty/π orbital",
+      "C) Ionic interactions",
+      "D) Van der Waals forces"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Electronic Effects",
+    "Difficulty": "Olympiad",
+    "Explanation": "Hyperconjugation: C-H σ bond electrons overlap with adjacent p or π orbital. Stabilizes carbocations, radicals, alkenes. More α-H → more hyperconjugation → more stability."
+  },
+  {
+    "QuestionText": "Tautomerism is an example of:",
+    "Options": [
+      "A) Optical isomerism",
+      "B) Geometric isomerism",
+      "C) Dynamic structural isomerism (interconversion between two forms)",
+      "D) Conformational isomerism"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Olympiad",
+    "Explanation": "Tautomers rapidly interconvert (e.g., keto-enol tautomerism). They are in dynamic equilibrium and are considered a special type of functional group isomers."
+  },
+  {
+    "QuestionText": "Nucleophilic substitution SN1 proceeds through:",
+    "Options": [
+      "A) One-step concerted mechanism",
+      "B) Two steps: ionization to carbocation then nucleophilic attack",
+      "C) Free radical intermediate",
+      "D) Cyclic transition state"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "SN1: slow ionization → carbocation (rate-determining step), then fast nucleophilic attack. Gives racemization. Favored by tertiary substrates, polar solvents."
+  },
+  {
+    "QuestionText": "The number of structural isomers of C₄H₁₀ is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Foundation",
+    "Explanation": "C₄H₁₀ (butane): n-butane (straight chain) and isobutane (2-methylpropane). Only 2 structural isomers."
+  },
+  {
+    "QuestionText": "The reagent used to test for unsaturation (C=C) is:",
+    "Options": [
+      "A) NaOH solution",
+      "B) AgNO₃ solution",
+      "C) Bromine water (Br₂/CCl₄)",
+      "D) KMnO₄ (cold, dilute)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "Bromine water decolorizes when added to alkene (Br₂ adds across C=C). Alkanes don't react with Br₂/CCl₄ at room temperature without UV."
+  },
+  {
+    "QuestionText": "Grignard reagent has formula:",
+    "Options": [
+      "A) RLi",
+      "B) R₂Zn",
+      "C) RMgX",
+      "D) R₂Cd"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "Grignard reagent: RMgX (where R = organic group, X = halide). Prepared from R-X + Mg in dry ether. Acts as carbanion equivalent (strong nucleophile)."
+  },
+  {
+    "QuestionText": "The functional group in ethers is:",
+    "Options": [
+      "A) −OH",
+      "B) −CHO",
+      "C) −O−",
+      "D) −COOH"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Functional Groups",
+    "Difficulty": "Foundation",
+    "Explanation": "Ether functional group: R−O−R'. Example: diethyl ether (CH₃CH₂−O−CH₂CH₃). Generally unreactive; used as solvents."
+  },
+  {
+    "QuestionText": "Aromaticity (Hückel's rule) requires:",
+    "Options": [
+      "A) Any cyclic conjugated compound",
+      "B) Cyclic, planar, fully conjugated system with (4n+2) π electrons",
+      "C) Only benzene and naphthalene",
+      "D) Exactly 6 π electrons always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Olympiad",
+    "Explanation": "Hückel's rule: aromaticity requires planar cyclic conjugation with 4n+2 π electrons (n=0,1,2,...). Benzene: 6 π (n=1). Naphthalene: 10 π (n=2)."
+  },
+  {
+    "QuestionText": "The IUPAC name of HCOOH is:",
+    "Options": [
+      "A) Ethanoic acid",
+      "B) Methanoic acid",
+      "C) Carbonic acid",
+      "D) Formic acid"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Foundation",
+    "Explanation": "HCOOH: 1-carbon carboxylic acid = methanoic acid. Common name: formic acid (from Latin formica = ant)."
+  },
+  {
+    "QuestionText": "Enantiomers have identical:",
+    "Options": [
+      "A) Optical rotations",
+      "B) Physical and chemical properties except toward chiral agents",
+      "C) Boiling points and melting points",
+      "D) All of the above except optical rotation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Olympiad",
+    "Explanation": "Enantiomers have identical physical (mp, bp, density) and most chemical properties. They differ in: direction of optical rotation and reactions with other chiral molecules."
+  },
+  {
+    "QuestionText": "Acidity of carboxylic acids compared to alcohols is greater because:",
+    "Options": [
+      "A) RCOOH has more OH groups",
+      "B) Resonance stabilizes carboxylate anion (RCOO⁻)",
+      "C) Carboxylic acids have higher molar mass",
+      "D) Alcohols have stronger H-bonds"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Electronic Effects",
+    "Difficulty": "Advanced",
+    "Explanation": "Loss of H⁺ from RCOOH gives RCOO⁻, which is resonance-stabilized (−C(=O)O⁻ ↔ −C(−O⁻)=O). This stabilization makes RCOOH more acidic (Ka ≈ 10⁻⁵) than ROH (Ka ≈ 10⁻¹⁶)."
+  },
+  {
+    "QuestionText": "The mechanism of addition of HBr to propene gives 2-bromopropane as major product because:",
+    "Options": [
+      "A) Secondary carbocation is less stable than primary",
+      "B) Secondary carbocation (2°) is more stable than primary (1°)",
+      "C) Br adds to terminal carbon always",
+      "D) H adds to central carbon"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Advanced",
+    "Explanation": "H⁺ adds to terminal C1 → secondary carbocation at C2. More stable 2° carbocation gives 2-bromopropane (major). Anti-Markovnikov gives minor product."
+  },
+  {
+    "QuestionText": "The functional group in amines is:",
+    "Options": [
+      "A) −OH",
+      "B) −NH₂",
+      "C) −NO₂",
+      "D) −CN"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Functional Groups",
+    "Difficulty": "Foundation",
+    "Explanation": "Primary amine: R−NH₂ (one alkyl on N). Secondary: R₂NH. Tertiary: R₃N. Amines are basic (lone pair on N)."
+  },
+  {
+    "QuestionText": "Carbon-carbon triple bond consists of:",
+    "Options": [
+      "A) 3 sigma bonds",
+      "B) 1 sigma and 2 pi bonds",
+      "C) 3 pi bonds",
+      "D) 2 sigma and 1 pi bond"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "Triple bond = 1σ + 2π. sp hybridization. The two π bonds are perpendicular to each other and to the σ bond."
+  },
+  {
+    "QuestionText": "Resonance structures of benzene are also called:",
+    "Options": [
+      "A) Geometric isomers",
+      "B) Kekulé structures",
+      "C) Conformers",
+      "D) Enantiomers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Hydrocarbons",
+    "Difficulty": "Foundation",
+    "Explanation": "The two resonance structures of benzene (proposed by Kekulé in 1865) are called Kekulé structures. They show alternating single and double bonds."
+  },
+  {
+    "QuestionText": "In IUPAC nomenclature, when functional group and substituents compete for lowest locant:",
+    "Options": [
+      "A) Substituent gets lower number",
+      "B) The principal functional group gets the lowest locant",
+      "C) The largest group gets lower number",
+      "D) Alphabetical order decides"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Advanced",
+    "Explanation": "IUPAC rule: the principal characteristic group (e.g., -COOH > -OH > C=C > C=O > C≡C) gets the lowest possible locant."
+  },
+  {
+    "QuestionText": "Diels-Alder reaction is a:",
+    "Options": [
+      "A) Free radical reaction",
+      "B) Cycloaddition [4+2] between diene and dienophile",
+      "C) Aromatic substitution",
+      "D) SN2 reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Reaction Mechanisms",
+    "Difficulty": "Olympiad",
+    "Explanation": "Diels-Alder [4+2] cycloaddition: conjugated diene + dienophile → cyclohexene. Concerted, stereospecific reaction. Key in synthesis of cyclic compounds."
+  },
+  {
+    "QuestionText": "Newman projection is used to represent:",
+    "Options": [
+      "A) Resonance structures",
+      "B) Conformations about a single C-C bond",
+      "C) Stereoisomers",
+      "D) Reaction mechanisms"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "Isomerism",
+    "Difficulty": "Advanced",
+    "Explanation": "Newman projections show eclipsed and staggered conformations looking along a C-C bond. Front carbon as dot, back carbon as circle."
+  },
+  {
+    "QuestionText": "The IUPAC name of (CH₃)₃C−Cl is:",
+    "Options": [
+      "A) 1-chlorobutane",
+      "B) tert-butyl chloride",
+      "C) 2-chloro-2-methylpropane",
+      "D) 1-chloro-2-methylpropane"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Organic Chemistry Basics",
+    "SubTopic": "IUPAC Nomenclature",
+    "Difficulty": "Advanced",
+    "Explanation": "Longest chain: 4C with Cl at C2 and methyl at C2. IUPAC: 2-chloro-2-methylpropane. tert-butyl chloride is common name."
+  }
+]

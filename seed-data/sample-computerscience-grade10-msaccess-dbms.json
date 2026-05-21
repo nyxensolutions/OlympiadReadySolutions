@@ -1,0 +1,477 @@
+[
+  {
+    "QuestionText": "In a relational database management system (RDBMS), what term describes a single unique attribute field or a combination of fields that uniquely identifies each record row in a table?",
+    "Options": ["A) Foreign Key", "B) Primary Key", "C) Composite Index", "D) Candidate Row ID"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "A Primary Key enforces entity integrity by ensuring that no two records in a table share the exact same identifier, and it cannot contain NULL values."
+  },
+  {
+    "QuestionText": "Which object in MS Access 2016 is designed explicitly to present formatted data on screen or in print layouts for clean summary summaries and distributions?",
+    "Options": ["A) Table Layout", "B) Query Builder", "C) Form Wizard", "D) Report"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "Reports compile information from tables or queries into polished, structured layouts optimized for printing, calculation tallies, and hardcopy archival storage."
+  },
+  {
+    "QuestionText": "What attribute data type should be assigned to a field in MS Access 2016 if it needs to hold long narrative paragraphs, descriptions, or notes exceeding 255 characters?",
+    "Options": ["A) Short Text", "B) Long Text (Memo)", "C) Rich Document field", "D) Hyperlink string"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "While Short Text caps field sizes strictly at 255 characters, Long Text (known as Memo in earlier versions) stores up to gigabytes of alphanumeric narrative strings."
+  },
+  {
+    "QuestionText": "What SQL keyword command sequence isolates and filters records from a database table based on a specified logic boundary condition (e.g., matching a city status)?",
+    "Options": ["A) SELECT ... FROM ... WHERE", "B) GET ... HAVING ... MATCH", "C) EXTRACT ... INSIDE ... FOR", "D) SORT ... BY ... LIMIT"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "The `WHERE` clause appends logical test constraints to a standard `SELECT` projection query block, ensuring that only records meeting those parameters are fetched."
+  },
+  {
+    "QuestionText": "What property condition describes an intentional relational constraint where a value in a child table's key column must exist inside the parent table's primary key column?",
+    "Options": ["A) Entity Uniformity", "B) Referential Integrity", "C) Data Redundancy filter", "D) Domain Validation constraint"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "Referential Integrity prevents orphaned records in a database by forcing foreign keys to map to a matching primary key value in the related table."
+  },
+  {
+    "QuestionText": "Which view mode is used in MS Access 2016 to explicitly set up data fields, choose specific validation data types, and customize index property conditions before typing in raw entries?",
+    "Options": ["A) Datasheet View", "B) Design View", "C) Layout View", "D) Form Configuration Pane"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "Design View defines structural schemas, field size constraints, default rules, and indexing states without being distracted by operational table rows."
+  },
+  {
+    "QuestionText": "What is the systematic process of organizing fields and tables in a database to minimize data redundancy and prevent data anomalies during insertion or deletion loops?",
+    "Options": ["A) Data Normalization", "B) Structural Indexing", "C) Query Optimization", "D) Relation Cascading"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "Normalization breaks down complex data tables into smaller, leaner relational structures based on rules (like 1NF, 2NF, 3NF) to save storage and prevent update bugs."
+  },
+  {
+    "QuestionText": "In MS Access 2016, which tool tab interface layout manages table linkages, foreign key maps, and join conditions through visual click-and-drag map vectors?",
+    "Options": ["A) External Data panel", "B) Database Tools -> Relationships", "C) Create ledger console", "D) Home field sorting"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "The Relationships window matches primary keys to foreign keys across tables, forming the structural blueprints for multi-table queries."
+  },
+  {
+    "QuestionText": "What does a single row represent inside a standard relational database table grid matrix?",
+    "Options": ["A) An Attribute or Field description", "B) A Record or Tuple", "C) A Relationship data model", "D) A Query schema constraint"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "Columns correspond to distinct data fields or attributes, while horizontal rows hold individual data entities called Records or Tuples."
+  },
+  {
+    "QuestionText": "Which data type field property in MS Access 2016 automatically generates a unique, sequential number every time a new row record is appended to a table?",
+    "Options": ["A) Number field", "B) AutoNumber", "C) Calculated expression", "D) OLE Object tracking"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "AutoNumber handles index increments behind the scenes, making it a reliable choice for primary keys since it ensures every new row gets its own distinct ID."
+  },
+  {
+    "QuestionText": "What SQL operational command modifies existing field value metrics inside database table rows?",
+    "Options": ["A) MODIFY", "B) ALTER TABLE", "C) UPDATE", "D) RENEW"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "`UPDATE` alters actual row data values, whereas `ALTER TABLE` changes the structural definition of the columns themselves."
+  },
+  {
+    "QuestionText": "What database anomaly occurs when deleting a specific record unexpectedly wipes out unrelated, critical information from the schema?",
+    "Options": ["A) Insertion Anomaly", "B) Deletion Anomaly", "C) Modification Flaw", "D) Redundancy Conflict"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "Deletion anomalies crop up in poorly normalized tables when removing a child record accidentally deletes an entire parent entity due to mixed tracking schemas."
+  },
+  {
+    "QuestionText": "Which MS Access 2016 database object provides an interactive screen interface layer for data input, record browsing, and search queries?",
+    "Options": ["A) Table layout", "B) Form", "C) Report manager", "D) Macro script"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "Forms create user-friendly layouts with text boxes, drop-down menus, and navigation buttons to guide data entry and shield users from raw database grids."
+  },
+  {
+    "QuestionText": "What field property rule in MS Access 2016 checks user input data values against a predefined constraint condition before allowing the record to save (e.g., checking if an age field is >= 18)?",
+    "Options": ["A) Required flag", "B) Validation Rule", "C) Input Mask profile", "D) Default Value tracking"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "Validation Rules test user inputs against logical expressions, rejecting invalid entries and displaying helpful error messages to protect data quality."
+  },
+  {
+    "QuestionText": "What condition is met when a database table is in First Normal Form (1NF)?",
+    "Options": [
+      "A) Every non-key attribute depends entirely on the primary key identifier.",
+      "B) All multi-valued fields and repeating groups are eliminated, leaving only atomic values in each cell.",
+      "C) Transitive dependency linkages are stripped out from the tables.",
+      "D) Foreign key mappings match parent constraints exactly."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "1NF requires each table cell to hold a single, indivisible value, flattening nested arrays or repeating groups into discrete rows and columns."
+  },
+  {
+    "QuestionText": "What wild-card character matches any string of zero or more alphanumeric characters inside an MS Access 2016 'Like' query search expression?",
+    "Options": ["A) ?", "B) *", "C) #", "D) %"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "In MS Access SQL (ANSI-89), the asterisk (`*`) acts as a multi-character wildcard search operator, while the question mark (`?`) stands in for a single character slot."
+  },
+  {
+    "QuestionText": "What kind of relational mapping links a single customer record in a parent table to dozens of individual purchase transaction records in a secondary table?",
+    "Options": ["A) One-to-One", "B) One-to-Many", "C) Many-to-Many", "D) Self-Referential loop"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "A One-to-Many relationship allows a primary key record in the parent table to match multiple instances in the child table, while child records map back to a single parent anchor."
+  },
+  {
+    "QuestionText": "Which type of query in MS Access 2016 doesn't just display filtered views, but permanently updates table structures by appending, deleting, or editing groups of records at once?",
+    "Options": ["A) Select Query", "B) Action Query", "C) Crosstab Query", "D) Parameter Query"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "Action Queries handle batch modifications across tables, using commands like Make-Table, Append, Delete, or Update to alter database content."
+  },
+  {
+    "QuestionText": "What structural SQL command removes a database table definition and all its data rows completely from the system catalog storage structure?",
+    "Options": ["A) DELETE TABLE", "B) DROP TABLE", "C) REMOVE SCHEMA", "D) TRUNCATE COLUMN"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "`DROP TABLE` wipes out both the table's structural schema and its row data rows permanently, whereas `DELETE` only empties rows while leaving the column definitions intact."
+  },
+  {
+    "QuestionText": "What property setup in MS Access 2016 restricts user text entries to a specific format shape pattern, like forcing phone entries to match exactly '(###) ###-####'?",
+    "Options": ["A) Validation Text alert", "B) Input Mask", "C) Required status property", "D) Format type dropdown"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "Input Masks act as data entry templates, restricting characters to specific positions and symbols to keep formats consistent across tasks like dates or phone numbers."
+  },
+  {
+    "QuestionText": "What property criteria must be fulfilled for a database layout to achieve Third Normal Form (3NF) status?",
+    "Options": [
+      "A) It must be in 2NF and contain no transitive functional dependencies among its non-key attributes.",
+      "B) It must allow multi-valued fields inside specific table columns.",
+      "C) It must possess at least two foreign key mappings per structural block.",
+      "D) It must match index tracking matrices identically."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Olympiad",
+    "Explanation": "3NF requires that all non-key columns depend *only* on the primary key, eliminating indirect or transitive dependencies where column A relies on column B, which then relies on the key."
+  },
+  {
+    "QuestionText": "Which field sorting option arranges text string entries in alphabetical order from Z down to A, or numeric values from largest to smallest?",
+    "Options": ["A) Ascending Order", "B) Descending Order", "C) Indexed Shuffle", "D) Cascade Sequence"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "Descending order reverses lists, sorting alphanumeric fields from high to low parameters ($9 \rightarrow 0$, $Z \rightarrow A$)."
+  },
+  {
+    "QuestionText": "In MS Access 2016, what action setting propagates adjustments automatically, ensuring that updating or deleting a client ID in the parent table changes or deletes all matching entries in child tables?",
+    "Options": [
+      "A) Cascade Update / Cascade Delete Related Fields",
+      "B) Normalization loops",
+      "C) Validation text adjustments",
+      "D) OLE linking loops"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "Enabling Cascade options under Referential Integrity keeps related tables synchronized, automatically cleaning up or updating child rows when parent records change."
+  },
+  {
+    "QuestionText": "What type of data field constraint ensures that a column cannot accept blank or unassigned missing data records during data entry loops?",
+    "Options": ["A) Indexed No Duplicates", "B) Required = Yes", "C) Default Value text", "D) Input Mask profile"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "Setting the `Required` property to 'Yes' prevents data entry tools from leaving that specific field blank, ensuring essential information is captured."
+  },
+  {
+    "QuestionText": "What core operational database object compiles computational filter logic rules to cross-examine database tables and fetch specific data records matching multi-field conditions?",
+    "Options": ["A) Report layout", "B) Form wizard", "C) Query", "D) Database macro panel"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "Queries function as information search filters, asking questions of tables to extract, slice, or compute records without altering the underlying data layout."
+  },
+  {
+    "QuestionText": "What field index parameter should be picked in MS Access 2016 to speed up search queries on a column without allowing any duplicate text entries across its rows?",
+    "Options": ["A) Indexed (No)", "B) Indexed (Duplicates OK)", "C) Indexed (No Duplicates)", "D) AutoNumber key tracking"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "The 'Indexed (No Duplicates)' property builds quick binary index trees to accelerate lookups, while acting as a safety constraint to block duplicate values."
+  },
+  {
+    "QuestionText": "What database language category handles data definition structures, encompassing commands like CREATE, ALTER, and DROP to build or modify structural database assets?",
+    "Options": ["A) DML (Data Manipulation Language)", "B) DDL (Data Definition Language)", "C) DCL (Data Control Language)", "D) TCL (Transaction Control Language)"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "DDL commands define and modify the structural schemas of database containers (like columns, datatypes, and indices), while DML handles row manipulation tasks like data insertion and edits."
+  },
+  {
+    "QuestionText": "Which type of join in an MS Access 2016 query fetches all records from the left parent table alongside matching records from the right table, leaving right fields blank if no match is found?",
+    "Options": ["A) Inner Join", "B) Left Outer Join", "C) Right Outer Join", "D) Full Join"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "Left Outer Joins preserve all rows from the primary left table, filling in matching data from the right table where it exists and leaving fields NULL where it doesn't."
+  },
+  {
+    "QuestionText": "What database state describes storing the exact same data element in multiple separate tables, which wastes storage space and increases the risk of data inconsistency?",
+    "Options": ["A) Data Integrity", "B) Data Redundancy", "C) Data Normalization", "D) Functional Dependency"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "Data Redundancy means duplicating identical data facts across multiple fields, which can lead to inconsistencies if one instance is updated while duplicates are forgotten."
+  },
+  {
+    "QuestionText": "Which functional database object template wizard in MS Access 2016 calculates and summarizes pivot table results, grouping summaries horizontally and vertically?",
+    "Options": ["A) Action Query", "B) Crosstab Query", "C) Parameter Query", "D) Append Query"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "Crosstab queries restructure data grids, calculating averages, sums, or counts and grouping them into compact row-and-column matrix layouts."
+  },
+  {
+    "QuestionText": "What field data type should you pick in MS Access 2016 to hold raw external binary files, like embedding employee profile photos or spreadsheet files directly into table rows?",
+    "Options": ["A) Attachment / OLE Object", "B) Hyperlink string", "C) Calculated expression", "D) Long Text string"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "OLE Object or Attachment data types store external binary objects like images, documents, or sound clips directly inside row storage fields."
+  },
+  {
+    "QuestionText": "What does the SQL command keyword sequence 'ORDER BY Price DESC' output when querying an inventory database table?",
+    "Options": [
+      "A) Filters out all records except those that match a specific price threshold exactly.",
+      "B) Groups duplicate item entries based on shared price categories.",
+      "C) Sorts the returned records based on the Price column, listing the most expensive items first.",
+      "D) Removes the Price column data fields from active view displays."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "The `ORDER BY` clause handles record sorting, and appending the `DESC` modifier sorts values in descending order (highest numeric inputs to lowest)."
+  },
+  {
+    "QuestionText": "What database security feature prevents conflicts by locking a record when one user is editing it, stopping other users from overwriting changes at the same time?",
+    "Options": ["A) Data Encryption", "B) Concurrency Control / Record Locking", "C) Referral integrity limits", "D) Schema Validation checks"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "Concurrency Control manages simultaneous multi-user edits, using row-level locking to prevent conflicting data updates and maintain data accuracy."
+  },
+  {
+    "QuestionText": "What structural criteria must be satisfied for a data table to meet Second Normal Form (2NF) rules?",
+    "Options": [
+      "A) It must be in 1NF and all non-key attributes must depend fully on the entire primary key, eliminating partial key dependencies.",
+      "B) It must eliminate all transitive relationship linkages.",
+      "C) It must possess at least one multi-valued column array index.",
+      "D) It must match external index parameters perfectly."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Olympiad",
+    "Explanation": "2NF applies to tables with composite primary keys. It requires the table to be in 1NF and prevents partial dependencies, meaning every non-key column must depend on the complete composite key rather than just a portion of it."
+  },
+  {
+    "QuestionText": "Which type of query in MS Access 2016 displays an interactive prompt box asking the user to type in specific filter criteria every time it runs?",
+    "Options": ["A) Select Query template", "B) Crosstab Query", "C) Parameter Query", "D) Action Delete configuration"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Advanced",
+    "Explanation": "Parameter Queries use variable tags wrapped in square brackets `[Enter City]` to trigger a user input prompt when run, making it easy to reuse the same query for different searches."
+  },
+  {
+    "QuestionText": "What type of data model maps database files using an inverted tree layout, where child records can connect to only a single parent node?",
+    "Options": ["A) Relational Database Model", "B) Hierarchical Database Model", "C) Network Database Model", "D) Object-Oriented Schema Matrix"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "The Hierarchical model organizes data records into a strict multi-level tree structure, where each child node is limited to a single parent link."
+  },
+  {
+    "QuestionText": "Which property in MS Access 2016 populates a text box field with a preset value automatically whenever a new row record is initialized?",
+    "Options": ["A) Validation Text field", "B) Default Value", "C) Input Mask profile", "D) AutoNumber alignment"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "The `Default Value` property pre-fills fields with standard values (like setting a country field to 'India' or a date field to `Date()`), speeding up data entry for common entries."
+  },
+  {
+    "QuestionText": "What database condition describes an update problem where changing an address in one table leaves old duplicate addresses scattered across un-normalized tables?",
+    "Options": ["A) Insertion Anomaly", "B) Modification / Update Anomaly", "C) Deletion Flaw", "D) Integrity Exception"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "Update anomalies happen when redundant data copies fall out of sync, requiring manual corrections across multiple rows because the database wasn't properly normalized."
+  },
+  {
+    "QuestionText": "What design tool in MS Access 2016 maps out a user-friendly dropdown list inside a table column field, letting users pick values from an external table or a custom static list?",
+    "Options": ["A) Lookup Wizard", "B) Input Mask configuration", "C) Validation text adjustments", "D) Macro compilation"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "The Lookup Wizard configures a field to display an interactive combo box or list box dropdown, drawing choices from another table to keep data entry consistent."
+  },
+  {
+    "QuestionText": "What group of SQL commands is used to manage database access permissions, utilizing keywords like GRANT and REVOKE to control user access privileges?",
+    "Options": ["A) DDL (Data Definition Language)", "B) DML (Data Manipulation Language)", "C) DCL (Data Control Language)", "D) TCL (Transaction Control Language)"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "DCL (Data Control Language) handles security administration, using `GRANT` and `REVOKE` to manage which user accounts have read or write access to database objects."
+  },
+  {
+    "QuestionText": "Which validation property in MS Access 2016 displays a customized text error message if an incoming data entry violates a predefined Validation Rule?",
+    "Options": ["A) Validation Rule parameter", "B) Validation Text", "C) Input Mask warning", "D) Error Macro routine"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "While the Validation Rule sets the logical test condition, the `Validation Text` property holds the friendly custom error message that pops up if a user enters invalid data."
+  },
+  {
+    "QuestionText": "What database architecture term describes an index made by combining multiple table column fields together to uniquely log a record row?",
+    "Options": ["A) Composite Key / Composite Primary Key", "B) Foreign identifier linkage", "C) Non-prime structural key", "D) Surrogate index module"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "A Composite Key uses a combination of columns to create a unique identifier, which is helpful when no single column can identify rows on its own."
+  },
+  {
+    "QuestionText": "In MS Access 2016, which query design pane grid section holds options for selecting fields, specifying table origins, sorting columns, and defining logical criteria?",
+    "Options": ["A) Navigation Pane options", "B) Design Grid / QBE (Query By Example) Grid", "C) Property Sheet panel", "D) SQL View console window"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "The lower QBE design grid lets developers visually configure query fields, sorting rules, and filter rows without having to write raw SQL commands."
+  },
+  {
+    "QuestionText": "What sort of database model handles complex relationship structures by allowing child records to link to multiple parent nodes, creating a multi-directional graph layout?",
+    "Options": ["A) Hierarchical Model", "B) Network Model", "C) Flat File directory", "D) Asymmetric cluster schema"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "The Network Model expands on hierarchical structures by supporting many-to-many relationships, allowing child records to connect to multiple parents across a web-like chart."
+  },
+  {
+    "QuestionText": "What SQL keyword removes duplicate records from query results, returning only unique value combinations across the selected columns?",
+    "Options": ["A) UNIQUE", "B) DISTINCT", "C) ISOLATE", "D) SINGLE"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "The `DISTINCT` keyword filters query outputs to remove duplicate rows, ensuring each returned record contains unique value pairs."
+  },
+  {
+    "QuestionText": "Which data verification field type in MS Access 2016 enforces a strict logical choice, restricting table entries to a checkbox format representing TRUE/FALSE or YES/NO values?",
+    "Options": ["A) Short Text", "B) Yes/No", "C) Hyperlink", "D) AutoNumber"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "MS Office - MS Access",
+    "Difficulty": "Foundation",
+    "Explanation": "The Yes/No data type stores binary states, displaying as a simple checkbox grid that records absolute boolean toggles ($0$ or $-1$)."
+  },
+  {
+    "QuestionText": "What field constraints describe a column in a secondary child table that references a primary key column in a parent table to connect the two data sets?",
+    "Options": ["A) Primary Key", "B) Foreign Key", "C) Candidate Index field", "D) Composite identifier"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "A Foreign Key acts as a relational bridge, linking records in a child table back to the corresponding primary key record in a parent table."
+  },
+  {
+    "QuestionText": "What SQL aggregate function calculates the total added sum of all numeric values across a targeted column selection?",
+    "Options": ["A) TOTAL()", "B) SUM()", "C) ADD()", "D) COUNT()"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Foundation",
+    "Explanation": "The `SUM()` aggregate function processes columns to calculate the total combined value of all numbers in the selected rows, ignoring any NULL entries."
+  },
+  {
+    "QuestionText": "What structural problem happens if an administrator deletes a record from a table that is still referenced by active foreign keys in child tables, breaking database consistency?",
+    "Options": ["A) Orphaned Records", "B) Data Redundancy inflation", "C) Transitive Dependency anomaly", "D) Atomic Value dilution"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "Orphaned records occur when a parent record is deleted but related child rows remain, leaving foreign keys that point to missing identifiers and breaking referential integrity."
+  },
+  {
+    "QuestionText": "Which operational clause is used in a SQL query script to group records that share identical column values, allowing aggregate functions to calculate summaries for each group?",
+    "Options": ["A) ORDER BY", "B) GROUP BY", "C) SORT BY", "D) CLUSTER BY"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Database Management Systems (DBMS)",
+    "Difficulty": "Advanced",
+    "Explanation": "The `GROUP BY` clause combines matching data values into summary rows, allowing aggregate tools (like `SUM` or `AVG`) to run calculations across specific groups like departments or categories."
+  }
+]

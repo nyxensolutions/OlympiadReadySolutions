@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which of the following is considered the 'father' of the modern computer?",
+    "Options": [
+      "A) Charles Babbage",
+      "B) Bill Gates",
+      "C) Steve Jobs",
+      "D) Alan Turing"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Foundation",
+    "Explanation": "Charles Babbage designed the 'Analytical Engine', which contained the basic logical structure of a modern computer."
+  },
+  {
+    "QuestionText": "What was the name of the first general-purpose electronic computer, which was massive in size?",
+    "Options": [
+      "A) ENIAC",
+      "B) IBM PC",
+      "C) Apple I",
+      "D) Super Computer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Foundation",
+    "Explanation": "ENIAC (Electronic Numerical Integrator and Computer) was the first large-scale, programmable electronic digital computer."
+  },
+  {
+    "QuestionText": "Which type of computer is designed to be carried around and fits on a person's lap?",
+    "Options": [
+      "A) Supercomputer",
+      "B) Desktop",
+      "C) Laptop",
+      "D) Mainframe"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Laptops are portable personal computers designed for mobile use."
+  },
+  {
+    "QuestionText": "Which computer is extremely powerful and used by scientists to perform complex calculations and weather forecasting?",
+    "Options": [
+      "A) Desktop",
+      "B) Supercomputer",
+      "C) Tablet",
+      "D) Smartphone"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Supercomputers are the fastest and most powerful computers, built to handle massive data processing."
+  },
+  {
+    "QuestionText": "What do we call the physical parts of a computer that you can touch?",
+    "Options": [
+      "A) Software",
+      "B) Hardware",
+      "C) Operating System",
+      "D) Application"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Hardware refers to the tangible components, like the monitor, keyboard, and mouse."
+  },
+  {
+    "QuestionText": "What acts as the brain of the computer?",
+    "Options": [
+      "A) Monitor",
+      "B) Mouse",
+      "C) CPU",
+      "D) Printer"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "The CPU (Central Processing Unit) performs all the processing and calculations."
+  },
+  {
+    "QuestionText": "Which of these is NOT a type of personal computer?",
+    "Options": [
+      "A) Desktop",
+      "B) Laptop",
+      "C) Mainframe",
+      "D) Tablet"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Mainframes are large, expensive computers used by big organizations, not typically for personal use."
+  },
+  {
+    "QuestionText": "Which generation of computers introduced the use of transistors?",
+    "Options": [
+      "A) First Generation",
+      "B) Second Generation",
+      "C) Third Generation",
+      "D) Fourth Generation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Intermediate",
+    "Explanation": "Second-generation computers replaced vacuum tubes with smaller, more reliable transistors."
+  },
+  {
+    "QuestionText": "A handheld computer that is primarily used by tapping the screen is called a:",
+    "Options": [
+      "A) Supercomputer",
+      "B) Tablet",
+      "C) Desktop",
+      "D) Server"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Tablets are portable devices with a touchscreen interface, lacking a physical keyboard."
+  },
+  {
+    "QuestionText": "Which term describes the programs and instructions that tell the computer what to do?",
+    "Options": [
+      "A) Hardware",
+      "B) Software",
+      "C) Peripheral",
+      "D) Case"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Software is the set of programs (like Windows or games) that run on the computer's hardware."
+  },
+  {
+    "QuestionText": "What technology was used in First Generation computers?",
+    "Options": [
+      "A) Transistors",
+      "B) Vacuum Tubes",
+      "C) Microprocessors",
+      "D) Artificial Intelligence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Intermediate",
+    "Explanation": "First-generation computers were large, slow, and used vacuum tubes which generated a lot of heat."
+  },
+  {
+    "QuestionText": "Which of the following is an example of an 'Embedded Computer'?",
+    "Options": [
+      "A) Laptop",
+      "B) Washing Machine",
+      "C) Desktop PC",
+      "D) Mainframe"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Intermediate",
+    "Explanation": "Embedded computers are small chips hidden inside devices like appliances to control their specific functions."
+  },
+  {
+    "QuestionText": "Which part of the computer stores data permanently even when the power is turned off?",
+    "Options": [
+      "A) RAM",
+      "B) CPU",
+      "C) Hard Disk",
+      "D) Monitor"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "A Hard Disk Drive (HDD) is a non-volatile storage device."
+  },
+  {
+    "QuestionText": "What does 'PC' stand for in computer terminology?",
+    "Options": [
+      "A) Personal Computer",
+      "B) Power Computer",
+      "C) Private Case",
+      "D) Processing Chip"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "PC stands for Personal Computer, designed for individual use."
+  },
+  {
+    "QuestionText": "Which generation of computers introduced Microprocessors?",
+    "Options": [
+      "A) Second",
+      "B) Third",
+      "C) Fourth",
+      "D) Fifth"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Advanced",
+    "Explanation": "The Fourth Generation used microprocessors, making computers much smaller, faster, and affordable."
+  },
+  {
+    "QuestionText": "What is the primary characteristic of a Desktop computer?",
+    "Options": [
+      "A) It is battery operated",
+      "B) It is designed to fit on a desk and usually stays in one place",
+      "C) It is designed to be carried in a pocket",
+      "D) It is only used by thousands of people at once"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Desktop computers are stationary units composed of separate monitor, CPU, and keyboard units."
+  },
+  {
+    "QuestionText": "Which type of computer is best for a student who needs to do homework on the go?",
+    "Options": [
+      "A) Mainframe",
+      "B) Supercomputer",
+      "C) Laptop",
+      "D) Desktop"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Laptops are lightweight and portable, making them ideal for schoolwork and travel."
+  },
+  {
+    "QuestionText": "Which of these is an example of an input device?",
+    "Options": [
+      "A) Monitor",
+      "B) Printer",
+      "C) Keyboard",
+      "D) Speaker"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A keyboard allows you to input data (text and commands) into the computer."
+  },
+  {
+    "QuestionText": "What is the main function of an Output device?",
+    "Options": [
+      "A) To give instructions to the computer",
+      "B) To process information",
+      "C) To display or show results to the user",
+      "D) To save files forever"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Output devices like monitors and printers present processed data to the user."
+  },
+  {
+    "QuestionText": "Which computer generation is associated with 'Artificial Intelligence'?",
+    "Options": [
+      "A) Second",
+      "B) Third",
+      "C) Fourth",
+      "D) Fifth"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Advanced",
+    "Explanation": "The fifth generation focuses on Artificial Intelligence (AI) to enable computers to learn and make decisions."
+  },
+  {
+    "QuestionText": "What does 'RAM' stand for in a computer?",
+    "Options": [
+      "A) Read Always Memory",
+      "B) Random Access Memory",
+      "C) Rapid Access Mechanism",
+      "D) Readily Available Memory"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "RAM is the temporary memory used by the computer to store data that is actively being used."
+  },
+  {
+    "QuestionText": "Which of these computers is powerful enough to manage a whole network of other computers?",
+    "Options": [
+      "A) Tablet",
+      "B) Smartphone",
+      "C) Server",
+      "D) Calculator"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Intermediate",
+    "Explanation": "Servers are powerful computers configured to provide services, files, and resources to other computers on a network."
+  },
+  {
+    "QuestionText": "What device can be used to control the movement of a cursor on the screen?",
+    "Options": [
+      "A) Speaker",
+      "B) Printer",
+      "C) Mouse",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "The mouse is a pointing device used to interact with graphical user interfaces."
+  },
+  {
+    "QuestionText": "Which generation used 'Integrated Circuits' (ICs)?",
+    "Options": [
+      "A) First",
+      "B) Second",
+      "C) Third",
+      "D) Fourth"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Advanced",
+    "Explanation": "Third-generation computers used Integrated Circuits (ICs), which combined many transistors onto a single chip."
+  },
+  {
+    "QuestionText": "Is a calculator a type of computer?",
+    "Options": [
+      "A) Yes, it is a simple computer",
+      "B) No, it can't run games",
+      "C) No, it is not electronic",
+      "D) Yes, it can browse the internet"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A computer is any machine that can perform calculations, making a calculator a specialized form of a computer."
+  },
+  {
+    "QuestionText": "Which type of computer is often found in an ATM?",
+    "Options": [
+      "A) Embedded Computer",
+      "B) Supercomputer",
+      "C) Mainframe",
+      "D) Laptop"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Intermediate",
+    "Explanation": "An ATM uses an embedded computer to manage cash dispensing and balance inquiries."
+  },
+  {
+    "QuestionText": "Which of these is an example of System Software?",
+    "Options": [
+      "A) Windows OS",
+      "B) MS Paint",
+      "C) MS Word",
+      "D) A Video Game"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "Windows is an Operating System, which is the core system software that manages hardware."
+  },
+  {
+    "QuestionText": "A computer that is very small and fits in your pocket is a:",
+    "Options": [
+      "A) Smartphone",
+      "B) Mainframe",
+      "C) Desktop",
+      "D) Server"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Modern smartphones have the computing power of early desktop computers and fit in a pocket."
+  },
+  {
+    "QuestionText": "What does 'CPU' stand for?",
+    "Options": [
+      "A) Central Processing Unit",
+      "B) Computer Personal Unit",
+      "C) Central Program Unit",
+      "D) Core Processing Unit"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "The CPU is the central part of the computer that processes all instructions."
+  },
+  {
+    "QuestionText": "What allows a computer to display images and text?",
+    "Options": [
+      "A) Keyboard",
+      "B) Monitor",
+      "C) Mouse",
+      "D) CPU"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "The monitor is the primary visual output device."
+  },
+  {
+    "QuestionText": "Which of the following is used to type documents?",
+    "Options": [
+      "A) Mouse",
+      "B) Monitor",
+      "C) Keyboard",
+      "D) Speaker"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A keyboard is the standard tool for inputting text."
+  },
+  {
+    "QuestionText": "Which part of the computer makes the sound?",
+    "Options": [
+      "A) Monitor",
+      "B) Printer",
+      "C) Speakers",
+      "D) Mouse"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Speakers are output devices that convert electronic signals into audio."
+  },
+  {
+    "QuestionText": "Is a printer a hardware device?",
+    "Options": [
+      "A) Yes",
+      "B) No",
+      "C) Only if it's connected to a laptop",
+      "D) Only if it's a color printer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A printer is a piece of physical equipment, therefore it is hardware."
+  },
+  {
+    "QuestionText": "Which device is used to scan images or documents into a computer?",
+    "Options": [
+      "A) Printer",
+      "B) Scanner",
+      "C) Speaker",
+      "D) Monitor"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "A scanner is an input device that creates a digital version of a physical document."
+  },
+  {
+    "QuestionText": "What is the purpose of an 'Operating System'?",
+    "Options": [
+      "A) To play games",
+      "B) To manage hardware and run other software programs",
+      "C) To create documents",
+      "D) To store pictures only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "The OS acts as an intermediary between the hardware and the user's software applications."
+  },
+  {
+    "QuestionText": "Which of these is a portable, flat computer device?",
+    "Options": [
+      "A) Desktop",
+      "B) Tablet",
+      "C) Mainframe",
+      "D) Server"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Tablets are thin, portable computers dominated by a touch-screen display."
+  },
+  {
+    "QuestionText": "Which computer type is best for a very large company with thousands of employees accessing it simultaneously?",
+    "Options": [
+      "A) Laptop",
+      "B) Tablet",
+      "C) Mainframe",
+      "D) Smartphone"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Intermediate",
+    "Explanation": "Mainframes are built to process millions of transactions at once for huge organizations."
+  },
+  {
+    "QuestionText": "What is another name for a computer screen?",
+    "Options": [
+      "A) CPU",
+      "B) VDU (Visual Display Unit)",
+      "C) Hard Drive",
+      "D) Motherboard"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "A monitor is technically called a Visual Display Unit (VDU)."
+  },
+  {
+    "QuestionText": "Which component is inside the CPU case and holds all main components together?",
+    "Options": [
+      "A) Motherboard",
+      "B) Mouse",
+      "C) Monitor",
+      "D) Printer"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Intermediate",
+    "Explanation": "The motherboard is the main circuit board that connects all the computer's components."
+  },
+  {
+    "QuestionText": "A computer game is an example of:",
+    "Options": [
+      "A) Hardware",
+      "B) Software",
+      "C) A peripheral device",
+      "D) An OS"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A game is a specific application program, making it software."
+  },
+  {
+    "QuestionText": "Which button is usually used to click items on a screen?",
+    "Options": [
+      "A) Right click",
+      "B) Left click",
+      "C) Scroll wheel",
+      "D) Power button"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "The left mouse button is the default for selecting or 'clicking' objects."
+  },
+  {
+    "QuestionText": "What does a computer do with information?",
+    "Options": [
+      "A) Stores it",
+      "B) Processes it",
+      "C) Displays it",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A computer performs the cycle of input, processing, storage, and output."
+  },
+  {
+    "QuestionText": "What do we call the 'on/off' state of computer bits?",
+    "Options": [
+      "A) Binary",
+      "B) Decimal",
+      "C) Alphabet",
+      "D) Color"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Advanced",
+    "Explanation": "Computers work using binary, represented as 0s (off) and 1s (on)."
+  },
+  {
+    "QuestionText": "Which part of the computer allows us to see printed results on paper?",
+    "Options": [
+      "A) Monitor",
+      "B) Printer",
+      "C) Mouse",
+      "D) CPU"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "The printer is the output device for 'hard copy' results."
+  },
+  {
+    "QuestionText": "Which type of computer is used to play high-end games?",
+    "Options": [
+      "A) Gaming PC/Laptop",
+      "B) Basic Calculator",
+      "C) Simple Smartphone",
+      "D) Old Mainframe"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Gaming PCs have high-performance hardware, specifically powerful graphics cards, to handle complex visual calculations."
+  },
+  {
+    "QuestionText": "What does it mean when a computer is 'portable'?",
+    "Options": [
+      "A) It is very expensive",
+      "B) It is heavy and fixed in one place",
+      "C) It is light and easy to carry",
+      "D) It doesn't work without a power cord"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Portability refers to the ability to move the computer around easily."
+  },
+  {
+    "QuestionText": "Which generation used 'Vacuum Tubes'?",
+    "Options": [
+      "A) First",
+      "B) Second",
+      "C) Third",
+      "D) Fourth"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "History and Evolution",
+    "Difficulty": "Intermediate",
+    "Explanation": "First-generation computers relied on vacuum tubes, which were large and unreliable."
+  },
+  {
+    "QuestionText": "Can you run a program without an Operating System?",
+    "Options": [
+      "A) Yes, easily",
+      "B) No, the OS is required to manage the hardware for the program",
+      "C) Only if it's a small program",
+      "D) Yes, but it will be slow"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "The Operating System manages the computer's resources (CPU, memory, storage) and allows software to interact with the hardware."
+  },
+  {
+    "QuestionText": "Which of these is a popular desktop OS?",
+    "Options": [
+      "A) MS Word",
+      "B) Windows",
+      "C) Paint",
+      "D) Calculator"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Windows is a widely used Operating System for desktop and laptop computers."
+  },
+  {
+    "QuestionText": "The device used to store data in a portable way is often called:",
+    "Options": [
+      "A) USB Flash Drive",
+      "B) CPU",
+      "C) Monitor",
+      "D) Motherboard"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Introduction to Computers",
+    "SubTopic": "Basic Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "A USB drive is small, portable, and stores data electronically."
+  }
+]

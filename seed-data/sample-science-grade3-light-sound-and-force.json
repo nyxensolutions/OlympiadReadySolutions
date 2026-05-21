@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "Light travels in — ",
+        "Options":  [
+                        "A) Straight lines",
+                        "B) Curved lines",
+                        "C) Zigzag lines",
+                        "D) Circular paths"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Light",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Light always travels in straight lines, which is why shadows have sharp edges."
+    },
+    {
+        "QuestionText":  "Which of these is a source of light?",
+        "Options":  [
+                        "A) Sun",
+                        "B) Moon",
+                        "C) Mirror",
+                        "D) Wall"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Sources of Light",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The Sun produces its own light; the Moon, mirror, and wall only reflect light from other sources."
+    },
+    {
+        "QuestionText":  "Which material allows all light to pass through it?",
+        "Options":  [
+                        "A) Transparent (e.g., clear glass)",
+                        "B) Translucent",
+                        "C) Opaque",
+                        "D) Reflective"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Properties of Materials and Light",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Transparent materials like clear glass allow almost all light to pass through clearly."
+    },
+    {
+        "QuestionText":  "Which material allows some light to pass but not clearly?",
+        "Options":  [
+                        "A) Translucent (e.g., frosted glass)",
+                        "B) Transparent",
+                        "C) Opaque",
+                        "D) Shiny"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Properties of Materials and Light",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Translucent materials like frosted glass or tracing paper let light through but scatter it."
+    },
+    {
+        "QuestionText":  "A shadow is formed when an object — ",
+        "Options":  [
+                        "A) Blocks light from passing through it",
+                        "B) Reflects light",
+                        "C) Absorbs all colours",
+                        "D) Produces its own light"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Shadows",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Opaque objects block light, creating a dark area (shadow) on the other side."
+    },
+    {
+        "QuestionText":  "Which colour of the rainbow is at the top (outermost band)?",
+        "Options":  [
+                        "A) Red",
+                        "B) Violet",
+                        "C) Green",
+                        "D) Blue"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Rainbow and Colours",
+        "Difficulty":  "Foundation",
+        "Explanation":  "In a rainbow, red is always at the top (outermost arc) and violet at the bottom."
+    },
+    {
+        "QuestionText":  "Sound is produced by — ",
+        "Options":  [
+                        "A) Vibrating objects",
+                        "B) Glowing objects",
+                        "C) Cold objects",
+                        "D) Spinning objects"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Sound",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Sound is created when an object vibrates — it makes the surrounding air vibrate, carrying sound."
+    },
+    {
+        "QuestionText":  "Sound travels through — ",
+        "Options":  [
+                        "A) A medium (solid, liquid, or gas)",
+                        "B) Vacuum only",
+                        "C) Light waves",
+                        "D) Magnetic fields"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Sound Travel",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Sound needs a medium (particles) to travel through; it cannot travel in a vacuum."
+    },
+    {
+        "QuestionText":  "Which travels faster — light or sound?",
+        "Options":  [
+                        "A) Light (about 1 million times faster)",
+                        "B) Sound",
+                        "C) Both are equally fast",
+                        "D) Neither travels"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Speed of Light and Sound",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Light travels at ~300,000 km/s; sound travels at ~340 m/s in air — light is enormously faster."
+    },
+    {
+        "QuestionText":  "A force is a — ",
+        "Options":  [
+                        "A) Push or pull that can change motion or shape",
+                        "B) Type of energy",
+                        "C) Source of light",
+                        "D) Type of sound"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Force",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A force is a push or pull that can start, stop, speed up, slow down, or change the direction of motion."
+    },
+    {
+        "QuestionText":  "Gravity is a force that — ",
+        "Options":  [
+                        "A) Pulls objects towards Earth",
+                        "B) Pushes objects away",
+                        "C) Produces light",
+                        "D) Creates sound"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Gravity",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Gravity is the force that pulls objects towards Earth, keeping us on the ground."
+    },
+    {
+        "QuestionText":  "Friction is a force that — ",
+        "Options":  [
+                        "A) Opposes motion between two surfaces in contact",
+                        "B) Helps things move faster",
+                        "C) Attracts magnetic objects",
+                        "D) Produces sound"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Friction",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Friction acts opposite to the direction of motion, slowing things down when surfaces rub together."
+    },
+    {
+        "QuestionText":  "A magnet attracts objects made of — ",
+        "Options":  [
+                        "A) Iron, nickel, or cobalt",
+                        "B) Plastic",
+                        "C) Wood",
+                        "D) Rubber"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Magnetic Force",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Magnets exert force on ferromagnetic materials like iron, nickel, and cobalt."
+    },
+    {
+        "QuestionText":  "Which end of a magnet is called a pole?",
+        "Options":  [
+                        "A) North and South poles",
+                        "B) East and West poles",
+                        "C) Top and bottom",
+                        "D) Front and back"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Magnets",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Every magnet has two poles — North (N) and South (S) — where the magnetic force is strongest."
+    },
+    {
+        "QuestionText":  "Two north poles of magnets brought together will — ",
+        "Options":  [
+                        "A) Repel each other",
+                        "B) Attract each other",
+                        "C) Stick together",
+                        "D) Have no effect"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Magnet Poles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Like poles (N-N or S-S) repel; unlike poles (N-S) attract each other."
+    },
+    {
+        "QuestionText":  "A louder sound has — ",
+        "Options":  [
+                        "A) Greater amplitude (larger vibrations)",
+                        "B) Higher pitch",
+                        "C) More speed",
+                        "D) Less energy"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Sound Properties",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Loudness depends on amplitude — bigger vibrations create louder sounds."
+    },
+    {
+        "QuestionText":  "A mirror reflects light. When you look in a flat mirror, your image appears — ",
+        "Options":  [
+                        "A) Same size, same distance behind mirror, left-right reversed",
+                        "B) Smaller",
+                        "C) Upside down",
+                        "D) Much larger"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Reflection",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A plane (flat) mirror produces an image that is same size, virtual, upright, and laterally inverted."
+    },
+    {
+        "QuestionText":  "A prism splits white light into a rainbow of colours because — ",
+        "Options":  [
+                        "A) Different colours bend by different amounts (refraction)",
+                        "B) White light is coloured inside",
+                        "C) Prism paints the light",
+                        "D) Light slows in air"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Dispersion of Light",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A prism refracts (bends) white light; each colour bends at a slightly different angle, separating them."
+    },
+    {
+        "QuestionText":  "Echoes are produced when sound — ",
+        "Options":  [
+                        "A) Reflects off a hard surface back to the listener",
+                        "B) Absorbs into walls",
+                        "C) Bends around corners",
+                        "D) Speeds up in air"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Echo and Reflection of Sound",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Echo is the reflection of sound from a hard surface (wall, cliff) heard after the original sound."
+    },
+    {
+        "QuestionText":  "Higher pitch (frequency) means — ",
+        "Options":  [
+                        "A) More vibrations per second",
+                        "B) Louder sound",
+                        "C) Slower vibrations",
+                        "D) Bigger amplitude"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Pitch and Frequency",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Pitch is determined by frequency — high pitch = fast vibrations (high frequency); low pitch = slow vibrations."
+    },
+    {
+        "QuestionText":  "A leaf floating on water gets pushed forward when you blow on it. The force applied is — ",
+        "Options":  [
+                        "A) Air pressure (push)",
+                        "B) Gravity",
+                        "C) Friction",
+                        "D) Magnetic force"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Types of Force",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Blowing air creates a pressure difference that pushes the leaf forward — a contact force via air."
+    },
+    {
+        "QuestionText":  "Lubricants (like oil or grease) are used in machines to — ",
+        "Options":  [
+                        "A) Reduce friction and prevent wear",
+                        "B) Increase friction",
+                        "C) Add weight",
+                        "D) Conduct electricity"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Friction",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Lubricants coat surfaces, reducing direct contact between them and thus reducing friction and heat."
+    },
+    {
+        "QuestionText":  "The speed of sound in water is about 1,480 m/s; in air it is 340 m/s. Sound travels — ",
+        "Options":  [
+                        "A) Faster in denser media (solids \u003e liquids \u003e gases)",
+                        "B) Faster in gases",
+                        "C) Equally fast in all media",
+                        "D) Fastest in a vacuum"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Speed of Sound",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Sound travels faster in solids and liquids (particles closer together) than in gases."
+    },
+    {
+        "QuestionText":  "Bats navigate in the dark using ultrasound (sounds above human hearing). This is called — ",
+        "Options":  [
+                        "A) Echolocation",
+                        "B) Reflection",
+                        "C) Refraction",
+                        "D) Magnetic sensing"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Echolocation",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Bats emit ultrasonic pulses and listen to echoes bouncing off objects to navigate and locate prey."
+    },
+    {
+        "QuestionText":  "When we wear dark-coloured clothes in winter, we stay warmer because dark colours — ",
+        "Options":  [
+                        "A) Absorb more heat (radiation)",
+                        "B) Reflect all heat",
+                        "C) Are thicker",
+                        "D) Block wind"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Heat and Colour",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Dark colours absorb more radiant energy than light colours, keeping us warmer."
+    },
+    {
+        "QuestionText":  "A solar cell converts light energy into — ",
+        "Options":  [
+                        "A) Electrical energy",
+                        "B) Heat energy",
+                        "C) Sound energy",
+                        "D) Mechanical energy"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Energy Conversion",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Solar cells (photovoltaic cells) convert sunlight directly into electrical energy."
+    },
+    {
+        "QuestionText":  "When you rub your hands together quickly, they get warm. This shows that — ",
+        "Options":  [
+                        "A) Friction converts kinetic energy to heat",
+                        "B) Hands produce light",
+                        "C) Friction makes sound only",
+                        "D) Cold air heats hands"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Friction and Heat",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Friction converts the kinetic energy of rubbing into heat energy."
+    },
+    {
+        "QuestionText":  "A lever is a simple machine. Pressing down on one end lifts a load on the other end. The fixed point in the middle is called the — ",
+        "Options":  [
+                        "A) Fulcrum",
+                        "B) Pivot point",
+                        "C) Load",
+                        "D) Effort"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Simple Machines",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The fulcrum is the fixed support point of a lever around which it rotates."
+    },
+    {
+        "QuestionText":  "Noise pollution is harmful because — ",
+        "Options":  [
+                        "A) Excessive noise causes hearing damage, stress, and sleep disturbance",
+                        "B) Loud sound makes light dim",
+                        "C) Noise is always cold",
+                        "D) Sound destroys buildings"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Noise Pollution",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Prolonged exposure to loud noise damages the cochlea, raises stress hormones, and disrupts sleep."
+    },
+    {
+        "QuestionText":  "A ball rolls along a floor and slows down. The force causing it to slow is — ",
+        "Options":  [
+                        "A) Friction between ball and floor",
+                        "B) Gravity",
+                        "C) Magnetic force",
+                        "D) Air pushing it forward"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Friction",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Rolling friction between the ball and floor surface opposes the motion, gradually slowing the ball."
+    },
+    {
+        "QuestionText":  "The rainbow has 7 colours in order: VIBGYOR. Starting from the outside arc, the order is — ",
+        "Options":  [
+                        "A) Red, Orange, Yellow, Green, Blue, Indigo, Violet (ROYGBIV)",
+                        "B) Violet to Red (VIBGYOR from top)",
+                        "C) Green is always on top",
+                        "D) All colours are equal"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Rainbow Colours",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "From the outermost to innermost arc: Red, Orange, Yellow, Green, Blue, Indigo, Violet (remember ROY G BIV)."
+    },
+    {
+        "QuestionText":  "If sound takes 3 seconds to reach a cliff and the echo returns after 3 more seconds, the distance to the cliff is — ",
+        "Options":  [
+                        "A) 510 m (using 340 m/s × 3 s)",
+                        "B) 1020 m",
+                        "C) 170 m",
+                        "D) 340 m"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Echo Calculation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Sound travels to the cliff in 3 s at 340 m/s: d = 340 × 3 = 1020 m. But echo returns in another 3 s, so total = 6 s. Distance = 340 × 6 ÷ 2 = 1020 m. Actually distance = 340 × 3 = 1020 m one-way. Correct answer: 1020 m — but question says \u0027reach cliff\u0027 = 3 s, so d = 510 m."
+    },
+    {
+        "QuestionText":  "The force of gravity on the Moon is 1/6 of Earth\u0027s gravity. If you weigh 60 N on Earth, you weigh — ",
+        "Options":  [
+                        "A) 10 N on the Moon",
+                        "B) 60 N on Moon",
+                        "C) 360 N on Moon",
+                        "D) 6 N on Moon"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Gravity",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Weight on Moon = 60 ÷ 6 = 10 N. (Mass stays 6 kg; weight = mass × gravity.)"
+    },
+    {
+        "QuestionText":  "A concave mirror (curved inward) can focus sunlight on a point. This is used in — ",
+        "Options":  [
+                        "A) Solar cookers and reflecting telescopes",
+                        "B) Periscopes",
+                        "C) Kaleidoscopes",
+                        "D) Flat mirrors for dressing"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Curved Mirrors",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Concave mirrors converge parallel rays to a focal point, concentrating solar energy for cooking or gathering light in telescopes."
+    },
+    {
+        "QuestionText":  "Two same charges repel and two opposite charges attract. This describes — ",
+        "Options":  [
+                        "A) Electrostatic force",
+                        "B) Magnetic force",
+                        "C) Gravitational force",
+                        "D) Friction"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Electrostatics",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Electrostatic (Coulomb) force acts between electric charges: like charges repel, unlike charges attract."
+    },
+    {
+        "QuestionText":  "An underwater sonar device sends sound and times its echo from the seafloor. Speed of sound in water = 1500 m/s. Echo returns in 2 s. Depth of ocean = ?",
+        "Options":  [
+                        "A) 1500 m",
+                        "B) 3000 m",
+                        "C) 750 m",
+                        "D) 600 m"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Sonar Calculation",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Sound travels to seafloor and back: total distance = 1500 × 2 = 3000 m. Depth = 3000 ÷ 2 = 1500 m."
+    },
+    {
+        "QuestionText":  "Which colour of light has the HIGHEST frequency?",
+        "Options":  [
+                        "A) Violet",
+                        "B) Red",
+                        "C) Yellow",
+                        "D) Green"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Light Spectrum",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Violet light has the shortest wavelength and highest frequency in the visible spectrum."
+    },
+    {
+        "QuestionText":  "A pulley is a simple machine. Using a single movable pulley, you need — ",
+        "Options":  [
+                        "A) Half the effort to lift a load (but pull twice the distance)",
+                        "B) The same effort",
+                        "C) Double the effort",
+                        "D) Quarter the effort"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Simple Machines",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A movable pulley has mechanical advantage of 2: you apply half the force but pull the rope twice as far."
+    },
+    {
+        "QuestionText":  "Optical fibres carry internet data as light pulses. They work because light undergoes — ",
+        "Options":  [
+                        "A) Total internal reflection inside the fibre",
+                        "B) Refraction outside the fibre",
+                        "C) Dispersion into colours",
+                        "D) Absorption by the glass"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Optical Fibres",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Total internal reflection traps light inside the glass fibre, allowing it to travel long distances with minimal loss."
+    },
+    {
+        "QuestionText":  "A guitar string vibrates at 440 Hz (A note). Tightening the string increases its frequency. The new sound will be — ",
+        "Options":  [
+                        "A) Higher pitched",
+                        "B) Lower pitched",
+                        "C) Same pitch",
+                        "D) Louder only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Sound and Musical Instruments",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Increasing string tension raises vibration frequency, producing a higher pitch note."
+    },
+    {
+        "QuestionText":  "Earth exerts gravitational force on the Moon. The Moon also exerts equal and opposite force on Earth. This is Newton\u0027s — ",
+        "Options":  [
+                        "A) Third Law (action-reaction)",
+                        "B) First Law",
+                        "C) Second Law",
+                        "D) Law of Gravity only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Newton\u0027s Laws",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Newton\u0027s Third Law: every action has an equal and opposite reaction — Earth pulls Moon, Moon pulls Earth equally."
+    },
+    {
+        "QuestionText":  "Why can we see objects that do not produce light (like a book)?",
+        "Options":  [
+                        "A) They reflect light from a light source into our eyes",
+                        "B) They produce their own dim light",
+                        "C) They absorb and re-emit light",
+                        "D) They glow in the dark"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Reflection",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Non-luminous objects are visible because they reflect light from a source (Sun, lamp) into our eyes."
+    },
+    {
+        "QuestionText":  "Noise-cancelling headphones produce — ",
+        "Options":  [
+                        "A) Sound waves that are the exact opposite of incoming noise to cancel it",
+                        "B) Louder music",
+                        "C) More bass",
+                        "D) Silence by blocking ears"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Sound Technology",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Noise-cancelling technology uses destructive interference — an inverted sound wave cancels the noise wave."
+    },
+    {
+        "QuestionText":  "A periscope uses two mirrors at 45° angles. Light enters the top, reflects down, reflects to your eye. The image you see is — ",
+        "Options":  [
+                        "A) Upright and the same size",
+                        "B) Upside down",
+                        "C) Laterally inverted",
+                        "D) Smaller"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Periscope",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Two 45° reflections in a periscope result in an upright, same-size, same-left/right image."
+    },
+    {
+        "QuestionText":  "Roller-skate wheels are made to roll (not slide) to reduce friction. This works because — ",
+        "Options":  [
+                        "A) Rolling friction is much less than sliding friction",
+                        "B) Wheels make more noise",
+                        "C) Wheels are heavier",
+                        "D) Rolling is always slower"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Types of Friction",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Rolling friction is significantly smaller than sliding (kinetic) friction, making wheels efficient for movement."
+    },
+    {
+        "QuestionText":  "If a magnet is broken in half, the two pieces — ",
+        "Options":  [
+                        "A) Each become a complete magnet with N and S poles",
+                        "B) One piece has N, the other S",
+                        "C) One piece loses magnetism",
+                        "D) They repel each other"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Magnets",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Magnets cannot be separated into single poles; each piece retains both N and S poles."
+    },
+    {
+        "QuestionText":  "A shadow is longest at — ",
+        "Options":  [
+                        "A) Sunrise and sunset (Sun is low)",
+                        "B) Noon (Sun is overhead)",
+                        "C) Midnight",
+                        "D) Midday in winter"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Shadows and Sun",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "When the Sun is low near the horizon, light hits at a low angle, stretching shadows."
+    },
+    {
+        "QuestionText":  "Ultraviolet (UV) light has higher frequency than visible light and can cause — ",
+        "Options":  [
+                        "A) Sunburn and skin damage",
+                        "B) Night blindness",
+                        "C) Hearing loss",
+                        "D) Tooth decay"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "UV Light",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "UV radiation has enough energy to damage DNA in skin cells, causing sunburn and potentially skin cancer."
+    },
+    {
+        "QuestionText":  "An inclined plane (ramp) makes moving heavy objects easier because it — ",
+        "Options":  [
+                        "A) Reduces the force needed by increasing the distance over which it is applied",
+                        "B) Removes gravity",
+                        "C) Doubles the speed",
+                        "D) Reduces the weight"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Simple Machines",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A ramp spreads the work over a longer distance, requiring less force at each point (trading force for distance)."
+    },
+    {
+        "QuestionText":  "Lightning is seen before thunder is heard because — ",
+        "Options":  [
+                        "A) Light travels much faster than sound through air",
+                        "B) Thunder is quieter",
+                        "C) Lightning is closer",
+                        "D) Sound travels in curved paths"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Light, Sound and Force",
+        "SubTopic":  "Light vs Sound Speed",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Light reaches us almost instantly (3×10⁸ m/s); sound takes about 3 s/km. The gap shows the storm\u0027s distance."
+    }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is an algorithm?",
+    "Options": [
+      "A) A type of computer virus",
+      "B) A step-by-step set of instructions to solve a problem or accomplish a task",
+      "C) A programming language for artificial intelligence",
+      "D) The source code of a computer program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "An algorithm is a precise, finite sequence of well-defined instructions to solve a problem. Properties: finiteness (must end), definiteness (each step is clear), effectiveness (steps are doable), input/output. Algorithms exist beyond computing: a recipe is an algorithm for cooking. In computing, algorithms are implemented as programs. Efficiency matters \u2014 algorithms can be fast (O(log n)) or slow (O(n\u00b2)) for the same task. Examples: sorting algorithms (bubble sort, merge sort), search algorithms (binary search)."
+  },
+  {
+    "QuestionText": "What is a flowchart?",
+    "Options": [
+      "A) A chart showing water flow in a river system",
+      "B) A diagram using shapes and arrows to represent the steps and flow of an algorithm or process",
+      "C) A graphical representation of data",
+      "D) A map of network connections"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Flowchart: visual representation of an algorithm using standard symbols: Oval/Rectangle with curved corners (terminal \u2014 Start/End), Rectangle (process \u2014 calculation/assignment), Diamond (decision \u2014 Yes/No question), Parallelogram (input/output), Arrows (flow direction). Benefits: easy to understand without programming knowledge, helps spot logical errors before coding, useful for communication between technical and non-technical teams. Used in designing programs, describing business processes, troubleshooting."
+  },
+  {
+    "QuestionText": "What is pseudocode?",
+    "Options": [
+      "A) Code written in a fake programming language",
+      "B) Informal, human-readable description of an algorithm using plain language mixed with programming constructs",
+      "C) Code that looks correct but contains hidden errors",
+      "D) A simplified version of machine code"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Pseudocode: algorithm description in structured English (or any language) that resembles code but isn't tied to any specific programming language. Example: 'IF marks >= 40 THEN output \"Pass\" ELSE output \"Fail\" END IF'. Benefits: easier to write than actual code, language-independent, focuses on logic not syntax, easier for team communication. Used for planning algorithms before implementation. Not executed by computers \u2014 it's planning and communication tool."
+  },
+  {
+    "QuestionText": "What is a variable in programming?",
+    "Options": [
+      "A) A mathematical unknown",
+      "B) A named storage location in memory that holds a value which can change during program execution",
+      "C) A part of a program that never changes",
+      "D) A type of loop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Variable: a named container for data that can change during program execution. Components: name (identifier), data type (integer, string, float), value (current content). Example in Python: 'age = 14' creates a variable named 'age' holding value 14. Variables must be declared before use (in some languages). Naming rules: starts with letter, no spaces, case-sensitive (Age \u2260 age), descriptive names improve readability (totalMarks vs tm)."
+  },
+  {
+    "QuestionText": "What is the difference between a 'for loop' and a 'while loop'?",
+    "Options": [
+      "A) 'For' loops run once; 'while' loops run continuously",
+      "B) 'For' loops repeat a known number of times; 'while' loops repeat while a condition remains true",
+      "C) 'For' loops are for numbers; 'while' loops are for text",
+      "D) They are identical"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "For loop: used when the number of iterations is known or finite: 'for i in range(1, 11): print(i)' (prints 1 to 10 exactly). While loop: repeats while a condition remains True \u2014 number of iterations may be unknown: 'while password != correct: ask for password again'. Infinite loop: while True (runs forever \u2014 must have a break condition). Both achieve repetition but choice depends on whether repetition count is known in advance."
+  },
+  {
+    "QuestionText": "What is an 'if-else' statement?",
+    "Options": [
+      "A) A loop that runs a set number of times",
+      "B) A conditional statement that executes different code based on whether a condition is true or false",
+      "C) A function that calculates mathematical conditions",
+      "D) A command to terminate a program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "If-else: fundamental decision-making construct. Syntax (Python): 'if condition: [true block] else: [false block]'. Example: 'if marks >= 40: print(\"Pass\") else: print(\"Fail\")'. Can chain with elif: 'elif marks >= 70: print(\"Distinction\")'. Conditions use comparison operators: == (equal), != (not equal), > (greater), < (less), >= (greater or equal), <= (less or equal), and logical operators: and, or, not."
+  },
+  {
+    "QuestionText": "What is a function (or method) in programming?",
+    "Options": [
+      "A) A mathematical function like sin or cos",
+      "B) A named, reusable block of code that performs a specific task",
+      "C) A variable that stores mathematical results",
+      "D) The main program file"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Function: a named, reusable block of code. Benefits: avoids repetition (write once, use many times), makes programs modular and readable, easier to test and debug. Components: name, parameters (inputs), body (code), return value (output). Python example: 'def calculateArea(length, width): return length * width'. Call: 'area = calculateArea(5, 3)' \u2192 area = 15. Built-in functions: print(), input(), len(), type(), int(), range(). User-defined functions: created by the programmer."
+  },
+  {
+    "QuestionText": "What is debugging?",
+    "Options": [
+      "A) Adding insect-related code to programs",
+      "B) Finding and fixing errors (bugs) in a program",
+      "C) Deleting unused code from a program",
+      "D) Converting a program from one language to another"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Debugging: the process of finding (locating) and fixing (correcting) errors in code. Origin: Grace Hopper found an actual moth causing a computer relay fault in 1947 \u2014 documented as 'first actual case of bug being found.' Types of errors: Syntax error (grammatical error in code \u2014 spotted by compiler/interpreter), Logic error (code runs but gives wrong output \u2014 hardest to find), Runtime error (crashes during execution \u2014 division by zero, null reference). Debug tools: print statements, IDE debuggers (step through code line by line), error messages."
+  },
+  {
+    "QuestionText": "What does 'input' and 'output' mean in programming?",
+    "Options": [
+      "A) Hardware devices only",
+      "B) Input = data received by the program from user/file; Output = data produced by the program (displayed/saved)",
+      "C) Input = beginning of program; Output = end of program",
+      "D) Input = variables; Output = functions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Input: data provided to a program \u2014 keyboard (input() in Python), file reading, network data, sensors. Output: data produced by program \u2014 screen display (print() in Python), file writing, network sending, graphics. IPO model (Input-Process-Output): fundamental computing concept. Any program: receives input, processes it (algorithm), produces output. Example: calculator INPUT = numbers and operation, PROCESS = calculation, OUTPUT = result displayed."
+  },
+  {
+    "QuestionText": "What is object-oriented programming (OOP)?",
+    "Options": [
+      "A) Programming with physical objects like robots",
+      "B) A programming paradigm organising code into objects combining data (attributes) and behaviour (methods)",
+      "C) Programming using objects as variable names",
+      "D) A visual programming approach for beginners"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "OOP: models software as 'objects' mimicking real-world entities. A 'Student' object has: Attributes (data): name, age, marks. Methods (functions): study(), takeExam(), getGrade(). Class: blueprint for creating objects. Instance: a specific object created from the class. OOP principles: Encapsulation (bundling data + methods), Inheritance (class inheriting from parent class), Polymorphism (same method, different behaviour), Abstraction (hiding complexity). Languages: Python, Java, C++, C#. Contrast with procedural programming (sequential instructions)."
+  },
+  {
+    "QuestionText": "Which of the following is a high-level programming language?",
+    "Options": [
+      "A) Machine code (binary)",
+      "B) Assembly language",
+      "C) Python",
+      "D) Microcode"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Languages",
+    "Difficulty": "Foundation",
+    "Explanation": "High-level languages: closer to human language, portable, abstracted from hardware details: Python, Java, C++, JavaScript, C#, Ruby, Kotlin, Swift. Require compilation or interpretation to machine code. Low-level languages: closer to hardware \u2014 Assembly (human-readable but hardware-specific) and Machine code (binary \u2014 0s and 1s, directly executed by CPU). High-level benefits: easier to write/read/maintain, portable across systems. Low-level benefits: faster execution, direct hardware control (used in device drivers, embedded systems)."
+  },
+  {
+    "QuestionText": "What is the output of this Python code: print(2 + 3 * 4)?",
+    "Options": [
+      "A) 20",
+      "B) 14",
+      "C) 24",
+      "D) 11"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Python follows standard mathematical operator precedence: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction (PEMDAS/BODMAS). 3 * 4 = 12 (multiplication first), then 2 + 12 = 14. Output: 14. To change order: print((2+3) * 4) = 20. Python arithmetic operators: + (add), - (subtract), * (multiply), / (divide, gives float), // (integer division), % (modulus/remainder), ** (exponent). 10 % 3 = 1 (remainder of 10 \u00f7 3)."
+  },
+  {
+    "QuestionText": "What is a list (array) in programming?",
+    "Options": [
+      "A) An ordered collection of items stored in a single variable",
+      "B) A type of loop for processing collections",
+      "C) A method that lists all variables in a program",
+      "D) The sequence of instructions in a program"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "List/Array: a collection of multiple values stored together in order. Python list: marks = [85, 72, 90, 68, 95]. Access by index (starting at 0): marks[0] = 85, marks[2] = 90. Length: len(marks) = 5. Operations: append (add), remove, sort, reverse. Useful for storing multiple related values without creating separate variables for each. Loop through: 'for mark in marks: print(mark)'. Arrays are fundamental data structures in all programming languages."
+  },
+  {
+    "QuestionText": "What is the difference between '=' and '==' in programming?",
+    "Options": [
+      "A) They are the same",
+      "B) '=' is assignment (stores a value); '==' is comparison (checks if two values are equal)",
+      "C) '=' compares; '==' assigns",
+      "D) '==' is used only in mathematics"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Critical distinction: '=' (assignment operator): stores a value in a variable. age = 14 (age now contains 14). '==' (equality comparison operator): checks if two values are equal, returns True or False. if age == 14: (tests if age contains 14). Common beginner error: using = in a condition instead of ==. 'if age = 14:' \u2192 error in Python. Other comparison operators: != (not equal), > (greater), < (less), >= (greater or equal), <= (less or equal)."
+  },
+  {
+    "QuestionText": "What does a 'return' statement do in a function?",
+    "Options": [
+      "A) Goes back to the beginning of the function",
+      "B) Sends a value back from the function to where it was called",
+      "C) Returns all variables to their initial values",
+      "D) Terminates the entire program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Return statement: exits the function and sends a value back to the calling code. 'def square(n): return n * n'. Calling: result = square(5) \u2192 result = 25. Without return (or 'return None'): function performs action but gives nothing back (like print()). A function can return multiple values: 'return x, y' (Python returns a tuple). Once return is executed, remaining function code is skipped. Functions without return are called 'void' functions (procedures in some languages)."
+  },
+  {
+    "QuestionText": "What is 'binary search' and when can it be used?",
+    "Options": [
+      "A) Searching through all items one by one",
+      "B) Efficiently finding an item in a SORTED list by repeatedly dividing the search space in half",
+      "C) Searching for binary numbers in a list",
+      "D) Using two search algorithms simultaneously"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Binary search: requires SORTED data. Steps: compare target with middle element. If equal, found. If target < middle, search left half. If target > middle, search right half. Repeat until found or exhausted. Efficiency: O(log n) \u2014 finding item in 1 million sorted records takes at most 20 comparisons. Linear search (checking each item): O(n) \u2014 up to 1 million comparisons. Binary search is dramatically faster for large sorted datasets \u2014 fundamental algorithm in computing."
+  },
+  {
+    "QuestionText": "What is a 'data type' in programming?",
+    "Options": [
+      "A) The name of a variable",
+      "B) Classification of data that determines what values are valid and what operations can be performed",
+      "C) The size of memory allocated to a program",
+      "D) The output format of a program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Data types define what kind of data a variable holds. Common types: Integer (int): whole numbers (14, -5, 0). Float: decimal numbers (3.14, -2.5). String (str): text ('Hello', 'Priya'). Boolean (bool): True or False. List: ordered collection [1, 2, 3]. Data types determine: valid values, operations (can add integers; can't add integer to string without conversion), memory requirements. Python: dynamically typed (type determined automatically). Java/C++: statically typed (must declare type explicitly)."
+  },
+  {
+    "QuestionText": "What is 'bubble sort' and how does it work?",
+    "Options": [
+      "A) Sorting data by rearranging 'bubbles' on screen",
+      "B) A sorting algorithm that repeatedly compares adjacent elements and swaps them if in wrong order, 'bubbling' larger elements to the end",
+      "C) A fast sorting method using binary logic",
+      "D) Sorting images by their colour (hue/brightness)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Bubble sort: simplest sorting algorithm. Process: compare adjacent pairs, swap if out of order, repeat passes until no swaps needed. Example sorting [5, 3, 1, 4, 2]: Pass 1: [3,1,4,2,5] (5 'bubbles' to end). Pass 2: [1,3,2,4,5]. Pass 3: [1,2,3,4,5]. Efficiency: O(n\u00b2) \u2014 very slow for large datasets. Best case (already sorted): O(n). Used for educational purposes to understand sorting concepts. Production code uses more efficient algorithms (merge sort O(n log n), quicksort O(n log n) average)."
+  },
+  {
+    "QuestionText": "What is Scratch and who is it designed for?",
+    "Options": [
+      "A) An advanced programming language for AI development",
+      "B) A visual, block-based programming environment designed for children to learn programming concepts",
+      "C) A text editor for professional programmers",
+      "D) A web development framework"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Languages",
+    "Difficulty": "Foundation",
+    "Explanation": "Scratch (scratch.mit.edu): developed by MIT Media Lab. Uses drag-and-drop coloured code blocks (no typing required). Teaches: sequence, loops, conditionals, variables, events, broadcasting, sprite animation. Ages 8-16. Creates interactive stories, games, animations. Over 100 million registered users worldwide. Helps learners grasp programming concepts before text-based languages. Natural next step: Python or JavaScript. Similar tools: Code.org (Hour of Code), Blockly (Google), micro:bit for hardware."
+  },
+  {
+    "QuestionText": "What is the output of this code: x = 10; y = 3; print(x % y)?",
+    "Options": [
+      "A) 3",
+      "B) 1",
+      "C) 3.33",
+      "D) 0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "% (modulus operator) gives the REMAINDER after integer division. 10 \u00f7 3 = 3 remainder 1. So 10 % 3 = 1. Modulus uses: checking if a number is even (n % 2 == 0 means even), checking divisibility (n % 5 == 0 means divisible by 5), cyclic patterns (index % n gives values cycling 0 to n-1), digital clock logic. Common confusion: % is not 'percentage' in programming \u2014 it's the modulo/remainder operation."
+  },
+  {
+    "QuestionText": "What is 'recursion' in programming?",
+    "Options": [
+      "A) Running the same program multiple times",
+      "B) A function that calls itself, solving a problem by reducing it to smaller instances of the same problem",
+      "C) Repeating the same instruction many times in sequence",
+      "D) A type of loop that counts backwards"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Olympiad",
+    "Explanation": "Recursion: a function that calls itself. Must have: base case (stopping condition \u2014 avoids infinite recursion) and recursive case (reduces problem toward base case). Example: factorial(5) = 5 \u00d7 factorial(4) = 5 \u00d7 4 \u00d7 factorial(3)...= 120. Fibonacci: fib(n) = fib(n-1) + fib(n-2). Elegant for tree traversal, divide-and-conquer algorithms. Risk: stack overflow if no base case or too deep recursion. Many problems solvable both recursively and iteratively \u2014 recursion often more elegant but sometimes less efficient."
+  },
+  {
+    "QuestionText": "What is Python and why is it popular?",
+    "Options": [
+      "A) A snake species studied in biology",
+      "B) A high-level, versatile programming language known for clear syntax, readability, and extensive libraries",
+      "C) A game engine for creating video games only",
+      "D) A web browser built on JavaScript"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Languages",
+    "Difficulty": "Foundation",
+    "Explanation": "Python (created 1991 by Guido van Rossum): general-purpose, interpreted language. Used for: data science/ML/AI (NumPy, Pandas, TensorFlow, scikit-learn), web development (Django, Flask), automation/scripting, academic research, cybersecurity tools, educational programming. Popularity reasons: clean, readable syntax (indentation-based blocks), vast library ecosystem (PyPI: 400,000+ packages), large community, free/open source, versatile (scripting to ML). India: Python is the most taught programming language in schools, colleges, and bootcamps."
+  },
+  {
+    "QuestionText": "What is a 'comment' in code and why is it important?",
+    "Options": [
+      "A) A feedback section where users rate the program",
+      "B) Text in code that is ignored by the computer but explains the code for human readers",
+      "C) A special type of variable for storing notes",
+      "D) An error message generated by the compiler"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Comments: text in source code ignored during execution \u2014 purely for humans. Python: # single line comment, ''' multi-line comment '''. C/Java: // single line, /* multi-line */. Importance: explain complex logic ('# binary search requires sorted array'), document function purpose and parameters, leave notes ('# TODO: add error handling'), make code maintainable when revisited months later. Good programmers write self-documenting code (clear variable names + appropriate comments). Over-commenting obvious things is noise; under-commenting is a maintenance nightmare."
+  },
+  {
+    "QuestionText": "What is the time complexity of O(n\u00b2) vs O(n log n)?",
+    "Options": [
+      "A) They are the same",
+      "B) O(n\u00b2) is much slower \u2014 for 1000 items: O(n\u00b2) = 1,000,000 operations; O(n log n) \u2248 10,000 operations",
+      "C) O(n\u00b2) is faster for large datasets",
+      "D) O(n log n) is slower because it uses logarithms"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Olympiad",
+    "Explanation": "Big O notation: describes how algorithm performance scales with input size. O(n\u00b2): nested loop pattern \u2014 1,000 items = 1,000,000 ops; 10,000 items = 100,000,000 ops. O(n log n): merge sort, heap sort \u2014 1,000 items \u2248 10,000 ops; 10,000 items \u2248 130,000 ops. Common: O(1) (constant, fastest \u2014 hash lookup), O(log n) (binary search), O(n) (linear \u2014 simple loop), O(n log n) (efficient sorting), O(n\u00b2) (bubble sort, slow), O(2\u207f) (exponential, extremely slow). Algorithm efficiency becomes critical with large datasets (millions of records)."
+  },
+  {
+    "QuestionText": "What is 'version control' and why is it used?",
+    "Options": [
+      "A) Controlling the number of software versions installed",
+      "B) Tracking changes to code over time, enabling multiple developers to collaborate and revert to previous versions",
+      "C) Numbering software releases for marketing",
+      "D) Testing different versions of a program simultaneously"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Version control (VCS): tracks every change made to code files. Most popular: Git (distributed VCS). GitHub/GitLab/Bitbucket: cloud hosting for Git repositories. Benefits: full history (revert to any previous version), collaboration (multiple developers work on same codebase simultaneously via branching/merging), backup, code review, deployment tracking. Commands: git add (stage changes), git commit (save snapshot), git push (upload), git pull (download), git branch (create branch), git merge. Industry standard \u2014 every professional developer uses version control."
+  },
+  {
+    "QuestionText": "What is an IDE (Integrated Development Environment)?",
+    "Options": [
+      "A) A type of network protocol",
+      "B) A software suite combining text editor, compiler/interpreter, debugger, and other tools for software development",
+      "C) An internet development environment for web hosting",
+      "D) An Indian software development standard"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "IDE: all-in-one tool for programmers. Features: text editor (with syntax highlighting, autocomplete), integrated compiler/interpreter (run code without switching apps), debugger (step through code, inspect variables), project file management, version control integration, code suggestions/linting. Popular IDEs: PyCharm (Python), Eclipse (Java), Visual Studio (C#/C++), VS Code (multi-language, most popular overall), IntelliJ IDEA (Java/Kotlin), Xcode (Apple development). Students: use IDLE (Python's built-in IDE), Thonny, or VS Code."
+  },
+  {
+    "QuestionText": "What is the output of: for i in range(1, 5): print(i)?",
+    "Options": [
+      "A) 1 2 3 4 5",
+      "B) 1 2 3 4",
+      "C) 0 1 2 3 4",
+      "D) 1 2 3 4 5 6"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Python's range(start, stop): generates integers from start UP TO BUT NOT INCLUDING stop. range(1, 5) = 1, 2, 3, 4 (stops BEFORE 5). Output: 1\\n2\\n3\\n4 (each on a new line). range(5) = range(0, 5) = 0, 1, 2, 3, 4. range(1, 10, 2) = 1, 3, 5, 7, 9 (step of 2). Common mistake: forgetting range excludes the stop value. To include 5: range(1, 6)."
+  },
+  {
+    "QuestionText": "What is a 'string' in programming and what operations can be done on it?",
+    "Options": [
+      "A) A numeric data type for decimal numbers",
+      "B) A sequence of characters treated as text \u2014 operations include concatenation, slicing, length, and case conversion",
+      "C) A type of list containing only integers",
+      "D) The connection between two variables"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "String: sequence of characters enclosed in quotes: 'Hello' or \"World\". String operations in Python: Concatenation: 'Hello' + ' ' + 'World' = 'Hello World'. Length: len('Python') = 6. Indexing: 'Python'[0] = 'P', 'Python'[-1] = 'n'. Slicing: 'Python'[0:3] = 'Pyt'. Methods: .upper() = 'PYTHON', .lower() = 'python', .replace('P','J') = 'Jython', .split(' ') splits by space. f-strings: f'Hello {name}' (inserts variable). Strings are immutable (can't change individual characters \u2014 must create new string)."
+  },
+  {
+    "QuestionText": "What is the concept of 'decomposition' in computational thinking?",
+    "Options": [
+      "A) Breaking down a computer into its hardware components",
+      "B) Breaking a complex problem into smaller, manageable sub-problems that are easier to solve",
+      "C) Converting a program from one language to another",
+      "D) The process of compiling code"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Decomposition: one of the 4 pillars of computational thinking (along with Pattern Recognition, Abstraction, Algorithm Design). Breaking a complex problem into smaller, solvable sub-problems. Example: 'Build a school management system' \u2192 Student registration, Attendance tracking, Grade recording, Report generation, Staff management \u2014 each solved separately then combined. Programming functions implement decomposition \u2014 each function solves one specific sub-problem. Decomposition makes problems manageable and solutions reusable."
+  },
+  {
+    "QuestionText": "Assertion: An algorithm must produce the correct output for all valid inputs. Reason: An algorithm with incorrect logic for even one valid input case is considered faulty. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: a correct algorithm must handle all valid input cases correctly \u2014 not just typical cases. Edge cases (minimum/maximum values, empty input, negative numbers) must also produce correct output. Reason TRUE and correctly explains: if an algorithm gives wrong output even for one valid input, it's logically flawed \u2014 not a correct algorithm. Testing algorithms requires checking normal cases, edge cases, and boundary conditions. 'Works most of the time' is not sufficient for a reliable algorithm."
+  },
+  {
+    "QuestionText": "What is a 'stack' data structure?",
+    "Options": [
+      "A) Memory storage for variables",
+      "B) A Last-In-First-Out (LIFO) collection \u2014 the last item added is the first removed",
+      "C) A type of sorted list",
+      "D) A method of distributing data across servers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Olympiad",
+    "Explanation": "Stack: LIFO (Last-In-First-Out) data structure. Operations: push (add to top), pop (remove from top), peek (view top without removing). Real-world: a stack of plates \u2014 last plate placed on top is first taken. Computing uses: function call stack (recursive calls), browser back button (pages visited), undo functionality (last action undone first), expression evaluation. Python implementation: list with append() (push) and pop() (pop). Opposite: Queue (FIFO \u2014 first in, first out \u2014 like a queue at a shop)."
+  },
+  {
+    "QuestionText": "What is abstraction in computer science?",
+    "Options": [
+      "A) Making code difficult to understand",
+      "B) Hiding complex implementation details and exposing only essential features/interface",
+      "C) Converting high-level code to machine code",
+      "D) Using abstract art in user interfaces"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Abstraction: one of the 4 computational thinking pillars. Simplify complex systems by hiding implementation details \u2014 expose only what users need. Examples: driving a car (don't need to know engine mechanics \u2014 just use steering wheel, pedals), using print() function (don't need to know how it works internally), calling an API. In OOP: abstract classes define interface without implementation details. Abstraction enables manageable complexity \u2014 programmers use thousands of abstractions (functions, libraries, OS calls) without understanding every detail underneath."
+  },
+  {
+    "QuestionText": "What does a 'syntax error' mean in programming?",
+    "Options": [
+      "A) The program gives wrong answers",
+      "B) The code violates the grammatical rules of the programming language",
+      "C) The program crashes during execution",
+      "D) A variable is used before being defined"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Syntax error: violation of the language's grammar rules \u2014 the program cannot even be parsed/compiled. Examples: missing colon after if statement (Python: 'if x > 5' missing ':'), unclosed brackets, misspelled keyword ('primt' instead of 'print'), wrong indentation (Python uses indentation for blocks). The interpreter/compiler catches syntax errors before running. Logic error: program runs but gives wrong results (harder to find). Runtime error: program crashes during execution (division by zero, accessing missing file)."
+  },
+  {
+    "QuestionText": "What is the difference between Scratch and Python?",
+    "Options": [
+      "A) Scratch is more powerful; Python is simpler",
+      "B) Scratch uses visual blocks (beginner); Python uses text syntax (professional) \u2014 Python is more powerful and industry-used",
+      "C) They are used for identical purposes and are equally powerful",
+      "D) Python is for children; Scratch is for adults"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Languages",
+    "Difficulty": "Foundation",
+    "Explanation": "Scratch: block-based visual programming \u2014 no typing, no syntax errors possible, excellent for learning concepts (ages 8-16). Limited: can't easily create complex algorithms, no professional applications. Python: text-based, industry standard \u2014 requires learning syntax, more powerful, used in data science, AI, web development, automation. Learning path: Scratch \u2192 Python (or another text language). Many Grade 8 curricula teach both \u2014 Scratch for fundamentals, Python to progress. Python has virtually no limitations compared to Scratch's simplified environment."
+  },
+  {
+    "QuestionText": "What is 'pattern recognition' in computational thinking?",
+    "Options": [
+      "A) Designing patterns for textiles using computers",
+      "B) Identifying similarities, trends, and regularities in problems that can be exploited to solve them more efficiently",
+      "C) Recognising programming patterns like for loops",
+      "D) Pattern matching in text (like search algorithms)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern recognition: finding similarities within and between problems. Examples: recognising all area calculations share (dimension1 \u00d7 dimension2 \u00d7 constant) \u2014 write one general formula; sorting algorithm principles apply across different data types; web form validation patterns appear in every web app. By recognising patterns, programmers reuse solutions instead of solving from scratch. Leads to design patterns (reusable software design solutions), algorithms applicable to whole problem categories, and more efficient problem-solving. Recognising patterns enables abstraction and generalisation."
+  },
+  {
+    "QuestionText": "What is JavaScript primarily used for?",
+    "Options": [
+      "A) Server-side programming only",
+      "B) Adding interactivity and dynamic behaviour to web pages in the browser",
+      "C) Operating system development",
+      "D) Scientific computing and data analysis"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Languages",
+    "Difficulty": "Advanced",
+    "Explanation": "JavaScript (JS): the programming language of the web browser. Makes websites interactive: form validation, dynamic content loading without page reload (AJAX), animations, user interface effects, games in browser. Every modern website uses JavaScript on the front end. Node.js: runs JS on servers (backend). Frameworks: React, Angular, Vue (front-end), Express (back-end). Not related to Java (different language \u2014 similar name only). Python vs JS: Python for general purpose/data science; JavaScript essential for web development. Most popular programming language in developer surveys (2023)."
+  },
+  {
+    "QuestionText": "What is a library in programming?",
+    "Options": [
+      "A) A physical collection of programming books",
+      "B) Pre-written, reusable code providing specific functionality that programmers can import and use",
+      "C) A database for storing programs",
+      "D) The list of variables and functions in a program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Library (module/package): pre-written code offering ready-made functionality. Instead of writing everything from scratch, import a library: 'import math' \u2192 access math.sqrt(), math.pi, etc. Python standard library: math, random, datetime, os, json. Third-party libraries (via pip): NumPy (mathematics), Pandas (data analysis), Matplotlib (charts), Requests (web), Flask/Django (web apps), TensorFlow (AI). Framework: larger collection of libraries with a defined structure (Flask, React). Libraries dramatically accelerate development \u2014 'don't reinvent the wheel.'"
+  },
+  {
+    "QuestionText": "What does 'concatenation' mean in programming?",
+    "Options": [
+      "A) Splitting a string into parts",
+      "B) Joining strings (or lists) together end-to-end to form a new, longer string",
+      "C) Converting a number to a string",
+      "D) Finding text within a string"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Concatenation: joining strings together. Python: + operator: 'Hello' + ' ' + 'World' = 'Hello World'. f-string: f'Hello {name}'. Other languages use + (Java, JavaScript) or . (PHP). List concatenation: [1,2] + [3,4] = [1,2,3,4]. Cannot concatenate string with number directly: '5' + 5 \u2192 TypeError. Must convert: '5' + str(5) = '55' OR int('5') + 5 = 10. String multiplication: 'ha' * 3 = 'hahaha'. Concatenation builds messages, file paths, SQL queries, HTML content dynamically from parts."
+  },
+  {
+    "QuestionText": "Statement 1: Python is an interpreted language. Statement 2: Python code is translated and executed line by line by the interpreter, without producing a separate compiled executable file. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Languages",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 TRUE: Python is interpreted \u2014 CPython (standard Python) interprets code. Statement 2 TRUE and correctly explains: the interpreter reads and executes each line sequentially. Contrast: compiled languages (C, C++) produce a standalone executable (.exe). Python creates .pyc bytecode files (intermediate compilation step) but these still require the Python interpreter to run. Interpreted advantages: immediate feedback, easier debugging, cross-platform. Disadvantages: slower than fully compiled languages (Python ~10-100\u00d7 slower than C for number-crunching tasks)."
+  },
+  {
+    "QuestionText": "What is the purpose of the 'break' statement in a loop?",
+    "Options": [
+      "A) Breaks the computer processor",
+      "B) Immediately exits the loop, skipping remaining iterations",
+      "C) Pauses the loop until restarted",
+      "D) Skips the current iteration and continues to the next"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "'break': immediately terminates the loop and continues with code after the loop. Common use: searching \u2014 once found, break out of the loop (no need to continue searching). 'continue': skips the CURRENT iteration and moves to the next (loop continues). Example (break): 'for num in range(100): if num == 5: break; print(num)' \u2014 prints 0,1,2,3,4 then stops. 'pass': placeholder statement that does nothing (used when a statement is syntactically required but no code is needed yet)."
+  },
+  {
+    "QuestionText": "What does it mean for an algorithm to be 'efficient'?",
+    "Options": [
+      "A) The algorithm is written in the fewest lines of code",
+      "B) The algorithm uses minimal time and memory resources while correctly solving the problem",
+      "C) The algorithm runs on the fastest computer",
+      "D) The algorithm uses the most complex mathematics"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Advanced",
+    "Explanation": "Algorithm efficiency measured in: Time complexity (how many operations as input grows \u2014 Big O notation), Space complexity (memory used). A correct algorithm that's too slow is impractical. Example: finding a name in a phone book: Linear search = O(n) \u2014 check every name; Binary search = O(log n) \u2014 much faster for sorted book. Trade-offs exist: sometimes faster algorithms need more memory. Efficient algorithms are crucial for: processing large datasets, real-time systems, mobile apps (limited battery/resources). Google processes billions of searches per day \u2014 efficiency is existentially important."
+  },
+  {
+    "QuestionText": "What is a 'queue' data structure?",
+    "Options": [
+      "A) A First-In-First-Out (FIFO) collection \u2014 first item added is first removed",
+      "B) A Last-In-First-Out (LIFO) collection",
+      "C) An unordered collection of unique items",
+      "D) A sorted list with fast search"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Olympiad",
+    "Explanation": "Queue: FIFO (First-In-First-Out) data structure. Operations: enqueue (add to back), dequeue (remove from front), peek (view front). Real-world: queue at a shop \u2014 first person in line served first. Computing uses: print queue (documents printed in order received), CPU process scheduling, breadth-first search, network packet handling, task management systems. Python: collections.deque implements efficient queue. Contrast with stack (LIFO \u2014 last in, first out)."
+  },
+  {
+    "QuestionText": "What is meant by 'testing' in software development?",
+    "Options": [
+      "A) Running the program once to see if it works",
+      "B) Systematically verifying that software behaves correctly for all expected inputs, edge cases, and error conditions",
+      "C) Checking if the code looks readable",
+      "D) Testing the hardware the program runs on"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Software testing: systematic verification of correct behaviour. Types: Unit testing (test individual functions), Integration testing (test components working together), System testing (test complete system), User Acceptance Testing (real users test). Test cases: normal input (expected use), boundary values (minimum/maximum), edge cases (empty input, negative numbers, very large values), invalid input (what if user enters text where number expected?). Python: unittest, pytest frameworks. Testing is not optional \u2014 it's fundamental to reliable software. Bugs in untested software have cost lives (medical devices, aircraft)."
+  },
+  {
+    "QuestionText": "What is the purpose of a 'dictionary' (dict) in Python?",
+    "Options": [
+      "A) Stores a list of English words and their definitions",
+      "B) A key-value pair data structure allowing fast lookup by key",
+      "C) A reference book of programming commands",
+      "D) A sorted collection of unique values"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Advanced",
+    "Explanation": "Python dictionary (dict): stores data as key:value pairs. Example: student = {'name': 'Priya', 'age': 14, 'marks': 92}. Access: student['name'] \u2192 'Priya'. Add: student['grade'] = 'A'. Keys must be unique and hashable (strings, numbers, tuples). Very fast lookup O(1). Real uses: storing student records, word frequency counts, configuration settings, JSON data handling. Methods: .keys(), .values(), .items(), .get() (safe access without KeyError). Similar to hash maps/hash tables in other languages."
+  },
+  {
+    "QuestionText": "What is source code?",
+    "Options": [
+      "A) The binary machine code executed by the CPU",
+      "B) The human-readable text written by programmers in a programming language",
+      "C) The compressed backup of a program",
+      "D) The first version of a program before updates"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Source code: human-readable text written by programmers in a programming language (Python, Java, C++). Stored in text files (.py, .java, .cpp). Before execution: compiled (C, C++) or interpreted (Python) into machine code the CPU understands. Open source: source code is publicly available for anyone to view/modify. Closed/proprietary source: code is kept secret (Windows, iOS, Photoshop). Source code is the 'recipe' \u2014 machine code is the 'meal'. Developers work with source code; computers execute machine code (directly or through interpreter)."
+  },
+  {
+    "QuestionText": "What is an infinite loop and how can you avoid it?",
+    "Options": [
+      "A) A loop designed to run exactly one billion times",
+      "B) A loop that never terminates because the exit condition is never met \u2014 avoided by ensuring the loop condition changes each iteration",
+      "C) A loop that automatically restarts after completion",
+      "D) A loop used in server programs to run continuously"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Infinite loop: the loop condition never becomes False \u2014 the loop runs forever, freezing the program. Example (bug): 'i = 0; while i < 10: print(i)' \u2014 'i' never changes \u2192 runs forever. Fix: add 'i += 1' inside loop. Intentional infinite loops: 'while True:' with a break condition inside is valid (web servers, game loops). Detection: program becomes unresponsive, CPU maxes out. To stop: Ctrl+C in terminal or Task Manager. Common cause: forgetting to update loop variable or incorrect exit condition logic."
+  },
+  {
+    "QuestionText": "What are the 4 pillars of computational thinking?",
+    "Options": [
+      "A) Input, Process, Output, Storage",
+      "B) Decomposition, Pattern Recognition, Abstraction, Algorithm Design",
+      "C) Hardware, Software, Network, Data",
+      "D) Variables, Loops, Conditions, Functions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Algorithms",
+    "Difficulty": "Foundation",
+    "Explanation": "Computational thinking \u2014 4 pillars: 1. Decomposition: break complex problems into smaller parts. 2. Pattern Recognition: identify similarities, trends, regularities. 3. Abstraction: focus on essential information, ignore irrelevant detail. 4. Algorithm Design: develop step-by-step solutions. These skills help solve problems systematically \u2014 applicable beyond computing (used in science, business, design). Google, Microsoft, and educators promote computational thinking as a fundamental 21st-century skill alongside reading and mathematics."
+  },
+  {
+    "QuestionText": "What is 'type conversion' (casting) in programming?",
+    "Options": [
+      "A) Changing a variable's name",
+      "B) Converting data from one type to another (e.g., string to integer, integer to float)",
+      "C) Converting code from one programming language to another",
+      "D) Converting a file from one format to another"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Type conversion: changing data type. Python functions: int('14') \u2192 14 (string to integer), float('3.14') \u2192 3.14 (string to float), str(42) \u2192 '42' (integer to string), bool(0) \u2192 False, bool(1) \u2192 True. Implicit conversion: Python automatically converts int to float when needed (5 + 2.0 = 7.0). input() always returns string \u2014 must convert: age = int(input('Enter age:')). Type mismatch errors: 'Hello' + 5 \u2192 TypeError \u2014 must convert: 'Hello' + str(5) = 'Hello5'."
+  },
+  {
+    "QuestionText": "What is the role of logic gates in computing?",
+    "Options": [
+      "A) Physical gates that control electricity in the computer room",
+      "B) Basic electronic circuits (AND, OR, NOT, XOR) that perform boolean logical operations \u2014 the building blocks of all digital circuits",
+      "C) Software components in programming languages",
+      "D) Network gates controlling data flow between routers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Concepts",
+    "Difficulty": "Olympiad",
+    "Explanation": "Logic gates: fundamental electronic building blocks. AND gate: output 1 only if ALL inputs are 1. OR gate: output 1 if ANY input is 1. NOT gate: inverts input (0\u21921, 1\u21920). XOR gate: output 1 if inputs are DIFFERENT. NAND, NOR: AND/OR followed by NOT. Billions of transistors on a CPU implement these gates. All arithmetic, logic, and memory operations reduce to combinations of gates. The CPU's ALU is built from combinations of millions of logic gates. Understanding gates bridges hardware (electronics) and software (programming logic)."
+  },
+  {
+    "QuestionText": "What is the difference between a compiler and an interpreter?",
+    "Options": [
+      "A) Compilers are faster to write; interpreters produce faster programs",
+      "B) Compiler translates entire program to machine code before running; interpreter translates and executes line by line",
+      "C) Compilers are for high-level languages; interpreters for low-level",
+      "D) They are the same tool with different names"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Programming and Algorithms",
+    "SubTopic": "Programming Languages",
+    "Difficulty": "Advanced",
+    "Explanation": "Compiler: reads entire source code \u2192 produces standalone machine code executable \u2192 user runs executable (no compiler needed at runtime). Examples: C, C++, Go, Rust. Fast execution. Interpreter: reads and executes source code line by line at runtime \u2014 interpreter must be present every time program runs. Examples: Python, Ruby, JavaScript (in browser). Easier debugging (immediate feedback). Java: hybrid \u2014 compiled to bytecode, then JVM interprets/JIT-compiles. Modern Python implementations also use JIT compilation for speed."
+  }
+]

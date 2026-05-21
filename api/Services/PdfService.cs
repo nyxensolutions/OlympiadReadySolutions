@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using OlympiadReady.Api.Models;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
@@ -17,9 +18,11 @@ public class PdfService
     private const string WrongRed    = "#dc2626";
 
     private readonly string? _logoPath;
+    private readonly IWebHostEnvironment _env;
 
     public PdfService(IWebHostEnvironment env)
     {
+        _env = env;
         var candidate = Path.Combine(env.WebRootPath, "logo.png");
         _logoPath = File.Exists(candidate) ? candidate : null;
     }
@@ -299,7 +302,7 @@ public class PdfService
 
     // ── Questions body ─────────────────────────────────────────────────────────
 
-    private static void BuildBody(IContainer container, PdfExportRequest d)
+    private void BuildBody(IContainer container, PdfExportRequest d)
     {
         container.PaddingTop(16).Column(col =>
         {
@@ -321,7 +324,7 @@ public class PdfService
         });
     }
 
-    private static void RenderQuestion(IContainer container, int number, Question q)
+    private void RenderQuestion(IContainer container, int number, Question q)
     {
         container
             .Border(1).BorderColor(BorderGray)
@@ -333,8 +336,18 @@ public class PdfService
                 col.Item().Row(r =>
                 {
                     r.ConstantItem(22).Text($"Q{number}.").Bold().FontColor(Brand).FontSize(11);
-                    r.RelativeItem().Text(q.Q).FontSize(11);
+                    RenderMarkdownContent(r.RelativeItem(), q.Q, 11);
                 });
+
+                if (!string.IsNullOrWhiteSpace(q.ImageUrl))
+                {
+                    // Resolve path relative to api/.. -> web/public/...
+                    var imgPath = Path.Combine(_env.ContentRootPath, "..", "web", "public", q.ImageUrl.TrimStart('/'));
+                    if (File.Exists(imgPath))
+                    {
+                        col.Item().PaddingTop(8).PaddingLeft(22).Height(120).Image(imgPath).FitArea();
+                    }
+                }
 
                 // Options grid (2 columns)
                 col.Item().PaddingTop(6).PaddingLeft(22).Row(row =>
@@ -344,7 +357,11 @@ public class PdfService
                         for (var i = 0; i < q.Options.Count; i += 2)
                         {
                             var letter = (char)('A' + i);
-                            optCol.Item().Text($"({letter})  {q.Options[i]}").FontSize(10).FontColor(SubText);
+                            optCol.Item().PaddingBottom(4).Row(r => 
+                            {
+                                r.ConstantItem(24).Text($"({letter})").FontSize(10).FontColor(SubText);
+                                RenderMarkdownContent(r.RelativeItem(), q.Options[i], 10, SubText);
+                            });
                         }
                     });
                     row.RelativeItem().Column(optCol =>
@@ -352,7 +369,11 @@ public class PdfService
                         for (var i = 1; i < q.Options.Count; i += 2)
                         {
                             var letter = (char)('A' + i);
-                            optCol.Item().Text($"({letter})  {q.Options[i]}").FontSize(10).FontColor(SubText);
+                            optCol.Item().PaddingBottom(4).Row(r => 
+                            {
+                                r.ConstantItem(24).Text($"({letter})").FontSize(10).FontColor(SubText);
+                                RenderMarkdownContent(r.RelativeItem(), q.Options[i], 10, SubText);
+                            });
                         }
                     });
                 });
@@ -361,7 +382,7 @@ public class PdfService
 
     // ── Answer Key body ────────────────────────────────────────────────────────
 
-    private static void BuildAnswerKey(IContainer container, PdfExportRequest d)
+    private void BuildAnswerKey(IContainer container, PdfExportRequest d)
     {
         container.PaddingTop(16).Column(col =>
         {
@@ -421,14 +442,14 @@ public class PdfService
                    .Border(1).BorderColor(BorderGray)
                    .Column(c =>
                    {
-                       // Question header bar
+                        // Question header bar
                        c.Item()
                         .Background(LightBg)
                         .Padding(8)
                         .Row(r =>
                         {
                             r.ConstantItem(24).Text($"Q{n}.").Bold().FontColor(Brand);
-                            r.RelativeItem().Text(q.Q).FontSize(10);
+                            RenderMarkdownContent(r.RelativeItem(), q.Q, 10);
                         });
 
                        // Answer + explanation
@@ -437,9 +458,11 @@ public class PdfService
                            inner.Item().Text(t =>
                            {
                                t.Span("Correct Answer: ").Bold().FontSize(10);
-                               t.Span($"({ansLetter}) {q.Answer}").FontSize(10).FontColor(CorrectGreen).Bold();
+                               t.Span($"({ansLetter}) ").FontSize(10).FontColor(CorrectGreen).Bold();
                            });
-                           inner.Item().PaddingTop(4).Text(q.Explanation).FontSize(9.5f).FontColor(SubText);
+                           RenderMarkdownContent(inner.Item(), q.Answer, 10, CorrectGreen, true);
+                           
+                           inner.Item().PaddingTop(4).Element(e => RenderMarkdownContent(e, q.Explanation, 9.5f, SubText));
                        });
                    });
             }
@@ -454,6 +477,37 @@ public class PdfService
                 t.Span("Commercial reproduction or redistribution is prohibited.")
                  .FontSize(8).FontColor(SubText);
             });
+        });
+    }
+
+    private void RenderMarkdownContent(IContainer container, string text, float fontSize = 11, string? fontColor = null, bool isBold = false)
+    {
+        var parts = Regex.Split(text, @"(!\[.*?\]\(.*?\))");
+        container.Column(col => 
+        {
+            foreach (var part in parts)
+            {
+                if (string.IsNullOrEmpty(part)) continue;
+                var m = Regex.Match(part, @"!\[.*?\]\((.*?)\)");
+                if (m.Success)
+                {
+                    var imgUrl = m.Groups[1].Value;
+                    var imgPath = Path.Combine(_env.ContentRootPath, "..", "web", "public", imgUrl.TrimStart('/'));
+                    if (File.Exists(imgPath))
+                    {
+                        col.Item().PaddingTop(4).PaddingBottom(4).Height(80).Image(imgPath).FitArea();
+                    }
+                }
+                else
+                {
+                    col.Item().Text(t => 
+                    {
+                        var span = t.Span(part).FontSize(fontSize);
+                        if (fontColor != null) span.FontColor(fontColor);
+                        if (isBold) span.Bold();
+                    });
+                }
+            }
         });
     }
 }

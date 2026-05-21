@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is the value of 2⁻³?",
+    "Options": [
+      "A) -8",
+      "B) 1/8",
+      "C) -1/8",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Negative Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "a⁻ⁿ = 1/aⁿ. So 2⁻³ = 1/2³ = 1/8."
+  },
+  {
+    "QuestionText": "Simplify: (3²)³",
+    "Options": [
+      "A) 3⁵",
+      "B) 3⁶",
+      "C) 9³",
+      "D) 3⁸"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "(aᵐ)ⁿ = aᵐⁿ. So (3²)³ = 3²ˣ³ = 3⁶. Note: 9³ = (3²)³ = 3⁶ — while 9³ equals the same value, 3⁶ is the simplified exponential form."
+  },
+  {
+    "QuestionText": "Express 0.000047 in standard form (scientific notation).",
+    "Options": [
+      "A) 4.7 × 10⁻⁵",
+      "B) 4.7 × 10⁻⁴",
+      "C) 47 × 10⁻⁶",
+      "D) 0.47 × 10⁻⁴"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Foundation",
+    "Explanation": "Move the decimal point 5 places to the right to get 4.7. The number is less than 1, so the exponent is negative: 4.7 × 10⁻⁵."
+  },
+  {
+    "QuestionText": "What is the value of (a⁰) for any non-zero a?",
+    "Options": [
+      "A) 0",
+      "B) a",
+      "C) 1",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "Any non-zero number raised to the power 0 equals 1. This follows from the quotient rule: aⁿ/aⁿ = aⁿ⁻ⁿ = a⁰ = 1."
+  },
+  {
+    "QuestionText": "Simplify: 5³ × 5⁻²",
+    "Options": [
+      "A) 5",
+      "B) 5⁻¹",
+      "C) 25",
+      "D) 5⁶"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "aᵐ × aⁿ = aᵐ⁺ⁿ. So 5³ × 5⁻² = 5³⁺⁽⁻²⁾ = 5¹ = 5."
+  },
+  {
+    "QuestionText": "Which of the following equals 10⁻⁴?",
+    "Options": [
+      "A) 0.0001",
+      "B) 0.001",
+      "C) 0.00001",
+      "D) 10000"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Negative Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "10⁻⁴ = 1/10⁴ = 1/10000 = 0.0001. Count 4 decimal places."
+  },
+  {
+    "QuestionText": "Simplify: (2³ × 3²) / (2² × 3)",
+    "Options": [
+      "A) 6",
+      "B) 4",
+      "C) 3",
+      "D) 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "= 2³⁻² × 3²⁻¹ = 2¹ × 3¹ = 2 × 3 = 6."
+  },
+  {
+    "QuestionText": "What is the standard form of the distance 150,000,000 km (Earth to Sun)?",
+    "Options": [
+      "A) 1.5 × 10⁸ km",
+      "B) 15 × 10⁷ km",
+      "C) 1.5 × 10⁷ km",
+      "D) 150 × 10⁶ km"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Foundation",
+    "Explanation": "150,000,000 = 1.5 × 10⁸. In standard form, the coefficient must be between 1 and 10, so 1.5 × 10⁸ is correct. Options B, C, D do not have the coefficient between 1 and 10."
+  },
+  {
+    "QuestionText": "Evaluate: (2/3)⁻² × (3/4)⁰",
+    "Options": [
+      "A) 4/9",
+      "B) 9/4",
+      "C) 9",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Negative Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(3/4)⁰ = 1. (2/3)⁻² = (3/2)² = 9/4. Product = 9/4 × 1 = 9/4."
+  },
+  {
+    "QuestionText": "If 2ˣ = 32, what is the value of x?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Equations with Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "32 = 2⁵. So 2ˣ = 2⁵ → x = 5."
+  },
+  {
+    "QuestionText": "Simplify: [(2³)² × 4⁻²] / 2⁰",
+    "Options": [
+      "A) 4",
+      "B) 2",
+      "C) 1",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(2³)² = 2⁶. 4⁻² = (2²)⁻² = 2⁻⁴. 2⁰ = 1. So [2⁶ × 2⁻⁴]/1 = 2⁶⁻⁴ = 2² = 4."
+  },
+  {
+    "QuestionText": "Which is larger: (0.1)⁻³ or (0.01)⁻²?",
+    "Options": [
+      "A) (0.1)⁻³",
+      "B) (0.01)⁻²",
+      "C) They are equal",
+      "D) Cannot be determined"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Comparison using Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(0.1)⁻³ = (1/10)⁻³ = 10³ = 1000. (0.01)⁻² = (1/100)⁻² = 100² = 10000. So (0.01)⁻² = 10000 > 1000. CorrectAnswer: B."
+  },
+  {
+    "QuestionText": "Express in standard form: (3.2 × 10⁴) × (4.5 × 10³)",
+    "Options": [
+      "A) 1.44 × 10⁹",
+      "B) 14.4 × 10⁷",
+      "C) 1.44 × 10⁸",
+      "D) 7.7 × 10⁷"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Advanced",
+    "Explanation": "3.2 × 4.5 = 14.4. 10⁴ × 10³ = 10⁷. So 14.4 × 10⁷ = 1.44 × 10⁸."
+  },
+  {
+    "QuestionText": "What is the value of (−1)¹⁰⁰ + (−1)⁹⁹?",
+    "Options": [
+      "A) 2",
+      "B) 0",
+      "C) -2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(−1)¹⁰⁰ = 1 (even power). (−1)⁹⁹ = −1 (odd power). Sum = 1 + (−1) = 0."
+  },
+  {
+    "QuestionText": "Find x: 5ˣ⁺¹ = 625",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Equations with Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "625 = 5⁴. So 5ˣ⁺¹ = 5⁴ → x+1 = 4 → x = 3."
+  },
+  {
+    "QuestionText": "Simplify: (xᵃ/xᵇ)ᵃ⁺ᵇ × (xᵇ/xᶜ)ᵇ⁺ᶜ × (xᶜ/xᵃ)ᶜ⁺ᵃ",
+    "Options": [
+      "A) x",
+      "B) x⁰=1",
+      "C) 0",
+      "D) x²"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "= x^(a-b)(a+b) × x^(b-c)(b+c) × x^(c-a)(c+a) = x^(a²-b²) × x^(b²-c²) × x^(c²-a²) = x^(a²-b²+b²-c²+c²-a²) = x⁰ = 1."
+  },
+  {
+    "QuestionText": "The mass of proton is 0.00000000000000000000000000167 kg. In standard form this is:",
+    "Options": [
+      "A) 1.67 × 10⁻²⁷ kg",
+      "B) 1.67 × 10⁻²⁸ kg",
+      "C) 16.7 × 10⁻²⁸ kg",
+      "D) 1.67 × 10⁻²⁶ kg"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Advanced",
+    "Explanation": "Count the zeros after the decimal: there are 26 zeros before 167, so the number = 1.67 × 10⁻²⁷ kg. This is the actual mass of a proton."
+  },
+  {
+    "QuestionText": "If 3ˣ = 9ʸ, what is the ratio x:y?",
+    "Options": [
+      "A) 1:2",
+      "B) 2:1",
+      "C) 1:3",
+      "D) 3:1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Equations with Exponents",
+    "Difficulty": "Olympiad",
+    "Explanation": "9ʸ = (3²)ʸ = 3²ʸ. So 3ˣ = 3²ʸ → x = 2y → x/y = 2/1. Ratio x:y = 2:1."
+  },
+  {
+    "QuestionText": "If 2ˣ⁺² + 2ˣ = 40, find x.",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Equations with Exponents",
+    "Difficulty": "Olympiad",
+    "Explanation": "2ˣ⁺² + 2ˣ = 2ˣ(2² + 1) = 2ˣ(4+1) = 5 × 2ˣ = 40 → 2ˣ = 8 = 2³ → x = 3."
+  },
+  {
+    "QuestionText": "Which is the correct descending order of: 2³², 3²⁴, 4¹⁶, 8¹⁰?",
+    "Options": [
+      "A) 3²⁴ > 2³² > 4¹⁶ > 8¹⁰",
+      "B) 2³² > 3²⁴ > 4¹⁶ > 8¹⁰",
+      "C) 3²⁴ > 4¹⁶ > 2³² > 8¹⁰",
+      "D) 4¹⁶ > 3²⁴ > 2³² > 8¹⁰"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Comparison using Exponents",
+    "Difficulty": "Olympiad",
+    "Explanation": "Express all with exponent 8: 2³²=2³²; 3²⁴=(3³)⁸=27⁸; 4¹⁶=(4²)⁸=16⁸; 8¹⁰=(8^(10/8)) — use exponent 2: 2³²=(2¹⁶)²; 3²⁴=(3¹²)²; 4¹⁶=(4⁸)²; 8¹⁰=(8⁵)². Compare bases: 2¹⁶=65536, 3¹²=531441, 4⁸=65536, 8⁵=32768. Order: 3¹²>2¹⁶=4⁸>8⁵ → 3²⁴ > 2³² = 4¹⁶ > 8¹⁰. Since 2³²=4¹⁶ exactly, option A best fits."
+  },
+  {
+    "QuestionText": "If x = 2 and y = 3, find the value of (xʸ + yˣ)/(xy).",
+    "Options": [
+      "A) 17/6",
+      "B) 6",
+      "C) 17",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Olympiad",
+    "Explanation": "xʸ = 2³ = 8. yˣ = 3² = 9. xʸ + yˣ = 17. xy = 6. Result = 17/6."
+  },
+  {
+    "QuestionText": "Statement 1: (aᵐ)ⁿ = aᵐⁿ = (aⁿ)ᵐ. Statement 2: aᵐ × bᵐ = (ab)ᵐ. Which laws are correctly stated?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1: Power of a power rule — (aᵐ)ⁿ = aᵐⁿ, and since multiplication is commutative, mn = nm, so (aᵐ)ⁿ = (aⁿ)ᵐ. TRUE. Statement 2: Product of same powers rule — aᵐ × bᵐ = (ab)ᵐ. TRUE. Both laws are standard exponent rules."
+  },
+  {
+    "QuestionText": "The number of bacteria doubles every hour. Starting with 100 bacteria, how many are there after 10 hours?",
+    "Options": [
+      "A) 100 × 2¹⁰",
+      "B) 100 × 10²",
+      "C) 200 × 10",
+      "D) 1000 × 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Application of Exponents",
+    "Difficulty": "Olympiad",
+    "Explanation": "After n hours, bacteria = 100 × 2ⁿ. After 10 hours = 100 × 2¹⁰ = 100 × 1024 = 102400."
+  },
+  {
+    "QuestionText": "The speed of light is 3 × 10⁸ m/s. The distance from Earth to a star is 9.461 × 10¹⁵ m (one light-year). How many seconds does light take to travel one light-year?",
+    "Options": [
+      "A) 3.154 × 10⁷ s",
+      "B) 3.154 × 10⁸ s",
+      "C) 9.461 × 10⁷ s",
+      "D) 2.838 × 10²⁴ s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Application of Standard Form",
+    "Difficulty": "Olympiad",
+    "Explanation": "Time = Distance / Speed = (9.461 × 10¹⁵) / (3 × 10⁸) = (9.461/3) × 10¹⁵⁻⁸ = 3.154 × 10⁷ seconds. This equals approximately 365.25 days — consistent with the definition of a light-year."
+  },
+  {
+    "QuestionText": "Simplify: 2³ × 2⁴",
+    "Options": [
+      "A) 2⁷",
+      "B) 4⁷",
+      "C) 2¹²",
+      "D) 2⁶"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "aᵐ × aⁿ = aᵐ⁺ⁿ. 2³×2⁴ = 2³⁺⁴ = 2⁷ = 128."
+  },
+  {
+    "QuestionText": "(3²)³ = ?",
+    "Options": [
+      "A) 3⁵",
+      "B) 3⁶",
+      "C) 9³",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "(aᵐ)ⁿ = aᵐⁿ. (3²)³ = 3⁶ = 729. Also 9³=(3²)³=3⁶=729. Both B and C are correct."
+  },
+  {
+    "QuestionText": "Any non-zero number raised to the power 0 equals:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) The number itself",
+      "D) Undefined"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "a⁰ = 1 for any a≠0. Proof: aⁿ/aⁿ = aⁿ⁻ⁿ = a⁰ = 1. Examples: 5⁰=1, (1/3)⁰=1, (-7)⁰=1. Note: 0⁰ is indeterminate."
+  },
+  {
+    "QuestionText": "Express 0.000001 as a power of 10:",
+    "Options": [
+      "A) 10⁻⁵",
+      "B) 10⁻⁶",
+      "C) 10⁻⁷",
+      "D) 10⁶"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Powers of Ten",
+    "Difficulty": "Foundation",
+    "Explanation": "0.000001 = 1/1000000 = 1/10⁶ = 10⁻⁶. Count zeros: 0.000001 has 6 decimal places → 10⁻⁶."
+  },
+  {
+    "QuestionText": "Simplify: 5⁷/5³",
+    "Options": [
+      "A) 5⁴",
+      "B) 5¹⁰",
+      "C) 25⁴",
+      "D) 1⁴"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "aᵐ/aⁿ = aᵐ⁻ⁿ. 5⁷/5³ = 5⁷⁻³ = 5⁴ = 625."
+  },
+  {
+    "QuestionText": "The standard form of 73,500,000,000 is:",
+    "Options": [
+      "A) 7.35×10¹⁰",
+      "B) 73.5×10⁹",
+      "C) 7350×10⁷",
+      "D) 0.735×10¹¹"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard form: a×10ⁿ where 1≤a<10. 73,500,000,000 = 7.35×10¹⁰. (Move decimal 10 places left)."
+  },
+  {
+    "QuestionText": "(-1)⁵⁰ + (-1)⁵¹ = ?",
+    "Options": [
+      "A) 2",
+      "B) 0",
+      "C) -2",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Powers",
+    "Difficulty": "Foundation",
+    "Explanation": "(-1)⁵⁰ = 1 (even power). (-1)⁵¹ = -1 (odd power). Sum = 1+(-1) = 0."
+  },
+  {
+    "QuestionText": "(2/3)⁻² = ?",
+    "Options": [
+      "A) 4/9",
+      "B) 9/4",
+      "C) -4/9",
+      "D) -9/4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Negative Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "(a/b)⁻ⁿ = (b/a)ⁿ. (2/3)⁻² = (3/2)² = 9/4. Negative exponent = reciprocal raised to positive power."
+  },
+  {
+    "QuestionText": "2³ × 5³ = ?",
+    "Options": [
+      "A) 10⁶",
+      "B) 1000",
+      "C) 10³",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "aⁿ×bⁿ = (ab)ⁿ. 2³×5³ = (2×5)³ = 10³ = 1000. Both B (1000) and C (10³) are correct."
+  },
+  {
+    "QuestionText": "Express in standard form: The distance from Earth to Sun is approximately 149,600,000 km.",
+    "Options": [
+      "A) 1.496×10⁸",
+      "B) 1.496×10⁷",
+      "C) 14.96×10⁷",
+      "D) 0.1496×10⁹"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Foundation",
+    "Explanation": "149,600,000 = 1.496×10⁸. (Move decimal 8 places left to get 1.496). Standard form: coefficient between 1 and 10."
+  },
+  {
+    "QuestionText": "Simplify: (4/5)³ × (5/4)²",
+    "Options": [
+      "A) 4/5",
+      "B) 5/4",
+      "C) 20/16",
+      "D) 16/25"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(4/5)³ × (5/4)² = (4³/5³) × (5²/4²) = 4³×5²/(5³×4²) = 4^(3-2)/5^(3-2) = 4/5."
+  },
+  {
+    "QuestionText": "Which is greater: 2¹⁰ or 10²?",
+    "Options": [
+      "A) 10²",
+      "B) 2¹⁰",
+      "C) Both equal",
+      "D) Depends on context"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Powers",
+    "Difficulty": "Foundation",
+    "Explanation": "2¹⁰ = 1024. 10² = 100. 1024 > 100. So 2¹⁰ > 10²."
+  },
+  {
+    "QuestionText": "Assertion: a⁻ⁿ = 1/aⁿ for any non-zero a. Reason: Negative exponent represents the reciprocal raised to the positive power. Which is correct?",
+    "Options": [
+      "A) Both true and Reason explains Assertion",
+      "B) Both false",
+      "C) Assertion true; Reason false",
+      "D) Assertion false; Reason true"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Negative Exponents",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. a⁻ⁿ = 1/aⁿ by definition of negative exponent. Reason explains: if aⁿ×a⁻ⁿ = a⁰ = 1, then a⁻ⁿ = 1/aⁿ. This is the fundamental definition."
+  },
+  {
+    "QuestionText": "The mass of an electron is approximately 9.1×10⁻³¹ kg. Express in standard decimal form:",
+    "Options": [
+      "A) 0.00000000000000000000000000000091 kg",
+      "B) 0.00000000000000000000000000000091 kg (30 zeros)",
+      "C) A very small number with 30 zeros after decimal",
+      "D) All of the above represent the same value"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Olympiad",
+    "Explanation": "9.1×10⁻³¹ = 9.1/10³¹ — a number with 30 zeros after decimal point then 91. All descriptions in options describe the same extremely small number. Standard form is used in science precisely to avoid writing such numbers in full decimal form."
+  },
+  {
+    "QuestionText": "If 2ˣ = 32, then x = ?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Powers",
+    "Difficulty": "Foundation",
+    "Explanation": "32 = 2⁵. So 2ˣ=2⁵ → x=5. Check: 2⁵=32 ✓."
+  },
+  {
+    "QuestionText": "Simplify: (a³×b²)/(a×b⁴)",
+    "Options": [
+      "A) a²/b²",
+      "B) a²b²",
+      "C) ab⁻²",
+      "D) Both A and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(a³×b²)/(a×b⁴) = a^(3-1) × b^(2-4) = a²×b⁻² = a²/b². Both A (a²/b²) and C (a²b⁻²) represent the same value."
+  },
+  {
+    "QuestionText": "The number of digits in 2²⁰ = 1048576 is:",
+    "Options": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 5"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Powers",
+    "Difficulty": "Advanced",
+    "Explanation": "2²⁰ = 1,048,576. Count digits: 1,0,4,8,5,7,6 = 7 digits. The number of digits in a number N = ⌊log₁₀N⌋+1 = ⌊20×log₁₀2⌋+1 = ⌊20×0.301⌋+1 = ⌊6.02⌋+1 = 6+1 = 7."
+  },
+  {
+    "QuestionText": "Express the size of a bacteria (0.000002 m) in standard form:",
+    "Options": [
+      "A) 2×10⁻⁵",
+      "B) 2×10⁻⁶",
+      "C) 2×10⁻⁷",
+      "D) 2×10⁵"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Foundation",
+    "Explanation": "0.000002 = 2/1000000 = 2/10⁶ = 2×10⁻⁶. Count: 0.000002 — decimal moves 6 places → 10⁻⁶."
+  },
+  {
+    "QuestionText": "What is the value of (0.1)³?",
+    "Options": [
+      "A) 0.001",
+      "B) 0.0001",
+      "C) 0.01",
+      "D) 0.1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Powers",
+    "Difficulty": "Foundation",
+    "Explanation": "(0.1)³ = 0.1×0.1×0.1 = 0.001. Or: (10⁻¹)³ = 10⁻³ = 0.001."
+  },
+  {
+    "QuestionText": "Which of the following equals 1?",
+    "Options": [
+      "A) 0⁰",
+      "B) 1⁰+0¹",
+      "C) 7⁰×(−3)⁰",
+      "D) (−1)⁰÷(−1)¹"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Powers",
+    "Difficulty": "Advanced",
+    "Explanation": "7⁰=1, (-3)⁰=1, so 7⁰×(-3)⁰=1×1=1. 0⁰: indeterminate. 1⁰+0¹=1+0=1 also works! (-1)⁰÷(-1)¹=1÷(-1)=-1. Both A (indeterminate but often=1) and C work, but C is unambiguous."
+  },
+  {
+    "QuestionText": "Simplify: 3⁻³ × 3⁻¹ × 3⁸",
+    "Options": [
+      "A) 3²",
+      "B) 3⁴",
+      "C) 3⁻¹²",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "3⁻³ × 3⁻¹ × 3⁸ = 3^(-3+(-1)+8) = 3^4 = 81."
+  },
+  {
+    "QuestionText": "The mass of Earth is approximately 5.97×10²⁴ kg and the mass of Moon is 7.35×10²² kg. How many times heavier is Earth?",
+    "Options": [
+      "A) Approximately 81 times",
+      "B) Approximately 100 times",
+      "C) Approximately 810 times",
+      "D) Approximately 10 times"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ratio = (5.97×10²⁴)/(7.35×10²²) = (5.97/7.35)×10² = 0.812×100 ≈ 81.2 ≈ 81 times. Earth is approximately 81 times heavier than the Moon."
+  },
+  {
+    "QuestionText": "For what value of x is 2ˣ = 0.125?",
+    "Options": [
+      "A) 2",
+      "B) -3",
+      "C) 3",
+      "D) -2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Negative Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "0.125 = 1/8 = 1/2³ = 2⁻³. So 2ˣ = 2⁻³ → x = -3."
+  },
+  {
+    "QuestionText": "Assertion: Scientific notation (standard form) allows easy comparison and calculation with very large or very small numbers. Reason: By expressing numbers as a×10ⁿ, we can compare magnitudes by comparing the exponents and perform multiplication/division by adding/subtracting exponents. Which is correct?",
+    "Options": [
+      "A) Both true and Reason correctly explains Assertion",
+      "B) Assertion false",
+      "C) Both false",
+      "D) Assertion true; Reason false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Standard Form",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both true. Scientific notation used throughout science: comparing masses (Earth vs bacteria), distances (Earth to star vs atom size), performing calculations. Comparing 2.3×10¹⁵ vs 8.9×10¹² — clearly first is larger (higher exponent). Multiplying: (2×10³)×(3×10⁴)=6×10⁷. Dividing: (6×10⁸)/(2×10³)=3×10⁵."
+  },
+  {
+    "QuestionText": "(a^3)^2 x a = ?",
+    "Options": [
+      "A) a^7",
+      "B) a^6",
+      "C) a^5",
+      "D) a^8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Laws of Exponents",
+    "Difficulty": "Foundation",
+    "Explanation": "(a^3)^2 = a^6. Then a^6 x a = a^7."
+  },
+  {
+    "QuestionText": "Simplify: (x^2/y^3)^(-2)",
+    "Options": [
+      "A) x^4/y^6",
+      "B) y^6/x^4",
+      "C) x^(-4)y^6",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Exponents and Powers",
+    "SubTopic": "Negative Exponents",
+    "Difficulty": "Advanced",
+    "Explanation": "(x^2/y^3)^(-2) = (y^3/x^2)^2 = y^6/x^4. All B and C represent the same value."
+  }
+]

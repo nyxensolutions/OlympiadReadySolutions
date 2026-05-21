@@ -1,0 +1,688 @@
+[
+  {
+    "QuestionText": "Complete the conversation with the most appropriate pragmatic response:\nManager: 'We need to deploy the security patches across all regional servers by tomorrow morning.'\nSystems Engineer: '________. Two of our main database clusters are currently offline for emergency repairs.'",
+    "Options": [
+      "A) That will be a walk in the park",
+      "B) That is an absolute impossibility given our current constraints",
+      "C) I am afraid that timeline is overly ambitious under the circumstances",
+      "D) Consider it completely finalized right now"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Advanced",
+    "Explanation": "Option C is the most professionally appropriate and polite way to voice a practical objection ('soft refusal/hedging') in a formal workplace setting, whereas Option B is too abrasive."
+  },
+  {
+    "QuestionText": "Choose the correct phrase to complete the dialogue context:\nSpeaker A: 'I really believe we should change our marketing campaign strategy to focus entirely on social media influencers.'\nSpeaker B: '________. While influencers have great reach, our target demographic still relies heavily on industry journals.'",
+    "Options": [
+      "A) I couldn't agree with you more",
+      "B) That is a completely ridiculous idea",
+      "C) I see your point, but we must consider alternative data",
+      "D) You are absolutely missing the mark here"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English",
+    "SubTopic": "Expressing Agreement/Disagreement",
+    "Difficulty": "Foundation",
+    "Explanation": "Option C uses a polite disagreement framework ('I see your point, but...') which acknowledges the previous speaker's premise before offering a constructive counter-argument."
+  },
+  {
+    "QuestionText": "Select the option that best completes the conversation in a school committee setting:\nStudent Council Leader: 'Should we schedule the charity football match for this Saturday afternoon?'\nCommittee Member: '________. The meteorological department has predicted heavy torrential rain and localized thunderstorms.'",
+    "Options": [
+      "A) We might as well give it a shot",
+      "B) That might not be the most viable option",
+      "C) I am completely indifferent to the weather",
+      "D) Let's press ahead regardless of the cost"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Making Suggestions/Advice",
+    "Difficulty": "Foundation",
+    "Explanation": "Option B uses an appropriately tentative, polite hedging phrase ('might not be the most viable option') to steer the committee away from a bad choice due to external weather risks."
+  },
+  {
+    "QuestionText": "Complete the dialogue with the correct conversational primitive:\nCustomer: 'Excuse me, I bought this digital tablet yesterday, but it refuses to connect to any local Wi-Fi networks.'\nStore Clerk: '________. Let me take a look at the device configuration settings to see if we can resolve this right away.'",
+    "Options": [
+      "A) That's your own fault for breaking it",
+      "B) I am incredibly sorry for the inconvenience caused",
+      "C) Devices are always failing like this nowadays",
+      "D) You should have read the instruction manual first"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "An effective customer service interaction requires an immediate polite validation or apology ('I am incredibly sorry for the inconvenience caused') to build rapport and resolve the issue professionally."
+  },
+  {
+    "QuestionText": "Identify the option that best aligns with a formal diplomatic refusal:\nAmbassador A: 'We request your government to sign the immediate trade tariffs freeze agreement this evening.'\nAmbassador B: '________. Our economic council needs to fully review the long-term impact on our domestic manufacturing base first.'",
+    "Options": [
+      "A) No way, we don't trust your figures",
+      "B) We are prepared to reject this unconditionally",
+      "C) We are not in a position to commit to that at this particular juncture",
+      "D) We will sign it provided you pay our expenses"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English",
+    "SubTopic": "Formal Diplomatic Interactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Option C features high-tier formal hedging terminology ('not in a position to commit to that at this particular juncture'), which serves as the standard for international diplomatic discussions."
+  },
+  {
+    "QuestionText": "Complete the casual dialogue with the correct idiomatic phrase:\nSam: 'Are you ready for the advanced advanced calculus exam tomorrow morning?'\nAlex: 'Not really, I've been reading the notes for hours but I still can't ________ some of these complex integration formulas.'",
+    "Options": [
+      "A) wrap my head around",
+      "B) throw cold water on",
+      "C) hit the nail on",
+      "D) clear the air with"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "To 'wrap one's head around' something is a common informal idiom that means to successfully find a way to understand a deep or complicated concept."
+  },
+  {
+    "QuestionText": "Choose the best phrase to complete the group project discussion:\nGroup Member A: 'Let's skip adding the bibliography index to save time before the submission deadline.'\nGroup Member B: '________. The project evaluation rubric states that skipping the source references results in an automatic point deduction.'",
+    "Options": [
+      "A) That sounds like a brilliant shortcut",
+      "B) I strongly advise against doing that",
+      "C) It doesn't make any difference to me",
+      "D) Let's toss a coin to decide it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Expressing Agreement/Disagreement",
+    "Difficulty": "Foundation",
+    "Explanation": "Option B provides a firm but professional warning ('I strongly advise against doing that') backed up by an objective rule from the grading rubric."
+  },
+  {
+    "QuestionText": "Select the correct pragmatic response for a corporate job interview context:\nInterviewer: 'Why should our tech conglomerate select you over the other highly qualified applicants?'\nCandidate: '________, combining deep technical software programming skills with a proven track record of managing cross-functional team workflows.'",
+    "Options": [
+      "A) Because I am obviously the smartest person available",
+      "B) I believe my unique background aligns perfectly with your goals",
+      "C) You would be making a huge mistake to choose anyone else",
+      "D) I don't really know what the other candidates can offer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B strikes the correct professional balance between confidence and politeness, framing the candidate's skills as a benefit that 'aligns perfectly with your goals'."
+  },
+  {
+    "QuestionText": "Complete the dialogue using an appropriate expression of sympathy:\nFriend A: 'I just found out that my research abstract was rejected by the international science fair committee.'\nFriend B: '________! I know how hard you worked on that experiment over the last six months.'",
+    "Options": [
+      "A) What a pity",
+      "B) That's completely fine",
+      "C) You should try harder next time",
+      "D) That is an absolute outrage"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "'What a pity' (or 'What a shame') is a standard, polite conversational phrase used to express mild disappointment and sympathy for someone else's bad news."
+  },
+  {
+    "QuestionText": "Complete the workplace exchange with the correct conversational response:\nSenior Consultant: 'Could you print out the financial spreadsheets for the afternoon board presentation?'\nJunior Executive: '________. I will place them on your conference desk within the next ten minutes.'",
+    "Options": [
+      "A) I'll see if I can bother to do it",
+      "B) Yes, certainly",
+      "C) Why don't you do it yourself?",
+      "D) That is outside my core job description"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Foundation",
+    "Explanation": "'Yes, certainly' is the standard polite affirmative response used to acknowledge a direct request from a senior team member in a workplace environment."
+  },
+  {
+    "QuestionText": "Choose the most appropriate phrase to politely interrupt a panel discussion:\nAudience Member: '________, but could the panel clarify how the proposed carbon tax will affect small rural businesses?'",
+    "Options": [
+      "A) Stop talking for a second",
+      "B) If I may interject briefly",
+      "C) You are missing the main point",
+      "D) I demand an answer right now"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Formal Diplomatic Interactions",
+    "Difficulty": "Advanced",
+    "Explanation": "'If I may interject briefly' is a highly polite, formal phrase used to interrupt a speaker or join an active discussion without causing offense."
+  },
+  {
+    "QuestionText": "Complete the dialogue with the correct conversational response:\nClassmate A: 'I am totally swamped with this history assignment. Could you explain the main causes of the treaty split?'\nClassmate B: '________. Let's sit down and look over the primary timeline sources together.'",
+    "Options": [
+      "A) I'd be happy to help",
+      "B) Don't worry about it, it's easy",
+      "C) I have better things to do right now",
+      "D) Figure it out on your own"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Making Suggestions/Advice",
+    "Difficulty": "Foundation",
+    "Explanation": "'I'd be happy to help' is a polite, supportive response used to accept a peer's request for assistance with a task."
+  },
+  {
+    "QuestionText": "Select the correct pragmatic choice to handle an angry client call:\nAccount Representative: '________. I understand your shipping delivery was delayed by three days, and I am actively tracking the logistics package to resolve this immediately.'",
+    "Options": [
+      "A) Please calm down, it's not our fault the weather was bad.",
+      "B) I appreciate your patience and completely understand your frustration.",
+      "C) Our shipping partners are the ones who made this mistake, not us.",
+      "D) You are making a huge deal out of a minor delay."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B is an excellent customer service response because it validates the client's frustration and thanks them ('I appreciate your patience') without being defensive."
+  },
+  {
+    "QuestionText": "Complete the casual interaction with the correct idiom:\nLeo: 'Did you hear that Marcus won the entire regional chess tournament on his very first try?'\nMia: 'Wow, he really ________! No one expected an unranked player to defeat the defending master.'",
+    "Options": [
+      "A) hit the jackpot",
+      "B) took the world by storm",
+      "C) read between the lines",
+      "D) bit off more than he could chew"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "To 'take the world by storm' means to become suddenly and wildly successful or popular in a specific field, matching Marcus's surprise tournament win."
+  },
+  {
+    "QuestionText": "Choose the best phrase to express a tentative opinion during a project brainstorm:\nLead Designer: '________, changing the software user interface layout might confuse our active daily user base.'",
+    "Options": [
+      "A) Without a shadow of a doubt",
+      "B) If you ask me, it's an absolute fact that",
+      "C) As far as I can gather",
+      "D) It is an undeniable reality that"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English",
+    "SubTopic": "Making Suggestions/Advice",
+    "Difficulty": "Advanced",
+    "Explanation": "'As far as I can gather' provides an appropriately cautious, tentative phrasing for sharing professional opinions without sounding overly aggressive or rigid."
+  },
+  {
+    "QuestionText": "Complete the formal dinner conversation with the most appropriate polite phrase:\nHost: 'Would you care for another serving of the signature mushroom risotto?'\nGuest: '________. It was absolutely delicious, but I am completely full.'",
+    "Options": [
+      "A) No, I don't want any",
+      "B) Thank you, but I must respectfully decline",
+      "C) I've had more than enough of this",
+      "D) No way, I am finished"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "'Thank you, but I must respectfully decline' is a standard formal phrase used to politely turn down an offer or invitation while showing appreciation."
+  },
+  {
+    "QuestionText": "Select the correct dialogue response for an office resolution context:\nSupervisor: 'We have received several complaints that the new project deadlines are causing severe team burnout.'\nProject Manager: '________. Let's review the active timeline tasks and redistribute the workload immediately.'",
+    "Options": [
+      "A) The team needs to work harder to hit targets.",
+      "B) That sounds like a serious concern that we must address.",
+      "C) Complaints are just an excuse for slow production speeds.",
+      "D) I don't think that data is worth investigating."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B acknowledges and respects the feedback ('That sounds like a serious concern') and moves directly into proactive problem-solving."
+  },
+  {
+    "QuestionText": "Complete the dialogue with the correct phrase:\nSpeaker A: 'I am worried that our laboratory experiment will fail if the room temperature shifts by even one degree.'\nSpeaker B: '________. The environmental control unit has been calibrated to maintain absolute thermal stability.'",
+    "Options": [
+      "A) Rest assured",
+      "B) You should be terrified",
+      "C) It's out of our control",
+      "D) Prepare for the worst"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "'Rest assured' is a formal, reassuring conversational phrase used to clear up doubts and give someone confidence that things are safely under control."
+  },
+  {
+    "QuestionText": "Choose the correct phrase to complete a polite request for clarification:\nStudent: '________, sir. Could you repeat the rule regarding active matrix variables once more?'\nProfessor: 'Of course. Let's look at the mathematical board diagram again.'",
+    "Options": [
+      "A) Pardon my intrusion",
+      "B) Listen to me",
+      "C) You speak too fast",
+      "D) I missed that part"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Formal Diplomatic Interactions",
+    "Difficulty": "Advanced",
+    "Explanation": "'Pardon my intrusion' or 'Pardon me' serves as a highly respectful, formal conversational primitive to request a teacher or supervisor to repeat an explanation."
+  },
+  {
+    "QuestionText": "Complete the conversation with the best pragmatic option:\nTeam Member A: 'I think we should launch the software product right now and fix any system bugs as they appear later.'\nTeam Member B: '________. Launching a broken build could permanently ruin our corporate brand reputation.'",
+    "Options": [
+      "A) I am totally on board with that plan",
+      "B) I have strong reservations about that approach",
+      "C) That sounds like an easy shortcut to success",
+      "D) I don't really mind what happens next"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Expressing Agreement/Disagreement",
+    "Difficulty": "Advanced",
+    "Explanation": "'I have strong reservations about that approach' is a professional and clear way to express caution or disagreement regarding a high-stakes project strategy."
+  },
+  {
+    "QuestionText": "Complete the casual interaction with the correct phrasal verb:\nTom: 'Did you manage to fix your broken bicycle chain this afternoon?'\nBen: 'No, it turned out to be way too complicated, so I had to ________ and take it to a professional repair shop.'",
+    "Options": ["A) give in", "B) check out", "C) run down", "D) pass over"],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "In this context, 'give in' means to yield or stop trying to fix it yourself, accepting that you need to get professional help instead."
+  },
+  {
+    "QuestionText": "Choose the best response to accept a formal business invitation:\nDirector: 'We would be honored to have you as our keynote speaker at the upcoming global technology summit.'\nGuest Speaker: '________. I look forward to presenting our recent research findings to the delegation.'",
+    "Options": [
+      "A) The honor is entirely mine",
+      "B) Yeah, I can make it work",
+      "C) I guess I have no choice",
+      "D) Sure, put it on my calendar"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Formal Diplomatic Interactions",
+    "Difficulty": "Advanced",
+    "Explanation": "'The honor is entirely mine' is a polite, formal corporate phrase used to accept an prestigious invitation or compliment with humility."
+  },
+  {
+    "QuestionText": "Complete the dialogue with the correct customer service response:\nPassenger: 'My flight was canceled, and I am going to miss my connecting international conference in London!'\nGate Agent: '________. Let me check the system registry to place you on the next priority connection route immediately.'",
+    "Options": [
+      "A) Cancellations happen all the time, you know.",
+      "B) I completely understand the urgency of your situation.",
+      "C) You should have booked an earlier backup flight sequence.",
+      "D) Please step aside because you are blocking the active line."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "Option B uses an empathetic customer service script ('I completely understand the urgency of your situation') to calm the passenger and show they are ready to help."
+  },
+  {
+    "QuestionText": "Select the correct phrase to complete the dialogue during a debate:\nDebater A: 'Implementing strict city congestion pricing will drastically cut down on vehicle emissions.'\nDebater B: '________. It will also place a heavy financial burden on low-income workers who have to drive from rural areas.'",
+    "Options": [
+      "A) That is an undisputable fact",
+      "B) That may be true, but we must also consider",
+      "C) I completely reject your entire premise",
+      "D) You are absolutely correct about that"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Expressing Agreement/Disagreement",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B acknowledges the opponent's valid point ('That may be true') before introducing an essential counter-argument regarding low-income workers."
+  },
+  {
+    "QuestionText": "Complete the workplace exchange with the correct conversational phrase:\nProject Coordinator: 'Can we submit the quarterly reports by Thursday afternoon instead of Friday?'\nAnalyst: '________. All data sets have already been validated and compiled into the master spreadsheet.'",
+    "Options": [
+      "A) That shouldn't pose any problem at all",
+      "B) I am highly doubtful about that schedule",
+      "C) That is an unreasonable demand to make",
+      "D) Let me think about it next week"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Foundation",
+    "Explanation": "Option A ('That shouldn't pose any problem at all') is a helpful, confident affirmative phrase that matches the analyst's explanation that the data is already finished."
+  },
+  {
+    "QuestionText": "Choose the best option to make a soft, polite request in a library setting:\nStudent: '________, but would you mind lowering your voice slightly? I am trying to focus on my final exam prep.'\nPatron: 'Oh, I am so sorry! I didn't realize I was speaking so loudly.'",
+    "Options": [
+      "A) Be quiet right now",
+      "B) I hate to be a bother",
+      "C) You are breaking the library rules",
+      "D) Stop talking immediately"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Advanced",
+    "Explanation": "'I hate to be a bother' is a polite, indirect hedging phrase used to make a potentially uncomfortable request without causing friction or confrontation."
+  },
+  {
+    "QuestionText": "Complete the conversation during a science lab group experiment:\nPartner A: 'The digital scale is showing a negative value for our chemical sample weight.'\nPartner B: '________. We must have forgotten to calibrate or tare the balance before adding the container.'",
+    "Options": [
+      "A) Something is definitely amiss here",
+      "B) That is perfectly normal and fine",
+      "C) Let's just write down that negative number",
+      "D) The scale is obviously completely broken"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Advanced",
+    "Explanation": "'Something is definitely amiss' is a precise, mature conversational phrase used to point out that something looks wrong or incorrect in a given setup."
+  },
+  {
+    "QuestionText": "Select the correct pragmatic choice to close a formal business meeting:\nChairman: 'As there are no further items on today’s schedule index, ________.'",
+    "Options": [
+      "A) let's all get out of here right now",
+      "B) I declare this meeting officially adjourned",
+      "C) we are finished talking about this project",
+      "D) turn off the lights when you leave"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Foundation",
+    "Explanation": "'I declare this meeting officially adjourned' is the standard, legally recognized formal phrasing used to conclude a structured administrative meeting."
+  },
+  {
+    "QuestionText": "Complete the dialogue with the correct phrasing:\nSpeaker A: 'I am certain that our team will secure the first prize at the upcoming national debate tournament.'\nSpeaker B: '________. The competing schools have brought in national coaches and look incredibly tough to beat.'",
+    "Options": [
+      "A) Let's not get ahead of ourselves",
+      "B) We have already won the competition",
+      "C) That is an undeniable certainty",
+      "D) I agree with your evaluation completely"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "'Let's not get ahead of ourselves' is an idiom that cautions someone against celebrating or assuming success before the actual event or work takes place."
+  },
+  {
+    "QuestionText": "Choose the best phrase to handle a mistake professionally at work:\nAccountant: 'I just noticed that I entered the wrong transaction code in the tax ledger row.'\nFinancial Director: '________. Let's run the reversal code stream and fix the tracking error before the audit logs close.'",
+    "Options": [
+      "A) This is a total disaster for your career path.",
+      "B) Thank you for bringing this to my attention promptly.",
+      "C) You should keep that mistake hidden from the auditors.",
+      "D) Why are you always making simple errors like this?"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B shows excellent management communication by thanking the employee for being transparent ('Thank you for bringing this to my attention promptly') and focusing on fixing the problem immediately."
+  },
+  {
+    "QuestionText": "Complete the conversation during a group study session:\nClassmate A: 'Can we try solving this complex chemistry problem using the alternative law method?'\nClassmate B: '________! It fits the variables perfectly and cuts down on our calculation steps.'",
+    "Options": [
+      "A) By all means",
+      "B) Under no circumstances",
+      "C) I am highly skeptical",
+      "D) That is forbidden"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Making Suggestions/Advice",
+    "Difficulty": "Foundation",
+    "Explanation": "'By all means' is a polite, enthusiastic affirmative response used to give permission or show strong agreement for a proposed idea."
+  },
+  {
+    "QuestionText": "Select the correct conversational phrase to decline an offer gently:\nColleague: 'Would you like to join us for a quick coffee break down at the corner shop?'\nBusy Employee: '________. I have an absolute deadline for this product catalog in twenty minutes.'",
+    "Options": [
+      "A) I don't like coffee at all",
+      "B) I will have to take a rain check on that",
+      "C) Stop distracting me from my work",
+      "D) No, that sounds incredibly boring"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "To 'take a rain check' is a common, polite idiomatic phrase used to decline an invitation right now while suggesting that you would love to accept it at a later date."
+  },
+  {
+    "QuestionText": "Complete the customer service interaction with the correct professional phrasing:\nSubscriber: 'The digital newspaper app keeps crashing whenever I try to open the editorial column.'\nTech Support: '________. We just released a software patch that fixes this specific background crash loop.'",
+    "Options": [
+      "A) Please ensure that your device operating system is updated to the latest build.",
+      "B) The app works perfectly fine on my personal phone device.",
+      "C) You must have a broken device hardware component.",
+      "D) Try using a different newspaper app instead."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "Option A offers a clear, actionable, and professionally polite technical solution ('Please ensure that your device operating system is updated...') to fix the user's software issue."
+  },
+  {
+    "QuestionText": "Choose the most appropriate phrase to state a definitive counter-opinion:\nPanelist A: 'Global climate problems can be resolved entirely by relying on individual consumer lifestyle choices.'\nPanelist B: '________, systemic industrial pollution requires sweeping legislative regulations to achieve real change.'",
+    "Options": [
+      "A) I agree with your excellent analysis, and",
+      "B) With all due respect, that view overlooks the fact that",
+      "C) You are completely right about consumer metrics, so",
+      "D) That is an absolutely perfect solution model, but"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Formal Diplomatic Interactions",
+    "Difficulty": "Advanced",
+    "Explanation": "'With all due respect, that view overlooks the fact that' is a classic formal debate phrase used to challenge an opponent's point politely but firmly."
+  },
+  {
+    "QuestionText": "Complete the dialogue with the correct conversational response:\nSpeaker A: 'Our team did not win a single medal at the science innovation fair after months of prep work.'\nSpeaker B: '________. The experience we gained from building the prototype is still an invaluable asset for our futures.'",
+    "Options": [
+      "A) Look on the bright side",
+      "B) Everything is completely ruined now",
+      "C) We should give up on science entirely",
+      "D) That was an absolute waste of time"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "'Look on the bright side' is an idiom used to encourage someone to find a positive angle or valuable lesson within a disappointing situation."
+  },
+  {
+    "QuestionText": "Select the correct pragmatic choice to handle a disagreement during a school project brainstorming session:\nTeam Member A: 'I think the presentation slides look much better with a dark black background color.'\nTeam Member B: '________. Let's create two sample versions and see which one is easier to read on the overhead projector.'",
+    "Options": [
+      "A) Black backgrounds are terrible and unprofessional.",
+      "B) I see what you're aiming for, but let's test visibility first.",
+      "C) I refuse to work on a presentation that uses dark colors.",
+      "D) Your design tastes are completely wrong for this topic."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B avoids personal conflict by validating the peer's intent ('I see what you're aiming for') and proposing an objective test to decide the best path forward."
+  },
+  {
+    "QuestionText": "Complete the conversation with the correct phrasal verb:\nManager: 'We need to decide on our final booth design configuration for the Tokyo trade expo by this afternoon.'\nLead Designer: 'Don't worry, we have narrowed down the layout variants and will ________ a final decision by lunchtime.'",
+    "Options": ["A) arrive at", "B) arrive across", "C) wind down from", "D) take off into"],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Foundation",
+    "Explanation": "To 'arrive at' a decision or conclusion is a standard business English collocation that means to successfully make a final choice after careful thought or debate."
+  },
+  {
+    "QuestionText": "Choose the best phrase to check for understanding in a clear, polite way:\nInstructor: 'The safety manifold must always be engaged before you start up the main hydraulic pump loop. ________?'\nTrainee: 'Yes, that makes perfect sense. Engage the safety manifold first, then power on the pump system.'"
+    ,
+    "Options": [
+      "A) Do you understand what I am saying or not",
+      "B) Does that make sense so far",
+      "C) Are you even listening to my words",
+      "D) Is that too complicated for you to follow"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "'Does that make sense so far' is a helpful, polite phrase used by teachers or instructors to check if a student understands the material before moving to the next step."
+  },
+  {
+    "QuestionText": "Complete the conversation with the correct response:\nFriend A: 'I am so nervous about playing the solo violin part at the school concert tonight.'\nFriend B: '________! You have practiced the musical score flawlessly hundreds of times over the last month.'",
+    "Options": [
+      "A) You have every reason to be terrified",
+      "B) Break a leg",
+      "C) Watch your step",
+      "D) Keep your head down"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "'Break a leg' is a classic theatrical idiom used to wish performers good luck right before they go on stage."
+  },
+  {
+    "QuestionText": "Select the option that best handles a high-stakes corporate negotiation gridlock:\nExecutive A: 'Our firm cannot accept a single percentage drop below our initial 15% royalty requirement fee.'\nExecutive B: '________, let's explore alternative compensation options like extended multi-year distribution rights instead.'",
+    "Options": [
+      "A) Since we have reached an absolute gridlock, let's end this deal right now",
+      "B) In order to find a mutually beneficial middle ground",
+      "C) You are being completely unreasonable with your pricing rules",
+      "D) We demand that you accept our original pricing metrics unconditionally"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Formal Diplomatic Interactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B uses excellent professional phrasing ('In order to find a mutually beneficial middle ground') to transition away from a rigid pricing gridlock into constructive compromise options."
+  },
+  {
+    "QuestionText": "Complete the dialogue with the correct phrase:\nSpeaker A: 'Did the delivery service manage to drop off the legal contract files before the corporate office closed?'\nSpeaker B: 'Yes, they made it ________, delivering the signed documents just five minutes before the front doors locked.'",
+    "Options": [
+      "A) in the nick of time",
+      "B) out of the blue",
+      "C) by leaps and bounds",
+      "D) over the moon"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "'In the nick of time' is an idiom that means doing or completing something at the last possible second before it's too late."
+  },
+  {
+    "QuestionText": "Choose the best option to politely ask for an extension on a school assignment:\nStudent: '________, Professor. Could I have an extra twenty-four hours to polish the statistical data charts in my economics paper?'\nProfessor: 'Very well, provided you submit the final draft by tomorrow evening at the latest.'",
+    "Options": [
+      "A) I demand more time for my project",
+      "B) I was hoping you might grant me a brief extension",
+      "C) My project is not finished yet, so I need an extra day",
+      "D) You gave us too little time to complete this work"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Making Suggestions/Advice",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B features an appropriately respectful and polite tentative phrasing layout ('I was hoping you might grant me a brief extension') when asking a teacher for a favor."
+  },
+  {
+    "QuestionText": "Complete the customer service script with the correct response:\nHelpdesk: 'Thank you for calling cloud network customer support. ________?'\nClient: 'Hi, I need assistance resetting our firm's administrative password keys.'",
+    "Options": [
+      "A) What is your problem today",
+      "B) How may I assist you this morning",
+      "C) State your business quickly",
+      "D) Why are you calling this number"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Foundation",
+    "Explanation": "'How may I assist you this morning' (or 'How can I help you today') is the standard corporate courtesy phrase used to start a professional customer support call."
+  },
+  {
+    "QuestionText": "Select the correct pragmatic option to voice a diplomatic reservation during a board meeting:\nDirector: '________, the market research figures seem to contradict our expansion expectations for that territory.'",
+    "Options": [
+      "A) If I may be completely blunt and honest",
+      "B) If my memory serves me correctly",
+      "C) Unless I am mistaken",
+      "D) Without meaning to question the baseline report"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "English",
+    "SubTopic": "Formal Diplomatic Interactions",
+    "Difficulty": "Advanced",
+    "Explanation": "'Without meaning to question the baseline report' allows a speaker to introduce conflicting evidence or voice reservations without sounding confrontational or insulting to the team that made the original report."
+  },
+  {
+    "QuestionText": "Complete the casual dialogue with the correct idiom:\nLeo: 'Did you manage to work out the solution to the riddle that the teacher gave us?'\nMia: 'No, I have been analyzing it for over an hour, but I am completely ________. Let's ask him for a hint.'",
+    "Options": ["A) at sea", "B) on cloud nine", "C) in the driving seat", "D) hitting the jackpot"],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Advanced",
+    "Explanation": "To be 'at sea' is an idiom that means to be completely confused, lost, or uncertain about what to do next with a problem."
+  },
+  {
+    "QuestionText": "Choose the best phrase to handle a minor workplace inconvenience politely:\nColleague: 'Oh no, I accidentally printed my fifty-page report using the shared color ink cartridge instead of the black-and-white tray!'\nOffice Manager: '________. Just make sure to select the black-and-white tray default settings on your machine next time.'",
+    "Options": [
+      "A) This is an absolute waste of company money.",
+      "B) Don't worry about it; it's a minor oversight.",
+      "C) You should be written up for this mistake.",
+      "D) This printer is now completely off-limits to you."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Foundation",
+    "Explanation": "Option B ('Don't worry about it; it's a minor oversight') is a supportive and balanced way to handle a small mistake while keeping a positive team environment."
+  },
+  {
+    "QuestionText": "Complete the formal conversation with the correct phrase:\nInterviewer: 'Thank you for sharing your portfolio. We will contact you regarding our final selection within the next business week.'\nJob Applicant: '________. I appreciate the opportunity to discuss how my skills match your development goals.'",
+    "Options": [
+      "A) Thank you for your time and consideration",
+      "B) I will be waiting for your call every day",
+      "C) Make sure you choose quickly",
+      "D) Sounds fine, see you later"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Foundation",
+    "Explanation": "'Thank you for your time and consideration' is the standard, globally professional phrase used to close an interview or formal business interaction gratefully."
+  },
+  {
+    "QuestionText": "Select the correct dialogue option for a negotiation context:\nBuyer: 'We love your handcrafted leather goods, but your wholesale unit cost is higher than we expected.'\nSupplier: '________. Our pricing values match our commitment to ethically sourced materials and expert craftsmanship.'",
+    "Options": [
+      "A) Take it or leave it; our prices are fixed.",
+      "B) I appreciate your feedback regarding the cost structure.",
+      "C) Lower your quality requirements if you want a cheaper price.",
+      "D) You clearly don't appreciate high-quality products."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Customer Service / Politeness",
+    "Difficulty": "Advanced",
+    "Explanation": "Option B politely validates the buyer's feedback ('I appreciate your feedback regarding the cost structure') before naturally defending the premium value and quality of the goods."
+  },
+  {
+    "QuestionText": "Complete the casual exchange with the correct idiom:\nSam: 'Are you still planning to write an entire three-hundred-page novel during our two-week winter break?'\nAlex: 'No, I realized I ________. I barely have enough free time to finish reading my class history books!'",
+    "Options": [
+      "A) hit the nail on the head",
+      "B) bit off more than I could chew",
+      "C) burned the midnight oil",
+      "D) turned the tables completely"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Casual / Idiomatic Conversations",
+    "Difficulty": "Foundation",
+    "Explanation": "To 'bite off more than you can chew' is an idiom meaning to take on a task that is way too big, difficult, or unrealistic to complete successfully."
+  },
+  {
+    "QuestionText": "Choose the best phrase to check for consensus among a project team:\nProject Leader: 'We have updated the design slides and reallocated the budget tools. ________ before we send this to the director?'",
+    "Options": [
+      "A) Is anyone going to object to this",
+      "B) Are we all in agreement on this path forward",
+      "C) Does anyone even care about the changes",
+      "D) Who wants to take the blame for this layout"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English",
+    "SubTopic": "Workplace Communication",
+    "Difficulty": "Foundation",
+    "Explanation": "'Are we all in agreement on this path forward' is a professional and inclusive phrase used to check for consensus across a team before locking in a decision."
+  }
+]

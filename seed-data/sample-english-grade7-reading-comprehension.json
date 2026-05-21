@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The main purpose of a topic sentence in a paragraph is to",
+    "Options": [
+      "A) State the main idea of the paragraph",
+      "B) Give supporting details",
+      "C) Conclude the paragraph",
+      "D) Introduce a new topic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Paragraph structure",
+    "Difficulty": "Foundation",
+    "Explanation": "The topic sentence states the central idea of the paragraph; all other sentences support or elaborate on it."
+  },
+  {
+    "QuestionText": "When answering a comprehension question, you should",
+    "Options": [
+      "A) Read the passage carefully and base answers on the text",
+      "B) Answer from general knowledge",
+      "C) Guess without reading",
+      "D) Only read the title"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Comprehension skills",
+    "Difficulty": "Foundation",
+    "Explanation": "Comprehension requires understanding the text; answers must be supported by evidence in the passage."
+  },
+  {
+    "QuestionText": "The meaning of a word can often be understood from",
+    "Options": [
+      "A) Context clues in the surrounding sentences",
+      "B) The dictionary only",
+      "C) The title",
+      "D) The number of letters"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Context clues",
+    "Difficulty": "Foundation",
+    "Explanation": "Context clues: surrounding words and sentences give hints about the meaning of an unfamiliar word."
+  },
+  {
+    "QuestionText": "Skimming a text means",
+    "Options": [
+      "A) Reading quickly to get the general idea",
+      "B) Reading every word carefully",
+      "C) Reading only the last paragraph",
+      "D) Memorising the text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Reading strategies",
+    "Difficulty": "Foundation",
+    "Explanation": "Skimming: rapidly reading to get the gist or main idea, without focusing on every detail."
+  },
+  {
+    "QuestionText": "Scanning a text means",
+    "Options": [
+      "A) Looking quickly for specific information",
+      "B) Reading everything carefully",
+      "C) Reading for pleasure",
+      "D) Reading the conclusion first"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Reading strategies",
+    "Difficulty": "Foundation",
+    "Explanation": "Scanning: moving eyes rapidly over text to locate a specific piece of information (a date, name, or fact)."
+  },
+  {
+    "QuestionText": "Inference means",
+    "Options": [
+      "A) Drawing a conclusion from evidence not directly stated",
+      "B) Summarising the text",
+      "C) Quoting directly",
+      "D) Paraphrasing"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Inference",
+    "Difficulty": "Advanced",
+    "Explanation": "Inference: using clues in the text to figure out something the author did not state explicitly."
+  },
+  {
+    "QuestionText": "The author's 'tone' in a passage refers to",
+    "Options": [
+      "A) The writer's attitude or feeling towards the subject",
+      "B) The topic of the passage",
+      "C) The length of the passage",
+      "D) The characters in the text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Tone",
+    "Difficulty": "Advanced",
+    "Explanation": "Tone reflects the writer's attitude: formal, humorous, sarcastic, serious, nostalgic, etc."
+  },
+  {
+    "QuestionText": "A 'theme' in a passage is",
+    "Options": [
+      "A) The central message or underlying meaning",
+      "B) The plot summary",
+      "C) The list of characters",
+      "D) The title"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Theme",
+    "Difficulty": "Advanced",
+    "Explanation": "Theme: the central idea or message the author conveys throughout the text."
+  },
+  {
+    "QuestionText": "A 'summary' of a passage should include",
+    "Options": [
+      "A) The main ideas in your own words, without unimportant details",
+      "B) Every detail from the text",
+      "C) Only the introduction",
+      "D) Only the conclusion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Summarising",
+    "Difficulty": "Foundation",
+    "Explanation": "A summary captures the essential points concisely in your own words, omitting minor details."
+  },
+  {
+    "QuestionText": "Which of the following best defines 'fact' in a passage?",
+    "Options": [
+      "A) A statement that can be verified as true",
+      "B) An opinion",
+      "C) A guess",
+      "D) A personal feeling"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Fact vs opinion",
+    "Difficulty": "Foundation",
+    "Explanation": "A fact can be proven true or false (The Amazon is the world's largest rainforest). An opinion expresses a view."
+  },
+  {
+    "QuestionText": "Which of the following is an opinion?",
+    "Options": [
+      "A) The Taj Mahal is the most beautiful monument in India",
+      "B) The Taj Mahal is in Agra",
+      "C) The Taj Mahal was built in the 17th century",
+      "D) The Taj Mahal is a UNESCO World Heritage Site"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Fact vs opinion",
+    "Difficulty": "Foundation",
+    "Explanation": "'Most beautiful' is subjective and cannot be verified: it is an opinion. The other options are verifiable facts."
+  },
+  {
+    "QuestionText": "The word 'however' at the beginning of a sentence signals",
+    "Options": [
+      "A) A contrast or contradiction with what was said before",
+      "B) A cause-and-effect relationship",
+      "C) A time sequence",
+      "D) An example follows"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Discourse markers",
+    "Difficulty": "Advanced",
+    "Explanation": "However is a contrast/concession marker: it signals the upcoming idea contrasts with the previous one."
+  },
+  {
+    "QuestionText": "The word 'therefore' signals",
+    "Options": [
+      "A) A conclusion or result follows",
+      "B) A contrast",
+      "C) An example",
+      "D) A new idea"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Discourse markers",
+    "Difficulty": "Advanced",
+    "Explanation": "Therefore indicates the following statement is a logical conclusion or result of what preceded it."
+  },
+  {
+    "QuestionText": "The word 'furthermore' signals",
+    "Options": [
+      "A) Additional information that supports the previous point",
+      "B) Contrast",
+      "C) Conclusion",
+      "D) Exception"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Discourse markers",
+    "Difficulty": "Advanced",
+    "Explanation": "Furthermore (also: moreover, additionally) adds more supporting information to reinforce an argument."
+  },
+  {
+    "QuestionText": "A 'passage' whose purpose is to persuade the reader is called",
+    "Options": [
+      "A) Persuasive / argumentative text",
+      "B) Narrative text",
+      "C) Descriptive text",
+      "D) Expository text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Text types",
+    "Difficulty": "Foundation",
+    "Explanation": "Persuasive texts aim to convince readers to adopt a viewpoint or take action (editorials, advertisements, debates)."
+  },
+  {
+    "QuestionText": "A passage that tells a story with characters and plot is called",
+    "Options": [
+      "A) Narrative text",
+      "B) Expository text",
+      "C) Persuasive text",
+      "D) Descriptive text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Text types",
+    "Difficulty": "Foundation",
+    "Explanation": "Narrative texts tell a story: novels, short stories, autobiographies, folk tales."
+  },
+  {
+    "QuestionText": "A passage that explains how something works or gives information is",
+    "Options": [
+      "A) Expository text",
+      "B) Narrative text",
+      "C) Persuasive text",
+      "D) Poetic text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Text types",
+    "Difficulty": "Foundation",
+    "Explanation": "Expository text presents facts and explains ideas: textbooks, encyclopaedias, news articles, how-to guides."
+  },
+  {
+    "QuestionText": "A passage that paints a picture with words about a place or person is",
+    "Options": [
+      "A) Descriptive text",
+      "B) Narrative text",
+      "C) Argumentative text",
+      "D) Expository text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Text types",
+    "Difficulty": "Foundation",
+    "Explanation": "Descriptive text uses sensory details (sight, sound, smell, touch, taste) to create a vivid picture."
+  },
+  {
+    "QuestionText": "If the question asks for the 'main idea' of a passage, the answer should",
+    "Options": [
+      "A) Cover the whole passage broadly",
+      "B) State only one detail",
+      "C) Be a direct quote",
+      "D) Be the first sentence only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Main idea",
+    "Difficulty": "Foundation",
+    "Explanation": "The main idea is the overall point of the entire passage, not a single detail or sub-topic."
+  },
+  {
+    "QuestionText": "A 'concluding sentence' in a paragraph usually",
+    "Options": [
+      "A) Restates the main idea or wraps up the paragraph",
+      "B) Introduces a new idea",
+      "C) Gives the first example",
+      "D) Lists details"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Paragraph structure",
+    "Difficulty": "Foundation",
+    "Explanation": "Concluding sentences summarise the paragraph's main point or provide a transition to the next paragraph."
+  },
+  {
+    "QuestionText": "The prefix 'anti-' as seen in 'antibiotic' means",
+    "Options": [
+      "A) Against",
+      "B) For",
+      "C) Before",
+      "D) Under"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Prefixes in context",
+    "Difficulty": "Foundation",
+    "Explanation": "Anti- = against: antibiotic (against bacteria), anti-social (against social norms), antidote (against poison)."
+  },
+  {
+    "QuestionText": "When a writer uses the phrase 'for example' they are",
+    "Options": [
+      "A) Giving an illustration to support their point",
+      "B) Contrasting ideas",
+      "C) Concluding",
+      "D) Expressing surprise"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Discourse markers",
+    "Difficulty": "Foundation",
+    "Explanation": "'For example', 'for instance', 'such as' signal that an example is being provided."
+  },
+  {
+    "QuestionText": "'Implicit' information in a text is",
+    "Options": [
+      "A) Not directly stated; the reader must infer it",
+      "B) Directly stated clearly",
+      "C) Repeated several times",
+      "D) Found in the title"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Implicit vs explicit",
+    "Difficulty": "Advanced",
+    "Explanation": "Implicit = implied, not stated outright; reader must read between the lines. Explicit = clearly stated."
+  },
+  {
+    "QuestionText": "Which reading skill helps you understand 'why' an author wrote a passage?",
+    "Options": [
+      "A) Identifying author's purpose",
+      "B) Finding the main idea",
+      "C) Scanning for facts",
+      "D) Summarising"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Author's purpose",
+    "Difficulty": "Advanced",
+    "Explanation": "Identifying the author's purpose (to inform, entertain, persuade, explain) helps understand the passage deeply."
+  },
+  {
+    "QuestionText": "'Figurative language' in a passage is language that",
+    "Options": [
+      "A) Should not be taken literally; uses imagery and comparisons",
+      "B) Must be taken literally",
+      "C) Has no meaning",
+      "D) Is always factual"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Figurative language",
+    "Difficulty": "Advanced",
+    "Explanation": "Figurative language (simile, metaphor, hyperbole, personification) conveys meaning beyond the literal words."
+  },
+  {
+    "QuestionText": "If a passage says 'the walls had ears', it means",
+    "Options": [
+      "A) Someone may be eavesdropping or listening secretly",
+      "B) Walls are alive",
+      "C) Ears are decorations",
+      "D) The room is noisy"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Idioms in context",
+    "Difficulty": "Advanced",
+    "Explanation": "'The walls have ears' is an idiom meaning there may be hidden listeners; be careful what you say."
+  },
+  {
+    "QuestionText": "The 'setting' of a narrative passage refers to",
+    "Options": [
+      "A) The time and place where the story takes place",
+      "B) The main character",
+      "C) The central conflict",
+      "D) The climax"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Narrative elements",
+    "Difficulty": "Foundation",
+    "Explanation": "Setting: the time period and geographical location of a story, which establishes atmosphere and context."
+  },
+  {
+    "QuestionText": "The 'protagonist' of a story is",
+    "Options": [
+      "A) The main character (hero or central figure)",
+      "B) The villain",
+      "C) The narrator",
+      "D) The author"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Narrative elements",
+    "Difficulty": "Foundation",
+    "Explanation": "Protagonist: the central character whose journey/conflict drives the narrative (often the hero or main figure)."
+  },
+  {
+    "QuestionText": "The 'antagonist' of a story is",
+    "Options": [
+      "A) The character (or force) in conflict with the protagonist",
+      "B) The main hero",
+      "C) The narrator",
+      "D) The setting"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Narrative elements",
+    "Difficulty": "Foundation",
+    "Explanation": "Antagonist: the character or force that opposes the protagonist; creates the central conflict."
+  },
+  {
+    "QuestionText": "When an author gives hints about what will happen later in the story it is called",
+    "Options": [
+      "A) Foreshadowing",
+      "B) Flashback",
+      "C) Irony",
+      "D) Imagery"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Foreshadowing: hints or clues planted earlier in a text about events that will happen later."
+  },
+  {
+    "QuestionText": "A 'flashback' in a story is when",
+    "Options": [
+      "A) The narrative returns to events that happened in the past",
+      "B) The story jumps forward in time",
+      "C) The author provides extra information",
+      "D) Two events happen simultaneously"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Flashback: a narrative technique that interrupts the chronological story to show a scene from the past."
+  },
+  {
+    "QuestionText": "'Dramatic irony' occurs when",
+    "Options": [
+      "A) The audience knows something the characters do not",
+      "B) The character says the opposite of what they mean",
+      "C) An unexpected outcome occurs",
+      "D) The author is sarcastic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Irony types",
+    "Difficulty": "Olympiad",
+    "Explanation": "Dramatic irony: the audience/reader has information about the plot that the character doesn't, creating tension or humour."
+  },
+  {
+    "QuestionText": "The 'climax' of a narrative is",
+    "Options": [
+      "A) The point of highest tension or the turning point",
+      "B) The beginning",
+      "C) The resolution",
+      "D) The introduction of characters"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Plot structure",
+    "Difficulty": "Advanced",
+    "Explanation": "Climax: the most intense moment in the story where the conflict reaches its peak before resolution."
+  },
+  {
+    "QuestionText": "The 'resolution' of a story is",
+    "Options": [
+      "A) The conclusion where conflicts are resolved",
+      "B) The conflict introduction",
+      "C) The climax",
+      "D) The setting description"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Plot structure",
+    "Difficulty": "Foundation",
+    "Explanation": "Resolution (denouement): the final section where conflicts are resolved and the story concludes."
+  },
+  {
+    "QuestionText": "'Alliteration' is the repetition of",
+    "Options": [
+      "A) The same initial consonant sound in nearby words",
+      "B) The same vowel sound",
+      "C) The same word at the end of lines",
+      "D) The same idea"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Alliteration: 'Peter Piper picked a peck of pickled peppers.' Same initial consonant sounds repeated for effect."
+  },
+  {
+    "QuestionText": "'Assonance' is the repetition of",
+    "Options": [
+      "A) The same vowel sound in nearby words",
+      "B) The same consonant sound",
+      "C) The same word",
+      "D) The same line"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary devices",
+    "Difficulty": "Olympiad",
+    "Explanation": "Assonance: repetition of vowel sounds within nearby words (the rain in Spain stays mainly on the plain)."
+  },
+  {
+    "QuestionText": "A 'biography' is a text that",
+    "Options": [
+      "A) Tells the story of a real person's life, written by someone else",
+      "B) Is written by the subject themselves",
+      "C) Is fiction",
+      "D) Is a poem about a person"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Text types",
+    "Difficulty": "Foundation",
+    "Explanation": "Biography: account of a person's life written by another person. Autobiography: written by the subject themselves."
+  },
+  {
+    "QuestionText": "An 'anecdote' is",
+    "Options": [
+      "A) A short, amusing or interesting personal story",
+      "B) A long novel",
+      "C) A scientific explanation",
+      "D) A factual report"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Text types",
+    "Difficulty": "Advanced",
+    "Explanation": "Anecdote: a brief personal story used to illustrate a point or entertain; often found in speeches and essays."
+  },
+  {
+    "QuestionText": "When a question asks you to 'evaluate' a text, you should",
+    "Options": [
+      "A) Judge its quality, effectiveness, or validity with evidence",
+      "B) Only summarise it",
+      "C) Only find the main idea",
+      "D) Copy sentences from it"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Higher-order comprehension",
+    "Difficulty": "Advanced",
+    "Explanation": "Evaluation: making a judgement about the text's argument, evidence quality, or effectiveness, supported by reasoning."
+  },
+  {
+    "QuestionText": "When a passage uses the word 'despite', it signals",
+    "Options": [
+      "A) A contrast (the result is unexpected given the circumstance)",
+      "B) A cause",
+      "C) An example",
+      "D) A conclusion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Discourse markers",
+    "Difficulty": "Advanced",
+    "Explanation": "Despite (in spite of): Despite the rain, they enjoyed the picnic. The positive outcome is unexpected given the negative circumstance."
+  },
+  {
+    "QuestionText": "Reading 'between the lines' means",
+    "Options": [
+      "A) Understanding implied meaning not directly stated",
+      "B) Reading every word carefully",
+      "C) Reading only the conclusion",
+      "D) Skimming the text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Inference",
+    "Difficulty": "Foundation",
+    "Explanation": "Reading between the lines = inference: understanding what is suggested or implied, not explicitly stated."
+  },
+  {
+    "QuestionText": "A 'rhetorical question' is a question",
+    "Options": [
+      "A) Asked for effect, not expecting an answer",
+      "B) That needs an answer",
+      "C) That is multiple choice",
+      "D) That starts with 'who'"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Rhetorical questions",
+    "Difficulty": "Advanced",
+    "Explanation": "Rhetorical question: asked to make a point, not for information (Isn't it time we acted on climate change?)."
+  },
+  {
+    "QuestionText": "An 'abstract' (as in a research paper) is",
+    "Options": [
+      "A) A brief summary of the main points at the start",
+      "B) A long conclusion",
+      "C) A list of references",
+      "D) An introduction paragraph only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Academic text types",
+    "Difficulty": "Olympiad",
+    "Explanation": "Abstract: a short (usually 150-300 word) summary at the beginning of a research paper or article."
+  },
+  {
+    "QuestionText": "The purpose of a 'counter-argument' in an essay is",
+    "Options": [
+      "A) To acknowledge opposing views and then refute them",
+      "B) To agree with all views",
+      "C) To confuse the reader",
+      "D) To end the essay"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Argumentative writing",
+    "Difficulty": "Olympiad",
+    "Explanation": "Counter-argument: presenting the opposing view, then providing evidence to rebut it, strengthening the author's position."
+  },
+  {
+    "QuestionText": "If a passage is 'objective', it means",
+    "Options": [
+      "A) It presents facts without personal bias",
+      "B) It expresses the author's opinion",
+      "C) It uses emotional language",
+      "D) It is persuasive"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Objective vs subjective",
+    "Difficulty": "Advanced",
+    "Explanation": "Objective writing presents facts and evidence without personal bias. Subjective writing reflects personal views."
+  },
+  {
+    "QuestionText": "'Allusion' is a literary device where the author",
+    "Options": [
+      "A) Refers to a well-known person, place, event, or literary work",
+      "B) Compares two things directly",
+      "C) Exaggerates for effect",
+      "D) Uses sound words"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Literary devices",
+    "Difficulty": "Olympiad",
+    "Explanation": "Allusion: an indirect reference to a famous text, person, event, or artwork that adds meaning (e.g. 'He was a real Romeo')."
+  },
+  {
+    "QuestionText": "A text is 'coherent' if",
+    "Options": [
+      "A) Ideas are logically connected and easy to follow",
+      "B) It contains many facts",
+      "C) It is very long",
+      "D) It uses difficult vocabulary"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Text quality",
+    "Difficulty": "Advanced",
+    "Explanation": "Coherence: logical flow of ideas throughout a text, making it clear and easy to understand."
+  },
+  {
+    "QuestionText": "The 'connotation' of a word is",
+    "Options": [
+      "A) The emotional or cultural meaning associated with a word beyond its literal meaning",
+      "B) The dictionary definition",
+      "C) The pronunciation",
+      "D) The spelling"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Connotation vs denotation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Connotation: the implied or associated meaning. 'Slim' and 'scrawny' both mean thin, but slim is positive and scrawny negative."
+  },
+  {
+    "QuestionText": "When an author uses a list of three for emphasis, it is called",
+    "Options": [
+      "A) The rule of three (tricolon)",
+      "B) Alliteration",
+      "C) Anaphora",
+      "D) Hyperbole"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Rhetorical devices",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rule of three (tricolon): groups of three words, phrases, or clauses for emphasis (Life, liberty, and the pursuit of happiness)."
+  },
+  {
+    "QuestionText": "'Stream of consciousness' is a narrative technique that",
+    "Options": [
+      "A) Presents a character's unfiltered, flowing thoughts",
+      "B) Shows only actions",
+      "C) Uses dialogue exclusively",
+      "D) Is written in third person only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Reading Comprehension",
+    "SubTopic": "Advanced narrative techniques",
+    "Difficulty": "Olympiad",
+    "Explanation": "Stream of consciousness: a narrative method depicting the continuous flow of a character's thoughts and feelings (Virginia Woolf, James Joyce)."
+  }
+]

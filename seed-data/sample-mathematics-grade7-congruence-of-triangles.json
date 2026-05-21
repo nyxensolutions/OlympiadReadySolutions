@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Two figures are congruent if they have the same shape and size",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only for triangles",
+      "D) Only for circles"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Definition",
+    "Difficulty": "Foundation",
+    "Explanation": "Congruent figures are identical in shape and size."
+  },
+  {
+    "QuestionText": "SAS needs two equal sides and the included angle",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only right triangles",
+      "D) Only if all sides equal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SAS",
+    "Difficulty": "Foundation",
+    "Explanation": "SAS: two sides and the angle between them."
+  },
+  {
+    "QuestionText": "SSS needs ___ equal sides",
+    "Options": [
+      "A) Three",
+      "B) Two",
+      "C) One",
+      "D) No specific sides"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS",
+    "Difficulty": "Foundation",
+    "Explanation": "SSS needs all three pairs of corresponding sides equal."
+  },
+  {
+    "QuestionText": "In ASA, the side must be between the two equal angles",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Can be any side",
+      "D) Must be largest"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "ASA",
+    "Difficulty": "Foundation",
+    "Explanation": "ASA: the side is included between the two angles."
+  },
+  {
+    "QuestionText": "RHS applies only to right-angled triangles",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Equilateral",
+      "D) Any"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "RHS",
+    "Difficulty": "Foundation",
+    "Explanation": "RHS requires a right angle, hypotenuse, and one leg."
+  },
+  {
+    "QuestionText": "Triangle ABC congruent to PQR: vertex B corresponds to",
+    "Options": [
+      "A) Q",
+      "B) P",
+      "C) R",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Correspondence",
+    "Difficulty": "Foundation",
+    "Explanation": "Correspondence A-P, B-Q, C-R."
+  },
+  {
+    "QuestionText": "CPCT means Corresponding Parts of Congruent Triangles are equal",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Sometimes",
+      "D) Only for sides"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "CPCT",
+    "Difficulty": "Foundation",
+    "Explanation": "CPCT: all corresponding parts (sides and angles) of congruent triangles are equal."
+  },
+  {
+    "QuestionText": "SSA is NOT a valid congruence criterion",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Sometimes valid",
+      "D) Valid for obtuse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSA limitation",
+    "Difficulty": "Foundation",
+    "Explanation": "Two different triangles can satisfy SSA: not a valid criterion."
+  },
+  {
+    "QuestionText": "AAS criterion uses two angles and a non-included side",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Two sides",
+      "D) All sides"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "AAS",
+    "Difficulty": "Foundation",
+    "Explanation": "AAS: two angles and any side not between them."
+  },
+  {
+    "QuestionText": "Two congruent triangles always have equal areas",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only if equilateral",
+      "D) Only if right-angled"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Congruent triangles are identical so areas are equal."
+  },
+  {
+    "QuestionText": "Triangle ABC congruent to DEF: AB=DE=5, angle B=angle E=60, BC=EF=7. Criterion?",
+    "Options": [
+      "A) SAS",
+      "B) SSS",
+      "C) ASA",
+      "D) RHS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SAS application",
+    "Difficulty": "Foundation",
+    "Explanation": "Two sides and included angle equal: SAS."
+  },
+  {
+    "QuestionText": "Two equilateral triangles with side 6 cm are congruent by",
+    "Options": [
+      "A) SSS",
+      "B) RHS",
+      "C) AAS",
+      "D) ASA"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS equilateral",
+    "Difficulty": "Foundation",
+    "Explanation": "All three sides equal: SSS."
+  },
+  {
+    "QuestionText": "Triangle ABC congruent to DEF means angle A equals angle",
+    "Options": [
+      "A) D",
+      "B) E",
+      "C) F",
+      "D) All of them"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Correspondence",
+    "Difficulty": "Foundation",
+    "Explanation": "A-D, B-E, C-F correspondence."
+  },
+  {
+    "QuestionText": "Congruence is an equivalence relation: reflexive, symmetric, and transitive",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only reflexive",
+      "D) Only symmetric"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "All three properties hold: it is an equivalence relation."
+  },
+  {
+    "QuestionText": "How many standard congruence criteria exist for triangles",
+    "Options": [
+      "A) 5",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Summary",
+    "Difficulty": "Foundation",
+    "Explanation": "SSS, SAS, ASA, AAS, RHS: five criteria."
+  },
+  {
+    "QuestionText": "Triangle ABC with AB=AC, D midpoint of BC. ABD and ACD congruent by",
+    "Options": [
+      "A) SSS",
+      "B) SAS",
+      "C) AAS",
+      "D) RHS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS application",
+    "Difficulty": "Advanced",
+    "Explanation": "AB=AC, BD=DC, AD=AD (common): SSS."
+  },
+  {
+    "QuestionText": "Two right triangles with equal hypotenuse and one leg: criterion",
+    "Options": [
+      "A) RHS",
+      "B) SAS",
+      "C) SSS",
+      "D) ASA"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "RHS",
+    "Difficulty": "Advanced",
+    "Explanation": "RHS: right angle, hypotenuse, side."
+  },
+  {
+    "QuestionText": "Isosceles triangle: angle bisector from apex creates two congruent triangles by",
+    "Options": [
+      "A) SAS",
+      "B) SSS",
+      "C) ASA",
+      "D) AAS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SAS in isosceles",
+    "Difficulty": "Advanced",
+    "Explanation": "Equal sides, equal bisected angles, common side: SAS."
+  },
+  {
+    "QuestionText": "Parallelogram ABCD diagonal AC: triangles ABC and CDA congruent by",
+    "Options": [
+      "A) SSS",
+      "B) SAS",
+      "C) ASA",
+      "D) AAS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS parallelogram",
+    "Difficulty": "Advanced",
+    "Explanation": "AB=CD, BC=DA, AC=CA (common): SSS."
+  },
+  {
+    "QuestionText": "Triangle PQR and STU: angle P=angle S=90 hyp PR=SU PQ=ST. Criterion",
+    "Options": [
+      "A) RHS",
+      "B) SAS",
+      "C) SSS",
+      "D) ASA"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "RHS",
+    "Difficulty": "Advanced",
+    "Explanation": "Right angle, hypotenuse equal, side equal: RHS."
+  },
+  {
+    "QuestionText": "Triangle ABC congruent to QPR. AB corresponds to side",
+    "Options": [
+      "A) QP",
+      "B) QR",
+      "C) PR",
+      "D) PQ"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Correspondence",
+    "Difficulty": "Advanced",
+    "Explanation": "A-Q, B-P, C-R. AB corresponds to QP."
+  },
+  {
+    "QuestionText": "Triangle ABC congruent to DEF: angle A=50 angle F=70. Find angle B",
+    "Options": [
+      "A) 60",
+      "B) 50",
+      "C) 70",
+      "D) 80"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Corresponding parts",
+    "Difficulty": "Advanced",
+    "Explanation": "A-D, B-E, C-F. Angle C=70 (=F). Angle B=180-50-70=60."
+  },
+  {
+    "QuestionText": "Square ABCD diagonal BD: triangles ABD and CBD congruent by",
+    "Options": [
+      "A) SAS",
+      "B) SSS",
+      "C) ASA",
+      "D) AAS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SAS in square",
+    "Difficulty": "Advanced",
+    "Explanation": "AB=CB, angle ABD=angle CBD, BD=BD: SAS."
+  },
+  {
+    "QuestionText": "Triangle ABD congruent to CBD implies angle ABD=angle CBD by",
+    "Options": [
+      "A) CPCT",
+      "B) Angle sum",
+      "C) Exterior angle",
+      "D) Isosceles property"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "CPCT",
+    "Difficulty": "Advanced",
+    "Explanation": "By CPCT corresponding angles of congruent triangles are equal."
+  },
+  {
+    "QuestionText": "Two triangles with all three equal angles are similar but NOT necessarily congruent",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only for acute",
+      "D) Only for obtuse"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "AA vs congruence",
+    "Difficulty": "Advanced",
+    "Explanation": "AAA gives similarity (equal angles) but sides could be scaled differently."
+  },
+  {
+    "QuestionText": "Triangle PQR congruent to XYZ and XYZ congruent to LMN implies triangle PQR congruent to LMN",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only if equilateral",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Transitivity",
+    "Difficulty": "Olympiad",
+    "Explanation": "Congruence is transitive."
+  },
+  {
+    "QuestionText": "In perpendicular bisector proof: triangles RMA and RMB where M is midpoint. Congruent by",
+    "Options": [
+      "A) SAS",
+      "B) SSS",
+      "C) ASA",
+      "D) AAS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Application",
+    "Difficulty": "Olympiad",
+    "Explanation": "RM=RM, angle RMA=angle RMB=90, MA=MB: SAS."
+  },
+  {
+    "QuestionText": "Triangle PQR and DEF: angle P=angle D angle Q=angle E PQ=DE. Criterion",
+    "Options": [
+      "A) ASA",
+      "B) AAS",
+      "C) SSS",
+      "D) SAS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "ASA",
+    "Difficulty": "Olympiad",
+    "Explanation": "Two angles and included side: ASA."
+  },
+  {
+    "QuestionText": "Triangle ABD and PQS: BD corresponds to",
+    "Options": [
+      "A) QS",
+      "B) PS",
+      "C) PQ",
+      "D) QP"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Correspondence",
+    "Difficulty": "Olympiad",
+    "Explanation": "A-P, B-Q, D-S. BD corresponds to QS."
+  },
+  {
+    "QuestionText": "In triangle ABC and DBC, AB=DB, AD is common, angle ABC=angle DBC. Congruent by",
+    "Options": [
+      "A) SAS",
+      "B) SSS",
+      "C) RHS",
+      "D) AAS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SAS",
+    "Difficulty": "Olympiad",
+    "Explanation": "AB=DB, angle ABC=angle DBC, BC=BC: SAS."
+  },
+  {
+    "QuestionText": "If AB=AC in triangle ABC, the altitude from A is also the median. This is because triangles ABD and ACD are congruent by",
+    "Options": [
+      "A) RHS",
+      "B) SSS",
+      "C) SAS",
+      "D) AAS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "RHS proof",
+    "Difficulty": "Olympiad",
+    "Explanation": "Angle ADB=Angle ADC=90, AB=AC (hypotenuse), AD=AD: RHS."
+  },
+  {
+    "QuestionText": "Area of triangle ABC congruent to DEF: ABC area = 30 sq cm. DEF area =",
+    "Options": [
+      "A) 30 sq cm",
+      "B) 60 sq cm",
+      "C) 15 sq cm",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Area",
+    "Difficulty": "Foundation",
+    "Explanation": "Congruent triangles have equal areas."
+  },
+  {
+    "QuestionText": "Triangle ABC with sides 3,4,5 and triangle PQR with sides 3,4,5 are",
+    "Options": [
+      "A) Congruent by SSS",
+      "B) Similar only",
+      "C) Not congruent",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS",
+    "Difficulty": "Foundation",
+    "Explanation": "All three sides equal: SSS."
+  },
+  {
+    "QuestionText": "Two squares with the same side length are",
+    "Options": [
+      "A) Congruent",
+      "B) Similar only",
+      "C) Neither",
+      "D) Congruent by RHS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Congruent figures",
+    "Difficulty": "Foundation",
+    "Explanation": "Same side length means all four sides equal in both: congruent."
+  },
+  {
+    "QuestionText": "In triangle ABD congruent to triangle CBD, angle B in ABD = angle B in CBD. Both equal 40 degrees. Find angle ABC",
+    "Options": [
+      "A) 80 degrees",
+      "B) 40 degrees",
+      "C) 160 degrees",
+      "D) 20 degrees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "CPCT",
+    "Difficulty": "Advanced",
+    "Explanation": "Angle ABC = angle ABD + angle CBD = 40+40 = 80 degrees."
+  },
+  {
+    "QuestionText": "Medians of two congruent triangles are",
+    "Options": [
+      "A) Equal",
+      "B) Proportional",
+      "C) Half the other",
+      "D) Cannot compare"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "CPCT",
+    "Difficulty": "Advanced",
+    "Explanation": "By CPCT all corresponding measurements including medians are equal."
+  },
+  {
+    "QuestionText": "Altitudes of two congruent triangles are",
+    "Options": [
+      "A) Equal",
+      "B) Proportional",
+      "C) Different",
+      "D) Cannot compare"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "CPCT",
+    "Difficulty": "Advanced",
+    "Explanation": "Congruent triangles: all corresponding altitudes are equal."
+  },
+  {
+    "QuestionText": "Triangle ABC: AB=6 BC=8 angle B=90. Triangle DEF: DE=6 EF=8 angle E=90. Congruent by",
+    "Options": [
+      "A) SAS",
+      "B) RHS",
+      "C) SSS",
+      "D) ASA"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SAS",
+    "Difficulty": "Advanced",
+    "Explanation": "AB=DE=6, BC=EF=8, included angle B=E=90: SAS."
+  },
+  {
+    "QuestionText": "In rhombus ABCD diagonal AC: triangles ABC and CDA are congruent because all sides of a rhombus are",
+    "Options": [
+      "A) Equal (SSS applies)",
+      "B) Parallel",
+      "C) Perpendicular",
+      "D) Bisected"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS rhombus",
+    "Difficulty": "Advanced",
+    "Explanation": "All sides of rhombus equal: AB=BC=CD=DA. With common diagonal AC: SSS."
+  },
+  {
+    "QuestionText": "Triangle ABC congruent to FED. Then BC corresponds to",
+    "Options": [
+      "A) ED",
+      "B) FE",
+      "C) FD",
+      "D) EF"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Correspondence",
+    "Difficulty": "Advanced",
+    "Explanation": "A-F, B-E, C-D. BC corresponds to ED."
+  },
+  {
+    "QuestionText": "In proving two triangles congruent by RHS we need: right angle, hypotenuse, and",
+    "Options": [
+      "A) One side (leg)",
+      "B) Both legs",
+      "C) All angles",
+      "D) The altitude"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "RHS",
+    "Difficulty": "Foundation",
+    "Explanation": "RHS: Right angle, Hypotenuse, one Side (leg)."
+  },
+  {
+    "QuestionText": "If triangle ABD congruent to triangle PQR and PQ=7, AB=",
+    "Options": [
+      "A) 7",
+      "B) 14",
+      "C) 3.5",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Corresponding sides",
+    "Difficulty": "Foundation",
+    "Explanation": "A-P, B-Q, D-R. AB corresponds to PQ=7."
+  },
+  {
+    "QuestionText": "In triangle PQR with PQ=PR, the perpendicular from P to QR bisects QR. This is proved using",
+    "Options": [
+      "A) RHS congruence",
+      "B) SSS congruence",
+      "C) SAS congruence",
+      "D) AAS congruence"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "RHS",
+    "Difficulty": "Olympiad",
+    "Explanation": "Triangles PAQ and PAR: PA=PA, angle PAQ=angle PAR=90, PQ=PR: RHS gives AQ=AR."
+  },
+  {
+    "QuestionText": "Two circles are congruent if their radii are",
+    "Options": [
+      "A) Equal",
+      "B) Proportional",
+      "C) In ratio 1:2",
+      "D) Any non-zero value"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Congruent circles",
+    "Difficulty": "Foundation",
+    "Explanation": "Congruent circles have equal radii."
+  },
+  {
+    "QuestionText": "If all three sides of triangle A equal all three sides of triangle B the triangles are",
+    "Options": [
+      "A) Congruent by SSS",
+      "B) Similar by SSS",
+      "C) Not congruent",
+      "D) Need angles to confirm"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS",
+    "Difficulty": "Foundation",
+    "Explanation": "SSS guarantees congruence: no need to check angles."
+  },
+  {
+    "QuestionText": "Triangle PQR: PQ=5 QR=8 PR=7. Triangle XYZ: XY=5 YZ=8 XZ=7. These triangles are",
+    "Options": [
+      "A) Congruent",
+      "B) Similar only",
+      "C) Not related",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "SSS",
+    "Difficulty": "Foundation",
+    "Explanation": "All three sides match: SSS congruence."
+  },
+  {
+    "QuestionText": "Congruence of triangles was first formally established by",
+    "Options": [
+      "A) Euclid",
+      "B) Newton",
+      "C) Pythagoras",
+      "D) Archimedes"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "History",
+    "Difficulty": "Foundation",
+    "Explanation": "Euclid formally established triangle congruence criteria in his Elements."
+  },
+  {
+    "QuestionText": "Which is a valid congruence test?",
+    "Options": [
+      "A) AAS",
+      "B) SSA",
+      "C) AAA",
+      "D) ASS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "Valid criteria",
+    "Difficulty": "Foundation",
+    "Explanation": "AAS is valid. SSA, AAA, ASS are not sufficient for congruence."
+  },
+  {
+    "QuestionText": "If two triangles are congruent their corresponding altitudes altitudes are in ratio",
+    "Options": [
+      "A) 1:1",
+      "B) 2:1",
+      "C) 1:2",
+      "D) Variable"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "CPCT",
+    "Difficulty": "Advanced",
+    "Explanation": "Congruent means identical so corresponding altitudes are equal: ratio 1:1."
+  },
+  {
+    "QuestionText": "Angle bisectors of isosceles triangle from equal base angles create congruent triangles by",
+    "Options": [
+      "A) AAS",
+      "B) SSS",
+      "C) SAS",
+      "D) RHS"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Congruence of Triangles",
+    "SubTopic": "AAS",
+    "Difficulty": "Olympiad",
+    "Explanation": "Equal base angles halved: equal half-angles, equal opposite sides, common altitude base. AAS."
+  }
+]

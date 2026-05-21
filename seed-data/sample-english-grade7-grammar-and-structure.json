@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A noun is a word that names a",
+    "Options": [
+      "A) Person, place, thing, or idea",
+      "B) Action",
+      "C) Description",
+      "D) Connection"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Nouns name people (teacher), places (city), things (book), or ideas (freedom)."
+  },
+  {
+    "QuestionText": "A verb is a word that expresses",
+    "Options": [
+      "A) An action or state of being",
+      "B) A name",
+      "C) A description",
+      "D) A connection"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Verbs",
+    "Difficulty": "Foundation",
+    "Explanation": "Verbs show action (run, sing) or state of being (is, seem, become)."
+  },
+  {
+    "QuestionText": "An adjective is a word that",
+    "Options": [
+      "A) Describes a noun or pronoun",
+      "B) Describes a verb",
+      "C) Names a person",
+      "D) Connects words"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Foundation",
+    "Explanation": "Adjectives modify nouns: tall tree, red apple, happy child."
+  },
+  {
+    "QuestionText": "An adverb is a word that",
+    "Options": [
+      "A) Modifies a verb, adjective, or another adverb",
+      "B) Modifies only nouns",
+      "C) Names a place",
+      "D) Connects clauses"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Foundation",
+    "Explanation": "Adverbs modify verbs (ran quickly), adjectives (very tall), or other adverbs (quite slowly)."
+  },
+  {
+    "QuestionText": "A pronoun is a word that",
+    "Options": [
+      "A) Replaces a noun to avoid repetition",
+      "B) Modifies a noun",
+      "C) Names an action",
+      "D) Describes a place"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Pronouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pronouns (he, she, it, they, we) replace nouns to avoid repetition."
+  },
+  {
+    "QuestionText": "A preposition is a word that",
+    "Options": [
+      "A) Shows the relationship between a noun and other words in a sentence",
+      "B) Names a thing",
+      "C) Describes an action",
+      "D) Replaces a noun"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Prepositions",
+    "Difficulty": "Foundation",
+    "Explanation": "Prepositions (in, on, at, by, under, over) show spatial, temporal, or other relationships."
+  },
+  {
+    "QuestionText": "A conjunction is a word that",
+    "Options": [
+      "A) Joins words, phrases, or clauses",
+      "B) Describes a noun",
+      "C) Names a person",
+      "D) Shows relationship in space"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Foundation",
+    "Explanation": "Conjunctions join elements: and, but, or, because, although, when, while."
+  },
+  {
+    "QuestionText": "An interjection is a word or phrase that",
+    "Options": [
+      "A) Expresses sudden emotion (e.g. Oh! Hurray! Ouch!)",
+      "B) Joins clauses",
+      "C) Modifies verbs",
+      "D) Names things"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Interjections",
+    "Difficulty": "Foundation",
+    "Explanation": "Interjections express emotion and are often followed by an exclamation mark: Wow! Oops! Bravo!"
+  },
+  {
+    "QuestionText": "A proper noun names a specific person, place, or thing and is always",
+    "Options": [
+      "A) Capitalised",
+      "B) Lowercase",
+      "C) Plural",
+      "D) Singular"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Proper nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Proper nouns are capitalised: London, Ravi, Diwali, Ganges. Common nouns are not: city, boy, festival, river."
+  },
+  {
+    "QuestionText": "The simple present tense is used for",
+    "Options": [
+      "A) Habitual actions and general truths",
+      "B) Actions in progress now",
+      "C) Actions completed in the past",
+      "D) Future plans only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Simple present: habitual (She walks to school) and general truths (The sun rises in the east)."
+  },
+  {
+    "QuestionText": "The present continuous tense is used for",
+    "Options": [
+      "A) Actions happening right now or around now",
+      "B) Completed past actions",
+      "C) Future plans only",
+      "D) Habitual actions"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Present continuous (is/am/are + V-ing): She is reading a book. (action in progress now)"
+  },
+  {
+    "QuestionText": "The simple past tense is used for",
+    "Options": [
+      "A) Completed actions at a definite time in the past",
+      "B) Actions happening now",
+      "C) Future plans",
+      "D) General truths"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Simple past: She walked to school yesterday. (completed action in past)"
+  },
+  {
+    "QuestionText": "The present perfect tense is formed with",
+    "Options": [
+      "A) Have/has + past participle (e.g. She has finished)",
+      "B) Will + verb",
+      "C) Was/were + V-ing",
+      "D) Is/am/are + V-ing"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Advanced",
+    "Explanation": "Present perfect: have/has + V3. Links past action with present relevance: She has lost her key (still lost now)."
+  },
+  {
+    "QuestionText": "The passive voice is formed with",
+    "Options": [
+      "A) Subject + be + past participle (e.g. The book was written by her)",
+      "B) Subject + verb + object",
+      "C) Subject + will + verb",
+      "D) Subject + have + past participle"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Active and passive voice",
+    "Difficulty": "Advanced",
+    "Explanation": "Passive: The book was written by her. The object of the active sentence becomes the subject of the passive."
+  },
+  {
+    "QuestionText": "In which sentence is the passive voice used correctly?",
+    "Options": [
+      "A) The letter was sent by Ram",
+      "B) Ram sent the letter",
+      "C) Ram is sending the letter",
+      "D) Ram will send the letter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Passive voice",
+    "Difficulty": "Advanced",
+    "Explanation": "'The letter was sent by Ram' is passive (was + past participle 'sent')."
+  },
+  {
+    "QuestionText": "Direct speech is when",
+    "Options": [
+      "A) The exact words of the speaker are quoted (with inverted commas)",
+      "B) We paraphrase the speaker",
+      "C) We summarise what was said",
+      "D) We use reported speech"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Direct speech",
+    "Difficulty": "Foundation",
+    "Explanation": "Direct speech: She said, 'I am tired.' The exact words are enclosed in inverted commas."
+  },
+  {
+    "QuestionText": "Indirect (reported) speech changes",
+    "Options": [
+      "A) Tense, pronouns, and time expressions when reporting words",
+      "B) Only pronouns",
+      "C) Only tense",
+      "D) Nothing changes"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Reported speech",
+    "Difficulty": "Advanced",
+    "Explanation": "Reported speech shifts tenses back (present\u2192past), changes pronouns (I\u2192he/she), and alters time references (today\u2192that day)."
+  },
+  {
+    "QuestionText": "The comparative degree of 'good' is",
+    "Options": [
+      "A) Better",
+      "B) More good",
+      "C) Gooder",
+      "D) Best"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Degrees of comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "Good \u2192 comparative: better (irregular). Superlative: best."
+  },
+  {
+    "QuestionText": "The superlative degree of 'bad' is",
+    "Options": [
+      "A) Worst",
+      "B) Most bad",
+      "C) Badder",
+      "D) Baddest"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Degrees of comparison",
+    "Difficulty": "Foundation",
+    "Explanation": "Bad \u2192 comparative: worse \u2192 superlative: worst (irregular forms)."
+  },
+  {
+    "QuestionText": "A sentence that asks a question ends with",
+    "Options": [
+      "A) A question mark (?)",
+      "B) A full stop (.)",
+      "C) An exclamation mark (!)",
+      "D) A comma (,)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Punctuation",
+    "Difficulty": "Foundation",
+    "Explanation": "Interrogative sentences (questions) end with a question mark: Where are you going?"
+  },
+  {
+    "QuestionText": "A clause that can stand alone as a complete sentence is called",
+    "Options": [
+      "A) An independent (main) clause",
+      "B) A dependent clause",
+      "C) A phrase",
+      "D) A subordinate clause"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "Independent clause: has a subject and predicate and expresses a complete thought (She left early.)."
+  },
+  {
+    "QuestionText": "A clause that cannot stand alone and depends on a main clause is",
+    "Options": [
+      "A) A dependent (subordinate) clause",
+      "B) An independent clause",
+      "C) A phrase",
+      "D) A sentence"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "Dependent clause: begins with a subordinator (because, although, when) and needs a main clause to make sense."
+  },
+  {
+    "QuestionText": "A phrase differs from a clause because a phrase",
+    "Options": [
+      "A) Does NOT contain a subject-verb combination",
+      "B) Contains a subject and verb",
+      "C) Is always a complete sentence",
+      "D) Has a main verb"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Phrases vs clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "Phrase: a group of words without a subject-verb pair (in the morning, the tall man). Clause: has subject + verb."
+  },
+  {
+    "QuestionText": "Which sentence uses a comma correctly?",
+    "Options": [
+      "A) After the storm, the sky cleared",
+      "B) After the storm the sky, cleared",
+      "C) After the storm the sky cleared,",
+      "D) The sky after, the storm cleared"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Comma usage",
+    "Difficulty": "Advanced",
+    "Explanation": "After an introductory adverbial phrase/clause, use a comma: After the storm, (comma) the sky cleared."
+  },
+  {
+    "QuestionText": "The apostrophe in 'the girl's book' shows",
+    "Options": [
+      "A) Possession (the book belongs to the girl)",
+      "B) Plural",
+      "C) Contraction",
+      "D) Past tense"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Apostrophe",
+    "Difficulty": "Foundation",
+    "Explanation": "Apostrophe + s after a singular noun shows possession: the girl's book = the book belonging to the girl."
+  },
+  {
+    "QuestionText": "'It's' is the contraction of",
+    "Options": [
+      "A) It is (or it has)",
+      "B) Its (possessive)",
+      "C) It was",
+      "D) It will"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Contractions vs possessives",
+    "Difficulty": "Foundation",
+    "Explanation": "It's = it is (It's raining.) Its = possessive (The cat licked its paw.) Common confusion."
+  },
+  {
+    "QuestionText": "A collective noun names a group. The collective noun for a group of lions is",
+    "Options": [
+      "A) A pride",
+      "B) A pack",
+      "C) A herd",
+      "D) A flock"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Collective nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Pride of lions. Pack of wolves. Herd of cattle. Flock of birds."
+  },
+  {
+    "QuestionText": "The correct collective noun for a group of fish is",
+    "Options": [
+      "A) A school (or shoal)",
+      "B) A pack",
+      "C) A pride",
+      "D) A colony"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Collective nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "A school of fish (or shoal of fish) is the collective noun for fish swimming together."
+  },
+  {
+    "QuestionText": "A gerund is a verb form that functions as a",
+    "Options": [
+      "A) Noun (V-ing used as noun, e.g. Swimming is fun)",
+      "B) Adjective",
+      "C) Adverb",
+      "D) Conjunction"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Gerunds",
+    "Difficulty": "Advanced",
+    "Explanation": "Gerund: -ing verb form used as a noun. Swimming is fun. He enjoys reading."
+  },
+  {
+    "QuestionText": "An infinitive is the base form of a verb, usually preceded by",
+    "Options": [
+      "A) To (e.g. to run, to think)",
+      "B) Is/am/are",
+      "C) Have/has",
+      "D) Will/shall"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Infinitives",
+    "Difficulty": "Advanced",
+    "Explanation": "Infinitive: to + base verb (to run, to eat, to believe). Functions as noun, adjective, or adverb."
+  },
+  {
+    "QuestionText": "The word 'although' is used to show",
+    "Options": [
+      "A) Contrast (a concessive conjunction)",
+      "B) Cause",
+      "C) Result",
+      "D) Time"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Advanced",
+    "Explanation": "Although introduces a concessive clause showing contrast: Although it was raining, they went out."
+  },
+  {
+    "QuestionText": "The word 'therefore' is used to show",
+    "Options": [
+      "A) Result or conclusion",
+      "B) Contrast",
+      "C) Cause",
+      "D) Time sequence"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Conjunctions/connectives",
+    "Difficulty": "Advanced",
+    "Explanation": "Therefore signals a logical conclusion or result: He studied hard; therefore, he passed."
+  },
+  {
+    "QuestionText": "Which sentence is grammatically correct?",
+    "Options": [
+      "A) Neither of the boys was present",
+      "B) Neither of the boys were present",
+      "C) Neither of the boys are present",
+      "D) Neither of the boys is presently"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subject-verb agreement",
+    "Difficulty": "Advanced",
+    "Explanation": "Neither takes a singular verb: Neither of the boys was present. Neither is treated as singular."
+  },
+  {
+    "QuestionText": "Which word correctly completes: 'She is the ___ student in the class'?",
+    "Options": [
+      "A) Most intelligent",
+      "B) More intelligent",
+      "C) Intelligenter",
+      "D) Most intelligenter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Superlative adjective",
+    "Difficulty": "Foundation",
+    "Explanation": "Superlative for 'intelligent' (3+ syllables): most intelligent. Not 'intelligenter' or 'more intelligenter'."
+  },
+  {
+    "QuestionText": "An abstract noun names",
+    "Options": [
+      "A) An idea, quality, or state (e.g. happiness, freedom)",
+      "B) A physical object",
+      "C) A specific person",
+      "D) A place"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Abstract nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Abstract nouns cannot be seen or touched: love, anger, courage, wisdom, democracy."
+  },
+  {
+    "QuestionText": "A concrete noun names",
+    "Options": [
+      "A) Something that can be perceived by the senses (e.g. apple, rain)",
+      "B) An idea or feeling",
+      "C) A quality",
+      "D) A state"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Concrete nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Concrete nouns have physical existence: table, water, music (audible), perfume (smellable)."
+  },
+  {
+    "QuestionText": "Countable nouns",
+    "Options": [
+      "A) Can be counted and have singular and plural forms",
+      "B) Cannot be counted",
+      "C) Have no plural",
+      "D) Are always abstract"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Countable vs uncountable nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Countable nouns: one book, two books. Uncountable nouns: water, air, advice (no plural)."
+  },
+  {
+    "QuestionText": "The correct form is: 'The team ___ won the match'",
+    "Options": [
+      "A) has",
+      "B) have",
+      "C) are having",
+      "D) were having"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Collective nouns with verbs",
+    "Difficulty": "Advanced",
+    "Explanation": "In Indian English (and American English), collective nouns like 'team' take a singular verb: The team has won."
+  },
+  {
+    "QuestionText": "Identify the correctly punctuated sentence",
+    "Options": [
+      "A) 'Well done!' she exclaimed.",
+      "B) 'Well done' she exclaimed!",
+      "C) Well done! She exclaimed",
+      "D) 'well done!' She exclaimed."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Punctuation",
+    "Difficulty": "Advanced",
+    "Explanation": "Correct: 'Well done!' she exclaimed. Exclamation inside quotes, dialogue tag lowercase after."
+  },
+  {
+    "QuestionText": "'Fewer' is used with ___ nouns; 'less' is used with ___ nouns",
+    "Options": [
+      "A) Fewer with countable; less with uncountable",
+      "B) Fewer with uncountable; less with countable",
+      "C) Both with countable",
+      "D) Both with uncountable"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Fewer vs less",
+    "Difficulty": "Advanced",
+    "Explanation": "Fewer apples (countable). Less water (uncountable). Common usage error."
+  },
+  {
+    "QuestionText": "The future perfect tense is formed with",
+    "Options": [
+      "A) Will have + past participle (e.g. She will have finished)",
+      "B) Will + verb",
+      "C) Has/have + past participle",
+      "D) Shall + be + V-ing"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Olympiad",
+    "Explanation": "Future perfect: will have + V3. By next week, she will have completed the project."
+  },
+  {
+    "QuestionText": "A modal verb expresses",
+    "Options": [
+      "A) Possibility, ability, permission, or obligation (can, may, must, should)",
+      "B) Action in the past",
+      "C) A physical action",
+      "D) Only the future"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Modal verbs",
+    "Difficulty": "Advanced",
+    "Explanation": "Modal verbs: can, could, may, might, must, shall, should, will, would, ought to. They express modality."
+  },
+  {
+    "QuestionText": "Which sentence correctly uses the subjunctive mood?",
+    "Options": [
+      "A) If I were you, I would apologise",
+      "B) If I was you, I would apologise",
+      "C) If I am you, I will apologise",
+      "D) If I be you, I would apologise"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subjunctive mood",
+    "Difficulty": "Olympiad",
+    "Explanation": "Subjunctive: 'If I were you' (not 'was'). The subjunctive uses 'were' for all persons in hypothetical conditions."
+  },
+  {
+    "QuestionText": "An ellipsis (...) is used to indicate",
+    "Options": [
+      "A) Omission of words or a pause/trailing off",
+      "B) A list",
+      "C) Possession",
+      "D) A question"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Punctuation - ellipsis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ellipsis: three dots (...) indicate omission of text, a pause, or an unfinished thought."
+  },
+  {
+    "QuestionText": "A semicolon (;) is used to",
+    "Options": [
+      "A) Join two closely related independent clauses",
+      "B) End a sentence",
+      "C) Introduce a list after a colon",
+      "D) Show possession"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Semicolon",
+    "Difficulty": "Olympiad",
+    "Explanation": "Semicolon separates closely related independent clauses: She studied hard; she passed the exam."
+  },
+  {
+    "QuestionText": "The word 'whom' is used as",
+    "Options": [
+      "A) The object form of 'who' (objective case)",
+      "B) The subject form of 'who'",
+      "C) A possessive pronoun",
+      "D) A reflexive pronoun"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Who vs whom",
+    "Difficulty": "Olympiad",
+    "Explanation": "Who = subject (Who wrote this?). Whom = object (To whom was the letter addressed?)."
+  },
+  {
+    "QuestionText": "A split infinitive occurs when",
+    "Options": [
+      "A) An adverb is placed between 'to' and the verb (e.g. to boldly go)",
+      "B) A verb is split by punctuation",
+      "C) A noun interrupts a verb phrase",
+      "D) A sentence is broken"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Split infinitive",
+    "Difficulty": "Olympiad",
+    "Explanation": "Split infinitive: 'to boldly go' (adverb 'boldly' splits 'to go'). Traditionally avoided but widely accepted now."
+  },
+  {
+    "QuestionText": "Anaphora is the rhetorical device of",
+    "Options": [
+      "A) Repeating a word or phrase at the beginning of successive clauses",
+      "B) Repeating a word at the end",
+      "C) Comparing two unlike things",
+      "D) Using irony"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Rhetorical devices",
+    "Difficulty": "Olympiad",
+    "Explanation": "Anaphora: 'We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields...' (Churchill)."
+  },
+  {
+    "QuestionText": "In grammar, voice refers to",
+    "Options": [
+      "A) Whether the subject performs (active) or receives (passive) the action",
+      "B) The tone of a sentence",
+      "C) The tense of a verb",
+      "D) The mood of a sentence"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Active and passive voice",
+    "Difficulty": "Advanced",
+    "Explanation": "Grammatical voice: active (subject does the action) vs passive (subject receives the action)."
+  },
+  {
+    "QuestionText": "The Oxford comma is placed",
+    "Options": [
+      "A) Before the last item in a list of three or more (before 'and')",
+      "B) After the last item",
+      "C) Only before 'or'",
+      "D) Before every item"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Oxford comma",
+    "Difficulty": "Olympiad",
+    "Explanation": "Oxford comma: I love apples, oranges, and mangoes. The comma before 'and' in a list is the Oxford (serial) comma."
+  }
+]

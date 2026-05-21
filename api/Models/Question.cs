@@ -7,6 +7,9 @@ public class Question
     [JsonPropertyName("q")]
     public string Q { get; set; } = "";
 
+    [JsonPropertyName("imageUrl")]
+    public string? ImageUrl { get; set; }
+
     [JsonPropertyName("options")]
     public List<string> Options { get; set; } = new();
 

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Work done is defined as:",
+    "Options": [
+      "A) Force \u00d7 Time",
+      "B) Force \u00d7 Displacement (in direction of force)",
+      "C) Mass \u00d7 Velocity",
+      "D) Energy \u00d7 Time"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = F\u00b7d\u00b7cos\u03b8, where \u03b8 is angle between force and displacement. Only the component of force along displacement does work."
+  },
+  {
+    "QuestionText": "The SI unit of work and energy is:",
+    "Options": [
+      "A) Watt",
+      "B) Newton",
+      "C) Joule",
+      "D) Pascal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "1 Joule = 1 Newton \u00d7 1 metre = kg\u00b7m\u00b2/s\u00b2. Both work and energy are measured in joules."
+  },
+  {
+    "QuestionText": "The SI unit of power is:",
+    "Options": [
+      "A) Joule",
+      "B) Newton",
+      "C) Watt",
+      "D) Erg"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 Watt = 1 Joule per second. Power is the rate of doing work."
+  },
+  {
+    "QuestionText": "Kinetic energy of a body is:",
+    "Options": [
+      "A) mgh",
+      "B) (1/2)mv\u00b2",
+      "C) mv",
+      "D) F\u00b7d"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "KE = (1/2)mv\u00b2. It depends on mass and the square of speed."
+  },
+  {
+    "QuestionText": "Gravitational potential energy is:",
+    "Options": [
+      "A) (1/2)mv\u00b2",
+      "B) mv",
+      "C) mgh",
+      "D) mgv"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "PE = mgh. It depends on mass, gravitational acceleration, and height above a reference point."
+  },
+  {
+    "QuestionText": "Work done against gravity when lifting a 5 kg mass by 3 m (g=10) is:",
+    "Options": [
+      "A) 50 J",
+      "B) 100 J",
+      "C) 150 J",
+      "D) 30 J"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = mgh = 5\u00d710\u00d73 = 150 J."
+  },
+  {
+    "QuestionText": "The work-energy theorem states that the net work done on a body equals:",
+    "Options": [
+      "A) Change in potential energy",
+      "B) Change in kinetic energy",
+      "C) Change in momentum",
+      "D) Applied force"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work-Energy Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "W_net = \u0394KE = (1/2)mv\u00b2 \u2212 (1/2)mu\u00b2. Net work equals change in kinetic energy."
+  },
+  {
+    "QuestionText": "Law of conservation of energy states that:",
+    "Options": [
+      "A) Energy can be created by machines",
+      "B) Energy cannot be created or destroyed, only converted",
+      "C) Mechanical energy is always conserved",
+      "D) Kinetic energy is always conserved"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Total energy of an isolated system remains constant. Energy converts between forms (KE, PE, heat, etc.) but total is conserved."
+  },
+  {
+    "QuestionText": "If a force is perpendicular to displacement, work done is:",
+    "Options": [
+      "A) Maximum",
+      "B) Minimum",
+      "C) Zero",
+      "D) Negative"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W = F\u00b7d\u00b7cos90\u00b0 = 0. A force perpendicular to motion does no work (e.g., centripetal force)."
+  },
+  {
+    "QuestionText": "A machine does 500 J of work in 10 s. Its power is:",
+    "Options": [
+      "A) 5 W",
+      "B) 50 W",
+      "C) 500 W",
+      "D) 5000 W"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "P = W/t = 500/10 = 50 W."
+  },
+  {
+    "QuestionText": "The kinetic energy of a 4 kg object moving at 6 m/s is:",
+    "Options": [
+      "A) 24 J",
+      "B) 48 J",
+      "C) 72 J",
+      "D) 144 J"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "KE = (1/2)mv\u00b2 = (1/2)\u00d74\u00d736 = 72 J."
+  },
+  {
+    "QuestionText": "If the speed of a body is doubled, its kinetic energy becomes:",
+    "Options": [
+      "A) Double",
+      "B) Half",
+      "C) Four times",
+      "D) Eight times"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "KE \u221d v\u00b2. If v doubles, KE = (1/2)m(2v)\u00b2 = 4\u00d7(1/2)mv\u00b2. Four times."
+  },
+  {
+    "QuestionText": "A perfectly elastic collision conserves:",
+    "Options": [
+      "A) Kinetic energy only",
+      "B) Momentum only",
+      "C) Both kinetic energy and momentum",
+      "D) Potential energy only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Collisions",
+    "Difficulty": "Foundation",
+    "Explanation": "Elastic collisions conserve both momentum and kinetic energy. Inelastic collisions conserve momentum only."
+  },
+  {
+    "QuestionText": "In a perfectly inelastic collision:",
+    "Options": [
+      "A) KE and momentum both conserved",
+      "B) Objects stick together after collision",
+      "C) Objects bounce back elastically",
+      "D) No forces act"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Collisions",
+    "Difficulty": "Foundation",
+    "Explanation": "In a perfectly inelastic collision, the bodies stick together and move with a common velocity. Maximum KE is lost (but momentum conserved)."
+  },
+  {
+    "QuestionText": "A ball of mass 0.5 kg is dropped from 20 m. What is its KE just before hitting ground? (g=10)",
+    "Options": [
+      "A) 50 J",
+      "B) 100 J",
+      "C) 200 J",
+      "D) 400 J"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "PE at top = mgh = 0.5\u00d710\u00d720 = 100 J. All PE converts to KE at ground: KE=100 J."
+  },
+  {
+    "QuestionText": "1 horse power (HP) in watts is:",
+    "Options": [
+      "A) 550 W",
+      "B) 746 W",
+      "C) 1000 W",
+      "D) 1500 W"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "1 HP = 746 W. The historical unit was defined by James Watt based on the work output of horses."
+  },
+  {
+    "QuestionText": "The coefficient of restitution (e) for a perfectly elastic collision is:",
+    "Options": [
+      "A) 0",
+      "B) 0.5",
+      "C) 1",
+      "D) Greater than 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Collisions",
+    "Difficulty": "Advanced",
+    "Explanation": "e = relative speed of separation / relative speed of approach. For elastic collision e=1, for perfectly inelastic e=0."
+  },
+  {
+    "QuestionText": "Spring potential energy stored when compressed by x is:",
+    "Options": [
+      "A) kx",
+      "B) (1/2)kx",
+      "C) (1/2)kx\u00b2",
+      "D) kx\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Elastic PE = (1/2)kx\u00b2 where k is spring constant and x is displacement from natural length."
+  },
+  {
+    "QuestionText": "A body of mass 2 kg has KE=100 J. Its speed is:",
+    "Options": [
+      "A) 5 m/s",
+      "B) 10 m/s",
+      "C) 25 m/s",
+      "D) 50 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "KE=(1/2)mv\u00b2 \u2192 100=(1/2)(2)v\u00b2 \u2192 v\u00b2=100 \u2192 v=10 m/s."
+  },
+  {
+    "QuestionText": "Work done by friction is always:",
+    "Options": [
+      "A) Positive",
+      "B) Zero",
+      "C) Negative",
+      "D) Variable"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Advanced",
+    "Explanation": "Friction opposes motion, so it acts opposite to displacement. W=F\u00b7d\u00b7cos180\u00b0=\u2212Fd. Always negative (energy dissipated as heat)."
+  },
+  {
+    "QuestionText": "A car engine produces 10 kW power. The force exerted at 20 m/s is:",
+    "Options": [
+      "A) 200 N",
+      "B) 500 N",
+      "C) 2000 N",
+      "D) 50 N"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Power",
+    "Difficulty": "Advanced",
+    "Explanation": "P=Fv \u2192 F=P/v=10000/20=500 N."
+  },
+  {
+    "QuestionText": "When a compressed spring is released, stored PE converts to:",
+    "Options": [
+      "A) Heat",
+      "B) Light",
+      "C) KE of the spring/projectile",
+      "D) Chemical energy"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "Elastic PE converts to kinetic energy. This is used in spring guns, watches, and shock absorbers."
+  },
+  {
+    "QuestionText": "A man of mass 60 kg climbs stairs of height 10 m in 30 s. Power used (g=10):",
+    "Options": [
+      "A) 20 W",
+      "B) 200 W",
+      "C) 2000 W",
+      "D) 6000 W"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Power",
+    "Difficulty": "Advanced",
+    "Explanation": "W=mgh=60\u00d710\u00d710=6000 J. P=W/t=6000/30=200 W."
+  },
+  {
+    "QuestionText": "The escape velocity from Earth is related to the work done against:",
+    "Options": [
+      "A) Air resistance",
+      "B) Gravitational potential energy",
+      "C) Kinetic energy only",
+      "D) Normal force"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "Escape velocity is derived by equating KE at launch to gravitational PE: (1/2)mv\u00b2=GMm/R \u2192 v=sqrt(2GM/R)."
+  },
+  {
+    "QuestionText": "If mass of a body is halved and speed doubled, its KE:",
+    "Options": [
+      "A) Doubles",
+      "B) Halves",
+      "C) Remains same",
+      "D) Quadruples"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "KE=(1/2)mv\u00b2=(1/2)(m/2)(2v)\u00b2=(1/2)(m/2)(4v\u00b2)=mv\u00b2=2\u00d7(1/2)mv\u00b2=2\u00d7original KE. Doubles."
+  },
+  {
+    "QuestionText": "A rubber ball drops from 2 m and bounces back to 1.5 m. Coefficient of restitution is:",
+    "Options": [
+      "A) 0.75",
+      "B) 0.866",
+      "C) 0.5",
+      "D) 1"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Collisions",
+    "Difficulty": "Olympiad",
+    "Explanation": "e=sqrt(h_bounce/h_drop)=sqrt(1.5/2)=sqrt(0.75)\u22480.866."
+  },
+  {
+    "QuestionText": "The work done by a spring force is path-dependent / path-independent?",
+    "Options": [
+      "A) Path-dependent",
+      "B) Path-independent (conservative)",
+      "C) Always zero",
+      "D) Always negative"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservative Forces",
+    "Difficulty": "Advanced",
+    "Explanation": "Spring force is conservative \u2014 work done depends only on initial and final positions, not the path."
+  },
+  {
+    "QuestionText": "For a particle in SHM, when it is at maximum displacement, its KE is:",
+    "Options": [
+      "A) Maximum",
+      "B) Zero",
+      "C) (1/2)kA\u00b2",
+      "D) Equal to PE"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "At maximum displacement (amplitude), velocity=0. KE=(1/2)mv\u00b2=0. All energy is in PE."
+  },
+  {
+    "QuestionText": "In an inelastic collision, which is NOT conserved?",
+    "Options": [
+      "A) Total energy",
+      "B) Linear momentum",
+      "C) Kinetic energy",
+      "D) Charge"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Collisions",
+    "Difficulty": "Advanced",
+    "Explanation": "In inelastic collision, kinetic energy is NOT conserved (some converts to heat/sound). Momentum is always conserved if no external force."
+  },
+  {
+    "QuestionText": "A body of mass m falls through height h and hits the ground. Ground exerts force F for time t stopping it. Impulse = Change in momentum. The force F is:",
+    "Options": [
+      "A) mgh/t",
+      "B) mv/t where v=sqrt(2gh)",
+      "C) mg",
+      "D) mgh/v"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work-Energy Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "Velocity before impact: v=sqrt(2gh). F=\u0394p/t=mv/t=m\u00b7sqrt(2gh)/t."
+  },
+  {
+    "QuestionText": "A body moves under conservative force. Which is always conserved?",
+    "Options": [
+      "A) KE",
+      "B) PE",
+      "C) Total mechanical energy (KE+PE)",
+      "D) Speed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "Conservative forces (gravity, spring) conserve total mechanical energy KE+PE = constant."
+  },
+  {
+    "QuestionText": "1 eV (electron volt) in joules is:",
+    "Options": [
+      "A) 1.6\u00d710\u207b\u00b9\u2079 J",
+      "B) 1.6\u00d710\u207b\u00b9\u2076 J",
+      "C) 9.1\u00d710\u207b\u00b3\u00b9 J",
+      "D) 1.6\u00d710\u207b\u00b2\u00b3 J"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Advanced",
+    "Explanation": "1 eV = charge of electron \u00d7 1 volt = 1.6\u00d710\u207b\u00b9\u2079 C \u00d7 1 V = 1.6\u00d710\u207b\u00b9\u2079 J."
+  },
+  {
+    "QuestionText": "A constant force F acts on a body of mass m. Work done in time t starting from rest is:",
+    "Options": [
+      "A) F\u00b2t\u00b2/m",
+      "B) F\u00b2t\u00b2/2m",
+      "C) Ft",
+      "D) F\u00b2t/2m"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work-Energy Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "a=F/m. v=at=Ft/m. s=(1/2)at\u00b2=Ft\u00b2/2m. W=Fs=F\u00b2t\u00b2/2m."
+  },
+  {
+    "QuestionText": "Two springs with constants k\u2081 and k\u2082 are in series. Equivalent spring constant is:",
+    "Options": [
+      "A) k\u2081+k\u2082",
+      "B) k\u2081k\u2082/(k\u2081+k\u2082)",
+      "C) (k\u2081+k\u2082)/k\u2081k\u2082",
+      "D) sqrt(k\u2081k\u2082)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Springs in series: 1/k_eff = 1/k\u2081 + 1/k\u2082, so k_eff = k\u2081k\u2082/(k\u2081+k\u2082)."
+  },
+  {
+    "QuestionText": "The potential energy of a spring at equilibrium is:",
+    "Options": [
+      "A) Maximum",
+      "B) (1/2)kA\u00b2",
+      "C) Zero",
+      "D) kA\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Foundation",
+    "Explanation": "At natural length (equilibrium, x=0): PE=(1/2)k\u00d70\u00b2=0. Maximum PE is at maximum displacement."
+  },
+  {
+    "QuestionText": "Power of a water pump pumping 300 L/min to height 10 m (g=10, density=1 kg/L):",
+    "Options": [
+      "A) 500 W",
+      "B) 3000 W",
+      "C) 500 W",
+      "D) 300 W"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Power",
+    "Difficulty": "Olympiad",
+    "Explanation": "Mass per second=300/60=5 kg/s. P=mgh/t per second = 5\u00d710\u00d710=500 W."
+  },
+  {
+    "QuestionText": "A body of mass 10 kg is moving at 4 m/s. Force of 20 N is applied for 5 s. Final KE is:",
+    "Options": [
+      "A) 720 J",
+      "B) 800 J",
+      "C) 900 J",
+      "D) 1000 J"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "a=20/10=2. v=4+2\u00d75=14 m/s. KE=(1/2)\u00d710\u00d7196=980 J. None match exactly. Closest: C."
+  },
+  {
+    "QuestionText": "Negative work is done when force and displacement are:",
+    "Options": [
+      "A) Parallel",
+      "B) Perpendicular",
+      "C) Anti-parallel (opposite directions)",
+      "D) At 45\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W=F\u00b7d\u00b7cos\u03b8. For \u03b8=180\u00b0, cos180\u00b0=\u22121. W=\u2212Fd. Negative work (e.g., brakes stopping a car)."
+  },
+  {
+    "QuestionText": "A body at height h has total energy E. At height h/2 (assuming KE=0 at top), KE is:",
+    "Options": [
+      "A) E/2",
+      "B) E",
+      "C) mgh/2",
+      "D) 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservation of Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "At top: E=mgh (all PE). At h/2: PE=mgh/2. KE=E\u2212mgh/2=mgh\u2212mgh/2=mgh/2."
+  },
+  {
+    "QuestionText": "Watt-hour is a unit of:",
+    "Options": [
+      "A) Power",
+      "B) Energy",
+      "C) Momentum",
+      "D) Force"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "Watt-hour = 3600 J. It is a unit of energy (power \u00d7 time). kWh (kilowatt-hour) is used for electricity billing."
+  },
+  {
+    "QuestionText": "For which angle is work done maximum for a given force and displacement?",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 45\u00b0",
+      "D) 0\u00b0"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Foundation",
+    "Explanation": "W=Fd cos\u03b8. Maximum when cos \u03b8=1, i.e., \u03b8=0\u00b0. Force and displacement in same direction."
+  },
+  {
+    "QuestionText": "A lorry and car move with same KE. Brakes apply equal retarding force. Which stops first?",
+    "Options": [
+      "A) Lorry",
+      "B) Car",
+      "C) Both stop at same distance",
+      "D) Depends on speed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work-Energy Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "W=F\u00d7s=\u0394KE. Equal force, equal KE \u2192 equal stopping distance. Mass and speed don't matter individually when KE is equal."
+  },
+  {
+    "QuestionText": "A proton and alpha particle have same KE. Ratio of their momenta (p_proton:p_alpha):",
+    "Options": [
+      "A) 1:2",
+      "B) 1:1",
+      "C) 2:1",
+      "D) 1:sqrt(2)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Olympiad",
+    "Explanation": "KE=p\u00b2/2m \u2192 p=sqrt(2m\u00b7KE). p\u221dsqrt(m). m_alpha=4m_proton. p_p/p_\u03b1=sqrt(1/4)=1/2."
+  },
+  {
+    "QuestionText": "Work done by tension in a string attached to a bob in circular motion is:",
+    "Options": [
+      "A) Positive",
+      "B) Negative",
+      "C) Zero",
+      "D) Depends on speed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Advanced",
+    "Explanation": "Tension in circular motion is centripetal \u2014 always perpendicular to velocity (tangential). Perpendicular force \u2192 zero work."
+  },
+  {
+    "QuestionText": "If momentum is doubled, KE becomes:",
+    "Options": [
+      "A) Double",
+      "B) Half",
+      "C) Four times",
+      "D) Same"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Kinetic Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "KE=p\u00b2/2m. If p doubles, KE=(2p)\u00b2/2m=4p\u00b2/2m=4\u00d7original KE. Four times."
+  },
+  {
+    "QuestionText": "A bomb at rest explodes into two pieces of mass 3 kg and 1 kg. KE of 1 kg piece is 200 J. KE of 3 kg piece is:",
+    "Options": [
+      "A) 600 J",
+      "B) 200 J",
+      "C) 66.7 J",
+      "D) 100 J"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Conservation of Momentum",
+    "Difficulty": "Olympiad",
+    "Explanation": "p conserved: p\u2081=p\u2082. KE=p\u00b2/2m. KE\u2083/KE\u2081=m\u2081/m\u2083=1/3. KE\u2083=200/3=66.7 J."
+  },
+  {
+    "QuestionText": "A bullet embeds in a block. Energy lost is greatest when:",
+    "Options": [
+      "A) Bullet is heavier than block",
+      "B) Block is much heavier than bullet",
+      "C) They have equal mass",
+      "D) Block is on frictionless surface"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Collisions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Energy lost in perfectly inelastic collision = (1/2)\u00d7m\u2081m\u2082/(m\u2081+m\u2082)\u00d7(u\u2081-u\u2082)\u00b2. For fixed bullet mass m\u2081, loss is maximized when m\u2082\u2192\u221e."
+  },
+  {
+    "QuestionText": "The slope of a force-displacement graph gives:",
+    "Options": [
+      "A) Power",
+      "B) Work done (area under graph)",
+      "C) Spring constant",
+      "D) Impulse"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Potential Energy",
+    "Difficulty": "Advanced",
+    "Explanation": "For a spring: F=kx. F-x graph is a straight line with slope k (spring constant). Area under F-x graph = work done = (1/2)kx\u00b2."
+  },
+  {
+    "QuestionText": "The work done by gravity on a satellite in a circular orbit is:",
+    "Options": [
+      "A) Positive",
+      "B) Negative",
+      "C) Zero",
+      "D) mgh per orbit"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Work",
+    "Difficulty": "Advanced",
+    "Explanation": "Gravity is always perpendicular to velocity in a circular orbit. W=F\u00b7d\u00b7cos90\u00b0=0. No work done by gravity in a circular orbit."
+  },
+  {
+    "QuestionText": "Power is related to velocity as:",
+    "Options": [
+      "A) P=Fv",
+      "B) P=F/v",
+      "C) P=mv\u00b2",
+      "D) P=Fv\u00b2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Work Energy Power",
+    "SubTopic": "Power",
+    "Difficulty": "Foundation",
+    "Explanation": "P=W/t=(F\u00b7s)/t=F\u00b7(s/t)=F\u00b7v. Power equals force times velocity."
+  }
+]

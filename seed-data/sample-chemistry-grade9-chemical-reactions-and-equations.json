@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A chemical equation is balanced to satisfy:",
+    "Options": [
+      "A) Law of conservation of energy",
+      "B) Law of conservation of mass",
+      "C) Law of constant proportions",
+      "D) Avogadro's law"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Balancing Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "Chemical equations are balanced to ensure mass of reactants = mass of products (Law of Conservation of Mass). Number of atoms of each element must be equal on both sides."
+  },
+  {
+    "QuestionText": "What type of reaction is: Mg + O\u2082 \u2192 MgO?",
+    "Options": [
+      "A) Decomposition",
+      "B) Displacement",
+      "C) Combination (synthesis)",
+      "D) Double displacement"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Combination (synthesis): two or more substances combine to form one product. Mg + O\u2082 \u2192 MgO (magnesium burns in oxygen to form magnesium oxide)."
+  },
+  {
+    "QuestionText": "Decomposition reaction is the opposite of:",
+    "Options": [
+      "A) Displacement",
+      "B) Combination reaction",
+      "C) Double displacement",
+      "D) Oxidation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Decomposition: one compound breaks into two or more simpler products. Opposite of combination (synthesis). E.g., CaCO\u2083 \u2192 CaO + CO\u2082."
+  },
+  {
+    "QuestionText": "Balance: H\u2082 + O\u2082 \u2192 H\u2082O. The balanced equation is:",
+    "Options": [
+      "A) H\u2082 + O\u2082 \u2192 H\u2082O",
+      "B) 2H\u2082 + O\u2082 \u2192 2H\u2082O",
+      "C) H\u2082 + O \u2192 H\u2082O",
+      "D) H\u2084 + O\u2082 \u2192 2H\u2082O"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Balancing Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "Unbalanced: H\u2082+O\u2082\u2192H\u2082O (2H left, 2O left, 2H and 1O right). Balance: 2H\u2082+O\u2082\u21922H\u2082O (4H and 2O each side). \u2713"
+  },
+  {
+    "QuestionText": "In a displacement reaction:",
+    "Options": [
+      "A) Two compounds exchange ions",
+      "B) A more reactive element replaces a less reactive element",
+      "C) A compound decomposes",
+      "D) No product is formed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Displacement: more reactive element displaces less reactive element from compound. E.g., Zn + CuSO\u2084 \u2192 ZnSO\u2084 + Cu (Zn more reactive than Cu)."
+  },
+  {
+    "QuestionText": "Fe + CuSO\u2084 \u2192 FeSO\u2084 + Cu. This is a:",
+    "Options": [
+      "A) Combination reaction",
+      "B) Decomposition reaction",
+      "C) Displacement reaction",
+      "D) Double displacement"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Iron displaces copper from copper sulphate solution. Fe (more reactive) replaces Cu (less reactive). This is a displacement (single displacement) reaction."
+  },
+  {
+    "QuestionText": "AgNO\u2083 + NaCl \u2192 AgCl\u2193 + NaNO\u2083. This reaction is:",
+    "Options": [
+      "A) Combination",
+      "B) Displacement",
+      "C) Double displacement (with precipitation)",
+      "D) Decomposition"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Double displacement: ions exchange between two compounds. AgCl precipitates (\u2193). Also called precipitation reaction or metathesis."
+  },
+  {
+    "QuestionText": "The arrow (\u2193) in a chemical equation indicates:",
+    "Options": [
+      "A) Gas evolved",
+      "B) Precipitate formed (solid settling)",
+      "C) Heat applied",
+      "D) Reversible reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Balancing Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "\u2193 = precipitate (insoluble solid formed in solution). \u2191 = gas evolved. \u21cc = reversible reaction. \u25b3 or heat above arrow = heated."
+  },
+  {
+    "QuestionText": "Exothermic reactions:",
+    "Options": [
+      "A) Absorb heat",
+      "B) Release heat/energy to surroundings",
+      "C) Require light",
+      "D) Only occur in lab"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Energy in Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Exothermic: release energy (heat, light). E.g., combustion, neutralisation, respiration. Temperature rises. Endothermic: absorb heat. Temperature falls."
+  },
+  {
+    "QuestionText": "Endothermic reactions:",
+    "Options": [
+      "A) Release heat",
+      "B) Absorb heat from surroundings",
+      "C) Are always faster",
+      "D) Produce light"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Energy in Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Endothermic: absorb heat. E.g., photosynthesis, decomposition of CaCO\u2083, dissolving NH\u2084NO\u2083 in water (test: container feels cold)."
+  },
+  {
+    "QuestionText": "Photosynthesis is:",
+    "Options": [
+      "A) An exothermic reaction",
+      "B) A combustion reaction",
+      "C) An endothermic reaction using light energy",
+      "D) A decomposition reaction"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Energy in Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "6CO\u2082 + 6H\u2082O + light \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082. Endothermic \u2014 absorbs light energy. Glucose stores chemical energy from sunlight."
+  },
+  {
+    "QuestionText": "Combustion is a:",
+    "Options": [
+      "A) Reaction with water",
+      "B) Rapid exothermic reaction with oxygen",
+      "C) Slow decomposition",
+      "D) Reversible reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Combustion: rapid exothermic reaction of a substance with O\u2082, producing heat and light. CH\u2084 + 2O\u2082 \u2192 CO\u2082 + 2H\u2082O + heat."
+  },
+  {
+    "QuestionText": "Oxidation is:",
+    "Options": [
+      "A) Gain of oxygen or loss of electrons",
+      "B) Loss of oxygen",
+      "C) Gain of electrons",
+      "D) Addition of hydrogen"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Oxidation and Reduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Oxidation: gain of oxygen, loss of hydrogen, or loss of electrons. Reduction: loss of oxygen, gain of hydrogen, or gain of electrons. OIL RIG: Oxidation Is Loss, Reduction Is Gain (of electrons)."
+  },
+  {
+    "QuestionText": "In the reaction CuO + H\u2082 \u2192 Cu + H\u2082O:",
+    "Options": [
+      "A) H\u2082 is oxidised, CuO is reduced",
+      "B) CuO is oxidised, H\u2082 is reduced",
+      "C) Both are oxidised",
+      "D) Neither is oxidised"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Oxidation and Reduction",
+    "Difficulty": "Advanced",
+    "Explanation": "H\u2082 gains oxygen \u2192 oxidised. CuO loses oxygen \u2192 reduced. Simultaneous oxidation and reduction = redox reaction. H\u2082 = reducing agent; CuO = oxidising agent."
+  },
+  {
+    "QuestionText": "A redox reaction involves:",
+    "Options": [
+      "A) Only oxidation",
+      "B) Only reduction",
+      "C) Simultaneous oxidation and reduction",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Oxidation and Reduction",
+    "Difficulty": "Foundation",
+    "Explanation": "Redox (reduction-oxidation): always occur together. One substance gets oxidised while another gets reduced. Electrons transferred from reducing agent to oxidising agent."
+  },
+  {
+    "QuestionText": "Corrosion is:",
+    "Options": [
+      "A) A useful reaction",
+      "B) Deterioration of metal by slow oxidation",
+      "C) Combustion of metal",
+      "D) Painting of surfaces"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Effects of Chemical Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Corrosion: slow oxidation of metal surface by air/moisture. Rusting of iron: 4Fe + 3O\u2082 + xH\u2082O \u2192 2Fe\u2082O\u2083\u00b7xH\u2082O (rust). Electrochemical process."
+  },
+  {
+    "QuestionText": "Rancidity is:",
+    "Options": [
+      "A) Rusting of iron",
+      "B) Oxidation of fats/oils giving bad smell/taste",
+      "C) Burning of fuel",
+      "D) Corrosion of copper"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Effects of Chemical Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Rancidity: oxidation of fats and oils \u2192 unpleasant smell/taste. Prevented by: antioxidants, nitrogen flushing, refrigeration, airtight packaging."
+  },
+  {
+    "QuestionText": "Rusting of iron requires:",
+    "Options": [
+      "A) Oxygen only",
+      "B) Water only",
+      "C) Both oxygen and water",
+      "D) Carbon dioxide"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Effects of Chemical Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Rust (Fe\u2082O\u2083\u00b7xH\u2082O) forms in presence of BOTH oxygen and water. In dry air or water without dissolved O\u2082, iron doesn't rust."
+  },
+  {
+    "QuestionText": "To prevent food from going rancid, manufacturers use:",
+    "Options": [
+      "A) More salt",
+      "B) Nitrogen gas flushing (antioxidants, airtight packaging)",
+      "C) More heat",
+      "D) Metal containers always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Effects of Chemical Reactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Anti-rancidity methods: vacuum sealing, nitrogen flushing (displaces O\u2082), antioxidants (BHT, BHA, vitamin E), refrigeration, opaque packaging (blocks light)."
+  },
+  {
+    "QuestionText": "Thermal decomposition of calcium carbonate:",
+    "Options": [
+      "A) CaCO\u2083 \u2192 CaO + H\u2082O",
+      "B) CaCO\u2083 \u2192 CaO + CO\u2082",
+      "C) CaCO\u2083 + O\u2082 \u2192 CaO + CO\u2083",
+      "D) 2CaCO\u2083 \u2192 Ca + C + 3O\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "CaCO\u2083 \u2192 CaO + CO\u2082 (on heating). Industrial importance: CaO (quicklime) used in cement. CO\u2082 evolved. Classic thermal decomposition (limestone to quicklime)."
+  },
+  {
+    "QuestionText": "Electrolytic decomposition of water:",
+    "Options": [
+      "A) H\u2082O \u2192 H\u2082 + O (by electricity)",
+      "B) 2H\u2082O \u2192 2H\u2082 + O\u2082 (by electricity)",
+      "C) H\u2082O \u2192 HO + H",
+      "D) H\u2082O \u2192 H\u2082O\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Electrolysis of water: 2H\u2082O \u2192 2H\u2082 + O\u2082. H\u2082 collected at cathode (2\u00d7 volume), O\u2082 at anode. Confirms H:O ratio in water is 2:1 by volume."
+  },
+  {
+    "QuestionText": "In a chemical equation, state symbols are:",
+    "Options": [
+      "A) (s) solid, (l) liquid, (g) gas, (aq) aqueous",
+      "B) (S) for salt, (L) for liquid",
+      "C) Abbreviations for elements",
+      "D) Charges on ions"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Balancing Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "State symbols: (s) = solid, (l) = liquid, (g) = gas, (aq) = aqueous (dissolved in water). Give additional info about physical states of reactants and products."
+  },
+  {
+    "QuestionText": "Which gas causes a glowing splint to relight?",
+    "Options": [
+      "A) CO\u2082",
+      "B) H\u2082",
+      "C) O\u2082",
+      "D) N\u2082"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Tests for Gases",
+    "Difficulty": "Foundation",
+    "Explanation": "Oxygen test: relights a glowing (not burning) splint. H\u2082 test: burns with a 'pop'. CO\u2082 test: turns lime water milky. Cl\u2082: bleaches moist litmus."
+  },
+  {
+    "QuestionText": "The law of conservation of mass in a reaction means:",
+    "Options": [
+      "A) Atoms are created",
+      "B) Total mass of products = total mass of reactants",
+      "C) Number of molecules is conserved",
+      "D) Volumes are conserved"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Balancing Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "Atoms are neither created nor destroyed, just rearranged. Total mass is conserved. This is why we balance equations \u2014 to account for every atom."
+  },
+  {
+    "QuestionText": "Neutralisation is a type of:",
+    "Options": [
+      "A) Decomposition",
+      "B) Double displacement between acid and base",
+      "C) Combination",
+      "D) Displacement"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Neutralisation: acid + base \u2192 salt + water. H\u207a + OH\u207b \u2192 H\u2082O. It's a double displacement reaction. Exothermic (heat released)."
+  },
+  {
+    "QuestionText": "Photochemical reactions occur in the presence of:",
+    "Options": [
+      "A) Heat only",
+      "B) Water",
+      "C) Light",
+      "D) Catalyst only"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Photochemical reactions are initiated by light. E.g., photosynthesis, photography (AgBr \u2192 Ag + Br\u2082 in light), formation of ozone."
+  },
+  {
+    "QuestionText": "When iron nails are placed in blue copper sulphate solution:",
+    "Options": [
+      "A) No change",
+      "B) Solution turns green and copper deposits on nails",
+      "C) Iron dissolves and solution turns red",
+      "D) Gas is evolved"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Fe + CuSO\u2084 \u2192 FeSO\u2084 + Cu. Iron (more reactive) displaces copper. FeSO\u2084 solution = green. Copper deposits on nails. CuSO\u2084 (blue) \u2192 FeSO\u2084 (green)."
+  },
+  {
+    "QuestionText": "Precipitation reaction produces:",
+    "Options": [
+      "A) A gas",
+      "B) An insoluble solid (precipitate) in solution",
+      "C) A liquid",
+      "D) Light and heat"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Precipitation: two solutions react to form an insoluble solid (precipitate). E.g., Pb(NO\u2083)\u2082 + KI \u2192 PbI\u2082\u2193 (yellow precipitate) + KNO\u2083."
+  },
+  {
+    "QuestionText": "2H\u2082O\u2082 \u2192 2H\u2082O + O\u2082 is:",
+    "Options": [
+      "A) Combination",
+      "B) Displacement",
+      "C) Decomposition",
+      "D) Double displacement"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "One compound (H\u2082O\u2082) breaks into simpler products (H\u2082O and O\u2082) = decomposition. MnO\u2082 acts as catalyst. H\u2082O\u2082 = hydrogen peroxide."
+  },
+  {
+    "QuestionText": "When magnesium burns in air:",
+    "Options": [
+      "A) Mg + N\u2082 \u2192 MgN",
+      "B) 2Mg + O\u2082 \u2192 2MgO",
+      "C) Mg + CO\u2082 \u2192 MgO + C",
+      "D) Mg + H\u2082O \u2192 MgO + H\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Magnesium burns with brilliant white flame: 2Mg + O\u2082 \u2192 2MgO. Combination reaction. MgO = white ash. This is why Mg fires can't be extinguished with CO\u2082."
+  },
+  {
+    "QuestionText": "Reducing agent in a redox reaction:",
+    "Options": [
+      "A) Gets reduced (gains electrons)",
+      "B) Gets oxidised (loses electrons, reduces another)",
+      "C) Provides oxygen",
+      "D) Stays unchanged"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Oxidation and Reduction",
+    "Difficulty": "Advanced",
+    "Explanation": "Reducing agent: gets oxidised (loses electrons), thereby reducing another substance. Oxidising agent: gets reduced (gains electrons), thereby oxidising another substance."
+  },
+  {
+    "QuestionText": "Why does silver turn black over time?",
+    "Options": [
+      "A) Rusting",
+      "B) Reaction with H\u2082S in air (tarnishing)",
+      "C) Combustion",
+      "D) Corrosion by acid rain"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Effects of Chemical Reactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Silver tarnishes: 2Ag + H\u2082S \u2192 Ag\u2082S (black) + H\u2082. H\u2082S in atmosphere (from pollution, eggs). Tarnishing is a form of corrosion."
+  },
+  {
+    "QuestionText": "Galvanisation prevents rusting by:",
+    "Options": [
+      "A) Painting iron",
+      "B) Coating iron with zinc",
+      "C) Alloying with chromium",
+      "D) Heating iron"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Effects of Chemical Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Galvanisation: iron coated with zinc. Zinc (more reactive) corrodes sacrificially, protecting iron. Even if coating scratched, Zn corrodes before Fe."
+  },
+  {
+    "QuestionText": "Respiration in organisms is:",
+    "Options": [
+      "A) Photosynthesis",
+      "B) Exothermic breakdown of glucose to release energy",
+      "C) An endothermic reaction",
+      "D) Combination reaction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Respiration: C\u2086H\u2081\u2082O\u2086 + 6O\u2082 \u2192 6CO\u2082 + 6H\u2082O + energy. Exothermic \u2014 releases energy (ATP). Reverse of photosynthesis."
+  },
+  {
+    "QuestionText": "Which of the following is a combination reaction?",
+    "Options": [
+      "A) CaCO\u2083 \u2192 CaO + CO\u2082",
+      "B) CaO + H\u2082O \u2192 Ca(OH)\u2082",
+      "C) 2AgCl \u2192 2Ag + Cl\u2082",
+      "D) Fe + CuSO\u2084 \u2192 FeSO\u2084 + Cu"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "CaO + H\u2082O \u2192 Ca(OH)\u2082 \u2014 two substances combine to form one product. Also exothermic (quicklime + water releases heat, hence called slaking of lime)."
+  },
+  {
+    "QuestionText": "A chemical reaction that can proceed in both forward and backward directions is:",
+    "Options": [
+      "A) Decomposition",
+      "B) Exothermic",
+      "C) Reversible (\u21cc)",
+      "D) Endothermic"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Reversible reaction: proceeds in both directions; equilibrium is established. Symbol: \u21cc. E.g., N\u2082 + 3H\u2082 \u21cc 2NH\u2083. Irreversible: proceeds in one direction only."
+  },
+  {
+    "QuestionText": "Iron(III) oxide reacting with aluminium (thermite reaction) is:",
+    "Options": [
+      "A) Combination reaction",
+      "B) Displacement reaction (Al displaces Fe)",
+      "C) Decomposition",
+      "D) Neutralisation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Thermite: Fe\u2082O\u2083 + 2Al \u2192 Al\u2082O\u2083 + 2Fe. Al (more reactive) displaces Fe. Intensely exothermic (reaches ~2500\u00b0C). Used to weld railway lines."
+  },
+  {
+    "QuestionText": "Lime water turns milky when CO\u2082 is passed through it because:",
+    "Options": [
+      "A) CaCO\u2083 dissolves",
+      "B) Ca(OH)\u2082 + CO\u2082 \u2192 CaCO\u2083\u2193 + H\u2082O (white precipitate)",
+      "C) CO\u2082 burns in lime water",
+      "D) Lime water decomposes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Tests for Gases",
+    "Difficulty": "Foundation",
+    "Explanation": "CO\u2082 test: Ca(OH)\u2082 (lime water) + CO\u2082 \u2192 CaCO\u2083 (white precipitate, milky) + H\u2082O. Classic test for CO\u2082 gas."
+  },
+  {
+    "QuestionText": "Which is NOT a sign of a chemical reaction?",
+    "Options": [
+      "A) Change in colour",
+      "B) Gas evolved",
+      "C) Change of state without new substance",
+      "D) Precipitate formed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Change of state (melting, boiling) without forming new substances = physical change. Signs of chemical reaction: new substances, colour change, gas/precipitate, temperature change."
+  },
+  {
+    "QuestionText": "Double displacement reaction: Na\u2082SO\u2084 + BaCl\u2082 \u2192 BaSO\u2084\u2193 + 2NaCl. The precipitate is:",
+    "Options": [
+      "A) NaCl",
+      "B) Na\u2082SO\u2084",
+      "C) BaSO\u2084 (barium sulphate)",
+      "D) BaCl\u2082"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "BaSO\u2084 is insoluble (\u2193 precipitate). NaCl remains in solution. BaSO\u2084 (white) is used to detect sulphate ions in qualitative analysis."
+  },
+  {
+    "QuestionText": "Catalyst is a substance that:",
+    "Options": [
+      "A) Is consumed in the reaction",
+      "B) Changes rate of reaction without being permanently changed",
+      "C) Increases only temperature",
+      "D) Produces a product"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Catalyst: increases reaction rate without being consumed. Can be recovered unchanged. E.g., MnO\u2082 in H\u2082O\u2082 decomposition, Fe in Haber process, Pt in contact process."
+  },
+  {
+    "QuestionText": "Which gas burns with a squeaky 'pop' sound?",
+    "Options": [
+      "A) CO\u2082",
+      "B) O\u2082",
+      "C) H\u2082",
+      "D) Cl\u2082"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Tests for Gases",
+    "Difficulty": "Foundation",
+    "Explanation": "H\u2082 test: burning splint held at mouth of test tube containing H\u2082 \u2192 squeaky pop (H\u2082 + O\u2082 \u2192 H\u2082O rapidly). Test for hydrogen gas."
+  },
+  {
+    "QuestionText": "Why is vegetable oil converted to vanaspati ghee (partial hydrogenation)?",
+    "Options": [
+      "A) To increase vitamins",
+      "B) To reduce rancidity and solidify oil",
+      "C) To add flavour",
+      "D) To increase calorie content"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Effects of Chemical Reactions",
+    "Difficulty": "Advanced",
+    "Explanation": "Hydrogenation: H\u2082 added to C=C double bonds in oils (Ni catalyst) \u2192 partially converts to saturated fats \u2192 more solid, less prone to rancidity. But creates trans fats."
+  },
+  {
+    "QuestionText": "Photosynthesis equation:",
+    "Options": [
+      "A) C\u2086H\u2081\u2082O\u2086 + 6O\u2082 \u2192 6CO\u2082 + 6H\u2082O",
+      "B) 6CO\u2082 + 6H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082",
+      "C) CO\u2082 + H\u2082O \u2192 CH\u2082O + O\u2082",
+      "D) 6CO\u2082 + H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + O\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Photosynthesis: 6CO\u2082 + 6H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082 (in presence of sunlight and chlorophyll). Endothermic \u2014 stores light energy as chemical energy in glucose."
+  },
+  {
+    "QuestionText": "Zinc reacts with dilute HCl to produce:",
+    "Options": [
+      "A) ZnO + H\u2082O",
+      "B) ZnCl\u2082 + H\u2082\u2191",
+      "C) Zn(OH)\u2082 + Cl\u2082",
+      "D) ZnHCl\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Zn + 2HCl \u2192 ZnCl\u2082 + H\u2082\u2191. Displacement reaction: Zn displaces H from HCl. H\u2082 gas evolved (tests with squeaky pop). Used to prepare H\u2082 in lab."
+  },
+  {
+    "QuestionText": "In the reaction 2Fe\u2082O\u2083 + 3C \u2192 4Fe + 3CO\u2082, iron is:",
+    "Options": [
+      "A) Oxidised",
+      "B) Reduced (loses O)",
+      "C) Both oxidised and reduced",
+      "D) Unchanged"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Oxidation and Reduction",
+    "Difficulty": "Advanced",
+    "Explanation": "Fe in Fe\u2082O\u2083 loses O \u2192 reduced. C gains O (forms CO\u2082) \u2192 oxidised. C is reducing agent. Industrial iron production (blast furnace) uses this principle."
+  },
+  {
+    "QuestionText": "A substance that speeds up a chemical reaction without being used up is a:",
+    "Options": [
+      "A) Reactant",
+      "B) Product",
+      "C) Catalyst",
+      "D) Inhibitor"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Catalyst speeds up reaction, is not consumed. Inhibitor slows reaction. Common catalysts: MnO\u2082 (H\u2082O\u2082 decomposition), Fe (Haber process), Pt (H\u2082SO\u2084 manufacture)."
+  },
+  {
+    "QuestionText": "The symbol \u2191 in a chemical equation means:",
+    "Options": [
+      "A) Temperature increases",
+      "B) Gas is evolved",
+      "C) Precipitate forms",
+      "D) Pressure increases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Balancing Equations",
+    "Difficulty": "Foundation",
+    "Explanation": "\u2191 = gas evolved from the reaction. \u2193 = precipitate (solid) formed. These symbols give additional information about the state of products."
+  },
+  {
+    "QuestionText": "Which type of reaction produces a salt and water?",
+    "Options": [
+      "A) Combustion",
+      "B) Decomposition",
+      "C) Neutralisation (acid + base)",
+      "D) Displacement"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Types of Reactions",
+    "Difficulty": "Foundation",
+    "Explanation": "Neutralisation: acid + base \u2192 salt + water. E.g., HCl + NaOH \u2192 NaCl + H\u2082O. Always produces salt and water."
+  },
+  {
+    "QuestionText": "Oxidation number of oxygen in most compounds is:",
+    "Options": [
+      "A) +2",
+      "B) -1",
+      "C) -2",
+      "D) 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Chemical Reactions and Equations",
+    "SubTopic": "Oxidation and Reduction",
+    "Difficulty": "Advanced",
+    "Explanation": "Oxygen has oxidation number -2 in most compounds. Exception: peroxides (H\u2082O\u2082: -1), O\u2082 (0), OF\u2082 (+2). Used to identify oxidation and reduction."
+  }
+]

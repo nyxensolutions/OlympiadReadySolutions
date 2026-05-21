@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "What is a natural resource?",
+        "Options":  [
+                        "A) Something found in nature that is useful to humans",
+                        "B) Something made in a factory",
+                        "C) A product sold in shops",
+                        "D) A type of machine"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Natural resources are materials found in nature — like water, air, soil, forests, minerals, and sunlight — that humans use for survival and development."
+    },
+    {
+        "QuestionText":  "Which of these is a renewable natural resource?",
+        "Options":  [
+                        "A) Solar energy (sunlight)",
+                        "B) Coal",
+                        "C) Petroleum",
+                        "D) Natural gas"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Renewable resources are replenished naturally over time. Solar energy from the Sun is infinite and renewable."
+    },
+    {
+        "QuestionText":  "Which of these is a non-renewable natural resource?",
+        "Options":  [
+                        "A) Coal",
+                        "B) Wind",
+                        "C) Water",
+                        "D) Sunlight"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Coal is a non-renewable resource — it formed over millions of years and cannot be replaced once used. Coal, oil, and natural gas are fossil fuels."
+    },
+    {
+        "QuestionText":  "Why is water a precious natural resource?",
+        "Options":  [
+                        "A) All living things need water to survive — humans, animals, and plants",
+                        "B) Only humans need water",
+                        "C) Only fish need water",
+                        "D) Only plants need water"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Water is essential for all life. Humans need water for drinking, cooking, and hygiene; plants need it to grow; animals need it to survive."
+    },
+    {
+        "QuestionText":  "What percentage of Earth\u0027s water is freshwater (drinkable)?",
+        "Options":  [
+                        "A) About 3%",
+                        "B) About 50%",
+                        "C) About 30%",
+                        "D) About 71%"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Only about 3% of Earth\u0027s water is freshwater, and most of that is locked in ice caps. Less than 1% is accessible as drinking water."
+    },
+    {
+        "QuestionText":  "What is soil made of?",
+        "Options":  [
+                        "A) Weathered rock particles, organic matter, water, and air",
+                        "B) Only sand",
+                        "C) Only clay",
+                        "D) Only rocks"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Soil is a mixture of tiny rock particles (sand, silt, clay), organic matter (humus from decomposed plants and animals), water, and air."
+    },
+    {
+        "QuestionText":  "Why is soil important?",
+        "Options":  [
+                        "A) It supports plant growth that provides food, oxygen, and habitat for life",
+                        "B) Only for building construction",
+                        "C) Only for making pots",
+                        "D) Only for pottery"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Soil is the basis of agriculture — it supports plant growth. Without fertile soil, we cannot grow crops for food."
+    },
+    {
+        "QuestionText":  "What is deforestation?",
+        "Options":  [
+                        "A) Cutting down forests on a large scale",
+                        "B) Planting new trees",
+                        "C) Protecting wildlife",
+                        "D) Watering plants"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Deforestation is the large-scale removal of forests, often for agriculture, logging, or development. It destroys habitats and contributes to climate change."
+    },
+    {
+        "QuestionText":  "What is afforestation?",
+        "Options":  [
+                        "A) Planting trees to create new forests on previously treeless land",
+                        "B) Cutting down old trees",
+                        "C) Burning forests",
+                        "D) Clearing land for farming"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Afforestation is planting trees where there were none before, helping create new forests and combat deforestation and desertification."
+    },
+    {
+        "QuestionText":  "What is a fossil fuel?",
+        "Options":  [
+                        "A) Fuel formed from remains of ancient plants and animals — coal, oil, and natural gas",
+                        "B) Wood and charcoal",
+                        "C) Solar and wind energy",
+                        "D) Hydro and nuclear energy"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Fossil fuels (coal, petroleum, natural gas) formed from the remains of organisms buried millions of years ago under heat and pressure."
+    },
+    {
+        "QuestionText":  "Which natural resource is used to generate electricity in dams?",
+        "Options":  [
+                        "A) Water (hydroelectric power)",
+                        "B) Coal",
+                        "C) Wind",
+                        "D) Solar"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Hydroelectric power plants use the kinetic energy of flowing or falling water to generate electricity. Dams store water to control its flow through turbines."
+    },
+    {
+        "QuestionText":  "What is wind energy?",
+        "Options":  [
+                        "A) Electricity generated using wind turbines that harness the power of moving air",
+                        "B) Energy from burning wood",
+                        "C) Energy from coal",
+                        "D) Energy from the Sun"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Wind turbines capture the kinetic energy of wind and convert it into electricity. Wind energy is renewable and pollution-free."
+    },
+    {
+        "QuestionText":  "What is solar energy?",
+        "Options":  [
+                        "A) Energy from the Sun\u0027s light and heat",
+                        "B) Energy from burning coal",
+                        "C) Energy from water",
+                        "D) Energy from wind"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Solar energy comes from the Sun. Solar panels (photovoltaic cells) convert sunlight directly into electricity."
+    },
+    {
+        "QuestionText":  "What are minerals?",
+        "Options":  [
+                        "A) Naturally occurring inorganic substances found in Earth\u0027s crust",
+                        "B) Plants",
+                        "C) Fossil fuels",
+                        "D) Types of soil"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Minerals are naturally occurring inorganic solids with a definite chemical composition. Examples include iron ore, bauxite, limestone, and gold."
+    },
+    {
+        "QuestionText":  "Which mineral is used to make iron and steel?",
+        "Options":  [
+                        "A) Iron ore",
+                        "B) Bauxite",
+                        "C) Limestone",
+                        "D) Copper"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Iron ore is the raw material for making iron and steel, which are used in construction, vehicles, machinery, and infrastructure."
+    },
+    {
+        "QuestionText":  "Which mineral is used to make aluminium?",
+        "Options":  [
+                        "A) Bauxite",
+                        "B) Iron ore",
+                        "C) Copper ore",
+                        "D) Limestone"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Bauxite is the primary ore of aluminium, which is used in aircraft, cans, foil, and electrical wiring."
+    },
+    {
+        "QuestionText":  "What is petroleum?",
+        "Options":  [
+                        "A) A naturally occurring liquid fossil fuel found underground, refined into petrol, diesel, and other products",
+                        "B) A type of coal",
+                        "C) A mineral",
+                        "D) A plant-based fuel"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Petroleum (crude oil) is a liquid fossil fuel extracted from underground. It is refined into petrol, diesel, kerosene, LPG, and other products."
+    },
+    {
+        "QuestionText":  "What is the \u0027water table\u0027?",
+        "Options":  [
+                        "A) The upper surface of underground water (groundwater) beneath the soil",
+                        "B) The top of a lake",
+                        "C) A table made of water",
+                        "D) The surface of the ocean"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The water table is the level below which the ground is saturated with groundwater. Excessive extraction lowers the water table."
+    },
+    {
+        "QuestionText":  "What is rainwater harvesting?",
+        "Options":  [
+                        "A) Collecting and storing rainwater for future use — to recharge groundwater and conserve water",
+                        "B) Wasting rainwater",
+                        "C) Letting rainwater flow into drains",
+                        "D) Covering rainwater with plastic"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Rainwater harvesting collects rainwater from rooftops and surfaces and stores it in tanks or lets it percolate into the ground to recharge the water table."
+    },
+    {
+        "QuestionText":  "Why should we conserve natural resources?",
+        "Options":  [
+                        "A) They are limited and essential for survival — future generations need them too",
+                        "B) Only because the government says so",
+                        "C) Only to save money",
+                        "D) Only for environmental decoration"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Natural resources, especially non-renewable ones, are limited. Conserving them ensures they are available for future generations and reduces environmental damage."
+    },
+    {
+        "QuestionText":  "What is a biosphere reserve?",
+        "Options":  [
+                        "A) A protected area designated to conserve biodiversity and promote sustainable use of resources",
+                        "B) A type of zoo",
+                        "C) A mineral mine",
+                        "D) A national park with no restrictions"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A biosphere reserve is a protected ecosystem area designated by UNESCO to conserve biodiversity while allowing sustainable human activity and scientific research."
+    },
+    {
+        "QuestionText":  "What is the \u00273R\u0027 principle of resource conservation?",
+        "Options":  [
+                        "A) Reduce, Reuse, and Recycle",
+                        "B) Rest, Relax, and Recover",
+                        "C) Read, Revise, and Recall",
+                        "D) Run, Rest, and Repeat"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The 3Rs — Reduce (use less), Reuse (use again), and Recycle (convert waste into new products) — are the key principles of sustainable resource use."
+    },
+    {
+        "QuestionText":  "What is overgrazing?",
+        "Options":  [
+                        "A) When too many animals graze an area beyond the land\u0027s capacity, destroying vegetation and causing erosion",
+                        "B) When animals eat too much grass",
+                        "C) When farmers plant too many crops",
+                        "D) When forests are cut down"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Overgrazing occurs when livestock eat vegetation faster than it can recover, leaving bare soil prone to erosion and desertification."
+    },
+    {
+        "QuestionText":  "What is soil erosion?",
+        "Options":  [
+                        "A) The wearing away and transportation of topsoil by wind, water, or human activity",
+                        "B) Adding nutrients to soil",
+                        "C) Planting crops in soil",
+                        "D) Watering the soil"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Soil erosion is the loss of topsoil (the fertile upper layer) due to wind or water removing it. Deforestation and overgrazing accelerate soil erosion."
+    },
+    {
+        "QuestionText":  "What is afforestation\u0027s role in preventing soil erosion?",
+        "Options":  [
+                        "A) Tree roots hold soil together and tree canopies reduce the impact of rain on soil",
+                        "B) Trees create shade only",
+                        "C) Trees absorb water only",
+                        "D) Trees produce oxygen only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Tree roots bind soil particles together, preventing erosion by wind and water. Tree canopies intercept rainfall, reducing the force that dislodges soil particles."
+    },
+    {
+        "QuestionText":  "Which Indian organisation manages forest resources?",
+        "Options":  [
+                        "A) Forest Survey of India (FSI) under MoEFCC",
+                        "B) ISRO",
+                        "C) DRDO",
+                        "D) NABARD"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Forest Survey of India (FSI), under the Ministry of Environment, Forest and Climate Change, monitors and manages India\u0027s forest resources and conducts forest cover assessments."
+    },
+    {
+        "QuestionText":  "What is biomass energy?",
+        "Options":  [
+                        "A) Energy from organic materials — wood, crop waste, animal dung",
+                        "B) Energy from coal only",
+                        "C) Energy from wind",
+                        "D) Energy from the Sun"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Biomass energy is produced by burning or processing organic materials like wood, agricultural residues, and animal dung to generate heat and electricity."
+    },
+    {
+        "QuestionText":  "What is geothermal energy?",
+        "Options":  [
+                        "A) Heat energy from within the Earth — used to generate electricity and heat",
+                        "B) Energy from wind",
+                        "C) Energy from tides",
+                        "D) Energy from the Sun"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Geothermal energy taps heat from Earth\u0027s interior (magma, hot springs) to generate electricity or for heating. Iceland gets most of its energy from geothermal sources."
+    },
+    {
+        "QuestionText":  "What is tidal energy?",
+        "Options":  [
+                        "A) Energy generated from the rise and fall of ocean tides",
+                        "B) Energy from river water",
+                        "C) Energy from the Sun",
+                        "D) Energy from coal"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Tidal energy uses the movement of ocean tides to drive turbines and generate electricity. It is renewable and predictable."
+    },
+    {
+        "QuestionText":  "India\u0027s largest solar park is located in which state?",
+        "Options":  [
+                        "A) Rajasthan (Bhadla Solar Park)",
+                        "B) Gujarat",
+                        "C) Karnataka",
+                        "D) Tamil Nadu"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Bhadla Solar Park in Rajasthan is one of the world\u0027s largest solar parks, with an installed capacity of over 2,245 MW."
+    },
+    {
+        "QuestionText":  "What is the \u0027carbon footprint\u0027?",
+        "Options":  [
+                        "A) The total greenhouse gas emissions caused by an individual, organisation, or product",
+                        "B) The footprint of carbon in soil",
+                        "C) CO₂ in plants",
+                        "D) A type of pollution"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "A carbon footprint is the total amount of greenhouse gases (mainly CO₂) emitted directly or indirectly by a person\u0027s activities, measured in tonnes of CO₂ equivalent."
+    },
+    {
+        "QuestionText":  "What are aquifers?",
+        "Options":  [
+                        "A) Underground layers of permeable rock that contain and transmit groundwater",
+                        "B) Rivers underground",
+                        "C) Water stored in clouds",
+                        "D) Surface lakes"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Aquifers are underground rock formations (like sandstone or limestone) that store and allow water to flow through them — tapped by wells and boreholes."
+    },
+    {
+        "QuestionText":  "What is the \u0027Green Revolution\u0027?",
+        "Options":  [
+                        "A) Increase in food production using high-yield crop varieties, irrigation, fertilisers, and pesticides (1960s–70s)",
+                        "B) Planting trees in cities",
+                        "C) Using green coloured fertilisers",
+                        "D) A government tree-planting scheme"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Green Revolution introduced high-yielding varieties of wheat and rice, irrigation techniques, fertilisers, and pesticides that dramatically increased food production in India and developing countries from the 1960s."
+    },
+    {
+        "QuestionText":  "What is \u0027sustainable development\u0027?",
+        "Options":  [
+                        "A) Development that meets present needs without compromising future generations\u0027 ability to meet their own needs",
+                        "B) Very fast economic growth",
+                        "C) Using all resources now",
+                        "D) Building factories everywhere"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Sustainable development balances economic growth, social equity, and environmental protection so that resources and opportunities are available for future generations."
+    },
+    {
+        "QuestionText":  "Which fuel is the cleanest burning fossil fuel?",
+        "Options":  [
+                        "A) Natural gas",
+                        "B) Coal",
+                        "C) Petrol",
+                        "D) Diesel"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Natural gas produces fewer pollutants than coal and oil when burned, making it the cleanest of the fossil fuels — though it still emits CO₂."
+    },
+    {
+        "QuestionText":  "What does \u0027MNRE\u0027 stand for in India?",
+        "Options":  [
+                        "A) Ministry of New and Renewable Energy",
+                        "B) Ministry of National Resource Efficiency",
+                        "C) Ministry of Natural Resources and Environment",
+                        "D) Ministry of Nuclear and Renewable Energy"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "MNRE (Ministry of New and Renewable Energy) is the Indian government ministry responsible for developing solar, wind, biomass, and other renewable energy sources."
+    },
+    {
+        "QuestionText":  "Which state in India has the highest wind energy potential?",
+        "Options":  [
+                        "A) Tamil Nadu",
+                        "B) Rajasthan",
+                        "C) Gujarat",
+                        "D) Maharashtra"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Tamil Nadu has India\u0027s highest installed wind energy capacity. Its coastline and terrain provide excellent wind speeds for wind turbines."
+    },
+    {
+        "QuestionText":  "What is the \u0027Chipko Movement\u0027?",
+        "Options":  [
+                        "A) A 1973 grassroots movement in Uttarakhand where villagers hugged trees to prevent deforestation",
+                        "B) A reforestation programme",
+                        "C) A water conservation effort",
+                        "D) A government scheme"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The Chipko Movement (1973) in Uttarakhand saw villagers — led by Sunderlal Bahuguna and women like Gaura Devi — hug trees to prevent commercial felling. \u0027Chipko\u0027 means \u0027to cling\u0027."
+    },
+    {
+        "QuestionText":  "What is \u0027organic farming\u0027?",
+        "Options":  [
+                        "A) Farming without synthetic chemicals — using natural fertilisers like compost and biological pest control",
+                        "B) Farming with lots of chemicals",
+                        "C) Farming only for export",
+                        "D) Farming only of organic fruits"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Organic farming avoids synthetic pesticides and fertilisers, relying on compost, manure, crop rotation, and biological pest control to maintain soil health and produce healthy food."
+    },
+    {
+        "QuestionText":  "What are non-renewable resources also called?",
+        "Options":  [
+                        "A) Exhaustible resources",
+                        "B) Inexhaustible resources",
+                        "C) Renewable resources",
+                        "D) Replenishable resources"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Non-renewable resources are called exhaustible because they can be completely used up. Examples are coal, petroleum, and natural gas."
+    },
+    {
+        "QuestionText":  "What are renewable resources also called?",
+        "Options":  [
+                        "A) Inexhaustible resources (replenished naturally)",
+                        "B) Exhaustible resources",
+                        "C) Fossil fuels",
+                        "D) Mineral resources"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Renewable (inexhaustible) resources are replenished naturally — solar energy, wind energy, water (through the water cycle), and timber (with replanting) are examples."
+    },
+    {
+        "QuestionText":  "The Sardar Sarovar Dam is on which river?",
+        "Options":  [
+                        "A) Narmada",
+                        "B) Ganga",
+                        "C) Brahmaputra",
+                        "D) Godavari"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The Sardar Sarovar Dam on the Narmada river in Gujarat is one of India\u0027s largest dams, generating hydroelectric power and providing irrigation water."
+    },
+    {
+        "QuestionText":  "What is \u0027ecotourism\u0027?",
+        "Options":  [
+                        "A) Responsible travel to natural areas that conserves the environment and benefits local communities",
+                        "B) Tourism only in cities",
+                        "C) Building luxury resorts in forests",
+                        "D) Adventure sports only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Ecotourism involves visiting natural areas in a way that is environmentally responsible, raises conservation awareness, and provides economic benefits to local communities."
+    },
+    {
+        "QuestionText":  "India\u0027s Project Tiger was launched in which year to protect the Bengal Tiger?",
+        "Options":  [
+                        "A) 1973",
+                        "B) 1969",
+                        "C) 1980",
+                        "D) 1990"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Project Tiger was launched on 1 April 1973 under Prime Minister Indira Gandhi. It established tiger reserves to protect the Bengal Tiger from extinction."
+    },
+    {
+        "QuestionText":  "What is a wetland?",
+        "Options":  [
+                        "A) An area where water covers the soil — marshes, swamps, and mangroves — vital ecosystems",
+                        "B) A dry desert",
+                        "C) A high mountain plateau",
+                        "D) A deep ocean region"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Wetlands are transitional ecosystems between land and water — marshes, swamps, bogs, and mangroves. They filter water, control floods, and support unique biodiversity."
+    },
+    {
+        "QuestionText":  "What is the Ramsar Convention?",
+        "Options":  [
+                        "A) An international treaty for the protection and sustainable use of wetlands",
+                        "B) A treaty on forest conservation",
+                        "C) A treaty on climate change",
+                        "D) A fisheries agreement"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The Ramsar Convention (1971) is an international environmental treaty for the conservation and sustainable use of wetlands. India has over 75 Ramsar sites."
+    },
+    {
+        "QuestionText":  "Coal is formed from __.",
+        "Options":  [
+                        "A) Remains of ancient forests buried under heat and pressure over millions of years",
+                        "B) Ocean sediments",
+                        "C) Volcanic lava",
+                        "D) Desert sand"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Coal is a sedimentary rock formed from organic matter (ancient plant material) compressed under heat and pressure over millions of years."
+    },
+    {
+        "QuestionText":  "What is mica used for?",
+        "Options":  [
+                        "A) Electrical insulation in electronics and as a shining filler in cosmetics and paints",
+                        "B) Making steel",
+                        "C) Fuel for vehicles",
+                        "D) Building roads"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Mica is a naturally occurring mineral valued for its electrical insulation properties. India is one of the world\u0027s leading mica producers, mainly in Jharkhand and Rajasthan."
+    },
+    {
+        "QuestionText":  "Which gas is released when fossil fuels are burned?",
+        "Options":  [
+                        "A) Carbon dioxide (CO₂) — a greenhouse gas",
+                        "B) Oxygen",
+                        "C) Nitrogen",
+                        "D) Hydrogen"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Burning fossil fuels releases carbon dioxide (CO₂), a greenhouse gas that traps heat in the atmosphere and contributes to global warming."
+    },
+    {
+        "QuestionText":  "What is \u0027water pollution\u0027?",
+        "Options":  [
+                        "A) Contamination of water bodies by harmful substances — chemicals, sewage, and plastics",
+                        "B) Adding salt to water",
+                        "C) Cleaning water with chemicals",
+                        "D) Rain falling into rivers"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "Natural Resources",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Water pollution occurs when harmful chemicals, sewage, industrial waste, and plastic enter water bodies, making them unsafe for drinking, fishing, and aquatic life."
+    }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Identify the part of speech of the underlined word: 'She sings beautifully.'",
+    "Options": [
+      "A) Adjective",
+      "B) Noun",
+      "C) Adverb",
+      "D) Verb"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Parts of Speech",
+    "Difficulty": "Foundation",
+    "Explanation": "'Beautifully' modifies the verb 'sings' (how she sings). Adverbs modify verbs, adjectives, or other adverbs."
+  },
+  {
+    "QuestionText": "Which sentence is grammatically correct?",
+    "Options": [
+      "A) Neither the boys nor the girl are ready.",
+      "B) Neither the boys nor the girl is ready.",
+      "C) Neither the boys nor the girl were ready.",
+      "D) Neither the boys nor the girl am ready."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subject-Verb Agreement",
+    "Difficulty": "Advanced",
+    "Explanation": "Neither...nor: verb agrees with the nearest subject. 'The girl' is nearest and singular \u2192 'is'. Rule: With neither/nor or either/or, verb agrees with the subject closest to it."
+  },
+  {
+    "QuestionText": "'She will have finished by noon.' This is in the __ tense.",
+    "Options": [
+      "A) Simple future",
+      "B) Future perfect",
+      "C) Present perfect",
+      "D) Past perfect"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Future perfect: will have + past participle. Shows action completed before a future time. 'By noon' is the future reference point."
+  },
+  {
+    "QuestionText": "Choose the correct form: 'If I __ him, I would tell him.'",
+    "Options": [
+      "A) see",
+      "B) saw",
+      "C) seen",
+      "D) sees"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Conditionals",
+    "Difficulty": "Foundation",
+    "Explanation": "Second conditional (unreal/hypothetical present/future): If + past simple, would + base verb. 'If I saw him' = if I were to see him (but it's unlikely/hypothetical)."
+  },
+  {
+    "QuestionText": "Which word is a conjunction in: 'I was tired, but I finished the work.'",
+    "Options": [
+      "A) tired",
+      "B) finished",
+      "C) but",
+      "D) work"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Parts of Speech",
+    "Difficulty": "Foundation",
+    "Explanation": "Conjunction: connects clauses or words. 'But' is a coordinating conjunction (FANBOYS: For, And, Nor, But, Or, Yet, So)."
+  },
+  {
+    "QuestionText": "'The book which was on the table is mine.' The underlined clause is a:",
+    "Options": [
+      "A) Noun clause",
+      "B) Adverb clause",
+      "C) Adjective (relative) clause",
+      "D) Independent clause"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Clauses",
+    "Difficulty": "Foundation",
+    "Explanation": "'Which was on the table' modifies the noun 'book' (tells us which book) \u2192 adjective/relative clause. Introduced by relative pronoun 'which'."
+  },
+  {
+    "QuestionText": "Choose the correct passive voice: 'The teacher teaches the students.'",
+    "Options": [
+      "A) The students was taught by the teacher.",
+      "B) The students are taught by the teacher.",
+      "C) The students were taught by the teacher.",
+      "D) The students have been taught by the teacher."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Active and Passive Voice",
+    "Difficulty": "Foundation",
+    "Explanation": "Active: Subject + verb + object. Passive: Object \u2192 subject + am/is/are + past participle + by + agent. 'Teaches' (present simple) \u2192 'are taught'."
+  },
+  {
+    "QuestionText": "Choose the correct punctuation: 'Its raining outside.'",
+    "Options": [
+      "A) Its' raining outside.",
+      "B) It's raining outside.",
+      "C) Its raining outside.",
+      "D) Correct as is"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Punctuation",
+    "Difficulty": "Foundation",
+    "Explanation": "'It's' = it is (contraction, apostrophe for omission). 'Its' = possessive (no apostrophe). 'It's raining' = 'It is raining' is correct."
+  },
+  {
+    "QuestionText": "'Running fast, she caught the bus.' The underlined phrase is a:",
+    "Options": [
+      "A) Noun phrase",
+      "B) Participial phrase (adjective)",
+      "C) Prepositional phrase",
+      "D) Infinitive phrase"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Phrases",
+    "Difficulty": "Advanced",
+    "Explanation": "Participial phrase: present/past participle + complements, modifying a noun. 'Running fast' modifies 'she' (tells us what she was doing). Functions as adjective."
+  },
+  {
+    "QuestionText": "'He asked me where I lived.' This is:",
+    "Options": [
+      "A) Direct speech",
+      "B) Indirect (reported) speech",
+      "C) A question",
+      "D) An exclamation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Direct and Indirect Speech",
+    "Difficulty": "Foundation",
+    "Explanation": "Indirect speech: reporting what someone said without quoting exactly. No quotation marks. Tense and pronouns shift. Direct: 'Where do you live?' \u2192 Indirect: He asked where I lived."
+  },
+  {
+    "QuestionText": "'He said, \"I am tired.\"' Convert to indirect speech.",
+    "Options": [
+      "A) He said that he is tired.",
+      "B) He said that he was tired.",
+      "C) He said that I am tired.",
+      "D) He says that he is tired."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Direct and Indirect Speech",
+    "Difficulty": "Foundation",
+    "Explanation": "Reporting verb 'said' (past) \u2192 backshift: am \u2192 was. 'I' (direct speech) \u2192 'he' (indirect speech). 'He said that he was tired.'"
+  },
+  {
+    "QuestionText": "Identify the error: 'She don't know the answer.'",
+    "Options": [
+      "A) She",
+      "B) don't",
+      "C) know",
+      "D) answer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subject-Verb Agreement",
+    "Difficulty": "Foundation",
+    "Explanation": "'She' is third person singular. Use 'doesn't' (not 'don't'). 'She doesn't know the answer.' Correct forms: I/you/we/they don't; he/she/it doesn't."
+  },
+  {
+    "QuestionText": "'Despite being tired, she completed the marathon.' 'Despite' is followed by a:",
+    "Options": [
+      "A) Clause with verb",
+      "B) Noun or noun phrase (gerund)",
+      "C) Conjunction",
+      "D) Preposition"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Prepositions",
+    "Difficulty": "Advanced",
+    "Explanation": "'Despite' is a preposition. Followed by noun/noun phrase/gerund. 'Despite being tired' (gerund phrase). Contrast with 'Although' (conjunction, followed by subject + verb)."
+  },
+  {
+    "QuestionText": "Choose the correct form: 'I wish I __ taller.'",
+    "Options": [
+      "A) am",
+      "B) was",
+      "C) were",
+      "D) be"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subjunctive Mood",
+    "Difficulty": "Advanced",
+    "Explanation": "Subjunctive mood with 'wish' (contrary to fact): use 'were' (not 'was') for all persons. 'I wish I were taller' expresses an unfulfilled desire."
+  },
+  {
+    "QuestionText": "'She is the girl __ won the prize.' Choose the correct relative pronoun.",
+    "Options": [
+      "A) which",
+      "B) whom",
+      "C) who",
+      "D) what"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Relative Pronouns",
+    "Difficulty": "Foundation",
+    "Explanation": "'Who' = relative pronoun for people (subject). 'Which' = things. 'Whom' = people (object). 'The girl who won' \u2014 'who' is the subject of 'won'."
+  },
+  {
+    "QuestionText": "'No sooner had he left __ it started raining.'",
+    "Options": [
+      "A) than",
+      "B) when",
+      "C) then",
+      "D) if"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Correlative Conjunctions",
+    "Difficulty": "Advanced",
+    "Explanation": "'No sooner...than' is the correct correlative pair. 'Hardly/Scarcely...when'. Also: 'No sooner had he arrived than she left.'"
+  },
+  {
+    "QuestionText": "Identify the sentence type: 'What a beautiful sunrise!'",
+    "Options": [
+      "A) Declarative",
+      "B) Interrogative",
+      "C) Imperative",
+      "D) Exclamatory"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Types of Sentences",
+    "Difficulty": "Foundation",
+    "Explanation": "Sentence types: Declarative (statement), Interrogative (question), Imperative (command/request), Exclamatory (strong emotion/reaction). Ends with '!' \u2192 Exclamatory."
+  },
+  {
+    "QuestionText": "'The children played happily in the park.' The subject is:",
+    "Options": [
+      "A) children",
+      "B) played",
+      "C) happily",
+      "D) park"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Sentence Structure",
+    "Difficulty": "Foundation",
+    "Explanation": "Subject = who/what performs the action. 'The children' (noun phrase) performed 'played'. Subject always performs or is described by the verb."
+  },
+  {
+    "QuestionText": "Choose the correct article: '__ honest man is respected.'",
+    "Options": [
+      "A) A",
+      "B) An",
+      "C) The",
+      "D) No article"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Articles",
+    "Difficulty": "Foundation",
+    "Explanation": "Use 'an' before words with a vowel sound. 'Honest' starts with silent 'h' \u2192 vowel sound /\u0252/. So: 'an honest man'. Similarly: an hour, an heir. Articles depend on SOUND, not spelling."
+  },
+  {
+    "QuestionText": "'She has been living here __ five years.' Choose the correct preposition.",
+    "Options": [
+      "A) since",
+      "B) for",
+      "C) from",
+      "D) during"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Prepositions",
+    "Difficulty": "Foundation",
+    "Explanation": "'For' + duration (a period of time). 'Since' + point in time. 'Five years' is a duration \u2192 'for'. 'Since 2019' = point in time."
+  },
+  {
+    "QuestionText": "'She suggested __ to the doctor.' Choose the correct form.",
+    "Options": [
+      "A) go",
+      "B) to go",
+      "C) going",
+      "D) gone"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Gerunds and Infinitives",
+    "Difficulty": "Foundation",
+    "Explanation": "'Suggest' is followed by gerund (-ing). Other gerund verbs: recommend, avoid, enjoy, finish, deny. 'She suggested going' is correct."
+  },
+  {
+    "QuestionText": "'The results __ announced tomorrow.' Choose the correct auxiliary.",
+    "Options": [
+      "A) are",
+      "B) will be",
+      "C) was",
+      "D) has been"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "'Tomorrow' = future time \u2192 future tense. Passive: will be + past participle. 'The results will be announced tomorrow.'"
+  },
+  {
+    "QuestionText": "Identify the type of noun in 'committee': ",
+    "Options": [
+      "A) Proper noun",
+      "B) Abstract noun",
+      "C) Collective noun",
+      "D) Material noun"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Nouns",
+    "Difficulty": "Foundation",
+    "Explanation": "Collective noun: refers to a group as a unit. Committee, team, flock, herd, jury, crew. Can take singular or plural verb depending on context (British English: committee are; American: committee is)."
+  },
+  {
+    "QuestionText": "Which sentence uses the superlative correctly?",
+    "Options": [
+      "A) She is more taller than her sister.",
+      "B) She is the most tallest girl.",
+      "C) She is the tallest girl in the class.",
+      "D) She is taller than most tallest girl."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Foundation",
+    "Explanation": "Superlative: the + adjective + -est OR the most + adjective. 'Tallest' is the superlative. Never use 'most' + '-est' (double superlative = error)."
+  },
+  {
+    "QuestionText": "'He is looking forward __ meeting you.' Choose the correct form.",
+    "Options": [
+      "A) to meet",
+      "B) to meeting",
+      "C) for meeting",
+      "D) of meeting"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Gerunds and Infinitives",
+    "Difficulty": "Advanced",
+    "Explanation": "'Look forward to' = phrase preposition. After a preposition, use gerund (-ing). 'To' here is a preposition, not an infinitive marker. 'Look forward to meeting' (gerund)."
+  },
+  {
+    "QuestionText": "'Not only did he pass, __ he topped the class.' Choose the correct conjunction.",
+    "Options": [
+      "A) and",
+      "B) but",
+      "C) but also",
+      "D) so"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Correlative Conjunctions",
+    "Difficulty": "Foundation",
+    "Explanation": "'Not only...but also' is the correlative conjunction pair. 'Not only did he pass, but also he topped the class.' Note: 'not only' at start causes inversion (did he pass)."
+  },
+  {
+    "QuestionText": "'The teacher asked the students to be quiet.' The verb 'asked' is a __ verb.",
+    "Options": [
+      "A) Modal",
+      "B) Linking",
+      "C) Transitive",
+      "D) Intransitive"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Verbs",
+    "Difficulty": "Foundation",
+    "Explanation": "Transitive verb: takes a direct object. 'Asked' takes object 'the students'. Intransitive: no object (she smiled). Linking: connects subject to description (she is happy)."
+  },
+  {
+    "QuestionText": "'I have been working here since 2020.' The tense is:",
+    "Options": [
+      "A) Present simple",
+      "B) Present continuous",
+      "C) Present perfect continuous",
+      "D) Past perfect"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Present perfect continuous: have/has been + -ing. Shows action started in past and continues to present. Often with 'since' or 'for'. Emphasises duration."
+  },
+  {
+    "QuestionText": "'She could have warned us.' This expresses:",
+    "Options": [
+      "A) A future possibility",
+      "B) A past ability that wasn't used",
+      "C) A present obligation",
+      "D) A command"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Modal Verbs",
+    "Difficulty": "Advanced",
+    "Explanation": "'Could have + past participle' = ability/possibility in the past that didn't happen. 'She could have warned us' = she had the ability but didn't use it. Implies criticism."
+  },
+  {
+    "QuestionText": "'It was she who solved the problem.' This is:",
+    "Options": [
+      "A) A compound sentence",
+      "B) A complex sentence with a cleft construction",
+      "C) A simple sentence",
+      "D) A compound-complex sentence"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Sentence Structure",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cleft sentence (It + be + focus + relative clause): used to emphasise one element. 'It was SHE who solved it' emphasises 'she'. A type of complex sentence structure."
+  },
+  {
+    "QuestionText": "'Hardly had she sat down when the phone rang.' The error would be using __ instead of 'when'.",
+    "Options": [
+      "A) than",
+      "B) if",
+      "C) unless",
+      "D) No error \u2014 'when' is correct"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Correlative Conjunctions",
+    "Difficulty": "Advanced",
+    "Explanation": "'Hardly/Scarcely/Barely...when' is correct. 'No sooner...than' is correct. 'Hardly had she sat down WHEN the phone rang' \u2014 correct."
+  },
+  {
+    "QuestionText": "'The book, written in 1850, is still relevant.' The phrase 'written in 1850' is a:",
+    "Options": [
+      "A) Adjective clause",
+      "B) Adverb clause",
+      "C) Past participial phrase (adjective)",
+      "D) Noun phrase"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Phrases",
+    "Difficulty": "Advanced",
+    "Explanation": "Past participial phrase: past participle + complements, modifying a noun. 'Written in 1850' modifies 'The book'. Reduced from: 'which was written in 1850' (relative clause)."
+  },
+  {
+    "QuestionText": "Choose the correct form: 'He is used to __ early.'",
+    "Options": [
+      "A) wake",
+      "B) woke",
+      "C) waking",
+      "D) have woken"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Gerunds and Infinitives",
+    "Difficulty": "Foundation",
+    "Explanation": "'Be used to' (= accustomed to) + gerund. 'He is used to waking early' = he is accustomed to it. Contrast: 'used to + base verb' = past habit ('He used to wake early')."
+  },
+  {
+    "QuestionText": "'Had I known, I would have helped.' This is a __ conditional.",
+    "Options": [
+      "A) Zero conditional",
+      "B) First conditional",
+      "C) Second conditional",
+      "D) Third conditional"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Conditionals",
+    "Difficulty": "Advanced",
+    "Explanation": "Third conditional: unreal past. Had + past participle \u2192 would have + past participle. Refers to hypothetical past situation and its hypothetical past result."
+  },
+  {
+    "QuestionText": "'The herd of cattle was grazing peacefully.' The verb 'was' agrees with:",
+    "Options": [
+      "A) Cattle",
+      "B) Herd (collective noun as a unit)",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subject-Verb Agreement",
+    "Difficulty": "Advanced",
+    "Explanation": "When collective noun (herd) is treated as a single unit acting together, use singular verb. 'A herd of cattle WAS grazing' (all acting together as one). If acting individually: 'The herd were dispersing.'"
+  },
+  {
+    "QuestionText": "Identify the error: 'Each of the students have submitted their assignment.'",
+    "Options": [
+      "A) Each",
+      "B) students",
+      "C) have",
+      "D) assignment"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subject-Verb Agreement",
+    "Difficulty": "Foundation",
+    "Explanation": "'Each' is always singular \u2192 needs singular verb. 'Each of the students HAS submitted.' Each/every/either/neither \u2192 singular verb."
+  },
+  {
+    "QuestionText": "'She works harder than anyone else in the team.' This is a:",
+    "Options": [
+      "A) Simple sentence",
+      "B) Compound sentence",
+      "C) Complex sentence",
+      "D) Compound-complex"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Sentence Structure",
+    "Difficulty": "Foundation",
+    "Explanation": "Complex sentence = independent clause + dependent clause. 'She works harder' (main) + 'than anyone else in the team' (subordinate comparative clause). Contains one main and one subordinate clause."
+  },
+  {
+    "QuestionText": "'Must' can express:",
+    "Options": [
+      "A) Past necessity",
+      "B) Strong obligation or logical deduction",
+      "C) Permission",
+      "D) Past habit"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Modal Verbs",
+    "Difficulty": "Foundation",
+    "Explanation": "'Must': strong obligation ('You must wear a seatbelt') OR logical certainty ('She must be tired'). Must has no past form \u2014 use 'had to' for past obligation."
+  },
+  {
+    "QuestionText": "'The play, which was adapted from a novel, won the award.' The relative clause is:",
+    "Options": [
+      "A) Defining (restrictive)",
+      "B) Non-defining (non-restrictive, with commas)",
+      "C) A participial phrase",
+      "D) An adverb clause"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "Non-defining relative clause: gives extra information (not essential to identify the noun). Set off by commas. Defining clause: no commas, essential for identifying which one."
+  },
+  {
+    "QuestionText": "'He can speak three languages.' 'Can' here expresses:",
+    "Options": [
+      "A) Permission",
+      "B) Possibility",
+      "C) Ability",
+      "D) Obligation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Modal Verbs",
+    "Difficulty": "Foundation",
+    "Explanation": "'Can' expresses: (1) ability ('I can swim'), (2) permission ('Can I go?'), (3) possibility. Here 'can speak' = has the ability to speak three languages."
+  },
+  {
+    "QuestionText": "'The news are shocking.' Identify the error.",
+    "Options": [
+      "A) The",
+      "B) news",
+      "C) are",
+      "D) shocking"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subject-Verb Agreement",
+    "Difficulty": "Foundation",
+    "Explanation": "'News' looks plural but is an uncountable singular noun \u2192 needs singular verb 'is'. Other similar words: mathematics, physics, economics, athletics \u2192 all singular."
+  },
+  {
+    "QuestionText": "'She asked whether I had eaten.' 'Whether' introduces:",
+    "Options": [
+      "A) A noun clause (indirect question)",
+      "B) An adverb clause",
+      "C) An adjective clause",
+      "D) A conditional clause"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Clauses",
+    "Difficulty": "Advanced",
+    "Explanation": "'Whether...if' introduces noun clauses in indirect questions. Acts as the object of 'asked'. Noun clause replaces what was directly spoken: 'Have you eaten?'"
+  },
+  {
+    "QuestionText": "'He apologised __ being late.' Choose the correct preposition.",
+    "Options": [
+      "A) for",
+      "B) about",
+      "C) on",
+      "D) with"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Prepositions",
+    "Difficulty": "Foundation",
+    "Explanation": "'Apologise for' is the correct prepositional phrase. Other fixed prepositions: interested in, responsible for, fond of, afraid of, good at."
+  },
+  {
+    "QuestionText": "'By the time we arrived, the show __ already started.' Choose the correct form.",
+    "Options": [
+      "A) has",
+      "B) had",
+      "C) will have",
+      "D) is"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "'By the time + past simple' \u2192 past perfect in main clause. 'The show had already started' (action completed before another past action). Past perfect = had + past participle."
+  },
+  {
+    "QuestionText": "Identify the sentence with correct pronoun usage:",
+    "Options": [
+      "A) Between you and I, this is wrong.",
+      "B) It was him who called.",
+      "C) Neither she nor I is going.",
+      "D) She is older than me."
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Pronouns",
+    "Difficulty": "Advanced",
+    "Explanation": "D: Correct \u2014 'than me' (informal) or 'than I [am]' (formal). A: 'Between you and me' (object pronoun after preposition). B: 'It was he'. C: 'Neither she nor I am going.'"
+  },
+  {
+    "QuestionText": "'He would rather stay home than go out.' 'Rather' here is used to express:",
+    "Options": [
+      "A) Preference",
+      "B) Past habit",
+      "C) Regret",
+      "D) Ability"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Modal Verbs",
+    "Difficulty": "Foundation",
+    "Explanation": "'Would rather' + base verb expresses preference. 'He would rather stay home' = he prefers to stay home. 'Would rather (that) + past subjunctive' for preference about others' actions."
+  },
+  {
+    "QuestionText": "'The more you practise, the better you get.' This is a:",
+    "Options": [
+      "A) Simple comparative",
+      "B) Double comparative (parallel increase)",
+      "C) Superlative",
+      "D) Conditional"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Advanced",
+    "Explanation": "Double comparative / parallel comparatives: The + comparative + [clause], the + comparative + [clause]. Shows proportional relationship. 'The more...the better/more/less...'"
+  },
+  {
+    "QuestionText": "'She made the children __ their homework.' Choose the correct form.",
+    "Options": [
+      "A) to do",
+      "B) doing",
+      "C) do",
+      "D) done"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Causative Verbs",
+    "Difficulty": "Advanced",
+    "Explanation": "Causative 'make' + object + base verb (without 'to'). 'Made them do'. Other bare infinitive causatives: let, have. 'Got' uses to-infinitive: 'got them to do'."
+  },
+  {
+    "QuestionText": "'The crowd __ cheering loudly.' Choose the correct verb.",
+    "Options": [
+      "A) were",
+      "B) was",
+      "C) Both are acceptable depending on context",
+      "D) are"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Subject-Verb Agreement",
+    "Difficulty": "Advanced",
+    "Explanation": "Collective nouns can be singular or plural depending on context. If crowd acts as one unit (BrE often uses plural): 'The crowd were cheering' (each individual cheering). American English usually: 'was'."
+  },
+  {
+    "QuestionText": "Which sentence is in the future perfect tense?",
+    "Options": [
+      "A) She will write the report.",
+      "B) She is writing the report.",
+      "C) She will have written the report by Monday.",
+      "D) She has written the report."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "English - Grammar and Structure",
+    "SubTopic": "Tenses",
+    "Difficulty": "Foundation",
+    "Explanation": "Future perfect: will have + past participle. Shows action completed before a specific future time ('by Monday'). Used for deadlines and future completion."
+  }
+]

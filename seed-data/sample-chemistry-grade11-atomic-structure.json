@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The atomic model that proposed electrons orbit the nucleus in fixed paths is:",
+    "Options": [
+      "A) Thomson's model",
+      "B) Rutherford's model",
+      "C) Bohr's model",
+      "D) de Broglie's model"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Bohr (1913) proposed electrons move in fixed circular orbits (shells) with quantized energy. Each orbit has a definite energy level."
+  },
+  {
+    "QuestionText": "The subatomic particle with zero charge is:",
+    "Options": [
+      "A) Proton",
+      "B) Electron",
+      "C) Neutron",
+      "D) Positron"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "Neutron has zero charge, mass ≈ 1 amu. Proton: +1 charge, 1 amu. Electron: −1 charge, negligible mass."
+  },
+  {
+    "QuestionText": "Atomic number (Z) is the number of:",
+    "Options": [
+      "A) Neutrons",
+      "B) Protons",
+      "C) Electrons + protons",
+      "D) Nucleons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Atomic number Z = number of protons in the nucleus. For a neutral atom, Z also equals the number of electrons."
+  },
+  {
+    "QuestionText": "Mass number (A) = :",
+    "Options": [
+      "A) Number of protons",
+      "B) Number of neutrons",
+      "C) Number of protons + neutrons",
+      "D) Number of electrons"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Atomic Number and Mass Number",
+    "Difficulty": "Foundation",
+    "Explanation": "Mass number A = protons + neutrons (nucleons). Mass of electrons is negligible."
+  },
+  {
+    "QuestionText": "The maximum number of electrons in a shell with principal quantum number n is:",
+    "Options": [
+      "A) n",
+      "B) n²",
+      "C) 2n²",
+      "D) 2n"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Maximum electrons in shell n = 2n². Shell 1: 2, Shell 2: 8, Shell 3: 18, Shell 4: 32."
+  },
+  {
+    "QuestionText": "The electronic configuration of Carbon (Z=6) is:",
+    "Options": [
+      "A) 2,4",
+      "B) 1,5",
+      "C) 2,2,2",
+      "D) 3,3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Carbon has 6 electrons: 2 in first shell, 4 in second shell. Configuration: 1s²2s²2p²."
+  },
+  {
+    "QuestionText": "The principal quantum number n describes:",
+    "Options": [
+      "A) Shape of orbital",
+      "B) Orientation of orbital",
+      "C) Energy level (shell) of electron",
+      "D) Spin of electron"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "n = 1,2,3,... describes the main energy shell. Higher n = higher energy and farther from nucleus."
+  },
+  {
+    "QuestionText": "The azimuthal (angular momentum) quantum number l can have values:",
+    "Options": [
+      "A) 0 to n",
+      "B) 0 to n−1",
+      "C) −l to +l",
+      "D) +1/2 or −1/2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "l = 0 to (n−1). l=0: s orbital, l=1: p, l=2: d, l=3: f. For n=3, l can be 0,1,2."
+  },
+  {
+    "QuestionText": "The number of orbitals in a subshell with l=2 (d subshell) is:",
+    "Options": [
+      "A) 1",
+      "B) 3",
+      "C) 5",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Number of orbitals = 2l+1 = 2(2)+1 = 5. The d subshell has 5 orbitals, holding up to 10 electrons."
+  },
+  {
+    "QuestionText": "Pauli Exclusion Principle states:",
+    "Options": [
+      "A) Electrons fill orbitals in order of increasing energy",
+      "B) No two electrons can have all four quantum numbers identical",
+      "C) Orbitals of same energy are filled singly first",
+      "D) Electrons fill higher energy orbitals first"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electron Filling Rules",
+    "Difficulty": "Foundation",
+    "Explanation": "Pauli Exclusion Principle: no two electrons in an atom can have the same set of all four quantum numbers (n, l, m_l, m_s)."
+  },
+  {
+    "QuestionText": "Hund's rule states that electrons fill degenerate orbitals:",
+    "Options": [
+      "A) In pairs, from lowest energy",
+      "B) Singly (one electron each) before pairing",
+      "C) All at once",
+      "D) Only at same energy level"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electron Filling Rules",
+    "Difficulty": "Foundation",
+    "Explanation": "Hund's rule: electrons occupy degenerate orbitals singly with parallel spins before pairing up. Maximises total spin and stability."
+  },
+  {
+    "QuestionText": "Aufbau principle states that electrons fill orbitals:",
+    "Options": [
+      "A) From highest to lowest energy",
+      "B) From lowest to highest energy",
+      "C) Randomly",
+      "D) Only in s orbitals first"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electron Filling Rules",
+    "Difficulty": "Foundation",
+    "Explanation": "Aufbau (German: 'building up'): electrons fill available orbitals from lowest to highest energy. 1s < 2s < 2p < 3s < 3p < 4s < 3d..."
+  },
+  {
+    "QuestionText": "The Heisenberg Uncertainty Principle states it is impossible to simultaneously know precisely:",
+    "Options": [
+      "A) Charge and mass of electron",
+      "B) Position and momentum of electron",
+      "C) Energy and temperature",
+      "D) Spin and charge"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Mechanical Model",
+    "Difficulty": "Advanced",
+    "Explanation": "Δx·Δp ≥ h/4π. The more precisely position is known, the less precisely momentum can be known. This invalidates Bohr's fixed orbits."
+  },
+  {
+    "QuestionText": "The shape of a p orbital is:",
+    "Options": [
+      "A) Spherical",
+      "B) Dumbbell-shaped",
+      "C) Cloverleaf",
+      "D) Square"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Shapes of Orbitals",
+    "Difficulty": "Foundation",
+    "Explanation": "p orbitals (l=1) are dumbbell-shaped. There are three p orbitals (px, py, pz) oriented along x, y, z axes."
+  },
+  {
+    "QuestionText": "The electronic configuration of Fe (Z=26) ends in:",
+    "Options": [
+      "A) 3d⁶4s²",
+      "B) 4s²4p⁶",
+      "C) 3d⁸",
+      "D) 4d⁶4s²"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Advanced",
+    "Explanation": "Fe (Z=26): [Ar] 3d⁶4s². 4s fills before 3d (Aufbau), but 3d⁶4s² is the full notation after Argon core."
+  },
+  {
+    "QuestionText": "Isotopes of an element have the same:",
+    "Options": [
+      "A) Mass number",
+      "B) Number of neutrons",
+      "C) Atomic number (number of protons)",
+      "D) Number of electrons and neutrons"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "Isotopes: same atomic number (Z), different mass number (A) — different numbers of neutrons. Same element, different masses."
+  },
+  {
+    "QuestionText": "The quantum mechanical model replaced Bohr's model because Bohr's model could not explain:",
+    "Options": [
+      "A) Hydrogen spectrum",
+      "B) Spectra of multi-electron atoms and Heisenberg uncertainty",
+      "C) Wave nature of light",
+      "D) Photoelectric effect"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Mechanical Model",
+    "Difficulty": "Advanced",
+    "Explanation": "Bohr's model worked for hydrogen but failed for multi-electron atoms. The quantum mechanical model using Schrödinger equation accounts for electron–electron repulsion and wave behaviour."
+  },
+  {
+    "QuestionText": "The de Broglie equation λ = h/mv shows that:",
+    "Options": [
+      "A) Light has mass",
+      "B) All matter has wave properties",
+      "C) Electrons are not waves",
+      "D) Photons have infinite wavelength"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Wave-Particle Duality",
+    "Difficulty": "Advanced",
+    "Explanation": "de Broglie proposed matter has wave nature with λ=h/mv. This was confirmed by electron diffraction experiments."
+  },
+  {
+    "QuestionText": "The energy of an electron in hydrogen atom for nth orbit is:",
+    "Options": [
+      "A) −13.6/n² eV",
+      "B) 13.6n² eV",
+      "C) −13.6n eV",
+      "D) 13.6/n eV"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Bohr's Model",
+    "Difficulty": "Advanced",
+    "Explanation": "Eₙ = −13.6/n² eV. Energy is negative (bound state), most negative at n=1 (ground state). E₁=−13.6 eV, E₂=−3.4 eV."
+  },
+  {
+    "QuestionText": "The series of spectral lines of hydrogen in the visible region is called:",
+    "Options": [
+      "A) Lyman series",
+      "B) Balmer series",
+      "C) Paschen series",
+      "D) Brackett series"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Bohr's Model",
+    "Difficulty": "Advanced",
+    "Explanation": "Balmer series (n₂=2): transitions to n=2 level give visible light (hydrogen's red, green, blue lines). Lyman: UV. Paschen, Brackett: IR."
+  },
+  {
+    "QuestionText": "Electronic configuration of Cr (Z=24) is anomalous:",
+    "Options": [
+      "A) [Ar]3d⁴4s²",
+      "B) [Ar]3d⁵4s¹",
+      "C) [Ar]3d⁶",
+      "D) [Ar]4s²3d⁴"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cr has [Ar]3d⁵4s¹ (not 3d⁴4s²) due to extra stability of half-filled d subshell. Similarly Cu is [Ar]3d¹⁰4s¹."
+  },
+  {
+    "QuestionText": "The magnetic quantum number (m_l) for l=2 can take values:",
+    "Options": [
+      "A) −1, 0, +1",
+      "B) −2, −1, 0, +1, +2",
+      "C) 0, 1, 2",
+      "D) −3 to +3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "m_l ranges from −l to +l. For l=2: m_l = −2, −1, 0, +1, +2 (five values = five d orbitals)."
+  },
+  {
+    "QuestionText": "The spin quantum number m_s can be:",
+    "Options": [
+      "A) 0 only",
+      "B) +1/2 or −1/2",
+      "C) +1 or −1",
+      "D) Any integer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Electron spin m_s = +1/2 (spin up, ↑) or −1/2 (spin down, ↓). Two possible spin states per orbital."
+  },
+  {
+    "QuestionText": "The probability of finding electron is maximum at Bohr radius for:",
+    "Options": [
+      "A) 1s orbital",
+      "B) 2s orbital",
+      "C) 2p orbital",
+      "D) All s orbitals"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Mechanical Model",
+    "Difficulty": "Olympiad",
+    "Explanation": "For 1s orbital in hydrogen, radial probability distribution peaks at a₀=0.529 Å (Bohr radius). This is the most probable distance."
+  },
+  {
+    "QuestionText": "Thomson discovered the electron using:",
+    "Options": [
+      "A) α-particle scattering",
+      "B) Cathode ray tube",
+      "C) Spectroscopy",
+      "D) Mass spectrometer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "J.J. Thomson discovered the electron in 1897 using cathode ray tubes, showing rays deflected by electric and magnetic fields."
+  },
+  {
+    "QuestionText": "Rutherford's gold foil experiment concluded that:",
+    "Options": [
+      "A) Electrons are spread throughout atom",
+      "B) Atom is mostly empty space with a dense positive nucleus",
+      "C) Neutrons exist in nucleus",
+      "D) Electrons have quantized energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Atomic Models",
+    "Difficulty": "Foundation",
+    "Explanation": "Most α-particles passed through (empty space), few deflected (positive nucleus), very few bounced back (dense nucleus). Led to nuclear model."
+  },
+  {
+    "QuestionText": "Number of electrons in 3d subshell of Fe²⁺ (Z=26):",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Olympiad",
+    "Explanation": "Fe: [Ar]3d⁶4s². Fe²⁺ loses 2 electrons from 4s first: [Ar]3d⁶. So 3d has 6 electrons."
+  },
+  {
+    "QuestionText": "The orbital with n=3, l=1 is:",
+    "Options": [
+      "A) 3s",
+      "B) 3p",
+      "C) 3d",
+      "D) 3f"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "l=0→s, l=1→p, l=2→d, l=3→f. With n=3, l=1: 3p orbital."
+  },
+  {
+    "QuestionText": "The wavelength of emitted radiation when electron moves from n=3 to n=1 in hydrogen (Lyman series) relates to:",
+    "Options": [
+      "A) 1/λ = R(1/1²−1/3²)",
+      "B) 1/λ = R(1/3²−1/1²)",
+      "C) 1/λ = R(1/2²−1/3²)",
+      "D) 1/λ = R(1/1²+1/3²)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Bohr's Model",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rydberg equation: 1/λ = R_H(1/n₁²−1/n₂²) where n₂>n₁. For n=3→1: 1/λ=R(1/1−1/9)=8R/9."
+  },
+  {
+    "QuestionText": "A node in an orbital is a region where:",
+    "Options": [
+      "A) Electron density is maximum",
+      "B) Probability of finding electron is zero",
+      "C) Spin reverses",
+      "D) Energy is highest"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Shapes of Orbitals",
+    "Difficulty": "Advanced",
+    "Explanation": "A node is a point/surface where the wave function Ψ=0, meaning zero probability of finding electron. 2s orbital has 1 radial node."
+  },
+  {
+    "QuestionText": "Which of the following sets of quantum numbers is NOT valid?",
+    "Options": [
+      "A) n=2, l=1, m_l=0",
+      "B) n=3, l=2, m_l=−2",
+      "C) n=2, l=2, m_l=0",
+      "D) n=1, l=0, m_l=0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "For n=2: l can only be 0 or 1. l=2 is not allowed when n=2 (l must be 0 to n−1=1)."
+  },
+  {
+    "QuestionText": "Isobars are atoms with:",
+    "Options": [
+      "A) Same mass number, different atomic numbers",
+      "B) Same atomic number, different mass numbers",
+      "C) Same neutrons, different protons",
+      "D) Same electrons, different neutrons"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Isotopes",
+    "Difficulty": "Foundation",
+    "Explanation": "Isobars: same mass number A, different atomic numbers Z. Example: ¹⁴C and ¹⁴N."
+  },
+  {
+    "QuestionText": "Photoelectric effect was explained by:",
+    "Options": [
+      "A) Bohr",
+      "B) Heisenberg",
+      "C) Einstein (photon theory)",
+      "D) Rutherford"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Wave-Particle Duality",
+    "Difficulty": "Advanced",
+    "Explanation": "Einstein (1905) explained photoelectric effect using photons: E=hν. Light comes in packets (quanta); when energy exceeds work function, electron is emitted."
+  },
+  {
+    "QuestionText": "The first ionization energy of an element is the energy needed to remove:",
+    "Options": [
+      "A) A neutron from nucleus",
+      "B) The most loosely bound electron from neutral atom",
+      "C) All electrons",
+      "D) Proton from nucleus"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Atomic Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "First IE = minimum energy to remove outermost (most loosely bound) electron from gaseous neutral atom to form cation."
+  },
+  {
+    "QuestionText": "Planck's equation E = hν relates:",
+    "Options": [
+      "A) Mass and velocity",
+      "B) Energy and frequency of photon",
+      "C) Wavelength and time period",
+      "D) Charge and potential"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Wave-Particle Duality",
+    "Difficulty": "Foundation",
+    "Explanation": "E=hν (or hc/λ). h=6.626×10⁻³⁴ J·s (Planck's constant). Energy of photon is proportional to its frequency."
+  },
+  {
+    "QuestionText": "The s subshell can hold a maximum of:",
+    "Options": [
+      "A) 1 electron",
+      "B) 2 electrons",
+      "C) 6 electrons",
+      "D) 10 electrons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "s subshell has 1 orbital × 2 electrons per orbital = 2 electrons maximum."
+  },
+  {
+    "QuestionText": "The number of subshells in the third shell (n=3) is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "For n=3: l=0(3s), l=1(3p), l=2(3d) — three subshells."
+  },
+  {
+    "QuestionText": "The half-life of a radioactive element is:",
+    "Options": [
+      "A) Time to fully decay",
+      "B) Time for half the atoms to decay",
+      "C) Half the atomic mass",
+      "D) Time for one emission"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Radioactivity",
+    "Difficulty": "Foundation",
+    "Explanation": "Half-life t₁/₂ = time required for half of the radioactive atoms to undergo decay. After each half-life, half the remaining amount decays."
+  },
+  {
+    "QuestionText": "Electrolytic dissociation was proposed by:",
+    "Options": [
+      "A) Bohr",
+      "B) Arrhenius",
+      "C) Thomson",
+      "D) Lewis"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Atomic Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Svante Arrhenius proposed (1884) that electrolytes dissociate into ions in solution. He also proposed acid-base theory."
+  },
+  {
+    "QuestionText": "The total number of orbitals in the third shell (n=3) is:",
+    "Options": [
+      "A) 3",
+      "B) 5",
+      "C) 7",
+      "D) 9"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Shell 3: 3s(1) + 3p(3) + 3d(5) = 9 orbitals. In general, n² orbitals per shell."
+  },
+  {
+    "QuestionText": "The wavelength of electron in hydrogen (Bohr radius = 0.529 Å) for n=1:",
+    "Options": [
+      "A) 2πr₁ (circumference of orbit)",
+      "B) r₁",
+      "C) r₁/2",
+      "D) 4πr₁"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Bohr's Model",
+    "Difficulty": "Olympiad",
+    "Explanation": "de Broglie condition for electron wave fitting exactly in orbit: nλ=2πr. For n=1: λ=2πr₁=circumference of first Bohr orbit."
+  },
+  {
+    "QuestionText": "The number of unpaired electrons in Nitrogen (Z=7) in ground state is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Advanced",
+    "Explanation": "N: 1s²2s²2p³. By Hund's rule, three 2p electrons are in three separate orbitals: px¹py¹pz¹. Three unpaired electrons."
+  },
+  {
+    "QuestionText": "Which radiation has the highest penetrating power?",
+    "Options": [
+      "A) Alpha",
+      "B) Beta",
+      "C) Gamma",
+      "D) X-rays"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Radioactivity",
+    "Difficulty": "Foundation",
+    "Explanation": "Gamma rays are high-energy electromagnetic radiation with the highest penetrating power. Alpha particles are stopped by paper; beta by thin metal; gamma requires thick lead or concrete."
+  },
+  {
+    "QuestionText": "The Schrödinger equation gives the wave function ψ. |ψ|² represents:",
+    "Options": [
+      "A) Energy of electron",
+      "B) Probability density of finding electron",
+      "C) Spin of electron",
+      "D) Position of electron exactly"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Quantum Mechanical Model",
+    "Difficulty": "Olympiad",
+    "Explanation": "|ψ|² = probability density. Integrating |ψ|² over a small volume gives probability of finding electron in that volume. Born's interpretation."
+  },
+  {
+    "QuestionText": "An element with Z=11 (Sodium) has electronic configuration:",
+    "Options": [
+      "A) 2,9",
+      "B) 2,8,1",
+      "C) 2,8,1,0",
+      "D) 3,8"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "Na (Z=11): 2+8+1=11. Configuration: 2,8,1 or 1s²2s²2p⁶3s¹. The outer 3s¹ electron makes Na very reactive."
+  },
+  {
+    "QuestionText": "The number of radial nodes in 2s orbital is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Shapes of Orbitals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Number of radial nodes = n−l−1 = 2−0−1 = 1. The 2s orbital has 1 spherical node."
+  },
+  {
+    "QuestionText": "Isoelectronic species have the same:",
+    "Options": [
+      "A) Number of protons",
+      "B) Mass number",
+      "C) Number of electrons",
+      "D) Number of neutrons"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Advanced",
+    "Explanation": "Isoelectronic species have the same number of electrons (and same electronic configuration). Example: N³⁻, O²⁻, F⁻, Na⁺, Mg²⁺ all have 10 electrons."
+  },
+  {
+    "QuestionText": "The charge on a proton is:",
+    "Options": [
+      "A) −1.6×10⁻¹⁹ C",
+      "B) +1.6×10⁻¹⁹ C",
+      "C) Zero",
+      "D) +1.6×10⁻²⁸ C"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Subatomic Particles",
+    "Difficulty": "Foundation",
+    "Explanation": "Proton charge = +1.6×10⁻¹⁹ C (same magnitude as electron but positive). Electron charge = −1.6×10⁻¹⁹ C."
+  },
+  {
+    "QuestionText": "The energy of an electron increases with:",
+    "Options": [
+      "A) Decreasing n",
+      "B) Increasing n",
+      "C) Decreasing mass",
+      "D) Increasing charge"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Bohr's Model",
+    "Difficulty": "Foundation",
+    "Explanation": "Eₙ = −13.6/n² eV. As n increases, −13.6/n² becomes less negative (closer to zero), so energy increases. Electrons farther from nucleus have higher (less negative) energy."
+  },
+  {
+    "QuestionText": "The maximum number of electrons in a p subshell is:",
+    "Options": [
+      "A) 2",
+      "B) 6",
+      "C) 10",
+      "D) 14"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Chemistry - Atomic Structure",
+    "SubTopic": "Electronic Configuration",
+    "Difficulty": "Foundation",
+    "Explanation": "p subshell has 3 orbitals × 2 electrons each = 6 electrons maximum."
+  }
+]

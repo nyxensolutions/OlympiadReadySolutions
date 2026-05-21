@@ -1,0 +1,16 @@
+[
+  {
+    "QuestionText": "Read the given statements carefully and select the correct option.\n\n**Statement-I**: The degree and order of the differential equation $\\left(1+\\left(\\frac{dy}{dx}\\right)^3\\right)^{\\frac{7}{3}} = 7 \\frac{d^2y}{dx^2}$ respectively are 3 and 2.\n\n**Statement-II**: If $x^3dy + xydx = x^2dy + 2ydx$, $y(2) = e$, then $y(-1) = \\frac{4}{e}$.",
+    "Options": [
+      "Both Statement-I and Statement-II are true.",
+      "Both Statement-I and Statement-II are false.",
+      "Statement-I is true but Statement-II is false.",
+      "Statement-I is false but Statement-II is true."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Differential Equations",
+    "SubTopic": "Order and Degree",
+    "Difficulty": "Olympiad",
+    "Explanation": "For Statement-I, cubing both sides removes the fractional power, resulting in degree 3 and order 2. For Statement-II, integrating the exact differential equation yields the result."
+  }
+]

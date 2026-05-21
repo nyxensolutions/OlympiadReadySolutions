@@ -1,0 +1,457 @@
+[
+  {
+    "QuestionText": "Which of the following utility features in Windows 11 allows users to organize open applications into separate clean desktop spaces for different workflows like 'Work' or 'Gaming'?",
+    "Options": ["A) Snap Layouts", "B) Task View / Virtual Desktops", "C) Widgets", "D) File Explorer Tabs"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Task View allows users to create and manage multiple Virtual Desktops in Windows 11, isolating distinct app groups for different tasks."
+  },
+  {
+    "QuestionText": "Convert the hexadecimal number $(2F)_{16}$ into its equivalent decimal value.",
+    "Options": ["A) 42", "B) 45", "C) 47", "D) 51"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Advanced",
+    "Explanation": "To convert Hexadecimal to Decimal: $2 \times 16^1 + F \times 16^0 = 2 \times 16 + 15 \times 1 = 32 + 15 = 47$."
+  },
+  {
+    "QuestionText": "In the context of computer memory hierarchy, what type of non-volatile storage flash memory chip is increasingly used in modern laptops over traditional HDDs due to its lack of moving parts?",
+    "Options": ["A) Static RAM (SRAM)", "B) Solid State Drive (SSD)", "C) Dynamic RAM (DRAM)", "D) Compact Disc (CD-ROM)"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Memory & Storage",
+    "Difficulty": "Foundation",
+    "Explanation": "Solid State Drives (SSDs) use flash memory chips to preserve data without moving parts, providing significantly faster read/write speeds than HDDs."
+  },
+  {
+    "QuestionText": "Which type of software acts as an abstraction layer between the computer hardware and the application programs, managing system resources like processor time and memory space?",
+    "Options": ["A) Operating System", "B) Device Driver", "C) Device firmware", "D) Application Software"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Hardware & Software",
+    "Difficulty": "Foundation",
+    "Explanation": "The Operating System (OS) is a core system software component that manages hardware allocations and provides a base platform for application programs."
+  },
+  {
+    "QuestionText": "Perform the binary addition: $1101_2 + 1011_2$. What is the result in binary?",
+    "Options": ["A) $11000_2$", "B) $11001_2$", "C) $10111_2$", "D) $11100_2$"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Advanced",
+    "Explanation": "$1101_2$ (13 in decimal) + $1011_2$ (11 in decimal) = 24 in decimal. 24 in binary is $11000_2$."
+  },
+  {
+    "QuestionText": "What new structural layout assistant appears in Windows 11 when a user hovers their mouse pointer over a window's Maximize button?",
+    "Options": ["A) Snap Layouts", "B) Taskbar overflow", "C) Action Center", "D) Quick Settings"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Hovering over the Maximize button triggers 'Snap Layouts', providing pre-configured grid options to instantly arrange open windows side by side."
+  },
+  {
+    "QuestionText": "Which register within the Central Processing Unit (CPU) holds the memory address of the next execution instruction to be fetched?",
+    "Options": ["A) Accumulator (AC)", "B) Memory Data Register (MDR)", "C) Program Counter (PC)", "D) Instruction Register (IR)"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Fundamentals of Computers",
+    "Difficulty": "Advanced",
+    "Explanation": "The Program Counter (PC) keeps track of instruction execution sequences by containing the address of the next upcoming instruction."
+  },
+  {
+    "QuestionText": "A particular type of printers sprays tiny droplets of ionized liquid ink directly onto paper through microscopic nozzles to form characters and graphics. Identify this category of hardware.",
+    "Options": ["A) Laser Printer", "B) Dot Matrix Printer", "C) Inkjet Printer", "D) Thermal Printer"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Inkjet printers build monochrome or color outputs using liquid ink-jet projection arrays."
+  },
+  {
+    "QuestionText": "What is the equivalent binary representation for the octal value $(73)_8$?",
+    "Options": ["A) $111011_2$", "B) $111111_2$", "C) $110011_2$", "D) $101011_2$"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Advanced",
+    "Explanation": "Converting each octal digit to 3 binary digits: $7 \rightarrow 111$, $3 \rightarrow 011$. Combining them yields $111011_2$."
+  },
+  {
+    "QuestionText": "Which system component coordinates data traffic transfers among the CPU, RAM modules, and primary graphics cards in traditional desktop architectures?",
+    "Options": ["A) Southbridge chip", "B) Northbridge chip / System controller", "C) CMOS Battery", "D) Cache Controller"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Hardware & Software",
+    "Difficulty": "Advanced",
+    "Explanation": "The Northbridge handles high-speed data pathways connecting the processor to core memory components and performance expansion buses."
+  },
+  {
+    "QuestionText": "Windows 11 replaced the long-standing 'Action Center' with two separated slide-out panels. What are they?",
+    "Options": [
+      "A) Notifications Center and Quick Settings",
+      "B) Settings app and Control Panel",
+      "C) Start Menu and Widgets Panel",
+      "D) Cortana and Search Home"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Clicking the Time/Date opens the Notification Center, while clicking the Network/Volume cluster launches the customizable Quick Settings utility."
+  },
+  {
+    "QuestionText": "What type of primary computer architecture memory component utilizes flip-flops to retain bits, resulting in high speeds but high manufacturing costs, making it ideal for CPU Cache storage?",
+    "Options": ["A) Dynamic RAM (DRAM)", "B) Static RAM (SRAM)", "C) Programmable ROM (PROM)", "D) Hard Disk Arrays"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Memory & Storage",
+    "Difficulty": "Advanced",
+    "Explanation": "Static RAM does not need constant power refreshing cycles, operating at fast access levels matching CPU core speed pipelines."
+  },
+  {
+    "QuestionText": "If a computer system requires high accuracy tracking input for professional precision CAD drafting or vector blueprint creation, which specialized input hardware is most appropriate?",
+    "Options": ["A) Barcode Reader", "B) Graphic Tablet / Digitizer", "C) Optical Mark Reader (OMR)", "D) Touchpad"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Digitizers convert handwritten pen brush or precise layout traces into highly accurate Cartesian vector pathways on digital screens."
+  },
+  {
+    "QuestionText": "What does a 1's complement representation of the binary byte $10110100_2$ result in?",
+    "Options": ["A) $01001011_2$", "B) $01001100_2$", "C) $10110101_2$", "D) $11001011_2$"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Foundation",
+    "Explanation": "The 1's complement of a binary number is obtained by flipping all bits: 1 becomes 0, and 0 becomes 1."
+  },
+  {
+    "QuestionText": "Which type of software license allows individuals to view, modify, and distribute its core programming code freely across collaborative developer communities?",
+    "Options": ["A) Proprietary software", "B) Shareware", "C) Open-source software", "D) Trialware"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Hardware & Software",
+    "Difficulty": "Foundation",
+    "Explanation": "Open-source packages grant access to source components under transparent distribution paradigms like GPL."
+  },
+  {
+    "QuestionText": "What security sub-system module must be enabled and compliant with version 2.0 on a computer's motherboard to meet the baseline hardware specification requirements for installing Windows 11?",
+    "Options": ["A) UEFI Secure Boot", "B) Trusted Platform Module (TPM)", "C) BitLocker Matrix", "D) BIOS Shadowing Mode"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Windows 11 strictly mandates motherboard hardware authorization cryptographic support via TPM 2.0 chips."
+  },
+  {
+    "QuestionText": "Which operating system scheduling algorithm dynamically adjusts execution priorities based on how long an instruction task has waited inside the passive execution queue to mitigate starvation risks?",
+    "Options": ["A) First-Come, First-Served (FCFS)", "B) Aging", "C) Shortest Job Next (SJN)", "D) Priority Scheduling"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Basics of IT",
+    "Difficulty": "Olympiad",
+    "Explanation": "Aging continuously steps up priority weights for long-deferred tasks inside processor queues, preventing structural process starvation."
+  },
+  {
+    "QuestionText": "What specialized input capture mechanism uses light beam reflections to scan multiple thick and thin parallel vertical layout patterns printed on commercial consumer packages?",
+    "Options": ["A) Magnetic Ink Character Reader (MICR)", "B) Optical Character Reader (OCR)", "C) Barcode Reader", "D) Flatbed Scanner"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Barcode scanners decode serial alphanumeric SKU strings by measuring laser scattering widths across universal linear barcode stripes."
+  },
+  {
+    "QuestionText": "What is the equivalent 2's complement representation for the negative decimal integer $-6$ inside an 8-bit binary register storage structure?",
+    "Options": ["A) $11111010_2$", "B) $11111001_2$", "C) $00000110_2$", "D) $11111011_2$"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Advanced",
+    "Explanation": "Decimal 6 is $00000110_2$. 1's complement = $11111001_2$. Add 1 to find the 2's complement: $11111001_2 + 1_2 = 11111010_2$."
+  },
+  {
+    "QuestionText": "Which component inside a hard disk drive serves as the operational surface substrate medium where digital binary data blocks are encoded via alternating local magnetic flux fields?",
+    "Options": ["A) Read/Write head actuator", "B) Platter", "C) Spindle motor", "D) Cache controller board"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Memory & Storage",
+    "Difficulty": "Advanced",
+    "Explanation": "Platters are the metallic or glass composite circular plates coated with thin magnetic recording compounds inside mechanical HDDs."
+  },
+  {
+    "QuestionText": "What visual element has been re-centered along the bottom layout row profile by default within the updated Windows 11 desktop shell workspace environment?",
+    "Options": ["A) System Tray clock info", "B) Action Sidebar widgets", "C) Start Menu button and Taskbar app icons", "D) File Explorer folder anchors"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Windows 11 defaults its Taskbar utility cluster and the Start Menu trigger to a centralized alignment format."
+  },
+  {
+    "QuestionText": "What internal micro-operation phase within the standard CPU instruction processing engine evaluates raw bit structures to decide what electrical routing steps the execution logic must trigger?",
+    "Options": ["A) Fetch phase", "B) Decode phase", "C) Write-back phase", "D) Storing phase"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Fundamentals of Computers",
+    "Difficulty": "Advanced",
+    "Explanation": "During the decode cycle, the CPU Control Unit converts binary instruction words into actionable hardware operations."
+  },
+  {
+    "QuestionText": "What scanning mechanism is explicitly optimized to recognize specialized characters printed with ink containing ferromagnetic particles, commonly used in banking check validation loops?",
+    "Options": ["A) OMR", "B) OCR", "C) MICR", "D) QR Code Scanner"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Magnetic Ink Character Recognition (MICR) reads routing and account codes on checks safely, even through smudges or stamps."
+  },
+  {
+    "QuestionText": "Convert the binary integer $101111_2$ to its equivalent representation inside the base-10 decimal format scale.",
+    "Options": ["A) 43", "B) 45", "C) 47", "D) 49"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Foundation",
+    "Explanation": "$1 \times 2^5 + 0 \times 2^4 + 1 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 32 + 0 + 8 + 4 + 2 + 1 = 47$."
+  },
+  {
+    "QuestionText": "What software suite deployment component can be defined as an updated collection of localized configuration patches packed together into a single downloadable install wrapper?",
+    "Options": ["A) Firmware", "B) Driver utility bundle", "C) Service Pack", "D) Operating System Kernel"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Hardware & Software",
+    "Difficulty": "Advanced",
+    "Explanation": "Service Packs group security additions and stability optimization patches compiled across an OS lifetime tier."
+  },
+  {
+    "QuestionText": "Which new native layout element panel can be pulled from the left side edge overlay window space in Windows 11 to view weather trends, stock ticker fluctuations, and personalized news feeds?",
+    "Options": ["A) Windows Widgets", "B) Charm Bar", "C) Quick Settings flyout", "D) Cortana Canvas"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Windows Widgets provide dynamic information cards driven by MSN services, accessible via a dedicated taskbar link or `Win + W`."
+  },
+  {
+    "QuestionText": "What metric defines the total volume of discrete execution data blocks processed fully by a machine's internal hardware components inside a designated timeframe unit?",
+    "Options": ["A) Latency speed", "B) Response time", "C) Throughput", "D) Seek Time"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Basics of IT",
+    "Difficulty": "Advanced",
+    "Explanation": "Throughput is a computing metric indicating the rate of work done by an execution node over time."
+  },
+  {
+    "QuestionText": "Which specialized high-capacity output device uses moving mechanical pens or automated continuous ink systems to render large blueprint schematics or architectural drawings?",
+    "Options": ["A) Laser Printer Arrays", "B) Dot Matrix Output station", "C) Plotter", "D) 3D Extruder"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Plotters handle heavy multi-axis fine-line engineering print layouts on oversized blueprints or industrial sheets."
+  },
+  {
+    "QuestionText": "What is the equivalent octal format conversion for the decimal integer value 93?",
+    "Options": ["A) $(135)_8$", "B) $(145)_8$", "C) $(155)_8$", "D) $(115)_8$"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Advanced",
+    "Explanation": "Divide 93 by 8: $93 / 8 = 11$ remainder 5. Divide 11 by 8: $11 / 8 = 1$ remainder 3. Divide 1 by 8: $1 / 8 = 0$ remainder 1. Reading remainders backward yields $(135)_8$."
+  },
+  {
+    "QuestionText": "What system data directory architecture preserves initialization attributes, peripheral configuration parameters, and global software setup variables within Microsoft Windows ecosystems?",
+    "Options": ["A) Master Boot Record", "B) System Registry", "C) CONFIG.SYS root record", "D) Pagefile layout matrix"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Basics of IT",
+    "Difficulty": "Advanced",
+    "Explanation": "The Windows Registry is a centralized hierarchical database configuration tree that maintains deep system operational variables."
+  },
+  {
+    "QuestionText": "Which file management app interface utility in Windows 11 was updated to natively support tabbed window controls similar to web browser paradigms?",
+    "Options": ["A) Internet Explorer console", "B) Task Manager window", "C) File Explorer", "D) Command Prompt Terminal"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "The modern Windows 11 File Explorer allows users to open and switch between multiple directories within tabs inside a single window instance."
+  },
+  {
+    "QuestionText": "What volatile structural block functions as an intermediary cache between system registers and DRAM modules to match instructions with fast processor core tracking speeds?",
+    "Options": ["A) Virtual memory workspace", "B) Flash EEPROM", "C) CPU Cache Memory (L1/L2/L3)", "D) Hard Disk buffer track"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Memory & Storage",
+    "Difficulty": "Advanced",
+    "Explanation": "Cache memories (Level 1, 2, and 3) utilize fast SRAM blocks to store frequently accessed variables close to the processor execution cores."
+  },
+  {
+    "QuestionText": "Which automated hardware technology reads graphite mark responses on targeted layout grids, commonly used to grade multi-choice standard test answer sheets?",
+    "Options": ["A) OCR", "B) MICR", "C) OMR (Optical Mark Recognition)", "D) RFID scan console"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "OMR systems detect filled optical layout grids by measuring light absorption differences across designated template sheets."
+  },
+  {
+    "QuestionText": "Subtract the binary number $0110_2$ from $1111_2$. What is the decimal value of the result?",
+    "Options": ["A) 7", "B) 9", "C) 11", "D) 13"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Advanced",
+    "Explanation": "$1111_2 = 15$ in decimal. $0110_2 = 6$ in decimal. $15 - 6 = 9$. In binary, this is $1001_2$."
+  },
+  {
+    "QuestionText": "What condition describes an OS state where multiple execution operations are blocked indefinitely because each holds a resource that another process requires to proceed?",
+    "Options": ["A) Context switching loop", "B) Thrashing cycle", "C) Deadlock", "D) Spooling block"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Operating System",
+    "Difficulty": "Advanced",
+    "Explanation": "A deadlock occurs when a set of concurrent processes are permanently blocked because each task depends on resources held by others in a circular wait condition."
+  },
+  {
+    "QuestionText": "Windows 11 features an updated app store environment optimized to handle Win32 legacy utilities, PWA, and UWP elements under a unified platform interface. Name this component.",
+    "Options": ["A) Windows Phone Gallery", "B) Microsoft Store", "C) OneDrive Hub", "D) Xbox App launcher"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "The updated Microsoft Store in Windows 11 supports a broader range of application formats, making deployment safer and more consistent."
+  },
+  {
+    "QuestionText": "Which fundamental logic gate yields a low logic output (0) ONLY if both input signal pipelines are simultaneously pushed to high voltage levels (1)?",
+    "Options": ["A) AND Gate", "B) OR Gate", "C) NAND Gate", "D) XOR Gate"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Fundamentals of Computers",
+    "Difficulty": "Advanced",
+    "Explanation": "A NAND (Not AND) gate reverses the AND logic, outputting 0 only when all inputs are 1."
+  },
+  {
+    "QuestionText": "What video display performance metric indicates how many distinct frame image matrices can be projected by an active display interface panel inside a single second window?",
+    "Options": ["A) Aspect ratio profile", "B) Color depth limit", "C) Refresh Rate (Hz)", "D) Native resolution count"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Refresh rate (measured in Hertz) determines how many times per second the monitor redraws the onscreen image."
+  },
+  {
+    "QuestionText": "Convert the decimal fraction $0.625$ to its equivalent binary point format.",
+    "Options": ["A) $0.101_2$", "B) $0.110_2$", "C) $0.011_2$", "D) $0.111_2$"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Olympiad",
+    "Explanation": "$0.625 \times 2 = 1.25$ (integer 1). $0.25 \times 2 = 0.5$ (integer 0). $0.5 \times 2 = 1.0$ (integer 1). Combining the positional fractional bits yields $0.101_2$."
+  },
+  {
+    "QuestionText": "What term defines the continuous allocation phase where an operating system rapidly swaps data tracking blocks between physical RAM nodes and secondary virtual page files, slowing down system processing speed?",
+    "Options": ["A) Pipelining", "B) Context Switching", "C) Thrashing", "D) Interrupt Vectoring"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Operating System",
+    "Difficulty": "Advanced",
+    "Explanation": "Thrashing happens when the OS spends more time swapping data in and out of virtual memory than executing actual application instructions."
+  },
+  {
+    "QuestionText": "What feature allows a Windows 11 terminal window layer to separate different instances into clean toggle spaces at the top edge of the command console utility?",
+    "Options": ["A) Split screen layout", "B) Windows Terminal Tabs", "C) PowerToys run matrix", "D) Focus sessions Panel"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "The native Windows Terminal in Windows 11 supports multiple tabs, allowing Command Prompt, PowerShell, and WSL profiles to run inside a single window container."
+  },
+  {
+    "QuestionText": "Which read-only chip variant can have its stored initialization code cleared entirely using exposure to intense ultraviolet light frequencies, allowing formatting re-writes?",
+    "Options": ["A) EEPROM chip", "B) EPROM chip", "C) PROM module", "D) Mask ROM architecture"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Memory & Storage",
+    "Difficulty": "Advanced",
+    "Explanation": "Erasable Programmable Read-Only Memory (EPROM) chips feature a clear quartz window on top to expose the internal silicon to UV light for data erasure."
+  },
+  {
+    "QuestionText": "What video capture system analyzes unique biometric dimensional spacing arrays across a user's face to grant automated secure desktop log-in parameters?",
+    "Options": ["A) Flatbed scanning layer", "B) Infrared/Biometric Web Camera (Windows Hello)", "C) Digitizer panel", "D) Optical mouse track module"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Windows Hello uses specialized near-infrared cameras to perform secure biometric face mapping for instant system authentication."
+  },
+  {
+    "QuestionText": "What is the result of converting the binary logic byte $11011011_2$ to its equivalent hexadecimal representation form?",
+    "Options": ["A) $(DB)_{16}$", "B) $(CB)_{16}$", "C) $(DA)_{16}$", "D) $(EB)_{16}$"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Advanced",
+    "Explanation": "Split into 4-bit nibbles: $1101 \rightarrow 13$ in base-10 $\rightarrow D$ in hex; $1011 \rightarrow 11$ in base-10 $\rightarrow B$ in hex. Combining them yields $(DB)_{16}$."
+  },
+  {
+    "QuestionText": "Which execution paradigm partitions single processor cycles into sequential execution phases so that multiple instructions can be processed through different hardware states simultaneously?",
+    "Options": ["A) Multi-threading", "B) Pipelining", "C) Symmetric Processing", "D) Spooling"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Fundamentals of Computers",
+    "Difficulty": "Advanced",
+    "Explanation": "Pipelining boosts CPU execution speeds by overlapping different instruction tracking stages (fetch, decode, execute) within the same clock cycles."
+  },
+  {
+    "QuestionText": "What productivity feature in the Windows 11 Clock app allows users to configure dedicated countdown periods that disable system notifications and integrate with Spotify to enhance study focus?",
+    "Options": ["A) Focus Sessions", "B) Screen Time limits", "C) Action block scheduling", "D) Quiet hours manager"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Focus Sessions in the Windows 11 Clock app help users allocate dedicated deep work windows while managing notification distractions."
+  },
+  {
+    "QuestionText": "Which non-impact printer technology uses electrical charges to bind fine plastic carbon powder particles onto drum components before sealing them onto sheets via heated pressure rollers?",
+    "Options": ["A) Inkjet Line Station", "B) Laser Printer", "C) Impact Dot System", "D) Plotter arm assembly"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Input/Output Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Laser printers rely on static electricity, rotating optical drums, and intense heat fusing systems to melt dry toner powder onto target sheets."
+  },
+  {
+    "QuestionText": "Convert the decimal value 255 to its exact binary string representation.",
+    "Options": ["A) $11111110_2$", "B) $11111111_2$", "C) $10000000_2$", "D) $11110000_2$"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science",
+    "SubTopic": "Number System",
+    "Difficulty": "Foundation",
+    "Explanation": "Decimal 255 corresponds to the maximum possible structural information capacity limit of an 8-bit unsigned byte: $11111111_2$."
+  },
+  {
+    "QuestionText": "What system structure handles core peripheral input/output hardware polling adjustments immediately upon booting an execution system before transferring execution controls to storage OS sectors?",
+    "Options": ["A) Kernel pipeline", "B) Device Manager tree", "C) BIOS / UEFI", "D) Master File Table"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science",
+    "SubTopic": "Operating System",
+    "Difficulty": "Advanced",
+    "Explanation": "The Basic Input/Output System (BIOS) or Unified Extensible Firmware Interface (UEFI) runs initial POST checks and basic hardware maps before bootstrapping the primary OS."
+  },
+  {
+    "QuestionText": "Under the Windows 11 accessibility ecosystem, what feature uses on-device neural language models to transcribe spoken audio from any media content into text overlays in real time?",
+    "Options": ["A) Live Captions", "B) Sound Recorder tracking", "C) Narrator Canvas", "D) Speech Recognition Console"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science",
+    "SubTopic": "Windows 11 & Operating Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Windows 11 Live Captions provide real-time, system-wide audio transcriptions on-device without needing active web connectivity."
+  }
+]

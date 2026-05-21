@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Euclid's first postulate states:",
+    "Options": [
+      "A) All right angles are equal",
+      "B) A straight line may be drawn from any point to any other point",
+      "C) A circle can be drawn with any centre and radius",
+      "D) The whole is greater than the part"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Postulates",
+    "Difficulty": "Foundation",
+    "Explanation": "Euclid's 1st Postulate: A straight line segment can be drawn joining any two points."
+  },
+  {
+    "QuestionText": "Euclid's 5th postulate (parallel postulate) led to:",
+    "Options": [
+      "A) Euclidean geometry only",
+      "B) Discovery of non-Euclidean geometries",
+      "C) Proof that parallel lines meet",
+      "D) Rejection of all geometry"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Postulates",
+    "Difficulty": "Advanced",
+    "Explanation": "Euclid's 5th postulate was questioned for centuries, leading to non-Euclidean geometries (Lobachevsky, Riemann) where the 5th postulate doesn't hold."
+  },
+  {
+    "QuestionText": "A point has:",
+    "Options": [
+      "A) Length only",
+      "B) Breadth only",
+      "C) No dimensions (dimensionless)",
+      "D) One dimension"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "According to Euclid: A point is that which has no part (no length, breadth, or depth). It is dimensionless."
+  },
+  {
+    "QuestionText": "If two lines intersect, vertically opposite angles are:",
+    "Options": [
+      "A) Supplementary",
+      "B) Complementary",
+      "C) Equal",
+      "D) Right angles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Vertically opposite angles (formed by two intersecting lines) are always equal."
+  },
+  {
+    "QuestionText": "Two supplementary angles sum to:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 360\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Supplementary angles: sum = 180\u00b0. Complementary angles: sum = 90\u00b0."
+  },
+  {
+    "QuestionText": "Two complementary angles sum to:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 60\u00b0",
+      "D) 120\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Complementary angles sum to 90\u00b0. If one is 30\u00b0, its complement is 60\u00b0."
+  },
+  {
+    "QuestionText": "When two parallel lines are cut by a transversal, alternate interior angles are:",
+    "Options": [
+      "A) Supplementary",
+      "B) Complementary",
+      "C) Equal",
+      "D) Adjacent"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "When parallel lines are cut by a transversal, alternate interior angles are equal (Z-angles). This is a key property of parallel lines."
+  },
+  {
+    "QuestionText": "Co-interior angles (same-side interior) formed when parallel lines cut by transversal are:",
+    "Options": [
+      "A) Equal",
+      "B) Complementary",
+      "C) Supplementary (sum = 180\u00b0)",
+      "D) Right angles"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Co-interior (consecutive interior) angles are supplementary when lines are parallel. Also called C-angles or co-interior angles."
+  },
+  {
+    "QuestionText": "Corresponding angles formed when parallel lines are cut by a transversal are:",
+    "Options": [
+      "A) Supplementary",
+      "B) Complementary",
+      "C) Equal",
+      "D) Vertically opposite"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Corresponding angles (F-angles) are equal when lines are parallel. They are on the same side of the transversal, one interior, one exterior."
+  },
+  {
+    "QuestionText": "If two lines are perpendicular, the angle between them is:",
+    "Options": [
+      "A) 45\u00b0",
+      "B) 60\u00b0",
+      "C) 90\u00b0",
+      "D) 180\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Perpendicular lines meet at exactly 90\u00b0. The symbol \u22a5 denotes perpendicularity."
+  },
+  {
+    "QuestionText": "The complement of 35\u00b0 is:",
+    "Options": [
+      "A) 145\u00b0",
+      "B) 55\u00b0",
+      "C) 65\u00b0",
+      "D) 35\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Complement = 90\u00b0 \u2212 35\u00b0 = 55\u00b0."
+  },
+  {
+    "QuestionText": "The supplement of 120\u00b0 is:",
+    "Options": [
+      "A) 60\u00b0",
+      "B) 70\u00b0",
+      "C) 80\u00b0",
+      "D) 240\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Supplement = 180\u00b0 \u2212 120\u00b0 = 60\u00b0."
+  },
+  {
+    "QuestionText": "If two straight lines intersect, the sum of all four angles formed is:",
+    "Options": [
+      "A) 180\u00b0",
+      "B) 270\u00b0",
+      "C) 360\u00b0",
+      "D) 90\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Four angles formed at intersection: 2 pairs of vertically opposite angles. Together they form a complete rotation = 360\u00b0."
+  },
+  {
+    "QuestionText": "An axiom in Euclid's geometry is:",
+    "Options": [
+      "A) A self-evident truth accepted without proof",
+      "B) A theorem that needs proof",
+      "C) An observation",
+      "D) A hypothesis"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "Axioms (or common notions) are self-evident truths accepted without proof. Postulates are specific geometric assumptions."
+  },
+  {
+    "QuestionText": "Euclid's 3rd postulate states:",
+    "Options": [
+      "A) A line can be extended indefinitely",
+      "B) A circle can be drawn with any centre and radius",
+      "C) All right angles are equal",
+      "D) Things equal to the same are equal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Postulates",
+    "Difficulty": "Foundation",
+    "Explanation": "3rd Postulate: A circle can be described with any centre and radius."
+  },
+  {
+    "QuestionText": "Two lines are parallel if and only if the distance between them is:",
+    "Options": [
+      "A) Zero",
+      "B) Variable",
+      "C) Constant (equal) everywhere",
+      "D) Increasing"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallel lines are equidistant everywhere. If distance varies, the lines will eventually meet (not parallel)."
+  },
+  {
+    "QuestionText": "If \u22201 + \u22202 = 180\u00b0 and they are on a straight line, then \u22201 and \u22202 are:",
+    "Options": [
+      "A) Vertically opposite",
+      "B) Alternate angles",
+      "C) Linear pair",
+      "D) Complementary"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Linear pair: two adjacent angles that sum to 180\u00b0, formed on a straight line. Linear Pair Axiom: adjacent angles on a line sum to 180\u00b0."
+  },
+  {
+    "QuestionText": "Two angles are vertically opposite if they are:",
+    "Options": [
+      "A) Adjacent and supplementary",
+      "B) Formed by two intersecting lines, opposite to each other",
+      "C) Equal to 90\u00b0",
+      "D) Alternate interior angles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Vertically opposite angles are formed when two lines intersect, on opposite sides of the intersection point. They are always equal."
+  },
+  {
+    "QuestionText": "Line AB and line CD are parallel. A transversal EF cuts them. If \u22201 = 55\u00b0 (corresponding to \u22202), then \u22202 = ?",
+    "Options": [
+      "A) 125\u00b0",
+      "B) 55\u00b0",
+      "C) 35\u00b0",
+      "D) 45\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Corresponding angles are equal when lines are parallel. \u22202 = \u22201 = 55\u00b0."
+  },
+  {
+    "QuestionText": "If alternate angles formed by transversal are equal, then the lines are:",
+    "Options": [
+      "A) Perpendicular",
+      "B) Parallel",
+      "C) Intersecting",
+      "D) Skew"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "If alternate interior angles are equal, the lines are parallel (converse of alternate angle theorem)."
+  },
+  {
+    "QuestionText": "The sum of interior angles on the same side of transversal between parallel lines = ?",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 360\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Co-interior angles (same-side interior, C-angles) between parallel lines sum to 180\u00b0."
+  },
+  {
+    "QuestionText": "An angle that equals its supplement is a:",
+    "Options": [
+      "A) Acute angle",
+      "B) Obtuse angle",
+      "C) Right angle (90\u00b0)",
+      "D) Reflex angle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "If x = 180\u00b0 \u2212 x \u2192 2x = 180\u00b0 \u2192 x = 90\u00b0. An angle equal to its own supplement is 90\u00b0."
+  },
+  {
+    "QuestionText": "According to Euclid, a theorem:",
+    "Options": [
+      "A) Is accepted without proof",
+      "B) Must be proved using axioms and previously established theorems",
+      "C) Is a definition",
+      "D) Is an observation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Advanced",
+    "Explanation": "Theorems in Euclidean geometry must be logically proved using axioms, postulates, and previously proven theorems. This is the deductive method."
+  },
+  {
+    "QuestionText": "If two lines AB \u2225 CD and a transversal PQ intersects them at E and F respectively. \u2220BEF = 70\u00b0. \u2220EFD = ?",
+    "Options": [
+      "A) 70\u00b0",
+      "B) 110\u00b0",
+      "C) 180\u00b0",
+      "D) 50\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Advanced",
+    "Explanation": "\u2220BEF and \u2220EFD are co-interior angles (same side). Co-interior angles between parallel lines sum to 180\u00b0. \u2220EFD = 180\u00b0 - 70\u00b0 = 110\u00b0."
+  },
+  {
+    "QuestionText": "The number of lines that can pass through a single point is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 10",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "Infinitely many lines can pass through a single point. But only one line passes through two distinct points."
+  },
+  {
+    "QuestionText": "The angle formed between a line and itself extended (a straight angle) is:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 360\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "A straight angle = 180\u00b0. It's the angle of a straight line (a half rotation)."
+  },
+  {
+    "QuestionText": "If \u2220PQR = 70\u00b0, \u2220QPS = 110\u00b0, and PQ is a transversal cutting lines QR and PS, are QR and PS parallel?",
+    "Options": [
+      "A) Yes, alternate angles equal",
+      "B) Yes, co-interior angles sum to 180\u00b0",
+      "C) No, they are not parallel",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Advanced",
+    "Explanation": "\u2220PQR + \u2220QPS = 70\u00b0 + 110\u00b0 = 180\u00b0. These are co-interior angles summing to 180\u00b0, so QR \u2225 PS."
+  },
+  {
+    "QuestionText": "A reflex angle is greater than:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 270\u00b0",
+      "D) 360\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Reflex angle: greater than 180\u00b0 and less than 360\u00b0. Acute: 0-90\u00b0. Right: 90\u00b0. Obtuse: 90-180\u00b0. Straight: 180\u00b0."
+  },
+  {
+    "QuestionText": "Euclid's axiom 'The whole is greater than the part' means:",
+    "Options": [
+      "A) A subset is always smaller than the set",
+      "B) Parts are always equal",
+      "C) A + B > A",
+      "D) Addition always increases value"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "The whole (say AB) is greater than any of its parts (say AC where C is between A and B). AB > AC."
+  },
+  {
+    "QuestionText": "Two angles in a linear pair. One angle is 3x and the other is 2x. Find x.",
+    "Options": [
+      "A) 30",
+      "B) 36",
+      "C) 40",
+      "D) 45"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "Linear pair sums to 180\u00b0: 3x + 2x = 180\u00b0 \u2192 5x = 180\u00b0 \u2192 x = 36\u00b0."
+  },
+  {
+    "QuestionText": "Euclid's 2nd postulate states:",
+    "Options": [
+      "A) A circle can be drawn",
+      "B) A terminated line (segment) can be extended indefinitely",
+      "C) All right angles are equal",
+      "D) Things equal to same are equal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Postulates",
+    "Difficulty": "Foundation",
+    "Explanation": "2nd Postulate: A terminated line can be extended indefinitely in a straight line."
+  },
+  {
+    "QuestionText": "The angle between two parallel lines is:",
+    "Options": [
+      "A) 90\u00b0",
+      "B) 180\u00b0",
+      "C) 0\u00b0",
+      "D) 45\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Advanced",
+    "Explanation": "Parallel lines never meet and have the same direction, so the angle between them is 0\u00b0."
+  },
+  {
+    "QuestionText": "Three or more points are said to be collinear if:",
+    "Options": [
+      "A) They are vertices of a triangle",
+      "B) They all lie on the same straight line",
+      "C) They are equidistant",
+      "D) They form a polygon"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "Collinear points lie on the same line. Non-collinear points (minimum 3) determine a unique plane/triangle."
+  },
+  {
+    "QuestionText": "Euclid's 4th postulate states:",
+    "Options": [
+      "A) All right angles are equal to each other",
+      "B) A circle can be drawn with any radius",
+      "C) A line can be extended",
+      "D) The whole is greater than the part"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Postulates",
+    "Difficulty": "Foundation",
+    "Explanation": "4th Postulate: All right angles are equal to one another. This ensures consistency in right angle measurement everywhere."
+  },
+  {
+    "QuestionText": "If two angles are both equal to a third angle, they are equal to each other. This is based on:",
+    "Options": [
+      "A) Euclid's Postulate 1",
+      "B) Euclid's Axiom (things equal to same thing are equal)",
+      "C) Euclid's Postulate 4",
+      "D) Triangle inequality"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "Euclid's common notion (axiom): 'Things which are equal to the same thing are equal to one another.' If \u2220A = \u2220C and \u2220B = \u2220C, then \u2220A = \u2220B."
+  },
+  {
+    "QuestionText": "An acute angle is between:",
+    "Options": [
+      "A) 0\u00b0 and 90\u00b0",
+      "B) 90\u00b0 and 180\u00b0",
+      "C) 180\u00b0 and 360\u00b0",
+      "D) Exactly 90\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Acute angle: strictly between 0\u00b0 and 90\u00b0. Right: exactly 90\u00b0. Obtuse: between 90\u00b0 and 180\u00b0. Reflex: between 180\u00b0 and 360\u00b0."
+  },
+  {
+    "QuestionText": "\u2220ABC and \u2220DBC share ray BC. \u2220ABC + \u2220DBC = 180\u00b0. Rays BA and BD are:",
+    "Options": [
+      "A) Perpendicular",
+      "B) Parallel",
+      "C) Opposite rays (forming a line AD)",
+      "D) Equal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "If \u2220ABC + \u2220DBC = 180\u00b0 and they share ray BC, then rays BA and BD form a straight line (linear pair axiom \u2014 opposite rays)."
+  },
+  {
+    "QuestionText": "Which of Euclid's common notions states: 'If equals are added to equals, the wholes are equal'?",
+    "Options": [
+      "A) 1st common notion",
+      "B) 2nd common notion",
+      "C) 3rd common notion",
+      "D) 4th common notion"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Advanced",
+    "Explanation": "2nd common notion: If equals are added to equals, the sums are equal. (a = b \u2192 a + c = b + c)"
+  },
+  {
+    "QuestionText": "Two parallel lines are cut by a transversal. The alternate exterior angles are:",
+    "Options": [
+      "A) Supplementary",
+      "B) Equal",
+      "C) Complementary",
+      "D) Not related"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Advanced",
+    "Explanation": "Alternate exterior angles (both outside the parallel lines, on opposite sides of transversal) are equal \u2014 same as alternate interior angles."
+  },
+  {
+    "QuestionText": "If \u22201 and \u22202 are vertically opposite and \u22201 = 4x \u2212 20\u00b0 and \u22202 = 2x + 40\u00b0, find \u22201.",
+    "Options": [
+      "A) 60\u00b0",
+      "B) 100\u00b0",
+      "C) 120\u00b0",
+      "D) 80\u00b0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Vertically opposite are equal: 4x\u221220=2x+40 \u2192 2x=60 \u2192 x=30. \u22201=4(30)\u221220=120\u221220=100\u00b0."
+  },
+  {
+    "QuestionText": "Three lines meet at one point. The number of angles formed is:",
+    "Options": [
+      "A) 3",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "Three lines through one point form 6 angles (3 pairs of vertically opposite angles). Each line creates one pair of vertical angles = 3 pairs = 6 angles."
+  },
+  {
+    "QuestionText": "How many dimensions does a plane have?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "A plane has 2 dimensions (length and breadth). A line has 1 dimension. A point has 0 dimensions. A solid has 3 dimensions."
+  },
+  {
+    "QuestionText": "Lines l and m are parallel. A transversal n cuts them. The interior angles on one side sum to 200\u00b0. Are l and m parallel?",
+    "Options": [
+      "A) Yes",
+      "B) No \u2014 they must sum to 180\u00b0 for parallel lines",
+      "C) Cannot determine",
+      "D) Yes if alternate angles equal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Olympiad",
+    "Explanation": "For parallel lines, co-interior angles must sum to exactly 180\u00b0. If sum = 200\u00b0 \u2260 180\u00b0, the lines are not parallel."
+  },
+  {
+    "QuestionText": "In Euclidean geometry, a line extends:",
+    "Options": [
+      "A) From one point only",
+      "B) From one end only (ray)",
+      "C) Infinitely in both directions",
+      "D) For a fixed length"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "A line (in Euclidean geometry) extends infinitely in both directions. A ray has one endpoint and extends infinitely in one direction. A segment has two endpoints."
+  },
+  {
+    "QuestionText": "Adjacent angles share a common vertex and a common side. They:",
+    "Options": [
+      "A) Always add up to 90\u00b0",
+      "B) Always add up to 180\u00b0",
+      "C) Do not overlap",
+      "D) Are always equal"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Foundation",
+    "Explanation": "Adjacent angles share a vertex and one ray but do not overlap. They may sum to 90\u00b0, 180\u00b0, or any value depending on context."
+  },
+  {
+    "QuestionText": "\u2220AOB and \u2220BOC are adjacent angles forming \u2220AOC = 120\u00b0. If \u2220AOB = 2\u2220BOC, find \u2220BOC.",
+    "Options": [
+      "A) 30\u00b0",
+      "B) 40\u00b0",
+      "C) 60\u00b0",
+      "D) 80\u00b0"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Angles",
+    "Difficulty": "Advanced",
+    "Explanation": "\u2220AOB + \u2220BOC = 120\u00b0. 2\u2220BOC + \u2220BOC = 120\u00b0 \u2192 3\u2220BOC = 120\u00b0 \u2192 \u2220BOC = 40\u00b0."
+  },
+  {
+    "QuestionText": "Euclid defined a surface as that which has:",
+    "Options": [
+      "A) Length only",
+      "B) Length and breadth (no depth)",
+      "C) Length, breadth, and depth",
+      "D) No dimensions"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Euclid's Definitions",
+    "Difficulty": "Foundation",
+    "Explanation": "Euclid's definition: A surface has length and breadth only (2D). A solid has all three dimensions. A line has only length."
+  },
+  {
+    "QuestionText": "Lines l\u2081 \u2225 l\u2082. A transversal makes angles of 70\u00b0 with l\u2081. The acute angle with l\u2082 is:",
+    "Options": [
+      "A) 70\u00b0",
+      "B) 110\u00b0",
+      "C) 20\u00b0",
+      "D) 90\u00b0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Foundation",
+    "Explanation": "Corresponding angles are equal when lines are parallel. The transversal makes the same angle (70\u00b0) with both parallel lines."
+  },
+  {
+    "QuestionText": "If \u22201 = 5x and \u22202 = 4x + 9 are alternate interior angles between two parallel lines, find x.",
+    "Options": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 9"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Advanced",
+    "Explanation": "Alternate interior angles are equal: 5x = 4x + 9 \u2192 x = 9."
+  },
+  {
+    "QuestionText": "If two lines are perpendicular and a third line is parallel to one of them, it is __ to the other.",
+    "Options": [
+      "A) Parallel",
+      "B) Perpendicular",
+      "C) At 45\u00b0",
+      "D) Skew"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Euclids Geometry Lines and Angles",
+    "SubTopic": "Parallel Lines",
+    "Difficulty": "Advanced",
+    "Explanation": "If l\u2081 \u22a5 l\u2082 and l\u2083 \u2225 l\u2081, then l\u2083 \u22a5 l\u2082. (Two lines both perpendicular to a transversal are parallel to each other; conversely.)"
+  }
+]

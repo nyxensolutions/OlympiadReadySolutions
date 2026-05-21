@@ -20,6 +20,9 @@ public class QuestionBankItem
 
     public string QuestionText { get; set; } = "";
 
+    /// <summary>Optional URL for an image related to the question</summary>
+    public string? ImageUrl { get; set; }
+
     /// <summary>JSON array of 4 option strings (no A./B. prefix)</summary>
     public string OptionsJson { get; set; } = "[]";
 

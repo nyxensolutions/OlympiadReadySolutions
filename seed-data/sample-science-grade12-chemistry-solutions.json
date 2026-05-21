@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Which of the following concentration units depends on temperature?",
+    "Options": ["A) Molality", "B) Molarity", "C) Mole fraction", "D) Mass percentage"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Concentration Units",
+    "Difficulty": "Foundation",
+    "Explanation": "Molarity is defined as moles of solute per liter of solution; since volume changes with temperature, molarity also changes."
+  },
+  {
+    "QuestionText": "According to Henry's Law, the solubility of a gas in a liquid is directly proportional to:",
+    "|Options": ["A) The temperature of the liquid", "B) The partial pressure of the gas", "C) The volume of the liquid", "D) The molecular weight of the gas"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Solubility of Gases",
+    "Difficulty": "Foundation",
+    "Explanation": "Henry's Law states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the liquid."
+  },
+  {
+    "QuestionText": "For an ideal solution, the enthalpy of mixing (ΔH_mix) is:",
+    "Options": ["A) Positive", "B) Negative", "C) Zero", "D) Dependent on concentration"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "In an ideal solution, the intermolecular forces between components are identical to those in the pure liquids, so no heat is absorbed or evolved during mixing."
+  },
+  {
+    "QuestionText": "An azeotropic mixture of two liquids boils at a lower temperature than either of them when it shows:",
+    "Options": ["A) Negative deviation from Raoult's Law", "B) Positive deviation from Raoult's Law", "C) No deviation from Raoult's Law", "D) High enthalpy of hydration"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "Large positive deviations lead to a maximum in the vapor pressure curve and a corresponding minimum in the boiling point curve (minimum boiling azeotrope)."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a colligative property?",
+    "Options": ["A) Osmotic pressure", "B) Relative lowering of vapor pressure", "C) Depression in freezing point", "D) Optical activity"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Colligative properties depend on the number of solute particles, whereas optical activity depends on the molecular structure of the substance."
+  },
+  {
+    "QuestionText": "The Van't Hoff factor (i) for a 0.1 M solution of Ba(NO₃)₂ assuming 100% dissociation is:",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Van't Hoff Factor",
+    "Difficulty": "Advanced",
+    "Explanation": "Ba(NO₃)₂ dissociates into one Ba²⁺ ion and two NO₃⁻ ions, giving a total of three particles per formula unit."
+  },
+  {
+    "QuestionText": "The value of the cryoscopic constant (Kf) depends upon:",
+    "Options": ["A) Nature of solute", "B) Nature of solvent", "C) Concentration of solution", "D) Pressure of the system"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Kf, also known as the molal freezing point depression constant, is a characteristic property of the solvent itself."
+  },
+  {
+    "QuestionText": "Isotonic solutions are those which have the same:",
+    "Options": ["A) Density", "B) Molality", "C) Osmotic pressure", "D) Boiling point"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, isotonic solutions exert the same osmotic pressure across a semi-permeable membrane."
+  },
+  {
+    "QuestionText": "A mixture of Chloroform and Acetone shows a negative deviation from Raoult's Law because:",
+    "Options": ["A) A-B interactions are weaker than A-A and B-B", "B) A-B interactions are stronger than A-A and B-B", "C) Mixing is endothermic", "D) Total volume increases"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "The formation of hydrogen bonds between Chloroform and Acetone molecules increases attractive forces, lowering the vapor pressure below the predicted value."
+  },
+  {
+    "QuestionText": "The relative lowering of vapor pressure of a solution is equal to:",
+    "Options": ["A) Molarity of solute", "B) Mole fraction of solute", "C) Molality of solute", "D) Mole fraction of solvent"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "According to Raoult's Law for non-volatile solutes, (P° - P) / P° = χ_solute."
+  },
+  {
+    "QuestionText": "Reverse osmosis is used in:",
+    "Options": ["A) Concentration of juices", "B) Desalination of seawater", "C) Measurement of molecular mass", "D) Distillation"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Applying pressure greater than the osmotic pressure reverses the flow of solvent, allowing pure water to be extracted from salt water."
+  },
+  {
+    "QuestionText": "The Van't Hoff factor for a solute that associates in a solvent is:",
+    "Options": ["A) i = 0", "B) i = 1", "C) i > 1", "D) i < 1"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Van't Hoff Factor",
+    "Difficulty": "Advanced",
+    "Explanation": "Association reduces the total number of particles in the solution, making the observed colligative property smaller than calculated, so i < 1."
+  },
+  {
+    "QuestionText": "What is the mole fraction of ethylene glycol in a solution containing 20% by mass of glycol (C₂H₆O₂)?",
+    "Options": ["A) 0.068", "B) 0.932", "C) 0.125", "D) 0.500"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Concentration Units",
+    "Difficulty": "Olympiad",
+    "Explanation": "Calculation: 20g glycol (0.322 mol) and 80g water (4.444 mol). Mole fraction = 0.322 / (0.322 + 4.444) = 0.068."
+  },
+  {
+    "QuestionText": "If the Henry's law constant for Argon is 40 kbar and for Methane is 0.4 kbar, which gas is more soluble in water?",
+    "Options": ["A) Argon", "B) Methane", "C) Both equally", "D) Depends on temperature"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Solubility of Gases",
+    "Difficulty": "Advanced",
+    "Explanation": "Henry's Law constant (K_H) is inversely proportional to solubility; therefore, the gas with the lower K_H is more soluble."
+  },
+  {
+    "QuestionText": "Which property of a solution does NOT change if it is diluted?",
+    "Options": ["A) Molarity", "B) Moles of solute", "C) Molality", "D) Normality"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Concentration Units",
+    "Difficulty": "Foundation",
+    "Explanation": "Dilution involves adding more solvent, which changes the concentration but leaves the total amount (moles) of solute unchanged."
+  },
+  {
+    "QuestionText": "The unit of molal elevation constant (Kb) is:",
+    "Options": ["A) K kg mol⁻¹", "B) mol kg K⁻¹", "C) K mol kg⁻¹", "D) K kg⁻¹ mol"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "From ΔTb = Kb * m, the units are Degrees / (mol / kg) = K kg mol⁻¹."
+  },
+  {
+    "QuestionText": "At a specific temperature, the vapor pressure of a solution containing a non-volatile solute is:",
+    "Options": ["A) Higher than pure solvent", "B) Lower than pure solvent", "C) Same as pure solvent", "D) Zero"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "The presence of solute particles on the surface reduces the escape of solvent molecules into the vapor phase, lowering the vapor pressure."
+  },
+  {
+    "QuestionText": "When blood cells are kept in a hypertonic salt solution, they:",
+    "Options": ["A) Swell", "B) Shrink", "C) Remain same", "D) Dissolve"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Water flows out of the cells into the more concentrated external solution by osmosis, causing the cells to shrivel (plasmolysis)."
+  },
+  {
+    "QuestionText": "The boiling point of a 1 molal solution of Glucose is 100.52 °C. The Kb of water is:",
+    "Options": ["A) 0.52 K kg mol⁻¹", "B) 1.04 K kg mol⁻¹", "C) 100.52 K kg mol⁻¹", "D) 1.86 K kg mol⁻¹"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "ΔTb = 100.52 - 100.00 = 0.52. Since m=1, Kb = ΔTb / m = 0.52."
+  },
+  {
+    "QuestionText": "A mixture of Ethanol and Water shows a positive deviation. This means the mixing process is:",
+    "Options": ["A) Exothermic", "B) Endothermic", "C) Athermal", "D) Spontaneous with ΔS < 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Positive deviation occurs when bonds are broken and new interactions are weaker, which typically absorbs heat (ΔH_mix > 0)."
+  },
+  {
+    "QuestionText": "Which relation is correct for the osmotic pressure (π) of a solution?",
+    "Options": ["A) π = CRT", "B) π = CR/T", "C) π = CT/R", "D) π = RT/C"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "The Van't Hoff equation for osmotic pressure is analogous to the ideal gas law: PV = nRT becomes π = (n/V)RT = CRT."
+  },
+  {
+    "QuestionText": "If the Van't Hoff factor (i) for a solute is 2, the degree of dissociation (α) is:",
+    "Options": ["A) 0.5", "B) 1.0", "C) 0", "D) 2.0"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Van't Hoff Factor",
+    "Difficulty": "Olympiad",
+    "Explanation": "For a solute dissociating into two ions (like NaCl), i = 1 + α. If i = 2, then α = 1 (100% dissociation)."
+  },
+  {
+    "QuestionText": "The semi-permeable membrane used in osmosis allows the passage of:",
+    "Options": ["A) Solute particles only", "B) Solvent molecules only", "C) Both solute and solvent", "D) Neither"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Semi-permeable membranes have pores large enough for solvent molecules but too small for larger solute particles."
+  },
+  {
+    "QuestionText": "Which aqueous solution will have the highest boiling point?",
+    "Options": ["A) 1.0 M Glucose", "B) 1.0 M NaCl", "C) 1.0 M CaCl₂", "D) 1.0 M Urea"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "CaCl₂ produces three ions (i=3), while NaCl produces two (i=2), and Glucose/Urea produce one. Higher particle count leads to higher boiling point elevation."
+  },
+  {
+    "QuestionText": "The solubility of a solid in a liquid usually ________ with an increase in temperature.",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains constant", "D) First increases then decreases"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Solubility",
+    "Difficulty": "Foundation",
+    "Explanation": "For most solids, the dissolution process is endothermic, so increasing temperature shifts the equilibrium toward more solubility (Le Chatelier's Principle)."
+  },
+  {
+    "QuestionText": "Ethylene glycol is added to water in car radiators to act as:",
+    "Options": ["A) A lubricant", "B) An antifreeze", "C) A cleaning agent", "D) A fuel"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "It lowers the freezing point of water, preventing the engine coolant from freezing in cold weather."
+  },
+  {
+    "QuestionText": "For a dilute solution, the depression in freezing point (ΔTf) is proportional to:",
+    "Options": ["A) Molarity", "B) Molality", "C) Mole fraction of solvent", "D) Volume of solution"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Freezing point depression is proportional to the molal concentration of the solute (ΔTf = Kf * m)."
+  },
+  {
+    "QuestionText": "Benzene and Toluene form a nearly ideal solution because:",
+    "Options": ["A) They have different polarities", "B) They have similar molecular sizes and structures", "C) They have high boiling points", "D) They react with each other"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "Ideal behavior is observed when components have similar intermolecular forces, which is true for chemically similar molecules like benzene and toluene."
+  },
+  {
+    "QuestionText": "The osmotic pressure method is preferred for determining the molar mass of proteins because:",
+    "Options": ["A) It is easy to calculate", "B) Measurements are made at room temperature", "C) ΔTb and ΔTf are too small to measure accurately", "D) Both B and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "Biomolecules are often unstable at high temperatures (boiling) and have very high molar masses, leading to negligible boiling point changes."
+  },
+  {
+    "QuestionText": "What is the molarity of pure water?",
+    "Options": ["A) 1 M", "B) 18 M", "C) 55.5 M", "D) 100 M"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Concentration Units",
+    "Difficulty": "Advanced",
+    "Explanation": "1 liter of water weighs 1000g. Moles = 1000/18 = 55.5. So the molarity is 55.5 M."
+  },
+  {
+    "QuestionText": "When a non-volatile solute is added to a solvent, the freezing point of the solvent:",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains same", "D) Becomes zero"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "The addition of solute particles disrupts the formation of the solid lattice, requiring a lower temperature to reach the freezing state."
+  },
+  {
+    "QuestionText": "The mole fraction of a component A in a solution is 0.4. What is the mole fraction of component B?",
+    "Options": ["A) 0.4", "B) 0.6", "C) 1.0", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Concentration Units",
+    "Difficulty": "Foundation",
+    "Explanation": "The sum of the mole fractions of all components in a solution is always equal to 1."
+  },
+  {
+    "QuestionText": "According to the Scatchard equation, high-affinity binding is indicated by:",
+    "Options": ["A) Low slope", "B) High slope", "C) Zero slope", "D) Constant slope"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Solubility",
+    "Difficulty": "Olympiad",
+    "Explanation": "In ligand-binding studies, a steeper negative slope in a Scatchard plot indicates a higher association constant (affinity)."
+  },
+  {
+    "QuestionText": "Elevation of boiling point is observed when:",
+    "Options": ["A) Vapor pressure of solution equals atmospheric pressure at a higher temperature", "B) Solute is more volatile than solvent", "C) Pressure is decreased", "D) Solvent is removed"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Since the solute lowers vapor pressure, the solution must be heated to a higher temperature to reach atmospheric pressure."
+  },
+  {
+    "QuestionText": "A 5% (w/v) solution of Cane Sugar (MW=342) is isotonic with 0.87% (w/v) solution of X. Molar mass of X is:",
+    "Options": ["A) 59.5", "B) 60", "C) 180", "D) 34.2"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Olympiad",
+    "Explanation": "Calculation: (5/342) = (0.87/MW_X) leads to MW_X = (0.87 * 342) / 5 ≈ 59.5 (likely Urea)."
+  },
+  {
+    "QuestionText": "Which concentration unit is defined as 'moles of solute per kg of solvent'?",
+    "Options": ["A) Molarity", "B) Molality", "C) Normality", "D) ppm"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Concentration Units",
+    "Difficulty": "Foundation",
+    "Explanation": "Molality is uniquely calculated relative to the mass of the solvent, making it useful in temperature-variable experiments."
+  },
+  {
+    "QuestionText": "The solubility of oxygen in water ________ as the water is heated.",
+    "Options": ["A) Increases", "B) Decreases", "C) Remains same", "D) Depends on salts"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Solubility of Gases",
+    "Difficulty": "Advanced",
+    "Explanation": "Gas dissolution in liquids is generally exothermic, so by Le Chatelier's Principle, heat drives the gas out of solution."
+  },
+  {
+    "QuestionText": "Vapor pressure of pure liquid A is 100 mmHg and pure liquid B is 150 mmHg. In a solution with XA = 0.5, total pressure is:",
+    "Options": ["A) 125 mmHg", "B) 250 mmHg", "C) 50 mmHg", "D) 100 mmHg"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "P_total = P_A*XA + P_B*XB = 100(0.5) + 150(0.5) = 50 + 75 = 125."
+  },
+  {
+    "QuestionText": "Edema (swelling of tissues) in people taking lot of salt is caused by:",
+    "Options": ["A) High blood pressure", "B) Osmosis", "C) Diffusion", "D) Active transport"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "High salt concentration in tissue fluids draws water out of the cells through osmosis, causing the tissues to puff up."
+  },
+  {
+    "QuestionText": "The maximum value of the Van't Hoff factor for K₄[Fe(CN)₆] is:",
+    "Options": ["A) 1", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Van't Hoff Factor",
+    "Difficulty": "Advanced",
+    "Explanation": "The complex dissociates into 4K⁺ ions and 1 [Fe(CN)₆]⁴⁻ ion, totaling 5 particles."
+  },
+  {
+    "QuestionText": "Maximum boiling azeotropes are formed by solutions showing:",
+    "Options": ["A) Large positive deviation", "B) Large negative deviation", "C) No deviation", "D) Constant temperature deviation"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Advanced",
+    "Explanation": "Negative deviation results in lower total vapor pressure, requiring higher temperatures to boil."
+  },
+  {
+    "QuestionText": "What happens when the pressure applied on the solution side is less than the osmotic pressure?",
+    "Options": ["A) Reverse osmosis", "B) Osmosis continues normally", "C) Flow of solvent stops", "D) Membrane breaks"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "Solvent will still flow from the pure solvent side to the solution side until the pressures equalize."
+  },
+  {
+    "QuestionText": "The unit of osmotic pressure is:",
+    "Options": ["A) atm", "B) L/mol", "C) J/mol", "D) unitless"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Osmotic pressure is a physical pressure and is measured in standard pressure units like atmospheres or Pascals."
+  },
+  {
+    "QuestionText": "A solution of urea is 10% by mass. If the density is 1.1 g/mL, its molarity is approx:",
+    "Options": ["A) 1.83 M", "B) 1.66 M", "C) 0.16 M", "D) 2.0 M"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Concentration Units",
+    "Difficulty": "Olympiad",
+    "Explanation": "Calculation: 100g solution = 10g urea (1/6 mol). Volume = 100/1.1 = 90.9 mL. Molarity = (1/6) / 0.0909 ≈ 1.83 M."
+  },
+  {
+    "QuestionText": "Addition of common salt to water ________ its boiling point.",
+    "Options": ["A) Increases", "B) Decreases", "C) Does not change", "D) Fluctuates"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "Salt is a non-volatile solute that elevates the boiling point of the solvent."
+  },
+  {
+    "QuestionText": "The ideal gas constant R used in the osmotic pressure formula is:",
+    "Options": ["A) 0.0821 L atm / K mol", "B) 8.314 J / K mol", "C) 1.987 cal / K mol", "D) All are correct depending on units"],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "The value of R must be chosen to match the units of pressure and volume used in the calculation."
+  },
+  {
+    "QuestionText": "Which law states that 'the partial vapor pressure of each component of an ideal solution is directly proportional to its mole fraction'?",
+    "Options": ["A) Henry's Law", "B) Raoult's Law", "C) Dalton's Law", "D) Boyle's Law"],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Ideal and Non-ideal Solutions",
+    "Difficulty": "Foundation",
+    "Explanation": "Raoult's Law provides the mathematical basis for predicting the vapor pressure of mixtures."
+  },
+  {
+    "QuestionText": "Elevation in boiling point is a ________ property.",
+    "Options": ["A) Additive", "B) Constitutive", "C) Colligative", "D) Extensive"],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Foundation",
+    "Explanation": "It depends only on the number of solute particles in the solution."
+  },
+  {
+    "QuestionText": "The boiling point of an aqueous solution of 0.1 M NaCl is ________ than 0.1 M Sugar.",
+    "Options": ["A) Higher", "B) Lower", "C) Same", "D) Double"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "NaCl dissociates into ions, doubling the number of particles compared to the non-dissociating sugar molecule."
+  },
+  {
+    "QuestionText": "Relative lowering of vapor pressure is a dimensionless quantity because it is a:",
+    "Options": ["A) Ratio of two pressures", "B) Sum of two pressures", "C) Product of pressure and volume", "D) Ratio of mass to volume"],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Chemistry",
+    "SubTopic": "Colligative Properties",
+    "Difficulty": "Advanced",
+    "Explanation": "It is calculated as the change in pressure divided by the pure solvent pressure, so units cancel out."
+  }
+]

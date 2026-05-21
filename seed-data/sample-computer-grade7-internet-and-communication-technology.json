@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The Internet is a global network of interconnected computers",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Single computer only",
+      "D) Software only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Internet: worldwide computer network communicating via TCP/IP protocols."
+  },
+  {
+    "QuestionText": "WWW is a system of interlinked web pages on the internet",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) WWW is the internet itself",
+      "D) WWW is a browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "WWW",
+    "Difficulty": "Foundation",
+    "Explanation": "WWW (World Wide Web): hypertext documents on the internet, created by Tim Berners-Lee 1989."
+  },
+  {
+    "QuestionText": "SMTP is used for sending emails",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) SMTP receives emails",
+      "D) HTTP sends emails"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Email protocols",
+    "Difficulty": "Advanced",
+    "Explanation": "SMTP: Simple Mail Transfer Protocol handles outgoing mail. POP3/IMAP handle receiving."
+  },
+  {
+    "QuestionText": "FTP is used to transfer files over a network",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) FTP sends emails",
+      "D) FTP browses the web"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "FTP (File Transfer Protocol) transfers files between client and server."
+  },
+  {
+    "QuestionText": "Web browsers use HTTP/HTTPS to retrieve web pages",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Browsers use FTP",
+      "D) Browsers use SMTP"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTP/HTTPS: the protocols browsers use to request and receive web pages."
+  },
+  {
+    "QuestionText": "An ISP provides internet access to users",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) ISP builds hardware",
+      "D) ISP writes software"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet infrastructure",
+    "Difficulty": "Foundation",
+    "Explanation": "ISP (Internet Service Provider): Jio, Airtel, BSNL provide internet connectivity."
+  },
+  {
+    "QuestionText": "Broadband provides high-speed always-on internet connection",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Broadband is slower than dial-up",
+      "D) Broadband is wireless only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet connections",
+    "Difficulty": "Foundation",
+    "Explanation": "Broadband: high-speed internet (DSL, cable, fibre) continuously connected."
+  },
+  {
+    "QuestionText": "Wi-Fi allows wireless internet connection via a router",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Wi-Fi requires cables",
+      "D) Wi-Fi is a type of browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Wireless networking",
+    "Difficulty": "Foundation",
+    "Explanation": "Wi-Fi (IEEE 802.11): connects devices to a router wirelessly."
+  },
+  {
+    "QuestionText": "A router directs data packets between networks",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Router stores data",
+      "D) Router is a display device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Networking hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Router: forwards packets and connects local network to the internet."
+  },
+  {
+    "QuestionText": "Bandwidth is the maximum data transfer rate of a network",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Bandwidth is storage",
+      "D) Bandwidth is file size"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Network performance",
+    "Difficulty": "Foundation",
+    "Explanation": "Bandwidth (Mbps/Gbps): the capacity/throughput of a network connection."
+  },
+  {
+    "QuestionText": "Latency is the delay for data to travel source to destination",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Latency is download speed",
+      "D) Latency is bandwidth"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Network performance",
+    "Difficulty": "Advanced",
+    "Explanation": "Low latency critical for gaming, video calls, and real-time applications."
+  },
+  {
+    "QuestionText": "Phishing tricks users into revealing passwords by impersonating trusted entities",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Phishing is a network speed",
+      "D) Phishing is a browser type"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Phishing: fake emails/websites mimicking banks or services to steal credentials."
+  },
+  {
+    "QuestionText": "A strong password uses mixed case letters, numbers, and symbols",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Strong password uses only numbers",
+      "D) Strong password is your name"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Strong passwords: 8+ chars, uppercase, lowercase, digits, symbols, unique per account."
+  },
+  {
+    "QuestionText": "A firewall filters network traffic based on security rules",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Firewall speeds up internet",
+      "D) Firewall stores data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Firewall: monitors and controls network traffic to block unauthorised access."
+  },
+  {
+    "QuestionText": "Antivirus software detects and removes malicious software",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Antivirus speeds up CPU",
+      "D) Antivirus designs websites"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Antivirus: scans for malware signatures, quarantines and removes threats."
+  },
+  {
+    "QuestionText": "A computer virus attaches to programs and self-replicates",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Virus is hardware damage",
+      "D) Virus only shows ads"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Malware",
+    "Difficulty": "Foundation",
+    "Explanation": "Virus: attaches to legitimate files and spreads when those files are opened."
+  },
+  {
+    "QuestionText": "A Trojan horse is malware disguised as a legitimate program",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Trojan is antivirus",
+      "D) Trojan is a firewall"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Malware",
+    "Difficulty": "Advanced",
+    "Explanation": "Trojans masquerade as useful software but open backdoors once installed."
+  },
+  {
+    "QuestionText": "Ransomware encrypts victim files and demands payment",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Ransomware displays ads",
+      "D) Ransomware speeds up PC"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Malware",
+    "Difficulty": "Advanced",
+    "Explanation": "Ransomware encrypts data; attackers demand ransom for decryption key."
+  },
+  {
+    "QuestionText": "Cloud computing stores data on remote internet servers",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cloud uses local hard drives",
+      "D) Cloud uses USB drives"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cloud computing",
+    "Difficulty": "Foundation",
+    "Explanation": "Cloud: storage and computing resources delivered over the internet from data centres."
+  },
+  {
+    "QuestionText": "Google Drive and Dropbox are examples of cloud storage",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) They are antivirus tools",
+      "D) They are browsers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cloud services",
+    "Difficulty": "Foundation",
+    "Explanation": "Cloud storage lets you access files from any internet-connected device."
+  },
+  {
+    "QuestionText": "VoIP enables voice calls over the internet (e.g. WhatsApp, Zoom)",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) VoIP only sends emails",
+      "D) VoIP only transfers files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet communication",
+    "Difficulty": "Foundation",
+    "Explanation": "VoIP: converts voice to digital packets for transmission over IP networks."
+  },
+  {
+    "QuestionText": "Social networking sites let users share content and connect online",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Social networks only email",
+      "D) Social networks store files only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Social media",
+    "Difficulty": "Foundation",
+    "Explanation": "Social networks (Facebook, Instagram): platforms for communication and content sharing."
+  },
+  {
+    "QuestionText": "Cyberbullying is using technology to harass or harm others",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cyberbullying is a protocol",
+      "D) Cyberbullying is a browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Online safety",
+    "Difficulty": "Foundation",
+    "Explanation": "Cyberbullying: online harassment via social media or messaging platforms."
+  },
+  {
+    "QuestionText": "Digital literacy is the ability to use technology effectively and responsibly",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Digital literacy is only typing",
+      "D) Digital literacy is only coding"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Digital literacy",
+    "Difficulty": "Foundation",
+    "Explanation": "Digital literacy: skills to use devices, software, and internet safely and responsibly."
+  },
+  {
+    "QuestionText": "LAN covers a small area; WAN covers a large geographical area",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) LAN is larger than WAN",
+      "D) WAN is always wireless"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Network types",
+    "Difficulty": "Foundation",
+    "Explanation": "LAN: building/campus. WAN: cities/countries. Internet = largest WAN."
+  },
+  {
+    "QuestionText": "A modem converts digital signals to analogue for phone line transmission",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Modem stores data",
+      "D) Modem is a browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Networking hardware",
+    "Difficulty": "Foundation",
+    "Explanation": "Modem: modulates digital to analogue (and vice versa) for telephone line internet access."
+  },
+  {
+    "QuestionText": "Encryption converts data into coded form to prevent unauthorised access",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Encryption deletes data",
+      "D) Encryption speeds data up"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Data security",
+    "Difficulty": "Foundation",
+    "Explanation": "Encryption: algorithms and keys scramble data; only authorised parties can decrypt."
+  },
+  {
+    "QuestionText": "Two-factor authentication requires two verification steps for login",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) 2FA removes passwords",
+      "D) 2FA uses only biometrics"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "2FA: password + OTP/app/biometric. Greatly reduces account compromise risk."
+  },
+  {
+    "QuestionText": "A VPN creates an encrypted connection over a public network",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) VPN speeds up internet",
+      "D) VPN only blocks websites"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "VPN",
+    "Difficulty": "Advanced",
+    "Explanation": "VPN: encrypted tunnel masks IP and secures data on public Wi-Fi."
+  },
+  {
+    "QuestionText": "Spyware secretly collects user information without knowledge",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Spyware shows ads only",
+      "D) Spyware encrypts files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Malware",
+    "Difficulty": "Advanced",
+    "Explanation": "Spyware: covertly monitors keystrokes, passwords, browsing habits."
+  },
+  {
+    "QuestionText": "Adware automatically displays unwanted advertisements",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Adware encrypts files",
+      "D) Adware steals passwords"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Malware",
+    "Difficulty": "Foundation",
+    "Explanation": "Adware: shows ads, slows computers; often bundled with free software."
+  },
+  {
+    "QuestionText": "CAPTCHA verifies a user is human not a bot",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) CAPTCHA encrypts data",
+      "D) CAPTCHA is a browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Web security",
+    "Difficulty": "Foundation",
+    "Explanation": "CAPTCHA: puzzles humans can solve but bots typically cannot."
+  },
+  {
+    "QuestionText": "IoT connects everyday devices (appliances, sensors) to the internet",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) IoT is only for computers",
+      "D) IoT is a programming language"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Emerging technologies",
+    "Difficulty": "Advanced",
+    "Explanation": "IoT: smart home, wearables, industrial sensors all connected and sharing data."
+  },
+  {
+    "QuestionText": "Data is broken into packets for efficient network transmission",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Data travels as one block",
+      "D) Packets are hardware"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Data transmission",
+    "Difficulty": "Advanced",
+    "Explanation": "Packet switching: data split into packets, routed independently, reassembled at destination."
+  },
+  {
+    "QuestionText": "TCP/IP is the fundamental communication protocol of the internet",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) HTTP is the only protocol",
+      "D) TCP/IP is for email only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet protocols",
+    "Difficulty": "Advanced",
+    "Explanation": "TCP/IP: core protocol suite defining how data is addressed and transmitted on the internet."
+  },
+  {
+    "QuestionText": "The @ symbol in email separates username from domain name",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) @ separates subject from body",
+      "D) @ is optional"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Email",
+    "Difficulty": "Foundation",
+    "Explanation": "Email format: username@domain.com. Defined in RFC 5321."
+  },
+  {
+    "QuestionText": "Streaming delivers data progressively so users can watch while downloading",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Streaming requires full download",
+      "D) Streaming needs DVD drive"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet communication",
+    "Difficulty": "Foundation",
+    "Explanation": "Streaming: continuous data delivery; playback begins before entire file is downloaded."
+  },
+  {
+    "QuestionText": "IPv6 was created to solve exhaustion of IPv4 addresses",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) IPv6 is slower",
+      "D) IPv6 is only for mobile"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Networking",
+    "Difficulty": "Olympiad",
+    "Explanation": "IPv4: ~4.3 billion addresses. IPv6: 128-bit, ~3.4\u00d710^38 addresses."
+  },
+  {
+    "QuestionText": "Net neutrality requires ISPs to treat all internet traffic equally",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Net neutrality allows fast lanes",
+      "D) Net neutrality blocks the internet"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet policy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Net neutrality: no discrimination of internet traffic by type, service, or user."
+  },
+  {
+    "QuestionText": "Blockchain is a distributed immutable ledger of transactions",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Blockchain is a search engine",
+      "D) Blockchain is malware"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Emerging technologies",
+    "Difficulty": "Olympiad",
+    "Explanation": "Blockchain: cryptographically linked blocks, maintained by distributed nodes."
+  },
+  {
+    "QuestionText": "A digital signature verifies sender authenticity and document integrity",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Digital signature is a scan",
+      "D) Digital signature encrypts all files"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Data security",
+    "Difficulty": "Olympiad",
+    "Explanation": "Digital signature uses public-key cryptography to verify identity and data integrity."
+  },
+  {
+    "QuestionText": "A proxy server acts as intermediary between client and internet",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Proxy is a modem",
+      "D) Proxy is a storage device"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Networking",
+    "Difficulty": "Olympiad",
+    "Explanation": "Proxy: forwards client requests, provides anonymity, and can filter content."
+  },
+  {
+    "QuestionText": "Bandwidth throttling is ISP intentionally slowing specific connections",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Throttling increases speed",
+      "D) Throttling blocks all traffic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Internet policy",
+    "Difficulty": "Olympiad",
+    "Explanation": "Throttling: slowing streaming or gaming traffic \u2014 opposed by net neutrality advocates."
+  },
+  {
+    "QuestionText": "A subnet mask separates network and host portions of an IP address",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Subnet mask is a password",
+      "D) Subnet mask is a browser"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Networking",
+    "Difficulty": "Olympiad",
+    "Explanation": "Subnet mask (e.g. 255.255.255.0): AND with IP identifies the network address."
+  },
+  {
+    "QuestionText": "Private IP 192.168.x.x is used within local networks only",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) 192.168.x.x is a public IP",
+      "D) 192.168.x.x is for email"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Networking",
+    "Difficulty": "Olympiad",
+    "Explanation": "RFC 1918 private ranges not routable on public internet: used in home/office LANs."
+  },
+  {
+    "QuestionText": "A cookie is a small text file a website stores in the browser",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cookie is malware",
+      "D) Cookie is a network protocol"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Web technologies",
+    "Difficulty": "Advanced",
+    "Explanation": "Cookies store session data, preferences, login state in the browser."
+  },
+  {
+    "QuestionText": "HTTPS uses SSL/TLS to encrypt browser-server communication",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) HTTPS is identical to HTTP",
+      "D) HTTPS is only for mobile"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Web security",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTPS: HTTP + SSL/TLS encryption. Padlock in browser = secure connection."
+  },
+  {
+    "QuestionText": "An IP address uniquely identifies a device on a network",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) IP identifies files",
+      "D) IP identifies browsers only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Networking basics",
+    "Difficulty": "Foundation",
+    "Explanation": "IPv4 or IPv6 address uniquely identifies each network device."
+  },
+  {
+    "QuestionText": "Cloud services allow data access from any device with internet",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Cloud data is on one device",
+      "D) Cloud requires a DVD drive"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "Cloud computing",
+    "Difficulty": "Foundation",
+    "Explanation": "Cloud: files and apps stored remotely, accessible from any internet-connected device."
+  },
+  {
+    "QuestionText": "The Domain Name System (DNS) translates domain names into IP addresses",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) DNS creates web pages",
+      "D) DNS stores emails"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - Internet and Communication Technology",
+    "SubTopic": "DNS",
+    "Difficulty": "Olympiad",
+    "Explanation": "DNS: the internet's directory converting domain names (google.com) to IP addresses (142.250.x.x)."
+  }
+]

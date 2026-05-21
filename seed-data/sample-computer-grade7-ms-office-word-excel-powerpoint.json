@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The default file extension for MS Word 2016/2019 documents is",
+    "Options": [
+      "A) .docx",
+      "B) .doc",
+      "C) .txt",
+      "D) .pdf"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "MS Word 2007 and later saves files in .docx format (XML-based). Older .doc format is for Word 97-2003."
+  },
+  {
+    "QuestionText": "The keyboard shortcut to save a document is",
+    "Options": [
+      "A) Ctrl+S",
+      "B) Ctrl+P",
+      "C) Ctrl+Z",
+      "D) Ctrl+C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+S saves the current document. Ctrl+P = Print, Ctrl+Z = Undo, Ctrl+C = Copy."
+  },
+  {
+    "QuestionText": "The keyboard shortcut to undo the last action is",
+    "Options": [
+      "A) Ctrl+Z",
+      "B) Ctrl+Y",
+      "C) Ctrl+S",
+      "D) Ctrl+X"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Keyboard shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+Z undoes the last action. Ctrl+Y redoes."
+  },
+  {
+    "QuestionText": "In MS Word, the 'Find and Replace' dialogue is opened with",
+    "Options": [
+      "A) Ctrl+H",
+      "B) Ctrl+F",
+      "C) Ctrl+G",
+      "D) Ctrl+R"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+H opens Find and Replace. Ctrl+F opens just Find."
+  },
+  {
+    "QuestionText": "The tool used to check spelling and grammar in MS Word is on the",
+    "Options": [
+      "A) Review tab",
+      "B) Home tab",
+      "C) Insert tab",
+      "D) View tab"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word tabs",
+    "Difficulty": "Foundation",
+    "Explanation": "Spelling & Grammar check is in the Review tab. Shortcut: F7."
+  },
+  {
+    "QuestionText": "Mail Merge in MS Word is used to",
+    "Options": [
+      "A) Create personalised letters/emails for many recipients at once",
+      "B) Merge two documents",
+      "C) Send emails directly",
+      "D) Print multiple copies"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word - Mail Merge",
+    "Difficulty": "Advanced",
+    "Explanation": "Mail Merge combines a template document with a data source (Excel/Access) to create personalised documents for each record."
+  },
+  {
+    "QuestionText": "Styles in MS Word allow you to",
+    "Options": [
+      "A) Apply consistent formatting to text with one click",
+      "B) Change the font only",
+      "C) Add images",
+      "D) Create tables"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word - Styles",
+    "Difficulty": "Advanced",
+    "Explanation": "Styles (Heading 1, Normal, etc.) apply a set of formatting attributes (font, size, colour, spacing) in one click for consistency."
+  },
+  {
+    "QuestionText": "In MS Excel, cells are identified by",
+    "Options": [
+      "A) Column letter and row number (e.g. B3)",
+      "B) Row number and column letter (e.g. 3B)",
+      "C) Only row number",
+      "D) Only column letter"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Excel basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Cell reference: Column letter + Row number. B3 = column B, row 3."
+  },
+  {
+    "QuestionText": "The formula to add values in cells A1 to A5 in Excel is",
+    "Options": [
+      "A) =SUM(A1:A5)",
+      "B) =ADD(A1:A5)",
+      "C) =TOTAL(A1:A5)",
+      "D) SUM(A1,A5)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel formulas",
+    "Difficulty": "Foundation",
+    "Explanation": "SUM function: =SUM(A1:A5) adds all values from A1 to A5. The colon (:) denotes a range."
+  },
+  {
+    "QuestionText": "In Excel, all formulas begin with",
+    "Options": [
+      "A) = (equal sign)",
+      "B) + (plus sign)",
+      "C) # (hash)",
+      "D) @ (at sign)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel formulas",
+    "Difficulty": "Foundation",
+    "Explanation": "Excel formulas must start with = to tell Excel it is a formula, not text."
+  },
+  {
+    "QuestionText": "The Excel function to find the average of cells B1:B10 is",
+    "Options": [
+      "A) =AVERAGE(B1:B10)",
+      "B) =AVG(B1:B10)",
+      "C) =MEAN(B1:B10)",
+      "D) =SUM(B1:B10)/10"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel functions",
+    "Difficulty": "Foundation",
+    "Explanation": "AVERAGE: =AVERAGE(range) calculates the arithmetic mean of the values in the range."
+  },
+  {
+    "QuestionText": "The Excel function that returns the largest value in a range is",
+    "Options": [
+      "A) =MAX(range)",
+      "B) =LARGE(range)",
+      "C) =TOP(range)",
+      "D) =HIGH(range)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel functions",
+    "Difficulty": "Foundation",
+    "Explanation": "MAX returns the largest (maximum) value in a given range of cells."
+  },
+  {
+    "QuestionText": "The Excel function that counts only non-empty cells is",
+    "Options": [
+      "A) =COUNTA(range)",
+      "B) =COUNT(range)",
+      "C) =COUNTALL(range)",
+      "D) =TALLY(range)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel functions",
+    "Difficulty": "Advanced",
+    "Explanation": "COUNTA counts non-empty cells (any data type). COUNT counts only cells containing numbers."
+  },
+  {
+    "QuestionText": "In Excel, the $ sign in a cell reference (e.g. $B$3) makes it",
+    "Options": [
+      "A) Absolute (does not change when copied)",
+      "B) Relative",
+      "C) Currency only",
+      "D) A function"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - cell references",
+    "Difficulty": "Advanced",
+    "Explanation": "Absolute reference ($B$3): stays fixed when formula is copied. Relative (B3): adjusts when copied. Mixed: $B3 or B$3."
+  },
+  {
+    "QuestionText": "A pie chart in Excel is best used to show",
+    "Options": [
+      "A) How parts contribute to a whole (percentages)",
+      "B) Trends over time",
+      "C) Comparison between many items",
+      "D) Distribution of data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Pie chart: shows proportional parts of a whole. Best for showing percentages of a total with few categories."
+  },
+  {
+    "QuestionText": "A line chart is best used to show",
+    "Options": [
+      "A) Trends over time",
+      "B) Parts of a whole",
+      "C) Comparisons between many categories",
+      "D) Geographical data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Line chart: ideal for showing data that changes over time (sales per month, temperature over days)."
+  },
+  {
+    "QuestionText": "A bar/column chart is best used for",
+    "Options": [
+      "A) Comparing values across different categories",
+      "B) Trends over time",
+      "C) Parts of a whole",
+      "D) Continuous data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel charts",
+    "Difficulty": "Foundation",
+    "Explanation": "Bar/column charts compare discrete categories side by side (sales by region, scores by subject)."
+  },
+  {
+    "QuestionText": "VLOOKUP in Excel is used to",
+    "Options": [
+      "A) Look up a value in the first column of a table and return a value from another column",
+      "B) Calculate averages",
+      "C) Sort data",
+      "D) Create charts"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - VLOOKUP",
+    "Difficulty": "Advanced",
+    "Explanation": "VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]): searches vertically in a table."
+  },
+  {
+    "QuestionText": "In Excel, the IF function syntax is",
+    "Options": [
+      "A) =IF(condition, value_if_true, value_if_false)",
+      "B) =IF(true, false, condition)",
+      "C) =IF(value, condition)",
+      "D) =IF(condition; true; false)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - IF function",
+    "Difficulty": "Advanced",
+    "Explanation": "IF: =IF(A1>10, \"Pass\", \"Fail\") returns 'Pass' if A1>10, otherwise 'Fail'."
+  },
+  {
+    "QuestionText": "In MS PowerPoint, a 'slide transition' is",
+    "Options": [
+      "A) An animation effect when moving from one slide to the next",
+      "B) Animation within a slide",
+      "C) A theme",
+      "D) A layout"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Slide transition: the visual effect that occurs when advancing from one slide to the next (fade, wipe, fly-in)."
+  },
+  {
+    "QuestionText": "Animation in PowerPoint applies to",
+    "Options": [
+      "A) Objects within a single slide (text, images)",
+      "B) Moving between slides",
+      "C) The background",
+      "D) The entire presentation"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "PowerPoint",
+    "Difficulty": "Foundation",
+    "Explanation": "Animations (entrance, emphasis, exit, motion paths) apply to individual elements ON a slide (not between slides)."
+  },
+  {
+    "QuestionText": "The Slide Master in PowerPoint is used to",
+    "Options": [
+      "A) Set consistent formatting and layout for all slides",
+      "B) Add text to one slide",
+      "C) Insert an image",
+      "D) Record a presentation"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "PowerPoint - Slide Master",
+    "Difficulty": "Advanced",
+    "Explanation": "Slide Master: controls the overall theme, fonts, colours, backgrounds, and layout applied to all slides from one place."
+  },
+  {
+    "QuestionText": "In PowerPoint, 'Presenter View' shows",
+    "Options": [
+      "A) Speaker notes and upcoming slides visible only to the presenter",
+      "B) The audience view",
+      "C) Only notes",
+      "D) Only the current slide"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "PowerPoint",
+    "Difficulty": "Advanced",
+    "Explanation": "Presenter View: the presenter sees current slide + notes + next slide on their screen; audience sees only the full-screen slide."
+  },
+  {
+    "QuestionText": "In MS Word, a 'Table of Contents' is automatically generated using",
+    "Options": [
+      "A) Heading styles applied to sections",
+      "B) Manual typing",
+      "C) Bullet points",
+      "D) Page numbers only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Advanced",
+    "Explanation": "Word generates TOC from text formatted with Heading styles (Heading 1, 2, 3). Insert > Table of Contents."
+  },
+  {
+    "QuestionText": "The Excel function COUNTIF counts cells",
+    "Options": [
+      "A) That meet a specified condition",
+      "B) That are empty",
+      "C) That are numbers",
+      "D) That have text only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel functions",
+    "Difficulty": "Advanced",
+    "Explanation": "COUNTIF(range, criteria): counts cells in a range that satisfy a given condition. E.g. =COUNTIF(A1:A10, \">50\")."
+  },
+  {
+    "QuestionText": "The shortcut Ctrl+B in Word/Excel makes text",
+    "Options": [
+      "A) Bold",
+      "B) Italic",
+      "C) Underlined",
+      "D) Deleted"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Office shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+B = Bold. Ctrl+I = Italic. Ctrl+U = Underline."
+  },
+  {
+    "QuestionText": "In Excel, to freeze the top row so it stays visible when scrolling, use",
+    "Options": [
+      "A) View > Freeze Panes > Freeze Top Row",
+      "B) Home > Freeze",
+      "C) Insert > Freeze",
+      "D) Format > Lock Row"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - Freeze Panes",
+    "Difficulty": "Advanced",
+    "Explanation": "Freeze Panes in the View tab keeps selected rows/columns visible while scrolling through large datasets."
+  },
+  {
+    "QuestionText": "The Excel function CONCATENATE (or &) is used to",
+    "Options": [
+      "A) Join two or more text strings into one",
+      "B) Add numbers",
+      "C) Find text",
+      "D) Replace text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel text functions",
+    "Difficulty": "Advanced",
+    "Explanation": "CONCATENATE(A1,\" \",B1) or A1&\" \"&B1 joins text strings. In newer Excel: CONCAT function."
+  },
+  {
+    "QuestionText": "In MS Word, 'Track Changes' is used to",
+    "Options": [
+      "A) Record edits so reviewers can see, accept, or reject them",
+      "B) Save the document",
+      "C) Print the document",
+      "D) Format text"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word - Track Changes",
+    "Difficulty": "Advanced",
+    "Explanation": "Track Changes: records every addition, deletion, and format change; useful for collaborative document editing."
+  },
+  {
+    "QuestionText": "A 'Header' in MS Word is text that",
+    "Options": [
+      "A) Appears at the top of every page (e.g. document title, page number)",
+      "B) Appears only on the first page",
+      "C) Is the largest text on a page",
+      "D) Is the document's title"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Headers appear at the top of every page; footers at the bottom. Useful for page numbers, dates, and titles."
+  },
+  {
+    "QuestionText": "Conditional Formatting in Excel allows you to",
+    "Options": [
+      "A) Automatically format cells based on their values",
+      "B) Format only headers",
+      "C) Change chart colours",
+      "D) Print in colour"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - Conditional Formatting",
+    "Difficulty": "Advanced",
+    "Explanation": "Conditional Formatting: applies formatting (colour, icons, data bars) to cells automatically based on rules/conditions."
+  },
+  {
+    "QuestionText": "The keyboard shortcut Ctrl+A in Office applications",
+    "Options": [
+      "A) Selects all content",
+      "B) Saves the file",
+      "C) Opens a new file",
+      "D) Closes the application"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Office shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl+A selects all: all text in Word, all cells in Excel, all objects in PowerPoint."
+  },
+  {
+    "QuestionText": "Which Excel function rounds a number to a specified number of decimal places?",
+    "Options": [
+      "A) =ROUND(number, num_digits)",
+      "B) =ROUNDUP",
+      "C) =CEILING",
+      "D) =FLOOR"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel math functions",
+    "Difficulty": "Advanced",
+    "Explanation": "ROUND(3.14159, 2) = 3.14. ROUNDUP always rounds up; ROUNDDOWN always rounds down."
+  },
+  {
+    "QuestionText": "The 'Normal view' in PowerPoint shows",
+    "Options": [
+      "A) The editing view with slide panel, main slide, and notes pane",
+      "B) Only the slide",
+      "C) Only speaker notes",
+      "D) A thumbnail of all slides"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "PowerPoint views",
+    "Difficulty": "Foundation",
+    "Explanation": "Normal view: main editing view in PowerPoint showing the slide, thumbnails panel, and notes pane."
+  },
+  {
+    "QuestionText": "A 'Macro' in Excel/Word is",
+    "Options": [
+      "A) A recorded sequence of actions that can be replayed automatically",
+      "B) A chart type",
+      "C) A formula",
+      "D) A type of cell reference"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Macros",
+    "Difficulty": "Olympiad",
+    "Explanation": "Macros automate repetitive tasks by recording a sequence of commands and replaying them with a single keystroke or button."
+  },
+  {
+    "QuestionText": "In Excel, a PivotTable is used to",
+    "Options": [
+      "A) Summarise, analyse, and explore large datasets interactively",
+      "B) Create charts",
+      "C) Sort data only",
+      "D) Format cells"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel PivotTable",
+    "Difficulty": "Olympiad",
+    "Explanation": "PivotTable: powerful tool that lets you drag-and-drop fields to group, filter, and aggregate large datasets without formulas."
+  },
+  {
+    "QuestionText": "The Excel function SUMIF adds values",
+    "Options": [
+      "A) That meet a specified condition",
+      "B) That are all values in a range",
+      "C) That are even numbers only",
+      "D) That are below zero"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - SUMIF",
+    "Difficulty": "Advanced",
+    "Explanation": "SUMIF(range, criteria, sum_range): sums cells that meet the condition. E.g. total sales for a specific region."
+  },
+  {
+    "QuestionText": "In PowerPoint, the '5-6-7 rule' for slide design suggests",
+    "Options": [
+      "A) 5-6 lines per slide, 6-7 words per line, to avoid information overload",
+      "B) 5 slides per presentation",
+      "C) 6 font sizes",
+      "D) 7 colours per slide"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Presentation design",
+    "Difficulty": "Advanced",
+    "Explanation": "The 5-6-7 rule (and similar '6\u00d76 rule'): limit bullet points and words per slide to keep slides readable and not text-heavy."
+  },
+  {
+    "QuestionText": "In Excel, entering a date as text (e.g. 'Jan 2024') vs a real date value matters because",
+    "Options": [
+      "A) Real date values allow date calculations; text entries do not",
+      "B) Text dates print better",
+      "C) Real dates take more space",
+      "D) There is no difference"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel dates",
+    "Difficulty": "Advanced",
+    "Explanation": "Excel stores dates as serial numbers; only real date values support date arithmetic (DATEDIF, NETWORKDAYS, etc.)."
+  },
+  {
+    "QuestionText": "The function key F5 in PowerPoint",
+    "Options": [
+      "A) Starts the slide show from the beginning",
+      "B) Saves the file",
+      "C) Inserts a new slide",
+      "D) Opens help"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "PowerPoint shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "F5 starts the slide show from the first slide. Shift+F5 starts from the current slide."
+  },
+  {
+    "QuestionText": "In Word, a 'section break' allows",
+    "Options": [
+      "A) Different formatting (margins, orientation, columns) in different parts of the document",
+      "B) Only page numbering",
+      "C) Only font changes",
+      "D) Adding images"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word - Section Breaks",
+    "Difficulty": "Olympiad",
+    "Explanation": "Section breaks divide a document into independently formatted sections, each with its own page layout settings."
+  },
+  {
+    "QuestionText": "In Excel, the '#REF!' error means",
+    "Options": [
+      "A) A cell reference is invalid (referenced cell was deleted)",
+      "B) Division by zero",
+      "C) Value is text not number",
+      "D) Formula is too long"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel errors",
+    "Difficulty": "Advanced",
+    "Explanation": "#REF! error: a formula references a cell that no longer exists (e.g. a row was deleted that a formula pointed to)."
+  },
+  {
+    "QuestionText": "In Excel, the '#DIV/0!' error means",
+    "Options": [
+      "A) Division by zero occurred in the formula",
+      "B) Invalid reference",
+      "C) Text in formula",
+      "D) Value out of range"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel errors",
+    "Difficulty": "Foundation",
+    "Explanation": "#DIV/0!: a formula attempts to divide by zero or by an empty cell."
+  },
+  {
+    "QuestionText": "In Word, 'AutoCorrect' automatically",
+    "Options": [
+      "A) Corrects common spelling mistakes and typos as you type",
+      "B) Formats paragraphs",
+      "C) Adds images",
+      "D) Inserts page numbers"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word features",
+    "Difficulty": "Foundation",
+    "Explanation": "AutoCorrect: automatically fixes common typos and misspellings as you type (e.g. 'teh' \u2192 'the')."
+  },
+  {
+    "QuestionText": "The Word Count feature in MS Word is found in the",
+    "Options": [
+      "A) Review tab (or in the status bar at the bottom)",
+      "B) Home tab",
+      "C) Insert tab",
+      "D) View tab"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Word",
+    "Difficulty": "Foundation",
+    "Explanation": "Word Count (Review > Word Count or the status bar at the bottom) shows words, characters, paragraphs, and pages."
+  },
+  {
+    "QuestionText": "In Excel, data validation is used to",
+    "Options": [
+      "A) Restrict the type or range of data entered in a cell",
+      "B) Format cells",
+      "C) Create charts",
+      "D) Sort data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - Data Validation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Data Validation: controls what data can be entered in a cell (e.g. only integers between 1-100, or a dropdown list)."
+  },
+  {
+    "QuestionText": "The 'SmartArt' feature in Office is used to",
+    "Options": [
+      "A) Create visually appealing diagrams (processes, hierarchies, cycles)",
+      "B) Write code",
+      "C) Format text only",
+      "D) Insert equations"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "MS Office features",
+    "Difficulty": "Advanced",
+    "Explanation": "SmartArt: Insert > SmartArt allows creation of professional diagrams \u2014 process flows, org charts, Venn diagrams, etc."
+  },
+  {
+    "QuestionText": "A 'theme' in PowerPoint applies",
+    "Options": [
+      "A) Consistent colours, fonts, and effects to the entire presentation",
+      "B) Only background colour",
+      "C) Only font changes",
+      "D) One slide only"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "PowerPoint themes",
+    "Difficulty": "Foundation",
+    "Explanation": "Themes: pre-designed sets of colours, fonts, and graphic effects that give presentations a professional, consistent look."
+  },
+  {
+    "QuestionText": "To insert a hyperlink in Word or PowerPoint, use the shortcut",
+    "Options": [
+      "A) Ctrl+K",
+      "B) Ctrl+H",
+      "C) Ctrl+L",
+      "D) Ctrl+M"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Office shortcuts",
+    "Difficulty": "Advanced",
+    "Explanation": "Ctrl+K opens the Insert Hyperlink dialog in Word, Excel, and PowerPoint."
+  },
+  {
+    "QuestionText": "Iterating through data with Excel's 'fill handle' means",
+    "Options": [
+      "A) Dragging the small square at the bottom-right of a cell to auto-fill a series",
+      "B) Deleting data",
+      "C) Formatting cells",
+      "D) Sorting data"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - MS Office Word Excel PowerPoint",
+    "SubTopic": "Excel - Fill Handle",
+    "Difficulty": "Foundation",
+    "Explanation": "Fill handle: drag the small square at cell's bottom-right to copy/extend patterns (dates, numbers, formulas) to adjacent cells."
+  }
+]

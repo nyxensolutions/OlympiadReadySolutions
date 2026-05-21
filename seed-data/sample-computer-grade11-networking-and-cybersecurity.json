@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The OSI model has how many layers?",
+    "Options": [
+      "A) 4",
+      "B) 5",
+      "C) 7",
+      "D) 8"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "OSI Model",
+    "Difficulty": "Foundation",
+    "Explanation": "OSI (Open Systems Interconnection) model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application. Mnemonic: Please Do Not Throw Sausage Pizza Away."
+  },
+  {
+    "QuestionText": "The IP address is a __ layer concept in the OSI model.",
+    "Options": [
+      "A) Data Link (Layer 2)",
+      "B) Network (Layer 3)",
+      "C) Transport (Layer 4)",
+      "D) Application (Layer 7)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "OSI Model",
+    "Difficulty": "Foundation",
+    "Explanation": "IP (Internet Protocol) operates at Network Layer (Layer 3). MAC addresses = Layer 2. TCP/UDP = Layer 4. HTTP, FTP = Layer 7."
+  },
+  {
+    "QuestionText": "TCP stands for:",
+    "Options": [
+      "A) Transfer Control Protocol",
+      "B) Transmission Control Protocol",
+      "C) Total Communication Protocol",
+      "D) Terminal Connection Protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "TCP = Transmission Control Protocol. Connection-oriented, reliable, ordered delivery. Uses three-way handshake (SYN, SYN-ACK, ACK). Used for HTTP, email, file transfer."
+  },
+  {
+    "QuestionText": "UDP differs from TCP in that it is:",
+    "Options": [
+      "A) More reliable",
+      "B) Connection-oriented",
+      "C) Connectionless and faster but unreliable",
+      "D) Only used for secure connections"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "UDP = User Datagram Protocol. Connectionless, no guaranteed delivery, no ordering. Faster than TCP. Used for streaming, gaming, DNS, VoIP \u2014 where speed matters more than reliability."
+  },
+  {
+    "QuestionText": "What is an IP address?",
+    "Options": [
+      "A) A hardware address of a network card",
+      "B) A unique numerical label identifying a device on a network",
+      "C) A website URL",
+      "D) A username for internet access"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "IP Addressing",
+    "Difficulty": "Foundation",
+    "Explanation": "IP address: numerical label (IPv4: 32-bit, e.g., 192.168.1.1; IPv6: 128-bit) uniquely identifying a device on a TCP/IP network. Assigned by DHCP or configured manually."
+  },
+  {
+    "QuestionText": "An IPv4 address consists of how many bits?",
+    "Options": [
+      "A) 16",
+      "B) 32",
+      "C) 64",
+      "D) 128"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "IP Addressing",
+    "Difficulty": "Foundation",
+    "Explanation": "IPv4: 32-bit address written as 4 octets (e.g., 192.168.0.1). 2\u00b3\u00b2 \u2248 4.3 billion addresses. IPv6: 128-bit, written in hex. IPv4 exhausted \u2192 IPv6 transition."
+  },
+  {
+    "QuestionText": "DNS stands for:",
+    "Options": [
+      "A) Dynamic Network Service",
+      "B) Domain Name System",
+      "C) Data Network Security",
+      "D) Digital Naming Standard"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "DNS = Domain Name System. Translates domain names (google.com) to IP addresses (172.217.x.x). Like a phone book for the internet. DNS uses port 53, UDP primarily."
+  },
+  {
+    "QuestionText": "HTTP uses port:",
+    "Options": [
+      "A) 21",
+      "B) 22",
+      "C) 80",
+      "D) 443"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTP = port 80. HTTPS = port 443 (secure). FTP = 21. SSH = 22. SMTP = 25. Common ports tested in networking: 21(FTP), 22(SSH), 23(Telnet), 25(SMTP), 80(HTTP), 443(HTTPS)."
+  },
+  {
+    "QuestionText": "HTTPS is HTTP secured with:",
+    "Options": [
+      "A) A firewall",
+      "B) TLS/SSL encryption",
+      "C) Two-factor authentication",
+      "D) VPN"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTPS = HTTP + TLS (Transport Layer Security, formerly SSL). Encrypts data in transit. Lock icon in browser. Port 443. Prevents eavesdropping and man-in-the-middle attacks."
+  },
+  {
+    "QuestionText": "A router's primary function is to:",
+    "Options": [
+      "A) Connect devices via USB",
+      "B) Forward data packets between networks (routing)",
+      "C) Provide Wi-Fi signal only",
+      "D) Convert digital to analog signals"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Network Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "Router: Layer 3 device that forwards packets between different networks using IP addresses and routing tables. Home router: connects home LAN to ISP WAN. Switch: Layer 2, connects devices within LAN."
+  },
+  {
+    "QuestionText": "A MAC address is:",
+    "Options": [
+      "A) IP address assigned by DHCP",
+      "B) Hardware identifier for a network interface (48 bits)",
+      "C) A web URL",
+      "D) A network protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Network Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "MAC (Media Access Control) address: 48-bit hardware address burned into NIC (Network Interface Card). Format: XX:XX:XX:XX:XX:XX (hex). Used at Layer 2 for communication within a LAN."
+  },
+  {
+    "QuestionText": "What is a firewall?",
+    "Options": [
+      "A) Physical wall protecting servers",
+      "B) Hardware/software that filters network traffic based on rules",
+      "C) A type of encryption",
+      "D) A router without routing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Firewall: monitors and controls incoming/outgoing network traffic based on security rules. Blocks unauthorized access. Types: packet filtering, stateful inspection, application layer, next-gen."
+  },
+  {
+    "QuestionText": "Phishing is a type of:",
+    "Options": [
+      "A) Network attack using packets",
+      "B) Social engineering attack tricking users into revealing credentials",
+      "C) Denial of service",
+      "D) SQL injection"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Phishing: fraudulent emails/messages appearing to come from trusted sources, tricking victims into clicking malicious links or entering credentials. Spear-phishing = targeted phishing."
+  },
+  {
+    "QuestionText": "A VPN (Virtual Private Network) is used to:",
+    "Options": [
+      "A) Speed up internet connection",
+      "B) Create encrypted tunnel over public internet for secure communication",
+      "C) Block specific websites",
+      "D) Assign IP addresses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "VPN: encrypts traffic and routes through a VPN server. Hides user's IP and location. Provides secure remote access to corporate networks. Used for privacy and bypassing geo-restrictions."
+  },
+  {
+    "QuestionText": "What is a DDoS attack?",
+    "Options": [
+      "A) Distributed Denial of Service \u2014 overwhelming a server with traffic",
+      "B) Data Destruction on Systems",
+      "C) Digital Domain over SSL",
+      "D) Dynamic DNS Attack"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "DDoS: Distributed Denial of Service. Many computers (often a botnet) flood a server with requests, making it unavailable to legitimate users. Prevention: rate limiting, CDN, DDoS protection services."
+  },
+  {
+    "QuestionText": "Encryption is the process of:",
+    "Options": [
+      "A) Compressing data",
+      "B) Converting readable data to unreadable ciphertext using a key",
+      "C) Deleting sensitive data",
+      "D) Backing up data"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Encryption: uses algorithms and keys to convert plaintext \u2192 ciphertext. Only authorized parties with decryption key can read it. Types: symmetric (same key) and asymmetric (public/private keys)."
+  },
+  {
+    "QuestionText": "What is the difference between symmetric and asymmetric encryption?",
+    "Options": [
+      "A) No difference",
+      "B) Symmetric uses one key for both encryption and decryption; asymmetric uses key pair (public/private)",
+      "C) Symmetric is more secure",
+      "D) Asymmetric is slower always"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "Symmetric: same key encrypts and decrypts (AES, DES). Fast. Key exchange problem. Asymmetric: public key encrypts, private key decrypts (RSA). Slower. Solves key distribution. HTTPS uses both."
+  },
+  {
+    "QuestionText": "The TCP three-way handshake involves:",
+    "Options": [
+      "A) SYN \u2192 ACK \u2192 FIN",
+      "B) SYN \u2192 SYN-ACK \u2192 ACK",
+      "C) GET \u2192 POST \u2192 PUT",
+      "D) Hello \u2192 Verify \u2192 Connect"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Advanced",
+    "Explanation": "TCP three-way handshake establishes connection: Client sends SYN \u2192 Server replies SYN-ACK \u2192 Client sends ACK. Connection established. Then data transfer begins."
+  },
+  {
+    "QuestionText": "What is subnetting?",
+    "Options": [
+      "A) Creating multiple networks within a larger network",
+      "B) Connecting two different ISPs",
+      "C) A type of firewall",
+      "D) Securing a subnet"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "IP Addressing",
+    "Difficulty": "Advanced",
+    "Explanation": "Subnetting: dividing an IP network into smaller subnetworks using subnet masks. Improves network performance and security. E.g., 192.168.1.0/24 is a subnet with 256 addresses."
+  },
+  {
+    "QuestionText": "DHCP automatically assigns:",
+    "Options": [
+      "A) Domain names",
+      "B) IP addresses, subnet masks, gateway, DNS to devices",
+      "C) MAC addresses",
+      "D) Encryption keys"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "DHCP (Dynamic Host Configuration Protocol): automatically assigns IP configuration to devices. Device sends DHCP discover \u2192 server responds with DISCOVER/OFFER/REQUEST/ACK (DORA process)."
+  },
+  {
+    "QuestionText": "What is a botnet?",
+    "Options": [
+      "A) A secure private network",
+      "B) A network of compromised computers controlled by an attacker",
+      "C) A robot network for automation",
+      "D) A blockchain network"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "Botnet: network of malware-infected computers ('bots') controlled remotely by attacker ('botmaster'). Used for DDoS attacks, spam, cryptocurrency mining, credential theft."
+  },
+  {
+    "QuestionText": "RSA is an example of:",
+    "Options": [
+      "A) Symmetric encryption",
+      "B) Hash function",
+      "C) Asymmetric (public-key) encryption",
+      "D) VPN protocol"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "RSA (Rivest-Shamir-Adleman): widely used asymmetric encryption. Security based on difficulty of factoring large prime products. Used in HTTPS, digital signatures, key exchange."
+  },
+  {
+    "QuestionText": "A hashing function's output for a given input should always be:",
+    "Options": [
+      "A) Different each time",
+      "B) The same (deterministic)",
+      "C) Reversible",
+      "D) Larger than the input"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "Hash functions are deterministic (same input \u2192 same output always). Key properties: fast, one-way (cannot reverse), avalanche effect (tiny change \u2192 completely different hash), collision resistant."
+  },
+  {
+    "QuestionText": "What is a Man-in-the-Middle (MITM) attack?",
+    "Options": [
+      "A) Attacker between two parties intercepts and possibly alters communications",
+      "B) Physical attack on network hardware",
+      "C) Denial of service attack",
+      "D) Password guessing attack"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "MITM: attacker secretly intercepts communication between two parties. Can eavesdrop or modify data. Prevention: HTTPS/TLS, certificate pinning, VPN. ARP spoofing and SSL stripping enable MITM."
+  },
+  {
+    "QuestionText": "What is two-factor authentication (2FA)?",
+    "Options": [
+      "A) Using two passwords",
+      "B) Verification using two different factors (something you know + something you have/are)",
+      "C) Logging in twice",
+      "D) Two-step logout"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "2FA: requires two verification types. Factors: knowledge (password), possession (OTP token/phone), inherence (biometrics). Even if password is stolen, attacker needs second factor."
+  },
+  {
+    "QuestionText": "What port does SSH use?",
+    "Options": [
+      "A) 21",
+      "B) 22",
+      "C) 23",
+      "D) 25"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "SSH (Secure Shell) = port 22. Provides encrypted remote access. Replaces Telnet (port 23, unencrypted). Uses public key cryptography for authentication."
+  },
+  {
+    "QuestionText": "A subnet mask of 255.255.255.0 means:",
+    "Options": [
+      "A) 8 host bits available (256 addresses)",
+      "B) 24 network bits and 8 host bits",
+      "C) No subnetting",
+      "D) 16 network bits"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "IP Addressing",
+    "Difficulty": "Advanced",
+    "Explanation": "255.255.255.0 = /24 in CIDR notation. 24 network bits, 8 host bits. Provides 2\u2078=256 addresses (254 usable; 1 network address, 1 broadcast). Standard home network subnet."
+  },
+  {
+    "QuestionText": "What is ARP (Address Resolution Protocol)?",
+    "Options": [
+      "A) Translates domain names to IPs",
+      "B) Maps IP addresses to MAC addresses within a LAN",
+      "C) Assigns IP addresses automatically",
+      "D) Routes packets between networks"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Advanced",
+    "Explanation": "ARP: resolves IP address \u2192 MAC address. Device broadcasts 'Who has IP x.x.x.x?' Target responds with its MAC address. ARP table caches results. ARP spoofing enables MITM attacks."
+  },
+  {
+    "QuestionText": "Which of the following is an example of social engineering?",
+    "Options": [
+      "A) SQL injection",
+      "B) Buffer overflow",
+      "C) Pretending to be IT support to get credentials",
+      "D) Brute force attack"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Social engineering: manipulating people rather than hacking systems. Examples: phishing, pretexting, baiting, tailgating. Exploits human psychology (trust, urgency, authority). Often most effective attack."
+  },
+  {
+    "QuestionText": "What is a zero-day vulnerability?",
+    "Options": [
+      "A) A vulnerability fixed immediately",
+      "B) A software vulnerability unknown to the vendor (no patch exists yet)",
+      "C) A virus created on day zero",
+      "D) A network with no security"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "Zero-day: vulnerability unknown to the software vendor. 'Zero days' for developers to patch before exploit. Zero-day exploits are extremely valuable in cyberwarfare and criminal markets."
+  },
+  {
+    "QuestionText": "What does HTTPS do that HTTP does not?",
+    "Options": [
+      "A) Load pages faster",
+      "B) Authenticate the server and encrypt data in transit",
+      "C) Use a different port (443 vs 80)",
+      "D) Both B and C"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Advanced",
+    "Explanation": "HTTPS vs HTTP: HTTPS uses TLS to encrypt traffic (confidentiality), verify server identity via certificates (authentication), and detect tampering (integrity). Uses port 443, not 80."
+  },
+  {
+    "QuestionText": "What is the purpose of VLAN (Virtual LAN)?",
+    "Options": [
+      "A) Creating wireless networks",
+      "B) Logically segmenting a physical network into separate networks",
+      "C) Encrypting network traffic",
+      "D) Assigning dynamic IP addresses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Network Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "VLAN: logical partition of a physical switch into multiple broadcast domains. Isolates traffic between departments (HR, Finance, IT) for security and efficiency. Tagged with IEEE 802.1Q."
+  },
+  {
+    "QuestionText": "What is a network topology?",
+    "Options": [
+      "A) The security of a network",
+      "B) The physical or logical arrangement of devices in a network",
+      "C) The bandwidth of a network",
+      "D) The number of users"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Network Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Network topology: arrangement of devices. Physical: actual cable layout. Logical: data flow. Types: Bus, Star, Ring, Mesh, Hybrid. Star (connected to central switch) is most common in LANs."
+  },
+  {
+    "QuestionText": "What is a proxy server?",
+    "Options": [
+      "A) A backup server",
+      "B) An intermediary server between client and destination",
+      "C) A server for cloud storage",
+      "D) A DNS server"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Network Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Proxy server: sits between client and server. Forwards requests on behalf of client. Uses: caching (performance), anonymity, filtering, access control. Reverse proxy: sits in front of web servers."
+  },
+  {
+    "QuestionText": "The CIA triad in cybersecurity stands for:",
+    "Options": [
+      "A) Central Intelligence Agency",
+      "B) Confidentiality, Integrity, Availability",
+      "C) Cipher, Identity, Authentication",
+      "D) Control, Inspect, Audit"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "CIA Triad: foundation of information security. Confidentiality (only authorized access), Integrity (data not tampered), Availability (systems accessible when needed). All security measures serve one or more of these."
+  },
+  {
+    "QuestionText": "What is a honeypot in cybersecurity?",
+    "Options": [
+      "A) A sweet reward for hackers",
+      "B) A decoy system designed to attract and trap attackers",
+      "C) A type of encrypted database",
+      "D) A backup system"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Olympiad",
+    "Explanation": "Honeypot: a decoy system intentionally vulnerable to attract attackers. Allows security researchers to study attack methods, gather intelligence, and detect intrusions without putting real systems at risk."
+  },
+  {
+    "QuestionText": "What is NAT (Network Address Translation)?",
+    "Options": [
+      "A) Translating domain names to IPs",
+      "B) Translating private IP addresses to public IP for internet access",
+      "C) Assigning dynamic IPs",
+      "D) A routing protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "IP Addressing",
+    "Difficulty": "Advanced",
+    "Explanation": "NAT: router maps multiple private IPs (192.168.x.x) to a single public IP. Conserves public IPv4 addresses. Home routers use NAT. Devices inside NAT not directly reachable from internet."
+  },
+  {
+    "QuestionText": "A SQL injection attack targets:",
+    "Options": [
+      "A) Network layer",
+      "B) Physical devices",
+      "C) Web application database through user input fields",
+      "D) Operating system kernel"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "SQL injection: malicious SQL code entered via web form fields, modifying the database query. Can read sensitive data, bypass login, delete data. Prevention: parameterized queries, input validation."
+  },
+  {
+    "QuestionText": "What is the difference between a hub and a switch?",
+    "Options": [
+      "A) No difference",
+      "B) Hub broadcasts to all ports; switch forwards only to destination device's port (MAC-based)",
+      "C) Hub is faster than switch",
+      "D) Switch is Layer 3; hub is Layer 2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Network Devices",
+    "Difficulty": "Advanced",
+    "Explanation": "Hub (Layer 1): broadcasts all traffic to all ports \u2014 creates collisions, less secure. Switch (Layer 2): learns MAC addresses, forwards frames only to correct port \u2014 more efficient and secure."
+  },
+  {
+    "QuestionText": "Bandwidth is measured in:",
+    "Options": [
+      "A) Bytes",
+      "B) Bits per second (bps, Mbps, Gbps)",
+      "C) Milliseconds",
+      "D) Packets"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Network Concepts",
+    "Difficulty": "Foundation",
+    "Explanation": "Bandwidth = maximum data transfer rate. Measured in bps (bits per second). Common: Mbps (megabits), Gbps (gigabits). Distinct from 'latency' (delay in ms) and 'throughput' (actual transfer rate)."
+  },
+  {
+    "QuestionText": "What is the purpose of the OSI Transport Layer (Layer 4)?",
+    "Options": [
+      "A) Physical transmission",
+      "B) End-to-end communication, error correction, flow control (TCP/UDP)",
+      "C) IP routing",
+      "D) Application data format"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "OSI Model",
+    "Difficulty": "Advanced",
+    "Explanation": "Transport Layer (L4): TCP and UDP. Provides end-to-end reliable (TCP) or unreliable (UDP) delivery. Handles segmentation, reassembly, port numbers, flow control, error detection."
+  },
+  {
+    "QuestionText": "What is a digital certificate?",
+    "Options": [
+      "A) A digital passport verifying the identity of a website/entity",
+      "B) An encrypted password",
+      "C) A type of cookie",
+      "D) A firewall rule"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "Digital certificate: contains public key + identity info + signed by Certificate Authority (CA). Browsers verify certificates to ensure they're communicating with legitimate server. Used in HTTPS."
+  },
+  {
+    "QuestionText": "What is a brute force attack?",
+    "Options": [
+      "A) Physical attack on hardware",
+      "B) Trying all possible combinations to guess a password or key",
+      "C) Sending many packets",
+      "D) Exploiting software bugs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Brute force: systematically trying every possible combination until correct one is found. Defense: account lockout, CAPTCHA, strong passwords, multi-factor authentication."
+  },
+  {
+    "QuestionText": "What is the principle of 'least privilege' in cybersecurity?",
+    "Options": [
+      "A) Giving minimum necessary access rights to users/systems",
+      "B) Least number of passwords",
+      "C) Using the weakest encryption",
+      "D) Minimum number of firewalls"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "Least privilege: users/systems given only the minimum permissions needed to perform their job. Limits damage from compromised accounts. E.g., a data entry employee shouldn't have admin access."
+  },
+  {
+    "QuestionText": "What does the acronym 'WPA2' relate to?",
+    "Options": [
+      "A) Wide Protocol Authentication 2",
+      "B) Wi-Fi Protected Access 2 (Wi-Fi security protocol)",
+      "C) Web Privacy Application 2",
+      "D) Wireless Proxy Access 2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "WPA2: Wi-Fi Protected Access 2. Current standard Wi-Fi security protocol. Uses AES encryption (stronger than WEP and original WPA). WPA3 is the newest standard."
+  },
+  {
+    "QuestionText": "In OSI model, which layer is responsible for logical addressing (IP)?",
+    "Options": [
+      "A) Layer 2 (Data Link)",
+      "B) Layer 3 (Network)",
+      "C) Layer 4 (Transport)",
+      "D) Layer 1 (Physical)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "OSI Model",
+    "Difficulty": "Foundation",
+    "Explanation": "Network layer (L3) handles logical addressing (IP addresses) and routing between networks. Data Link (L2) handles physical/MAC addressing within a network segment."
+  },
+  {
+    "QuestionText": "What is ransomware?",
+    "Options": [
+      "A) Software that manages files",
+      "B) Malware that encrypts victim's files and demands payment for decryption key",
+      "C) A type of adware",
+      "D) Remote access software"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Ransomware: malware encrypts all files on victim's computer, then demands ransom (usually cryptocurrency) for decryption key. Defense: regular backups, updated software, email security."
+  },
+  {
+    "QuestionText": "What is SMTP used for?",
+    "Options": [
+      "A) Secure file transfer",
+      "B) Email sending",
+      "C) Web browsing",
+      "D) Remote access"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Protocols",
+    "Difficulty": "Foundation",
+    "Explanation": "SMTP (Simple Mail Transfer Protocol): used to send emails (port 25 or 587). Receiving email: IMAP (port 993) or POP3 (port 995). SMTP pushes mail; IMAP/POP pulls mail."
+  },
+  {
+    "QuestionText": "Which layer of the OSI model is responsible for HTML, HTTP, FTP?",
+    "Options": [
+      "A) Layer 1",
+      "B) Layer 4",
+      "C) Layer 7 (Application)",
+      "D) Layer 6"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "OSI Model",
+    "Difficulty": "Foundation",
+    "Explanation": "Application Layer (L7): closest to user. Protocols: HTTP, HTTPS, FTP, SMTP, DNS, DHCP. Provides interfaces for applications to communicate over network."
+  },
+  {
+    "QuestionText": "What is a keylogger?",
+    "Options": [
+      "A) A tool to change keyboard settings",
+      "B) Malware that records keystrokes to steal passwords and data",
+      "C) A secure input device",
+      "D) A hardware device for accessibility"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Cybersecurity",
+    "SubTopic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Keylogger: malware (or hardware device) that secretly records all keystrokes. Captures passwords, credit card numbers, messages. Often installed via phishing or drive-by download."
+  }
+]

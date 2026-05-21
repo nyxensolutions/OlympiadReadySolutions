@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is a computer network?",
+    "Options": [
+      "A) A single powerful computer",
+      "B) Two or more computers connected to share resources and communicate",
+      "C) A collection of software programs",
+      "D) A type of operating system"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Foundation",
+    "Explanation": "A computer network is two or more computers/devices connected (wired or wireless) to share resources (files, printers, internet) and communicate. Types by size: LAN (Local Area Network \u2014 home/office, small area), MAN (Metropolitan \u2014 city-wide), WAN (Wide Area Network \u2014 country/world). The internet is the world's largest WAN. Networks enable email, file sharing, cloud computing, video calls, and collaborative work."
+  },
+  {
+    "QuestionText": "What does 'LAN' stand for?",
+    "Options": [
+      "A) Large Area Network",
+      "B) Local Area Network",
+      "C) Long Access Network",
+      "D) Linked Application Node"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Foundation",
+    "Explanation": "LAN (Local Area Network): a network covering a small geographic area \u2014 a home, office, school, or building. Typically connected by Ethernet cables or WiFi. Speed: 100 Mbps to 10 Gbps. Managed by the user/organisation. Examples: home WiFi router connecting devices, office network sharing a printer. WAN (Wide Area Network): covers large areas, connects LANs \u2014 the internet is the largest WAN. MAN (Metropolitan Area Network): city-wide network."
+  },
+  {
+    "QuestionText": "What is the internet?",
+    "Options": [
+      "A) A single computer that stores all websites",
+      "B) A global network of networks using standardised protocols (TCP/IP) to connect billions of devices",
+      "C) A government-owned communication system",
+      "D) A private network used only by universities"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "The internet is the global 'network of networks' \u2014 millions of interconnected LANs, MANs, and WANs. It uses TCP/IP protocol suite for communication. Originated as ARPANET (US military, 1969). WWW (World Wide Web) invented by Tim Berners-Lee (1989) \u2014 the web is just one service ON the internet. Other internet services: email, FTP, VoIP, streaming. India has ~700 million internet users (2023)."
+  },
+  {
+    "QuestionText": "What is an IP address?",
+    "Options": [
+      "A) An Internet Provider's postal address",
+      "B) A unique numerical label assigned to each device on a network to identify and locate it",
+      "C) The address of a website",
+      "D) A password for network access"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "IP (Internet Protocol) address: a unique identifier for each device on a network. IPv4: 32-bit, format: 192.168.1.1 (four 0-255 numbers). ~4.3 billion addresses (running out). IPv6: 128-bit, format: 2001:0db8:85a3::8a2e:0370:7334 \u2014 340 undecillion addresses. Static IP: permanently assigned. Dynamic IP: assigned temporarily by DHCP server. Private IP (192.168.x.x): used within LAN. Public IP: globally unique, used on internet."
+  },
+  {
+    "QuestionText": "What is the purpose of a router?",
+    "Options": [
+      "A) To convert analogue signals to digital",
+      "B) To forward data packets between networks and direct internet traffic to the correct devices",
+      "C) To store website data",
+      "D) To provide electrical power to network devices"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Foundation",
+    "Explanation": "Router: connects different networks (e.g., your home LAN to the internet/ISP). Functions: receives data packets, reads destination IP address, determines best path, forwards packet to next network. Home routers: connect LAN devices (via WiFi/Ethernet) to ISP (Internet Service Provider). Also functions as a switch (for LAN devices) and often includes a firewall. Your home router assigns private IP addresses to devices via DHCP."
+  },
+  {
+    "QuestionText": "What does HTTP stand for?",
+    "Options": [
+      "A) HyperText Transfer Protocol",
+      "B) High Transfer Text Protocol",
+      "C) HyperText Terminal Program",
+      "D) Hosted Transfer Text Page"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTP (HyperText Transfer Protocol): the protocol for transmitting web pages on the internet. Client (browser) sends HTTP request; server responds with HTTP response (web page data). HTTPS (HTTP Secure): HTTP with SSL/TLS encryption \u2014 data is encrypted during transit, preventing eavesdropping. Indicated by padlock icon in browser address bar. All banking, shopping, and login pages should use HTTPS. HTTP uses port 80; HTTPS uses port 443."
+  },
+  {
+    "QuestionText": "What is the function of DNS (Domain Name System)?",
+    "Options": [
+      "A) Provides security encryption for websites",
+      "B) Translates human-readable domain names (www.google.com) into IP addresses",
+      "C) Manages email delivery",
+      "D) Controls access to specific websites"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "DNS is the internet's phone book. Humans use domain names (google.com); computers use IP addresses (142.250.x.x). DNS servers translate: you type www.google.com \u2192 browser asks DNS server \u2192 DNS returns IP address \u2192 browser connects to that IP. DNS servers are maintained by registrars and ISPs. Without DNS, you'd need to memorise IP addresses for every website. Google's public DNS: 8.8.8.8; Cloudflare: 1.1.1.1."
+  },
+  {
+    "QuestionText": "What is WiFi?",
+    "Options": [
+      "A) Wired Fidelity \u2014 a type of Ethernet connection",
+      "B) Wireless Fidelity \u2014 wireless networking using radio waves based on IEEE 802.11 standards",
+      "C) A type of internet service plan",
+      "D) A brand name for internet routers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Foundation",
+    "Explanation": "WiFi (Wireless Fidelity): wireless LAN technology using radio waves (2.4 GHz and 5 GHz bands). Standards: 802.11n (WiFi 4, 600 Mbps), 802.11ac (WiFi 5, 3.5 Gbps), 802.11ax (WiFi 6, 9.6 Gbps). 2.4 GHz: longer range, more interference, slower. 5 GHz: shorter range, less interference, faster. WiFi 6E also uses 6 GHz band. Secured with WPA2/WPA3 encryption. India's public WiFi expanded through PM-WANI scheme (PM-WiFi Access Network Interface)."
+  },
+  {
+    "QuestionText": "What is bandwidth in networking?",
+    "Options": [
+      "A) The physical width of a network cable",
+      "B) The maximum data transfer rate of a network connection (measured in Mbps or Gbps)",
+      "C) The number of devices on a network",
+      "D) The distance a WiFi signal can travel"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Foundation",
+    "Explanation": "Bandwidth = maximum data transfer rate: how much data can flow per second. Measured in Mbps (megabits per second) or Gbps (gigabits per second). Higher bandwidth = faster downloads/uploads. Analogy: bandwidth is like a pipe diameter \u2014 wider pipe = more water flow. Note: 8 bits = 1 byte, so 100 Mbps = 12.5 MB/s download speed. Actual speeds are often lower than maximum (network congestion, distance from router, interference)."
+  },
+  {
+    "QuestionText": "What is a firewall?",
+    "Options": [
+      "A) Physical fire-resistant wall protecting server rooms",
+      "B) Security system that monitors and controls incoming/outgoing network traffic based on rules",
+      "C) A program that backs up data",
+      "D) Hardware that boosts WiFi signal"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Firewall: network security system (hardware or software) that monitors and filters traffic based on predefined rules. Types: Packet filtering (examines packets, allows/blocks based on IP/port), Stateful inspection (tracks connection state), Application layer (examines application data). Default Windows Firewall: blocks incoming connections by default. Network firewalls protect entire organisations. Rules can block specific ports (e.g., block all traffic except HTTP/HTTPS), IP ranges, or specific applications."
+  },
+  {
+    "QuestionText": "What is the World Wide Web (WWW)?",
+    "Options": [
+      "A) The same as the internet",
+      "B) A system of interlinked hypertext documents/resources accessed via the internet using HTTP",
+      "C) A global email system",
+      "D) An internet service provider"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "The WWW is a service that runs on the internet. Created by Tim Berners-Lee (1989-1991) at CERN. Consists of: web pages (HTML documents), web servers (store/serve pages), web browsers (display pages), hyperlinks (connect pages), URLs (addresses). The web uses HTTP/HTTPS protocol. The internet also includes: email (SMTP), FTP (file transfer), VoIP, streaming. Analogy: internet = road system; WWW = one type of vehicle on those roads."
+  },
+  {
+    "QuestionText": "What is 'cloud computing'?",
+    "Options": [
+      "A) Computing done during cloudy weather",
+      "B) Delivering computing services (storage, servers, software) over the internet on-demand",
+      "C) A type of weather forecasting software",
+      "D) Computing using satellite connections"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Cloud computing: using internet-connected remote servers (data centres) for storage, processing, and services instead of local hardware. Examples: Google Drive/Photos (cloud storage), Gmail (cloud email), Netflix (cloud streaming), AWS/Azure/GCP (cloud servers for businesses), iCloud (Apple), Dropbox. Advantages: access from anywhere, no hardware maintenance, scalable, automatic backup. Disadvantages: requires internet, data privacy concerns, ongoing subscription costs."
+  },
+  {
+    "QuestionText": "What is a URL?",
+    "Options": [
+      "A) Universal Resource Locator \u2014 the address of a resource on the web",
+      "B) User Registration Link",
+      "C) Unified Remote Login",
+      "D) Universal Routing Language"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "URL (Uniform Resource Locator): the complete address of a web resource. Structure: https://www.example.com/page?query=value. Components: Protocol (https://), Domain name (www.example.com), Path (/page), Query string (?query=value). The domain is translated to an IP by DNS. 'www' is a subdomain (not mandatory). TLDs (Top Level Domains): .com (commercial), .org (organisation), .in (India), .edu (education), .gov (government)."
+  },
+  {
+    "QuestionText": "What is phishing?",
+    "Options": [
+      "A) A method of network testing by sending packets",
+      "B) A cyber attack using deceptive emails/websites to trick users into revealing sensitive information",
+      "C) A type of network fishing for data packets",
+      "D) Legitimate email marketing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Phishing: cybercriminals send fake emails/messages/websites impersonating legitimate organisations (banks, Google, government) to steal: passwords, credit card numbers, personal information. Signs: urgent language ('your account will be suspended!'), generic greetings, misspelled URLs (g00gle.com), requests for personal info via email. Prevention: verify sender, check URLs carefully, enable 2FA, never share passwords via email. Spear phishing: targeted at specific individuals with personalised details."
+  },
+  {
+    "QuestionText": "What does VPN stand for and what is it used for?",
+    "Options": [
+      "A) Very Private Network \u2014 for military use only",
+      "B) Virtual Private Network \u2014 creates an encrypted tunnel for secure private communication over public internet",
+      "C) Virtual Protocol Node \u2014 manages internet routing",
+      "D) Verified Public Network \u2014 guarantees website authenticity"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "VPN (Virtual Private Network): encrypts all internet traffic between your device and a VPN server, masking your real IP address. Uses: secure browsing on public WiFi (prevents eavesdropping), bypassing geo-restrictions (accessing content unavailable in your region), remote work (secure access to company network), privacy (ISP can't see your traffic). Drawbacks: reduces speed, VPN provider can see your traffic, some services block VPNs. Popular: NordVPN, ExpressVPN, ProtonVPN."
+  },
+  {
+    "QuestionText": "What is the TCP/IP protocol suite?",
+    "Options": [
+      "A) A single communication protocol",
+      "B) The foundational set of communication protocols that define how data is transmitted on the internet",
+      "C) A type of network cable standard",
+      "D) A security protocol for banking websites"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol): the foundation of internet communication. Layers: Application (HTTP, SMTP, FTP \u2014 what data is), Transport (TCP/UDP \u2014 how reliably data is sent), Internet (IP \u2014 addressing and routing), Network Access (Ethernet, WiFi \u2014 physical transmission). TCP: reliable, ordered delivery (acknowledges receipt, retransmits lost packets). UDP: faster, no acknowledgement (used for video streaming, gaming where some loss is acceptable). All internet devices use TCP/IP."
+  },
+  {
+    "QuestionText": "What is 5G technology?",
+    "Options": [
+      "A) The 5th generation of graphics card technology",
+      "B) The 5th generation of mobile network technology \u2014 faster speeds and lower latency than 4G",
+      "C) A type of WiFi standard",
+      "D) The 5th version of Google's search algorithm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "5G (5th Generation mobile network): speeds up to 20 Gbps (vs 4G's 1 Gbps peak), latency as low as 1ms (vs 4G's 30-50ms). Uses: enhanced mobile broadband (4K video streaming), IoT (billions of connected devices), autonomous vehicles (real-time response), smart city infrastructure, Industry 4.0 automation. India's 5G rollout began in 2022 (Jio and Airtel). Uses high-frequency millimeter waves (short range, high capacity) and sub-6GHz bands (longer range). 5G will transform healthcare, manufacturing, and transportation."
+  },
+  {
+    "QuestionText": "What is the difference between the internet and an intranet?",
+    "Options": [
+      "A) Intranet is faster than the internet",
+      "B) Internet = global public network; intranet = private network accessible only within an organisation",
+      "C) They are identical",
+      "D) Intranet connects countries; internet connects offices"
+    ],
+    "CorreintAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "Internet: public global network accessible to anyone worldwide. Intranet: private internal network using internet technologies (web browsers, HTTP) but restricted to an organisation's employees. Uses: internal websites, file sharing, company directories, HR systems, announcements. Extranet: extends intranet access to specific external partners (suppliers, clients) with authentication. Intranet is the same technology as internet but behind a firewall, accessible only through VPN or on-site connection."
+  },
+  {
+    "QuestionText": "Assertion: Encryption is important for secure internet communication. Reason: Encryption converts data into an unreadable format that can only be decoded by the intended recipient with the decryption key. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: encryption is essential for secure communication (HTTPS, banking, messaging). Reason TRUE and correctly explains: encryption mathematically scrambles data \u2014 only someone with the correct key can decrypt and read it. Without encryption, data transmitted over networks could be intercepted and read by anyone. HTTPS uses TLS encryption. WhatsApp uses end-to-end encryption. Modern encryption (AES-256) is considered computationally unbreakable with current technology."
+  },
+  {
+    "QuestionText": "What is meant by 'network topology'?",
+    "Options": [
+      "A) The geographic location of a network",
+      "B) The physical or logical arrangement of devices and connections in a network",
+      "C) The speed of a network connection",
+      "D) The number of devices in a network"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "Network topology = how devices are arranged and connected. Common types: Bus (all devices on one cable \u2014 simple but single point of failure), Ring (devices in a circle \u2014 data travels in one direction), Star (all devices connect to central hub/switch \u2014 most common in LANs, failure of one device doesn't affect others), Mesh (devices interconnect \u2014 multiple paths, high reliability, used in internet backbone and military), Tree (hierarchical \u2014 combination of star and bus). Topology affects reliability, cost, and performance."
+  },
+  {
+    "QuestionText": "What is a MAC address?",
+    "Options": [
+      "A) An address for Apple Mac computers only",
+      "B) A unique hardware identifier assigned to a network interface card (NIC) at manufacturing",
+      "C) The memory address used by the CPU",
+      "D) The mailing address of an internet service provider"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "MAC (Media Access Control) address: a 48-bit hardware identifier permanently assigned to a NIC (Network Interface Card) during manufacturing. Format: XX:XX:XX:XX:XX:XX (6 pairs of hex digits). Unlike IP addresses (which can change), MAC addresses are (mostly) fixed. Used for identification within a LAN \u2014 switches use MAC addresses to direct traffic to the correct port. MAC vs IP: MAC = physical address (local network), IP = logical address (internet routing)."
+  },
+  {
+    "QuestionText": "What is bandwidth throttling by an ISP?",
+    "Options": [
+      "A) Physically cutting network cables to reduce interference",
+      "B) Intentionally slowing down certain types of internet traffic by the ISP",
+      "C) The natural slowdown when many users share a connection",
+      "D) A technical limit of WiFi radio waves"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Olympiad",
+    "Explanation": "ISPs (Internet Service Providers) may throttle (intentionally slow) specific traffic types: video streaming, torrent downloads, specific services during peak hours. Reasons: manage network congestion, enforce 'fair use' policies, prioritise certain services (or charge extra for full speed). Net Neutrality principle: ISPs should treat all internet traffic equally without discrimination or throttling. India's TRAI supports Net Neutrality. Users can detect throttling using VPNs (VPN bypasses throttling \u2014 if speed improves with VPN, throttling is occurring)."
+  },
+  {
+    "QuestionText": "What is IoT (Internet of Things)?",
+    "Options": [
+      "A) A new internet service provider",
+      "B) The network of physical objects embedded with sensors and connectivity to collect/exchange data over the internet",
+      "C) A type of web browser for mobile devices",
+      "D) An internet security standard"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "IoT: everyday objects with internet connectivity and embedded sensors: smart home devices (Alexa, smart bulbs, smart AC), wearables (fitness trackers, smartwatches), industrial sensors, smart agriculture (soil monitors, irrigation control), smart cities (traffic sensors, waste management), connected vehicles. By 2030: 50+ billion IoT devices expected. Challenges: security vulnerabilities (many IoT devices have poor security), privacy concerns, data management at scale. Enables data-driven decisions in every sector."
+  },
+  {
+    "QuestionText": "What is the purpose of HTTPS over HTTP?",
+    "Options": [
+      "A) HTTPS loads websites faster than HTTP",
+      "B) HTTPS encrypts data between browser and server preventing interception; HTTP sends data in plain text",
+      "C) HTTPS allows downloading larger files",
+      "D) HTTPS is required for government websites only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTP: data transmitted as plain text \u2014 anyone intercepting the traffic can read it (passwords, credit card numbers). HTTPS: HTTP + TLS/SSL encryption \u2014 data is encrypted during transit. Even if intercepted, it's unreadable without the decryption key. Also verifies server identity (certificate) \u2014 prevents impersonation. Modern browsers mark HTTP sites as 'Not Secure.' All login pages, banking, shopping MUST use HTTPS. Free HTTPS certificates available via Let's Encrypt (promoting secure web)."
+  },
+  {
+    "QuestionText": "What is a packet in network communication?",
+    "Options": [
+      "A) A physical parcel delivered by courier services",
+      "B) A small chunk of data with header (source/destination info) and payload transmitted over a network",
+      "C) A software package installation file",
+      "D) A network cable connector"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "Data is broken into small packets for transmission (typically 1500 bytes/packet for Ethernet). Each packet has: Header (source IP, destination IP, sequence number, protocol), Payload (actual data). Packets travel independently (may take different routes) and are reassembled at the destination. Benefits: efficient network use, resilient routing (packets avoid congested/failed links), multiple users share network simultaneously. TCP ensures all packets arrive and are reassembled correctly; UDP doesn't guarantee delivery."
+  },
+  {
+    "QuestionText": "What is two-factor authentication (2FA)?",
+    "Options": [
+      "A) Logging in from two different devices",
+      "B) Using two types of verification (password + code/biometric) for stronger account security",
+      "C) Having two different passwords for the same account",
+      "D) A two-step process for creating a new account"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Foundation",
+    "Explanation": "2FA (Two-Factor Authentication): requires two different types of proof: Something you KNOW (password/PIN) + Something you HAVE (OTP sent to phone, authenticator app code, hardware key) or Something you ARE (fingerprint, face scan). Even if your password is stolen, the attacker can't login without the second factor. Types: SMS OTP (less secure \u2014 SIM swapping possible), Authenticator apps (Google Authenticator, more secure), Hardware keys (YubiKey, most secure), Biometrics. India's UPI uses 2FA (PIN + OTP)."
+  },
+  {
+    "QuestionText": "What is the difference between upload and download speed?",
+    "Options": [
+      "A) They are always identical",
+      "B) Download = data received from internet to your device; upload = data sent from your device to internet",
+      "C) Upload is faster than download always",
+      "D) They measure different types of data (text vs images)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Download speed: how fast data comes FROM the internet TO your device \u2014 affects browsing, streaming, downloading files. Upload speed: how fast data goes FROM your device TO the internet \u2014 affects video calling, cloud uploads, posting content. Home internet plans are typically 'asymmetric' (much faster download than upload \u2014 matching typical usage). Symmetric connections (equal up/down) are used by businesses. Speed tested at fast.com, Ookla Speedtest, etc."
+  },
+  {
+    "QuestionText": "Statement 1: Email is NOT a real-time communication tool. Statement 2: Unlike messaging apps (WhatsApp) or phone calls, email is asynchronous \u2014 the recipient reads it at their own time. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Statement 1 TRUE: email is asynchronous \u2014 sent emails are stored on servers until the recipient checks their inbox. No immediate response expected. Statement 2 TRUE and correctly explains: real-time tools (WhatsApp, Zoom, phone) enable immediate exchange. Email is store-and-forward \u2014 message is delivered to mail server, then downloaded when recipient checks email. SMTP sends email; POP3/IMAP receives/manages email. Both statements are correct and complementary."
+  },
+  {
+    "QuestionText": "What is malware?",
+    "Options": [
+      "A) Defective hardware components",
+      "B) Malicious software designed to disrupt, damage, or gain unauthorised access to computer systems",
+      "C) Software updates containing bugs",
+      "D) Poorly written but harmless software"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Malware (malicious software) includes: Virus (attaches to files, spreads on execution), Worm (self-replicates across networks without needing a host file), Trojan (disguises as legitimate software \u2014 creates backdoor), Ransomware (encrypts files, demands payment \u2014 WannaCry paralysed NHS 2017), Spyware (secretly monitors activity, steals data), Adware (unwanted advertisements), Rootkit (hides in OS \u2014 very hard to detect). Prevention: antivirus, OS updates, not clicking suspicious links, not downloading from untrusted sources."
+  },
+  {
+    "QuestionText": "What is a web browser?",
+    "Options": [
+      "A) A program that stores websites",
+      "B) Client software that retrieves, renders, and displays web pages from the internet",
+      "C) A type of internet connection",
+      "D) A web server for hosting websites"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Web browser: software that fetches web pages from servers (using HTTP/HTTPS), interprets HTML/CSS/JavaScript, and displays the rendered page to the user. Examples: Google Chrome (65% market share), Mozilla Firefox, Microsoft Edge, Safari (Apple), Brave, Opera. Browser features: address bar (URL input), bookmarks, browsing history, extensions/add-ons, developer tools, incognito/private mode. The browser IS the user's primary window to the web. India's most used: Chrome > Edge > Safari (2023)."
+  },
+  {
+    "QuestionText": "What is meant by 'net neutrality'?",
+    "Options": [
+      "A) The internet has a neutral electric charge",
+      "B) The principle that ISPs should treat all internet traffic equally without discrimination, throttling, or paid prioritisation",
+      "C) A balanced number of websites for each country",
+      "D) A policy where internet access is free for all citizens"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Olympiad",
+    "Explanation": "Net neutrality: internet service providers must treat all data packets equally \u2014 cannot: slow down (throttle) competitors' services, charge websites for 'fast lane' access, block specific content/services. Without net neutrality: telecom companies could charge Netflix extra for fast delivery, slow down YouTube to promote their own video service, block messaging apps to protect SMS revenue. TRAI (India's telecom regulator) established strong net neutrality rules in 2018 \u2014 ISPs cannot discriminate between content providers."
+  },
+  {
+    "QuestionText": "What is 'cyberbullying' and how can it be addressed?",
+    "Options": [
+      "A) Bullying that occurs only in schools",
+      "B) Harassment, intimidation or harm using digital technology \u2014 addressed by reporting, blocking, and involving trusted adults/authorities",
+      "C) A type of computer virus that attacks social media",
+      "D) Aggressive gaming behavior"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Foundation",
+    "Explanation": "Cyberbullying: using technology (social media, messaging, gaming, email) to bully, harass, threaten, or humiliate others. Forms: sending threatening messages, spreading rumours online, sharing embarrassing photos without consent, exclusion from online groups, impersonation. How to address: don't respond/retaliate, document evidence (screenshots), block the bully, report to platform, tell a trusted adult/teacher/parent, report to police (if threats/illegal content). India's IT Act section 66A (amended) addresses online harassment. Prevention: privacy settings, strong passwords, thinking before posting."
+  },
+  {
+    "QuestionText": "What does 'streaming' mean for audio and video content?",
+    "Options": [
+      "A) Downloading the complete file before playing",
+      "B) Playing media directly from the internet in real-time without fully downloading first",
+      "C) Copying content to a USB drive for playback",
+      "D) Sharing your screen with another user"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Streaming: media plays as it arrives over the internet without waiting for complete download. A small buffer downloads ahead to prevent interruptions. Examples: YouTube, Netflix, Spotify, JioCinema, Hotstar. Advantages: instant playback, no storage required, fresh content. Disadvantages: requires continuous internet connection, quality depends on bandwidth. Live streaming (YouTube Live, Instagram Live): real-time broadcast with minimal delay. OTT (Over-The-Top) platforms (Netflix, Prime Video, Disney+Hotstar) dominate India's digital entertainment market."
+  },
+  {
+    "QuestionText": "What is the purpose of a search engine?",
+    "Options": [
+      "A) To create websites and store them on servers",
+      "B) To index web pages and retrieve relevant results based on user queries",
+      "C) To translate web pages into different languages",
+      "D) To provide secure email communication"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Search engines: index (catalogue) web pages using crawlers (programs that automatically browse the web), store information in a massive index, and retrieve relevant results when users search. Algorithms rank results by relevance, quality, and many other factors. Google processes 8.5 billion searches/day. Components: web crawler, indexer, ranking algorithm (Google's PageRank considers links from other sites). India's most used: Google (~97% market share). Bing, Yahoo, DuckDuckGo (privacy-focused), Brave Search are alternatives."
+  },
+  {
+    "QuestionText": "What is social engineering in cyber security?",
+    "Options": [
+      "A) Engineering social media platforms",
+      "B) Psychological manipulation techniques to trick people into revealing confidential information or performing unsafe actions",
+      "C) Building social networks for engineers",
+      "D) A programming technique for social media apps"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Advanced",
+    "Explanation": "Social engineering exploits human psychology rather than technical vulnerabilities. Techniques: Phishing (deceptive emails), Pretexting (creating false scenarios \u2014 'I'm from IT, need your password to fix issue'), Baiting (leaving infected USB drives), Quid pro quo (offering service in exchange for info), Tailgating (following into secure areas). Defense: always verify identity before sharing info, follow company security policies, don't share passwords ever, be sceptical of unsolicited requests. Humans are often the weakest security link."
+  },
+  {
+    "QuestionText": "Which protocol is used for sending email?",
+    "Options": [
+      "A) HTTP",
+      "B) FTP",
+      "C) SMTP",
+      "D) DNS"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "SMTP (Simple Mail Transfer Protocol): used to SEND email from client to mail server, and between mail servers. Receiving email: POP3 (Post Office Protocol 3) \u2014 downloads emails to device, deletes from server. IMAP (Internet Message Access Protocol) \u2014 accesses emails on server from multiple devices (emails stay on server). HTTP: web pages. FTP (File Transfer Protocol): uploading/downloading files. DNS: translating domain names to IP addresses. Email path: sender \u2192 SMTP \u2192 recipient's mail server \u2192 POP3/IMAP \u2192 recipient's inbox."
+  },
+  {
+    "QuestionText": "Assertion: Public WiFi hotspots are less secure than home WiFi. Reason: Public WiFi networks are often unencrypted and shared with many unknown users, making it easier for attackers to intercept data. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: public WiFi (cafes, airports, hotels) is significantly less secure. Reason TRUE and correctly explains: unencrypted networks broadcast data that anyone with the right software (packet sniffers like Wireshark) can capture. Evil twin attacks (fake hotspot mimicking legitimate one) are common. Precautions: use VPN on public WiFi, avoid banking/sensitive logins, use HTTPS sites, verify network name with staff. Home WiFi (WPA2/WPA3 encrypted, password-protected) is much more secure."
+  },
+  {
+    "QuestionText": "What is blockchain technology in brief?",
+    "Options": [
+      "A) A method of blocking certain websites",
+      "B) A distributed, decentralised, tamper-resistant digital ledger recording transactions across many computers",
+      "C) A type of database for a single company",
+      "D) A new programming language for finance"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Olympiad",
+    "Explanation": "Blockchain: a chain of blocks where each block contains transactions + a cryptographic hash of the previous block. Distributed across thousands of nodes (computers) \u2014 no central authority. Tamper-resistant: changing one block invalidates all subsequent blocks (detectable). Applications: Bitcoin/cryptocurrency (first major use), supply chain tracking (verifying product origin), smart contracts (self-executing agreements), land records (Andhra Pradesh pilot), medical records, voting systems. India's CBDC (Digital Rupee) uses blockchain principles. Not purely decentralised in all implementations."
+  },
+  {
+    "QuestionText": "What is the difference between a hub and a switch in networking?",
+    "Options": [
+      "A) They are identical devices",
+      "B) Hub broadcasts data to all connected devices; switch intelligently sends data only to the specific destination device",
+      "C) Hub is wireless; switch is wired",
+      "D) Hub is for homes; switch is for offices only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "Hub: receives data and broadcasts to ALL connected ports \u2014 every device sees all traffic (inefficient, less secure). Switch: learns which device is on which port (via MAC address table), sends data ONLY to the specific destination port \u2014 more efficient and secure. Switches have largely replaced hubs in modern networks. Router: connects different networks (LAN to internet). Modem: converts digital to analogue signals for ISP connection. Modern home 'routers' are typically modem + router + switch + WiFi access point combined."
+  },
+  {
+    "QuestionText": "What does 'cloud storage' offer compared to local storage?",
+    "Options": [
+      "A) Cloud storage is always faster than local SSD",
+      "B) Cloud storage allows access from anywhere with internet and provides automatic backup; local storage is faster and doesn't need internet",
+      "C) Cloud storage is always free; local storage costs money",
+      "D) Local storage is less reliable than cloud storage"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Foundation",
+    "Explanation": "Cloud storage (Google Drive, OneDrive, iCloud, Dropbox): stores files on remote servers accessible via internet from any device. Benefits: access anywhere, automatic backup (prevents data loss), easy sharing. Limitations: requires internet, ongoing subscription cost, privacy concerns (data on third-party servers). Local storage (HDD/SSD): faster access, no internet needed, no subscription, complete privacy control. Best practice: use both \u2014 local storage for speed and privacy, cloud for backup and sharing. India's DigiLocker is government cloud storage for official documents."
+  },
+  {
+    "QuestionText": "What is the purpose of cookies in web browsing?",
+    "Options": [
+      "A) They store offline copies of websites",
+      "B) Small text files stored by websites on your browser to remember preferences, login state, and browsing behaviour",
+      "C) They speed up page loading by caching images",
+      "D) Security tokens that encrypt web traffic"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "Cookies: small text files websites store in your browser. Types: Session cookies (deleted when browser closes \u2014 remember login during a session), Persistent cookies (stay until expiry \u2014 remember language preference, 'remember me'), Third-party cookies (from advertisers \u2014 track you across websites for targeted ads). GDPR (EU) and India's PDPB (Personal Data Protection Bill) require consent for non-essential cookies. Incognito mode doesn't accept persistent cookies. Can be cleared in browser settings."
+  },
+  {
+    "QuestionText": "What is the purpose of a CDN (Content Delivery Network)?",
+    "Options": [
+      "A) To develop new internet content",
+      "B) A distributed network of servers delivering content from locations geographically close to users for faster loading",
+      "C) To censor inappropriate internet content",
+      "D) A type of internet service provider"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Olympiad",
+    "Explanation": "CDN: a globally distributed network of servers caching and delivering content (images, videos, scripts) from servers nearest to the user. Benefits: faster load times (shorter network distance), reduced load on origin server (handles millions of users), improved reliability (if one server fails, others serve content), DDoS protection. Used by Netflix, YouTube, Amazon, Facebook. For Indian users, CDN servers in Mumbai/Chennai/Hyderabad serve content faster than if it came from US servers. CDN providers: Cloudflare, Akamai, AWS CloudFront."
+  },
+  {
+    "QuestionText": "Statement 1: An IP address identifies a device; a MAC address identifies a network interface card. Statement 2: IP addresses can change (dynamic allocation); MAC addresses are permanently assigned during manufacturing. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "Statement 1 TRUE: IP = logical address (device on network), MAC = physical/hardware address (specific NIC). Statement 2 TRUE: IP addresses are dynamically assigned by DHCP servers (may change each session) or statically configured. MAC addresses are burned into the NIC at manufacturing (though software MAC spoofing is possible). IP operates at Network layer (routing between networks); MAC operates at Data Link layer (within a LAN segment). Both are needed for complete internet communication."
+  },
+  {
+    "QuestionText": "What is a proxy server?",
+    "Options": [
+      "A) A backup server for storing data",
+      "B) An intermediary server between clients and internet servers that can filter, cache, or anonymise requests",
+      "C) A server dedicated to email delivery",
+      "D) A physical device that converts WiFi to wired internet"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "Proxy server sits between client and internet. Functions: Content filtering (schools/offices block social media via proxy), Caching (stores frequently accessed pages \u2014 faster loading, less bandwidth), Anonymisation (hides client's IP from servers), Load balancing. Types: Forward proxy (client-side \u2014 company proxies), Reverse proxy (server-side \u2014 protects web servers, load balances \u2014 Nginx, HAProxy). VPN vs Proxy: both hide IP but VPN encrypts all traffic; proxy typically doesn't encrypt."
+  },
+  {
+    "QuestionText": "What is bandwidth in the context of network cables?",
+    "Options": [
+      "A) Physical thickness of the cable",
+      "B) The range of frequencies a cable can carry, determining its maximum data capacity",
+      "C) The length of a network cable",
+      "D) The number of cables in a bundle"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cable bandwidth = the range of frequencies the cable can carry, which determines its data capacity. Ethernet cable categories: Cat5e (1 Gbps at 100m), Cat6 (10 Gbps at 55m), Cat6a (10 Gbps at 100m), Cat8 (40 Gbps at 30m). Fiber optic cables carry light instead of electrical signals \u2014 much higher bandwidth (100 Gbps+), immune to electromagnetic interference, used for internet backbone and data centres. Coaxial cable (used for cable TV/internet in some areas) also has significant bandwidth."
+  },
+  {
+    "QuestionText": "What is the meaning of 'latency' in networking?",
+    "Options": [
+      "A) The total data transferred per second",
+      "B) The time delay between sending a request and receiving the first response",
+      "C) The distance covered by a network signal",
+      "D) The number of users on a network"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Advanced",
+    "Explanation": "Latency (ping): the time it takes for a data packet to travel from source to destination and back, measured in milliseconds (ms). Low latency (<20ms) = fast response, crucial for: online gaming (high latency causes lag), video calls, stock trading. High latency (>100ms) makes these applications unusable. Causes of high latency: physical distance from server, network congestion, slow routing. 5G aims for 1ms latency. Bandwidth affects how much data, latency affects how quickly. Both matter for good network experience."
+  },
+  {
+    "QuestionText": "What is FTP (File Transfer Protocol) used for?",
+    "Options": [
+      "A) Sending emails",
+      "B) Transferring files between computers on a network or over the internet",
+      "C) Browsing websites",
+      "D) Video conferencing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Internet",
+    "Difficulty": "Advanced",
+    "Explanation": "FTP (File Transfer Protocol): standard protocol for transferring files between client and server. Used by web developers to upload website files to web servers, businesses to exchange large files, software distribution. FTP clients: FileZilla, WinSCP. SFTP (SSH File Transfer Protocol): encrypted version of FTP \u2014 more secure. FTPS (FTP Secure): FTP with SSL encryption. Plain FTP transmits passwords in clear text (insecure) \u2014 SFTP/FTPS preferred for sensitive transfers. Cloud file sharing (Google Drive, Dropbox) has replaced FTP for many casual use cases."
+  },
+  {
+    "QuestionText": "What is a denial-of-service (DoS) attack?",
+    "Options": [
+      "A) Refusing to provide network service to legitimate users permanently",
+      "B) Overwhelming a server or network with traffic to make it unavailable to legitimate users",
+      "C) Stealing user data from a web server",
+      "D) Gaining unauthorised access to a network"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Advanced",
+    "Explanation": "DoS attack: floods a target server/network with fake requests, consuming all resources (bandwidth, CPU, memory) so legitimate users can't access the service. DDoS (Distributed DoS): same attack from thousands/millions of compromised computers (botnet) \u2014 much harder to block. Targets: websites, game servers, banks, government services. Protection: firewalls, rate limiting, CDNs (absorb traffic), DDoS mitigation services (Cloudflare). Famous DDoS: 2016 Dyn attack took down Twitter, Netflix, Reddit using IoT botnet."
+  },
+  {
+    "QuestionText": "What does SSID stand for in WiFi networks?",
+    "Options": [
+      "A) Secure Site Identification Data",
+      "B) Service Set Identifier \u2014 the name of a WiFi network",
+      "C) System Signal Interference Device",
+      "D) Secure Socket Internet Domain"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Networks",
+    "Difficulty": "Foundation",
+    "Explanation": "SSID (Service Set Identifier): the name of a WiFi network \u2014 what you see when you search for available networks on your device (e.g., 'JioFiber_Home', 'Airtel_5GHz'). By default, routers broadcast the SSID so devices can find the network. Hiding the SSID (stopping broadcast) provides minimal security \u2014 determined attackers can still find it using network scanners. For real security: use WPA3 encryption, strong passwords, disable WPS. Change default router SSID and password after setup."
+  },
+  {
+    "QuestionText": "What is the difference between WPA2 and WPA3 WiFi security?",
+    "Options": [
+      "A) WPA3 is only for 5G networks",
+      "B) WPA3 is the newer, stronger WiFi security standard with better encryption and protection against password guessing attacks",
+      "C) WPA2 and WPA3 are identical",
+      "D) WPA3 requires a paid subscription"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Science - Networking and Internet",
+    "SubTopic": "Cyber Security",
+    "Difficulty": "Olympiad",
+    "Explanation": "WiFi security evolution: WEP (easily cracked, obsolete) \u2192 WPA \u2192 WPA2 (current standard, CCMP/AES encryption, 2004) \u2192 WPA3 (2018). WPA3 improvements: SAE (Simultaneous Authentication of Equals) handshake \u2014 resistant to offline dictionary attacks even with weak passwords, forward secrecy (past sessions can't be decrypted even if key is later compromised), 192-bit encryption for enterprise, simplified IoT device setup. If router supports WPA3, use it; otherwise WPA2-AES is acceptable. Never use WEP or WPA (TKIP)."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Air pollution is defined as:",
+    "Options": [
+      "A) Any change in air composition",
+      "B) The presence of harmful substances in the air in concentrations that damage living organisms and the environment",
+      "C) Increase in oxygen levels in the atmosphere",
+      "D) Seasonal changes in air temperature"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Air pollution is the presence of harmful substances (pollutants) in the atmosphere in concentrations high enough to adversely affect human health, animals, plants, and the environment. Sources include industries, vehicles, power plants, burning of waste, and natural events like volcanic eruptions. Pollutants include CO\u2082, SO\u2082, NO\u2093, CO, particulate matter, and heavy metal vapours."
+  },
+  {
+    "QuestionText": "Which of the following is a major cause of air pollution?",
+    "Options": [
+      "A) Planting trees",
+      "B) Burning of fossil fuels in vehicles and industries",
+      "C) Rainfall",
+      "D) Photosynthesis by plants"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Burning fossil fuels (coal, petroleum, natural gas) in vehicles, power plants, and industries releases CO\u2082, CO, SO\u2082, NO\u2093, and particulate matter into the atmosphere. These are the primary causes of air pollution in urban and industrial areas. Industrial chimneys, vehicle exhausts, and coal power plants are major point sources of pollution."
+  },
+  {
+    "QuestionText": "The greenhouse effect leads to which environmental problem?",
+    "Options": [
+      "A) Depletion of ozone layer",
+      "B) Global warming and climate change",
+      "C) Acid rain formation",
+      "D) Photochemical smog only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "The enhanced greenhouse effect: CO\u2082, methane, water vapour, and other greenhouse gases trap outgoing infrared radiation from Earth's surface, warming the planet. Increasing CO\u2082 (from fossil fuel burning) intensifies this effect \u2014 causing global warming (rising average temperatures), which leads to climate change (shifted rainfall patterns, sea level rise, extreme weather events, ecosystem disruption)."
+  },
+  {
+    "QuestionText": "Acid rain is caused by:",
+    "Options": [
+      "A) Carbon dioxide and water vapour",
+      "B) Sulphur dioxide (SO\u2082) and nitrogen oxides (NO\u2093) reacting with water vapour to form acids",
+      "C) Ozone depletion in the stratosphere",
+      "D) Carbon monoxide from vehicle exhausts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Acid rain formation: SO\u2082 (from coal burning, industry) + atmospheric water \u2192 H\u2082SO\u2083 (sulphurous acid); NO\u2093 (from vehicles, high-temperature combustion) + water \u2192 HNO\u2083 (nitric acid). These acids dissolve in rainwater, lowering pH below 5.6 (normal rain pH). Acid rain damages: forests (kills trees), aquatic life (acidifies lakes killing fish), and stone monuments (corrodes marble/limestone \u2014 Taj Mahal damage)."
+  },
+  {
+    "QuestionText": "Water pollution is caused by:",
+    "Options": [
+      "A) Boiling water before drinking",
+      "B) Dumping untreated industrial and domestic sewage into water bodies",
+      "C) Using purified water for irrigation",
+      "D) Building dams on rivers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Water pollution occurs when harmful substances (sewage, industrial effluents, agricultural runoff with pesticides/fertilisers, oil spills, plastic waste, heavy metals) are discharged into water bodies. Untreated sewage introduces pathogens causing waterborne diseases. Industrial waste introduces toxic chemicals. Fertiliser runoff causes eutrophication. India's rivers (especially Ganga and Yamuna) suffer severe pollution."
+  },
+  {
+    "QuestionText": "Which of the following is a waterborne disease caused by water pollution?",
+    "Options": [
+      "A) Malaria",
+      "B) Cholera",
+      "C) Tuberculosis",
+      "D) Dengue"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Cholera is caused by Vibrio cholerae bacteria in contaminated water \u2014 a classic waterborne disease. Drinking or using water contaminated with sewage transmits the bacteria. Other waterborne diseases: typhoid, dysentery, hepatitis A, polio. Malaria and dengue spread through mosquito vectors (not waterborne), though stagnant water provides breeding grounds. TB is airborne."
+  },
+  {
+    "QuestionText": "Potable water means:",
+    "Options": [
+      "A) Water stored in pots",
+      "B) Water that is safe to drink \u2014 free from harmful chemicals, pathogens, and excessive minerals",
+      "C) Water obtained from rivers",
+      "D) Water that has been boiled only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Potable water is water that is safe for human consumption \u2014 it meets standards for: absence of pathogens (bacteria, viruses, protozoa), acceptable levels of dissolved minerals (total dissolved solids < 500 mg/L), no harmful chemicals (heavy metals, pesticides, nitrates below safe limits), acceptable colour, taste, and odour. It may be obtained by treatment of surface water or from certified groundwater sources."
+  },
+  {
+    "QuestionText": "Eutrophication occurs when:",
+    "Options": [
+      "A) Industries dump heavy metals in rivers",
+      "B) Excess nutrients (nitrogen, phosphorus) from fertiliser runoff cause excessive algal growth in water bodies",
+      "C) Oil spills cover the surface of water bodies",
+      "D) Acid rain reduces pH of lakes and rivers"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Eutrophication: excess nitrogen (NO\u2083\u207b) and phosphorus (PO\u2084\u00b3\u207b) from agricultural runoff and sewage enter water bodies. These nutrients fuel explosive algal blooms (algal overgrowth). When algae die and decompose, oxygen-consuming bacteria rapidly deplete dissolved oxygen (hypoxia). Fish and aquatic life suffocate and die \u2014 creating 'dead zones.' Lakes Chilika and Dal Lake, and many Indian water bodies suffer eutrophication."
+  },
+  {
+    "QuestionText": "Which of the following reduces air pollution from vehicles?",
+    "Options": [
+      "A) Using leaded petrol for better combustion",
+      "B) Fitting catalytic converters and using unleaded petrol",
+      "C) Increasing engine power to burn fuel faster",
+      "D) Driving at higher speeds"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Catalytic converters convert harmful exhaust gases to less harmful substances: CO \u2192 CO\u2082, unburnt hydrocarbons \u2192 CO\u2082 + H\u2082O, NO\u2093 \u2192 N\u2082. They require unleaded petrol (lead poisons the catalyst). In India, the switch to BS-VI (Bharat Stage VI) emission standards (equivalent to Euro 6) in 2020 dramatically reduced vehicle pollution levels, also mandating OBD (on-board diagnostics) for monitoring."
+  },
+  {
+    "QuestionText": "Ozone layer depletion is caused by which chemicals?",
+    "Options": [
+      "A) Carbon dioxide and methane",
+      "B) CFCs (chlorofluorocarbons) from refrigerants and aerosols",
+      "C) Sulphur dioxide from coal burning",
+      "D) Carbon monoxide from vehicle exhaust"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Chlorofluorocarbons (CFCs \u2014 used in refrigerators, air conditioners, aerosol sprays) rise slowly to the stratosphere. UV radiation breaks CFCs, releasing chlorine atoms that catalytically destroy ozone: Cl + O\u2083 \u2192 ClO + O\u2082 (one Cl atom can destroy 100,000 ozone molecules). The Montreal Protocol (1987) banned CFCs \u2014 the ozone layer is slowly recovering. Ozone depletion increases UV-B reaching Earth's surface, causing skin cancer and cataracts."
+  },
+  {
+    "QuestionText": "The Ganga Action Plan was launched to:",
+    "Options": [
+      "A) Build dams on the Ganga for irrigation",
+      "B) Clean and prevent pollution of the Ganga river",
+      "C) Increase water flow in the Ganga during summer",
+      "D) Divert Ganga water to drought-prone states"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "The Ganga Action Plan (GAP) was launched in 1985 under Prime Minister Rajiv Gandhi to reduce pollution in India's holiest river. The Ganga is severely polluted by untreated sewage from 100+ cities, industrial effluents, religious offerings, and agricultural runoff. The current National Mission for Clean Ganga (Namami Gange, 2014) allocates \u20b920,000 crore for sewage treatment plants, industrial effluent control, and riverfront development."
+  },
+  {
+    "QuestionText": "Which of the following is a primary pollutant?",
+    "Options": [
+      "A) Ozone (O\u2083) in the troposphere",
+      "B) Sulphuric acid in acid rain",
+      "C) Sulphur dioxide (SO\u2082) directly emitted from coal plants",
+      "D) Photochemical smog"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Primary pollutants are directly emitted from sources: SO\u2082 (coal burning), NO\u2093 (combustion), CO (incomplete combustion), particulate matter, VOCs, lead. Secondary pollutants form from chemical reactions of primary pollutants in the atmosphere: ozone (O\u2083 forms from NO\u2093 + VOCs + sunlight), sulphuric acid (SO\u2082 + H\u2082O \u2192 H\u2082SO\u2084), photochemical smog (formed from secondary reactions). Acid rain and smog are secondary pollution effects."
+  },
+  {
+    "QuestionText": "Biomagnification means:",
+    "Options": [
+      "A) Using microscopes to see pollution particles",
+      "B) Increasing concentration of pollutants at each level of a food chain",
+      "C) Bacteria breaking down pollutants in soil",
+      "D) Magnifying environmental impacts of pollution"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Biomagnification (biological magnification): persistent pollutants (DDT, mercury, PCBs) accumulate in organisms and are not excreted quickly. At each trophic level, predators consume many prey, concentrating the pollutant in their tissues. Example: DDT 0.003 ppb in water \u2192 0.025 ppb in plankton \u2192 2 ppb in small fish \u2192 25 ppb in large fish \u2192 75 ppb in osprey. Top predators (humans, eagles, sharks) are most affected \u2014 causing eggshell thinning in birds, neurological damage in humans."
+  },
+  {
+    "QuestionText": "Assertion: Air quality in Delhi worsens in October-November. Reason: Stubble burning in Punjab and Haryana after the kharif harvest, combined with winter temperature inversions, traps pollutants over Delhi. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Assertion TRUE: Delhi's AQI frequently reaches 'Severe' levels in October-November. Reason TRUE and correctly explains: farmers burn paddy stubble after harvest (releases massive smoke), winter temperature inversions form (warm air above traps cold polluted air below \u2014 prevents dispersal), and reduced wind speeds compound the problem. Vehicle exhaust, industrial pollution, and construction dust also contribute to one of the world's worst urban air quality crises."
+  },
+  {
+    "QuestionText": "Which of the following correctly explains what PM2.5 means?",
+    "Options": [
+      "A) Particulate matter from 2 to 5 types of industries",
+      "B) Particulate matter with diameter \u22642.5 micrometres that can penetrate deep into lungs",
+      "C) Pollution measured as 2.5% of total air volume",
+      "D) Particles visible to the naked eye of size 2.5 mm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "PM2.5 = particulate matter with aerodynamic diameter \u22642.5 micrometres (\u00b5m). These ultra-fine particles are most dangerous because they are small enough to bypass the nose and throat's filtering mechanisms and penetrate deep into the alveoli (air sacs) of the lungs, and can even enter the bloodstream. They cause respiratory diseases, cardiovascular disease, and lung cancer. WHO safe limit: 5 \u00b5g/m\u00b3 annual mean. Delhi often exceeds 200+ \u00b5g/m\u00b3 in winter."
+  },
+  {
+    "QuestionText": "How does chlorination of drinking water work?",
+    "Options": [
+      "A) Chlorine adjusts the pH of water to neutral",
+      "B) Chlorine kills pathogens (bacteria, viruses) in water, making it safe to drink",
+      "C) Chlorine removes suspended particles by sedimentation",
+      "D) Chlorine provides essential mineral nutrients"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Chlorination: chlorine gas (Cl\u2082) or chlorine compounds (sodium hypochlorite, NaOCl) are added to water. Chlorine reacts with water to form hypochlorous acid (HOCl) \u2014 a powerful disinfectant that kills bacteria, viruses, and other pathogens by oxidising their cell membranes and enzymes. It is the most widely used and cost-effective water disinfection method globally. Excess chlorine can form disinfection by-products (THMs), so dosage is carefully controlled."
+  },
+  {
+    "QuestionText": "Which of the following is an example of non-biodegradable pollutant?",
+    "Options": [
+      "A) Vegetable waste",
+      "B) Animal dung",
+      "C) Dead leaves",
+      "D) Plastic and DDT"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Non-biodegradable pollutants cannot be broken down by microorganisms \u2014 they persist in the environment indefinitely. Examples: plastic, DDT and other organochlorine pesticides, PCBs, heavy metals (mercury, lead, cadmium). Biodegradable pollutants (vegetable waste, animal dung, dead leaves) can be decomposed by microorganisms into harmless substances \u2014 they have a temporary impact. Non-biodegradable pollutants accumulate through biomagnification."
+  },
+  {
+    "QuestionText": "Industrial effluents (wastewater) must be treated before discharge because:",
+    "Options": [
+      "A) Treated water is cheaper to produce",
+      "B) Untreated effluents contain toxic chemicals, heavy metals, and acids that harm aquatic ecosystems and human health",
+      "C) Effluent treatment increases the pH of rivers to useful levels",
+      "D) Industrial water is too hot for aquatic life only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Industrial effluents from tanneries, textile mills, paper mills, chemical plants, and electroplating industries contain: heavy metals (lead, chromium, mercury \u2014 toxic even in trace amounts), acids/alkalis, dyes, organic chemicals, and high-temperature water. Discharge without treatment kills aquatic life, contaminates groundwater, and enters food chains through biomagnification. Environmental Protection Act (1986) and Water Pollution Control Act (1974) mandate effluent treatment in India."
+  },
+  {
+    "QuestionText": "The 3R approach to reducing solid waste pollution stands for:",
+    "Options": [
+      "A) Reuse, Recycle, Remove",
+      "B) Reduce, Reuse, Recycle",
+      "C) Refuse, Replace, Recover",
+      "D) Rethink, Restore, Reclaim"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "The 3R hierarchy for waste management: Reduce (produce less waste by buying less, choosing durable products), Reuse (use items multiple times before discarding \u2014 refillable bottles, reusable bags), Recycle (process waste materials into new products \u2014 paper, glass, metal, plastic). Following this hierarchy reduces pollution, conserves natural resources, reduces energy consumption, and decreases greenhouse gas emissions. Reduce is the most effective; recycling is the last resort before disposal."
+  },
+  {
+    "QuestionText": "Which of the following is the major component of urban smog?",
+    "Options": [
+      "A) Water vapour and carbon dioxide",
+      "B) Ozone, nitric oxide, peroxyacetyl nitrates (PANs) formed by photochemical reactions",
+      "C) Soot from coal power plants",
+      "D) Methane from landfills"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Photochemical smog (Los Angeles type): NO\u2093 and VOCs from vehicle exhaust react under sunlight (UV): NO\u2093 \u2192 NO\u2082 \u2192 O (singlet) \u2192 O + O\u2082 \u2192 O\u2083 (ozone); VOCs react with NO\u2082 forming PAN (peroxyacetyl nitrate). Products include tropospheric ozone, PAN, aldehydes, and secondary aerosols. These cause eye irritation, respiratory problems, and plant damage. Different from London-type smog (reducing smog: SO\u2082 + fog, from coal burning, less common now)."
+  },
+  {
+    "QuestionText": "What is the role of rainwater harvesting in addressing water pollution?",
+    "Options": [
+      "A) It removes pollutants from groundwater directly",
+      "B) It reduces dependence on polluted surface water by collecting and storing clean rainwater",
+      "C) Collected rainwater is always pure and needs no treatment",
+      "D) It only helps in flood control, not pollution reduction"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Rainwater harvesting collects and stores rain before it becomes polluted surface runoff. Benefits: reduces dependence on increasingly polluted rivers and groundwater (which may contain agricultural chemicals, sewage, heavy metals), replenishes groundwater through percolation pits (reducing over-extraction that leads to aquifer depletion), and provides relatively clean water (though roof runoff may contain some dust/bird droppings, requiring basic filtration). It complements pollution control efforts."
+  },
+  {
+    "QuestionText": "Thermal pollution of water occurs when:",
+    "Options": [
+      "A) Hot chemicals are discharged into rivers",
+      "B) Heated water from power plant cooling systems is discharged into rivers, reducing dissolved oxygen",
+      "C) Industrial dyes heat up in sunlight warming water",
+      "D) Decomposing organic matter generates heat in water"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Thermal pollution: power plants and industrial cooling systems use river/lake water, heat it, and discharge it back at elevated temperatures. Warmer water holds less dissolved oxygen (O\u2082 solubility decreases with temperature). Reduced O\u2082 stresses or kills fish and aquatic organisms, particularly cold-water species. Warmer water also accelerates algal growth, and can disrupt migration and breeding patterns of fish. Cooling towers help reduce thermal discharge."
+  },
+  {
+    "QuestionText": "Which Indian law regulates air pollution?",
+    "Options": [
+      "A) Water Prevention and Control of Pollution Act, 1974",
+      "B) Air Prevention and Control of Pollution Act, 1981",
+      "C) Environment Protection Act, 1986",
+      "D) Wildlife Protection Act, 1972"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "The Air Prevention and Control of Pollution Act (1981) is India's primary legislation for air pollution control. It established State Pollution Control Boards (SPCBs) to regulate air quality and enforce emission standards for industries. The Environment Protection Act (1986) is an umbrella legislation that covers air, water, and soil pollution. The Water Act (1974) specifically covers water pollution. CPCB (Central Pollution Control Board) monitors national air quality."
+  },
+  {
+    "QuestionText": "What is Biological Oxygen Demand (BOD) and why is it important?",
+    "Options": [
+      "A) The oxygen required by humans in polluted areas",
+      "B) The amount of oxygen required by microorganisms to decompose organic matter in water \u2014 high BOD indicates heavy organic pollution",
+      "C) The oxygen produced by aquatic plants in clean water",
+      "D) A measure of the number of bacteria in water"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "BOD measures the amount of dissolved oxygen consumed by bacteria in decomposing organic waste in water over 5 days at 20\u00b0C (BOD\u2085). High BOD indicates high organic pollution (sewage, food waste) \u2014 decomposing bacteria consume so much oxygen that fish and aquatic organisms suffocate. Clean water: BOD <2 mg/L. Slightly polluted: 3-5 mg/L. Heavily polluted: >10 mg/L. Sewage treatment plants reduce BOD before discharge."
+  },
+  {
+    "QuestionText": "Noise pollution can cause which health problems?",
+    "Options": [
+      "A) Vitamin deficiency and anaemia",
+      "B) Hearing loss, high blood pressure, sleep disturbance, and stress",
+      "C) Only ear infections",
+      "D) No health effects at noise levels below jet engine decibels"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Health effects of noise pollution: (1) Hearing impairment \u2014 above 85 dB with prolonged exposure causes gradual permanent hearing loss (noise-induced hearing loss). (2) Cardiovascular effects \u2014 elevated blood pressure, increased heart rate, and stress hormones from chronic noise exposure. (3) Sleep disturbance \u2014 disrupted sleep patterns causing fatigue and reduced immunity. (4) Psychological effects \u2014 anxiety, irritability, reduced concentration. Children's learning and development is particularly affected by school noise."
+  },
+  {
+    "QuestionText": "A student observes that fish in a pond near a factory are dying. What investigation would help identify the cause?",
+    "Options": [
+      "A) Count the number of fish remaining",
+      "B) Test the water for pH, dissolved oxygen, heavy metals, and industrial chemicals",
+      "C) Observe whether the pond has any algae",
+      "D) Measure the water temperature only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Systematic water quality testing helps identify the pollution cause: pH (too acidic/alkaline harms fish), dissolved oxygen (low DO from organic pollution/eutrophication causes suffocation), heavy metals (lead, mercury, chromium from industrial discharge \u2014 toxic to fish even in small quantities), specific industrial chemicals identified by testing against the factory's known discharge. This investigative approach identifies the pollution source, enabling targeted remediation and legal action."
+  },
+  {
+    "QuestionText": "What is the difference between point source and non-point source pollution?",
+    "Options": [
+      "A) Point source is large pollution; non-point source is small pollution",
+      "B) Point source = identifiable single discharge point (factory pipe); non-point source = diffuse from widespread area (agricultural runoff)",
+      "C) Point source affects only air; non-point source only water",
+      "D) They are the same \u2014 just different terms for the same type of pollution"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Point source pollution originates from an identifiable, discrete source \u2014 factory discharge pipe, sewage treatment plant outfall, oil tanker spill. These are easier to regulate (inspect and penalise a specific source). Non-point source (NPS) pollution comes from diffuse sources over large areas \u2014 agricultural runoff (pesticides, fertilisers from many farms), urban stormwater (carrying oil, litter, pet waste), and mining runoff. NPS is harder to control because there is no single source to regulate."
+  },
+  {
+    "QuestionText": "The Clean Air Act equivalent in India \u2014 the National Ambient Air Quality Standards (NAAQS) \u2014 sets limits for which pollutants?",
+    "Options": [
+      "A) Only CO\u2082 and methane",
+      "B) PM10, PM2.5, SO\u2082, NO\u2093, CO, O\u2083, lead, and benzene",
+      "C) Only particulate matter from factories",
+      "D) Only vehicle exhaust pollutants"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "India's NAAQS (set by CPCB, last revised 2009) specifies annual and 24-hour standards for: PM10, PM2.5 (particulate matter), SO\u2082 (sulphur dioxide), NO\u2093 (nitrogen oxides), CO (carbon monoxide), O\u2083 (ozone), Pb (lead), NH\u2083 (ammonia), benzene, and other pollutants. Standards are set based on health and ecological effects. Most Indian cities regularly exceed NAAQS limits \u2014 driving policy changes like BS-VI fuel standards, industrial emission regulations, and green belt requirements."
+  },
+  {
+    "QuestionText": "Which of the following is an effective method to reduce water pollution from agriculture?",
+    "Options": [
+      "A) Increase use of chemical fertilisers for better crop yields",
+      "B) Use of drip irrigation, organic farming, and buffer strips along water bodies",
+      "C) Spray more pesticides to reduce crop losses",
+      "D) Flood irrigate fields to wash away pollutants"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Agricultural pollution reduction strategies: Drip irrigation (water delivered precisely to roots \u2014 less runoff carrying fertilisers/pesticides), Organic farming (uses natural fertilisers and biopesticides \u2014 fewer synthetic chemicals to run off), Buffer strips (vegetated strips along waterways intercept runoff \u2014 plants absorb nutrients and trap sediment before reaching water). Integrated Pest Management (IPM) reduces pesticide use. These approaches maintain farm productivity while protecting water quality."
+  },
+  {
+    "QuestionText": "Carbon dioxide is called a greenhouse gas. Which of the following is also a potent greenhouse gas?",
+    "Options": [
+      "A) Nitrogen (N\u2082)",
+      "B) Oxygen (O\u2082)",
+      "C) Methane (CH\u2084)",
+      "D) Argon (Ar)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Methane (CH\u2084) is a potent greenhouse gas \u2014 its global warming potential is ~25-80\u00d7 greater than CO\u2082 over different time periods. Sources: livestock digestion (enteric fermentation), landfills (decomposing organic waste), rice paddies, natural gas leaks, and wetlands. Other greenhouse gases: nitrous oxide (N\u2082O, from agriculture and fertilisers), CFCs. Nitrogen, oxygen, and argon (main air components) are NOT greenhouse gases \u2014 they don't absorb infrared radiation."
+  },
+  {
+    "QuestionText": "Sewage treatment (STP) removes pollutants from wastewater through which stages?",
+    "Options": [
+      "A) One stage only \u2014 chlorination",
+      "B) Primary (physical screening/settling), secondary (biological treatment), and tertiary (advanced chemical/physical treatment)",
+      "C) Only boiling and filtering",
+      "D) Chemical precipitation and UV treatment only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sewage Treatment Plant (STP) stages: Primary treatment \u2014 physical removal of large solids (screening, grit removal) and suspended solids (sedimentation). Secondary treatment \u2014 biological treatment where microorganisms in aeration tanks consume dissolved organic matter (reduces BOD by 85-95%). Tertiary treatment \u2014 advanced removal of nutrients (nitrogen, phosphorus), pathogens (chlorination, UV), and specific chemicals. Only treated effluent meeting standards should be discharged \u2014 many Indian cities lack adequate STPs."
+  },
+  {
+    "QuestionText": "What is the 'Blue Flag' certification for beaches?",
+    "Options": [
+      "A) A certification for clean, pollution-free beaches meeting strict environmental standards",
+      "B) A national security designation for beach areas",
+      "C) A tourist rating system for beach facilities only",
+      "D) A pollution warning for unsafe swimming beaches"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Blue Flag is an international eco-label awarded by the Foundation for Environmental Education (FEE) to beaches, marinas, and sustainable boats meeting strict criteria: excellent water quality (meeting bathing water standards), environmental management (no pollution, waste management), environmental education (information for public), and safety/services. India has 12 Blue Flag beaches (2023), including Shivrajpur (Gujarat), Ghoghla (Diu), and Kasarkod (Karnataka). It promotes coastal tourism and environmental protection simultaneously."
+  },
+  {
+    "QuestionText": "Statement 1: Burning of crop stubble causes air pollution. Statement 2: Stubble burning releases CO, CO\u2082, SO\u2082, and particulate matter. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Statement 1 TRUE: stubble burning is a major cause of air pollution in North India (Punjab, Haryana) during October-November. Statement 2 TRUE: burning crop residue releases CO (incomplete combustion), CO\u2082, SO\u2082, NO\u2093, and fine particulate matter (PM2.5, PM10). These pollutants travel hundreds of kilometres \u2014 contributing significantly to Delhi's severe winter air pollution. Alternatives: happy seeder machines, bioenergy generation from stubble, composting, and mushroom cultivation on stubble."
+  },
+  {
+    "QuestionText": "Mercury pollution in water is especially dangerous because:",
+    "Options": [
+      "A) Mercury is visible in water making it easy to detect",
+      "B) Mercury biomagnifies in food chains \u2014 methylmercury accumulates in fish to concentrations millions of times higher than in surrounding water",
+      "C) Mercury directly evaporates affecting air quality only",
+      "D) Mercury reacts with water to produce toxic gases immediately"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Mercury biomagnification: inorganic mercury in water is converted to methylmercury (CH\u2083Hg\u207a) by bacteria. Methylmercury is fat-soluble and not excreted \u2014 it accumulates in tissues. At each food chain step, concentration multiplies: water (0.0001 ppb) \u2192 plankton (0.001 ppb) \u2192 small fish (0.1 ppb) \u2192 large fish (1+ ppb). Minamata disease (Japan, 1950s): industrial mercury discharge \u2192 contaminated fish \u2192 neurological damage, birth defects in humans. Tuna and swordfish carry high methylmercury warnings."
+  },
+  {
+    "QuestionText": "Which of the following is NOT a method of water purification?",
+    "Options": [
+      "A) Boiling",
+      "B) Chlorination",
+      "C) Reverse osmosis (RO)",
+      "D) Aeration with polluted air"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Aeration with POLLUTED air would introduce more pollutants into water \u2014 it is not a purification method. Water purification methods: Boiling (kills pathogens), Chlorination (kills pathogens), Reverse osmosis (removes dissolved salts, heavy metals, pollutants through semi-permeable membrane), UV treatment (kills pathogens), filtration through sand/activated carbon (removes particulates, some chemicals), sedimentation (removes suspended solids). Aeration with clean air can remove dissolved gases and oxidise iron/manganese, but polluted air would contaminate."
+  },
+  {
+    "QuestionText": "The term 'carbon footprint' refers to:",
+    "Options": [
+      "A) Physical footprints left by humans on carbon-rich soil",
+      "B) Total greenhouse gas emissions (mainly CO\u2082) produced directly and indirectly by an individual, organisation, or product",
+      "C) The carbon content of the food a person eats",
+      "D) The amount of coal mined per person in a country"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Carbon footprint measures total greenhouse gas (GHG) emissions attributable to an individual, activity, organisation, or product, expressed in CO\u2082 equivalent (CO\u2082e). Includes: direct emissions (driving, home heating), indirect emissions (electricity use, food production, manufactured goods). India's per capita carbon footprint is ~2 tonnes CO\u2082e/year (much lower than USA at ~16 tonnes, but growing rapidly). Reducing carbon footprint: use renewable energy, eat less meat, travel efficiently, buy less."
+  },
+  {
+    "QuestionText": "Particulate matter from diesel vehicles can be reduced by which technology?",
+    "Options": [
+      "A) Catalytic converters (designed for petrol engines)",
+      "B) Diesel Particulate Filters (DPF) that trap and periodically burn off soot particles",
+      "C) Higher compression ratio in the engine",
+      "D) Adding lead to diesel fuel"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Diesel Particulate Filters (DPF) are ceramic honeycomb devices installed in diesel exhaust systems. They trap soot particles (PM2.5, PM10) from diesel combustion. Periodically, the filter undergoes 'regeneration' \u2014 accumulated soot is burned off at high temperature (passive regeneration during highway driving, or active regeneration injecting extra fuel). DPFs can reduce particulate emissions by >95%. India's BS-VI emission standard (2020) mandated DPFs on new diesel vehicles, dramatically improving air quality in cities."
+  },
+  {
+    "QuestionText": "Which of the following is the best long-term solution to air pollution from fossil fuel burning?",
+    "Options": [
+      "A) Planting more trees to absorb CO\u2082",
+      "B) Transitioning to renewable energy (solar, wind, hydro) and electric vehicles",
+      "C) Restricting vehicle use to alternate days only",
+      "D) Moving factories to rural areas away from cities"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "The best long-term solution eliminates the source rather than managing symptoms: transitioning from fossil fuels (coal, oil, gas) to renewable energy (solar, wind, hydropower, geothermal) eliminates CO\u2082, SO\u2082, NO\u2093, and particulate emissions at the source. Electric vehicles charged from renewable electricity produce zero tailpipe emissions. Planting trees helps but cannot offset massive fossil fuel emissions. Restricting vehicle use/moving factories are temporary mitigation measures, not solutions to the underlying energy system problem."
+  },
+  {
+    "QuestionText": "Which of the following is a health effect of drinking water with excess fluoride?",
+    "Options": [
+      "A) Cholera",
+      "B) Dental and skeletal fluorosis \u2014 mottling of teeth and weakening of bones",
+      "C) Night blindness",
+      "D) Anaemia"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Fluoride in drinking water at 0.5-1.5 mg/L has a beneficial effect (prevents tooth decay). Above 1.5 mg/L causes dental fluorosis (mottled, brown-stained teeth). Above 4 mg/L causes skeletal fluorosis \u2014 fluoride replaces calcium in bones, making them dense but brittle and causing joint deformities. Rajasthan, Gujarat, and AP have regions with naturally high fluoride groundwater. Defluoridation treatment (Nalgonda technique, activated alumina filters) removes excess fluoride."
+  },
+  {
+    "QuestionText": "The term 'e-waste' refers to:",
+    "Options": [
+      "A) Ecological waste from forests",
+      "B) Discarded electronic devices \u2014 computers, phones, TVs \u2014 containing toxic materials like lead, mercury, cadmium",
+      "C) Electrical energy wasted in power transmission",
+      "D) Effluent waste from electronics factories only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "E-waste (electronic waste) includes discarded phones, computers, TVs, batteries, and other electronics. These contain toxic materials: lead (solder), mercury (LCD backlights), cadmium (batteries), chromium, and flame retardants. Informal e-waste recycling (burning circuit boards, acid stripping in open areas) releases toxins into soil and air. India is the 3rd largest e-waste producer. Proper e-waste recycling through certified facilities recovers valuable metals while preventing environmental contamination."
+  },
+  {
+    "QuestionText": "Why is the Taj Mahal facing damage from air pollution?",
+    "Options": [
+      "A) Acid rain from SO\u2082 and NO\u2093 pollution corrodes its white marble surface",
+      "B) Tourists breathe on it increasing humidity",
+      "C) Earthquakes from nearby traffic vibration crack the marble",
+      "D) UV radiation from ozone depletion bleaches the marble"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "The Taj Mahal is made of white Makrana marble (calcium carbonate, CaCO\u2083). Acid rain (from SO\u2082 and NO\u2093 in Agra's industrial and traffic pollution): CaCO\u2083 + H\u2082SO\u2084 \u2192 CaSO\u2084 + CO\u2082 + H\u2082O. Calcium sulphate (gypsum) is soluble and washes away, eroding the surface. Airborne soot also causes yellowing. The Supreme Court created a 'Taj Trapezium Zone' restricting industries and vehicles near Agra to protect this UNESCO World Heritage Site."
+  },
+  {
+    "QuestionText": "Catalytic converters in vehicles convert which harmful gases to less harmful substances?",
+    "Options": [
+      "A) CO\u2082 \u2192 CO + O",
+      "B) CO \u2192 CO\u2082; NO\u2093 \u2192 N\u2082; unburnt hydrocarbons \u2192 CO\u2082 + H\u2082O",
+      "C) SO\u2082 \u2192 S + O\u2082",
+      "D) Only CO is converted to CO\u2082"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Catalytic converters contain precious metal catalysts (platinum, palladium, rhodium) on a ceramic honeycomb. Three-way catalysts simultaneously perform: (1) Oxidation of CO \u2192 CO\u2082 and unburnt hydrocarbons \u2192 CO\u2082 + H\u2082O. (2) Reduction of NO\u2093 \u2192 N\u2082 + O\u2082. These convert three harmful gases to relatively harmless N\u2082, CO\u2082, and H\u2082O. They require unleaded petrol (lead poisons the catalyst). India's BS-VI standard mandated three-way catalysts with improved specifications."
+  },
+  {
+    "QuestionText": "What does 'AQI' stand for and what does a value of 300 indicate?",
+    "Options": [
+      "A) Air Quality Indicator \u2014 300 means excellent air quality",
+      "B) Air Quality Index \u2014 300 falls in 'Very Poor' category posing serious health risks to all people",
+      "C) Atmospheric Quality Inventory \u2014 300 is the national average",
+      "D) Air Quantity Index \u2014 measures volume of air only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "AQI (Air Quality Index) is a standardised scale (0-500) combining measurements of PM2.5, PM10, O\u2083, NO\u2082, SO\u2082, and CO. Categories: 0-50 Good, 51-100 Satisfactory, 101-200 Moderate, 201-300 Poor, 301-400 Very Poor, 401-500 Severe/Hazardous. AQI 300 = 'Very Poor' \u2014 people with respiratory/heart disease should avoid going out; sensitive groups experience severe effects; everyone likely to experience health effects. Delhi frequently reaches 400+ in winter."
+  },
+  {
+    "QuestionText": "Which of the following is the most effective individual action to reduce water pollution?",
+    "Options": [
+      "A) Avoid disposing medicines, chemicals, and oils down drains or toilets",
+      "B) Take shorter showers",
+      "C) Install water-saving taps",
+      "D) Drink bottled water instead of tap water"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Disposing medicines down drains: pharmaceutical compounds enter waterways, affecting aquatic organisms (fish, amphibians) at low concentrations \u2014 disrupting hormones and reproduction. Oils/chemicals in drains contaminate groundwater and sewage treatment plants. Shorter showers and water-saving taps conserve water (important but don't reduce pollution). Bottled water has its own environmental impact (plastic waste, transport emissions). Safe disposal of hazardous household chemicals prevents them from entering the water system."
+  },
+  {
+    "QuestionText": "Statement 1: Renewable energy helps reduce air pollution. Statement 2: Solar and wind power produce electricity without burning fuels, generating no direct air pollutants. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Statement 1 TRUE: replacing fossil fuel power plants with renewable energy reduces SO\u2082, NO\u2093, CO, PM, and CO\u2082 emissions \u2014 directly improving air quality. Statement 2 TRUE: solar panels and wind turbines generate electricity from sunlight and wind without any combustion \u2014 zero direct air pollutants during operation. While manufacturing them requires energy (potentially from fossil fuels), their lifetime carbon footprint is 95%+ lower than coal power. India's target of 500 GW renewable capacity by 2030 will substantially reduce air pollution."
+  },
+  {
+    "QuestionText": "Rainwater collected from rooftops may still need treatment because:",
+    "Options": [
+      "A) Rainwater is too pure and needs minerals added",
+      "B) Roof runoff may contain bird droppings (pathogens), dust, atmospheric pollutants, and lead from old pipes",
+      "C) Rainwater is acidic from CO\u2082 and cannot be treated",
+      "D) Rooftop collection is illegal in India"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Although rain is relatively clean when it falls, it picks up contaminants from rooftops: bird droppings (Salmonella, E. coli, Campylobacter), dust and atmospheric particles (including PM2.5), pollen, and any chemicals on roof surfaces. First-flush diverters (diverting the first few minutes of rain) remove most contaminants. Basic filtration and disinfection (UV or chlorination) make rooftop harvested water safe for drinking. For non-potable uses (gardening, toilet flushing), treatment is less critical."
+  },
+  {
+    "QuestionText": "Which of the following best explains why cities in valleys often have worse air pollution than cities on plains?",
+    "Options": [
+      "A) Valley cities have more industries",
+      "B) Temperature inversions in valleys trap pollutants \u2014 cold air settles in valleys, warm air above acts as a lid",
+      "C) Valley cities have more vehicles per person",
+      "D) Mountains block wind, but air quality in valleys is always better"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Temperature inversions: normally, air temperature decreases with altitude (warmer below, cooler above), allowing pollutants to rise and disperse. In valleys, cold dense air sinks and pools in the valley floor at night; warmer air above acts as an invisible lid (inversion layer). Pollutants (vehicle exhaust, wood burning, industry) emitted at the valley floor cannot rise through the warm layer above \u2014 they accumulate, creating severe pollution. Cities like Kathmandu, Mexico City, and parts of California's San Joaquin Valley suffer severely from inversions."
+  },
+  {
+    "QuestionText": "What is 'green chemistry' and how does it relate to pollution prevention?",
+    "Options": [
+      "A) Chemistry experiments conducted in green laboratories",
+      "B) Design of chemical products and processes that minimise or eliminate the use and generation of hazardous substances",
+      "C) Chemistry of photosynthesis in plants only",
+      "D) Chemical analysis of environmental samples for pollution monitoring"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Green chemistry (sustainable chemistry) applies 12 principles to prevent pollution at the molecular level: design safer chemicals, use renewable feedstocks, minimise waste, avoid hazardous solvents, use catalytic processes (less stoichiometric reagents), use atom economy (minimise by-products). Rather than treating pollution after it forms, green chemistry prevents it from being created. Examples: CO\u2082 as solvent instead of toxic organic solvents, bio-based polymers instead of petroleum plastics, enzymatic processes replacing harsh chemical reactions in pharmaceutical manufacturing."
+  },
+  {
+    "QuestionText": "How does planting trees in urban areas help reduce air pollution?",
+    "Options": [
+      "A) Trees increase oxygen levels dramatically \u2014 the main mechanism",
+      "B) Trees absorb CO\u2082, particulates, O\u2083, SO\u2082, and NO\u2093 while releasing oxygen, and their canopy reduces urban temperatures",
+      "C) Trees block wind carrying pollutants from spreading",
+      "D) Tree roots absorb vehicle exhaust gases underground"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Air Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Urban trees reduce air pollution through multiple mechanisms: (1) Photosynthesis absorbs CO\u2082 and releases O\u2082. (2) Leaf surfaces adsorb particulate matter, SO\u2082, NO\u2093, and O\u2083 \u2014 washed off by rain. (3) Canopy reduces urban heat island effect by shading and evapotranspiration \u2014 reducing energy-intensive air conditioning. (4) Trees release phytoncides that may reduce some pollutants. However, trees alone cannot compensate for massive fossil fuel emissions \u2014 source reduction remains the priority. Some trees also release VOCs that can contribute to O\u2083 formation under certain conditions."
+  },
+  {
+    "QuestionText": "What percentage of Earth's water is fresh water accessible for human use?",
+    "Options": [
+      "A) About 70%",
+      "B) About 30%",
+      "C) About 3%",
+      "D) Less than 1%"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Pollution of Air and Water",
+    "SubTopic": "Water Pollution",
+    "Difficulty": "Advanced",
+    "Explanation": "Earth's water distribution: ~97.5% is saltwater (oceans), ~2.5% is fresh water. Of that 2.5% fresh water: ~69% is locked in polar ice caps and glaciers, ~30% is groundwater (much too deep to access economically), <1% is in rivers, lakes, soil moisture \u2014 the readily accessible surface fresh water. So only about 0.025% of Earth's total water is easily accessible for human use. This makes water conservation and pollution prevention critically important."
+  }
+]

@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "वाक्य किसे कहते हैं?",
+        "Options":  [
+                        "A) शब्दों का वह समूह जो पूरा अर्थ व्यक्त करे",
+                        "B) कोई भी शब्द",
+                        "C) अक्षरों का समूह",
+                        "D) केवल क्रिया"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "वाक्य = व्यवस्थित शब्द समूह जो पूरा अर्थ दे।"
+    },
+    {
+        "QuestionText":  "वाक्य के अनिवार्य अंग कितने हैं?",
+        "Options":  [
+                        "A) दो — उद्देश्य और विधेय",
+                        "B) तीन",
+                        "C) एक",
+                        "D) चार"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Subject (उद्देश्य) और Predicate (विधेय)।"
+    },
+    {
+        "QuestionText":  "\u0027राम खेलता है\u0027 — उद्देश्य?",
+        "Options":  [
+                        "A) राम",
+                        "B) खेलता",
+                        "C) है",
+                        "D) खेलता है"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027राम\u0027 — उद्देश्य।"
+    },
+    {
+        "QuestionText":  "\u0027राम खेलता है\u0027 — विधेय?",
+        "Options":  [
+                        "A) खेलता है",
+                        "B) राम",
+                        "C) रोज़",
+                        "D) मैदान में"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027खेलता है\u0027 — विधेय।"
+    },
+    {
+        "QuestionText":  "सरल वाक्य किसे कहते हैं?",
+        "Options":  [
+                        "A) एक उद्देश्य और एक विधेय वाला वाक्य",
+                        "B) दो उद्देश्य वाला",
+                        "C) तीन क्रिया वाला",
+                        "D) बहुत छोटा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027बच्चा रोता है।\u0027 — सरल वाक्य।"
+    },
+    {
+        "QuestionText":  "संयुक्त वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) राम आया और सीता गई।",
+                        "B) वह जाता है।",
+                        "C) क्या वह गया?",
+                        "D) घर जाओ!"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "दो उपवाक्य \u0027और\u0027 से जुड़े।"
+    },
+    {
+        "QuestionText":  "मिश्र वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) जो परिश्रम करता है, वह सफल होता है।",
+                        "B) राम जाता है।",
+                        "C) क्या राम गया?",
+                        "D) राम, जाओ!"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Advanced",
+        "Explanation":  "मुख्य + आश्रित उपवाक्य।"
+    },
+    {
+        "QuestionText":  "विधानार्थक वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) राम स्कूल जाता है।",
+                        "B) क्या राम जाता है?",
+                        "C) स्कूल जाओ!",
+                        "D) काश! राम जाता!"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "विधानार्थक — बात बताता है।"
+    },
+    {
+        "QuestionText":  "प्रश्नार्थक वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) क्या तुम स्कूल जाते हो?",
+                        "B) राम जाता है।",
+                        "C) स्कूल जाओ!",
+                        "D) काश! वह आता!"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "प्रश्नार्थक — प्रश्न पूछता है।"
+    },
+    {
+        "QuestionText":  "आज्ञार्थक वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) दरवाज़ा बंद करो!",
+                        "B) वह खेलता है।",
+                        "C) क्या वह आया?",
+                        "D) वह आता तो अच्छा होता।"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "आज्ञा या अनुरोध।"
+    },
+    {
+        "QuestionText":  "इच्छार्थक वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) ईश्वर करे, तुम्हारा भला हो!",
+                        "B) वह जाता है।",
+                        "C) क्या वह गया?",
+                        "D) घर जाओ!"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "इच्छा या कामना।"
+    },
+    {
+        "QuestionText":  "संकेतार्थक वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) यदि वर्षा होती, तो फसल अच्छी होती।",
+                        "B) वह जाता है।",
+                        "C) क्या तुम जाओगे?",
+                        "D) चले जाओ!"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Advanced",
+        "Explanation":  "एक काम दूसरे पर निर्भर।"
+    },
+    {
+        "QuestionText":  "विस्मयार्थक वाक्य का उदाहरण?",
+        "Options":  [
+                        "A) वाह! कितना सुंदर दृश्य है!",
+                        "B) वह जाता है।",
+                        "C) क्या तुम गए?",
+                        "D) वर्षा होगी।"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Foundation",
+        "Explanation":  "आश्चर्य या खुशी।"
+    },
+    {
+        "QuestionText":  "हिंदी वाक्य में सामान्य शब्द-क्रम?",
+        "Options":  [
+                        "A) कर्ता + कर्म + क्रिया",
+                        "B) क्रिया + कर्ता + कर्म",
+                        "C) कर्म + क्रिया + कर्ता",
+                        "D) कोई क्रम नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "वाक्य रचना",
+        "Difficulty":  "Advanced",
+        "Explanation":  "हिंदी SOV: \u0027राम सेब खाता है।\u0027"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027आकाश में ___ चमकते हैं।\u0027",
+        "Options":  [
+                        "A) तारे",
+                        "B) सूरज",
+                        "C) बादल",
+                        "D) पत्ते"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027आकाश में तारे चमकते हैं।\u0027"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027मोर ___ का राष्ट्रीय पक्षी है।\u0027",
+        "Options":  [
+                        "A) भारत",
+                        "B) चीन",
+                        "C) अमेरिका",
+                        "D) रूस"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "मोर भारत का राष्ट्रीय पक्षी।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027गाय ___ देती है।\u0027",
+        "Options":  [
+                        "A) दूध",
+                        "B) शहद",
+                        "C) अंडे",
+                        "D) ऊन"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "गाय दूध देती है।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027हमारा देश ___ है।\u0027",
+        "Options":  [
+                        "A) भारत",
+                        "B) चीन",
+                        "C) नेपाल",
+                        "D) बांग्लादेश"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "हमारा देश भारत है।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027गंगा एक पवित्र ___ है।\u0027",
+        "Options":  [
+                        "A) नदी",
+                        "B) पर्वत",
+                        "C) झील",
+                        "D) समुद्र"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "गंगा — नदी।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027फूल ___ होते हैं।\u0027",
+        "Options":  [
+                        "A) सुंदर",
+                        "B) कड़वे",
+                        "C) खट्टे",
+                        "D) कठोर"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "फूल सुंदर होते हैं।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027बच्चे ___ में खेलते हैं।\u0027",
+        "Options":  [
+                        "A) मैदान",
+                        "B) समुद्र",
+                        "C) आकाश",
+                        "D) जंगल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "बच्चे मैदान में खेलते हैं।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027सूर्य ___ दिशा से उगता है।\u0027",
+        "Options":  [
+                        "A) पूर्व",
+                        "B) पश्चिम",
+                        "C) उत्तर",
+                        "D) दक्षिण"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सूर्य पूर्व से उगता है।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027हिमालय एक ___ है।\u0027",
+        "Options":  [
+                        "A) पर्वत",
+                        "B) नदी",
+                        "C) मैदान",
+                        "D) समुद्र"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "हिमालय — पर्वत।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027हम ___ से पानी पीते हैं।\u0027",
+        "Options":  [
+                        "A) गिलास",
+                        "B) थाली",
+                        "C) कटोरी",
+                        "D) चम्मच"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "गिलास से पानी।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027पक्षी ___ में उड़ते हैं।\u0027",
+        "Options":  [
+                        "A) आकाश",
+                        "B) पानी",
+                        "C) ज़मीन",
+                        "D) पेड़"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "पक्षी आकाश में उड़ते हैं।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027बकरी ___ खाती है।\u0027",
+        "Options":  [
+                        "A) घास",
+                        "B) माँस",
+                        "C) मछली",
+                        "D) अनाज"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "बकरी घास खाती है।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027वर्षा ___ से होती है।\u0027",
+        "Options":  [
+                        "A) बादल",
+                        "B) हवा",
+                        "C) धूप",
+                        "D) बर्फ"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "वर्षा बादल से।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027हम ___ से लिखते हैं।\u0027",
+        "Options":  [
+                        "A) कलम",
+                        "B) चम्मच",
+                        "C) कटोरी",
+                        "D) कुर्सी"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "कलम से लिखते हैं।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027शेर जंगल का ___ है।\u0027",
+        "Options":  [
+                        "A) राजा",
+                        "B) नौकर",
+                        "C) मेहमान",
+                        "D) बच्चा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "शेर — जंगल का राजा।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027ताजमहल ___ में स्थित है।\u0027",
+        "Options":  [
+                        "A) आगरा",
+                        "B) दिल्ली",
+                        "C) जयपुर",
+                        "D) मुंबई"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "ताजमहल आगरा में।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027दो और दो ___ होते हैं।\u0027",
+        "Options":  [
+                        "A) चार",
+                        "B) पाँच",
+                        "C) तीन",
+                        "D) छह"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "2+2=4।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027स्वच्छता ___ की जननी है।\u0027",
+        "Options":  [
+                        "A) स्वास्थ्य",
+                        "B) धन",
+                        "C) बुद्धि",
+                        "D) शक्ति"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "स्वच्छता स्वास्थ्य की जननी।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027भारत की राजधानी ___ है।\u0027",
+        "Options":  [
+                        "A) नई दिल्ली",
+                        "B) मुंबई",
+                        "C) चेन्नई",
+                        "D) कोलकाता"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "नई दिल्ली — राजधानी।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027हिंदी ___ की राजभाषा है।\u0027",
+        "Options":  [
+                        "A) भारत",
+                        "B) अमेरिका",
+                        "C) चीन",
+                        "D) जापान"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "हिंदी भारत की राजभाषा।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027सुबह ___ नाश्ता करना चाहिए।\u0027",
+        "Options":  [
+                        "A) अवश्य",
+                        "B) कभी नहीं",
+                        "C) शायद",
+                        "D) संभव"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सुबह अवश्य नाश्ता।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027घर में बड़ों का ___ करना चाहिए।\u0027",
+        "Options":  [
+                        "A) आदर",
+                        "B) अपमान",
+                        "C) मज़ाक",
+                        "D) विरोध"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "बड़ों का आदर।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027जल ही ___ है।\u0027",
+        "Options":  [
+                        "A) जीवन",
+                        "B) मृत्यु",
+                        "C) शक्ति",
+                        "D) भोजन"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "जल ही जीवन है।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027रात को ___ चमकते हैं।\u0027",
+        "Options":  [
+                        "A) तारे",
+                        "B) सूरज",
+                        "C) बादल",
+                        "D) इंद्रधनुष"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "रात को तारे चमकते हैं।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027अध्यापक ___ को पढ़ाते हैं।\u0027",
+        "Options":  [
+                        "A) छात्रों",
+                        "B) पौधों",
+                        "C) पशुओं",
+                        "D) पत्थरों"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "अध्यापक छात्रों को पढ़ाते हैं।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027वृक्ष हमें ___ देते हैं।\u0027",
+        "Options":  [
+                        "A) फल और छाया",
+                        "B) पानी और धूप",
+                        "C) रेत और पत्थर",
+                        "D) मिट्टी और बर्फ"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "फल और छाया।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027स्वतंत्रता दिवस ___ को मनाया जाता है।\u0027",
+        "Options":  [
+                        "A) 15 अगस्त",
+                        "B) 26 जनवरी",
+                        "C) 2 अक्तूबर",
+                        "D) 1 मई"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "15 अगस्त — स्वतंत्रता दिवस।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027गाँधी जी का जन्म ___ को हुआ।\u0027",
+        "Options":  [
+                        "A) 2 अक्तूबर",
+                        "B) 15 अगस्त",
+                        "C) 26 जनवरी",
+                        "D) 14 नवंबर"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "2 अक्तूबर 1869।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027सर्दियों में हम ___ पहनते हैं।\u0027",
+        "Options":  [
+                        "A) ऊनी कपड़े",
+                        "B) सूती कपड़े",
+                        "C) रेशमी कपड़े",
+                        "D) नहीं पहनते"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "सर्दियों में ऊनी कपड़े।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027मछली ___ में रहती है।\u0027",
+        "Options":  [
+                        "A) पानी",
+                        "B) ज़मीन",
+                        "C) आकाश",
+                        "D) पेड़"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "मछली पानी में।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027चाँद ___ में चमकता है।\u0027",
+        "Options":  [
+                        "A) रात",
+                        "B) दिन",
+                        "C) दोपहर",
+                        "D) शाम"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "चाँद रात में।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027किसान ___ उगाता है।\u0027",
+        "Options":  [
+                        "A) फसल",
+                        "B) दीपक",
+                        "C) कमरा",
+                        "D) किताब"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "किसान फसल उगाता है।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027हम भूख लगने पर ___ खाते हैं।\u0027",
+        "Options":  [
+                        "A) भोजन",
+                        "B) पानी",
+                        "C) हवा",
+                        "D) दवाई"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भूख पर भोजन खाते हैं।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027राष्ट्रीय गान ___ ने लिखा।\u0027",
+        "Options":  [
+                        "A) रवींद्रनाथ टैगोर",
+                        "B) प्रेमचंद",
+                        "C) सुभाष चंद्र बोस",
+                        "D) महात्मा गाँधी"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Advanced",
+        "Explanation":  "जन गण मन — रवींद्रनाथ टैगोर।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027भारत में ___ ऋतुएँ होती हैं।\u0027",
+        "Options":  [
+                        "A) छह",
+                        "B) दो",
+                        "C) तीन",
+                        "D) चार"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Advanced",
+        "Explanation":  "भारत में छह ऋतुएँ।"
+    },
+    {
+        "QuestionText":  "रिक्त स्थान: \u0027हम प्रतिदिन ___ ब्रश करते हैं।\u0027",
+        "Options":  [
+                        "A) दाँत",
+                        "B) बाल",
+                        "C) हाथ",
+                        "D) नाखून"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "रिक्त स्थान",
+        "Difficulty":  "Foundation",
+        "Explanation":  "प्रतिदिन दाँत ब्रश।"
+    }
+]

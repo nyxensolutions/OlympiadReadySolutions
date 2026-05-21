@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Distance is a __ quantity while displacement is a __ quantity.",
+    "Options": [
+      "A) Scalar, Scalar",
+      "B) Vector, Scalar",
+      "C) Scalar, Vector",
+      "D) Vector, Vector"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Distance and Displacement",
+    "Difficulty": "Foundation",
+    "Explanation": "Distance = total path length (scalar, no direction). Displacement = shortest path from start to end (vector, has direction)."
+  },
+  {
+    "QuestionText": "Speed is defined as:",
+    "Options": [
+      "A) Distance \u00d7 time",
+      "B) Displacement / time",
+      "C) Distance / time",
+      "D) Velocity \u00d7 mass"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed = distance/time. It is a scalar quantity. Velocity = displacement/time (vector)."
+  },
+  {
+    "QuestionText": "SI unit of velocity is:",
+    "Options": [
+      "A) km/h",
+      "B) m/s",
+      "C) cm/s",
+      "D) m/min"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "SI unit of velocity (and speed) is metres per second (m/s)."
+  },
+  {
+    "QuestionText": "Acceleration is defined as:",
+    "Options": [
+      "A) Change in speed \u00d7 time",
+      "B) Change in velocity / time",
+      "C) Distance / time\u00b2",
+      "D) Velocity \u00d7 time"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Acceleration",
+    "Difficulty": "Foundation",
+    "Explanation": "Acceleration = (v - u)/t = change in velocity / time. SI unit: m/s\u00b2."
+  },
+  {
+    "QuestionText": "A body moving at constant speed in a straight line has acceleration:",
+    "Options": [
+      "A) Positive",
+      "B) Negative",
+      "C) Zero",
+      "D) Variable"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Acceleration",
+    "Difficulty": "Foundation",
+    "Explanation": "Constant speed + straight line = uniform velocity = zero acceleration."
+  },
+  {
+    "QuestionText": "The first equation of motion is:",
+    "Options": [
+      "A) s = ut + \u00bdat\u00b2",
+      "B) v\u00b2 = u\u00b2 + 2as",
+      "C) v = u + at",
+      "D) s = vt \u2212 \u00bdat\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "v = u + at: final velocity = initial velocity + acceleration \u00d7 time."
+  },
+  {
+    "QuestionText": "The second equation of motion is:",
+    "Options": [
+      "A) v = u + at",
+      "B) s = ut + \u00bdat\u00b2",
+      "C) v\u00b2 = u\u00b2 + 2as",
+      "D) s = vt"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "s = ut + \u00bdat\u00b2: displacement = (initial velocity \u00d7 time) + \u00bd \u00d7 acceleration \u00d7 time\u00b2."
+  },
+  {
+    "QuestionText": "The third equation of motion is:",
+    "Options": [
+      "A) v = u + at",
+      "B) s = ut + \u00bdat\u00b2",
+      "C) v\u00b2 = u\u00b2 + 2as",
+      "D) a = (v\u2212u)/t"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "v\u00b2 = u\u00b2 + 2as. Useful when time is not given."
+  },
+  {
+    "QuestionText": "A car starts from rest and reaches 20 m/s in 4s. Acceleration = ?",
+    "Options": [
+      "A) 4 m/s\u00b2",
+      "B) 5 m/s\u00b2",
+      "C) 8 m/s\u00b2",
+      "D) 80 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Acceleration",
+    "Difficulty": "Foundation",
+    "Explanation": "a=(v-u)/t=(20-0)/4=5 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Slope of a distance-time graph gives:",
+    "Options": [
+      "A) Acceleration",
+      "B) Velocity",
+      "C) Speed",
+      "D) Displacement"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Slope of distance-time graph = distance/time = speed. For displacement-time graph, slope = velocity."
+  },
+  {
+    "QuestionText": "A horizontal line on a velocity-time graph represents:",
+    "Options": [
+      "A) Zero velocity",
+      "B) Constant velocity (uniform motion)",
+      "C) Acceleration",
+      "D) Retardation"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Horizontal line on v-t graph: velocity constant, slope = 0 = zero acceleration = uniform motion."
+  },
+  {
+    "QuestionText": "Slope of a velocity-time graph gives:",
+    "Options": [
+      "A) Speed",
+      "B) Distance",
+      "C) Acceleration",
+      "D) Displacement"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Slope = (change in velocity)/(time) = acceleration."
+  },
+  {
+    "QuestionText": "Area under a velocity-time graph gives:",
+    "Options": [
+      "A) Speed",
+      "B) Acceleration",
+      "C) Distance",
+      "D) Force"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Area under v-t graph = displacement (if using velocity) or distance (if using speed)."
+  },
+  {
+    "QuestionText": "A ball thrown upward decelerates at g \u2248 10 m/s\u00b2. If thrown at 30 m/s, time to reach max height is:",
+    "Options": [
+      "A) 2s",
+      "B) 3s",
+      "C) 5s",
+      "D) 10s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "At max height, v=0. v=u\u2212gt \u2192 0=30\u221210t \u2192 t=3s."
+  },
+  {
+    "QuestionText": "Uniform circular motion is an example of:",
+    "Options": [
+      "A) Uniform motion",
+      "B) Non-uniform motion (varying direction = changing velocity)",
+      "C) Linear motion",
+      "D) Rest"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Types of Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "In uniform circular motion, speed is constant but direction changes continuously, so velocity changes. Hence it is non-uniform motion."
+  },
+  {
+    "QuestionText": "A body covers 40m in first 4s and 80m in next 4s. The motion is:",
+    "Options": [
+      "A) Uniform",
+      "B) Non-uniform (accelerated)",
+      "C) Non-uniform (decelerated)",
+      "D) Uniform circular"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Types of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "40m in 4s = 10m/s. 80m in next 4s = 20m/s. Speed increasing \u2192 non-uniform/accelerated."
+  },
+  {
+    "QuestionText": "Retardation (deceleration) means:",
+    "Options": [
+      "A) Positive acceleration",
+      "B) Acceleration in the direction of motion",
+      "C) Negative acceleration (opposing motion)",
+      "D) Zero acceleration"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Acceleration",
+    "Difficulty": "Foundation",
+    "Explanation": "Retardation = deceleration = negative acceleration. Velocity decreases. E.g., braking of a car."
+  },
+  {
+    "QuestionText": "A train starts from rest and moves with a = 2 m/s\u00b2. Distance in 10s is:",
+    "Options": [
+      "A) 100m",
+      "B) 200m",
+      "C) 50m",
+      "D) 400m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "s=ut+\u00bdat\u00b2=0+\u00bd\u00d72\u00d7100=100m."
+  },
+  {
+    "QuestionText": "The distance-time graph for uniform motion is a:",
+    "Options": [
+      "A) Curve",
+      "B) Horizontal line",
+      "C) Straight line (with slope)",
+      "D) Vertical line"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Uniform motion: constant speed \u2192 straight line on d-t graph with positive slope."
+  },
+  {
+    "QuestionText": "An odometer measures:",
+    "Options": [
+      "A) Speed",
+      "B) Velocity",
+      "C) Distance",
+      "D) Acceleration"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "Odometer measures the total distance travelled by a vehicle. Speedometer measures speed."
+  },
+  {
+    "QuestionText": "A car brakes from 30 m/s to rest in 6s. The retardation is:",
+    "Options": [
+      "A) 3 m/s\u00b2",
+      "B) 5 m/s\u00b2",
+      "C) 6 m/s\u00b2",
+      "D) 10 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Acceleration",
+    "Difficulty": "Foundation",
+    "Explanation": "a=(v-u)/t=(0-30)/6=-5 m/s\u00b2. Magnitude of retardation = 5 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Initial velocity u=0, final velocity v=10m/s, s=50m. Acceleration = ?",
+    "Options": [
+      "A) 0.5 m/s\u00b2",
+      "B) 1 m/s\u00b2",
+      "C) 2 m/s\u00b2",
+      "D) 5 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "v\u00b2=u\u00b2+2as \u2192 100=0+2a\u00d750=100a \u2192 a=1 m/s\u00b2."
+  },
+  {
+    "QuestionText": "Relative velocity of A moving at 60 km/h and B at 40 km/h in the SAME direction = ?",
+    "Options": [
+      "A) 100 km/h",
+      "B) 60 km/h",
+      "C) 40 km/h",
+      "D) 20 km/h"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "Same direction: relative velocity = |60-40| = 20 km/h."
+  },
+  {
+    "QuestionText": "A car moves 60 km at 30 km/h and 60 km at 60 km/h. Average speed = ?",
+    "Options": [
+      "A) 40 km/h",
+      "B) 45 km/h",
+      "C) 50 km/h",
+      "D) 60 km/h"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "Time\u2081=60/30=2h. Time\u2082=60/60=1h. Total=120km in 3h. Avg speed=120/3=40 km/h."
+  },
+  {
+    "QuestionText": "A ball thrown up from a cliff returns to the same height after 6s. Height of cliff = ?  (g=10)",
+    "Options": [
+      "A) 30m",
+      "B) 45m",
+      "C) 60m",
+      "D) 90m"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Olympiad",
+    "Explanation": "Goes up for 3s, comes down for 3s. Max height = \u00bdg\u00d79=45m."
+  },
+  {
+    "QuestionText": "The curved line on a d-t graph indicates:",
+    "Options": [
+      "A) Uniform motion",
+      "B) Rest",
+      "C) Non-uniform motion (variable speed)",
+      "D) Constant velocity"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Curved d-t graph: slope is changing \u2192 speed is changing \u2192 non-uniform motion."
+  },
+  {
+    "QuestionText": "Two objects start from the same point. One moves at 5 m/s and other at 8 m/s. After 10s, distance between them = ?",
+    "Options": [
+      "A) 30m",
+      "B) 50m",
+      "C) 80m",
+      "D) 130m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "Distance by A=50m, B=80m. Difference=80-50=30m (same direction)."
+  },
+  {
+    "QuestionText": "Displacement can be negative. This means:",
+    "Options": [
+      "A) Going backwards",
+      "B) Impossible situation",
+      "C) Error in measurement",
+      "D) Very fast motion"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Distance and Displacement",
+    "Difficulty": "Foundation",
+    "Explanation": "Negative displacement means the final position is behind the initial position (opposite to reference direction)."
+  },
+  {
+    "QuestionText": "A sprinter runs 100m in 10s. Average speed = ?",
+    "Options": [
+      "A) 5 m/s",
+      "B) 10 m/s",
+      "C) 15 m/s",
+      "D) 20 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed = distance/time = 100/10 = 10 m/s."
+  },
+  {
+    "QuestionText": "A body is dropped from rest. Distance fallen in 2s (g=10m/s\u00b2) = ?",
+    "Options": [
+      "A) 10m",
+      "B) 15m",
+      "C) 20m",
+      "D) 40m"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "s=ut+\u00bdgt\u00b2=0+\u00bd\u00d710\u00d74=20m."
+  },
+  {
+    "QuestionText": "In a velocity-time graph, a straight line passing through origin (not horizontal) indicates:",
+    "Options": [
+      "A) Uniform motion",
+      "B) Uniform acceleration from rest",
+      "C) Deceleration",
+      "D) Rest"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Straight line through origin on v-t: v=at \u2192 starts from rest (u=0) with constant acceleration."
+  },
+  {
+    "QuestionText": "Uniform motion means:",
+    "Options": [
+      "A) Body at rest",
+      "B) Equal distances in equal time intervals",
+      "C) Constant acceleration",
+      "D) Variable velocity"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Types of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "Uniform motion: equal distances covered in equal time intervals in the same direction = constant velocity."
+  },
+  {
+    "QuestionText": "A train slows from 20 m/s to rest over 100m. Retardation = ?",
+    "Options": [
+      "A) 1 m/s\u00b2",
+      "B) 2 m/s\u00b2",
+      "C) 4 m/s\u00b2",
+      "D) 5 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "v\u00b2=u\u00b2+2as \u2192 0=400+2a\u00d7100 \u2192 200a=-400 \u2192 a=-2 m/s\u00b2."
+  },
+  {
+    "QuestionText": "What does a steeper slope on a d-t graph indicate?",
+    "Options": [
+      "A) Lower speed",
+      "B) Higher speed",
+      "C) Zero speed",
+      "D) Negative speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Steeper slope = larger \u0394d/\u0394t = higher speed."
+  },
+  {
+    "QuestionText": "Displacement of an object in circular motion after one complete revolution = ?",
+    "Options": [
+      "A) 2\u03c0r",
+      "B) \u03c0r",
+      "C) 0",
+      "D) 4r"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Distance and Displacement",
+    "Difficulty": "Foundation",
+    "Explanation": "After one complete circle, the object returns to starting point. Net displacement = 0. Distance = 2\u03c0r (circumference)."
+  },
+  {
+    "QuestionText": "Time taken for a car to travel 180 km at 60 km/h is:",
+    "Options": [
+      "A) 2h",
+      "B) 3h",
+      "C) 4h",
+      "D) 5h"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "t=d/v=180/60=3 hours."
+  },
+  {
+    "QuestionText": "An object at rest has:",
+    "Options": [
+      "A) Displacement",
+      "B) Velocity",
+      "C) Acceleration",
+      "D) Zero velocity"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "A body at rest has zero velocity (no displacement per unit time)."
+  },
+  {
+    "QuestionText": "If a ball is thrown upward and reaches maximum height, at maximum height its velocity is:",
+    "Options": [
+      "A) Maximum",
+      "B) Equal to initial velocity",
+      "C) Zero",
+      "D) g"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "At maximum height, vertical velocity momentarily = 0 before the ball starts falling back down."
+  },
+  {
+    "QuestionText": "1 m/s = __ km/h",
+    "Options": [
+      "A) 1",
+      "B) 3.6",
+      "C) 18",
+      "D) 0.36"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Foundation",
+    "Explanation": "1 m/s = 1 m/s \u00d7 (3600s/1h) \u00d7 (1km/1000m) = 3.6 km/h. Conversion: multiply by 18/5 or 3.6."
+  },
+  {
+    "QuestionText": "The velocity-time graph for retardation is a:",
+    "Options": [
+      "A) Horizontal line",
+      "B) Straight line with positive slope",
+      "C) Straight line with negative slope",
+      "D) Curved line"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Foundation",
+    "Explanation": "Retardation = negative acceleration = decreasing velocity = negative slope on v-t graph."
+  },
+  {
+    "QuestionText": "Scalars require:",
+    "Options": [
+      "A) Both magnitude and direction",
+      "B) Magnitude only",
+      "C) Direction only",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Distance and Displacement",
+    "Difficulty": "Foundation",
+    "Explanation": "Scalar quantities have only magnitude. Examples: distance, speed, mass, temperature. Vectors have both magnitude AND direction."
+  },
+  {
+    "QuestionText": "An object with a = 0 and u = 5 m/s has velocity after 10s of:",
+    "Options": [
+      "A) 0 m/s",
+      "B) 5 m/s",
+      "C) 50 m/s",
+      "D) 55 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "v=u+at=5+0\u00d710=5 m/s. Zero acceleration means constant velocity."
+  },
+  {
+    "QuestionText": "Distance covered by freely falling body in 1st, 2nd, 3rd seconds ratio (g=10): ",
+    "Options": [
+      "A) 1:2:3",
+      "B) 1:3:5",
+      "C) 1:4:9",
+      "D) 5:15:25"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Advanced",
+    "Explanation": "From rest, distance in nth second \u221d (2n-1). Ratio: 1:3:5 (Odd numbers)."
+  },
+  {
+    "QuestionText": "A train travels 200m in 10s, then 300m in 20s. Average speed overall = ?",
+    "Options": [
+      "A) 16.67 m/s",
+      "B) 20 m/s",
+      "C) 25 m/s",
+      "D) 50 m/s"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Speed and Velocity",
+    "Difficulty": "Advanced",
+    "Explanation": "Total distance=500m, Total time=30s. Average speed=500/30=16.67 m/s."
+  },
+  {
+    "QuestionText": "Which best represents non-uniform acceleration on a v-t graph?",
+    "Options": [
+      "A) Straight line",
+      "B) Horizontal line",
+      "C) Curved line",
+      "D) Vertical line"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Graphs",
+    "Difficulty": "Advanced",
+    "Explanation": "Non-uniform acceleration = changing acceleration = changing slope on v-t graph \u2192 curved line."
+  },
+  {
+    "QuestionText": "Acceleration due to gravity near Earth's surface is approximately:",
+    "Options": [
+      "A) 8.9 m/s\u00b2",
+      "B) 9.8 m/s\u00b2",
+      "C) 10.8 m/s\u00b2",
+      "D) 11.2 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "g \u2248 9.8 m/s\u00b2 (often approximated as 10 m/s\u00b2 in problems). It acts downward toward Earth's centre."
+  },
+  {
+    "QuestionText": "A person travels 3 km East then 4 km North. Displacement is:",
+    "Options": [
+      "A) 7 km",
+      "B) 5 km",
+      "C) 1 km",
+      "D) 3.5 km"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Distance and Displacement",
+    "Difficulty": "Advanced",
+    "Explanation": "Displacement = \u221a(3\u00b2+4\u00b2) = \u221a25 = 5 km (by Pythagoras). Distance = 7 km."
+  },
+  {
+    "QuestionText": "If u=0, a=5 m/s\u00b2, find v after 4s:",
+    "Options": [
+      "A) 10 m/s",
+      "B) 15 m/s",
+      "C) 20 m/s",
+      "D) 25 m/s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "v=u+at=0+5\u00d74=20 m/s."
+  },
+  {
+    "QuestionText": "A car's velocity-time graph shows v increases from 10 to 40 m/s in 15s. Acceleration = ?",
+    "Options": [
+      "A) 1 m/s\u00b2",
+      "B) 2 m/s\u00b2",
+      "C) 3 m/s\u00b2",
+      "D) 4 m/s\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Acceleration",
+    "Difficulty": "Foundation",
+    "Explanation": "a=(40-10)/15=30/15=2 m/s\u00b2."
+  },
+  {
+    "QuestionText": "A car decelerates uniformly from 30 m/s to rest in 5s. Distance covered:",
+    "Options": [
+      "A) 50m",
+      "B) 60m",
+      "C) 75m",
+      "D) 90m"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Physics - Motion",
+    "SubTopic": "Equations of Motion",
+    "Difficulty": "Foundation",
+    "Explanation": "a=(0-30)/5=-6 m/s\u00b2. s=ut+\u00bdat\u00b2=30\u00d75+\u00bd\u00d7(-6)\u00d725=150-75=75m. Or: s=(u+v)t/2=(30+0)\u00d75/2=75m."
+  }
+]

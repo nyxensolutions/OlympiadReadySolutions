@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Sound is produced by:",
+    "Options": [
+      "A) Light rays hitting objects",
+      "B) Vibration of objects",
+      "C) Electric current flowing through a wire",
+      "D) Heat radiation from hot bodies"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Production of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound is produced when objects vibrate \u2014 they alternately push and pull the surrounding medium (air, water, solid) creating regions of compression and rarefaction. Examples: vibrating vocal cords produce voice; vibrating guitar strings produce music; vibrating speaker cone produces audio. Without vibration, no sound is produced."
+  },
+  {
+    "QuestionText": "Which of the following is the best medium for sound to travel?",
+    "Options": [
+      "A) Vacuum",
+      "B) Air",
+      "C) Water",
+      "D) Steel"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound travels fastest in solids (steel ~5,100 m/s) because molecules are tightly packed \u2014 vibrations transfer efficiently. In liquids (water ~1,500 m/s) molecules are less densely packed. In gases (air ~343 m/s at 20\u00b0C) molecules are far apart, so transfer is slowest. Vacuum cannot transmit sound \u2014 no medium means no vibration transfer."
+  },
+  {
+    "QuestionText": "Sound cannot travel through:",
+    "Options": [
+      "A) Air",
+      "B) Water",
+      "C) Vacuum",
+      "D) Steel"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound is a mechanical wave \u2014 it requires a physical medium (matter) to propagate. In a vacuum, there are no molecules to vibrate and pass on the disturbance. This is why space is silent \u2014 there is no medium for sound to travel through. The famous tagline 'In space, no one can hear you scream' is scientifically accurate."
+  },
+  {
+    "QuestionText": "The number of vibrations per second is called:",
+    "Options": [
+      "A) Amplitude",
+      "B) Wavelength",
+      "C) Frequency",
+      "D) Speed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Frequency is the number of complete vibrations (oscillations) per second. SI unit is Hertz (Hz). 1 Hz = 1 vibration per second. Higher frequency = higher pitch of sound. Human hearing range: 20 Hz to 20,000 Hz. Below 20 Hz = infrasound; above 20,000 Hz = ultrasound."
+  },
+  {
+    "QuestionText": "Which property of sound determines its loudness?",
+    "Options": [
+      "A) Frequency",
+      "B) Wavelength",
+      "C) Amplitude",
+      "D) Speed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Loudness is determined by the amplitude of sound waves \u2014 the maximum displacement of particles from their rest position. Greater amplitude = louder sound. Frequency determines pitch (high/low); wavelength and speed are related but don't directly determine loudness. Loudness is measured in decibels (dB) \u2014 a logarithmic scale."
+  },
+  {
+    "QuestionText": "The echo of a sound is heard when the reflecting surface is at least how far away?",
+    "Options": [
+      "A) 10 metres",
+      "B) 17 metres",
+      "C) 5 metres",
+      "D) 100 metres"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "For a separate echo to be heard, the reflected sound must arrive at least 0.1 seconds after the original sound (human ear's persistence of sound). Sound travels at ~340 m/s in air. In 0.1 s: distance = 340 \u00d7 0.1 = 34 m total (to wall and back). So the wall must be at least 34/2 = 17 m away. At shorter distances, the echo merges with the original sound causing reverberation."
+  },
+  {
+    "QuestionText": "Ultrasound is used in medical imaging (sonography) because:",
+    "Options": [
+      "A) Ultrasound is visible light that passes through skin",
+      "B) High-frequency ultrasound reflects off internal organs, producing images",
+      "C) Ultrasound kills bacteria inside the body",
+      "D) Ultrasound heats body tissues for treatment only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Ultrasound (frequency >20,000 Hz) is beamed into the body. Different tissues reflect ultrasound differently \u2014 the reflected waves (echoes) are detected by sensors and processed into images. It is safe (no radiation), non-invasive, and can image soft tissues in real time. Used to image foetus during pregnancy, detect tumours, examine organs."
+  },
+  {
+    "QuestionText": "Pitch of a sound depends on:",
+    "Options": [
+      "A) Amplitude of vibration",
+      "B) Frequency of vibration",
+      "C) Speed of sound",
+      "D) Material of vibrating object only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Pitch is the perception of how high or low a sound is \u2014 directly related to frequency. High frequency = high pitch (shrill, like a whistle). Low frequency = low pitch (deep, like a drum). Same instrument: tighter/shorter strings vibrate at higher frequency, producing higher pitch. Amplitude affects loudness, not pitch."
+  },
+  {
+    "QuestionText": "Which of the following is an infrasonic sound?",
+    "Options": [
+      "A) Dog whistle",
+      "B) Bat navigation signal",
+      "C) Earthquake seismic waves",
+      "D) Human speech"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Infrasound has frequency below 20 Hz (below human hearing range). Earthquakes, volcanic eruptions, and ocean waves produce infrasound. Elephants and whales use infrasound for long-distance communication. Dog whistles and bat navigation signals are ultrasound (>20,000 Hz). Normal human speech is 80-3,000 Hz (audible range)."
+  },
+  {
+    "QuestionText": "SONAR uses which type of sound for detecting underwater objects?",
+    "Options": [
+      "A) Audible sound only",
+      "B) Infrasound",
+      "C) Ultrasound",
+      "D) All frequencies equally"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "SONAR (Sound Navigation And Ranging) uses ultrasound pulses transmitted through water. These waves reflect off underwater objects (submarines, seabed, fish) and return to the sensor. The depth/distance is calculated from the time taken for the echo to return (d = v \u00d7 t/2). Ultrasound is used because it travels well through water and provides better resolution than lower frequencies."
+  },
+  {
+    "QuestionText": "The time period of a vibrating body is:",
+    "Options": [
+      "A) Total time of vibration",
+      "B) Time for one complete vibration",
+      "C) Frequency \u00d7 amplitude",
+      "D) Number of vibrations per second"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Time period (T) is the time taken for ONE complete oscillation/vibration. It is the reciprocal of frequency: T = 1/f (where f = frequency in Hz). If a tuning fork vibrates at 440 Hz, its time period = 1/440 \u2248 0.00227 seconds per vibration."
+  },
+  {
+    "QuestionText": "Sound travels faster in summer than winter. Why?",
+    "Options": [
+      "A) More people talk in summer increasing sound speed",
+      "B) Higher air temperature in summer means faster average molecular motion \u2014 sound travels faster",
+      "C) Summer air is denser slowing sound",
+      "D) Winter air contains more moisture reducing speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Speed of sound in air increases with temperature: v = 331 + 0.6T m/s (T in \u00b0C). At 0\u00b0C: 331 m/s; at 30\u00b0C: 349 m/s. Higher temperature means air molecules have greater average kinetic energy \u2014 they vibrate faster and transfer compressions/rarefactions more rapidly. Sound is approximately 0.6 m/s faster for every 1\u00b0C temperature increase."
+  },
+  {
+    "QuestionText": "Noise pollution is defined as:",
+    "Options": [
+      "A) Any sound above 50 dB",
+      "B) Unwanted sound that is unpleasant, distracting, or harmful to health",
+      "C) Only industrial noise",
+      "D) Sound produced by vehicles only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Noise Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Noise pollution is unwanted, unpleasant sound that can cause physical harm (hearing loss above 85-90 dB), physiological effects (stress, elevated blood pressure), psychological effects (sleep disturbance, anxiety), and communication interference. Sources: traffic, industrial machinery, aircraft, loudspeakers, firecrackers. Safe exposure: below 85 dB for prolonged periods."
+  },
+  {
+    "QuestionText": "A bat uses echolocation to hunt in darkness. How does this work?",
+    "Options": [
+      "A) Bats produce light waves to see in dark",
+      "B) Bats emit ultrasound pulses that reflect off objects; returning echoes give location and distance information",
+      "C) Bats have superior vision not needing sound",
+      "D) Bats detect heat radiation from prey"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Bats emit rapid ultrasonic pulses (20,000-100,000 Hz) from their larynx/nose. These travel outward, reflect off insects and objects, and return as echoes to the bat's large ears. By analysing the echo's time delay, direction, frequency (Doppler shift for moving prey), and pattern, bats accurately locate, identify, and track prey in complete darkness. This biological sonar is so precise bats can detect wires 1mm thick."
+  },
+  {
+    "QuestionText": "Assertion: Sound waves are longitudinal waves. Reason: The particles of the medium vibrate parallel to the direction of wave propagation. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: sound waves are longitudinal (compression) waves. Reason TRUE and correctly explains: in longitudinal waves, medium particles oscillate PARALLEL to the direction of wave travel \u2014 creating alternating compressions (high density, high pressure) and rarefactions (low density, low pressure) along the direction of propagation. This contrasts with transverse waves (like light) where particles oscillate perpendicular to travel direction."
+  },
+  {
+    "QuestionText": "A sound of frequency 500 Hz travels in air at 340 m/s. What is its wavelength?",
+    "Options": [
+      "A) 0.68 m",
+      "B) 1.7 m",
+      "C) 68 m",
+      "D) 170,000 m"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Wavelength \u03bb = v/f = 340 m/s \u00f7 500 Hz = 0.68 m. The wave equation: v = f\u03bb (speed = frequency \u00d7 wavelength). At 500 Hz, each sound wave is 0.68 m long. Higher frequency = shorter wavelength (for same speed). Lower frequency = longer wavelength."
+  },
+  {
+    "QuestionText": "Which of the following characteristics of sound enables musical instruments of different types to be distinguished even when playing the same note?",
+    "Options": [
+      "A) Pitch",
+      "B) Loudness",
+      "C) Quality (timbre)",
+      "D) Frequency"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Quality (timbre) is what distinguishes instruments playing the same note at the same loudness. A piano and guitar playing middle C (same frequency, same amplitude) sound different because they produce different overtones/harmonics in addition to the fundamental frequency. The unique pattern of harmonics gives each instrument its characteristic tone quality/timbre."
+  },
+  {
+    "QuestionText": "Reverberation in a large hall is caused by:",
+    "Options": [
+      "A) Sound waves cancelling each other",
+      "B) Multiple reflections of sound from walls, floor, and ceiling mixing with the original sound",
+      "C) The hall amplifying sound artificially",
+      "D) Sound bouncing only off the ceiling"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Reverberation is the persistence of sound due to multiple reflections. In a large hall, sound reflects off multiple surfaces (walls, floor, ceiling) arriving at the listener at slightly different times after the original sound. These overlapping reflections merge, prolonging the sound. Excessive reverberation makes speech unclear (echoes overlap words). Auditoriums use sound-absorbing materials (curtains, carpets, acoustic tiles) to reduce reverberation."
+  },
+  {
+    "QuestionText": "How does sound help doctors in diagnosing heart problems?",
+    "Options": [
+      "A) Heart sounds are ultrasound that require special equipment",
+      "B) Stethoscope amplifies heart sounds (auscultation) revealing abnormal patterns",
+      "C) Sound waves are injected into the chest cavity",
+      "D) Heart emits infrared radiation which converts to sound"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Stethoscope uses sound amplification and transmission: the chest piece picks up vibrations from heart valves opening/closing, transmits them through air columns in tubing to earpieces. The doctor hears distinct 'lub-dub' sounds \u2014 lub (mitral/tricuspid closing) and dub (aortic/pulmonary closing). Abnormal sounds (murmurs, irregular rhythms) indicate valve problems or other conditions."
+  },
+  {
+    "QuestionText": "Which of the following is an example of ultrasound used in industry?",
+    "Options": [
+      "A) X-ray imaging of metal parts",
+      "B) Ultrasonic cleaning of delicate instruments and detecting cracks in metals",
+      "C) Laser cutting of industrial components",
+      "D) Chemical etching of circuit boards"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Industrial ultrasound applications: (1) Ultrasonic cleaning \u2014 high-frequency vibrations in liquid create cavitation bubbles that dislodge dirt from delicate items (jewellery, surgical instruments, optical lenses) without abrasion. (2) Non-destructive testing (NDT) \u2014 ultrasonic pulses detect internal cracks, voids, or defects in metal structures (pipelines, aircraft wings, railway tracks) without cutting them open."
+  },
+  {
+    "QuestionText": "The decibel scale for measuring sound is:",
+    "Options": [
+      "A) Linear \u2014 doubling dB means doubling sound energy",
+      "B) Logarithmic \u2014 10 dB increase means 10\u00d7 more sound intensity",
+      "C) Exponential \u2014 dB values decrease with distance",
+      "D) Directly proportional to amplitude"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Noise Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "The decibel (dB) scale is logarithmic: every 10 dB increase represents a 10-fold increase in sound intensity. 0 dB = threshold of hearing; 60 dB (conversation) = 10\u2076 \u00d7 threshold; 120 dB (jet engine) = 10\u00b9\u00b2 \u00d7 threshold. This logarithmic scale reflects how human hearing perceives loudness \u2014 our ears work logarithmically. 20 dB sounds twice as loud as 10 dB to humans, but has 10\u00d7 the intensity."
+  },
+  {
+    "QuestionText": "Dolphins navigate and hunt using which ability?",
+    "Options": [
+      "A) Magnetic field sensing",
+      "B) Echolocation using ultrasonic clicks and interpreting reflected echoes",
+      "C) Infrared vision in murky water",
+      "D) Electric field detection from prey"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Dolphins produce ultrasonic clicks (up to 200,000 Hz) from their nasal passages. These travel through water, reflect off objects (fish, obstacles, seabed), and return as echoes detected by the dolphin's lower jaw (which conducts sound to the inner ear). They can determine distance, size, shape, and even the internal structure (gas pockets) of objects \u2014 far more detailed than bat echolocation. Used for hunting fish even in murky water or complete darkness."
+  },
+  {
+    "QuestionText": "What is the speed of sound in air at 20\u00b0C (approximately)?",
+    "Options": [
+      "A) 34 m/s",
+      "B) 340 m/s",
+      "C) 3400 m/s",
+      "D) 1500 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Speed of sound in air at 20\u00b0C \u2248 343 m/s (approximately 340 m/s for calculations). At 0\u00b0C it is 331 m/s. For comparison: speed of light = 3 \u00d7 10\u2078 m/s (about 1 million times faster). This difference is why we see lightning before hearing thunder \u2014 both travel from the same location but at very different speeds."
+  },
+  {
+    "QuestionText": "Sound is a mechanical wave. This means:",
+    "Options": [
+      "A) Sound requires a mechanical device to produce it",
+      "B) Sound requires a material medium to propagate",
+      "C) Sound can only travel through solid metal",
+      "D) Sound is produced by mechanical movement of electrons"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "A mechanical wave requires a material medium (solid, liquid, or gas) to travel through \u2014 it propagates by passing vibrations between adjacent particles. Unlike electromagnetic waves (light, radio, X-rays) which can travel through vacuum, mechanical waves like sound cannot. This is the fundamental distinction: electromagnetic waves are self-propagating oscillations of electric and magnetic fields; mechanical waves require physical matter to vibrate."
+  },
+  {
+    "QuestionText": "A musician plucks a guitar string harder. What changes in the sound produced?",
+    "Options": [
+      "A) Frequency increases (higher pitch)",
+      "B) Amplitude increases (louder sound)",
+      "C) Wavelength increases",
+      "D) Speed of sound increases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Plucking harder increases the amplitude of string vibration \u2014 the string vibrates with greater displacement. Greater amplitude = more energy = louder sound (higher intensity/dB). The frequency (and hence pitch) depends on string length, tension, and mass per unit length \u2014 not on how hard it is plucked. Speed of sound depends on the medium (air), not the source."
+  },
+  {
+    "QuestionText": "Lightning and thunder happen simultaneously, but we see lightning first. Why?",
+    "Options": [
+      "A) Thunder is produced after lightning by a chemical reaction",
+      "B) Light travels approximately 1 million times faster than sound through air",
+      "C) Lightning happens above the cloud while thunder forms on the ground",
+      "D) Our eyes process electrical signals faster than our ears"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Both light (flash) and sound (thunder) are produced simultaneously by the lightning bolt. But light travels at 3 \u00d7 10\u2078 m/s \u2014 about 870,000 times faster than sound (~343 m/s). So even from several kilometres away, light arrives almost instantaneously while sound takes several seconds. You can estimate distance to lightning: count seconds between flash and thunder, divide by 3 (sound travels ~1 km in 3 seconds)."
+  },
+  {
+    "QuestionText": "Hearing aids work by:",
+    "Options": [
+      "A) Generating ultrasound to replace damaged hearing",
+      "B) Amplifying incoming sound waves electronically before they reach the ear",
+      "C) Surgically replacing the eardrum",
+      "D) Converting sound to light signals inside the ear"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Hearing aids contain: microphone (converts sound to electrical signal), amplifier (increases the signal strength), and speaker (converts amplified signal back to louder sound waves directed into the ear canal). This compensates for reduced sensitivity of the ear (damaged hair cells in cochlea, eardrum issues). Modern digital hearing aids can selectively amplify specific frequencies and filter background noise."
+  },
+  {
+    "QuestionText": "Sound of frequency below 20 Hz is called infrasound. Which animals can detect it?",
+    "Options": [
+      "A) Dogs (up to 65,000 Hz)",
+      "B) Elephants and whales",
+      "C) Bats (up to 200,000 Hz)",
+      "D) Dolphins"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Elephants communicate using low-frequency infrasound (14-35 Hz) that travels through the ground and air over long distances (up to 10 km). They detect ground vibrations through their feet and the fatty pads in their jaw. Whales (especially blue whales) communicate using very low frequency sound (below 20 Hz) that travels thousands of kilometres through the ocean. Bats and dogs hear high-frequency ultrasound, not infrasound."
+  },
+  {
+    "QuestionText": "How is sound used in the treatment of kidney stones (lithotripsy)?",
+    "Options": [
+      "A) Sound waves surgically cut the stones",
+      "B) Focused high-energy ultrasonic shock waves are used to shatter kidney stones into small fragments",
+      "C) Sound waves dissolve stones chemically",
+      "D) Low-frequency sound waves push stones out of the body"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Extracorporeal Shock Wave Lithotripsy (ESWL) uses focused high-energy ultrasonic shock waves directed at kidney stones from outside the body. The waves converge on the stone with enough energy to shatter it into tiny fragments that can pass naturally through the urinary tract. This non-invasive technique avoids surgery. The waves pass through soft tissue safely but shatter the hard stone due to differential stress."
+  },
+  {
+    "QuestionText": "A sound wave has frequency 1000 Hz and wavelength 0.34 m. What is its speed?",
+    "Options": [
+      "A) 0.00034 m/s",
+      "B) 340 m/s",
+      "C) 2941 m/s",
+      "D) 1000.34 m/s"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "v = f \u00d7 \u03bb = 1000 Hz \u00d7 0.34 m = 340 m/s. This is the standard speed of sound in air at room temperature. The wave equation v = f\u03bb applies to all waves. Given frequency and wavelength, speed can be calculated simply by multiplying."
+  },
+  {
+    "QuestionText": "Which of the following correctly explains the Doppler effect for sound?",
+    "Options": [
+      "A) Sound speed changes when the source moves",
+      "B) Observed frequency increases when source and observer approach, decreases when moving apart",
+      "C) Amplitude increases when source moves toward observer",
+      "D) Sound bends around corners when source moves"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "Doppler effect: when a sound source and observer move relative to each other. Source approaching observer: sound waves are compressed (shorter wavelength) \u2192 higher frequency (higher pitch). Source moving away: waves are stretched \u2192 lower frequency (lower pitch). Classic example: ambulance siren sounds higher-pitched approaching and lower-pitched moving away. Used in speed cameras, weather radar, and medical Doppler ultrasound to measure blood flow."
+  },
+  {
+    "QuestionText": "A room's walls are covered with soft material (curtains, foam, carpet). What effect does this have on sound?",
+    "Options": [
+      "A) Increases reverberation by reflecting more sound",
+      "B) Reduces reverberation by absorbing sound waves instead of reflecting them",
+      "C) Increases the speed of sound in the room",
+      "D) Amplifies sound by converting heat to sound energy"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Soft, porous materials absorb sound waves \u2014 the sound energy is converted to tiny amounts of heat as air molecules in the material's pores vibrate and lose energy through viscous damping. Hard, smooth surfaces (walls, floors) reflect most sound energy. Acoustic treatment (foam panels, curtains, carpets) reduces reflections and reverberation, improving speech intelligibility in recording studios, lecture halls, home theatres, and offices."
+  },
+  {
+    "QuestionText": "Which of the following musical instruments produces sound by vibrating air columns?",
+    "Options": [
+      "A) Guitar",
+      "B) Drum",
+      "C) Flute",
+      "D) Sitar"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Production of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Flute produces sound by blowing air across a hole, creating a vibrating air column inside the tube. The length of the vibrating air column is changed by opening or closing holes along the tube, changing frequency (pitch). Guitar and sitar use vibrating strings; drums use vibrating membranes. Wind instruments (flute, clarinet, trumpet) all use vibrating air columns."
+  },
+  {
+    "QuestionText": "The cochlea in the human ear:",
+    "Options": [
+      "A) Detects sound direction",
+      "B) Converts sound vibrations into electrical nerve signals sent to the brain",
+      "C) Amplifies sound before it reaches the inner ear",
+      "D) Protects the ear from very loud sounds"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "The cochlea (snail-shaped fluid-filled tube in the inner ear) contains thousands of hair cells on the basilar membrane. Sound-induced vibrations cause waves in the cochlear fluid, which deflect hair cells. Different hair cells respond to different frequencies (high frequencies at base, low frequencies at apex). Deflection of hair cells generates electrical signals transmitted via the auditory nerve to the brain for interpretation as sound."
+  },
+  {
+    "QuestionText": "What is the role of the three ossicles (hammer, anvil, stirrup) in the middle ear?",
+    "Options": [
+      "A) Generate sound waves",
+      "B) Amplify and transmit vibrations from the eardrum to the inner ear",
+      "C) Detect the direction of sound",
+      "D) Protect against infection in the ear"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "The three ossicles (malleus/hammer, incus/anvil, stapes/stirrup) form a mechanical chain in the middle ear. They amplify sound vibrations (~20\u00d7) and efficiently transfer them from the large eardrum (tympanic membrane) to the small oval window of the cochlea. The size difference (large eardrum \u2192 small oval window) concentrates force, compensating for the impedance mismatch between air and cochlear fluid."
+  },
+  {
+    "QuestionText": "A student stands 340 m from a cliff and shouts. After how many seconds does she hear the echo? (Speed of sound = 340 m/s)",
+    "Options": [
+      "A) 0.5 s",
+      "B) 1 s",
+      "C) 2 s",
+      "D) 340 s"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Sound travels 340 m to the cliff and 340 m back = 680 m total. Time = distance/speed = 680 m \u00f7 340 m/s = 2 seconds. Echo is heard 2 seconds after the shout. This is above the 0.1 s minimum required to hear a distinct echo (17 m minimum distance). Echo is used to calculate distances: d = (v \u00d7 t)/2."
+  },
+  {
+    "QuestionText": "Statement 1: A sharp sudden pain in the ear can result from very loud sounds. Statement 2: Loud sounds cause the eardrum to vibrate with extremely large amplitude, potentially rupturing it. Which are correct?",
+    "Options": [
+      "A) Only Statement 1",
+      "B) Only Statement 2",
+      "C) Both",
+      "D) Neither"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Noise Pollution",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1 TRUE: extremely loud sounds (explosions, gunshots >140 dB) can cause immediate pain and physical damage to the ear. Statement 2 TRUE: the eardrum is a thin membrane. Very loud sounds cause extremely large amplitude vibrations that can exceed the membrane's elastic limit, causing rupture (barotrauma). This can also damage the delicate hair cells in the cochlea \u2014 causing permanent hearing loss. Even sustained exposure to 85+ dB can cause gradual hearing loss."
+  },
+  {
+    "QuestionText": "Ultrasound can be used to clean jewellery without scratching it. The cleaning mechanism is:",
+    "Options": [
+      "A) Ultrasound dissolves dirt chemically",
+      "B) Cavitation \u2014 ultrasonic waves cause microscopic bubbles in liquid that implode, generating shock waves dislodging dirt",
+      "C) Ultrasound heats the jewellery melting dirt off",
+      "D) High-frequency vibrations magnetically repel dirt particles"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "Ultrasonic cleaners operate by cavitation: ultrasound (40,000-400,000 Hz) in liquid creates rapid pressure cycles. During low-pressure phases, microscopic bubbles form; during high-pressure phases, these bubbles violently implode, generating tiny localised shock waves (~5,500\u00b0C, ~1,000 atm locally for microseconds). These micro-implosions dislodge dirt, grease, and contaminants from surfaces without any abrasive contact \u2014 safe for delicate items like jewellery, optical instruments, and dental equipment."
+  },
+  {
+    "QuestionText": "Sound waves can diffract (bend around obstacles). Diffraction is most noticeable when:",
+    "Options": [
+      "A) Sound wavelength is much larger than the obstacle",
+      "B) Sound wavelength is much smaller than the obstacle",
+      "C) Sound travels at higher speed",
+      "D) Sound has higher frequency"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "Diffraction (bending of waves around obstacles) is most significant when wavelength \u2265 obstacle size. Sound wavelengths range from ~1.7 cm (20,000 Hz) to ~17 m (20 Hz). Low-frequency sound (long wavelength, e.g., bass music) diffracts easily around walls and buildings. High-frequency sound (short wavelength) diffracts less \u2014 it travels more like a light beam. This is why you can hear the bass beat from a nearby party through walls better than the high-pitched vocals."
+  },
+  {
+    "QuestionText": "Which of the following correctly explains why sound travels faster through water than through air?",
+    "Options": [
+      "A) Water molecules are heavier providing more energy to sound waves",
+      "B) Water molecules are closer together \u2014 vibrations are transferred more quickly from molecule to molecule",
+      "C) Water has lower viscosity than air",
+      "D) Water temperature is always higher than air temperature"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Sound speed depends on the medium's elasticity and density: v = \u221a(B/\u03c1) for fluids (B = bulk modulus, \u03c1 = density). Water has much higher bulk modulus (compressibility resistance) than air \u2014 it is much less compressible. Despite being denser, water's much greater elasticity (resistance to compression) more than compensates, giving higher sound speed (~1,500 m/s vs 343 m/s). Molecular proximity means vibration transfers faster between water molecules than widely-spaced air molecules."
+  },
+  {
+    "QuestionText": "Noise from firecrackers during festivals causes which of the following problems?",
+    "Options": [
+      "A) Only temporary deafness lasting 1 minute maximum",
+      "B) Stress in humans, panic/injury in animals, hearing damage at close range, and air pollution from chemicals",
+      "C) No harm if firecrackers are set off outdoors",
+      "D) Noise from firecrackers is safe as it is within audible range"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Noise Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Firecracker noise (140-170 dB at close range) causes: permanent hearing damage to nearby people and animals (safe limit = 85 dB for sustained exposure), extreme stress and disorientation in pets and wildlife (leading to panic, injury, and deaths), psychological stress in babies, elderly, and people with anxiety/PTSD, and the chemical smoke adds to air pollution. These are the reasons many cities limit firecracker use."
+  },
+  {
+    "QuestionText": "The speed of sound is approximately 340 m/s in air. An aircraft flying at 680 m/s is travelling at:",
+    "Options": [
+      "A) Subsonic speed",
+      "B) Sonic speed (Mach 1)",
+      "C) Supersonic speed (Mach 2)",
+      "D) Hypersonic speed"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Mach number = aircraft speed \u00f7 speed of sound = 680 \u00f7 340 = 2. The aircraft is travelling at Mach 2 (twice the speed of sound) \u2014 supersonic. Mach 1 = speed of sound (~340 m/s at sea level). Supersonic aircraft create sonic booms as they break the sound barrier. Hypersonic is typically Mach 5 or greater."
+  },
+  {
+    "QuestionText": "A musical note at 256 Hz and one at 512 Hz: what is the relationship between their pitches?",
+    "Options": [
+      "A) They are the same pitch",
+      "B) 512 Hz is exactly one octave higher than 256 Hz",
+      "C) 512 Hz is twice as loud as 256 Hz",
+      "D) They cannot be compared as they have different frequencies"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "In music, an octave corresponds to a doubling of frequency. 512 Hz = 2 \u00d7 256 Hz \u2014 exactly one octave higher. The note 256 Hz is middle C; 512 Hz is C one octave above. This doubling relationship creates the perceived similarity in musical pitch between notes separated by an octave \u2014 they sound 'the same' but higher/lower. The logarithmic nature of pitch perception explains why doubling frequency = one octave (not two notes higher)."
+  },
+  {
+    "QuestionText": "Why do some concert halls have curved reflecting surfaces behind the stage?",
+    "Options": [
+      "A) To absorb sound preventing reverberation",
+      "B) To direct and focus reflected sound toward the audience for uniform coverage",
+      "C) For aesthetic design purposes only",
+      "D) To prevent sound from escaping outside the hall"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Reflection of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "Concave (curved inward) reflecting surfaces behind and above the stage are designed using acoustics to direct sound waves toward the audience seating area. The curvature focuses reflected sound uniformly throughout the hall, ensuring all seats receive adequate sound levels. Without these reflectors, the performer's voice would scatter in all directions \u2014 audience members at the back would hear poorly. The Royal Albert Hall and Carnegie Hall are famous for their acoustic designs."
+  },
+  {
+    "QuestionText": "A sample of cloth and a sample of steel are both hit with the same force. The steel transmits sound vibrations better. Why?",
+    "Options": [
+      "A) Steel is a denser material holding more vibration energy",
+      "B) Steel's rigid crystal lattice transmits vibrations much more efficiently than cloth's loose fibres",
+      "C) Steel is shinier reflecting sound better",
+      "D) Cloth contains air pockets that absorb sound"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Olympiad",
+    "Explanation": "Transmission of sound through a material depends on its elasticity and structure. Steel's rigid, ordered crystal lattice with strong metallic bonds transmits vibrational energy very efficiently with minimal loss. Cloth consists of loose, tangled fibres that absorb vibrational energy through friction between fibres \u2014 converting it to heat. This is why sound travels well through metals and solids, but cloth is used for sound absorption in recording studios and auditoriums."
+  },
+  {
+    "QuestionText": "The human ear can detect sounds from 20 Hz to 20,000 Hz. A person is exposed to 25,000 Hz ultrasound. What will they experience?",
+    "Options": [
+      "A) Extreme pain in the ears",
+      "B) Nothing \u2014 25,000 Hz is outside the audible range and cannot be perceived",
+      "C) The sound will be heard as a very high pitch",
+      "D) The sound will be felt as vibration only, causing dizziness"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "The human audible range is 20 Hz to 20,000 Hz. Frequencies above 20,000 Hz (ultrasound) cannot be detected by human ears \u2014 the cochlear hair cells simply don't respond to such high frequencies. The person would experience nothing (assuming the ultrasound intensity is not so high as to cause thermal effects). Animals like dogs (up to 65,000 Hz) and bats (up to 200,000 Hz) can hear these frequencies."
+  },
+  {
+    "QuestionText": "Which of the following is the correct relationship between frequency and time period?",
+    "Options": [
+      "A) f = T",
+      "B) f = 1/T",
+      "C) f = T\u00b2",
+      "D) f \u00d7 T = 100"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Science - Sound",
+    "SubTopic": "Characteristics of Sound",
+    "Difficulty": "Foundation",
+    "Explanation": "Frequency (f) and time period (T) are reciprocals: f = 1/T and T = 1/f. If a body completes 100 vibrations per second, f = 100 Hz and T = 1/100 = 0.01 s. Higher frequency means shorter time period \u2014 more oscillations packed into each second, each taking less time."
+  },
+  {
+    "QuestionText": "A ship uses SONAR and detects an echo from the seabed after 4 seconds. If the speed of sound in water is 1500 m/s, what is the depth of the ocean at that point?",
+    "Options": [
+      "A) 375 m",
+      "B) 750 m",
+      "C) 3000 m",
+      "D) 6000 m"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Applications of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Sound travels to the seabed and back. Total distance = speed \u00d7 time = 1500 \u00d7 4 = 6000 m. Since this is the round trip (down and back), depth = 6000/2 = 3000 m. This principle of echo ranging is used in depth-finding instruments (echo sounders/fathometers) to map ocean depths and detect schools of fish."
+  },
+  {
+    "QuestionText": "The intensity of sound is measured in which unit?",
+    "Options": [
+      "A) Hertz (Hz)",
+      "B) Newton (N)",
+      "C) Decibel (dB)",
+      "D) Metre (m)"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Science - Sound",
+    "SubTopic": "Noise Pollution",
+    "Difficulty": "Foundation",
+    "Explanation": "Sound intensity (loudness) is measured in decibels (dB), named after Alexander Graham Bell. The decibel scale is logarithmic. Reference values: 0 dB = threshold of hearing, 30 dB = whisper, 60 dB = normal conversation, 85 dB = heavy traffic, 120 dB = rock concert, 140 dB = jet engine at 30 m. Prolonged exposure above 85 dB can cause permanent hearing damage."
+  },
+  {
+    "QuestionText": "Assertion: Sound cannot travel through a vacuum. Reason: Sound is a mechanical wave that requires a material medium of molecules/particles to propagate. Which is correct?",
+    "Options": [
+      "A) Both assertion and reason are true; reason correctly explains assertion",
+      "B) Both true but reason does not explain assertion",
+      "C) Assertion true; reason false",
+      "D) Both false"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Science - Sound",
+    "SubTopic": "Propagation of Sound",
+    "Difficulty": "Advanced",
+    "Explanation": "Assertion TRUE: demonstrated by bell jar experiment \u2014 a ringing bell becomes inaudible as air is pumped out. Reason TRUE and correctly explains: sound propagates by compressions and rarefactions \u2014 particles push and pull adjacent particles. In vacuum there are no particles to vibrate, so the mechanical disturbance cannot be transmitted. Light (electromagnetic wave) travels through vacuum; sound (mechanical wave) cannot."
+  }
+]

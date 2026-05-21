@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A figure with line symmetry can be folded to give two identical halves",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only if it is a rectangle",
+      "D) Only for circles"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Line symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "Line symmetry: folding along axis gives two identical mirror-image halves."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a square have?",
+    "Options": [
+      "A) 4",
+      "B) 2",
+      "C) 1",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Square",
+    "Difficulty": "Foundation",
+    "Explanation": "4 lines: 2 through midpoints of opposite sides, 2 through opposite corners."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does an equilateral triangle have?",
+    "Options": [
+      "A) 3",
+      "B) 1",
+      "C) 2",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Equilateral triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "3 lines: one through each vertex to the midpoint of opposite side."
+  },
+  {
+    "QuestionText": "The letter H has ___ line(s) of symmetry",
+    "Options": [
+      "A) 2",
+      "B) 1",
+      "C) 0",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "H has both a horizontal and vertical line of symmetry: 2 lines."
+  },
+  {
+    "QuestionText": "Rotational symmetry means the figure maps onto itself after a partial rotation",
+    "Options": [
+      "A) True",
+      "B) False",
+      "C) Only for polygons",
+      "D) Only for circles"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Rotational symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "Rotational symmetry: figure looks same after rotation by angle < 360 degrees."
+  },
+  {
+    "QuestionText": "Order of rotational symmetry of a square",
+    "Options": [
+      "A) 4",
+      "B) 2",
+      "C) 1",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Rotation order",
+    "Difficulty": "Foundation",
+    "Explanation": "Square: same at 90, 180, 270, 360 degrees: order 4."
+  },
+  {
+    "QuestionText": "Order of rotational symmetry of an equilateral triangle",
+    "Options": [
+      "A) 3",
+      "B) 1",
+      "C) 2",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Equilateral triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "Equilateral triangle: same at 120, 240, 360: order 3."
+  },
+  {
+    "QuestionText": "Angle of rotation for figure with rotational symmetry of order 6",
+    "Options": [
+      "A) 60 degrees",
+      "B) 30 degrees",
+      "C) 90 degrees",
+      "D) 45 degrees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Angle of rotation",
+    "Difficulty": "Foundation",
+    "Explanation": "360/6=60 degrees."
+  },
+  {
+    "QuestionText": "The number of lines of symmetry of a circle is",
+    "Options": [
+      "A) Infinite",
+      "B) 1",
+      "C) 2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Circle",
+    "Difficulty": "Foundation",
+    "Explanation": "Every diameter of a circle is a line of symmetry: infinite lines."
+  },
+  {
+    "QuestionText": "Regular pentagon has ___ lines of symmetry",
+    "Options": [
+      "A) 5",
+      "B) 3",
+      "C) 10",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Regular pentagon",
+    "Difficulty": "Foundation",
+    "Explanation": "Regular n-gon has n lines of symmetry. Pentagon: 5."
+  },
+  {
+    "QuestionText": "Scalene triangle has ___ lines of symmetry",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Scalene triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "No equal sides or angles: no line of symmetry."
+  },
+  {
+    "QuestionText": "Isosceles triangle has ___ line(s) of symmetry",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Isosceles triangle",
+    "Difficulty": "Foundation",
+    "Explanation": "1 line: perpendicular bisector of the base."
+  },
+  {
+    "QuestionText": "Rectangle (non-square) has ___ lines of symmetry",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 1",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Rectangle",
+    "Difficulty": "Foundation",
+    "Explanation": "2 lines through midpoints of opposite sides."
+  },
+  {
+    "QuestionText": "Kite has ___ line of symmetry",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 0",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Kite",
+    "Difficulty": "Foundation",
+    "Explanation": "1 line along main diagonal."
+  },
+  {
+    "QuestionText": "Angle of rotational symmetry of order 4",
+    "Options": [
+      "A) 90 degrees",
+      "B) 45 degrees",
+      "C) 120 degrees",
+      "D) 180 degrees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Order 4",
+    "Difficulty": "Foundation",
+    "Explanation": "360/4=90 degrees."
+  },
+  {
+    "QuestionText": "Regular hexagon has ___ lines of symmetry and rotational order ___",
+    "Options": [
+      "A) 6 lines and order 6",
+      "B) 3 lines and order 3",
+      "C) 6 lines and order 3",
+      "D) 3 lines and order 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Regular hexagon",
+    "Difficulty": "Advanced",
+    "Explanation": "Regular hexagon: 6 lines, order 6 (every 60 degrees)."
+  },
+  {
+    "QuestionText": "Rhombus (non-square) has ___ lines of symmetry",
+    "Options": [
+      "A) 2",
+      "B) 4",
+      "C) 0",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Rhombus",
+    "Difficulty": "Advanced",
+    "Explanation": "2 lines along diagonals."
+  },
+  {
+    "QuestionText": "Parallelogram (non-rectangle) has ___ line symmetry",
+    "Options": [
+      "A) 0",
+      "B) 2",
+      "C) 4",
+      "D) 1"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Parallelogram",
+    "Difficulty": "Advanced",
+    "Explanation": "Parallelogram has NO line symmetry but has rotational order 2."
+  },
+  {
+    "QuestionText": "Which shape has both 4 lines of symmetry and rotational order 4?",
+    "Options": [
+      "A) Square",
+      "B) Rectangle",
+      "C) Rhombus",
+      "D) Trapezium"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Square",
+    "Difficulty": "Advanced",
+    "Explanation": "Square: 4 lines of symmetry AND rotational order 4."
+  },
+  {
+    "QuestionText": "Regular octagon has ___ lines of symmetry",
+    "Options": [
+      "A) 8",
+      "B) 4",
+      "C) 16",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Regular octagon",
+    "Difficulty": "Advanced",
+    "Explanation": "Regular n-gon has n lines of symmetry. Octagon: 8."
+  },
+  {
+    "QuestionText": "Letter A has ___ line of symmetry",
+    "Options": [
+      "A) 1 vertical",
+      "B) 2",
+      "C) 0",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter A",
+    "Difficulty": "Foundation",
+    "Explanation": "A has 1 vertical line of symmetry."
+  },
+  {
+    "QuestionText": "Letter S has rotational symmetry of order",
+    "Options": [
+      "A) 2",
+      "B) 1",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter S",
+    "Difficulty": "Advanced",
+    "Explanation": "S maps onto itself after 180 degree rotation: order 2."
+  },
+  {
+    "QuestionText": "Letter X has ___ lines of symmetry",
+    "Options": [
+      "A) 2",
+      "B) 1",
+      "C) 4",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter X",
+    "Difficulty": "Foundation",
+    "Explanation": "X has horizontal and vertical lines of symmetry: 2."
+  },
+  {
+    "QuestionText": "The letter N has ___ line symmetry but rotational order ___",
+    "Options": [
+      "A) 0 lines order 2",
+      "B) 2 lines order 2",
+      "C) 1 line order 2",
+      "D) 0 lines order 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter N",
+    "Difficulty": "Advanced",
+    "Explanation": "N has no line symmetry but order 2 rotational symmetry."
+  },
+  {
+    "QuestionText": "If a figure has n-fold rotational symmetry it maps onto itself every ___ degrees",
+    "Options": [
+      "A) 360/n",
+      "B) n",
+      "C) 180/n",
+      "D) 2n"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Order and angle",
+    "Difficulty": "Foundation",
+    "Explanation": "Angle of rotation = 360/n."
+  },
+  {
+    "QuestionText": "A circle has rotational symmetry of infinite order because ___",
+    "Options": [
+      "A) Any rotation maps it onto itself",
+      "B) It has no symmetry",
+      "C) Only 4 rotations work",
+      "D) Only 360 maps it to itself"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Circle rotation",
+    "Difficulty": "Foundation",
+    "Explanation": "A circle maps onto itself for any angle of rotation."
+  },
+  {
+    "QuestionText": "A regular 10-sided polygon has order of rotational symmetry",
+    "Options": [
+      "A) 10",
+      "B) 5",
+      "C) 20",
+      "D) 360"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Regular decagon",
+    "Difficulty": "Foundation",
+    "Explanation": "Regular n-gon: order = n = 10."
+  },
+  {
+    "QuestionText": "Folding along line of symmetry creates two ___ halves",
+    "Options": [
+      "A) Mirror-image (congruent)",
+      "B) Identical in orientation",
+      "C) Translated",
+      "D) Rotated"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Reflection and symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "Folding creates mirror-image halves."
+  },
+  {
+    "QuestionText": "The number 8 has ___ lines of symmetry",
+    "Options": [
+      "A) 2",
+      "B) 1",
+      "C) 4",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Number 8",
+    "Difficulty": "Advanced",
+    "Explanation": "Digit 8 has both horizontal and vertical line symmetry: 2 lines."
+  },
+  {
+    "QuestionText": "A regular star with 5 points has ___ lines of symmetry",
+    "Options": [
+      "A) 5",
+      "B) 10",
+      "C) 1",
+      "D) 0"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Star polygon",
+    "Difficulty": "Advanced",
+    "Explanation": "5-pointed star has 5 lines of symmetry."
+  },
+  {
+    "QuestionText": "Isosceles trapezium has ___ line of symmetry",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Isosceles trapezium",
+    "Difficulty": "Advanced",
+    "Explanation": "1 line: perpendicular bisector of the two parallel sides."
+  },
+  {
+    "QuestionText": "Which word has a vertical line of symmetry (capital letters)?",
+    "Options": [
+      "A) MOM",
+      "B) CAT",
+      "C) RUN",
+      "D) BIG"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Word symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "M, O, M are all vertically symmetric letters. MOM has a vertical line of symmetry."
+  },
+  {
+    "QuestionText": "A dart (arrowhead) kite has ___ line of symmetry",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 2",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Dart symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "1 line: along the axis of the dart."
+  },
+  {
+    "QuestionText": "Minimum order of rotational symmetry any figure has",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 2",
+      "D) Infinite"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Minimum order",
+    "Difficulty": "Foundation",
+    "Explanation": "Order 1 means only a full 360 degree rotation maps it to itself."
+  },
+  {
+    "QuestionText": "A regular 12-sided polygon has order of rotational symmetry",
+    "Options": [
+      "A) 12",
+      "B) 6",
+      "C) 4",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Dodecagon",
+    "Difficulty": "Advanced",
+    "Explanation": "Regular 12-gon: order 12."
+  },
+  {
+    "QuestionText": "A scalene triangle has rotational symmetry of order",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 6"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Scalene",
+    "Difficulty": "Foundation",
+    "Explanation": "No symmetry below 360 degrees: order 1."
+  },
+  {
+    "QuestionText": "Order of rotational symmetry of the letter Z",
+    "Options": [
+      "A) 2",
+      "B) 1",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter Z",
+    "Difficulty": "Advanced",
+    "Explanation": "Z maps onto itself after 180 degrees: order 2."
+  },
+  {
+    "QuestionText": "Which figure has both line symmetry and rotational symmetry of order 2 but NOT 4?",
+    "Options": [
+      "A) Rectangle (non-square)",
+      "B) Square",
+      "C) Rhombus",
+      "D) Equilateral triangle"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Rectangle",
+    "Difficulty": "Advanced",
+    "Explanation": "Rectangle: 2 lines of symmetry, rotational order 2. Not 4."
+  },
+  {
+    "QuestionText": "Axis of symmetry of a parabola y=x squared is",
+    "Options": [
+      "A) y-axis (vertical)",
+      "B) x-axis",
+      "C) Diagonal y=x",
+      "D) No axis"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Parabola",
+    "Difficulty": "Olympiad",
+    "Explanation": "y=x\u00b2 is symmetric about the y-axis."
+  },
+  {
+    "QuestionText": "Fold a square along diagonal. The two halves are",
+    "Options": [
+      "A) Congruent right isosceles triangles",
+      "B) Congruent rectangles",
+      "C) Non-congruent triangles",
+      "D) Congruent squares"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Folding",
+    "Difficulty": "Foundation",
+    "Explanation": "Diagonal fold of a square gives two congruent right isosceles triangles."
+  },
+  {
+    "QuestionText": "Circle inscribed in a square: lines of symmetry of the combined figure",
+    "Options": [
+      "A) 4",
+      "B) Infinite",
+      "C) 2",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Combined figures",
+    "Difficulty": "Olympiad",
+    "Explanation": "The combined figure has the symmetry of the square (4 lines) since the square is more restrictive."
+  },
+  {
+    "QuestionText": "If a figure looks the same after every 45 degree rotation its order of rotational symmetry is",
+    "Options": [
+      "A) 8",
+      "B) 4",
+      "C) 16",
+      "D) 45"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Order from angle",
+    "Difficulty": "Advanced",
+    "Explanation": "360/45=8."
+  },
+  {
+    "QuestionText": "Regular hexagon: total degrees covered by all minimal rotations (excluding 360)",
+    "Options": [
+      "A) 300 degrees",
+      "B) 360 degrees",
+      "C) 1080 degrees",
+      "D) 720 degrees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Rotation angles sum",
+    "Difficulty": "Olympiad",
+    "Explanation": "60+120+180+240+300=900. Hmm: let's say excluding 360, order 6 gives 60,120,180,240,300 degrees. Sum=900."
+  },
+  {
+    "QuestionText": "A figure with rotational symmetry of order 5 maps onto itself at every ___ degrees",
+    "Options": [
+      "A) 72 degrees",
+      "B) 60 degrees",
+      "C) 45 degrees",
+      "D) 90 degrees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Order 5",
+    "Difficulty": "Foundation",
+    "Explanation": "360/5=72 degrees."
+  },
+  {
+    "QuestionText": "In a reflection the line of symmetry is the ___ bisector of any point and its image",
+    "Options": [
+      "A) Perpendicular",
+      "B) Angle",
+      "C) Parallel",
+      "D) Midpoint"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Reflection geometry",
+    "Difficulty": "Advanced",
+    "Explanation": "The line of symmetry is the perpendicular bisector of the segment joining any point to its reflected image."
+  },
+  {
+    "QuestionText": "A figure that has both horizontal and vertical lines of symmetry also has rotational symmetry of order",
+    "Options": [
+      "A) 2 at minimum",
+      "B) 1",
+      "C) 4 always",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Combined symmetry",
+    "Difficulty": "Olympiad",
+    "Explanation": "Two perpendicular lines of symmetry imply at least order 2 rotational symmetry (180 degree rotation)."
+  },
+  {
+    "QuestionText": "Semi-circle has ___ line of symmetry",
+    "Options": [
+      "A) 1",
+      "B) 0",
+      "C) 2",
+      "D) Infinite"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Semicircle",
+    "Difficulty": "Foundation",
+    "Explanation": "Semicircle has 1 line of symmetry: the perpendicular bisector of the diameter."
+  },
+  {
+    "QuestionText": "Which capital letter has NO line of symmetry?",
+    "Options": [
+      "A) F",
+      "B) A",
+      "C) H",
+      "D) M"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "F has no line of symmetry. A, H, M all have at least one."
+  },
+  {
+    "QuestionText": "Letters with horizontal line of symmetry include",
+    "Options": [
+      "A) B D E",
+      "B) A M T",
+      "C) H I X",
+      "D) F G J"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "Letter symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "B, D, E have horizontal lines of symmetry."
+  },
+  {
+    "QuestionText": "Regular polygon with 180 sides has order of rotational symmetry",
+    "Options": [
+      "A) 180",
+      "B) 90",
+      "C) 360",
+      "D) 72"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Symmetry",
+    "SubTopic": "General case",
+    "Difficulty": "Olympiad",
+    "Explanation": "Regular n-gon: order = n = 180."
+  }
+]

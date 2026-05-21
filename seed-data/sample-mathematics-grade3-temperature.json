@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Which instrument is used to measure temperature?",
+    "Options": [
+      "A) Thermometer",
+      "B) Ruler",
+      "C) Weighing scale",
+      "D) Measuring tape"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Measuring Tools",
+    "Difficulty": "Foundation",
+    "Explanation": "A thermometer measures temperature."
+  },
+  {
+    "QuestionText": "What is the unit used to measure temperature?",
+    "Options": [
+      "A) Degree Celsius (\u00b0C)",
+      "B) Kilogram",
+      "C) Metre",
+      "D) Litre"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Units",
+    "Difficulty": "Foundation",
+    "Explanation": "Temperature is measured in degrees Celsius (\u00b0C)."
+  },
+  {
+    "QuestionText": "Normal human body temperature is approximately?",
+    "Options": [
+      "A) 37\u00b0C",
+      "B) 100\u00b0C",
+      "C) 0\u00b0C",
+      "D) 20\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "Normal body temperature is about 37\u00b0C."
+  },
+  {
+    "QuestionText": "Water freezes at?",
+    "Options": [
+      "A) 0\u00b0C",
+      "B) 100\u00b0C",
+      "C) 37\u00b0C",
+      "D) 25\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "Water freezes (becomes ice) at 0\u00b0C."
+  },
+  {
+    "QuestionText": "Water boils at?",
+    "Options": [
+      "A) 100\u00b0C",
+      "B) 0\u00b0C",
+      "C) 37\u00b0C",
+      "D) 50\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "Water boils and turns to steam at 100\u00b0C."
+  },
+  {
+    "QuestionText": "Which temperature is hotter: 45\u00b0C or 60\u00b0C?",
+    "Options": [
+      "A) 60\u00b0C",
+      "B) 45\u00b0C",
+      "C) Equal",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "Higher number = hotter temperature. 60\u00b0C > 45\u00b0C."
+  },
+  {
+    "QuestionText": "Which temperature feels cold: 5\u00b0C, 25\u00b0C, 38\u00b0C, 45\u00b0C?",
+    "Options": [
+      "A) 5\u00b0C",
+      "B) 25\u00b0C",
+      "C) 38\u00b0C",
+      "D) 45\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "5\u00b0C is much lower and would feel very cold."
+  },
+  {
+    "QuestionText": "On a hot summer day in India, the temperature is likely?",
+    "Options": [
+      "A) 40\u00b0C",
+      "B) 5\u00b0C",
+      "C) 0\u00b0C",
+      "D) 100\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Indian summers can reach 40\u00b0C or higher."
+  },
+  {
+    "QuestionText": "A thermometer reads 0\u00b0C. This means the temperature is?",
+    "Options": [
+      "A) Freezing point",
+      "B) Boiling point",
+      "C) Body temperature",
+      "D) Room temperature"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "0\u00b0C is the freezing point of water."
+  },
+  {
+    "QuestionText": "Which temperature is most comfortable for humans?",
+    "Options": [
+      "A) 25\u00b0C",
+      "B) 0\u00b0C",
+      "C) 100\u00b0C",
+      "D) 70\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "About 25\u00b0C is comfortable room temperature."
+  },
+  {
+    "QuestionText": "The temperature rose from 20\u00b0C to 28\u00b0C. How much did it rise?",
+    "Options": [
+      "A) 8\u00b0C",
+      "B) 48\u00b0C",
+      "C) 20\u00b0C",
+      "D) 6\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "28 \u2212 20 = 8\u00b0C rise."
+  },
+  {
+    "QuestionText": "The temperature dropped from 15\u00b0C to 10\u00b0C. How much did it drop?",
+    "Options": [
+      "A) 5\u00b0C",
+      "B) 25\u00b0C",
+      "C) 10\u00b0C",
+      "D) 3\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "15 \u2212 10 = 5\u00b0C drop."
+  },
+  {
+    "QuestionText": "Which is warmer: a winter day at 10\u00b0C or a spring day at 22\u00b0C?",
+    "Options": [
+      "A) Spring day at 22\u00b0C",
+      "B) Winter day at 10\u00b0C",
+      "C) Equal",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "22\u00b0C > 10\u00b0C, so the spring day is warmer."
+  },
+  {
+    "QuestionText": "Morning temperature: 18\u00b0C. Afternoon: 30\u00b0C. Difference?",
+    "Options": [
+      "A) 12\u00b0C",
+      "B) 48\u00b0C",
+      "C) 18\u00b0C",
+      "D) 8\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "30 \u2212 18 = 12\u00b0C."
+  },
+  {
+    "QuestionText": "If temperature is \u22125\u00b0C, what does that mean?",
+    "Options": [
+      "A) 5 degrees below zero",
+      "B) 5 degrees above zero",
+      "C) Zero temperature",
+      "D) 50\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Negative Temperature",
+    "Difficulty": "Advanced",
+    "Explanation": "Negative temperature means below zero (freezing)."
+  },
+  {
+    "QuestionText": "Which temperature would you expect on a snowy day?",
+    "Options": [
+      "A) \u22122\u00b0C",
+      "B) 30\u00b0C",
+      "C) 40\u00b0C",
+      "D) 25\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Snow forms below 0\u00b0C, so \u22122\u00b0C is expected."
+  },
+  {
+    "QuestionText": "The temperature at noon was 35\u00b0C. It cooled by 8\u00b0C in the evening. Evening temperature?",
+    "Options": [
+      "A) 27\u00b0C",
+      "B) 43\u00b0C",
+      "C) 35\u00b0C",
+      "D) 28\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Advanced",
+    "Explanation": "35 \u2212 8 = 27\u00b0C."
+  },
+  {
+    "QuestionText": "The lowest temperature in a city one week was 12\u00b0C and the highest was 34\u00b0C. Range?",
+    "Options": [
+      "A) 22\u00b0C",
+      "B) 46\u00b0C",
+      "C) 12\u00b0C",
+      "D) 20\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Range",
+    "Difficulty": "Advanced",
+    "Explanation": "Range = 34 \u2212 12 = 22\u00b0C."
+  },
+  {
+    "QuestionText": "Which is the correct reading on a thermometer showing room temperature?",
+    "Options": [
+      "A) 25\u00b0C",
+      "B) 0\u00b0C",
+      "C) 100\u00b0C",
+      "D) \u221210\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Room temperature is approximately 25\u00b0C."
+  },
+  {
+    "QuestionText": "A patient has fever if temperature is above?",
+    "Options": [
+      "A) 37\u00b0C",
+      "B) 25\u00b0C",
+      "C) 0\u00b0C",
+      "D) 100\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "Fever is when body temperature rises above 37\u00b0C."
+  },
+  {
+    "QuestionText": "The temperature at 6 AM was 18\u00b0C. By noon it reached 30\u00b0C. Rise in temperature?",
+    "Options": [
+      "A) 12\u00b0C",
+      "B) 48\u00b0C",
+      "C) 18\u00b0C",
+      "D) 6\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "30 \u2212 18 = 12\u00b0C rise."
+  },
+  {
+    "QuestionText": "Which season would have the highest average temperature in India?",
+    "Options": [
+      "A) Summer",
+      "B) Winter",
+      "C) Monsoon",
+      "D) Spring"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Foundation",
+    "Explanation": "Summer (April-June) is the hottest season in India."
+  },
+  {
+    "QuestionText": "A thermometer is kept outside on a cold night. It shows 3\u00b0C. By morning it shows 7\u00b0C. Change?",
+    "Options": [
+      "A) 4\u00b0C rise",
+      "B) 4\u00b0C drop",
+      "C) 10\u00b0C rise",
+      "D) 3\u00b0C drop"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "7 \u2212 3 = 4\u00b0C rise."
+  },
+  {
+    "QuestionText": "The temperature of boiling water is ___ than body temperature.",
+    "Options": [
+      "A) Higher",
+      "B) Lower",
+      "C) Same",
+      "D) Cannot compare"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "100\u00b0C (boiling) > 37\u00b0C (body). Boiling is higher."
+  },
+  {
+    "QuestionText": "A fridge temperature is 4\u00b0C. Freezer temperature is \u221218\u00b0C. Difference?",
+    "Options": [
+      "A) 22\u00b0C",
+      "B) 14\u00b0C",
+      "C) 4\u00b0C",
+      "D) 22\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "4 \u2212 (\u221218) = 4 + 18 = 22\u00b0C."
+  },
+  {
+    "QuestionText": "If temperature rises by 5\u00b0C each hour starting from 10\u00b0C, what is it after 3 hours?",
+    "Options": [
+      "A) 25\u00b0C",
+      "B) 15\u00b0C",
+      "C) 20\u00b0C",
+      "D) 30\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Advanced",
+    "Explanation": "10 + (3\u00d75) = 10 + 15 = 25\u00b0C."
+  },
+  {
+    "QuestionText": "Which months are likely to have temperatures above 40\u00b0C in North India?",
+    "Options": [
+      "A) May and June",
+      "B) December and January",
+      "C) July and August",
+      "D) October and November"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "May and June are the peak summer months in North India."
+  },
+  {
+    "QuestionText": "Temperature decreased by 3\u00b0C each hour from 24\u00b0C. After 4 hours?",
+    "Options": [
+      "A) 12\u00b0C",
+      "B) 12\u00b0C",
+      "C) 0\u00b0C",
+      "D) 24\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "24 \u2212 (4\u00d73) = 24 \u2212 12 = 12\u00b0C."
+  },
+  {
+    "QuestionText": "City A: 38\u00b0C. City B: 29\u00b0C. City C: 43\u00b0C. Which city is coolest?",
+    "Options": [
+      "A) City B",
+      "B) City A",
+      "C) City C",
+      "D) Equal"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "29\u00b0C is the lowest temperature."
+  },
+  {
+    "QuestionText": "Which material keeps hot things hot for longer?",
+    "Options": [
+      "A) Thermos flask",
+      "B) Glass",
+      "C) Metal spoon",
+      "D) Paper"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "A thermos flask is designed to maintain temperature."
+  },
+  {
+    "QuestionText": "The average temperature of 3 days is 28\u00b0C. Total temperature?",
+    "Options": [
+      "A) 84\u00b0C",
+      "B) 28\u00b0C",
+      "C) 56\u00b0C",
+      "D) 31\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Average Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "Average = total \u00f7 3. Total = 28 \u00d7 3 = 84\u00b0C."
+  },
+  {
+    "QuestionText": "A scientist heats water from 20\u00b0C to 80\u00b0C. Rise in temperature?",
+    "Options": [
+      "A) 60\u00b0C",
+      "B) 100\u00b0C",
+      "C) 40\u00b0C",
+      "D) 80\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Advanced",
+    "Explanation": "80 \u2212 20 = 60\u00b0C."
+  },
+  {
+    "QuestionText": "In winter, temperature falls from 20\u00b0C during day to 8\u00b0C at night. Fall?",
+    "Options": [
+      "A) 12\u00b0C",
+      "B) 28\u00b0C",
+      "C) 8\u00b0C",
+      "D) 16\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "20 \u2212 8 = 12\u00b0C fall."
+  },
+  {
+    "QuestionText": "Which has higher temperature: ice cream (\u221215\u00b0C) or lemonade (10\u00b0C)?",
+    "Options": [
+      "A) Lemonade",
+      "B) Ice cream",
+      "C) Equal",
+      "D) Cannot say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "10\u00b0C > \u221215\u00b0C."
+  },
+  {
+    "QuestionText": "Temperature readings for 5 days: 30, 32, 28, 35, 25. Highest?",
+    "Options": [
+      "A) 35\u00b0C",
+      "B) 32\u00b0C",
+      "C) 30\u00b0C",
+      "D) 28\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "35 is the greatest value."
+  },
+  {
+    "QuestionText": "A baker preheats the oven to 180\u00b0C from room temperature (25\u00b0C). Rise?",
+    "Options": [
+      "A) 155\u00b0C",
+      "B) 205\u00b0C",
+      "C) 155\u00b0C",
+      "D) 180\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "180 \u2212 25 = 155\u00b0C."
+  },
+  {
+    "QuestionText": "On which scale is water's boiling point 212 degrees?",
+    "Options": [
+      "A) Fahrenheit",
+      "B) Celsius",
+      "C) Kelvin",
+      "D) Rankine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Scales",
+    "Difficulty": "Olympiad",
+    "Explanation": "Water boils at 212\u00b0F on the Fahrenheit scale."
+  },
+  {
+    "QuestionText": "The temperature at sunrise is 15\u00b0C. It rises by 2\u00b0C each hour. Temperature at 10 AM (5 hours later)?",
+    "Options": [
+      "A) 25\u00b0C",
+      "B) 20\u00b0C",
+      "C) 30\u00b0C",
+      "D) 17\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "15 + (5\u00d72) = 15 + 10 = 25\u00b0C."
+  },
+  {
+    "QuestionText": "A hot drink is at 70\u00b0C. After 30 minutes it cools to 40\u00b0C. Drop?",
+    "Options": [
+      "A) 30\u00b0C",
+      "B) 110\u00b0C",
+      "C) 30\u00b0C",
+      "D) 20\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Advanced",
+    "Explanation": "70 \u2212 40 = 30\u00b0C."
+  },
+  {
+    "QuestionText": "What does a negative temperature (e.g. \u221210\u00b0C) mean?",
+    "Options": [
+      "A) Temperature is 10 degrees below zero",
+      "B) Temperature is 10 degrees above zero",
+      "C) Temperature is exactly zero",
+      "D) Temperature is 100 degrees"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Negative Temperature",
+    "Difficulty": "Advanced",
+    "Explanation": "Negative temperature means below the zero mark."
+  },
+  {
+    "QuestionText": "Average temperature of a week: Mon=30, Tue=32, Wed=28, Thu=35, Fri=25, Sat=33, Sun=31. Hottest day?",
+    "Options": [
+      "A) Thursday",
+      "B) Tuesday",
+      "C) Saturday",
+      "D) Monday"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Comparing Temperatures",
+    "Difficulty": "Foundation",
+    "Explanation": "Thursday has highest temperature at 35\u00b0C."
+  },
+  {
+    "QuestionText": "The temperature outside is 42\u00b0C. Inside with AC it is 20\u00b0C. Difference?",
+    "Options": [
+      "A) 22\u00b0C",
+      "B) 62\u00b0C",
+      "C) 20\u00b0C",
+      "D) 12\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Foundation",
+    "Explanation": "42 \u2212 20 = 22\u00b0C."
+  },
+  {
+    "QuestionText": "In Antarctica, temperature can reach \u221260\u00b0C. Difference from 0\u00b0C?",
+    "Options": [
+      "A) 60\u00b0C",
+      "B) 60\u00b0C",
+      "C) \u221260\u00b0C",
+      "D) 120\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Negative Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "0 \u2212 (\u221260) = 60\u00b0C difference."
+  },
+  {
+    "QuestionText": "What happens to water at exactly 100\u00b0C?",
+    "Options": [
+      "A) It boils and becomes steam",
+      "B) It freezes",
+      "C) It disappears",
+      "D) Nothing changes"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Facts",
+    "Difficulty": "Foundation",
+    "Explanation": "At 100\u00b0C, water boils and turns into steam."
+  },
+  {
+    "QuestionText": "Room temperature is 25\u00b0C. A stove heats a pan to 200\u00b0C. Difference?",
+    "Options": [
+      "A) 175\u00b0C",
+      "B) 225\u00b0C",
+      "C) 200\u00b0C",
+      "D) 25\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "200 \u2212 25 = 175\u00b0C."
+  },
+  {
+    "QuestionText": "Temperature readings for 4 days: 22\u00b0C, 26\u00b0C, 24\u00b0C, 28\u00b0C. Average?",
+    "Options": [
+      "A) 25\u00b0C",
+      "B) 22\u00b0C",
+      "C) 28\u00b0C",
+      "D) 24\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Average Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "(22+26+24+28)\u00f74=100\u00f74=25\u00b0C."
+  },
+  {
+    "QuestionText": "A city's temperature record: min=8\u00b0C, max=36\u00b0C. Range?",
+    "Options": [
+      "A) 28\u00b0C",
+      "B) 44\u00b0C",
+      "C) 36\u00b0C",
+      "D) 8\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Range",
+    "Difficulty": "Olympiad",
+    "Explanation": "Range = 36 \u2212 8 = 28\u00b0C."
+  },
+  {
+    "QuestionText": "Which season in India has average temperatures around 10-15\u00b0C?",
+    "Options": [
+      "A) Winter",
+      "B) Summer",
+      "C) Monsoon",
+      "D) Autumn"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature in Context",
+    "Difficulty": "Advanced",
+    "Explanation": "Winter (Dec-Feb) in India has cooler temperatures."
+  },
+  {
+    "QuestionText": "A thermometer shows 37.5\u00b0C for a child. Is this a fever?",
+    "Options": [
+      "A) Yes, slight fever",
+      "B) No, it is normal",
+      "C) No, it is too low",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Temperature Facts",
+    "Difficulty": "Advanced",
+    "Explanation": "Normal is 37\u00b0C. 37.5\u00b0C is a slight fever."
+  },
+  {
+    "QuestionText": "If a town's morning temperature is 18\u00b0C and it increases by 1\u00b0C per hour, what is the temperature after 8 hours?",
+    "Options": [
+      "A) 26\u00b0C",
+      "B) 28\u00b0C",
+      "C) 18\u00b0C",
+      "D) 26\u00b0C"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Temperature",
+    "SubTopic": "Change in Temperature",
+    "Difficulty": "Olympiad",
+    "Explanation": "18 + 8\u00d71 = 18 + 8 = 26\u00b0C."
+  }
+]

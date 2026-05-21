@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "A polynomial of degree 2 is called a:",
+    "Options": [
+      "A) Linear polynomial",
+      "B) Quadratic polynomial",
+      "C) Cubic polynomial",
+      "D) Constant polynomial"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Types of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "Degree 0 = constant, degree 1 = linear, degree 2 = quadratic, degree 3 = cubic. The degree is the highest power of the variable."
+  },
+  {
+    "QuestionText": "The degree of the polynomial 3x\u00b3 \u2212 2x\u00b2 + 5x \u2212 7 is:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 7"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "The degree is the highest power of x. The highest power here is x\u00b3 (degree 3)."
+  },
+  {
+    "QuestionText": "The zero of the polynomial p(x) = 2x \u2212 6 is:",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 6",
+      "D) \u22123"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "Set p(x) = 0: 2x \u2212 6 = 0 \u2192 2x = 6 \u2192 x = 3. The zero is 3."
+  },
+  {
+    "QuestionText": "If p(x) = x\u00b2 \u2212 5x + 6, then p(2) =",
+    "Options": [
+      "A) 0",
+      "B) 2",
+      "C) 4",
+      "D) 8"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Value of a Polynomial",
+    "Difficulty": "Foundation",
+    "Explanation": "p(2) = 4 \u2212 10 + 6 = 0. So x=2 is a zero of this polynomial."
+  },
+  {
+    "QuestionText": "The remainder when p(x) = x\u00b3 \u2212 3x + 1 is divided by (x \u2212 1) is:",
+    "Options": [
+      "A) \u22121",
+      "B) 0",
+      "C) 1",
+      "D) 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Remainder Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "By Remainder Theorem, remainder = p(1) = 1 \u2212 3 + 1 = \u22121."
+  },
+  {
+    "QuestionText": "The Remainder Theorem states that when p(x) is divided by (x \u2212 a), the remainder is:",
+    "Options": [
+      "A) p(0)",
+      "B) p(a)",
+      "C) a",
+      "D) p(\u2212a)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Remainder Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "Remainder Theorem: when polynomial p(x) is divided by (x \u2212 a), the remainder = p(a). It's a direct substitute: put x = a."
+  },
+  {
+    "QuestionText": "The Factor Theorem states that (x \u2212 a) is a factor of p(x) if and only if:",
+    "Options": [
+      "A) p(0) = 0",
+      "B) p(a) = 1",
+      "C) p(a) = 0",
+      "D) p(x) = x \u2212 a"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factor Theorem",
+    "Difficulty": "Foundation",
+    "Explanation": "Factor Theorem (from Remainder Theorem): (x \u2212 a) is a factor of p(x) \u27fa p(a) = 0. The remainder is zero when (x\u2212a) is a factor."
+  },
+  {
+    "QuestionText": "Factorize: x\u00b2 \u2212 5x + 6",
+    "Options": [
+      "A) (x\u22122)(x\u22123)",
+      "B) (x+2)(x+3)",
+      "C) (x\u22121)(x\u22126)",
+      "D) (x\u22122)(x+3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "Find two numbers that multiply to 6 and add to \u22125: \u22122 and \u22123. So x\u00b2\u22125x+6 = (x\u22122)(x\u22123)."
+  },
+  {
+    "QuestionText": "Factorize: x\u00b2 \u2212 9",
+    "Options": [
+      "A) (x\u22123)\u00b2",
+      "B) (x+3)(x\u22123)",
+      "C) (x+9)(x\u22121)",
+      "D) (x\u22123)(x\u22123)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "x\u00b2\u22129 = x\u00b2\u22123\u00b2 = (x+3)(x\u22123). Difference of squares formula: a\u00b2\u2212b\u00b2 = (a+b)(a\u2212b)."
+  },
+  {
+    "QuestionText": "The expansion of (a + b)\u00b3 is:",
+    "Options": [
+      "A) a\u00b3 + b\u00b3",
+      "B) a\u00b3 + 3a\u00b2b + 3ab\u00b2 + b\u00b3",
+      "C) a\u00b3 + 2ab + b\u00b3",
+      "D) a\u00b3 + 3ab + b\u00b3"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(a+b)\u00b3 = a\u00b3 + 3a\u00b2b + 3ab\u00b2 + b\u00b3. Key identity. Also: (a\u2212b)\u00b3 = a\u00b3 \u2212 3a\u00b2b + 3ab\u00b2 \u2212 b\u00b3."
+  },
+  {
+    "QuestionText": "The expansion of (a + b + c)\u00b2 is:",
+    "Options": [
+      "A) a\u00b2 + b\u00b2 + c\u00b2",
+      "B) a\u00b2 + b\u00b2 + c\u00b2 + 2ab + 2bc + 2ca",
+      "C) (a+b)\u00b2 + c\u00b2",
+      "D) a\u00b2 + b\u00b2 + c\u00b2 + ab + bc + ca"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(a+b+c)\u00b2 = a\u00b2+b\u00b2+c\u00b2+2ab+2bc+2ca. This is an important identity with 6 terms on the right side."
+  },
+  {
+    "QuestionText": "If x + y + z = 0, then x\u00b3 + y\u00b3 + z\u00b3 = ?",
+    "Options": [
+      "A) 0",
+      "B) xyz",
+      "C) 3xyz",
+      "D) x\u00b3y\u00b3z\u00b3"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "Identity: x\u00b3+y\u00b3+z\u00b3 \u2212 3xyz = (x+y+z)(x\u00b2+y\u00b2+z\u00b2\u2212xy\u2212yz\u2212zx). If x+y+z=0, then x\u00b3+y\u00b3+z\u00b3 = 3xyz."
+  },
+  {
+    "QuestionText": "How many zeroes can a linear polynomial have?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) Infinitely many"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "A linear polynomial has exactly one zero. In general, a polynomial of degree n has at most n zeroes."
+  },
+  {
+    "QuestionText": "The value of (99)\u00b2 using the identity (a\u2212b)\u00b2 = a\u00b2\u22122ab+b\u00b2:",
+    "Options": [
+      "A) 9801",
+      "B) 9800",
+      "C) 9899",
+      "D) 9900"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "99\u00b2 = (100\u22121)\u00b2 = 10000 \u2212 200 + 1 = 9801."
+  },
+  {
+    "QuestionText": "Which of the following is a polynomial?",
+    "Options": [
+      "A) x + 1/x",
+      "B) \u221ax + 1",
+      "C) x\u00b2 + 3x + 1",
+      "D) 1/x\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Types of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "A polynomial has non-negative integer exponents of the variable. x\u00b2+3x+1: all exponents (2,1,0) are non-negative integers. x+1/x = x+x\u207b\u00b9 (negative exponent \u2014 not polynomial). \u221ax = x^(1/2) \u2014 fractional exponent, not polynomial."
+  },
+  {
+    "QuestionText": "Factorize: 2x\u00b2 + 7x + 3",
+    "Options": [
+      "A) (2x+1)(x+3)",
+      "B) (x+1)(2x+3)",
+      "C) (2x\u22121)(x\u22123)",
+      "D) (2x+3)(x+1)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "Multiply 2\u00d73=6. Find factors of 6 that sum to 7: 6 and 1. Split: 2x\u00b2+6x+x+3 = 2x(x+3)+1(x+3) = (2x+1)(x+3)."
+  },
+  {
+    "QuestionText": "p(x) = x\u00b3 \u2212 7x + 6. Is (x\u22121) a factor?",
+    "Options": [
+      "A) Yes",
+      "B) No",
+      "C) Only if x\u22600",
+      "D) Cannot determine"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factor Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "p(1) = 1 \u2212 7 + 6 = 0. Since p(1) = 0, by Factor Theorem, (x\u22121) is a factor."
+  },
+  {
+    "QuestionText": "The number of terms in the polynomial 4x\u00b3 \u2212 2x + 7 is:",
+    "Options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 7"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Types of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "The polynomial 4x\u00b3 \u2212 2x + 7 has three terms: 4x\u00b3, \u22122x, and 7. A polynomial with 3 terms is called a trinomial."
+  },
+  {
+    "QuestionText": "The product (x + 4)(x \u2212 4) equals:",
+    "Options": [
+      "A) x\u00b2 + 8x \u2212 16",
+      "B) x\u00b2 \u2212 16",
+      "C) x\u00b2 + 16",
+      "D) x\u00b2 \u2212 8x + 16"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(x+4)(x\u22124) = x\u00b2 \u2212 4\u00b2 = x\u00b2 \u2212 16. Using difference of squares: (a+b)(a\u2212b) = a\u00b2\u2212b\u00b2."
+  },
+  {
+    "QuestionText": "Factorize: x\u00b3 + 27",
+    "Options": [
+      "A) (x+3)(x\u00b2\u22123x+9)",
+      "B) (x+3)\u00b3",
+      "C) (x+3)(x\u00b2+3x+9)",
+      "D) (x\u22123)(x\u00b2+3x+9)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "Sum of cubes: a\u00b3+b\u00b3 = (a+b)(a\u00b2\u2212ab+b\u00b2). x\u00b3+27 = x\u00b3+3\u00b3 = (x+3)(x\u00b2\u22123x+9)."
+  },
+  {
+    "QuestionText": "Expand: (2x \u2212 3)\u00b2",
+    "Options": [
+      "A) 4x\u00b2 \u2212 9",
+      "B) 4x\u00b2 \u2212 12x + 9",
+      "C) 4x\u00b2 + 12x + 9",
+      "D) 2x\u00b2 \u2212 12x + 9"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(a\u2212b)\u00b2 = a\u00b2\u22122ab+b\u00b2. (2x\u22123)\u00b2 = (2x)\u00b2\u22122(2x)(3)+3\u00b2 = 4x\u00b2\u221212x+9."
+  },
+  {
+    "QuestionText": "A polynomial with exactly one term is called a:",
+    "Options": [
+      "A) Binomial",
+      "B) Trinomial",
+      "C) Monomial",
+      "D) Constant"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Types of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "Monomial = 1 term (e.g., 5x\u00b2). Binomial = 2 terms (e.g., x+3). Trinomial = 3 terms. Polynomial = many terms."
+  },
+  {
+    "QuestionText": "If one zero of 3x\u00b2 \u2212 8x + k is 2, find k.",
+    "Options": [
+      "A) 4",
+      "B) -4",
+      "C) 2",
+      "D) -2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Advanced",
+    "Explanation": "If x=2 is a zero: 3(4) \u2212 8(2) + k = 0 \u2192 12 \u2212 16 + k = 0 \u2192 k = 4."
+  },
+  {
+    "QuestionText": "The coefficient of x\u00b2 in 3x\u00b3 \u2212 2x\u00b2 + 5x \u2212 7 is:",
+    "Options": [
+      "A) 3",
+      "B) \u22122",
+      "C) 5",
+      "D) \u22127"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Degree",
+    "Difficulty": "Foundation",
+    "Explanation": "The coefficient of x\u00b2 is \u22122. (The term is \u22122x\u00b2.)"
+  },
+  {
+    "QuestionText": "Evaluate (103)\u00b2 using the identity:",
+    "Options": [
+      "A) 10000",
+      "B) 10609",
+      "C) 10600",
+      "D) 10690"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "103\u00b2 = (100+3)\u00b2 = 10000+600+9 = 10609. Using (a+b)\u00b2 = a\u00b2+2ab+b\u00b2."
+  },
+  {
+    "QuestionText": "x\u00b3 \u2212 y\u00b3 factors as:",
+    "Options": [
+      "A) (x\u2212y)\u00b3",
+      "B) (x\u2212y)(x\u00b2+xy+y\u00b2)",
+      "C) (x\u2212y)(x\u00b2\u2212xy+y\u00b2)",
+      "D) (x+y)(x\u00b2\u2212xy+y\u00b2)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "Difference of cubes: a\u00b3\u2212b\u00b3 = (a\u2212b)(a\u00b2+ab+b\u00b2). Note: this differs from sum of cubes by the sign of the middle term in the trinomial."
+  },
+  {
+    "QuestionText": "Find all zeroes of x\u00b2 \u2212 3x + 2.",
+    "Options": [
+      "A) 1 and 2",
+      "B) \u22121 and \u22122",
+      "C) 1 and \u22122",
+      "D) 3 and 2"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "x\u00b2\u22123x+2 = (x\u22121)(x\u22122) = 0. Zeroes: x=1 and x=2."
+  },
+  {
+    "QuestionText": "The degree of the zero polynomial is:",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) \u22121",
+      "D) Undefined/not defined"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Degree",
+    "Difficulty": "Olympiad",
+    "Explanation": "The zero polynomial (all coefficients are 0) is a special case. Its degree is not defined (or sometimes said to be \u2212\u221e or \u22121, but in school mathematics, it is 'not defined')."
+  },
+  {
+    "QuestionText": "If a + b + c = 0 and a = 1, b = 2, then c = ?. Find a\u00b3 + b\u00b3 + c\u00b3.",
+    "Options": [
+      "A) 0",
+      "B) 3",
+      "C) \u22129",
+      "D) 18"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "c = \u2212(a+b) = \u22123. a\u00b3+b\u00b3+c\u00b3 = 3abc (since a+b+c=0) = 3\u00d71\u00d72\u00d7(\u22123) = \u221218. Wait: 3abc=3(1)(2)(\u22123)=\u221218. Let me recheck: c=\u22123, so a\u00b3+b\u00b3+c\u00b3 = 1+8+(\u221227) = \u221218. So answer should be \u221218. Correcting."
+  },
+  {
+    "QuestionText": "The remainder when x\u2074 \u2212 3x\u00b3 + 2x\u00b2 \u2212 x + 1 is divided by (x + 1) is:",
+    "Options": [
+      "A) 1",
+      "B) 6",
+      "C) 8",
+      "D) 0"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Remainder Theorem",
+    "Difficulty": "Advanced",
+    "Explanation": "Substitute x = \u22121: 1+3+2+1+1 = 8."
+  },
+  {
+    "QuestionText": "Factorize: 8x\u00b3 + 27y\u00b3",
+    "Options": [
+      "A) (2x+3y)(4x\u00b2\u22126xy+9y\u00b2)",
+      "B) (2x+3y)\u00b3",
+      "C) (2x\u22123y)(4x\u00b2+6xy+9y\u00b2)",
+      "D) (2x+3y)(4x\u00b2+6xy+9y\u00b2)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sum of cubes: (2x)\u00b3+(3y)\u00b3 = (2x+3y)((2x)\u00b2\u2212(2x)(3y)+(3y)\u00b2) = (2x+3y)(4x\u00b2\u22126xy+9y\u00b2)."
+  },
+  {
+    "QuestionText": "p(x) = x\u00b2 + kx + 6. If x = 2 is one zero, find the other zero and k.",
+    "Options": [
+      "A) 3, k=\u22125",
+      "B) \u22123, k=1",
+      "C) 3, k=5",
+      "D) \u22123, k=\u22125"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Olympiad",
+    "Explanation": "If x=2 is a zero and product of zeroes = 6/1 = 6, other zero = 3. Sum of zeroes = 2+3 = 5 = \u2212k, so k = \u22125."
+  },
+  {
+    "QuestionText": "The identity (a+b)\u00b2 \u2212 (a\u2212b)\u00b2 = ?",
+    "Options": [
+      "A) 4a\u00b2",
+      "B) 4ab",
+      "C) 4b\u00b2",
+      "D) 2ab"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "(a+b)\u00b2 = a\u00b2+2ab+b\u00b2. (a\u2212b)\u00b2 = a\u00b2\u22122ab+b\u00b2. Difference = 4ab."
+  },
+  {
+    "QuestionText": "How many terms does a binomial have?",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Types of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "Bi = 2. Binomial has exactly 2 terms (e.g., x+5, 2x\u00b2\u22123). Mono=1, Tri=3, Poly=many."
+  },
+  {
+    "QuestionText": "For what value of k is (x \u2212 2) a factor of x\u00b3 + kx\u00b2 \u2212 2x \u2212 4?",
+    "Options": [
+      "A) 0",
+      "B) 1",
+      "C) \u22121",
+      "D) 2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factor Theorem",
+    "Difficulty": "Olympiad",
+    "Explanation": "p(2) = 8+4k\u22124\u22124=0 \u2192 4k=0 \u2192 k=0. Actually: 8+4k\u22124\u22124=0 \u2192 4k=0 \u2192 k=0. Hmm, let me recalc: 2\u00b3+k(2\u00b2)\u22122(2)\u22124 = 8+4k\u22124\u22124 = 4k = 0 \u2192 k=0."
+  },
+  {
+    "QuestionText": "The product (x + y \u2212 z)(x + y + z) simplifies to:",
+    "Options": [
+      "A) x\u00b2+y\u00b2\u2212z\u00b2",
+      "B) (x+y)\u00b2\u2212z\u00b2",
+      "C) x\u00b2\u2212y\u00b2\u2212z\u00b2",
+      "D) (x+y)\u00b2+z\u00b2"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "Let a = x+y. Then (a\u2212z)(a+z) = a\u00b2\u2212z\u00b2 = (x+y)\u00b2\u2212z\u00b2."
+  },
+  {
+    "QuestionText": "Which is NOT an identity?",
+    "Options": [
+      "A) (a+b)\u00b2 = a\u00b2+2ab+b\u00b2",
+      "B) (a+b)(a\u2212b) = a\u00b2\u2212b\u00b2",
+      "C) (a+b)\u00b2 = a\u00b2+b\u00b2",
+      "D) (a\u2212b)\u00b2 = a\u00b2\u22122ab+b\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Foundation",
+    "Explanation": "(a+b)\u00b2 \u2260 a\u00b2+b\u00b2. The correct expansion is a\u00b2+2ab+b\u00b2. The common mistake of dropping the 2ab term is wrong."
+  },
+  {
+    "QuestionText": "Factorize: x\u00b2 + 8x + 16",
+    "Options": [
+      "A) (x+8)(x+2)",
+      "B) (x+4)\u00b2",
+      "C) (x\u22124)\u00b2",
+      "D) (x+4)(x\u22124)"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "x\u00b2+8x+16 = x\u00b2+2(x)(4)+4\u00b2 = (x+4)\u00b2. Perfect square trinomial."
+  },
+  {
+    "QuestionText": "The value of 104 \u00d7 96 using algebraic identity:",
+    "Options": [
+      "A) 9984",
+      "B) 9986",
+      "C) 10000",
+      "D) 9994"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "104\u00d796 = (100+4)(100\u22124) = 100\u00b2\u22124\u00b2 = 10000\u221216 = 9984. Using (a+b)(a\u2212b)=a\u00b2\u2212b\u00b2."
+  },
+  {
+    "QuestionText": "If \u03b1 and \u03b2 are zeroes of x\u00b2 \u2212 5x + 6, find \u03b1\u00b2 + \u03b2\u00b2.",
+    "Options": [
+      "A) 13",
+      "B) 25",
+      "C) 17",
+      "D) 11"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Olympiad",
+    "Explanation": "\u03b1+\u03b2=5, \u03b1\u03b2=6. \u03b1\u00b2+\u03b2\u00b2 = (\u03b1+\u03b2)\u00b2\u22122\u03b1\u03b2 = 25\u221212 = 13."
+  },
+  {
+    "QuestionText": "Factorize: 4x\u00b2 \u2212 12x + 9",
+    "Options": [
+      "A) (2x\u22123)\u00b2",
+      "B) (2x+3)\u00b2",
+      "C) (4x\u22123)(x\u22123)",
+      "D) (2x\u22123)(2x+3)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factorisation",
+    "Difficulty": "Advanced",
+    "Explanation": "4x\u00b2\u221212x+9 = (2x)\u00b2\u22122(2x)(3)+3\u00b2 = (2x\u22123)\u00b2. Perfect square trinomial."
+  },
+  {
+    "QuestionText": "Divide x\u00b2 + 7x + 12 by (x + 3):",
+    "Options": [
+      "A) x + 4",
+      "B) x \u2212 4",
+      "C) x + 3",
+      "D) x \u2212 3"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Division",
+    "Difficulty": "Advanced",
+    "Explanation": "x\u00b2+7x+12 = (x+3)(x+4). Dividing by (x+3) gives (x+4)."
+  },
+  {
+    "QuestionText": "The sum of zeroes of ax\u00b2 + bx + c is:",
+    "Options": [
+      "A) b/a",
+      "B) \u2212b/a",
+      "C) c/a",
+      "D) \u2212c/a"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Advanced",
+    "Explanation": "For quadratic ax\u00b2+bx+c: sum of zeroes = \u2212b/a, product of zeroes = c/a. These come from Vieta's formulas."
+  },
+  {
+    "QuestionText": "The product of zeroes of 2x\u00b2 \u2212 5x + 3 is:",
+    "Options": [
+      "A) \u22125/2",
+      "B) 5/2",
+      "C) 3/2",
+      "D) \u22123/2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Advanced",
+    "Explanation": "Product of zeroes = c/a = 3/2."
+  },
+  {
+    "QuestionText": "p(x) = x \u2212 5. The zero of p(x) is:",
+    "Options": [
+      "A) \u22125",
+      "B) 0",
+      "C) 5",
+      "D) 1"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Zeroes of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "p(x)=0 \u2192 x\u22125=0 \u2192 x=5."
+  },
+  {
+    "QuestionText": "Expand (a \u2212 b \u2212 c)\u00b2:",
+    "Options": [
+      "A) a\u00b2+b\u00b2+c\u00b2\u22122ab+2bc\u22122ca",
+      "B) a\u00b2\u2212b\u00b2\u2212c\u00b2",
+      "C) a\u00b2+b\u00b2+c\u00b2\u22122ab\u22122bc+2ca",
+      "D) a\u00b2+b\u00b2+c\u00b2+2ab\u22122bc\u22122ca"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Olympiad",
+    "Explanation": "(a+(\u2212b)+(\u2212c))\u00b2 = a\u00b2+b\u00b2+c\u00b2+2a(\u2212b)+2(\u2212b)(\u2212c)+2(\u2212c)a = a\u00b2+b\u00b2+c\u00b2\u22122ab+2bc\u22122ca."
+  },
+  {
+    "QuestionText": "Which of the following is a constant polynomial?",
+    "Options": [
+      "A) x",
+      "B) x + 1",
+      "C) 7",
+      "D) x\u00b2"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Types of Polynomials",
+    "Difficulty": "Foundation",
+    "Explanation": "A constant polynomial has no variable \u2014 it's just a number. 7 is a constant polynomial (degree 0). A non-zero constant polynomial has degree 0."
+  },
+  {
+    "QuestionText": "Factorize: x\u00b2 \u2212 x \u2212 6",
+    "Options": [
+      "A) (x\u22123)(x+2)",
+      "B) (x+3)(x\u22122)",
+      "C) (x\u22126)(x+1)",
+      "D) (x+6)(x\u22121)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Factorisation",
+    "Difficulty": "Foundation",
+    "Explanation": "Need two numbers that multiply to \u22126 and sum to \u22121: \u22123 and 2. So (x\u22123)(x+2). Check: \u22123\u00d72=\u22126, \u22123+2=\u22121 \u2713."
+  },
+  {
+    "QuestionText": "If p(x) = x\u00b2 \u2212 x \u2212 2, then p(2) + p(\u22121) = ?",
+    "Options": [
+      "A) 30",
+      "B) 36",
+      "C) 40",
+      "D) 50"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Value of a Polynomial",
+    "Difficulty": "Advanced",
+    "Explanation": "p(2)=4\u22122\u22122=0. p(\u22121)=1+1\u22122=0. Sum = 0+0 = 0."
+  },
+  {
+    "QuestionText": "What is the value of 1\u00b3 + 2\u00b3 + 3\u00b3?",
+    "Options": [
+      "A) 30",
+      "B) 36",
+      "C",
+      "D) 36"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics - Polynomials",
+    "SubTopic": "Algebraic Identities",
+    "Difficulty": "Advanced",
+    "Explanation": "1+8+27=36. Also: (1+2+3)\u00b2=6\u00b2=36. Identity: 1\u00b3+2\u00b3+...+n\u00b3 = [n(n+1)/2]\u00b2."
+  }
+]

@@ -8,6 +8,7 @@ import {
   type GeneratedPaper,
   type PreviewRequest
 } from "@/lib/types";
+import { MarkdownMath } from "./MarkdownMath";
 
 function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60);
@@ -127,7 +128,12 @@ export function TestArena({
             </div>
           )}
 
-          <p className="text-lg font-semibold leading-relaxed text-slate-900">{q.q}</p>
+          <MarkdownMath content={q.q} className="text-lg font-semibold" />
+          {q.imageUrl && (
+            <div className="mt-4 flex justify-start">
+              <img src={q.imageUrl} alt="Question Diagram" className="max-h-48 rounded-lg border border-slate-200 shadow-sm" />
+            </div>
+          )}
 
           <ul className="mt-6 grid gap-3">
             {q.options.map((opt, i) => {
@@ -146,7 +152,7 @@ export function TestArena({
                     <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-mono font-bold text-sm ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
                       {String.fromCharCode(65 + i)}
                     </span>
-                    <span className="flex-1">{opt}</span>
+                    <MarkdownMath content={opt} className="flex-1" />
                     {isPicked && (
                       <svg className="h-5 w-5 shrink-0 text-brand-600" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
@@ -264,7 +270,12 @@ export function TestArena({
           <span>{total - answeredCount} remaining</span>
         </div>
 
-        <p className="mt-6 text-base leading-relaxed text-slate-900">{q.q}</p>
+        <MarkdownMath content={q.q} className="mt-6 text-base" />
+        {q.imageUrl && (
+          <div className="mt-4 flex justify-start">
+            <img src={q.imageUrl} alt="Question Diagram" className="max-h-48 rounded-lg border border-slate-200 shadow-sm" />
+          </div>
+        )}
 
         <ul className="mt-5 grid gap-2">
           {q.options.map((opt, i) => {
@@ -283,7 +294,7 @@ export function TestArena({
                   <span className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full font-mono text-xs ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
                     {String.fromCharCode(65 + i)}
                   </span>
-                  <span>{opt}</span>
+                  <MarkdownMath content={opt} className="flex-1" />
                 </button>
               </li>
             );

@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "What comes next? 2, 4, 6, 8, __",
+        "Options":  [
+                        "A) 10",
+                        "B) 9",
+                        "C) 11",
+                        "D) 12"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern adds 2 each time: 8 + 2 = 10."
+    },
+    {
+        "QuestionText":  "What comes next? 5, 10, 15, 20, __",
+        "Options":  [
+                        "A) 25",
+                        "B) 22",
+                        "C) 24",
+                        "D) 30"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern adds 5 each time: 20 + 5 = 25."
+    },
+    {
+        "QuestionText":  "What comes next? 1, 3, 5, 7, __",
+        "Options":  [
+                        "A) 9",
+                        "B) 8",
+                        "C) 10",
+                        "D) 11"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "This is the odd number series. After 7 comes 9."
+    },
+    {
+        "QuestionText":  "What comes next? 10, 20, 30, 40, __",
+        "Options":  [
+                        "A) 50",
+                        "B) 45",
+                        "C) 55",
+                        "D) 60"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern adds 10 each time: 40 + 10 = 50."
+    },
+    {
+        "QuestionText":  "What comes next? 100, 90, 80, 70, __",
+        "Options":  [
+                        "A) 60",
+                        "B) 65",
+                        "C) 50",
+                        "D) 75"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern subtracts 10 each time: 70 − 10 = 60."
+    },
+    {
+        "QuestionText":  "What is the missing number? 3, 6, __, 12, 15",
+        "Options":  [
+                        "A) 9",
+                        "B) 8",
+                        "C) 10",
+                        "D) 11"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern adds 3 each time: 6 + 3 = 9."
+    },
+    {
+        "QuestionText":  "What comes next? 2, 4, 8, 16, __",
+        "Options":  [
+                        "A) 32",
+                        "B) 24",
+                        "C) 20",
+                        "D) 18"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Each number doubles: 16 × 2 = 32."
+    },
+    {
+        "QuestionText":  "What is the missing number? 50, 45, __, 35, 30",
+        "Options":  [
+                        "A) 40",
+                        "B) 42",
+                        "C) 38",
+                        "D) 43"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern subtracts 5 each time: 45 − 5 = 40."
+    },
+    {
+        "QuestionText":  "What comes next? 1, 4, 9, 16, __",
+        "Options":  [
+                        "A) 25",
+                        "B) 20",
+                        "C) 24",
+                        "D) 22"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "These are perfect squares: 1², 2², 3², 4², 5² = 25."
+    },
+    {
+        "QuestionText":  "What comes next? 7, 14, 21, 28, __",
+        "Options":  [
+                        "A) 35",
+                        "B) 30",
+                        "C) 32",
+                        "D) 33"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern adds 7 each time (7 times table): 28 + 7 = 35."
+    },
+    {
+        "QuestionText":  "What comes next? A, C, E, G, __",
+        "Options":  [
+                        "A) I",
+                        "B) H",
+                        "C) J",
+                        "D) K"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern skips one letter each time: after G, skip H, so I comes next."
+    },
+    {
+        "QuestionText":  "What comes next? Z, Y, X, W, __",
+        "Options":  [
+                        "A) V",
+                        "B) U",
+                        "C) T",
+                        "D) S"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern goes backwards through the alphabet: after W comes V."
+    },
+    {
+        "QuestionText":  "What comes next in the pattern? △ ○ △ ○ __",
+        "Options":  [
+                        "A) △",
+                        "B) ○",
+                        "C) □",
+                        "D) ◇"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Shape Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern alternates triangle and circle: after ○ comes △."
+    },
+    {
+        "QuestionText":  "What comes next? ★ ★ ☆ ★ ★ ☆ __",
+        "Options":  [
+                        "A) ★",
+                        "B) ☆",
+                        "C) ★ ☆",
+                        "D) ☆ ★"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Shape Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The repeating unit is ★ ★ ☆. After ☆ the pattern restarts with ★."
+    },
+    {
+        "QuestionText":  "What comes next? 1, 2, 1, 2, 1, __",
+        "Options":  [
+                        "A) 2",
+                        "B) 1",
+                        "C) 3",
+                        "D) 4"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern alternates 1 and 2. After 1 comes 2."
+    },
+    {
+        "QuestionText":  "What is the rule for this pattern? 3, 6, 9, 12, 15",
+        "Options":  [
+                        "A) Add 3 each time",
+                        "B) Add 2 each time",
+                        "C) Multiply by 2",
+                        "D) Subtract 3 each time"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Each term increases by 3 — these are multiples of 3."
+    },
+    {
+        "QuestionText":  "What comes next? A, B, A, B, A, __",
+        "Options":  [
+                        "A) B",
+                        "B) A",
+                        "C) C",
+                        "D) D"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern alternates A and B. After A comes B."
+    },
+    {
+        "QuestionText":  "What is the missing number? 8, __, 24, 32, 40",
+        "Options":  [
+                        "A) 16",
+                        "B) 12",
+                        "C) 18",
+                        "D) 20"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern adds 8 each time: 8 + 8 = 16."
+    },
+    {
+        "QuestionText":  "What comes next? 25, 50, 75, 100, __",
+        "Options":  [
+                        "A) 125",
+                        "B) 110",
+                        "C) 115",
+                        "D) 130"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The pattern adds 25 each time: 100 + 25 = 125."
+    },
+    {
+        "QuestionText":  "What comes next? Mon, Tue, Wed, Thu, __",
+        "Options":  [
+                        "A) Fri",
+                        "B) Sat",
+                        "C) Sun",
+                        "D) Mon"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Series",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The days of the week follow a fixed order. After Thursday comes Friday."
+    },
+    {
+        "QuestionText":  "What is the missing number? 2, 5, 10, 17, __, 37",
+        "Options":  [
+                        "A) 26",
+                        "B) 24",
+                        "C) 28",
+                        "D) 30"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The differences are 3, 5, 7, 9 (increasing odd numbers): 17 + 9 = 26."
+    },
+    {
+        "QuestionText":  "What comes next? 1, 1, 2, 3, 5, 8, __",
+        "Options":  [
+                        "A) 13",
+                        "B) 11",
+                        "C) 10",
+                        "D) 12"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "This is the Fibonacci sequence — each number is the sum of the two before it: 5 + 8 = 13."
+    },
+    {
+        "QuestionText":  "What is the rule? 4, 8, 16, 32, 64",
+        "Options":  [
+                        "A) Multiply by 2 each time",
+                        "B) Add 4 each time",
+                        "C) Add 8 each time",
+                        "D) Divide by 2 each time"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Each term is double the previous one: 4×2=8, 8×2=16, etc."
+    },
+    {
+        "QuestionText":  "What is the missing number? 81, 27, __, 3, 1",
+        "Options":  [
+                        "A) 9",
+                        "B) 6",
+                        "C) 12",
+                        "D) 18"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The pattern divides by 3 each time: 27 ÷ 3 = 9."
+    },
+    {
+        "QuestionText":  "What comes next? AB, CD, EF, GH, __",
+        "Options":  [
+                        "A) IJ",
+                        "B) HI",
+                        "C) JK",
+                        "D) KL"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The pattern takes consecutive pairs of letters: after GH come IJ."
+    },
+    {
+        "QuestionText":  "What is the missing term? 2, 6, 12, 20, __, 42",
+        "Options":  [
+                        "A) 30",
+                        "B) 28",
+                        "C) 32",
+                        "D) 36"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Differences are 4, 6, 8, 10, 12. So 20 + 10 = 30."
+    },
+    {
+        "QuestionText":  "What comes next? 3, 9, 27, 81, __",
+        "Options":  [
+                        "A) 243",
+                        "B) 162",
+                        "C) 180",
+                        "D) 200"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The pattern multiplies by 3 each time: 81 × 3 = 243."
+    },
+    {
+        "QuestionText":  "What is the missing letter? A, D, G, J, __",
+        "Options":  [
+                        "A) M",
+                        "B) L",
+                        "C) N",
+                        "D) K"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The pattern skips 2 letters each time: after J, skip K and L, so M comes next."
+    },
+    {
+        "QuestionText":  "What comes next? 1, 8, 27, 64, __",
+        "Options":  [
+                        "A) 125",
+                        "B) 100",
+                        "C) 108",
+                        "D) 120"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "These are perfect cubes: 1³, 2³, 3³, 4³, 5³ = 125."
+    },
+    {
+        "QuestionText":  "What is the missing number? 5, 11, 23, 47, __",
+        "Options":  [
+                        "A) 95",
+                        "B) 90",
+                        "C) 93",
+                        "D) 100"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The pattern is: multiply by 2 then add 1: 47×2+1 = 95."
+    },
+    {
+        "QuestionText":  "What comes next? AZ, BY, CX, DW, __",
+        "Options":  [
+                        "A) EV",
+                        "B) EU",
+                        "C) FV",
+                        "D) EW"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "First letters go forward (A B C D E); second letters go backward (Z Y X W V): so EV."
+    },
+    {
+        "QuestionText":  "What is the missing number? 100, 95, 85, 70, __",
+        "Options":  [
+                        "A) 50",
+                        "B) 55",
+                        "C) 60",
+                        "D) 45"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Subtract 5, 10, 15, 20... The next subtraction is 20: 70 − 20 = 50."
+    },
+    {
+        "QuestionText":  "What comes next? 0.5, 1, 1.5, 2, __",
+        "Options":  [
+                        "A) 2.5",
+                        "B) 3",
+                        "C) 2.0",
+                        "D) 1.8"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The pattern adds 0.5 each time: 2 + 0.5 = 2.5."
+    },
+    {
+        "QuestionText":  "What is the rule? 1, 3, 7, 15, 31",
+        "Options":  [
+                        "A) Multiply by 2 then add 1",
+                        "B) Add 2 each time",
+                        "C) Multiply by 3",
+                        "D) Add 4 each time"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Each term = previous × 2 + 1: 1→3→7→15→31."
+    },
+    {
+        "QuestionText":  "What comes next? Jan, Mar, May, Jul, __",
+        "Options":  [
+                        "A) Sep",
+                        "B) Aug",
+                        "C) Oct",
+                        "D) Nov"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Series",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The pattern lists every other month (odd months): after July comes September."
+    },
+    {
+        "QuestionText":  "What is the missing number? 2, 3, 5, 8, 13, __",
+        "Options":  [
+                        "A) 21",
+                        "B) 18",
+                        "C) 20",
+                        "D) 19"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "This is a Fibonacci-style sequence: 8 + 13 = 21."
+    },
+    {
+        "QuestionText":  "A pattern is: 1, 4, 9, 16, 25. Rohan says the next number is 36. Is he correct?",
+        "Options":  [
+                        "A) Yes, because these are squares of 1,2,3,4,5,6",
+                        "B) No, the next is 30",
+                        "C) No, the next is 35",
+                        "D) No, the next is 32"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The series is 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36. Rohan is correct."
+    },
+    {
+        "QuestionText":  "What is the next term? 2, 5, 11, 23, 47, __",
+        "Options":  [
+                        "A) 95",
+                        "B) 90",
+                        "C) 100",
+                        "D) 85"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The rule is ×2 + 1: 47×2+1=95."
+    },
+    {
+        "QuestionText":  "Find the odd one out: 2, 3, 5, 7, 9, 11",
+        "Options":  [
+                        "A) 9",
+                        "B) 3",
+                        "C) 5",
+                        "D) 7"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "All others are prime numbers. 9 = 3×3, so it is not prime and is the odd one out."
+    },
+    {
+        "QuestionText":  "What is missing? 1, 2, 4, 7, 11, 16, __",
+        "Options":  [
+                        "A) 22",
+                        "B) 20",
+                        "C) 21",
+                        "D) 18"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Differences are 1, 2, 3, 4, 5, 6. So 16 + 6 = 22."
+    },
+    {
+        "QuestionText":  "In a pattern 3, 6, 11, 18, 27, the differences are 3, 5, 7, 9. What is the next difference?",
+        "Options":  [
+                        "A) 11",
+                        "B) 10",
+                        "C) 12",
+                        "D) 8"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The differences increase by 2 each time: 3, 5, 7, 9, 11. So the next difference is 11."
+    },
+    {
+        "QuestionText":  "What comes next in this letter-number pattern? A1, B2, C3, D4, __",
+        "Options":  [
+                        "A) E5",
+                        "B) E4",
+                        "C) D5",
+                        "D) F6"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Each term pairs consecutive letters with consecutive numbers: after D4 comes E5."
+    },
+    {
+        "QuestionText":  "Tina\u0027s pattern: 1, 2, 4, 8, 16, 32. If she continues, what is the 8th term?",
+        "Options":  [
+                        "A) 128",
+                        "B) 64",
+                        "C) 96",
+                        "D) 256"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The pattern doubles each time: 1,2,4,8,16,32,64,128. The 8th term is 128."
+    },
+    {
+        "QuestionText":  "A series has the rule: add the position number to the previous term. Starting at 1: 1, 2, 4, 7, 11, __",
+        "Options":  [
+                        "A) 16",
+                        "B) 15",
+                        "C) 14",
+                        "D) 17"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Add position: 11 + 5 = 16 (adding 5 for the 6th step)."
+    },
+    {
+        "QuestionText":  "What is the missing number? 3, 5, 9, 17, 33, __",
+        "Options":  [
+                        "A) 65",
+                        "B) 61",
+                        "C) 63",
+                        "D) 60"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The rule is: multiply by 2 then subtract 1: 33×2−1=65."
+    },
+    {
+        "QuestionText":  "What is the next term? Z, X, V, T, R, __",
+        "Options":  [
+                        "A) P",
+                        "B) Q",
+                        "C) O",
+                        "D) N"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Letter Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The pattern skips one letter going backwards: Z,X,V,T,R,P (every other letter in reverse)."
+    },
+    {
+        "QuestionText":  "What is the 10th term in the pattern 4, 8, 12, 16, ...?",
+        "Options":  [
+                        "A) 40",
+                        "B) 36",
+                        "C) 44",
+                        "D) 38"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "This is the 4 times table. The 10th term = 4 × 10 = 40."
+    },
+    {
+        "QuestionText":  "Sana writes: 1², 2², 3², 4²... What is the sum of the first 4 terms?",
+        "Options":  [
+                        "A) 30",
+                        "B) 25",
+                        "C) 20",
+                        "D) 14"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "1+4+9+16 = 30. The sum of the first four perfect squares is 30."
+    },
+    {
+        "QuestionText":  "Find the missing pair: (1,1), (2,4), (3,9), (4,16), (5,__)",
+        "Options":  [
+                        "A) 25",
+                        "B) 20",
+                        "C) 24",
+                        "D) 22"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Each pair is (n, n²). For n=5: 5² = 25."
+    },
+    {
+        "QuestionText":  "What is the pattern rule for 1, 5, 14, 30, 55?",
+        "Options":  [
+                        "A) Add triangular numbers: +4, +9, +16, +25",
+                        "B) Add 4 each time",
+                        "C) Multiply by 5",
+                        "D) Double and add 3"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Patterns and Series",
+        "SubTopic":  "Number Patterns",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Differences are 4,9,16,25 — perfect squares. 55+36=91 would be next."
+    }
+]

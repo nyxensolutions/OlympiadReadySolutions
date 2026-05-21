@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "The basic structural and functional unit of life is the:",
+    "Options": [
+      "A) Tissue",
+      "B) Organ",
+      "C) Cell",
+      "D) Molecule"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "Cell Theory (Schleiden, Schwann, Virchow): all living organisms are made of cells; the cell is the basic unit of life; all cells arise from pre-existing cells."
+  },
+  {
+    "QuestionText": "The powerhouse of the cell is the:",
+    "Options": [
+      "A) Nucleus",
+      "B) Ribosome",
+      "C) Mitochondria",
+      "D) Golgi apparatus"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Mitochondria produce ATP via cellular respiration (Krebs cycle + oxidative phosphorylation). They have their own DNA and ribosomes, suggesting endosymbiotic origin."
+  },
+  {
+    "QuestionText": "Photosynthesis takes place in:",
+    "Options": [
+      "A) Mitochondria",
+      "B) Chloroplasts",
+      "C) Ribosomes",
+      "D) Nucleus"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Chloroplasts contain chlorophyll and conduct photosynthesis. Found in plant cells and some protists. They also have their own DNA."
+  },
+  {
+    "QuestionText": "The cell membrane is composed mainly of:",
+    "Options": [
+      "A) Carbohydrates",
+      "B) Proteins only",
+      "C) Phospholipid bilayer with embedded proteins",
+      "D) DNA and RNA"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Membrane",
+    "Difficulty": "Foundation",
+    "Explanation": "Cell membrane = fluid mosaic model. Phospholipid bilayer (hydrophilic heads outside, hydrophobic tails inside) with intrinsic and extrinsic proteins."
+  },
+  {
+    "QuestionText": "Ribosomes are the sites of:",
+    "Options": [
+      "A) DNA replication",
+      "B) Protein synthesis",
+      "C) Lipid synthesis",
+      "D) ATP production"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Ribosomes translate mRNA into proteins. They are composed of rRNA and protein. Found free in cytoplasm or on rough endoplasmic reticulum."
+  },
+  {
+    "QuestionText": "Eukaryotic cells differ from prokaryotic cells by having:",
+    "Options": [
+      "A) A cell membrane",
+      "B) A nucleus (membrane-bound)",
+      "C) Ribosomes",
+      "D) DNA"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Eukaryotes have a true nucleus (DNA enclosed in nuclear membrane) and membrane-bound organelles. Prokaryotes lack a nucleus and membrane-bound organelles."
+  },
+  {
+    "QuestionText": "The nucleus controls cell activities because it contains:",
+    "Options": [
+      "A) RNA only",
+      "B) ATP",
+      "C) DNA (genetic information)",
+      "D) Chlorophyll"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Nucleus",
+    "Difficulty": "Foundation",
+    "Explanation": "The nucleus contains DNA organized into chromosomes. DNA encodes all proteins \u2014 hence controls all metabolic activities via gene expression."
+  },
+  {
+    "QuestionText": "The fluid mosaic model of cell membrane was proposed by:",
+    "Options": [
+      "A) Watson and Crick",
+      "B) Singer and Nicolson",
+      "C) Davson and Danielli",
+      "D) Schwann and Schleiden"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Membrane",
+    "Difficulty": "Foundation",
+    "Explanation": "Singer and Nicolson (1972) proposed the fluid mosaic model: phospholipid bilayer is fluid (lipids can move laterally) and proteins are mosaic-like."
+  },
+  {
+    "QuestionText": "Osmosis is the movement of water through a semi-permeable membrane from:",
+    "Options": [
+      "A) High solute to low solute concentration",
+      "B) Low solute concentration to high solute concentration",
+      "C) Cell to cell",
+      "D) Nucleus to cytoplasm"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Foundation",
+    "Explanation": "Osmosis: water moves from hypotonic (low solute = high water potential) to hypertonic (high solute = low water potential) through semi-permeable membrane."
+  },
+  {
+    "QuestionText": "Active transport requires:",
+    "Options": [
+      "A) A concentration gradient only",
+      "B) ATP energy and carrier proteins",
+      "C) No energy",
+      "D) Only a selectively permeable membrane"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Foundation",
+    "Explanation": "Active transport moves molecules against concentration gradient. Requires ATP hydrolysis and specific carrier (pump) proteins. E.g., Na\u207a/K\u207a ATPase pump."
+  },
+  {
+    "QuestionText": "Mitosis results in:",
+    "Options": [
+      "A) 4 haploid cells",
+      "B) 2 genetically identical diploid cells",
+      "C) 2 haploid cells",
+      "D) 1 cell with double DNA"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Mitosis: somatic cell division producing 2 identical daughter cells (same chromosome number as parent = diploid). For growth and repair."
+  },
+  {
+    "QuestionText": "Meiosis results in:",
+    "Options": [
+      "A) 2 diploid cells",
+      "B) 4 genetically identical cells",
+      "C) 4 haploid cells with genetic variation",
+      "D) 2 cells with double DNA"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Meiosis: two divisions producing 4 haploid cells from 1 diploid. Creates genetic variation through crossing over (prophase I) and independent assortment."
+  },
+  {
+    "QuestionText": "The Golgi apparatus is responsible for:",
+    "Options": [
+      "A) Protein synthesis",
+      "B) Processing, packaging, and secretion of proteins",
+      "C) DNA replication",
+      "D) ATP production"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Golgi apparatus: receives proteins from ER, modifies them (glycosylation etc.), sorts and packages into vesicles for secretion or to other organelles."
+  },
+  {
+    "QuestionText": "Lysosomes contain:",
+    "Options": [
+      "A) Photosynthetic enzymes",
+      "B) Hydrolytic digestive enzymes",
+      "C) DNA",
+      "D) ATP synthase"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Lysosomes are membrane-bound vesicles containing hydrolytic enzymes (acid hydrolases). They digest worn-out organelles, food particles, and foreign bodies \u2014 cellular recycling."
+  },
+  {
+    "QuestionText": "Plant cells are distinguished from animal cells by having:",
+    "Options": [
+      "A) Mitochondria",
+      "B) Cell wall, large vacuole, and chloroplasts",
+      "C) Ribosomes",
+      "D) Golgi apparatus"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Types",
+    "Difficulty": "Foundation",
+    "Explanation": "Plant cells uniquely have: cell wall (cellulose), central vacuole (water storage/turgor), and chloroplasts (photosynthesis). Animals lack all three."
+  },
+  {
+    "QuestionText": "The endoplasmic reticulum (ER) that is studded with ribosomes is called:",
+    "Options": [
+      "A) Smooth ER",
+      "B) Rough ER",
+      "C) Golgi ER",
+      "D) Nuclear ER"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Rough ER has ribosomes on its surface \u2014 looks rough. Synthesizes and processes proteins for secretion. Smooth ER lacks ribosomes and is involved in lipid synthesis."
+  },
+  {
+    "QuestionText": "DNA replication is:",
+    "Options": [
+      "A) Conservative",
+      "B) Semi-conservative",
+      "C) Dispersive",
+      "D) Non-conservative"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "DNA Replication",
+    "Difficulty": "Foundation",
+    "Explanation": "Meselson-Stahl experiment (1958) confirmed semi-conservative replication: each new double helix contains one old strand and one new strand."
+  },
+  {
+    "QuestionText": "Transcription is the process of:",
+    "Options": [
+      "A) DNA \u2192 Protein",
+      "B) RNA \u2192 DNA",
+      "C) DNA \u2192 RNA",
+      "D) Protein \u2192 RNA"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Gene Expression",
+    "Difficulty": "Foundation",
+    "Explanation": "Central Dogma: DNA \u2192 (transcription) \u2192 RNA \u2192 (translation) \u2192 Protein. Transcription occurs in nucleus (eukaryotes), catalyzed by RNA polymerase."
+  },
+  {
+    "QuestionText": "Translation occurs at:",
+    "Options": [
+      "A) Nucleus",
+      "B) Mitochondria",
+      "C) Ribosomes",
+      "D) Golgi apparatus"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Gene Expression",
+    "Difficulty": "Foundation",
+    "Explanation": "Translation: mRNA \u2192 protein at ribosomes. tRNA brings amino acids corresponding to codons. Ribosomes read mRNA in 5'\u21923' direction."
+  },
+  {
+    "QuestionText": "A codon is a sequence of __ nucleotides on mRNA:",
+    "Options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Gene Expression",
+    "Difficulty": "Foundation",
+    "Explanation": "Codon = 3 mRNA nucleotides coding for 1 amino acid. 4\u00b3=64 possible codons code for 20 amino acids (genetic code is degenerate). UAA, UAG, UGA = stop codons."
+  },
+  {
+    "QuestionText": "During prophase I of meiosis, crossing over occurs between:",
+    "Options": [
+      "A) Identical chromatids of same chromosome",
+      "B) Non-sister chromatids of homologous chromosomes",
+      "C) Sister chromatids of different chromosomes",
+      "D) Centromeres"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Advanced",
+    "Explanation": "Crossing over (recombination) occurs at chiasmata between non-sister chromatids of homologous chromosomes during prophase I. Creates genetic recombination."
+  },
+  {
+    "QuestionText": "The cell cycle phases in order are:",
+    "Options": [
+      "A) G1, S, G2, M",
+      "B) S, G1, G2, M",
+      "C) M, S, G1, G2",
+      "D) G2, G1, S, M"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Advanced",
+    "Explanation": "G1 (growth), S (DNA synthesis/replication), G2 (growth+prep), M (mitosis). Interphase = G1+S+G2. Cell spends most time in G1."
+  },
+  {
+    "QuestionText": "Apoptosis is:",
+    "Options": [
+      "A) Uncontrolled cell division",
+      "B) Programmed cell death",
+      "C) Cell swelling and rupture",
+      "D) DNA replication error"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Advanced",
+    "Explanation": "Apoptosis = programmed cell death. Normal and regulated; essential for development (finger separation), immunity, and preventing cancer. Differs from necrosis (uncontrolled death)."
+  },
+  {
+    "QuestionText": "The sodium-potassium pump moves:",
+    "Options": [
+      "A) 2Na\u207a in and 3K\u207a out",
+      "B) 3Na\u207a out and 2K\u207a in per ATP",
+      "C) Equal amounts in both directions",
+      "D) Only Na\u207a outward"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Advanced",
+    "Explanation": "Na\u207a/K\u207a ATPase: 3Na\u207a pumped out, 2K\u207a pumped in per ATP hydrolyzed. Maintains electrochemical gradient essential for nerve impulse and muscle contraction."
+  },
+  {
+    "QuestionText": "Plasmolysis in plant cells occurs when:",
+    "Options": [
+      "A) Cell is in hypotonic solution",
+      "B) Cell wall breaks down",
+      "C) Cell is in hypertonic solution",
+      "D) Osmosis stops"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Advanced",
+    "Explanation": "Plasmolysis: plant cell loses water when placed in hypertonic solution. Cell membrane pulls away from cell wall. Turgidity lost. Cell becomes flaccid."
+  },
+  {
+    "QuestionText": "Chromatin is composed of:",
+    "Options": [
+      "A) RNA and proteins",
+      "B) DNA and histone proteins",
+      "C) DNA only",
+      "D) Lipids and DNA"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Nucleus",
+    "Difficulty": "Foundation",
+    "Explanation": "Chromatin = DNA wrapped around histone octamers to form nucleosomes (beads on a string). Condenses into chromosomes during cell division."
+  },
+  {
+    "QuestionText": "Enzymes in cells are essentially:",
+    "Options": [
+      "A) Lipids",
+      "B) Carbohydrates",
+      "C) Proteins (biological catalysts)",
+      "D) Nucleic acids"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Biochemistry",
+    "Difficulty": "Foundation",
+    "Explanation": "Enzymes are proteins that catalyze biochemical reactions. They lower activation energy, are specific (lock-and-key or induced fit), and are not consumed in reactions."
+  },
+  {
+    "QuestionText": "The anticodon is found on:",
+    "Options": [
+      "A) mRNA",
+      "B) tRNA",
+      "C) rRNA",
+      "D) DNA"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Gene Expression",
+    "Difficulty": "Advanced",
+    "Explanation": "tRNA has an anticodon loop complementary to the mRNA codon. tRNA also carries the specific amino acid corresponding to that codon. This is how translation works."
+  },
+  {
+    "QuestionText": "Endocytosis is:",
+    "Options": [
+      "A) Extrusion of materials from cell",
+      "B) Uptake of materials into cell by membrane folding",
+      "C) Diffusion of ions",
+      "D) ATP production"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Advanced",
+    "Explanation": "Endocytosis: cell membrane folds inward to engulf material (phagocytosis = solids, pinocytosis = liquids, receptor-mediated endocytosis = specific molecules)."
+  },
+  {
+    "QuestionText": "Chromosomes are visible under microscope during:",
+    "Options": [
+      "A) Interphase",
+      "B) G1 phase",
+      "C) Metaphase of mitosis",
+      "D) S phase"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Chromosomes are maximally condensed and visible during metaphase. During interphase, DNA exists as diffuse chromatin (not visible as discrete chromosomes)."
+  },
+  {
+    "QuestionText": "The enzyme that unwinds DNA during replication is:",
+    "Options": [
+      "A) DNA polymerase",
+      "B) Helicase",
+      "C) Ligase",
+      "D) Primase"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "DNA Replication",
+    "Difficulty": "Advanced",
+    "Explanation": "Helicase unwinds the double helix by breaking H-bonds between base pairs. DNA polymerase adds new nucleotides. Ligase joins Okazaki fragments."
+  },
+  {
+    "QuestionText": "A cell placed in distilled water will:",
+    "Options": [
+      "A) Shrink (plasmolysis)",
+      "B) Stay same size",
+      "C) Swell and possibly burst (lysis)",
+      "D) Divide immediately"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Foundation",
+    "Explanation": "Distilled water = hypotonic. Water enters cell by osmosis \u2192 cell swells \u2192 may lyse (animal cells) or become turgid (plant cells with cell wall)."
+  },
+  {
+    "QuestionText": "Centrioles are involved in:",
+    "Options": [
+      "A) Protein synthesis",
+      "B) Formation of spindle fibres during cell division",
+      "C) Photosynthesis",
+      "D) ATP production"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Foundation",
+    "Explanation": "Centrioles (in animal cells) organize the spindle apparatus during mitosis/meiosis. They form the aster and spindle fibres that pull chromosomes to poles."
+  },
+  {
+    "QuestionText": "The selectively permeable nature of the cell membrane is due to:",
+    "Options": [
+      "A) Cellulose in membrane",
+      "B) Hydrophobic lipid bilayer restricting passage of many molecules",
+      "C) Rigid structure",
+      "D) Cholesterol only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Membrane",
+    "Difficulty": "Advanced",
+    "Explanation": "The hydrophobic lipid bilayer prevents passage of large and charged molecules. Small nonpolar molecules (O\u2082, CO\u2082) cross easily. Ions and large polar molecules need protein channels/pumps."
+  },
+  {
+    "QuestionText": "In the Watson-Crick model of DNA, adenine pairs with:",
+    "Options": [
+      "A) Cytosine",
+      "B) Guanine",
+      "C) Thymine",
+      "D) Uracil"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "DNA Structure",
+    "Difficulty": "Foundation",
+    "Explanation": "Chargaff's rules: A pairs with T (2 H-bonds), G pairs with C (3 H-bonds). In RNA, U replaces T. Complementary base pairing is anti-parallel."
+  },
+  {
+    "QuestionText": "Number of chromosomes in human somatic cells is:",
+    "Options": [
+      "A) 23",
+      "B) 46",
+      "C) 48",
+      "D) 92"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Humans have 46 chromosomes (23 pairs) in somatic (body) cells (diploid). Gametes (egg/sperm) have 23 chromosomes (haploid) after meiosis."
+  },
+  {
+    "QuestionText": "The term 'cell' was coined by:",
+    "Options": [
+      "A) Leeuwenhoek",
+      "B) Schwann",
+      "C) Robert Hooke",
+      "D) Virchow"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Theory",
+    "Difficulty": "Foundation",
+    "Explanation": "Robert Hooke (1665) coined 'cell' while observing cork cells under microscope. Leeuwenhoek observed live microorganisms. Schwann and Schleiden formulated cell theory."
+  },
+  {
+    "QuestionText": "Mitochondrial DNA is:",
+    "Options": [
+      "A) Linear and very long",
+      "B) Circular and maternally inherited",
+      "C) Same as nuclear DNA",
+      "D) Absent in most organisms"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Advanced",
+    "Explanation": "mtDNA is circular (like bacterial DNA), maternally inherited, and encodes some mitochondrial proteins. Supports the endosymbiotic theory of mitochondrial origin."
+  },
+  {
+    "QuestionText": "The G\u2082 phase of the cell cycle prepares for:",
+    "Options": [
+      "A) DNA synthesis",
+      "B) Cell growth only",
+      "C) Mitosis (checks DNA integrity, produces mitotic proteins)",
+      "D) Meiosis"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Advanced",
+    "Explanation": "G2 phase: cell grows, checks replicated DNA for errors, synthesizes proteins needed for mitosis (e.g., MPF kinase). Checkpoint ensures DNA is completely replicated before M phase."
+  },
+  {
+    "QuestionText": "Which organelle is responsible for detoxifying drugs in liver cells?",
+    "Options": [
+      "A) Rough ER",
+      "B) Smooth ER",
+      "C) Golgi apparatus",
+      "D) Peroxisomes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Advanced",
+    "Explanation": "Smooth ER in liver cells: detoxifies drugs/alcohol using cytochrome P450 enzymes. Also synthesizes lipids, phospholipids, steroids."
+  },
+  {
+    "QuestionText": "The process by which a vesicle fuses with cell membrane to release contents outside is:",
+    "Options": [
+      "A) Endocytosis",
+      "B) Pinocytosis",
+      "C) Exocytosis",
+      "D) Phagocytosis"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Foundation",
+    "Explanation": "Exocytosis: vesicles fuse with plasma membrane and release contents to exterior. Used for secretion of proteins (neurotransmitters, hormones, digestive enzymes)."
+  },
+  {
+    "QuestionText": "Polytene chromosomes are found in:",
+    "Options": [
+      "A) Human liver cells",
+      "B) Drosophila salivary gland cells",
+      "C) All dividing cells",
+      "D) Gametes"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Nucleus",
+    "Difficulty": "Olympiad",
+    "Explanation": "Polytene chromosomes arise by multiple DNA replications without cell division (endomitosis). Found in Drosophila salivary gland cells. Show banding patterns used in gene mapping."
+  },
+  {
+    "QuestionText": "Connexins form:",
+    "Options": [
+      "A) Tight junctions",
+      "B) Desmosomes",
+      "C) Gap junctions (direct cytoplasmic connections)",
+      "D) Plasmodesmata in plants"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Membrane",
+    "Difficulty": "Olympiad",
+    "Explanation": "Gap junctions: connexin proteins form channels directly connecting adjacent animal cell cytoplasms. Allow direct passage of ions and small molecules. Important in heart and embryo."
+  },
+  {
+    "QuestionText": "Which phase of mitosis involves chromosomes aligning at the cell equator?",
+    "Options": [
+      "A) Prophase",
+      "B) Anaphase",
+      "C) Metaphase",
+      "D) Telophase"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Metaphase: chromosomes maximally condensed, align at metaphase plate (equatorial plane). Spindle fibres attached to centromeres. Cell can be checked for chromosome number here (karyotype)."
+  },
+  {
+    "QuestionText": "Osmotic pressure of a cell increases when:",
+    "Options": [
+      "A) Water enters",
+      "B) Solute concentration inside increases",
+      "C) Temperature decreases",
+      "D) Cell membrane ruptures"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Transport Across Membranes",
+    "Difficulty": "Advanced",
+    "Explanation": "Osmotic pressure \u03c0 = iCRT (Van't Hoff equation). Higher internal solute concentration (C) \u2192 higher osmotic pressure \u2192 greater tendency to draw water in."
+  },
+  {
+    "QuestionText": "Nucleolus is the site of:",
+    "Options": [
+      "A) DNA replication",
+      "B) mRNA synthesis",
+      "C) rRNA synthesis and ribosome assembly",
+      "D) Protein degradation"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Nucleus",
+    "Difficulty": "Advanced",
+    "Explanation": "Nucleolus: found inside nucleus, site of rRNA transcription and ribosome subunit assembly. Disappears during mitosis, reforms after."
+  },
+  {
+    "QuestionText": "A cell producing large amounts of secretory proteins would have an abundance of:",
+    "Options": [
+      "A) Smooth ER and Golgi",
+      "B) Rough ER, Golgi apparatus, and vesicles",
+      "C) Mitochondria only",
+      "D) Chloroplasts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Organelles",
+    "Difficulty": "Olympiad",
+    "Explanation": "Secretory pathway: proteins synthesized on rough ER \u2192 processed in Golgi \u2192 packaged in secretory vesicles \u2192 exocytosis. Pancreatic acinar cells are a classic example."
+  },
+  {
+    "QuestionText": "Haploid number of chromosomes in humans is:",
+    "Options": [
+      "A) 23",
+      "B) 46",
+      "C) 92",
+      "D) 24"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Haploid number n=23 in humans. After meiosis, gametes have 23 chromosomes. Fertilization restores 2n=46."
+  },
+  {
+    "QuestionText": "In which type of cell division does the chromosome number reduce to half?",
+    "Options": [
+      "A) Mitosis",
+      "B) Binary fission",
+      "C) Meiosis",
+      "D) Amitosis"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Foundation",
+    "Explanation": "Meiosis (reductive division) halves chromosome number from diploid (2n) to haploid (n). This is essential for sexual reproduction."
+  },
+  {
+    "QuestionText": "A mutation in a proto-oncogene can convert it to an:",
+    "Options": [
+      "A) Anticodon",
+      "B) Intron",
+      "C) Oncogene (cancer-causing gene)",
+      "D) tRNA gene"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Biology - Cell Biology",
+    "SubTopic": "Cell Division",
+    "Difficulty": "Olympiad",
+    "Explanation": "Proto-oncogenes: normal genes controlling cell growth. Mutations \u2192 oncogenes that cause uncontrolled cell division \u2192 cancer. Examples: ras, myc genes."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If two positive integers a and b are written as a = x³y² and b = xy³, where x, y are prime numbers, then HCF(a, b) is:",
+    "Options": ["A) xy", "B) xy²", "C) x³y³", "D) x²y²"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Foundation",
+    "Explanation": "HCF is the product of the smallest power of each common prime factor. For x, it is x¹, and for y, it is y²."
+  },
+  {
+    "QuestionText": "The decimal expansion of the rational number 33 / (2² * 5) will terminate after:",
+    "Options": ["A) One decimal place", "B) Two decimal places", "C) Three decimal places", "D) More than three"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "The highest power of 2 or 5 in the denominator determines the termination. Here 2² means it terminates after 2 places."
+  },
+  {
+    "QuestionText": "Which of the following is an irrational number?",
+    "Options": ["A) 22/7", "B) 3.141414...", "C) 2 + √3", "D) √4"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The sum of a rational and an irrational number is always irrational."
+  },
+  {
+    "QuestionText": "If HCF(306, 657) = 9, what is the LCM(306, 657)?",
+    "Options": ["A) 22338", "B) 23328", "C) 22833", "D) 3060"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "LCM * HCF = Product of numbers. LCM = (306 * 657) / 9 = 22338."
+  },
+  {
+    "QuestionText": "The largest number which divides 70 and 125, leaving remainders 5 and 8 respectively, is:",
+    "Options": ["A) 13", "B) 65", "C) 875", "D) 1750"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "We find HCF of (70-5) and (125-8), which is HCF(65, 117). The highest common factor is 13."
+  },
+  {
+    "QuestionText": "If n is any natural number, then 6ⁿ - 5ⁿ always ends with:",
+    "Options": ["A) 1", "B) 3", "C) 5", "D) 7"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Advanced",
+    "Explanation": "6ⁿ always ends in 6 and 5ⁿ always ends in 5. 6 - 5 = 1."
+  },
+  {
+    "QuestionText": "The product of a non-zero rational and an irrational number is:",
+    "Options": ["A) Always rational", "B) Always irrational", "C) Rational or irrational", "D) One"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "This is a fundamental property of real numbers."
+  },
+  {
+    "QuestionText": "According to the Fundamental Theorem of Arithmetic, every composite number can be expressed as a product of:",
+    "Options": ["A) Primes", "B) Odd numbers", "C) Even numbers", "D) Whole numbers"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Foundation",
+    "Explanation": "This factorization is unique apart from the order in which the prime factors occur."
+  },
+  {
+    "QuestionText": "If the LCM of p and 18 is 36 and the HCF of p and 18 is 2, then p is:",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "p * 18 = 36 * 2. 18p = 72, so p = 4."
+  },
+  {
+    "QuestionText": "The exponent of 2 in the prime factorization of 144 is:",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Foundation",
+    "Explanation": "144 = 2 * 2 * 2 * 2 * 3 * 3 = 2⁴ * 3². The exponent of 2 is 4."
+  },
+  {
+    "QuestionText": "For any two positive integers a and b, HCF(a, b) * LCM(a, b) = :",
+    "Options": ["A) a + b", "B) a - b", "C) a * b", "D) a / b"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard relationship between two numbers and their HCF/LCM."
+  },
+  {
+    "QuestionText": "A rational number in its lowest terms can be expressed as a terminating decimal if the denominator has prime factors:",
+    "Options": ["A) 2 and 3", "B) 3 and 5", "C) 2 and 5", "D) 2, 3 and 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "Denominator must be of the form 2ⁿ5ᵐ."
+  },
+  {
+    "QuestionText": "LCM of the smallest prime number and the smallest composite number is:",
+    "Options": ["A) 2", "B) 4", "C) 6", "D) 8"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "Smallest prime is 2, smallest composite is 4. LCM(2, 4) = 4."
+  },
+  {
+    "QuestionText": "Which of the following is NOT an irrational number?",
+    "Options": ["A) √2", "B) √3", "C) √9", "D) √5"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "√9 = 3, which is a rational number."
+  },
+  {
+    "QuestionText": "If p is a prime number and p divides a², then:",
+    "Options": ["A) p divides a", "B) a divides p", "C) p² divides a", "D) None of these"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "This is a key theorem used to prove the irrationality of numbers like √2."
+  },
+  {
+    "QuestionText": "The sum of exponents of prime factors in the prime factorization of 196 is:",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Advanced",
+    "Explanation": "196 = 2² * 7². Sum of exponents = 2 + 2 = 4."
+  },
+  {
+    "QuestionText": "HCF of 92 and 510 is:",
+    "Options": ["A) 2", "B) 4", "C) 23", "D) 510"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "92 = 2² * 23; 510 = 2 * 3 * 5 * 17. Common factor is 2."
+  },
+  {
+    "QuestionText": "2.13113111311113... is a/an:",
+    "Options": ["A) Rational number", "B) Irrational number", "C) Integer", "D) Whole number"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "It is non-terminating and non-recurring, hence irrational."
+  },
+  {
+    "QuestionText": "The product of three consecutive positive integers is always divisible by:",
+    "Options": ["A) 4", "B) 6", "C) 5", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Olympiad",
+    "Explanation": "Among three consecutive integers, at least one is even and exactly one is a multiple of 3. So product is divisible by 2*3=6."
+  },
+  {
+    "QuestionText": "If HCF(a, b) = 1, then a and b are called:",
+    "Options": ["A) Composite numbers", "B) Co-prime numbers", "C) Prime numbers", "D) Perfect numbers"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "Co-prime numbers have no common factor other than 1."
+  },
+  {
+    "QuestionText": "The value of 2√3 + √3 is:",
+    "Options": ["A) 2√6", "B) 6", "C) 3√3", "D) 4√3"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Treating √3 as a variable x: 2x + x = 3x, so 3√3."
+  },
+  {
+    "QuestionText": "LCM of 12, 15 and 21 is:",
+    "Options": ["A) 420", "B) 140", "C) 210", "D) 60"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "12=2²*3, 15=3*5, 21=3*7. LCM = 2²*3*5*7 = 420."
+  },
+  {
+    "QuestionText": "A number of the form 6q + 1, where q is an integer, is always:",
+    "Options": ["A) Even", "B) Odd", "C) Prime", "D) Divisible by 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Advanced",
+    "Explanation": "6q is always even. Adding 1 to an even number makes it odd."
+  },
+  {
+    "QuestionText": "How many rational numbers exist between any two rational numbers?",
+    "Options": ["A) None", "B) One", "C) Two", "D) Infinitely many"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Basics of Real Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "This property is known as the density property of rational numbers."
+  },
+  {
+    "QuestionText": "√2 is:",
+    "Options": ["A) A rational number", "B) An irrational number", "C) An integer", "D) A terminating decimal"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The square root of any prime number is irrational."
+  },
+  {
+    "QuestionText": "The product of two irrational numbers is:",
+    "Options": ["A) Always irrational", "B) Always rational", "C) Rational or irrational", "D) Zero"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "√2 * √2 = 2 (rational); √2 * √3 = √6 (irrational)."
+  },
+  {
+    "QuestionText": "If n is a natural number, then 9ⁿ - 4ⁿ is divisible by:",
+    "Options": ["A) 5", "B) 13", "C) Both 5 and 13", "D) None of these"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Olympiad",
+    "Explanation": "xⁿ - yⁿ is always divisible by (x - y). 9 - 4 = 5."
+  },
+  {
+    "QuestionText": "What is the HCF of two consecutive even numbers?",
+    "Options": ["A) 1", "B) 2", "C) 4", "D) 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "Consecutive even numbers like 2, 4 or 10, 12 always have 2 as their highest common factor."
+  },
+  {
+    "QuestionText": "Total number of distinct prime factors of 210 is:",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Advanced",
+    "Explanation": "210 = 2 * 3 * 5 * 7. There are 4 distinct prime factors."
+  },
+  {
+    "QuestionText": "The decimal representation of 17/8 is:",
+    "Options": ["A) 2.125", "B) 2.12", "C) 2.1", "D) 2.13"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "17 / 2³ = 17 * 5³ / (2³ * 5³) = 2125 / 1000 = 2.125."
+  },
+  {
+    "QuestionText": "If a and b are co-prime, then HCF(a², b²) is:",
+    "Options": ["A) 1", "B) 2", "C) a*b", "D) None"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Olympiad",
+    "Explanation": "If two numbers share no prime factors, their squares will also share no prime factors."
+  },
+  {
+    "QuestionText": "A circular track has a circumference of 360m. Three people start together and walk at 30, 40, and 60 m/min. When will they meet at the start again?",
+    "Options": ["A) 12 min", "B) 36 min", "C) 18 min", "D) 24 min"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "LCM Applications",
+    "Difficulty": "Olympiad",
+    "Explanation": "Time taken by each: 360/30=12, 360/40=9, 360/60=6. LCM(12, 9, 6) = 36 minutes."
+  },
+  {
+    "QuestionText": "The HCF of 441, 567 and 693 is:",
+    "Options": ["A) 63", "B) 21", "C) 7", "D) 9"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "Calculated by prime factorization or repeated division."
+  },
+  {
+    "QuestionText": "A number 'n' when divided by 14 leaves remainder 5. What is the remainder when n² is divided by 14?",
+    "Options": ["A) 11", "B) 25", "C) 5", "D) 7"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Olympiad",
+    "Explanation": "n = 14q + 5. n² = (14q+5)² = 196q² + 140q + 25. Dividing 25 by 14 gives remainder 11."
+  },
+  {
+    "QuestionText": "Which of these numbers has a non-terminating repeating decimal expansion?",
+    "Options": ["A) 7/80", "B) 3/8", "C) 13/125", "D) 77/210"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Advanced",
+    "Explanation": "77/210 = 11/30. Denominator 30 = 2*3*5. The presence of '3' makes it non-terminating."
+  },
+  {
+    "QuestionText": "If HCF(x, y) = 1, then LCM(x, y) is:",
+    "Options": ["A) x", "B) y", "C) xy", "D) 1"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "Product = LCM * HCF. Since HCF is 1, LCM = Product."
+  },
+  {
+    "QuestionText": "Smallest number divisible by all numbers from 1 to 10 is:",
+    "Options": ["A) 100", "B) 1260", "C) 2520", "D) 5040"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "LCM Applications",
+    "Difficulty": "Olympiad",
+    "Explanation": "LCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2³ * 3² * 5 * 7 = 8 * 9 * 35 = 2520."
+  },
+  {
+    "QuestionText": "Is the number (5 * 7 * 11 + 7) a composite number?",
+    "Options": ["A) Yes", "B) No", "C) Cannot be determined", "D) It is prime"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Advanced",
+    "Explanation": "7(5*11 + 1) = 7(56). Since it has factors other than 1 and itself, it is composite."
+  },
+  {
+    "QuestionText": "Difference between 0.3 (bar) and 0.2 (bar) is:",
+    "Options": ["A) 0.1", "B) 0.1 (bar)", "C) 1/9", "D) Both B and C"],
+    "CorrectAnswer": "D",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Advanced",
+    "Explanation": "3/9 - 2/9 = 1/9, which is 0.111... or 0.1 (bar)."
+  },
+  {
+    "QuestionText": "The HCF of 135 and 225 is:",
+    "Options": ["A) 15", "B) 30", "C) 45", "D) 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "135 = 3³ * 5; 225 = 3² * 5². HCF = 3² * 5 = 45."
+  },
+  {
+    "QuestionText": "π (Pi) is:",
+    "Options": ["A) A rational number", "B) An irrational number", "C) An integer", "D) A whole number"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "π is non-terminating and non-recurring."
+  },
+  {
+    "QuestionText": "If we divide an irrational number by a rational number, the result is:",
+    "Options": ["A) Always rational", "B) Always irrational", "C) Zero", "D) One"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Basic arithmetic property of irrational numbers."
+  },
+  {
+    "QuestionText": "What is the smallest number which leaves remainder 2 when divided by 6, 8, and 12?",
+    "Options": ["A) 26", "B) 24", "C) 48", "D) 50"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "LCM Applications",
+    "Difficulty": "Advanced",
+    "Explanation": "LCM(6, 8, 12) = 24. Required number = 24 + 2 = 26."
+  },
+  {
+    "QuestionText": "HCF of any two prime numbers is:",
+    "Options": ["A) 1", "B) 2", "C) The product of the numbers", "D) The smaller number"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Foundation",
+    "Explanation": "Prime numbers have only 1 as a common factor."
+  },
+  {
+    "QuestionText": "If x = p/q is a rational number such that q is not of the form 2ⁿ5ᵐ, then x has:",
+    "Options": ["A) Terminating decimal", "B) Non-terminating repeating decimal", "C) Non-terminating non-repeating decimal", "D) None"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Decimal Expansions",
+    "Difficulty": "Foundation",
+    "Explanation": "This is the condition for non-terminating recurring decimals."
+  },
+  {
+    "QuestionText": "Sum of two rational numbers is always:",
+    "Options": ["A) Rational", "B) Irrational", "C) Prime", "D) Even"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Basics of Real Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Rational numbers are closed under addition."
+  },
+  {
+    "QuestionText": "Is 3√2 a rational number?",
+    "Options": ["A) Yes", "B) No", "C) Sometimes", "D) Depends on √2"],
+    "CorrectAnswer": "B",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Irrational Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Product of non-zero rational (3) and irrational (√2) is irrational."
+  },
+  {
+    "QuestionText": "Find LCM of 96 and 404.",
+    "Options": ["A) 9696", "B) 9792", "C) 9600", "D) 4040"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "HCF(96, 404) = 4. LCM = (96 * 404) / 4 = 9696."
+  },
+  {
+    "QuestionText": "Every positive even integer is of the form:",
+    "Options": ["A) 2q", "B) 2q+1", "C) q+1", "D) q"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "Fundamental Theorem of Arithmetic",
+    "Difficulty": "Foundation",
+    "Explanation": "Definition of an even integer where q is some integer."
+  },
+  {
+    "QuestionText": "The HCF of 1.2 and 0.12 is:",
+    "Options": ["A) 0.12", "B) 1.2", "C) 12", "D) 0.012"],
+    "CorrectAnswer": "A",
+    "Topic": "Math - Real Numbers",
+    "SubTopic": "HCF and LCM",
+    "Difficulty": "Advanced",
+    "Explanation": "Converting to fractions: 120/100 and 12/100. HCF is 12/100 = 0.12."
+  }
+]

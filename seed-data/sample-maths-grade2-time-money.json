@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "How many minutes are there in one hour?",
+    "Options": ["A) 12", "B) 24", "C) 60", "D) 100"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "There are exactly 60 minutes in one full hour."
+  },
+  {
+    "QuestionText": "Which day comes after Friday?",
+    "Options": ["A) Thursday", "B) Saturday", "C) Sunday", "D) Monday"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "The sequence of days is Friday, then Saturday, then Sunday."
+  },
+  {
+    "QuestionText": "How many 5-rupee coins make 20 rupees?",
+    "Options": ["A) 2", "B) 4", "C) 5", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation",
+    "Explanation": "5 + 5 + 5 + 5 = 20, so four 5-rupee coins are needed."
+  },
+  {
+    "QuestionText": "If the hour hand is at 3 and the minute hand is at 12, what time is it?",
+    "Options": ["A) 12:03", "B) 3:12", "C) 3 o'clock", "D) 6 o'clock"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "When the minute hand points to 12, it is the start of the hour shown by the hour hand."
+  },
+  {
+    "QuestionText": "Which month comes just before August?",
+    "Options": ["A) September", "B) July", "C) June", "D) October"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "July is the 7th month and August is the 8th month."
+  },
+  {
+    "QuestionText": "Rohan bought a toy for ₹45 and a candy for ₹10. How much did he spend in total?",
+    "Options": ["A) ₹35", "B) ₹55", "C) ₹50", "D) ₹60"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "₹45 + ₹10 = ₹55."
+  },
+  {
+    "QuestionText": "How many days are there in a leap year?",
+    "Options": ["A) 365", "B) 366", "C) 360", "D) 355"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Olympiad",
+    "Explanation": "A leap year has one extra day in February, making it 366 days."
+  },
+  {
+    "QuestionText": "Which of the following is the same as ₹1?",
+    "Options": ["A) 10 paise", "B) 50 paise", "C) 100 paise", "D) 200 paise"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation",
+    "Explanation": "100 paise combine to form 1 Rupee."
+  },
+  {
+    "QuestionText": "If today is Monday, what day was it yesterday?",
+    "Options": ["A) Tuesday", "B) Sunday", "C) Saturday", "D) Wednesday"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Sunday comes immediately before Monday."
+  },
+  {
+    "QuestionText": "How many months in a year have 31 days?",
+    "Options": ["A) 4", "B) 5", "C) 7", "D) 6"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Olympiad",
+    "Explanation": "January, March, May, July, August, October, and December all have 31 days."
+  },
+  {
+    "QuestionText": "A clock has ________ hands.",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "A standard clock has an hour hand and a minute hand (and often a second hand)."
+  },
+  {
+    "QuestionText": "What is the total value of two ₹50 notes?",
+    "Options": ["A) ₹70", "B) ₹100", "C) ₹150", "D) ₹80"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation",
+    "Explanation": "50 + 50 = 100."
+  },
+  {
+    "QuestionText": "Which month has the least number of days?",
+    "Options": ["A) January", "B) February", "C) March", "D) April"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "February usually has 28 days, which is fewer than any other month."
+  },
+  {
+    "QuestionText": "If you have ₹100 and you buy a book for ₹70, how much change will you get back?",
+    "Options": ["A) ₹20", "B) ₹30", "C) ₹40", "D) ₹10"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "100 - 70 = 30."
+  },
+  {
+    "QuestionText": "The short hand of a clock measures ________.",
+    "Options": ["A) Minutes", "B) Seconds", "C) Hours", "D) Days"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "The shorter hand is the hour hand, and the longer hand is the minute hand."
+  },
+  {
+    "QuestionText": "How many days are in 2 weeks?",
+    "Options": ["A) 10", "B) 14", "C) 12", "D) 20"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "7 days in a week x 2 weeks = 14 days."
+  },
+  {
+    "QuestionText": "Which note does NOT exist in Indian currency?",
+    "Options": ["A) ₹10", "B) ₹20", "C) ₹35", "D) ₹100"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation",
+    "Explanation": "There is no ₹35 note in circulation."
+  },
+  {
+    "QuestionText": "What time is 'Half past 4'?",
+    "Options": ["A) 4:00", "B) 4:15", "C) 4:30", "D) 5:30"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "Half past means 30 minutes have passed the hour."
+  },
+  {
+    "QuestionText": "How many months are in a year?",
+    "Options": ["A) 7", "B) 10", "C) 12", "D) 30"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "There are 12 months in a year, from January to December."
+  },
+  {
+    "QuestionText": "A lunch box costs ₹80. You give a ₹100 note. How much more money do you need to buy TWO lunch boxes?",
+    "Options": ["A) ₹20", "B) ₹60", "C) ₹80", "D) ₹100"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Olympiad",
+    "Explanation": "Two boxes cost ₹160. You have ₹100. So, 160 - 100 = ₹60 more is needed."
+  },
+  {
+    "QuestionText": "The sun rises in the ________.",
+    "Options": ["A) Evening", "B) Morning", "C) Night", "D) Afternoon"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Sunrise happens at the start of the day, which is morning."
+  },
+  {
+    "QuestionText": "How many ₹10 notes make ₹100?",
+    "Options": ["A) 5", "B) 10", "C) 20", "D) 1"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "10 x 10 = 100, so ten notes are needed."
+  },
+  {
+    "QuestionText": "Which month comes after October?",
+    "Options": ["A) September", "B) November", "C) December", "D) August"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "The order is October, November, and then December."
+  },
+  {
+    "QuestionText": "150 paise is the same as:",
+    "Options": ["A) ₹1", "B) ₹1 and 50 paise", "C) ₹15", "D) ₹150"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Olympiad",
+    "Explanation": "100 paise = ₹1. The remaining 50 paise makes it ₹1.50."
+  },
+  {
+    "QuestionText": "If the time is 9:00, where is the minute hand?",
+    "Options": ["A) At 9", "B) At 12", "C) At 6", "D) At 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "At the exact start of any hour (o'clock), the minute hand is at 12."
+  },
+  {
+    "QuestionText": "Christmas is celebrated in the month of ________.",
+    "Options": ["A) January", "B) December", "C) October", "D) November"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Christmas is on December 25th every year."
+  },
+  {
+    "QuestionText": "Which coin has the highest value in India?",
+    "Options": ["A) ₹1", "B) ₹5", "C) ₹10", "D) ₹2"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "Among common coins, the ₹10 coin has the highest value."
+  },
+  {
+    "QuestionText": "How many hours are there in a full day (day + night)?",
+    "Options": ["A) 12", "B) 24", "C) 10", "D) 48"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "One full rotation of the Earth takes 24 hours."
+  },
+  {
+    "QuestionText": "If a chocolate costs ₹12 and you have ₹10, how much more do you need?",
+    "Options": ["A) ₹2", "B) ₹22", "C) ₹5", "D) ₹1"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation",
+    "Explanation": "12 - 10 = 2."
+  },
+  {
+    "QuestionText": "What time is shown when the hour hand is between 1 and 2, and the minute hand is at 6?",
+    "Options": ["A) 1:06", "B) 2:30", "C) 1:30", "D) 6:01"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Olympiad",
+    "Explanation": "The hour hand past 1 means it's 1-something, and 6 on the minute hand means 30 minutes."
+  },
+  {
+    "QuestionText": " Independence Day in India is in the month of ________.",
+    "Options": ["A) January", "B) August", "C) October", "D) July"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "Independence Day is celebrated on August 15th."
+  },
+  {
+    "QuestionText": "If you buy a pen for ₹25 and give the shopkeeper ₹50, how much will you get back?",
+    "Options": ["A) ₹25", "B) ₹15", "C) ₹30", "D) ₹20"],
+    "CorrectAnswer": "A",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "50 - 25 = 25."
+  },
+  {
+    "QuestionText": "A leap year comes every ________ years.",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "Leap years occur once every 4 years."
+  },
+  {
+    "QuestionText": "Which is more: five ₹2 coins or two ₹5 coins?",
+    "Options": ["A) Five ₹2 coins", "B) Two ₹5 coins", "C) Both are equal", "D) None"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Olympiad",
+    "Explanation": "5 x 2 = 10 and 2 x 5 = 10. They are equal."
+  },
+  {
+    "QuestionText": "The time before 12:00 noon is called ________.",
+    "Options": ["A) P.M.", "B) A.M.", "C) Evening", "D) Midday"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "A.M. stands for ante meridiem, which means before midday."
+  },
+  {
+    "QuestionText": "How many days are in the month of April?",
+    "Options": ["A) 28", "B) 30", "C) 31", "D) 29"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "April is one of the four months that has exactly 30 days."
+  },
+  {
+    "QuestionText": "What is the smallest value coin in India?",
+    "Options": ["A) ₹1", "B) 50 paise", "C) ₹2", "D) ₹5"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "Though rare, the 50 paise coin is still the smallest legal value coin."
+  },
+  {
+    "QuestionText": "How many weeks are in a year?",
+    "Options": ["A) 40", "B) 52", "C) 48", "D) 60"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Olympiad",
+    "Explanation": "There are 52 weeks and 1 extra day in a normal year."
+  },
+  {
+    "QuestionText": "If a movie starts at 2:00 and lasts for 2 hours, what time does it end?",
+    "Options": ["A) 3:00", "B) 4:00", "C) 5:00", "D) 4:30"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "2:00 + 2 hours = 4:00."
+  },
+  {
+    "QuestionText": "You have three ₹20 notes. How much money do you have?",
+    "Options": ["A) ₹40", "B) ₹50", "C) ₹60", "D) ₹80"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "20 + 20 + 20 = 60."
+  },
+  {
+    "QuestionText": "Which month is the last month of the year?",
+    "Options": ["A) November", "B) January", "C) December", "D) October"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "December is the 12th and final month of the year."
+  },
+  {
+    "QuestionText": "What is the shape of a standard ₹10 coin?",
+    "Options": ["A) Square", "B) Triangle", "C) Circle", "D) Rectangle"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Geometry in Money",
+    "Difficulty": "Foundation",
+    "Explanation": "Indian coins are round or circular in shape."
+  },
+  {
+    "QuestionText": "If the minute hand moves from 12 to 3, how many minutes have passed?",
+    "Options": ["A) 3 minutes", "B) 10 minutes", "C) 15 minutes", "D) 5 minutes"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "Each number on the clock represents 5 minutes. 3 x 5 = 15."
+  },
+  {
+    "QuestionText": "How many days in 3 weeks?",
+    "Options": ["A) 20", "B) 21", "C) 25", "D) 15"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "7 days x 3 = 21."
+  },
+  {
+    "QuestionText": "A pencil costs ₹4. How many pencils can you buy with ₹20?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 10"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Olympiad",
+    "Explanation": "20 ÷ 4 = 5 pencils."
+  },
+  {
+    "QuestionText": "A calendar shows us ________.",
+    "Options": ["A) Time", "B) Days and Months", "C) Weight", "D) Distance"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "Calendars are used to track dates, days, and months throughout the year."
+  },
+  {
+    "QuestionText": "What time is 15 minutes after 10:00?",
+    "Options": ["A) 10:05", "B) 10:15", "C) 11:15", "D) 9:45"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Foundation",
+    "Explanation": "10:00 + 15 minutes = 10:15."
+  },
+  {
+    "QuestionText": "If you have two ₹10 coins and three ₹5 coins, total money is:",
+    "Options": ["A) ₹25", "B) ₹35", "C) ₹30", "D) ₹15"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Olympiad",
+    "Explanation": "(2 x 10) + (3 x 5) = 20 + 15 = 35."
+  },
+  {
+    "QuestionText": "Which season comes after Winter?",
+    "Options": ["A) Autumn", "B) Summer", "C) Spring", "D) Monsoon"],
+    "CorrectAnswer": "C",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "The standard cycle is Winter, then Spring, then Summer."
+  },
+  {
+    "QuestionText": "The long hand of a clock is at 6. This means the time is ________ minutes past the hour.",
+    "Options": ["A) 6", "B) 30", "C) 15", "D) 60"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematics",
+    "SubTopic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "6 x 5 = 30 minutes."
+  }
+]

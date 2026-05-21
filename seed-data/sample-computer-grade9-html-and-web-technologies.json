@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "HTML stands for:",
+    "Options": [
+      "A) Hyperlink Text Markup Language",
+      "B) HyperText Markup Language",
+      "C) High Text Machine Language",
+      "D) Home Tool Markup Language"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML: HyperText Markup Language. The standard language for creating web pages. Defines structure of content using tags/elements."
+  },
+  {
+    "QuestionText": "Which tag is used to create a hyperlink in HTML?",
+    "Options": [
+      "A) <link>",
+      "B) <a href='...'>",
+      "C) <url>",
+      "D) <hyper>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Links",
+    "Difficulty": "Foundation",
+    "Explanation": "<a href='URL'>Link text</a> creates a hyperlink. 'href' = hypertext reference (the URL). 'a' stands for anchor. Target attribute: target='_blank' opens in new tab."
+  },
+  {
+    "QuestionText": "The 'href' attribute in an anchor tag specifies:",
+    "Options": [
+      "A) The colour of the link",
+      "B) The URL/destination of the hyperlink",
+      "C) The font size",
+      "D) The image source"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Links",
+    "Difficulty": "Foundation",
+    "Explanation": "href (hypertext reference): specifies the URL the link points to. <a href='https://www.google.com'>Google</a> creates link to Google."
+  },
+  {
+    "QuestionText": "The anchor tag <a> in HTML is used for:",
+    "Options": [
+      "A) Bold text",
+      "B) Creating hyperlinks",
+      "C) Inserting images",
+      "D) Creating tables"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Links",
+    "Difficulty": "Foundation",
+    "Explanation": "<a> = anchor element. Creates hyperlinks to: web pages, files, email addresses, phone numbers, locations. href attribute specifies destination."
+  },
+  {
+    "QuestionText": "Which HTML tag creates a table?",
+    "Options": [
+      "A) <tab>",
+      "B) <tr>",
+      "C) <table>",
+      "D) <tbl>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML table structure: <table> \u2192 <tr> (table row) \u2192 <td> (table data/cell) or <th> (table header). <caption> adds table title."
+  },
+  {
+    "QuestionText": "In HTML tables, <tr> stands for:",
+    "Options": [
+      "A) Table right",
+      "B) Table row",
+      "C) Text right",
+      "D) Table result"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "<tr> = table row. Contains <td> (data cells) or <th> (header cells). All table content is organised in rows and columns."
+  },
+  {
+    "QuestionText": "Which tag is used for a table header cell?",
+    "Options": [
+      "A) <td>",
+      "B) <th>",
+      "C) <tr>",
+      "D) <thead>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "<th> = table header cell. Bold and centered by default. <td> = table data (regular cell). <thead> groups header rows; <tbody> groups body rows."
+  },
+  {
+    "QuestionText": "The 'colspan' attribute in HTML table:",
+    "Options": [
+      "A) Spans multiple rows",
+      "B) Spans multiple columns (merges cells horizontally)",
+      "C) Changes column colour",
+      "D) Sets column width"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "colspan='number' makes a cell span across multiple columns. <td colspan='2'> merges 2 columns. 'rowspan' spans multiple rows (vertically)."
+  },
+  {
+    "QuestionText": "Which HTML tag creates an unordered (bulleted) list?",
+    "Options": [
+      "A) <ol>",
+      "B) <dl>",
+      "C) <ul>",
+      "D) <li>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<ul> = unordered list (bullets). <ol> = ordered list (numbered). <li> = list item (used in both). <dl> = description list."
+  },
+  {
+    "QuestionText": "The HTML tag for the largest heading is:",
+    "Options": [
+      "A) <h6>",
+      "B) <h1>",
+      "C) <header>",
+      "D) <big>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML headings: <h1> (largest/most important) to <h6> (smallest). <h1> is typically the page title. Use for structure/hierarchy, not just size."
+  },
+  {
+    "QuestionText": "To insert an image in HTML, which tag is used?",
+    "Options": [
+      "A) <image>",
+      "B) <picture>",
+      "C) <img>",
+      "D) <graphic>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<img src='image.jpg' alt='description'> inserts an image. 'src' = image source/path. 'alt' = alternative text (accessibility). <img> is self-closing (no end tag)."
+  },
+  {
+    "QuestionText": "Which HTML attribute provides alternate text for an image?",
+    "Options": [
+      "A) title",
+      "B) src",
+      "C) alt",
+      "D) id"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "'alt' attribute: text displayed if image can't load; read by screen readers for accessibility. Always include alt text for images."
+  },
+  {
+    "QuestionText": "The <b> tag in HTML creates:",
+    "Options": [
+      "A) Background colour",
+      "B) Bold text",
+      "C) Bulleted list",
+      "D) Border"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<b> = bold (visual). <strong> = semantically strong (also appears bold + conveys importance to screen readers). Similarly: <i> (italic), <em> (emphasis, semantic)."
+  },
+  {
+    "QuestionText": "HTML is considered a __ language, not a programming language.",
+    "Options": [
+      "A) Scripting",
+      "B) Database",
+      "C) Markup",
+      "D) Functional"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML = markup language. Uses tags to annotate/mark up content (structure and meaning). Not a programming language \u2014 no logic, loops, conditions. JavaScript is the programming language for web."
+  },
+  {
+    "QuestionText": "The <head> section of HTML contains:",
+    "Options": [
+      "A) Main visible content",
+      "B) Metadata, title, links to CSS/JavaScript",
+      "C) Footer information",
+      "D) Images and text"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Structure",
+    "Difficulty": "Foundation",
+    "Explanation": "<head>: contains document metadata not displayed on page: <title>, <meta>, <link> (to CSS), <script> (JavaScript), <style>. <body> contains visible content."
+  },
+  {
+    "QuestionText": "CSS stands for:",
+    "Options": [
+      "A) Computer Style System",
+      "B) Cascading Style Sheets",
+      "C) Creative Sheet Style",
+      "D) Coloured Style Script"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "CSS: Cascading Style Sheets. Defines presentation (colours, fonts, layout) of HTML. Separates content (HTML) from presentation (CSS). 'Cascading' = rules apply in order of specificity."
+  },
+  {
+    "QuestionText": "The 'border' attribute in HTML table specifies:",
+    "Options": [
+      "A) Table colour",
+      "B) Thickness of table border",
+      "C) Table width",
+      "D) Number of columns"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "<table border='1'> adds a visible border. Border=0 (no border). Modern HTML uses CSS for styling instead: border: 1px solid black."
+  },
+  {
+    "QuestionText": "Which tag is used to create a numbered list?",
+    "Options": [
+      "A) <ul>",
+      "B) <nl>",
+      "C) <ol>",
+      "D) <il>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<ol> = ordered list (numbered: 1, 2, 3 or A, B, C or i, ii, iii). Use 'type' attribute to change numbering: type='A' (letters), type='i' (Roman numerals)."
+  },
+  {
+    "QuestionText": "<html>, <head>, <body> tags form the basic __ of a web page.",
+    "Options": [
+      "A) Style",
+      "B) Structure",
+      "C) Script",
+      "D) Database"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Structure",
+    "Difficulty": "Foundation",
+    "Explanation": "Basic HTML structure: <!DOCTYPE html>, <html>, <head> (metadata), <body> (visible content), </html>. This is the skeleton of every web page."
+  },
+  {
+    "QuestionText": "What does 'URL' stand for?",
+    "Options": [
+      "A) Universal Resource Language",
+      "B) Uniform Resource Locator",
+      "C) Unified Reference Link",
+      "D) Universal Reference Locator"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "URL: Uniform Resource Locator \u2014 the address of a resource on the internet. Format: protocol://domain/path. E.g., https://www.example.com/page.html."
+  },
+  {
+    "QuestionText": "HTTP stands for:",
+    "Options": [
+      "A) HyperText Transfer Protocol",
+      "B) Hyperlink Transfer Process",
+      "C) High Text Protocol",
+      "D) Hyper Tool Transfer Process"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "HTTP: HyperText Transfer Protocol. Rules for transferring web pages over the internet. HTTPS: secure version (encrypted). FTP: file transfer. SMTP: email."
+  },
+  {
+    "QuestionText": "Which symbol is used in HTML to denote a closing tag?",
+    "Options": [
+      "A) !",
+      "B) #",
+      "C) /",
+      "D) *"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Closing tags use forward slash: </h1>, </p>, </table>. Opening: <h1>. Self-closing (void) elements like <img>, <br>, <hr> have no closing tag."
+  },
+  {
+    "QuestionText": "'rowspan' attribute in HTML:",
+    "Options": [
+      "A) Merges cells horizontally",
+      "B) Merges cells vertically (across rows)",
+      "C) Changes row colour",
+      "D) Sets row height"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "rowspan='n' makes a cell span across n rows vertically. colspan spans horizontally. Used to create complex table layouts."
+  },
+  {
+    "QuestionText": "In HTML, the <br> tag:",
+    "Options": [
+      "A) Makes text bold",
+      "B) Inserts a line break",
+      "C) Creates a border",
+      "D) Adds background colour"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<br> = line break. Forces a new line within text. Self-closing element (no </br>). <p> creates a new paragraph with spacing. <hr> creates horizontal rule."
+  },
+  {
+    "QuestionText": "The basic structure of a table cell is represented by the tag:",
+    "Options": [
+      "A) <table>",
+      "B) <tr>",
+      "C) <td>",
+      "D) <tc>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "<td> = table data (cell). Contains the actual data. Multiple <td> inside a <tr> create columns. <th> for header cells."
+  },
+  {
+    "QuestionText": "Which HTML tag is used to define bold, important text semantically?",
+    "Options": [
+      "A) <b>",
+      "B) <bold>",
+      "C) <strong>",
+      "D) <em>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<strong> = semantically important text (displayed bold). Screen readers emphasise it. <b> = visually bold only, no semantic meaning. <em> = emphasis (italic + semantic)."
+  },
+  {
+    "QuestionText": "A hyperlink with target='_blank' opens the link in:",
+    "Options": [
+      "A) Same tab",
+      "B) A new browser tab/window",
+      "C) A popup",
+      "D) An email"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Links",
+    "Difficulty": "Foundation",
+    "Explanation": "target='_blank': opens link in new tab/window. target='_self': same tab (default). target='_parent': parent frame. Used when you want to keep current page open."
+  },
+  {
+    "QuestionText": "The HTML comment tag is:",
+    "Options": [
+      "A) // comment",
+      "B) /* comment */",
+      "C) <!-- comment -->",
+      "D) # comment"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML comment: <!-- comment text -->. Not displayed in browser. Used for documentation, temporarily disabling code. CSS: /* comment */. JavaScript: // or /* */. Python: #"
+  },
+  {
+    "QuestionText": "'bgcolor' attribute in HTML body tag sets:",
+    "Options": [
+      "A) Text colour",
+      "B) Border colour",
+      "C) Background colour",
+      "D) Link colour"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<body bgcolor='yellow'> sets page background colour. Also: text='colour' sets text colour, link='colour' sets link colour. Modern approach: use CSS instead of HTML attributes."
+  },
+  {
+    "QuestionText": "Which HTML tag is used to create an internal page link (anchor)?",
+    "Options": [
+      "A) <link id='section'>",
+      "B) <a href='#id'>...</a> targeting <tag id='id'>",
+      "C) <section>",
+      "D) <goto>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Links",
+    "Difficulty": "Advanced",
+    "Explanation": "Internal link: <a href='#section1'>Go to Section 1</a>. Target: <h2 id='section1'>Section 1</h2>. The '#' indicates same-page anchor link."
+  },
+  {
+    "QuestionText": "HTML stands for the language used to:",
+    "Options": [
+      "A) Program web servers",
+      "B) Define the structure and content of web pages",
+      "C) Style web pages",
+      "D) Manage databases"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML defines structure and content. CSS defines style (presentation). JavaScript defines behaviour (interactivity). These three together form the foundation of web development."
+  },
+  {
+    "QuestionText": "The <title> tag in HTML appears in the:",
+    "Options": [
+      "A) Browser tab and bookmarks (not visible on page)",
+      "B) Main content area",
+      "C) Header of the page",
+      "D) Footer of the page"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Structure",
+    "Difficulty": "Foundation",
+    "Explanation": "<title> in <head>: text shown in browser tab, bookmarks, search engine results. Not displayed on the web page itself."
+  },
+  {
+    "QuestionText": "Which HTML tag creates a paragraph?",
+    "Options": [
+      "A) <para>",
+      "B) <pg>",
+      "C) <p>",
+      "D) <pr>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<p> = paragraph. Block-level element with margins above and below. <p>Text here</p>. Browser adds vertical space between paragraphs."
+  },
+  {
+    "QuestionText": "The 'align' attribute in HTML can be applied to:",
+    "Options": [
+      "A) Only text",
+      "B) Various elements (headings, paragraphs, tables) to align content",
+      "C) Only tables",
+      "D) Only images"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "align attribute: left, right, center, justify. Applied to <p align='center'>, <table align='right'>, <img align='left'> etc. Modern approach: use CSS text-align property."
+  },
+  {
+    "QuestionText": "In HTML, the attribute 'cellpadding' in a table controls:",
+    "Options": [
+      "A) Space between cells",
+      "B) Space within a cell (between content and border)",
+      "C) Cell background colour",
+      "D) Number of cells"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "cellpadding: space inside cells (between content and cell border). cellspacing: space between cells. <table cellpadding='5' cellspacing='3'>"
+  },
+  {
+    "QuestionText": "What does DNS stand for in web technologies?",
+    "Options": [
+      "A) Dynamic Network System",
+      "B) Domain Name System",
+      "C) Data Name Server",
+      "D) Digital Network Service"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "DNS: Domain Name System. Translates human-readable domain names (www.google.com) to IP addresses (142.250.80.46). The 'phone book' of the internet."
+  },
+  {
+    "QuestionText": "Which HTML tag is used for a horizontal line?",
+    "Options": [
+      "A) <hl>",
+      "B) <line>",
+      "C) <hr>",
+      "D) <hline>"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<hr> = horizontal rule. Creates a visual dividing line. Self-closing element. Attributes: width, color, size (in older HTML \u2014 use CSS in modern HTML)."
+  },
+  {
+    "QuestionText": "'mailto:' in an href attribute creates:",
+    "Options": [
+      "A) A file download link",
+      "B) A link that opens an email client with pre-filled email address",
+      "C) An internal page link",
+      "D) A phone call link"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Links",
+    "Difficulty": "Foundation",
+    "Explanation": "<a href='mailto:user@example.com'>Email us</a> opens default email client with recipient pre-filled. Also: tel: for phone links (on mobile)."
+  },
+  {
+    "QuestionText": "A web browser's main function is to:",
+    "Options": [
+      "A) Create websites",
+      "B) Request and render web pages from servers",
+      "C) Store websites permanently",
+      "D) Manage internet speed"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "Browser: application that requests web pages from servers (via HTTP), receives HTML/CSS/JS, and renders them visually. Examples: Chrome, Firefox, Safari, Edge."
+  },
+  {
+    "QuestionText": "Which is NOT a valid HTML list type?",
+    "Options": [
+      "A) Unordered list (<ul>)",
+      "B) Ordered list (<ol>)",
+      "C) Description list (<dl>)",
+      "D) Random list (<rl>)"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "HTML list types: <ul> (unordered/bulleted), <ol> (ordered/numbered), <dl> (description list with terms and descriptions). There is no <rl> tag."
+  },
+  {
+    "QuestionText": "The <head> and <body> tags are contained within the:",
+    "Options": [
+      "A) <doctype> tag",
+      "B) <html> tag",
+      "C) <meta> tag",
+      "D) <title> tag"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Structure",
+    "Difficulty": "Foundation",
+    "Explanation": "<html> is the root element containing all other HTML. Direct children: <head> and <body>. <!DOCTYPE html> declaration goes before <html> tag."
+  },
+  {
+    "QuestionText": "The 'cellspacing' attribute in an HTML table controls:",
+    "Options": [
+      "A) Space inside cells",
+      "B) Space between cells",
+      "C) Cell text size",
+      "D) Number of columns"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Advanced",
+    "Explanation": "cellspacing: space between adjacent cells (outside borders). cellpadding: space inside cells (inside borders). <table cellspacing='5'> adds 5px between cells."
+  },
+  {
+    "QuestionText": "Which HTML element is a self-closing/void element?",
+    "Options": [
+      "A) <div>",
+      "B) <p>",
+      "C) <span>",
+      "D) <img>"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Void/self-closing elements: no content or closing tag. <img>, <br>, <hr>, <input>, <meta>, <link>. Other elements need opening AND closing tags: <p></p>, <div></div>."
+  },
+  {
+    "QuestionText": "'FTP' stands for:",
+    "Options": [
+      "A) Fast Transfer Protocol",
+      "B) File Transfer Protocol",
+      "C) File Text Protocol",
+      "D) Flexible Transfer Protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "FTP: File Transfer Protocol. Used to transfer files between a client and server. Used to upload web files to hosting servers. SFTP: secure version. HTTP: for web browsing."
+  },
+  {
+    "QuestionText": "A website's 'homepage' is:",
+    "Options": [
+      "A) The largest page",
+      "B) The main/starting page (index.html) of a website",
+      "C) The page with the most images",
+      "D) The last page"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "Homepage (index.html or index.htm): the default/starting page of a website that loads when you visit the domain. Server serves index.html by default."
+  },
+  {
+    "QuestionText": "The 'font' tag in HTML specifies:",
+    "Options": [
+      "A) Background colour only",
+      "B) Font face, size, and colour of text",
+      "C) Font alignment",
+      "D) Font spacing only"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<font face='Arial' size='4' color='red'>Text</font> \u2014 deprecated in HTML5 (use CSS instead). Attributes: face (font family), size (1-7), color."
+  },
+  {
+    "QuestionText": "ISP stands for:",
+    "Options": [
+      "A) Internet Service Provider",
+      "B) Internet System Protocol",
+      "C) International Server Process",
+      "D) Integrated Service Protocol"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "Web Technologies",
+    "Difficulty": "Foundation",
+    "Explanation": "ISP: Internet Service Provider. Company providing internet access to customers. Examples: BSNL, Airtel, Jio, ACT Fibernet. Types: dial-up, DSL, cable, fibre, mobile."
+  },
+  {
+    "QuestionText": "Which HTML tag is used to emphasise text (italic + semantic)?",
+    "Options": [
+      "A) <i>",
+      "B) <em>",
+      "C) <italic>",
+      "D) <emphasise>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "<em> = emphasis (semantic italic). Screen readers stress emphasised text. <i> = visual italic only (no semantic meaning). Similar: <strong> vs <b> for bold."
+  },
+  {
+    "QuestionText": "The 'bgcolor' table attribute changes:",
+    "Options": [
+      "A) Text colour in cells",
+      "B) Background colour of table/cells",
+      "C) Border colour",
+      "D) Font colour"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Tables",
+    "Difficulty": "Foundation",
+    "Explanation": "bgcolor in <table bgcolor='color'> or <tr bgcolor='color'> or <td bgcolor='color'> sets background colour. Deprecated in HTML5 \u2014 use CSS background-color property."
+  },
+  {
+    "QuestionText": "An email address link in HTML uses:",
+    "Options": [
+      "A) <a href='email:'>",
+      "B) <a href='mailto:address'>",
+      "C) <mail to='address'>",
+      "D) <email href='address'>"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Computer - HTML and Web Technologies",
+    "SubTopic": "HTML Links",
+    "Difficulty": "Foundation",
+    "Explanation": "<a href='mailto:name@example.com'>Send email</a> creates an email link. Clicking opens the user's default mail client with 'To' field pre-filled."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Find the missing number in the series: 7, 10, 8, 11, 9, 12, ?",
+    "Options": ["A) 7", "B) 10", "C) 12", "D) 13"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "This is an alternating series. One pattern is +3, -2, +3, -2... Following 12, the next step is -2, giving 10."
+  },
+  {
+    "QuestionText": "Complete the series: 36, 34, 30, 28, 24, ?",
+    "Options": ["A) 20", "B) 22", "C) 23", "D) 26"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern involves alternating subtractions of 2 and 4: 36-2=34, 34-4=30, 30-2=28, 28-4=24. Next is 24-2=22."
+  },
+  {
+    "QuestionText": "Find the missing term: FAG, GAF, HAI, IAH, ____",
+    "Options": ["A) JAK", "B) HAL", "C) HAK", "D) JAI"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The middle letter is always 'A'. The first and third letters follow the pattern: F-G, G-F, H-I, I-H. The next first letter is J, middle is A, third is K (J-K)."
+  },
+  {
+    "QuestionText": "Identify the next number: 1, 1, 2, 6, 24, ?",
+    "Options": ["A) 100", "B) 120", "C) 144", "D) 150"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The series follows a factorial/multiplication pattern: 1*1=1, 1*2=2, 2*3=6, 6*4=24. Next is 24*5=120."
+  },
+  {
+    "QuestionText": "What comes next in the sequence: 2, 1, (1/2), (1/4), ?",
+    "Options": ["A) (1/3)", "B) (1/8)", "C) (2/8)", "D) (1/16)"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Each number is half of the previous number ($x/2$). $(1/4) / 2 = 1/8$."
+  },
+  {
+    "QuestionText": "Complete the series: B2CD, ____, BCD4, B5CD, BC6D",
+    "Options": ["A) BC2D", "B) BC3D", "C) B2C2D", "D) BCD7"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The letters BCD remain constant. The digit moves position and increases by 1: 2nd pos (2), 3rd pos (3), 4th pos (4), back to 1st pos (5)."
+  },
+  {
+    "QuestionText": "Find the missing number: 80, 10, 70, 15, 60, ?",
+    "Options": ["A) 20", "B) 25", "C) 30", "D) 50"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "This is a combination of two series: (80, 70, 60...) decreasing by 10, and (10, 15, ...) increasing by 5. Next is 15+5=20."
+  },
+  {
+    "QuestionText": "Identify the missing term: ELFA, GLHA, ILJA, ____, MLNA",
+    "Options": ["A) OLPA", "B) KLMA", "C) LLMA", "D) KLLA"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "1st/3rd letters move forward by 2: E-G-I-K. 2nd letter is L throughout. 4th letter is A throughout. Result: KLLA."
+  },
+  {
+    "QuestionText": "Complete the sequence: 4, 7, 12, 19, 28, ?",
+    "Options": ["A) 30", "B) 36", "C) 39", "D) 49"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The difference between terms are consecutive odd numbers: +3, +5, +7, +9. Next is 28+11=39."
+  },
+  {
+    "QuestionText": "Find the missing term: CMM, EOO, GQQ, ____, KUU",
+    "Options": ["A) GRR", "B) GSS", "C) ISS", "D) ITT"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Foundation",
+    "Explanation": "1st letter skips one (C-E-G-I-K). The double letters also skip one (MM-OO-QQ-SS-UU). Result: ISS."
+  },
+  {
+    "QuestionText": "What is the next number in the series: 6, 11, 21, 36, 56, ?",
+    "Options": ["A) 42", "B) 51", "C) 81", "D) 91"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Differences are multiples of 5: +5, +10, +15, +20. Next is 56+25=81."
+  },
+  {
+    "QuestionText": "Find the missing term: ZA5, Y4B, XC6, W3D, ____",
+    "Options": ["A) E7V", "B) V2E", "C) VE7", "D) VE5"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Advanced",
+    "Explanation": "1st letter is reverse alphabet (Z, Y, X, W, V). 2nd letter is forward (A, B, C, D, E). Numbers are alternating series: 5, 6, 7... and 4, 3, 2. Result: VE7."
+  },
+  {
+    "QuestionText": "Complete the series: 10, 14, 26, 42, 70, ?",
+    "Options": ["A) 100", "B) 102", "C) 106", "D) 114"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is a Fibonacci-style additive series with a twist: $10+14+2=26, 14+26+0=40$ (No). Pattern: $10+14=24(+2)=26; 14+26=40(+2)=42; 26+42=68(+2)=70$. Next is $42+70=112(+2)=114$."
+  },
+  {
+    "QuestionText": "Identify the missing term: QAR, RAS, SAT, TAU, ____",
+    "Options": ["A) UAV", "B) UAT", "C) TAS", "&D) TAT"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Middle letter 'A' is constant. 1st and 3rd letters move forward by 1: Q-R, R-S, S-T, T-U. Next is U-V."
+  },
+  {
+    "QuestionText": "Find the next number: 2, 4, 12, 48, 240, ?",
+    "Options": ["A) 960", "B) 1440", "C) 1080", "D) 1920"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The multiplier increases: 2*2=4, 4*3=12, 12*4=48, 48*5=240. Next is 240*6=1440."
+  },
+  {
+    "QuestionText": "Find the wrong number in the series: 1, 2, 6, 15, 31, 56, 91",
+    "Options": ["A) 31", "B) 56", "C) 91", "D) 15"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Series Fault-finding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The differences are squares: +1 ($1^2$), +4 ($2^2$), +9 ($3^2$), +16 ($4^2$), +25 ($5^2$). Next should be +36 ($6^2$). $56+36=92$. Hence 91 is wrong."
+  },
+  {
+    "QuestionText": "Complete the series: JAK, KBL, LCM, MDN, ____",
+    "Options": ["A) OEP", "B) NEO", "C) MEN", "D) PFQ"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The sequence follows the alphabet for each position: J-K-L-M-N, A-B-C-D-E, K-L-M-N-O. Result: NEO."
+  },
+  {
+    "QuestionText": "Find the missing number: 4, 8, 28, 80, 244, ?",
+    "Options": ["A) 278", "B) 428", "C) 628", "D) 728"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The pattern is $3^n + 1$ or $3^n - 1$ alternating? No. It is: $3^1+1=4, 3^2-1=8, 3^3+1=28, 3^4-1=80, 3^5+1=244. Next is 3^6-1 = 729-1 = 728$."
+  },
+  {
+    "QuestionText": "Identify the missing term: BCB, DED, FGF, HIH, ____",
+    "Options": ["A) JKJ", "B) HJH", "C) IJI", "D) JHJ"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The series skips letters. B-D-F-H-J. The middle letter is the immediate next letter (B->C, D-E...). Result: JKJ."
+  },
+  {
+    "QuestionText": "Find the missing number: 0, 7, 26, 63, ?",
+    "Options": ["A) 123", "B) 124", "C) 125", "D) 126"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is $n^3 - 1$: $1^3-1=0, 2^3-1=7, 3^3-1=26, 4^3-1=63$. Next is $5^3-1 = 125-1 = 124$."
+  },
+  {
+    "QuestionText": "Find the missing term: DEF, HIJ, MNO, ____",
+    "Options": ["A) STU", "B) RST", "C) RUV", "D) TUV"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Gaps between clusters increase: DEF (G skip) HIJ (KL skip) MNO (PQR skip) TUV. Gaps are 1, 2, 3 letters."
+  },
+  {
+    "QuestionText": "What is the next number: 1, 2, 3, 6, 9, 18, ?",
+    "Options": ["A) 27", "B) 36", "C) 81", "D) 54"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The pattern is alternating: *2, *1.5, *2, *1.5, *2. $18 * 1.5 = 27$."
+  },
+  {
+    "QuestionText": "Complete the series: P5QR, P4QS, P3QT, ____, P1QV",
+    "Options": ["A) P2QU", "B) PQ2U", "C) P2UQ", "D) P2QUV"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Advanced",
+    "Explanation": "P and Q are fixed. The number decreases (5, 4, 3, 2, 1). The last letter increases (R, S, T, U, V). Result: P2QU."
+  },
+  {
+    "QuestionText": "Find the missing number: 2, 5, 9, 19, 37, ?",
+    "Options": ["A) 73", "B) 75", "C) 76", "D) 78"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is $2n + 1$ then $2n - 1$: $2*2+1=5, 5*2-1=9, 9*2+1=19, 19*2-1=37$. Next is $37*2+1=75$."
+  },
+  {
+    "QuestionText": "Identify the missing term: VI, X, XIV, XVIII, XXII, ?",
+    "Options": ["A) XXIV", "B) XXVI", "C) XXVIII", "D) XXX"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series (Roman)",
+    "Difficulty": "Advanced",
+    "Explanation": "The numbers are 6, 10, 14, 18, 22. Each increases by 4. Next is 26, which is XXVI."
+  },
+  {
+    "QuestionText": "Find the missing number in the series: 3, 15, 35, 63, ?",
+    "Options": ["A) 77", "B) 84", "C) 99", "D) 98"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The pattern is $(2n)^2 - 1$: $2^2-1=3, 4^2-1=15, 6^2-1=35, 8^2-1=63$. Next is $10^2-1=99$."
+  },
+  {
+    "QuestionText": "Complete the series: Y, W, U, S, Q, ?",
+    "Options": ["A) N", "B) O", "C) P", "D) R"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The letters are in reverse order skipping one: Y(-2)W(-2)U(-2)S(-2)Q(-2)O."
+  },
+  {
+    "QuestionText": "Find the missing number: 1, 3, 4, 8, 15, 27, ?",
+    "Options": ["A) 37", "B) 44", "C) 50", "D) 55"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each number is the sum of the preceding three numbers: $1+3+4=8, 3+4+8=15, 4+8+15=27$. Next is $8+15+27=50$."
+  },
+  {
+    "QuestionText": "Complete the series: AB, DEF, HIJK, ____, STUVWX",
+    "Options": ["A) MNOPQ", "B) LMNOP", "C) MNOP", "D) QRSTU"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Each cluster increases in length (2, 3, 4, 5, 6 letters) and skips a letter (C skip, G skip, L skip). Following L skip, 5 letters are MNOPQ."
+  },
+  {
+    "QuestionText": "Find the missing number: 2, 3, 10, 29, 66, ?",
+    "Options": ["A) 89", "B) 99", "C) 127", "D) 130"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The pattern is $n^3 + 2$: $1^3+2=3$ (doesn't fit 2). Correct: $0^3+2=2, 1^3+2=3, 2^3+2=10, 3^3+2=29, 4^3+2=66$. Next is $5^3+2=127$."
+  },
+  {
+    "QuestionText": "Identify the missing term: 10A, 13C, 16E, 19G, ?",
+    "Options": ["A) 21I", "B) 22I", "C) 22J", "D) 23I"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Numbers increase by 3: 10, 13, 16, 19, 22. Letters skip one: A, C, E, G, I. Result: 22I."
+  },
+  {
+    "QuestionText": "Find the missing number: 1, 2, 3, 1, 4, 9, 1, 8, 27, 1, ?, ?",
+    "Options": ["A) 16, 64", "B) 16, 81", "C) 36, 125", "D) 9, 16"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "This series has three interleaved series. Series 1 is constant '1'. Series 2 is squares of natural numbers (2, 4, 8? No). Correct pattern: (1, 2, 3), (1, 2^2, 3^2), (1, 2^3, 3^3), (1, 2^4, 3^4). Result: 16, 81."
+  },
+  {
+    "QuestionText": "Complete the series: J2Z, K4X, L7V, M11T, ?",
+    "Options": ["A) N16R", "B) N15S", "C) N16S", "D) O16R"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Letters 1: J-K-L-M-N. Numbers: +2, +3, +4, +5 (11+5=16). Letters 2: Z-X-V-T-R (reverse skipping one). Result: N16R."
+  },
+  {
+    "QuestionText": "What comes next: 0.5, 1.5, 4.5, 13.5, ?",
+    "Options": ["A) 40.5", "B) 30.5", "C) 39.5", "D) 42.5"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Each number is multiplied by 3. $13.5 * 3 = 40.5$."
+  },
+  {
+    "QuestionText": "Find the missing term: AZ, CX, EV, GT, ?",
+    "Options": ["A) IR", "B) HS", "C) KP", "D) JS"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "1st letter skips one forward (A-C-E-G-I). 2nd letter skips one backward (Z-X-V-T-R). Result: IR."
+  },
+  {
+    "QuestionText": "Find the missing number: 121, 144, 169, 196, ?",
+    "Options": ["A) 210", "B) 225", "C) 256", "D) 241"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The series consists of squares: $11^2, 12^2, 13^2, 14^2$. Next is $15^2 = 225$."
+  },
+  {
+    "QuestionText": "Identify the missing term: 2A11, 4D13, 12G17, ?",
+    "Options": ["A) 48J21", "B) 36J19", "C) 48J23", "D) 24J19"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Num 1: 2*2=4, 4*3=12, 12*4=48. Letter: A(+3)D, D(+3)G, G(+3)J. Num 2: Prime numbers skipping one: 11, 13, 17, 23 (skips 19). Result: 48J23."
+  },
+  {
+    "QuestionText": "Complete the series: 5, 6, 9, 15, 24, ?",
+    "Options": ["A) 34", "B) 35", "C) 36", "D) 40"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The differences are multiples of 3: +1, +3, +6, +9... Wait. Correct diff: +1, +3, +6, +9. These are adding 2, 3, 3... No. Correct diffs are: +1, +3, +6, +9... let's check: 5+1=6, 6+3=9, 9+6=15, 15+9=24. The series of additions is 1, 3, 6, 9. Wait, 24+12 = 36. Additions are increasing by 2, 3, 3? No, they are 1, 3, 6, 9, 12... let's re-verify: +1, +3, +6, +9, +12. Sum is 36."
+  },
+  {
+    "QuestionText": "Find the missing term: BCD, FG, HIJ, LMN, OPQ, ?",
+    "Options": ["A) ST", "B) RS", "C) RST", "D) STU"],
+    "CorrectAnswer": "D",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Cluster size alternates (3 letters, 2 letters... no, check gaps). BCD (E skip) FG (Wait, FG is 2 letters). Pattern: BCD (E skip) FGH (No). Cluster: BCD, FG (H skip) IJ, KLM (Wait). Let's check alphabetically: BCD (E) FG (H) IJK (L) MN (O) PQ (R) STU. Length is 3, 2, 3, 2... Next is 3 letters: STU."
+  },
+  {
+    "QuestionText": "Find the missing number: 20, 19, 17, 14, 10, ?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Decreasing differences: -1, -2, -3, -4. Next is 10-5=5."
+  },
+  {
+    "QuestionText": "Complete the series: 3, 4, 7, 7, 11, 10, 15, ?",
+    "Options": ["A) 12", "B) 13", "C) 14", "D) 15"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Alternating series. Series 1: 3, 7, 11, 15 (+4). Series 2: 4, 7, 10, ... (+3). Next is 10+3=13."
+  },
+  {
+    "QuestionText": "Find the missing term: MNO, ABC, PQR, DEF, STU, ?",
+    "Options": ["A) GHI", "B) VWX", "C) JKL", "D) GJK"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Alternating clusters. Series 1: MNO, PQR, STU. Series 2: ABC, DEF, ... (GHI)."
+  },
+  {
+    "QuestionText": "Find the next number: 121, 222, 424, ?",
+    "Options": ["A) 626", "B) 828", "C) 525", "D) 727"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The outer digits double: 1..1, 2..2, 4..4, 8..8. The middle digit '2' remains constant. Result: 828."
+  },
+  {
+    "QuestionText": "Identify the missing term: Z, S, W, O, T, K, Q, G, ?, ?",
+    "Options": ["A) N, C", "B) N, D", "C) O, C", "D) O, D"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Alternating series. S1: Z, W, T, Q, ... (Decreases by 3). Q-3 = N. S2: S, O, K, G, ... (Decreases by 4). G-4 = C. Result: N, C."
+  },
+  {
+    "QuestionText": "Complete the series: 1, 2, 4, 7, 11, 16, ?",
+    "Options": ["A) 20", "B) 21", "C) 22", "D) 23"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "Differences increase by 1: +1, +2, +3, +4, +5. Next is 16+6=22."
+  },
+  {
+    "QuestionText": "Find the missing term: C4X, F9U, I16R, ?",
+    "Options": ["A) K25P", "B) L25P", "C) L25O", "D) M25O"],
+    "CorrectAnswer": "C",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Advanced",
+    "Explanation": "1st letter (+3): C-F-I-L. Number is squares: 4, 9, 16, 25. 2nd letter (-3): X-U-R-O. Result: L25O."
+  },
+  {
+    "QuestionText": "Find the missing number: 7, 26, 63, 124, 215, ?",
+    "Options": ["A) 342", "B) 343", "C) 441", "D) 512"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "Pattern is $n^3 - 1$: $2^3-1, 3^3-1, 4^3-1, 5^3-1, 6^3-1$. Next is $7^3-1 = 343-1 = 342$."
+  },
+  {
+    "QuestionText": "Complete the series: D-4, F-6, H-8, J-10, ?",
+    "Options": ["A) K-12", "B) L-12", "C) L-11", "D) M-14"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Alphanumeric Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The letter's numerical position in the alphabet: D is 4th, F is 6th, H is 8th, J is 10th. L is 12th. Result: L-12."
+  },
+  {
+    "QuestionText": "Find the missing number: 1, 4, 27, 16, 125, 36, ?",
+    "Options": ["A) 216", "B) 343", "C) 49", "D) 64"],
+    "CorrectAnswer": "B",
+    "Topic": "Reasoning",
+    "SubTopic": "Number Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Alternating cubes and squares: $1^3, 2^2, 3^3, 4^2, 5^3, 6^2$. Next is $7^3 = 343$."
+  },
+  {
+    "QuestionText": "Identify the missing term: SHG, RIF, QJE, PKD, ?",
+    "Options": ["A) OLC", "B) NMC", "C) MLB", "D) OLE"],
+    "CorrectAnswer": "A",
+    "Topic": "Reasoning",
+    "SubTopic": "Letter Series",
+    "Difficulty": "Advanced",
+    "Explanation": "1st letter backward: S-R-Q-P-O. 2nd letter forward: H-I-J-K-L. 3rd letter backward: G-F-E-D-C. Result: OLC."
+  }
+]

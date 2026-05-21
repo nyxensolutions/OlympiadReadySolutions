@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "To divide a line segment AB in the ratio 5:7, a ray AX is drawn such that ∠BAX is an acute angle. What is the minimum number of points to be located at equal distances on ray AX?",
+        "Options":  [
+                        "A) 5",
+                        "B) 7",
+                        "C) 12",
+                        "D) 2"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Foundation",
+        "Explanation":  "To divide a segment in ratio m:n, we need to mark (m + n) points. 5 + 7 = 12."
+    },
+    {
+        "QuestionText":  "To construct a triangle similar to ΔABC with a scale factor of 3/7, we draw a ray BX making an acute angle with BC. We mark points B1, B2, ... B7. Which point is joined to C?",
+        "Options":  [
+                        "A) B3",
+                        "B) B7",
+                        "C) B4",
+                        "D) B10"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The denominator of the scale factor (7) tells us which point on the ray should be joined to the endpoint of the base."
+    },
+    {
+        "QuestionText":  "While drawing tangents from an external point P to a circle with center O, we find the midpoint M of PO. The next step is to draw a circle with center M and radius equal to:",
+        "Options":  [
+                        "A) MO",
+                        "B) Radius of given circle",
+                        "C) PO",
+                        "D) MP + Radius"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The circle is drawn with diameter PO, meaning the radius is MO (or MP)."
+    },
+    {
+        "QuestionText":  "In the construction of similar triangles, if the scale factor is m/n where m \u003e n, the new triangle will be ________ the original triangle.",
+        "Options":  [
+                        "A) Smaller than",
+                        "B) Larger than",
+                        "C) Equal to",
+                        "D) Congruent to"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A scale factor greater than 1 results in an enlargement."
+    },
+    {
+        "QuestionText":  "To divide a line segment AB in ratio 2:3, a ray AX is drawn. Points A1, A2, A3, A4, A5 are marked. The line parallel to A5B is drawn through which point?",
+        "Options":  [
+                        "A) A2",
+                        "B) A3",
+                        "C) A1",
+                        "D) A4"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The numerator of the ratio (2) indicates the point through which the parallel line is drawn to intersect AB."
+    },
+    {
+        "QuestionText":  "The angle between a tangent and the radius at the point of contact is:",
+        "Options":  [
+                        "A) 60°",
+                        "B) 45°",
+                        "C) 90°",
+                        "D) 180°"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "This geometric property is the basis for constructing tangents using the semi-circle method."
+    },
+    {
+        "QuestionText":  "To draw a pair of tangents to a circle which are inclined to each other at an angle of 60°, the angle between the two radii must be:",
+        "Options":  [
+                        "A) 60°",
+                        "B) 120°",
+                        "C) 90°",
+                        "D) 180°"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The angle between tangents and the angle between radii are supplementary. 180° - 60° = 120°."
+    },
+    {
+        "QuestionText":  "Construction of a similar triangle is possible only if the given scale factor is:",
+        "Options":  [
+                        "A) Positive",
+                        "B) Negative",
+                        "C) Zero",
+                        "D) Less than 1 only"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Scale factors must be positive as they represent the ratio of lengths."
+    },
+    {
+        "QuestionText":  "When dividing a line segment using the ray method, the points marked on the ray must be:",
+        "Options":  [
+                        "A) At increasing distances",
+                        "B) At decreasing distances",
+                        "C) At equal distances",
+                        "D) Randomly placed"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Equal spacing is required to apply the Basic Proportionality Theorem."
+    },
+    {
+        "QuestionText":  "To construct a tangent at a point P on a circle without using the center, we use the property of:",
+        "Options":  [
+                        "A) Alternate Segment Theorem",
+                        "B) BPT",
+                        "C) Pythagoras Theorem",
+                        "D) Midpoint Theorem"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The Alternate Segment Theorem allows us to construct the tangent angle using an inscribed triangle."
+    },
+    {
+        "QuestionText":  "If the scale factor for a similar triangle is 1, the constructed triangle is ________ to the given triangle.",
+        "Options":  [
+                        "A) Similar but larger",
+                        "B) Similar but smaller",
+                        "C) Congruent",
+                        "D) Not similar"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A ratio of 1:1 means all corresponding sides are equal, which defines congruence."
+    },
+    {
+        "QuestionText":  "How many tangents can be drawn to a circle from a point lying outside the circle?",
+        "Options":  [
+                        "A) 1",
+                        "B) 2",
+                        "C) 3",
+                        "D) Infinite"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Only two unique tangents can be drawn from an external point."
+    },
+    {
+        "QuestionText":  "To divide a line segment AB in ratio m:n, we join B to the point Am+n and then draw a line parallel to Am+nB through which point?",
+        "Options":  [
+                        "A) Am",
+                        "B) An",
+                        "C) A1",
+                        "D) Am-n"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The parallel line is drawn through the point corresponding to the first part of the ratio."
+    },
+    {
+        "QuestionText":  "In the tangent construction process, why do we draw a circle with diameter PO?",
+        "Options":  [
+                        "A) To find the radius",
+                        "B) To ensure the angle at the point of contact is 90°",
+                        "C) To bisect the circle",
+                        "D) To find the area"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Any angle inscribed in a semi-circle is 90°, ensuring the radius-tangent perpendicularity."
+    },
+    {
+        "QuestionText":  "The ratio of the sides of a triangle and its similar triangle is 3:2. If the side of the original triangle is 6cm, the corresponding side of the new triangle is:",
+        "Options":  [
+                        "A) 4 cm",
+                        "B) 9 cm",
+                        "C) 12 cm",
+                        "D) 3 cm"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Advanced",
+        "Explanation":  "New/Old = 2/3. So New = 6 * (2/3) = 4 cm."
+    },
+    {
+        "QuestionText":  "To construct a similar triangle with scale factor 5/3, the number of points to mark on the ray is:",
+        "Options":  [
+                        "A) 3",
+                        "B) 5",
+                        "C) 8",
+                        "D) 2"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "We mark the \u0027greater of m and n\u0027 points on the ray. Max(5,3) = 5."
+    },
+    {
+        "QuestionText":  "If we need to draw tangents from a point P to a circle such that they are perpendicular to each other, the distance PO must be:",
+        "Options":  [
+                        "A) r√2",
+                        "B) 2r",
+                        "C) r",
+                        "D) r/2"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "The quadrilateral formed by the two radii and two tangents becomes a square. The diagonal PO = r√2."
+    },
+    {
+        "QuestionText":  "Which geometrical instrument is used to draw parallel lines during construction?",
+        "Options":  [
+                        "A) Only ruler",
+                        "B) Protractor",
+                        "C) Compass and Ruler",
+                        "D) Divider"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Parallel lines are constructed by copying angles using a compass and ruler."
+    },
+    {
+        "QuestionText":  "To locate the center of a given circle without a marked center, we should draw:",
+        "Options":  [
+                        "A) Two parallel tangents",
+                        "B) Two non-parallel chords and their perpendicular bisectors",
+                        "C) A diameter",
+                        "D) A secant"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The perpendicular bisectors of any two chords intersect at the center."
+    },
+    {
+        "QuestionText":  "To divide a segment AB of length 10cm in ratio 1:4, the length of the smaller part is:",
+        "Options":  [
+                        "A) 2.5 cm",
+                        "B) 2 cm",
+                        "C) 4 cm",
+                        "D) 1 cm"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Part 1 = [1/(1+4)] * 10 = 1/5 * 10 = 2 cm."
+    },
+    {
+        "QuestionText":  "In similar triangle construction, if the scale factor is 2/3, we join the ________ point to the vertex C of the base.",
+        "Options":  [
+                        "A) 2nd",
+                        "B) 3rd",
+                        "C) 5th",
+                        "D) 1st"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Advanced",
+        "Explanation":  "We always join the denominator point to the original triangle\u0027s vertex."
+    },
+    {
+        "QuestionText":  "A line segment AB is divided by a point P in the ratio 3:2. If A is (0,0) and B is (5,0), the coordinate of P is:",
+        "Options":  [
+                        "A) (3,0)",
+                        "B) (2,0)",
+                        "C) (2.5,0)",
+                        "D) (1,0)"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Advanced",
+        "Explanation":  "3/(3+2) * 5 = 3. So P is at (3,0)."
+    },
+    {
+        "QuestionText":  "The process of \u0027Copying an angle\u0027 is used to construct ________ lines.",
+        "Options":  [
+                        "A) Perpendicular",
+                        "B) Parallel",
+                        "C) Intersecting",
+                        "D) Coincident"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Basics",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Corresponding angles must be equal for lines to be parallel."
+    },
+    {
+        "QuestionText":  "A tangent can be drawn to a circle from a point located:",
+        "Options":  [
+                        "A) Inside the circle",
+                        "B) On the circle",
+                        "C) Outside the circle",
+                        "D) At the centre of the circle"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A tangent can only be drawn from a point outside the circle. From a point inside the circle, no tangent is possible. From a point on the circle, exactly one tangent exists (at that point itself)."
+    },
+    {
+        "QuestionText":  "While dividing a line AB, the ray AX should ideally be at an angle of:",
+        "Options":  [
+                        "A) 90°",
+                        "B) 0° \u003c angle \u003c 90°",
+                        "C) 120°",
+                        "D) 180°"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Foundation",
+        "Explanation":  "An acute angle is required for standard construction methods."
+    },
+    {
+        "QuestionText":  "If we draw a tangent from point P to a circle with center O, and the point of contact is T, then ΔOTP is a:",
+        "Options":  [
+                        "A) Equilateral triangle",
+                        "B) Isosceles triangle",
+                        "C) Right-angled triangle",
+                        "D) Scalene triangle"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The radius OT is perpendicular to the tangent PT."
+    },
+    {
+        "QuestionText":  "To draw a triangle similar to ΔABC with scale factor 4/5, which of the following steps is incorrect?",
+        "Options":  [
+                        "A) Mark 5 points on the ray.",
+                        "B) Join the 5th point to C.",
+                        "C) Draw a line parallel to A5C through A4.",
+                        "D) Mark 4 points on the ray."
+                    ],
+        "CorrectAnswer":  "D",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Advanced",
+        "Explanation":  "We must mark the maximum of (4,5) which is 5 points."
+    },
+    {
+        "QuestionText":  "To divide a line segment AB in ratio 4:3, we mark points A1...A7. We join B to A7. Then we draw a line parallel to A7B from:",
+        "Options":  [
+                        "A) A3",
+                        "B) A4",
+                        "C) A1",
+                        "D) A5"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Foundation",
+        "Explanation":  "First part of ratio is 4, so we use A4."
+    },
+    {
+        "QuestionText":  "If the angle between two tangents is 80°, then the angle between the line joining the external point to the center and one of the tangents is:",
+        "Options":  [
+                        "A) 40°",
+                        "B) 80°",
+                        "C) 50°",
+                        "D) 100°"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The line to the center bisects the angle between the tangents. 80/2 = 40°."
+    },
+    {
+        "QuestionText":  "Which of the following scale factors is NOT valid for constructing a triangle similar to a given triangle?",
+        "Options":  [
+                        "A) 1/2",
+                        "B) 3/4",
+                        "C) 0",
+                        "D) 5/3"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A scale factor of 0 would reduce the triangle to a point (no triangle). Valid scale factors must be positive real numbers."
+    },
+    {
+        "QuestionText":  "In the construction of similar triangles, the triangles are congruent if the scale factor is:",
+        "Options":  [
+                        "A) \u003e1",
+                        "B) \u003c1",
+                        "C) 1",
+                        "D) 0"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Scale factor 1 maintains the exact size."
+    },
+    {
+        "QuestionText":  "To construct tangents to a circle of radius \u0027r\u0027 from a point \u0027P\u0027 at distance \u0027d\u0027 from the center, the construction is only possible if:",
+        "Options":  [
+                        "A) d \u003c r",
+                        "B) d = r",
+                        "C) d \u003e r",
+                        "D) d = 0"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The point must be outside the circle for two tangents to be drawn."
+    },
+    {
+        "QuestionText":  "To divide a line segment AB of 14 cm in ratio 2:5, the length of the larger part is:",
+        "Options":  [
+                        "A) 4 cm",
+                        "B) 10 cm",
+                        "C) 7 cm",
+                        "D) 5 cm"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Advanced",
+        "Explanation":  "[5/(2+5)] * 14 = 5/7 * 14 = 10 cm."
+    },
+    {
+        "QuestionText":  "The ray method of dividing a line segment is an application of:",
+        "Options":  [
+                        "A) Pythagoras Theorem",
+                        "B) Basic Proportionality Theorem",
+                        "C) Midpoint Theorem",
+                        "D) Area Theorem"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Parallel lines on an angle create proportional segments on the transversal."
+    },
+    {
+        "QuestionText":  "While constructing a similar triangle with scale factor 7/4, the 4th point on the ray is joined to:",
+        "Options":  [
+                        "A) The vertex C of the base",
+                        "B) The new vertex C\u0027",
+                        "C) The midpoint of the base",
+                        "D) The center"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Denominator point (4th) is joined to the original vertex."
+    },
+    {
+        "QuestionText":  "The tangents drawn from an external point to a circle are ________ in length.",
+        "Options":  [
+                        "A) Proportional",
+                        "B) Different",
+                        "C) Equal",
+                        "D) Parallel"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Standard theorem of circle geometry."
+    },
+    {
+        "QuestionText":  "To draw a pair of tangents to a circle of radius 5 cm from a point 13 cm away, what is the length of each tangent?",
+        "Options":  [
+                        "A) 8 cm",
+                        "B) 12 cm",
+                        "C) 18 cm",
+                        "D) 10 cm"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Advanced",
+        "Explanation":  "√(13² - 5²) = √144 = 12 cm."
+    },
+    {
+        "QuestionText":  "To construct a similar triangle with scale factor 2/5, we join the 5th point to C and draw a parallel through the ________ point.",
+        "Options":  [
+                        "A) 2nd",
+                        "B) 3rd",
+                        "C) 1st",
+                        "D) 4th"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Numerator point (2nd) is used for the parallel line."
+    },
+    {
+        "QuestionText":  "If the distance of a point from the center of a circle is equal to its radius, how many tangents can be drawn from that point?",
+        "Options":  [
+                        "A) 0",
+                        "B) 1",
+                        "C) 2",
+                        "D) Infinite"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "If distance = radius, the point is on the circle. Only 1 tangent can be drawn."
+    },
+    {
+        "QuestionText":  "Which property is NOT maintained in similar triangle construction?",
+        "Options":  [
+                        "A) Angle equality",
+                        "B) Side proportionality",
+                        "C) Area equality",
+                        "D) Shape"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Similar triangles have different areas unless the scale factor is 1."
+    },
+    {
+        "QuestionText":  "To construct a tangent to a circle at point P, we draw a radius OP and then construct an angle of ________ at P.",
+        "Options":  [
+                        "A) 45°",
+                        "B) 60°",
+                        "C) 90°",
+                        "D) 30°"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A tangent must be perpendicular to the radius."
+    },
+    {
+        "QuestionText":  "If a line segment AB is divided in ratio 3:4 by point P, then AP/AB is:",
+        "Options":  [
+                        "A) 3/4",
+                        "B) 4/3",
+                        "C) 3/7",
+                        "D) 4/7"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Advanced",
+        "Explanation":  "AP is 3 parts and total AB is 3+4=7 parts. So 3/7."
+    },
+    {
+        "QuestionText":  "If the scale factor is 3/2, the new triangle is ________ to the original triangle.",
+        "Options":  [
+                        "A) Enlarged",
+                        "B) Diminished",
+                        "C) Identical",
+                        "D) Half"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "3/2 = 1.5, which is \u003e 1, so it is an enlargement."
+    },
+    {
+        "QuestionText":  "To construct two tangents to a circle from point P, we draw a circle with PO as diameter. This circle intersects the given circle at T1 and T2. The tangents are:",
+        "Options":  [
+                        "A) OT1 and OT2",
+                        "B) PT1 and PT2",
+                        "C) T1T2",
+                        "D) PO"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The lines from the external point to the points of intersection are the tangents."
+    },
+    {
+        "QuestionText":  "In constructing similar triangles, the ray is usually drawn from:",
+        "Options":  [
+                        "A) The top vertex",
+                        "B) Any vertex of the base",
+                        "C) The center",
+                        "D) The midpoint"
+                    ],
+        "CorrectAnswer":  "B",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Usually drawn from vertex B or A at the base."
+    },
+    {
+        "QuestionText":  "To divide a segment in ratio 1:1 means constructing the:",
+        "Options":  [
+                        "A) Perpendicular bisector",
+                        "B) Tangent",
+                        "C) Altitude",
+                        "D) Median"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Division of Line Segment",
+        "Difficulty":  "Foundation",
+        "Explanation":  "1:1 ratio identifies the midpoint."
+    },
+    {
+        "QuestionText":  "If a triangle is constructed with scale factor 0.5, its area will be ________ the original area.",
+        "Options":  [
+                        "A) Half",
+                        "B) Double",
+                        "C) One-fourth",
+                        "D) Same"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Area ratio = (Scale factor)² = (0.5)² = 0.25 or 1/4."
+    },
+    {
+        "QuestionText":  "To divide a line segment into equal parts using the construction method (without measurement), which instrument is essential?",
+        "Options":  [
+                        "A) Protractor",
+                        "B) Set square",
+                        "C) Compass",
+                        "D) Scale ruler only"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Basics",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A compass is essential in the construction method for dividing a line segment into equal parts. We draw a ray, mark equal arcs using a compass, and use parallel lines to transfer divisions."
+    },
+    {
+        "QuestionText":  "Which theorem states that the lengths of tangents from an external point are equal?",
+        "Options":  [
+                        "A) Thales Theorem",
+                        "B) Pythagoras Theorem",
+                        "C) Tangent Theorem",
+                        "D) Angle Sum Theorem"
+                    ],
+        "CorrectAnswer":  "C",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Tangents to a Circle",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Often simply called the Tangent Property/Theorem."
+    },
+    {
+        "QuestionText":  "A scale factor of 5/8 will result in a triangle ________ than the given one.",
+        "Options":  [
+                        "A) Smaller",
+                        "B) Larger",
+                        "C) Equal",
+                        "D) Triple"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Math - Constructions",
+        "SubTopic":  "Similar Triangles",
+        "Difficulty":  "Foundation",
+        "Explanation":  "5/8 \u003c 1, so the new triangle is smaller."
+    }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "QuestionText": "Consider the following HTML and CSS code snippet:\nHTML:\n<div class=\"container\">\n  <p id=\"hero-text\" class=\"highlight\">Olympiad Excellence</p>\n</div>\n\nCSS:\ndiv p { color: red !important; }\n#hero-text { color: blue; }\n.highlight { color: green; }\np { color: orange; }\n\nWhat will be the rendered text color of 'Olympiad Excellence' based on CSS Specificity and Cascade rules?",
+    "Options": ["A) Blue", "B) Green", "C) Red", "D) Orange"],
+    "CorrectAnswer": "C",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced HTML & CSS Inheritance",
+    "Difficulty": "Olympiad",
+    "Explanation": "Although an ID selector (#hero-text) has higher specificity than class and element selectors, appending the `!important` rule overrides the standard specificity hierarchy completely, forcing the element to render as red."
+  },
+  {
+    "QuestionText": "An administrator executes the following SQL statement on a Relational Database management system:\nSELECT DeptID, COUNT(EmpID) FROM Employees WHERE Salary > 50000 GROUP BY DeptID HAVING COUNT(EmpID) > 3;\nIdentify the correct logical execution order of the clauses implemented by the database engine.",
+    "Options": [
+      "A) SELECT -> WHERE -> GROUP BY -> HAVING",
+      "B) WHERE -> GROUP BY -> HAVING -> SELECT",
+      "C) WHERE -> SELECT -> GROUP BY -> HAVING",
+      "D) GROUP BY -> HAVING -> WHERE -> SELECT"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "SQL Query Pipeline Optimization",
+    "Difficulty": "Olympiad",
+    "Explanation": "The internal database execution flow starts with filtering raw rows (`WHERE`), grouping the subset (`GROUP BY`), filtering grouped aggregates (`HAVING`), and finally selecting columns to project (`SELECT`)."
+  },
+  {
+    "QuestionText": "You are diagnosing an advanced Windows 11 kernel panic loop caused by a buggy low-level system driver. Which system diagnostic console utility path can be manipulated inside the Windows Recovery Environment (WinRE) Command Prompt to manually disable a specific driver service from initializing at boot time?",
+    "Options": ["A) sfc /scannow", "B) sc config [ServiceName] start= disabled", "C) netsh interface ip reset", "D) chkdsk /f /r"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Windows 11 Kernel Architecture",
+    "Difficulty": "Olympiad",
+    "Explanation": "The `sc` (Service Control) command-line utility lets administrators inspect and alter background service states. Setting `start= disabled` updates the system hive registry to prevent a faulty boot driver from executing."
+  },
+  {
+    "QuestionText": "Analyze the following statements regarding the Open Systems Interconnection (OSI) model and TCP/IP protocol suites:\nStatement 1: The Transport Layer handles data segment sequencing, flow control via sliding windows, and error recovery using acknowledgments.\nStatement 2: IP is a connection-oriented, reliable network layer protocol that guarantees packet delivery order through hop tracking.\nWhich of the statements is/are correct?",
+    "Options": ["A) Only Statement 1", "B) Only Statement 2", "C) Both Statement 1 and Statement 2", "D) Neither Statement 1 nor Statement 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Achievers Section",
+    "SubTopic": "OSI & Network Protocol Dynamics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Statement 1 is accurate. Statement 2 is incorrect because the Internet Protocol (IP) is natively connectionless and unreliable; tracking packet order and delivery guarantees is handled by TCP at the Transport layer."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, you want to build an advanced, automated interactive presentation template. Object A must execute an entry animation sequence ONLY when a user physically clicks on Object B on the slide layout canvas during a live presentation loop. Which feature in the Advanced Animation menu must be configured?",
+    "Options": ["A) Motion Path Lock anchoring", "B) Trigger -> On Click of [Object Name]", "C) Timing Delay intervals offset", "D) Selection Pane structural alignment"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "MS PowerPoint Animation Engine",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Trigger function maps an item's animation timeline to an explicit mouse click on a separate asset, turning standard presentations into interactive software-like interfaces."
+  },
+  {
+    "QuestionText": "Suppose a database table 'Enrollments' contains a composite primary key consisting of (StudentID, CourseID). It also contains a column named 'InstructorOfficeRoom'. It is found that StudentID and CourseID determine InstructorID, and InstructorID determines InstructorOfficeRoom. Which normal form rule is currently broken here?",
+    "Options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "CorrectAnswer": "C",
+    "Topic": "Achievers Section",
+    "SubTopic": "Database Normalization Theory",
+    "Difficulty": "Olympiad",
+    "Explanation": "The table breaks 3NF rules because it contains a transitive dependency: a non-key column (`InstructorOfficeRoom`) depends on another non-key column (`InstructorID`), which then depends on the composite primary key."
+  },
+  {
+    "QuestionText": "A secure network infrastructure uses Asymmetric Public-Key Cryptography to transmit encrypted files. If Bob wants to send a confidential encrypted message to Alice ensuring that ONLY Alice can read it, which key must Bob use to encrypt the message file?",
+    "Options": ["A) Bob's Private Key", "B) Bob's Public Key", "C) Alice's Private Key", "D) Alice's Public Key"],
+    "CorrectAnswer": "D",
+    "Topic": "Achievers Section",
+    "SubTopic": "Cryptographic Infrastructure",
+    "Difficulty": "Olympiad",
+    "Explanation": "In public-key encryption systems, messages encrypted with a recipient's public key can only be decrypted by that recipient's matching private key, ensuring confidentiality."
+  },
+  {
+    "QuestionText": "Consider an HTML table structured as follows:\n<table>\n  <tr><th colspan=\"3\">Q1 Results</th></tr>\n  <tr><td rowspan=\"2\">Region A</td><td>Sales X</td><td>Sales Y</td></tr>\n  <tr><td>Sales Z</td><td>Sales W</td></tr>\n</table>\nHow many total structural column slots are spanning across the first row, and how many total rows does the first cell of the second row span down?",
+    "Options": [
+      "A) Row 1 spans 2 columns; Second row cell spans 3 rows.",
+      "B) Row 1 spans 3 columns; Second row cell spans 2 rows.",
+      "C) Row 1 spans 1 column; Second row cell spans 2 rows.",
+      "D) Row 1 spans 3 columns; Second row cell spans 1 row."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Complex HTML Structural Grids",
+    "Difficulty": "Olympiad",
+    "Explanation": "The `colspan=\"3\"` attribute expands a header cell across three logical columns. Meanwhile, `rowspan=\"2\"` stretches a cell vertically down through two table rows."
+  },
+  {
+    "QuestionText": "In Windows 11 Enterprise environments, which security management tool allows system administrators to deploy Software Restriction Policies, disable USB mass storage mounts globally, and enforce Windows Hello PIN complexity rules across thousands of workstations via a central console interface?",
+    "Options": ["A) Group Policy Management Console (GPMC)", "B) Computer Management Storage interface", "C) Windows Defender SmartScreen ledger", "D) Registry Editor hive manager"],
+    "CorrectAnswer": "A",
+    "Topic": "Achievers Section",
+    "SubTopic": "Enterprise Windows 11 Orchestration",
+    "Difficulty": "Olympiad",
+    "Explanation": "GPMC, running alongside Active Directory, distributes administrative policies and security configurations across enterprise environments, letting IT teams control OS features remotely."
+  },
+  {
+    "QuestionText": "An engineer sets up an advanced MS Access 2016 query to locate items. The criteria field for a date column is written as: Between #01-01-2026# And #31-12-2026#. What does this query do?",
+    "Options": [
+      "A) It counts the total number of entries made during the year 2026.",
+      "B) It isolates and extracts all records that fall chronologically within the calendar year 2026.",
+      "C) It alters the table structure to change all dates to the year 2026.",
+      "D) It flags an error because MS Access cannot parse numerical values wrapped in hash tags."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "MS Access Advanced SQL Synthesis",
+    "Difficulty": "Olympiad",
+    "Explanation": "In MS Access SQL, date literals must be enclosed in hash tags (`#`). The `Between...And` operator acts as an inclusive range filter to catch records within that timeframe."
+  },
+  {
+    "QuestionText": "While optimizing an online store website layout, you implement a CSS configuration: `div { box-sizing: border-box; width: 300px; padding: 20px; border: 5px solid black; }`. What will be the exact pixel width of the inner content zone available for text layout?",
+    "Options": ["A) 300px", "B) 250px", "C) 275px", "D) 350px"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced CSS Layout Models",
+    "Difficulty": "Olympiad",
+    "Explanation": "Under `box-sizing: border-box`, an element's total declared width includes its borders and padding. Subtracting the left/right padding ($20 \\times 2 = 40\\text{px}$) and borders ($5 \\times 2 = 10\\text{px}$) from $300\\text{px}$ leaves exactly $250\\text{px}$ for content."
+  },
+  {
+    "QuestionText": "A corporate LAN is hit by a distributed sync threat where external client IPs spoof internally whitelisted server sequences to drain firewall resources. Which networking component can be configured at the perimeter boundary layer to drop this traffic using State packet inspection logic tables?",
+    "Options": ["A) Network Bridge layer", "B) Stateful Inspection Firewall", "C) Unmanaged Switch block", "D) Active Repeater node"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Network Security Architecture",
+    "Difficulty": "Olympiad",
+    "Explanation": "Stateful firewalls monitor active connection states across TCP handshakes, checking inbound packets against established communication logs to block spoofed or unexpected incoming traffic."
+  },
+  {
+    "QuestionText": "Evaluate the following technical specifications regarding the Windows 11 filesystem and core operating rules:\nStatement 1: The Resilient File System (ReFS) uses integrity streams to automatically detect data corruption and repair files without causing drive downtime.\nStatement 2: Windows 11 requires a Unified Extensible Firmware Interface (UEFI) with Secure Boot capability and a TPM 2.0 chip to complete standard installations.\nWhich of these architectural statements is/are true?",
+    "Options": ["A) Statement 1 only", "B) Statement 2 only", "C) Both Statement 1 and Statement 2", "D) Neither Statement 1 nor Statement 2"],
+    "CorrectAnswer": "C",
+    "Topic": "Achievers Section",
+    "SubTopic": "Windows 11 Systems Internals",
+    "Difficulty": "Olympiad",
+    "Explanation": "Both statements are correct. Windows 11 requires UEFI, Secure Boot, and TPM 2.0 chips for hardware security, and supports ReFS on enterprise editions to protect high-density data arrays from corruption."
+  },
+  {
+    "QuestionText": "In MS Access 2016, you notice a query is slowing down because the underlying table contains millions of rows. Which indexing strategy should be applied to optimize multi-field search speeds while ensuring data integrity constraints?",
+    "Options": [
+      "A) Strip all primary keys to convert the dataset into a flat file arrangement.",
+      "B) Apply a multi-column composite index across fields frequently queried together.",
+      "C) Convert all Short Text data types into OLE Object blocks.",
+      "D) Reconstruct the schema into an un-indexed single-row view container."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Database Query Optimization",
+    "Difficulty": "Olympiad",
+    "Explanation": "Building composite indexes across frequently joined or filtered columns creates quick data lookups, helping the database engine skip time-consuming full table scans."
+  },
+  {
+    "QuestionText": "What type of sophisticated network exploitation framework redirects web traffic away from a legitimate portal to a cloned phishing site by corrupting domain resolution tables on internet router nodes, without requiring any action from the user?",
+    "Options": ["A) Keylogger capture", "B) Pharming / DNS Cache Poisoning", "C) Denial of Service assault", "D) Trojan injection loop"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Cyber Security Threat Vectors",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pharming and DNS cache poisoning compromise domain lookups at the server or router level, routing users to malicious clone sites even if they type the official URL correctly into their browser."
+  },
+  {
+    "QuestionText": "Review this HTML element selection:\n<div id=\"main\">\n  <span class=\"data\">Item 1</span>\n  <p><span class=\"data\">Item 2</span></p>\n</div>\n\nWhich CSS selector rules apply styling *only* to Item 1, leaving Item 2 completely un-styled?",
+    "Options": ["A) #main .data", "B) #main > .data", "C) div span", "D) .data"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced CSS Selector Traversal",
+    "Difficulty": "Olympiad",
+    "Explanation": "The child selector (`>`) limits style matching to direct children of the parent element. Since Item 1 sits directly inside `#main`, it gets styled, while Item 2 is nested inside an intermediate `<p>` tag and is skipped."
+  },
+  {
+    "QuestionText": "An advanced PowerPoint presenter requires a presentation to execute automatically across an external exhibition kiosk monitor loop. It must run custom video elements on slide 3, repeat slide blocks 5 to 8 conditionally depending on user survey choices, and restart the show automatically if left idle. Which configuration workspace path handles these rules?",
+    "Options": [
+      "A) View tab -> Outline view options",
+      "B) Slide Show tab -> Set Up Slide Show (Hyperlink branching + Custom Shows)",
+      "C) Home tab -> Format Painter modules",
+      "D) Review tab -> Document Inspector macros"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "MS PowerPoint Presenter Systems",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Set Up Slide Show dialog configures continuous loops, custom presentation subsets, navigation paths, and interactive hyperlink branching for unmanned information kiosks."
+  },
+  {
+    "QuestionText": "A systems analyst discovers a severe system bottleneck where the hard drive active response queue spikes to 100%. Which advanced administrative monitoring tool inside Windows 11 can trace these disk bottlenecks down to the exact byte-write footprint of background executable threads?",
+    "Options": ["A) Control Panel Apps management", "B) Resource Monitor -> Disk Tab (Storage Processes tracking)", "C) Device Manager firmware updates", "D) System Information properties panel"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Windows 11 Diagnostics & Tuning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Resource Monitor's Disk tab details live read/write speeds, active file access paths, and storage queues for individual processes, helping administrators pinpoint exactly which applications are causing disk bottlenecks."
+  },
+  {
+    "QuestionText": "A relational database table named 'Inventory' has the following attributes: (WarehouseCode, BinNumber, ProductID, Quantity, WarehouseCity). The primary key is a composite pair of (WarehouseCode, BinNumber). The functional dependency rules indicate that WarehouseCode uniquely determines WarehouseCity. What is the current normalization status of this table?",
+    "Options": [
+      "A) The table violates 1NF rules due to field array constraints.",
+      "B) The table meets 2NF guidelines but fails 3NF rules.",
+      "C) The table violates 2NF rules because a non-key column depends on a portion of the composite primary key.",
+      "D) The table is fully normalized up through 3NF parameters."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Database Schema Normalization",
+    "Difficulty": "Olympiad",
+    "Explanation": "The table breaks 2NF rules because it contains a partial dependency: `WarehouseCity` can be looked up using just `WarehouseCode`, which is only part of the composite primary key (`WarehouseCode`, `BinNumber`)."
+  },
+  {
+    "QuestionText": "A technician wants to configure a secure intranet gateway. Computers on the local subnet must use private IP addresses (e.g., 10.0.0.X) internally, but route out to public internet lines under a single shared corporate IP address. Which network translation service must be enabled on the gateway router?",
+    "Options": ["A) Dynamic Host Configuration Protocol (DHCP)", "B) Network Address Translation (NAT / PAT)", "C) Domain Name System resolution lookup", "D) Simple Mail Transfer Protocol proxy"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Network Address Mapping Systems",
+    "Difficulty": "Olympiad",
+    "Explanation": "NAT (Network Address Translation) and PAT (Port Address Translation) map private internal IP addresses to public internet addresses, allowing entire local networks to share a single public IP line safely."
+  },
+  {
+    "QuestionText": "Consider the following CSS rules applied to a text block:\nspan {\n  font-size: 16px;\n}\ndiv.parent {\n  font-size: 2em;\n}\np.child {\n  font-size: 0.5rem;\n}\nIf the root HTML document base font size is configured at 12px, what will be the rendered pixel font size of text inside an element styled as `p.child`?",
+    "Options": ["A) 24px", "B) 16px", "C) 6px", "D) 12px"],
+    "CorrectAnswer": "C",
+    "Topic": "Achievers Section",
+    "SubTopic": "CSS Relative Units Evaluation",
+    "Difficulty": "Olympiad",
+    "Explanation": "Unlike `em` units which inherit sizes from their immediate parent element, `rem` (root em) units calculate sizes strictly from the root HTML document base font size. Therefore, $0.5 \\times 12\\text{px} = 6\\text{px}$."
+  },
+  {
+    "QuestionText": "An internal database audit reveals that a banking system application transaction failed mid-way through execution. The system automatically discarded the partial data entries to restore the accounts to their pre-transaction values. Which transaction property ensured this data safety?",
+    "Options": ["A) Atomicity", "B) Consistency", "C) Isolation", "D) Durability"],
+    "CorrectAnswer": "A",
+    "Topic": "Achievers Section",
+    "SubTopic": "Database ACID Compliance Metrics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Atomicity follows an 'all or nothing' rule, guaranteeing that a multi-step transaction either completes successfully or rolls back completely to prevent data corruption from partial saves."
+  },
+  {
+    "QuestionText": "Which advanced security mechanism inside Windows 11 uses Hyper-V virtualization to run an isolated browser environment, protecting the host operating system from malware infections even if a user downloads a malicious file from an untrusted web page?",
+    "Options": [
+      "A) Microsoft Defender Application Guard",
+      "B) User Account Control slide filter",
+      "C) BitLocker Matrix validation engine",
+      "D) Storage Spaces integrity check"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Achievers Section",
+    "SubTopic": "Windows 11 Isolation Security",
+    "Difficulty": "Olympiad",
+    "Explanation": "Microsoft Defender Application Guard isolates untrusted website browsing inside a virtualized sandbox container, blocking web-based exploits from reaching the host operating system's files."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, you want to review a file for publication. The presentation must be cleared of hidden data, author properties, XML comments, and off-slide content before distribution. Which structural menu optimization track performs this task?",
+    "Options": [
+      "A) Slide Show tab -> Rehearse Timings logs",
+      "B) File -> Info -> Check for Issues -> Inspect Document",
+      "C) Design tab -> Variant configuration parameters",
+      "D) View tab -> Slide Master presentation tracking layouts"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "MS PowerPoint Document Verification",
+    "Difficulty": "Olympiad",
+    "Explanation": "The Document Inspector checks presentation files for hidden metadata, personal developer info, notes, and off-canvas elements, letting you safely strip them out before sharing the file publicly."
+  },
+  {
+    "QuestionText": "A multi-node corporate network uses a topology where every computer connects to a central switch, and that switch links out to a main backbone line connecting other switches. What type of topology is this configuration?",
+    "Options": ["A) Pure Bus Topology", "B) Hybrid Tree Topology", "C) Peer Ring Topology", "D) Full Mesh Array"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Network Topologies Synthesis",
+    "Difficulty": "Olympiad",
+    "Explanation": "Connecting star-topology hubs together along a linear backbone line forms a hierarchical Tree Topology, which makes it easy to scale corporate networks across multiple building floors."
+  },
+  {
+    "QuestionText": "A web developer writes the following CSS code block:\n.box {\n  position: absolute;\n  top: 50px;\n  left: 100px;\n}\nWith this configuration, what element coordinates container baseline does the web browser use to map the 50px top and 100px left offsets?",
+    "Options": [
+      "A) Always relative to the viewport window frame boundaries.",
+      "B) Relative to the closest ancestor element that has a position property value other than static.",
+      "C) Measured directly from the exact original layout spot where the element would naturally sit.",
+      "D) Clamped strictly against the local text column wrapper margins."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced CSS Positioning Mechanics",
+    "Difficulty": "Olympiad",
+    "Explanation": "Elements styled with `position: absolute` are positioned relative to their nearest parent element that has a position property like `relative` or `absolute`. If no positioned ancestor exists, they default to using the root document body container."
+  },
+  {
+    "QuestionText": "An enterprise database manager executes this SQL command sequence:\nALTER TABLE Projects ADD CONSTRAINT UniqueProjectCode UNIQUE (ProjectCode);\nWhat type of language category is this statement, and what change does it apply to the database schema?",
+    "Options": [
+      "A) DML; It inserts a new unique value string across row records.",
+      "B) DCL; It alters user read access rights permissions.",
+      "C) DDL; It alters the table structure to add a unique data constraint on the ProjectCode column.",
+      "D) TCL; It saves transaction changes to the hard drive storage logs."
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Achievers Section",
+    "SubTopic": "SQL Structured Data Definitions",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is a DDL (Data Definition Language) command because it modifies the structural design of the database, adding a unique validation constraint to ensure no duplicate project codes can be entered into that column."
+  },
+  {
+    "QuestionText": "You are configuring an advanced web page that requires pre-loading custom font styles and setting up metadata descriptions for search engines. Where should these tags be placed in the HTML file structure?",
+    "Options": [
+      "A) Inside the `<body>` element directly above heading tags.",
+      "B) Enclosed within the `<head>` block element container.",
+      "C) Nested inside structural `<footer>` rows at the bottom of the page.",
+      "D) Distributed inside specific `<section>` layout cells."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "HTML Core Semantics Implementation",
+    "Difficulty": "Olympiad",
+    "Explanation": "The `<head>` section contains structural background data (like metadata descriptors, character sets, page titles, and stylesheet links) that browsers process before rendering the actual viewable content inside the `<body>` section."
+  },
+  {
+    "QuestionText": "A digital forensic check reveals that a computer system was compromised using low-level malware that initializes before the operating system kernel loads, making it invisible to standard desktop antivirus software. What category of malware is this?",
+    "Options": ["A) Spyware tracking app", "B) Bootkit / Rootkit", "C) Macro Virus script", "D) Adware component"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Cyber Safety Sophisticated Vectors",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rootkits and bootkits alter master boot records or system firmware, loading their code before the main operating system boots up so they can hide deep within the kernel and bypass standard security scanners."
+  },
+  {
+    "QuestionText": "Which shortcut combination opens the advanced Windows 11 Quick Link menu directly above the Start menu button, providing fast access to administration tools like Disk Management, Device Manager, and Terminal Admin?",
+    "Options": ["A) Win + X", "B) Win + I", "C) Win + R", "D) Win + Tab"],
+    "CorrectAnswer": "A",
+    "Topic": "Achievers Section",
+    "SubTopic": "Windows 11 Power-User Shell shortcuts",
+    "Difficulty": "Olympiad",
+    "Explanation": "The `Win + X` shortcut displays the Power User menu, which provides quick access to core system utilities and administrative consoles without having to navigate through the standard Settings app interface."
+  },
+  {
+    "QuestionText": "An IT administrator wants to connect a branch office network to a corporate data center. The setup must link both networks together securely using a public internet line while encrypting all data packets. Which configuration should be used?",
+    "Options": [
+      "A) A public FTP bridge connection.",
+      "B) A Site-to-Site Virtual Private Network (VPN) tunnel connection.",
+      "C) An unencrypted Telnet command route layout.",
+      "D) A simple peer-to-peer Bluetooth connection mesh."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Network Implementation",
+    "Difficulty": "Olympiad",
+    "Explanation": "A Site-to-Site VPN uses secure cryptographic protocols to link separate local networks across public internet lines, encrypting all cross-site traffic to create a secure, unified network."
+  },
+  {
+    "QuestionText": "In MS Access 2016, you want to create a calculated field inside an inventory query that multiplies the 'UnitsInStock' value by the 'UnitPrice' value, labeling the output column as 'TotalValue'. What is the correct syntax expression to use in the query design grid row?",
+    "Options": [
+      "A) TotalValue = UnitsInStock * UnitPrice",
+      "B) TotalValue: [UnitsInStock] * [UnitPrice]",
+      "C) SELECT [UnitsInStock] * [UnitPrice] AS TotalValue",
+      "D) TotalValue = {UnitsInStock} * {UnitPrice}"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "MS Access Expression Engineering",
+    "Difficulty": "Olympiad",
+    "Explanation": "In the MS Access QBE query design grid, custom calculated columns are defined using the syntax `AliasName: [FieldName1] * [FieldName2]`, where column variables are enclosed in square brackets."
+  },
+  {
+    "QuestionText": "Consider this CSS styling block assigned to a paragraph tag:\np {\n  color: blue;\n  font-size: 14px;\n}\nIf this paragraph is nested inside an HTML parent container styled with `color: red; font-size: 24px; text-transform: uppercase;`, how will the paragraph text be rendered?",
+    "Options": [
+      "A) Red text, 24px size, normal text casing.",
+      "B) Blue text, 14px size, uppercase text casing.",
+      "C) Blue text, 24px size, lowercase layout patterns.",
+      "D) Purple text blend, 14px size, standard text alignment."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "CSS Inheritance Hierarchy Cascade",
+    "Difficulty": "Olympiad",
+    "Explanation": "Child elements inherit general typography properties like `text-transform: uppercase` from their parents. However, if the child has its own specific style declarations (like `color: blue; font-size: 14px;`), these closer styles override the inherited ones."
+  },
+  {
+    "QuestionText": "A data engineer notices that a relational database table allows users to type duplicate employee email addresses across separate rows, even though emails are supposed to be completely unique. Which database constraint or primary configuration adjustment should be applied to fix this issue?",
+    "Options": [
+      "A) Change the column's data type to Long Text (Memo).",
+      "B) Apply a UNIQUE constraint or design the column as a Alternate Primary candidate key index.",
+      "C) Convert the data model into a flat file storage format.",
+      "D) Increase the field size limitation value to maximum parameters."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Database Integrity Controls",
+    "Difficulty": "Olympiad",
+    "Explanation": "Adding a UNIQUE constraint to a column tells the database engine to check all existing records before saving new entries, blocking any duplicate values from being added to that field."
+  },
+  {
+    "QuestionText": "Which advanced feature in MS PowerPoint 2016 creates an exact duplicate layout link of a slide master, letting you apply entirely different themes, accent colors, and background designs within the same presentation file?",
+    "Options": ["A) Format Painter replication", "B) Insert Slide Master / Multi-Master Configurations", "C) Slide Show Setup custom loop wizard", "D) SmartArt graphic layout branching"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "MS PowerPoint Architecture Design",
+    "Difficulty": "Olympiad",
+    "Explanation": "PowerPoint supports multiple slide masters within a single file. This allows developers to use different themes and layout designs for different sections of the same presentation."
+  },
+  {
+    "QuestionText": "An enterprise web system requires real-time monitoring of all active TCP connections, listening ports, and protocol statistics to detect malicious data parsing activities. Which native command-line network utility should be executed in the administrative terminal console to view this real-time connection map?",
+    "Options": ["A) ipconfig /all", "B) netstat -an", "C) tracert localhost", "D) nslookup"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Network Diagnostic Synthesis",
+    "Difficulty": "Olympiad",
+    "Explanation": "The `netstat` (Network Statistics) utility with the `-an` flag lists all active connections and listening ports numerically, helping administrators track unauthorized incoming or outgoing connections."
+  },
+  {
+    "QuestionText": "Consider this HTML structure:\n<div id=\"wrapper\">\n  <p class=\"info\">Data Alpha</p>\n  <p class=\"info\">Data Beta</p>\n</div>\n\nWhich CSS selector rules match and apply styles ONLY to 'Data Beta', leaving 'Data Alpha' completely unaffected?",
+    "Options": ["A) #wrapper p:first-of-type", "B) #wrapper p:last-child", "C) #wrapper .info", "D) div > p"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced CSS Pseudo-Class Selectors",
+    "Difficulty": "Olympiad",
+    "Explanation": "The `:last-child` pseudo-class matches an element only if it is the final child inside its parent container. In this snippet, 'Data Beta' is the last child of `#wrapper`, so it gets styled exclusively."
+  },
+  {
+    "QuestionText": "While running a large database query in MS Access 2016, a user types a search criteria string: Like \"[A-M]*\". What records will this query design isolate and display?",
+    "Options": [
+      "A) Records where the selected field contains the letters A and M anywhere in the text.",
+      "B) Records where the selected field starts with any letter that falls alphabetically between A and M inclusive.",
+      "C) Records that match only the literal text strings \"A\" or \"M\" exactly.",
+      "D) Records that do not contain any uppercase alphabetic characters."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced MS Access String Analytics",
+    "Difficulty": "Olympiad",
+    "Explanation": "The square brackets `[...]` with a hyphen define a character range filter in Access. Combined with the asterisk (`*`) wildcard, it matches any text that starts with a letter from A to M."
+  },
+  {
+    "QuestionText": "A system administrator needs to clean up old installation cache files on a Windows 11 machine to free up storage space. Which advanced automation script framework tool can be used to run background system cleanup commands using Object-oriented pipeline syntax modules?",
+    "Options": ["A) Traditional Command Prompt (cmd.exe)", "B) Windows PowerShell / Terminal Admin console", "C) Device Manager interface", "D) Local Group Policy Editor snap-in"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Windows 11 Scripting Architecture",
+    "Difficulty": "Olympiad",
+    "Explanation": "Windows PowerShell uses object-oriented command pipelines called cmdlets (like `Clear-Content` or `Remove-Item`), making it a powerful tool for building complex system administration scripts."
+  },
+  {
+    "QuestionText": "A relational database table holds user logs. If a user sets up a cascading restriction rule where deleting a parent row is blocked as long as child records exist in secondary tables, what foreign key validation constraint rule property is being enforced?",
+    "Options": ["A) On Delete Cascade", "B) On Delete Restrict / No Action", "C) Check Validation constraints", "D) Unique Identifier optimization"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Relational Database Foreign Key Constraints",
+    "Difficulty": "Olympiad",
+    "Explanation": "The `RESTRICT` or `NO ACTION` rule protects data integrity by blocking the deletion of a parent record if there are still active child rows referencing its primary key."
+  },
+  {
+    "QuestionText": "A web administrator notices that a web site layout drops all its text styling and shifts content to the left margin whenever users visit using older web browsers. What step should be taken to ensure cross-browser compatibility across different rendering engines?",
+    "Options": [
+      "A) Convert all text headings into static images.",
+      "B) Review layout sheets and add standardized vendor prefix rules alongside modern CSS declarations.",
+      "C) Delete all classes and force internal styling across every tag line manually.",
+      "D) Strip out the `<style>` container and force raw HTML attribute designs."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Cross-Browser Compilation & Verification",
+    "Difficulty": "Olympiad",
+    "Explanation": "Adding browser vendor prefixes (like `-webkit-`, `-moz-`, `-ms-`) ensures that older rendering engines can parse and display modern CSS layout properties correctly."
+  },
+  {
+    "QuestionText": "An analyst wants to import an active corporate data table from a remote SQL Server instance straight into a local MS Access 2016 database application. The data must update in real time in both places whenever edits are made. Which import strategy should be used?",
+    "Options": [
+      "A) Export the dataset as a static CSV text file loop.",
+      "B) Create a Linked Table using an Open Database Connectivity (ODBC) driver connection.",
+      "C) Convert the entire schema into a standalone PowerPoint presentation show file.",
+      "D) Run a standard copy-paste operation on the datasheet grid rows."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Enterprise Access Integrations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Linking tables via ODBC drivers creates a live data link between MS Access and external enterprise databases, keeping records synchronized across both systems in real time."
+  },
+  {
+    "QuestionText": "A security analyst configures a corporate wireless network. The setup must require an enterprise authentication server to verify employee identities individually before granting network access, rather than using a single shared password. Which wireless security standard should be implemented?",
+    "Options": ["A) WEP Open System layout", "B) WPA2 / WPA3 Enterprise (802.1X Authentication)", "C) Pre-Shared Key (PSK) mode", "D) Simple MAC address tracking filter"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Wireless Networks Protection",
+    "Difficulty": "Olympiad",
+    "Explanation": "WPA2/WPA3 Enterprise uses 802.1X authentication to route connection requests through a central server (like RADIUS), providing high security by giving each user their own login credentials."
+  },
+  {
+    "QuestionText": "Consider the following HTML block:\n<section>\n  <p class=\"highlight\">Alpha</p>\n  <div><p class=\"highlight\">Beta</p></div>\n</section>\n\nWhich CSS selector rule changes the text color of 'Alpha' to green while leaving 'Beta' completely unaffected?",
+    "Options": ["A) section .highlight", "B) section > .highlight", "C) div p", "D) .highlight"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Parent-Child DOM Traversal Selector",
+    "Difficulty": "Olympiad",
+    "Explanation": "The child selector (`>`) applies styles only to direct children of the parent element. Since 'Alpha' sits directly inside `<section>`, it is styled, while 'Beta' is nested inside a `<div>` and is skipped."
+  },
+  {
+    "QuestionText": "A corporate workstation running Windows 11 cannot access shared network folders. An administrative technician runs the `ipconfig` command and notices the network adapter has been assigned an IP address of '169.254.12.34'. What does this address indicate?",
+    "Options": [
+      "A) The system connected to a high-speed corporate fiber optic gateway successfully.",
+      "B) The local network DHCP server is unreachable, causing the OS to automatically assign an APIPA address.",
+      "C) The system hard drive partition table contains corrupted sectors.",
+      "D) The BitLocker system driver blocked network access for safety."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Windows 11 Troubleshooting Matrix",
+    "Difficulty": "Olympiad",
+    "Explanation": "An IP address starting with 169.254.X.X indicates an APIPA (Automatic Private IP Addressing) assignment. This happens when a device cannot reach a DHCP server to get a proper IP address configuration."
+  },
+  {
+    "QuestionText": "In MS PowerPoint 2016, you want to change the style of all bulleted lists across every slide in a large presentation. Instead of editing slides one by one, which structural master slide entry should be modified to apply this update globally?",
+    "Options": [
+      "A) The very first, top master slide thumbnail inside the Slide Master View layout tree.",
+      "B) The Handout Master document template sheets grid.",
+      "C) The specific section title layout card thumbnail only.",
+      "D) The Notes Page view document layout blocks."
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Slide Master Customizations",
+    "Difficulty": "Olympiad",
+    "Explanation": "The top master slide in the layout tree acts as the master template. Any structural changes made to it (like font choices or bullet styles) automatically apply to all slide layouts below it."
+  },
+  {
+    "QuestionText": "An SQL query requires filtering records from a table based on a text column value. The filter must find all records where the 'LastName' field starts with the letter 'S' and ends with the letter 's'. What is the correct standard SQL `WHERE` clause syntax to use?",
+    "Options": [
+      "A) WHERE LastName = 'S*s'",
+      "B) WHERE LastName LIKE 'S%s'",
+      "C) WHERE LastName = ['S' AND 's']",
+      "D) WHERE LastName IN ('S', 's')"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Standard SQL Pattern Cross-Examination",
+    "Difficulty": "Olympiad",
+    "Explanation": "In standard SQL, the `LIKE` operator matches text patterns using the percent sign (`%`) as a multi-character wildcard. Therefore, `'S%s'` matches any string that starts with 'S' and ends with 's'."
+  },
+  {
+    "QuestionText": "A database administrator wants to build a table schema that prevents data conflicts. The database must guarantee that once a transaction completes, its changes are written permanently to disk and will not be lost even if a total system power failure occurs immediately afterward. Which ACID property handles this requirement?",
+    "Options": ["A) Atomicity", "B) Consistency", "C) Isolation", "D) Durability"],
+    "CorrectAnswer": "D",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced DBMS Architectural Assets",
+    "Difficulty": "Olympiad",
+    "Explanation": "Durability guarantees that once a transaction is committed, its updates are saved permanently in non-volatile storage (like a hard drive), protecting the data from system crashes or power failures."
+  },
+  {
+    "QuestionText": "Consider the following CSS positioning rules applied to an element layout block:\n.element-node {\n  position: fixed;\n  bottom: 0;\n  right: 0;\n}\nWhere will the web browser place this element on the page, and how does it behave when the user scrolls down?",
+    "Options": [
+      "A) At the bottom right corner of its parent container, scrolling out of view with the text.",
+      "B) Anchored permanently to the bottom right corner of the browser viewport window, staying fixed in place as the user scrolls.",
+      "C) Centered relative to the root HTML text column lines layout.",
+      "D) Pushed directly into background hidden layer memory tracks."
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced CSS Layout Orchestrations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Elements with `position: fixed` are positioned relative to the browser window viewport. Setting `bottom: 0` and `right: 0` anchors the element to the bottom-right corner of the screen, keeping it visible in that exact spot as the page scrolls."
+  },
+  {
+    "QuestionText": "An IT team needs to secure an enterprise network from external threats. They want to configure an isolated subnet barrier that sits between the internal corporate private LAN and the public internet, housing public-facing servers like web and mail systems safely. What is this network security architecture layer called?",
+    "Options": ["A) Network Bridge loop", "B) DMZ (Demilitarized Zone)", "C) Peer-to-Peer token loop", "D) Local Host ring network"],
+    "CorrectAnswer": "B",
+    "Topic": "Achievers Section",
+    "SubTopic": "Advanced Perimeter Security Isolation",
+    "Difficulty": "Olympiad",
+    "Explanation": "A DMZ (Demilitarized Zone) functions as an isolated neutral subnetwork between the secure private LAN and the untrusted public internet. It exposes public servers safely while keeping the internal network protected behind firewall barriers."
+  }
+]

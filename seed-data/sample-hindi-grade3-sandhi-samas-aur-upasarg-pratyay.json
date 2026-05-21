@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "संधि किसे कहते हैं?",
+        "Options":  [
+                        "A) दो वर्णों के मेल से परिवर्तन",
+                        "B) दो शब्दों का मेल",
+                        "C) प्रत्यय जोड़ना",
+                        "D) उपसर्ग जोड़ना"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "संधि",
+        "Difficulty":  "Foundation",
+        "Explanation":  "संधि में दो वर्ण मिलते हैं।"
+    },
+    {
+        "QuestionText":  "\u0027देव + आलय = देवालय\u0027 — कौन-सी संधि?",
+        "Options":  [
+                        "A) स्वर संधि (अ + आ = आ)",
+                        "B) व्यंजन संधि",
+                        "C) विसर्ग संधि",
+                        "D) समास"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "संधि",
+        "Difficulty":  "Foundation",
+        "Explanation":  "दीर्घ स्वर संधि।"
+    },
+    {
+        "QuestionText":  "\u0027महा + उत्सव = महोत्सव\u0027 — संधि?",
+        "Options":  [
+                        "A) गुण संधि (आ + उ = ओ)",
+                        "B) दीर्घ संधि",
+                        "C) विसर्ग संधि",
+                        "D) समास"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "संधि",
+        "Difficulty":  "Advanced",
+        "Explanation":  "आ + उ = ओ — गुण संधि।"
+    },
+    {
+        "QuestionText":  "\u0027सत् + जन = सज्जन\u0027 — कौन-सी संधि?",
+        "Options":  [
+                        "A) व्यंजन संधि",
+                        "B) स्वर संधि",
+                        "C) विसर्ग संधि",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "संधि",
+        "Difficulty":  "Advanced",
+        "Explanation":  "व्यंजन-व्यंजन मेल।"
+    },
+    {
+        "QuestionText":  "\u0027मनः + हर = मनोहर\u0027 — कौन-सी संधि?",
+        "Options":  [
+                        "A) विसर्ग संधि",
+                        "B) स्वर संधि",
+                        "C) व्यंजन संधि",
+                        "D) समास"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "संधि",
+        "Difficulty":  "Advanced",
+        "Explanation":  "विसर्ग (ः) से होने वाली।"
+    },
+    {
+        "QuestionText":  "समास किसे कहते हैं?",
+        "Options":  [
+                        "A) दो शब्दों के मेल से बना संक्षिप्त नया शब्द",
+                        "B) दो वर्णों का मेल",
+                        "C) प्रत्यय जोड़ना",
+                        "D) उपसर्ग जोड़ना"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Foundation",
+        "Explanation":  "समास = शब्द-संकोच।"
+    },
+    {
+        "QuestionText":  "\u0027द्वंद्व समास\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) माता-पिता, सुख-दुःख",
+                        "B) राजपुत्र",
+                        "C) यथाशक्ति",
+                        "D) त्रिभुज"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Foundation",
+        "Explanation":  "दोनों पद प्रधान।"
+    },
+    {
+        "QuestionText":  "\u0027तत्पुरुष समास\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) राजपुत्र (राजा का पुत्र)",
+                        "B) माता-पिता",
+                        "C) यथाशक्ति",
+                        "D) त्रिभुज"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Foundation",
+        "Explanation":  "उत्तरपद प्रधान।"
+    },
+    {
+        "QuestionText":  "\u0027कर्मधारय समास\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) नीलकमल (नीला कमल)",
+                        "B) राजपुत्र",
+                        "C) माता-पिता",
+                        "D) चतुर्भुज"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Advanced",
+        "Explanation":  "पहला पद विशेषण।"
+    },
+    {
+        "QuestionText":  "\u0027बहुव्रीहि समास\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) नीलकंठ (नीला कंठ जिसका = शिव)",
+                        "B) नीलकमल",
+                        "C) माता-पिता",
+                        "D) राजपुत्र"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Advanced",
+        "Explanation":  "तीसरे का बोध।"
+    },
+    {
+        "QuestionText":  "\u0027द्विगु समास\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) त्रिभुज, सप्ताह",
+                        "B) राजपुत्र",
+                        "C) माता-पिता",
+                        "D) नीलकमल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Advanced",
+        "Explanation":  "पहला पद संख्यावाचक।"
+    },
+    {
+        "QuestionText":  "\u0027अव्ययीभाव समास\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) यथाशक्ति, प्रतिदिन",
+                        "B) राजपुत्र",
+                        "C) माता-पिता",
+                        "D) त्रिभुज"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Advanced",
+        "Explanation":  "पहला पद अव्यय।"
+    },
+    {
+        "QuestionText":  "\u0027विद्यालय\u0027 का समास-विग्रह?",
+        "Options":  [
+                        "A) विद्या के लिए आलय (तत्पुरुष)",
+                        "B) विद्या और आलय",
+                        "C) विद्या जैसा आलय",
+                        "D) विद्या + आलय"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Foundation",
+        "Explanation":  "तत्पुरुष।"
+    },
+    {
+        "QuestionText":  "\u0027माता-पिता\u0027 का समास-विग्रह?",
+        "Options":  [
+                        "A) माता और पिता (द्वंद्व)",
+                        "B) माता का पिता",
+                        "C) माता जैसे पिता",
+                        "D) माता-पिता एक"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Foundation",
+        "Explanation":  "द्वंद्व।"
+    },
+    {
+        "QuestionText":  "\u0027पंचतंत्र\u0027 का समास-विग्रह?",
+        "Options":  [
+                        "A) पाँच तंत्रों का समाहार (द्विगु)",
+                        "B) पाँच और तंत्र",
+                        "C) पाँच के लिए",
+                        "D) पाँच जैसा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Advanced",
+        "Explanation":  "द्विगु।"
+    },
+    {
+        "QuestionText":  "\u0027चतुर्भुज\u0027 का समास-विग्रह?",
+        "Options":  [
+                        "A) चार भुजाओं वाला (द्विगु)",
+                        "B) चार और भुज",
+                        "C) चार के लिए",
+                        "D) चार जैसे"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Advanced",
+        "Explanation":  "द्विगु।"
+    },
+    {
+        "QuestionText":  "\u0027नीलकंठ\u0027 — कौन-सा समास?",
+        "Options":  [
+                        "A) बहुव्रीहि",
+                        "B) तत्पुरुष",
+                        "C) द्वंद्व",
+                        "D) कर्मधारय"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Advanced",
+        "Explanation":  "तीसरे (शिव) का बोध।"
+    },
+    {
+        "QuestionText":  "उपसर्ग किसे कहते हैं?",
+        "Options":  [
+                        "A) शब्द के पहले लगकर अर्थ बदलने वाला अव्यय",
+                        "B) शब्द के बाद लगने वाला",
+                        "C) स्वतंत्र शब्द",
+                        "D) मात्रा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "उपसर्ग शब्द के आगे।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027प्र\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) प्रगति, प्रकाश",
+                        "B) अनुगति",
+                        "C) विगति",
+                        "D) सुगति"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027प्र\u0027 = आगे।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027अ/अन\u0027 का अर्थ?",
+        "Options":  [
+                        "A) नहीं / अभाव",
+                        "B) आगे",
+                        "C) साथ",
+                        "D) ऊपर"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027अज्ञान\u0027, \u0027अनादर\u0027।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027सु\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) सुगम, सुयश",
+                        "B) दुर्गम",
+                        "C) कुगम",
+                        "D) अगम"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027सु\u0027 = अच्छा।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027दुर्/दुस्\u0027 का अर्थ?",
+        "Options":  [
+                        "A) बुरा / कठिन",
+                        "B) अच्छा",
+                        "C) आगे",
+                        "D) पीछे"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027दुर्भाग्य\u0027।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027वि\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) विकार, विदेश",
+                        "B) प्रकार",
+                        "C) सुकार",
+                        "D) अकार"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027वि\u0027 = अलग।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027अनु\u0027 का अर्थ?",
+        "Options":  [
+                        "A) पीछे / अनुसार",
+                        "B) आगे",
+                        "C) ऊपर",
+                        "D) नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027अनुयायी\u0027।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027निर्/नि\u0027 का अर्थ?",
+        "Options":  [
+                        "A) बिना / बाहर",
+                        "B) अंदर",
+                        "C) ऊपर",
+                        "D) आगे"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027निर्भय\u0027।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027अधि\u0027 का अर्थ?",
+        "Options":  [
+                        "A) ऊपर / मुख्य",
+                        "B) नीचे",
+                        "C) बिना",
+                        "D) पीछे"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027अधिकार\u0027।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027परि\u0027 का अर्थ?",
+        "Options":  [
+                        "A) चारों ओर",
+                        "B) अंदर",
+                        "C) बाहर",
+                        "D) ऊपर"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027परिक्रमा\u0027।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027सम\u0027 का अर्थ?",
+        "Options":  [
+                        "A) अच्छी तरह / साथ",
+                        "B) बिना",
+                        "C) अलग",
+                        "D) ऊपर"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027समाधान\u0027।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027प्रति\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) प्रतिदिन, प्रतिनिधि",
+                        "B) अनुदिन",
+                        "C) विदिन",
+                        "D) सुदिन"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027प्रति\u0027 = हर।"
+    },
+    {
+        "QuestionText":  "उपसर्ग \u0027महा\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) महाराज, महाकाव्य",
+                        "B) लघुराज",
+                        "C) अल्पकाव्य",
+                        "D) सुराज"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027महा\u0027 = बड़ा।"
+    },
+    {
+        "QuestionText":  "\u0027निर्भय\u0027 में उपसर्ग?",
+        "Options":  [
+                        "A) निर् (बिना भय)",
+                        "B) नि + रभय",
+                        "C) निर्भ + य",
+                        "D) नि + भर"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027निर्\u0027 + \u0027भय\u0027।"
+    },
+    {
+        "QuestionText":  "\u0027दुर्जन\u0027 में उपसर्ग?",
+        "Options":  [
+                        "A) दुर् (बुरा जन)",
+                        "B) दु + र्जन",
+                        "C) दुर्ज + न",
+                        "D) दुर + जन"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027दुर्\u0027 + \u0027जन\u0027।"
+    },
+    {
+        "QuestionText":  "\u0027सुलभ\u0027 में उपसर्ग?",
+        "Options":  [
+                        "A) सु (आसान)",
+                        "B) लभ",
+                        "C) सुल",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027सु\u0027 + \u0027लभ\u0027।"
+    },
+    {
+        "QuestionText":  "\u0027महाराज\u0027 में उपसर्ग?",
+        "Options":  [
+                        "A) महा (बड़ा)",
+                        "B) राज",
+                        "C) महाराज",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027महा\u0027 + \u0027राज\u0027।"
+    },
+    {
+        "QuestionText":  "\u0027अ\u0027 उपसर्ग से \u0027सत्य\u0027 का विलोम?",
+        "Options":  [
+                        "A) असत्य",
+                        "B) सत्यता",
+                        "C) सत्यम",
+                        "D) प्रसत्य"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027अ\u0027 + \u0027सत्य\u0027।"
+    },
+    {
+        "QuestionText":  "\u0027अनुकरण\u0027 में उपसर्ग?",
+        "Options":  [
+                        "A) अनु + करण",
+                        "B) अन + उकरण",
+                        "C) अनुक + रण",
+                        "D) अनु + कर"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027अनु\u0027 + \u0027करण\u0027।"
+    },
+    {
+        "QuestionText":  "\u0027प्रभात\u0027 में उपसर्ग?",
+        "Options":  [
+                        "A) प्र (सुबह)",
+                        "B) भात",
+                        "C) प्रभ",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "\u0027प्र\u0027 + \u0027भात\u0027।"
+    },
+    {
+        "QuestionText":  "प्रत्यय किसे कहते हैं?",
+        "Options":  [
+                        "A) शब्द के बाद लगकर नया शब्द बनाने वाला अंश",
+                        "B) पहले लगने वाला",
+                        "C) स्वतंत्र शब्द",
+                        "D) मात्रा"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Foundation",
+        "Explanation":  "प्रत्यय = शब्द के अंत में।"
+    },
+    {
+        "QuestionText":  "कृत् प्रत्यय किसे कहते हैं?",
+        "Options":  [
+                        "A) धातु में जुड़ने वाले प्रत्यय को",
+                        "B) संज्ञा में",
+                        "C) विशेषण में",
+                        "D) सर्वनाम में"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027रच\u0027 + \u0027ना\u0027 = \u0027रचना\u0027।"
+    },
+    {
+        "QuestionText":  "तद्धित प्रत्यय किसे कहते हैं?",
+        "Options":  [
+                        "A) संज्ञा/विशेषण/सर्वनाम में जुड़ने वाले को",
+                        "B) धातु में",
+                        "C) वाक्य में",
+                        "D) क्रिया में"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027मानव\u0027 + \u0027ता\u0027 = \u0027मानवता\u0027।"
+    },
+    {
+        "QuestionText":  "प्रत्यय \u0027-ता\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) सुंदरता, मानवता",
+                        "B) सुंदर",
+                        "C) मानव",
+                        "D) सफल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भाववाचक संज्ञा।"
+    },
+    {
+        "QuestionText":  "प्रत्यय \u0027-पन\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) बचपन, लड़कपन",
+                        "B) बचना",
+                        "C) लड़का",
+                        "D) पागल"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भाव बनाता है।"
+    },
+    {
+        "QuestionText":  "प्रत्यय \u0027-आई\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) अच्छाई, बुराई",
+                        "B) अच्छा",
+                        "C) बुरा",
+                        "D) लड़ना"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Foundation",
+        "Explanation":  "भाव बनाता है।"
+    },
+    {
+        "QuestionText":  "प्रत्यय \u0027-इक\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) आर्थिक, धार्मिक",
+                        "B) आर्थ",
+                        "C) धर्म",
+                        "D) वर्ष"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Advanced",
+        "Explanation":  "विशेषण बनाता है।"
+    },
+    {
+        "QuestionText":  "प्रत्यय \u0027-वाला\u0027 का उदाहरण?",
+        "Options":  [
+                        "A) दूधवाला, सब्जीवाला",
+                        "B) दूध",
+                        "C) सब्जी",
+                        "D) गाड़ी"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Foundation",
+        "Explanation":  "व्यवसाय बताता है।"
+    },
+    {
+        "QuestionText":  "\u0027रचना\u0027 में प्रत्यय कौन-सा है?",
+        "Options":  [
+                        "A) ना (कृत् — रच + ना)",
+                        "B) तद्धित",
+                        "C) उपसर्ग",
+                        "D) संधि"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Advanced",
+        "Explanation":  "\u0027रच\u0027 + \u0027ना\u0027।"
+    },
+    {
+        "QuestionText":  "\u0027हाथियों\u0027 में प्रत्यय?",
+        "Options":  [
+                        "A) ओं (कारक प्रत्यय)",
+                        "B) कृत्",
+                        "C) तद्धित",
+                        "D) उपसर्ग"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "प्रत्यय",
+        "Difficulty":  "Advanced",
+        "Explanation":  "विभक्ति/कारक प्रत्यय।"
+    },
+    {
+        "QuestionText":  "उपसर्ग और प्रत्यय में मुख्य अंतर?",
+        "Options":  [
+                        "A) उपसर्ग पहले; प्रत्यय बाद में",
+                        "B) दोनों पहले",
+                        "C) दोनों बाद",
+                        "D) दोनों एक जैसे"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "उपसर्ग",
+        "Difficulty":  "Foundation",
+        "Explanation":  "उपसर्ग = पहले; प्रत्यय = बाद।"
+    },
+    {
+        "QuestionText":  "समास और संधि में मुख्य अंतर?",
+        "Options":  [
+                        "A) संधि — वर्ण मेल; समास — शब्द मेल",
+                        "B) दोनों एक",
+                        "C) संधि में शब्द",
+                        "D) समास में वर्ण"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "समास",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "संधि = वर्ण; समास = शब्द।"
+    },
+    {
+        "QuestionText":  "\u0027राम + अयन = रामायण\u0027 — संधि?",
+        "Options":  [
+                        "A) दीर्घ स्वर संधि (अ + अ = आ)",
+                        "B) व्यंजन संधि",
+                        "C) विसर्ग संधि",
+                        "D) कोई नहीं"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Hindi",
+        "SubTopic":  "संधि",
+        "Difficulty":  "Foundation",
+        "Explanation":  "अ + अ = आ।"
+    }
+]

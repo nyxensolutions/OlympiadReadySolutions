@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "What does 'AI' stand for?",
+    "Options": ["A) Apple Intelligence", "B) Artificial Intelligence", "C) Automatic Internet", "D) Advanced Information"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Foundation",
+    "Explanation": "AI stands for Artificial Intelligence, where machines are made to act smart like humans."
+  },
+  {
+    "QuestionText": "Which of these is a 'Smart' machine that can learn from you?",
+    "Options": ["A) Toaster", "B) Hammer", "C) Smartphone", "D) Scissors"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "Smartphones use AI to learn your habits and help you, unlike simple tools."
+  },
+  {
+    "QuestionText": "A robot that can move on its own and avoid obstacles uses ________.",
+    "Options": ["A) Magic", "B) Artificial Intelligence", "C) Batteries only", "D) Luck"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Foundation",
+    "Explanation": "AI helps robots 'see' and make decisions about where to move."
+  },
+  {
+    "QuestionText": "Which of the following is an AI voice assistant?",
+    "Options": ["A) Alexa", "B) MS Paint", "C) Keyboard", "D) CPU"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "Alexa (Amazon), Siri (Apple), and Google Assistant are famous AI voice assistants."
+  },
+  {
+    "QuestionText": "AI allows a computer to ________ like a human.",
+    "Options": ["A) Eat food", "B) Grow taller", "C) Solve problems", "D) Sleep in a bed"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Advanced",
+    "Explanation": "AI mimics human intelligence, especially in solving puzzles or recognizing patterns."
+  },
+  {
+    "QuestionText": "When YouTube suggests a video you might like, it is using ________.",
+    "Options": ["A) A guess", "B) AI Recommendation", "C) A TV signal", "D) A printer"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Advanced",
+    "Explanation": "AI analyzes what you watched before to suggest new things you will enjoy."
+  },
+  {
+    "QuestionText": "Which machine is NOT an AI machine?",
+    "Options": ["A) Self-driving car", "B) Smart speaker", "C) Ceiling fan", "D) Face-unlocking phone"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "A ceiling fan just follows a simple switch; it doesn't think or process data."
+  },
+  {
+    "QuestionText": "A 'Chatbot' is a computer program that ________.",
+    "Options": ["A) Cleans the house", "B) Talks or texts with you", "C) Cooks dinner", "D) Fixes cars"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Advanced",
+    "Explanation": "Chatbots use AI to understand your questions and reply like a person."
+  },
+  {
+    "QuestionText": "Which part of our body is AI most similar to?",
+    "Options": ["A) Hands", "B) Legs", "C) Brain", "D) Stomach"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Foundation",
+    "Explanation": "AI mimics the 'thinking' part of humans, which happens in the brain."
+  },
+  {
+    "QuestionText": "How does a smart vacuum cleaner know where the walls are?",
+    "Options": ["A) It asks the owner", "B) It uses AI and sensors", "C) It hits the wall until it breaks", "D) It uses a map from the store"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Sensors send data to the AI 'brain' to help the vacuum navigate."
+  },
+  {
+    "QuestionText": "Identify the AI feature: A phone that opens when it sees your face.",
+    "Options": ["A) Face Recognition", "B) Fingerprint", "C) Password", "D) Pattern"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "Face Recognition is a common AI task where the computer 'identifies' a person."
+  },
+  {
+    "QuestionText": "Computers need ________ to learn and become smart.",
+    "Options": ["A) Water", "B) Data (Information)", "C) Sunlight", "D) Soil"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "AI learns by processing large amounts of data/examples."
+  },
+  {
+    "QuestionText": "Which of these is a machine that mimics human speech?",
+    "Options": ["A) Google Assistant", "B) Printer", "C) UPS", "D) Scanner"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "Voice assistants use AI to speak back to users."
+  },
+  {
+    "QuestionText": "AI is used in games to ________.",
+    "Options": ["A) Make the computer play against you", "B) Make the game colorful", "C) Turn off the monitor", "D) Charge the battery"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Advanced",
+    "Explanation": "In games like Chess, AI is used so you can play against the computer."
+  },
+  {
+    "QuestionText": "Can an AI machine feel emotions like 'sad' or 'happy'?",
+    "Options": ["A) Yes, always", "B) No, it only mimics them", "C) Only when it is plugged in", "D) Only on birthdays"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "AI does not have real feelings; it only follows programs to act a certain way."
+  },
+  {
+    "QuestionText": "A machine that 'learns' is called ________.",
+    "Options": ["A) Machine Learning", "B) Machine Running", "C) Machine Jumping", "D) Machine Sleeping"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "Machine Learning is a part of AI where computers improve by practice."
+  },
+  {
+    "QuestionText": "Which AI helps in translating one language to another?",
+    "Options": ["A) Google Translate", "B) Calculator", "C) MS Paint", "D) Notepad"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "Translation apps use AI to understand different languages."
+  },
+  {
+    "QuestionText": "Which device uses AI to predict the weather?",
+    "Options": ["A) Supercomputers", "B) Microwave", "C) Toaster", "D) Iron"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Supercomputers use AI models to analyze clouds and wind to predict rain."
+  },
+  {
+    "QuestionText": "In a 'Smart Home', AI can ________.",
+    "Options": ["A) Turn off lights when you leave", "B) Lock doors automatically", "C) Adjust the AC temperature", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Smart homes use AI to automate tasks for comfort and safety."
+  },
+  {
+    "QuestionText": "True or False: AI can help doctors find diseases in X-rays.",
+    "Options": ["A) True", "B) False"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Advanced",
+    "Explanation": "AI is very good at looking at pictures and finding small details."
+  },
+  {
+    "QuestionText": "A self-driving car uses AI to ________.",
+    "Options": ["A) Stop at red lights", "B) Avoid hitting people", "C) Find the best route", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "AI acts as the driver for self-driving (autonomous) vehicles."
+  },
+  {
+    "QuestionText": "Which of these is an example of AI in 'Entertainment'?",
+    "Options": ["A) Netflix recommendations", "B) Face filters on Instagram", "C) Playing against a robot in a game", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "AI is widely used for fun and personalized experiences in apps."
+  },
+  {
+    "QuestionText": "Can AI think of new ideas exactly like a human?",
+    "Options": ["A) Yes, easily", "B) No, it uses existing data to create", "C) Only if it is a laptop", "D) Only on the weekends"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "AI 'creates' based on what it has been shown/taught before."
+  },
+  {
+    "QuestionText": "Which icon usually represents AI in many apps?",
+    "Options": ["A) A brain or spark", "B) A trash can", "C) A floppy disk", "D) A printer"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Advanced",
+    "Explanation": "Sparks or a digital brain are common symbols for AI features."
+  },
+  {
+    "QuestionText": "An AI that can draw a picture based on your words is called ________ AI.",
+    "Options": ["A) Generative", "B) Destructive", "C) Slow", "D) Old"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "Generative AI 'generates' or creates new content like art or text."
+  },
+  {
+    "QuestionText": "Which task is easiest for an AI?",
+    "Options": ["A) Sorting 1 million numbers", "B) Feeling love for a pet", "C) Eating a pizza", "D) Jumping over a fence"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Advanced",
+    "Explanation": "AI and computers are best at math and data tasks."
+  },
+  {
+    "QuestionText": "When you talk to 'Siri', it uses ________ to understand you.",
+    "Options": ["A) Earphones", "B) Speech Recognition", "C) A keyboard", "D) A mouse"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Advanced",
+    "Explanation": "Speech recognition is the AI technology that turns voice into data."
+  },
+  {
+    "QuestionText": "Which is a characteristic of an AI robot?",
+    "Options": ["A) It needs to be told every single step", "B) It can make some decisions itself", "C) It never needs power", "D) It is made of wood"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Standard robots follow steps; AI robots can make choices based on their surroundings."
+  },
+  {
+    "QuestionText": "The 'smart' in 'Smart TV' comes from ________.",
+    "Options": ["A) Having a big screen", "B) Having an internet connection and AI", "C) Being very thin", "D) Having many channels"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "Smart TVs use AI to suggest shows and connect to the web."
+  },
+  {
+    "QuestionText": "AI can help protect our planet by ________.",
+    "Options": ["A) Counting trees from space", "B) Tracking endangered animals", "C) Saving energy in buildings", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Olympiad",
+    "Explanation": "AI is a powerful tool for environmental science."
+  },
+  {
+    "QuestionText": "What does a computer need to 'see' things for its AI?",
+    "Options": ["A) A speaker", "B) A camera", "C) A printer", "D) A mouse"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Foundation",
+    "Explanation": "Cameras act as 'eyes' for AI systems to process visual data."
+  },
+  {
+    "QuestionText": "Why do we use AI in email 'Spam' filters?",
+    "Options": ["A) To read our private letters", "B) To block unwanted junk mail", "C) To delete all our mail", "D) To change the font color"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Advanced",
+    "Explanation": "AI learns to recognize junk mail so it doesn't fill up your inbox."
+  },
+  {
+    "QuestionText": "Is a calculator an AI machine?",
+    "Options": ["A) Yes, it is very smart", "B) No, it just follows fixed math rules", "C) Only if it is solar-powered", "D) Yes, but only for addition"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Olympiad",
+    "Explanation": "A calculator is a simple digital machine; it doesn't 'learn' or change its behavior."
+  },
+  {
+    "QuestionText": "An AI 'Drone' can be used for ________.",
+    "Options": ["A) Delivering packages", "B) Taking aerial photos", "C) Helping in search and rescue", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Drones with AI can fly autonomously for various useful tasks."
+  },
+  {
+    "QuestionText": "Which company created the AI called 'Siri'?",
+    "Options": ["A) Microsoft", "B) Google", "C) Apple", "D) Amazon"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Advanced",
+    "Explanation": "Siri is the built-in AI assistant for Apple devices."
+  },
+  {
+    "QuestionText": "AI helps us in Google Maps by ________.",
+    "Options": ["A) Showing the shortest way", "B) Predicting traffic jams", "C) Finding nearby parks", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "Google Maps uses AI to analyze traffic and provide directions."
+  },
+  {
+    "QuestionText": "What is the main goal of AI?",
+    "Options": ["A) To replace humans entirely", "B) To help humans and make tasks easier", "C) To make computers more expensive", "D) To stop people from using paper"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "AI is designed to be a tool that assists humans in solving complex problems."
+  },
+  {
+    "QuestionText": "Can AI learn to play a musical instrument?",
+    "Options": ["A) No, never", "B) Yes, it can be programmed to play", "C) Only if it has fingers", "D) Only if it is a piano"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Advanced",
+    "Explanation": "AI can be programmed or built into robots to play music perfectly."
+  },
+  {
+    "QuestionText": "Which of these AI devices is often used in modern kitchens?",
+    "Options": ["A) Smart Refrigerator", "B) Wooden spoon", "C) Plate", "D) Napkin"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Foundation",
+    "Explanation": "Smart fridges can tell you when food is expiring or suggest recipes."
+  },
+  {
+    "QuestionText": "How does AI recognize your voice?",
+    "Options": ["A) By the color of your shirt", "B) By the pattern of your sound waves", "C) By your height", "D) It just guesses"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "Every voice has a unique pattern that AI learns to identify."
+  },
+  {
+    "QuestionText": "In the future, AI might help us ________.",
+    "Options": ["A) Live on other planets", "B) Cure many diseases", "C) Clean the entire ocean", "D) All of these"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Foundation",
+    "Explanation": "AI has endless possibilities for helping humanity in the future."
+  },
+  {
+    "QuestionText": "Which part of the computer 'acts' as the AI's body for movement?",
+    "Options": ["A) Monitor", "B) Robotics/Motors", "C) Keyboard", "D) Mouse"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Motors and gears allow AI programs to move physical parts."
+  },
+  {
+    "QuestionText": "When you type on a phone and it 'predicts' the next word, it is ________.",
+    "Options": ["A) Magic Text", "B) Predictive Text AI", "C) Ghost Typing", "D) Fast Typing"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "AI predicts your next word based on what people usually type."
+  },
+  {
+    "QuestionText": "What is the biggest limitation of AI?",
+    "Options": ["A) It never sleeps", "B) It can only do what it is trained to do", "C) It works too fast", "D) It is made of metal"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Olympiad",
+    "Explanation": "AI is not 'generally' smart; it is usually very good at only one or two tasks."
+  },
+  {
+    "QuestionText": "Can AI help us learn a new language?",
+    "Options": ["A) Yes, through apps like Duolingo", "B) No, humans must learn from books only", "C) Only if you are a computer", "D) Only in the summer"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "Language apps use AI to track your progress and give you exercises."
+  },
+  {
+    "QuestionText": "A robot that looks and acts like a human is called a ________.",
+    "Options": ["A) Android/Humanoid", "B) Smartphone", "C) Laptop", "D) Desktop"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Humanoid robots are designed to look and move like people."
+  },
+  {
+    "QuestionText": "Which AI helps pilots fly planes?",
+    "Options": ["A) Autopilot", "B) Auto-drive", "C) Fly-bot", "D) Sky-net"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "Smart Machines",
+    "Difficulty": "Advanced",
+    "Explanation": "Autopilot uses AI and sensors to keep a plane on its path."
+  },
+  {
+    "QuestionText": "Which of these is a famous AI developed by Google?",
+    "Options": ["A) Gemini", "B) Siri", "C) Alexa", "D) Cortana"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Olympiad",
+    "Explanation": "Gemini (formerly Bard) is a leading AI from Google."
+  },
+  {
+    "QuestionText": "True or False: AI can help make video games more realistic.",
+    "Options": ["A) True", "B) False"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer",
+    "SubTopic": "AI in Daily Life",
+    "Difficulty": "Foundation",
+    "Explanation": "AI is used to improve graphics and make characters move naturally."
+  },
+  {
+    "QuestionText": "If an AI machine is 'unplugged' or has no battery, can it still think?",
+    "Options": ["A) Yes, it has a soul", "B) No, it needs electricity to run its AI", "C) Yes, it uses magic", "D) Only for 5 minutes"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer",
+    "SubTopic": "Introduction to AI",
+    "Difficulty": "Foundation",
+    "Explanation": "AI is a computer program and requires electrical power to function."
+  }
+]

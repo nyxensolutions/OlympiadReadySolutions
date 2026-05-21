@@ -1,0 +1,702 @@
+﻿[
+    {
+        "QuestionText":  "What is a family?",
+        "Options":  [
+                        "A) A group of people who love, care for, and live together",
+                        "B) A group of friends",
+                        "C) A class of students",
+                        "D) A team at work"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A family is a group of people related to each other who share love, care, and responsibility."
+    },
+    {
+        "QuestionText":  "What is a nuclear family?",
+        "Options":  [
+                        "A) Only parents and their children living together",
+                        "B) Grandparents, parents, and children",
+                        "C) All relatives living together",
+                        "D) Two families in one house"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A nuclear family consists of a mother, father, and their children only."
+    },
+    {
+        "QuestionText":  "What is a joint family?",
+        "Options":  [
+                        "A) Many relatives — grandparents, parents, aunts, uncles, and cousins — living together",
+                        "B) Only parents and children",
+                        "C) Two brothers\u0027 families only",
+                        "D) Only grandparents and grandchildren"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A joint family is one where multiple generations live together: grandparents, parents, and children, often with aunts, uncles, and cousins."
+    },
+    {
+        "QuestionText":  "What do we call our father\u0027s father?",
+        "Options":  [
+                        "A) Grandfather (Dada)",
+                        "B) Uncle",
+                        "C) Father",
+                        "D) Cousin"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our father\u0027s father is called our grandfather. In Hindi, he is called \u0027Dada\u0027."
+    },
+    {
+        "QuestionText":  "What do we call our father\u0027s mother?",
+        "Options":  [
+                        "A) Grandmother (Dadi)",
+                        "B) Aunt",
+                        "C) Mother",
+                        "D) Sister"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our father\u0027s mother is called our grandmother. In Hindi, she is called \u0027Dadi\u0027."
+    },
+    {
+        "QuestionText":  "What do we call our mother\u0027s father?",
+        "Options":  [
+                        "A) Maternal Grandfather (Nana)",
+                        "B) Grandfather (Dada)",
+                        "C) Uncle",
+                        "D) Father"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our mother\u0027s father is called our maternal grandfather. In Hindi, he is called \u0027Nana\u0027."
+    },
+    {
+        "QuestionText":  "What do we call our mother\u0027s mother?",
+        "Options":  [
+                        "A) Maternal Grandmother (Nani)",
+                        "B) Grandmother (Dadi)",
+                        "C) Aunt",
+                        "D) Mother"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our mother\u0027s mother is called our maternal grandmother. In Hindi, she is called \u0027Nani\u0027."
+    },
+    {
+        "QuestionText":  "What do we call our father\u0027s brother?",
+        "Options":  [
+                        "A) Uncle (Chacha/Tau)",
+                        "B) Cousin",
+                        "C) Mama",
+                        "D) Bhaiya"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our father\u0027s brother is our uncle. In Hindi, a younger brother is \u0027Chacha\u0027 and an older brother is \u0027Tau\u0027."
+    },
+    {
+        "QuestionText":  "What do we call our mother\u0027s brother?",
+        "Options":  [
+                        "A) Maternal Uncle (Mama)",
+                        "B) Paternal Uncle (Chacha)",
+                        "C) Brother",
+                        "D) Cousin"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our mother\u0027s brother is our maternal uncle. In Hindi, he is called \u0027Mama\u0027."
+    },
+    {
+        "QuestionText":  "What do we call our uncle\u0027s or aunt\u0027s children?",
+        "Options":  [
+                        "A) Cousins",
+                        "B) Siblings",
+                        "C) Niece/Nephew",
+                        "D) Friends"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The children of our uncle or aunt are our cousins."
+    },
+    {
+        "QuestionText":  "What are the three basic needs of every family?",
+        "Options":  [
+                        "A) Food, shelter, and clothing",
+                        "B) Toys, TV, and games",
+                        "C) Money, cars, and jewellery",
+                        "D) Mobiles, internet, and computers"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Every family needs food (to eat), shelter (a place to live), and clothing (to wear). These are basic needs."
+    },
+    {
+        "QuestionText":  "What is the role of parents in a family?",
+        "Options":  [
+                        "A) To love, care for, and guide their children",
+                        "B) Only to earn money",
+                        "C) Only to cook food",
+                        "D) Only to discipline children"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Parents love and care for their children, provide food and shelter, teach values, and guide them through life."
+    },
+    {
+        "QuestionText":  "Why is the family important?",
+        "Options":  [
+                        "A) It provides love, security, and support to all members",
+                        "B) Only for earning money",
+                        "C) Only for celebrations",
+                        "D) Only for doing homework"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The family provides emotional security, love, support, and a sense of belonging to all its members."
+    },
+    {
+        "QuestionText":  "What do we call the eldest male member who leads a joint family?",
+        "Options":  [
+                        "A) Head of family (usually grandfather or father)",
+                        "B) The youngest member",
+                        "C) The wealthiest member",
+                        "D) The tallest member"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "In a traditional joint family, the eldest male member (grandfather or father) is usually the head who makes important decisions."
+    },
+    {
+        "QuestionText":  "What is the responsibility of children in a family?",
+        "Options":  [
+                        "A) To study, help with chores, respect elders, and be honest",
+                        "B) Only to study",
+                        "C) Only to play",
+                        "D) Only to watch TV"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Children\u0027s responsibilities include studying, helping with household tasks, respecting elders, being honest, and caring for siblings."
+    },
+    {
+        "QuestionText":  "What do we call a family tree?",
+        "Options":  [
+                        "A) A diagram showing family members and their relationships",
+                        "B) A tree planted by the family",
+                        "C) A family photo album",
+                        "D) A list of family rules"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A family tree is a chart or diagram that shows the relationships between family members across generations."
+    },
+    {
+        "QuestionText":  "What is the relationship between siblings?",
+        "Options":  [
+                        "A) Brothers and sisters born of the same parents",
+                        "B) Parent and child",
+                        "C) Husband and wife",
+                        "D) Grandparent and grandchild"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Siblings are brothers and sisters who share the same parents."
+    },
+    {
+        "QuestionText":  "Which value is most important in a happy family?",
+        "Options":  [
+                        "A) Love and respect for each other",
+                        "B) Having the most money",
+                        "C) Having the biggest house",
+                        "D) Having the most toys"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Love, respect, and care for each other are the foundation of a happy family. These values bind the family together."
+    },
+    {
+        "QuestionText":  "What do we call the husband of our mother\u0027s sister (mausi)?",
+        "Options":  [
+                        "A) Mausaji (Mausa)",
+                        "B) Mama",
+                        "C) Chacha",
+                        "D) Fufa"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The husband of our mother\u0027s sister (mausi) is called \u0027Mausaji\u0027 or \u0027Mausa\u0027 in Hindi."
+    },
+    {
+        "QuestionText":  "What do we call the wife of our father\u0027s brother (Chacha)?",
+        "Options":  [
+                        "A) Chachi",
+                        "B) Mausi",
+                        "C) Nani",
+                        "D) Bua"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The wife of our father\u0027s younger brother (chacha) is called \u0027Chachi\u0027 in Hindi."
+    },
+    {
+        "QuestionText":  "What is the difference between a joint family and a nuclear family?",
+        "Options":  [
+                        "A) Joint has many relatives living together; nuclear has only parents and children",
+                        "B) They are the same",
+                        "C) Nuclear has more people",
+                        "D) Joint has only grandparents"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A nuclear family has only parents and children. A joint family includes grandparents, parents, children, and often uncles, aunts, and cousins all living together."
+    },
+    {
+        "QuestionText":  "What do we call our father\u0027s sister?",
+        "Options":  [
+                        "A) Paternal Aunt (Bua/Phuphi)",
+                        "B) Mausi",
+                        "C) Nani",
+                        "D) Chachi"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our father\u0027s sister is our paternal aunt, called \u0027Bua\u0027 or \u0027Phuphi\u0027 in Hindi."
+    },
+    {
+        "QuestionText":  "Why do families celebrate festivals together?",
+        "Options":  [
+                        "A) To strengthen bonds, share joy, and maintain cultural traditions",
+                        "B) Only to eat sweets",
+                        "C) To get new clothes",
+                        "D) To watch TV together"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Celebrating festivals together helps families bond, share happiness, honour cultural traditions, and create lasting memories."
+    },
+    {
+        "QuestionText":  "What values should children learn from their family?",
+        "Options":  [
+                        "A) Honesty, respect, kindness, sharing, and responsibility",
+                        "B) Only how to earn money",
+                        "C) Only how to study",
+                        "D) Only how to play sports"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Families teach core values like honesty, respect, kindness, sharing, and responsibility — values that shape character."
+    },
+    {
+        "QuestionText":  "What is the meaning of \u0027respect for elders\u0027?",
+        "Options":  [
+                        "A) Listening to, obeying, and caring for older family members",
+                        "B) Being afraid of them",
+                        "C) Ignoring their advice",
+                        "D) Arguing with them"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Respecting elders means listening to them, following their guidance, and caring for their needs. This is a key value taught in Indian families."
+    },
+    {
+        "QuestionText":  "Riya lives with her parents, two siblings, grandparents, and an uncle. What type of family is this?",
+        "Options":  [
+                        "A) Joint family",
+                        "B) Nuclear family",
+                        "C) Single-parent family",
+                        "D) Extended family (same as joint)"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Riya\u0027s family includes grandparents, parents, children, and an uncle — this is a joint/extended family."
+    },
+    {
+        "QuestionText":  "What are family traditions?",
+        "Options":  [
+                        "A) Customs and practices passed down through generations in a family",
+                        "B) New habits formed recently",
+                        "C) Rules made by the government",
+                        "D) Things learnt in school"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Family traditions are customs, habits, and practices passed from one generation to the next — like how birthdays are celebrated or which festivals are observed."
+    },
+    {
+        "QuestionText":  "What is a blended family?",
+        "Options":  [
+                        "A) A family where parents from previous relationships come together with their children",
+                        "B) A nuclear family",
+                        "C) A joint family",
+                        "D) A single-parent family"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A blended family is formed when two parents, each with children from previous relationships, form a new family together."
+    },
+    {
+        "QuestionText":  "Arjun lives only with his mother after his parents separated. What type of family is this?",
+        "Options":  [
+                        "A) Single-parent family",
+                        "B) Nuclear family",
+                        "C) Joint family",
+                        "D) Blended family"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "A single-parent family is one where only one parent raises the children."
+    },
+    {
+        "QuestionText":  "Why is communication important in a family?",
+        "Options":  [
+                        "A) It helps resolve problems, express feelings, and strengthen relationships",
+                        "B) It helps earn more money",
+                        "C) It is needed only for school work",
+                        "D) It is only for fun"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Open and honest communication helps family members understand each other, resolve conflicts, express love, and work together effectively."
+    },
+    {
+        "QuestionText":  "What do we call the sister of our mother?",
+        "Options":  [
+                        "A) Maternal Aunt (Mausi)",
+                        "B) Bua",
+                        "C) Chachi",
+                        "D) Nani"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Our mother\u0027s sister is our maternal aunt, called \u0027Mausi\u0027 in Hindi."
+    },
+    {
+        "QuestionText":  "Which of the following is an example of a family responsibility?",
+        "Options":  [
+                        "A) Helping with household chores like washing dishes",
+                        "B) Watching TV all day",
+                        "C) Playing video games",
+                        "D) Eating snacks"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "Taking on household responsibilities like washing dishes, sweeping, or helping younger siblings is an important family duty."
+    },
+    {
+        "QuestionText":  "What is empathy in family relationships?",
+        "Options":  [
+                        "A) Understanding and sharing the feelings of another family member",
+                        "B) Getting angry quickly",
+                        "C) Ignoring others\u0027 problems",
+                        "D) Competing with siblings"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Empathy means being able to understand and share the feelings of another person. In families, it means supporting each other during difficult times."
+    },
+    {
+        "QuestionText":  "Priya calls her maternal grandfather \u0027Nana\u0027. What would she call his wife?",
+        "Options":  [
+                        "A) Nani",
+                        "B) Dadi",
+                        "C) Nana\u0027s wife",
+                        "D) Mausi"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "In Hindi, the wife of our Nana (maternal grandfather) is called \u0027Nani\u0027 (maternal grandmother)."
+    },
+    {
+        "QuestionText":  "What do we call a child who has lost both parents?",
+        "Options":  [
+                        "A) Orphan",
+                        "B) Sibling",
+                        "C) Cousin",
+                        "D) Ward"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A child who has lost both parents is called an orphan. Orphanages and foster families provide care for orphans."
+    },
+    {
+        "QuestionText":  "Why is it important to help elderly grandparents?",
+        "Options":  [
+                        "A) Because they have served the family and need care and respect in old age",
+                        "B) Because they give us money",
+                        "C) Only because parents say so",
+                        "D) Because it is a school rule"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Elderly grandparents have given their lives to care for the family. Helping them in old age is an expression of gratitude, love, and respect."
+    },
+    {
+        "QuestionText":  "What is the role of grandparents in the family?",
+        "Options":  [
+                        "A) They share wisdom, stories, and cultural values with grandchildren",
+                        "B) Only to babysit",
+                        "C) Only to cook food",
+                        "D) They have no role"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Grandparents share life experience, cultural values, stories, and unconditional love. They are a vital link between generations."
+    },
+    {
+        "QuestionText":  "What is a family gathering?",
+        "Options":  [
+                        "A) An occasion when many family members meet together",
+                        "B) A school event",
+                        "C) A work meeting",
+                        "D) A neighbourhood party"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "A family gathering is when relatives come together — for festivals, weddings, birthdays, or reunions — to celebrate and strengthen bonds."
+    },
+    {
+        "QuestionText":  "Who in the family usually performs puja and maintains religious traditions in Indian homes?",
+        "Options":  [
+                        "A) Grandparents and parents together",
+                        "B) Only grandmothers",
+                        "C) Only grandfathers",
+                        "D) Only children"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "In most Indian homes, grandparents and parents together observe religious rituals, celebrate festivals, and pass on cultural and spiritual traditions."
+    },
+    {
+        "QuestionText":  "What does the word \u0027nuclear\u0027 in \u0027nuclear family\u0027 mean in this context?",
+        "Options":  [
+                        "A) The core or central unit (parents + children)",
+                        "B) Related to nuclear energy",
+                        "C) Large and extended",
+                        "D) Modern"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "The word \u0027nuclear\u0027 here means the core or central unit of society — just parents and children, without extended family members."
+    },
+    {
+        "QuestionText":  "What is adoption?",
+        "Options":  [
+                        "A) When a family legally takes in and raises a child not born to them",
+                        "B) When a child runs away",
+                        "C) When grandparents raise grandchildren",
+                        "D) When cousins live together"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Adoption is the legal process by which a family takes in a child (not biologically theirs) and raises them as their own, giving them all rights of a natural child."
+    },
+    {
+        "QuestionText":  "What are the rights of children in a family?",
+        "Options":  [
+                        "A) Food, education, healthcare, protection, and love",
+                        "B) Only food",
+                        "C) Only education",
+                        "D) Only protection"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Children have the right to food, shelter, education, healthcare, love, protection from abuse, and a safe environment in which to grow."
+    },
+    {
+        "QuestionText":  "Ravi\u0027s father has two brothers. How many uncles (Chacha/Tau) does Ravi have?",
+        "Options":  [
+                        "A) 2",
+                        "B) 1",
+                        "C) 3",
+                        "D) 0"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Ravi\u0027s father has two brothers — both are Ravi\u0027s uncles. The older one would be Tau and the younger one Chacha."
+    },
+    {
+        "QuestionText":  "Sita\u0027s mother has one sister and one brother. How many aunts and uncles does Sita have on her mother\u0027s side?",
+        "Options":  [
+                        "A) 1 aunt (Mausi) and 1 uncle (Mama)",
+                        "B) 2 aunts",
+                        "C) 2 uncles",
+                        "D) 1 aunt and 2 uncles"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Sita\u0027s mother\u0027s sister is Sita\u0027s Mausi (aunt) and her mother\u0027s brother is Sita\u0027s Mama (uncle). So 1 aunt and 1 uncle."
+    },
+    {
+        "QuestionText":  "Which value does a family demonstrate when they donate food and clothes to the poor?",
+        "Options":  [
+                        "A) Generosity and compassion",
+                        "B) Selfishness",
+                        "C) Pride",
+                        "D) Competition"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Donating to the poor demonstrates generosity (giving willingly) and compassion (caring for those who are suffering). These are values taught in families."
+    },
+    {
+        "QuestionText":  "What is a family charter / family rules?",
+        "Options":  [
+                        "A) A set of agreed-upon rules and values that guide the family\u0027s behaviour",
+                        "B) A government document",
+                        "C) A school timetable",
+                        "D) A shopping list"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Family rules (or a family charter) are agreed-upon guidelines about behaviour, responsibilities, and values that help the family function harmoniously."
+    },
+    {
+        "QuestionText":  "How many generations are represented in a joint family with great-grandparents, grandparents, parents, and children?",
+        "Options":  [
+                        "A) 4 generations",
+                        "B) 2 generations",
+                        "C) 3 generations",
+                        "D) 5 generations"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Olympiad",
+        "Explanation":  "Great-grandparents (1) + Grandparents (2) + Parents (3) + Children (4) = 4 generations living together."
+    },
+    {
+        "QuestionText":  "What do we call the husband of our sister?",
+        "Options":  [
+                        "A) Brother-in-law (Jija/Jijaji)",
+                        "B) Cousin",
+                        "C) Uncle",
+                        "D) Bhaiya"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The husband of our sister is called our brother-in-law. In Hindi, he is called \u0027Jija\u0027 or \u0027Jijaji\u0027."
+    },
+    {
+        "QuestionText":  "What do we call the wife of our brother?",
+        "Options":  [
+                        "A) Sister-in-law (Bhabhi)",
+                        "B) Didi",
+                        "C) Cousin",
+                        "D) Mausi"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Foundation",
+        "Explanation":  "The wife of our brother is our sister-in-law. In Hindi, she is called \u0027Bhabhi\u0027."
+    },
+    {
+        "QuestionText":  "Why do some families choose to live in joint families?",
+        "Options":  [
+                        "A) For shared responsibilities, emotional support, and preserving culture",
+                        "B) Because they cannot afford separate homes only",
+                        "C) Because the government forces them",
+                        "D) Because it is a law"
+                    ],
+        "CorrectAnswer":  "A",
+        "Topic":  "Social Studies",
+        "SubTopic":  "My Family",
+        "Difficulty":  "Advanced",
+        "Explanation":  "Joint families share household responsibilities, provide emotional support, help with childcare, preserve cultural traditions, and offer financial support to members in need."
+    }
+]

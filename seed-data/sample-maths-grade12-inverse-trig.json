@@ -1,0 +1,110 @@
+﻿[
+  {
+    "QuestionText": "The principal value of sin⁻¹(-1/2) is:",
+    "Options": ["A) π/6", "B) -π/6", "C) 5π/6", "D) 7π/6"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Principal Value Branches",
+    "Difficulty": "Foundation",
+    "Explanation": "The range of sin⁻¹ is [-π/2, π/2], and sin(-π/6) = -1/2."
+  },
+  {
+    "QuestionText": "What is the domain of the function f(x) = cos⁻¹(2x - 1)?",
+    "Options": ["A) [0, 1]", "B) [-1, 1]", "C) (-1, 1)", "D) [0, π]"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Domain and Range",
+    "Difficulty": "Advanced",
+    "Explanation": "Solving -1 ≤ 2x - 1 ≤ 1 gives 0 ≤ 2x ≤ 2, resulting in x ∈ [0, 1]."
+  },
+  {
+    "QuestionText": "The value of tan⁻¹(√3) - sec⁻¹(-2) is:",
+    "Options": ["A) π", "B) -π/3", "C) π/3", "D) 2π/3"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Properties of ITF",
+    "Difficulty": "Advanced",
+    "Explanation": "π/3 - (π - π/3) = π/3 - 2π/3 = -π/3."
+  },
+  {
+    "QuestionText": "Simplify: tan⁻¹[ cos x / (1 - sin x) ]",
+    "Options": ["A) π/4 - x/2", "B) π/4 + x/2", "C) x/2", "D) π/2 - x"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Simplification of Expressions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Using half-angle identities, the expression reduces to tan(π/4 + x/2)."
+  },
+  {
+    "QuestionText": "If sin⁻¹x + sin⁻¹y = 2π/3, then cos⁻¹x + cos⁻¹y is:",
+    "Options": ["A) 2π/3", "B) π/3", "C) π/6", "D) π"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Properties of ITF",
+    "Difficulty": "Advanced",
+    "Explanation": "Since sin⁻¹x + cos⁻¹x = π/2, the sum is π - 2π/3 = π/3."
+  },
+  {
+    "QuestionText": "The value of sin[ π/3 - sin⁻¹(-1/2) ] is:",
+    "Options": ["A) 1/2", "B) 1/3", "C) 1/4", "D) 1"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Composition with Trig Functions",
+    "Difficulty": "Foundation",
+    "Explanation": "sin(π/3 - (-π/6)) = sin(π/2) = 1."
+  },
+  {
+    "QuestionText": "The range of cot⁻¹x is:",
+    "Options": ["A) (0, π)", "B) [0, π]", "C) (-π/2, π/2)", "D) R"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Domain and Range",
+    "Difficulty": "Foundation",
+    "Explanation": "The principal branch of cot⁻¹ is the open interval (0, π)."
+  },
+  {
+    "QuestionText": "If 3 sin⁻¹x + cos⁻¹x = π, then x is:",
+    "Options": ["A) 0", "B) 1/2", "C) 1", "D) 1/√2"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Equations involving ITF",
+    "Difficulty": "Olympiad",
+    "Explanation": "2 sin⁻¹x + π/2 = π leads to sin⁻¹x = π/4, so x = 1/√2."
+  },
+  {
+    "QuestionText": "The value of cos⁻¹(cos 13π/6) is:",
+    "Options": ["A) 13π/6", "B) 7π/6", "C) 5π/6", "D) π/6"],
+    "CorrectAnswer": "D",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Properties of ITF",
+    "Difficulty": "Advanced",
+    "Explanation": "cos(2π + π/6) = cos(π/6), which is within the range [0, π]."
+  },
+  {
+    "QuestionText": "The value of tan⁻¹(1) + cos⁻¹(-1/2) + sin⁻¹(-1/2) is:",
+    "Options": ["A) π/4", "B) 3π/4", "C) 5π/4", "D) π"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Principal Value Branches",
+    "Difficulty": "Advanced",
+    "Explanation": "π/4 + 2π/3 - π/6 = 3π/4."
+  },
+  {
+    "QuestionText": "Domain of sin⁻¹(x²) is:",
+    "Options": ["A) [-1, 1]", "B) [0, 1]", "C) [-1, 0]", "D) R"],
+    "CorrectAnswer": "A",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Domain and Range",
+    "Difficulty": "Advanced",
+    "Explanation": "-1 ≤ x² ≤ 1 implies x² ≤ 1, so x ∈ [-1, 1]."
+  },
+  {
+    "QuestionText": "The value of sin⁻¹(sin 5) is:",
+    "Options": ["A) 5", "B) 5 - 2π", "C) 2π - 5", "D) π - 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Maths - Inverse Trigonometric Functions",
+    "SubTopic": "Properties of ITF",
+    "Difficulty": "Olympiad",
+    "Explanation": "5 radians is in the 4th quadrant; we use sin(5 - 2π) to return to the range [-π/2, π/2]."
+  }
+]
