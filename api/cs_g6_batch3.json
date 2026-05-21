@@ -1,0 +1,122 @@
+[
+  {
+    "QuestionText": "Which type of computer is used for complex calculations like weather forecasting?",
+    "Options": ["Microcomputer", "Minicomputer", "Mainframe Computer", "Supercomputer"],
+    "CorrectAnswer": "D",
+    "Topic": "Types of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "Supercomputers are the most powerful computers, used for highly calculation-intensive tasks such as weather forecasting and quantum mechanics."
+  },
+  {
+    "QuestionText": "Which of the following is NOT an operating system?",
+    "Options": ["Linux", "Windows", "Oracle", "macOS"],
+    "CorrectAnswer": "C",
+    "Topic": "Operating Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "Oracle is primarily known for its database management systems, not as a general-purpose operating system."
+  },
+  {
+    "QuestionText": "What does ROM stand for?",
+    "Options": ["Read Only Memory", "Random Only Memory", "Read Open Memory", "Random Open Memory"],
+    "CorrectAnswer": "A",
+    "Topic": "Computer Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "ROM stands for Read-Only Memory, a type of non-volatile memory used in computers."
+  },
+  {
+    "QuestionText": "What is the function of the 'Ctrl + C' shortcut?",
+    "Options": ["Cut", "Copy", "Paste", "Save"],
+    "CorrectAnswer": "B",
+    "Topic": "Software Shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl + C is the standard keyboard shortcut used to copy highlighted text or items to the clipboard."
+  },
+  {
+    "QuestionText": "Which protocol is used to transfer web pages on the internet?",
+    "Options": ["FTP", "SMTP", "HTTP", "POP3"],
+    "CorrectAnswer": "C",
+    "Topic": "Internet and Web",
+    "Difficulty": "Advanced",
+    "Explanation": "HTTP (Hypertext Transfer Protocol) is the foundation of data communication for the World Wide Web."
+  },
+  {
+    "QuestionText": "In a flowchart, what does a parallelogram represent?",
+    "Options": ["Process", "Decision", "Input/Output", "Start/End"],
+    "CorrectAnswer": "C",
+    "Topic": "Algorithms and Flowcharts",
+    "Difficulty": "Advanced",
+    "Explanation": "A parallelogram is used to represent an input or output operation in a flowchart."
+  },
+  {
+    "QuestionText": "Which device connects a computer to a network using a cable?",
+    "Options": ["Router", "Modem", "Switch", "Ethernet Card"],
+    "CorrectAnswer": "D",
+    "Topic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "An Ethernet Card (or Network Interface Card) is a hardware component that connects a computer to a computer network."
+  },
+  {
+    "QuestionText": "Who is known as the 'Father of the Computer'?",
+    "Options": ["Alan Turing", "Charles Babbage", "Bill Gates", "Steve Jobs"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer History",
+    "Difficulty": "Foundation",
+    "Explanation": "Charles Babbage is considered the 'Father of the Computer' for originating the concept of a digital programmable computer."
+  },
+  {
+    "QuestionText": "What does a 'bug' refer to in computer science?",
+    "Options": ["An insect inside the computer case", "A virus", "An error or flaw in a computer program", "A hardware failure"],
+    "CorrectAnswer": "C",
+    "Topic": "Programming Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "A software bug is an error, flaw, failure, or fault in a computer program or system that causes it to produce an incorrect or unexpected result."
+  },
+  {
+    "QuestionText": "Which unit is used to measure the speed of a CPU?",
+    "Options": ["Gigabytes (GB)", "Megapixels (MP)", "Gigahertz (GHz)", "Megabits per second (Mbps)"],
+    "CorrectAnswer": "C",
+    "Topic": "Hardware Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "CPU speed (clock speed) is typically measured in Gigahertz (GHz), representing billions of cycles per second."
+  },
+  {
+    "QuestionText": "What is the purpose of an IP address?",
+    "Options": ["To identify a device on a network", "To encrypt data", "To increase internet speed", "To store passwords securely"],
+    "CorrectAnswer": "A",
+    "Topic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "An IP address uniquely identifies a device on a network, allowing it to communicate with other devices."
+  },
+  {
+    "QuestionText": "Which language is primarily used for styling web pages?",
+    "Options": ["HTML", "Python", "CSS", "C++"],
+    "CorrectAnswer": "C",
+    "Topic": "Web Development",
+    "Difficulty": "Advanced",
+    "Explanation": "CSS (Cascading Style Sheets) is the language used to style an HTML document (e.g., colors, layout, fonts)."
+  },
+  {
+    "QuestionText": "What does 'Wi-Fi' stand for?",
+    "Options": ["Wireless Fidelity", "Wired Fiber", "Wireless Fiber", "None of the above"],
+    "CorrectAnswer": "A",
+    "Topic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "Wi-Fi is a trademarked phrase that means IEEE 802.11x. The most widely accepted meaning is 'Wireless Fidelity'."
+  },
+  {
+    "QuestionText": "What is the main function of an antivirus software?",
+    "Options": ["To speed up the computer", "To detect and remove malicious software", "To create backups of files", "To design graphics"],
+    "CorrectAnswer": "B",
+    "Topic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Antivirus software is designed to detect, prevent, and take action to disarm or remove malicious software (malware)."
+  },
+  {
+    "QuestionText": "Which component is responsible for processing graphics and images?",
+    "Options": ["CPU", "GPU", "RAM", "ROM"],
+    "CorrectAnswer": "B",
+    "Topic": "Hardware Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "The Graphics Processing Unit (GPU) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images."
+  }
+]

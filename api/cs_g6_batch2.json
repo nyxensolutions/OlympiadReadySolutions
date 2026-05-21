@@ -1,0 +1,162 @@
+[
+  {
+    "QuestionText": "What does LAN stand for?",
+    "Options": ["Local Area Network", "Large Area Network", "Light Area Network", "Local Access Network"],
+    "CorrectAnswer": "A",
+    "Topic": "Networking",
+    "Difficulty": "Foundation",
+    "Explanation": "LAN stands for Local Area Network, which connects computers within a limited area like a home or office."
+  },
+  {
+    "QuestionText": "Which key is used to delete characters to the left of the cursor?",
+    "Options": ["Delete key", "Backspace key", "Shift key", "Esc key"],
+    "CorrectAnswer": "B",
+    "Topic": "Keyboard Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "The Backspace key deletes text to the left of the cursor, while the Delete key deletes text to the right."
+  },
+  {
+    "QuestionText": "Which of these is NOT a web browser?",
+    "Options": ["Google Chrome", "Mozilla Firefox", "Microsoft Word", "Apple Safari"],
+    "CorrectAnswer": "C",
+    "Topic": "Internet and Web",
+    "Difficulty": "Foundation",
+    "Explanation": "Microsoft Word is a word processor, not a web browser."
+  },
+  {
+    "QuestionText": "In binary code, what does the number '1' typically represent?",
+    "Options": ["Off state", "On state", "Error", "Pause"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Fundamentals",
+    "Difficulty": "Advanced",
+    "Explanation": "In binary, '1' generally represents an 'On' or 'True' state, and '0' represents an 'Off' or 'False' state."
+  },
+  {
+    "QuestionText": "What is the function of the ALU inside a CPU?",
+    "Options": ["To store data permanently", "To control the cooling fan", "To perform arithmetic and logical operations", "To display graphics on the screen"],
+    "CorrectAnswer": "C",
+    "Topic": "Hardware Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "ALU stands for Arithmetic Logic Unit. It handles all mathematical calculations and logical comparisons."
+  },
+  {
+    "QuestionText": "Which memory is directly accessible by the CPU?",
+    "Options": ["Hard Disk Drive", "Optical Drive", "Flash Drive", "RAM"],
+    "CorrectAnswer": "D",
+    "Topic": "Computer Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "Random Access Memory (RAM) is the primary memory that the CPU can access directly to execute instructions."
+  },
+  {
+    "QuestionText": "What does a firewall do in a computer network?",
+    "Options": ["Prevents unauthorized access", "Speeds up the internet", "Stores large files", "Prints network documents"],
+    "CorrectAnswer": "A",
+    "Topic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules to prevent unauthorized access."
+  },
+  {
+    "QuestionText": "What is the shortcut to 'Undo' the last action in most Windows programs?",
+    "Options": ["Ctrl + Y", "Ctrl + Z", "Ctrl + X", "Ctrl + S"],
+    "CorrectAnswer": "B",
+    "Topic": "Software Shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl + Z is the universal shortcut to undo a mistake."
+  },
+  {
+    "QuestionText": "Which programming language is known for its snake-related name and is widely used for artificial intelligence?",
+    "Options": ["Java", "C++", "Python", "Ruby"],
+    "CorrectAnswer": "C",
+    "Topic": "Programming Basics",
+    "Difficulty": "Foundation",
+    "Explanation": "Python is a popular programming language, widely used in AI, web development, and data science."
+  },
+  {
+    "QuestionText": "What is an 'Algorithm' in computer science?",
+    "Options": ["A type of computer virus", "A step-by-step set of instructions to solve a problem", "A hardware component", "A graphical user interface"],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Flowcharts",
+    "Difficulty": "Advanced",
+    "Explanation": "An algorithm is a finite sequence of well-defined instructions used to solve a class of problems or perform a computation."
+  },
+  {
+    "QuestionText": "Which HTML tag is used for the largest heading?",
+    "Options": ["<head>", "<h6>", "<h1>", "<heading>"],
+    "CorrectAnswer": "C",
+    "Topic": "Introduction to HTML",
+    "Difficulty": "Olympiad",
+    "Explanation": "In HTML, <h1> defines the most important and largest heading, while <h6> is the smallest."
+  },
+  {
+    "QuestionText": "What does phishing refer to?",
+    "Options": ["A technique to catch fish using computers", "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity", "Installing new hardware", "Writing a computer program"],
+    "CorrectAnswer": "B",
+    "Topic": "Cybersecurity",
+    "Difficulty": "Advanced",
+    "Explanation": "Phishing is a cybercrime where attackers trick individuals into providing sensitive data like passwords or credit card numbers."
+  },
+  {
+    "QuestionText": "What is the main purpose of an IP address?",
+    "Options": ["To identify a device on a network", "To measure internet speed", "To store passwords", "To block viruses"],
+    "CorrectAnswer": "A",
+    "Topic": "Networking",
+    "Difficulty": "Olympiad",
+    "Explanation": "An IP (Internet Protocol) address is a unique string of numbers separated by periods that identifies each computer using the Internet Protocol to communicate over a network."
+  },
+  {
+    "QuestionText": "Which device is used to convert physical pictures into digital format?",
+    "Options": ["Printer", "Scanner", "Monitor", "Keyboard"],
+    "CorrectAnswer": "B",
+    "Topic": "Hardware Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A scanner is an input device that optically 'reads' an image and converts it into a digital signal."
+  },
+  {
+    "QuestionText": "What file extension is commonly used for a plain text file?",
+    "Options": [".txt", ".docx", ".pdf", ".exe"],
+    "CorrectAnswer": "A",
+    "Topic": "Software Basics",
+    "Difficulty": "Foundation",
+    "Explanation": ".txt is the standard file extension for plain text files."
+  },
+  {
+    "QuestionText": "Which of these is considered 'Software'?",
+    "Options": ["Mouse", "Monitor", "Operating System", "Motherboard"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Fundamentals",
+    "Difficulty": "Foundation",
+    "Explanation": "An Operating System is a collection of software that manages computer hardware resources. The others are physical hardware."
+  },
+  {
+    "QuestionText": "What is 'Cloud Computing'?",
+    "Options": ["Computing related to weather forecasting", "Storing and accessing data over the Internet instead of your computer's hard drive", "A new type of physical server", "A computer that operates in the sky"],
+    "CorrectAnswer": "B",
+    "Topic": "Internet and Web",
+    "Difficulty": "Advanced",
+    "Explanation": "Cloud computing is the delivery of computing services (including servers, storage, databases) over the Internet ('the cloud')."
+  },
+  {
+    "QuestionText": "In scratch or basic programming, what is a 'Loop'?",
+    "Options": ["A circle drawn on the screen", "A sequence of instructions that is continually repeated until a certain condition is reached", "A type of variable", "An error in the code"],
+    "CorrectAnswer": "B",
+    "Topic": "Programming Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "A loop is a programming structure that repeats a sequence of instructions until a specific condition is met."
+  },
+  {
+    "QuestionText": "What is the function of a Motherboard?",
+    "Options": ["It cools down the computer.", "It holds and allows communication between crucial electronic components of a system.", "It provides power to the whole building.", "It acts as a permanent storage device for large files."],
+    "CorrectAnswer": "B",
+    "Topic": "Hardware Basics",
+    "Difficulty": "Olympiad",
+    "Explanation": "The motherboard is the main printed circuit board found in general-purpose computers. It holds and allows communication between components like the CPU and memory."
+  },
+  {
+    "QuestionText": "Which of the following is an output device?",
+    "Options": ["Webcam", "Microphone", "Projector", "Scanner"],
+    "CorrectAnswer": "C",
+    "Topic": "Hardware Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A projector is an output device that projects an image (or moving images) onto a surface, commonly a projection screen."
+  }
+]

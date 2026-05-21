@@ -1,0 +1,122 @@
+[
+  {
+    "QuestionText": "If A denotes +, B denotes -, C denotes × and D denotes ÷, then what will be the value of 18 C 14 A 6 B 16 D 4?",
+    "Options": ["258", "254", "252", "260"],
+    "CorrectAnswer": "B",
+    "Topic": "Mathematical Operations",
+    "Difficulty": "Advanced",
+    "Explanation": "Expression: 18 × 14 + 6 - 16 ÷ 4. BODMAS: 252 + 6 - 4 = 258 - 4 = 254."
+  },
+  {
+    "QuestionText": "Which letter is midway between the 9th letter from the left and the 10th letter from the right in the English alphabet?",
+    "Options": ["M", "N", "O", "P"],
+    "CorrectAnswer": "A",
+    "Topic": "Alphabet Test",
+    "Difficulty": "Advanced",
+    "Explanation": "9th letter from left is I (9). 10th letter from right is Q (17). The midway letter is (9+17)/2 = 26/2 = 13, which is M."
+  },
+  {
+    "QuestionText": "If 'sky' is called 'sea', 'sea' is called 'water', 'water' is called 'air', 'air' is called 'cloud' and 'cloud' is called 'river', then what do we drink when thirsty?",
+    "Options": ["Sky", "Sea", "Water", "Air"],
+    "CorrectAnswer": "D",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "We drink water when thirsty. Since 'water' is called 'air' in this code language, the answer is Air."
+  },
+  {
+    "QuestionText": "Pointing to a photograph, a person says, 'I have no brother or sister but that man's father is my father's son.' Whose photograph is it?",
+    "Options": ["His own", "His son's", "His father's", "His nephew's"],
+    "CorrectAnswer": "B",
+    "Topic": "Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Since the speaker has no siblings, 'my father's son' is the speaker himself. So, the man's father is the speaker. Therefore, the photograph is of his son."
+  },
+  {
+    "QuestionText": "Find the next term in the series: B2D, E3H, I4M, ?",
+    "Options": ["N5R", "N5S", "O5S", "N5T"],
+    "CorrectAnswer": "A",
+    "Topic": "Number and Letter Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "Letters: B(2)->E(5)[+3], E(5)->I(9)[+4], I(9)->N(14)[+5]. Next letter is N. D(4)->H(8)[+4], H(8)->M(13)[+5], M(13)->R(18)[+6]. Next is R. Number is 2, 3, 4, 5. So N5R."
+  },
+  {
+    "QuestionText": "Find the odd one out.",
+    "Options": ["Triangle", "Square", "Circle", "Rectangle"],
+    "CorrectAnswer": "C",
+    "Topic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "A circle is bounded by a curve, while the other figures are bounded by straight line segments."
+  },
+  {
+    "QuestionText": "Complete the series: 3, 7, 15, 31, 63, ?",
+    "Options": ["92", "115", "127", "131"],
+    "CorrectAnswer": "C",
+    "Topic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is multiply by 2 and add 1. 63 * 2 + 1 = 126 + 1 = 127."
+  },
+  {
+    "QuestionText": "A clock shows 4:30. What is the angle between the hour and minute hands?",
+    "Options": ["45 degrees", "60 degrees", "30 degrees", "90 degrees"],
+    "CorrectAnswer": "A",
+    "Topic": "Clocks",
+    "Difficulty": "Advanced",
+    "Explanation": "Angle = |30H - 5.5M| = |30(4) - 5.5(30)| = |120 - 165| = 45 degrees."
+  },
+  {
+    "QuestionText": "In a row of trees, one tree is the 5th from either end of the row. How many trees are there in the row?",
+    "Options": ["8", "9", "10", "11"],
+    "CorrectAnswer": "B",
+    "Topic": "Ranking Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Total = (Left Position + Right Position) - 1 = (5 + 5) - 1 = 9."
+  },
+  {
+    "QuestionText": "Doctor : Patient :: Lawyer : ?",
+    "Options": ["Customer", "Client", "Accused", "Magistrate"],
+    "CorrectAnswer": "B",
+    "Topic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "A doctor serves a patient. A lawyer serves a client."
+  },
+  {
+    "QuestionText": "Choose the word which is least like the other words in the group.",
+    "Options": ["Zebra", "Lion", "Tiger", "Horse"],
+    "CorrectAnswer": "D",
+    "Topic": "Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Horse is a domestic animal, while the rest are wild animals."
+  },
+  {
+    "QuestionText": "If in a certain code, COVET is written as FRYHW, which word would be written as SHDUO?",
+    "Options": ["PEARL", "REPAY", "PRIDE", "POWER"],
+    "CorrectAnswer": "A",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "COVET to FRYHW is a +3 shift. To find the original word for SHDUO, we subtract 3. S(-3)=P, H(-3)=E, D(-3)=A, U(-3)=R, O(-3)=L. So PEARL."
+  },
+  {
+    "QuestionText": "A man walks 5 km toward South and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?",
+    "Options": ["West", "South", "North-East", "South-West"],
+    "CorrectAnswer": "D",
+    "Topic": "Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "He goes South (5km), turns right (West, 3km), turns left (South, 5km). He is South and West of his starting point, so South-West."
+  },
+  {
+    "QuestionText": "Insert the missing character: 1, 4, 9, 16, 25, 36, ?",
+    "Options": ["49", "54", "64", "48"],
+    "CorrectAnswer": "A",
+    "Topic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "These are squares of natural numbers. Next is 7^2 = 49."
+  },
+  {
+    "QuestionText": "If 'white' is called 'blue', 'blue' is called 'red', 'red' is called 'yellow', 'yellow' is called 'green', 'green' is called 'black', 'black' is called 'violet' and 'violet' is called 'orange', what would be the colour of human blood?",
+    "Options": ["Red", "Yellow", "Green", "Blue"],
+    "CorrectAnswer": "B",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The color of human blood is 'red'. In this code, 'red' is called 'yellow'."
+  }
+]

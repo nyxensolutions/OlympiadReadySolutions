@@ -1,0 +1,122 @@
+[
+  {
+    "QuestionText": "Which part of the computer is considered the 'brain' of the system?",
+    "Options": ["Monitor", "Central Processing Unit (CPU)", "Hard Drive", "Keyboard"],
+    "CorrectAnswer": "B",
+    "Topic": "Fundamentals of Computers",
+    "Difficulty": "Foundation",
+    "Explanation": "The CPU is the primary component of a computer that acts as its 'brain', processing instructions and managing the flow of information."
+  },
+  {
+    "QuestionText": "What does the abbreviation 'URL' stand for in the context of the Internet?",
+    "Options": ["Universal Resource Locator", "Uniform Resource Locator", "Uniform Reference Link", "Universal Reference Link"],
+    "CorrectAnswer": "B",
+    "Topic": "Internet and Web",
+    "Difficulty": "Foundation",
+    "Explanation": "URL stands for Uniform Resource Locator, which is the global address of documents and other resources on the World Wide Web."
+  },
+  {
+    "QuestionText": "Which of the following is an example of an Operating System?",
+    "Options": ["Microsoft Word", "Google Chrome", "Windows 11", "Adobe Photoshop"],
+    "CorrectAnswer": "C",
+    "Topic": "Operating Systems",
+    "Difficulty": "Foundation",
+    "Explanation": "Windows 11 is an operating system. Word, Chrome, and Photoshop are application software."
+  },
+  {
+    "QuestionText": "What is the primary function of a modem?",
+    "Options": ["To print documents", "To scan images", "To modulate and demodulate signals for internet connection", "To play audio files"],
+    "CorrectAnswer": "C",
+    "Topic": "Networking",
+    "Difficulty": "Advanced",
+    "Explanation": "A modem modulates outgoing digital signals from a computer into analog signals for a telephone line and demodulates incoming analog signals."
+  },
+  {
+    "QuestionText": "Which keyboard shortcut is used to copy selected text in most Windows applications?",
+    "Options": ["Ctrl + V", "Ctrl + X", "Ctrl + C", "Ctrl + P"],
+    "CorrectAnswer": "C",
+    "Topic": "Software Shortcuts",
+    "Difficulty": "Foundation",
+    "Explanation": "Ctrl + C is the universal shortcut for copying selected items to the clipboard."
+  },
+  {
+    "QuestionText": "In MS Excel, what is a single rectangular box where a row and column intersect called?",
+    "Options": ["Table", "Box", "Grid", "Cell"],
+    "CorrectAnswer": "D",
+    "Topic": "MS Excel",
+    "Difficulty": "Foundation",
+    "Explanation": "A cell is the intersection of a row and a column in a spreadsheet, used for entering data."
+  },
+  {
+    "QuestionText": "Which of the following is a volatile memory?",
+    "Options": ["ROM", "Hard Disk", "RAM", "Flash Drive"],
+    "CorrectAnswer": "C",
+    "Topic": "Computer Memory",
+    "Difficulty": "Advanced",
+    "Explanation": "RAM (Random Access Memory) is volatile, meaning it loses its data when the computer's power is turned off."
+  },
+  {
+    "QuestionText": "What type of software is designed to harm or exploit any programmable device or network?",
+    "Options": ["Utility Software", "Firmware", "Malware", "Open Source Software"],
+    "CorrectAnswer": "C",
+    "Topic": "Cybersecurity",
+    "Difficulty": "Foundation",
+    "Explanation": "Malware (short for malicious software) includes viruses, worms, and trojans designed to cause damage to a computer or network."
+  },
+  {
+    "QuestionText": "In flowcharting, what shape is typically used to represent a decision?",
+    "Options": ["Rectangle", "Oval", "Parallelogram", "Diamond"],
+    "CorrectAnswer": "D",
+    "Topic": "Algorithms and Flowcharts",
+    "Difficulty": "Advanced",
+    "Explanation": "A diamond shape in a flowchart represents a decision point where the path splits based on a Yes/No or True/False condition."
+  },
+  {
+    "QuestionText": "Which HTML tag is used to create a hyperlink?",
+    "Options": ["<link>", "<a>", "<href>", "<hyperlink>"],
+    "CorrectAnswer": "B",
+    "Topic": "Introduction to HTML",
+    "Difficulty": "Olympiad",
+    "Explanation": "The <a> (anchor) tag is used in HTML to define a hyperlink, linking one page to another using the 'href' attribute."
+  },
+  {
+    "QuestionText": "What does 'GUI' stand for?",
+    "Options": ["General User Interface", "Graphical User Interface", "Global Unified Interface", "Graphical Unified Internet"],
+    "CorrectAnswer": "B",
+    "Topic": "Operating Systems",
+    "Difficulty": "Advanced",
+    "Explanation": "GUI stands for Graphical User Interface, a type of user interface that allows users to interact with electronic devices through graphical icons."
+  },
+  {
+    "QuestionText": "Which device is primarily used to input audio into a computer?",
+    "Options": ["Speaker", "Microphone", "Printer", "Monitor"],
+    "CorrectAnswer": "B",
+    "Topic": "Hardware Devices",
+    "Difficulty": "Foundation",
+    "Explanation": "A microphone converts sound waves into electrical signals, acting as an input device for audio."
+  },
+  {
+    "QuestionText": "In Python, which function is used to output text to the screen?",
+    "Options": ["echo()", "write()", "print()", "output()"],
+    "CorrectAnswer": "C",
+    "Topic": "Programming Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "The print() function is the standard way to display text or variables on the screen in Python."
+  },
+  {
+    "QuestionText": "1 Gigabyte (GB) is equal to how many Megabytes (MB)?",
+    "Options": ["1000 MB", "1024 MB", "1048 MB", "10 MB"],
+    "CorrectAnswer": "B",
+    "Topic": "Computer Memory",
+    "Difficulty": "Foundation",
+    "Explanation": "In traditional computing binary systems, 1 Gigabyte (GB) is equal to 1024 Megabytes (MB)."
+  },
+  {
+    "QuestionText": "What is the process of finding and fixing errors in a computer program called?",
+    "Options": ["Compiling", "Executing", "Debugging", "Linking"],
+    "CorrectAnswer": "C",
+    "Topic": "Programming Basics",
+    "Difficulty": "Advanced",
+    "Explanation": "Debugging is the routine process of locating and removing computer program bugs, errors, or abnormalities."
+  }
+]

@@ -63,12 +63,11 @@ export function AppHeader({ active }: { active?: ActivePage }) {
 
         <SignedIn>
           {/* Desktop nav */}
-          <nav className="hidden flex-1 items-center justify-start gap-2 lg:gap-3 sm:flex ml-6 lg:ml-10 overflow-hidden">
+          <nav className="hidden flex-1 items-center justify-start gap-1 lg:gap-2 sm:flex ml-4 lg:ml-6">
             <NavLink href="/" label="Practice" icon={<Target className="h-3.5 w-3.5" />} active={active === "home"} />
             <NavLink href="/topics" label="Syllabus Map" icon={<BookOpen className="h-3.5 w-3.5" />} active={active === "topics"} />
             <NavLink href="/dashboard" label="Dashboard" icon={<LayoutDashboard className="h-3.5 w-3.5" />} active={active === "dashboard"} />
             <NavLink href="/practice-papers" label="Question Papers" icon={<FileText className="h-3.5 w-3.5" />} active={active === "practice-papers"} accent />
-            <NavLink href="/olympiad-dates" label="Dates" icon={<Calendar className="h-3.5 w-3.5" />} active={active === "olympiad-dates"} />
             <NavLink href="/weekly-exam" label="Weekly Exam" icon={<Crown className="h-3.5 w-3.5" />} active={active === "weekly-exam"} amber />
             <NavLink href="/spell-bee" label="Spell Bee" icon={<MicVocal className="h-3.5 w-3.5" />} active={active === "spell-bee"} violet />
           </nav>
@@ -81,18 +80,18 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               type="button"
               onClick={() => setUpgradeOpen(true)}
               title="Upgrade to Pro"
-              className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-achiever-300 bg-achiever-50 px-2.5 py-1.5 text-xs font-semibold text-achiever-700 transition hover:bg-achiever-100 hover:shadow-sm whitespace-nowrap"
+              className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-achiever-300 bg-achiever-50 px-3 py-1.5 text-xs font-semibold text-achiever-700 transition hover:bg-achiever-100 hover:shadow-sm shrink-0 whitespace-nowrap"
             >
-              <Crown className="h-3.5 w-3.5" />
+              <Crown className="h-3.5 w-3.5 shrink-0" />
               Go Pro
             </button>
             <button
               type="button"
               onClick={() => setPurchasesOpen(true)}
               title="My Purchases"
-              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-50 hover:text-brand-600 whitespace-nowrap"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-50 hover:text-brand-600 shrink-0 whitespace-nowrap"
             >
-              <Receipt className="h-4 w-4" />
+              <Receipt className="h-4 w-4 shrink-0" />
               <span className="hidden lg:inline text-xs">Purchases</span>
             </button>
             <UserButton afterSignOutUrl="/" />
@@ -140,7 +139,6 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <MobileNavLink href="/topics" label="Syllabus Map" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/dashboard" label="Dashboard" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/practice-papers" label="Practice Papers" onClick={() => setMobileOpen(false)} />
-              <MobileNavLink href="/olympiad-dates" label="Olympiad Dates" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/weekly-exam" label="Weekly Exam" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/spell-bee" label="Spell Bee 🐝" onClick={() => setMobileOpen(false)} />
               <button
@@ -174,7 +172,7 @@ function NavLink({
 }: {
   href: string; label: string; icon?: React.ReactNode; active?: boolean; accent?: boolean; amber?: boolean; violet?: boolean;
 }) {
-  const base = "inline-flex items-center gap-1 rounded-lg px-2 py-1.5 text-[13px] font-medium transition whitespace-nowrap";
+  const base = "inline-flex shrink-0 items-center gap-1 rounded-lg px-2 py-1.5 text-[13px] font-medium transition whitespace-nowrap";
   const cls = active
     ? violet
       ? `${base} bg-violet-50 text-violet-700`

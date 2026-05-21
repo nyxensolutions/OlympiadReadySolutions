@@ -1,0 +1,162 @@
+[
+  {
+    "QuestionText": "If A is the brother of B; B is the sister of C; and C is the father of D, how is D related to A?",
+    "Options": ["Brother", "Sister", "Nephew", "Cannot be determined"],
+    "CorrectAnswer": "D",
+    "Topic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "D's gender is not specified in the question, so D could be either a nephew or a niece to A."
+  },
+  {
+    "QuestionText": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+    "Options": ["Mother", "Grandmother", "Sister", "Aunt"],
+    "CorrectAnswer": "A",
+    "Topic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "The only daughter of the woman's mother is the woman herself. Therefore, the woman is the mother of the man."
+  },
+  {
+    "QuestionText": "If south-east becomes north, north-east becomes west and so on. What will west become?",
+    "Options": ["North-east", "North-west", "South-east", "South-west"],
+    "CorrectAnswer": "C",
+    "Topic": "Direction Sense Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "The directions are rotated 135 degrees counter-clockwise. Therefore, west becomes south-east."
+  },
+  {
+    "QuestionText": "A man is facing west. He turns 45 degrees in the clockwise direction and then another 180 degrees in the same direction and then 270 degrees in the anti-clockwise direction. Which direction is he facing now?",
+    "Options": ["South", "North-west", "West", "South-west"],
+    "CorrectAnswer": "D",
+    "Topic": "Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Total clockwise turns = 45 + 180 = 225 degrees. Total anti-clockwise turns = 270 degrees. Net movement = 270 - 225 = 45 degrees anti-clockwise. Starting from West, a 45-degree anti-clockwise turn points to South-west."
+  },
+  {
+    "QuestionText": "Find the odd one out from the given alternatives.",
+    "Options": ["121", "1331", "144", "169"],
+    "CorrectAnswer": "B",
+    "Topic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "121, 144, and 169 are perfect squares (11^2, 12^2, 13^2). 1331 is a perfect cube (11^3)."
+  },
+  {
+    "QuestionText": "Choose the odd one out.",
+    "Options": ["Guitar", "Violin", "Flute", "Sitar"],
+    "CorrectAnswer": "C",
+    "Topic": "Classification",
+    "Difficulty": "Foundation",
+    "Explanation": "Flute is a wind instrument, while the others are string instruments."
+  },
+  {
+    "QuestionText": "If in a certain language, MADRAS is coded as NBESBT, how is BOMBAY coded in that code?",
+    "Options": ["CPNCBX", "CPNCBZ", "CPOCBZ", "CQOCBZ"],
+    "CorrectAnswer": "B",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Foundation",
+    "Explanation": "Each letter is shifted by +1. B(+1)=C, O(+1)=P, M(+1)=N, B(+1)=C, A(+1)=B, Y(+1)=Z -> CPNCBZ."
+  },
+  {
+    "QuestionText": "If PAINT is coded as 74128 and EXCEL is coded as 93596, then how would you encode ACCEPT?",
+    "Options": ["455978", "544978", "455378", "733961"],
+    "CorrectAnswer": "A",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "Direct letter substitution: A=4, C=5, E=9, P=7, T=8. So, ACCEPT is 455978."
+  },
+  {
+    "QuestionText": "Cup is to coffee as bowl is to _____.",
+    "Options": ["Dish", "Soup", "Spoon", "Food"],
+    "CorrectAnswer": "B",
+    "Topic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "Coffee is typically served in a cup. Soup is typically served in a bowl."
+  },
+  {
+    "QuestionText": "Symphony : Composer :: Painting : ?",
+    "Options": ["Colors", "Painter", "Canvas", "Art"],
+    "CorrectAnswer": "B",
+    "Topic": "Analogy",
+    "Difficulty": "Foundation",
+    "Explanation": "A symphony is created by a composer. A painting is created by a painter."
+  },
+  {
+    "QuestionText": "Arrange the following in a logical sequence: 1. Consultation 2. Illness 3. Doctor 4. Treatment 5. Recovery",
+    "Options": ["2, 3, 1, 4, 5", "2, 3, 4, 1, 5", "4, 3, 1, 2, 5", "5, 1, 4, 3, 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Sequence of Words",
+    "Difficulty": "Foundation",
+    "Explanation": "First occurs Illness (2), then you go to the Doctor (3), have a Consultation (1), receive Treatment (4), and finally achieve Recovery (5)."
+  },
+  {
+    "QuestionText": "Arrange the given words in the sequence in which they occur in the dictionary: 1. Preach 2. Praise 3. Precinct 4. Precept 5. Precede",
+    "Options": ["2, 1, 5, 4, 3", "2, 1, 3, 4, 5", "2, 5, 1, 4, 3", "1, 2, 5, 4, 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Sequence of Words",
+    "Difficulty": "Advanced",
+    "Explanation": "Alphabetical order: Praise (2), Preach (1), Precede (5), Precept (4), Precinct (3)."
+  },
+  {
+    "QuestionText": "Rohan ranks seventh from the top and twenty-sixth from the bottom in a class. How many students are there in the class?",
+    "Options": ["31", "32", "33", "34"],
+    "CorrectAnswer": "B",
+    "Topic": "Ranking and Time Sequence Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Total students = (Rank from top + Rank from bottom) - 1. Total = (7 + 26) - 1 = 33 - 1 = 32."
+  },
+  {
+    "QuestionText": "Find the missing number in the sequence: 4, 9, 16, 25, 36, ?",
+    "Options": ["49", "47", "50", "64"],
+    "CorrectAnswer": "A",
+    "Topic": "Number Series",
+    "Difficulty": "Foundation",
+    "Explanation": "The sequence consists of perfect squares: 2^2, 3^2, 4^2, 5^2, 6^2. The next is 7^2 = 49."
+  },
+  {
+    "QuestionText": "Choose the alternative which closely resembles the water image of the given word: 'NUKE'",
+    "Options": ["NUKF", "EUKN", "NnKE", "ИПKЕ"],
+    "CorrectAnswer": "D",
+    "Topic": "Water Images",
+    "Difficulty": "Advanced",
+    "Explanation": "In a water image, the top and bottom are inverted. 'N' inverted looks like И, 'U' becomes like a wide 'n', 'K' stays roughly the same, 'E' stays the same."
+  },
+  {
+    "QuestionText": "How many squares are there in a standard 4x4 grid (like a checkerboard but smaller)?",
+    "Options": ["16", "24", "30", "32"],
+    "CorrectAnswer": "C",
+    "Topic": "Geometrical Shapes",
+    "Difficulty": "Olympiad",
+    "Explanation": "The number of squares in an n x n grid is sum of squares up to n. 1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30."
+  },
+  {
+    "QuestionText": "A is B's sister. C is B's mother. D is C's father. E is D's mother. Then, how is A related to D?",
+    "Options": ["Grandmother", "Grandfather", "Daughter", "Granddaughter"],
+    "CorrectAnswer": "D",
+    "Topic": "Blood Relations",
+    "Difficulty": "Advanced",
+    "Explanation": "A is B's sister and C is B's mother, so C is A's mother. D is C's father, so D is A's grandfather. Thus, A is D's granddaughter."
+  },
+  {
+    "QuestionText": "If the day before yesterday was Thursday, when will Sunday be?",
+    "Options": ["Today", "Tomorrow", "Day after tomorrow", "Two days after tomorrow"],
+    "CorrectAnswer": "B",
+    "Topic": "Ranking and Time Sequence Test",
+    "Difficulty": "Advanced",
+    "Explanation": "If the day before yesterday was Thursday, today is Saturday. Therefore, Sunday will be Tomorrow."
+  },
+  {
+    "QuestionText": "Which letter will be the 6th to the right of the 14th letter from the left in the English alphabet?",
+    "Options": ["T", "U", "V", "S"],
+    "CorrectAnswer": "A",
+    "Topic": "Alphabet Test",
+    "Difficulty": "Advanced",
+    "Explanation": "14th letter from the left is N. The 6th letter to the right of N is the 20th letter, which is T. Or 14 + 6 = 20 = T."
+  },
+  {
+    "QuestionText": "In a certain code, TRIPPLE is written as SQHOOKD. How is DISPOSE written in that code?",
+    "Options": ["CHRONRD", "DSOESPI", "CHRONQD", "CHQONRD"],
+    "CorrectAnswer": "A",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "Each letter in the word is moved one step backward to obtain the corresponding letter of the code. D(-1)=C, I(-1)=H, S(-1)=R, P(-1)=O, O(-1)=N, S(-1)=R, E(-1)=D. So, CHRONRD."
+  }
+]

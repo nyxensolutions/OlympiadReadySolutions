@@ -83,13 +83,16 @@ export default function SpellBeePage() {
 function SpellBeeBody() {
   const { getToken, isLoaded, isSignedIn } = useAuth();
 
-  const [grade, setGrade] = useState(() => {
-    if (typeof window !== "undefined") {
-      const stored = localStorage.getItem("olympiad_grade");
-      return stored ? Number(stored) : 1;
+  const [grade, setGrade] = useState(1);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    const stored = localStorage.getItem("olympiad_grade");
+    if (stored) {
+      setGrade(Number(stored));
     }
-    return 1;
-  });
+  }, []);
   
   const handleGradeChange = (newGrade: number) => {
     setGrade(newGrade);
