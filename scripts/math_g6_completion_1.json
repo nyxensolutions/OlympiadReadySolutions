@@ -1,0 +1,202 @@
+[
+  {
+    "QuestionText": "Which of the following is an equation?",
+    "Options": ["3x + 5", "x > 2", "4y - 7 = 9", "12 < 5z"],
+    "CorrectAnswer": "C",
+    "Topic": "Algebra",
+    "Difficulty": "Foundation",
+    "Explanation": "An equation must have an 'equal to' (=) sign showing that two expressions are equal. '4y - 7 = 9' is an equation."
+  },
+  {
+    "QuestionText": "If the side of a regular hexagon is denoted by 's', express the perimeter of the hexagon using 's'.",
+    "Options": ["s + 6", "6s", "6 + s", "s / 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Algebra",
+    "Difficulty": "Foundation",
+    "Explanation": "A regular hexagon has 6 equal sides. Perimeter = s + s + s + s + s + s = 6s."
+  },
+  {
+    "QuestionText": "Write an algebraic expression for '5 times x is subtracted from 12'.",
+    "Options": ["5x - 12", "12 - 5x", "5(x - 12)", "12(x - 5)"],
+    "CorrectAnswer": "B",
+    "Topic": "Algebra",
+    "Difficulty": "Foundation",
+    "Explanation": "'5 times x' is 5x. Subtracting this from 12 gives '12 - 5x'."
+  },
+  {
+    "QuestionText": "Aarav is 4 years older than his brother. If his brother's age is 'y' years, what is Aarav's age?",
+    "Options": ["y - 4", "4y", "y + 4", "4 - y"],
+    "CorrectAnswer": "C",
+    "Topic": "Algebra",
+    "Difficulty": "Foundation",
+    "Explanation": "Aarav is 4 years older, meaning we add 4 to his brother's age. So, Aarav's age = y + 4."
+  },
+  {
+    "QuestionText": "Solve the equation: p / 3 = 15",
+    "Options": ["5", "18", "45", "12"],
+    "CorrectAnswer": "C",
+    "Topic": "Algebra",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiply both sides by 3 to isolate p: p = 15 × 3 = 45."
+  },
+  {
+    "QuestionText": "Rohan's mother is twice as old as Rohan. If Rohan's mother is 42 years old, find Rohan's age using an equation.",
+    "Options": ["21", "84", "40", "44"],
+    "CorrectAnswer": "A",
+    "Topic": "Algebra",
+    "Difficulty": "Advanced",
+    "Explanation": "Let Rohan's age be r. Equation: 2r = 42. r = 42 / 2 = 21."
+  },
+  {
+    "QuestionText": "A bus travels at v km per hour. It is going from Delhi to Jaipur. After the bus has travelled 5 hours, Jaipur is still 20 km away. What is the distance from Delhi to Jaipur?",
+    "Options": ["5v - 20", "5v + 20", "20v + 5", "5(v + 20)"],
+    "CorrectAnswer": "B",
+    "Topic": "Algebra",
+    "Difficulty": "Advanced",
+    "Explanation": "Distance travelled in 5 hours = 5v km. Remaining distance = 20 km. Total distance = 5v + 20."
+  },
+  {
+    "QuestionText": "If x = 3 and y = 4, evaluate the expression: 2x² - 3y + 5.",
+    "Options": ["11", "23", "33", "-1"],
+    "CorrectAnswer": "A",
+    "Topic": "Algebra",
+    "Difficulty": "Advanced",
+    "Explanation": "Substitute the values: 2(3)² - 3(4) + 5 = 2(9) - 12 + 5 = 18 - 12 + 5 = 11."
+  },
+  {
+    "QuestionText": "The length of a rectangular hall is 4 meters less than 3 times the breadth of the hall. What is the length, if the breadth is b meters?",
+    "Options": ["3b + 4", "4b - 3", "3b - 4", "b - 12"],
+    "CorrectAnswer": "C",
+    "Topic": "Algebra",
+    "Difficulty": "Advanced",
+    "Explanation": "Three times the breadth is 3b. 4 meters less than 3b is 3b - 4."
+  },
+  {
+    "QuestionText": "Meena, Beena and Leena are climbing the steps to a hilltop. Meena is at step 's'. Beena is 8 steps ahead and Leena is 7 steps behind Meena. Where are Beena and Leena respectively?",
+    "Options": ["s - 8, s + 7", "s + 8, s - 7", "8s, 7s", "s + 8, s + 7"],
+    "CorrectAnswer": "B",
+    "Topic": "Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "Beena is ahead by 8 steps, so she is at s + 8. Leena is behind by 7 steps, so she is at s - 7."
+  },
+  {
+    "QuestionText": "If the sum of three consecutive integers is 135, what is the value of the largest integer?",
+    "Options": ["44", "45", "46", "47"],
+    "CorrectAnswer": "C",
+    "Topic": "Algebra",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let integers be x, x+1, x+2. Sum = 3x + 3 = 135. 3x = 132. x = 44. Largest integer is x+2 = 46."
+  },
+  {
+    "QuestionText": "How many points does a line segment have?",
+    "Options": ["Two", "Zero", "One", "Infinite"],
+    "CorrectAnswer": "D",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Foundation",
+    "Explanation": "A line segment has two end points, but it is made up of an infinite number of points between those ends."
+  },
+  {
+    "QuestionText": "Two distinct lines in a plane that never meet are called:",
+    "Options": ["Intersecting lines", "Perpendicular lines", "Parallel lines", "Concurrent lines"],
+    "CorrectAnswer": "C",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Foundation",
+    "Explanation": "Parallel lines remain the same distance apart over their entire length and never cross or meet."
+  },
+  {
+    "QuestionText": "A portion of a line which starts at a point and goes off in a particular direction to infinity is a:",
+    "Options": ["Line", "Line segment", "Ray", "Point"],
+    "CorrectAnswer": "C",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Foundation",
+    "Explanation": "A ray has one fixed starting point and extends infinitely in one direction."
+  },
+  {
+    "QuestionText": "A simple closed curve made up entirely of line segments is called a:",
+    "Options": ["Circle", "Polygon", "Ellipse", "Sector"],
+    "CorrectAnswer": "B",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Foundation",
+    "Explanation": "A polygon is a closed 2D shape composed entirely of straight line segments (e.g., triangle, square)."
+  },
+  {
+    "QuestionText": "What is the region enclosed by a chord and an arc in a circle called?",
+    "Options": ["Sector", "Segment", "Radius", "Diameter"],
+    "CorrectAnswer": "B",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Foundation",
+    "Explanation": "The region bounded by a chord and an arc is called a segment of the circle. (A sector is bounded by two radii and an arc)."
+  },
+  {
+    "QuestionText": "How many line segments can be drawn connecting 4 distinct non-collinear points in a plane?",
+    "Options": ["4", "5", "6", "8"],
+    "CorrectAnswer": "C",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Advanced",
+    "Explanation": "Using combination formula n(n-1)/2 for n=4: 4*3/2 = 6 line segments."
+  },
+  {
+    "QuestionText": "Which of the following statements is false?",
+    "Options": ["A circle has only one center.", "A chord can be longer than a diameter.", "A diameter is the longest chord.", "Concentric circles share the same center."],
+    "CorrectAnswer": "B",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Advanced",
+    "Explanation": "The diameter is the longest possible chord in any circle. Therefore, no chord can be longer than the diameter."
+  },
+  {
+    "QuestionText": "In a quadrilateral ABCD, which of the following is a pair of opposite sides?",
+    "Options": ["AB and BC", "AD and DC", "AB and CD", "AC and BD"],
+    "CorrectAnswer": "C",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Advanced",
+    "Explanation": "In quadrilateral ABCD, sides AB and CD are opposite to each other. AC and BD are diagonals."
+  },
+  {
+    "QuestionText": "Imagine a circle with center O and points A, B, C on the boundary. The region bounded by the radii OA, OB and the arc AB is a sector. If the angle AOB is 180 degrees, the sector is also called a:",
+    "Options": ["Quadrant", "Semicircle", "Major Segment", "Circumference"],
+    "CorrectAnswer": "B",
+    "Topic": "Basic Geometrical Ideas",
+    "Difficulty": "Olympiad",
+    "Explanation": "If the angle between the two radii is 180 degrees, the two radii form a diameter, cutting the circle exactly in half into a semicircle."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a scalene triangle have?",
+    "Options": ["0", "1", "2", "3"],
+    "CorrectAnswer": "A",
+    "Topic": "Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A scalene triangle has all sides and angles of different measures, so it has no lines of symmetry."
+  },
+  {
+    "QuestionText": "Which of the following letters of the English alphabet has exactly one vertical line of symmetry?",
+    "Options": ["H", "M", "S", "X"],
+    "CorrectAnswer": "B",
+    "Topic": "Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "The letter 'M' has only a vertical line of symmetry. 'H' and 'X' have both vertical and horizontal. 'S' has none."
+  },
+  {
+    "QuestionText": "How many lines of symmetry does a regular pentagon have?",
+    "Options": ["1", "4", "5", "Infinite"],
+    "CorrectAnswer": "C",
+    "Topic": "Symmetry",
+    "Difficulty": "Foundation",
+    "Explanation": "A regular polygon with 'n' sides has exactly 'n' lines of symmetry. A pentagon has 5 sides."
+  },
+  {
+    "QuestionText": "A circle has _____ lines of symmetry.",
+    "Options": ["0", "1", "4", "Infinite"],
+    "CorrectAnswer": "D",
+    "Topic": "Symmetry",
+    "Difficulty": "Advanced",
+    "Explanation": "Any line passing through the center of a circle is a line of symmetry. Since there are infinite such lines, a circle has infinite lines of symmetry."
+  },
+  {
+    "QuestionText": "Which shape has no line of symmetry?",
+    "Options": ["Rectangle", "Parallelogram (non-rectangular, non-rhombus)", "Kite", "Isosceles Trapezium"],
+    "CorrectAnswer": "B",
+    "Topic": "Symmetry",
+    "Difficulty": "Olympiad",
+    "Explanation": "A general parallelogram cannot be folded perfectly in half along any line to match its sides perfectly. It only has rotational symmetry."
+  }
+]

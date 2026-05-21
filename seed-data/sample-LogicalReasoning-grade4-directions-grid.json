@@ -1,0 +1,272 @@
+[
+  {
+    "QuestionText": "Amit starts from his house and walks 4 steps North. He then turns right and walks 3 steps. Which direction is he facing now?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "Facing North and turning right means you are now looking directly toward the East."
+  },
+  {
+    "QuestionText": "If you are standing facing the Rising Sun in the morning, which cardinal direction is directly behind your back?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "The sun rises in the East. If you face the East, your back points directly toward the West."
+  },
+  {
+    "QuestionText": "On a grid map, a treasure is located at coordinate (3, 5). If you start at (3, 2), how many units and in what direction must you move to reach the treasure?",
+    "Options": ["A) 3 units North", "B) 3 units South", "C) 3 units East", "D) 2 units North"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "The first number (X) stays 3. The second number (Y) goes from 2 to 5, which means increasing by 3 units. Moving up on a map grid represents going North."
+  },
+  {
+    "QuestionText": "Kiran faces West. She makes a complete half-turn (180 degrees) around to face the opposite way. Which direction is she facing now?",
+    "Options": ["A) North", "B) South", "C) East", "D) Northwest"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "A half-turn flips your orientation completely backward. The opposite direction of West is East."
+  },
+  {
+    "QuestionText": "A robot starts at point (0,0). It moves 2 units East (right) and then 4 units North (up). What are the final coordinates of the robot?",
+    "Options": ["A) (4, 2)", "B) (2, 4)", "C) (2, 0)", "D) (0, 4)"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Moving East adds to the X-coordinate (0 + 2 = 2). Moving North adds to the Y-coordinate (0 + 4 = 4). The coordinate pair is (2, 4)."
+  },
+  {
+    "QuestionText": "Rohan is walking South. He makes a sharp left turn. Which direction is he walking towards after making the turn?",
+    "Options": ["A) East", "B) West", "C) North", "D) Southwest"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "When you walk South (downward) and turn left, you point toward the right side of a standard compass map, which is East."
+  },
+  {
+    "QuestionText": "A toy car travels 5 cm West, turns right, and travels another 5 cm. In which final direction is the car traveling?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "If you travel West and turn right, you spin upwards on a map, which sets your path heading North."
+  },
+  {
+    "QuestionText": "Look at the four primary compass points. Which direction lies exactly midway between North and East?",
+    "Options": ["A) Northwest", "B) Southeast", "C) Northeast", "D) Southwest"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "The intermediate direction sitting right in the middle of North and East is named Northeast."
+  },
+  {
+    "QuestionText": "On a town grid map, the school is at (2, 2) and the park is at (6, 2). How many blocks away is the park from the school if you travel in a straight horizontal line?",
+    "Options": ["A) 2 blocks", "B) 4 blocks", "C) 6 blocks", "D) 8 blocks"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "Since the Y-coordinates are identical, find the horizontal distance by subtracting the X values: 6 - 2 = 4 blocks."
+  },
+  {
+    "QuestionText": "Ananya walks 10 meters East, and then turns around and walks 10 meters West along the exact same path. How far is she from her starting spot?",
+    "Options": ["A) 20 meters", "B) 10 meters", "C) 0 meters", "D) 5 meters"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "Walking 10 meters away and then 10 meters back in the opposite direction brings her right back to her origin point (0 meters away)."
+  },
+  {
+    "QuestionText": "If North becomes West in a silly backward clock game, what does East turn into if we follow the same turning angle?",
+    "Options": ["A) South", "B) North", "C) West", "D) Southwest"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Advanced",
+    "Explanation": "Moving from North to West is a 90-degree counter-clockwise turn. Applying this same turn to East rotates it upward to point North."
+  },
+  {
+    "QuestionText": "A delivery driver goes 3 miles South, then 3 miles West, and then 3 miles North. What single direction movement will bring him back to his original starting depot?",
+    "Options": ["A) 3 miles East", "B) 3 miles West", "C) 3 miles South", "D) 1 mile North"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Advanced",
+    "Explanation": "The South and North movements cancel each other out out. He is left exactly 3 miles West of his starting spot. To return, he must go 3 miles East."
+  },
+  {
+    "QuestionText": "Which of these pairs represents two directly opposite cardinal directions on a standard map?",
+    "Options": ["A) North and East", "B) East and West", "C) South and West", "D) Northeast and Northwest"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "East points right and West points left, making them completely opposite directions."
+  },
+  {
+    "QuestionText": "A square grid tracking board shows a cat at (1, 4) and a mouse at (1, 1). In which direction must the cat run along the grid line to catch the mouse?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Both are on column 1. The cat is at height 4 and the mouse is down at height 1. The cat needs to travel downward, which is South."
+  },
+  {
+    "QuestionText": "Meera faces North. She turns right to face East, and then makes another right turn. Which direction is she facing now?",
+    "Options": ["A) West", "B) South", "C) North", "D) Southwest"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Two consecutive right turns equal a 180-degree flip. Turning right from North gives East, and turning right from East points to South."
+  },
+  {
+    "QuestionText": "If you follow a path that goes 2 steps North, 2 steps East, 2 steps South, and 2 steps West, what shape path have you traced out on the ground?",
+    "Options": ["A) Triangle", "B) Rectangle", "C) Square", "D) Circle"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Since all 4 movements are equal in length (2 steps) and turn at right angles, they form a perfect closed square."
+  },
+  {
+    "QuestionText": "John stands at coordinate (5, 5). He takes 3 steps left (West) and 2 steps down (South). What is his new coordinate position?",
+    "Options": ["A) (2, 3)", "B) (8, 7)", "C) (3, 2)", "D) (2, 2)"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Advanced",
+    "Explanation": "Moving West reduces the X-coordinate (5 - 3 = 2). Moving South reduces the Y-coordinate (5 - 2 = 3). The new spot is (2, 3)."
+  },
+  {
+    "QuestionText": "A ship is sailing toward the South. It receives an order to turn 90 degrees clockwise. Which direction is the ship facing after the turn?",
+    "Options": ["A) East", "B) West", "C) North", "D) Southeast"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Clockwise rotation matches the movement of a clock hand. Turning 90 degrees clockwise while facing South shifts your direction to West."
+  },
+  {
+    "QuestionText": "A house has its front main door facing directly North. When a person steps out of the house and walks out the door, which way are they walking?",
+    "Options": ["A) South", "B) East", "C) North", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "Exiting through a door means you walk straight out in the direction the door faces, which is North."
+  },
+  {
+    "QuestionText": "If a person walks 4 steps East and then 4 steps North, are they closer to their start point or farther away compared to someone who just walked 4 steps East?",
+    "Options": ["A) Closer", "B) Farther away", "C) Same distance", "D) Back at the start"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Advanced",
+    "Explanation": "Adding a second perpendicular walk moves the person further into the grid plane, increasing their total distance from the starting spot."
+  },
+  {
+    "QuestionText": "A map grid shows a fire station at (0, 3). If a fire engine drives 3 units South, where is it located now?",
+    "Options": ["A) (0, 0)", "B) (3, 3)", "C) (0, 6)", "D) (3, 0)"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Driving South decreases the Y-coordinate value. Subtracting 3 units from the original Y-coordinate gives 3 - 3 = 0. The position is (0, 0)."
+  },
+  {
+    "QuestionText": "If you look at a wall map pinned to a classroom board, which cardinal direction is almost always located at the very top edge of the paper?",
+    "Options": ["A) South", "B) East", "C) West", "D) North"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "Standard map layouts universally place the North direction at the top margin edge."
+  },
+  {
+    "QuestionText": "An explorer walks 2 steps East, 3 steps East, and then 4 steps West. What is his net position relative to his starting point?",
+    "Options": ["A) 1 step East", "B) 1 step West", "C) 5 steps East", "D) 9 steps West"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Total East steps = 2 + 3 = 5 steps East. Walking 4 steps West reduces this: 5 - 4 = 1 step East."
+  },
+  {
+    "QuestionText": "A plane is flying directly towards the Northwest. If it spins 180 degrees around to head back, which direction is it flying now?",
+    "Options": ["A) Northeast", "B) Southwest", "C) Southeast", "D) North"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Advanced",
+    "Explanation": "A 180-degree turn reverses the direction completely. The opposite of North is South, and the opposite of West is East, making the target Southeast."
+  },
+  {
+    "QuestionText": "On a grid coordinate layout, a point moves from (2, 3) to (5, 3). This change shows a movement in which pure direction?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "The Y value stays 3, while the horizontal X value increases from 2 to 5. Moving to the right on a horizontal axis represents going East."
+  },
+  {
+    "QuestionText": "If you face South, which cardinal direction is located directly to your right-hand side?",
+    "Options": ["A) East", "B) West", "C) North", "D) Northeast"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "When facing South, your left hand points East and your right hand points toward the West."
+  },
+  {
+    "QuestionText": "A worker crawls through a straight pipe heading East. The pipe bends 90 degrees counter-clockwise. Which direction does the worker head now?",
+    "Options": ["A) North", "B) South", "C) West", "D) Northwest"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Advanced",
+    "Explanation": "Counter-clockwise is the opposite of clock hands. Turning 90 degrees counter-clockwise from East swings the direction straight up to North."
+  },
+  {
+    "QuestionText": "A grid cell contains an apple at (4, 1). A worm starts at (1, 1). How many steps must the worm crawl horizontally to reach the apple?",
+    "Options": ["A) 2 steps", "B) 3 steps", "C) 4 steps", "D) 5 steps"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Foundation",
+    "Explanation": "Since both share a Y value of 1, compute the horizontal distance by subtracting the smaller X from the larger X: 4 - 1 = 3 steps."
+  },
+  {
+    "QuestionText": "If you start at home and walk 5 blocks West, then turn around and walk 2 blocks East, how many blocks West of your home are you now?",
+    "Options": ["A) 7 blocks", "B) 3 blocks", "C) 5 blocks", "D) 2 blocks"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Intermediate",
+    "Explanation": "Walking 5 blocks West and backtrack-walking 2 blocks East brings you to 5 - 2 = 3 blocks away from home in the West direction."
+  },
+  {
+    "QuestionText": "An arrow indicator points toward the Southeast corner. If it rotates 90 degrees clockwise, which corner area does it point to next?",
+    "Options": ["A) Northeast", "B) Southwest", "C) Northwest", "D) South"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Directions, Paths, and Grid Maps",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rotating 90 degrees clockwise from Southeast shifts the pointer through South over to the Southwest quadrant."
+  }
+]

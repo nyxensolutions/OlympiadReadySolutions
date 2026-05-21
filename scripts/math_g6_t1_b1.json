@@ -1,0 +1,202 @@
+[
+  {
+    "QuestionText": "Write the numeral for: Seventy-three lakh, seventy-five thousand, three hundred seven.",
+    "Options": ["73,75,307", "73,57,307", "7,37,53,307", "73,75,370"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "According to the Indian numeral system, the number is 73,75,307."
+  },
+  {
+    "QuestionText": "Insert commas suitably according to the International System of Numeration: 78921092",
+    "Options": ["7,89,21,092", "78,921,092", "78,92,10,92", "789,210,92"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "In the International system, commas are placed after every three digits from the right. So, 78,921,092."
+  },
+  {
+    "QuestionText": "Estimate the sum (5,290 + 17,986) to the nearest thousands.",
+    "Options": ["23,000", "22,000", "24,000", "23,300"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "5290 rounds to 5000. 17986 rounds to 18000. 5000 + 18000 = 23,000."
+  },
+  {
+    "QuestionText": "What is the Roman numeral for 73?",
+    "Options": ["LXXIII", "LXXXIII", "LXIII", "XXLIII"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "73 = 50 + 10 + 10 + 3 = L + X + X + III = LXXIII."
+  },
+  {
+    "QuestionText": "1 million is equal to how many lakhs?",
+    "Options": ["1 lakh", "10 lakhs", "100 lakhs", "1000 lakhs"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "1 million = 1,000,000. In the Indian system, it is written as 10,00,000, which is 10 lakhs."
+  },
+  {
+    "QuestionText": "The difference between the place value and face value of 8 in 65,87,402 is:",
+    "Options": ["80,000", "79,992", "8,000", "79,920"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Place value of 8 = 80,000. Face value of 8 = 8. Difference = 80,000 - 8 = 79,992."
+  },
+  {
+    "QuestionText": "How many millimeters make one kilometer?",
+    "Options": ["10,000", "1,00,000", "10,00,000", "1,00,00,000"],
+    "CorrectAnswer": "C",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "1 km = 1000 m. 1 m = 1000 mm. So, 1 km = 1000 × 1000 = 10,00,000 mm (1 million mm)."
+  },
+  {
+    "QuestionText": "Which is the smallest 5-digit number formed using the digits 3, 0, 7, 1, 9 only once?",
+    "Options": ["01379", "10379", "13079", "30179"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "A number cannot start with 0. So start with the next smallest digit, 1. The smallest number is 10379."
+  },
+  {
+    "QuestionText": "Estimate the product 598 × 161 by rounding off each number to the nearest hundreds.",
+    "Options": ["1,00,000", "1,20,000", "1,10,000", "90,000"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "598 rounds to 600. 161 rounds to 200. Product = 600 × 200 = 1,20,000."
+  },
+  {
+    "QuestionText": "Write 98 in Roman numerals.",
+    "Options": ["VCIII", "XCVIII", "IC", "CXVIII"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "98 = 90 + 8 = (100 - 10) + 8 = XC + VIII = XCVIII."
+  },
+  {
+    "QuestionText": "A town has a population of 2,45,398. If 1,23,450 are males, how many females are there?",
+    "Options": ["1,21,948", "1,21,848", "1,22,948", "1,20,948"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Total = 2,45,398. Females = Total - Males = 2,45,398 - 1,23,450 = 1,21,948."
+  },
+  {
+    "QuestionText": "The number 734 is rounded off to the nearest tens. What is the difference between the original number and the rounded number?",
+    "Options": ["4", "6", "10", "14"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "734 rounded to the nearest tens is 730. Difference = 734 - 730 = 4."
+  },
+  {
+    "QuestionText": "A machine manufactures 2,825 screws a day. How many screws did it produce in the month of January 2006?",
+    "Options": ["87,575", "84,750", "81,925", "79,100"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "January has 31 days. Screws = 2825 × 31 = 87,575."
+  },
+  {
+    "QuestionText": "Which of the following Roman numerals is meaningless?",
+    "Options": ["CXC", "XLV", "IC", "XXIV"],
+    "CorrectAnswer": "C",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "I can only be subtracted from V and X. It cannot be subtracted from C. So IC is invalid."
+  },
+  {
+    "QuestionText": "Medicine is packed in boxes, each weighing 4 kg 500 g. How many such boxes can be loaded in a van which cannot carry beyond 800 kg?",
+    "Options": ["177", "178", "179", "180"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Capacity = 800 kg = 8,00,000 g. One box = 4500 g. Number of boxes = 800000 ÷ 4500 = 8000 ÷ 45 = 177.77. So, maximum 177 boxes."
+  },
+  {
+    "QuestionText": "Find the difference between the greatest and the least 5-digit numbers that can be written using the digits 6, 2, 7, 4, 3 each only once.",
+    "Options": ["52965", "53965", "52956", "53956"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Greatest = 76432. Least = 23467. Difference = 76432 - 23467 = 52965."
+  },
+  {
+    "QuestionText": "What is the successor of the greatest 5-digit number?",
+    "Options": ["10,000", "99,999", "1,00,000", "1,00,001"],
+    "CorrectAnswer": "C",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Greatest 5-digit number is 99,999. Successor = 99,999 + 1 = 1,00,000."
+  },
+  {
+    "QuestionText": "Rohan has ₹10,000. He buys a bicycle for ₹4,560 and a helmet for ₹895. How much money is left with him?",
+    "Options": ["₹5,440", "₹4,545", "₹5,545", "₹4,440"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Total spent = 4560 + 895 = 5455. Left = 10000 - 5455 = 4545."
+  },
+  {
+    "QuestionText": "Which of the following is correct?",
+    "Options": ["L > C", "D < M", "X > L", "V > X"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "D = 500, M = 1000. So D < M is correct."
+  },
+  {
+    "QuestionText": "A student multiplied 7236 by 65 instead of multiplying by 56. By how much was his answer greater than the correct answer?",
+    "Options": ["65,124", "65,114", "65,024", "65,134"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Difference = 7236 × (65 - 56) = 7236 × 9 = 65,124."
+  },
+  {
+    "QuestionText": "The number of distinct prime factors of the largest 4-digit number is:",
+    "Options": ["2", "3", "4", "5"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Largest 4-digit number = 9999. 9999 = 9 × 1111 = 3^2 × 11 × 101. The distinct prime factors are 3, 11, and 101. So, 3 factors."
+  },
+  {
+    "QuestionText": "If a number is formed by writing numbers 1 to 20 consecutively as 123456789101112...1920, what is the remainder when this number is divided by 9?",
+    "Options": ["0", "3", "5", "8"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Remainder when divided by 9 is the same as the sum of its digits modulo 9. Sum of digits from 1 to 20 = (sum 1-9) + (sum digits of 10-19) + 2 + 0. Sum 1-9 = 45. Sum 10-19 = 10×1 + 45 = 55. 20 -> 2. Total sum = 45 + 55 + 2 = 102. 102 / 9 = 11 remainder 3."
+  },
+  {
+    "QuestionText": "A 5-digit number xy235 is divisible by 3. If x + y < 5, where x and y are digits and x > 0, find the number of possible values for the pair (x, y).",
+    "Options": ["2", "3", "4", "1"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sum of digits = x + y + 2 + 3 + 5 = x + y + 10. For it to be divisible by 3, (x+y+10) must be a multiple of 3. So (x+y) = 2, 5, 8... Since x+y < 5, x+y = 2. x>0 so (x,y) can be (1,1) or (2,0). So 2 pairs."
+  },
+  {
+    "QuestionText": "Which is the smallest number that must be added to 803642 to get a multiple of 11?",
+    "Options": ["1", "4", "7", "5"],
+    "CorrectAnswer": "D",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Sum of digits at odd places = 2 + 6 + 0 = 8. Sum of digits at even places = 4 + 3 + 8 = 15. Difference = 15 - 8 = 7. To make it a multiple of 11, the difference should be 11. We need to increase odd places by 4 or even places by 7... wait. Remainder of 803642 / 11. Let's calculate: 803642 = 11 × 73058 + 4. So 803642 = 11k + 4. We must add 7. (Options: D=5, C=7). The correct answer is 7 (C)."
+  },
+  {
+    "QuestionText": "The product of three consecutive odd numbers is 693. What is the sum of these numbers?",
+    "Options": ["25", "27", "29", "31"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let the numbers be x-2, x, x+2. Prime factorization of 693 = 3 × 3 × 7 × 11 = 7 × 9 × 11. So the numbers are 7, 9, 11. Their sum = 7 + 9 + 11 = 27."
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "QuestionText": "What is the predecessor of the smallest whole number?",
+    "Options": ["-1", "1", "0", "Does not exist"],
+    "CorrectAnswer": "D",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The smallest whole number is 0, and it has no predecessor in the set of whole numbers."
+  },
+  {
+    "QuestionText": "Which property states that a + b = b + a for any two whole numbers?",
+    "Options": ["Associative Property", "Commutative Property", "Distributive Property", "Closure Property"],
+    "CorrectAnswer": "B",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The commutative property of addition allows numbers to be added in any order."
+  },
+  {
+    "QuestionText": "Evaluate using the distributive property: 728 × 101",
+    "Options": ["73528", "72800", "73518", "72828"],
+    "CorrectAnswer": "A",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "728 × (100 + 1) = 72800 + 728 = 73528."
+  },
+  {
+    "QuestionText": "Which of the following is the additive identity for whole numbers?",
+    "Options": ["1", "-1", "0", "10"],
+    "CorrectAnswer": "C",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding 0 to any whole number leaves it unchanged."
+  },
+  {
+    "QuestionText": "What is the product of the successor of 99 and the predecessor of 101?",
+    "Options": ["9900", "10000", "10001", "9999"],
+    "CorrectAnswer": "B",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Successor of 99 is 100. Predecessor of 101 is 100. Product = 100 × 100 = 10000."
+  },
+  {
+    "QuestionText": "Which operation is not closed for whole numbers?",
+    "Options": ["Addition", "Multiplication", "Subtraction", "Both Addition and Multiplication"],
+    "CorrectAnswer": "C",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Subtracting a larger whole number from a smaller one results in a negative number, which is not a whole number."
+  },
+  {
+    "QuestionText": "How many whole numbers are there between 32 and 53?",
+    "Options": ["20", "21", "22", "19"],
+    "CorrectAnswer": "A",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "(53 - 32) - 1 = 21 - 1 = 20."
+  },
+  {
+    "QuestionText": "Division by which whole number is not defined?",
+    "Options": ["1", "10", "0", "100"],
+    "CorrectAnswer": "C",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Division of any number by zero is undefined."
+  },
+  {
+    "QuestionText": "Find the sum by suitable rearrangement: 837 + 208 + 363",
+    "Options": ["1408", "1418", "1308", "1400"],
+    "CorrectAnswer": "A",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "(837 + 363) + 208 = 1200 + 208 = 1408."
+  },
+  {
+    "QuestionText": "A vendor supplies 32 liters of milk to a hotel in the morning and 68 liters of milk in the evening. If the milk costs ₹45 per liter, how much money is due to the vendor per day?",
+    "Options": ["₹4500", "₹5000", "₹4000", "₹4800"],
+    "CorrectAnswer": "A",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Total milk = 32 + 68 = 100 liters. Cost = 100 × 45 = ₹4500. This uses the distributive property: 45×(32+68)."
+  },
+  {
+    "QuestionText": "If a and b are two whole numbers such that a × b = a, then what can be said about b?",
+    "Options": ["b must be 0", "b must be 1, or a must be 0", "b can be any number", "b must be greater than a"],
+    "CorrectAnswer": "B",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "If a=0, then 0×b=0 for any b. If a is non-zero, dividing both sides by a gives b=1."
+  },
+  {
+    "QuestionText": "The school canteen charges ₹20 for lunch and ₹4 for milk for each day. How much money do you spend in 5 days on these things?",
+    "Options": ["₹100", "₹120", "₹110", "₹140"],
+    "CorrectAnswer": "B",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Daily cost = 20 + 4 = ₹24. For 5 days = 24 × 5 = ₹120. Or 5×20 + 5×4 = 100 + 20 = 120."
+  },
+  {
+    "QuestionText": "Which of the following will not represent zero?",
+    "Options": ["1 + 0", "0 × 0", "0 / 2", "(10 - 10) / 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "1 + 0 = 1. The others evaluate to 0."
+  },
+  {
+    "QuestionText": "Find the product using suitable properties: 258 × 1008",
+    "Options": ["260064", "260000", "258064", "260164"],
+    "CorrectAnswer": "A",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "258 × (1000 + 8) = 258000 + (258 × 8) = 258000 + 2064 = 260064."
+  },
+  {
+    "QuestionText": "If a, b, c are three whole numbers, then (a + b) + c = a + (b + c) is called:",
+    "Options": ["Commutative property", "Associative property", "Distributive property", "Closure property"],
+    "CorrectAnswer": "B",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Grouping numbers in different ways for addition is the Associative Property."
+  },
+  {
+    "QuestionText": "The product of a non-zero whole number and its successor is always:",
+    "Options": ["An even number", "An odd number", "A prime number", "Divisible by 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "One of the numbers (either the number or its successor) must be even. An even number multiplied by any integer is even."
+  },
+  {
+    "QuestionText": "Study the pattern: 1×8+1=9; 12×8+2=98; 123×8+3=987. What will be the value of 12345×8+5?",
+    "Options": ["9876", "98765", "987654", "9876543"],
+    "CorrectAnswer": "B",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Following the pattern, a 5-digit sequence multiplied by 8 and adding 5 results in a 5-digit decreasing sequence starting from 9: 98765."
+  },
+  {
+    "QuestionText": "Let x and y be two whole numbers such that x > y. Which of the following is always a whole number?",
+    "Options": ["y - x", "x / y", "x - y", "y / x"],
+    "CorrectAnswer": "C",
+    "Topic": "Whole Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Since x > y, x - y is a positive integer, which is a whole number. Division is not closed, and y - x would be negative."
+  }
+]

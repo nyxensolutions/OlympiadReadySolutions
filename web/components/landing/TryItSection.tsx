@@ -71,7 +71,7 @@ export function TryItSection() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ subject, grade, difficulty: "Foundation", count: 5 }),
       });
-      if (!res.ok) throw new Error("Could not load sample questions.");
+      if (!res.ok) throw new Error("Could not load AI questions.");
       const qs: TryQuestion[] = await res.json();
       setState({ kind: "questions", qs, idx: 0, picks: Array(qs.length).fill(null), done: false });
     } catch (e) {
@@ -109,7 +109,7 @@ export function TryItSection() {
             Get a feel for OlympiadReady
           </h2>
           <p className="mt-3 text-slate-600 text-sm max-w-xl mx-auto">
-            Pick a subject and class — we&apos;ll generate 5 real Olympiad-style questions. No account needed.
+            Pick a subject and class — we'll generate intelligent AI questions tailored for olympiad aspirants. No account needed.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export function TryItSection() {
               className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-cta-600 px-4 py-3.5 font-bold text-white shadow-md transition hover:bg-cta-700 hover:shadow-lg"
             >
               <Sparkles className="h-5 w-5" />
-              Generate 5 sample questions — free
+              Generate questions via AI - free
             </button>
 
             <p className="mt-3 text-center text-xs text-slate-500">
@@ -201,8 +201,11 @@ export function TryItSection() {
                 </span>
                 <span className="text-xs text-slate-500">Foundation</span>
               </div>
-              <div className="h-1.5 rounded-full bg-slate-200">
-                <div className="h-full rounded-full bg-brand-500 transition-all" style={{ width: `${(state.idx / state.qs.length) * 100}%` }} />
+              <div className="h-1.5 w-full rounded-full bg-slate-200 overflow-hidden relative">
+                <div 
+                  className="absolute left-0 top-0 h-full bg-brand-500 transition-all duration-300 ease-out" 
+                  style={{ width: `${Math.round(((state.idx + 1) / state.qs.length) * 100)}%` }} 
+                />
               </div>
             </div>
 

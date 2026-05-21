@@ -49,6 +49,8 @@ export type PreviewRequest = {
   topic?: string;
   mistakesOnly?: boolean;
   olympiadLevel?: OlympiadLevel;
+  /** The specific olympiad the student is targeting (e.g. "sof_imo", "hbcse", "silverzone_math"). */
+  olympiadId?: string;
 };
 
 export type GeneratedPaper = {

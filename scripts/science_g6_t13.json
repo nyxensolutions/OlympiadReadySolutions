@@ -1,0 +1,202 @@
+[
+  {
+    "QuestionText": "If A is heavier than B, and B is heavier than C, who is the lightest?",
+    "Options": ["A", "B", "C", "Cannot be determined"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Order of weight: A > B > C. Therefore, C is the lightest."
+  },
+  {
+    "QuestionText": "A thermometer is to Temperature as a Compass is to:",
+    "Options": ["Pressure", "Direction", "Speed", "Distance"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "A thermometer measures temperature, and a compass indicates direction."
+  },
+  {
+    "QuestionText": "Which of the following is the odd one out?",
+    "Options": ["Iron", "Copper", "Wood", "Silver"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Iron, Copper, and Silver are metals and conductors. Wood is a non-metal and an insulator."
+  },
+  {
+    "QuestionText": "If the Sun rises in the East and sets in the West, in which direction will a shadow point exactly at sunrise?",
+    "Options": ["East", "West", "North", "South"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Shadows always fall in the direction opposite to the light source. At sunrise (East), the shadow falls to the West."
+  },
+  {
+    "QuestionText": "Look at the series: Seed -> Seedling -> Plant -> ? What comes next?",
+    "Options": ["Flower/Fruit", "Roots", "Soil", "Water"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "The series represents the life cycle of a plant. A mature plant produces flowers and fruits."
+  },
+  {
+    "QuestionText": "If 'WATER' is coded as 'XBUFS', how is 'FIRE' coded?",
+    "Options": ["EHQD", "GJSD", "GJSF", "EHSD"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Each letter is shifted to the next letter in the alphabet. W->X, A->B, T->U, E->F, R->S. For FIRE: F->G, I->J, R->S, E->F."
+  },
+  {
+    "QuestionText": "Which is the correct logical sequence of a food chain?",
+    "Options": ["Lion -> Deer -> Grass", "Grass -> Lion -> Deer", "Grass -> Deer -> Lion", "Deer -> Grass -> Lion"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Energy flows from producers (Grass) to herbivores (Deer) to carnivores (Lion)."
+  },
+  {
+    "QuestionText": "Find the missing number in the pattern: 2, 4, 8, 16, __",
+    "Options": ["24", "32", "64", "20"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Each number is multiplied by 2. 16 * 2 = 32."
+  },
+  {
+    "QuestionText": "All mammals give birth to live young. A bat gives birth to live young. Therefore:",
+    "Options": ["A bat is definitely a bird", "A bat might be a mammal", "A bat is definitely a reptile", "A bat lays eggs"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "The premises suggest it shares a key characteristic with mammals. (Scientifically, a bat IS a mammal, but logically from just those two statements, it 'might be' or 'is' a mammal)."
+  },
+  {
+    "QuestionText": "Solid is to Ice as Liquid is to:",
+    "Options": ["Steam", "Water", "Cloud", "Snow"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Ice is the solid form of H2O. Water is the liquid form."
+  },
+  {
+    "QuestionText": "A student notices that a potted plant kept in a dark room with only a single window starts bending towards the window. What logical conclusion can be drawn?",
+    "Options": ["The plant is trying to escape the room", "The plant grows towards the source of light", "The plant needs fresh air from the window", "The plant is dying"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "This is a biological response called phototropism, where plants logically grow towards the strongest light source for photosynthesis."
+  },
+  {
+    "QuestionText": "If a 5kg iron block and a 5kg cotton bale are placed on a weighing scale, they balance perfectly. However, the cotton takes up a huge bag, while the iron is a small block. What logical physics concept does this illustrate?",
+    "Options": ["Cotton is heavier than iron", "Iron has greater mass than cotton", "Iron has a higher density than cotton", "Cotton has higher gravity than iron"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Since their masses are identical (5kg), the fact that iron takes up much less volume means its mass is packed more tightly; it has a higher density."
+  },
+  {
+    "QuestionText": "Rohan has three unlabelled liquids: acid, base, and neutral water. He dips blue litmus paper in all three. It turns red in Liquid 1, stays blue in Liquid 2, and stays blue in Liquid 3. What can he conclude?",
+    "Options": ["Liquid 1 is an acid", "Liquid 2 is definitely a base", "Liquid 3 is definitely water", "Liquid 1 is a base"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Blue litmus turns red in acid, so Liquid 1 is acid. It stays blue in both bases and neutral liquids, so he cannot uniquely identify 2 and 3 yet."
+  },
+  {
+    "QuestionText": "Four runners race. P finishes ahead of Q but behind R. S finishes ahead of R. Who won the race?",
+    "Options": ["P", "Q", "R", "S"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Order: S is ahead of R. R is ahead of P. P is ahead of Q. Sequence: S -> R -> P -> Q. S won."
+  },
+  {
+    "QuestionText": "Which diagram best represents the relationship between: Animals, Carnivores, and Lions?",
+    "Options": ["Three separate circles", "Three concentric circles (one inside the other)", "Two intersecting circles inside a larger one", "One large circle with two separate small ones inside"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "All Lions are Carnivores, and all Carnivores are Animals. Therefore, it's a small circle (Lions) inside a medium circle (Carnivores) inside a large circle (Animals)."
+  },
+  {
+    "QuestionText": "In a certain code language, if 123 means 'Hot filtered coffee', 356 means 'Very hot day', and 589 means 'Day and night', which digit stands for 'Very'?",
+    "Options": ["3", "5", "6", "9"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "123/356 share '3' and 'hot'. So 3 = hot. 356/589 share '5' and 'day'. So 5 = day. Leaving '6' to mean 'Very' in 356."
+  },
+  {
+    "QuestionText": "A person walks 10m North, turns left and walks 5m, turns left again and walks 10m. How far and in what direction is he from the starting point?",
+    "Options": ["5m West", "5m East", "10m North", "0m"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "He goes North 10, then West 5, then South 10. He is now exactly 5m West of his starting point."
+  },
+  {
+    "QuestionText": "Observe the pattern: Evaporation -> Cloud -> Rain -> River -> ?. What logically completes the water cycle?",
+    "Options": ["Mountain", "Ocean/Evaporation", "Snow", "Wind"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "The river flows into the ocean where the water evaporates again, completing the cycle."
+  },
+  {
+    "QuestionText": "If the day before yesterday was Thursday, what day will it be tomorrow?",
+    "Options": ["Saturday", "Sunday", "Monday", "Friday"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "If the day before yesterday was Thursday, today is Saturday. Therefore, tomorrow is Sunday."
+  },
+  {
+    "QuestionText": "A mirror is placed in front of a clock. The mirror image shows the time as 3:15. What is the actual time on the clock?",
+    "Options": ["8:45", "9:15", "3:45", "9:45"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "Lateral inversion reflects the clock face left-to-right. Actual time = 12:00 - Mirror Time = 11:60 - 3:15 = 8:45."
+  },
+  {
+    "QuestionText": "A scientist finds two identical-looking spherical metal balls. Ball A is solid aluminum. Ball B is hollow steel, but painted to look exactly like A. They both weigh exactly 2 kg. How can the scientist logically tell them apart without scratching, weighing, or breaking them?",
+    "Options": ["By smelling them", "By dropping them in water to see which floats", "By rolling them down a ramp simultaneously", "They cannot be told apart"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "This tests rotational inertia. The hollow steel ball has all its mass concentrated at the outer shell, giving it a higher moment of inertia. The solid aluminum ball has its mass distributed evenly, so it will roll down the ramp faster."
+  },
+  {
+    "QuestionText": "Statement 1: All birds lay eggs. Statement 2: The platypus is a mammal that lays eggs. Conclusion: The platypus is a bird. Is the conclusion logically sound?",
+    "Options": ["Yes, because it lays eggs", "No, because the premise explicitly states it is a mammal", "Yes, all egg-layers are birds", "Cannot be determined"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "The conclusion directly contradicts Statement 2, which establishes the platypus as a mammal. Just because all birds lay eggs does not mean all egg-layers are birds (affirming the consequent fallacy)."
+  },
+  {
+    "QuestionText": "Six beakers contain different clear liquids. A reacts with B to turn pink. C neutralizes the pink to clear. D reacts with nothing. If C is an acid, what is most likely true based on standard indicator logic?",
+    "Options": ["A is water", "B is an indicator like phenolphthalein and A is a base", "D is a strong acid", "C is an indicator"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Phenolphthalein (an indicator, say B) turns pink in a base (A). Adding an acid (C) neutralizes the base, dropping the pH and turning the indicator clear again."
+  },
+  {
+    "QuestionText": "There are 5 gears connected in a straight line (Gear 1 meshes with Gear 2, Gear 2 with 3, etc.). If Gear 1 is turned clockwise, in which direction will Gear 5 turn?",
+    "Options": ["Clockwise", "Counter-clockwise", "It won't turn", "It alternates"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Meshed gears alternate directions. 1=CW, 2=CCW, 3=CW, 4=CCW, 5=CW."
+  },
+  {
+    "QuestionText": "You have a balance scale and 9 identical-looking coins. One is counterfeit and slightly lighter than the rest. What is the minimum number of weighings required to guarantee finding the fake coin?",
+    "Options": ["2", "3", "4", "8"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Divide into groups of 3. Weigh Group A vs Group B. If they balance, the fake is in Group C. If one is lighter, the fake is in that group. Take the lighter group of 3, weigh two coins from it against each other. If they balance, the fake is the unweighed one. If one is lighter, that's the fake. Total weighings = 2."
+  }
+]

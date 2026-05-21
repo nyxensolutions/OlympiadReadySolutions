@@ -1,0 +1,227 @@
+[
+  {
+    "QuestionText": "Riya buys a notebook for $3.50 and a pen for $1.75. She hands the cashier a $10 bill. How much change should she receive?",
+    "Options": ["A) $4.75", "B) $5.25", "C) $6.25", "D) $5.75"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Money & Invoicing",
+    "Difficulty": "Intermediate",
+    "Explanation": "Total cost = $3.50 + $1.75 = $5.25. Change back = $10.00 - $5.25 = $4.75."
+  },
+  {
+    "QuestionText": "A movie starts at 4:15 PM and lasts for 2 hours and 30 minutes. At what time does the movie end?",
+    "Options": ["A) 6:15 PM", "B) 6:30 PM", "C) 6:45 PM", "D) 7:15 PM"],
+    "CorrectAnswer": "C",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Time Management",
+    "Difficulty": "Foundation",
+    "Explanation": "Add 2 hours to 4:15 PM to get 6:15 PM. Then add 30 minutes to get 6:45 PM."
+  },
+  {
+    "QuestionText": "A school bus can hold 40 students. If 215 students are going on a field trip, what is the minimum number of buses needed to transport everyone?",
+    "Options": ["A) 5 buses", "B) 6 buses", "C) 5.3 buses", "D) 7 buses"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Real-world Division",
+    "Difficulty": "Advanced",
+    "Explanation": "$215 \\div 40 = 5$ with a remainder of 15 students. Since the remaining 15 students still need a ride, an extra full bus is required. $5 + 1 = 6$ buses."
+  },
+  {
+    "QuestionText": "Arjun runs 400 meters every single day. How many kilometers does he run in total over a period of 5 days?",
+    "Options": ["A) 2 km", "B) 20 km", "C) 2,000 km", "D) 0.2 km"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Distance & Unit Application",
+    "Difficulty": "Intermediate",
+    "Explanation": "Total distance in meters = $400 \\times 5 = 2,000$ meters. Since 1,000 meters = 1 kilometer, $2,000 \\text{ meters} = 2$ km."
+  },
+  {
+    "QuestionText": "A box of chocolates contains 32 pieces. If Rohan eats $\\frac{1}{4}$ of the chocolates, how many pieces are left inside the box?",
+    "Options": ["A) 8 pieces", "B) 24 pieces", "C) 16 pieces", "D) 20 pieces"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Fraction Applications",
+    "Difficulty": "Intermediate",
+    "Explanation": "Rohan eats $\\frac{1}{4}$ of 32, which is $32 \\div 4 = 8$ pieces. The remaining pieces = $32 - 8 = 24$ pieces."
+  },
+  {
+    "QuestionText": "Anil pours 250 mL of milk into a baking bowl 4 times. How many total liters of milk did he pour into the bowl?",
+    "Options": ["A) 10 liters", "B) 1 liter", "C) 2 liters", "D) 0.5 liters"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Volume Measurement",
+    "Difficulty": "Foundation",
+    "Explanation": "Total volume in milliliters = $250 \\times 4 = 1,000$ mL. Since 1,000 mL equals 1 liter, he poured exactly 1 liter."
+  },
+  {
+    "QuestionText": "A clothing store sells t-shirts in packs of 3. If Mrs. Gupta needs 18 t-shirts for her students, how many packs must she buy?",
+    "Options": ["A) 6 packs", "B) 5 packs", "C) 54 packs", "D) 9 packs"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Unitary Method",
+    "Difficulty": "Foundation",
+    "Explanation": "Divide the total number of items needed by the item count per pack: $18 \\div 3 = 6$ packs."
+  },
+  {
+    "QuestionText": "Karan saves $15 every week. How much money will he have saved in total after 12 weeks?",
+    "Options": ["A) $150", "B) $165", "C) $180", "D) $195"],
+    "CorrectAnswer": "C",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Savings Estimation",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiply weekly savings by the number of weeks: $15 \\times 12 = 180$."
+  },
+  {
+    "QuestionText": "A large watermelon weighs 4 kg 750 g. A smaller melon weighs 2 kg 300 g. How much heavier is the watermelon than the melon?",
+    "Options": ["A) 2 kg 450 g", "B) 2 kg 750 g", "C) 7 kg 050 g", "D) 1 kg 450 g"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Weight Problems",
+    "Difficulty": "Intermediate",
+    "Explanation": "Subtract the weights: $4 \\text{ kg } 750 \\text{ g} - 2 \\text{ kg } 300 \\text{ g} = 2 \\text{ kg } 450 \\text{ g}$."
+  },
+  {
+    "QuestionText": "A train left Station A at 10:45 AM and reached Station B at 2:15 PM on the same day. How long did the train journey take?",
+    "Options": ["A) 3 hours 30 minutes", "B) 4 hours 30 minutes", "C) 3 hours 45 minutes", "D) 4 hours 15 minutes"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Time Durations",
+    "Difficulty": "Advanced",
+    "Explanation": "From 10:45 AM to 1:45 PM is 3 hours. From 1:45 PM to 2:15 PM is another 30 minutes. Total time = 3 hours 30 minutes."
+  },
+  {
+    "QuestionText": "A farmer planted 15 rows of tomato plants. If there are 22 plants in each row, how many tomato plants did he plant altogether?",
+    "Options": ["A) 300", "B) 330", "C) 220", "D) 315"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Array Word Problems",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiply rows by plants per row: $15 \\times 22 = 330$ plants."
+  },
+  {
+    "QuestionText": "A bakery makes 120 muffins in the morning. By noon, they sell 85 muffins. Later, they bake 40 more fresh muffins. How many muffins do they have now?",
+    "Options": ["A) 75", "B) 65", "C) 35", "D) 95"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Multistep Problems",
+    "Difficulty": "Intermediate",
+    "Explanation": "Initial amount minus sold items: $120 - 85 = 35$. Add the newly baked ones: $35 + 40 = 75$ muffins."
+  },
+  {
+    "QuestionText": "A piece of string is 2 meters long. If Rohit cuts away a piece measuring 65 cm, how long is the remaining piece of string?",
+    "Options": ["A) 35 cm", "B) 135 cm", "C) 165 cm", "D) 45 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Length Applications",
+    "Difficulty": "Intermediate",
+    "Explanation": "Convert 2 meters into centimeters: $2 \\times 100 = 200$ cm. Subtract the cut piece: $200 - 65 = 135$ cm."
+  },
+  {
+    "QuestionText": "A restaurant bill comes to $48. If 4 friends decide to split the bill completely equally, how much money should each friend pay?",
+    "Options": ["A) $14", "B) $12", "C) $16", "D) $10"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Sharing & Rates",
+    "Difficulty": "Foundation",
+    "Explanation": "Divide the bill total by the number of friends: $48 \\div 4 = $12 each."
+  },
+  {
+    "QuestionText": "A book has 250 pages. Sneha reads 25 pages every day. How many days will it take her to finish reading the entire book?",
+    "Options": ["A) 8 days", "B) 12 days", "C) 10 days", "D) 15 days"],
+    "CorrectAnswer": "C",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Rate Word Problems",
+    "Difficulty": "Foundation",
+    "Explanation": "Divide total pages by daily reading output: $250 \\div 25 = 10$ days."
+  },
+  {
+    "QuestionText": "An apple costs $0.60. How much will a dozen apples cost?",
+    "Options": ["A) $6.00", "B) $7.20", "C) $6.20", "D) $8.00"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Money Calculation",
+    "Difficulty": "Intermediate",
+    "Explanation": "A dozen means 12 items. Total cost = $12 \\times 0.60 = $7.20."
+  },
+  {
+    "QuestionText": "The calendar shows that the 3rd day of a month is a Tuesday. What day of the week will the 17th day of that same month be?",
+    "Options": ["A) Monday", "B) Tuesday", "C) Wednesday", "D) Thursday"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Calendar Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "Days of the week repeat every 7 days. If the 3rd is a Tuesday, then the 10th ($3 + 7$) is a Tuesday, and the 17th ($10 + 7$) will also be a Tuesday."
+  },
+  {
+    "QuestionText": "A water tank holds 500 liters of water. If a family uses 65 liters in the morning and 85 liters in the evening, how much water is left in the tank?",
+    "Options": ["A) 350 liters", "B) 415 liters", "C) 380 liters", "D) 435 liters"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Capacity Management",
+    "Difficulty": "Intermediate",
+    "Explanation": "Total water used = $65 + 85 = 150$ liters. Water left = $500 - 150 = 350$ liters."
+  },
+  {
+    "QuestionText": "A school playground is 20 meters long and 15 meters wide. What is the area of the playground surface?",
+    "Options": ["A) 70 sq meters", "B) 300 sq meters", "C) 35 sq meters", "D) 150 sq meters"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Area Layouts",
+    "Difficulty": "Foundation",
+    "Explanation": "Area of a rectangular plot = $\\text{length} \\times \\text{width} = 20 \\times 15 = 300$ square meters."
+  },
+  {
+    "QuestionText": "An oil can contains 3 liters of cooking oil. If a chef uses 400 mL of oil every day, how many milliliters of oil are left in the can after 4 days?",
+    "Options": ["A) 1,400 mL", "B) 1,600 mL", "C) 2,600 mL", "D) 1,200 mL"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Liquid Measurements",
+    "Difficulty": "Advanced",
+    "Explanation": "3 liters = 3,000 mL. Oil used in 4 days = $400 \\times 4 = 1,600$ mL. Oil left = $3,000 - 1,600 = 1,400$ mL."
+  },
+  {
+    "QuestionText": "A toy factory produces 148 toys every hour. How many toys can it produce in a regular 8-hour shift?",
+    "Options": ["A) 1,184", "B) 1,084", "C) 1,124", "D) 884"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Production Math",
+    "Difficulty": "Intermediate",
+    "Explanation": "Multiply hourly output by shift duration: $148 \\times 8 = 1,184$ toys."
+  },
+  {
+    "QuestionText": "If a fence costs $9 per meter to install, how much will it cost to fence a square garden plot that has a side length of 6 meters?",
+    "Options": ["A) $54", "B) $216", "C) $108", "D) $144"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Perimeter Costing",
+    "Difficulty": "Advanced",
+    "Explanation": "The perimeter of the square garden = $4 \\times 6 = 24$ meters. Total price = $24 \\text{ meters} \\times $9 = $216."
+  },
+  {
+    "QuestionText": "A box of pens costs $24. If there are 8 pens inside the box, what is the cost of a single pen?",
+    "Options": ["A) $4", "B) $3", "C) $6", "D) $2"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Unit Rates",
+    "Difficulty": "Foundation",
+    "Explanation": "Divide total box cost by individual item count: $24 \\div 8 = $3 per pen."
+  },
+  {
+    "QuestionText": "Meera's clock loses 5 minutes every hour. If she sets the clock accurately at 12:00 Noon, what incorrect time will her faulty clock display when the actual time is 6:00 PM?",
+    "Options": ["A) 5:30 PM", "B) 5:35 PM", "C) 6:30 PM", "D) 5:55 PM"],
+    "CorrectAnswer": "A",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Advanced Time Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "From 12:00 Noon to 6:00 PM is exactly 6 hours. Total minutes lost = $6 \\times 5 = 30$ minutes. The clock will lag behind, showing 30 minutes before 6:00 PM, which is 5:30 PM."
+  },
+  {
+    "QuestionText": "A box contains 45 apples. $\\frac{2}{5}$ of them are green and the rest are red. How many red apples are in the box?",
+    "Options": ["A) 18", "B) 27", "C) 25", "D) 30"],
+    "CorrectAnswer": "B",
+    "Topic": "Everyday Mathematics",
+    "SubTopic": "Fractions & Groups",
+    "Difficulty": "Olympiad",
+    "Explanation": "Number of green apples = $\\frac{2}{5} \\times 45 = 2 \\times 9 = 18$. The remaining apples are red: $45 - 18 = 27$ red apples."
+  }
+]

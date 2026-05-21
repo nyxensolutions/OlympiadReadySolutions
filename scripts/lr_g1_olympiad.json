@@ -1,0 +1,83 @@
+[
+  {
+    "QuestionText": "Find the next shape in the series: a triangle with 1 dot inside, a square with 2 dots inside, a pentagon with 3 dots inside, __.",
+    "Options": ["A hexagon with 4 dots", "A square with 4 dots", "A circle with 4 dots", "A hexagon with 3 dots"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "The number of sides increases by 1 (3, 4, 5, so next is 6 - hexagon). The number of dots increases by 1 (1, 2, 3, so next is 4)."
+  },
+  {
+    "QuestionText": "If the code for CAT is 3-1-20, what is the code for DOG?",
+    "Options": ["4-15-7", "4-16-8", "3-15-7", "5-14-6"],
+    "CorrectAnswer": "A",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Olympiad",
+    "Explanation": "The code uses the numerical position of the letters in the alphabet. D=4, O=15, G=7."
+  },
+  {
+    "QuestionText": "Aarav has 3 sisters and 2 brothers. How many children are there in Aarav's family?",
+    "Options": ["5", "6", "4", "7"],
+    "CorrectAnswer": "B",
+    "Topic": "Analytical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "3 sisters + 2 brothers + Aarav himself = 6 children."
+  },
+  {
+    "QuestionText": "Which letter is fifth from the right end in the word OLYMPIAD?",
+    "Options": ["M", "P", "Y", "L"],
+    "CorrectAnswer": "B",
+    "Topic": "Alphabet Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "Counting from the right: D(1), A(2), I(3), P(4), M(5). Wait, let's recount. O L Y M P I A D. D=1, A=2, I=3, P=4, M=5. The 5th letter from the right is M. (Options: A is M, B is P). The answer should be M, let's fix the CorrectAnswer.",
+    "CorrectAnswer": "A"
+  },
+  {
+    "QuestionText": "If today is Tuesday, what day was it 3 days ago?",
+    "Options": ["Saturday", "Sunday", "Monday", "Friday"],
+    "CorrectAnswer": "A",
+    "Topic": "Time Sequence",
+    "Difficulty": "Olympiad",
+    "Explanation": "Counting backwards from Tuesday: Monday (1 day ago), Sunday (2 days ago), Saturday (3 days ago)."
+  },
+  {
+    "QuestionText": "Find the odd one out from the numbers: 2, 4, 6, 9, 10",
+    "Options": ["2", "4", "6", "9"],
+    "CorrectAnswer": "D",
+    "Topic": "Number Classification",
+    "Difficulty": "Olympiad",
+    "Explanation": "2, 4, 6, and 10 are even numbers. 9 is an odd number."
+  },
+  {
+    "QuestionText": "In a race, Priya is running ahead of Sneha but behind Rohan. Who is running first?",
+    "Options": ["Priya", "Sneha", "Rohan", "Cannot be determined"],
+    "CorrectAnswer": "C",
+    "Topic": "Ranking and Ordering",
+    "Difficulty": "Olympiad",
+    "Explanation": "Order from first to last: Rohan -> Priya -> Sneha. So Rohan is first."
+  },
+  {
+    "QuestionText": "Pointing to a picture of a man, Rahul said, 'He is the father of my brother.' How is the man related to Rahul?",
+    "Options": ["Uncle", "Grandfather", "Father", "Brother"],
+    "CorrectAnswer": "C",
+    "Topic": "Blood Relations",
+    "Difficulty": "Olympiad",
+    "Explanation": "Rahul's brother's father is also Rahul's father."
+  },
+  {
+    "QuestionText": "What comes next: 1A, 2B, 3C, 4D, __?",
+    "Options": ["5D", "5E", "6E", "4E"],
+    "CorrectAnswer": "B",
+    "Topic": "Alphanumeric Series",
+    "Difficulty": "Olympiad",
+    "Explanation": "The number increases by 1 (1, 2, 3, 4, 5) and the letter goes to the next alphabet (A, B, C, D, E)."
+  },
+  {
+    "QuestionText": "How many squares are there in a window shaped like a big square divided into 4 smaller equal squares?",
+    "Options": ["4", "5", "6", "8"],
+    "CorrectAnswer": "B",
+    "Topic": "Figure Counting",
+    "Difficulty": "Olympiad",
+    "Explanation": "There are 4 small squares and 1 large outer square. Total = 4 + 1 = 5 squares."
+  }
+]

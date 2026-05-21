@@ -18,19 +18,23 @@ public class QuizController : ControllerBase
     /// Answer is NOT included — client must call POST /api/quiz/answer to reveal it.
     /// </summary>
     [HttpGet("daily")]
-    public async Task<IActionResult> Daily([FromQuery] int grade = 6, CancellationToken ct = default)
+    public async Task<IActionResult> Daily([FromQuery] int grade = 6, [FromQuery] string? subject = null, CancellationToken ct = default)
     {
         if (grade < 1 || grade > 12)
             return BadRequest(new { error = "grade must be between 1 and 12" });
 
-        var count = await _db.QuestionBank.CountAsync(q => q.Grade == grade, ct);
+        var query = _db.QuestionBank.AsNoTracking().Where(q => q.Grade == grade);
+        if (!string.IsNullOrEmpty(subject))
+        {
+            query = query.Where(q => q.Subject == subject);
+        }
+
+        var count = await query.CountAsync(ct);
         if (count == 0)
-            return NotFound(new { error = "No questions found for this grade." });
+            return NotFound(new { error = "No questions found for this grade and subject." });
 
         var skip = Random.Shared.Next(0, count);
-        var item = await _db.QuestionBank
-            .AsNoTracking()
-            .Where(q => q.Grade == grade)
+        var item = await query
             .Skip(skip)
             .FirstOrDefaultAsync(ct);
 

@@ -131,7 +131,7 @@ export function PracticeShell({
         }} 
       />
 
-      <GeneratorFlow key={olympiad} initialConfig={subjectOverride} autoStart={autoStart} />
+      <GeneratorFlow key={olympiad} initialConfig={subjectOverride} autoStart={autoStart} olympiadId={olympiad} />
     </div>
   );
 }

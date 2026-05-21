@@ -1,0 +1,82 @@
+[
+  {
+    "QuestionText": "Which shape comes next in the pattern? Circle, Square, Triangle, Circle, Square, __",
+    "Options": ["Circle", "Square", "Triangle", "Rectangle"],
+    "CorrectAnswer": "C",
+    "Topic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The repeating pattern is Circle, Square, Triangle. After the second Square, the next shape is a Triangle."
+  },
+  {
+    "QuestionText": "Find the odd one out.",
+    "Options": ["Apple", "Banana", "Car", "Grapes"],
+    "CorrectAnswer": "C",
+    "Topic": "Classification",
+    "Difficulty": "Advanced",
+    "Explanation": "Apple, Banana, and Grapes are fruits. A Car is a vehicle."
+  },
+  {
+    "QuestionText": "If A is 1, B is 2, C is 3, what is E?",
+    "Options": ["4", "5", "6", "7"],
+    "CorrectAnswer": "B",
+    "Topic": "Coding-Decoding",
+    "Difficulty": "Advanced",
+    "Explanation": "The letters correspond to their position in the alphabet. E is the 5th letter."
+  },
+  {
+    "QuestionText": "A boy is facing North. He turns to his right. Which direction is he facing now?",
+    "Options": ["South", "East", "West", "North"],
+    "CorrectAnswer": "B",
+    "Topic": "Direction Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Turning right from North takes you to the East."
+  },
+  {
+    "QuestionText": "Which number comes next? 10, 20, 30, 40, __",
+    "Options": ["45", "50", "60", "70"],
+    "CorrectAnswer": "B",
+    "Topic": "Number Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is adding 10 each time. 40 + 10 = 50."
+  },
+  {
+    "QuestionText": "Look at the letters: M N O P Q. Which letter is exactly in the middle?",
+    "Options": ["N", "O", "P", "Q"],
+    "CorrectAnswer": "B",
+    "Topic": "Alphabet Test",
+    "Difficulty": "Advanced",
+    "Explanation": "There are 5 letters. The third letter 'O' is in the middle with two letters on each side."
+  },
+  {
+    "QuestionText": "If CAT is related to KITTEN, then DOG is related to __?",
+    "Options": ["PUPPY", "CUB", "CALF", "FOAL"],
+    "CorrectAnswer": "A",
+    "Topic": "Analogy",
+    "Difficulty": "Advanced",
+    "Explanation": "A kitten is a baby cat. A puppy is a baby dog."
+  },
+  {
+    "QuestionText": "How many corners does a triangle have?",
+    "Options": ["2", "3", "4", "5"],
+    "CorrectAnswer": "B",
+    "Topic": "Geometrical Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "A triangle has 3 sides and 3 corners."
+  },
+  {
+    "QuestionText": "Rohan is taller than Amit. Amit is taller than Sumit. Who is the tallest?",
+    "Options": ["Rohan", "Amit", "Sumit", "Cannot say"],
+    "CorrectAnswer": "A",
+    "Topic": "Ranking and Ordering",
+    "Difficulty": "Advanced",
+    "Explanation": "Rohan > Amit > Sumit. Therefore, Rohan is the tallest."
+  },
+  {
+    "QuestionText": "Find the missing letter in the pattern: A, C, E, G, __",
+    "Options": ["H", "I", "J", "K"],
+    "CorrectAnswer": "B",
+    "Topic": "Alphabet Series",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern skips one letter (B, D, F are skipped). After G, we skip H and the next letter is I."
+  }
+]

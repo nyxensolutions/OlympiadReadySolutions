@@ -469,7 +469,7 @@ function SpellBeeBody() {
 
         {/* Sidebar Section: Daily Quiz */}
         <div className="space-y-6">
-          <DailyQuizCard grade={grade} />
+          <DailyQuizCard grade={grade} subject="Spell Bee" />
           
           <div className="rounded-2xl border border-slate-200 bg-white p-5">
             <h3 className="font-bold text-slate-900 flex items-center gap-2 mb-3">

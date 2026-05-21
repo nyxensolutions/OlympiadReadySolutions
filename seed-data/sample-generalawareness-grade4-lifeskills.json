@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "What is the most effective way to practice active listening when a friend is sharing their feelings with you?",
+    "Options": [
+      "A) Interrupting them to share your own story",
+      "B) Looking away and checking your watch",
+      "C) Maintaining eye contact and nodding to show you understand",
+      "D) Thinking about what you want to eat for lunch"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Foundation",
+    "Explanation": "Active listening requires giving your full attention to the speaker, which helps build trust and ensures the other person feels heard and valued."
+  },
+  {
+    "QuestionText": "If you accidentally break a friend's toy, what is the most responsible action to take?",
+    "Options": [
+      "A) Hide the broken pieces and say nothing",
+      "B) Blame someone else",
+      "C) Apologize sincerely and offer to help fix or replace it",
+      "D) Ignore your friend until they forget about it"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Foundation",
+    "Explanation": "Taking responsibility for one's mistakes and making amends is a hallmark of integrity and helps maintain strong, healthy friendships."
+  },
+  {
+    "QuestionText": "Which value describes the ability to accept that people are different and respect their unique backgrounds, beliefs, or choices?",
+    "Options": [
+      "A) Tolerance",
+      "B) Competition",
+      "C) Exclusion",
+      "D) Judgment"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Tolerance and Inclusion: Respecting diversity and fostering harmony.",
+    "Difficulty": "Foundation",
+    "Explanation": "Tolerance is essential for living peacefully in a diverse society, allowing people to coexist respectfully despite their differences."
+  },
+  {
+    "QuestionText": "When faced with a difficult decision between doing what is right and what is 'easy' or popular, what should guide your choice?",
+    "Options": [
+      "A) Peer pressure",
+      "B) Your conscience and values",
+      "C) What makes the most people laugh",
+      "D) What you see on social media"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Foundation",
+    "Explanation": "Following your internal moral compass (conscience) ensures that you make decisions that align with your character, rather than bowing to external pressures."
+  },
+  {
+    "QuestionText": "What is the primary purpose of showing gratitude to others?",
+    "Options": [
+      "A) To get something in return later",
+      "B) To acknowledge the kindness or support someone has provided",
+      "C) To make yourself look better to teachers",
+      "D) Because you are forced to by rules"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Gratitude and Kindness: Developing a positive mindset and appreciating others.",
+    "Difficulty": "Foundation",
+    "Explanation": "Gratitude strengthens relationships and creates a positive environment by showing people that their efforts are genuinely noticed and appreciated."
+  },
+  {
+    "QuestionText": "How can a student best demonstrate resilience after failing a test despite studying hard?",
+    "Options": [
+      "A) Quitting the subject entirely",
+      "B) Blaming the teacher for the questions",
+      "C) Reviewing mistakes, learning from them, and trying a new study method",
+      "D) Complaining that the test was unfair"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Resilience and Growth Mindset: Overcoming setbacks and learning from failure.",
+    "Difficulty": "Foundation",
+    "Explanation": "Resilience is the ability to bounce back from disappointment. Viewing failure as a learning opportunity rather than a dead end is key to growth."
+  },
+  {
+    "QuestionText": "If you see a classmate sitting alone and looking sad, what is the most empathetic thing to do?",
+    "Options": [
+      "A) Laugh at them from a distance",
+      "B) Ignore them to avoid feeling uncomfortable",
+      "C) Approach them kindly and ask if they would like to talk or play",
+      "D) Tell everyone else to ignore them too"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Foundation",
+    "Explanation": "Empathy involves putting yourself in someone else's shoes. Reaching out with kindness is a simple way to practice this essential social skill."
+  },
+  {
+    "QuestionText": "What does it mean to be a good team player?",
+    "Options": [
+      "A) Trying to do all the work by yourself to ensure it's done right",
+      "B) Collaborating, sharing ideas, and supporting teammates to achieve a goal",
+      "C) Only focusing on your own tasks and ignoring others",
+      "D) Arguing until everyone agrees with your way"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Teamwork and Cooperation: Working effectively in groups.",
+    "Difficulty": "Foundation",
+    "Explanation": "Teamwork is about collective success. It requires effective communication, contribution, and mutual support to accomplish tasks efficiently."
+  },
+  {
+    "QuestionText": "Which action shows respect for your school and public property?",
+    "Options": [
+      "A) Writing your name on the school desk",
+      "B) Throwing litter in the trash bin instead of on the floor",
+      "C) Tearing pages out of library books",
+      "D) Leaving the lights on when leaving a room"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Foundation",
+    "Explanation": "Taking care of shared spaces and resources demonstrates civic responsibility and respect for the community that uses them."
+  },
+  {
+    "QuestionText": "When you are angry, what is a healthy way to manage your emotions?",
+    "Options": [
+      "A) Yelling at the first person you see",
+      "B) Taking deep breaths and counting to ten before speaking",
+      "C) Breaking something to let the anger out",
+      "D) Sulking for the rest of the day"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Emotional Intelligence: Self-awareness and self-regulation.",
+    "Difficulty": "Foundation",
+    "Explanation": "Self-regulation is the ability to manage your emotional reactions. Pausing allows you to respond calmly instead of reacting impulsively."
+  },
+  {
+    "QuestionText": "Why is it important to tell the truth even when you might get into trouble?",
+    "Options": [
+      "A) Because you want the teacher to like you",
+      "B) Because honesty builds trust and helps you learn from mistakes",
+      "C) Because you are afraid of being caught later",
+      "D) Because it is just a rule adults make up"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Foundation",
+    "Explanation": "Honesty is the foundation of character. Facing the consequences of your actions with the truth allows you to maintain your integrity."
+  },
+  {
+    "QuestionText": "What does 'conflict resolution' mean?",
+    "Options": [
+      "A) Using physical force to win an argument",
+      "B) Avoiding the person you are arguing with forever",
+      "C) Finding a peaceful and fair solution to a disagreement",
+      "D) Getting an adult to punish the other person"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Foundation",
+    "Explanation": "Conflict is normal in life. Knowing how to negotiate, listen, and find compromises helps maintain positive relationships."
+  },
+  {
+    "QuestionText": "Which of these is an example of a 'Growth Mindset'?",
+    "Options": [
+      "A) 'I'm just not good at math, so I'll never be'",
+      "B) 'This problem is hard, but I can figure it out if I keep trying'",
+      "C) 'I only want to do things that I'm already good at'",
+      "D) 'I didn't win, so the game is boring'"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Resilience and Growth Mindset: Overcoming setbacks and learning from failure.",
+    "Difficulty": "Foundation",
+    "Explanation": "A growth mindset is the belief that abilities can be developed through hard work and perseverance."
+  },
+  {
+    "QuestionText": "If you notice someone is being bullied, what is the best thing to do?",
+    "Options": [
+      "A) Join in so you don't become a target",
+      "B) Watch silently because it's none of your business",
+      "C) Safely speak up or inform a trusted adult immediately",
+      "D) Tell the victim it's their fault"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Foundation",
+    "Explanation": "Being an 'upstander' rather than a bystander is crucial to preventing bullying and fostering a safe school community."
+  },
+  {
+    "QuestionText": "What does it mean to be 'punctual'?",
+    "Options": [
+      "A) Doing your homework at the last minute",
+      "B) Arriving on time for meetings, school, and appointments",
+      "C) Taking a very long time to get ready",
+      "D) Skipping events if you are tired"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Foundation",
+    "Explanation": "Punctuality shows respect for other people's time and is a key habit for success in both school and life."
+  },
+  {
+    "QuestionText": "What is the best way to deal with a peer who keeps pressuring you to do something you know is wrong?",
+    "Options": [
+      "A) Go along with it just this once",
+      "B) Firmly say 'No' and walk away",
+      "C) Make fun of them until they stop",
+      "D) Secretly do it but pretend you didn't"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Assertiveness is a critical skill. Setting boundaries and standing up for your values is necessary when facing negative peer pressure."
+  },
+  {
+    "QuestionText": "When giving constructive feedback to a teammate, what is the most respectful approach?",
+    "Options": [
+      "A) Focus only on what they did wrong",
+      "B) Use a 'sandwich' approach: mention something they did well, a suggestion for improvement, and end with an encouraging remark",
+      "C) Tell them they are the reason the team is failing",
+      "D) Tell them they are 'okay' but don't explain why"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Teamwork and Cooperation: Working effectively in groups.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Constructive feedback is meant to help someone improve, not to discourage them. Kindness and specific advice are more effective than criticism."
+  },
+  {
+    "QuestionText": "What is the primary benefit of practicing mindfulness or 'being present'?",
+    "Options": [
+      "A) It helps you ignore all your problems",
+      "B) It allows you to calm your mind and focus better on the task at hand",
+      "C) It makes you sleep through your classes",
+      "D) It prevents you from ever feeling sad again"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Emotional Intelligence: Self-awareness and self-regulation.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Mindfulness involves paying attention to the present moment without judgment, which is highly effective for reducing stress and improving focus."
+  },
+  {
+    "QuestionText": "Why is it important to celebrate the success of others rather than feeling jealous?",
+    "Options": [
+      "A) It makes the other person feel guilty",
+      "B) It builds a supportive community and shows that you have high self-esteem",
+      "C) It hides your own failures",
+      "D) Because you have to be polite even if you don't like them"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Gratitude and Kindness: Developing a positive mindset and appreciating others.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Jealousy creates division. Celebrating others shows that you are secure in yourself and value collaborative growth over unhealthy competition."
+  },
+  {
+    "QuestionText": "Which of these demonstrates 'critical thinking' when you hear a rumor?",
+    "Options": [
+      "A) Spreading it quickly to see if it's true",
+      "B) Believing it immediately if it sounds exciting",
+      "C) Asking yourself: 'Is there proof?' and 'Why is this being shared?'",
+      "D) Assuming it's true because a popular person said it"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Critical thinking involves questioning information, analyzing evidence, and not accepting claims without verification."
+  },
+  {
+    "QuestionText": "How does 'empathy' differ from 'sympathy'?",
+    "Options": [
+      "A) They are exactly the same thing",
+      "B) Sympathy is feeling for someone, whereas empathy is trying to feel with them or understand their perspective",
+      "C) Empathy is only for close family, sympathy is for strangers",
+      "D) Sympathy is a negative trait, empathy is positive"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Empathy is a deeper form of connection because it involves actively attempting to understand the emotional experience of another person."
+  },
+  {
+    "QuestionText": "If you are working on a group project and two members are arguing, what is the best way to help the team move forward?",
+    "Options": [
+      "A) Pick a side and start arguing back",
+      "B) Ask them to listen to each other and help them find a common ground",
+      "C) Tell the teacher so they get in trouble",
+      "D) Just do the project by yourself so you don't have to deal with them"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Teamwork and Cooperation: Working effectively in groups.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Good team members act as mediators to resolve conflicts, ensuring the group remains focused on their goal rather than personal disagreements."
+  },
+  {
+    "QuestionText": "What does it mean to have 'integrity'?",
+    "Options": [
+      "A) Being very smart at school",
+      "B) Acting according to your moral values, even when no one is watching",
+      "C) Doing what the crowd does to be liked",
+      "D) Being the loudest person in the room"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Integrity is the consistency of your actions, values, and character, regardless of whether you are being observed by others."
+  },
+  {
+    "QuestionText": "What is the main reason for setting short-term and long-term goals?",
+    "Options": [
+      "A) To impress your friends and parents",
+      "B) To give yourself direction, motivation, and a way to measure progress",
+      "C) To make school feel more difficult",
+      "D) Because teachers force you to write them down"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Intermediate",
+    "Explanation": "Goals provide a roadmap. Short-term goals help build the habits necessary to achieve larger, long-term aspirations."
+  },
+  {
+    "QuestionText": "Why is it important to learn how to apologize correctly?",
+    "Options": [
+      "A) So you can get out of a punishment quickly",
+      "B) Because it shows maturity and helps heal the hurt caused by your actions",
+      "C) Because you only need to apologize if you are caught",
+      "D) It is not important; actions speak louder than words"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Intermediate",
+    "Explanation": "A true apology includes recognizing the impact of your actions, expressing regret, and offering to make it right, not just saying the words."
+  },
+  {
+    "QuestionText": "What is a good strategy to keep your cool when a teammate loses a match and blames the team?",
+    "Options": [
+      "A) Explain calmly that everyone made mistakes and focus on what to do better next time",
+      "B) Argue back to prove they made mistakes too",
+      "C) Walk away and never play with them again",
+      "D) Agree with them so they stop complaining"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Emotional Intelligence: Self-awareness and self-regulation.",
+    "Difficulty": "Advanced",
+    "Explanation": "Maintaining emotional regulation and focusing on constructive problem-solving helps de-escalate tension and keeps the team spirit intact."
+  },
+  {
+    "QuestionText": "What is the concept of 'Universal Values'?",
+    "Options": [
+      "A) Only values that your family believes in",
+      "B) Values that are accepted as good and important by most cultures and societies around the world",
+      "C) Values that only adults can follow",
+      "D) Rules that change depending on which country you are in"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Tolerance and Inclusion: Respecting diversity and fostering harmony.",
+    "Difficulty": "Advanced",
+    "Explanation": "Universal values like honesty, kindness, and respect form the ethical basis for coexistence across different cultures."
+  },
+  {
+    "QuestionText": "If a friend is being excluded from a group game, what is an inclusive action to take?",
+    "Options": [
+      "A) Wait until the game is over to talk to them",
+      "B) Invite them to join or suggest a game that everyone can play together",
+      "C) Ignore it, as it is the group leader's decision",
+      "D) Laugh along with the group to avoid being excluded yourself"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Tolerance and Inclusion: Respecting diversity and fostering harmony.",
+    "Difficulty": "Advanced",
+    "Explanation": "Inclusion is an active choice. Taking steps to make others feel welcome is a core value that fosters a healthy and supportive social environment."
+  },
+  {
+    "QuestionText": "How does 'self-awareness' help in decision-making?",
+    "Options": [
+      "A) It makes you more confident in your bad choices",
+      "B) By helping you recognize your own strengths, weaknesses, and triggers so you can make choices that align with your best self",
+      "C) It allows you to blame others more easily",
+      "D) It prevents you from ever needing advice"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Emotional Intelligence: Self-awareness and self-regulation.",
+    "Difficulty": "Advanced",
+    "Explanation": "When you understand your emotions and cognitive patterns (self-awareness), you can pause and make choices that are rational rather than reactive."
+  },
+  {
+    "QuestionText": "What does 'collaboration' imply that is different from simple 'cooperation'?",
+    "Options": [
+      "A) Collaboration means doing all the work for someone else",
+      "B) Collaboration implies a deeper working relationship where ideas are combined and created together",
+      "C) They are exactly the same and can be used interchangeably",
+      "D) Collaboration is only for adults in businesses"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Teamwork and Cooperation: Working effectively in groups.",
+    "Difficulty": "Advanced",
+    "Explanation": "While cooperation is working alongside others, collaboration involves active co-creation, blending unique perspectives to solve complex problems."
+  },
+  {
+    "QuestionText": "Why is it important to be skeptical of 'clickbait' headlines online?",
+    "Options": [
+      "A) Because they are always free to read",
+      "B) Because they are designed to grab attention using exaggerated or misleading claims rather than facts",
+      "C) Because you should only read books",
+      "D) Because only older people should read online news"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Advanced",
+    "Explanation": "Media literacy involves understanding how information is presented. Questioning sensationalized headlines is essential for avoiding misinformation."
+  },
+  {
+    "QuestionText": "What does it mean to be a 'responsible citizen' in your school?",
+    "Options": [
+      "A) Only following the rules when the teacher is watching",
+      "B) Contributing to the school community by following rules, helping others, and caring for the environment",
+      "C) Doing only the bare minimum of work required",
+      "D) Avoiding all extracurricular activities"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Advanced",
+    "Explanation": "Responsible citizenship involves active engagement and taking ownership of your role in making the community better for everyone."
+  },
+  {
+    "QuestionText": "If you realize you have made an error that affects your whole team, what is the most mature response?",
+    "Options": [
+      "A) Hide it and hope no one finds out",
+      "B) Immediately admit the mistake, explain how it happened, and help the team find a way to fix it",
+      "C) Quit the team before they figure it out",
+      "D) Blame a teammate who had nothing to do with it"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Advanced",
+    "Explanation": "Admitting mistakes shows accountability. In a team setting, it builds trust and allows for immediate collaborative correction."
+  },
+  {
+    "QuestionText": "How can you practice 'active empathy' when someone is expressing an opinion you strongly disagree with?",
+    "Options": [
+      "A) Stop listening and wait for your turn to argue",
+      "B) Try to understand the life experience or reasoning that led them to that opinion, even if you still disagree",
+      "C) Tell them their opinion is wrong immediately",
+      "D) Leave the conversation immediately"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Advanced",
+    "Explanation": "You don't have to agree with someone to empathize with their perspective. Understanding the 'why' behind an opinion is the basis of civil discourse."
+  },
+  {
+    "QuestionText": "What does 'self-regulation' involve in the context of academic stress?",
+    "Options": [
+      "A) Avoiding the subjects that stress you out",
+      "B) Acknowledging your stress and using strategies like scheduling breaks and deep breathing to stay productive",
+      "C) Working through the night without sleeping to finish everything",
+      "D) Expecting the teacher to make the test easier"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Emotional Intelligence: Self-awareness and self-regulation.",
+    "Difficulty": "Advanced",
+    "Explanation": "Self-regulation is essential for managing academic pressure. It helps you maintain peak performance by managing your physical and mental health."
+  },
+  {
+    "QuestionText": "What is the value of 'diversity' within a team?",
+    "Options": [
+      "A) It makes the team slower to make decisions",
+      "B) It brings different perspectives, experiences, and skills that lead to more creative solutions",
+      "C) It causes too many arguments",
+      "D) It is only important in sports"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Tolerance and Inclusion: Respecting diversity and fostering harmony.",
+    "Difficulty": "Advanced",
+    "Explanation": "Diversity is a strength. Teams that incorporate varied perspectives are generally more innovative and effective at solving complex problems."
+  },
+  {
+    "QuestionText": "If you are setting a long-term goal, why is it beneficial to break it down into smaller, daily actions?",
+    "Options": [
+      "A) So you can procrastinate more easily",
+      "B) It makes the goal feel less overwhelming and allows you to track progress daily",
+      "C) Because it takes more time to plan",
+      "D) To make the goal seem harder to reach"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Advanced",
+    "Explanation": "Breaking down goals prevents overwhelm. Daily actions create the consistency and habits necessary to achieve long-term success."
+  },
+  {
+    "QuestionText": "Why is 'active silence' sometimes a powerful communication tool?",
+    "Options": [
+      "A) It means you have nothing to say",
+      "B) It gives the other person space to process their thoughts and speak more deeply",
+      "C) It is a way to show you are not listening",
+      "D) It is used to make the other person nervous"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Advanced",
+    "Explanation": "Active silence shows respect for the speaker’s process. It encourages the other person to share more thoughtfully and completely."
+  },
+  {
+    "QuestionText": "What is the main challenge of 'peer pressure' and how can critical thinking help?",
+    "Options": [
+      "A) Peer pressure is always positive; critical thinking is not needed",
+      "B) It challenges your values; critical thinking allows you to analyze if the pressure aligns with your own principles",
+      "C) It is impossible to resist; critical thinking just makes it harder",
+      "D) Peer pressure is only found in movies"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Advanced",
+    "Explanation": "The power of peer pressure lies in our desire for social belonging. Critical thinking helps you decouple that desire from the actual morality of the requested action."
+  },
+  {
+    "QuestionText": "What is 'gratitude journaling' and why is it recommended?",
+    "Options": [
+      "A) It is writing down everything you want to buy",
+      "B) Writing down things you are thankful for to train your brain to look for the positive",
+      "C) It is a way to list people you are mad at",
+      "D) It is a school assignment that takes too much time"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Gratitude and Kindness: Developing a positive mindset and appreciating others.",
+    "Difficulty": "Advanced",
+    "Explanation": "Research suggests that consistently practicing gratitude changes neural patterns, making individuals more optimistic and better at handling challenges."
+  },
+  {
+    "QuestionText": "In a team, why is it vital to appreciate different roles?",
+    "Options": [
+      "A) So you can trade jobs if you don't like yours",
+      "B) Because every role is essential to the overall goal, and acknowledging this builds mutual respect",
+      "C) So the leader knows who is doing the most work",
+      "D) Because it's a rule to be nice"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Teamwork and Cooperation: Working effectively in groups.",
+    "Difficulty": "Advanced",
+    "Explanation": "Mutual respect for different contributions ensures that all members feel valued, which increases overall team motivation and performance."
+  },
+  {
+    "QuestionText": "What is the role of 'self-reflection' after a conflict?",
+    "Options": [
+      "A) To figure out how to make the other person look worse",
+      "B) To analyze your own part in the conflict and identify how to handle it better next time",
+      "C) To decide why you were right and they were wrong",
+      "D) To forget the conflict ever happened"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Emotional Intelligence: Self-awareness and self-regulation.",
+    "Difficulty": "Advanced",
+    "Explanation": "Self-reflection is the final step in conflict resolution. It allows you to learn from your own mistakes and behaviors, fostering emotional growth."
+  },
+  {
+    "QuestionText": "What does it mean to be a 'global citizen'?",
+    "Options": [
+      "A) Someone who travels to every country",
+      "B) Someone who understands that we all share a planet and acts with respect for people and the environment globally",
+      "C) Someone who only cares about their own country",
+      "D) Someone who speaks more than three languages"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Tolerance and Inclusion: Respecting diversity and fostering harmony.",
+    "Difficulty": "Advanced",
+    "Explanation": "Global citizenship involves recognizing interconnectedness and taking responsibility for the impact of one's actions on the wider world."
+  },
+  {
+    "QuestionText": "How can you show kindness when someone is going through a tough time?",
+    "Options": [
+      "A) Giving them space while letting them know you are there if they need anything",
+      "B) Asking them constantly what is wrong",
+      "C) Telling them that their problems aren't that bad",
+      "D) Avoiding them because you don't know what to say"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Gratitude and Kindness: Developing a positive mindset and appreciating others.",
+    "Difficulty": "Advanced",
+    "Explanation": "True kindness respects the other person's boundaries. Providing support in a non-intrusive way ensures they feel cared for without being pressured."
+  },
+  {
+    "QuestionText": "Why is it important to learn 'conflict resolution' rather than just having an adult solve it?",
+    "Options": [
+      "A) Because adults are too busy",
+      "B) It builds your own confidence and skills to navigate complex social situations independently in the future",
+      "C) Because you should never talk to adults about problems",
+      "D) Because it's faster"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Communication and Empathy: Understanding others and effective interaction.",
+    "Difficulty": "Advanced",
+    "Explanation": "Developing independence in social problem-solving is a core component of maturation and self-efficacy."
+  },
+  {
+    "QuestionText": "What does 'grit' mean in a learning context?",
+    "Options": [
+      "A) Getting the right answer immediately",
+      "B) Passion and perseverance in pursuing long-term goals despite setbacks",
+      "C) Working hard only on things you like",
+      "D) Refusing to ask for help"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Resilience and Growth Mindset: Overcoming setbacks and learning from failure.",
+    "Difficulty": "Advanced",
+    "Explanation": "Grit combines endurance and passion. It is the ability to persist through challenge, which is a stronger predictor of success than talent alone."
+  },
+  {
+    "QuestionText": "When you are in a team, why is it better to build consensus rather than just voting?",
+    "Options": [
+      "A) Voting is too complicated",
+      "B) Consensus ensures everyone feels heard and is committed to the final decision, reducing resentment",
+      "C) Consensus is always faster than voting",
+      "D) Voting is unfair to the leader"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Teamwork and Cooperation: Working effectively in groups.",
+    "Difficulty": "Advanced",
+    "Explanation": "Consensus focuses on unity and buy-in, whereas voting can leave a significant portion of the team dissatisfied with the outcome."
+  },
+  {
+    "QuestionText": "What is the danger of 'confirmation bias' when trying to learn the truth about a topic?",
+    "Options": [
+      "A) It makes you learn too fast",
+      "B) It is the tendency to only search for or believe information that confirms what you already think",
+      "C) It is when you share too much information online",
+      "D) It is the danger of reading too many books"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Advanced",
+    "Explanation": "Confirmation bias blinds us to alternative perspectives. Overcoming it is necessary for genuine intellectual growth and accurate understanding."
+  },
+  {
+    "QuestionText": "How can you model 'integrity' for younger students?",
+    "Options": [
+      "A) By showing them how to break rules without getting caught",
+      "B) By being honest, following through on your commitments, and owning your mistakes in front of them",
+      "C) By telling them you are better than them",
+      "D) By only doing good things when they are watching"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Responsibility and Honesty: Taking ownership of actions and being truthful.",
+    "Difficulty": "Advanced",
+    "Explanation": "Actions are the strongest teaching tool. Consistently practicing integrity teaches younger peers how to navigate life with strong character."
+  },
+  {
+    "QuestionText": "What is the most effective way to manage a heavy workload?",
+    "Options": [
+      "A) Doing everything at once and hoping it works out",
+      "B) Prioritizing tasks by importance and urgency, and breaking them into manageable steps",
+      "C) Ignoring the work until the deadline is very close",
+      "D) Asking someone else to do it for you"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Life Skills and Values",
+    "SubTopic": "Decision Making: Making choices based on ethics and principles.",
+    "Difficulty": "Advanced",
+    "Explanation": "Effective time and task management involves logical prioritization, which reduces stress and increases the quality of the final output."
+  }
+]

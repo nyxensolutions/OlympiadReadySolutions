@@ -1,0 +1,202 @@
+[
+  {
+    "QuestionText": "A device that converts chemical energy into electrical energy is a:",
+    "Options": ["Switch", "Bulb", "Electric Cell", "Wire"],
+    "CorrectAnswer": "C",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "An electric cell (or battery) contains chemicals that react to produce an electric current."
+  },
+  {
+    "QuestionText": "How many terminals does an electric cell have?",
+    "Options": ["One", "Two", "Three", "Four"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "An electric cell has two terminals: a positive terminal (usually a metal cap) and a negative terminal (usually a metal disc)."
+  },
+  {
+    "QuestionText": "The thin wire inside an electric bulb that glows when current passes through it is called the:",
+    "Options": ["Terminal", "Filament", "Switch", "Base"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "The filament gets very hot and emits light when an electric current passes through it."
+  },
+  {
+    "QuestionText": "An electric circuit is a continuous path through which:",
+    "Options": ["Water flows", "Air flows", "Electric current flows", "Light travels"],
+    "CorrectAnswer": "C",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "An electric circuit provides a complete, unbroken path for electricity to flow from one terminal of a power source to the other."
+  },
+  {
+    "QuestionText": "Materials that allow electric current to pass through them are called:",
+    "Options": ["Insulators", "Conductors", "Non-metals", "Plastics"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "Conductors, like copper and aluminum, allow electricity to flow easily through them."
+  },
+  {
+    "QuestionText": "Which of the following is an insulator?",
+    "Options": ["Iron nail", "Copper wire", "Aluminum foil", "Rubber eraser"],
+    "CorrectAnswer": "D",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "Rubber does not allow electric current to pass through it, making it an insulator."
+  },
+  {
+    "QuestionText": "What is the function of a switch in an electric circuit?",
+    "Options": ["To generate electricity", "To consume electricity", "To either break or complete the circuit", "To store electricity"],
+    "CorrectAnswer": "C",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "A switch is a simple device that can either break the circuit (turning the device off) or complete it (turning it on)."
+  },
+  {
+    "QuestionText": "If the filament of a bulb is broken, the bulb is said to be:",
+    "Options": ["Fused", "Charged", "Glowing", "Short-circuited"],
+    "CorrectAnswer": "A",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "A broken filament means the electrical path is broken. Such a bulb will not glow and is called a fused bulb."
+  },
+  {
+    "QuestionText": "Which direction is electric current conventionally assumed to flow in a circuit?",
+    "Options": ["From negative terminal to positive terminal", "From positive terminal to negative terminal", "From the bulb to the battery", "Randomly"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "By convention, electric current is taken to flow from the positive terminal of the cell to the negative terminal."
+  },
+  {
+    "QuestionText": "Why are electrical wires usually covered with a layer of plastic or rubber?",
+    "Options": ["To make them look colorful", "To prevent electric shocks", "To make them conduct better", "To make them heavier"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Foundation",
+    "Explanation": "Plastic and rubber are insulators. They prevent current from leaking out and protect us from getting an electric shock."
+  },
+  {
+    "QuestionText": "You are testing materials in a circuit. You place a silver coin between the two free ends of the wire. What will happen to the bulb?",
+    "Options": ["It will not glow because silver is an insulator", "It will glow because silver is a good conductor", "The bulb will fuse", "The battery will explode"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "Silver is a metal and an excellent conductor of electricity, so it will complete the circuit and the bulb will glow."
+  },
+  {
+    "QuestionText": "A student connects two terminals of a cell directly with a single copper wire without any bulb or resistor in between. What is this condition called, and what will happen?",
+    "Options": ["Open circuit; nothing happens", "Short circuit; the cell will get very hot and drain quickly", "Series circuit; the wire will glow", "Parallel circuit; the cell will charge"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "Connecting the terminals directly creates a path of very low resistance (short circuit). A huge current flows, heating the wire and quickly draining the chemicals in the cell."
+  },
+  {
+    "QuestionText": "Air is generally a good:",
+    "Options": ["Conductor", "Insulator", "Semiconductor", "Battery"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "Air is an insulator. If air were a good conductor, electricity would flow directly through the air from plug sockets to us, causing constant shocks."
+  },
+  {
+    "QuestionText": "Why is distilled water considered an insulator, while tap water is a conductor?",
+    "Options": ["Tap water contains dissolved salts", "Distilled water contains more oxygen", "Tap water is colder", "Distilled water is thicker"],
+    "CorrectAnswer": "A",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "Pure (distilled) water has no free ions to carry charge. Tap water contains dissolved salts and minerals (ions), which conduct electricity."
+  },
+  {
+    "QuestionText": "Which part of a standard incandescent bulb acts as a support and connection for the filament inside the glass casing?",
+    "Options": ["Thick wires", "Nitrogen gas", "The metal tip at the base", "The glass bulb itself"],
+    "CorrectAnswer": "A",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "The thin filament is supported by two thicker wires. One thick wire is connected to the metal casing, and the other to the metal tip at the base."
+  },
+  {
+    "QuestionText": "Electricians wear rubber gloves while working with electrical appliances because:",
+    "Options": ["Rubber gives a better grip on wires", "Rubber is an insulator and protects them from shocks", "Rubber is a conductor and grounds them", "Rubber keeps their hands clean"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "Rubber is a strong insulator that prevents electrical current from passing into the electrician's body."
+  },
+  {
+    "QuestionText": "Which non-metal is an exceptionally good conductor of electricity?",
+    "Options": ["Sulphur", "Graphite", "Phosphorus", "Iodine"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "Graphite (the material used in pencil leads) is a form of carbon (a non-metal) but it has free electrons, making it a good conductor of electricity."
+  },
+  {
+    "QuestionText": "If a circuit has a battery, a bulb, and a switch in the 'OFF' position, the circuit is said to be:",
+    "Options": ["Closed", "Open", "Short", "Fused"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "An 'OFF' switch breaks the continuity of the path. An incomplete path is called an open circuit."
+  },
+  {
+    "QuestionText": "A bulb has two terminals. Why are they structured such that they do not touch each other?",
+    "Options": ["To make the bulb look good", "To prevent a short circuit inside the bulb base", "To allow air to pass between them", "Because they are magnetic"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "If the two terminals touched each other, the current would bypass the filament entirely, causing a short circuit."
+  },
+  {
+    "QuestionText": "Rohan makes a tester using a battery and an LED instead of a normal bulb. Why might an LED be better for testing some materials like lemon juice?",
+    "Options": ["LEDs are unbreakable", "LEDs require very little current to glow", "LEDs produce more heat", "LEDs only work with lemon juice"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Advanced",
+    "Explanation": "Lemon juice is a weak conductor, so only a small current flows. A normal bulb might not get hot enough to glow, but an LED glows even with very weak currents."
+  },
+  {
+    "QuestionText": "Consider a circuit with a cell, a bulb, and a switch. A student replaces the connecting copper wire with a thick thread of cotton dipped in saltwater. What will happen when the switch is turned ON?",
+    "Options": ["The bulb will not glow at all", "The bulb will glow dimly because saltwater is a weak conductor", "The cotton thread will instantly catch fire", "The battery will recharge"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Olympiad",
+    "Explanation": "Dry cotton is an insulator, but saltwater is an electrolyte (conductor). The saltwater-soaked thread will conduct electricity, but with higher resistance than a copper wire, leading to a dim glow."
+  },
+  {
+    "QuestionText": "In a torch, there are two cells placed one behind the other. How must they be aligned for the torch to work?",
+    "Options": ["Positive terminal of one touches positive of the other", "Negative terminal of one touches negative of the other", "Positive terminal of one touches negative of the other", "They should be separated by a rubber disc"],
+    "CorrectAnswer": "C",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Olympiad",
+    "Explanation": "To add up the voltage of the cells (series connection), they must be placed such that the positive terminal of one touches the negative terminal of the next."
+  },
+  {
+    "QuestionText": "A student builds a circuit with two identical bulbs connected end-to-end (in series) to a single battery. If one bulb fuses, what happens to the other bulb?",
+    "Options": ["It glows brighter", "It continues to glow with the same brightness", "It stops glowing", "It flickers"],
+    "CorrectAnswer": "C",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Olympiad",
+    "Explanation": "In a series circuit, there is only one path for the current. If one bulb fuses, the path is broken (open circuit), and the current stops flowing everywhere. Thus, the other bulb goes out."
+  },
+  {
+    "QuestionText": "Which of the following would be the safest and most effective material to use to push away a person who is currently receiving a severe electric shock from a live wire?",
+    "Options": ["Your bare hands", "An iron rod", "A dry wooden broomstick", "A wet towel"],
+    "CorrectAnswer": "C",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Olympiad",
+    "Explanation": "Dry wood is an insulator. Using bare hands, iron, or a wet towel (water conducts) would allow the current to pass into your body, shocking you as well."
+  },
+  {
+    "QuestionText": "Why is argon or nitrogen gas, rather than normal air (oxygen), filled inside the glass casing of an electric bulb?",
+    "Options": ["To make the bulb lighter", "Oxygen would cause the hot filament to burn up (oxidize) instantly", "Argon glows with a brighter color", "To cool down the filament"],
+    "CorrectAnswer": "B",
+    "Topic": "Electricity and Circuits",
+    "Difficulty": "Olympiad",
+    "Explanation": "The filament gets extremely hot. If oxygen were present, the metal would immediately react with it (burn/oxidize) and break. Inert gases like argon prevent this."
+  }
+]

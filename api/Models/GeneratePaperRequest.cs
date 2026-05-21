@@ -25,6 +25,12 @@ public class GeneratePaperRequest : IValidatableObject
     /// <summary>Olympiad level the student is preparing for: L1 (school round) or L2 (national round).</summary>
     public string? OlympiadLevel { get; set; }
 
+    /// <summary>
+    /// The specific olympiad ID the student is targeting (e.g. "sof_imo", "hbcse", "silverzone_math").
+    /// Forwarded to ClaudeService to tailor question style, section patterns, and vocabulary.
+    /// </summary>
+    public string? OlympiadId { get; set; }
+
     // Mirrors SUBJECT_GRADE_MAP in web/lib/types.ts — keep in sync.
     // Subject names are SOF-canonical; SubjectNormalizer maps aliases before this is checked.
     private static readonly Dictionary<string, (int Min, int Max)> GradeRanges = new(StringComparer.OrdinalIgnoreCase)
@@ -42,6 +48,7 @@ public class GeneratePaperRequest : IValidatableObject
         ["Social Studies"]     = (1, 10),
         ["Hindi"]              = (3, 10),
         ["Commerce"]           = (11, 12),
+        ["Spell Bee"]          = (1, 12),
     };
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)

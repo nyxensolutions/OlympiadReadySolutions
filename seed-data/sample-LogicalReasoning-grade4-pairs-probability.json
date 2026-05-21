@@ -1,0 +1,272 @@
+[
+  {
+    "QuestionText": "Sam has 2 different shirts (Red and Blue) and 3 different pairs of pants (Black, Jeans, and Grey). How many unique outfit combinations can he make?",
+    "Options": ["A) 5", "B) 6", "C) 8", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "For each shirt, Sam can choose any of the 3 pants. 2 shirts × 3 pants = 6 unique combinations."
+  },
+  {
+    "QuestionText": "If a regular 6-sided dice block is rolled once, what is the likelihood or probability of rolling a number greater than 6?",
+    "Options": ["A) Certain", "B) Likely", "C) Unlikely", "D) Impossible"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "A standard dice block only contains numbers from 1 to 6. It is impossible to roll a number greater than 6."
+  },
+  {
+    "QuestionText": "Three friends (Aman, Bina, and Charan) meet up and shake hands with each other exactly once. How many total handshakes happen?",
+    "Options": ["A) 3", "B) 4", "C) 6", "D) 2"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The pairs are Aman-Bina, Aman-Charan, and Bina-Charan. This results in exactly 3 handshakes."
+  },
+  {
+    "QuestionText": "A bag contains 8 red marbles and 2 blue marbles. If you reach in and pull out one marble without looking, which outcome is most likely?",
+    "Options": ["A) Pulling a blue marble", "B) Pulling a red marble", "C) Pulling a green marble", "D) Both have equal chance"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Since there are significantly more red marbles (8) than blue marbles (2), pulling a red marble is the more likely outcome."
+  },
+  {
+    "QuestionText": "An ice cream shop offers 3 flavors (Vanilla, Chocolate, Strawberry) and 2 toppings (Sprinkles, Syrup). How many different single-flavor, single-topping desserts can you order?",
+    "Options": ["A) 5", "B) 6", "C) 9", "D) 8"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiply the number of options: 3 flavors × 2 toppings = 6 unique dessert pairs."
+  },
+  {
+    "QuestionText": "If you flip a regular coin, what are all the possible outcomes that can land facing up?",
+    "Options": ["A) Heads, Tails, or Side", "B) Heads or Tails", "C) Only Heads", "D) Only Tails"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "A standard coin has exactly two flat faces, meaning it can only land on either Heads or Tails."
+  },
+  {
+    "QuestionText": "How many different two-letter combinations can you make using the letters 'X', 'Y', and 'Z' if you are not allowed to repeat any letter in a pair?",
+    "Options": ["A) 3", "B) 6", "C) 9", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The possible ordered pairs are XY, XZ, YX, YZ, ZX, and ZY. This gives a total of 6 ordered combinations."
+  },
+  {
+    "QuestionText": "A box contains 5 green blocks and 5 yellow blocks. If you close your eyes and pick one, the chance of getting a green block is:",
+    "Options": ["A) Certain", "B) Impossible", "C) Equally likely as yellow", "D) Highly unlikely"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "Because the number of green blocks equals the number of yellow blocks, picking either color is equally likely (a 50-50 chance)."
+  },
+  {
+    "QuestionText": "Rahul wants to buy a juice and a snack. There are 2 juice choices (Apple, Mango) and 4 snack choices (Chips, Biscuit, Cake, Patty). How many different lunch sets can he pick?",
+    "Options": ["A) 6", "B) 8", "C) 10", "D) 12"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Using multiplication for combinations: 2 juice choices × 4 snack choices = 8 possible lunch sets."
+  },
+  {
+    "QuestionText": "If tomorrow is guaranteed to be a sunny day, the probability that it will rain tomorrow is considered:",
+    "Options": ["A) Certain", "B) Possible", "C) Likely", "D) Impossible"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "If it is guaranteed to be sunny, it means there is zero chance of rain, making a rainy day impossible."
+  },
+  {
+    "QuestionText": "How many different 2-digit numbers can you form using the digits 4 and 7 if you are allowed to repeat the digits?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 6"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The numbers you can form are 44, 47, 74, and 77. This gives a total of 4 distinct numbers."
+  },
+  {
+    "QuestionText": "Four tennis players want to play a singles match against every other player exactly once. How many total matches must be scheduled?",
+    "Options": ["A) 4 matches", "B) 6 matches", "C) 8 matches", "D) 12 matches"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "Player 1 plays 3 matches. Player 2 plays 2 remaining matches. Player 3 plays 1 remaining match. Player 4 has already played everyone. 3 + 2 + 1 = 6 matches."
+  },
+  {
+    "QuestionText": "A spinner dial is divided into 4 equal quarters: 3 are colored Blue and 1 is colored Red. If you spin the arrow once, it is:",
+    "Options": ["A) More likely to land on Red", "B) More likely to land on Blue", "C) Equally likely to land on Red or Blue", "D) Impossible to land on Blue"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "Since 3 out of 4 sections are Blue, the arrow has a much larger area to land on Blue, making it more likely."
+  },
+  {
+    "QuestionText": "You have 3 keys labeled A, B, and C, and 1 closed padlock. Only key B opens the lock. If you grab one key completely at random, what is the chance you pick the wrong key?",
+    "Options": ["A) 1 out of 3", "B) 2 out of 3", "C) 3 out of 3", "D) 0 out of 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "There are 2 wrong keys (A and C) out of 3 total keys, so the chance of picking a wrong key is 2 out of 3."
+  },
+  {
+    "QuestionText": "How many unique pairs of letters can be selected from the word 'COW'? (The order of letters inside the pair does not matter).",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The unique combinations of letter pairs are {C, O}, {C, W}, and {O, W}. This results in exactly 3 pairs."
+  },
+  {
+    "QuestionText": "If a bag has only 12 sweet yellow bananas inside, what is the likelihood of reaching in and pulling out a sour red apple?",
+    "Options": ["A) Certain", "B) Likely", "C) Impossible", "D) Unlikely"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Since there are absolutely zero apples in the bag, it is completely impossible to pull one out."
+  },
+  {
+    "QuestionText": "Tanya has 3 colored folders (Pink, Green, Yellow) and 3 colored pens (Black, Blue, Red). If she chooses one folder and one pen, how many total style variations are possible?",
+    "Options": ["A) 6", "B) 9", "C) 12", "D) 3"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiply the sets: 3 folders × 3 pens = 9 possible style variations."
+  },
+  {
+    "QuestionText": "If you throw a normal 6-sided dice, which of these events is certain to happen?",
+    "Options": ["A) Rolling an even number", "B) Rolling a number less than 10", "C) Rolling a number 5", "D) Rolling a number greater than 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "Every face on a standard dice (1, 2, 3, 4, 5, 6) is strictly less than 10, so this outcome is guaranteed and certain."
+  },
+  {
+    "QuestionText": "A coin is flipped twice in a row. What is the total number of unique outcome sequences that can occur?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 6"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "The possible outcomes are: Heads-Heads (HH), Heads-Tails (HT), Tails-Heads (TH), and Tails-Tails (TT). This gives 4 unique sequence paths."
+  },
+  {
+    "QuestionText": "How many different 2-digit numbers can you make using the digits 1, 2, and 3 if you are NOT allowed to repeat any digit?",
+    "Options": ["A) 3", "B) 6", "C) 9", "D) 4"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "Without repeating digits, you can form: 12, 13, 21, 23, 31, and 32. This results in exactly 6 numbers."
+  },
+  {
+    "QuestionText": "A drawer contains 4 identical white socks and 4 identical black socks mixed up. What is the smallest number of socks you must pull out in the dark to be absolutely certain you have at least one matching pair?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Olympiad",
+    "Explanation": "There are only 2 colors. If you pull 3 socks, at least two of them must share the same color (either White or Black), guaranteeing a matching pair."
+  },
+  {
+    "QuestionText": "You spin a game spinner that contains numbers from 1 to 5. What is the likelihood of landing on a number that is an even number?",
+    "Options": ["A) 2 out of 5", "B) 3 out of 5", "C) 4 out of 5", "D) 1 out of 5"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The numbers are 1, 2, 3, 4, 5. The even numbers in this group are 2 and 4, which is 2 successful numbers out of 5 total options."
+  },
+  {
+    "QuestionText": "How many unique lines can you draw by connecting 4 points arranged in a circle frame, where each line connects exactly two points?",
+    "Options": ["A) 4", "B) 6", "C) 8", "D) 5"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Advanced",
+    "Explanation": "Connecting 4 points gives 4 outer boundary lines (the square perimeter) and 2 inner diagonal lines. 4 + 2 = 6 unique lines."
+  },
+  {
+    "QuestionText": "If you throw a standard dice block, what is the chance or probability of rolling a number that is exactly equal to 3?",
+    "Options": ["A) 1 out of 6", "B) 3 out of 6", "C) 2 out of 6", "D) 5 out of 6"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "There is only one face with the number 3 out of 6 total faces on the dice, giving a 1 out of 6 chance."
+  },
+  {
+    "QuestionText": "A toy chest contains 10 racing cars and 1 soft teddy bear. If a child reaches in and grabs one toy blindly, it is:",
+    "Options": ["A) Highly likely to be the teddy bear", "B) Highly unlikely to be the teddy bear", "C) Impossible to pick the racing car", "D) Equally likely"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "With 10 cars and only 1 teddy bear, the chance of picking the lone teddy bear is very low, or highly unlikely."
+  },
+  {
+    "QuestionText": "An outfit consists of choosing a cap and a pair of sunglasses. If you have 4 cap choices and 4 sunglasses choices, how many combinations can you create?",
+    "Options": ["A) 8", "B) 12", "C) 16", "D) 20"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "4 choices for caps × 4 choices for sunglasses = 16 total outfit combinations."
+  },
+  {
+    "QuestionText": "If a card is drawn randomly from a stack containing cards numbered 2, 4, 6, and 8, what is the probability of drawing an odd number?",
+    "Options": ["A) 100%", "B) 50%", "C) 0% (Impossible)", "D) 25%"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "All of the numbers in the stack are even. There are no odd numbers, so drawing one is completely impossible (0%)."
+  },
+  {
+    "QuestionText": "Five students want to give a single high-five to each other student in a group circle. How many high-fives happen in total?",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Olympiad",
+    "Explanation": "This follows the handshake formula: $n \times (n - 1) / 2$. For 5 students: $5 \times 4 / 2 = 20 / 2 = 10$ high-fives."
+  },
+  {
+    "QuestionText": "A menu allows you to build a pizza by picking 1 crust type (Thin or Thick) and 5 different cheese styles. How many distinct pizza variations can you make?",
+    "Options": ["A) 7", "B) 10", "C) 12", "D) 15"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Foundation",
+    "Explanation": "Multiply the choices: 2 crust options × 5 cheese styles = 10 unique pizza setups."
+  },
+  {
+    "QuestionText": "If you throw a dice block, what is the probability of landing on an odd number?",
+    "Options": ["A) 1 out of 6", "B) 3 out of 6 (Half)", "C) 4 out of 6", "D) 2 out of 6"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Pairs & Combinations / Probability Logic",
+    "Difficulty": "Intermediate",
+    "Explanation": "The odd numbers on a standard dice are 1, 3, and 5. That is 3 targets out of 6 total options, which is exactly half."
+  }
+]

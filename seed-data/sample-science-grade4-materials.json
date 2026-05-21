@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Which state of matter has a definite structural shape and a fixed internal volume?",
+    "Options": ["A) Liquid", "B) Solid", "C) Gas", "D) Plasma"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "In solids, molecules are tightly packed in fixed positions, giving the material a rigid shape and a constant volume."
+  },
+  {
+    "QuestionText": "What state of matter has a fixed volume but takes the shape of whatever container it is poured into?",
+    "Options": ["A) Solid", "B) Liquid", "C) Gas", "D) Vapor"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Liquids have a fixed volume because their molecules stay close together, but they can flow and change shape because the molecules can slide past one another."
+  },
+  {
+    "QuestionText": "Which state of matter has no definite shape and no fixed volume, expanding to fill any available space?",
+    "Options": ["A) Solid", "B) Liquid", "C) Gas", "D) Crystal"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Gas molecules have weak attractions and high kinetic energy, allowing them to spread out and fill the entire volume of their container."
+  },
+  {
+    "QuestionText": "The physical process where a solid turns into a liquid when heated is called ______________.",
+    "Options": ["A) Freezing", "B) Melting", "C) Evaporation", "D) Condensation"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Melting occurs when heat energy causes the molecules in a solid to vibrate fast enough to break free from their fixed positions and form a liquid."
+  },
+  {
+    "QuestionText": "What do we call the process where a liquid slowly changes into a gas below its boiling point?",
+    "Options": ["A) Condensation", "B) Melting", "C) Evaporation", "D) Sublimation"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Evaporation is the surface process where liquid molecules absorb enough thermal energy to escape into the air as a gas."
+  },
+  {
+    "QuestionText": "When water vapor cools down and turns back into liquid water droplets, the process is known as ______________.",
+    "Options": ["A) Evaporation", "B) Freezing", "C) Condensation", "D) Melting"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Condensation happens when gas molecules lose heat energy and slow down, drawing closer together to reform a liquid state."
+  },
+  {
+    "QuestionText": "The process where a liquid changes into a solid when its temperature drops is called ______________.",
+    "Options": ["A) Melting", "B) Freezing", "C) Condensation", "D) Evaporation"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Freezing occurs when a liquid loses thermal energy, causing its molecules to lock into a rigid, fixed structural layout."
+  },
+  {
+    "QuestionText": "What property describes materials like glass, through which light can pass clearly so objects on the other side can be seen?",
+    "Options": ["A) Opaque", "B) Translucent", "C) Transparent", "D) Reflective"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Transparent materials allow light waves to pass through with minimal scattering, making it easy to see through them."
+  },
+  {
+    "QuestionText": "Materials like frosted glass or butter paper that let some light pass through but scatter it so objects cannot be seen clearly are called ______________.",
+    "Options": ["A) Transparent", "B) Translucent", "C) Opaque", "D) Magnetic"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Translucent materials allow some light to pass through but scatter the rays in multiple directions, creating a blurry image."
+  },
+  {
+    "QuestionText": "Materials like wood, iron, and stone that block all light from passing through them are classified as ______________.",
+    "Options": ["A) Transparent", "B) Opaque", "C) Translucent", "D) Soluble"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Opaque materials absorb or reflect incoming light waves rather than letting them pass through, casting a solid shadow behind them."
+  },
+  {
+    "QuestionText": "If a solid substance dissolves completely when mixed into water, it is said to be ______________.",
+    "Options": ["A) Insoluble", "B) Soluble", "C) Transparent", "D) Opaque"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Soluble substances break down into individual molecules or ions when mixed with a solvent like water, forming a clear solution."
+  },
+  {
+    "QuestionText": "What do we call a solid substance, like sand or chalk powder, that will not dissolve when mixed into water?",
+    "Options": ["A) Soluble", "B) Insoluble", "C) Translucent", "D) Gaseous"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Insoluble materials do not break down in water; instead, their particles remain separate and eventually settle to the bottom."
+  },
+  {
+    "QuestionText": "In a saltwater solution, what is the scientific term for the solid salt that gets dissolved?",
+    "Options": ["A) Solvent", "B) Solute", "C) Solution", "D) Mixture"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "The solute is the minor component in a solution that is dissolved by the larger liquid medium."
+  },
+  {
+    "QuestionText": "What is the liquid medium, such as water, that dissolves a solute called?",
+    "Options": ["A) Solute", "B) Solvent", "C) Precipitate", "D) Condensate"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "The solvent is the liquid medium that breaks down the solute particles to form a uniform solution."
+  },
+  {
+    "QuestionText": "Why do cooking pans often have handles made of wood or plastic instead of metal?",
+    "Options": ["A) Wood and plastic are good conductors of heat", "B) Wood and plastic are poor heat conductors (insulators), keeping handles safe to touch", "C) Wood makes the pans much heavier", "D) Metals melt easily when heated on a stove"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Wood and plastic are thermal insulators that do not conduct heat readily, keeping handles cool enough to hold safely."
+  },
+  {
+    "QuestionText": "What describes the arrangement of molecules inside a gaseous substance?",
+    "Options": ["A) Very tightly packed together in a rigid grid pattern", "B) Moderately close with small spaces to slide around", "C) Very far apart with large empty spaces and random movement", "D) Arranged in neat, interlocking geometric rows"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Gas molecules are separated by wide gaps, moving rapidly and randomly because they experience very little intermolecular attraction."
+  },
+  {
+    "QuestionText": "Which property explains why metals like copper are used to make electrical wiring?",
+    "Options": ["A) Copper is a good electrical insulator", "B) Copper is an excellent conductor of electricity", "C) Copper is a highly brittle material", "D) Copper dissolves easily when exposed to water"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Copper is an electrical conductor that allows electric current to flow through it easily with minimal resistance."
+  },
+  {
+    "QuestionText": "What property allows a material like rubber to stretch when pulled and return to its original shape when released?",
+    "Options": ["A) Hardness", "B) Brittleness", "C) Elasticity", "D) Solubility"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Elasticity allows a material to deform under mechanical stress and snap back to its original shape once the force is removed."
+  },
+  {
+    "QuestionText": "Why do ice cubes float when placed into a glass of liquid water?",
+    "Options": ["A) Solid ice is denser than liquid water", "B) Solid ice is less dense than liquid water because its molecules form a wider crystal structure", "C) Ice cubes contain trapped oxygen gas bubbles", "D) The surface tension of water pushes the ice upward"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Advanced",
+    "Explanation": "As water freezes, its molecules form a crystalline framework that takes up more space than the liquid form, making ice less dense than water."
+  },
+  {
+    "QuestionText": "What unique property is shared by all matter across the universe?",
+    "Options": ["A) It must be visible to the naked human eye", "B) It must have mass and occupy physical space (volume)", "C) It must always be in a solid state", "D) It must conduct electricity"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "By definition, matter is anything that has measurable mass and takes up three-dimensional space."
+  },
+  {
+    "QuestionText": "What type of change occurs when a sheet of paper is shredded into tiny pieces without forming any new chemical substances?",
+    "Options": ["A) Chemical change", "B) Biological change", "C) Physical change", "D) Permanent change"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Shredding paper alters its physical shape and size but does not change its underlying chemical identity, classifying it as a physical change."
+  },
+  {
+    "QuestionText": "Why is the rusting of an iron nail left outside in the damp air classified as a chemical change?",
+    "Options": ["A) The nail simply changed its physical size", "B) A new chemical substance (iron oxide) was formed with entirely new properties", "C) The nail dissolved completely into air vapor", "D) The change can be reversed by cooling the nail"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Iron reacts with oxygen and moisture to form iron oxide (rust). This forms a new substance with different properties, marking it as a chemical change."
+  },
+  {
+    "QuestionText": "Which gas is dissolved into carbonated soda drinks under pressure to create their signature fizzy bubbles?",
+    "Options": ["A) Oxygen gas", "B) Carbon dioxide gas", "C) Nitrogen gas", "D) Hydrogen gas"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Carbon dioxide gas is dissolved into the liquid under high pressure. When the bottle is opened, the pressure drops, causing the gas to bubble out of solution."
+  },
+  {
+    "QuestionText": "What property describes materials like iron, nickel, and cobalt that are pulled toward a magnetic field?",
+    "Options": ["A) Elastic", "B) Magnetic", "C) Soluble", "D) Conducting"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Magnetic materials have internal structures that respond to magnetic forces, causing them to be attracted to magnets."
+  },
+  {
+    "QuestionText": "What happens to the volume of a liquid when it is poured from a narrow glass test tube into a wide glass bowl?",
+    "Options": ["A) The volume increases significantly", "B) The volume decreases as it spreads out", "C) The volume remains exactly the same, though its shape changes", "D) The volume fluctuates dynamically"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Liquids have a definite volume that does not change based on the container, even though they easily adapt to the container's shape."
+  },
+  {
+    "QuestionText": "What do we call materials that do not allow electricity to pass through them, such as rubber, plastic, and dry wood?",
+    "Options": ["A) Electrical conductors", "B) Electrical insulators", "C) Magnetic alloys", "D) Soluble compounds"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Electrical insulators have tightly bound electrons that resist the flow of electrical currents."
+  },
+  {
+    "QuestionText": "What state of matter can be compressed into a much smaller volume, like air squeezed inside a bicycle tire or scuba tank?",
+    "Options": ["A) Solid", "B) Liquid", "C) Gas", "D) Mineral"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Because gas molecules are separated by wide gaps, mechanical force can easily push them closer together, compressing the gas into a smaller space."
+  },
+  {
+    "QuestionText": "When you boil water on a stove, what do we call the visible white vapor cloud rising up from the pot?",
+    "Options": ["A) Liquid water droplets suspended in air", "B) Water vapor gas (Steam)", "C) Dissolved oxygen bubbles", "D) Smoke particles from combustion"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Boiling causes liquid water to undergo a phase change into water vapor, an invisible gas that cools and creates a visible mist when it hits the air."
+  },
+  {
+    "QuestionText": "What property describes a material's ability to resist being scratched or dented by another substance?",
+    "Options": ["A) Brittleness", "B) Hardness", "C) Solubility", "D) Transparency"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Hardness measures how well a material's atomic structure resists surface deformation or scratching from another substance."
+  },
+  {
+    "QuestionText": "Why does a hot air balloon rise into the sky when the air inside the balloon is heated by a burner?",
+    "Options": ["A) Heated air gains extra mass", "B) Heated air expands and becomes less dense than the cooler surrounding air", "C) Heated air transforms into a new chemical element", "D) The heat destroys the gravity field around the basket"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Advanced",
+    "Explanation": "Heating air causes its molecules to move faster and spread out. This makes the warm air less dense than the surrounding cool air, creating buoyant lift."
+  },
+  {
+    "QuestionText": "What type of material allows heat to travel through it quickly and efficiently?",
+    "Options": ["A) Thermal insulator", "B) Thermal conductor", "C) Translucent compound", "D) Insoluble solid"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Thermal conductors, such as metals like aluminum and iron, allow heat energy to transfer through them quickly via molecular vibrations."
+  },
+  {
+    "QuestionText": "If a solid block of clay is molded into the shape of a toy boat, what type of change has occurred?",
+    "Options": ["A) Chemical change", "B) Reversible chemical reaction", "C) Physical change", "D) Biological alteration"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "Molding clay changes its physical appearance and shape but does not alter its chemical composition, making it a physical change."
+  },
+  {
+    "QuestionText": "What happens to the molecules of liquid water when it is heated and transitions into steam?",
+    "Options": ["A) The molecules break apart into separate atoms and vanish", "B) The molecules gain energy, move faster, and spread very far apart", "C) The molecules shrink in physical size", "D) The molecules lock tightly into a fixed grid"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Thermal energy increases the kinetic energy of the water molecules, allowing them to overcome intermolecular bonds and disperse as a gas."
+  },
+  {
+    "QuestionText": "What property describes materials like ceramics or dry biscuits that crack or shatter easily when dropped or struck?",
+    "Options": ["A) Elasticity", "B) Brittleness", "C) Conductivity", "D) Hardness"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Brittle materials absorb little energy before fracturing, causing them to break or shatter easily when subjected to an impact force."
+  },
+  {
+    "QuestionText": "Which of the following is an example of an irreversible chemical change?",
+    "Options": ["A) Melting a chocolate bar in the sun", "B) Baking a cake mixture into a solid cake inside an oven", "C) Dissolving white sugar into a cup of warm water", "D) Freezing water into ice cubes"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Baking causes a chemical reaction between the ingredients, creating a new substance that cannot be reversed back into raw eggs, flour, and sugar."
+  },
+  {
+    "QuestionText": "What do we call the clear, uniform liquid created when a solute dissolves completely into a solvent?",
+    "Options": ["A) Suspension", "B) Emulsion", "C) Solution", "D) Element"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "A solution is a homogeneous mixture where solute particles are evenly distributed down to the molecular level within a solvent."
+  },
+  {
+    "QuestionText": "Why can we smell a bottle of perfume from across a room shortly after it is opened?",
+    "Options": ["A) The perfume liquid flows across the floor", "B) The liquid perfume evaporates into a gas, and its molecules diffuse through the air", "C) The perfume molecules fall straight to the ground", "D) Light waves carry the scent molecules forward"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Evaporated perfume molecules mix with the air and spread out through diffusion, moving from areas of higher concentration to lower concentration."
+  },
+  {
+    "QuestionText": "What property explains why a dense steel anchor sinks to the bottom of the ocean while a large wooden log floats?",
+    "Options": ["A) Hardness", "B) Magnetism", "C) Density differences", "D) Electrical conductivity"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Steel is denser than water, causing it to sink. Wood is less dense than water, allowing it to float on the surface."
+  },
+  {
+    "QuestionText": "When you spray water onto a hot sidewalk, it disappears quickly. What phase change has occurred?",
+    "Options": ["A) Condensation", "B) Freezing", "C) Evaporation", "D) Melting"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "The hot pavement transfers thermal energy to the liquid water, causing it to evaporate into an invisible gas."
+  },
+  {
+    "QuestionText": "What type of change is the melting of a block of wax, and why?",
+    "Options": ["A) Chemical change, because the wax turns into a new liquid molecule", "B) Physical change, because it alters the state of matter but can be reversed by cooling", "C) Irreversible change, because melted wax can never solidify again", "D) Biological change, because energy was applied"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Melting wax changes its physical form from solid to liquid without altering its chemical identity. The process can be reversed by cooling the wax."
+  },
+  {
+    "QuestionText": "What happens to the molecules of a metal rod when it is heated in a forge?",
+    "Options": ["A) They expand in individual atomic size", "B) They vibrate more rapidly and spread slightly further apart, causing the rod to expand", "C) They turn into liquid gas immediately", "D) They compress tightly together"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Advanced",
+    "Explanation": "Heating adds thermal energy, causing the metal atoms to vibrate more intensely. This pushes them slightly further apart, resulting in thermal expansion."
+  },
+  {
+    "QuestionText": "Which property describes a material's ability to be hammered or rolled into thin sheets without fracturing?",
+    "Options": ["A) Ductility", "B) Malleability", "C) Elasticity", "D) Solubility"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Advanced",
+    "Explanation": "Malleability is a physical property of metals that allows them to deform under compressive stress, meaning they can be hammered or rolled into thin sheets."
+  },
+  {
+    "QuestionText": "What describes the attractive forces between molecules in a solid substance?",
+    "Options": ["A) Completely non-existent forces", "B) Very weak forces that allow molecules to fly away", "C) Exceptionally strong forces that hold molecules in fixed, rigid positions", "D) Alternating forces that change constantly"],
+    "CorrectAnswer": "C",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Solids have strong intermolecular forces that bind the molecules tightly together, resisting changes in shape or volume."
+  },
+  {
+    "QuestionText": "Why can you not dissolve an infinite amount of sugar into a single cup of water at room temperature?",
+    "Options": ["A) The sugar molecules turn into water molecules", "B) The solution reaches a saturation point where no more solute can fit between the solvent molecules", "C) The water runs out of oxygen gas", "D) Sugar repels water after a few minutes"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Advanced",
+    "Explanation": "A solvent at a specific temperature can only hold a set amount of solute. Once all spaces between the water molecules are occupied, the solution becomes saturated, and excess sugar settles to the bottom."
+  },
+  {
+    "QuestionText": "Which of the following describes the properties of an ideal material for making a rain umbrella?",
+    "Options": ["A) Absorbent, heavy, and transparent", "B) Waterproof, lightweight, and durable", "C) Soluble, elastic, and opaque", "D) Thermal conducting, heavy, and brittle"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Foundation",
+    "Explanation": "An umbrella needs to be waterproof to repel rain, lightweight for easy carrying, and durable enough to withstand wind."
+  },
+  {
+    "QuestionText": "What happens when a gas is cooled down significantly inside a sealed container?",
+    "Options": ["A) The gas molecules gain kinetic energy and speed up", "B) The gas molecules lose kinetic energy, slow down, and drop in internal pressure", "C) The gas molecules instantly turn into solid crystals", "D) The volume of the container expands automatically"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Advanced",
+    "Explanation": "Cooling a gas removes thermal energy, causing its molecules to slow down and collide less frequently with the container walls, which reduces the internal pressure."
+  },
+  {
+    "QuestionText": "If a liquid mixture contains heavy, insoluble sand particles, what simple separation method can be used to isolate the sand from the water?",
+    "Options": ["A) Evaporation of the sand particles", "B) Filtration using filter paper or a fine mesh sieve", "C) Dissolving the mixture with more solute", "D) Magnetic extraction"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "Filtration passes the liquid through a porous barrier that blocks the larger, insoluble sand particles while letting the water pass through."
+  },
+  {
+    "QuestionText": "What name is given to the direct transition of certain solid materials into a gas state without melting into a liquid first?",
+    "Options": ["A) Evaporation", "B) Sublimation", "C) Condensation", "D) Deposition"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Advanced",
+    "Explanation": "Sublimation is a phase transition where a solid, such as dry ice or mothballs (naphthalene), turns directly into a gas without passing through a liquid phase."
+  },
+  {
+    "QuestionText": "Why can a liquid flow and change its shape easily while a solid cannot?",
+    "Options": ["A) Liquid molecules have no mass", "B) Liquid molecules are not locked into a rigid grid and can slide past one another", "C) Solids contain no molecules at all", "D) Liquid molecules repel each other continuously"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Intermediate",
+    "Explanation": "The molecules in a liquid have enough energy to break free from fixed arrangements, allowing them to slide past each other and flow into new shapes."
+  },
+  {
+    "QuestionText": "An engineer needs to design a flexible insulating sheath for electrical extension cords. Which combination of material properties is required?",
+    "Options": ["A) High electrical conductivity and brittle fracture", "B) High electrical insulation, high elasticity, and waterproof texture", "C) High magnetic attraction and thermal conductivity", "D) High solubility and transparency"],
+    "CorrectAnswer": "B",
+    "Topic": "Science",
+    "SubTopic": "Matter and Materials: States of matter (solids, liquids, gases) and properties of materials",
+    "Difficulty": "Olympiad",
+    "Explanation": "The sheath must be an electrical insulator to prevent shocks, flexible (elastic) to bend without cracking, and waterproof to keep moisture out of the wires."
+  }
+]

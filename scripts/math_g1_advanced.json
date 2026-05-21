@@ -1,0 +1,82 @@
+[
+  {
+    "QuestionText": "Rohan has 12 apples. He gives 4 apples to Priya and 3 apples to Aarav. How many apples are left with Rohan?",
+    "Options": ["3", "4", "5", "7"],
+    "CorrectAnswer": "C",
+    "Topic": "Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "Rohan gives away 4 + 3 = 7 apples in total. 12 - 7 = 5 apples left."
+  },
+  {
+    "QuestionText": "Which number comes exactly between 45 and 47?",
+    "Options": ["44", "46", "48", "49"],
+    "CorrectAnswer": "B",
+    "Topic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "The number that comes after 45 and before 47 is 46."
+  },
+  {
+    "QuestionText": "A clock shows 3 o'clock. What time will it be after 2 hours?",
+    "Options": ["1 o'clock", "4 o'clock", "5 o'clock", "6 o'clock"],
+    "CorrectAnswer": "C",
+    "Topic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "3 + 2 = 5, so the time will be 5 o'clock."
+  },
+  {
+    "QuestionText": "Look at the pattern: 2, 4, 6, 8, __. What is the next number?",
+    "Options": ["9", "10", "11", "12"],
+    "CorrectAnswer": "B",
+    "Topic": "Patterns",
+    "Difficulty": "Advanced",
+    "Explanation": "The pattern is skipping by 2. After 8 comes 10."
+  },
+  {
+    "QuestionText": "Sneha has ₹20. She buys a pencil for ₹5 and an eraser for ₹3. How much money does she have left?",
+    "Options": ["₹12", "₹15", "₹8", "₹10"],
+    "CorrectAnswer": "A",
+    "Topic": "Money",
+    "Difficulty": "Advanced",
+    "Explanation": "Total spent = ₹5 + ₹3 = ₹8. Money left = ₹20 - ₹8 = ₹12."
+  },
+  {
+    "QuestionText": "Which shape has 4 equal sides?",
+    "Options": ["Circle", "Triangle", "Rectangle", "Square"],
+    "CorrectAnswer": "D",
+    "Topic": "Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "A square has 4 equal sides."
+  },
+  {
+    "QuestionText": "There are 5 birds on a tree. 3 birds fly away, and then 2 more birds come and sit on the tree. How many birds are there now?",
+    "Options": ["2", "4", "5", "6"],
+    "CorrectAnswer": "B",
+    "Topic": "Addition and Subtraction",
+    "Difficulty": "Advanced",
+    "Explanation": "Start with 5. 5 - 3 = 2. Then 2 come back, so 2 + 2 = 4 birds."
+  },
+  {
+    "QuestionText": "Which is the largest number? 54, 45, 62, 26",
+    "Options": ["54", "45", "62", "26"],
+    "CorrectAnswer": "C",
+    "Topic": "Number Sense",
+    "Difficulty": "Advanced",
+    "Explanation": "Comparing the tens place, 6 is the largest, so 62 is the largest number."
+  },
+  {
+    "QuestionText": "A rabbit has 4 legs. How many legs do 3 rabbits have in total?",
+    "Options": ["8", "10", "12", "14"],
+    "CorrectAnswer": "C",
+    "Topic": "Multiplication",
+    "Difficulty": "Advanced",
+    "Explanation": "4 + 4 + 4 = 12 legs."
+  },
+  {
+    "QuestionText": "If today is Monday, what day will it be day after tomorrow?",
+    "Options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+    "CorrectAnswer": "B",
+    "Topic": "Time",
+    "Difficulty": "Advanced",
+    "Explanation": "Tomorrow is Tuesday, so the day after tomorrow is Wednesday."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "QuestionText": "Ria has some marbles. She gives 5 to her brother and has 7 left. How many marbles did she have at first?",
+    "Options": ["2", "12", "13", "10"],
+    "CorrectAnswer": "B",
+    "Topic": "Addition",
+    "Difficulty": "Olympiad",
+    "Explanation": "Number of marbles at first = Marbles given + Marbles left. 5 + 7 = 12."
+  },
+  {
+    "QuestionText": "A toy car costs ₹15 and a ball costs ₹8. If Rohan has ₹20, how much more money does he need to buy both?",
+    "Options": ["₹23", "₹5", "₹3", "₹2"],
+    "CorrectAnswer": "C",
+    "Topic": "Money",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total cost = ₹15 + ₹8 = ₹23. Rohan has ₹20. He needs ₹23 - ₹20 = ₹3 more."
+  },
+  {
+    "QuestionText": "Look at the number sequence: 5, 10, 15, __, 25, 30. Which number replaces the blank?",
+    "Options": ["16", "18", "20", "22"],
+    "CorrectAnswer": "C",
+    "Topic": "Patterns",
+    "Difficulty": "Olympiad",
+    "Explanation": "The numbers are skipping by 5. After 15, the next number is 15 + 5 = 20."
+  },
+  {
+    "QuestionText": "Which of the following is equal to 3 tens and 4 ones?",
+    "Options": ["43", "34", "7", "304"],
+    "CorrectAnswer": "B",
+    "Topic": "Place Value",
+    "Difficulty": "Olympiad",
+    "Explanation": "3 tens = 30. 4 ones = 4. 30 + 4 = 34."
+  },
+  {
+    "QuestionText": "If a square paper is cut into two equal halves from corner to corner, what shapes will you get?",
+    "Options": ["Two rectangles", "Two triangles", "Two squares", "Two circles"],
+    "CorrectAnswer": "B",
+    "Topic": "Shapes",
+    "Difficulty": "Olympiad",
+    "Explanation": "Cutting a square diagonally from one corner to the opposite corner gives two triangles."
+  },
+  {
+    "QuestionText": "A bus starts with 10 children. At the first stop, 4 get off and 2 get on. At the second stop, 3 get off. How many children are in the bus now?",
+    "Options": ["5", "6", "8", "11"],
+    "CorrectAnswer": "A",
+    "Topic": "Addition and Subtraction",
+    "Difficulty": "Olympiad",
+    "Explanation": "Start: 10. First stop: 10 - 4 + 2 = 8. Second stop: 8 - 3 = 5."
+  },
+  {
+    "QuestionText": "Which is the heaviest? A feather, a pencil, a brick, or a notebook?",
+    "Options": ["A feather", "A pencil", "A brick", "A notebook"],
+    "CorrectAnswer": "C",
+    "Topic": "Measurement",
+    "Difficulty": "Olympiad",
+    "Explanation": "A brick is made of heavy material and weighs more than the other items."
+  },
+  {
+    "QuestionText": "If ◯ + ◯ = 10 and ◯ + △ = 8, what is the value of △?",
+    "Options": ["3", "4", "5", "8"],
+    "CorrectAnswer": "A",
+    "Topic": "Algebraic Thinking",
+    "Difficulty": "Olympiad",
+    "Explanation": "If two circles make 10, one circle is 5. If circle (5) + triangle = 8, triangle must be 8 - 5 = 3."
+  },
+  {
+    "QuestionText": "What comes next in the sequence: A1, B2, C3, __?",
+    "Options": ["D3", "E4", "D4", "C4"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "The letters go A, B, C, D. The numbers go 1, 2, 3, 4. So the next is D4."
+  },
+  {
+    "QuestionText": "A piece of rope is 12 cm long. Ananya cuts it into two pieces. One piece is 5 cm long. How long is the other piece?",
+    "Options": ["6 cm", "7 cm", "8 cm", "17 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Length",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total length is 12 cm. One piece is 5 cm. The other is 12 - 5 = 7 cm."
+  }
+]

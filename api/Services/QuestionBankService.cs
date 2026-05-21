@@ -55,7 +55,8 @@ public class QuestionBankService
             _log.LogInformation(
                 "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty}; need {Count}",
                 available, subject, grade, difficulty ?? "any", count);
-            return null;
+                
+            if (available == 0) return null;
         }
 
         var items = await baseQuery

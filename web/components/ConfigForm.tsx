@@ -129,6 +129,7 @@ export function ConfigForm({
   initialConfig,
   adaptiveMessage,
   autoStart,
+  olympiadId,
   onGenerated,
   onQuotaExceeded,
   onRequiresUpgrade,
@@ -137,6 +138,8 @@ export function ConfigForm({
   initialConfig?: Partial<PreviewRequest>;
   adaptiveMessage?: string;
   autoStart?: boolean;
+  /** The selected olympiad ID — forwarded to the API so Claude tailors questions to that exam. */
+  olympiadId?: string;
   onGenerated: (config: PreviewRequest, paper: GeneratedPaper, simulationMode: boolean) => void;
   onQuotaExceeded: (info: QuotaError) => void;
   onRequiresUpgrade?: () => void;
@@ -191,7 +194,7 @@ export function ConfigForm({
     e.preventDefault();
     setLoading(true);
     setError(null);
-    const config: PreviewRequest = { subject, grade, difficulty, count, mistakesOnly, olympiadLevel };
+    const config: PreviewRequest = { subject, grade, difficulty, count, mistakesOnly, olympiadLevel, olympiadId };
     try {
       const token = await getToken();
       const res = await fetch(`${API_URL}/api/papers/generate`, {

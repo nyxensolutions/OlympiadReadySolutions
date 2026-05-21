@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X, Sparkles } from "lucide-react";
+import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X, Sparkles, Target } from "lucide-react";
 import { useState } from "react";
 import {
   SignedIn,
@@ -44,18 +44,18 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               priority
             />
           </div>
-          <span className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">OlympiadReady</span>
+          <span className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 shrink-0">OlympiadReady</span>
         </Link>
 
         {/* Center nav — signed-out: anchor links; signed-in: app nav */}
         <SignedOut>
-          <nav className="hidden flex-1 items-center justify-center gap-6 sm:flex">
+          <nav className="hidden flex-1 items-center justify-center gap-6 sm:flex ml-8">
             <Link href="/#features" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">Features</Link>
             <Link href="/#how-it-works" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">How It Works</Link>
             <Link href="/olympiad-dates" className={`text-sm font-medium transition ${active === "olympiad-dates" ? "text-brand-600" : "text-slate-600 hover:text-brand-600"}`}>
               Olympiad Dates
             </Link>
-            <Link href="/#try-it" className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100">
+            <Link href="/#try-it" className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100 whitespace-nowrap">
               <Sparkles className="h-4 w-4" /> Try It
             </Link>
           </nav>
@@ -63,8 +63,8 @@ export function AppHeader({ active }: { active?: ActivePage }) {
 
         <SignedIn>
           {/* Desktop nav */}
-          <nav className="hidden flex-1 items-center justify-center gap-0.5 sm:flex flex-wrap">
-            <NavLink href="/" label="Practice" active={active === "home"} />
+          <nav className="hidden flex-1 items-center justify-start gap-2 lg:gap-3 sm:flex ml-6 lg:ml-10 overflow-hidden">
+            <NavLink href="/" label="Practice" icon={<Target className="h-3.5 w-3.5" />} active={active === "home"} />
             <NavLink href="/topics" label="Syllabus Map" icon={<BookOpen className="h-3.5 w-3.5" />} active={active === "topics"} />
             <NavLink href="/dashboard" label="Dashboard" icon={<LayoutDashboard className="h-3.5 w-3.5" />} active={active === "dashboard"} />
             <NavLink href="/practice-papers" label="Question Papers" icon={<FileText className="h-3.5 w-3.5" />} active={active === "practice-papers"} accent />
@@ -75,13 +75,13 @@ export function AppHeader({ active }: { active?: ActivePage }) {
         </SignedIn>
 
         {/* Right side */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 shrink-0 ml-4">
           <SignedIn>
             <button
               type="button"
               onClick={() => setUpgradeOpen(true)}
               title="Upgrade to Pro"
-              className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-achiever-300 bg-achiever-50 px-2.5 py-1.5 text-xs font-semibold text-achiever-700 transition hover:bg-achiever-100 hover:shadow-sm"
+              className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-achiever-300 bg-achiever-50 px-2.5 py-1.5 text-xs font-semibold text-achiever-700 transition hover:bg-achiever-100 hover:shadow-sm whitespace-nowrap"
             >
               <Crown className="h-3.5 w-3.5" />
               Go Pro
@@ -90,22 +90,22 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               type="button"
               onClick={() => setPurchasesOpen(true)}
               title="My Purchases"
-              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-50 hover:text-brand-600"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-50 hover:text-brand-600 whitespace-nowrap"
             >
               <Receipt className="h-4 w-4" />
-              <span className="hidden sm:inline text-xs">Purchases</span>
+              <span className="hidden lg:inline text-xs">Purchases</span>
             </button>
             <UserButton afterSignOutUrl="/" />
           </SignedIn>
           <SignedOut>
             <SignInButton mode="modal">
-              <button className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50">
+              <button className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50 whitespace-nowrap">
                 <LogIn className="h-4 w-4" />
                 <span className="hidden sm:inline">Sign in</span>
               </button>
             </SignInButton>
             <SignUpButton mode="modal">
-              <button className="rounded-lg bg-brand-600 px-3 py-2 text-sm font-semibold text-white transition hover:bg-brand-700">
+              <button className="rounded-lg bg-brand-600 px-3 py-2 text-sm font-semibold text-white transition hover:bg-brand-700 whitespace-nowrap">
                 <span className="hidden sm:inline">Sign up free</span>
                 <span className="sm:hidden">Start free</span>
               </button>
@@ -174,7 +174,7 @@ function NavLink({
 }: {
   href: string; label: string; icon?: React.ReactNode; active?: boolean; accent?: boolean; amber?: boolean; violet?: boolean;
 }) {
-  const base = "inline-flex items-center gap-1.5 rounded-lg px-2.5 py-2 text-sm font-medium transition whitespace-nowrap";
+  const base = "inline-flex items-center gap-1 rounded-lg px-2 py-1.5 text-[13px] font-medium transition whitespace-nowrap";
   const cls = active
     ? violet
       ? `${base} bg-violet-50 text-violet-700`

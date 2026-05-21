@@ -1,0 +1,83 @@
+[
+  {
+    "QuestionText": "The temperature of a city is -15°C. It drops by 8°C, then rises by 12°C, and finally drops by another 5°C. What is the final temperature, and how much lower is it than the freezing point of water?",
+    "Options": ["-16°C, 16°C lower", "-16°C, 0°C lower", "-18°C, 18°C lower", "-20°C, 20°C lower"],
+    "CorrectAnswer": "A",
+    "Topic": "Integers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Initial = -15. Drops 8 = -23. Rises 12 = -11. Drops 5 = -16°C. Freezing point is 0°C. -16°C is 16°C lower than 0°C."
+  },
+  {
+    "QuestionText": "If x = -(-(-(-5))) and y = -(-(-3)), find the value of (x - y) + (x * y).",
+    "Options": ["-17", "-7", "13", "7"],
+    "CorrectAnswer": "A",
+    "Topic": "Integers",
+    "Difficulty": "Olympiad",
+    "Explanation": "x has 4 negative signs, so x = 5. y has 3 negative signs, so y = -3. x - y = 5 - (-3) = 8. x * y = 5 * (-3) = -15. Sum = 8 + (-15) = -7. Wait, let me re-evaluate. x = 5, y = -3. x - y = 5 - (-3) = 8. x * y = -15. 8 + (-15) = -7. So Correct Answer is -7 (Option B). Let me fix the CorrectAnswer field.",
+    "CorrectAnswer": "B"
+  },
+  {
+    "QuestionText": "A monkey is climbing a greasy pole 30 meters high. It climbs 3 meters in one minute but slips down 2 meters in the next minute. In how many minutes will it reach the top of the pole?",
+    "Options": ["58 minutes", "55 minutes", "60 minutes", "54 minutes"],
+    "CorrectAnswer": "B",
+    "Topic": "Integers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Net gain in 2 minutes = 1 meter. To reach 27 meters, it takes 27 * 2 = 54 minutes. In the 55th minute, it climbs 3 meters and reaches the top (30m) without slipping down. So 55 minutes."
+  },
+  {
+    "QuestionText": "Simplify: 1 - 2 + 3 - 4 + 5 - 6 + ... + 99 - 100",
+    "Options": ["-50", "50", "-100", "0"],
+    "CorrectAnswer": "A",
+    "Topic": "Integers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pair the terms: (1 - 2) + (3 - 4) + ... + (99 - 100). Each pair equals -1. There are 100 terms, so there are 50 pairs. 50 * (-1) = -50."
+  },
+  {
+    "QuestionText": "Which of the following statements is true for any two non-zero integers a and b, where a > b?",
+    "Options": ["a + b > 0", "a - b > 0", "a * b > 0", "a / b > 0"],
+    "CorrectAnswer": "B",
+    "Topic": "Integers",
+    "Difficulty": "Olympiad",
+    "Explanation": "If a > b, then subtracting b from both sides gives a - b > 0. The other operations depend on the signs of a and b."
+  },
+  {
+    "QuestionText": "A tank is 3/5 full of water. When 40 liters of water are drawn from it, it becomes 1/3 full. What is the total capacity of the tank?",
+    "Options": ["120 liters", "150 liters", "180 liters", "200 liters"],
+    "CorrectAnswer": "B",
+    "Topic": "Fractions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let capacity be x. (3/5)x - (1/3)x = 40. LCM of 5 and 3 is 15. (9x - 5x)/15 = 40. 4x/15 = 40. 4x = 600. x = 150 liters."
+  },
+  {
+    "QuestionText": "Rohan spends 1/4 of his monthly income on rent, 1/3 on food, and 1/6 on education. If he saves ₹3000, what is his total monthly income?",
+    "Options": ["₹12000", "₹15000", "₹18000", "₹24000"],
+    "CorrectAnswer": "A",
+    "Topic": "Fractions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Total spent = 1/4 + 1/3 + 1/6. LCM is 12. (3+4+2)/12 = 9/12 = 3/4. Fraction saved = 1 - 3/4 = 1/4. If 1/4 of income is ₹3000, total income = 3000 * 4 = ₹12000."
+  },
+  {
+    "QuestionText": "Which fraction is the greatest among 5/6, 7/8, 11/12, and 13/16?",
+    "Options": ["5/6", "7/8", "11/12", "13/16"],
+    "CorrectAnswer": "C",
+    "Topic": "Fractions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Convert to decimals or find a common denominator. 5/6 ≈ 0.833, 7/8 = 0.875, 11/12 ≈ 0.916, 13/16 = 0.8125. The greatest is 11/12."
+  },
+  {
+    "QuestionText": "Evaluate: (1 - 1/2)(1 - 1/3)(1 - 1/4)...(1 - 1/100)",
+    "Options": ["1/100", "1/50", "99/100", "1/200"],
+    "CorrectAnswer": "A",
+    "Topic": "Fractions",
+    "Difficulty": "Olympiad",
+    "Explanation": "This is a telescoping product: (1/2) * (2/3) * (3/4) * ... * (99/100). All intermediate numerators and denominators cancel out, leaving 1/100."
+  },
+  {
+    "QuestionText": "If 1/x + 1/y = 1/4, and x and y are distinct positive integers, what is the maximum possible value of x + y?",
+    "Options": ["10", "15", "20", "25"],
+    "CorrectAnswer": "D",
+    "Topic": "Fractions",
+    "Difficulty": "Olympiad",
+    "Explanation": "Pairs (x,y) satisfying 1/x + 1/y = 1/4: (5,20), (6,12), (8,8). Distinct means not (8,8). The pair (5,20) gives sum 25, which is maximum."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "QuestionText": "What is the angle measure for half a revolution?",
+    "Options": ["90°", "180°", "270°", "360°"],
+    "CorrectAnswer": "B",
+    "Topic": "Understanding Elementary Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A complete revolution is 360°. Half a revolution is 360° ÷ 2 = 180°, which forms a straight angle."
+  },
+  {
+    "QuestionText": "An angle whose measure is greater than 90° but less than 180° is called:",
+    "Options": ["Acute angle", "Right angle", "Obtuse angle", "Reflex angle"],
+    "CorrectAnswer": "C",
+    "Topic": "Understanding Elementary Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "An obtuse angle is between 90° and 180°. Acute is less than 90°. Reflex is greater than 180°."
+  },
+  {
+    "QuestionText": "Which type of triangle has all three sides of different lengths?",
+    "Options": ["Equilateral triangle", "Isosceles triangle", "Scalene triangle", "Right-angled triangle"],
+    "CorrectAnswer": "C",
+    "Topic": "Understanding Elementary Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "A scalene triangle has no sides of equal length. Isosceles has two equal sides, and equilateral has three."
+  },
+  {
+    "QuestionText": "A polygon with 8 sides is called an:",
+    "Options": ["Hexagon", "Heptagon", "Octagon", "Decagon"],
+    "CorrectAnswer": "C",
+    "Topic": "Understanding Elementary Shapes",
+    "Difficulty": "Foundation",
+    "Explanation": "An octagon is an 8-sided polygon. 'Octa' means eight."
+  },
+  {
+    "QuestionText": "If the hour hand of a clock moves from 12 to 3, what fraction of a revolution has it turned?",
+    "Options": ["1/4", "1/3", "1/2", "3/4"],
+    "CorrectAnswer": "A",
+    "Topic": "Understanding Elementary Shapes",
+    "Difficulty": "Advanced",
+    "Explanation": "From 12 to 3 is 3 hours. A full clock is 12 hours. The fraction is 3/12 = 1/4 of a revolution (90°)."
+  },
+  {
+    "QuestionText": "A regular hexagon is divided into triangles by drawing diagonals from the center to its vertices. How many such triangles are formed, and what type are they?",
+    "Options": ["4, Isosceles", "6, Equilateral", "6, Scalene", "8, Right-angled"],
+    "CorrectAnswer": "B",
+    "Topic": "Understanding Elementary Shapes",
+    "Difficulty": "Olympiad",
+    "Explanation": "A regular hexagon can be perfectly divided into 6 smaller equilateral triangles joining from the center to the vertices."
+  },
+  {
+    "QuestionText": "To construct an angle of 60° using a compass and ruler, the very first arc drawn from the vertex must be intersected by another arc of what radius?",
+    "Options": ["Half the first radius", "Double the first radius", "The same radius", "Any arbitrary radius"],
+    "CorrectAnswer": "C",
+    "Topic": "Practical Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "The distance between the two points forming a 60-degree angle on the arc is equal to the radius of that arc, forming an equilateral triangle."
+  },
+  {
+    "QuestionText": "An instrument used to measure an angle is called a:",
+    "Options": ["Ruler", "Compass", "Divider", "Protractor"],
+    "CorrectAnswer": "D",
+    "Topic": "Practical Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "A protractor is a semi-circular tool marked with degrees used for measuring angles."
+  },
+  {
+    "QuestionText": "When you draw the perpendicular bisector of a line segment AB of length 8 cm, the bisector intersects AB at point M. What is the length of AM?",
+    "Options": ["2 cm", "4 cm", "6 cm", "8 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Practical Geometry",
+    "Difficulty": "Foundation",
+    "Explanation": "A perpendicular bisector cuts the segment exactly in half. 8 ÷ 2 = 4 cm."
+  },
+  {
+    "QuestionText": "You are asked to construct an angle of 135° using only a compass and straightedge. Which of the following is the standard method?",
+    "Options": ["Bisect a 270° angle", "Draw a 90° angle and bisect the adjacent 90° angle", "Draw a 60° angle and add 75°", "Draw 120° and guess 15° more"],
+    "CorrectAnswer": "B",
+    "Topic": "Practical Geometry",
+    "Difficulty": "Advanced",
+    "Explanation": "135° = 90° + 45°. You first construct a 90° angle (perpendicular), which leaves another 90° on the straight line. Bisecting that second 90° angle gives 45°. 90° + 45° = 135°."
+  },
+  {
+    "QuestionText": "If the code for 'APPLE' is 'EQTPI', what is the code for 'MANGO'?",
+    "Options": ["QERKS", "QERLS", "REQKS", "OEPKS"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "The pattern is adding 4 to each letter's position. A(+4)=E, P(+4)=T, P(+4)=T, L(+4)=P, E(+4)=I. For MANGO: M(+4)=Q, A(+4)=E, N(+4)=R, G(+4)=K, O(+4)=S. Code is QERKS."
+  },
+  {
+    "QuestionText": "A man walks 5 km East, then turns right and walks 3 km. He turns right again and walks 5 km. How far is he from his starting point and in which direction?",
+    "Options": ["3 km South", "5 km West", "3 km North", "8 km South"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Advanced",
+    "Explanation": "He forms three sides of a rectangle. He went East 5, South 3, West 5. He is exactly 3 km South of where he started."
+  },
+  {
+    "QuestionText": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "Options": ["108", "148", "162", "216"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Foundation",
+    "Explanation": "Each number is multiplied by 3. 54 × 3 = 162."
+  },
+  {
+    "QuestionText": "Six friends A, B, C, D, E, and F are sitting in a circle facing the center. A is between B and C. D is between E and F. B and E are exactly opposite to each other. Who is sitting opposite to C?",
+    "Options": ["D", "F", "A", "E"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Circle of 6. B and E are opposite. A is between B and C. So sequence on one side is B-A-C. The opposite of B is E. D is between E and F. So sequence on other side is E-D-F. C is next to A, which is next to B. Opposite C is F."
+  },
+  {
+    "QuestionText": "Which letter will be the 8th letter to the right of the 15th letter from the right end of the English alphabetical series?",
+    "Options": ["G", "T", "F", "U"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "Difficulty": "Olympiad",
+    "Explanation": "Alphabet A-Z. 15th from right is L (27 - 15 = 12th from left). 8th to the right of L (12 + 8 = 20). 20th letter is T."
+  }
+]

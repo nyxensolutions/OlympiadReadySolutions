@@ -1,0 +1,207 @@
+[
+  {
+    "QuestionText": "Which of the following numbers is the greatest?",
+    "Options": ["382,901", "382,109", "382,910", "382,091"],
+    "CorrectAnswer": "C",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Comparing the numbers from the left, at the tens place, 382,910 has a 1, while 382,901 has a 0. So 382,910 is the greatest."
+  },
+  {
+    "QuestionText": "In the number 6,54,321, what is the place value of the digit 5?",
+    "Options": ["5,000", "50,000", "5,00,000", "500"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The digit 5 is in the ten thousands place. Hence, its place value is 50,000."
+  },
+  {
+    "QuestionText": "Estimate the difference (5,673 - 436) to the nearest hundreds.",
+    "Options": ["5,200", "5,300", "5,100", "5,400"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "5673 rounds to 5700. 436 rounds to 400. Difference = 5700 - 400 = 5300."
+  },
+  {
+    "QuestionText": "Write 45 in Roman numerals.",
+    "Options": ["XXXXV", "XLV", "VL", "LXV"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "45 = 40 + 5 = (50 - 10) + 5 = XL + V = XLV."
+  },
+  {
+    "QuestionText": "1 crore is equal to how many millions?",
+    "Options": ["1 million", "10 millions", "100 millions", "1000 millions"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "1 crore = 1,00,00,000. 1 million = 1,000,000. So 1 crore = 10 millions."
+  },
+  {
+    "QuestionText": "What is the predecessor of 1,00,000?",
+    "Options": ["99,999", "9,999", "99,998", "9,99,999"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "Predecessor = 1,00,000 - 1 = 99,999."
+  },
+  {
+    "QuestionText": "How many centimeters are there in 2 kilometers?",
+    "Options": ["20,000 cm", "2,00,000 cm", "2,000 cm", "20,00,000 cm"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "1 km = 1,00,000 cm. So 2 km = 2,00,000 cm."
+  },
+  {
+    "QuestionText": "Form the greatest 4-digit number using the digits 4, 0, 9 (you may repeat any one digit twice).",
+    "Options": ["9940", "9440", "9049", "9400"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "To form the greatest number, repeat the largest digit (9). The number is 9940."
+  },
+  {
+    "QuestionText": "Round off 8,432 to the nearest thousands.",
+    "Options": ["8,000", "8,500", "9,000", "8,400"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "The digit at the hundreds place is 4, which is less than 5. So, 8432 rounds down to 8000."
+  },
+  {
+    "QuestionText": "Evaluate using brackets: 7 × 109",
+    "Options": ["763", "793", "709", "736"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Foundation",
+    "Explanation": "7 × 109 = 7 × (100 + 9) = 700 + 63 = 763."
+  },
+  {
+    "QuestionText": "A vessel has 4 liters and 500 ml of curd. In how many glasses, each of 25 ml capacity, can it be filled?",
+    "Options": ["160", "180", "200", "150"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Total curd = 4500 ml. Number of glasses = 4500 ÷ 25 = 180."
+  },
+  {
+    "QuestionText": "Ravi has ₹78,592 with him. He placed an order for purchasing 40 radio sets at ₹1200 each. How much money will remain with him after the purchase?",
+    "Options": ["₹30,592", "₹31,592", "₹32,592", "₹29,592"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Cost of 40 sets = 40 × 1200 = ₹48,000. Remaining money = 78,592 - 48,000 = ₹30,592."
+  },
+  {
+    "QuestionText": "The difference between the greatest and smallest 4-digit numbers formed by using all the digits 5, 3, 0, 8 exactly once is:",
+    "Options": ["5481", "5491", "5591", "5472"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Greatest = 8530. Smallest = 3058. Difference = 8530 - 3058 = 5472. Wait, 8530 - 3058: 10-8=2, 12-5=7, 4-0=4, 8-3=5. Yes, 5472. Option D is 5472. Let's fix CorrectAnswer.",
+    "CorrectAnswer": "D"
+  },
+  {
+    "QuestionText": "Which of the following equations is NOT correct?",
+    "Options": ["IX + XV = XXIV", "XX - IX = XI", "XC - XL = L", "CC + L = CL"],
+    "CorrectAnswer": "D",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "CC = 200, L = 50. Their sum is 250 (CCL). CL means 150. So D is incorrect."
+  },
+  {
+    "QuestionText": "A book exhibition was held for four days in a school. The number of tickets sold on the first, second, third, and final days were 1094, 1812, 2050, and 2751 respectively. Find the total number of tickets sold on all four days.",
+    "Options": ["7,707", "7,607", "7,717", "7,807"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Total = 1094 + 1812 + 2050 + 2751 = 7707."
+  },
+  {
+    "QuestionText": "In the Indian system of numeration, the number 58695376 is written as:",
+    "Options": ["58,69,53,76", "5,86,95,376", "58,695,376", "586,95,376"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Indian system uses commas after 3 digits from the right, then every 2 digits. So 5,86,95,376."
+  },
+  {
+    "QuestionText": "Find the product of the place values of two 5s in the number 45,650.",
+    "Options": ["25,000", "2,50,000", "25,00,000", "2,500"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "First 5 is at thousands place = 5,000. Second 5 is at tens place = 50. Product = 5000 × 50 = 2,50,000."
+  },
+  {
+    "QuestionText": "What must be added to 3,45,678 to make it equal to 1 million?",
+    "Options": ["6,54,322", "6,44,322", "7,54,322", "6,55,322"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "1 million = 10,00,000. We need 10,00,000 - 3,45,678 = 6,54,322."
+  },
+  {
+    "QuestionText": "If 1 kg of apples costs ₹120 and 1 kg of mangoes costs ₹85, how much will 5 kg of apples and 3 kg of mangoes cost together?",
+    "Options": ["₹855", "₹755", "₹655", "₹955"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Cost of apples = 5 × 120 = 600. Cost of mangoes = 3 × 85 = 255. Total = 600 + 255 = 855."
+  },
+  {
+    "QuestionText": "A student multiplied a number by 48 instead of 84. His answer was 1,188 less than the correct answer. Find the number.",
+    "Options": ["31", "33", "35", "37"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Advanced",
+    "Explanation": "Let the number be x. 84x - 48x = 1188. So, 36x = 1188. x = 1188 / 36 = 33."
+  },
+  {
+    "QuestionText": "What is the sum of all 3-digit numbers that can be formed using the digits 2, 5, and 8 without repetition?",
+    "Options": ["3330", "3130", "3430", "3230"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "The numbers are 258, 285, 528, 582, 825, 852. Each digit appears twice in each place. Sum of digits = 2+5+8 = 15. Sum = 2 × 15 × (100+10+1) = 30 × 111 = 3330."
+  },
+  {
+    "QuestionText": "How many numbers between 100 and 300 are exactly divisible by both 4 and 6?",
+    "Options": ["15", "16", "17", "18"],
+    "CorrectAnswer": "B",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "LCM of 4 and 6 is 12. Multiples of 12 between 100 and 300: First multiple is 108 (12×9), last is 300 (but strictly 'between' means up to 288. If inclusive, 300 is 12×25). Assuming inclusive: from 9 to 25, there are 25 - 9 + 1 = 17 numbers. If 'between' is exclusive, 300 is excluded, so 16 numbers. Standard interpretation is exclusive boundaries unless stated otherwise. Let's adjust answer to 16."
+  },
+  {
+    "QuestionText": "If the number 7X34Y is exactly divisible by 72, what are the values of X and Y?",
+    "Options": ["X=4, Y=8", "X=2, Y=4", "X=6, Y=4", "X=2, Y=8"],
+    "CorrectAnswer": "D",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Divisible by 72 means divisible by 8 and 9. Divisible by 8: last 3 digits '34Y' must be divisible by 8. 344 is divisible by 8 (43x8). So Y = 4. Divisible by 9: Sum of digits = 7+X+3+4+4 = 18+X. For 18+X to be div by 9, X can be 0 or 9. Wait, 34Y: 8x40=320, 2Y remaining. If 2Y is div by 8, Y=4. So 344. Then 7+X+3+4+4 = 18+X. X=0 or 9. Options don't have this. What if Y=something else? Wait, 2Y left. 24 is div by 8. Are there any other multiples of 8 in 20s? No. What if 34Y: 8x43=344. Is there another? No. Let me re-read. 34Y: 340+Y. 340/8 = 42.5. 42x8 = 336. 336+8=344. So Y=4 is unique. Let me check my options. Wait, X=2, Y=4 is an option. If X=2, Y=4, sum is 7+2+3+4+4 = 20 (not div by 9). Let me recalculate 72 divisibility. Let's try X=2, Y=8: 348 / 8 is not integer. X=4, Y=8: 348 / 8 no. Wait, let me change the question to 8X34Y divisible by 88... No, let's fix the question digits. 425736 is divisible by 72. 4+2+5+7+3+6 = 27. Let's use 5X43Y divisible by 72. 43Y: 432 is div by 8 (54x8). So Y=2. Sum: 5+X+4+3+2 = 14+X. Div by 9 -> X=4. So X=4, Y=2. Let's change the question Text to '5X43Y'. Options to match.",
+    "CorrectAnswer": "A",
+    "QuestionText": "If the number 5X43Y is exactly divisible by 72, what are the values of X and Y?",
+    "Options": ["X=4, Y=2", "X=2, Y=4", "X=6, Y=2", "X=4, Y=6"],
+    "Explanation": "Divisible by 72 means divisible by 8 and 9. Divisible by 8: '43Y' must be divisible by 8. 432 is a multiple of 8, so Y = 2. Divisible by 9: sum of digits (5+X+4+3+2 = 14+X) must be divisible by 9. So X = 4."
+  },
+  {
+    "QuestionText": "The difference between two numbers is 1,36,542. If the greater number is 31,45,678, what is the sum of the two numbers?",
+    "Options": ["61,54,814", "61,53,814", "61,54,914", "61,55,814"],
+    "CorrectAnswer": "A",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "Smaller number = 31,45,678 - 1,36,542 = 30,09,136. Sum = 31,45,678 + 30,09,136 = 61,54,814."
+  },
+  {
+    "QuestionText": "A printer numbers the pages of a book starting from 1. If 3189 digits are used in all, how many pages does the book have?",
+    "Options": ["1000", "1050", "1074", "1075"],
+    "CorrectAnswer": "C",
+    "Topic": "Knowing our Numbers",
+    "Difficulty": "Olympiad",
+    "Explanation": "1-digit pages: 9 digits. 2-digit pages (10-99): 90 × 2 = 180 digits. 3-digit pages (100-999): 900 × 3 = 2700 digits. Total digits for 1 to 999 = 9 + 180 + 2700 = 2889. Digits left = 3189 - 2889 = 300. These are used for 4-digit pages. Number of 4-digit pages = 300 / 4 = 75. Total pages = 999 + 75 = 1074."
+  }
+]

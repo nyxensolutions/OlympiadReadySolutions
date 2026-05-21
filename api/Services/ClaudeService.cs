@@ -147,7 +147,8 @@ public class ClaudeService
 
     public async Task<List<Question>> GenerateQuestionsAsync(
         string subject, int grade, string difficulty, int count,
-        string? topic = null, CancellationToken ct = default, string? olympiadLevel = null)
+        string? topic = null, CancellationToken ct = default,
+        string? olympiadLevel = null, string? olympiadId = null)
     {
         if (string.IsNullOrWhiteSpace(_apiKey) || _apiKey.StartsWith("REPLACE_"))
             throw new InvalidOperationException(
@@ -163,9 +164,12 @@ public class ClaudeService
               "Target the Achievers Section / Section B style of top Olympiad papers."
             : " These questions are for a LEVEL 1 (school round) Olympiad student.";
 
+        // Rich per-olympiad context so Claude mirrors that exam's exact style.
+        var olympiadClause = BuildOlympiadClause(olympiadId);
+
         var user =
             $"Generate exactly {count} multiple-choice questions for Class {grade} {subject} " +
-            $"at {difficulty} difficulty.{topicClause}{levelClause} Follow the schema and rules from the system prompt strictly.";
+            $"at {difficulty} difficulty.{topicClause}{levelClause}{olympiadClause} Follow the schema and rules from the system prompt strictly.";
 
         // System block as an array with cache_control so Anthropic caches the prompt across calls.
         // Below the cache threshold, this is a no-op; once SystemPrompt grows past ~1024 tokens
@@ -226,6 +230,122 @@ public class ClaudeService
             throw new InvalidOperationException($"No JSON array in Claude response: {text}");
         return text.Substring(start, end - start + 1);
     }
+
+    /// <summary>
+    /// Builds a context clause that tells Claude exactly which exam's style to mirror.
+    /// Each olympiad family has distinct question patterns, section names, and difficulty conventions.
+    /// </summary>
+    private static string BuildOlympiadClause(string? olympiadId) => olympiadId switch
+    {
+        // ── SOF ──────────────────────────────────────────────────────────────
+        "sof_imo" => 
+            " Mirror the SOF IMO (International Mathematics Olympiad) question style exactly: " +
+            "Section A has straightforward curriculum questions; Section B (Achievers) has multi-step " +
+            "reasoning with competitive distractors. Use the SOF IMO vocabulary — \"Achievers Section\", " +
+            "class-level NCERT curriculum alignment, integer or fractional answers preferred.",
+
+        "sof_nso" =>
+            " Mirror the SOF NSO (National Science Olympiad) style: Section A has direct NCERT concept " +
+            "questions; Section B (Achievers) uses application and higher-order thinking. " +
+            "Cover Physics, Chemistry, Biology as appropriate for the grade. " +
+            "Align with the NSO Chapter-wise syllabus.",
+
+        "sof_ieo" =>
+            " Mirror the SOF IEO (International English Olympiad) pattern: " +
+            "Word and Structure Knowledge, Reading, Spoken and Written Expression. " +
+            "Include synonym/antonym, sentence-rearrangement, comprehension passage inference, " +
+            "and grammar-in-context questions as IEO does.",
+
+        "sof_nco" =>
+            " Mirror the SOF NCO (National Cyber Olympiad) syllabus: " +
+            "Computer fundamentals, MS Office, internet basics, binary/logic, " +
+            "networking, and for higher classes: Python basics, HTML/CSS, algorithms. " +
+            "Section B (Achievers) should have application-level coding-logic questions.",
+
+        "sof_isso" =>
+            " Mirror the SOF ISSO (International Social Studies Olympiad) pattern: " +
+            "History, Geography, Civics, Economics. Questions should be factual and verifiable. " +
+            "Avoid time-sensitive current-affairs questions.",
+
+        "sof_igko" =>
+            " Mirror the SOF IGKO (International General Knowledge Olympiad): " +
+            "Current affairs, science, sports, awards, famous personalities, world facts. " +
+            "All answers must be stable facts — no questions whose answer changes year to year.",
+
+        // ── SilverZone ───────────────────────────────────────────────────────
+        "silverzone_math" =>
+            " Mirror SilverZone iOM (International Olympiad of Mathematics) style: " +
+            "Three sections — Logical Reasoning, Mathematical Reasoning, Everyday Mathematics. " +
+            "Questions are slightly more analytical than SOF; avoid purely computational questions. " +
+            "SilverZone prefers word-problem framing even for algebraic content.",
+
+        "silverzone_science" =>
+            " Mirror SilverZone iOS (International Olympiad of Science) style: " +
+            "Application-based questions tied to NCERT; emphasis on experimental reasoning " +
+            "and real-world phenomena. Three sections: Science, Applied Science, Achievers.",
+
+        "silverzone_english" =>
+            " Mirror SilverZone iOEL (International Olympiad of English Language) pattern: " +
+            "Word power, language in use, reading comprehension, creative language. " +
+            "Questions are slightly more literary than SOF IEO — include idioms and phrasal verbs.",
+
+        "silverzone_computer" =>
+            " Mirror SilverZone iOIT (International Olympiad of Information Technology) pattern: " +
+            "Computer concepts, programming logic (Scratch for lower grades, Python for higher), " +
+            "internet safety, and digital literacy. Align with the iOIT chapter-wise syllabus.",
+
+        // ── Unified Council ──────────────────────────────────────────────────
+        "unified_nstse" =>
+            " Mirror the NSTSE (National Level Science Talent Search Exam) by Unified Council: " +
+            "Strongly NCERT-aligned, concept-clarity focused. Questions test whether students " +
+            "understand the \"why\" behind answers, not just recall. Avoid questions solvable purely " +
+            "by rote; prefer reasoning-based MCQs. Mathematics section is included for all grades.",
+
+        "unified_uieo" =>
+            " Mirror the UIEO (Unified International English Olympiad) by Unified Council: " +
+            "Reading, writing, grammar, and vocabulary. Analytical reading comprehension " +
+            "with inference questions. Grammar questions should test usage in context, not rules by rote.",
+
+        // ── CREST ────────────────────────────────────────────────────────────
+        "crest_cmo" =>
+            " Mirror CREST CMO (CREST Mathematics Olympiad) style: " +
+            "Online-exam format. Questions are conceptually deep with elegant solutions. " +
+            "CREST favours multi-concept integration — a single question may span geometry + algebra. " +
+            "Distractors should be the results of common one-step errors.",
+
+        "crest_cso" =>
+            " Mirror CREST CSO (CREST Science Olympiad) style: " +
+            "Practical, application-based science. Questions often involve a scenario or mini-experiment " +
+            "description before the question. CREST Science leans more applied than SOF NSO.",
+
+        "crest_ceo" =>
+            " Mirror CREST CEO (CREST English Olympiad) style: " +
+            "High-quality passages with inference and vocabulary-in-context questions. " +
+            "Grammar questions are usage-based. CREST English tests critical reading more than SOF IEO.",
+
+        // ── HBCSE ────────────────────────────────────────────────────────────
+        "hbcse" =>
+            " Mirror the HBCSE National Olympiad Programme (IOQM/RMO/INMO for Math; NSEP/NSEC for Science): " +
+            "These are the most rigorous school Olympiads in India. Even for MCQ practice, " +
+            "questions should demand deep mathematical or scientific reasoning — no direct-formula plugging. " +
+            "For Math: elegant proofs, number theory, combinatorics, geometry with proof steps. " +
+            "For Science: derivation-level understanding, advanced NCERT + beyond. " +
+            "Distractors must be plausible from a partial-reasoning standpoint.",
+
+        // ── Spell Bee ────────────────────────────────────────────────────────
+        "spell_bee" =>
+            " This is a Spell Bee competition preparation paper. Focus exclusively on: " +
+            "(1) correct spelling of age-appropriate words, " +
+            "(2) word meanings and usage in context, " +
+            "(3) phonetics and syllabification, " +
+            "(4) antonyms and synonyms, " +
+            "(5) homophones and commonly confused words. " +
+            "Each question must present 4 spelling or vocabulary options. " +
+            "Words should be graded to the class level — simpler for Class 1-3, more complex for Class 8-12.",
+
+        // ── Subject-level / open practice (default) ──────────────────────────
+        _ => " Questions should follow standard competitive Olympiad exam patterns."
+    };
 
     private class ClaudeResponse
     {

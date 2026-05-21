@@ -1,0 +1,652 @@
+[
+  {
+    "QuestionText": "What is an 'Algorithm'?",
+    "Options": [
+      "A) A computer part",
+      "B) A step-by-step set of instructions to solve a problem",
+      "C) A type of video game",
+      "D) A digital drawing tool"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What do we use to show an algorithm visually using shapes and arrows?",
+    "Options": [
+      "A) Flowchart",
+      "B) Word Document",
+      "C) Spreadsheet",
+      "D) Wallpaper"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "In a flowchart, what shape is used to show the 'Start' or 'Stop' of a program?",
+    "Options": [
+      "A) Rectangle",
+      "B) Diamond",
+      "C) Oval / Capsule",
+      "D) Triangle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is a 'Loop' in coding?",
+    "Options": [
+      "A) An error in the program",
+      "B) A command that repeats a set of instructions",
+      "C) A way to shut down the computer",
+      "D) A type of computer mouse"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What shape in a flowchart represents a 'Decision' (like checking a condition)?",
+    "Options": [
+      "A) Rectangle",
+      "B) Diamond",
+      "C) Circle",
+      "D) Square"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If a set of instructions repeats forever, what kind of loop is it?",
+    "Options": [
+      "A) Infinite Loop",
+      "B) Finite Loop",
+      "C) Broken Loop",
+      "D) Stop Loop"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What shape in a flowchart represents an 'Action' or 'Processing' step?",
+    "Options": [
+      "A) Oval",
+      "B) Diamond",
+      "C) Rectangle",
+      "D) Triangle"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What do we call a mistake or error in a computer program?",
+    "Options": [
+      "A) Feature",
+      "B) Bug",
+      "C) Virus",
+      "D) Loop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the process of finding and fixing errors in a program called?",
+    "Options": [
+      "A) Coding",
+      "B) Debugging",
+      "C) Executing",
+      "D) Scanning"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which concept allows a program to choose between two paths based on a condition?",
+    "Options": [
+      "A) Selection (If-Else)",
+      "B) Sequence",
+      "C) Loop",
+      "D) Variable"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What do arrows in a flowchart show?",
+    "Options": [
+      "A) The size of the program",
+      "B) The direction or flow of the instructions",
+      "C) The errors in code",
+      "D) The speed of the CPU"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is a 'Variable' in programming?",
+    "Options": [
+      "A) A container that holds data or a value that can change",
+      "B) A type of monitor",
+      "C) A step that never repeats",
+      "D) A printer error"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "When instructions are executed one after another in order, it is called a:",
+    "Options": [
+      "A) Loop",
+      "B) Sequence",
+      "C) Selection",
+      "D) Debug"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which shape represents Input or Output in a standard flowchart?",
+    "Options": [
+      "A) Parallelogram",
+      "B) Rectangle",
+      "C) Circle",
+      "D) Diamond"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If the algorithm says 'IF it is raining, take an umbrella; ELSE wear a cap', what do you do if it is NOT raining?",
+    "Options": [
+      "A) Take an umbrella",
+      "B) Wear a cap",
+      "C) Do both",
+      "D) Do nothing"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of language do computers understand directly?",
+    "Options": [
+      "A) English",
+      "B) Binary Language (0s and 1s)",
+      "C) Flowchart Language",
+      "D) French"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which of these is a popular block-based coding platform for kids?",
+    "Options": [
+      "A) MS Excel",
+      "B) Scratch",
+      "C) Windows 11",
+      "D) Adobe Photoshop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 'Pseudocode'?",
+    "Options": [
+      "A) A real computer virus",
+      "B) An algorithm written in simple, human-like language",
+      "C) A drawing of a computer",
+      "D) A game file"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If a loop is set to repeat '5 times', how many times will the action happen?",
+    "Options": [
+      "A) 1 time",
+      "B) 5 times",
+      "C) 0 times",
+      "D) Forever"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary goal of writing an algorithm?",
+    "Options": [
+      "A) To make the computer look pretty",
+      "B) To plan out a clear solution to a problem",
+      "C) To buy new hardware",
+      "D) To clear the browser history"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What happens if an algorithm has incorrect steps?",
+    "Options": [
+      "A) The computer fixes it automatically",
+      "B) The computer will give the wrong output or crash",
+      "C) The computer turns off",
+      "D) The project is saved safely"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "In coding, a condition can only be either ________ or ________.",
+    "Options": [
+      "A) Big or Small",
+      "B) True or False",
+      "C) Red or Blue",
+      "D) High or Low"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which block or command stops a loop from running forever?",
+    "Options": [
+      "A) Break / Stop condition",
+      "B) Start block",
+      "C) Input block",
+      "D) Print block"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Consider the logic: 'Repeat until bucket is full: Add 1 cup of water'. What is the stopping condition?",
+    "Options": [
+      "A) Adding water",
+      "B) When the bucket is full",
+      "C) Spilling the water",
+      "D) Starting the loop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Why do programmers use flowcharts before writing actual code?",
+    "Options": [
+      "A) To make sure the logic works visually",
+      "B) To save battery power",
+      "C) To format text fonts",
+      "D) To connect to Wi-Fi"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is a set of instructions written for a computer to follow called?",
+    "Options": [
+      "A) Hardware",
+      "B) Program",
+      "C) Browser",
+      "D) Device"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If a variable named 'Score' is 10, and you add 5 to it, what is the new value of 'Score'?",
+    "Options": [
+      "A) 10",
+      "B) 5",
+      "C) 15",
+      "D) 50"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which symbol is commonly used in flowcharts to connect shapes?",
+    "Options": [
+      "A) Question marks",
+      "B) Lines with Arrows",
+      "C) Equal signs",
+      "D) Plus signs"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "An 'IF-THEN' statement is an example of what?",
+    "Options": [
+      "A) A loop",
+      "B) A conditional statement",
+      "C) An event driver",
+      "D) A variable declaration"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What do we call the person who writes instructions for computers?",
+    "Options": [
+      "A) Operator",
+      "B) Designer",
+      "C) Programmer / Coder",
+      "D) Technician"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What would be the first step in an algorithm for brushing your teeth?",
+    "Options": [
+      "A) Spit out the water",
+      "B) Put toothpaste on the toothbrush",
+      "C) Put the brush away",
+      "D) Rinse your mouth"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What happens if a decision diamond in a flowchart has a 'No' output?",
+    "Options": [
+      "A) The flowchart stops completely",
+      "B) The flow follows the path marked 'No'",
+      "C) An error message pops up",
+      "D) It turns into a loop"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "In block-based coding, how do you combine instructions?",
+    "Options": [
+      "A) By typing text",
+      "B) By snapping blocks together like Lego pieces",
+      "C) By drawing lines",
+      "D) By restarting the computer"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is an 'Event' block in coding (like 'When Green Flag Clicked')?",
+    "Options": [
+      "A) A command that triggers an action to start",
+      "B) A mathematical formula",
+      "C) A type of variable",
+      "D) A bug report"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If an algorithm's steps are mixed up out of order, what will happen?",
+    "Options": [
+      "A) The program runs perfectly",
+      "B) The program will not work correctly",
+      "C) The computer breaks down physically",
+      "D) It re-orders itself"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of logic checks if multiple conditions are BOTH true at the same time?",
+    "Options": [
+      "A) AND logic",
+      "B) OR logic",
+      "C) NOT logic",
+      "D) LOOP logic"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of these tasks requires an algorithm to execute on a computer?",
+    "Options": [
+      "A) Sorting names alphabetically",
+      "B) Loading a webpage",
+      "C) Calculating a math problem",
+      "D) All of the above"
+    ],
+    "CorrectAnswer": "D",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the value of 'X' after this sequence: 1) Set X = 5; 2) Set X = X + X?",
+    "Options": [
+      "A) 5",
+      "B) 10",
+      "C) 15",
+      "D) 25"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What flowchart shape typically contains the text 'Is number greater than 10?'?",
+    "Options": [
+      "A) Rectangle",
+      "B) Oval",
+      "C) Diamond",
+      "D) Parallelogram"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "A loop inside another loop is known as a:",
+    "Options": [
+      "A) Nested loop",
+      "B) Double track",
+      "C) Mixed up loop",
+      "D) Heavy loop"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of flowchart shape is used for 'Display total score'?",
+    "Options": [
+      "A) Parallelogram (Output)",
+      "B) Rectangle (Process)",
+      "C) Diamond (Decision)",
+      "D) Oval (Start)"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "In a logic rule: 'You can go out IF you finished homework OR it is the weekend'. If you have NOT finished homework, but it IS the weekend, can you go out?",
+    "Options": [
+      "A) Yes",
+      "B) No",
+      "C) Cannot be determined",
+      "D) Only if you ask a friend"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the outcome of breaking down a large problem into smaller, simpler parts?",
+    "Options": [
+      "A) Decomposition",
+      "B) Complication",
+      "C) Loop construction",
+      "D) Variable management"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of these is a daily real-life example of a loop?",
+    "Options": [
+      "A) Waking up on a Tuesday morning",
+      "B) Heart beating continuously",
+      "C) Dropping a glass on the floor",
+      "D) Turning on a light switch once"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does a flowchart's 'End' shape signify?",
+    "Options": [
+      "A) The computer is broken",
+      "B) The successful termination/finish of the program logic",
+      "C) A memory card is full",
+      "D) The user paused the program"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Flowcharts",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What do we call the patterns of instructions that repeat a specific number of times?",
+    "Options": [
+      "A) Count-controlled loop",
+      "B) Forever loop",
+      "C) Static sequence",
+      "D) Random choice"
+    ],
+    "CorrectAnswer": "A",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If an algorithm tells a robot to 'Take 3 steps forward' but there is a wall in front of it, what is missing from the algorithm?",
+    "Options": [
+      "A) A text color",
+      "B) A decision block to check for obstacles",
+      "C) A print layout",
+      "D) A faster engine"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What happens to the previous value inside a variable when you store a completely new value in it?",
+    "Options": [
+      "A) It is added to the new value",
+      "B) It is overwritten (replaced) by the new value",
+      "C) It remains there alongside the new value",
+      "D) It turns into a bug"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Logic Concepts",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which button allows you to test or run your program block sequences in Scratch?",
+    "Options": [
+      "A) Stop Sign",
+      "B) Green Flag",
+      "C) Spacebar",
+      "D) Enter"
+    ],
+    "CorrectAnswer": "B",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "The final result produced by an algorithm after processing data is called:",
+    "Options": [
+      "A) Input",
+      "B) Storage",
+      "C) Output",
+      "D) Memory"
+    ],
+    "CorrectAnswer": "C",
+    "Topic": "Algorithms and Coding",
+    "SubTopic": "Introduction",
+    "Difficulty": "Foundation"
+  }
+]

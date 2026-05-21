@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Rohan is 5th from the top and 12th from the bottom in a line of students. How many total students are standing in the line?",
+    "Options": ["A) 17", "B) 16", "C) 15", "D) 18"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Total students = (Position from Top + Position from Bottom) - 1. So, (5 + 12) - 1 = 17 - 1 = 16."
+  },
+  {
+    "QuestionText": "A girl faces North. If she turns to her right and walks 10 steps, which direction is she traveling toward now?",
+    "Options": ["A) South", "B) East", "C) West", "D) North"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Turning right while facing North shifts your direction to face East."
+  },
+  {
+    "QuestionText": "Among four friends, Sam is heavier than Tom but lighter than Jack. Jerry is lighter than Tom. Who is the heaviest of them all?",
+    "Options": ["A) Sam", "B) Tom", "C) Jack", "D) Jerry"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Arrangling by weight from heaviest to lightest: Jack > Sam > Tom > Jerry. Therefore, Jack is the heaviest."
+  },
+  {
+    "QuestionText": "A man walks 5 meters towards the South, then turns left and walks 3 meters. Which direction is he facing at the very end?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "When traveling South, a left turn points your path directly towards the East."
+  },
+  {
+    "QuestionText": "In a race, Priya finished ahead of Divya but behind Maya. Maya finished behind Kavya. Who won the race?",
+    "Options": ["A) Priya", "B) Divya", "C) Maya", "D) Kavya"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Ordering from first to last place: Kavya finished before Maya, Maya finished before Priya, and Priya finished before Divya (Kavya > Maya > Priya > Divya). Kavya won."
+  },
+  {
+    "QuestionText": "Five cars are parked in a straight row. The Red car is parked to the right of the Blue car. The Yellow car is to the left of the Blue car. Which car is parked in the middle if they are the only three mentioned?",
+    "Options": ["A) Red car", "B) Blue car", "C) Yellow car", "D) Cannot be determined"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Arranging from left to right based on instructions: Yellow car, Blue car, Red car. The Blue car is in the exact middle."
+  },
+  {
+    "QuestionText": "In a class of 20 students, Amit ranks 7th from the top. What is his rank position counted from the bottom?",
+    "Options": ["A) 13th", "B) 14th", "C) 15th", "D) 12th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Rank from bottom = (Total students - Rank from top) + 1. Calculation: (20 - 7) + 1 = 13 + 1 = 14th."
+  },
+  {
+    "QuestionText": "Anil starts from his house and drives 3 km West, then turns left and drives 4 km. How far is he from his starting point in a straight line route?",
+    "Options": ["A) 7 km", "B) 1 km", "C) 5 km", "D) 6 km"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "The straight-line path forms a right triangle. Distance = √(3² + 4²) = √(9 + 16) = √25 = 5 km."
+  },
+  {
+    "QuestionText": "Tina is older than Mona. Mona is older than Sonia. If an Olympiad rule sorts them from youngest to oldest, who comes first in line?",
+    "Options": ["A) Tina", "B) Mona", "C) Sonia", "D) Tina and Mona together"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Age sorting: Tina > Mona > Sonia. The youngest person is Sonia, so she comes first when starting with the youngest."
+  },
+  {
+    "QuestionText": "A toy robot faces West. It turns 90 degrees to its right. Which direction does it point to now?",
+    "Options": ["A) North", "B) South", "C) East", "D) Northwest"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Turning 90 degrees right from West shifts the direction clockwise to point directly North."
+  },
+  {
+    "QuestionText": "In a row of trees, a mango tree is 9th from either end of the row. How many trees are there in total?",
+    "Options": ["A) 18", "B) 17", "C) 16", "D) 19"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Total trees = (9 + 9) - 1 = 18 - 1 = 17."
+  },
+  {
+    "QuestionText": "A wanderer walks 6 km East, turns right and walks 2 km, then turns right again and walks 6 km. How far away is he from his starting spot?",
+    "Options": ["A) 14 km", "B) 8 km", "C) 2 km", "D) 0 km"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "The path traces three sides of a rectangle. The final position lines up exactly opposite the starting point, separated only by the width of 2 km."
+  },
+  {
+    "QuestionText": "If Aman is taller than Bobby, Bobby is equal height to Candy, and Candy is shorter than Danny, who is guaranteed to be shorter than Aman?",
+    "Options": ["A) Danny", "B) Bobby", "C) None of these", "D) Both Danny and Bobby"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Since Aman > Bobby and Bobby = Candy, Bobby is definitively shorter than Aman."
+  },
+  {
+    "QuestionText": "A delivery boy travels 10 km North, turns around 180 degrees without walking away, and then travels 4 km forward. How far is he from his starting baseline?",
+    "Options": ["A) 14 km", "B) 6 km", "C) 10 km", "D) 4 km"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "He travels 10 km North, reverses direction to point South, and retraces his path backward by 4 km. 10 - 4 = 6 km North from the start."
+  },
+  {
+    "QuestionText": "In a dancing lineup, Meera is 4th from the left. If she moves 2 places to the right, what will her new position from the left be?",
+    "Options": ["A) 2nd", "B) 6th", "C) 5th", "D) 7th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Moving right adds positions when counting from the left side: 4 + 2 = 6th."
+  },
+  {
+    "QuestionText": "Five books are stacked. Math is above Science. English is below History. Science is above History. Which book is at the very bottom of the stack?",
+    "Options": ["A) Math", "B) Science", "C) History", "D) English"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Building the stack from top to bottom: Math sits over Science, Science sits over History, and History sits over English. English is at the bottom."
+  },
+  {
+    "QuestionText": "A dog runs 15 meters East, turns left and runs 5 meters. Which direction is the dog facing now?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Turning left while running East redirects the path straight toward the North."
+  },
+  {
+    "QuestionText": "In a queue of people, John is 15th from the front. If 5 more people join the queue behind him, what is John's position from the front now?",
+    "Options": ["A) 20th", "B) 10th", "C) 15th", "D) 16th"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Adding people behind John does not alter his position counted from the front of the queue."
+  },
+  {
+    "QuestionText": "If Sunita finds herself 3rd from the right end and 8th from the left end in a sitting circle layout that is cut into a straight line, how many people are there?",
+    "Options": ["A) 11", "B) 10", "C) 9", "D) 12"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Total people = (3 + 8) - 1 = 10."
+  },
+  {
+    "QuestionText": "Karan walks 2 km North, turns right and walks 2 km, then turns right again and walks 2 km. In which direction is he relative to his starting point?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Karan moves 2 km North, 2 km East, and 2 km South. The South movement cancels out the North elevation, placing him exactly 2 km East of his starting position."
+  },
+  {
+    "QuestionText": "Arjun scored more marks than Binu but less than Chitra. Divya scored less marks than Arjun but more than Binu. Who scored the lowest marks?",
+    "Options": ["A) Arjun", "B) Binu", "C) Chitra", "D) Divya"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Ranking marks: Chitra > Arjun > Divya > Binu. Binu scored the lowest."
+  },
+  {
+    "QuestionText": "A map tracking grid shows Village A is West of Village B. Village C is South of Village A. Which direction is Village C relative to Village B?",
+    "Options": ["A) Northwest", "B) Southeast", "C) Southwest", "D) Northeast"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "Moving from B to A goes West. Moving from A to C goes South. Looking from B to C requires looking along a diagonal path pointing Southwest."
+  },
+  {
+    "QuestionText": "In a row of boys, if Deepak is shifted four steps to the right, he becomes 12th from the left end. What was his original position from the left end?",
+    "Options": ["A) 16th", "B) 8th", "C) 7th", "D) 9th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Since shifting 4 steps right made him 12th, his original position was 4 steps further to the left: 12 - 4 = 8th."
+  },
+  {
+    "QuestionText": "Four runners compete. Run-A is faster than Run-B. Run-C is slower than Run-D, but faster than Run-A. Who is the slowest runner?",
+    "Options": ["A) Run-A", "B) Run-B", "C) Run-C", "D) Run-D"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Speed rankings: Run-D > Run-C > Run-A > Run-B. Run-B is the slowest."
+  },
+  {
+    "QuestionText": "A ship is sailing West. It turns around completely to face the opposite direction. What direction is it facing now?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "The exact opposite cardinal direction of West is East."
+  },
+  {
+    "QuestionText": "In a line of 15 children, when Raju was shifted three places to his left, he reached the 5th position from the left end. What was his original position from the right end?",
+    "Options": ["A) 7th", "B) 8th", "C) 9th", "D) 10th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "His position after shifting left was 5th, so his original left position was 5 + 3 = 8th. His rank from the right end = (15 - 8) + 1 = 8th."
+  },
+  {
+    "QuestionText": "A butterfly flies 3 meters North, turns right and flies 4 meters, then turns left and flies 2 meters. Which direction is it heading now?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "It travels North, turns right to head East, then turns left, which returns its flight path back to heading North."
+  },
+  {
+    "QuestionText": "In a vertical test score list, Rahul ranks 3rd below the top student. If there are 10 students in total, what is Rahul's rank position from the bottom?",
+    "Options": ["A) 6th", "B) 7th", "C) 8th", "D) 5th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "3rd below the top means Rahul is in 4th place. His position from the bottom is (10 - 4) + 1 = 7th."
+  },
+  {
+    "QuestionText": "A cyclist goes 8 km South, turns West and rides 3 km, then turns North and rides 8 km. How far is the cyclist from the starting baseline track?",
+    "Options": ["A) 19 km", "B) 11 km", "C) 3 km", "D) 0 km"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "The parallel North and South segments are equal length (8 km), meaning the horizontal separation remains exactly 3 km."
+  },
+  {
+    "QuestionText": "If Pen-A is longer than Pen-B and Pen-C is longer than Pen-A, which statement must be completely true?",
+    "Options": ["A) Pen-B is longer than Pen-C", "B) Pen-C is shorter than Pen-B", "C) Pen-C is the longest pen", "D) Pen-A is the shortest pen"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Sorting length: Pen-C > Pen-A > Pen-B. Pen-C is unequivocally the longest."
+  },
+  {
+    "QuestionText": "A player stands at the center of a playground facing South. The player takes a turn to the left. Which direction is the player's back pointing toward?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Facing South and turning left makes the player face East. If the player is facing East, their back points directly West."
+  },
+  {
+    "QuestionText": "In a shelf layout, Book-X is 10th from the left and Book-Y is 10th from the right. If there are 25 books on the shelf, how many books sit between Book-X and Book-Y?",
+    "Options": ["A) 5", "B) 4", "C) 6", "D) 3"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Total books = Rank Left + Rank Right + Middle Books. 25 = 10 + 10 + Middle Books -> 25 = 20 + Middle Books -> Middle Books = 5."
+  },
+  {
+    "QuestionText": "A bird flies 12 meters East and then turns 90 degrees right to fly another 5 meters. What is the direct distance from its starting coordinates?",
+    "Options": ["A) 17 meters", "B) 7 meters", "C) 13 meters", "D) 15 meters"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "The distance is the hypotenuse of a right triangle with legs 12 and 5: √(12² + 5²) = √(144 + 25) = √169 = 13 meters."
+  },
+  {
+    "QuestionText": "Five students took a test. Amit scored more than Kunal. Kunal scored more than Jia. Jia scored less than Rohit but more than Sonu. Who scored the second highest marks if Rohit scored less than Kunal?",
+    "Options": ["A) Amit", "B) Kunal", "C) Rohit", "D) Jia"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "Let's list the rankings: Amit > Kunal > Rohit > Jia > Sonu. The second highest scorer is Kunal."
+  },
+  {
+    "QuestionText": "A toy car is driven 4 meters North, turns East and moves 3 meters, then turns South and moves 4 meters. How far is the car from its starting coordinates?",
+    "Options": ["A) 11 meters", "B) 7 meters", "C) 3 meters", "D) 0 meters"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "The 4 meters North and 4 meters South cancel each other out, leaving the car exactly 3 meters East of its starting point."
+  },
+  {
+    "QuestionText": "In a row of 30 girls, Sneha is 12th from the right end. What is her rank from the left end of the row?",
+    "Options": ["A) 18th", "B) 19th", "C) 20th", "D) 17th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Rank from Left = (Total - Rank from Right) + 1. (30 - 12) + 1 = 18 + 1 = 19th."
+  },
+  {
+    "QuestionText": "A plane flies North, turns left, then turns left again, and finally turns right. What direction is the plane flying now?",
+    "Options": ["A) East", "B) West", "C) North", "D) South"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Path adjustments: North -> turn left (West) -> turn left (South) -> turn right (West). The final direction is West."
+  },
+  {
+    "QuestionText": "Anil is older than Puru. Puru is younger than Dev. If Dev is younger than Anil, who is the oldest?",
+    "Options": ["A) Anil", "B) Puru", "C) Dev", "D) Cannot be determined"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Compiling age rules: Anil > Dev > Puru. Therefore, Anil is the oldest."
+  },
+  {
+    "QuestionText": "A clock is placed on a table so that at 3:00 PM, its minute hand points North. In which direction will the hour hand point at 3:00 PM?",
+    "Options": ["A) South", "B) East", "C) West", "D) North"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "At 3:00 PM, the minute hand points to 12 (North) and the hour hand points to 3, which is a 90-degree turn clockwise (East)."
+  },
+  {
+    "QuestionText": "Four bags have different weights. Bag-1 is heavier than Bag-2. Bag-3 is lighter than Bag-4. If Bag-2 is heavier than Bag-4, which bag is the lightest?",
+    "Options": ["A) Bag-1", "B) Bag-2", "C) Bag-3", "D) Bag-4"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Weight ordering: Bag-1 > Bag-2 > Bag-4 > Bag-3. Bag-3 is the lightest of the four."
+  },
+  {
+    "QuestionText": "In a running queue, Priya is standing 6th behind the leader. If the leader is index 1, what is Priya's rank position?",
+    "Options": ["A) 6th", "B) 7th", "C) 5th", "D) 8th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "1st place + 6 slots behind = 7th position."
+  },
+  {
+    "QuestionText": "A runner tracks a square path field starting at the Southwest corner. The runner runs North along the edge to the next corner. Which corner is the runner at now?",
+    "Options": ["A) Southeast", "B) Northwest", "C) Northeast", "D) Center"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "Moving North from the Southwest corner of a square plot brings you directly to the Northwest corner."
+  },
+  {
+    "QuestionText": "In a spelling competition, Gita scored fewer points than Hina, but more points than Sita. If Sita scored more than Mona, who scored the highest points?",
+    "Options": ["A) Gita", "B) Hina", "C) Sita", "D) Mona"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "The compiled performance is: Hina > Gita > Sita > Mona. Hina scored the highest points."
+  },
+  {
+    "QuestionText": "If a person is standing on their head facing North, which direction will their right hand point toward?",
+    "Options": ["A) East", "B) West", "C) South", "D) Northeast"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "When standing normally facing North, the right hand points East. When inverted (upside down) facing North, the lateral orientation flips, causing the right hand to point West."
+  },
+  {
+    "QuestionText": "In a sequence of 10 houses on a street, House-A is 4th from the left. House-B is 3rd from the right. How many houses stand between House-A and House-B?",
+    "Options": ["A) 3", "B) 4", "C) 2", "D) 5"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "House-A is at position 4 from left. House-B is 3rd from right, which means position 10 - 3 + 1 = 8th from left. The positions strictly between 4 and 8 are 5, 6, and 7 (3 houses)."
+  },
+  {
+    "QuestionText": "A bird flies 5 km East, then turns right and flies 12 km. What is the shortest straight-line distance back to its starting coordinate nest?",
+    "Options": ["A) 17 km", "B) 13 km", "C) 7 km", "D) 14 km"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "The shortest path forms the hypotenuse of a right triangle: √(5² + 12²) = √(25 + 144) = √169 = 13 km."
+  },
+  {
+    "QuestionText": "Four students stand in a line. P is taller than Q. R is shorter than P but taller than S. If Q is taller than R, who is the shortest?",
+    "Options": ["A) P", "B) Q", "C) R", "D) S"],
+    "CorrectAnswer": "D",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Advanced",
+    "Explanation": "Height ordering: P > Q > R > S. S is the shortest."
+  },
+  {
+    "QuestionText": "A compass needle is broken and turns so that East is now labeled as South. If you want to travel West according to the real world, which broken direction label must you follow?",
+    "Options": ["A) North", "B) South", "C) East", "D) West"],
+    "CorrectAnswer": "A",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Olympiad",
+    "Explanation": "The label shift rotates directions clockwise by 90 degrees (East becomes South). Therefore, North becomes East, West becomes North, and South becomes West. To go West, follow the broken label pointing North."
+  },
+  {
+    "QuestionText": "In a row of 25 girls, Kamla is 10th from the left. What is her position rank from the right side?",
+    "Options": ["A) 15th", "B) 16th", "C) 14th", "D) 17th"],
+    "CorrectAnswer": "B",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Foundation",
+    "Explanation": "Rank from Right = (Total - Rank from Left) + 1. Calculation: (25 - 10) + 1 = 15 + 1 = 16th."
+  },
+  {
+    "QuestionText": "A car moves 6 km North, turns left and drives 3 km, then turns left again and drives 6 km. How far away is the vehicle from its start coordinates?",
+    "Options": ["A) 15 km", "B) 6 km", "C) 3 km", "D) 0 km"],
+    "CorrectAnswer": "C",
+    "Topic": "Logical Reasoning",
+    "SubTopic": "Ranking Test & Direction Sense Test",
+    "Difficulty": "Intermediate",
+    "Explanation": "The 6 km North and 6 km South drives run parallel and cancel out vertical displacement, leaving the vehicle exactly 3 km away from its start point."
+  }
+]

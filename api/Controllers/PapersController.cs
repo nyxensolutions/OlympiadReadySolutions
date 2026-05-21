@@ -135,9 +135,9 @@ public class PapersController : ControllerBase
             else
             {
                 // Pro tier: always call Claude for a genuinely fresh, unique paper every time.
-                _log.LogInformation("Pro tier — generating fresh questions via Claude");
+                _log.LogInformation("Pro tier — generating fresh questions via Claude (olympiad={OlympiadId})", req.OlympiadId ?? "open");
                 questions = await _claude.GenerateQuestionsAsync(
-                    req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct, req.OlympiadLevel);
+                    req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
                 jsonContent = JsonSerializer.Serialize(questions);
             }
 

@@ -1,0 +1,202 @@
+[
+  {
+    "QuestionText": "An object that gives out its own light is called a:",
+    "Options": ["Luminous object", "Non-luminous object", "Opaque object", "Transparent object"],
+    "CorrectAnswer": "A",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "Objects like the Sun, a lit bulb, or a candle that emit their own light are luminous objects."
+  },
+  {
+    "QuestionText": "Which of the following is a non-luminous object?",
+    "Options": ["The Sun", "A glowing bulb", "The Moon", "A burning candle"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "The Moon does not produce its own light. It shines by reflecting sunlight."
+  },
+  {
+    "QuestionText": "Shadows are formed when light is blocked by an:",
+    "Options": ["Opaque object", "Transparent object", "Luminous object", "Glass pane"],
+    "CorrectAnswer": "A",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "An opaque object completely blocks light, creating a dark patch behind it called a shadow."
+  },
+  {
+    "QuestionText": "Which property of light is responsible for the formation of shadows?",
+    "Options": ["Light reflects off surfaces", "Light travels in straight lines", "Light bends around corners", "Light passes through transparent objects"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "Because light travels in a straight line, it cannot bend around an opaque object, leaving a dark shadow behind it."
+  },
+  {
+    "QuestionText": "The image formed by a pinhole camera is always:",
+    "Options": ["Erect and enlarged", "Inverted and smaller", "Inverted", "Erect and same size"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "Because light travels in straight lines, the rays from the top of an object go downwards and from the bottom go upwards through the pinhole, resulting in an inverted image."
+  },
+  {
+    "QuestionText": "Which of these materials will cast the darkest shadow?",
+    "Options": ["Clear glass", "Tracing paper", "Wooden board", "Water"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "Wood is an opaque material and blocks light completely, casting the darkest shadow."
+  },
+  {
+    "QuestionText": "When you look into a plane mirror, your left hand appears to be the right hand in the image. This phenomenon is called:",
+    "Options": ["Inversion", "Lateral inversion", "Refraction", "Dispersion"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "The left-to-right reversal of an image in a mirror is known as lateral inversion."
+  },
+  {
+    "QuestionText": "Which of these acts as a natural pinhole camera when sunlight passes through it?",
+    "Options": ["A magnifying glass", "The dense leaves of a tree", "A glass window", "A mirror"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "The tiny gaps between the leaves act as pinholes, projecting circular images of the Sun on the ground."
+  },
+  {
+    "QuestionText": "To see a shadow, which of the following is NOT required?",
+    "Options": ["A source of light", "An opaque object", "A screen", "A transparent object"],
+    "CorrectAnswer": "D",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "You need a light source, an opaque object to block it, and a screen (like a wall or ground) for the shadow to fall on. A transparent object is not required."
+  },
+  {
+    "QuestionText": "A shadow is always ____ in color, regardless of the color of the object.",
+    "Options": ["Black", "White", "Grey", "The same color as the object"],
+    "CorrectAnswer": "A",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Foundation",
+    "Explanation": "A shadow is simply the absence of light, so it always appears black."
+  },
+  {
+    "QuestionText": "At what time of day will your shadow be the shortest in the sunlight?",
+    "Options": ["Early morning", "Late evening", "Exactly at noon", "It remains the same all day"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "At noon, the sun is directly overhead, casting the shortest possible shadow."
+  },
+  {
+    "QuestionText": "Rohan stands 2 meters in front of a plane mirror. What is the distance between Rohan and his image?",
+    "Options": ["2 meters", "4 meters", "1 meter", "0 meters"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "The image is formed exactly as far behind the mirror as the object is in front of it. 2m + 2m = 4 meters."
+  },
+  {
+    "QuestionText": "If you hold a red rose in green light, what color will the rose appear to be?",
+    "Options": ["Red", "Green", "White", "Black"],
+    "CorrectAnswer": "D",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "A red object absorbs all colors except red. Since there is no red in the green light, it absorbs the green light and reflects nothing, appearing black."
+  },
+  {
+    "QuestionText": "Which of the following surfaces produces regular (specular) reflection rather than diffused reflection?",
+    "Options": ["A piece of paper", "A rough wall", "A polished steel plate", "A wooden table"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "A smooth, highly polished surface like steel reflects parallel light rays in a single direction (regular reflection)."
+  },
+  {
+    "QuestionText": "A student made a pinhole camera and looked at a building. He then made the pinhole slightly larger. What will happen to the image?",
+    "Options": ["It will disappear", "It will become brighter but blurred", "It will become sharper and darker", "It will turn upright"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "A larger pinhole allows more light in, making the image brighter. However, the rays from different points overlap, making it blurry."
+  },
+  {
+    "QuestionText": "When an opaque object is moved closer to the screen and away from the light source, the size of its shadow will:",
+    "Options": ["Increase", "Decrease", "Remain the same", "Disappear"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "Moving the object closer to the screen means it blocks a smaller angle of the diverging light rays, resulting in a smaller shadow."
+  },
+  {
+    "QuestionText": "Can a transparent glass pane cast a shadow?",
+    "Options": ["No, never", "Yes, a very faint shadow", "Yes, a very dark shadow", "Only if it is colored"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "Even clear glass absorbs or reflects a tiny fraction of light (or has edges/smudges), so it casts a very faint, almost imperceptible shadow."
+  },
+  {
+    "QuestionText": "A periscope works on the principle of:",
+    "Options": ["Refraction", "Multiple reflections", "Dispersion", "Diffraction"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "A periscope uses two plane mirrors angled at 45 degrees to bounce light down a tube via multiple reflections."
+  },
+  {
+    "QuestionText": "Which object can form a circular shadow when held in one direction and a rectangular shadow when held in another direction in front of a light source?",
+    "Options": ["A sphere", "A cube", "A cylinder", "A cone"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "A cylinder viewed from its flat circular end forms a circular shadow. Viewed from its side, it forms a rectangular shadow."
+  },
+  {
+    "QuestionText": "Why is the word 'AMBULANCE' written laterally inverted on the front of an ambulance?",
+    "Options": ["Because it looks stylish", "So that drivers ahead can read it correctly in their rear-view mirrors", "Because it is required by law", "To warn pedestrians on the sidewalk"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Advanced",
+    "Explanation": "Rear-view mirrors cause lateral inversion. The pre-inverted text gets inverted again by the mirror, appearing straight and readable to the driver ahead."
+  },
+  {
+    "QuestionText": "If you are standing in a completely dark, light-proof room holding a mirror, will you see your reflection?",
+    "Options": ["Yes, because a mirror always reflects", "Yes, but it will be very faint", "No, because there is no light to reflect", "Yes, your eyes adjust to the dark"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Olympiad",
+    "Explanation": "A mirror can only reflect light. Without any light source in the room, there is absolutely no light to hit the mirror or your eyes, so no reflection."
+  },
+  {
+    "QuestionText": "A solar eclipse occurs when the shadow of the _____ falls on the _____.",
+    "Options": ["Earth, Moon", "Moon, Earth", "Sun, Earth", "Moon, Sun"],
+    "CorrectAnswer": "B",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Olympiad",
+    "Explanation": "During a solar eclipse, the Moon comes exactly between the Sun and the Earth, casting its shadow on the Earth."
+  },
+  {
+    "QuestionText": "Two mirrors are placed exactly parallel to each other. An object is placed between them. How many images of the object will be formed?",
+    "Options": ["Two", "Four", "Infinite", "None"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Olympiad",
+    "Explanation": "Parallel mirrors reflect the image back and forth continuously, creating theoretically infinite multiple reflections."
+  },
+  {
+    "QuestionText": "During a partial solar eclipse, if you look at the patches of sunlight falling on the ground through the leaves of a tree, what shape will those patches be?",
+    "Options": ["Perfectly circular", "Rectangular", "Crescent-shaped", "Leaf-shaped"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Olympiad",
+    "Explanation": "The gaps between the leaves act as pinhole cameras. Since the Sun is partially covered (crescent-shaped) during the eclipse, the projected images of the Sun will also be crescent-shaped."
+  },
+  {
+    "QuestionText": "An object X is placed in front of a point light source. A shadow is formed on a screen behind X. If the point source is replaced by an extended light source (like a long tube light), how will the shadow change?",
+    "Options": ["It will remain exactly the same", "It will become much sharper", "It will have a dark central region (umbra) and a lighter outer region (penumbra)", "It will completely disappear"],
+    "CorrectAnswer": "C",
+    "Topic": "Light, Shadows and Reflections",
+    "Difficulty": "Olympiad",
+    "Explanation": "An extended light source casts light from multiple angles, blurring the edge of the shadow into a lighter penumbra, while the center where all light is blocked remains a dark umbra."
+  }
+]
