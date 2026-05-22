@@ -1,0 +1,82 @@
+name: Deploy Next.js Frontend
+
+on:
+  push:
+    branches: [ main, test ]
+
+jobs:
+  # ----------------------------------------------------
+  # JOB 1: STAGING DEPLOYMENT (TARGETS TEST ACCOUNT)
+  # ----------------------------------------------------
+  deploy-test:
+    if: github.ref_name == 'test'
+    runs-on: ubuntu-latest
+    environment: Test
+    
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install and Build (Test Context)
+      env:
+        # Bakes your test API endpoint directly into the Next.js static build
+        NEXT_PUBLIC_API_URL: https://olympiad-api-test.azurewebsites.net
+      run: |
+        npm ci
+        npm run build
+        cp -r .next/static .next/standalone/.next/static
+        cp -r public .next/standalone/public
+
+    - name: Azure Login (Test Account)
+      uses: azure/login@v2
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Deploy Frontend to Azure
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'olympiad-frontend-test'
+        package: .next/standalone
+
+  # ----------------------------------------------------
+  # JOB 2: PRODUCTION DEPLOYMENT (TARGETS PROD ACCOUNT)
+  # ----------------------------------------------------
+  deploy-prod:
+    if: github.ref_name == 'main'
+    runs-on: ubuntu-latest
+    environment: Production
+    
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install and Build (Production Context)
+      env:
+        # Bakes your final custom domain API route into the production bundle
+        NEXT_PUBLIC_API_URL: https://api.olympiadready.com
+      run: |
+        npm ci
+        npm run build
+        cp -r .next/static .next/standalone/.next/static
+        cp -r public .next/standalone/public
+
+    - name: Azure Login (Prod Account)
+      uses: azure/login@v2
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Deploy Frontend to Azure
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'olympiad-frontend-prod'
+        package: .next/standalone

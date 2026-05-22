@@ -1,0 +1,72 @@
+name: Deploy .NET Core API
+
+on:
+  push:
+    branches: [ main, test ]
+
+jobs:
+  # ----------------------------------------------------
+  # JOB 1: STAGING DEPLOYMENT (TARGETS TEST ACCOUNT)
+  # ----------------------------------------------------
+  deploy-test:
+    if: github.ref_name == 'test'
+    runs-on: ubuntu-latest
+    environment: Test  # <--- Unlocks the "Test" Environment Secrets
+    
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x' # Update to '9.0.x' if using .NET 9
+
+    - name: Build and Publish
+      run: |
+        dotnet restore
+        dotnet build --configuration Release
+        dotnet publish -c Release -o ./publish
+
+    - name: Azure Login (Test Account)
+      uses: azure/login@v2
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }} # Pulls the Test JSON string
+
+    - name: Deploy to Azure App Service
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'olympiad-api-test' # Make sure this matches your Test Azure app name
+        package: ./publish
+
+  # ----------------------------------------------------
+  # JOB 2: PRODUCTION DEPLOYMENT (TARGETS PROD ACCOUNT)
+  # ----------------------------------------------------
+  deploy-prod:
+    if: github.ref_name == 'main'
+    runs-on: ubuntu-latest
+    environment: Production  # <--- Unlocks the "Production" Environment Secrets
+    
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Build and Publish
+      run: |
+        dotnet restore
+        dotnet build --configuration Release
+        dotnet publish -c Release -o ./publish
+
+    - name: Azure Login (Prod Account)
+      uses: azure/login@v2
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }} # Pulls the Production JSON string
+
+    - name: Deploy to Azure App Service
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'olympiad-api-prod' # Make sure this matches your Prod Azure app name
+        package: ./publish
