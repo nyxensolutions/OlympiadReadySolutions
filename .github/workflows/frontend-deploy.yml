@@ -35,7 +35,8 @@ jobs:
         echo "NEXT_PUBLIC_SENTRY_DSN=https://0e37ab8c7ae94eb8b32158f1d65c607c@app.glitchtip.com/23697" >> .env.production
         npm ci
         npm run build
-        node -e "const fs = require('fs'); const file = '.next/standalone/server.js'; let content = fs.readFileSync(file, 'utf8'); content = content.replace(/server\.listen\([a-zA-Z0-9_]+,/g, 'server.listen(process.env.PORT || 3000,'); fs.writeFileSync(file, content);"
+        mv .next/standalone/server.js .next/standalone/next-server.js
+        node -e "const fs = require('fs'); fs.writeFileSync('.next/standalone/server.js', \`const http = require('http'); const pipe = process.env.PORT; process.env.PORT = '3000'; const orig = http.Server.prototype.listen; http.Server.prototype.listen = function(...args) { if (args[0] === 3000 || args[0] === '3000') { args[0] = pipe; if (typeof args[1] === 'string') { args.splice(1, 1); } } return orig.apply(this, args); }; require('./next-server.js');\`)"
         cp -r .next/static .next/standalone/.next/static
         cp -r public .next/standalone/public
         cp web.config .next/standalone/web.config
@@ -81,7 +82,8 @@ jobs:
         echo "NEXT_PUBLIC_SENTRY_DSN=https://0e37ab8c7ae94eb8b32158f1d65c607c@app.glitchtip.com/23697" >> .env.production
         npm ci
         npm run build
-        node -e "const fs = require('fs'); const file = '.next/standalone/server.js'; let content = fs.readFileSync(file, 'utf8'); content = content.replace(/server\.listen\([a-zA-Z0-9_]+,/g, 'server.listen(process.env.PORT || 3000,'); fs.writeFileSync(file, content);"
+        mv .next/standalone/server.js .next/standalone/next-server.js
+        node -e "const fs = require('fs'); fs.writeFileSync('.next/standalone/server.js', \`const http = require('http'); const pipe = process.env.PORT; process.env.PORT = '3000'; const orig = http.Server.prototype.listen; http.Server.prototype.listen = function(...args) { if (args[0] === 3000 || args[0] === '3000') { args[0] = pipe; if (typeof args[1] === 'string') { args.splice(1, 1); } } return orig.apply(this, args); }; require('./next-server.js');\`)"
         cp -r .next/static .next/standalone/.next/static
         cp -r public .next/standalone/public
         cp web.config .next/standalone/web.config
