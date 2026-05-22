@@ -28,8 +28,9 @@ jobs:
     - name: Install and Build (Test Context)
       working-directory: ./web
       env:
-        # Bakes your test API endpoint directly into the Next.js static build
         NEXT_PUBLIC_API_URL: https://olympiad-api-test.azurewebsites.net
+        NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
+        CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
       run: |
         npm ci
         npm run build
@@ -70,8 +71,9 @@ jobs:
     - name: Install and Build (Production Context)
       working-directory: ./web
       env:
-        # Bakes your final custom domain API route into the production bundle
         NEXT_PUBLIC_API_URL: https://api.olympiadready.com
+        NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
+        CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
       run: |
         npm ci
         npm run build
