@@ -69,7 +69,13 @@ builder.Services.AddAuthorization();
 
 const string CorsPolicy = "WebDev";
 builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p
-    .WithOrigins("http://localhost:3000")
+    .WithOrigins(
+        "http://localhost:3000", 
+        "https://olympiad-frontend-test.azurewebsites.net", 
+        "https://olympiad-frontend-prod.azurewebsites.net",
+        "https://www.olympiadready.com",
+        "https://olympiadready.com"
+    )
     .AllowAnyHeader()
     .AllowAnyMethod()
     .WithExposedHeaders("Content-Disposition")));
@@ -83,11 +89,9 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 }
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Temporarily enabling Swagger for all environments so you can test it on Azure!
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseStaticFiles();
 app.UseCors(CorsPolicy);
