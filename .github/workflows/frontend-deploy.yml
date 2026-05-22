@@ -35,7 +35,7 @@ jobs:
         echo "NEXT_PUBLIC_SENTRY_DSN=https://0e37ab8c7ae94eb8b32158f1d65c607c@app.glitchtip.com/23697" >> .env.production
         npm ci
         npm run build
-        node -e "const fs = require('fs'); const file = '.next/standalone/server.js'; let content = fs.readFileSync(file, 'utf8'); content = content.replace(/parseInt\(process\.env\.PORT,\s*10\)/g, 'process.env.PORT'); fs.writeFileSync(file, content);"
+        node -e "const fs = require('fs'); const file = '.next/standalone/server.js'; let content = fs.readFileSync(file, 'utf8'); content = content.replace(/server\.listen\([a-zA-Z0-9_]+,/g, 'server.listen(process.env.PORT || 3000,'); fs.writeFileSync(file, content);"
         cp -r .next/static .next/standalone/.next/static
         cp -r public .next/standalone/public
         cp web.config .next/standalone/web.config
@@ -81,7 +81,7 @@ jobs:
         echo "NEXT_PUBLIC_SENTRY_DSN=https://0e37ab8c7ae94eb8b32158f1d65c607c@app.glitchtip.com/23697" >> .env.production
         npm ci
         npm run build
-        node -e "const fs = require('fs'); const file = '.next/standalone/server.js'; let content = fs.readFileSync(file, 'utf8'); content = content.replace(/parseInt\(process\.env\.PORT,\s*10\)/g, 'process.env.PORT'); fs.writeFileSync(file, content);"
+        node -e "const fs = require('fs'); const file = '.next/standalone/server.js'; let content = fs.readFileSync(file, 'utf8'); content = content.replace(/server\.listen\([a-zA-Z0-9_]+,/g, 'server.listen(process.env.PORT || 3000,'); fs.writeFileSync(file, content);"
         cp -r .next/static .next/standalone/.next/static
         cp -r public .next/standalone/public
         cp web.config .next/standalone/web.config
