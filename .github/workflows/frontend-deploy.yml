@@ -37,6 +37,7 @@ jobs:
         npm run build
         cp -r .next/static .next/standalone/.next/static
         cp -r public .next/standalone/public
+        cp web.config .next/standalone/web.config
 
     - name: Azure Login (Test Account)
       uses: azure/login@v2
@@ -81,6 +82,7 @@ jobs:
         npm run build
         cp -r .next/static .next/standalone/.next/static
         cp -r public .next/standalone/public
+        cp web.config .next/standalone/web.config
 
     - name: Azure Login (Prod Account)
       uses: azure/login@v2
