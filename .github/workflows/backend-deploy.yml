@@ -12,6 +12,8 @@ jobs:
     if: github.ref_name == 'test'
     runs-on: ubuntu-latest
     environment: Test  # <--- Unlocks the "Test" Environment Secrets
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
     steps:
     - uses: actions/checkout@v4
@@ -22,6 +24,7 @@ jobs:
         dotnet-version: '8.0.x' # Update to '9.0.x' if using .NET 9
 
     - name: Build and Publish
+      working-directory: ./api
       run: |
         dotnet restore
         dotnet build --configuration Release
@@ -36,7 +39,7 @@ jobs:
       uses: azure/webapps-deploy@v3
       with:
         app-name: 'olympiad-api-test' # Make sure this matches your Test Azure app name
-        package: ./publish
+        package: api/publish
 
   # ----------------------------------------------------
   # JOB 2: PRODUCTION DEPLOYMENT (TARGETS PROD ACCOUNT)
@@ -45,6 +48,8 @@ jobs:
     if: github.ref_name == 'main'
     runs-on: ubuntu-latest
     environment: Production  # <--- Unlocks the "Production" Environment Secrets
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
     steps:
     - uses: actions/checkout@v4
@@ -55,6 +60,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Build and Publish
+      working-directory: ./api
       run: |
         dotnet restore
         dotnet build --configuration Release
@@ -69,4 +75,4 @@ jobs:
       uses: azure/webapps-deploy@v3
       with:
         app-name: 'olympiad-api-prod' # Make sure this matches your Prod Azure app name
-        package: ./publish
+        package: api/publish

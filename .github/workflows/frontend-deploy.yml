@@ -12,6 +12,8 @@ jobs:
     if: github.ref_name == 'test'
     runs-on: ubuntu-latest
     environment: Test
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
     steps:
     - uses: actions/checkout@v4
@@ -19,10 +21,12 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '22'
         cache: 'npm'
+        cache-dependency-path: 'web/package-lock.json'
 
     - name: Install and Build (Test Context)
+      working-directory: ./web
       env:
         # Bakes your test API endpoint directly into the Next.js static build
         NEXT_PUBLIC_API_URL: https://olympiad-api-test.azurewebsites.net
@@ -41,7 +45,7 @@ jobs:
       uses: azure/webapps-deploy@v3
       with:
         app-name: 'olympiad-frontend-test'
-        package: .next/standalone
+        package: web/.next/standalone
 
   # ----------------------------------------------------
   # JOB 2: PRODUCTION DEPLOYMENT (TARGETS PROD ACCOUNT)
@@ -50,6 +54,8 @@ jobs:
     if: github.ref_name == 'main'
     runs-on: ubuntu-latest
     environment: Production
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
     steps:
     - uses: actions/checkout@v4
@@ -57,10 +63,12 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '22'
         cache: 'npm'
+        cache-dependency-path: 'web/package-lock.json'
 
     - name: Install and Build (Production Context)
+      working-directory: ./web
       env:
         # Bakes your final custom domain API route into the production bundle
         NEXT_PUBLIC_API_URL: https://api.olympiadready.com
@@ -79,4 +87,4 @@ jobs:
       uses: azure/webapps-deploy@v3
       with:
         app-name: 'olympiad-frontend-prod'
-        package: .next/standalone
+        package: web/.next/standalone
