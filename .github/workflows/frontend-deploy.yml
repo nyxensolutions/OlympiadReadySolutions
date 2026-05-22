@@ -27,11 +27,12 @@ jobs:
 
     - name: Install and Build (Test Context)
       working-directory: ./web
-      env:
-        NEXT_PUBLIC_API_URL: https://olympiad-api-test.azurewebsites.net
-        NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
-        CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
       run: |
+        echo "NEXT_PUBLIC_API_URL=https://olympiad-api-test.azurewebsites.net" > .env.production
+        echo "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || 'pk_test_dG91Y2hlZC1zcG9uZ2UtODQuY2xlcmsuYWNjb3VudHMuZGV2JA' }}" >> .env.production
+        echo "CLERK_SECRET_KEY=${{ secrets.CLERK_SECRET_KEY || 'sk_test_AXKTfH1tHmxHU1Lg2LmWGcpu9obgI2X7IREMUzLNIl' }}" >> .env.production
+        echo "NEXT_PUBLIC_UMAMI_WEBSITE_ID=214afa07-b0be-4a8c-9ddd-d0188d9370f3" >> .env.production
+        echo "NEXT_PUBLIC_SENTRY_DSN=https://0e37ab8c7ae94eb8b32158f1d65c607c@app.glitchtip.com/23697" >> .env.production
         npm ci
         npm run build
         cp -r .next/static .next/standalone/.next/static
@@ -70,11 +71,12 @@ jobs:
 
     - name: Install and Build (Production Context)
       working-directory: ./web
-      env:
-        NEXT_PUBLIC_API_URL: https://api.olympiadready.com
-        NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
-        CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
       run: |
+        echo "NEXT_PUBLIC_API_URL=https://api.olympiadready.com" > .env.production
+        echo "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || 'pk_test_dG91Y2hlZC1zcG9uZ2UtODQuY2xlcmsuYWNjb3VudHMuZGV2JA' }}" >> .env.production
+        echo "CLERK_SECRET_KEY=${{ secrets.CLERK_SECRET_KEY || 'sk_test_dummy' }}" >> .env.production
+        echo "NEXT_PUBLIC_UMAMI_WEBSITE_ID=214afa07-b0be-4a8c-9ddd-d0188d9370f3" >> .env.production
+        echo "NEXT_PUBLIC_SENTRY_DSN=https://0e37ab8c7ae94eb8b32158f1d65c607c@app.glitchtip.com/23697" >> .env.production
         npm ci
         npm run build
         cp -r .next/static .next/standalone/.next/static
