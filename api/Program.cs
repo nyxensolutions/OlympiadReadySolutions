@@ -78,6 +78,7 @@ builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p
     )
     .AllowAnyHeader()
     .AllowAnyMethod()
+    .AllowCredentials()
     .WithExposedHeaders("Content-Disposition")));
 
 var app = builder.Build();
