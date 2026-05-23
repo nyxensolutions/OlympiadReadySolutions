@@ -69,13 +69,14 @@ builder.Services.AddAuthorization();
 
 const string CorsPolicy = "WebDev";
 builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p
-    .WithOrigins(
-        "http://localhost:3000", 
-        "https://olympiad-frontend-test.azurewebsites.net", 
-        "https://olympiad-frontend-prod.azurewebsites.net",
-        "https://www.olympiadready.com",
-        "https://olympiadready.com"
-    )
+    .SetIsOriginAllowed(origin => 
+    {
+        var host = new Uri(origin).Host;
+        return host == "localhost" || 
+               host.Contains("olympiad-frontend-test") || 
+               host.Contains("olympiad-frontend-prod") || 
+               host.Contains("olympiadready.com");
+    })
     .AllowAnyHeader()
     .AllowAnyMethod()
     .AllowCredentials()
