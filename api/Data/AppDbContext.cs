@@ -74,6 +74,8 @@ public class AppDbContext : DbContext
             e.HasKey(x => x.SubscriptionId);
             e.Property(x => x.SubscriptionId).HasDefaultValueSql("NEWID()");
             e.Property(x => x.PlanName).HasMaxLength(50).IsRequired();
+            e.Property(x => x.RazorpayOrderId).HasMaxLength(100);
+            e.Property(x => x.RazorpayPaymentId).HasMaxLength(100);
             e.Property(x => x.IsActive)
                 .HasComputedColumnSql("CASE WHEN [EndDate] > GETDATE() THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT) END");
             e.HasIndex(x => new { x.UserId, x.EndDate });

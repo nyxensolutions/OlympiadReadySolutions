@@ -9,9 +9,15 @@ export type Question = {
 
 export type DashboardSummary = {
   subscription: {
-    tier: "Free" | "Pro";
+    tier: "Free" | "Pro" | "Modular";
     used: number;
     limit: number;
+    activeUnlocks?: Array<{
+      grade: number;
+      subject: string;
+      aiGenerationsUsed: number;
+      endDate: string;
+    }>;
   };
   papers: Array<{
     paperId: string;
@@ -96,10 +102,16 @@ export function recommendNextDifficulty(
 }
 
 export type SubscriptionStatus = {
-  tier: "Free" | "Pro";
+  tier: "Free" | "Pro" | "Modular";
   used: number;
   limit: number;
   allowed: boolean;
+  activeUnlocks?: Array<{
+    grade: number;
+    subject: string;
+    aiGenerationsUsed: number;
+    endDate: string;
+  }>;
 };
 
 export type CheckoutResponse = {

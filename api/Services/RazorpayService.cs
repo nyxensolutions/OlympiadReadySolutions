@@ -45,19 +45,46 @@ public class RazorpayService
         return p;
     }
 
-    public async Task<OrderResult> CreateOrderAsync(
-        string planName, Guid userId, CancellationToken ct = default)
+    public (int AmountInPaise, string Currency, int Days, string DisplayName) CalculatePrice(string billingCycle, List<string> subjects)
+    {
+        var isAnnual = string.Equals(billingCycle, "Annual", StringComparison.OrdinalIgnoreCase);
+        var days = isAnnual ? 365 : 30;
+        int amount;
+        string displayName;
+
+        if (subjects.Contains("All") || subjects.Count >= 4)
+        {
+            amount = isAnnual ? 249900 : 24900;
+            displayName = $"All Subjects Bundle · {(isAnnual ? "Annual" : "Monthly")}";
+        }
+        else if (subjects.Count == 1)
+        {
+            amount = isAnnual ? 99900 : 9900;
+            displayName = $"{subjects[0]} · {(isAnnual ? "Annual" : "Monthly")}";
+        }
+        else
+        {
+            // Custom Bundle
+            var pricePerSubject = isAnnual ? 79900 : 7900;
+            amount = pricePerSubject * subjects.Count;
+            displayName = $"Custom Bundle ({subjects.Count} Subjects) · {(isAnnual ? "Annual" : "Monthly")}";
+        }
+
+        return (amount, "INR", days, displayName);
+    }
+
+    public async Task<OrderResult> CreateDynamicOrderAsync(
+        int amountInPaise, string currency, string planName, Guid userId, CancellationToken ct = default)
     {
         if (!IsConfigured)
             throw new InvalidOperationException("Razorpay credentials are not configured.");
 
-        var plan = GetPlan(planName);
         var receipt = $"or_{userId.ToString("N")[..16]}_{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
 
         var payload = new
         {
-            amount = plan.AmountInPaise,
-            currency = plan.Currency,
+            amount = amountInPaise,
+            currency,
             receipt,
             notes = new { userId = userId.ToString(), plan = planName }
         };
@@ -69,7 +96,7 @@ public class RazorpayService
 
         if (!res.IsSuccessStatusCode)
         {
-            _log.LogError("Razorpay order create failed {Status}: {Body}", res.StatusCode, body);
+            _log.LogError("Razorpay dynamic order create failed {Status}: {Body}", res.StatusCode, body);
             throw new HttpRequestException($"Razorpay error {(int)res.StatusCode}: {body}");
         }
 

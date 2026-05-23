@@ -50,15 +50,21 @@ function TopicsBody() {
   const initialSubject = (searchParams?.get("subject") as Subject) || "Math";
   const initialGrade = searchParams?.get("grade") 
     ? Number(searchParams.get("grade")) 
-    : typeof window !== "undefined" && localStorage.getItem("olympiad_grade") 
-      ? Number(localStorage.getItem("olympiad_grade")) 
-      : 1;
+    : 1;
 
   const [mastery, setMastery] = useState<DashboardSummary["mastery"]>([]);
+  const [activeUnlocks, setActiveUnlocks] = useState<DashboardSummary["subscription"]["activeUnlocks"]>([]);
   const [loadingMastery, setLoadingMastery] = useState(true);
 
   const [activeSubject, setActiveSubject] = useState<Subject>(initialSubject);
   const [grade, setGrade] = useState(initialGrade);
+  
+  useEffect(() => {
+    if (!searchParams?.get("grade") && typeof window !== "undefined") {
+      const stored = localStorage.getItem("olympiad_grade");
+      if (stored) setGrade(Number(stored));
+    }
+  }, [searchParams]);
   
   const handleGradeChange = (newGrade: number) => {
     setGrade(newGrade);
@@ -85,6 +91,7 @@ function TopicsBody() {
         if (res.ok) {
           const data: DashboardSummary = await res.json();
           setMastery(data.mastery);
+          if (data.subscription?.activeUnlocks) setActiveUnlocks(data.subscription.activeUnlocks);
         }
       } finally {
         setLoadingMastery(false);
@@ -137,7 +144,7 @@ function TopicsBody() {
         const code = err.code ?? "";
         if (code === "BANK_INSUFFICIENT") {
           throw new Error(
-            `Not enough questions in the bank for ${activeSubject} Class ${safeGrade} — ${topic.topic} (${difficulty}). ` +
+            `Not enough questions in the bank for ${activeSubject} Class/Grade ${safeGrade} — ${topic.topic} (${difficulty}). ` +
             `Try a different difficulty level, or upgrade to Pro for AI-generated papers.`
           );
         }
@@ -213,14 +220,14 @@ function TopicsBody() {
         {/* Controls */}
         <div className="flex flex-wrap items-end gap-4">
           <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
-            Class
+            Class/Grade
             <select
               value={safeGrade}
               onChange={(e) => handleGradeChange(Number(e.target.value))}
               className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-600/20"
             >
               {validGrades.map((g) => (
-                <option key={g} value={g}>Class {g}</option>
+                <option key={g} value={g}>Class/Grade {g}</option>
               ))}
             </select>
           </label>
@@ -251,21 +258,34 @@ function TopicsBody() {
           {SUBJECTS.map((s) => {
             const range = SUBJECT_GRADE_MAP[s];
             const available = safeGrade >= range.min && safeGrade <= range.max;
+            const isSubscribed = activeUnlocks?.some((u) => u.grade === safeGrade && u.subject.toLowerCase() === s.toLowerCase());
+            
             return (
               <button
                 key={s}
                 type="button"
                 disabled={!available}
                 onClick={() => setActiveSubject(s)}
-                className={`rounded-full border px-4 py-1.5 text-sm font-medium transition ${
+                className={`rounded-full border px-4 py-1.5 text-sm font-medium transition flex items-center gap-1.5 ${
                   activeSubject === s
-                    ? "border-brand-600 bg-brand-600 text-white"
+                    ? "border-brand-600 bg-brand-600 text-white shadow-sm"
                     : available
-                    ? "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+                    ? (isSubscribed 
+                        ? "border-emerald-300 bg-[#f8fcf8] text-emerald-800 hover:bg-emerald-50" 
+                        : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50")
                     : "cursor-not-allowed border-slate-100 bg-slate-50 text-slate-300"
                 }`}
               >
                 {s}
+                {available && (
+                   <span className={`text-[9px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded-full ${
+                     activeSubject === s 
+                       ? "bg-white/20 text-white" 
+                       : isSubscribed ? "bg-emerald-100 text-emerald-700" : "bg-slate-100 text-slate-500"
+                   }`}>
+                     {isSubscribed ? "Subscribed" : "Free"}
+                   </span>
+                )}
               </button>
             );
           })}
@@ -286,13 +306,13 @@ function TopicsBody() {
             </div>
           ) : topics.length === 0 ? (
             <div className="rounded-xl border border-slate-200 bg-white px-6 py-12 text-center">
-              <p className="text-sm text-slate-500">No topics available for {activeSubject} at Class {safeGrade}.</p>
+              <p className="text-sm text-slate-500">No topics available for {activeSubject} at Class/Grade {safeGrade}.</p>
               <p className="mt-1 text-xs text-slate-400">Try a different subject or grade.</p>
             </div>
           ) : (
             <>
               <p className="mb-4 text-xs text-slate-400">
-                Showing {topics.length} topic{topics.length !== 1 ? "s" : ""} for Class {safeGrade} {activeSubject}
+                Showing {topics.length} topic{topics.length !== 1 ? "s" : ""} for Class/Grade {safeGrade} {activeSubject}
               </p>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {topics.map((topic) => {
@@ -366,6 +386,43 @@ function TopicsBody() {
               </div>
             </>
           )}
+        </div>
+
+        {/* FAQ Section */}
+        <div className="mt-12 rounded-2xl border border-slate-200 bg-white p-6">
+          <h3 className="mb-4 flex items-center gap-2 font-bold text-slate-900">
+            <Star className="h-4 w-4 text-brand-500" />
+            Frequently Asked Questions
+          </h3>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {[
+              {
+                q: "What is the Syllabus Map?",
+                a: "The Syllabus Map breaks down the curriculum into individual chapters or topics. You can practice one specific topic at a time instead of taking a mixed full-length exam.",
+              },
+              {
+                q: "How many free online attempts do I get?",
+                a: "Free users get 5 total online practice attempts across any class or subject. These attempts use our AI generation engine to provide you a premium experience.",
+              },
+              {
+                q: "What happens if I subscribe to a subject?",
+                a: "Subscribed subjects unlock unlimited online practice! They no longer count towards your 5 free global attempts, allowing you to master those subjects fully.",
+              },
+              {
+                q: "What if I use all my free attempts?",
+                a: "Once you hit your limit of 5 free AI-generated online attempts, you will need to subscribe to continue generating fresh online practice tests.",
+              },
+              {
+                q: "Do I have to subscribe to all subjects?",
+                a: "No! You can choose to subscribe to individual subjects, build a custom bundle, or get the 'All Subjects' Max Value Bundle.",
+              },
+            ].map(({ q, a }) => (
+              <div key={q} className="rounded-xl bg-slate-50 p-4">
+                <p className="mb-1 text-sm font-semibold text-slate-800">{q}</p>
+                <p className="text-xs leading-relaxed text-slate-600">{a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

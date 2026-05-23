@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import {
   BookOpen, Download, Lock, Loader2, ChevronRight,
-  FileText, Star, CheckCircle2, AlertCircle, CreditCard, BanIcon
+  FileText, Star, CheckCircle2, AlertCircle, CreditCard, BanIcon, Crown
 } from "lucide-react";
 import { SignedIn, SignedOut, useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
@@ -14,6 +14,8 @@ type SubjectInfo = {
   subject: string;
   grade: number;
   hasFreeDownload: boolean;   // true = free slot already used
+  isSubscribed?: boolean;
+  subscribedDownloadsThisWeek?: number;
   freeQuestions: number;
   paidQuestions: number;
   priceInPaise: number;
@@ -153,7 +155,41 @@ function PracticePapersBody() {
     }
   }
 
-  // ── Paid download (₹29 per download — each click = fresh payment) ───────
+  // ── Subscribed download (Limit 10 per week) ─────────────────────────────
+  async function downloadSubscribed(info: SubjectInfo) {
+    const key = `subscribed-${info.subject}`;
+    setDownloading(key);
+    setNotice(null);
+    try {
+      const token = await getToken();
+      const res = await fetch(`${API_URL}/api/practice-papers/subscribed-pdf`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ grade, subject: info.subject }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.message ?? "Failed to download paper.");
+      }
+
+      const blob = await res.blob();
+      triggerBlobDownload(blob, `OlympiadReady-${info.subject}-Class${grade}-50Q.pdf`);
+      
+      // Optimistically update the count
+      setSubjects((prev) =>
+        prev.map((s) => s.subject === info.subject ? { ...s, subscribedDownloadsThisWeek: (s.subscribedDownloadsThisWeek || 0) + 1 } : s)
+      );
+      
+      setNotice({ kind: "ok", msg: `Your ${info.subject} 50-question paper is downloaded! (${(info.subscribedDownloadsThisWeek || 0) + 1}/10 this week)` });
+    } catch (e) {
+      setNotice({ kind: "err", msg: e instanceof Error ? e.message : "Download failed." });
+    } finally {
+      setDownloading(null);
+    }
+  }
+
+  // ── Paid download (₹19 per download — each click = fresh payment) ───────
   async function buyAndDownload(info: SubjectInfo) {
     const key = `paid-${info.subject}`;
     setPaying(key);
@@ -183,7 +219,7 @@ function PracticePapersBody() {
           name:        "OlympiadReady",
           description: `50Q Practice Paper — ${info.subject} Class ${grade}`,
           order_id:    order.orderId,
-          handler: async (response) => {
+          handler: async (response: any) => {
             try {
               setPaying(null);
               setDownloading(key);
@@ -248,7 +284,7 @@ function PracticePapersBody() {
             AI-generated, exam-style PDFs ready to print and practise.{" "}
             <span className="font-semibold">10 questions free</span> (once per subject)
             {" · "}
-            <span className="font-semibold">50 questions for ₹29</span> per download.
+            <span className="font-semibold">50 questions for ₹19</span> per download.
           </p>
 
           {/* Feature pills */}
@@ -288,7 +324,7 @@ function PracticePapersBody() {
 
         {/* Class picker */}
         <div className="mb-8 flex items-center gap-4">
-          <label htmlFor="classSelect" className="text-sm font-semibold text-slate-700">Select Class:</label>
+          <label htmlFor="classSelect" className="text-sm font-semibold text-slate-700">Select Class/Grade:</label>
           <select
             id="classSelect"
             value={grade}
@@ -297,7 +333,7 @@ function PracticePapersBody() {
           >
             {Array.from({ length: 12 }, (_, i) => i + 1).map((g) => (
               <option key={g} value={g}>
-                Class {g}
+                Class/Grade {g}
               </option>
             ))}
           </select>
@@ -306,7 +342,7 @@ function PracticePapersBody() {
         {/* Info strip */}
         <div className="mb-4 flex items-center justify-between gap-4">
           <h2 className="text-base font-bold text-slate-900">
-            Class {grade} — Available Subjects
+            Class/Grade {grade} — Available Subjects
           </h2>
           <SignedOut>
             <span className="text-xs text-slate-500">
@@ -340,7 +376,7 @@ function PracticePapersBody() {
         ) : subjects.length === 0 ? (
           <div className="rounded-2xl border border-slate-200 bg-white px-6 py-16 text-center">
             <BookOpen className="mx-auto h-10 w-10 text-slate-300" />
-            <p className="mt-3 font-semibold text-slate-600">No papers available for Class {grade} yet.</p>
+            <p className="mt-3 font-semibold text-slate-600">No papers available for Class/Grade {grade} yet.</p>
             <p className="mt-1 text-sm text-slate-400">Our question bank is growing — check back soon.</p>
           </div>
         ) : (
@@ -357,10 +393,19 @@ function PracticePapersBody() {
               return (
                 <div
                   key={info.subject}
-                  className={`relative overflow-hidden rounded-2xl border ${colors.border} ${colors.bg} shadow-sm transition hover:shadow-md`}
+                  className={`group relative overflow-hidden rounded-2xl border ${info.isSubscribed ? "border-emerald-200 bg-[#f8fcf8]" : colors.border + " " + colors.bg} shadow-sm transition hover:shadow-md`}
                 >
                   {/* Top colour bar */}
-                  <div className={`h-1.5 w-full ${colors.bar}`} />
+                  <div className={`h-1.5 w-full ${info.isSubscribed ? "bg-emerald-400" : colors.bar}`} />
+
+                  {/* Corner Subscribed Badge */}
+                  {info.isSubscribed && (
+                    <div className="absolute -top-3 -right-3 opacity-0 transition-all duration-200 group-hover:top-1.5 group-hover:right-1.5 z-10">
+                       <span className="text-[9px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded shadow-sm bg-emerald-500 text-white">
+                         Subscribed
+                       </span>
+                    </div>
+                  )}
 
                   <div className="p-5">
                     {/* Card header */}
@@ -369,7 +414,7 @@ function PracticePapersBody() {
                         <span className="text-3xl">{icon}</span>
                         <div>
                           <h3 className="font-bold text-slate-900">{info.subject}</h3>
-                          <p className="text-xs text-slate-500">Class {info.grade} · All Difficulties</p>
+                          <p className="text-xs text-slate-500">Class/Grade {info.grade} · All Difficulties</p>
                         </div>
                       </div>
                       {info.hasFreeDownload && (
@@ -438,7 +483,7 @@ function PracticePapersBody() {
                       </div>
 
                       {/* ── Paid tier ─────────────────────────────────── */}
-                      <div className="rounded-xl border border-brand-200 bg-brand-50 p-3">
+                      <div className={`rounded-xl border p-3 ${info.isSubscribed ? "border-emerald-200 bg-[#f8fcf8]" : "border-brand-200 bg-brand-50"}`}>
                         <div className="flex items-start justify-between gap-2">
                           <div>
                             <p className="text-sm font-semibold text-slate-800">
@@ -448,30 +493,58 @@ function PracticePapersBody() {
                               All topics · Detailed explanations · Fresh set every download
                             </p>
                           </div>
-                          <span className="shrink-0 rounded-full bg-brand-100 px-2 py-0.5 text-[11px] font-bold text-brand-700">
-                            {info.priceDisplay}
-                          </span>
+                          {info.isSubscribed ? (
+                             <div className="group/tooltip relative">
+                               <span className="shrink-0 rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-bold text-emerald-700 cursor-help flex items-center gap-1">
+                                 <Crown className="h-3 w-3"/> Subscribed
+                               </span>
+                               <div className="absolute right-0 top-full mt-2 w-48 rounded-lg bg-slate-900 p-2 text-[10px] text-white opacity-0 pointer-events-none transition-opacity group-hover/tooltip:opacity-100 group-hover/tooltip:pointer-events-auto z-10">
+                                 As a subscriber, you get 10 free full-length paper downloads per subject every week. Resets on Monday.
+                               </div>
+                             </div>
+                          ) : (
+                             <span className="shrink-0 rounded-full bg-brand-100 px-2 py-0.5 text-[11px] font-bold text-brand-700">
+                               {info.priceDisplay}
+                             </span>
+                          )}
                         </div>
 
                         <SignedIn>
-                          <button
-                            type="button"
-                            disabled={isPaying || isPaidDl}
-                            onClick={() => buyAndDownload(info)}
-                            className="mt-2.5 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-brand-600 px-3 py-2 text-xs font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
-                          >
-                            {isPaying ? (
-                              <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Opening payment…</>
-                            ) : isPaidDl ? (
-                              <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Generating PDF…</>
-                            ) : (
-                              <>
-                                <CreditCard className="h-3.5 w-3.5" />
-                                Buy &amp; Download — {info.priceDisplay}
-                                <ChevronRight className="ml-auto h-3.5 w-3.5" />
-                              </>
-                            )}
-                          </button>
+                          {info.isSubscribed ? (
+                            <button
+                              type="button"
+                              disabled={downloading === `subscribed-${info.subject}` || (info.subscribedDownloadsThisWeek || 0) >= 10}
+                              onClick={() => downloadSubscribed(info)}
+                              className="mt-2.5 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-emerald-600 px-3 py-2 text-xs font-semibold text-white transition hover:bg-emerald-700 disabled:opacity-60"
+                            >
+                              {downloading === `subscribed-${info.subject}` ? (
+                                <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Generating PDF…</>
+                              ) : (info.subscribedDownloadsThisWeek || 0) >= 10 ? (
+                                <><BanIcon className="h-3.5 w-3.5" /> Weekly limit (10/10) reached</>
+                              ) : (
+                                <><Download className="h-3.5 w-3.5" /> Download Free ({info.subscribedDownloadsThisWeek || 0}/10 this week)</>
+                              )}
+                            </button>
+                          ) : (
+                            <button
+                              type="button"
+                              disabled={isPaying || isPaidDl}
+                              onClick={() => buyAndDownload(info)}
+                              className="mt-2.5 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-brand-600 px-3 py-2 text-xs font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
+                            >
+                              {isPaying ? (
+                                <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Opening payment…</>
+                              ) : isPaidDl ? (
+                                <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Generating PDF…</>
+                              ) : (
+                                <>
+                                  <CreditCard className="h-3.5 w-3.5" />
+                                  Buy &amp; Download — {info.priceDisplay}
+                                  <ChevronRight className="ml-auto h-3.5 w-3.5" />
+                                </>
+                              )}
+                            </button>
+                          )}
                         </SignedIn>
                         <SignedOut>
                           <a
@@ -505,7 +578,7 @@ function PracticePapersBody() {
               },
               {
                 q: "How does the free download work?",
-                a: "You get one free 10-question paper per subject per class. Once downloaded, the free slot is used. To get a new set of questions for the same subject, use the ₹29 paid option.",
+                a: "You get one free 10-question paper per subject per class. Once downloaded, the free slot is used. To get a new set of questions for the same subject, use the ₹19 paid option.",
               },
               {
                 q: "What does the PDF include?",
@@ -517,7 +590,11 @@ function PracticePapersBody() {
               },
               {
                 q: "Can I re-download a paid paper?",
-                a: "Each ₹29 payment gives you one fresh download. Every new purchase generates a different set of 50 questions. There is no unlimited re-download — each payment = one fresh paper.",
+                a: "Each ₹19 payment gives you one fresh download. Every new purchase generates a different set of 50 questions. There is no unlimited re-download — each payment = one fresh paper.",
+              },
+              {
+                q: "What benefits do subscribed subjects get?",
+                a: "If you have an active subscription for a subject, you can download 10 full-length (50 questions) practice papers for that subject every week for free. The limit resets every Monday.",
               },
               {
                 q: "Is payment secure?",

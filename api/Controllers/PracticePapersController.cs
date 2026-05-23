@@ -15,7 +15,7 @@ public class PracticePapersController : ControllerBase
 {
     private const int FreeQuestionCount = 10;
     private const int PaidQuestionCount = 50;
-    private const int PdfPriceInPaise   = 2900; // ₹29
+    private const int PdfPriceInPaise   = 1900; // ₹19
 
     // Marker stored in RazorpayOrderId/PaymentId for free-tier records.
     private const string FreeMarker = "FREE";
@@ -43,33 +43,39 @@ public class PracticePapersController : ControllerBase
         _log = log;
     }
 
+    private static bool IsSubjectAvailable(string subject, int grade)
+    {
+        return subject switch
+        {
+            "Math" or "Science" or "English" or "Logical Reasoning" or "Spell Bee" => grade >= 1 && grade <= 12,
+            "Computers" or "AI" or "General Knowledge" => grade >= 1 && grade <= 10,
+            "Social Studies" or "Hindi" => grade >= 3 && grade <= 10,
+            _ => false
+        };
+    }
+
     // ── GET /api/practice-papers/subjects?grade=6 ──────────────────────────
-    // Returns subjects available in the question bank for a given grade,
+    // Returns subjects available for a given grade,
     // and whether the authenticated user has used their one free download.
     [HttpGet("subjects")]
     public async Task<IActionResult> GetSubjects([FromQuery] int grade, CancellationToken ct)
     {
         if (grade < 1 || grade > 12) return BadRequest("Grade must be between 1 and 12.");
 
-        var qBankSubjects = await _db.QuestionBank
-            .Where(q => q.Grade == grade)
-            .Select(q => q.Subject)
-            .Distinct()
-            .ToListAsync(ct);
+        var allPossibleSubjects = new[] {
+            "Math", "Science", "English", "Hindi", "Social Studies", 
+            "General Knowledge", "Logical Reasoning", "Computers", "AI", "Spell Bee"
+        };
 
-        var purchasedSubjects = await _db.PdfPurchases
-            .Where(p => p.Grade == grade)
-            .Select(p => p.Subject)
-            .Distinct()
-            .ToListAsync(ct);
-
-        var subjects = qBankSubjects.Union(purchasedSubjects)
-            .Distinct()
-            .OrderBy(s => s)
+        var subjects = allPossibleSubjects
+            .Where(s => IsSubjectAvailable(s, grade))
             .ToList();
 
         // Check which subjects have a free download already used (signed-in only)
         HashSet<string> freeUsed = new();
+        List<string> activeSubs = new();
+        Dictionary<string, int> weeklyCount = new();
+
         if (User.Identity?.IsAuthenticated == true)
         {
             var user = await _users.GetOrSyncAsync(User, ct);
@@ -80,6 +86,27 @@ public class PracticePapersController : ControllerBase
                 .Select(p => p.Subject)
                 .ToListAsync(ct);
             freeUsed = rows.ToHashSet();
+
+            activeSubs = await _db.Subscriptions
+                .Where(s => s.UserId == user.UserId && s.Grade == grade && s.EndDate > DateTime.UtcNow)
+                .Select(s => s.Subject)
+                .ToListAsync(ct);
+
+            DateTime now = DateTime.UtcNow;
+            int diff = (7 + (now.DayOfWeek - DayOfWeek.Monday)) % 7;
+            DateTime startOfWeek = now.AddDays(-1 * diff).Date;
+
+            var purchasesThisWeek = await _db.PdfPurchases
+                .Where(p => p.UserId == user.UserId && p.Grade == grade && p.RazorpayOrderId == "SUBSCRIBED_FREE" && p.PurchasedAt >= startOfWeek)
+                .Select(p => p.Subject)
+                .ToListAsync(ct);
+
+            foreach(var subj in purchasesThisWeek)
+            {
+                var baseSubj = subj.Contains('|') ? subj.Split('|')[0] : subj;
+                if (!weeklyCount.ContainsKey(baseSubj)) weeklyCount[baseSubj] = 0;
+                weeklyCount[baseSubj]++;
+            }
         }
 
         var result = subjects.Select(s => new
@@ -87,6 +114,8 @@ public class PracticePapersController : ControllerBase
             subject        = s,
             grade,
             hasFreeDownload = freeUsed.Contains(s),   // true = already used the one free slot
+            isSubscribed = activeSubs.Contains(s) || (s.Contains('|') && activeSubs.Contains(s.Split('|')[0])),
+            subscribedDownloadsThisWeek = weeklyCount.GetValueOrDefault(s.Contains('|') ? s.Split('|')[0] : s, 0),
             freeQuestions  = FreeQuestionCount,
             paidQuestions  = PaidQuestionCount,
             priceInPaise   = PdfPriceInPaise,
@@ -247,6 +276,69 @@ public class PracticePapersController : ControllerBase
         _log.LogInformation(
             "Paid PDF served: {Subject} {Topic} G{Grade} for {UserId} via order {OrderId}",
             req.Subject, req.Topic, req.Grade, user.UserId, req.OrderId);
+
+        return File(bytes, "application/pdf", filename);
+    }
+
+    // ── POST /api/practice-papers/subscribed-pdf ──────────────────────────
+    // Generates a 50-question PDF for subscribed users (limit 10/week).
+    [Authorize]
+    [HttpPost("subscribed-pdf")]
+    public async Task<IActionResult> SubscribedPdf([FromBody] PdfCheckoutRequest req, CancellationToken ct)
+    {
+        if (req.Grade < 1 || req.Grade > 12) return BadRequest("Invalid grade.");
+        if (string.IsNullOrWhiteSpace(req.Subject)) return BadRequest("Subject is required.");
+
+        var user = await _users.GetOrSyncAsync(User, ct);
+        var purchaseKey = string.IsNullOrWhiteSpace(req.Topic) ? req.Subject : $"{req.Subject}|{req.Topic}";
+
+        // 1. Check if subscribed
+        bool isSubscribed = await _db.Subscriptions.AnyAsync(s => s.UserId == user.UserId && s.Grade == req.Grade && s.Subject == req.Subject && s.EndDate > DateTime.UtcNow, ct);
+        if (!isSubscribed) return Forbid();
+
+        // 2. Check weekly limit
+        DateTime now = DateTime.UtcNow;
+        int diff = (7 + (now.DayOfWeek - DayOfWeek.Monday)) % 7;
+        DateTime startOfWeek = now.AddDays(-1 * diff).Date;
+
+        int countThisWeek = await _db.PdfPurchases.CountAsync(p => p.UserId == user.UserId && p.Grade == req.Grade && (p.Subject == req.Subject || p.Subject.StartsWith(req.Subject + "|")) && p.RazorpayOrderId == "SUBSCRIBED_FREE" && p.PurchasedAt >= startOfWeek, ct);
+
+        if (countThisWeek >= 10)
+        {
+            return StatusCode(429, new { message = "Weekly limit of 10 downloads reached for this subject." });
+        }
+
+        // 3. Generate PDF
+        var questions = await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, PaidQuestionCount, req.Topic, ct);
+        if (questions is null || questions.Count == 0)
+            return StatusCode(503, new { message = $"Not enough questions in bank for {purchaseKey} Class {req.Grade}." });
+
+        _db.PdfPurchases.Add(new PdfPurchase
+        {
+            UserId            = user.UserId,
+            Grade             = req.Grade,
+            Subject           = purchaseKey,
+            RazorpayOrderId   = "SUBSCRIBED_FREE",
+            RazorpayPaymentId = "SUBSCRIBED_FREE",
+            AmountInPaise     = 0,
+            PurchasedAt       = DateTime.UtcNow
+        });
+        await _db.SaveChangesAsync(ct);
+
+        var exportReq = new PdfExportRequest
+        {
+            Title      = $"Class {req.Grade} {req.Subject} {(string.IsNullOrWhiteSpace(req.Topic) ? "" : $"- {req.Topic} ")}— Practice Paper (50 Questions)",
+            Subject    = req.Subject,
+            Grade      = req.Grade,
+            Difficulty = "Mixed",
+            Questions  = questions
+        };
+
+        var bytes    = _pdf.GeneratePaperPdf(exportReq);
+        var filename = $"OlympiadReady-{req.Subject}{(string.IsNullOrWhiteSpace(req.Topic) ? "" : $"-{req.Topic}")}-Class{req.Grade}-50Q.pdf";
+        _log.LogInformation(
+            "Subscribed PDF served: {Subject} {Topic} G{Grade} for {UserId}",
+            req.Subject, req.Topic, req.Grade, user.UserId);
 
         return File(bytes, "application/pdf", filename);
     }

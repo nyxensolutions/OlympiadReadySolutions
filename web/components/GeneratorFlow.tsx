@@ -27,13 +27,18 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
   const [upgradeReason, setUpgradeReason] = useState<string | undefined>(undefined);
   const { status, refresh } = useSubscription();
 
-  function openUpgrade(reason?: string) {
+  const [upgradeGrade, setUpgradeGrade] = useState<number | undefined>(undefined);
+  const [upgradeSubject, setUpgradeSubject] = useState<string | undefined>(undefined);
+
+  function openUpgrade(reason?: string, grade?: number, subject?: string) {
     setUpgradeReason(reason);
+    setUpgradeGrade(grade);
+    setUpgradeSubject(subject);
     setShowUpgrade(true);
   }
 
-  function handleQuotaExceeded(info: QuotaError) {
-    openUpgrade(info.message);
+  function handleQuotaExceeded(info: QuotaError, grade: number, subject: string) {
+    openUpgrade(info.message, grade, subject);
   }
 
   function handleRestart(result: AttemptResult) {
@@ -55,14 +60,14 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
       {phase.kind === "config" && (
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <SubscriptionBadge status={status} />
-          {status?.tier === "Free" && (
+          {status?.tier !== "Pro" && (
             <button
               type="button"
               onClick={() => openUpgrade()}
               className="inline-flex items-center gap-1.5 rounded-full bg-achiever-50 px-3 py-1 text-xs font-semibold text-achiever-700 ring-1 ring-achiever-600/20 hover:bg-achiever-100"
             >
               <Crown className="h-3 w-3" />
-              Upgrade to Pro
+              {status?.tier === "Modular" ? "Unlock More Subjects" : "Upgrade to Pro"}
             </button>
           )}
         </div>
@@ -106,6 +111,8 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
         onClose={() => setShowUpgrade(false)}
         onUpgraded={() => void refresh()}
         reason={upgradeReason}
+        initialGrade={upgradeGrade}
+        initialSubject={upgradeSubject}
       />
     </div>
   );

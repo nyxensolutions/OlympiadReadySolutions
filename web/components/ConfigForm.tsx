@@ -141,20 +141,28 @@ export function ConfigForm({
   /** The selected olympiad ID — forwarded to the API so Claude tailors questions to that exam. */
   olympiadId?: string;
   onGenerated: (config: PreviewRequest, paper: GeneratedPaper, simulationMode: boolean) => void;
-  onQuotaExceeded: (info: QuotaError) => void;
+  onQuotaExceeded: (info: QuotaError, grade: number, subject: string) => void;
   onRequiresUpgrade?: () => void;
   status?: { tier: "Free" | "Pro" } | null;
 }) {
   const { getToken } = useAuth();
   const [subject, setSubject] = useState<string>(initialConfig?.subject ?? "Math");
-  const [grade, setGrade] = useState<number>(() => {
-    if (initialConfig?.grade) return initialConfig.grade;
-    if (typeof window !== "undefined") {
+  const [grade, setGrade] = useState<number>(initialConfig?.grade ?? 1);
+
+  useEffect(() => {
+    if (!initialConfig?.grade && typeof window !== "undefined") {
       const stored = localStorage.getItem("olympiad_grade");
-      return stored ? Number(stored) : 1;
+      if (stored) {
+        const storedGrade = Number(stored);
+        setGrade(storedGrade);
+        if (!isSubjectAvailable(subject as Subject, storedGrade)) {
+          const fallback = SUBJECTS.find((s) => isSubjectAvailable(s, storedGrade)) ?? SUBJECTS[0];
+          setSubject(fallback);
+          setResetNotice(`${subject} isn't offered at Class/Grade ${storedGrade} — switched to ${fallback}.`);
+        }
+      }
     }
-    return 1;
-  });
+  }, [initialConfig?.grade]); // eslint-disable-line react-hooks/exhaustive-deps
   const [difficulty, setDifficulty] = useState<string>(initialConfig?.difficulty ?? "Foundation");
   const [count, setCount] = useState<number>(initialConfig?.count ?? 5);
   const [simMode, setSimMode] = useState(false);
@@ -162,6 +170,8 @@ export function ConfigForm({
   const [olympiadLevel, setOlympiadLevel] = useState<OlympiadLevel>(
     (initialConfig?.olympiadLevel) ?? "L1"
   );
+
+  const isCurrentUnlocked = status?.tier === "Pro" || (status?.activeUnlocks?.some((u) => u.grade === grade && u.subject.toLowerCase() === subject.toLowerCase()) ?? false);
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -208,7 +218,7 @@ export function ConfigForm({
       if (res.status === 402) {
         const info: QuotaError = await res.json();
         Analytics.quotaExceeded(subject, grade);
-        onQuotaExceeded(info);
+        onQuotaExceeded(info, grade, subject);
         return;
       }
       if (!res.ok) throw new Error((await res.text()) || `Request failed (${res.status})`);
@@ -264,7 +274,7 @@ export function ConfigForm({
         <div className="flex gap-3">
           {(["L1", "L2"] as OlympiadLevel[]).map((lvl) => {
             const isActive = olympiadLevel === lvl;
-            const isLocked = lvl === "L2" && status?.tier !== "Pro";
+            const isLocked = lvl === "L2" && !isCurrentUnlocked;
             const info = lvl === "L1"
               ? { label: "Level 1", desc: "First round, school-level competition" }
               : { label: "Level 2", desc: "Advanced round for top Level 1 qualifiers" };
@@ -272,7 +282,7 @@ export function ConfigForm({
               <button
                 key={lvl}
                 type="button"
-                title={isLocked ? "Level 2 is available for Pro subscribers only" : undefined}
+                title={isLocked ? "Level 2 is available for unlocked subjects only" : undefined}
                 onClick={() => {
                   if (isLocked) {
                     onRequiresUpgrade?.();
@@ -312,7 +322,7 @@ export function ConfigForm({
       {/* Grade + Level — shown first */}
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
-          Class
+          Class/Grade
           <select
             value={grade}
             onChange={(e) => handleGradeChange(Number(e.target.value))}
@@ -320,7 +330,7 @@ export function ConfigForm({
           >
             {Array.from({ length: 12 }, (_, i) => i + 1).map((g) => (
               <option key={g} value={g}>
-                Class {g}
+                Class/Grade {g}
               </option>
             ))}
           </select>
@@ -367,6 +377,7 @@ export function ConfigForm({
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {SUBJECTS.map((s) => {
             const unavailable = !isSubjectAvailable(s, grade);
+            const isSubscribed = status?.tier === "Pro" || (status?.activeUnlocks?.some((u) => u.grade === grade && u.subject.toLowerCase() === s.toLowerCase()) ?? false);
             return (
               <SubjectCard
                 key={s}
@@ -374,6 +385,7 @@ export function ConfigForm({
                 selected={subject === s}
                 onClick={() => { setSubject(s); setResetNotice(null); }}
                 disabled={unavailable}
+                isSubscribed={isSubscribed}
               />
             );
           })}

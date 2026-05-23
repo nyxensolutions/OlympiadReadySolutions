@@ -75,7 +75,7 @@ public class TestsController : ControllerBase
                         Topic = q.Topic ?? "General",
                         QuestionJson = JsonSerializer.Serialize(q),
                         CorrectAnswer = q.Answer,
-                        UserAnswer = userAnswer,
+                        UserAnswer = userAnswer ?? "",
                         IsResolved = false,
                         OccurredAt = DateTime.UtcNow
                     };

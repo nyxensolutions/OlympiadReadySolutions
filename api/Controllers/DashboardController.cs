@@ -75,14 +75,14 @@ public class DashboardController : ControllerBase
             })
             .ToListAsync(ct);
 
-        var quota = await _subs.CheckPaperQuotaAsync(user.UserId, ct);
+        var summary = await _subs.GetSubscriptionSummaryAsync(user.UserId, ct);
 
         var unresolvedMistakesCount = await _db.UserMistakes
             .CountAsync(m => m.UserId == user.UserId && !m.IsResolved, ct);
 
         return Ok(new
         {
-            subscription = new { tier = quota.Tier, used = quota.Used, limit = quota.Limit },
+            subscription = summary,
             papers,
             results,
             mastery,

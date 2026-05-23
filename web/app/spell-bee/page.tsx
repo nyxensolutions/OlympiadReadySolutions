@@ -17,6 +17,8 @@ type SubjectInfo = {
   subject: string;
   grade: number;
   hasFreeDownload: boolean;
+  isSubscribed?: boolean;
+  subscribedDownloadsThisWeek?: number;
   freeQuestions: number;
   paidQuestions: number;
   priceInPaise: number;
@@ -157,7 +159,7 @@ function SpellBeeBody() {
       triggerBlobDownload(blob, `OlympiadReady-Free-SpellBee-${topicName.replace(/\s+/g, "")}-Class${grade}.pdf`);
       
       if (!subjects.find(s => s.subject === purchaseKey)) {
-          setSubjects(prev => [...prev, { subject: purchaseKey, grade, hasFreeDownload: true, freeQuestions: 10, paidQuestions: 50, priceInPaise: 2900, priceDisplay: "₹29" }]);
+          setSubjects(prev => [...prev, { subject: purchaseKey, grade, hasFreeDownload: true, freeQuestions: 10, paidQuestions: 50, priceInPaise: 1900, priceDisplay: "₹19" }]);
       } else {
           setSubjects((prev) =>
             prev.map((s) => s.subject === purchaseKey ? { ...s, hasFreeDownload: true } : s)
@@ -200,7 +202,7 @@ function SpellBeeBody() {
           name: "OlympiadReady",
           description: `50Q Spell Bee Paper — ${topicName} Class ${grade}`,
           order_id: order.orderId,
-          handler: async (response) => {
+          handler: async (response: any) => {
             try {
               setPaying(null);
               setDownloading(key);
@@ -247,6 +249,41 @@ function SpellBeeBody() {
     }
   }
 
+  async function downloadSubscribed(topicName: string) {
+    const key = `subscribed-${topicName}`;
+    setDownloading(key);
+    setNotice(null);
+    try {
+      const token = await getToken();
+      const res = await fetch(`${API_URL}/api/practice-papers/subscribed-pdf`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ grade, subject: "Spell Bee", topic: topicName }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error((err as { message?: string }).message ?? "Download failed.");
+      }
+
+      const blob = await res.blob();
+      triggerBlobDownload(blob, `OlympiadReady-SpellBee-${topicName.replace(/\s+/g, "")}-Class${grade}-50Q.pdf`);
+      
+      const purchaseKey = `Spell Bee|${topicName}`;
+      setSubjects(prev => prev.map(s => {
+        if (s.subject === purchaseKey) {
+          return { ...s, subscribedDownloadsThisWeek: (s.subscribedDownloadsThisWeek || 0) + 1 };
+        }
+        return s;
+      }));
+      setNotice({ kind: "ok", msg: `Your 50-question ${topicName} paper downloaded successfully!` });
+    } catch (e) {
+      setNotice({ kind: "err", msg: e instanceof Error ? e.message : "Download failed." });
+    } finally {
+      setDownloading(null);
+    }
+  }
+
   return (
     <>
       {notice && (
@@ -265,7 +302,7 @@ function SpellBeeBody() {
       {/* Class picker and Navigation */}
       <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-4">
-          <label htmlFor="classSelect" className="text-sm font-semibold text-slate-700">Select Class:</label>
+          <label htmlFor="classSelect" className="text-sm font-semibold text-slate-700">Select Class/Grade:</label>
           <select
             id="classSelect"
             value={grade}
@@ -274,7 +311,7 @@ function SpellBeeBody() {
           >
             {Array.from({ length: 12 }, (_, i) => i + 1).map((g) => (
               <option key={g} value={g}>
-                Class {g}
+                Class/Grade {g}
               </option>
             ))}
           </select>
@@ -329,6 +366,10 @@ function SpellBeeBody() {
                 const subjectInfo = subjects.find(s => s.subject === purchaseKey);
                 const hasFreeDownload = subjectInfo?.hasFreeDownload ?? false;
 
+                const baseSubjectInfo = subjects.find(s => s.subject === "Spell Bee");
+                const isSubscribed = baseSubjectInfo?.isSubscribed ?? false;
+                const subscribedDownloadsThisWeek = baseSubjectInfo?.subscribedDownloadsThisWeek ?? 0;
+
                 const freeKey = `free-${topic.topic}`;
                 const paidKey = `paid-${topic.topic}`;
                 const isFreeDownloading = downloading === freeKey;
@@ -338,8 +379,16 @@ function SpellBeeBody() {
                 return (
                   <div
                     key={topic.topic}
-                    className="relative overflow-hidden rounded-2xl border border-violet-200 bg-violet-50/30 shadow-sm transition hover:shadow-md"
+                    className="relative overflow-hidden rounded-2xl border border-violet-200 bg-violet-50/30 shadow-sm transition hover:shadow-md group"
                   >
+                    {/* Corner Subscribed Badge */}
+                    {isSubscribed && (
+                      <div className="absolute -top-3 -right-3 opacity-0 transition-all duration-200 group-hover:top-1.5 group-hover:right-1.5 z-10 group-hover:opacity-100">
+                         <span className="text-[9px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded shadow-sm bg-emerald-500 text-white">
+                           Subscribed
+                         </span>
+                      </div>
+                    )}
                     <div className="h-1.5 w-full bg-violet-400" />
 
                     <div className="p-5">
@@ -416,40 +465,80 @@ function SpellBeeBody() {
                         </div>
 
                         {/* ── Paid tier ─────────────────────────────────── */}
-                        <div className="rounded-xl border border-violet-200 bg-violet-50 p-3">
+                        <div className={`rounded-xl border p-3 ${
+                          isSubscribed
+                            ? "border-emerald-200 bg-emerald-50"
+                            : "border-violet-200 bg-violet-50"
+                        }`}>
                           <div className="flex items-start justify-between gap-2">
                             <div>
-                              <p className="text-sm font-semibold text-slate-800">
+                              <p className={`text-sm font-semibold ${isSubscribed ? "text-emerald-800" : "text-slate-800"}`}>
                                 Premium — 50 Questions
                               </p>
                               <p className="text-[11px] text-slate-500 mt-0.5">
                                 Full set · Fresh paper every download
                               </p>
                             </div>
-                            <span className="shrink-0 rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-bold text-violet-700">
-                              ₹29
-                            </span>
+                            {isSubscribed ? (
+                              <div className="flex items-center gap-1 shrink-0">
+                                <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-bold text-emerald-700">
+                                  {10 - subscribedDownloadsThisWeek} left
+                                </span>
+                                <div className="group relative flex items-center justify-center cursor-help">
+                                  <AlertCircle className="h-3.5 w-3.5 text-emerald-500" />
+                                  <div className="pointer-events-none absolute bottom-full right-0 mb-1.5 w-48 opacity-0 transition-opacity group-hover:opacity-100 z-20">
+                                    <div className="rounded-lg bg-slate-800 p-2 text-[10px] text-slate-100 shadow-xl">
+                                      <p className="font-bold mb-0.5 text-emerald-300">Subscribed Benefit</p>
+                                      You can download 10 full papers per week for this subject. Resets every Monday.
+                                    </div>
+                                    <div className="absolute top-full right-1.5 border-4 border-transparent border-t-slate-800" />
+                                  </div>
+                                </div>
+                              </div>
+                            ) : (
+                              <span className="shrink-0 rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-bold text-violet-700">
+                                ₹19
+                              </span>
+                            )}
                           </div>
 
                           <SignedIn>
-                            <button
-                              type="button"
-                              disabled={isPaying || isPaidDl}
-                              onClick={() => buyAndDownload(topic.topic)}
-                              className="mt-2.5 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-violet-600 px-3 py-2 text-xs font-semibold text-white transition hover:bg-violet-700 disabled:opacity-60"
-                            >
-                              {isPaying ? (
-                                <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Opening payment…</>
-                              ) : isPaidDl ? (
-                                <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Generating PDF…</>
-                              ) : (
-                                <>
-                                  <CreditCard className="h-3.5 w-3.5" />
-                                  Buy &amp; Download — ₹29
-                                  <ChevronRight className="ml-auto h-3.5 w-3.5" />
-                                </>
-                              )}
-                            </button>
+                            {isSubscribed ? (
+                              <button
+                                type="button"
+                                disabled={downloading === `subscribed-${topic.topic}` || subscribedDownloadsThisWeek >= 10}
+                                onClick={() => downloadSubscribed(topic.topic)}
+                                className="mt-2.5 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-emerald-600 px-3 py-2 text-xs font-semibold text-white transition hover:bg-emerald-700 disabled:opacity-60"
+                              >
+                                {downloading === `subscribed-${topic.topic}` ? (
+                                  <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Generating PDF…</>
+                                ) : (
+                                  <>
+                                    <Download className="h-3.5 w-3.5" />
+                                    Download Full Paper (Free)
+                                  </>
+                                )}
+                              </button>
+                            ) : (
+                              <button
+                                type="button"
+                                disabled={isPaying || isPaidDl}
+                                onClick={() => buyAndDownload(topic.topic)}
+                                className="mt-2.5 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-violet-600 px-3 py-2 text-xs font-semibold text-white transition hover:bg-violet-700 disabled:opacity-60"
+                              >
+                                {isPaying ? (
+                                  <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Opening payment…</>
+                                ) : isPaidDl ? (
+                                  <><Loader2 className="h-3.5 w-3.5 animate-spin" /> Generating PDF…</>
+                                ) : (
+                                  <>
+                                    <CreditCard className="h-3.5 w-3.5" />
+                                    Buy &amp; Download — ₹19
+                                    <ChevronRight className="ml-auto h-3.5 w-3.5" />
+                                  </>
+                                )}
+                              </button>
+                            )}
                           </SignedIn>
                           <SignedOut>
                             <a
@@ -477,12 +566,34 @@ function SpellBeeBody() {
           <div className="rounded-2xl border border-slate-200 bg-white p-5">
             <h3 className="font-bold text-slate-900 flex items-center gap-2 mb-3">
               <Star className="h-4 w-4 text-amber-500" />
-              About Spell Bee
+              Frequently Asked Questions
             </h3>
-            <p className="text-sm leading-relaxed text-slate-600 mb-4">
-              Spell Bee competitions are popular national-level contests for school students testing spelling, vocabulary, and language skills.
-            </p>
-            <div className="rounded-xl border border-amber-100 bg-amber-50 p-3 text-xs text-amber-800">
+            <div className="space-y-3">
+              {[
+                {
+                  q: "What is Spell Bee?",
+                  a: "Spell Bee competitions are popular national-level contests for school students testing spelling, vocabulary, and language skills.",
+                },
+                {
+                  q: "How does the free download work?",
+                  a: "You get one free 10-question paper per topic. Once downloaded, the free slot is used. To get a new set of 50 questions for the same topic, use the ₹19 paid option.",
+                },
+                {
+                  q: "What benefits do subscribed subjects get?",
+                  a: "If you have an active subscription for Spell Bee, you can download 10 full-length (50 questions) practice papers every week for free. The limit resets every Monday.",
+                },
+                {
+                  q: "Are the questions repetitive?",
+                  a: "No. Questions are dynamically generated using AI from our extensive word bank. Each download gives you a fresh, challenging set of words.",
+                }
+              ].map(({ q, a }) => (
+                <div key={q} className="rounded-xl bg-slate-50 p-3">
+                  <p className="mb-1 text-xs font-semibold text-slate-800">{q}</p>
+                  <p className="text-[11px] leading-relaxed text-slate-600">{a}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-4 rounded-xl border border-amber-100 bg-amber-50 p-3 text-[11px] text-amber-800">
               <span className="font-semibold">Coming soon:</span> Interactive online practice rounds, audio pronunciation, and leaderboards!
             </div>
           </div>

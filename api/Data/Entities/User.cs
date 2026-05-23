@@ -15,4 +15,6 @@ public class User
     public List<UserMastery> Mastery { get; set; } = new();
     public List<PdfPurchase> PdfPurchases { get; set; } = new();
     public List<UserMistake> Mistakes { get; set; } = new();
+
+    public int FreeAttemptsUsed { get; set; }
 }

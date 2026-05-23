@@ -14,5 +14,7 @@ public class VerifyPaymentRequest
     public string Signature { get; set; } = "";
 
     [Required]
-    public string Plan { get; set; } = "ProMonthly";
+    public string BillingCycle { get; set; } = "Monthly";
+    public int Grade { get; set; }
+    public List<string> Subjects { get; set; } = new();
 }

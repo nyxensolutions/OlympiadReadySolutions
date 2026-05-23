@@ -100,11 +100,11 @@ public class ShareController : ControllerBase
             })
             .ToListAsync(ct);
 
-        var quota = await _subs.CheckPaperQuotaAsync(guid, ct);
+        var summary = await _subs.GetSubscriptionSummaryAsync(guid, ct);
 
         return Ok(new
         {
-            subscription = new { tier = quota.Tier, used = quota.Used, limit = quota.Limit },
+            subscription = summary,
             papers,
             results,
             mastery

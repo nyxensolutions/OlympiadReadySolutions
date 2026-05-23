@@ -21,6 +21,8 @@ builder.WebHost.UseSentry(o =>
     o.MaxRequestBodySize = Sentry.Extensibility.RequestSize.Medium;
 });
 // ─────────────────────────────────────────────────────────────────────────────
+builder.Services.AddHttpClient<BrevoEmailService>();
+builder.Services.AddScoped<IEmailService, BrevoEmailService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -30,9 +32,9 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddDbContext<AppDbContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddHttpClient<ClaudeService>(c =>
+builder.Services.AddHttpClient<AiGenerationService>(c =>
 {
-    c.BaseAddress = new Uri("https://api.anthropic.com/");
+    c.BaseAddress = new Uri("https://api.openai.com/");
     c.Timeout = TimeSpan.FromSeconds(120);
 });
 

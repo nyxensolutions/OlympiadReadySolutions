@@ -59,6 +59,47 @@ export default function Home({
           {/* Generator content */}
           <div className="mx-auto max-w-6xl px-4 py-8">
             <PracticeShell initialConfig={initialConfig} />
+
+            {/* FAQ Section */}
+            <div className="mt-16 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm relative z-10">
+              <h3 className="mb-4 flex items-center gap-2 font-bold text-slate-900">
+                <Sparkles className="h-4 w-4 text-brand-500" />
+                Frequently Asked Questions
+              </h3>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {[
+                  {
+                    q: "How many free online attempts do I get?",
+                    a: "Free users get 5 total online practice attempts across any class or subject. These attempts use our premium AI generation engine.",
+                  },
+                  {
+                    q: "What happens if I subscribe to a subject?",
+                    a: "Subscribed subjects unlock unlimited online practice! They no longer count towards your 5 free global attempts, allowing you to master those subjects fully.",
+                  },
+                  {
+                    q: "Can I subscribe to all subjects?",
+                    a: "Yes! You can choose the 'All Subjects' Max Value Bundle which unlocks unlimited practice for every subject in your grade.",
+                  },
+                  {
+                    q: "Do I get PDF downloads with my subscription?",
+                    a: "Yes! Subscribed subjects include 10 free full-length (50 question) PDF paper downloads every week. The limit resets every Monday.",
+                  },
+                  {
+                    q: "Are the questions repetitive?",
+                    a: "No. Our AI generates a fresh, exam-ready paper in seconds every time you click 'Generate & Start Test', ensuring no repeats.",
+                  },
+                  {
+                    q: "What is Exam Simulation Mode?",
+                    a: "It's a full-screen, timed environment without navigation, mirroring a real exam hall. You'll view an OMR sheet upon completion.",
+                  },
+                ].map(({ q, a }) => (
+                  <div key={q} className="rounded-xl bg-slate-50 p-4">
+                    <p className="mb-1 text-sm font-semibold text-slate-800">{q}</p>
+                    <p className="text-xs leading-relaxed text-slate-600">{a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </SignedIn>

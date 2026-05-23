@@ -11,6 +11,7 @@ import { MasteryHeatmap } from "@/components/MasteryHeatmap";
 import { RecentPapersCard } from "@/components/RecentPapersCard";
 import { ScoreTrendChart } from "@/components/ScoreTrendChart";
 import { SubscriptionBadge } from "@/components/SubscriptionBadge";
+import { BillingHistoryCard } from "@/components/BillingHistoryCard";
 import { OnboardingModal } from "@/components/OnboardingModal";
 import type { DashboardSummary } from "@/lib/types";
 import { getShieldState, useShield as consumeShield } from "@/lib/streakShield";
@@ -491,7 +492,7 @@ function DashboardBody() {
         <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">
           <div className="flex items-center gap-3">
             <div className="inline-flex rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 p-2.5 text-white shadow-sm">
-              <BookOpen className="h-5 w-5" />
+               <BookOpen className="h-5 w-5" />
             </div>
             <div>
               <h2 className="text-lg font-semibold text-slate-900">Topic mastery</h2>
@@ -502,6 +503,11 @@ function DashboardBody() {
             <MasteryHeatmap entries={data.mastery} />
           </div>
         </section>
+
+        {/* Billing / Purchases History */}
+        <div id="purchases" className="scroll-mt-24">
+          <BillingHistoryCard />
+        </div>
 
         {/* Recent papers */}
         <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">

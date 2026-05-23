@@ -29,12 +29,14 @@ export function SubjectCard({
   name,
   selected,
   onClick,
-  disabled = false
+  disabled = false,
+  isSubscribed = false
 }: {
   name: string;
   selected: boolean;
   onClick: () => void;
   disabled?: boolean;
+  isSubscribed?: boolean;
 }) {
   const Icon = ICONS[name] ?? BookOpen;
   return (
@@ -42,16 +44,24 @@ export function SubjectCard({
       type="button"
       onClick={disabled ? undefined : onClick}
       title={disabled ? "Not available for this class" : undefined}
-      className={`flex flex-col items-center gap-2 rounded-xl border p-4 transition ${
+      className={`group relative flex flex-col items-center gap-2 rounded-xl border p-4 transition overflow-hidden ${
         disabled
           ? "cursor-not-allowed border-slate-100 bg-slate-50 text-slate-300"
           : selected
-            ? "border-brand-600 bg-brand-50 text-brand-700 shadow-sm"
-            : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
+            ? (isSubscribed ? "border-emerald-500 bg-emerald-100 text-emerald-900 shadow-sm" : "border-brand-600 bg-brand-50 text-brand-700 shadow-sm")
+            : (isSubscribed ? "border-emerald-200 bg-[#f8fcf8] text-emerald-800 hover:border-emerald-300 hover:bg-emerald-50" : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50")
       }`}
     >
-      <Icon className={`h-7 w-7 ${disabled ? "text-slate-300" : selected ? "text-brand-600" : "text-slate-500"}`} />
+      <Icon className={`h-7 w-7 ${disabled ? "text-slate-300" : isSubscribed ? "text-emerald-600" : selected ? "text-brand-600" : "text-slate-500"}`} />
       <span className="text-center text-sm font-semibold leading-tight">{name}</span>
+      
+      {!disabled && (
+        <div className="absolute -top-3 -right-3 opacity-0 transition-all duration-200 group-hover:top-1.5 group-hover:right-1.5 group-hover:opacity-100">
+           <span className={`text-[9px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded shadow-sm ${isSubscribed ? "bg-emerald-500 text-white" : "bg-slate-600 text-white"}`}>
+             {isSubscribed ? "Subscribed" : "Free"}
+           </span>
+        </div>
+      )}
     </button>
   );
 }

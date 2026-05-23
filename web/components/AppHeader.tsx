@@ -25,7 +25,6 @@ export type ActivePage =
 
 export function AppHeader({ active }: { active?: ActivePage }) {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [purchasesOpen, setPurchasesOpen] = useState(false);
   const [upgradeOpen, setUpgradeOpen] = useState(false);
 
   return (
@@ -85,15 +84,14 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <Crown className="h-3.5 w-3.5 shrink-0" />
               Go Pro
             </button>
-            <button
-              type="button"
-              onClick={() => setPurchasesOpen(true)}
+            <Link
+              href="/dashboard#purchases"
               title="My Purchases"
               className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-50 hover:text-brand-600 shrink-0 whitespace-nowrap"
             >
               <Receipt className="h-4 w-4 shrink-0" />
               <span className="hidden lg:inline text-xs">Purchases</span>
-            </button>
+            </Link>
             <UserButton afterSignOutUrl="/" />
           </SignedIn>
           <SignedOut>
@@ -154,7 +152,6 @@ export function AppHeader({ active }: { active?: ActivePage }) {
       )}
     </header>
 
-    {purchasesOpen && <PurchasesPanel onClose={() => setPurchasesOpen(false)} />}
     {upgradeOpen && (
       <UpgradeModal
         open={upgradeOpen}

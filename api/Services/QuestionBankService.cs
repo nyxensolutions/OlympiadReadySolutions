@@ -55,15 +55,48 @@ public class QuestionBankService
             _log.LogInformation(
                 "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty}; need {Count}",
                 available, subject, grade, difficulty ?? "any", count);
+            return null;
+        }
                 
-            if (available == 0) return null;
+        // Avoid ORDER BY NEWID() in SQL Server as it causes timeouts on large tables.
+        // Instead, fetch only the IDs and Topics, then do a round-robin selection
+        // to guarantee an even spread of questions across all available topics.
+        var allItems = await baseQuery
+            .Select(q => new { q.QuestionBankId, q.Topic })
+            .ToListAsync(ct);
+
+        var random = new Random();
+        var selectedIds = new List<Guid>();
+
+        if (allItems.Count > 0)
+        {
+            var grouped = allItems
+                .GroupBy(x => x.Topic)
+                .Select(g => new Queue<Guid>(g.OrderBy(_ => random.Next()).Select(x => x.QuestionBankId)))
+                .ToList();
+
+            while (selectedIds.Count < count && grouped.Any(q => q.Count > 0))
+            {
+                grouped = grouped.OrderBy(_ => random.Next()).ToList();
+                foreach (var queue in grouped)
+                {
+                    if (queue.Count > 0)
+                    {
+                        selectedIds.Add(queue.Dequeue());
+                        if (selectedIds.Count >= count) break;
+                    }
+                }
+            }
         }
 
-        var items = await baseQuery
-            .OrderBy(_ => Guid.NewGuid())
-            .Take(count)
+        var items = await _db.QuestionBank
+            .Where(q => selectedIds.Contains(q.QuestionBankId))
             .AsNoTracking()
             .ToListAsync(ct);
+
+        // Optional: shuffle again in memory so the returned order is random,
+        // since SQL Server's IN clause doesn't guarantee order.
+        items = items.OrderBy(_ => random.Next()).ToList();
 
         return items.Select(ToQuestion).ToList();
     }

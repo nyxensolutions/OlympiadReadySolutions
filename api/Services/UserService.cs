@@ -25,14 +25,34 @@ public class UserService
             ?? principal.FindFirst(ClaimTypes.NameIdentifier)?.Value
             ?? throw new UnauthorizedAccessException("Authenticated principal has no 'sub' claim.");
 
-        var existing = await _db.Users.FirstOrDefaultAsync(u => u.ExternalId == sub, ct);
-        if (existing is not null) return existing;
-
         var email = principal.FindFirst("email")?.Value
-            ?? principal.FindFirst(ClaimTypes.Email)?.Value
-            ?? $"{sub}@clerk.local";
+            ?? principal.FindFirst(ClaimTypes.Email)?.Value;
+            
         var name = principal.FindFirst("name")?.Value
             ?? principal.FindFirst(ClaimTypes.Name)?.Value;
+
+        var existing = await _db.Users.FirstOrDefaultAsync(u => u.ExternalId == sub, ct);
+        if (existing is not null) 
+        {
+            bool changed = false;
+            if (!string.IsNullOrEmpty(email) && existing.Email.EndsWith("@clerk.local"))
+            {
+                existing.Email = email;
+                changed = true;
+            }
+            if (!string.IsNullOrEmpty(name) && string.IsNullOrEmpty(existing.FullName))
+            {
+                existing.FullName = name;
+                changed = true;
+            }
+            if (changed)
+            {
+                await _db.SaveChangesAsync(ct);
+            }
+            return existing;
+        }
+
+        email ??= $"{sub}@clerk.local";
 
         var user = new User
         {

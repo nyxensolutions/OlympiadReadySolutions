@@ -62,9 +62,9 @@ public class SpellBeeController : ControllerBase
         if (grade < 1 || grade > 8) return BadRequest("Grade must be between 1 and 8.");
 
         var user = await _users.GetOrSyncAsync(User, ct);
-        var quota = await _subs.CheckPaperQuotaAsync(user.UserId, ct);
+        bool isUnlocked = await _subs.HasUnlockedSubjectAsync(user.UserId, grade, "Spell Bee", ct);
 
-        var maxWords = quota.Tier == "Pro" ? 20 : FreeWordLimit;
+        var maxWords = isUnlocked ? 20 : FreeWordLimit;
         count = Math.Min(count, maxWords);
 
         var query = _db.SpellBeeWords
@@ -108,8 +108,8 @@ public class SpellBeeController : ControllerBase
         return Ok(new
         {
             words,
-            tier = quota.Tier,
-            isLimited = quota.Tier == "Free",
+            tier = isUnlocked ? "Modular" : "Free",
+            isLimited = !isUnlocked,
             maxWords
         });
     }

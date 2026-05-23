@@ -15,7 +15,7 @@ namespace OlympiadReady.Api.Controllers;
 public class PapersController : ControllerBase
 {
     private readonly AppDbContext _db;
-    private readonly ClaudeService _claude;
+    private readonly AiGenerationService _ai;
     private readonly UserService _users;
     private readonly SubscriptionService _subs;
     private readonly QuestionBankService _bank;
@@ -23,14 +23,14 @@ public class PapersController : ControllerBase
 
     public PapersController(
         AppDbContext db,
-        ClaudeService claude,
+        AiGenerationService ai,
         UserService users,
         SubscriptionService subs,
         QuestionBankService bank,
         ILogger<PapersController> log)
     {
         _db = db;
-        _claude = claude;
+        _ai = ai;
         _users = users;
         _subs = subs;
         _bank = bank;
@@ -45,28 +45,21 @@ public class PapersController : ControllerBase
         {
             var user = await _users.GetOrSyncAsync(User, ct);
 
-            var quota = await _subs.CheckPaperQuotaAsync(user.UserId, ct);
-            if (!quota.Allowed)
+            bool isAllowed = await _subs.CanGenerateOnlineTestAsync(user.UserId, req.Grade, req.Subject, ct);
+            if (!isAllowed)
             {
                 return StatusCode(StatusCodes.Status402PaymentRequired, new
                 {
                     code = "QUOTA_EXCEEDED",
-                    message = $"You've used {quota.Used} of {quota.Limit} papers this month on the {quota.Tier} plan.",
-                    tier = quota.Tier,
-                    used = quota.Used,
-                    limit = quota.Limit,
+                    message = $"You have used your free attempts. Please unlock Class {req.Grade} {req.Subject} to continue practicing.",
                     upgrade = true
                 });
             }
 
-            // -------------------------------------------------------
-            // Routing strategy
-            // Free tier (or Test Accounts) → QuestionBank (pre-seeded, random sample)
-            //              Falls back to Claude only when bank is thin (except for test accounts which will just fail).
-            // Pro tier   → QuestionPaper cache first, then Claude live.
-            // -------------------------------------------------------
+            bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, ct);
+            
             string jsonContent;
-            List<Question> questions;
+            List<Question> questions = new();
 
             bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) || 
                                  user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
@@ -104,41 +97,64 @@ public class PapersController : ControllerBase
 
                 jsonContent = JsonSerializer.Serialize(questions);
             }
-            else if (quota.Tier == "Free" || isTestAccount)
+            else
             {
-                // Free tier / Test Account: serve from question bank (randomly sampled — fresh selection each time).
-                // Falls back to Claude only when the bank has too few questions for this combo.
-                var bankQuestions = await _bank.TryGetRandomAsync(
-                    req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct);
+                // Hybrid Logic
+                int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(req.Count, 20) : 0;
+                int dbCount = req.Count - aiCount;
 
-                if (bankQuestions is not null)
+                var finalQuestions = new List<Question>();
+
+                if (dbCount > 0)
                 {
-                    _log.LogInformation(
-                        "Free tier — serving {Count} questions from bank for {Subject} G{Grade} {Difficulty}",
-                        req.Count, req.Subject, req.Grade, req.Difficulty);
-                    questions = bankQuestions;
-                    jsonContent = JsonSerializer.Serialize(questions);
+                    var bankQuestions = await _bank.TryGetRandomAsync(
+                        req.Subject, req.Grade, req.Difficulty, dbCount, req.Topic, ct);
+                    if (bankQuestions != null) finalQuestions.AddRange(bankQuestions);
                 }
-                else
+
+                if (aiCount > 0)
                 {
-                    _log.LogWarning(
-                        "Free tier — bank insufficient for {Subject} G{Grade} {Difficulty}; returning error",
-                        req.Subject, req.Grade, req.Difficulty);
+                    _log.LogInformation("Hybrid generation: calling AI for {Count} questions (olympiad={OlympiadId})", aiCount, req.OlympiadId ?? "open");
+                    var aiQuestions = await _ai.GenerateQuestionsAsync(
+                        req.Subject, req.Grade, req.Difficulty, aiCount, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
+                    
+                    finalQuestions.AddRange(aiQuestions);
+                    
+                    // Flywheel: Save AI questions back to the Question Bank
+                    foreach(var q in aiQuestions)
+                    {
+                        int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
+                        string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
+
+                        var qbItem = new QuestionBankItem
+                        {
+                            Subject = req.Subject,
+                            Grade = req.Grade,
+                            Difficulty = req.Difficulty,
+                            Topic = q.Topic ?? "General",
+                            QuestionText = q.Q ?? "",
+                            OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
+                            CorrectAnswer = letterAnswer,
+                            Explanation = q.Explanation ?? "",
+                            CreatedAt = DateTime.UtcNow
+                        };
+                        _db.QuestionBank.Add(qbItem);
+                    }
+                }
+
+                if (finalQuestions.Count == 0)
+                {
                     return StatusCode(StatusCodes.Status503ServiceUnavailable, new
                     {
                         code = "BANK_INSUFFICIENT",
-                        message = $"Not enough questions in the bank for {req.Subject} Class {req.Grade} ({req.Difficulty}) yet. Try a different subject, grade, or difficulty — or upgrade to Pro for AI-generated papers.",
-                        upgrade = true
+                        message = $"Not enough questions for {req.Subject} Class {req.Grade}. Please try another topic.",
                     });
                 }
-            }
-            else
-            {
-                // Pro tier: always call Claude for a genuinely fresh, unique paper every time.
-                _log.LogInformation("Pro tier — generating fresh questions via Claude (olympiad={OlympiadId})", req.OlympiadId ?? "open");
-                questions = await _claude.GenerateQuestionsAsync(
-                    req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
+
+                questions = finalQuestions.OrderBy(q => Guid.NewGuid()).Take(req.Count).ToList();
                 jsonContent = JsonSerializer.Serialize(questions);
+
+                await _subs.RecordOnlineTestGenerationAsync(user.UserId, req.Grade, req.Subject, useHybridAi, ct);
             }
 
             var paper = new QuestionPaper
