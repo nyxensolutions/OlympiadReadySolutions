@@ -138,7 +138,7 @@ export default function MockExamsPage() {
         <AppHeader />
         <div className="mx-auto w-full max-w-5xl px-4 py-8">
           {/* Using existing ResultsScreen, but it might not show Earned Marks. It's fine for now. */}
-          <ResultsScreen result={result} onClose={() => setResult(null)} />
+          <ResultsScreen result={result} onRestart={() => setResult(null)} />
         </div>
       </main>
     );
