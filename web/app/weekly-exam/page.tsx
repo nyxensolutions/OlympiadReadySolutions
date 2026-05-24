@@ -73,7 +73,7 @@ function UnauthPrompt() {
 
 function WeeklyExamBody() {
   const { getToken, isLoaded } = useAuth();
-  const [tier, setTier] = useState<"Free" | "Pro" | null>(null);
+  const [tier, setTier] = useState<"Free" | "Pro" | "Modular" | null>(null);
   const [countdown, setCountdown] = useState(getCountdownToSunday());
 
   useEffect(() => {
