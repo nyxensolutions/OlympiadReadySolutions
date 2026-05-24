@@ -28,7 +28,7 @@ jobs:
     - name: Install and Build (Test Context)
       working-directory: ./web
       run: |
-        echo "NEXT_PUBLIC_API_URL=https://olympiad-api-test-arghhvfxdpc5etem.centralindia-01.azurewebsites.net" > .env.production
+        echo "NEXT_PUBLIC_API_URL=${{ secrets.NEXT_PUBLIC_API_URL || 'https://olympiad-api-test-arghhvfxdpc5etem.centralindia-01.azurewebsites.net' }}" > .env.production
         echo "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || 'pk_test_dG91Y2hlZC1zcG9uZ2UtODQuY2xlcmsuYWNjb3VudHMuZGV2JA' }}" >> .env.production
         echo "CLERK_SECRET_KEY=${{ secrets.CLERK_SECRET_KEY || 'sk_test_AXKTfH1tHmxHU1Lg2LmWGcpu9obgI2X7IREMUzLNIl' }}" >> .env.production
         echo "NEXT_PUBLIC_UMAMI_WEBSITE_ID=214afa07-b0be-4a8c-9ddd-d0188d9370f3" >> .env.production
