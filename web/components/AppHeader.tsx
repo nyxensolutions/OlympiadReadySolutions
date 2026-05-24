@@ -21,6 +21,7 @@ export type ActivePage =
   | "weekly-exam"
   | "practice-papers"
   | "olympiad-dates"
+  | "mock-exams"
   | "spell-bee";
 
 export function AppHeader({ active }: { active?: ActivePage }) {

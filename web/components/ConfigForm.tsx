@@ -12,7 +12,8 @@ import {
   type OlympiadLevel,
   type PreviewRequest,
   type QuotaError,
-  type Subject
+  type Subject,
+  type SubscriptionStatus
 } from "@/lib/types";
 import { Analytics } from "@/lib/analytics";
 import { SubjectCard } from "./SubjectCard";
@@ -143,7 +144,7 @@ export function ConfigForm({
   onGenerated: (config: PreviewRequest, paper: GeneratedPaper, simulationMode: boolean) => void;
   onQuotaExceeded: (info: QuotaError, grade: number, subject: string) => void;
   onRequiresUpgrade?: () => void;
-  status?: { tier: "Free" | "Pro" } | null;
+  status?: SubscriptionStatus | null;
 }) {
   const { getToken } = useAuth();
   const [subject, setSubject] = useState<string>(initialConfig?.subject ?? "Mathematics");

@@ -16,6 +16,7 @@ type BillingHistory = {
     startDate: string;
     endDate: string;
     isActive: boolean;
+    amountInPaise?: number;
   }>;
   pdfPurchases: Array<{
     id: string;
@@ -136,7 +137,7 @@ export function BillingHistoryCard() {
 
                   <div className="mt-4 flex items-center justify-between border-t border-slate-100 pt-3">
                     <span className="text-sm font-bold text-slate-700">
-                      {sub.amountInPaise > 0 ? `₹${sub.amountInPaise / 100}` : "₹0"}
+                      {(sub.amountInPaise ?? 0) > 0 ? `₹${(sub.amountInPaise ?? 0) / 100}` : "₹0"}
                     </span>
                     <a
                       href={`/invoice/${sub.id}?type=subscription`}

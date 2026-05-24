@@ -22,7 +22,7 @@ export const TOPIC_MAP: Record<Subject, TopicEntry[]> = {
     { topic: "Economics Basics",       description: "Markets, supply-demand, resources, money, and trade concepts",           emoji: "💰", grades: { min: 8, max: 10 } },
     { topic: "Current Affairs",        description: "Recent events, world affairs, national news, and global issues",          emoji: "📰", grades: { min: 5, max: 10 } },
   ],
-  Math: [
+  Mathematics: [
     { topic: "Shapes and Patterns",     description: "Basic 2D shapes, patterns, counting",             emoji: "🔷", grades: { min: 1, max: 3 } },
     { topic: "Number Systems",          description: "Natural, whole, rational, prime numbers",           emoji: "🔢", grades: { min: 1, max: 8 } },
     { topic: "Addition and Subtraction",description: "Mental math, carrying, word problems",              emoji: "➕", grades: { min: 1, max: 4 } },
@@ -122,7 +122,7 @@ export const TOPIC_MAP: Record<Subject, TopicEntry[]> = {
     { topic: "Data Interpretation", description: "Tables, bar/pie charts, case-based questions",        emoji: "📊", grades: { min: 7, max: 12 } },
     { topic: "Puzzles",             description: "Grid puzzles, seating arrangement, scheduling",       emoji: "🧩", grades: { min: 8, max: 12 } },
   ],
-  Computers: [
+  "Computer Science": [
     { topic: "Basic Computer Skills",description: "Mouse, keyboard, desktop, files and folders",        emoji: "🖥️", grades: { min: 1, max: 4 } },
     { topic: "Hardware",             description: "CPU, RAM, storage, input/output devices",            emoji: "💻", grades: { min: 3, max: 10 } },
     { topic: "MS Word",              description: "Document creation, formatting, shortcuts",            emoji: "📄", grades: { min: 4, max: 10 } },
@@ -154,5 +154,14 @@ export const TOPIC_MAP: Record<Subject, TopicEntry[]> = {
     { topic: "Prefixes & Suffixes",            description: "Root words and affixes",                   emoji: "🔗", grades: { min: 3, max: 12 } },
     { topic: "Homophones & Homonyms",          description: "Words that sound or look the same",        emoji: "🔄", grades: { min: 2, max: 12 } },
     { topic: "Idioms & Phrases",               description: "Common English idioms and expressions",    emoji: "💬", grades: { min: 4, max: 12 } },
+  ],
+  Commerce: [
+    { topic: "Accountancy Basics",     description: "Journal entries, ledger, trial balance",           emoji: "📒", grades: { min: 11, max: 12 } },
+    { topic: "Business Studies",       description: "Nature of business, trade, forms of organisation", emoji: "🏢", grades: { min: 11, max: 12 } },
+    { topic: "Economics",              description: "Micro and macroeconomics, demand, supply, GDP",    emoji: "📈", grades: { min: 11, max: 12 } },
+    { topic: "Financial Statements",   description: "Balance sheet, P&L, cash flow statements",        emoji: "💹", grades: { min: 11, max: 12 } },
+    { topic: "Marketing",              description: "Marketing mix, consumer behaviour, branding",      emoji: "📣", grades: { min: 11, max: 12 } },
+    { topic: "Banking and Finance",    description: "Banking system, RBI, stock markets, mutual funds", emoji: "🏦", grades: { min: 11, max: 12 } },
+    { topic: "Taxation",               description: "GST, income tax basics, TDS concepts",             emoji: "🧾", grades: { min: 12, max: 12 } },
   ],
 };

@@ -58,7 +58,7 @@ export function UpgradeModal({
 
   // If user changes grade and some selected subjects are not available, remove them
   useEffect(() => {
-    setSelectedSubjects((prev) => prev.filter((s) => availableSubjects.includes(s) || s === "All"));
+    setSelectedSubjects((prev) => prev.filter((s) => availableSubjects.includes(s as any) || s === "All"));
   }, [availableSubjects]);
 
   const isAllSelected = selectedSubjects.includes("All") || selectedSubjects.length === availableSubjects.length;
