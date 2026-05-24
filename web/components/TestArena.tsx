@@ -29,7 +29,7 @@ export function TestArena({
 }) {
   const questions = paper.questions;
   const total = questions.length;
-  const totalSeconds = total * SECONDS_PER_QUESTION;
+  const totalSeconds = paper.isMockExam ? 3600 : total * SECONDS_PER_QUESTION;
 
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<(string | null)[]>(() => Array(total).fill(null));
@@ -39,13 +39,15 @@ export function TestArena({
 
   const submitRef = useRef<() => void>();
   submitRef.current = () => {
+    const timeTaken = Math.floor((Date.now() - startedAt.current) / 1000);
     onSubmit({
       paperId: paper.paperId,
       questions,
       userAnswers: answers,
       flagged,
-      timeTakenSeconds: Math.floor((Date.now() - startedAt.current) / 1000),
-      config
+      timeTakenSeconds: timeTaken,
+      config,
+      isMockExam: paper.isMockExam
     });
   };
 
@@ -57,6 +59,40 @@ export function TestArena({
       });
     }, 1000);
     return () => window.clearInterval(id);
+  }, []);
+
+  useEffect(() => {
+    // 1. Intercept browser close / refresh / address bar typing
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = "An exam is currently in progress. If you leave, you will lose your progress. Are you sure?";
+      return e.returnValue;
+    };
+    window.addEventListener("beforeunload", handleBeforeUnload);
+
+    // 2. Intercept browser back/forward buttons
+    // We push a dummy state on mount so there is a state in history we can pop.
+    window.history.pushState(null, "", window.location.href);
+
+    const handlePopState = (e: PopStateEvent) => {
+      const confirmed = window.confirm(
+        "An exam is currently in progress. Leaving this page will cancel your progress and result in loss of this exam. Are you sure you want to leave?"
+      );
+      if (confirmed) {
+        // If confirmed, allow the navigation
+        window.history.back();
+      } else {
+        // Otherwise, stay on the current page by restoring the dummy state
+        window.history.pushState(null, "", window.location.href);
+      }
+    };
+
+    window.addEventListener("popstate", handlePopState);
+
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+      window.removeEventListener("popstate", handlePopState);
+    };
   }, []);
 
   const answeredCount = useMemo(
@@ -88,9 +124,9 @@ export function TestArena({
         {/* Exam header bar */}
         <div className={`flex shrink-0 items-center justify-between border-b px-6 py-3 ${isUrgent ? "border-red-300 bg-red-50" : "border-slate-200 bg-slate-50"}`}>
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">Exam Simulation</p>
+            <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">{paper.isMockExam ? "Mock Exam" : "Exam Simulation"}</p>
             <p className="text-sm font-bold text-slate-800">
-              Class {config.grade} {config.subject} · {config.difficulty}
+              Class {config.grade} {config.subject} {paper.isMockExam ? "" : `· ${config.difficulty}`}
             </p>
           </div>
           <div className={`flex items-center gap-2 rounded-xl px-4 py-2 font-mono text-xl font-black ${isUrgent ? "animate-pulse bg-red-100 text-red-700" : "bg-slate-100 text-slate-800"}`}>
@@ -121,6 +157,13 @@ export function TestArena({
 
         {/* Question area */}
         <div className="mx-auto w-full max-w-3xl flex-1 px-6 py-8">
+          {/* Section Banner */}
+          {q.sectionName && (
+            <div className="mb-4 flex items-center gap-2 rounded-lg bg-indigo-50 px-3 py-2 text-sm font-bold text-indigo-800 border border-indigo-100">
+              {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
+            </div>
+          )}
+
           {/* Flag banner */}
           {flagged[current] && (
             <div className="mb-4 flex items-center gap-2 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-700">
@@ -269,6 +312,12 @@ export function TestArena({
           <span>{answeredCount} answered</span>
           <span>{total - answeredCount} remaining</span>
         </div>
+
+        {q.sectionName && (
+          <div className="mt-4 flex items-center gap-2 rounded bg-indigo-50 px-2 py-1.5 text-xs font-bold text-indigo-800 border border-indigo-100 w-fit">
+            {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
+          </div>
+        )}
 
         <MarkdownMath content={q.q} className="mt-6 text-base" />
         {q.imageUrl && (

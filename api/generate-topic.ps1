@@ -7,7 +7,7 @@ param(
 )
 
 $AdminKey    = "cnCB0OJ52LKmXzdNSFRH4TviWqIGUbMt"
-$ClaudeKey   = "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"
+$ClaudeKey   = "REPLACE_WITH_YOUR_ANTHROPIC_API_KEY"
 $AdminApi    = "http://localhost:5080/api/admin/import-questions"
 $ClaudeApi   = "https://api.anthropic.com/v1/messages"
 $ClaudeModel = "claude-3-haiku-20240307"

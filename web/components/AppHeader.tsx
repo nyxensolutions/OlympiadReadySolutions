@@ -67,7 +67,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
             <NavLink href="/topics" label="Syllabus Map" icon={<BookOpen className="h-3.5 w-3.5" />} active={active === "topics"} />
             <NavLink href="/dashboard" label="Dashboard" icon={<LayoutDashboard className="h-3.5 w-3.5" />} active={active === "dashboard"} />
             <NavLink href="/practice-papers" label="Question Papers" icon={<FileText className="h-3.5 w-3.5" />} active={active === "practice-papers"} accent />
-            <NavLink href="/weekly-exam" label="Weekly Exam" icon={<Crown className="h-3.5 w-3.5" />} active={active === "weekly-exam"} amber />
+            <NavLink href="/mock-exams" label="Mock Exams" icon={<Crown className="h-3.5 w-3.5" />} active={active === "mock-exams"} amber />
             <NavLink href="/spell-bee" label="Spell Bee" icon={<MicVocal className="h-3.5 w-3.5" />} active={active === "spell-bee"} violet />
           </nav>
         </SignedIn>
@@ -137,7 +137,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <MobileNavLink href="/topics" label="Syllabus Map" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/dashboard" label="Dashboard" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/practice-papers" label="Practice Papers" onClick={() => setMobileOpen(false)} />
-              <MobileNavLink href="/weekly-exam" label="Weekly Exam" onClick={() => setMobileOpen(false)} />
+              <MobileNavLink href="/mock-exams" label="Mock Exams" onClick={() => setMobileOpen(false)} />
               <MobileNavLink href="/spell-bee" label="Spell Bee 🐝" onClick={() => setMobileOpen(false)} />
               <button
                 type="button"

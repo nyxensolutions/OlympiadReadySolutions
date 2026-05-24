@@ -117,6 +117,13 @@ function computeBadges(data: DashboardSummary): Badge[] {
       description: "Finish a 10-question test in under 5 minutes",
       earned: results.some((r) => r.totalQuestions >= 10 && r.timeTakenSeconds < 300),
     },
+    {
+      id: "mock_exam",
+      emoji: "🏆",
+      label: "Olympiad Scholar",
+      description: "Complete your first Full Mock Exam",
+      earned: results.some((r) => r.paperTitle?.startsWith("Mock Exam")),
+    },
   ];
 }
 
@@ -246,6 +253,8 @@ function DashboardBody() {
             0
           ) / data.results.length
         );
+
+  const mockExams = data.results.filter(r => r.paperTitle?.startsWith("Mock Exam"));
 
   return (
     <>
@@ -469,6 +478,50 @@ function DashboardBody() {
             ))}
           </div>
         </section>
+
+        {/* Mock Exams Summary */}
+        {mockExams.length > 0 && (
+          <section className="rounded-2xl border border-brand-200 bg-brand-50 p-6 shadow-lg transition-all hover:shadow-xl">
+            <div className="flex items-center gap-3">
+              <div className="inline-flex rounded-xl bg-gradient-to-br from-brand-500 to-indigo-600 p-2.5 text-white shadow-sm">
+                <Trophy className="h-5 w-5" />
+              </div>
+              <div>
+                <h2 className="text-lg font-semibold text-slate-900">Mock Exams Taken</h2>
+                <p className="text-xs text-brand-700">Your full-length Olympiad simulations.</p>
+              </div>
+            </div>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {mockExams.map(m => {
+                // If totalMarks is present, use it, else fallback to score
+                const mScore = (m as any).totalMarks > 0 ? (m as any).earnedMarks : m.score;
+                const mTotal = (m as any).totalMarks > 0 ? (m as any).totalMarks : m.totalQuestions;
+                const mPct = Math.round((mScore / mTotal) * 100);
+                
+                return (
+                  <div key={m.resultId} className="rounded-xl border border-brand-200 bg-white p-4 shadow-sm">
+                    <p className="text-sm font-bold text-slate-800">{m.paperTitle}</p>
+                    <p className="text-xs text-slate-500">{new Date(m.completedAt).toLocaleDateString()}</p>
+                    <div className="mt-3 flex items-end justify-between">
+                      <div>
+                        <p className="text-2xl font-black text-brand-600">{mPct}%</p>
+                        <p className="text-[10px] text-slate-500">{mScore} / {mTotal} Marks</p>
+                      </div>
+                      <span className="rounded-full bg-brand-100 px-2 py-0.5 text-[10px] font-bold text-brand-700">
+                        {Math.floor(m.timeTakenSeconds / 60)}m {m.timeTakenSeconds % 60}s
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="mt-4 text-center">
+              <Link href="/mock-exams" className="text-sm font-bold text-brand-600 hover:text-brand-700">
+                Take another Mock Exam →
+              </Link>
+            </div>
+          </section>
+        )}
 
         {/* Score trend */}
         <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">

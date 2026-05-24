@@ -28,7 +28,7 @@ const SUBJECT_ROWS: SubjectRow[] = [
   { icon: Atom,         name: "Science",             grades: "Class 1–12", exams: "NSO · IOS · CSO",    accent: "bg-emerald-50 text-emerald-600"},
   { icon: BookOpen,     name: "English",             grades: "Class 1–12", exams: "IEO · IOEL · CEO",   accent: "bg-violet-50 text-violet-600" },
   { icon: Brain,        name: "Logical Reasoning",   grades: "Class 1–12", exams: "All Olympiads",      accent: "bg-rose-50 text-rose-600"     },
-  { icon: Cpu,          name: "Computers",           grades: "Class 1–10", exams: "ICSO · CCO",         accent: "bg-slate-100 text-slate-600"  },
+  { icon: Cpu,          name: "Computer Science",    grades: "Class 1–10", exams: "ICSO · CCO",         accent: "bg-slate-100 text-slate-600"  },
   { icon: BrainCircuit, name: "AI",                  grades: "Class 1–10", exams: "iiO",                accent: "bg-indigo-50 text-indigo-600" },
   { icon: Globe,        name: "General Knowledge",   grades: "Class 1–10", exams: "IGKO · GKIO",        accent: "bg-amber-50 text-amber-600"   },
   { icon: Map,          name: "Social Studies",      grades: "Class 3–10", exams: "ISSO · GKIO",        accent: "bg-teal-50 text-teal-600"     },

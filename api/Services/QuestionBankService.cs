@@ -31,8 +31,11 @@ public class QuestionBankService
         string subject, int grade, string? difficulty, int count,
         string? topic = null, CancellationToken ct = default)
     {
+        var (canonicalSubject, _) = SubjectNormalizer.Normalize(subject);
+        canonicalSubject ??= subject;
+
         var baseQuery = _db.QuestionBank
-            .Where(q => q.Subject == subject && q.Grade == grade);
+            .Where(q => q.Subject == canonicalSubject && q.Grade == grade);
 
         if (difficulty is not null)
             baseQuery = baseQuery.Where(q => q.Difficulty == difficulty);
@@ -59,33 +62,40 @@ public class QuestionBankService
         }
                 
         // Avoid ORDER BY NEWID() in SQL Server as it causes timeouts on large tables.
-        // Instead, fetch only the IDs and Topics, then do a round-robin selection
-        // to guarantee an even spread of questions across all available topics.
-        var allItems = await baseQuery
-            .Select(q => new { q.QuestionBankId, q.Topic })
+        // Also avoid loading all IDs into memory for large tables.
+        // We'll fetch topics and counts, then pick random offsets.
+        var topicsWithCounts = await baseQuery
+            .GroupBy(q => q.Topic)
+            .Select(g => new { Topic = g.Key, Count = g.Count() })
             .ToListAsync(ct);
 
         var random = new Random();
-        var selectedIds = new List<Guid>();
+        var selectedIds = new HashSet<Guid>();
+        
+        // Loop through topics round-robin until we have enough questions
+        int attempts = 0;
+        int maxAttempts = count * 5; // prevent infinite loops
 
-        if (allItems.Count > 0)
+        while (selectedIds.Count < count && topicsWithCounts.Any(t => t.Count > 0) && attempts < maxAttempts)
         {
-            var grouped = allItems
-                .GroupBy(x => x.Topic)
-                .Select(g => new Queue<Guid>(g.OrderBy(_ => random.Next()).Select(x => x.QuestionBankId)))
-                .ToList();
-
-            while (selectedIds.Count < count && grouped.Any(q => q.Count > 0))
+            topicsWithCounts = topicsWithCounts.OrderBy(_ => random.Next()).ToList();
+            foreach (var t in topicsWithCounts.Where(x => x.Count > 0).ToList())
             {
-                grouped = grouped.OrderBy(_ => random.Next()).ToList();
-                foreach (var queue in grouped)
+                if (selectedIds.Count >= count) break;
+
+                var skip = random.Next(t.Count);
+                var qId = await baseQuery
+                    .Where(q => q.Topic == t.Topic)
+                    .OrderBy(q => q.QuestionBankId)
+                    .Skip(skip)
+                    .Select(q => q.QuestionBankId)
+                    .FirstOrDefaultAsync(ct);
+
+                if (qId != Guid.Empty && !selectedIds.Contains(qId))
                 {
-                    if (queue.Count > 0)
-                    {
-                        selectedIds.Add(queue.Dequeue());
-                        if (selectedIds.Count >= count) break;
-                    }
+                    selectedIds.Add(qId);
                 }
+                attempts++;
             }
         }
 
@@ -151,9 +161,12 @@ public class QuestionBankService
         IEnumerable<ImportRow> rows,
         CancellationToken ct = default)
     {
+        var (canonicalSubject, _) = SubjectNormalizer.Normalize(subject);
+        canonicalSubject ??= subject;
+
         // Load existing question texts to deduplicate
         var existingList = await _db.QuestionBank
-            .Where(q => q.Subject == subject && q.Grade == grade)
+            .Where(q => q.Subject == canonicalSubject && q.Grade == grade)
             .Select(q => q.QuestionText)
             .ToListAsync(ct);
         var existing = new HashSet<string>(existingList, StringComparer.Ordinal);
@@ -176,7 +189,7 @@ public class QuestionBankService
 
             toInsert.Add(new QuestionBankItem
             {
-                Subject = subject,
+                Subject = canonicalSubject,
                 Grade = grade,
                 Difficulty = Normalise(row.Difficulty),
                 Topic = row.Topic.Trim(),

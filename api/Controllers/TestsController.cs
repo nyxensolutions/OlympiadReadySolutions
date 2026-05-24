@@ -37,9 +37,25 @@ public class TestsController : ControllerBase
         if (req.Answers.Count != questions.Count)
             return BadRequest($"Answer count {req.Answers.Count} does not match question count {questions.Count}");
 
-        var score = questions
-            .Zip(req.Answers, (q, a) => q.Answer == a)
-            .Count(correct => correct);
+        bool isMockExam = paper.Title != null && paper.Title.StartsWith("Mock Exam");
+
+        int score = 0;
+        int earnedMarks = 0;
+        int totalMarks = 0;
+
+        for (int i = 0; i < questions.Count; i++)
+        {
+            var q = questions[i];
+            var a = req.Answers[i];
+            int qMarks = q.Marks ?? 1;
+            totalMarks += qMarks;
+
+            if (q.Answer == a)
+            {
+                score++;
+                earnedMarks += qMarks;
+            }
+        }
 
         var result = new MockTestResult
         {
@@ -48,7 +64,9 @@ public class TestsController : ControllerBase
             Score = score,
             TotalQuestions = questions.Count,
             TimeTakenSeconds = req.TimeTakenSeconds,
-            CompletedAt = DateTime.UtcNow
+            CompletedAt = DateTime.UtcNow,
+            TotalMarks = totalMarks,
+            EarnedMarks = earnedMarks
         };
         _db.Results.Add(result);
 
@@ -100,7 +118,9 @@ public class TestsController : ControllerBase
             resultId = result.ResultId,
             score,
             total = questions.Count,
-            timeTakenSeconds = result.TimeTakenSeconds
+            timeTakenSeconds = result.TimeTakenSeconds,
+            totalMarks,
+            earnedMarks
         });
     }
 }

@@ -2,13 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { BookOpen, CheckCircle2, ChevronRight, Loader2, Sparkles } from "lucide-react";
+import { BookOpen, CheckCircle2, ChevronRight, Loader2, Sparkles, Star, Award } from "lucide-react";
 import { SignedIn, SignedOut, useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
 import { TestArena } from "@/components/TestArena";
 import { ResultsScreen } from "@/components/ResultsScreen";
 import { SUBJECTS, SUBJECT_GRADE_MAP, DIFFICULTIES, type Subject, type GeneratedPaper, type PreviewRequest, type AttemptResult, type DashboardSummary } from "@/lib/types";
 import { TOPIC_MAP, type TopicEntry } from "@/lib/topicMap";
+import { Analytics } from "@/lib/analytics";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -134,6 +135,7 @@ function TopicsBody() {
       });
 
       if (res.status === 402) {
+        Analytics.quotaExceeded(activeSubject, safeGrade);
         setQuotaExceeded(true);
         setFlow({ kind: "grid" });
         return;
@@ -152,6 +154,15 @@ function TopicsBody() {
       }
       const paper: GeneratedPaper = await res.json();
       setFlow({ kind: "arena", config: body, paper, topic });
+
+      Analytics.paperGenerated({
+        subject: activeSubject,
+        grade: safeGrade,
+        difficulty,
+        count: 10,
+        simulationMode: false,
+        mistakesOnly: false
+      });
     } catch (e) {
       setGenerateError(e instanceof Error ? e.message : "Something went wrong.");
       setFlow({ kind: "grid" });
@@ -161,6 +172,13 @@ function TopicsBody() {
   function handleSubmit(result: AttemptResult) {
     if (flow.kind !== "arena") return;
     setFlow({ kind: "results", result, topic: flow.topic });
+    
+    // AttemptResult has totalMarks and earnedMarks populated in TestArena submit? 
+    // Wait, TestArena doesn't populate earnedMarks because it's calculated on the server.
+    // Topics page uses TestArena -> then shows ResultsScreen. 
+    // Wait, does ResultsScreen calculate the score if earnedMarks isn't there?
+    // Let's just pass what we can or rely on ResultsScreen to log it.
+    // Actually, ResultsScreen logs `Analytics.testCompleted` natively! 
   }
 
   function handleRestart() {
@@ -197,6 +215,12 @@ function TopicsBody() {
           <p className="mt-2 max-w-xl text-sm text-brand-200">
             Pick any chapter from the NCERT syllabus. We'll generate a focused 10-question paper just on that topic.
           </p>
+          <div className="mt-6 flex flex-wrap gap-4">
+            <Link href="/mock-exams" className="flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-sm font-bold text-brand-600 shadow-md transition hover:bg-slate-50 hover:shadow-lg">
+              <Award className="h-4 w-4" />
+              Take a Full Mock Exam
+            </Link>
+          </div>
         </div>
       </div>
 

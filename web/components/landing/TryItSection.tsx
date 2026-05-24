@@ -21,14 +21,14 @@ type TryState =
 
 // Full subject list with icons for the Try It section
 const ALL_SUBJECTS = [
-  { id: "Math",             icon: "🧮" },
+  { id: "Mathematics",      icon: "🧮" },
   { id: "Science",          icon: "🔬" },
   { id: "English",          icon: "📖" },
   { id: "Hindi",            icon: "🇮🇳" },
   { id: "Social Studies",   icon: "🗺️" },
   { id: "General Knowledge",icon: "🌍" },
   { id: "Logical Reasoning",icon: "🧠" },
-  { id: "Computers",        icon: "💻" },
+  { id: "Computer Science", icon: "💻" },
   { id: "AI",               icon: "🤖" },
   { id: "Spell Bee",        icon: "🐝" },
 ] as const;
@@ -42,7 +42,7 @@ function isAvailable(subjectId: SubjectId, grade: number): boolean {
 }
 
 export function TryItSection() {
-  const [subject, setSubject] = useState<SubjectId>("Math");
+  const [subject, setSubject] = useState<SubjectId>("Mathematics");
   const [grade, setGrade] = useState(1);
   const [state, setState] = useState<TryState>({ kind: "idle" });
   const [error, setError] = useState<string | null>(null);

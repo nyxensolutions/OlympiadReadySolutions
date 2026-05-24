@@ -146,7 +146,7 @@ export function ConfigForm({
   status?: { tier: "Free" | "Pro" } | null;
 }) {
   const { getToken } = useAuth();
-  const [subject, setSubject] = useState<string>(initialConfig?.subject ?? "Math");
+  const [subject, setSubject] = useState<string>(initialConfig?.subject ?? "Mathematics");
   const [grade, setGrade] = useState<number>(initialConfig?.grade ?? 1);
 
   useEffect(() => {

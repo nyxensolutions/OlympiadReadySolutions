@@ -112,7 +112,7 @@ public class RazorpayService
         if (!IsConfigured)
             throw new InvalidOperationException("Razorpay credentials are not configured.");
 
-        const int amountInPaise = 2900; // ₹29
+        const int amountInPaise = 1900; // ₹19
         var receipt = $"pdf_{userId.ToString("N")[..12]}_{grade}_{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
 
         var payload = new

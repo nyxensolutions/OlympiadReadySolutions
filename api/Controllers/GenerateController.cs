@@ -24,13 +24,9 @@ public class GenerateController : ControllerBase
     {
         try
         {
-            // Map frontend subject names to DB subject names
-            var subject = req.Subject switch
-            {
-                "Math" => "Mathematics",
-                "Computers" => "Computer Science",
-                _ => req.Subject
-            };
+            // Normalize subject names using SubjectNormalizer
+            var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(req.Subject);
+            var subject = recognized ? canonicalSubject! : req.Subject;
 
             var questions = await _bank.TryGetRandomAsync(
                 subject, req.Grade, req.Difficulty, req.Count, null, ct);

@@ -25,6 +25,7 @@ public class PracticePapersController : ControllerBase
     private readonly PdfService _pdf;
     private readonly UserService _users;
     private readonly RazorpayService _razorpay;
+    private readonly SubscriptionService _subs;
     private readonly ILogger<PracticePapersController> _log;
 
     public PracticePapersController(
@@ -33,6 +34,7 @@ public class PracticePapersController : ControllerBase
         PdfService pdf,
         UserService users,
         RazorpayService razorpay,
+        SubscriptionService subs,
         ILogger<PracticePapersController> log)
     {
         _db = db;
@@ -40,6 +42,7 @@ public class PracticePapersController : ControllerBase
         _pdf = pdf;
         _users = users;
         _razorpay = razorpay;
+        _subs = subs;
         _log = log;
     }
 
@@ -47,9 +50,10 @@ public class PracticePapersController : ControllerBase
     {
         return subject switch
         {
-            "Math" or "Science" or "English" or "Logical Reasoning" or "Spell Bee" => grade >= 1 && grade <= 12,
-            "Computers" or "AI" or "General Knowledge" => grade >= 1 && grade <= 10,
+            "Math" or "Mathematics" or "Science" or "English" or "Logical Reasoning" or "Spell Bee" => grade >= 1 && grade <= 12,
+            "Computers" or "Computer Science" or "AI" or "General Knowledge" => grade >= 1 && grade <= 10,
             "Social Studies" or "Hindi" => grade >= 3 && grade <= 10,
+            "Commerce" => grade == 11 || grade == 12,
             _ => false
         };
     }
@@ -63,8 +67,8 @@ public class PracticePapersController : ControllerBase
         if (grade < 1 || grade > 12) return BadRequest("Grade must be between 1 and 12.");
 
         var allPossibleSubjects = new[] {
-            "Math", "Science", "English", "Hindi", "Social Studies", 
-            "General Knowledge", "Logical Reasoning", "Computers", "AI", "Spell Bee"
+            "Mathematics", "Science", "English", "Hindi", "Social Studies", 
+            "General Knowledge", "Logical Reasoning", "Computer Science", "AI", "Spell Bee", "Commerce"
         };
 
         var subjects = allPossibleSubjects
@@ -139,6 +143,9 @@ public class PracticePapersController : ControllerBase
         if (grade < 1 || grade > 12) return BadRequest("Invalid grade.");
         if (string.IsNullOrWhiteSpace(subject)) return BadRequest("Subject is required.");
 
+        var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(subject);
+        if (recognized) subject = canonicalSubject!;
+
         var user = await _users.GetOrSyncAsync(User, ct);
         
         // Use a composite key for topics if provided
@@ -195,7 +202,7 @@ public class PracticePapersController : ControllerBase
     }
 
     // ── POST /api/practice-papers/checkout ────────────────────────────────
-    // Creates a Razorpay order for a ₹29 per-download PDF purchase.
+    // Creates a Razorpay order for a ₹19 per-download PDF purchase.
     // Each download is a fresh payment — no unlimited re-downloads.
     [Authorize]
     [HttpPost("checkout")]
@@ -206,6 +213,9 @@ public class PracticePapersController : ControllerBase
 
         if (req.Grade < 1 || req.Grade > 12) return BadRequest("Invalid grade.");
         if (string.IsNullOrWhiteSpace(req.Subject)) return BadRequest("Subject is required.");
+
+        var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(req.Subject);
+        if (recognized) req.Subject = canonicalSubject!;
 
         var user  = await _users.GetOrSyncAsync(User, ct);
         var order = await _razorpay.CreatePdfOrderAsync(req.Grade, req.Subject, user.UserId, ct);
@@ -237,6 +247,9 @@ public class PracticePapersController : ControllerBase
 
         if (req.Grade < 1 || req.Grade > 12) return BadRequest("Invalid grade.");
         if (string.IsNullOrWhiteSpace(req.Subject)) return BadRequest("Subject is required.");
+
+        var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(req.Subject);
+        if (recognized) req.Subject = canonicalSubject!;
 
         var user = await _users.GetOrSyncAsync(User, ct);
         var purchaseKey = string.IsNullOrWhiteSpace(req.Topic) ? req.Subject : $"{req.Subject}|{req.Topic}";
@@ -289,11 +302,14 @@ public class PracticePapersController : ControllerBase
         if (req.Grade < 1 || req.Grade > 12) return BadRequest("Invalid grade.");
         if (string.IsNullOrWhiteSpace(req.Subject)) return BadRequest("Subject is required.");
 
+        var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(req.Subject);
+        if (recognized) req.Subject = canonicalSubject!;
+
         var user = await _users.GetOrSyncAsync(User, ct);
         var purchaseKey = string.IsNullOrWhiteSpace(req.Topic) ? req.Subject : $"{req.Subject}|{req.Topic}";
 
         // 1. Check if subscribed
-        bool isSubscribed = await _db.Subscriptions.AnyAsync(s => s.UserId == user.UserId && s.Grade == req.Grade && s.Subject == req.Subject && s.EndDate > DateTime.UtcNow, ct);
+        bool isSubscribed = await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, req.Subject, ct);
         if (!isSubscribed) return Forbid();
 
         // 2. Check weekly limit

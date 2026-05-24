@@ -7,6 +7,7 @@ const POINTS = [
   "Step-by-step explanations, not just correct / wrong",
   "Questions calibrated to Foundation, Advanced & Olympiad levels",
   "Aligned to SOF, SilverZone, Unified Council syllabi",
+  "Timed, official-pattern mock exams dynamically compiled by AI",
 ];
 
 export function AiCalloutSection() {

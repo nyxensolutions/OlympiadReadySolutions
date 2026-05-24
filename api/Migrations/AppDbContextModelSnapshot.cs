@@ -34,6 +34,9 @@ namespace OlympiadReady.Api.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETDATE()");
 
+                    b.Property<int>("EarnedMarks")
+                        .HasColumnType("int");
+
                     b.Property<Guid>("PaperId")
                         .HasColumnType("uniqueidentifier");
 
@@ -41,6 +44,9 @@ namespace OlympiadReady.Api.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("TimeTakenSeconds")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TotalMarks")
                         .HasColumnType("int");
 
                     b.Property<int>("TotalQuestions")
@@ -484,8 +490,8 @@ namespace OlympiadReady.Api.Migrations
 
                     b.Property<string>("CorrectAnswer")
                         .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<int>("Grade")
                         .HasColumnType("int");
@@ -514,8 +520,8 @@ namespace OlympiadReady.Api.Migrations
 
                     b.Property<string>("UserAnswer")
                         .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");

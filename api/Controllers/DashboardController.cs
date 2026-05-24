@@ -57,7 +57,9 @@ public class DashboardController : ControllerBase
                 score = r.Score,
                 totalQuestions = r.TotalQuestions,
                 timeTakenSeconds = r.TimeTakenSeconds,
-                completedAt = r.CompletedAt
+                completedAt = r.CompletedAt,
+                totalMarks = r.TotalMarks,
+                earnedMarks = r.EarnedMarks
             })
             .ToListAsync(ct);
 

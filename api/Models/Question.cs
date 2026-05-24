@@ -21,4 +21,10 @@ public class Question
 
     [JsonPropertyName("topic")]
     public string? Topic { get; set; }
+
+    [JsonPropertyName("sectionName")]
+    public string? SectionName { get; set; }
+
+    [JsonPropertyName("marks")]
+    public int? Marks { get; set; }
 }

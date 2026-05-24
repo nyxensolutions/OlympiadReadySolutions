@@ -1,5 +1,6 @@
+import Link from "next/link";
 import { SignedIn, SignedOut } from "@clerk/nextjs";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Award } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { PracticeShell } from "@/components/PracticeShell";
 import { LandingPage } from "@/components/LandingPage";
@@ -53,6 +54,13 @@ export default function Home({
                   ? `Focused on ${initialConfig.topic} — ${initialConfig.subject ?? ""} Class ${initialConfig.grade ?? ""}.`
                   : "Pick a subject, class, and difficulty — AI generates a fresh, exam-style paper in seconds."}
               </p>
+              
+              <div className="mt-6 flex flex-wrap gap-4">
+                <Link href="/mock-exams" className="flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-sm font-bold text-brand-600 shadow-md transition hover:bg-slate-50 hover:shadow-lg">
+                  <Award className="h-4 w-4" />
+                  Take a Full Mock Exam
+                </Link>
+              </div>
             </div>
           </div>
 

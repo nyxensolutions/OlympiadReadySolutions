@@ -22,16 +22,23 @@ public class SubscriptionService
     /// </summary>
     public async Task<bool> HasUnlockedSubjectAsync(Guid userId, int grade, string subject, CancellationToken ct = default)
     {
-        return await _db.Subscriptions
-            .AnyAsync(s => s.UserId == userId 
-                        && s.Grade == grade 
-                        && s.Subject.ToLower() == subject.ToLower() 
-                        && s.EndDate > DateTime.UtcNow, ct);
+        var (canonicalTarget, _) = SubjectNormalizer.Normalize(subject);
+        canonicalTarget ??= subject;
+
+        var activeSubs = await _db.Subscriptions
+            .Where(s => s.UserId == userId && s.Grade == grade && s.EndDate > DateTime.UtcNow)
+            .ToListAsync(ct);
+
+        return activeSubs.Any(s => 
+        {
+            var (canonicalSub, _) = SubjectNormalizer.Normalize(s.Subject);
+            return string.Equals(canonicalSub, canonicalTarget, StringComparison.OrdinalIgnoreCase);
+        });
     }
 
     /// <summary>
     /// Checks if a user is allowed to generate an online test for the given Grade/Subject.
-    /// Allowed if they have unlocked the subject OR if they haven't exhausted their 3 free global attempts.
+    /// Allowed if they have unlocked the subject OR if they haven't exhausted their free global attempts.
     /// </summary>
     public async Task<bool> CanGenerateOnlineTestAsync(Guid userId, int grade, string subject, CancellationToken ct = default)
     {
@@ -50,11 +57,18 @@ public class SubscriptionService
     /// </summary>
     public async Task<bool> ShouldUseHybridAiAsync(Guid userId, int grade, string subject, CancellationToken ct = default)
     {
-        var subscription = await _db.Subscriptions
-            .FirstOrDefaultAsync(s => s.UserId == userId 
-                                   && s.Grade == grade 
-                                   && s.Subject.ToLower() == subject.ToLower() 
-                                   && s.EndDate > DateTime.UtcNow, ct);
+        var (canonicalTarget, _) = SubjectNormalizer.Normalize(subject);
+        canonicalTarget ??= subject;
+
+        var activeSubs = await _db.Subscriptions
+            .Where(s => s.UserId == userId && s.Grade == grade && s.EndDate > DateTime.UtcNow)
+            .ToListAsync(ct);
+
+        var subscription = activeSubs.FirstOrDefault(s => 
+        {
+            var (canonicalSub, _) = SubjectNormalizer.Normalize(s.Subject);
+            return string.Equals(canonicalSub, canonicalTarget, StringComparison.OrdinalIgnoreCase);
+        });
 
         if (subscription != null)
         {
@@ -62,7 +76,7 @@ public class SubscriptionService
             return subscription.AiGenerationsUsed < PaidAiGenerationLimit;
         }
 
-        // Free user: We use AI for their 3 free attempts to give them a premium taste and populate our DB.
+        // Free user: We use AI for their free attempts to give them a premium taste and populate our DB.
         var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
         return user != null && user.FreeAttemptsUsed < GlobalFreeAttemptsLimit;
     }
@@ -72,11 +86,18 @@ public class SubscriptionService
     /// </summary>
     public async Task RecordOnlineTestGenerationAsync(Guid userId, int grade, string subject, bool usedHybridAi, CancellationToken ct = default)
     {
-        var subscription = await _db.Subscriptions
-            .FirstOrDefaultAsync(s => s.UserId == userId 
-                                   && s.Grade == grade 
-                                   && s.Subject.ToLower() == subject.ToLower() 
-                                   && s.EndDate > DateTime.UtcNow, ct);
+        var (canonicalTarget, _) = SubjectNormalizer.Normalize(subject);
+        canonicalTarget ??= subject;
+
+        var activeSubs = await _db.Subscriptions
+            .Where(s => s.UserId == userId && s.Grade == grade && s.EndDate > DateTime.UtcNow)
+            .ToListAsync(ct);
+
+        var subscription = activeSubs.FirstOrDefault(s => 
+        {
+            var (canonicalSub, _) = SubjectNormalizer.Normalize(s.Subject);
+            return string.Equals(canonicalSub, canonicalTarget, StringComparison.OrdinalIgnoreCase);
+        });
 
         if (subscription != null)
         {

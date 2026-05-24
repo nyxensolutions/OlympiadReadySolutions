@@ -157,8 +157,8 @@ public class AppDbContext : DbContext
             e.Property(x => x.MistakeId).HasDefaultValueSql("NEWID()");
             e.Property(x => x.Subject).HasMaxLength(100).IsRequired();
             e.Property(x => x.Topic).HasMaxLength(100).IsRequired();
-            e.Property(x => x.CorrectAnswer).HasMaxLength(10).IsRequired();
-            e.Property(x => x.UserAnswer).HasMaxLength(10).IsRequired();
+            e.Property(x => x.CorrectAnswer).HasMaxLength(500).IsRequired();
+            e.Property(x => x.UserAnswer).HasMaxLength(500).IsRequired();
             e.Property(x => x.OccurredAt).HasDefaultValueSql("GETDATE()");
             e.HasOne(x => x.User)
                 .WithMany(u => u.Mistakes)

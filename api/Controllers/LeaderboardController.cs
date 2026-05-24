@@ -28,7 +28,7 @@ public class LeaderboardController : ControllerBase
             {
                 r.UserId,
                 r.User!.FullName,
-                ScorePct = (double)r.Score / r.TotalQuestions * 100.0
+                ScorePct = r.TotalMarks > 0 ? (double)r.EarnedMarks / r.TotalMarks * 100.0 : (double)r.Score / r.TotalQuestions * 100.0
             })
             .ToListAsync(ct);
 

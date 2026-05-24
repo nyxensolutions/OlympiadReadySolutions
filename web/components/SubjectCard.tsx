@@ -56,8 +56,8 @@ export function SubjectCard({
       <span className="text-center text-sm font-semibold leading-tight">{name}</span>
       
       {!disabled && (
-        <div className="absolute -top-3 -right-3 opacity-0 transition-all duration-200 group-hover:top-1.5 group-hover:right-1.5 group-hover:opacity-100">
-           <span className={`text-[9px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded shadow-sm ${isSubscribed ? "bg-emerald-500 text-white" : "bg-slate-600 text-white"}`}>
+        <div className="absolute top-1.5 right-1.5 z-10">
+           <span className={`text-[9px] uppercase tracking-wider font-bold px-1.5 py-0.5 rounded shadow-sm ${isSubscribed ? "bg-emerald-500 text-white" : "bg-slate-500 text-white"}`}>
              {isSubscribed ? "Subscribed" : "Free"}
            </span>
         </div>

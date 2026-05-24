@@ -60,7 +60,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "🏛️",
     accent: "navy",
     barClass: "bg-[#1a3a6b]",
-    subject: "Math",
+    subject: "Mathematics",
   },
 
   // ── SOF ──────────────────────────────────────────────────────
@@ -75,7 +75,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "🧮",
     accent: "amber",
     barClass: "bg-amber-500",
-    subject: "Math",
+    subject: "Mathematics",
   },
   {
     id: "sof_nso",
@@ -114,7 +114,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "💻",
     accent: "indigo",
     barClass: "bg-indigo-500",
-    subject: "Computers",
+    subject: "Computer Science",
   },
   {
     id: "sof_isso",
@@ -155,7 +155,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "🥈",
     accent: "slate",
     barClass: "bg-slate-500",
-    subject: "Math",
+    subject: "Mathematics",
   },
   {
     id: "silverzone_science",
@@ -194,7 +194,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "🖥️",
     accent: "cyan",
     barClass: "bg-cyan-500",
-    subject: "Computers",
+    subject: "Computer Science",
   },
 
   // ── Unified Council ──────────────────────────────────────────
@@ -237,7 +237,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "🏆",
     accent: "sky",
     barClass: "bg-sky-500",
-    subject: "Math",
+    subject: "Mathematics",
   },
   {
     id: "crest_cso",
@@ -278,7 +278,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "π",
     accent: "purple",
     barClass: "bg-purple-600",
-    subject: "Math",
+    subject: "Mathematics",
   },
   {
     id: "science_olympiad",
@@ -304,7 +304,7 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     icon: "⌨️",
     accent: "fuchsia",
     barClass: "bg-fuchsia-600",
-    subject: "Computers",
+    subject: "Computer Science",
   },
   {
     id: "english_olympiad",

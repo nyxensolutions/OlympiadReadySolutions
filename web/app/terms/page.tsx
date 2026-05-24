@@ -40,7 +40,7 @@ export default function TermsPage() {
       <ul>
         <li><strong>Free Plan:</strong> Limited to a set number of practice papers per month from our pre-seeded question bank.</li>
         <li><strong>Pro Plan:</strong> Unlimited AI-generated papers for the subscription duration. Purchased via Razorpay.</li>
-        <li><strong>PDF Downloads:</strong> Per-download purchases (e.g., ₹29 per paper) paid via Razorpay.</li>
+        <li><strong>PDF Downloads:</strong> Per-download purchases (e.g., ₹19 per paper) paid via Razorpay.</li>
         <li>All prices are in Indian Rupees (INR) and inclusive of applicable taxes.</li>
         <li>Payments are processed by Razorpay and subject to their terms.</li>
       </ul>

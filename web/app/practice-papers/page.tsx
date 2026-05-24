@@ -26,6 +26,7 @@ const SUBJECT_ICONS: Record<string, string> = {
   Math: "🧮", Science: "🔬", English: "📖", Hindi: "📜",
   "General Knowledge": "🌍", "Logical Reasoning": "🧩",
   Computers: "💻", AI: "🤖", "Social Studies": "🗺️",
+  "Spell Bee": "🐝"
 };
 
 const SUBJECT_COLORS: Record<string, { bg: string; border: string; badge: string; bar: string }> = {
@@ -38,6 +39,7 @@ const SUBJECT_COLORS: Record<string, { bg: string; border: string; badge: string
   Computers:          { bg: "bg-indigo-50",  border: "border-indigo-200",  badge: "bg-indigo-100 text-indigo-700",  bar: "bg-indigo-500"  },
   AI:                 { bg: "bg-fuchsia-50", border: "border-fuchsia-200", badge: "bg-fuchsia-100 text-fuchsia-700",bar: "bg-fuchsia-500" },
   "Social Studies":   { bg: "bg-teal-50",   border: "border-teal-200",   badge: "bg-teal-100 text-teal-700",      bar: "bg-teal-500"   },
+  "Spell Bee":        { bg: "bg-violet-50", border: "border-violet-200", badge: "bg-violet-100 text-violet-700",  bar: "bg-violet-500" },
 };
 
 function loadRazorpay(): Promise<boolean> {
@@ -594,7 +596,7 @@ function PracticePapersBody() {
               },
               {
                 q: "What benefits do subscribed subjects get?",
-                a: "If you have an active subscription for a subject, you can download 10 full-length (50 questions) practice papers for that subject every week for free. The limit resets every Monday.",
+                a: "If you have an active subscription for a subject, you are eligible to download 10 full-length (50 questions) practice papers for that subject every week for free. The limit resets every Monday.",
               },
               {
                 q: "Is payment secure?",

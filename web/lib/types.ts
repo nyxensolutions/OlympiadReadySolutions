@@ -5,6 +5,8 @@ export type Question = {
   answer: string;
   explanation: string;
   topic?: string;
+  sectionName?: string;
+  marks?: number;
 };
 
 export type DashboardSummary = {
@@ -67,6 +69,8 @@ export type GeneratedPaper = {
   grade: number;
   difficulty: string;
   questions: Question[];
+  isMockExam?: boolean;
+  patternId?: string;
 };
 
 export type AttemptResult = {
@@ -76,6 +80,9 @@ export type AttemptResult = {
   flagged: boolean[];
   timeTakenSeconds: number;
   config: PreviewRequest;
+  isMockExam?: boolean;
+  totalMarks?: number;
+  earnedMarks?: number;
 };
 
 export function recommendNextDifficulty(
@@ -133,31 +140,33 @@ export type QuotaError = {
 };
 
 export const SUBJECTS = [
-  "Math",
+  "Mathematics",
   "Science",
   "English",
   "Hindi",
   "Social Studies",
   "General Knowledge",
   "Logical Reasoning",
-  "Computers",
+  "Computer Science",
   "AI",
-  "Spell Bee"
+  "Spell Bee",
+  "Commerce"
 ] as const;
 
 export type Subject = (typeof SUBJECTS)[number];
 
 export const SUBJECT_GRADE_MAP: Record<Subject, { min: number; max: number }> = {
-  Math:                 { min: 1,  max: 12 },
+  Mathematics:          { min: 1,  max: 12 },
   Science:              { min: 1,  max: 12 },
   English:              { min: 1,  max: 12 },
   "Logical Reasoning":  { min: 1,  max: 12 },
-  Computers:            { min: 1,  max: 10 },
+  "Computer Science":   { min: 1,  max: 10 },
   AI:                   { min: 1,  max: 10 },
   "General Knowledge":  { min: 1,  max: 10 },
   "Social Studies":     { min: 3,  max: 10 },
   Hindi:                { min: 3,  max: 10 },
   "Spell Bee":          { min: 1,  max: 12 },
+  Commerce:             { min: 11, max: 12 },
 };
 
 export function isSubjectAvailable(subject: Subject, grade: number): boolean {

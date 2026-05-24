@@ -142,6 +142,15 @@ public class PapersController : ControllerBase
                     }
                 }
 
+                // If AI fell short, top up from DB
+                int shortfall = req.Count - finalQuestions.Count;
+                if (shortfall > 0)
+                {
+                    var extraBankQuestions = await _bank.TryGetRandomAsync(
+                        req.Subject, req.Grade, req.Difficulty, shortfall, req.Topic, ct);
+                    if (extraBankQuestions != null) finalQuestions.AddRange(extraBankQuestions);
+                }
+
                 if (finalQuestions.Count == 0)
                 {
                     return StatusCode(StatusCodes.Status503ServiceUnavailable, new
