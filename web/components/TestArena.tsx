@@ -36,6 +36,17 @@ export function TestArena({
   const [flagged, setFlagged] = useState<boolean[]>(() => Array(total).fill(false));
   const [remaining, setRemaining] = useState(totalSeconds);
   const startedAt = useRef<number>(Date.now());
+  const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
+
+  const flaggedCount = useMemo(() => flagged.filter(Boolean).length, [flagged]);
+
+  function handleManualSubmitClick() {
+    if (flaggedCount > 0) {
+      setShowSubmitConfirm(true);
+    } else {
+      submitRef.current?.();
+    }
+  }
 
   const submitRef = useRef<() => void>();
   submitRef.current = () => {
@@ -118,9 +129,51 @@ export function TestArena({
   }
 
   // ── Simulation mode: full-screen exam hall ──────────────────────────────
+  const confirmModal = showSubmitConfirm && (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm animate-fadeIn">
+      <div className="w-full max-w-md transform rounded-2xl border border-slate-100 bg-white p-6 shadow-2xl transition-all duration-300 scale-in animate-scaleIn">
+        <div className="flex items-center gap-3 text-amber-600 mb-4">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-50">
+            <Flag className="h-5 w-5 animate-bounce text-amber-600" />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-slate-900">Review Flagged Questions?</h3>
+            <p className="text-xs text-slate-500">{paper.isMockExam ? "Mock Exam" : "Practice Test"} Submission</p>
+          </div>
+        </div>
+        <p className="text-sm text-slate-600 leading-relaxed">
+          You have <strong className="text-slate-900 font-bold">{flaggedCount}</strong> question{flaggedCount === 1 ? "" : "s"} marked as <strong>"Review Later"</strong> / <strong>"Flagged"</strong>.
+        </p>
+        <p className="mt-2 text-xs text-slate-500">
+          Would you like to go back and review these questions, or proceed with submitting your test?
+        </p>
+        <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:justify-end">
+          <button
+            type="button"
+            onClick={() => setShowSubmitConfirm(false)}
+            className="rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
+          >
+            Go Back &amp; Review
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              setShowSubmitConfirm(false);
+              submitRef.current?.();
+            }}
+            className="rounded-xl bg-brand-600 hover:bg-brand-700 px-5 py-2.5 text-sm font-bold text-white shadow-md transition"
+          >
+            Submit Anyway
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
   if (simulationMode) {
     return (
-      <div className="fixed inset-0 z-50 flex flex-col overflow-auto bg-white">
+      <>
+        <div className="fixed inset-0 z-50 flex flex-col overflow-auto bg-white">
         {/* Exam header bar */}
         <div className={`flex shrink-0 items-center justify-between border-b px-6 py-3 ${isUrgent ? "border-red-300 bg-red-50" : "border-slate-200 bg-slate-50"}`}>
           <div>
@@ -242,7 +295,7 @@ export function TestArena({
               ) : (
                 <button
                   type="button"
-                  onClick={() => submitRef.current?.()}
+                  onClick={handleManualSubmitClick}
                   className="rounded-xl bg-cta-600 px-6 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-cta-700"
                 >
                   Submit Exam
@@ -284,12 +337,15 @@ export function TestArena({
           </div>
         </div>
       </div>
+      {confirmModal}
+      </>
     );
   }
 
   // ── Normal mode ──────────────────────────────────────────────────────────
   return (
-    <div className="grid w-full max-w-6xl gap-6 lg:grid-cols-[1fr_240px]">
+    <>
+      <div className="grid w-full max-w-6xl gap-6 lg:grid-cols-[1fr_240px]">
       <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div className="flex items-center justify-between text-sm">
           <span className="font-semibold text-slate-700">
@@ -383,7 +439,7 @@ export function TestArena({
             ) : (
               <button
                 type="button"
-                onClick={() => submitRef.current?.()}
+                onClick={handleManualSubmitClick}
                 className="rounded-xl bg-cta-600 px-4 py-2 text-sm font-bold text-white shadow-md shadow-cta-600/20 transition hover:bg-cta-700"
               >
                 Submit test
@@ -426,6 +482,8 @@ export function TestArena({
         </div>
       </aside>
     </div>
+    {confirmModal}
+    </>
   );
 }
 

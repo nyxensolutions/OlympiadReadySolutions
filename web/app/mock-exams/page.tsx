@@ -61,7 +61,7 @@ export default function MockExamsPage() {
   const availablePatterns = getAvailableOlympiads(subject, grade, level);
   const selectedPattern = availablePatterns.length > 0 ? availablePatterns[0] : null;
 
-  const gradeRange = SUBJECT_GRADE_MAP[subject];
+  const gradeRange = SUBJECT_GRADE_MAP[subject] || { min: 1, max: 12 };
   const gradeOptions = [];
   for (let g = gradeRange.min; g <= gradeRange.max; g++) {
     gradeOptions.push(g);
@@ -70,7 +70,7 @@ export default function MockExamsPage() {
   const handleSubjectChange = (newSubject: Subject) => {
     setSubject(newSubject);
     setGeneratedPaper(null);
-    const range = SUBJECT_GRADE_MAP[newSubject];
+    const range = SUBJECT_GRADE_MAP[newSubject] || { min: 1, max: 12 };
     if (grade < range.min) {
       setGrade(range.min);
     } else if (grade > range.max) {

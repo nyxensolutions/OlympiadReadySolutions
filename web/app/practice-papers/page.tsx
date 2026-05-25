@@ -23,23 +23,28 @@ type SubjectInfo = {
 };
 
 const SUBJECT_ICONS: Record<string, string> = {
-  Math: "🧮", Science: "🔬", English: "📖", Hindi: "📜",
+  Math: "🧮", Mathematics: "🧮",
+  Science: "🔬", English: "📖", Hindi: "📜",
   "General Knowledge": "🌍", "Logical Reasoning": "🧩",
-  Computers: "💻", AI: "🤖", "Social Studies": "🗺️",
-  "Spell Bee": "🐝"
+  Computers: "💻", "Computer Science": "💻",
+  AI: "🤖", "Social Studies": "🗺️",
+  "Spell Bee": "🐝", Commerce: "💼"
 };
 
 const SUBJECT_COLORS: Record<string, { bg: string; border: string; badge: string; bar: string }> = {
   Math:               { bg: "bg-amber-50",   border: "border-amber-200",   badge: "bg-amber-100 text-amber-700",    bar: "bg-amber-400"   },
+  Mathematics:        { bg: "bg-amber-50",   border: "border-amber-200",   badge: "bg-amber-100 text-amber-700",    bar: "bg-amber-400"   },
   Science:            { bg: "bg-emerald-50", border: "border-emerald-200", badge: "bg-emerald-100 text-emerald-700", bar: "bg-emerald-500" },
   English:            { bg: "bg-sky-50",     border: "border-sky-200",     badge: "bg-sky-100 text-sky-700",        bar: "bg-sky-500"     },
   Hindi:              { bg: "bg-orange-50",  border: "border-orange-200",  badge: "bg-orange-100 text-orange-700",  bar: "bg-orange-400"  },
   "General Knowledge":{ bg: "bg-purple-50",  border: "border-purple-200",  badge: "bg-purple-100 text-purple-700",  bar: "bg-purple-500"  },
   "Logical Reasoning":{ bg: "bg-rose-50",    border: "border-rose-200",    badge: "bg-rose-100 text-rose-700",      bar: "bg-rose-500"    },
   Computers:          { bg: "bg-indigo-50",  border: "border-indigo-200",  badge: "bg-indigo-100 text-indigo-700",  bar: "bg-indigo-500"  },
+  "Computer Science": { bg: "bg-indigo-50",  border: "border-indigo-200",  badge: "bg-indigo-100 text-indigo-700",  bar: "bg-indigo-500"  },
   AI:                 { bg: "bg-fuchsia-50", border: "border-fuchsia-200", badge: "bg-fuchsia-100 text-fuchsia-700",bar: "bg-fuchsia-500" },
   "Social Studies":   { bg: "bg-teal-50",   border: "border-teal-200",   badge: "bg-teal-100 text-teal-700",      bar: "bg-teal-500"   },
   "Spell Bee":        { bg: "bg-violet-50", border: "border-violet-200", badge: "bg-violet-100 text-violet-700",  bar: "bg-violet-500" },
+  Commerce:           { bg: "bg-amber-50",   border: "border-amber-200",   badge: "bg-amber-100 text-amber-700",    bar: "bg-amber-500"   },
 };
 
 function loadRazorpay(): Promise<boolean> {
@@ -494,6 +499,12 @@ function PracticePapersBody() {
                             <p className="text-[11px] text-slate-500 mt-0.5">
                               All topics · Detailed explanations · Fresh set every download
                             </p>
+                            {!info.isSubscribed && (
+                              <p className="text-[10px] font-semibold text-emerald-600 mt-1.5 flex items-center gap-1">
+                                <Crown className="h-3.5 w-3.5 text-emerald-500 inline shrink-0 animate-pulse" />
+                                🎁 Free (up to 10/wk) with subscription!
+                              </p>
+                            )}
                           </div>
                           {info.isSubscribed ? (
                              <div className="group/tooltip relative">

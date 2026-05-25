@@ -5,16 +5,19 @@ import {
   BookOpen,
   Brain,
   BrainCircuit,
+  Briefcase,
   Calculator,
   Cpu,
   Globe,
   Languages,
   Map,
+  MicVocal,
   type LucideIcon
 } from "lucide-react";
 
 const ICONS: Record<string, LucideIcon> = {
   Math: Calculator,
+  Mathematics: Calculator,
   Science: Atom,
   English: BookOpen,
   Hindi: Languages,
@@ -22,7 +25,10 @@ const ICONS: Record<string, LucideIcon> = {
   "Social Studies": Map,
   "Logical Reasoning": Brain,
   Computers: Cpu,
-  AI: BrainCircuit
+  "Computer Science": Cpu,
+  AI: BrainCircuit,
+  "Spell Bee": MicVocal,
+  Commerce: Briefcase
 };
 
 export function SubjectCard({

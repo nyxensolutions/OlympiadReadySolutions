@@ -31,6 +31,7 @@ const ALL_SUBJECTS = [
   { id: "Computer Science", icon: "💻" },
   { id: "AI",               icon: "🤖" },
   { id: "Spell Bee",        icon: "🐝" },
+  { id: "Commerce",         icon: "💼" },
 ] as const;
 
 type SubjectId = (typeof ALL_SUBJECTS)[number]["id"];

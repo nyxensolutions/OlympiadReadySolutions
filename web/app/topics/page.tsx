@@ -104,7 +104,7 @@ function TopicsBody() {
     mastery.map((m) => [`${m.subject}|${m.topic}`, m.masteryScore])
   );
 
-  const gradeRange = SUBJECT_GRADE_MAP[activeSubject];
+  const gradeRange = SUBJECT_GRADE_MAP[activeSubject] || { min: 1, max: 12 };
   const validGrades = Array.from({ length: gradeRange.max - gradeRange.min + 1 }, (_, i) => i + gradeRange.min);
   const safeGrade = validGrades.includes(grade) ? grade : gradeRange.min;
 
@@ -280,7 +280,7 @@ function TopicsBody() {
         {/* Subject tabs */}
         <div className="mt-6 flex flex-wrap gap-2">
           {SUBJECTS.map((s) => {
-            const range = SUBJECT_GRADE_MAP[s];
+            const range = SUBJECT_GRADE_MAP[s] || { min: 1, max: 12 };
             const available = safeGrade >= range.min && safeGrade <= range.max;
             const isSubscribed = activeUnlocks?.some((u) => u.grade === safeGrade && u.subject.toLowerCase() === s.toLowerCase());
             

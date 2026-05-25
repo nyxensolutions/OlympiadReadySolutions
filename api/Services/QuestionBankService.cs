@@ -35,7 +35,7 @@ public class QuestionBankService
         canonicalSubject ??= subject;
 
         var baseQuery = _db.QuestionBank
-            .Where(q => q.Subject == canonicalSubject && q.Grade == grade);
+            .Where(q => (q.Subject == canonicalSubject || (canonicalSubject == "Science" && (q.Subject == "Science-Physics" || q.Subject == "Science-Chemistry" || q.Subject == "Science-Biology"))) && q.Grade == grade);
 
         if (difficulty is not null)
             baseQuery = baseQuery.Where(q => q.Difficulty == difficulty);

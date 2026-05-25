@@ -56,7 +56,7 @@ export function HeroSection() {
         <div className="mt-12 flex flex-col items-center gap-8 sm:flex-row sm:justify-center">
           {[
             { value: "500+",  label: "Students practising" },
-            { value: "9+",    label: "Subjects + Spell Bee" },
+            { value: "10+",   label: "Subjects + Spell Bee" },
             { value: "∞",     label: "AI-fresh questions"  },
           ].map(({ value, label }, i) => (
             <div key={label} className="flex items-center gap-4">

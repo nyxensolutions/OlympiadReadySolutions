@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export type OlympiadId =
   | "open"
   | "hbcse"
-  | "sof_imo" | "sof_nso" | "sof_ieo" | "sof_nco" | "sof_isso" | "sof_igko"
+  | "sof_imo" | "sof_nso" | "sof_ieo" | "sof_nco" | "sof_isso" | "sof_igko" | "sof_ico"
   | "silverzone_math" | "silverzone_science" | "silverzone_english" | "silverzone_computer"
   | "unified_nstse" | "unified_uieo"
   | "crest_cmo" | "crest_cso" | "crest_ceo"
@@ -141,6 +141,19 @@ export const OLYMPIAD_DATA: OlympiadEntry[] = [
     accent: "amber",
     barClass: "bg-amber-600",
     subject: "General Knowledge",
+  },
+  {
+    id: "sof_ico",
+    name: "SOF ICO",
+    org: "SOF",
+    orgFull: "Science Olympiad Foundation",
+    fullName: "International Commerce Olympiad",
+    description: "Accountancy, Business Studies, Economics and quantitative aptitude.",
+    grades: "Class 11–12",
+    icon: "💼",
+    accent: "amber",
+    barClass: "bg-amber-600",
+    subject: "Commerce",
   },
 
   // ── SilverZone ───────────────────────────────────────────────
@@ -361,7 +374,7 @@ const ACCENT_CLASSES: Record<
 // Group tiles by org family for visual section headers
 const ORG_GROUPS: { label: string; ids: OlympiadId[] }[] = [
   { label: "General", ids: ["open"] },
-  { label: "SOF Olympiads", ids: ["sof_imo", "sof_nso", "sof_ieo", "sof_nco", "sof_isso", "sof_igko"] },
+  { label: "SOF Olympiads", ids: ["sof_imo", "sof_nso", "sof_ieo", "sof_nco", "sof_isso", "sof_igko", "sof_ico"] },
   { label: "SilverZone Olympiads", ids: ["silverzone_math", "silverzone_science", "silverzone_english", "silverzone_computer"] },
   { label: "Unified Council", ids: ["unified_nstse", "unified_uieo"] },
   { label: "CREST Olympiads", ids: ["crest_cmo", "crest_cso", "crest_ceo"] },

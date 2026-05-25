@@ -5,6 +5,7 @@ import {
   BookOpen,
   Brain,
   BrainCircuit,
+  Briefcase,
   Calculator,
   Cpu,
   Globe,
@@ -34,6 +35,7 @@ const SUBJECT_ROWS: SubjectRow[] = [
   { icon: Map,          name: "Social Studies",      grades: "Class 3–10", exams: "ISSO · GKIO",        accent: "bg-teal-50 text-teal-600"     },
   { icon: Languages,    name: "Hindi",               grades: "Class 3–10", exams: "IHO · ABHO",         accent: "bg-orange-50 text-orange-600" },
   { icon: MicVocal,     name: "Spell Bee",           grades: "Class 1–12", exams: "Spell Bee Competitions", accent: "bg-purple-50 text-purple-600", badge: "New" },
+  { icon: Briefcase,    name: "Commerce",            grades: "Class 11–12", exams: "SOF ICO",            accent: "bg-amber-50 text-amber-600", badge: "New" },
 ];
 
 export function SubjectCoverageSection() {
