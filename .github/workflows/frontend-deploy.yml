@@ -51,7 +51,7 @@ jobs:
         az webapp config set \
           --name olympiad-frontend-test \
           --resource-group $(az webapp show --name olympiad-frontend-test --query resourceGroup -o tsv) \
-          --startup-file "node server.js"
+          --startup-file "node /home/site/wwwroot/server.js"
 
     - name: Deploy Frontend to Azure
       uses: azure/webapps-deploy@v3
