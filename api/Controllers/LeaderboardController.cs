@@ -28,6 +28,7 @@ public class LeaderboardController : ControllerBase
             {
                 r.UserId,
                 r.User!.FullName,
+                r.User!.Email,
                 ScorePct = r.TotalMarks > 0 ? (double)r.EarnedMarks / r.TotalMarks * 100.0 : (double)r.Score / r.TotalQuestions * 100.0
             })
             .ToListAsync(ct);
@@ -36,7 +37,7 @@ public class LeaderboardController : ControllerBase
             .GroupBy(r => r.UserId)
             .Select(g => new
             {
-                displayName = FirstName(g.First().FullName),
+                displayName = FirstName(g.First().FullName, g.First().Email),
                 bestScorePct = Math.Round(g.Max(r => r.ScorePct), 1),
             })
             .OrderByDescending(x => x.bestScorePct)
@@ -53,11 +54,25 @@ public class LeaderboardController : ControllerBase
         return Ok(top10);
     }
 
-    private static string FirstName(string? full)
+    private static string FirstName(string? full, string? email)
     {
-        if (string.IsNullOrWhiteSpace(full)) return "Student";
-        var first = full.Trim().Split(' ')[0];
-        return first.Length > 12 ? first[..12] : first;
+        if (!string.IsNullOrWhiteSpace(full))
+        {
+            var first = full.Trim().Split(' ')[0];
+            return first.Length > 12 ? first[..12] : first;
+        }
+
+        if (!string.IsNullOrWhiteSpace(email))
+        {
+            var parts = email.Split('@');
+            if (parts.Length > 0 && !string.IsNullOrWhiteSpace(parts[0]) && !parts[0].Contains("clerk.local"))
+            {
+                var prefix = parts[0];
+                return prefix.Length > 12 ? prefix[..12] : prefix;
+            }
+        }
+
+        return "Student";
     }
 
     private static string Medal(double pct) => pct switch
