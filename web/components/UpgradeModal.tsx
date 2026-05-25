@@ -34,7 +34,7 @@ export function UpgradeModal({
   const [error, setError] = useState<string | null>(null);
 
   const [grade, setGrade] = useState<number>(initialGrade || 5);
-  const [billingCycle, setBillingCycle] = useState<"Monthly" | "Annual">("Annual");
+  const [billingCycle, setBillingCycle] = useState<"Monthly" | "Annual">("Monthly");
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>(
     initialSubject ? [initialSubject] : []
   );

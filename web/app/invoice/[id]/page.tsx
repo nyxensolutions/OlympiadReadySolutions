@@ -19,7 +19,19 @@ type InvoiceData = {
   orderId?: string;
   paymentId?: string;
   planName?: string;
+  startDate?: string;
+  endDate?: string;
 };
+
+function formatDate(dateStr: string | null | undefined): string {
+  if (!dateStr) return "";
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr;
+  const day = String(d.getDate()).padStart(2, "0");
+  const month = String(d.getMonth() + 1).padStart(2, "0");
+  const year = d.getFullYear();
+  return `${day}/${month}/${year}`;
+}
 
 export default function InvoicePage() {
   const { id } = useParams();
@@ -58,7 +70,9 @@ export default function InvoicePage() {
               date: item.startDate,
               orderId: item.razorpayOrderId,
               paymentId: item.razorpayPaymentId,
-              planName: item.planName
+              planName: item.planName,
+              startDate: item.startDate,
+              endDate: item.endDate
             });
           }
         } else if (type === "pdf") {
@@ -142,7 +156,7 @@ export default function InvoicePage() {
             <div className="text-right">
               <h2 className="text-3xl font-light text-slate-300">INVOICE</h2>
               <p className="mt-2 text-sm font-medium text-slate-900">#{data.id.substring(0, 8).toUpperCase()}</p>
-              <p className="text-sm text-slate-500">Date: {new Date(data.date).toLocaleDateString()}</p>
+              <p className="text-sm text-slate-500">Date: {formatDate(data.date)}</p>
             </div>
           </div>
 
@@ -174,8 +188,28 @@ export default function InvoicePage() {
                 <tr>
                   <td className="py-4">
                     <p className="font-semibold text-slate-900">{data.type} - Class {data.grade} {data.subject}</p>
-                    {data.planName && (
-                      <p className="mt-1 text-xs text-slate-500">Plan: {data.planName}</p>
+                    {data.type === "Subject Subscription" ? (
+                      <div className="mt-1 text-xs text-slate-500 space-y-1">
+                        {(() => {
+                          const start = data.startDate ? new Date(data.startDate) : null;
+                          const end = data.endDate ? new Date(data.endDate) : null;
+                          let planCycle = "Monthly";
+                          if (start && end) {
+                            const diffDays = Math.ceil(Math.abs(end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+                            if (diffDays > 300) planCycle = "Yearly";
+                          }
+                          return (
+                            <>
+                              <p><span className="font-semibold text-slate-700">Plan:</span> {planCycle} Subject Unlock</p>
+                              <p><span className="font-semibold text-slate-700">Validity:</span> {formatDate(data.startDate)} to {formatDate(data.endDate)}</p>
+                            </>
+                          );
+                        })()}
+                      </div>
+                    ) : (
+                      data.planName && (
+                        <p className="mt-1 text-xs text-slate-500">Plan: {data.planName}</p>
+                      )
                     )}
                   </td>
                   <td className="py-4 text-right font-medium text-slate-900">
