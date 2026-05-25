@@ -48,10 +48,21 @@ jobs:
 
     - name: Set Startup Command
       run: |
-        az webapp config set \
-          --name olympiad-frontend-test \
-          --resource-group $(az webapp show --name olympiad-frontend-test --query resourceGroup -o tsv) \
-          --startup-file "node /home/site/wwwroot/server.js"
+        RG=$(az webapp list --query "[?name=='olympiad-frontend-test'].resourceGroup" -o tsv)
+        if [ -z "$RG" ]; then
+          echo "WARNING: Could not find resource group via az webapp list. Trying az webapp show..."
+          RG=$(az webapp show --name olympiad-frontend-test --query resourceGroup -o tsv)
+        fi
+        echo "Found Resource Group: $RG"
+        if [ -n "$RG" ]; then
+          az webapp config set \
+            --name olympiad-frontend-test \
+            --resource-group "$RG" \
+            --startup-file "node /home/site/wwwroot/server.js"
+        else
+          echo "ERROR: Resource Group could not be determined. Skipping startup file configuration."
+          exit 1
+        fi
 
     - name: Deploy Frontend to Azure
       uses: azure/webapps-deploy@v3
@@ -99,6 +110,24 @@ jobs:
       uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Set Startup Command (Production)
+      run: |
+        RG=$(az webapp list --query "[?name=='olympiad-frontend-prod'].resourceGroup" -o tsv)
+        if [ -z "$RG" ]; then
+          echo "WARNING: Could not find resource group via az webapp list. Trying az webapp show..."
+          RG=$(az webapp show --name olympiad-frontend-prod --query resourceGroup -o tsv)
+        fi
+        echo "Found Resource Group: $RG"
+        if [ -n "$RG" ]; then
+          az webapp config set \
+            --name olympiad-frontend-prod \
+            --resource-group "$RG" \
+            --startup-file "node /home/site/wwwroot/server.js"
+        else
+          echo "ERROR: Resource Group could not be determined. Skipping startup file configuration."
+          exit 1
+        fi
 
     - name: Deploy Frontend to Azure
       uses: azure/webapps-deploy@v3
