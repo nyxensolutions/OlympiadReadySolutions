@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { CreditCard, CalendarDays, Download, Loader2, CheckCircle2 } from "lucide-react";
+import { CreditCard, CalendarDays, Download, Loader2, CheckCircle2, Crown } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
@@ -30,7 +30,7 @@ type BillingHistory = {
   freeAttemptsLimit: number;
 };
 
-export function BillingHistoryCard() {
+export function BillingHistoryCard({ onPurchaseMore }: { onPurchaseMore?: () => void } = {}) {
   const { getToken, isLoaded } = useAuth();
   const [history, setHistory] = useState<BillingHistory | null>(null);
   const [loading, setLoading] = useState(true);
@@ -62,20 +62,32 @@ export function BillingHistoryCard() {
     );
   }
 
-  if (!history || (history.subscriptions.length === 0 && history.pdfPurchases.length === 0)) {
-    return null; // Don't show if they have no history
+  if (!history) {
+    return null;
   }
 
   return (
     <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">
-      <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
-        <div className="inline-flex rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 p-2.5 text-white shadow-sm">
-          <CreditCard className="h-5 w-5" />
+      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-100 pb-4">
+        <div className="flex items-center gap-3">
+          <div className="inline-flex rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 p-2.5 text-white shadow-sm">
+            <CreditCard className="h-5 w-5" />
+          </div>
+          <div>
+            <h2 className="text-lg font-semibold text-slate-900">Purchases & Unlocks</h2>
+            <p className="text-xs text-slate-500">View your active subscriptions, PDF downloads, and invoices.</p>
+          </div>
         </div>
-        <div>
-          <h2 className="text-lg font-semibold text-slate-900">Purchases & Unlocks</h2>
-          <p className="text-xs text-slate-500">View your active subscriptions, PDF downloads, and invoices.</p>
-        </div>
+        {onPurchaseMore && (
+          <button
+            type="button"
+            onClick={onPurchaseMore}
+            className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-4 py-2.5 text-xs font-bold text-white shadow-md shadow-indigo-600/20 transition hover:bg-indigo-700"
+          >
+            <Crown className="h-3.5 w-3.5" />
+            Unlock More Subjects
+          </button>
+        )}
       </div>
 
       <div className="mt-6">
@@ -101,7 +113,7 @@ export function BillingHistoryCard() {
       </div>
 
       <div className="mt-6 space-y-6">
-        {history.subscriptions.length > 0 && (
+        {history.subscriptions.length > 0 ? (
           <div>
             <h3 className="text-sm font-semibold text-slate-700 mb-3">Subject Subscriptions</h3>
             <div className="grid gap-3 sm:grid-cols-2">
@@ -151,6 +163,20 @@ export function BillingHistoryCard() {
                 </div>
               ))}
             </div>
+          </div>
+        ) : (
+          <div className="rounded-xl border border-dashed border-slate-200 bg-slate-50/50 p-6 text-center">
+            <p className="text-sm font-semibold text-slate-700">No active subscriptions yet</p>
+            <p className="text-xs text-slate-500 mt-1 mb-4">Unlock individual subjects or get the All Subjects bundle for unlimited practice and Level 2 exams.</p>
+            {onPurchaseMore && (
+              <button
+                type="button"
+                onClick={onPurchaseMore}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-4 py-2 text-xs font-bold text-white shadow-md shadow-indigo-600/20 transition hover:bg-indigo-700"
+              >
+                <Crown className="h-3.5 w-3.5" /> Unlock Subjects Now
+              </button>
+            )}
           </div>
         )}
 

@@ -12,6 +12,7 @@ import { RecentPapersCard } from "@/components/RecentPapersCard";
 import { ScoreTrendChart } from "@/components/ScoreTrendChart";
 import { SubscriptionBadge } from "@/components/SubscriptionBadge";
 import { BillingHistoryCard } from "@/components/BillingHistoryCard";
+import { UpgradeModal } from "@/components/UpgradeModal";
 import { OnboardingModal } from "@/components/OnboardingModal";
 import type { DashboardSummary } from "@/lib/types";
 import { getShieldState, useShield as consumeShield } from "@/lib/streakShield";
@@ -183,6 +184,7 @@ function DashboardBody() {
   const [error, setError] = useState<string | null>(null);
   const [shareToken, setShareToken] = useState<string | null>(null);
   const [shareCopied, setShareCopied] = useState(false);
+  const [showUpgrade, setShowUpgrade] = useState(false);
   const [shieldState, setShieldState] = useState<{ shields: number; usedDates: string[] }>({
     shields: 0,
     usedDates: [],
@@ -559,7 +561,7 @@ function DashboardBody() {
 
         {/* Billing / Purchases History */}
         <div id="purchases" className="scroll-mt-24">
-          <BillingHistoryCard />
+          <BillingHistoryCard onPurchaseMore={() => setShowUpgrade(true)} />
         </div>
 
         {/* Recent papers */}
@@ -579,6 +581,15 @@ function DashboardBody() {
         <LeaderboardSection />
 
       </div>
+
+      <UpgradeModal
+        open={showUpgrade}
+        onClose={() => setShowUpgrade(false)}
+        onUpgraded={() => {
+          setShowUpgrade(false);
+          window.location.reload();
+        }}
+      />
     </>
   );
 }

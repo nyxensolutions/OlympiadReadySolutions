@@ -65,10 +65,10 @@ export function ResultsScreen({
 
   function shareToParent() {
     const msg =
-      `🎓 Great news! My child scored ${pct}% on their OlympiadReady practice test!\n\n` +
-      `📚 Subject: ${config.subject} · Class ${config.grade} · Level: ${config.difficulty}\n` +
-      `✅ Score: ${score}/${questions.length} questions correct\n\n` +
-      `Consistent daily practice is the key to Olympiad success 🏆\n` +
+      `\u{1F393} Great news! My child scored ${pct}% on their OlympiadReady practice test!\n\n` +
+      `\u{1F4DA} Subject: ${config.subject} · Class ${config.grade} · Level: ${config.difficulty}\n` +
+      `\u{2705} Score: ${score}/${questions.length} questions correct\n\n` +
+      `Consistent daily practice is the key to Olympiad success \u{1F3C6}\n` +
       `Practice at: https://olympiadready.com`;
     window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank");
     Analytics.sharedToParent(pct);
