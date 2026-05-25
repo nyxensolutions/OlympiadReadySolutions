@@ -45,7 +45,7 @@ export function OnboardingModal({ onComplete }: { onComplete: (data: OnboardingD
     setTimeout(() => {
       onComplete({
         grade: grade ?? 6,
-        subject: subject ?? "Math",
+        subject: subject ?? "Mathematics",
         olympiadId: mapOlympiadId(selectedOly)
       });
     }, 2500);

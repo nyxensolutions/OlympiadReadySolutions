@@ -169,6 +169,16 @@ export const SUBJECT_GRADE_MAP: Record<Subject, { min: number; max: number }> = 
   Commerce:             { min: 11, max: 12 },
 };
 
+export function getSafeSubject(subjectStr: string | null | undefined): Subject {
+  if (!subjectStr) return "Mathematics";
+  if (subjectStr === "Math") return "Mathematics";
+  if (subjectStr === "Computers") return "Computer Science";
+  if (SUBJECTS.includes(subjectStr as Subject)) {
+    return subjectStr as Subject;
+  }
+  return "Mathematics";
+}
+
 export function isSubjectAvailable(subject: Subject, grade: number): boolean {
   const range = SUBJECT_GRADE_MAP[subject];
   return grade >= range.min && grade <= range.max;

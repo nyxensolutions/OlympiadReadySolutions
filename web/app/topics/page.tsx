@@ -7,7 +7,7 @@ import { SignedIn, SignedOut, useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
 import { TestArena } from "@/components/TestArena";
 import { ResultsScreen } from "@/components/ResultsScreen";
-import { SUBJECTS, SUBJECT_GRADE_MAP, DIFFICULTIES, type Subject, type GeneratedPaper, type PreviewRequest, type AttemptResult, type DashboardSummary } from "@/lib/types";
+import { SUBJECTS, SUBJECT_GRADE_MAP, DIFFICULTIES, getSafeSubject, type Subject, type GeneratedPaper, type PreviewRequest, type AttemptResult, type DashboardSummary } from "@/lib/types";
 import { TOPIC_MAP, type TopicEntry } from "@/lib/topicMap";
 import { Analytics } from "@/lib/analytics";
 
@@ -48,7 +48,7 @@ export default function TopicsPage() {
 function TopicsBody() {
   const { getToken, isLoaded } = useAuth();
   const searchParams = useSearchParams();
-  const initialSubject = (searchParams?.get("subject") as Subject) || "Math";
+  const initialSubject = getSafeSubject(searchParams?.get("subject"));
   const initialGrade = searchParams?.get("grade") 
     ? Number(searchParams.get("grade")) 
     : 1;

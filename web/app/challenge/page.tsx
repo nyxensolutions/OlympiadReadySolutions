@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Swords, Trophy, ArrowRight } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 
+import { getSafeSubject } from "@/lib/types";
+
 export default function ChallengePage({
   searchParams,
 }: {
@@ -15,7 +17,7 @@ export default function ChallengePage({
     pct?: string;
   };
 }) {
-  const subject = searchParams?.s ?? "Math";
+  const subject = getSafeSubject(searchParams?.s);
   const grade = searchParams?.g ? Number(searchParams.g) : 6;
   const difficulty = searchParams?.d ?? "Foundation";
   const count = searchParams?.c ? Number(searchParams.c) : 10;

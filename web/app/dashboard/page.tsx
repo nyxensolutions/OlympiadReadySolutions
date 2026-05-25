@@ -395,7 +395,7 @@ function DashboardBody() {
               </p>
             </div>
             <Link
-              href={`/?mistakes=true&subject=${data.results[0]?.subject || "Math"}&grade=${preferredGrade}`}
+              href={`/?mistakes=true&subject=${data.results[0]?.subject || "Mathematics"}&grade=${preferredGrade}`}
               className="inline-flex items-center gap-1.5 rounded-xl bg-red-600 px-4 py-2.5 text-xs font-bold text-white shadow-lg shadow-red-600/30 transition hover:bg-red-700 hover:scale-105"
             >
               <Sparkles className="h-3.5 w-3.5" />
