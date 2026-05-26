@@ -5,6 +5,10 @@ import { BookOpen, CheckCircle2, Loader2, Sparkles, XCircle } from "lucide-react
 import type { DailyQuizQuestion, DailyQuizAnswer } from "@/lib/types";
 import { MarkdownMath } from "./MarkdownMath";
 
+function isImageOption(opt: string) {
+  return opt.startsWith("http://") || opt.startsWith("https://") || opt.startsWith("/question-images/");
+}
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
 const getStorageKey = (grade: number, subject?: string) => 
@@ -157,38 +161,56 @@ export function DailyQuizCard({ grade, subject }: { grade: number; subject?: str
             )}
 
             {/* Options */}
-            <div className="mt-4 grid gap-2 sm:grid-cols-2">
-              {question.options.map((opt, i) => {
-                const letter = OPTIONS[i];
-                const isChosen = picked === letter;
-                const isCorrect = answer?.correctAnswer === letter;
-                const revealed = !!answer;
+            {(() => {
+              const hasImageOpts = question.options.some(isImageOption);
+              return (
+                <div className={`mt-4 grid gap-2 ${hasImageOpts ? "grid-cols-2" : "sm:grid-cols-2"}`}>
+                  {question.options.map((opt, i) => {
+                    const letter = OPTIONS[i];
+                    const isChosen = picked === letter;
+                    const isCorrect = answer?.correctAnswer === letter;
+                    const revealed = !!answer;
 
-                let style = "border-slate-200 bg-white text-slate-700 hover:bg-slate-50";
-                if (revealed) {
-                  if (isCorrect) style = "border-emerald-400 bg-emerald-50 text-emerald-800";
-                  else if (isChosen) style = "border-red-400 bg-red-50 text-red-800";
-                  else style = "border-slate-200 bg-white text-slate-400";
-                } else if (isChosen) {
-                  style = "border-brand-500 bg-brand-50 text-brand-800";
-                }
+                    let style = "border-slate-200 bg-white text-slate-700 hover:bg-slate-50";
+                    if (revealed) {
+                      if (isCorrect) style = "border-emerald-400 bg-emerald-50 text-emerald-800";
+                      else if (isChosen) style = "border-red-400 bg-red-50 text-red-800";
+                      else style = "border-slate-200 bg-white text-slate-400";
+                    } else if (isChosen) {
+                      style = "border-brand-500 bg-brand-50 text-brand-800";
+                    }
 
-                return (
-                  <button
-                    key={letter}
-                    type="button"
-                    disabled={!!picked || submitting}
-                    onClick={() => handlePick(letter)}
-                    className={`flex items-start gap-2.5 rounded-xl border p-3 text-left text-sm transition ${style} disabled:cursor-default`}
-                  >
-                    <span className="mt-0.5 shrink-0 rounded-md bg-slate-100 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">
-                      {letter}
-                    </span>
-                    <MarkdownMath content={opt} className="leading-snug" />
-                  </button>
-                );
-              })}
-            </div>
+                    return (
+                      <button
+                        key={letter}
+                        type="button"
+                        disabled={!!picked || submitting}
+                        onClick={() => handlePick(letter)}
+                        className={`flex flex-col items-center gap-2 rounded-xl border p-2 text-left text-sm transition ${style} disabled:cursor-default`}
+                      >
+                        {isImageOption(opt) ? (
+                          <>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={opt} alt={`Option ${letter}`}
+                              className="w-full max-h-28 object-contain rounded-lg" />
+                            <span className="shrink-0 rounded-md bg-slate-100 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">
+                              {letter}
+                            </span>
+                          </>
+                        ) : (
+                          <div className="flex items-start gap-2.5 w-full">
+                            <span className="mt-0.5 shrink-0 rounded-md bg-slate-100 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">
+                              {letter}
+                            </span>
+                            <MarkdownMath content={opt} className="leading-snug" />
+                          </div>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              );
+            })()}
 
             {submitting && (
               <div className="mt-3 flex items-center gap-1.5 text-xs text-slate-400">

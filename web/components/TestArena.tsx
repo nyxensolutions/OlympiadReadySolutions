@@ -10,6 +10,10 @@ import {
 } from "@/lib/types";
 import { MarkdownMath } from "./MarkdownMath";
 
+function isImageOption(opt: string) {
+  return opt.startsWith("http://") || opt.startsWith("https://") || opt.startsWith("/question-images/");
+}
+
 function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
@@ -231,34 +235,58 @@ export function TestArena({
             </div>
           )}
 
-          <ul className="mt-6 grid gap-3">
-            {q.options.map((opt, i) => {
-              const isPicked = answers[current] === opt;
-              return (
-                <li key={i}>
-                  <button
-                    type="button"
-                    onClick={() => pick(opt)}
-                    className={`flex w-full items-center gap-4 rounded-xl border-2 px-5 py-4 text-left text-sm transition ${
-                      isPicked
-                        ? "border-brand-600 bg-brand-50 text-brand-900"
-                        : "border-slate-200 bg-white text-slate-700 hover:border-brand-300 hover:bg-slate-50"
-                    }`}
-                  >
-                    <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-mono font-bold text-sm ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
-                      {String.fromCharCode(65 + i)}
-                    </span>
-                    <MarkdownMath content={opt} className="flex-1" />
-                    {isPicked && (
-                      <svg className="h-5 w-5 shrink-0 text-brand-600" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                      </svg>
-                    )}
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
+          {(() => {
+            const hasImageOpts = q.options.some(isImageOption);
+            return hasImageOpts ? (
+              <div className="mt-6 grid grid-cols-2 gap-3">
+                {q.options.map((opt, i) => {
+                  const isPicked = answers[current] === opt;
+                  return (
+                    <button key={i} type="button" onClick={() => pick(opt)}
+                      className={`flex flex-col items-center gap-2 rounded-xl border-2 p-2 transition ${
+                        isPicked ? "border-brand-600 bg-brand-50" : "border-slate-200 bg-white hover:border-brand-300 hover:bg-slate-50"
+                      }`}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={opt} alt={`Option ${String.fromCharCode(65 + i)}`}
+                        className="w-full max-h-32 object-contain rounded-lg" />
+                      <span className={`flex h-7 w-7 items-center justify-center rounded-full font-mono font-bold text-xs ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
+                        {String.fromCharCode(65 + i)}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            ) : (
+              <ul className="mt-6 grid gap-3">
+                {q.options.map((opt, i) => {
+                  const isPicked = answers[current] === opt;
+                  return (
+                    <li key={i}>
+                      <button
+                        type="button"
+                        onClick={() => pick(opt)}
+                        className={`flex w-full items-center gap-4 rounded-xl border-2 px-5 py-4 text-left text-sm transition ${
+                          isPicked
+                            ? "border-brand-600 bg-brand-50 text-brand-900"
+                            : "border-slate-200 bg-white text-slate-700 hover:border-brand-300 hover:bg-slate-50"
+                        }`}
+                      >
+                        <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-mono font-bold text-sm ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
+                          {String.fromCharCode(65 + i)}
+                        </span>
+                        <MarkdownMath content={opt} className="flex-1" />
+                        {isPicked && (
+                          <svg className="h-5 w-5 shrink-0 text-brand-600" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                          </svg>
+                        )}
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+            );
+          })()}
 
           {/* Question navigation */}
           <div className="mt-8 flex items-center gap-3">
@@ -382,29 +410,53 @@ export function TestArena({
           </div>
         )}
 
-        <ul className="mt-5 grid gap-2">
-          {q.options.map((opt, i) => {
-            const isPicked = answers[current] === opt;
-            return (
-              <li key={i}>
-                <button
-                  type="button"
-                  onClick={() => pick(opt)}
-                  className={`flex w-full items-center gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${
-                    isPicked
-                      ? "border-brand-600 bg-brand-50 text-brand-900"
-                      : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
-                  }`}
-                >
-                  <span className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full font-mono text-xs ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
-                    {String.fromCharCode(65 + i)}
-                  </span>
-                  <MarkdownMath content={opt} className="flex-1" />
-                </button>
-              </li>
-            );
-          })}
-        </ul>
+        {(() => {
+          const hasImageOpts = q.options.some(isImageOption);
+          return hasImageOpts ? (
+            <div className="mt-5 grid grid-cols-2 gap-3">
+              {q.options.map((opt, i) => {
+                const isPicked = answers[current] === opt;
+                return (
+                  <button key={i} type="button" onClick={() => pick(opt)}
+                    className={`flex flex-col items-center gap-2 rounded-xl border-2 p-2 transition ${
+                      isPicked ? "border-brand-600 bg-brand-50" : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50"
+                    }`}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={opt} alt={`Option ${String.fromCharCode(65 + i)}`}
+                      className="w-full max-h-28 object-contain rounded-lg" />
+                    <span className={`flex h-6 w-6 items-center justify-center rounded-full font-mono text-xs ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
+                      {String.fromCharCode(65 + i)}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          ) : (
+            <ul className="mt-5 grid gap-2">
+              {q.options.map((opt, i) => {
+                const isPicked = answers[current] === opt;
+                return (
+                  <li key={i}>
+                    <button
+                      type="button"
+                      onClick={() => pick(opt)}
+                      className={`flex w-full items-center gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${
+                        isPicked
+                          ? "border-brand-600 bg-brand-50 text-brand-900"
+                          : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
+                      }`}
+                    >
+                      <span className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full font-mono text-xs ${isPicked ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600"}`}>
+                        {String.fromCharCode(65 + i)}
+                      </span>
+                      <MarkdownMath content={opt} className="flex-1" />
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          );
+        })()}
 
         <div className="mt-6 flex flex-wrap items-center gap-2">
           <button

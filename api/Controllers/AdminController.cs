@@ -17,6 +17,7 @@ public class AdminController : ControllerBase
     private readonly QuestionBankService _bank;
     private readonly IConfiguration _config;
     private readonly ILogger<AdminController> _log;
+    private readonly IWebHostEnvironment _env;
 
     private readonly OlympiadReady.Api.Data.AppDbContext _db;
 
@@ -27,15 +28,20 @@ public class AdminController : ControllerBase
         Converters = { new OptionsFlexConverter() }
     };
 
+    private static readonly HashSet<string> _allowedImageExts =
+        new(StringComparer.OrdinalIgnoreCase) { ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg" };
+
     public AdminController(
         QuestionBankService bank,
         IConfiguration config,
         ILogger<AdminController> log,
+        IWebHostEnvironment env,
         OlympiadReady.Api.Data.AppDbContext db)
     {
         _bank = bank;
         _config = config;
         _log = log;
+        _env = env;
         _db = db;
     }
 
@@ -245,6 +251,182 @@ public class AdminController : ControllerBase
     }
 
     // ---------------------------------------------------------------
+    // GET /api/admin/questions?subject=&grade=&difficulty=&topic=&hasImage=true&page=1&pageSize=20
+    // Header: X-Admin-Key: <value>
+    // Search/filter questions in the bank for admin preview.
+    // ---------------------------------------------------------------
+    [HttpGet("questions")]
+    public async Task<IActionResult> SearchQuestions(
+        [FromQuery] string? subject,
+        [FromQuery] int? grade,
+        [FromQuery] string? difficulty,
+        [FromQuery] string? topic,
+        [FromQuery] string? search,
+        [FromQuery] bool? hasImage,
+        [FromQuery] int page = 1,
+        [FromQuery] int pageSize = 20,
+        CancellationToken ct = default)
+    {
+        if (!IsAuthorised())
+            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        var query = _db.QuestionBank.AsQueryable();
+
+        if (!string.IsNullOrWhiteSpace(subject))
+        {
+            var (canonical, _) = SubjectNormalizer.Normalize(subject);
+            var s = canonical ?? subject;
+            query = query.Where(q => q.Subject == s);
+        }
+        if (grade.HasValue)
+            query = query.Where(q => q.Grade == grade.Value);
+        if (!string.IsNullOrWhiteSpace(difficulty))
+            query = query.Where(q => q.Difficulty == difficulty);
+        if (!string.IsNullOrWhiteSpace(topic))
+            query = query.Where(q => q.Topic.Contains(topic));
+        if (!string.IsNullOrWhiteSpace(search))
+            query = query.Where(q => q.QuestionText.Contains(search));
+        if (hasImage == true)
+            query = query.Where(q =>
+                (q.ImageUrl != null && q.ImageUrl != "") ||
+                q.OptionsJson.Contains("http") ||
+                q.OptionsJson.Contains("/question-images/"));
+
+        var total = await Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync(query, ct);
+
+        var items = await Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync(
+            query.OrderByDescending(q => q.CreatedAt)
+                 .Skip((page - 1) * pageSize)
+                 .Take(pageSize),
+            ct);
+
+        var results = items.Select(q =>
+        {
+            List<string> options;
+            try { options = System.Text.Json.JsonSerializer.Deserialize<List<string>>(q.OptionsJson) ?? new(); }
+            catch { options = new(); }
+
+            return new
+            {
+                q.QuestionBankId,
+                q.Subject,
+                q.Grade,
+                q.Difficulty,
+                q.Topic,
+                q.SubTopic,
+                q.QuestionText,
+                q.ImageUrl,
+                Options = options,
+                q.CorrectAnswer,
+                q.Explanation,
+                q.CreatedAt,
+            };
+        });
+
+        return Ok(new { total, page, pageSize, items = results });
+    }
+
+    // ---------------------------------------------------------------
+    // DELETE /api/admin/questions/{id}
+    // Header: X-Admin-Key: <value>
+    // ---------------------------------------------------------------
+    [HttpDelete("questions/{id:guid}")]
+    public async Task<IActionResult> DeleteQuestion(Guid id, CancellationToken ct)
+    {
+        if (!IsAuthorised())
+            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        var item = await _db.QuestionBank.FindAsync(new object[] { id }, ct);
+        if (item is null)
+            return NotFound(new { error = "Question not found." });
+
+        _db.QuestionBank.Remove(item);
+        await _db.SaveChangesAsync(ct);
+
+        _log.LogInformation("Admin deleted question {Id} ({Subject} G{Grade})", id, item.Subject, item.Grade);
+        return Ok(new { message = "Question deleted." });
+    }
+
+    // ---------------------------------------------------------------
+    // POST /api/admin/upload-image
+    // Header: X-Admin-Key: <value>
+    // Body: multipart/form-data with field "file"
+    // Returns: { url: "/question-images/uuid.ext" }
+    // ---------------------------------------------------------------
+    [HttpPost("upload-image")]
+    [RequestSizeLimit(10 * 1024 * 1024)] // 10 MB
+    public async Task<IActionResult> UploadImage(IFormFile file, CancellationToken ct)
+    {
+        if (!IsAuthorised())
+            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        if (file == null || file.Length == 0)
+            return BadRequest(new { error = "No file provided." });
+
+        var ext = Path.GetExtension(file.FileName);
+        if (!_allowedImageExts.Contains(ext))
+            return BadRequest(new { error = $"File type {ext} not allowed. Use jpg/png/gif/webp/svg." });
+
+        var saveDir = Path.Combine(_env.ContentRootPath, "..", "web", "public", "question-images");
+        Directory.CreateDirectory(saveDir);
+
+        var fileName = $"{Guid.NewGuid()}{ext.ToLowerInvariant()}";
+        var savePath = Path.Combine(saveDir, fileName);
+
+        await using var stream = new FileStream(savePath, FileMode.Create);
+        await file.CopyToAsync(stream, ct);
+
+        _log.LogInformation("Admin uploaded image: {FileName} ({Size} bytes)", fileName, file.Length);
+        return Ok(new { url = $"/question-images/{fileName}" });
+    }
+
+    // ---------------------------------------------------------------
+    // POST /api/admin/add-question
+    // Header: X-Admin-Key: <value>
+    // Body: JSON matching AddQuestionDto
+    // ---------------------------------------------------------------
+    [HttpPost("add-question")]
+    public async Task<IActionResult> AddQuestion([FromBody] AddQuestionDto dto, CancellationToken ct)
+    {
+        if (!IsAuthorised())
+            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        if (string.IsNullOrWhiteSpace(dto.Subject))
+            return BadRequest(new { error = "subject is required." });
+        if (dto.Grade is < 1 or > 12)
+            return BadRequest(new { error = "grade must be 1-12." });
+        if (string.IsNullOrWhiteSpace(dto.QuestionText))
+            return BadRequest(new { error = "questionText is required." });
+        if (dto.Options == null || dto.Options.Count != 4)
+            return BadRequest(new { error = "Exactly 4 options required." });
+
+        var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(dto.Subject);
+        if (!recognized)
+            return BadRequest(new { error = SubjectNormalizer.UnrecognisedMessage(dto.Subject) });
+
+        var row = new QuestionBankService.ImportRow(
+            QuestionText: dto.QuestionText,
+            ImageUrl: dto.ImageUrl,
+            Options: dto.Options,
+            CorrectAnswer: dto.CorrectAnswer ?? "A",
+            Topic: dto.Topic ?? "General",
+            SubTopic: dto.SubTopic,
+            Difficulty: dto.Difficulty ?? "Foundation",
+            Explanation: dto.Explanation ?? ""
+        );
+
+        var result = await _bank.ImportAsync(canonicalSubject!, dto.Grade, new[] { row }, ct);
+
+        if (result.Errors.Count > 0)
+            return BadRequest(new { error = result.Errors[0] });
+
+        if (result.Skipped > 0)
+            return Conflict(new { error = "A question with this text already exists (duplicate skipped)." });
+
+        return Ok(new { message = "Question added successfully.", inserted = result.Inserted });
+    }
+
+    // ---------------------------------------------------------------
     private bool IsAuthorised()
     {
         var configKey = _config["Admin:ApiKey"];
@@ -269,6 +451,20 @@ public class ImportRowDto
     public string? SubTopic { get; set; }
     /// <summary>Foundation | Advanced | Olympiad</summary>
     public string? Difficulty { get; set; }
+    public string? Explanation { get; set; }
+}
+
+public class AddQuestionDto
+{
+    public string? Subject { get; set; }
+    public int Grade { get; set; }
+    public string? Difficulty { get; set; }
+    public string? Topic { get; set; }
+    public string? SubTopic { get; set; }
+    public string? QuestionText { get; set; }
+    public string? ImageUrl { get; set; }
+    public List<string>? Options { get; set; }
+    public string? CorrectAnswer { get; set; }
     public string? Explanation { get; set; }
 }
 
