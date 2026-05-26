@@ -1,6 +1,8 @@
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Mvc;
 using OlympiadReady.Api.Services;
 
@@ -117,6 +119,29 @@ public class AdminController : ControllerBase
             inserted = result.Inserted,
             skipped = result.Skipped,
             errors = result.Errors
+        });
+    }
+
+    // ---------------------------------------------------------------
+    // GET /api/admin/config-check  (temporary diagnostic)
+    // ---------------------------------------------------------------
+    [HttpGet("config-check")]
+    public IActionResult ConfigCheck()
+    {
+        if (!IsAuthorised()) return Unauthorized();
+        var cloudName  = _config["Cloudinary:CloudName"];
+        var apiKey     = _config["Cloudinary:ApiKey"];
+        var apiSecret  = _config["Cloudinary:ApiSecret"];
+        var appData    = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+        var secretsPath = Path.Combine(appData, "Microsoft", "UserSecrets", "olympiadready-api-secrets", "secrets.json");
+        return Ok(new
+        {
+            CloudName    = string.IsNullOrWhiteSpace(cloudName) ? "(empty)" : cloudName,
+            ApiKey       = string.IsNullOrWhiteSpace(apiKey)    ? "(empty)" : apiKey[..4] + "****",
+            ApiSecret    = string.IsNullOrWhiteSpace(apiSecret) ? "(empty)" : apiSecret[..4] + "****",
+            Environment  = _env.EnvironmentName,
+            SecretsPath  = secretsPath,
+            SecretsFileExists = System.IO.File.Exists(secretsPath),
         });
     }
 
@@ -351,7 +376,7 @@ public class AdminController : ControllerBase
     // POST /api/admin/upload-image
     // Header: X-Admin-Key: <value>
     // Body: multipart/form-data with field "file"
-    // Returns: { url: "/question-images/uuid.ext" }
+    // Uploads to Cloudinary and returns: { url: "https://res.cloudinary.com/..." }
     // ---------------------------------------------------------------
     [HttpPost("upload-image")]
     [RequestSizeLimit(10 * 1024 * 1024)] // 10 MB
@@ -367,17 +392,41 @@ public class AdminController : ControllerBase
         if (!_allowedImageExts.Contains(ext))
             return BadRequest(new { error = $"File type {ext} not allowed. Use jpg/png/gif/webp/svg." });
 
-        var saveDir = Path.Combine(_env.ContentRootPath, "..", "web", "public", "question-images");
-        Directory.CreateDirectory(saveDir);
+        // Build Cloudinary client from config
+        var cloudName  = _config["Cloudinary:CloudName"];
+        var apiKey     = _config["Cloudinary:ApiKey"];
+        var apiSecret  = _config["Cloudinary:ApiSecret"];
+        var folder     = _config["Cloudinary:Folder"] ?? "olympiadready/questions";
 
-        var fileName = $"{Guid.NewGuid()}{ext.ToLowerInvariant()}";
-        var savePath = Path.Combine(saveDir, fileName);
+        if (string.IsNullOrWhiteSpace(cloudName) || cloudName.StartsWith("REPLACE") ||
+            string.IsNullOrWhiteSpace(apiKey)    || apiKey.StartsWith("REPLACE") ||
+            string.IsNullOrWhiteSpace(apiSecret) || apiSecret.StartsWith("REPLACE"))
+            return StatusCode(503, new { error = "Cloudinary is not configured. Fill in Cloudinary:CloudName/ApiKey/ApiSecret in appsettings." });
 
-        await using var stream = new FileStream(savePath, FileMode.Create);
-        await file.CopyToAsync(stream, ct);
+        var account    = new Account(cloudName, apiKey, apiSecret);
+        var cloudinary = new Cloudinary(account) { Api = { Secure = true } };
 
-        _log.LogInformation("Admin uploaded image: {FileName} ({Size} bytes)", fileName, file.Length);
-        return Ok(new { url = $"/question-images/{fileName}" });
+        var publicId = $"{folder}/{Guid.NewGuid()}";
+
+        await using var stream = file.OpenReadStream();
+        var uploadParams = new ImageUploadParams
+        {
+            File           = new FileDescription(file.FileName, stream),
+            PublicId       = publicId,
+            Overwrite      = false,
+            UniqueFilename = false,
+        };
+
+        var result = await cloudinary.UploadAsync(uploadParams, ct);
+
+        if (result.Error != null)
+        {
+            _log.LogWarning("Cloudinary upload error: {Msg}", result.Error.Message);
+            return StatusCode(502, new { error = $"Cloudinary error: {result.Error.Message}" });
+        }
+
+        _log.LogInformation("Cloudinary upload OK: {Url} ({Size} bytes)", result.SecureUrl, file.Length);
+        return Ok(new { url = result.SecureUrl.ToString() });
     }
 
     // ---------------------------------------------------------------

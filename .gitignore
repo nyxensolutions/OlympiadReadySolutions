@@ -24,3 +24,6 @@ Thumbs.db
 
 # dotnet user-secrets (stored in AppData, never in project — but belt-and-suspenders)
 secrets.json
+
+# Local dev secrets - never commit
+api/appsettings.Development.json

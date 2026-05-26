@@ -10,6 +10,7 @@ QuestPDF.Settings.License = LicenseType.Community;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // ── GlitchTip / Sentry error tracking ────────────────────────────────────────
 builder.WebHost.UseSentry(o =>
 {
