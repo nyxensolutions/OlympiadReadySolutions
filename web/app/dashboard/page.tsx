@@ -14,6 +14,7 @@ import { SubscriptionBadge } from "@/components/SubscriptionBadge";
 import { BillingHistoryCard } from "@/components/BillingHistoryCard";
 import { UpgradeModal } from "@/components/UpgradeModal";
 import { OnboardingModal } from "@/components/OnboardingModal";
+import { CertificateModal, type CertificateConfig } from "@/components/CertificateModal";
 import type { DashboardSummary } from "@/lib/types";
 import { getShieldState, useShield as consumeShield } from "@/lib/streakShield";
 
@@ -52,8 +53,10 @@ type Badge = {
 function computeBadges(data: DashboardSummary): Badge[] {
   const { results } = data;
   const streak = computeStreak(results);
+  const totalTests = results.length;
+
   const bestPct =
-    results.length === 0
+    totalTests === 0
       ? 0
       : Math.max(
           ...results.map((r) =>
@@ -61,28 +64,78 @@ function computeBadges(data: DashboardSummary): Badge[] {
           )
         );
 
+  // Distinct subjects practiced
+  const subjectSet = new Set(results.map((r) => r.subject).filter(Boolean));
+
+  // Subjects where student scored 90%+ at least once
+  const masteredSubjects = new Set(
+    results
+      .filter((r) => r.totalQuestions > 0 && (r.score / r.totalQuestions) * 100 >= 90)
+      .map((r) => r.subject)
+  );
+
+  // Consecutive 90%+ tests (for "On Fire" badge)
+  let maxConsecutiveHigh = 0;
+  let curConsecutive = 0;
+  for (const r of [...results].reverse()) {
+    const pct = r.totalQuestions > 0 ? (r.score / r.totalQuestions) * 100 : 0;
+    if (pct >= 90) { curConsecutive++; maxConsecutiveHigh = Math.max(maxConsecutiveHigh, curConsecutive); }
+    else curConsecutive = 0;
+  }
+
+  // Score improvement (Comeback King): any retake where score improved by 20+ pct points
+  const byPaper: Record<string, number[]> = {};
+  for (const r of results) {
+    const key = r.paperTitle ?? "";
+    if (!byPaper[key]) byPaper[key] = [];
+    byPaper[key].push(r.totalQuestions > 0 ? (r.score / r.totalQuestions) * 100 : 0);
+  }
+  const hasComeback = Object.values(byPaper).some((scores) => {
+    if (scores.length < 2) return false;
+    for (let i = 1; i < scores.length; i++) {
+      if (scores[i] - scores[i - 1] >= 20) return true;
+    }
+    return false;
+  });
+
   return [
+    // ── Activity ──────────────────────────────────────────────────
     {
       id: "first_test",
       emoji: "🚀",
       label: "First Step",
       description: "Complete your first practice test",
-      earned: results.length >= 1,
+      earned: totalTests >= 1,
     },
     {
       id: "five_tests",
       emoji: "🔁",
       label: "On a Roll",
       description: "Complete 5 practice tests",
-      earned: results.length >= 5,
+      earned: totalTests >= 5,
     },
     {
       id: "ten_tests",
       emoji: "💪",
       label: "Dedicated",
       description: "Complete 10 practice tests",
-      earned: results.length >= 10,
+      earned: totalTests >= 10,
     },
+    {
+      id: "twenty_five_tests",
+      emoji: "🎓",
+      label: "Knowledge Seeker",
+      description: "Complete 25 practice tests",
+      earned: totalTests >= 25,
+    },
+    {
+      id: "century",
+      emoji: "💯",
+      label: "Century",
+      description: "Complete 100 practice tests",
+      earned: totalTests >= 100,
+    },
+    // ── Accuracy ──────────────────────────────────────────────────
     {
       id: "sharpshooter",
       emoji: "🎯",
@@ -98,6 +151,21 @@ function computeBadges(data: DashboardSummary): Badge[] {
       earned: results.some((r) => r.score === r.totalQuestions && r.totalQuestions > 0),
     },
     {
+      id: "on_fire",
+      emoji: "🔴",
+      label: "On Fire",
+      description: "Score 90%+ in 5 tests in a row",
+      earned: maxConsecutiveHigh >= 5,
+    },
+    {
+      id: "comeback",
+      emoji: "📈",
+      label: "Comeback King",
+      description: "Improve your score by 20+ points on a retake",
+      earned: hasComeback,
+    },
+    // ── Streaks ───────────────────────────────────────────────────
+    {
       id: "streak_3",
       emoji: "🔥",
       label: "3-Day Streak",
@@ -112,6 +180,14 @@ function computeBadges(data: DashboardSummary): Badge[] {
       earned: streak >= 7,
     },
     {
+      id: "streak_30",
+      emoji: "🗓️",
+      label: "Iron Will",
+      description: "Practice every day for 30 days",
+      earned: streak >= 30,
+    },
+    // ── Speed ─────────────────────────────────────────────────────
+    {
       id: "speed",
       emoji: "⚡",
       label: "Speed Demon",
@@ -119,11 +195,41 @@ function computeBadges(data: DashboardSummary): Badge[] {
       earned: results.some((r) => r.totalQuestions >= 10 && r.timeTakenSeconds < 300),
     },
     {
+      id: "lightning",
+      emoji: "🌩️",
+      label: "Lightning",
+      description: "Finish a 20-question test in under 8 minutes",
+      earned: results.some((r) => r.totalQuestions >= 20 && r.timeTakenSeconds < 480),
+    },
+    // ── Breadth ───────────────────────────────────────────────────
+    {
+      id: "explorer",
+      emoji: "🌍",
+      label: "Explorer",
+      description: "Practice tests in 3 different subjects",
+      earned: subjectSet.size >= 3,
+    },
+    {
+      id: "all_rounder",
+      emoji: "🌟",
+      label: "All-Rounder",
+      description: "Score 90%+ in 3 different subjects",
+      earned: masteredSubjects.size >= 3,
+    },
+    // ── Milestones ────────────────────────────────────────────────
+    {
       id: "mock_exam",
-      emoji: "🏆",
+      emoji: "📋",
       label: "Olympiad Scholar",
       description: "Complete your first Full Mock Exam",
       earned: results.some((r) => r.paperTitle?.startsWith("Mock Exam")),
+    },
+    {
+      id: "mock_3",
+      emoji: "🏆",
+      label: "Mock Master",
+      description: "Complete 3 Full Mock Exams",
+      earned: results.filter((r) => r.paperTitle?.startsWith("Mock Exam")).length >= 3,
     },
   ];
 }
@@ -185,6 +291,7 @@ function DashboardBody() {
   const [shareToken, setShareToken] = useState<string | null>(null);
   const [shareCopied, setShareCopied] = useState(false);
   const [showUpgrade, setShowUpgrade] = useState(false);
+  const [certConfig, setCertConfig] = useState<CertificateConfig | null>(null);
   const [shieldState, setShieldState] = useState<{ shields: number; usedDates: string[] }>({
     shields: 0,
     usedDates: [],
@@ -258,8 +365,25 @@ function DashboardBody() {
 
   const mockExams = data.results.filter(r => r.paperTitle?.startsWith("Mock Exam"));
 
+  function openCertificate(badge: Badge) {
+    const isLegend = earnedCount === badges.length;
+    setCertConfig({
+      badgeId: badge.id,
+      badgeLabel: badge.label,
+      badgeEmoji: badge.emoji,
+      description: badge.description,
+      rewardType: isLegend ? "physical" : "digital",
+    });
+  }
+
   return (
     <>
+      {certConfig && (
+        <CertificateModal
+          config={certConfig}
+          onClose={() => setCertConfig(null)}
+        />
+      )}
       {/* Gradient page banner */}
       <div className="bg-gradient-hero px-4 py-10 text-white shadow-md">
         <div className="mx-auto max-w-6xl flex flex-wrap items-center justify-between gap-4">
@@ -446,12 +570,24 @@ function DashboardBody() {
               {earnedCount} of {badges.length} earned
             </span>
           </div>
-          <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+
+          {/* Olympiad Legend banner */}
+          {earnedCount === badges.length && (
+            <div className="mt-4 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-400 p-4 text-white flex items-center gap-3 shadow-md">
+              <span className="text-3xl">🏆</span>
+              <div className="flex-1">
+                <p className="font-bold text-sm">You are an Olympiad Legend!</p>
+                <p className="text-xs opacity-90 mt-0.5">You&apos;ve earned every badge. Claim your physical medal &amp; certificate below.</p>
+              </div>
+            </div>
+          )}
+
+          <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-5">
             {badges.map((badge) => (
               <div
                 key={badge.id}
                 title={badge.description}
-                className={`relative flex flex-col items-center gap-1.5 rounded-xl border p-4 text-center transition ${
+                className={`relative flex flex-col items-center gap-1.5 rounded-xl border p-3 text-center transition ${
                   badge.earned
                     ? "border-amber-200 bg-gradient-to-b from-amber-50 to-white shadow-sm"
                     : "border-slate-200 bg-white"
@@ -471,9 +607,16 @@ function DashboardBody() {
                 <p className={`text-[10px] leading-tight ${badge.earned ? "text-amber-600" : "text-slate-400"}`}>
                   {badge.description}
                 </p>
-                {badge.earned && (
-                  <span className="mt-0.5 rounded-full bg-amber-200 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-amber-800">
-                    Earned
+                {badge.earned ? (
+                  <button
+                    onClick={() => openCertificate(badge)}
+                    className="mt-1 rounded-full bg-amber-500 hover:bg-amber-600 text-white px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide transition"
+                  >
+                    🎓 Certificate
+                  </button>
+                ) : (
+                  <span className="mt-0.5 rounded-full bg-slate-100 px-2 py-0.5 text-[9px] font-medium text-slate-400">
+                    Locked
                   </span>
                 )}
               </div>

@@ -89,7 +89,7 @@ export default function MockExamsPage() {
       const token = await getToken();
       const res = await fetch(`${API_URL}/api/mock-exams/generate`, {
         method: "POST",
-        headers: { 
+        headers: {
           "Content-Type": "application/json",
           ...(token ? { Authorization: `Bearer ${token}` } : {})
         },
@@ -106,14 +106,14 @@ export default function MockExamsPage() {
       });
 
       if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.message || "Failed to generate mock exam");
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.message || `Server error (${res.status})`);
       }
 
       const paperData = await res.json();
       setGeneratedPaper(paperData);
     } catch (err: any) {
-      setError(err.message);
+      setError(err.message || "Failed to generate mock exam. Please try again.");
     } finally {
       setLoading(false);
     }

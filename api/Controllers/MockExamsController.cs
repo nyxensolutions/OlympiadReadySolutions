@@ -133,17 +133,17 @@ public class MockExamsController : ControllerBase
         };
 
         var finalQuestions = new List<Question>();
-        // Track all selected question IDs across sections to prevent repetition
+        // Shared used-ID set — accessed only after all DB fetches complete, so no race condition
         var usedIds = new HashSet<Guid>();
 
+        // ── Phase 1: fetch DB questions for all sections (sequential to avoid ID collisions) ──
+        var sectionDbQuestions = new List<List<Question>>();
         foreach (var section in req.Sections)
         {
             int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(section.Questions, 10) : 0;
             int dbCount = section.Questions - aiCount;
-
             var sectionQuestions = new List<Question>();
 
-            // ── DB questions: spread across difficulty buckets based on complexity ──
             if (dbCount > 0)
             {
                 var weights = GetWeights(complexity);
@@ -153,7 +153,6 @@ public class MockExamsController : ControllerBase
                 foreach (var (diff, weight) in weights)
                 {
                     if (remaining <= 0) break;
-                    // Last bucket gets whatever is left to avoid rounding gaps
                     int bucketCount = bucketIdx == weights.Count - 1
                         ? remaining
                         : (int)Math.Round(dbCount * weight);
@@ -174,7 +173,6 @@ public class MockExamsController : ControllerBase
                     }
                 }
 
-                // If still short (some difficulty buckets had no questions), fill from any difficulty
                 if (remaining > 0)
                 {
                     var fillQuestions = await _bank.TryGetRandomAsync(
@@ -187,72 +185,77 @@ public class MockExamsController : ControllerBase
                     }
                 }
             }
+            sectionDbQuestions.Add(sectionQuestions);
+        }
 
-            // ── AI questions ──
-            if (aiCount > 0)
+        // ── Phase 2: fire all AI calls in parallel ──
+        var aiTasks = req.Sections.Select((section, i) =>
+        {
+            int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(section.Questions, 10) : 0;
+            int shortfall = section.Questions - sectionDbQuestions[i].Count;
+            int totalAiNeeded = Math.Max(aiCount, shortfall);
+
+            if (totalAiNeeded <= 0)
+                return Task.FromResult<List<Question>>(new List<Question>());
+
+            _log.LogInformation("Parallel AI call: {Count} questions for section '{Section}' ({Subject} G{Grade})",
+                totalAiNeeded, section.Name, req.Subject, req.Grade);
+
+            return _ai.GenerateQuestionsAsync(
+                req.Subject, req.Grade, section.Difficulty, totalAiNeeded, null, ct, req.Level, req.OlympiadId);
+        }).ToList();
+
+        var allAiResults = await Task.WhenAll(aiTasks);
+
+        // ── Phase 3: merge DB + AI results, persist new AI questions, DB-fill any remaining gap ──
+        for (int i = 0; i < req.Sections.Count; i++)
+        {
+            var section = req.Sections[i];
+            var sectionQuestions = sectionDbQuestions[i];
+            var aiQuestions = allAiResults[i] ?? new List<Question>();
+
+            sectionQuestions.AddRange(aiQuestions);
+
+            // Persist AI-generated questions to bank for future reuse
+            foreach (var q in aiQuestions)
             {
-                _log.LogInformation("Hybrid mock: calling AI for {Count} questions section {Section}", aiCount, section.Name);
-                var aiQuestions = await _ai.GenerateQuestionsAsync(
-                    req.Subject, req.Grade, section.Difficulty, aiCount, null, ct, req.Level, req.OlympiadId);
+                int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
+                string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
 
-                sectionQuestions.AddRange(aiQuestions);
-
-                foreach(var q in aiQuestions)
+                _db.QuestionBank.Add(new QuestionBankItem
                 {
-                    int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
-                    string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
+                    Subject = req.Subject,
+                    Grade = req.Grade,
+                    Difficulty = section.Difficulty,
+                    Topic = q.Topic ?? "General",
+                    QuestionText = q.Q ?? "",
+                    OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
+                    CorrectAnswer = letterAnswer,
+                    Explanation = q.Explanation ?? "",
+                    CreatedAt = DateTime.UtcNow
+                });
+            }
 
-                    var qbItem = new QuestionBankItem
-                    {
-                        Subject = req.Subject,
-                        Grade = req.Grade,
-                        Difficulty = section.Difficulty,
-                        Topic = q.Topic ?? "General",
-                        QuestionText = q.Q ?? "",
-                        OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
-                        CorrectAnswer = letterAnswer,
-                        Explanation = q.Explanation ?? "",
-                        CreatedAt = DateTime.UtcNow
-                    };
-                    _db.QuestionBank.Add(qbItem);
+            // Always back-fill from DB if still short (AI timed out, returned fewer, or was skipped)
+            int gap = section.Questions - sectionQuestions.Count;
+            if (gap > 0)
+            {
+                _log.LogInformation(
+                    "DB back-fill: {Gap} questions needed for section '{Section}' after AI ({Subject} G{Grade})",
+                    gap, section.Name, req.Subject, req.Grade);
+
+                // Try specific difficulty first, then any difficulty
+                var fill = await _bank.TryGetRandomAsync(req.Subject, req.Grade, section.Difficulty, gap, null, ct, usedIds)
+                        ?? await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, gap, null, ct, usedIds);
+
+                if (fill != null)
+                {
+                    sectionQuestions.AddRange(fill);
+                    foreach (var q in fill)
+                        if (q.BankId != Guid.Empty) usedIds.Add(q.BankId);
                 }
             }
 
-            // ── Fallback to AI for any remaining shortfall ──
-            int shortfall = section.Questions - sectionQuestions.Count;
-            if (shortfall > 0)
-            {
-                _log.LogInformation("Shortfall of {Shortfall} questions in section '{Section}' for {Subject} G{Grade}. Calling AI fallback...", shortfall, section.Name, req.Subject, req.Grade);
-                var aiQuestions = await _ai.GenerateQuestionsAsync(
-                    req.Subject, req.Grade, section.Difficulty, shortfall, null, ct, req.Level, req.OlympiadId);
-
-                if (aiQuestions != null && aiQuestions.Any())
-                {
-                    sectionQuestions.AddRange(aiQuestions);
-
-                    foreach(var q in aiQuestions)
-                    {
-                        int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
-                        string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
-
-                        var qbItem = new QuestionBankItem
-                        {
-                            Subject = req.Subject,
-                            Grade = req.Grade,
-                            Difficulty = section.Difficulty,
-                            Topic = q.Topic ?? "General",
-                            QuestionText = q.Q ?? "",
-                            OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
-                            CorrectAnswer = letterAnswer,
-                            Explanation = q.Explanation ?? "",
-                            CreatedAt = DateTime.UtcNow
-                        };
-                        _db.QuestionBank.Add(qbItem);
-                    }
-                }
-            }
-
-            // Assign section and marks
             foreach (var q in sectionQuestions)
             {
                 q.SectionName = section.Name;

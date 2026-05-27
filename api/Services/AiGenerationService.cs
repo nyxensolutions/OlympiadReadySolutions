@@ -198,42 +198,48 @@ public class AiGenerationService
             response_format = new { type = "json_object" }
         };
 
-        using var req = new HttpRequestMessage(HttpMethod.Post, "v1/chat/completions");
-        req.Headers.Add("Authorization", $"Bearer {_apiKey}");
-        req.Content = JsonContent.Create(payload);
-
-        using var res = await _http.SendAsync(req, ct);
-        var body = await res.Content.ReadAsStringAsync(ct);
-
-        if (!res.IsSuccessStatusCode)
+        try
         {
-            _log.LogError("OpenAI API error {Status}: {Body}", res.StatusCode, body);
-            throw new HttpRequestException($"OpenAI API returned {(int)res.StatusCode}: {body}");
-        }
+            using var req = new HttpRequestMessage(HttpMethod.Post, "v1/chat/completions");
+            req.Headers.Add("Authorization", $"Bearer {_apiKey}");
+            req.Content = JsonContent.Create(payload);
 
-        var parsed = JsonSerializer.Deserialize<OpenAiResponse>(body)
-            ?? throw new InvalidOperationException("Empty OpenAI response");
+            using var res = await _http.SendAsync(req, ct);
+            var body = await res.Content.ReadAsStringAsync(ct);
 
-        if (parsed.Usage is { } u)
-        {
-            _log.LogInformation(
-                "OpenAI usage — prompt: {Prompt}, completion: {Completion}, total: {Total}",
-                u.PromptTokens, u.CompletionTokens, u.TotalTokens);
-        }
+            if (!res.IsSuccessStatusCode)
+            {
+                _log.LogWarning("OpenAI API error {Status} — falling back to DB questions. Body: {Body}",
+                    res.StatusCode, body.Length > 500 ? body[..500] : body);
+                return new List<Question>();
+            }
 
-        var content = parsed.Choices?.FirstOrDefault()?.Message?.Content;
-        if (string.IsNullOrWhiteSpace(content))
-            return new List<Question>();
+            var parsed = JsonSerializer.Deserialize<OpenAiResponse>(body);
+            if (parsed is null)
+            {
+                _log.LogWarning("OpenAI returned empty/unparseable response — falling back to DB questions.");
+                return new List<Question>();
+            }
 
-        try 
-        {
+            if (parsed.Usage is { } u)
+            {
+                _log.LogInformation(
+                    "OpenAI usage — prompt: {Prompt}, completion: {Completion}, total: {Total}",
+                    u.PromptTokens, u.CompletionTokens, u.TotalTokens);
+            }
+
+            var content = parsed.Choices?.FirstOrDefault()?.Message?.Content;
+            if (string.IsNullOrWhiteSpace(content))
+                return new List<Question>();
+
             var result = JsonSerializer.Deserialize<OpenAiQuestionResponse>(content);
             return result?.Questions ?? new List<Question>();
         }
         catch (Exception ex)
         {
-            _log.LogError(ex, "Failed to parse OpenAI JSON response: {Content}", content);
-            throw new InvalidOperationException("Failed to parse OpenAI response as JSON.", ex);
+            _log.LogWarning(ex, "AI generation failed for {Subject} G{Grade} {Difficulty} — falling back to DB questions.",
+                subject, grade, difficulty);
+            return new List<Question>();
         }
     }
 

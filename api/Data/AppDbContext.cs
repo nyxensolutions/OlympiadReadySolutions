@@ -17,6 +17,7 @@ public class AppDbContext : DbContext
     public DbSet<OlympiadSchedule> OlympiadSchedules => Set<OlympiadSchedule>();
     public DbSet<UserMistake> UserMistakes => Set<UserMistake>();
     public DbSet<SpellBeeWord> SpellBeeWords => Set<SpellBeeWord>();
+    public DbSet<PhysicalRewardClaim> PhysicalRewardClaims => Set<PhysicalRewardClaim>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
@@ -183,6 +184,25 @@ public class AppDbContext : DbContext
             e.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
             e.HasIndex(x => new { x.Grade, x.Difficulty, x.Category });
             e.HasIndex(x => x.Word).IsUnique();
+        });
+
+        b.Entity<PhysicalRewardClaim>(e =>
+        {
+            e.ToTable("PhysicalRewardClaims");
+            e.HasKey(x => x.ClaimId);
+            e.Property(x => x.ClaimId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.RewardType).HasMaxLength(100).IsRequired();
+            e.Property(x => x.Status).HasMaxLength(50).HasDefaultValue("Pending");
+            e.Property(x => x.RequestedAt).HasDefaultValueSql("GETDATE()");
+            e.Property(x => x.AdminNotes).HasMaxLength(500);
+            e.Property(x => x.StudentName).HasMaxLength(255);
+            e.Property(x => x.TrackingNumber).HasMaxLength(100);
+            e.HasOne(x => x.User)
+                .WithMany()
+                .HasForeignKey(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+            e.HasIndex(x => new { x.UserId, x.RewardType });
+            e.HasIndex(x => x.Status);
         });
     }
 }

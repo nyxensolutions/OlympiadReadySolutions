@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OlympiadReady.Api.Services;
 
 namespace OlympiadReady.Api.Controllers;
@@ -475,6 +476,279 @@ public class AdminController : ControllerBase
         return Ok(new { message = "Question added successfully.", inserted = result.Inserted });
     }
 
+    // ── PUT /api/admin/questions/{id} — update an existing question ──────────
+    [HttpPut("questions/{id:guid}")]
+    public async Task<IActionResult> UpdateQuestion(Guid id, [FromBody] AddQuestionDto dto, CancellationToken ct)
+    {
+        if (!IsAuthorised())
+            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        if (string.IsNullOrWhiteSpace(dto.Subject))
+            return BadRequest(new { error = "subject is required." });
+        if (dto.Grade is < 1 or > 12)
+            return BadRequest(new { error = "grade must be 1-12." });
+        if (string.IsNullOrWhiteSpace(dto.QuestionText))
+            return BadRequest(new { error = "questionText is required." });
+        if (dto.Options == null || dto.Options.Count != 4)
+            return BadRequest(new { error = "Exactly 4 options required." });
+        if (!new[] { "A","B","C","D" }.Contains(dto.CorrectAnswer))
+            return BadRequest(new { error = "correctAnswer must be A, B, C, or D." });
+
+        var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(dto.Subject);
+        if (!recognized)
+            return BadRequest(new { error = SubjectNormalizer.UnrecognisedMessage(dto.Subject) });
+
+        var item = await _db.QuestionBank.FindAsync(new object[] { id }, ct);
+        if (item is null)
+            return NotFound(new { error = "Question not found." });
+
+        item.Subject      = canonicalSubject!;
+        item.Grade        = dto.Grade;
+        item.Difficulty   = dto.Difficulty ?? item.Difficulty;
+        item.Topic        = dto.Topic?.Trim() ?? item.Topic;
+        item.SubTopic     = dto.SubTopic?.Trim() ?? item.SubTopic;
+        item.QuestionText = dto.QuestionText.Trim();
+        item.ImageUrl     = string.IsNullOrWhiteSpace(dto.ImageUrl) ? null : dto.ImageUrl.Trim();
+        item.OptionsJson  = System.Text.Json.JsonSerializer.Serialize(dto.Options);
+        item.CorrectAnswer = dto.CorrectAnswer!;
+        item.Explanation  = dto.Explanation?.Trim() ?? item.Explanation;
+
+        await _db.SaveChangesAsync(ct);
+        return Ok(new { message = "Question updated successfully." });
+    }
+
+    // ---------------------------------------------------------------
+    // GET /api/admin/badges
+    // Returns all users with their computed badge breakdown and physical-reward eligibility.
+    // ---------------------------------------------------------------
+    [HttpGet("badges")]
+    public async Task<IActionResult> GetUserBadges(CancellationToken ct)
+    {
+        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        var users = await _db.Users
+            .AsNoTracking()
+            .Select(u => new
+            {
+                u.UserId,
+                u.FullName,
+                u.Email,
+                u.CreatedAt,
+                u.SubscriptionTier,
+                Results = u.Results.Select(r => new
+                {
+                    r.Score,
+                    r.TotalQuestions,
+                    r.TimeTakenSeconds,
+                    r.CompletedAt,
+                    PaperTitle = r.Paper != null ? r.Paper.Title : "",
+                    Subject = r.Paper != null ? r.Paper.Subject : ""
+                }).ToList()
+            })
+            .ToListAsync(ct);
+
+        var result = users.Select(u =>
+        {
+            var results = u.Results;
+            var totalTests = results.Count;
+            var bestPct = totalTests == 0 ? 0.0 :
+                results.Max(r => r.TotalQuestions > 0 ? (double)r.Score / r.TotalQuestions * 100.0 : 0.0);
+
+            // Streak computation
+            var practicedDates = results
+                .Select(r => r.CompletedAt.Date)
+                .Distinct()
+                .OrderByDescending(d => d)
+                .ToList();
+
+            int streak = 0;
+            if (practicedDates.Count > 0)
+            {
+                var today = DateTime.UtcNow.Date;
+                var yesterday = today.AddDays(-1);
+                if (practicedDates[0] == today || practicedDates[0] == yesterday)
+                {
+                    streak = 1;
+                    for (int i = 1; i < practicedDates.Count; i++)
+                    {
+                        var diff = (practicedDates[i - 1] - practicedDates[i]).TotalDays;
+                        if (diff == 1) streak++;
+                        else break;
+                    }
+                }
+            }
+
+            // Distinct subjects practiced
+            var subjectCount = results.Select(r => r.Subject).Where(s => !string.IsNullOrEmpty(s)).Distinct().Count();
+
+            // Subjects where student scored 90%+
+            var masteredSubjects = results
+                .Where(r => r.TotalQuestions > 0 && (double)r.Score / r.TotalQuestions * 100.0 >= 90)
+                .Select(r => r.Subject)
+                .Distinct()
+                .Count();
+
+            // Max consecutive 90%+ tests
+            int maxConsec = 0, curConsec = 0;
+            foreach (var r in results.OrderBy(r => r.CompletedAt))
+            {
+                var pct = r.TotalQuestions > 0 ? (double)r.Score / r.TotalQuestions * 100.0 : 0;
+                if (pct >= 90) { curConsec++; maxConsec = Math.Max(maxConsec, curConsec); }
+                else curConsec = 0;
+            }
+
+            // Comeback King: improved 20+ pct on a retake
+            var byPaper = results.GroupBy(r => r.PaperTitle ?? "").ToDictionary(g => g.Key, g => g.OrderBy(r => r.CompletedAt).ToList());
+            var hasComeback = byPaper.Values.Any(scores => {
+                for (int i = 1; i < scores.Count; i++)
+                {
+                    var prev = scores[i-1].TotalQuestions > 0 ? (double)scores[i-1].Score / scores[i-1].TotalQuestions * 100.0 : 0;
+                    var curr = scores[i].TotalQuestions   > 0 ? (double)scores[i].Score   / scores[i].TotalQuestions   * 100.0 : 0;
+                    if (curr - prev >= 20) return true;
+                }
+                return false;
+            });
+
+            var badges = new Dictionary<string, bool>
+            {
+                // Activity
+                ["first_test"]       = totalTests >= 1,
+                ["five_tests"]       = totalTests >= 5,
+                ["ten_tests"]        = totalTests >= 10,
+                ["twenty_five_tests"]= totalTests >= 25,
+                ["century"]          = totalTests >= 100,
+                // Accuracy
+                ["sharpshooter"]     = bestPct >= 90,
+                ["perfect"]          = results.Any(r => r.Score == r.TotalQuestions && r.TotalQuestions > 0),
+                ["on_fire"]          = maxConsec >= 5,
+                ["comeback"]         = hasComeback,
+                // Streaks
+                ["streak_3"]         = streak >= 3,
+                ["streak_7"]         = streak >= 7,
+                ["streak_30"]        = streak >= 30,
+                // Speed
+                ["speed"]            = results.Any(r => r.TotalQuestions >= 10 && r.TimeTakenSeconds < 300),
+                ["lightning"]        = results.Any(r => r.TotalQuestions >= 20 && r.TimeTakenSeconds < 480),
+                // Breadth
+                ["explorer"]         = subjectCount >= 3,
+                ["all_rounder"]      = masteredSubjects >= 3,
+                // Milestones
+                ["mock_exam"]        = results.Any(r => (r.PaperTitle ?? "").StartsWith("Mock Exam")),
+                ["mock_3"]           = results.Count(r => (r.PaperTitle ?? "").StartsWith("Mock Exam")) >= 3,
+            };
+
+            int earnedCount = badges.Values.Count(v => v);
+            bool legendEligible = earnedCount == badges.Count; // all 18 badges
+
+            return new
+            {
+                userId = u.UserId,
+                fullName = u.FullName ?? u.Email,
+                email = u.Email,
+                joinedAt = u.CreatedAt,
+                subscriptionTier = u.SubscriptionTier,
+                totalTests,
+                bestPct = Math.Round(bestPct, 1),
+                streak,
+                earnedCount,
+                totalBadges = badges.Count,
+                badges,
+                physicalRewardEligible = legendEligible,
+            };
+        })
+        .OrderByDescending(x => x.earnedCount)
+        .ThenByDescending(x => x.totalTests)
+        .ToList();
+
+        return Ok(result);
+    }
+
+    // ---------------------------------------------------------------
+    // GET /api/admin/physical-rewards
+    // Lists all physical reward claims with user info.
+    // ---------------------------------------------------------------
+    [HttpGet("physical-rewards")]
+    public async Task<IActionResult> GetPhysicalRewards(CancellationToken ct)
+    {
+        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        var claims = await _db.PhysicalRewardClaims
+            .AsNoTracking()
+            .Include(c => c.User)
+            .OrderByDescending(c => c.RequestedAt)
+            .Select(c => new
+            {
+                claimId = c.ClaimId,
+                userId = c.UserId,
+                studentName = c.StudentName ?? c.User!.FullName ?? c.User.Email,
+                email = c.User!.Email,
+                rewardType = c.RewardType,
+                status = c.Status,
+                requestedAt = c.RequestedAt,
+                shippedAt = c.ShippedAt,
+                adminNotes = c.AdminNotes,
+                trackingNumber = c.TrackingNumber,
+            })
+            .ToListAsync(ct);
+
+        return Ok(claims);
+    }
+
+    // ---------------------------------------------------------------
+    // PUT /api/admin/physical-rewards/{id}
+    // Update status, tracking number, or notes on a claim.
+    // ---------------------------------------------------------------
+    [HttpPut("physical-rewards/{id:guid}")]
+    public async Task<IActionResult> UpdatePhysicalReward(Guid id, [FromBody] UpdateRewardDto dto, CancellationToken ct)
+    {
+        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        var claim = await _db.PhysicalRewardClaims.FindAsync(new object[] { id }, ct);
+        if (claim is null) return NotFound(new { error = "Claim not found." });
+
+        if (!string.IsNullOrWhiteSpace(dto.Status))
+        {
+            claim.Status = dto.Status;
+            if (dto.Status == "Shipped" && claim.ShippedAt is null)
+                claim.ShippedAt = DateTime.UtcNow;
+        }
+        if (dto.AdminNotes is not null)  claim.AdminNotes = dto.AdminNotes;
+        if (dto.TrackingNumber is not null) claim.TrackingNumber = dto.TrackingNumber;
+
+        await _db.SaveChangesAsync(ct);
+        return Ok(new { message = "Reward claim updated." });
+    }
+
+    // ---------------------------------------------------------------
+    // POST /api/admin/physical-rewards/{userId}/claim
+    // Manually create a claim on behalf of a student (admin-initiated).
+    // ---------------------------------------------------------------
+    [HttpPost("physical-rewards/{userId:guid}/claim")]
+    public async Task<IActionResult> CreatePhysicalRewardClaim(Guid userId, [FromBody] CreateRewardClaimDto dto, CancellationToken ct)
+    {
+        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        var user = await _db.Users.FindAsync(new object[] { userId }, ct);
+        if (user is null) return NotFound(new { error = "User not found." });
+
+        var existing = await _db.PhysicalRewardClaims
+            .Where(c => c.UserId == userId && c.RewardType == dto.RewardType && c.Status != "Cancelled")
+            .AnyAsync(ct);
+        if (existing) return Conflict(new { error = "An active claim already exists for this reward type." });
+
+        var claim = new OlympiadReady.Api.Data.Entities.PhysicalRewardClaim
+        {
+            UserId = userId,
+            RewardType = dto.RewardType ?? "olympiad_legend",
+            StudentName = dto.StudentName,
+            Status = "Pending",
+            RequestedAt = DateTime.UtcNow,
+        };
+        _db.PhysicalRewardClaims.Add(claim);
+        await _db.SaveChangesAsync(ct);
+        return Ok(new { claimId = claim.ClaimId, message = "Claim created." });
+    }
+
     // ---------------------------------------------------------------
     private bool IsAuthorised()
     {
@@ -485,6 +759,10 @@ public class AdminController : ControllerBase
         return string.Equals(configKey, provided, StringComparison.Ordinal);
     }
 }
+
+// ─── DTOs ─────────────────────────────────────────────────────────────────────
+public record UpdateRewardDto(string? Status, string? AdminNotes, string? TrackingNumber);
+public record CreateRewardClaimDto(string? RewardType, string? StudentName);
 
 // DTO that matches the JSON schema the user will prepare
 public class ImportRowDto

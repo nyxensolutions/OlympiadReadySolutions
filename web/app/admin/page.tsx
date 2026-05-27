@@ -1,23 +1,25 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import {
   Upload, X, CheckCircle, AlertCircle, Eye, EyeOff, ImageIcon, Type,
   Link, Search, PlusCircle, Trash2, RotateCcw, ArrowRight, Database,
+  Pencil, Save, ChevronDown, ChevronUp, Award,
 } from "lucide-react";
+import { BadgesPanel } from "@/components/admin/BadgesPanel";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
 const SUBJECTS = [
   "Mathematics", "Science", "English", "Hindi", "General Knowledge",
-  "Social Studies", "Logical Reasoning", "Cyber", "Commerce", "AI",
+  "Social Studies", "Logical Reasoning", "Cyber", "Commerce", "AI", "Spell Bee",
 ];
 const DIFFICULTIES = ["Foundation", "Advanced", "Olympiad"];
 const GRADES = Array.from({ length: 12 }, (_, i) => i + 1);
 const ANSWER_LABELS = ["A", "B", "C", "D"] as const;
 type AnswerLabel = "A" | "B" | "C" | "D";
 type QuestionMode = "standard" | "image-options";
-type TabId = "add" | "browse";
+type TabId = "add" | "browse" | "badges";
 
 interface StoredImage { url: string; preview: string; }
 interface Toast { type: "success" | "error"; message: string; }
@@ -31,6 +33,9 @@ interface LastAdded { subject: string; grade: number; topic: string; questionTex
 function isValidUrl(s: string) { try { new URL(s); return true; } catch { return false; } }
 function isImgUrl(s: string) {
   return s.startsWith("http://") || s.startsWith("https://") || s.startsWith("/question-images/");
+}
+function detectMode(q: BankQuestion): QuestionMode {
+  return q.options.some(isImgUrl) ? "image-options" : "standard";
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -46,11 +51,13 @@ export default function AdminPage() {
   const [stats, setStats] = useState<{ total: number } | null>(null);
   const [lastAdded, setLastAdded] = useState<LastAdded | null>(null);
 
-  // browse tab: lifted so Add tab can trigger a prefilled search
   const [browseFilters, setBrowseFilters] = useState({
     subject: "", grade: "" as number | "", difficulty: "", topic: "", search: "", hasImage: false,
   });
   const [triggerSearch, setTriggerSearch] = useState(0);
+
+  // Global edit modal state
+  const [editingQuestion, setEditingQuestion] = useState<BankQuestion | null>(null);
 
   function showToast(type: Toast["type"], message: string) {
     setToast({ type, message });
@@ -80,7 +87,6 @@ export default function AdminPage() {
     setTriggerSearch((n) => n + 1);
   }
 
-  // ── Auth gate ────────────────────────────────────────────────────────────
   if (!authed) {
     return (
       <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4">
@@ -105,7 +111,6 @@ export default function AdminPage() {
     );
   }
 
-  // ── Main ─────────────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 p-4 md:p-8">
       {/* Toast */}
@@ -115,6 +120,22 @@ export default function AdminPage() {
           {toast.type === "success" ? <CheckCircle size={16} /> : <AlertCircle size={16} />}
           {toast.message}
         </div>
+      )}
+
+      {/* Edit Modal */}
+      {editingQuestion && (
+        <EditModal
+          question={editingQuestion}
+          adminKey={adminKey}
+          showToast={showToast}
+          onClose={() => setEditingQuestion(null)}
+          onSaved={(updated) => {
+            setEditingQuestion(null);
+            showToast("success", "Question updated!");
+            // bubble updated data back to browse panel via a refresh trigger
+            setTriggerSearch((n) => n + 1);
+          }}
+        />
       )}
 
       <div className="max-w-3xl mx-auto">
@@ -140,24 +161,25 @@ export default function AdminPage() {
             icon={<PlusCircle size={15} />} label="Add Question" />
           <TabBtn id="browse" active={activeTab === "browse"} onClick={() => setActiveTab("browse")}
             icon={<Search size={15} />} label="Browse & Manage" />
+          <TabBtn id="badges" active={activeTab === "badges"} onClick={() => setActiveTab("badges")}
+            icon={<Award size={15} />} label="Badges & Rewards" />
         </div>
 
-        {/* ── Add Question tab ── */}
         {activeTab === "add" && (
           <AddQuestionForm
             adminKey={adminKey}
             showToast={showToast}
-            onAdded={(info) => {
-              setLastAdded(info);
-              loadStats(adminKey);
-            }}
+            onAdded={(info) => { setLastAdded(info); loadStats(adminKey); }}
             goToBrowse={goToBrowse}
             lastAdded={lastAdded}
             onDismissAdded={() => setLastAdded(null)}
           />
         )}
 
-        {/* ── Browse & Manage tab ── */}
+        {activeTab === "badges" && (
+          <BadgesPanel adminKey={adminKey} showToast={showToast} />
+        )}
+
         {activeTab === "browse" && (
           <BrowsePanel
             adminKey={adminKey}
@@ -166,6 +188,7 @@ export default function AdminPage() {
             setFilters={setBrowseFilters}
             triggerSearch={triggerSearch}
             onDeleted={() => loadStats(adminKey)}
+            onEdit={(q) => setEditingQuestion(q)}
           />
         )}
       </div>
@@ -195,6 +218,292 @@ function TabBtn({ id, active, onClick, icon, label }: {
   );
 }
 
+// ─── Shared question form fields (used by both Add and Edit) ──────────────────
+interface QuestionFormState {
+  mode: QuestionMode;
+  subject: string; grade: number; difficulty: string;
+  topic: string; subTopic: string; questionText: string; explanation: string;
+  correctAnswer: AnswerLabel;
+  questionImage: StoredImage | null;
+  textOptions: string[];
+  optionImages: (StoredImage | null)[];
+}
+
+function useQuestionForm(initial?: Partial<QuestionFormState>) {
+  const [mode, setMode] = useState<QuestionMode>(initial?.mode ?? "standard");
+  const [subject, setSubject] = useState(initial?.subject ?? SUBJECTS[0]);
+  const [grade, setGrade] = useState(initial?.grade ?? 1);
+  const [difficulty, setDifficulty] = useState(initial?.difficulty ?? DIFFICULTIES[0]);
+  const [topic, setTopic] = useState(initial?.topic ?? "");
+  const [subTopic, setSubTopic] = useState(initial?.subTopic ?? "");
+  const [questionText, setQuestionText] = useState(initial?.questionText ?? "");
+  const [explanation, setExplanation] = useState(initial?.explanation ?? "");
+  const [correctAnswer, setCorrectAnswer] = useState<AnswerLabel>(initial?.correctAnswer ?? "A");
+  const [questionImage, setQuestionImage] = useState<StoredImage | null>(initial?.questionImage ?? null);
+  const [textOptions, setTextOptions] = useState(initial?.textOptions ?? ["", "", "", ""]);
+  const [optionImages, setOptionImages] = useState<(StoredImage | null)[]>(initial?.optionImages ?? [null, null, null, null]);
+
+  return {
+    mode, setMode, subject, setSubject, grade, setGrade,
+    difficulty, setDifficulty, topic, setTopic, subTopic, setSubTopic,
+    questionText, setQuestionText, explanation, setExplanation,
+    correctAnswer, setCorrectAnswer, questionImage, setQuestionImage,
+    textOptions, setTextOptions, optionImages, setOptionImages,
+  };
+}
+
+// ─── Edit Modal ───────────────────────────────────────────────────────────────
+function EditModal({ question, adminKey, showToast, onClose, onSaved }: {
+  question: BankQuestion;
+  adminKey: string;
+  showToast: (t: Toast["type"], m: string) => void;
+  onClose: () => void;
+  onSaved: (updated: BankQuestion) => void;
+}) {
+  const initialMode = detectMode(question);
+  const initialOptImages: (StoredImage | null)[] = initialMode === "image-options"
+    ? question.options.map((o) => ({ url: o, preview: o }))
+    : [null, null, null, null];
+  const initialTextOpts = initialMode === "standard" ? question.options : ["", "", "", ""];
+
+  const form = useQuestionForm({
+    mode: initialMode,
+    subject: question.subject,
+    grade: question.grade,
+    difficulty: question.difficulty,
+    topic: question.topic,
+    subTopic: question.subTopic ?? "",
+    questionText: question.questionText,
+    explanation: question.explanation,
+    correctAnswer: question.correctAnswer as AnswerLabel,
+    questionImage: question.imageUrl ? { url: question.imageUrl, preview: question.imageUrl } : null,
+    textOptions: initialTextOpts,
+    optionImages: initialOptImages,
+  });
+
+  const [uploading, setUploading] = useState<Record<string, boolean>>({});
+  const [saving, setSaving] = useState(false);
+
+  const questionImgRef = useRef<HTMLInputElement>(null);
+  const optionImgRefs = [useRef<HTMLInputElement>(null), useRef<HTMLInputElement>(null),
+                         useRef<HTMLInputElement>(null), useRef<HTMLInputElement>(null)];
+
+  // Close on Escape
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [onClose]);
+
+  async function uploadFile(file: File, key: string): Promise<string | null> {
+    setUploading((u) => ({ ...u, [key]: true }));
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      const res = await fetch(`${API_URL}/api/admin/upload-image`, {
+        method: "POST", headers: { "X-Admin-Key": adminKey }, body: fd,
+      });
+      if (!res.ok) { const e = await res.json().catch(() => ({})); showToast("error", e.error ?? "Upload failed"); return null; }
+      return (await res.json()).url;
+    } catch { showToast("error", "Network error"); return null; }
+    finally { setUploading((u) => ({ ...u, [key]: false })); }
+  }
+
+  async function onFileChosen(file: File, key: string, onSuccess: (img: StoredImage) => void) {
+    const preview = URL.createObjectURL(file);
+    const url = await uploadFile(file, key);
+    if (url) onSuccess({ url, preview });
+  }
+
+  function onUrlConfirmed(url: string, onSuccess: (img: StoredImage) => void) {
+    if (!isValidUrl(url)) { showToast("error", "Please enter a valid URL"); return; }
+    onSuccess({ url, preview: url });
+  }
+
+  async function handleSave() {
+    if (!form.topic.trim()) { showToast("error", "Topic is required"); return; }
+    if (!form.questionText.trim()) { showToast("error", "Question text is required"); return; }
+
+    let options: string[];
+    if (form.mode === "standard") {
+      if (form.textOptions.some((o) => !o.trim())) { showToast("error", "All 4 text options are required"); return; }
+      options = form.textOptions.map((o) => o.trim());
+    } else {
+      if (form.optionImages.some((o) => !o)) { showToast("error", "All 4 option images are required"); return; }
+      options = form.optionImages.map((o) => o!.url);
+    }
+
+    const payload = {
+      subject: form.subject, grade: form.grade, difficulty: form.difficulty,
+      topic: form.topic.trim(), subTopic: form.subTopic.trim() || undefined,
+      questionText: form.questionText.trim(),
+      imageUrl: form.mode === "standard" ? (form.questionImage?.url ?? null) : null,
+      options, correctAnswer: form.correctAnswer,
+      explanation: form.explanation.trim(),
+    };
+
+    setSaving(true);
+    try {
+      const res = await fetch(`${API_URL}/api/admin/questions/${question.questionBankId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json", "X-Admin-Key": adminKey },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (!res.ok) { showToast("error", data.error ?? "Update failed"); return; }
+      onSaved({ ...question, ...payload, options, imageUrl: payload.imageUrl ?? undefined });
+    } catch { showToast("error", "Network error"); }
+    finally { setSaving(false); }
+  }
+
+  return (
+    // Backdrop
+    <div className="fixed inset-0 z-40 bg-black/70 backdrop-blur-sm flex items-start justify-center overflow-y-auto p-4 pt-10 pb-16">
+      <div className="w-full max-w-2xl bg-slate-800 rounded-2xl shadow-2xl border border-slate-700">
+        {/* Modal header */}
+        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-700">
+          <div className="flex items-center gap-2 text-white font-semibold">
+            <Pencil size={16} className="text-indigo-400" />
+            Edit Question
+            <span className="text-xs font-normal text-slate-400 ml-1">ID: {question.questionBankId.slice(0, 8)}…</span>
+          </div>
+          <button onClick={onClose} className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-700 transition">
+            <X size={20} />
+          </button>
+        </div>
+
+        <div className="p-6 space-y-5">
+          {/* Mode toggle */}
+          <div>
+            <p className="label mb-2">Question Type</p>
+            <div className="flex gap-3">
+              <ModeButton active={form.mode === "standard"} onClick={() => form.setMode("standard")}
+                icon={<Type size={16} />} label="Text options" sub="Question + optional image, 4 text answers" />
+              <ModeButton active={form.mode === "image-options"} onClick={() => form.setMode("image-options")}
+                icon={<ImageIcon size={16} />} label="Image options" sub='4 image answers (e.g. "which is an apple?")' />
+            </div>
+          </div>
+
+          {/* Metadata */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div>
+              <label className="label">Subject</label>
+              <select value={form.subject} onChange={(e) => form.setSubject(e.target.value)} className="select">
+                {SUBJECTS.map((s) => <option key={s}>{s}</option>)}
+              </select>
+            </div>
+            <div>
+              <label className="label">Grade</label>
+              <select value={form.grade} onChange={(e) => form.setGrade(Number(e.target.value))} className="select">
+                {GRADES.map((g) => <option key={g} value={g}>Grade {g}</option>)}
+              </select>
+            </div>
+            <div>
+              <label className="label">Difficulty</label>
+              <select value={form.difficulty} onChange={(e) => form.setDifficulty(e.target.value)} className="select">
+                {DIFFICULTIES.map((d) => <option key={d}>{d}</option>)}
+              </select>
+            </div>
+            <div className="col-span-2">
+              <label className="label">Topic *</label>
+              <input value={form.topic} onChange={(e) => form.setTopic(e.target.value)} className="input" />
+            </div>
+            <div>
+              <label className="label">SubTopic</label>
+              <input value={form.subTopic} onChange={(e) => form.setSubTopic(e.target.value)} className="input" />
+            </div>
+          </div>
+
+          {/* Question text */}
+          <div>
+            <label className="label">Question Text *</label>
+            <textarea value={form.questionText} onChange={(e) => form.setQuestionText(e.target.value)}
+              rows={3} className="input resize-none" />
+          </div>
+
+          {/* Question image (standard mode only) */}
+          {form.mode === "standard" && (
+            <div>
+              <label className="label">Question Image <span className="text-slate-500">(optional)</span></label>
+              {form.questionImage
+                ? <ImagePreview img={form.questionImage}
+                    onRemove={() => { form.setQuestionImage(null); if (questionImgRef.current) questionImgRef.current.value = ""; }} />
+                : <ImageInput slotKey="edit-question" inputRef={questionImgRef} uploading={!!uploading["edit-question"]}
+                    onFile={(f) => onFileChosen(f, "edit-question", form.setQuestionImage)}
+                    onUrl={(url) => onUrlConfirmed(url, form.setQuestionImage)} />
+              }
+            </div>
+          )}
+
+          {/* Options */}
+          <div>
+            <p className="label mb-3">Answer Options *</p>
+            {form.mode === "standard" ? (
+              <div className="space-y-3">
+                {ANSWER_LABELS.map((lbl, i) => (
+                  <div key={lbl} className="flex items-center gap-3">
+                    <AnswerCircle letter={lbl} active={form.correctAnswer === lbl} onClick={() => form.setCorrectAnswer(lbl)} />
+                    <input value={form.textOptions[i]}
+                      onChange={(e) => { const n = [...form.textOptions]; n[i] = e.target.value; form.setTextOptions(n); }}
+                      placeholder={`Option ${lbl}`} className="input flex-1" />
+                  </div>
+                ))}
+                <p className="text-xs text-slate-400 mt-1">Click the letter circle to mark the correct answer.</p>
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 gap-4">
+                {ANSWER_LABELS.map((lbl, i) => (
+                  <div key={lbl} className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <AnswerCircle letter={lbl} active={form.correctAnswer === lbl}
+                        onClick={() => form.setCorrectAnswer(lbl)} small />
+                      <span className="text-sm text-slate-300">Option {lbl}</span>
+                    </div>
+                    {form.optionImages[i]
+                      ? <ImagePreview img={form.optionImages[i]!} compact
+                          onRemove={() => {
+                            form.setOptionImages((prev) => { const n = [...prev]; n[i] = null; return n; });
+                            if (optionImgRefs[i].current) optionImgRefs[i].current!.value = "";
+                          }} />
+                      : <ImageInput slotKey={`edit-opt-${i}`} inputRef={optionImgRefs[i]}
+                          uploading={!!uploading[`edit-opt-${i}`]} compact
+                          onFile={(f) => onFileChosen(f, `edit-opt-${i}`, (img) =>
+                            form.setOptionImages((prev) => { const n = [...prev]; n[i] = img; return n; }))}
+                          onUrl={(url) => onUrlConfirmed(url, (img) =>
+                            form.setOptionImages((prev) => { const n = [...prev]; n[i] = img; return n; }))} />
+                    }
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Explanation */}
+          <div>
+            <label className="label">Explanation</label>
+            <textarea value={form.explanation} onChange={(e) => form.setExplanation(e.target.value)}
+              rows={2} className="input resize-none" placeholder="Why is this the correct answer?" />
+          </div>
+
+          {/* Action buttons */}
+          <div className="flex gap-3 pt-1">
+            <button onClick={handleSave} disabled={saving}
+              className="flex-1 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 text-white font-semibold py-3 rounded-xl transition flex items-center justify-center gap-2">
+              {saving
+                ? <><span className="animate-spin w-4 h-4 border-2 border-white border-t-transparent rounded-full" />Saving…</>
+                : <><Save size={16} /> Save Changes</>}
+            </button>
+            <button onClick={onClose}
+              className="px-6 py-3 rounded-xl border border-slate-600 text-slate-300 hover:bg-slate-700 transition">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ─── Add Question Form ────────────────────────────────────────────────────────
 function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, onDismissAdded }: {
   adminKey: string;
@@ -204,18 +513,7 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
   lastAdded: LastAdded | null;
   onDismissAdded: () => void;
 }) {
-  const [mode, setMode] = useState<QuestionMode>("standard");
-  const [subject, setSubject] = useState(SUBJECTS[0]);
-  const [grade, setGrade] = useState(1);
-  const [difficulty, setDifficulty] = useState(DIFFICULTIES[0]);
-  const [topic, setTopic] = useState("");
-  const [subTopic, setSubTopic] = useState("");
-  const [questionText, setQuestionText] = useState("");
-  const [explanation, setExplanation] = useState("");
-  const [correctAnswer, setCorrectAnswer] = useState<AnswerLabel>("A");
-  const [questionImage, setQuestionImage] = useState<StoredImage | null>(null);
-  const [textOptions, setTextOptions] = useState(["", "", "", ""]);
-  const [optionImages, setOptionImages] = useState<(StoredImage | null)[]>([null, null, null, null]);
+  const form = useQuestionForm();
   const [uploading, setUploading] = useState<Record<string, boolean>>({});
   const [submitting, setSubmitting] = useState(false);
 
@@ -249,28 +547,31 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
   }
 
   function resetForm() {
-    setQuestionText(""); setExplanation(""); setCorrectAnswer("A");
-    setQuestionImage(null); setTextOptions(["", "", "", ""]); setOptionImages([null, null, null, null]); setSubTopic("");
+    form.setQuestionText(""); form.setExplanation(""); form.setCorrectAnswer("A");
+    form.setQuestionImage(null); form.setTextOptions(["", "", "", ""]);
+    form.setOptionImages([null, null, null, null]); form.setSubTopic("");
     if (questionImgRef.current) questionImgRef.current.value = "";
     optionImgRefs.forEach((r) => { if (r.current) r.current.value = ""; });
   }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!topic.trim()) { showToast("error", "Topic is required"); return; }
-    if (!questionText.trim()) { showToast("error", "Question text is required"); return; }
+    if (!form.topic.trim()) { showToast("error", "Topic is required"); return; }
+    if (!form.questionText.trim()) { showToast("error", "Question text is required"); return; }
     let options: string[];
-    if (mode === "standard") {
-      if (textOptions.some((o) => !o.trim())) { showToast("error", "All 4 text options are required"); return; }
-      options = textOptions.map((o) => o.trim());
+    if (form.mode === "standard") {
+      if (form.textOptions.some((o) => !o.trim())) { showToast("error", "All 4 text options are required"); return; }
+      options = form.textOptions.map((o) => o.trim());
     } else {
-      if (optionImages.some((o) => !o)) { showToast("error", "All 4 option images are required"); return; }
-      options = optionImages.map((o) => o!.url);
+      if (form.optionImages.some((o) => !o)) { showToast("error", "All 4 option images are required"); return; }
+      options = form.optionImages.map((o) => o!.url);
     }
     const payload = {
-      subject, grade, difficulty, topic: topic.trim(), subTopic: subTopic.trim() || undefined,
-      questionText: questionText.trim(), imageUrl: mode === "standard" ? (questionImage?.url ?? null) : null,
-      options, correctAnswer, explanation: explanation.trim(),
+      subject: form.subject, grade: form.grade, difficulty: form.difficulty,
+      topic: form.topic.trim(), subTopic: form.subTopic.trim() || undefined,
+      questionText: form.questionText.trim(),
+      imageUrl: form.mode === "standard" ? (form.questionImage?.url ?? null) : null,
+      options, correctAnswer: form.correctAnswer, explanation: form.explanation.trim(),
     };
     setSubmitting(true);
     try {
@@ -280,7 +581,7 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
       });
       const data = await res.json();
       if (!res.ok) { showToast("error", data.error ?? "Failed to add question"); return; }
-      onAdded({ subject, grade, topic: topic.trim(), questionText: questionText.trim() });
+      onAdded({ subject: form.subject, grade: form.grade, topic: form.topic.trim(), questionText: form.questionText.trim() });
       resetForm();
     } catch { showToast("error", "Network error"); }
     finally { setSubmitting(false); }
@@ -288,7 +589,6 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
 
   return (
     <div className="space-y-5 pb-10">
-      {/* ── Success banner after add ── */}
       {lastAdded && (
         <div className="flex items-center justify-between gap-3 bg-emerald-900/40 border border-emerald-700/50 rounded-xl px-4 py-3">
           <div className="flex items-center gap-2 text-emerald-300 text-sm min-w-0">
@@ -308,80 +608,76 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
         </div>
       )}
 
-      {/* Mode toggle */}
       <div className="bg-slate-800 rounded-2xl p-5">
         <p className="label mb-3">Question Type</p>
         <div className="flex gap-3">
-          <ModeButton active={mode === "standard"} onClick={() => setMode("standard")}
+          <ModeButton active={form.mode === "standard"} onClick={() => form.setMode("standard")}
             icon={<Type size={16} />} label="Text options" sub="Question + optional image, 4 text answers" />
-          <ModeButton active={mode === "image-options"} onClick={() => setMode("image-options")}
+          <ModeButton active={form.mode === "image-options"} onClick={() => form.setMode("image-options")}
             icon={<ImageIcon size={16} />} label="Image options" sub='4 image answers (e.g. "which is an apple?")' />
         </div>
       </div>
 
-      {/* Metadata */}
       <div className="bg-slate-800 rounded-2xl p-5 grid grid-cols-2 md:grid-cols-3 gap-4">
         <div>
           <label className="label">Subject</label>
-          <select value={subject} onChange={(e) => setSubject(e.target.value)} className="select">
+          <select value={form.subject} onChange={(e) => form.setSubject(e.target.value)} className="select">
             {SUBJECTS.map((s) => <option key={s}>{s}</option>)}
           </select>
         </div>
         <div>
           <label className="label">Grade</label>
-          <select value={grade} onChange={(e) => setGrade(Number(e.target.value))} className="select">
+          <select value={form.grade} onChange={(e) => form.setGrade(Number(e.target.value))} className="select">
             {GRADES.map((g) => <option key={g} value={g}>Grade {g}</option>)}
           </select>
         </div>
         <div>
           <label className="label">Difficulty</label>
-          <select value={difficulty} onChange={(e) => setDifficulty(e.target.value)} className="select">
+          <select value={form.difficulty} onChange={(e) => form.setDifficulty(e.target.value)} className="select">
             {DIFFICULTIES.map((d) => <option key={d}>{d}</option>)}
           </select>
         </div>
         <div className="col-span-2">
           <label className="label">Topic <span className="text-red-400">*</span></label>
-          <input value={topic} onChange={(e) => setTopic(e.target.value)}
+          <input value={form.topic} onChange={(e) => form.setTopic(e.target.value)}
             placeholder="e.g. Animals, Shapes, Geometry" className="input" required />
         </div>
         <div>
           <label className="label">SubTopic <span className="text-slate-500">(opt.)</span></label>
-          <input value={subTopic} onChange={(e) => setSubTopic(e.target.value)}
+          <input value={form.subTopic} onChange={(e) => form.setSubTopic(e.target.value)}
             placeholder="e.g. Wild Animals" className="input" />
         </div>
       </div>
 
-      {/* Question text + image */}
       <div className="bg-slate-800 rounded-2xl p-5 space-y-4">
         <div>
           <label className="label">Question Text <span className="text-red-400">*</span></label>
-          <textarea value={questionText} onChange={(e) => setQuestionText(e.target.value)} rows={3}
-            placeholder={mode === "image-options" ? "e.g. Which of the following is an apple?" : "Type your question here..."}
+          <textarea value={form.questionText} onChange={(e) => form.setQuestionText(e.target.value)} rows={3}
+            placeholder={form.mode === "image-options" ? "e.g. Which of the following is an apple?" : "Type your question here..."}
             className="input resize-none" required />
         </div>
-        {mode === "standard" && (
+        {form.mode === "standard" && (
           <div>
             <label className="label">Question Image <span className="text-slate-500">(optional)</span></label>
-            {questionImage
-              ? <ImagePreview img={questionImage} onRemove={() => { setQuestionImage(null); if (questionImgRef.current) questionImgRef.current.value = ""; }} />
+            {form.questionImage
+              ? <ImagePreview img={form.questionImage} onRemove={() => { form.setQuestionImage(null); if (questionImgRef.current) questionImgRef.current.value = ""; }} />
               : <ImageInput slotKey="question" inputRef={questionImgRef} uploading={!!uploading["question"]}
-                  onFile={(f) => onFileChosen(f, "question", setQuestionImage)}
-                  onUrl={(url) => onUrlConfirmed(url, setQuestionImage)} />
+                  onFile={(f) => onFileChosen(f, "question", form.setQuestionImage)}
+                  onUrl={(url) => onUrlConfirmed(url, form.setQuestionImage)} />
             }
           </div>
         )}
       </div>
 
-      {/* Options */}
       <div className="bg-slate-800 rounded-2xl p-5">
         <p className="label mb-3">Answer Options <span className="text-red-400">*</span></p>
-        {mode === "standard" ? (
+        {form.mode === "standard" ? (
           <div className="space-y-3">
             {ANSWER_LABELS.map((lbl, i) => (
               <div key={lbl} className="flex items-center gap-3">
-                <AnswerCircle letter={lbl} active={correctAnswer === lbl} onClick={() => setCorrectAnswer(lbl)} />
-                <input value={textOptions[i]}
-                  onChange={(e) => { const n = [...textOptions]; n[i] = e.target.value; setTextOptions(n); }}
+                <AnswerCircle letter={lbl} active={form.correctAnswer === lbl} onClick={() => form.setCorrectAnswer(lbl)} />
+                <input value={form.textOptions[i]}
+                  onChange={(e) => { const n = [...form.textOptions]; n[i] = e.target.value; form.setTextOptions(n); }}
                   placeholder={`Option ${lbl}`} className="input flex-1" />
               </div>
             ))}
@@ -392,15 +688,15 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
             {ANSWER_LABELS.map((lbl, i) => (
               <div key={lbl} className="space-y-2">
                 <div className="flex items-center gap-2">
-                  <AnswerCircle letter={lbl} active={correctAnswer === lbl} onClick={() => setCorrectAnswer(lbl)} small />
+                  <AnswerCircle letter={lbl} active={form.correctAnswer === lbl} onClick={() => form.setCorrectAnswer(lbl)} small />
                   <span className="text-sm text-slate-300">Option {lbl}</span>
                 </div>
-                {optionImages[i]
-                  ? <ImagePreview img={optionImages[i]!} compact
-                      onRemove={() => { setOptionImages((prev) => { const n = [...prev]; n[i] = null; return n; }); if (optionImgRefs[i].current) optionImgRefs[i].current!.value = ""; }} />
+                {form.optionImages[i]
+                  ? <ImagePreview img={form.optionImages[i]!} compact
+                      onRemove={() => { form.setOptionImages((prev) => { const n = [...prev]; n[i] = null; return n; }); if (optionImgRefs[i].current) optionImgRefs[i].current!.value = ""; }} />
                   : <ImageInput slotKey={`opt_${i}`} inputRef={optionImgRefs[i]} uploading={!!uploading[`opt_${i}`]} compact
-                      onFile={(f) => onFileChosen(f, `opt_${i}`, (img) => setOptionImages((prev) => { const n = [...prev]; n[i] = img; return n; }))}
-                      onUrl={(url) => onUrlConfirmed(url, (img) => setOptionImages((prev) => { const n = [...prev]; n[i] = img; return n; }))} />
+                      onFile={(f) => onFileChosen(f, `opt_${i}`, (img) => form.setOptionImages((prev) => { const n = [...prev]; n[i] = img; return n; }))}
+                      onUrl={(url) => onUrlConfirmed(url, (img) => form.setOptionImages((prev) => { const n = [...prev]; n[i] = img; return n; }))} />
                 }
               </div>
             ))}
@@ -408,18 +704,15 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
         )}
       </div>
 
-      {/* Explanation */}
       <div className="bg-slate-800 rounded-2xl p-5">
         <label className="label">Explanation <span className="text-slate-500">(optional but recommended)</span></label>
-        <textarea value={explanation} onChange={(e) => setExplanation(e.target.value)}
+        <textarea value={form.explanation} onChange={(e) => form.setExplanation(e.target.value)}
           rows={2} placeholder="Why is this the correct answer?" className="input resize-none" />
       </div>
 
-      {/* Submit */}
       <form onSubmit={handleSubmit}>
         <div className="flex gap-3">
-          <button type="submit" disabled={submitting}
-            onClick={handleSubmit as never}
+          <button type="submit" disabled={submitting} onClick={handleSubmit as never}
             className="flex-1 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 disabled:cursor-not-allowed
                        text-white font-semibold py-3 rounded-xl transition flex items-center justify-center gap-2">
             {submitting
@@ -437,25 +730,25 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
 }
 
 // ─── Browse & Manage Panel ────────────────────────────────────────────────────
-function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, onDeleted }: {
+function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, onDeleted, onEdit }: {
   adminKey: string;
   showToast: (t: Toast["type"], m: string) => void;
   filters: { subject: string; grade: number | ""; difficulty: string; topic: string; search: string; hasImage: boolean };
   setFilters: React.Dispatch<React.SetStateAction<typeof filters>>;
   triggerSearch: number;
   onDeleted: () => void;
+  onEdit: (q: BankQuestion) => void;
 }) {
   const [results, setResults] = useState<BankQuestion[]>([]);
   const [total, setTotal] = useState(0);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
-  const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null); // questionBankId
+  const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
   const [deleting, setDeleting] = useState<string | null>(null);
-
   const PAGE_SIZE = 10;
 
-  async function search(p = 1) {
+  const search = useCallback(async (p = 1) => {
     setLoading(true);
     try {
       const params = new URLSearchParams();
@@ -467,10 +760,7 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
       if (filters.hasImage) params.set("hasImage", "true");
       params.set("page", String(p));
       params.set("pageSize", String(PAGE_SIZE));
-
-      const res = await fetch(`${API_URL}/api/admin/questions?${params}`, {
-        headers: { "X-Admin-Key": adminKey },
-      });
+      const res = await fetch(`${API_URL}/api/admin/questions?${params}`, { headers: { "X-Admin-Key": adminKey } });
       if (!res.ok) { showToast("error", "Search failed"); return; }
       const data = await res.json();
       setResults(data.items);
@@ -480,13 +770,10 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
       setDeleteConfirm(null);
     } catch { showToast("error", "Network error"); }
     finally { setLoading(false); }
-  }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filters, adminKey]);
 
-  // Run search when triggerSearch bumps (from Add tab "Browse similar" link)
-  useEffect(() => {
-    if (triggerSearch > 0) search(1);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [triggerSearch]);
+  useEffect(() => { if (triggerSearch > 0) search(1); }, [triggerSearch, search]);
 
   function clearFilters() {
     setFilters({ subject: "", grade: "", difficulty: "", topic: "", search: "", hasImage: false });
@@ -514,7 +801,6 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
     <div className="space-y-4 pb-10">
       {/* Filter card */}
       <div className="bg-slate-800 rounded-2xl p-4 space-y-3">
-        {/* Row 1 */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           <div>
             <label className="label">Subject</label>
@@ -538,22 +824,18 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
             </select>
           </div>
         </div>
-        {/* Row 2 */}
         <div className="grid grid-cols-2 gap-3">
           <div>
             <label className="label">Topic</label>
             <input value={filters.topic} onChange={(e) => setFilters((f) => ({ ...f, topic: e.target.value }))}
-              onKeyDown={(e) => e.key === "Enter" && search(1)}
-              placeholder="e.g. Animals" className="input" />
+              onKeyDown={(e) => e.key === "Enter" && search(1)} placeholder="e.g. Animals" className="input" />
           </div>
           <div>
             <label className="label">Question text search</label>
             <input value={filters.search} onChange={(e) => setFilters((f) => ({ ...f, search: e.target.value }))}
-              onKeyDown={(e) => e.key === "Enter" && search(1)}
-              placeholder="Search question text..." className="input" />
+              onKeyDown={(e) => e.key === "Enter" && search(1)} placeholder="Search question text..." className="input" />
           </div>
         </div>
-        {/* Row 3 */}
         <div className="flex items-center justify-between gap-3">
           <label className="flex items-center gap-2 cursor-pointer select-none">
             <input type="checkbox" checked={filters.hasImage} onChange={(e) => setFilters((f) => ({ ...f, hasImage: e.target.checked }))}
@@ -577,7 +859,6 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
         </div>
       </div>
 
-      {/* Result count */}
       {results.length > 0 && (
         <div className="flex items-center justify-between text-xs text-slate-400 px-1">
           <span>{total.toLocaleString()} question{total !== 1 ? "s" : ""} found</span>
@@ -594,7 +875,7 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
 
         return (
           <div key={q.questionBankId} className="bg-slate-800 rounded-2xl p-5 space-y-3">
-            {/* Header row: meta chips + delete */}
+            {/* Header row */}
             <div className="flex items-start justify-between gap-2">
               <div className="flex flex-wrap gap-1.5">
                 <Chip color="indigo">{q.subject}</Chip>
@@ -602,23 +883,31 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
                 <Chip>{q.difficulty}</Chip>
                 <Chip dim>{q.topic}{q.subTopic ? ` · ${q.subTopic}` : ""}</Chip>
               </div>
-              {/* Delete action */}
-              {!confirmingDelete ? (
-                <button type="button" onClick={() => setDeleteConfirm(q.questionBankId)}
-                  className="shrink-0 flex items-center gap-1 text-xs text-slate-500 hover:text-red-400 transition px-2 py-1 rounded-lg hover:bg-red-900/20">
-                  <Trash2 size={13} /> Delete
-                </button>
-              ) : (
-                <div className="shrink-0 flex items-center gap-2 bg-red-900/30 border border-red-700/40 rounded-xl px-3 py-1.5">
-                  <span className="text-xs text-red-300">Sure?</span>
-                  <button type="button" onClick={() => deleteQuestion(q.questionBankId)} disabled={isDeletingThis}
-                    className="text-xs font-bold text-red-400 hover:text-red-200 disabled:opacity-50">
-                    {isDeletingThis ? "…" : "Yes"}
+              {/* Edit + Delete actions */}
+              <div className="shrink-0 flex items-center gap-1">
+                {!confirmingDelete && (
+                  <button type="button" onClick={() => onEdit(q)}
+                    className="flex items-center gap-1 text-xs text-slate-400 hover:text-indigo-400 transition px-2 py-1 rounded-lg hover:bg-indigo-900/20">
+                    <Pencil size={13} /> Edit
                   </button>
-                  <button type="button" onClick={() => setDeleteConfirm(null)}
-                    className="text-xs text-slate-400 hover:text-slate-200">Cancel</button>
-                </div>
-              )}
+                )}
+                {!confirmingDelete ? (
+                  <button type="button" onClick={() => setDeleteConfirm(q.questionBankId)}
+                    className="flex items-center gap-1 text-xs text-slate-500 hover:text-red-400 transition px-2 py-1 rounded-lg hover:bg-red-900/20">
+                    <Trash2 size={13} /> Delete
+                  </button>
+                ) : (
+                  <div className="flex items-center gap-2 bg-red-900/30 border border-red-700/40 rounded-xl px-3 py-1.5">
+                    <span className="text-xs text-red-300">Sure?</span>
+                    <button type="button" onClick={() => deleteQuestion(q.questionBankId)} disabled={isDeletingThis}
+                      className="text-xs font-bold text-red-400 hover:text-red-200 disabled:opacity-50">
+                      {isDeletingThis ? "…" : "Yes"}
+                    </button>
+                    <button type="button" onClick={() => setDeleteConfirm(null)}
+                      className="text-xs text-slate-400 hover:text-slate-200">Cancel</button>
+                  </div>
+                )}
+              </div>
             </div>
 
             {/* Question text */}
@@ -635,10 +924,10 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
               {q.options.map((opt, i) => {
                 const lbl = ANSWER_LABELS[i];
                 const isCorrect = q.correctAnswer === lbl;
-                let style = "border-slate-600 bg-slate-700/40 cursor-pointer hover:border-indigo-400";
+                let style = "border-slate-600 bg-slate-700/40";
                 if (revealed) {
-                  if (isCorrect) style = "border-emerald-500 bg-emerald-900/40 cursor-default";
-                  else style = "border-slate-700 bg-slate-800/60 opacity-40 cursor-default";
+                  if (isCorrect) style = "border-emerald-500 bg-emerald-900/40";
+                  else style = "border-slate-700 bg-slate-800/60 opacity-40";
                 }
                 return (
                   <div key={lbl} className={`rounded-xl border-2 p-2.5 transition ${style}`}>
@@ -707,7 +996,7 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
   );
 }
 
-// ─── Chip ─────────────────────────────────────────────────────────────────────
+// ─── Shared UI components ─────────────────────────────────────────────────────
 function Chip({ children, color, dim }: { children: React.ReactNode; color?: "indigo"; dim?: boolean }) {
   return (
     <span className={`rounded-full px-2.5 py-0.5 text-xs font-medium
@@ -717,7 +1006,6 @@ function Chip({ children, color, dim }: { children: React.ReactNode; color?: "in
   );
 }
 
-// ─── Reusable sub-components ──────────────────────────────────────────────────
 function ModeButton({ active, onClick, icon, label, sub }: {
   active: boolean; onClick: () => void; icon: React.ReactNode; label: string; sub: string;
 }) {

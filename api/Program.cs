@@ -36,7 +36,7 @@ builder.Services.AddDbContext<AppDbContext>(o =>
 builder.Services.AddHttpClient<AiGenerationService>(c =>
 {
     c.BaseAddress = new Uri("https://api.openai.com/");
-    c.Timeout = TimeSpan.FromSeconds(120);
+    c.Timeout = TimeSpan.FromSeconds(200); // Azure ARR limit is 230s; give 30s headroom
 });
 
 builder.Services.AddScoped<PdfService>();
