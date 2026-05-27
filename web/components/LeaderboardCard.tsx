@@ -19,8 +19,33 @@ const RANK_STYLES: Record<number, string> = {
   3: "text-orange-600 font-bold",
 };
 
+const TITLE_STYLES: Record<string, string> = {
+  "Olympiad Legend":    "text-purple-700 bg-purple-50 ring-purple-200",
+  "Champion Scholar":   "text-indigo-700 bg-indigo-50 ring-indigo-200",
+  "Olympiad Contender": "text-blue-700   bg-blue-50   ring-blue-200",
+  "Knowledge Seeker":   "text-teal-700   bg-teal-50   ring-teal-200",
+  "Rising Star":        "text-amber-700  bg-amber-50  ring-amber-200",
+  "Rookie Scholar":     "text-slate-600  bg-slate-50  ring-slate-200",
+};
+
+// Emoji for each badge id — kept in sync with dashboard
+const BADGE_EMOJI: Record<string, string> = {
+  first_test: "🚀", five_tests: "🔁", ten_tests: "💪", twenty_five_tests: "🎓", century: "💯",
+  sharpshooter: "🎯", perfect: "⭐", on_fire: "🔴", comeback: "📈",
+  streak_3: "🔥", streak_7: "🏅", streak_30: "🗓️",
+  speed: "⚡", lightning: "🌩️",
+  explorer: "🌍", all_rounder: "🌟",
+  mock_exam: "📋", mock_3: "🏆",
+};
+
+interface ExtendedEntry extends LeaderboardEntry {
+  title?: string;
+  badgeCount?: number;
+  earnedBadgeIds?: string[];
+}
+
 export function LeaderboardCard({ compact = false }: { compact?: boolean }) {
-  const [entries, setEntries] = useState<LeaderboardEntry[]>([]);
+  const [entries, setEntries] = useState<ExtendedEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -54,36 +79,54 @@ export function LeaderboardCard({ compact = false }: { compact?: boolean }) {
       {rows.map((entry) => {
         const m = MEDAL_STYLES[entry.medal] ?? MEDAL_STYLES.None;
         const rankStyle = RANK_STYLES[entry.rank] ?? "text-slate-400 font-semibold";
+        const titleStyle = TITLE_STYLES[entry.title ?? ""] ?? "text-slate-500 bg-slate-50 ring-slate-200";
+        const badgeIcons = (entry.earnedBadgeIds ?? []).slice(0, compact ? 6 : 18);
+
         return (
-          <div
-            key={entry.rank}
-            className={`flex items-center gap-4 px-4 py-3 transition ${m.bg}`}
-          >
+          <div key={entry.rank} className={`flex items-center gap-3 px-4 py-3 transition ${m.bg}`}>
             {/* Rank */}
             <span className={`w-6 shrink-0 text-center text-sm ${rankStyle}`}>
               {entry.rank <= 3 ? m.label : `#${entry.rank}`}
             </span>
 
-            {/* Avatar placeholder */}
-            <div className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full ring-2 ${m.ring} bg-white text-sm font-bold ${m.text}`}>
+            {/* Avatar */}
+            <div className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full ring-2 ${m.ring} bg-white text-sm font-bold ${m.text}`}>
               {entry.displayName[0]?.toUpperCase() ?? "?"}
             </div>
 
-            {/* Name */}
-            <span className="min-w-0 flex-1 truncate text-sm font-medium text-slate-800">
-              {entry.displayName}
-            </span>
+            {/* Name + title + badge icons */}
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="text-sm font-semibold text-slate-800 truncate">
+                  {entry.displayName}
+                </span>
+                {entry.title && entry.title !== "Newcomer" && (
+                  <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full ring-1 shrink-0 ${titleStyle}`}>
+                    {entry.title}
+                  </span>
+                )}
+              </div>
+              {badgeIcons.length > 0 && (
+                <div className="flex flex-wrap gap-0.5 mt-1">
+                  {badgeIcons.map((id) => (
+                    <span key={id} className="text-[11px]" title={id.replace(/_/g, " ")}>
+                      {BADGE_EMOJI[id] ?? "🏅"}
+                    </span>
+                  ))}
+                  {(entry.earnedBadgeIds?.length ?? 0) > (compact ? 6 : 18) && (
+                    <span className="text-[9px] text-slate-400 self-center">
+                      +{(entry.earnedBadgeIds?.length ?? 0) - (compact ? 6 : 18)}
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
 
-            {/* Score + medal */}
-            <div className="flex items-center gap-2 shrink-0">
+            {/* Score */}
+            <div className="flex items-center gap-1.5 shrink-0">
               <span className={`rounded-full px-2.5 py-0.5 text-xs font-bold ring-1 ${m.ring} ${m.bg} ${m.text}`}>
                 {entry.bestScorePct}%
               </span>
-              {entry.medal !== "None" && (
-                <span className={`hidden rounded-full px-2 py-0.5 text-[10px] font-semibold sm:inline ${m.bg} ${m.text}`}>
-                  {entry.medal}
-                </span>
-              )}
             </div>
           </div>
         );

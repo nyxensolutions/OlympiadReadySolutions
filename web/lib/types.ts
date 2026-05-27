@@ -193,6 +193,9 @@ export type LeaderboardEntry = {
   displayName: string;
   bestScorePct: number;
   medal: "Gold" | "Silver" | "Bronze" | "None";
+  title?: string;
+  badgeCount?: number;
+  earnedBadgeIds?: string[];
 };
 
 export type DailyQuizQuestion = {
