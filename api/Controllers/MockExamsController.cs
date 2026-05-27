@@ -114,21 +114,23 @@ public class MockExamsController : ControllerBase
         bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) ||
                              user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
 
-        // Normalise complexity
-        var complexity = req.Complexity switch
+        // Level 2 always uses Olympiad-only difficulty — no easy or mid questions.
+        bool isLevel2 = req.Level == "L2";
+
+        // Normalise complexity (overridden to Olympiad for L2)
+        var complexity = isLevel2 ? "Olympiad" : req.Complexity switch
         {
             "Foundation" => "Foundation",
             "Olympiad"   => "Olympiad",
-            _            => "Advanced"   // default
+            _            => "Advanced"
         };
 
-        // Difficulty distribution weights per complexity level
-        // Returns a list of (difficulty, fraction) pairs that sum to 1.
-        // We use these to split each section's question count across difficulty buckets.
+        // Difficulty distribution weights per complexity level.
+        // L2 / Olympiad complexity: 100% Olympiad difficulty — no mixing.
         static List<(string Diff, double Weight)> GetWeights(string complexity) => complexity switch
         {
             "Foundation" => new() { ("Foundation", 0.70), ("Advanced", 0.30) },
-            "Olympiad"   => new() { ("Olympiad", 0.60), ("Advanced", 0.30), ("Foundation", 0.10) },
+            "Olympiad"   => new() { ("Olympiad", 1.00) },   // L2 / Olympiad: pure hard
             _            => new() { ("Advanced", 0.50), ("Olympiad", 0.30), ("Foundation", 0.20) }
         };
 
@@ -198,11 +200,14 @@ public class MockExamsController : ControllerBase
             if (totalAiNeeded <= 0)
                 return Task.FromResult<List<Question>>(new List<Question>());
 
-            _log.LogInformation("Parallel AI call: {Count} questions for section '{Section}' ({Subject} G{Grade})",
-                totalAiNeeded, section.Name, req.Subject, req.Grade);
+            // L2 always generates Olympiad-level questions regardless of section difficulty
+            var aiDifficulty = isLevel2 ? "Olympiad" : section.Difficulty;
+
+            _log.LogInformation("Parallel AI call: {Count} {Diff} questions for section '{Section}' ({Subject} G{Grade})",
+                totalAiNeeded, aiDifficulty, section.Name, req.Subject, req.Grade);
 
             return _ai.GenerateQuestionsAsync(
-                req.Subject, req.Grade, section.Difficulty, totalAiNeeded, null, ct, req.Level, req.OlympiadId);
+                req.Subject, req.Grade, aiDifficulty, totalAiNeeded, null, ct, req.Level, req.OlympiadId);
         }).ToList();
 
         var allAiResults = await Task.WhenAll(aiTasks);
@@ -240,12 +245,18 @@ public class MockExamsController : ControllerBase
             int gap = section.Questions - sectionQuestions.Count;
             if (gap > 0)
             {
-                _log.LogInformation(
-                    "DB back-fill: {Gap} questions needed for section '{Section}' after AI ({Subject} G{Grade})",
-                    gap, section.Name, req.Subject, req.Grade);
+                // L2: back-fill only from Olympiad difficulty; never fall back to easier questions
+                var fillDifficulty = isLevel2 ? "Olympiad" : section.Difficulty;
 
-                // Try specific difficulty first, then any difficulty
-                var fill = await _bank.TryGetRandomAsync(req.Subject, req.Grade, section.Difficulty, gap, null, ct, usedIds)
+                _log.LogInformation(
+                    "DB back-fill: {Gap} {Diff} questions needed for section '{Section}' after AI ({Subject} G{Grade})",
+                    gap, fillDifficulty, section.Name, req.Subject, req.Grade);
+
+                // For L2: try Olympiad only (no easier fallback).
+                // For L1: try specific difficulty first, then any difficulty.
+                var fill = isLevel2
+                    ? await _bank.TryGetRandomAsync(req.Subject, req.Grade, "Olympiad", gap, null, ct, usedIds)
+                    : await _bank.TryGetRandomAsync(req.Subject, req.Grade, fillDifficulty, gap, null, ct, usedIds)
                         ?? await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, gap, null, ct, usedIds);
 
                 if (fill != null)

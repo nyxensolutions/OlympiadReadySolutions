@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Award, Clock, FileText, ChevronRight, CheckCircle2, AlertTriangle, Loader2, Sparkles, Star, Check } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { OLYMPIAD_PATTERNS, getAvailableOlympiads, type OlympiadLevel } from "@/lib/olympiadPatterns";
@@ -36,6 +36,14 @@ export default function MockExamsPage() {
   const [loadingMsgIdx, setLoadingMsgIdx] = useState(0);
   const [loadingDots, setLoadingDots] = useState(".");
   const [loadingProgress, setLoadingProgress] = useState(0);
+  const errorRef = useRef<HTMLDivElement>(null);
+
+  // Auto-scroll to error banner whenever an error appears
+  useEffect(() => {
+    if (error && errorRef.current) {
+      errorRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }, [error]);
 
   useEffect(() => {
     if (!loading) return;
@@ -219,9 +227,22 @@ export default function MockExamsPage() {
         </div>
 
         {error && (
-          <div className="mb-8 rounded-xl bg-red-50 p-4 border border-red-200 flex items-center gap-3 text-red-800">
-            <AlertTriangle className="h-5 w-5 shrink-0" />
-            <p className="font-semibold">{error}</p>
+          <div
+            ref={errorRef}
+            className="mb-8 rounded-xl border-2 border-red-300 bg-red-50 p-5 flex items-start gap-3 text-red-800 shadow-md"
+          >
+            <AlertTriangle className="h-5 w-5 shrink-0 mt-0.5 text-red-500" />
+            <div className="flex-1">
+              <p className="font-bold text-sm">{error}</p>
+              {error.toLowerCase().includes("upgrade") && (
+                <a
+                  href="/pricing"
+                  className="mt-2 inline-flex items-center gap-1 text-xs font-semibold bg-red-600 text-white px-3 py-1.5 rounded-lg hover:bg-red-700 transition"
+                >
+                  View upgrade options →
+                </a>
+              )}
+            </div>
           </div>
         )}
 
