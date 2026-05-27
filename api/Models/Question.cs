@@ -4,6 +4,10 @@ namespace OlympiadReady.Api.Models;
 
 public class Question
 {
+    /// <summary>Tracks the source QuestionBankItem ID for deduplication. Not persisted in JSON.</summary>
+    [JsonIgnore]
+    public Guid BankId { get; set; }
+
     [JsonPropertyName("q")]
     public string Q { get; set; } = "";
 

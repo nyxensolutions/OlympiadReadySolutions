@@ -29,10 +29,13 @@ public class QuestionBankService
     /// </summary>
     public async Task<List<Question>?> TryGetRandomAsync(
         string subject, int grade, string? difficulty, int count,
-        string? topic = null, CancellationToken ct = default)
+        string? topic = null, CancellationToken ct = default,
+        IEnumerable<Guid>? excludeIds = null)
     {
         var (canonicalSubject, _) = SubjectNormalizer.Normalize(subject);
         canonicalSubject ??= subject;
+
+        var excludeSet = excludeIds != null ? new HashSet<Guid>(excludeIds) : null;
 
         var baseQuery = _db.QuestionBank
             .Where(q => (q.Subject == canonicalSubject || (canonicalSubject == "Science" && (q.Subject == "Science-Physics" || q.Subject == "Science-Chemistry" || q.Subject == "Science-Biology"))) && q.Grade == grade);
@@ -43,6 +46,9 @@ public class QuestionBankService
         if (topic is not null)
             baseQuery = baseQuery.Where(q => q.Topic == topic);
 
+        if (excludeSet != null && excludeSet.Count > 0)
+            baseQuery = baseQuery.Where(q => !excludeSet.Contains(q.QuestionBankId));
+
         var available = await baseQuery.CountAsync(ct);
 
         if (available < count)
@@ -52,7 +58,7 @@ public class QuestionBankService
                 _log.LogInformation(
                     "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty} topic={Topic}; falling back to any topic",
                     available, subject, grade, difficulty ?? "any", topic);
-                return await TryGetRandomAsync(subject, grade, difficulty, count, null, ct);
+                return await TryGetRandomAsync(subject, grade, difficulty, count, null, ct, excludeIds);
             }
 
             _log.LogInformation(
@@ -233,6 +239,7 @@ public class QuestionBankService
 
         return new Question
         {
+            BankId = item.QuestionBankId,
             Q = item.QuestionText,
             ImageUrl = item.ImageUrl,
             Options = options,

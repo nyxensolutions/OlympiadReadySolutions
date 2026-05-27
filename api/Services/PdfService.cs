@@ -19,12 +19,36 @@ public class PdfService
 
     private readonly string? _logoPath;
     private readonly IWebHostEnvironment _env;
+    private static readonly HttpClient _httpClient = new HttpClient { Timeout = TimeSpan.FromSeconds(15) };
 
     public PdfService(IWebHostEnvironment env)
     {
         _env = env;
         var candidate = Path.Combine(env.WebRootPath, "logo.png");
         _logoPath = File.Exists(candidate) ? candidate : null;
+    }
+
+    /// <summary>
+    /// Returns the raw bytes for an image URL — downloading from HTTP/HTTPS or reading from local disk.
+    /// Returns null if the image cannot be loaded.
+    /// </summary>
+    private byte[]? GetImageBytes(string url)
+    {
+        try
+        {
+            if (url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ||
+                url.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
+            {
+                return _httpClient.GetByteArrayAsync(url).GetAwaiter().GetResult();
+            }
+
+            var localPath = Path.Combine(_env.ContentRootPath, "..", "web", "public", url.TrimStart('/'));
+            return File.Exists(localPath) ? File.ReadAllBytes(localPath) : null;
+        }
+        catch
+        {
+            return null;
+        }
     }
 
     public byte[] GeneratePaperPdf(PdfExportRequest data)
@@ -341,11 +365,10 @@ public class PdfService
 
                 if (!string.IsNullOrWhiteSpace(q.ImageUrl))
                 {
-                    // Resolve path relative to api/.. -> web/public/...
-                    var imgPath = Path.Combine(_env.ContentRootPath, "..", "web", "public", q.ImageUrl.TrimStart('/'));
-                    if (File.Exists(imgPath))
+                    var imgBytes = GetImageBytes(q.ImageUrl);
+                    if (imgBytes != null)
                     {
-                        col.Item().PaddingTop(8).PaddingLeft(22).Height(120).Image(imgPath).FitArea();
+                        col.Item().PaddingTop(8).PaddingLeft(22).Height(120).Image(imgBytes).FitArea();
                     }
                 }
 
@@ -480,33 +503,51 @@ public class PdfService
         });
     }
 
+    // Matches a bare image URL on its own — http(s)://... ending with a known image extension,
+    // OR any Cloudinary URL (res.cloudinary.com) regardless of extension.
+    private static readonly Regex _bareImageUrlRx = new(
+        @"^https?://\S+\.(?:png|jpg|jpeg|gif|webp|svg|bmp)(\?\S*)?$|^https?://res\.cloudinary\.com/\S+$",
+        RegexOptions.IgnoreCase | RegexOptions.Compiled);
+
     private void RenderMarkdownContent(IContainer container, string text, float fontSize = 11, string? fontColor = null, bool isBold = false)
     {
-        var parts = Regex.Split(text, @"(!\[.*?\]\(.*?\))");
-        container.Column(col => 
+        // Split on both markdown images ![alt](url) AND bare image URLs
+        var parts = Regex.Split(text, @"(!\[.*?\]\(.*?\)|https?://(?:res\.cloudinary\.com/\S+|\S+\.(?:png|jpg|jpeg|gif|webp|svg|bmp)(?:\?\S*)?))");
+        container.Column(col =>
         {
             foreach (var part in parts)
             {
                 if (string.IsNullOrEmpty(part)) continue;
-                var m = Regex.Match(part, @"!\[.*?\]\((.*?)\)");
-                if (m.Success)
+
+                // Check for markdown image syntax: ![alt](url)
+                var mdMatch = Regex.Match(part, @"!\[.*?\]\((.*?)\)");
+                if (mdMatch.Success)
                 {
-                    var imgUrl = m.Groups[1].Value;
-                    var imgPath = Path.Combine(_env.ContentRootPath, "..", "web", "public", imgUrl.TrimStart('/'));
-                    if (File.Exists(imgPath))
+                    var imgUrl = mdMatch.Groups[1].Value;
+                    var imgBytes = GetImageBytes(imgUrl);
+                    if (imgBytes != null)
+                        col.Item().PaddingTop(4).PaddingBottom(4).Height(80).Image(imgBytes).FitArea();
+                    continue;
+                }
+
+                // Check for bare image URL
+                if (_bareImageUrlRx.IsMatch(part.Trim()))
+                {
+                    var imgBytes = GetImageBytes(part.Trim());
+                    if (imgBytes != null)
                     {
-                        col.Item().PaddingTop(4).PaddingBottom(4).Height(80).Image(imgPath).FitArea();
+                        col.Item().PaddingTop(4).PaddingBottom(4).Height(80).Image(imgBytes).FitArea();
+                        continue;
                     }
+                    // If download failed, fall through and render as text
                 }
-                else
+
+                col.Item().Text(t =>
                 {
-                    col.Item().Text(t => 
-                    {
-                        var span = t.Span(part).FontSize(fontSize);
-                        if (fontColor != null) span.FontColor(fontColor);
-                        if (isBold) span.Bold();
-                    });
-                }
+                    var span = t.Span(part).FontSize(fontSize);
+                    if (fontColor != null) span.FontColor(fontColor);
+                    if (isBold) span.Bold();
+                });
             }
         });
     }

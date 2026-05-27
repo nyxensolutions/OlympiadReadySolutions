@@ -18,6 +18,8 @@ public class GenerateMockExamRequest
     public string OlympiadId { get; set; } = "";
     public int TotalTimeMinutes { get; set; }
     public List<MockExamSectionConfig> Sections { get; set; } = new();
+    /// <summary>"Foundation" | "Advanced" | "Olympiad" — controls difficulty weighting. Defaults to Advanced.</summary>
+    public string Complexity { get; set; } = "Advanced";
 }
 
 public class MockExamSectionConfig
@@ -109,34 +111,92 @@ public class MockExamsController : ControllerBase
         }
 
         bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, ct);
-        bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) || 
+        bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) ||
                              user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
 
+        // Normalise complexity
+        var complexity = req.Complexity switch
+        {
+            "Foundation" => "Foundation",
+            "Olympiad"   => "Olympiad",
+            _            => "Advanced"   // default
+        };
+
+        // Difficulty distribution weights per complexity level
+        // Returns a list of (difficulty, fraction) pairs that sum to 1.
+        // We use these to split each section's question count across difficulty buckets.
+        static List<(string Diff, double Weight)> GetWeights(string complexity) => complexity switch
+        {
+            "Foundation" => new() { ("Foundation", 0.70), ("Advanced", 0.30) },
+            "Olympiad"   => new() { ("Olympiad", 0.60), ("Advanced", 0.30), ("Foundation", 0.10) },
+            _            => new() { ("Advanced", 0.50), ("Olympiad", 0.30), ("Foundation", 0.20) }
+        };
+
         var finalQuestions = new List<Question>();
+        // Track all selected question IDs across sections to prevent repetition
+        var usedIds = new HashSet<Guid>();
 
         foreach (var section in req.Sections)
         {
-            int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(section.Questions, 10) : 0; // limit AI calls per section to save time/tokens, or we can just use AI for Achievers
+            int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(section.Questions, 10) : 0;
             int dbCount = section.Questions - aiCount;
 
             var sectionQuestions = new List<Question>();
 
+            // ── DB questions: spread across difficulty buckets based on complexity ──
             if (dbCount > 0)
             {
-                var bankQuestions = await _bank.TryGetRandomAsync(
-                    req.Subject, req.Grade, section.Difficulty, dbCount, null, ct);
-                
-                if (bankQuestions != null) sectionQuestions.AddRange(bankQuestions);
+                var weights = GetWeights(complexity);
+                int remaining = dbCount;
+                int bucketIdx = 0;
+
+                foreach (var (diff, weight) in weights)
+                {
+                    if (remaining <= 0) break;
+                    // Last bucket gets whatever is left to avoid rounding gaps
+                    int bucketCount = bucketIdx == weights.Count - 1
+                        ? remaining
+                        : (int)Math.Round(dbCount * weight);
+                    bucketCount = Math.Min(bucketCount, remaining);
+                    bucketIdx++;
+
+                    if (bucketCount <= 0) continue;
+
+                    var bankQuestions = await _bank.TryGetRandomAsync(
+                        req.Subject, req.Grade, diff, bucketCount, null, ct, usedIds);
+
+                    if (bankQuestions != null)
+                    {
+                        sectionQuestions.AddRange(bankQuestions);
+                        foreach (var q in bankQuestions)
+                            if (q.BankId != Guid.Empty) usedIds.Add(q.BankId);
+                        remaining -= bankQuestions.Count;
+                    }
+                }
+
+                // If still short (some difficulty buckets had no questions), fill from any difficulty
+                if (remaining > 0)
+                {
+                    var fillQuestions = await _bank.TryGetRandomAsync(
+                        req.Subject, req.Grade, null, remaining, null, ct, usedIds);
+                    if (fillQuestions != null)
+                    {
+                        sectionQuestions.AddRange(fillQuestions);
+                        foreach (var q in fillQuestions)
+                            if (q.BankId != Guid.Empty) usedIds.Add(q.BankId);
+                    }
+                }
             }
 
+            // ── AI questions ──
             if (aiCount > 0)
             {
                 _log.LogInformation("Hybrid mock: calling AI for {Count} questions section {Section}", aiCount, section.Name);
                 var aiQuestions = await _ai.GenerateQuestionsAsync(
                     req.Subject, req.Grade, section.Difficulty, aiCount, null, ct, req.Level, req.OlympiadId);
-                
+
                 sectionQuestions.AddRange(aiQuestions);
-                
+
                 foreach(var q in aiQuestions)
                 {
                     int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
@@ -158,26 +218,18 @@ public class MockExamsController : ControllerBase
                 }
             }
 
+            // ── Fallback to AI for any remaining shortfall ──
             int shortfall = section.Questions - sectionQuestions.Count;
-            if (shortfall > 0)
-            {
-                var extraBankQuestions = await _bank.TryGetRandomAsync(
-                    req.Subject, req.Grade, section.Difficulty, shortfall, null, ct);
-                if (extraBankQuestions != null) sectionQuestions.AddRange(extraBankQuestions);
-            }
-
-            // Fallback to AI generation for any remaining shortfall
-            shortfall = section.Questions - sectionQuestions.Count;
             if (shortfall > 0)
             {
                 _log.LogInformation("Shortfall of {Shortfall} questions in section '{Section}' for {Subject} G{Grade}. Calling AI fallback...", shortfall, section.Name, req.Subject, req.Grade);
                 var aiQuestions = await _ai.GenerateQuestionsAsync(
                     req.Subject, req.Grade, section.Difficulty, shortfall, null, ct, req.Level, req.OlympiadId);
-                
+
                 if (aiQuestions != null && aiQuestions.Any())
                 {
                     sectionQuestions.AddRange(aiQuestions);
-                    
+
                     foreach(var q in aiQuestions)
                     {
                         int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;

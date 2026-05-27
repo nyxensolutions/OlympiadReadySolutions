@@ -25,6 +25,7 @@ export default function MockExamsPage() {
   const [subject, setSubject] = useState<Subject>("Mathematics");
   const [grade, setGrade] = useState<number>(6);
   const [level, setLevel] = useState<OlympiadLevel>("L1");
+  const [complexity, setComplexity] = useState<"Foundation" | "Advanced" | "Olympiad">("Advanced");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -97,6 +98,7 @@ export default function MockExamsPage() {
           subject,
           grade,
           level,
+          complexity,
           olympiadId: selectedPattern.id,
           totalTimeMinutes: selectedPattern.totalTimeMinutes,
           sections: selectedPattern.sections
@@ -401,6 +403,40 @@ export default function MockExamsPage() {
                     <option value="L1">Level 1 (School)</option>
                     <option value="L2">Level 2 (National)</option>
                   </select>
+                </div>
+              </div>
+
+              <div>
+                <label className="mb-2 block text-sm font-semibold text-slate-700">
+                  Complexity
+                  <span className="ml-2 text-xs font-normal text-slate-500">Controls difficulty mix of questions</span>
+                </label>
+                <div className="grid grid-cols-3 gap-2">
+                  {(["Foundation", "Advanced", "Olympiad"] as const).map((c) => {
+                    const meta = {
+                      Foundation: { label: "Foundation", sub: "Easy questions", color: "emerald" },
+                      Advanced:   { label: "Advanced",   sub: "Balanced mix",  color: "brand"   },
+                      Olympiad:   { label: "Olympiad",   sub: "Hardest level", color: "violet"  },
+                    }[c];
+                    const isSelected = complexity === c;
+                    const colorMap: Record<string, string> = {
+                      emerald: isSelected ? "border-emerald-500 bg-emerald-50 text-emerald-800" : "border-slate-200 bg-slate-50 text-slate-600 hover:border-emerald-300",
+                      brand:   isSelected ? "border-brand-500 bg-brand-50 text-brand-800"     : "border-slate-200 bg-slate-50 text-slate-600 hover:border-brand-300",
+                      violet:  isSelected ? "border-violet-500 bg-violet-50 text-violet-800"   : "border-slate-200 bg-slate-50 text-slate-600 hover:border-violet-300",
+                    };
+                    return (
+                      <button
+                        key={c}
+                        type="button"
+                        onClick={() => { setComplexity(c); setGeneratedPaper(null); }}
+                        className={`rounded-xl border-2 px-3 py-2.5 text-center transition ${colorMap[meta.color]}`}
+                      >
+                        <p className="text-xs font-bold">{meta.label}</p>
+                        <p className="text-[10px] opacity-70 mt-0.5">{meta.sub}</p>
+                        {isSelected && <div className="mt-1 h-1 w-4 mx-auto rounded-full bg-current opacity-50" />}
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
             </div>

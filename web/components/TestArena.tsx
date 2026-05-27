@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { AlertTriangle, ChevronLeft, ChevronRight, Flag, Timer } from "lucide-react";
+import { AlertTriangle, ChevronLeft, ChevronRight, Flag, Timer, XCircle } from "lucide-react";
 import {
   SECONDS_PER_QUESTION,
   type AttemptResult,
@@ -41,6 +41,7 @@ export function TestArena({
   const [remaining, setRemaining] = useState(totalSeconds);
   const startedAt = useRef<number>(Date.now());
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
+  const [showCancelConfirm, setShowCancelConfirm] = useState(false);
 
   const flaggedCount = useMemo(() => flagged.filter(Boolean).length, [flagged]);
 
@@ -174,6 +175,62 @@ export function TestArena({
     </div>
   );
 
+  const unansweredCount = total - answeredCount;
+
+  const cancelModal = showCancelConfirm && (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/70 p-4 backdrop-blur-sm">
+      <div className="w-full max-w-md rounded-2xl border border-slate-100 bg-white p-6 shadow-2xl">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-red-50 shrink-0">
+            <XCircle className="h-5 w-5 text-red-500" />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-slate-900">End Exam Early?</h3>
+            <p className="text-xs text-slate-500">{paper.isMockExam ? "Mock Exam" : "Practice Test"}</p>
+          </div>
+        </div>
+
+        <div className="rounded-xl bg-slate-50 border border-slate-200 p-4 mb-4 space-y-1.5 text-sm">
+          <div className="flex justify-between">
+            <span className="text-slate-600">Answered</span>
+            <span className="font-bold text-emerald-700">{answeredCount} / {total}</span>
+          </div>
+          <div className="flex justify-between">
+            <span className="text-slate-600">Unanswered (marked wrong)</span>
+            <span className="font-bold text-red-600">{unansweredCount}</span>
+          </div>
+          {flaggedCount > 0 && (
+            <div className="flex justify-between">
+              <span className="text-slate-600">Flagged for review</span>
+              <span className="font-bold text-amber-600">{flaggedCount}</span>
+            </div>
+          )}
+        </div>
+
+        <p className="text-xs text-slate-500 leading-relaxed mb-5">
+          Unanswered questions will be counted as incorrect. Your score, performance breakdown, and PDF download will be available on the results page.
+        </p>
+
+        <div className="flex flex-col gap-2 sm:flex-row sm:justify-end">
+          <button
+            type="button"
+            onClick={() => setShowCancelConfirm(false)}
+            className="rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
+          >
+            Continue Exam
+          </button>
+          <button
+            type="button"
+            onClick={() => { setShowCancelConfirm(false); submitRef.current?.(); }}
+            className="rounded-xl bg-red-600 hover:bg-red-700 px-5 py-2.5 text-sm font-bold text-white shadow-md transition"
+          >
+            End &amp; See Results
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
   if (simulationMode) {
     return (
       <>
@@ -190,9 +247,19 @@ export function TestArena({
             {isUrgent && <AlertTriangle className="h-5 w-5" />}
             {formatTime(remaining)}
           </div>
-          <p className="text-sm font-semibold text-slate-500">
-            Q {current + 1} / {total}
-          </p>
+          <div className="flex items-center gap-3">
+            <p className="text-sm font-semibold text-slate-500">
+              Q {current + 1} / {total}
+            </p>
+            <button
+              type="button"
+              onClick={() => setShowCancelConfirm(true)}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-red-200 bg-red-50 px-3 py-1.5 text-xs font-semibold text-red-600 hover:bg-red-100 transition"
+            >
+              <XCircle className="h-3.5 w-3.5" />
+              End Exam
+            </button>
+          </div>
         </div>
 
         {/* Dual progress bar: answers (primary) + time (secondary) */}
@@ -366,6 +433,7 @@ export function TestArena({
         </div>
       </div>
       {confirmModal}
+      {cancelModal}
       </>
     );
   }
@@ -479,6 +547,13 @@ export function TestArena({
             <Flag className="h-4 w-4" />
             {flagged[current] ? "Unflag" : "Review later"}
           </button>
+          <button
+            type="button"
+            onClick={() => setShowCancelConfirm(true)}
+            className="inline-flex items-center gap-1 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm font-medium text-red-600 hover:bg-red-100 transition"
+          >
+            <XCircle className="h-4 w-4" /> End Test
+          </button>
           <div className="ml-auto flex gap-2">
             {current < total - 1 ? (
               <button
@@ -535,6 +610,7 @@ export function TestArena({
       </aside>
     </div>
     {confirmModal}
+    {cancelModal}
     </>
   );
 }
