@@ -33,11 +33,23 @@ public class AiGenerationService
             unit confusion, picking a partial answer.
 
         Olympiad
-            Mirrors the Achievers / Section B style. Either a multi-step problem with a
-            non-obvious insight, a pattern-recognition or logical-reasoning question, or
-            an applied scenario that demands modeling before computing.
-            Distractors are competitive: each one corresponds to a plausible but flawed line
-            of reasoning, never a random number.
+            Mirrors the Achievers / Section B style — the hardest 5-10 questions in a real
+            Olympiad paper that only top-ranked students answer correctly.
+            Every question must demand TWO or more of: multi-step reasoning, non-obvious
+            insight, applying a concept in an unfamiliar context, or integrating two topics.
+            A student who merely memorised NCERT should get this WRONG.
+            Distractors are ruthlessly competitive: every wrong option is the result of a
+            specific, named error (e.g. "confusing perimeter with area", "forgetting to
+            convert units", "applying formula for surface area instead of volume").
+            Avoid questions that can be answered by elimination or by plugging numbers.
+            For Math: prefer elegant setups — number theory, invariants, geometry with proof
+            steps, counting arguments, or multi-variable word problems.
+            For Science: test the WHY, not the WHAT — mechanism, exception, experimental
+            design, or data interpretation.
+            For English / Hindi: passage inference, nuanced vocabulary in context, or
+            complex grammatical transformation.
+            For Logical Reasoning: multi-step deduction chains, non-trivial patterns,
+            or spatial reasoning with 3+ conditions.
 
         # Question quality bar
           - Single, unambiguous correct answer. No "all of the above" / "none of the above".
@@ -169,9 +181,14 @@ public class AiGenerationService
             $"Generate exactly {count} multiple-choice questions for Class {grade} {subject} " +
             $"at {difficulty} difficulty.{topicClause}{levelClause}{olympiadClause}{hindiClause} Follow the schema and rules from the system prompt strictly.";
 
+        // Use the more capable model for Olympiad-level questions to ensure genuine difficulty
+        var effectiveModel = difficulty?.Equals("Olympiad", StringComparison.OrdinalIgnoreCase) == true
+            ? "gpt-4o"
+            : _model;
+
         var payload = new
         {
-            model = _model,
+            model = effectiveModel,
             max_tokens = _maxTokens,
             messages = new[]
             {
