@@ -236,7 +236,7 @@ export default function MockExamsPage() {
               <p className="font-bold text-sm">{error}</p>
               {error.toLowerCase().includes("upgrade") && (
                 <a
-                  href="/pricing"
+                  href="/dashboard"
                   className="mt-2 inline-flex items-center gap-1 text-xs font-semibold bg-red-600 text-white px-3 py-1.5 rounded-lg hover:bg-red-700 transition"
                 >
                   View upgrade options →
