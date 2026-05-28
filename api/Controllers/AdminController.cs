@@ -816,7 +816,8 @@ public class AdminController : ControllerBase
         {
             UserId = report.UserId,
             Title = $"Report {dto.Status}",
-            Message = message
+            Message = message,
+            CreatedAt = DateTime.UtcNow
         };
         _db.UserNotifications.Add(notification);
 
