@@ -166,10 +166,17 @@ public class SubscriptionService
     public async Task<object> GetSubscriptionSummaryAsync(Guid userId, CancellationToken ct = default)
     {
         var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
-        var activeSubs = await _db.Subscriptions
+        var activeSubsDb = await _db.Subscriptions
             .Where(s => s.UserId == userId && s.EndDate > DateTime.UtcNow)
-            .Select(s => new { s.Grade, s.Subject, s.AiGenerationsUsed, s.EndDate })
             .ToListAsync(ct);
+
+        var activeSubs = activeSubsDb.Select(s => new
+        {
+            s.Grade,
+            Subject = SubjectNormalizer.Normalize(s.Subject).Name ?? s.Subject,
+            s.AiGenerationsUsed,
+            s.EndDate
+        }).ToList();
 
         return new 
         {
