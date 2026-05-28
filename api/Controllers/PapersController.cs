@@ -126,8 +126,10 @@ public class PapersController : ControllerBase
                         int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
                         string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
 
+                        var newBankId = Guid.NewGuid();
                         var qbItem = new QuestionBankItem
                         {
+                            QuestionBankId = newBankId,
                             Subject = req.Subject,
                             Grade = req.Grade,
                             Difficulty = req.Difficulty,
@@ -139,6 +141,7 @@ public class PapersController : ControllerBase
                             CreatedAt = DateTime.UtcNow
                         };
                         _db.QuestionBank.Add(qbItem);
+                        q.BankId = newBankId;
                     }
                 }
 

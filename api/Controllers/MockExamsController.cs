@@ -233,8 +233,10 @@ public class MockExamsController : ControllerBase
                 int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
                 string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
 
+                var newBankId = Guid.NewGuid();
                 _db.QuestionBank.Add(new QuestionBankItem
                 {
+                    QuestionBankId = newBankId,
                     Subject = req.Subject,
                     Grade = req.Grade,
                     Difficulty = section.Difficulty,
@@ -245,6 +247,7 @@ public class MockExamsController : ControllerBase
                     Explanation = q.Explanation ?? "",
                     CreatedAt = DateTime.UtcNow
                 });
+                q.BankId = newBankId;
             }
 
             // Always back-fill from DB if still short (AI timed out, returned fewer, or was skipped)
