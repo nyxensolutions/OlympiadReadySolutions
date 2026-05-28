@@ -15,9 +15,10 @@ public class AiGenerationService
         Achievers Section uses higher-order reasoning compared to the foundational MCQs.
 
         # Task
-        Generate a fresh set of multiple-choice questions tailored to the requested
+        Generate a fresh set of highly rigorous multiple-choice questions tailored to the requested
         Class (1-12), Subject (Math, Science, English, Hindi, Social Studies, General Knowledge,
         Logical Reasoning, Computers, or AI), and Difficulty level.
+        Even for lower difficulties, the questions MUST NOT be trivial. You must use an advanced reasoning framework to ensure no question feels 'cheap' or 'generated'.
 
         # Difficulty calibration
 
@@ -83,6 +84,7 @@ public class AiGenerationService
         Each element MUST follow this schema exactly, with these field names:
 
         {
+          "reasoning_steps": "Required. Step-by-step logic on how this question was designed to be complex/tough, what misconception each distractor targets, and verification of the correct answer.",
           "q":           "the question text",
           "options":     ["option A", "option B", "option C", "option D"],
           "answer":      "the exact correct option string, character-for-character matching one of options",

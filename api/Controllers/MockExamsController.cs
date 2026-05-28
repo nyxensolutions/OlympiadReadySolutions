@@ -135,8 +135,14 @@ public class MockExamsController : ControllerBase
         };
 
         var finalQuestions = new List<Question>();
+        
+        var historicalIds = await _db.UserSeenQuestions
+            .Where(x => x.UserId == user.UserId.ToString())
+            .Select(x => x.QuestionBankId)
+            .ToListAsync(ct);
+            
         // Shared used-ID set — accessed only after all DB fetches complete, so no race condition
-        var usedIds = new HashSet<Guid>();
+        var usedIds = new HashSet<Guid>(historicalIds);
 
         // ── Phase 1: fetch DB questions for all sections (sequential to avoid ID collisions) ──
         var sectionDbQuestions = new List<List<Question>>();
@@ -297,6 +303,24 @@ public class MockExamsController : ControllerBase
         };
 
         _db.Papers.Add(paper);
+        
+        // Record all questions shown in this exam so they aren't repeated
+        var newlySeenIds = finalQuestions
+            .Where(q => q.BankId != Guid.Empty && !historicalIds.Contains(q.BankId))
+            .Select(q => q.BankId)
+            .Distinct()
+            .ToList();
+
+        if (newlySeenIds.Any())
+        {
+            var seenRecords = newlySeenIds.Select(id => new UserSeenQuestion
+            {
+                UserId = user.UserId.ToString(),
+                QuestionBankId = id
+            });
+            _db.UserSeenQuestions.AddRange(seenRecords);
+        }
+        
         await _db.SaveChangesAsync(ct);
 
         return Ok(new

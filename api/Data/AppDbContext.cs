@@ -18,6 +18,9 @@ public class AppDbContext : DbContext
     public DbSet<UserMistake> UserMistakes => Set<UserMistake>();
     public DbSet<SpellBeeWord> SpellBeeWords => Set<SpellBeeWord>();
     public DbSet<PhysicalRewardClaim> PhysicalRewardClaims => Set<PhysicalRewardClaim>();
+    public DbSet<UserSeenQuestion> UserSeenQuestions => Set<UserSeenQuestion>();
+    public DbSet<ReportedQuestion> ReportedQuestions => Set<ReportedQuestion>();
+    public DbSet<UserNotification> UserNotifications => Set<UserNotification>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
@@ -184,6 +187,44 @@ public class AppDbContext : DbContext
             e.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
             e.HasIndex(x => new { x.Grade, x.Difficulty, x.Category });
             e.HasIndex(x => x.Word).IsUnique();
+        });
+
+        b.Entity<UserSeenQuestion>(e =>
+        {
+            e.ToTable("UserSeenQuestions");
+            e.HasKey(x => x.Id);
+            e.Property(x => x.SeenAt).HasDefaultValueSql("GETDATE()");
+            e.HasIndex(x => new { x.UserId, x.QuestionBankId }).IsUnique();
+        });
+
+        b.Entity<ReportedQuestion>(e =>
+        {
+            e.ToTable("ReportedQuestions");
+            e.HasKey(x => x.ReportId);
+            e.Property(x => x.ReportId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.ReportedAt).HasDefaultValueSql("GETDATE()");
+            e.HasOne(x => x.User)
+                .WithMany()
+                .HasForeignKey(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+            e.HasOne(x => x.Question)
+                .WithMany()
+                .HasForeignKey(x => x.QuestionBankId)
+                .OnDelete(DeleteBehavior.Cascade);
+            e.HasIndex(x => x.Status);
+        });
+
+        b.Entity<UserNotification>(e =>
+        {
+            e.ToTable("UserNotifications");
+            e.HasKey(x => x.NotificationId);
+            e.Property(x => x.NotificationId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
+            e.HasOne(x => x.User)
+                .WithMany()
+                .HasForeignKey(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+            e.HasIndex(x => new { x.UserId, x.IsRead });
         });
 
         b.Entity<PhysicalRewardClaim>(e =>

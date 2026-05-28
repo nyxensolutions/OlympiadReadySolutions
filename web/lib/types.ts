@@ -7,6 +7,7 @@ export type Question = {
   topic?: string;
   sectionName?: string;
   marks?: number;
+  bankId?: string;
 };
 
 export type DashboardSummary = {

@@ -36,6 +36,7 @@ const BADGE_EMOJI: Record<string, string> = {
   speed: "⚡", lightning: "🌩️",
   explorer: "🌍", all_rounder: "🌟",
   mock_exam: "📋", mock_3: "🏆",
+  bug_hunter: "🕵️‍♂️",
 };
 
 interface ExtendedEntry extends LeaderboardEntry {
@@ -44,12 +45,12 @@ interface ExtendedEntry extends LeaderboardEntry {
   earnedBadgeIds?: string[];
 }
 
-export function LeaderboardCard({ compact = false }: { compact?: boolean }) {
+export function LeaderboardCard({ compact = false, endpoint = "/api/leaderboard", type = "scorers" }: { compact?: boolean, endpoint?: string, type?: "scorers" | "reporters" }) {
   const [entries, setEntries] = useState<ExtendedEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${API_URL}/api/leaderboard`)
+    fetch(`${API_URL}${endpoint}`)
       .then((r) => r.ok ? r.json() : [])
       .then(setEntries)
       .catch(() => {})
@@ -125,7 +126,7 @@ export function LeaderboardCard({ compact = false }: { compact?: boolean }) {
             {/* Score */}
             <div className="flex items-center gap-1.5 shrink-0">
               <span className={`rounded-full px-2.5 py-0.5 text-xs font-bold ring-1 ${m.ring} ${m.bg} ${m.text}`}>
-                {entry.bestScorePct}%
+                {type === "reporters" ? `${(entry as any).reportedCount} Reports` : `${entry.bestScorePct}%`}
               </span>
             </div>
           </div>
@@ -136,14 +137,35 @@ export function LeaderboardCard({ compact = false }: { compact?: boolean }) {
 }
 
 export function LeaderboardSection() {
+  const [activeTab, setActiveTab] = useState<"scorers" | "reporters">("scorers");
+  
   return (
     <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-      <div className="flex items-center gap-2 border-b border-slate-100 px-6 py-4">
-        <Trophy className="h-5 w-5 text-amber-500" />
-        <h2 className="text-lg font-semibold text-slate-900">Top Scorers</h2>
-        <span className="ml-auto text-xs text-slate-400">Last 30 days</span>
+      <div className="flex items-center justify-between border-b border-slate-100 px-6 py-4 flex-wrap gap-4">
+        <div className="flex items-center gap-2">
+          <Trophy className="h-5 w-5 text-amber-500" />
+          <h2 className="text-lg font-semibold text-slate-900">Leaderboard</h2>
+        </div>
+        <div className="flex bg-slate-100 p-1 rounded-lg">
+          <button
+            onClick={() => setActiveTab("scorers")}
+            className={`px-4 py-1.5 text-xs font-semibold rounded-md transition ${activeTab === "scorers" ? "bg-white shadow text-slate-900" : "text-slate-500 hover:text-slate-700"}`}
+          >
+            Top Scorers
+          </button>
+          <button
+            onClick={() => setActiveTab("reporters")}
+            className={`px-4 py-1.5 text-xs font-semibold rounded-md transition ${activeTab === "reporters" ? "bg-white shadow text-slate-900" : "text-slate-500 hover:text-slate-700"}`}
+          >
+            Top Reporters
+          </button>
+        </div>
       </div>
-      <LeaderboardCard />
+      {activeTab === "scorers" ? (
+        <LeaderboardCard type="scorers" endpoint="/api/leaderboard" />
+      ) : (
+        <LeaderboardCard type="reporters" endpoint="/api/leaderboard/reporters" />
+      )}
     </section>
   );
 }

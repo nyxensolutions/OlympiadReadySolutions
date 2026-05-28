@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OlympiadReady.Api.Data;
 
@@ -11,9 +12,11 @@ using OlympiadReady.Api.Data;
 namespace OlympiadReady.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260528100719_AddUserSeenQuestions")]
+    partial class AddUserSeenQuestions
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -345,57 +348,6 @@ namespace OlympiadReady.Api.Migrations
                     b.ToTable("QuestionPapers", (string)null);
                 });
 
-            modelBuilder.Entity("OlympiadReady.Api.Data.Entities.ReportedQuestion", b =>
-                {
-                    b.Property<Guid>("ReportId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier")
-                        .HasDefaultValueSql("NEWID()");
-
-                    b.Property<string>("AdminReason")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
-
-                    b.Property<Guid>("QuestionBankId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("ReportedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETDATE()");
-
-                    b.Property<DateTime?>("ResolvedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("ReportId");
-
-                    b.HasIndex("QuestionBankId");
-
-                    b.HasIndex("Status");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("ReportedQuestions", (string)null);
-                });
-
             modelBuilder.Entity("OlympiadReady.Api.Data.Entities.SpellBeeWord", b =>
                 {
                     b.Property<Guid>("SpellBeeWordId")
@@ -635,41 +587,6 @@ namespace OlympiadReady.Api.Migrations
                     b.ToTable("UserMistakes", (string)null);
                 });
 
-            modelBuilder.Entity("OlympiadReady.Api.Data.Entities.UserNotification", b =>
-                {
-                    b.Property<Guid>("NotificationId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier")
-                        .HasDefaultValueSql("NEWID()");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETDATE()");
-
-                    b.Property<bool>("IsRead")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("NotificationId");
-
-                    b.HasIndex("UserId", "IsRead");
-
-                    b.ToTable("UserNotifications", (string)null);
-                });
-
             modelBuilder.Entity("OlympiadReady.Api.Data.Entities.UserSeenQuestion", b =>
                 {
                     b.Property<int>("Id")
@@ -751,25 +668,6 @@ namespace OlympiadReady.Api.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("OlympiadReady.Api.Data.Entities.ReportedQuestion", b =>
-                {
-                    b.HasOne("OlympiadReady.Api.Data.Entities.QuestionBankItem", "Question")
-                        .WithMany()
-                        .HasForeignKey("QuestionBankId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OlympiadReady.Api.Data.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Question");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("OlympiadReady.Api.Data.Entities.Subscription", b =>
                 {
                     b.HasOne("OlympiadReady.Api.Data.Entities.User", "User")
@@ -796,17 +694,6 @@ namespace OlympiadReady.Api.Migrations
                 {
                     b.HasOne("OlympiadReady.Api.Data.Entities.User", "User")
                         .WithMany("Mistakes")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("OlympiadReady.Api.Data.Entities.UserNotification", b =>
-                {
-                    b.HasOne("OlympiadReady.Api.Data.Entities.User", "User")
-                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

@@ -13,6 +13,7 @@ import {
 } from "@clerk/nextjs";
 import { PurchasesPanel } from "./PurchasesPanel";
 import { UpgradeModal } from "./UpgradeModal";
+import { NotificationsDropdown } from "./NotificationsDropdown";
 
 export type ActivePage =
   | "home"
@@ -93,6 +94,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <Receipt className="h-4 w-4 shrink-0" />
               <span className="hidden lg:inline text-xs">Purchases</span>
             </Link>
+            <NotificationsDropdown />
             <UserButton afterSignOutUrl="/" />
           </SignedIn>
           <SignedOut>

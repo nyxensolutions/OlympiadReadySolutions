@@ -46,6 +46,13 @@ public class LeaderboardController : ControllerBase
 
         var allByUser = allResults.GroupBy(r => r.UserId).ToDictionary(g => g.Key, g => g.ToList());
 
+        var reportedCounts = await _db.ReportedQuestions
+            .AsNoTracking()
+            .Where(r => r.Status == "Accepted")
+            .GroupBy(r => r.UserId)
+            .Select(g => new { UserId = g.Key, Count = g.Count() })
+            .ToDictionaryAsync(x => x.UserId, x => x.Count, ct);
+
         var top10 = recentRows
             .GroupBy(r => r.UserId)
             .Select(g =>
@@ -55,7 +62,8 @@ public class LeaderboardController : ControllerBase
                 var bestScorePct = Math.Round(g.Max(r => r.ScorePct), 1);
 
                 var userResults  = allByUser.TryGetValue(userId, out var ur) ? ur : new List<ResultRow>();
-                var badges       = ComputeBadges(userResults);
+                var repCount     = reportedCounts.TryGetValue(userId, out var c) ? c : 0;
+                var badges       = ComputeBadges(userResults, repCount);
                 var earnedIds    = badges.Where(b => b.Earned).Select(b => b.Id).ToList();
                 var title        = GetTitle(earnedIds.Count, badges.Count);
 
@@ -78,6 +86,36 @@ public class LeaderboardController : ControllerBase
         return Ok(top10);
     }
 
+    [HttpGet("reporters")]
+    public async Task<IActionResult> GetTopReporters(CancellationToken ct)
+    {
+        var topReporters = await _db.ReportedQuestions
+            .AsNoTracking()
+            .Where(r => r.Status == "Accepted")
+            .GroupBy(r => r.UserId)
+            .Select(g => new { UserId = g.Key, Count = g.Count() })
+            .OrderByDescending(x => x.Count)
+            .Take(10)
+            .ToListAsync(ct);
+
+        if (!topReporters.Any()) return Ok(new List<object>());
+
+        var userIds = topReporters.Select(x => x.UserId).ToList();
+        var users = await _db.Users
+            .Where(u => userIds.Contains(u.UserId))
+            .ToDictionaryAsync(u => u.UserId, ct);
+
+        var result = topReporters.Select((x, i) => new
+        {
+            rank = i + 1,
+            displayName = FirstName(users.TryGetValue(x.UserId, out var u) ? u.FullName : "", users.TryGetValue(x.UserId, out var u2) ? u2.Email : ""),
+            reportedCount = x.Count,
+            medal = x.Count >= 10 ? "Gold" : (x.Count >= 5 ? "Silver" : "Bronze")
+        }).ToList();
+
+        return Ok(result);
+    }
+
     // ── Typed helpers ────────────────────────────────────────────────────────
 
     private record ScoreRow(Guid UserId, string? FullName, string? Email, double ScorePct);
@@ -88,7 +126,7 @@ public class LeaderboardController : ControllerBase
 
     private record BadgeResult(string Id, bool Earned);
 
-    private static List<BadgeResult> ComputeBadges(List<ResultRow> rs)
+    private static List<BadgeResult> ComputeBadges(List<ResultRow> rs, int reportedCount)
     {
         int total    = rs.Count;
         double bestPct = total == 0 ? 0 : rs.Max(r => r.TotalQuestions > 0 ? (double)r.Score / r.TotalQuestions * 100.0 : 0.0);
@@ -154,6 +192,7 @@ public class LeaderboardController : ControllerBase
             new("all_rounder",       masteredSubjects >= 3),
             new("mock_exam",         rs.Any(r => r.PaperTitle.StartsWith("Mock Exam"))),
             new("mock_3",            rs.Count(r => r.PaperTitle.StartsWith("Mock Exam")) >= 3),
+            new("bug_hunter",        reportedCount >= 10),
         };
     }
 

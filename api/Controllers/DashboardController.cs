@@ -82,13 +82,17 @@ public class DashboardController : ControllerBase
         var unresolvedMistakesCount = await _db.UserMistakes
             .CountAsync(m => m.UserId == user.UserId && !m.IsResolved, ct);
 
+        var reportedCount = await _db.ReportedQuestions
+            .CountAsync(r => r.UserId == user.UserId && r.Status == "Accepted", ct);
+
         return Ok(new
         {
             subscription = summary,
             papers,
             results,
             mastery,
-            mistakeCount = unresolvedMistakesCount
+            mistakeCount = unresolvedMistakesCount,
+            reportedCount = reportedCount
         });
     }
 }

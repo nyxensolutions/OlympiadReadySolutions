@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { AlertTriangle, ChevronLeft, ChevronRight, Flag, Timer, XCircle } from "lucide-react";
+import { AlertTriangle, ChevronLeft, ChevronRight, Flag, Timer, XCircle, AlertOctagon } from "lucide-react";
+import { ReportQuestionModal } from "./ReportQuestionModal";
 import {
   SECONDS_PER_QUESTION,
   type AttemptResult,
@@ -42,6 +43,7 @@ export function TestArena({
   const startedAt = useRef<number>(Date.now());
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [showCancelConfirm, setShowCancelConfirm] = useState(false);
+  const [reportingQuestionIdx, setReportingQuestionIdx] = useState<number | null>(null);
 
   const flaggedCount = useMemo(() => flagged.filter(Boolean).length, [flagged]);
 
@@ -281,19 +283,39 @@ export function TestArena({
 
         {/* Question area */}
         <div className="mx-auto w-full max-w-3xl flex-1 px-6 py-8">
-          {/* Section Banner */}
-          {q.sectionName && (
-            <div className="mb-4 flex items-center gap-2 rounded-lg bg-indigo-50 px-3 py-2 text-sm font-bold text-indigo-800 border border-indigo-100">
-              {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
-            </div>
-          )}
+          {/* Section Banner & Report Button */}
+          <div className="mb-4 flex justify-between items-start">
+            {q.sectionName ? (
+              <div className="flex items-center gap-2 rounded-lg bg-indigo-50 px-3 py-2 text-sm font-bold text-indigo-800 border border-indigo-100">
+                {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
+              </div>
+            ) : <div />}
+            <button 
+              type="button" 
+              onClick={() => setReportingQuestionIdx(current)}
+              className="flex items-center gap-1.5 text-xs font-semibold text-rose-500 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 px-2.5 py-1.5 rounded transition"
+            >
+              <AlertOctagon className="h-3.5 w-3.5" />
+              Report Issue
+            </button>
+          </div>
 
-          {/* Flag banner */}
-          {flagged[current] && (
-            <div className="mb-4 flex items-center gap-2 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-700">
-              <Flag className="h-3.5 w-3.5" /> Marked for review
-            </div>
-          )}
+          {/* Flag and Report banner */}
+          <div className="mb-4 flex items-start justify-between gap-2">
+            {flagged[current] ? (
+              <div className="flex items-center gap-2 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-700">
+                <Flag className="h-3.5 w-3.5" /> Marked for review
+              </div>
+            ) : <div />}
+            <button 
+              type="button" 
+              onClick={() => setReportingQuestionIdx(current)}
+              className="flex items-center gap-1.5 text-xs font-semibold text-rose-500 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 px-2.5 py-1.5 rounded transition"
+            >
+              <AlertOctagon className="h-3.5 w-3.5" />
+              Report Issue
+            </button>
+          </div>
 
           <MarkdownMath content={q.q} className="text-lg font-semibold" />
           {q.imageUrl && (
@@ -434,6 +456,13 @@ export function TestArena({
       </div>
       {confirmModal}
       {cancelModal}
+      {reportingQuestionIdx !== null && (
+        <ReportQuestionModal
+          questionId={questions[reportingQuestionIdx].bankId || ""}
+          questionText={questions[reportingQuestionIdx].q}
+          onClose={() => setReportingQuestionIdx(null)}
+        />
+      )}
       </>
     );
   }
@@ -465,13 +494,23 @@ export function TestArena({
           <span>{total - answeredCount} remaining</span>
         </div>
 
-        {q.sectionName && (
-          <div className="mt-4 flex items-center gap-2 rounded bg-indigo-50 px-2 py-1.5 text-xs font-bold text-indigo-800 border border-indigo-100 w-fit">
-            {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
-          </div>
-        )}
+        <div className="mt-4 flex justify-between items-start">
+          {q.sectionName ? (
+            <div className="flex items-center gap-2 rounded bg-indigo-50 px-2 py-1.5 text-xs font-bold text-indigo-800 border border-indigo-100 w-fit">
+              {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
+            </div>
+          ) : <div />}
+          <button 
+            type="button" 
+            onClick={() => setReportingQuestionIdx(current)}
+            className="flex items-center gap-1.5 text-xs font-semibold text-rose-500 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 px-2.5 py-1.5 rounded transition"
+          >
+            <AlertOctagon className="h-3.5 w-3.5" />
+            Report Issue
+          </button>
+        </div>
 
-        <MarkdownMath content={q.q} className="mt-6 text-base" />
+        <MarkdownMath content={q.q} className="mt-4 text-base" />
         {q.imageUrl && (
           <div className="mt-4 flex justify-start">
             <img src={q.imageUrl} alt="Question Diagram" className="max-h-48 rounded-lg border border-slate-200 shadow-sm" />
@@ -611,6 +650,13 @@ export function TestArena({
     </div>
     {confirmModal}
     {cancelModal}
+    {reportingQuestionIdx !== null && (
+      <ReportQuestionModal
+        questionId={questions[reportingQuestionIdx].bankId || ""}
+        questionText={questions[reportingQuestionIdx].q}
+        onClose={() => setReportingQuestionIdx(null)}
+      />
+    )}
     </>
   );
 }

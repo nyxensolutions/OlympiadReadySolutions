@@ -166,12 +166,32 @@ public class PracticePapersController : ControllerBase
                           $"Get the full 50-question version for ₹{PdfPriceInPaise / 100}."
             });
 
-        var questions = await _bank.TryGetRandomAsync(subject, grade, null, FreeQuestionCount, topic, ct);
+        var historicalIds = await _db.UserSeenQuestions
+            .Where(x => x.UserId == user.UserId.ToString())
+            .Select(x => x.QuestionBankId)
+            .ToListAsync(ct);
+            
+        var questions = await _bank.TryGetRandomAsync(subject, grade, null, FreeQuestionCount, topic, ct, historicalIds);
         if (questions is null || questions.Count == 0)
             return StatusCode(503, new
             {
                 message = $"Not enough questions in bank for {purchaseKey} Class {grade}. Try another subject."
             });
+
+        // Record the newly seen questions
+        var newlySeenIds = questions
+            .Where(q => q.BankId != Guid.Empty && !historicalIds.Contains(q.BankId))
+            .Select(q => q.BankId)
+            .Distinct();
+            
+        if (newlySeenIds.Any())
+        {
+            _db.UserSeenQuestions.AddRange(newlySeenIds.Select(id => new UserSeenQuestion
+            {
+                UserId = user.UserId.ToString(),
+                QuestionBankId = id
+            }));
+        }
 
         // Record the free download before streaming
         _db.PdfPurchases.Add(new PdfPurchase
@@ -268,12 +288,33 @@ public class PracticePapersController : ControllerBase
         await _db.SaveChangesAsync(ct);
 
         // Generate and return the PDF immediately
-        var questions = await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, PaidQuestionCount, req.Topic, ct);
+        var historicalIds = await _db.UserSeenQuestions
+            .Where(x => x.UserId == user.UserId.ToString())
+            .Select(x => x.QuestionBankId)
+            .ToListAsync(ct);
+            
+        var questions = await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, PaidQuestionCount, req.Topic, ct, historicalIds);
         if (questions is null || questions.Count == 0)
             return StatusCode(503, new
             {
                 message = $"Not enough questions in bank for {purchaseKey} Class {req.Grade}."
             });
+
+        // Record the newly seen questions
+        var newlySeenIds = questions
+            .Where(q => q.BankId != Guid.Empty && !historicalIds.Contains(q.BankId))
+            .Select(q => q.BankId)
+            .Distinct();
+            
+        if (newlySeenIds.Any())
+        {
+            _db.UserSeenQuestions.AddRange(newlySeenIds.Select(id => new UserSeenQuestion
+            {
+                UserId = user.UserId.ToString(),
+                QuestionBankId = id
+            }));
+            await _db.SaveChangesAsync(ct);
+        }
 
         var exportReq = new PdfExportRequest
         {
@@ -325,9 +366,29 @@ public class PracticePapersController : ControllerBase
         }
 
         // 3. Generate PDF
-        var questions = await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, PaidQuestionCount, req.Topic, ct);
+        var historicalIds = await _db.UserSeenQuestions
+            .Where(x => x.UserId == user.UserId.ToString())
+            .Select(x => x.QuestionBankId)
+            .ToListAsync(ct);
+            
+        var questions = await _bank.TryGetRandomAsync(req.Subject, req.Grade, null, PaidQuestionCount, req.Topic, ct, historicalIds);
         if (questions is null || questions.Count == 0)
             return StatusCode(503, new { message = $"Not enough questions in bank for {purchaseKey} Class {req.Grade}." });
+
+        // Record the newly seen questions
+        var newlySeenIds = questions
+            .Where(q => q.BankId != Guid.Empty && !historicalIds.Contains(q.BankId))
+            .Select(q => q.BankId)
+            .Distinct();
+            
+        if (newlySeenIds.Any())
+        {
+            _db.UserSeenQuestions.AddRange(newlySeenIds.Select(id => new UserSeenQuestion
+            {
+                UserId = user.UserId.ToString(),
+                QuestionBankId = id
+            }));
+        }
 
         _db.PdfPurchases.Add(new PdfPurchase
         {

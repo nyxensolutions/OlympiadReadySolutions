@@ -750,6 +750,108 @@ public class AdminController : ControllerBase
     }
 
     // ---------------------------------------------------------------
+    // GET /api/admin/reports
+    // Lists all reported questions.
+    // ---------------------------------------------------------------
+    [HttpGet("reports")]
+    public async Task<IActionResult> GetReports(CancellationToken ct)
+    {
+        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        var reports = await _db.ReportedQuestions
+            .AsNoTracking()
+            .Include(r => r.User)
+            .Include(r => r.Question)
+            .OrderByDescending(r => r.ReportedAt)
+            .Select(r => new
+            {
+                r.ReportId,
+                r.UserId,
+                UserEmail = r.User != null ? r.User.Email : "",
+                UserFullName = r.User != null ? r.User.FullName : "",
+                r.QuestionBankId,
+                QuestionText = r.Question != null ? r.Question.QuestionText : "",
+                r.Category,
+                r.Description,
+                r.Status,
+                r.AdminReason,
+                r.ReportedAt,
+                r.ResolvedAt
+            })
+            .ToListAsync(ct);
+
+        return Ok(reports);
+    }
+
+    public record ResolveReportDto(string Status, string? AdminReason);
+
+    // ---------------------------------------------------------------
+    // POST /api/admin/reports/{reportId}/resolve
+    // Accept or Reject a reported question, sends notification.
+    // ---------------------------------------------------------------
+    [HttpPost("reports/{reportId:guid}/resolve")]
+    public async Task<IActionResult> ResolveReport(Guid reportId, [FromBody] ResolveReportDto dto, CancellationToken ct)
+    {
+        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
+
+        if (dto.Status != "Accepted" && dto.Status != "Rejected")
+            return BadRequest(new { error = "Status must be 'Accepted' or 'Rejected'." });
+
+        var report = await _db.ReportedQuestions.FindAsync(new object[] { reportId }, ct);
+        if (report is null) return NotFound(new { error = "Report not found." });
+
+        if (report.Status != "Pending")
+            return BadRequest(new { error = "Report is already resolved." });
+
+        report.Status = dto.Status;
+        report.AdminReason = dto.AdminReason;
+        report.ResolvedAt = DateTime.UtcNow;
+
+        // Create notification
+        var message = dto.Status == "Accepted"
+            ? "Your question report was reviewed and accepted! Thank you for helping us improve."
+            : $"Your question report was reviewed and rejected. Reason: {dto.AdminReason ?? "No reason provided."}";
+
+        var notification = new OlympiadReady.Api.Data.Entities.UserNotification
+        {
+            UserId = report.UserId,
+            Title = $"Report {dto.Status}",
+            Message = message
+        };
+        _db.UserNotifications.Add(notification);
+
+        // Check if user hit 500 accepted reports
+        if (dto.Status == "Accepted")
+        {
+            var acceptedCount = await _db.ReportedQuestions
+                .Where(r => r.UserId == report.UserId && r.Status == "Accepted")
+                .CountAsync(ct) + 1; // +1 for the current one which isn't saved yet
+
+            if (acceptedCount == 500)
+            {
+                var user = await _db.Users.FindAsync(new object[] { report.UserId }, ct);
+                var rewardExists = await _db.PhysicalRewardClaims
+                    .AnyAsync(c => c.UserId == report.UserId && c.RewardType == "super_reporter", ct);
+
+                if (!rewardExists && user != null)
+                {
+                    _db.PhysicalRewardClaims.Add(new OlympiadReady.Api.Data.Entities.PhysicalRewardClaim
+                    {
+                        UserId = report.UserId,
+                        RewardType = "super_reporter",
+                        StudentName = user.FullName ?? user.Email,
+                        Status = "Pending",
+                        RequestedAt = DateTime.UtcNow
+                    });
+                }
+            }
+        }
+
+        await _db.SaveChangesAsync(ct);
+        return Ok(new { message = "Report resolved successfully." });
+    }
+
+    // ---------------------------------------------------------------
     private bool IsAuthorised()
     {
         var configKey = _config["Admin:ApiKey"];

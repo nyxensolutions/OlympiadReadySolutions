@@ -7,6 +7,7 @@ import {
   Pencil, Save, ChevronDown, ChevronUp, Award,
 } from "lucide-react";
 import { BadgesPanel } from "@/components/admin/BadgesPanel";
+import { ReportsPanel } from "@/components/admin/ReportsPanel";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -19,7 +20,7 @@ const GRADES = Array.from({ length: 12 }, (_, i) => i + 1);
 const ANSWER_LABELS = ["A", "B", "C", "D"] as const;
 type AnswerLabel = "A" | "B" | "C" | "D";
 type QuestionMode = "standard" | "image-options";
-type TabId = "add" | "browse" | "badges";
+type TabId = "add" | "browse" | "badges" | "reports";
 
 interface StoredImage { url: string; preview: string; }
 interface Toast { type: "success" | "error"; message: string; }
@@ -156,13 +157,15 @@ export default function AdminPage() {
         </div>
 
         {/* Tab bar */}
-        <div className="flex gap-1 bg-slate-800 p-1 rounded-xl mb-6">
+        <div className="flex gap-1 bg-slate-800 p-1 rounded-xl mb-6 flex-wrap">
           <TabBtn id="add" active={activeTab === "add"} onClick={() => setActiveTab("add")}
             icon={<PlusCircle size={15} />} label="Add Question" />
           <TabBtn id="browse" active={activeTab === "browse"} onClick={() => setActiveTab("browse")}
             icon={<Search size={15} />} label="Browse & Manage" />
           <TabBtn id="badges" active={activeTab === "badges"} onClick={() => setActiveTab("badges")}
             icon={<Award size={15} />} label="Badges & Rewards" />
+          <TabBtn id="reports" active={activeTab === "reports"} onClick={() => setActiveTab("reports")}
+            icon={<AlertCircle size={15} />} label="Reports" />
         </div>
 
         {activeTab === "add" && (
@@ -178,6 +181,10 @@ export default function AdminPage() {
 
         {activeTab === "badges" && (
           <BadgesPanel adminKey={adminKey} showToast={showToast} />
+        )}
+
+        {activeTab === "reports" && (
+          <ReportsPanel adminKey={adminKey} showToast={showToast} />
         )}
 
         {activeTab === "browse" && (
