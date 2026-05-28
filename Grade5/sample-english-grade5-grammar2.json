@@ -1,0 +1,407 @@
+[
+  {
+    "QuestionText": "Which word in the sentence is a verb? 'The birds sing sweetly every morning.'",
+    "Options": ["A) birds", "B) sing", "C) sweetly", "D) morning"],
+    "CorrectAnswer": "B",
+    "Explanation": "A verb is a word that expresses an action, state, or occurrence. 'Sing' describes the action that the birds perform, making it the verb.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which word is an adjective in: 'She wore a beautiful red dress'?",
+    "Options": ["A) wore", "B) she", "C) beautiful", "D) dress"],
+    "CorrectAnswer": "C",
+    "Explanation": "An adjective describes or modifies a noun. 'Beautiful' describes the noun 'dress', making it an adjective. 'Red' is also an adjective, but only 'beautiful' appears among the choices.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Identify the adverb in: 'He ran quickly to catch the bus.'",
+    "Options": ["A) ran", "B) catch", "C) bus", "D) quickly"],
+    "CorrectAnswer": "D",
+    "Explanation": "An adverb modifies a verb, adjective, or another adverb. 'Quickly' tells us HOW he ran, so it is an adverb modifying the verb 'ran'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which conjunction joins two sentences of equal importance?",
+    "Options": ["A) because", "B) although", "C) and", "D) since"],
+    "CorrectAnswer": "C",
+    "Explanation": "'And' is a coordinating conjunction that joins two independent clauses (sentences of equal grammatical rank). 'Because', 'although', and 'since' are subordinating conjunctions.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which word is the action verb in: 'The chef cooked a delicious meal'?",
+    "Options": ["A) chef", "B) delicious", "C) meal", "D) cooked"],
+    "CorrectAnswer": "D",
+    "Explanation": "'Cooked' is the action verb because it tells us what the chef did — it describes the action performed by the subject.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which of the following is a linking verb?",
+    "Options": ["A) run", "B) jump", "C) seems", "D) kick"],
+    "CorrectAnswer": "C",
+    "Explanation": "A linking verb connects the subject to a subject complement (noun or adjective). 'Seems' does not show an action but links the subject to a description, e.g., 'She seems happy.'",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Choose the correct comparative adjective: 'This box is _______ than that one.'",
+    "Options": ["A) heavy", "B) more heavier", "C) heavier", "D) heaviest"],
+    "CorrectAnswer": "C",
+    "Explanation": "For one-syllable adjectives like 'heavy', the comparative is formed by adding '-er'. 'Heavier' is the correct comparative form. 'More heavier' is a double comparative and is incorrect.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which sentence uses a subordinating conjunction?",
+    "Options": ["A) She sang and danced.", "B) I like tea but she likes coffee.", "C) He left early because he was tired.", "D) Either eat now or wait later."],
+    "CorrectAnswer": "C",
+    "Explanation": "'Because' is a subordinating conjunction that introduces a dependent clause ('he was tired') and connects it to the main clause ('He left early'). It shows a cause-and-effect relationship.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which adverb tells us WHEN something happened? 'She will come tomorrow.'",
+    "Options": ["A) She", "B) will", "C) come", "D) tomorrow"],
+    "CorrectAnswer": "D",
+    "Explanation": "'Tomorrow' is an adverb of time. It modifies the verb 'come' by telling us WHEN she will come.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which word is a superlative adjective?",
+    "Options": ["A) tall", "B) taller", "C) tallest", "D) very tall"],
+    "CorrectAnswer": "C",
+    "Explanation": "Superlative adjectives compare one thing with all others in its group. 'Tallest' is the superlative form of 'tall', indicating the highest degree of the quality.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Identify the transitive verb in: 'She broke the window accidentally.'",
+    "Options": ["A) broke (transitive — it has the object 'window')", "B) broke (intransitive — it has no object)", "C) accidentally (it is a transitive adverb)", "D) window (it is a transitive noun)"],
+    "CorrectAnswer": "A",
+    "Explanation": "A transitive verb is one that takes a direct object. In this sentence, 'broke' is a transitive verb because it acts on an object — 'the window' (what was broken).",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Choose the sentence that uses an adverb of degree correctly.",
+    "Options": ["A) She sings very beautifully.", "B) She sings very beautiful.", "C) She sings very beautifuller.", "D) She sings very more beautifully."],
+    "CorrectAnswer": "A",
+    "Explanation": "Adverbs of degree (like 'very') modify adverbs, not adjectives. 'Very beautifully' correctly uses 'very' (degree adverb) to modify 'beautifully' (manner adverb).",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Choose the sentence with the correct use of correlative conjunctions.",
+    "Options": ["A) Neither he nor she are coming.", "B) Both he and she is coming.", "C) Either she or he is coming.", "D) Not only he but also she are late."],
+    "CorrectAnswer": "C",
+    "Explanation": "With 'Either...or', the verb agrees with the noun closest to it. 'He' is singular, so 'is' is correct. Options A, B, and D have subject-verb agreement errors.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "In which sentence is the adjective used predicatively (not attributively)?",
+    "Options": ["A) The clever boy won the quiz.", "B) A tall building stands near my house.", "C) She looks tired after the journey.", "D) He is a kind teacher."],
+    "CorrectAnswer": "C",
+    "Explanation": "An adjective used predicatively appears AFTER a linking verb (looks, seems, is, appears) and describes the subject. In option C, 'tired' follows the linking verb 'looks' and describes 'she'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which verb form correctly completes: 'She _______ for three hours before the match started.'",
+    "Options": ["A) has been practising", "B) had been practising", "C) was practising", "D) practised"],
+    "CorrectAnswer": "B",
+    "Explanation": "The Past Perfect Continuous ('had been practising') is used to describe an ongoing action that happened before a specific past event ('before the match started').",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Choose the option that uses a conjunctive adverb correctly.",
+    "Options": ["A) He was tired; however, he continued working.", "B) He was tired, however he continued working.", "C) He was tired however; he continued working.", "D) He was tired however, he continued working."],
+    "CorrectAnswer": "A",
+    "Explanation": "A conjunctive adverb (like 'however') connecting two independent clauses must be preceded by a semicolon and followed by a comma: 'clause; however, clause.'",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Identify the modal auxiliary verb: 'You ought to apologise for your mistake.'",
+    "Options": ["A) ought to", "B) apologise", "C) mistake", "D) your"],
+    "CorrectAnswer": "A",
+    "Explanation": "'Ought to' is a modal auxiliary verb expressing moral obligation or advice. Modal auxiliary verbs help the main verb express possibility, ability, permission, or obligation.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Choose the correct superlative: 'This is the _______ route to the city centre.'",
+    "Options": ["A) more short", "B) shortest", "C) shorter", "D) most short"],
+    "CorrectAnswer": "B",
+    "Explanation": "For one-syllable adjectives like 'short', the superlative is formed by adding '-est'. 'Shortest' is correct. 'Most short' (double superlative) is incorrect.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which sentence correctly uses an adverb of frequency?",
+    "Options": ["A) She goes rarely to the market.", "B) She rarely goes to the market.", "C) She goes to rarely the market.", "D) She goes to the market rarely not."],
+    "CorrectAnswer": "B",
+    "Explanation": "Adverbs of frequency (always, often, rarely, never) usually come BEFORE the main verb but AFTER the auxiliary verb. 'She rarely goes' correctly places 'rarely' before 'goes'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of the following sentences contains an intransitive verb?",
+    "Options": ["A) She baked a cake.", "B) He kicked the ball.", "C) The baby slept peacefully.", "D) They painted the wall green."],
+    "CorrectAnswer": "C",
+    "Explanation": "An intransitive verb does not have a direct object. 'Slept' takes no object — the baby did not sleep anything. The other verbs all have direct objects (cake, ball, wall).",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which sentence uses 'though' as a conjunction of concession correctly?",
+    "Options": ["A) She passed the exam though she studied hard.", "B) Though she was ill, she attended the function.", "C) She studied hard though passed the exam.", "D) Though, she attended the function though she was ill."],
+    "CorrectAnswer": "B",
+    "Explanation": "'Though' (or 'although') introduces a subordinate clause of concession — a contrasting fact. 'Though she was ill, she attended' correctly contrasts the illness with her attendance.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which sentence uses 'good' and 'well' correctly?",
+    "Options": ["A) She dances good.", "B) He sings good.", "C) She performed well in the exam.", "D) He plays good football."],
+    "CorrectAnswer": "C",
+    "Explanation": "'Good' is an adjective and modifies nouns. 'Well' is an adverb and modifies verbs. 'Performed well' correctly uses the adverb 'well' to modify the verb 'performed'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Identify the verb phrase in: 'She has been working on the project for weeks.'",
+    "Options": ["A) working on the project", "B) has been working", "C) has been working on the project", "D) been working"],
+    "CorrectAnswer": "B",
+    "Explanation": "The verb phrase consists of all verb forms (auxiliary + main verb). 'Has been working' is the complete verb phrase (present perfect continuous tense), consisting of 'has' + 'been' + 'working'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which option correctly fills: 'The painting looked _______ after the restoration.'",
+    "Options": ["A) beautifully", "B) more beautifully", "C) beautiful", "D) beautifuler"],
+    "CorrectAnswer": "C",
+    "Explanation": "After linking verbs (look, seem, feel, appear, become), an adjective (not adverb) is used to describe the subject. 'Beautiful' is the adjective that correctly describes 'the painting'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Choose the correct sentence: 'She not only passed _______ also topped the class.'",
+    "Options": ["A) and", "B) but", "C) or", "D) nor"],
+    "CorrectAnswer": "B",
+    "Explanation": "'Not only...but also' is a correlative conjunction pair. They always go together. The correct form is 'not only...but also'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the EXACT grammatical difference between 'She spoke loudly' and 'She spoke to a large crowd'?",
+    "Options": ["A) 'Loudly' is an adjective; 'to a large crowd' is a noun phrase", "B) 'Loudly' is an adverb of manner; 'to a large crowd' is a prepositional phrase acting as an adverb of audience", "C) 'Loudly' modifies the noun 'she'; 'to a large crowd' modifies the adjective", "D) There is no grammatical difference"],
+    "CorrectAnswer": "B",
+    "Explanation": "'Loudly' is an adverb of manner modifying 'spoke' (how she spoke). 'To a large crowd' is a prepositional phrase also functioning adverbially — modifying 'spoke' by indicating to whom she spoke.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which sentence contains a FACTITIVE verb (a verb that makes or causes something to become)?",
+    "Options": ["A) She became a doctor.", "B) They elected her president.", "C) He seems happy.", "D) The news surprised everyone."],
+    "CorrectAnswer": "B",
+    "Explanation": "A factitive verb (like 'elected', 'appointed', 'named', 'called') takes both a direct object AND an object complement. 'They elected her president' — 'elected' is factitive, 'her' is the object, 'president' is the object complement.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which sentence correctly distinguishes between 'fewer' and 'less'?",
+    "Options": ["A) I have less books than you.", "B) There is fewer water in this glass.", "C) He has fewer problems than before.", "D) She drinks less apples daily."],
+    "CorrectAnswer": "C",
+    "Explanation": "'Fewer' is used with countable nouns (problems, books, apples). 'Less' is used with uncountable nouns (water, time, money). 'Fewer problems' correctly uses 'fewer' with the countable noun 'problems'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the function of 'being' in: 'Being tired, she went to bed early'?",
+    "Options": ["A) It is the main verb of the sentence", "B) It is a participle forming a participial phrase acting as an adverb", "C) It is a gerund functioning as a noun subject", "D) It is an auxiliary verb in continuous tense"],
+    "CorrectAnswer": "B",
+    "Explanation": "'Being tired' is a participial phrase (present participle 'being' + adjective 'tired') that modifies the subject 'she', functioning adverbially to explain WHY she went to bed. This is an absolute phrase.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which sentence uses an ADVERB modifying another ADVERB?",
+    "Options": ["A) She sings quite well.", "B) The quite girl sat silently.", "C) He ran quite the track.", "D) Quite she sang well."],
+    "CorrectAnswer": "A",
+    "Explanation": "In 'She sings quite well', 'quite' is an adverb of degree that modifies 'well' (which is itself an adverb). This demonstrates an adverb modifying another adverb.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Identify the ERROR in the use of conjunctions: 'Although he was rich, but he was unhappy.'",
+    "Options": ["A) 'Although' should be replaced with 'Because'", "B) 'but' is redundant because 'although' already creates the contrast", "C) 'rich' and 'unhappy' should be swapped", "D) No error — both conjunctions are needed"],
+    "CorrectAnswer": "B",
+    "Explanation": "Using both 'although' and 'but' together is a common error. These conjunctions are used separately: either 'Although he was rich, he was unhappy' OR 'He was rich, but he was unhappy.' Using both is redundant and incorrect.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which sentence correctly uses an absolute adjective (an adjective that cannot logically have degrees)?",
+    "Options": ["A) This is the most unique painting I have seen.", "B) Her design is more perfect than mine.", "C) The water was completely frozen.", "D) This is a more circular wheel."],
+    "CorrectAnswer": "C",
+    "Explanation": "Absolute adjectives like 'unique', 'perfect', 'circular', 'complete', 'frozen' (in their absolute sense) cannot logically have comparative or superlative forms. 'Completely frozen' correctly uses the adverb 'completely' to indicate the degree, not 'more frozen'. Options A, B, D incorrectly compare absolute adjectives.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Analyse the verb in: 'The news of his victory spread rapidly.' What type of verb is 'spread' here?",
+    "Options": ["A) Transitive verb with 'victory' as object", "B) Intransitive verb with no object", "C) Linking verb with 'rapidly' as complement", "D) Auxiliary verb supporting 'rapidly'"],
+    "CorrectAnswer": "B",
+    "Explanation": "'Spread' here is intransitive — the news spreads by itself; it does not spread anything. 'Rapidly' is an adverb modifying 'spread', not a direct object. Intransitive verbs complete their meaning without needing an object.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which option correctly explains the difference between 'scarcely' and 'hardly' in use?",
+    "Options": ["A) 'Scarcely' relates to amount; 'hardly' relates to time", "B) Both mean the same — they are completely interchangeable", "C) 'Hardly' is formal; 'scarcely' is informal", "D) 'Scarcely' is an adjective; 'hardly' is an adverb"],
+    "CorrectAnswer": "A",
+    "Explanation": "While both 'hardly' and 'scarcely' are negative adverbs meaning 'almost not', there is a nuanced distinction: 'scarcely' more often relates to quantity/amount ('scarcely any food'), while 'hardly' more often relates to degree or difficulty ('hardly worked'). Both are adverbs, but their collocations differ.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which sentence demonstrates the CORRECT use of 'lest'?",
+    "Options": ["A) Work hard lest you should fail.", "B) Work hard lest you will fail.", "C) Work hard lest you would fail.", "D) Work hard lest you may fail."],
+    "CorrectAnswer": "A",
+    "Explanation": "'Lest' is a conjunction of purpose/negative result. It must always be followed by 'should' (in formal English). The structure is: 'Clause, lest + subject + should + verb'. Options B, C, D use incorrect modal verbs with 'lest'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "In the sentence 'She used to swim', what does 'used to' express?",
+    "Options": ["A) A present habitual action", "B) A past habitual action or state that no longer happens", "C) A future intention to swim", "D) A command to start swimming"],
+    "CorrectAnswer": "B",
+    "Explanation": "'Used to + infinitive' expresses a past habit or state that was regular in the past but no longer continues in the present. It implies a contrast with the present situation.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Choose the sentence where the adjective is used correctly in the ABSOLUTE form to express a strong or complete degree.",
+    "Options": ["A) She was absolutely right in her decision.", "B) The solution was more right than the other.", "C) His answer was the most right of all.", "D) He gave a very right answer."],
+    "CorrectAnswer": "A",
+    "Explanation": "'Absolutely' is an intensifying adverb correctly used with 'right' (when used as an absolute). 'Right' in the sense of 'correct' is often treated as an absolute adjective. Options B, C, D create incorrect comparative/superlative forms.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the function of 'so that' in: 'She studied hard so that she could pass the exam'?",
+    "Options": ["A) Conjunction of result", "B) Conjunction of purpose", "C) Conjunction of concession", "D) Conjunction of time"],
+    "CorrectAnswer": "B",
+    "Explanation": "'So that' is a conjunction of purpose — it introduces the reason or goal behind the main action. Here, studying hard has the PURPOSE of passing the exam.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which sentence correctly uses a PARTICIPLE as a verb and an adjective simultaneously?",
+    "Options": ["A) The crying baby needs milk. (crying = adjective only)", "B) Exhausted by the journey, she fell asleep. (exhausted = participial adjective in participial phrase)", "C) She was crying when I called. (crying = main verb only)", "D) He read a boring book. (boring = noun)"],
+    "CorrectAnswer": "B",
+    "Explanation": "In 'Exhausted by the journey', 'exhausted' is a past participle acting as an adjective modifying 'she'. The whole phrase 'Exhausted by the journey' is a participial phrase functioning adjectivally. This is a classic participial use where the participle has both verbal properties (takes a complement 'by the journey') and adjectival properties (modifies 'she').",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which sentence correctly uses 'as...as' for comparison?",
+    "Options": ["A) She is as tall as him.", "B) She is as taller as him.", "C) She is as tall than him.", "D) She is as more tall as him."],
+    "CorrectAnswer": "A",
+    "Explanation": "The structure 'as + adjective (positive degree) + as' is used for equal comparisons. 'As tall as' correctly uses the positive (base) form of the adjective. Options B, C, D incorrectly combine comparative forms.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adjectives",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Identify the ERROR in the adverb placement: 'He almost drove 100 kilometres.'",
+    "Options": ["A) There is no error; the sentence is correct.", "B) 'Almost' should come after 'drove'; the sentence should read 'He drove almost 100 kilometres.'", "C) 'Almost' should come after '100'; the sentence should read 'He drove 100 almost kilometres.'", "D) 'Almost' should be replaced with 'nearly not'."],
+    "CorrectAnswer": "B",
+    "Explanation": "'Almost' (adverb of degree) should be placed immediately before the word it modifies. It modifies '100 kilometres' (the distance), not 'drove'. 'He drove almost 100 kilometres' is the correct placement.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Adverbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What makes 'unless' different from 'if not' in usage?",
+    "Options": ["A) 'Unless' can only be used in negative sentences; 'if not' can only be used in positive sentences.", "B) 'Unless' introduces a negative condition and means 'except if'; 'if not' can introduce any type of negative conditional.", "C) 'Unless' and 'if not' are completely identical in all contexts.", "D) 'Unless' is used in the past tense; 'if not' is used in the future tense."],
+    "CorrectAnswer": "B",
+    "Explanation": "'Unless' means 'except if' and introduces the only condition under which the main clause will not hold. While they overlap significantly, 'unless' is more specific — it excludes a condition. 'If not' is more general. For example, 'Unless you study, you will fail' has a slightly different nuance than 'If you don't study, you will fail', though in most cases they are interchangeable.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the term for the verb form in: 'He wants to go home'?",
+    "Options": ["A) Gerund", "B) Participle", "C) Infinitive", "D) Auxiliary"],
+    "CorrectAnswer": "C",
+    "Explanation": "'To go' is an infinitive — the base form of the verb preceded by 'to'. Infinitives can function as nouns, adjectives, or adverbs. Here, 'to go' functions as the object of 'wants'.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which conjunction would BEST fill the blank in: 'She is talented _______ she lacks confidence'?",
+    "Options": ["A) and", "B) because", "C) yet", "D) so"],
+    "CorrectAnswer": "C",
+    "Explanation": "'Yet' is a coordinating conjunction used to show contrast or unexpected result, similar to 'but'. 'She is talented yet she lacks confidence' shows a contrast between talent and lack of confidence. 'And' suggests addition, 'because' suggests cause, and 'so' suggests result — none fit here.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Conjunctions",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which of these correctly shows a VERB used as a NOUN (gerund) and a VERB used as an ADJECTIVE (participle) in the same sentence?",
+    "Options": ["A) Swimming is fun and the swimming pool is clean.", "B) He likes running, and he is a running champion.", "C) Swimming strengthens muscles, and a swimming lesson is available. (Swimming = gerund as subject; swimming = participial adjective modifying 'lesson')", "D) Both A and C are correct"],
+    "CorrectAnswer": "D",
+    "Explanation": "In option A: 'Swimming is fun' — 'Swimming' is a gerund (noun, subject). 'The swimming pool' — 'swimming' is a participial adjective modifying 'pool'. In option C: 'Swimming strengthens' — gerund as subject. 'Swimming lesson' — participial adjective. Both A and C correctly demonstrate both uses.",
+    "Topic": "Verbs, Adverbs, Adjectives & Conjunctions",
+    "SubTopic": "Verbs",
+    "Difficulty": "Olympiad"
+  }
+]

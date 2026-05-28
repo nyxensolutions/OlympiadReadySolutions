@@ -1,0 +1,703 @@
+﻿[
+  {
+    "QuestionText": "What is the global network of billions of computers and electronic devices linked together worldwide called?",
+    "Options": [
+      "A) Local Area Network",
+      "B) The Internet",
+      "C) Intranet Core",
+      "D) Motherboard Bus"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Internet is a massive, global network connecting millions of computers worldwide, enabling them to share information and communicate.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does the abbreviation 'WWW' stand for, which represents the global collection of interconnected digital pages accessed via the internet?",
+    "Options": [
+      "A) Web Wide Wireless",
+      "B) World Wide Web",
+      "C) World Word Website",
+      "D) Wired Web Window"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "WWW stands for World Wide Web. It is a system of internet servers that support specially formatted documents, usually written in HTML.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Is the Internet the exact same thing as the World Wide Web (WWW)?",
+    "Options": [
+      "A) Yes, they are completely identical terms for the same technology.",
+      "B) No, the Internet is the physical network infrastructure of connected computers, while the WWW is a massive collection of web pages shared across that network.",
+      "C) No, the WWW is a hardware chip, while the Internet is software.",
+      "D) Yes, but only when you use a mobile phone interface."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Internet is the global network hardware connection infrastructure. The World Wide Web is a service built on top of that infrastructure consisting of multimedia pages.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Basics",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What company provides you with an access connection to the internet for a monthly fee (e.g., Comcast, AT&T, Verizon)?",
+    "Options": [
+      "A) Web Server Provider",
+      "B) Internet Service Provider (ISP)",
+      "C) Domain Name System",
+      "D) URL Routing Engine"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "An ISP (Internet Service Provider) is a company that provides individuals and organizations access to the internet.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Access",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What hardware device modulates and demodulates electronic signals, acting as a bridge to translate data from your ISP into your home router?",
+    "Options": [
+      "A) Printer",
+      "B) Monitor",
+      "C) Modem",
+      "D) Scanner"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A modem modulates outgoing digital signals from a computer into analog signals for communication lines, and demodulates incoming analog signals back into digital data.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Access",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What device takes the single internet signal coming from a modem and splits it up, broadcasting it wirelessly around a house so multiple laptops and phones can connect?",
+    "Options": [
+      "A) Web Server",
+      "B) Wireless Router",
+      "C) CPU Processor",
+      "D) Graphics Card"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A router directs data packets along networks, distributing the internet connection wirelessly (Wi-Fi) or via cables to multiple localized devices.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Access",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the text-based web address that you type into a browser window to visit a specific website (such as https://www.google.com) officially called?",
+    "Options": [
+      "A) IP Address",
+      "B) Uniform Resource Locator (URL)",
+      "C) Email Signature",
+      "D) Binary Gateway"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A URL (Uniform Resource Locator) is the unique text string that serves as the global address for a specific resource or page on the World Wide Web.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Every device connected to the internet is assigned a unique numerical tracking address made up of numbers separated by periods (like 192.168.1.1). What is this address called?",
+    "Options": [
+      "A) Mac Address",
+      "B) Internet Protocol (IP) Address",
+      "C) URL Extension",
+      "D) Router Serial Number"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "An IP address is a unique string of numbers separated by periods that identifies each computer using the Internet Protocol to communicate over a network.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What software program allows you to search for, open, and view interactive web pages from the internet on your computer (e.g., Google Chrome, Safari)?",
+    "Options": [
+      "A) Search Engine",
+      "B) Web Browser",
+      "C) Word Processor",
+      "D) Antivirus Scanner"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A web browser is an application software used to locate, retrieve, and display content on the World Wide Web.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What specialized website tool scans the internet database and matches keywords typed by a user to rank and list relevant websites (e.g., Google, Bing, Yahoo)?",
+    "Options": [
+      "A) Operating System",
+      "B) Search Engine",
+      "C) Web Browser App",
+      "D) File Extension"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A search engine is a web-based tool or website designed to search for information on the World Wide Web based on user keywords.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary operational difference between a Web Browser and a Search Engine?",
+    "Options": [
+      "A) There is no difference; they mean the exact same thing.",
+      "B) A Web Browser is a local software application used to view any web page; a Search Engine is a specific website accessed *inside* a browser to look up info using keywords.",
+      "C) A Search Engine installs drivers, while a Browser edits spreadsheets.",
+      "D) Browsers are physical hardware tools, while Search Engines are digital clouds."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "You use a Web Browser (application) to navigate to a Search Engine (website) so you can look up keywords across index servers.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "In the URL layout 'https://www.example.com', what does the 'https' portion specify?",
+    "Options": [
+      "A) The Domain Registry name",
+      "B) The Secure Transfer Protocol used to securely encrypt page data",
+      "C) The geographic hosting country code",
+      "D) The primary file extension folder"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the protocol layout that encrypts data passing between a web browser and a website server for safety.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the '.com' section of a domain name typically indicate about that website?",
+    "Options": [
+      "A) It is a government-managed network.",
+      "B) It is a commercial or business organization website.",
+      "C) It is an educational school database site.",
+      "D) It is a non-profit charity group setup."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The domain extension '.com' stands for 'commercial' and is the most common top-level domain used by businesses worldwide.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which top-level domain extension is reserved strictly for authenticated schools, colleges, and educational institutions?",
+    "Options": [
+      "A) .org",
+      "B) .edu",
+      "C) .gov",
+      "D) .net"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The '.edu' extension is used exclusively by schools, universities, and educational departments.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of domain suffix would a official government agency (like NASA or the FBI) use for its website address?",
+    "Options": [
+      "A) .com",
+      "B) .gov",
+      "C) .biz",
+      "D) .org"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The '.gov' extension is a restricted top-level domain reserved exclusively for government organizations.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is a clickable word, phrase, or image on a webpage that instantly jumps you to a completely different webpage or section when clicked?",
+    "Options": [
+      "A) Password",
+      "B) Hyperlink",
+      "C) Cache log",
+      "D) Bookmark track"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Hyperlinks connect documents on the web. Clicking them tells the browser to load the referenced URL path.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the very first introductory page of a website called, which usually serves as a welcoming table of contents map for the rest of the site?",
+    "Options": [
+      "A) Secondary page",
+      "B) Homepage",
+      "C) History log",
+      "D) Status bar"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A website's homepage is the default landing portal or initial page configuration that users see when accessing a domain root.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What browser feature allows a user to save the address of their favorite websites so they can easily jump back to them in the future without typing the full URL?",
+    "Options": [
+      "A) History tab",
+      "B) Bookmarks / Favorites",
+      "C) Incognito cache",
+      "D) Download log"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Bookmarks (or Favorites) save the URL strings of targeted websites into a quick-access browser directory.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which browser tool keeps a running, chronological list of every single website you have opened over the past days or weeks?",
+    "Options": [
+      "A) Extensions dock",
+      "B) History List",
+      "C) Bookmark Bar",
+      "D) Settings matrix"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The History tracker records a timeline logs of visited URLs, allowing users to find sites they viewed recently but forgot to bookmark.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the name of the bar located at the top of a web browser window where you can type in a website's address?",
+    "Options": [
+      "A) Status Bar",
+      "B) Title Bar",
+      "C) Address Bar / Omnibox",
+      "D) Scroll Bar"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Address Bar holds the active URL path of the webpage currently being processed and rendered by the web browser.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What internet feature allows a browser to open multiple distinct web pages inside one singular window frame, organized by clickable tabs at the top?",
+    "Options": [
+      "A) Hyper-linking",
+      "B) Tabbed Browsing",
+      "C) Multi-modem linking",
+      "D) Cache clearing"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Tabbed browsing lets you open and switch between multiple web pages within a single browser window container.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What do we call the act of transferring a file from a remote web server on the internet down onto your own local computer's hard drive storage?",
+    "Options": [
+      "A) Uploading",
+      "B) Downloading",
+      "C) Bookmarking",
+      "D) Browsing"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Downloading is receiving data or moving files from a remote computer or server over the network down to a local storage client.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When you post a photo from your phone up onto an internet website server, what network operation are you performing?",
+    "Options": [
+      "A) Downloading",
+      "B) Uploading",
+      "C) Defragmenting",
+      "D) Compressing"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Uploading is the process of sending data or files from your local device up to a remote server over a network connection.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What are cookies in the context of web browsing?",
+    "Options": [
+      "A) Small physical virus chips placed inside network routers.",
+      "B) Small text files saved by websites on your computer to remember your preferences, login states, or shopping cart choices.",
+      "C) Graphic animation styles that flash across your browser.",
+      "D) Software packages that increase internet bandwidth speeds."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Cookies are tracking data tokens generated by a web server to store basic user states or tracking properties on the local browser client.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which communication system allows users to exchange digital text letters and attached files asynchronously across the internet using specialized addresses?",
+    "Options": [
+      "A) World Wide Web",
+      "B) Electronic Mail (Email)",
+      "C) Modulated Routing",
+      "D) Hypermedia Transfer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Email (Electronic Mail) is a core internet service designed to send and receive digital text letters and attachments across mail servers.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Identify the option that represents a correctly structured email address format.",
+    "Options": [
+      "A) www.student.google.com",
+      "B) student#school.org",
+      "C) student@school.com",
+      "D) C:\\Users\\Student\\Email.txt"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A proper email address configuration must contain a username, followed by the '@' symbol, and then the domain name of the mail server host.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When sending an email, what folder contains a copy of all the messages you have successfully finalized and sent out to other people?",
+    "Options": [
+      "A) Inbox",
+      "B) Drafts",
+      "C) Sent Mail / Sent Items",
+      "D) Trash / Bin"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Sent folder logs every email message that has been successfully routed out by your mail server.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You are writing a long email response but need to stop before sending it. Where does the mail system automatically store this incomplete letter?",
+    "Options": [
+      "A) Inbox",
+      "B) Spam folder",
+      "C) Drafts folder",
+      "D) Outbox"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Drafts folder acts as a temporary scratchpad area where work-in-progress or unsent email compositions are safely backed up.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What name is given to mass, unsolicited junk emails that flood your email inbox, often containing advertisements or unsafe click links?",
+    "Options": [
+      "A) Inbox Feed",
+      "B) Spam / Junk Mail",
+      "C) Draft Logs",
+      "D) Cookie Ware"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Spam refers to unwanted, automated bulk emails sent out to thousands of users simultaneously. Mail systems filter these into a dedicated Junk folder.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When sending an email to multiple people, what does the 'Cc' field stand for?",
+    "Options": [
+      "A) Computer Control",
+      "B) Carbon Copy",
+      "C) Confidential Communication",
+      "D) Clear Connection"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "'Cc' stands for Carbon Copy. It sends a copy of the email to extra recipients, and everyone who receives the email can see their names listed.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What does the 'Bcc' field do when you include an email address inside it when sending out a message?",
+    "Options": [
+      "A) It blocks the email from being opened by that specific person.",
+      "B) It stands for 'Blind Carbon Copy', meaning it sends a copy of the email to a recipient whose address remains hidden from all other readers.",
+      "C) It encrypts the email into binary numbers.",
+      "D) It automatically forwards the email to a search engine site."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Bcc (Blind Carbon Copy) hides the addresses listed within it, ensuring privacy so other recipients cannot see who else received a copy.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the name of the paperclip icon tool in an email application interface used for?",
+    "Options": [
+      "A) To run a spelling checker across your paragraphs.",
+      "B) To attach external files (like a photo, video, or Word document) to the email message.",
+      "C) To format text into bold character fonts.",
+      "D) To sign out of your digital email profile safely."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The paperclip icon is the universal symbol for attachments, allowing you to bundle standalone external files along with your email message.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What historical computer network network, funded by the United States Department of Defense in the late 1960s, is considered the early ancestor of today's Internet?",
+    "Options": [
+      "A) NSFNET",
+      "B) ARPANET",
+      "C) INTRANET",
+      "D) ETHERNET"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "ARPANET (Advanced Research Projects Agency Network) was the first network to implement packet switching technologies, laying the groundwork for the modern internet.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet History",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which British scientist invented the World Wide Web in 1989 while working at CERN, creating the HTTP protocol system?",
+    "Options": [
+      "A) Bill Gates",
+      "B) Tim Berners-Lee",
+      "C) Steve Jobs",
+      "D) Charles Babbage"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Sir Tim Berners-Lee invented the World Wide Web, creating HTML, HTTP, and the first web browser client infrastructure.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet History",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What kind of network covers a very small, restricted geographical area, such as a single classroom, a home office, or a school building?",
+    "Options": [
+      "A) Wide Area Network (WAN)",
+      "B) Local Area Network (LAN)",
+      "C) Metropolitan Area Network (MAN)",
+      "D) Global Cloud Space"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A LAN (Local Area Network) connects computers and devices localized close together, like within a single room or building.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "The internet spans across entire continents and global oceans. Under which network classification does the massive internet fall?",
+    "Options": [
+      "A) Local Area Network (LAN)",
+      "B) Wide Area Network (WAN)",
+      "C) Personal Area Network (PAN)",
+      "D) Classroom Area Network (CAN)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A WAN (Wide Area Network) covers vast geographic scopes (cities, states, or continents). The Internet is the largest public WAN in existence.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What term describes the proper set of manners, polite behavior rules, and respect that people should follow when communicating online with others?",
+    "Options": [
+      "A) Internet Protocols",
+      "B) Netiquette",
+      "C) Cybersecurity Code",
+      "D) Browser Settings"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Netiquette combines 'network' and 'etiquette'. It outlines behavioral guidelines for polite, respectful online communication.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Cyber Safety & Netiquette",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Why is typing an entire email or forum message in ALL CAPITAL LETTERS considered poor netiquette?",
+    "Options": [
+      "A) It makes the data file too large to transmit.",
+      "B) It is interpreted as SHOUTING or being aggressive online.",
+      "C) The search engines cannot read capital letters.",
+      "D) It automatically triggers an antivirus virus block."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "In online communication, writing sentences in block capitals is widely viewed as screaming or shouting, which is considered rude netiquette.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Cyber Safety & Netiquette",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of deceptive internet attack involves sending fake emails that look exactly like they came from a real bank or school, tricking you into typing your private passwords on a fraudulent web page?",
+    "Options": [
+      "A) Defragmentation",
+      "B) Phishing",
+      "C) Zipping",
+      "D) Bookmarking"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Phishing is a social-engineering scam where attackers mimic trustworthy entities via email to trick users into revealing passwords or sensitive data.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Cyber Safety & Netiquette",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is a strong safety rule for creating secure passwords for your online school profiles?",
+    "Options": [
+      "A) Use your first name or '123456' so it is easy to guess.",
+      "B) Create a long password combining uppercase letters, lowercase letters, numbers, and special symbols (like #, $, or !).",
+      "C) Keep the same password for every single account you own.",
+      "D) Share your password with all your friends at school."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Strong passwords use a complex mix of character types to protect accounts from being guessed or cracked by automated tools.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Cyber Safety & Netiquette",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If a strange window suddenly pops up while you are browsing a gaming website, claiming you won a free phone and asking for your home address and phone number, what should you do?",
+    "Options": [
+      "A) Type in your details immediately to claim the prize.",
+      "B) Close the suspicious window immediately and tell a trusted adult or teacher.",
+      "C) Forward the window link to your classmates.",
+      "D) Turn off your home router permanently."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Suspicious pop-ups often host malware or phishing traps. You should close them safely and notify an adult rather than sharing personal details.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Cyber Safety & Netiquette",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does a padlock icon displayed next to a website's URL inside your browser's address bar tell you about that site connection?",
+    "Options": [
+      "A) The website's page content is completely blocked and cannot load.",
+      "B) The connection is secure and encrypted using HTTPS protocol rules.",
+      "C) The website was built using open-source software code.",
+      "D) The website has been deleted from the search engine index."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The padlock icon confirms that the browser has established a secure, encrypted HTTPS handshake with the website server.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Navigation",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What tool or security software package acts as a protective barrier wall, monitoring incoming and outgoing network traffic to block unauthorized access to your computer?",
+    "Options": [
+      "A) Device Driver",
+      "B) Firewall",
+      "C) File Archiver",
+      "D) Clipboard Pane"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A firewall acts as a security gatekeeper between a trusted internal network and untrusted external internet traffic, blocking unauthorized access.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Cyber Safety & Netiquette",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What language format layout code is used to construct standard web pages, defining how titles, lists, and images look inside a browser environment?",
+    "Options": [
+      "A) MS Excel Formulas",
+      "B) Hypertext Markup Language (HTML)",
+      "C) Device Driver Scripts",
+      "D) Python Master Binary"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "HTML (Hypertext Markup Language) is the standard markup language used to structure and format elements on web pages.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Basics",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "When multiple computers are wired up together within an office to share file print tasks, what have they formed?",
+    "Options": [
+      "A) A Computer Network",
+      "B) A Hardware Driver Pack",
+      "C) A Operating System Master",
+      "D) A Data Compression Slot"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "A computer network consists of two or more connected computing devices that communicate to share resources like files or printers.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does the abbreviation 'Wi-Fi' mean in network setups?",
+    "Options": [
+      "A) Wired File Integration",
+      "B) Wireless Fidelity, which describes wireless local area networking technology",
+      "C) Window Filter Index",
+      "D) Wide Internet Format",
+      "B"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Wi-Fi is the standard trade term for radio-wave technology used to provide wireless local area network (WLAN) connectivity.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Access",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What browser command icon resembles a circular arrow button, used to reload the current webpage to update its content from the server?",
+    "Options": [
+      "A) Back button",
+      "B) Home button",
+      "C) Refresh / Reload button",
+      "D) Bookmark icon"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Refresh or行 Reload button forces the browser to fetch the latest data from the host web server for the active page.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which folder inside your email account holds messages that you have deleted, acting like a trash can until it is emptied?",
+    "Options": [
+      "A) Spam Box",
+      "B) Outbox",
+      "C) Trash / Trash Bin / Deleted Items",
+      "D) Archive Slot"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Deleted emails are kept temporarily inside the Trash or Bin folder, allowing users to recover them before permanent deletion.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Email Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What happens to the performance of an internet browser when its internal caching memory folder becomes overfilled with temporary web images over time?",
+    "Options": [
+      "A) The browser can sometimes slow down or fail to show updated web content correctly.",
+      "B) The computer's monitor screen resolution doubles.",
+      "C) The physical router updates its firmware drivers automatically.",
+      "D) All passwords are wiped out of existence instantly."
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "An overfilled browser cache can bottleneck memory allocations or conflict with updated web page codes, necessitating occasional cache clearing.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Web Browsers & Tools",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What basic network protocol rule set manages data transmission across internet pathways, breaking text files down into small traveling packets?",
+    "Options": [
+      "A) GUI Interface Logic",
+      "B) TCP/IP (Transmission Control Protocol / Internet Protocol)",
+      "C) SmartArt structural layout",
+      "D) Disk cleanup parameters"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "TCP/IP is the foundational protocol suite of the internet. It governs how data packets are grouped, addressed, shipped, and reassembled at their destination.",
+    "Topic": "Introduction to the Internet",
+    "SubTopic": "Internet Basics",
+    "Difficulty": "Olympiad"
+  }
+]

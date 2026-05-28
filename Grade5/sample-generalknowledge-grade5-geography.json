@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "Which is the largest continent in the world by land area?",
+    "Options": ["A) Africa", "B) North America", "C) Asia", "D) Antarctica"],
+    "CorrectAnswer": "C",
+    "Explanation": "Asia is the largest and most populous continent on Earth.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the imaginary line that divides the Earth into Northern and Southern Hemispheres?",
+    "Options": ["A) Prime Meridian", "B) Tropic of Cancer", "C) Equator", "D) Arctic Circle"],
+    "CorrectAnswer": "C",
+    "Explanation": "The Equator is the line of 0 degrees latitude, dividing the Earth into the two hemispheres.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is the longest river in the world?",
+    "Options": ["A) Amazon", "B) Nile", "C) Yangtze", "D) Mississippi"],
+    "CorrectAnswer": "B",
+    "Explanation": "The Nile River is traditionally considered the longest river in the world.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which process describes the release of water vapor from plants into the atmosphere?",
+    "Options": ["A) Evaporation", "B) Condensation", "C) Transpiration", "D) Precipitation"],
+    "CorrectAnswer": "C",
+    "Explanation": "Transpiration is the process where plants lose water through their leaves.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which is the largest ocean on Earth?",
+    "Options": ["A) Atlantic", "B) Indian", "C) Arctic", "D) Pacific"],
+    "CorrectAnswer": "D",
+    "Explanation": "The Pacific Ocean is the largest and deepest of the world's oceanic divisions.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What do we call the 'lungs of the planet'?",
+    "Options": ["A) The Himalayas", "B) The Sahara Desert", "C) The Amazon Rainforest", "D) The Great Barrier Reef"],
+    "CorrectAnswer": "C",
+    "Explanation": "The Amazon Rainforest is often called the lungs of the planet because it absorbs vast amounts of carbon dioxide and produces oxygen.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which country is known as the 'Land of the Rising Sun'?",
+    "Options": ["A) China", "B) Japan", "C) Thailand", "D) South Korea"],
+    "CorrectAnswer": "B",
+    "Explanation": "Japan is called the 'Land of the Rising Sun' because it is in the far east and the sun rises there first.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the process of trees being cut down and forests cleared called?",
+    "Options": ["A) Afforestation", "B) Reforestation", "C) Deforestation", "D) Conservation"],
+    "CorrectAnswer": "C",
+    "Explanation": "Deforestation is the large-scale removal of trees from land to convert it to non-forest use.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which mountain range is home to Mount Everest?",
+    "Options": ["A) Andes", "B) Rockies", "C) Alps", "D) Himalayas"],
+    "CorrectAnswer": "D",
+    "Explanation": "Mount Everest, the highest peak on Earth, is located in the Himalayan mountain range.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which layer of the atmosphere protects us from harmful ultraviolet (UV) rays?",
+    "Options": ["A) Troposphere", "B) Stratosphere (Ozone Layer)", "C) Mesosphere", "D) Thermosphere"],
+    "CorrectAnswer": "B",
+    "Explanation": "The Ozone layer, located in the stratosphere, absorbs most of the sun's ultraviolet radiation.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the study of landforms called?",
+    "Options": ["A) Meteorology", "B) Geomorphology", "C) Oceanography", "D) Ecology"],
+    "CorrectAnswer": "B",
+    "Explanation": "Geomorphology is the scientific study of the origin and evolution of topographic and bathymetric features.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which is the smallest country in the world?",
+    "Options": ["A) Monaco", "B) San Marino", "C) Vatican City", "D) Malta"],
+    "CorrectAnswer": "C",
+    "Explanation": "Vatican City is the smallest independent state in the world by both area and population.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What are renewable energy sources?",
+    "Options": ["A) Coal and Oil", "B) Natural Gas", "C) Solar, Wind, and Hydro", "D) Nuclear Energy"],
+    "CorrectAnswer": "C",
+    "Explanation": "Renewable energy is derived from natural processes that are replenished constantly, like sunlight and wind.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which continent is known as the 'Frozen Continent'?",
+    "Options": ["A) Europe", "B) Antarctica", "C) Asia", "D) North America"],
+    "CorrectAnswer": "B",
+    "Explanation": "Antarctica is covered in ice and is the coldest place on Earth.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is a 'delta' in geography?",
+    "Options": ["A) A high mountain peak", "B) An area where a river splits before entering the sea", "C) A deep ocean trench", "D) A large forest"],
+    "CorrectAnswer": "B",
+    "Explanation": "A river delta is a landform created by the deposition of sediment at the mouth of a river as it enters an ocean or lake.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which instrument measures humidity?",
+    "Options": ["A) Thermometer", "B) Hygrometer", "C) Barometer", "D) Anemometer"],
+    "CorrectAnswer": "B",
+    "Explanation": "A hygrometer is used to measure the amount of water vapor in the air.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the capital city of Australia?",
+    "Options": ["A) Sydney", "B) Melbourne", "C) Canberra", "D) Perth"],
+    "CorrectAnswer": "C",
+    "Explanation": "Canberra is the capital city of Australia.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is the largest hot desert in the world?",
+    "Options": ["A) Gobi", "B) Kalahari", "C) Sahara", "D) Thar"],
+    "CorrectAnswer": "C",
+    "Explanation": "The Sahara is the largest hot desert in the world.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does 'non-biodegradable' mean?",
+    "Options": ["A) Can be broken down by bacteria", "B) Takes a very long time or cannot be broken down by natural processes", "C) Is healthy for plants", "D) Is a type of gas"],
+    "CorrectAnswer": "B",
+    "Explanation": "Non-biodegradable materials, such as plastic, do not decompose naturally and persist in the environment.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which meridian is at 0 degrees longitude?",
+    "Options": ["A) International Date Line", "B) Prime Meridian", "C) Equator", "D) Arctic Circle"],
+    "CorrectAnswer": "B",
+    "Explanation": "The Prime Meridian passes through Greenwich, London, and serves as the 0-degree line of longitude.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the term for a windstorm that forms over the ocean?",
+    "Options": ["A) Tornado", "B) Hurricane (or Cyclone/Typhoon)", "C) Drought", "D) Earthquake"],
+    "CorrectAnswer": "B",
+    "Explanation": "Hurricanes, cyclones, and typhoons are intense tropical storms that form over warm ocean waters.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which country has the most natural lakes in the world?",
+    "Options": ["A) USA", "B) Canada", "C) Russia", "D) Brazil"],
+    "CorrectAnswer": "B",
+    "Explanation": "Canada has more lakes than the rest of the world's countries combined.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the boundary between two different air masses called?",
+    "Options": ["A) Front", "B) Ridge", "C) Trough", "D) Cyclone"],
+    "CorrectAnswer": "A",
+    "Explanation": "A weather front is the transition zone where two air masses of different temperatures and densities meet.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which country is the largest by land area?",
+    "Options": ["A) China", "B) USA", "C) Canada", "D) Russia"],
+    "CorrectAnswer": "D",
+    "Explanation": "Russia is the largest country in the world by land mass.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the 'Greenhouse Effect'?",
+    "Options": ["A) A way to grow more plants", "B) The trapping of heat in the atmosphere by gases", "C) A type of solar energy", "D) The cooling of the planet"],
+    "CorrectAnswer": "B",
+    "Explanation": "The greenhouse effect is the warming of the Earth's surface and the air above it caused by gases trapping heat.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is a 'peninsula'?",
+    "Options": ["A) Land surrounded by water on all sides", "B) Land surrounded by water on three sides", "C) A very deep lake", "D) A narrow passage of water"],
+    "CorrectAnswer": "B",
+    "Explanation": "A peninsula is a piece of land almost surrounded by water or projecting out into a body of water.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the main cause of tides on Earth?",
+    "Options": ["A) Wind", "B) The Sun's gravity", "C) The Moon's gravitational pull", "D) Earth's rotation"],
+    "CorrectAnswer": "C",
+    "Explanation": "Tides are primarily caused by the gravitational interaction between the Earth, the Moon, and the Sun.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which is the highest peak in North America?",
+    "Options": ["A) Mount Logan", "B) Mount Denali (McKinley)", "C) Mount Whitney", "D) Mount Rainier"],
+    "CorrectAnswer": "B",
+    "Explanation": "Denali is the highest mountain peak in North America.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are 'fossil fuels'?",
+    "Options": ["A) Renewable energy sources", "B) Energy sources formed from ancient remains of plants/animals", "C) A type of soil", "D) A new form of plastic"],
+    "CorrectAnswer": "B",
+    "Explanation": "Fossil fuels like coal, oil, and gas are formed over millions of years from the remains of ancient organisms.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the capital of Japan?",
+    "Options": ["A) Osaka", "B) Kyoto", "C) Tokyo", "D) Nagoya"],
+    "CorrectAnswer": "C",
+    "Explanation": "Tokyo is the capital city of Japan.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the deepest point in the world's oceans?",
+    "Options": ["A) Mariana Trench", "B) Java Trench", "C) Tonga Trench", "D) Puerto Rico Trench"],
+    "CorrectAnswer": "A",
+    "Explanation": "The Challenger Deep in the Mariana Trench is the deepest known point in the Earth's oceans.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which imaginary line marks the start of a new calendar day?",
+    "Options": ["A) Prime Meridian", "B) Equator", "C) International Date Line", "D) Tropic of Capricorn"],
+    "CorrectAnswer": "C",
+    "Explanation": "The International Date Line is an imaginary line on the surface of the Earth that runs through the Pacific Ocean and designates the place where each calendar day begins.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which is the world's largest island?",
+    "Options": ["A) New Guinea", "B) Borneo", "C) Madagascar", "D) Greenland"],
+    "CorrectAnswer": "D",
+    "Explanation": "Greenland is the world's largest non-continental island.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is an 'oasis'?",
+    "Options": ["A) A desert mountain", "B) A fertile area in the middle of a desert", "C) A dry riverbed", "D) A type of cactus"],
+    "CorrectAnswer": "B",
+    "Explanation": "An oasis is a small fertile or green area in a desert region, usually having a spring or well.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which continent contains the Sahara Desert?",
+    "Options": ["A) Asia", "B) Australia", "C) Africa", "D) South America"],
+    "CorrectAnswer": "C",
+    "Explanation": "The Sahara Desert covers much of North Africa.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 'Global Warming'?",
+    "Options": ["A) The natural cooling of Earth", "B) The increase in Earth's average surface temperature", "C) A period of heavy rainfall", "D) A change in wind patterns"],
+    "CorrectAnswer": "B",
+    "Explanation": "Global warming is the long-term rise in the average temperature of the Earth's climate system.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which of these is a landlocked country?",
+    "Options": ["A) Japan", "B) Brazil", "C) Switzerland", "D) Australia"],
+    "CorrectAnswer": "C",
+    "Explanation": "Switzerland is a landlocked country, meaning it has no direct access to an ocean.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the main gas in the atmosphere?",
+    "Options": ["A) Oxygen", "B) Carbon Dioxide", "C) Nitrogen", "D) Argon"],
+    "CorrectAnswer": "C",
+    "Explanation": "Nitrogen makes up approximately 78% of the Earth's atmosphere.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What are tectonic plates?",
+    "Options": ["A) Huge slabs of Earth's crust that move", "B) Types of ocean currents", "C) Layers of the atmosphere", "D) Patterns of rainfall"],
+    "CorrectAnswer": "A",
+    "Explanation": "Tectonic plates are massive, irregularly shaped slabs of solid rock that make up the Earth's outer shell.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which river flows through Paris?",
+    "Options": ["A) Thames", "B) Seine", "C) Danube", "D) Rhine"],
+    "CorrectAnswer": "B",
+    "Explanation": "The Seine River flows through the city of Paris, France.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What does 'sustainable' mean regarding the environment?",
+    "Options": ["A) Using up resources as fast as possible", "B) Meeting needs without harming the future", "C) Protecting only animals", "D) Ignoring the environment"],
+    "CorrectAnswer": "B",
+    "Explanation": "Sustainability means using resources in a way that meets current needs without compromising the ability of future generations to meet theirs.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which is the largest country in South America?",
+    "Options": ["A) Argentina", "B) Chile", "C) Brazil", "D) Peru"],
+    "CorrectAnswer": "C",
+    "Explanation": "Brazil is the largest and most populous country in South America.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the 'Ring of Fire'?",
+    "Options": ["A) A region of volcanoes in the Pacific", "B) A ring of mountains in Europe", "C) A pattern of stars", "D) A type of ocean current"],
+    "CorrectAnswer": "A",
+    "Explanation": "The Ring of Fire is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Earth Science",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which sea lies between Europe and Africa?",
+    "Options": ["A) Black Sea", "B) Red Sea", "C) Mediterranean Sea", "D) Caspian Sea"],
+    "CorrectAnswer": "C",
+    "Explanation": "The Mediterranean Sea is connected to the Atlantic Ocean and separates Europe from Africa.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is a 'glacier'?",
+    "Options": ["A) A fast-flowing river", "B) A large, slow-moving mass of ice", "C) A type of mountain range", "D) A seasonal lake"],
+    "CorrectAnswer": "B",
+    "Explanation": "A glacier is a huge, persistent body of dense ice that is constantly moving under its own weight.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which continent is home to the Nile River?",
+    "Options": ["A) South America", "B) Asia", "C) Africa", "D) Australia"],
+    "CorrectAnswer": "C",
+    "Explanation": "The Nile River is located in northeastern Africa.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the main source of water for rivers?",
+    "Options": ["A) Groundwater", "B) Precipitation (Rain/Snow)", "C) Ocean tides", "D) Desalination plants"],
+    "CorrectAnswer": "B",
+    "Explanation": "Precipitation is the primary source of water that fills rivers and streams.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Physical Geography",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which country has the most people in the world?",
+    "Options": ["A) USA", "B) India", "C) China", "D) Indonesia"],
+    "CorrectAnswer": "B",
+    "Explanation": "India is currently the most populous country in the world.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the term for the variety of life in a particular habitat?",
+    "Options": ["A) Ecosystem", "B) Biodiversity", "C) Population", "D) Community"],
+    "CorrectAnswer": "B",
+    "Explanation": "Biodiversity refers to the variety and variability of life on Earth.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "Environment",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which continent is also a country?",
+    "Options": ["A) Antarctica", "B) Africa", "C) Australia", "D) South America"],
+    "CorrectAnswer": "C",
+    "Explanation": "Australia is both a country and a continent.",
+    "Topic": "Geography and Environment",
+    "SubTopic": "World Geography",
+    "Difficulty": "Foundation"
+  }
+]

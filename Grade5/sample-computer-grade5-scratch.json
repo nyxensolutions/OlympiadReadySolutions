@@ -1,0 +1,703 @@
+﻿[
+  {
+    "QuestionText": "What is Scratch in the context of computer science?",
+    "Options": [
+      "A) A text-based programming language like Python used to write operating systems.",
+      "B) A block-based visual programming language designed to introduce programming concepts using color-coded blocks.",
+      "C) An antivirus software tool that removes malware.",
+      "D) A hardware device used to clean monitor screens."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Scratch is a visual, block-based programming language where users snap together graphical blocks to create games, animations, and stories.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the name given to the character, object, or item in a Scratch project that can be programmed to move, talk, and interact?",
+    "Options": [
+      "A) Node",
+      "B) Pixel",
+      "C) Sprite",
+      "D) Anchor"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "In Scratch, all characters or interactive objects that receive programming instructions are known as sprites.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the default sprite character that automatically appears on the screen when you open a brand-new Scratch project?",
+    "Options": [
+      "A) A dog",
+      "B) An orange cat",
+      "C) A blue fish",
+      "D) A yellow star"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Scratch cat is the official mascot and the default sprite provided in every new project template.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the name of the main area where your programmed sprites move, act out scripts, and show the final running project?",
+    "Options": [
+      "A) Blocks Palette",
+      "B) Stage",
+      "C) Costumes Tab",
+      "D) Backpack"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Stage is the preview window where the visual action of your program takes place.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which color-coded block category should you look inside to find commands that control a sprite's movement, like 'move 10 steps' or 'turn 15 degrees'?",
+    "Options": [
+      "A) Looks Blocks (Purple)",
+      "B) Motion Blocks (Dark Blue)",
+      "C) Control Blocks (Gold)",
+      "D) Sound Blocks (Pink)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Motion blocks are dark blue and handle coordinate shifts, direction steps, tracking coordinates, and rotational angles.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you want your sprite to change its clothing appearance, say a text speech bubble, or switch its background backdrop, which block category should you use?",
+    "Options": [
+      "A) Motion Blocks",
+      "B) Sensing Blocks",
+      "C) Looks Blocks",
+      "D) Operators Blocks"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Looks blocks are purple and manage speech overlays, graphic costumes, visual effects, and backdrop adjustments.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the main purpose of the green flag icon located above the Scratch Stage?",
+    "Options": [
+      "A) To save and download your code project.",
+      "B) To delete the currently selected sprite character.",
+      "C) To start or run your programmed scripts and animations.",
+      "D) To add a musical sound clip to the code.",
+      "C"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The green flag acts as the universal 'Go' or 'Start' trigger mechanism to execute initialize routines in Scratch.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which interface button sits next to the green flag and is used to immediately freeze and halt all running code actions in a project?",
+    "Options": [
+      "A) The yellow warning triangle",
+      "B) The blue refresh arrow",
+      "C) The red stop sign button",
+      "D) The green exit star"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The red circular button acts as a global stop sign, instantly terminating all running scripts across all objects.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What name is given to a single stack of connected programming blocks that instructs a sprite exactly what to do?",
+    "Options": [
+      "A) An Array",
+      "B) A Script",
+      "C) A Variable",
+      "D) A Costumer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A collection of interconnected instruction blocks snapped together in a continuous stack is called a script.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What coordinates represent the exact dead center origin point of the Scratch Stage?",
+    "Options": [
+      "A) X = 100, Y = 100",
+      "B) X = 0, Y = 0",
+      "C) X = 240, Y = 180",
+      "D) X = -240, Y = -180"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Scratch grid layout treats position coordinate $(0, 0)$ as the exact physical center of the Stage window space.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are the total boundary dimension ranges for the X-axis and Y-axis on the Scratch Stage layout grid?",
+    "Options": [
+      "A) X goes from -100 to 100; Y goes from -100 to 100",
+      "B) X goes from -240 to 240; Y goes from -180 to 180",
+      "C) X goes from 0 to 500; Y goes from 0 to 500",
+      "D) X goes from -360 to 360; Y goes from -240 to 240"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Scratch stage is 480 pixels wide ($X$ spanning from -240 to 240) and 360 pixels high ($Y$ spanning from -180 to 180).",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Changing a sprite's X coordinate to a positive value moves the character in which direction across the stage?",
+    "Options": [
+      "A) Upwards",
+      "B) Downwards",
+      "C) To the Left",
+      "D) To the Right"
+    ],
+    "CorrectAnswer": "D",
+    "Explanation": "Increasing the $X$ position parameter shifts a sprite horizontally towards the right-hand side of the grid plane.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If you want a sprite to move directly straight up toward the top edge of the screen, which coordinate action should you run?",
+    "Options": [
+      "A) Change X by a negative number",
+      "B) Change Y by a positive number",
+      "C) Change X by a positive number",
+      "D) Change Y by a negative number"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The $Y$-axis governs vertical scaling; positive shifts increment its upward orientation vector tracking.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are the different visual poses or alternative artwork drawings of a single sprite called, which can be swapped rapidly to make a character look like it is walking?",
+    "Options": [
+      "A) Backdrops",
+      "B) Costumes",
+      "C) Audio Clips",
+      "D) Script Templates"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Costumes are the individual visual states of a sprite. Alternating them via code creates frames of animation.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What category of blocks is used to trigger or kick off a script stack (such as 'when green flag clicked' or 'when space key pressed')?",
+    "Options": [
+      "A) Control Blocks",
+      "B) Events Blocks (Yellow)",
+      "C) Motion Blocks",
+      "D) Operators Blocks"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Events blocks are yellow, featuring rounded hat-shaped tops designed to sense execution triggers and initiate functional scripts.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What shape do basic trigger blocks (like 'when sprite clicked') have at their top, preventing you from snapping other blocks above them?",
+    "Options": [
+      "A) A hollow square slot",
+      "B) A curved, rounded top profile called a 'Hat Block'",
+      "C) A diamond shape point",
+      "D) A puzzle piece tab indentation"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Hat blocks feature an upward arching dome curvature that marks them exclusively as the entry points for script execution tracking.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Basics",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which block allows a program to repeat a set of nested operations an infinite number of times until the stop button is tapped?",
+    "Options": [
+      "A) Repeat 10 block",
+      "B) Forever block",
+      "C) If-Then block",
+      "D) Wait 1 second block"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'forever' block sets up an infinite loop that runs its nested contents continuously until manually stopped.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Loops & Control Structure",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If you want a sprite to take 10 steps, wait for a moment, and repeat this cycle exactly five times before stopping, which loop block should you wrap around your movement code?",
+    "Options": [
+      "A) Forever block",
+      "B) Repeat 5 block",
+      "C) If-Then wrapper",
+      "D) Stop All controller"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'repeat [value]' block is a count-controlled loop used to run a script a specific number of times.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Loops & Control Structure",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What color codes are assigned to the Control block category, which houses loops like 'repeat' and conditional statements like 'if-then'?",
+    "Options": [
+      "A) Bright Yellow",
+      "B) Light Gold / Amber Orange",
+      "C) Dark Blue",
+      "D) Neon Green"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Control blocks use an amber/orange color scheme, separating evaluation flow controls from event handlers.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of block structure runs its inner code instructions *only if* a specific condition evaluates to true (such as checking if a sprite is touching the color blue)?",
+    "Options": [
+      "A) Forever loop",
+      "B) Next Costume block",
+      "C) If-Then block",
+      "D) Broadcast message link"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The 'if-then' structure is a conditional statement that evaluates whether a criteria is met before running the code inside.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Conditionals & Logic",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What block category contains light blue, hexagonal blocks used to detect inputs like 'touching mouse-pointer?' or 'key space pressed?'?",
+    "Options": [
+      "A) Operators Blocks",
+      "B) Sensing Blocks (Light Blue)",
+      "C) Looks Blocks",
+      "D) Sound Blocks"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Sensing blocks are light blue and act as input receivers, checking for interactions, clicks, and coordinate tracking metrics.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What shape do inputs or conditions have if they output boolean results (True or False), matching the slot shape inside an 'if-then' block?",
+    "Options": [
+      "A) A perfectly round circle",
+      "B) A six-sided hexagon shape with pointed ends",
+      "C) A crescent wave form",
+      "D) A rectangular footer link"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Boolean data slots in Scratch are shaped as hexagons. They can only return true or false values.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Basics",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "If you want your sprite to pause for half a second before performing its next animation step, which block should you add?",
+    "Options": [
+      "A) Move 0.5 steps",
+      "B) Wait 0.5 seconds (Control category)",
+      "C) Rest for 2 beats",
+      "D) Clear graphic effects"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'wait [seconds]' block pauses the execution of a script stack for a set amount of time.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Loops & Control Structure",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What feature allows different sprites to send out a secret signal notification to each other so they can trigger synchronized actions simultaneously?",
+    "Options": [
+      "A) Costume Swapping",
+      "B) Broadcasting (via Events block)",
+      "C) Sound Pitching",
+      "D) Variable Incrementing"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Broadcasting lets a sprite send a message across the project. Any sprite with a matching 'When I receive' block will trigger its script.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Advanced Concepts",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which block palette contains math functions like addition, subtraction, picking random numbers, and logical comparators like 'greater than'?",
+    "Options": [
+      "A) Variables Blocks",
+      "B) Operators Blocks (Green)",
+      "C) Control Blocks",
+      "D) Motion Blocks"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Operators blocks are green and handle math calculations, string handling, and boolean comparisons.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is a variable in Scratch programming?",
+    "Options": [
+      "A) A specific background picture style.",
+      "B) A designated storage container used to hold data values that can change during a game (like a player's score or remaining lives).",
+      "C) A sound clip control filter.",
+      "D) The button that closes the Scratch program."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Variables act as named data containers that store changing information, such as timers or score tracking metrics.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Variables & Data",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What color codes are assigned to the blocks palette for variables and custom lists?",
+    "Options": [
+      "A) Dark Red",
+      "B) Light Green",
+      "C) Dark Orange / Crimson Red",
+      "D) Light Purple"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Variables and list operations are coded in dark orange/crimson to distinguish them from other logic blocks.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which block should you run at the very start of a game script to make sure a player's score counter tracking variable resets back to 0?",
+    "Options": [
+      "A) Change score by 1",
+      "B) Set score to 0",
+      "C) Show variable score",
+      "D) Hide variable score"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'set variable to [value]' block overwrites a variable's stored data with a new value, making it ideal for resetting scores.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Variables & Data",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If a sprite hits a gold coin item in your game, which command block will increase your 'coins' variable count tracking by 1?",
+    "Options": [
+      "A) Set coins to 1",
+      "B) Change coins by 1",
+      "C) Multiply coins by 1",
+      "D) Replace item coins"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'change variable by [value]' block adds or subtracts values from a variable's current total.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Variables & Data",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What handy script block under the Motion category stops a sprite from running off the edge of the stage by making it flip around when it touches a boundary?",
+    "Options": [
+      "A) Turn 180 degrees",
+      "B) If on edge, bounce",
+      "C) Move -10 steps",
+      "D) Go to random position"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "'If on edge, bounce' checks a sprite's position coordinates. If it touches the stage boundaries, it reverses its direction vector.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What tab area can you switch to if you want to use drawing brushes to edit the costume graphics or change the colors of a sprite?",
+    "Options": [
+      "A) Sounds Tab",
+      "B) Costumes Tab",
+      "C) Code Tab",
+      "D) Extensions Tab"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Costumes Tab opens an integrated vector/bitmap paint editor where users can design or modify sprite artwork.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Where on the interface screen do you click to add or change the background scenery image of your Stage canvas?",
+    "Options": [
+      "A) Choose a Sprite button",
+      "B) Choose a Backdrop button (bottom right corner)",
+      "C) Extension dock panel",
+      "D) Sound library node"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Backdrop selection tool is located in the lower-right section of the interface, next to the sprite directory panel.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What happens if you stack two distinct script chains that both begin with the 'when green flag clicked' hat block?",
+    "Options": [
+      "A) Scratch crashes and gives a syntax tracking error.",
+      "B) Both script chains run simultaneously in parallel when the green flag is clicked.",
+      "C) Only the first stack chain runs, while the second one is ignored.",
+      "D) The sprite deletes itself from the canvas layer."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Scratch supports parallel execution. Multiple script stacks tied to the same event trigger will run at the same time.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Advanced Concepts",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What motion block snaps a sprite to a specific coordinate position instantly without showing any sliding transition animation?",
+    "Options": [
+      "A) Glide 1 secs to x:0 y:0",
+      "B) Go to x: [value] y: [value]",
+      "C) Move 10 steps",
+      "D) Point in direction 90"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'go to x: y:' block teleports a sprite to the specified coordinates instantly.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which block creates a smooth sliding animation as a sprite transitions from its current spot to a new set of coordinates over a set number of seconds?",
+    "Options": [
+      "A) Change x by 10",
+      "B) Glide [seconds] to x: [value] y: [value]",
+      "C) Go to random position",
+      "D) Point towards mouse-pointer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'glide' block animates a sprite's movement, sliding it smoothly to a set of destination coordinates over a specified duration.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What standard direction angle value corresponds to a sprite facing directly straight up toward the top of the Stage?",
+    "Options": [
+      "A) 90 degrees",
+      "B) 0 degrees",
+      "C) 180 degrees",
+      "D) -90 degrees"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "In Scratch's orientation tracking system, 0° points straight up, 90° points right, 180° points down, and -90° points left.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Coordinates & Movement",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What block category contains magenta-pink colored block shapes used to playback audio recordings, sound effects, or instrumental notes?",
+    "Options": [
+      "A) Sound Blocks (Pink/Magenta)",
+      "B) Looks Blocks",
+      "C) Control Blocks",
+      "D) Sensing Blocks"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Sound blocks are magenta-pink. They handle audio track layering, volume scaling, and pitch effects.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Blocks & Categories",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary difference between the 'play sound until done' block and the 'start sound' block in Scratch?",
+    "Options": [
+      "A) 'Start sound' plays the audio at a much louder volume scale.",
+      "B) 'Play sound until done' pauses the script until the sound finish playing; 'start sound' plays the audio and immediately runs the next block in the stack without waiting.",
+      "C) One block deletes the sprite after running.",
+      "D) There is no functional difference."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "'Play sound until done' pauses the script execution until the audio clip finishes. 'Start sound' is asynchronous; it triggers the audio and immediately moves to the next block.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Advanced Concepts",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What useful feature block under the Control palette lets a sprite create an exact operational duplicate copy of itself while a game is running?",
+    "Options": [
+      "A) Hide block",
+      "B) Create clone of [myself]",
+      "C) Stamp background",
+      "D) Broadcast duplicate"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Cloning blocks allow a script to generate dynamic copies of a sprite while the project is running, which is useful for creating obstacles or projectiles.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Advanced Concepts",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What unique trigger hat block handles configuration tasks for a clone right as it is spawned into existence?",
+    "Options": [
+      "A) When I receive message",
+      "B) When I start as a clone",
+      "C) When green flag clicked",
+      "D) When backdrop switches"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'when I start as a clone' hat block triggers a script for newly spawned clones, allowing you to configure their behavior independently of the parent sprite.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Advanced Concepts",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "If you want to completely remove a temporary sprite copy created by a cloning instruction block from the stage, which block should end its script?",
+    "Options": [
+      "A) Hide block",
+      "B) Delete this clone",
+      "C) Stop all scripts",
+      "D) Clear graphics"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'delete this clone' block de-allocates and removes a cloned instance from the active Stage layer.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Advanced Concepts",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What operator block can you use to generate unpredictable paths or random behaviors, like making a sprite jump to an unpredictable position between 1 and 10?",
+    "Options": [
+      "A) Round number block",
+      "B) Pick random (1) to (10) (Operators category)",
+      "C) Length of word tracking",
+      "D) Item number selector"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'pick random' block outputs a random value within a specified range, making it useful for adding unpredictability to games.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Conditionals & Logic",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which conditional structure gives you two separate code paths: one that runs if a condition is true, and a fallback path that runs if the condition is false?",
+    "Options": [
+      "A) If-Then wrapper",
+      "B) If-Then-Else block",
+      "C) Repeat Until loop",
+      "D) Wait Until controller"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'if-then-else' block provides a two-way branch: the 'then' branch runs if the condition is met, and the 'else' branch runs if it isn't.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Conditionals & Logic",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What happens to a sprite on the stage if you run a script containing the purple 'hide' block?",
+    "Options": [
+      "A) The sprite is permanently deleted from the project directory.",
+      "B) The sprite becomes invisible on the Stage, though it can still run scripts in the background.",
+      "C) The sprite's color values flip to black and white.",
+      "D) The sprite locks down and cannot execute any movement paths."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'hide' block makes a sprite invisible on the stage, but the sprite remains active in memory and continues to process its background scripts.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which block makes a hidden, invisible sprite appear on the Stage canvas again?",
+    "Options": [
+      "A) Show block (Looks palette)",
+      "B) Next costume block",
+      "C) Go to front layer",
+      "D) Clear graphic effects"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The 'show' block restores a hidden sprite's visibility on the Stage.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What area of the Scratch interface shows a list of thumbnails for all the sprites currently added to your project, allowing you to click and switch between their code workspaces?",
+    "Options": [
+      "A) Stage canvas frame",
+      "B) Sprite Pane / Sprite List (located below the stage)",
+      "C) Costumes matrix panel",
+      "D) Blocks drawer assembly"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Sprite Pane lists all active sprites in the project. Clicking a sprite's thumbnail opens its dedicated workspace.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What storage zone allows you to drag and drop scripts, costumes, or sounds to save them and copy them over to entirely different sprites or projects?",
+    "Options": [
+      "A) Blocks drawer dock",
+      "B) The Backpack tool (located at the bottom of the workspace window)",
+      "C) Stage profile bar",
+      "D) Setting matrix dock"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Backpack tool allows you to store and transfer code blocks, costumes, and sounds between different sprites or projects.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What block category should you open if you want to click a button to add extra features to Scratch, like Pen drawing tools, Video Sensing, or LEGO connection drivers?",
+    "Options": [
+      "A) Variables drawer",
+      "B) Scratch Extensions library (bottom-left corner button)",
+      "C) Operators index",
+      "D) Costume panel engine"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Extensions library adds extra block categories to Scratch, expanding its capabilities to include features like text-to-speech, pen drawing, and hardware integration.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Basics",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What loop block checks a condition first and continues repeating its inner code instructions *until* that condition evaluates to true?",
+    "Options": [
+      "A) Repeat 10 loop",
+      "B) Forever loop",
+      "C) Repeat Until block",
+      "D) If-Then-Else branch"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The 'repeat until' block is a conditional loop that runs its nested blocks repeatedly until its target condition becomes true.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Loops & Control Structure",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What text field input sits at the top of the sprite properties panel, allowing you to change a character's identification label from 'Sprite1' to something custom like 'HeroCat'?",
+    "Options": [
+      "A) Size parameter field",
+      "B) Sprite Name text box",
+      "C) Direction selector dial",
+      "D) Coordinate tracking portal"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Sprite Name input box allows you to rename your sprite characters, making it easier to keep track of them as your project grows.",
+    "Topic": "Introduction to Scratch Programming",
+    "SubTopic": "Scratch Interface",
+    "Difficulty": "Foundation"
+  }
+]

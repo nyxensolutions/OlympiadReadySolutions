@@ -187,8 +187,9 @@ export function UpgradeModal({
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4 overflow-y-auto">
-      <div className="relative w-full max-w-lg rounded-2xl bg-white p-6 shadow-xl my-8">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-900/50">
+      <div className="flex min-h-full items-center justify-center p-4 py-8">
+        <div className="relative w-full max-w-lg rounded-2xl bg-white p-6 shadow-xl">
         <button
           type="button"
           onClick={onClose}
@@ -391,6 +392,7 @@ export function UpgradeModal({
             {error}
           </p>
         )}
+        </div>
       </div>
     </div>
   );

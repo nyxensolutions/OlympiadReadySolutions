@@ -1,0 +1,702 @@
+﻿[
+  {
+    "QuestionText": "Which part of the Central Processing Unit (CPU) is responsible for performing mathematical calculations like addition, subtraction, and logical comparisons such as matching or sorting data?",
+    "Options": [
+      "A) Control Unit (CU)",
+      "B) Memory Unit (MU)",
+      "C) Arithmetic Logic Unit (ALU)",
+      "D) Motherboard Port"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The ALU (Arithmetic Logic Unit) handles all arithmetic calculations (+, -, *, /) and logical operations (AND, OR, NOT, comparisons) within the CPU.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "The CPU",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "The Control Unit (CU) acts as the supervisor or 'brain director' of the computer. What is its primary function?",
+    "Options": [
+      "A) It permanently stores user files when the computer turns off.",
+      "B) It directs and coordinates the flow of data and instructions between all computer components.",
+      "C) It displays sharp graphics and videos on the screen.",
+      "D) It converts mechanical typing into physical ink on paper."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Control Unit does not process data itself; instead, it manages, coordinates, and directs the movement of signals across different hardware units like a traffic cop.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "The CPU",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the large, primary circuit board inside a computer that connects the CPU, memory, hard drive, and all other internal and external peripherals together?",
+    "Options": [
+      "A) Power Supply Unit",
+      "B) Hard Disk Board",
+      "C) Motherboard",
+      "D) Sound Card"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Motherboard (or system board) serves as the main communication spine through which all internal components and external devices interact with one another.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Why is Random Access Memory (RAM) classified as a 'volatile' form of computer memory?",
+    "Options": [
+      "A) It can easily catch fire if the computer overheats.",
+      "B) It automatically expands its size when running large games.",
+      "C) It completely loses all stored data as soon as the power supply is turned off.",
+      "D) It cannot be modified or updated by the user."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Volatile memory requires continuous electrical power to maintain its state. When the computer shuts down, everything stored temporarily in RAM vanishes instantly.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which type of internal computer memory contains the permanent, built-in startup instructions (such as BIOS) that help boot up the system when you hit the power button?",
+    "Options": [
+      "A) RAM",
+      "B) ROM (Read-Only Memory)",
+      "C) Hard Drive Cache",
+      "D) Pen Drive"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "ROM holds crucial start-up instructions manufactured directly onto a chip. This data is non-volatile, meaning it remains intact even without electricity.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "While working on an unsaved school report in MS Word, sudden power failure turns off your computer. Where was that unsaved report actively residing right before the crash?",
+    "Options": [
+      "A) In the ROM chip",
+      "B) On the physical optical disc drive",
+      "C) In the volatile RAM memory",
+      "D) Permanently written to the Hard Disk"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Active applications and unsaved progress live in RAM. Since RAM is volatile, unexpected power cuts instantly wipe out any data that hasn't been saved to permanent storage.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the primary internal data storage device found inside almost every desktop tower, used to permanently store the operating system, apps, games, and files?",
+    "Options": [
+      "A) RAM Stick",
+      "B) Hard Disk Drive (HDD)",
+      "C) CD-ROM",
+      "D) Arithmetic chip"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Hard Disk Drive (HDD) is the primary, high-capacity non-volatile magnetic storage unit used to keep systems, programs, and custom user data saved permanently.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Modern computers often swap older magnetic Hard Disk Drives (HDDs) for Solid-State Drives (SSDs). What is a major hardware advantage of an SSD?",
+    "Options": [
+      "A) It uses heavy spinning magnetic discs to save power.",
+      "B) It has no moving parts, making it much faster, quieter, and more durable than an HDD.",
+      "C) It only operates when the computer is completely disconnected from power.",
+      "D) It can only hold text documents but not images or video files."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "SSDs read and write data using flash memory chips instead of mechanical spinning magnetic platters, delivering much faster boot and loading times with zero noise.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which computer component converts high-voltage Alternating Current (AC) electricity from your home wall outlet into lower-voltage Direct Current (DC) electricity needed by internal PC components?",
+    "Options": [
+      "A) CPU Cache",
+      "B) SMPS / PSU (Switched-Mode Power Supply / Power Supply Unit)",
+      "C) Transistor Controller",
+      "D) Sound Card Card"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The SMPS/PSU acts as the electrical power plant of the system, converting raw wall power into clean, precise voltages safe for fragile computer circuits.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What type of hardware device translates real-world movements, physical traits, text sheets, or voice signals into electronic binary data for a computer to process?",
+    "Options": [
+      "A) Output Device",
+      "B) Input Device",
+      "C) Storage Unit",
+      "D) Processing Core"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Input devices (like keyboards, mice, microphones, scanners) convert physical user inputs into electronic binary signals that the computer can decode.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which specialized device is designed to scan printed paper documents or photos and convert them into digital image files on your computer?",
+    "Options": [
+      "A) Inkjet Printer",
+      "B) Plotter Machine",
+      "C) Optical Scanner",
+      "D) Projector Screen"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "An optical scanner shines light on physical paper pages to record their imagery and convert them into digital files (like PDFs or JPEGs).",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "An Optical Character Recognition (OCR) scanner is most commonly used for which of the following real-world tasks?",
+    "Options": [
+      "A) Playing highly complex video games with a stick controller",
+      "B) Reading printed or handwritten paper text and converting it into editable digital text files",
+      "C) Recording high-definition surround sound music",
+      "D) Cooling down an overheated processor core"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "OCR systems use intelligent software scanning to turn flat pixel images of letters into selectable, interactive, and editable text files.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "When checking out items at a supermarket, the cashier points a laser gun device at vertical black-and-white lines on a product package. What input device is being used?",
+    "Options": [
+      "A) MICR Reader",
+      "B) OMR Scanner",
+      "C) Barcode Reader",
+      "D) Light Pen"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A barcode reader uses laser reflections to interpret the width of printed black-and-white stripes, instantly finding the item ID in the store inventory database.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which specialized scanning device is used by bank machines to read unique, computerized routing numbers printed at the bottom of paper checks using iron-infused magnetic ink?",
+    "Options": [
+      "A) Barcode Reader",
+      "B) MICR (Magnetic Ink Character Recognition) Reader",
+      "C) OMR (Optical Mark Recognition) Sheet Machine",
+      "D) Laser Plotter"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "MICR technology reads characters printed in specialized magnetic ink, which is standard practice in banking to prevent fraud on check transactions.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "When you take a multiple-choice Olympiad exam on a paper sheet where you fill in round bubbles with a pencil, what device automatically scans and grades your paper?",
+    "Options": [
+      "A) MICR Machine",
+      "B) OMR (Optical Mark Recognition) Reader",
+      "C) Digital Camera Core",
+      "D) Barcode Wand"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "OMR readers project light onto the paper sheet to detect the dark filled-in circle markers, allowing rapid grading of standardized tests.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which input device allows designers, architects, and artists to draw freehand artwork directly onto a flat screen or pad using a pen-like stylus?",
+    "Options": [
+      "A) Trackball Mouse",
+      "B) Graphic / Drawing Tablet",
+      "C) Touchpad Pad",
+      "D) Joystick Wand"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Graphic tablets map the location of a specialized stylus pen onto digital canvasses, allowing highly detailed digital sketching and blueprint drafting.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which component is an output device used specifically to generate physical paper records (hard copies) of computer data?",
+    "Options": [
+      "A) Flatbed Scanner",
+      "B) Monitor Panel",
+      "C) Laser Printer",
+      "D) Microphone Unit"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Printers are classic output devices that transfer soft copy digital files onto physical pages to generate hard copies.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How do non-impact printers (like modern Laser and Inkjet printers) differ fundamentally from older impact printers (like Dot-Matrix printers)?",
+    "Options": [
+      "A) Non-impact printers strike an inked ribbon physically against paper to stamp letters.",
+      "B) Non-impact printers use non-electrical gears made of wood.",
+      "C) Non-impact printers spray ink or use lasers to bake toner powder onto paper without hitting the page directly.",
+      "D) Non-impact printers are much slower and louder than impact printers."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Non-impact printers create text and shapes without physical strikes, making them significantly faster, quieter, and sharper than older pin-striking dot-matrix impact printers.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "An engineer needs to print huge, ultra-precise architectural blueprints, construction maps, or outdoor banners. Which high-grade output device should they use?",
+    "Options": [
+      "A) Standard Dot-Matrix Printer",
+      "B) Flatbed Scanner",
+      "C) Plotter",
+      "D) Biometric Sensor"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Plotters are specialized line-drawing machines that use continuous vector lines to create gigantic engineering charts and architectural blueprints.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "The physical clarity and detail of images displayed on a monitor screen are measured by the number of individual color dots it can show. What are these dots called?",
+    "Options": [
+      "A) Bits",
+      "B) Pixels",
+      "C) Matrix Nodes",
+      "D) GigaHertz"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Pixels (short for Picture Elements) are the tiny individual illuminated dots that make up a digital image on screen displays.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What classification applies to a touch-sensitive interactive smartboard used inside a classroom?",
+    "Options": [
+      "A) Input Device only",
+      "B) Output Device only",
+      "C) Both an Input and Output Device",
+      "D) High-Capacity Secondary Storage unit"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Touchscreens output visual computer responses on screen while simultaneously accepting physical touch input from fingers or markers, serving dual roles.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which electronic slot or plug interface on the back of a computer tower is most commonly used today to connect modern keyboards, mice, flash drives, and printers?",
+    "Options": [
+      "A) VGA Port",
+      "B) Parallel Port",
+      "C) USB (Universal Serial Bus) Port",
+      "D) Power Input Socket"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "USB ports have become the industry standard connection method for almost all hot-swappable external hardware accessories.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of port would you use to plug a digital monitor or projector into a computer to send high-definition audio and video over a single cable?",
+    "Options": [
+      "A) PS/2 Mouse Port",
+      "B) Serial Com Port",
+      "C) HDMI (High-Definition Multimedia Interface) Port",
+      "D) Audio Jack"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "HDMI ports transmit uncompressed high-def digital video and multi-channel audio data across one unified connection cord.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Arrange these computer storage capacities in ascending order (from smallest to largest): 1 Gigabyte (GB), 1 Kilobyte (KB), 1 Terabyte (TB), 1 Megabyte (MB).",
+    "Options": [
+      "A) 1 KB -> 1 MB -> 1 GB -> 1 TB",
+      "B) 1 TB -> 1 GB -> 1 MB -> 1 KB",
+      "C) 1 KB -> 1 GB -> 1 MB -> 1 TB",
+      "D) 1 MB -> 1 KB -> 1 GB -> 1 TB"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Memory scale steps up by standard factors of 1024: Kilobyte (KB) is smallest, followed by Megabyte (MB), Gigabyte (GB), and Terabyte (TB) as the largest.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "A single byte of computer data consists of how many individual binary digits (bits)?",
+    "Options": [
+      "A) 4 bits",
+      "B) 8 bits",
+      "C) 16 bits",
+      "D) 1024 bits"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "One basic byte contains exactly 8 individual bits (0s or 1s), which is the storage volume required to represent a single character like the letter 'A'.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Exactly how many Megabytes (MB) make up 1 full Gigabyte (GB) of standard computer storage?",
+    "Options": [
+      "A) 100 MB",
+      "B) 500 MB",
+      "C) 1024 MB",
+      "D) 2048 MB"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "In computing binary systems, 1 Gigabyte is equal to $2^{10}$ Megabytes, which scales to exactly 1024 MB.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of expansion card can be plugged into a motherboard slot to let heavy 3D action video games render fast, beautiful images without lagging?",
+    "Options": [
+      "A) Network Interface Card",
+      "B) Dedicated Graphics Card / GPU (Video Card)",
+      "C) Internal Modem Chip",
+      "D) Scanner Board"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A dedicated graphics card contains its own high-speed processor (GPU) and VRAM memory specialized for generating 3D textures and smooth frames on screen.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Why do high-speed modern CPU chips always have a metal block with fins (heatsink) and a running fan attached directly on top of them?",
+    "Options": [
+      "A) To blow dust into the computer case panels.",
+      "B) To distribute electric current from the wall adapter safely.",
+      "C) To draw away and dissipate the extreme heat generated during processing, keeping the CPU cool.",
+      "D) To help the CPU spin around faster."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "CPUs contain millions of micro-scale electrical pathways that produce significant thermal energy. Without a heatsink and fan drawing heat away, the chip would quickly overheat and shut down.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are the fast, internal storage compartments built directly inside the CPU chip itself, used to hold tiny instructions and data values the ALU is calculating at that exact microsecond?",
+    "Options": [
+      "A) Flash Drives",
+      "B) Registers",
+      "C) Optical Drives",
+      "D) Hard Disks"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Registers are the fastest, smallest memory units located directly inside the CPU structure to hold immediate items needed for ongoing calculations.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "The CPU",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of external storage device uses laser beam technology to read and write digital data on shiny circular discs?",
+    "Options": [
+      "A) Solid State Card",
+      "B) Optical Disk (CD / DVD / Blu-ray)",
+      "C) Hard Drive Platter",
+      "D) Internal Memory Stick"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "CDs, DVDs, and Blu-rays are optical media. They contain micro-tracks read by a physical laser lens assembly inside the disc drive player.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of component is a computer flash drive (Pen Drive) which plugs into a USB port?",
+    "Options": [
+      "A) Volatile primary storage",
+      "B) Non-volatile secondary storage using solid-state flash memory",
+      "C) Output audio channel hardware",
+      "D) Input tracking scanner core"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Pen drives are portable secondary storage devices that don't lose data when unplugged. They use non-volatile flash chips to store files indefinitely.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Identify the storage medium that can hold the greatest volume of data from the choices listed.",
+    "Options": [
+      "A) Standard CD-ROM (700 MB)",
+      "B) Standard DVD-ROM (4.7 GB)",
+      "C) 2 Terabyte External Hard Drive (2000 GB)",
+      "D) 32 Gigabyte USB Pen Drive (32 GB)"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "2 Terabytes equals roughly 2048 Gigabytes, which is significantly larger than a 32 GB pen drive, a 4.7 GB DVD, or a 700 MB CD.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which internal system component acts as an electronic highway, consisting of copper traces on the motherboard used to move data bits between the CPU, memory, and devices?",
+    "Options": [
+      "A) Power Cord",
+      "B) System Bus",
+      "C) Cooling Fan Blades",
+      "D) Printer Cable"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The system bus is the group of physical parallel wires or traces through which data, addresses, and control signals pass within the PC circuitry.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does a computer's 'Cache Memory' do to speed up processing tasks?",
+    "Options": [
+      "A) It prints out hard copies at high speeds.",
+      "B) It acts as an ultra-fast buffer between the CPU and RAM, storing frequently used instructions so the CPU doesn't have to wait.",
+      "C) It prevents online hackers from seeing the screen.",
+      "D) It cleans out dust build-up from internal fans."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Cache memory is tiny, ultra-fast static RAM (SRAM) sitting close to the CPU core. It mirrors active data chunks from the slower primary RAM to boost execution speeds.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of device would you plug into a network slot (Ethernet port) on a motherboard to let a computer communicate over wires with other local devices?",
+    "Options": [
+      "A) Sound Card Card",
+      "B) NIC (Network Interface Card)",
+      "C) TV Tuner Board",
+      "D) Light Pen Unit"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Network Interface Card (NIC) handles wired or wireless data packet transactions to connect a computer to a local network or modem router.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of data storage metric equals exactly half of one standard 8-bit byte (meaning a group of 4 bits)?",
+    "Options": [
+      "A) Nibble",
+      "B) Kilobit",
+      "C) Pixel Node",
+      "D) Cache Bit"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "In computer architecture, a group of four binary digits (bits) is officially known as a 'nibble'.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which device reads patterns of pencil marks made on specialized application or contest registration forms?",
+    "Options": [
+      "A) MICR Scanner",
+      "B) OMR Reader",
+      "C) Laser Projector",
+      "D) Graphic Stylus Pad"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "An OMR (Optical Mark Recognition) reader is custom-built to check for the presence or absence of dark marks in predefined areas on a sheet.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which computer device serves as a biometrics-based input hardware component to safeguard modern laptops?",
+    "Options": [
+      "A) Ergonomic Keyboard Keyboard",
+      "B) Fingerprint Scanner",
+      "C) Dot-Matrix Print Head",
+      "D) Headphone Set"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Fingerprint scanners capture biometric skin patterns and convert them into digital signatures to securely verify user identity.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of device is a flatbed optical scanner?",
+    "Options": [
+      "A) Output device used to show videos.",
+      "B) Storage medium for system backup archives.",
+      "C) Input device used to convert hard copies into soft copies.",
+      "D) Processing module within the CPU core."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Scanners take physical materials (hard copies) and convert them into digital data files (soft copies) for storage or editing on a computer.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Identify the device from the options below that functions as a legacy 'impact printer'.",
+    "Options": [
+      "A) Thermal Receipt Printer",
+      "B) Dot-Matrix Printer",
+      "C) Laser Jet Pro Printer",
+      "D) Color Inkjet Deskjet"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Dot-matrix printers are impact printers because they use small pins to strike an inked ribbon against a page to form letters.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "A user needs to choose a secondary storage system that can easily transfer small school files between different computers without needing an internet connection. Which option is best?",
+    "Options": [
+      "A) Internal Motherboard RAM",
+      "B) USB Flash Drive (Pen Drive)",
+      "C) Internal ROM Storage",
+      "D) CPU Registers Slot"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "USB flash drives are compact, rewritable, non-volatile, and highly portable, making them ideal for carrying files between different computers.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If a computer has high speed RAM but lacks a working Secondary Storage unit, what will it be unable to do?",
+    "Options": [
+      "A) Perform arithmetic comparisons in the ALU.",
+      "B) Accept typing inputs from a USB keyboard.",
+      "C) Permanently save files, documents, and programs for later use after power down.",
+      "D) Display color pixels on a monitor panel."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Primary storage (RAM) is volatile and cannot save data long-term. Without secondary storage (like an HDD or SSD), all files would disappear every time the computer is turned off.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the abbreviation 'BIOS', stored securely inside the motherboard's ROM chip, stand for?",
+    "Options": [
+      "A) Binary Integrated Output System",
+      "B) Basic Input Output System",
+      "C) Boot Initialization Operating Software",
+      "D) Board Internal Operational Scheme"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "BIOS stands for Basic Input Output System. It initializes hardware components during the boot process to ensure everything is working before loading the main OS.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What do the three core steps of a standard computer's processing cycle stand for in order?",
+    "Options": [
+      "A) Integration, Printout, Organization",
+      "B) Input, Processing, Output",
+      "C) Identification, Program, Optimization",
+      "D) Instruction, Password, Operation"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Computers operate on the IPO cycle: they take raw data (Input), process it using the CPU (Processing), and produce results (Output).",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "The CPU",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of monitor is thin, flat, lightweight, and uses liquid crystals to create the images displayed on modern laptop and desktop screens?",
+    "Options": [
+      "A) CRT (Cathode Ray Tube) Monitor",
+      "B) LCD (Liquid Crystal Display) Monitor",
+      "C) Mechanical Plotter Unit",
+      "D) Light Pen Panel"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "LCD monitors replaced bulky CRT screens by using a liquid crystal solution sandwiched between polarizing sheets to efficiently display images.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What physical hardware component links external devices to the computer's system bus through the back of a computer casing?",
+    "Options": [
+      "A) Processor Pin",
+      "B) Port",
+      "C) Transistor Node",
+      "D) Drive Tray"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ports are external interface slots on a computer case that allow you to plug in device cables to establish a connection with the internal system bus.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Internal Architecture",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which storage device is an example of flash-based non-volatile memory used primarily inside digital cameras and smartphones to store photos and videos?",
+    "Options": [
+      "A) CD-R Disc",
+      "B) Memory Card (SD Card)",
+      "C) Magnetic Tape Tape",
+      "D) ROM Chip"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Secure Digital (SD) memory cards use solid-state flash technology to provide reliable, compact storage for portable electronic devices.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Storage Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Why is primary memory (RAM) much closer to the CPU in terms of the computer's architecture compared to secondary memory (HDDs/SSDs)?",
+    "Options": [
+      "A) Because RAM chips are much heavier than hard drives.",
+      "B) To allow the CPU to read and write data at high speeds, keeping up with processing demands.",
+      "C) Because RAM can only store files when the computer is completely turned off.",
+      "D) To protect the RAM chips from getting dusty."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The CPU operates at incredibly high speeds. It reads active data directly from RAM because accessing secondary storage devices like hard drives is much slower and would cause a performance bottleneck.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which of the following units is the largest in terms of data storage capacity?",
+    "Options": [
+      "A) 1024 Kilobytes",
+      "B) 1 Megabyte",
+      "C) 1 Gigabyte",
+      "D) 500 Megabytes"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "1 Gigabyte is equal to 1024 Megabytes. This makes it larger than 500 Megabytes, 1 Megabyte, or 1024 Kilobytes (which is exactly 1 Megabyte).",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "Computer Memory",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "A computer device that can display text or graphics onto a wall or large sheet so a whole room of people can view it together is called a:",
+    "Options": [
+      "A) Scanner",
+      "B) Monitor",
+      "C) Projector",
+      "D) Plotter"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Projectors take the video signals generated by a computer and beam them onto large flat surfaces, making them ideal for classroom or boardroom presentations.",
+    "Topic": "Computer Hardware & Internal Components",
+    "SubTopic": "I/O Devices",
+    "Difficulty": "Foundation"
+  }
+]

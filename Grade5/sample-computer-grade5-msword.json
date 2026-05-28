@@ -1,0 +1,702 @@
+﻿[
+  {
+    "QuestionText": "Which group on the Home tab in MS Word contains commands for changing font styles, font sizes, colors, and applying text effects like bold or underline?",
+    "Options": [
+      "A) Paragraph Group",
+      "B) Clipboard Group",
+      "C) Font Group",
+      "D) Editing Group"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Font Group houses all essential character formatting tools, such as typeface selections, sizing tools, case switching, and font color variations.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of alignment distributes text evenly between the left and right margins, creating a clean, straight edge on both sides of a paragraph?",
+    "Options": [
+      "A) Align Left",
+      "B) Center Align",
+      "C) Justify",
+      "D) Align Right"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Justify alignment adds variable spacing between words so that the edges of each line line up exactly with both the left and right document margins.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Paragraph Adjustments",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which keyboard shortcut combination can be used to instantly justify the alignment of a selected paragraph in MS Word?",
+    "Options": [
+      "A) Ctrl + E",
+      "B) Ctrl + J",
+      "C) Ctrl + R",
+      "D) Ctrl + L"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + J triggers paragraph justification. For reference, Ctrl + E centers text, Ctrl + L aligns left, and Ctrl + R aligns right.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "To type a math equation like $X^{2} + Y^{2} = Z^{2}$ in MS Word, which formatting option should you use to make the number '2' appear smaller and raised above the normal line of text?",
+    "Options": [
+      "A) Subscript",
+      "B) Strikethrough",
+      "C) Superscript",
+      "D) Small Caps"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Superscript reduces character size and positions it slightly above the baseline, which is standard for math exponents or footnotes.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What does the 'Subscript' command do, and what is its keyboard shortcut in MS Word?",
+    "Options": [
+      "A) It makes text larger and positions it above text; Ctrl + Shift + Plus",
+      "B) It makes text smaller and positions it below the baseline (like $H_{2}O$); Ctrl + Equal Sign (=)",
+      "C) It adds a glowing color background behind sentences; Ctrl + Alt + H",
+      "D) It draws a double line right through the center of selected words; Ctrl + D"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Subscript places characters slightly below the standard typing line, which is useful for chemical formulas. The shortcut to toggle this is Ctrl + =.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which feature in MS Word allows you to copy all of the formatting from one piece of text (like its font, color, and size) and apply it instantly to another piece of text?",
+    "Options": [
+      "A) Format Painter",
+      "B) Clipboard Copy",
+      "C) Style Gallery",
+      "D) AutoText Library"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The Format Painter tool copies style attributes from a selection and paints them onto a new target phrase, keeping document themes consistent without resetting properties manually.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "You want to apply a copied format multiple times to different headings across your document using the Format Painter. How should you click the Format Painter icon?",
+    "Options": [
+      "A) Single-click the icon",
+      "B) Right-click the icon and choose 'Hold'",
+      "C) Double-click the icon to keep it locked 'on' until you press the Esc key",
+      "D) Hold down the Spacebar while clicking once"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Double-clicking the Format Painter button locks it in active paint mode, letting you apply the copied styling to multiple distinct sections across a file sequentially.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the primary function of the 'Watermark' command found under the Design/Page Layout structures in MS Word?",
+    "Options": [
+      "A) To clean out corrupted image boundaries inside a page layout.",
+      "B) To insert a faint, translucent background image or text (like 'CONFIDENTIAL' or 'DRAFT') behind the main page content.",
+      "C) To format the page so it can be viewed on an e-reader tablet.",
+      "D) To print text using special liquid-resistant ink parameters."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Watermarks add faded background markings behind document text layers to denote status, branding, security limits, or ownership restrictions.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which page orientation lays out a document horizontally so that the page is wider than it is tall?",
+    "Options": [
+      "A) Portrait orientation",
+      "B) Columnar orientation",
+      "C) Landscape orientation",
+      "D) Margin orientation"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Landscape orientation rotates the layout structure horizontally, maximizing width, whereas Portrait maps pages vertically.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What are the blank border areas running along the top, bottom, left, and right edges of an MS Word page where text does not normally print called?",
+    "Options": [
+      "A) Gutters",
+      "B) Indents",
+      "C) Margins",
+      "D) Borders"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Margins define the boundary areas around the perimeter of a page, framing the central printable region.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When printing a book, extra empty spacing must be added along the inner binding edge of a page to ensure the text isn't hidden by the spine glue or staples. What is this margin space called?",
+    "Options": [
+      "A) Mirror Margin",
+      "B) Gutter Margin",
+      "C) Drop Cap Margin",
+      "D) Top Border Margin"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A gutter margin adds designated safety clearance to the binding side (left or top) of a document to prevent text from being obscured after binding.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which tab on the ribbon contains commands to build a table, insert pictures, add hyperlinked URLs, or drop in a text box?",
+    "Options": [
+      "A) Home Tab",
+      "B) Design Tab",
+      "C) Insert Tab",
+      "D) View Tab"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Insert Tab contains elements that can be embedded into a document layout, such as tables, media shapes, icons, and page markers.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Table Management",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "In an MS Word table structure, what is the term used to describe the individual rectangular box formed where a vertical column intersects a horizontal row?",
+    "Options": [
+      "A) Grid Line",
+      "B) Cell",
+      "C) Border Box",
+      "D) Split Block"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A cell is an individual container block within a table layout grid, generated by the crossover of a row and a column.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Table Management",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You have a table cell that you want to divide into multiple smaller cells. Which command under Table Tools should you choose?",
+    "Options": [
+      "A) Merge Cells",
+      "B) Split Cells",
+      "C) AutoFit Window",
+      "D) Convert to Text"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "'Split Cells' breaks a single selected cell down into a custom number of rows or columns, while 'Merge Cells' combines multiple adjacent blocks into one.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Table Management",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What occurs when a user selects four adjacent cells in a table row and clicks the 'Merge Cells' button?",
+    "Options": [
+      "A) The cells are completely deleted along with their contents.",
+      "B) The four cells are combined into one single, wide cell spanning across the columns.",
+      "C) The table splits into two separate tables at that location.",
+      "D) The font inside those cells automatically doubles in size."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Merging consolidates multiple separate cell compartments into a single shared space, maintaining any text inside.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Table Management",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which feature should you use to add text (like a document title or page numbers) that automatically repeats at the very top of every single page in an MS Word file?",
+    "Options": [
+      "A) Footnote",
+      "B) Endnote",
+      "C) Header",
+      "D) Footer"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Headers are reserved areas at the top margin of a page where repeating layout indicators (like titles, dates, or logos) are placed. Footers handle the same task at the bottom.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Headers, Footers & Notes",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Where are Endnotes positioned inside an MS Word document compared to Footnotes?",
+    "Options": [
+      "A) Footnotes appear at the bottom of each page; Endnotes appear at the very end of the entire document.",
+      "B) Footnotes appear in the top margin; Endnotes appear inside cells.",
+      "C) Endnotes appear at the bottom of each page; Footnotes appear at the end of the document.",
+      "D) Both appear interchangeably anywhere within the body text paragraphs."
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Footnotes are placed at the base of the page containing the reference marker. Endnotes compile references at the final page of the file.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Headers, Footers & Notes",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which formatting feature creates an oversized, decorative first letter at the start of a paragraph, often seen in magazines or storybooks?",
+    "Options": [
+      "A) WordArt Effect",
+      "B) Drop Cap",
+      "C) Superscript Initial",
+      "D) Striking Heading"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'Drop Cap' command formats the first character of a paragraph to drop down across multiple lines of text, adding a stylized look.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "By default, how many lines of body text does a standard 'Drop Cap' drop down across when applied in MS Word?",
+    "Options": [
+      "A) 1 line",
+      "B) 2 lines",
+      "C) 3 lines",
+      "D) 5 lines"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A standard drop cap is set by default to span exactly 3 lines of text, though this value can be customized in the Drop Cap Options menu.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which built-in reference tool in MS Word allows you to look up synonyms (words with similar meanings) for a selected word to improve your writing?",
+    "Options": [
+      "A) Spell Checker Checker",
+      "B) AutoCorrect Tool",
+      "C) Thesaurus",
+      "D) Word Count Finder"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Thesaurus tool provides a quick dictionary reference of synonyms and antonyms for chosen phrases directly within the workspace interface.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which function key can be pressed on a Windows keyboard to instantly launch the 'Spelling and Grammar Check' utility in MS Word?",
+    "Options": [
+      "A) F1 key",
+      "B) F5 key",
+      "C) F7 key",
+      "D) F12 key"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Pressing F7 opens the proofing pane to check spelling and grammar across the active file.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "While typing a document, you notice a wavy red underline beneath a word. What does this visual indicator mean in MS Word?",
+    "Options": [
+      "A) The word has a serious grammatical structuring issue.",
+      "B) The word is misspelled or not found in Word's dictionary.",
+      "C) The text is a hyperlink to an internet webpage.",
+      "D) The phrase is duplicated in the paragraph."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Red wavy underlines indicate spelling mismatches. Blue wavy lines point out grammatical issues or contextual layout errors.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does a wavy blue underline beneath a phrase mean in modern editions of MS Word?",
+    "Options": [
+      "A) The text contains a hyperlink.",
+      "B) There is a potential grammar error or contextual spelling issue (like using 'there' instead of 'their').",
+      "C) The text is formatted using a Drop Cap style.",
+      "D) The font file is missing from the system."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Blue underlines denote grammatical errors or contextual spelling slips where a word is spelled correctly but used incorrectly.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which powerful MS Word feature lets you create a batch of personalized letters or mailing labels by combining a master template document with a data source list of names and addresses?",
+    "Options": [
+      "A) Track Changes",
+      "B) Mail Merge",
+      "C) AutoFormat Master",
+      "D) Hyperlink Sync"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Mail Merge automates mass documentation by merging a standard layout template with an address database file to output unique, personalized letters or labels.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "To force text to stop on the current page and move immediately to the top of the next page before filling up the space, what layout option should be inserted?",
+    "Options": [
+      "A) Section Break",
+      "B) Paragraph Tab",
+      "C) Page Break",
+      "D) Line Space Offset"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Inserting a page break ends the current page and moves the insertion point to the beginning of the next page.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the key difference between a Page Break and a Section Break in MS Word?",
+    "Options": [
+      "A) Page Breaks only work in tables; Section Breaks only work in headers.",
+      "B) A Page Break simply starts text on a new page, while a Section Break creates a separate part of the document that can have its own independent margins, orientations, and headers.",
+      "C) Section Breaks automatically delete all formatting style attributes.",
+      "D) There is no difference; they perform the exact same task."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Section breaks partition a document into distinct formatting regions, allowing pages within the same file to have varying margins, page numbering schemes, or orientations.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the keyboard shortcut to quickly insert a standard Page Break in MS Word?",
+    "Options": [
+      "A) Shift + Spacebar",
+      "B) Ctrl + Enter",
+      "C) Alt + P",
+      "D) Ctrl + Shift + P"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Pressing Ctrl + Enter inserts a manual page break at the cursor location.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "When working with smart structural objects in MS Word, what are 'SmartArt' graphics used for?",
+    "Options": [
+      "A) Editing high-resolution photos captured from cameras.",
+      "B) Creating charts, workflows, family trees, and process diagrams to visually communicate data.",
+      "C) Downloading animated short clips from internet channels.",
+      "D) Calculating complex accounting ledger formulas."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "SmartArt provides pre-built layout templates to generate visual diagrams, lists, and hierarchy charts.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Table Management",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you want to view information about your document, such as the total number of pages, paragraphs, lines, and characters, which tool should you open?",
+    "Options": [
+      "A) Word Count Dialogue Box",
+      "B) Research Pane",
+      "C) Navigation Map Gallery",
+      "D) Font Panel"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The Word Count box displays a summary of the document's metrics, including total pages, characters, paragraphs, and lines.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which keyboard shortcut opens the 'Find and Replace' dialog box with the 'Replace' tab directly active in MS Word?",
+    "Options": [
+      "A) Ctrl + F",
+      "B) Ctrl + H",
+      "C) Ctrl + R",
+      "D) Ctrl + K"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + H launches Find and Replace on the Replace tab. For reference, Ctrl + F opens the search navigation dock and Ctrl + K opens the Hyperlink setup window.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the vertical line spacing spacing known as when it leaves exactly one full empty line space height between lines of text in a paragraph?",
+    "Options": [
+      "A) Single Spacing",
+      "B) Double Spacing ($2.0$)",
+      "C) 1.5 Line Spacing",
+      "D) Triple Indent Spacing"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Double spacing leaves an empty line space between each active text line, doubling the height allocated to the line group.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Paragraph Adjustments",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What happens if a user selects a paragraph and hits the 'Ctrl + 5' keyboard shortcut sequence in Windows MS Word?",
+    "Options": [
+      "A) The text font size scales up by 5 units.",
+      "B) The line spacing of the paragraph sets to 1.5 lines.",
+      "C) Five empty paragraphs are created underneath.",
+      "D) The paragraph moves down by five inches."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + 1 applies single line spacing, Ctrl + 2 applies double spacing, and Ctrl + 5 sets the line spacing to exactly 1.5 lines.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which feature in MS Word automatically fixes common typing slips or capitalization mistakes as you type (such as turning 'teh' into 'the')?",
+    "Options": [
+      "A) AutoText",
+      "B) AutoCorrect",
+      "C) Smart Lookup",
+      "D) Track Changes"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "AutoCorrect uses a built-in replacement list to fix typos, spelling slips, and minor capitalization errors automatically as you type.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "You are reviewing a document written by a classmate and want to leave editorial comments or track edits without erasing their original text. Which feature should you turn on?",
+    "Options": [
+      "A) Mail Merge Mode",
+      "B) AutoFormat Overlay",
+      "C) Track Changes (under Review Tab)",
+      "D) Compare Master Sync"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Track Changes marks edits, additions, and deletions made to a document, allowing the original author to review and accept or reject them later.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of indent shifts the first line of a paragraph to the left, while pushing all subsequent lines in that same paragraph further to the right?",
+    "Options": [
+      "A) First Line Indent",
+      "B) Hanging Indent",
+      "C) Left Indent Block",
+      "D) Right Alignment Border"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A hanging indent keeps the first line aligned with the margin while indenting all subsequent lines of the paragraph to the right, often used for bibliographies.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Paragraph Adjustments",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the keyboard shortcut used to quickly apply a Hanging Indent to a selected paragraph in MS Word?",
+    "Options": [
+      "A) Ctrl + H",
+      "B) Ctrl + T",
+      "C) Ctrl + Shift + I",
+      "D) Alt + T"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + T applies a hanging indent. Pressing Ctrl + Shift + T removes or reduces the hanging indent.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which group on the Insert Tab allows you to insert decorative stylized text that handles headings like graphic art illustrations?",
+    "Options": [
+      "A) Illustrations Group",
+      "B) Text Group -> WordArt",
+      "C) Symbols Combo Board",
+      "D) Table Format Matrix"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "WordArt lets you add decorative text effects with custom outlines, glows, shadows, and curves.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When you insert a fresh image into a document, it can be tricky to move it freely because it sits inline with the text. Which option should you configure to wrap text around it and reposition it easily?",
+    "Options": [
+      "A) Image Optimization Scale",
+      "B) Wrap Text (e.g., Square / Tight)",
+      "C) Crop Bounds adjustment",
+      "D) Table Style Formatter"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Wrap Text settings determine how text flows around an image, allowing you to move it freely across the layout grid.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If you want to copy formatting styles across paragraphs using a quick keyboard shortcut pattern instead of the Format Painter button, which combination should you use to copy the format properties?",
+    "Options": [
+      "A) Ctrl + Shift + C",
+      "B) Ctrl + Alt + C",
+      "C) Shift + Alt + X",
+      "D) Ctrl + C"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Ctrl + Shift + C copies text formatting attributes without copying the text itself. Ctrl + Shift + V then pastes those attributes onto new text.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which view mode in MS Word optimizes the screen layout for reading documents comfortably, hiding the ribbon tools to maximize screen space?",
+    "Options": [
+      "A) Print Layout View",
+      "B) Web Layout View",
+      "C) Read Mode / Full Screen Reading",
+      "D) Outline Draft View"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Read Mode reformats your document into side-by-side columns and hides the editing tools to provide a clean reading interface.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which command button should you click to automatically build a Table of Contents at the beginning of an MS Word report?",
+    "Options": [
+      "A) Insert Tab -> SmartArt",
+      "B) References Tab -> Table of Contents",
+      "C) Home Tab -> Styles Template",
+      "D) Layout Tab -> Page Formats"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Table of Contents command on the References tab scans your document for heading styles (like Heading 1 and Heading 2) to build an automated outline map.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Headers, Footers & Notes",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What happens if a user selects a word in MS Word and clicks the 'Case' button -> 'UPPERCASE' option?",
+    "Options": [
+      "A) Only the first letter of the word becomes capital.",
+      "B) Every letter in the selected word turns into a capital letter.",
+      "C) The font size increases to its maximum value.",
+      "D) The word moves into a header box."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The UPPERCASE option converts all letters in the selected text to capital letters.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the function of the 'Borders and Shading' option in MS Word?",
+    "Options": [
+      "A) It checks the document for spelling and punctuation errors.",
+      "B) It adds customizable framing lines or color backgrounds around paragraphs, pages, or table cells.",
+      "C) It compresses the file size to make it easier to email.",
+      "D) It translates the text into different languages."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Borders and Shading adds custom outlines, paragraph boxes, and background color fills to emphasize specific sections of a document.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Paragraph Adjustments",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which keyboard shortcut sequence lets you toggle selected text back and forth between lowercase, UPPERCASE, and Capitalize Each Word?",
+    "Options": [
+      "A) Shift + F3",
+      "B) Alt + F3",
+      "C) Ctrl + F3",
+      "D) Ctrl + Shift + K"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Pressing Shift + F3 cycles the selected text through lowercase, UPPERCASE, and Title Case formatting.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the line spacing setting of $1.0$ mean inside paragraph layout choices?",
+    "Options": [
+      "A) Double line spacing values",
+      "B) Single line spacing, which fits text tightly based on font sizes",
+      "C) An automatic margin offset of 1 inch",
+      "D) The exclusion of all paragraph headers"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A setting of 1.0 represents single line spacing, keeping lines close together based on the font size being used.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Paragraph Adjustments",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which indicator on the MS Word status bar should you click to quickly adjust the display magnification of your document page?",
+    "Options": [
+      "A) Word Count tracker",
+      "B) Zoom Slider Control",
+      "C) Language selector",
+      "D) Proofing check button"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The zoom slider in the bottom right corner allows you to easily zoom in or out to adjust the on-screen size of your document.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Page Layouts & Structures",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "If you want to view two different parts of the same long document at the same time on one monitor screen, which window command should you choose?",
+    "Options": [
+      "A) New Window",
+      "B) Split Window (under View Tab)",
+      "C) Zoom 200%",
+      "D) Arrange Side by Side"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'Split' command divides the current document window into two horizontal panes, letting you scroll through and edit different sections of the same file simultaneously.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Tracking & Editing Tools",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which character formatting effect draws a horizontal line directly through the middle of the selected text?",
+    "Options": [
+      "A) Underline",
+      "B) Strikethrough",
+      "C) Highlight",
+      "D) Subscript"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Strikethrough adds a straight line through the center of selected words, often used to indicate deleted or outdated information in a draft.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does the 'Clear All Formatting' button (the letter A with an eraser icon) do when clicked in MS Word?",
+    "Options": [
+      "A) It deletes all the text from the chosen section.",
+      "B) It removes all styles, custom fonts, colors, and line spacing choices, resetting the text to its default plain format.",
+      "C) It uninstalls your custom user spelling dictionaries.",
+      "D) It clears all tracked changes out of the file layout."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Clear All Formatting strips out all font styles, sizes, and colors, resetting the text to its default plain appearance.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Text & Character Formatting",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of these features allows you to insert pre-designed graphic elements like circles, arrows, stars, or speech bubbles directly into your document page?",
+    "Options": [
+      "A) ClipArt Text",
+      "B) Shapes (under Insert Tab)",
+      "C) SmartArt Hierarchy",
+      "D) WordArt effects"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Shapes menu provides an assortment of vector graphics (like rectangles, stars, lines, and banners) that you can draw and customize on your page.",
+    "Topic": "Advanced MS Word",
+    "SubTopic": "Table Management",
+    "Difficulty": "Foundation"
+  }
+]

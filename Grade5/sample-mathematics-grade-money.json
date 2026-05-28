@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "If a pen costs $1.50 and you buy 2, what is the total cost?",
+    "Options": ["A) $2.00", "B) $2.50", "C) $3.00", "D) $4.00"],
+    "CorrectAnswer": "C",
+    "Explanation": "1.50 * 2 = 3.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many 25-cent coins (quarters) make $1.00?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "C",
+    "Explanation": "25 cents * 4 = 100 cents = $1.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You have $10.00 and buy an item for $7.25. How much change do you get?",
+    "Options": ["A) $2.25", "B) $2.75", "C) $3.25", "D) $3.75"],
+    "CorrectAnswer": "B",
+    "Explanation": "10.00 - 7.25 = 2.75.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the cost of 5 notebooks at $2.00 each?",
+    "Options": ["A) $5.00", "B) $8.00", "C) $10.00", "D) $12.00"],
+    "CorrectAnswer": "C",
+    "Explanation": "5 * 2.00 = 10.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you save $5 every week, how much do you have after 4 weeks?",
+    "Options": ["A) $10", "B) $15", "C) $20", "D) $25"],
+    "CorrectAnswer": "C",
+    "Explanation": "5 * 4 = 20.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is more: $0.99 or $1.05?",
+    "Options": ["A) $0.99", "B) $1.05", "C) They are equal"],
+    "CorrectAnswer": "B",
+    "Explanation": "1.05 is greater than 0.99.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many 10-cent coins make $0.50?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "D",
+    "Explanation": "10 cents * 5 = 50 cents = $0.50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "A toy costs $15.50. You have $20.00. Do you have enough money?",
+    "Options": ["A) Yes", "B) No"],
+    "CorrectAnswer": "A",
+    "Explanation": "15.50 < 20.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the total of $1.25 + $0.75?",
+    "Options": ["A) $1.50", "B) $1.90", "C) $2.00", "D) $2.25"],
+    "CorrectAnswer": "C",
+    "Explanation": "1.25 + 0.75 = 2.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "You spend $2.50 on lunch and $1.50 on a drink. Total?",
+    "Options": ["A) $3.00", "B) $3.50", "C) $4.00", "D) $4.50"],
+    "CorrectAnswer": "C",
+    "Explanation": "2.50 + 1.50 = 4.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many 50-cent coins make $2.00?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.50 * 4 = 2.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If a shirt is $20 and is 50% off, what is the new price?",
+    "Options": ["A) $5", "B) $10", "C) $15", "D) $18"],
+    "CorrectAnswer": "B",
+    "Explanation": "50% of 20 = 10.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is $5.00 - $3.20?",
+    "Options": ["A) $1.20", "B) $1.80", "C) $2.20", "D) $2.80"],
+    "CorrectAnswer": "B",
+    "Explanation": "5.00 - 3.20 = 1.80.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "You have three $5 bills. How much money total?",
+    "Options": ["A) $10", "B) $12", "C) $15", "D) $20"],
+    "CorrectAnswer": "C",
+    "Explanation": "3 * 5 = 15.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "A book costs $12. How much for 3 books?",
+    "Options": ["A) $24", "B) $30", "C) $36", "D) $40"],
+    "CorrectAnswer": "C",
+    "Explanation": "3 * 12 = 36.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many 20-cent coins make $1.00?",
+    "Options": ["A) 2", "B) 4", "C) 5", "D) 10"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.20 * 5 = 1.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is $10.00 / 2?",
+    "Options": ["A) $4.00", "B) $5.00", "C) $6.00", "D) $5.50"],
+    "CorrectAnswer": "B",
+    "Explanation": "10 / 2 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You have $0.50 and find $0.75. Total?",
+    "Options": ["A) $1.20", "B) $1.25", "C) $1.30", "D) $1.50"],
+    "CorrectAnswer": "B",
+    "Explanation": "0.50 + 0.75 = 1.25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "A box of candy is $4.50. You buy 2. Total?",
+    "Options": ["A) $8.00", "B) $8.50", "C) $9.00", "D) $9.50"],
+    "CorrectAnswer": "C",
+    "Explanation": "4.50 * 2 = 9.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If you earn $10 per hour, how much for 6 hours?",
+    "Options": ["A) $40", "B) $50", "C) $60", "D) $70"],
+    "CorrectAnswer": "C",
+    "Explanation": "10 * 6 = 60.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is less: $5.05 or $5.50?",
+    "Options": ["A) $5.05", "B) $5.50"],
+    "CorrectAnswer": "A",
+    "Explanation": "5.05 is smaller than 5.50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many $1 bills equal a $20 bill?",
+    "Options": ["A) 10", "B) 15", "C) 20", "D) 25"],
+    "CorrectAnswer": "C",
+    "Explanation": "1 * 20 = 20.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You spend $1.20 and pay with $2.00. Change?",
+    "Options": ["A) $0.70", "B) $0.80", "C) $0.90", "D) $1.20"],
+    "CorrectAnswer": "B",
+    "Explanation": "2.00 - 1.20 = 0.80.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "A meal costs $12.50. Tax is $0.50. Total?",
+    "Options": ["A) $12.00", "B) $13.00", "C) $13.50", "D) $14.00"],
+    "CorrectAnswer": "B",
+    "Explanation": "12.50 + 0.50 = 13.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 4 times $0.25?",
+    "Options": ["A) $0.50", "B) $0.75", "C) $1.00", "D) $1.25"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.25 * 4 = 1.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You have $100 and buy something for $90. Change?",
+    "Options": ["A) $5", "B) $10", "C) $15", "D) $20"],
+    "CorrectAnswer": "B",
+    "Explanation": "100 - 90 = 10.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How much for 10 items at $0.10 each?",
+    "Options": ["A) $0.50", "B) $1.00", "C) $1.50", "D) $2.00"],
+    "CorrectAnswer": "B",
+    "Explanation": "10 * 0.10 = 1.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is $7.50 + $2.50?",
+    "Options": ["A) $9.00", "B) $9.50", "C) $10.00", "D) $10.50"],
+    "CorrectAnswer": "C",
+    "Explanation": "7.50 + 2.50 = 10.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you save $20 a month, how much in 6 months?",
+    "Options": ["A) $100", "B) $120", "C) $140", "D) $160"],
+    "CorrectAnswer": "B",
+    "Explanation": "20 * 6 = 120.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "A ticket is $5.50. You buy 2. Total?",
+    "Options": ["A) $10.00", "B) $11.00", "C) $11.50", "D) $12.00"],
+    "CorrectAnswer": "B",
+    "Explanation": "5.50 * 2 = 11.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "You have $5.00. You spend $4.99. Change?",
+    "Options": ["A) $0.01", "B) $0.10", "C) $1.00", "D) $0.05"],
+    "CorrectAnswer": "A",
+    "Explanation": "5.00 - 4.99 = 0.01.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 3 times $2.50?",
+    "Options": ["A) $6.00", "B) $6.50", "C) $7.00", "D) $7.50"],
+    "CorrectAnswer": "D",
+    "Explanation": "2.50 * 3 = 7.50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many $5 bills make $50?",
+    "Options": ["A) 5", "B) 8", "C) 10", "D) 12"],
+    "CorrectAnswer": "C",
+    "Explanation": "5 * 10 = 50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is $1.00 / 4?",
+    "Options": ["A) $0.20", "B) $0.25", "C) $0.30", "D) $0.50"],
+    "CorrectAnswer": "B",
+    "Explanation": "1.00 / 4 = 0.25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "A hat costs $15. You have $10. Need?",
+    "Options": ["A) $2", "B) $5", "C) $10", "D) $25"],
+    "CorrectAnswer": "B",
+    "Explanation": "15 - 10 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is $8.00 + $1.25?",
+    "Options": ["A) $9.00", "B) $9.25", "C) $9.50", "D) $10.00"],
+    "CorrectAnswer": "B",
+    "Explanation": "8.00 + 1.25 = 9.25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many 5-cent coins make $0.25?",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.05 * 5 = 0.25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You spend $3.30. Pay with $5.00. Change?",
+    "Options": ["A) $1.60", "B) $1.70", "C) $1.80", "D) $2.30"],
+    "CorrectAnswer": "B",
+    "Explanation": "5.00 - 3.30 = 1.70.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is $20.00 - $15.50?",
+    "Options": ["A) $3.50", "B) $4.00", "C) $4.50", "D) $5.00"],
+    "CorrectAnswer": "C",
+    "Explanation": "20.00 - 15.50 = 4.50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "A toy car is $2.50. You buy 4. Total?",
+    "Options": ["A) $8.00", "B) $9.00", "C) $10.00", "D) $10.50"],
+    "CorrectAnswer": "C",
+    "Explanation": "2.50 * 4 = 10.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many $10 bills make $100?",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "CorrectAnswer": "B",
+    "Explanation": "10 * 10 = 100.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You have $0.20 + $0.20 + $0.20. Total?",
+    "Options": ["A) $0.40", "B) $0.50", "C) $0.60", "D) $0.80"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.20 * 3 = 0.60.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you earn $50 a week, how much in 2 weeks?",
+    "Options": ["A) $50", "B) $75", "C) $100", "D) $150"],
+    "CorrectAnswer": "C",
+    "Explanation": "50 * 2 = 100.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is $12.00 - $6.00?",
+    "Options": ["A) $5.00", "B) $6.00", "C) $7.00", "D) $8.00"],
+    "CorrectAnswer": "B",
+    "Explanation": "12.00 - 6.00 = 6.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "A pen is $0.50. How many for $2.00?",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "CorrectAnswer": "C",
+    "Explanation": "2.00 / 0.50 = 4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is $4.00 + $4.00?",
+    "Options": ["A) $7.00", "B) $8.00", "C) $9.00", "D) $10.00"],
+    "CorrectAnswer": "B",
+    "Explanation": "4 + 4 = 8.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You have $1.00. You spend $0.75. Left?",
+    "Options": ["A) $0.20", "B) $0.25", "C) $0.30", "D) $0.35"],
+    "CorrectAnswer": "B",
+    "Explanation": "1.00 - 0.75 = 0.25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "A gift is $30. You have $25. Need?",
+    "Options": ["A) $2", "B) $5", "C) $10", "D) $15"],
+    "CorrectAnswer": "B",
+    "Explanation": "30 - 25 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is $5.00 + $5.00 + $5.00?",
+    "Options": ["A) $10", "B) $12", "C) $15", "D) $20"],
+    "CorrectAnswer": "C",
+    "Explanation": "5 * 3 = 15.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many 10-cent coins make $1.00?",
+    "Options": ["A) 5", "B) 8", "C) 10", "D) 12"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.10 * 10 = 1.00.",
+    "Topic": "Mathematics",
+    "SubTopic": "Money",
+    "Difficulty": "Foundation"
+  }
+]

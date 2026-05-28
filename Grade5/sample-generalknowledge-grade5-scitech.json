@@ -1,0 +1,702 @@
+[
+  {
+    "QuestionText": "Who is credited with inventing the telephone?",
+    "Options": [
+      "A) Thomas Edison",
+      "B) Alexander Graham Bell",
+      "C) Nikola Tesla",
+      "D) Guglielmo Marconi"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Alexander Graham Bell is widely recognized for patenting the first practical telephone.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary function of a computer's CPU?",
+    "Options": [
+      "A) Storage",
+      "B) Processing data",
+      "C) Displaying graphics",
+      "D) Providing power"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The CPU (Central Processing Unit) is the 'brain' of the computer, responsible for executing instructions and processing data.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+    "Options": [
+      "A) Oxygen",
+      "B) Carbon Dioxide",
+      "C) Nitrogen",
+      "D) Hydrogen"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Plants use carbon dioxide, water, and sunlight to create energy during photosynthesis.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is the nearest planet to the Sun?",
+    "Options": [
+      "A) Earth",
+      "B) Venus",
+      "C) Mercury",
+      "D) Mars"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Mercury is the closest planet to the Sun in our solar system.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which device is used to measure earthquakes?",
+    "Options": [
+      "A) Barometer",
+      "B) Seismograph",
+      "C) Thermometer",
+      "D) Anemometer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A seismograph detects and records the intensity and duration of earthquakes.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions & Tools",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What was the first artificial satellite sent into space?",
+    "Options": [
+      "A) Hubble",
+      "B) Sputnik 1",
+      "C) Voyager 1",
+      "D) Apollo 11"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Sputnik 1 was launched by the Soviet Union in 1957, marking the beginning of the space age.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which scientist discovered the law of gravity?",
+    "Options": [
+      "A) Albert Einstein",
+      "B) Isaac Newton",
+      "C) Galileo Galilei",
+      "D) Charles Darwin"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Sir Isaac Newton formulated the laws of motion and universal gravitation.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Discoveries",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does 'WWW' stand for in website addresses?",
+    "Options": [
+      "A) World Wide Web",
+      "B) Wide World Web",
+      "C) Web World Wide",
+      "D) World Web Wide"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The World Wide Web is an information system where documents and other web resources are identified by URLs.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which element has the chemical symbol 'O'?",
+    "Options": [
+      "A) Gold",
+      "B) Osmium",
+      "C) Oxygen",
+      "D) Ozone"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Oxygen is represented by the symbol O on the periodic table.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which organelle is often called the 'powerhouse' of the cell?",
+    "Options": [
+      "A) Nucleus",
+      "B) Ribosome",
+      "C) Mitochondria",
+      "D) Vacuole"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Mitochondria produce the energy a cell needs to function through respiration.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Who is the inventor of the light bulb?",
+    "Options": [
+      "A) Nikola Tesla",
+      "B) Thomas Edison",
+      "C) Benjamin Franklin",
+      "D) Michael Faraday"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Thomas Edison is credited with developing the first commercially practical incandescent light bulb.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the speed of light approximately?",
+    "Options": [
+      "A) 300,000 km/s",
+      "B) 1,000 km/s",
+      "C) 3,000 km/s",
+      "D) 30,000 km/s"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Light travels at approximately 300,000 kilometers per second in a vacuum.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of these is a non-renewable energy source?",
+    "Options": [
+      "A) Solar",
+      "B) Wind",
+      "C) Coal",
+      "D) Hydropower"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Coal is a fossil fuel that exists in limited supply and cannot be naturally replaced in a short timeframe.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Energy",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What do we call the collection of stars, gas, and dust held together by gravity?",
+    "Options": [
+      "A) Planet",
+      "B) Galaxy",
+      "C) Asteroid",
+      "D) Comet"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A galaxy is a massive gravitationally bound system of stars, stellar remnants, gas, and dust.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which metal is liquid at room temperature?",
+    "Options": [
+      "A) Iron",
+      "B) Gold",
+      "C) Mercury",
+      "D) Silver"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Mercury is the only metallic element that is liquid at standard temperature and pressure.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the name of the first human-made object to reach interstellar space?",
+    "Options": [
+      "A) Pioneer 10",
+      "B) Voyager 1",
+      "C) Hubble",
+      "D) Mars Rover"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Voyager 1 was launched in 1977 and entered interstellar space in 2012.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of these is a communication satellite?",
+    "Options": [
+      "A) INSAT",
+      "B) Chandrayaan",
+      "C) Mars Orbiter",
+      "D) Hubble"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "INSAT (Indian National Satellite) is a series of multi-purpose geostationary satellites for telecommunications and broadcasting.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the study of the universe beyond Earth's atmosphere called?",
+    "Options": [
+      "A) Geology",
+      "B) Astronomy",
+      "C) Meteorology",
+      "D) Biology"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Astronomy is the natural science that studies celestial objects and phenomena.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Who developed the Theory of Relativity?",
+    "Options": [
+      "A) Isaac Newton",
+      "B) Albert Einstein",
+      "C) Galileo",
+      "D) Marie Curie"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Albert Einstein developed the theories of special and general relativity.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Discoveries",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are the three states of matter?",
+    "Options": [
+      "A) Solid, liquid, and gas",
+      "B) Hot, cold, and warm",
+      "C) Metal, plastic, and wood",
+      "D) Hard, soft, and liquid"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Matter exists in three primary states: solid, liquid, and gas (ignoring plasma for this level).",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which invention revolutionized the printing industry?",
+    "Options": [
+      "A) Typewriter",
+      "B) Printing Press",
+      "C) Computer",
+      "D) Photocopier"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Johannes Gutenberg's invention of the printing press in the 15th century made books accessible.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which is the hardest natural substance on Earth?",
+    "Options": [
+      "A) Gold",
+      "B) Diamond",
+      "C) Iron",
+      "D) Granite"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Diamond, a form of carbon, is the hardest naturally occurring mineral.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which space agency is from India?",
+    "Options": [
+      "A) NASA",
+      "B) ESA",
+      "C) ISRO",
+      "D) JAXA"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "ISRO stands for Indian Space Research Organisation.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which force prevents us from floating into space?",
+    "Options": [
+      "A) Magnetism",
+      "B) Gravity",
+      "C) Friction",
+      "D) Inertia"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Gravity is the force by which the Earth attracts objects toward its center.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does a barometer measure?",
+    "Options": [
+      "A) Wind speed",
+      "B) Temperature",
+      "C) Atmospheric pressure",
+      "D) Humidity"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A barometer is a scientific instrument used to measure atmospheric pressure.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions & Tools",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Who was the first human to step on the Moon?",
+    "Options": [
+      "A) Yuri Gagarin",
+      "B) Buzz Aldrin",
+      "C) Neil Armstrong",
+      "D) John Glenn"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Neil Armstrong was the commander of Apollo 11 and the first person to walk on the lunar surface.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What do we call a material that allows electricity to pass through it easily?",
+    "Options": [
+      "A) Insulator",
+      "B) Semiconductor",
+      "C) Conductor",
+      "D) Resistor"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Materials that allow electric current to flow freely, like copper or aluminum, are called conductors.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which part of the computer contains the hard drive and motherboard?",
+    "Options": [
+      "A) Monitor",
+      "B) Keyboard",
+      "C) System Unit (CPU Cabinet)",
+      "D) Mouse"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The system unit houses the internal components of a desktop computer.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does 'DNA' stand for in science?",
+    "Options": [
+      "A) Deoxyribonucleic Acid",
+      "B) Direct Nucleic Acid",
+      "C) Deoxyribo Nucleic Acid",
+      "D) Dual Nucleic Acid"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "DNA is a molecule that carries the genetic instructions for life.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which invention made it possible to see tiny microorganisms?",
+    "Options": [
+      "A) Telescope",
+      "B) Microscope",
+      "C) Periscope",
+      "D) Binoculars"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A microscope is an optical instrument used to view objects too small to be seen by the naked eye.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which planet is famous for its rings?",
+    "Options": [
+      "A) Jupiter",
+      "B) Saturn",
+      "C) Uranus",
+      "D) Neptune"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Saturn is widely known for the complex and extensive ring system surrounding it.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which gas is needed for a fire to burn?",
+    "Options": [
+      "A) Carbon Dioxide",
+      "B) Nitrogen",
+      "C) Oxygen",
+      "D) Helium"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Oxygen is one of the three requirements (along with fuel and heat) for combustion.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary source of energy for Earth?",
+    "Options": [
+      "A) Moon",
+      "B) Wind",
+      "C) Sun",
+      "D) Geothermal heat"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Sun provides the energy that supports life and drives weather patterns on Earth.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Energy",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which device is used to convert sunlight directly into electricity?",
+    "Options": [
+      "A) Wind turbine",
+      "B) Solar panel",
+      "C) Battery",
+      "D) Generator"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Solar panels (photovoltaic cells) convert solar radiation into electricity.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which scientist is known for discovering radium and polonium?",
+    "Options": [
+      "A) Albert Einstein",
+      "B) Marie Curie",
+      "C) Isaac Newton",
+      "D) Galileo"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Marie Curie was a pioneer in research on radioactivity and discovered two elements.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Discoveries",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the boiling point of water at sea level?",
+    "Options": [
+      "A) 90°C",
+      "B) 100°C",
+      "C) 110°C",
+      "D) 80°C"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Water boils at 100°C (212°F) under standard atmospheric pressure.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of mirror is used in a car's side-view mirror?",
+    "Options": [
+      "A) Plane mirror",
+      "B) Concave mirror",
+      "C) Convex mirror",
+      "D) Cylindrical mirror"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Convex mirrors provide a wider field of view, helping drivers see traffic behind them.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the name of the galaxy containing our Solar System?",
+    "Options": [
+      "A) Andromeda",
+      "B) Milky Way",
+      "C) Sombrero",
+      "D) Whirlpool"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Our solar system is located within the Milky Way galaxy.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which invention allows for the wireless transmission of voice and data?",
+    "Options": [
+      "A) Radio",
+      "B) Television",
+      "C) Telegraph",
+      "D) Microchip"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Radio technology enables the transmission of audio signals through electromagnetic waves.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the main component of Earth's atmosphere?",
+    "Options": [
+      "A) Oxygen",
+      "B) Carbon Dioxide",
+      "C) Nitrogen",
+      "D) Hydrogen"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Nitrogen makes up approximately 78% of Earth's atmosphere.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which device acts as a brain for a robot?",
+    "Options": [
+      "A) Motor",
+      "B) Microcontroller",
+      "C) Battery",
+      "D) Sensor"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A microcontroller is a small computer on a single integrated circuit that controls the robot's actions.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is a 'light-year' a measurement of?",
+    "Options": [
+      "A) Time",
+      "B) Brightness",
+      "C) Distance",
+      "D) Energy"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A light-year is the distance that light travels in one year, used to measure interstellar distances.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which invention is credited to Benjamin Franklin?",
+    "Options": [
+      "A) Telephone",
+      "B) Lightning rod",
+      "C) Light bulb",
+      "D) Airplane"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Benjamin Franklin invented the lightning rod to protect buildings from lightning strikes.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Inventions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which of these is a source of renewable energy?",
+    "Options": [
+      "A) Natural gas",
+      "B) Coal",
+      "C) Wind energy",
+      "D) Petroleum"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Wind energy is considered renewable because it is naturally replenished on a human timescale.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Energy",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the process of water changing into steam?",
+    "Options": [
+      "A) Condensation",
+      "B) Evaporation",
+      "C) Freezing",
+      "D) Sublimation"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Evaporation is the transition of a substance from a liquid to a gas state.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which telescope is known for taking deep space images?",
+    "Options": [
+      "A) Hubble Space Telescope",
+      "B) Galileo telescope",
+      "C) Radio telescope",
+      "D) Binoculars"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The Hubble Space Telescope has provided some of the most detailed images of deep space.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Space Exploration",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which technology allows computers to store information indefinitely?",
+    "Options": [
+      "A) RAM",
+      "B) Hard Disk",
+      "C) CPU",
+      "D) Monitor"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A hard disk is a non-volatile storage device that retains data even when power is turned off.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which vitamin is made by our body when exposed to sunlight?",
+    "Options": [
+      "A) Vitamin C",
+      "B) Vitamin A",
+      "C) Vitamin D",
+      "D) Vitamin E"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The skin produces Vitamin D when exposed to ultraviolet radiation from the sun.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the study of the Earth's atmosphere called?",
+    "Options": [
+      "A) Meteorology",
+      "B) Geology",
+      "C) Astronomy",
+      "D) Biology"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Meteorology is the scientific study of the atmosphere that focuses on weather processes and forecasting.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Basic Science",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which invention made global communication instantaneous?",
+    "Options": [
+      "A) Internet",
+      "B) Printing Press",
+      "C) Steam Engine",
+      "D) Bicycle"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The Internet allows for the near-instantaneous exchange of information across the globe.",
+    "Topic": "Science and Technology",
+    "SubTopic": "Technology",
+    "Difficulty": "Foundation"
+  }
+]

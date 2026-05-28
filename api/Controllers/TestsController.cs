@@ -57,6 +57,17 @@ public class TestsController : ControllerBase
             }
         }
 
+        // Get past results to compute tier before
+        var pastResults = await _db.Results
+            .AsNoTracking()
+            .Where(r => r.UserId == user.UserId && r.TotalQuestions > 0)
+            .Select(r => new BadgeCalculator.ResultRow(r.UserId, r.Score, r.TotalQuestions, r.TimeTakenSeconds, r.CompletedAt, r.Paper != null ? r.Paper.Title ?? "" : "", r.Paper != null ? r.Paper.Subject ?? "" : ""))
+            .ToListAsync(ct);
+        var repCount = await _db.ReportedQuestions.CountAsync(r => r.UserId == user.UserId && r.Status == "Accepted", ct);
+        
+        var oldEarned = BadgeCalculator.ComputeBadges(pastResults, repCount).Count(b => b.Earned);
+        var oldTitle = BadgeCalculator.GetTitle(oldEarned, 24);
+
         var result = new MockTestResult
         {
             UserId = user.UserId,
@@ -112,6 +123,25 @@ public class TestsController : ControllerBase
         await _db.SaveChangesAsync(ct);
 
         await _mastery.UpdateFromAttemptAsync(user.UserId, paper.Subject ?? "", questions, req.Answers, ct);
+
+        // Compute tier after
+        var newResultRow = new BadgeCalculator.ResultRow(user.UserId, score, questions.Count, req.TimeTakenSeconds, DateTime.UtcNow, paper.Title ?? "", paper.Subject ?? "");
+        pastResults.Add(newResultRow);
+        
+        var newEarned = BadgeCalculator.ComputeBadges(pastResults, repCount).Count(b => b.Earned);
+        var newTitle = BadgeCalculator.GetTitle(newEarned, 24);
+
+        if (newTitle != oldTitle && newTitle != "Newcomer")
+        {
+            _db.UserNotifications.Add(new UserNotification
+            {
+                UserId = user.UserId,
+                Title = "New Title Unlocked!",
+                Message = $"Congratulations! You have earned the prestigious {newTitle} title. Download your official certificate in the Achievements panel.",
+                CreatedAt = DateTime.UtcNow
+            });
+            await _db.SaveChangesAsync(ct);
+        }
 
         return Ok(new
         {

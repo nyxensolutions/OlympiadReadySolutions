@@ -1,0 +1,702 @@
+﻿[
+  {
+    "QuestionText": "What is a grid-based file application used to organize, calculate, analyze, and store numerical data in rows and columns called?",
+    "Options": [
+      "A) Word Processor",
+      "B) Spreadsheet / MS Excel",
+      "C) Presentation Software",
+      "D) Database Engine"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "MS Excel is a dedicated spreadsheet application designed to structure data into grid layouts for calculation and tracking.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "In MS Excel, what are individual grid boxes formed by the intersection of a vertical column and a horizontal row called?",
+    "Options": [
+      "A) Tabs",
+      "B) Ribbons",
+      "C) Cells",
+      "D) Labels"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A cell is the fundamental unit of a spreadsheet where text numbers or formula scripts are entered.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How are vertical lines of cells labeled across an MS Excel spreadsheet layout?",
+    "Options": [
+      "A) By Numbers (1, 2, 3...)",
+      "B) By Letters (A, B, C...)",
+      "C) By Symbols (#, $, %...)",
+      "D) By Roman Numerals (I, II, III...)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Columns run vertically in a spreadsheet and are identified by letters running along the top header bar.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How are horizontal rows identified along the left-hand margin side of an MS Excel workspace grid?",
+    "Options": [
+      "A) By Alphabetical Letters",
+      "B) By Colors",
+      "C) By Numbers",
+      "D) By Functional Keywords"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Rows traverse the grid horizontally and are indexed using integers starting from 1 down the left edge.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the correct cell address name for a cell located precisely in Column G and Row 15?",
+    "Options": [
+      "A) 15G",
+      "B) G-15",
+      "C) G15",
+      "D) $15$G"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A cell address is always declared by naming its column letter first, followed immediately by its row number.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Cell Referencing",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What special marker indicator distinguishes the currently selected cell from other cells, showing a thick green outline perimeter?",
+    "Options": [
+      "A) Passive Cell Indicator",
+      "B) Formula Bar Frame",
+      "C) Active Cell / Cell Pointer",
+      "D) Grid Marker Link"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The cell that is currently highlighted and ready to receive keyboard input is called the active cell.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Where can you look at the top of the Excel window to see the actual underlying formula math calculation or full text string typed inside the active cell?",
+    "Options": [
+      "A) Status Bar",
+      "B) Title Bar",
+      "C) Formula Bar",
+      "D) Sheet Tab Tray"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Formula Bar displays the content or functional expression running inside the active cell workspace.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the name of the small box located to the left of the Formula Bar that shows the reference address of the active cell (e.g., A1)?",
+    "Options": [
+      "A) Address Bar",
+      "B) Name Box",
+      "C) Status indicator",
+      "D) Grid Pointer Box"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Name Box identifies the active cell reference address or designated custom group name parameters.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the file name given to a standalone Microsoft Excel document, which can contain one or more individual grid sheets?",
+    "Options": [
+      "A) Workbook",
+      "B) Document file",
+      "C) Slide Show deck",
+      "D) Database Table"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "An Excel file is classified as a Workbook. A workbook contains individual sheets called Worksheets.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "By default, what standard file extension code identifier maps to a modern spreadsheet file saved in Microsoft Excel?",
+    "Options": [
+      "A) .docx",
+      "B) .pptx",
+      "C) .xlsx",
+      "D) .txt"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": ".xlsx is the default XML-based file compression extension format for Excel workbooks.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Every formula calculation entry typed into an Excel cell must absolutely start with which special mathematical symbol?",
+    "Options": [
+      "A) Plus Sign (+)",
+      "B) Equal Sign (=)",
+      "C) Dollar Sign ($)",
+      "D) Asterisk (*)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The equal sign (=) informs Excel that the succeeding characters are a functional formula script rather than plain text.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What built-in function should you use if you want to instantly add up all the numerical values in a long column of cells from B1 down through B20?",
+    "Options": [
+      "A) =ADD(B1:B20)",
+      "B) =TOTAL(B1-B20)",
+      "C) =SUM(B1:B20)",
+      "D) =COUNT(B1+B20)"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The SUM function aggregates all numeric inputs across a designated cell range parameter.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "In an Excel formula, what does the colon symbol (:) placed between two cell names indicate (such as A1:A10)?",
+    "Options": [
+      "A) It divides cell A1 by cell A10.",
+      "B) It designates a continuous range of cells starting from cell A1 all the way through cell A10.",
+      "C) It hides the selected row parameters.",
+      "D) It multiplies the values inside those two boxes."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A colon indicates a range selector spanning from the upper-left cell address reference to the lower-right cell address reference.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Cell Referencing",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which Excel formula correctly calculates the mathematical average of the numbers stored within cells C1, C2, C3, and C4?",
+    "Options": [
+      "A) =MEAN(C1:C4)",
+      "B) =AVERAGE(C1:C4)",
+      "C) =SUM_DIVIDE(C1-C4)",
+      "D) =AVG(C1:C4)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Excel uses the full word =AVERAGE() to return the arithmetic mean of given inputs.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If you want to find the lowest or smallest test score recorded in a grid column range spanning from E2 to E40, which function tool will look it up?",
+    "Options": [
+      "A) =LOW(E2:E40)",
+      "B) =MIN(E2:E40)",
+      "C) =SMALL(E2+E40)",
+      "D) =BOTTOM(E2:E40)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The MIN function evaluates an argument range and outputs the absolute minimum numerical value.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What function is designed to scan a targeted block range and return the largest or highest value present inside those cells?",
+    "Options": [
+      "A) =MAX(D1:D10)",
+      "B) =HIGH(D1:D10)",
+      "C) =LARGEST(D1:D10)",
+      "D) =TOP(D1:D10)"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "=MAX() yields the peak numerical item within the parameters provided.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which basic arithmetic operator symbol represents multiplication tasks when writing math rules in Excel?",
+    "Options": [
+      "A) An 'x' character",
+      "B) An Asterisk (*)",
+      "C) A Forward Slash (/)",
+      "D) A Carat symbol (^)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The asterisk (*) acts as the mathematical multiplier character standard inside digital spreadsheets.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What mathematical operator character is used inside an Excel formula to perform numerical division calculations?",
+    "Options": [
+      "A) Backslash (\\)",
+      "B) Forward Slash (/)",
+      "C) Percentage Sign (%)",
+      "D) Division symbol (÷)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The forward slash (/) handles fractional arithmetic operations inside an equation block.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "What will happen if you type the characters '10 + 5' into cell A1 without an equal sign, and hit the Enter key?",
+    "Options": [
+      "A) Excel calculates the answer and outputs the number 15.",
+      "B) Excel breaks the column alignment parameters.",
+      "C) The cell displays the exact plain text string '10 + 5' without executing any math calculation.",
+      "D) A popup error box warns you of an illegal input type."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Without a leading equal sign, Excel treats the contents as literal alphanumeric text labels and avoids mathematical parsing.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Suppose cell A1 contains the value 20, and cell B1 contains the value 5. If you enter the formula script '=A1/B1' inside cell C1, what numerical answer will resolve?",
+    "Options": [
+      "A) 100",
+      "B) 25",
+      "C) 4",
+      "D) 15"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The equation divides the value in A1 (20) by B1 (5), resulting in a value of 4.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What visual error flag notification appears inside an Excel cell if a column is too narrow to display a large number inside it?",
+    "Options": [
+      "A) #NAME?",
+      "B) #REF!",
+      "C) #VALUE!",
+      "D) #####"
+    ],
+    "CorrectAnswer": "D",
+    "Explanation": "A string of hash signs indicates that the cell column layout width is too thin to properly display the current numeric value format.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does a '#VALUE!' error code warning mean when it appears inside an Excel cell after finishing an equation?",
+    "Options": [
+      "A) The column width size parameter needs expanding.",
+      "B) The formula contains a typo in a functional name rule.",
+      "C) The formula is trying to perform math operations using incompatible data types (like trying to add a number to a plain text word).",
+      "D) The sheet contains hidden cell columns."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A value error signals a data type conflict, such as attempting a mathematical calculation on a text word string.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What handy mouse drag tool lets you duplicate a formula or number sequence down into adjacent grid boxes instantly, accessible by clicking the bottom right corner of an active cell?",
+    "Options": [
+      "A) AutoSum Box",
+      "B) Fill Handle (small square box)",
+      "C) Name Box menu",
+      "D) Range Anchor toggle"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Fill Handle is the small square in the corner of the active cell box that automates copying formulas or iterating series when dragged.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What function counts the total quantity of cells within a specified range that contain numerical data values, ignoring empty boxes or text words?",
+    "Options": [
+      "A) =SUM()",
+      "B) =COUNT()",
+      "C) =COMPUTE()",
+      "D) =NUMBER()"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The COUNT function returns the total count of cells within a given range that contain numeric values.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which command button group on the Home Tab allows you to merge multiple selected cell compartments into one wide box and align the text dead center?",
+    "Options": [
+      "A) Conditional Formatting",
+      "B) Wrap Text",
+      "C) Merge & Center",
+      "D) Format Painter"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "'Merge & Center' combines selected cells into a unified cell block and centers the text alignment.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the purpose of the 'Wrap Text' feature in MS Excel?",
+    "Options": [
+      "A) It encrypts password properties onto data sheets.",
+      "B) It forces long text strings that overflow a single cell width boundary to display across multiple lines within that same cell window.",
+      "C) It translates text parameters into dynamic numerical data sets.",
+      "D) It clears text alignments out of cell borders."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Wrap Text adjusts the height of a row to wrap long text onto multiple lines within a single cell, keeping it visible without overflowing into neighboring columns.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which component along the bottom edge area of an Excel window displays clickable sheet name flags, letting you add or switch between unique data grids inside the same workbook?",
+    "Options": [
+      "A) Status Bar dock",
+      "B) Sheet Tabs tray",
+      "C) Formula line panel",
+      "D) Ribbon menu dock"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Sheet Tabs allow you to switch between individual worksheets within the same workbook file container.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What visual tool allows you to convert plain cell numbers into colorful graphical illustrations (like columns, pie slices, or trend lines) to make reports easy to understand?",
+    "Options": [
+      "A) SmartArt matrix",
+      "B) WordArt shapes",
+      "C) Charts / Graphs (under Insert Tab)",
+      "D) Tables styles"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Charts convert abstract data rows into visual diagrams to simplify data analysis and reporting.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Charts & Visualization",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of chart layout uses vertical rectangular bars to compare individual data points across different categories side-by-side?",
+    "Options": [
+      "A) Line Chart",
+      "B) Pie Chart",
+      "C) Column / Bar Chart",
+      "D) Scatter plot"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Column charts use vertical bars to show category tracking balances over set metric divisions.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Charts & Visualization",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which chart style is ideal for tracking continuous data changes and stock trend movements over long increments of time (such as mapping monthly rainfall over a year)?",
+    "Options": [
+      "A) Pie Chart",
+      "B) Line Chart",
+      "C) Bar Chart",
+      "D) Legend Matrix"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Line charts connect individual data coordinates over a time baseline, making them ideal for tracking trends and patterns.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Charts & Visualization",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What chart asset component provides a color-coded reference key list explaining exactly what data set each colored bar or line graph represents?",
+    "Options": [
+      "A) Axis labels",
+      "B) Gridlines",
+      "C) Legend",
+      "D) Data Labels"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Legend serves as a visual key, matching chart colors or patterns to their respective data series labels.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Charts & Visualization",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What key sequence can a user tap to instantly select every single cell column and row layout zone across an active Excel sheet simultaneously?",
+    "Options": [
+      "A) Ctrl + S",
+      "B) Ctrl + A",
+      "C) Ctrl + F",
+      "D) Ctrl + Spacebar"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + A triggers the 'Select All' function, highlighting the entire active worksheet grid layer.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "Which Excel tool feature lets you isolate data by hiding rows that do not match a specific criteria (like viewing only students who scored higher than 90% while hiding the rest)?",
+    "Options": [
+      "A) Sort tool",
+      "B) Conditional styles",
+      "C) Filter tool (under Data Tab)",
+      "D) Freeze panes link"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Filters hide rows that do not meet your specified criteria, letting you isolate specific subsets of data temporarily.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Management",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "What is the key difference between the 'Sorting' tool and the 'Filtering' tool in MS Excel?",
+    "Options": [
+      "A) Sorting deletes records, while filtering edits formulas.",
+      "B) Sorting rearranges the order of your rows (like alphabetical A to Z); filtering hides rows that do not match specific criteria.",
+      "C) Filtering changes numbers into chart slices.",
+      "D) There is no structural difference between them."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Sorting reorders rows based on specific values (e.g., chronological or alphabetical order), whereas filtering hides rows that do not match your criteria.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Management",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "If you want to keep the top heading row of your huge spreadsheet frozen in place so it stays visible at the top of your screen while you scroll deep down through thousands of rows, what tool should you click?",
+    "Options": [
+      "A) Wrap Text line",
+      "B) Split grid",
+      "C) Freeze Panes (under View Tab)",
+      "D) Filter rows"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Freeze Panes locks rows or columns in place, keeping your headers visible while you scroll through distant regions of a worksheet.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Management",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "By default, text data (like names or words) typed into a cell automatically aligns to which side of the cell box boundary?",
+    "Options": [
+      "A) Right side alignment",
+      "B) Center alignment",
+      "C) Left side alignment",
+      "D) Justified fill alignment"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "By default, text values align to the left cell margin, while numbers align to the right side.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty :": "Intermediate"
+  },
+  {
+    "QuestionText": "By default, pure numerical numbers typed into an Excel cell automatically align to which side of the box container?",
+    "Options": [
+      "A) Left side alignment",
+      "B) Right side alignment",
+      "C) Center alignment",
+      "D) Bottom margin alignment"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Numbers automatically align to the right side of a cell to make it easier to read decimal points and values down a column.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty :": "Intermediate"
+  },
+  {
+    "QuestionText": "What keyboard shortcut sequence acts as a quick command to instantly toggle the Number format of a cell to display as currency (adding a $ sign and decimal points)?",
+    "Options": [
+      "A) Ctrl + Shift + $",
+      "B) Ctrl + Alt + C",
+      "C) Shift + F3",
+      "D) Ctrl + 4"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Pressing Ctrl + Shift + $ applies the Currency format to the selected cells, including a currency symbol and two decimal places.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "What powerful formatting feature automatically applies a color background style (like turning cells bright red) *only* if the cell value meets a certain condition?",
+    "Options": [
+      "A) Manual color bucket fill",
+      "B) Conditional Formatting",
+      "C) AutoFormat Master template",
+      "D) Format Painter brush"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Conditional Formatting changes a cell's appearance (such as font or fill color) based on user-defined rules and values.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "What happens if a user selects cell A1, which has a formula in it, and taps the 'F2' key on a Windows keyboard?",
+    "Options": [
+      "A) The entire workbook file saves itself automatically.",
+      "B) Cell A1 switches into Edit Mode, putting the cursor inside the cell to let you change the formula text directly.",
+      "C) The column width scales wider.",
+      "D) The worksheet resets into a blank page format."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Pressing F2 opens the active cell for in-cell editing, placing the insertion point cursor at the end of its content.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty :": "Intermediate"
+  },
+  {
+    "QuestionText": "If cell reference addresses change automatically when you use the fill handle to copy a formula down to new rows, what type of cell reference are you using?",
+    "Options": [
+      "A) Absolute Cell Reference",
+      "B) Relative Cell Reference",
+      "C) Locked Reference link",
+      "D) Static coordinate reference"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Relative cell references automatically adjust their addresses when copied to a new location, shifting rows or columns relative to their new position.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Cell Referencing",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "What type of cell reference uses dollar signs (like $A$1) to lock a specific cell address in place so that it stays fixed and never changes when the formula is copied?",
+    "Options": [
+      "A) Relative Cell Reference",
+      "B) Dynamic Range Reference",
+      "C) Absolute Cell Reference",
+      "D) Binary Anchor Reference"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Absolute cell references use dollar signs ($A$1) to lock the column letter and row number, ensuring the formula always points to that exact cell when copied.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Cell Referencing",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "Which function key can be pressed while typing a cell address in a formula bar to automatically insert absolute dollar signs ($) around the row and column coordinates?",
+    "Options": [
+      "A) F1 key",
+      "B) F2 key",
+      "C) F4 key",
+      "D) F9 key"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Pressing F4 while a cell reference is selected cycles through relative, absolute, and mixed referencing modes ($A$1, A$1, $A1).",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty :": "Advanced"
+  },
+  {
+    "QuestionText": "What quick ribbon button on the Home Tab automatically writes a complete summation formula (=SUM) for you based on the cells surrounding your active block selection?",
+    "Options": [
+      "A) AutoFill link",
+      "B) AutoSum button",
+      "C) Format Matrix panel",
+      "D) Smart calculation anchor"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The AutoSum button automatically detects adjacent rows or columns of numbers to build a standard SUM formula calculation.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Formulas & Functions",
+    "Difficulty :": "Intermediate"
+  },
+  {
+    "QuestionText": "Can an individual Excel worksheet contain both text label entries and numerical values inside the same data grid layout?",
+    "Options": [
+      "A) No, sheets are strictly restricted to hold numbers only.",
+      "B) No, text words can only be placed inside header notes blocks.",
+      "C) Yes, cells can hold text labels, numbers, dates, or functional equations interchangeably.",
+      "D) Yes, but text can only print out if no math calculations are running."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Excel cells are highly versatile and can store text labels, numbers, dates, boolean states, and complex formulas.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "What is the collective name given to the primary numerical math values plotted along the vertical side axis or horizontal bottom axis margins of a chart layout grid?",
+    "Options": [
+      "A) Plot legends",
+      "B) Chart Titles",
+      "C) Axis Labels / Coordinates",
+      "D) Grid parameters"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Axis labels identify the data categories along the horizontal (X) axis and the measurement scales along the vertical (Y) axis.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Charts & Visualization",
+    "Difficulty :": "Intermediate"
+  },
+  {
+    "QuestionText": "What tool icon looks like a small paint bucket, used to color background fills inside selected cells to distinguish headers from data tables?",
+    "Options": [
+      "A) Font Color A",
+      "B) Fill Color bucket",
+      "C) Border Pen grid",
+      "D) Style theme swatch"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Fill Color button (paint bucket icon) applies background colors to individual cells or ranges to highlight data trends or headers.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "What quick keyboard shortcut combination toggles the text formatting inside a selected cell block to turn bold?",
+    "Options": [
+      "A) Ctrl + B",
+      "B) Ctrl + I",
+      "C) Ctrl + U",
+      "D) Ctrl + 2"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Ctrl + B toggles the bold formatting style on and off for the text or numbers inside the selected cell range.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "What will happen to your worksheet data tables if you delete a Workbook file container from a hard drive directory?",
+    "Options": [
+      "A) Only the first sheet page is lost.",
+      "B) The file application scales into the cloud environment.",
+      "C) The workbook and all its nested worksheets are completely deleted from the drive space.",
+      "D) Text data converts to raw image formats."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Deleting a workbook file completely removes the parent container, including all the sheets and charts stored inside it.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Excel Basics",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary function of the 'Format Painter' tool when used across cells in MS Excel?",
+    "Options": [
+      "A) It copies the numerical mathematical values inside a cell to a new cell.",
+      "B) It copies the formatting design styles (like borders, font colors, and cell fills) from one cell and paints them onto another without changing the data values.",
+      "C) It deletes cell formula rules instantly.",
+      "D) It draws trend lines across your column charts."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Format Painter copies stylistic formatting choices (such as custom fonts, borders, and backgrounds) and applies them to a new target cell without overwriting its values.",
+    "Topic": "Introduction to MS Excel",
+    "SubTopic": "Data Formatting",
+    "Difficulty :": "Intermediate"
+  }
+]

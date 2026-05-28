@@ -20,7 +20,7 @@ public class ReportsController : ControllerBase
         _users = users;
     }
 
-    public record SubmitReportRequest(Guid QuestionBankId, string Category, string Description);
+    public record SubmitReportRequest(string? QuestionBankId, string Category, string Description, string? QuestionText);
 
     [HttpPost]
     [Authorize]
@@ -28,12 +28,24 @@ public class ReportsController : ControllerBase
     {
         var user = await _users.GetOrSyncAsync(User, ct);
         
+        Guid qId = Guid.Empty;
+        if (!string.IsNullOrWhiteSpace(req.QuestionBankId) && Guid.TryParse(req.QuestionBankId, out var parsed))
+        {
+            qId = parsed;
+        }
+
+        var finalDesc = req.Description;
+        if (!string.IsNullOrWhiteSpace(req.QuestionText))
+        {
+            finalDesc += $"\n\n[Question Text]:\n{req.QuestionText}";
+        }
+        
         var report = new ReportedQuestion
         {
             UserId = user.UserId,
-            QuestionBankId = req.QuestionBankId,
+            QuestionBankId = qId,
             Category = req.Category,
-            Description = req.Description,
+            Description = finalDesc.Length > 1000 ? finalDesc[..1000] : finalDesc,
             Status = "Pending"
         };
         

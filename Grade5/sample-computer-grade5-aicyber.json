@@ -1,0 +1,702 @@
+﻿[
+  {
+    "QuestionText": "What do we call the field of computer science that focuses on creating smart machines capable of mimicking human intelligence, learning from experiences, and making decisions?",
+    "Options": [
+      "A) Quantum Computing",
+      "B) Artificial Intelligence (AI)",
+      "C) Core Hardware Assembly",
+      "D) Database Indexing"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Artificial Intelligence (AI) is the branch of technology dedicated to building systems that simulate human cognitive processes like reasoning, learning, and problem-solving.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What specific subfield of AI focuses on training computers to automatically learn patterns from large sets of data over time without being explicitly programmed for every step?",
+    "Options": [
+      "A) Word Processing",
+      "B) Machine Learning (ML)",
+      "C) Spreadsheet Formatting",
+      "D) Optical Disc Burning"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Machine Learning is an application of AI where algorithms analyze data patterns to improve their performance on tasks dynamically over time.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What historic test, named after a famous mathematician, evaluates whether an artificial system can mimic human conversational responses closely enough to fool a human evaluator?",
+    "Options": [
+      "A) Pascal Test",
+      "B) Turing Test",
+      "C) Analytical Engine Run",
+      "D) Moore Test"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Turing Test, proposed by Alan Turing, assesses a machine's ability to demonstrate intelligent behavior indistinguishable from that of a human.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What kind of advanced AI system is explicitly designed to generate entirely new content, such as typing essays, painting original digital pictures, or composing music files?",
+    "Options": [
+      "A) Legacy Operating Systems",
+      "B) Generative AI",
+      "C) Command Line Interpreters",
+      "D) Database Warehouses"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Generative AI models are trained on vast datasets to create original outputs like text, imagery, video, or audio based on user prompts.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What are the text instructions, questions, or descriptions that a user types into a Generative AI tool to tell it what to create called?",
+    "Options": [
+      "A) Prompts",
+      "B) Hyperlinks",
+      "C) Variables",
+      "D) Shortcuts"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "A prompt is the textual or conceptual input provided to an AI model to guide its generation of specific text, images, or code.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When an AI computer vision system looks at a digital photograph and correctly tags a pet as a 'dog' rather than a 'cat', what task is it performing?",
+    "Options": [
+      "A) Text Synthesis",
+      "B) Image Classification / Recognition",
+      "C) Audio Pitch Scaling",
+      "D) Spreadsheet Sortation"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Image classification trains AI systems to scan visual pixel matrices and categorize recognized objects into labeled classes based on learned visual features.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Applications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What term describes the massive volumes of structural or unstructured information that AI systems must study and analyze to learn how to recognize objects or translate languages?",
+    "Options": [
+      "A) Driver Extensions",
+      "B) Training Data",
+      "C) System Shortcuts",
+      "D) Peripheral Ports"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Training data provides the essential foundational learning baseline that AI algorithms ingest to discover statistical relationships and optimize their logic patterns.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of the following technological innovations utilizes integrated AI sensors and cameras to navigate safely through streets without a human driver steering?",
+    "Options": [
+      "A) Mechanical Typewriter",
+      "B) Autonomous / Self-Driving Car",
+      "C) Standard Desktop Printer",
+      "D) Flatbed Scanner Unit"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Autonomous vehicles rely heavily on computer vision, deep neural networks, and real-time AI spatial analysis to chart navigation tracks and execute steering controls safety.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Applications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of smart assistant technology uses AI natural language processing to listen to your voice commands, understand what you said, and check the weather for you?",
+    "Options": [
+      "A) Voice-Activated Virtual Assistants (e.g., Siri, Alexa)",
+      "B) Optical Character Scanners",
+      "C) Disk Defragmenter Utilities",
+      "D) Matrix Printer Buffers"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Smart voice assistants rely on AI voice recognition and NLP (Natural Language Processing) to translate spoken waveforms into functional computer requests.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Applications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When online streaming platforms automatically suggest a new movie you might enjoy based on your past watch history, what type of AI system are they running?",
+    "Options": [
+      "A) File Compressor System",
+      "B) Recommendation Engine",
+      "C) Malware Sandbox",
+      "D) Operating System Kernel"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Recommendation engines utilize predictive machine learning algorithms to map user preferences and cross-reference behavioral data with relevant content catalogs.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Applications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What does the general umbrella term 'Cyber Security' mean in information technology?",
+    "Options": [
+      "A) The method of speeding up internet download connections.",
+      "B) The practice of protecting internet-connected systems, networks, programs, and data from digital attacks or unauthorized access.",
+      "C) The physical design process of motherboard cases.",
+      "D) The science of translating documents into alternative languages."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Cyber Security encompasses the strategies, defensive tools, and protocols deployed to defend computing systems, data assets, and identities from malicious exploitation.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What catch-all word describes any type of malicious software intentionally designed by hackers to damage, disrupt, or steal data from a computer (including viruses, worms, and spyware)?",
+    "Options": [
+      "A) Hardware",
+      "B) Firmware",
+      "C) Malware",
+      "D) Shareware"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Malware is an abbreviation for 'malicious software'. It represents the broader technical category for destructive digital programs like ransomware, trojans, and adware.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What specific type of malware replicates itself automatically across a computer storage drive and attaches itself to healthy files, spreading from system to system when users share infected files?",
+    "Options": [
+      "A) Computer Virus",
+      "B) System Driver",
+      "C) Monitor Glare",
+      "D) Cache Registry"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "A computer virus is a self-replicating form of malware that injects its destructive payload code inside host applications, spreading further when those executables are shared.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of dangerous malware locks a user out of their own computer files by encrypting them, then displays a screen demanding a cash payment to restore access?",
+    "Options": [
+      "A) Adware",
+      "B) Ransomware",
+      "C) Spyware",
+      "D) Bloatware"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ransomware holds computer systems hostage by encrypting data volumes and demanding a financial extortion payout in exchange for a decryption key.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is a deceptive cyber trick where hackers send fake emails pretending to be from trusted sources (like a bank or your school) to lure you into typing your password or credit card info?",
+    "Options": [
+      "A) Phishing",
+      "B) Formatting",
+      "C) Defragmenting",
+      "D) Backing up"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Phishing is a social engineering attack vector that constructs fraudulent communications to trick recipients into compromising critical credentials or secrets.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What defensive computer utility program should be kept updated constantly to scan your system storage drives, locate hidden malware, and safely quarantine or delete it?",
+    "Options": [
+      "A) Presentation Software",
+      "B) Antivirus / Anti-Malware Software",
+      "C) Media Player",
+      "D) Web Browser"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Antivirus software monitors system memory and storage vectors, matching files against signatures or behavioral profiles to catch and neutralize active threats.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which of the following options represents the absolute strongest, most secure password composition pattern according to modern cyber security rules?",
+    "Options": [
+      "A) 12345678",
+      "B) password123",
+      "C) MyCatSam",
+      "D) Tr3e$K1te#98xP"
+    ],
+    "CorrectAnswer": "D",
+    "Explanation": "A robust password should avoid common dictionary words and combine uppercase and lowercase characters, numeric integers, and unique special symbol flags ($ or #).",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Identity & Access Control",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What secondary security layer requires you to verify your identity twice—such as entering a standard password first, then typing in a temporary code texted to your phone?",
+    "Options": [
+      "A) Single Sign-On (SSO)",
+      "B) Multi-Factor Authentication (MFA) / 2FA",
+      "C) Data Compression",
+      "D) Network Topology Mapping"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "MFA enforces layered verification criteria, verifying a user identity by matching distinct credentials: something you know (password) and something you have (phone code tokens).",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Identity & Access Control",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What protocol indicator letters should you look for at the very beginning of a website's URL address link to verify that your data traffic connection is securely encrypted?",
+    "Options": [
+      "A) http://",
+      "B) ftp://",
+      "C) https://",
+      "D) smtp://"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The 'S' in HTTPS stands for Secure. It confirms that data exchanged between your client browser and the server travels through an encrypted SSL/TLS tunnel.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What visual padlocked symbol icon can you look for inside a web browser's address search bar to confirm a website uses an encrypted link?",
+    "Options": [
+      "A) A red warning exclamation mark",
+      "B) A small green or gray padlock icon",
+      "C) A blue looping refresh circle",
+      "D) A yellow star banner"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The browser padlock icon indicates that the active connection to the domain is secured by a valid SSL/TLS certificate, protecting inputs from man-in-the-middle snooping.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If a sketchy pop-up ad flashes on your screen claiming your computer is infected with 50 viruses and tells you to 'click here' to download a free cleaner, what should you do?",
+    "Options": [
+      "A) Click the button immediately to fix your computer.",
+      "B) Type your email and home address to receive help.",
+      "C) Do not click it. Close the browser tab or pop-up safely, as it is likely a malicious ad designed to drop malware.",
+      "D) Forward the link to all your friends."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Fake virus warnings are standard malvertising hooks designed to scare targets into installing malware payloads manually.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Why is it dangerous to connect your personal phone or school tablet to an open, public Wi-Fi network without a password (like at a random park or bus stop)?",
+    "Options": [
+      "A) Public Wi-Fi drains your device battery completely within minutes.",
+      "B) Open networks lack strong security, allowing hackers on that same network to easily intercept your unencrypted data traffic stream.",
+      "C) The network will physically break your device screen.",
+      "D) Public signals automatically delete your photos."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Unsecured public networks expose data traffic to snooping and packet sniffing by any other device connected to the same radio space.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What software security tool creates a protective barrier between your local computer network and the outside public Internet, inspecting traffic packets to block unapproved access?",
+    "Options": [
+      "A) Network Switch",
+      "B) Firewall",
+      "C) Word Processor Template",
+      "D) Graphics Processing Unit"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A firewall filters inbound and outbound network data packets based on predefined security rules to block unauthorized connections.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What basic precaution should you always take with your personal passwords to prevent unauthorized people from breaking into all your online profiles?",
+    "Options": [
+      "A) Share your passwords with all your close classmates.",
+      "B) Keep your passwords completely private and never use the same password across multiple different online accounts.",
+      "C) Write your passwords on a sticker and stick it to your computer monitor.",
+      "D) Change your password to your username so it is easy to recall."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Password secrecy and variety are vital. Reusing a single password leaves all linked accounts vulnerable if a single database suffers a data breach.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Identity & Access Control",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What kind of silent malware hides inside your computer operating system background to track your keystrokes, intercept online messages, and report your personal details back to a hacker?",
+    "Options": [
+      "A) Firm-ware",
+      "B) Spyware",
+      "C) Share-ware",
+      "D) Core-ware"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Spyware is built specifically to monitor user operations, capturing keystrokes, browsing trends, and sensitive profile credentials without authorization.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What does a 'Trojan Horse' mean in computer cyber security?",
+    "Options": [
+      "A) A hardware chip that accelerates game graphics.",
+      "B) A type of dangerous malware that disguises itself as a safe, legitimate program or game to trick you into downloading it.",
+      "C) A tool that organizes email inbox templates.",
+      "D) A dedicated server that backups network configuration files."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Borrowing from the historical myth, a Trojan Horse malware file misleads users by appearing as a harmless game or file, but unloads a malicious payload once executed.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the crucial cyber safety rule regarding downloading attachments or clicking inside email messages sent by a completely anonymous, unknown sender?",
+    "Options": [
+      "A) Open the file quickly to check if it contains prize money.",
+      "B) Delete or ignore the email without opening any attached files, as they could contain malicious malware or script triggers.",
+      "C) Forward the files to your teacher to inspect them.",
+      "D) Change your computer profile theme before running the download link."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Unsolicited email attachments are a primary distribution method for malware execution loops and phishing scripts. They should be handled with extreme caution.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the name of the security process that encodes your raw files and messages into scrambled, unreadable cipher text code so that unauthorized spies cannot read it?",
+    "Options": [
+      "A) Compression",
+      "B) Encryption",
+      "C) Defragmentation",
+      "D) Formatting"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Encryption converts readable plaintext into ciphertext using cryptographic algorithms, ensuring confidentiality during transmission.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Why is it important to regularly download security updates and system software patches for your operating system (like Windows, macOS, or iOS)?",
+    "Options": [
+      "A) Updates clean out dust from the physical cooling fans.",
+      "B) Patches fix known security vulnerabilities or coding bugs that hackers could exploit to hijack your machine.",
+      "C) Updates convert your local hard drive spaces into RAM memory.",
+      "D) Security patches change your computer's internet IP address."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Developers release patches to close software vulnerabilities. Neglecting updates leaves known entry points exposed to hackers.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of technical security program can safely create duplicate emergency copies of your files so you don't lose them if your primary drive is damaged by malware?",
+    "Options": [
+      "A) File Search Tool",
+      "B) Backup Utility",
+      "C) Presentation Slide",
+      "D) Spreadsheet Filter"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Regular backups provide redundancy, allowing users to restore clean data sets if their primary storage fails or gets encrypted by ransomware.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What kind of hardware or software vulnerability describes an unknown programming security flaw that developers haven't noticed yet, leaving zero days to fix it before hackers exploit it?",
+    "Options": [
+      "A) Legacy Loop",
+      "B) Zero-Day Vulnerability",
+      "C) Patch Core",
+      "D) Safe Sandbox"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A zero-day vulnerability is a software flaw that is exploited by attackers before the developer becomes aware of it or has time to issue a protective patch.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What unethical cyber activity involves unauthorized entry into an isolated corporate server array or computer system by bypassing digital security blocks?",
+    "Options": [
+      "A) Hacking",
+      "B) Debugging",
+      "C) Formatting",
+      "D) Rendering"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Hacking refers to the unauthorized exploitation of computer network or system boundaries to compromise data integrity, privacy, or access permissions.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What do we call ethical computer security professionals who use hacking techniques legally to test an organization's defenses and find security gaps before malicious hackers do?",
+    "Options": [
+      "A) Black-Hat Hackers",
+      "B) White-Hat Hackers / Ethical Hackers",
+      "C) Ransomware Developers",
+      "D) Script Kiddies"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "White-hat or ethical hackers perform authorized vulnerability testing on systems to identify and secure weak points before they can be exploited maliciously.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "If you are online playing a multiplayer game and another player starts asking for your real name, school location, or home address, what should you do?",
+    "Options": [
+      "A) Share the info so they can send you in-game currency gifts.",
+      "B) Do not share any personal details. Tell a trusted adult or guardian and report the suspicious user.",
+      "C) Give them a classmate's home address instead.",
+      "D) Invite them to visit your school building."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Protecting personally identifiable information (PII) is a fundamental rule of cyber safety. Suspicious data mining behavior should always be reported to adults.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of tracking data file do websites download into your local browser directory to remember your login status, customized themes, or track your online shopping cart?",
+    "Options": [
+      "A) Firewalls",
+      "B) Cookies",
+      "C) Patches",
+      "D) Kernels"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Cookies are small text data blocks dropped onto user browsers by web servers to maintain session persistence and save user preferences.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What specialized security utility program acts as a secure digital vault, keeping track of all your distinct online passwords and auto-filling them safely?",
+    "Options": [
+      "A) Document Publisher",
+      "B) Password Manager",
+      "C) File Compression Tool",
+      "D) Disk Optimizer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Password managers store encrypted credentials across cloud or local vaults, generating and auto-filling complex passwords safely to prevent credential reuse.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Identity & Access Control",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of security attack bombards a hosting network server with millions of fake data tracking requests simultaneously, overloading its hardware and crashing the website?",
+    "Options": [
+      "A) Phishing scam",
+      "B) Distributed Denial of Service (DDoS) Attack",
+      "C) Spyware installation",
+      "D) Data formatting run"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A DDoS attack leverages multiple compromised systems (a botnet) to flood a target server's bandwidth, rendering it unresponsive to legitimate traffic.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What component inside an AI network layout mimics the network structures of biological brain neurons to solve complex pattern classification problems?",
+    "Options": [
+      "A) Mechanical Bus Track",
+      "B) Artificial Neural Network (ANN)",
+      "C) Hard Drive Cylinder",
+      "D) Optical Laser Diode"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Artificial Neural Networks are computational models inspired by the structure of biological brains. They use interconnected node layers to process complex datasets and train AI models.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "When you use a text translator app to instantly convert a written sentence from English into Spanish, what AI domain subtopic is executing?",
+    "Options": [
+      "A) Graphics Rendering",
+      "B) Natural Language Processing (NLP)",
+      "C) Disk Formatting",
+      "D) Password Hashing"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Natural Language Processing (NLP) enables machines to read, break down, translate, and understand human languages contextually.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Applications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What ethical concern relates to an AI system outputting unfair or discriminatory answers because its training data was narrow, unbalanced, or filled with historical prejudices?",
+    "Options": [
+      "A) High Latency Delay",
+      "B) AI Bias",
+      "C) Malware Injection",
+      "D) Hardware Defect"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "AI bias occurs when training datasets contain historical disparities or narrow representations, causing the machine learning model to output skewed or unfair predictions.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What type of biometric authentication security system scans your unique physical fingerprint or facial map layout to unlock your computer profile?",
+    "Options": [
+      "A) Legacy Passcode",
+      "B) Biometric Identification / Authentication",
+      "C) Proxy Filtering",
+      "D) Shared Key Cryptography"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Biometrics leverage unique physiological characteristics—such as fingerprint ridges or facial metrics—to authenticate user identities.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Identity & Access Control",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What does a 'Worm' do that distinguishes it from a traditional standard computer virus?",
+    "Options": [
+      "A) A worm requires a human user to manually run an executable file to spread.",
+      "B) A worm is a self-replicating program that can automatically spread itself across network connections to infect other computers without any human action.",
+      "C) A worm can only exist on floppy disks.",
+      "D) A worm physically melts motherboard circuits."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Unlike viruses, which require human interaction to spread (like opening a file), computer worms are autonomous, self-replicating programs that travel directly across network vulnerabilities.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What term describes the dangerous digital trace footprint left behind on the internet whenever you upload photos, post comments, or register accounts?",
+    "Options": [
+      "A) System Cache",
+      "B) Digital Footprint",
+      "C) Core Parameter",
+      "D) Network Link"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A digital footprint is the permanent trail of data left behind by users' online activities, web history, and communications.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Cyber Security Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If your home network router's default administrative password is set to 'admin', why should your family change it immediately during initial configuration?",
+    "Options": [
+      "A) Leaving default passwords unchanged makes it incredibly easy for remote hackers to guess them and hijack the entire network.",
+      "B) Default words limit the bandwidth speed of the router.",
+      "C) The router will turn off every hour automatically.",
+      "D) It prevents wireless devices from locating the Wi-Fi signal."
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Hackers use automated scripts to scan for networks running standard factory-default credentials, making immediate custom changes critical for network security.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Identity & Access Control",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What technology encrypts your entire internet traffic data stream and masks your actual physical location by routing your connection through a secure private server tunnel?",
+    "Options": [
+      "A) HTTP Protocol",
+      "B) Virtual Private Network (VPN)",
+      "C) Domain Name System",
+      "D) Distributed Hub"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A VPN (Virtual Private Network) encapsulates and encrypts internet traffic data packets while masking user IP locations to preserve online privacy.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Defensive Measures",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What category of intrusive adware malware continuously throws irritating advertisement pop-up frames all over your computer screen while you work?",
+    "Options": [
+      "A) Spyware",
+      "B) Adware",
+      "C) Ransomware",
+      "D) Rootkits"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Adware is a type of malicious software that automatically generates unwanted revenue-driven pop-up advertisements on user screens.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of cyber security threat involves a malicious actor sitting in the middle of a communication link secretly spying on and modifying messages between two users?",
+    "Options": [
+      "A) Brute Force Attack",
+      "B) Man-in-the-Middle (MitM) Attack",
+      "C) Phishing Domain Campaign",
+      "D) Dictionary Word Scan"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A Man-in-the-Middle attack occurs when a hacker intercepts and alters communications between two parties who believe they are talking directly to each other.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "When an AI computer system reads handwriting characters from an envelope and translates them into digital text to route mail, what specific technology is it using?",
+    "Options": [
+      "A) Voice Pitch Modulation",
+      "B) Optical Character Recognition (OCR)",
+      "C) Password Encryption Matrix",
+      "D) Backup Restoration Array"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "OCR (Optical Character Recognition) utilizes AI image parsing algorithms to convert handwritten or printed text from images into machine-readable digital text formats.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Applications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What happens when an AI model outputs realistic-sounding but completely invented, factually incorrect information because of errors in its training weights or constraints?",
+    "Options": [
+      "A) Data Compression",
+      "B) AI Hallucination",
+      "C) Firewall Filter",
+      "D) Operating Boot"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "An AI hallucination occurs when a generative AI model generates false, illogical, or factually incorrect content confidently as if it were a factual truth.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "AI Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What type of attack involves a hacker guessing thousands of different password combinations every second using automated computer rules until they stumble onto the right one?",
+    "Options": [
+      "A) Phishing scam",
+      "B) Brute-Force Attack",
+      "C) Spyware tracking",
+      "D) Encryption lock"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A brute-force attack is a trial-and-error method where automated software runs through every possible alphanumeric combination to crack a password or encryption key.",
+    "Topic": "Introduction to AI & Cyber Security",
+    "SubTopic": "Threats & Malware",
+    "Difficulty": "Olympiad"
+  }
+]

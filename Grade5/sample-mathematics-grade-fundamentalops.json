@@ -1,0 +1,542 @@
+[
+  {
+    "QuestionText": "What is the sum of 45,678 and 23,456?",
+    "Options": ["A) 68,134", "B) 69,134", "C) 69,234", "D) 70,134"],
+    "CorrectAnswer": "B",
+    "Explanation": "45,678 + 23,456 = 69,134.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Subtract 12,345 from 50,000.",
+    "Options": ["A) 37,655", "B) 38,655", "C) 37,755", "D) 36,655"],
+    "CorrectAnswer": "A",
+    "Explanation": "50,000 - 12,345 = 37,655.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the product of 456 and 12?",
+    "Options": ["A) 5,472", "B) 5,372", "C) 5,572", "D) 4,472"],
+    "CorrectAnswer": "A",
+    "Explanation": "456 * 12 = 5,472.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Divide 1,200 by 25.",
+    "Options": ["A) 44", "B) 48", "C) 52", "D) 40"],
+    "CorrectAnswer": "B",
+    "Explanation": "1,200 / 25 = 48.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "According to the order of operations (BODMAS), what comes first?",
+    "Options": ["A) Addition", "B) Multiplication", "C) Brackets", "D) Subtraction"],
+    "CorrectAnswer": "C",
+    "Explanation": "BODMAS stands for Brackets, Orders, Division, Multiplication, Addition, and Subtraction.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 10 + 5 * 2?",
+    "Options": ["A) 30", "B) 25", "C) 20", "D) 15"],
+    "CorrectAnswer": "C",
+    "Explanation": "Multiply first: 5 * 2 = 10, then add: 10 + 10 = 20.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If you buy 5 items for $150 each, what is the total cost?",
+    "Options": ["A) $650", "B) $700", "C) $750", "D) $800"],
+    "CorrectAnswer": "C",
+    "Explanation": "5 * 150 = 750.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the remainder when 100 is divided by 9?",
+    "Options": ["A) 0", "B) 1", "C) 2", "D) 9"],
+    "CorrectAnswer": "B",
+    "Explanation": "100 / 9 = 11 with a remainder of 1.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Calculate: (20 - 5) * 3.",
+    "Options": ["A) 35", "B) 40", "C) 45", "D) 50"],
+    "CorrectAnswer": "C",
+    "Explanation": "Inside brackets first: 20 - 5 = 15, then 15 * 3 = 45.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 500 * 0?",
+    "Options": ["A) 500", "B) 50", "C) 0", "D) 1"],
+    "CorrectAnswer": "C",
+    "Explanation": "Any number multiplied by 0 is 0.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the sum of 125 and 275?",
+    "Options": ["A) 300", "B) 400", "C) 500", "D) 450"],
+    "CorrectAnswer": "B",
+    "Explanation": "125 + 275 = 400.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 850 minus 320?",
+    "Options": ["A) 530", "B) 540", "C) 630", "D) 430"],
+    "CorrectAnswer": "A",
+    "Explanation": "850 - 320 = 530.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Calculate 15 multiplied by 6.",
+    "Options": ["A) 80", "B) 85", "C) 90", "D) 100"],
+    "CorrectAnswer": "C",
+    "Explanation": "15 * 6 = 90.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 144 divided by 12?",
+    "Options": ["A) 10", "B) 11", "C) 12", "D) 14"],
+    "CorrectAnswer": "C",
+    "Explanation": "144 / 12 = 12.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the result of 2,500 + 1,200.",
+    "Options": ["A) 3,500", "B) 3,700", "C) 3,800", "D) 4,000"],
+    "CorrectAnswer": "B",
+    "Explanation": "2,500 + 1,200 = 3,700.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 1,000 minus 450?",
+    "Options": ["A) 550", "B) 650", "C) 450", "D) 500"],
+    "CorrectAnswer": "A",
+    "Explanation": "1,000 - 450 = 550.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 25 * 4?",
+    "Options": ["A) 50", "B) 75", "C) 100", "D) 125"],
+    "CorrectAnswer": "C",
+    "Explanation": "25 * 4 = 100.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 81 by 9.",
+    "Options": ["A) 7", "B) 8", "C) 9", "D) 10"],
+    "CorrectAnswer": "C",
+    "Explanation": "81 / 9 = 9.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 12 + 18 + 20?",
+    "Options": ["A) 40", "B) 50", "C) 60", "D) 48"],
+    "CorrectAnswer": "B",
+    "Explanation": "12 + 18 = 30; 30 + 20 = 50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Calculate 200 minus 125.",
+    "Options": ["A) 65", "B) 75", "C) 85", "D) 95"],
+    "CorrectAnswer": "B",
+    "Explanation": "200 - 125 = 75.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 7 * 8?",
+    "Options": ["A) 48", "B) 54", "C) 56", "D) 64"],
+    "CorrectAnswer": "C",
+    "Explanation": "7 * 8 = 56.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 64 divided by 8?",
+    "Options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "CorrectAnswer": "C",
+    "Explanation": "64 / 8 = 8.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Add 550 and 450.",
+    "Options": ["A) 900", "B) 1,000", "C) 1,100", "D) 950"],
+    "CorrectAnswer": "B",
+    "Explanation": "550 + 450 = 1,000.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Subtract 330 from 500.",
+    "Options": ["A) 170", "B) 180", "C) 270", "D) 160"],
+    "CorrectAnswer": "A",
+    "Explanation": "500 - 330 = 170.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 12 multiplied by 12?",
+    "Options": ["A) 124", "B) 144", "C) 164", "D) 134"],
+    "CorrectAnswer": "B",
+    "Explanation": "12 * 12 = 144.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 100 by 5.",
+    "Options": ["A) 15", "B) 20", "C) 25", "D) 50"],
+    "CorrectAnswer": "B",
+    "Explanation": "100 / 5 = 20.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 300 + 400 + 500?",
+    "Options": ["A) 1,100", "B) 1,200", "C) 1,300", "D) 1,000"],
+    "CorrectAnswer": "B",
+    "Explanation": "300 + 400 = 700; 700 + 500 = 1,200.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 500 minus 275?",
+    "Options": ["A) 225", "B) 235", "C) 325", "D) 275"],
+    "CorrectAnswer": "A",
+    "Explanation": "500 - 275 = 225.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 9 * 6?",
+    "Options": ["A) 45", "B) 54", "C) 63", "D) 72"],
+    "CorrectAnswer": "B",
+    "Explanation": "9 * 6 = 54.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 48 by 6.",
+    "Options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "CorrectAnswer": "C",
+    "Explanation": "48 / 6 = 8.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Add 1,250 and 750.",
+    "Options": ["A) 1,900", "B) 2,000", "C) 2,100", "D) 1,800"],
+    "CorrectAnswer": "B",
+    "Explanation": "1,250 + 750 = 2,000.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 600 minus 150?",
+    "Options": ["A) 350", "B) 450", "C) 550", "D) 400"],
+    "CorrectAnswer": "B",
+    "Explanation": "600 - 150 = 450.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Calculate 11 * 11.",
+    "Options": ["A) 111", "B) 121", "C) 131", "D) 141"],
+    "CorrectAnswer": "B",
+    "Explanation": "11 * 11 = 121.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 200 by 4.",
+    "Options": ["A) 40", "B) 50", "C) 60", "D) 25"],
+    "CorrectAnswer": "B",
+    "Explanation": "200 / 4 = 50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 45 + 55?",
+    "Options": ["A) 90", "B) 100", "C) 110", "D) 95"],
+    "CorrectAnswer": "B",
+    "Explanation": "45 + 55 = 100.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Subtract 80 from 200.",
+    "Options": ["A) 110", "B) 120", "C) 130", "D) 100"],
+    "CorrectAnswer": "B",
+    "Explanation": "200 - 80 = 120.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 8 * 9?",
+    "Options": ["A) 64", "B) 72", "C) 81", "D) 70"],
+    "CorrectAnswer": "B",
+    "Explanation": "8 * 9 = 72.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 56 by 7.",
+    "Options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "CorrectAnswer": "C",
+    "Explanation": "56 / 7 = 8.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 150 + 250?",
+    "Options": ["A) 300", "B) 400", "C) 500", "D) 350"],
+    "CorrectAnswer": "B",
+    "Explanation": "150 + 250 = 400.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 900 minus 400?",
+    "Options": ["A) 400", "B) 500", "C) 600", "D) 450"],
+    "CorrectAnswer": "B",
+    "Explanation": "900 - 400 = 500.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 13 multiplied by 3?",
+    "Options": ["A) 36", "B) 39", "C) 42", "D) 45"],
+    "CorrectAnswer": "B",
+    "Explanation": "13 * 3 = 39.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 30 by 3.",
+    "Options": ["A) 5", "B) 8", "C) 10", "D) 12"],
+    "CorrectAnswer": "C",
+    "Explanation": "30 / 3 = 10.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Add 75 and 25.",
+    "Options": ["A) 90", "B) 100", "C) 110", "D) 80"],
+    "CorrectAnswer": "B",
+    "Explanation": "75 + 25 = 100.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Subtract 15 from 100.",
+    "Options": ["A) 75", "B) 85", "C) 95", "D) 80"],
+    "CorrectAnswer": "B",
+    "Explanation": "100 - 15 = 85.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 5 * 5?",
+    "Options": ["A) 20", "B) 25", "C) 30", "D) 15"],
+    "CorrectAnswer": "B",
+    "Explanation": "5 * 5 = 25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 40 by 8.",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 8"],
+    "CorrectAnswer": "B",
+    "Explanation": "40 / 8 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 500 + 500?",
+    "Options": ["A) 900", "B) 1,000", "C) 1,100", "D) 800"],
+    "CorrectAnswer": "B",
+    "Explanation": "500 + 500 = 1,000.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Subtract 200 from 1,000.",
+    "Options": ["A) 700", "B) 800", "C) 900", "D) 600"],
+    "CorrectAnswer": "B",
+    "Explanation": "1,000 - 200 = 800.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 6 * 7?",
+    "Options": ["A) 36", "B) 42", "C) 48", "D) 54"],
+    "CorrectAnswer": "B",
+    "Explanation": "6 * 7 = 42.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 36 by 4.",
+    "Options": ["A) 7", "B) 8", "C) 9", "D) 10"],
+    "CorrectAnswer": "C",
+    "Explanation": "36 / 4 = 9.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Add 30 and 70.",
+    "Options": ["A) 90", "B) 100", "C) 110", "D) 80"],
+    "CorrectAnswer": "B",
+    "Explanation": "30 + 70 = 100.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 50 minus 25?",
+    "Options": ["A) 15", "B) 25", "C) 35", "D) 20"],
+    "CorrectAnswer": "B",
+    "Explanation": "50 - 25 = 25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 4 * 8?",
+    "Options": ["A) 28", "B) 32", "C) 36", "D) 24"],
+    "CorrectAnswer": "B",
+    "Explanation": "4 * 8 = 32.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 25 by 5.",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 3"],
+    "CorrectAnswer": "B",
+    "Explanation": "25 / 5 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Add 225 and 275.",
+    "Options": ["A) 400", "B) 500", "C) 600", "D) 450"],
+    "CorrectAnswer": "B",
+    "Explanation": "225 + 275 = 500.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 1,000 minus 100?",
+    "Options": ["A) 800", "B) 900", "C) 950", "D) 850"],
+    "CorrectAnswer": "B",
+    "Explanation": "1,000 - 100 = 900.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 3 * 9?",
+    "Options": ["A) 24", "B) 27", "C) 30", "D) 18"],
+    "CorrectAnswer": "B",
+    "Explanation": "3 * 9 = 27.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Divide 12 by 2.",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 3"],
+    "CorrectAnswer": "C",
+    "Explanation": "12 / 2 = 6.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Add 10 + 10 + 10 + 10.",
+    "Options": ["A) 30", "B) 40", "C) 50", "D) 20"],
+    "CorrectAnswer": "B",
+    "Explanation": "10 + 10 + 10 + 10 = 40.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 500 minus 500?",
+    "Options": ["A) 100", "B) 0", "C) 500", "D) 1"],
+    "CorrectAnswer": "B",
+    "Explanation": "500 - 500 = 0.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fundamental Operations",
+    "Difficulty": "Foundation"
+  }
+]

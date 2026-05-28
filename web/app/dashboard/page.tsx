@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, BarChart2, BookOpen, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy } from "lucide-react";
+import { ArrowRight, BarChart2, BookOpen, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy, Award } from "lucide-react";
 import { useAuth, SignedIn, SignedOut } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
 import { DailyQuizCard } from "@/components/DailyQuizCard";
@@ -218,20 +218,68 @@ function computeBadges(data: DashboardSummary): Badge[] {
     },
     // ── Milestones ────────────────────────────────────────────────
     {
-      id: "mock_exam",
-      emoji: "📋",
-      label: "Olympiad Scholar",
-      description: "Complete your first Full Mock Exam",
-      earned: results.some((r) => r.paperTitle?.startsWith("Mock Exam")),
-    },
-    {
       id: "mock_3",
       emoji: "🏆",
       label: "Mock Master",
       description: "Complete 3 Full Mock Exams",
       earned: results.filter((r) => r.paperTitle?.startsWith("Mock Exam")).length >= 3,
     },
+    {
+      id: "mock_10",
+      emoji: "🎖️",
+      label: "Mock Veteran",
+      description: "Complete 10 Full Mock Exams",
+      earned: results.filter((r) => r.paperTitle?.startsWith("Mock Exam")).length >= 10,
+    },
+    {
+      id: "mock_25",
+      emoji: "👑",
+      label: "Mock Champion",
+      description: "Complete 25 Full Mock Exams",
+      earned: results.filter((r) => r.paperTitle?.startsWith("Mock Exam")).length >= 25,
+    },
+    {
+      id: "flawless_mock",
+      emoji: "💎",
+      label: "Flawless Mock",
+      description: "Score 100% on a Full Mock Exam",
+      earned: results.some((r) => r.paperTitle?.startsWith("Mock Exam") && r.score === r.totalQuestions && r.totalQuestions > 0),
+    },
+    {
+      id: "weekend_warrior",
+      emoji: "⚔️",
+      label: "Weekend Warrior",
+      description: "Complete a practice test on the weekend",
+      earned: results.some((r) => {
+        const d = new Date(r.completedAt).getDay();
+        return d === 0 || d === 6;
+      }),
+    },
+    {
+      id: "bug_hunter",
+      emoji: "🕵️‍♂️",
+      label: "Quality Assurance",
+      description: "Report 10 valid questions to improve the platform",
+      earned: (data as any).reportedCount >= 10,
+    },
+    {
+      id: "bug_exterminator",
+      emoji: "🛡️",
+      label: "Bug Exterminator",
+      description: "Report 50 valid questions to improve the platform",
+      earned: (data as any).reportedCount >= 50,
+    },
   ];
+}
+
+function getHierarchyTitle(earnedCount: number, totalCount: number) {
+  if (totalCount > 0 && earnedCount === totalCount) return { label: "Olympiad Legend", emoji: "👑" };
+  if (earnedCount >= 14) return { label: "Champion Scholar", emoji: "🏆" };
+  if (earnedCount >= 10) return { label: "Olympiad Contender", emoji: "🏅" };
+  if (earnedCount >= 6) return { label: "Knowledge Seeker", emoji: "🎓" };
+  if (earnedCount >= 3) return { label: "Rising Star", emoji: "⭐" };
+  if (earnedCount >= 1) return { label: "Rookie Scholar", emoji: "🔰" };
+  return null;
 }
 
 export default function DashboardPage() {
@@ -349,6 +397,7 @@ function DashboardBody() {
   const streak = computeStreak(data.results, shieldState.usedDates);
   const badges = computeBadges(data);
   const earnedCount = badges.filter((b) => b.earned).length;
+  const currentTitle = getHierarchyTitle(earnedCount, badges.length);
 
   // Grade for daily quiz: most recent paper's grade, fallback 6
   const preferredGrade = data.papers[0]?.grade ?? 6;
@@ -560,29 +609,42 @@ function DashboardBody() {
         <WeeklyReport results={data.results} />
 
         {/* Achievements */}
-        <section className="rounded-2xl border border-white/40 bg-white/60 backdrop-blur-md p-6 shadow-lg transition-all hover:shadow-xl">
-          <div className="flex items-center gap-3">
-            <div className="inline-flex rounded-xl bg-gradient-to-br from-amber-500 to-yellow-500 p-2.5 text-white shadow-sm">
-              <Trophy className="h-5 w-5" />
+        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="mb-4 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <Award className="h-5 w-5 text-indigo-500" />
+                <h2 className="text-lg font-semibold text-slate-900">Achievements</h2>
+              </div>
+              
+              {currentTitle && (
+                <button
+                  onClick={() =>
+                    setCertConfig({
+                      badgeId: "title",
+                      badgeLabel: currentTitle.label,
+                      badgeEmoji: currentTitle.emoji,
+                      description: `For achieving the prestigious title of ${currentTitle.label}`,
+                      rewardType: "digital",
+                    })
+                  }
+                  className="inline-flex items-center gap-1.5 rounded-xl bg-amber-500 px-4 py-2 text-xs font-bold text-white shadow-md shadow-amber-500/20 transition-all hover:scale-105 hover:bg-amber-600"
+                >
+                  🎓 Download Certificate
+                </button>
+              )}
             </div>
-            <h2 className="text-lg font-semibold text-slate-900">Achievements</h2>
-            <span className="ml-auto text-xs text-slate-400">
-              {earnedCount} of {badges.length} earned
-            </span>
-          </div>
 
-          {/* Olympiad Legend banner */}
-          {earnedCount === badges.length && (
-            <div className="mt-4 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-400 p-4 text-white flex items-center gap-3 shadow-md">
-              <span className="text-3xl">🏆</span>
-              <div className="flex-1">
-                <p className="font-bold text-sm">You are an Olympiad Legend!</p>
-                <p className="text-xs opacity-90 mt-0.5">You&apos;ve earned every badge. Claim your physical medal &amp; certificate below.</p>
+            <div className="mb-6 flex items-center gap-4 rounded-xl bg-indigo-50 p-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-indigo-600 text-2xl shadow-md">
+                {currentTitle?.emoji || "🔰"}
+              </div>
+              <div>
+                <p className="text-sm font-bold text-indigo-900">{currentTitle?.label || "Newbie"}</p>
+                <p className="text-xs text-indigo-700">Your current scholarly rank based on badges earned.</p>
               </div>
             </div>
-          )}
 
-          <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-5">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-5">
             {badges.map((badge) => (
               <div
                 key={badge.id}
@@ -622,7 +684,7 @@ function DashboardBody() {
               </div>
             ))}
           </div>
-        </section>
+        </div>
 
         {/* Mock Exams Summary */}
         {mockExams.length > 0 && (

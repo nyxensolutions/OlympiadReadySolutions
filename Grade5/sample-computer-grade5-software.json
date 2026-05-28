@@ -1,0 +1,702 @@
+﻿[
+  {
+    "QuestionText": "What is the general name given to the set of electronic instructions, programs, and code that tells the physical computer hardware exactly how to perform a task?",
+    "Options": [
+      "A) Hardware",
+      "B) Software",
+      "C) Firmware Core",
+      "D) Motherboard Bus"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Software comprises the digital programs and procedures that run on a computer system, directing the physical hardware to execute operations.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Software is broadly divided into two main categories based on its purpose. What are these two primary categories?",
+    "Options": [
+      "A) Input Software and Output Software",
+      "B) System Software and Application Software",
+      "C) Local Software and Cloud Ware",
+      "D) Hardware Drivers and Physical Codes"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The two primary classifications are System Software (which manages and boots the machine) and Application Software (which helps users perform specific tasks like drawing or typing).",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of software controls the internal operations of a computer, initializes the connected hardware devices, and provides a platform for other apps to run?",
+    "Options": [
+      "A) Application Software",
+      "B) System Software",
+      "C) Desktop Utility",
+      "D) Spreadsheets"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "System Software coordinates hardware activities and establishes a foundational layer so that user-facing applications can function smoothly.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "The Operating System (OS) is the most critical piece of software on a computer. Under which software category does the OS fall?",
+    "Options": [
+      "A) Application Software",
+      "B) Utility Software",
+      "C) System Software",
+      "D) Customized Package"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "An Operating System is the primary type of System Software. Without it, a computer cannot boot up or communicate with its hardware components.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "When you write an essay in MS Word or play an offline video game, what class of software are you interacting with directly?",
+    "Options": [
+      "A) System Software",
+      "B) Operating Systems",
+      "C) Application Software",
+      "D) Device Drivers"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Application software is designed to perform specific user tasks, such as word processing, calculation, drawing, or entertainment.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which of the following scenarios is a primary responsibility of a computer's Operating System?",
+    "Options": [
+      "A) Correcting grammatical spelling errors in an English essay",
+      "B) Checking data formulas inside an Excel sheet",
+      "C) Managing memory allocation, handling files, and controlling input/output devices",
+      "D) Designing an animated slide theme for a history presentation"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "An Operating System acts as a manager that controls hardware devices, system memory allocation, security, and file structures.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the acronym 'GUI' stand for, which describes an operating system environment containing clickable icons, menus, and windows?",
+    "Options": [
+      "A) General User Information",
+      "B) Graphical User Interface",
+      "C) Geographic Utility Integration",
+      "D) Gaming User Interaction"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "GUI stands for Graphical User Interface. It allows users to interact with software using visual elements like icons and pointers rather than typing text commands.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Older operating systems like MS-DOS required users to type out strict text commands to open files or create directories. What type of interface is this?",
+    "Options": [
+      "A) Graphical User Interface (GUI)",
+      "B) Command-Line Interface (CLI) / CUI",
+      "C) Touch-sensitive Interface",
+      "D) Voice Recognition Interface"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "CLI (Command-Line Interface) or CUI (Character User Interface) relies completely on text commands typed into a prompt to run instructions.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Identify the option that contains only valid Operating Systems used on laptops, desktops, or mobile devices worldwide.",
+    "Options": [
+      "A) MS Word, Google Chrome, Adobe Photoshop",
+      "B) Windows 11, macOS, Linux, Android",
+      "C) Monitor, Keyboard, CPU, Motherboard",
+      "D) WinZip, McAfee Antivirus, Disk Defragmenter"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Windows, macOS, Linux, and Android are platforms built to manage hardware resources, qualifying them as operating systems.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What special category of system software acts as a translator, allowing the Operating System to recognize and talk to hardware accessories like a newly plugged-in printer?",
+    "Options": [
+      "A) Text Editors",
+      "B) Presentation Packages",
+      "C) Device Drivers",
+      "D) Web Browsers"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A device driver is a specialized system program that acts as a translator between an operating system and a specific piece of hardware.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of software is designed to analyze, configure, optimize, or maintain a computer system, helping protect it from viruses or keeping storage organized?",
+    "Options": [
+      "A) Word Processing Software",
+      "B) Utility Software",
+      "C) Database Software",
+      "D) Multi-programming Codes"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Utility software comprises maintenance tools (like antivirus programs or backup tools) that optimize computer house-keeping tasks.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Utility Software",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "A computer starts performing slowly because files are scattered in fragments across different physical locations on the hard drive. Which utility software should be run to fix this?",
+    "Options": [
+      "A) Antivirus Scanner",
+      "B) Disk Defragmenter",
+      "C) File Compression Tool",
+      "D) Database Pack"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A disk defragmenter reorganizes fragmented data chunks on a hard disk drive, grouping related files together to speed up access times.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Utility Software",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What utility program would you use if you needed to shrink a collection of large photos into a single, smaller folder to email it more quickly?",
+    "Options": [
+      "A) Anti-malware software",
+      "B) File Compression Tool (e.g., WinZip, WinRAR)",
+      "C) Disk Cleaner Utility",
+      "D) Device Driver package"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "File compression tools use algorithms to reduce the physical file storage footprint, bundling items into standard zipped files for easier transfer.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Utility Software",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What software program runs quietly in the background to scan files, detect malicious tracking codes, and block malware attacks?",
+    "Options": [
+      "A) Web Browser",
+      "B) Antivirus Software",
+      "C) Spreadsheet Package",
+      "D) Text Compiler"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Antivirus tools are essential protective utilities that screen storage sectors for malicious code signatures to safeguard user data.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Utility Software",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary method used by operating systems to store and organize individual digital items like documents, pictures, and songs?",
+    "Options": [
+      "A) Ports",
+      "B) Files",
+      "C) Buses",
+      "D) Packets"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A file is the fundamental unit of storage used by an operating system to hold text, images, sound, or executable code.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty :": "Foundation"
+  },
+  {
+    "QuestionText": "To keep a computer organized, users create containers that hold groups of related files. What are these virtual containers called?",
+    "Options": [
+      "A) Drivers",
+      "B) Folders / Directories",
+      "C) Extensions",
+      "D) Icons"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Folders (also known as directories) act as digital filing cabinets, allowing users to group and organize related files systematically.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "An operating system displays a set of 3 or 4 letters at the very end of a file name (like .docx, .png, or .mp3). What is this trailing set of characters called?",
+    "Options": [
+      "A) File Address",
+      "B) File Extension",
+      "C) File Shortcut",
+      "D) File Icon"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A file extension follows a dot at the end of a filename, indicating its format and telling the operating system which program should open it.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Match the following file extensions with their correct file types: 1) .xlsx, 2) .mp4, 3) .txt, 4) .jpg",
+    "Options": [
+      "A) 1-Video, 2-Spreadsheet, 3-Text, 4-Image",
+      "B) 1-Spreadsheet, 2-Video, 3-Text, 4-Image",
+      "C) 1-Image, 2-Text, 3-Video, 4-Spreadsheet",
+      "D) 1-Spreadsheet, 2-Image, 3-Text, 4-Video"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": ".xlsx represents an Excel spreadsheet, .mp4 is a video file format, .txt stands for plain text, and .jpg is an image format.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What does a file extension of '.exe' tell you about that specific computer file?",
+    "Options": [
+      "A) It is an empty text document file.",
+      "B) It is an executable file used to install or run a software application program.",
+      "C) It is an audio song file.",
+      "D) It is a corrupted backup archive."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": ".exe stands for 'executable'. Clicking this file launches program logic directly within a Windows operating system environment.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "When you delete a file from your computer's storage drive in Windows, where does the operating system temporarily hold that file so it can be recovered if needed?",
+    "Options": [
+      "A) Control Panel",
+      "B) Recycle Bin",
+      "C) Taskbar",
+      "D) Document Archive"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Recycle Bin serves as a temporary holding area for deleted files, allowing users to restore them if they were removed accidentally.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What happens if a user highlights a deleted file inside the Windows Recycle Bin and clicks the 'Empty Recycle Bin' option?",
+    "Options": [
+      "A) The file is moved back to its original location.",
+      "B) The file size doubles to save space.",
+      "C) The file is permanently erased from the storage drive, freeing up storage space.",
+      "D) The file turns into an operating system shortcut."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Emptying the Recycle Bin removes the files permanently from the file system indexing, freeing up storage capacity on the hard drive.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which keyboard shortcut can be pressed in a Windows environment to copy a highlighted file or text passage without removing it?",
+    "Options": [
+      "A) Ctrl + X",
+      "B) Ctrl + V",
+      "C) Ctrl + C",
+      "D) Ctrl + Z"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Ctrl + C copies the selected item to the system clipboard, keeping the original file or text unchanged in its current position.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "You want to move a file from one folder to another, removing it completely from its original location. Which pair of keyboard shortcuts should you use in order?",
+    "Options": [
+      "A) Ctrl + C, then Ctrl + V",
+      "B) Ctrl + X, then Ctrl + V",
+      "C) Ctrl + Z, then Ctrl + Y",
+      "D) Ctrl + A, then Ctrl + C"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + X cuts the file from its current folder, and Ctrl + V pastes it into the new destination, effectively moving it.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is Linux?",
+    "Options": [
+      "A) A high-performance hardware processor built by Intel.",
+      "B) A popular, open-source operating system whose source code is free for anyone to study and modify.",
+      "C) An engineering tool used to type documents.",
+      "D) An expansion card used to play audio files."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Linux is a highly secure, reliable, open-source operating system widely used on servers, mainframes, and developer computers.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the term used to describe application software that is custom-designed to meet the specific requirements of a particular business, hospital, or school?",
+    "Options": [
+      "A) General-purpose Application Software",
+      "B) Customized / Bespoke Application Software",
+      "C) System Drivers Software",
+      "D) Disk Utilities Software"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Bespoke or customized software is built to order for a client to fulfill a specific set of operational requirements, unlike off-the-shelf software packages.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "MS Paint, Adobe Photoshop, and CorelDRAW are examples of application software built for which primary purpose?",
+    "Options": [
+      "A) Managing large financial spreadsheets",
+      "B) Organizing massive database registers",
+      "C) Creating, editing, and manipulating graphics and digital artwork",
+      "D) Defragmenting hard drive disk sectors"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "These applications provide graphic design interfaces, allowing users to draw vector lines or edit raster photographs.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "An Operating System can execute multiple independent software processes concurrently (such as streaming music while typing a document). What is this feature called?",
+    "Options": [
+      "A) Boot-strapping",
+      "B) Multi-tasking / Multi-programming",
+      "C) Disk Formatting",
+      "D) Driver Translating"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Multi-tasking allows an operating system to cycle the CPU rapidly between several open applications, making them appear to run simultaneously.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the primary function of a web browser like Google Chrome, Mozilla Firefox, or Microsoft Edge?",
+    "Options": [
+      "A) It defragments local system storage sectors.",
+      "B) It acts as application software that fetches and displays web pages from the Internet.",
+      "C) It translates code instructions for your printer hardware.",
+      "D) It protects your computer during a power surge."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Web browsers interpret HTML code from remote web servers and render it as interactive web pages for the user.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of utility software should a user run if they want to clear out junk files, broken shortcuts, and cache data to free up hard drive storage?",
+    "Options": [
+      "A) Antivirus Program",
+      "B) Disk Cleanup Utility",
+      "C) Driver Installer",
+      "D) File Archiver"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Disk Cleanup tools identify and safely remove temporary system logs and cache files that are no longer needed, recovering storage capacity.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Utility Software",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the hierarchical structure used by an operating system to nest folders within other folders called?",
+    "Options": [
+      "A) Linear Bus Structure",
+      "B) Directory Tree / Folder Hierarchy",
+      "C) File Extension Link",
+      "D) System Cache Layer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Operating systems organize storage using a directory tree structure, where a main root folder houses subfolders, which can contain further subfolders.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of software license allows anyone to use, modify, and redistribute the program's underlying code for free without restrictions?",
+    "Options": [
+      "A) Proprietary Software License",
+      "B) Open-Source Software License",
+      "C) Shareware Trial License",
+      "D) Commercial Retail Software"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Open-source software provides public access to its source code, encouraging collaboration, modification, and free sharing.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Microsoft Windows and Apple macOS are examples of software that you must purchase a license to use, and their source code cannot be viewed or changed by the public. What is this type of software called?",
+    "Options": [
+      "A) Open-Source Software",
+      "B) Proprietary / Closed-Source Software",
+      "C) Free Public Domain Ware",
+      "D) Utility Package"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Proprietary software is owned by a specific company that restricts access to the source code and requires a user license agreement.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the full name of the basic software interface provided by older computers that loaded text options on a black screen, abbreviated as CUI?",
+    "Options": [
+      "A) Computerized Utility Integration",
+      "B) Character User Interface",
+      "C) Code User Identifier",
+      "D) Control Unit Interaction"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "CUI stands for Character User Interface. It requires navigating options purely through text characters rather than graphics.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which application software program is a general-purpose tool designed specifically to organize numbers, track budgets, and calculate mathematical totals automatically?",
+    "Options": [
+      "A) MS Word",
+      "B) MS Excel",
+      "C) Notepad",
+      "D) MS PowerPoint"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "MS Excel is a spreadsheet application optimized for data organization, accounting, formulas, and graphing.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If a user presses 'Ctrl + A' while looking inside a document or a folder in a Windows operating system, what action is triggered?",
+    "Options": [
+      "A) All files or text elements in the active window are selected at once.",
+      "B) The active program is immediately closed.",
+      "C) A new folder is created automatically.",
+      "D) The system initiates a complete antivirus scan."
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The 'Ctrl + A' keyboard shortcut stands for 'Select All'. It highlights every item or character in the active frame.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What unique name is given to the first screen that appears after your computer's operating system finishes booting up, showing your wallpaper, icons, and taskbar?",
+    "Options": [
+      "A) Startup Document",
+      "B) Desktop",
+      "C) Bios Window",
+      "D) File Directory"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The desktop is the primary workspace interface provided by a graphical operating system after logging in.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the long horizontal bar located at the very bottom of a standard Windows desktop screen, containing the Start button, active app icons, and the clock?",
+    "Options": [
+      "A) Title Bar",
+      "B) Menu Bar",
+      "C) Taskbar",
+      "D) Scroll Bar"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Windows Taskbar anchors system navigation shortcuts, displaying currently running programs, pinned apps, and the system tray notifications.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you create a file shortcut on your desktop, what does that icon actually represent?",
+    "Options": [
+      "A) A complete copy of the original file, which doubles your storage use.",
+      "B) A small pointer link that points directly to where the actual file is stored elsewhere on your computer.",
+      "C) A backup utility that saves files to the cloud.",
+      "D) A hardware device driver script."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Shortcuts are lightweight pointer links (.lnk) that provide a quick access pathway to an application or file hidden deep within directories.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which software utility allows users to create an exact duplicate copy of all their hard drive data onto an external disk to protect against hardware failure?",
+    "Options": [
+      "A) File Compressor",
+      "B) Backup Utility",
+      "C) Disk Cleaner",
+      "D) Network Driver"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Backup tools automate copying and archiving system images or data files to external media to ensure recovery options after a drive failure.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Utility Software",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Consider this scenario: You try to print an assignment, but nothing happens. The computer shows a message saying 'Printer hardware not recognized'. Which software component is likely missing or outdated?",
+    "Options": [
+      "A) The File Compression Utility",
+      "B) The Device Driver for that specific printer",
+      "C) The Spreadsheet Application Package",
+      "D) The Web Browser Cache"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Without the correct device driver software installed, the operating system cannot translate print requests into the specific hardware codes required by the printer.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the specific name of the folder path notation (like C:\\Users\\Student\\Documents\\Report.docx) that tells you the exact storage location of a file?",
+    "Options": [
+      "A) File Extension",
+      "B) File Path",
+      "C) Shortcut Pointer",
+      "D) Binary Index"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The file path outlines the complete chronological sequence of directories and subdirectories leading to a specific file on a storage drive.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of software application is distributed for free on a trial basis for a limited time, after which the user must pay to unlock full features?",
+    "Options": [
+      "A) Free Software",
+      "B) Shareware",
+      "C) Proprietary Mainframe",
+      "D) System Utility"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Shareware is commercial software provided for free on a trial basis, encouraging users to test features before purchasing a full license.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the primary function of an interpreter or compiler in computer systems software?",
+    "Options": [
+      "A) It cleans dust away from internal processing units.",
+      "B) It compresses image files to save hard disk capacity.",
+      "C) It translates high-level programming code written by humans into machine code (0s and 1s) that the CPU can execute.",
+      "D) It connects a laptop keyboard to a local area network."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Compilers and interpreters are essential system utilities that convert human-readable source code into binary machine code that a microprocessor can run.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which program is a built-in text editor included automatically with the Microsoft Windows Operating System?",
+    "Options": [
+      "A) Adobe Acrobat",
+      "B) Notepad",
+      "C) Safari",
+      "D) CorelDRAW"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Notepad is a long-standing, lightweight text editor built directly into Windows to handle basic, unformatted plain text tasks.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What happens to a file when you select it and hit the 'Shift + Delete' keyboard shortcut on a Windows PC?",
+    "Options": [
+      "A) It is moved safely into a new subfolder archive.",
+      "B) It is sent straight into the Recycle Bin for restoration later.",
+      "C) It bypasses the Recycle Bin and is permanently deleted from the system storage immediately.",
+      "D) It turns into an encrypted read-only document file."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Using 'Shift + Delete' tells Windows to bypass the temporary Recycle Bin holding area, immediately freeing the file index space permanently.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What type of application package is MS PowerPoint?",
+    "Options": [
+      "A) Word processing package",
+      "B) Electronic presentation software package",
+      "C) Database relational package",
+      "D) Antivirus utility block"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "MS PowerPoint is a specialized application tool designed to structure slide decks, media presentations, and graphic lectures.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which software category includes programs like WinZip, McAfee Antivirus, and Windows backup tools?",
+    "Options": [
+      "A) General Applications",
+      "B) Custom Bespoke Packages",
+      "C) Utility Programs",
+      "D) Hardware Drivers"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "These are maintenance and optimization programs that help support the safety, organization, and performance of a computer system.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Utility Software",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If you wish to safely switch your computer from one open program window to another without clicking with a mouse, which keyboard shortcut can you hold down?",
+    "Options": [
+      "A) Alt + Tab",
+      "B) Ctrl + Escape",
+      "C) Shift + Space",
+      "D) Windows + L"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Holding 'Alt + Tab' brings up an interface overlay showing active open windows, allowing quick keyboard navigation between running applications.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Operating Systems",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which of the following describes a software package that is entirely free to download and use permanently, without any trial expirations, but whose source code remains hidden from the public?",
+    "Options": [
+      "A) Shareware",
+      "B) Freeware",
+      "C) Proprietary Paid Software",
+      "D) Open-Source Software"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Freeware refers to copyrighted software that is distributed at no cost for permanent use, though its source code remains closed and proprietary.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "Software Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does a file extension of '.pdf' stand for, which is a common format used for read-only documents that look identical on any computer or device?",
+    "Options": [
+      "A) Personal Document File",
+      "B) Portable Document Format",
+      "C) Program Data Formula",
+      "D) Printable Desktop Folder"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "PDF stands for Portable Document Format. It preserves document formatting independent of the application software, hardware, or operating system used to view it.",
+    "Topic": "Software Types & Operating Systems",
+    "SubTopic": "File Management",
+    "Difficulty": "Advanced"
+  }
+]

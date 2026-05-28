@@ -1,0 +1,703 @@
+﻿[
+  {
+    "QuestionText": "Which view in MS PowerPoint allows you to edit the default layout, fonts, placeholders, and background themes across all slides in your presentation simultaneously?",
+    "Options": [
+      "A) Slide Sorter View",
+      "B) Slide Master View",
+      "C) Reading View",
+      "D) Outline View"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Slide Master View is the master template layer. Changes made to the Slide Master apply globally across every slide that shares that layout style.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Slide Master & Design Themes",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the specific name given to the special motion effects that occur when you move from one slide to the next slide during a presentation?",
+    "Options": [
+      "A) Custom Animations",
+      "B) Slide Transitions",
+      "C) Action Triggers",
+      "D) Motion Paths"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Transitions control the visual effects seen during the movement between slides (like Fade, Push, or Morph). Animations control elements within a single slide.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you want an individual text box or image *inside* a slide to fly in from the left side of the screen, which tab on the Ribbon should you use?",
+    "Options": [
+      "A) Transitions Tab",
+      "B) Animations Tab",
+      "C) Design Tab",
+      "D) Review Tab"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Animations tab controls how individual elements (text, shapes, or images) behave on the slide canvas itself.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "PowerPoint animation effects are categorized into four types. Which type controls how an object appears or enters onto the slide stage?",
+    "Options": [
+      "A) Emphasis Effects",
+      "B) Exit Effects",
+      "C) Entrance Effects",
+      "D) Motion Paths"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Entrance effects determine how an object appears on the slide layout grid when it is triggered.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "You want an image to grow in size or spin around to catch the audience's attention while it is already visible on the slide. Which category of animation effect should you choose?",
+    "Options": [
+      "A) Entrance Effect",
+      "B) Emphasis Effect",
+      "C) Exit Effect",
+      "D) Transition Path"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Emphasis effects change the size, color, or rotation of an item while it stays on the screen, drawing attention to it.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which type of custom animation allows you to draw a specific geometric line or squiggly track that an object will physically follow across the slide surface?",
+    "Options": [
+      "A) Emphasis Spin",
+      "B) Motion Path",
+      "C) Morph Transition",
+      "D) Slide Wipe"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Motion Paths guide an object along a drawn trajectory (like a circle, loop, or custom freehand line) across the presentation canvas.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which function key can be pressed on a Windows keyboard to instantly start running your PowerPoint presentation full-screen from the very first slide?",
+    "Options": [
+      "A) F1 key",
+      "B) F5 key",
+      "C) F7 key",
+      "D) F11 key"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Pressing F5 runs the presentation deck in full-screen Slide Show mode starting from Slide 1.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you are working on Slide 12 of a deck and want to start the full-screen slide show exactly from this active slide instead of the beginning, which keyboard combination should you press?",
+    "Options": [
+      "A) Ctrl + F5",
+      "B) Shift + F5",
+      "C) Alt + F5",
+      "D) Spacebar + F5"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Shift + F5 launches the presentation in full-screen mode starting directly from the currently active slide rather than resetting to slide 1.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which specific PowerPoint view displays all of your presentation slides as small miniature thumbnails on one screen, making it incredibly easy to drag, drop, and reorder them?",
+    "Options": [
+      "A) Normal View",
+      "B) Notes Page View",
+      "C) Slide Sorter View",
+      "D) Reading View"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Slide Sorter View arranges all presentation slides horizontally in a grid format, which makes managing, moving, or deleting entire slides very convenient.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are the dotted boxes that appear automatically on a new slide layout, holding text, titles, charts, or video elements, officially called?",
+    "Options": [
+      "A) Text Blocks",
+      "B) Placeholders",
+      "C) Object Frames",
+      "D) Slide Slots"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Placeholders are pre-formatted containers on a slide layout that hold specific elements like text body blocks, titles, tables, charts, or videos.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Slide Master & Design Themes",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which view mode provides a large dedicated box beneath each slide thumbnail where a presenter can type private bullet points or scripts to read during a speech?",
+    "Options": [
+      "A) Outline View",
+      "B) Notes Page View",
+      "C) Slide Show View",
+      "D) Master View"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Notes Page View displays a miniature slide image alongside an expandable text block beneath it, allowing presenters to organize personal talking points.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What special full-screen view mode provides a private display panel for the speaker, showing the current slide, the upcoming slide, a ticking timer, and personal notes?",
+    "Options": [
+      "A) Slide Sorter View",
+      "B) Outline Editor View",
+      "C) Presenter View",
+      "D) Master Background Panel"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Presenter View provides helpful presentation metrics on the speaker's secondary monitor screen while keeping the main projector display focused exclusively on the slides.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which tab on the ribbon contains commands to record voiceover narrations, setup multiple monitor displays, or customize slide timings?",
+    "Options": [
+      "A) Review Tab",
+      "B) Slide Show Tab",
+      "C) Animations Tab",
+      "D) View Tab"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Slide Show tab handles everything related to delivering your final presentation, including recording narrations, setting up custom slide loops, and managing target monitors.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What happens if you click the 'Apply to All' button inside the Slide Transitions formatting pane?",
+    "Options": [
+      "A) The presentation deletes all custom animations across the deck.",
+      "B) The selected transition effect is applied uniformly to every single slide in the active file.",
+      "C) The presentation saves itself automatically as a video file format.",
+      "D) The first slide layout expands across the monitor view."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Clicking 'Apply to All' ensures that the chosen transition style and speed settings are applied across the entire slide deck for consistency.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which option allows you to embed a functional clickable link inside a slide that takes the user to an internet website or a different file on their hard drive?",
+    "Options": [
+      "A) Hyperlink / Link (under Insert Tab)",
+      "B) Transition Trigger",
+      "C) Audio Segment",
+      "D) Slide Note"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Hyperlinks embed target URL paths or directory links directly into text shapes or image assets within a presentation.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Multimedia Integration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What unique feature under Shapes provides pre-built buttons (like Home, Back, Next, or Information) that can be programmed to run scripts or jump slides when clicked during a show?",
+    "Options": [
+      "A) SmartArt Nodes",
+      "B) Action Buttons",
+      "C) WordArt Links",
+      "D) Slide Anchors"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Action Buttons are ready-made shape buttons that can be inserted into slides to easily set up interactive navigation, like jumping back or opening files.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Multimedia Integration",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "If you want to view a sidebar list showing the exact execution order and names of all custom animations applied on your current slide, which button should you toggle?",
+    "Options": [
+      "A) Format Painter Box",
+      "B) Animation Pane",
+      "C) Slide Sorter Tool",
+      "D) Review Comment Deck"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Animation Pane opens a docking panel on the right side of the workspace, listing all individual animations on the active slide to let you reorder or time them.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "By default, what standard file extension is used when saving a modern Microsoft PowerPoint presentation?",
+    "Options": [
+      "A) .docx",
+      "B) .xlsx",
+      "C) .pptx",
+      "D) .mp3"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": ".pptx is the default XML-based file extension used by Microsoft PowerPoint to store presentations.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the primary difference between a .pptx file and a .ppsx file format in PowerPoint?",
+    "Options": [
+      "A) .ppsx can only be viewed on a mobile cell phone interface.",
+      "B) A .pptx file opens directly into the editable working view; a .ppsx file opens instantly as a live, full-screen slide show.",
+      "C) .pptx files cannot contain multimedia audio streams.",
+      "D) There is no structural difference between them."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": ".ppsx stands for PowerPoint Show. Clicking this file launches the presentation full-screen immediately, bypassing the normal editing layout.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which keyboard shortcut key can be hit at any time during a live, full-screen slide show to instantly close the presentation and return to editing mode?",
+    "Options": [
+      "A) Enter key",
+      "B) Spacebar",
+      "C) Escape (Esc) key",
+      "D) Backspace key"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Pressing the Esc key stops a running slide show presentation, returning you to the PowerPoint interface.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "To loop a slide show continuously so that it restarts automatically at Slide 1 after the final slide ends, which setting should be checked in the 'Set Up Slide Show' window?",
+    "Options": [
+      "A) Play animations backward",
+      "B) Loop continuously until 'Esc'",
+      "C) Show without narration tracks",
+      "D) Disable slide master view layouts"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Checking 'Loop continuously until \"Esc\"' sets up the presentation to run on a continuous loop, which is useful for informational kiosks.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which on-screen drawing tool can a presenter turn on during a live full-screen presentation to sketch emphasis lines directly onto slides using a mouse?",
+    "Options": [
+      "A) Format Painter brush",
+      "B) Laser Pointer & Pen Tool",
+      "C) SmartArt layout box",
+      "D) Outline Text Marker"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Right-clicking during a slide show lets you select pointer options like a virtual laser pointer, pen, or highlighter to draw on slides in real time.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What layout tool would you choose to turn a boring bulleted list of names into a stylized process flow chart or a hierarchical organizational tree diagram?",
+    "Options": [
+      "A) Audio Recording Tool",
+      "B) SmartArt Graphics (under Insert Tab)",
+      "C) Watermark Background Overlay",
+      "D) Action Trigger Script"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "SmartArt provides pre-built layout patterns that instantly convert plain bulleted lists into visual diagrams or flowcharts.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Slide Master & Design Themes",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which option under the Animation Timing parameters dictates exactly how long an individual animation effect takes to complete its movement cycle?",
+    "Options": [
+      "A) Delay Timer",
+      "B) Duration Setting",
+      "C) Trigger Rule",
+      "D) Repeat Multiplier"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'Duration' setting controls the speed of an animation by determining how many seconds the effect takes to complete its movement cycle.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does a custom animation timing 'Delay' value do in PowerPoint?",
+    "Options": [
+      "A) It completely cancels the animation run profile.",
+      "B) It introduces a designated wait time (in seconds) before the animation effect physically begins moving.",
+      "C) It speeds up the transition between slides.",
+      "D) It changes text lowercase configurations."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'Delay' setting introduces a pause before an animation starts, letting you stagger when multiple objects appear.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which view mode strips away all graphic images and layout templates, presenting your slides purely as an editable textual outline of titles and bullet points?",
+    "Options": [
+      "A) Slide Master View",
+      "B) Outline View",
+      "C) Reading Layout",
+      "D) Handout Master View"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Outline View displays slide content as plain hierarchical text, allowing you to edit and structure written text without visual distractions.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are the printable sheets given to an audience that show miniature versions of multiple slides per page (e.g., 3, 6, or 9 slides) called?",
+    "Options": [
+      "A) Presentation Flyers",
+      "B) Handouts",
+      "C) Outline Booklets",
+      "D) Master Slides"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Handouts are printed versions of a slide deck layout distributed to the audience, often showing multiple slide thumbnails on a single page.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which keyboard shortcut combination can be used to quickly insert a blank new slide into your current presentation layout?",
+    "Options": [
+      "A) Ctrl + N",
+      "B) Ctrl + M",
+      "C) Ctrl + S",
+      "D) Ctrl + Shift + N"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + M adds a blank new slide directly under the currently selected slide. For reference, Ctrl + N opens an entirely new, blank presentation file.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What happens if you use the 'Ctrl + D' keyboard shortcut while highlighting a shape or a slide in PowerPoint?",
+    "Options": [
+      "A) The selected item is permanently deleted.",
+      "B) The selected item is instantly duplicated.",
+      "C) The presentation opens up the font styling dialog box.",
+      "D) A hyperlink anchor is attached to the shape."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ctrl + D stands for 'Duplicate'. It copies and pastes an item or a selected slide layout in one quick step.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which tab on the ribbon would you open if you wanted to change the dimensions of your slides from Standard ($4:3$) to Widescreen ($16:9$)?",
+    "Options": [
+      "A) Transitions Tab",
+      "B) Design Tab",
+      "C) Layout Tab",
+      "D) View Tab"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Design tab houses the Slide Size command, allowing you to switch aspect ratios or define custom dimensions for your slides.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Slide Master & Design Themes",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of transition effect uses advanced tracking algorithms to smoothly morph objects from one slide location into new shapes or positions on the next slide?",
+    "Options": [
+      "A) Push Effect",
+      "B) Fade Blend",
+      "C) Morph Transition",
+      "D) Dissolve Mask"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Morph transition analyzes consecutive slides to smoothly animate changes in object positions, sizes, or shapes.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Can you insert interactive audio tracks and streaming background video clips directly into an individual slide layout in MS PowerPoint?",
+    "Options": [
+      "A) No, PowerPoint only supports flat image file formats.",
+      "B) Yes, using the Video and Audio options found inside the Media group on the Insert Tab.",
+      "C) Yes, but media only works if the presentation file is saved as a Word document.",
+      "D) No, videos can only be played through external web browser frames."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Media group on the Insert tab allows you to embed local or online video clips and audio streams directly into your slides.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Multimedia Integration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What are the two primary choices for advancing a slide during a live show, found inside the Transition Timing options area?",
+    "Options": [
+      "A) By Voice Command or By Network Ping",
+      "B) On Mouse Click or Automatically After a set number of seconds",
+      "C) By Printing Pages or By Closing Windows",
+      "D) By Driver Translate or By File Format Shift"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Slides can be advanced either manually 'On Mouse Click' or automatically after a timed interval, which is useful for self-running presentation loops.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If a custom animation is set to start 'After Previous', when will the effect trigger?",
+    "Options": [
+      "A) Only when the presenter physically clicks the mouse button.",
+      "B) Immediately after the preceding animation in the list finishes its sequence automatically.",
+      "C) At the exact same time as the animation right before it.",
+      "D) When the user closes the slide show window."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "'After Previous' sequences animations automatically by running the effect right after the preceding animation finishes.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which setting should you select if you want an entrance animation effect to run at the exact same time as another item moves on the screen?",
+    "Options": [
+      "A) Start On Click",
+      "B) Start With Previous",
+      "C) Start After Previous",
+      "D) Trigger On Escape"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "'With Previous' syncs animations together, allowing multiple items to fade, slide, or spin simultaneously.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What key can be pressed during a full-screen slide show to instantly turn the screen completely black, allowing the audience to focus entirely on the speaker?",
+    "Options": [
+      "A) The 'B' key",
+      "B) The 'W' key",
+      "C) The Spacebar",
+      "D) The Escape key"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Pressing 'B' toggles a solid black screen during a presentation show, and pressing 'W' toggles a solid white screen. Pressing any key restores the slide.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the primary function of the 'Rehearse Timings' tool in MS PowerPoint?",
+    "Options": [
+      "A) It automatically checks all slides for spelling and grammar errors.",
+      "B) It records the amount of time you spend speaking on each slide so you can save those exact timings to automate the presentation.",
+      "C) It shrinks image sizes to make the presentation file smaller.",
+      "D) It converts the slide deck into an animated web document format."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Rehearse Timings feature tracks how long you take to present each slide, helping you practice your delivery and automate the slide pacing.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which master view mode allows you to edit the global layout, header styles, page numbers, and orientation formats for printed audience handouts?",
+    "Options": [
+      "A) Slide Master View",
+      "B) Handout Master View",
+      "C) Notes Master View",
+      "D) Sorter Grid View"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Handout Master View lets you customize the appearance and layout of printed audience handouts, including header placement and margins.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Slide Master & Design Themes",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the primary workspace view used to design, build, type, and format individual slides in MS PowerPoint?",
+    "Options": [
+      "A) Outline View",
+      "B) Slide Sorter View",
+      "C) Normal View",
+      "D) Reading View"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Normal View is the default editing interface, split into a left slide navigation pane and a central slide canvas.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which design component under the Design tab contains coordinate sets of premade colors, typography pairing fonts, and background styles that alter the entire presentation look instantly?",
+    "Options": [
+      "A) Animations Profiles",
+      "B) Themes / Variants",
+      "C) Transition Nodes",
+      "D) Placeholder Slots"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Themes apply a cohesive design style across your deck, matching fonts, color palettes, and structural layouts instantly.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Slide Master & Design Themes",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If you want to quickly add a pre-built table block structure to organize numbers on your slide, which ribbon tab contains the 'Table' grid initialization engine?",
+    "Options": [
+      "A) Home Tab",
+      "B) Design Tab",
+      "C) Insert Tab",
+      "D) Review Tab"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Like in MS Word, the Table grid initialization engine is located on the Insert tab.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Multimedia Integration",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Can you run an animation sequence backwards or trigger it by clicking a specific custom shape object on your slide canvas?",
+    "Options": [
+      "A) No, animations always run in a fixed chronological order.",
+      "B) Yes, by assigning an animation 'Trigger' configuration link to that specific target object.",
+      "C) No, interactive objects are restricted to website links.",
+      "D) Yes, but only if you use a Command Line operating system.",
+      "B"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Animation Trigger option lets you tie an effect to a specific object, so the animation only plays when that object is clicked.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does a custom animation 'Exit Effect' do to an object on a slide?",
+    "Options": [
+      "A) It makes an object change its color pattern from red to blue.",
+      "B) It determines how an object moves off or disappears from the slide stage.",
+      "C) It closes down the Microsoft PowerPoint software window.",
+      "D) It moves a slide thumbnail into the Recycle Bin folder."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Exit effects dictate how an object leaves the screen (such as vanishing, fading out, or flying off the edge).",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which pane on the left side of the Normal View interface lists all slide thumbnails in numerical order?",
+    "Options": [
+      "A) Notes Panel",
+      "B) Slides Navigation Pane",
+      "C) Animation Grid Dock",
+      "D) Ribbon Menu Group"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The left side vertical dock houses the Slide Navigation Pane, which lets you browse, copy, delete, or rearrange slide thumbnails.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of chart is best suited for showing proportional percentage slices of a whole category (like budget divisions) inside a presentation slide?",
+    "Options": [
+      "A) Line Chart",
+      "B) Bar Chart",
+      "C) Pie Chart",
+      "D) Scatter Graph"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Pie charts break down data into percentage-based slices of a circle, which is great for showing parts of a whole.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Multimedia Integration",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If you want to view your slides sequentially full screen inside a window shell wrapper, retaining your desktop taskbar visibility, which view mode should you pick?",
+    "Options": [
+      "A) Reading View",
+      "B) Notes Page View",
+      "C) Outline Editor View",
+      "D) Slide Show View"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Reading View displays the presentation full screen within an application window rather than a full display takeover, keeping the desktop taskbar accessible.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What command button option lets you duplicate the exact style attributes, borders, and colors of an animated shape onto another shape in PowerPoint?",
+    "Options": [
+      "A) Animation Painter (under Animations Tab)",
+      "B) Format Painter (under Home Tab)",
+      "C) Style Master Sync",
+      "D) Slide Transpose tool"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Format Painter copies design properties from one object to another. To copy animation sequences specifically, use the Animation Painter.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Slide Master & Design Themes",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which specific tool replicates complex animation timelines and effect triggers from one item directly onto a completely new item?",
+    "Options": [
+      "A) Format Painter",
+      "B) Animation Painter",
+      "C) SmartArt node link",
+      "D) Hyperlink Sync"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Animation Painter copies animation properties (including speed, delays, and paths) from a source object and applies them to a target object.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Transitions & Animations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What key sequence can you press to instantly open the Save As dialog window when creating a presentation file for the first time?",
+    "Options": [
+      "A) Ctrl + S",
+      "B) F12 key",
+      "C) Ctrl + F12",
+      "D) Alt + S"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "While Ctrl + S handles everyday saving, pressing F12 launches the 'Save As' menu to rename a file or change its format.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Shortcut Configurations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What happens to objects placed entirely outside the gray borders of the central slide canvas layout area when running a presentation full screen?",
+    "Options": [
+      "A) They automatically scale up and fit onto the center stage.",
+      "B) They are hidden and do not show up on screen during the live presentation.",
+      "C) They shift into the Slide Notes page box below.",
+      "D) They cause the presentation file to crash."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Only items positioned within the boundaries of the central slide canvas are visible during a live presentation show.",
+    "Topic": "Advanced MS PowerPoint",
+    "SubTopic": "Presentation Delivery & Views",
+    "Difficulty": "Advanced"
+  }
+]

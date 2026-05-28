@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "How many centimeters are in 1 meter?",
+    "Options": ["A) 10", "B) 100", "C) 1,000", "D) 10,000"],
+    "CorrectAnswer": "B",
+    "Explanation": "By definition, 1 meter equals 100 centimeters.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 5 kilograms into grams.",
+    "Options": ["A) 50g", "B) 500g", "C) 5,000g", "D) 50,000g"],
+    "CorrectAnswer": "C",
+    "Explanation": "1 kilogram equals 1,000 grams, so 5 * 1,000 = 5,000g.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many minutes are in 2 hours?",
+    "Options": ["A) 60", "B) 100", "C) 120", "D) 150"],
+    "CorrectAnswer": "C",
+    "Explanation": "1 hour equals 60 minutes, so 2 * 60 = 120 minutes.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which unit would you use to measure the capacity of a water bucket?",
+    "Options": ["A) Grams", "B) Liters", "C) Meters", "D) Seconds"],
+    "CorrectAnswer": "B",
+    "Explanation": "Liters are used to measure the volume of liquids.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the perimeter of a square with a side length of 5 cm?",
+    "Options": ["A) 10 cm", "B) 15 cm", "C) 20 cm", "D) 25 cm"],
+    "CorrectAnswer": "C",
+    "Explanation": "Perimeter of a square = 4 * side. 4 * 5 = 20 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 3,000 milliliters to liters.",
+    "Options": ["A) 0.3 L", "B) 3 L", "C) 30 L", "D) 300 L"],
+    "CorrectAnswer": "B",
+    "Explanation": "1,000 milliliters = 1 liter. 3,000 / 1,000 = 3 L.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many seconds are in 1 minute?",
+    "Options": ["A) 50", "B) 60", "C) 100", "D) 120"],
+    "CorrectAnswer": "B",
+    "Explanation": "There are exactly 60 seconds in 1 minute.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is longer: 1 kilometer or 1,500 meters?",
+    "Options": ["A) 1 kilometer", "B) 1,500 meters", "C) They are equal"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 kilometer = 1,000 meters. 1,500 meters is longer than 1,000 meters.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many millimeters are in 1 centimeter?",
+    "Options": ["A) 10", "B) 100", "C) 1,000", "D) 0.1"],
+    "CorrectAnswer": "A",
+    "Explanation": "1 centimeter = 10 millimeters.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the area of a rectangle with length 6 cm and width 4 cm?",
+    "Options": ["A) 10 sq cm", "B) 20 sq cm", "C) 24 sq cm", "D) 28 sq cm"],
+    "CorrectAnswer": "C",
+    "Explanation": "Area = length * width. 6 * 4 = 24.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 2.5 meters to centimeters.",
+    "Options": ["A) 25 cm", "B) 250 cm", "C) 2,500 cm", "D) 0.25 cm"],
+    "CorrectAnswer": "B",
+    "Explanation": "2.5 * 100 = 250 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many days are in 3 weeks?",
+    "Options": ["A) 14", "B) 21", "C) 28", "D) 30"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 week = 7 days. 3 * 7 = 21.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is heavier: 500 grams or 1 kilogram?",
+    "Options": ["A) 500 grams", "B) 1 kilogram", "C) They are equal"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 kilogram = 1,000 grams. 1,000g > 500g.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many milliliters are in 0.5 liters?",
+    "Options": ["A) 50 ml", "B) 500 ml", "C) 5 ml", "D) 5,000 ml"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 liter = 1,000 ml. 0.5 * 1,000 = 500 ml.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If a train leaves at 2:00 PM and arrives at 4:30 PM, how long was the trip?",
+    "Options": ["A) 2 hours", "B) 2 hours 30 minutes", "C) 3 hours", "D) 1 hour 30 minutes"],
+    "CorrectAnswer": "B",
+    "Explanation": "4:30 - 2:00 = 2 hours and 30 minutes.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the perimeter of a rectangle with length 10 cm and width 5 cm?",
+    "Options": ["A) 15 cm", "B) 20 cm", "C) 30 cm", "D) 50 cm"],
+    "CorrectAnswer": "C",
+    "Explanation": "Perimeter = 2 * (length + width) = 2 * (10 + 5) = 2 * 15 = 30 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 400 cm to meters.",
+    "Options": ["A) 4 m", "B) 40 m", "C) 0.4 m", "D) 400 m"],
+    "CorrectAnswer": "A",
+    "Explanation": "400 / 100 = 4 m.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which unit is used to measure the weight of a truck?",
+    "Options": ["A) Grams", "B) Kilograms", "C) Tonnes", "D) Milligrams"],
+    "CorrectAnswer": "C",
+    "Explanation": "Tonnes are used for very heavy items like trucks.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many hours are in 2 days?",
+    "Options": ["A) 24", "B) 36", "C) 48", "D) 72"],
+    "CorrectAnswer": "C",
+    "Explanation": "1 day = 24 hours. 2 * 24 = 48 hours.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the area of a square with side 8 cm?",
+    "Options": ["A) 16 sq cm", "B) 32 sq cm", "C) 64 sq cm", "D) 48 sq cm"],
+    "CorrectAnswer": "C",
+    "Explanation": "Area = side * side = 8 * 8 = 64 sq cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 7 km to meters.",
+    "Options": ["A) 700 m", "B) 7,000 m", "C) 70,000 m", "D) 0.7 m"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 km = 1,000 m. 7 * 1,000 = 7,000 m.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many months are in 2 years?",
+    "Options": ["A) 12", "B) 24", "C) 36", "D) 20"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 year = 12 months. 2 * 12 = 24 months.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 500g + 500g?",
+    "Options": ["A) 500g", "B) 1,000g (or 1 kg)", "C) 100g", "D) 2 kg"],
+    "CorrectAnswer": "B",
+    "Explanation": "500g + 500g = 1,000g, which is 1 kilogram.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 4.5 liters to milliliters.",
+    "Options": ["A) 450 ml", "B) 4,500 ml", "C) 45 ml", "D) 0.45 ml"],
+    "CorrectAnswer": "B",
+    "Explanation": "4.5 * 1,000 = 4,500 ml.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many minutes are in 1.5 hours?",
+    "Options": ["A) 75", "B) 80", "C) 90", "D) 100"],
+    "CorrectAnswer": "C",
+    "Explanation": "1 hour = 60 mins. 0.5 hour = 30 mins. 60 + 30 = 90 mins.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the perimeter of a rectangle with length 12 m and width 3 m?",
+    "Options": ["A) 15 m", "B) 18 m", "C) 30 m", "D) 36 m"],
+    "CorrectAnswer": "C",
+    "Explanation": "Perimeter = 2 * (12 + 3) = 2 * 15 = 30 m.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 50 mm to cm.",
+    "Options": ["A) 5 cm", "B) 500 cm", "C) 0.5 cm", "D) 50 cm"],
+    "CorrectAnswer": "A",
+    "Explanation": "10 mm = 1 cm. 50 / 10 = 5 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many seconds are in 3 minutes?",
+    "Options": ["A) 120", "B) 150", "C) 180", "D) 200"],
+    "CorrectAnswer": "C",
+    "Explanation": "3 * 60 = 180 seconds.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is more: 2,000 ml or 2 liters?",
+    "Options": ["A) 2,000 ml", "B) 2 liters", "C) They are equal"],
+    "CorrectAnswer": "C",
+    "Explanation": "2,000 ml is exactly 2 liters.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the area of a rectangle with length 10 cm and width 10 cm?",
+    "Options": ["A) 20 sq cm", "B) 40 sq cm", "C) 100 sq cm", "D) 200 sq cm"],
+    "CorrectAnswer": "C",
+    "Explanation": "Area = 10 * 10 = 100 sq cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 0.25 kg to grams.",
+    "Options": ["A) 25g", "B) 250g", "C) 2,500g", "D) 2.5g"],
+    "CorrectAnswer": "B",
+    "Explanation": "0.25 * 1,000 = 250g.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many days are in a leap year?",
+    "Options": ["A) 364", "B) 365", "C) 366", "D) 367"],
+    "CorrectAnswer": "C",
+    "Explanation": "A leap year has 366 days.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 2 meters + 50 cm?",
+    "Options": ["A) 52 cm", "B) 250 cm", "C) 70 cm", "D) 205 cm"],
+    "CorrectAnswer": "B",
+    "Explanation": "2m = 200cm. 200 + 50 = 250 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which unit would you use to measure the distance between cities?",
+    "Options": ["A) Meters", "B) Centimeters", "C) Kilometers", "D) Millimeters"],
+    "CorrectAnswer": "C",
+    "Explanation": "Kilometers are standard for long distances.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many hours are in 120 minutes?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "CorrectAnswer": "B",
+    "Explanation": "120 / 60 = 2 hours.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the perimeter of a square with side 12 cm?",
+    "Options": ["A) 24 cm", "B) 36 cm", "C) 48 cm", "D) 144 cm"],
+    "CorrectAnswer": "C",
+    "Explanation": "Perimeter = 4 * 12 = 48 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 6,000 grams to kilograms.",
+    "Options": ["A) 6 kg", "B) 60 kg", "C) 0.6 kg", "D) 600 kg"],
+    "CorrectAnswer": "A",
+    "Explanation": "6,000 / 1,000 = 6 kg.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many weeks are in 1 year (approximately)?",
+    "Options": ["A) 40", "B) 48", "C) 52", "D) 60"],
+    "CorrectAnswer": "C",
+    "Explanation": "There are 52 weeks in a year.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 3 liters + 750 ml?",
+    "Options": ["A) 375 ml", "B) 3,750 ml", "C) 3.75 ml", "D) 10.5 ml"],
+    "CorrectAnswer": "B",
+    "Explanation": "3L = 3,000 ml. 3,000 + 750 = 3,750 ml.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the area of a rectangle with length 5 m and width 2 m?",
+    "Options": ["A) 7 sq m", "B) 10 sq m", "C) 14 sq m", "D) 20 sq m"],
+    "CorrectAnswer": "B",
+    "Explanation": "Area = 5 * 2 = 10 sq m.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 8 cm to millimeters.",
+    "Options": ["A) 0.8 mm", "B) 80 mm", "C) 800 mm", "D) 8 mm"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 cm = 10 mm. 8 * 10 = 80 mm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "How many hours are in 3 days?",
+    "Options": ["A) 48", "B) 72", "C) 96", "D) 36"],
+    "CorrectAnswer": "B",
+    "Explanation": "3 * 24 = 72 hours.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If a rectangle has area 30 sq cm and length 6 cm, what is the width?",
+    "Options": ["A) 4 cm", "B) 5 cm", "C) 6 cm", "D) 24 cm"],
+    "CorrectAnswer": "B",
+    "Explanation": "Width = Area / length = 30 / 6 = 5 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Convert 0.1 liters to milliliters.",
+    "Options": ["A) 1 ml", "B) 10 ml", "C) 100 ml", "D) 1,000 ml"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.1 * 1,000 = 100 ml.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the perimeter of an equilateral triangle with side 10 cm?",
+    "Options": ["A) 20 cm", "B) 30 cm", "C) 40 cm", "D) 100 cm"],
+    "CorrectAnswer": "B",
+    "Explanation": "Perimeter = 3 * side = 3 * 10 = 30 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many seconds are in 1 hour?",
+    "Options": ["A) 60", "B) 600", "C) 3,600", "D) 36,000"],
+    "CorrectAnswer": "C",
+    "Explanation": "1 hour = 60 mins. 60 mins * 60 secs = 3,600 seconds.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Convert 1.2 kg to grams.",
+    "Options": ["A) 12g", "B) 120g", "C) 1,200g", "D) 12,000g"],
+    "CorrectAnswer": "C",
+    "Explanation": "1.2 * 1,000 = 1,200g.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How many cm in 0.5 m?",
+    "Options": ["A) 5 cm", "B) 50 cm", "C) 500 cm", "D) 0.5 cm"],
+    "CorrectAnswer": "B",
+    "Explanation": "0.5 * 100 = 50 cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the area of a square with side 9 cm?",
+    "Options": ["A) 18 sq cm", "B) 27 sq cm", "C) 81 sq cm", "D) 36 sq cm"],
+    "CorrectAnswer": "C",
+    "Explanation": "Area = 9 * 9 = 81 sq cm.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 200 mm to m.",
+    "Options": ["A) 0.2 m", "B) 2 m", "C) 20 m", "D) 0.02 m"],
+    "CorrectAnswer": "A",
+    "Explanation": "1,000 mm = 1 m. 200 / 1,000 = 0.2 m.",
+    "Topic": "Mathematics",
+    "SubTopic": "Measurement",
+    "Difficulty": "Intermediate"
+  }
+]

@@ -820,14 +820,37 @@ public class AdminController : ControllerBase
         };
         _db.UserNotifications.Add(notification);
 
-        // Check if user hit 500 accepted reports
+        // Check if user unlocked a new title
         if (dto.Status == "Accepted")
         {
             var acceptedCount = await _db.ReportedQuestions
                 .Where(r => r.UserId == report.UserId && r.Status == "Accepted")
-                .CountAsync(ct) + 1; // +1 for the current one which isn't saved yet
+                .CountAsync(ct);
 
-            if (acceptedCount == 500)
+            var pastResults = await _db.Results
+                .AsNoTracking()
+                .Where(r => r.UserId == report.UserId && r.TotalQuestions > 0)
+                .Select(r => new BadgeCalculator.ResultRow(r.UserId, r.Score, r.TotalQuestions, r.TimeTakenSeconds, r.CompletedAt, r.Paper != null ? r.Paper.Title ?? "" : "", r.Paper != null ? r.Paper.Subject ?? "" : ""))
+                .ToListAsync(ct);
+
+            var oldEarned = BadgeCalculator.ComputeBadges(pastResults, acceptedCount).Count(b => b.Earned);
+            var oldTitle = BadgeCalculator.GetTitle(oldEarned, 24);
+
+            var newEarned = BadgeCalculator.ComputeBadges(pastResults, acceptedCount + 1).Count(b => b.Earned);
+            var newTitle = BadgeCalculator.GetTitle(newEarned, 24);
+
+            if (newTitle != oldTitle && newTitle != "Newcomer")
+            {
+                _db.UserNotifications.Add(new OlympiadReady.Api.Data.Entities.UserNotification
+                {
+                    UserId = report.UserId,
+                    Title = "New Title Unlocked!",
+                    Message = $"Congratulations! You have earned the prestigious {newTitle} title. Download your official certificate in the Achievements panel.",
+                    CreatedAt = DateTime.UtcNow
+                });
+            }
+
+            if (acceptedCount + 1 == 500)
             {
                 var user = await _db.Users.FindAsync(new object[] { report.UserId }, ct);
                 var rewardExists = await _db.PhysicalRewardClaims

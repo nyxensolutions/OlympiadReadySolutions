@@ -1,0 +1,702 @@
+﻿[
+  {
+    "QuestionText": "Which ancient calculating device, consisting of a wooden frame with rods and sliding beads, is widely considered the world's first mechanical calculator?",
+    "Options": [
+      "A) Pascaline",
+      "B) Abacus",
+      "C) Analytical Engine",
+      "D) Napier's Bones"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Abacus was invented thousands of years ago in China and is recognized as the earliest mechanical device used for performing arithmetic calculations.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Sir John Napier invented a calculating device called 'Napier's Bones'. What mathematical operation was it uniquely designed to simplify using a set of numbered rods?",
+    "Options": [
+      "A) Only Addition",
+      "B) Only Subtraction",
+      "C) Multiplication and Division",
+      "D) Binary Code Conversion"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Napier's Bones used a set of rods carved from bones or wood to perform rapid multiplication and division based on the principle of logarithms.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Blaise Pascal invented the 'Pascaline' in 1642. How did this device perform additions and subtractions?",
+    "Options": [
+      "A) By using punched cards",
+      "B) By using electronic vacuum tubes",
+      "C) By moving a series of interlocking wheels and gears",
+      "D) By sliding beads on parallel wires"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Pascaline was the first mechanical digital calculator that operated using a complex system of rotating wheels, cogs, and gears.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Why is Charles Babbage universally revered as the 'Father of Modern Computers'?",
+    "Options": [
+      "A) He invented the first electronic microprocessor.",
+      "B) He designed the Analytical Engine, which contained the core concepts of input, processing, memory, and output.",
+      "C) He built the first commercial computer using vacuum tubes.",
+      "D) He created the binary number system used in coding."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Babbage's design for the mechanical Analytical Engine laid the conceptual framework (Input, Mill/CPU, Store/Memory, Output) that all modern digital computers use today.",
+    "Topic": "Evolution of Generations & Devices",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Who is recognized as the world's first computer programmer for writing an algorithm intended to run on Charles Babbage's Analytical Engine?",
+    "Options": [
+      "A) Lady Ada Lovelace",
+      "B) Grace Hopper",
+      "C) Alan Turing",
+      "D) Herman Hollerith"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Lady Ada Lovelace was a mathematician who realized the Analytical Engine could do more than just pure calculation, writing the very first sequence of instructions (program) for it.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Herman Hollerith invented the Tabulating Machine, which used punched cards to process data. For which major real-world event was this machine first used successfully?",
+    "Options": [
+      "A) The 1890 United States Census",
+      "B) World War I military codes",
+      "C) Predicting weather patterns",
+      "D) Controlling railway tracks"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Hollerith's Tabulating Machine used punched cards to dramatically speed up data processing for the 1890 US Census, cutting a 10-year manual task down to just a few months.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Herman Hollerith's Tabulating Machine Company went through mergers and changed its name in 1924 to become which global computing giant?",
+    "Options": [
+      "A) Microsoft",
+      "B) Apple",
+      "C) IBM (International Business Machines)",
+      "D) Intel"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Hollerith's company eventually merged with others to form the Computing-Tabulating-Recording Company (CTR), which was later renamed IBM.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which core electronic component was used to control electricity inside First-Generation computers?",
+    "Options": [
+      "A) Transistors",
+      "B) Integrated Circuits (ICs)",
+      "C) Vacuum Tubes",
+      "D) Microprocessors"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "First-generation computers (1940-1956) relied on large, fragile glass tubes called vacuum tubes to control electrical signals.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of operating system environment did users interact with during the First and Second generations of computers?",
+    "Options": [
+      "A) Graphical User Interface (GUI) with a mouse",
+      "B) Touchscreen interface",
+      "C) Voice recognition commands",
+      "D) Batch Processing using punched cards and magnetic tapes"
+    ],
+    "CorrectAnswer": "D",
+    "Explanation": "Early generations did not have monitors or interactive operating systems. They used batch processing, where programs were loaded via punched cards and run in groups (batches).",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "First-generation computers were massive, expensive, and highly inefficient. Which of the following was a primary drawback of vacuum tubes?",
+    "Options": [
+      "A) They were too small to handle complex code.",
+      "B) They produced enormous heat and broke down frequently.",
+      "C) They could only process text but not numbers.",
+      "D) They required a high-speed internet connection."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Vacuum tubes generated massive amounts of heat, burned out very quickly, and consumed vast amounts of electricity, requiring constant maintenance.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What language did First-Generation computers use directly to execute instructions without any translation?",
+    "Options": [
+      "A) High-Level Language (like C++)",
+      "B) Assembly Language (using mnemonics)",
+      "C) Machine Language (Binary Code: 0s and 1s)",
+      "D) Natural English Language"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Machine language is the lowest-level language made entirely of 0s and 1s, which First-Generation hardware understood directly.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "ENIAC and UNIVAC are classic examples of computers belonging to which technological era?",
+    "Options": [
+      "A) First Generation",
+      "B) Second Generation",
+      "C) Third Generation",
+      "D) Fourth Generation"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "ENIAC (Electronic Numerical Integrator and Computer) and UNIVAC (Universal Automatic Computer) were pioneering machines built using vacuum tubes, placing them squarely in the First Generation.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "In Second-Generation computers (1956-1963), vacuum tubes were completely replaced by which smaller, more efficient component?",
+    "Options": [
+      "A) Microprocessors",
+      "B) Transistors",
+      "C) Silicon Chips",
+      "D) Artificial Intelligence cores"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The invention of the transistor revolutionized computing by replacing bulky vacuum tubes, making Second-Generation computers faster, smaller, and less power-hungry.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of computer programming languages emerged during the Second Generation, making code easier to write using abbreviations (mnemonics) like ADD and SUB?",
+    "Options": [
+      "A) Machine Language",
+      "B) Assembly Language",
+      "C) Object-Oriented Language",
+      "D) Visual Block Programming"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Assembly language was introduced in the second generation. It substituted binary codes with easy-to-remember mnemonics, though it still required a translator (Assembler) to run.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Early high-level programming languages like FORTRAN and COBOL were developed to run on which generation of computers?",
+    "Options": [
+      "A) First Generation",
+      "B) Second Generation",
+      "C) Fourth Generation",
+      "D) Fifth Generation"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "FORTRAN (Formula Translation) and COBOL (Common Business-Oriented Language) were developed during the Second Generation to help scientists and businesses write programs in English-like statements.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What invention marked the transition into Third-Generation computers (1964-1971), packing hundreds of transistors onto a single silicon chip?",
+    "Options": [
+      "A) Integrated Circuit (IC)",
+      "B) Microprocessor",
+      "C) Magnetic Drum Memory",
+      "D) Vacuum Valve"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Jack Kilby and Robert Noyce invented the Integrated Circuit (IC), which combined transistors, resistors, and capacitors onto a tiny piece of silicon, defining the Third Generation.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which major peripheral devices were first introduced during the Third Generation to allow users to interact dynamically with computers instead of using punched cards?",
+    "Options": [
+      "A) Joysticks and VR Headsets",
+      "B) Keyboards and Monitors",
+      "C) Printers and Plotters",
+      "D) Optical Scanners"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Instead of checking punched card printouts hours later, Third-Generation systems allowed users to type commands on keyboards and view immediate results on screen monitors via an operating system.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "The ability of a computer to run multiple different programs simultaneously (Multi-programming) was first introduced in which generation?",
+    "Options": [
+      "A) First Generation",
+      "B) Second Generation",
+      "C) Third Generation",
+      "D) Fifth Generation"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Operating systems developed during the Third Generation were sophisticated enough to share memory resources, allowing multiple tasks or programs to stay active at once.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Fourth-Generation computers (1971-Present) are characterized by the invention of the microprocessor. What technology allows millions of components to fit onto a single microprocessor chip?",
+    "Options": [
+      "A) Vacuum Control Systems",
+      "B) Magnetic Core Storage",
+      "C) VLSI (Very Large Scale Integration)",
+      "D) Quantum Particle Alignment"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "VLSI technology allowed thousands—and later millions—of electronic components to be integrated onto a single microchip, creating the modern central processing unit (CPU).",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What was the name of the world's first commercially available single-chip microprocessor, released by Intel in 1971?",
+    "Options": [
+      "A) Intel 8086",
+      "B) Intel 4004",
+      "C) Pentium I",
+      "D) Core i3"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Intel 4004 was the first commercial programmable microprocessor chip, centralizing all processing functions into a tiny single unit.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Because of the microprocessor chip, computers became small and affordable enough to sit on home and office desks. What are these computers called?",
+    "Options": [
+      "A) Mainframe Computers",
+      "B) Personal Computers (PCs) / Microcomputers",
+      "C) Supercomputers",
+      "D) Analog Computers"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Fourth Generation birthed Microcomputers, commonly referred to as Personal Computers (PCs), laptops, and workstations designed for individual use.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which iconic personal computers were developed during the Fourth Generation, bringing computing power directly to everyday consumers?",
+    "Options": [
+      "A) ENIAC and EDVAC",
+      "B) IBM 360 and PDP-11",
+      "C) Apple II and IBM PC",
+      "D) PARAM 10000"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "The Apple II and the IBM PC were landmark fourth-generation microcomputers that pioneered the personal computing boom in homes and schools.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Fifth-Generation computing devices are currently being developed. What is the core underlying technology driving this current generation?",
+    "Options": [
+      "A) ULSI (Ultra Large Scale Integration) and Artificial Intelligence (AI)",
+      "B) Transistors made of wood",
+      "C) Advanced Punch Cards",
+      "D) Vacuum Tubes combined with Silicon"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The Fifth Generation relies on ULSI technology and Artificial Intelligence (AI), which aims to create devices capable of learning, reasoning, and recognizing human speech.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which of the following real-world applications is an excellent everyday example of Fifth-Generation computing technology?",
+    "Options": [
+      "A) Typing a letter in a word processor",
+      "B) A pocket calculator solving an equation",
+      "C) Voice assistants like Siri, Alexa, or Google Assistant",
+      "D) Playing a CD-ROM on a computer player"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Voice assistants use natural language processing and voice recognition, which are direct subfields of Artificial Intelligence (Fifth Generation).",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Match the following primary components with their respective generations: 1) Integrated Circuits, 2) Vacuum Tubes, 3) Microprocessors, 4) Transistors.",
+    "Options": [
+      "A) 1-First, 2-Second, 3-Third, 4-Fourth",
+      "B) 1-Third, 2-First, 3-Fourth, 4-Second",
+      "C) 1-Second, 2-First, 3-Fourth, 4-Third",
+      "D) 1-Fourth, 2-Third, 3-Second, 4-First"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "First Gen = Vacuum Tubes; Second Gen = Transistors; Third Gen = Integrated Circuits; Fourth Gen = Microprocessors. This corresponds to sequence B.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What types of computers process data that varies continuously, such as measuring temperature, pressure, speed, or voltage?",
+    "Options": [
+      "A) Digital Computers",
+      "B) Hybrid Computers",
+      "C) Analog Computers",
+      "D) Mainframe Computers"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Analog computers operate on continuous physical variables (like measuring voltage or fluid pressure) rather than calculating distinct numerical digits.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Modern personal computers count and manipulate discrete data using binary digits (0s and 1s). What class of computer do these belong to?",
+    "Options": [
+      "A) Analog Computers",
+      "B) Digital Computers",
+      "C) Mechanical Calculating Devices",
+      "D) Abacus Cores"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Digital computers process information explicitly in the form of discrete numbers or digits, utilizing the binary system of zeros and ones.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "An ICU monitor in a hospital measures a patient's continuous heartbeat (analog signal) and converts it into numerical readings on a digital screen. What classification describes this device?",
+    "Options": [
+      "A) Pure Analog Computer",
+      "B) Pure Mainframe Computer",
+      "C) Hybrid Computer",
+      "D) Mechanical Device"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Hybrid computers combine the features of both analog and digital computers, accepting continuous analog signals and processing them digitally.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of computer is the fastest, most expensive, and used by global scientific organizations for complex tasks like weather forecasting and space exploration?",
+    "Options": [
+      "A) Microcomputer",
+      "B) Minicomputer",
+      "C) Mainframe Computer",
+      "D) Supercomputer"
+    ],
+    "CorrectAnswer": "D",
+    "Explanation": "Supercomputers are incredibly powerful machines built to compute trillions of complex calculations per second, handling massive simulations like weather patterns or rocket launches.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which of the following is an example of a famous supercomputer developed natively in India?",
+    "Options": [
+      "A) PARAM 8000",
+      "B) CRAY-1",
+      "C) IBM 370",
+      "D) Intel Core i9"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "The PARAM 8000, built by C-DAC in 1991, is widely recognized as India's first indigenous supercomputer.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Large organizations like banks, insurance companies, and airlines need computers that allow thousands of users to access shared databases safely at the same time. Which class of computer fits this description?",
+    "Options": [
+      "A) Laptops",
+      "B) Mainframe Computers",
+      "C) Analog Speedometers",
+      "D) Embedded Devices"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Mainframe computers are ultra-reliable, high-capacity systems designed to process vast amounts of continuous transactions and serve thousands of remote users simultaneously.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "A smartphone is essentially a tiny computer that sits in your hand. Under which broad category of size-based classification does it fall?",
+    "Options": [
+      "A) Mainframe Computer",
+      "B) Microcomputer",
+      "C) Minicomputer",
+      "D) Supercomputer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Smartphones, tablets, laptops, and desktop computers all contain compact microprocessors meant for individual use, categorizing them as microcomputers.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "A digital wristwatch or an electronic washing machine contains a specialized computer system permanently fixed inside it to handle a specific task. What is this type of computer called?",
+    "Options": [
+      "A) Supercomputer",
+      "B) Mainframe System",
+      "C) Embedded Computer",
+      "D) Analytical Machine"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "An embedded computer is integrated directly into a non-computer appliance to manage and automate specific operations.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the abbreviation 'EDVAC', a famous early computer from the First Generation, stand for?",
+    "Options": [
+      "A) Electronic Discrete Variable Automatic Computer",
+      "B) Electrical Digital Vacuum Automated Calculator",
+      "C) Engine Device for Velocity and Code",
+      "D) Extended Data Variable Analog Computer"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "EDVAC stands for Electronic Discrete Variable Automatic Computer. It succeeded ENIAC by introducing the concept of stored programs.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which computer architecture concept, developed by John von Neumann in the late 1940s, allowed programs and data to be stored together in the computer's memory?",
+    "Options": [
+      "A) Vacuum Core System",
+      "B) Stored-Program Concept",
+      "C) Transistor Distribution Scheme",
+      "D) External Card Loading"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The 'Stored-Program Concept' introduced by John von Neumann enabled a computer to store both instructions and data in its electronic memory, meaning it no longer required manual rewiring between tasks.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "A car's mechanical pointer speedometer moves smoothly based on the rotation rate of the tires. What kind of computing mechanism does this represent?",
+    "Options": [
+      "A) Digital Mechanism",
+      "B) Binary Code Scheme",
+      "C) Analog Mechanism",
+      "D) Microprocessor Chip"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Because it measures continuous physical movement (speed) directly rather than calculating numeric integers, it functions as an analog system.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Identify the incorrect statement regarding the comparison between First-Generation and Fourth-Generation computers.",
+    "Options": [
+      "A) First-generation systems generated significantly more heat than fourth-generation computers.",
+      "B) Fourth-generation computers can execute billions of instructions per second, whereas first-generation units were much slower.",
+      "C) First-generation computers were easily portable and could fit inside a regular backpack.",
+      "D) Fourth-generation computers use microprocessors, while first-generation systems used vacuum tubes."
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "First-generation computers were massive, often occupying entire rooms or halls, making them impossible to pack or carry around.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Why did Third-Generation computers cost significantly less to build and consume far less electricity compared to Second-Generation systems?",
+    "Options": [
+      "A) They completely stopped using metal wires.",
+      "B) Integrated Circuits combined numerous components onto a tiny silicon slice, maximizing efficiency.",
+      "C) They ran exclusively on solar batteries.",
+      "D) They used mechanical wooden cogs instead of electric currents."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "By condensing extensive circuitry onto small silicon chips (ICs), the size, power usage, heat output, and assembly costs dropped drastically.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Gottfried Wilhelm Leibniz enhanced Pascal's design to create a mechanical calculator in 1694 that could add, subtract, multiply, and divide. What was this device named?",
+    "Options": [
+      "A) Analytical Engine",
+      "B) Stepped Reckoner",
+      "C) Difference Engine",
+      "D) Tabulating Machine"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Leibniz invented the Stepped Reckoner (or Leibniz Wheel), which added automated multiplication and division capabilities to the basic arithmetic model used by Pascal.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which item acts as the primary defining technological feature separating Fourth-Generation machines from current Fifth-Generation computers?",
+    "Options": [
+      "A) The absolute abandonment of silicon materials",
+      "B) Artificial Intelligence, voice processing, and advanced logical inference",
+      "C) Reverting back to high-grade reliable vacuum designs",
+      "D) Eliminating operating systems entirely"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "While Fourth-Generation systems focus on raw speed and execution via traditional software, Fifth-Generation machines leverage AI to process voice commands, learn behaviors, and model human reasoning.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "The legendary UNIVAC I, built in 1951, holds a distinct place in history. What milestone did this machine achieve?",
+    "Options": [
+      "A) It was the first computer small enough to run on batteries.",
+      "B) It was the first commercial electronic computer delivered to a business consumer (the US Census Bureau).",
+      "C) It was the first machine to feature a color desktop monitor.",
+      "D) It used wireless internet connections."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "UNIVAC I was the first commercially manufactured computer, breaking the trend of machines being built purely as one-off laboratory research experiments.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which type of physical medium was used as the principal method for inputting data into First-Generation computers?",
+    "Options": [
+      "A) Hard Disk Drives",
+      "B) Punched Cards",
+      "C) USB Flash Drives",
+      "D) Computer Mouse clicking"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "First-generation computers did not have modern storage drives or touch displays. Data and program instructions had to be punched manually into paper cards as patterns of holes.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Consider this riddle: 'I do not use electricity. I have no screen. I am made of a step-like drum wheel mechanism, and I was built in the 17th century to add, subtract, multiply, and divide.' What device am I?",
+    "Options": [
+      "A) The Abacus",
+      "B) The Stepped Reckoner",
+      "C) The ENIAC",
+      "D) The Apple Mac"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Stepped Reckoner was a 17th-century purely mechanical device that introduced a special stepped drum wheel to perform all four basic arithmetic operations.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "If a modern office desktop computer belongs to the Fourth Generation, which of the following internal processing elements is it guaranteed to contain?",
+    "Options": [
+      "A) An array of thousands of glowing vacuum tubes",
+      "B) A microprocessor chip containing VLSI circuits",
+      "C) A gear-and-crank assembly system",
+      "D) A mechanical sorting tray for punched cards"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "All modern Fourth-Generation desktop systems process tasks via a centralized silicon microprocessor built on Very Large Scale Integration (VLSI) technology.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which early electronic computer, built during World War II, was designed as a completely secret tool to help British codebreakers crack encrypted military communications?",
+    "Options": [
+      "A) Pascaline",
+      "B) Colossus",
+      "C) UNIVAC",
+      "D) Analytical Engine"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The Colossus was a secret, special-purpose electronic computer engineered in Britain during WWII to decrypt encrypted German military radio messages.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the abbreviation 'ENIAC' stand for?",
+    "Options": [
+      "A) Electronic Numerical Integrator and Computer",
+      "B) Engine Network for International Advanced Coding",
+      "C) Electrical Number Indicator Analog Calculator",
+      "D) Efficient Numeric Integrated Automated Controller"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "ENIAC stands for Electronic Numerical Integrator and Computer. Completed in 1946, it was the world's first general-purpose electronic digital computer.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "As we trace computer history from the First Generation to the Fourth Generation, what is the clear long-term trend regarding computer physical size and speed?",
+    "Options": [
+      "A) Physical size increased significantly while speed dropped.",
+      "B) Physical size decreased significantly while speed increased dramatically.",
+      "C) Physical size and operational speed both remained exactly identical.",
+      "D) Physical size decreased while the machines became much slower."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The progression of computing history shows a steady shrinking of physical hardware alongside exponential gains in operational calculation speeds.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of computer memory hardware was heavily used for data storage during the Second and Third generations before solid-state and modern magnetic disks became standard?",
+    "Options": [
+      "A) Wooden slide rules",
+      "B) Magnetic Core Memory",
+      "C) Cloud Storage Servers",
+      "D) Blu-ray Drives"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Magnetic core memory, which used small magnetic rings to store bits, served as the primary form of fast random-access memory (RAM) during the 1950s and 1960s.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Computer Generations",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "A weather station uses a massive system to track air currents, pressure readings, ocean temperatures, and complex physics equations simultaneously. What type of computer handles this workload?",
+    "Options": [
+      "A) Microcomputer",
+      "B) Embedded Device",
+      "C) Supercomputer",
+      "D) Analog Speedometer"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Simulating planetary systems or weather patterns requires processing immense data sets and billions of equations per second, a workload that only supercomputers can manage efficiently.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Types of Computers",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Charles Babbage envisioned two distinct calculating machines. One was the Analytical Engine. What was the name of his earlier machine, designed to compute mathematical tables using subtraction and addition?",
+    "Options": [
+      "A) Tabulating Machine",
+      "B) Difference Engine",
+      "C) Stepped Reckoner",
+      "D) Abacus II"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Babbage began work on the Difference Engine in the 1820s, a mechanical machine designed specifically to calculate error-free mathematical and navigational tables.",
+    "Topic": "Evolution of Computers & Generations",
+    "SubTopic": "Early Calculating Devices",
+    "Difficulty": "Olympiad"
+  }
+]

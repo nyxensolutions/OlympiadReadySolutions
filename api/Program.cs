@@ -12,15 +12,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // ── GlitchTip / Sentry error tracking ────────────────────────────────────────
-builder.WebHost.UseSentry(o =>
+if (builder.Environment.IsProduction())
 {
-    o.Dsn = builder.Configuration["Sentry:Dsn"];
-    o.TracesSampleRate = builder.Configuration.GetValue<double>("Sentry:TracesSampleRate", 0.1);
-    o.Environment = builder.Configuration["Sentry:Environment"] ?? builder.Environment.EnvironmentName;
-    o.Debug = builder.Environment.IsDevelopment();
-    // Attach request body to error events (useful for diagnosing generation failures)
-    o.MaxRequestBodySize = Sentry.Extensibility.RequestSize.Medium;
-});
+    builder.WebHost.UseSentry(o =>
+    {
+        o.Dsn = builder.Configuration["Sentry:Dsn"];
+        o.TracesSampleRate = builder.Configuration.GetValue<double>("Sentry:TracesSampleRate", 0.1);
+        o.Environment = builder.Configuration["Sentry:Environment"] ?? builder.Environment.EnvironmentName;
+        o.Debug = builder.Environment.IsDevelopment();
+        // Attach request body to error events (useful for diagnosing generation failures)
+        o.MaxRequestBodySize = Sentry.Extensibility.RequestSize.Medium;
+    });
+}
 // ─────────────────────────────────────────────────────────────────────────────
 builder.Services.AddHttpClient<BrevoEmailService>();
 builder.Services.AddScoped<IEmailService, BrevoEmailService>();
@@ -100,7 +103,10 @@ app.UseSwaggerUI();
 
 app.UseStaticFiles();
 app.UseCors(CorsPolicy);
-app.UseSentryTracing(); // must be before auth so request spans are captured
+if (app.Environment.IsProduction())
+{
+    app.UseSentryTracing(); // must be before auth so request spans are captured
+}
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

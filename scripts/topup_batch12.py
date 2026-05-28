@@ -1,0 +1,695 @@
+import pyodbc, uuid, json, sys
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+conn = pyodbc.connect(
+    "DRIVER={ODBC Driver 17 for SQL Server};"
+    "SERVER=olympiadready-np.database.windows.net;"
+    "DATABASE=OlympiadReady;"
+    "UID=nyxen-admin;PWD=Olympiad@2026"
+)
+
+def insert(conn, q):
+    c = conn.cursor()
+    c.execute("SELECT 1 FROM QuestionBank WHERE Subject=? AND Grade=? AND SubTopic=? AND QuestionText=?",
+              q["subject"], q["grade"], q["subTopic"], q["questionText"])
+    if c.fetchone():
+        return "DUP"
+    c.execute("""INSERT INTO QuestionBank
+                 (QuestionBankId,Subject,Grade,Difficulty,Topic,SubTopic,
+                  QuestionText,OptionsJson,CorrectAnswer,Explanation,CreatedAt)
+                 VALUES (?,?,?,?,?,?,?,?,?,?,GETUTCDATE())""",
+              str(uuid.uuid4()).upper(), q["subject"], q["grade"], q["difficulty"],
+              q["topic"], q["subTopic"], q["questionText"],
+              json.dumps(q["options"]), q["correctAnswer"], q["explanation"])
+    conn.commit()
+    return "OK"
+
+questions = [
+
+# ── GK G6 Foundation (+15q, 15→30) ────────────────────────────────────────────
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Facts",
+ "questionText":"Which planet is called the 'Blue Planet'?",
+ "options":["A: Mars","B: Neptune","C: Earth","D: Uranus"],
+ "correctAnswer":"C",
+ "explanation":"Earth is called the 'Blue Planet' because about 71% of its surface is covered with water, giving it a blue appearance from space."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Geography",
+ "questionText":"Which river is known as the 'Ganga of the South'?",
+ "options":["A: Godavari","B: Krishna","C: Cauvery","D: Narmada"],
+ "correctAnswer":"A",
+ "explanation":"The Godavari is known as 'Dakshina Ganga' (Ganga of the South). It is the longest river in Peninsular India."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World Records",
+ "questionText":"Which is the tallest mountain in the world?",
+ "options":["A: K2","B: Kangchenjunga","C: Mount Everest","D: Lhotse"],
+ "correctAnswer":"C",
+ "explanation":"Mount Everest (8,848.86 m) is the world's tallest mountain above sea level, located in the Himalayas on the Nepal-Tibet border."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian History",
+ "questionText":"Who is known as the 'Father of the Indian Nation'?",
+ "options":["A: Jawaharlal Nehru","B: Sardar Patel","C: Mahatma Gandhi","D: Subhas Chandra Bose"],
+ "correctAnswer":"C",
+ "explanation":"Mahatma Gandhi (Mohandas Karamchand Gandhi) is known as the Father of the Nation. He led India's non-violent independence movement against British rule."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Facts",
+ "questionText":"What is the chemical symbol for water?",
+ "options":["A: Wa","B: H2O","C: HO2","D: WA2"],
+ "correctAnswer":"B",
+ "explanation":"Water's chemical formula is H₂O — two hydrogen atoms bonded to one oxygen atom."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World Geography",
+ "questionText":"Which is the largest continent in the world?",
+ "options":["A: Africa","B: North America","C: Australia","D: Asia"],
+ "correctAnswer":"D",
+ "explanation":"Asia is the world's largest continent by both area (~44.6 million km²) and population (~4.7 billion people)."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Sports",
+ "questionText":"How many players are there in a cricket team?",
+ "options":["A: 9","B: 10","C: 11","D: 12"],
+ "correctAnswer":"C",
+ "explanation":"A cricket team consists of 11 players. One team bats while the other fields; the batting team tries to score runs."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Culture",
+ "questionText":"Which dance form is classical and originates from Tamil Nadu?",
+ "options":["A: Kathak","B: Bharatanatyam","C: Odissi","D: Manipuri"],
+ "correctAnswer":"B",
+ "explanation":"Bharatanatyam is one of India's oldest classical dance forms, originating from Tamil Nadu. It is known for its fixed upper torso, bent legs, and spectacular footwork."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Technology",
+ "questionText":"Who invented the telephone?",
+ "options":["A: Thomas Edison","B: Nikola Tesla","C: Alexander Graham Bell","D: Guglielmo Marconi"],
+ "correctAnswer":"C",
+ "explanation":"Alexander Graham Bell is credited with inventing the first practical telephone in 1876. He made the first successful telephone call to his assistant Thomas Watson."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Geography",
+ "questionText":"What is the capital city of India?",
+ "options":["A: Mumbai","B: Kolkata","C: Chennai","D: New Delhi"],
+ "correctAnswer":"D",
+ "explanation":"New Delhi is the capital of India and serves as the seat of all three branches of the Government of India."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World Geography",
+ "questionText":"The Amazon rainforest is located primarily in which country?",
+ "options":["A: Colombia","B: Peru","C: Brazil","D: Venezuela"],
+ "correctAnswer":"C",
+ "explanation":"About 60% of the Amazon rainforest is located in Brazil. It is the world's largest tropical rainforest and biodiversity hotspot."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Constitution",
+ "questionText":"How many fundamental rights are guaranteed to Indian citizens under the Constitution?",
+ "options":["A: 5","B: 6","C: 7","D: 9"],
+ "correctAnswer":"B",
+ "explanation":"The Indian Constitution guarantees 6 Fundamental Rights: Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Constitutional Remedies."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Animals",
+ "questionText":"Which is the national animal of India?",
+ "options":["A: Lion","B: Elephant","C: Bengal Tiger","D: Leopard"],
+ "correctAnswer":"C",
+ "explanation":"The Bengal Tiger (Panthera tigris tigris) is the national animal of India. Project Tiger was launched in 1973 to conserve the tiger population."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Space Science",
+ "questionText":"How long does Earth take to complete one revolution around the Sun?",
+ "options":["A: 24 hours","B: 30 days","C: 365.25 days","D: 28 days"],
+ "correctAnswer":"C",
+ "explanation":"Earth takes approximately 365.25 days to orbit the Sun. This extra 0.25 day accumulates over 4 years to give us a leap year with 366 days."},
+
+{"subject":"General Knowledge","grade":6,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Books and Authors",
+ "questionText":"Who wrote the Indian national anthem 'Jana Gana Mana'?",
+ "options":["A: Bankim Chandra Chatterjee","B: Rabindranath Tagore","C: Sarojini Naidu","D: Subramania Bharati"],
+ "correctAnswer":"B",
+ "explanation":"'Jana Gana Mana' was written by Rabindranath Tagore. It was officially adopted as the National Anthem of India on 24 January 1950."},
+
+# ── GK G7 Foundation (+15q, 15→30) ────────────────────────────────────────────
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Inventions",
+ "questionText":"Who is credited with discovering penicillin?",
+ "options":["A: Louis Pasteur","B: Edward Jenner","C: Alexander Fleming","D: Robert Koch"],
+ "correctAnswer":"C",
+ "explanation":"Alexander Fleming discovered penicillin in 1928 when he noticed that the mould Penicillium notatum was killing bacteria in his petri dish. It became the first antibiotic."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World Geography",
+ "questionText":"Which is the smallest country in the world by area?",
+ "options":["A: Monaco","B: San Marino","C: Vatican City","D: Liechtenstein"],
+ "correctAnswer":"C",
+ "explanation":"Vatican City (0.44 km²) is the world's smallest internationally recognised country. It is an independent city-state within Rome, Italy, and home to the Pope."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian History",
+ "questionText":"In which year did India gain independence from British rule?",
+ "options":["A: 1942","B: 1945","C: 1947","D: 1950"],
+ "correctAnswer":"C",
+ "explanation":"India gained independence from British rule on 15 August 1947. Jawaharlal Nehru became the first Prime Minister and hoisted the national flag at the Red Fort in Delhi."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Space Science",
+ "questionText":"Which planet has the most moons in our solar system?",
+ "options":["A: Jupiter","B: Saturn","C: Uranus","D: Neptune"],
+ "correctAnswer":"B",
+ "explanation":"Saturn currently holds the record with 146 confirmed moons (as of 2023), overtaking Jupiter. Saturn's largest moon is Titan, which has a thick atmosphere."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Sports",
+ "questionText":"Which country has won the most FIFA World Cup titles?",
+ "options":["A: Germany","B: Argentina","C: Brazil","D: Italy"],
+ "correctAnswer":"C",
+ "explanation":"Brazil has won the FIFA World Cup a record 5 times (1958, 1962, 1970, 1994, 2002). Brazil is the only team to have played in every World Cup tournament."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Facts",
+ "questionText":"What is the hardest natural substance on Earth?",
+ "options":["A: Gold","B: Iron","C: Diamond","D: Quartz"],
+ "correctAnswer":"C",
+ "explanation":"Diamond rates 10 on the Mohs hardness scale — the highest possible. It is a form of carbon where atoms are arranged in a crystal lattice, making it extremely hard."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Geography",
+ "questionText":"Which Indian state has the longest coastline?",
+ "options":["A: Kerala","B: Tamil Nadu","C: Odisha","D: Gujarat"],
+ "correctAnswer":"D",
+ "explanation":"Gujarat has the longest coastline of any Indian state at approximately 1,600 km. It borders the Arabian Sea and the Gulf of Kutch."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Literature",
+ "questionText":"Who wrote 'The Jungle Book'?",
+ "options":["A: Mark Twain","B: Rudyard Kipling","C: Lewis Carroll","D: Charles Dickens"],
+ "correctAnswer":"B",
+ "explanation":"'The Jungle Book' was written by Rudyard Kipling (1894). It tells the story of Mowgli, a boy raised by wolves in the Indian jungle."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Health and Science",
+ "questionText":"Which vitamin is produced when your skin is exposed to sunlight?",
+ "options":["A: Vitamin A","B: Vitamin B12","C: Vitamin C","D: Vitamin D"],
+ "correctAnswer":"D",
+ "explanation":"Vitamin D is synthesised in the skin when exposed to ultraviolet B (UVB) rays from sunlight. It is essential for calcium absorption and bone health."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World Geography",
+ "questionText":"Which is the longest river in the world?",
+ "options":["A: Amazon","B: Yangtze","C: Mississippi","D: Nile"],
+ "correctAnswer":"D",
+ "explanation":"The Nile River in Africa is traditionally considered the world's longest river at approximately 6,650 km. It flows northward through northeastern Africa into the Mediterranean Sea."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Technology",
+ "questionText":"What does 'WWW' stand for in a website address?",
+ "options":["A: World Wide Web","B: World Web Wire","C: Wide Web World","D: Web World Wire"],
+ "correctAnswer":"A",
+ "explanation":"WWW stands for World Wide Web — the information system on the internet that allows documents to be linked using hyperlinks. It was invented by Tim Berners-Lee in 1989."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Culture",
+ "questionText":"Which festival is known as the 'Festival of Lights' in India?",
+ "options":["A: Holi","B: Eid","C: Diwali","D: Navratri"],
+ "correctAnswer":"C",
+ "explanation":"Diwali (Deepavali) is the Hindu Festival of Lights celebrated in autumn. People light oil lamps (diyas) to symbolise the victory of light over darkness."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Animals",
+ "questionText":"What is the largest living bird by height?",
+ "options":["A: Emu","B: Cassowary","C: Ostrich","D: Albatross"],
+ "correctAnswer":"C",
+ "explanation":"The Ostrich is the world's largest living bird, standing up to 2.7 metres tall and weighing up to 156 kg. It cannot fly but runs at speeds up to 70 km/h."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Polity",
+ "questionText":"Who is the constitutional head of state of India?",
+ "options":["A: Prime Minister","B: Chief Justice of India","C: President of India","D: Speaker of Lok Sabha"],
+ "correctAnswer":"C",
+ "explanation":"The President of India is the constitutional head of state. The Prime Minister is the head of government and holds real executive power. The President acts on the advice of the Council of Ministers."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Facts",
+ "questionText":"Which gas do plants absorb during photosynthesis?",
+ "options":["A: Oxygen","B: Nitrogen","C: Carbon dioxide","D: Hydrogen"],
+ "correctAnswer":"C",
+ "explanation":"Plants absorb carbon dioxide (CO₂) from the atmosphere during photosynthesis, combining it with water and sunlight to make glucose and oxygen."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World Records",
+ "questionText":"Which is the world's largest ocean?",
+ "options":["A: Atlantic Ocean","B: Indian Ocean","C: Arctic Ocean","D: Pacific Ocean"],
+ "correctAnswer":"D",
+ "explanation":"The Pacific Ocean is the world's largest, covering about 165 million km² — more than all the land on Earth combined. It spans from the Arctic to the Antarctic."},
+
+# ── GK G7 Advanced (+15q, 20→35) ──────────────────────────────────────────────
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Science — Physics",
+ "questionText":"What is the speed of light in vacuum?",
+ "options":["A: 3×10⁶ m/s","B: 3×10⁸ m/s","C: 3×10¹⁰ m/s","D: 3×10⁴ m/s"],
+ "correctAnswer":"B",
+ "explanation":"The speed of light in vacuum is approximately 3×10⁸ m/s (299,792,458 m/s exactly). It is denoted 'c' and is the fastest speed possible in the universe."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"History — World",
+ "questionText":"The 'Berlin Wall' that divided East and West Germany fell in:",
+ "options":["A: 1985","B: 1987","C: 1989","D: 1991"],
+ "correctAnswer":"C",
+ "explanation":"The Berlin Wall fell on 9 November 1989. It had divided Berlin since 1961. Its fall symbolised the end of the Cold War and led to German reunification in 1990."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Science — Chemistry",
+ "questionText":"What is the most abundant gas in Earth's atmosphere?",
+ "options":["A: Oxygen","B: Carbon dioxide","C: Argon","D: Nitrogen"],
+ "correctAnswer":"D",
+ "explanation":"Nitrogen (N₂) makes up about 78% of Earth's atmosphere, followed by oxygen (~21%), argon (~0.9%), and CO₂ (~0.04%)."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Indian History",
+ "questionText":"The Battle of Panipat (1526) was fought between Babur and:",
+ "options":["A: Rana Sanga","B: Ibrahim Lodi","C: Hemu","D: Sher Shah Suri"],
+ "correctAnswer":"B",
+ "explanation":"The First Battle of Panipat (21 April 1526) was fought between Babur (Mughal) and Ibrahim Lodi (Delhi Sultanate). Babur's victory established the Mughal Empire in India."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Science — Biology",
+ "questionText":"The study of heredity and genetic variation in organisms is called:",
+ "options":["A: Ecology","B: Genetics","C: Taxonomy","D: Embryology"],
+ "correctAnswer":"B",
+ "explanation":"Genetics is the branch of biology that studies heredity — how traits are passed from parents to offspring — and genetic variation within and between populations."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"World Geography",
+ "questionText":"Which strait separates Asia from North America?",
+ "options":["A: Strait of Malacca","B: Bering Strait","C: Strait of Hormuz","D: Strait of Gibraltar"],
+ "correctAnswer":"B",
+ "explanation":"The Bering Strait separates Siberia (Russia/Asia) from Alaska (USA/North America). At its narrowest, it is only about 82 km wide."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Art and Culture",
+ "questionText":"The painting 'Mona Lisa' was created by which Renaissance artist?",
+ "options":["A: Michelangelo","B: Raphael","C: Leonardo da Vinci","D: Donatello"],
+ "correctAnswer":"C",
+ "explanation":"The Mona Lisa was painted by Leonardo da Vinci between approximately 1503 and 1519. It is displayed at the Louvre Museum in Paris and is the world's most famous painting."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Economics",
+ "questionText":"GDP stands for:",
+ "options":["A: Gross Domestic Product","B: General Domestic Production","C: Gross Domestic Performance","D: Global Development Program"],
+ "correctAnswer":"A",
+ "explanation":"GDP (Gross Domestic Product) is the total monetary value of all goods and services produced in a country within a specific time period. It is the primary measure of a country's economic size."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Science — Space",
+ "questionText":"Which spacecraft was the first to land humans on the Moon?",
+ "options":["A: Apollo 10","B: Apollo 11","C: Gemini 4","D: Luna 9"],
+ "correctAnswer":"B",
+ "explanation":"Apollo 11 (20 July 1969) was the first crewed spacecraft to land on the Moon. Neil Armstrong and Buzz Aldrin were the first humans to walk on the lunar surface."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Indian Science",
+ "questionText":"ISRO's first satellite launch vehicle was:",
+ "options":["A: PSLV","B: GSLV","C: SLV-3","D: ASLV"],
+ "correctAnswer":"C",
+ "explanation":"SLV-3 (Satellite Launch Vehicle) was India's first experimental rocket. Its first successful launch was on 18 July 1980, placing the Rohini satellite into orbit."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Literature — Indian",
+ "questionText":"Rabindranath Tagore won the Nobel Prize in Literature in 1913 for which work?",
+ "options":["A: Gitanjali","B: Gora","C: Ghare Baire","D: Chokher Bali"],
+ "correctAnswer":"A",
+ "explanation":"Tagore was awarded the Nobel Prize in Literature in 1913 for 'Gitanjali' (Song Offerings) — a collection of devotional poems. He was the first non-European to win the Nobel Prize in Literature."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Environment",
+ "questionText":"The Kyoto Protocol (1997) was an international agreement aimed at:",
+ "options":["A: Protecting marine biodiversity","B: Reducing greenhouse gas emissions","C: Banning nuclear weapons","D: Preserving rainforests"],
+ "correctAnswer":"B",
+ "explanation":"The Kyoto Protocol was an international treaty that committed industrialised nations to reducing greenhouse gas emissions. It came into force in 2005 and was succeeded by the Paris Agreement (2015)."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Technology",
+ "questionText":"The binary number system uses only which two digits?",
+ "options":["A: 1 and 2","B: 0 and 1","C: 0 and 2","D: 1 and 9"],
+ "correctAnswer":"B",
+ "explanation":"The binary (base-2) number system uses only 0 and 1. All data in computers is stored and processed in binary. Each digit is called a 'bit'."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Human Body",
+ "questionText":"The human brain is divided into how many main lobes?",
+ "options":["A: 2","B: 3","C: 4","D: 6"],
+ "correctAnswer":"C",
+ "explanation":"Each cerebral hemisphere has 4 lobes: Frontal (reasoning, movement), Parietal (sensation, spatial awareness), Temporal (memory, hearing), and Occipital (vision)."},
+
+{"subject":"General Knowledge","grade":7,"difficulty":"Advanced","topic":"General Knowledge",
+ "subTopic":"Indian Geography",
+ "questionText":"The Deccan Plateau is bounded by which mountain ranges on the east and west?",
+ "options":["A: Aravallis and Vindhyas","B: Eastern Ghats and Western Ghats","C: Himalayas and Satpuras","D: Nilgiris and Shivaliks"],
+ "correctAnswer":"B",
+ "explanation":"The Deccan Plateau is flanked by the Western Ghats on the west and the Eastern Ghats on the east. The plateau slopes gently from west to east, so most rivers flow eastward."},
+
+# ── GK G9 Foundation (+15q, 15→30) ────────────────────────────────────────────
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Polity",
+ "questionText":"The Constitution of India came into effect on:",
+ "options":["A: 15 August 1947","B: 26 November 1949","C: 26 January 1950","D: 2 October 1950"],
+ "correctAnswer":"C",
+ "explanation":"The Constitution of India was adopted on 26 November 1949 (Constitution Day) and came into force on 26 January 1950 — now celebrated as Republic Day."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Technology",
+ "questionText":"Which Indian scientist is known as the 'Missile Man of India'?",
+ "options":["A: C.V. Raman","B: Vikram Sarabhai","C: A.P.J. Abdul Kalam","D: Homi J. Bhabha"],
+ "correctAnswer":"C",
+ "explanation":"Dr. A.P.J. Abdul Kalam is known as the 'Missile Man of India' for his work on developing ballistic missile and launch vehicle technology at DRDO and ISRO. He also served as India's 11th President (2002–2007)."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World Affairs",
+ "questionText":"The United Nations was founded in which year?",
+ "options":["A: 1919","B: 1939","C: 1945","D: 1947"],
+ "correctAnswer":"C",
+ "explanation":"The United Nations was founded on 24 October 1945 after World War II, replacing the League of Nations. It currently has 193 member states and its headquarters is in New York City."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Facts",
+ "questionText":"What is the atomic number of carbon?",
+ "options":["A: 4","B: 6","C: 8","D: 12"],
+ "correctAnswer":"B",
+ "explanation":"Carbon has atomic number 6 (6 protons). Its symbol is 'C'. Carbon forms the backbone of all organic molecules and is the basis of life on Earth."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Economy",
+ "questionText":"The Reserve Bank of India (RBI) was established in:",
+ "options":["A: 1930","B: 1935","C: 1947","D: 1949"],
+ "correctAnswer":"B",
+ "explanation":"The Reserve Bank of India was established on 1 April 1935 under the Reserve Bank of India Act, 1934. It was nationalised on 1 January 1949. It serves as India's central bank."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"World History",
+ "questionText":"World War II ended in which year?",
+ "options":["A: 1943","B: 1944","C: 1945","D: 1946"],
+ "correctAnswer":"C",
+ "explanation":"World War II ended in 1945 — Germany surrendered on 8 May (V-E Day) and Japan surrendered on 2 September (V-J Day) following the atomic bombings of Hiroshima and Nagasaki."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Culture",
+ "questionText":"The Taj Mahal was built by which Mughal emperor?",
+ "options":["A: Akbar","B: Humayun","C: Aurangzeb","D: Shah Jahan"],
+ "correctAnswer":"D",
+ "explanation":"The Taj Mahal in Agra was built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, who died in 1631. It was completed around 1648 and is a UNESCO World Heritage Site."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Environment",
+ "questionText":"The ozone layer, which protects Earth from ultraviolet radiation, is found in the:",
+ "options":["A: Troposphere","B: Stratosphere","C: Mesosphere","D: Thermosphere"],
+ "correctAnswer":"B",
+ "explanation":"The ozone layer is located in the stratosphere, approximately 15–35 km above Earth's surface. It absorbs most of the Sun's harmful ultraviolet-B and ultraviolet-C radiation."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Sports Awards",
+ "questionText":"The Rajiv Gandhi Khel Ratna Award (now Major Dhyan Chand Khel Ratna) is India's highest sports honour. Which cricketer was first to receive it?",
+ "options":["A: Sachin Tendulkar","B: Kapil Dev","C: Viswanathan Anand","D: Leander Paes"],
+ "correctAnswer":"A",
+ "explanation":"Sachin Tendulkar was the first cricketer to receive the Rajiv Gandhi Khel Ratna Award (1997-98). The award is the highest sporting honour given by the Government of India."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science Inventions",
+ "questionText":"Who invented the World Wide Web?",
+ "options":["A: Bill Gates","B: Steve Jobs","C: Tim Berners-Lee","D: Mark Zuckerberg"],
+ "correctAnswer":"C",
+ "explanation":"Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. He created HTML, HTTP, and the first web browser/server. The first website went online on 6 August 1991."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian Geography",
+ "questionText":"Which Union Territory of India has the highest literacy rate?",
+ "options":["A: Delhi","B: Puducherry","C: Chandigarh","D: Lakshadweep"],
+ "correctAnswer":"D",
+ "explanation":"Lakshadweep has India's highest literacy rate at approximately 96.2% (Census 2011). Kerala, among the states, has the highest literacy rate at around 94%."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Awards — Nobel",
+ "questionText":"Who was the first Indian to win the Nobel Prize?",
+ "options":["A: Amartya Sen","B: Rabindranath Tagore","C: C.V. Raman","D: Mother Teresa"],
+ "correctAnswer":"B",
+ "explanation":"Rabindranath Tagore was the first Indian to win a Nobel Prize — in Literature in 1913 for 'Gitanjali'. He was also the first Asian to win the Nobel Prize in Literature."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Science — Space",
+ "questionText":"India's first lunar mission was named:",
+ "options":["A: Mangalyaan","B: Chandrayaan-1","C: Aditya-L1","D: GSAT-1"],
+ "correctAnswer":"B",
+ "explanation":"Chandrayaan-1 was India's first lunar probe, launched by ISRO on 22 October 2008. It orbited the Moon and confirmed the presence of water ice on the lunar surface."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Indian History",
+ "questionText":"The Quit India Movement was launched by Mahatma Gandhi in:",
+ "options":["A: 1930","B: 1939","C: 1942","D: 1945"],
+ "correctAnswer":"C",
+ "explanation":"The Quit India Movement (Bharat Chhodo Andolan) was launched on 8 August 1942, calling for an end to British rule in India. Gandhi gave his famous 'Do or Die' speech."},
+
+{"subject":"General Knowledge","grade":9,"difficulty":"Foundation","topic":"General Knowledge",
+ "subTopic":"Human Body",
+ "questionText":"Which organ of the human body produces insulin?",
+ "options":["A: Liver","B: Kidneys","C: Pancreas","D: Spleen"],
+ "correctAnswer":"C",
+ "explanation":"Insulin is produced by the beta cells of the islets of Langerhans in the pancreas. Insulin regulates blood sugar levels and is essential for cells to absorb glucose."},
+
+# ── English G6 Foundation (+15q, 15→30) ───────────────────────────────────────
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Tenses",
+ "questionText":"Choose the correct sentence in the Simple Past Tense:",
+ "options":["A: She go to school yesterday.","B: She went to school yesterday.","C: She goes to school yesterday.","D: She going to school yesterday."],
+ "correctAnswer":"B",
+ "explanation":"Simple Past tense uses the past form of the verb. 'Go' → 'went' (irregular). 'She went to school yesterday' is correct."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Parts of Speech — Nouns",
+ "questionText":"Which of the following is an abstract noun?",
+ "options":["A: Table","B: River","C: Courage","D: Dog"],
+ "correctAnswer":"C",
+ "explanation":"An abstract noun names something that cannot be seen or touched — an idea, quality, or state. 'Courage' is an abstract noun. Table, River, and Dog are concrete nouns."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Articles",
+ "questionText":"Choose the correct sentence: 'I saw ___ one-eyed man.'",
+ "options":["A: a","B: an","C: the","D: no article"],
+ "correctAnswer":"A",
+ "explanation":"Use 'a' (not 'an') before words that begin with a consonant sound. 'One' begins with a 'W' sound (/wʌn/), so we use 'a one-eyed man'."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Synonyms",
+ "questionText":"Which word is a synonym of 'enormous'?",
+ "options":["A: Tiny","B: Huge","C: Bright","D: Quick"],
+ "correctAnswer":"B",
+ "explanation":"'Enormous' means very large. 'Huge' is its synonym (also meaning very large). Tiny is an antonym."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Antonyms",
+ "questionText":"What is the antonym of 'ancient'?",
+ "options":["A: Old","B: Historical","C: Modern","D: Classic"],
+ "correctAnswer":"C",
+ "explanation":"'Ancient' means very old (from a long time ago). Its antonym is 'modern' — meaning relating to the present or recent times."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Subject-Verb Agreement",
+ "questionText":"Choose the correct form: 'Each of the boys ___ responsible.'",
+ "options":["A: are","B: were","C: is","D: have been"],
+ "correctAnswer":"C",
+ "explanation":"'Each' is always singular, even when followed by 'of the boys'. The verb must be singular: 'Each of the boys is responsible.'"},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Punctuation",
+ "questionText":"Which sentence is punctuated correctly?",
+ "options":["A: What a beautiful day","B: What a beautiful day!","C: What a beautiful day?","D: what a beautiful day!"],
+ "correctAnswer":"B",
+ "explanation":"Exclamatory sentences express strong emotion and end with an exclamation mark (!). The first word is capitalised. 'What a beautiful day!' is correctly punctuated."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Comprehension Skills",
+ "questionText":"The word 'benevolent' most closely means:",
+ "options":["A: Cruel","B: Generous and kind","C: Intelligent","D: Powerful"],
+ "correctAnswer":"B",
+ "explanation":"'Benevolent' comes from Latin 'bene' (well) + 'velle' (to wish). It means well-meaning and generous — a benevolent person wishes others well and acts kindly."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Prepositions",
+ "questionText":"Choose the correct preposition: 'She is good ___ painting.'",
+ "options":["A: in","B: at","C: for","D: on"],
+ "correctAnswer":"B",
+ "explanation":"'Good at' is the correct collocation in English. We say 'good at' a skill or activity: 'She is good at painting.'"},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Idioms",
+ "questionText":"What does the idiom 'break the ice' mean?",
+ "options":["A: To smash ice physically","B: To start a conversation and make people feel comfortable","C: To end a relationship","D: To win a competition"],
+ "correctAnswer":"B",
+ "explanation":"'Break the ice' means to relieve tension or awkwardness in a social situation by initiating conversation or activity to make people feel more comfortable."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Conjunctions",
+ "questionText":"'She worked hard ___ she failed the exam.' Which conjunction fits?",
+ "options":["A: and","B: because","C: but","D: so"],
+ "correctAnswer":"C",
+ "explanation":"'But' shows contrast between two ideas. Despite working hard, she failed — these are contrasting ideas joined by 'but'."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Active and Passive Voice",
+ "questionText":"Change to passive voice: 'The dog bit the boy.'",
+ "options":["A: The boy was biting the dog.","B: The boy is bitten by the dog.","C: The boy was bitten by the dog.","D: The boy has been bit by the dog."],
+ "correctAnswer":"C",
+ "explanation":"Passive voice: Object + was/were + past participle + by + Subject. 'The dog bit the boy' → 'The boy was bitten by the dog.'"},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Figures of Speech",
+ "questionText":"'The stars danced in the night sky' is an example of:",
+ "options":["A: Simile","B: Metaphor","C: Personification","D: Alliteration"],
+ "correctAnswer":"C",
+ "explanation":"Personification gives human qualities (dancing) to non-human things (stars). Stars cannot literally dance — this is personification."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Plurals",
+ "questionText":"What is the plural of 'child'?",
+ "options":["A: Childs","B: Childes","C: Children","D: Childrens"],
+ "correctAnswer":"C",
+ "explanation":"'Children' is the irregular plural of 'child'. English has many irregular plurals that must be memorised (child/children, man/men, tooth/teeth, foot/feet)."},
+
+{"subject":"English","grade":6,"difficulty":"Foundation","topic":"English Language",
+ "subTopic":"Reported Speech",
+ "questionText":"Change to indirect speech: He said, 'I am happy.'",
+ "options":["A: He said that he is happy.","B: He said that he was happy.","C: He said that I was happy.","D: He told I was happy."],
+ "correctAnswer":"B",
+ "explanation":"In reported speech, the present tense 'am' shifts back to past tense 'was'. 'I' (the speaker) becomes 'he'. The correct form: 'He said that he was happy.'"},
+
+# ── LR G6 Foundation (+15q, 19→34) ────────────────────────────────────────────
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Analogies",
+ "questionText":"Thermometer : Temperature :: Barometer : ?",
+ "options":["A: Wind","B: Rainfall","C: Humidity","D: Atmospheric pressure"],
+ "correctAnswer":"D",
+ "explanation":"A thermometer measures temperature; a barometer measures atmospheric pressure. The relationship is: instrument : what it measures."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Number Series",
+ "questionText":"Find the next number: 5, 10, 20, 40, __",
+ "options":["A: 60","B: 70","C: 80","D: 100"],
+ "correctAnswer":"C",
+ "explanation":"Each term doubles: 5×2=10, 10×2=20, 20×2=40, 40×2=80."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Coding-Decoding",
+ "questionText":"If BOOK = CPPL, then DOOR = ?",
+ "options":["A: EPPS","B: EQPT","C: EPQT","D: EOPS"],
+ "correctAnswer":"A",
+ "explanation":"Each letter is shifted forward by 1: B→C, O→P, O→P, K→L. Applying same rule: D→E, O→P, O→P, R→S = EPPS."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Direction Sense",
+ "questionText":"Starting from home, Arun walks 5 km East, then 3 km North, then 5 km West. How far is he from home?",
+ "options":["A: 13 km","B: 3 km","C: 8 km","D: 5 km"],
+ "correctAnswer":"B",
+ "explanation":"5 km East then 5 km West cancel out (net East-West = 0). He is left with just 3 km North of home, so he is 3 km from home."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Blood Relations",
+ "questionText":"A woman introduces a man as 'the son of my mother's only daughter.' How is the man related to the woman?",
+ "options":["A: Brother","B: Nephew","C: Son","D: Uncle"],
+ "correctAnswer":"C",
+ "explanation":"The woman's mother's only daughter = the woman herself. So the man is the son of the woman = her son."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Odd One Out",
+ "questionText":"Find the odd one out: January, March, June, August",
+ "options":["A: January","B: March","C: June","D: August"],
+ "correctAnswer":"C",
+ "explanation":"January (31), March (31), August (31) all have 31 days. June has 30 days — it is the odd one out."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Syllogisms",
+ "questionText":"All flowers are plants. Rose is a flower. Conclusion: Rose is a plant.",
+ "options":["A: True","B: False","C: Uncertain","D: Partially true"],
+ "correctAnswer":"A",
+ "explanation":"By deductive reasoning: All flowers are plants + Rose is a flower → Rose is a plant. The conclusion is definitely true."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Mirror Images",
+ "questionText":"If you look at the time '3:00' in a mirror, what time does it show?",
+ "options":["A: 9:00","B: 6:00","C: 3:00","D: 12:00"],
+ "correctAnswer":"A",
+ "explanation":"In a clock mirror image, the time T mirrors to (12 − T): 12:00 − 3:00 = 9:00. A clock in a mirror at 3:00 appears to show 9:00."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Statement and Conclusion",
+ "questionText":"Statement: 'Mobile phone usage has increased significantly.' Conclusion: People prefer mobile to landlines.",
+ "options":["A: Conclusion definitely follows","B: Conclusion does not follow","C: Conclusion is the same as the statement","D: Data insufficient"],
+ "correctAnswer":"B",
+ "explanation":"The statement says mobile phone usage increased — but it does not say anything about landline preferences. The conclusion makes an assumption not supported by the statement alone."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Ranking",
+ "questionText":"In a class of 50, Meena is ranked 20th from the top. What is her rank from the bottom?",
+ "options":["A: 30th","B: 31st","C: 32nd","D: 29th"],
+ "correctAnswer":"B",
+ "explanation":"Rank from bottom = Total + 1 − Rank from top = 50 + 1 − 20 = 31."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Letter Series",
+ "questionText":"Z, X, V, T, R, __",
+ "options":["A: P","B: Q","C: S","D: N"],
+ "correctAnswer":"A",
+ "explanation":"The series skips every alternate letter moving backwards: Z(skip Y)X(skip W)V(skip U)T(skip S)R(skip Q)P. Next is P."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Mathematical Reasoning",
+ "questionText":"If 5 × 4 = 14 and 6 × 3 = 15, then 7 × 2 = ?",
+ "options":["A: 14","B: 16","C: 9","D: 11"],
+ "correctAnswer":"B",
+ "explanation":"Pattern: a × b = a + b + (a-b) = a×b - (a-b)(b-1)? Let's check: 5×4→5+4+5=14? No. 5+4=9+5=14 ✓. 6+3=9+6=15 ✓. 7+2=9+7=16 ✓. Pattern: a+b+(first number) = answer."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Classification",
+ "questionText":"Find the odd one out: Cobra, Python, Crocodile, Viper",
+ "options":["A: Cobra","B: Python","C: Crocodile","D: Viper"],
+ "correctAnswer":"C",
+ "explanation":"Cobra, Python, and Viper are all snakes (reptiles with no legs, elongated body). Crocodile is a different reptile — not a snake. It is the odd one out."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Puzzles",
+ "questionText":"There are 8 oranges in a box. If you take away 3, how many do you have?",
+ "options":["A: 5","B: 3","C: 8","D: 11"],
+ "correctAnswer":"B",
+ "explanation":"If YOU take away 3, then YOU have 3 oranges. The box has 5 left, but the question asks how many you have — which is 3."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Input-Output",
+ "questionText":"A machine multiplies a number by 3 then subtracts 2. Input is 5. Output is:",
+ "options":["A: 11","B: 13","C: 15","D: 10"],
+ "correctAnswer":"B",
+ "explanation":"5 × 3 = 15; 15 − 2 = 13. The output is 13."},
+
+{"subject":"Logical Reasoning","grade":6,"difficulty":"Foundation","topic":"Verbal Reasoning",
+ "subTopic":"Venn Diagrams",
+ "questionText":"In a class, 15 students play cricket, 10 play football, and 5 play both. How many play only cricket?",
+ "options":["A: 5","B: 10","C: 15","D: 20"],
+ "correctAnswer":"B",
+ "explanation":"Only cricket = Total cricket − Both = 15 − 5 = 10 students play only cricket."},
+
+]
+
+ok = dup = err = 0
+for i, q in enumerate(questions, 1):
+    try:
+        r = insert(conn, q)
+        if r == "DUP": dup += 1
+        else: ok += 1
+        label = q['subject'][:22].ljust(22)
+        diff = q['difficulty'][:3].upper()
+        print(f"  {r}  Q{i:03d} [{label} G{q['grade']} {diff}] {q['subTopic']}")
+    except Exception as e:
+        err += 1
+        print(f"  ERR Q{i:03d}: {e}")
+
+print(f"\n  Done: {ok} posted, {dup} duplicates, {err} errors  (total={ok+dup+err})")
+conn.close()

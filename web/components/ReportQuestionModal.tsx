@@ -37,7 +37,8 @@ export function ReportQuestionModal({
         body: JSON.stringify({
           questionBankId: questionId,
           category,
-          description
+          description,
+          questionText
         })
       });
 

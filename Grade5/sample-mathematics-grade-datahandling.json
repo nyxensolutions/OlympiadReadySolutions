@@ -1,0 +1,452 @@
+[
+  {
+    "QuestionText": "What is the 'mean' of a set of numbers?",
+    "Options": ["A) The most frequent number", "B) The middle number", "C) The average of the numbers", "D) The difference between the highest and lowest"],
+    "CorrectAnswer": "C",
+    "Explanation": "The mean is calculated by adding all the numbers and dividing by the total count.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the mean of 2, 4, and 6.",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "B",
+    "Explanation": "(2+4+6) / 3 = 12 / 3 = 4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the 'mode' of a data set?",
+    "Options": ["A) The largest number", "B) The most frequently occurring number", "C) The middle number", "D) The smallest number"],
+    "CorrectAnswer": "B",
+    "Explanation": "The mode is the value that appears most often in a data set.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the 'median' of 1, 3, 5, 7, 9?",
+    "Options": ["A) 1", "B) 5", "C) 7", "D) 9"],
+    "CorrectAnswer": "B",
+    "Explanation": "The median is the middle value when the data is ordered; 5 is in the middle.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the 'range' of 10, 20, 30, 40, 50?",
+    "Options": ["A) 10", "B) 30", "C) 40", "D) 50"],
+    "CorrectAnswer": "C",
+    "Explanation": "Range = highest value - lowest value (50 - 10 = 40).",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which type of graph uses bars to show data comparisons?",
+    "Options": ["A) Pie chart", "B) Bar graph", "C) Line graph", "D) Pictograph"],
+    "CorrectAnswer": "B",
+    "Explanation": "A bar graph uses rectangular bars to represent categorical data.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "In a pictograph, what does a symbol usually represent?",
+    "Options": ["A) Nothing", "B) A specific quantity of items", "C) The total number of items", "D) The range"],
+    "CorrectAnswer": "B",
+    "Explanation": "A key in a pictograph tells you how many units each icon represents.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the mode of 3, 3, 4, 5, 6, 6, 6.",
+    "Options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "CorrectAnswer": "D",
+    "Explanation": "6 appears most frequently (three times).",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the median of 2, 4, 6, 8?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "CorrectAnswer": "B",
+    "Explanation": "For an even set, take the average of the two middle numbers: (4+6)/2 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which graph shows parts of a whole?",
+    "Options": ["A) Bar graph", "B) Pie chart", "C) Line graph", "D) Histogram"],
+    "CorrectAnswer": "B",
+    "Explanation": "A pie chart represents data as slices of a circular whole.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the range of 5, 12, 3, 8, 20.",
+    "Options": ["A) 15", "B) 17", "C) 20", "D) 3"],
+    "CorrectAnswer": "B",
+    "Explanation": "Range = 20 - 3 = 17.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If 1 symbol = 5 apples, how many apples do 4 symbols represent?",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "CorrectAnswer": "D",
+    "Explanation": "4 symbols * 5 apples/symbol = 20 apples.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does a line graph best represent?",
+    "Options": ["A) Categories", "B) Parts of a whole", "C) Trends over time", "D) Comparisons"],
+    "CorrectAnswer": "C",
+    "Explanation": "Line graphs are excellent for showing how data changes over a period.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Calculate the mean of 10, 20, 30.",
+    "Options": ["A) 10", "B) 20", "C) 30", "D) 60"],
+    "CorrectAnswer": "B",
+    "Explanation": "(10+20+30) / 3 = 60 / 3 = 20.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the mode of 1, 2, 3, 4, 5.",
+    "Options": ["A) 1", "B) 3", "C) 5", "D) None"],
+    "CorrectAnswer": "D",
+    "Explanation": "No number appears more than once, so there is no mode.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which measure is most affected by a very large outlier?",
+    "Options": ["A) Mean", "B) Median", "C) Mode"],
+    "CorrectAnswer": "A",
+    "Explanation": "The mean is affected because it includes the value of every data point in the calculation.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the median of 10, 5, 20, 15, 25?",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "CorrectAnswer": "C",
+    "Explanation": "Ordered: 5, 10, 15, 20, 25. The middle is 15.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If a bar graph has a Y-axis showing 'Number of Students', what does each bar represent?",
+    "Options": ["A) Total students", "B) Category quantity", "C) Time", "D) None"],
+    "CorrectAnswer": "B",
+    "Explanation": "The bars represent the quantity for each specific category on the X-axis.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the range of 100, 50, 75.",
+    "Options": ["A) 25", "B) 50", "C) 75", "D) 100"],
+    "CorrectAnswer": "B",
+    "Explanation": "100 - 50 = 50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which tool would you use to display weather changes over a week?",
+    "Options": ["A) Pie chart", "B) Bar graph", "C) Line graph", "D) Pictograph"],
+    "CorrectAnswer": "C",
+    "Explanation": "Line graphs show how data fluctuates over time.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If 1 symbol = 10 votes, how many votes for 2.5 symbols?",
+    "Options": ["A) 15", "B) 20", "C) 25", "D) 30"],
+    "CorrectAnswer": "C",
+    "Explanation": "2.5 * 10 = 25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Find the mean of 5, 5, 5, 5.",
+    "Options": ["A) 4", "B) 5", "C) 20", "D) 1"],
+    "CorrectAnswer": "B",
+    "Explanation": "(5+5+5+5) / 4 = 20 / 4 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the mode of 7, 8, 7, 9, 8, 7?",
+    "Options": ["A) 7", "B) 8", "C) 9", "D) 7 and 8"],
+    "CorrectAnswer": "A",
+    "Explanation": "7 appears three times, 8 appears twice.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the median of 3, 1, 9, 7, 5?",
+    "Options": ["A) 1", "B) 5", "C) 7", "D) 9"],
+    "CorrectAnswer": "B",
+    "Explanation": "Ordered: 1, 3, 5, 7, 9. The middle is 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which measure requires ordering the data first?",
+    "Options": ["A) Mean", "B) Median", "C) Mode"],
+    "CorrectAnswer": "B",
+    "Explanation": "To find the median, the set must be in numerical order.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Range of 1, 1, 1, 1, 1?",
+    "Options": ["A) 1", "B) 0", "C) 5", "D) None"],
+    "CorrectAnswer": "B",
+    "Explanation": "1 - 1 = 0.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Can a pie chart have more than 100% total?",
+    "Options": ["A) Yes", "B) No"],
+    "CorrectAnswer": "B",
+    "Explanation": "A pie chart represents a whole (100%).",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the mode of 10, 20, 10, 30, 20, 10.",
+    "Options": ["A) 10", "B) 20", "C) 30", "D) 10 and 20"],
+    "CorrectAnswer": "A",
+    "Explanation": "10 appears three times.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Find the mean of 0, 10, 20.",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 30"],
+    "CorrectAnswer": "B",
+    "Explanation": "(0+10+20) / 3 = 10.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "If the range is 10 and the lowest value is 5, what is the highest?",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "CorrectAnswer": "C",
+    "Explanation": "Highest - 5 = 10, so highest = 15.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What chart is best for showing favorite colors in a class?",
+    "Options": ["A) Line graph", "B) Bar graph", "C) None"],
+    "CorrectAnswer": "B",
+    "Explanation": "Bar graphs are best for comparing categories.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Median of 4, 8, 2, 6, 10?",
+    "Options": ["A) 2", "B) 6", "C) 8", "D) 4"],
+    "CorrectAnswer": "B",
+    "Explanation": "Ordered: 2, 4, 6, 8, 10. Middle is 6.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How to find the mean?",
+    "Options": ["A) Sum / Count", "B) Sum * Count", "C) High - Low"],
+    "CorrectAnswer": "A",
+    "Explanation": "Sum of all values divided by the number of values.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Range of 5, 5, 10, 10?",
+    "Options": ["A) 5", "B) 10", "C) 15", "D) 0"],
+    "CorrectAnswer": "A",
+    "Explanation": "10 - 5 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Mode of 1, 2, 3, 2, 1, 2?",
+    "Options": ["A) 1", "B) 2", "C) 3", "D) None"],
+    "CorrectAnswer": "B",
+    "Explanation": "2 appears three times.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "If 1 icon = 2 pets, 5 icons = ?",
+    "Options": ["A) 5", "B) 7", "C) 10", "D) 12"],
+    "CorrectAnswer": "C",
+    "Explanation": "5 * 2 = 10.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Data set: 10, 10, 20. Mean?",
+    "Options": ["A) 10", "B) 13.3", "C) 15", "D) 20"],
+    "CorrectAnswer": "B",
+    "Explanation": "(10+10+20) / 3 = 40 / 3 = 13.33.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What chart uses icons?",
+    "Options": ["A) Pie chart", "B) Pictograph", "C) Histogram"],
+    "CorrectAnswer": "B",
+    "Explanation": "Pictographs use symbols/icons.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Median of 7, 7, 7, 7?",
+    "Options": ["A) 0", "B) 7", "C) 14", "D) 28"],
+    "CorrectAnswer": "B",
+    "Explanation": "The middle value is 7.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the difference between mean and median?",
+    "Options": ["A) Same thing", "B) Different calculation methods", "C) Range"],
+    "CorrectAnswer": "B",
+    "Explanation": "Mean is average, median is middle value.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Range of 0, 10, 5?",
+    "Options": ["A) 5", "B) 10", "C) 15"],
+    "CorrectAnswer": "B",
+    "Explanation": "10 - 0 = 10.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Most frequent item is:",
+    "Options": ["A) Mean", "B) Median", "C) Mode"],
+    "CorrectAnswer": "C",
+    "Explanation": "Mode is the most frequent.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Can a median be a decimal?",
+    "Options": ["A) Yes", "B) No"],
+    "CorrectAnswer": "A",
+    "Explanation": "Yes, if the average of two middle numbers is a decimal.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What does a horizontal axis usually show?",
+    "Options": ["A) Quantities", "B) Categories", "C) Percentages"],
+    "CorrectAnswer": "B",
+    "Explanation": "Usually shows categories.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is more reliable for skewed data?",
+    "Options": ["A) Mean", "B) Median"],
+    "CorrectAnswer": "B",
+    "Explanation": "Median is often better for skewed data.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Is 5 the range of 10, 15?",
+    "Options": ["A) Yes", "B) No"],
+    "CorrectAnswer": "A",
+    "Explanation": "15 - 10 = 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Mean of 100, 0?",
+    "Options": ["A) 50", "B) 100", "C) 0"],
+    "CorrectAnswer": "A",
+    "Explanation": "(100+0) / 2 = 50.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Mode of 5, 5, 2, 2?",
+    "Options": ["A) 5", "B) 2", "C) Both"],
+    "CorrectAnswer": "C",
+    "Explanation": "Bimodal data set.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "How do you label a graph?",
+    "Options": ["A) Title and axes", "B) Just title", "C) Just data"],
+    "CorrectAnswer": "A",
+    "Explanation": "Requires title and axis labels for clarity.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Are all averages the same?",
+    "Options": ["A) Yes", "B) No"],
+    "CorrectAnswer": "B",
+    "Explanation": "Mean, median, and mode are different averages.",
+    "Topic": "Mathematics",
+    "SubTopic": "Data Handling",
+    "Difficulty": "Foundation"
+  }
+]

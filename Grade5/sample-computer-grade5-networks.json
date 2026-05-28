@@ -1,0 +1,702 @@
+﻿[
+  {
+    "QuestionText": "What is a group of two or more computers and peripheral devices linked together by communication channels to share data and hardware resources called?",
+    "Options": [
+      "A) Operating System",
+      "B) Computer Network",
+      "C) Motherboard Bus",
+      "D) Central Processing Unit"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A computer network consists of interconnected digital computing devices that can communicate, share software data packets, and share hardware units like printers.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which type of computer network covers the smallest geographic area, typically restricted to a single person's immediate workspace (e.g., connecting a phone to a smart watch via Bluetooth)?",
+    "Options": [
+      "A) Local Area Network (LAN)",
+      "B) Wide Area Network (WAN)",
+      "C) Personal Area Network (PAN)",
+      "D) Metropolitan Area Network (MAN)"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A PAN (Personal Area Network) is centered around a single individual's personal workspace, usually operating wirelessly over short ranges using Bluetooth technology.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Your school computer lab has 25 computers wired together so they can share a high-speed printer. What network classification best fits this layout?",
+    "Options": [
+      "A) Local Area Network (LAN)",
+      "B) Metropolitan Area Network (MAN)",
+      "C) Wide Area Network (WAN)",
+      "D) Global Area Network (GAN)"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "A LAN (Local Area Network) links computers within a small, distinct geographic area, such as a school building, office room, or home setup.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What type of network spans across an entire city or large municipal town, often connecting multiple distinct office complexes or campus sites together?",
+    "Options": [
+      "A) Personal Area Network (PAN)",
+      "B) Local Area Network (LAN)",
+      "C) Metropolitan Area Network (MAN)",
+      "D) Desk Area Network (DAN)"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A MAN (Metropolitan Area Network) covers a mid-sized geographic space, bridging networks across a city, town, or large university campus.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "The Internet spans across vast continents, linking billions of users worldwide. Under which network classification does the global Internet fall?",
+    "Options": [
+      "A) Local Area Network (LAN)",
+      "B) Personal Area Network (PAN)",
+      "C) Metropolitan Area Network (MAN)",
+      "D) Wide Area Network (WAN)"
+    ],
+    "CorrectAnswer": "D",
+    "Explanation": "A WAN (Wide Area Network) covers immense geographic distances (countries or continents). The public Internet is the largest example of a WAN.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What does the term 'Network Topology' refer to in computer science?",
+    "Options": [
+      "A) The speed at which data transfers down a copper cable.",
+      "B) The physical or logical geometric arrangement and layout design of how computers are wired together in a network.",
+      "C) The pricing model of an Internet Service Provider.",
+      "D) The structural security password rules of a local server."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Network topology defines the structural geometric layout pattern (such as Star, Bus, or Ring) used to map device connections on a network.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "In which network topology are all individual computers connected directly to a single, central backbone cable called a 'bus' or 'trunk line'?",
+    "Options": [
+      "A) Star Topology",
+      "B) Ring Topology",
+      "C) Bus Topology",
+      "D) Mesh Topology"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Bus topology arranges nodes along a single central transmission line with terminators absorbing the signal waves at each end boundary.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which network topology links every single computer to a central connection device (like a switch or a hub), forming a layout that resembles points on a geometric star?",
+    "Options": [
+      "A) Star Topology",
+      "B) Linear Topology",
+      "C) Ring Topology",
+      "D) Hybrid Core Layout"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Star topology routes every workstation cable back to a centralized device, which serves as a traffic intersection manager.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "In a Star topology setup, what happens to the rest of the network if one single user workstation computer breaks down completely?",
+    "Options": [
+      "A) The entire network crashes instantly and all other nodes fail.",
+      "B) The remaining computers continue working normally without any network interruption.",
+      "C) The central hub device will explode from electrical surge overload.",
+      "D) Data packet transmission speeds split in half across all lines."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Because each node has an isolated line to the central switch, the failure of an individual node does not impact the rest of a Star network.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What happens in a Star topology network if the main central switch or hub hardware device fails completely?",
+    "Options": [
+      "A) Data packets travel faster by bypassing the hub block.",
+      "B) The entire network goes down, and no computers can communicate with one another.",
+      "C) The topology automatically morphs into a Ring structure.",
+      "D) Only printers stop working, while internet browsers continue to load."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The central switch represents a single point of failure in a Star network; if it fails, all connected paths break.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "In which network topology are devices connected in a closed, circular loop, where data packets pass through each computer sequentially until reaching their target?",
+    "Options": [
+      "A) Star Topology",
+      "B) Ring Topology",
+      "C) Bus Topology",
+      "D) Tree Topology"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Ring topology forms a circular data track where each workstation acts like a repeater, passing information tokens around the loop.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which highly reliable network topology links every node directly to every other node in the network, creating multiple backup paths to prevent any connection loss?",
+    "Options": [
+      "A) Ring Topology",
+      "B) Mesh Topology",
+      "C) Bus Topology",
+      "D) Star Layout"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Mesh topology features point-to-point connections between nodes, offering excellent redundancy if a cable breaks.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What hardware card expansion chip must be installed inside a computer's motherboard to physically plug in a network Ethernet cable?",
+    "Options": [
+      "A) Sound Card",
+      "B) Network Interface Card (NIC)",
+      "C) Video Graphics Adapter",
+      "D) Hard Drive Controller"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A NIC provides the electronic hardware port interface required to connect a computer to a network transmission medium.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Hardware",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What basic, legacy networking device connects multiple computers together in a LAN, but un-intelligently broadcasts copies of all incoming data packets to *every* single connected device?",
+    "Options": [
+      "A) Smart Router",
+      "B) Firewall Gate",
+      "C) Hub",
+      "D) Gateway Server"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Hubs lack data-routing intelligence. They blindly repeat incoming signals to all ports, which can cause network congestion.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Hardware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What intelligent networking device connects LAN devices together and inspects destination MAC addresses to send data packets *only* to the specific target computer?",
+    "Options": [
+      "A) Un-intelligent Hub",
+      "B) Switch",
+      "C) Analog Demodulator",
+      "D) Printer Buffer"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A switch is an intelligent hardware controller that maps MAC addresses to optimize data transmission within a LAN.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Hardware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What key hardware device acts as a traffic director between entirely *different* networks, forwarding data packets across the internet from your house to your ISP?",
+    "Options": [
+      "A) Network Switch",
+      "B) Router",
+      "C) Hub Core",
+      "D) Network Interface Card"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Routers manage data traffic between separate network layers, parsing IP destinations to bridge connections.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Hardware",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What name is given to the physical cables or wireless frequencies used to transport electronic signals across a computer network?",
+    "Options": [
+      "A) Transmission Media",
+      "B) Application Interfaces",
+      "C) Topographic Vectors",
+      "D) System Registers"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "Transmission media are the physical paths (copper cables, glass fibers, or radio waves) that carry communication signals.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Transmission Media",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the most common type of copper network cable used in school LANs, featuring pairs of insulated wires wound around each other to reduce interference?",
+    "Options": [
+      "A) Coaxial Cable",
+      "B) Fiber Optic Line",
+      "C) Twisted Pair Cable (e.g., Cat6)",
+      "D) Ribbon Flat Wire"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Twisted-pair cables (like Cat5e and Cat6 Ethernet cables) use paired wire configurations to minimize electromagnetic interference.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Transmission Media",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What premium type of network cable is made of thin glass or plastic threads that transmit data packets as pulses of light at incredibly fast speeds over long distances?",
+    "Options": [
+      "A) Twisted Pair Cable",
+      "B) Fiber Optic Cable",
+      "C) Coaxial Cable",
+      "D) Telephone Wire"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Fiber optic cables convert electronic signals into pulses of light, enabling fast data transmission over long distances without signal degradation.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Transmission Media",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of traditional round cable has a central copper conductor wrapped in plastic shielding, famously used to connect cable television boxes and older networks?",
+    "Options": [
+      "A) Fiber Core Strand",
+      "B) Coaxial Cable",
+      "C) Flat Ribbon Cable",
+      "D) Parallel Core Line"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Coaxial cables use a shielded copper core to prevent data distortions, commonly found in television setups and legacy network environments.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Transmission Media",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What term describes a network that transfers data wirelessly through air currents using high-frequency radio waves?",
+    "Options": [
+      "A) Wired Ethernet",
+      "B) Wi-Fi (Wireless Network)",
+      "C) Fiber Optic Link",
+      "D) Bus Infrastructure"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Wi-Fi uses radio frequency bands to establish wireless network handshakes without requiring physical patch cords.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is a standardized set of technical rules and guidelines that computers must follow to correctly pack, address, and transmit data across a network?",
+    "Options": [
+      "A) Network Topography",
+      "B) Protocol",
+      "C) Hyperlink Template",
+      "D) Hardware Drivers"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A network protocol defines the communication rules and formats that devices must use to exchange data across a network.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Protocols & Rules",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the core protocol suite that powers the global Internet, grouping data into packets and addressing them to their destinations?",
+    "Options": [
+      "A) HTTP / HTML",
+      "B) TCP/IP",
+      "C) RAM / ROM",
+      "D) BIOS / CMOS"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the standard protocol suite used to route data across the internet.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Protocols & Rules",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "When you download a large video file across a network, how is the file split up so it can travel smoothly through network pathways?",
+    "Options": [
+      "A) It is compressed into a single large block.",
+      "B) It is broken down into millions of small, manageable data chunks called 'packets'.",
+      "C) It is converted into plain text strings.",
+      "D) It travels as a single physical wave pulse."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Network protocols break data files down into small, digestible chunks called packets. These travel independently across the network and are reassembled at their destination.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What unique, factory-assigned hexadecimal tracking number is burned into a network card's hardware chip to identify that specific device on a local network?",
+    "Options": [
+      "A) IP Address",
+      "B) MAC Address (Media Access Control)",
+      "C) ZIP Code",
+      "D) URL Pointer String"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A MAC address is a unique hardware identification number assigned to a network card at the factory.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is the primary difference between an IP address and a MAC address?",
+    "Options": [
+      "A) There is no structural difference.",
+      "B) An IP address is a changeable software address used for routing across networks; a MAC address is a permanent hardware identity address burned into the device.",
+      "C) MAC addresses only apply to Apple computers.",
+      "D) IP addresses change text characters into numbers."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "An IP address identifies a device's software location on a network, while a MAC address serves as its permanent physical hardware identifier.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What is a computer on a network that requests resources, data files, or web pages from a centralized management computer called?",
+    "Options": [
+      "A) Client",
+      "B) Server",
+      "C) Router Switch",
+      "D) Mainframe Central"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "In a client-server network model, clients are workstations or software programs that request data or services from a central server.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Architectures",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is the high-powered, centralized computer that stores files, manages print queues, or hosts web databases for other computers on a network called?",
+    "Options": [
+      "A) Passive Client Terminal",
+      "B) Server",
+      "C) Local Bus Extension",
+      "D) Node Node Interface"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A server is a high-powered computer configured to store, manage, and deliver resources to client devices on a network.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Architectures",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What network architecture gives every computer equal status, allowing them to share files directly with each other without a central server?",
+    "Options": [
+      "A) Client-Server Network",
+      "B) Peer-to-Peer (P2P) Network",
+      "C) Mainframe Framework",
+      "D) Bus Core Assembly"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A Peer-to-Peer network connects equal-status computer nodes directly to share files, removing the need for a central server.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Architectures",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the abbreviation 'WLAN' stand for in modern home computer setups?",
+    "Options": [
+      "A) Wide Local Area Network",
+      "B) Wireless Local Area Network",
+      "C) Wired Link Access Node",
+      "D) Wave Length Allocation Matrix"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "WLAN stands for Wireless Local Area Network, which is a LAN that uses radio waves to connect devices wirelessly.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What do we call any individual computer, laptop, printer, or server connected to a network layout track?",
+    "Options": [
+      "A) Segment link",
+      "B) Node",
+      "C) Packet block",
+      "D) Driver hub"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Any device connected to a computer network—whether it is a computer, printer, or server—is called a node.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is the term used to describe the maximum data transfer capacity of a network link, measuring how much data can flow through it per second?",
+    "Options": [
+      "A) Latency delay",
+      "B) Bandwidth",
+      "C) Topology factor",
+      "D) Protocol footprint"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Bandwidth measures the maximum data-carrying capacity of a network connection, typically calculated in bits per second (bps).",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What type of physical connector plug is standard on the ends of Twisted Pair Ethernet cables to latch them securely into a network port?",
+    "Options": [
+      "A) USB Type-C plug",
+      "B) RJ-45 Connector",
+      "C) HDMI Port interface",
+      "D) VGA Pin matrix"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "RJ-45 connectors are the standard 8-pin modular plugs used to terminate twisted-pair Ethernet cables.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Hardware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What protocol handles formatting web page content delivery between a hosting web server database and your browser window?",
+    "Options": [
+      "A) SMTP",
+      "B) FTP",
+      "C) HTTP (Hypertext Transfer Protocol)",
+      "D) IMAP"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "HTTP regulates how web page content data is packed and transmitted between web servers and browser clients.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Protocols & Rules",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which protocol is designed to transfer standalone software files from a local computer up to a remote file server across the internet network?",
+    "Options": [
+      "A) HTTP",
+      "B) FTP (File Transfer Protocol)",
+      "C) SMTP",
+      "D) DNS"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "FTP (File Transfer Protocol) is a network protocol used to upload, download, and manage files between computers over a network connection.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Protocols & Rules",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does the abbreviation 'SMTP' stand for, which represents the protocol used to deliver outgoing email letters across servers?",
+    "Options": [
+      "A) System Mail Transfer Protocol",
+      "B) Simple Mail Transfer Protocol",
+      "C) Secure Media Transport Parameter",
+      "D) Shared Message Tracking Protocol"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "SMTP (Simple Mail Transfer Protocol) is the standard protocol used to send outgoing email messages between mail servers.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Protocols & Rules",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What unique internet service protocol acts as a phonebook directory for the web, translating readable text URLs like google.com into numerical IP addresses?",
+    "Options": [
+      "A) DNS (Domain Name System)",
+      "B) DHCP core",
+      "C) FTP link",
+      "D) MAC directory"
+    ],
+    "CorrectAnswer": "A",
+    "Explanation": "DNS translates user-friendly domain names (like example.com) into numerical IP addresses, allowing web browsers to find and load websites.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Protocols & Rules",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What type of private corporate network can *only* be accessed internally by an organization's own employees or students within a building?",
+    "Options": [
+      "A) Internet",
+      "B) Intranet",
+      "C) Wide Area WAN",
+      "D) Open Cloud"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "An Intranet is a private internal network restricted to authorized users within an organization, isolated from the public internet.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What network security barrier intercepts incoming traffic streams to block hackers and malicious malware scripts from breaching a safe local network?",
+    "Options": [
+      "A) Router Core Switch",
+      "B) Firewall",
+      "C) Network Interface Adapter",
+      "D) Terminator Node"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A firewall acts as a security barrier, checking incoming and outgoing network traffic to block unauthorized connections and malware threats.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Security Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What are the physical little caps called that must be plugged onto the open end edges of a Bus topology trunk cable to absorb signals and prevent reflections?",
+    "Options": [
+      "A) Switches",
+      "B) Routers",
+      "C) Terminators",
+      "D) Gateways"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "Terminators are placed at the ends of a Bus topology cable to absorb raw electrical signals and prevent them from reflecting back down the wire and causing data corruption.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "If a network covers communication channels across a collection of buildings grouped close together (like a military base or university campus), what specialized LAN classification does it use?",
+    "Options": [
+      "A) Personal Area Network (PAN)",
+      "B) Campus Area Network (CAN)",
+      "C) Wide Area Network (WAN)",
+      "D) Home Area Network (HAN)"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A CAN (Campus Area Network) bridges several smaller LANs across a distinct, contiguous institutional territory.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Classifications",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What wireless technology provides high-speed local data connections over short ranges using radio frequency bands, typically managed with a secure password?",
+    "Options": [
+      "A) Coaxial Link",
+      "B) Wi-Fi",
+      "C) Infrared Beam",
+      "D) Dial-up line"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Wi-Fi is the standard technology used to set up wireless local area networks, replacing physical patch cables with high-frequency radio signals.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Transmission Media",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Can a standard computer network simultaneously support both hardwired copper Ethernet cables and wireless Wi-Fi signals within the same workspace system?",
+    "Options": [
+      "A) No, networks must be completely wired or completely wireless.",
+      "B) Yes, by deploying a wireless router or access point linked into a wired switch core.",
+      "C) No, wireless radio fields melt copper wire data streams.",
+      "D) Yes, but only if the internet connection is turned off."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Modern network topologies routinely combine wired (Ethernet) and wireless (Wi-Fi) infrastructures into a single cohesive network system.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What notation standard splits an IPv4 software address into four groups of decimal integers separated by dots (e.g., 172.16.254.1)?",
+    "Options": [
+      "A) Hexadecimal matrix code",
+      "B) Binary bit string",
+      "C) Dotted Decimal Notation",
+      "D) URL String index"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "IPv4 addresses use dotted decimal notation, which displays 32-bit binary addresses as four numbers separated by periods for humans to read easily.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What does encryption do to secure data packets traveling across an unencrypted public Wi-Fi network?",
+    "Options": [
+      "A) It completely deletes the files from the network.",
+      "B) It scrambles the plain text data into unreadable secret code cipher text so hackers cannot spy on it.",
+      "C) It converts hardware components into virtual chips.",
+      "D) It compresses files to speed up download times."
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Encryption scrambles readable data into unreadable ciphertext, keeping information secure as it travels across open networks.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Security Fundamentals",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What hardware device expands a wired LAN's footprint by receiving radio wave handshakes from wireless devices, acting as a portal back into the switch core?",
+    "Options": [
+      "A) Terminator cap",
+      "B) Coaxial shield",
+      "C) Wireless Access Point (WAP)",
+      "D) Parallel bridge"
+    ],
+    "CorrectAnswer": "C",
+    "Explanation": "A Wireless Access Point (WAP) acts as a transceiver that transmits and receives radio frequency signals, bridging wireless clients onto a wired network.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Hardware",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "Which networking layout represents an expensive topology design where every node hooks up to multiple connection lines, maximizing backup safety routes?",
+    "Options": [
+      "A) Bus Layout",
+      "B) Mesh Topology",
+      "C) Linear Track",
+      "D) Simple Ring"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Mesh topology features point-to-point connections between all nodes, making it a highly reliable but expensive layout to implement.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Topologies",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What name describes the time delay it takes for a data packet to travel from its source point to its destination target across a network connection?",
+    "Options": [
+      "A) Throughput index",
+      "B) Latency",
+      "C) Topology rate",
+      "D) Bandwidth parameter"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "Latency measures the time delay or lag experienced as data packets move across network transmission paths.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Fundamentals",
+    "Difficulty": "Olympiad"
+  },
+  {
+    "QuestionText": "What basic tool command line prompt can a system manager run to ping a remote IP address to verify if a network connection is online?",
+    "Options": [
+      "A) FORMAT",
+      "B) PING",
+      "C) ZIP",
+      "D) COPY"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "The PING command sends test packets to a target IP address to check if a remote network node is online and reachable.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Protocols & Rules",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What hardware device bridges entirely different network protocol environments together, serving as an exit gateway door from a local LAN out to the public Internet?",
+    "Options": [
+      "A) Hub node",
+      "B) Gateway",
+      "C) Terminator seal",
+      "D) Interface unit"
+    ],
+    "CorrectAnswer": "B",
+    "Explanation": "A Gateway is a specialized networking hardware node that translates communication profiles between completely different network architectures and protocol models.",
+    "Topic": "Introduction to Computer Networks",
+    "SubTopic": "Network Hardware",
+    "Difficulty": "Olympiad"
+  }
+]

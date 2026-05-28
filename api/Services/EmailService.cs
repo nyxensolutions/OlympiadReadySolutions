@@ -6,6 +6,7 @@ namespace OlympiadReady.Api.Services;
 public interface IEmailService
 {
     Task SendSubscriptionReceiptAsync(string toEmail, string toName, string planName, int amountInPaise, List<string> subjects);
+    Task SendWeeklyProgressAsync(string toEmail, string toName, int testsCompleted, int newBadges, int pendingTests, string userRank, string topBadgePlatform, string userBadgesHtml);
 }
 
 public class BrevoEmailService : IEmailService
@@ -90,6 +91,97 @@ public class BrevoEmailService : IEmailService
         catch (Exception ex)
         {
             _log.LogError(ex, "Exception while sending email to {Email}", toEmail);
+        }
+    }
+
+    public async Task SendWeeklyProgressAsync(string toEmail, string toName, int testsCompleted, int newBadges, int pendingTests, string userRank, string topBadgePlatform, string userBadgesHtml)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey))
+        {
+            _log.LogWarning("Brevo API key not configured. Skipping weekly email to {Email}", toEmail);
+            return;
+        }
+
+        // Fallback for missing user badges
+        if (string.IsNullOrWhiteSpace(userBadgesHtml))
+        {
+            userBadgesHtml = "<p style=\"color: #64748b; font-style: italic;\">Take more mock tests to start earning badges!</p>";
+        }
+
+        string htmlContent = $@"
+        <div style=""font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; color: #333; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;"">
+            <div style=""background: #ffffff; padding: 40px 20px 25px; text-align: center; border-bottom: 3px solid #e0e7ff;"">
+                <img src=""https://res.cloudinary.com/dyommthef/image/upload/v1779989794/olympiadready/assets/atgp5vd6bh3rvpps1hjc.png"" alt=""OlympiadReady"" style=""height: 64px; max-width: 100%; display: block; margin: 0 auto; color: #1e3a8a; font-size: 28px; font-weight: bold;"" />
+                <h2 style=""color: #1e3a8a; margin: 25px 0 0 0; font-size: 24px; letter-spacing: 0.5px;"">Your Weekly Progress Report</h2>
+            </div>
+            
+            <div style=""padding: 30px;"">
+                <p style=""font-size: 16px; margin-top: 0;"">Hi <strong>{toName}</strong>,</p>
+                <p style=""font-size: 16px; color: #475569; line-height: 1.5;"">Here is your OlympiadReady progress for the past week. Consistent practice is the key to mastering Olympiad subjects!</p>
+                
+                <div style=""background: #f8fafc; border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; margin: 25px 0;"">
+                    <h3 style=""margin-top: 0; color: #1e293b; font-size: 18px; border-bottom: 2px solid #cbd5e1; padding-bottom: 8px;"">Weekly Stats</h3>
+                    <ul style=""list-style: none; padding: 0; margin: 0;"">
+                        <li style=""margin-bottom: 12px; font-size: 15px;"">📝 <strong>Tests Completed:</strong> <span style=""float: right; font-weight: bold; color: #4f46e5;"">{testsCompleted}</span></li>
+                        <li style=""margin-bottom: 12px; font-size: 15px;"">🏅 <strong>New Badges Earned:</strong> <span style=""float: right; font-weight: bold; color: #4f46e5;"">{newBadges}</span></li>
+                        <li style=""font-size: 15px;"">⏳ <strong>Pending Mistake Reviews:</strong> <span style=""float: right; font-weight: bold; color: #ef4444;"">{pendingTests}</span></li>
+                    </ul>
+                </div>
+
+                <div style=""margin: 25px 0;"">
+                    <h3 style=""color: #1e293b; font-size: 18px;"">🏆 Leaderboard Update</h3>
+                    <p style=""font-size: 15px; color: #475569;"">Your current platform rank is <strong>#{userRank}</strong>.</p>
+                    <p style=""font-size: 15px; color: #475569;"">The highest badge awarded on the platform this week was: <strong style=""color: #b48600;"">{topBadgePlatform}</strong>.</p>
+                </div>
+
+                <div style=""margin: 25px 0; background: #fffbeb; border: 1px solid #fef3c7; padding: 20px; border-radius: 8px;"">
+                    <h3 style=""margin-top: 0; color: #b45309; font-size: 18px;"">✨ Your Latest Badges</h3>
+                    <div style=""margin-top: 10px;"">
+                        {userBadgesHtml}
+                    </div>
+                </div>
+                
+                <div style=""text-align: center; margin-top: 40px;"">
+                    <p style=""font-size: 16px; font-weight: bold; color: #1e293b;"">Ready to boost your rank?</p>
+                    <p style=""font-size: 14px; color: #64748b; margin-bottom: 20px;"">Take a quick mock exam right now to earn your next badge!</p>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background: #4f46e5; color: #fff; padding: 14px 32px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; display: inline-block; box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2);"">Start a Quick Test</a>
+                </div>
+            </div>
+            
+            <div style=""background: #f1f5f9; padding: 20px; text-align: center; border-top: 1px solid #e2e8f0;"">
+                <p style=""margin: 0; font-size: 12px; color: #64748b;"">
+                    &copy; {DateTime.UtcNow.Year} OlympiadReady. All rights reserved.
+                </p>
+                <p style=""margin: 8px 0 0 0; font-size: 11px; color: #94a3b8;"">
+                    You're receiving this because you're an awesome student on OlympiadReady.
+                </p>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = toName } },
+            subject = "Your Weekly OlympiadReady Progress & Leaderboard Stats! 🚀",
+            htmlContent = htmlContent
+        };
+
+        try
+        {
+            var res = await _http.PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+            {
+                var err = await res.Content.ReadAsStringAsync();
+                _log.LogError("Failed to send weekly email via Brevo. Status: {Status}, Error: {Error}", res.StatusCode, err);
+            }
+            else
+            {
+                _log.LogInformation("Successfully sent weekly email to {Email}", toEmail);
+            }
+        }
+        catch (Exception ex)
+        {
+            _log.LogError(ex, "Exception while sending weekly email to {Email}", toEmail);
         }
     }
 }

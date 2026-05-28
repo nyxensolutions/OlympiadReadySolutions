@@ -1,0 +1,446 @@
+[
+  {
+    "QuestionText": "What is 2/5 + 1/5?",
+    "Options": ["A) 3/10", "B) 3/5", "C) 1/5", "D) 2/10"],
+    "CorrectAnswer": "B",
+    "Explanation": "When denominators are the same, add the numerators: 2+1 = 3, so 3/5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which fraction is equivalent to 1/2?",
+    "Options": ["A) 2/3", "B) 3/6", "C) 2/5", "D) 4/9"],
+    "CorrectAnswer": "B",
+    "Explanation": "Multiplying the numerator and denominator of 1/2 by 3 gives 3/6.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 3/4 - 1/4?",
+    "Options": ["A) 2/4", "B) 4/4", "C) 2/8", "D) 1/4"],
+    "CorrectAnswer": "A",
+    "Explanation": "Subtract the numerators: 3 - 1 = 2, so 2/4 (which simplifies to 1/2).",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert the mixed number 2 1/3 into an improper fraction.",
+    "Options": ["A) 5/3", "B) 6/3", "C) 7/3", "D) 8/3"],
+    "CorrectAnswer": "C",
+    "Explanation": "(2 * 3) + 1 = 7, so the improper fraction is 7/3.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 1/4 of 20?",
+    "Options": ["A) 4", "B) 5", "C) 6", "D) 10"],
+    "CorrectAnswer": "B",
+    "Explanation": "To find 1/4 of 20, divide 20 by 4, which equals 5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Simplify 4/12 to its lowest terms.",
+    "Options": ["A) 2/6", "B) 1/3", "C) 1/4", "D) 2/3"],
+    "CorrectAnswer": "B",
+    "Explanation": "Divide both the numerator and the denominator by their greatest common divisor, 4: 4/4=1, 12/4=3.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is larger: 3/4 or 5/8?",
+    "Options": ["A) 3/4", "B) 5/8", "C) They are equal"],
+    "CorrectAnswer": "A",
+    "Explanation": "Convert to common denominator: 3/4 = 6/8. Since 6/8 > 5/8, 3/4 is larger.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 1/2 * 1/3?",
+    "Options": ["A) 1/6", "B) 2/3", "C) 1/5", "D) 2/6"],
+    "CorrectAnswer": "A",
+    "Explanation": "Multiply numerators and denominators: (1*1)/(2*3) = 1/6.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is the reciprocal of 3/5?",
+    "Options": ["A) 3/5", "B) 5/3", "C) 1/3", "D) 5/1"],
+    "CorrectAnswer": "B",
+    "Explanation": "The reciprocal is found by flipping the numerator and denominator: 5/3.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 2/3 of 15?",
+    "Options": ["A) 5", "B) 8", "C) 10", "D) 12"],
+    "CorrectAnswer": "C",
+    "Explanation": "Divide 15 by 3 to get 5, then multiply by 2 to get 10.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Add 1/3 + 1/6.",
+    "Options": ["A) 2/9", "B) 2/6", "C) 3/6", "D) 1/3"],
+    "CorrectAnswer": "C",
+    "Explanation": "Convert 1/3 to 2/6. Then 2/6 + 1/6 = 3/6 (which is 1/2).",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Convert 12/4 to a whole number.",
+    "Options": ["A) 2", "B) 3", "C) 4", "D) 6"],
+    "CorrectAnswer": "B",
+    "Explanation": "12 divided by 4 equals 3.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which fraction is equivalent to 0.75?",
+    "Options": ["A) 1/4", "B) 1/2", "C) 3/4", "D) 2/3"],
+    "CorrectAnswer": "C",
+    "Explanation": "0.75 is 75/100, which simplifies to 3/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Multiply 2/3 * 3/4.",
+    "Options": ["A) 6/12", "B) 5/7", "C) 1/3", "D) 6/7"],
+    "CorrectAnswer": "A",
+    "Explanation": "Multiply straight across: 2*3=6, 3*4=12. So 6/12, which simplifies to 1/2.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 3/5 divided by 1/5?",
+    "Options": ["A) 3/25", "B) 3", "C) 5/3", "D) 1/3"],
+    "CorrectAnswer": "B",
+    "Explanation": "To divide by a fraction, multiply by its reciprocal: 3/5 * 5/1 = 15/5 = 3.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is 1 - 1/4?",
+    "Options": ["A) 1/4", "B) 1/2", "C) 3/4", "D) 2/4"],
+    "CorrectAnswer": "C",
+    "Explanation": "1 is the same as 4/4. 4/4 - 1/4 = 3/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 1/2 + 1/4?",
+    "Options": ["A) 2/6", "B) 2/4", "C) 3/4", "D) 1/6"],
+    "CorrectAnswer": "C",
+    "Explanation": "Convert 1/2 to 2/4. Then 2/4 + 1/4 = 3/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Divide 1/2 by 2.",
+    "Options": ["A) 1", "B) 1/4", "C) 1/8", "D) 2"],
+    "CorrectAnswer": "B",
+    "Explanation": "Dividing by 2 is the same as multiplying by 1/2: 1/2 * 1/2 = 1/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which is the smallest: 1/10, 1/5, or 1/2?",
+    "Options": ["A) 1/10", "B) 1/5", "C) 1/2"],
+    "CorrectAnswer": "A",
+    "Explanation": "The larger the denominator (with the same numerator), the smaller the fraction.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 5/2 to a mixed number.",
+    "Options": ["A) 1 1/2", "B) 2 1/2", "C) 2 2/2", "D) 3 1/2"],
+    "CorrectAnswer": "B",
+    "Explanation": "2 goes into 5 twice with a remainder of 1. So, 2 1/2.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 3/4 * 4/3?",
+    "Options": ["A) 1", "B) 0", "C) 12/12", "D) Both A and C"],
+    "CorrectAnswer": "D",
+    "Explanation": "Multiplying a fraction by its reciprocal always equals 1, and 12/12 is 1.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "Which fraction is equal to 0.5?",
+    "Options": ["A) 1/5", "B) 2/5", "C) 5/10", "D) 5/5"],
+    "CorrectAnswer": "C",
+    "Explanation": "5/10 reduces to 1/2, which is equal to 0.5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Subtract 1/2 - 1/8.",
+    "Options": ["A) 0", "B) 3/8", "C) 4/8", "D) 1/6"],
+    "CorrectAnswer": "B",
+    "Explanation": "Convert 1/2 to 4/8. 4/8 - 1/8 = 3/8.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 2/7 * 0?",
+    "Options": ["A) 0", "B) 2/7", "C) 1", "D) 7/2"],
+    "CorrectAnswer": "A",
+    "Explanation": "Any number, including a fraction, multiplied by 0 is 0.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 3/4 of 100?",
+    "Options": ["A) 25", "B) 50", "C) 75", "D) 80"],
+    "CorrectAnswer": "C",
+    "Explanation": "100 divided by 4 is 25, 25 times 3 is 75.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which is greater: 1/3 or 1/4?",
+    "Options": ["A) 1/3", "B) 1/4"],
+    "CorrectAnswer": "A",
+    "Explanation": "1/3 is approximately 0.33, while 1/4 is 0.25.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Add 1/5 + 2/5 + 1/5.",
+    "Options": ["A) 3/5", "B) 4/5", "C) 1", "D) 5/15"],
+    "CorrectAnswer": "B",
+    "Explanation": "1+2+1 = 4, so 4/5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Convert 1 1/4 to an improper fraction.",
+    "Options": ["A) 4/4", "B) 5/4", "C) 2/4", "D) 6/4"],
+    "CorrectAnswer": "B",
+    "Explanation": "(1 * 4) + 1 = 5, so 5/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 3/8 + 3/8?",
+    "Options": ["A) 6/8", "B) 6/16", "C) 1", "D) 1/2"],
+    "CorrectAnswer": "A",
+    "Explanation": "3/8 + 3/8 = 6/8. Simplified, this is 3/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 1/2 * 4?",
+    "Options": ["A) 1", "B) 2", "C) 4", "D) 8"],
+    "CorrectAnswer": "B",
+    "Explanation": "Half of 4 is 2.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is equivalent to 2/4?",
+    "Options": ["A) 1/2", "B) 4/8", "C) 3/6", "D) All of the above"],
+    "CorrectAnswer": "D",
+    "Explanation": "All of these fractions represent the value of one-half.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 2/9 + 3/9 + 1/9?",
+    "Options": ["A) 5/9", "B) 6/9", "C) 6/27", "D) 2/3"],
+    "CorrectAnswer": "B",
+    "Explanation": "2+3+1=6, so 6/9. Simplified to 2/3.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Convert 0.25 to a fraction.",
+    "Options": ["A) 1/2", "B) 1/4", "C) 2/4", "D) 1/5"],
+    "CorrectAnswer": "B",
+    "Explanation": "0.25 is 25/100, which simplifies to 1/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 5/6 - 2/6?",
+    "Options": ["A) 3/6", "B) 1/6", "C) 3/0", "D) 7/6"],
+    "CorrectAnswer": "A",
+    "Explanation": "5-2=3, so 3/6 (which is 1/2).",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 1/5 * 5?",
+    "Options": ["A) 1/25", "B) 1", "C) 5", "D) 25"],
+    "CorrectAnswer": "B",
+    "Explanation": "5/5 = 1.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Compare 1/4 and 2/8.",
+    "Options": ["A) 1/4 > 2/8", "B) 1/4 < 2/8", "C) 1/4 = 2/8"],
+    "CorrectAnswer": "C",
+    "Explanation": "2/8 simplifies to 1/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "Which is an improper fraction?",
+    "Options": ["A) 3/4", "B) 2/9", "C) 7/5", "D) 1/2"],
+    "CorrectAnswer": "C",
+    "Explanation": "An improper fraction has a numerator larger than the denominator.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 4/5 divided by 2?",
+    "Options": ["A) 2/5", "B) 4/10", "C) 8/5", "D) Both A and B"],
+    "CorrectAnswer": "D",
+    "Explanation": "4/5 divided by 2 is 2/5. 4/10 also simplifies to 2/5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "How many 1/4s are in 1?",
+    "Options": ["A) 2", "B) 4", "C) 8", "D) 1"],
+    "CorrectAnswer": "B",
+    "Explanation": "There are four 1/4 parts in a whole.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 1/3 of 9?",
+    "Options": ["A) 3", "B) 4", "C) 6", "D) 9"],
+    "CorrectAnswer": "A",
+    "Explanation": "9 divided by 3 is 3.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 7/8 - 3/8?",
+    "Options": ["A) 4/8", "B) 1/2", "C) 4/0", "D) Both A and B"],
+    "CorrectAnswer": "D",
+    "Explanation": "7-3=4, so 4/8, which is 1/2.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which fraction is greater than 1?",
+    "Options": ["A) 3/4", "B) 5/5", "C) 6/5", "D) 1/2"],
+    "CorrectAnswer": "C",
+    "Explanation": "6/5 is 1 1/5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 2/5 * 5/2?",
+    "Options": ["A) 1", "B) 10/10", "C) Both A and B", "D) 0"],
+    "CorrectAnswer": "C",
+    "Explanation": "The product is 10/10, which equals 1.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Advanced"
+  },
+  {
+    "QuestionText": "What is 5/9 + 2/9?",
+    "Options": ["A) 7/18", "B) 7/9", "C) 3/9", "D) 7/0"],
+    "CorrectAnswer": "B",
+    "Explanation": "5+2=7, so 7/9.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is half of 1/2?",
+    "Options": ["A) 1/4", "B) 1", "C) 1/1", "D) 2/2"],
+    "CorrectAnswer": "A",
+    "Explanation": "1/2 * 1/2 = 1/4.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 3/10 * 2?",
+    "Options": ["A) 6/10", "B) 3/5", "C) Both A and B", "D) 6/20"],
+    "CorrectAnswer": "C",
+    "Explanation": "3/10 * 2/1 = 6/10, which simplifies to 3/5.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which fraction is equivalent to 1?",
+    "Options": ["A) 8/8", "B) 1/8", "C) 8/1", "D) 0/8"],
+    "CorrectAnswer": "A",
+    "Explanation": "Any non-zero number divided by itself is 1.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Foundation"
+  },
+  {
+    "QuestionText": "What is 9/10 - 4/10?",
+    "Options": ["A) 5/10", "B) 1/2", "C) 5/0", "D) Both A and B"],
+    "CorrectAnswer": "D",
+    "Explanation": "9-4=5, so 5/10, which is 1/2.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "What is 1/6 + 2/6?",
+    "Options": ["A) 3/12", "B) 3/6", "C) 1/2", "D) Both B and C"],
+    "CorrectAnswer": "D",
+    "Explanation": "1+2=3, so 3/6, which is 1/2.",
+    "Topic": "Mathematics",
+    "SubTopic": "Fractions",
+    "Difficulty": "Intermediate"
+  },
+  {
+    "QuestionText": "Which is the largest fraction?",
+    "Options": ["A) 1/2", "B) 1/3", "C) 1/4", "D) 1/5"],
+    "CorrectAnswer
