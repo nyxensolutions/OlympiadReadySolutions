@@ -34,6 +34,24 @@ public class ReportsController : ControllerBase
             qId = parsed;
         }
 
+        if (qId == Guid.Empty || !await _db.QuestionBank.AnyAsync(q => q.QuestionBankId == qId, ct))
+        {
+            qId = Guid.NewGuid();
+            _db.QuestionBank.Add(new QuestionBankItem
+            {
+                QuestionBankId = qId,
+                Subject = "Unknown (Reported)",
+                Grade = 0,
+                Difficulty = "Unknown",
+                Topic = "Unknown",
+                QuestionText = req.QuestionText ?? "Unknown text from old generated paper",
+                OptionsJson = "[]",
+                CorrectAnswer = "A",
+                Explanation = "Generated placeholder for orphaned report.",
+                CreatedAt = DateTime.UtcNow
+            });
+        }
+
         var finalDesc = req.Description;
         if (!string.IsNullOrWhiteSpace(req.QuestionText))
         {
