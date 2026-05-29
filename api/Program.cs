@@ -5,6 +5,7 @@ using OlympiadReady.Api.Data;
 using OlympiadReady.Api.Services;
 using QuestPDF.Infrastructure;
 using Sentry;
+using Microsoft.AspNetCore.RateLimiting;
 
 QuestPDF.Settings.License = LicenseType.Community;
 
