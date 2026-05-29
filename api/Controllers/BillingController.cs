@@ -95,6 +95,18 @@ public class BillingController : ControllerBase
         });
     }
 
+    // All subjects available per grade — must stay in sync with PracticePapersController.IsSubjectAvailable
+    private static List<string> AllSubjectsForGrade(int grade) => grade switch
+    {
+        11 or 12 => new List<string> { "Math", "Science", "English", "Logical Reasoning", "Computers", "AI", "General Knowledge", "Commerce" },
+        >= 3     => new List<string> { "Math", "Science", "English", "Hindi", "Social Studies", "General Knowledge", "Logical Reasoning", "Computers", "AI" },
+        _        => new List<string> { "Math", "Science", "English", "General Knowledge", "Logical Reasoning", "Computers", "AI" }
+    };
+
+    // Returns true when the subject list should be treated as the All-Subjects tier
+    private static bool IsAllTier(List<string> subjects) =>
+        subjects.Contains("All", StringComparer.OrdinalIgnoreCase) || subjects.Count >= 3;
+
     [HttpPost("checkout")]
     public async Task<IActionResult> Checkout([FromBody] CheckoutRequest req, CancellationToken ct)
     {
@@ -106,43 +118,51 @@ public class BillingController : ControllerBase
 
         var user = await _users.GetOrSyncAsync(User, ct);
 
-        foreach (var subject in req.Subjects)
+        // Normalise: 3+ subjects or explicit "All" → expand to every subject for the grade
+        // so there is no way to cherry-pick 3 subjects at the All-tier price.
+        bool isAllTier = IsAllTier(req.Subjects);
+        var effectiveSubjects = isAllTier ? AllSubjectsForGrade(req.Grade) : req.Subjects;
+
+        // Block if user already has an active subscription for ALL subjects in this tier
+        var alreadyActive = new List<string>();
+        foreach (var subject in effectiveSubjects)
         {
-            bool hasActive = await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, subject, ct);
-            if (hasActive)
-            {
-                return BadRequest($"You already have an active subscription for Class {req.Grade} {subject}. You do not need to buy it again.");
-            }
+            if (await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, subject, ct))
+                alreadyActive.Add(subject);
         }
+        if (alreadyActive.Count == effectiveSubjects.Count)
+            return BadRequest($"You already have an active subscription for all selected subjects in Class {req.Grade}.");
 
         try
         {
+            // Price is always calculated from the original request subjects (preserves tier logic)
             var pricing = _razorpay.CalculatePrice(req.BillingCycle, req.Subjects);
             var order = await _razorpay.CreateDynamicOrderAsync(pricing.AmountInPaise, pricing.Currency, pricing.DisplayName, user.UserId, ct);
-            
+
+            // Store "All" sentinel when it's an all-tier purchase — verify will expand it
             var transaction = new OlympiadReady.Api.Data.Entities.PaymentTransaction
             {
-                UserId = user.UserId,
-                AmountInPaise = pricing.AmountInPaise,
-                Currency = pricing.Currency,
+                UserId          = user.UserId,
+                AmountInPaise   = pricing.AmountInPaise,
+                Currency        = pricing.Currency,
                 RazorpayOrderId = order.OrderId,
-                PlanName = pricing.DisplayName,
-                Status = "Pending",
-                Grade = req.Grade,
-                Subjects = string.Join(",", req.Subjects),
-                Days = pricing.Days,
-                CreatedAt = DateTime.UtcNow
+                PlanName        = pricing.DisplayName,
+                Status          = "Pending",
+                Grade           = req.Grade,
+                Subjects        = isAllTier ? "All" : string.Join(",", effectiveSubjects),
+                Days            = pricing.Days,
+                CreatedAt       = DateTime.UtcNow
             };
             _db.PaymentTransactions.Add(transaction);
             await _db.SaveChangesAsync(ct);
 
             return Ok(new
             {
-                orderId = order.OrderId,
-                keyId = _razorpay.KeyId,
-                amount = pricing.AmountInPaise,
-                currency = pricing.Currency,
-                planName = req.BillingCycle, // Useful for the frontend to track
+                orderId         = order.OrderId,
+                keyId           = _razorpay.KeyId,
+                amount          = pricing.AmountInPaise,
+                currency        = pricing.Currency,
+                planName        = req.BillingCycle,
                 planDisplayName = pricing.DisplayName
             });
         }
@@ -169,9 +189,14 @@ public class BillingController : ControllerBase
             return Ok(new { success = true, message = "Payment already processed successfully." });
 
         var user = await _users.GetOrSyncAsync(User, ct);
-        var subjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
+        var rawSubjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
 
-        // Unlock all passed subjects using DB record
+        // "All" sentinel (stored at checkout when 3+ subjects were selected) → expand to full list
+        var subjects = rawSubjects.Contains("All", StringComparer.OrdinalIgnoreCase)
+            ? AllSubjectsForGrade(transaction.Grade)
+            : rawSubjects;
+
+        // Unlock every subject in the resolved list (skip any already active — idempotent)
         foreach (var subject in subjects)
         {
             int pricePerSubject = transaction.AmountInPaise / (subjects.Count > 0 ? subjects.Count : 1);
