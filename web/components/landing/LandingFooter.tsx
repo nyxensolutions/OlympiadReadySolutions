@@ -42,6 +42,20 @@ export function LandingFooter() {
             <h3 className="mb-4 font-semibold text-slate-900">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
+                <Link href="/contact" className="inline-flex items-center gap-2 text-slate-600 transition hover:text-brand-600">
+                  <Mail className="h-4 w-4 shrink-0 text-brand-500" />
+                  Send us a message
+                </Link>
+                <p className="ml-6 mt-0.5 text-xs text-slate-400">General queries &amp; support</p>
+              </li>
+              <li>
+                <Link href="/contact?type=school" className="inline-flex items-center gap-2 text-slate-600 transition hover:text-purple-600">
+                  <MessageCircle className="h-4 w-4 shrink-0 text-purple-500" />
+                  School &amp; institution pricing
+                </Link>
+                <p className="ml-6 mt-0.5 text-xs text-slate-400">Custom packages for schools</p>
+              </li>
+              <li>
                 <a
                   href="https://wa.me/919953699143"
                   target="_blank"
@@ -52,16 +66,6 @@ export function LandingFooter() {
                   +91 99536 99143
                 </a>
                 <p className="ml-6 mt-0.5 text-xs text-slate-400">WhatsApp · Mon–Sat, 9 am–6 pm</p>
-              </li>
-              <li>
-                <a
-                  href="mailto:nyxencloud@gmail.com"
-                  className="inline-flex items-center gap-2 text-slate-600 transition hover:text-brand-600"
-                >
-                  <Mail className="h-4 w-4 shrink-0 text-brand-500" />
-                  nyxencloud@gmail.com
-                </a>
-                <p className="ml-6 mt-0.5 text-xs text-slate-400">Queries &amp; support</p>
               </li>
             </ul>
           </div>

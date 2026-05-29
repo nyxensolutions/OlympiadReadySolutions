@@ -95,6 +95,14 @@ public class BillingController : ControllerBase
         });
     }
 
+    // Subjects available per grade — mirrors PracticePapersController.IsSubjectAvailable
+    private static List<string> AllSubjectsForGrade(int grade) => grade switch
+    {
+        11 or 12 => new() { "Math", "Science", "English", "Logical Reasoning", "Computers", "AI", "General Knowledge", "Commerce" },
+        >= 3     => new() { "Math", "Science", "English", "Hindi", "Social Studies", "General Knowledge", "Logical Reasoning", "Computers", "AI" },
+        _        => new() { "Math", "Science", "English", "General Knowledge", "Logical Reasoning", "Computers", "AI" }
+    };
+
     [HttpPost("checkout")]
     public async Task<IActionResult> Checkout([FromBody] CheckoutRequest req, CancellationToken ct)
     {
@@ -105,13 +113,20 @@ public class BillingController : ControllerBase
             return BadRequest("At least one subject must be selected.");
 
         var user = await _users.GetOrSyncAsync(User, ct);
+        bool isChampion = req.Subjects.Contains("All", StringComparer.OrdinalIgnoreCase);
 
-        // Block subjects the user already has an active subscription for
-        foreach (var subject in req.Subjects)
+        // For Champion, check that user doesn't already have all subjects active
+        var subjectsToCheck = isChampion ? AllSubjectsForGrade(req.Grade) : req.Subjects;
+        var alreadyActive   = new List<string>();
+        foreach (var subject in subjectsToCheck)
         {
             if (await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, subject, ct))
-                return BadRequest($"You already have an active subscription for Class {req.Grade} {subject}.");
+                alreadyActive.Add(subject);
         }
+        if (!isChampion && alreadyActive.Count > 0)
+            return BadRequest($"You already have an active subscription for Class {req.Grade} {alreadyActive[0]}.");
+        if (isChampion && alreadyActive.Count == subjectsToCheck.Count)
+            return BadRequest($"You already have an active Champion subscription for Class {req.Grade}.");
 
         try
         {
@@ -127,7 +142,7 @@ public class BillingController : ControllerBase
                 PlanName        = pricing.DisplayName,
                 Status          = "Pending",
                 Grade           = req.Grade,
-                Subjects        = string.Join(",", req.Subjects),
+                Subjects        = isChampion ? "All" : string.Join(",", req.Subjects),
                 Days            = pricing.Days,
                 CreatedAt       = DateTime.UtcNow
             };
@@ -166,10 +181,14 @@ public class BillingController : ControllerBase
         if (transaction.Status == "Success")
             return Ok(new { success = true, message = "Payment already processed successfully." });
 
-        var user     = await _users.GetOrSyncAsync(User, ct);
-        var subjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
+        var user        = await _users.GetOrSyncAsync(User, ct);
+        var rawSubjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
 
-        // Unlock exactly the subjects the user paid for
+        // Champion "All" sentinel → expand to every subject for the grade
+        var subjects = rawSubjects.Contains("All", StringComparer.OrdinalIgnoreCase)
+            ? AllSubjectsForGrade(transaction.Grade)
+            : rawSubjects;
+
         foreach (var subject in subjects)
         {
             int pricePerSubject = transaction.AmountInPaise / (subjects.Count > 0 ? subjects.Count : 1);

@@ -46,31 +46,34 @@ public class RazorpayService
     }
 
     // ── Subscription pricing ───────────────────────────────────────────────
-    // ₹129 per subject per month.
-    // 3+ subjects in one purchase → 5% off the total.
-    // Annual = monthly amount × 10 (rounded up to nearest rupee).
-    // "All" in the subjects list must be expanded to actual subjects before calling this.
+    // ₹129 per subject per month, 10% off for 3+ subjects in one purchase.
+    // Annual = monthly × 8, EXCEPT Champion (All Subjects) = fixed ₹3,999/yr.
+    // Send "All" in subjects list to trigger the Champion flat tier.
     public (int AmountInPaise, string Currency, int Days, string DisplayName) CalculatePrice(string billingCycle, List<string> subjects)
     {
-        var isAnnual = string.Equals(billingCycle, "Annual", StringComparison.OrdinalIgnoreCase);
-        var days     = isAnnual ? 365 : 30;
-        int count    = subjects.Count;
-        if (count == 0) count = 1;
+        var isAnnual  = string.Equals(billingCycle, "Annual", StringComparison.OrdinalIgnoreCase);
+        var days      = isAnnual ? 365 : 30;
+        string cycleLabel = isAnnual ? "Annual" : "Monthly";
 
+        // Champion (All-Subjects) flat tier
+        if (subjects.Contains("All", StringComparer.OrdinalIgnoreCase))
+        {
+            int amount = isAnnual ? 399900 : 64900; // ₹3,999/yr · ₹649/mo
+            return (amount, "INR", days, $"Champion — All Subjects · {cycleLabel}");
+        }
+
+        // Linear per-subject: 10% off for 3+
+        int count = subjects.Count > 0 ? subjects.Count : 1;
         const decimal pricePerSubject = 129m;
-        decimal multiplier = count >= 3 ? 0.95m : 1.0m;
+        decimal multiplier = count >= 3 ? 0.90m : 1.0m;
 
-        // Round up to nearest whole rupee, then convert to paise
         int monthlyRupees = (int)Math.Ceiling(count * pricePerSubject * multiplier);
         int monthlyPaise  = monthlyRupees * 100;
-        int amount        = isAnnual ? monthlyPaise * 8 : monthlyPaise;
+        int amount2       = isAnnual ? monthlyPaise * 8 : monthlyPaise;
 
-        string discount     = count >= 3 ? " (5% off)" : "";
-        string cycleLabel   = isAnnual ? "Annual" : "Monthly";
+        string discount     = count >= 3 ? " (10% off)" : "";
         string subjectLabel = count == 1 ? subjects[0] : $"{count} Subjects{discount}";
-        string displayName  = $"{subjectLabel} · {cycleLabel}";
-
-        return (amount, "INR", days, displayName);
+        return (amount2, "INR", days, $"{subjectLabel} · {cycleLabel}");
     }
 
     // ── Per-PDF batch pricing helpers ─────────────────────────────────────

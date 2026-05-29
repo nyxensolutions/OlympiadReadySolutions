@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { SignedIn, SignedOut, useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
+import { UpgradeModal } from "@/components/UpgradeModal";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -118,10 +119,14 @@ function PracticePapersBody() {
   const [paying, setPaying] = useState<string | null>(null);
   const [notice, setNotice] = useState<{ kind: "ok" | "err"; msg: string } | null>(null);
 
+  // ── Upgrade modal ─────────────────────────────────────────────────────
+  const [upgradeOpen, setUpgradeOpen]       = useState(false);
+  const [upgradeSubject, setUpgradeSubject] = useState<string | undefined>();
+
   // ── Multi-select cart ─────────────────────────────────────────────────
-  // Cart items are keyed by "subject" (grade is the current page grade)
-  const [cart, setCart] = useState<Set<string>>(new Set());
-  const [batchPaying, setBatchPaying] = useState(false);
+  const [cart, setCart]             = useState<Set<string>>(new Set());
+  const [batchPaying, setBatchPaying]       = useState(false);
+  const [batchInProgress, setBatchInProgress] = useState(false);
 
   function toggleCart(subject: string) {
     setCart((prev) => {
@@ -308,6 +313,7 @@ function PracticePapersBody() {
   async function buyBatchAndDownload() {
     if (cart.size === 0) return;
     setBatchPaying(true);
+    setBatchInProgress(true);
     setNotice(null);
     try {
       const ready = await loadRazorpay();
@@ -376,12 +382,39 @@ function PracticePapersBody() {
         setNotice({ kind: "err", msg: e instanceof Error ? e.message : "Payment failed." });
     } finally {
       setBatchPaying(false);
+      setBatchInProgress(false);
       if (downloading === "batch") setDownloading(null);
     }
   }
 
   return (
     <>
+      {/* ── Full-screen overlay during batch PDF generation ──────────────── */}
+      {batchInProgress && (
+        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-slate-900/80 backdrop-blur-sm text-white px-4 text-center">
+          <Loader2 className="h-12 w-12 animate-spin text-brand-300 mb-4" />
+          <h2 className="text-xl font-bold mb-2">
+            {batchPaying ? "Opening payment gateway…" : "Generating your papers & building ZIP…"}
+          </h2>
+          <p className="text-sm text-slate-300 max-w-sm">
+            Please do not close or refresh this page until your download starts.
+          </p>
+          <div className="mt-6 flex items-center gap-2 rounded-full bg-amber-500/20 border border-amber-400/30 px-4 py-2 text-xs font-semibold text-amber-200">
+            ⚠️ Closing the page now will cancel your download
+          </div>
+        </div>
+      )}
+
+      {/* ── Upgrade modal (subscribe directly from this page) ───────────── */}
+      <UpgradeModal
+        open={upgradeOpen}
+        onClose={() => setUpgradeOpen(false)}
+        onUpgraded={() => { setUpgradeOpen(false); void fetchSubjects(); }}
+        initialGrade={grade}
+        initialSubject={upgradeSubject}
+        reason="Subscribe to get unlimited 50-question PDF downloads for this subject every week."
+      />
+
       {/* Hero banner */}
       <div className="bg-gradient-hero px-4 py-12 text-white">
         <div className="mx-auto max-w-5xl">
@@ -422,6 +455,14 @@ function PracticePapersBody() {
       </div>
 
       <div className="mx-auto max-w-5xl px-4 py-8">
+        {/* Top banner during ZIP generation (payment done, server building) */}
+        {batchInProgress && !batchPaying && (
+          <div className="mb-4 flex items-center gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+            <Loader2 className="h-4 w-4 animate-spin shrink-0 text-amber-600" />
+            <p className="font-semibold">Building your ZIP — please don't close or refresh this page until the download starts.</p>
+          </div>
+        )}
+
         {/* Notice banner */}
         {notice && (
           <div className={`mb-6 flex items-start gap-3 rounded-xl border px-4 py-3 text-sm ${
@@ -607,10 +648,13 @@ function PracticePapersBody() {
                               All topics · Detailed explanations · Fresh set every download
                             </p>
                             {!info.isSubscribed && (
-                              <p className="text-[10px] font-semibold text-emerald-600 mt-1.5 flex items-center gap-1">
+                              <button
+                                onClick={() => { setUpgradeSubject(info.subject); setUpgradeOpen(true); }}
+                                className="text-[10px] font-semibold text-emerald-600 mt-1.5 flex items-center gap-1 hover:underline"
+                              >
                                 <Crown className="h-3.5 w-3.5 text-emerald-500 inline shrink-0 animate-pulse" />
-                                🎁 Free (up to 10/wk) with subscription!
-                              </p>
+                                🎁 Free (up to 10/wk) with subscription — tap to unlock
+                              </button>
                             )}
                           </div>
                           {info.isSubscribed ? (

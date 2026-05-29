@@ -87,17 +87,28 @@ export function UpgradeModal({
   }
 
   // Calculate Prices Locally — must match backend RazorpayService.CalculatePrice exactly.
-  // ₹129 per subject/month. 3+ subjects in one purchase → 5% off total.
-  // Annual = monthly (rounded up) × 10.
+  // Champion (All subjects): ₹649/mo · ₹3,999/yr (fixed).
+  // Linear: ₹129/subject/month, 10% off for 3+, annual = monthly × 8.
   const isAnnual = billingCycle === "Annual";
   const count = isAllSelected ? availableSubjects.length : selectedSubjects.length;
 
-  const perSubject = 129;
-  const discount   = count >= 3 ? 0.95 : 1.0;
-  const monthly    = count > 0 ? Math.ceil(count * perSubject * discount) : 0;
-  const price      = count > 0 ? (isAnnual ? monthly * 8 : monthly) : 0;
-  // Show annual saving vs paying monthly for 12 months
-  const originalPrice = isAnnual && count > 0 ? monthly * 12 : 0;
+  const isChampion = isAllSelected;
+  let price = 0;
+  let originalPrice = 0; // vs monthly × 12 for savings display
+  let monthlyEquiv = 0;  // shown as "= ₹X/month" anchor under annual price
+
+  if (isChampion) {
+    price         = isAnnual ? 3999 : 649;
+    originalPrice = isAnnual ? 649 * 12 : 0;
+    monthlyEquiv  = isAnnual ? Math.round(3999 / 12) : 0;
+  } else if (count > 0) {
+    const perSubject = 129;
+    const discount   = count >= 3 ? 0.90 : 1.0;
+    const monthly    = Math.ceil(count * perSubject * discount);
+    price         = isAnnual ? monthly * 8 : monthly;
+    originalPrice = isAnnual ? monthly * 12 : 0;
+    monthlyEquiv  = isAnnual ? Math.round(price / 12) : 0;
+  }
 
   if (!open) return null;
 
@@ -115,8 +126,8 @@ export function UpgradeModal({
       }
       const token = await getToken();
       
-      // Determine what to send
-      const payloadSubjects = isAllSelected ? availableSubjects : selectedSubjects;
+      // Champion = send ["All"] sentinel; backend expands to every subject for the grade
+      const payloadSubjects = isAllSelected ? ["All"] : selectedSubjects;
 
       const res = await fetch(`${API_URL}/api/billing/checkout`, {
         method: "POST",
@@ -229,9 +240,14 @@ export function UpgradeModal({
         <div className="mt-6">
           <label className="flex items-center justify-between text-sm font-semibold text-slate-700">
             <span>Select Subjects</span>
-            {count >= 3 && (
+            {!isChampion && count >= 3 && (
               <span className="text-xs font-medium text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">
-                5% off applied
+                10% off applied
+              </span>
+            )}
+            {isChampion && (
+              <span className="text-xs font-medium text-purple-600 bg-purple-50 px-2 py-0.5 rounded-full">
+                Champion — Best Value
               </span>
             )}
           </label>
@@ -300,14 +316,26 @@ export function UpgradeModal({
             <span className="text-4xl font-bold text-slate-900">₹{price}</span>
             <span className="text-base font-medium text-slate-500 mb-1">/ {billingCycle === "Annual" ? "yr" : "mo"}</span>
           </div>
+          {isAnnual && monthlyEquiv > 0 && (
+            <p className="mt-1 text-sm font-semibold text-brand-600">= ₹{monthlyEquiv}/month</p>
+          )}
           {isAnnual && originalPrice > 0 && (
-            <p className="mt-1 text-sm text-slate-500">
-              vs monthly{" "}
-              <span className="line-through">₹{originalPrice}/yr</span>.{" "}
-              <span className="font-semibold text-emerald-600">Save ₹{originalPrice - price}!</span>
+            <p className="mt-0.5 text-xs text-slate-500">
+              vs monthly billing{" "}
+              <span className="line-through">₹{originalPrice}/yr</span>
+              {" · "}
+              <span className="font-semibold text-emerald-600">Save ₹{originalPrice - price}</span>
             </p>
           )}
         </div>
+
+        {/* School / custom packages CTA */}
+        <p className="mt-3 text-center text-xs text-slate-400">
+          Need school or bulk pricing?{" "}
+          <a href="/contact?type=school" className="text-brand-600 underline hover:text-brand-700">
+            Contact us for custom packages →
+          </a>
+        </p>
 
         <button
           type="button"
