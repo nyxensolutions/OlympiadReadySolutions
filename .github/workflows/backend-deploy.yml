@@ -30,6 +30,12 @@ jobs:
         dotnet build --configuration Release
         dotnet publish -c Release -o ./publish
 
+    - name: Apply EF Core Migrations
+      working-directory: ./api
+      run: |
+        dotnet tool install --global dotnet-ef
+        dotnet ef database update --connection "${{ secrets.AZURE_SQL_CONNECTION_STRING }}"
+
     - name: Azure Login (Test Account)
       uses: azure/login@v2
       with:
@@ -65,6 +71,12 @@ jobs:
         dotnet restore
         dotnet build --configuration Release
         dotnet publish -c Release -o ./publish
+
+    - name: Apply EF Core Migrations
+      working-directory: ./api
+      run: |
+        dotnet tool install --global dotnet-ef
+        dotnet ef database update --connection "${{ secrets.AZURE_SQL_CONNECTION_STRING }}"
 
     - name: Azure Login (Prod Account)
       uses: azure/login@v2

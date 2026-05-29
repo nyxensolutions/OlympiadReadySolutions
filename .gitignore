@@ -27,3 +27,7 @@ secrets.json
 
 # Local dev secrets - never commit
 api/appsettings.Development.json
+
+*.db
+
+*.sqlite3

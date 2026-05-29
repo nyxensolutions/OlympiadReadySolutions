@@ -100,23 +100,20 @@ builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p
 
 builder.Services.AddRateLimiter(options =>
 {
-    options.AddFixedWindowLimiter("GlobalFixed", opt =>
-    {
-        opt.Window = TimeSpan.FromMinutes(1);
-        opt.PermitLimit = 200;
-        opt.QueueProcessingOrder = System.Threading.RateLimiting.QueueProcessingOrder.OldestFirst;
-        opt.QueueLimit = 10;
-    });
+    options.AddPolicy("PerUserPolicy", context =>
+        System.Threading.RateLimiting.RateLimitPartition.GetFixedWindowLimiter(
+            context.User?.FindFirst("sub")?.Value ?? context.Connection.RemoteIpAddress?.ToString() ?? "anon",
+            _ => new System.Threading.RateLimiting.FixedWindowRateLimiterOptions { Window = TimeSpan.FromMinutes(1), PermitLimit = 200, QueueLimit = 10 }));
+
+    options.AddPolicy("AiGenerationPolicy", context =>
+        System.Threading.RateLimiting.RateLimitPartition.GetFixedWindowLimiter(
+            context.User?.FindFirst("sub")?.Value ?? context.Connection.RemoteIpAddress?.ToString() ?? "anon",
+            _ => new System.Threading.RateLimiting.FixedWindowRateLimiterOptions { Window = TimeSpan.FromMinutes(1), PermitLimit = 5, QueueLimit = 2 }));
 });
 
 var app = builder.Build();
 
-// Apply pending EF migrations on startup. In dev this also creates the database the first time.
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
-}
+// Migrations are now handled in the CI/CD pipeline or manually
 
 if (app.Environment.IsDevelopment())
 {
@@ -133,6 +130,6 @@ if (app.Environment.IsProduction())
 }
 app.UseAuthentication();
 app.UseAuthorization();
-app.MapControllers().RequireRateLimiting("GlobalFixed");
+app.MapControllers().RequireRateLimiting("PerUserPolicy");
 
 app.Run();

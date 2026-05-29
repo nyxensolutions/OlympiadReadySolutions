@@ -73,6 +73,7 @@ public class MockExamsController : ControllerBase
     }
 
     [HttpPost("generate")]
+    [Microsoft.AspNetCore.RateLimiting.EnableRateLimiting("AiGenerationPolicy")]
     public async Task<IActionResult> Generate([FromBody] GenerateMockExamRequest req, CancellationToken ct)
     {
         var user = await _users.GetOrSyncAsync(User, ct);
