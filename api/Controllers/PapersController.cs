@@ -146,13 +146,43 @@ public class PapersController : ControllerBase
                     }
                 }
 
-                // If AI fell short, top up from DB
+                // If AI fell short (or AI was skipped), top up from DB
                 int shortfall = req.Count - finalQuestions.Count;
                 if (shortfall > 0)
                 {
                     var extraBankQuestions = await _bank.TryGetRandomAsync(
                         req.Subject, req.Grade, req.Difficulty, shortfall, req.Topic, ct);
                     if (extraBankQuestions != null) finalQuestions.AddRange(extraBankQuestions);
+                }
+
+                // Last resort: if DB is still exhausted, call AI regardless of tier
+                int aiShortfall = req.Count - finalQuestions.Count;
+                if (aiShortfall > 0 && !isTestAccount)
+                {
+                    _log.LogInformation("DB exhausted shortfall: calling AI for {Count} questions as last resort", aiShortfall);
+                    var aiShortfallQuestions = await _ai.GenerateQuestionsAsync(
+                        req.Subject, req.Grade, req.Difficulty, aiShortfall, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
+                    finalQuestions.AddRange(aiShortfallQuestions);
+                    foreach (var q in aiShortfallQuestions)
+                    {
+                        int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
+                        string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
+                        var newBankId = Guid.NewGuid();
+                        _db.QuestionBank.Add(new QuestionBankItem
+                        {
+                            QuestionBankId = newBankId,
+                            Subject = req.Subject,
+                            Grade = req.Grade,
+                            Difficulty = req.Difficulty,
+                            Topic = q.Topic ?? "General",
+                            QuestionText = q.Q ?? "",
+                            OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
+                            CorrectAnswer = letterAnswer,
+                            Explanation = q.Explanation ?? "",
+                            CreatedAt = DateTime.UtcNow
+                        });
+                        q.BankId = newBankId;
+                    }
                 }
 
                 if (finalQuestions.Count == 0)

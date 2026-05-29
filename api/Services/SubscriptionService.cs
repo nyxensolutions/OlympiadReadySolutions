@@ -76,9 +76,8 @@ public class SubscriptionService
             return subscription.AiGenerationsUsed < PaidAiGenerationLimit;
         }
 
-        // Free user: We use AI for their free attempts to give them a premium taste and populate our DB.
-        var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
-        return user != null && user.FreeAttemptsUsed < GlobalFreeAttemptsLimit;
+        // Free users get DB-only questions; AI is called as last resort only if the bank is exhausted.
+        return false;
     }
 
     /// <summary>
