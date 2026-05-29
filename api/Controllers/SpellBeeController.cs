@@ -143,19 +143,12 @@ public class SpellBeeController : ControllerBase
     /// Bulk-import words from JSON. Restricted to admin.
     /// Body: array of { word, grade, difficulty, category, definition, usageSentence, origin?, pronunciation?, memoryTip? }
     /// </summary>
-    [Authorize]
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPost("admin/import")]
     public async Task<IActionResult> AdminImport(
         [FromBody] List<SpellBeeImportRow> rows,
         CancellationToken ct)
     {
-        // Admin-only guard: use email allowlist or a custom claim in production
-        var user = await _users.GetOrSyncAsync(User, ct);
-        if (!user.Email.Contains("admin", StringComparison.OrdinalIgnoreCase) &&
-            !user.Email.Equals("akhilmittal2008@gmail.com", StringComparison.OrdinalIgnoreCase))
-        {
-            return Forbid();
-        }
 
         var existingWords = (await _db.SpellBeeWords
             .Select(w => w.Word)

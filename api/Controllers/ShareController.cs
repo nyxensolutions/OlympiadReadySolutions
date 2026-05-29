@@ -147,7 +147,9 @@ public class ShareController : ControllerBase
 
     private string ComputeHmac(string data)
     {
-        var secret = _config["Share:Secret"] ?? "olympiad-ready-share-secret-change-in-prod";
+        var secret = _config["Share:Secret"];
+        if (string.IsNullOrWhiteSpace(secret) || secret == "REPLACE_WITH_YOUR_SHARE_SECRET")
+            throw new InvalidOperationException("Share:Secret configuration is missing or invalid.");
         using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(secret));
         var hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(data));
         return Base64UrlEncode(hash);

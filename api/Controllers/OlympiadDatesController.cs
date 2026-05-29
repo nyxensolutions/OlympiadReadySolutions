@@ -87,7 +87,7 @@ public class OlympiadDatesController : ControllerBase
         CancellationToken ct)
     {
         var expected = config["Admin:ApiKey"];
-        if (string.IsNullOrEmpty(expected) || adminKey != expected)
+        if (string.IsNullOrEmpty(expected) || expected == "REPLACE_WITH_YOUR_ADMIN_KEY" || adminKey != expected)
             return Unauthorized();
 
         var count = await _db.OlympiadSchedules.CountAsync(ct);

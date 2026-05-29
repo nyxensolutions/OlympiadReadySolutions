@@ -26,7 +26,7 @@ public class JobsController : ControllerBase
     public async Task<IActionResult> SendWeeklyEmails([FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
     {
         var expectedKey = _config["Cron:SecretKey"];
-        if (!string.IsNullOrEmpty(expectedKey) && cronKey != expectedKey)
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
         {
             return Unauthorized("Invalid Cron-Key");
         }
@@ -82,7 +82,7 @@ public class JobsController : ControllerBase
     public async Task<IActionResult> TestWeeklyEmail([FromQuery] string email, [FromHeader(Name = "Cron-Key")] string? cronKey)
     {
         var expectedKey = _config["Cron:SecretKey"];
-        if (!string.IsNullOrEmpty(expectedKey) && cronKey != expectedKey)
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
         {
             return Unauthorized("Invalid Cron-Key");
         }

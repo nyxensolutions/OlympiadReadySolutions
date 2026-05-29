@@ -23,13 +23,15 @@ public class ExportController : ControllerBase
         _users = users;
     }
 
-    /// <summary>Render an arbitrary question set to PDF (open — used by the unauth preview flow).</summary>
-    [AllowAnonymous]
+    /// <summary>Render an arbitrary question set to PDF.</summary>
+    [Authorize]
     [HttpPost("pdf")]
     public IActionResult Pdf([FromBody] PdfExportRequest req)
     {
         if (req.Questions.Count == 0)
             return BadRequest("Questions list is empty.");
+        if (req.Questions.Count > 50)
+            return BadRequest("Maximum of 50 questions allowed for export at a time.");
 
         var bytes = _pdf.GeneratePaperPdf(req);
         var filename = $"OlympiadReady-{req.Subject}-Class{req.Grade}-{req.Difficulty}.pdf";
