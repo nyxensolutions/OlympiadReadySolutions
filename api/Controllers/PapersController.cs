@@ -57,7 +57,7 @@ public class PapersController : ControllerBase
                 });
             }
 
-            bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, ct);
+            bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, req.Difficulty, ct);
             
             string jsonContent;
             List<Question> questions = new();
@@ -197,7 +197,7 @@ public class PapersController : ControllerBase
                 questions = finalQuestions.OrderBy(q => Guid.NewGuid()).Take(req.Count).ToList();
                 jsonContent = JsonSerializer.Serialize(questions);
 
-                await _subs.RecordOnlineTestGenerationAsync(user.UserId, req.Grade, req.Subject, useHybridAi, ct);
+                await _subs.RecordOnlineTestGenerationAsync(user.UserId, req.Grade, req.Subject, useHybridAi, req.Difficulty, ct);
             }
 
             var paper = new QuestionPaper
