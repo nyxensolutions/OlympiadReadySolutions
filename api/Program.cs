@@ -75,7 +75,10 @@ builder.Services
         };
     });
 
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminPolicy", policy => policy.RequireClaim("role", "admin"));
+});
 
 const string CorsPolicy = "WebDev";
 builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p

@@ -13,7 +13,10 @@ namespace OlympiadReady.Api.Controllers;
 /// Internal admin endpoints — protected by a static API key in config (Admin:ApiKey).
 /// Not exposed behind Clerk JWT so the developer can hit it from curl/Postman without signing in.
 /// </summary>
+using Microsoft.AspNetCore.Authorization;
+
 [ApiController]
+[Authorize(Policy = "AdminPolicy")]
 [Route("api/admin")]
 public class AdminController : ControllerBase
 {
@@ -63,8 +66,6 @@ public class AdminController : ControllerBase
         [FromQuery] int grade,
         CancellationToken ct)
     {
-        if (!IsAuthorised())
-            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         if (string.IsNullOrWhiteSpace(subject))
             return BadRequest(new { error = "subject query param is required." });
@@ -129,7 +130,6 @@ public class AdminController : ControllerBase
     [HttpGet("config-check")]
     public IActionResult ConfigCheck()
     {
-        if (!IsAuthorised()) return Unauthorized();
         var cloudName  = _config["Cloudinary:CloudName"];
         var apiKey     = _config["Cloudinary:ApiKey"];
         var apiSecret  = _config["Cloudinary:ApiSecret"];
@@ -154,8 +154,6 @@ public class AdminController : ControllerBase
     [HttpGet("bank-stats")]
     public async Task<IActionResult> BankStats(CancellationToken ct)
     {
-        if (!IsAuthorised())
-            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var stats = await _bank.GetStatsAsync(ct);
         return Ok(stats);
@@ -167,7 +165,6 @@ public class AdminController : ControllerBase
     [HttpPost("fix-corrupted-questions")]
     public async Task<IActionResult> FixCorruptedQuestions([FromQuery] string dirPath, CancellationToken ct)
     {
-        if (!IsAuthorised()) return Unauthorized();
 
         if (string.IsNullOrWhiteSpace(dirPath) || !System.IO.Directory.Exists(dirPath))
             return BadRequest(new { error = "Invalid directory path" });
@@ -293,8 +290,6 @@ public class AdminController : ControllerBase
         [FromQuery] int pageSize = 20,
         CancellationToken ct = default)
     {
-        if (!IsAuthorised())
-            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var query = _db.QuestionBank.AsQueryable();
 
@@ -359,8 +354,6 @@ public class AdminController : ControllerBase
     [HttpDelete("questions/{id:guid}")]
     public async Task<IActionResult> DeleteQuestion(Guid id, CancellationToken ct)
     {
-        if (!IsAuthorised())
-            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var item = await _db.QuestionBank.FindAsync(new object[] { id }, ct);
         if (item is null)
@@ -383,8 +376,6 @@ public class AdminController : ControllerBase
     [RequestSizeLimit(10 * 1024 * 1024)] // 10 MB
     public async Task<IActionResult> UploadImage(IFormFile file, CancellationToken ct)
     {
-        if (!IsAuthorised())
-            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         if (file == null || file.Length == 0)
             return BadRequest(new { error = "No file provided." });
@@ -438,8 +429,6 @@ public class AdminController : ControllerBase
     [HttpPost("add-question")]
     public async Task<IActionResult> AddQuestion([FromBody] AddQuestionDto dto, CancellationToken ct)
     {
-        if (!IsAuthorised())
-            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         if (string.IsNullOrWhiteSpace(dto.Subject))
             return BadRequest(new { error = "subject is required." });
@@ -480,8 +469,6 @@ public class AdminController : ControllerBase
     [HttpPut("questions/{id:guid}")]
     public async Task<IActionResult> UpdateQuestion(Guid id, [FromBody] AddQuestionDto dto, CancellationToken ct)
     {
-        if (!IsAuthorised())
-            return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         if (string.IsNullOrWhiteSpace(dto.Subject))
             return BadRequest(new { error = "subject is required." });
@@ -524,7 +511,6 @@ public class AdminController : ControllerBase
     [HttpGet("badges")]
     public async Task<IActionResult> GetUserBadges(CancellationToken ct)
     {
-        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var users = await _db.Users
             .AsNoTracking()
@@ -670,7 +656,6 @@ public class AdminController : ControllerBase
     [HttpGet("physical-rewards")]
     public async Task<IActionResult> GetPhysicalRewards(CancellationToken ct)
     {
-        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var claims = await _db.PhysicalRewardClaims
             .AsNoTracking()
@@ -701,7 +686,6 @@ public class AdminController : ControllerBase
     [HttpPut("physical-rewards/{id:guid}")]
     public async Task<IActionResult> UpdatePhysicalReward(Guid id, [FromBody] UpdateRewardDto dto, CancellationToken ct)
     {
-        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var claim = await _db.PhysicalRewardClaims.FindAsync(new object[] { id }, ct);
         if (claim is null) return NotFound(new { error = "Claim not found." });
@@ -726,7 +710,6 @@ public class AdminController : ControllerBase
     [HttpPost("physical-rewards/{userId:guid}/claim")]
     public async Task<IActionResult> CreatePhysicalRewardClaim(Guid userId, [FromBody] CreateRewardClaimDto dto, CancellationToken ct)
     {
-        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var user = await _db.Users.FindAsync(new object[] { userId }, ct);
         if (user is null) return NotFound(new { error = "User not found." });
@@ -756,7 +739,6 @@ public class AdminController : ControllerBase
     [HttpGet("reports")]
     public async Task<IActionResult> GetReports(CancellationToken ct)
     {
-        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         var reports = await _db.ReportedQuestions
             .AsNoTracking()
@@ -792,7 +774,6 @@ public class AdminController : ControllerBase
     [HttpPost("reports/{reportId:guid}/resolve")]
     public async Task<IActionResult> ResolveReport(Guid reportId, [FromBody] ResolveReportDto dto, CancellationToken ct)
     {
-        if (!IsAuthorised()) return Unauthorized(new { error = "Missing or invalid X-Admin-Key header." });
 
         if (dto.Status != "Accepted" && dto.Status != "Rejected")
             return BadRequest(new { error = "Status must be 'Accepted' or 'Rejected'." });
@@ -876,14 +857,7 @@ public class AdminController : ControllerBase
     }
 
     // ---------------------------------------------------------------
-    private bool IsAuthorised()
-    {
-        var configKey = _config["Admin:ApiKey"];
-        if (string.IsNullOrWhiteSpace(configKey)) return false;
 
-        Request.Headers.TryGetValue("X-Admin-Key", out var provided);
-        return string.Equals(configKey, provided, StringComparison.Ordinal);
-    }
 }
 
 // ─── DTOs ─────────────────────────────────────────────────────────────────────
@@ -965,3 +939,5 @@ public class OptionsFlexConverter : JsonConverter<List<string>?>
         writer.WriteEndArray();
     }
 }
+
+

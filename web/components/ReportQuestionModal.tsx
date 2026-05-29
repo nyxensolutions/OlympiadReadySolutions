@@ -4,6 +4,8 @@ import { useState } from "react";
 import { AlertCircle, CheckCircle2, Loader2, X } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
+
 export function ReportQuestionModal({ 
   questionId, 
   questionText,
@@ -28,7 +30,7 @@ export function ReportQuestionModal({
       // In a real app, you would use your API client/auth header setup here
       const token = await getToken();
       
-      const res = await fetch("/api/reports", {
+      const res = await fetch(`${API_URL}/api/reports`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

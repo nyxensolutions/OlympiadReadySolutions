@@ -21,7 +21,7 @@ public class AppDbContext : DbContext
     public DbSet<UserSeenQuestion> UserSeenQuestions => Set<UserSeenQuestion>();
     public DbSet<ReportedQuestion> ReportedQuestions => Set<ReportedQuestion>();
     public DbSet<UserNotification> UserNotifications => Set<UserNotification>();
-
+    public DbSet<PaymentTransaction> PaymentTransactions => Set<PaymentTransaction>();
     protected override void OnModelCreating(ModelBuilder b)
     {
         b.Entity<User>(e =>
@@ -244,6 +244,19 @@ public class AppDbContext : DbContext
                 .OnDelete(DeleteBehavior.Cascade);
             e.HasIndex(x => new { x.UserId, x.RewardType });
             e.HasIndex(x => x.Status);
+        });
+
+        b.Entity<PaymentTransaction>(e =>
+        {
+            e.ToTable("PaymentTransactions");
+            e.HasKey(x => x.TransactionId);
+            e.Property(x => x.TransactionId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
+            e.HasOne(x => x.User)
+                .WithMany()
+                .HasForeignKey(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+            e.HasIndex(x => x.UserId);
         });
     }
 }

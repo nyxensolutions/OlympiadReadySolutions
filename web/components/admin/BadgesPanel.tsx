@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Award, Medal, RefreshCw, ChevronDown, ChevronUp, Package, CheckCircle, Truck } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -70,7 +71,8 @@ const STATUS_COLORS: Record<string, string> = {
   Cancelled: "bg-red-100 text-red-800 border-red-200",
 };
 
-export function BadgesPanel({ adminKey, showToast }: { adminKey: string; showToast: (t: "success" | "error", m: string) => void }) {
+export function BadgesPanel({ showToast }: { showToast: (t: "success" | "error", m: string) => void }) {
+  const { getToken } = useAuth();
   const [activeSubTab, setActiveSubTab] = useState<"students" | "rewards">("students");
   const [users, setUsers] = useState<UserBadgeRow[]>([]);
   const [rewards, setRewards] = useState<RewardClaim[]>([]);
@@ -82,7 +84,7 @@ export function BadgesPanel({ adminKey, showToast }: { adminKey: string; showToa
   async function loadUsers() {
     setLoading(true);
     try {
-      const res = await fetch(`${API_URL}/api/admin/badges`, { headers: { "X-Admin-Key": adminKey } });
+      const res = await fetch(`${API_URL}/api/admin/badges`, { headers: { "Authorization": `Bearer ${await getToken()}` } });
       if (res.ok) setUsers(await res.json());
       else showToast("error", "Failed to load badge data");
     } finally {
@@ -92,7 +94,7 @@ export function BadgesPanel({ adminKey, showToast }: { adminKey: string; showToa
 
   async function loadRewards() {
     try {
-      const res = await fetch(`${API_URL}/api/admin/physical-rewards`, { headers: { "X-Admin-Key": adminKey } });
+      const res = await fetch(`${API_URL}/api/admin/physical-rewards`, { headers: { "Authorization": `Bearer ${await getToken()}` } });
       if (res.ok) setRewards(await res.json());
     } catch { /* silent */ }
   }
@@ -103,7 +105,7 @@ export function BadgesPanel({ adminKey, showToast }: { adminKey: string; showToa
     if (!editingClaim) return;
     const res = await fetch(`${API_URL}/api/admin/physical-rewards/${editingClaim.claimId}`, {
       method: "PUT",
-      headers: { "X-Admin-Key": adminKey, "Content-Type": "application/json" },
+      headers: { "Authorization": `Bearer ${await getToken()}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         status: claimForm.status || null,
         adminNotes: claimForm.adminNotes || null,
@@ -122,7 +124,7 @@ export function BadgesPanel({ adminKey, showToast }: { adminKey: string; showToa
   async function createClaim(userId: string, fullName: string) {
     const res = await fetch(`${API_URL}/api/admin/physical-rewards/${userId}/claim`, {
       method: "POST",
-      headers: { "X-Admin-Key": adminKey, "Content-Type": "application/json" },
+      headers: { "Authorization": `Bearer ${await getToken()}`, "Content-Type": "application/json" },
       body: JSON.stringify({ rewardType: "olympiad_legend", studentName: fullName }),
     });
     if (res.ok) {

@@ -158,6 +158,20 @@ public class BillingController : ControllerBase
             await _subs.UnlockSubjectAsync(user.UserId, req.Grade, subject, pricing.Days, pricePerSubject, req.OrderId, req.PaymentId, ct);
         }
 
+        var transaction = new OlympiadReady.Api.Data.Entities.PaymentTransaction
+        {
+            UserId = user.UserId,
+            AmountInPaise = pricing.AmountInPaise,
+            Currency = pricing.Currency,
+            RazorpayOrderId = req.OrderId,
+            RazorpayPaymentId = req.PaymentId,
+            PlanName = pricing.DisplayName,
+            Status = "Success",
+            CreatedAt = DateTime.UtcNow
+        };
+        _db.PaymentTransactions.Add(transaction);
+        await _db.SaveChangesAsync(ct);
+
         _log.LogInformation(
             "User {UserId} upgraded to {DisplayName} for {Days} days via order {OrderId}",
             user.UserId, pricing.DisplayName, pricing.Days, req.OrderId);

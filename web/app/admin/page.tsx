@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
+import { useAuth } from "@clerk/nextjs";
 import {
   Upload, X, CheckCircle, AlertCircle, Eye, EyeOff, ImageIcon, Type,
   Link, Search, PlusCircle, Trash2, RotateCcw, ArrowRight, Database,
@@ -42,11 +43,8 @@ function detectMode(q: BankQuestion): QuestionMode {
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function AdminPage() {
-  const [adminKey, setAdminKey] = useState(() =>
-    typeof window !== "undefined" ? sessionStorage.getItem("admin_key") ?? "" : ""
-  );
-  const [keyVisible, setKeyVisible] = useState(false);
-  const [authed, setAuthed] = useState(false);
+  const { getToken, isLoaded, userId } = useAuth();
+  const [authed, setAuthed] = useState(true); // Auto-authed by clerk
   const [toast, setToast] = useState<Toast | null>(null);
   const [activeTab, setActiveTab] = useState<TabId>("add");
   const [stats, setStats] = useState<{ total: number } | null>(null);
@@ -65,21 +63,18 @@ export default function AdminPage() {
     setTimeout(() => setToast(null), 4500);
   }
 
-  function saveKey(k: string) { setAdminKey(k); sessionStorage.setItem("admin_key", k); }
+  useEffect(() => {
+    if (isLoaded) loadStats();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isLoaded]);
 
-  async function loadStats(key: string) {
+  async function loadStats() {
     try {
       const res = await fetch(`${API_URL}/api/admin/questions?pageSize=1`, {
-        headers: { "X-Admin-Key": key },
+        headers: { "Authorization": `Bearer ${await getToken()}` },
       });
       if (res.ok) { const d = await res.json(); setStats({ total: d.total }); }
     } catch { /* silent */ }
-  }
-
-  function handleAuth() {
-    if (!adminKey) return;
-    setAuthed(true);
-    loadStats(adminKey);
   }
 
   function goToBrowse(filters: Partial<typeof browseFilters>) {
@@ -88,29 +83,7 @@ export default function AdminPage() {
     setTriggerSearch((n) => n + 1);
   }
 
-  if (!authed) {
-    return (
-      <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4">
-        <div className="bg-slate-800 rounded-2xl p-8 w-full max-w-sm shadow-xl">
-          <h1 className="text-white text-2xl font-bold mb-6 text-center">Admin Access</h1>
-          <div className="relative mb-4">
-            <input type={keyVisible ? "text" : "password"} value={adminKey}
-              onChange={(e) => saveKey(e.target.value)} placeholder="Enter admin key"
-              onKeyDown={(e) => e.key === "Enter" && handleAuth()}
-              className="w-full bg-slate-700 text-white rounded-lg px-4 py-3 pr-12 outline-none focus:ring-2 focus:ring-indigo-500" />
-            <button type="button" onClick={() => setKeyVisible((v) => !v)}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white">
-              {keyVisible ? <EyeOff size={18} /> : <Eye size={18} />}
-            </button>
-          </div>
-          <button onClick={handleAuth}
-            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg transition">
-            Continue
-          </button>
-        </div>
-      </div>
-    );
-  }
+  if (!isLoaded) return <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white">Loading...</div>;
 
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 p-4 md:p-8">
@@ -127,7 +100,7 @@ export default function AdminPage() {
       {editingQuestion && (
         <EditModal
           question={editingQuestion}
-          adminKey={adminKey}
+          
           showToast={showToast}
           onClose={() => setEditingQuestion(null)}
           onSaved={(updated) => {
@@ -170,9 +143,9 @@ export default function AdminPage() {
 
         {activeTab === "add" && (
           <AddQuestionForm
-            adminKey={adminKey}
+            
             showToast={showToast}
-            onAdded={(info) => { setLastAdded(info); loadStats(adminKey); }}
+            onAdded={(info) => { setLastAdded(info); loadStats(); }}
             goToBrowse={goToBrowse}
             lastAdded={lastAdded}
             onDismissAdded={() => setLastAdded(null)}
@@ -180,21 +153,21 @@ export default function AdminPage() {
         )}
 
         {activeTab === "badges" && (
-          <BadgesPanel adminKey={adminKey} showToast={showToast} />
+          <BadgesPanel  showToast={showToast} />
         )}
 
         {activeTab === "reports" && (
-          <ReportsPanel adminKey={adminKey} showToast={showToast} />
+          <ReportsPanel  showToast={showToast} />
         )}
 
         {activeTab === "browse" && (
           <BrowsePanel
-            adminKey={adminKey}
+            
             showToast={showToast}
             filters={browseFilters}
             setFilters={setBrowseFilters}
             triggerSearch={triggerSearch}
-            onDeleted={() => loadStats(adminKey)}
+            onDeleted={() => loadStats()}
             onEdit={(q) => setEditingQuestion(q)}
           />
         )}
@@ -260,13 +233,14 @@ function useQuestionForm(initial?: Partial<QuestionFormState>) {
 }
 
 // ─── Edit Modal ───────────────────────────────────────────────────────────────
-function EditModal({ question, adminKey, showToast, onClose, onSaved }: {
+function EditModal({ question, showToast, onClose, onSaved }: {
   question: BankQuestion;
-  adminKey: string;
+  
   showToast: (t: Toast["type"], m: string) => void;
   onClose: () => void;
   onSaved: (updated: BankQuestion) => void;
 }) {
+  const { getToken } = useAuth();
   const initialMode = detectMode(question);
   const initialOptImages: (StoredImage | null)[] = initialMode === "image-options"
     ? question.options.map((o) => ({ url: o, preview: o }))
@@ -308,7 +282,7 @@ function EditModal({ question, adminKey, showToast, onClose, onSaved }: {
       const fd = new FormData();
       fd.append("file", file);
       const res = await fetch(`${API_URL}/api/admin/upload-image`, {
-        method: "POST", headers: { "X-Admin-Key": adminKey }, body: fd,
+        method: "POST", headers: { "Authorization": `Bearer ${await getToken()}` }, body: fd,
       });
       if (!res.ok) { const e = await res.json().catch(() => ({})); showToast("error", e.error ?? "Upload failed"); return null; }
       return (await res.json()).url;
@@ -353,7 +327,7 @@ function EditModal({ question, adminKey, showToast, onClose, onSaved }: {
     try {
       const res = await fetch(`${API_URL}/api/admin/questions/${question.questionBankId}`, {
         method: "PUT",
-        headers: { "Content-Type": "application/json", "X-Admin-Key": adminKey },
+        headers: { "Content-Type": "application/json", "Authorization": `Bearer ${await getToken()}` },
         body: JSON.stringify(payload),
       });
       const data = await res.json();
@@ -512,14 +486,15 @@ function EditModal({ question, adminKey, showToast, onClose, onSaved }: {
 }
 
 // ─── Add Question Form ────────────────────────────────────────────────────────
-function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, onDismissAdded }: {
-  adminKey: string;
+function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissAdded }: {
+  
   showToast: (t: Toast["type"], m: string) => void;
   onAdded: (info: LastAdded) => void;
   goToBrowse: (filters: Record<string, unknown>) => void;
   lastAdded: LastAdded | null;
   onDismissAdded: () => void;
 }) {
+  const { getToken } = useAuth();
   const form = useQuestionForm();
   const [uploading, setUploading] = useState<Record<string, boolean>>({});
   const [submitting, setSubmitting] = useState(false);
@@ -534,7 +509,7 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
       const fd = new FormData();
       fd.append("file", file);
       const res = await fetch(`${API_URL}/api/admin/upload-image`, {
-        method: "POST", headers: { "X-Admin-Key": adminKey }, body: fd,
+        method: "POST", headers: { "Authorization": `Bearer ${await getToken()}` }, body: fd,
       });
       if (!res.ok) { const e = await res.json().catch(() => ({})); showToast("error", e.error ?? "Upload failed"); return null; }
       return (await res.json()).url;
@@ -583,7 +558,7 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
     setSubmitting(true);
     try {
       const res = await fetch(`${API_URL}/api/admin/add-question`, {
-        method: "POST", headers: { "Content-Type": "application/json", "X-Admin-Key": adminKey },
+        method: "POST", headers: { "Content-Type": "application/json", "Authorization": `Bearer ${await getToken()}` },
         body: JSON.stringify(payload),
       });
       const data = await res.json();
@@ -737,8 +712,8 @@ function AddQuestionForm({ adminKey, showToast, onAdded, goToBrowse, lastAdded, 
 }
 
 // ─── Browse & Manage Panel ────────────────────────────────────────────────────
-function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, onDeleted, onEdit }: {
-  adminKey: string;
+function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted, onEdit }: {
+  
   showToast: (t: Toast["type"], m: string) => void;
   filters: { subject: string; grade: number | ""; difficulty: string; topic: string; search: string; hasImage: boolean };
   setFilters: React.Dispatch<React.SetStateAction<typeof filters>>;
@@ -746,6 +721,7 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
   onDeleted: () => void;
   onEdit: (q: BankQuestion) => void;
 }) {
+  const { getToken } = useAuth();
   const [results, setResults] = useState<BankQuestion[]>([]);
   const [total, setTotal] = useState(0);
   const [page, setPage] = useState(1);
@@ -767,7 +743,7 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
       if (filters.hasImage) params.set("hasImage", "true");
       params.set("page", String(p));
       params.set("pageSize", String(PAGE_SIZE));
-      const res = await fetch(`${API_URL}/api/admin/questions?${params}`, { headers: { "X-Admin-Key": adminKey } });
+      const res = await fetch(`${API_URL}/api/admin/questions?${params}`, { headers: { "Authorization": `Bearer ${await getToken()}` } });
       if (!res.ok) { showToast("error", "Search failed"); return; }
       const data = await res.json();
       setResults(data.items);
@@ -778,7 +754,7 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
     } catch { showToast("error", "Network error"); }
     finally { setLoading(false); }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filters, adminKey]);
+  }, [filters]);
 
   useEffect(() => { if (triggerSearch > 0) search(1); }, [triggerSearch, search]);
 
@@ -790,7 +766,7 @@ function BrowsePanel({ adminKey, showToast, filters, setFilters, triggerSearch, 
     setDeleting(id);
     try {
       const res = await fetch(`${API_URL}/api/admin/questions/${id}`, {
-        method: "DELETE", headers: { "X-Admin-Key": adminKey },
+        method: "DELETE", headers: { "Authorization": `Bearer ${await getToken()}` },
       });
       if (!res.ok) { const e = await res.json().catch(() => ({})); showToast("error", e.error ?? "Delete failed"); return; }
       showToast("success", "Question deleted.");

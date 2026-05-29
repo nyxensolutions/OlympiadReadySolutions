@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Check, X, AlertOctagon, Loader2 } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -18,7 +19,8 @@ type Report = {
   resolvedAt: string | null;
 };
 
-export function ReportsPanel({ adminKey, showToast }: { adminKey: string; showToast: (type: "success" | "error", msg: string) => void }) {
+export function ReportsPanel({ showToast }: { showToast: (type: "success" | "error", msg: string) => void }) {
+  const { getToken } = useAuth();
   const [reports, setReports] = useState<Report[]>([]);
   const [loading, setLoading] = useState(true);
   const [resolvingId, setResolvingId] = useState<string | null>(null);
@@ -27,13 +29,13 @@ export function ReportsPanel({ adminKey, showToast }: { adminKey: string; showTo
 
   useEffect(() => {
     fetchReports();
-  }, [adminKey]);
+  }, []);
 
   async function fetchReports() {
     setLoading(true);
     try {
       const res = await fetch(`${API_URL}/api/admin/reports`, {
-        headers: { "X-Admin-Key": adminKey }
+        headers: { "Authorization": `Bearer ${await getToken()}` }
       });
       if (res.ok) {
         const data = await res.json();
@@ -53,7 +55,7 @@ export function ReportsPanel({ adminKey, showToast }: { adminKey: string; showTo
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "X-Admin-Key": adminKey
+          "Authorization": `Bearer ${await getToken()}`
         },
         body: JSON.stringify({ status, adminReason: reason })
       });
