@@ -45,6 +45,10 @@ public class RazorpayService
         return p;
     }
 
+    // ── Subscription pricing (paise) ──────────────────────────────────────
+    // Single subject : ₹129/mo · ₹1,290/yr
+    // 2-Subject Combo: ₹299/mo · ₹2,490/yr
+    // All (3+)       : ₹499/mo · ₹2,990/yr  ← flagship deal (~50% off annual)
     public (int AmountInPaise, string Currency, int Days, string DisplayName) CalculatePrice(string billingCycle, List<string> subjects)
     {
         var isAnnual = string.Equals(billingCycle, "Annual", StringComparison.OrdinalIgnoreCase);
@@ -52,26 +56,36 @@ public class RazorpayService
         int amount;
         string displayName;
 
-        if (subjects.Contains("All") || subjects.Count >= 4)
+        if (subjects.Contains("All") || subjects.Count >= 3)
         {
-            amount = isAnnual ? 249900 : 24900;
-            displayName = $"All Subjects Bundle · {(isAnnual ? "Annual" : "Monthly")}";
+            amount = isAnnual ? 299000 : 49900;
+            displayName = $"All Subjects · {(isAnnual ? "Annual" : "Monthly")}";
         }
-        else if (subjects.Count == 1)
+        else if (subjects.Count == 2)
         {
-            amount = isAnnual ? 99900 : 9900;
-            displayName = $"{subjects[0]} · {(isAnnual ? "Annual" : "Monthly")}";
+            amount = isAnnual ? 249000 : 29900;
+            displayName = $"2-Subject Combo · {(isAnnual ? "Annual" : "Monthly")}";
         }
         else
         {
-            // Custom Bundle
-            var pricePerSubject = isAnnual ? 79900 : 7900;
-            amount = pricePerSubject * subjects.Count;
-            displayName = $"Custom Bundle ({subjects.Count} Subjects) · {(isAnnual ? "Annual" : "Monthly")}";
+            // Single subject
+            amount = isAnnual ? 129000 : 12900;
+            displayName = $"{(subjects.Count == 1 ? subjects[0] : "Single Subject")} · {(isAnnual ? "Annual" : "Monthly")}";
         }
 
         return (amount, "INR", days, displayName);
     }
+
+    // ── Per-PDF batch pricing helpers ─────────────────────────────────────
+    // 1-2 PDFs: ₹29 each · 3-5: ₹25 each · 6+: ₹20 each
+    public static int PdfUnitPriceInPaise(int count) => count switch
+    {
+        <= 2 => 2900,
+        <= 5 => 2500,
+        _    => 2000
+    };
+
+    public static int PdfBatchTotalInPaise(int count) => PdfUnitPriceInPaise(count) * count;
 
     public async Task<OrderResult> CreateDynamicOrderAsync(
         int amountInPaise, string currency, string planName, Guid userId, CancellationToken ct = default)
@@ -112,7 +126,7 @@ public class RazorpayService
         if (!IsConfigured)
             throw new InvalidOperationException("Razorpay credentials are not configured.");
 
-        const int amountInPaise = 1900; // ₹19
+        const int amountInPaise = 2900; // ₹29
         var receipt = $"pdf_{userId.ToString("N")[..12]}_{grade}_{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
 
         var payload = new
@@ -136,6 +150,39 @@ public class RazorpayService
 
         var parsed = System.Text.Json.JsonSerializer.Deserialize<RazorpayOrderResponse>(body)
             ?? throw new InvalidOperationException("Empty Razorpay PDF order response");
+
+        return new OrderResult(parsed.Id, parsed.Amount, parsed.Currency);
+    }
+
+    public async Task<OrderResult> CreateBatchPdfOrderAsync(
+        int pdfCount, int totalAmountInPaise, Guid userId, CancellationToken ct = default)
+    {
+        if (!IsConfigured)
+            throw new InvalidOperationException("Razorpay credentials are not configured.");
+
+        var receipt = $"pdfb_{userId.ToString("N")[..12]}_{pdfCount}_{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
+
+        var payload = new
+        {
+            amount  = totalAmountInPaise,
+            currency = "INR",
+            receipt,
+            notes = new { userId = userId.ToString(), type = "pdf_batch", count = pdfCount.ToString() }
+        };
+
+        using var req = new HttpRequestMessage(HttpMethod.Post, "https://api.razorpay.com/v1/orders");
+        req.Content = JsonContent.Create(payload);
+        using var res = await _http.SendAsync(req, ct);
+        var body = await res.Content.ReadAsStringAsync(ct);
+
+        if (!res.IsSuccessStatusCode)
+        {
+            _log.LogError("Razorpay batch PDF order failed {Status}: {Body}", res.StatusCode, body);
+            throw new HttpRequestException($"Razorpay error {(int)res.StatusCode}: {body}");
+        }
+
+        var parsed = System.Text.Json.JsonSerializer.Deserialize<RazorpayOrderResponse>(body)
+            ?? throw new InvalidOperationException("Empty Razorpay batch PDF order response");
 
         return new OrderResult(parsed.Id, parsed.Amount, parsed.Currency);
     }
