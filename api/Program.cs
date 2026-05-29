@@ -88,6 +88,7 @@ builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p
     {
         var host = new Uri(origin).Host;
         return host == "localhost" || 
+               host == "127.0.0.1" || 
                host == "olympiadready.com" || 
                host.EndsWith(".olympiadready.com") || 
                host.EndsWith(".vercel.app");
@@ -102,9 +103,9 @@ builder.Services.AddRateLimiter(options =>
     options.AddFixedWindowLimiter("GlobalFixed", opt =>
     {
         opt.Window = TimeSpan.FromMinutes(1);
-        opt.PermitLimit = 30;
+        opt.PermitLimit = 200;
         opt.QueueProcessingOrder = System.Threading.RateLimiting.QueueProcessingOrder.OldestFirst;
-        opt.QueueLimit = 2;
+        opt.QueueLimit = 10;
     });
 });
 
