@@ -257,6 +257,8 @@ public class AppDbContext : DbContext
                 .HasForeignKey(x => x.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
             e.HasIndex(x => x.UserId);
+            e.HasIndex(x => x.RazorpayOrderId).IsUnique().HasFilter("[RazorpayOrderId] IS NOT NULL");
+            e.HasIndex(x => x.RazorpayPaymentId).IsUnique().HasFilter("[RazorpayPaymentId] IS NOT NULL");
         });
     }
 }

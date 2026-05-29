@@ -29,7 +29,14 @@ public class PaymentTransaction
     public string? PlanName { get; set; }
 
     [MaxLength(50)]
-    public string Status { get; set; } = "Success";
+    public string Status { get; set; } = "Pending";
+
+    public int Grade { get; set; }
+    
+    [MaxLength(200)]
+    public string? Subjects { get; set; }
+
+    public int Days { get; set; }
 
     public DateTime CreatedAt { get; set; }
 }

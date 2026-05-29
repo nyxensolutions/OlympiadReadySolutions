@@ -120,6 +120,22 @@ public class BillingController : ControllerBase
             var pricing = _razorpay.CalculatePrice(req.BillingCycle, req.Subjects);
             var order = await _razorpay.CreateDynamicOrderAsync(pricing.AmountInPaise, pricing.Currency, pricing.DisplayName, user.UserId, ct);
             
+            var transaction = new OlympiadReady.Api.Data.Entities.PaymentTransaction
+            {
+                UserId = user.UserId,
+                AmountInPaise = pricing.AmountInPaise,
+                Currency = pricing.Currency,
+                RazorpayOrderId = order.OrderId,
+                PlanName = pricing.DisplayName,
+                Status = "Pending",
+                Grade = req.Grade,
+                Subjects = string.Join(",", req.Subjects),
+                Days = pricing.Days,
+                CreatedAt = DateTime.UtcNow
+            };
+            _db.PaymentTransactions.Add(transaction);
+            await _db.SaveChangesAsync(ct);
+
             return Ok(new
             {
                 orderId = order.OrderId,
@@ -145,73 +161,59 @@ public class BillingController : ControllerBase
             return BadRequest("Signature verification failed.");
         }
 
-        var pricing = _razorpay.CalculatePrice(req.BillingCycle, req.Subjects);
-        var user = await _users.GetOrSyncAsync(User, ct);
+        var transaction = await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpayOrderId == req.OrderId, ct);
+        if (transaction == null)
+            return NotFound("Order not found.");
 
-        // Unlock all passed subjects
-        foreach (var subject in req.Subjects)
+        if (transaction.Status == "Success")
+            return Ok(new { success = true, message = "Payment already processed successfully." });
+
+        var user = await _users.GetOrSyncAsync(User, ct);
+        var subjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
+
+        // Unlock all passed subjects using DB record
+        foreach (var subject in subjects)
         {
-            // Divide the total amount evenly across subjects so each has its own valid price history,
-            // or just use total amount on the first one and 0 on others?
-            // Actually, dividing them gives a fair representation in the history per subject.
-            int pricePerSubject = pricing.AmountInPaise / req.Subjects.Count;
-            await _subs.UnlockSubjectAsync(user.UserId, req.Grade, subject, pricing.Days, pricePerSubject, req.OrderId, req.PaymentId, ct);
+            int pricePerSubject = transaction.AmountInPaise / (subjects.Count > 0 ? subjects.Count : 1);
+            await _subs.UnlockSubjectAsync(user.UserId, transaction.Grade, subject, transaction.Days, pricePerSubject, req.OrderId, req.PaymentId, ct);
         }
 
-        var transaction = new OlympiadReady.Api.Data.Entities.PaymentTransaction
-        {
-            UserId = user.UserId,
-            AmountInPaise = pricing.AmountInPaise,
-            Currency = pricing.Currency,
-            RazorpayOrderId = req.OrderId,
-            RazorpayPaymentId = req.PaymentId,
-            PlanName = pricing.DisplayName,
-            Status = "Success",
-            CreatedAt = DateTime.UtcNow
-        };
-        _db.PaymentTransactions.Add(transaction);
+        transaction.Status = "Success";
+        transaction.RazorpayPaymentId = req.PaymentId;
         await _db.SaveChangesAsync(ct);
 
         _log.LogInformation(
             "User {UserId} upgraded to {DisplayName} for {Days} days via order {OrderId}",
-            user.UserId, pricing.DisplayName, pricing.Days, req.OrderId);
+            user.UserId, transaction.PlanName, transaction.Days, req.OrderId);
 
         // Run email sending in background so it doesn't delay the checkout response
-        // We resolve a new scope because the current one might get disposed when the request ends.
         var emailStr = user.Email;
         var nameStr = user.FullName ?? "User";
-        var planStr = pricing.DisplayName;
-        var amt = pricing.AmountInPaise;
-        var subjs = req.Subjects.ToList();
-
-        // Get an IServiceProvider reference before background task starts
-        var serviceProvider = HttpContext.RequestServices;
+        var planStr = transaction.PlanName ?? "";
+        var amt = transaction.AmountInPaise;
+        var subjs = subjects;
+        
+        var scopeFactory = HttpContext.RequestServices.GetRequiredService<IServiceScopeFactory>();
 
         _ = Task.Run(async () =>
         {
             try
             {
-                using var scope = serviceProvider.CreateScope();
+                using var scope = scopeFactory.CreateScope();
                 var emailSvc = scope.ServiceProvider.GetRequiredService<IEmailService>();
-                await emailSvc.SendSubscriptionReceiptAsync(
-                    emailStr, 
-                    nameStr, 
-                    planStr, 
-                    amt, 
-                    subjs
-                );
+                await emailSvc.SendSubscriptionReceiptAsync(emailStr, nameStr, planStr, amt, subjs);
             }
             catch (Exception ex)
             {
-                _log.LogError(ex, "Failed to send receipt email in background.");
+                // Log failed email (cannot use _log because it might be scoped and disposed)
+                Console.WriteLine($"Failed to send receipt email: {ex.Message}");
             }
         });
 
         return Ok(new
         {
-            tier = "Modular",
-            planName = pricing.DisplayName,
-            days = pricing.Days
+            success = true,
+            planName = transaction.PlanName
         });
     }
 }

@@ -87,14 +87,25 @@ builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p
     {
         var host = new Uri(origin).Host;
         return host == "localhost" || 
-               host.Contains("olympiad-frontend-test") || 
-               host.Contains("olympiad-frontend-prod") || 
-               host.Contains("olympiadready.com");
+               host == "olympiadready.com" || 
+               host.EndsWith(".olympiadready.com") || 
+               host.EndsWith(".vercel.app");
     })
     .AllowAnyHeader()
     .AllowAnyMethod()
     .AllowCredentials()
     .WithExposedHeaders("Content-Disposition")));
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddFixedWindowLimiter("GlobalFixed", opt =>
+    {
+        opt.Window = TimeSpan.FromMinutes(1);
+        opt.PermitLimit = 30;
+        opt.QueueProcessingOrder = System.Threading.RateLimiting.QueueProcessingOrder.OldestFirst;
+        opt.QueueLimit = 2;
+    });
+});
 
 var app = builder.Build();
 
@@ -105,18 +116,21 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 }
 
-// Temporarily enabling Swagger for all environments so you can test it on Azure!
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseStaticFiles();
 app.UseCors(CorsPolicy);
+app.UseRateLimiter();
 if (app.Environment.IsProduction())
 {
     app.UseSentryTracing(); // must be before auth so request spans are captured
 }
 app.UseAuthentication();
 app.UseAuthorization();
-app.MapControllers();
+app.MapControllers().RequireRateLimiting("GlobalFixed");
 
 app.Run();
