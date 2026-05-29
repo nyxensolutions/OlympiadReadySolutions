@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { AppHeader } from "@/components/AppHeader";
 import { Mail, MessageCircle, GraduationCap, Building2, Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
@@ -9,7 +9,9 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <AppHeader active="home" />
-      <ContactBody />
+      <Suspense fallback={<div className="flex items-center justify-center py-24"><Loader2 className="h-6 w-6 animate-spin text-brand-600" /></div>}>
+        <ContactBody />
+      </Suspense>
     </div>
   );
 }
