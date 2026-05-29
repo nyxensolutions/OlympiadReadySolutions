@@ -86,27 +86,18 @@ export function UpgradeModal({
     }
   }
 
-  // Calculate Prices Locally (must match backend RazorpayService exactly)
-  // Single: ₹129/mo · ₹1,290/yr
-  // Combo (2): ₹299/mo · ₹2,490/yr
-  // All (3+): ₹499/mo · ₹2,990/yr
+  // Calculate Prices Locally — must match backend RazorpayService.CalculatePrice exactly.
+  // ₹129 per subject/month. 3+ subjects in one purchase → 5% off total.
+  // Annual = monthly (rounded up) × 10.
   const isAnnual = billingCycle === "Annual";
-  let price = 0;
-  let originalPrice = 0; // for showing strikethrough (monthly × 12)
-
-  // Calculate how many distinct subjects are effectively selected
   const count = isAllSelected ? availableSubjects.length : selectedSubjects.length;
 
-  if (isAllSelected || count >= 3) {
-    price = isAnnual ? 2990 : 499;
-    originalPrice = isAnnual ? 499 * 12 : 0; // show savings vs paying monthly × 12
-  } else if (count === 2) {
-    price = isAnnual ? 2490 : 299;
-    originalPrice = isAnnual ? 299 * 12 : 0;
-  } else if (count === 1) {
-    price = isAnnual ? 1290 : 129;
-    originalPrice = isAnnual ? 129 * 12 : 0;
-  }
+  const perSubject = 129;
+  const discount   = count >= 3 ? 0.95 : 1.0;
+  const monthly    = count > 0 ? Math.ceil(count * perSubject * discount) : 0;
+  const price      = count > 0 ? (isAnnual ? monthly * 10 : monthly) : 0;
+  // Show annual saving vs paying monthly for 12 months
+  const originalPrice = isAnnual && count > 0 ? monthly * 12 : 0;
 
   if (!open) return null;
 
@@ -238,14 +229,9 @@ export function UpgradeModal({
         <div className="mt-6">
           <label className="flex items-center justify-between text-sm font-semibold text-slate-700">
             <span>Select Subjects</span>
-            {count === 2 && (
+            {count >= 3 && (
               <span className="text-xs font-medium text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">
-                Combo Price Applied
-              </span>
-            )}
-            {(isAllSelected || count >= 3) && (
-              <span className="text-xs font-medium text-purple-600 bg-purple-50 px-2 py-0.5 rounded-full">
-                Best Value — All Subjects
+                5% off applied
               </span>
             )}
           </label>
@@ -259,10 +245,7 @@ export function UpgradeModal({
                   : "border-slate-200 hover:border-purple-300 hover:bg-purple-50/50 text-slate-700"
               }`}
             >
-              <span className="flex flex-col items-start gap-0.5">
-                <span>All Subjects</span>
-                <span className="text-[10px] font-bold text-purple-600 uppercase tracking-wide">Most Popular</span>
-              </span>
+              All Subjects
               {isAllSelected && <Check className="h-4 w-4 text-purple-600" />}
             </button>
             
@@ -305,7 +288,7 @@ export function UpgradeModal({
             >
               Annual
               <span className="ml-1.5 inline-block rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700 uppercase tracking-wide">
-                Save up to 50%
+                2 months free
               </span>
             </button>
           </div>

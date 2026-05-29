@@ -45,33 +45,30 @@ public class RazorpayService
         return p;
     }
 
-    // ── Subscription pricing (paise) ──────────────────────────────────────
-    // Single subject : ₹129/mo · ₹1,290/yr
-    // 2-Subject Combo: ₹299/mo · ₹2,490/yr
-    // All (3+)       : ₹499/mo · ₹2,990/yr  ← flagship deal (~50% off annual)
+    // ── Subscription pricing ───────────────────────────────────────────────
+    // ₹129 per subject per month.
+    // 3+ subjects in one purchase → 5% off the total.
+    // Annual = monthly amount × 10 (rounded up to nearest rupee).
+    // "All" in the subjects list must be expanded to actual subjects before calling this.
     public (int AmountInPaise, string Currency, int Days, string DisplayName) CalculatePrice(string billingCycle, List<string> subjects)
     {
         var isAnnual = string.Equals(billingCycle, "Annual", StringComparison.OrdinalIgnoreCase);
-        var days = isAnnual ? 365 : 30;
-        int amount;
-        string displayName;
+        var days     = isAnnual ? 365 : 30;
+        int count    = subjects.Count;
+        if (count == 0) count = 1;
 
-        if (subjects.Contains("All") || subjects.Count >= 3)
-        {
-            amount = isAnnual ? 299000 : 49900;
-            displayName = $"All Subjects · {(isAnnual ? "Annual" : "Monthly")}";
-        }
-        else if (subjects.Count == 2)
-        {
-            amount = isAnnual ? 249000 : 29900;
-            displayName = $"2-Subject Combo · {(isAnnual ? "Annual" : "Monthly")}";
-        }
-        else
-        {
-            // Single subject
-            amount = isAnnual ? 129000 : 12900;
-            displayName = $"{(subjects.Count == 1 ? subjects[0] : "Single Subject")} · {(isAnnual ? "Annual" : "Monthly")}";
-        }
+        const decimal pricePerSubject = 129m;
+        decimal multiplier = count >= 3 ? 0.95m : 1.0m;
+
+        // Round up to nearest whole rupee, then convert to paise
+        int monthlyRupees = (int)Math.Ceiling(count * pricePerSubject * multiplier);
+        int monthlyPaise  = monthlyRupees * 100;
+        int amount        = isAnnual ? monthlyPaise * 10 : monthlyPaise;
+
+        string discount     = count >= 3 ? " (5% off)" : "";
+        string cycleLabel   = isAnnual ? "Annual" : "Monthly";
+        string subjectLabel = count == 1 ? subjects[0] : $"{count} Subjects{discount}";
+        string displayName  = $"{subjectLabel} · {cycleLabel}";
 
         return (amount, "INR", days, displayName);
     }
