@@ -95,7 +95,7 @@ export function UpgradeModal({
   const perSubject = 129;
   const discount   = count >= 3 ? 0.95 : 1.0;
   const monthly    = count > 0 ? Math.ceil(count * perSubject * discount) : 0;
-  const price      = count > 0 ? (isAnnual ? monthly * 10 : monthly) : 0;
+  const price      = count > 0 ? (isAnnual ? monthly * 8 : monthly) : 0;
   // Show annual saving vs paying monthly for 12 months
   const originalPrice = isAnnual && count > 0 ? monthly * 12 : 0;
 
@@ -288,7 +288,7 @@ export function UpgradeModal({
             >
               Annual
               <span className="ml-1.5 inline-block rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700 uppercase tracking-wide">
-                2 months free
+                4 months free
               </span>
             </button>
           </div>

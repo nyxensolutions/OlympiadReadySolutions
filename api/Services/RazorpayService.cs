@@ -63,7 +63,7 @@ public class RazorpayService
         // Round up to nearest whole rupee, then convert to paise
         int monthlyRupees = (int)Math.Ceiling(count * pricePerSubject * multiplier);
         int monthlyPaise  = monthlyRupees * 100;
-        int amount        = isAnnual ? monthlyPaise * 10 : monthlyPaise;
+        int amount        = isAnnual ? monthlyPaise * 8 : monthlyPaise;
 
         string discount     = count >= 3 ? " (5% off)" : "";
         string cycleLabel   = isAnnual ? "Annual" : "Monthly";
