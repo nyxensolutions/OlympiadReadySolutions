@@ -38,9 +38,9 @@ export default function TermsPage() {
 
       <h2>4. Subscription Plans and Payments</h2>
       <ul>
-        <li><strong>Free Plan:</strong> Limited to a set number of practice papers per month from our pre-seeded question bank.</li>
-        <li><strong>Pro Plan:</strong> Unlimited AI-generated papers for the subscription duration. Purchased via Razorpay.</li>
-        <li><strong>PDF Downloads:</strong> Per-download purchases (e.g., ₹19 per paper) paid via Razorpay.</li>
+        <li><strong>Free Plan:</strong> 5 lifetime practice attempts from our question bank. One free 10-question PDF per subject.</li>
+        <li><strong>Subject Subscription:</strong> ₹129 per subject per month (5% off for 3+ subjects in one order). Annual plan = 8 months price for 12 months access. Purchased via Razorpay.</li>
+        <li><strong>PDF Downloads:</strong> ₹29 per 50-question paper. Bundle discount: 3–5 papers at ₹25 each, 6+ at ₹20 each. Paid via Razorpay.</li>
         <li>All prices are in Indian Rupees (INR) and inclusive of applicable taxes.</li>
         <li>Payments are processed by Razorpay and subject to their terms.</li>
       </ul>

@@ -438,7 +438,7 @@ function TopicsBody() {
               },
               {
                 q: "Do I have to subscribe to all subjects?",
-                a: "No! You can choose to subscribe to individual subjects, build a custom bundle, or get the 'All Subjects' Max Value Bundle.",
+                a: "No! You can choose to subscribe to any individual subject or any combination. Price is ₹129 per subject per month, with 5% off when you buy 3 or more subjects in one order.",
               },
             ].map(({ q, a }) => (
               <div key={q} className="rounded-xl bg-slate-50 p-4">

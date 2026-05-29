@@ -227,7 +227,7 @@ function PracticePapersBody() {
     }
   }
 
-  // ── Paid download (₹19 per download — each click = fresh payment) ───────
+  // ── Paid download (₹29 single, or bundle discount — each click = fresh payment) ───────
   async function buyAndDownload(info: SubjectInfo) {
     const key = `paid-${info.subject}`;
     setPaying(key);

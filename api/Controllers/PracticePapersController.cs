@@ -223,7 +223,7 @@ public class PracticePapersController : ControllerBase
     }
 
     // ── POST /api/practice-papers/checkout ────────────────────────────────
-    // Creates a Razorpay order for a ₹19 per-download PDF purchase.
+    // Creates a Razorpay order for a ₹29 per-download PDF purchase (single).
     // Each download is a fresh payment — no unlimited re-downloads.
     [Authorize]
     [HttpPost("checkout")]

@@ -36,7 +36,7 @@ export default function RefundPage() {
 
       <h2>2. PDF Download Refunds</h2>
       <p>
-        PDF practice paper purchases (₹19 per download) are <strong>generally non-refundable</strong>
+        PDF practice paper purchases (₹29 per download, or less with bundle discounts) are <strong>generally non-refundable</strong>
         once the PDF has been successfully generated and delivered, as the digital content is
         immediately accessible.
       </p>
