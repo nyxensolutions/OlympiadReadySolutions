@@ -90,8 +90,7 @@ builder.Services.AddCors(o => o.AddPolicy(CorsPolicy, p => p
         return host == "localhost" || 
                host == "127.0.0.1" || 
                host == "olympiadready.com" || 
-               host.EndsWith(".olympiadready.com") || 
-               host.EndsWith(".vercel.app");
+               host.EndsWith(".olympiadready.com");
     })
     .AllowAnyHeader()
     .AllowAnyMethod()
@@ -113,7 +112,13 @@ builder.Services.AddRateLimiter(options =>
 
 var app = builder.Build();
 
-// Migrations are now handled in the CI/CD pipeline or manually
+// Auto-apply any pending EF Core migrations on startup.
+// Safe to run on every deploy — only applies migrations not yet in __EFMigrationsHistory.
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
 
 if (app.Environment.IsDevelopment())
 {

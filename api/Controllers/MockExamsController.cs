@@ -111,10 +111,6 @@ public class MockExamsController : ControllerBase
             return StatusCode(402, new { message = isSubscribed ? "You have reached your limit of 7 mock exams per week." : "Free users can only take 1 mock exam total. Please upgrade to continue." });
         }
 
-        bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, ct);
-        bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) ||
-                             user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
-
         // Level 2 always uses Olympiad-only difficulty — no easy or mid questions.
         bool isLevel2 = req.Level == "L2";
 
@@ -125,6 +121,13 @@ public class MockExamsController : ControllerBase
             "Olympiad"   => "Olympiad",
             _            => "Advanced"
         };
+
+        // Mock exams draw on the same account-wide AI credit budget; Olympiad complexity
+        // costs more credits (it runs on the pricier model). Pass complexity so the gate
+        // and the recorded cost reflect the real spend.
+        bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, complexity, ct);
+        bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) ||
+                             user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
 
         // Difficulty distribution weights per complexity level.
         // L2 / Olympiad complexity: 100% Olympiad difficulty — no mixing.
@@ -218,6 +221,7 @@ public class MockExamsController : ControllerBase
         }).ToList();
 
         var allAiResults = await Task.WhenAll(aiTasks);
+        bool aiUsed = allAiResults.Any(r => r is { Count: > 0 });
 
         // ── Phase 3: merge DB + AI results, persist new AI questions, DB-fill any remaining gap ──
         for (int i = 0; i < req.Sections.Count; i++)
@@ -326,6 +330,10 @@ public class MockExamsController : ControllerBase
         }
         
         await _db.SaveChangesAsync(ct);
+
+        // Charge the account AI credit budget once per AI-backed mock (Olympiad complexity costs more).
+        if (aiUsed)
+            await _subs.RecordOnlineTestGenerationAsync(user.UserId, req.Grade, req.Subject, true, complexity, ct);
 
         return Ok(new
         {

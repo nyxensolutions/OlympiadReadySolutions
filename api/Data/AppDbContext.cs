@@ -37,6 +37,8 @@ public class AppDbContext : DbContext
             e.Property(x => x.FullName).HasMaxLength(255);
             e.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
             e.Property(x => x.SubscriptionTier).HasMaxLength(50).HasDefaultValue("Free");
+            e.Property(x => x.AiCreditsUsed).HasDefaultValue(0);
+            e.Property(x => x.AiPeriodStart).HasDefaultValueSql("GETUTCDATE()");
         });
 
         b.Entity<QuestionPaper>(e =>

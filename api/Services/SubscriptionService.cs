@@ -8,7 +8,25 @@ namespace OlympiadReady.Api.Services;
 public class SubscriptionService
 {
     public const int GlobalFreeAttemptsLimit = 5;
+
+    // Retained for backward-compat/analytics on the per-subscription counter; no longer the AI gate.
     public const int PaidAiGenerationLimit = 50;
+
+    // --- Account-wide AI credit budget (the real cost guard) ---
+    // Budget scales with how many subjects the account has unlocked, capped so the
+    // "All Subjects" bundle can't multiply AI spend by the number of subjects.
+    public const int CreditsPerSubject = 30;
+    public const int MaxMonthlyAiCredits = 90;
+    // An Olympiad generation runs on the pricier model, so it drains the budget faster.
+    public const int OlympiadCreditCost = 2;
+    public const int StandardCreditCost = 1;
+    private const int AiPeriodDays = 30;
+
+    /// <summary>Credits a single generation consumes, based on difficulty.</summary>
+    public static int AiCreditCostForDifficulty(string? difficulty) =>
+        string.Equals(difficulty, "Olympiad", StringComparison.OrdinalIgnoreCase)
+            ? OlympiadCreditCost
+            : StandardCreditCost;
 
     private readonly AppDbContext _db;
 
@@ -52,38 +70,59 @@ public class SubscriptionService
     }
 
     /// <summary>
-    /// Determines whether the generation should use the Hybrid Engine (hitting the AI API)
-    /// or silently fall back to 100% Static Database to protect costs.
+    /// Account-wide AI credit budget for the current period. Scales with the number of
+    /// distinct unlocked subjects but is capped so an "All Subjects" bundle cannot
+    /// multiply AI spend. Free accounts (no active unlocks) get 0.
     /// </summary>
-    public async Task<bool> ShouldUseHybridAiAsync(Guid userId, int grade, string subject, CancellationToken ct = default)
+    public async Task<int> GetMonthlyAiBudgetAsync(Guid userId, CancellationToken ct = default)
     {
-        var (canonicalTarget, _) = SubjectNormalizer.Normalize(subject);
-        canonicalTarget ??= subject;
+        int activeSubjects = await _db.Subscriptions
+            .Where(s => s.UserId == userId && s.EndDate > DateTime.UtcNow)
+            .Select(s => new { s.Grade, s.Subject })
+            .Distinct()
+            .CountAsync(ct);
 
-        var activeSubs = await _db.Subscriptions
-            .Where(s => s.UserId == userId && s.Grade == grade && s.EndDate > DateTime.UtcNow)
-            .ToListAsync(ct);
+        if (activeSubjects == 0) return 0;
+        return Math.Min(activeSubjects * CreditsPerSubject, MaxMonthlyAiCredits);
+    }
 
-        var subscription = activeSubs.FirstOrDefault(s => 
+    /// <summary>Resets the rolling 30-day credit window in-memory if it has elapsed.</summary>
+    private static void EnsureCurrentAiPeriod(User user)
+    {
+        var now = DateTime.UtcNow;
+        if (user.AiPeriodStart == default || (now - user.AiPeriodStart).TotalDays >= AiPeriodDays)
         {
-            var (canonicalSub, _) = SubjectNormalizer.Normalize(s.Subject);
-            return string.Equals(canonicalSub, canonicalTarget, StringComparison.OrdinalIgnoreCase);
-        });
-
-        if (subscription != null)
-        {
-            // Paid user: Use AI until they hit their quota for this subject.
-            return subscription.AiGenerationsUsed < PaidAiGenerationLimit;
+            user.AiPeriodStart = now;
+            user.AiCreditsUsed = 0;
         }
+    }
 
-        // Free users get DB-only questions; AI is called as last resort only if the bank is exhausted.
-        return false;
+    /// <summary>
+    /// Determines whether the generation should use the Hybrid Engine (hitting the AI API)
+    /// or silently fall back to the static question bank. AI runs only when the account both
+    /// owns the subject AND has enough credits left this period to cover this generation.
+    /// </summary>
+    public async Task<bool> ShouldUseHybridAiAsync(Guid userId, int grade, string subject, string difficulty, CancellationToken ct = default)
+    {
+        // Must own this subject to get fresh AI at all.
+        if (!await HasUnlockedSubjectAsync(userId, grade, subject, ct))
+            return false;
+
+        var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
+        if (user is null) return false;
+
+        // Roll the window forward if it has expired (persisted when the generation is recorded).
+        EnsureCurrentAiPeriod(user);
+
+        int budget = await GetMonthlyAiBudgetAsync(userId, ct);
+        int cost = AiCreditCostForDifficulty(difficulty);
+        return user.AiCreditsUsed + cost <= budget;
     }
 
     /// <summary>
     /// Records that an online test was generated, incrementing the appropriate quotas.
     /// </summary>
-    public async Task RecordOnlineTestGenerationAsync(Guid userId, int grade, string subject, bool usedHybridAi, CancellationToken ct = default)
+    public async Task RecordOnlineTestGenerationAsync(Guid userId, int grade, string subject, bool usedHybridAi, string difficulty, CancellationToken ct = default)
     {
         var (canonicalTarget, _) = SubjectNormalizer.Normalize(subject);
         canonicalTarget ??= subject;
@@ -92,7 +131,7 @@ public class SubscriptionService
             .Where(s => s.UserId == userId && s.Grade == grade && s.EndDate > DateTime.UtcNow)
             .ToListAsync(ct);
 
-        var subscription = activeSubs.FirstOrDefault(s => 
+        var subscription = activeSubs.FirstOrDefault(s =>
         {
             var (canonicalSub, _) = SubjectNormalizer.Normalize(s.Subject);
             return string.Equals(canonicalSub, canonicalTarget, StringComparison.OrdinalIgnoreCase);
@@ -102,7 +141,15 @@ public class SubscriptionService
         {
             if (usedHybridAi)
             {
+                // Per-subject counter retained for analytics; the account credit budget is the real gate.
                 subscription.AiGenerationsUsed++;
+
+                var paidUser = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
+                if (paidUser != null)
+                {
+                    EnsureCurrentAiPeriod(paidUser);
+                    paidUser.AiCreditsUsed += AiCreditCostForDifficulty(difficulty);
+                }
             }
         }
         else
@@ -177,12 +224,21 @@ public class SubscriptionService
             s.EndDate
         }).ToList();
 
-        return new 
+        // Account-wide AI credit view (non-mutating: reflect a reset without persisting here).
+        int aiBudget = await GetMonthlyAiBudgetAsync(userId, ct);
+        bool periodElapsed = user == null
+            || user.AiPeriodStart == default
+            || (DateTime.UtcNow - user.AiPeriodStart).TotalDays >= AiPeriodDays;
+        int aiCreditsUsed = periodElapsed ? 0 : user!.AiCreditsUsed;
+
+        return new
         {
             tier = activeSubs.Any() ? "Modular" : "Free",
             used = user?.FreeAttemptsUsed ?? 0,
             limit = GlobalFreeAttemptsLimit,
             allowed = (user?.FreeAttemptsUsed ?? 0) < GlobalFreeAttemptsLimit || activeSubs.Any(),
+            aiCreditsUsed,
+            aiCreditsLimit = aiBudget,
             activeUnlocks = activeSubs
         };
     }

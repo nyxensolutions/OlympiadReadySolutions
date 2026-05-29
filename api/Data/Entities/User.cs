@@ -17,4 +17,14 @@ public class User
     public List<UserMistake> Mistakes { get; set; } = new();
 
     public int FreeAttemptsUsed { get; set; }
+
+    /// <summary>
+    /// Account-wide AI generation credits consumed in the current billing period.
+    /// A standard (Foundation/Advanced) generation costs 1 credit; an Olympiad
+    /// generation costs 2 (it runs on the more expensive model). Reset every 30 days.
+    /// </summary>
+    public int AiCreditsUsed { get; set; }
+
+    /// <summary>Start of the current 30-day AI-credit period. Rolls forward on first use after expiry.</summary>
+    public DateTime AiPeriodStart { get; set; }
 }
