@@ -3,7 +3,8 @@
 import { useEffect, useState, useCallback } from "react";
 import {
   BookOpen, Download, Lock, Loader2, ChevronRight,
-  FileText, Star, CheckCircle2, AlertCircle, CreditCard, BanIcon, Crown
+  FileText, Star, CheckCircle2, AlertCircle, CreditCard, BanIcon, Crown,
+  ShoppingCart, Plus, Minus, X, Package
 } from "lucide-react";
 import { SignedIn, SignedOut, useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
@@ -67,6 +68,19 @@ function triggerBlobDownload(blob: Blob, filename: string) {
   URL.revokeObjectURL(url);
 }
 
+// Must match RazorpayService.PdfUnitPriceInPaise / PdfBatchTotalInPaise
+function pdfUnitPrice(count: number): number {
+  if (count <= 2) return 29;
+  if (count <= 5) return 25;
+  return 20;
+}
+function pdfBatchTotal(count: number): number {
+  return pdfUnitPrice(count) * count;
+}
+function pdfBatchSavings(count: number): number {
+  return 29 * count - pdfBatchTotal(count);
+}
+
 export default function PracticePapersPage() {
   return (
     <div className="min-h-screen bg-slate-50">
@@ -103,6 +117,23 @@ function PracticePapersBody() {
   const [downloading, setDownloading] = useState<string | null>(null);
   const [paying, setPaying] = useState<string | null>(null);
   const [notice, setNotice] = useState<{ kind: "ok" | "err"; msg: string } | null>(null);
+
+  // ── Multi-select cart ─────────────────────────────────────────────────
+  // Cart items are keyed by "subject" (grade is the current page grade)
+  const [cart, setCart] = useState<Set<string>>(new Set());
+  const [batchPaying, setBatchPaying] = useState(false);
+
+  function toggleCart(subject: string) {
+    setCart((prev) => {
+      const next = new Set(prev);
+      if (next.has(subject)) next.delete(subject);
+      else next.add(subject);
+      return next;
+    });
+  }
+
+  // Clear cart when grade changes
+  useEffect(() => { setCart(new Set()); }, [grade]);
 
   const fetchSubjects = useCallback(async () => {
     setLoadingSubjects(true);
@@ -273,6 +304,82 @@ function PracticePapersBody() {
     }
   }
 
+  // ── Batch purchase → ZIP download ────────────────────────────────────
+  async function buyBatchAndDownload() {
+    if (cart.size === 0) return;
+    setBatchPaying(true);
+    setNotice(null);
+    try {
+      const ready = await loadRazorpay();
+      if (!ready || !window.Razorpay) throw new Error("Payment gateway failed to load. Refresh and try again.");
+
+      const token = await getToken();
+      const items = Array.from(cart).map((subject) => ({ grade, subject }));
+      const count = items.length;
+      const total = pdfBatchTotal(count);
+
+      const checkoutRes = await fetch(`${API_URL}/api/practice-papers/checkout-batch`, {
+        method:  "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        body:    JSON.stringify({ items }),
+      });
+      if (!checkoutRes.ok) throw new Error("Could not initiate payment.");
+      const order = await checkoutRes.json();
+
+      await new Promise<void>((resolve, reject) => {
+        const rzp = new window.Razorpay!({
+          key:         order.keyId,
+          amount:      order.amount,
+          currency:    order.currency,
+          name:        "OlympiadReady",
+          description: order.description,
+          order_id:    order.orderId,
+          handler: async (response: any) => {
+            try {
+              setBatchPaying(false);
+              setDownloading("batch");
+
+              const verifyRes = await fetch(`${API_URL}/api/practice-papers/verify-batch`, {
+                method:  "POST",
+                headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+                body:    JSON.stringify({
+                  orderId:   response.razorpay_order_id,
+                  paymentId: response.razorpay_payment_id,
+                  signature: response.razorpay_signature,
+                  items,
+                }),
+              });
+
+              if (!verifyRes.ok) {
+                const err = await verifyRes.json().catch(() => ({}));
+                throw new Error((err as { message?: string }).message ?? "Verification failed.");
+              }
+
+              const blob = await verifyRes.blob();
+              triggerBlobDownload(blob, `OlympiadReady-Papers-${count}PDF.zip`);
+              setCart(new Set());
+              setNotice({ kind: "ok", msg: `${count} paper${count > 1 ? "s" : ""} downloaded as a ZIP!` });
+              resolve();
+            } catch (e) {
+              reject(e);
+            } finally {
+              setDownloading(null);
+            }
+          },
+          modal: { ondismiss: () => reject(new Error("Payment cancelled.")) },
+          theme: { color: "#2563eb" },
+        });
+        rzp.open();
+      });
+    } catch (e) {
+      if ((e as Error).message !== "Payment cancelled.")
+        setNotice({ kind: "err", msg: e instanceof Error ? e.message : "Payment failed." });
+    } finally {
+      setBatchPaying(false);
+      if (downloading === "batch") setDownloading(null);
+    }
+  }
+
   return (
     <>
       {/* Hero banner */}
@@ -291,7 +398,7 @@ function PracticePapersBody() {
             AI-generated, exam-style PDFs ready to print and practise.{" "}
             <span className="font-semibold">10 questions free</span> (once per subject)
             {" · "}
-            <span className="font-semibold">50 questions for ₹19</span> per download.
+            <span className="font-semibold">50 questions from ₹20</span> per download (bundle discounts apply).
           </p>
 
           {/* Feature pills */}
@@ -570,6 +677,26 @@ function PracticePapersBody() {
                         </SignedOut>
                       </div>
                     </div>
+
+                    {/* ── Add to bundle strip ───────────────────────── */}
+                    {!info.isSubscribed && (
+                      <SignedIn>
+                        <button
+                          onClick={() => toggleCart(info.subject)}
+                          className={`mt-3 inline-flex w-full items-center justify-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
+                            cart.has(info.subject)
+                              ? "border-brand-500 bg-brand-50 text-brand-700 shadow-sm"
+                              : "border-dashed border-slate-300 bg-transparent text-slate-500 hover:border-brand-400 hover:text-brand-600"
+                          }`}
+                        >
+                          {cart.has(info.subject) ? (
+                            <><Minus className="h-3.5 w-3.5" /> Remove from bundle</>
+                          ) : (
+                            <><Plus className="h-3.5 w-3.5" /> Add to bundle</>
+                          )}
+                        </button>
+                      </SignedIn>
+                    )}
                   </div>
                 </div>
               );
@@ -577,8 +704,77 @@ function PracticePapersBody() {
           </div>
         )}
 
+        {/* ── Sticky batch cart bar (visible when cart has items) ────────── */}
+        {cart.size > 0 && (
+          <div className="fixed bottom-0 inset-x-0 z-40 bg-white border-t border-slate-200 shadow-xl px-4 py-3 sm:px-6">
+            <div className="mx-auto max-w-5xl flex items-center gap-3 flex-wrap sm:flex-nowrap">
+              {/* Cart summary */}
+              <div className="flex items-center gap-2 flex-1 min-w-0">
+                <ShoppingCart className="h-5 w-5 shrink-0 text-brand-600" />
+                <div className="min-w-0">
+                  <p className="text-sm font-semibold text-slate-900 truncate">
+                    {cart.size} paper{cart.size > 1 ? "s" : ""} selected
+                    {" · "}
+                    <span className="text-brand-700">₹{pdfBatchTotal(cart.size)}</span>
+                    {pdfBatchSavings(cart.size) > 0 && (
+                      <span className="ml-1 text-emerald-600 text-xs font-bold">
+                        (save ₹{pdfBatchSavings(cart.size)})
+                      </span>
+                    )}
+                  </p>
+                  <p className="text-xs text-slate-400">
+                    ₹{pdfUnitPrice(cart.size)}/paper · downloads as ZIP
+                  </p>
+                </div>
+              </div>
+
+              {/* Selected pills */}
+              <div className="hidden sm:flex items-center gap-1.5 flex-wrap max-w-xs">
+                {Array.from(cart).map((s) => (
+                  <span key={s} className="inline-flex items-center gap-1 rounded-full bg-brand-50 border border-brand-200 px-2 py-0.5 text-[11px] font-semibold text-brand-700">
+                    {s}
+                    <button onClick={() => toggleCart(s)} className="hover:text-red-500">
+                      <X className="h-3 w-3" />
+                    </button>
+                  </span>
+                ))}
+              </div>
+
+              {/* Actions */}
+              <div className="flex items-center gap-2 shrink-0">
+                <button
+                  onClick={() => setCart(new Set())}
+                  className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-600 hover:bg-slate-50"
+                >
+                  Clear
+                </button>
+                <SignedIn>
+                  <button
+                    onClick={buyBatchAndDownload}
+                    disabled={batchPaying || downloading === "batch"}
+                    className="inline-flex items-center gap-1.5 rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:opacity-60 transition-all"
+                  >
+                    {batchPaying ? (
+                      <><Loader2 className="h-4 w-4 animate-spin" /> Opening payment…</>
+                    ) : downloading === "batch" ? (
+                      <><Loader2 className="h-4 w-4 animate-spin" /> Building ZIP…</>
+                    ) : (
+                      <><Package className="h-4 w-4" /> Download {cart.size} PDF{cart.size > 1 ? "s" : ""} — ₹{pdfBatchTotal(cart.size)}</>
+                    )}
+                  </button>
+                </SignedIn>
+                <SignedOut>
+                  <a href="/sign-in" className="inline-flex items-center gap-1.5 rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-brand-700">
+                    <Lock className="h-4 w-4" /> Sign in to buy
+                  </a>
+                </SignedOut>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* About Our Practice Papers */}
-        <div className="mt-12 rounded-2xl border border-slate-200 bg-white p-6">
+        <div className={`mt-12 rounded-2xl border border-slate-200 bg-white p-6 ${cart.size > 0 ? "pb-24" : ""}`}>
           <h3 className="mb-4 flex items-center gap-2 font-bold text-slate-900">
             <Star className="h-4 w-4 text-amber-500" />
             About Our Practice Papers
@@ -591,7 +787,7 @@ function PracticePapersBody() {
               },
               {
                 q: "How does the free download work?",
-                a: "You get one free 10-question paper per subject per class. Once downloaded, the free slot is used. To get a new set of questions for the same subject, use the ₹19 paid option.",
+                a: "You get one free 10-question paper per subject per class. Once downloaded, the free slot is used. To get a new set of questions for the same subject, use the paid option (from ₹20 each when bundled).",
               },
               {
                 q: "What does the PDF include?",
@@ -603,7 +799,7 @@ function PracticePapersBody() {
               },
               {
                 q: "Can I re-download a paid paper?",
-                a: "Each ₹19 payment gives you one fresh download. Every new purchase generates a different set of 50 questions. There is no unlimited re-download — each payment = one fresh paper.",
+                a: "Each payment gives you a fresh 50-question download. Price is ₹29 each for 1-2 papers, ₹25 each for 3-5, and ₹20 each for 6+. You can add multiple subjects to a bundle and download everything as a ZIP in one go.",
               },
               {
                 q: "What benefits do subscribed subjects get?",
