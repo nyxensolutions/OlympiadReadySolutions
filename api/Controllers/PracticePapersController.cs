@@ -1,3 +1,4 @@
+using System.IO.Compression;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -15,7 +16,7 @@ public class PracticePapersController : ControllerBase
 {
     private const int FreeQuestionCount = 10;
     private const int PaidQuestionCount = 50;
-    private const int PdfPriceInPaise   = 1900; // ₹19
+    private const int PdfPriceInPaise   = 2900; // ₹29
 
     // Marker stored in RazorpayOrderId/PaymentId for free-tier records.
     private const string FreeMarker = "FREE";
@@ -332,6 +333,160 @@ public class PracticePapersController : ControllerBase
             req.Subject, req.Topic, req.Grade, user.UserId, req.OrderId);
 
         return File(bytes, "application/pdf", filename);
+    }
+
+    // ── POST /api/practice-papers/checkout-batch ─────────────────────────
+    // Creates a single Razorpay order covering N PDFs with count-based discount:
+    //   1-2 PDFs → ₹29 each · 3-5 → ₹25 each · 6+ → ₹20 each
+    [Authorize]
+    [HttpPost("checkout-batch")]
+    public async Task<IActionResult> CheckoutBatch([FromBody] PdfBatchCheckoutRequest req, CancellationToken ct)
+    {
+        if (!_razorpay.IsConfigured)
+            return Problem("Payment gateway is not configured.", statusCode: 503);
+
+        if (req.Items is null || req.Items.Count == 0)
+            return BadRequest("At least one item is required.");
+        if (req.Items.Count > 12)
+            return BadRequest("Maximum 12 PDFs per order.");
+
+        foreach (var item in req.Items)
+        {
+            if (item.Grade < 1 || item.Grade > 12) return BadRequest($"Invalid grade {item.Grade}.");
+            if (string.IsNullOrWhiteSpace(item.Subject)) return BadRequest("Subject is required for each item.");
+            var (canonical, recognized) = SubjectNormalizer.Normalize(item.Subject);
+            if (recognized) item.Subject = canonical!;
+        }
+
+        var user   = await _users.GetOrSyncAsync(User, ct);
+        int count  = req.Items.Count;
+        int total  = RazorpayService.PdfBatchTotalInPaise(count);
+        int unit   = RazorpayService.PdfUnitPriceInPaise(count);
+
+        var order = await _razorpay.CreateBatchPdfOrderAsync(count, total, user.UserId, ct);
+
+        return Ok(new
+        {
+            orderId      = order.OrderId,
+            keyId        = _razorpay.KeyId,
+            amount       = order.AmountInPaise,
+            currency     = order.Currency,
+            itemCount    = count,
+            unitPrice    = unit,
+            totalPrice   = total,
+            description  = $"{count} Practice Paper{(count > 1 ? "s" : "")} Bundle"
+        });
+    }
+
+    // ── POST /api/practice-papers/verify-batch ────────────────────────────
+    // Verifies payment, generates all PDFs, bundles into a ZIP, streams it.
+    [Authorize]
+    [HttpPost("verify-batch")]
+    public async Task<IActionResult> VerifyBatch([FromBody] PdfBatchVerifyRequest req, CancellationToken ct)
+    {
+        if (!_razorpay.VerifySignature(req.OrderId, req.PaymentId, req.Signature))
+        {
+            _log.LogWarning("Batch PDF signature mismatch for order {OrderId}", req.OrderId);
+            return BadRequest("Signature verification failed.");
+        }
+
+        if (req.Items is null || req.Items.Count == 0) return BadRequest("No items.");
+        if (req.Items.Count > 12) return BadRequest("Maximum 12 PDFs per order.");
+
+        foreach (var item in req.Items)
+        {
+            if (item.Grade < 1 || item.Grade > 12) return BadRequest($"Invalid grade {item.Grade}.");
+            var (canonical, recognized) = SubjectNormalizer.Normalize(item.Subject);
+            if (recognized) item.Subject = canonical!;
+        }
+
+        var user      = await _users.GetOrSyncAsync(User, ct);
+        int count     = req.Items.Count;
+        int unitPrice = RazorpayService.PdfUnitPriceInPaise(count);
+
+        // Collect historical question IDs once
+        var historicalIds = await _db.UserSeenQuestions
+            .Where(x => x.UserId == user.UserId.ToString())
+            .Select(x => x.QuestionBankId)
+            .ToListAsync(ct);
+
+        var newSeenIds = new List<Guid>();
+
+        // Build ZIP in memory
+        using var zipStream = new MemoryStream();
+        using (var archive = new ZipArchive(zipStream, ZipArchiveMode.Create, leaveOpen: true))
+        {
+            for (int i = 0; i < req.Items.Count; i++)
+            {
+                var item       = req.Items[i];
+                var purchaseKey = string.IsNullOrWhiteSpace(item.Topic) ? item.Subject : $"{item.Subject}|{item.Topic}";
+
+                // Record purchase
+                _db.PdfPurchases.Add(new PdfPurchase
+                {
+                    UserId            = user.UserId,
+                    Grade             = item.Grade,
+                    Subject           = purchaseKey,
+                    RazorpayOrderId   = req.OrderId,
+                    RazorpayPaymentId = req.PaymentId,
+                    AmountInPaise     = unitPrice,
+                    PurchasedAt       = DateTime.UtcNow
+                });
+
+                var questions = await _bank.TryGetRandomAsync(
+                    item.Subject, item.Grade, null, PaidQuestionCount, item.Topic, ct, historicalIds);
+
+                if (questions is null || questions.Count == 0)
+                {
+                    _log.LogWarning("Batch PDF: bank empty for {Subject} G{Grade}", item.Subject, item.Grade);
+                    questions = new List<OlympiadReady.Api.Models.Question>();
+                }
+
+                // Track seen questions (accumulate across items so duplicates are less likely)
+                var freshIds = questions
+                    .Where(q => q.BankId != Guid.Empty && !historicalIds.Contains(q.BankId))
+                    .Select(q => q.BankId)
+                    .Distinct()
+                    .ToList();
+                newSeenIds.AddRange(freshIds);
+                historicalIds.AddRange(freshIds); // mutate local list for subsequent items
+
+                var exportReq = new PdfExportRequest
+                {
+                    Title      = $"Class {item.Grade} {item.Subject}{(string.IsNullOrWhiteSpace(item.Topic) ? "" : $" - {item.Topic}")} — Practice Paper (50 Questions)",
+                    Subject    = item.Subject,
+                    Grade      = item.Grade,
+                    Difficulty = "Mixed",
+                    Questions  = questions
+                };
+
+                var pdfBytes = _pdf.GeneratePaperPdf(exportReq);
+                var entryName = $"OlympiadReady-{item.Subject}{(string.IsNullOrWhiteSpace(item.Topic) ? "" : $"-{item.Topic}")}-Class{item.Grade}-50Q.pdf";
+                // Make filename safe
+                entryName = string.Concat(entryName.Select(c => Path.GetInvalidFileNameChars().Contains(c) ? '_' : c));
+
+                var entry = archive.CreateEntry(entryName, CompressionLevel.Fastest);
+                using var entryStream = entry.Open();
+                await entryStream.WriteAsync(pdfBytes, ct);
+            }
+        }
+
+        // Persist
+        if (newSeenIds.Count > 0)
+        {
+            _db.UserSeenQuestions.AddRange(newSeenIds.Distinct().Select(id => new UserSeenQuestion
+            {
+                UserId = user.UserId.ToString(),
+                QuestionBankId = id
+            }));
+        }
+        await _db.SaveChangesAsync(ct);
+
+        _log.LogInformation("Batch PDF: {Count} PDFs zipped for {UserId} order {OrderId}", count, user.UserId, req.OrderId);
+
+        zipStream.Position = 0;
+        var zipName = $"OlympiadReady-Papers-{count}PDF-{DateTime.UtcNow:yyyyMMdd}.zip";
+        return File(zipStream.ToArray(), "application/zip", zipName);
     }
 
     // ── POST /api/practice-papers/subscribed-pdf ──────────────────────────
