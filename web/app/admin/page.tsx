@@ -43,7 +43,7 @@ function detectMode(q: BankQuestion): QuestionMode {
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function AdminPage() {
-  const { getToken, isLoaded, userId } = useAuth();
+  const { getToken, isLoaded, userId, signOut } = useAuth();
   const [authed, setAuthed] = useState(true); // Auto-authed by clerk
   const [toast, setToast] = useState<Toast | null>(null);
   const [activeTab, setActiveTab] = useState<TabId>("add");
@@ -124,7 +124,7 @@ export default function AdminPage() {
               </div>
             )}
           </div>
-          <button onClick={() => setAuthed(false)} className="text-xs text-slate-400 hover:text-white underline">
+          <button onClick={() => signOut()} className="text-xs text-slate-400 hover:text-white underline">
             Sign out
           </button>
         </div>
