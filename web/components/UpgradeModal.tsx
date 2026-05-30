@@ -194,7 +194,7 @@ export function UpgradeModal({
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-900/50">
       <div className="flex min-h-full items-center justify-center p-4 py-8">
-        <div className="relative w-full max-w-lg rounded-2xl bg-white p-6 shadow-xl">
+        <div className="relative w-full max-w-lg md:max-w-3xl rounded-2xl bg-white p-6 shadow-xl transition-all">
         <button
           type="button"
           onClick={onClose}
@@ -222,130 +222,144 @@ export function UpgradeModal({
               </p>
             )}
 
-            {/* Grade Selection */}
-            <div className="mt-6">
-              <label className="text-sm font-semibold text-slate-700">Select Class/Grade</label>
-              <select 
-                value={grade}
-                onChange={(e) => setGrade(Number(e.target.value))}
-                className="mt-1 block w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
-              >
-                {Array.from({ length: 12 }).map((_, i) => (
-                  <option key={i + 1} value={i + 1}>Class/Grade {i + 1}</option>
-                ))}
-              </select>
+            <div className="mt-6 md:grid md:grid-cols-2 md:gap-6">
+              {/* Left Column: Grade & Subjects */}
+              <div className="flex flex-col min-h-0">
+                {/* Grade Selection */}
+                <div>
+                  <label className="text-sm font-semibold text-slate-700">Select Class/Grade</label>
+                  <select 
+                    value={grade}
+                    onChange={(e) => setGrade(Number(e.target.value))}
+                    className="mt-1 block w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
+                  >
+                    {Array.from({ length: 12 }).map((_, i) => (
+                      <option key={i + 1} value={i + 1}>Class/Grade {i + 1}</option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Subjects Selection */}
+                <div className="mt-4 flex-1 flex flex-col min-h-0">
+                  <label className="flex items-center justify-between text-sm font-semibold text-slate-700 mb-1.5">
+                    <span>Select Subjects</span>
+                    {!isChampion && count >= 3 && (
+                      <span className="text-xs font-medium text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">
+                        10% off
+                      </span>
+                    )}
+                    {isChampion && (
+                      <span className="text-xs font-medium text-purple-600 bg-purple-50 px-2 py-0.5 rounded-full">
+                        Champion — Best Value
+                      </span>
+                    )}
+                  </label>
+                  
+                  {/* Scrollable Container with custom height so it fits in laptop screen viewport */}
+                  <div className="overflow-y-auto max-h-[200px] rounded-lg border border-slate-200 bg-slate-50/50 p-2 pr-1">
+                    <div className="grid grid-cols-2 gap-1.5">
+                      <button
+                        onClick={() => handleToggleSubject("All")}
+                        className={`relative flex items-center justify-between rounded-lg border p-2.5 text-xs font-medium transition-colors ${
+                          isAllSelected
+                            ? "border-purple-600 bg-purple-50 text-purple-900 shadow-sm"
+                            : "border-slate-200 hover:border-purple-300 hover:bg-purple-50/50 text-slate-700 bg-white"
+                        }`}
+                      >
+                        All Subjects
+                        {isAllSelected && <Check className="h-3.5 w-3.5 text-purple-600 shrink-0" />}
+                      </button>
+                      
+                      {availableSubjects.map((subj) => {
+                        const isSelected = isAllSelected || selectedSubjects.includes(subj);
+                        return (
+                          <button
+                            key={subj}
+                            onClick={() => handleToggleSubject(subj)}
+                            className={`flex items-center justify-between rounded-lg border p-2.5 text-xs font-medium transition-colors ${
+                              isSelected
+                                ? "border-brand-600 bg-brand-50 text-brand-900 shadow-sm"
+                                : "border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 text-slate-700 bg-white"
+                            }`}
+                          >
+                            <span className="truncate mr-1">{subj}</span>
+                            {isSelected && <Check className="h-3.5 w-3.5 text-brand-600 shrink-0" />}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Column: Pricing & Checkout */}
+              <div className="mt-6 md:mt-0 flex flex-col justify-between rounded-xl bg-slate-50 border border-slate-200 p-4">
+                {/* Billing Cycle Toggle */}
+                <div className="flex justify-center">
+                  <div className="inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1">
+                    <button
+                      onClick={() => setBillingCycle("Monthly")}
+                      className={`rounded-md px-3 py-1 text-xs font-medium transition-all ${
+                        billingCycle === "Monthly" ? "bg-white text-slate-900 shadow-sm" : "text-slate-600 hover:text-slate-900"
+                      }`}
+                    >
+                      Monthly
+                    </button>
+                    <button
+                      onClick={() => setBillingCycle("Annual")}
+                      className={`rounded-md px-3 py-1 text-xs font-medium transition-all ${
+                        billingCycle === "Annual" ? "bg-white text-slate-900 shadow-sm" : "text-slate-600 hover:text-slate-900"
+                      }`}
+                    >
+                      Annual
+                      <span className="ml-1 inline-block rounded-full bg-emerald-100 px-1.5 py-0.5 text-[9px] font-bold text-emerald-700 uppercase tracking-wide">
+                        4 mos free
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Pricing Display */}
+                <div className="my-auto py-4 text-center">
+                  <div className="flex items-end justify-center gap-1">
+                    <span className="text-3xl font-bold text-slate-900">₹{price}</span>
+                    <span className="text-sm font-medium text-slate-500 mb-0.5">/ {billingCycle === "Annual" ? "yr" : "mo"}</span>
+                  </div>
+                  {isAnnual && monthlyEquiv > 0 && (
+                    <p className="mt-0.5 text-xs font-semibold text-brand-600">= ₹{monthlyEquiv}/month</p>
+                  )}
+                  {isAnnual && originalPrice > 0 && (
+                    <p className="mt-1 text-[11px] text-slate-500 leading-tight">
+                      vs monthly billing{" "}
+                      <span className="line-through">₹{originalPrice}/yr</span>
+                      <br />
+                      <span className="font-semibold text-emerald-600">Save ₹{originalPrice - price}</span>
+                    </p>
+                  )}
+                </div>
+
+                {/* Actions & CTA */}
+                <div>
+                  <button
+                    type="button"
+                    onClick={() => { if (count > 0) setStep("confirm"); }}
+                    disabled={count === 0}
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:cursor-not-allowed disabled:bg-slate-400 transition-all"
+                  >
+                    Review &amp; Confirm
+                  </button>
+
+                  {/* School / custom packages CTA */}
+                  <p className="mt-2 text-center text-[10px] text-slate-400">
+                    Need school pricing?{" "}
+                    <a href="/contact?type=school" className="text-brand-600 underline hover:text-brand-700">
+                      Custom packages →
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
-
-        {/* Subjects Selection */}
-        <div className="mt-6">
-          <label className="flex items-center justify-between text-sm font-semibold text-slate-700">
-            <span>Select Subjects</span>
-            {!isChampion && count >= 3 && (
-              <span className="text-xs font-medium text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">
-                10% off applied
-              </span>
-            )}
-            {isChampion && (
-              <span className="text-xs font-medium text-purple-600 bg-purple-50 px-2 py-0.5 rounded-full">
-                Champion — Best Value
-              </span>
-            )}
-          </label>
-          
-          <div className="mt-3 grid grid-cols-2 gap-2">
-            <button
-              onClick={() => handleToggleSubject("All")}
-              className={`relative flex items-center justify-between rounded-lg border p-3 text-sm font-medium transition-colors ${
-                isAllSelected
-                  ? "border-purple-600 bg-purple-50 text-purple-900 shadow-sm"
-                  : "border-slate-200 hover:border-purple-300 hover:bg-purple-50/50 text-slate-700"
-              }`}
-            >
-              All Subjects
-              {isAllSelected && <Check className="h-4 w-4 text-purple-600" />}
-            </button>
-            
-            {availableSubjects.map((subj) => {
-              const isSelected = isAllSelected || selectedSubjects.includes(subj);
-              return (
-                <button
-                  key={subj}
-                  onClick={() => handleToggleSubject(subj)}
-                  className={`flex items-center justify-between rounded-lg border p-3 text-sm font-medium transition-colors ${
-                    isSelected
-                      ? "border-brand-600 bg-brand-50 text-brand-900 shadow-sm"
-                      : "border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 text-slate-700"
-                  }`}
-                >
-                  {subj}
-                  {isSelected && <Check className="h-4 w-4 text-brand-600" />}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Billing Cycle Toggle */}
-        <div className="mt-6 flex justify-center">
-          <div className="inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1">
-            <button
-              onClick={() => setBillingCycle("Monthly")}
-              className={`rounded-md px-4 py-1.5 text-sm font-medium transition-all ${
-                billingCycle === "Monthly" ? "bg-white text-slate-900 shadow-sm" : "text-slate-600 hover:text-slate-900"
-              }`}
-            >
-              Monthly
-            </button>
-            <button
-              onClick={() => setBillingCycle("Annual")}
-              className={`rounded-md px-4 py-1.5 text-sm font-medium transition-all ${
-                billingCycle === "Annual" ? "bg-white text-slate-900 shadow-sm" : "text-slate-600 hover:text-slate-900"
-              }`}
-            >
-              Annual
-              <span className="ml-1.5 inline-block rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700 uppercase tracking-wide">
-                4 months free
-              </span>
-            </button>
-          </div>
-        </div>
-
-        {/* Pricing Display */}
-        <div className="mt-6 text-center">
-          <div className="flex items-end justify-center gap-2">
-            <span className="text-4xl font-bold text-slate-900">₹{price}</span>
-            <span className="text-base font-medium text-slate-500 mb-1">/ {billingCycle === "Annual" ? "yr" : "mo"}</span>
-          </div>
-          {isAnnual && monthlyEquiv > 0 && (
-            <p className="mt-1 text-sm font-semibold text-brand-600">= ₹{monthlyEquiv}/month</p>
-          )}
-          {isAnnual && originalPrice > 0 && (
-            <p className="mt-0.5 text-xs text-slate-500">
-              vs monthly billing{" "}
-              <span className="line-through">₹{originalPrice}/yr</span>
-              {" · "}
-              <span className="font-semibold text-emerald-600">Save ₹{originalPrice - price}</span>
-            </p>
-          )}
-        </div>
-
-        {/* School / custom packages CTA */}
-        <p className="mt-3 text-center text-xs text-slate-400">
-          Need school or bulk pricing?{" "}
-          <a href="/contact?type=school" className="text-brand-600 underline hover:text-brand-700">
-            Contact us for custom packages →
-          </a>
-        </p>
-
-        <button
-          type="button"
-          onClick={() => { if (count > 0) setStep("confirm"); }}
-          disabled={count === 0}
-          className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-3 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:cursor-not-allowed disabled:bg-slate-400 transition-all"
-        >
-          Review &amp; Confirm
-        </button>
-        </>
+          </>
         ) : (
           <>
             <div className="flex items-center gap-2 text-brand-700">
