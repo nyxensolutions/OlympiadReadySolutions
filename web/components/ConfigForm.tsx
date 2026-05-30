@@ -167,10 +167,16 @@ export function ConfigForm({
   const [difficulty, setDifficulty] = useState<string>(initialConfig?.difficulty ?? "Foundation");
   const [count, setCount] = useState<number>(initialConfig?.count ?? 5);
   const [simMode, setSimMode] = useState(false);
-  const [mistakesOnly] = useState<boolean>(initialConfig?.mistakesOnly ?? false);
+  const [mistakesOnly, setMistakesOnly] = useState<boolean>(initialConfig?.mistakesOnly ?? false);
   const [olympiadLevel, setOlympiadLevel] = useState<OlympiadLevel>(
     (initialConfig?.olympiadLevel) ?? "L1"
   );
+
+  useEffect(() => {
+    if (initialConfig?.mistakesOnly !== undefined) {
+      setMistakesOnly(initialConfig.mistakesOnly);
+    }
+  }, [initialConfig?.mistakesOnly]);
 
   const isCurrentUnlocked = status?.tier === "Pro" || (status?.activeUnlocks?.some((u) => u.grade === grade && u.subject.toLowerCase() === subject.toLowerCase()) ?? false);
 
@@ -421,8 +427,38 @@ export function ConfigForm({
         </p>
       </div>
 
-      {/* Simulation mode toggle */}
+      {/* Mistakes Only Toggle */}
       <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-xl border border-slate-200 bg-white/60 backdrop-blur-sm px-4 py-3 shadow-sm hover:bg-slate-50/80 transition-colors">
+        <div className="relative mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
+          <input
+            type="checkbox"
+            checked={mistakesOnly}
+            onChange={(e) => setMistakesOnly(e.target.checked)}
+            className="peer sr-only"
+          />
+          <div className={`h-5 w-5 rounded border-2 transition ${mistakesOnly ? "border-brand-600 bg-brand-600" : "border-slate-300 bg-white"}`}>
+            {mistakesOnly && (
+              <svg className="h-full w-full p-0.5 text-white" viewBox="0 0 12 12" fill="none">
+                <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            )}
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center gap-1.5">
+            <span className="text-sm font-semibold text-slate-800">Practice Mistakes Only</span>
+            <span className="rounded-full bg-red-100 px-2 py-0.5 text-[9px] font-bold text-red-700 uppercase tracking-wide">
+              Review Mode
+            </span>
+          </div>
+          <p className="mt-0.5 text-xs text-slate-500">
+            Generate a targeted set focusing entirely on questions you previously got wrong.
+          </p>
+        </div>
+      </label>
+
+      {/* Simulation mode toggle */}
+      <label className="mt-3 flex cursor-pointer items-start gap-3 rounded-xl border border-slate-200 bg-white/60 backdrop-blur-sm px-4 py-3 shadow-sm hover:bg-slate-50/80 transition-colors">
         <div className="relative mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center">
           <input
             type="checkbox"

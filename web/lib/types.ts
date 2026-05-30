@@ -47,6 +47,8 @@ export type DashboardSummary = {
     lastUpdated: string;
   }>;
   mistakeCount: number;
+  mistakeSubject?: string;
+  mistakeGrade?: number;
 };
 
 export type OlympiadLevel = "L1" | "L2";

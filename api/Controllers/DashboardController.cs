@@ -82,6 +82,13 @@ public class DashboardController : ControllerBase
         var unresolvedMistakesCount = await _db.UserMistakes
             .CountAsync(m => m.UserId == user.UserId && !m.IsResolved, ct);
 
+        var firstUnresolvedMistake = await _db.UserMistakes
+            .AsNoTracking()
+            .Where(m => m.UserId == user.UserId && !m.IsResolved)
+            .OrderByDescending(m => m.OccurredAt)
+            .Select(m => new { m.Subject, m.Grade })
+            .FirstOrDefaultAsync(ct);
+
         var reportedCount = await _db.ReportedQuestions
             .CountAsync(r => r.UserId == user.UserId && r.Status == "Accepted", ct);
 
@@ -92,6 +99,8 @@ public class DashboardController : ControllerBase
             results,
             mastery,
             mistakeCount = unresolvedMistakesCount,
+            mistakeSubject = firstUnresolvedMistake?.Subject,
+            mistakeGrade = firstUnresolvedMistake?.Grade,
             reportedCount = reportedCount
         });
     }
