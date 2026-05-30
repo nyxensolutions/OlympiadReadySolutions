@@ -458,12 +458,53 @@ export function ConfigForm({
         {simMode ? "Enter Exam Hall" : "Generate & Start Test"}
       </button>
 
-      {error && (
-        <div className="mt-4 rounded-lg border border-red-200 bg-red-50 p-4 text-sm text-red-800">
-          <p className="font-semibold">Generation failed</p>
-          <p className="mt-1 whitespace-pre-wrap break-words">{error}</p>
-        </div>
-      )}
+      {(() => {
+        if (!error) return null;
+        let displayError = error;
+        let isNoMistakes = false;
+        
+        let cleanErr = error;
+        if (error.startsWith("Error: ")) {
+          cleanErr = error.substring(7);
+        }
+        try {
+          const parsed = JSON.parse(cleanErr);
+          if (parsed && parsed.code === "NO_MISTAKES") {
+            isNoMistakes = true;
+            displayError = parsed.message || `No unresolved mistakes found for ${subject} Class ${grade}.`;
+          } else if (parsed && parsed.message) {
+            displayError = parsed.message;
+          }
+        } catch {
+          // not a json string
+        }
+
+        return (
+          <div className={`mt-4 rounded-xl border p-4 text-sm transition-all ${
+            isNoMistakes 
+              ? "border-emerald-200 bg-emerald-50 text-emerald-800 shadow-sm" 
+              : "border-red-200 bg-red-50 text-red-800"
+          }`}>
+            {isNoMistakes ? (
+              <div className="flex items-start gap-3">
+                <span className="text-xl shrink-0" role="img" aria-label="party popper">🎉</span>
+                <div>
+                  <p className="font-bold text-emerald-950">All caught up!</p>
+                  <p className="mt-1 text-emerald-700 font-medium leading-relaxed">{displayError}</p>
+                  <p className="mt-2 text-xs text-emerald-600 font-semibold">
+                    Try generating a standard practice paper to keep building your skills!
+                  </p>
+                </div>
+              </div>
+            ) : (
+              <>
+                <p className="font-semibold">Generation failed</p>
+                <p className="mt-1 whitespace-pre-wrap break-words">{displayError}</p>
+              </>
+            )}
+          </div>
+        );
+      })()}
       </div>{/* end p-6 */}
     </form>
   );
