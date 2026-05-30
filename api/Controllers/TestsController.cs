@@ -82,6 +82,10 @@ public class TestsController : ControllerBase
         _db.Results.Add(result);
 
         // Process mistakes
+        var unresolvedMistakes = await _db.UserMistakes
+            .Where(m => m.UserId == user.UserId && !m.IsResolved)
+            .ToListAsync(ct);
+
         for (int i = 0; i < questions.Count; i++)
         {
             var q = questions[i];
@@ -89,8 +93,14 @@ public class TestsController : ControllerBase
             var isCorrect = q.Answer == userAnswer;
 
             // Search for unresolved mistake containing this question text
-            var existingMistake = await _db.UserMistakes
-                .FirstOrDefaultAsync(m => m.UserId == user.UserId && m.QuestionJson.Contains(q.Q) && !m.IsResolved, ct);
+            var existingMistake = unresolvedMistakes.FirstOrDefault(m => {
+                try {
+                    var mq = JsonSerializer.Deserialize<Question>(m.QuestionJson);
+                    return mq != null && string.Equals(mq.Q?.Trim(), q.Q?.Trim(), StringComparison.OrdinalIgnoreCase);
+                } catch {
+                    return m.QuestionJson.Contains(q.Q);
+                }
+            });
 
             if (!isCorrect)
             {
@@ -113,9 +123,19 @@ public class TestsController : ControllerBase
             }
             else
             {
-                if (existingMistake != null)
+                // Clean up all unresolved duplicates of this mistake in the DB
+                var matchingMistakes = unresolvedMistakes.Where(m => {
+                    try {
+                        var mq = JsonSerializer.Deserialize<Question>(m.QuestionJson);
+                        return mq != null && string.Equals(mq.Q?.Trim(), q.Q?.Trim(), StringComparison.OrdinalIgnoreCase);
+                    } catch {
+                        return m.QuestionJson.Contains(q.Q);
+                    }
+                }).ToList();
+
+                foreach (var m in matchingMistakes)
                 {
-                    existingMistake.IsResolved = true;
+                    m.IsResolved = true;
                 }
             }
         }
