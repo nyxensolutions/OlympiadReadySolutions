@@ -39,14 +39,23 @@ public class PdfService
             if (url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ||
                 url.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
             {
-                return _httpClient.GetByteArrayAsync(url).GetAwaiter().GetResult();
+                // Use synchronous Send to avoid any possible async-over-sync deadlocks in ASP.NET Core
+                using var req = new HttpRequestMessage(HttpMethod.Get, url);
+                req.Headers.Add("User-Agent", "OlympiadReady-PdfWorker/1.0");
+                using var res = _httpClient.Send(req);
+                if (!res.IsSuccessStatusCode) return null;
+                
+                using var ms = new MemoryStream();
+                res.Content.CopyTo(ms);
+                return ms.ToArray();
             }
 
             var localPath = Path.Combine(_env.ContentRootPath, "..", "web", "public", url.TrimStart('/'));
             return File.Exists(localPath) ? File.ReadAllBytes(localPath) : null;
         }
-        catch
+        catch (Exception ex)
         {
+            Console.WriteLine($"[PDF] Failed to load image {url}: {ex.Message}");
             return null;
         }
     }
