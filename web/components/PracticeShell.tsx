@@ -63,6 +63,12 @@ export function PracticeShell({
       if (!localStorage.getItem("hasCompletedOnboarding")) {
         setShowOnboarding(true);
       }
+      
+      // If we arrived via a deep link (e.g. ?mistakes=true), clear the URL so 
+      // refreshing the page doesn't trap the user in an auto-start loop.
+      if (window.location.search) {
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
     }
   }, []);
 
