@@ -416,8 +416,8 @@ export function UpgradeModal({
           </>
         )}
 
-        <p className="mt-3 text-center text-xs text-slate-500">
-          Secured by Razorpay. Use test card 4111 1111 1111 1111.
+        <p className="mt-4 text-center text-[10px] text-slate-400">
+          Secured by Razorpay.
         </p>
 
         {error && (
