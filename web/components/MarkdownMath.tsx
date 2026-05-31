@@ -8,6 +8,13 @@ interface MarkdownMathProps {
 }
 
 export function MarkdownMath({ content, className = "" }: MarkdownMathProps) {
+  // Auto-wrap raw cloudinary URLs in markdown syntax if they aren't already wrapped
+  // e.g. https://res.cloudinary.com/xyz -> ![image](https://res.cloudinary.com/xyz)
+  const processedContent = content.replace(
+    /(?<!\]\()(https:\/\/res\.cloudinary\.com\/[^\s\)]+)/g,
+    "![image]($1)"
+  );
+
   return (
     <div className={`text-slate-900 leading-relaxed ${className}`}>
       <ReactMarkdown
@@ -20,7 +27,7 @@ export function MarkdownMath({ content, className = "" }: MarkdownMathProps) {
           )
         }}
       >
-        {content}
+        {processedContent}
       </ReactMarkdown>
     </div>
   );
