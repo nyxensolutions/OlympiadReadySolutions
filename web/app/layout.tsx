@@ -20,7 +20,7 @@ export default function RootLayout({
       <html lang="en">
         <body className="min-h-screen bg-slate-50 text-slate-900">
           {children}
-          <WhatsAppFloat />
+          {/* <WhatsAppFloat /> */}
 
           {/* Razorpay checkout */}
           <Script
