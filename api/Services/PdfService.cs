@@ -359,7 +359,7 @@ public class PdfService
                 // Question text
                 col.Item().Row(r =>
                 {
-                    r.ConstantItem(22).Text($"Q{number}.").Bold().FontColor(Brand).FontSize(11);
+                    r.ConstantItem(28).Text($"Q{number}.").Bold().FontColor(Brand).FontSize(11);
                     RenderMarkdownContent(r.RelativeItem(), q.Q, 11);
                 });
 
@@ -471,7 +471,7 @@ public class PdfService
                         .Padding(8)
                         .Row(r =>
                         {
-                            r.ConstantItem(24).Text($"Q{n}.").Bold().FontColor(Brand);
+                            r.ConstantItem(28).Text($"Q{n}.").Bold().FontColor(Brand);
                             RenderMarkdownContent(r.RelativeItem(), q.Q, 10);
                         });
 
