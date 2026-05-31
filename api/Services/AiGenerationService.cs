@@ -84,10 +84,11 @@ public class AiGenerationService
         Each element MUST follow this schema exactly, with these field names:
 
         {
-          "reasoning_steps": "Required. Step-by-step logic on how this question was designed to be complex/tough, what misconception each distractor targets, and verification of the correct answer.",
+          "reasoning_steps": "Required. Step-by-step logic on how this question was designed to be complex/tough, what misconception each distractor targets, and verification of which option (A/B/C/D) is correct.",
           "q":           "the question text",
           "options":     ["option A", "option B", "option C", "option D"],
-          "answer":      "the exact correct option string, character-for-character matching one of options",
+          "correct_option_letter": "A, B, C, or D",
+          "answer":      "CRITICAL: The EXACT string from the options array that corresponds to the correct_option_letter. Must be a character-for-character match.",
           "explanation": "concise reasoning",
           "topic":       "syllabus topic, 1-3 words, consistent across questions of the same concept"
         }
