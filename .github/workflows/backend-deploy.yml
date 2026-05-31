@@ -86,5 +86,5 @@ jobs:
     - name: Deploy to Azure App Service
       uses: azure/webapps-deploy@v3
       with:
-        app-name: 'olympiad-api-prod' # Make sure this matches your Prod Azure app name
+        app-name: 'olympiadready-api-prod' # Make sure this matches your Prod Azure app name
         package: api/publish
