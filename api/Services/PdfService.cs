@@ -46,7 +46,7 @@ public class PdfService
                 if (!res.IsSuccessStatusCode) return null;
                 
                 using var ms = new MemoryStream();
-                res.Content.CopyTo(ms);
+                res.Content.CopyTo(ms, null, CancellationToken.None);
                 return ms.ToArray();
             }
 
