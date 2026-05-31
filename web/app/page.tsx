@@ -9,7 +9,7 @@ import type { PreviewRequest } from "@/lib/types";
 export default function Home({
   searchParams
 }: {
-  searchParams?: { subject?: string; grade?: string; difficulty?: string; topic?: string; mistakes?: string };
+  searchParams?: { subject?: string; grade?: string; difficulty?: string; topic?: string; mistakes?: string; count?: string };
 }) {
   const initialConfig: Partial<PreviewRequest> | undefined =
     searchParams && Object.keys(searchParams).length > 0
@@ -17,6 +17,7 @@ export default function Home({
           subject: searchParams.subject,
           grade: searchParams.grade ? Number(searchParams.grade) : undefined,
           difficulty: searchParams.difficulty,
+          count: searchParams.count ? Number(searchParams.count) : undefined,
           topic: searchParams.topic,
           mistakesOnly: searchParams.mistakes === "true"
         }
