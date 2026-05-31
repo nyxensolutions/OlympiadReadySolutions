@@ -283,34 +283,24 @@ export function TestArena({
 
         {/* Question area */}
         <div className="mx-auto w-full max-w-3xl flex-1 px-6 py-8">
-          {/* Section Banner & Report Button */}
-          <div className="mb-4 flex justify-between items-start">
-            {q.sectionName ? (
-              <div className="flex items-center gap-2 rounded-lg bg-indigo-50 px-3 py-2 text-sm font-bold text-indigo-800 border border-indigo-100">
-                {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
-              </div>
-            ) : <div />}
-            <button 
-              type="button" 
-              onClick={() => setReportingQuestionIdx(current)}
-              className="flex items-center gap-1.5 text-xs font-semibold text-rose-500 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 px-2.5 py-1.5 rounded transition"
-            >
-              <AlertOctagon className="h-3.5 w-3.5" />
-              Report Issue
-            </button>
-          </div>
-
-          {/* Flag and Report banner */}
+          {/* Top Info Bar (Section, Flags, Report) */}
           <div className="mb-4 flex items-start justify-between gap-2">
-            {flagged[current] ? (
-              <div className="flex items-center gap-2 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-700">
-                <Flag className="h-3.5 w-3.5" /> Marked for review
-              </div>
-            ) : <div />}
+            <div className="flex flex-wrap gap-2">
+              {q.sectionName && (
+                <div className="flex items-center gap-2 rounded-lg bg-indigo-50 px-3 py-2 text-sm font-bold text-indigo-800 border border-indigo-100">
+                  {q.sectionName} {q.marks ? `(${q.marks} Marks)` : ""}
+                </div>
+              )}
+              {flagged[current] && (
+                <div className="flex items-center gap-2 rounded-lg bg-amber-50 px-3 py-2 text-xs font-semibold text-amber-700 border border-amber-200">
+                  <Flag className="h-3.5 w-3.5" /> Marked for review
+                </div>
+              )}
+            </div>
             <button 
               type="button" 
               onClick={() => setReportingQuestionIdx(current)}
-              className="flex items-center gap-1.5 text-xs font-semibold text-rose-500 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 px-2.5 py-1.5 rounded transition"
+              className="flex items-center gap-1.5 text-xs font-semibold text-rose-500 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 px-2.5 py-1.5 rounded transition shrink-0"
             >
               <AlertOctagon className="h-3.5 w-3.5" />
               Report Issue
