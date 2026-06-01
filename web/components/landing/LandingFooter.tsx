@@ -47,7 +47,7 @@ export function LandingFooter() {
                 </svg>
               </a>
               <a
-                href="https://www.facebook.com/people/OlympiadReady/61590546326909/"
+                href="https://www.facebook.com/people/Olympiad-Ready/61590442261095/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="OlympiadReady on Facebook"

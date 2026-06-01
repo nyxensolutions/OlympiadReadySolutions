@@ -421,7 +421,7 @@ export const posts: BlogPost[] = [
     title: "How to Prepare for the NSO (National Science Olympiad): A Complete Guide",
     description:
       "A practical, class-by-class plan to prepare for the National Science Olympiad (NSO) — syllabus sections, study schedule, the Achievers section and free practice tips.",
-    date: "2026-06-02",
+    date: "2026-05-27",
     tag: "Science",
     readingMinutes: 8,
     keywords: ["NSO preparation", "national science olympiad", "how to prepare for NSO", "NSO syllabus", "science olympiad practice"],
@@ -507,7 +507,7 @@ export const posts: BlogPost[] = [
     title: "How to Prepare for the IEO (International English Olympiad)",
     description:
       "A simple, effective plan to prepare for the International English Olympiad (IEO) — grammar, vocabulary, comprehension, the Achievers section and daily habits that build real skill.",
-    date: "2026-06-04",
+    date: "2026-05-29",
     tag: "English",
     readingMinutes: 7,
     keywords: ["IEO preparation", "english olympiad", "how to prepare for IEO", "IEO syllabus", "english olympiad practice"],
@@ -580,7 +580,7 @@ export const posts: BlogPost[] = [
     title: "8 Real Benefits of Olympiad Exams for Students",
     description:
       "Beyond medals and certificates — the real benefits of Olympiad exams for students, from sharper reasoning and exam confidence to early concept mastery and a national benchmark.",
-    date: "2026-06-06",
+    date: "2026-05-31",
     tag: "Guides",
     readingMinutes: 6,
     keywords: ["benefits of olympiad exams", "why participate in olympiads", "olympiad advantages", "olympiad for students"],
@@ -667,7 +667,7 @@ export const posts: BlogPost[] = [
     title: "How to Improve Logical Reasoning for Olympiads",
     description:
       "Logical reasoning appears in every major Olympiad and is the easiest section to improve. Here are practical techniques to master patterns, series, analogies and non-verbal reasoning.",
-    date: "2026-06-08",
+    date: "2026-06-01",
     tag: "Tips",
     readingMinutes: 6,
     keywords: ["logical reasoning olympiad", "reasoning for olympiad", "improve logical reasoning", "non-verbal reasoning practice"],
