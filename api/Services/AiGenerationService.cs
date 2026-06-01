@@ -53,7 +53,8 @@ public class AiGenerationService
             or spatial reasoning with 3+ conditions.
 
         # Question quality bar
-          - Single, unambiguous correct answer. No "all of the above" / "none of the above".
+          - STRICT REQUIREMENT: There MUST BE EXACTLY ONE unambiguously correct answer. It is a FATAL ERROR to include multiple correct or partially correct options (e.g., asking "Which is an even number?" and providing both 2 and 4 as options). All distractors MUST be completely and undeniably wrong under all mathematical and logical interpretations.
+          - No "all of the above" / "none of the above".
           - Exactly 4 options. They should look comparable in length and style — never make the
             correct answer the longest or the only one with units written out.
           - Distractors target real misconceptions, not random distractors. A student who guesses

@@ -9,6 +9,7 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
 type TryQuestion = {
   q: string;
+  imageUrl?: string;
   options: string[];
   answer: string;
   explanation: string;
@@ -214,6 +215,16 @@ export function TryItSection() {
               <p className="text-slate-900 font-semibold mb-5 leading-relaxed">
                 {state.qs[state.idx].q}
               </p>
+              {state.qs[state.idx].imageUrl && (
+                <div className="mb-6 overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={state.qs[state.idx].imageUrl}
+                    alt="Question visual"
+                    className="max-h-64 w-full object-contain p-2"
+                  />
+                </div>
+              )}
               <div className="grid gap-3">
                 {state.qs[state.idx].options.map((opt, i) => (
                   <button
@@ -280,6 +291,12 @@ export function TryItSection() {
                         }
                         <div className="min-w-0">
                           <p className="text-sm text-slate-800 font-medium">{q.q}</p>
+                          {q.imageUrl && (
+                            <div className="mt-2 mb-2 overflow-hidden rounded-lg border border-slate-200 bg-slate-50">
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img src={q.imageUrl} alt="" className="max-h-32 object-contain p-1" />
+                            </div>
+                          )}
                           {!correct && (
                             <p className="mt-1 text-xs text-slate-500">
                               Your answer: <span className="text-red-600 font-medium">{picked ?? "—"}</span>{" · "}
