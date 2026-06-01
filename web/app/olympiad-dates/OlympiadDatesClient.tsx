@@ -40,6 +40,7 @@ const ORG_COLORS: Record<string, { bg: string; border: string; badge: string; ic
   CREST:       { bg: "bg-purple-50",  border: "border-purple-200",  badge: "bg-purple-100 text-purple-800", icon: "🏅" },
   SEAMO:       { bg: "bg-rose-50",    border: "border-rose-200",    badge: "bg-rose-100 text-rose-800",     icon: "📐" },
   ICO:         { bg: "bg-emerald-50", border: "border-emerald-200", badge: "bg-emerald-100 text-emerald-800", icon: "💻" },
+  Unicus:      { bg: "bg-cyan-50",    border: "border-cyan-200",    badge: "bg-cyan-100 text-cyan-800",     icon: "🦄" },
 };
 
 const SUBJECT_COLORS: Record<string, string> = {
@@ -83,7 +84,7 @@ export default function OlympiadDatesPage() {
     setLoading(true);
     setError(null);
     try {
-      const params = new URLSearchParams({ year: "2025" });
+      const params = new URLSearchParams({ year: "2026" });
       if (filterOrg !== "all") params.set("org", filterOrg);
       if (filterSubject !== "all") params.set("subject", filterSubject);
 
@@ -135,7 +136,7 @@ export default function OlympiadDatesPage() {
               <Calendar className="h-7 w-7" />
             </div>
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-indigo-200">Academic Year 2025–26</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-indigo-200">Academic Year 2026–27</p>
               <h1 className="text-2xl font-extrabold sm:text-3xl">Olympiad Dates & Schedule</h1>
             </div>
           </div>
@@ -148,7 +149,7 @@ export default function OlympiadDatesPage() {
           <div className="mt-4 flex items-start gap-2 rounded-xl bg-white/10 px-4 py-3 text-xs text-indigo-100">
             <Info className="mt-0.5 h-4 w-4 shrink-0" />
             <p>
-              Dates shown are based on past patterns and official announcements for 2025–26. Always verify from the
+              Dates shown are based on past patterns and official announcements for 2026–27. Always verify from the
               official olympiad website before registering. Click any card&apos;s link for the latest information.
             </p>
           </div>
@@ -351,7 +352,7 @@ export default function OlympiadDatesPage() {
           <div className="mt-10 flex items-start gap-2 rounded-xl border border-slate-200 bg-white px-4 py-4 text-xs text-slate-500">
             <Info className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
             <p>
-              Schedule data for Academic Year 2025–26, curated from official sources.
+              Schedule data for Academic Year 2026–27, curated from official sources.
               Dates may vary — always check the official olympiad website before registering.
               Data last verified: {entries[0]?.lastVerified
                 ? new Date(entries[0].lastVerified).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })
