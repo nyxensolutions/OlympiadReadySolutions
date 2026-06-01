@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { GraduationCap, Mail, MessageCircle } from "lucide-react";
+import { GraduationCap, Mail, MessageCircle, Instagram } from "lucide-react";
 
 export function LandingFooter() {
   return (
@@ -22,6 +22,30 @@ export function LandingFooter() {
             <div className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700">
               <span className="h-1.5 w-1.5 rounded-full bg-brand-500" />
               Powered by AI — no repeats, ever
+            </div>
+
+            {/* Social */}
+            <div className="mt-5 flex items-center gap-3">
+              <a
+                href="https://www.instagram.com/olympiad.ready/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="OlympiadReady on Instagram"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-brand-200 hover:bg-brand-50 hover:text-brand-600"
+              >
+                <Instagram className="h-4 w-4" />
+              </a>
+              <a
+                href="https://x.com/nyxensolutions"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="OlympiadReady on X"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-brand-200 hover:bg-brand-50 hover:text-brand-600"
+              >
+                <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644Z" />
+                </svg>
+              </a>
             </div>
           </div>
 
