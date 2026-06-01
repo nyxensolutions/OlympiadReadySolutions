@@ -226,19 +226,27 @@ export function TryItSection() {
                 </div>
               )}
               <div className="grid gap-3">
-                {state.qs[state.idx].options.map((opt, i) => (
-                  <button
-                    key={opt}
-                    type="button"
-                    onClick={() => pick(opt)}
-                    className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left text-sm text-slate-700 transition hover:border-brand-500 hover:bg-brand-50 hover:text-brand-900"
-                  >
-                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-slate-300 bg-slate-50 text-xs font-bold text-slate-500 group-hover:border-brand-300 group-hover:bg-brand-100 group-hover:text-brand-700">
-                      {String.fromCharCode(65 + i)}
-                    </span>
-                    {opt}
-                  </button>
-                ))}
+                {state.qs[state.idx].options.map((opt, i) => {
+                  const isImageUrl = opt.startsWith("http://") || opt.startsWith("https://");
+                  return (
+                    <button
+                      key={opt}
+                      type="button"
+                      onClick={() => pick(opt)}
+                      className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left text-sm text-slate-700 transition hover:border-brand-500 hover:bg-brand-50 hover:text-brand-900"
+                    >
+                      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-slate-300 bg-slate-50 text-xs font-bold text-slate-500 group-hover:border-brand-300 group-hover:bg-brand-100 group-hover:text-brand-700">
+                        {String.fromCharCode(65 + i)}
+                      </span>
+                      {isImageUrl ? (
+                        /* eslint-disable-next-line @next/next/no-img-element */
+                        <img src={opt} alt={`Option ${String.fromCharCode(65 + i)}`} className="max-h-24 object-contain rounded" />
+                      ) : (
+                        <span>{opt}</span>
+                      )}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -298,10 +306,26 @@ export function TryItSection() {
                             </div>
                           )}
                           {!correct && (
-                            <p className="mt-1 text-xs text-slate-500">
-                              Your answer: <span className="text-red-600 font-medium">{picked ?? "—"}</span>{" · "}
-                              Correct: <span className="text-emerald-600 font-medium">{q.answer}</span>
-                            </p>
+                            <div className="mt-2 text-xs text-slate-500 bg-slate-50 p-3 rounded-lg border border-slate-100">
+                              <div className="mb-2">
+                                <span className="block mb-1">Your answer:</span>
+                                {picked?.startsWith("http://") || picked?.startsWith("https://") ? (
+                                  /* eslint-disable-next-line @next/next/no-img-element */
+                                  <img src={picked} className="max-h-16 object-contain rounded border border-red-200 p-1 bg-white" alt="Your answer" />
+                                ) : (
+                                  <span className="text-red-600 font-medium">{picked ?? "—"}</span>
+                                )}
+                              </div>
+                              <div>
+                                <span className="block mb-1">Correct answer:</span>
+                                {q.answer?.startsWith("http://") || q.answer?.startsWith("https://") ? (
+                                  /* eslint-disable-next-line @next/next/no-img-element */
+                                  <img src={q.answer} className="max-h-16 object-contain rounded border border-emerald-200 p-1 bg-white" alt="Correct answer" />
+                                ) : (
+                                  <span className="text-emerald-600 font-medium">{q.answer}</span>
+                                )}
+                              </div>
+                            </div>
                           )}
                           <p className="mt-1.5 text-xs text-slate-600 leading-relaxed">{q.explanation}</p>
                         </div>
