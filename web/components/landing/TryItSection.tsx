@@ -71,7 +71,7 @@ export function TryItSection() {
       const res = await fetch(`${API_URL}/api/generate/preview`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ subject, grade, difficulty: "Foundation", count: 5 }),
+        body: JSON.stringify({ subject, grade, count: 5 }),
       });
       if (!res.ok) throw new Error("Could not load AI questions.");
       const qs: TryQuestion[] = await res.json();
@@ -181,7 +181,7 @@ export function TryItSection() {
             </button>
 
             <p className="mt-3 text-center text-xs text-slate-500">
-              Real questions · Foundation difficulty · No account required
+              Real questions · Mixed difficulty · No account required
             </p>
           </div>
         )}
@@ -201,7 +201,7 @@ export function TryItSection() {
                 <span className="text-xs font-semibold text-slate-600 uppercase tracking-wide">
                   Question {state.idx + 1} of {state.qs.length} · {subject} Class {grade}
                 </span>
-                <span className="text-xs text-slate-500">Foundation</span>
+                <span className="text-xs text-slate-500">Mixed Difficulty</span>
               </div>
               <div className="h-1.5 w-full rounded-full bg-slate-200 overflow-hidden relative">
                 <div 

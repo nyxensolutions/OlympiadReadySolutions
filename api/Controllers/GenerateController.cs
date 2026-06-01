@@ -28,14 +28,20 @@ public class GenerateController : ControllerBase
             var (canonicalSubject, recognized) = SubjectNormalizer.Normalize(req.Subject);
             var subject = recognized ? canonicalSubject! : req.Subject;
 
-            var questions = await _bank.TryGetRandomAsync(
-                subject, req.Grade, req.Difficulty, req.Count, null, ct);
-                
-            if (questions == null || questions.Count < req.Count)
+            // Fetch a mixed difficulty paper: 1 Foundation, 2 Advanced, 2 Olympiad
+            var qFoundation = await _bank.TryGetRandomAsync(subject, req.Grade, "Foundation", 1, null, ct) ?? new List<Question>();
+            var qAdvanced = await _bank.TryGetRandomAsync(subject, req.Grade, "Advanced", 2, null, ct) ?? new List<Question>();
+            var qOlympiad = await _bank.TryGetRandomAsync(subject, req.Grade, "Olympiad", 2, null, ct) ?? new List<Question>();
+
+            var questions = new List<Question>();
+            questions.AddRange(qFoundation);
+            questions.AddRange(qAdvanced);
+            questions.AddRange(qOlympiad);
+
+            if (questions.Count < 5)
             {
-                // If not enough questions of this difficulty, fall back to any difficulty.
-                questions = await _bank.TryGetRandomAsync(
-                    subject, req.Grade, null, req.Count, null, ct);
+                // Fall back to just fetching any 5 random questions if the exact mix isn't fully available
+                questions = await _bank.TryGetRandomAsync(subject, req.Grade, null, 5, null, ct) ?? new List<Question>();
             }
 
             if (questions == null || !questions.Any())
