@@ -431,7 +431,7 @@ function PracticePapersBody() {
             AI-generated, exam-style PDFs ready to print and practise.{" "}
             <span className="font-semibold">10 questions free</span> (once per subject)
             {" · "}
-            <span className="font-semibold">50 questions from ₹20</span> per download (bundle discounts apply).
+            <span className="font-semibold">50 questions from ₹29</span> per download (bundle discounts apply).
           </p>
 
           {/* Feature pills */}
