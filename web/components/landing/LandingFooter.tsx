@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { GraduationCap, Mail, MessageCircle, Instagram } from "lucide-react";
+import { GraduationCap, Mail, MessageCircle, Instagram, Facebook } from "lucide-react";
 
 export function LandingFooter() {
   return (
@@ -45,6 +45,15 @@ export function LandingFooter() {
                 <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644Z" />
                 </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/people/OlympiadReady/61590546326909/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="OlympiadReady on Facebook"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-brand-200 hover:bg-brand-50 hover:text-brand-600"
+              >
+                <Facebook className="h-4 w-4" />
               </a>
             </div>
           </div>
