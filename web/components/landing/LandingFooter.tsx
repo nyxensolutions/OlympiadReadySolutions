@@ -32,7 +32,10 @@ export function LandingFooter() {
               <li><Link href="/#features" className="transition hover:text-brand-600">Features</Link></li>
               <li><Link href="/#how-it-works" className="transition hover:text-brand-600">How It Works</Link></li>
               <li><Link href="/topics" className="transition hover:text-brand-600">Syllabus Map</Link></li>
-              <li><Link href="/weekly-exam" className="transition hover:text-brand-600">Weekly Exam</Link></li>
+              <li><Link href="/practice-papers" className="transition hover:text-brand-600">Practice Papers</Link></li>
+              <li><Link href="/mock-exams" className="transition hover:text-brand-600">Mock Exams</Link></li>
+              <li><Link href="/olympiad-dates" className="transition hover:text-brand-600">Olympiad Dates</Link></li>
+              <li><Link href="/blog" className="transition hover:text-brand-600">Blog</Link></li>
               <li><Link href="/dashboard" className="transition hover:text-brand-600">Dashboard</Link></li>
             </ul>
           </div>

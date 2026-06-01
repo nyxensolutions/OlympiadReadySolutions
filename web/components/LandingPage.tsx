@@ -1,6 +1,7 @@
 "use client";
 
 import { AiCalloutSection } from "./landing/AiCalloutSection";
+import { BlogTeaserSection } from "./landing/BlogTeaserSection";
 import { CTASection } from "./landing/CTASection";
 import { FeaturesSection } from "./landing/FeaturesSection";
 import { HeroSection } from "./landing/HeroSection";
@@ -26,6 +27,7 @@ export function LandingPage() {
       <LandingLeaderboard />
       <AiCalloutSection />
       <SubjectCoverageSection />
+      <BlogTeaserSection />
       <CTASection />
       <LandingFooter />
     </div>
