@@ -4,6 +4,10 @@ import { useState } from "react";
 import { BookOpen, CheckCircle2, ChevronDown, ChevronUp, Flag, Sparkles, XCircle } from "lucide-react";
 import type { Question } from "@/lib/types";
 
+function isImageOption(opt: string) {
+  return opt.startsWith("http://") || opt.startsWith("https://") || opt.startsWith("/question-images/");
+}
+
 export function ReviewCard({
   question,
   index,
@@ -52,6 +56,12 @@ export function ReviewCard({
             <p className="text-base font-medium leading-relaxed text-slate-900">
               {question.q}
             </p>
+            {question.imageUrl && (
+              <div className="mt-4 mb-2 overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={question.imageUrl} alt="Question visual" className="max-h-48 object-contain p-2" />
+              </div>
+            )}
             <div className="mt-1.5 flex flex-wrap items-center gap-2 text-xs">
               {unanswered ? (
                 <span className="rounded-full bg-slate-100 px-2 py-0.5 font-medium text-slate-600">
@@ -96,7 +106,14 @@ export function ReviewCard({
                 <span className="font-mono text-xs text-slate-500">
                   {String.fromCharCode(65 + i)}.
                 </span>
-                <span className="flex-1">{opt}</span>
+                {isImageOption(opt) ? (
+                  <div className="flex-1 overflow-hidden rounded bg-white">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={opt} alt={`Option ${String.fromCharCode(65 + i)}`} className="max-h-24 object-contain" />
+                  </div>
+                ) : (
+                  <span className="flex-1">{opt}</span>
+                )}
                 {isCorrect && <CheckCircle2 className="ml-auto h-4 w-4 shrink-0 text-emerald-600" />}
                 {isUser && !isCorrect && <XCircle className="ml-auto h-4 w-4 shrink-0 text-red-500" />}
               </li>
