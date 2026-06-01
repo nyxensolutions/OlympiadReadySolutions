@@ -86,7 +86,7 @@ public class AiGenerationService
 
         {
           "reasoning_steps": "Required. Step 1: Calculate the exact mathematical/logical correct answer. Step 2: Formulate 3 strictly incorrect distractors. Step 3: Assign the correct answer and distractors to A, B, C, D.",
-          "q":           "the question text",
+          "q":           "the question text. CRITICAL: If the question relies on a passage, paragraph, or comprehension (गद्यांश), you MUST include the full passage text here before the question.",
           "options":     ["option A", "option B", "option C", "option D"],
           "correct_option_letter": "A, B, C, or D",
           "answer":      "CRITICAL: Must perfectly match the correct answer calculated in reasoning_steps AND perfectly match the option at correct_option_letter.",
