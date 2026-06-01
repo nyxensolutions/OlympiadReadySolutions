@@ -138,6 +138,18 @@ public class AiGenerationService
 
         Return as many elements as the user requests. Do not number the questions inside 'q' —
         the renderer adds numbering. Do not prefix options with 'A.' / 'B.' — the renderer does that too.
+
+        # MANDATORY SELF-VERIFICATION — do this for every question BEFORE including it in the JSON
+
+        For each question you write, run through ALL of these checks:
+        1. Re-read the question stem and independently solve it. What is the correct answer?
+        2. Confirm "correct_option_letter" points to that answer (e.g. if the answer is the 2nd option, letter must be "B").
+        3. Confirm "answer" is the EXACT TEXT — character-for-character, same capitalisation and punctuation — of the option at that letter position.
+        4. Confirm "explanation" explicitly states the key value or phrase from the correct option (e.g. if the answer is "13", the explanation must contain "13", not some other number).
+        5. For maths/science numerical answers: recompute the result and verify it matches the correct option, not a distractor.
+
+        If ANY check fails: fix the question before including it. If you cannot fix it confidently, drop it and replace it with a different question.
+        It is better to return fewer questions than to return one with a wrong answer.
         """;
 
     private readonly HttpClient _http;

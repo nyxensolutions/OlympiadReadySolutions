@@ -120,30 +120,10 @@ public class PapersController : ControllerBase
                         req.Subject, req.Grade, req.Difficulty, aiCount, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
                     
                     finalQuestions.AddRange(aiQuestions);
-                    
-                    // Flywheel: Save AI questions back to the Question Bank
-                    foreach(var q in aiQuestions)
-                    {
-                        int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
-                        string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
 
-                        var newBankId = Guid.NewGuid();
-                        var qbItem = new QuestionBankItem
-                        {
-                            QuestionBankId = newBankId,
-                            Subject = req.Subject,
-                            Grade = req.Grade,
-                            Difficulty = req.Difficulty,
-                            Topic = q.Topic ?? "General",
-                            QuestionText = q.Q ?? "",
-                            OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
-                            CorrectAnswer = letterAnswer,
-                            Explanation = q.Explanation ?? "",
-                            CreatedAt = DateTime.UtcNow
-                        };
-                        _db.QuestionBank.Add(qbItem);
-                        q.BankId = newBankId;
-                    }
+                    // Flywheel: Save AI questions back to the Question Bank
+                    foreach (var q in aiQuestions)
+                        SaveAiQuestionToBank(q, req.Subject, req.Grade, req.Difficulty);
                 }
 
                 // If AI fell short (or AI was skipped), top up from DB
@@ -164,25 +144,7 @@ public class PapersController : ControllerBase
                         req.Subject, req.Grade, req.Difficulty, aiShortfall, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
                     finalQuestions.AddRange(aiShortfallQuestions);
                     foreach (var q in aiShortfallQuestions)
-                    {
-                        int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
-                        string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
-                        var newBankId = Guid.NewGuid();
-                        _db.QuestionBank.Add(new QuestionBankItem
-                        {
-                            QuestionBankId = newBankId,
-                            Subject = req.Subject,
-                            Grade = req.Grade,
-                            Difficulty = req.Difficulty,
-                            Topic = q.Topic ?? "General",
-                            QuestionText = q.Q ?? "",
-                            OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
-                            CorrectAnswer = letterAnswer,
-                            Explanation = q.Explanation ?? "",
-                            CreatedAt = DateTime.UtcNow
-                        });
-                        q.BankId = newBankId;
-                    }
+                        SaveAiQuestionToBank(q, req.Subject, req.Grade, req.Difficulty);
                 }
 
                 if (finalQuestions.Count == 0)
@@ -250,5 +212,55 @@ public class PapersController : ControllerBase
             createdAt = paper.CreatedAt,
             questions
         });
+    }
+
+    // ---------------------------------------------------------------
+    // Flywheel helper
+    // ---------------------------------------------------------------
+
+    /// <summary>
+    /// Saves one AI-generated question to the QuestionBank.
+    /// Validates that q.Answer matches exactly one option before saving.
+    /// If the answer cannot be resolved (idx == -1), the question is NOT saved —
+    /// it was still shown to the student this session but won't pollute the bank.
+    /// </summary>
+    private void SaveAiQuestionToBank(Question q, string subject, int grade, string difficulty)
+    {
+        if (q.Options == null || q.Options.Count == 0)
+        {
+            _log.LogWarning("Flywheel skip — no options for question: {Q}", q.Q?[..Math.Min(80, q.Q?.Length ?? 0)]);
+            return;
+        }
+
+        int idx = q.Options.FindIndex(o =>
+            string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase));
+
+        if (idx < 0 || idx > 3)
+        {
+            // Answer text did not match any option — saving with wrong letter would corrupt the bank
+            _log.LogWarning(
+                "Flywheel skip — answer '{Answer}' not found in options for question: {Q}. Options: {Opts}",
+                q.Answer, q.Q?[..Math.Min(80, q.Q?.Length ?? 0)],
+                string.Join(" | ", q.Options));
+            return;
+        }
+
+        string letterAnswer = ((char)('A' + idx)).ToString();
+
+        var newBankId = Guid.NewGuid();
+        _db.QuestionBank.Add(new QuestionBankItem
+        {
+            QuestionBankId = newBankId,
+            Subject = subject,
+            Grade = grade,
+            Difficulty = difficulty,
+            Topic = q.Topic ?? "General",
+            QuestionText = q.Q ?? "",
+            OptionsJson = JsonSerializer.Serialize(q.Options),
+            CorrectAnswer = letterAnswer,
+            Explanation = q.Explanation ?? "",
+            CreatedAt = DateTime.UtcNow
+        });
+        q.BankId = newBankId;
     }
 }
