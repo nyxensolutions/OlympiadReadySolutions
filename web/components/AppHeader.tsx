@@ -23,7 +23,8 @@ export type ActivePage =
   | "practice-papers"
   | "olympiad-dates"
   | "mock-exams"
-  | "spell-bee";
+  | "spell-bee"
+  | "blog";
 
 export function AppHeader({ active }: { active?: ActivePage }) {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -55,6 +56,9 @@ export function AppHeader({ active }: { active?: ActivePage }) {
             <Link href="/#how-it-works" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">How It Works</Link>
             <Link href="/olympiad-dates" className={`text-sm font-medium transition ${active === "olympiad-dates" ? "text-brand-600" : "text-slate-600 hover:text-brand-600"}`}>
               Olympiad Dates
+            </Link>
+            <Link href="/blog" className={`text-sm font-medium transition ${active === "blog" ? "text-brand-600" : "text-slate-600 hover:text-brand-600"}`}>
+              Blog
             </Link>
             <Link href="/#try-it" className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-100 whitespace-nowrap">
               <Sparkles className="h-4 w-4" /> Try It
@@ -132,6 +136,7 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <Link href="/#features" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Features</Link>
               <Link href="/#how-it-works" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>How It Works</Link>
               <Link href="/olympiad-dates" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Olympiad Dates</Link>
+              <Link href="/blog" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Blog</Link>
             </div>
           </SignedOut>
           <SignedIn>
