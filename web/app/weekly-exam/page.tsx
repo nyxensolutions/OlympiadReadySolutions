@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Calendar, Crown, Lock, Sparkles, Timer, Trophy } from "lucide-react";
-import { SignedIn, SignedOut, useAuth } from "@clerk/nextjs";
+import { useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
+import { AuthGate } from "@/components/AuthGate";
 import type { DashboardSummary } from "@/lib/types";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
@@ -42,31 +43,9 @@ export default function WeeklyExamPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <AppHeader active="weekly-exam" />
-      <SignedOut>
-        <UnauthPrompt />
-      </SignedOut>
-      <SignedIn>
+      <AuthGate>
         <WeeklyExamBody />
-      </SignedIn>
-    </div>
-  );
-}
-
-function UnauthPrompt() {
-  return (
-    <div className="flex flex-col items-center py-32 text-center px-4">
-      <Crown className="h-12 w-12 text-amber-400" />
-      <h1 className="mt-4 text-2xl font-bold text-slate-900">Weekly Exam</h1>
-      <p className="mt-2 max-w-sm text-sm text-slate-500">
-        Sign in to participate in this week's competitive exam and win medals and certificates.
-      </p>
-      <Link
-        href="/"
-        className="mt-6 inline-flex items-center gap-2 rounded-xl bg-brand-600 px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-brand-600/20 transition hover:bg-brand-700"
-      >
-        <Sparkles className="h-4 w-4" />
-        Sign in to participate
-      </Link>
+      </AuthGate>
     </div>
   );
 }

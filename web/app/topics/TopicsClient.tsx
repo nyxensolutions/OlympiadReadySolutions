@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { BookOpen, CheckCircle2, ChevronRight, Loader2, Sparkles, Star, Award } from "lucide-react";
-import { SignedIn, SignedOut, useAuth } from "@clerk/nextjs";
+import { CheckCircle2, ChevronRight, Loader2, Sparkles, Star, Award } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
+import { AuthGate } from "@/components/AuthGate";
 import { TestArena } from "@/components/TestArena";
 import { ResultsScreen } from "@/components/ResultsScreen";
 import { SUBJECTS, SUBJECT_GRADE_MAP, DIFFICULTIES, getSafeSubject, type Subject, type GeneratedPaper, type PreviewRequest, type AttemptResult, type DashboardSummary } from "@/lib/types";
@@ -28,19 +29,11 @@ export default function TopicsPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <AppHeader active="topics" />
-      <SignedOut>
-        <div className="flex flex-col items-center py-32 text-center">
-          <BookOpen className="h-12 w-12 text-brand-300" />
-          <h1 className="mt-4 text-2xl font-bold text-slate-900">Sign in to explore topics</h1>
-          <p className="mt-2 text-sm text-slate-500">See your mastery across every chapter and jump into focused practice.</p>
-          <Link href="/" className="mt-6 text-sm font-semibold text-brand-700 hover:text-brand-600">Go home →</Link>
-        </div>
-      </SignedOut>
-      <SignedIn>
+      <AuthGate>
         <Suspense fallback={<div className="p-8 text-center"><Loader2 className="h-6 w-6 animate-spin mx-auto text-brand-600"/></div>}>
           <TopicsBody />
         </Suspense>
-      </SignedIn>
+      </AuthGate>
     </div>
   );
 }

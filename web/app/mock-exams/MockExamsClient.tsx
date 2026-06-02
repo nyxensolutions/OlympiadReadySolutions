@@ -8,6 +8,7 @@ import { SUBJECT_GRADE_MAP, type Subject, type GeneratedPaper, type AttemptResul
 import { TestArena } from "@/components/TestArena";
 import { ResultsScreen } from "@/components/ResultsScreen";
 import { useAuth } from "@clerk/nextjs";
+import { AuthGate } from "@/components/AuthGate";
 import { Analytics } from "@/lib/analytics";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
@@ -211,7 +212,7 @@ export default function MockExamsPage() {
   return (
     <main className="flex min-h-screen flex-col bg-slate-50">
       <AppHeader />
-      
+      <AuthGate>
       <div className="mx-auto w-full max-w-5xl px-4 py-12">
         <div className="mb-10 text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-brand-100 px-4 py-1.5 text-sm font-bold text-brand-800">
@@ -557,6 +558,7 @@ export default function MockExamsPage() {
           </div>
         </div>
       </div>
+      </AuthGate>
     </main>
   );
 }

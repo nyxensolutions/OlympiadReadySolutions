@@ -96,6 +96,19 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+          {/* Google tag (gtag.js) — Google Ads conversion tracking */}
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=AW-18206317015"
+            strategy="afterInteractive"
+          />
+          <Script id="gtag-init" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18206317015');`}
+          </Script>
+        </head>
         <body className="min-h-screen bg-slate-50 text-slate-900">
           {/* SEO: structured data for Google */}
           <script
