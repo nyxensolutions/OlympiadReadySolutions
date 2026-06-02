@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, BarChart2, BookOpen, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy, Award } from "lucide-react";
-import { useAuth, SignedIn, SignedOut } from "@clerk/nextjs";
+import { BarChart2, BookOpen, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy, Award } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
+import { AuthGate } from "@/components/AuthGate";
 import { DailyQuizCard } from "@/components/DailyQuizCard";
 import { LeaderboardSection } from "@/components/LeaderboardCard";
 import { MasteryHeatmap } from "@/components/MasteryHeatmap";
@@ -296,10 +297,7 @@ export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <AppHeader active="dashboard" />
-      <SignedOut>
-        <SignedOutPrompt />
-      </SignedOut>
-      <SignedIn>
+      <AuthGate>
         {showOnboarding && (
           <OnboardingModal
             onComplete={() => {
@@ -309,25 +307,8 @@ export default function DashboardPage() {
           />
         )}
         <DashboardBody />
-      </SignedIn>
+      </AuthGate>
     </div>
-  );
-}
-
-function SignedOutPrompt() {
-  return (
-    <section className="flex flex-col items-center py-32 text-center">
-      <h1 className="text-2xl font-bold text-slate-900">Sign in to view your dashboard</h1>
-      <p className="mt-2 max-w-md text-sm text-slate-600">
-        Your test history, score trend, and topic-wise mastery are tied to your account.
-      </p>
-      <Link
-        href="/"
-        className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-600"
-      >
-        Go to home <ArrowRight className="h-4 w-4" />
-      </Link>
-    </section>
   );
 }
 
