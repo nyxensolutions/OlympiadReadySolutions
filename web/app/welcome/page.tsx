@@ -8,17 +8,22 @@ export default function WelcomePage() {
   const router = useRouter();
 
   useEffect(() => {
-    // Fire Google Ads conversion event
-    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
-      (window as any).gtag('event', 'conversion', {
+    // Fire Google Ads conversion event robustly
+    if (typeof window !== "undefined") {
+      // Ensure dataLayer and gtag exist even if Next.js hasn't injected the script yet
+      (window as any).dataLayer = (window as any).dataLayer || [];
+      const gtag = (window as any).gtag || function() { (window as any).dataLayer.push(arguments); };
+      
+      gtag('event', 'conversion', {
         'send_to': 'AW-18206317015/sUnNCNPqjbgcENezuelD'
       });
     }
 
     // Redirect to the main practice dashboard after firing
+    // Give it slightly more time (1.5s) to ensure the tracking network request completes
     const timeout = setTimeout(() => {
       router.push("/");
-    }, 700);
+    }, 1500);
 
     return () => clearTimeout(timeout);
   }, [router]);
