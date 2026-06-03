@@ -33,8 +33,8 @@ export function AuthGate({ children }: { children: React.ReactNode }) {
     opened.current = true;
     const redirectUrl = pathname || "/";
     openSignIn({
-      afterSignInUrl: redirectUrl,
-      afterSignUpUrl: redirectUrl,
+      fallbackRedirectUrl: redirectUrl,
+      signUpFallbackRedirectUrl: "/welcome",
     });
 
     // Detect cancellation: Clerk portals its modal into the DOM. When the
