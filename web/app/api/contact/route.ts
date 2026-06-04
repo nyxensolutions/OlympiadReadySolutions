@@ -67,7 +67,10 @@ export async function POST(req: NextRequest) {
     if (!res.ok) {
       const err = await res.text();
       console.error("Brevo error:", err);
-      return NextResponse.json({ error: "Failed to send message. Please email us directly." }, { status: 502 });
+      return NextResponse.json({ 
+        error: "Failed to send message. Please email us directly.", 
+        brevoError: err 
+      }, { status: 502 });
     }
 
     return NextResponse.json({ success: true });
