@@ -5,6 +5,11 @@ const TO_EMAIL      = "nyxencloud@gmail.com";
 
 export async function POST(req: NextRequest) {
   try {
+    if (!BREVO_API_KEY) {
+      console.error("Brevo API key is not configured.");
+      return NextResponse.json({ error: "Email service is not configured. Please contact support." }, { status: 500 });
+    }
+
     const body = await req.json();
     const { name, email, message, type, schoolName, city, studentCount } = body;
 
