@@ -39,9 +39,29 @@ export function ResultsScreen({
   const [copied, setCopied] = useState(false);
   const [shared, setShared] = useState(false);
   const [badgeEarned, setBadgeEarned] = useState<string | null>(null);
+  const [tutorQuota, setTutorQuota] = useState<{ hasPaidAccess: boolean; freeChatsUsed: number } | null>(null);
   const submitted = useRef(false);
 
   const pct = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;
+
+  useEffect(() => {
+    async function fetchQuota() {
+      if (simulationMode) return;
+      try {
+        const token = await getToken();
+        if (!token) return;
+        const res = await fetch(`${API_URL}/api/tutor/quota?subject=${encodeURIComponent(config.subject)}`, {
+          headers: { Authorization: `Bearer ${token}` }
+        });
+        if (res.ok) {
+          setTutorQuota(await res.json());
+        }
+      } catch {
+        // ignore
+      }
+    }
+    void fetchQuota();
+  }, [simulationMode, config.subject, getToken]);
 
   async function copyToClipboard(text: string) {
     try {
@@ -309,6 +329,15 @@ export function ResultsScreen({
             index={i}
             userAnswer={userAnswers[i]}
             flagged={flagged[i]}
+            subject={config.subject}
+            grade={config.grade}
+            tutorQuota={tutorQuota}
+            simulationMode={simulationMode}
+            onQuotaUpdate={(newCount) => {
+              if (tutorQuota) {
+                setTutorQuota({ ...tutorQuota, freeChatsUsed: newCount });
+              }
+            }}
           />
         ))}
       </section>

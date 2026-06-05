@@ -90,6 +90,10 @@ export default function Home({
                     a: "Yes! You can choose the 'All Subjects' Max Value Bundle which unlocks unlimited practice for every subject in your grade.",
                   },
                   {
+                    q: "Is there an AI Tutor to help me?",
+                    a: "Yes! Every question includes an Interactive AI Doubt Chatbot. Free users get 5 free chats across all tests. Upgrading unlocks unlimited chats for that subject (up to 20 chats per question).",
+                  },
+                  {
                     q: "Do I get PDF downloads with my subscription?",
                     a: "Yes! Subscribed subjects include 10 free full-length (50 question) PDF paper downloads every week. The limit resets every Monday.",
                   },

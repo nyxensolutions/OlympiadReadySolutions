@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { BookOpen, CheckCircle2, ChevronDown, ChevronUp, Flag, Sparkles, XCircle } from "lucide-react";
+import { BookOpen, CheckCircle2, ChevronDown, ChevronUp, Flag, Sparkles, XCircle, MessageCircle, Send, Loader2 } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
 import type { Question } from "@/lib/types";
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
 function isImageOption(opt: string) {
   return opt.startsWith("http://") || opt.startsWith("https://") || opt.startsWith("/question-images/");
@@ -12,17 +15,96 @@ export function ReviewCard({
   question,
   index,
   userAnswer,
-  flagged
+  flagged,
+  subject,
+  grade,
+  tutorQuota,
+  simulationMode,
+  onQuotaUpdate
 }: {
   question: Question;
   index: number;
   userAnswer: string | null;
   flagged: boolean;
+  subject?: string;
+  grade?: number;
+  tutorQuota?: { hasPaidAccess: boolean; freeChatsUsed: number } | null;
+  simulationMode?: boolean;
+  onQuotaUpdate?: (newCount: number) => void;
 }) {
   const correct = userAnswer === question.answer;
   const unanswered = userAnswer === null;
-  // Auto-expand explanation for wrong/unanswered — the micro-lesson moment
+  // Auto-expand explanation for wrong/unanswered
   const [open, setOpen] = useState(!correct);
+  
+  // Chatbot states
+  const { getToken } = useAuth();
+  const [chatOpen, setChatOpen] = useState(false);
+  const [chatMessages, setChatMessages] = useState<{role: string, content: string}[]>([]);
+  const [chatInput, setChatInput] = useState("");
+  const [chatLoading, setChatLoading] = useState(false);
+  const [chatError, setChatError] = useState<string | null>(null);
+  
+  // Initialize from tutorQuota but allow local override after messages
+  const [localChatsUsed, setLocalChatsUsed] = useState<number | null>(null);
+  
+  const displayChatsUsed = localChatsUsed ?? tutorQuota?.freeChatsUsed ?? 0;
+  const hasPaidAccess = tutorQuota?.hasPaidAccess ?? false;
+  const isFreeLimitReached = !hasPaidAccess && displayChatsUsed >= 5;
+
+  async function submitChat(e: React.FormEvent) {
+    e.preventDefault();
+    if (!chatInput.trim() || chatLoading) return;
+    
+    const userMsg = chatInput.trim();
+    setChatInput("");
+    setChatError(null);
+    setChatMessages((prev) => [...prev, { role: "user", content: userMsg }]);
+    setChatLoading(true);
+    
+    try {
+      const token = await getToken();
+      const res = await fetch(`${API_URL}/api/tutor/chat`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(token ? { Authorization: `Bearer ${token}` } : {})
+        },
+        body: JSON.stringify({
+          subject: subject || "Mathematics",
+          grade: grade || 1,
+          questionText: question.q || "",
+          options: question.options ? question.options.join("\n") : "",
+          correctAnswer: question.answer || "",
+          explanation: question.explanation || "",
+          userPick: userAnswer || "Not attempted",
+          history: chatMessages || [],
+          userMessage: userMsg || ""
+        })
+      });
+      
+      const data = await res.json();
+      if (!res.ok) {
+         if (data.errors) {
+            console.error("Validation errors:", data.errors);
+            throw new Error(JSON.stringify(data.errors));
+         }
+         throw new Error(data.message || data.title || "Failed to contact AI Tutor.");
+      }
+      
+      if (data.freeChatsUsed !== undefined) {
+        setLocalChatsUsed(data.freeChatsUsed);
+        if (onQuotaUpdate) {
+            onQuotaUpdate(data.freeChatsUsed);
+        }
+      }
+      setChatMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
+    } catch (err) {
+      setChatError(err instanceof Error ? err.message : "Error connecting to tutor.");
+    } finally {
+      setChatLoading(false);
+    }
+  }
 
   return (
     <article
@@ -34,7 +116,6 @@ export function ReviewCard({
           : "border-red-200"
       }`}
     >
-      {/* Top accent strip */}
       <div className={`h-1 w-full ${
         unanswered ? "bg-slate-200" : correct ? "bg-emerald-400" : "bg-red-400"
       }`} />
@@ -121,18 +202,39 @@ export function ReviewCard({
           })}
         </ul>
 
-        {/* Explanation toggle */}
-        <button
-          type="button"
-          onClick={() => setOpen((v) => !v)}
-          className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-brand-700 hover:text-brand-600"
-        >
-          {open ? (
-            <>Hide explanation <ChevronUp className="h-4 w-4" /></>
-          ) : (
-            <>Show explanation <ChevronDown className="h-4 w-4" /></>
+        {/* Action Buttons Row */}
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            className="inline-flex items-center gap-1.5 rounded-lg bg-slate-50 px-3 py-1.5 text-sm font-medium text-slate-700 transition hover:bg-slate-100"
+          >
+            {open ? (
+              <>Hide explanation <ChevronUp className="h-4 w-4" /></>
+            ) : (
+              <>Show explanation <ChevronDown className="h-4 w-4" /></>
+            )}
+          </button>
+          
+          {!simulationMode && (
+            <div 
+              title={isFreeLimitReached ? "Your free chats quota is over. Please purchase a subject subscription to continue." : undefined}
+            >
+              <button
+                type="button"
+                disabled={isFreeLimitReached}
+                onClick={() => {
+                  setOpen(true);
+                  setChatOpen((v) => !v);
+                }}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-brand-200 bg-brand-50 px-3 py-1.5 text-sm font-medium text-brand-700 transition hover:bg-brand-100 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <MessageCircle className="h-4 w-4" />
+                {chatOpen ? "Close AI Tutor" : "Ask AI Tutor"}
+              </button>
+            </div>
           )}
-        </button>
+        </div>
 
         {open && (
           <div className={`mt-3 rounded-xl border p-4 text-sm leading-relaxed ${
@@ -149,6 +251,77 @@ export function ReviewCard({
               </span>
             </div>
             <p>{question.explanation}</p>
+          </div>
+        )}
+
+        {/* AI Tutor Chat Window */}
+        {chatOpen && (
+          <div className="mt-3 overflow-hidden rounded-xl border border-brand-200 bg-white shadow-sm">
+            <div className="bg-brand-50 px-4 py-3 border-b border-brand-100 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-brand-600 text-white">
+                  <Sparkles className="h-3 w-3" />
+                </div>
+                <span className="text-sm font-bold text-brand-900">AI Tutor</span>
+              </div>
+              {hasPaidAccess ? (
+                <span className="text-xs font-medium text-brand-600">Unlimited chats (Pro)</span>
+              ) : (
+                <span className="text-xs font-medium text-brand-600">Free chats used: {displayChatsUsed}/5</span>
+              )}
+            </div>
+            
+            <div className="max-h-64 overflow-y-auto p-4 space-y-4 bg-slate-50">
+              {chatMessages.length === 0 && (
+                <div className="text-center text-sm text-slate-500 py-4">
+                  Ask me anything about this question! For example: 
+                  <br/><br/>
+                  <span className="italic">"Why isn't option B correct?"</span><br/>
+                  <span className="italic">"Can you explain the formula again?"</span>
+                </div>
+              )}
+              {chatMessages.map((msg, i) => (
+                <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                  <div className={`rounded-xl px-4 py-2.5 max-w-[85%] text-sm ${
+                    msg.role === 'user' 
+                      ? 'bg-slate-800 text-white rounded-br-none' 
+                      : 'bg-white border border-slate-200 text-slate-800 rounded-bl-none shadow-sm'
+                  }`}>
+                    {msg.content}
+                  </div>
+                </div>
+              ))}
+              {chatLoading && (
+                <div className="flex justify-start">
+                  <div className="rounded-xl px-4 py-2.5 bg-white border border-slate-200 rounded-bl-none shadow-sm">
+                    <Loader2 className="h-4 w-4 animate-spin text-brand-500" />
+                  </div>
+                </div>
+              )}
+              {chatError && (
+                <div className="text-center text-sm font-medium text-red-600 bg-red-50 p-3 rounded-lg border border-red-200">
+                  {chatError}
+                </div>
+              )}
+            </div>
+
+            <form onSubmit={submitChat} className="border-t border-slate-200 bg-white p-3 flex items-center gap-2">
+              <input
+                type="text"
+                placeholder="Type your doubt here..."
+                value={chatInput}
+                onChange={e => setChatInput(e.target.value)}
+                disabled={chatLoading}
+                className="flex-1 rounded-lg border border-slate-300 bg-slate-50 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 disabled:opacity-50"
+              />
+              <button
+                type="submit"
+                disabled={!chatInput.trim() || chatLoading}
+                className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600 text-white transition hover:bg-brand-700 disabled:opacity-50"
+              >
+                <Send className="h-4 w-4" />
+              </button>
+            </form>
           </div>
         )}
       </div>

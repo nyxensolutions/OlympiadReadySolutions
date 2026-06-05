@@ -238,7 +238,7 @@ export function TestArena({
       <>
         <div className="fixed inset-0 z-50 flex flex-col overflow-auto bg-white">
         {/* Exam header bar */}
-        <div className={`flex shrink-0 items-center justify-between border-b px-6 py-3 ${isUrgent ? "border-red-300 bg-red-50" : "border-slate-200 bg-slate-50"}`}>
+        <div className={`flex shrink-0 flex-wrap items-center justify-between gap-3 border-b px-4 sm:px-6 py-3 ${isUrgent ? "border-red-300 bg-red-50" : "border-slate-200 bg-slate-50"}`}>
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-slate-400">{paper.isMockExam ? "Mock Exam" : "Exam Simulation"}</p>
             <p className="text-sm font-bold text-slate-800">
@@ -368,19 +368,19 @@ export function TestArena({
           })()}
 
           {/* Question navigation */}
-          <div className="mt-8 flex items-center gap-3">
+          <div className="mt-8 flex flex-wrap items-center gap-3">
             <button
               type="button"
               onClick={() => setCurrent((c) => Math.max(0, c - 1))}
               disabled={current === 0}
-              className="inline-flex items-center gap-1 rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50 disabled:opacity-40"
+              className="inline-flex flex-1 sm:flex-none justify-center items-center gap-1 rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50 disabled:opacity-40"
             >
               <ChevronLeft className="h-4 w-4" /> Prev
             </button>
             <button
               type="button"
               onClick={toggleFlag}
-              className={`inline-flex items-center gap-1 rounded-lg border px-4 py-2.5 text-sm font-medium transition ${
+              className={`inline-flex flex-1 sm:flex-none justify-center items-center gap-1 rounded-lg border px-4 py-2.5 text-sm font-medium transition ${
                 flagged[current]
                   ? "border-amber-400 bg-amber-50 text-amber-700"
                   : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
@@ -390,12 +390,12 @@ export function TestArena({
               {flagged[current] ? "Unflag" : "Flag"}
             </button>
 
-            <div className="ml-auto flex gap-2">
+            <div className="w-full sm:w-auto sm:ml-auto flex gap-2 mt-2 sm:mt-0">
               {current < total - 1 ? (
                 <button
                   type="button"
                   onClick={() => setCurrent((c) => Math.min(total - 1, c + 1))}
-                  className="inline-flex items-center gap-1 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700"
+                  className="inline-flex w-full sm:w-auto justify-center items-center gap-1 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700"
                 >
                   Next <ChevronRight className="h-4 w-4" />
                 </button>
@@ -403,7 +403,7 @@ export function TestArena({
                 <button
                   type="button"
                   onClick={handleManualSubmitClick}
-                  className="rounded-xl bg-cta-600 px-6 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-cta-700"
+                  className="w-full sm:w-auto rounded-xl bg-cta-600 px-6 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-cta-700"
                 >
                   Submit Exam
                 </button>

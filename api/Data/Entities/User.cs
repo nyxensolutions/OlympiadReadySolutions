@@ -17,6 +17,11 @@ public class User
     public List<UserMistake> Mistakes { get; set; } = new();
 
     public int FreeAttemptsUsed { get; set; }
+    
+    /// <summary>
+    /// Tracks the lifetime number of AI Tutor chat messages a free user has sent. Max 10.
+    /// </summary>
+    public int FreeAiTutorChatsUsed { get; set; }
 
     /// <summary>
     /// Account-wide AI generation credits consumed in the current billing period.

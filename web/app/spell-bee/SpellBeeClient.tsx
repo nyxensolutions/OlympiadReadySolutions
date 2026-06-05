@@ -533,7 +533,7 @@ function SpellBeeBody() {
                                 ) : (
                                   <>
                                     <CreditCard className="h-3.5 w-3.5" />
-                                    Buy &amp; Download — ₹19
+                                    Buy &amp; Download — ₹29
                                     <ChevronRight className="ml-auto h-3.5 w-3.5" />
                                   </>
                                 )}

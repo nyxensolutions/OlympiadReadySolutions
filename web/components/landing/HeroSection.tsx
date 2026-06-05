@@ -28,7 +28,7 @@ export function HeroSection() {
 
         {/* Sub-headline */}
         <p className="mx-auto mb-10 max-w-2xl text-lg text-white/90 sm:text-xl">
-          AI-generated practice papers, instant explanations, and topic-by-topic mastery
+          AI-generated practice papers, interactive AI doubt chatbot, and topic-by-topic mastery
           tracking — for IMO, NSO, IEO, IGKO, Spell Bee, and every major school Olympiad.
           Prepare for <span className="font-semibold text-yellow-200">Level 1 or Level 2</span> with questions calibrated to your round.
         </p>
