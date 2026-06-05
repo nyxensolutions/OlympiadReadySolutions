@@ -228,7 +228,21 @@ export function ConfigForm({
         onQuotaExceeded(info, grade, subject);
         return;
       }
-      if (!res.ok) throw new Error((await res.text()) || `Request failed (${res.status})`);
+      if (!res.ok) {
+        let errMsg = `Request failed (${res.status})`;
+        try {
+            const data = await res.json();
+            if (data.errors) {
+                console.error("Validation errors in generate:", data.errors);
+                errMsg = JSON.stringify(data.errors);
+            } else {
+                errMsg = data.message || data.title || errMsg;
+            }
+        } catch {
+            errMsg = (await res.text()) || errMsg;
+        }
+        throw new Error(errMsg);
+      }
       const paper: GeneratedPaper = await res.json();
       Analytics.paperGenerated({
         subject,

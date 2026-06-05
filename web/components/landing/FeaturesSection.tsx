@@ -10,6 +10,7 @@ import {
   TrendingUp,
   Zap,
   Award,
+  MessageCircle,
   type LucideIcon,
 } from "lucide-react";
 
@@ -34,6 +35,13 @@ const FEATURES: Feature[] = [
     description:
       "Every question comes with a clear, step-by-step explanation. Understand the concept, not just the answer — powered by AI.",
     gradient: "from-violet-500 to-purple-600",
+  },
+  {
+    icon: MessageCircle,
+    title: "Interactive AI Doubt Chatbot",
+    description:
+      "Stuck on a tricky question? Chat directly with our AI Tutor to get step-by-step hints and concept explanations without giving away the answer. Available 24/7.",
+    gradient: "from-sky-500 to-blue-600",
   },
   {
     icon: TrendingUp,
