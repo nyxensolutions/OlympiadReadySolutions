@@ -120,18 +120,15 @@ export function CertificateModal({ config, onClose, onPhysicalClaimed }: Props) 
         )}
 
         {/* Certificate preview wrapper */}
-        <div className="flex-1 overflow-auto bg-slate-100 p-8 flex items-center justify-center">
-          <div className="w-full relative shadow-2xl transition-all" style={{ maxWidth: 840, aspectRatio: "1.414" }}>
+        <div className="flex-1 overflow-auto bg-slate-100 p-4 sm:p-8 flex items-start sm:items-center justify-center">
+          <div className="relative shadow-2xl transition-all shrink-0" style={{ width: 840, height: 594 }}>
             {/* We inject the Google Font needed for the cursive name */}
             <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
             
             <div 
               ref={certRef}
               className="absolute inset-0 bg-slate-50 overflow-hidden bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:16px_16px]"
-              style={{
-                width: "100%", 
-                height: "100%",
-              }}
+              style={{ width: 840, height: 594 }}
             >
               {/* Corner Shapes - Top Left */}
               <div className="absolute top-0 left-0 w-32 h-32">
@@ -163,23 +160,22 @@ export function CertificateModal({ config, onClose, onPhysicalClaimed }: Props) 
               {/* Header Section (Centered) */}
               <div className="absolute top-10 left-0 right-0 flex flex-col items-center z-10">
                 <h1 
-                  className="text-4xl sm:text-5xl lg:text-6xl text-blue-900 tracking-widest uppercase m-0 font-bold" 
+                  className="text-6xl text-blue-900 tracking-widest uppercase m-0 font-bold" 
                   style={{ fontFamily: "'Cinzel', serif" }}
                 >
                   Certificate
                 </h1>
-                <h2 className="text-sm sm:text-base tracking-[0.3em] text-slate-700 mt-2 uppercase font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
+                <h2 className="text-base tracking-[0.3em] text-slate-700 mt-2 uppercase font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
                   Of Achievement
                 </h2>
               </div>
               
               {/* Gold Seal / Badge (Absolute Top Right) */}
-              <div className="absolute top-10 right-6 sm:right-10 z-20">
-                {/* Expanded container height so ribbons stay inside bounds for html2canvas */}
-                <div className="relative w-24 h-32 sm:w-28 sm:h-36 flex flex-col items-center">
+              <div className="absolute top-10 right-10 z-20">
+                <div className="relative w-28 h-36 flex flex-col items-center">
                   
-                  {/* Ribbon tails (Using SVGs for perfect html2canvas rendering) */}
-                  <div className="absolute top-16 sm:top-20 left-1/2 -translate-x-1/2 flex gap-1 z-0">
+                  {/* Ribbon tails */}
+                  <div className="absolute top-20 left-1/2 -translate-x-1/2 flex gap-1 z-0">
                     <svg viewBox="0 0 24 56" className="w-6 h-14 drop-shadow-sm">
                       <polygon points="0,0 24,0 24,56 12,46 0,56" fill="#1e3a8a" />
                     </svg>
@@ -189,15 +185,13 @@ export function CertificateModal({ config, onClose, onPhysicalClaimed }: Props) 
                   </div>
 
                   {/* Medallion */}
-                  <div className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-b from-[#fde047] via-[#eab308] to-[#a16207] p-1 shadow-[0_10px_20px_rgba(0,0,0,0.2)] z-10">
-                    {/* Inner ring */}
-                    <div className="w-full h-full rounded-full border-[3px] border-[#fef08a] bg-gradient-to-br from-[#eab308] to-[#ca8a04] flex flex-col items-center relative overflow-hidden pt-2 sm:pt-3">
-                      {/* Subtle shine effect */}
+                  <div className="relative w-28 h-28 rounded-full bg-gradient-to-b from-[#fde047] via-[#eab308] to-[#a16207] p-1 shadow-[0_10px_20px_rgba(0,0,0,0.2)] z-10">
+                    <div className="w-full h-full rounded-full border-[3px] border-[#fef08a] bg-gradient-to-br from-[#eab308] to-[#ca8a04] flex flex-col items-center relative overflow-hidden pt-3">
                       <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-[#fef08a]/40 to-transparent transform -rotate-45 pointer-events-none" />
                       
                       <div className="relative z-10 flex flex-col items-center w-full">
-                        <div className="text-xl sm:text-2xl mb-1 drop-shadow-md">{config.badgeEmoji}</div>
-                        <div className="text-[9px] sm:text-[11px] font-black text-[#422006] uppercase tracking-wide text-center leading-tight px-2 max-w-[75px] sm:max-w-[85px]" style={{ fontFamily: "'Cinzel', serif" }}>
+                        <div className="text-2xl mb-1 drop-shadow-md">{config.badgeEmoji}</div>
+                        <div className="text-[11px] font-black text-[#422006] uppercase tracking-wide text-center leading-tight px-2 max-w-[85px]" style={{ fontFamily: "'Cinzel', serif" }}>
                           {config.badgeLabel}
                         </div>
                       </div>
@@ -208,50 +202,50 @@ export function CertificateModal({ config, onClose, onPhysicalClaimed }: Props) 
               </div>
 
               {/* Middle Content */}
-              <div className="absolute top-32 sm:top-40 left-0 right-0 bottom-32 flex flex-col justify-center items-center z-10 px-12 text-center">
-                <p className="text-slate-600 text-xs sm:text-sm font-medium italic mb-2">
+              <div className="absolute top-40 left-0 right-0 bottom-32 flex flex-col justify-center items-center z-10 px-12 text-center">
+                <p className="text-slate-600 text-sm font-medium italic mb-2">
                   This Certificate is Proudly Presented to:
                 </p>
 
                 <div 
-                  className="text-5xl sm:text-6xl lg:text-7xl text-amber-600 my-2 px-12 pb-4 sm:pb-6 leading-normal"
+                  className="text-7xl text-amber-600 my-2 px-12 pb-6 leading-normal"
                   style={{ fontFamily: "'Great Vibes', cursive", borderBottom: "1px solid #cbd5e1" }}
                 >
                   {nameSubmitted && studentName.trim() ? studentName.trim() : "Your Name Here"}
                 </div>
 
-                <div className="mt-4 sm:mt-6 max-w-2xl">
-                  <p className="text-xs sm:text-sm font-bold text-slate-800 uppercase tracking-wider mb-2">
+                <div className="mt-6 max-w-2xl">
+                  <p className="text-sm font-bold text-slate-800 uppercase tracking-wider mb-2">
                     For successfully earning the title of:
                   </p>
-                  <p className="text-lg sm:text-xl text-blue-900 font-bold mb-2">
+                  <p className="text-xl text-blue-900 font-bold mb-2">
                     {config.badgeLabel}
                   </p>
-                  <p className="text-[10px] sm:text-xs text-slate-600 leading-relaxed max-w-lg mx-auto">
+                  <p className="text-xs text-slate-600 leading-relaxed max-w-lg mx-auto">
                     {config.description}. Your dedication, skill, and continuous learning on OlympiadReady have been recognized with this prestigious honor.
                   </p>
                 </div>
               </div>
 
-              {/* Signatures & Date (Absolute Bottom Center-Aligned like reference) */}
-              <div className="absolute bottom-8 sm:bottom-12 left-0 right-0 flex justify-center gap-16 sm:gap-32 z-10 px-8">
+              {/* Signatures & Date */}
+              <div className="absolute bottom-12 left-0 right-0 flex justify-center gap-32 z-10 px-8">
                 
                 <div className="flex flex-col items-center">
-                  <div className="h-14 sm:h-16 flex items-end justify-center mb-2">
+                  <div className="h-16 flex items-end justify-center mb-2">
                     <img src="/logo_welcome.png" alt="OlympiadReady" className="max-h-full" />
                   </div>
-                  <div className="w-32 sm:w-48 border-t border-slate-400 pt-1 text-[8px] sm:text-[10px] font-bold text-slate-500 tracking-wider uppercase text-center">
+                  <div className="w-48 border-t border-slate-400 pt-1 text-[10px] font-bold text-slate-500 tracking-wider uppercase text-center">
                     Official Platform
                   </div>
                 </div>
 
                 <div className="flex flex-col items-center">
-                  <div className="h-14 sm:h-16 flex items-end justify-center mb-2">
-                    <div className="text-sm sm:text-base font-bold text-slate-800 pb-1">
+                  <div className="h-16 flex items-end justify-center mb-2">
+                    <div className="text-base font-bold text-slate-800 pb-1">
                       {CERT_DATE}
                     </div>
                   </div>
-                  <div className="w-32 sm:w-48 border-t border-slate-400 pt-1 text-[8px] sm:text-[10px] font-bold text-slate-500 tracking-wider uppercase text-center">
+                  <div className="w-48 border-t border-slate-400 pt-1 text-[10px] font-bold text-slate-500 tracking-wider uppercase text-center">
                     Date Issued
                   </div>
                 </div>
