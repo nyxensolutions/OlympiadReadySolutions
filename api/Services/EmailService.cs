@@ -111,7 +111,7 @@ public class BrevoEmailService : IEmailService
         string htmlContent = $@"
         <div style=""font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; color: #333; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;"">
             <div style=""background: #ffffff; padding: 40px 20px 25px; text-align: center; border-bottom: 3px solid #e0e7ff;"">
-                <img src=""https://res.cloudinary.com/dyommthef/image/upload/v1779989794/olympiadready/assets/atgp5vd6bh3rvpps1hjc.png"" alt=""OlympiadReady"" style=""height: 64px; max-width: 100%; display: block; margin: 0 auto; color: #1e3a8a; font-size: 28px; font-weight: bold;"" />
+                <img src=""https://images.olympiadready.com/assets/logo.png"" alt=""OlympiadReady"" style=""height: 64px; max-width: 100%; display: block; margin: 0 auto; color: #1e3a8a; font-size: 28px; font-weight: bold;"" />
                 <h2 style=""color: #1e3a8a; margin: 25px 0 0 0; font-size: 24px; letter-spacing: 0.5px;"">Your Weekly Progress Report</h2>
             </div>
             
