@@ -402,42 +402,49 @@ public class AdminController : ControllerBase
         var r2Endpoint = $"https://{accountId}.r2.cloudflarestorage.com";
         var s3Config   = new AmazonS3Config
         {
-            ServiceURL            = r2Endpoint,
-            ForcePathStyle        = true,
-            SignatureVersion      = "4",
-            AuthenticationRegion  = "auto",
+            ServiceURL           = r2Endpoint,
+            ForcePathStyle       = true,
+            AuthenticationRegion = "auto",
         };
         var credentials = new BasicAWSCredentials(accessKeyId, secretKey);
         using var s3    = new AmazonS3Client(credentials, s3Config);
 
-        var objectKey = $"questions/{Guid.NewGuid()}{ext}";
+        var objectKey   = $"questions/{Guid.NewGuid()}{ext}";
         var contentType = file.ContentType ?? "application/octet-stream";
 
-        await using var stream = file.OpenReadStream();
-        var putRequest = new PutObjectRequest
+        try
         {
-            BucketName  = bucketName,
-            Key         = objectKey,
-            InputStream = stream,
-            ContentType = contentType,
-        };
-        // Cache for 1 year in browser + CDN — safe because filenames are UUIDs (immutable)
-        putRequest.Headers["Cache-Control"] = "public, max-age=31536000, immutable";
+            await using var stream = file.OpenReadStream();
+            var putRequest = new PutObjectRequest
+            {
+                BucketName  = bucketName,
+                Key         = objectKey,
+                InputStream = stream,
+                ContentType = contentType,
+            };
+            // Cache for 1 year in browser + CDN — safe because filenames are UUIDs (immutable)
+            putRequest.Headers["Cache-Control"] = "public, max-age=31536000, immutable";
 
-        var result = await s3.PutObjectAsync(putRequest, ct);
+            var result = await s3.PutObjectAsync(putRequest, ct);
 
-        if ((int)result.HttpStatusCode >= 300)
-        {
-            _log.LogWarning("R2 upload failed with status {Status}", result.HttpStatusCode);
-            return StatusCode(502, new { error = $"R2 upload failed: HTTP {(int)result.HttpStatusCode}" });
+            if ((int)result.HttpStatusCode >= 300)
+            {
+                _log.LogWarning("R2 upload failed with status {Status}", result.HttpStatusCode);
+                return StatusCode(502, new { error = $"R2 upload failed: HTTP {(int)result.HttpStatusCode}" });
+            }
+
+            var publicUrl = string.IsNullOrWhiteSpace(publicBaseUrl)
+                ? $"{r2Endpoint}/{bucketName}/{objectKey}"
+                : $"{publicBaseUrl}/{objectKey}";
+
+            _log.LogInformation("R2 upload OK: {Url} ({Size} bytes)", publicUrl, file.Length);
+            return Ok(new { url = publicUrl });
         }
-
-        var publicUrl = string.IsNullOrWhiteSpace(publicBaseUrl)
-            ? $"{r2Endpoint}/{bucketName}/{objectKey}"
-            : $"{publicBaseUrl}/{objectKey}";
-
-        _log.LogInformation("R2 upload OK: {Url} ({Size} bytes)", publicUrl, file.Length);
-        return Ok(new { url = publicUrl });
+        catch (Exception ex)
+        {
+            _log.LogError(ex, "R2 upload exception for key {Key}", objectKey);
+            return StatusCode(500, new { error = $"Upload failed: {ex.Message}" });
+        }
     }
 
     // ---------------------------------------------------------------
