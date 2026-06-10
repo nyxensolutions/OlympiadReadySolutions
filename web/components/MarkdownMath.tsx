@@ -8,10 +8,11 @@ interface MarkdownMathProps {
 }
 
 export function MarkdownMath({ content, className = "" }: MarkdownMathProps) {
-  // Auto-wrap raw cloudinary URLs in markdown syntax if they aren't already wrapped
-  // e.g. https://res.cloudinary.com/xyz -> ![image](https://res.cloudinary.com/xyz)
+  // Auto-wrap bare image URLs in markdown syntax if they aren't already wrapped.
+  // Handles: Cloudinary, Cloudflare R2 (pub-*.r2.dev), or any URL ending in a known image extension.
+  // e.g. https://pub-xxx.r2.dev/questions/abc.jpg -> ![image](https://pub-xxx.r2.dev/questions/abc.jpg)
   const processedContent = content.replace(
-    /(?<!\]\()(https:\/\/res\.cloudinary\.com\/[^\s\)]+)/g,
+    /(?<!\]\()(https?:\/\/(?:res\.cloudinary\.com\/[^\s)]+|pub-[a-z0-9]+\.r2\.dev\/[^\s)]+|\S+\.(?:png|jpg|jpeg|gif|webp|svg|bmp)(?:\?\S*)?))/gi,
     "![image]($1)"
   );
 

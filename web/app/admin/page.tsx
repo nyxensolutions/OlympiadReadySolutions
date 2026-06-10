@@ -1066,11 +1066,11 @@ function ImageInput({ slotKey, inputRef, uploading, onFile, onUrl, compact = fal
       )}
       {tab === "url" && (
         <div className="p-3 space-y-2">
-          <p className="text-xs text-slate-400">Paste a Cloudinary, S3, or any public image URL</p>
+          <p className="text-xs text-slate-400">Paste any public image URL (R2, S3, etc.)</p>
           <div className="flex gap-2">
             <input value={urlValue} onChange={(e) => setUrlValue(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && (e.preventDefault(), urlValue.trim() && (onUrl(urlValue.trim()), setUrlValue("")))}
-              placeholder="https://res.cloudinary.com/..." className="input flex-1 text-xs py-2" />
+              placeholder="https://pub-xxxx.r2.dev/questions/..." className="input flex-1 text-xs py-2" />
             <button type="button" onClick={() => { if (urlValue.trim()) { onUrl(urlValue.trim()); setUrlValue(""); } }}
               className="px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs rounded-lg transition shrink-0">
               Use

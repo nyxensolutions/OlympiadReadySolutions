@@ -1,8 +1,10 @@
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using CloudinaryDotNet;
-using CloudinaryDotNet.Actions;
+using Amazon;
+using Amazon.Runtime;
+using Amazon.S3;
+using Amazon.S3.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OlympiadReady.Api.Services;
@@ -130,18 +132,21 @@ public class AdminController : ControllerBase
     [HttpGet("config-check")]
     public IActionResult ConfigCheck()
     {
-        var cloudName  = _config["Cloudinary:CloudName"];
-        var apiKey     = _config["Cloudinary:ApiKey"];
-        var apiSecret  = _config["Cloudinary:ApiSecret"];
+        var accountId  = _config["R2:AccountId"];
+        var accessKey  = _config["R2:AccessKeyId"];
+        var secretKey  = _config["R2:SecretAccessKey"];
+        var bucket     = _config["R2:BucketName"];
+        var publicUrl  = _config["R2:PublicBaseUrl"];
         var appData    = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         var secretsPath = Path.Combine(appData, "Microsoft", "UserSecrets", "olympiadready-api-secrets", "secrets.json");
         return Ok(new
         {
-            CloudName    = string.IsNullOrWhiteSpace(cloudName) ? "(empty)" : cloudName,
-            ApiKey       = string.IsNullOrWhiteSpace(apiKey)    ? "(empty)" : apiKey[..4] + "****",
-            ApiSecret    = string.IsNullOrWhiteSpace(apiSecret) ? "(empty)" : apiSecret[..4] + "****",
-            Environment  = _env.EnvironmentName,
-            SecretsPath  = secretsPath,
+            AccountId   = string.IsNullOrWhiteSpace(accountId) ? "(empty)" : accountId[..4] + "****",
+            AccessKeyId = string.IsNullOrWhiteSpace(accessKey) ? "(empty)" : accessKey[..4] + "****",
+            BucketName  = bucket ?? "(empty)",
+            PublicBaseUrl = publicUrl ?? "(empty)",
+            Environment = _env.EnvironmentName,
+            SecretsPath = secretsPath,
             SecretsFileExists = System.IO.File.Exists(secretsPath),
         });
     }
@@ -370,55 +375,69 @@ public class AdminController : ControllerBase
     // POST /api/admin/upload-image
     // Header: X-Admin-Key: <value>
     // Body: multipart/form-data with field "file"
-    // Uploads to Cloudinary and returns: { url: "https://res.cloudinary.com/..." }
+    // Uploads to Cloudflare R2 and returns: { url: "https://<public-base-url>/questions/..." }
     // ---------------------------------------------------------------
     [HttpPost("upload-image")]
     [RequestSizeLimit(10 * 1024 * 1024)] // 10 MB
     public async Task<IActionResult> UploadImage(IFormFile file, CancellationToken ct)
     {
-
         if (file == null || file.Length == 0)
             return BadRequest(new { error = "No file provided." });
 
-        var ext = Path.GetExtension(file.FileName);
+        var ext = Path.GetExtension(file.FileName).ToLowerInvariant();
         if (!_allowedImageExts.Contains(ext))
             return BadRequest(new { error = $"File type {ext} not allowed. Use jpg/png/gif/webp/svg." });
 
-        // Build Cloudinary client from config
-        var cloudName  = _config["Cloudinary:CloudName"];
-        var apiKey     = _config["Cloudinary:ApiKey"];
-        var apiSecret  = _config["Cloudinary:ApiSecret"];
-        var folder     = _config["Cloudinary:Folder"] ?? "olympiadready/questions";
+        var accountId     = _config["R2:AccountId"];
+        var accessKeyId   = _config["R2:AccessKeyId"];
+        var secretKey     = _config["R2:SecretAccessKey"];
+        var bucketName    = _config["R2:BucketName"];
+        var publicBaseUrl = _config["R2:PublicBaseUrl"]?.TrimEnd('/');
 
-        if (string.IsNullOrWhiteSpace(cloudName) || cloudName.StartsWith("REPLACE") ||
-            string.IsNullOrWhiteSpace(apiKey)    || apiKey.StartsWith("REPLACE") ||
-            string.IsNullOrWhiteSpace(apiSecret) || apiSecret.StartsWith("REPLACE"))
-            return StatusCode(503, new { error = "Cloudinary is not configured. Fill in Cloudinary:CloudName/ApiKey/ApiSecret in appsettings." });
+        if (string.IsNullOrWhiteSpace(accountId)   || accountId.StartsWith("REPLACE") ||
+            string.IsNullOrWhiteSpace(accessKeyId) || accessKeyId.StartsWith("REPLACE") ||
+            string.IsNullOrWhiteSpace(secretKey)   || secretKey.StartsWith("REPLACE"))
+            return StatusCode(503, new { error = "R2 is not configured. Fill in R2:AccountId/AccessKeyId/SecretAccessKey in appsettings or user secrets." });
 
-        var account    = new Account(cloudName, apiKey, apiSecret);
-        var cloudinary = new Cloudinary(account) { Api = { Secure = true } };
+        var r2Endpoint = $"https://{accountId}.r2.cloudflarestorage.com";
+        var s3Config   = new AmazonS3Config
+        {
+            ServiceURL            = r2Endpoint,
+            ForcePathStyle        = true,
+            SignatureVersion      = "4",
+            AuthenticationRegion  = "auto",
+        };
+        var credentials = new BasicAWSCredentials(accessKeyId, secretKey);
+        using var s3    = new AmazonS3Client(credentials, s3Config);
 
-        var publicId = $"{folder}/{Guid.NewGuid()}";
+        var objectKey = $"questions/{Guid.NewGuid()}{ext}";
+        var contentType = file.ContentType ?? "application/octet-stream";
 
         await using var stream = file.OpenReadStream();
-        var uploadParams = new ImageUploadParams
+        var putRequest = new PutObjectRequest
         {
-            File           = new FileDescription(file.FileName, stream),
-            PublicId       = publicId,
-            Overwrite      = false,
-            UniqueFilename = false,
+            BucketName  = bucketName,
+            Key         = objectKey,
+            InputStream = stream,
+            ContentType = contentType,
         };
+        // Cache for 1 year in browser + CDN — safe because filenames are UUIDs (immutable)
+        putRequest.Headers["Cache-Control"] = "public, max-age=31536000, immutable";
 
-        var result = await cloudinary.UploadAsync(uploadParams, ct);
+        var result = await s3.PutObjectAsync(putRequest, ct);
 
-        if (result.Error != null)
+        if ((int)result.HttpStatusCode >= 300)
         {
-            _log.LogWarning("Cloudinary upload error: {Msg}", result.Error.Message);
-            return StatusCode(502, new { error = $"Cloudinary error: {result.Error.Message}" });
+            _log.LogWarning("R2 upload failed with status {Status}", result.HttpStatusCode);
+            return StatusCode(502, new { error = $"R2 upload failed: HTTP {(int)result.HttpStatusCode}" });
         }
 
-        _log.LogInformation("Cloudinary upload OK: {Url} ({Size} bytes)", result.SecureUrl, file.Length);
-        return Ok(new { url = result.SecureUrl.ToString() });
+        var publicUrl = string.IsNullOrWhiteSpace(publicBaseUrl)
+            ? $"{r2Endpoint}/{bucketName}/{objectKey}"
+            : $"{publicBaseUrl}/{objectKey}";
+
+        _log.LogInformation("R2 upload OK: {Url} ({Size} bytes)", publicUrl, file.Length);
+        return Ok(new { url = publicUrl });
     }
 
     // ---------------------------------------------------------------

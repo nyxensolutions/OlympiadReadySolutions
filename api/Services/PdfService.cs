@@ -514,15 +514,15 @@ public class PdfService
     }
 
     // Matches a bare image URL on its own — http(s)://... ending with a known image extension,
-    // OR any Cloudinary URL (res.cloudinary.com) regardless of extension.
+    // OR a Cloudinary URL (res.cloudinary.com), OR a Cloudflare R2 URL (pub-*.r2.dev).
     private static readonly Regex _bareImageUrlRx = new(
-        @"^https?://\S+\.(?:png|jpg|jpeg|gif|webp|svg|bmp)(\?\S*)?$|^https?://res\.cloudinary\.com/\S+$",
+        @"^https?://\S+\.(?:png|jpg|jpeg|gif|webp|svg|bmp)(\?\S*)?$|^https?://res\.cloudinary\.com/\S+$|^https?://pub-[a-z0-9]+\.r2\.dev/\S+$",
         RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
     private void RenderMarkdownContent(IContainer container, string text, float fontSize = 11, string? fontColor = null, bool isBold = false)
     {
-        // Split on both markdown images ![alt](url) AND bare image URLs
-        var parts = Regex.Split(text, @"(!\[.*?\]\(.*?\)|https?://(?:res\.cloudinary\.com/\S+|\S+\.(?:png|jpg|jpeg|gif|webp|svg|bmp)(?:\?\S*)?))");
+        // Split on both markdown images ![alt](url) AND bare image URLs (Cloudinary, R2, or extension-based)
+        var parts = Regex.Split(text, @"(!\[.*?\]\(.*?\)|https?://(?:res\.cloudinary\.com/\S+|pub-[a-z0-9]+\.r2\.dev/\S+|\S+\.(?:png|jpg|jpeg|gif|webp|svg|bmp)(?:\?\S*)?))");
         container.Column(col =>
         {
             foreach (var part in parts)
