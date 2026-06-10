@@ -402,10 +402,9 @@ public class AdminController : ControllerBase
         var r2Endpoint = $"https://{accountId}.r2.cloudflarestorage.com";
         var s3Config   = new AmazonS3Config
         {
-            ServiceURL            = r2Endpoint,
-            ForcePathStyle        = true,
-            AuthenticationRegion  = "auto",
-            DisablePayloadSigning = true,   // R2 does not support AWS chunked upload trailers
+            ServiceURL           = r2Endpoint,
+            ForcePathStyle       = true,
+            AuthenticationRegion = "auto",
         };
         var credentials = new BasicAWSCredentials(accessKeyId, secretKey);
         using var s3    = new AmazonS3Client(credentials, s3Config);
@@ -418,10 +417,11 @@ public class AdminController : ControllerBase
             await using var stream = file.OpenReadStream();
             var putRequest = new PutObjectRequest
             {
-                BucketName  = bucketName,
-                Key         = objectKey,
-                InputStream = stream,
-                ContentType = contentType,
+                BucketName       = bucketName,
+                Key              = objectKey,
+                InputStream      = stream,
+                ContentType      = contentType,
+                UseChunkEncoding = false,   // R2 does not support AWS chunked upload trailers
             };
             // Cache for 1 year in browser + CDN — safe because filenames are UUIDs (immutable)
             putRequest.Headers["Cache-Control"] = "public, max-age=31536000, immutable";
