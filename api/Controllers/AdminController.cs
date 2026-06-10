@@ -402,9 +402,10 @@ public class AdminController : ControllerBase
         var r2Endpoint = $"https://{accountId}.r2.cloudflarestorage.com";
         var s3Config   = new AmazonS3Config
         {
-            ServiceURL           = r2Endpoint,
-            ForcePathStyle       = true,
-            AuthenticationRegion = "auto",
+            ServiceURL            = r2Endpoint,
+            ForcePathStyle        = true,
+            AuthenticationRegion  = "auto",
+            DisablePayloadSigning = true,   // R2 does not support AWS chunked upload trailers
         };
         var credentials = new BasicAWSCredentials(accessKeyId, secretKey);
         using var s3    = new AmazonS3Client(credentials, s3Config);
