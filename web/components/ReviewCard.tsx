@@ -250,7 +250,13 @@ export function ReviewCard({
                 AI Explanation
               </span>
             </div>
-            <p>{question.explanation}</p>
+            {isImageOption(question.explanation ?? "") ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={question.explanation} alt="Explanation diagram"
+                className="mt-1 max-h-40 rounded-xl object-contain border border-slate-200 bg-slate-50 p-1" />
+            ) : (
+              <p>{question.explanation}</p>
+            )}
           </div>
         )}
 
