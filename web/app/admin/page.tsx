@@ -1015,12 +1015,39 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                 className="text-xs font-semibold text-indigo-400 hover:text-indigo-200 underline underline-offset-2 transition">
                 Reveal answer →
               </button>
-            ) : (
-              <div className="rounded-xl bg-emerald-900/25 border border-emerald-700/30 px-4 py-3 space-y-1">
-                <p className="text-xs font-bold text-emerald-400">✓ Correct answer: {q.correctAnswer}</p>
-                {q.explanation && <p className="text-xs text-slate-300 leading-relaxed">{q.explanation}</p>}
-              </div>
-            )}
+            ) : (() => {
+              // Look up the actual option value for the correct letter so we can render image options
+              const correctIdx  = ANSWER_LABELS.indexOf(q.correctAnswer as AnswerLabel);
+              const correctVal  = correctIdx >= 0 ? q.options[correctIdx] : null;
+              const correctIsImg = correctVal ? isImgUrl(correctVal) : false;
+              const explanationIsImg = q.explanation ? isImgUrl(q.explanation) : false;
+              return (
+                <div className="rounded-xl bg-emerald-900/25 border border-emerald-700/30 px-4 py-3 space-y-2">
+                  {/* Correct answer label + image (if option is an image) */}
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <p className="text-xs font-bold text-emerald-400">✓ Correct answer: {q.correctAnswer}</p>
+                    {correctIsImg && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={correctVal!} alt={`Correct answer ${q.correctAnswer}`}
+                        className="max-h-28 rounded-lg object-contain bg-slate-800/60 p-1 border border-emerald-700/40" />
+                    )}
+                    {!correctIsImg && correctVal && (
+                      <span className="text-xs text-emerald-300 font-medium">{correctVal}</span>
+                    )}
+                  </div>
+                  {/* Explanation — render as image if it's a URL, otherwise plain text */}
+                  {q.explanation && (
+                    explanationIsImg ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={q.explanation} alt="Explanation diagram"
+                        className="max-h-36 rounded-lg object-contain bg-slate-800/60 p-1 border border-slate-700" />
+                    ) : (
+                      <p className="text-xs text-slate-300 leading-relaxed">{q.explanation}</p>
+                    )
+                  )}
+                </div>
+              );
+            })()}
           </div>
         );
       })}
