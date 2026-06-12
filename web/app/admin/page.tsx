@@ -322,7 +322,7 @@ function EditModal({ question, showToast, onClose, onSaved }: {
       subject: form.subject, grade: form.grade, difficulty: form.difficulty,
       topic: form.topic.trim(), subTopic: form.subTopic.trim() || undefined,
       questionText: form.questionText.trim(),
-      imageUrl: form.mode === "standard" ? (form.questionImage?.url ?? null) : null,
+      imageUrl: form.questionImage?.url ?? null,
       options, correctAnswer: form.correctAnswer,
       explanation: form.explanation.trim(),
     };
@@ -363,9 +363,9 @@ function EditModal({ question, showToast, onClose, onSaved }: {
             <p className="label mb-2">Question Type</p>
             <div className="flex gap-3">
               <ModeButton active={form.mode === "standard"} onClick={() => form.setMode("standard")}
-                icon={<Type size={16} />} label="Text options" sub="Question + optional image, 4 text answers" />
+                icon={<Type size={16} />} label="Text answers" sub="4 text answer options. Question can optionally include an image." />
               <ModeButton active={form.mode === "image-options"} onClick={() => form.setMode("image-options")}
-                icon={<ImageIcon size={16} />} label="Image options" sub='4 image answers (e.g. "which is an apple?")' />
+                icon={<ImageIcon size={16} />} label="Image answers" sub="4 image answer options. Question can optionally include an image too." />
             </div>
           </div>
 
@@ -406,19 +406,17 @@ function EditModal({ question, showToast, onClose, onSaved }: {
               rows={3} className="input resize-none" />
           </div>
 
-          {/* Question image (standard mode only) */}
-          {form.mode === "standard" && (
-            <div>
-              <label className="label">Question Image <span className="text-slate-500">(optional)</span></label>
-              {form.questionImage
-                ? <ImagePreview img={form.questionImage}
-                    onRemove={() => { form.setQuestionImage(null); if (questionImgRef.current) questionImgRef.current.value = ""; }} />
-                : <ImageInput slotKey="edit-question" inputRef={questionImgRef} uploading={!!uploading["edit-question"]}
-                    onFile={(f) => onFileChosen(f, "edit-question", form.setQuestionImage)}
-                    onUrl={(url) => onUrlConfirmed(url, form.setQuestionImage)} />
-              }
-            </div>
-          )}
+          {/* Question image — available for both text-answer and image-answer modes */}
+          <div>
+            <label className="label">Question Image <span className="text-slate-500">(optional)</span></label>
+            {form.questionImage
+              ? <ImagePreview img={form.questionImage}
+                  onRemove={() => { form.setQuestionImage(null); if (questionImgRef.current) questionImgRef.current.value = ""; }} />
+              : <ImageInput slotKey="edit-question" inputRef={questionImgRef} uploading={!!uploading["edit-question"]}
+                  onFile={(f) => onFileChosen(f, "edit-question", form.setQuestionImage)}
+                  onUrl={(url) => onUrlConfirmed(url, form.setQuestionImage)} />
+            }
+          </div>
 
           {/* Options */}
           <div>
@@ -556,7 +554,7 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
       subject: form.subject, grade: form.grade, difficulty: form.difficulty,
       topic: form.topic.trim(), subTopic: form.subTopic.trim() || undefined,
       questionText: form.questionText.trim(),
-      imageUrl: form.mode === "standard" ? (form.questionImage?.url ?? null) : null,
+      imageUrl: form.questionImage?.url ?? null,
       options, correctAnswer: form.correctAnswer, explanation: form.explanation.trim(),
     };
     setSubmitting(true);
@@ -598,9 +596,9 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
         <p className="label mb-3">Question Type</p>
         <div className="flex gap-3">
           <ModeButton active={form.mode === "standard"} onClick={() => form.setMode("standard")}
-            icon={<Type size={16} />} label="Text options" sub="Question + optional image, 4 text answers" />
+            icon={<Type size={16} />} label="Text answers" sub="4 text answer options. Question can optionally include an image." />
           <ModeButton active={form.mode === "image-options"} onClick={() => form.setMode("image-options")}
-            icon={<ImageIcon size={16} />} label="Image options" sub='4 image answers (e.g. "which is an apple?")' />
+            icon={<ImageIcon size={16} />} label="Image answers" sub="4 image answer options. Question can optionally include an image too." />
         </div>
       </div>
 
@@ -642,17 +640,16 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
             placeholder={form.mode === "image-options" ? "e.g. Which of the following is an apple?" : "Type your question here..."}
             className="input resize-none" required />
         </div>
-        {form.mode === "standard" && (
-          <div>
-            <label className="label">Question Image <span className="text-slate-500">(optional)</span></label>
-            {form.questionImage
-              ? <ImagePreview img={form.questionImage} onRemove={() => { form.setQuestionImage(null); if (questionImgRef.current) questionImgRef.current.value = ""; }} />
-              : <ImageInput slotKey="question" inputRef={questionImgRef} uploading={!!uploading["question"]}
-                  onFile={(f) => onFileChosen(f, "question", form.setQuestionImage)}
-                  onUrl={(url) => onUrlConfirmed(url, form.setQuestionImage)} />
-            }
-          </div>
-        )}
+        {/* Question image — available for both text-answer and image-answer modes */}
+        <div>
+          <label className="label">Question Image <span className="text-slate-500">(optional)</span></label>
+          {form.questionImage
+            ? <ImagePreview img={form.questionImage} onRemove={() => { form.setQuestionImage(null); if (questionImgRef.current) questionImgRef.current.value = ""; }} />
+            : <ImageInput slotKey="question" inputRef={questionImgRef} uploading={!!uploading["question"]}
+                onFile={(f) => onFileChosen(f, "question", form.setQuestionImage)}
+                onUrl={(url) => onUrlConfirmed(url, form.setQuestionImage)} />
+          }
+        </div>
       </div>
 
       <div className="bg-slate-800 rounded-2xl p-5">
@@ -1017,26 +1014,25 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
               </button>
             ) : (() => {
               // Look up the actual option value for the correct letter so we can render image options
-              const correctIdx  = ANSWER_LABELS.indexOf(q.correctAnswer as AnswerLabel);
-              const correctVal  = correctIdx >= 0 ? q.options[correctIdx] : null;
+              const correctIdx   = ANSWER_LABELS.indexOf(q.correctAnswer as AnswerLabel);
+              const correctVal   = correctIdx >= 0 ? q.options[correctIdx] : null;
               const correctIsImg = correctVal ? isImgUrl(correctVal) : false;
-              const explanationIsImg = q.explanation ? isImgUrl(q.explanation) : false;
+              // Only show explanation if it exists AND is not a duplicate of the correct-answer image
+              const explanationIsImg   = q.explanation ? isImgUrl(q.explanation) : false;
+              const isDuplicateExpl    = explanationIsImg && q.explanation === correctVal;
+              const showExplanation    = !!q.explanation && !isDuplicateExpl;
               return (
                 <div className="rounded-xl bg-emerald-900/25 border border-emerald-700/30 px-4 py-3 space-y-2">
-                  {/* Correct answer label + image (if option is an image) */}
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <p className="text-xs font-bold text-emerald-400">✓ Correct answer: {q.correctAnswer}</p>
-                    {correctIsImg && (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img src={correctVal!} alt={`Correct answer ${q.correctAnswer}`}
-                        className="max-h-28 rounded-lg object-contain bg-slate-800/60 p-1 border border-emerald-700/40" />
-                    )}
-                    {!correctIsImg && correctVal && (
-                      <span className="text-xs text-emerald-300 font-medium">{correctVal}</span>
-                    )}
-                  </div>
-                  {/* Explanation — render as image if it's a URL, otherwise plain text */}
-                  {q.explanation && (
+                  {/* Correct answer letter */}
+                  <p className="text-xs font-bold text-emerald-400">✓ Correct answer: {q.correctAnswer}</p>
+                  {/* Render the correct option value as an image if it's an image URL */}
+                  {correctIsImg && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={correctVal!} alt={`Correct answer ${q.correctAnswer}`}
+                      className="max-h-28 rounded-lg object-contain bg-slate-800/60 p-1 border border-emerald-700/40" />
+                  )}
+                  {/* Explanation — skip if it duplicates the correct-answer image already shown above */}
+                  {showExplanation && (
                     explanationIsImg ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img src={q.explanation} alt="Explanation diagram"
