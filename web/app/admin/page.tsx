@@ -57,6 +57,8 @@ export default function AdminPage() {
 
   // Global edit modal state
   const [editingQuestion, setEditingQuestion] = useState<BankQuestion | null>(null);
+  // Patch edited question in-place inside BrowsePanel without resetting the list
+  const [pendingUpdate, setPendingUpdate] = useState<BankQuestion | null>(null);
 
   function showToast(type: Toast["type"], message: string) {
     setToast({ type, message });
@@ -106,8 +108,8 @@ export default function AdminPage() {
           onSaved={(updated) => {
             setEditingQuestion(null);
             showToast("success", "Question updated!");
-            // bubble updated data back to browse panel via a refresh trigger
-            setTriggerSearch((n) => n + 1);
+            // Patch in-place — no list reset, no scroll jump
+            setPendingUpdate(updated);
           }}
         />
       )}
@@ -162,13 +164,15 @@ export default function AdminPage() {
 
         {activeTab === "browse" && (
           <BrowsePanel
-            
+
             showToast={showToast}
             filters={browseFilters}
             setFilters={setBrowseFilters}
             triggerSearch={triggerSearch}
             onDeleted={() => loadStats()}
             onEdit={(q) => setEditingQuestion(q)}
+            pendingUpdate={pendingUpdate}
+            onUpdateConsumed={() => setPendingUpdate(null)}
           />
         )}
       </div>
@@ -712,51 +716,89 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
 }
 
 // ─── Browse & Manage Panel ────────────────────────────────────────────────────
-function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted, onEdit }: {
-  
+function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted, onEdit, pendingUpdate, onUpdateConsumed }: {
+
   showToast: (t: Toast["type"], m: string) => void;
   filters: { subject: string; grade: number | ""; difficulty: string; topic: string; search: string; hasImage: boolean };
   setFilters: React.Dispatch<React.SetStateAction<typeof filters>>;
   triggerSearch: number;
   onDeleted: () => void;
   onEdit: (q: BankQuestion) => void;
+  pendingUpdate: BankQuestion | null;
+  onUpdateConsumed: () => void;
 }) {
   const { getToken } = useAuth();
-  const [results, setResults] = useState<BankQuestion[]>([]);
-  const [total, setTotal] = useState(0);
-  const [page, setPage] = useState(1);
-  const [loading, setLoading] = useState(false);
-  const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
+  const [results, setResults]           = useState<BankQuestion[]>([]);
+  const [total, setTotal]               = useState(0);
+  const [page, setPage]                 = useState(1);
+  const [loading, setLoading]           = useState(false);
+  const [loadingMore, setLoadingMore]   = useState(false);
+  const [revealedIds, setRevealedIds]   = useState<Set<string>>(new Set());
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
-  const [deleting, setDeleting] = useState<string | null>(null);
-  const PAGE_SIZE = 10;
+  const [deleting, setDeleting]         = useState<string | null>(null);
+  const [jumpInput, setJumpInput]       = useState("");
+  const sentinelRef                     = useRef<HTMLDivElement>(null);
+  const PAGE_SIZE                       = 50;
+  const totalPages                      = Math.ceil(total / PAGE_SIZE);
+  const hasMore                         = results.length > 0 && results.length < total;
 
-  const search = useCallback(async (p = 1) => {
-    setLoading(true);
+  // ── In-place patch after edit — no list reset, no scroll jump ──────────────
+  useEffect(() => {
+    if (!pendingUpdate) return;
+    setResults((prev) =>
+      prev.map((q) => q.questionBankId === pendingUpdate.questionBankId ? pendingUpdate : q)
+    );
+    onUpdateConsumed();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pendingUpdate]);
+
+  // ── Fetch (append=false resets list; append=true infinite-loads) ───────────
+  const search = useCallback(async (p = 1, append = false) => {
+    if (append) setLoadingMore(true); else setLoading(true);
     try {
       const params = new URLSearchParams();
-      if (filters.subject) params.set("subject", filters.subject);
-      if (filters.grade) params.set("grade", String(filters.grade));
+      if (filters.subject)   params.set("subject",    filters.subject);
+      if (filters.grade)     params.set("grade",      String(filters.grade));
       if (filters.difficulty) params.set("difficulty", filters.difficulty);
-      if (filters.topic) params.set("topic", filters.topic);
-      if (filters.search) params.set("search", filters.search);
-      if (filters.hasImage) params.set("hasImage", "true");
-      params.set("page", String(p));
+      if (filters.topic)     params.set("topic",      filters.topic);
+      if (filters.search)    params.set("search",     filters.search);
+      if (filters.hasImage)  params.set("hasImage",   "true");
+      params.set("page",     String(p));
       params.set("pageSize", String(PAGE_SIZE));
-      const res = await fetch(`${API_URL}/api/admin/questions?${params}`, { headers: { "Authorization": `Bearer ${await getToken()}` } });
+
+      const res  = await fetch(`${API_URL}/api/admin/questions?${params}`,
+        { headers: { "Authorization": `Bearer ${await getToken()}` } });
       if (!res.ok) { showToast("error", "Search failed"); return; }
       const data = await res.json();
-      setResults(data.items);
+
+      if (append) {
+        setResults((prev) => [...prev, ...data.items]);
+      } else {
+        setResults(data.items);
+        setRevealedIds(new Set());
+        setDeleteConfirm(null);
+      }
       setTotal(data.total);
       setPage(p);
-      setRevealedIds(new Set());
-      setDeleteConfirm(null);
     } catch { showToast("error", "Network error"); }
-    finally { setLoading(false); }
+    finally { setLoading(false); setLoadingMore(false); }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters]);
 
-  useEffect(() => { if (triggerSearch > 0) search(1); }, [triggerSearch, search]);
+  // Triggered by filter-change / goToBrowse
+  useEffect(() => { if (triggerSearch > 0) search(1, false); }, [triggerSearch, search]);
+
+  // ── Infinite-scroll sentinel ───────────────────────────────────────────────
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel || !hasMore || loading || loadingMore) return;
+    const observer = new IntersectionObserver(
+      (entries) => { if (entries[0].isIntersecting) search(page + 1, true); },
+      { rootMargin: "400px" }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [hasMore, loading, loadingMore, page, search]);
 
   function clearFilters() {
     setFilters({ subject: "", grade: "", difficulty: "", topic: "", search: "", hasImage: false });
@@ -765,9 +807,8 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
   async function deleteQuestion(id: string) {
     setDeleting(id);
     try {
-      const res = await fetch(`${API_URL}/api/admin/questions/${id}`, {
-        method: "DELETE", headers: { "Authorization": `Bearer ${await getToken()}` },
-      });
+      const res = await fetch(`${API_URL}/api/admin/questions/${id}`,
+        { method: "DELETE", headers: { "Authorization": `Bearer ${await getToken()}` } });
       if (!res.ok) { const e = await res.json().catch(() => ({})); showToast("error", e.error ?? "Delete failed"); return; }
       showToast("success", "Question deleted.");
       setResults((prev) => prev.filter((q) => q.questionBankId !== id));
@@ -778,83 +819,117 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
     finally { setDeleting(null); }
   }
 
+  function handleJump(e: React.FormEvent) {
+    e.preventDefault();
+    const p = parseInt(jumpInput, 10);
+    if (isNaN(p) || p < 1 || p > totalPages) {
+      showToast("error", `Enter a page between 1 and ${totalPages}`);
+      return;
+    }
+    search(p, false);
+    setJumpInput("");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   const hasActiveFilters = filters.subject || filters.grade || filters.difficulty || filters.topic || filters.search || filters.hasImage;
 
   return (
     <div className="space-y-4 pb-10">
-      {/* Filter card */}
-      <div className="bg-slate-800 rounded-2xl p-4 space-y-3">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-          <div>
-            <label className="label">Subject</label>
-            <select value={filters.subject} onChange={(e) => setFilters((f) => ({ ...f, subject: e.target.value }))} className="select">
-              <option value="">All subjects</option>
-              {SUBJECTS.map((s) => <option key={s}>{s}</option>)}
-            </select>
+
+      {/* ── Sticky filter bar ─────────────────────────────────────────────── */}
+      <div className="sticky top-0 z-10 -mx-4 px-4 pt-2 pb-3 bg-slate-900">
+        <div className="bg-slate-800 rounded-2xl p-4 space-y-3 shadow-xl shadow-slate-900/80 ring-1 ring-slate-700/50">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <div>
+              <label className="label">Subject</label>
+              <select value={filters.subject} onChange={(e) => setFilters((f) => ({ ...f, subject: e.target.value }))} className="select">
+                <option value="">All subjects</option>
+                {SUBJECTS.map((s) => <option key={s}>{s}</option>)}
+              </select>
+            </div>
+            <div>
+              <label className="label">Grade</label>
+              <select value={filters.grade} onChange={(e) => setFilters((f) => ({ ...f, grade: e.target.value ? Number(e.target.value) : "" }))} className="select">
+                <option value="">All grades</option>
+                {GRADES.map((g) => <option key={g} value={g}>Grade {g}</option>)}
+              </select>
+            </div>
+            <div>
+              <label className="label">Difficulty</label>
+              <select value={filters.difficulty} onChange={(e) => setFilters((f) => ({ ...f, difficulty: e.target.value }))} className="select">
+                <option value="">All levels</option>
+                {DIFFICULTIES.map((d) => <option key={d}>{d}</option>)}
+              </select>
+            </div>
           </div>
-          <div>
-            <label className="label">Grade</label>
-            <select value={filters.grade} onChange={(e) => setFilters((f) => ({ ...f, grade: e.target.value ? Number(e.target.value) : "" }))} className="select">
-              <option value="">All grades</option>
-              {GRADES.map((g) => <option key={g} value={g}>Grade {g}</option>)}
-            </select>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="label">Topic</label>
+              <input value={filters.topic} onChange={(e) => setFilters((f) => ({ ...f, topic: e.target.value }))}
+                onKeyDown={(e) => e.key === "Enter" && search(1)} placeholder="e.g. Animals" className="input" />
+            </div>
+            <div>
+              <label className="label">Question text search</label>
+              <input value={filters.search} onChange={(e) => setFilters((f) => ({ ...f, search: e.target.value }))}
+                onKeyDown={(e) => e.key === "Enter" && search(1)} placeholder="Search question text..." className="input" />
+            </div>
           </div>
-          <div>
-            <label className="label">Difficulty</label>
-            <select value={filters.difficulty} onChange={(e) => setFilters((f) => ({ ...f, difficulty: e.target.value }))} className="select">
-              <option value="">All levels</option>
-              {DIFFICULTIES.map((d) => <option key={d}>{d}</option>)}
-            </select>
-          </div>
-        </div>
-        <div className="grid grid-cols-2 gap-3">
-          <div>
-            <label className="label">Topic</label>
-            <input value={filters.topic} onChange={(e) => setFilters((f) => ({ ...f, topic: e.target.value }))}
-              onKeyDown={(e) => e.key === "Enter" && search(1)} placeholder="e.g. Animals" className="input" />
-          </div>
-          <div>
-            <label className="label">Question text search</label>
-            <input value={filters.search} onChange={(e) => setFilters((f) => ({ ...f, search: e.target.value }))}
-              onKeyDown={(e) => e.key === "Enter" && search(1)} placeholder="Search question text..." className="input" />
-          </div>
-        </div>
-        <div className="flex items-center justify-between gap-3">
-          <label className="flex items-center gap-2 cursor-pointer select-none">
-            <input type="checkbox" checked={filters.hasImage} onChange={(e) => setFilters((f) => ({ ...f, hasImage: e.target.checked }))}
-              className="w-4 h-4 accent-indigo-500" />
-            <span className="text-sm text-slate-300">Image questions only</span>
-          </label>
-          <div className="flex gap-2">
-            {hasActiveFilters && (
-              <button type="button" onClick={clearFilters}
-                className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs text-slate-400 hover:text-slate-200 border border-slate-600 transition">
-                <RotateCcw size={12} /> Clear
+          <div className="flex items-center justify-between gap-3 flex-wrap">
+            <label className="flex items-center gap-2 cursor-pointer select-none">
+              <input type="checkbox" checked={filters.hasImage} onChange={(e) => setFilters((f) => ({ ...f, hasImage: e.target.checked }))}
+                className="w-4 h-4 accent-indigo-500" />
+              <span className="text-sm text-slate-300">Image questions only</span>
+            </label>
+            <div className="flex gap-2 items-center">
+              {hasActiveFilters && (
+                <button type="button" onClick={clearFilters}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs text-slate-400 hover:text-slate-200 border border-slate-600 transition">
+                  <RotateCcw size={12} /> Clear
+                </button>
+              )}
+              <button type="button" onClick={() => search(1)} disabled={loading}
+                className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 text-white font-semibold px-5 py-2 rounded-xl transition text-sm">
+                {loading
+                  ? <span className="animate-spin w-4 h-4 border-2 border-white border-t-transparent rounded-full" />
+                  : <><Search size={14} /> Search</>}
               </button>
-            )}
-            <button type="button" onClick={() => search(1)} disabled={loading}
-              className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 text-white font-semibold px-5 py-2 rounded-xl transition text-sm">
-              {loading
-                ? <span className="animate-spin w-4 h-4 border-2 border-white border-t-transparent rounded-full" />
-                : <><Search size={14} /> Search</>}
-            </button>
+            </div>
           </div>
         </div>
       </div>
 
+      {/* ── Results summary + jump-to-page ───────────────────────────────── */}
       {results.length > 0 && (
-        <div className="flex items-center justify-between text-xs text-slate-400 px-1">
-          <span>{total.toLocaleString()} question{total !== 1 ? "s" : ""} found</span>
-          <span>Page {page} of {Math.ceil(total / PAGE_SIZE)}</span>
+        <div className="flex items-center justify-between gap-3 text-xs text-slate-400 px-1 flex-wrap">
+          <span>
+            Showing <span className="text-slate-200 font-semibold">{results.length.toLocaleString()}</span> of{" "}
+            <span className="text-slate-200 font-semibold">{total.toLocaleString()}</span> question{total !== 1 ? "s" : ""}
+            {hasMore && <span className="text-indigo-400 ml-1">· scroll to load more</span>}
+          </span>
+          {totalPages > 1 && (
+            <form onSubmit={handleJump} className="flex items-center gap-2">
+              <span className="hidden sm:inline">Jump to page</span>
+              <input
+                value={jumpInput}
+                onChange={(e) => setJumpInput(e.target.value)}
+                placeholder={`1–${totalPages}`}
+                className="w-16 bg-slate-700 text-white text-xs rounded-lg px-2 py-1.5 border border-slate-600 outline-none focus:border-indigo-500 text-center"
+              />
+              <button type="submit"
+                className="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-indigo-400 hover:text-indigo-200 font-semibold text-xs transition border border-slate-600">
+                Go
+              </button>
+            </form>
+          )}
         </div>
       )}
 
-      {/* Question cards */}
+      {/* ── Question cards ────────────────────────────────────────────────── */}
       {results.map((q) => {
-        const hasImgOpts = q.options.some(isImgUrl);
-        const revealed = revealedIds.has(q.questionBankId);
+        const hasImgOpts      = q.options.some(isImgUrl);
+        const revealed        = revealedIds.has(q.questionBankId);
         const confirmingDelete = deleteConfirm === q.questionBankId;
-        const isDeletingThis = deleting === q.questionBankId;
+        const isDeletingThis  = deleting === q.questionBankId;
 
         return (
           <div key={q.questionBankId} className="bg-slate-800 rounded-2xl p-5 space-y-3">
@@ -866,7 +941,6 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                 <Chip>{q.difficulty}</Chip>
                 <Chip dim>{q.topic}{q.subTopic ? ` · ${q.subTopic}` : ""}</Chip>
               </div>
-              {/* Edit + Delete actions */}
               <div className="shrink-0 flex items-center gap-1">
                 {!confirmingDelete && (
                   <button type="button" onClick={() => onEdit(q)}
@@ -893,24 +967,22 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
               </div>
             </div>
 
-            {/* Question text */}
             <p className="text-white font-medium leading-relaxed">{q.questionText}</p>
 
-            {/* Question image */}
             {q.imageUrl && (
               // eslint-disable-next-line @next/next/no-img-element
               <img src={q.imageUrl} alt="Question" className="max-h-48 rounded-xl object-contain bg-slate-700 p-2" />
             )}
 
-            {/* Options */}
             <div className={`grid gap-2 ${hasImgOpts ? "grid-cols-2" : "grid-cols-1"}`}>
               {q.options.map((opt, i) => {
-                const lbl = ANSWER_LABELS[i];
+                const lbl      = ANSWER_LABELS[i];
                 const isCorrect = q.correctAnswer === lbl;
-                let style = "border-slate-600 bg-slate-700/40";
+                let style      = "border-slate-600 bg-slate-700/40";
                 if (revealed) {
-                  if (isCorrect) style = "border-emerald-500 bg-emerald-900/40";
-                  else style = "border-slate-700 bg-slate-800/60 opacity-40";
+                  style = isCorrect
+                    ? "border-emerald-500 bg-emerald-900/40"
+                    : "border-slate-700 bg-slate-800/60 opacity-40";
                 }
                 return (
                   <div key={lbl} className={`rounded-xl border-2 p-2.5 transition ${style}`}>
@@ -937,7 +1009,6 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
               })}
             </div>
 
-            {/* Reveal / explanation */}
             {!revealed ? (
               <button type="button"
                 onClick={() => setRevealedIds((s) => new Set([...s, q.questionBankId]))}
@@ -954,17 +1025,26 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
         );
       })}
 
-      {/* Pagination */}
-      {total > PAGE_SIZE && (
-        <div className="flex items-center justify-between pt-2">
-          <button type="button" onClick={() => search(page - 1)} disabled={page === 1 || loading}
-            className="px-4 py-2 rounded-lg border border-slate-600 text-sm text-slate-300 hover:bg-slate-700 disabled:opacity-30 transition">
-            ← Prev
-          </button>
-          <span className="text-xs text-slate-400">Page {page} of {Math.ceil(total / PAGE_SIZE)}</span>
-          <button type="button" onClick={() => search(page + 1)} disabled={page >= Math.ceil(total / PAGE_SIZE) || loading}
-            className="px-4 py-2 rounded-lg border border-slate-600 text-sm text-slate-300 hover:bg-slate-700 disabled:opacity-30 transition">
-            Next →
+      {/* ── Infinite scroll sentinel ──────────────────────────────────────── */}
+      <div ref={sentinelRef} className="h-2" />
+
+      {/* Loading-more spinner */}
+      {loadingMore && (
+        <div className="flex items-center justify-center gap-2 py-6 text-slate-400 text-sm">
+          <span className="animate-spin w-4 h-4 border-2 border-slate-400 border-t-transparent rounded-full" />
+          Loading more questions…
+        </div>
+      )}
+
+      {/* All-loaded footer */}
+      {!hasMore && results.length > 0 && !loading && !loadingMore && (
+        <div className="flex items-center justify-center gap-3 py-4 text-xs text-slate-500">
+          <span>All {total.toLocaleString()} questions loaded</span>
+          <span>·</span>
+          <button type="button"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="text-indigo-400 hover:text-indigo-200 font-semibold transition">
+            ↑ Back to top
           </button>
         </div>
       )}
