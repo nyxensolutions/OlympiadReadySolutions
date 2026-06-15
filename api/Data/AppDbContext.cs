@@ -150,10 +150,16 @@ public class AppDbContext : DbContext
             e.Property(x => x.CorrectAnswer).HasMaxLength(1).IsRequired();
             e.Property(x => x.CreatedAt).HasDefaultValueSql("GETDATE()");
 
+            // Review tracking
+            e.Property(x => x.IsReviewed).HasDefaultValue(false);
+            e.Property(x => x.ReviewedBy).HasMaxLength(256);
+
             // Composite index for the most common lookup: subject + grade + difficulty
             e.HasIndex(x => new { x.Subject, x.Grade, x.Difficulty });
             // Index for topic drill-down
             e.HasIndex(x => new { x.Subject, x.Grade, x.Difficulty, x.Topic });
+            // Index for review-status filter
+            e.HasIndex(x => x.IsReviewed);
         });
 
         b.Entity<UserMistake>(e =>

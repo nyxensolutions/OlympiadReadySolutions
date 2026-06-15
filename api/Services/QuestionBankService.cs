@@ -152,7 +152,10 @@ public class QuestionBankService
         string Topic,
         string? SubTopic,
         string Difficulty,
-        string Explanation);
+        string Explanation,
+        bool IsReviewed = false,
+        DateTime? ReviewedAt = null,
+        string? ReviewedBy = null);
 
     public record ImportResult(int Inserted, int Skipped, List<string> Errors);
     public record BankStats(string Subject, int Grade, string Difficulty, int Count);
@@ -207,7 +210,10 @@ public class QuestionBankService
                 OptionsJson = JsonSerializer.Serialize(
                     row.Options.Select((o, i) => StripOptionPrefix(o, i)).ToList()),
                 CorrectAnswer = row.CorrectAnswer.Trim().ToUpper(),
-                Explanation = row.Explanation.Trim()
+                Explanation = row.Explanation.Trim(),
+                IsReviewed = row.IsReviewed,
+                ReviewedAt = row.ReviewedAt,
+                ReviewedBy = row.ReviewedBy
             });
 
             existing.Add(row.QuestionText.Trim()); // prevent dupes within the same batch

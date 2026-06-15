@@ -291,6 +291,7 @@ public class AdminController : ControllerBase
         [FromQuery] string? topic,
         [FromQuery] string? search,
         [FromQuery] bool? hasImage,
+        [FromQuery] bool? isReviewed,
         [FromQuery] int page = 1,
         [FromQuery] int pageSize = 20,
         CancellationToken ct = default)
@@ -317,6 +318,8 @@ public class AdminController : ControllerBase
                 (q.ImageUrl != null && q.ImageUrl != "") ||
                 q.OptionsJson.Contains("http") ||
                 q.OptionsJson.Contains("/question-images/"));
+        if (isReviewed.HasValue)
+            query = query.Where(q => q.IsReviewed == isReviewed.Value);
 
         var total = await Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync(query, ct);
 
@@ -346,6 +349,9 @@ public class AdminController : ControllerBase
                 q.CorrectAnswer,
                 q.Explanation,
                 q.CreatedAt,
+                q.IsReviewed,
+                q.ReviewedAt,
+                q.ReviewedBy,
             };
         });
 
@@ -470,6 +476,10 @@ public class AdminController : ControllerBase
         if (!recognized)
             return BadRequest(new { error = SubjectNormalizer.UnrecognisedMessage(dto.Subject) });
 
+        // Questions added manually via CMS are immediately marked as reviewed
+        var adminUserId = User.FindFirst("sub")?.Value;
+        var now = DateTime.UtcNow;
+
         var row = new QuestionBankService.ImportRow(
             QuestionText: dto.QuestionText,
             ImageUrl: dto.ImageUrl,
@@ -478,7 +488,10 @@ public class AdminController : ControllerBase
             Topic: dto.Topic ?? "General",
             SubTopic: dto.SubTopic,
             Difficulty: dto.Difficulty ?? "Foundation",
-            Explanation: dto.Explanation ?? ""
+            Explanation: dto.Explanation ?? "",
+            IsReviewed: true,
+            ReviewedAt: now,
+            ReviewedBy: adminUserId
         );
 
         var result = await _bank.ImportAsync(canonicalSubject!, dto.Grade, new[] { row }, ct);
@@ -516,19 +529,40 @@ public class AdminController : ControllerBase
         if (item is null)
             return NotFound(new { error = "Question not found." });
 
-        item.Subject      = canonicalSubject!;
-        item.Grade        = dto.Grade;
-        item.Difficulty   = dto.Difficulty ?? item.Difficulty;
-        item.Topic        = dto.Topic?.Trim() ?? item.Topic;
-        item.SubTopic     = dto.SubTopic?.Trim() ?? item.SubTopic;
-        item.QuestionText = dto.QuestionText.Trim();
-        item.ImageUrl     = string.IsNullOrWhiteSpace(dto.ImageUrl) ? null : dto.ImageUrl.Trim();
-        item.OptionsJson  = System.Text.Json.JsonSerializer.Serialize(dto.Options);
+        item.Subject       = canonicalSubject!;
+        item.Grade         = dto.Grade;
+        item.Difficulty    = dto.Difficulty ?? item.Difficulty;
+        item.Topic         = dto.Topic?.Trim() ?? item.Topic;
+        item.SubTopic      = dto.SubTopic?.Trim() ?? item.SubTopic;
+        item.QuestionText  = dto.QuestionText.Trim();
+        item.ImageUrl      = string.IsNullOrWhiteSpace(dto.ImageUrl) ? null : dto.ImageUrl.Trim();
+        item.OptionsJson   = System.Text.Json.JsonSerializer.Serialize(dto.Options);
         item.CorrectAnswer = dto.CorrectAnswer!;
-        item.Explanation  = dto.Explanation?.Trim() ?? item.Explanation;
+        item.Explanation   = dto.Explanation?.Trim() ?? item.Explanation;
+
+        // Editing a question via CMS counts as a manual review
+        item.IsReviewed  = true;
+        item.ReviewedAt  = DateTime.UtcNow;
+        item.ReviewedBy  = User.FindFirst("sub")?.Value;
 
         await _db.SaveChangesAsync(ct);
         return Ok(new { message = "Question updated successfully." });
+    }
+
+    // ── PATCH /api/admin/questions/{id}/mark-reviewed ────────────────────────
+    // One-click "mark as reviewed" without editing the question content.
+    [HttpPatch("questions/{id:guid}/mark-reviewed")]
+    public async Task<IActionResult> MarkReviewed(Guid id, CancellationToken ct)
+    {
+        var item = await _db.QuestionBank.FindAsync(new object[] { id }, ct);
+        if (item is null) return NotFound(new { message = "Question not found." });
+
+        item.IsReviewed = true;
+        item.ReviewedAt = DateTime.UtcNow;
+        item.ReviewedBy = User.FindFirst("sub")?.Value;
+
+        await _db.SaveChangesAsync(ct);
+        return Ok(new { message = "Marked as reviewed.", reviewedAt = item.ReviewedAt });
     }
 
     // ---------------------------------------------------------------
