@@ -32,4 +32,17 @@ public class QuestionBankItem
     public string Explanation { get; set; } = "";
 
     public DateTime CreatedAt { get; set; }
+
+    // ── Review tracking ────────────────────────────────────────────────────────
+    /// <summary>
+    /// True when an admin has manually verified this question via the CMS.
+    /// AI-generated and script-imported questions default to false.
+    /// </summary>
+    public bool IsReviewed { get; set; } = false;
+
+    /// <summary>UTC timestamp of the last manual review action.</summary>
+    public DateTime? ReviewedAt { get; set; }
+
+    /// <summary>Clerk sub (userId) of the admin who last reviewed this question.</summary>
+    public string? ReviewedBy { get; set; }
 }

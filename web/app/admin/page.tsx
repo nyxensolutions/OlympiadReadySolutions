@@ -29,6 +29,7 @@ interface BankQuestion {
   questionBankId: string; subject: string; grade: number; difficulty: string;
   topic: string; subTopic?: string; questionText: string; imageUrl?: string;
   options: string[]; correctAnswer: string; explanation: string;
+  isReviewed: boolean; reviewedAt?: string; reviewedBy?: string;
 }
 interface LastAdded { subject: string; grade: number; topic: string; questionText: string; }
 
@@ -52,6 +53,7 @@ export default function AdminPage() {
 
   const [browseFilters, setBrowseFilters] = useState({
     subject: "", grade: "" as number | "", difficulty: "", topic: "", search: "", hasImage: false,
+    reviewStatus: "" as "" | "reviewed" | "unreviewed",
   });
   const [triggerSearch, setTriggerSearch] = useState(0);
 
@@ -716,7 +718,7 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
 function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted, onEdit, pendingUpdate, onUpdateConsumed }: {
 
   showToast: (t: Toast["type"], m: string) => void;
-  filters: { subject: string; grade: number | ""; difficulty: string; topic: string; search: string; hasImage: boolean };
+  filters: { subject: string; grade: number | ""; difficulty: string; topic: string; search: string; hasImage: boolean; reviewStatus: "" | "reviewed" | "unreviewed" };
   setFilters: React.Dispatch<React.SetStateAction<typeof filters>>;
   triggerSearch: number;
   onDeleted: () => void;
@@ -733,6 +735,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
   const [revealedIds, setRevealedIds]   = useState<Set<string>>(new Set());
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
   const [deleting, setDeleting]         = useState<string | null>(null);
+  const [markingReviewed, setMarkingReviewed] = useState<string | null>(null);
   const [jumpInput, setJumpInput]       = useState("");
   const sentinelRef                     = useRef<HTMLDivElement>(null);
   const PAGE_SIZE                       = 50;
@@ -760,6 +763,8 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
       if (filters.topic)     params.set("topic",      filters.topic);
       if (filters.search)    params.set("search",     filters.search);
       if (filters.hasImage)  params.set("hasImage",   "true");
+      if (filters.reviewStatus === "reviewed")   params.set("isReviewed", "true");
+      if (filters.reviewStatus === "unreviewed") params.set("isReviewed", "false");
       params.set("page",     String(p));
       params.set("pageSize", String(PAGE_SIZE));
 
@@ -798,7 +803,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
   }, [hasMore, loading, loadingMore, page, search]);
 
   function clearFilters() {
-    setFilters({ subject: "", grade: "", difficulty: "", topic: "", search: "", hasImage: false });
+    setFilters({ subject: "", grade: "", difficulty: "", topic: "", search: "", hasImage: false, reviewStatus: "" });
   }
 
   async function deleteQuestion(id: string) {
@@ -816,6 +821,23 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
     finally { setDeleting(null); }
   }
 
+  async function markAsReviewed(id: string) {
+    setMarkingReviewed(id);
+    try {
+      const res = await fetch(`${API_URL}/api/admin/questions/${id}/mark-reviewed`,
+        { method: "PATCH", headers: { "Authorization": `Bearer ${await getToken()}` } });
+      if (!res.ok) { showToast("error", "Could not mark as reviewed"); return; }
+      const data = await res.json();
+      setResults((prev) => prev.map((q) =>
+        q.questionBankId === id
+          ? { ...q, isReviewed: true, reviewedAt: data.reviewedAt }
+          : q
+      ));
+      showToast("success", "Marked as reviewed ✓");
+    } catch { showToast("error", "Network error"); }
+    finally { setMarkingReviewed(null); }
+  }
+
   function handleJump(e: React.FormEvent) {
     e.preventDefault();
     const p = parseInt(jumpInput, 10);
@@ -828,7 +850,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  const hasActiveFilters = filters.subject || filters.grade || filters.difficulty || filters.topic || filters.search || filters.hasImage;
+  const hasActiveFilters = filters.subject || filters.grade || filters.difficulty || filters.topic || filters.search || filters.hasImage || filters.reviewStatus;
 
   return (
     <div className="space-y-4 pb-10">
@@ -872,11 +894,22 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
             </div>
           </div>
           <div className="flex items-center justify-between gap-3 flex-wrap">
-            <label className="flex items-center gap-2 cursor-pointer select-none">
-              <input type="checkbox" checked={filters.hasImage} onChange={(e) => setFilters((f) => ({ ...f, hasImage: e.target.checked }))}
-                className="w-4 h-4 accent-indigo-500" />
-              <span className="text-sm text-slate-300">Image questions only</span>
-            </label>
+            <div className="flex items-center gap-4 flex-wrap">
+              <label className="flex items-center gap-2 cursor-pointer select-none">
+                <input type="checkbox" checked={filters.hasImage} onChange={(e) => setFilters((f) => ({ ...f, hasImage: e.target.checked }))}
+                  className="w-4 h-4 accent-indigo-500" />
+                <span className="text-sm text-slate-300">Image questions only</span>
+              </label>
+              <select
+                value={filters.reviewStatus}
+                onChange={(e) => setFilters((f) => ({ ...f, reviewStatus: e.target.value as "" | "reviewed" | "unreviewed" }))}
+                className="select text-sm py-1.5 pr-8"
+              >
+                <option value="">All review statuses</option>
+                <option value="reviewed">✓ Reviewed only</option>
+                <option value="unreviewed">⚠ Unreviewed only</option>
+              </select>
+            </div>
             <div className="flex gap-2 items-center">
               {hasActiveFilters && (
                 <button type="button" onClick={clearFilters}
@@ -929,7 +962,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
         const isDeletingThis  = deleting === q.questionBankId;
 
         return (
-          <div key={q.questionBankId} className="bg-slate-800 rounded-2xl p-5 space-y-3">
+          <div key={q.questionBankId} className={`bg-slate-800 rounded-2xl p-5 space-y-3 ${!q.isReviewed ? "ring-1 ring-amber-700/30" : ""}`}>
             {/* Header row */}
             <div className="flex items-start justify-between gap-2">
               <div className="flex flex-wrap gap-1.5">
@@ -937,8 +970,27 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                 <Chip>Grade {q.grade}</Chip>
                 <Chip>{q.difficulty}</Chip>
                 <Chip dim>{q.topic}{q.subTopic ? ` · ${q.subTopic}` : ""}</Chip>
+                {q.isReviewed
+                  ? <span className="inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold bg-emerald-900/50 text-emerald-400 border border-emerald-700/40">✓ Reviewed</span>
+                  : <span className="inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold bg-amber-900/40 text-amber-400 border border-amber-700/40">⚠ Unreviewed</span>
+                }
               </div>
               <div className="shrink-0 flex items-center gap-1">
+                {!q.isReviewed && !confirmingDelete && (
+                  <button
+                    type="button"
+                    onClick={() => markAsReviewed(q.questionBankId)}
+                    disabled={markingReviewed === q.questionBankId}
+                    className="flex items-center gap-1 text-xs text-amber-400 hover:text-emerald-300 transition px-2 py-1 rounded-lg hover:bg-emerald-900/20 disabled:opacity-50"
+                    title="Mark as manually reviewed"
+                  >
+                    {markingReviewed === q.questionBankId
+                      ? <span className="animate-spin w-3 h-3 border border-amber-400 border-t-transparent rounded-full" />
+                      : <CheckCircle size={13} />
+                    }
+                    Mark reviewed
+                  </button>
+                )}
                 {!confirmingDelete && (
                   <button type="button" onClick={() => onEdit(q)}
                     className="flex items-center gap-1 text-xs text-slate-400 hover:text-indigo-400 transition px-2 py-1 rounded-lg hover:bg-indigo-900/20">
