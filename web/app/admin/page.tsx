@@ -5,7 +5,7 @@ import { useAuth } from "@clerk/nextjs";
 import {
   Upload, X, CheckCircle, AlertCircle, Eye, EyeOff, ImageIcon, Type,
   Link, Search, PlusCircle, Trash2, RotateCcw, ArrowRight, Database,
-  Pencil, Save, ChevronDown, ChevronUp, Award,
+  Pencil, Save, ChevronDown, ChevronUp, Award, ClipboardPaste,
 } from "lucide-react";
 import { BadgesPanel } from "@/components/admin/BadgesPanel";
 import { ReportsPanel } from "@/components/admin/ReportsPanel";
@@ -1138,22 +1138,44 @@ function ImageInput({ slotKey, inputRef, uploading, onFile, onUrl, compact = fal
   slotKey: string; inputRef: React.RefObject<HTMLInputElement>; uploading: boolean;
   onFile: (f: File) => void; onUrl: (url: string) => void; compact?: boolean;
 }) {
-  const [tab, setTab] = useState<"upload" | "url">("upload");
+  const [tab, setTab]         = useState<"upload" | "url" | "paste">("upload");
   const [urlValue, setUrlValue] = useState("");
+  const [pasteActive, setPasteActive] = useState(false); // true when zone is focused & ready
+  const pasteZoneRef = useRef<HTMLDivElement>(null);
+
+  // Focus the paste zone automatically when the tab is selected
+  useEffect(() => {
+    if (tab === "paste") pasteZoneRef.current?.focus();
+  }, [tab]);
+
+  function handlePasteEvent(e: React.ClipboardEvent<HTMLDivElement>) {
+    const items = Array.from(e.clipboardData?.items ?? []);
+    const imgItem = items.find((item) => item.type.startsWith("image/"));
+    if (!imgItem) return;
+    const file = imgItem.getAsFile();
+    if (file) onFile(file);
+  }
+
+  const tabCls = (t: typeof tab) =>
+    `flex-1 flex items-center justify-center gap-1.5 py-1.5 text-xs font-medium transition
+     ${tab === t ? "bg-slate-700 text-indigo-400" : "text-slate-400 hover:text-slate-200"}`;
+
   return (
     <div className="border-2 border-dashed border-slate-600 rounded-xl overflow-hidden">
+      {/* ── Tab bar ── */}
       <div className="flex border-b border-slate-700">
-        <button type="button" onClick={() => setTab("upload")}
-          className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 text-xs font-medium transition
-            ${tab === "upload" ? "bg-slate-700 text-indigo-400" : "text-slate-400 hover:text-slate-200"}`}>
+        <button type="button" onClick={() => setTab("upload")} className={tabCls("upload")}>
           <Upload size={12} /> Upload
         </button>
-        <button type="button" onClick={() => setTab("url")}
-          className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 text-xs font-medium transition
-            ${tab === "url" ? "bg-slate-700 text-indigo-400" : "text-slate-400 hover:text-slate-200"}`}>
+        <button type="button" onClick={() => setTab("url")} className={tabCls("url")}>
           <Link size={12} /> Paste URL
         </button>
+        <button type="button" onClick={() => setTab("paste")} className={tabCls("paste")}>
+          <ClipboardPaste size={12} /> Paste Image
+        </button>
       </div>
+
+      {/* ── Upload tab ── */}
       {tab === "upload" && (
         <div onClick={() => !uploading && inputRef.current?.click()}
           className={`flex flex-col items-center justify-center cursor-pointer text-slate-400 hover:text-indigo-400 transition ${compact ? "py-4" : "py-7"}`}>
@@ -1167,6 +1189,8 @@ function ImageInput({ slotKey, inputRef, uploading, onFile, onUrl, compact = fal
             onChange={(e) => { const f = e.target.files?.[0]; if (f) onFile(f); }} />
         </div>
       )}
+
+      {/* ── URL tab ── */}
       {tab === "url" && (
         <div className="p-3 space-y-2">
           <p className="text-xs text-slate-400">Paste any public image URL (R2, S3, etc.)</p>
@@ -1179,6 +1203,36 @@ function ImageInput({ slotKey, inputRef, uploading, onFile, onUrl, compact = fal
               Use
             </button>
           </div>
+        </div>
+      )}
+
+      {/* ── Paste Image tab ── */}
+      {tab === "paste" && (
+        <div
+          ref={pasteZoneRef}
+          tabIndex={0}
+          onFocus={() => setPasteActive(true)}
+          onBlur={() => setPasteActive(false)}
+          onPaste={handlePasteEvent}
+          onClick={() => pasteZoneRef.current?.focus()}
+          className={`flex flex-col items-center justify-center cursor-pointer outline-none transition select-none
+            ${compact ? "py-4" : "py-7"}
+            ${pasteActive
+              ? "bg-indigo-500/10 ring-2 ring-inset ring-indigo-500/60 text-indigo-300"
+              : "text-slate-400 hover:text-indigo-400"}`}
+        >
+          <ClipboardPaste size={compact ? 18 : 22} className="mb-1" />
+          {pasteActive ? (
+            <>
+              <p className={`${compact ? "text-xs" : "text-sm"} font-semibold`}>Ready — press Ctrl+V or ⌘V</p>
+              {!compact && <p className="text-xs text-slate-400 mt-0.5">Works with screenshots &amp; cropped images</p>}
+            </>
+          ) : (
+            <>
+              <p className={compact ? "text-xs" : "text-sm"}>Click here, then press Ctrl+V</p>
+              {!compact && <p className="text-xs text-slate-500 mt-0.5">Screenshot or copied image — no need to save a file first</p>}
+            </>
+          )}
         </div>
       )}
     </div>
