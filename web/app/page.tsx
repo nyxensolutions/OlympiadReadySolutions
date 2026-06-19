@@ -79,11 +79,11 @@ export default function Home({
                 {[
                   {
                     q: "How many free online attempts do I get?",
-                    a: "Free users get 5 total online practice attempts across any class or subject. These attempts use our premium AI generation engine.",
+                    a: "Free users get 15 practice papers across any class or subject — enough to properly experience the platform before deciding to subscribe.",
                   },
                   {
                     q: "What happens if I subscribe to a subject?",
-                    a: "Subscribed subjects unlock unlimited online practice! They no longer count towards your 5 free global attempts, allowing you to master those subjects fully.",
+                    a: "Subscribed subjects unlock unlimited online practice and AI-generated questions! They no longer count towards your free attempt limit, allowing you to master those subjects fully.",
                   },
                   {
                     q: "Can I subscribe to all subjects?",
@@ -91,7 +91,7 @@ export default function Home({
                   },
                   {
                     q: "Is there an AI Tutor to help me?",
-                    a: "Yes! Every question includes an Interactive AI Doubt Chatbot. Free users get 5 free chats across all tests. Upgrading unlocks unlimited chats for that subject (up to 20 chats per question).",
+                    a: "Yes! Every question includes an Interactive AI Doubt Chatbot. Free users get 10 free chats across all tests. Upgrading unlocks unlimited chats for that subject (up to 20 chats per question).",
                   },
                   {
                     q: "Do I get PDF downloads with my subscription?",

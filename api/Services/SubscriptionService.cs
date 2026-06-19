@@ -7,7 +7,7 @@ namespace OlympiadReady.Api.Services;
 
 public class SubscriptionService
 {
-    public const int GlobalFreeAttemptsLimit = 5;
+    public const int GlobalFreeAttemptsLimit = 15;
 
     // Retained for backward-compat/analytics on the per-subscription counter; no longer the AI gate.
     public const int PaidAiGenerationLimit = 50;
@@ -56,23 +56,40 @@ public class SubscriptionService
 
     /// <summary>
     /// Checks if a user is allowed to generate an online test for the given Grade/Subject.
-    /// Allowed if they have unlocked the subject OR if they haven't exhausted their free global attempts.
+    /// Allowed if: subject is unlocked, OR within 7-day trial, OR school pilot is active,
+    /// OR free lifetime attempts remain.
     /// </summary>
     public async Task<bool> CanGenerateOnlineTestAsync(Guid userId, int grade, string subject, CancellationToken ct = default)
     {
         if (await HasUnlockedSubjectAsync(userId, grade, subject, ct))
-        {
-            return true; // Unlocked subjects have unlimited DB practice.
-        }
+            return true;
 
-        var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
-        return user != null && user.FreeAttemptsUsed < GlobalFreeAttemptsLimit;
+        var user = await _db.Users
+            .Include(u => u.School)
+            .FirstOrDefaultAsync(u => u.UserId == userId, ct);
+
+        if (user == null) return false;
+
+        // Active school pilot
+        if (user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value)
+            return true;
+
+        return user.FreeAttemptsUsed < GlobalFreeAttemptsLimit;
+    }
+
+    /// <summary>Returns true if the user is currently on an active school pilot.</summary>
+    public async Task<bool> IsSchoolPilotActiveAsync(Guid userId, CancellationToken ct)
+    {
+        var user = await _db.Users
+            .Include(u => u.School)
+            .FirstOrDefaultAsync(u => u.UserId == userId, ct);
+        return user?.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value;
     }
 
     /// <summary>
     /// Account-wide AI credit budget for the current period. Scales with the number of
     /// distinct unlocked subjects but is capped so an "All Subjects" bundle cannot
-    /// multiply AI spend. Free accounts (no active unlocks) get 0.
+    /// multiply AI spend. School pilot accounts get a single-subject budget. Free accounts get 0.
     /// </summary>
     public async Task<int> GetMonthlyAiBudgetAsync(Guid userId, CancellationToken ct = default)
     {
@@ -82,7 +99,13 @@ public class SubscriptionService
             .Distinct()
             .CountAsync(ct);
 
-        if (activeSubjects == 0) return 0;
+        if (activeSubjects == 0)
+        {
+            // School pilot students get a single-subject equivalent AI budget
+            if (await IsSchoolPilotActiveAsync(userId, ct))
+                return CreditsPerSubject;
+            return 0;
+        }
         return Math.Min(activeSubjects * CreditsPerSubject, MaxMonthlyAiCredits);
     }
 
@@ -104,8 +127,10 @@ public class SubscriptionService
     /// </summary>
     public async Task<bool> ShouldUseHybridAiAsync(Guid userId, int grade, string subject, string difficulty, CancellationToken ct = default)
     {
-        // Must own this subject to get fresh AI at all.
-        if (!await HasUnlockedSubjectAsync(userId, grade, subject, ct))
+        // School pilot students get AI access without requiring a paid subscription.
+        bool isPilot = await IsSchoolPilotActiveAsync(userId, ct);
+
+        if (!isPilot && !await HasUnlockedSubjectAsync(userId, grade, subject, ct))
             return false;
 
         var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
@@ -154,10 +179,25 @@ public class SubscriptionService
         }
         else
         {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
+            var user = await _db.Users
+                .Include(u => u.School)
+                .FirstOrDefaultAsync(u => u.UserId == userId, ct);
             if (user != null)
             {
-                user.FreeAttemptsUsed++;
+                bool pilotActive = user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value;
+                if (pilotActive)
+                {
+                    // Track AI credits for school pilot students without consuming free attempts
+                    if (usedHybridAi)
+                    {
+                        EnsureCurrentAiPeriod(user);
+                        user.AiCreditsUsed += AiCreditCostForDifficulty(difficulty);
+                    }
+                }
+                else
+                {
+                    user.FreeAttemptsUsed++;
+                }
             }
         }
 
@@ -211,7 +251,10 @@ public class SubscriptionService
     /// </summary>
     public async Task<object> GetSubscriptionSummaryAsync(Guid userId, CancellationToken ct = default)
     {
-        var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
+        var user = await _db.Users
+            .Include(u => u.School)
+            .FirstOrDefaultAsync(u => u.UserId == userId, ct);
+
         var activeSubsDb = await _db.Subscriptions
             .Where(s => s.UserId == userId && s.EndDate > DateTime.UtcNow)
             .ToListAsync(ct);
@@ -231,12 +274,26 @@ public class SubscriptionService
             || (DateTime.UtcNow - user.AiPeriodStart).TotalDays >= AiPeriodDays;
         int aiCreditsUsed = periodElapsed ? 0 : user!.AiCreditsUsed;
 
+        bool onTrial = user?.TrialExpiresAt.HasValue == true && DateTime.UtcNow < user.TrialExpiresAt!.Value;
+        bool onSchoolPilot = user?.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School!.PilotEndsAt!.Value;
+
+        string tier = activeSubs.Any() ? "Modular" : (onSchoolPilot ? "School" : "Free");
+
         return new
         {
-            tier = activeSubs.Any() ? "Modular" : "Free",
+            tier,
             used = user?.FreeAttemptsUsed ?? 0,
             limit = GlobalFreeAttemptsLimit,
-            allowed = (user?.FreeAttemptsUsed ?? 0) < GlobalFreeAttemptsLimit || activeSubs.Any(),
+            allowed = onTrial || onSchoolPilot || (user?.FreeAttemptsUsed ?? 0) < GlobalFreeAttemptsLimit || activeSubs.Any(),
+            onTrial,
+            trialExpiresAt = user?.TrialExpiresAt,
+            onSchoolPilot,
+            school = user?.School == null ? null : new
+            {
+                name = user.School.Name,
+                logoUrl = user.School.LogoUrl,
+                pilotEndsAt = user.School.PilotEndsAt
+            },
             aiCreditsUsed,
             aiCreditsLimit = aiBudget,
             activeUnlocks = activeSubs

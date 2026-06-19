@@ -85,9 +85,21 @@ public class BillingController : ControllerBase
             })
             .ToListAsync(ct);
 
+        bool onSchoolPilot = await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
+        var schoolInfo = onSchoolPilot
+            ? await _db.Users.Include(u => u.School)
+                .Where(u => u.UserId == user.UserId)
+                .Select(u => u.School == null ? null : new { u.School.Name, u.School.LogoUrl, u.School.PilotEndsAt })
+                .FirstOrDefaultAsync(ct)
+            : null;
+
+        string tier = subscriptions.Any(s => s.isActive) ? "Modular" : (onSchoolPilot ? "School" : "Free");
+
         return Ok(new
         {
-            currentTier   = subscriptions.Any(s => s.isActive) ? "Modular" : "Free",
+            currentTier   = tier,
+            onSchoolPilot,
+            school        = schoolInfo,
             freeAttemptsUsed = user.FreeAttemptsUsed,
             freeAttemptsLimit = SubscriptionService.GlobalFreeAttemptsLimit,
             subscriptions,

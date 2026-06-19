@@ -16,12 +16,14 @@ public class TutorController : ControllerBase
     private readonly AppDbContext _db;
     private readonly AiTutorService _tutor;
     private readonly UserService _users;
+    private readonly SubscriptionService _subs;
 
-    public TutorController(AppDbContext db, AiTutorService tutor, UserService users)
+    public TutorController(AppDbContext db, AiTutorService tutor, UserService users, SubscriptionService subs)
     {
         _db = db;
         _tutor = tutor;
         _users = users;
+        _subs = subs;
     }
 
     [HttpGet("quota")]
@@ -32,9 +34,10 @@ public class TutorController : ControllerBase
 
         await _db.Entry(user).Collection(u => u.Subscriptions).LoadAsync(ct);
 
-        bool hasPaidAccess = user.Subscriptions.Any(s =>
-            s.IsActive && 
-            (s.Subject.Equals(subject, StringComparison.OrdinalIgnoreCase) || 
+        bool onSchoolPilot = await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
+        bool hasPaidAccess = onSchoolPilot || user.Subscriptions.Any(s =>
+            s.IsActive &&
+            (s.Subject.Equals(subject, StringComparison.OrdinalIgnoreCase) ||
              s.Subject.Equals("All Subjects", StringComparison.OrdinalIgnoreCase))
         );
 
@@ -50,19 +53,20 @@ public class TutorController : ControllerBase
         // Ensure subscriptions are loaded since GetOrSyncAsync might not Include them
         await _db.Entry(user).Collection(u => u.Subscriptions).LoadAsync(ct);
 
-        // 1. Check if user has an active subscription for this Subject or "All Subjects"
-        bool hasPaidAccess = user.Subscriptions.Any(s =>
-            s.IsActive && 
-            (s.Subject.Equals(req.Subject, StringComparison.OrdinalIgnoreCase) || 
+        // 1. Check if user has paid access or is on an active school pilot
+        bool onSchoolPilot = await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
+        bool hasPaidAccess = onSchoolPilot || user.Subscriptions.Any(s =>
+            s.IsActive &&
+            (s.Subject.Equals(req.Subject, StringComparison.OrdinalIgnoreCase) ||
              s.Subject.Equals("All Subjects", StringComparison.OrdinalIgnoreCase))
         );
 
         // 2. If not paid for this subject, check free quota
         if (!hasPaidAccess)
         {
-            if (user.FreeAiTutorChatsUsed >= 5)
+            if (user.FreeAiTutorChatsUsed >= 10)
             {
-                return StatusCode(403, new { message = "You have used all 5 of your free AI Tutor chats! Please upgrade to continue chatting." });
+                return StatusCode(403, new { message = "You have used all 10 of your free AI Tutor chats! Subscribe to any subject to continue chatting." });
             }
 
             // Increment quota

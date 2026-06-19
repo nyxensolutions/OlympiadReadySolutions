@@ -3,14 +3,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X, Sparkles, Target } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   SignedIn,
   SignedOut,
   SignInButton,
   SignUpButton,
-  UserButton
+  UserButton,
+  useAuth
 } from "@clerk/nextjs";
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 import { PurchasesPanel } from "./PurchasesPanel";
 import { UpgradeModal } from "./UpgradeModal";
 import { NotificationsDropdown } from "./NotificationsDropdown";
@@ -26,9 +29,44 @@ export type ActivePage =
   | "spell-bee"
   | "blog";
 
+type SchoolInfo = { name: string; logoUrl?: string };
+
 export function AppHeader({ active }: { active?: ActivePage }) {
+  const { getToken, isSignedIn, isLoaded } = useAuth();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [upgradeOpen, setUpgradeOpen] = useState(false);
+  const [school, setSchool] = useState<SchoolInfo | null>(null);
+
+  useEffect(() => {
+    if (!isLoaded) return; // Wait for Clerk auth state — isSignedIn is undefined until then
+    // If signed out, clear any stale school info and hide the logo
+    if (!isSignedIn) {
+      setSchool(null);
+      localStorage.removeItem("schoolInfo");
+      return;
+    }
+    // First try localStorage (fast, no network)
+    const raw = localStorage.getItem("schoolInfo");
+    if (raw) {
+      try { setSchool(JSON.parse(raw)); return; } catch { /* fall through */ }
+    }
+    // If not cached, fetch from API (handles cross-device sessions)
+    (async () => {
+      try {
+        const token = await getToken();
+        const res = await fetch(`${API_URL}/api/dashboard/subscription`, {
+          headers: token ? { Authorization: `Bearer ${token}` } : {}
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (data.school) {
+            setSchool({ name: data.school.name, logoUrl: data.school.logoUrl });
+            localStorage.setItem("schoolInfo", JSON.stringify({ name: data.school.name, logoUrl: data.school.logoUrl }));
+          }
+        }
+      } catch { /* ignore */ }
+    })();
+  }, [isLoaded, isSignedIn]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>
@@ -47,6 +85,19 @@ export function AppHeader({ active }: { active?: ActivePage }) {
             />
           </div>
           <span className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 shrink-0">OlympiadReady</span>
+          {school && (
+            <div className="hidden sm:flex items-center gap-2 ml-2 pl-2 border-l border-slate-200">
+              {school.logoUrl ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={school.logoUrl} alt={school.name} className="h-9 w-9 object-contain rounded shrink-0" />
+              ) : (
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-100 text-brand-700 text-sm font-bold">
+                  {school.name.charAt(0)}
+                </div>
+              )}
+              <span className="text-xs font-medium text-slate-500 max-w-[100px] truncate">{school.name}</span>
+            </div>
+          )}
         </Link>
 
         {/* Center nav — signed-out: anchor links; signed-in: app nav */}

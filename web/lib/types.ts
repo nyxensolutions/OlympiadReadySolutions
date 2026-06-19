@@ -12,9 +12,11 @@ export type Question = {
 
 export type DashboardSummary = {
   subscription: {
-    tier: "Free" | "Pro" | "Modular";
+    tier: "Free" | "Pro" | "Modular" | "School";
     used: number;
     limit: number;
+    onSchoolPilot?: boolean;
+    school?: { name: string; logoUrl?: string; pilotEndsAt?: string } | null;
     activeUnlocks?: Array<{
       grade: number;
       subject: string;
@@ -112,10 +114,12 @@ export function recommendNextDifficulty(
 }
 
 export type SubscriptionStatus = {
-  tier: "Free" | "Pro" | "Modular";
+  tier: "Free" | "Pro" | "Modular" | "School";
   used: number;
   limit: number;
   allowed: boolean;
+  onSchoolPilot?: boolean;
+  school?: { name: string; logoUrl?: string; pilotEndsAt?: string } | null;
   activeUnlocks?: Array<{
     grade: number;
     subject: string;

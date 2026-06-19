@@ -32,4 +32,12 @@ public class User
 
     /// <summary>Start of the current 30-day AI-credit period. Rolls forward on first use after expiry.</summary>
     public DateTime AiPeriodStart { get; set; }
+
+    /// <summary>When the 7-day unlimited free trial expires. Set on first user creation.</summary>
+    public DateTime? TrialExpiresAt { get; set; }
+
+    /// <summary>School the student belongs to (set via invite code during onboarding).</summary>
+    public Guid? SchoolId { get; set; }
+    public School? School { get; set; }
+    public DateTime? SchoolJoinedAt { get; set; }
 }

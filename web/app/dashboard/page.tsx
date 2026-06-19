@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BarChart2, BookOpen, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy, Award } from "lucide-react";
+import { BarChart2, BookOpen, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy, Award, School as SchoolIcon, CheckCircle2 } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import { AppHeader } from "@/components/AppHeader";
 import { AuthGate } from "@/components/AuthGate";
@@ -285,6 +285,7 @@ function getHierarchyTitle(earnedCount: number, totalCount: number) {
 
 export default function DashboardPage() {
   const [showOnboarding, setShowOnboarding] = useState(false);
+  const { getToken } = useAuth();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -294,17 +295,36 @@ export default function DashboardPage() {
     }
   }, []);
 
+  const handleOnboardingComplete = async (data: import("@/components/OnboardingModal").OnboardingData) => {
+    localStorage.setItem("hasCompletedOnboarding", "true");
+    localStorage.setItem("onboardingGrade", String(data.grade));
+    localStorage.setItem("onboardingSubject", data.subject);
+    setShowOnboarding(false);
+
+    if (data.schoolInviteCode) {
+      try {
+        const token = await getToken();
+        const res = await fetch(`${API_URL}/api/schools/join`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+          body: JSON.stringify({ inviteCode: data.schoolInviteCode }),
+        });
+        if (res.ok) {
+          const school = await res.json();
+          localStorage.setItem("schoolInfo", JSON.stringify({ name: school.name, logoUrl: school.logoUrl }));
+        }
+      } catch {
+        // Non-fatal — user is still onboarded
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen bg-slate-50">
       <AppHeader active="dashboard" />
       <AuthGate>
         {showOnboarding && (
-          <OnboardingModal
-            onComplete={() => {
-              localStorage.setItem("hasCompletedOnboarding", "true");
-              setShowOnboarding(false);
-            }}
-          />
+          <OnboardingModal onComplete={handleOnboardingComplete} />
         )}
         <DashboardBody />
       </AuthGate>
@@ -341,6 +361,15 @@ function DashboardBody() {
         const summary: DashboardSummary = await res.json();
         if (!cancelled) {
           setData(summary);
+          // Keep AppHeader's school logo in sync with fresh API data
+          if (summary.subscription.school) {
+            localStorage.setItem("schoolInfo", JSON.stringify({
+              name: summary.subscription.school.name,
+              logoUrl: summary.subscription.school.logoUrl,
+            }));
+          } else {
+            localStorage.removeItem("schoolInfo");
+          }
           const tier = summary.subscription.tier as "Free" | "Pro";
           const ss = getShieldState(tier);
           setShieldState({ shields: ss.shields, usedDates: ss.usedDates });
@@ -380,8 +409,11 @@ function DashboardBody() {
   const earnedCount = badges.filter((b) => b.earned).length;
   const currentTitle = getHierarchyTitle(earnedCount, badges.length);
 
-  // Grade for daily quiz: most recent paper's grade, fallback 6
-  const preferredGrade = data.papers[0]?.grade ?? 6;
+  // Grade + subject for daily quiz: most recent paper, then onboarding prefs, then defaults
+  const onboardingGrade = typeof window !== "undefined" ? Number(localStorage.getItem("onboardingGrade") || 0) : 0;
+  const onboardingSubject = typeof window !== "undefined" ? localStorage.getItem("onboardingSubject") || "" : "";
+  const preferredGrade = data.papers[0]?.grade ?? (onboardingGrade || 6);
+  const preferredSubject = data.papers[0]?.subject ?? (onboardingSubject || "Mathematics");
 
   const avg =
     data.results.length === 0
@@ -434,7 +466,10 @@ function DashboardBody() {
                 tier: data.subscription.tier,
                 used: data.subscription.used,
                 limit: data.subscription.limit,
-                allowed: data.subscription.used < data.subscription.limit
+                allowed: data.subscription.onSchoolPilot || data.subscription.used < data.subscription.limit,
+                onSchoolPilot: data.subscription.onSchoolPilot,
+                school: data.subscription.school,
+                activeUnlocks: data.subscription.activeUnlocks,
               }}
             />
             <button
@@ -507,18 +542,18 @@ function DashboardBody() {
             <div className="flex-1">
               <p className="text-sm font-bold text-slate-700">No active streak</p>
               <p className="text-xs text-slate-500">
-                {data.subscription.tier === "Pro" && shieldState.shields > 0
+                {(data.subscription.tier === "Pro" || data.subscription.tier === "School") && shieldState.shields > 0
                   ? "Use a streak shield to protect yesterday's progress, or practise today to start a new streak."
                   : "Practise today to start building your streak!"}
               </p>
             </div>
-            {data.subscription.tier === "Pro" && shieldState.shields > 0 && (
+            {(data.subscription.tier === "Pro" || data.subscription.tier === "School") && shieldState.shields > 0 && (
               <button
                 type="button"
                 onClick={() => {
-                  const ok = consumeShield(data.subscription.tier as "Free" | "Pro");
+                  const ok = consumeShield("Pro");
                   if (ok) {
-                    const updated = getShieldState(data.subscription.tier as "Free" | "Pro");
+                    const updated = getShieldState("Pro");
                     setShieldState({ shields: updated.shields, usedDates: updated.usedDates });
                   }
                 }}
@@ -584,7 +619,7 @@ function DashboardBody() {
         </div>
 
         {/* Daily quiz */}
-        <DailyQuizCard grade={preferredGrade} />
+        <DailyQuizCard grade={preferredGrade} subject={preferredSubject} />
 
         {/* Weekly report */}
         <WeeklyReport results={data.results} />
@@ -745,6 +780,13 @@ function DashboardBody() {
           </div>
         </section>
 
+        {/* School membership */}
+        <SchoolCard
+          school={data.subscription.school ?? null}
+          onSchoolPilot={data.subscription.onSchoolPilot ?? false}
+          onJoined={() => window.location.reload()}
+        />
+
         {/* Billing / Purchases History */}
         <div id="purchases" className="scroll-mt-24">
           <BillingHistoryCard onPurchaseMore={() => setShowUpgrade(true)} />
@@ -862,6 +904,128 @@ function WeeklyReport({ results }: { results: DashboardSummary["results"] }) {
 
         <p className="mt-4 text-xs italic text-slate-500">{motivation}</p>
       </div>
+    </section>
+  );
+}
+
+function SchoolCard({
+  school,
+  onSchoolPilot,
+  onJoined,
+}: {
+  school: { name: string; logoUrl?: string; pilotEndsAt?: string } | null;
+  onSchoolPilot: boolean;
+  onJoined: () => void;
+}) {
+  const { getToken } = useAuth();
+  const [code, setCode] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [success, setSuccess] = useState(false);
+
+  if (onSchoolPilot && school) {
+    const daysLeft = school.pilotEndsAt
+      ? Math.max(0, Math.ceil((new Date(school.pilotEndsAt).getTime() - Date.now()) / 86_400_000))
+      : null;
+    return (
+      <section className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6 shadow-sm">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="inline-flex rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 p-2.5 text-white shadow-sm">
+            <SchoolIcon className="h-5 w-5" />
+          </div>
+          <div>
+            <h2 className="text-lg font-semibold text-slate-900">School Pilot</h2>
+            <p className="text-xs text-emerald-700">Full access provided by your school</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 rounded-xl border border-emerald-200 bg-white p-4">
+          {school.logoUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={school.logoUrl} alt={school.name} className="h-12 w-12 rounded-lg object-contain border border-slate-200" />
+          ) : (
+            <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-100 text-emerald-700 text-xl font-bold">
+              {school.name.charAt(0)}
+            </div>
+          )}
+          <div className="flex-1">
+            <p className="font-bold text-slate-900">{school.name}</p>
+            {daysLeft !== null && (
+              <p className="text-xs text-slate-500 mt-0.5">
+                {daysLeft > 0 ? `Pilot access expires in ${daysLeft} day${daysLeft === 1 ? "" : "s"}` : "Pilot period has ended"}
+              </p>
+            )}
+          </div>
+          <div className="flex items-center gap-1.5 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
+            <CheckCircle2 className="h-3.5 w-3.5" /> Active
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  async function handleJoin(e: React.FormEvent) {
+    e.preventDefault();
+    if (!code.trim()) return;
+    setLoading(true);
+    setError(null);
+    try {
+      const token = await getToken();
+      const res = await fetch(`${API_URL}/api/schools/join`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ inviteCode: code.trim().toUpperCase() }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        localStorage.setItem("schoolInfo", JSON.stringify({ name: data.name, logoUrl: data.logoUrl }));
+        setSuccess(true);
+        setTimeout(onJoined, 1200);
+      } else {
+        const err = await res.json().catch(() => ({}));
+        setError(err.message ?? "Invalid or expired invite code.");
+      }
+    } catch {
+      setError("Could not connect. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <div className="flex items-center gap-3 mb-4">
+        <div className="inline-flex rounded-xl bg-gradient-to-br from-violet-500 to-indigo-600 p-2.5 text-white shadow-sm">
+          <SchoolIcon className="h-5 w-5" />
+        </div>
+        <div>
+          <h2 className="text-lg font-semibold text-slate-900">School Access</h2>
+          <p className="text-xs text-slate-500">Enter your school&apos;s invite code for free full access</p>
+        </div>
+      </div>
+      {success ? (
+        <div className="flex items-center gap-2 rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-sm font-medium text-emerald-700">
+          <CheckCircle2 className="h-4 w-4" /> Joined! Refreshing your access…
+        </div>
+      ) : (
+        <form onSubmit={handleJoin} className="flex gap-2">
+          <input
+            type="text"
+            value={code}
+            onChange={(e) => { setCode(e.target.value.toUpperCase()); setError(null); }}
+            placeholder="e.g. DELA2526"
+            maxLength={12}
+            className="flex-1 rounded-xl border border-slate-300 bg-slate-50 px-4 py-2.5 text-sm font-mono tracking-widest focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
+          />
+          <button
+            type="submit"
+            disabled={loading || !code.trim()}
+            className="inline-flex items-center gap-1.5 rounded-xl bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-50"
+          >
+            {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : "Join"}
+          </button>
+        </form>
+      )}
+      {error && <p className="mt-2 text-xs font-medium text-red-600">{error}</p>}
     </section>
   );
 }
