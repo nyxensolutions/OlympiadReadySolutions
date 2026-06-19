@@ -51,20 +51,27 @@ public class QuestionBankService
 
         var available = await baseQuery.CountAsync(ct);
 
-        if (available < count)
+        if (available == 0)
         {
             if (topic != null)
             {
                 _log.LogInformation(
-                    "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty} topic={Topic}; falling back to any topic",
-                    available, subject, grade, difficulty ?? "any", topic);
+                    "QuestionBank: 0 questions for {Subject} G{Grade} {Difficulty} topic={Topic}; falling back to any topic",
+                    subject, grade, difficulty ?? "any", topic);
                 return await TryGetRandomAsync(subject, grade, difficulty, count, null, ct, excludeIds);
             }
-
             _log.LogInformation(
-                "QuestionBank: only {Available} questions for {Subject} G{Grade} {Difficulty}; need {Count}",
-                available, subject, grade, difficulty ?? "any", count);
+                "QuestionBank: 0 questions for {Subject} G{Grade} {Difficulty}",
+                subject, grade, difficulty ?? "any");
             return null;
+        }
+
+        if (available < count)
+        {
+            _log.LogInformation(
+                "QuestionBank: only {Available}/{Count} for {Subject} G{Grade} {Difficulty}; returning what we have",
+                available, count, subject, grade, difficulty ?? "any");
+            count = available;
         }
                 
         // Avoid ORDER BY NEWID() in SQL Server as it causes timeouts on large tables.
