@@ -150,8 +150,16 @@ export function ConfigForm({
   const [subject, setSubject] = useState<string>(initialConfig?.subject ?? "Mathematics");
   const [grade, setGrade] = useState<number>(initialConfig?.grade ?? 1);
 
+  // Sync subject/grade when initialConfig is pushed in from outside (e.g. onboarding completion
+  // when the olympiad key doesn't change, so the component doesn't remount).
   useEffect(() => {
-    if (!initialConfig?.grade && typeof window !== "undefined") {
+    if (initialConfig?.subject) setSubject(initialConfig.subject);
+  }, [initialConfig?.subject]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    if (initialConfig?.grade) {
+      setGrade(initialConfig.grade);
+    } else if (typeof window !== "undefined") {
       const stored = localStorage.getItem("olympiad_grade");
       if (stored) {
         const storedGrade = Number(stored);
@@ -178,7 +186,7 @@ export function ConfigForm({
     }
   }, [initialConfig?.mistakesOnly]);
 
-  const isCurrentUnlocked = status?.tier === "Pro" || (status?.activeUnlocks?.some((u) => u.grade === grade && u.subject.toLowerCase() === subject.toLowerCase()) ?? false);
+  const isCurrentUnlocked = status?.tier === "Pro" || status?.tier === "School" || (status?.activeUnlocks?.some((u) => u.grade === grade && u.subject.toLowerCase() === subject.toLowerCase()) ?? false);
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);

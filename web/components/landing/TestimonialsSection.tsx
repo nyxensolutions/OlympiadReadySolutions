@@ -4,31 +4,34 @@ import { Star } from "lucide-react";
 
 const TESTIMONIALS = [
   {
-    name: "Aarav Patel",
-    role: "Class 10 Student",
-    school: "Delhi Public School, Noida",
+    name: "Sunita Sharma",
+    role: "Parent of Class 6 student",
+    school: "Delhi Public School, R.K. Puram",
     content:
-      "My NSO score improved by 40 marks in one month. The AI explanations are incredible — every wrong answer becomes a learning moment instead of just a red mark.",
-    avatar: "AP",
+      "My son qualified for SOF IMO Level 2 this year — first time in his school! He practiced 15 minutes a day on OlympiadReady. Less than ₹129 a month is nothing compared to the ₹800/hr tutor we were considering.",
+    avatar: "SS",
     gradient: "from-brand-600 to-accent-600",
+    tag: "IMO Level 2 qualifier",
   },
   {
-    name: "Priya Singh",
-    role: "Class 8 Student",
-    school: "Cathedral & John Connon School, Mumbai",
+    name: "Kavitha Reddy",
+    role: "Parent of Class 4 student",
+    school: "Kendriya Vidyalaya, Hyderabad",
     content:
-      "I love the mastery heatmap — it showed me I was weak in Mensuration even when I thought I was fine. Fixed that in two sessions. The timed tests are exactly like the real exam.",
-    avatar: "PS",
+      "I was sceptical — my daughter has tried many apps. But the questions here are actually at the right level. She got a Gold Medal in NSO this year. The timed tests gave her confidence for the real exam.",
+    avatar: "KR",
     gradient: "from-violet-500 to-brand-600",
+    tag: "NSO Gold Medal",
   },
   {
-    name: "Rohan Gupta",
+    name: "Arjun Mehta",
     role: "Class 9 Student",
-    school: "Bombay International School",
+    school: "Ryan International School, Bengaluru",
     content:
-      "Best part? Every paper is completely different. No more feeling like I'm re-doing the same questions. Already qualified for nationals in Math Olympiad this year!",
-    avatar: "RG",
+      "Every paper is different — I never feel like I'm redoing questions. The AI explanation shows exactly where I went wrong. Cleared IEO Level 1 and 2 both this year after just 3 weeks of practice.",
+    avatar: "AM",
     gradient: "from-emerald-500 to-brand-600",
+    tag: "IEO Level 1 & 2 cleared",
   },
 ];
 
@@ -49,16 +52,19 @@ export function TestimonialsSection() {
         </div>
 
         <div className="grid gap-8 sm:grid-cols-3">
-          {TESTIMONIALS.map(({ name, role, school, content, avatar, gradient }) => (
+          {TESTIMONIALS.map(({ name, role, school, content, avatar, gradient, tag }) => (
             <div
               key={name}
               className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-8 transition hover:shadow-lg"
             >
-              {/* Stars */}
-              <div className="mb-4 flex gap-1">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="h-4 w-4 fill-achiever-600 text-achiever-600" />
-                ))}
+              {/* Stars + tag */}
+              <div className="mb-4 flex items-center justify-between gap-2">
+                <div className="flex gap-1">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star key={i} className="h-4 w-4 fill-achiever-600 text-achiever-600" />
+                  ))}
+                </div>
+                <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-700">{tag}</span>
               </div>
 
               {/* Content */}

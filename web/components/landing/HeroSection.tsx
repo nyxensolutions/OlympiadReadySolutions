@@ -55,9 +55,9 @@ export function HeroSection() {
         {/* Inline social proof */}
         <div className="mt-12 flex flex-col items-center gap-8 sm:flex-row sm:justify-center">
           {[
-            { value: "500+",  label: "Students practising" },
-            { value: "10+",   label: "Subjects + Spell Bee" },
-            { value: "∞",     label: "AI-fresh questions"  },
+            { value: "50,000+", label: "Curated questions + AI" },
+            { value: "9",      label: "Subjects, Class 1–12"  },
+            { value: "₹129",   label: "Per subject/month"     },
           ].map(({ value, label }, i) => (
             <div key={label} className="flex items-center gap-4">
               {i > 0 && <div className="hidden h-10 w-px bg-white/20 sm:block" />}

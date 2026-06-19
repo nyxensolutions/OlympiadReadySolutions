@@ -60,7 +60,7 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
       {phase.kind === "config" && (
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <SubscriptionBadge status={status} />
-          {status?.tier !== "Pro" && (
+          {status?.tier !== "Pro" && status?.tier !== "School" && (
             <button
               type="button"
               onClick={() => openUpgrade()}

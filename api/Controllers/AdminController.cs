@@ -919,11 +919,109 @@ public class AdminController : ControllerBase
 
     // ---------------------------------------------------------------
 
+    // ── School Management ─────────────────────────────────────────────────────
+
+    [HttpPost("schools")]
+    public async Task<IActionResult> CreateSchool([FromBody] CreateSchoolDto dto, CancellationToken ct)
+    {
+        var code = dto.InviteCode?.ToUpper() ?? GenerateInviteCode(dto.Name, dto.City);
+
+        if (await _db.Schools.AnyAsync(s => s.InviteCode == code, ct))
+            return Conflict(new { message = $"Invite code '{code}' already exists." });
+
+        var school = new OlympiadReady.Api.Data.Entities.School
+        {
+            Name = dto.Name,
+            City = dto.City ?? "",
+            LogoUrl = dto.LogoUrl,
+            InviteCode = code,
+            ContactEmail = dto.ContactEmail ?? "",
+            SeatLimit = dto.SeatLimit ?? 20,
+            PilotEndsAt = dto.PilotDays.HasValue ? DateTime.UtcNow.AddDays(dto.PilotDays.Value) : null
+        };
+        _db.Schools.Add(school);
+        await _db.SaveChangesAsync(ct);
+
+        return Ok(new { school.SchoolId, school.Name, school.InviteCode, school.PilotEndsAt });
+    }
+
+    [HttpGet("schools")]
+    public async Task<IActionResult> ListSchools(CancellationToken ct)
+    {
+        var schools = await _db.Schools
+            .Select(s => new
+            {
+                s.SchoolId,
+                s.Name,
+                s.City,
+                s.LogoUrl,
+                s.InviteCode,
+                s.SeatLimit,
+                s.PilotEndsAt,
+                s.ContactEmail,
+                s.CreatedAt,
+                StudentCount = _db.Users.Count(u => u.SchoolId == s.SchoolId)
+            })
+            .OrderByDescending(s => s.CreatedAt)
+            .ToListAsync(ct);
+
+        return Ok(schools);
+    }
+
+    [HttpPatch("schools/{id:guid}")]
+    public async Task<IActionResult> UpdateSchool(Guid id, [FromBody] UpdateSchoolDto dto, CancellationToken ct)
+    {
+        var school = await _db.Schools.FindAsync(new object[] { id }, ct);
+        if (school == null) return NotFound();
+
+        if (dto.LogoUrl != null) school.LogoUrl = dto.LogoUrl;
+        if (dto.SeatLimit.HasValue) school.SeatLimit = dto.SeatLimit.Value;
+        if (dto.ExtendPilotDays.HasValue)
+            school.PilotEndsAt = (school.PilotEndsAt ?? DateTime.UtcNow).AddDays(dto.ExtendPilotDays.Value);
+
+        await _db.SaveChangesAsync(ct);
+        return Ok(new { school.SchoolId, school.Name, school.InviteCode, school.PilotEndsAt, school.LogoUrl });
+    }
+
+    [HttpGet("schools/{id:guid}/students")]
+    public async Task<IActionResult> GetSchoolStudents(Guid id, CancellationToken ct)
+    {
+        var students = await _db.Users
+            .Where(u => u.SchoolId == id)
+            .Select(u => new
+            {
+                u.UserId,
+                u.FullName,
+                u.Email,
+                u.SchoolJoinedAt,
+                TestCount = _db.Results.Count(r => r.UserId == u.UserId),
+                LastActive = _db.Results
+                    .Where(r => r.UserId == u.UserId)
+                    .OrderByDescending(r => r.CompletedAt)
+                    .Select(r => (DateTime?)r.CompletedAt)
+                    .FirstOrDefault()
+            })
+            .OrderByDescending(u => u.SchoolJoinedAt)
+            .ToListAsync(ct);
+
+        return Ok(students);
+    }
+
+    private static string GenerateInviteCode(string name, string? city)
+    {
+        var namePart = new string(name.Where(char.IsLetter).Take(4).ToArray()).ToUpper();
+        var cityPart = new string((city ?? "").Where(char.IsLetter).Take(3).ToArray()).ToUpper();
+        var year = DateTime.UtcNow.Year.ToString()[2..];
+        return $"{namePart}-{cityPart}-{year}";
+    }
+
 }
 
 // ─── DTOs ─────────────────────────────────────────────────────────────────────
 public record UpdateRewardDto(string? Status, string? AdminNotes, string? TrackingNumber);
 public record CreateRewardClaimDto(string? RewardType, string? StudentName);
+public record CreateSchoolDto(string Name, string? City, string? LogoUrl, string? InviteCode, string? ContactEmail, int? SeatLimit, int? PilotDays);
+public record UpdateSchoolDto(string? LogoUrl, int? SeatLimit, int? ExtendPilotDays);
 
 // DTO that matches the JSON schema the user will prepare
 public class ImportRowDto

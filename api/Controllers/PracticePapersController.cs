@@ -97,6 +97,12 @@ public class PracticePapersController : ControllerBase
                 .Select(s => s.Subject)
                 .ToListAsync(ct);
 
+            // School pilot students get the same PDF access as subscribed users
+            if (await _subs.IsSchoolPilotActiveAsync(user.UserId, ct))
+            {
+                activeSubs = subjects.ToList(); // treat all subjects as subscribed
+            }
+
             DateTime now = DateTime.UtcNow;
             int diff = (7 + (now.DayOfWeek - DayOfWeek.Monday)) % 7;
             DateTime startOfWeek = now.AddDays(-1 * diff).Date;
@@ -504,8 +510,9 @@ public class PracticePapersController : ControllerBase
         var user = await _users.GetOrSyncAsync(User, ct);
         var purchaseKey = string.IsNullOrWhiteSpace(req.Topic) ? req.Subject : $"{req.Subject}|{req.Topic}";
 
-        // 1. Check if subscribed
-        bool isSubscribed = await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, req.Subject, ct);
+        // 1. Check if subscribed or on school pilot
+        bool isSubscribed = await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, req.Subject, ct)
+                         || await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
         if (!isSubscribed) return Forbid();
 
         // 2. Check weekly limit

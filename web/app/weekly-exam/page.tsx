@@ -52,7 +52,7 @@ export default function WeeklyExamPage() {
 
 function WeeklyExamBody() {
   const { getToken, isLoaded } = useAuth();
-  const [tier, setTier] = useState<"Free" | "Pro" | "Modular" | null>(null);
+  const [tier, setTier] = useState<"Free" | "Pro" | "Modular" | "School" | null>(null);
   const [countdown, setCountdown] = useState(getCountdownToSunday());
 
   useEffect(() => {
@@ -76,7 +76,7 @@ function WeeklyExamBody() {
     })();
   }, [getToken, isLoaded]);
 
-  const isPro = tier === "Pro";
+  const isPro = tier === "Pro" || tier === "Modular" || tier === "School";
 
   return (
     <>

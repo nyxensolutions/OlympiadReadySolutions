@@ -226,10 +226,10 @@ function TopicsBody() {
 
         {quotaExceeded && (
           <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
-            <p className="font-semibold">Monthly paper limit reached</p>
+            <p className="font-semibold">You&apos;ve used all 15 free papers</p>
             <p className="mt-1">
-              You&apos;ve used all your free papers this month.{" "}
-              <a href="/" className="underline font-medium">Upgrade to Pro</a> for unlimited AI-generated papers.
+              Subscribe to any subject for ₹129/month to continue with unlimited AI-generated practice papers.{" "}
+              <a href="/dashboard" className="underline font-medium">Go to dashboard to unlock →</a>
             </p>
           </div>
         )}
@@ -419,19 +419,19 @@ function TopicsBody() {
               },
               {
                 q: "How many free online attempts do I get?",
-                a: "Free users get 5 total online practice attempts across any class or subject. These attempts use our AI generation engine to provide you a premium experience.",
+                a: "Free users get 15 practice papers across any class or subject — enough to properly experience the platform before subscribing.",
               },
               {
                 q: "What happens if I subscribe to a subject?",
-                a: "Subscribed subjects unlock unlimited online practice! They no longer count towards your 5 free global attempts, allowing you to master those subjects fully.",
+                a: "Subscribed subjects unlock unlimited online practice and AI-generated questions! They no longer count towards your free attempt limit, so you can master those subjects fully.",
               },
               {
                 q: "What if I use all my free attempts?",
-                a: "Once you hit your limit of 5 free AI-generated online attempts, you will need to subscribe to continue generating fresh online practice tests.",
+                a: "Once you hit your 15-paper free limit, subscribe to any subject for ₹129/month to continue with unlimited practice and AI-fresh questions.",
               },
               {
                 q: "Do I have to subscribe to all subjects?",
-                a: "No! You can choose to subscribe to any individual subject or any combination. Price is ₹129 per subject per month, with 5% off when you buy 3 or more subjects in one order.",
+                a: "No! Subscribe to any individual subject or any combination. Price is ₹129 per subject per month, with 10% off when you buy 3 or more subjects in one order.",
               },
             ].map(({ q, a }) => (
               <div key={q} className="rounded-xl bg-slate-50 p-4">

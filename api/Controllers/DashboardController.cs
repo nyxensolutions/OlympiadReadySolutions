@@ -22,6 +22,15 @@ public class DashboardController : ControllerBase
         _subs = subs;
     }
 
+    /// <summary>Lightweight subscription + school status used by AppHeader and ConfigForm.</summary>
+    [HttpGet("subscription")]
+    public async Task<IActionResult> Subscription(CancellationToken ct)
+    {
+        var user = await _users.GetOrSyncAsync(User, ct);
+        var summary = await _subs.GetSubscriptionSummaryAsync(user.UserId, ct);
+        return Ok(summary);
+    }
+
     [HttpGet("summary")]
     public async Task<IActionResult> Summary(CancellationToken ct)
     {
