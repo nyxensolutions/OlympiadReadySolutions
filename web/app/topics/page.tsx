@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import TopicsClient from "./TopicsClient";
 
 export const metadata: Metadata = {
-  title: "Olympiad Topic Map — Topic-wise Practice, Classes 1–12",
+  title: "Olympiad Syllabus Map — Topic-wise Practice",
   description:
-    "Explore the complete Olympiad syllabus map for Maths, Science and English (IMO, NSO, IEO). Practise topic by topic, track mastery and find your weak areas, Classes 1–12.",
+    "Explore the Olympiad syllabus for Maths, Science & English (IMO, NSO, IEO). Practise topic by topic, track mastery and find weak areas. Classes 1–12.",
   keywords: [
     "olympiad syllabus",
     "IMO syllabus",
@@ -37,6 +37,7 @@ export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <h1 className="sr-only">Olympiad Syllabus Map — Topic-wise Practice for Classes 1–12</h1>
       <TopicsClient />
     </>
   );

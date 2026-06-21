@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PracticePapersClient from "./PracticePapersClient";
 
 export const metadata: Metadata = {
-  title: "Olympiad Practice Papers & Sample Question Papers",
+  title: "Olympiad Practice Papers — IMO, NSO, IEO PDFs",
   description:
     "Download Olympiad practice question papers for IMO, NSO, IEO and more — Classes 1–12. AI-generated, exam-pattern PDFs with answer keys, from just ₹29.",
   keywords: [
