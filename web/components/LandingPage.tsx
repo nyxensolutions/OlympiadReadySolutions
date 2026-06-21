@@ -3,6 +3,7 @@
 import { AiCalloutSection } from "./landing/AiCalloutSection";
 import { BlogTeaserSection } from "./landing/BlogTeaserSection";
 import { CTASection } from "./landing/CTASection";
+import { FaqSection } from "./landing/FaqSection";
 import { FeaturesSection } from "./landing/FeaturesSection";
 import { HeroSection } from "./landing/HeroSection";
 import { HowItWorksSection } from "./landing/HowItWorksSection";
@@ -30,6 +31,7 @@ export function LandingPage() {
       <AiCalloutSection />
       <SubjectCoverageSection />
       <BlogTeaserSection />
+      <FaqSection />
       <CTASection />
       <LandingFooter />
     </div>

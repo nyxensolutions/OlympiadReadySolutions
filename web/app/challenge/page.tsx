@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Swords, Trophy, ArrowRight } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 
 import { getSafeSubject } from "@/lib/types";
+
+export const metadata: Metadata = {
+  title: "Olympiad Challenge — Mini Practice Test",
+  description:
+    "Take a quick Olympiad challenge — a mini practice test for Classes 1–12. See your score, review answers, and share your result with friends.",
+  alternates: { canonical: "/challenge" }
+};
 
 export default function ChallengePage({
   searchParams,

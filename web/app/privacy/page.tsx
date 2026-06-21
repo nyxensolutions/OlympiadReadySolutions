@@ -1,7 +1,7 @@
 import { LegalPageLayout } from "@/components/LegalPageLayout";
 
 export const metadata = {
-  title: "Privacy Policy · OlympiadReady",
+  title: { absolute: "Privacy Policy · OlympiadReady" },
   description: "How OlympiadReady collects, uses, and protects your personal information.",
 };
 

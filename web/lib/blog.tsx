@@ -71,6 +71,243 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 9 ───────────────────────────────────────────────────────── */
+  {
+    slug: "spell-bee-practice-complete-guide",
+    title: "Spell Bee Practice: A Complete Guide for Classes 1–12",
+    description:
+      "Everything you need to prepare for Spell Bee competitions — how it works, word lists by class, daily practice habits, and tips to build genuine spelling accuracy.",
+    date: "2026-06-10",
+    tag: "Spell Bee",
+    readingMinutes: 7,
+    keywords: [
+      "spell bee practice",
+      "spelling bee preparation",
+      "spell bee words for class 3",
+      "spell bee words for class 4",
+      "spell bee words for class 5",
+      "spelling bee competition India"
+    ],
+    excerpt:
+      "A complete parent and student guide to Spell Bee competitions — how the rounds work, what words to practise by class, and how to build real spelling accuracy.",
+    content: (
+      <>
+        <P>
+          Spell Bee competitions are among the fastest-growing school events in India, and for good reason: they build
+          vocabulary, reading habits and confidence simultaneously. Whether your child is appearing for the first time or
+          aiming to top the school, this guide covers everything you need.
+        </P>
+
+        <H2 id="how-it-works">How Spell Bee competitions work</H2>
+        <P>
+          In a typical school-level Spell Bee, the pronouncer reads out a word (sometimes with its definition and an
+          example sentence) and the student must spell it aloud, letter by letter. At higher levels, students may also
+          be asked to use the word in a sentence or identify its origin language. Most competitions have multiple rounds,
+          eliminating students who misspell, until a winner remains.
+        </P>
+        <P>
+          Organised competitions like the <B>International Spell Bee</B> and school-level events run by SOF-affiliated
+          or independent bodies hold preliminary rounds in school, district or city rounds, and national finals. The
+          difficulty increases significantly at each level.
+        </P>
+
+        <H2 id="words-by-class">Words to focus on by class</H2>
+        <P>
+          Word lists for Spell Bee are broadly grouped by class level. Here is what to expect:
+        </P>
+        <UL>
+          <LI><B>Classes 1–2:</B> Simple 3–5 letter words from daily life — colours, animals, fruits, household objects. Focus is on phonics and basic spelling rules.</LI>
+          <LI><B>Classes 3–4:</B> Compound words, double letters, silent letters (knife, write, knock). Words from school subjects begin appearing.</LI>
+          <LI><B>Classes 5–6:</B> Homophones (their/there/they're), common prefixes and suffixes, words from science and social studies.</LI>
+          <LI><B>Classes 7–8:</B> Less common words, foreign-origin words (bureau, façade), words with tricky vowel patterns.</LI>
+          <LI><B>Classes 9–12:</B> Advanced vocabulary, etymology-based questions, domain-specific words from literature, science and current affairs.</LI>
+        </UL>
+        <Callout>
+          <B>The most common mistake:</B> preparing only a memorised list. Good Spell Bee preparation focuses on
+          spelling <em>rules and patterns</em>, so a student can work out unfamiliar words rather than only recall the
+          ones they drilled.
+        </Callout>
+
+        <H2 id="daily-habits">Daily habits that build real accuracy</H2>
+        <OL>
+          <LIo><B>Read aloud daily.</B> Even 10 minutes of reading builds awareness of how words look and sound together.</LIo>
+          <LIo><B>Practise hearing, not just writing.</B> Have someone read the word aloud (or use a voice trainer) before attempting to spell it — this mirrors the actual competition format.</LIo>
+          <LIo><B>Learn word origins.</B> Many spelling patterns come from Greek, Latin or French roots. Knowing that &ldquo;ph&rdquo; says /f/ (from Greek) explains photograph, phone, phantom and dozens more at once.</LIo>
+          <LIo><B>Study rules, not just exceptions.</B> The silent &ldquo;e&rdquo; rule, the &ldquo;i before e&rdquo; rule and doubling consonants are each worth a dozen memorised words.</LIo>
+          <LIo><B>Review only your mistakes.</B> Track every word you misspell and return to it the next day. A list of 20 personal errors cleared in a week beats memorising 200 words you already know.</LIo>
+        </OL>
+
+        <H2 id="competition-day">Preparing for competition day</H2>
+        <P>
+          Nerves cause more misspellings than ignorance. Simulate competition conditions at home: have a family member
+          or friend act as the pronouncer, stand up to answer (as you would in the competition), and take your time
+          before starting to spell. You are almost always allowed to ask for the word to be repeated, the definition, or
+          a sentence — use these rights.
+        </P>
+        <P>
+          In the week before the competition, reduce the number of new words and focus entirely on reviewing your
+          personal mistake list. Rest well the night before.
+        </P>
+
+        <H2 id="practice-tools">The best way to practise at home</H2>
+        <P>
+          The most effective practice mirrors the competition: <em>hear</em> the word, then spell it — not read it and
+          copy it. AI-powered voice trainers let students practise at any time, with words calibrated to their class and
+          instant feedback on each attempt.
+        </P>
+
+        <CTA href="/spell-bee">
+          Practise Spell Bee with an AI voice trainer — words read aloud, instant feedback, Classes 1–12.
+        </CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What are good Spell Bee words for Class 3?",
+        a: "Class 3 Spell Bee words typically include compound words, silent letter words (knife, write, gnome), common homophones (to/two/too), and words from school subjects. Focus on 3–6 letter words with tricky but learnable patterns."
+      },
+      {
+        q: "How many words should my child practise each day?",
+        a: "Quality beats quantity. 10–15 new words a day, properly heard and practised aloud, is more effective than skimming 50. Always review previous mistakes before adding new words."
+      },
+      {
+        q: "Is there an AI tool for Spell Bee practice?",
+        a: "Yes. OlympiadReady's Spell Bee trainer reads words aloud, asks students to spell them, and gives instant feedback — matching the actual competition format for Classes 1–12."
+      },
+      {
+        q: "What is the difference between Spell Bee and a regular spelling test?",
+        a: "In a school spelling test, students read the word and write it. In a Spell Bee, the word is read out aloud and students spell it verbally, letter by letter, under time pressure in front of an audience. Practising by listening is therefore essential."
+      }
+    ]
+  },
+
+  /* 10 ───────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-preparation-for-classes-1-to-5",
+    title: "Olympiad Preparation for Classes 1–5: A Beginner's Complete Guide",
+    description:
+      "How to prepare young children in Classes 1 to 5 for Olympiad exams — what to expect, how to build the right habits, and how to keep it fun without pressure.",
+    date: "2026-06-14",
+    tag: "Guides",
+    readingMinutes: 7,
+    keywords: [
+      "olympiad preparation class 1",
+      "olympiad preparation class 2",
+      "olympiad preparation class 3",
+      "olympiad preparation class 4",
+      "olympiad preparation class 5",
+      "olympiad for beginners",
+      "how to start olympiad preparation"
+    ],
+    excerpt:
+      "First-time Olympiad families often don't know where to start. Here's a calm, practical guide for Classes 1 to 5 — what the exams look like, how much to practise, and how to keep children motivated.",
+    content: (
+      <>
+        <P>
+          For most families, the first Olympiad notification arrives in Class 1, 2 or 3 &mdash; often with a school
+          circular and very little guidance. The good news: these early classes are the <B>easiest time</B> to build the
+          right habits, and the exams themselves are genuinely manageable with simple, consistent practice.
+        </P>
+
+        <H2 id="what-to-expect">What do Olympiad exams look like at this age?</H2>
+        <P>
+          For Classes 1 and 2, most Olympiads have a <B>single level</B> (no Level 2), and the papers are shorter
+          &mdash; typically 35 questions with more time per question. The content closely mirrors the school syllabus at
+          that class, one level deeper in reasoning and application.
+        </P>
+        <P>
+          By Classes 3, 4 and 5, papers become two-level (Level 1 and Level 2 for top scorers), and a <B>logical
+          reasoning section</B> is introduced. The reasoning section is often what catches students off-guard, because
+          schools rarely teach it explicitly &mdash; but it is very learnable with practice.
+        </P>
+        <UL>
+          <LI><B>Class 1–2:</B> 35 questions, 60 minutes, single level, subject + basic logical thinking.</LI>
+          <LI><B>Class 3–5:</B> 35 questions, 60 minutes, two levels for IMO/NSO/IEO, plus a logical reasoning section.</LI>
+          <LI><B>All classes:</B> There is an <B>Achievers section</B> with fewer but higher-mark questions. This section decides ranks and deserves special attention.</LI>
+        </UL>
+
+        <H2 id="how-much-practice">How much should a young child practise?</H2>
+        <P>
+          Less than most parents think. <B>15–20 minutes, 4–5 days a week</B> is plenty for Classes 1 to 5. The goal
+          at this age is building the habit of focused practice and learning to enjoy questions that require thinking,
+          not just recall.
+        </P>
+        <Callout>
+          <B>The most common parental mistake</B> at this stage is over-drilling. A child who does five hours of
+          Olympiad practice a week in Class 2 and finds it stressful is far less prepared than one who does twenty
+          minutes daily and looks forward to it.
+        </Callout>
+
+        <H2 id="class-by-class">Class-by-class preparation guide</H2>
+
+        <H3>Classes 1 &amp; 2</H3>
+        <P>
+          At this age, Olympiad preparation should feel like a game. Focus on:
+        </P>
+        <UL>
+          <LI>Reading and writing the numbers and words covered in class &mdash; with understanding, not just memorisation.</LI>
+          <LI>Spotting simple patterns (what comes next in a sequence) and basic categorisation (odd one out).</LI>
+          <LI>Answering a few practice questions together with a parent, reading them aloud and discussing why each answer is correct.</LI>
+        </UL>
+
+        <H3>Class 3</H3>
+        <P>
+          Class 3 is where logical reasoning first appears. Introduce it gently:
+        </P>
+        <UL>
+          <LI>Start with letter and number series — they follow simple rules and build confidence fast.</LI>
+          <LI>Add one new type of reasoning question per week (analogies, mirror images, odd one out).</LI>
+          <LI>Continue with subject practice from the school syllabus, going slightly deeper on conceptual questions.</LI>
+        </UL>
+
+        <H3>Classes 4 &amp; 5</H3>
+        <P>
+          By now, students can handle a structured short session independently:
+        </P>
+        <UL>
+          <LI>20 minutes of topic-wise practice (3–4 days a week).</LI>
+          <LI>5–10 minutes of logical reasoning drills (2–3 days a week).</LI>
+          <LI>One short timed practice session per week to build exam comfort.</LI>
+          <LI>Attempt one full mock paper in the month before the exam.</LI>
+        </UL>
+
+        <H2 id="keeping-it-fun">How to keep it fun</H2>
+        <P>
+          Young children should associate Olympiad practice with curiosity and small wins, not pressure. A few things
+          that help:
+        </P>
+        <UL>
+          <LI>Celebrate correct answers and interesting wrong answers equally &mdash; &ldquo;that was a great guess, here is the trick&rdquo; works better than silence.</LI>
+          <LI>Let the child choose <em>which</em> subject to practise on a given day.</LI>
+          <LI>Keep sessions short; stop before frustration sets in.</LI>
+          <LI>Frame the exam as a fun challenge, not a high-stakes competition &mdash; at this age, participation and learning matter far more than rank.</LI>
+        </UL>
+
+        <CTA>
+          Fresh, class-appropriate Olympiad practice for Classes 1–5, generated in seconds &mdash; free to try.
+        </CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "At what age should a child start Olympiad preparation?",
+        a: "Students can begin appearing from Class 1. At that age, preparation should be light and enjoyable — 15 minutes of pattern-based practice and reading. The goal is building curiosity and habit, not drilling for marks."
+      },
+      {
+        q: "Is Class 1 too early for Olympiad exams?",
+        a: "Not at all, provided it is low-pressure and fun. Class 1 Olympiad papers are short, age-appropriate, and a great introduction to competitive thinking. The danger is only if parents treat it as high-stakes at that young age."
+      },
+      {
+        q: "Does my Class 3 child need coaching for the Olympiad?",
+        a: "No. For Classes 1–5, coaching is not necessary. Consistent short practice sessions, some logical reasoning exposure, and one or two practice papers are enough for most students to do well."
+      },
+      {
+        q: "What is the Achievers section in lower-class Olympiads?",
+        a: "The Achievers section has fewer questions but each carries more marks. For Classes 3–5, these questions are slightly harder than the main section. Practising a few Achievers-type questions weekly makes a big difference to the final rank."
+      }
+    ]
+  },
+
   /* 1 ───────────────────────────────────────────────────────── */
   {
     slug: "imo-nso-ieo-explained-parents-guide-to-sof-olympiads",
@@ -78,6 +315,7 @@ export const posts: BlogPost[] = [
     description:
       "What are the IMO, NSO and IEO? A clear, jargon-free guide for Indian parents to SOF Olympiads — levels, syllabus, eligibility, dates and how to prepare.",
     date: "2026-05-20",
+    updated: "2026-06-21",
     tag: "Guides",
     readingMinutes: 7,
     keywords: ["SOF Olympiad", "IMO", "NSO", "IEO", "Olympiad for kids", "Indian Olympiad exams"],
@@ -187,6 +425,7 @@ export const posts: BlogPost[] = [
     description:
       "A practical, class-by-class plan to prepare for the International Mathematics Olympiad (IMO) — syllabus, study schedule, the Achievers section, and free practice tips.",
     date: "2026-05-24",
+    updated: "2026-06-21",
     tag: "Maths",
     readingMinutes: 8,
     keywords: ["IMO preparation", "maths olympiad", "how to prepare for IMO", "IMO syllabus", "Olympiad maths practice"],
@@ -422,6 +661,7 @@ export const posts: BlogPost[] = [
     description:
       "A practical, class-by-class plan to prepare for the National Science Olympiad (NSO) — syllabus sections, study schedule, the Achievers section and free practice tips.",
     date: "2026-05-27",
+    updated: "2026-06-21",
     tag: "Science",
     readingMinutes: 8,
     keywords: ["NSO preparation", "national science olympiad", "how to prepare for NSO", "NSO syllabus", "science olympiad practice"],

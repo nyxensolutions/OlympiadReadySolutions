@@ -1,7 +1,7 @@
 import { LegalPageLayout } from "@/components/LegalPageLayout";
 
 export const metadata = {
-  title: "Refund Policy · OlympiadReady",
+  title: { absolute: "Refund Policy · OlympiadReady" },
   description: "OlympiadReady refund and cancellation policy for Pro subscriptions and PDF purchases.",
 };
 

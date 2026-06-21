@@ -4,7 +4,18 @@ import { Sparkles, Award } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { PracticeShell } from "@/components/PracticeShell";
 import { LandingPage } from "@/components/LandingPage";
+import { LANDING_FAQS } from "@/components/landing/FaqSection";
 import type { PreviewRequest } from "@/lib/types";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: LANDING_FAQS.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a }
+  }))
+};
 
 export default function Home({
   searchParams
@@ -27,6 +38,7 @@ export default function Home({
     <>
       {/* ── Signed-out: full marketing landing page ── */}
       <SignedOut>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
         <div className="min-h-screen bg-white">
           <AppHeader active="home" />
           <LandingPage />

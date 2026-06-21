@@ -16,7 +16,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!post) return { title: "Post not found" };
   const url = `${SITE_URL}/blog/${post.slug}`;
   return {
-    title: post.title,
+    title: { absolute: post.title },
     description: post.description,
     keywords: post.keywords,
     alternates: { canonical: `/blog/${post.slug}` },
@@ -28,7 +28,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       publishedTime: post.date,
       modifiedTime: post.updated ?? post.date,
       authors: ["OlympiadReady"],
-      tags: post.keywords
+      tags: post.keywords,
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: post.title }]
     },
     twitter: {
       card: "summary_large_image",

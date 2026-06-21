@@ -1,7 +1,7 @@
 import { LegalPageLayout } from "@/components/LegalPageLayout";
 
 export const metadata = {
-  title: "Cookie Policy · OlympiadReady",
+  title: { absolute: "Cookie Policy · OlympiadReady" },
   description: "How OlympiadReady uses cookies and similar tracking technologies.",
 };
 
