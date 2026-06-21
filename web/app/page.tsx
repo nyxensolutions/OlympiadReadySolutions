@@ -4,7 +4,7 @@ import { Sparkles, Award } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { PracticeShell } from "@/components/PracticeShell";
 import { LandingPage } from "@/components/LandingPage";
-import { LANDING_FAQS } from "@/components/landing/FaqSection";
+import { LANDING_FAQS } from "@/components/landing/faq-data";
 import type { PreviewRequest } from "@/lib/types";
 
 const faqJsonLd = {
