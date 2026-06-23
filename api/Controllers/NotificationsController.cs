@@ -42,6 +42,18 @@ public class NotificationsController : ControllerBase
         return Ok(notifications);
     }
 
+    [HttpPost("register-token")]
+    public async Task<IActionResult> RegisterToken([FromBody] RegisterTokenRequest req, CancellationToken ct)
+    {
+        if (string.IsNullOrWhiteSpace(req.ExpoPushToken))
+            return BadRequest(new { message = "Token is required." });
+
+        var user = await _users.GetOrSyncAsync(User, ct);
+        user.ExpoPushToken = req.ExpoPushToken.Trim();
+        await _db.SaveChangesAsync(ct);
+        return Ok(new { success = true });
+    }
+
     [HttpPost("mark-read")]
     public async Task<IActionResult> MarkAsRead(CancellationToken ct)
     {
@@ -64,3 +76,5 @@ public class NotificationsController : ControllerBase
         return Ok(new { success = true });
     }
 }
+
+public record RegisterTokenRequest(string ExpoPushToken);

@@ -40,4 +40,7 @@ public class User
     public Guid? SchoolId { get; set; }
     public School? School { get; set; }
     public DateTime? SchoolJoinedAt { get; set; }
+
+    /// <summary>Expo push token for mobile device notifications. Null when not registered.</summary>
+    public string? ExpoPushToken { get; set; }
 }

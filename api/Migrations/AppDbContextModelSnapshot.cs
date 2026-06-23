@@ -618,6 +618,10 @@ namespace OlympiadReady.Api.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<string>("ExpoPushToken")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
                     b.Property<string>("ExternalId")
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
