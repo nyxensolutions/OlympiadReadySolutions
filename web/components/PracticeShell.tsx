@@ -1,10 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useAuth } from "@clerk/nextjs";
 import type { PreviewRequest } from "@/lib/types";
 import { GeneratorFlow } from "@/components/GeneratorFlow";
 import { OlympiadSelector, OLYMPIAD_DATA, type OlympiadId } from "@/components/OlympiadSelector";
 import { OnboardingModal, type OnboardingData } from "@/components/OnboardingModal";
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 import {
   AtomSketch,
   AIChipSketch,
@@ -53,6 +56,7 @@ export function PracticeShell({
 }: {
   initialConfig?: Partial<PreviewRequest>;
 }) {
+  const { getToken, isSignedIn } = useAuth();
   const [olympiad, setOlympiad] = useState<OlympiadId>("open");
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [autoStart, setAutoStart] = useState(initialConfig?.mistakesOnly ?? false);
@@ -63,8 +67,8 @@ export function PracticeShell({
       if (!localStorage.getItem("hasCompletedOnboarding")) {
         setShowOnboarding(true);
       }
-      
-      // If we arrived via a deep link (e.g. ?mistakes=true), clear the URL so 
+
+      // If we arrived via a deep link (e.g. ?mistakes=true), clear the URL so
       // refreshing the page doesn't trap the user in an auto-start loop.
       if (window.location.search) {
         window.history.replaceState({}, document.title, window.location.pathname);
@@ -83,8 +87,10 @@ export function PracticeShell({
       ? { ...(initialConfig ?? {}), subject: olympiadInfo.subject }
       : initialConfig);
 
-  const handleOnboardingComplete = (data: OnboardingData) => {
+  const handleOnboardingComplete = async (data: OnboardingData) => {
     localStorage.setItem("hasCompletedOnboarding", "true");
+    localStorage.setItem("onboardingGrade", String(data.grade));
+    localStorage.setItem("onboardingSubject", data.subject);
     setOlympiad(data.olympiadId);
     setOnboardingConfig({
       grade: data.grade,
@@ -94,6 +100,25 @@ export function PracticeShell({
     });
     setAutoStart(true);
     setShowOnboarding(false);
+
+    if (data.schoolInviteCode && isSignedIn) {
+      try {
+        const token = await getToken();
+        const res = await fetch(`${API_URL}/api/schools/join`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+          body: JSON.stringify({ inviteCode: data.schoolInviteCode }),
+        });
+        if (res.ok) {
+          const school = await res.json();
+          localStorage.setItem("schoolInfo", JSON.stringify({ name: school.name, logoUrl: school.logoUrl }));
+          // Reload to let AppHeader and subscription status pick up school membership
+          window.location.reload();
+        }
+      } catch {
+        // Non-fatal
+      }
+    }
   };
 
   return (

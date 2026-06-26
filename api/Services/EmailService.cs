@@ -7,6 +7,7 @@ public interface IEmailService
 {
     Task SendSubscriptionReceiptAsync(string toEmail, string toName, string planName, int amountInPaise, List<string> subjects);
     Task SendWeeklyProgressAsync(string toEmail, string toName, int testsCompleted, int newBadges, int pendingTests, string userRank, string topBadgePlatform, string userBadgesHtml);
+    Task SendSchoolJoinNotificationAsync(string coordinatorEmail, string schoolName, string studentName, string studentEmail);
 }
 
 public class BrevoEmailService : IEmailService
@@ -182,6 +183,52 @@ public class BrevoEmailService : IEmailService
         catch (Exception ex)
         {
             _log.LogError(ex, "Exception while sending weekly email to {Email}", toEmail);
+        }
+    }
+
+    public async Task SendSchoolJoinNotificationAsync(string coordinatorEmail, string schoolName, string studentName, string studentEmail)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey))
+        {
+            _log.LogWarning("Brevo API key not configured. Skipping school join email to {Email}", coordinatorEmail);
+            return;
+        }
+
+        string htmlContent = $@"
+        <div style=""font-family: sans-serif; max-width: 600px; margin: 0 auto; color: #333;"">
+            <h2 style=""color: #4f46e5;"">New Student Enrolled — {schoolName}</h2>
+            <p>Hello,</p>
+            <p>A student has just joined your school's OlympiadReady pilot programme.</p>
+            <div style=""background: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #4f46e5;"">
+                <p style=""margin: 0 0 8px;""><strong>Name:</strong> {studentName}</p>
+                <p style=""margin: 0;""><strong>Email:</strong> {studentEmail}</p>
+            </div>
+            <p>They now have full access to OlympiadReady for the duration of the pilot period under <strong>{schoolName}</strong>.</p>
+            <p style=""margin-top: 30px; font-size: 12px; color: #64748b;"">
+                This is an automated notification from OlympiadReady. Please do not reply to this email.
+            </p>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = coordinatorEmail, name = schoolName } },
+            subject = $"New Student Joined: {studentName} — {schoolName} Pilot",
+            htmlContent
+        };
+
+        try
+        {
+            var res = await _http.PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+            {
+                var err = await res.Content.ReadAsStringAsync();
+                _log.LogError("Failed to send school join email. Status: {Status}, Error: {Error}", res.StatusCode, err);
+            }
+        }
+        catch (Exception ex)
+        {
+            _log.LogError(ex, "Exception sending school join email to {Email}", coordinatorEmail);
         }
     }
 }

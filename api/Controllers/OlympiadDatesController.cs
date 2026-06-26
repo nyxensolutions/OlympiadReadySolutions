@@ -114,6 +114,7 @@ public class OlympiadDatesController : ControllerBase
         "ICO"           => "Indian Computing Olympiad (IARCS)",
         "Humming Bird"  => "Humming Bird Education",
         "Unicus"        => "Unicus Olympiads",
+        "AmarUjala"     => "National Olympiads by Amar Ujala (AUNO)",
         _               => org
     };
 
@@ -492,6 +493,98 @@ public class OlympiadDatesController : ControllerBase
             ResultDateText = "Feb 2027",
             OfficialWebsite = "https://www.iarcs.org.in/inoi",
             Notes = "Top ~200 from ZCO advance. INOI qualifiers attend IOITC camp for IOI team selection.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+
+        // ── Amar Ujala National Olympiads (AUNO) ────────────────────
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO English", FullName = "National English Olympiad by Amar Ujala",
+            Subject = "English", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            ExamDateText = "23 Sep 2026 / 18 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,23), ExamDateTo = new DateTime(2026,11,18),
+            ResultDateText = "After Level 2 (Feb 2027)",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            Notes = "New 2026-27 Olympiad by Amar Ujala media group. Individual registration (₹200/subject).",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO Mathematics", FullName = "National Mathematics Olympiad by Amar Ujala",
+            Subject = "Math", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            ExamDateText = "28 Sep 2026 / 23 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,28), ExamDateTo = new DateTime(2026,11,23),
+            ResultDateText = "After Level 2 (Feb 2027)",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO Science", FullName = "National Science Olympiad by Amar Ujala",
+            Subject = "Science", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
+            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            ExamDateText = "25 Sep 2026 / 25 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,25), ExamDateTo = new DateTime(2026,11,25),
+            ResultDateText = "After Level 2 (Feb 2027)",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO GK", FullName = "National General Knowledge Olympiad by Amar Ujala",
+            Subject = "General Knowledge", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
+            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            ExamDateText = "21 Sep 2026 / 19 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,21), ExamDateTo = new DateTime(2026,11,19),
+            ResultDateText = "After Level 2 (Feb 2027)",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO Logical Reasoning", FullName = "National Logical Reasoning Olympiad by Amar Ujala",
+            Subject = "Logical Reasoning", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
+            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            ExamDateText = "22 Sep 2026 / 26 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,22), ExamDateTo = new DateTime(2026,11,26),
+            ResultDateText = "After Level 2 (Feb 2027)",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO Hindi", FullName = "National Hindi Olympiad by Amar Ujala",
+            Subject = "Hindi", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
+            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            ExamDateText = "29 Sep 2026 / 27 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,29), ExamDateTo = new DateTime(2026,11,27),
+            ResultDateText = "After Level 2 (Feb 2027)",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO Tech & AI", FullName = "National Tech & AI Olympiad by Amar Ujala",
+            Subject = "Computers", Stage = "Level 1 (Online)", GradeMin = 3, GradeMax = 10,
+            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            ExamDateText = "Dates TBA",
+            ResultDateText = "After Level 2 (Feb 2027)",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            Notes = "Online-only exam. Dates to be announced.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "AmarUjala", OlympiadName = "AUNO Finals", FullName = "National Olympiad Level 2 Finals by Amar Ujala",
+            Subject = "Multiple", Stage = "Level 2 (Finals)", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Qualify via Level 1",
+            ExamDateText = "Feb 2027 (2nd/3rd week, tentative)",
+            ExamDateFrom = new DateTime(2027,2,8), ExamDateTo = new DateTime(2027,2,22),
+            ResultDateText = "Mar 2027",
+            OfficialWebsite = "https://amarujalaolympiad.com",
+            Notes = "Champions, National, State, District & School Toppers announced. Individual registration — no school required.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
     ];

@@ -1,5 +1,6 @@
 using System.Text.RegularExpressions;
 using OlympiadReady.Api.Models;
+using QuestPDF.Drawing;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
@@ -17,15 +18,40 @@ public class PdfService
     private const string CorrectGreen = "#16a34a";
     private const string WrongRed    = "#dc2626";
 
+    private const string DevanagariFont = "Noto Sans Devanagari";
+
     private readonly string? _logoPath;
     private readonly IWebHostEnvironment _env;
     private static readonly HttpClient _httpClient = new HttpClient { Timeout = TimeSpan.FromSeconds(15) };
+    private static bool _devanagariRegistered;
+    private static readonly object _fontLock = new();
+
+    // Matches any character in the Devanagari Unicode block (U+0900–U+097F)
+    private static readonly Regex _devanagariRx = new(@"[ऀ-ॿ]", RegexOptions.Compiled);
+
+    private static bool ContainsDevanagari(string? text) =>
+        !string.IsNullOrEmpty(text) && _devanagariRx.IsMatch(text);
 
     public PdfService(IWebHostEnvironment env)
     {
         _env = env;
         var candidate = Path.Combine(env.WebRootPath, "logo.png");
         _logoPath = File.Exists(candidate) ? candidate : null;
+
+        // Register Noto Sans Devanagari once per process (thread-safe)
+        lock (_fontLock)
+        {
+            if (!_devanagariRegistered)
+            {
+                var fontPath = Path.Combine(env.WebRootPath, "fonts", "NotoSansDevanagari.ttf");
+                if (File.Exists(fontPath))
+                {
+                    using var stream = File.OpenRead(fontPath);
+                    FontManager.RegisterFont(stream);
+                    _devanagariRegistered = true;
+                }
+            }
+        }
     }
 
     /// <summary>
@@ -63,6 +89,16 @@ public class PdfService
 
     public byte[] GeneratePaperPdf(PdfExportRequest data)
     {
+        // Use Devanagari font if subject is Hindi or any question/option contains Devanagari text
+        bool needsDevanagari = _devanagariRegistered && (
+            ContainsDevanagari(data.Subject) ||
+            data.Questions.Any(q =>
+                ContainsDevanagari(q.Q) ||
+                q.Options.Any(ContainsDevanagari) ||
+                ContainsDevanagari(q.Explanation)));
+
+        string fontFamily = needsDevanagari ? DevanagariFont : Fonts.Calibri;
+
         var doc = Document.Create(c =>
         {
             // ── Page 1-N: Questions ───────────────────────────────
@@ -70,7 +106,7 @@ public class PdfService
             {
                 p.Size(PageSizes.A4);
                 p.Margin(40);
-                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(Fonts.Calibri).FontColor(DarkText));
+                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(fontFamily).FontColor(DarkText));
 
                 p.Header().Element(container => BuildHeader(container, data));
                 p.Content().Element(container => BuildBody(container, data));
@@ -82,7 +118,7 @@ public class PdfService
             {
                 p.Size(PageSizes.A4);
                 p.Margin(40);
-                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(Fonts.Calibri).FontColor(DarkText));
+                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(fontFamily).FontColor(DarkText));
 
                 p.Header().Element(container => BuildOmrHeader(container, data));
                 p.Content().Element(container => BuildOmrSheet(container, data));
@@ -94,7 +130,7 @@ public class PdfService
             {
                 p.Size(PageSizes.A4);
                 p.Margin(40);
-                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(Fonts.Calibri).FontColor(DarkText));
+                p.DefaultTextStyle(t => t.FontSize(11).FontFamily(fontFamily).FontColor(DarkText));
 
                 p.Header().Element(container => BuildAnswerKeyHeader(container, data));
                 p.Content().Element(container => BuildAnswerKey(container, data));

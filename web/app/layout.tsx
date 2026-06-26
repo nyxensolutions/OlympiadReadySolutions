@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | OlympiadReady"
   },
   description:
-    "India's first AI-powered Olympiad preparation platform. Infinite AI-generated practice papers, full mock exams, instant explanations and topic mastery tracking for IMO, NSO, IEO, IGKO & every major school Olympiad. Classes 1–12. Free to start.",
+    "AI-powered Olympiad prep for Classes 1–12. Practice papers, mock exams & mastery tracking for IMO, NSO, IEO, IGKO & more. Free to start.",
   keywords: [
     "Olympiad preparation",
     "AI Olympiad practice",

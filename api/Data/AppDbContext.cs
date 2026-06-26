@@ -22,8 +22,23 @@ public class AppDbContext : DbContext
     public DbSet<ReportedQuestion> ReportedQuestions => Set<ReportedQuestion>();
     public DbSet<UserNotification> UserNotifications => Set<UserNotification>();
     public DbSet<PaymentTransaction> PaymentTransactions => Set<PaymentTransaction>();
+    public DbSet<School> Schools => Set<School>();
     protected override void OnModelCreating(ModelBuilder b)
     {
+        b.Entity<School>(e =>
+        {
+            e.ToTable("Schools");
+            e.HasKey(x => x.SchoolId);
+            e.Property(x => x.SchoolId).HasDefaultValueSql("NEWID()");
+            e.Property(x => x.Name).HasMaxLength(255).IsRequired();
+            e.Property(x => x.City).HasMaxLength(100);
+            e.Property(x => x.LogoUrl).HasMaxLength(500);
+            e.Property(x => x.InviteCode).HasMaxLength(50).IsRequired();
+            e.HasIndex(x => x.InviteCode).IsUnique();
+            e.Property(x => x.ContactEmail).HasMaxLength(255);
+            e.Property(x => x.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
+        });
+
         b.Entity<User>(e =>
         {
             e.ToTable("Users");
@@ -39,6 +54,10 @@ public class AppDbContext : DbContext
             e.Property(x => x.SubscriptionTier).HasMaxLength(50).HasDefaultValue("Free");
             e.Property(x => x.AiCreditsUsed).HasDefaultValue(0);
             e.Property(x => x.AiPeriodStart).HasDefaultValueSql("GETUTCDATE()");
+            e.HasOne(x => x.School)
+                .WithMany(s => s.Students)
+                .HasForeignKey(x => x.SchoolId)
+                .OnDelete(DeleteBehavior.SetNull);
         });
 
         b.Entity<QuestionPaper>(e =>

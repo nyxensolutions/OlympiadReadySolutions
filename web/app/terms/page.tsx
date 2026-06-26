@@ -1,7 +1,7 @@
 import { LegalPageLayout } from "@/components/LegalPageLayout";
 
 export const metadata = {
-  title: "Terms of Service · OlympiadReady",
+  title: { absolute: "Terms of Service · OlympiadReady" },
   description: "Terms and conditions governing use of the OlympiadReady platform.",
 };
 

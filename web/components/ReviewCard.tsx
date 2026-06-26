@@ -50,7 +50,7 @@ export function ReviewCard({
   
   const displayChatsUsed = localChatsUsed ?? tutorQuota?.freeChatsUsed ?? 0;
   const hasPaidAccess = tutorQuota?.hasPaidAccess ?? false;
-  const isFreeLimitReached = !hasPaidAccess && displayChatsUsed >= 5;
+  const isFreeLimitReached = !hasPaidAccess && displayChatsUsed >= 10;
 
   async function submitChat(e: React.FormEvent) {
     e.preventDefault();
@@ -218,7 +218,7 @@ export function ReviewCard({
           
           {!simulationMode && (
             <div 
-              title={isFreeLimitReached ? "Your free chats quota is over. Please purchase a subject subscription to continue." : undefined}
+              title={isFreeLimitReached ? "You've used all 10 free AI Tutor chats. Subscribe to any subject to continue." : undefined}
             >
               <button
                 type="button"
@@ -273,7 +273,7 @@ export function ReviewCard({
               {hasPaidAccess ? (
                 <span className="text-xs font-medium text-brand-600">Unlimited chats (Pro)</span>
               ) : (
-                <span className="text-xs font-medium text-brand-600">Free chats used: {displayChatsUsed}/5</span>
+                <span className="text-xs font-medium text-brand-600">Free chats used: {displayChatsUsed}/10</span>
               )}
             </div>
             

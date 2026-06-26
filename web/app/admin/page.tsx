@@ -5,7 +5,7 @@ import { useAuth } from "@clerk/nextjs";
 import {
   Upload, X, CheckCircle, AlertCircle, Eye, EyeOff, ImageIcon, Type,
   Link, Search, PlusCircle, Trash2, RotateCcw, ArrowRight, Database,
-  Pencil, Save, ChevronDown, ChevronUp, Award, ClipboardPaste,
+  Pencil, Save, ChevronDown, ChevronUp, Award, ClipboardPaste, School,
 } from "lucide-react";
 import { BadgesPanel } from "@/components/admin/BadgesPanel";
 import { ReportsPanel } from "@/components/admin/ReportsPanel";
@@ -21,7 +21,7 @@ const GRADES = Array.from({ length: 12 }, (_, i) => i + 1);
 const ANSWER_LABELS = ["A", "B", "C", "D"] as const;
 type AnswerLabel = "A" | "B" | "C" | "D";
 type QuestionMode = "standard" | "image-options";
-type TabId = "add" | "browse" | "badges" | "reports";
+type TabId = "add" | "browse" | "badges" | "reports" | "schools";
 
 interface StoredImage { url: string; preview: string; }
 interface Toast { type: "success" | "error"; message: string; }
@@ -143,6 +143,8 @@ export default function AdminPage() {
             icon={<Award size={15} />} label="Badges & Rewards" />
           <TabBtn id="reports" active={activeTab === "reports"} onClick={() => setActiveTab("reports")}
             icon={<AlertCircle size={15} />} label="Reports" />
+          <TabBtn id="schools" active={activeTab === "schools"} onClick={() => setActiveTab("schools")}
+            icon={<School size={15} />} label="Schools" />
         </div>
 
         {activeTab === "add" && (
@@ -162,6 +164,10 @@ export default function AdminPage() {
 
         {activeTab === "reports" && (
           <ReportsPanel  showToast={showToast} />
+        )}
+
+        {activeTab === "schools" && (
+          <SchoolsPanel showToast={showToast} />
         )}
 
         {activeTab === "browse" && (
@@ -1286,6 +1292,280 @@ function ImageInput({ slotKey, inputRef, uploading, onFile, onUrl, compact = fal
             </>
           )}
         </div>
+      )}
+    </div>
+  );
+}
+
+// ── Schools Panel ─────────────────────────────────────────────────────────────
+
+type SchoolRecord = {
+  schoolId: string; name: string; city: string; logoUrl?: string;
+  inviteCode: string; seatLimit: number; pilotEndsAt?: string;
+  contactEmail: string; createdAt: string; studentCount: number;
+};
+
+type SchoolStudent = {
+  userId: string;
+  fullName?: string;
+  email: string;
+  schoolJoinedAt?: string;
+  testCount: number;
+  lastActive?: string;
+};
+
+function SchoolStudentsDrawer({ school, onClose, getToken }: {
+  school: SchoolRecord;
+  onClose: () => void;
+  getToken: () => Promise<string | null>;
+}) {
+  const [students, setStudents] = useState<SchoolStudent[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const token = await getToken();
+        const res = await fetch(`${API_URL}/api/admin/schools/${school.schoolId}/students`, {
+          headers: { Authorization: `Bearer ${token}` }
+        });
+        if (res.ok) setStudents(await res.json());
+      } finally { setLoading(false); }
+    })();
+  }, [school.schoolId, getToken]);
+
+  const pilotActive = school.pilotEndsAt ? new Date(school.pilotEndsAt) > new Date() : false;
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-start justify-end" onClick={onClose}>
+      <div
+        className="relative h-full w-full max-w-lg overflow-y-auto bg-slate-900 shadow-2xl border-l border-slate-700"
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="sticky top-0 z-10 flex items-center gap-3 border-b border-slate-700 bg-slate-900 px-6 py-4">
+          {school.logoUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={school.logoUrl} alt={school.name} className="h-9 w-9 rounded object-contain bg-white p-0.5 shrink-0" />
+          ) : (
+            <div className="flex h-9 w-9 items-center justify-center rounded bg-violet-800 text-violet-200 font-bold text-sm shrink-0">
+              {school.name.charAt(0)}
+            </div>
+          )}
+          <div className="flex-1 min-w-0">
+            <p className="font-bold text-white truncate">{school.name}</p>
+            <p className="text-xs text-slate-400">{school.city} · <span className="font-mono text-violet-300">{school.inviteCode}</span></p>
+          </div>
+          <button onClick={onClose} className="ml-2 rounded-lg p-1.5 text-slate-400 hover:bg-slate-700 hover:text-white transition">
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+          </button>
+        </div>
+
+        {/* Meta */}
+        <div className="grid grid-cols-3 gap-3 px-6 py-4 border-b border-slate-700">
+          <div className="rounded-lg bg-slate-800 p-3 text-center">
+            <p className="text-lg font-bold text-white">{school.studentCount}</p>
+            <p className="text-[10px] text-slate-400 uppercase tracking-wide">Enrolled</p>
+          </div>
+          <div className="rounded-lg bg-slate-800 p-3 text-center">
+            <p className="text-lg font-bold text-white">{school.seatLimit}</p>
+            <p className="text-[10px] text-slate-400 uppercase tracking-wide">Seat Limit</p>
+          </div>
+          <div className={`rounded-lg p-3 text-center ${pilotActive ? "bg-emerald-900/40" : "bg-slate-800"}`}>
+            <p className={`text-xs font-bold ${pilotActive ? "text-emerald-400" : "text-slate-400"}`}>
+              {pilotActive ? "Active" : "Expired"}
+            </p>
+            <p className="text-[10px] text-slate-400 uppercase tracking-wide mt-0.5">Pilot</p>
+            {school.pilotEndsAt && (
+              <p className="text-[9px] text-slate-500 mt-0.5">{new Date(school.pilotEndsAt).toLocaleDateString()}</p>
+            )}
+          </div>
+        </div>
+
+        {/* Student list */}
+        <div className="px-6 py-4">
+          <h3 className="text-sm font-bold text-white mb-3">Enrolled Students ({students.length})</h3>
+          {loading ? (
+            <p className="text-slate-400 text-sm py-8 text-center">Loading students…</p>
+          ) : students.length === 0 ? (
+            <p className="text-slate-500 text-sm py-8 text-center">No students enrolled yet.</p>
+          ) : (
+            <div className="space-y-2">
+              {students.map((s, i) => (
+                <div key={s.userId} className="flex items-center gap-3 rounded-xl border border-slate-700 bg-slate-800 p-3">
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-violet-700 text-xs font-bold text-white">
+                    {i + 1}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold text-white truncate">{s.fullName || "—"}</p>
+                    <p className="text-xs text-slate-400 truncate">{s.email}</p>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <p className="text-xs font-bold text-violet-300">{s.testCount} tests</p>
+                    <p className="text-[10px] text-slate-500">
+                      {s.schoolJoinedAt ? `Joined ${new Date(s.schoolJoinedAt).toLocaleDateString()}` : ""}
+                    </p>
+                    {s.lastActive && (
+                      <p className="text-[10px] text-slate-500">Active {new Date(s.lastActive).toLocaleDateString()}</p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SchoolsPanel({ showToast }: { showToast: (t: "success" | "error", m: string) => void }) {
+  const { getToken } = useAuth();
+  const [schools, setSchools] = useState<SchoolRecord[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [creating, setCreating] = useState(false);
+  const [selectedSchool, setSelectedSchool] = useState<SchoolRecord | null>(null);
+  const [form, setForm] = useState({ name: "", city: "", contactEmail: "", logoUrl: "", seatLimit: "20", pilotDays: "30", inviteCode: "" });
+
+  const load = useCallback(async () => {
+    setLoading(true);
+    try {
+      const token = await getToken();
+      const res = await fetch(`${API_URL}/api/admin/schools`, { headers: { Authorization: `Bearer ${token}` } });
+      if (res.ok) setSchools(await res.json());
+    } finally { setLoading(false); }
+  }, [getToken]);
+
+  useEffect(() => { load(); }, [load]);
+
+  const handleCreate = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setCreating(true);
+    try {
+      const token = await getToken();
+      const res = await fetch(`${API_URL}/api/admin/schools`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          name: form.name, city: form.city, contactEmail: form.contactEmail,
+          logoUrl: form.logoUrl || null,
+          inviteCode: form.inviteCode || null,
+          seatLimit: parseInt(form.seatLimit) || 20,
+          pilotDays: parseInt(form.pilotDays) || 30,
+        }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        showToast("success", `School created! Invite code: ${data.inviteCode}`);
+        setForm({ name: "", city: "", contactEmail: "", logoUrl: "", seatLimit: "20", pilotDays: "30", inviteCode: "" });
+        load();
+      } else {
+        const err = await res.json().catch(() => ({}));
+        showToast("error", err.message ?? "Failed to create school.");
+      }
+    } finally { setCreating(false); }
+  };
+
+  return (
+    <div className="space-y-8">
+      {/* Create form */}
+      <div className="rounded-xl border border-slate-700 bg-slate-800 p-6">
+        <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+          <School size={18} className="text-violet-400" /> Add School for Pilot
+        </h3>
+        <form onSubmit={handleCreate} className="grid grid-cols-2 gap-4">
+          {[
+            { key: "name", label: "School Name", placeholder: "Ryan International School" },
+            { key: "city", label: "City", placeholder: "Delhi" },
+            { key: "contactEmail", label: "Contact Email", placeholder: "coordinator@school.com" },
+            { key: "inviteCode", label: "Invite Code (optional — auto-generated if blank)", placeholder: "RYAN-DEL-26" },
+            { key: "logoUrl", label: "Logo URL (optional)", placeholder: "https://..." },
+          ].map(({ key, label, placeholder }) => (
+            <div key={key} className={key === "logoUrl" ? "col-span-2" : ""}>
+              <label className="block text-xs font-medium text-slate-400 mb-1">{label}</label>
+              <input
+                type="text"
+                value={form[key as keyof typeof form]}
+                onChange={e => setForm(f => ({ ...f, [key]: e.target.value }))}
+                placeholder={placeholder}
+                required={key === "name"}
+                className="w-full rounded-lg border border-slate-600 bg-slate-700 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:border-violet-500 focus:outline-none"
+              />
+            </div>
+          ))}
+          <div>
+            <label className="block text-xs font-medium text-slate-400 mb-1">Seat Limit</label>
+            <input type="number" value={form.seatLimit} onChange={e => setForm(f => ({ ...f, seatLimit: e.target.value }))}
+              className="w-full rounded-lg border border-slate-600 bg-slate-700 px-3 py-2 text-sm text-white focus:border-violet-500 focus:outline-none" />
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-slate-400 mb-1">Pilot Duration (days)</label>
+            <input type="number" value={form.pilotDays} onChange={e => setForm(f => ({ ...f, pilotDays: e.target.value }))}
+              className="w-full rounded-lg border border-slate-600 bg-slate-700 px-3 py-2 text-sm text-white focus:border-violet-500 focus:outline-none" />
+          </div>
+          <div className="col-span-2">
+            <button type="submit" disabled={creating || !form.name}
+              className="rounded-lg bg-violet-600 px-6 py-2 text-sm font-bold text-white hover:bg-violet-700 disabled:opacity-50">
+              {creating ? "Creating..." : "Create School"}
+            </button>
+          </div>
+        </form>
+      </div>
+
+      {/* School list */}
+      <div>
+        <h3 className="text-lg font-bold text-white mb-4">Schools ({schools.length})</h3>
+        {loading ? (
+          <p className="text-slate-400 text-sm">Loading...</p>
+        ) : schools.length === 0 ? (
+          <p className="text-slate-500 text-sm">No schools yet. Add one above.</p>
+        ) : (
+          <div className="space-y-3">
+            {schools.map(s => {
+              const pilotActive = s.pilotEndsAt ? new Date(s.pilotEndsAt) > new Date() : false;
+              const pilotLabel = s.pilotEndsAt
+                ? (pilotActive ? `Pilot active until ${new Date(s.pilotEndsAt).toLocaleDateString()}` : "Pilot expired")
+                : "No pilot";
+              return (
+                <button
+                  key={s.schoolId}
+                  type="button"
+                  onClick={() => setSelectedSchool(s)}
+                  className="w-full text-left rounded-xl border border-slate-700 bg-slate-800 p-4 flex items-center gap-4 hover:border-violet-500 hover:bg-slate-750 transition-colors cursor-pointer"
+                >
+                  {s.logoUrl ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={s.logoUrl} alt={s.name} className="h-10 w-10 rounded object-contain bg-white p-0.5 shrink-0" />
+                  ) : (
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded bg-violet-800 text-violet-200 font-bold text-sm">
+                      {s.name.charAt(0)}
+                    </div>
+                  )}
+                  <div className="flex-1 min-w-0">
+                    <p className="font-bold text-white truncate">{s.name}</p>
+                    <p className="text-xs text-slate-400">{s.city} · {s.contactEmail}</p>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <p className="text-sm font-mono font-bold text-violet-300">{s.inviteCode}</p>
+                    <p className="text-xs text-slate-400">{s.studentCount} / {s.seatLimit} seats</p>
+                    <p className={`text-xs mt-0.5 ${pilotActive ? "text-emerald-400" : "text-slate-500"}`}>{pilotLabel}</p>
+                  </div>
+                  <svg className="h-4 w-4 shrink-0 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      {selectedSchool && (
+        <SchoolStudentsDrawer
+          school={selectedSchool}
+          onClose={() => setSelectedSchool(null)}
+          getToken={getToken}
+        />
       )}
     </div>
   );

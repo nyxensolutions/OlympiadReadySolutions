@@ -8,6 +8,8 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
 type BillingHistory = {
   currentTier: string;
+  onSchoolPilot?: boolean;
+  school?: { name: string; logoUrl?: string; pilotEndsAt?: string } | null;
   subscriptions: Array<{
     id: string;
     planName: string;
@@ -78,7 +80,7 @@ export function BillingHistoryCard({ onPurchaseMore }: { onPurchaseMore?: () => 
             <p className="text-xs text-slate-500">View your active subscriptions, PDF downloads, and invoices.</p>
           </div>
         </div>
-        {onPurchaseMore && (
+        {onPurchaseMore && !history.onSchoolPilot && (
           <button
             type="button"
             onClick={onPurchaseMore}
@@ -90,27 +92,29 @@ export function BillingHistoryCard({ onPurchaseMore }: { onPurchaseMore?: () => 
         )}
       </div>
 
-      <div className="mt-6">
-        <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-slate-200 bg-slate-50/80 p-4">
-          <div>
-            <h3 className="text-sm font-semibold text-slate-800">Free Practice Attempts</h3>
-            <p className="text-xs text-slate-500 mt-1 max-w-sm">
-              Use these global attempts to practice any unpaid class or subject. Paid subjects have unlimited practice!
-            </p>
-          </div>
-          <div className="flex flex-col items-end gap-1.5">
-            <span className="text-lg font-bold text-slate-900">
-              {history.freeAttemptsUsed} <span className="text-sm font-medium text-slate-500">/ {history.freeAttemptsLimit} Used</span>
-            </span>
-            <div className="h-2 w-32 rounded-full bg-slate-200 overflow-hidden">
-              <div 
-                className="h-full bg-brand-500 rounded-full"
-                style={{ width: `${Math.min(100, (history.freeAttemptsUsed / history.freeAttemptsLimit) * 100)}%` }}
-              />
+      {!history.onSchoolPilot && (
+        <div className="mt-6">
+          <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-slate-200 bg-slate-50/80 p-4">
+            <div>
+              <h3 className="text-sm font-semibold text-slate-800">Free Practice Attempts</h3>
+              <p className="text-xs text-slate-500 mt-1 max-w-sm">
+                Use these global attempts to practice any unpaid class or subject. Paid subjects have unlimited practice!
+              </p>
+            </div>
+            <div className="flex flex-col items-end gap-1.5">
+              <span className="text-lg font-bold text-slate-900">
+                {history.freeAttemptsUsed} <span className="text-sm font-medium text-slate-500">/ {history.freeAttemptsLimit} Used</span>
+              </span>
+              <div className="h-2 w-32 rounded-full bg-slate-200 overflow-hidden">
+                <div
+                  className="h-full bg-brand-500 rounded-full"
+                  style={{ width: `${Math.min(100, (history.freeAttemptsUsed / history.freeAttemptsLimit) * 100)}%` }}
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       <div className="mt-6 space-y-6">
         {history.subscriptions.length > 0 ? (
@@ -163,6 +167,13 @@ export function BillingHistoryCard({ onPurchaseMore }: { onPurchaseMore?: () => 
                 </div>
               ))}
             </div>
+          </div>
+        ) : history.onSchoolPilot ? (
+          <div className="rounded-xl border border-dashed border-emerald-200 bg-emerald-50/50 p-6 text-center">
+            <p className="text-sm font-semibold text-emerald-800">Full access via School Pilot</p>
+            <p className="text-xs text-emerald-700 mt-1">
+              {history.school?.name ?? "Your school"} has provided full platform access. No individual subject purchase needed during the pilot period.
+            </p>
           </div>
         ) : (
           <div className="rounded-xl border border-dashed border-slate-200 bg-slate-50/50 p-6 text-center">
