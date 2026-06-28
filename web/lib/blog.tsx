@@ -71,6 +71,786 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 23 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-preparation-class-1",
+    title: "IMO Preparation for Class 1: A Parent's Complete Guide",
+    description:
+      "Is your Class 1 child appearing for the IMO? This parent's guide covers the exact syllabus, what the exam looks like, how to practise at home, and what to realistically expect.",
+    date: "2026-06-28",
+    tag: "Maths",
+    readingMinutes: 7,
+    keywords: [
+      "IMO preparation class 1",
+      "maths olympiad class 1",
+      "IMO class 1 syllabus",
+      "olympiad for class 1",
+      "how to prepare for IMO class 1",
+    ],
+    excerpt:
+      "A calm, practical guide for parents helping their Class 1 child prepare for the IMO — what to cover, how to practise, and what a good score really means.",
+    content: (
+      <>
+        <P>
+          Your child&rsquo;s school has registered them for the International Mathematics Olympiad (IMO) and suddenly you
+          are searching for &ldquo;Class 1 IMO preparation&rdquo; at 10 pm. Completely normal. This guide covers
+          everything a parent needs to know &mdash; the syllabus, the exam format, how to practise without pressure, and
+          what to realistically expect from a six or seven-year-old sitting a timed maths paper.
+        </P>
+
+        <H2 id="what-is-imo-class1">What the IMO is at Class 1 level</H2>
+        <P>
+          The IMO is organised by the Science Olympiad Foundation (SOF). At Class 1 there is a single level (no Level 2
+          national round), so every registered student gets a result, a school rank, and a participation certificate.
+          The exam is conducted inside school during a regular school period, so there is no travel or strange exam
+          centre to worry about.
+        </P>
+        <P>
+          Questions are multiple-choice with four options. The paper is 35 questions long with a 60-minute time limit
+          &mdash; plenty of time at this level since most children finish in 30&ndash;40 minutes. There is no negative
+          marking, so attempting every question is always the right strategy.
+        </P>
+
+        <H2 id="syllabus">IMO Class 1 syllabus</H2>
+        <P>The topics follow the standard Class 1 maths curriculum very closely:</P>
+        <UL>
+          <LI><B>Numbers 1&ndash;50:</B> counting, writing, ordering, comparing (greater than / less than)</LI>
+          <LI><B>Addition and subtraction:</B> within 20 using pictures and simple word problems</LI>
+          <LI><B>Shapes:</B> circle, triangle, square, rectangle &mdash; identifying and matching</LI>
+          <LI><B>Patterns:</B> completing simple repeating patterns (colour, shape, or number)</LI>
+          <LI><B>Measurement:</B> taller/shorter, heavier/lighter, more/fewer using objects</LI>
+          <LI><B>Time and money:</B> basic concepts like before/after and identifying coins</LI>
+          <LI><B>Logical reasoning:</B> odd-one-out, simple classification, mirror images</LI>
+        </UL>
+        <Callout>
+          <B>Achievers section:</B> The last 5 questions carry higher marks and are slightly trickier &mdash; usually a
+          two-step word problem or a pattern completion that requires a bit more thinking. These are the questions that
+          separate medal winners from the rest.
+        </Callout>
+
+        <H2 id="how-to-practise">How to practise at home (without pressure)</H2>
+        <P>
+          The best preparation for a Class 1 child is not sitting at a desk with a workbook. It is short, fun, daily
+          engagement with numbers and shapes. Here is what actually works:
+        </P>
+        <OL>
+          <LIo>
+            <B>10 minutes a day beats 1 hour on weekends.</B> Young children retain information better through
+            short, repeated exposure. A quick set of 5&ndash;8 questions after school is ideal.
+          </LIo>
+          <LIo>
+            <B>Use visuals and objects.</B> Counting with blocks, comparing heights of toys, sorting shapes by colour
+            &mdash; hands-on learning transfers directly to exam questions which use pictures.
+          </LIo>
+          <LIo>
+            <B>Practise in the exam format.</B> About 4&ndash;6 weeks before the exam, start using multiple-choice
+            questions so the format feels familiar. The goal is not speed &mdash; it is comfort.
+          </LIo>
+          <LIo>
+            <B>Do not skip logical reasoning.</B> Many parents focus only on arithmetic and are surprised when
+            pattern and classification questions trip their child up. Spend equal time on these.
+          </LIo>
+          <LIo>
+            <B>One timed practice paper.</B> Sit one full 35-question paper, timed at 60 minutes, in the week before
+            the exam. This removes the surprise of the clock on exam day.
+          </LIo>
+        </OL>
+
+        <H2 id="topics-to-focus">Topics that come up most often</H2>
+        <P>
+          Based on the pattern of Class 1 Olympiad papers, these areas carry the most weight:
+        </P>
+        <UL>
+          <LI>Number comparison and ordering (fill in &lt; or &gt;, arrange in order) &mdash; always 4&ndash;6 questions</LI>
+          <LI>Addition and subtraction with picture support &mdash; 5&ndash;7 questions</LI>
+          <LI>Pattern completion &mdash; 3&ndash;5 questions including the harder Achievers ones</LI>
+          <LI>Shape identification and properties &mdash; 3&ndash;4 questions</LI>
+          <LI>Logical reasoning (odd-one-out, classification) &mdash; 3&ndash;5 questions</LI>
+        </UL>
+
+        <H2 id="realistic-expectations">What to realistically expect</H2>
+        <P>
+          If your child is comfortable with their Class 1 maths syllabus, they will do well. Medals go to the top
+          percentile nationally, so a gold medal is genuinely competitive. But a participation certificate, a school
+          rank, and the experience of sitting an exam calmly are all valuable outcomes regardless of rank. Most parents
+          who pursue this from Class 1 find that by Class 4 or 5 their child is significantly more confident with
+          problem-solving and exam conditions than peers who started later.
+        </P>
+        <P>
+          Keep the experience positive. A child who enjoys maths at 6 is far more valuable than one who has a medal
+          but a negative association with numbers.
+        </P>
+
+        <CTA>Start practising Class 1 IMO questions &mdash; free, pattern-matched, no login needed.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is there a Level 2 for IMO Class 1?",
+        a: "No. For Classes 1 and 2, the SOF IMO has only a single level. All registered Class 1 students receive a school rank, a national rank, and a participation certificate."
+      },
+      {
+        q: "How many questions are in the IMO Class 1 paper?",
+        a: "The Class 1 IMO paper has 35 multiple-choice questions to be completed in 60 minutes. There is no negative marking, so students should attempt all questions."
+      },
+      {
+        q: "When should I start preparing my Class 1 child for IMO?",
+        a: "6 to 8 weeks of light, regular practice (10 minutes a day) is more than enough. Starting earlier can cause fatigue or pressure, which is counterproductive at this age."
+      },
+      {
+        q: "What topics are most important for IMO Class 1?",
+        a: "Number comparison, basic addition and subtraction, shape recognition, pattern completion, and simple logical reasoning are the core topics. Patterns and logical reasoning are often where students lose marks, so don't skip those."
+      }
+    ]
+  },
+
+  /* 24 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-preparation-class-2",
+    title: "IMO Preparation for Class 2: Syllabus, Tips & Practice Plan",
+    description:
+      "Complete guide to IMO preparation for Class 2 students — covering the full syllabus, common question types, a practical home study plan, and what the Achievers section tests.",
+    date: "2026-06-28",
+    tag: "Maths",
+    readingMinutes: 7,
+    keywords: [
+      "IMO preparation class 2",
+      "maths olympiad class 2",
+      "IMO class 2 syllabus",
+      "olympiad preparation class 2",
+      "IMO sample paper class 2",
+    ],
+    excerpt:
+      "A parent-friendly guide to preparing a Class 2 student for the IMO — the full syllabus, smartest topics to focus on, and a simple practice schedule.",
+    content: (
+      <>
+        <P>
+          Class 2 is when many students appear in their first competitive exam. The IMO at this level is completely
+          manageable with a few weeks of targeted practice &mdash; it tests the same maths your child is already
+          learning in school, just framed as multiple-choice problems with a logical reasoning component. This guide
+          gives you the full picture.
+        </P>
+
+        <H2 id="exam-format">Exam format</H2>
+        <P>
+          The Class 2 IMO is a 35-question multiple-choice paper with a 60-minute time limit. Like Class 1, there is
+          no Level 2 round for Class 2 &mdash; every registered student gets a school rank, a national rank, and a
+          participation certificate. No negative marking applies, so attempting every question is always correct
+          strategy.
+        </P>
+        <P>
+          The paper is divided into three sections: a <B>Logical Reasoning</B> section, a <B>Mathematical Reasoning</B>{" "}
+          section, and a high-weightage <B>Achievers</B> section with harder questions worth more marks per question.
+        </P>
+
+        <H2 id="syllabus">IMO Class 2 syllabus</H2>
+        <UL>
+          <LI><B>Numbers up to 100:</B> place value, expanded form, comparing and ordering, skip counting</LI>
+          <LI><B>Addition and subtraction:</B> carrying and borrowing within 100, simple word problems</LI>
+          <LI><B>Multiplication:</B> concept of equal groups, multiplication as repeated addition (tables 2&ndash;5)</LI>
+          <LI><B>Shapes and space:</B> 2D shapes (sides and corners), basic 3D shapes, symmetry</LI>
+          <LI><B>Measurement:</B> length in cm/m, weight in kg, capacity in litres</LI>
+          <LI><B>Time:</B> reading clock to the hour and half-hour, days, months, calendar</LI>
+          <LI><B>Money:</B> counting and adding coins and notes up to ₹100</LI>
+          <LI><B>Data handling:</B> reading simple pictographs and bar charts</LI>
+          <LI><B>Patterns and logical reasoning:</B> number patterns, shape patterns, odd-one-out</LI>
+        </UL>
+
+        <H2 id="achievers">The Achievers section &mdash; what it actually tests</H2>
+        <P>
+          The Achievers section is the key differentiator. These 5 questions carry 3 marks each (vs 1 mark each for
+          other questions), so they can shift a score significantly. At Class 2 level the Achievers questions are not
+          impossibly hard &mdash; they typically involve:
+        </P>
+        <UL>
+          <LI>A two-step word problem combining addition and subtraction</LI>
+          <LI>A pattern that requires completing two steps, not just one</LI>
+          <LI>A shape question with a small visual reasoning twist</LI>
+          <LI>A calendar or time problem with an extra step</LI>
+        </UL>
+        <Callout>
+          The most common mistake is students spending too long on the Achievers section and rushing the easier
+          questions. Teach your child to attempt the main sections first, then return to Achievers with remaining time.
+        </Callout>
+
+        <H2 id="study-plan">A simple 6-week practice plan</H2>
+        <OL>
+          <LIo><B>Weeks 1&ndash;2:</B> Cover number operations (addition, subtraction, place value). Do 5&ndash;8 questions daily.</LIo>
+          <LIo><B>Week 3:</B> Shapes, measurement, and time. Mix in a few logical reasoning questions daily.</LIo>
+          <LIo><B>Week 4:</B> Patterns, money, and data handling. Focus especially on pattern questions.</LIo>
+          <LIo><B>Week 5:</B> Mixed practice across all topics. Introduce Achievers-style questions.</LIo>
+          <LIo><B>Week 6:</B> One full timed mock paper. Review mistakes, don&rsquo;t re-teach &mdash; revisit the specific question types that went wrong.</LIo>
+        </OL>
+
+        <H2 id="parent-tips">Tips for parents</H2>
+        <UL>
+          <LI>Keep sessions to 10&ndash;15 minutes on school days and 20&ndash;25 minutes on weekends</LI>
+          <LI>Celebrate effort, not score &mdash; at Class 2, the habit of focused practice is the real prize</LI>
+          <LI>If your child makes the same mistake twice, do not just correct it &mdash; ask them to explain their thinking; the misconception is usually one level up from where you expect</LI>
+          <LI>Tables 2&ndash;5 must be automatic by exam week &mdash; slow recall under time pressure causes errors even in easy questions</LI>
+        </UL>
+
+        <CTA>Practise Class 2 IMO-pattern questions with instant feedback &mdash; free to try.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is IMO Class 2 difficult?",
+        a: "Not if your child is comfortable with the Class 2 school maths syllabus. The Olympiad frames school topics as multiple-choice problems and adds a logical reasoning section, but a few weeks of structured practice makes it very manageable."
+      },
+      {
+        q: "How many marks does the Achievers section carry in Class 2 IMO?",
+        a: "The Achievers section has 5 questions worth 3 marks each, totalling 15 marks out of the paper's 40 marks. This is why focusing on Achievers practice alongside the main syllabus matters."
+      },
+      {
+        q: "Should a Class 2 student know multiplication tables for IMO?",
+        a: "Yes — tables 2 to 5 are part of the Class 2 syllabus and appear in the paper. Quick recall of these tables reduces errors under time pressure, so practise them separately until they are automatic."
+      }
+    ]
+  },
+
+  /* 25 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-preparation-class-3",
+    title: "IMO Preparation for Class 3: Syllabus, Strategy & Study Plan",
+    description:
+      "A complete preparation guide for the IMO Class 3 exam — full syllabus breakdown, key topics, how the Achievers section works, and a 6-week study plan parents can follow at home.",
+    date: "2026-06-28",
+    tag: "Maths",
+    readingMinutes: 8,
+    keywords: [
+      "IMO preparation class 3",
+      "maths olympiad class 3",
+      "IMO class 3 syllabus",
+      "olympiad class 3 preparation",
+      "IMO sample paper class 3",
+    ],
+    excerpt:
+      "Everything you need to prepare a Class 3 student for the IMO — syllabus, question types, Achievers strategy, and a practical 6-week plan.",
+    content: (
+      <>
+        <P>
+          Class 3 is when the IMO starts to feel like a real exam. The syllabus is broader, the Achievers section is
+          more demanding, and Level 2 becomes relevant for the first time (top performers qualify for a national
+          round). This guide breaks down exactly what to study, what the trickiest question types look like, and how
+          to build a home practice routine that works.
+        </P>
+
+        <H2 id="exam-structure">Exam structure at Class 3</H2>
+        <P>
+          The Class 3 IMO paper has <B>35 questions</B> to be completed in <B>60 minutes</B>. From Class 3 onward,
+          top-scoring students qualify for a Level 2 national exam, which makes performing well in the Achievers
+          section genuinely important. No negative marking applies.
+        </P>
+        <P>The paper is structured as:</P>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 10 questions on patterns, classification, and visual reasoning</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions on the Class 3 maths syllabus</LI>
+          <LI><B>Achievers:</B> 5 questions worth 3 marks each (harder, multi-step problems)</LI>
+        </UL>
+
+        <H2 id="syllabus">IMO Class 3 syllabus</H2>
+        <UL>
+          <LI><B>Numbers up to 999:</B> place value, expanded form, predecessor and successor, comparison</LI>
+          <LI><B>Addition and subtraction:</B> carrying and borrowing with 3-digit numbers, word problems</LI>
+          <LI><B>Multiplication:</B> tables 2&ndash;10, multiplication of 2-digit by 1-digit numbers</LI>
+          <LI><B>Division:</B> concept of equal sharing, simple division using multiplication tables</LI>
+          <LI><B>Fractions:</B> half, one-third, one-fourth &mdash; identifying and comparing</LI>
+          <LI><B>Geometry:</B> lines (straight, curved, horizontal, vertical), angles (concept), 2D and 3D shapes</LI>
+          <LI><B>Measurement:</B> length (cm, m, km), weight (g, kg), capacity (ml, l), perimeter of simple shapes</LI>
+          <LI><B>Time and calendar:</B> reading time to 5-minute intervals, elapsed time, calendar problems</LI>
+          <LI><B>Money:</B> adding and subtracting amounts up to ₹1000</LI>
+          <LI><B>Data handling:</B> pictographs, bar charts, tallying</LI>
+          <LI><B>Patterns:</B> number sequences, shape patterns, analogy</LI>
+        </UL>
+
+        <H2 id="trickiest-topics">The trickiest topics to watch</H2>
+        <P>
+          Three areas consistently trip up Class 3 students in Olympiad papers, even when they know the content from
+          school:
+        </P>
+        <UL>
+          <LI>
+            <B>Elapsed time:</B> &ldquo;A train departs at 10:15 am and arrives at 12:40 pm. How long is the
+            journey?&rdquo; Students who can read a clock perfectly often stumble on subtraction across the hour.
+            Practise this type of problem explicitly.
+          </LI>
+          <LI>
+            <B>Perimeter with a twist:</B> Questions often give a perimeter and ask for a missing side length, or
+            describe a shape in words and ask for the perimeter. The concept is simple but the unfamiliar framing
+            causes errors.
+          </LI>
+          <LI>
+            <B>Fractions in context:</B> &ldquo;Riya ate 1/4 of a pizza with 12 slices. How many slices did she
+            eat?&rdquo; This combines fractions with multiplication, which is the Achievers-level combination to
+            prepare for.
+          </LI>
+        </UL>
+        <Callout>
+          <B>Logical reasoning matters more than most parents realise.</B> The 10 logical reasoning questions are not
+          linked to school topics &mdash; they test visual thinking, pattern recognition, and spatial reasoning. A
+          student who neglects this section loses easy marks. Give it at least 20% of practice time.
+        </Callout>
+
+        <H2 id="study-plan">6-week study plan</H2>
+        <OL>
+          <LIo><B>Week 1:</B> Numbers, addition and subtraction. Confirm tables 2&ndash;10 are automatic.</LIo>
+          <LIo><B>Week 2:</B> Multiplication, division, and fractions. Focus on word problems.</LIo>
+          <LIo><B>Week 3:</B> Geometry and measurement (including elapsed time and perimeter).</LIo>
+          <LIo><B>Week 4:</B> Money, data handling, and logical reasoning practice.</LIo>
+          <LIo><B>Week 5:</B> Mixed practice. Begin attempting Achievers-style two-step problems.</LIo>
+          <LIo><B>Week 6:</B> One or two full timed mock papers. Review wrong answers by topic.</LIo>
+        </OL>
+
+        <H2 id="level2">Qualifying for Level 2</H2>
+        <P>
+          From Class 3 onward, students who achieve top scores qualify for the Level 2 national paper. The qualifying
+          criteria changes each year but typically includes class toppers, zone toppers (top 25 per zone), and
+          students in the top 5% nationally. If Level 2 is a goal, the Achievers section is where the gap is made
+          &mdash; the main section questions are similar across all serious students, but the Achievers questions
+          separate the national qualifiers.
+        </P>
+
+        <CTA>Try Class 3 IMO-pattern practice questions &mdash; organised by topic, instant explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Does Class 3 IMO have a Level 2?",
+        a: "Yes. From Class 3 onward, the SOF IMO has a Level 2 national round. Top-performing students from Level 1 — including class toppers, zone toppers, and top national percentile scorers — qualify for Level 2."
+      },
+      {
+        q: "What multiplication tables should a Class 3 student know for IMO?",
+        a: "Tables 2 to 10 are part of the Class 3 syllabus and are tested both directly and indirectly in division and word problems. These must be automatic by exam week — slow recall under time pressure causes avoidable errors."
+      },
+      {
+        q: "How long should a Class 3 child practise for IMO each day?",
+        a: "15 to 20 minutes of focused practice on school days is enough, with a longer session (30–40 minutes) on weekends. Consistency over 6 weeks matters far more than intensive last-minute preparation."
+      },
+      {
+        q: "Are fractions included in IMO Class 3?",
+        a: "Yes — basic fractions (half, one-third, one-fourth) are part of the syllabus. Achievers-level questions often combine fractions with multiplication in a word-problem format, so practise both concepts together."
+      }
+    ]
+  },
+
+  /* 26 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-preparation-class-6",
+    title: "IMO Preparation for Class 6: Syllabus, Exam Strategy & Study Plan",
+    description:
+      "Class 6 marks the jump to middle-school maths — integers, basic algebra, and ratio appear for the first time. This guide covers the full IMO Class 6 syllabus, hardest topics, and a proven study plan.",
+    date: "2026-06-28",
+    tag: "Maths",
+    readingMinutes: 9,
+    keywords: [
+      "IMO preparation class 6",
+      "maths olympiad class 6",
+      "IMO class 6 syllabus",
+      "olympiad class 6 preparation",
+      "IMO sample paper class 6",
+    ],
+    excerpt:
+      "Class 6 is the first real middle-school IMO challenge — integers, algebra, and geometry all step up. Here is the full guide to prepare effectively.",
+    content: (
+      <>
+        <P>
+          Class 6 is a genuine step-up. Negative numbers enter the picture, basic algebra begins, and the geometry
+          questions shift from &ldquo;name the shape&rdquo; to &ldquo;calculate the area.&rdquo; Students who coasted
+          through Classes 3&ndash;5 often find Class 6 IMO harder than expected &mdash; but with the right preparation
+          it is very manageable. This guide walks through the full syllabus, the topics that trip students up most,
+          and how to build a study plan that works.
+        </P>
+
+        <H2 id="exam-format">Exam format</H2>
+        <P>
+          The Class 6 IMO has <B>50 questions</B> in <B>60 minutes</B> (up from 35 questions in primary classes). The
+          structure is:
+        </P>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Mathematical Reasoning:</B> 25 questions on the Class 6 syllabus</LI>
+          <LI><B>Achievers:</B> 10 questions worth 3 marks each</LI>
+        </UL>
+        <P>
+          No negative marking. Top scorers qualify for Level 2, which is a tougher national-level paper. The jump to
+          50 questions in the same 60 minutes means time management becomes critical for the first time.
+        </P>
+
+        <H2 id="syllabus">IMO Class 6 syllabus</H2>
+        <UL>
+          <LI><B>Number system:</B> natural numbers, whole numbers, integers (positive and negative), prime and composite numbers, factors and multiples</LI>
+          <LI><B>HCF and LCM:</B> prime factorisation, applications in word problems</LI>
+          <LI><B>Fractions and decimals:</B> operations, comparison, conversion between forms</LI>
+          <LI><B>Basic algebra:</B> variables, simple expressions, solving one-step equations</LI>
+          <LI><B>Ratio and proportion:</B> simplifying ratios, equivalent ratios, simple proportion problems</LI>
+          <LI><B>Geometry:</B> lines and angles, types of triangles, basic properties of polygons</LI>
+          <LI><B>Mensuration:</B> perimeter and area of rectangles, squares, and triangles</LI>
+          <LI><B>Data handling:</B> mean, median, mode; bar charts, pictographs</LI>
+          <LI><B>Practical geometry:</B> constructing angles and basic shapes with compass and ruler</LI>
+          <LI><B>Logical reasoning:</B> series completion, analogy, coding-decoding, direction problems</LI>
+        </UL>
+
+        <H2 id="hardest-topics">Topics students struggle with most</H2>
+        <P>
+          These four areas produce the most errors in Class 6 IMO papers and deserve extra practice time:
+        </P>
+        <UL>
+          <LI>
+            <B>Integers:</B> Arithmetic with negative numbers &mdash; especially subtracting a negative (&minus;5
+            &minus; (&minus;3) = &minus;2) &mdash; is consistently the most-missed concept in Class 6 Olympiad
+            papers. The rule needs to become automatic, not thought-through each time.
+          </LI>
+          <LI>
+            <B>LCM and HCF in word problems:</B> Students can compute LCM and HCF but struggle when the question
+            describes a situation (&ldquo;what is the largest tile size?&rdquo;) and they must first identify whether
+            LCM or HCF is needed.
+          </LI>
+          <LI>
+            <B>Ratio and proportion:</B> Unitary method problems and proportion chains with three or four values are
+            Achievers-level favourites. Practise these specifically.
+          </LI>
+          <LI>
+            <B>Logical reasoning &mdash; direction problems:</B> &ldquo;Riya walks north 3 km, then turns right...&rdquo;
+            These require spatial tracking. Drawing a small diagram on rough paper is the reliable technique.
+          </LI>
+        </UL>
+        <Callout>
+          <B>Time management tip:</B> At 50 questions in 60 minutes, you have 72 seconds per question on average.
+          Practise skipping questions you cannot solve in 90 seconds and returning to them &mdash; this alone can lift
+          a score by 5&ndash;8 marks on exam day.
+        </Callout>
+
+        <H2 id="study-plan">8-week study plan</H2>
+        <OL>
+          <LIo><B>Week 1:</B> Number system and integers. Make negative-number arithmetic feel automatic.</LIo>
+          <LIo><B>Week 2:</B> HCF, LCM, and their word problem applications.</LIo>
+          <LIo><B>Week 3:</B> Fractions and decimals &mdash; operations and conversion.</LIo>
+          <LIo><B>Week 4:</B> Algebra basics and ratio/proportion.</LIo>
+          <LIo><B>Week 5:</B> Geometry and mensuration (area and perimeter calculations).</LIo>
+          <LIo><B>Week 6:</B> Data handling and logical reasoning (focus on direction and coding problems).</LIo>
+          <LIo><B>Week 7:</B> Mixed practice across all topics with 25-question timed sets.</LIo>
+          <LIo><B>Week 8:</B> Two full 50-question timed mock papers. Review by topic, not by question.</LIo>
+        </OL>
+
+        <H2 id="level2-strategy">Level 2 strategy</H2>
+        <P>
+          If qualifying for Level 2 is the goal, the Achievers section is the deciding factor. The best students
+          typically finish the Logical Reasoning and Mathematical Reasoning sections in about 40 minutes and use the
+          remaining 20 minutes on Achievers questions. Practise this pacing deliberately &mdash; do not leave it to
+          instinct on exam day.
+        </P>
+
+        <CTA>Access Class 6 IMO-pattern questions with topic-wise practice and detailed explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How many questions are in the IMO Class 6 paper?",
+        a: "The Class 6 IMO has 50 questions to be completed in 60 minutes — an increase from the 35 questions in primary classes. The extra questions and the same time limit make time management a critical skill from Class 6 onward."
+      },
+      {
+        q: "Is algebra included in IMO Class 6?",
+        a: "Yes — basic algebra (variables, simple expressions, one-step equations) is part of the Class 6 IMO syllabus. Questions are straightforward at this level, usually involving substituting a value or solving for one variable."
+      },
+      {
+        q: "How do I prepare for the Class 6 IMO Achievers section?",
+        a: "The Achievers section at Class 6 typically tests LCM/HCF word problems, ratio and proportion chains, and multi-step geometry problems. Practise these specifically in weeks 5–7 of your preparation, and use remaining time on the Achievers section in your mock papers."
+      },
+      {
+        q: "What is the biggest difference between IMO Class 5 and Class 6?",
+        a: "Three main changes: the paper grows to 50 questions (up from 35), integers and negative numbers enter the syllabus, and basic algebra appears for the first time. These make the Class 6 paper noticeably harder for students who haven't specifically prepared."
+      }
+    ]
+  },
+
+  /* 27 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-preparation-class-9",
+    title: "NSO Preparation for Class 9: Syllabus, Strategy & Study Plan",
+    description:
+      "Class 9 NSO covers physics, chemistry, and biology for the first time as separate disciplines. This complete guide covers the exam format, full syllabus, hardest topics, and a structured study plan.",
+    date: "2026-06-28",
+    tag: "Science",
+    readingMinutes: 9,
+    keywords: [
+      "NSO preparation class 9",
+      "science olympiad class 9",
+      "NSO class 9 syllabus",
+      "NSO class 9 preparation",
+      "national science olympiad class 9",
+    ],
+    excerpt:
+      "Class 9 NSO is the first year where physics, chemistry, and biology appear as separate disciplines. Here is everything you need to prepare effectively.",
+    content: (
+      <>
+        <P>
+          The National Science Olympiad (NSO) takes a real step up at Class 9. For the first time, the syllabus
+          formally splits into physics, chemistry, and biology as distinct disciplines &mdash; motion and force,
+          atomic structure, and cell biology all appear in the same paper. Students who coasted on general science
+          in Classes 6&ndash;8 often find the jump challenging. This guide gives you the full picture: what the exam
+          looks like, what to study, and how to structure your preparation.
+        </P>
+
+        <H2 id="exam-format">Exam format</H2>
+        <P>
+          The Class 9 NSO is a <B>50-question paper</B> with a <B>60-minute time limit</B>. The structure is:
+        </P>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions (non-science: patterns, series, analogy, classification)</LI>
+          <LI><B>Science:</B> 25 questions covering the Class 9 CBSE/ICSE science syllabus</LI>
+          <LI><B>Achievers:</B> 10 questions worth 3 marks each (application and concept-combination questions)</LI>
+        </UL>
+        <P>
+          No negative marking. Top performers from Level 1 qualify for the Level 2 national round, which is
+          significantly harder and tests deeper conceptual understanding.
+        </P>
+
+        <H2 id="syllabus">NSO Class 9 syllabus</H2>
+        <H3>Physics</H3>
+        <UL>
+          <LI>Motion: distance, displacement, speed, velocity, acceleration, equations of motion</LI>
+          <LI>Force and Newton&rsquo;s Laws: types of force, balanced and unbalanced forces, inertia</LI>
+          <LI>Gravitation: universal law, free fall, weight vs. mass, Archimedes&rsquo; principle</LI>
+          <LI>Work, energy, and power: definitions, kinetic and potential energy, conservation of energy</LI>
+          <LI>Sound: wave nature, frequency, amplitude, speed in different media, echo and SONAR</LI>
+        </UL>
+        <H3>Chemistry</H3>
+        <UL>
+          <LI>Matter: states, properties, interconversion, evaporation</LI>
+          <LI>Is matter around us pure? Elements, compounds, mixtures, separation techniques</LI>
+          <LI>Atoms and molecules: atomic theory, symbols, molecular formulae, atomic mass</LI>
+          <LI>Structure of the atom: subatomic particles, electron distribution, valency, isotopes</LI>
+        </UL>
+        <H3>Biology</H3>
+        <UL>
+          <LI>Cell: fundamental unit of life &mdash; structure, organelles, plant vs. animal cell</LI>
+          <LI>Tissues: plant tissues (meristematic, permanent) and animal tissues (epithelial, connective, muscular, nervous)</LI>
+          <LI>Diversity in living organisms: five-kingdom classification, major plant and animal groups</LI>
+          <LI>Why do we fall ill: disease, causes, types (infectious/non-infectious), prevention</LI>
+          <LI>Natural resources: air, water, soil &mdash; cycles and pollution</LI>
+          <LI>Improvement in food resources: crop improvement, animal husbandry</LI>
+        </UL>
+
+        <H2 id="hardest-topics">Topics that need the most attention</H2>
+        <UL>
+          <LI>
+            <B>Equations of motion:</B> Students can memorise the three equations but struggle applying them to
+            multi-step problems. The Achievers section regularly combines all three in one problem. Practise
+            numerical questions, not just derivations.
+          </LI>
+          <LI>
+            <B>Atomic structure:</B> Isotopes, isobars, isotones, and electron distribution are frequently tested
+            together in Achievers questions. Make a comparison table.
+          </LI>
+          <LI>
+            <B>Tissue types:</B> The distinction between plant and animal tissues, especially connective tissue
+            subtypes, is a high-frequency question area that requires careful memorisation with examples.
+          </LI>
+          <LI>
+            <B>Logical reasoning:</B> Many Class 9 students under-invest in the logical reasoning section, assuming
+            their science knowledge will compensate. The 15 LR questions are often the easiest marks available &mdash;
+            do not neglect them.
+          </LI>
+        </UL>
+        <Callout>
+          <B>Smart preparation tip:</B> The NSO Class 9 science section tracks the CBSE syllabus very closely. Use
+          your board exam preparation as the foundation and spend the extra time on Olympiad-specific question types
+          &mdash; application-based and concept-combination questions &mdash; rather than re-reading the same theory.
+        </Callout>
+
+        <H2 id="study-plan">Study plan</H2>
+        <OL>
+          <LIo><B>Weeks 1&ndash;2:</B> Physics &mdash; motion, force, and Newton&rsquo;s Laws. Focus on numerical problem practice.</LIo>
+          <LIo><B>Weeks 3&ndash;4:</B> Chemistry &mdash; atomic theory, structure of atom, matter states and separation.</LIo>
+          <LIo><B>Weeks 5&ndash;6:</B> Biology &mdash; cell, tissues, classification, and disease.</LIo>
+          <LIo><B>Week 7:</B> Logical reasoning practice. Mixed science questions across all three disciplines.</LIo>
+          <LIo><B>Week 8:</B> Two full timed mock papers. Review mistakes by topic and concept, not by question number.</LIo>
+        </OL>
+
+        <H2 id="level2">Aiming for Level 2</H2>
+        <P>
+          Level 2 NSO tests deeper application &mdash; expect numerical problems in physics that require two-step
+          reasoning, chemistry questions that combine multiple chapters, and biology questions that require explaining
+          mechanisms rather than just naming structures. If Level 2 is the goal, start practising application-level
+          questions from Week 5 onward and do not treat the Achievers section as a bonus &mdash; treat it as
+          the target.
+        </P>
+
+        <CTA>Practise NSO Class 9 questions by topic &mdash; physics, chemistry, and biology with explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is NSO Class 9 based on the CBSE syllabus?",
+        a: "Yes — the NSO Class 9 science questions closely follow the CBSE Class 9 science syllabus, covering physics (motion, force, gravitation), chemistry (atoms, matter, atomic structure), and biology (cell, tissues, classification). ICSE students will find the overlap strong as well."
+      },
+      {
+        q: "How is NSO Class 9 different from earlier classes?",
+        a: "Class 9 is the first year the NSO syllabus formally splits into three disciplines — physics, chemistry, and biology — as separate topic groups within the same paper. The numerical component in physics also increases significantly, requiring calculation practice rather than just conceptual reading."
+      },
+      {
+        q: "What is the pattern of NSO Class 9 Achievers questions?",
+        a: "The Achievers section typically features application-based questions that combine concepts from two or more chapters — for example, a problem combining equations of motion with Newton's Laws, or a question linking atomic structure to chemical bonding basics. Practise these multi-step questions specifically."
+      },
+      {
+        q: "Should I focus on logical reasoning for NSO Class 9?",
+        a: "Yes. The 15 logical reasoning questions are non-science and follow a predictable pattern (series, analogy, coding-decoding, direction problems). Many students neglect LR while focusing on science content, but these questions are often the easiest marks in the paper."
+      }
+    ]
+  },
+
+  /* 28 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-preparation-class-10",
+    title: "Olympiad Preparation for Class 10: Balancing Boards and Olympiads",
+    description:
+      "Class 10 is a board exam year — but Olympiads can coexist and even help. This guide covers which Olympiads to prioritise in Class 10, how to prep without burning out, and the real benefits for admissions.",
+    date: "2026-06-28",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "olympiad preparation class 10",
+      "class 10 olympiad",
+      "IMO class 10 preparation",
+      "olympiad and board exam class 10",
+      "NSO class 10 preparation",
+    ],
+    excerpt:
+      "Board exam year doesn't mean skipping Olympiads. Here's how to prepare for both without burning out — and why Class 10 Olympiads are worth it.",
+    content: (
+      <>
+        <P>
+          Class 10 is the year every Indian parent and student treats as sacred. Board exams dominate. Extra
+          activities get dropped. And yet &mdash; Olympiads in Class 10 are among the most valuable ones to appear
+          for, both for skill development and for competitive exam foundations. This guide explains how to make both
+          work without burning out.
+        </P>
+
+        <H2 id="why-class10-olympiads">Why Class 10 Olympiads are worth it</H2>
+        <P>
+          Two reasons stand out above everything else:
+        </P>
+        <UL>
+          <LI>
+            <B>Board prep and Olympiad prep overlap significantly.</B> The IMO and NSO at Class 10 test the same
+            syllabus your child is studying for boards &mdash; quadratic equations, real numbers, triangles, light,
+            electricity, chemical reactions. Olympiad practice forces active recall and application-based thinking
+            on exactly these topics. Students who do both consistently perform better in board exams, not worse.
+          </LI>
+          <LI>
+            <B>Competitive exam foundation.</B> Class 10 Olympiad syllabus directly feeds JEE and NEET preparation.
+            A student who masters Class 10 maths and science at Olympiad depth in Class 10 enters Class 11 with a
+            significantly stronger base than peers who only did textbook preparation.
+          </LI>
+        </UL>
+        <Callout>
+          A Class 10 national or international Olympiad rank genuinely strengthens a student&rsquo;s profile for
+          admissions to competitive schools and IB programmes, and shows up well in interview discussions at premier
+          institutions years later.
+        </Callout>
+
+        <H2 id="which-olympiads">Which Olympiads to prioritise in Class 10</H2>
+        <P>
+          You cannot realistically appear for every Olympiad in board year. Here is how to choose:
+        </P>
+        <UL>
+          <LI>
+            <B>IMO (International Maths Olympiad, SOF):</B> The strongest subject for most students and the one with
+            the highest overlap with board maths. Prioritise this if maths is a strength.
+          </LI>
+          <LI>
+            <B>NSO (National Science Olympiad, SOF):</B> Physics and chemistry content in Class 10 is JEE/NEET
+            foundational. Appearing for NSO gives structured practice across all science chapters.
+          </LI>
+          <LI>
+            <B>NSTSE (National Science Talent Search Exam):</B> Tests understanding over memorisation, very useful
+            for students planning science stream.
+          </LI>
+          <LI>
+            <B>IEO (International English Olympiad):</B> Low preparation overhead &mdash; tests grammar and
+            comprehension skills already developed in school. A good choice if time is tight.
+          </LI>
+        </UL>
+        <P>
+          The practical recommendation for most students: <B>IMO + one science Olympiad</B>. Any more than two in
+          board year risks spreading preparation too thin.
+        </P>
+
+        <H2 id="class10-syllabus">IMO and NSO Class 10 syllabus highlights</H2>
+        <H3>IMO Class 10</H3>
+        <UL>
+          <LI>Real numbers and polynomial properties</LI>
+          <LI>Quadratic equations and arithmetic progressions</LI>
+          <LI>Triangles, circles, and coordinate geometry</LI>
+          <LI>Trigonometry: basic ratios, identities, heights and distances</LI>
+          <LI>Mensuration: surface area and volume of combined solids</LI>
+          <LI>Statistics and probability</LI>
+        </UL>
+        <H3>NSO Class 10</H3>
+        <UL>
+          <LI>Light: reflection, refraction, lenses and mirrors</LI>
+          <LI>Electricity and magnetic effects of current</LI>
+          <LI>Chemical reactions, acids/bases, metals and non-metals</LI>
+          <LI>Carbon compounds and classification of elements</LI>
+          <LI>Life processes, reproduction, heredity and evolution</LI>
+          <LI>Environmental science</LI>
+        </UL>
+
+        <H2 id="time-management">Making time for both &mdash; a practical approach</H2>
+        <OL>
+          <LIo>
+            <B>Use Olympiad practice as board revision.</B> When you practise an NSO electricity set, you are
+            revising Class 10 electricity for boards simultaneously. There is no separate Olympiad study hour
+            needed &mdash; just use Olympiad-format questions during your board revision sessions.
+          </LIo>
+          <LIo>
+            <B>Focus on weak board topics through Olympiad questions.</B> The application-based framing of Olympiad
+            questions forces deeper understanding of topics you only surface-learned. A weak topic in boards gets
+            fixed faster with Olympiad practice than with re-reading the textbook.
+          </LIo>
+          <LIo>
+            <B>Limit to one mock paper per Olympiad, two weeks before the exam.</B> Do not over-invest in full
+            Olympiad mock papers in board season. One timed paper to calibrate pacing is enough.
+          </LIo>
+          <LIo>
+            <B>Prioritise sleep and recovery.</B> The Class 10 student who is consistently rested outperforms the
+            one running on three hours of sleep, every time. Olympiad prep should not come at the cost of
+            recovery.
+          </LIo>
+        </OL>
+
+        <H2 id="level2-class10">Level 2 in Class 10</H2>
+        <P>
+          If a student qualifies for Level 2, it is worth attending &mdash; the Level 2 paper tests concepts at a
+          depth that is genuinely useful for JEE/NEET preparation and gives a clear signal of where the student
+          stands nationally. However, Level 2 preparation in Class 10 should not displace board exam preparation
+          in the final two months before boards. A strong board result is the non-negotiable priority.
+        </P>
+
+        <CTA>Practise Class 10 IMO and NSO questions &mdash; board-aligned, topic-wise, with full explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Can I do Olympiad preparation alongside Class 10 board exams?",
+        a: "Yes — and the overlap is larger than most people expect. IMO and NSO Class 10 test the same syllabus covered in board exams. Using Olympiad-format practice questions during board revision gives you better retention and application skills without requiring separate study hours."
+      },
+      {
+        q: "Which is the best Olympiad for Class 10 students?",
+        a: "IMO (for maths-focused students) or NSO (for science-focused students) give the strongest return on preparation time because they align directly with the board exam syllabus and JEE/NEET foundations. Appearing for both is feasible; appearing for more than two Olympiads in board year is not recommended."
+      },
+      {
+        q: "Does an Olympiad rank help in admissions after Class 10?",
+        a: "Yes. A national or international rank in a reputable Olympiad strengthens applications to competitive senior secondary schools, IB programmes, and scholarship programmes. It also contributes positively to profiles for college admissions several years later."
+      },
+      {
+        q: "How much time should a Class 10 student spend on Olympiad preparation?",
+        a: "20 to 30 minutes of Olympiad-format practice integrated into daily board revision sessions is enough. One full timed mock paper per Olympiad, about two weeks before the exam date, is the only additional requirement."
+      }
+    ]
+  },
+
   /* 11 ──────────────────────────────────────────────────────── */
   {
     slug: "imo-preparation-class-5",
