@@ -9,6 +9,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Public, indexable routes (logged-in/admin routes are intentionally excluded)
   const routes: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] }[] = [
     { path: "/", priority: 1.0, changeFrequency: "weekly" },
+    { path: "/olympiad-preparation", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/math-olympiad-preparation", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/science-olympiad-preparation", priority: 0.9, changeFrequency: "monthly" },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { path: "/mock-exams", priority: 0.9, changeFrequency: "weekly" },
     { path: "/practice-papers", priority: 0.9, changeFrequency: "weekly" },

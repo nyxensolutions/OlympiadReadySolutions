@@ -71,6 +71,507 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 28 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-study-plan",
+    title: "Olympiad Study Plan: A 90-Day Timetable to Score High",
+    description:
+      "A practical 90-day olympiad study plan for Indian students. Month-by-month schedule, weekly routines, and daily time breakdowns for IMO, NSO, and IEO preparation.",
+    date: "2026-06-29",
+    tag: "Guides",
+    readingMinutes: 7,
+    keywords: [
+      "olympiad study plan",
+      "olympiad preparation schedule",
+      "olympiad timetable",
+      "90 day olympiad plan",
+      "how to plan olympiad preparation",
+      "olympiad study timetable India",
+    ],
+    excerpt:
+      "A month-by-month 90-day plan for olympiad preparation — what to do in each phase, how to structure your week, and when to shift from topic practice to full mock tests.",
+    content: (
+      <>
+        <P>
+          Most students know they should prepare for olympiads but aren&rsquo;t sure how to structure their time. This
+          90-day study plan breaks preparation into three clear phases so you always know what to focus on and when.
+          The plan works for Classes 4&ndash;12 and can be adapted for IMO, NSO, or IEO.
+        </P>
+
+        <H2 id="phase1">Phase 1 (Days 1&ndash;30): Foundation and topic mapping</H2>
+        <P>
+          The first month is not for hard practice &mdash; it is for understanding where you stand. Begin by
+          downloading the official SOF syllabus for your class and subject. Go through every topic and rate yourself
+          honestly: strong, shaky, or not yet covered. This gives you a personalised priority list for Phases 2 and 3.
+        </P>
+        <P>
+          Spend this month reinforcing school concepts. If you are preparing for the IMO, make sure you are comfortable
+          with all textbook exercises for your class before starting olympiad-specific questions. Most olympiad errors
+          trace back to shaky foundations, not lack of olympiad practice.
+        </P>
+        <UL>
+          <LI><B>Daily time:</B> 20&ndash;30 minutes (Classes 1&ndash;5) or 30&ndash;45 minutes (Classes 6&ndash;12)</LI>
+          <LI><B>Activity:</B> School syllabus revision, topic identification, download past papers (don&rsquo;t solve yet)</LI>
+          <LI><B>End-of-month goal:</B> A clear list of your top 5 weak topics</LI>
+        </UL>
+
+        <H2 id="phase2">Phase 2 (Days 31&ndash;60): Focused topic practice</H2>
+        <P>
+          This is the most important phase. Work through your weak topics systematically &mdash; do at least
+          30&ndash;40 practice questions per topic before moving to the next. Do not jump between topics randomly.
+          Finish one completely before starting another.
+        </P>
+        <P>
+          Introduce timed practice in this phase. Set a stopwatch for every practice session, even topic-wise ones.
+          Knowing that you have 1.5 minutes per question changes how you approach problems. Students who never
+          practise with a timer consistently run out of time in the actual exam.
+        </P>
+        <UL>
+          <LI><B>Daily time:</B> 30&ndash;45 minutes (Classes 1&ndash;5) or 45&ndash;60 minutes (Classes 6&ndash;12)</LI>
+          <LI><B>Activity:</B> Topic-wise questions on weak areas, timed practice, error review journal</LI>
+          <LI><B>End-of-month goal:</B> Comfortable with all syllabus topics; first mock test completed</LI>
+        </UL>
+
+        <Callout>
+          Take your first full mock test at the end of Day 45 &mdash; halfway through Phase 2. This gives you a
+          realistic mid-point baseline and tells you which topics still need work before the final phase.
+        </Callout>
+
+        <H2 id="phase3">Phase 3 (Days 61&ndash;90): Mock tests and refinement</H2>
+        <P>
+          In the final month, shift from topic practice to full-length timed mock tests. Take one complete mock
+          test every 7&ndash;10 days and spend at least equal time reviewing every wrong answer in detail.
+          This review session &mdash; not the test itself &mdash; is where improvement happens.
+        </P>
+        <P>
+          In the final 2 weeks, specifically practise the Achievers section of your olympiad. These 5 questions
+          worth 3 marks each are the biggest single opportunity to separate your score from the average.
+        </P>
+        <UL>
+          <LI><B>Daily time:</B> 45&ndash;60 minutes</LI>
+          <LI><B>Activity:</B> Full mock tests every 7&ndash;10 days, error review, Achievers section drills</LI>
+          <LI><B>End-of-month goal:</B> 4&ndash;5 full mocks completed; consistent score improvement across tests</LI>
+        </UL>
+
+        <H2 id="weekly">Sample weekly routine (Phase 2)</H2>
+        <UL>
+          <LI><B>Monday / Wednesday / Friday:</B> 40 minutes topic-wise practice (same topic for the week)</LI>
+          <LI><B>Tuesday / Thursday:</B> 20 minutes revision of previous week&rsquo;s wrong answers</LI>
+          <LI><B>Saturday:</B> 30-minute timed mini-test (15 questions, mixed topics covered so far)</LI>
+          <LI><B>Sunday:</B> Review Saturday&rsquo;s test; identify the one topic to prioritise next week</LI>
+        </UL>
+
+        <CTA href="/mock-exams">
+          Take AI-powered mock exams calibrated to your class and olympiad &mdash; timed, adaptive, with instant
+          explanations for every answer.
+        </CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "When should I start my 90-day olympiad study plan?",
+        a: "SOF olympiads are typically held in November–December. Starting your 90-day plan in August gives you the full three months. If you start later, compress Phase 1 to 2 weeks and spend more time on Phases 2 and 3.",
+      },
+      {
+        q: "Can I follow this plan for multiple olympiads at once?",
+        a: "Yes. If you are preparing for both IMO and NSO, treat them as separate subject tracks within the same daily session. Spend 20–25 minutes on each subject. The overall phase structure stays the same.",
+      },
+      {
+        q: "How many mock tests should I take in the 90 days?",
+        a: "Aim for 5–6 full-length timed mock tests: one at Day 45, one at Day 60, then one every 7–10 days in Phase 3. Four well-reviewed mocks beat eight mocks with no review.",
+      },
+      {
+        q: "What if I start less than 90 days before the exam?",
+        a: "Skip the foundation phase if you have fewer than 60 days. Go straight to Phase 2 for 30 days, then shift to mock tests in the final 20–25 days. Prioritise the highest-weight topics and the Achievers section.",
+      },
+    ],
+  },
+
+  /* 27 ──────────────────────────────────────────────────────── */
+  {
+    slug: "igko-preparation-guide",
+    title: "IGKO Preparation Guide: How to Prepare for the General Knowledge Olympiad",
+    description:
+      "Complete IGKO preparation guide for Classes 1–10. Covers the International General Knowledge Olympiad syllabus, exam pattern, study strategy, and practice tips.",
+    date: "2026-06-29",
+    tag: "General Knowledge",
+    readingMinutes: 6,
+    keywords: [
+      "IGKO preparation",
+      "International General Knowledge Olympiad",
+      "IGKO guide",
+      "IGKO syllabus",
+      "how to prepare for IGKO",
+      "IGKO exam pattern",
+      "general knowledge olympiad India",
+    ],
+    excerpt:
+      "A complete IGKO preparation guide — what the exam tests, how the syllabus is structured, and the most effective way to build general knowledge systematically for Classes 1–10.",
+    content: (
+      <>
+        <P>
+          The International General Knowledge Olympiad (IGKO) by the Science Olympiad Foundation is one of the most
+          accessible school olympiads &mdash; it does not require deep subject knowledge and is open to Classes 1
+          through 10. But &ldquo;general knowledge&rdquo; is deceptively broad, and students who prepare
+          systematically score far higher than those who rely on what they happen to have read.
+        </P>
+
+        <H2 id="about-igko">What the IGKO tests</H2>
+        <P>
+          The IGKO is a 60-minute multiple-choice paper with no negative marking. It tests current affairs, static
+          general knowledge (science, history, geography, sports), logical reasoning, and awareness of India and
+          the world. Questions are age-appropriate &mdash; a Class 2 paper tests national symbols and animals,
+          while a Class 10 paper covers international organisations, scientific discoveries, and recent global events.
+        </P>
+        <UL>
+          <LI><B>Total questions:</B> 35 (Classes 1&ndash;4) or 50 (Classes 5&ndash;10)</LI>
+          <LI><B>Duration:</B> 60 minutes, no negative marking</LI>
+          <LI><B>Sections:</B> Current Affairs, Science &amp; Technology, Social Studies, Logical Reasoning, Achievers</LI>
+          <LI><B>Achievers section:</B> 5 questions worth 3 marks each</LI>
+        </UL>
+
+        <H2 id="syllabus">IGKO syllabus overview</H2>
+        <UL>
+          <LI><B>India &amp; the world:</B> National symbols, capitals, landmarks, famous personalities, international bodies (UN, WHO)</LI>
+          <LI><B>Science &amp; technology:</B> Discoveries, inventions, space exploration, technology in the news</LI>
+          <LI><B>Social studies:</B> Indian history, geography, culture, government at an age-appropriate level</LI>
+          <LI><B>Sports &amp; entertainment:</B> Recent major tournament winners, national awards, film awards</LI>
+          <LI><B>Current affairs:</B> Events from roughly the 12 months before the exam &mdash; the most dynamic section</LI>
+        </UL>
+
+        <H2 id="strategy">How to prepare for IGKO</H2>
+        <P>
+          Unlike IMO or NSO, IGKO preparation cannot be done from a single textbook. It requires building a
+          reading habit over months rather than intensive last-minute study.
+        </P>
+        <UL>
+          <LI><B>Read daily for 15 minutes:</B> A children&rsquo;s current affairs digest covers both static GK and monthly events in an age-appropriate format</LI>
+          <LI><B>Keep a GK notebook:</B> Note 3&ndash;5 new facts per week &mdash; award winners, capitals, scientific firsts. Review every Sunday</LI>
+          <LI><B>Use a quiz format for recall:</B> Short daily quiz questions (5&ndash;10 per day) build recall far faster than reading alone</LI>
+          <LI><B>Cover the SOF IGKO workbook:</B> The official workbook covers 60&ndash;70% of what appears in the paper</LI>
+          <LI><B>Take 2&ndash;3 full mock tests in the final 3 weeks</B></LI>
+        </UL>
+
+        <Callout>
+          Current affairs questions typically cover events from October of the previous year through October of
+          the current year. Start tracking news 12 months before your exam, not just in the final weeks.
+        </Callout>
+
+        <H2 id="achievers">Achievers section tips</H2>
+        <P>
+          IGKO Achievers questions typically combine two areas &mdash; for example, a question about a scientific
+          award winner requires both science knowledge and current affairs. The best preparation is to read about
+          major awards (Nobel Prize, Padma awards, Bharat Ratna) and the people who receive them each year.
+          These reliably appear in IGKO Achievers questions.
+        </P>
+
+        <CTA href="/topics">
+          Explore the full olympiad syllabus map on OlympiadReady &mdash; topic-by-topic practice for IMO,
+          NSO, IEO, IGKO, and Spell Bee for Classes 1&ndash;12.
+        </CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is there a fixed IGKO syllabus?",
+        a: "The SOF publishes a broad IGKO syllabus covering current affairs, science and technology, social studies, sports and entertainment, and logical reasoning for each class. Current affairs questions depend on what happened in the 12 months before the exam.",
+      },
+      {
+        q: "How should I prepare for the current affairs section of IGKO?",
+        a: "Read a children's current affairs digest monthly and note major events: awards, appointments, sports results, scientific milestones. Regular reading over 3–6 months is far more effective than cramming in the final week.",
+      },
+      {
+        q: "Can I prepare for IGKO alongside IMO and NSO?",
+        a: "Yes — IGKO requires a different kind of preparation (daily reading rather than practice questions) and does not interfere with IMO or NSO study. Most students manage with 15–20 minutes of additional daily reading.",
+      },
+      {
+        q: "What is the IGKO Achievers section and how difficult is it?",
+        a: "The Achievers section has 5 questions worth 3 marks each, typically involving harder current affairs or cross-topic questions. Students who specifically read about award winners and notable people see the most improvement here.",
+      },
+    ],
+  },
+
+  /* 26 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-preparation-class-12",
+    title: "Olympiad Preparation for Class 12: Balancing Boards and Olympiads",
+    description:
+      "Should Class 12 students do olympiads? Yes — and here is how to balance boards with IMO and NSO preparation without sacrificing either. Practical strategy for Class 12.",
+    date: "2026-06-28",
+    tag: "Guides",
+    readingMinutes: 6,
+    keywords: [
+      "olympiad preparation class 12",
+      "class 12 olympiad",
+      "IMO class 12",
+      "NSO class 12 preparation",
+      "olympiad and boards class 12",
+      "how to prepare olympiad in class 12",
+    ],
+    excerpt:
+      "Class 12 olympiad preparation requires a different strategy — boards dominate the calendar, but the olympiad still rewards students who prepare smartly. Here is how to balance both.",
+    content: (
+      <>
+        <P>
+          Class 12 is where most students drop olympiad participation, citing board exam pressure. For students
+          who manage their time well, however, preparing for the IMO or NSO alongside boards is not only feasible
+          &mdash; it actively reinforces board preparation. Class 12 olympiad questions are essentially a harder
+          version of the board paper.
+        </P>
+
+        <H2 id="why-class12">Why olympiads still make sense at Class 12</H2>
+        <P>
+          The SOF IMO and NSO for Class 12 test the same CBSE syllabus topics that appear in boards &mdash;
+          integration and probability for maths; chemical kinetics, electrochemistry, and genetics for science.
+          Practising olympiad-level application questions in these topics strengthens your board exam preparation
+          rather than competing with it.
+        </P>
+        <P>
+          A national olympiad rank at Class 12 is also a meaningful credential for college applications and
+          scholarship forms. Many students preparing for JEE and NEET find olympiad mock tests excellent speed
+          and accuracy practice.
+        </P>
+
+        <H2 id="strategy">How to balance boards and olympiad at Class 12</H2>
+        <P>
+          The key is not to add a separate preparation track alongside boards. Make your board preparation double
+          as olympiad preparation. The only additional effort is:
+        </P>
+        <UL>
+          <LI><B>Achievers section practice:</B> 15&ndash;20 minutes, 3 days a week, on higher-order application questions</LI>
+          <LI><B>3 full olympiad mock tests:</B> One in October, one in November, one 1&ndash;2 weeks before the exam</LI>
+          <LI><B>Use the olympiad syllabus as a checklist:</B> SOF Class 12 syllabus highlights the topics with highest weight in both olympiad and boards</LI>
+        </UL>
+
+        <H2 id="topics">High-priority topics for Class 12 IMO and NSO</H2>
+        <H3>IMO (Maths)</H3>
+        <UL>
+          <LI>Relations and functions, inverse trigonometric functions</LI>
+          <LI>Matrices and determinants</LI>
+          <LI>Continuity, differentiability, and applications of derivatives</LI>
+          <LI>Integration and applications of integrals</LI>
+          <LI>Probability &mdash; conditional probability and Bayes&rsquo; theorem appear frequently in Achievers</LI>
+        </UL>
+        <H3>NSO (Science)</H3>
+        <UL>
+          <LI>Chemical kinetics and electrochemistry (consistently high-weight)</LI>
+          <LI>Genetics, evolution, and reproduction</LI>
+          <LI>Semiconductor electronics and communication systems</LI>
+          <LI>Organic chemistry: alcohols, aldehydes, amines &mdash; reaction mechanisms</LI>
+        </UL>
+
+        <Callout>
+          The Class 12 Achievers section requires combining concepts across chapters. Students who practise HOTS
+          questions from NCERT exemplar books are the best prepared for this section.
+        </Callout>
+
+        <CTA href="/mock-exams">
+          Take a Class 12 olympiad mock test on OlympiadReady &mdash; timed, adaptive, with AI explanations
+          calibrated to board exam and olympiad overlap topics.
+        </CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Should Class 12 students participate in olympiads?",
+        a: "Yes, if they can manage it without sacrificing board preparation. Since Class 12 olympiad topics directly overlap with board topics, the preparation is largely the same. The only additional effort is practising Achievers questions and taking 2–3 full mock tests.",
+      },
+      {
+        q: "Will olympiad preparation hurt my board exam score?",
+        a: "No — it should help. Olympiad questions for Class 12 are harder versions of board application problems. Students who practise these tend to perform better in the CBSE board paper because they are comfortable with complex, timed application questions.",
+      },
+      {
+        q: "Is it worth preparing for both IMO and NSO in Class 12?",
+        a: "Unless you have very strong time management, focus on one. Science students should pick NSO; commerce and maths students should pick IMO. Doing both is possible but requires careful scheduling alongside board exam preparation.",
+      },
+    ],
+  },
+
+  /* 25 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-preparation-class-11",
+    title: "Olympiad Preparation for Class 11: Strategy for Senior Students",
+    description:
+      "How to prepare for olympiads in Class 11. Covers IMO and NSO strategy for senior students, how Class 11 topics differ from earlier classes, and balancing with JEE and NEET preparation.",
+    date: "2026-06-28",
+    tag: "Guides",
+    readingMinutes: 6,
+    keywords: [
+      "olympiad preparation class 11",
+      "IMO class 11",
+      "NSO class 11 preparation",
+      "olympiad for class 11 students",
+      "how to prepare olympiad class 11",
+      "class 11 maths olympiad",
+    ],
+    excerpt:
+      "Class 11 marks a significant jump in olympiad difficulty. This guide covers what changes, which topics to prioritise, and how to balance olympiad prep with JEE or NEET preparation.",
+    content: (
+      <>
+        <P>
+          Class 11 is a turning point for olympiad students. The syllabus expands dramatically, the Achievers
+          section becomes genuinely hard, and many students are simultaneously managing JEE or NEET coaching.
+          Students who do well at Class 11 olympiads approach them as a complement to competitive exam
+          preparation &mdash; not as an addition to it.
+        </P>
+
+        <H2 id="whats-different">What changes at Class 11</H2>
+        <P>
+          The Class 11 IMO introduces sets and relations, complex numbers, permutations and combinations, and
+          introductory calculus concepts (limits, basic differentiation) &mdash; topics significantly harder
+          than anything in Classes 1&ndash;10. The NSO adds chemical bonding, thermodynamics, and cell division
+          in detail.
+        </P>
+        <P>
+          The Achievers section at Class 11 regularly requires multi-step reasoning and cross-topic connections.
+          A typical Achievers question might combine a probability scenario with combinations, or link cell cycle
+          stages with genetic inheritance.
+        </P>
+
+        <H2 id="overlap">Olympiad and JEE/NEET overlap</H2>
+        <P>
+          For students in JEE or NEET coaching, Class 11 olympiad topics and JEE/NEET syllabus overlap is around
+          70&ndash;80%. The practical strategy: use your JEE/NEET coaching material as the base and take
+          2&ndash;3 olympiad mock tests in the 4 weeks before the exam. The only gap to fill is the Achievers
+          section, which coaching does not explicitly cover.
+        </P>
+
+        <H2 id="topics">Top topics for Class 11 IMO and NSO</H2>
+        <H3>IMO (Maths)</H3>
+        <UL>
+          <LI>Sets, relations, and functions</LI>
+          <LI>Sequences and series (AP, GP, HP)</LI>
+          <LI>Permutations and combinations &mdash; consistently high-weight in Achievers</LI>
+          <LI>Trigonometry: identities, equations, inverse functions</LI>
+          <LI>Introduction to 3D geometry and conic sections</LI>
+        </UL>
+        <H3>NSO (Science)</H3>
+        <UL>
+          <LI>Thermodynamics and laws of thermodynamics</LI>
+          <LI>Chemical bonding: VSEPR, hybridisation, molecular orbital theory</LI>
+          <LI>Cell cycle, cell division, and biomolecules</LI>
+          <LI>Laws of motion and work-energy-power</LI>
+          <LI>Morphology of flowering plants</LI>
+        </UL>
+
+        <Callout>
+          For Class 11 students in JEE coaching: treat the olympiad as a free benchmark test. The 60-minute,
+          35-question, timed format is excellent practice for the speed and accuracy required in JEE.
+        </Callout>
+
+        <CTA href="/practice-papers">
+          Access Class 11 olympiad practice papers on OlympiadReady &mdash; topic-wise and full-length papers
+          for IMO and NSO with detailed solutions.
+        </CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is Class 11 olympiad preparation very different from Class 10?",
+        a: "Yes, significantly. The syllabus becomes much harder — calculus concepts, thermodynamics, and complex combinatorics appear for the first time. Students who prepared consistently through Class 10 find the transition manageable; those starting fresh in Class 11 should begin at least 4 months before the exam.",
+      },
+      {
+        q: "Can I prepare for olympiads while doing JEE or NEET coaching in Class 11?",
+        a: "Yes — the syllabi overlap by 70–80%. Use your coaching material as the main resource and supplement with 2–3 olympiad mock tests in the final 4 weeks. The Achievers section is the only part that requires specific olympiad-style practice beyond standard coaching material.",
+      },
+      {
+        q: "How many olympiads should a Class 11 student attempt?",
+        a: "One or two, in your strongest subjects. Class 11 is demanding — attempting 3–4 olympiads is not recommended. IMO for maths students, NSO for science students, or IEO for English-focused students is the ideal focused choice.",
+      },
+    ],
+  },
+
+  /* 24 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-preparation-class-4",
+    title: "Olympiad Preparation for Class 4: IMO, NSO, IEO Complete Guide",
+    description:
+      "Complete olympiad preparation guide for Class 4. Covers IMO, NSO, and IEO syllabus for Class 4, study strategy, practice tips, and what parents need to know.",
+    date: "2026-06-28",
+    tag: "Guides",
+    readingMinutes: 6,
+    keywords: [
+      "olympiad preparation class 4",
+      "IMO class 4 preparation",
+      "NSO class 4",
+      "IEO class 4",
+      "how to prepare for olympiad class 4",
+      "class 4 maths olympiad guide",
+    ],
+    excerpt:
+      "A practical preparation guide for Class 4 students appearing for the IMO, NSO, or IEO. Covers the exact syllabus, what to focus on, and how to structure a daily practice routine.",
+    content: (
+      <>
+        <P>
+          Class 4 is when many students appear for their first olympiad with genuine competitive intent. Unlike
+          Classes 1&ndash;3, Class 4 students can start building a structured preparation routine that sets the
+          foundation for the harder classes ahead. The syllabus at this level is fully manageable alongside
+          school work &mdash; 25&ndash;30 minutes of daily practice is enough.
+        </P>
+
+        <H2 id="syllabus">Class 4 olympiad syllabus overview</H2>
+        <H3>IMO &mdash; Mathematics</H3>
+        <P>
+          Class 4 IMO covers: numbers up to 10,000 (place value, comparison, rounding), addition and subtraction
+          of 4-digit numbers, multiplication and division (including word problems), fractions (proper, improper,
+          equivalent, comparison), basic geometry (lines, angles, shapes), measurement (length, weight, capacity,
+          time), money, and data handling (bar graphs). The Achievers section includes multi-step word problems
+          and pattern-based puzzles.
+        </P>
+        <H3>NSO &mdash; Science</H3>
+        <P>
+          Class 4 NSO covers: plants and their adaptations, animals and their habitats, the human body (digestive,
+          circulatory systems), food and nutrition, matter (solid, liquid, gas), simple machines, light and shadow,
+          weather and seasons, water cycle, and rocks and soil.
+        </P>
+        <H3>IEO &mdash; English</H3>
+        <P>
+          Class 4 IEO covers: nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, articles,
+          tenses (simple present, past, future, present continuous), comprehension passages, word meanings, and
+          antonyms/synonyms. Reading comprehension carries significant weight.
+        </P>
+
+        <H2 id="strategy">Preparation strategy for Class 4 students</H2>
+        <UL>
+          <LI><B>Start with the school textbook:</B> Class 4 olympiad questions are firmly rooted in the NCERT/CBSE syllabus. Make sure all textbook exercises are comfortable before starting olympiad-specific questions</LI>
+          <LI><B>Use the official SOF workbook:</B> The SOF Class 4 workbook covers the exam pattern closely and includes previous year questions with solutions</LI>
+          <LI><B>Practise word problems daily:</B> The biggest differentiator at Class 4 is solving word problems correctly &mdash; reading questions carefully and setting them up beats raw calculation speed</LI>
+          <LI><B>Focus on the Achievers section:</B> Even at Class 4, these 5 questions worth 3 marks each carry significant weight. Practise them explicitly in the final 3 weeks</LI>
+          <LI><B>Take 2 full mock tests before exam day:</B> One 4&ndash;6 weeks before, one 1&ndash;2 weeks before</LI>
+        </UL>
+
+        <Callout>
+          For parents: the biggest mistake at Class 4 level is over-drilling. Keep sessions to 25&ndash;30
+          minutes. A child who practises consistently at a comfortable pace will outperform a child who is
+          drilled for 2 hours on weekends and resents it.
+        </Callout>
+
+        <CTA href="/topics">
+          Browse the Class 4 olympiad syllabus map on OlympiadReady &mdash; topic-by-topic AI practice for
+          IMO, NSO, and IEO with instant explanations.
+        </CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is Class 4 too early to prepare seriously for olympiads?",
+        a: "Not at all — Class 4 is an ideal time to build the olympiad preparation habit. The syllabus is manageable and questions are not yet complex enough to cause frustration. Students who start structured preparation in Class 4 tend to do very well in Classes 6–8 when the olympiad becomes genuinely competitive.",
+      },
+      {
+        q: "How much time should a Class 4 student spend preparing for olympiads?",
+        a: "25–30 minutes daily is sufficient. Consistent daily sessions outperform weekend cramming. If your child is preparing for multiple olympiads, split the time across subjects rather than spending all 30 minutes on one.",
+      },
+      {
+        q: "Which olympiad should a Class 4 student prioritise: IMO, NSO, or IEO?",
+        a: "Start with your child's strongest subject. Success in the first olympiad builds confidence and motivation. Once they're comfortable with the exam format (usually after Class 4 or 5), adding a second subject becomes easy.",
+      },
+      {
+        q: "Are there any specific books recommended for Class 4 olympiad preparation?",
+        a: "The SOF official workbooks are the most targeted resource. MTG and Oswaal also publish Class 4 olympiad workbooks for IMO and NSO. AI-generated practice questions (like those on OlympiadReady) ensure your child practises fresh questions every session rather than repeating the same problems.",
+      },
+    ],
+  },
+
   /* 23 ──────────────────────────────────────────────────────── */
   {
     slug: "imo-preparation-class-1",

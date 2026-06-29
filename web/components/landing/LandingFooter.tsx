@@ -7,7 +7,7 @@ export function LandingFooter() {
   return (
     <footer className="border-t border-slate-200 bg-white px-4 py-12 sm:py-16">
       <div className="mx-auto max-w-6xl">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
 
           {/* Brand */}
           <div className="lg:col-span-1">
@@ -70,6 +70,19 @@ export function LandingFooter() {
               <li><Link href="/olympiad-dates" className="transition hover:text-brand-600">Olympiad Dates</Link></li>
               <li><Link href="/blog" className="transition hover:text-brand-600">Blog</Link></li>
               <li><Link href="/dashboard" className="transition hover:text-brand-600">Dashboard</Link></li>
+            </ul>
+          </div>
+
+          {/* Guides */}
+          <div>
+            <h3 className="mb-4 font-semibold text-slate-900">Guides</h3>
+            <ul className="space-y-2.5 text-sm text-slate-600">
+              <li><Link href="/olympiad-preparation" className="transition hover:text-brand-600">Olympiad Preparation</Link></li>
+              <li><Link href="/math-olympiad-preparation" className="transition hover:text-brand-600">Math Olympiad (IMO)</Link></li>
+              <li><Link href="/science-olympiad-preparation" className="transition hover:text-brand-600">Science Olympiad (NSO)</Link></li>
+              <li><Link href="/blog/olympiad-preparation-for-classes-1-to-5" className="transition hover:text-brand-600">Classes 1–5 Guide</Link></li>
+              <li><Link href="/blog/olympiad-preparation-classes-6-to-10" className="transition hover:text-brand-600">Classes 6–10 Guide</Link></li>
+              <li><Link href="/olympiad-dates" className="transition hover:text-brand-600">Olympiad Dates 2026</Link></li>
             </ul>
           </div>
 
