@@ -108,9 +108,9 @@ public class PapersController : ControllerBase
 
                 if (dbCount > 0)
                 {
-                    var bankQuestions = await _bank.TryGetRandomAsync(
+                    var bankQuestions = await FetchBankWithImageMixAsync(
                         req.Subject, req.Grade, req.Difficulty, dbCount, req.Topic, ct);
-                    if (bankQuestions != null) finalQuestions.AddRange(bankQuestions);
+                    finalQuestions.AddRange(bankQuestions);
                 }
 
                 if (aiCount > 0)
@@ -118,7 +118,7 @@ public class PapersController : ControllerBase
                     _log.LogInformation("Hybrid generation: calling AI for {Count} questions (olympiad={OlympiadId})", aiCount, req.OlympiadId ?? "open");
                     var aiQuestions = await _ai.GenerateQuestionsAsync(
                         req.Subject, req.Grade, req.Difficulty, aiCount, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
-                    
+                    ShuffleOptions(aiQuestions);
                     finalQuestions.AddRange(aiQuestions);
 
                     // Flywheel: Save AI questions back to the Question Bank
@@ -130,9 +130,9 @@ public class PapersController : ControllerBase
                 int shortfall = req.Count - finalQuestions.Count;
                 if (shortfall > 0)
                 {
-                    var extraBankQuestions = await _bank.TryGetRandomAsync(
+                    var extraBankQuestions = await FetchBankWithImageMixAsync(
                         req.Subject, req.Grade, req.Difficulty, shortfall, req.Topic, ct);
-                    if (extraBankQuestions != null) finalQuestions.AddRange(extraBankQuestions);
+                    finalQuestions.AddRange(extraBankQuestions);
                 }
 
                 // Last resort: if DB is still exhausted, call AI regardless of tier
@@ -142,6 +142,7 @@ public class PapersController : ControllerBase
                     _log.LogInformation("DB exhausted shortfall: calling AI for {Count} questions as last resort", aiShortfall);
                     var aiShortfallQuestions = await _ai.GenerateQuestionsAsync(
                         req.Subject, req.Grade, req.Difficulty, aiShortfall, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
+                    ShuffleOptions(aiShortfallQuestions);
                     finalQuestions.AddRange(aiShortfallQuestions);
                     foreach (var q in aiShortfallQuestions)
                         SaveAiQuestionToBank(q, req.Subject, req.Grade, req.Difficulty);
@@ -224,6 +225,69 @@ public class PapersController : ControllerBase
     /// If the answer cannot be resolved (idx == -1), the question is NOT saved —
     /// it was still shown to the student this session but won't pollute the bank.
     /// </summary>
+    // Subjects where image-based questions are meaningful (geometry, science diagrams, etc.)
+    private static readonly HashSet<string> _imageSubjects = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "Mathematics", "Science", "Science-Physics", "Science-Chemistry", "Science-Biology",
+        "EVS", "General Knowledge", "GK", "Social Studies", "SST"
+    };
+
+    /// <summary>
+    /// Fetches from the question bank with ~33% image questions when the subject supports it.
+    /// Falls back gracefully if image questions aren't available.
+    /// </summary>
+    private async Task<List<Question>> FetchBankWithImageMixAsync(
+        string subject, int grade, string? difficulty, int count, string? topic, CancellationToken ct,
+        IEnumerable<Guid>? excludeIds = null)
+    {
+        bool wantMix = _imageSubjects.Contains(subject) && count >= 3;
+        if (!wantMix)
+            return await _bank.TryGetRandomAsync(subject, grade, difficulty, count, topic, ct, excludeIds) ?? new();
+
+        int imageTarget = Math.Max(1, count / 3);
+
+        var imageQs = await _bank.TryGetRandomAsync(subject, grade, difficulty, imageTarget, topic, ct, excludeIds, hasImage: true) ?? new();
+
+        var afterImageExclude = (excludeIds ?? Enumerable.Empty<Guid>())
+            .Concat(imageQs.Select(q => q.BankId).Where(id => id.HasValue).Select(id => id!.Value));
+
+        int textFetch = count - imageQs.Count;
+        var textQs = await _bank.TryGetRandomAsync(subject, grade, difficulty, textFetch, topic, ct, afterImageExclude, hasImage: false) ?? new();
+
+        var combined = imageQs.Concat(textQs).ToList();
+
+        // Top up without image filter if either pool was exhausted
+        int gap = count - combined.Count;
+        if (gap > 0)
+        {
+            var allExclude = afterImageExclude
+                .Concat(textQs.Select(q => q.BankId).Where(id => id.HasValue).Select(id => id!.Value));
+            var fillQs = await _bank.TryGetRandomAsync(subject, grade, difficulty, gap, topic, ct, allExclude) ?? new();
+            combined.AddRange(fillQs);
+        }
+
+        return combined;
+    }
+
+    private static readonly Random _rng = new();
+
+    /// <summary>
+    /// Shuffle each question's options in-place. Answer stores full text so it stays correct after reordering.
+    /// Fixes LLM bias of placing the correct answer at position A most of the time.
+    /// </summary>
+    private static void ShuffleOptions(IEnumerable<Question> questions)
+    {
+        foreach (var q in questions)
+        {
+            if (q.Options == null || q.Options.Count < 2) continue;
+            for (int i = q.Options.Count - 1; i > 0; i--)
+            {
+                int j = _rng.Next(i + 1);
+                (q.Options[i], q.Options[j]) = (q.Options[j], q.Options[i]);
+            }
+        }
+    }
+
     private void SaveAiQuestionToBank(Question q, string subject, int grade, string difficulty)
     {
         if (q.Options == null || q.Options.Count == 0)

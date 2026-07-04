@@ -69,9 +69,33 @@ public class UserService
             FullName = name
         };
         _db.Users.Add(user);
-        await _db.SaveChangesAsync(ct);
 
-        // Fire-and-forget welcome email — don't block the request if it fails
+        try
+        {
+            await _db.SaveChangesAsync(ct);
+        }
+        catch (Microsoft.EntityFrameworkCore.DbUpdateException)
+        {
+            // Race condition: another concurrent request created this user a split-second earlier.
+            // Clear the tracker and re-fetch the winner's row, then backfill + email if needed.
+            _db.ChangeTracker.Clear();
+            var concurrent = await _db.Users.FirstOrDefaultAsync(u => u.ExternalId == sub, ct);
+            if (concurrent is null) throw;
+
+            if (!string.IsNullOrEmpty(email) && !email.EndsWith("@clerk.local") && concurrent.Email.EndsWith("@clerk.local"))
+            {
+                concurrent.Email = email;
+                if (!string.IsNullOrEmpty(name) && string.IsNullOrEmpty(concurrent.FullName))
+                    concurrent.FullName = name;
+                await _db.SaveChangesAsync(ct);
+                _ = _email.SendWelcomeEmailAsync(email, name ?? "").ContinueWith(t =>
+                    Console.WriteLine($"[UserService] Welcome email failed: {t.Exception?.Message}"),
+                    System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted);
+            }
+            return concurrent;
+        }
+
+        // This request won the race — fire welcome email
         if (!email.EndsWith("@clerk.local"))
             _ = _email.SendWelcomeEmailAsync(email, name ?? "").ContinueWith(t =>
                 Console.WriteLine($"[UserService] Welcome email failed: {t.Exception?.Message}"),
