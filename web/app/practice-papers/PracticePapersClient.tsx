@@ -288,6 +288,12 @@ function PracticePapersBody() {
               const blob = await verifyRes.blob();
               triggerBlobDownload(blob, `OlympiadReady-${info.subject}-Class${grade}-50Q.pdf`);
               setNotice({ kind: "ok", msg: `Your ${info.subject} 50-question paper is downloading!` });
+              // Google Ads — paid PDF download conversion
+              if (typeof window !== "undefined") {
+                (window as any).dataLayer = (window as any).dataLayer || [];
+                const _gtag = (window as any).gtag || function (...a: any[]) { (window as any).dataLayer.push(a); };
+                _gtag('event', 'conversion', { send_to: 'AW-18206317015/1Eo9CPmOy8ocENezuelD', value: pdfUnitPrice(1), currency: 'INR' });
+              }
               resolve();
             } catch (e) {
               reject(e);
@@ -365,6 +371,12 @@ function PracticePapersBody() {
               triggerBlobDownload(blob, `OlympiadReady-Papers-${count}PDF.zip`);
               setCart(new Set());
               setNotice({ kind: "ok", msg: `${count} paper${count > 1 ? "s" : ""} downloaded as a ZIP!` });
+              // Google Ads — paid batch PDF download conversion
+              if (typeof window !== "undefined") {
+                (window as any).dataLayer = (window as any).dataLayer || [];
+                const _gtag = (window as any).gtag || function (...a: any[]) { (window as any).dataLayer.push(a); };
+                _gtag('event', 'conversion', { send_to: 'AW-18206317015/1Eo9CPmOy8ocENezuelD', value: pdfBatchTotal(count), currency: 'INR' });
+              }
               resolve();
             } catch (e) {
               reject(e);
