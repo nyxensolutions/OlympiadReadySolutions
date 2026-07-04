@@ -175,6 +175,16 @@ export function UpgradeModal({
             });
             if (!v.ok) throw new Error((await v.text()) || `Verify failed (${v.status})`);
             Analytics.upgradeCompleted();
+            // Google Ads — subscription conversion
+            if (typeof window !== "undefined") {
+              (window as any).dataLayer = (window as any).dataLayer || [];
+              const gtag = (window as any).gtag || function (...a: any[]) { (window as any).dataLayer.push(a); };
+              gtag('event', 'conversion', {
+                send_to: 'AW-18206317015/shOKCM7UysocENezuelD',
+                value: price,
+                currency: 'INR',
+              });
+            }
             onUpgraded();
             onClose();
           } catch (err) {
