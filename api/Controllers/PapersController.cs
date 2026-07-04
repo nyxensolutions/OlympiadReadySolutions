@@ -249,7 +249,7 @@ public class PapersController : ControllerBase
         var imageQs = await _bank.TryGetRandomAsync(subject, grade, difficulty, imageTarget, topic, ct, excludeIds, hasImage: true) ?? new();
 
         var afterImageExclude = (excludeIds ?? Enumerable.Empty<Guid>())
-            .Concat(imageQs.Select(q => q.BankId).Where(id => id.HasValue).Select(id => id!.Value));
+            .Concat(imageQs.Select(q => q.BankId).Where(id => id != Guid.Empty));
 
         int textFetch = count - imageQs.Count;
         var textQs = await _bank.TryGetRandomAsync(subject, grade, difficulty, textFetch, topic, ct, afterImageExclude, hasImage: false) ?? new();
@@ -261,7 +261,7 @@ public class PapersController : ControllerBase
         if (gap > 0)
         {
             var allExclude = afterImageExclude
-                .Concat(textQs.Select(q => q.BankId).Where(id => id.HasValue).Select(id => id!.Value));
+                .Concat(textQs.Select(q => q.BankId).Where(id => id != Guid.Empty));
             var fillQs = await _bank.TryGetRandomAsync(subject, grade, difficulty, gap, topic, ct, allExclude) ?? new();
             combined.AddRange(fillQs);
         }
