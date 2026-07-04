@@ -90,14 +90,14 @@ export default function WelcomePage() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-3">
           <Link
-            href="/practice"
+            href="/dashboard"
             className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-6 py-3 text-sm font-bold text-white shadow hover:bg-brand-700 transition"
           >
             <BookOpen className="h-4 w-4" />
             Start Practising Free
           </Link>
           <Link
-            href="/pricing"
+            href="/dashboard"
             className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl border border-amber-300 bg-white px-6 py-3 text-sm font-bold text-amber-700 hover:bg-amber-50 transition"
           >
             <Crown className="h-4 w-4" />
