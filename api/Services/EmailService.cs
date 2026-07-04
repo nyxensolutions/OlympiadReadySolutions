@@ -13,22 +13,27 @@ public interface IEmailService
 
 public class BrevoEmailService : IEmailService
 {
-    private readonly HttpClient _http;
+    private readonly IHttpClientFactory _httpFactory;
     private readonly ILogger<BrevoEmailService> _log;
     private readonly string _apiKey;
     private readonly string _senderEmail;
     private readonly string _senderName;
 
-    public BrevoEmailService(HttpClient http, IConfiguration config, ILogger<BrevoEmailService> log)
+    public BrevoEmailService(IHttpClientFactory httpFactory, IConfiguration config, ILogger<BrevoEmailService> log)
     {
-        _http = http;
+        _httpFactory = httpFactory;
         _log = log;
         _apiKey = config["Brevo:ApiKey"] ?? "";
         _senderEmail = config["Brevo:SenderEmail"] ?? "no-reply@olympiadready.com";
         _senderName = config["Brevo:SenderName"] ?? "OlympiadReady";
-        
-        _http.BaseAddress = new Uri("https://api.brevo.com/v3/");
-        _http.DefaultRequestHeaders.Add("api-key", _apiKey);
+    }
+
+    private HttpClient CreateClient()
+    {
+        var http = _httpFactory.CreateClient();
+        http.BaseAddress = new Uri("https://api.brevo.com/v3/");
+        http.DefaultRequestHeaders.Add("api-key", _apiKey);
+        return http;
     }
 
     public async Task SendWelcomeEmailAsync(string toEmail, string toName)
@@ -115,7 +120,7 @@ public class BrevoEmailService : IEmailService
 
         try
         {
-            var res = await _http.PostAsJsonAsync("smtp/email", payload);
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
             if (!res.IsSuccessStatusCode)
             {
                 var err = await res.Content.ReadAsStringAsync();
@@ -180,7 +185,7 @@ public class BrevoEmailService : IEmailService
 
         try
         {
-            var res = await _http.PostAsJsonAsync("smtp/email", payload);
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
             if (!res.IsSuccessStatusCode)
             {
                 var err = await res.Content.ReadAsStringAsync();
@@ -271,7 +276,7 @@ public class BrevoEmailService : IEmailService
 
         try
         {
-            var res = await _http.PostAsJsonAsync("smtp/email", payload);
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
             if (!res.IsSuccessStatusCode)
             {
                 var err = await res.Content.ReadAsStringAsync();
@@ -321,7 +326,7 @@ public class BrevoEmailService : IEmailService
 
         try
         {
-            var res = await _http.PostAsJsonAsync("smtp/email", payload);
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
             if (!res.IsSuccessStatusCode)
             {
                 var err = await res.Content.ReadAsStringAsync();

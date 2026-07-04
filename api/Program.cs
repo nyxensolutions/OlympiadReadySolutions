@@ -26,7 +26,6 @@ if (builder.Environment.IsProduction())
     });
 }
 // ─────────────────────────────────────────────────────────────────────────────
-builder.Services.AddHttpClient<BrevoEmailService>();
 builder.Services.AddScoped<IEmailService, BrevoEmailService>();
 builder.Services.AddHttpClient<AiTutorService>();
 
