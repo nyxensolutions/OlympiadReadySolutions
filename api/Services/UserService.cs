@@ -9,11 +9,13 @@ public class UserService
 {
     private readonly AppDbContext _db;
     private readonly IEmailService _email;
+    private readonly ILogger<UserService> _log;
 
-    public UserService(AppDbContext db, IEmailService email)
+    public UserService(AppDbContext db, IEmailService email, ILogger<UserService> log)
     {
         _db = db;
         _email = email;
+        _log = log;
     }
 
     /// <summary>
@@ -33,9 +35,12 @@ public class UserService
         var name = principal.FindFirst("name")?.Value
             ?? principal.FindFirst(ClaimTypes.Name)?.Value;
 
+        _log.LogInformation("[UserService] GetOrSyncAsync sub={Sub} emailInJwt={EmailInJwt}", sub, email ?? "(none)");
+
         var existing = await _db.Users.FirstOrDefaultAsync(u => u.ExternalId == sub, ct);
-        if (existing is not null) 
+        if (existing is not null)
         {
+            _log.LogInformation("[UserService] Existing user found id={Id} storedEmail={StoredEmail}", existing.UserId, existing.Email);
             bool changed = false;
             bool wasAnonymous = false;
             if (!string.IsNullOrEmpty(email) && existing.Email.EndsWith("@clerk.local"))
@@ -54,13 +59,17 @@ public class UserService
                 await _db.SaveChangesAsync(ct);
             }
             if (wasAnonymous)
+            {
+                _log.LogInformation("[UserService] Backfill path — sending welcome email to {Email}", email);
                 _ = _email.SendWelcomeEmailAsync(email!, existing.FullName ?? "").ContinueWith(t =>
-                    Console.WriteLine($"[UserService] Welcome email failed: {t.Exception?.Message}"),
+                    _log.LogError("[UserService] Welcome email failed (backfill): {Err}", t.Exception?.Message),
                     System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted);
+            }
             return existing;
         }
 
         email ??= $"{sub}@clerk.local";
+        _log.LogInformation("[UserService] New user — creating with email={Email}", email);
 
         var user = new User
         {
@@ -88,18 +97,30 @@ public class UserService
                 if (!string.IsNullOrEmpty(name) && string.IsNullOrEmpty(concurrent.FullName))
                     concurrent.FullName = name;
                 await _db.SaveChangesAsync(ct);
+                _log.LogInformation("[UserService] Race-condition path — sending welcome email to {Email}", email);
                 _ = _email.SendWelcomeEmailAsync(email, name ?? "").ContinueWith(t =>
-                    Console.WriteLine($"[UserService] Welcome email failed: {t.Exception?.Message}"),
+                    _log.LogError("[UserService] Welcome email failed (race): {Err}", t.Exception?.Message),
                     System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted);
+            }
+            else
+            {
+                _log.LogInformation("[UserService] Race-condition path — no email backfill needed, concurrent.Email={ConcurrentEmail}", concurrent.Email);
             }
             return concurrent;
         }
 
         // This request won the race — fire welcome email
         if (!email.EndsWith("@clerk.local"))
+        {
+            _log.LogInformation("[UserService] New user created — sending welcome email to {Email}", email);
             _ = _email.SendWelcomeEmailAsync(email, name ?? "").ContinueWith(t =>
-                Console.WriteLine($"[UserService] Welcome email failed: {t.Exception?.Message}"),
+                _log.LogError("[UserService] Welcome email failed (new user): {Err}", t.Exception?.Message),
                 System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted);
+        }
+        else
+        {
+            _log.LogInformation("[UserService] New user created with clerk.local placeholder — welcome email deferred until backfill");
+        }
 
         return user;
     }
