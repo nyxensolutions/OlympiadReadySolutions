@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, Crown, FileText, Sparkles, Star, Zap } from "lucide-react";
+import Image from "next/image";
+import { BookOpen, Crown, FileText, Sparkles, Zap } from "lucide-react";
 
 export default function WelcomePage() {
   const router = useRouter();
@@ -30,8 +31,8 @@ export default function WelcomePage() {
       >
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-brand-600 shadow-lg mb-4">
-            <Star className="h-8 w-8 text-white fill-white" />
+          <div className="mb-4">
+            <Image src="/logo.png" alt="OlympiadReady" width={72} height={72} className="mx-auto" />
           </div>
           <h1 className="text-3xl font-extrabold text-slate-900">You're in!</h1>
           <p className="mt-2 text-lg text-slate-600">
@@ -90,14 +91,14 @@ export default function WelcomePage() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-3">
           <Link
-            href="/dashboard"
+            href="/"
             className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-6 py-3 text-sm font-bold text-white shadow hover:bg-brand-700 transition"
           >
             <BookOpen className="h-4 w-4" />
             Start Practising Free
           </Link>
           <Link
-            href="/dashboard"
+            href="/"
             className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl border border-amber-300 bg-white px-6 py-3 text-sm font-bold text-amber-700 hover:bg-amber-50 transition"
           >
             <Crown className="h-4 w-4" />
