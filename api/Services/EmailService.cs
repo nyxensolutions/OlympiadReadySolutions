@@ -44,12 +44,12 @@ public class BrevoEmailService : IEmailService
             return;
         }
 
-        var firstName = string.IsNullOrWhiteSpace(toName) ? "there" : toName.Split(' ')[0];
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "Student" : toName.Split(' ')[0];
 
         string htmlContent = $@"
         <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
             <div style=""background:#1e3a8a;padding:40px 20px 30px;text-align:center;"">
-                <img src=""https://images.olympiadready.com/assets/logo-light.png"" alt=""OlympiadReady"" style=""height:52px;max-width:100%;display:block;margin:0 auto;"" />
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:52px;max-width:100%;display:block;margin:0 auto;"" />
                 <h1 style=""color:#ffffff;margin:20px 0 0;font-size:26px;font-weight:700;"">Welcome to OlympiadReady! 🎉</h1>
             </div>
 
@@ -221,7 +221,7 @@ public class BrevoEmailService : IEmailService
         string htmlContent = $@"
         <div style=""font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; color: #333; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #ffffff;"">
             <div style=""background: #ffffff; padding: 40px 20px 25px; text-align: center; border-bottom: 3px solid #e0e7ff;"">
-                <img src=""https://images.olympiadready.com/assets/logo.png"" alt=""OlympiadReady"" style=""height: 64px; max-width: 100%; display: block; margin: 0 auto; color: #1e3a8a; font-size: 28px; font-weight: bold;"" />
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height: 64px; max-width: 100%; display: block; margin: 0 auto;"" />
                 <h2 style=""color: #1e3a8a; margin: 25px 0 0 0; font-size: 24px; letter-spacing: 0.5px;"">Your Weekly Progress Report</h2>
             </div>
             
