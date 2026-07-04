@@ -83,14 +83,36 @@ public class JobsController : ControllerBase
     {
         var expectedKey = _config["Cron:SecretKey"];
         if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
-        {
             return Unauthorized("Invalid Cron-Key");
-        }
 
         if (string.IsNullOrWhiteSpace(email)) return BadRequest("Email is required");
 
-        string badgesHtml = "<div style=\"padding: 8px 12px; background: #fff; border-radius: 6px; border-left: 4px solid #f59e0b; margin-bottom: 8px; font-size: 14px;\">🎖️ You unlocked <strong>Knowledge Seeker</strong>!</div>";
-        await _email.SendWeeklyProgressAsync(email, "Test User", 5, 2, 1, "4", "Olympiad Contender", badgesHtml);
-        return Ok(new { success = true, message = $"Test email sent to {email}" });
+        // Probe Brevo directly so we surface real errors instead of always saying "success"
+        var apiKey = _config["Brevo:ApiKey"] ?? _config["Brevo__ApiKey"] ?? "";
+        var senderEmail = _config["Brevo:SenderEmail"] ?? _config["Brevo__SenderEmail"] ?? "hello@olympiadready.com";
+        var senderName = _config["Brevo:SenderName"] ?? _config["Brevo__SenderName"] ?? "OlympiadReady";
+
+        if (string.IsNullOrWhiteSpace(apiKey))
+            return StatusCode(500, new { success = false, error = "Brevo API key is not configured (check Brevo__ApiKey in App Settings)" });
+
+        using var http = new HttpClient();
+        http.BaseAddress = new Uri("https://api.brevo.com/v3/");
+        http.DefaultRequestHeaders.Add("api-key", apiKey);
+
+        var payload = new
+        {
+            sender = new { name = senderName, email = senderEmail },
+            to = new[] { new { email, name = "Test User" } },
+            subject = "[OlympiadReady] Test email — Brevo diagnostic",
+            htmlContent = "<p>This is a Brevo diagnostic test from the OlympiadReady API. If you received this, transactional email is working correctly.</p>"
+        };
+
+        var res = await http.PostAsJsonAsync("smtp/email", payload);
+        var body = await res.Content.ReadAsStringAsync();
+
+        if (!res.IsSuccessStatusCode)
+            return StatusCode((int)res.StatusCode, new { success = false, brevoStatus = (int)res.StatusCode, error = body });
+
+        return Ok(new { success = true, message = $"Brevo accepted the request — email queued for {email}", brevoResponse = body });
     }
 }
