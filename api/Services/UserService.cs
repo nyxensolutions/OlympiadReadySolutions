@@ -37,10 +37,12 @@ public class UserService
         if (existing is not null) 
         {
             bool changed = false;
+            bool wasAnonymous = false;
             if (!string.IsNullOrEmpty(email) && existing.Email.EndsWith("@clerk.local"))
             {
                 existing.Email = email;
                 changed = true;
+                wasAnonymous = true; // first time we have a real email — send welcome
             }
             if (!string.IsNullOrEmpty(name) && string.IsNullOrEmpty(existing.FullName))
             {
@@ -51,6 +53,10 @@ public class UserService
             {
                 await _db.SaveChangesAsync(ct);
             }
+            if (wasAnonymous)
+                _ = _email.SendWelcomeEmailAsync(email!, existing.FullName ?? "").ContinueWith(t =>
+                    Console.WriteLine($"[UserService] Welcome email failed: {t.Exception?.Message}"),
+                    System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted);
             return existing;
         }
 
