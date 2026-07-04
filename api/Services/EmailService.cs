@@ -113,7 +113,7 @@ public class BrevoEmailService : IEmailService
         var payload = new
         {
             sender = new { name = _senderName, email = _senderEmail },
-            to = new[] { new { email = toEmail, name = toName } },
+            to = new[] { new { email = toEmail, name = firstName } },
             subject = "Welcome to OlympiadReady — Your 15 Free Papers Are Ready! 🎉",
             htmlContent
         };
@@ -145,6 +145,7 @@ public class BrevoEmailService : IEmailService
             return;
         }
 
+        var safeName = string.IsNullOrWhiteSpace(toName) ? toEmail.Split('@')[0] : toName;
         string subjectListHtml = string.Join("", subjects.Select(s => $"<li>{s}</li>"));
         string totalAmount = (amountInPaise / 100.0).ToString("F2");
 
@@ -178,7 +179,7 @@ public class BrevoEmailService : IEmailService
         var payload = new
         {
             sender = new { name = _senderName, email = _senderEmail },
-            to = new[] { new { email = toEmail, name = toName } },
+            to = new[] { new { email = toEmail, name = safeName } },
             subject = "Your OlympiadReady Subscription Receipt",
             htmlContent = htmlContent
         };
@@ -210,6 +211,7 @@ public class BrevoEmailService : IEmailService
             return;
         }
 
+        var safeName = string.IsNullOrWhiteSpace(toName) ? toEmail.Split('@')[0] : toName;
         // Fallback for missing user badges
         if (string.IsNullOrWhiteSpace(userBadgesHtml))
         {
@@ -269,7 +271,7 @@ public class BrevoEmailService : IEmailService
         var payload = new
         {
             sender = new { name = _senderName, email = _senderEmail },
-            to = new[] { new { email = toEmail, name = toName } },
+            to = new[] { new { email = toEmail, name = safeName } },
             subject = "Your Weekly OlympiadReady Progress & Leaderboard Stats! 🚀",
             htmlContent = htmlContent
         };
