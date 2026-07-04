@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Crown } from "lucide-react";
 import type {
   AttemptResult,
@@ -29,6 +29,26 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
 
   const [upgradeGrade, setUpgradeGrade] = useState<number | undefined>(undefined);
   const [upgradeSubject, setUpgradeSubject] = useState<string | undefined>(undefined);
+  const softNudgeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Soft upgrade nudge: after 3rd paper completed, show upgrade modal 2.5s into results screen
+  useEffect(() => {
+    if (
+      phase.kind === "results" &&
+      status?.tier === "Free" &&
+      typeof status.used === "number" &&
+      status.used >= 3 &&
+      status.used < (status.limit ?? 15)
+    ) {
+      softNudgeTimer.current = setTimeout(() => {
+        openUpgrade(`You've completed ${status.used} of ${status.limit ?? 15} free papers — unlock unlimited practice for ₹129/month.`);
+      }, 2500);
+    }
+    return () => {
+      if (softNudgeTimer.current) clearTimeout(softNudgeTimer.current);
+    };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase.kind]);
 
   function openUpgrade(reason?: string, grade?: number, subject?: string) {
     setUpgradeReason(reason);

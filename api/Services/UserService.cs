@@ -8,10 +8,12 @@ namespace OlympiadReady.Api.Services;
 public class UserService
 {
     private readonly AppDbContext _db;
+    private readonly IEmailService _email;
 
-    public UserService(AppDbContext db)
+    public UserService(AppDbContext db, IEmailService email)
     {
         _db = db;
+        _email = email;
     }
 
     /// <summary>
@@ -62,6 +64,13 @@ public class UserService
         };
         _db.Users.Add(user);
         await _db.SaveChangesAsync(ct);
+
+        // Fire-and-forget welcome email — don't block the request if it fails
+        if (!email.EndsWith("@clerk.local"))
+            _ = _email.SendWelcomeEmailAsync(email, name ?? "").ContinueWith(t =>
+                Console.WriteLine($"[UserService] Welcome email failed: {t.Exception?.Message}"),
+                System.Threading.Tasks.TaskContinuationOptions.OnlyOnFaulted);
+
         return user;
     }
 }

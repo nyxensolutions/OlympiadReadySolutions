@@ -5,6 +5,7 @@ namespace OlympiadReady.Api.Services;
 
 public interface IEmailService
 {
+    Task SendWelcomeEmailAsync(string toEmail, string toName);
     Task SendSubscriptionReceiptAsync(string toEmail, string toName, string planName, int amountInPaise, List<string> subjects);
     Task SendWeeklyProgressAsync(string toEmail, string toName, int testsCompleted, int newBadges, int pendingTests, string userRank, string topBadgePlatform, string userBadgesHtml);
     Task SendSchoolJoinNotificationAsync(string coordinatorEmail, string schoolName, string studentName, string studentEmail);
@@ -28,6 +29,107 @@ public class BrevoEmailService : IEmailService
         
         _http.BaseAddress = new Uri("https://api.brevo.com/v3/");
         _http.DefaultRequestHeaders.Add("api-key", _apiKey);
+    }
+
+    public async Task SendWelcomeEmailAsync(string toEmail, string toName)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey))
+        {
+            _log.LogWarning("Brevo API key not configured. Skipping welcome email to {Email}", toEmail);
+            return;
+        }
+
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "there" : toName.Split(' ')[0];
+
+        string htmlContent = $@"
+        <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
+            <div style=""background:#1e3a8a;padding:40px 20px 30px;text-align:center;"">
+                <img src=""https://images.olympiadready.com/assets/logo-light.png"" alt=""OlympiadReady"" style=""height:52px;max-width:100%;display:block;margin:0 auto;"" />
+                <h1 style=""color:#ffffff;margin:20px 0 0;font-size:26px;font-weight:700;"">Welcome to OlympiadReady! 🎉</h1>
+            </div>
+
+            <div style=""padding:36px 32px;"">
+                <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
+                <p style=""font-size:15px;color:#475569;line-height:1.6;"">
+                    You've just unlocked India's most powerful AI-driven Olympiad preparation platform.
+                    Here's what you can do right now:
+                </p>
+
+                <div style=""margin:24px 0;"">
+                    <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
+                        <span style=""font-size:22px;margin-right:14px;"">📄</span>
+                        <div>
+                            <strong style=""color:#1e293b;"">15 Free Practice Papers</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">SOF-aligned questions for IMO, NSO, IEO, IGKO & more. No card needed.</p>
+                        </div>
+                    </div>
+                    <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
+                        <span style=""font-size:22px;margin-right:14px;"">🤖</span>
+                        <div>
+                            <strong style=""color:#1e293b;"">AI Explains Every Answer</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Get step-by-step explanations after every test — instantly.</p>
+                        </div>
+                    </div>
+                    <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
+                        <span style=""font-size:22px;margin-right:14px;"">📥</span>
+                        <div>
+                            <strong style=""color:#1e293b;"">Free PDF Downloads</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Download and print practice papers. Study offline anytime.</p>
+                        </div>
+                    </div>
+                    <div style=""display:flex;align-items:flex-start;"">
+                        <span style=""font-size:22px;margin-right:14px;"">🏅</span>
+                        <div>
+                            <strong style=""color:#1e293b;"">Earn Badges & Certificates</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Track your progress and earn real rewards as you improve.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:20px;margin:28px 0;text-align:center;"">
+                    <p style=""margin:0 0 6px;font-size:15px;color:#1e40af;font-weight:600;"">⚡ Ready to take your first practice test?</p>
+                    <p style=""margin:0 0 18px;font-size:14px;color:#3b82f6;"">Pick your subject and start right now — it takes less than 2 minutes.</p>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Start Practising Free →</a>
+                </div>
+
+                <div style=""background:#fefce8;border:1px solid #fef08a;border-radius:10px;padding:16px 20px;margin-top:24px;"">
+                    <p style=""margin:0;font-size:14px;color:#713f12;"">
+                        💡 <strong>Pro tip:</strong> After your 15 free papers, unlock unlimited AI-generated practice for just <strong>₹129/subject/month</strong> — less than ₹5 a day.
+                    </p>
+                </div>
+            </div>
+
+            <div style=""background:#f1f5f9;padding:20px;text-align:center;border-top:1px solid #e2e8f0;"">
+                <p style=""margin:0;font-size:12px;color:#64748b;"">© {DateTime.UtcNow.Year} OlympiadReady. All rights reserved.</p>
+                <p style=""margin:6px 0 0;font-size:12px;color:#94a3b8;"">Questions? Reply to this email — we read every one.</p>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = toName } },
+            subject = "Welcome to OlympiadReady — Your 15 Free Papers Are Ready! 🎉",
+            htmlContent
+        };
+
+        try
+        {
+            var res = await _http.PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+            {
+                var err = await res.Content.ReadAsStringAsync();
+                _log.LogError("Failed to send welcome email via Brevo. Status: {Status}, Error: {Error}", res.StatusCode, err);
+            }
+            else
+            {
+                _log.LogInformation("Successfully sent welcome email to {Email}", toEmail);
+            }
+        }
+        catch (Exception ex)
+        {
+            _log.LogError(ex, "Exception while sending welcome email to {Email}", toEmail);
+        }
     }
 
     public async Task SendSubscriptionReceiptAsync(string toEmail, string toName, string planName, int amountInPaise, List<string> subjects)
