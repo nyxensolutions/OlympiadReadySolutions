@@ -226,7 +226,7 @@ function TopicsBody() {
 
         {quotaExceeded && (
           <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
-            <p className="font-semibold">You&apos;ve used all 15 free papers</p>
+            <p className="font-semibold">You&apos;ve used all your free papers</p>
             <p className="mt-1">
               Subscribe to any subject for ₹129/month to continue with unlimited AI-generated practice papers.{" "}
               <a href="/dashboard" className="underline font-medium">Go to dashboard to unlock →</a>
@@ -419,7 +419,7 @@ function TopicsBody() {
               },
               {
                 q: "How many free online attempts do I get?",
-                a: "Free users get 15 practice papers across any class or subject — enough to properly experience the platform before subscribing.",
+                a: "Free users get 5 practice papers across any class or subject — enough to experience the platform before subscribing.",
               },
               {
                 q: "What happens if I subscribe to a subject?",
@@ -427,7 +427,7 @@ function TopicsBody() {
               },
               {
                 q: "What if I use all my free attempts?",
-                a: "Once you hit your 15-paper free limit, subscribe to any subject for ₹129/month to continue with unlimited practice and AI-fresh questions.",
+                a: "Once you hit your 5-paper free limit, subscribe to any subject for ₹129/month to continue with unlimited practice and AI-fresh questions.",
               },
               {
                 q: "Do I have to subscribe to all subjects?",

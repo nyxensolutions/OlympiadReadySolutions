@@ -7,7 +7,14 @@ namespace OlympiadReady.Api.Services;
 
 public class SubscriptionService
 {
-    public const int GlobalFreeAttemptsLimit = 15;
+    public const int GlobalFreeAttemptsLimit = 5;
+
+    // Users who signed up before the July 2026 tier change keep the original 15-paper limit.
+    public const int LegacyFreeAttemptsLimit = 15;
+    private static readonly DateTime TierChangeDate = new DateTime(2026, 7, 8, 0, 0, 0, DateTimeKind.Utc);
+
+    public static int GetEffectiveLimit(User user) =>
+        user.CreatedAt < TierChangeDate ? LegacyFreeAttemptsLimit : GlobalFreeAttemptsLimit;
 
     // Retained for backward-compat/analytics on the per-subscription counter; no longer the AI gate.
     public const int PaidAiGenerationLimit = 50;
@@ -74,7 +81,7 @@ public class SubscriptionService
         if (user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value)
             return true;
 
-        return user.FreeAttemptsUsed < GlobalFreeAttemptsLimit;
+        return user.FreeAttemptsUsed < GetEffectiveLimit(user);
     }
 
     /// <summary>Returns true if the user is currently on an active school pilot.</summary>
@@ -279,12 +286,14 @@ public class SubscriptionService
 
         string tier = activeSubs.Any() ? "Modular" : (onSchoolPilot ? "School" : "Free");
 
+        int effectiveLimit = user != null ? GetEffectiveLimit(user) : GlobalFreeAttemptsLimit;
+
         return new
         {
             tier,
             used = user?.FreeAttemptsUsed ?? 0,
-            limit = GlobalFreeAttemptsLimit,
-            allowed = onTrial || onSchoolPilot || (user?.FreeAttemptsUsed ?? 0) < GlobalFreeAttemptsLimit || activeSubs.Any(),
+            limit = effectiveLimit,
+            allowed = onTrial || onSchoolPilot || (user?.FreeAttemptsUsed ?? 0) < effectiveLimit || activeSubs.Any(),
             onTrial,
             trialExpiresAt = user?.TrialExpiresAt,
             onSchoolPilot,

@@ -49,7 +49,7 @@ export default function WelcomePage() {
             <li className="flex items-start gap-3">
               <BookOpen className="h-5 w-5 text-brand-500 mt-0.5 shrink-0" />
               <div>
-                <p className="text-sm font-semibold text-slate-800">15 AI-generated practice papers</p>
+                <p className="text-sm font-semibold text-slate-800">5 AI-generated practice papers</p>
                 <p className="text-xs text-slate-500">Personalised to your grade and subject, with smart difficulty progression.</p>
               </div>
             </li>
@@ -107,7 +107,7 @@ export default function WelcomePage() {
         </div>
 
         <p className="mt-4 text-center text-xs text-slate-400">
-          No credit card needed. Start with 15 free papers, upgrade any time.
+          No credit card needed. Start with 5 free papers, upgrade any time.
         </p>
       </div>
     </div>

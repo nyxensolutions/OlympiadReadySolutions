@@ -64,7 +64,7 @@ public class BrevoEmailService : IEmailService
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
                         <span style=""font-size:22px;margin-right:14px;"">📄</span>
                         <div>
-                            <strong style=""color:#1e293b;"">15 Free Practice Papers</strong>
+                            <strong style=""color:#1e293b;"">5 Free Practice Papers</strong>
                             <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">SOF-aligned questions for IMO, NSO, IEO, IGKO & more. No card needed.</p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ public class BrevoEmailService : IEmailService
 
                 <div style=""background:#fefce8;border:1px solid #fef08a;border-radius:10px;padding:16px 20px;margin-top:24px;"">
                     <p style=""margin:0;font-size:14px;color:#713f12;"">
-                        💡 <strong>Pro tip:</strong> After your 15 free papers, unlock unlimited AI-generated practice for just <strong>₹129/subject/month</strong> — less than ₹5 a day.
+                        💡 <strong>Pro tip:</strong> After your 5 free papers, unlock unlimited AI-generated practice for just <strong>₹129/subject/month</strong> — less than ₹5 a day.
                     </p>
                 </div>
             </div>
@@ -114,7 +114,7 @@ public class BrevoEmailService : IEmailService
         {
             sender = new { name = _senderName, email = _senderEmail },
             to = new[] { new { email = toEmail, name = firstName } },
-            subject = "Welcome to OlympiadReady — Your 15 Free Papers Are Ready! 🎉",
+            subject = "Welcome to OlympiadReady — Your 5 Free Papers Are Ready! 🎉",
             htmlContent
         };
 

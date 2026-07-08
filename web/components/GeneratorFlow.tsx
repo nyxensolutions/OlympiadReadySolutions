@@ -38,10 +38,10 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
       status?.tier === "Free" &&
       typeof status.used === "number" &&
       status.used >= 3 &&
-      status.used < (status.limit ?? 15)
+      status.used < (status.limit ?? 5)
     ) {
       softNudgeTimer.current = setTimeout(() => {
-        openUpgrade(`You've completed ${status.used} of ${status.limit ?? 15} free papers — unlock unlimited practice for ₹129/month.`);
+        openUpgrade(`You've completed ${status.used} of ${status.limit ?? 5} free papers — unlock unlimited practice for ₹129/month.`);
       }, 2500);
     }
     return () => {
