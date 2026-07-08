@@ -383,6 +383,15 @@ function DashboardBody() {
     return () => { cancelled = true; };
   }, [getToken, isLoaded]);
 
+  // Scroll to hash anchor after async data loads (browser fires hash scroll before content renders)
+  useEffect(() => {
+    if (!data) return;
+    const hash = window.location.hash;
+    if (!hash) return;
+    const el = document.getElementById(hash.slice(1));
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  }, [data]);
+
   if (loading) {
     return (
       <div className="flex items-center justify-center gap-2 py-40 text-sm text-slate-500">
