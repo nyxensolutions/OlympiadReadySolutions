@@ -526,22 +526,22 @@ function DashboardBody() {
         {/* Free papers usage banner — shown to Free tier users only */}
         {data.subscription.tier === "Free" && !data.subscription.onSchoolPilot && data.subscription.used > 0 && (
           <div className={`flex flex-wrap items-center gap-4 rounded-2xl border px-5 py-4 ${
-            data.subscription.used >= 12
+            data.subscription.used >= data.subscription.limit
               ? "border-red-200 bg-red-50"
-              : data.subscription.used >= 5
+              : data.subscription.used >= Math.floor(data.subscription.limit * 0.8)
               ? "border-amber-200 bg-amber-50"
               : "border-brand-200 bg-brand-50"
           }`}>
             <div className="flex-1 min-w-0">
               <p className={`text-sm font-bold ${
-                data.subscription.used >= 12 ? "text-red-800" : data.subscription.used >= 5 ? "text-amber-800" : "text-brand-800"
+                data.subscription.used >= data.subscription.limit ? "text-red-800" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "text-amber-800" : "text-brand-800"
               }`}>
                 {data.subscription.limit - data.subscription.used <= 0
                   ? "You've used all your free papers 🎯"
                   : `${data.subscription.used} of ${data.subscription.limit} free papers used`}
               </p>
               <p className={`text-xs mt-0.5 ${
-                data.subscription.used >= 12 ? "text-red-600" : data.subscription.used >= 5 ? "text-amber-600" : "text-brand-600"
+                data.subscription.used >= data.subscription.limit ? "text-red-600" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "text-amber-600" : "text-brand-600"
               }`}>
                 {data.subscription.limit - data.subscription.used <= 0
                   ? "Upgrade to continue practising with unlimited AI-generated papers."
@@ -553,7 +553,7 @@ function DashboardBody() {
               <div className="h-2 w-full rounded-full bg-white/60">
                 <div
                   className={`h-2 rounded-full transition-all ${
-                    data.subscription.used >= 12 ? "bg-red-500" : data.subscription.used >= 5 ? "bg-amber-500" : "bg-brand-500"
+                    data.subscription.used >= data.subscription.limit ? "bg-red-500" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "bg-amber-500" : "bg-brand-500"
                   }`}
                   style={{ width: `${Math.min(100, (data.subscription.used / data.subscription.limit) * 100)}%` }}
                 />

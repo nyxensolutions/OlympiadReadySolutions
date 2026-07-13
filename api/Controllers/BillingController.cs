@@ -101,7 +101,7 @@ public class BillingController : ControllerBase
             onSchoolPilot,
             school        = schoolInfo,
             freeAttemptsUsed = user.FreeAttemptsUsed,
-            freeAttemptsLimit = SubscriptionService.GlobalFreeAttemptsLimit,
+            freeAttemptsLimit = SubscriptionService.GetEffectiveLimit(user),
             subscriptions,
             pdfPurchases
         });

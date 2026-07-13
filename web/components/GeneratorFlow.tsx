@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Crown } from "lucide-react";
+import { Crown, Sparkles, CheckCircle, ArrowRight } from "lucide-react";
 import type {
   AttemptResult,
   GeneratedPaper,
@@ -94,7 +94,47 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
       )}
 
       <div className="flex justify-center">
-        {phase.kind === "config" && (
+        {phase.kind === "config" && status?.tier === "Free" && typeof status.used === "number" && status.used >= (status.limit ?? 5) ? (
+          <div className="w-full max-w-lg rounded-2xl border border-achiever-200 bg-gradient-to-b from-achiever-50 to-white p-8 shadow-sm text-center">
+            <div className="mb-4 inline-flex items-center justify-center w-14 h-14 rounded-full bg-achiever-100">
+              <Sparkles className="h-7 w-7 text-achiever-600" />
+            </div>
+            <h2 className="text-xl font-bold text-gray-900 mb-1">
+              You&apos;ve used all {status.limit} free papers
+            </h2>
+            <p className="text-sm text-gray-500 mb-6">
+              Unlock unlimited AI-generated practice papers for any subject and grade.
+            </p>
+            <ul className="text-left space-y-2 mb-7">
+              {[
+                "Unlimited AI-generated papers per subject",
+                "Olympiad, Standard & Speed difficulty levels",
+                "Instant detailed explanations for every answer",
+                "Track your progress over time",
+              ].map((feat) => (
+                <li key={feat} className="flex items-start gap-2 text-sm text-gray-700">
+                  <CheckCircle className="h-4 w-4 text-achiever-500 mt-0.5 shrink-0" />
+                  {feat}
+                </li>
+              ))}
+            </ul>
+            <div className="mb-3 text-xs text-gray-400 font-medium uppercase tracking-wide">Starting from</div>
+            <div className="mb-6">
+              <span className="text-3xl font-extrabold text-gray-900">₹129</span>
+              <span className="text-sm text-gray-500 ml-1">/ subject / month</span>
+            </div>
+            <button
+              type="button"
+              onClick={() => openUpgrade(`You've used all ${status.limit} free papers. Upgrade to continue practising.`)}
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-achiever-600 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-achiever-700 transition-colors"
+            >
+              Upgrade to Pro <ArrowRight className="h-4 w-4" />
+            </button>
+            <p className="mt-3 text-xs text-gray-400">
+              Cancel anytime. No hidden fees.
+            </p>
+          </div>
+        ) : phase.kind === "config" && (
           <ConfigForm
             initialConfig={phase.suggestedConfig}
             adaptiveMessage={phase.adaptiveMessage}
