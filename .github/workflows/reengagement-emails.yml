@@ -1,0 +1,18 @@
+name: Re-engagement Emails Cron Job
+
+on:
+  schedule:
+    # Runs at 09:00 IST daily (03:30 UTC)
+    - cron: '30 3 * * *'
+  workflow_dispatch: # Allows manual triggering from the GitHub UI
+
+jobs:
+  trigger-emails:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Re-engagement Emails API
+        run: |
+          curl -X POST "https://api.olympiadready.com/api/jobs/reengagement-emails" \
+            -H "Cron-Key: ${{ secrets.ADMIN_API_KEY }}" \
+            -H "Content-Length: 0" \
+            --fail

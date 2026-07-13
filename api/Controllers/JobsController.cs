@@ -78,6 +78,38 @@ public class JobsController : ControllerBase
         return Ok(new { success = true, emailsSent });
     }
 
+    [HttpPost("reengagement-emails")]
+    public async Task<IActionResult> SendReengagementEmails([FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
+    {
+        var expectedKey = _config["Cron:SecretKey"];
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
+            return Unauthorized("Invalid Cron-Key");
+
+        var now = DateTime.UtcNow;
+        var windowStart = now.AddHours(-48);
+        var windowEnd = now.AddHours(-24);
+
+        // Users who signed up 24-48h ago and only have the auto-generated welcome paper
+        var targets = await _db.Users
+            .Where(u => !string.IsNullOrEmpty(u.Email)
+                     && u.FreeAttemptsUsed == 1
+                     && u.CreatedAt >= windowStart
+                     && u.CreatedAt < windowEnd)
+            .ToListAsync(ct);
+
+        int emailsSent = 0;
+        foreach (var user in targets)
+        {
+            var firstName = string.IsNullOrWhiteSpace(user.FullName) ? user.Email!.Split('@')[0] : user.FullName;
+            int papersLeft = SubscriptionService.GetEffectiveLimit(user) - user.FreeAttemptsUsed;
+            await _email.SendReengagementEmailAsync(user.Email!, firstName, papersLeft);
+            emailsSent++;
+        }
+
+        _log.LogInformation("Re-engagement job: sent {Count} emails", emailsSent);
+        return Ok(new { success = true, emailsSent });
+    }
+
     [HttpPost("weekly-emails/test")]
     public async Task<IActionResult> TestWeeklyEmail([FromQuery] string email, [FromHeader(Name = "Cron-Key")] string? cronKey)
     {

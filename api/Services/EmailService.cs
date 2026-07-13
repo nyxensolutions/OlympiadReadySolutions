@@ -9,6 +9,7 @@ public interface IEmailService
     Task SendSubscriptionReceiptAsync(string toEmail, string toName, string planName, int amountInPaise, List<string> subjects);
     Task SendWeeklyProgressAsync(string toEmail, string toName, int testsCompleted, int newBadges, int pendingTests, string userRank, string topBadgePlatform, string userBadgesHtml);
     Task SendSchoolJoinNotificationAsync(string coordinatorEmail, string schoolName, string studentName, string studentEmail);
+    Task SendReengagementEmailAsync(string toEmail, string toName, int papersLeft);
 }
 
 public class BrevoEmailService : IEmailService
@@ -338,6 +339,88 @@ public class BrevoEmailService : IEmailService
         catch (Exception ex)
         {
             _log.LogError(ex, "Exception sending school join email to {Email}", coordinatorEmail);
+        }
+    }
+
+    public async Task SendReengagementEmailAsync(string toEmail, string toName, int papersLeft)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey))
+        {
+            _log.LogWarning("Brevo API key not configured. Skipping re-engagement email to {Email}", toEmail);
+            return;
+        }
+
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "Student" : toName.Split(' ')[0];
+
+        string htmlContent = $@"
+        <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
+            <div style=""background:#1e3a8a;padding:36px 20px 28px;text-align:center;"">
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
+                <h1 style=""color:#ffffff;margin:18px 0 0;font-size:24px;font-weight:700;"">You've got {papersLeft} free papers waiting 📄</h1>
+            </div>
+
+            <div style=""padding:36px 32px;"">
+                <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
+                <p style=""font-size:15px;color:#475569;line-height:1.6;"">
+                    You tried OlympiadReady yesterday — great start! You still have <strong>{papersLeft} free practice papers</strong> left.
+                    Many students use them to prepare for IMO, NSO, and IEO in the weeks before the exam.
+                </p>
+
+                <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:24px;margin:28px 0;text-align:center;"">
+                    <p style=""margin:0 0 6px;font-size:15px;color:#1e40af;font-weight:600;"">Pick up where you left off</p>
+                    <p style=""margin:0 0 20px;font-size:14px;color:#3b82f6;"">Choose any subject — Math, Science, English, Logical Reasoning and more.</p>
+                    <a href=""https://olympiadready.com/practice"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Continue Practising →</a>
+                </div>
+
+                <div style=""display:flex;gap:16px;margin-top:8px;"">
+                    <div style=""flex:1;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;"">
+                        <div style=""font-size:22px;margin-bottom:6px;"">🤖</div>
+                        <div style=""font-size:13px;font-weight:600;color:#1e293b;"">AI Explanations</div>
+                        <div style=""font-size:12px;color:#64748b;margin-top:4px;"">Every answer explained step by step</div>
+                    </div>
+                    <div style=""flex:1;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;"">
+                        <div style=""font-size:22px;margin-bottom:6px;"">🏅</div>
+                        <div style=""font-size:13px;font-weight:600;color:#1e293b;"">Earn Badges</div>
+                        <div style=""font-size:12px;color:#64748b;margin-top:4px;"">Track progress as you improve</div>
+                    </div>
+                    <div style=""flex:1;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;"">
+                        <div style=""font-size:22px;margin-bottom:6px;"">📥</div>
+                        <div style=""font-size:13px;font-weight:600;color:#1e293b;"">Free PDFs</div>
+                        <div style=""font-size:12px;color:#64748b;margin-top:4px;"">Download & print any paper</div>
+                    </div>
+                </div>
+            </div>
+
+            <div style=""background:#f1f5f9;padding:20px;text-align:center;border-top:1px solid #e2e8f0;"">
+                <p style=""margin:0;font-size:12px;color:#64748b;"">© {DateTime.UtcNow.Year} OlympiadReady. All rights reserved.</p>
+                <p style=""margin:6px 0 0;font-size:12px;color:#94a3b8;"">Questions? Reply to this email — we read every one.</p>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = firstName } },
+            subject = $"You've got {papersLeft} free practice papers waiting, {firstName} 👋",
+            htmlContent
+        };
+
+        try
+        {
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+            {
+                var err = await res.Content.ReadAsStringAsync();
+                _log.LogError("Failed to send re-engagement email via Brevo. Status: {Status}, Error: {Error}", res.StatusCode, err);
+            }
+            else
+            {
+                _log.LogInformation("Successfully sent re-engagement email to {Email}", toEmail);
+            }
+        }
+        catch (Exception ex)
+        {
+            _log.LogError(ex, "Exception while sending re-engagement email to {Email}", toEmail);
         }
     }
 }
