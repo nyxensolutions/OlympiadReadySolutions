@@ -71,6 +71,2024 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 43 ──────────────────────────────────────────────────────── */
+  {
+    slug: "how-to-choose-the-right-olympiad-for-your-child",
+    title: "How to Choose the Right Olympiad for Your Child: A Parent's Decision Guide",
+    description:
+      "With dozens of Olympiads available, how do you choose the right ones? This guide helps parents match the right exam to their child's strengths, class, available time, and long-term goals.",
+    date: "2026-07-23",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "how to choose the right olympiad",
+      "which olympiad is best for my child",
+      "olympiad for students India",
+      "best olympiad for class 5",
+      "which olympiad should my child appear for",
+    ],
+    excerpt:
+      "IMO, NSO, IEO, IGKO, NSTSE, UCO — how do you pick? This decision guide matches the right Olympiad to your child's strengths, class, and goals.",
+    content: (
+      <>
+        <P>
+          A parent who has just discovered Olympiads faces an immediately overwhelming question: there are more
+          competitions than any child has time for, and the names all blur together. IMO, NSO, IEO, IGKO, NSTSE,
+          UCO, Silverzone, ASSET &mdash; where do you start? This guide cuts through the noise and gives you a
+          clear decision framework based on four factors: your child&rsquo;s strengths, their class, the time
+          available for preparation, and what you want to get out of the experience.
+        </P>
+
+        <H2 id="factor-1-subject-strength">Factor 1: Your child&rsquo;s subject strengths</H2>
+        <P>
+          The single most important factor in choosing an Olympiad is matching it to a subject your child is
+          genuinely interested in and reasonably good at. An Olympiad in a subject a child dislikes creates
+          preparation misery and rarely produces meaningful results.
+        </P>
+        <UL>
+          <LI><B>Strong in maths:</B> IMO (SOF International Maths Olympiad) or Silverzone IOM &mdash; both cover the school maths syllabus with application-level questions</LI>
+          <LI><B>Strong in science:</B> NSO (National Science Olympiad) for Classes 3&ndash;12 or NSTSE which covers all sciences in one integrated paper</LI>
+          <LI><B>Strong in English:</B> IEO (International English Olympiad) &mdash; tests grammar, vocabulary, comprehension, and creative writing</LI>
+          <LI><B>Curious about the world and current affairs:</B> IGKO (International General Knowledge Olympiad) &mdash; tests GK, life skills, and logical reasoning</LI>
+          <LI><B>Interested in computers:</B> NCO (National Cyber Olympiad) or UCO (Unified Cyber Olympiad) &mdash; tests computer fundamentals, MS Office, and programming basics</LI>
+          <LI><B>No clear favourite subject yet:</B> NSTSE covers all subjects in one paper and gives a detailed diagnostic report that can actually help identify strengths</LI>
+        </UL>
+
+        <H2 id="factor-2-class">Factor 2: Your child&rsquo;s class</H2>
+        <P>
+          Different Olympiads make sense at different stages:
+        </P>
+        <UL>
+          <LI>
+            <B>Classes 1&ndash;3:</B> IMO and NSO are the most appropriate starting points. The papers are
+            shorter (35 questions), there is no Level 2 for Classes 1&ndash;2, and the experience is genuinely
+            low-pressure. IGKO is also good for curious young children who enjoy general knowledge.
+          </LI>
+          <LI>
+            <B>Classes 4&ndash;6:</B> This is the ideal time to appear for 2&ndash;3 Olympiads. IMO + NSO is the
+            classic combination. Adding IEO or IGKO as a third option is manageable if the child is enthusiastic.
+            Spell Bee competitions are excellent at this stage for English vocabulary development.
+          </LI>
+          <LI>
+            <B>Classes 7&ndash;8:</B> IMO + NSO remains the core. UCO or NCO is worth adding if the child has
+            any interest in computers. This is when Level 2 qualification begins to be realistically achievable
+            with targeted preparation, so focus matters more than breadth.
+          </LI>
+          <LI>
+            <B>Classes 9&ndash;10:</B> Maximum two Olympiads in board-approaching years. Choose based on
+            JEE/NEET subject relevance &mdash; IMO for engineering aspirants, NSO for both. Use Olympiad
+            practice as integrated board revision, not as a separate activity.
+          </LI>
+        </UL>
+
+        <H2 id="factor-3-time">Factor 3: Available preparation time</H2>
+        <P>
+          Be honest about this. Each Olympiad requires 4&ndash;8 weeks of preparation to perform well. Appearing
+          for three Olympiads without adequate preparation for any of them is worse than doing one well.
+        </P>
+        <UL>
+          <LI><B>15&ndash;20 minutes per day available:</B> One Olympiad maximum. Focus entirely on doing that one well.</LI>
+          <LI><B>30&ndash;40 minutes per day available:</B> Two Olympiads &mdash; the classic IMO + NSO combination, since both share a logical reasoning section and the preparation overlaps.</LI>
+          <LI><B>45+ minutes per day available:</B> Three Olympiads possible, but only if the child is genuinely motivated rather than parent-driven. Forced preparation at this volume burns out young students quickly.</LI>
+        </UL>
+        <Callout>
+          <B>The preparation overlap trick:</B> IMO and NSO share a logical reasoning section that is identical in
+          format. A student who prepares the reasoning section for IMO does not need to prepare it separately for
+          NSO. Choosing exams with overlapping preparation requirements is the most efficient way to appear for
+          multiple Olympiads without doubling the study time.
+        </Callout>
+
+        <H2 id="factor-4-goals">Factor 4: What you want to get out of it</H2>
+        <UL>
+          <LI>
+            <B>Diagnostic feedback on strengths and weaknesses:</B> Choose NSTSE &mdash; its chapter-wise
+            diagnostic report is the most detailed of any school competition.
+          </LI>
+          <LI>
+            <B>Competitive ranking and medals:</B> SOF Olympiads (IMO, NSO, IEO) have the largest student base,
+            so a top rank carries the most weight.
+          </LI>
+          <LI>
+            <B>JEE/NEET foundation:</B> IMO (maths) and NSO (science) with deliberate Achievers-section focus.
+          </LI>
+          <LI>
+            <B>English development:</B> IEO and Spell Bee both build vocabulary and language skills, but through
+            very different mechanisms. IEO tests comprehension and grammar; Spell Bee tests spelling and vocabulary depth.
+          </LI>
+          <LI>
+            <B>Low-pressure first competition experience:</B> IMO or NSO Class 1&ndash;2, where there is no
+            Level 2 and every student receives a participation certificate.
+          </LI>
+        </UL>
+
+        <H2 id="recommended-combinations">Recommended combinations by class</H2>
+        <UL>
+          <LI><B>Classes 1&ndash;2:</B> IMO only, or IMO + NSO if the child enjoys both maths and science</LI>
+          <LI><B>Classes 3&ndash;5:</B> IMO + NSO as the core; Spell Bee as a positive add-on</LI>
+          <LI><B>Classes 6&ndash;8:</B> IMO + NSO + one of (NCO / IEO / IGKO) based on interest</LI>
+          <LI><B>Classes 9&ndash;10:</B> IMO + NSO, fully integrated with board preparation</LI>
+        </UL>
+        <P>
+          If you are still unsure after working through these four factors, start with IMO. It covers the subject
+          every student studies, it has the largest participation base, and the preparation directly strengthens
+          school maths performance regardless of the exam outcome.
+        </P>
+
+        <CTA>Start practising for your chosen Olympiad with free questions matched to your class and subject.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Which Olympiad is best for a Class 5 student?",
+        a: "IMO (maths) and NSO (science) are the strongest choices for Class 5. Both have large participation bases, clear syllabuses aligned with school curriculum, and Level 2 qualification is achievable with good preparation. Adding a Spell Bee competition is an excellent option for English vocabulary development at this age."
+      },
+      {
+        q: "How many Olympiads should a child appear for in one year?",
+        a: "Two is the sweet spot for most students in Classes 3–8 — typically IMO + NSO. The logical reasoning section is shared, so preparation overlaps significantly. Three Olympiads is manageable for highly motivated students with 45+ minutes of daily practice time. More than three without adequate preparation time rarely ends well."
+      },
+      {
+        q: "Is SOF better than Silverzone or Unified Council for Olympiads?",
+        a: "SOF has the largest student base nationally, which makes a good rank more competitive and more visible. Silverzone and Unified Council run strong competitions with slightly different question styles. For most families, SOF is the best starting point; students who want more challenge or different question formats can add a Silverzone or NSTSE paper alongside."
+      },
+      {
+        q: "Should I choose an Olympiad based on my child's weak subject or strong subject?",
+        a: "Strong subject. Olympiad preparation is most productive — and most enjoyable — when the child has genuine interest and some existing strength in the subject. Using Olympiads to remediate weak subjects usually produces frustration rather than improvement. Address weak subjects through school support; use Olympiads to develop and celebrate strengths."
+      }
+    ]
+  },
+
+  /* 44 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-vs-tuition-classes-which-is-better",
+    title: "Olympiad Preparation vs Tuition Classes: Which Is Better for Your Child?",
+    description:
+      "Should you invest in Olympiad preparation or traditional tuition classes? This honest comparison covers what each approach delivers, where they overlap, and how to decide what is right for your child's stage and goals.",
+    date: "2026-07-23",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "olympiad vs tuition classes",
+      "olympiad preparation vs coaching",
+      "is olympiad better than tuition",
+      "olympiad coaching for students",
+      "should I join olympiad coaching",
+    ],
+    excerpt:
+      "Olympiad prep and tuition classes are not the same thing — and the choice between them depends entirely on what you are trying to achieve. Here is the honest comparison.",
+    content: (
+      <>
+        <P>
+          Many parents frame this as a budget question &mdash; &ldquo;we can afford either Olympiad preparation
+          or tuition, not both, so which gives more value?&rdquo; But the choice is really about what each
+          approach actually delivers, and those are very different things. This guide breaks it down honestly so
+          you can make the right decision for your child&rsquo;s specific situation.
+        </P>
+
+        <H2 id="what-each-delivers">What each approach actually delivers</H2>
+        <H3>Tuition classes</H3>
+        <P>
+          Traditional tuition fills a specific and important function: they reinforce school content for students
+          who are not keeping up in class, provide structured homework support, and give additional explanation
+          for topics taught poorly or too quickly in school. Tuition is fundamentally <em>remedial and
+          reinforcing</em> &mdash; its primary goal is to ensure the student covers and retains what school
+          already teaches.
+        </P>
+        <P>
+          For a student who is struggling with school content, tuition often provides immediate, visible
+          improvement in school grades. For a student who is already comfortable with school content, tuition
+          provides diminishing returns &mdash; it covers ground the student has already covered.
+        </P>
+        <H3>Olympiad preparation</H3>
+        <P>
+          Olympiad preparation, done properly, is fundamentally <em>enriching and extending</em>. It takes
+          school-level content and applies it in problem-solving contexts that are more demanding than standard
+          school assessments. It builds analytical thinking, time management under pressure, and the ability
+          to apply concepts in unfamiliar situations &mdash; skills that school and tuition do not specifically
+          develop.
+        </P>
+        <P>
+          Olympiad preparation does not fix a student who is behind in school &mdash; it accelerates and deepens
+          a student who is already at or above school level.
+        </P>
+
+        <H2 id="the-honest-decision-matrix">The honest decision framework</H2>
+        <UL>
+          <LI>
+            <B>Child is below school grade average in the subject:</B> Tuition first, Olympiad later. There
+            is no point in doing application-level Olympiad problems if the foundational concepts are not
+            secure. Get the foundations right through tuition, then layer in Olympiad practice.
+          </LI>
+          <LI>
+            <B>Child is at school grade average:</B> Either can work, depending on the goal. If the goal is
+            to improve school grades, tuition is more direct. If the goal is to build problem-solving confidence
+            and competitive experience, Olympiad preparation delivers more.
+          </LI>
+          <LI>
+            <B>Child is above school grade average:</B> Olympiad preparation is almost certainly more valuable.
+            A student who already understands school content does not need more of the same &mdash; they need
+            challenge. Olympiads provide it in a structured, rewarding format.
+          </LI>
+          <LI>
+            <B>Class 10 or Class 12 board year:</B> Targeted board-specific tuition or coaching is often worth
+            prioritising for these critical years. Olympiad preparation can continue at low intensity integrated
+            with board revision, but intensive separate Olympiad coaching in board year is not advisable.
+          </LI>
+        </UL>
+        <Callout>
+          <B>The overlap is larger than most parents realise.</B> For Classes 4&ndash;9, quality Olympiad
+          preparation covers the school syllabus in full and goes beyond it. A student who prepares well for
+          IMO or NSO will typically outperform peers in school maths and science tests as a direct result
+          &mdash; even without separate tuition for those subjects. The skill-transfer runs in both directions.
+        </Callout>
+
+        <H2 id="cost-comparison">Cost and time comparison</H2>
+        <UL>
+          <LI><B>Tuition classes:</B> ₹2,000&ndash;₹8,000 per month depending on subject and location; 1&ndash;2 hours per day including travel and homework</LI>
+          <LI><B>Olympiad coaching (in-person):</B> ₹3,000&ndash;₹10,000 per month; typically 2&ndash;3 sessions per week</LI>
+          <LI><B>Self-directed Olympiad preparation:</B> ₹500&ndash;₹2,000 total (books + practice platform); 20&ndash;30 minutes per day; no travel time</LI>
+        </UL>
+        <P>
+          Most students who do well in Olympiads do <em>not</em> attend specialised Olympiad coaching classes.
+          Self-directed preparation with good practice materials &mdash; past papers, a structured question
+          bank, and systematic topic coverage &mdash; produces strong results at a fraction of the cost of
+          coaching classes.
+        </P>
+
+        <H2 id="when-to-do-both">When doing both makes sense</H2>
+        <P>
+          Both tuition and Olympiad preparation make sense when:
+        </P>
+        <UL>
+          <LI>The student is strong in one subject (doing Olympiad for it) but genuinely needs support in another (tuition for that subject) &mdash; the activities are separate and do not compete</LI>
+          <LI>School quality is genuinely poor and tuition is filling a teaching gap, not just reinforcing &mdash; in this case tuition is foundational, not optional, and Olympiad prep adds on top</LI>
+          <LI>The student has the time, energy, and motivation to do both without either one suffering &mdash; never force this if any of those three conditions are absent</LI>
+        </UL>
+
+        <H2 id="the-verdict">The verdict</H2>
+        <P>
+          For a student who is keeping up with school and wants to go further: <B>Olympiad preparation delivers
+          more value per hour and per rupee than tuition.</B> It builds skills tuition cannot provide, it is
+          more engaging for a student who is already comfortable with school content, and the results &mdash;
+          better problem-solving, better board performance, stronger competitive exam preparation &mdash; are
+          broader and longer-lasting.
+        </P>
+        <P>
+          For a student who is struggling: tuition first, Olympiad when ready. These are not competing choices
+          &mdash; they serve different needs.
+        </P>
+
+        <CTA>Start with self-directed Olympiad practice &mdash; free questions, instant feedback, no coaching needed.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is Olympiad preparation better than tuition classes?",
+        a: "For students at or above school grade average: yes, Olympiad preparation is generally more valuable per hour spent. It builds problem-solving skills, application thinking, and exam confidence that tuition cannot provide. For students below average in a subject, tuition should come first to build foundations before adding Olympiad challenge."
+      },
+      {
+        q: "Do I need to join Olympiad coaching classes to do well?",
+        a: "No. The majority of strong Olympiad performers prepare self-directed — using past papers, structured practice question banks, and topic-wise study plans. Olympiad coaching classes are useful if a student needs structure and external accountability, but they are not necessary and often not more effective than disciplined self-study."
+      },
+      {
+        q: "Can Olympiad preparation replace tuition for school subjects?",
+        a: "For Classes 4–9, quality Olympiad preparation covers the full school syllabus and goes beyond it. Students who prepare well for IMO or NSO consistently outperform peers in school maths and science tests — so for a student already at grade level, Olympiad preparation can effectively replace subject-specific tuition."
+      },
+      {
+        q: "How much does Olympiad preparation cost compared to tuition?",
+        a: "Self-directed Olympiad preparation typically costs ₹500–₹2,000 total (books and a practice platform) vs ₹2,000–₹8,000 per month for tuition. Olympiad coaching classes cost ₹3,000–₹10,000 per month and are not necessary for most students. Self-directed preparation with good materials is both cheaper and, for motivated students, equally effective."
+      }
+    ]
+  },
+
+  /* 45 ──────────────────────────────────────────────────────── */
+  {
+    slug: "how-to-motivate-child-for-olympiad-preparation",
+    title: "How to Motivate Your Child for Olympiad Preparation (Without Pressure)",
+    description:
+      "Getting a child motivated for Olympiad preparation without creating anxiety or resentment is one of the hardest parts of the process. This guide covers what actually works — and what makes things worse.",
+    date: "2026-07-23",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "how to motivate child for olympiad",
+      "olympiad preparation motivation",
+      "child not interested in olympiad",
+      "how to get child interested in olympiad",
+      "olympiad preparation tips for parents",
+    ],
+    excerpt:
+      "Forcing Olympiad preparation rarely works. This guide covers what actually motivates children at different ages — and what makes things worse.",
+    content: (
+      <>
+        <P>
+          The most common preparation problem parents report is not academic &mdash; it is motivational. A child
+          who is resistant, distracted, or anxious about Olympiad preparation will not improve regardless of how
+          many practice papers you put in front of them. Motivation is not a character trait; it is something that
+          can be deliberately built. This guide covers what works at different ages and what consistently makes
+          the problem worse.
+        </P>
+
+        <H2 id="why-children-resist">Why children resist Olympiad preparation</H2>
+        <P>
+          Before trying to fix motivation, it helps to understand what is actually causing the resistance. The
+          most common reasons:
+        </P>
+        <UL>
+          <LI><B>Exam anxiety:</B> The child finds the idea of being tested and potentially failing frightening &mdash; especially if previous academic results were disappointing</LI>
+          <LI><B>Boredom:</B> The preparation material is too easy and the child is not being challenged enough to stay engaged</LI>
+          <LI><B>Overwhelm:</B> The child finds the material genuinely hard and associates practice sessions with feeling inadequate</LI>
+          <LI><B>Parental pressure:</B> The child senses the parent cares deeply about the result and is performing for the parent, not for themselves &mdash; a reliable recipe for resentment</LI>
+          <LI><B>Opportunity cost:</B> The child has been asked to give up play, sport, or screen time for preparation and does not yet see the value</LI>
+        </UL>
+        <P>
+          Each of these requires a different response. Treating all resistance as &ldquo;laziness&rdquo; and
+          applying more pressure is the most common and most counterproductive approach.
+        </P>
+
+        <H2 id="what-works-by-age">What works at different ages</H2>
+        <H3>Classes 1&ndash;3 (ages 6&ndash;9)</H3>
+        <UL>
+          <LI>Games beat worksheets every time &mdash; use flashcards, word family games, number pattern puzzles, not practice papers</LI>
+          <LI>Short sessions (10&ndash;15 minutes) with a specific ending point outperform long open-ended sessions</LI>
+          <LI>Sticker charts and small rewards for consistency &mdash; not for scores &mdash; build the habit without attaching self-worth to results</LI>
+          <LI>Celebrate the attempt, not the outcome: &ldquo;You worked hard on that pattern, well done&rdquo; not &ldquo;You got 18/20, good job&rdquo;</LI>
+        </UL>
+        <H3>Classes 4&ndash;6 (ages 9&ndash;12)</H3>
+        <UL>
+          <LI>Let the child set their own score targets for practice sessions &mdash; ownership of the goal dramatically increases engagement</LI>
+          <LI>Use competitive formats: family quiz, score challenges against previous best, timed sets with personal records</LI>
+          <LI>Connect preparation to something the child cares about: &ldquo;If you understand fractions really well, you&rsquo;ll be better at working out cricket averages / recipe scaling / game statistics&rdquo;</LI>
+          <LI>Introduce the idea of national rank at this age &mdash; most children this age find the idea of ranking nationally genuinely motivating</LI>
+        </UL>
+        <H3>Classes 7&ndash;10 (ages 12&ndash;16)</H3>
+        <UL>
+          <LI>Explain the real stakes clearly: JEE/NEET preparation, competitive exam thinking, scholarship opportunities &mdash; older children respond to genuine reasons, not manufactured enthusiasm</LI>
+          <LI>Give full autonomy over the preparation schedule &mdash; tell them the exam date and let them plan how to get ready. Teenagers who own their schedule are far more consistent than those following a parent-imposed timetable</LI>
+          <LI>Focus on progress metrics, not absolute scores: &ldquo;Your accuracy on geometry went from 60% to 80% this month&rdquo; is more motivating than &ldquo;you need to get 90% overall&rdquo;</LI>
+          <LI>Peer groups matter enormously at this age &mdash; if a friend is also appearing, preparation often becomes a shared activity that requires no parental motivation at all</LI>
+        </UL>
+        <Callout>
+          <B>The single most effective motivation tool at any age:</B> Let the child experience a small,
+          genuine success. One practice session where the child clearly understands something they were confused
+          about before &mdash; where they feel genuinely more capable than they did an hour ago &mdash; does more
+          for motivation than any reward system or pep talk. Structure your early sessions to ensure this
+          happens.
+        </Callout>
+
+        <H2 id="what-makes-things-worse">What consistently makes things worse</H2>
+        <UL>
+          <LI><B>Comparing to siblings, cousins, or classmates:</B> &ldquo;Your brother got gold, why can&rsquo;t you?&rdquo; is the fastest way to create resentment toward both the sibling and the Olympiad</LI>
+          <LI><B>Reacting negatively to poor practice scores:</B> If a child knows a low score will upset or disappoint the parent, they will avoid practice rather than risk the reaction</LI>
+          <LI><B>Excessive sessions before the exam:</B> Cramming in the final week with exhausting practice schedules causes anxiety and reduces performance &mdash; the opposite of the intended effect</LI>
+          <LI><B>Making the Olympiad the child&rsquo;s primary identity:</B> &ldquo;My child is the Olympiad kid&rdquo; creates pressure to perform that makes failure feel existential rather than educational</LI>
+          <LI><B>Continuing after clear signs of burnout:</B> A child who has lost interest, is sleeping poorly, or is anxious needs a break, not more preparation. Pushing through burnout permanently damages the child&rsquo;s relationship with academic challenge</LI>
+        </UL>
+
+        <H2 id="the-long-game">The long game</H2>
+        <P>
+          The goal of Olympiad participation is not a medal in Class 4. The goal is a child who is genuinely
+          curious, comfortable with challenge, and capable of performing under pressure by the time they face
+          genuinely high-stakes exams in Classes 10&ndash;12. Every year of positive, low-pressure Olympiad
+          experience builds toward that outcome. Every year of forced, anxious preparation erodes it.
+        </P>
+
+        <CTA>Make practice enjoyable &mdash; our questions are engaging, levelled, and come with clear explanations. Free to try.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What should I do if my child refuses to do Olympiad preparation?",
+        a: "First, identify why. Resistance usually comes from one of five sources: exam anxiety, boredom (too easy), overwhelm (too hard), parental pressure, or opportunity cost (giving up something enjoyable). Each requires a different response. If the resistance is consistent and strong, stepping back for a year is more productive than forcing the issue."
+      },
+      {
+        q: "How do I make Olympiad practice fun for a young child?",
+        a: "Replace worksheets with games wherever possible — flashcards, pattern puzzles, number challenges, family quiz formats. Keep sessions under 15 minutes for Classes 1–3. Celebrate effort and consistency with sticker charts or small rewards, never tied to scores. The goal is building the habit with positive associations."
+      },
+      {
+        q: "My child was motivated last year but has lost interest. What happened?",
+        a: "The most common causes of declining motivation mid-preparation are: the material has become too repetitive (boring), the child has hit a difficulty wall and feels inadequate, or they sense parental pressure and are internalising the stress. Review which of these fits and address it directly — usually by changing the practice format, reducing session length, or explicitly detaching from the result."
+      },
+      {
+        q: "Should I reward my child for a good Olympiad score?",
+        a: "Reward consistency and effort, not scores. A child who consistently practices for 6 weeks deserves recognition regardless of the result. Rewarding only high scores creates anxiety around performance and teaches children to avoid activities where success is uncertain — the opposite of what competitive academic participation should build."
+      }
+    ]
+  },
+
+  /* 46 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-preparation-class-4",
+    title: "IMO Preparation for Class 4: Syllabus, Exam Pattern & Study Plan",
+    description:
+      "A complete guide to IMO preparation for Class 4 — the full syllabus, how the Achievers section works, what changes from Class 3, and a practical 6-week study plan for students and parents.",
+    date: "2026-07-23",
+    tag: "Maths",
+    readingMinutes: 8,
+    keywords: [
+      "IMO preparation class 4",
+      "maths olympiad class 4",
+      "IMO class 4 syllabus",
+      "olympiad preparation class 4",
+      "IMO sample paper class 4",
+    ],
+    excerpt:
+      "Class 4 IMO adds large numbers, basic geometry, and fractions to the mix. Here is the complete preparation guide with syllabus, Achievers strategy, and a 6-week plan.",
+    content: (
+      <>
+        <P>
+          Class 4 is a significant step up from Class 3 in the IMO. Large numbers (up to 99,999), proper fraction
+          operations, area and perimeter of composite shapes, and multi-step word problems all appear for the first
+          time. The Achievers section gets harder. And Level 2 qualification becomes a realistic goal for students
+          who prepare systematically. This guide gives you the full picture.
+        </P>
+
+        <H2 id="exam-format">Exam format</H2>
+        <P>
+          The Class 4 IMO has <B>35 questions</B> in <B>60 minutes</B> with no negative marking. The structure is:
+        </P>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 10 questions &mdash; series, analogy, coding-decoding, odd-one-out, direction problems</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions covering the Class 4 maths syllabus</LI>
+          <LI><B>Achievers:</B> 5 questions at 3 marks each &mdash; multi-step problems combining two or more topics</LI>
+        </UL>
+
+        <H2 id="syllabus">IMO Class 4 syllabus</H2>
+        <UL>
+          <LI><B>Large numbers (up to 99,999):</B> Place value, expanded form, comparison, ordering, rounding</LI>
+          <LI><B>Roman numerals:</B> Reading and writing numbers up to 1000 in Roman numerals</LI>
+          <LI><B>Operations:</B> Addition and subtraction of 5-digit numbers; multiplication of 3-digit by 2-digit numbers; division with remainders</LI>
+          <LI><B>Factors and multiples:</B> Concept of factors, prime and composite numbers, HCF and LCM (introductory)</LI>
+          <LI><B>Fractions:</B> Equivalent fractions, like and unlike fractions, addition and subtraction of like fractions, comparing fractions</LI>
+          <LI><B>Decimals:</B> Introduction, place value up to hundredths, addition and subtraction of decimals</LI>
+          <LI><B>Geometry:</B> Lines and angles, types of triangles, properties of quadrilaterals, circle (centre, radius, diameter)</LI>
+          <LI><B>Measurement:</B> Area and perimeter of rectangles and squares; volume concept; length, weight, and capacity conversions</LI>
+          <LI><B>Time:</B> 12-hour and 24-hour clock, elapsed time problems, calendar calculations</LI>
+          <LI><B>Money:</B> Addition, subtraction, and simple word problems with decimals</LI>
+          <LI><B>Data handling:</B> Pictographs, bar charts, reading and interpreting tables</LI>
+          <LI><B>Patterns:</B> Number and shape patterns, magic squares</LI>
+        </UL>
+
+        <H2 id="what-changes-from-class3">What changes from Class 3</H2>
+        <P>
+          Four things make Class 4 meaningfully harder than Class 3:
+        </P>
+        <UL>
+          <LI><B>Larger numbers:</B> Multi-step calculations with 4&ndash;5 digit numbers require faster and more accurate arithmetic &mdash; tables and division facts must be completely automatic</LI>
+          <LI><B>Fractions get operational:</B> Class 3 introduced fractions conceptually; Class 4 requires adding, subtracting, and comparing them &mdash; including unlike fractions by converting to a common denominator</LI>
+          <LI><B>Area and perimeter of composite shapes:</B> The Achievers section often presents an L-shaped or combined rectangle and asks for total area or perimeter &mdash; a genuine problem-solving question rather than a formula application</LI>
+          <LI><B>Elapsed time with 24-hour clock:</B> Time problems become significantly more complex with the introduction of 24-hour notation and elapsed time spanning AM/PM boundaries</LI>
+        </UL>
+        <Callout>
+          <B>Tables up to 15 must be automatic by Class 4.</B> The multiplication and division questions at this
+          level involve numbers that exceed the standard 10&times;10 table, and any hesitation in recall
+          under time pressure leads to errors in multi-step problems. Practise tables 11&ndash;15 daily in the
+          first two weeks of preparation.
+        </Callout>
+
+        <H2 id="achievers-strategy">Achievers section strategy</H2>
+        <P>
+          The Class 4 Achievers section typically features:
+        </P>
+        <UL>
+          <LI>A word problem combining money, time, or measurement with multiplication or division</LI>
+          <LI>A fractions problem requiring comparison of unlike fractions or a multi-step fraction word problem</LI>
+          <LI>A geometry question with a composite shape (area or perimeter of an L-shape or recessed rectangle)</LI>
+          <LI>A pattern question requiring two or three steps to complete</LI>
+          <LI>A data interpretation question requiring calculation from a bar chart or table</LI>
+        </UL>
+        <P>
+          Students who have not practised composite-shape geometry and unlike-fractions word problems will find
+          the Achievers section disproportionately hard. These two areas deserve dedicated focus from Week 3 onward.
+        </P>
+
+        <H2 id="study-plan">6-week study plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Large numbers and Roman numerals. Drill multiplication tables 11&ndash;15 daily.</LI>
+          <LI><B>Week 2:</B> Operations (multi-digit multiplication and division) and factors/multiples.</LI>
+          <LI><B>Week 3:</B> Fractions (equivalence, unlike fractions, addition, subtraction) and decimals.</LI>
+          <LI><B>Week 4:</B> Geometry (angles, triangles, quadrilaterals) and measurement (area, perimeter of composite shapes).</LI>
+          <LI><B>Week 5:</B> Time, money, data handling, patterns. Logical reasoning practice (10 questions per day).</LI>
+          <LI><B>Week 6:</B> Two full timed 35-question mock papers. Review errors by topic, not by question number.</LI>
+        </UL>
+
+        <CTA>Practise Class 4 IMO questions by topic with instant explanations &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What new topics appear in IMO Class 4 that were not in Class 3?",
+        a: "Class 4 introduces Roman numerals, proper fraction operations (addition, subtraction, comparison of unlike fractions), decimals up to hundredths, area and perimeter of composite shapes, and the 24-hour clock. These are the most commonly tested areas in the Achievers section."
+      },
+      {
+        q: "Are multiplication tables important for IMO Class 4?",
+        a: "Yes — tables up to 15 should be automatic. Class 4 calculations involve numbers beyond the standard 10×10 table, and slow recall under time pressure leads to compounding errors in multi-step problems. Drill tables 11–15 daily in the first two weeks of preparation."
+      },
+      {
+        q: "How many marks does the Achievers section carry in IMO Class 4?",
+        a: "The Achievers section has 5 questions worth 3 marks each, totalling 15 marks out of the paper's 40 marks. Performing well in Achievers is essential for Level 2 qualification, as the main section questions produce similar scores across well-prepared students."
+      },
+      {
+        q: "Is Level 2 achievable from Class 4 IMO?",
+        a: "Yes — Level 2 begins from Class 3 onward. Qualification criteria include class toppers, zone toppers (top 25 per zone), and students in the top 5% nationally. Achieving Level 2 from Class 4 requires strong performance in the Achievers section specifically, as the main section questions alone rarely differentiate national qualifiers."
+      }
+    ]
+  },
+
+  /* 47 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-preparation-class-5",
+    title: "NSO Preparation for Class 5: Syllabus, Key Topics & Study Plan",
+    description:
+      "A complete guide to NSO preparation for Class 5 — the full science syllabus, which topics appear most in the paper, how the Achievers section works, and a practical study plan.",
+    date: "2026-07-23",
+    tag: "Science",
+    readingMinutes: 8,
+    keywords: [
+      "NSO preparation class 5",
+      "national science olympiad class 5",
+      "NSO class 5 syllabus",
+      "science olympiad class 5",
+      "NSO class 5 preparation",
+    ],
+    excerpt:
+      "NSO Class 5 covers plants, animals, human body, matter, and Earth science with new depth. Here is the complete preparation guide and study plan.",
+    content: (
+      <>
+        <P>
+          Class 5 NSO is the last year of the primary-level science paper before the significant step up to
+          Classes 6&ndash;8. It covers a broader range of topics than Class 4 and the Achievers section begins
+          to test genuine application &mdash; not just recall. This guide covers the full syllabus, the most
+          commonly tested topics, and a practical preparation plan.
+        </P>
+
+        <H2 id="exam-format">Exam format</H2>
+        <P>
+          The Class 5 NSO has <B>35 questions</B> in <B>60 minutes</B>. Structure:
+        </P>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 10 questions</LI>
+          <LI><B>Science:</B> 20 questions on the Class 5 science syllabus</LI>
+          <LI><B>Achievers:</B> 5 questions at 3 marks each</LI>
+        </UL>
+
+        <H2 id="syllabus">NSO Class 5 syllabus</H2>
+        <UL>
+          <LI><B>Plants:</B> Photosynthesis (process and requirements), types of plants and their habitats, reproduction in plants (seeds, spores, vegetative), plant adaptations</LI>
+          <LI><B>Animals:</B> Classification of animals (vertebrates and invertebrates), habitats, adaptation to environment, food chains and food webs</LI>
+          <LI><B>Human body:</B> Digestive, respiratory, circulatory, nervous, and skeletal systems &mdash; functions and interconnections; disease and health</LI>
+          <LI><B>Microorganisms:</B> Types (bacteria, fungi, viruses), beneficial and harmful uses, disease spread and prevention</LI>
+          <LI><B>Food and nutrition:</B> Macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins, minerals), deficiency diseases, balanced diet</LI>
+          <LI><B>Matter:</B> States and their properties, changes of state (evaporation, condensation, melting, freezing, sublimation), mixtures and solutions</LI>
+          <LI><B>Force and motion:</B> Types of force (contact and non-contact), gravity, friction, simple machines</LI>
+          <LI><B>Light and shadows:</B> Properties of light, transparent/translucent/opaque materials, shadow formation, reflection basics</LI>
+          <LI><B>Sound:</B> Sources, vibration, loudness and pitch, how sound travels</LI>
+          <LI><B>Earth and environment:</B> Soil types and properties, water cycle, weather and climate, natural disasters, pollution and conservation, renewable and non-renewable resources</LI>
+          <LI><B>Universe and space:</B> Solar system, planets and their properties, moon phases, stars and constellations, space exploration milestones</LI>
+        </UL>
+
+        <H2 id="highest-weightage">Topics with highest question frequency</H2>
+        <P>
+          Based on the consistent pattern across Class 5 NSO papers, these topics produce the most questions:
+        </P>
+        <UL>
+          <LI><B>Human body systems:</B> 4&ndash;5 questions consistently, including Achievers-level questions about how two systems interact</LI>
+          <LI><B>Plants and photosynthesis:</B> 3&ndash;4 questions, including application questions about what happens when conditions change</LI>
+          <LI><B>Matter and states of change:</B> 3&ndash;4 questions, including scenario-based questions about specific changes of state</LI>
+          <LI><B>Animals, classification, and adaptation:</B> 3&ndash;4 questions</LI>
+          <LI><B>Earth and environment:</B> 2&ndash;3 questions, with growing emphasis on pollution and conservation</LI>
+        </UL>
+        <Callout>
+          <B>Human body systems are the highest-priority topic at Class 5 NSO.</B> These questions appear in
+          the main section and consistently anchor the Achievers section. Understanding how systems
+          interconnect &mdash; for example, how the digestive and circulatory systems work together &mdash;
+          is exactly what Achievers questions test.
+        </Callout>
+
+        <H2 id="achievers-approach">Achievers section approach</H2>
+        <P>
+          At Class 5, Achievers questions typically:
+        </P>
+        <UL>
+          <LI>Describe a scenario (&ldquo;A plant is placed in a dark room with no water for three days. What will happen and why?&rdquo;) requiring explanation, not just recall</LI>
+          <LI>Ask about the interaction between two concepts (&ldquo;Which system is affected when the digestive system fails to absorb nutrients?&rdquo;)</LI>
+          <LI>Present a food chain with an intervention and ask about the effect (&ldquo;If all the frogs in this chain disappeared, what would happen to the population of insects and eagles?&rdquo;)</LI>
+        </UL>
+        <P>
+          These questions reward students who understand <em>why</em> things work rather than just <em>what</em>
+          they are. Review each topic by asking &ldquo;why&rdquo; questions after you have studied the facts.
+        </P>
+
+        <H2 id="study-plan">6-week study plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Human body systems &mdash; learn each system&rsquo;s function and then practise questions about their interconnections</LI>
+          <LI><B>Week 2:</B> Plants (photosynthesis, adaptation, reproduction) and animals (classification, food chains)</LI>
+          <LI><B>Week 3:</B> Matter (states, changes of state, mixtures) and microorganisms</LI>
+          <LI><B>Week 4:</B> Force, light, sound, and their applications</LI>
+          <LI><B>Week 5:</B> Earth, environment, and space; logical reasoning practice (10 questions per day)</LI>
+          <LI><B>Week 6:</B> Two timed full-paper mock tests; review errors by topic</LI>
+        </UL>
+
+        <CTA>Practise NSO Class 5 questions by topic &mdash; science and reasoning with full explanations, free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important for NSO Class 5?",
+        a: "Human body systems carry the highest weight across both the main section and the Achievers section. Plants and photosynthesis, matter and changes of state, and animal classification are the next most frequently tested topics. Logical reasoning (10 questions) is also significant and should not be neglected."
+      },
+      {
+        q: "How does NSO Class 5 differ from Class 4?",
+        a: "Class 5 introduces microorganisms, expands human body coverage to include nervous and circulatory systems, goes deeper into matter (sublimation, solutions vs mixtures), and includes more complex food chain and ecosystem questions. The Achievers section moves from recall to genuine application and multi-step reasoning."
+      },
+      {
+        q: "How should a Class 5 student prepare for the NSO Achievers section?",
+        a: "Achievers questions at Class 5 test understanding of processes and interconnections — not just facts. After studying each topic, practise asking 'why' and 'what happens if' questions. Specifically practise human body system interaction questions and food chain intervention questions, as these appear most consistently in the Achievers section."
+      },
+      {
+        q: "Is NSO Class 5 based on the CBSE syllabus?",
+        a: "Yes — the NSO Class 5 science section closely follows the CBSE Class 5 EVS and science syllabus. Students following ICSE or state board syllabuses will find very strong overlap. The Achievers section applies these topics in unfamiliar scenarios rather than testing content beyond the standard syllabus."
+      }
+    ]
+  },
+
+  /* 48 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-preparation-class-6",
+    title: "NSO Preparation for Class 6: Syllabus, Strategy & Study Plan",
+    description:
+      "Class 6 is the first year of middle-school science in the NSO — food, materials, changes around us, and living organisms all enter with new depth. This complete guide covers the full syllabus and preparation strategy.",
+    date: "2026-07-23",
+    tag: "Science",
+    readingMinutes: 8,
+    keywords: [
+      "NSO preparation class 6",
+      "science olympiad class 6",
+      "NSO class 6 syllabus",
+      "national science olympiad class 6",
+      "NSO class 6 preparation tips",
+    ],
+    excerpt:
+      "NSO Class 6 marks the jump to middle-school science — fibre to fabric, changes around us, and living organisms with new depth. Here is the full preparation guide.",
+    content: (
+      <>
+        <P>
+          Class 6 NSO marks the transition to middle-school science. The paper grows to 50 questions, the syllabus
+          expands significantly, and the Achievers section begins to test concepts at a depth that requires genuine
+          understanding rather than memorisation. Students who found Class 5 manageable will feel the step up &mdash;
+          but with the right preparation plan it is very achievable.
+        </P>
+
+        <H2 id="exam-format">Exam format at Class 6</H2>
+        <P>
+          The Class 6 NSO has <B>50 questions</B> in <B>60 minutes</B> &mdash; up from 35 in Class 5. Structure:
+        </P>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Science:</B> 25 questions on the Class 6 science syllabus</LI>
+          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+        </UL>
+        <P>
+          The jump from 35 to 50 questions in the same 60 minutes means time management becomes a critical skill
+          from Class 6 onward. Practise under timed conditions from the beginning of your preparation.
+        </P>
+
+        <H2 id="syllabus">NSO Class 6 syllabus</H2>
+        <UL>
+          <LI><B>Food: where does it come from?</B> Plant and animal sources, food chains, food web basics</LI>
+          <LI><B>Components of food:</B> Nutrients (carbohydrates, proteins, fats, vitamins, minerals, water), balanced diet, deficiency diseases, tests for nutrients</LI>
+          <LI><B>Fibre to fabric:</B> Plant and animal fibres, types of fabric, properties of natural and synthetic fibres</LI>
+          <LI><B>Sorting materials into groups:</B> Properties of materials (hardness, solubility, transparency, conductivity), classification of materials</LI>
+          <LI><B>Separation of substances:</B> Methods (filtration, evaporation, distillation, magnetic separation, sieving), applications</LI>
+          <LI><B>Changes around us:</B> Reversible and irreversible changes, physical and chemical changes, examples</LI>
+          <LI><B>Getting to know plants:</B> Parts of a plant and their functions, types of roots, stems, leaves, flowers; photosynthesis; plant movement</LI>
+          <LI><B>Body movements:</B> Types of joints, movement in animals, skeletal system functions</LI>
+          <LI><B>The living organisms and their surroundings:</B> Habitat types (terrestrial and aquatic), adaptation of organisms to habitat, biotic and abiotic components</LI>
+          <LI><B>Motion and measurement of distances:</B> Types of motion (linear, circular, oscillatory, random), standard units of measurement, measuring distances</LI>
+          <LI><B>Light, shadows, and reflections:</B> Properties of light, formation of shadows, pinhole camera, reflection and its laws</LI>
+          <LI><B>Electricity and circuits:</B> Electric circuit components, conductors and insulators, series and parallel circuits</LI>
+          <LI><B>Fun with magnets:</B> Properties of magnets, poles, magnetic and non-magnetic materials, uses of magnets</LI>
+          <LI><B>Water:</B> Importance of water, water cycle, conservation, water pollution</LI>
+          <LI><B>Air around us:</B> Composition of air, properties, uses, air pollution</LI>
+          <LI><B>Garbage in, garbage out:</B> Solid waste management, composting, recycling, landfill</LI>
+        </UL>
+
+        <H2 id="trickiest-topics">Topics students struggle with most</H2>
+        <UL>
+          <LI>
+            <B>Separation of substances:</B> Students can name the methods but struggle to choose the correct one
+            for a given mixture in Achievers questions. Practise matching method to scenario specifically.
+          </LI>
+          <LI>
+            <B>Reversible vs. irreversible changes:</B> Many changes seem ambiguous &mdash; is dissolving sugar
+            reversible? (Yes &mdash; evaporate the water.) Is burning wood reversible? (No.) The distinction
+            requires understanding the underlying process, not a memorised list.
+          </LI>
+          <LI>
+            <B>Electric circuits:</B> Series vs. parallel circuit questions in the Achievers section often ask
+            what happens when one bulb is removed. Practise drawing circuit diagrams and tracing the current
+            path.
+          </LI>
+        </UL>
+        <Callout>
+          <B>Time management is the biggest new challenge at Class 6.</B> The paper has 50 questions in 60
+          minutes &mdash; 72 seconds per question average. Practise skipping questions you cannot answer in
+          90 seconds and returning to them. This alone improves scores by 5&ndash;8 questions on exam day.
+        </Callout>
+
+        <H2 id="study-plan">Study plan</H2>
+        <UL>
+          <LI><B>Weeks 1&ndash;2:</B> Food, nutrition, fibre to fabric, materials and their properties</LI>
+          <LI><B>Weeks 3&ndash;4:</B> Separation of substances, changes around us, plants and body movements</LI>
+          <LI><B>Weeks 5&ndash;6:</B> Habitats, motion, light, electricity, magnets, water, air</LI>
+          <LI><B>Week 7:</B> Logical reasoning &mdash; targeted 15-question daily practice</LI>
+          <LI><B>Week 8:</B> Two full 50-question timed mock papers; error analysis and topic review</LI>
+        </UL>
+
+        <CTA>Access Class 6 NSO practice questions by topic &mdash; timed, syllabus-matched, free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How many questions are in the NSO Class 6 paper?",
+        a: "The NSO Class 6 paper has 50 questions in 60 minutes — an increase from the 35 questions in Classes 1–5. The structure is 15 Logical Reasoning questions, 25 Science questions, and 10 Achievers questions worth 3 marks each."
+      },
+      {
+        q: "What is the hardest topic in NSO Class 6?",
+        a: "Students consistently struggle most with separation of substances (knowing which method applies to which mixture) and reversible vs. irreversible changes (understanding why rather than just listing examples). Electric circuits in the Achievers section are also a high-error area because they require visual circuit-tracing rather than fact recall."
+      },
+      {
+        q: "Is NSO Class 6 based on the CBSE syllabus?",
+        a: "Yes — the NSO Class 6 science questions directly follow the CBSE Class 6 science syllabus. All topics listed in the preparation guide correspond to CBSE Class 6 chapters. ICSE students will find strong overlap but should check chapter-by-chapter to identify any gaps."
+      },
+      {
+        q: "How do I manage time in a 50-question NSO paper?",
+        a: "Practise skipping any question you cannot answer within 90 seconds and marking it to return to. Most students can answer 35–40 questions confidently; the remaining 10–15 should be attempted in a second pass. Never spend more than 3 minutes on a single question. One full timed mock paper, practiced this way, teaches pacing better than any advice."
+      }
+    ]
+  },
+
+  /* 49 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-3",
+    title: "IMO Sample Papers for Class 3: How to Use Them and What to Expect",
+    description:
+      "IMO sample papers for Class 3 are the most effective preparation tool — but only when used correctly. This guide covers the topic distribution in Class 3 IMO papers, how to analyse mistakes, and a paper-based study plan.",
+    date: "2026-07-23",
+    tag: "Maths",
+    readingMinutes: 7,
+    keywords: [
+      "IMO sample papers class 3",
+      "IMO previous year papers class 3",
+      "IMO class 3 practice paper",
+      "maths olympiad class 3 paper",
+      "IMO class 3 question paper with solutions",
+    ],
+    excerpt:
+      "IMO sample papers for Class 3 reveal exactly what the exam looks like — and using them strategically is the fastest way to improve. Here is how.",
+    content: (
+      <>
+        <P>
+          IMO sample papers for Class 3 are the most reliable preparation tool available because they show you
+          the exact question format, difficulty level, and topic distribution of the real exam. This guide explains
+          how to get the most out of them &mdash; which topics to expect, how to turn a practice paper into targeted
+          improvement, and how many papers to do before the exam.
+        </P>
+
+        <H2 id="class3-paper-structure">Class 3 IMO paper structure</H2>
+        <P>
+          The Class 3 IMO has 35 questions in 60 minutes. From Class 3, Level 2 qualification is available for top
+          performers. The paper divides into:
+        </P>
+        <UL>
+          <LI><B>Logical Reasoning (10 questions):</B> Pattern completion, analogy, odd-one-out, classification, mirror images</LI>
+          <LI><B>Mathematical Reasoning (20 questions):</B> Class 3 syllabus questions</LI>
+          <LI><B>Achievers (5 questions, 3 marks each):</B> Multi-step problems combining two Class 3 concepts</LI>
+        </UL>
+
+        <H2 id="topic-distribution">Topic distribution across papers</H2>
+        <UL>
+          <LI><B>Numbers and place value (3-digit numbers):</B> 4&ndash;5 questions &mdash; comparison, expanded form, predecessor/successor</LI>
+          <LI><B>Addition and subtraction with carrying/borrowing:</B> 3&ndash;4 questions including word problems</LI>
+          <LI><B>Multiplication and division:</B> 3&ndash;4 questions &mdash; tables 2&ndash;10, simple word problems</LI>
+          <LI><B>Fractions:</B> 2&ndash;3 questions &mdash; identifying, comparing, simple operations</LI>
+          <LI><B>Geometry (lines, angles, shapes):</B> 2&ndash;3 questions</LI>
+          <LI><B>Measurement (length, weight, capacity, time, money):</B> 3&ndash;4 questions, often word problems</LI>
+          <LI><B>Data handling:</B> 1&ndash;2 questions reading a pictograph or bar chart</LI>
+          <LI><B>Patterns:</B> 2 questions, one often in the Achievers section</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions (non-maths)</LI>
+        </UL>
+        <Callout>
+          <B>Elapsed time and money word problems are the most frequently missed questions</B> in Class 3 IMO
+          papers. Both are simple in concept but the multi-step word problem format catches students who know
+          the topic but have not practised it in question form. Identify these in sample papers and practise
+          them specifically.
+        </Callout>
+
+        <H2 id="using-papers-strategically">How to use sample papers strategically</H2>
+        <OL>
+          <LIo><B>Paper 1 (cold attempt):</B> Sit the full paper under 60-minute timed conditions without any preparation. This is your diagnostic baseline.</LIo>
+          <LIo><B>Error categorisation:</B> For each wrong answer, classify it: concept gap, application gap, or careless error. List concept gaps by topic.</LIo>
+          <LIo><B>Targeted topic revision:</B> Spend 2&ndash;3 days working through each topic where you had concept gaps, using your textbook or topic-wise practice questions.</LIo>
+          <LIo><B>Paper 2 (progress check):</B> Sit another paper under timed conditions. Improvement in the topics you revised confirms your study worked.</LIo>
+          <LIo><B>Papers 3&ndash;4 (Achievers focus):</B> Attempt just the Achievers sections from multiple papers to build confidence at the highest difficulty level.</LIo>
+          <LIo><B>Final paper (simulation):</B> Sit under full exam conditions at the same time of day as the real exam. Review afterwards but do not cram &mdash; let the paper build confidence rather than expose new gaps.</LIo>
+        </OL>
+
+        <H2 id="where-to-find">Where to find Class 3 IMO sample papers</H2>
+        <P>
+          SOF publishes official sample papers on sofworld.org. Educational publishers (MTG, Arihant) produce
+          annual workbooks with 5&ndash;10 past papers and detailed solutions. For timed digital practice with
+          instant feedback, online platforms that offer IMO-format questions by class and topic are more efficient
+          than printed papers &mdash; you get immediate answer explanations rather than checking a separate key.
+        </P>
+
+        <CTA>Practise Class 3 IMO questions in the real paper format &mdash; timed, with instant explanations, free to try.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How many sample papers should a Class 3 student practise for IMO?",
+        a: "3–4 sample papers used strategically produces better results than 8–10 papers used passively. Paper 1 is a cold diagnostic. Papers 2–3 are progress checks after targeted topic revision. The final paper is a full simulation under exam conditions."
+      },
+      {
+        q: "What topics appear most in IMO Class 3 sample papers?",
+        a: "Numbers and place value, addition and subtraction word problems, multiplication and division, fractions, and measurement (especially elapsed time and money) are the most frequently tested topics. Logical reasoning accounts for 10 of the 35 questions and should not be neglected."
+      },
+      {
+        q: "Are IMO Class 3 sample papers the same as the real exam?",
+        a: "The official SOF sample papers are representative of the real exam format, question types, and difficulty level. The exact questions differ, but the topic distribution, difficulty curve, and Achievers section style are consistent year to year."
+      },
+      {
+        q: "When should a Class 3 student start practising sample papers?",
+        a: "Start 6–8 weeks before the exam. Use the first 4 weeks for topic-wise preparation, then shift to paper practice in weeks 5–6. Doing sample papers too early (before covering the syllabus) produces discouraging low scores; doing them too late leaves no time to act on what they reveal."
+      }
+    ]
+  },
+
+  /* 50 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-6",
+    title: "IMO Sample Papers for Class 6: Topic Distribution, Strategy & How to Practise",
+    description:
+      "IMO sample papers for Class 6 are the most reliable preparation tool for the middle-school maths Olympiad. This guide covers the paper structure, which topics appear most, and how to turn practice papers into score improvement.",
+    date: "2026-07-23",
+    tag: "Maths",
+    readingMinutes: 7,
+    keywords: [
+      "IMO sample papers class 6",
+      "IMO previous year papers class 6",
+      "IMO class 6 practice paper",
+      "maths olympiad class 6 paper",
+      "IMO class 6 question paper with solutions",
+    ],
+    excerpt:
+      "IMO Class 6 sample papers reveal the real topic weightage and question style of the middle-school IMO. Here is how to use them to maximise your preparation.",
+    content: (
+      <>
+        <P>
+          Class 6 is a step-change year for the IMO &mdash; the paper grows to 50 questions, integers and algebra
+          enter the syllabus, and the time per question drops significantly. Sample papers are the most effective
+          tool for calibrating to this new format. This guide explains how to use them strategically, not just as
+          extra practice.
+        </P>
+
+        <H2 id="paper-structure">Class 6 IMO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions &mdash; series, analogy, coding-decoding, direction problems, blood relations</LI>
+          <LI><B>Mathematical Reasoning:</B> 25 questions on the Class 6 maths syllabus</LI>
+          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking. Level 2 for top performers.</P>
+
+        <H2 id="topic-distribution">Topic distribution across Class 6 IMO papers</H2>
+        <UL>
+          <LI><B>Integers (positive and negative numbers):</B> 4&ndash;5 questions &mdash; arithmetic with negative numbers, number line, absolute value</LI>
+          <LI><B>Fractions and decimals:</B> 4&ndash;5 questions &mdash; operations, comparison, word problems</LI>
+          <LI><B>HCF and LCM:</B> 3&ndash;4 questions, including word problem applications</LI>
+          <LI><B>Basic algebra:</B> 3&ndash;4 questions &mdash; solving simple equations, substitution</LI>
+          <LI><B>Ratio and proportion:</B> 3&ndash;4 questions &mdash; simplification, word problems</LI>
+          <LI><B>Geometry (lines, angles, triangles):</B> 3&ndash;4 questions</LI>
+          <LI><B>Mensuration (area and perimeter):</B> 2&ndash;3 questions</LI>
+          <LI><B>Data handling:</B> 2&ndash;3 questions &mdash; mean, median, mode; chart reading</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Achievers:</B> 10 questions, typically on integers, LCM/HCF word problems, ratio, and geometry</LI>
+        </UL>
+        <Callout>
+          <B>Integers and LCM/HCF word problems account for the most Achievers-section errors.</B> Students know
+          both topics but struggle when they appear in unfamiliar problem formats. Practise the Achievers sections
+          from multiple past papers specifically for these two topic areas.
+        </Callout>
+
+        <H2 id="time-management-strategy">Time management strategy for 50 questions</H2>
+        <P>
+          At 60 seconds average per question, time management is non-negotiable. The proven approach:
+        </P>
+        <OL>
+          <LIo><B>First pass (30 minutes):</B> Attempt every question you can answer in under 90 seconds. Mark the rest. Target: 30&ndash;35 questions.</LIo>
+          <LIo><B>Second pass (20 minutes):</B> Return to marked questions. Attempt those you feel close to solving. Skip those requiring guesswork.</LIo>
+          <LIo><B>Final 10 minutes:</B> Attempt all remaining questions. With no negative marking, never leave a blank.</LIo>
+        </OL>
+
+        <H2 id="using-papers">How to use sample papers for Class 6</H2>
+        <OL>
+          <LIo><B>Cold paper first:</B> Attempt without preparation to get an honest baseline and identify which of the new Class 6 topics (integers, algebra) are causing the most problems.</LIo>
+          <LIo><B>Separate the reasoning section:</B> Practise the 15-question reasoning section separately first. Students who have not practised coding-decoding and direction problems lose easy marks here.</LIo>
+          <LIo><B>Achievers-only practice:</B> After two full papers, extract the Achievers sections from 3&ndash;4 more papers and practise only those 10-question blocks. This builds the depth needed for Level 2 qualification.</LIo>
+          <LIo><B>Timed full simulation:</B> One complete paper under real exam conditions in the week before the exam. Review mistakes but do not start new topics at this stage.</LIo>
+        </OL>
+
+        <CTA>Practise Class 6 IMO questions by topic &mdash; integers, algebra, geometry, all with explanations. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics appear most in IMO Class 6 sample papers?",
+        a: "Integers, fractions and decimals, HCF/LCM, basic algebra, and ratio/proportion are the most frequently tested topics in Class 6 IMO papers. Integers and LCM/HCF word problems are the most common source of Achievers-section errors."
+      },
+      {
+        q: "How many questions are in the IMO Class 6 paper?",
+        a: "50 questions in 60 minutes — up from 35 in Class 5. The structure is 15 Logical Reasoning questions, 25 Mathematical Reasoning questions, and 10 Achievers questions worth 3 marks each."
+      },
+      {
+        q: "How do I improve my score on IMO Class 6 Achievers questions?",
+        a: "Extract the Achievers sections from 3–4 past papers and practise only those 10-question blocks, focusing especially on integers and LCM/HCF word problems. Understanding why each answer is correct (not just which one) is more valuable than high-volume Achievers practice."
+      },
+      {
+        q: "When should I start practising IMO Class 6 sample papers?",
+        a: "Begin 8 weeks before the exam. Use the first 5–6 weeks for topic-wise preparation (prioritise integers, algebra, and ratio/proportion as new Class 6 topics). Use weeks 7–8 for sample paper practice under timed conditions."
+      }
+    ]
+  },
+
+  /* 51 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-8",
+    title: "IMO Sample Papers for Class 8: What to Expect and How to Prepare",
+    description:
+      "IMO Class 8 is one of the most competitive middle-school Olympiad years. This guide covers the Class 8 paper structure, topic weightage, how the Achievers section works, and a strategic approach to using sample papers.",
+    date: "2026-07-23",
+    tag: "Maths",
+    readingMinutes: 8,
+    keywords: [
+      "IMO sample papers class 8",
+      "IMO previous year papers class 8",
+      "IMO class 8 preparation",
+      "maths olympiad class 8 sample paper",
+      "IMO class 8 question paper with solutions",
+    ],
+    excerpt:
+      "Class 8 IMO is where algebra, exponents, and mensuration of 3D shapes all collide. Sample papers are essential — here is how to use them strategically.",
+    content: (
+      <>
+        <P>
+          IMO Class 8 is genuinely competitive. The syllabus is broad &mdash; linear equations, algebraic
+          identities, exponents, mensuration of 3D figures, quadrilaterals, and data handling all appear in the
+          same 50-question paper. Students who have competed since Class 5 or 6 have significant advantages in
+          exam comfort. Sample papers are the tool that levels this gap for students starting later. Here is how
+          to use them.
+        </P>
+
+        <H2 id="paper-structure">Class 8 IMO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions &mdash; series, analogy, coding-decoding, blood relations, seating arrangements</LI>
+          <LI><B>Mathematical Reasoning:</B> 25 questions on the Class 8 maths syllabus</LI>
+          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking. Level 2 for top performers.</P>
+
+        <H2 id="syllabus-overview">Class 8 IMO syllabus overview</H2>
+        <UL>
+          <LI><B>Rational numbers:</B> Properties, operations, representation on number line, between two rationals</LI>
+          <LI><B>Linear equations in one variable:</B> Solving, applications in word problems</LI>
+          <LI><B>Understanding quadrilaterals:</B> Properties of parallelograms, rhombus, rectangle, square, trapezium</LI>
+          <LI><B>Practical geometry:</B> Constructing quadrilaterals</LI>
+          <LI><B>Data handling:</B> Pie charts, histograms, probability (introduction)</LI>
+          <LI><B>Squares and square roots:</B> Perfect squares, methods of finding square roots</LI>
+          <LI><B>Cubes and cube roots:</B> Perfect cubes, estimation</LI>
+          <LI><B>Comparing quantities:</B> Percentage, profit/loss, simple and compound interest, tax</LI>
+          <LI><B>Algebraic expressions and identities:</B> Addition, subtraction, multiplication of polynomials; standard identities (a+b)&sup2;, (a&minus;b)&sup2;, a&sup2;&minus;b&sup2;</LI>
+          <LI><B>Mensuration:</B> Area of trapezium, quadrilateral, special quadrilaterals; surface area and volume of cube, cuboid, cylinder</LI>
+          <LI><B>Exponents and powers:</B> Laws of exponents, scientific notation</LI>
+          <LI><B>Direct and inverse proportion:</B> Concepts and word problems</LI>
+          <LI><B>Factorisation:</B> Common factors, regrouping, using identities</LI>
+          <LI><B>Introduction to graphs:</B> Bar graphs, pie charts, linear graph reading and interpretation</LI>
+        </UL>
+
+        <H2 id="topic-weightage">Topic weightage in Class 8 sample papers</H2>
+        <UL>
+          <LI><B>Algebraic expressions and identities:</B> 4&ndash;5 questions &mdash; highest frequency in both main and Achievers sections</LI>
+          <LI><B>Mensuration (3D shapes):</B> 4&ndash;5 questions &mdash; surface area and volume calculations, often multi-step</LI>
+          <LI><B>Comparing quantities:</B> 3&ndash;4 questions &mdash; compound interest and percentage questions dominate the Achievers section</LI>
+          <LI><B>Linear equations:</B> 3&ndash;4 questions &mdash; often word-problem format</LI>
+          <LI><B>Quadrilaterals:</B> 2&ndash;3 questions &mdash; property identification and angle calculation</LI>
+          <LI><B>Squares, cubes, exponents:</B> 3&ndash;4 questions combined</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions &mdash; seating arrangements and blood relations at this level can be complex</LI>
+        </UL>
+        <Callout>
+          <B>Algebraic identities and mensuration are the two most critical topics for Class 8 IMO Achievers.</B>
+          Compound interest in the Achievers section almost always involves multiple compounding periods and
+          requires careful step-by-step calculation. Algebraic identity questions often require recognising which
+          identity applies before expanding. Practise both extensively from Week 3 onward.
+        </Callout>
+
+        <H2 id="sample-paper-strategy">Sample paper strategy for Class 8</H2>
+        <OL>
+          <LIo><B>Cold baseline paper:</B> Identifies which of the newer topics (mensuration 3D, algebraic identities, compound interest) are causing the most problems.</LIo>
+          <LIo><B>Topic-specific practice:</B> Address each identified gap with 20&ndash;30 questions specifically on that topic before the next paper.</LIo>
+          <LIo><B>Reasoning section separately:</B> At Class 8, reasoning questions include seating arrangements and blood relations that can take 3&ndash;4 minutes each. Practise these in isolation to develop efficient solving strategies.</LIo>
+          <LIo><B>Achievers-only block practice:</B> Practise the Achievers sections from 4&ndash;5 papers focusing on compound interest, algebraic identities, and mensuration.</LIo>
+          <LIo><B>Full simulation under exam conditions:</B> One paper per week in the final 2 weeks before the exam. Review by topic, not by question.</LIo>
+        </OL>
+
+        <CTA>Practise Class 8 IMO questions with algebra, mensuration, and reasoning by topic &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important in IMO Class 8?",
+        a: "Algebraic expressions and identities, mensuration of 3D shapes (surface area and volume of cube, cuboid, cylinder), and comparing quantities (compound interest, percentage) are the three most heavily tested topic areas and consistently dominate the Achievers section."
+      },
+      {
+        q: "How hard is the IMO Class 8 Achievers section?",
+        a: "The Class 8 Achievers section is significantly harder than the main section — questions typically combine two topics (e.g., algebraic identities with factorisation, or mensuration with percentage) and require 3–4 steps to solve. Students who have practised Achievers questions specifically from multiple past papers handle it much better than those who only practise the main section."
+      },
+      {
+        q: "Where can I find IMO Class 8 sample papers with solutions?",
+        a: "SOF publishes official sample papers on sofworld.org. MTG and Arihant publish annual workbooks with 5–8 years of past papers and detailed solutions. Online platforms offering Class 8 IMO-format questions with instant explanations are more efficient for targeted practice."
+      },
+      {
+        q: "How long should a Class 8 student prepare for the IMO?",
+        a: "8 weeks of structured preparation is sufficient for most students at grade level. The first 5 weeks cover the full syllabus topic by topic. Weeks 6–7 are for sample paper practice with targeted revision. Week 8 is for full simulation and light review. Students targeting Level 2 should add an extra 2 weeks focused specifically on the Achievers section."
+      }
+    ]
+  },
+
+  /* 52 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-sample-papers-class-6",
+    title: "NSO Sample Papers for Class 6: Topic Breakdown and Preparation Strategy",
+    description:
+      "NSO sample papers for Class 6 are your best preparation tool for the first middle-school science Olympiad paper. This guide covers the topic distribution, the hardest question types, and how to use papers for maximum score improvement.",
+    date: "2026-07-23",
+    tag: "Science",
+    readingMinutes: 7,
+    keywords: [
+      "NSO sample papers class 6",
+      "NSO previous year papers class 6",
+      "NSO class 6 practice paper",
+      "national science olympiad class 6 paper",
+      "NSO class 6 question paper with solutions",
+    ],
+    excerpt:
+      "NSO Class 6 is the first year with 50 questions. Sample papers reveal the exact topic distribution and question style — here is how to use them strategically.",
+    content: (
+      <>
+        <P>
+          Class 6 marks the transition to a 50-question NSO paper &mdash; 15 more questions than Classes 1&ndash;5,
+          in the same 60 minutes. The syllabus is also significantly broader, introducing topics like separation
+          of substances, electric circuits, and reversible vs. irreversible changes. Sample papers are the most
+          effective tool for understanding what this paper actually looks like and where preparation time should go.
+        </P>
+
+        <H2 id="paper-structure">Class 6 NSO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Science:</B> 25 questions from the Class 6 science syllabus</LI>
+          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Topic distribution in Class 6 NSO sample papers</H2>
+        <UL>
+          <LI><B>Living organisms and their surroundings (habitats, adaptation):</B> 4&ndash;5 questions &mdash; the most consistently tested topic across all years</LI>
+          <LI><B>Components of food:</B> 3&ndash;4 questions &mdash; nutrient types, deficiency diseases, tests for nutrients</LI>
+          <LI><B>Changes around us:</B> 3&ndash;4 questions &mdash; reversible/irreversible, physical/chemical distinction</LI>
+          <LI><B>Electricity and circuits:</B> 3&ndash;4 questions including Achievers-level circuit questions</LI>
+          <LI><B>Getting to know plants:</B> 3&ndash;4 questions &mdash; parts and functions, photosynthesis</LI>
+          <LI><B>Separation of substances:</B> 2&ndash;3 questions</LI>
+          <LI><B>Light, shadows, and reflections:</B> 2&ndash;3 questions</LI>
+          <LI><B>Water, air, and garbage:</B> 2&ndash;3 questions combined &mdash; primarily environment and conservation</LI>
+          <LI><B>Body movements:</B> 2 questions &mdash; joint types and movement in animals</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+        </UL>
+        <Callout>
+          <B>Habitat and adaptation questions are the most common source of wrong answers</B> in Class 6 NSO papers,
+          even though students feel confident about the topic. The tricky questions ask about a specific animal&rsquo;s
+          adaptation that differs from the expected pattern, or about a habitat boundary case. Practise these
+          from sample papers specifically &mdash; reading the chapter is not sufficient preparation for these questions.
+        </Callout>
+
+        <H2 id="achievers-patterns">Achievers section patterns at Class 6</H2>
+        <P>
+          The most common Achievers question types in Class 6 NSO papers:
+        </P>
+        <UL>
+          <LI>An electric circuit with bulbs in series or parallel &mdash; what happens when one bulb is removed or fused?</LI>
+          <LI>A food web with an intervention &mdash; what happens to populations at other levels?</LI>
+          <LI>A nutrient deficiency scenario &mdash; which disease results and which organ is affected?</LI>
+          <LI>A habitat change question &mdash; which animals can survive and which cannot, and why?</LI>
+          <LI>A separation of substances problem &mdash; which method(s) in which order for a specific mixture?</LI>
+        </UL>
+        <P>
+          All five of these require scenario application rather than recall. Practise each by working through
+          the Achievers sections of 3&ndash;4 past papers, not by re-reading the textbook chapter.
+        </P>
+
+        <H2 id="strategy">Strategy for using sample papers</H2>
+        <OL>
+          <LIo><B>Cold attempt:</B> Sit the first paper without preparation. Identify which topics cause the most errors. This is your study priority list.</LIo>
+          <LIo><B>Reasoning section isolation:</B> At Class 6, the reasoning section grows to 15 questions. Students who have not practised series and analogy specifically lose easy marks here. Practise the reasoning section from 2&ndash;3 papers separately.</LIo>
+          <LIo><B>Achievers block practice:</B> Extract Achievers sections from 4&ndash;5 papers and practise only those 50 questions as a focused set.</LIo>
+          <LIo><B>Timed full paper:</B> One complete timed paper in the week before the exam for pacing practice.</LIo>
+        </OL>
+
+        <CTA>Practise Class 6 NSO questions by topic with instant explanations &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics appear most in NSO Class 6 sample papers?",
+        a: "Living organisms and their surroundings (habitats and adaptation) is the most frequently tested topic, appearing in 4–5 questions including Achievers-level questions. Components of food, changes around us (reversible/irreversible), electricity and circuits, and plants also appear consistently across all years."
+      },
+      {
+        q: "How many questions are in the NSO Class 6 paper?",
+        a: "50 questions in 60 minutes. The structure is 15 Logical Reasoning questions, 25 Science questions, and 10 Achievers questions worth 3 marks each. This is an increase from the 35-question paper used in Classes 1–5."
+      },
+      {
+        q: "What makes the NSO Class 6 Achievers section difficult?",
+        a: "Achievers questions at Class 6 require scenario application rather than recall — they describe a situation and ask you to reason about what happens, not just name a fact. Electric circuit questions (what happens when a bulb is removed) and food web intervention questions (what happens to populations when one species is removed) are the most commonly missed."
+      },
+      {
+        q: "When should a Class 6 student start using NSO sample papers?",
+        a: "Start the first sample paper 8 weeks before the exam as a cold diagnostic — even before finishing all topics. Use what it reveals to prioritise study. Shift to full paper practice 2–3 weeks before the exam once topics are covered."
+      }
+    ]
+  },
+
+  /* 53 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-sample-papers-class-8",
+    title: "NSO Sample Papers for Class 8: What the Paper Tests and How to Prepare",
+    description:
+      "NSO Class 8 is one of the most syllabus-dense Olympiad papers at the middle school level. This guide breaks down the topic distribution, hardest question types, and the strategic approach to using sample papers for maximum preparation efficiency.",
+    date: "2026-07-23",
+    tag: "Science",
+    readingMinutes: 8,
+    keywords: [
+      "NSO sample papers class 8",
+      "NSO previous year papers class 8",
+      "NSO class 8 preparation",
+      "national science olympiad class 8 paper",
+      "NSO class 8 question paper with solutions",
+    ],
+    excerpt:
+      "NSO Class 8 covers cell biology, metals and non-metals, light, sound, and force in one 50-question paper. Sample papers are essential — here is how to use them.",
+    content: (
+      <>
+        <P>
+          NSO Class 8 is where the science syllabus gets genuinely demanding. Cell biology, microorganisms,
+          force and pressure, light, sound, chemical effects of current, and metals and non-metals all appear
+          in the same 60-minute paper. Students who only read chapters and do not practise in question format
+          consistently underperform relative to their actual knowledge. Sample papers fix that gap.
+        </P>
+
+        <H2 id="paper-structure">Class 8 NSO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Science:</B> 25 questions from the Class 8 science syllabus</LI>
+          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking. Level 2 for top performers.</P>
+
+        <H2 id="syllabus">Class 8 NSO syllabus overview</H2>
+        <UL>
+          <LI><B>Crop production and management:</B> Agricultural practices, manures and fertilisers, irrigation, crop protection</LI>
+          <LI><B>Microorganisms:</B> Types, beneficial and harmful roles, food preservation, disease and vaccines</LI>
+          <LI><B>Synthetic fibres and plastics:</B> Types of synthetic fibres, properties, biodegradable vs. non-biodegradable</LI>
+          <LI><B>Materials: metals and non-metals:</B> Physical and chemical properties, reactivity series, uses</LI>
+          <LI><B>Coal and petroleum:</B> Formation, components, uses, conservation</LI>
+          <LI><B>Combustion and flame:</B> Conditions for combustion, types of combustion, types of flame, fire extinguisher principles</LI>
+          <LI><B>Conservation of plants and animals:</B> Biodiversity, deforestation, wildlife protection, biosphere reserves</LI>
+          <LI><B>Cell:</B> Cell theory, plant vs. animal cells, cell organelles and functions</LI>
+          <LI><B>Reproduction in animals:</B> Asexual and sexual reproduction, fertilisation, metamorphosis</LI>
+          <LI><B>Reaching the age of adolescence:</B> Puberty, hormones, secondary sexual characteristics, reproductive health</LI>
+          <LI><B>Force and pressure:</B> Types of force, pressure concept, atmospheric pressure, liquids and pressure</LI>
+          <LI><B>Friction:</B> Types, advantages and disadvantages, methods of increasing/reducing friction</LI>
+          <LI><B>Sound:</B> Properties, reflection (echo, reverberation), noise pollution, human ear</LI>
+          <LI><B>Chemical effects of electric current:</B> Good and poor conductors of liquids, electrolysis, electroplating</LI>
+          <LI><B>Some natural phenomena:</B> Lightning, earthquake, static electricity</LI>
+          <LI><B>Light:</B> Reflection laws, image formation in plane and curved mirrors, refraction introduction</LI>
+          <LI><B>Stars and the solar system:</B> Celestial objects, solar and lunar eclipse, space exploration</LI>
+          <LI><B>Pollution of air and water:</B> Causes, effects, and prevention measures</LI>
+        </UL>
+
+        <H2 id="topic-weightage">Topic weightage across sample papers</H2>
+        <UL>
+          <LI><B>Cell structure and functions:</B> 4&ndash;5 questions &mdash; plant vs. animal cell differences and organelle functions dominate the Achievers section</LI>
+          <LI><B>Light (reflection, mirrors):</B> 4&ndash;5 questions &mdash; image characteristics in concave/convex mirrors are a consistent Achievers topic</LI>
+          <LI><B>Metals and non-metals:</B> 3&ndash;4 questions &mdash; reactivity, oxide properties, uses</LI>
+          <LI><B>Combustion and flame:</B> 3&ndash;4 questions</LI>
+          <LI><B>Microorganisms:</B> 3&ndash;4 questions</LI>
+          <LI><B>Force and pressure / Friction:</B> 3&ndash;4 questions combined</LI>
+          <LI><B>Sound:</B> 2&ndash;3 questions</LI>
+          <LI><B>Conservation and pollution:</B> 2&ndash;3 questions combined</LI>
+        </UL>
+        <Callout>
+          <B>Cell biology and light are the two highest-priority topics for the Class 8 NSO Achievers section.</B>
+          Cell questions at Achievers level ask about organelle functions in specific scenarios (e.g., what happens
+          to a plant cell if the chloroplast is removed). Light questions ask about image properties in curved
+          mirrors for specific object positions &mdash; a topic that requires understanding over memorisation.
+        </Callout>
+
+        <H2 id="hardest-question-types">Hardest question types to prepare for</H2>
+        <UL>
+          <LI>
+            <B>Mirror image questions:</B> &ldquo;An object is placed between C and F in front of a concave mirror.
+            Describe the image.&rdquo; These require knowing the rules for all object positions, not just
+            one &mdash; practise a table of all five positions.
+          </LI>
+          <LI>
+            <B>Cell organelle scenarios:</B> &ldquo;A cell has lost its mitochondria. What process will be affected?&rdquo;
+            These reward students who understand organelle function, not just names.
+          </LI>
+          <LI>
+            <B>Reactivity series applications:</B> &ldquo;Will iron displace copper from copper sulphate solution?&rdquo;
+            Students who have memorised the series only sometimes cannot apply it to novel pairs.
+          </LI>
+          <LI>
+            <B>Electroplating scenarios:</B> Achievers questions often present an unusual electroplating setup
+            and ask what deposits where and why.
+          </LI>
+        </UL>
+
+        <H2 id="sample-paper-strategy">Sample paper strategy</H2>
+        <OL>
+          <LIo><B>Cold baseline:</B> First paper without preparation. Reveals which broad topic areas need the most work.</LIo>
+          <LIo><B>Priority study:</B> Address cell biology and light first if weak in these &mdash; they carry the highest Achievers weight.</LIo>
+          <LIo><B>Achievers block practice:</B> Extract and practise Achievers sections from 4&ndash;5 different papers as a focused set.</LIo>
+          <LIo><B>Reasoning section isolation:</B> 15 reasoning questions at Class 8 include seating arrangements and blood relations &mdash; practise these separately.</LIo>
+          <LIo><B>Final simulation:</B> One complete timed paper per week in the 2 weeks before the exam.</LIo>
+        </OL>
+
+        <CTA>Practise Class 8 NSO questions by topic &mdash; cell biology, light, metals, and more with explanations. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important for NSO Class 8?",
+        a: "Cell structure and functions, light (reflection in curved mirrors), metals and non-metals, and microorganisms are the most heavily tested topics. Cell biology and light consistently anchor the Achievers section and are the highest-priority preparation areas."
+      },
+      {
+        q: "How many topics are in the NSO Class 8 syllabus?",
+        a: "The Class 8 NSO covers 18 chapters from the CBSE Class 8 science syllabus, ranging from crop production and microorganisms to light and stars. The breadth makes systematic topic-by-topic preparation more important at Class 8 than at any earlier level."
+      },
+      {
+        q: "Which topics appear in the NSO Class 8 Achievers section most often?",
+        a: "Cell biology (organelle function scenarios), light (image characteristics in curved mirrors for different object positions), and metals and non-metals (reactivity series applications and oxide properties) are the most consistent Achievers-section topics in Class 8 NSO papers."
+      },
+      {
+        q: "How can I score well in NSO Class 8 without coaching?",
+        a: "Topic-by-topic study with 20–30 practice questions per chapter, followed by 2–3 complete sample papers under timed conditions, is sufficient for most students. Prioritise cell biology and light as preparation starting points. Review every error by understanding why the correct answer is correct — not just which answer it is."
+      }
+    ]
+  },
+
+  /* 54 ──────────────────────────────────────────────────────── */
+  {
+    slug: "spell-bee-preparation-class-7",
+    title: "Spell Bee Preparation for Class 7: Words, Strategy & What to Expect",
+    description:
+      "Class 7 Spell Bee competitions significantly raise the vocabulary difficulty compared to lower classes. This guide covers the word categories you will encounter, how to build a Class 7 word list, and how to prepare effectively in 6–8 weeks.",
+    date: "2026-07-23",
+    tag: "Spell Bee",
+    readingMinutes: 7,
+    keywords: [
+      "spell bee preparation class 7",
+      "spell bee class 7 word list",
+      "spell bee class 7 tips",
+      "how to prepare for spell bee class 7",
+      "spell bee competition class 7",
+    ],
+    excerpt:
+      "Class 7 Spell Bee raises the vocabulary bar significantly — Latin and Greek roots, homophones, and words from science and history all enter the picture. Here is the full preparation guide.",
+    content: (
+      <>
+        <P>
+          Class 7 Spell Bee is a meaningful step up from Classes 4&ndash;6. The words grow longer and more
+          complex, Latin and Greek roots become a consistent source of questions, and the oral round &mdash;
+          where students must spell a word spoken aloud by an examiner &mdash; becomes more demanding. Students
+          who have competed before find this year manageable with the right approach. Students competing for the
+          first time need a slightly longer runway. This guide covers both situations.
+        </P>
+
+        <H2 id="what-changes-at-class7">What changes at Class 7</H2>
+        <UL>
+          <LI><B>Word length:</B> Average target word length increases from 5&ndash;7 letters to 8&ndash;12 letters</LI>
+          <LI><B>Word origin:</B> Latin and Greek roots (bene-, cred-, dict-, graph-, hydro-, micro-, photo-, tele-) become a significant source of words</LI>
+          <LI><B>Homophone traps:</B> Words that sound identical but differ in meaning and spelling (principal/principle, affect/effect, complement/compliment) appear more frequently</LI>
+          <LI><B>Contextual meaning:</B> Many competitions include a sentence-context round where students must spell the word <em>as used in the sentence</em> &mdash; this tests understanding, not just memory</LI>
+          <LI><B>Oral round pressure:</B> Examiners speak faster and with less contextual support at Class 7 &mdash; students who have only done written practice are often unprepared for the oral format</LI>
+        </UL>
+
+        <H2 id="word-categories">Word categories to prepare</H2>
+        <UL>
+          <LI><B>Science vocabulary:</B> Words from biology (photosynthesis, metamorphosis, respiration, vertebrate), physics (transparent, luminous, vibration, refraction), and chemistry (solution, compound, element, sublimation)</LI>
+          <LI><B>Historical and geographical words:</B> Words from Class 7 social studies that appear in general Spell Bee lists (civilization, peninsula, peninsula, longitude, parliament, dynasty)</LI>
+          <LI><B>Latin root words:</B> Words built on common Latin roots (dictate, predict, edict; credible, incredible, credential; portable, transport, import; benefit, benefactor, benevolent)</LI>
+          <LI><B>Greek root words:</B> Words built on common Greek roots (telescope, microscope, photograph; geography, geology; biology, zoology; hydrant, dehydrate, hydrosphere)</LI>
+          <LI><B>Tricky common words:</B> Words that are commonly misspelled by Class 7 students &mdash; necessary, occasionally, embarrass, recommend, liaison, exaggerate, accommodate, rhythm</LI>
+          <LI><B>Homophones and near-homophones:</B> principal/principle, stationery/stationary, practise/practice, weather/whether, loose/lose, affect/effect</LI>
+        </UL>
+        <Callout>
+          <B>Learn roots, not just words.</B> A student who knows that &ldquo;hydro-&rdquo; means water can
+          correctly spell hydraulic, hydrant, dehydrate, hydrosphere, and hydroelectric &mdash; five words
+          from one root. Roots multiply your preparation efficiency. Spend at least one week in your
+          preparation exclusively on Latin and Greek roots.
+        </Callout>
+
+        <H2 id="preparation-plan">8-week preparation plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Diagnostic &mdash; write out 50 words from a Class 7 Spell Bee list and identify error patterns</LI>
+          <LI><B>Week 2:</B> Latin roots (dict, cred, port, bene, aud, cap) &mdash; 10 roots, 5 words each</LI>
+          <LI><B>Week 3:</B> Greek roots (hydro, micro, photo, tele, geo, bio, graph) &mdash; 7 roots, 5 words each</LI>
+          <LI><B>Week 4:</B> Science and academic vocabulary from the Class 7 syllabus</LI>
+          <LI><B>Week 5:</B> Historical, geographical, and social studies vocabulary</LI>
+          <LI><B>Week 6:</B> Tricky common words and homophones &mdash; write each word 5 times and use in a sentence</LI>
+          <LI><B>Week 7:</B> Oral practice &mdash; have a parent or sibling read words aloud; spell verbally without writing</LI>
+          <LI><B>Week 8:</B> Full mock oral rounds with timed word delivery; review remaining error words daily</LI>
+        </UL>
+
+        <H2 id="oral-round-tips">Oral round technique</H2>
+        <P>
+          The oral round is where most students lose marks. Technique matters as much as knowledge:
+        </P>
+        <UL>
+          <LI>Ask for the word to be repeated if you did not hear it clearly &mdash; this is always permitted</LI>
+          <LI>Ask for the word to be used in a sentence if the competition rules allow &mdash; context often disambiguates homophones</LI>
+          <LI>Spell clearly and evenly &mdash; do not rush the middle letters even if you are confident</LI>
+          <LI>If you make an error, do not try to correct it mid-spelling &mdash; in most formats, once started, corrections are not permitted</LI>
+        </UL>
+
+        <CTA>Build your Class 7 Spell Bee word bank with targeted vocabulary practice &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What words should a Class 7 student focus on for Spell Bee?",
+        a: "Prioritise words built on Latin and Greek roots (these give maximum coverage per hour of practice), science and social studies academic vocabulary from the Class 7 syllabus, commonly misspelled words (necessary, recommend, accommodate, embarrass), and homophones (principal/principle, stationery/stationary, affect/effect)."
+      },
+      {
+        q: "How is Class 7 Spell Bee different from Class 6?",
+        a: "Class 7 introduces longer words (8–12 letters), more Latin and Greek root words, and places more emphasis on the oral round with contextual sentence use. The difficulty of homophones also increases significantly. Students who have only practised written spelling often find the oral round unexpectedly challenging."
+      },
+      {
+        q: "How do I practise for the oral round of Spell Bee?",
+        a: "Have a parent or sibling read words from your word list aloud, and spell them verbally without writing. Practise for at least 15 minutes per day in the final 2 weeks before the competition. This is the most underpractised aspect of Spell Bee preparation — students who do it consistently outperform those who only practise written spelling."
+      },
+      {
+        q: "What is the most efficient way to build a Class 7 Spell Bee word list?",
+        a: "Learn words through roots rather than individual memorisation. A student who learns the root 'graph' (write/record) gains photograph, geography, biography, calligraphy, autograph, and paragraph in one session. Root-based learning is 3–4x more efficient than memorising random word lists."
+      }
+    ]
+  },
+
+  /* 55 ──────────────────────────────────────────────────────── */
+  {
+    slug: "spell-bee-preparation-class-9",
+    title: "Spell Bee Preparation for Class 9: Advanced Words, Roots & Competition Strategy",
+    description:
+      "Class 9 Spell Bee is a serious academic competition. The words are genuinely difficult — often derived from Latin, Greek, French, and technical vocabulary. This guide covers the word categories, root-based preparation, and competition strategy for Class 9 students.",
+    date: "2026-07-23",
+    tag: "Spell Bee",
+    readingMinutes: 8,
+    keywords: [
+      "spell bee preparation class 9",
+      "spell bee class 9 word list",
+      "spell bee class 9 tips",
+      "how to prepare for spell bee class 9",
+      "spell bee competition class 9",
+    ],
+    excerpt:
+      "Class 9 Spell Bee features genuinely difficult words — scientific terminology, French and Latin borrowings, and complex roots. Here is how to prepare strategically.",
+    content: (
+      <>
+        <P>
+          Class 9 Spell Bee is where the competition becomes genuinely demanding. Words are no longer
+          predictable from reading patterns alone &mdash; they include French borrowings with silent letters,
+          scientific terminology from chemistry and biology, legal and philosophical terms, and words where the
+          etymology is the only reliable guide to correct spelling. Students who do well at Class 9 have typically
+          built systematic root and etymology knowledge over several years. This guide shows how to develop that
+          foundation in 8&ndash;10 weeks.
+        </P>
+
+        <H2 id="class9-characteristics">Class 9 competition characteristics</H2>
+        <UL>
+          <LI><B>Word length:</B> Target words regularly 10&ndash;15 letters; some exceed 15</LI>
+          <LI><B>Etymology depth:</B> French borrowings (silhouette, rendezvous, bureaucracy, chauffeur), Italian words (portfolio, piazza, soprano), and German words (kindergarten, delicatessen, schadenfreude) all appear at this level</LI>
+          <LI><B>Scientific terminology:</B> Chemistry (electrochemistry, covalent, electrolysis), biology (mitochondria, photosynthesis, metamorphosis), and physics (electromagnetic, thermodynamics, oscillation)</LI>
+          <LI><B>Multiple accepted spellings:</B> Some words have both British and American accepted spellings &mdash; students need to know which the competition uses as its standard</LI>
+          <LI><B>Stress pattern complexity:</B> Spoken words at this level have stress patterns that can mislead if a student has only read the word and never heard it pronounced</LI>
+        </UL>
+
+        <H2 id="word-categories">Priority word categories for Class 9</H2>
+        <UL>
+          <LI>
+            <B>French borrowings:</B> Words that entered English from French and retain French spelling patterns
+            (silent letters, -eau endings, -et endings): bouquet, silhouette, bureau, plateau, chauffeur,
+            lieutenant, rendezvous, entrepreneur, restaurant, souvenir, amateur, façade
+          </LI>
+          <LI>
+            <B>Latin scientific roots:</B> Medical and scientific vocabulary built on Latin (ante-, circum-,
+            contra-, inter-, intra-, post-, pre-, sub-, super-, trans-): anteroom, circumvent,
+            contraindicate, intervertebral, intravenous, posthumous, preamble, submarine, supernatural,
+            translucent
+          </LI>
+          <LI>
+            <B>Greek scientific roots:</B> Words from chemistry, biology, and physics: electromagnetic,
+            thermodynamics, anthropology, archaeology, chrysanthemum, kaleidoscope, pneumonia,
+            psychology, rhinoceros, xylophone
+          </LI>
+          <LI>
+            <B>Common Class 9 misspellings:</B> Words that are almost right but frequently wrong:
+            conscientious, Mediterranean, privilege, acquaintance, consciously, bureaucracy,
+            desiccate, fluorescent, millennium, occurrence, perseverance, questionnaire, supersede
+          </LI>
+          <LI>
+            <B>Double-letter traps:</B> Words where students consistently get double letters wrong:
+            accommodate (two c&rsquo;s, two m&rsquo;s), necessary (one c, two s&rsquo;s), Caribbean
+            (one r, two b&rsquo;s), committee (two m&rsquo;s, two t&rsquo;s, two e&rsquo;s)
+          </LI>
+        </UL>
+        <Callout>
+          <B>French words are the highest-value preparation area for Class 9.</B> Students who have never
+          studied French find these words completely unpredictable &mdash; the silent letters, the -eau and
+          -et endings, and the lack of phonetic consistency make them the most frequently misspelled category
+          at this level. Dedicate a full week specifically to French borrowings and practise hearing them spoken
+          before spelling them.
+        </Callout>
+
+        <H2 id="etymology-as-strategy">Using etymology as a spelling strategy</H2>
+        <P>
+          At Class 9, etymology is not optional &mdash; it is the primary strategy. When you encounter an
+          unfamiliar word in competition, knowing its root often gives you enough information to spell it
+          correctly:
+        </P>
+        <UL>
+          <LI>&ldquo;psyche-&rdquo; always starts with &ldquo;psy-&rdquo; (psychology, psychiatry, psychedelic)</LI>
+          <LI>&ldquo;-phobia&rdquo; words always end in &ldquo;-phobia&rdquo; (claustrophobia, arachnophobia, xenophobia)</LI>
+          <LI>&ldquo;-tion&rdquo; vs. &ldquo;-sion&rdquo;: After consonants, usually &ldquo;-tion&rdquo;; after vowels or certain consonants (s, n, r, l), often &ldquo;-sion&rdquo;</LI>
+          <LI>&ldquo;-ant&rdquo; vs. &ldquo;-ent&rdquo;: No reliable phonetic rule &mdash; learn by root language (Latin roots often give &ldquo;-ant&rdquo;; French-derived words often give &ldquo;-ent&rdquo;)</LI>
+        </UL>
+
+        <H2 id="preparation-plan">8-week preparation plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Diagnostic list of 100 Class 9 words; categorise errors by type</LI>
+          <LI><B>Week 2:</B> Latin prefixes and their spelling patterns (50 words)</LI>
+          <LI><B>Week 3:</B> Greek roots and scientific vocabulary (50 words)</LI>
+          <LI><B>Week 4:</B> French borrowings &mdash; read aloud, listen to pronunciation, then write (40 words)</LI>
+          <LI><B>Week 5:</B> Double-letter words and commonly misspelled academic words (40 words)</LI>
+          <LI><B>Week 6:</B> Italian, German, and other European borrowings (30 words)</LI>
+          <LI><B>Week 7:</B> Oral practice with a reader &mdash; at least 30 minutes per day</LI>
+          <LI><B>Week 8:</B> Full mock competition rounds; review remaining error words by etymology</LI>
+        </UL>
+
+        <CTA>Build Class 9 vocabulary systematically &mdash; root-based word lists and practice tools, free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What types of words appear in Class 9 Spell Bee?",
+        a: "Class 9 Spell Bee features French borrowings with silent letters, Latin and Greek scientific terminology, words with complex double-letter patterns, and cross-language borrowings from Italian, German, and other European languages. The most difficult category for Indian students is typically French borrowings, where phonetic rules do not apply."
+      },
+      {
+        q: "How long should a Class 9 student prepare for Spell Bee?",
+        a: "8–10 weeks of systematic preparation is appropriate for most Class 9 students. The first 6 weeks cover word categories by etymology (Latin, Greek, French, other borrowings). The final 2 weeks shift to oral practice and mock competition rounds."
+      },
+      {
+        q: "What is the most effective way to memorise difficult Class 9 words?",
+        a: "Etymology-first learning is the most effective strategy at this level. Instead of memorising individual words, learn the root and its spelling pattern, then learn 5–8 words built on that root. This approach is 3–4x more efficient than word-list memorisation and also helps with words encountered in competition that you have never seen before."
+      },
+      {
+        q: "Does Class 9 Spell Bee include both written and oral rounds?",
+        a: "Yes — most Spell Bee competitions at Class 9 include both a written preliminary round and an oral final round for top scorers. The oral round is significantly more challenging because students cannot use visual memory — they must spell purely from hearing the word spoken. Oral practice with a reader is essential from Week 7 of preparation onward."
+      }
+    ]
+  },
+
+  /* 56 ──────────────────────────────────────────────────────── */
+  {
+    slug: "spell-bee-word-list-class-10",
+    title: "Spell Bee Word List for Class 10: Categories, Roots & How to Build Your Own",
+    description:
+      "A Class 10 Spell Bee word list is only as useful as the strategy behind it. This guide covers the word categories that matter at Class 10, the root families to master, and how to build a personalised word list that actually prepares you for competition.",
+    date: "2026-07-23",
+    tag: "Spell Bee",
+    readingMinutes: 8,
+    keywords: [
+      "spell bee word list class 10",
+      "spell bee class 10 preparation",
+      "spell bee class 10 words",
+      "how to prepare for spell bee class 10",
+      "spell bee class 10 tips",
+    ],
+    excerpt:
+      "A static word list is the wrong approach for Class 10 Spell Bee — the words are too numerous and too complex. Here is how to build a strategic, root-based preparation system instead.",
+    content: (
+      <>
+        <P>
+          Students preparing for Class 10 Spell Bee often begin by searching for &ldquo;the word list&rdquo; &mdash;
+          a definitive set of words they need to memorise. This search leads nowhere useful because no such list
+          exists at this level. Class 10 Spell Bee draws from a vocabulary pool of thousands of words, and no
+          student can memorise all of them. The students who win Class 10 Spell Bee competitions do not
+          memorise more words than their peers &mdash; they understand the patterns, roots, and etymology that
+          let them spell words they have never seen before.
+        </P>
+
+        <H2 id="what-class10-tests">What Class 10 Spell Bee actually tests</H2>
+        <P>
+          At Class 10, competition organisers draw words from five main pools:
+        </P>
+        <UL>
+          <LI><B>Cross-language borrowings:</B> Words from Latin, Greek, French, Italian, German, Spanish, Arabic, and Hindi that have entered English. The spelling retains traces of the original language that phonetic rules cannot predict.</LI>
+          <LI><B>Academic and technical vocabulary:</B> Words from Class 10 science (electrochemistry, photosynthesis, electromagnetic), mathematics (isosceles, perpendicular, quadrilateral), and social studies (constitutional, parliamentary, bureaucratic)</LI>
+          <LI><B>Literary and formal English:</B> Words that appear in quality literature and formal writing but rarely in everyday speech: eloquent, vacillate, egregious, ephemeral, perfidious, magnanimous</LI>
+          <LI><B>Commonly confused words:</B> Words that are near-homophones or near-identical in form: eminent/imminent, principle/principal, complement/compliment, adverse/averse, elicit/illicit</LI>
+          <LI><B>Words with irregular spelling patterns:</B> Words where English's historical evolution has produced non-phonetic spellings: colonel, yacht, pneumonia, mnemonic, phlegm, knight, island</LI>
+        </UL>
+
+        <H2 id="root-families">Root families to master at Class 10</H2>
+        <P>
+          These root families produce the highest density of Class 10 Spell Bee words:
+        </P>
+        <UL>
+          <LI><B>Latin -vid/-vis (see):</B> evident, video, vision, visual, provident, providence, supervise</LI>
+          <LI><B>Latin -ven/-vent (come):</B> convention, intervention, event, advent, revenue, contravene</LI>
+          <LI><B>Latin -fer (carry):</B> transfer, conference, infer, defer, differ, prefer, fertile, fervent</LI>
+          <LI><B>Greek -chron (time):</B> synchronise, chronological, chronicle, anachronism, chronometer</LI>
+          <LI><B>Greek -path (feeling/suffering):</B> empathy, sympathy, apathy, antipathy, pathology</LI>
+          <LI><B>Greek -log/-logy (word/study):</B> biology, geology, psychology, catalogue, monologue, prologue</LI>
+          <LI><B>Greek -morph (shape):</B> metamorphosis, amorphous, morphology, anthropomorphic</LI>
+          <LI><B>French -eur/-eur suffix:</B> entrepreneur, connoisseur, chauffeur, raconteur, voyeur, saboteur</LI>
+          <LI><B>French -ance/-ence endings:</B> patience, eloquence, renaissance, nuance, ambiance, assurance</LI>
+        </UL>
+        <Callout>
+          <B>French -eur and -eur suffix words are the highest-difficulty category at Class 10</B> because they have
+          no equivalent in Indian languages and the pronunciation gives no spelling clues. Learn each word as a unit:
+          say it aloud, hear it, write it, understand its meaning, then move to the next. Do not try to derive
+          the spelling from the sound &mdash; derive it from the French root.
+        </Callout>
+
+        <H2 id="building-your-word-list">How to build your personalised word list</H2>
+        <OL>
+          <LIo><B>Start with past competition lists:</B> Request word lists from previous years&rsquo; competitions run by the same organiser. These reveal the style and difficulty level of what you will face.</LIo>
+          <LIo><B>Add root families systematically:</B> For each of the 9 root families above, identify 10&ndash;15 words. This gives you 100&ndash;135 high-probability words.</LIo>
+          <LIo><B>Add your personal error words:</B> Keep a running list of words you misspell in practice. These are your highest-probability gaps.</LIo>
+          <LIo><B>Add words you encounter reading:</B> A consistent reading practice (quality newspapers, books, science articles) introduces you to words in context, which is the most durable form of vocabulary learning.</LIo>
+          <LIo><B>Test and prune weekly:</B> Have a reader test you on your full list weekly. Remove words you spell correctly three sessions in a row. Keep the list focused on genuine gaps.</LIo>
+        </OL>
+
+        <H2 id="practice-schedule">Final 4-week practice schedule</H2>
+        <UL>
+          <LI><B>Week 1:</B> Root families and academic vocabulary &mdash; 30 new words per day, written and oral</LI>
+          <LI><B>Week 2:</B> French and other European borrowings &mdash; oral practice emphasis</LI>
+          <LI><B>Week 3:</B> Full mock oral rounds with reader &mdash; 30 minutes daily</LI>
+          <LI><B>Week 4:</B> Error word review only &mdash; no new words. Strengthen what you already almost know.</LI>
+        </UL>
+
+        <CTA>Build your Class 10 vocabulary with root-based practice and word-family exercises &mdash; free to try.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is there an official word list for Class 10 Spell Bee?",
+        a: "No — there is no official definitive word list for Class 10 Spell Bee. Competition organisers draw from a large vocabulary pool, and no single list covers it. The right preparation strategy is root-based learning (mastering Latin, Greek, and French root families) rather than individual word memorisation."
+      },
+      {
+        q: "How many words should I prepare for Class 10 Spell Bee?",
+        a: "Depth over breadth. A student who knows 200 words deeply — including their roots, related words, and correct pronunciation — will outperform a student who has superficially memorised 1,000 words. Focus on 9–10 root families with 10–15 words each, then add personal error words and words from past competition lists."
+      },
+      {
+        q: "What is the hardest type of word in Class 10 Spell Bee?",
+        a: "French borrowings are consistently the most difficult category for Indian students — words like entrepreneur, connoisseur, chauffeur, and rendezvous have no phonetic logic in English and no equivalent in Indian languages. The spelling must be learned as a unit based on the French root, not derived from pronunciation."
+      },
+      {
+        q: "How is Class 10 Spell Bee different from Class 9?",
+        a: "Class 10 words are longer, drawn from a more diverse set of source languages, and more likely to include literary and philosophical vocabulary alongside scientific terminology. The oral round at Class 10 also typically features harder sentences for context and faster word delivery. The fundamental preparation strategy is the same — root-based learning — but the vocabulary pool is significantly broader."
+      }
+    ]
+  },
+
+  /* 57 ──────────────────────────────────────────────────────── */
+  {
+    slug: "silverzone-olympiad-preparation-guide",
+    title: "Silverzone Olympiad Preparation Guide: All You Need to Know",
+    description:
+      "Silverzone Olympiads are among India's most widely taken school competitions. This guide covers all Silverzone exams — iOM, iOSS, iFLO, iOEL, SKGKO — the paper format, syllabus alignment, and preparation strategy.",
+    date: "2026-07-23",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "silverzone olympiad preparation",
+      "silverzone olympiad guide",
+      "silverzone iOM preparation",
+      "silverzone iOSS preparation",
+      "silverzone olympiad syllabus",
+    ],
+    excerpt:
+      "Silverzone Olympiads &mdash; iOM, iOSS, iFLO, iOEL, SKGKO &mdash; are among India's most widely taken school competitions. Here is the complete preparation guide.",
+    content: (
+      <>
+        <P>
+          Silverzone Foundation is one of India&rsquo;s leading Olympiad organisers, running competitions in
+          maths, science, English, French, reasoning, and computers for Classes 1&ndash;12. Their exams are
+          known for high-quality questions, a rigorous marking structure, and National Cyber Olympiad-style
+          computer science competitions. This guide covers the full Silverzone family of competitions and how
+          to prepare for each.
+        </P>
+
+        <H2 id="silverzone-exams">The Silverzone exam family</H2>
+        <UL>
+          <LI>
+            <B>iOM (International Olympiad of Mathematics):</B> Classes 1&ndash;12. Maths competition aligned
+            with school curriculum. Known for slightly higher difficulty at the Achievers level compared to SOF IMO.
+          </LI>
+          <LI>
+            <B>iOSS (International Olympiad of Science and Social Studies):</B> Classes 3&ndash;8. Unique
+            feature: combines science and social studies in a single paper, which is unlike any other major
+            Olympiad in India.
+          </LI>
+          <LI>
+            <B>iFLO (International French Language Olympiad):</B> Classes 5&ndash;12. For students learning
+            French as a second or third language in school. Tests reading comprehension, grammar, and vocabulary.
+          </LI>
+          <LI>
+            <B>iOEL (International Olympiad of English Language):</B> Classes 1&ndash;12. English language
+            competition covering grammar, comprehension, vocabulary, and creative writing elements.
+          </LI>
+          <LI>
+            <B>SKGKO (Sai Speed Maths Exam / Smart Kid General Knowledge Olympiad):</B> General knowledge
+            and mental maths competition for Classes 1&ndash;12.
+          </LI>
+          <LI>
+            <B>iIO (International Informatics Olympiad):</B> Computer science and informatics for Classes 1&ndash;12.
+            Covers computer fundamentals, MS Office, internet concepts, and basic programming for higher classes.
+          </LI>
+        </UL>
+
+        <H2 id="iom-preparation">iOM (International Olympiad of Mathematics) preparation</H2>
+        <P>
+          The iOM paper follows the school maths syllabus closely but is known for Achievers-section questions
+          that require multi-step reasoning and occasionally introduce concepts slightly ahead of the grade syllabus.
+        </P>
+        <UL>
+          <LI><B>Paper structure:</B> 35 questions (Classes 1&ndash;5) or 50 questions (Classes 6&ndash;12), 60 minutes, no negative marking</LI>
+          <LI><B>Achievers section emphasis:</B> More conceptually demanding than comparable SOF IMO Achievers questions at the same class level &mdash; prepare specifically for multi-step application</LI>
+          <LI><B>What to prioritise:</B> The same high-frequency topics as IMO (arithmetic, fractions, algebra at higher classes) but with particular attention to the Achievers section</LI>
+        </UL>
+
+        <H2 id="ioss-preparation">iOSS (Science + Social Studies) preparation</H2>
+        <P>
+          The iOSS is the only major Olympiad that combines science and social studies (history, civics, geography)
+          in a single paper. This makes it uniquely demanding to prepare for.
+        </P>
+        <UL>
+          <LI><B>Paper structure:</B> 40 questions in 40 minutes for Classes 3&ndash;8; split between science and social studies sections</LI>
+          <LI><B>Preparation approach:</B> Prepare science and social studies in parallel &mdash; you cannot focus exclusively on one. The split between the two sections varies, so prepare both fully.</LI>
+          <LI><B>Social studies content at Olympiad level:</B> Tests understanding and application &mdash; map reading, cause-and-effect historical reasoning, civic processes &mdash; not just recall of facts</LI>
+        </UL>
+        <Callout>
+          <B>The iOSS is underestimated by students who strong science but weak social studies</B> (or vice versa).
+          Since both sections appear in the same paper, a student who neglects social studies will lose significant
+          marks even if their science preparation is excellent. Treat both sections as equal priority.
+        </Callout>
+
+        <H2 id="ioel-preparation">iOEL (English Language) preparation</H2>
+        <UL>
+          <LI><B>Grammar and usage:</B> Tense consistency, subject-verb agreement, active/passive voice, direct/indirect speech &mdash; at a slightly higher level than SOF IEO for the same class</LI>
+          <LI><B>Comprehension:</B> Passage-based questions requiring inference and vocabulary in context</LI>
+          <LI><B>Vocabulary:</B> Word meanings, analogies, antonyms, synonyms &mdash; more advanced vocabulary list than IEO at equivalent classes</LI>
+        </UL>
+
+        <H2 id="general-preparation-strategy">General Silverzone preparation strategy</H2>
+        <UL>
+          <LI>The Silverzone syllabus closely mirrors CBSE &mdash; CBSE students have natural alignment; ICSE students should verify topic coverage</LI>
+          <LI>Silverzone publishes official sample papers on their website (silverzone.org) &mdash; always practise these before the exam</LI>
+          <LI>The question style is slightly more application-oriented than SOF at equivalent levels &mdash; rote recall without understanding will underperform</LI>
+          <LI>Level 2 qualification criteria and awards are competitive &mdash; appearing for both SOF and Silverzone exams in the same subject is a recognised strategy for maximising competitive experience</LI>
+        </UL>
+
+        <CTA>Practise Silverzone-style Olympiad questions by subject and class &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the difference between Silverzone and SOF Olympiads?",
+        a: "SOF (Science Olympiad Foundation) and Silverzone are both reputable Olympiad organisers with large participation bases. SOF Olympiads (IMO, NSO, IEO) have a larger total student base, making their national ranks more competitive. Silverzone exams (iOM, iOSS, iOEL) are known for slightly more application-oriented question styles at the Achievers level. Many students appear for both to maximise competitive experience."
+      },
+      {
+        q: "Is the Silverzone iOM harder than the SOF IMO?",
+        a: "At the main-section level, difficulty is comparable. The Silverzone iOM Achievers section is generally considered slightly more conceptually demanding than the SOF IMO Achievers section at equivalent class levels. Students who find the SOF IMO straightforward often use iOM as the next challenge."
+      },
+      {
+        q: "What makes the Silverzone iOSS unique?",
+        a: "iOSS is the only major Olympiad in India that combines science and social studies in a single paper. This makes it significantly different from separate science or social studies competitions — students must prepare both subjects equally rather than focusing on one strength."
+      },
+      {
+        q: "Where can I find Silverzone sample papers?",
+        a: "Silverzone publishes official sample papers on silverzone.org. Their annual workbooks (published by Silverzone Foundation) contain 5+ years of past papers with solutions. Always practise at least 2–3 official papers before the exam to calibrate to the question style, which differs from SOF even at the same class level."
+      }
+    ]
+  },
+
+  /* 58 ──────────────────────────────────────────────────────── */
+  {
+    slug: "asset-exam-preparation-guide",
+    title: "ASSET Exam Preparation Guide: What It Tests and How to Prepare",
+    description:
+      "ASSET (Assessment of Scholastic Skills through Educational Testing) is one of India's most skill-focused school assessments. This guide explains how ASSET differs from Olympiads, what skills it tests, and how to prepare for the maths, science, and English papers.",
+    date: "2026-07-23",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "ASSET exam preparation",
+      "ASSET exam guide",
+      "ASSET assessment India",
+      "how to prepare for ASSET exam",
+      "ASSET maths science English",
+    ],
+    excerpt:
+      "ASSET is not a typical Olympiad — it measures thinking skills rather than content recall. Here is how to understand what it tests and how to prepare for it.",
+    content: (
+      <>
+        <P>
+          ASSET (Assessment of Scholastic Skills through Educational Testing), conducted by Educational Initiatives
+          (EI), is one of the most distinctive school assessments in India &mdash; and one of the most frequently
+          misunderstood. Students and parents who prepare for ASSET as if it were a standard Olympiad invariably
+          underperform, because ASSET is not designed to test what you know. It is designed to test how well you
+          can <em>think with</em> what you know. This guide explains the difference and how to prepare accordingly.
+        </P>
+
+        <H2 id="what-asset-is">What ASSET is and how it differs from Olympiads</H2>
+        <UL>
+          <LI>
+            <B>Skill focus over content:</B> ASSET measures specific thinking skills &mdash; conceptual understanding,
+            application, analysis, and inference &mdash; rather than testing whether a student has memorised the
+            syllabus. Two students with identical syllabus knowledge can score very differently on ASSET based
+            on how well they apply that knowledge.
+          </LI>
+          <LI>
+            <B>Diagnostic output:</B> Unlike Olympiads that give a rank and a medal, ASSET provides a detailed
+            diagnostic report that shows exactly which thinking skills a student is strong or weak in. This
+            makes it uniquely useful for identifying specific learning gaps.
+          </LI>
+          <LI>
+            <B>No single &ldquo;right answer&rdquo; memorisation strategy:</B> You cannot prepare for ASSET
+            by memorising answers to past papers. The questions change year to year and are specifically designed
+            to avoid being answerable through pattern-matching alone.
+          </LI>
+          <LI>
+            <B>International benchmarking:</B> ASSET includes international benchmarking against students in
+            other countries, which makes it distinctive from purely national Olympiads.
+          </LI>
+        </UL>
+
+        <H2 id="subjects-and-classes">Subjects and classes</H2>
+        <P>
+          ASSET is available in three subjects:
+        </P>
+        <UL>
+          <LI><B>Maths:</B> Classes 3&ndash;9</LI>
+          <LI><B>Science:</B> Classes 3&ndash;9</LI>
+          <LI><B>English:</B> Classes 3&ndash;9</LI>
+        </UL>
+        <P>
+          Each subject is a separate 35-question paper in 45 minutes. Students can appear for one, two, or
+          all three subjects.
+        </P>
+
+        <H2 id="maths-preparation">Preparing for ASSET Maths</H2>
+        <P>
+          ASSET Maths tests conceptual understanding, not calculation speed. Common question types:
+        </P>
+        <UL>
+          <LI>A problem where the numbers are deliberately simple, so the difficulty is in identifying the correct operation or approach, not in the arithmetic</LI>
+          <LI>A multiple-solution question where students must evaluate several approaches and identify which is correct</LI>
+          <LI>A &ldquo;which is wrong?&rdquo; question where all four options are presented as student work and one contains a specific conceptual error</LI>
+          <LI>A real-world application question where the maths concept is embedded in a realistic scenario</LI>
+        </UL>
+        <P>
+          The best preparation for ASSET Maths is not additional practice problems &mdash; it is deepening
+          conceptual understanding. When you study a topic, ask: why does this method work? What happens if
+          one of the conditions changes? How would I recognise this in a real-world problem?
+        </P>
+
+        <H2 id="science-preparation">Preparing for ASSET Science</H2>
+        <P>
+          ASSET Science tests understanding of scientific process and reasoning as much as content. Common
+          question types:
+        </P>
+        <UL>
+          <LI>An experiment description with a question about what the result tells us (or does not tell us)</LI>
+          <LI>A misconception question: four student explanations of a phenomenon are given; which one is scientifically correct and why are the others wrong?</LI>
+          <LI>A prediction question: given this situation, what will happen next and why?</LI>
+          <LI>A data interpretation question: given this graph/table, what conclusion is justified by the data?</LI>
+        </UL>
+        <Callout>
+          <B>The ASSET Science misconception questions are among the hardest questions any Indian student encounters
+          at school level.</B> They require knowing not just what is correct, but why common incorrect answers
+          are wrong. The best preparation is discussion: after studying each topic, explain the concept to
+          someone else and try to answer their questions.
+        </Callout>
+
+        <H2 id="english-preparation">Preparing for ASSET English</H2>
+        <P>
+          ASSET English is primarily a reading comprehension test. The passages are at grade level but the
+          questions test inference, tone, author purpose, and vocabulary in context &mdash; skills that require
+          regular reading practice, not grammar drills.
+        </P>
+        <UL>
+          <LI>Read quality material at or above grade level for at least 15 minutes per day &mdash; this is the most effective ASSET English preparation</LI>
+          <LI>Practise identifying the difference between what a passage explicitly states and what it implies</LI>
+          <LI>Practise vocabulary-in-context questions: choose the meaning that fits the passage, not the first definition that comes to mind</LI>
+        </UL>
+
+        <H2 id="how-to-prepare">Overall preparation approach</H2>
+        <P>
+          The most effective ASSET preparation is deep understanding practice over the entire school year,
+          not intensive pre-exam cramming. Students who read widely, ask &ldquo;why&rdquo; questions in class,
+          and discuss concepts rather than just memorise them are naturally well-prepared for ASSET.
+        </P>
+        <P>
+          In the 4&ndash;6 weeks before the exam: practise the thinking skill types (experiment reasoning,
+          misconception identification, data interpretation) using ASSET sample questions published by
+          Educational Initiatives.
+        </P>
+
+        <CTA>Practise thinking-skill questions in maths and science &mdash; the kind that ASSET and competitive exams test. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is ASSET exam and how is it different from Olympiads?",
+        a: "ASSET (Assessment of Scholastic Skills through Educational Testing) is a diagnostic assessment by Educational Initiatives that measures thinking skills — conceptual understanding, application, and inference — rather than syllabus content recall. It provides a detailed diagnostic report rather than just a rank. Unlike Olympiads, it cannot be prepared for by memorising past papers, because it is specifically designed to test understanding rather than pattern-matching."
+      },
+      {
+        q: "Which classes can appear for the ASSET exam?",
+        a: "ASSET is available for Classes 3–9 in three subjects: Maths, Science, and English. Each subject is a separate 35-question paper in 45 minutes. Students can appear for one, two, or all three subjects."
+      },
+      {
+        q: "How should I prepare for ASSET Maths?",
+        a: "Focus on conceptual understanding rather than calculation practice. ASSET Maths uses simple numbers deliberately — the difficulty is in recognising the correct approach or identifying a conceptual error. After studying each topic, ask 'why does this method work?' and 'what happens if one condition changes?' This is more effective than additional practice problems."
+      },
+      {
+        q: "Is ASSET harder than IMO or NSO?",
+        a: "ASSET and Olympiads test different skills, making direct comparison difficult. ASSET's conceptual misconception questions and experiment reasoning questions are among the most cognitively demanding questions any Indian school student encounters — harder than equivalent-level Olympiad Achievers questions for most students. However, students who are strong in application and reasoning sometimes find ASSET more natural than Olympiads."
+      }
+    ]
+  },
+
+  /* 59 ──────────────────────────────────────────────────────── */
+  {
+    slug: "aryabhatta-ganit-challenge-preparation",
+    title: "Aryabhatta Ganit Challenge Preparation Guide: Syllabus, Tips & Strategy",
+    description:
+      "The Aryabhatta Ganit Challenge is a CBSE-organised maths competition known for difficult, non-routine problems. This guide covers the exam format, what makes it uniquely challenging, and how to prepare effectively.",
+    date: "2026-07-23",
+    tag: "Maths",
+    readingMinutes: 8,
+    keywords: [
+      "aryabhatta ganit challenge preparation",
+      "aryabhatta ganit challenge guide",
+      "AGC maths competition",
+      "CBSE maths olympiad",
+      "aryabhatta ganit challenge syllabus",
+    ],
+    excerpt:
+      "The Aryabhatta Ganit Challenge is a CBSE maths competition known for genuinely hard, non-routine problems. Here is how to prepare for it — syllabus, format, and strategy.",
+    content: (
+      <>
+        <P>
+          The Aryabhatta Ganit Challenge (AGC) is organised by the Central Board of Secondary Education (CBSE)
+          and is named after the ancient Indian mathematician Aryabhatta. It is open to CBSE school students in
+          Classes 8 and 9 and is known for non-routine mathematical problems that go significantly beyond the
+          standard school syllabus in terms of thinking depth. Unlike most school Olympiads, AGC does not test
+          recall of content &mdash; it tests mathematical reasoning and problem-solving in the classical sense.
+        </P>
+
+        <H2 id="exam-overview">Exam overview</H2>
+        <UL>
+          <LI><B>Eligibility:</B> Students of Classes 8 and 9 in CBSE-affiliated schools</LI>
+          <LI><B>Format:</B> Two rounds &mdash; a school-level qualifying round followed by a national-level final for qualifiers</LI>
+          <LI><B>Question style:</B> Non-routine mathematical problems, not standard syllabus problems in a different format. Many problems require lateral thinking or proof-like reasoning.</LI>
+          <LI><B>Time limit:</B> 90 minutes for the school round</LI>
+          <LI><B>Marks:</B> Typically 40&ndash;60 marks with no negative marking; exact structure varies by year</LI>
+          <LI><B>Purpose:</B> CBSE describes the objective as &ldquo;to promote mathematical thinking and remove maths phobia&rdquo; &mdash; the competition genuinely rewards mathematical reasoning over speed</LI>
+        </UL>
+
+        <H2 id="what-makes-agc-different">What makes the AGC different</H2>
+        <P>
+          Three characteristics distinguish the AGC from other school maths competitions:
+        </P>
+        <UL>
+          <LI>
+            <B>Non-routine problems:</B> Questions are designed so that students who have only practised
+            standard problem types will struggle. Each question requires recognising a mathematical structure
+            or applying a concept in an unfamiliar way. A student who has drilled chapter exercises alone
+            cannot do well.
+          </LI>
+          <LI>
+            <B>Proof and explanation elements:</B> Some questions ask students to justify their answer or
+            explain why a particular result holds, not just compute the answer. This rewards mathematical
+            communication as well as problem-solving.
+          </LI>
+          <LI>
+            <B>Multiple approaches:</B> Many AGC problems can be solved by more than one method &mdash;
+            sometimes a creative shorter approach, sometimes a longer but systematic one. Students who know
+            multiple approaches to the same type of problem consistently outperform those who only know one.
+          </LI>
+        </UL>
+        <Callout>
+          <B>The biggest mistake in AGC preparation</B> is treating it like a faster, harder version of
+          school maths. The AGC rewards mathematical curiosity, pattern recognition, and willingness to
+          try unconventional approaches. Students who read about recreational mathematics &mdash; puzzles,
+          number theory, combinatorics at an introductory level &mdash; perform better than students who
+          only do extra school maths practice.
+        </Callout>
+
+        <H2 id="syllabus-and-topics">Syllabus and topic areas</H2>
+        <P>
+          The AGC draws from Classes 8 and 9 CBSE maths syllabus but extends it:
+        </P>
+        <UL>
+          <LI><B>Number theory:</B> Divisibility rules, prime factorisation, properties of integers, remainder problems &mdash; often posed as puzzles rather than exercises</LI>
+          <LI><B>Algebra:</B> Algebraic identities, equations, substitution, pattern-based algebraic reasoning</LI>
+          <LI><B>Geometry:</B> Properties of triangles, quadrilaterals, circles &mdash; often requires proving a property rather than computing an answer</LI>
+          <LI><B>Mensuration:</B> Area, perimeter, surface area, volume problems with non-standard configurations</LI>
+          <LI><B>Data and statistics:</B> Mean, median, mode, probability &mdash; posed in scenario form requiring careful reading</LI>
+          <LI><B>Logical reasoning:</B> Pattern recognition, sequence completion, and mathematical puzzles</LI>
+        </UL>
+
+        <H2 id="preparation-strategy">Preparation strategy</H2>
+        <UL>
+          <LI>
+            <B>Read mathematics, not just practise it:</B> Books like &ldquo;Mathematics for the Millions&rdquo;
+            (Hogben), &ldquo;Mathematical Puzzles and Diversions&rdquo; (Gardner), or the NCERT maths
+            supplementary materials expose you to mathematical thinking in the style the AGC tests.
+          </LI>
+          <LI>
+            <B>Practise past AGC papers:</B> CBSE makes previous years&rsquo; papers available through affiliated
+            schools. These give the clearest picture of the question style and difficulty.
+          </LI>
+          <LI>
+            <B>Work on harder olympiad prep books:</B> RD Sharma&rsquo;s harder chapters, the HOTS (Higher
+            Order Thinking Skills) sections of NCERT solutions, and introductory competition maths books
+            (such as those used for AMC 8 preparation internationally) build the problem-solving instincts
+            the AGC rewards.
+          </LI>
+          <LI>
+            <B>Focus on process, not just answer:</B> When you solve a problem, write out the full reasoning.
+            This builds the mathematical communication that AGC&rsquo;s explanation-type questions reward.
+          </LI>
+          <LI>
+            <B>Work in groups:</B> Discussing mathematical problems with peers and explaining your reasoning
+            is the single most effective preparation for the kind of non-routine mathematical thinking the
+            AGC tests. The discussion process forces you to articulate your thinking in a way solo practice
+            does not.
+          </LI>
+        </UL>
+
+        <H2 id="study-plan">8-week preparation plan</H2>
+        <UL>
+          <LI><B>Weeks 1&ndash;2:</B> Past AGC papers &mdash; attempt, then study solutions of problems you could not solve</LI>
+          <LI><B>Weeks 3&ndash;4:</B> Number theory and algebra &mdash; divisibility puzzles, algebraic identity applications</LI>
+          <LI><B>Weeks 5&ndash;6:</B> Geometry &mdash; triangle and circle properties, proof-based problems</LI>
+          <LI><B>Week 7:</B> Data/statistics and logical reasoning problem sets</LI>
+          <LI><B>Week 8:</B> One full past paper per day; focus on writing complete solutions, not just computing answers</LI>
+        </UL>
+
+        <CTA>Build the mathematical thinking skills the Aryabhatta Ganit Challenge tests &mdash; practice problems with full solutions, free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Who can participate in the Aryabhatta Ganit Challenge?",
+        a: "The Aryabhatta Ganit Challenge is open to students of Classes 8 and 9 in CBSE-affiliated schools. The competition is school-organised: schools register and conduct the preliminary round. Qualifiers from the school round proceed to a national final."
+      },
+      {
+        q: "How is the Aryabhatta Ganit Challenge different from IMO?",
+        a: "The IMO (SOF International Maths Olympiad) tests the school syllabus in a competition format with multiple-choice questions. The Aryabhatta Ganit Challenge tests non-routine mathematical problem-solving — problems that cannot be answered by syllabus recall alone, and some of which require written justification rather than selecting an answer. The AGC is generally considered more mathematically demanding in terms of reasoning depth."
+      },
+      {
+        q: "What topics does the Aryabhatta Ganit Challenge cover?",
+        a: "The AGC draws primarily from the CBSE Classes 8 and 9 maths syllabus — algebra, geometry, mensuration, number theory, and data handling — but extends it with non-routine problem types. Divisibility puzzles, geometric proofs, and algebraic pattern recognition appear regularly alongside standard syllabus content."
+      },
+      {
+        q: "Where can I find Aryabhatta Ganit Challenge past papers?",
+        a: "CBSE makes previous years' AGC papers available through affiliated schools — contact your school's maths department or coordinator. CBSE's official academic website also periodically publishes sample materials. Note that commercially published 'AGC preparation books' exist but quality varies; the official past papers are the most reliable preparation material."
+      }
+    ]
+  },
+
   /* 34 ──────────────────────────────────────────────────────── */
   {
     slug: "olympiad-vs-board-exams-how-to-balance",
