@@ -250,6 +250,13 @@ public class SubscriptionService
             _db.Subscriptions.Add(sub);
         }
 
+        // Keep Users.SubscriptionTier in sync so dashboards and emails reflect paid status
+        var user = await _db.Users.FindAsync(new object[] { userId }, ct);
+        if (user != null && user.SubscriptionTier == "Free")
+        {
+            user.SubscriptionTier = "Modular";
+        }
+
         await _db.SaveChangesAsync(ct);
     }
 
