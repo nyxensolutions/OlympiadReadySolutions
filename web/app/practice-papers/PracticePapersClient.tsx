@@ -232,7 +232,7 @@ function PracticePapersBody() {
     }
   }
 
-  // ── Paid download (₹29 single, or bundle discount — each click = fresh payment) ───────
+  // ── Paid download (₹19 single August offer, or bundle discount — each click = fresh payment) ───────
   async function buyAndDownload(info: SubjectInfo) {
     const key = `paid-${info.subject}`;
     setPaying(key);
@@ -443,7 +443,7 @@ function PracticePapersBody() {
             AI-generated, exam-style PDFs ready to print and practise.{" "}
             <span className="font-semibold">10 questions free</span> (once per subject)
             {" · "}
-            <span className="font-semibold">50 questions from ₹29</span> per download (bundle discounts apply).
+            <span className="font-semibold">50 questions from ₹19</span> per download — August offer (bundle discounts apply).
           </p>
 
           {/* Feature pills */}
@@ -855,7 +855,7 @@ function PracticePapersBody() {
               },
               {
                 q: "Can I re-download a paid paper?",
-                a: "Each payment gives you a fresh 50-question download. Price is ₹29 each for 1-2 papers, ₹25 each for 3-5, and ₹20 each for 6+. You can add multiple subjects to a bundle and download everything as a ZIP in one go.",
+                a: "Each payment gives you a fresh 50-question download. August offer price: ₹19 each for 1-2 papers, ₹15 each for 3-5, and ₹12 each for 6+. Add multiple subjects to a bundle and download as a ZIP in one go.",
               },
               {
                 q: "What benefits do subscribed subjects get?",

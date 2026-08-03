@@ -16,7 +16,7 @@ public class PracticePapersController : ControllerBase
 {
     private const int FreeQuestionCount = 10;
     private const int PaidQuestionCount = 50;
-    private const int PdfPriceInPaise   = 2900; // ₹29
+    private const int PdfPriceInPaise   = 1900; // ₹19 (August 2026 promo; was 2900)
 
     // Marker stored in RazorpayOrderId/PaymentId for free-tier records.
     private const string FreeMarker = "FREE";

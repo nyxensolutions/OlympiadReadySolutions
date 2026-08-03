@@ -159,7 +159,7 @@ function SpellBeeBody() {
       triggerBlobDownload(blob, `OlympiadReady-Free-SpellBee-${topicName.replace(/\s+/g, "")}-Class${grade}.pdf`);
       
       if (!subjects.find(s => s.subject === purchaseKey)) {
-          setSubjects(prev => [...prev, { subject: purchaseKey, grade, hasFreeDownload: true, freeQuestions: 10, paidQuestions: 50, priceInPaise: 2900, priceDisplay: "₹29" }]);
+          setSubjects(prev => [...prev, { subject: purchaseKey, grade, hasFreeDownload: true, freeQuestions: 10, paidQuestions: 50, priceInPaise: 1900, priceDisplay: "₹19" }]);
       } else {
           setSubjects((prev) =>
             prev.map((s) => s.subject === purchaseKey ? { ...s, hasFreeDownload: true } : s)
@@ -497,7 +497,7 @@ function SpellBeeBody() {
                               </div>
                             ) : (
                               <span className="shrink-0 rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-bold text-violet-700">
-                                ₹29
+                                ₹19
                               </span>
                             )}
                           </div>
@@ -533,7 +533,7 @@ function SpellBeeBody() {
                                 ) : (
                                   <>
                                     <CreditCard className="h-3.5 w-3.5" />
-                                    Buy &amp; Download — ₹29
+                                    Buy &amp; Download — ₹19
                                     <ChevronRight className="ml-auto h-3.5 w-3.5" />
                                   </>
                                 )}
@@ -576,7 +576,7 @@ function SpellBeeBody() {
                 },
                 {
                   q: "How does the free download work?",
-                  a: "You get one free 10-question paper per topic. Once downloaded, the free slot is used. To get a new set of 50 questions for the same topic, use the ₹29 paid option.",
+                  a: "You get one free 10-question paper per topic. Once downloaded, the free slot is used. To get a new set of 50 questions for the same topic, use the ₹19 paid option (August offer).",
                 },
                 {
                   q: "What benefits do subscribed subjects get?",

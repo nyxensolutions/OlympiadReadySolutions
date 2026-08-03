@@ -14,6 +14,11 @@ export function HeroSection() {
       </div>
 
       <div className="relative mx-auto max-w-5xl text-center">
+        {/* August Offer Ribbon */}
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-orange-500 px-5 py-2 shadow-lg">
+          <span className="text-sm font-bold text-white">🎉 August Olympiad Season — 40% Off all plans</span>
+        </div>
+
         {/* Badge */}
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-md">
           <Sparkles className="h-4 w-4 text-yellow-300" />
@@ -57,7 +62,7 @@ export function HeroSection() {
           {[
             { value: "50,000+", label: "Curated questions + AI" },
             { value: "9",      label: "Subjects, Class 1–12"  },
-            { value: "₹129",   label: "Per subject/month"     },
+            { value: "₹77",    label: "Per subject/month (Aug)" },
           ].map(({ value, label }, i) => (
             <div key={label} className="flex items-center gap-4">
               {i > 0 && <div className="hidden h-10 w-px bg-white/20 sm:block" />}

@@ -41,7 +41,7 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
       status.used < (status.limit ?? 5)
     ) {
       softNudgeTimer.current = setTimeout(() => {
-        openUpgrade(`You've completed ${status.used} of ${status.limit ?? 5} free papers — unlock unlimited practice for ₹129/month.`);
+        openUpgrade(`You've completed ${status.used} of ${status.limit ?? 5} free papers — unlock unlimited practice for ₹77/month (August offer).`);
       }, 2500);
     }
     return () => {
@@ -118,10 +118,14 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
                 </li>
               ))}
             </ul>
-            <div className="mb-3 text-xs text-gray-400 font-medium uppercase tracking-wide">Starting from</div>
-            <div className="mb-6">
-              <span className="text-3xl font-extrabold text-gray-900">₹129</span>
-              <span className="text-sm text-gray-500 ml-1">/ subject / month</span>
+            <div className="mb-2 inline-block rounded-full bg-orange-100 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wide text-orange-700">
+              🎉 August Offer — 40% Off
+            </div>
+            <div className="mb-3 text-xs text-gray-400 font-medium uppercase tracking-wide mt-2">Starting from</div>
+            <div className="mb-6 flex items-baseline justify-center gap-2">
+              <span className="text-base font-medium text-gray-400 line-through">₹129</span>
+              <span className="text-3xl font-extrabold text-gray-900">₹77</span>
+              <span className="text-sm text-gray-500">/ subject / month</span>
             </div>
             <button
               type="button"

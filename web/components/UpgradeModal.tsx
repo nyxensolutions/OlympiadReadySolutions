@@ -97,16 +97,17 @@ export function UpgradeModal({
   let originalPrice = 0; // vs monthly × 12 for savings display
   let monthlyEquiv = 0;  // shown as "= ₹X/month" anchor under annual price
 
+  // August 2026 promo prices (40% off). Revert Sept 1: champion 649/3999, perSubject 129.
   if (isChampion) {
-    price         = isAnnual ? 3999 : 649;
-    originalPrice = isAnnual ? 649 * 12 : 0;
-    monthlyEquiv  = isAnnual ? Math.round(3999 / 12) : 0;
+    price         = isAnnual ? 2399 : 389;
+    originalPrice = isAnnual ? 3999 : 649;
+    monthlyEquiv  = isAnnual ? Math.round(2399 / 12) : 0;
   } else if (count > 0) {
-    const perSubject = 129;
+    const perSubject = 77; // was 129
     const discount   = count >= 3 ? 0.90 : 1.0;
     const monthly    = Math.ceil(count * perSubject * discount);
     price         = isAnnual ? monthly * 8 : monthly;
-    originalPrice = isAnnual ? monthly * 12 : 0;
+    originalPrice = isAnnual ? Math.ceil(count * 129 * discount) * 12 : Math.ceil(count * 129 * discount);
     monthlyEquiv  = isAnnual ? Math.round(price / 12) : 0;
   }
 
@@ -331,16 +332,27 @@ export function UpgradeModal({
 
                 {/* Pricing Display */}
                 <div className="my-auto py-4 text-center">
-                  <div className="flex items-end justify-center gap-1">
+                  <div className="mb-2 inline-block rounded-full bg-orange-100 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wide text-orange-700">
+                    🎉 August Offer — 40% Off
+                  </div>
+                  <div className="flex items-end justify-center gap-1.5">
+                    {originalPrice > 0 && (
+                      <span className="text-base font-medium text-slate-400 line-through mb-0.5">₹{originalPrice}</span>
+                    )}
                     <span className="text-3xl font-bold text-slate-900">₹{price}</span>
                     <span className="text-sm font-medium text-slate-500 mb-0.5">/ {billingCycle === "Annual" ? "yr" : "mo"}</span>
                   </div>
                   {isAnnual && monthlyEquiv > 0 && (
                     <p className="mt-0.5 text-xs font-semibold text-brand-600">= ₹{monthlyEquiv}/month</p>
                   )}
+                  {!isAnnual && originalPrice > 0 && (
+                    <p className="mt-1 text-[11px] font-semibold text-emerald-600">
+                      Save ₹{originalPrice - price}/month vs regular price
+                    </p>
+                  )}
                   {isAnnual && originalPrice > 0 && (
                     <p className="mt-1 text-[11px] text-slate-500 leading-tight">
-                      vs monthly billing{" "}
+                      vs regular annual{" "}
                       <span className="line-through">₹{originalPrice}/yr</span>
                       <br />
                       <span className="font-semibold text-emerald-600">Save ₹{originalPrice - price}</span>

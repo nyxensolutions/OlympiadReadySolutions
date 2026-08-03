@@ -16,6 +16,15 @@ export function PricingTransparencySection() {
   return (
     <section className="bg-slate-50 px-4 py-20 sm:py-28">
       <div className="mx-auto max-w-5xl">
+        {/* August Offer Banner */}
+        <div className="mb-10 mx-auto max-w-2xl rounded-2xl bg-gradient-to-r from-orange-500 to-amber-500 p-px shadow-lg">
+          <div className="rounded-2xl bg-white px-6 py-5 text-center">
+            <p className="text-xs font-bold uppercase tracking-widest text-orange-600 mb-1">🎉 August Olympiad Season Offer</p>
+            <p className="text-xl font-extrabold text-slate-900">40% off all subscriptions &amp; PDF downloads</p>
+            <p className="mt-1 text-sm text-slate-500">Offer valid through August 2026 only — Olympiad exams start in October!</p>
+          </div>
+        </div>
+
         <div className="mb-12 text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-brand-600">
             Honest pricing
@@ -24,23 +33,24 @@ export function PricingTransparencySection() {
             Less than one tutor session.<br />Every day of the year.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-slate-600">
-            The average Olympiad tutor charges ₹600–₹1,200 per hour. OlympiadReady costs ₹129 per subject per month — that&apos;s unlimited practice, every day.
+            The average Olympiad tutor charges ₹600–₹1,200 per hour. OlympiadReady costs just <strong>₹77 per subject per month</strong> this August — that&apos;s unlimited practice, every day.
           </p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 max-w-2xl mx-auto mb-10">
           {/* OlympiadReady card */}
           <div className="rounded-2xl border-2 border-brand-500 bg-white p-6 shadow-lg relative">
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-brand-600 px-4 py-1 text-xs font-bold text-white">
-              Best value
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-orange-500 px-4 py-1 text-xs font-bold text-white">
+              August Offer 🎉
             </div>
             <div className="mb-4 text-center">
               <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide">OlympiadReady</p>
-              <div className="mt-2">
-                <span className="text-4xl font-extrabold text-slate-900">₹129</span>
-                <span className="text-slate-500 text-sm ml-1">/ subject / month</span>
+              <div className="mt-2 flex items-baseline justify-center gap-2">
+                <span className="text-lg font-medium text-slate-400 line-through">₹129</span>
+                <span className="text-4xl font-extrabold text-slate-900">₹77</span>
+                <span className="text-slate-500 text-sm">/ subject / month</span>
               </div>
-              <p className="text-xs text-slate-400 mt-1">≈ ₹4.30 per day</p>
+              <p className="text-xs text-slate-400 mt-1">≈ ₹2.57 per day</p>
             </div>
             <ul className="space-y-2">
               {COMPARISON.map(({ label, olympiadReady }) => (
