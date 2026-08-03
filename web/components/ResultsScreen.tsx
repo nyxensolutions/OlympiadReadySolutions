@@ -96,19 +96,27 @@ export function ResultsScreen({
     setTimeout(() => setShared(false), 3000);
   }
 
-  // Persist the result once. Strict-mode guarded so the double-mount in dev doesn't double-insert.
+  // Persist the result exactly once on mount. Capture all values immediately so
+  // changing deps (unstable getToken ref, parent re-renders) never re-fire this.
   useEffect(() => {
     if (submitted.current) return;
     submitted.current = true;
 
+    const capturedPaperId = paperId;
+    const capturedAnswers = userAnswers;
+    const capturedTime = timeTakenSeconds;
+    const capturedPct = pct;
+    const capturedConfig = config;
+    const capturedQuestions = questions;
+
     // Track test completion in Umami
     Analytics.testCompleted({
-      subject: config.subject,
-      grade: config.grade,
-      difficulty: config.difficulty,
-      totalQuestions: questions.length,
-      scorePct: pct,
-      timeTakenSeconds,
+      subject: capturedConfig.subject,
+      grade: capturedConfig.grade,
+      difficulty: capturedConfig.difficulty,
+      totalQuestions: capturedQuestions.length,
+      scorePct: capturedPct,
+      timeTakenSeconds: capturedTime,
     });
 
     (async () => {
@@ -121,9 +129,9 @@ export function ResultsScreen({
             ...(token ? { Authorization: `Bearer ${token}` } : {})
           },
           body: JSON.stringify({
-            paperId,
-            answers: userAnswers,
-            timeTakenSeconds
+            paperId: capturedPaperId,
+            answers: capturedAnswers,
+            timeTakenSeconds: capturedTime
           })
         });
         // Check for first-test badge
@@ -133,13 +141,13 @@ export function ResultsScreen({
         if (prevCount === 0) setBadgeEarned("🚀 First Step badge earned! Check your achievements on the dashboard.");
         else if (newCount === 5) setBadgeEarned("🔁 On a Roll badge earned! You've completed 5 tests.");
         else if (newCount === 10) setBadgeEarned("💪 Dedicated badge earned! 10 tests done.");
-        else if (pct >= 90) setBadgeEarned("🎯 Sharpshooter badge earned! Great score!");
-        else if (pct === 100) setBadgeEarned("⭐ Perfect Score badge earned!");
+        else if (capturedPct >= 90) setBadgeEarned("🎯 Sharpshooter badge earned! Great score!");
+        else if (capturedPct === 100) setBadgeEarned("⭐ Perfect Score badge earned!");
       } catch (e) {
         console.warn("Test submit failed:", e);
       }
     })();
-  }, [paperId, userAnswers, timeTakenSeconds, getToken]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   async function downloadPdf() {
     setDownloading(true);

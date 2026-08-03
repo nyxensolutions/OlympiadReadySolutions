@@ -68,6 +68,23 @@ public class TestsController : ControllerBase
         var oldEarned = BadgeCalculator.ComputeBadges(pastResults, repCount).Count(b => b.Earned);
         var oldTitle = BadgeCalculator.GetTitle(oldEarned, 24);
 
+        // Idempotency: if this paper was already submitted, return the existing result.
+        var existing = await _db.Results
+            .AsNoTracking()
+            .FirstOrDefaultAsync(r => r.UserId == user.UserId && r.PaperId == paper.PaperId, ct);
+        if (existing != null)
+        {
+            return Ok(new
+            {
+                resultId = existing.ResultId,
+                score = existing.Score,
+                total = existing.TotalQuestions,
+                timeTakenSeconds = existing.TimeTakenSeconds,
+                totalMarks = existing.TotalMarks,
+                earnedMarks = existing.EarnedMarks
+            });
+        }
+
         var result = new MockTestResult
         {
             UserId = user.UserId,
