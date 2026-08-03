@@ -1,4 +1,6 @@
+using System.Net.Http.Headers;
 using System.Security.Claims;
+using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using OlympiadReady.Api.Data;
 using OlympiadReady.Api.Data.Entities;
@@ -9,13 +11,42 @@ public class UserService
 {
     private readonly AppDbContext _db;
     private readonly IEmailService _email;
+    private readonly IHttpClientFactory _http;
+    private readonly IConfiguration _config;
     private readonly ILogger<UserService> _log;
 
-    public UserService(AppDbContext db, IEmailService email, ILogger<UserService> log)
+    public UserService(AppDbContext db, IEmailService email, IHttpClientFactory http, IConfiguration config, ILogger<UserService> log)
     {
         _db = db;
         _email = email;
+        _http = http;
+        _config = config;
         _log = log;
+    }
+
+    private async Task<string?> FetchNameFromClerkAsync(string externalId)
+    {
+        var secret = _config["Clerk:SecretKey"];
+        if (string.IsNullOrEmpty(secret)) return null;
+        try
+        {
+            var client = _http.CreateClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", secret);
+            client.DefaultRequestHeaders.UserAgent.ParseAdd("OlympiadReady-API/1.0");
+            client.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+            var res = await client.GetAsync($"https://api.clerk.com/v1/users/{externalId}");
+            if (!res.IsSuccessStatusCode) return null;
+            using var doc = JsonDocument.Parse(await res.Content.ReadAsStringAsync());
+            var first = doc.RootElement.TryGetProperty("first_name", out var f) ? f.GetString() ?? "" : "";
+            var last  = doc.RootElement.TryGetProperty("last_name",  out var l) ? l.GetString() ?? "" : "";
+            var full  = $"{first} {last}".Trim();
+            return string.IsNullOrEmpty(full) ? null : full;
+        }
+        catch (Exception ex)
+        {
+            _log.LogWarning("[UserService] Clerk name fetch failed for {ExternalId}: {Err}", externalId, ex.Message);
+            return null;
+        }
     }
 
     /// <summary>
@@ -49,10 +80,14 @@ public class UserService
                 changed = true;
                 wasAnonymous = true; // first time we have a real email — send welcome
             }
-            if (!string.IsNullOrEmpty(name) && string.IsNullOrEmpty(existing.FullName))
+            if (string.IsNullOrEmpty(existing.FullName))
             {
-                existing.FullName = name;
-                changed = true;
+                var resolvedName = !string.IsNullOrEmpty(name) ? name : await FetchNameFromClerkAsync(sub);
+                if (!string.IsNullOrEmpty(resolvedName))
+                {
+                    existing.FullName = resolvedName;
+                    changed = true;
+                }
             }
             if (changed)
             {
