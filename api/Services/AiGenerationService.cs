@@ -54,17 +54,22 @@ public class AiGenerationService
 
         # Question quality bar
           - STRICT REQUIREMENT: There MUST BE EXACTLY ONE unambiguously correct answer. It is a FATAL ERROR to include multiple correct or partially correct options (e.g., asking "Which is an even number?" and providing both 2 and 4 as options). All distractors MUST be completely and undeniably wrong under all mathematical and logical interpretations.
-          - No "all of the above" / "none of the above".
+          - NO "all of the above" / "none of the above" / "both A and B" type options. Every option must stand alone.
+          - NO images, diagrams, figures, charts, or tables. Every question must be fully answerable from text alone. Never write "refer to the figure", "as shown below", "in the diagram", or any similar phrase.
+          - NO incomplete options. Never use "...", "etc.", "and so on", or trailing ellipses inside any option text.
+          - NO cross-references inside a question like "as mentioned above" or "from the passage" unless you have included the full passage text in the same question's "q" field.
+          - ALL 4 options must be completely distinct — no two options may have the same meaning or value, even expressed differently (e.g. "0.5" and "1/2" count as duplicates).
           - Exactly 4 options. They should look comparable in length and style — never make the
             correct answer the longest or the only one with units written out.
           - Distractors target real misconceptions, not random distractors. A student who guesses
             should not be able to eliminate options purely from style.
+          - For Classes 1–5, do NOT use negative question stems ("Which is NOT…", "Which of the following is INCORRECT…", "All EXCEPT…"). These confuse young students. Use positive stems only.
           - Use Indian context where natural: rupees not dollars, Mumbai/Delhi not London,
             cricket not baseball. Names: Aarav, Priya, Rohan, Ananya, Ishaan, Diya, Vihaan, Saanvi.
           - Avoid dated references (current dates, current cricket captains, etc.).
           - For Math, prefer integer or simple fractional answers; if decimals are needed, round to
             two places. State units explicitly when relevant.
-          - For Science, ground in NCERT diagrams and standard experiments — don't invent novel
+          - For Science, ground in NCERT concepts and standard experiments — don't invent novel
             apparatus the student has never seen.
           - For English, target the actual sub-skills SOF tests: synonyms/antonyms, sentence
             completion, error-spotting, basic grammar (tenses, articles, prepositions),
@@ -76,8 +81,13 @@ public class AiGenerationService
         # Explanation style
           The 'explanation' field is read by a child and often by a parent who isn't a subject
           expert. Keep it short (2-4 sentences), step-by-step, and plain-English. If a formula
-          is used, name it. End by stating which option is correct and why each tempting wrong
-          option is wrong if the misconception is non-obvious.
+          is used, name it. The explanation MUST explicitly name the correct answer value/phrase
+          (e.g. if the answer is "13 cm", write "13 cm" in the explanation — do not use a
+          pronoun like "it" or "this"). End by noting what mistake leads a student to each
+          wrong option, if the misconception is non-obvious.
+          Every field in the JSON schema is REQUIRED and non-empty. A blank or null field is a
+          FATAL ERROR — drop the question entirely and replace it rather than submitting with
+          a missing field.
 
         # Output format
 
@@ -148,6 +158,11 @@ public class AiGenerationService
         3. Confirm "answer" is the EXACT TEXT — character-for-character, same capitalisation and punctuation — of the option at that letter position.
         4. Confirm "explanation" explicitly states the key value or phrase from the correct option (e.g. if the answer is "13", the explanation must contain "13", not some other number).
         5. For maths/science numerical answers: recompute the result and verify it matches the correct option, not a distractor.
+        6. Count the options array — it must have EXACTLY 4 elements. If not, fix before submitting.
+        7. Confirm no two options are identical or equivalent in meaning or value.
+        8. Confirm no option text ends with "..." or "etc." or is otherwise incomplete.
+        9. Confirm the question text contains no phrases like "see figure", "as shown", "in the diagram", "from the passage" (unless the full passage is embedded in the "q" field).
+        10. Confirm every JSON field (q, options, correct_option_letter, answer, explanation, topic, reasoning_steps) is non-empty.
 
         If ANY check fails: fix the question before including it. If you cannot fix it confidently, drop it and replace it with a different question.
         It is better to return fewer questions than to return one with a wrong answer.
@@ -249,7 +264,8 @@ public class AiGenerationService
                 return new List<Question>();
 
             var result = JsonSerializer.Deserialize<OpenAiQuestionResponse>(content);
-            return result?.Questions ?? new List<Question>();
+            var questions = result?.Questions ?? new List<Question>();
+            return ValidateQuestions(questions, subject, grade, difficulty);
         }
         catch (Exception ex)
         {
@@ -257,6 +273,85 @@ public class AiGenerationService
                 subject, grade, difficulty);
             return new List<Question>();
         }
+    }
+
+    private List<Question> ValidateQuestions(List<Question> questions, string subject, int grade, string? difficulty)
+    {
+        var valid = new List<Question>();
+        var imageRefPatterns = new[] { "see figure", "as shown", "in the diagram", "refer to the figure", "from the passage", "in the figure", "shown below", "shown above", "see table", "see chart" };
+
+        foreach (var q in questions)
+        {
+            // All required text fields must be non-empty
+            if (string.IsNullOrWhiteSpace(q.Q) ||
+                string.IsNullOrWhiteSpace(q.Answer) ||
+                string.IsNullOrWhiteSpace(q.Explanation))
+            {
+                _log.LogWarning("AI question dropped: missing required field. Subject={Subject} G{Grade} {Diff}", subject, grade, difficulty);
+                continue;
+            }
+
+            // Must have exactly 4 non-empty options
+            if (q.Options == null || q.Options.Count != 4 || q.Options.Any(o => string.IsNullOrWhiteSpace(o)))
+            {
+                _log.LogWarning("AI question dropped: invalid option count ({Count}). Subject={Subject} G{Grade} {Diff}", q.Options?.Count ?? 0, subject, grade, difficulty);
+                continue;
+            }
+
+            // answer must be one of the 4 options
+            if (!q.Options.Any(o => string.Equals(o.Trim(), q.Answer.Trim(), StringComparison.OrdinalIgnoreCase)))
+            {
+                _log.LogWarning("AI question dropped: answer '{Answer}' not found in options. Subject={Subject} G{Grade} {Diff}", q.Answer, subject, grade, difficulty);
+                continue;
+            }
+
+            // If correct_option_letter is present, verify it matches the answer
+            if (!string.IsNullOrWhiteSpace(q.CorrectOptionLetter))
+            {
+                var letter = q.CorrectOptionLetter.Trim().ToUpperInvariant();
+                if (letter is "A" or "B" or "C" or "D")
+                {
+                    var idx = letter[0] - 'A';
+                    var expectedAnswer = q.Options[idx].Trim();
+                    if (!string.Equals(q.Answer.Trim(), expectedAnswer, StringComparison.OrdinalIgnoreCase))
+                    {
+                        _log.LogWarning("AI question dropped: answer/letter mismatch. Letter={Letter}, Answer='{Answer}', Option='{Option}'. Subject={Subject} G{Grade} {Diff}",
+                            letter, q.Answer, expectedAnswer, subject, grade, difficulty);
+                        continue;
+                    }
+                }
+            }
+
+            // Reject questions referencing images/diagrams
+            var qLower = q.Q.ToLowerInvariant();
+            if (imageRefPatterns.Any(p => qLower.Contains(p)))
+            {
+                _log.LogWarning("AI question dropped: image/diagram reference detected. Subject={Subject} G{Grade} {Diff}", subject, grade, difficulty);
+                continue;
+            }
+
+            // No duplicate options (case-insensitive, trimmed)
+            var distinct = q.Options.Select(o => o.Trim().ToLowerInvariant()).Distinct().Count();
+            if (distinct < 4)
+            {
+                _log.LogWarning("AI question dropped: duplicate options detected. Subject={Subject} G{Grade} {Diff}", subject, grade, difficulty);
+                continue;
+            }
+
+            // No incomplete options (trailing ellipsis)
+            if (q.Options.Any(o => o.TrimEnd().EndsWith("...")))
+            {
+                _log.LogWarning("AI question dropped: option ends with ellipsis. Subject={Subject} G{Grade} {Diff}", subject, grade, difficulty);
+                continue;
+            }
+
+            valid.Add(q);
+        }
+
+        if (valid.Count < questions.Count)
+            _log.LogInformation("AI validation: {Kept}/{Total} questions passed for {Subject} G{Grade} {Diff}", valid.Count, questions.Count, subject, grade, difficulty);
+
+        return valid;
     }
 
     private static string BuildOlympiadClause(string? olympiadId) => olympiadId switch

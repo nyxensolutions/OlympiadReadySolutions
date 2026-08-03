@@ -17,6 +17,9 @@ public class Question
     [JsonPropertyName("options")]
     public List<string> Options { get; set; } = new();
 
+    [JsonPropertyName("correct_option_letter")]
+    public string? CorrectOptionLetter { get; set; }
+
     [JsonPropertyName("answer")]
     public string Answer { get; set; } = "";
 
