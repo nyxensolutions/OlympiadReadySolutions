@@ -281,20 +281,11 @@ public class PracticePapersController : ControllerBase
         var user = await _users.GetOrSyncAsync(User, ct);
         var purchaseKey = string.IsNullOrWhiteSpace(req.Topic) ? req.Subject : $"{req.Subject}|{req.Topic}";
 
-        // Record each payment — one entry per paid download transaction
-        _db.PdfPurchases.Add(new PdfPurchase
-        {
-            UserId            = user.UserId,
-            Grade             = req.Grade,
-            Subject           = purchaseKey,
-            RazorpayOrderId   = req.OrderId,
-            RazorpayPaymentId = req.PaymentId,
-            AmountInPaise     = PdfPriceInPaise,
-            PurchasedAt       = DateTime.UtcNow
-        });
-        await _db.SaveChangesAsync(ct);
+        // Idempotency: if this order was already verified and the PDF was served, do not record twice.
+        bool alreadyRecorded = await _db.PdfPurchases.AnyAsync(
+            p => p.RazorpayOrderId == req.OrderId && p.UserId == user.UserId, ct);
 
-        // Generate and return the PDF immediately
+        // Generate the PDF first — if the bank is empty the user is never charged.
         var historicalIds = await _db.UserSeenQuestions
             .Where(x => x.UserId == user.UserId.ToString())
             .Select(x => x.QuestionBankId)
@@ -334,6 +325,23 @@ public class PracticePapersController : ControllerBase
 
         var bytes    = _pdf.GeneratePaperPdf(exportReq);
         var filename = $"OlympiadReady-{req.Subject}{(string.IsNullOrWhiteSpace(req.Topic) ? "" : $"-{req.Topic}")}-Class{req.Grade}-50Q.pdf";
+
+        // Record purchase only after we know the PDF was generated successfully.
+        if (!alreadyRecorded)
+        {
+            _db.PdfPurchases.Add(new PdfPurchase
+            {
+                UserId            = user.UserId,
+                Grade             = req.Grade,
+                Subject           = purchaseKey,
+                RazorpayOrderId   = req.OrderId,
+                RazorpayPaymentId = req.PaymentId,
+                AmountInPaise     = PdfPriceInPaise,
+                PurchasedAt       = DateTime.UtcNow
+            });
+            await _db.SaveChangesAsync(ct);
+        }
+
         _log.LogInformation(
             "Paid PDF served: {Subject} {Topic} G{Grade} for {UserId} via order {OrderId}",
             req.Subject, req.Topic, req.Grade, user.UserId, req.OrderId);

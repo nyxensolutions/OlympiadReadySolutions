@@ -140,19 +140,19 @@ export function PurchasesPanel({ onClose }: { onClose: () => void }) {
               {/* Current Plan Banner */}
               <div
                 className={`flex items-center gap-3 rounded-xl p-4 ${
-                  data.currentTier === "Pro"
+                  data.currentTier !== "Free"
                     ? "bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-200"
                     : "bg-slate-50 border border-slate-200"
                 }`}
               >
                 <div className={`flex h-10 w-10 items-center justify-center rounded-full ${
-                  data.currentTier === "Pro" ? "bg-amber-100" : "bg-slate-100"
+                  data.currentTier !== "Free" ? "bg-amber-100" : "bg-slate-100"
                 }`}>
-                  <Crown className={`h-5 w-5 ${data.currentTier === "Pro" ? "text-amber-600" : "text-slate-400"}`} />
+                  <Crown className={`h-5 w-5 ${data.currentTier !== "Free" ? "text-amber-600" : "text-slate-400"}`} />
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 font-medium uppercase tracking-wide">Current Plan</p>
-                  <p className={`text-lg font-bold ${data.currentTier === "Pro" ? "text-amber-700" : "text-slate-700"}`}>
+                  <p className={`text-lg font-bold ${data.currentTier !== "Free" ? "text-amber-700" : "text-slate-700"}`}>
                     {data.currentTier}
                   </p>
                 </div>
