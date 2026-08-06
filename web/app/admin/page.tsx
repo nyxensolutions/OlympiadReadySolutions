@@ -9,6 +9,8 @@ import {
 } from "lucide-react";
 import { BadgesPanel } from "@/components/admin/BadgesPanel";
 import { ReportsPanel } from "@/components/admin/ReportsPanel";
+import { MathField } from "@/components/admin/MathField";
+import { MarkdownMath } from "@/components/MarkdownMath";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5080";
 
@@ -410,8 +412,8 @@ function EditModal({ question, showToast, onClose, onSaved }: {
           {/* Question text */}
           <div>
             <label className="label">Question Text *</label>
-            <textarea value={form.questionText} onChange={(e) => form.setQuestionText(e.target.value)}
-              rows={3} className="input resize-none" />
+            <MathField value={form.questionText} onChange={form.setQuestionText}
+              rows={3} alwaysPreview ariaLabel="Question text" />
           </div>
 
           {/* Question image — available for both text-answer and image-answer modes */}
@@ -432,11 +434,13 @@ function EditModal({ question, showToast, onClose, onSaved }: {
             {form.mode === "standard" ? (
               <div className="space-y-3">
                 {ANSWER_LABELS.map((lbl, i) => (
-                  <div key={lbl} className="flex items-center gap-3">
-                    <AnswerCircle letter={lbl} active={form.correctAnswer === lbl} onClick={() => form.setCorrectAnswer(lbl)} />
-                    <input value={form.textOptions[i]}
-                      onChange={(e) => { const n = [...form.textOptions]; n[i] = e.target.value; form.setTextOptions(n); }}
-                      placeholder={`Option ${lbl}`} className="input flex-1" />
+                  <div key={lbl} className="flex items-start gap-3">
+                    <div className="pt-1.5"><AnswerCircle letter={lbl} active={form.correctAnswer === lbl} onClick={() => form.setCorrectAnswer(lbl)} /></div>
+                    <div className="flex-1">
+                      <MathField value={form.textOptions[i]}
+                        onChange={(v) => { const n = [...form.textOptions]; n[i] = v; form.setTextOptions(n); }}
+                        placeholder={`Option ${lbl}`} ariaLabel={`Option ${lbl}`} />
+                    </div>
                   </div>
                 ))}
                 <p className="text-xs text-slate-400 mt-1">Click the letter circle to mark the correct answer.</p>
@@ -472,8 +476,8 @@ function EditModal({ question, showToast, onClose, onSaved }: {
           {/* Explanation */}
           <div>
             <label className="label">Explanation</label>
-            <textarea value={form.explanation} onChange={(e) => form.setExplanation(e.target.value)}
-              rows={2} className="input resize-none" placeholder="Why is this the correct answer?" />
+            <MathField value={form.explanation} onChange={form.setExplanation}
+              rows={2} placeholder="Why is this the correct answer?" ariaLabel="Explanation" />
           </div>
 
           {/* Action buttons */}
@@ -644,9 +648,9 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
       <div className="bg-slate-800 rounded-2xl p-5 space-y-4">
         <div>
           <label className="label">Question Text <span className="text-red-400">*</span></label>
-          <textarea value={form.questionText} onChange={(e) => form.setQuestionText(e.target.value)} rows={3}
+          <MathField value={form.questionText} onChange={form.setQuestionText} rows={3} alwaysPreview
             placeholder={form.mode === "image-options" ? "e.g. Which of the following is an apple?" : "Type your question here..."}
-            className="input resize-none" required />
+            ariaLabel="Question text" />
         </div>
         {/* Question image — available for both text-answer and image-answer modes */}
         <div>
@@ -665,11 +669,13 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
         {form.mode === "standard" ? (
           <div className="space-y-3">
             {ANSWER_LABELS.map((lbl, i) => (
-              <div key={lbl} className="flex items-center gap-3">
-                <AnswerCircle letter={lbl} active={form.correctAnswer === lbl} onClick={() => form.setCorrectAnswer(lbl)} />
-                <input value={form.textOptions[i]}
-                  onChange={(e) => { const n = [...form.textOptions]; n[i] = e.target.value; form.setTextOptions(n); }}
-                  placeholder={`Option ${lbl}`} className="input flex-1" />
+              <div key={lbl} className="flex items-start gap-3">
+                <div className="pt-1.5"><AnswerCircle letter={lbl} active={form.correctAnswer === lbl} onClick={() => form.setCorrectAnswer(lbl)} /></div>
+                <div className="flex-1">
+                  <MathField value={form.textOptions[i]}
+                    onChange={(v) => { const n = [...form.textOptions]; n[i] = v; form.setTextOptions(n); }}
+                    placeholder={`Option ${lbl}`} ariaLabel={`Option ${lbl}`} />
+                </div>
               </div>
             ))}
             <p className="text-xs text-slate-400 mt-1">Click the letter circle to mark the correct answer.</p>
@@ -697,8 +703,8 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
 
       <div className="bg-slate-800 rounded-2xl p-5">
         <label className="label">Explanation <span className="text-slate-500">(optional but recommended)</span></label>
-        <textarea value={form.explanation} onChange={(e) => form.setExplanation(e.target.value)}
-          rows={2} placeholder="Why is this the correct answer?" className="input resize-none" />
+        <MathField value={form.explanation} onChange={form.setExplanation}
+          rows={2} placeholder="Why is this the correct answer?" ariaLabel="Explanation" />
       </div>
 
       <form onSubmit={handleSubmit}>
@@ -1022,7 +1028,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
               </div>
             </div>
 
-            <p className="text-white font-medium leading-relaxed">{q.questionText}</p>
+            <MarkdownMath content={q.questionText} inheritColor className="text-white font-medium" />
 
             {q.imageUrl && (
               // eslint-disable-next-line @next/next/no-img-element
@@ -1055,7 +1061,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                           ${revealed && isCorrect ? "bg-emerald-500 text-white" : "bg-slate-600 text-slate-300"}`}>
                           {lbl}
                         </span>
-                        <span className="text-sm text-slate-200">{opt}</span>
+                        <MarkdownMath content={opt} inheritColor className="text-sm text-slate-200" />
                         {revealed && isCorrect && <CheckCircle size={14} className="ml-auto text-emerald-400 shrink-0" />}
                       </div>
                     )}
