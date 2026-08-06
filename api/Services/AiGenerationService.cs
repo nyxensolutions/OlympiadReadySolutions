@@ -92,6 +92,15 @@ public class AiGenerationService
         # Output format
 
         Return ONLY a valid JSON object with a single key "questions" containing a JSON array. No prose outside the object. No markdown. No code fences.
+
+        BACKSLASH RULE — read carefully, this is a common and silent failure:
+        Inside a JSON string every backslash MUST be doubled. Writing "\times" is NOT the
+        LaTeX command — "\t" is JSON's tab escape, so the text is stored as a tab followed
+        by "imes" and the command is destroyed. The same trap applies to \r, \f, \n and \b.
+        Correct:   "The area is $12 \\times 4$"
+        WRONG:     "The area is $12 \times 4$"
+        If you are unsure, prefer a Unicode character (× ÷ √ ° ² ³ π θ ≤ ≥ ≠) over a LaTeX
+        command — those need no escaping and render correctly everywhere.
         Each element MUST follow this schema exactly, with these field names:
 
         {
@@ -275,6 +284,67 @@ public class AiGenerationService
         }
     }
 
+    /// <summary>
+    /// Repairs LaTeX commands destroyed by JSON string-escape processing.
+    ///
+    /// A model that writes <c>"12 \times 0.60"</c> instead of <c>"12 \\times 0.60"</c> hands us
+    /// a legal JSON escape: <c>\t</c> is a tab. The deserialiser therefore stores TAB + "imes",
+    /// and the same happens for <c>\rightarrow</c> (CR), <c>\frac</c> (FF), <c>\neq</c> (LF) and
+    /// <c>\bar</c> (backspace). The system prompt now demands doubled backslashes, but models
+    /// slip, so restore the command here rather than persisting corrupted text.
+    /// </summary>
+    internal static string RepairLatexEscapes(string? text)
+    {
+        if (string.IsNullOrEmpty(text)) return text ?? "";
+
+        // Only pay for the scan when a suspect control character is actually present.
+        var hasSuspect = false;
+        foreach (var c in text)
+        {
+            if (c is '\t' or '\r' or '\f' or '\b' or '\v' or '\n') { hasSuspect = true; break; }
+        }
+        if (!hasSuspect) return text;
+
+        foreach (var (ctrl, letter, tail) in LatexEscapeVictims)
+        {
+            // "\times" arrives as TAB + "imes"; the escape swallowed the 't'.
+            // Rebuild it as backslash + letter + tail.
+            var broken = ctrl + tail;
+            if (text.Contains(broken, StringComparison.Ordinal))
+                text = text.Replace(broken, "\\" + letter + tail, StringComparison.Ordinal);
+        }
+        return text;
+    }
+
+    /// <summary>
+    /// (control character, letter the escape consumed, remaining tail).
+    /// "\t" + "imes" came from "\times", so the letter is 't'.
+    /// Longest tails first so "\rightarrow" is matched before "\right".
+    /// </summary>
+    private static readonly (string Ctrl, string Letter, string Tail)[] LatexEscapeVictims =
+    {
+        ("\r", "r", "ightarrow"), ("\r", "r", "ight"),
+        ("\t", "t", "imes"), ("\t", "t", "heta"), ("\t", "t", "riangle"),
+        ("\t", "t", "ext"), ("\t", "t", "an"),
+        ("\f", "f", "rac"), ("\f", "f", "orall"),
+        ("\b", "b", "eta"), ("\b", "b", "inom"), ("\b", "b", "ar"),
+        ("\v", "v", "ec"),
+        ("\n", "n", "eq"), ("\n", "n", "abla"),
+    };
+
+    /// <summary>Applies <see cref="RepairLatexEscapes"/> across every text field of a question.</summary>
+    private static void RepairQuestion(Question q)
+    {
+        q.Q = RepairLatexEscapes(q.Q);
+        q.Answer = RepairLatexEscapes(q.Answer);
+        q.Explanation = RepairLatexEscapes(q.Explanation);
+        if (q.Options is not null)
+        {
+            for (var i = 0; i < q.Options.Count; i++)
+                q.Options[i] = RepairLatexEscapes(q.Options[i]);
+        }
+    }
+
     private List<Question> ValidateQuestions(List<Question> questions, string subject, int grade, string? difficulty)
     {
         var valid = new List<Question>();
@@ -282,6 +352,9 @@ public class AiGenerationService
 
         foreach (var q in questions)
         {
+            // Undo JSON-escape damage before any other check reads these fields.
+            RepairQuestion(q);
+
             // All required text fields must be non-empty
             if (string.IsNullOrWhiteSpace(q.Q) ||
                 string.IsNullOrWhiteSpace(q.Answer) ||
