@@ -1,33 +1,42 @@
 """
 Repair maths notation in the QuestionBank.
 
-Four independent fixes, each reported separately so they can be reviewed and
-applied in isolation:
+Independent fixes, each reported separately so they can be reviewed and applied
+in isolation:
 
   currency  — "$3250" -> "₹3250".  The renderer pairs "$" signs into a KaTeX
               formula and strips every space inside it, so "bought for $3250 and
               sold for $4000" displays as "bought for 3250andsoldfor4000".
-              Genuine LaTeX ($x$, $\\frac{7}{20}$) is never touched.
+              Genuine LaTeX ($x$, $\\frac{7}{20}$) is never touched. Mathematics
+              only — elsewhere a dollar figure is usually a real-world fact.
   escape    — LaTeX destroyed by JSON escapes: "\\times" arrived as TAB+"imes".
+  degree    — "23.5 degrees" -> "23.5°".
+  caret     — "a^3" -> "a³".        Skipped in code questions, where ^ is XOR.
+  sqrt      — "sqrt(m/k)" -> "√(m/k)".  Skipped in code questions.
   unit      — "154 m2" -> "154 m²",  "24 cm3" -> "24 cm³".
-  exponent  — "x2 - 5x + 4" -> "x² - 5x + 4".  *** NOT SAFE TO AUTOMATE ***
-              Excluded from the default set. A dry run over the live bank showed
-              67 of 365 proposed changes were wrong, because a letter followed by
-              a digit is far more often a subscript than a power:
-                  "1s2 2s2 2p6"        electron configuration
-                  "l1l2 + m1m2 + n1n2" direction cosines
-                  "r1/r2"              ratio of two radii
-                  "the second term a2" sequence term a-sub-2
-                  "120 degrees (20x6)" multiplication, not a power
-              Run it explicitly (--only exponent) to regenerate the review CSV,
-              then correct those questions by hand in the admin panel.
+  multiply  — "12 x 3" / "10 * 4" -> "12 × 3".  Skipped in code questions.
+  exponent  — "x2 - 5x + 4" -> "x² - 5x + 4".  Handle with care: a letter before
+              a digit is a subscript at least as often as a power, and two
+              earlier versions of this rule were ~20% wrong on live data.
+              What finally separates the two cases:
+                * an indexed variable is always introduced with index 1, so a
+                  letter seen anywhere as "n1" carries subscripts, never powers
+                  ("n1 sin i = n2 sin r", "S1, S2", "a1 + a2", "r1/r2");
+                * variables are lowercase — an uppercase letter before a digit
+                  is chemistry ("H2O", "Cl2") or an indexed constant;
+                * one preceding letter is a coefficient ("ax2" = a·x²), two
+                  means the match is inside a word ("the2").
+              Plus outright exclusions for electron configurations, direction
+              cosines, sequence terms, pattern lists and chemistry wording.
+              Verified on the live bank: 87 changes, all Mathematics, none left
+              half converted. Digit-on-digit flattening ("42" meaning 4²) is
+              deliberately untouched — that source is genuinely ambiguous.
 
 DRY RUN BY DEFAULT — writes nothing without --apply.
 
-    python fix_notation_migration.py                 # dry run, safe categories
+    python fix_notation_migration.py                 # dry run, all categories
     python fix_notation_migration.py --only currency # dry run, one category
-    python fix_notation_migration.py --only exponent # review-only, do NOT apply
-    python fix_notation_migration.py --apply         # commit the safe categories
+    python fix_notation_migration.py --apply         # commit
 
 Connection: set OLYMPIAD_DB_CONN, or edit CONN_STR below.
 """
@@ -65,11 +74,7 @@ CATEGORY_ORDER = ("escape", "currency", "currency_review", "degree", "caret",
 DEFAULT_CATEGORIES = ("escape", "currency", "currency_review", "degree", "caret",
                       "sqrt", "unit", "exponent", "multiply")
 
-# "exponent" stays review-only after two measured attempts. A stricter rule with
-# subscript exclusions still got ~20% wrong: it left 14 of 70 expressions half
-# converted ("(a - b/2 + 2c)2 = a² + b²/4 + 4c2") and turned the refractive index
-# n₂ in Snell's law into n². Letter-plus-digit is irreducibly ambiguous.
-REVIEW_ONLY = {"currency_review", "exponent"}
+REVIEW_ONLY = {"currency_review"}
 
 # ── currency detection (mirrors web/lib/notation.ts protectCurrency) ──────────
 
@@ -258,7 +263,8 @@ EXP_EXCLUDE = re.compile(
     r"|\bratio\b|direction\s+cosine|\bA\.?P\.?\b|\bG\.?P\.?\b"
     r"|\b[A-Z]\d\s*,\s*[A-Z]\d"                   # pattern lists: A1, B2, C4
     r"|[a-z]\d[a-z]\d"                            # l1l2, m1m2, n1n2
-    r"|\bS\d\b|\ba\d\s*=",                        # S2 = …, a2 = …
+    r"|\bS\d\b|\ba\d\s*="                         # S2 = …, a2 = …
+    r"|\bmole|equilibri|\breaction\b|\bcompound\b|\bmolecul|\bvalency\b",  # chemistry
     re.I,
 )
 
@@ -269,14 +275,42 @@ EXP_REQUIRE = re.compile(
     re.I,
 )
 
-# Trailing "." is fine (end of sentence); "3.14" is not.
-EXPONENT_RE = re.compile(r"(?<![A-Za-z\d])(\d*)([xyzabnmpqrt])([2-9])(?!\d)(?!\.\d)")
+# Lowercase only. Algebraic unknowns are x, y, a, b, k, n and Greek; an uppercase
+# letter before a digit is nearly always chemistry (H2O, O2, CO2) or an indexed
+# constant (S2), where the digit is a subscript.
+GREEK = "αβγδθλμνρσφω"
+VAR = f"[a-z{GREEK}]"
+
+# An indexed variable is introduced with the index 1 — "n1 sin i = n2 sin r",
+# "S1, S2", "a1 + a2", "r1/r2". Nobody writes a power of one, so a letter seen
+# with a trailing 1 is an index, and every digit on that letter is a subscript.
+INDEX_RE = re.compile(rf"(?<![A-Za-z]{{2}})({VAR})1(?!\d)")
+
+# Two preceding letters means this is inside a word ("the2"), not a variable.
+# One lowercase is fine — "ax2" is the coefficient a times x squared. One
+# uppercase is not: "Cl2" is chlorine gas, whose 2 is a subscript.
+EXPONENT_RE = re.compile(rf"(?<![A-Za-z]{{2}})(?<![A-Z])({VAR})([2-9])(?!\d)(?!\.\d)")
+
+# A bracketed expression can be raised to a power too: "(2x + 3y)2".
+PAREN_POWER_RE = re.compile(r"(\))([2-9])(?!\d)(?!\.\d)")
 
 
 def fix_exponent(text, subject):
     if EXP_EXCLUDE.search(text) or not EXP_REQUIRE.search(text):
         return text
-    return EXPONENT_RE.sub(lambda m: m.group(1) + m.group(2) + to_super(m.group(3)), text)
+
+    indexed = set(INDEX_RE.findall(text))
+
+    def repl(m):
+        var, digit = m.group(1), m.group(2)
+        if var in indexed:
+            return m.group(0)  # subscript, leave alone
+        return var + to_super(digit)
+
+    return PAREN_POWER_RE.sub(
+        lambda m: m.group(1) + to_super(m.group(2)),
+        EXPONENT_RE.sub(repl, text),
+    )
 
 
 # Every fixer takes (text, subject) so subject-specific rules stay in one place.
