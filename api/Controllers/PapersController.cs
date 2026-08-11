@@ -142,7 +142,7 @@ public class PapersController : ControllerBase
 
                         if (genResult.Questions.Count > 0)
                         {
-                            ShuffleOptions(genResult.Questions);
+                            AiGenerationService.ShuffleOptions(genResult.Questions);
                             finalQuestions.AddRange(genResult.Questions);
                             aiWasUsed = true;
 
@@ -283,25 +283,11 @@ public class PapersController : ControllerBase
         return combined;
     }
 
-    private static readonly Random _rng = new();
-
     /// <summary>
-    /// Shuffle each question's options in-place. Answer stores full text so it stays correct after reordering.
-    /// Fixes LLM bias of placing the correct answer at position A most of the time.
+    /// Persists an AI-generated question to the bank. Caller must have already shuffled its
+    /// options (see <see cref="AiGenerationService.ShuffleOptions"/>) — this re-derives the
+    /// stored letter from wherever the answer text now sits, so it stays correct regardless.
     /// </summary>
-    private static void ShuffleOptions(IEnumerable<Question> questions)
-    {
-        foreach (var q in questions)
-        {
-            if (q.Options == null || q.Options.Count < 2) continue;
-            for (int i = q.Options.Count - 1; i > 0; i--)
-            {
-                int j = _rng.Next(i + 1);
-                (q.Options[i], q.Options[j]) = (q.Options[j], q.Options[i]);
-            }
-        }
-    }
-
     private void SaveAiQuestionToBank(Question q, string subject, int grade, string difficulty)
     {
         if (q.Options == null || q.Options.Count == 0)

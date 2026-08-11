@@ -255,11 +255,25 @@ public class MockExamsController : ControllerBase
 
             sectionQuestions.AddRange(aiQuestions);
 
+            // Shuffle before persisting, not just before display — nothing re-shuffles a
+            // question's options once it is read back from the bank, so an unshuffled save
+            // here would permanently bake in the model's real, measured tendency to place the
+            // correct answer first.
+            AiGenerationService.ShuffleOptions(aiQuestions);
+
             // Persist AI-generated questions to bank for future reuse
             foreach (var q in aiQuestions)
             {
-                int idx = q.Options != null ? q.Options.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) : 0;
-                string letterAnswer = (idx >= 0 && idx <= 3) ? ((char)('A' + idx)).ToString() : "A";
+                int idx = q.Options?.FindIndex(o => string.Equals(o.Trim(), q.Answer?.Trim(), StringComparison.OrdinalIgnoreCase)) ?? -1;
+                if (idx < 0 || idx > 3)
+                {
+                    // Answer text didn't match any option -- saving with a guessed letter
+                    // would bank a question with the wrong answer marked correct.
+                    _log.LogWarning("Mock exam flywheel skip — answer '{Answer}' not found in options for question: {Q}",
+                        q.Answer, q.Q?[..Math.Min(80, q.Q?.Length ?? 0)]);
+                    continue;
+                }
+                string letterAnswer = ((char)('A' + idx)).ToString();
 
                 var newBankId = Guid.NewGuid();
                 _db.QuestionBank.Add(new QuestionBankItem

@@ -839,6 +839,15 @@ public class AdminController : ControllerBase
         if (dto.Status != "Accepted" && dto.Status != "Rejected")
             return BadRequest(new { error = "Status must be 'Accepted' or 'Rejected'." });
 
+        // ReportedQuestion.AdminReason is nvarchar(2000). Nothing validated this before it hit
+        // SaveChangesAsync, so a reason over the column limit threw a raw SqlException there —
+        // no custom exception handling catches that, so the response comes back as a bare 500
+        // with no body, which is exactly what shows up as an opaque failure in the browser.
+        // This check is now a backstop for the rare reason that's still too long, not the
+        // normal path — 2000 characters comfortably fits a real, worked explanation.
+        if (dto.AdminReason?.Length > 2000)
+            return BadRequest(new { error = $"Reason is too long ({dto.AdminReason.Length} characters, max 2000)." });
+
         var report = await _db.ReportedQuestions.FindAsync(new object[] { reportId }, ct);
         if (report is null) return NotFound(new { error = "Report not found." });
 
@@ -853,6 +862,12 @@ public class AdminController : ControllerBase
         var message = dto.Status == "Accepted"
             ? "Your question report was reviewed and accepted! Thank you for helping us improve."
             : $"Your question report was reviewed and rejected. Reason: {dto.AdminReason ?? "No reason provided."}";
+
+        // UserNotification.Message is nvarchar(2500). AdminReason is capped at 2000 above, so
+        // this can't realistically overflow once the fixed prefix text is added, but the cost
+        // of guaranteeing it is one line — cheaper than the same bug reappearing if the prefix
+        // text ever grows.
+        if (message.Length > 2500) message = message[..2500];
 
         var notification = new OlympiadReady.Api.Data.Entities.UserNotification
         {

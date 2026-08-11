@@ -15,8 +15,10 @@ public class UserNotification
     [MaxLength(200)]
     public string Title { get; set; } = "";
 
+    // Widened alongside ReportedQuestion.AdminReason (2000) plus the fixed prefix text this
+    // gets embedded in — see ResolveReport in AdminController.
     [Required]
-    [MaxLength(1000)]
+    [MaxLength(2500)]
     public string Message { get; set; } = "";
 
     public bool IsRead { get; set; }

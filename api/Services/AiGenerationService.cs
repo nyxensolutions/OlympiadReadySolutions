@@ -56,6 +56,29 @@ public class AiGenerationService
         _reasoningEffort = config["OpenAi:ReasoningEffort"] ?? "medium";
     }
 
+    private static readonly Random _shuffleRng = new();
+
+    /// <summary>
+    /// Randomises option order in place. Models have a real, measured tendency to place the
+    /// correct answer first (10/10 "A" on some subjects in testing) -- this is what prevents
+    /// that from reaching a student or, just as importantly, from being permanently baked into
+    /// the bank. Nothing shuffles option order again once a question is fetched back from the
+    /// bank, so this MUST run before a question is persisted, not only before it is displayed.
+    /// Every caller that saves an AI-generated question to QuestionBank must call this first.
+    /// </summary>
+    public static void ShuffleOptions(IEnumerable<Question> questions)
+    {
+        foreach (var q in questions)
+        {
+            if (q.Options == null || q.Options.Count < 2) continue;
+            for (int i = q.Options.Count - 1; i > 0; i--)
+            {
+                int j = _shuffleRng.Next(i + 1);
+                (q.Options[i], q.Options[j]) = (q.Options[j], q.Options[i]);
+            }
+        }
+    }
+
     /// <summary>
     /// The model a given difficulty tier will actually run on. Exposed so a caller can price
     /// a reservation (<see cref="AiPricing.EstimateCost"/>) before committing to the API call —

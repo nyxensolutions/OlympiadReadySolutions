@@ -26,7 +26,11 @@ public class ReportedQuestion
     [MaxLength(50)]
     public string Status { get; set; } = "Pending"; // Pending, Accepted, Rejected
 
-    [MaxLength(500)]
+    // Widened from 500: a genuinely useful rejection reason — e.g. the worked solution
+    // showing why a question's answer key is wrong — routinely runs past 500 characters.
+    // The old limit meant a thorough admin got a raw SqlException / bare 500 with no
+    // explanation, which looked identical to a client-side CORS failure in the browser.
+    [MaxLength(2000)]
     public string? AdminReason { get; set; }
 
     public DateTime ReportedAt { get; set; }
