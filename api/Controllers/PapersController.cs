@@ -57,8 +57,6 @@ public class PapersController : ControllerBase
                 });
             }
 
-            bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, req.Difficulty, ct);
-            
             string jsonContent;
             List<Question> questions = new();
 
@@ -100,52 +98,65 @@ public class PapersController : ControllerBase
             }
             else
             {
-                // Hybrid Logic
-                int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(req.Count, 20) : 0;
-                int dbCount = req.Count - aiCount;
-
+                // Bank first, AI only for what the bank cannot supply.
+                //
+                // The previous flow reserved up to 20 questions for the API before looking
+                // at the bank, so every paper paid to generate content the bank already
+                // held — and then made a second AI call for any remaining shortfall. With
+                // ~52,000 reviewed questions that is money spent to replace better content:
+                // banked questions have been through review, freshly generated ones have not.
                 var finalQuestions = new List<Question>();
 
-                if (dbCount > 0)
-                {
-                    var bankQuestions = await FetchBankWithImageMixAsync(
-                        req.Subject, req.Grade, req.Difficulty, dbCount, req.Topic, ct);
-                    finalQuestions.AddRange(bankQuestions);
-                }
+                var bankQuestions = await FetchBankWithImageMixAsync(
+                    req.Subject, req.Grade, req.Difficulty, req.Count, req.Topic, ct);
+                finalQuestions.AddRange(bankQuestions);
 
-                if (aiCount > 0)
-                {
-                    _log.LogInformation("Hybrid generation: calling AI for {Count} questions (olympiad={OlympiadId})", aiCount, req.OlympiadId ?? "open");
-                    var aiQuestions = await _ai.GenerateQuestionsAsync(
-                        req.Subject, req.Grade, req.Difficulty, aiCount, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
-                    ShuffleOptions(aiQuestions);
-                    finalQuestions.AddRange(aiQuestions);
-
-                    // Flywheel: Save AI questions back to the Question Bank
-                    foreach (var q in aiQuestions)
-                        SaveAiQuestionToBank(q, req.Subject, req.Grade, req.Difficulty);
-                }
-
-                // If AI fell short (or AI was skipped), top up from DB
+                // AI is a fallback for what the bank cannot supply — never a default, and
+                // never called for an account with no real entitlement to it. An unsubscribed
+                // user hitting an empty bank slice used to get a free AI-generated paper; that
+                // was real API spend with nobody paying for it, so it's gone. They get the
+                // same BANK_INSUFFICIENT response as anyone else the bank can't serve.
                 int shortfall = req.Count - finalQuestions.Count;
-                if (shortfall > 0)
-                {
-                    var extraBankQuestions = await FetchBankWithImageMixAsync(
-                        req.Subject, req.Grade, req.Difficulty, shortfall, req.Topic, ct);
-                    finalQuestions.AddRange(extraBankQuestions);
-                }
+                bool aiWasUsed = false;
 
-                // Last resort: if DB is still exhausted, call AI regardless of tier
-                int aiShortfall = req.Count - finalQuestions.Count;
-                if (aiShortfall > 0 && !isTestAccount)
+                if (shortfall > 0 && !isTestAccount)
                 {
-                    _log.LogInformation("DB exhausted shortfall: calling AI for {Count} questions as last resort", aiShortfall);
-                    var aiShortfallQuestions = await _ai.GenerateQuestionsAsync(
-                        req.Subject, req.Grade, req.Difficulty, aiShortfall, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
-                    ShuffleOptions(aiShortfallQuestions);
-                    finalQuestions.AddRange(aiShortfallQuestions);
-                    foreach (var q in aiShortfallQuestions)
-                        SaveAiQuestionToBank(q, req.Subject, req.Grade, req.Difficulty);
+                    var model = _ai.ModelForDifficulty(req.Difficulty, req.OlympiadLevel);
+                    var reservation = await _subs.TryReserveAiGenerationAsync(
+                        user.UserId, req.Grade, req.Subject, req.Difficulty, shortfall, model, ct);
+
+                    if (reservation.Approved)
+                    {
+                        _log.LogInformation(
+                            "Bank short by {Count} of {Requested} for {Subject} G{Grade} {Difficulty} — calling AI ({Model}, reserved {Credits}cr/${Dollars}, olympiad={OlympiadId})",
+                            shortfall, req.Count, req.Subject, req.Grade, req.Difficulty, model,
+                            reservation.CreditsReserved, reservation.DollarsReserved, req.OlympiadId ?? "open");
+
+                        var genResult = await _ai.GenerateQuestionsAsync(
+                            req.Subject, req.Grade, req.Difficulty, shortfall, req.Topic, ct, req.OlympiadLevel, req.OlympiadId);
+
+                        var actualCost = AiPricing.ActualCost(genResult.Model, genResult.PromptTokens, genResult.CompletionTokens);
+                        await _subs.ReconcileAiGenerationAsync(
+                            user.UserId, req.Difficulty, shortfall, genResult.Questions.Count,
+                            reservation.DollarsReserved, actualCost, ct);
+
+                        if (genResult.Questions.Count > 0)
+                        {
+                            ShuffleOptions(genResult.Questions);
+                            finalQuestions.AddRange(genResult.Questions);
+                            aiWasUsed = true;
+
+                            // Flywheel: bank them so the next request for this slice costs nothing.
+                            foreach (var q in genResult.Questions)
+                                SaveAiQuestionToBank(q, req.Subject, req.Grade, req.Difficulty);
+                        }
+                    }
+                    else
+                    {
+                        _log.LogInformation(
+                            "AI generation skipped for {Subject} G{Grade} {Difficulty}: {Reason}",
+                            req.Subject, req.Grade, req.Difficulty, reservation.DenialReason);
+                    }
                 }
 
                 if (finalQuestions.Count == 0)
@@ -160,7 +171,10 @@ public class PapersController : ControllerBase
                 questions = finalQuestions.OrderBy(q => Guid.NewGuid()).Take(req.Count).ToList();
                 jsonContent = JsonSerializer.Serialize(questions);
 
-                await _subs.RecordOnlineTestGenerationAsync(user.UserId, req.Grade, req.Subject, useHybridAi, req.Difficulty, ct);
+                // Charge an AI credit only when the API was actually called and returned
+                // questions. Previously this passed the user's entitlement, so a paper served
+                // entirely from the bank still burned credits.
+                await _subs.RecordOnlineTestGenerationAsync(user.UserId, req.Grade, req.Subject, aiWasUsed, req.Difficulty, ct);
             }
 
             var paper = new QuestionPaper

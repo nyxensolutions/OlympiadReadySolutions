@@ -122,10 +122,6 @@ public class MockExamsController : ControllerBase
             _            => "Advanced"
         };
 
-        // Mock exams draw on the same account-wide AI credit budget; Olympiad complexity
-        // costs more credits (it runs on the pricier model). Pass complexity so the gate
-        // and the recorded cost reflect the real spend.
-        bool useHybridAi = await _subs.ShouldUseHybridAiAsync(user.UserId, req.Grade, req.Subject, complexity, ct);
         bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) ||
                              user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
 
@@ -152,8 +148,9 @@ public class MockExamsController : ControllerBase
         var sectionDbQuestions = new List<List<Question>>();
         foreach (var section in req.Sections)
         {
-            int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(section.Questions, 10) : 0;
-            int dbCount = section.Questions - aiCount;
+            // Fill the whole section from the bank. AI is a fallback for what the bank
+            // cannot supply, decided per section in Phase 2 — not a slice reserved up front.
+            int dbCount = section.Questions;
             var sectionQuestions = new List<Question>();
 
             if (dbCount > 0)
@@ -201,34 +198,60 @@ public class MockExamsController : ControllerBase
         }
 
         // ── Phase 2: fire all AI calls in parallel ──
-        var aiTasks = req.Sections.Select((section, i) =>
+        //
+        // Each section reserves its own credit/dollar cost before calling AI. Sections run
+        // concurrently via Task.WhenAll, but the reservation is a single atomic SQL UPDATE
+        // (see SubscriptionService.TryReserveAiGenerationAsync) — SQL Server serialises
+        // concurrent writes to the same user row, so two sections reserving at the same
+        // instant still correctly see each other's committed spend rather than racing.
+        var aiTasks = req.Sections.Select(async (section, i) =>
         {
-            int aiCount = (useHybridAi && !isTestAccount) ? Math.Min(section.Questions, 10) : 0;
+            // Only generate what the bank could not fill. The old Math.Max(aiCount, shortfall)
+            // meant a section the bank had covered completely still triggered an API call —
+            // once per section, in parallel, on every mock exam.
             int shortfall = section.Questions - sectionDbQuestions[i].Count;
-            int totalAiNeeded = Math.Max(aiCount, shortfall);
-
-            if (totalAiNeeded <= 0)
-                return Task.FromResult<List<Question>>(new List<Question>());
+            if (shortfall <= 0 || isTestAccount)
+                return (Questions: new List<Question>(), AiWasUsed: false);
 
             // L2 always generates Olympiad-level questions regardless of section difficulty
             var aiDifficulty = isLevel2 ? "Olympiad" : section.Difficulty;
+            var model = _ai.ModelForDifficulty(aiDifficulty, req.Level);
 
-            _log.LogInformation("Parallel AI call: {Count} {Diff} questions for section '{Section}' ({Subject} G{Grade})",
-                totalAiNeeded, aiDifficulty, section.Name, req.Subject, req.Grade);
+            var reservation = await _subs.TryReserveAiGenerationAsync(
+                user.UserId, req.Grade, req.Subject, aiDifficulty, shortfall, model, ct);
 
-            return _ai.GenerateQuestionsAsync(
-                req.Subject, req.Grade, aiDifficulty, totalAiNeeded, null, ct, req.Level, req.OlympiadId);
+            if (!reservation.Approved)
+            {
+                _log.LogInformation("Section '{Section}' AI skipped ({Subject} G{Grade}): {Reason}",
+                    section.Name, req.Subject, req.Grade, reservation.DenialReason);
+                return (Questions: new List<Question>(), AiWasUsed: false);
+            }
+
+            _log.LogInformation(
+                "Parallel AI call: {Count} {Diff} questions for section '{Section}' ({Subject} G{Grade}, {Model}, reserved {Credits}cr/${Dollars})",
+                shortfall, aiDifficulty, section.Name, req.Subject, req.Grade, model,
+                reservation.CreditsReserved, reservation.DollarsReserved);
+
+            var genResult = await _ai.GenerateQuestionsAsync(
+                req.Subject, req.Grade, aiDifficulty, shortfall, null, ct, req.Level, req.OlympiadId);
+
+            var actualCost = AiPricing.ActualCost(genResult.Model, genResult.PromptTokens, genResult.CompletionTokens);
+            await _subs.ReconcileAiGenerationAsync(
+                user.UserId, aiDifficulty, shortfall, genResult.Questions.Count,
+                reservation.DollarsReserved, actualCost, ct);
+
+            return (Questions: genResult.Questions, AiWasUsed: genResult.Questions.Count > 0);
         }).ToList();
 
         var allAiResults = await Task.WhenAll(aiTasks);
-        bool aiUsed = allAiResults.Any(r => r is { Count: > 0 });
+        bool aiUsed = allAiResults.Any(r => r.AiWasUsed);
 
         // ── Phase 3: merge DB + AI results, persist new AI questions, DB-fill any remaining gap ──
         for (int i = 0; i < req.Sections.Count; i++)
         {
             var section = req.Sections[i];
             var sectionQuestions = sectionDbQuestions[i];
-            var aiQuestions = allAiResults[i] ?? new List<Question>();
+            var aiQuestions = allAiResults[i].Questions;
 
             sectionQuestions.AddRange(aiQuestions);
 

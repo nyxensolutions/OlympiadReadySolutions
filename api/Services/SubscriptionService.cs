@@ -19,7 +19,7 @@ public class SubscriptionService
     // Retained for backward-compat/analytics on the per-subscription counter; no longer the AI gate.
     public const int PaidAiGenerationLimit = 50;
 
-    // --- Account-wide AI credit budget (the real cost guard) ---
+    // --- Account-wide AI credit budget (the product-facing quota) ---
     // Budget scales with how many subjects the account has unlocked, capped so the
     // "All Subjects" bundle can't multiply AI spend by the number of subjects.
     public const int CreditsPerSubject = 30;
@@ -29,17 +29,37 @@ public class SubscriptionService
     public const int StandardCreditCost = 1;
     private const int AiPeriodDays = 30;
 
-    /// <summary>Credits a single generation consumes, based on difficulty.</summary>
-    public static int AiCreditCostForDifficulty(string? difficulty) =>
-        string.Equals(difficulty, "Olympiad", StringComparison.OrdinalIgnoreCase)
+    // A credit charges per QuestionsPerCreditUnit questions, not per request. A flat per-request
+    // cost let a 50-question paper cost the same as a 5-question one despite ~10x the tokens —
+    // this closes that gap.
+    public const int QuestionsPerCreditUnit = 10;
+
+    // --- Hard dollar ceiling (the real cost guard) ---
+    // Independent of the credit budget above. Credits are calibrated against assumptions about
+    // token usage; this is enforced against real spend, computed from actual OpenAI token
+    // counts via AiPricing. If the credit calibration is ever wrong — a prompt change, a model
+    // repricing, a pathological response — this is what actually stops the bleeding.
+    public const decimal DefaultMonthlyDollarCap = 2.00m;
+
+    /// <summary>Credit cost for a generation of the given size at the given difficulty.</summary>
+    public static int AiCreditCost(string? difficulty, int questionCount)
+    {
+        var units = Math.Max(1, (int)Math.Ceiling(questionCount / (double)QuestionsPerCreditUnit));
+        var perUnit = string.Equals(difficulty, "Olympiad", StringComparison.OrdinalIgnoreCase)
             ? OlympiadCreditCost
             : StandardCreditCost;
+        return units * perUnit;
+    }
 
     private readonly AppDbContext _db;
+    private readonly decimal _monthlyDollarCap;
 
-    public SubscriptionService(AppDbContext db)
+    public SubscriptionService(AppDbContext db, IConfiguration config)
     {
         _db = db;
+        _monthlyDollarCap = decimal.TryParse(config["OpenAi:MonthlyDollarCapPerUser"], out var cap)
+            ? cap
+            : DefaultMonthlyDollarCap;
     }
 
     /// <summary>
@@ -116,43 +136,106 @@ public class SubscriptionService
         return Math.Min(activeSubjects * CreditsPerSubject, MaxMonthlyAiCredits);
     }
 
-    /// <summary>Resets the rolling 30-day credit window in-memory if it has elapsed.</summary>
-    private static void EnsureCurrentAiPeriod(User user)
-    {
-        var now = DateTime.UtcNow;
-        if (user.AiPeriodStart == default || (now - user.AiPeriodStart).TotalDays >= AiPeriodDays)
-        {
-            user.AiPeriodStart = now;
-            user.AiCreditsUsed = 0;
-        }
-    }
-
     /// <summary>
-    /// Determines whether the generation should use the Hybrid Engine (hitting the AI API)
-    /// or silently fall back to the static question bank. AI runs only when the account both
-    /// owns the subject AND has enough credits left this period to cover this generation.
+    /// Result of an AI-spend reservation attempt. <see cref="Approved"/> reflects a single
+    /// atomic database check — no separate confirmation step exists to race against it.
     /// </summary>
-    public async Task<bool> ShouldUseHybridAiAsync(Guid userId, int grade, string subject, string difficulty, CancellationToken ct = default)
+    public class AiReservation
     {
-        // School pilot students get AI access without requiring a paid subscription.
-        bool isPilot = await IsSchoolPilotActiveAsync(userId, ct);
+        public bool Approved { get; init; }
+        public int CreditsReserved { get; init; }
+        public decimal DollarsReserved { get; init; }
+        public string? DenialReason { get; init; }
 
-        if (!isPilot && !await HasUnlockedSubjectAsync(userId, grade, subject, ct))
-            return false;
-
-        var user = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
-        if (user is null) return false;
-
-        // Roll the window forward if it has expired (persisted when the generation is recorded).
-        EnsureCurrentAiPeriod(user);
-
-        int budget = await GetMonthlyAiBudgetAsync(userId, ct);
-        int cost = AiCreditCostForDifficulty(difficulty);
-        return user.AiCreditsUsed + cost <= budget;
+        public static readonly AiReservation Denied = new() { Approved = false, DenialReason = "not entitled" };
     }
 
     /// <summary>
-    /// Records that an online test was generated, incrementing the appropriate quotas.
+    /// Atomically reserves both the credit cost and an estimated dollar cost for a generation,
+    /// in one database round trip, before the (slow, expensive) API call is made.
+    ///
+    /// This exists because the previous design checked the credit budget, then made the API
+    /// call — which measured 45 to 214 seconds in testing — and only deducted credits once it
+    /// returned. Two concurrent requests could both read "budget available" before either
+    /// wrote back, so the 90-credit cap was advisory under concurrency, not a hard limit. A
+    /// single conditional UPDATE closes that: the row lock SQL Server takes for the write
+    /// serialises concurrent callers, so the second of two simultaneous requests sees the
+    /// first's reservation and is correctly refused if it would exceed the budget.
+    ///
+    /// The dollar reservation is the actual financial backstop — see
+    /// <see cref="DefaultMonthlyDollarCap"/> — and is checked in the same statement, so neither
+    /// guard can be satisfied while the other is bypassed.
+    ///
+    /// Call <see cref="ReconcileAiGenerationAsync"/> once the real outcome is known, whether
+    /// the call succeeded, returned fewer questions than requested, or failed outright — an
+    /// approved reservation that is never reconciled overstates the account's spend forever.
+    /// </summary>
+    public async Task<AiReservation> TryReserveAiGenerationAsync(
+        Guid userId, int grade, string subject, string difficulty, int questionCount,
+        string model, CancellationToken ct = default)
+    {
+        bool isPilot = await IsSchoolPilotActiveAsync(userId, ct);
+        if (!isPilot && !await HasUnlockedSubjectAsync(userId, grade, subject, ct))
+            return AiReservation.Denied;
+
+        // Idempotent period rollover. Safe to race: at worst two concurrent requests both reset
+        // an already-expired period, which is a harmless no-op the second time.
+        await _db.Database.ExecuteSqlInterpolatedAsync($@"
+            UPDATE Users SET AiCreditsUsed = 0, AiDollarsSpent = 0, AiPeriodStart = GETUTCDATE()
+            WHERE UserId = {userId}
+              AND (AiPeriodStart IS NULL OR DATEDIFF(day, AiPeriodStart, GETUTCDATE()) >= {AiPeriodDays})",
+            ct);
+
+        var creditCost = AiCreditCost(difficulty, questionCount);
+        var dollarEstimate = AiPricing.EstimateCost(model, questionCount);
+        var creditBudget = await GetMonthlyAiBudgetAsync(userId, ct);
+
+        var rows = await _db.Database.ExecuteSqlInterpolatedAsync($@"
+            UPDATE Users
+            SET AiCreditsUsed = AiCreditsUsed + {creditCost},
+                AiDollarsSpent = AiDollarsSpent + {dollarEstimate}
+            WHERE UserId = {userId}
+              AND AiCreditsUsed + {creditCost} <= {creditBudget}
+              AND AiDollarsSpent + {dollarEstimate} <= {_monthlyDollarCap}",
+            ct);
+
+        if (rows == 0)
+            return new AiReservation { Approved = false, DenialReason = "credit or dollar budget exceeded" };
+
+        return new AiReservation { Approved = true, CreditsReserved = creditCost, DollarsReserved = dollarEstimate };
+    }
+
+    /// <summary>
+    /// True up a reservation against the real outcome: refunds credits for any questions that
+    /// were reserved but not delivered, and corrects the dollar ledger from the estimate to the
+    /// actual cost computed from real token usage. Safe to call with
+    /// <paramref name="actualQuestionsReturned"/> = 0 and <paramref name="actualDollarCost"/> =
+    /// 0 for a failed call — that fully refunds the reservation.
+    /// </summary>
+    public async Task ReconcileAiGenerationAsync(
+        Guid userId, string difficulty, int reservedQuestionCount, int actualQuestionsReturned,
+        decimal reservedDollars, decimal actualDollarCost, CancellationToken ct = default)
+    {
+        var reservedCredits = AiCreditCost(difficulty, reservedQuestionCount);
+        var actualCredits = actualQuestionsReturned > 0 ? AiCreditCost(difficulty, actualQuestionsReturned) : 0;
+        var creditRefund = Math.Max(0, reservedCredits - actualCredits);
+        var dollarDelta = actualDollarCost - reservedDollars; // may be negative (refund) or positive (true-up)
+
+        await _db.Database.ExecuteSqlInterpolatedAsync($@"
+            UPDATE Users
+            SET AiCreditsUsed  = CASE WHEN AiCreditsUsed  - {creditRefund} < 0 THEN 0 ELSE AiCreditsUsed  - {creditRefund} END,
+                AiDollarsSpent = CASE WHEN AiDollarsSpent + {dollarDelta}  < 0 THEN 0 ELSE AiDollarsSpent + {dollarDelta}  END
+            WHERE UserId = {userId}", ct);
+    }
+
+    /// <summary>
+    /// Records that an online test was generated: the per-subject analytics counter when AI
+    /// was used, or the free-attempt counter when it wasn't and the account isn't on a pilot.
+    ///
+    /// Credit and dollar accounting no longer happens here — that is
+    /// <see cref="TryReserveAiGenerationAsync"/> and <see cref="ReconcileAiGenerationAsync"/>,
+    /// called around the AI call itself rather than after the fact, so the spend is gated
+    /// before the money is spent rather than merely logged afterwards.
     /// </summary>
     public async Task RecordOnlineTestGenerationAsync(Guid userId, int grade, string subject, bool usedHybridAi, string difficulty, CancellationToken ct = default)
     {
@@ -172,17 +255,7 @@ public class SubscriptionService
         if (subscription != null)
         {
             if (usedHybridAi)
-            {
-                // Per-subject counter retained for analytics; the account credit budget is the real gate.
                 subscription.AiGenerationsUsed++;
-
-                var paidUser = await _db.Users.FirstOrDefaultAsync(u => u.UserId == userId, ct);
-                if (paidUser != null)
-                {
-                    EnsureCurrentAiPeriod(paidUser);
-                    paidUser.AiCreditsUsed += AiCreditCostForDifficulty(difficulty);
-                }
-            }
         }
         else
         {
@@ -192,19 +265,8 @@ public class SubscriptionService
             if (user != null)
             {
                 bool pilotActive = user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value;
-                if (pilotActive)
-                {
-                    // Track AI credits for school pilot students without consuming free attempts
-                    if (usedHybridAi)
-                    {
-                        EnsureCurrentAiPeriod(user);
-                        user.AiCreditsUsed += AiCreditCostForDifficulty(difficulty);
-                    }
-                }
-                else
-                {
+                if (!pilotActive)
                     user.FreeAttemptsUsed++;
-                }
             }
         }
 

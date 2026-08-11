@@ -54,6 +54,7 @@ public class AppDbContext : DbContext
             e.Property(x => x.SubscriptionTier).HasMaxLength(50).HasDefaultValue("Free");
             e.Property(x => x.AiCreditsUsed).HasDefaultValue(0);
             e.Property(x => x.AiPeriodStart).HasDefaultValueSql("GETUTCDATE()");
+            e.Property(x => x.AiDollarsSpent).HasColumnType("decimal(10,4)").HasDefaultValue(0m);
             e.HasOne(x => x.School)
                 .WithMany(s => s.Students)
                 .HasForeignKey(x => x.SchoolId)

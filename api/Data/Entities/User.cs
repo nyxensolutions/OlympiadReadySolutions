@@ -33,6 +33,15 @@ public class User
     /// <summary>Start of the current 30-day AI-credit period. Rolls forward on first use after expiry.</summary>
     public DateTime AiPeriodStart { get; set; }
 
+    /// <summary>
+    /// Real dollars spent on AI generation in the current billing period, computed from actual
+    /// OpenAI token usage against the true per-model price — not the credit abstraction.
+    /// Enforced as an independent hard ceiling (<c>OpenAi:MonthlyDollarCapPerUser</c>) alongside
+    /// <see cref="AiCreditsUsed"/>, so a mis-calibrated credit cost can never turn into runaway
+    /// spend. Resets on the same rolling period as credits.
+    /// </summary>
+    public decimal AiDollarsSpent { get; set; }
+
     /// <summary>When the 7-day unlimited free trial expires. Set on first user creation.</summary>
     public DateTime? TrialExpiresAt { get; set; }
 
