@@ -71,6 +71,2026 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 60 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-4",
+    title: "IMO Sample Papers for Class 4: Topics, Patterns & Preparation Strategy",
+    description:
+      "Class 4 IMO sample papers reveal exactly what the exam tests and where students lose marks. This guide covers the topic distribution, the trickiest question types, and a practical preparation plan.",
+    date: "2026-08-17",
+    tag: "Maths",
+    readingMinutes: 7,
+    keywords: [
+      "IMO sample papers class 4",
+      "IMO previous year papers class 4",
+      "IMO class 4 preparation",
+      "international maths olympiad class 4",
+      "IMO class 4 question paper",
+    ],
+    excerpt:
+      "Class 4 IMO tests fractions, multiplication, geometry basics, and logical reasoning — all in 60 minutes. Sample papers are the best way to understand what the exam actually looks like.",
+    content: (
+      <>
+        <P>
+          Class 4 is when the IMO syllabus starts to feel genuinely challenging. Fractions, multi-step
+          word problems, geometry basics, and measurement all arrive in the same year. Students who have only
+          practised from their school textbook often find that Olympiad questions use the same concepts in
+          unfamiliar arrangements. Sample papers solve this problem &mdash; they show you exactly what the
+          IMO question-setter considers fair at Class 4.
+        </P>
+
+        <H2 id="paper-structure">Class 4 IMO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 10 questions</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions from the Class 4 maths syllabus</LI>
+          <LI><B>Everyday Mathematics:</B> 5 word problems applying Class 4 concepts to real-world situations</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 3 marks each (Class 5 difficulty)</LI>
+        </UL>
+        <P>Total: 40 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Topic distribution in Class 4 IMO sample papers</H2>
+        <UL>
+          <LI><B>Fractions (basic):</B> 4&ndash;5 questions &mdash; comparing fractions, equivalent fractions, adding/subtracting with same denominators</LI>
+          <LI><B>Multiplication and division:</B> 4&ndash;5 questions &mdash; multi-digit multiplication, division with remainders, word problems</LI>
+          <LI><B>Large numbers:</B> 3&ndash;4 questions &mdash; place value, comparing and ordering, rounding</LI>
+          <LI><B>Geometry (lines and shapes):</B> 3&ndash;4 questions &mdash; types of lines, basic 2D shapes, symmetry</LI>
+          <LI><B>Measurement (length, weight, capacity):</B> 3&ndash;4 questions &mdash; unit conversion, reading scales</LI>
+          <LI><B>Time and money:</B> 2&ndash;3 questions</LI>
+          <LI><B>Patterns and sequences:</B> 2&ndash;3 questions in both the reasoning and maths sections</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions &mdash; series completion, odd-one-out, mirror images, patterns</LI>
+        </UL>
+        <Callout>
+          <B>Fractions and multi-step word problems cause the most errors</B> in Class 4 IMO papers.
+          Students often know the concept but misread the question or skip a step. Practise reading
+          each word problem twice before solving &mdash; this single habit reduces careless errors significantly.
+        </Callout>
+
+        <H2 id="achievers-at-class4">Achievers section at Class 4</H2>
+        <P>
+          The Achievers section at Class 4 typically draws from the Class 5 syllabus &mdash; mainly
+          introduction to decimals, more complex fraction operations, and area/perimeter problems with
+          non-standard shapes. Students aiming for Level 2 should spend 2&ndash;3 weeks studying these
+          ahead-of-grade topics specifically.
+        </P>
+        <P>Common Achievers question types:</P>
+        <UL>
+          <LI>A word problem requiring two operations in sequence (multiply, then divide by a different number)</LI>
+          <LI>A pattern that requires identifying the rule before applying it to find a missing term</LI>
+          <LI>A measurement conversion question with an unusual unit pairing</LI>
+          <LI>A geometry question about symmetry or properties of shapes that goes beyond the Class 4 textbook</LI>
+        </UL>
+
+        <H2 id="preparation-strategy">Preparation strategy using sample papers</H2>
+        <OL>
+          <LIo><B>Attempt a cold paper first:</B> Before studying any extra material, sit one complete sample paper under exam conditions. Note every wrong answer and which topic it came from.</LIo>
+          <LIo><B>Practise fractions separately:</B> This is the most tested topic at Class 4 and the one most students are weakest in at Olympiad question depth. Do 20&ndash;30 fraction questions from Olympiad practice sets.</LIo>
+          <LIo><B>Reasoning section practice:</B> 10 reasoning questions need consistent practice. Patterns and mirror images are the most common types at Class 4. Practise these as a separate set.</LIo>
+          <LIo><B>Timed paper practice:</B> In the 2 weeks before the exam, do one complete timed paper every 3 days. Focus on finishing in 55 minutes to leave review time.</LIo>
+        </OL>
+
+        <CTA>Practise Class 4 IMO questions by topic with instant explanations &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important for IMO Class 4?",
+        a: "Fractions, multi-digit multiplication and division, large number place value, basic geometry (lines and shapes), and measurement conversions are the most frequently tested topics. Fractions and multi-step word problems appear most often in the Achievers section."
+      },
+      {
+        q: "How many questions are in the IMO Class 4 paper?",
+        a: "40 questions in 60 minutes: 10 Logical Reasoning, 20 Mathematical Reasoning, 5 Everyday Mathematics (word problems), and 5 Achievers questions worth 3 marks each. No negative marking."
+      },
+      {
+        q: "What level of difficulty is the IMO Class 4 Achievers section?",
+        a: "The Achievers section at Class 4 draws from the Class 5 syllabus — mainly decimals introduction, more complex fraction operations, and area/perimeter of non-standard shapes. Students need to study slightly ahead of their current class syllabus to score well here."
+      },
+      {
+        q: "How many sample papers should a Class 4 student practise for IMO?",
+        a: "4–6 complete sample papers is the right range for most Class 4 students. Start with one diagnostic paper, use the results to prioritise topic study, then practise 3–5 more papers under timed conditions in the final 3 weeks before the exam."
+      }
+    ]
+  },
+
+  /* 61 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-5",
+    title: "IMO Sample Papers for Class 5: Complete Topic Guide and Preparation Plan",
+    description:
+      "Class 5 is the final year of the 35-question IMO paper before the step up to 50 questions. Sample papers at this level introduce decimals, factors, and basic geometry problems. This guide covers everything you need to prepare effectively.",
+    date: "2026-08-17",
+    tag: "Maths",
+    readingMinutes: 7,
+    keywords: [
+      "IMO sample papers class 5",
+      "IMO previous year papers class 5",
+      "IMO class 5 preparation",
+      "international maths olympiad class 5",
+      "IMO class 5 question paper with solutions",
+    ],
+    excerpt:
+      "Class 5 IMO introduces decimals, HCF/LCM, and perimeter/area — topics that appear heavily in sample papers. Here is the full breakdown and preparation plan.",
+    content: (
+      <>
+        <P>
+          Class 5 is a pivotal IMO year. The 35-question paper format is the same as Classes 1&ndash;4,
+          but the topics are significantly more demanding &mdash; decimals, factors and multiples, HCF and LCM,
+          percentage introduction, and area/perimeter all enter the syllabus. Students who have coasted through
+          the earlier classes often find Class 5 is where preparation needs to become more systematic.
+          Sample papers are the most efficient way to identify exactly which new topics need the most attention.
+        </P>
+
+        <H2 id="paper-structure">Class 5 IMO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 10 questions</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions</LI>
+          <LI><B>Everyday Mathematics:</B> 5 word problems</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 35 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Key topics in Class 5 IMO sample papers</H2>
+        <UL>
+          <LI><B>Decimals:</B> 4&ndash;6 questions &mdash; the most heavily tested new topic at Class 5. Includes comparing decimals, operations, and place value in decimal form</LI>
+          <LI><B>Factors and multiples / HCF and LCM:</B> 3&ndash;5 questions &mdash; finding HCF/LCM, word problems using LCM (when two events coincide)</LI>
+          <LI><B>Fractions (extended):</B> 3&ndash;4 questions &mdash; unlike fractions, mixed numbers, fraction-decimal conversion</LI>
+          <LI><B>Area and perimeter:</B> 3&ndash;4 questions including composite shapes</LI>
+          <LI><B>Large numbers and operations:</B> 3&ndash;4 questions</LI>
+          <LI><B>Percentage (introduction):</B> 2&ndash;3 questions</LI>
+          <LI><B>Volume (introduction):</B> 2&ndash;3 questions &mdash; cubes and cuboids</LI>
+          <LI><B>Geometry:</B> 2&ndash;3 questions &mdash; angles introduction, types of triangles and quadrilaterals</LI>
+          <LI><B>Data handling:</B> 2 questions &mdash; reading bar graphs and pictographs</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions covering series, analogies, coding-decoding, and mirror images</LI>
+        </UL>
+        <Callout>
+          <B>Decimals are the most important topic to master at Class 5.</B> They appear in 4&ndash;6 questions
+          directly and also affect fraction-decimal conversion questions and word problems. Students who are
+          not fully comfortable with decimal place value consistently underperform in Class 5 IMO sample papers
+          even when they know all other topics well.
+        </Callout>
+
+        <H2 id="achievers-patterns">Achievers section at Class 5</H2>
+        <P>
+          Class 5 Achievers questions typically draw from the Class 6 syllabus. Common types:
+        </P>
+        <UL>
+          <LI>An HCF/LCM word problem with three numbers instead of two</LI>
+          <LI>A percentage problem with a reverse calculation (finding the original value given the percentage result)</LI>
+          <LI>A composite area/perimeter problem with an unusual shape configuration</LI>
+          <LI>An introduction to integers (negative numbers) &mdash; ordering or basic operations</LI>
+          <LI>A ratio or proportion problem at Class 6 difficulty</LI>
+        </UL>
+
+        <H2 id="preparation-plan">6-week preparation plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Diagnostic paper. Identify weak topics. Master decimal operations &mdash; 20 practice questions on decimals specifically.</LI>
+          <LI><B>Week 2:</B> HCF, LCM, factors, multiples &mdash; include word problems (two events coinciding). This is the second most tested area.</LI>
+          <LI><B>Week 3:</B> Fractions extended (unlike fractions, mixed numbers, fraction-decimal conversion), area and perimeter of composite shapes.</LI>
+          <LI><B>Week 4:</B> Percentage basics, volume, data handling. Reasoning section &mdash; series and coding-decoding practice.</LI>
+          <LI><B>Week 5:</B> Achievers section prep &mdash; Class 6 topics. Timed full paper.</LI>
+          <LI><B>Week 6:</B> Two complete timed papers. Error review. No new topics.</LI>
+        </UL>
+
+        <CTA>Practise Class 5 IMO questions with topic-wise practice sets and full sample papers &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the most important topic in IMO Class 5?",
+        a: "Decimals — they appear in 4–6 questions directly and affect fraction-decimal conversion and word problems as well. HCF and LCM are a close second, appearing in 3–5 questions including word problems about events coinciding."
+      },
+      {
+        q: "How is IMO Class 5 different from Class 4?",
+        a: "Class 5 introduces several major new topics: decimals, HCF and LCM, percentage basics, volume of cuboids, and angles/triangle types in geometry. The question depth also increases — word problems at Class 5 are more multi-step than Class 4. The paper format (35 questions, 60 minutes) stays the same."
+      },
+      {
+        q: "What does the IMO Class 5 Achievers section test?",
+        a: "Achievers questions at Class 5 draw from the Class 6 syllabus — HCF/LCM with three numbers, reverse percentage calculations, introduction to integers (negative numbers), ratio and proportion, and composite area/perimeter with complex shapes."
+      },
+      {
+        q: "How should a Class 5 student divide preparation time for IMO?",
+        a: "Spend roughly 40% of preparation time on decimals and HCF/LCM (the two highest-weighted topics), 30% on fractions, area/perimeter, and percentage, 20% on reasoning section practice, and 10% on Achievers-level ahead-of-grade topics. This weighting reflects the actual mark distribution in Class 5 IMO papers."
+      }
+    ]
+  },
+
+  /* 62 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-7",
+    title: "IMO Sample Papers for Class 7: Algebra, Geometry & What to Expect",
+    description:
+      "IMO Class 7 is where algebra and geometry both become major portions of the paper. This guide covers the topic distribution, the hardest question types in sample papers, and a preparation strategy built around what actually appears in the exam.",
+    date: "2026-08-17",
+    tag: "Maths",
+    readingMinutes: 8,
+    keywords: [
+      "IMO sample papers class 7",
+      "IMO previous year papers class 7",
+      "IMO class 7 preparation",
+      "international maths olympiad class 7",
+      "IMO class 7 question paper with solutions",
+    ],
+    excerpt:
+      "Class 7 IMO introduces proper algebra and triangle geometry. Sample papers show exactly how these topics are tested — here is the complete breakdown.",
+    content: (
+      <>
+        <P>
+          Class 7 is the year the IMO paper shifts character. Arithmetic still appears, but algebra &mdash;
+          linear equations, simple expressions, ratio and proportion &mdash; now forms a major portion of the
+          paper. Triangle geometry (congruence, properties, constructions) also enters with meaningful weight.
+          Students who have strong arithmetic but have not studied Class 7 algebra yet will find the Class 7
+          paper significantly harder than Class 6. Sample papers make this syllabus gap visible early.
+        </P>
+
+        <H2 id="paper-structure">Class 7 IMO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions from the Class 7 maths syllabus</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Topic distribution in Class 7 IMO sample papers</H2>
+        <UL>
+          <LI><B>Integers (advanced):</B> 3&ndash;4 questions &mdash; operations, properties, word problems with negative numbers</LI>
+          <LI><B>Fractions and decimals (extended):</B> 3&ndash;4 questions &mdash; operations with rational numbers, comparison</LI>
+          <LI><B>Simple equations (algebra):</B> 4&ndash;5 questions &mdash; solving one-variable linear equations, forming equations from word problems</LI>
+          <LI><B>Ratio, proportion, and percentage:</B> 4&ndash;5 questions &mdash; profit/loss, simple interest, unitary method</LI>
+          <LI><B>Lines and angles:</B> 3&ndash;4 questions &mdash; angle relationships, parallel lines with transversal</LI>
+          <LI><B>Triangle properties:</B> 3&ndash;4 questions &mdash; angle sum, exterior angle theorem, congruence (SSS, SAS, ASA)</LI>
+          <LI><B>Perimeter and area:</B> 3&ndash;4 questions &mdash; triangles, quadrilaterals, composite figures</LI>
+          <LI><B>Data handling:</B> 2&ndash;3 questions &mdash; mean, median, mode; bar and circle graphs</LI>
+          <LI><B>Algebraic expressions:</B> 2&ndash;3 questions &mdash; simplification, substitution, like/unlike terms</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions including seating arrangements, blood relations, and direction sense at Class 7 level</LI>
+        </UL>
+        <Callout>
+          <B>Simple equations and triangle properties are the two topics that most determine Class 7 IMO rank.</B>
+          They appear in the Achievers section consistently and reward students who understand the concept
+          rather than those who have only memorised procedures. A student who can form an equation from a
+          word problem and a student who understands the exterior angle theorem will outperform those
+          who only know the mechanical steps.
+        </Callout>
+
+        <H2 id="achievers-patterns">Achievers section patterns at Class 7</H2>
+        <UL>
+          <LI>A complex ratio/proportion problem requiring multiple steps (e.g., three quantities in compound ratio)</LI>
+          <LI>A triangle problem requiring application of both angle sum and exterior angle theorem</LI>
+          <LI>An algebraic expression question requiring substitution and simplification in two steps</LI>
+          <LI>A data interpretation question with a graph and a calculation (mean or percentage change)</LI>
+          <LI>A word problem requiring equation formation where the unknown is embedded in a realistic scenario</LI>
+        </UL>
+
+        <H2 id="preparation-strategy">Preparation strategy</H2>
+        <OL>
+          <LIo><B>Algebra first:</B> Simple equations is the highest-value new topic at Class 7. Master equation formation from word problems &mdash; this is the skill that distinguishes Achievers scorers.</LIo>
+          <LIo><B>Triangle geometry:</B> Learn angle sum theorem, exterior angle theorem, and all three congruence criteria (SSS, SAS, ASA) with proof-based understanding, not just rules.</LIo>
+          <LIo><B>Ratio/proportion application:</B> Profit/loss and simple interest word problems are consistently tested. Practise 15&ndash;20 problems of each type.</LIo>
+          <LIo><B>Reasoning section:</B> 15 reasoning questions at Class 7 include seating arrangements and blood relations for the first time. Practise these specifically &mdash; they are the most time-consuming reasoning types.</LIo>
+          <LIo><B>Timed practice:</B> 50 questions in 60 minutes is tight. Time management matters from Class 7. Aim to finish in 55 minutes during practice.</LIo>
+        </OL>
+
+        <CTA>Practise Class 7 IMO questions by topic &mdash; algebra, geometry, reasoning, and more with full solutions. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important for IMO Class 7?",
+        a: "Simple equations (algebra), triangle properties (angle sum, exterior angle, congruence), and ratio/proportion with profit/loss and simple interest applications. These three areas together account for roughly 40% of the marks and are the most consistently tested Achievers-section topics."
+      },
+      {
+        q: "How many questions are in the IMO Class 7 paper?",
+        a: "50 questions in 60 minutes: 15 Logical Reasoning, 20 Mathematical Reasoning, 10 Everyday Mathematics word problems, and 5 Achievers questions worth 3 marks each. This is the same format as Classes 6–10."
+      },
+      {
+        q: "What makes Class 7 IMO harder than Class 6?",
+        a: "The introduction of proper algebra (linear equations) and formal triangle geometry (congruence criteria, angle theorems). These topics require understanding of mathematical reasoning, not just arithmetic skill. Students who have strong Class 6 maths but haven't studied the Class 7 syllabus will find these sections difficult."
+      },
+      {
+        q: "How should I approach the reasoning section in Class 7 IMO?",
+        a: "Class 7 introduces seating arrangements and blood relations to the reasoning section — both are time-intensive question types. Practise these separately before the exam. During the paper, attempt reasoning questions last if you find them slow, to ensure you complete the mathematical sections first."
+      }
+    ]
+  },
+
+  /* 63 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-10",
+    title: "IMO Sample Papers for Class 10: Topics, Difficulty & Achievers Strategy",
+    description:
+      "IMO Class 10 is the most mathematically demanding school Olympiad paper in the IMO series. This guide covers the topic distribution across coordinate geometry, quadratics, circles, and trigonometry, and how to prepare for the Achievers section.",
+    date: "2026-08-17",
+    tag: "Maths",
+    readingMinutes: 9,
+    keywords: [
+      "IMO sample papers class 10",
+      "IMO previous year papers class 10",
+      "IMO class 10 preparation",
+      "international maths olympiad class 10",
+      "IMO class 10 question paper with solutions",
+    ],
+    excerpt:
+      "IMO Class 10 covers quadratics, coordinate geometry, circles, trigonometry, and statistics in one 50-question paper. Sample papers are essential — here is how to use them.",
+    content: (
+      <>
+        <P>
+          IMO Class 10 is where school maths and competition maths overlap most directly. The syllabus
+          &mdash; quadratic equations, coordinate geometry, circles, trigonometry, arithmetic progressions,
+          surface areas and volumes, and statistics &mdash; is the heaviest of any IMO class. It also aligns
+          closely with the Class 10 board exam, which means IMO preparation can meaningfully strengthen board
+          performance when done right. Students who use sample papers strategically gain both Olympiad ranking
+          and board exam confidence.
+        </P>
+
+        <H2 id="paper-structure">Class 10 IMO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions from the Class 10 maths syllabus</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Topic distribution in Class 10 IMO sample papers</H2>
+        <UL>
+          <LI><B>Quadratic equations:</B> 4&ndash;6 questions &mdash; factorisation, quadratic formula, nature of roots (discriminant), word problems requiring equation formation</LI>
+          <LI><B>Coordinate geometry:</B> 4&ndash;5 questions &mdash; distance formula, section formula, area of triangle using coordinates, slope</LI>
+          <LI><B>Circles:</B> 4&ndash;5 questions &mdash; tangent properties, angle in a semicircle, chord properties, concyclic points</LI>
+          <LI><B>Trigonometry:</B> 4&ndash;5 questions &mdash; values of trigonometric ratios, identities, height and distance word problems</LI>
+          <LI><B>Arithmetic progressions:</B> 3&ndash;4 questions &mdash; nth term, sum of AP, word problems</LI>
+          <LI><B>Triangles (similarity):</B> 3&ndash;4 questions &mdash; Basic Proportionality Theorem, similarity criteria, areas of similar triangles</LI>
+          <LI><B>Surface areas and volumes:</B> 3&ndash;4 questions &mdash; combined solids, conversion between shapes</LI>
+          <LI><B>Statistics:</B> 2&ndash;3 questions &mdash; mean, median, mode for grouped data</LI>
+          <LI><B>Probability:</B> 2&ndash;3 questions &mdash; classical probability, complementary events</LI>
+          <LI><B>Polynomials:</B> 2&ndash;3 questions &mdash; relationship between zeroes and coefficients, division algorithm</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions including data sufficiency and logical deduction at Class 10 level</LI>
+        </UL>
+        <Callout>
+          <B>Quadratic equations and coordinate geometry are the two highest-priority topics for Class 10 IMO.</B>
+          Together they account for 8&ndash;11 questions and are the most consistently represented topics in the
+          Achievers section. Master these before allocating time to any other topic.
+        </Callout>
+
+        <H2 id="achievers-patterns">Achievers section at Class 10</H2>
+        <P>
+          Achievers questions at Class 10 are genuinely challenging. Common types:
+        </P>
+        <UL>
+          <LI>A quadratic equation formed from a geometric or number theory scenario, where forming the equation is the hard part</LI>
+          <LI>A coordinate geometry problem combining distance formula and section formula in a single problem</LI>
+          <LI>A circles problem requiring application of two or three circle theorems in sequence</LI>
+          <LI>A trigonometric identity proof or simplification that requires recognising which identity to apply first</LI>
+          <LI>A combined solid surface area/volume problem with a non-standard configuration</LI>
+        </UL>
+
+        <H2 id="board-exam-overlap">IMO and board exam overlap at Class 10</H2>
+        <P>
+          Class 10 IMO preparation and CBSE board exam preparation have the largest overlap of any class.
+          The entire mathematical content is shared &mdash; the difference is question depth. IMO questions
+          require more steps, more reasoning, and less formula-plugging than board questions on the same
+          topic. A student who prepares well for the IMO will find board exam maths questions straightforward.
+          The reverse is not necessarily true &mdash; strong board performance does not guarantee IMO
+          performance without specific Olympiad preparation.
+        </P>
+
+        <H2 id="preparation-plan">Preparation plan</H2>
+        <OL>
+          <LIo><B>Prioritise quadratics and coordinate geometry:</B> These two topics carry the most marks and appear most in the Achievers section. Master them before moving to other topics.</LIo>
+          <LIo><B>Build trigonometry from identities:</B> Memorise all standard identities, then practise using them to simplify complex expressions &mdash; this is the Olympiad skill, not just the values of sin/cos/tan.</LIo>
+          <LIo><B>Circles as a standalone unit:</B> Circle theorems require understanding, not memorisation. Study each theorem with proof and practise mixed problems requiring multiple theorems.</LIo>
+          <LIo><B>Statistics and probability:</B> These are the easiest marks in the paper. Do not neglect them &mdash; 15&ndash;20 practice questions secures these marks reliably.</LIo>
+          <LIo><B>Achievers block practice:</B> Extract Achievers sections from 4&ndash;5 past papers and practise as a focused 25-question set.</LIo>
+        </OL>
+
+        <CTA>Practise Class 10 IMO questions by topic &mdash; quadratics, coordinate geometry, trigonometry, and more. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important for IMO Class 10?",
+        a: "Quadratic equations and coordinate geometry are the highest-priority topics — together 8–11 questions and the most common Achievers section subjects. Circles, trigonometry, and arithmetic progressions are the next priority tier. Statistics and probability are easiest and should not be neglected."
+      },
+      {
+        q: "Does IMO Class 10 preparation help with board exams?",
+        a: "Yes — the content overlap is complete at Class 10. The difference is question depth: IMO requires more reasoning steps than board questions. A student who prepares for IMO will find board maths questions straightforward. Strong board preparation alone is not sufficient for IMO performance."
+      },
+      {
+        q: "How difficult is the IMO Class 10 Achievers section?",
+        a: "Very challenging — Achievers questions require multi-step reasoning and often combine two or three concepts in a single problem. Circle theorem combinations, quadratic equations formed from geometric scenarios, and trigonometric identity proofs are common Achievers types. Practise Achievers sections from 4–5 past papers as a dedicated preparation unit."
+      },
+      {
+        q: "What is the time pressure like in IMO Class 10?",
+        a: "Significant — 50 questions in 60 minutes means just over a minute per question. Class 10 mathematical questions take longer than questions at lower classes. Students who have not practised timed papers consistently underperform relative to their knowledge. Aim to complete practice papers in 55 minutes to build margin."
+      }
+    ]
+  },
+
+  /* 64 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-sample-papers-class-3",
+    title: "NSO Sample Papers for Class 3: Topics, Format & How to Prepare",
+    description:
+      "NSO Class 3 is an ideal first Olympiad for young science learners. This guide covers what the paper tests, how the questions are worded, the most common topic areas in sample papers, and a simple 4-week preparation plan.",
+    date: "2026-08-17",
+    tag: "Science",
+    readingMinutes: 6,
+    keywords: [
+      "NSO sample papers class 3",
+      "NSO previous year papers class 3",
+      "NSO class 3 preparation",
+      "national science olympiad class 3",
+      "NSO class 3 question paper",
+    ],
+    excerpt:
+      "NSO Class 3 is one of the best entry-point Olympiads for young students. Sample papers reveal the question style and topic focus — here is everything you need.",
+    content: (
+      <>
+        <P>
+          The National Science Olympiad (NSO) at Class 3 is many students&rsquo; first encounter with
+          competitive science. The questions are accessible but not trivial &mdash; they go beyond
+          simple recall and ask students to apply basic science concepts to familiar situations. The
+          paper format is structured to reward curiosity and observation as much as textbook knowledge.
+          Sample papers are the best way to understand what this looks like in practice.
+        </P>
+
+        <H2 id="paper-structure">Class 3 NSO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 5 questions</LI>
+          <LI><B>Science:</B> 25 questions from the Class 3 science syllabus</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 2 marks each</LI>
+        </UL>
+        <P>Total: 35 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Topics in Class 3 NSO sample papers</H2>
+        <UL>
+          <LI><B>Plants:</B> 4&ndash;5 questions &mdash; parts of a plant and their functions, types of plants, plants we eat</LI>
+          <LI><B>Animals:</B> 4&ndash;5 questions &mdash; animal habitats, what animals eat (herbivore/carnivore/omnivore), body coverings, movement</LI>
+          <LI><B>Food and nutrition:</B> 3&ndash;4 questions &mdash; types of food, balanced diet, food from plants and animals</LI>
+          <LI><B>Our body:</B> 3&ndash;4 questions &mdash; sense organs, bones and muscles, body parts and functions</LI>
+          <LI><B>Water:</B> 2&ndash;3 questions &mdash; uses of water, water cycle basics, sources of water</LI>
+          <LI><B>Air:</B> 2&ndash;3 questions &mdash; properties, uses, wind</LI>
+          <LI><B>Shelter, clothing, and transport:</B> 2&ndash;3 questions</LI>
+          <LI><B>Rocks, soil, and weather:</B> 2&ndash;3 questions</LI>
+          <LI><B>Logical Reasoning:</B> 5 questions &mdash; simple series, odd-one-out, basic analogies</LI>
+        </UL>
+        <Callout>
+          <B>Animal-related questions are the most frequently tested area in Class 3 NSO</B> across all
+          sample papers. Questions about habitats, diet types, and body coverings appear in almost every
+          paper. Prepare this topic thoroughly even if your child already knows it from class &mdash;
+          Olympiad questions go one level deeper than textbook questions on the same topic.
+        </Callout>
+
+        <H2 id="question-style">What NSO Class 3 questions look like</H2>
+        <P>
+          Unlike school test questions, NSO Class 3 questions often present a scenario and ask students
+          to reason from it:
+        </P>
+        <UL>
+          <LI>&ldquo;Riya found an animal with scales that lives near a river. Which group does it belong to?&rdquo;</LI>
+          <LI>&ldquo;A plant is growing towards the window. What does this tell us about plants?&rdquo;</LI>
+          <LI>&ldquo;Which of these foods gives us energy for running and playing?&rdquo;</LI>
+        </UL>
+        <P>
+          These questions require understanding, not just recall. A student who has only read the chapter
+          will sometimes get the right answer; a student who has thought about the concept will get it
+          reliably.
+        </P>
+
+        <H2 id="preparation-plan">4-week preparation plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Plants and animals &mdash; the two highest-weighted topics. Use diagrams and real-life examples alongside the textbook.</LI>
+          <LI><B>Week 2:</B> Food and nutrition, our body, sense organs. Draw a body diagram and label it together &mdash; visual learning works well at this age.</LI>
+          <LI><B>Week 3:</B> Water, air, shelter, weather. Discuss examples from daily life (water cycle, why we wear different clothes in different seasons).</LI>
+          <LI><B>Week 4:</B> One complete sample paper. Review wrong answers by discussing why the correct option is correct, not just marking the answer.</LI>
+        </UL>
+        <P>
+          For Class 3, the preparation process itself matters as much as the score. Students who develop
+          the habit of asking &ldquo;why?&rdquo; about science concepts at this age build the foundation
+          for strong Olympiad performance in all higher classes.
+        </P>
+
+        <CTA>Try Class 3 NSO practice questions with child-friendly explanations &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important for NSO Class 3?",
+        a: "Animals (habitats, diet types, body coverings) and plants (parts and functions, types) are the two most heavily tested topics. Together they account for 8–10 questions. Food and nutrition and our body are the next priority areas."
+      },
+      {
+        q: "How many questions are in the NSO Class 3 paper?",
+        a: "35 questions in 60 minutes: 5 Logical Reasoning, 25 Science, and 5 Achievers questions worth 2 marks each. The structure is the same as other lower-class NSO papers."
+      },
+      {
+        q: "Is NSO Class 3 suitable for first-time Olympiad participants?",
+        a: "Yes — NSO Class 3 is one of the best entry-point Olympiads. The science content is familiar from school, the questions are accessible, and there is no negative marking. More importantly, the reasoning-style questions introduce students to the Olympiad question format in a low-pressure way."
+      },
+      {
+        q: "How should I help my child prepare for NSO Class 3 at home?",
+        a: "Use real-life examples to discuss science concepts rather than just reading the textbook. For animals — discuss pets, birds, and animals you see outdoors. For plants — look at plants at home and discuss their parts. For food — categorise what you eat into energy foods, bodybuilding foods, and protective foods. This discussion-based approach is more effective than textbook study alone at this age."
+      }
+    ]
+  },
+
+  /* 65 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-sample-papers-class-5",
+    title: "NSO Sample Papers for Class 5: Complete Guide to Topics and Preparation",
+    description:
+      "NSO Class 5 is the last year with a 35-question paper before the format expands at Class 6. This guide covers what topics appear most in sample papers, how Achievers questions are structured, and the best preparation approach.",
+    date: "2026-08-17",
+    tag: "Science",
+    readingMinutes: 7,
+    keywords: [
+      "NSO sample papers class 5",
+      "NSO previous year papers class 5",
+      "NSO class 5 preparation",
+      "national science olympiad class 5",
+      "NSO class 5 question paper with solutions",
+    ],
+    excerpt:
+      "NSO Class 5 covers plants, animals, matter, force, and the solar system in 35 questions. Sample papers reveal the question patterns — here is the full guide.",
+    content: (
+      <>
+        <P>
+          Class 5 NSO is the final year of the smaller 35-question format. The science syllabus at Class 5
+          is broader than any previous year &mdash; it introduces matter and its states, force and simple
+          machines, rocks and the soil, and the solar system alongside biology topics like food chains
+          and human body systems. Students preparing for this paper for the first time often underestimate
+          how much new content needs to be covered. Sample papers calibrate expectations and reveal which
+          topics need the most preparation.
+        </P>
+
+        <H2 id="paper-structure">Class 5 NSO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 5 questions</LI>
+          <LI><B>Science:</B> 25 questions from the Class 5 science syllabus</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 2 marks each</LI>
+        </UL>
+        <P>Total: 35 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Topic distribution in Class 5 NSO sample papers</H2>
+        <UL>
+          <LI><B>Plants (food chains, photosynthesis):</B> 3&ndash;4 questions &mdash; food webs, producers/consumers/decomposers, photosynthesis process</LI>
+          <LI><B>Animals (adaptation, reproduction):</B> 3&ndash;4 questions &mdash; adaptation to habitats, reproduction in animals (oviparous/viviparous)</LI>
+          <LI><B>Human body:</B> 3&ndash;4 questions &mdash; skeletal system, digestive system, circulatory system basics</LI>
+          <LI><B>Matter and materials:</B> 3&ndash;4 questions &mdash; states of matter, properties of materials, reversible/irreversible changes</LI>
+          <LI><B>Force and simple machines:</B> 3&ndash;4 questions &mdash; types of force, simple machines and their uses (levers, pulleys, inclined planes)</LI>
+          <LI><B>Earth and environment:</B> 2&ndash;3 questions &mdash; soil types and composition, rocks, natural disasters</LI>
+          <LI><B>Solar system and space:</B> 2&ndash;3 questions &mdash; planets, stars, moon phases</LI>
+          <LI><B>Weather and water cycle:</B> 2 questions</LI>
+          <LI><B>Logical Reasoning:</B> 5 questions</LI>
+        </UL>
+        <Callout>
+          <B>Food chains and food webs are consistently the most application-heavy topic</B> in Class 5 NSO.
+          Questions go beyond &ldquo;name the producers&rdquo; &mdash; they present a scenario (one species removed
+          from the food web) and ask what happens to other populations. These scenario questions require
+          genuine understanding of how ecosystems work, not just label recall.
+        </Callout>
+
+        <H2 id="achievers-at-class5">Achievers section at Class 5</H2>
+        <P>
+          Class 5 Achievers questions draw from the Class 6 syllabus &mdash; primarily separation of
+          substances, components of food (nutrients and deficiency diseases), and changes around us
+          (physical vs. chemical changes). Common Achievers question types:
+        </P>
+        <UL>
+          <LI>A food web intervention question with three or more trophic levels</LI>
+          <LI>A materials/matter question about a specific change and whether it is reversible</LI>
+          <LI>A simple machines scenario about mechanical advantage (which arrangement requires less force?)</LI>
+          <LI>A human body system question about what happens when a specific organ is not working properly</LI>
+          <LI>A solar system question about planet order, day length, or orbital period</LI>
+        </UL>
+
+        <H2 id="preparation-plan">Preparation plan</H2>
+        <OL>
+          <LIo><B>Week 1:</B> Biology &mdash; food chains/webs (with ecosystem intervention questions), plant photosynthesis, animal adaptation and reproduction</LIo>
+          <LIo><B>Week 2:</B> Human body systems (skeletal, digestive, circulatory) and matter/materials (states of matter, properties, changes)</LIo>
+          <LIo><B>Week 3:</B> Force and simple machines, Earth/rocks/soil, solar system, weather</LIo>
+          <LIo><B>Week 4:</B> One complete sample paper under timed conditions. Review errors by understanding the correct concept, not just the correct answer. One more paper in the week before the exam.</LIo>
+        </OL>
+
+        <CTA>Practise Class 5 NSO questions by topic with full explanations &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the most important topic for NSO Class 5?",
+        a: "Food chains and food webs — they consistently generate the most difficult questions including Achievers-level ecosystem intervention scenarios. Simple machines (force and mechanical advantage) and matter/materials (states and changes) are the next most important areas."
+      },
+      {
+        q: "What does the NSO Class 5 Achievers section test?",
+        a: "Achievers questions draw from the Class 6 syllabus — mainly separation of substances, components of food (nutrients and deficiency diseases), physical vs. chemical changes, and more complex ecosystem scenarios. Students aiming for Level 2 should study these Class 6 topics as part of their preparation."
+      },
+      {
+        q: "How is NSO Class 5 different from Class 4?",
+        a: "Class 5 introduces several major new topic areas: simple machines and force, matter and its states, rocks and soil, and the solar system. The food chain questions also become significantly more complex, moving from basic identification to ecosystem intervention scenarios. The paper format remains the same (35 questions)."
+      },
+      {
+        q: "How long should a Class 5 student prepare for NSO?",
+        a: "4–6 weeks of structured preparation is appropriate. Spend 3 weeks covering all topic areas systematically, then 1–2 weeks doing complete sample papers under timed conditions and reviewing errors. Students who have already covered the Class 5 science syllabus at school can compress the topic study phase."
+      }
+    ]
+  },
+
+  /* 66 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-sample-papers-class-10",
+    title: "NSO Sample Papers for Class 10: Full Syllabus Guide and Preparation Strategy",
+    description:
+      "NSO Class 10 covers the widest science syllabus of any NSO paper — chemical reactions, life processes, electricity, light, and the human reproductive system in 50 questions. This guide breaks down the topic distribution and how to prepare.",
+    date: "2026-08-17",
+    tag: "Science",
+    readingMinutes: 9,
+    keywords: [
+      "NSO sample papers class 10",
+      "NSO previous year papers class 10",
+      "NSO class 10 preparation",
+      "national science olympiad class 10",
+      "NSO class 10 question paper with solutions",
+    ],
+    excerpt:
+      "NSO Class 10 covers 15+ chapters across chemistry, biology, and physics in one paper. Sample papers reveal the topic distribution and what the Achievers section tests.",
+    content: (
+      <>
+        <P>
+          NSO Class 10 covers the broadest science syllabus of any NSO paper &mdash; chemical reactions,
+          acids, bases and salts, metals and non-metals, carbon compounds, life processes, control and
+          coordination, reproduction, electricity, magnetic effects, and light reflection and refraction,
+          all in one 60-minute paper. Students preparing for this paper alongside board exam revision can
+          use IMO-style preparation to reinforce both. The difference is depth: NSO Achievers questions
+          require application and reasoning, not board-exam-style derivation.
+        </P>
+
+        <H2 id="paper-structure">Class 10 NSO paper structure</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Science:</B> 25 questions from the Class 10 science syllabus</LI>
+          <LI><B>Achievers Section:</B> 10 questions at 3 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="topic-distribution">Topic distribution and weightage</H2>
+        <UL>
+          <LI><B>Chemical reactions and equations:</B> 3&ndash;4 questions &mdash; types of reactions, balancing equations, oxidation/reduction identification</LI>
+          <LI><B>Acids, bases and salts:</B> 3&ndash;4 questions &mdash; pH, indicators, salt formation, everyday applications</LI>
+          <LI><B>Metals and non-metals:</B> 3&ndash;4 questions &mdash; reactivity series, corrosion, alloy properties</LI>
+          <LI><B>Carbon compounds:</B> 3&ndash;4 questions &mdash; functional groups, homologous series, ethanol and ethanoic acid properties</LI>
+          <LI><B>Life processes:</B> 3&ndash;4 questions &mdash; nutrition (plant and animal), respiration, transportation, excretion</LI>
+          <LI><B>Control and coordination:</B> 2&ndash;3 questions &mdash; nervous system, reflex arc, hormones</LI>
+          <LI><B>Reproduction:</B> 2&ndash;3 questions &mdash; asexual, sexual, human reproductive system</LI>
+          <LI><B>Electricity:</B> 3&ndash;4 questions &mdash; Ohm&rsquo;s law, series/parallel circuits, heating effect, power calculations</LI>
+          <LI><B>Magnetic effects of electric current:</B> 2&ndash;3 questions &mdash; electromagnet, motor, generator principles</LI>
+          <LI><B>Light (reflection and refraction):</B> 3&ndash;4 questions &mdash; mirror/lens formula, ray diagrams, image characteristics</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions including critical reasoning and data sufficiency</LI>
+        </UL>
+        <Callout>
+          <B>Chemistry topics (chemical reactions, acids/bases/salts, metals, carbon) account for nearly
+          40% of the science section</B> in Class 10 NSO sample papers. Students from biology-focused
+          schools or those who find chemistry less comfortable should address this imbalance early in
+          preparation. Neglecting chemistry leaves too many marks on the table.
+        </Callout>
+
+        <H2 id="achievers-patterns">Achievers section patterns at Class 10</H2>
+        <P>
+          The most common Achievers question types across past Class 10 NSO papers:
+        </P>
+        <UL>
+          <LI>A circuit problem with combined series and parallel elements requiring Ohm&rsquo;s law calculation</LI>
+          <LI>A light/mirror/lens problem asking for image characteristics at a specific object position</LI>
+          <LI>A carbon compound identification question based on a functional group description</LI>
+          <LI>A life process scenario &mdash; &ldquo;which organ is responsible for this function and what happens if it fails?&rdquo;</LI>
+          <LI>A chemical reaction question identifying oxidising/reducing agents in a reaction</LI>
+        </UL>
+
+        <H2 id="board-exam-synergy">Board exam and NSO preparation synergy</H2>
+        <P>
+          Class 10 is unique in that NSO preparation and board preparation genuinely help each other.
+          The content is identical &mdash; all Class 10 science chapters. The difference: board preparation
+          emphasises derivations, definitions, and diagram-drawing; NSO preparation emphasises application,
+          scenario reasoning, and circuit/optics calculations. Doing both makes the student stronger than
+          doing either alone.
+        </P>
+        <P>
+          Optimal approach: study each chapter for board first (definitions, derivations, diagrams), then
+          immediately do 10&ndash;15 Olympiad-style questions on the same chapter before moving on.
+        </P>
+
+        <H2 id="preparation-strategy">Preparation strategy</H2>
+        <OL>
+          <LIo><B>Chemistry first:</B> It carries the most marks and is often the weakest area. Cover chemical reactions, acids/bases, metals, and carbon compounds in the first 3 weeks of dedicated preparation.</LIo>
+          <LIo><B>Physics calculations:</B> Electricity (Ohm&rsquo;s law, power calculations) and light (mirror/lens formula) require calculation practice, not just concept reading. Do 15&ndash;20 calculation problems per topic.</LIo>
+          <LIo><B>Biology:</B> Life processes and reproduction are concept-heavy but less calculation-intensive. Use diagrams and flowcharts to organise the content.</LIo>
+          <LIo><B>Reasoning section:</B> 15 reasoning questions at Class 10 include data sufficiency &mdash; practise these specifically as they are rarely covered in school.</LIo>
+          <LIo><B>Achievers block:</B> Practise Achievers sections from 4&ndash;5 past papers as a dedicated unit in the final 2 weeks.</LIo>
+        </OL>
+
+        <CTA>Practise Class 10 NSO questions by chapter &mdash; chemistry, physics, biology with Achievers-level questions. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What topics are most important for NSO Class 10?",
+        a: "Chemistry topics — chemical reactions, acids/bases/salts, metals and non-metals, and carbon compounds — collectively account for nearly 40% of the science section. Electricity (Ohm's law, circuits) and light (mirror/lens formula) are the highest-priority physics topics. Life processes is the most important biology topic."
+      },
+      {
+        q: "How does NSO Class 10 preparation help with board exams?",
+        a: "The content is identical — all Class 10 science chapters. NSO preparation develops application and calculation skills (circuit problems, mirror/lens questions) that complement the board exam's focus on derivations and definitions. The optimal approach is to study each chapter for board first, then immediately practise Olympiad-style questions on the same chapter."
+      },
+      {
+        q: "What is the hardest part of NSO Class 10?",
+        a: "The Achievers section, particularly circuit problems with mixed series/parallel elements and light (mirror/lens) problems with specific object positions. These require multi-step calculation under time pressure. Carbon compound identification questions are also consistently difficult for students who have not studied organic chemistry systematically."
+      },
+      {
+        q: "How long should a Class 10 student prepare for NSO?",
+        a: "If preparing alongside board exams, integrate NSO practice into the board revision schedule — study each chapter for board, then do Olympiad-style questions on it before moving on. This adds minimal extra time while building NSO readiness. Dedicated NSO preparation of 6–8 weeks before the exam date is appropriate for students who are not using the board-integrated approach."
+      }
+    ]
+  },
+
+  /* 67 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-preparation-class-7",
+    title: "IMO Preparation for Class 7: Syllabus, Strategy & Study Plan",
+    description:
+      "Class 7 IMO preparation is different from lower classes — algebra and triangle geometry now matter as much as arithmetic. This guide covers the full Class 7 syllabus, how to study each topic for Olympiad depth, and a structured 8-week plan.",
+    date: "2026-08-17",
+    tag: "Maths",
+    readingMinutes: 8,
+    keywords: [
+      "IMO preparation class 7",
+      "IMO class 7 study plan",
+      "how to prepare for IMO class 7",
+      "class 7 maths olympiad preparation",
+      "IMO class 7 tips",
+    ],
+    excerpt:
+      "IMO Class 7 introduces algebra and triangle geometry as major paper components. Here is how to prepare systematically — syllabus, priorities, and an 8-week plan.",
+    content: (
+      <>
+        <P>
+          Class 7 IMO preparation requires a shift in approach. At Classes 3&ndash;6, strong arithmetic and
+          good reasoning practice is largely sufficient. At Class 7, that is no longer true. Algebra &mdash;
+          forming and solving linear equations &mdash; and triangle geometry &mdash; angle theorems,
+          congruence criteria &mdash; now form a substantial part of the paper. Students who have not
+          specifically prepared these topics will find the Class 7 paper harder than expected, even if their
+          arithmetic is strong. This guide gives you the preparation framework that works.
+        </P>
+
+        <H2 id="syllabus">Class 7 IMO syllabus</H2>
+        <UL>
+          <LI><B>Integers:</B> Operations, properties, word problems with negative numbers</LI>
+          <LI><B>Fractions and decimals:</B> Operations on rational numbers, comparison</LI>
+          <LI><B>Simple equations:</B> Forming equations from word problems, solving one-variable equations</LI>
+          <LI><B>Lines and angles:</B> Complementary/supplementary, angles formed by parallel lines and transversals</LI>
+          <LI><B>Triangle properties:</B> Angle sum, exterior angle theorem, congruence (SSS, SAS, ASA, RHS)</LI>
+          <LI><B>Ratio and proportion:</B> Unitary method, word problems</LI>
+          <LI><B>Percentage:</B> Profit/loss, simple interest, discount</LI>
+          <LI><B>Algebraic expressions:</B> Like/unlike terms, simplification, substitution</LI>
+          <LI><B>Perimeter and area:</B> Triangles, quadrilaterals, composite figures</LI>
+          <LI><B>Data handling:</B> Mean, median, mode; bar graphs, pie charts</LI>
+          <LI><B>Visualising solid shapes:</B> Faces, edges, vertices, nets</LI>
+        </UL>
+
+        <H2 id="priorities">Preparation priorities by mark weight</H2>
+        <UL>
+          <LI>
+            <B>Tier 1 (highest marks, Achievers section):</B> Simple equations, triangle properties
+            (angle theorems and congruence), percentage applications (profit/loss, simple interest)
+          </LI>
+          <LI>
+            <B>Tier 2 (consistent marks, main section):</B> Integers, fractions/decimals,
+            lines and angles, algebraic expressions, area/perimeter
+          </LI>
+          <LI>
+            <B>Tier 3 (lower weight but easy marks):</B> Data handling, visualising solid shapes,
+            ratio and proportion
+          </LI>
+        </UL>
+        <Callout>
+          <B>The biggest IMO Class 7 preparation mistake is treating algebra like a mechanical topic.</B>
+          Students who practise solving equations but cannot form equations from word problems will
+          miss the Achievers section questions, which always require formation, not just solution.
+          Practise the translation step &mdash; from words to equation &mdash; as explicitly as you
+          practise the solving step.
+        </Callout>
+
+        <H2 id="triangle-geometry">Triangle geometry preparation</H2>
+        <P>
+          Triangle topics at Class 7 require proof-level understanding for Achievers section success:
+        </P>
+        <UL>
+          <LI>Angle sum theorem: The sum of interior angles of any triangle is 180°. Know this and why it is true.</LI>
+          <LI>Exterior angle theorem: An exterior angle of a triangle equals the sum of the two non-adjacent interior angles. Practise applying this to find unknown angles in multi-step diagrams.</LI>
+          <LI>Congruence criteria: Know SSS, SAS, ASA, and RHS &mdash; not just the names but what each means and when to use each. Achievers questions often require identifying which criterion applies to a given pair of triangles.</LI>
+        </UL>
+
+        <H2 id="study-plan">8-week study plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Integers and fractions/decimals &mdash; operations, word problems, number line</LI>
+          <LI><B>Week 2:</B> Simple equations &mdash; formation from word problems, solving, verification</LI>
+          <LI><B>Week 3:</B> Lines and angles &mdash; all angle relationships, parallel lines with transversal</LI>
+          <LI><B>Week 4:</B> Triangle properties &mdash; angle sum, exterior angle, congruence criteria with mixed problems</LI>
+          <LI><B>Week 5:</B> Percentage (profit/loss, SI, discount), algebraic expressions</LI>
+          <LI><B>Week 6:</B> Area/perimeter (composite figures), data handling, ratio/proportion</LI>
+          <LI><B>Week 7:</B> Reasoning section practice &mdash; seating arrangements, blood relations, direction sense</LI>
+          <LI><B>Week 8:</B> Two complete timed papers. Error analysis. Achievers section from 3 past papers as a focused set.</LI>
+        </UL>
+
+        <CTA>Practise IMO Class 7 questions by topic with full solutions &mdash; algebra, geometry, reasoning. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the most important topic to prepare for IMO Class 7?",
+        a: "Simple equations — specifically the ability to form equations from word problems. This skill determines Achievers section performance and is not adequately developed by textbook exercise practice alone. Triangle properties (angle theorems and congruence criteria) and percentage applications (profit/loss, simple interest) are the next priority areas."
+      },
+      {
+        q: "How long should a Class 7 student prepare for IMO?",
+        a: "8 weeks of structured preparation is appropriate for most Class 7 students. The first 6 weeks cover the syllabus systematically with the tier 1 priority topics first. The final 2 weeks shift to complete timed paper practice and Achievers section focus."
+      },
+      {
+        q: "How is Class 7 IMO harder than Class 6?",
+        a: "Class 7 introduces algebra (forming and solving linear equations) and formal triangle geometry (angle theorems, congruence criteria) — topics that require mathematical reasoning rather than arithmetic skill. Students who have strong Class 6 maths but haven't specifically prepared these topics will find Class 7 significantly harder."
+      },
+      {
+        q: "Should a Class 7 student use a coaching class for IMO?",
+        a: "Not necessarily. The Class 7 IMO syllabus is fully aligned with the CBSE/NCERT Class 7 maths curriculum. A student who has studied the syllabus thoroughly and practised with 4–6 sample papers can score well without coaching. Coaching helps primarily with the Achievers section questions, which require ahead-of-grade thinking — but this can also be developed through targeted self-study."
+      }
+    ]
+  },
+
+  /* 68 ──────────────────────────────────────────────────────── */
+  {
+    slug: "imo-preparation-class-9",
+    title: "IMO Preparation for Class 9: Coordinate Geometry, Polynomials & More",
+    description:
+      "Class 9 IMO introduces coordinate geometry, polynomials, Euclid's geometry, and statistics. This guide covers the full preparation framework — which topics matter most, how to approach the Achievers section, and an 8-week study plan.",
+    date: "2026-08-17",
+    tag: "Maths",
+    readingMinutes: 8,
+    keywords: [
+      "IMO preparation class 9",
+      "IMO class 9 study plan",
+      "how to prepare for IMO class 9",
+      "class 9 maths olympiad preparation",
+      "IMO class 9 tips",
+    ],
+    excerpt:
+      "Class 9 IMO covers coordinate geometry, polynomials, triangles, quadrilaterals, and statistics. Here is the full preparation guide with topic priorities and study plan.",
+    content: (
+      <>
+        <P>
+          Class 9 IMO is a significant step up from Class 8. Three entirely new mathematical domains enter
+          the paper: coordinate geometry (plotting points, distance between points on a line, quadrant
+          identification), polynomials (factorisation, identities, remainder theorem), and Euclid&rsquo;s
+          geometry (axioms, postulates, and logical deduction). The geometry section also deepens &mdash;
+          triangle congruence and similarity, quadrilateral properties, and circle basics all feature.
+          Students who enter Class 9 with strong Class 8 preparation have a good foundation; this guide
+          covers what to build on top of it.
+        </P>
+
+        <H2 id="syllabus">Class 9 IMO syllabus overview</H2>
+        <UL>
+          <LI><B>Number systems:</B> Rational and irrational numbers, surds, real number line, laws of exponents for real numbers</LI>
+          <LI><B>Polynomials:</B> Zeroes, factor theorem, remainder theorem, factorisation using identities</LI>
+          <LI><B>Coordinate geometry:</B> Cartesian plane, quadrants, plotting points, distance between two points on axes</LI>
+          <LI><B>Linear equations in two variables:</B> Solutions, graphs, real-life applications</LI>
+          <LI><B>Euclid&rsquo;s geometry:</B> Axioms, postulates, theorems, logical proof structure</LI>
+          <LI><B>Lines and angles:</B> All angle relationships, parallel lines, theorems</LI>
+          <LI><B>Triangles:</B> Congruence (all criteria), properties and theorems, inequalities in triangles</LI>
+          <LI><B>Quadrilaterals:</B> Properties of parallelograms, theorems, mid-point theorem</LI>
+          <LI><B>Areas:</B> Area of triangles and parallelograms on the same base</LI>
+          <LI><B>Circles:</B> Chords, arc lengths, central angles (introduction)</LI>
+          <LI><B>Surface areas and volumes:</B> Cuboid, cylinder, cone, sphere</LI>
+          <LI><B>Statistics:</B> Data collection, mean/median/mode for ungrouped data, bar graphs, histograms</LI>
+          <LI><B>Probability:</B> Classical probability, simple experiments</LI>
+        </UL>
+
+        <H2 id="topic-priorities">Topic priorities for IMO performance</H2>
+        <UL>
+          <LI>
+            <B>Highest priority:</B> Polynomials (factor/remainder theorem), triangles (all congruence criteria and inequalities),
+            coordinate geometry, number systems (surds and exponents)
+          </LI>
+          <LI>
+            <B>Medium priority:</B> Quadrilaterals (parallelogram properties and mid-point theorem),
+            surface areas and volumes, linear equations in two variables
+          </LI>
+          <LI>
+            <B>Important for easy marks:</B> Statistics, probability, areas
+          </LI>
+        </UL>
+        <Callout>
+          <B>Polynomials (factor theorem and factorisation) is the single most rewarding topic to master
+          at Class 9.</B> It appears in 4&ndash;6 questions across the paper, including Achievers-level
+          questions, and students who have worked through factorisation techniques systematically
+          (grouping, splitting the middle term, applying algebraic identities) gain a consistent
+          advantage. Many Class 9 students know the polynomial chapter from school but have only
+          practised simple cases &mdash; the Olympiad tests the harder factorisation problems.
+        </Callout>
+
+        <H2 id="euclids-geometry">Euclid&apos;s geometry at Olympiad level</H2>
+        <P>
+          Euclid&rsquo;s geometry is often skipped in school preparation but appears in the Class 9 NSO and IMO
+          Achievers sections. The Olympiad questions test logical deduction:
+        </P>
+        <UL>
+          <LI>Which of these is an axiom and which is a theorem?</LI>
+          <LI>Given a set of statements, which follow from Euclid&rsquo;s postulates?</LI>
+          <LI>Identify the error in a given geometric &ldquo;proof&rdquo;</LI>
+        </UL>
+        <P>
+          These questions are uniquely answerable by students who have read the chapter carefully &mdash;
+          they reward attention to logical structure rather than calculation skill.
+        </P>
+
+        <H2 id="study-plan">8-week study plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Number systems (surds, exponents) and polynomials (zeroes, factor theorem, factorisation)</LI>
+          <LI><B>Week 2:</B> Coordinate geometry (Cartesian plane, plotting, distance on axes), linear equations in two variables</LI>
+          <LI><B>Week 3:</B> Lines, angles, triangles (all congruence criteria, triangle inequalities)</LI>
+          <LI><B>Week 4:</B> Quadrilaterals (parallelogram theorems, mid-point theorem), areas of triangles and parallelograms</LI>
+          <LI><B>Week 5:</B> Surface areas and volumes (all solids), circles (introduction, chord properties)</LI>
+          <LI><B>Week 6:</B> Statistics, probability, Euclid&rsquo;s geometry (axioms/postulates/theorems)</LI>
+          <LI><B>Week 7:</B> Reasoning section practice (15 questions &mdash; data sufficiency, logical reasoning)</LI>
+          <LI><B>Week 8:</B> Two complete timed papers, Achievers section from 3&ndash;4 past papers as a focused set</LI>
+        </UL>
+
+        <CTA>Practise Class 9 IMO questions by topic &mdash; polynomials, geometry, coordinate geometry with solutions. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the most important topic for IMO Class 9?",
+        a: "Polynomials — specifically factor theorem, remainder theorem, and factorisation using algebraic identities. This topic appears in 4–6 questions and is consistently present in the Achievers section. Triangles (all congruence criteria and inequalities) and coordinate geometry are the next priority areas."
+      },
+      {
+        q: "Does IMO Class 9 cover Euclid's geometry?",
+        a: "Yes — Euclid's geometry appears in the Class 9 IMO, typically in the Achievers section. Questions test logical deduction — distinguishing axioms from theorems, identifying which statements follow from Euclid's postulates, and finding errors in geometric arguments. These questions are approachable for students who read the chapter carefully."
+      },
+      {
+        q: "How much of the Class 9 IMO is geometry?",
+        a: "Geometry topics — lines and angles, triangles, quadrilaterals, circles, and areas — together account for roughly 35–40% of the mathematical section. This makes Class 9 one of the most geometry-heavy IMO papers. Students who are weaker in geometry should allocate disproportionate preparation time to it."
+      },
+      {
+        q: "Should Class 9 students prepare for IMO alongside board exams?",
+        a: "Class 9 does not have board exams, which makes it an ideal year for intensive Olympiad preparation. The concepts covered in Class 9 also form the foundation for Class 10 board maths. Strong Class 9 IMO preparation has a compounding benefit — it makes Class 10 maths significantly easier."
+      }
+    ]
+  },
+
+  /* 69 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-preparation-class-8",
+    title: "NSO Preparation for Class 8: Syllabus, Priorities & Study Plan",
+    description:
+      "NSO Class 8 is one of the broadest science Olympiad papers at the middle school level. This guide covers how to prepare across all 18 chapters, which topics carry the most marks, and a structured 8-week plan to maximise your score.",
+    date: "2026-08-17",
+    tag: "Science",
+    readingMinutes: 8,
+    keywords: [
+      "NSO preparation class 8",
+      "NSO class 8 study plan",
+      "how to prepare for NSO class 8",
+      "national science olympiad class 8 preparation",
+      "NSO class 8 tips",
+    ],
+    excerpt:
+      "NSO Class 8 covers 18 science chapters — cell biology, metals, light, and more. Here is how to prepare systematically with a topic-priority framework and study plan.",
+    content: (
+      <>
+        <P>
+          Class 8 NSO is the broadest science Olympiad paper at the middle school level &mdash; 18 chapters
+          across biology, chemistry, and physics must all be covered for a strong performance. The challenge
+          is not the depth of any single topic (none is as deep as a Class 10 topic) but the sheer breadth:
+          students must be competent across cell biology, microorganisms, metals and non-metals, combustion,
+          light, sound, force, and more, all in the same paper. Systematic preparation is essential. This
+          guide gives you a priority framework and a concrete study plan.
+        </P>
+
+        <H2 id="syllabus">Class 8 NSO full syllabus</H2>
+        <UL>
+          <LI>Crop production and management</LI>
+          <LI>Microorganisms (friend and foe)</LI>
+          <LI>Synthetic fibres and plastics</LI>
+          <LI>Materials: metals and non-metals</LI>
+          <LI>Coal and petroleum</LI>
+          <LI>Combustion and flame</LI>
+          <LI>Conservation of plants and animals</LI>
+          <LI>Cell: structure and functions</LI>
+          <LI>Reproduction in animals</LI>
+          <LI>Reaching the age of adolescence</LI>
+          <LI>Force and pressure</LI>
+          <LI>Friction</LI>
+          <LI>Sound</LI>
+          <LI>Chemical effects of electric current</LI>
+          <LI>Some natural phenomena</LI>
+          <LI>Light</LI>
+          <LI>Stars and the solar system</LI>
+          <LI>Pollution of air and water</LI>
+        </UL>
+
+        <H2 id="topic-priorities">Topic priorities</H2>
+        <UL>
+          <LI>
+            <B>Tier 1 &mdash; highest Olympiad weightage:</B> Cell structure and functions (4&ndash;5 questions,
+            consistent Achievers presence), light &mdash; reflection in curved mirrors (4&ndash;5 questions
+            including Achievers), metals and non-metals (3&ndash;4 questions)
+          </LI>
+          <LI>
+            <B>Tier 2 &mdash; consistently tested:</B> Combustion and flame, microorganisms, force and pressure,
+            chemical effects of current, sound
+          </LI>
+          <LI>
+            <B>Tier 3 &mdash; lower weight but easy to prepare:</B> Crop production, synthetic fibres, coal and
+            petroleum, conservation, pollution, stars and solar system
+          </LI>
+        </UL>
+        <Callout>
+          <B>Students who study light (curved mirrors) to the level of image characteristics at all five
+          object positions will reliably score Achievers marks</B> that most other students miss. This
+          is not a difficult topic once studied systematically &mdash; memorise a table of object position
+          → image position/size/orientation/nature for both concave and convex mirrors. This takes
+          one focused hour and pays off in every NSO Class 8 paper.
+        </Callout>
+
+        <H2 id="cell-biology">Cell biology preparation</H2>
+        <P>
+          Cell structure and functions is the highest-priority biology topic at Class 8:
+        </P>
+        <UL>
+          <LI>Know the function of every major organelle (nucleus, mitochondria, chloroplast, cell wall, cell membrane, vacuole, ribosome, endoplasmic reticulum)</LI>
+          <LI>Know which organelles are present in plant cells only, animal cells only, and both</LI>
+          <LI>Be able to answer scenario questions: &ldquo;A cell has no mitochondria &mdash; what process will fail?&rdquo;</LI>
+          <LI>Know cell theory (Schleiden, Schwann, Virchow) for Achievers-level questions</LI>
+        </UL>
+
+        <H2 id="study-plan">8-week study plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Cell structure and functions (deep preparation), reproduction in animals</LI>
+          <LI><B>Week 2:</B> Metals and non-metals (reactivity series, properties, corrosion), combustion and flame</LI>
+          <LI><B>Week 3:</B> Light (reflection, curved mirrors — all object positions), some natural phenomena</LI>
+          <LI><B>Week 4:</B> Force and pressure, friction, sound (properties, echo, reverberation, noise pollution)</LI>
+          <LI><B>Week 5:</B> Microorganisms, chemical effects of current, adolescence</LI>
+          <LI><B>Week 6:</B> Coal and petroleum, synthetic fibres, crop production, conservation, pollution</LI>
+          <LI><B>Week 7:</B> Reasoning section (15 questions &mdash; series, analogies, blood relations, seating arrangements)</LI>
+          <LI><B>Week 8:</B> Two complete timed papers. Achievers sections from 3&ndash;4 past papers as a focused set.</LI>
+        </UL>
+
+        <CTA>Practise NSO Class 8 questions by chapter &mdash; cell biology, light, metals, and more with solutions. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the most important topic for NSO Class 8?",
+        a: "Cell structure and functions and light (reflection in curved mirrors) are the two highest-priority topics — both appear in 4–5 questions and consistently anchor the Achievers section. Metals and non-metals (reactivity series and properties) is the third most important topic."
+      },
+      {
+        q: "How do I manage 18 chapters in NSO Class 8 preparation?",
+        a: "Use a three-tier priority system: Tier 1 (cell biology, light, metals) gets the most preparation time; Tier 2 (combustion, microorganisms, force, sound, electrochemistry) gets standard preparation; Tier 3 (crop production, fibres, coal, conservation, pollution) gets one focused session each. This allocation reflects the actual mark distribution in Class 8 NSO papers."
+      },
+      {
+        q: "How should I prepare the light chapter for NSO Class 8?",
+        a: "Memorise image characteristics (position, size, orientation, nature) for all five object positions in concave mirrors and for both concave and convex mirrors. This is the systematic approach — not reading about mirrors in general but building a complete table for every position. Achievers questions test the specific properties for specific positions, not general awareness of how mirrors work."
+      },
+      {
+        q: "How long should a Class 8 student prepare for NSO?",
+        a: "8 weeks is appropriate — 6 weeks of chapter-by-chapter preparation following the three-tier priority order, and 2 weeks of complete paper practice. Students who start preparation 10–12 weeks before the exam have more time for Achievers-level topics and can study the chapter comprehensively rather than selectively."
+      }
+    ]
+  },
+
+  /* 70 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nso-preparation-class-9",
+    title: "NSO Preparation for Class 9: Syllabus, Priorities & Achievers Strategy",
+    description:
+      "NSO Class 9 introduces motion, gravitation, work and energy, atoms and molecules, and cells and tissues. This guide covers what each chapter looks like at Olympiad depth, the topic priority order, and an 8-week preparation plan.",
+    date: "2026-08-17",
+    tag: "Science",
+    readingMinutes: 8,
+    keywords: [
+      "NSO preparation class 9",
+      "NSO class 9 study plan",
+      "how to prepare for NSO class 9",
+      "national science olympiad class 9 preparation",
+      "NSO class 9 tips",
+    ],
+    excerpt:
+      "NSO Class 9 brings motion, atoms and molecules, tissues, and gravitation into the picture. Here is the full preparation guide — priorities, Achievers strategy, and study plan.",
+    content: (
+      <>
+        <P>
+          Class 9 NSO marks the transition to senior secondary science &mdash; this is where physics becomes
+          mathematically rigorous (motion equations, force and Newton&rsquo;s laws, work-energy theorem),
+          chemistry becomes conceptually dense (atoms and molecules, structure of the atom, mole concept),
+          and biology diversifies into tissues, the fundamental unit of life, and diversity in living organisms.
+          It is the most preparation-intensive NSO paper up to this class. Students who approach it
+          systematically &mdash; topic by topic, priority first &mdash; consistently outperform those who
+          try to read everything without a framework.
+        </P>
+
+        <H2 id="syllabus">Class 9 NSO syllabus</H2>
+        <UL>
+          <LI><B>Physics:</B> Motion, force and Newton&rsquo;s laws, gravitation, work and energy, sound</LI>
+          <LI><B>Chemistry:</B> Matter in our surroundings, is matter around us pure?, atoms and molecules, structure of the atom</LI>
+          <LI><B>Biology:</B> The fundamental unit of life (cell), tissues, diversity in living organisms, why do we fall ill?, natural resources</LI>
+          <LI><B>Astronomy/Environment:</B> Improvement in food resources, natural resources, conservation</LI>
+        </UL>
+
+        <H2 id="topic-priorities">Topic priorities</H2>
+        <UL>
+          <LI>
+            <B>Tier 1 &mdash; highest Olympiad marks:</B> Motion (equations of motion, distance-time and velocity-time graphs),
+            atoms and molecules (mole concept, Avogadro&rsquo;s number, formula mass), structure of the atom
+            (Bohr model, electronic configuration, valency), tissues (plant and animal tissue types and functions)
+          </LI>
+          <LI>
+            <B>Tier 2 &mdash; consistently tested:</B> Force and Newton&rsquo;s laws (application problems),
+            gravitation (universal law, acceleration due to gravity, weight vs. mass), work and energy
+            (calculations, conservation of energy), fundamental unit of life (cell organelles, comparison to Class 8)
+          </LI>
+          <LI>
+            <B>Tier 3 &mdash; important but lower weight:</B> Sound, matter in our surroundings, is matter pure,
+            diversity in living organisms, why do we fall ill, natural resources
+          </LI>
+        </UL>
+        <Callout>
+          <B>Motion and atoms/molecules together carry the most marks and the most Achievers questions
+          in Class 9 NSO.</B> Motion questions require equation application under time pressure &mdash;
+          equations of motion (v = u+at, s = ut + ½at², v² = u² + 2as) must be automatic. Atoms
+          and molecules requires mole concept fluency &mdash; calculating moles, molecules, and mass
+          from each other must be a practised skill.
+        </Callout>
+
+        <H2 id="motion-preparation">Motion chapter preparation</H2>
+        <P>
+          Motion is the most calculation-intensive topic in Class 9 NSO and the most commonly tested
+          Achievers topic:
+        </P>
+        <UL>
+          <LI>Memorise all three equations of motion and know when to use each</LI>
+          <LI>Practise graph interpretation: what does the slope of a distance-time graph represent? A velocity-time graph?</LI>
+          <LI>Practise 20&ndash;30 calculation problems covering uniform and non-uniform motion, acceleration, and deceleration</LI>
+          <LI>Include problems that give three of the five variables (u, v, a, s, t) and ask you to find the others &mdash; these are the Achievers-format motion questions</LI>
+        </UL>
+
+        <H2 id="mole-concept">Mole concept preparation</H2>
+        <P>
+          The mole concept is the most conceptually dense new topic at Class 9 for most students:
+        </P>
+        <UL>
+          <LI>Understand: 1 mole = 6.022 × 10²³ particles (Avogadro&rsquo;s number)</LI>
+          <LI>Understand: molar mass = formula mass in grams per mole</LI>
+          <LI>Practise the three conversions: mass → moles, moles → molecules, mass → molecules (and reverse)</LI>
+          <LI>Achievers questions often embed mole calculations inside a stoichiometry-lite word problem</LI>
+        </UL>
+
+        <H2 id="study-plan">8-week study plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Motion (all equations, graphs, calculation practice) and force &amp; Newton&rsquo;s laws</LI>
+          <LI><B>Week 2:</B> Atoms and molecules (mole concept, Avogadro, formula mass) and structure of the atom (Bohr model, electronic configuration)</LI>
+          <LI><B>Week 3:</B> Gravitation (universal law, g, weight vs. mass), work and energy (calculations, conservation)</LI>
+          <LI><B>Week 4:</B> Tissues (plant: meristematic, permanent; animal: epithelial, connective, muscular, nervous) and fundamental unit of life</LI>
+          <LI><B>Week 5:</B> Matter in our surroundings, is matter pure, sound, natural resources</LI>
+          <LI><B>Week 6:</B> Diversity in living organisms, why do we fall ill, improvement in food resources</LI>
+          <LI><B>Week 7:</B> Reasoning section (15 questions at Class 9 level)</LI>
+          <LI><B>Week 8:</B> Two complete timed papers; Achievers sections from 3&ndash;4 past papers</LI>
+        </UL>
+
+        <CTA>Practise NSO Class 9 questions by topic &mdash; motion, atoms, tissues, and more with solutions. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What are the most important topics for NSO Class 9?",
+        a: "Motion (equations of motion and graph interpretation) and atoms and molecules (mole concept) are the two highest-priority topics — both appear heavily in the Achievers section and require calculation fluency, not just concept reading. Structure of the atom (Bohr model, electronic configuration) and tissues (plant and animal types) are the next priority."
+      },
+      {
+        q: "How difficult is the mole concept in NSO Class 9?",
+        a: "The mole concept is conceptually new for most Class 9 students and the most commonly missed topic in the Achievers section. The key is practising all three conversions (mass↔moles, moles↔molecules, mass↔molecules) until they are automatic — 20–30 practice problems is the recommended minimum before attempting NSO sample papers."
+      },
+      {
+        q: "How many equations of motion do I need to know for NSO Class 9?",
+        a: "Three: v = u + at, s = ut + ½at², and v² = u² + 2as. All three must be memorised and applied quickly. Achievers questions typically give three of the five variables (u, v, a, s, t) and ask for one of the others — practise with all possible combinations of known/unknown variables."
+      },
+      {
+        q: "Is Class 9 NSO harder than Class 8 NSO?",
+        a: "Yes — Class 9 NSO is significantly harder. Physics becomes mathematically rigorous (motion equations, energy calculations), chemistry introduces the mole concept (abstract and calculation-heavy), and the biology diversifies substantially. The preparation time required is also longer — 8–10 weeks rather than 6–8 weeks."
+      }
+    ]
+  },
+
+  /* 71 ──────────────────────────────────────────────────────── */
+  {
+    slug: "ieo-preparation-guide",
+    title: "IEO Preparation Guide: How to Crack the International English Olympiad",
+    description:
+      "The International English Olympiad (IEO) tests grammar, vocabulary, reading comprehension, and spoken English. This complete guide covers what each section tests, which skills matter most at each class level, and how to prepare effectively.",
+    date: "2026-08-17",
+    tag: "English",
+    readingMinutes: 8,
+    keywords: [
+      "IEO preparation guide",
+      "international english olympiad preparation",
+      "IEO study tips",
+      "how to prepare for IEO",
+      "IEO exam guide",
+    ],
+    excerpt:
+      "The IEO tests grammar, vocabulary, reading comprehension, and spoken expression across all class levels. Here is the complete preparation guide.",
+    content: (
+      <>
+        <P>
+          The International English Olympiad (IEO), conducted by the Science Olympiad Foundation (SOF),
+          is one of India&rsquo;s most widely taken English language competitions &mdash; over a million
+          students appear for it every year. Unlike Olympiads in maths or science, the IEO does not test
+          a discrete syllabus. English language competence is developed over years of reading, speaking,
+          and writing. The students who do best in the IEO are not those who crammed the most grammar
+          rules in the week before the exam &mdash; they are those who have built genuine language fluency
+          over time and then tuned it to the Olympiad format. This guide shows you how to do both.
+        </P>
+
+        <H2 id="paper-structure">IEO paper structure</H2>
+        <P>
+          The IEO paper varies slightly by class level, but the general structure for Classes 3&ndash;12 is:
+        </P>
+        <UL>
+          <LI><B>Word and Structure Knowledge:</B> 10&ndash;15 questions &mdash; grammar, vocabulary, word forms, sentence structure</LI>
+          <LI><B>Reading:</B> 10&ndash;15 questions &mdash; passage comprehension, inference, vocabulary in context</LI>
+          <LI><B>Spoken and Written Expression:</B> 10&ndash;15 questions &mdash; dialogue completion, formal and informal writing conventions, tone and register</LI>
+          <LI><B>Achievers Section:</B> 5&ndash;10 questions at higher marks &mdash; advanced grammar, critical reading, complex vocabulary</LI>
+        </UL>
+        <P>
+          Total: 35 questions (Classes 1&ndash;4) or 50 questions (Classes 5&ndash;12). Time: 60 minutes.
+          No negative marking.
+        </P>
+
+        <H2 id="what-each-section-tests">What each section actually tests</H2>
+        <UL>
+          <LI>
+            <B>Word and Structure Knowledge:</B> Grammar rules (tenses, subject-verb agreement, active/passive,
+            direct/indirect speech), vocabulary (synonyms, antonyms, analogies, word forms). This section
+            is the most &ldquo;studyable&rdquo; &mdash; grammar rules can be learned and practised.
+          </LI>
+          <LI>
+            <B>Reading:</B> Understanding a passage and answering questions about it &mdash; some asking
+            what the passage explicitly says, others requiring inference or identifying the author&rsquo;s
+            purpose or tone. This section rewards regular reading practice more than any other study method.
+          </LI>
+          <LI>
+            <B>Spoken and Written Expression:</B> Choosing the right response in a conversation, completing
+            a dialogue appropriately, identifying formal vs. informal register. This section tests pragmatic
+            language competence &mdash; knowing not just what is grammatically correct but what is
+            contextually appropriate.
+          </LI>
+          <LI>
+            <B>Achievers:</B> Advanced questions that test nuance &mdash; choosing between two grammatically
+            correct options based on meaning, identifying subtle errors, complex reading inference.
+          </LI>
+        </UL>
+        <Callout>
+          <B>Reading comprehension is the highest-leverage preparation activity for IEO.</B> It improves
+          all three sections simultaneously &mdash; reading more builds vocabulary, grammar intuition,
+          and comprehension skill. Students who read for at least 15 minutes daily in English (books,
+          quality articles, magazines) outperform those who only practise grammar exercises, even with
+          less direct IEO preparation.
+        </Callout>
+
+        <H2 id="grammar-preparation">Grammar preparation</H2>
+        <P>
+          For the Word and Structure Knowledge section, cover these grammar areas in order of IEO frequency:
+        </P>
+        <UL>
+          <LI><B>Tenses:</B> All 12 tenses with correct usage rules &mdash; particularly present perfect vs. simple past, and past perfect</LI>
+          <LI><B>Subject-verb agreement:</B> Rules for collective nouns, indefinite pronouns (everyone, nobody), and compound subjects</LI>
+          <LI><B>Active and passive voice:</B> Formation across all tenses; knowing when passive is appropriate</LI>
+          <LI><B>Direct and indirect speech:</B> All tense shifts and pronoun changes</LI>
+          <LI><B>Articles:</B> a/an/the rules &mdash; the most commonly tested error category at all class levels</LI>
+          <LI><B>Prepositions:</B> Preposition after specific verbs and adjectives (interested <em>in</em>, responsible <em>for</em>)</LI>
+          <LI><B>Modals:</B> Correct usage of can/could/may/might/must/should/would</LI>
+        </UL>
+
+        <H2 id="vocabulary-preparation">Vocabulary preparation</H2>
+        <UL>
+          <LI>Practise antonyms and synonyms from a standard IEO vocabulary list by class level</LI>
+          <LI>Learn word analogies: recognize the relationship type (part:whole, cause:effect, synonym, antonym) before choosing the answer</LI>
+          <LI>Learn word forms: noun/verb/adjective/adverb forms of high-frequency IEO words</LI>
+          <LI>Learn homophones at higher class levels (affect/effect, principle/principal, complement/compliment)</LI>
+        </UL>
+
+        <H2 id="class-level-differences">How the IEO changes by class level</H2>
+        <UL>
+          <LI><B>Classes 1&ndash;4:</B> Focus on basic grammar (simple tenses, articles, nouns/verbs/adjectives), simple vocabulary, and picture-based reading questions</LI>
+          <LI><B>Classes 5&ndash;7:</B> More tenses, active/passive voice enters, reading passages become longer and require inference</LI>
+          <LI><B>Classes 8&ndash;10:</B> Direct/indirect speech, all tenses tested, vocabulary involves word forms and analogies, reading requires identifying author purpose and tone</LI>
+          <LI><B>Classes 11&ndash;12:</B> Advanced grammar (conditionals, inversion, subjunctive), formal writing register, literary vocabulary, complex passage inference</LI>
+        </UL>
+
+        <H2 id="preparation-plan">Preparation plan by timeline</H2>
+        <UL>
+          <LI><B>Year-round:</B> Read in English daily (15+ minutes). This is the single most impactful preparation activity.</LI>
+          <LI><B>6 weeks before exam:</B> Study grammar systematically by topic. Start with tenses, then articles, then active/passive, then direct/indirect speech.</LI>
+          <LI><B>4 weeks before:</B> Add vocabulary practice &mdash; synonyms, antonyms, word analogies from class-level lists.</LI>
+          <LI><B>2 weeks before:</B> Complete sample papers under timed conditions. Review errors by understanding the rule, not just the correct answer.</LI>
+          <LI><B>1 week before:</B> Review error words and grammar rules from sample paper mistakes only. No new material.</LI>
+        </UL>
+
+        <CTA>Practise IEO questions by section &mdash; grammar, vocabulary, reading comprehension with explanations. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What does the IEO exam test?",
+        a: "The IEO tests four areas: Word and Structure Knowledge (grammar and vocabulary), Reading (passage comprehension and inference), Spoken and Written Expression (dialogue completion, formal/informal register), and an Achievers section with advanced questions across all three areas."
+      },
+      {
+        q: "What is the most important grammar topic for IEO?",
+        a: "Tenses — all 12 tenses with correct usage rules — are the most frequently tested grammar area across all class levels. Articles (a/an/the) are the most commonly tested error category. Active/passive voice and direct/indirect speech are the next most important areas for Classes 7 and above."
+      },
+      {
+        q: "How can I improve my IEO reading comprehension score?",
+        a: "Read in English for at least 15 minutes daily — books, quality articles, or magazines at or above your grade level. This is more effective than comprehension exercises alone because it builds vocabulary and reading speed simultaneously. When practising comprehension questions, distinguish between what the passage explicitly states and what must be inferred — this distinction is tested in every IEO paper."
+      },
+      {
+        q: "What is the Achievers section in IEO?",
+        a: "The Achievers section contains 5–10 questions at higher marks, testing advanced grammar nuance (choosing between two grammatically correct options based on meaning), complex reading inference, and advanced vocabulary. These questions are designed to be difficult for students who have only drilled grammar rules — they reward genuine language fluency and reading experience."
+      }
+    ]
+  },
+
+  /* 72 ──────────────────────────────────────────────────────── */
+  {
+    slug: "ieo-sample-papers-class-5",
+    title: "IEO Sample Papers for Class 5: What the Exam Tests and How to Prepare",
+    description:
+      "IEO Class 5 introduces longer reading passages, active/passive voice, and direct/indirect speech. This guide covers the topic distribution across sample papers, the most common question types, and a 6-week preparation plan.",
+    date: "2026-08-17",
+    tag: "English",
+    readingMinutes: 7,
+    keywords: [
+      "IEO sample papers class 5",
+      "IEO previous year papers class 5",
+      "IEO class 5 preparation",
+      "international english olympiad class 5",
+      "IEO class 5 question paper",
+    ],
+    excerpt:
+      "IEO Class 5 is the transition year where grammar becomes more complex and reading passages longer. Sample papers reveal the exact question distribution — here is the guide.",
+    content: (
+      <>
+        <P>
+          Class 5 IEO is where the exam moves from basic language skills to genuinely tested grammar and
+          reading ability. Active and passive voice are introduced. Indirect speech begins. Reading passages
+          become longer and ask inference questions rather than just recall. Vocabulary questions expand to
+          word analogies and multiple-meaning words. Students who have only practised Class 4&ndash;level
+          material will find Class 5 harder than expected. Sample papers are the fastest way to calibrate
+          to the new difficulty level.
+        </P>
+
+        <H2 id="paper-structure">Class 5 IEO paper structure</H2>
+        <UL>
+          <LI><B>Word and Structure Knowledge:</B> 15 questions</LI>
+          <LI><B>Reading:</B> 10 questions based on 1&ndash;2 passages</LI>
+          <LI><B>Spoken and Written Expression:</B> 10 questions</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 2 marks each</LI>
+        </UL>
+        <P>Total: 40 questions (SOF IEO transitions to 40 questions at Class 5). Time: 60 minutes. No negative marking.</P>
+
+        <H2 id="grammar-topics">Grammar topics in Class 5 IEO sample papers</H2>
+        <UL>
+          <LI><B>Tenses (all basic tenses):</B> 4&ndash;5 questions &mdash; selecting the correct tense, identifying errors, completing sentences</LI>
+          <LI><B>Active and passive voice:</B> 2&ndash;3 questions &mdash; converting between active and passive in simple and continuous tenses</LI>
+          <LI><B>Articles (a/an/the):</B> 2&ndash;3 questions &mdash; the most consistently tested error at this level</LI>
+          <LI><B>Nouns, pronouns, adjectives, adverbs:</B> 2&ndash;3 questions on identification and correct usage</LI>
+          <LI><B>Prepositions:</B> 2 questions on correct preposition choice</LI>
+          <LI><B>Conjunctions:</B> 1&ndash;2 questions on choosing the right conjunction (coordinating vs. subordinating)</LI>
+          <LI><B>Direct speech:</B> 1&ndash;2 questions &mdash; identifying correctly punctuated direct speech</LI>
+        </UL>
+
+        <H2 id="vocabulary-topics">Vocabulary topics</H2>
+        <UL>
+          <LI><B>Synonyms and antonyms:</B> 2&ndash;3 questions &mdash; vocabulary at Class 5 level</LI>
+          <LI><B>Word analogies:</B> 1&ndash;2 questions &mdash; choosing the pair that matches the given relationship</LI>
+          <LI><B>One-word substitutions:</B> 1&ndash;2 questions &mdash; replacing a phrase with a single word</LI>
+          <LI><B>Spellings:</B> 1&ndash;2 questions &mdash; identifying correctly/incorrectly spelled words from four options</LI>
+        </UL>
+
+        <H2 id="reading-comprehension">Reading comprehension at Class 5</H2>
+        <P>
+          Class 5 reading passages are 100&ndash;150 words long with 4&ndash;6 questions. Question types:
+        </P>
+        <UL>
+          <LI>Factual questions (the answer is directly in the passage)</LI>
+          <LI>Vocabulary in context (what does this word mean as used in the passage?)</LI>
+          <LI>Simple inference questions (what can we conclude from the passage?)</LI>
+          <LI>Title/main idea questions (which title best fits the passage?)</LI>
+        </UL>
+        <P>
+          The key skill for reading questions at Class 5 is re-reading before answering. Many students
+          read once and answer from memory &mdash; this leads to errors on inference questions where the
+          answer requires attention to a specific phrase or detail.
+        </P>
+        <Callout>
+          <B>Articles (a/an/the) are the most common source of grammar errors</B> in Class 5 IEO papers.
+          Students who speak a language without article systems (Hindi, Tamil, Telugu, and most Indian
+          languages) often find article rules counterintuitive. Dedicate at least one focused study
+          session to article rules: definite (the), indefinite (a/an), and zero article (no article
+          before uncountable nouns used generally).
+        </Callout>
+
+        <H2 id="preparation-plan">6-week preparation plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Tenses &mdash; all basic tenses with usage rules and 20 practice questions per tense type</LI>
+          <LI><B>Week 2:</B> Active/passive voice (simple present, simple past, simple future), articles</LI>
+          <LI><B>Week 3:</B> Vocabulary &mdash; synonyms, antonyms, one-word substitutions; word analogy practice</LI>
+          <LI><B>Week 4:</B> Reading comprehension practice &mdash; one passage per day, all four question types</LI>
+          <LI><B>Week 5:</B> Spoken expression (dialogue completion), prepositions, conjunctions</LI>
+          <LI><B>Week 6:</B> Two complete sample papers under timed conditions. Error review by grammar rule.</LI>
+        </UL>
+
+        <CTA>Practise Class 5 IEO questions by section &mdash; grammar, reading, vocabulary with explanations. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What grammar topics are tested in IEO Class 5?",
+        a: "Tenses (all basic tenses), active and passive voice, articles (a/an/the), nouns/pronouns/adjectives, prepositions, conjunctions, and introductory direct speech. Tenses and articles are the two most frequently tested areas."
+      },
+      {
+        q: "What are the most common errors in IEO Class 5 papers?",
+        a: "Article errors (a/an/the) are the most common — particularly using 'a' vs. 'the' and using articles before uncountable nouns. Tense errors (mixing present perfect and simple past) are the second most common. Both are predictable and can be systematically reduced through targeted grammar practice."
+      },
+      {
+        q: "How long are the reading passages in IEO Class 5?",
+        a: "100–150 words, with 4–6 questions per passage. Question types include factual questions, vocabulary in context, simple inference, and main idea/title selection. The most important skill is re-reading the specific sentence or paragraph before answering — not answering from memory."
+      },
+      {
+        q: "How is IEO Class 5 different from Class 4?",
+        a: "Class 5 introduces active and passive voice conversion, makes reading passages longer with more inference questions, expands vocabulary questions to include word analogies, and adds one-word substitution questions. The total paper expands to 40 questions. The grammar difficulty step from Class 4 to Class 5 is the largest in the primary school IEO series."
+      }
+    ]
+  },
+
+  /* 73 ──────────────────────────────────────────────────────── */
+  {
+    slug: "ieo-sample-papers-class-8",
+    title: "IEO Sample Papers for Class 8: Grammar Depth, Reading & Achievers Strategy",
+    description:
+      "IEO Class 8 is where grammar becomes genuinely complex — conditionals, all modal verbs, and nuanced direct/indirect speech all enter the picture. This guide covers what sample papers test, the most important grammar and vocabulary areas, and a preparation plan.",
+    date: "2026-08-17",
+    tag: "English",
+    readingMinutes: 8,
+    keywords: [
+      "IEO sample papers class 8",
+      "IEO previous year papers class 8",
+      "IEO class 8 preparation",
+      "international english olympiad class 8",
+      "IEO class 8 question paper with solutions",
+    ],
+    excerpt:
+      "IEO Class 8 tests complex grammar — conditionals, modal verbs, all tenses including perfect continuous — alongside vocabulary and inferential reading. Here is the full guide.",
+    content: (
+      <>
+        <P>
+          IEO Class 8 represents a substantial step up in language sophistication. The grammar topics are
+          now genuinely complex &mdash; all 12 tenses including perfect continuous, conditional sentences
+          (all types), modal verbs with nuanced meaning differences, and comprehensive direct/indirect speech
+          conversion including commands and questions. Vocabulary questions test word formation, idioms, and
+          phrases. Reading passages require identifying the author&rsquo;s purpose, distinguishing fact from
+          opinion, and drawing conclusions not explicitly stated. Students who have maintained consistent
+          English practice through lower classes find this manageable; those who have only prepared in the
+          weeks before the exam will struggle with the depth.
+        </P>
+
+        <H2 id="paper-structure">Class 8 IEO paper structure</H2>
+        <UL>
+          <LI><B>Word and Structure Knowledge:</B> 15 questions</LI>
+          <LI><B>Reading:</B> 15 questions based on 1&ndash;2 passages</LI>
+          <LI><B>Spoken and Written Expression:</B> 10 questions</LI>
+          <LI><B>Achievers Section:</B> 10 questions at 2 marks each</LI>
+        </UL>
+        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+
+        <H2 id="grammar-at-class8">Grammar topics at Class 8</H2>
+        <UL>
+          <LI><B>All 12 tenses:</B> Usage rules for perfect continuous tenses (has/have been + -ing, had been + -ing, will have been + -ing) alongside all other tenses</LI>
+          <LI><B>Conditional sentences:</B> Zero conditional (facts), first conditional (real future possibility), second conditional (unreal present), third conditional (unreal past)</LI>
+          <LI><B>Modal verbs:</B> Meaning distinctions between can/could, may/might, must/have to, should/ought to, would/used to in different contexts</LI>
+          <LI><B>Direct and indirect speech:</B> All tense changes, pronoun changes, time/place expression changes, and reporting of commands, requests, and questions</LI>
+          <LI><B>Active and passive voice:</B> All tenses including modals (must be done, should have been done)</LI>
+          <LI><B>Clauses:</B> Relative clauses (who, which, that, whose), noun clauses, adverb clauses</LI>
+          <LI><B>Articles and determiners:</B> Advanced article usage including zero article rules and determiners (few/a few, little/a little)</LI>
+        </UL>
+        <Callout>
+          <B>Conditionals are the highest-difficulty grammar topic in Class 8 IEO</B> and the one most
+          students have not studied before. The distinction between second and third conditionals is
+          consistently tested in the Achievers section. Spend a full study session on conditionals before
+          the exam &mdash; practise identifying which type is required from the context and forming
+          each type correctly.
+        </Callout>
+
+        <H2 id="vocabulary-at-class8">Vocabulary at Class 8</H2>
+        <UL>
+          <LI><B>Idioms and phrases:</B> Common idioms (break the ice, bite the bullet, under the weather) &mdash; 2&ndash;3 questions on meaning and usage</LI>
+          <LI><B>Word formation:</B> Adding prefixes and suffixes to form new words; identifying the correct word form for a given sentence context</LI>
+          <LI><B>Analogies:</B> More complex relationship types (instrument:musician, disease:treatment, part:whole)</LI>
+          <LI><B>Collocations:</B> Words that go together (heavy traffic, make a decision, take a risk)</LI>
+        </UL>
+
+        <H2 id="reading-at-class8">Reading comprehension at Class 8</H2>
+        <P>
+          Class 8 reading passages are 200&ndash;300 words with 6&ndash;8 questions requiring:
+        </P>
+        <UL>
+          <LI>Identifying the main idea or best title</LI>
+          <LI>Distinguishing fact from opinion</LI>
+          <LI>Identifying the author&rsquo;s purpose (to inform, to persuade, to entertain, to describe)</LI>
+          <LI>Drawing a conclusion not explicitly stated in the passage</LI>
+          <LI>Vocabulary in context (the meaning of a word as used, which may differ from its primary definition)</LI>
+        </UL>
+        <P>
+          The distinguishing-fact-from-opinion question is a consistent Class 8 IEO question type that
+          many students find difficult. A fact is a statement that can be verified; an opinion expresses
+          a judgment or belief. Practise identifying this distinction in newspapers and magazines &mdash;
+          it builds the skill faster than exercises alone.
+        </P>
+
+        <H2 id="preparation-plan">6-week preparation plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> All 12 tenses with perfect continuous focus; active/passive with modals</LI>
+          <LI><B>Week 2:</B> Conditional sentences (all four types) and modal verb meaning distinctions</LI>
+          <LI><B>Week 3:</B> Direct/indirect speech (all types &mdash; statements, commands, questions); clauses</LI>
+          <LI><B>Week 4:</B> Vocabulary &mdash; idioms, word formation, collocations, analogies</LI>
+          <LI><B>Week 5:</B> Reading comprehension practice &mdash; fact/opinion, author purpose, inference questions</LI>
+          <LI><B>Week 6:</B> Two complete timed papers. Achievers section from 3 past papers as a focused set.</LI>
+        </UL>
+
+        <CTA>Practise IEO Class 8 questions by section &mdash; complex grammar, vocabulary, reading with solutions. Free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What grammar topics are tested in IEO Class 8?",
+        a: "All 12 tenses (including perfect continuous), all four conditional types, modal verbs with meaning distinctions, comprehensive direct/indirect speech, active/passive with modals, relative clauses, and advanced articles and determiners. Conditionals are the most commonly missed topic."
+      },
+      {
+        q: "What are the conditional sentences tested in IEO Class 8?",
+        a: "All four types: zero conditional (if + present simple, present simple — for facts), first conditional (if + present simple, will + infinitive — real future possibility), second conditional (if + past simple, would + infinitive — unreal present), third conditional (if + past perfect, would have + past participle — unreal past). The second and third conditionals are the most commonly tested in the Achievers section."
+      },
+      {
+        q: "How difficult are IEO Class 8 reading passages?",
+        a: "200–300 words at a Class 8 reading level, with questions requiring inference and analysis beyond the text. The most challenging question types are identifying fact vs. opinion and drawing conclusions not explicitly stated in the passage. Both skills develop through regular reading of quality non-fiction — textbook reading alone is insufficient."
+      },
+      {
+        q: "What makes the IEO Class 8 Achievers section hard?",
+        a: "Achievers questions test nuance — choosing between two grammatically correct options based on meaning, applying conditional rules in complex sentences, identifying the author's rhetorical purpose from a passage, and understanding collocation patterns. These questions cannot be answered through rule-memorisation alone — they require genuine language competence developed through reading and language use."
+      }
+    ]
+  },
+
+  /* 74 ──────────────────────────────────────────────────────── */
+  {
+    slug: "how-to-crack-imo-in-first-attempt",
+    title: "How to Crack IMO in the First Attempt: Strategy, Mindset & Preparation",
+    description:
+      "Cracking the IMO in your first attempt is entirely achievable with the right preparation strategy. This guide covers the mindset, study approach, common mistakes to avoid, and a structured preparation plan that works regardless of class level.",
+    date: "2026-08-17",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "how to crack IMO",
+      "IMO first attempt strategy",
+      "how to score well in IMO",
+      "IMO preparation tips",
+      "cracking international maths olympiad",
+    ],
+    excerpt:
+      "Cracking the IMO in your first attempt is achievable with the right approach. Most students who underperform make the same three preparation mistakes. Here is what to do instead.",
+    content: (
+      <>
+        <P>
+          Every year, thousands of students appear for the IMO for the first time. Some score well above
+          expectations. Others &mdash; even students who are strong in school maths &mdash; underperform.
+          The difference is rarely natural ability. It is almost always preparation approach. This guide
+          is built on the patterns that separate first-attempt IMO success from first-attempt disappointment
+          &mdash; and what you can do about them.
+        </P>
+
+        <H2 id="three-mistakes">The three most common first-attempt mistakes</H2>
+        <UL>
+          <LI>
+            <B>Mistake 1: Preparing topics, not questions.</B> Many students read their maths textbook
+            chapters carefully and feel prepared. But IMO questions are not textbook questions &mdash;
+            they apply the same concepts in unfamiliar arrangements, often requiring multiple steps.
+            Reading chapters is necessary but not sufficient. Students who do not practise actual
+            Olympiad-format questions before the exam consistently find the paper harder than expected.
+          </LI>
+          <LI>
+            <B>Mistake 2: Neglecting the Achievers section.</B> The Achievers section carries 3 marks
+            per question versus 1 mark for regular questions. A student who scores 8/10 on Achievers
+            and 25/40 on the rest scores 49 marks. A student who scores 0/10 on Achievers and 35/40
+            on the rest scores 35 marks. The Achievers section is the most mark-efficient part of the
+            paper &mdash; every mark there is worth three times a regular mark.
+          </LI>
+          <LI>
+            <B>Mistake 3: Not practising under time pressure.</B> 50 questions in 60 minutes is one
+            minute and twelve seconds per question. Students who have practised without time limits
+            regularly run out of time in the actual exam. Timed practice is not optional at Class 6
+            and above.
+          </LI>
+        </UL>
+
+        <H2 id="what-works">What actually works</H2>
+        <UL>
+          <LI>
+            <B>Start with a diagnostic paper:</B> Before studying anything extra, sit a complete IMO
+            sample paper for your class under exam conditions. Note every wrong answer. Identify which
+            topics and which question types are generating errors. This is your priority list &mdash;
+            not a generic syllabus guide.
+          </LI>
+          <LI>
+            <B>Study the error topics at Olympiad depth:</B> For each topic where you made errors,
+            study the concept, then practise 20&ndash;30 Olympiad-format questions on it. Not textbook
+            exercises &mdash; actual multiple-choice questions at IMO difficulty from past papers or
+            practice sets.
+          </LI>
+          <LI>
+            <B>Build Achievers section as a separate unit:</B> Extract Achievers sections from 4&ndash;5
+            past papers. Practise them as a focused 20&ndash;25 question set. The Achievers question types
+            at your class level are more predictable than students expect &mdash; they follow patterns
+            that become visible after practising several papers.
+          </LI>
+          <LI>
+            <B>Do the reasoning section last in the actual exam:</B> Mathematical reasoning and everyday
+            mathematics questions are more directly mark-valuable per minute than logical reasoning.
+            If you are running low on time, sacrifice reasoning section questions last &mdash; but
+            make sure you practise reasoning section questions so this never happens.
+          </LI>
+        </UL>
+        <Callout>
+          <B>The single best IMO preparation habit</B> is doing one complete timed paper every 5&ndash;7
+          days in the 4 weeks before the exam, reviewing every error immediately after, and understanding
+          the correct solution (not just the correct answer). Four papers done this way will improve your
+          score more than reading the entire maths textbook an extra time.
+        </Callout>
+
+        <H2 id="topic-strategy">Topic strategy by priority</H2>
+        <P>
+          Regardless of class level, IMO topic priorities follow a consistent pattern:
+        </P>
+        <UL>
+          <LI><B>Arithmetic/number operations:</B> The largest section at every class level. Every error here directly costs marks. Practise until you make zero arithmetic errors on standard questions.</LI>
+          <LI><B>The &ldquo;new topic&rdquo; for your class:</B> Every class introduces a major new mathematical domain (fractions at Class 4, decimals at Class 5, algebra at Class 7, coordinate geometry at Class 9). This new topic disproportionately determines Achievers section performance &mdash; master it first.</LI>
+          <LI><B>Word problems:</B> Word problems appear in the Everyday Mathematics section and the Achievers section. They require reading carefully and translating correctly. Practise 2&ndash;3 word problems per day from the week you start preparation.</LI>
+          <LI><B>Reasoning section:</B> Consistent practice with each reasoning type (series, analogies, coding-decoding, seating arrangements) is the only effective preparation. You cannot &ldquo;figure out&rdquo; reasoning questions on the spot without practice.</LI>
+        </UL>
+
+        <H2 id="exam-day-strategy">Exam day strategy</H2>
+        <UL>
+          <LI>Read each question once completely before answering &mdash; do not start solving before finishing the question</LI>
+          <LI>If a question is taking more than 2 minutes, mark it and move on; return at the end</LI>
+          <LI>Attempt every question &mdash; there is no negative marking</LI>
+          <LI>In the final 5 minutes, go back to any skipped questions and make a best guess</LI>
+          <LI>Allocate time specifically: roughly 20 minutes for mathematical reasoning, 12 minutes for everyday maths, 15 minutes for reasoning, and 5 minutes for Achievers, with 8 minutes reserve</LI>
+        </UL>
+
+        <CTA>Start IMO preparation with class-level practice questions and full sample papers &mdash; free to begin today.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the most common reason students fail to crack IMO in the first attempt?",
+        a: "The most common reason is preparing topics without practising actual Olympiad-format questions. Students who read their textbook carefully feel prepared but find the IMO paper uses the same concepts in unfamiliar arrangements requiring multiple steps. The fix is simple: practise actual past paper questions from the start of preparation, not just at the end."
+      },
+      {
+        q: "How important is the Achievers section for IMO rank?",
+        a: "Critically important. Each Achievers question is worth 3 marks versus 1 mark for regular questions. A student who scores well on Achievers but misses some regular questions will often outscore a student who aces the regular section but skips Achievers. Treat Achievers as a separate preparation unit — extract and practise Achievers sections from 4–5 past papers."
+      },
+      {
+        q: "How many sample papers should I practise for IMO?",
+        a: "4–6 complete papers for most students. One diagnostic paper to start (before topic study), then 3–5 more papers under timed conditions after covering the priority topics. Quality matters more than quantity — review every error after each paper by understanding the correct solution, not just identifying the correct answer."
+      },
+      {
+        q: "Should I attempt every question in the IMO exam?",
+        a: "Yes — there is no negative marking in IMO. Attempt every question before the exam ends. If a question is taking too long, mark it, move on, and return at the end. In the final 5 minutes, answer any skipped questions with your best guess rather than leaving them blank."
+      }
+    ]
+  },
+
+  /* 75 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-preparation-schedule-for-working-parents",
+    title: "Olympiad Preparation Schedule for Working Parents: A Practical Guide",
+    description:
+      "Working parents want to support their child's Olympiad preparation but have limited time. This guide covers how to structure preparation without daily involvement, which decisions actually matter, and what you can delegate to your child at different ages.",
+    date: "2026-08-17",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "olympiad preparation for working parents",
+      "how to help child with olympiad preparation",
+      "olympiad schedule for busy parents",
+      "supporting child olympiad study",
+      "olympiad preparation guide parents",
+    ],
+    excerpt:
+      "Working parents don't need to sit through every study session. Here is how to structure effective Olympiad preparation with minimal daily time — and which decisions actually matter.",
+    content: (
+      <>
+        <P>
+          Working parents often feel guilty that they cannot be more involved in their child&rsquo;s Olympiad
+          preparation. This guilt is usually misplaced. Research on academic preparation consistently shows
+          that the quality of study time matters far more than parental presence during that time. What
+          working parents can do effectively is make the right decisions upfront (which Olympiads, which
+          resources, what schedule) and then create conditions for consistent self-directed study. This guide
+          shows you how to do exactly that &mdash; with the minimum time investment that makes a real difference.
+        </P>
+
+        <H2 id="decisions-that-matter">The decisions that actually matter</H2>
+        <UL>
+          <LI>
+            <B>Which Olympiads to register for:</B> More is not better. A child who prepares seriously
+            for one Olympiad will outperform a child who superficially prepares for four. Start with the
+            subject your child is strongest in or most interested in &mdash; the first Olympiad should be
+            a confidence-building experience, not a performance pressure.
+          </LI>
+          <LI>
+            <B>When to start preparation:</B> 6&ndash;8 weeks before the exam is the right window for
+            most Olympiads at primary and middle school level. Starting earlier rarely helps; starting later
+            than 4 weeks creates time pressure that stresses younger children.
+          </LI>
+          <LI>
+            <B>Which resources to use:</B> Official SOF/Silverzone sample papers plus one good practice book
+            for the subject. Do not buy multiple books &mdash; one book used thoroughly beats three books
+            sampled superficially.
+          </LI>
+          <LI>
+            <B>How much daily time:</B> 20&ndash;30 minutes per day is more effective than 2-hour weekend
+            sessions. Consistency beats intensity at the primary school level. For Class 8 and above,
+            30&ndash;45 minutes per day in the 6 weeks before the exam is appropriate.
+          </LI>
+        </UL>
+
+        <H2 id="weekly-schedule">A practical weekly schedule</H2>
+        <P>
+          This schedule requires approximately 30 minutes of parental time per week &mdash; enough to
+          stay informed and course-correct without daily involvement:
+        </P>
+        <UL>
+          <LI><B>Sunday (20 min parental time):</B> Review the week&rsquo;s practice results with your child. Which topics caused errors? Agree on the focus for the coming week. This is the most valuable 20 minutes you can spend.</LI>
+          <LI><B>Monday&ndash;Thursday (child self-study, 25 min each):</B> Topic study with practice questions. Child works independently. No need for parental involvement unless the child asks for help.</LI>
+          <LI><B>Friday (child self-study, 30 min):</B> One complete section or topic test (not a full paper &mdash; just the section practised that week).</LI>
+          <LI><B>Saturday (optional, 10 min parental check-in):</B> Look at Friday&rsquo;s results. Note if a topic needs more attention next week. Rest day for preparation.</LI>
+        </UL>
+        <P>
+          In the final 2 weeks before the exam, shift Friday and Saturday to complete timed papers.
+          Sunday review continues.
+        </P>
+
+        <H2 id="what-to-delegate">What to delegate to your child by age</H2>
+        <UL>
+          <LI>
+            <B>Classes 1&ndash;3:</B> Structure is essential at this age. Set up the study time, sit with your
+            child for the first few sessions to establish the routine, then step back. Young children need
+            the routine established before they can self-direct.
+          </LI>
+          <LI>
+            <B>Classes 4&ndash;6:</B> Children at this age can self-study once they understand what to study.
+            Your role: set the weekly focus, review Sunday results, and answer questions when asked.
+            Most of the actual studying happens independently.
+          </LI>
+          <LI>
+            <B>Classes 7&ndash;10:</B> At this age, children who have developed study habits can manage
+            their own Olympiad preparation almost entirely. Your role is primarily support &mdash; ensuring
+            study time is protected, resources are available, and the child is not under-prepared through
+            overconfidence.
+          </LI>
+        </UL>
+        <Callout>
+          <B>The most valuable thing working parents can do is protect study time.</B> This means ensuring
+          that the 25&ndash;30 minutes of daily study actually happens consistently. A child who studies
+          for 20 minutes every weekday for 6 weeks (600 minutes total) will outperform a child who
+          studies for 3 hours on two Sundays before the exam (360 minutes total) &mdash; every time.
+        </Callout>
+
+        <H2 id="digital-tools">Using digital tools effectively</H2>
+        <P>
+          Digital practice tools make independent Olympiad preparation significantly more effective:
+        </P>
+        <UL>
+          <LI>Instant explanations eliminate the need for a parent or tutor to explain every wrong answer</LI>
+          <LI>Topic-wise practice lets children focus on their weak areas without parental diagnosis</LI>
+          <LI>Progress tracking (which topics, which scores) gives parents the information they need for the Sunday review in minutes, not hours</LI>
+          <LI>Adaptive difficulty keeps the child in the productive challenge zone &mdash; not too easy (boredom) and not too hard (frustration)</LI>
+        </UL>
+
+        <H2 id="exam-week">Exam week without stress</H2>
+        <UL>
+          <LI>Ensure your child has seen and practised from at least 2&ndash;3 complete sample papers before the exam</LI>
+          <LI>The night before: no new material, light revision only, early sleep</LI>
+          <LI>The morning of: normal breakfast, arrive early to the exam centre (unfamiliar environments cause stress if rushed)</LI>
+          <LI>Afterwards: discuss what the experience was like, not just the expected score</LI>
+        </UL>
+
+        <CTA>Give your child a self-directed Olympiad practice tool with instant explanations &mdash; free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How much time do working parents need to spend on Olympiad preparation?",
+        a: "30 minutes per week of focused parental time is sufficient — primarily a weekly review of practice results and agreement on the next week's focus. The daily study (20–30 minutes) is self-directed by the child. What matters more than daily parental presence is the decision quality upfront: choosing the right Olympiad, starting at the right time, and using the right resources."
+      },
+      {
+        q: "How many Olympiads should a child register for?",
+        a: "One or two in the first year of Olympiad participation. More is not better — a child who prepares seriously for one Olympiad will outperform a child who superficially prepares for four. Once the child has competed and knows what the format feels like, they can add more Olympiads in subsequent years."
+      },
+      {
+        q: "When should we start Olympiad preparation?",
+        a: "6–8 weeks before the exam for primary school children (Classes 3–6). 8–10 weeks for Classes 7–10 where the syllabus is broader. Starting earlier than 8 weeks rarely improves performance for young children — the preparation fades before the exam. Starting later than 4 weeks creates time pressure."
+      },
+      {
+        q: "What do children need from parents during Olympiad preparation?",
+        a: "Protected study time (ensuring 25–30 minutes of daily study actually happens), resources (one good practice book and official sample papers), and a weekly review conversation (what went well, what was hard, what to focus on next week). Children do not need a parent to sit with them for every study session — that is counterproductive for building independent study habits."
+      }
+    ]
+  },
+
+  /* 76 ──────────────────────────────────────────────────────── */
+  {
+    slug: "common-mistakes-in-olympiad-preparation",
+    title: "10 Common Mistakes in Olympiad Preparation (And How to Fix Each One)",
+    description:
+      "Most Olympiad underperformance comes from a small set of avoidable preparation mistakes. This guide identifies the 10 most common ones — from reading without practising to ignoring the reasoning section — and gives a concrete fix for each.",
+    date: "2026-08-17",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "olympiad preparation mistakes",
+      "common mistakes in olympiad preparation",
+      "how to improve olympiad score",
+      "olympiad preparation tips",
+      "why students fail olympiad",
+    ],
+    excerpt:
+      "Most Olympiad underperformance comes from the same 10 preparation mistakes. Here is what they are and how to fix each one before your next exam.",
+    content: (
+      <>
+        <P>
+          After coaching thousands of Olympiad students, a clear pattern emerges: most underperformance
+          is not caused by lack of ability or insufficient study time. It is caused by a small set of
+          avoidable preparation mistakes that students make consistently. Recognising and fixing these
+          mistakes &mdash; even in the 2&ndash;3 weeks before an exam &mdash; can significantly change
+          the outcome. This guide covers the 10 most common ones.
+        </P>
+
+        <H2 id="mistake1">1. Reading the chapter instead of doing questions</H2>
+        <P>
+          <B>The mistake:</B> Students study by reading their maths or science chapter and feel confident
+          they &ldquo;know&rdquo; the topic. In the Olympiad, the questions apply the same concepts in
+          unfamiliar arrangements, and the reading-only student finds they cannot answer them.
+        </P>
+        <P>
+          <B>The fix:</B> For every chapter you &ldquo;know,&rdquo; do at least 15 Olympiad-format
+          questions on it before marking it prepared. If you can answer 13 of 15 correctly, you know it.
+          If you cannot, more reading will not help &mdash; more questions will.
+        </P>
+
+        <H2 id="mistake2">2. Skipping the Achievers section entirely</H2>
+        <P>
+          <B>The mistake:</B> Students attempt the regular sections only and skip Achievers because the
+          questions look harder. Since no negative marking exists, this strategy guarantees 0 on the
+          3-mark-per-question Achievers section &mdash; a very costly choice.
+        </P>
+        <P>
+          <B>The fix:</B> Always attempt every Achievers question &mdash; even if guessing. With four
+          options and no penalty, guessing gives an expected 0.75 marks per question. But better: prepare
+          the Achievers section as a unit by practising Achievers sections from 4&ndash;5 past papers.
+          The question types are more predictable than most students realise.
+        </P>
+
+        <H2 id="mistake3">3. Not practising under timed conditions</H2>
+        <P>
+          <B>The mistake:</B> Students practise questions at home with unlimited time, feel they are doing
+          well, and then run out of time in the actual 60-minute exam.
+        </P>
+        <P>
+          <B>The fix:</B> From Week 5 of a 6-week preparation plan, all full-paper practice must be timed.
+          Set a timer. When it rings, stop. Check your score and note which sections you did not finish.
+          This reveals your time management problem before the exam, not during it.
+        </P>
+
+        <H2 id="mistake4">4. Reviewing answers without understanding why</H2>
+        <P>
+          <B>The mistake:</B> After a practice paper, students check answers, mark themselves, and move on.
+          The wrong answers generate no learning because the student never understands why the answer was wrong.
+        </P>
+        <P>
+          <B>The fix:</B> For every wrong answer, read the full solution explanation (not just the correct
+          answer option). Then solve one more similar question on the same concept to confirm the understanding
+          has transferred.
+        </P>
+
+        <H2 id="mistake5">5. Studying too many books</H2>
+        <P>
+          <B>The mistake:</B> Parents buy 3&ndash;4 Olympiad preparation books. The child samples all of
+          them without completing any. This creates the illusion of preparation without the depth that
+          actually improves scores.
+        </P>
+        <P>
+          <B>The fix:</B> One good practice book, completed fully. Then official past papers. Two sources,
+          done well, beat six sources sampled superficially every time.
+        </P>
+        <Callout>
+          <B>The most common source of IMO underperformance in our analysis</B> is students who know the
+          syllabus content but have never practised under exam conditions. Every student who prepares for
+          at least 4 complete timed papers improves their score relative to those who have not &mdash;
+          regardless of how much other preparation they have done.
+        </Callout>
+
+        <H2 id="mistake6">6. Neglecting the reasoning section</H2>
+        <P>
+          <B>The mistake:</B> Students focus exclusively on the mathematical content and barely practise
+          the logical reasoning section. At Class 6 and above, reasoning is 15 of 50 questions &mdash;
+          30% of the paper. Neglecting it guarantees low total scores even with perfect maths.
+        </P>
+        <P>
+          <B>The fix:</B> Practise each reasoning type (series, analogies, coding-decoding, seating
+          arrangements, blood relations, direction sense) separately with 10&ndash;15 questions per type.
+          These are learnable skills &mdash; practice produces measurable improvement.
+        </P>
+
+        <H2 id="mistake7">7. Starting too late</H2>
+        <P>
+          <B>The mistake:</B> Starting preparation 2&ndash;3 weeks before the exam. At this point, a
+          student can cover some material but cannot do systematic preparation, practise multiple full
+          papers, or develop the reasoning section skills that require consistent practice.
+        </P>
+        <P>
+          <B>The fix:</B> 6&ndash;8 weeks before the exam for primary classes; 8&ndash;10 weeks for
+          Classes 8&ndash;10. Register for the Olympiad as soon as the school confirms it, and mark
+          the preparation start date in the calendar that same day.
+        </P>
+
+        <H2 id="mistake8">8. Ignoring word problems</H2>
+        <P>
+          <B>The mistake:</B> Students skip the word problems in practice because they are harder and
+          take more time. The Everyday Mathematics section of the IMO is entirely word problems. Skipping
+          them in practice means encountering them unpractised in the exam.
+        </P>
+        <P>
+          <B>The fix:</B> Practise 2&ndash;3 word problems per day from the start of preparation. Include
+          problems that require two operations (not just one) and problems that bury the question inside
+          extra information.
+        </P>
+
+        <H2 id="mistake9">9. Over-preparing strong topics</H2>
+        <P>
+          <B>The mistake:</B> Students spend most preparation time on topics they already know well because
+          those questions feel good to answer. Meanwhile, weak topics &mdash; which are the real source of
+          lost marks &mdash; receive insufficient attention.
+        </P>
+        <P>
+          <B>The fix:</B> Use the diagnostic paper (first complete practice paper) to identify weak topics.
+          Allocate preparation time in inverse proportion to current performance: the weakest topics get
+          the most time.
+        </P>
+
+        <H2 id="mistake10">10. Treating all Olympiads as identical</H2>
+        <P>
+          <B>The mistake:</B> A student who has done IMO preparation assumes they are ready for the NSO or
+          IEO without any specific preparation. The format, question style, and content are different
+          enough that cross-Olympiad performance is not automatic.
+        </P>
+        <P>
+          <B>The fix:</B> For each new Olympiad, do at least one past paper from that specific exam before
+          the preparation begins. The question style, timing, and difficulty calibration are specific to
+          each organiser &mdash; even when the subject is the same.
+        </P>
+
+        <CTA>Start your Olympiad preparation with class-level practice questions and full sample papers &mdash; free to begin today.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the most common reason students underperform in Olympiads?",
+        a: "The single most common reason is preparing by reading chapters without practising Olympiad-format questions. Students who know the content cannot always apply it in the unfamiliar question arrangements Olympiads use. The fix is simple: for every chapter you study, do at least 15 Olympiad-format questions before marking it prepared."
+      },
+      {
+        q: "Should students attempt every Achievers question even if they don't know the answer?",
+        a: "Yes — with no negative marking, guessing gives an expected 0.75 marks per question (one correct answer in four gives 3 marks; probability of correct guess is 1/4; expected value = 0.75). But more importantly, Achievers section question types are predictable across papers — students who practise Achievers sections from 4–5 past papers can answer many of them correctly."
+      },
+      {
+        q: "How early should Olympiad preparation start?",
+        a: "6–8 weeks before the exam for Classes 3–7; 8–10 weeks for Classes 8–10 where the syllabus is broader. The most commonly missed window is starting preparation 2–3 weeks before the exam — at this point there is insufficient time for systematic coverage, timed practice, and reasoning section development."
+      },
+      {
+        q: "How can students improve their Olympiad scores quickly?",
+        a: "The fastest improvement comes from: (1) doing at least one complete timed paper immediately to identify weak topics, (2) spending all remaining preparation time on weak topics rather than comfortable ones, (3) attempting all Achievers questions rather than skipping them. These three changes alone often shift scores by 10–20% in the 3–4 weeks before an exam."
+      }
+    ]
+  },
+
   /* 43 ──────────────────────────────────────────────────────── */
   {
     slug: "how-to-choose-the-right-olympiad-for-your-child",
