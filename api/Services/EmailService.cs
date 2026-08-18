@@ -10,6 +10,8 @@ public interface IEmailService
     Task SendWeeklyProgressAsync(string toEmail, string toName, int testsCompleted, int newBadges, int pendingTests, string userRank, string topBadgePlatform, string userBadgesHtml);
     Task SendSchoolJoinNotificationAsync(string coordinatorEmail, string schoolName, string studentName, string studentEmail);
     Task SendReengagementEmailAsync(string toEmail, string toName, int papersLeft);
+    Task SendUpgradeNudgeEmailAsync(string toEmail, string toName);      // Day 4
+    Task SendOfferDeadlineEmailAsync(string toEmail, string toName);     // Day 7
 }
 
 public class BrevoEmailService : IEmailService
@@ -98,9 +100,9 @@ public class BrevoEmailService : IEmailService
                     <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Start Practising Free →</a>
                 </div>
 
-                <div style=""background:#fefce8;border:1px solid #fef08a;border-radius:10px;padding:16px 20px;margin-top:24px;"">
-                    <p style=""margin:0;font-size:14px;color:#713f12;"">
-                        💡 <strong>Pro tip:</strong> After your 5 free papers, unlock unlimited AI-generated practice for just <strong>₹129/subject/month</strong> — less than ₹5 a day.
+                <div style=""background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:16px 20px;margin-top:24px;"">
+                    <p style=""margin:0;font-size:14px;color:#9a3412;"">
+                        🎉 <strong>August Special:</strong> After your 5 free papers, unlock unlimited practice for just <strong>₹77/subject/month</strong> (40% off — offer ends 31 August).
                     </p>
                 </div>
             </div>
@@ -422,5 +424,131 @@ public class BrevoEmailService : IEmailService
         {
             _log.LogError(ex, "Exception while sending re-engagement email to {Email}", toEmail);
         }
+    }
+
+    // ── Day 4: Upgrade nudge ──────────────────────────────────────────────────
+    public async Task SendUpgradeNudgeEmailAsync(string toEmail, string toName)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey)) return;
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "Student" : toName.Split(' ')[0];
+
+        string htmlContent = $@"
+        <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
+            <div style=""background:#1e3a8a;padding:36px 20px 28px;text-align:center;"">
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
+                <h1 style=""color:#ffffff;margin:18px 0 0;font-size:24px;font-weight:700;"">Olympiad exams start in October ⏰</h1>
+            </div>
+            <div style=""padding:36px 32px;"">
+                <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
+                <p style=""font-size:15px;color:#475569;line-height:1.6;"">
+                    You tried OlympiadReady a few days ago — great first step! Students who practice consistently in August and September are 3× more likely to qualify for Level 2.
+                </p>
+                <div style=""background:#fef9c3;border:1px solid #fde68a;border-radius:10px;padding:20px;margin:24px 0;"">
+                    <p style=""margin:0 0 8px;font-size:15px;color:#92400e;font-weight:700;"">🎉 August Special — 40% Off (ends 31 Aug)</p>
+                    <table style=""width:100%;border-collapse:collapse;margin-top:8px;"">
+                        <tr>
+                            <td style=""font-size:14px;color:#44403c;padding:6px 0;"">Per Subject / Month</td>
+                            <td style=""text-align:right;font-size:14px;""><span style=""text-decoration:line-through;color:#a8a29e;"">₹129</span> → <strong style=""color:#15803d;"">₹77</strong></td>
+                        </tr>
+                        <tr>
+                            <td style=""font-size:14px;color:#44403c;padding:6px 0;"">Champion (All Subjects)</td>
+                            <td style=""text-align:right;font-size:14px;""><span style=""text-decoration:line-through;color:#a8a29e;"">₹649</span> → <strong style=""color:#15803d;"">₹389/mo</strong></td>
+                        </tr>
+                        <tr>
+                            <td style=""font-size:14px;color:#44403c;padding:6px 0;"">PDF Practice Papers</td>
+                            <td style=""text-align:right;font-size:14px;""><span style=""text-decoration:line-through;color:#a8a29e;"">₹29</span> → <strong style=""color:#15803d;"">₹19</strong></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:24px;text-align:center;"">
+                    <p style=""margin:0 0 6px;font-size:15px;color:#1e40af;font-weight:600;"">7 fresh AI mock exams every week</p>
+                    <p style=""margin:0 0 20px;font-size:14px;color:#3b82f6;"">Covers IMO · NSO · IEO · IGKO · Spell Bee — all in one place.</p>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Upgrade Now — ₹77/month →</a>
+                </div>
+                <p style=""margin-top:24px;font-size:13px;color:#64748b;text-align:center;"">No lock-in. Cancel anytime. Secured by Razorpay.</p>
+            </div>
+            <div style=""background:#f1f5f9;padding:20px;text-align:center;border-top:1px solid #e2e8f0;"">
+                <p style=""margin:0;font-size:12px;color:#64748b;"">© {DateTime.UtcNow.Year} OlympiadReady · <a href=""https://olympiadready.com"" style=""color:#4f46e5;"">olympiadready.com</a></p>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = firstName } },
+            subject = $"{firstName}, Olympiad exams start in October — upgrade at 40% off before August ends 🏆",
+            htmlContent
+        };
+        try
+        {
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+                _log.LogError("Day-4 nudge email failed for {Email}: {Status}", toEmail, res.StatusCode);
+            else
+                _log.LogInformation("Day-4 nudge email sent to {Email}", toEmail);
+        }
+        catch (Exception ex) { _log.LogError(ex, "Exception sending Day-4 nudge email to {Email}", toEmail); }
+    }
+
+    // ── Day 7: Offer deadline ─────────────────────────────────────────────────
+    public async Task SendOfferDeadlineEmailAsync(string toEmail, string toName)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey)) return;
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "Student" : toName.Split(' ')[0];
+
+        string htmlContent = $@"
+        <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
+            <div style=""background:linear-gradient(135deg,#ea580c,#dc2626);padding:36px 20px 28px;text-align:center;"">
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
+                <h1 style=""color:#ffffff;margin:18px 0 0;font-size:24px;font-weight:700;"">Last chance — 40% off ends 31 August 🔥</h1>
+            </div>
+            <div style=""padding:36px 32px;"">
+                <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
+                <p style=""font-size:15px;color:#475569;line-height:1.6;"">
+                    The August Olympiad special ends in a few days. After August, prices go back to ₹129/subject — this is your last chance to lock in 40% off.
+                </p>
+                <div style=""background:#fef2f2;border:2px solid #fca5a5;border-radius:12px;padding:24px;margin:24px 0;text-align:center;"">
+                    <p style=""margin:0 0 4px;font-size:13px;font-weight:700;color:#991b1b;text-transform:uppercase;letter-spacing:0.05em;"">Offer expires 31 August 2026</p>
+                    <p style=""margin:8px 0;font-size:32px;font-weight:800;color:#1e3a8a;"">₹77<span style=""font-size:16px;font-weight:400;color:#64748b;"">/subject/month</span></p>
+                    <p style=""margin:0 0 20px;font-size:14px;color:#64748b;"">Champion plan (all subjects): ₹389/month</p>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background:#dc2626;color:#fff;padding:16px 36px;text-decoration:none;border-radius:8px;font-weight:700;font-size:16px;display:inline-block;"">Claim 40% Off Now →</a>
+                </div>
+                <div style=""display:flex;gap:12px;margin-top:16px;"">
+                    <div style=""flex:1;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px;text-align:center;"">
+                        <div style=""font-size:20px;margin-bottom:6px;"">🎯</div>
+                        <div style=""font-size:12px;font-weight:600;color:#1e293b;"">7 fresh exams/week</div>
+                    </div>
+                    <div style=""flex:1;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px;text-align:center;"">
+                        <div style=""font-size:20px;margin-bottom:6px;"">📄</div>
+                        <div style=""font-size:12px;font-weight:600;color:#1e293b;"">PDF papers ₹19</div>
+                    </div>
+                    <div style=""flex:1;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px;text-align:center;"">
+                        <div style=""font-size:20px;margin-bottom:6px;"">🏅</div>
+                        <div style=""font-size:12px;font-weight:600;color:#1e293b;"">All olympiads</div>
+                    </div>
+                </div>
+                <p style=""margin-top:24px;font-size:13px;color:#64748b;text-align:center;"">No lock-in. Cancel anytime. Secured by Razorpay.</p>
+            </div>
+            <div style=""background:#f1f5f9;padding:20px;text-align:center;border-top:1px solid #e2e8f0;"">
+                <p style=""margin:0;font-size:12px;color:#64748b;"">© {DateTime.UtcNow.Year} OlympiadReady · <a href=""https://olympiadready.com"" style=""color:#4f46e5;"">olympiadready.com</a></p>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = firstName } },
+            subject = $"Last chance {firstName} — 40% off ends 31 August. Don't miss it! 🔥",
+            htmlContent
+        };
+        try
+        {
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+                _log.LogError("Day-7 deadline email failed for {Email}: {Status}", toEmail, res.StatusCode);
+            else
+                _log.LogInformation("Day-7 deadline email sent to {Email}", toEmail);
+        }
+        catch (Exception ex) { _log.LogError(ex, "Exception sending Day-7 deadline email to {Email}", toEmail); }
     }
 }

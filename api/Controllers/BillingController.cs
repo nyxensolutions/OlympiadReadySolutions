@@ -1,3 +1,6 @@
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -244,5 +247,123 @@ public class BillingController : ControllerBase
             success = true,
             planName = transaction.PlanName
         });
+    }
+
+    // ── Razorpay webhook ──────────────────────────────────────────────────────
+    // Safety net: if the client-side /verify call fails (browser closes, network
+    // drop), Razorpay retries this endpoint server-to-server until we return 200.
+    // Configure the webhook URL in Razorpay Dashboard → Webhooks → payment.captured
+    // and set Razorpay:WebhookSecret in app settings to the webhook secret shown there.
+    [HttpPost("webhook")]
+    [AllowAnonymous]
+    public async Task<IActionResult> Webhook(CancellationToken ct)
+    {
+        var webhookSecret = _razorpay.WebhookSecret;
+        if (string.IsNullOrEmpty(webhookSecret))
+        {
+            _log.LogWarning("Razorpay webhook received but WebhookSecret is not configured — skipping.");
+            return Ok(); // Return 200 so Razorpay doesn't keep retrying
+        }
+
+        // Read raw body for signature verification
+        Request.EnableBuffering();
+        using var reader = new System.IO.StreamReader(Request.Body, leaveOpen: true);
+        var rawBody = await reader.ReadToEndAsync(ct);
+        Request.Body.Position = 0;
+
+        // Verify signature: HMAC-SHA256(webhookSecret, rawBody)
+        var signature = Request.Headers["X-Razorpay-Signature"].FirstOrDefault() ?? "";
+        using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(webhookSecret));
+        var computed = Convert.ToHexString(hmac.ComputeHash(Encoding.UTF8.GetBytes(rawBody))).ToLowerInvariant();
+        if (!CryptographicOperations.FixedTimeEquals(Encoding.UTF8.GetBytes(computed), Encoding.UTF8.GetBytes(signature.ToLowerInvariant())))
+        {
+            _log.LogWarning("Razorpay webhook signature mismatch — ignoring.");
+            return Ok(); // Still 200 to avoid Razorpay thinking it's a server error
+        }
+
+        JsonDocument doc;
+        try { doc = JsonDocument.Parse(rawBody); }
+        catch { return Ok(); }
+
+        using (doc)
+        {
+            var eventType = doc.RootElement.TryGetProperty("event", out var ev) ? ev.GetString() : null;
+            if (eventType != "payment.captured") return Ok(); // Only handle captures
+
+            // Extract orderId from payment entity
+            string? orderId = null;
+            string? paymentId = null;
+            if (doc.RootElement.TryGetProperty("payload", out var payload) &&
+                payload.TryGetProperty("payment", out var paymentWrapper) &&
+                paymentWrapper.TryGetProperty("entity", out var entity))
+            {
+                orderId  = entity.TryGetProperty("order_id",  out var o) ? o.GetString() : null;
+                paymentId = entity.TryGetProperty("id",        out var p) ? p.GetString() : null;
+            }
+
+            if (string.IsNullOrEmpty(orderId) || string.IsNullOrEmpty(paymentId))
+            {
+                _log.LogWarning("Webhook: could not extract orderId/paymentId from payload.");
+                return Ok();
+            }
+
+            var transaction = await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpayOrderId == orderId, ct);
+            if (transaction == null)
+            {
+                _log.LogWarning("Webhook: no PaymentTransaction found for orderId {OrderId}", orderId);
+                return Ok();
+            }
+
+            if (transaction.Status == "Success")
+            {
+                _log.LogInformation("Webhook: order {OrderId} already processed — skipping.", orderId);
+                return Ok();
+            }
+
+            // Look up the user
+            var user = await _db.Users.FindAsync(new object[] { transaction.UserId }, ct);
+            if (user == null)
+            {
+                _log.LogError("Webhook: user {UserId} not found for order {OrderId}", transaction.UserId, orderId);
+                return Ok();
+            }
+
+            var rawSubjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
+            var subjects = rawSubjects.Contains("All", StringComparer.OrdinalIgnoreCase)
+                ? AllSubjectsForGrade(transaction.Grade)
+                : rawSubjects;
+
+            foreach (var subject in subjects)
+            {
+                int pricePerSubject = transaction.AmountInPaise / (subjects.Count > 0 ? subjects.Count : 1);
+                await _subs.UnlockSubjectAsync(user.UserId, transaction.Grade, subject, transaction.Days, pricePerSubject, orderId, paymentId, ct);
+            }
+
+            transaction.Status = "Success";
+            transaction.RazorpayPaymentId = paymentId;
+            await _db.SaveChangesAsync(ct);
+
+            _log.LogInformation("Webhook: unlocked {Plan} for user {UserId} via order {OrderId}", transaction.PlanName, user.UserId, orderId);
+
+            // Send receipt email in background
+            var emailStr  = user.Email;
+            var nameStr   = user.FullName ?? "User";
+            var planStr   = transaction.PlanName ?? "";
+            var amt       = transaction.AmountInPaise;
+            var subjs     = subjects;
+            var scopeFactory = HttpContext.RequestServices.GetRequiredService<IServiceScopeFactory>();
+            _ = Task.Run(async () =>
+            {
+                try
+                {
+                    using var scope = scopeFactory.CreateScope();
+                    var emailSvc = scope.ServiceProvider.GetRequiredService<IEmailService>();
+                    await emailSvc.SendSubscriptionReceiptAsync(emailStr, nameStr, planStr, amt, subjs);
+                }
+                catch (Exception ex) { Console.WriteLine($"Webhook receipt email failed: {ex.Message}"); }
+            });
+        }
+
+        return Ok();
     }
 }

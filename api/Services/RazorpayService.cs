@@ -16,6 +16,7 @@ public class RazorpayService
     private readonly ILogger<RazorpayService> _log;
     private readonly string _keyId;
     private readonly string _keySecret;
+    private readonly string _webhookSecret;
     private readonly Dictionary<string, PlanConfig> _plans;
 
     public RazorpayService(HttpClient http, IConfiguration config, ILogger<RazorpayService> log)
@@ -24,6 +25,7 @@ public class RazorpayService
         _log = log;
         _keyId = config["Razorpay:KeyId"] ?? "";
         _keySecret = config["Razorpay:KeySecret"] ?? "";
+        _webhookSecret = config["Razorpay:WebhookSecret"] ?? "";
         _plans = LoadPlans(config);
 
         if (!string.IsNullOrEmpty(_keyId) && !string.IsNullOrEmpty(_keySecret))
@@ -34,6 +36,7 @@ public class RazorpayService
     }
 
     public string KeyId => _keyId;
+    public string WebhookSecret => _webhookSecret;
 
     public bool IsConfigured =>
         !string.IsNullOrEmpty(_keyId) && !string.IsNullOrEmpty(_keySecret);

@@ -110,6 +110,103 @@ public class JobsController : ControllerBase
         return Ok(new { success = true, emailsSent });
     }
 
+    // Day 4: Upgrade nudge — free users who signed up 3-4 days ago and haven't subscribed
+    [HttpPost("upgrade-nudge-emails")]
+    public async Task<IActionResult> SendUpgradeNudgeEmails([FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
+    {
+        var expectedKey = _config["Cron:SecretKey"];
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
+            return Unauthorized("Invalid Cron-Key");
+
+        var now = DateTime.UtcNow;
+        var windowStart = now.AddDays(-4);
+        var windowEnd   = now.AddDays(-3);
+
+        // Free users with no active subscription, signed up 3-4 days ago
+        var paidUserIds = await _db.Subscriptions
+            .Where(s => s.EndDate > now)
+            .Select(s => s.UserId)
+            .Distinct()
+            .ToListAsync(ct);
+
+        var targets = await _db.Users
+            .Where(u => !string.IsNullOrEmpty(u.Email)
+                     && !u.Email.EndsWith("@clerk.local")
+                     && u.CreatedAt >= windowStart
+                     && u.CreatedAt < windowEnd
+                     && !paidUserIds.Contains(u.UserId))
+            .ToListAsync(ct);
+
+        int sent = 0;
+        foreach (var user in targets)
+        {
+            await _email.SendUpgradeNudgeEmailAsync(user.Email!, user.FullName ?? "");
+            sent++;
+        }
+        _log.LogInformation("Upgrade-nudge job: sent {Count} emails", sent);
+        return Ok(new { success = true, emailsSent = sent });
+    }
+
+    // Day 7: Offer deadline — free users who signed up 6-7 days ago and haven't subscribed
+    [HttpPost("offer-deadline-emails")]
+    public async Task<IActionResult> SendOfferDeadlineEmails([FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
+    {
+        var expectedKey = _config["Cron:SecretKey"];
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
+            return Unauthorized("Invalid Cron-Key");
+
+        var now = DateTime.UtcNow;
+        var windowStart = now.AddDays(-7);
+        var windowEnd   = now.AddDays(-6);
+
+        var paidUserIds = await _db.Subscriptions
+            .Where(s => s.EndDate > now)
+            .Select(s => s.UserId)
+            .Distinct()
+            .ToListAsync(ct);
+
+        var targets = await _db.Users
+            .Where(u => !string.IsNullOrEmpty(u.Email)
+                     && !u.Email.EndsWith("@clerk.local")
+                     && u.CreatedAt >= windowStart
+                     && u.CreatedAt < windowEnd
+                     && !paidUserIds.Contains(u.UserId))
+            .ToListAsync(ct);
+
+        int sent = 0;
+        foreach (var user in targets)
+        {
+            await _email.SendOfferDeadlineEmailAsync(user.Email!, user.FullName ?? "");
+            sent++;
+        }
+        _log.LogInformation("Offer-deadline job: sent {Count} emails", sent);
+        return Ok(new { success = true, emailsSent = sent });
+    }
+
+    [HttpPost("upgrade-nudge-emails/test")]
+    public async Task<IActionResult> TestUpgradeNudgeEmail([FromQuery] string email, [FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
+    {
+        var expectedKey = _config["Cron:SecretKey"];
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
+            return Unauthorized("Invalid Cron-Key");
+        if (string.IsNullOrWhiteSpace(email)) return BadRequest("Email is required");
+
+        await _email.SendUpgradeNudgeEmailAsync(email, "Akhil");
+        return Ok(new { success = true, message = $"Day-4 upgrade nudge email sent to {email}" });
+    }
+
+    [HttpPost("offer-deadline-emails/test")]
+    public async Task<IActionResult> TestOfferDeadlineEmail([FromQuery] string email, [FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
+    {
+        var expectedKey = _config["Cron:SecretKey"];
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
+            return Unauthorized("Invalid Cron-Key");
+        if (string.IsNullOrWhiteSpace(email)) return BadRequest("Email is required");
+
+        await _email.SendOfferDeadlineEmailAsync(email, "Akhil");
+        return Ok(new { success = true, message = $"Day-7 offer deadline email sent to {email}" });
+    }
+
     [HttpPost("weekly-emails/test")]
     public async Task<IActionResult> TestWeeklyEmail([FromQuery] string email, [FromHeader(Name = "Cron-Key")] string? cronKey)
     {

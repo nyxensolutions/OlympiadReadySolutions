@@ -14,6 +14,7 @@ import { PricingTransparencySection } from "./landing/PricingTransparencySection
 import { SocialProofSection } from "./landing/SocialProofSection";
 import { SubjectCoverageSection } from "./landing/SubjectCoverageSection";
 import { TestimonialsSection } from "./landing/TestimonialsSection";
+import { StudentSuccessSection } from "./landing/StudentSuccessSection";
 import { TryItSection } from "./landing/TryItSection";
 
 export function LandingPage() {
@@ -24,6 +25,7 @@ export function LandingPage() {
       <TryItSection />
       <FeaturesSection />
       <HowItWorksSection />
+      <StudentSuccessSection />
       <TestimonialsSection />
       <PricingTransparencySection />
       <LandingRewards />

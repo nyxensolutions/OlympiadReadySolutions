@@ -102,11 +102,14 @@ export function AppHeader({ active }: { active?: ActivePage }) {
 
         {/* Center nav — signed-out: anchor links; signed-in: app nav */}
         <SignedOut>
-          <nav className="hidden flex-1 items-center justify-center gap-6 sm:flex ml-8">
+          <nav className="hidden flex-1 items-center justify-center gap-4 sm:flex ml-6">
             <Link href="/#features" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">Features</Link>
             <Link href="/#how-it-works" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">How It Works</Link>
+            <Link href="/#winners" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">Champions</Link>
+            <Link href="/#testimonials" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">Reviews</Link>
+            <Link href="/#pricing" className="text-sm font-medium text-slate-600 transition hover:text-brand-600">Pricing</Link>
             <Link href="/olympiad-dates" className={`text-sm font-medium transition ${active === "olympiad-dates" ? "text-brand-600" : "text-slate-600 hover:text-brand-600"}`}>
-              Olympiad Dates
+              Dates
             </Link>
             <Link href="/blog" className={`text-sm font-medium transition ${active === "blog" ? "text-brand-600" : "text-slate-600 hover:text-brand-600"}`}>
               Blog
@@ -183,9 +186,12 @@ export function AppHeader({ active }: { active?: ActivePage }) {
         <div className="border-t border-slate-200 bg-white px-4 py-3 sm:hidden">
           <SignedOut>
             <div className="flex flex-col gap-1">
-              <Link href="/#try-it" className="rounded-lg px-3 py-2 text-sm font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 flex items-center gap-2" onClick={() => setMobileOpen(false)}><Sparkles className="h-4 w-4" /> Try It</Link>
+              <Link href="/#try-it" className="rounded-lg px-3 py-2 text-sm font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 flex items-center gap-2" onClick={() => setMobileOpen(false)}><Sparkles className="h-4 w-4" /> Try It Free</Link>
               <Link href="/#features" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Features</Link>
               <Link href="/#how-it-works" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>How It Works</Link>
+              <Link href="/#winners" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>🏆 Champions</Link>
+              <Link href="/#testimonials" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>⭐ Reviews</Link>
+              <Link href="/#pricing" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Pricing</Link>
               <Link href="/olympiad-dates" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Olympiad Dates</Link>
               <Link href="/blog" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Blog</Link>
             </div>

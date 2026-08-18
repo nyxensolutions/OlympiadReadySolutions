@@ -278,39 +278,28 @@ public class SubscriptionService
     /// </summary>
     public async Task UnlockSubjectAsync(Guid userId, int grade, string subject, int days, int amountInPaise, string razorpayOrderId, string razorpayPaymentId, CancellationToken ct)
     {
+        // Always create a new subscription row so every payment has its own history record.
+        // If an active subscription exists, the new one starts from its EndDate (seamless renewal).
         var existing = await _db.Subscriptions
-            .FirstOrDefaultAsync(s => s.UserId == userId && s.Grade == grade && s.Subject == subject && s.EndDate > DateTime.UtcNow, ct);
+            .Where(s => s.UserId == userId && s.Grade == grade && s.Subject == subject && s.EndDate > DateTime.UtcNow)
+            .OrderByDescending(s => s.EndDate)
+            .FirstOrDefaultAsync(ct);
 
-        if (existing != null)
+        var startDate = existing != null ? existing.EndDate : DateTime.UtcNow;
+        var sub = new Subscription
         {
-            existing.EndDate = existing.EndDate.AddDays(days);
-            // Optionally update the amount to reflect the latest top-up, but for invoice purposes, a new record is better. 
-            // Since the system creates a new subscription record or extends, let's just extend but keep track.
-            // Wait, if it extends, it won't show as a new purchase. Let's create a new one instead of extending, or just extend.
-            // Actually, the user's previous code extended it. Let's leave it as extending and updating the IDs for now, or maybe create a new record.
-            // A safer approach for invoices is to ALWAYS create a new subscription record if it's a new purchase, but the existing logic extends. Let's just create a new record to keep history intact for invoices.
-            // Actually let's just update the existing one for now to avoid breaking existing logic.
-            existing.AmountInPaise = amountInPaise;
-            existing.RazorpayOrderId = razorpayOrderId;
-            existing.RazorpayPaymentId = razorpayPaymentId;
-        }
-        else
-        {
-            var sub = new Subscription
-            {
-                UserId = userId,
-                PlanName = "Modular",
-                Grade = grade,
-                Subject = subject,
-                StartDate = DateTime.UtcNow,
-                EndDate = DateTime.UtcNow.AddDays(days),
-                AiGenerationsUsed = 0,
-                AmountInPaise = amountInPaise,
-                RazorpayOrderId = razorpayOrderId,
-                RazorpayPaymentId = razorpayPaymentId
-            };
-            _db.Subscriptions.Add(sub);
-        }
+            UserId = userId,
+            PlanName = "Modular",
+            Grade = grade,
+            Subject = subject,
+            StartDate = startDate,
+            EndDate = startDate.AddDays(days),
+            AiGenerationsUsed = 0,
+            AmountInPaise = amountInPaise,
+            RazorpayOrderId = razorpayOrderId,
+            RazorpayPaymentId = razorpayPaymentId
+        };
+        _db.Subscriptions.Add(sub);
 
         // Keep Users.SubscriptionTier in sync so dashboards and emails reflect paid status
         var user = await _db.Users.FindAsync(new object[] { userId }, ct);

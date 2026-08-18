@@ -14,7 +14,7 @@ const COMPARISON = [
 
 export function PricingTransparencySection() {
   return (
-    <section className="bg-slate-50 px-4 py-20 sm:py-28">
+    <section id="pricing" className="bg-slate-50 px-4 py-20 sm:py-28">
       <div className="mx-auto max-w-5xl">
         {/* August Offer Banner */}
         <div className="mb-10 mx-auto max-w-2xl rounded-2xl bg-gradient-to-r from-orange-500 to-amber-500 p-px shadow-lg">

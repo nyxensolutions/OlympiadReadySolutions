@@ -523,6 +523,27 @@ function DashboardBody() {
       {/* Main content */}
       <div className="mx-auto max-w-6xl px-4 py-8 space-y-6">
 
+        {/* August offer banner — shown to Free users who haven't started yet */}
+        {data.subscription.tier === "Free" && !data.subscription.onSchoolPilot && data.subscription.used === 0 && (
+          <div className="flex flex-wrap items-center gap-4 rounded-2xl border border-orange-200 bg-gradient-to-r from-orange-50 to-amber-50 px-5 py-4">
+            <div className="text-2xl">🎉</div>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-bold text-orange-900">August Special — 40% off all plans</p>
+              <p className="text-xs text-orange-700 mt-0.5">
+                Upgrade now at ₹77/subject/month (was ₹129) · Champion plan all subjects ₹389/month · Offer ends 31 August.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setShowUpgrade(true)}
+              className="shrink-0 inline-flex items-center gap-1.5 rounded-xl bg-orange-500 px-4 py-2 text-xs font-bold text-white shadow transition hover:bg-orange-600"
+            >
+              <Crown className="h-3.5 w-3.5" />
+              See offer
+            </button>
+          </div>
+        )}
+
         {/* Free papers usage banner — shown to Free tier users only */}
         {data.subscription.tier === "Free" && !data.subscription.onSchoolPilot && data.subscription.used > 0 && (
           <div className={`flex flex-wrap items-center gap-4 rounded-2xl border px-5 py-4 ${
@@ -545,7 +566,7 @@ function DashboardBody() {
               }`}>
                 {data.subscription.limit - data.subscription.used <= 0
                   ? "Upgrade to continue practising with unlimited AI-generated papers."
-                  : `${data.subscription.limit - data.subscription.used} paper${data.subscription.limit - data.subscription.used === 1 ? "" : "s"} remaining — then ₹129/subject/month for unlimited access.`}
+                  : `${data.subscription.limit - data.subscription.used} paper${data.subscription.limit - data.subscription.used === 1 ? "" : "s"} remaining — unlock unlimited practice for ₹77/subject/month (40% off, August only).`}
               </p>
             </div>
             {/* Progress bar */}

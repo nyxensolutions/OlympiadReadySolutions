@@ -1,39 +1,63 @@
 "use client";
 
-import { Star } from "lucide-react";
+import { Play, Star } from "lucide-react";
 
 const TESTIMONIALS = [
   {
-    name: "Sunita Sharma",
-    role: "Parent of Class 6 student",
-    school: "Delhi Public School, R.K. Puram",
+    name: "Arsh Mittal",
+    role: "Class 7 Student",
+    school: "Amity International School, Noida",
     content:
-      "My son qualified for SOF IMO Level 2 this year — first time in his school! He practiced 15 minutes a day on OlympiadReady. Less than ₹129 a month is nothing compared to the ₹800/hr tutor we were considering.",
-    avatar: "SS",
+      "My friends and I all use OlympiadReady for IMO prep. I was stuck at Level 1 for two years. This year I finally made it to Level 2 — the AI-generated papers kept pushing me past my comfort zone. 15 minutes a day, that's all it took.",
+    avatar: "AM",
     gradient: "from-brand-600 to-accent-600",
     tag: "IMO Level 2 qualifier",
   },
   {
-    name: "Kavitha Reddy",
-    role: "Parent of Class 4 student",
-    school: "Kendriya Vidyalaya, Hyderabad",
+    name: "Divit Agarwal",
+    role: "Class 7 Student",
+    school: "Delhi Public School, Noida Extension",
     content:
-      "I was sceptical — my daughter has tried many apps. But the questions here are actually at the right level. She got a Gold Medal in NSO this year. The timed tests gave her confidence for the real exam.",
-    avatar: "KR",
+      "The mock papers feel exactly like real SOF exams. I did 20+ papers before IEO and nothing surprised me on the actual exam day. Cleared with a school rank of 1. The timed tests train you to think fast under pressure.",
+    avatar: "DA",
     gradient: "from-violet-500 to-brand-600",
-    tag: "NSO Gold Medal",
+    tag: "IEO School Rank 1",
   },
   {
-    name: "Arjun Mehta",
+    name: "Arjun Verma",
     role: "Class 9 Student",
-    school: "Ryan International School, Bengaluru",
+    school: "Ryan International School, Noida",
     content:
-      "Every paper is different — I never feel like I'm redoing questions. The AI explanation shows exactly where I went wrong. Cleared IEO Level 1 and 2 both this year after just 3 weeks of practice.",
-    avatar: "AM",
+      "Class 9 Olympiad questions are tough — especially HoTs and reasoning. OlympiadReady has it all. Qualified for NSO Level 2 for the first time this year. The AI explanation feature saved me hours of self-correction every week.",
+    avatar: "AV",
     gradient: "from-emerald-500 to-brand-600",
-    tag: "IEO Level 1 & 2 cleared",
+    tag: "NSO Level 2 qualifier",
+  },
+  {
+    name: "Aarav Sangal",
+    role: "Class 6 Student",
+    school: "Delhi Public School, Noida Extension",
+    content:
+      "I was scoring around 60% in practice. After 3 weeks on OlympiadReady, I jumped to top rank in the MELTAS Science competition. The platform explains every mistake right away — you actually learn, not just score.",
+    avatar: "AS",
+    gradient: "from-teal-500 to-cyan-600",
+    tag: "MELTAS Science Gold",
+  },
+  {
+    name: "Ekta Mittal",
+    role: "Parent of Akul Mittal, Class 1",
+    school: "Amity International School, Noida",
+    content:
+      "Akul is only in Class 1 but he loves the colourful questions on OlympiadReady! We practice together for 10 minutes each evening. He cleared the IGKO first round and came back asking for more. I never thought Olympiad prep could be this fun for a 6-year-old.",
+    avatar: "EM",
+    gradient: "from-pink-500 to-rose-600",
+    tag: "IGKO Level 1 cleared",
   },
 ];
+
+// Set this to your YouTube video ID once you upload the testimonial video.
+// e.g. "dQw4w9WgXcQ" from https://www.youtube.com/watch?v=dQw4w9WgXcQ
+const VIDEO_TESTIMONIAL_YOUTUBE_ID = "Q8BL0EB2MbA";
 
 export function TestimonialsSection() {
   return (
@@ -51,13 +75,36 @@ export function TestimonialsSection() {
           </p>
         </div>
 
-        <div className="grid gap-8 sm:grid-cols-3">
-          {TESTIMONIALS.map(({ name, role, school, content, avatar, gradient, tag }) => (
+        {/* Video testimonial — shown only when VIDEO_TESTIMONIAL_YOUTUBE_ID is set */}
+        {VIDEO_TESTIMONIAL_YOUTUBE_ID && (
+          <div className="mb-16 mx-auto max-w-3xl">
+            <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-lg">
+              <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+                <iframe
+                  className="absolute inset-0 h-full w-full"
+                  src={`https://www.youtube.com/embed/${VIDEO_TESTIMONIAL_YOUTUBE_ID}?rel=0&modestbranding=1`}
+                  title="Parent testimonial — OlympiadReady"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <div className="flex items-center gap-3 bg-slate-50 px-5 py-3 border-t border-slate-200">
+                <Play className="h-4 w-4 text-brand-600 fill-brand-600 shrink-0" />
+                <p className="text-sm text-slate-600">
+                  <span className="font-semibold text-slate-900">Real parent, real story</span> — hear directly from a mother whose child prepared with OlympiadReady.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* First row — 3 cards */}
+        <div className="grid gap-8 sm:grid-cols-3 mb-8">
+          {TESTIMONIALS.slice(0, 3).map(({ name, role, school, content, avatar, gradient, tag }) => (
             <div
               key={name}
               className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-8 transition hover:shadow-lg"
             >
-              {/* Stars + tag */}
               <div className="mb-4 flex items-center justify-between gap-2">
                 <div className="flex gap-1">
                   {Array.from({ length: 5 }).map((_, i) => (
@@ -66,24 +113,43 @@ export function TestimonialsSection() {
                 </div>
                 <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-700">{tag}</span>
               </div>
-
-              {/* Content */}
-              <p className="mb-6 flex-1 leading-relaxed text-slate-700">
-                &ldquo;{content}&rdquo;
-              </p>
-
-              {/* Author */}
+              <p className="mb-6 flex-1 leading-relaxed text-slate-700">&ldquo;{content}&rdquo;</p>
               <div className="flex items-center gap-3">
-                <div
-                  className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${gradient} text-sm font-bold text-white`}
-                >
+                <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${gradient} text-sm font-bold text-white`}>
                   {avatar}
                 </div>
                 <div>
                   <p className="font-semibold text-slate-900">{name}</p>
-                  <p className="text-xs text-slate-500">
-                    {role} · {school}
-                  </p>
+                  <p className="text-xs text-slate-500">{role} · {school}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Second row — 2 cards centred */}
+        <div className="grid gap-8 sm:grid-cols-2 max-w-3xl mx-auto">
+          {TESTIMONIALS.slice(3).map(({ name, role, school, content, avatar, gradient, tag }) => (
+            <div
+              key={name}
+              className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-8 transition hover:shadow-lg"
+            >
+              <div className="mb-4 flex items-center justify-between gap-2">
+                <div className="flex gap-1">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star key={i} className="h-4 w-4 fill-achiever-600 text-achiever-600" />
+                  ))}
+                </div>
+                <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-700">{tag}</span>
+              </div>
+              <p className="mb-6 flex-1 leading-relaxed text-slate-700">&ldquo;{content}&rdquo;</p>
+              <div className="flex items-center gap-3">
+                <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${gradient} text-sm font-bold text-white`}>
+                  {avatar}
+                </div>
+                <div>
+                  <p className="font-semibold text-slate-900">{name}</p>
+                  <p className="text-xs text-slate-500">{role} · {school}</p>
                 </div>
               </div>
             </div>
