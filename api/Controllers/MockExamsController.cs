@@ -88,7 +88,7 @@ public class MockExamsController : ControllerBase
         // Quota check
         bool isSubscribed = await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, req.Subject, ct);
 
-        int mockExamLimit = isSubscribed ? 7 : 1;
+        int mockExamLimit = isSubscribed ? 7 : 3;
 
         DateTime startOfWeek = DateTime.UtcNow;
         if (isSubscribed)
@@ -108,7 +108,7 @@ public class MockExamsController : ControllerBase
 
         if (recentMocks >= mockExamLimit)
         {
-            return StatusCode(402, new { message = isSubscribed ? "You have reached your limit of 7 mock exams per week." : "Free users can only take 1 mock exam total. Please upgrade to continue." });
+            return StatusCode(402, new { message = isSubscribed ? "You have reached your limit of 7 mock exams per week." : "You've used your 3 free mock exams — upgrade to unlock 7 fresh mock exams every week." });
         }
 
         // Level 2 always uses Olympiad-only difficulty — no easy or mid questions.

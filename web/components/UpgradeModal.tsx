@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
-import { Crown, Loader2, X, Check, Info } from "lucide-react";
+import { Crown, Loader2, X, Check, Info, Timer } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
 import { SUBJECTS, isSubjectAvailable, type CheckoutResponse } from "@/lib/types";
 import { Analytics } from "@/lib/analytics";
@@ -35,10 +35,16 @@ export function UpgradeModal({
 
   const [grade, setGrade] = useState<number>(initialGrade || 5);
   const [billingCycle, setBillingCycle] = useState<"Monthly" | "Annual">("Monthly");
+  // Default to "All Subjects" so price shows immediately — if a specific subject
+  // is passed (e.g. opening from Math practice), pre-select that instead.
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>(
-    initialSubject ? [initialSubject] : []
+    initialSubject ? [initialSubject] : ["All"]
   );
-  const [step, setStep] = useState<"build" | "confirm">("build");
+
+  // Days until 31 August deadline
+  const daysLeft = Math.max(0, Math.ceil(
+    (new Date("2026-09-01T00:00:00+05:30").getTime() - Date.now()) / 86_400_000
+  ));
 
   // When props change, respect them
   useEffect(() => {
@@ -215,7 +221,6 @@ export function UpgradeModal({
           <X className="h-5 w-5" />
         </button>
 
-        {step === "build" ? (
           <>
             <div className="flex items-center gap-2 text-brand-700">
               <Crown className="h-5 w-5" />
@@ -360,16 +365,41 @@ export function UpgradeModal({
                   )}
                 </div>
 
+                {/* Deadline urgency */}
+                {daysLeft <= 7 && daysLeft > 0 && (
+                  <div className="mb-3 flex items-center justify-center gap-1.5 rounded-lg bg-red-50 border border-red-200 px-3 py-2">
+                    <Timer className="h-3.5 w-3.5 text-red-600 shrink-0" />
+                    <span className="text-xs font-semibold text-red-700">
+                      Offer ends in {daysLeft} day{daysLeft !== 1 ? "s" : ""} — 1 Sept prices revert to ₹129
+                    </span>
+                  </div>
+                )}
+                {daysLeft > 7 && (
+                  <p className="mb-3 text-center text-[11px] text-slate-500">
+                    40% off ends <span className="font-semibold text-orange-600">31 August 2026</span>
+                  </p>
+                )}
+
                 {/* Actions & CTA */}
                 <div>
-                  <button
-                    type="button"
-                    onClick={() => { if (count > 0) setStep("confirm"); }}
-                    disabled={count === 0}
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:cursor-not-allowed disabled:bg-slate-400 transition-all"
-                  >
-                    Review &amp; Confirm
-                  </button>
+                  {count === 0 ? (
+                    <p className="text-center text-sm text-slate-400 py-2">
+                      ← Select a subject to see pricing
+                    </p>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={startCheckout}
+                      disabled={busy}
+                      className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:cursor-not-allowed disabled:bg-slate-400 transition-all"
+                    >
+                      {busy ? (
+                        <><Loader2 className="h-4 w-4 animate-spin" /> Processing…</>
+                      ) : (
+                        <>Pay ₹{price} &amp; Unlock →</>
+                      )}
+                    </button>
+                  )}
 
                   {/* School / custom packages CTA */}
                   <p className="mt-2 text-center text-[10px] text-slate-400">
@@ -382,61 +412,6 @@ export function UpgradeModal({
               </div>
             </div>
           </>
-        ) : (
-          <>
-            <div className="flex items-center gap-2 text-brand-700">
-              <Check className="h-5 w-5" />
-              <span className="text-sm font-semibold uppercase tracking-wide">Confirm Purchase</span>
-            </div>
-            <h2 className="mt-2 text-2xl font-bold text-slate-900">
-              Review your choices
-            </h2>
-            
-            <div className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-4">
-               <div className="flex justify-between border-b border-slate-200 pb-3">
-                 <span className="text-sm text-slate-500">Class/Grade</span>
-                 <span className="font-semibold text-slate-900">{grade}</span>
-               </div>
-               <div className="flex justify-between border-b border-slate-200 pb-3">
-                 <span className="text-sm text-slate-500">Subjects ({count})</span>
-                 <span className="font-semibold text-slate-900 text-right">
-                   {isAllSelected ? "All Subjects" : selectedSubjects.join(", ")}
-                 </span>
-               </div>
-               <div className="flex justify-between border-b border-slate-200 pb-3">
-                 <span className="text-sm text-slate-500">Plan Duration</span>
-                 <span className="font-semibold text-slate-900">{billingCycle}</span>
-               </div>
-               <div className="flex justify-between pt-1">
-                 <span className="text-base font-bold text-slate-900">Total Amount</span>
-                 <span className="text-xl font-bold text-brand-700">₹{price}</span>
-               </div>
-            </div>
-
-            <button
-              type="button"
-              onClick={startCheckout}
-              disabled={busy}
-              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-3 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:cursor-not-allowed disabled:bg-slate-400 transition-all"
-            >
-              {busy ? (
-                <>
-                  <Loader2 className="h-5 w-5 animate-spin" /> Processing securely…
-                </>
-              ) : (
-                <>Confirm &amp; Pay ₹{price}</>
-              )}
-            </button>
-            <button
-              type="button"
-              onClick={() => setStep("build")}
-              disabled={busy}
-              className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-50"
-            >
-              Back to edit
-            </button>
-          </>
-        )}
 
         <p className="mt-4 text-center text-[10px] text-slate-400">
           Secured by Razorpay.

@@ -228,20 +228,30 @@ export default function MockExamsPage() {
         </div>
 
         {error && (
-          <div
-            ref={errorRef}
-            className="mb-8 rounded-xl border-2 border-red-300 bg-red-50 p-5 flex items-start gap-3 text-red-800 shadow-md"
-          >
-            <AlertTriangle className="h-5 w-5 shrink-0 mt-0.5 text-red-500" />
+          <div ref={errorRef} className={`mb-8 rounded-xl p-5 flex items-start gap-3 shadow-sm ${
+            error.toLowerCase().includes("upgrade") || error.toLowerCase().includes("free")
+              ? "border border-amber-200 bg-amber-50 text-amber-900"
+              : "border-2 border-red-300 bg-red-50 text-red-800"
+          }`}>
+            {error.toLowerCase().includes("upgrade") || error.toLowerCase().includes("free") ? (
+              <span className="text-2xl shrink-0">🏆</span>
+            ) : (
+              <AlertTriangle className="h-5 w-5 shrink-0 mt-0.5 text-red-500" />
+            )}
             <div className="flex-1">
-              <p className="font-bold text-sm">{error}</p>
-              {error.toLowerCase().includes("upgrade") && (
-                <a
-                  href="/dashboard"
-                  className="mt-2 inline-flex items-center gap-1 text-xs font-semibold bg-red-600 text-white px-3 py-1.5 rounded-lg hover:bg-red-700 transition"
-                >
-                  View upgrade options →
-                </a>
+              <p className="font-semibold text-sm">{error}</p>
+              {(error.toLowerCase().includes("upgrade") || error.toLowerCase().includes("free")) && (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <a
+                    href="/dashboard"
+                    className="inline-flex items-center gap-1 text-xs font-semibold bg-brand-600 text-white px-3 py-1.5 rounded-lg hover:bg-brand-700 transition"
+                  >
+                    Upgrade — ₹77/month →
+                  </a>
+                  <span className="inline-flex items-center text-xs text-amber-700">
+                    🎉 August offer: 40% off — ends 31 Aug
+                  </span>
+                </div>
               )}
             </div>
           </div>
@@ -267,7 +277,7 @@ export default function MockExamsPage() {
                   <div className="flex-1">
                     <h3 className="font-bold text-sm sm:text-base mb-1 tracking-tight">AI-Powered Adaptive Mock Exams</h3>
                     <p className="text-xs text-brand-100 leading-relaxed font-medium">
-                      <span className="font-extrabold text-yellow-300">Free tier includes 1 full exam. Upgraded users get 7 fresh exams/week per subject.</span> Our advanced AI dynamically curates and generates high-fidelity questions tailored to your class, skills, and subjects. Practice with limitless fresh scenarios calibrated to official Olympiad syllabi!
+                      <span className="font-extrabold text-yellow-300">Free tier includes 3 full exams. Upgraded users get 7 fresh exams/week per subject.</span> Our advanced AI dynamically curates and generates high-fidelity questions tailored to your class, skills, and subjects. Practice with limitless fresh scenarios calibrated to official Olympiad syllabi!
                     </p>
                   </div>
                 </div>
@@ -531,7 +541,7 @@ export default function MockExamsPage() {
               },
               {
                 q: "What are the limits for Free vs. Upgraded users?",
-                a: "Free tier accounts get 1 free Mock Exam globally across any subject to test the high-fidelity simulator. Upgraded users (Pro/Modular) unlock 7 fresh Mock Exam generations every single week per subject, resetting every Monday!",
+                a: "Free tier accounts get 3 free Mock Exams to experience the full simulator. Upgraded users (Pro/Modular) unlock 7 fresh Mock Exam generations every single week per subject, resetting every Monday!",
               },
               {
                 q: "Are the questions in Mock Exams fresh or repeated?",
