@@ -59,8 +59,18 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large" }
   },
   icons: {
-    icon: "/logo.png",
-    apple: "/apple-touch-icon.png"
+    icon: [
+      { url: "/favicon.ico",       sizes: "48x48", type: "image/x-icon"  },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png"     },
+      { url: "/favicon.svg",                        type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }
+    ],
+  },
+  manifest: "/site.webmanifest",
+  appleWebApp: {
+    title: "OlympiadReady",
   }
 };
 
