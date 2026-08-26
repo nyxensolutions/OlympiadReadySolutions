@@ -38,7 +38,7 @@ export function LegalPageLayout({ title, lastUpdated, children }: LegalPageLayou
             <p className="mt-1 text-xs text-slate-400">
               This policy applies to OlympiadReady, a product of{" "}
               <a href="https://nyxensolutions.net" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:underline">
-                Nyxen Solutions
+                NyxenCloud Solutions
               </a>
               .
             </p>
@@ -51,7 +51,7 @@ export function LegalPageLayout({ title, lastUpdated, children }: LegalPageLayou
 
       {/* Footer strip */}
       <div className="border-t border-slate-200 py-6 text-center text-xs text-slate-400">
-        © {new Date().getFullYear()} Nyxen Solutions · All rights reserved ·{" "}
+        © {new Date().getFullYear()} NyxenCloud Solutions · All rights reserved ·{" "}
         <Link href="/privacy" className="hover:text-brand-600">Privacy</Link>{" · "}
         <Link href="/terms" className="hover:text-brand-600">Terms</Link>{" · "}
         <Link href="/cookies" className="hover:text-brand-600">Cookies</Link>{" · "}

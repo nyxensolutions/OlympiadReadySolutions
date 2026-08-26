@@ -10,7 +10,7 @@ export default function PrivacyPage() {
     <LegalPageLayout title="Privacy Policy" lastUpdated="19 May 2026">
       <h2>1. Who We Are</h2>
       <p>
-        OlympiadReady is operated by <strong>Nyxen Solutions</strong>, a technology company based in India.
+        OlympiadReady is operated by <strong>NyxenCloud Solutions</strong>, a technology company based in India.
         We provide an AI-powered Olympiad preparation platform for school students. Our registered contact
         email is <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
       </p>
@@ -84,8 +84,7 @@ export default function PrivacyPage() {
 
       <h2>10. Contact</h2>
       <p>
-        Questions? Contact us at <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a> or
-        WhatsApp <a href="https://wa.me/919953699143">+91 99536 99143</a>.
+        Questions? Contact us at <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
       </p>
     </LegalPageLayout>
   );

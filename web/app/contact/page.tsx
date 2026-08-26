@@ -85,15 +85,6 @@ function ContactBody() {
             <h3 className="font-bold text-slate-900 mb-4">Contact Details</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <MessageCircle className="h-5 w-5 text-emerald-500 mt-0.5 shrink-0" />
-                <div>
-                  <p className="text-sm font-semibold text-slate-800">WhatsApp</p>
-                  <a href="https://wa.me/919953699143" target="_blank" rel="noopener noreferrer"
-                    className="text-sm text-emerald-600 hover:underline">+91 99536 99143</a>
-                  <p className="text-xs text-slate-400 mt-0.5">Mon–Sat, 9 am–6 pm</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-brand-500 mt-0.5 shrink-0" />
                 <div>
                   <p className="text-sm font-semibold text-slate-800">Email</p>
@@ -106,7 +97,7 @@ function ContactBody() {
                 <GraduationCap className="h-5 w-5 text-purple-500 mt-0.5 shrink-0" />
                 <div>
                   <p className="text-sm font-semibold text-slate-800">OlympiadReady</p>
-                  <p className="text-xs text-slate-500">by Nyxen Solutions</p>
+                  <p className="text-xs text-slate-500">by NyxenCloud Solutions</p>
                 </div>
               </div>
             </div>

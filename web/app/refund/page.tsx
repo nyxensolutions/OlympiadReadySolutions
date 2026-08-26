@@ -63,8 +63,7 @@ export default function RefundPage() {
         <li>A brief description of the reason for the refund request.</li>
       </ul>
       <p>
-        Our team will respond within 2 business days. You can also reach us on WhatsApp at{" "}
-        <a href="https://wa.me/919953699143">+91 99536 99143</a> (Mon–Sat, 9 am–6 pm IST).
+        Our team will respond within 2 business days.
       </p>
 
       <h2>5. Chargebacks</h2>
@@ -83,8 +82,7 @@ export default function RefundPage() {
       <h2>7. Contact</h2>
       <p>
         For refund-related queries, email{" "}
-        <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a> or WhatsApp{" "}
-        <a href="https://wa.me/919953699143">+91 99536 99143</a>.
+        <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
       </p>
     </LegalPageLayout>
   );

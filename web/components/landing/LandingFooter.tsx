@@ -104,18 +104,6 @@ export function LandingFooter() {
                 </Link>
                 <p className="ml-6 mt-0.5 text-xs text-slate-400">Custom packages for schools</p>
               </li>
-              <li>
-                <a
-                  href="https://wa.me/919953699143"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-slate-600 transition hover:text-emerald-600"
-                >
-                  <MessageCircle className="h-4 w-4 shrink-0 text-emerald-500" />
-                  +91 99536 99143
-                </a>
-                <p className="ml-6 mt-0.5 text-xs text-slate-400">WhatsApp · Mon–Sat, 9 am–6 pm</p>
-              </li>
             </ul>
           </div>
 
@@ -137,7 +125,7 @@ export function LandingFooter() {
         <div className="flex flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
           <div>
             <p className="text-sm text-slate-500">
-              &copy; 2026 <span className="font-semibold text-slate-700">Nyxen Solutions</span>. All rights reserved.
+              &copy; 2026 <span className="font-semibold text-slate-700">NyxenCloud Solutions</span>. All rights reserved.
             </p>
             <p className="mt-0.5 text-xs text-slate-400">
               OlympiadReady is developed &amp; managed by{" "}
@@ -147,7 +135,7 @@ export function LandingFooter() {
                 rel="noopener noreferrer"
                 className="text-brand-600 hover:underline"
               >
-                Nyxen Solutions
+                NyxenCloud Solutions
               </a>
               {" · "}
               <a href="mailto:nyxencloud@gmail.com" className="hover:text-brand-600">

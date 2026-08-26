@@ -9,7 +9,7 @@ export default function CookiesPage() {
   return (
     <LegalPageLayout title="Cookie Policy" lastUpdated="19 May 2026">
       <p>
-        This Cookie Policy explains how OlympiadReady (operated by Nyxen Solutions) uses cookies and
+        This Cookie Policy explains how OlympiadReady (operated by NyxenCloud Solutions) uses cookies and
         similar technologies when you visit our platform.
       </p>
 

@@ -16,7 +16,7 @@ export default function TermsPage() {
       <h2>1. Acceptance of Terms</h2>
       <p>
         These Terms of Service (&quot;Terms&quot;) constitute a legally binding agreement between you and
-        Nyxen Solutions (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) governing your access to and use of OlympiadReady
+        NyxenCloud Solutions (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) governing your access to and use of OlympiadReady
         (&quot;the Platform&quot;). By creating an account or using the Platform, you confirm that you are at
         least 13 years old (or have parental consent) and agree to these Terms.
       </p>
@@ -59,7 +59,7 @@ export default function TermsPage() {
       <h2>6. Intellectual Property</h2>
       <p>
         All content on OlympiadReady, including AI-generated questions, explanations, UI, logos, and
-        brand assets, is owned by or licensed to Nyxen Solutions. You may use the content solely for
+        brand assets, is owned by or licensed to NyxenCloud Solutions. You may use the content solely for
         personal educational purposes. No commercial reproduction is permitted without written consent.
       </p>
 
@@ -72,7 +72,7 @@ export default function TermsPage() {
 
       <h2>8. Limitation of Liability</h2>
       <p>
-        To the maximum extent permitted by law, Nyxen Solutions shall not be liable for any indirect,
+        To the maximum extent permitted by law, NyxenCloud Solutions shall not be liable for any indirect,
         incidental, special, or consequential damages arising from use of the Platform, including
         loss of data, loss of profits, or failure to achieve expected educational outcomes.
       </p>
