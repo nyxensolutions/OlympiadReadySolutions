@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useSearchParams } from "next/navigation";
-import { useAuth } from "@clerk/nextjs";
+import { useAuth, useUser } from "@clerk/nextjs";
 import { Printer, Loader2, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -39,6 +39,8 @@ export default function InvoicePage() {
   const type = searchParams.get("type"); // "subscription" or "pdf"
 
   const { getToken, isLoaded } = useAuth();
+  const { user } = useUser();
+  const displayName = user?.fullName || user?.primaryEmailAddress?.emailAddress || "Registered User";
   const [data, setData] = useState<InvoiceData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -164,7 +166,7 @@ export default function InvoicePage() {
           <div className="mt-8 flex flex-col sm:flex-row sm:justify-between gap-6">
             <div>
               <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">Billed To</p>
-              <p className="text-sm font-medium text-slate-900">Registered User</p>
+              <p className="text-sm font-medium text-slate-900">{displayName}</p>
             </div>
             {data.orderId && data.orderId !== "FREE" && (
               <div className="sm:text-right">
