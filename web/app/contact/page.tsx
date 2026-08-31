@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
@@ -88,8 +88,8 @@ function ContactBody() {
                 <Mail className="h-5 w-5 text-brand-500 mt-0.5 shrink-0" />
                 <div>
                   <p className="text-sm font-semibold text-slate-800">Email</p>
-                  <a href="mailto:nyxencloud@gmail.com"
-                    className="text-sm text-brand-600 hover:underline">nyxencloud@gmail.com</a>
+                  <a href="mailto:hello@olympiadready.com"
+                    className="text-sm text-brand-600 hover:underline">hello@olympiadready.com</a>
                   <p className="text-xs text-slate-400 mt-0.5">We reply within 1 business day</p>
                 </div>
               </div>
@@ -183,7 +183,7 @@ function ContactBody() {
                   <textarea required value={form.message} onChange={e => update("message", e.target.value)}
                     rows={5}
                     placeholder={isSchool
-                      ? "Tell us about your school, grades, subjects needed, and any specific requirements…"
+                      ? "Tell us about your school, grades, subjects needed, and any specific requirementsâ€¦"
                       : "How can we help you?"}
                     className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 resize-none" />
                 </div>
@@ -197,7 +197,7 @@ function ContactBody() {
                 <button type="submit" disabled={busy}
                   className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-3 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:opacity-60 transition-all">
                   {busy
-                    ? <><Loader2 className="h-4 w-4 animate-spin" /> Sending…</>
+                    ? <><Loader2 className="h-4 w-4 animate-spin" /> Sendingâ€¦</>
                     : <><Send className="h-4 w-4" /> {isSchool ? "Send School Inquiry" : "Send Message"}</>}
                 </button>
 
@@ -212,3 +212,4 @@ function ContactBody() {
     </>
   );
 }
+

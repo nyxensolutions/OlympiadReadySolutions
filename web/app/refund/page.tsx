@@ -1,7 +1,7 @@
-import { LegalPageLayout } from "@/components/LegalPageLayout";
+﻿import { LegalPageLayout } from "@/components/LegalPageLayout";
 
 export const metadata = {
-  title: { absolute: "Refund Policy · OlympiadReady" },
+  title: { absolute: "Refund Policy Â· OlympiadReady" },
   description: "OlympiadReady refund and cancellation policy for Pro subscriptions and PDF purchases.",
 };
 
@@ -25,18 +25,18 @@ export default function RefundPage() {
         </li>
         <li>
           Refund requests must be submitted via email to{" "}
-          <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a> with your registered email
+          <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a> with your registered email
           address and the Razorpay Order ID.
         </li>
       </ul>
       <p>
-        Approved refunds will be processed within <strong>5–10 business days</strong> to the original
+        Approved refunds will be processed within <strong>5â€“10 business days</strong> to the original
         payment method via Razorpay.
       </p>
 
       <h2>2. PDF Download Refunds</h2>
       <p>
-        PDF practice paper purchases (₹29 per download, or less with bundle discounts) are <strong>generally non-refundable</strong>
+        PDF practice paper purchases (â‚¹29 per download, or less with bundle discounts) are <strong>generally non-refundable</strong>
         once the PDF has been successfully generated and delivered, as the digital content is
         immediately accessible.
       </p>
@@ -55,9 +55,9 @@ export default function RefundPage() {
       </p>
 
       <h2>4. How to Request a Refund</h2>
-      <p>To request a refund, please email us at <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a> with:</p>
+      <p>To request a refund, please email us at <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a> with:</p>
       <ul>
-        <li>Subject line: <strong>Refund Request — OlympiadReady</strong></li>
+        <li>Subject line: <strong>Refund Request â€” OlympiadReady</strong></li>
         <li>Your registered email address.</li>
         <li>The Razorpay Order ID (visible in your purchases panel or email receipt).</li>
         <li>A brief description of the reason for the refund request.</li>
@@ -82,8 +82,9 @@ export default function RefundPage() {
       <h2>7. Contact</h2>
       <p>
         For refund-related queries, email{" "}
-        <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
+        <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a>.
       </p>
     </LegalPageLayout>
   );
 }
+

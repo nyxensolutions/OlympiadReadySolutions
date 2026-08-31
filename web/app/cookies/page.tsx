@@ -1,7 +1,7 @@
-import { LegalPageLayout } from "@/components/LegalPageLayout";
+﻿import { LegalPageLayout } from "@/components/LegalPageLayout";
 
 export const metadata = {
-  title: { absolute: "Cookie Policy · OlympiadReady" },
+  title: { absolute: "Cookie Policy Â· OlympiadReady" },
   description: "How OlympiadReady uses cookies and similar tracking technologies.",
 };
 
@@ -27,11 +27,11 @@ export default function CookiesPage() {
       </p>
       <ul>
         <li>
-          <strong>__clerk_*</strong> — Authentication session cookies set by Clerk. Required to keep you
+          <strong>__clerk_*</strong> â€” Authentication session cookies set by Clerk. Required to keep you
           signed in and protect your account.
         </li>
         <li>
-          <strong>__session</strong> — Session management cookie used to maintain your active session.
+          <strong>__session</strong> â€” Session management cookie used to maintain your active session.
         </li>
       </ul>
 
@@ -41,7 +41,7 @@ export default function CookiesPage() {
       </p>
       <ul>
         <li>
-          <strong>Preferences cookies</strong> — Remember your selected olympiad, grade, and subject
+          <strong>Preferences cookies</strong> â€” Remember your selected olympiad, grade, and subject
           preferences so you don&apos;t have to re-select them each visit.
         </li>
       </ul>
@@ -59,11 +59,11 @@ export default function CookiesPage() {
       </p>
       <ul>
         <li>
-          <strong>Clerk</strong> — Authentication provider. See{" "}
+          <strong>Clerk</strong> â€” Authentication provider. See{" "}
           <a href="https://clerk.com/privacy" target="_blank" rel="noopener noreferrer">Clerk&apos;s Privacy Policy</a>.
         </li>
         <li>
-          <strong>Razorpay</strong> — Payment gateway. Razorpay may set cookies during checkout. See{" "}
+          <strong>Razorpay</strong> â€” Payment gateway. Razorpay may set cookies during checkout. See{" "}
           <a href="https://razorpay.com/privacy/" target="_blank" rel="noopener noreferrer">Razorpay&apos;s Privacy Policy</a>.
         </li>
       </ul>
@@ -84,8 +84,8 @@ export default function CookiesPage() {
 
       <h2>5. Cookie Duration</h2>
       <ul>
-        <li><strong>Session cookies</strong> — Deleted when you close your browser.</li>
-        <li><strong>Persistent cookies</strong> — Stored for a fixed period (typically 30–90 days) or until manually deleted.</li>
+        <li><strong>Session cookies</strong> â€” Deleted when you close your browser.</li>
+        <li><strong>Persistent cookies</strong> â€” Stored for a fixed period (typically 30â€“90 days) or until manually deleted.</li>
       </ul>
 
       <h2>6. Changes to This Policy</h2>
@@ -97,8 +97,9 @@ export default function CookiesPage() {
       <h2>7. Contact</h2>
       <p>
         Questions about our cookie use? Email us at{" "}
-        <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
+        <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a>.
       </p>
     </LegalPageLayout>
   );
 }
+

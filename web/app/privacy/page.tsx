@@ -1,7 +1,7 @@
-import { LegalPageLayout } from "@/components/LegalPageLayout";
+﻿import { LegalPageLayout } from "@/components/LegalPageLayout";
 
 export const metadata = {
-  title: { absolute: "Privacy Policy · OlympiadReady" },
+  title: { absolute: "Privacy Policy Â· OlympiadReady" },
   description: "How OlympiadReady collects, uses, and protects your personal information.",
 };
 
@@ -12,19 +12,19 @@ export default function PrivacyPage() {
       <p>
         OlympiadReady is operated by <strong>NyxenCloud Solutions</strong>, a technology company based in India.
         We provide an AI-powered Olympiad preparation platform for school students. Our registered contact
-        email is <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
+        email is <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a>.
       </p>
 
       <h2>2. What Information We Collect</h2>
       <h3>Information you provide</h3>
       <ul>
         <li><strong>Account data:</strong> Name, email address, and any profile information provided during sign-up via Clerk.</li>
-        <li><strong>Payment data:</strong> For paid purchases, we collect the Razorpay order ID and payment ID. We do <em>not</em> store your card numbers or bank details — these are handled entirely by Razorpay.</li>
+        <li><strong>Payment data:</strong> For paid purchases, we collect the Razorpay order ID and payment ID. We do <em>not</em> store your card numbers or bank details â€” these are handled entirely by Razorpay.</li>
       </ul>
       <h3>Information collected automatically</h3>
       <ul>
         <li><strong>Usage data:</strong> Practice papers generated, test results, topic mastery scores, and interaction timestamps.</li>
-        <li><strong>Device &amp; log data:</strong> Browser type, IP address, and pages visited — collected for security and analytics.</li>
+        <li><strong>Device &amp; log data:</strong> Browser type, IP address, and pages visited â€” collected for security and analytics.</li>
         <li><strong>Cookies:</strong> Authentication tokens and session cookies. See our <a href="/cookies">Cookie Policy</a>.</li>
       </ul>
 
@@ -40,17 +40,17 @@ export default function PrivacyPage() {
       <h2>4. Data Sharing</h2>
       <p>We do <strong>not</strong> sell your personal data. We share data only with:</p>
       <ul>
-        <li><strong>Clerk</strong> — authentication and identity management.</li>
-        <li><strong>Razorpay</strong> — payment processing (governed by Razorpay's own Privacy Policy).</li>
-        <li><strong>Anthropic (Claude API)</strong> — AI question generation. Only subject/grade/difficulty metadata is sent; no personal data.</li>
-        <li><strong>Law enforcement</strong> — when required by applicable Indian law.</li>
+        <li><strong>Clerk</strong> â€” authentication and identity management.</li>
+        <li><strong>Razorpay</strong> â€” payment processing (governed by Razorpay's own Privacy Policy).</li>
+        <li><strong>Anthropic (Claude API)</strong> â€” AI question generation. Only subject/grade/difficulty metadata is sent; no personal data.</li>
+        <li><strong>Law enforcement</strong> â€” when required by applicable Indian law.</li>
       </ul>
 
       <h2>5. Data Retention</h2>
       <p>
         We retain your account data for as long as your account is active. Practice results and mastery
         data are retained indefinitely to power your personalised dashboard. You may request deletion at
-        any time by emailing <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
+        any time by emailing <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a>.
       </p>
 
       <h2>6. Your Rights</h2>
@@ -61,7 +61,7 @@ export default function PrivacyPage() {
         <li>Request deletion of your account and associated data.</li>
         <li>Object to processing for marketing purposes.</li>
       </ul>
-      <p>To exercise these rights, contact us at <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.</p>
+      <p>To exercise these rights, contact us at <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a>.</p>
 
       <h2>7. Security</h2>
       <p>
@@ -84,8 +84,9 @@ export default function PrivacyPage() {
 
       <h2>10. Contact</h2>
       <p>
-        Questions? Contact us at <a href="mailto:nyxencloud@gmail.com">nyxencloud@gmail.com</a>.
+        Questions? Contact us at <a href="mailto:hello@olympiadready.com">hello@olympiadready.com</a>.
       </p>
     </LegalPageLayout>
   );
 }
+

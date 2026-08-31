@@ -1,7 +1,7 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 
 const BREVO_API_KEY = process.env.BREVO_API_KEY ?? "";
-const TO_EMAIL      = "nyxencloud@gmail.com";
+const TO_EMAIL      = "hello@olympiadready.com";
 
 export async function POST(req: NextRequest) {
   try {
@@ -19,19 +19,19 @@ export async function POST(req: NextRequest) {
 
     const isSchool  = type === "school";
     const subject   = isSchool
-      ? `School Inquiry from ${schoolName || name} — OlympiadReady`
-      : `Contact Form — ${name} — OlympiadReady`;
+      ? `School Inquiry from ${schoolName || name} â€” OlympiadReady`
+      : `Contact Form â€” ${name} â€” OlympiadReady`;
 
     const schoolDetails = isSchool
-      ? `<tr><td style="padding:4px 0;color:#64748b;font-size:13px;">School Name</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${schoolName || "—"}</td></tr>
-         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">City</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${city || "—"}</td></tr>
-         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">Est. Students</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${studentCount || "—"}</td></tr>`
+      ? `<tr><td style="padding:4px 0;color:#64748b;font-size:13px;">School Name</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${schoolName || "â€”"}</td></tr>
+         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">City</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${city || "â€”"}</td></tr>
+         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">Est. Students</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${studentCount || "â€”"}</td></tr>`
       : "";
 
     const htmlContent = `
       <div style="font-family:sans-serif;max-width:600px;margin:0 auto;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;">
         <div style="background:#2563eb;padding:20px 24px;">
-          <h2 style="color:#fff;margin:0;font-size:18px;">${isSchool ? "🏫 School / Institution Inquiry" : "📬 Contact Form Submission"}</h2>
+          <h2 style="color:#fff;margin:0;font-size:18px;">${isSchool ? "ðŸ« School / Institution Inquiry" : "ðŸ“¬ Contact Form Submission"}</h2>
           <p style="color:#bfdbfe;margin:4px 0 0;font-size:13px;">OlympiadReady</p>
         </div>
         <div style="padding:24px;">
@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
           </div>
         </div>
         <div style="padding:12px 24px;background:#f8fafc;border-top:1px solid #e2e8f0;">
-          <p style="margin:0;font-size:11px;color:#94a3b8;">Sent via OlympiadReady contact form · Reply directly to ${email}</p>
+          <p style="margin:0;font-size:11px;color:#94a3b8;">Sent via OlympiadReady contact form Â· Reply directly to ${email}</p>
         </div>
       </div>`;
 
@@ -56,7 +56,7 @@ export async function POST(req: NextRequest) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        sender:      { name: "OlympiadReady Contact", email: "nyxencloud@gmail.com" },
+        sender:      { name: "OlympiadReady Contact", email: "hello@olympiadready.com" },
         to:          [{ email: TO_EMAIL, name: "OlympiadReady" }],
         replyTo:     { email, name },
         subject,
@@ -79,3 +79,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Server error." }, { status: 500 });
   }
 }
+

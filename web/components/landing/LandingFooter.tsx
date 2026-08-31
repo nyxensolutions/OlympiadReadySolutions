@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { GraduationCap, Mail, MessageCircle, Instagram, Facebook } from "lucide-react";
@@ -16,12 +16,12 @@ export function LandingFooter() {
               <span className="text-lg font-bold text-slate-900">OlympiadReady</span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-600">
-              India&apos;s AI-powered Olympiad preparation platform for students in Classes 1–12.
-              Fresh AI-generated questions, instant explanations, and mastery tracking — all in one place.
+              India&apos;s AI-powered Olympiad preparation platform for students in Classes 1â€“12.
+              Fresh AI-generated questions, instant explanations, and mastery tracking â€” all in one place.
             </p>
             <div className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700">
               <span className="h-1.5 w-1.5 rounded-full bg-brand-500" />
-              Powered by AI — no repeats, ever
+              Powered by AI â€” no repeats, ever
             </div>
 
             {/* Social */}
@@ -80,8 +80,8 @@ export function LandingFooter() {
               <li><Link href="/olympiad-preparation" className="transition hover:text-brand-600">Olympiad Preparation</Link></li>
               <li><Link href="/math-olympiad-preparation" className="transition hover:text-brand-600">Math Olympiad (IMO)</Link></li>
               <li><Link href="/science-olympiad-preparation" className="transition hover:text-brand-600">Science Olympiad (NSO)</Link></li>
-              <li><Link href="/blog/olympiad-preparation-for-classes-1-to-5" className="transition hover:text-brand-600">Classes 1–5 Guide</Link></li>
-              <li><Link href="/blog/olympiad-preparation-classes-6-to-10" className="transition hover:text-brand-600">Classes 6–10 Guide</Link></li>
+              <li><Link href="/blog/olympiad-preparation-for-classes-1-to-5" className="transition hover:text-brand-600">Classes 1â€“5 Guide</Link></li>
+              <li><Link href="/blog/olympiad-preparation-classes-6-to-10" className="transition hover:text-brand-600">Classes 6â€“10 Guide</Link></li>
               <li><Link href="/olympiad-dates" className="transition hover:text-brand-600">Olympiad Dates 2026</Link></li>
             </ul>
           </div>
@@ -137,9 +137,9 @@ export function LandingFooter() {
               >
                 NyxenCloud Solutions
               </a>
-              {" · "}
-              <a href="mailto:nyxencloud@gmail.com" className="hover:text-brand-600">
-                nyxencloud@gmail.com
+              {" Â· "}
+              <a href="mailto:hello@olympiadready.com" className="hover:text-brand-600">
+                hello@olympiadready.com
               </a>
             </p>
           </div>
@@ -153,3 +153,4 @@ export function LandingFooter() {
     </footer>
   );
 }
+
