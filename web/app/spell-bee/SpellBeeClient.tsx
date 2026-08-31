@@ -576,7 +576,7 @@ function SpellBeeBody() {
                 },
                 {
                   q: "How does the free download work?",
-                  a: "You get one free 10-question paper per topic. Once downloaded, the free slot is used. To get a new set of 50 questions for the same topic, use the ₹19 paid option (August offer).",
+                  a: "You get one free 10-question paper per topic. Once downloaded, the free slot is used. To get a new set of 50 questions for the same topic, use the ₹19 paid option (offer extended to 10 Sept).",
                 },
                 {
                   q: "What benefits do subscribed subjects get?",

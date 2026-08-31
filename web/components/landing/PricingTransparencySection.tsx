@@ -19,9 +19,9 @@ export function PricingTransparencySection() {
         {/* August Offer Banner */}
         <div className="mb-10 mx-auto max-w-2xl rounded-2xl bg-gradient-to-r from-orange-500 to-amber-500 p-px shadow-lg">
           <div className="rounded-2xl bg-white px-6 py-5 text-center">
-            <p className="text-xs font-bold uppercase tracking-widest text-orange-600 mb-1">🎉 August Olympiad Season Offer</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-orange-600 mb-1">🎉 Offer Extended!</p>
             <p className="text-xl font-extrabold text-slate-900">40% off all subscriptions &amp; PDF downloads</p>
-            <p className="mt-1 text-sm text-slate-500">Offer valid through August 2026 only — Olympiad exams start in October!</p>
+            <p className="mt-1 text-sm text-slate-500">Extended till 10 September 2026 — Olympiad exams start in October, prep now!</p>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export function PricingTransparencySection() {
             Less than one tutor session.<br />Every day of the year.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-slate-600">
-            The average Olympiad tutor charges ₹600–₹1,200 per hour. OlympiadReady costs just <strong>₹77 per subject per month</strong> this August — that&apos;s unlimited practice, every day.
+            The average Olympiad tutor charges ₹600–₹1,200 per hour. OlympiadReady costs just <strong>₹77 per subject per month</strong> (offer extended to 10 Sept) — that&apos;s unlimited practice, every day.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export function PricingTransparencySection() {
           {/* OlympiadReady card */}
           <div className="rounded-2xl border-2 border-brand-500 bg-white p-6 shadow-lg relative">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-orange-500 px-4 py-1 text-xs font-bold text-white">
-              August Offer 🎉
+              Offer Extended 🎉
             </div>
             <div className="mb-4 text-center">
               <p className="text-sm font-semibold text-brand-600 uppercase tracking-wide">OlympiadReady</p>

@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="relative mx-auto max-w-5xl text-center">
         {/* August Offer Ribbon */}
         <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-orange-500 px-5 py-2 shadow-lg">
-          <span className="text-sm font-bold text-white">🎉 August Olympiad Season — 40% Off all plans</span>
+          <span className="text-sm font-bold text-white">🎉 Offer Extended! 40% Off all plans — ends 10 September</span>
         </div>
 
         {/* Badge */}

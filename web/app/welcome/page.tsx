@@ -83,7 +83,7 @@ export default function WelcomePage() {
           <div>
             <p className="text-sm font-semibold text-amber-900">Want unlimited practice?</p>
             <p className="text-xs text-amber-700 mt-0.5">
-              Upgrade to Pro for just <span className="font-bold">₹129/subject/month</span> — unlimited papers, all subjects, priority support.
+              Upgrade to Pro for just <span className="font-bold line-through text-amber-500">₹129</span> <span className="font-bold">₹77/subject/month</span> — offer extended to 10 Sept. Unlimited papers, all subjects, priority support.
             </p>
           </div>
         </div>

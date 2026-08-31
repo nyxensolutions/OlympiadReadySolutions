@@ -41,7 +41,7 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
       status.used < (status.limit ?? 5)
     ) {
       softNudgeTimer.current = setTimeout(() => {
-        openUpgrade(`You've completed ${status.used} of ${status.limit ?? 5} free papers — unlock unlimited practice for ₹77/month (August offer).`);
+        openUpgrade(`You've completed ${status.used} of ${status.limit ?? 5} free papers — unlock unlimited practice for ₹77/month (offer extended to 10 Sept).`);
       }, 2500);
     }
     return () => {
@@ -119,7 +119,7 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
               ))}
             </ul>
             <div className="mb-2 inline-block rounded-full bg-orange-100 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wide text-orange-700">
-              🎉 August Offer — 40% Off
+              🎉 Extended Offer — 40% Off till 10 Sept
             </div>
             <div className="mb-3 text-xs text-gray-400 font-medium uppercase tracking-wide mt-2">Starting from</div>
             <div className="mb-6 flex items-baseline justify-center gap-2">

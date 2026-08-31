@@ -41,9 +41,9 @@ export function UpgradeModal({
     initialSubject ? [initialSubject] : ["All"]
   );
 
-  // Days until 31 August deadline
+  // Days until 10 September deadline
   const daysLeft = Math.max(0, Math.ceil(
-    (new Date("2026-09-01T00:00:00+05:30").getTime() - Date.now()) / 86_400_000
+    (new Date("2026-09-11T00:00:00+05:30").getTime() - Date.now()) / 86_400_000
   ));
 
   // When props change, respect them
@@ -103,7 +103,7 @@ export function UpgradeModal({
   let originalPrice = 0; // vs monthly × 12 for savings display
   let monthlyEquiv = 0;  // shown as "= ₹X/month" anchor under annual price
 
-  // August 2026 promo prices (40% off). Revert Sept 1: champion 649/3999, perSubject 129.
+  // Extended promo prices (40% off) — extended to 10 Sept 2026. Revert after: champion 649/3999, perSubject 129.
   if (isChampion) {
     price         = isAnnual ? 2399 : 389;
     originalPrice = isAnnual ? 3999 : 649;
@@ -338,7 +338,7 @@ export function UpgradeModal({
                 {/* Pricing Display */}
                 <div className="my-auto py-4 text-center">
                   <div className="mb-2 inline-block rounded-full bg-orange-100 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wide text-orange-700">
-                    🎉 August Offer — 40% Off
+                    🎉 Extended Offer — 40% Off
                   </div>
                   <div className="flex items-end justify-center gap-1.5">
                     {originalPrice > 0 && (
@@ -370,13 +370,13 @@ export function UpgradeModal({
                   <div className="mb-3 flex items-center justify-center gap-1.5 rounded-lg bg-red-50 border border-red-200 px-3 py-2">
                     <Timer className="h-3.5 w-3.5 text-red-600 shrink-0" />
                     <span className="text-xs font-semibold text-red-700">
-                      Offer ends in {daysLeft} day{daysLeft !== 1 ? "s" : ""} — 1 Sept prices revert to ₹129
+                      Offer ends in {daysLeft} day{daysLeft !== 1 ? "s" : ""} — prices revert to ₹129 after 10 Sept
                     </span>
                   </div>
                 )}
                 {daysLeft > 7 && (
                   <p className="mb-3 text-center text-[11px] text-slate-500">
-                    40% off ends <span className="font-semibold text-orange-600">31 August 2026</span>
+                    40% off extended — ends <span className="font-semibold text-orange-600">10 September 2026</span>
                   </p>
                 )}
 
