@@ -4,8 +4,9 @@ namespace OlympiadReady.Api.Models;
 
 public class VerifyPaymentRequest
 {
-    [Required]
-    public string OrderId { get; set; } = "";
+    public string? OrderId { get; set; }
+
+    public string? SubscriptionId { get; set; }
 
     [Required]
     public string PaymentId { get; set; } = "";

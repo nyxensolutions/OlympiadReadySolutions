@@ -156,8 +156,9 @@ export function UpgradeModal({
         amount: order.amount,
         currency: order.currency,
         order_id: order.orderId,
+        subscription_id: order.subscriptionId,
         name: "Olympiad Ready",
-        description: order.planDisplayName,
+        description: `${order.planDisplayName} (Cancel auto-renewal anytime)`,
         theme: { color: "#2563eb" },
         modal: {
           ondismiss: () => setBusy(false)
@@ -173,6 +174,7 @@ export function UpgradeModal({
               },
               body: JSON.stringify({
                 orderId: response.razorpay_order_id,
+                subscriptionId: response.razorpay_subscription_id,
                 paymentId: response.razorpay_payment_id,
                 signature: response.razorpay_signature,
                 billingCycle,
@@ -387,22 +389,27 @@ export function UpgradeModal({
                       ← Select a subject to see pricing
                     </p>
                   ) : (
-                    <button
-                      type="button"
-                      onClick={startCheckout}
-                      disabled={busy}
-                      className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:cursor-not-allowed disabled:bg-slate-400 transition-all"
-                    >
-                      {busy ? (
-                        <><Loader2 className="h-4 w-4 animate-spin" /> Processing…</>
-                      ) : (
-                        <>Pay ₹{price} &amp; Unlock →</>
-                      )}
-                    </button>
+                    <div className="flex flex-col gap-2">
+                      <button
+                        type="button"
+                        onClick={startCheckout}
+                        disabled={busy}
+                        className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-brand-700 disabled:cursor-not-allowed disabled:bg-slate-400 transition-all"
+                      >
+                        {busy ? (
+                          <><Loader2 className="h-4 w-4 animate-spin" /> Processing…</>
+                        ) : (
+                          <>Pay ₹{price} &amp; Unlock →</>
+                        )}
+                      </button>
+                      <p className="text-center text-[10px] font-medium text-slate-500">
+                        Auto-renews every {billingCycle === "Annual" ? "year" : "month"}. Cancel anytime.
+                      </p>
+                    </div>
                   )}
 
                   {/* School / custom packages CTA */}
-                  <p className="mt-2 text-center text-[10px] text-slate-400">
+                  <p className="mt-3 text-center text-[10px] text-slate-400">
                     Need school pricing?{" "}
                     <a href="/contact?type=school" className="text-brand-600 underline hover:text-brand-700">
                       Custom packages →

@@ -123,6 +123,91 @@ public class RazorpayService
         return new OrderResult(parsed.Id, parsed.Amount, parsed.Currency);
     }
 
+    public async Task<string> CreateDynamicPlanAsync(
+        int amountInPaise, string currency, string intervalPeriod, string planName, CancellationToken ct = default)
+    {
+        if (!IsConfigured)
+            throw new InvalidOperationException("Razorpay credentials are not configured.");
+
+        var payload = new
+        {
+            period = intervalPeriod.ToLowerInvariant(), // "monthly" or "yearly"
+            interval = 1,
+            item = new
+            {
+                name = planName,
+                amount = amountInPaise,
+                currency = currency,
+                description = planName
+            }
+        };
+
+        using var req = new HttpRequestMessage(HttpMethod.Post, "https://api.razorpay.com/v1/plans");
+        req.Content = JsonContent.Create(payload);
+        using var res = await _http.SendAsync(req, ct);
+        var body = await res.Content.ReadAsStringAsync(ct);
+
+        if (!res.IsSuccessStatusCode)
+        {
+            _log.LogError("Razorpay plan create failed {Status}: {Body}", res.StatusCode, body);
+            throw new HttpRequestException($"Razorpay error {(int)res.StatusCode}: {body}");
+        }
+
+        var parsed = System.Text.Json.JsonSerializer.Deserialize<RazorpayPlanResponse>(body)
+            ?? throw new InvalidOperationException("Empty Razorpay plan response");
+
+        return parsed.Id;
+    }
+
+    public async Task<string> CreateSubscriptionAsync(
+        string planId, Guid userId, string planName, CancellationToken ct = default)
+    {
+        if (!IsConfigured)
+            throw new InvalidOperationException("Razorpay credentials are not configured.");
+
+        var payload = new
+        {
+            plan_id = planId,
+            total_count = 120, // max allowed by razorpay or arbitrary large number for indefinite
+            customer_notify = 1,
+            notes = new { userId = userId.ToString(), plan = planName }
+        };
+
+        using var req = new HttpRequestMessage(HttpMethod.Post, "https://api.razorpay.com/v1/subscriptions");
+        req.Content = JsonContent.Create(payload);
+        using var res = await _http.SendAsync(req, ct);
+        var body = await res.Content.ReadAsStringAsync(ct);
+
+        if (!res.IsSuccessStatusCode)
+        {
+            _log.LogError("Razorpay subscription create failed {Status}: {Body}", res.StatusCode, body);
+            throw new HttpRequestException($"Razorpay error {(int)res.StatusCode}: {body}");
+        }
+
+        var parsed = System.Text.Json.JsonSerializer.Deserialize<RazorpaySubscriptionResponse>(body)
+            ?? throw new InvalidOperationException("Empty Razorpay subscription response");
+
+        return parsed.Id;
+    }
+
+    public async Task CancelSubscriptionAsync(string subscriptionId, CancellationToken ct = default)
+    {
+        if (!IsConfigured) return;
+
+        using var req = new HttpRequestMessage(HttpMethod.Post, $"https://api.razorpay.com/v1/subscriptions/{subscriptionId}/cancel");
+        // cancellation can accept a payload with cancel_at_cycle_end: 1, but by default it cancels immediately?
+        // Let's set cancel_at_cycle_end to 0 to stop future billing, they keep access in DB.
+        req.Content = JsonContent.Create(new { cancel_at_cycle_end = 0 }); 
+        using var res = await _http.SendAsync(req, ct);
+        
+        if (!res.IsSuccessStatusCode)
+        {
+            var body = await res.Content.ReadAsStringAsync(ct);
+            _log.LogError("Razorpay subscription cancel failed {Status}: {Body}", res.StatusCode, body);
+            throw new HttpRequestException($"Razorpay error {(int)res.StatusCode}: {body}");
+        }
+    }
+
     public async Task<OrderResult> CreatePdfOrderAsync(
         int grade, string subject, Guid userId, CancellationToken ct = default)
     {
@@ -202,6 +287,18 @@ public class RazorpayService
             Encoding.UTF8.GetBytes(signature.Trim().ToLowerInvariant()));
     }
 
+    public bool VerifySubscriptionSignature(string subscriptionId, string paymentId, string signature)
+    {
+        if (string.IsNullOrEmpty(_keySecret)) return false;
+        var payload = $"{paymentId}|{subscriptionId}";
+        using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(_keySecret));
+        var computed = Convert.ToHexString(hmac.ComputeHash(Encoding.UTF8.GetBytes(payload)))
+            .ToLowerInvariant();
+        return CryptographicOperations.FixedTimeEquals(
+            Encoding.UTF8.GetBytes(computed),
+            Encoding.UTF8.GetBytes(signature.Trim().ToLowerInvariant()));
+    }
+
     private static Dictionary<string, PlanConfig> LoadPlans(IConfiguration config)
     {
         var section = config.GetSection("Razorpay:Plans");
@@ -222,5 +319,15 @@ public class RazorpayService
         [JsonPropertyName("id")] public string Id { get; set; } = "";
         [JsonPropertyName("amount")] public int Amount { get; set; }
         [JsonPropertyName("currency")] public string Currency { get; set; } = "INR";
+    }
+
+    private class RazorpayPlanResponse
+    {
+        [JsonPropertyName("id")] public string Id { get; set; } = "";
+    }
+
+    private class RazorpaySubscriptionResponse
+    {
+        [JsonPropertyName("id")] public string Id { get; set; } = "";
     }
 }

@@ -129,7 +129,8 @@ export type SubscriptionStatus = {
 };
 
 export type CheckoutResponse = {
-  orderId: string;
+  orderId?: string;
+  subscriptionId?: string;
   keyId: string;
   amount: number;
   currency: string;

@@ -61,21 +61,34 @@ export default function InvoicePage() {
         let item = null;
 
         if (type === "subscription") {
-          item = history.subscriptions.find((s: any) => s.id === id);
-          if (item) {
+          const baseItem = history.subscriptions.find((s: any) => s.id === id);
+          if (baseItem) {
+            // Find all items that were purchased together (same razorpaySubscriptionId or razorpayOrderId)
+            let group = [baseItem];
+            if (baseItem.razorpaySubscriptionId) {
+              group = history.subscriptions.filter((s: any) => s.razorpaySubscriptionId === baseItem.razorpaySubscriptionId);
+            } else if (baseItem.razorpayOrderId) {
+              group = history.subscriptions.filter((s: any) => s.razorpayOrderId === baseItem.razorpayOrderId);
+            }
+
+            const totalAmount = group.reduce((sum: number, s: any) => sum + (s.amountInPaise || 0), 0) / 100;
+            const isPackage = group.length > 1;
+            const subjectTitle = isPackage ? (baseItem.planName || `${group.length} Subjects Package`) : baseItem.subject;
+
             setData({
-              id: item.id,
+              id: baseItem.id,
               type: "Subject Subscription",
-              subject: item.subject,
-              grade: item.grade,
-              amount: item.amountInPaise ? item.amountInPaise / 100 : 0,
-              date: item.startDate,
-              orderId: item.razorpayOrderId,
-              paymentId: item.razorpayPaymentId,
-              planName: item.planName,
-              startDate: item.startDate,
-              endDate: item.endDate
+              subject: subjectTitle,
+              grade: baseItem.grade,
+              amount: totalAmount,
+              date: baseItem.startDate,
+              orderId: baseItem.razorpayOrderId || baseItem.razorpaySubscriptionId,
+              paymentId: baseItem.razorpayPaymentId,
+              planName: baseItem.planName,
+              startDate: baseItem.startDate,
+              endDate: baseItem.endDate
             });
+            item = baseItem;
           }
         } else if (type === "pdf") {
           item = history.pdfPurchases.find((p: any) => p.id === id);

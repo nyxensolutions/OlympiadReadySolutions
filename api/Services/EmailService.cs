@@ -12,6 +12,7 @@ public interface IEmailService
     Task SendReengagementEmailAsync(string toEmail, string toName, int papersLeft);
     Task SendUpgradeNudgeEmailAsync(string toEmail, string toName);      // Day 4
     Task SendOfferDeadlineEmailAsync(string toEmail, string toName);     // Day 7
+    Task SendSubscriptionCancelledAsync(string toEmail, string toName, string planName);
 }
 
 public class BrevoEmailService : IEmailService
@@ -550,5 +551,41 @@ public class BrevoEmailService : IEmailService
                 _log.LogInformation("Day-7 deadline email sent to {Email}", toEmail);
         }
         catch (Exception ex) { _log.LogError(ex, "Exception sending Day-7 deadline email to {Email}", toEmail); }
+    }
+    public async Task SendSubscriptionCancelledAsync(string toEmail, string toName, string planName)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey)) return;
+
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "Student" : toName.Split(' ')[0];
+
+        string htmlContent = $@"
+        <div style=""font-family:'Segoe UI',Tahoma,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;"">
+            <div style=""background:#1e3a8a;padding:24px 20px;text-align:center;"">
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:40px;"" />
+                <h1 style=""color:#ffffff;margin:16px 0 0;font-size:22px;font-weight:700;"">Auto-renewal Cancelled</h1>
+            </div>
+            <div style=""padding:32px;"">
+                <p>Hi <strong>{firstName}</strong>,</p>
+                <p>We've successfully cancelled the auto-renewal for your <strong>{planName}</strong> subscription.</p>
+                <p>You will <strong>not be charged</strong> for this subscription going forward.</p>
+                <p><strong>Note:</strong> You still have full access to your unlocked subjects until the end of your current billing period.</p>
+                <div style=""margin-top:24px;border-top:1px solid #e2e8f0;padding-top:24px;text-align:center;color:#64748b;font-size:13px;"">
+                    <p>Changed your mind? You can always upgrade again anytime from your dashboard.</p>
+                </div>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = firstName } },
+            subject = $"OlympiadReady Auto-renewal Cancelled",
+            htmlContent
+        };
+        try
+        {
+            await CreateClient().PostAsJsonAsync("smtp/email", payload);
+        }
+        catch (Exception ex) { _log.LogError(ex, "Failed to send cancellation email to {Email}", toEmail); }
     }
 }

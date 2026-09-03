@@ -26,6 +26,9 @@ public class PaymentTransaction
     public string? RazorpayPaymentId { get; set; }
 
     [MaxLength(100)]
+    public string? RazorpaySubscriptionId { get; set; }
+
+    [MaxLength(100)]
     public string? PlanName { get; set; }
 
     [MaxLength(50)]

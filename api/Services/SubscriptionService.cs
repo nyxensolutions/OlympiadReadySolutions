@@ -276,7 +276,7 @@ public class SubscriptionService
     /// <summary>
     /// Unlocks a specific subject for a user for a given number of days.
     /// </summary>
-    public async Task UnlockSubjectAsync(Guid userId, int grade, string subject, int days, int amountInPaise, string razorpayOrderId, string razorpayPaymentId, CancellationToken ct)
+    public async Task UnlockSubjectAsync(Guid userId, int grade, string subject, int days, int amountInPaise, string? razorpayOrderId, string? razorpayPaymentId, string? razorpaySubscriptionId, bool isAutoRenewing, CancellationToken ct)
     {
         // Always create a new subscription row so every payment has its own history record.
         // If an active subscription exists, the new one starts from its EndDate (seamless renewal).
@@ -297,7 +297,9 @@ public class SubscriptionService
             AiGenerationsUsed = 0,
             AmountInPaise = amountInPaise,
             RazorpayOrderId = razorpayOrderId,
-            RazorpayPaymentId = razorpayPaymentId
+            RazorpayPaymentId = razorpayPaymentId,
+            RazorpaySubscriptionId = razorpaySubscriptionId,
+            IsAutoRenewing = isAutoRenewing
         };
         _db.Subscriptions.Add(sub);
 

@@ -67,6 +67,8 @@ public class BillingController : ControllerBase
                 amountInPaise     = s.AmountInPaise,
                 razorpayOrderId   = s.RazorpayOrderId,
                 razorpayPaymentId = s.RazorpayPaymentId,
+                razorpaySubscriptionId = s.RazorpaySubscriptionId,
+                isAutoRenewing    = s.IsAutoRenewing,
                 purchasedAt       = s.StartDate
             })
             .ToListAsync(ct);
@@ -146,14 +148,18 @@ public class BillingController : ControllerBase
         try
         {
             var pricing = _razorpay.CalculatePrice(req.BillingCycle, req.Subjects);
-            var order   = await _razorpay.CreateDynamicOrderAsync(pricing.AmountInPaise, pricing.Currency, pricing.DisplayName, user.UserId, ct);
+            
+            string interval = string.Equals(req.BillingCycle, "Annual", StringComparison.OrdinalIgnoreCase) ? "yearly" : "monthly";
+            var planId = await _razorpay.CreateDynamicPlanAsync(pricing.AmountInPaise, pricing.Currency, interval, pricing.DisplayName, ct);
+            
+            var subId = await _razorpay.CreateSubscriptionAsync(planId, user.UserId, pricing.DisplayName, ct);
 
             var transaction = new OlympiadReady.Api.Data.Entities.PaymentTransaction
             {
                 UserId          = user.UserId,
                 AmountInPaise   = pricing.AmountInPaise,
                 Currency        = pricing.Currency,
-                RazorpayOrderId = order.OrderId,
+                RazorpaySubscriptionId = subId,
                 PlanName        = pricing.DisplayName,
                 Status          = "Pending",
                 Grade           = req.Grade,
@@ -166,7 +172,7 @@ public class BillingController : ControllerBase
 
             return Ok(new
             {
-                orderId         = order.OrderId,
+                subscriptionId  = subId,
                 keyId           = _razorpay.KeyId,
                 amount          = pricing.AmountInPaise,
                 currency        = pricing.Currency,
@@ -183,13 +189,23 @@ public class BillingController : ControllerBase
     [HttpPost("verify")]
     public async Task<IActionResult> Verify([FromBody] VerifyPaymentRequest req, CancellationToken ct)
     {
-        if (!_razorpay.VerifySignature(req.OrderId, req.PaymentId, req.Signature))
+        bool isSubscription = !string.IsNullOrEmpty(req.SubscriptionId);
+        string idToVerify = isSubscription ? req.SubscriptionId! : req.OrderId!;
+
+        bool sigValid = isSubscription
+            ? _razorpay.VerifySubscriptionSignature(idToVerify, req.PaymentId, req.Signature)
+            : _razorpay.VerifySignature(idToVerify, req.PaymentId, req.Signature);
+
+        if (!sigValid)
         {
-            _log.LogWarning("Razorpay signature mismatch for order {OrderId}", req.OrderId);
+            _log.LogWarning("Razorpay signature mismatch for id {Id}", idToVerify);
             return BadRequest("Signature verification failed.");
         }
 
-        var transaction = await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpayOrderId == req.OrderId, ct);
+        var transaction = isSubscription
+            ? await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpaySubscriptionId == idToVerify, ct)
+            : await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpayOrderId == idToVerify, ct);
+
         if (transaction == null)
             return NotFound("Order not found.");
 
@@ -204,10 +220,16 @@ public class BillingController : ControllerBase
             ? AllSubjectsForGrade(transaction.Grade)
             : rawSubjects;
 
-        foreach (var subject in subjects)
+        int totalPaise = transaction.AmountInPaise;
+        int count = subjects.Count > 0 ? subjects.Count : 1;
+        int basePrice = totalPaise / count;
+        int remainder = totalPaise % count;
+
+        for (int i = 0; i < subjects.Count; i++)
         {
-            int pricePerSubject = transaction.AmountInPaise / (subjects.Count > 0 ? subjects.Count : 1);
-            await _subs.UnlockSubjectAsync(user.UserId, transaction.Grade, subject, transaction.Days, pricePerSubject, req.OrderId, req.PaymentId, ct);
+            var subject = subjects[i];
+            int priceForThisSubject = basePrice + (i == 0 ? remainder : 0);
+            await _subs.UnlockSubjectAsync(user.UserId, transaction.Grade, subject, transaction.Days, priceForThisSubject, req.OrderId, req.PaymentId, req.SubscriptionId, isSubscription, ct);
         }
 
         transaction.Status = "Success";
@@ -215,8 +237,8 @@ public class BillingController : ControllerBase
         await _db.SaveChangesAsync(ct);
 
         _log.LogInformation(
-            "User {UserId} upgraded to {DisplayName} for {Days} days via order {OrderId}",
-            user.UserId, transaction.PlanName, transaction.Days, req.OrderId);
+            "User {UserId} upgraded to {DisplayName} for {Days} days via payment {PaymentId}",
+            user.UserId, transaction.PlanName, transaction.Days, req.PaymentId);
 
         // Run email sending in background so it doesn't delay the checkout response
         var emailStr = user.Email;
@@ -288,82 +310,223 @@ public class BillingController : ControllerBase
         using (doc)
         {
             var eventType = doc.RootElement.TryGetProperty("event", out var ev) ? ev.GetString() : null;
-            if (eventType != "payment.captured") return Ok(); // Only handle captures
 
-            // Extract orderId from payment entity
-            string? orderId = null;
-            string? paymentId = null;
-            if (doc.RootElement.TryGetProperty("payload", out var payload) &&
-                payload.TryGetProperty("payment", out var paymentWrapper) &&
-                paymentWrapper.TryGetProperty("entity", out var entity))
+            if (eventType == "payment.captured")
             {
-                orderId  = entity.TryGetProperty("order_id",  out var o) ? o.GetString() : null;
-                paymentId = entity.TryGetProperty("id",        out var p) ? p.GetString() : null;
-            }
-
-            if (string.IsNullOrEmpty(orderId) || string.IsNullOrEmpty(paymentId))
-            {
-                _log.LogWarning("Webhook: could not extract orderId/paymentId from payload.");
-                return Ok();
-            }
-
-            var transaction = await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpayOrderId == orderId, ct);
-            if (transaction == null)
-            {
-                _log.LogWarning("Webhook: no PaymentTransaction found for orderId {OrderId}", orderId);
-                return Ok();
-            }
-
-            if (transaction.Status == "Success")
-            {
-                _log.LogInformation("Webhook: order {OrderId} already processed — skipping.", orderId);
-                return Ok();
-            }
-
-            // Look up the user
-            var user = await _db.Users.FindAsync(new object[] { transaction.UserId }, ct);
-            if (user == null)
-            {
-                _log.LogError("Webhook: user {UserId} not found for order {OrderId}", transaction.UserId, orderId);
-                return Ok();
-            }
-
-            var rawSubjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
-            var subjects = rawSubjects.Contains("All", StringComparer.OrdinalIgnoreCase)
-                ? AllSubjectsForGrade(transaction.Grade)
-                : rawSubjects;
-
-            foreach (var subject in subjects)
-            {
-                int pricePerSubject = transaction.AmountInPaise / (subjects.Count > 0 ? subjects.Count : 1);
-                await _subs.UnlockSubjectAsync(user.UserId, transaction.Grade, subject, transaction.Days, pricePerSubject, orderId, paymentId, ct);
-            }
-
-            transaction.Status = "Success";
-            transaction.RazorpayPaymentId = paymentId;
-            await _db.SaveChangesAsync(ct);
-
-            _log.LogInformation("Webhook: unlocked {Plan} for user {UserId} via order {OrderId}", transaction.PlanName, user.UserId, orderId);
-
-            // Send receipt email in background
-            var emailStr  = user.Email;
-            var nameStr   = user.FullName ?? "User";
-            var planStr   = transaction.PlanName ?? "";
-            var amt       = transaction.AmountInPaise;
-            var subjs     = subjects;
-            var scopeFactory = HttpContext.RequestServices.GetRequiredService<IServiceScopeFactory>();
-            _ = Task.Run(async () =>
-            {
-                try
+                // Extract orderId from payment entity
+                string? orderId = null;
+                string? paymentId = null;
+                if (doc.RootElement.TryGetProperty("payload", out var payload) &&
+                    payload.TryGetProperty("payment", out var paymentWrapper) &&
+                    paymentWrapper.TryGetProperty("entity", out var entity))
                 {
-                    using var scope = scopeFactory.CreateScope();
-                    var emailSvc = scope.ServiceProvider.GetRequiredService<IEmailService>();
-                    await emailSvc.SendSubscriptionReceiptAsync(emailStr, nameStr, planStr, amt, subjs);
+                    orderId  = entity.TryGetProperty("order_id",  out var o) ? o.GetString() : null;
+                    paymentId = entity.TryGetProperty("id",        out var p) ? p.GetString() : null;
                 }
-                catch (Exception ex) { Console.WriteLine($"Webhook receipt email failed: {ex.Message}"); }
-            });
+
+                if (string.IsNullOrEmpty(orderId) || string.IsNullOrEmpty(paymentId))
+                {
+                    _log.LogWarning("Webhook: could not extract orderId/paymentId from payload.");
+                    return Ok();
+                }
+
+                var transaction = await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpayOrderId == orderId, ct);
+                if (transaction == null)
+                {
+                    _log.LogWarning("Webhook: no PaymentTransaction found for orderId {OrderId}", orderId);
+                    return Ok();
+                }
+
+                if (transaction.Status == "Success")
+                {
+                    _log.LogInformation("Webhook: order {OrderId} already processed — skipping.", orderId);
+                    return Ok();
+                }
+
+                var user = await _db.Users.FindAsync(new object[] { transaction.UserId }, ct);
+                if (user == null) return Ok();
+
+                var rawSubjects = transaction.Subjects?.Split(',').ToList() ?? new List<string>();
+                var subjects = rawSubjects.Contains("All", StringComparer.OrdinalIgnoreCase)
+                    ? AllSubjectsForGrade(transaction.Grade)
+                    : rawSubjects;
+
+                foreach (var subject in subjects)
+                {
+                    int pricePerSubject = transaction.AmountInPaise / (subjects.Count > 0 ? subjects.Count : 1);
+                    await _subs.UnlockSubjectAsync(user.UserId, transaction.Grade, subject, transaction.Days, pricePerSubject, orderId, paymentId, null, false, ct);
+                }
+
+                transaction.Status = "Success";
+                transaction.RazorpayPaymentId = paymentId;
+                await _db.SaveChangesAsync(ct);
+
+                var emailStr  = user.Email;
+                var nameStr   = user.FullName ?? "User";
+                var planStr   = transaction.PlanName ?? "";
+                var amt       = transaction.AmountInPaise;
+                var subjs     = subjects;
+                var scopeFactory = HttpContext.RequestServices.GetRequiredService<IServiceScopeFactory>();
+                _ = Task.Run(async () =>
+                {
+                    try
+                    {
+                        using var scope = scopeFactory.CreateScope();
+                        var emailSvc = scope.ServiceProvider.GetRequiredService<IEmailService>();
+                        await emailSvc.SendSubscriptionReceiptAsync(emailStr, nameStr, planStr, amt, subjs);
+                    }
+                    catch (Exception ex) { Console.WriteLine($"Webhook receipt email failed: {ex.Message}"); }
+                });
+            }
+            else if (eventType == "subscription.charged")
+            {
+                if (doc.RootElement.TryGetProperty("payload", out var payload) &&
+                    payload.TryGetProperty("subscription", out var subWrapper) &&
+                    subWrapper.TryGetProperty("entity", out var entity) &&
+                    payload.TryGetProperty("payment", out var pWrapper) &&
+                    pWrapper.TryGetProperty("entity", out var pEntity))
+                {
+                    var subId = entity.TryGetProperty("id", out var s) ? s.GetString() : null;
+                    var paymentId = pEntity.TryGetProperty("id", out var p) ? p.GetString() : null;
+
+                    if (!string.IsNullOrEmpty(subId) && !string.IsNullOrEmpty(paymentId))
+                    {
+                        // Check if we already processed this payment ID (e.g. from the initial /verify call)
+                        var existingTx = await _db.PaymentTransactions.FirstOrDefaultAsync(t => t.RazorpayPaymentId == paymentId, ct);
+                        if (existingTx != null)
+                        {
+                            return Ok();
+                        }
+
+                        // This is an auto-renewal charge!
+                        var originalTx = await _db.PaymentTransactions
+                            .Where(t => t.RazorpaySubscriptionId == subId)
+                            .OrderByDescending(t => t.CreatedAt)
+                            .FirstOrDefaultAsync(ct);
+
+                        if (originalTx != null)
+                        {
+                            var newTx = new OlympiadReady.Api.Data.Entities.PaymentTransaction
+                            {
+                                UserId = originalTx.UserId,
+                                AmountInPaise = originalTx.AmountInPaise,
+                                Currency = originalTx.Currency,
+                                RazorpaySubscriptionId = subId,
+                                RazorpayPaymentId = paymentId,
+                                PlanName = originalTx.PlanName,
+                                Status = "Success",
+                                Grade = originalTx.Grade,
+                                Subjects = originalTx.Subjects,
+                                Days = originalTx.Days,
+                                CreatedAt = DateTime.UtcNow
+                            };
+                            _db.PaymentTransactions.Add(newTx);
+
+                            var user = await _db.Users.FindAsync(new object[] { originalTx.UserId }, ct);
+                            if (user != null)
+                            {
+                                var rawSubjects = originalTx.Subjects?.Split(',').ToList() ?? new List<string>();
+                                var subjects = rawSubjects.Contains("All", StringComparer.OrdinalIgnoreCase)
+                                    ? AllSubjectsForGrade(originalTx.Grade)
+                                    : rawSubjects;
+
+                                int totalPaise = originalTx.AmountInPaise;
+                                int count = subjects.Count > 0 ? subjects.Count : 1;
+                                int basePrice = totalPaise / count;
+                                int remainder = totalPaise % count;
+
+                                for (int i = 0; i < subjects.Count; i++)
+                                {
+                                    var subject = subjects[i];
+                                    int priceForThisSubject = basePrice + (i == 0 ? remainder : 0);
+                                    await _subs.UnlockSubjectAsync(user.UserId, originalTx.Grade, subject, originalTx.Days, priceForThisSubject, null, paymentId, subId, true, ct);
+                                }
+                                await _db.SaveChangesAsync(ct);
+
+                                var emailStr  = user.Email;
+                                var nameStr   = user.FullName ?? "User";
+                                var planStr   = originalTx.PlanName ?? "";
+                                var amt       = originalTx.AmountInPaise;
+                                var subjs     = subjects;
+                                var scopeFactory = HttpContext.RequestServices.GetRequiredService<IServiceScopeFactory>();
+                                _ = Task.Run(async () =>
+                                {
+                                    try
+                                    {
+                                        using var scope = scopeFactory.CreateScope();
+                                        var emailSvc = scope.ServiceProvider.GetRequiredService<IEmailService>();
+                                        await emailSvc.SendSubscriptionReceiptAsync(emailStr, nameStr, planStr, amt, subjs);
+                                    }
+                                    catch (Exception ex) { Console.WriteLine($"Webhook renewal receipt email failed: {ex.Message}"); }
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+            else if (eventType == "subscription.cancelled" || eventType == "subscription.halted")
+            {
+                if (doc.RootElement.TryGetProperty("payload", out var payload) &&
+                    payload.TryGetProperty("subscription", out var subWrapper) &&
+                    subWrapper.TryGetProperty("entity", out var entity))
+                {
+                    var subId = entity.TryGetProperty("id", out var s) ? s.GetString() : null;
+                    if (!string.IsNullOrEmpty(subId))
+                    {
+                        var activeSubs = await _db.Subscriptions
+                            .Where(s => s.RazorpaySubscriptionId == subId && s.IsAutoRenewing)
+                            .ToListAsync(ct);
+                        foreach (var sub in activeSubs)
+                        {
+                            sub.IsAutoRenewing = false;
+                        }
+                        await _db.SaveChangesAsync(ct);
+                    }
+                }
+            }
         }
 
         return Ok();
     }
+
+    [HttpPost("cancel-subscription")]
+    public async Task<IActionResult> CancelSubscription([FromBody] CancelSubscriptionRequest req, CancellationToken ct)
+    {
+        var user = await _users.GetOrSyncAsync(User, ct);
+        
+        var activeSubs = await _db.Subscriptions
+            .Where(s => s.UserId == user.UserId && s.RazorpaySubscriptionId == req.SubscriptionId && s.IsAutoRenewing)
+            .ToListAsync(ct);
+
+        if (activeSubs.Count == 0)
+            return NotFound("Active auto-renewing subscription not found.");
+
+        try
+        {
+            await _razorpay.CancelSubscriptionAsync(req.SubscriptionId, ct);
+        }
+        catch (Exception ex)
+        {
+            _log.LogError(ex, "Failed to cancel subscription {SubId} with Razorpay", req.SubscriptionId);
+            return StatusCode(500, "Failed to cancel with payment provider.");
+        }
+
+        foreach (var sub in activeSubs)
+        {
+            sub.IsAutoRenewing = false;
+        }
+
+        await _db.SaveChangesAsync(ct);
+        
+        var planName = activeSubs.FirstOrDefault()?.PlanName ?? "Subject";
+        await _emailService.SendSubscriptionCancelledAsync(user.Email, user.FullName ?? "Student", planName);
+
+        return Ok(new { success = true });
+    }
+}
+
+public class CancelSubscriptionRequest
+{
+    [System.ComponentModel.DataAnnotations.Required]
+    public string SubscriptionId { get; set; } = "";
 }

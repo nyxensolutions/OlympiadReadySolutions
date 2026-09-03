@@ -16,6 +16,8 @@ public class Subscription
     public int AmountInPaise { get; set; }
     public string? RazorpayOrderId { get; set; }
     public string? RazorpayPaymentId { get; set; }
+    public string? RazorpaySubscriptionId { get; set; }
+    public bool IsAutoRenewing { get; set; } = false;
 
     // Computed by SQL — do not set in code.
     public bool IsActive { get; private set; }
