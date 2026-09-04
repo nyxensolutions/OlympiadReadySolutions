@@ -1061,7 +1061,8 @@ public class AdminController : ControllerBase
                 data = req.Data ?? new { }
             }).ToList();
 
-            var content = new StringContent(JsonSerializer.Serialize(payloads), Encoding.UTF8, "application/json");
+            var opts = new JsonSerializerOptions { DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull };
+            var content = new StringContent(JsonSerializer.Serialize(payloads, opts), Encoding.UTF8, "application/json");
             var response = await http.PostAsync("https://exp.host/--/api/v2/push/send", content, ct);
             if (response.IsSuccessStatusCode)
             {
