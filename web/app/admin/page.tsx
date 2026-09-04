@@ -130,9 +130,14 @@ export default function AdminPage() {
               </div>
             )}
           </div>
-          <button onClick={() => signOut()} className="text-xs text-slate-400 hover:text-white underline">
-            Sign out
-          </button>
+          <div className="flex items-center gap-4">
+            <a href="/admin/notifications" className="text-xs bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-1.5 rounded-lg flex items-center gap-1 transition-colors">
+              Broadcast Push
+            </a>
+            <button onClick={() => signOut()} className="text-xs text-slate-400 hover:text-white underline">
+              Sign out
+            </button>
+          </div>
         </div>
 
         {/* Tab bar */}

@@ -12,11 +12,11 @@ public class ChatDoubtRequest
     public int Grade { get; set; }
     
     // The specific question context
-    public string QuestionText { get; set; } = "";
-    public string Options { get; set; } = "";
-    public string CorrectAnswer { get; set; } = "";
-    public string Explanation { get; set; } = "";
-    public string UserPick { get; set; } = "";
+    public string? QuestionText { get; set; }
+    public string? Options { get; set; }
+    public string? CorrectAnswer { get; set; }
+    public string? Explanation { get; set; }
+    public string? UserPick { get; set; }
     
     // Chat payload
     public List<ChatDoubtMessage> History { get; set; } = new();

@@ -1030,7 +1030,53 @@ public class AdminController : ControllerBase
         return $"{namePart}-{cityPart}-{year}";
     }
 
+    [HttpPost("notifications/broadcast")]
+    public async Task<IActionResult> BroadcastPushNotification([FromBody] BroadcastRequest req, CancellationToken ct)
+    {
+        if (string.IsNullOrWhiteSpace(req.Title) || string.IsNullOrWhiteSpace(req.Body))
+            return BadRequest(new { message = "Title and Body are required." });
+
+        var usersWithTokens = await _db.Users
+            .Where(u => !string.IsNullOrEmpty(u.ExpoPushToken))
+            .Select(u => new { u.UserId, u.ExpoPushToken })
+            .ToListAsync(ct);
+
+        if (!usersWithTokens.Any())
+            return Ok(new { message = "No users with push tokens found." });
+
+        var successCount = 0;
+        using var http = new HttpClient();
+        
+        // Expo Push API allows batching up to 100 messages
+        var batches = usersWithTokens.Chunk(100);
+        foreach (var batch in batches)
+        {
+            var payloads = batch.Select(u => new
+            {
+                to = u.ExpoPushToken,
+                sound = "default",
+                title = req.Title,
+                body = req.Body,
+                data = req.Data ?? new { }
+            }).ToList();
+
+            var content = new StringContent(JsonSerializer.Serialize(payloads), Encoding.UTF8, "application/json");
+            var response = await http.PostAsync("https://exp.host/--/api/v2/push/send", content, ct);
+            if (response.IsSuccessStatusCode)
+            {
+                successCount += batch.Length;
+            }
+            else
+            {
+                _log.LogWarning("Expo Push API returned non-success status code.");
+            }
+        }
+
+        return Ok(new { success = true, message = $"Successfully sent to {successCount} devices." });
+    }
 }
+
+public record BroadcastRequest(string Title, string Body, object Data = null);
 
 // ─── DTOs ─────────────────────────────────────────────────────────────────────
 public record UpdateRewardDto(string? Status, string? AdminNotes, string? TrackingNumber);
