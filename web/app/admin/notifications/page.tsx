@@ -7,6 +7,7 @@ export default function AdminNotificationsPage() {
   const { getToken } = useAuth();
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
+  const [category, setCategory] = useState("none");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -29,7 +30,11 @@ export default function AdminNotificationsPage() {
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify({ title, body }),
+        body: JSON.stringify({ 
+          title, 
+          body,
+          categoryId: category !== "none" ? category : undefined 
+        }),
       });
 
       const data = await res.json();
@@ -83,13 +88,31 @@ export default function AdminNotificationsPage() {
               <textarea
                 id="body"
                 name="body"
-                rows={3}
+                rows={4}
                 className="mt-1 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md p-2 border"
                 placeholder="Class 6 Math Mock Test 4 is now live. Try it out!"
                 value={body}
                 onChange={(e) => setBody(e.target.value)}
                 disabled={status === "loading"}
               />
+            </div>
+
+            <div className="mb-6">
+              <label htmlFor="category" className="block text-sm font-medium text-gray-700">
+                Action Buttons (Optional)
+              </label>
+              <select
+                id="category"
+                name="category"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md border"
+                value={category}
+                onChange={(e) => setCategory(e.target.value)}
+                disabled={status === "loading"}
+              >
+                <option value="none">None (Standard Notification)</option>
+                <option value="test_alert">"Take Test" & "Dismiss"</option>
+                <option value="general_alert">"Open App" & "Dismiss"</option>
+              </select>
             </div>
 
             {message && (

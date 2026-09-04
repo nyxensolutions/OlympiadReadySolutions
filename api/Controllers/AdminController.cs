@@ -1057,6 +1057,7 @@ public class AdminController : ControllerBase
                 sound = "default",
                 title = req.Title,
                 body = req.Body,
+                categoryId = req.CategoryId,
                 data = req.Data ?? new { }
             }).ToList();
 
@@ -1076,7 +1077,7 @@ public class AdminController : ControllerBase
     }
 }
 
-public record BroadcastRequest(string Title, string Body, object Data = null);
+public record BroadcastRequest(string Title, string Body, string? CategoryId = null, object Data = null);
 
 // ─── DTOs ─────────────────────────────────────────────────────────────────────
 public record UpdateRewardDto(string? Status, string? AdminNotes, string? TrackingNumber);
