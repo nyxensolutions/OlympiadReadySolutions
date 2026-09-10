@@ -249,7 +249,7 @@ export default function MockExamsPage() {
                     Upgrade — ₹77/month →
                   </a>
                   <span className="inline-flex items-center text-xs text-amber-700">
-                    🎉 Offer extended: 40% off — ends 10 Sept
+                    ₹129/subject/month — cancel anytime
                   </span>
                 </div>
               )}

@@ -528,9 +528,9 @@ function DashboardBody() {
           <div className="flex flex-wrap items-center gap-4 rounded-2xl border border-orange-200 bg-gradient-to-r from-orange-50 to-amber-50 px-5 py-4">
             <div className="text-2xl">🎉</div>
             <div className="flex-1 min-w-0">
-              <p className="text-sm font-bold text-orange-900">🎉 Offer Extended — 40% off all plans till 10 September!</p>
+              <p className="text-sm font-bold text-orange-900">Unlock unlimited practice papers</p>
               <p className="text-xs text-orange-700 mt-0.5">
-                Upgrade now at ₹77/subject/month (was ₹129) · Champion plan all subjects ₹389/month · Offer ends 10 September.
+                ₹129/subject/month · Champion plan (all subjects) ₹649/month · Cancel anytime.
               </p>
             </div>
             <button
@@ -566,7 +566,7 @@ function DashboardBody() {
               }`}>
                 {data.subscription.limit - data.subscription.used <= 0
                   ? "Upgrade to continue practising with unlimited AI-generated papers."
-                  : `${data.subscription.limit - data.subscription.used} paper${data.subscription.limit - data.subscription.used === 1 ? "" : "s"} remaining — unlock unlimited practice for ₹77/subject/month (40% off, extended to 10 Sept).`}
+                  : `${data.subscription.limit - data.subscription.used} paper${data.subscription.limit - data.subscription.used === 1 ? "" : "s"} remaining — unlock unlimited practice for ₹129/subject/month.`}
               </p>
             </div>
             {/* Progress bar */}

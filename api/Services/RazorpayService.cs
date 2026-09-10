@@ -58,16 +58,16 @@ public class RazorpayService
         var days      = isAnnual ? 365 : 30;
         string cycleLabel = isAnnual ? "Annual" : "Monthly";
 
-        // Champion (All-Subjects) flat tier — August 2026 promo: 40% off (₹389/mo · ₹2,399/yr)
+        // Champion (All-Subjects) flat tier — ₹649/mo · ₹3,999/yr
         if (subjects.Contains("All", StringComparer.OrdinalIgnoreCase))
         {
-            int amount = isAnnual ? 239900 : 38900; // was ₹3,999/yr · ₹649/mo
+            int amount = isAnnual ? 399900 : 64900;
             return (amount, "INR", days, $"Champion — All Subjects · {cycleLabel}");
         }
 
-        // Linear per-subject: 10% off for 3+. August 2026 promo: ₹77/subject (was ₹129).
+        // Linear per-subject: 10% off for 3+. ₹129/subject/month.
         int count = subjects.Count > 0 ? subjects.Count : 1;
-        const decimal pricePerSubject = 77m;
+        const decimal pricePerSubject = 129m;
         decimal multiplier = count >= 3 ? 0.90m : 1.0m;
 
         int monthlyRupees = (int)Math.Ceiling(count * pricePerSubject * multiplier);
@@ -80,12 +80,12 @@ public class RazorpayService
     }
 
     // ── Per-PDF batch pricing helpers ─────────────────────────────────────
-    // August 2026 promo (was ₹29/₹25/₹20): 1-2 PDFs: ₹19 · 3-5: ₹15 · 6+: ₹12
+    // 1-2 PDFs: ₹29 · 3-5: ₹25 · 6+: ₹20
     public static int PdfUnitPriceInPaise(int count) => count switch
     {
-        <= 2 => 1900,
-        <= 5 => 1500,
-        _    => 1200
+        <= 2 => 2900,
+        <= 5 => 2500,
+        _    => 2000
     };
 
     public static int PdfBatchTotalInPaise(int count) => PdfUnitPriceInPaise(count) * count;
@@ -214,7 +214,7 @@ public class RazorpayService
         if (!IsConfigured)
             throw new InvalidOperationException("Razorpay credentials are not configured.");
 
-        const int amountInPaise = 1900; // ₹19 (August 2026 promo; was ₹29)
+        const int amountInPaise = 2900; // ₹29
         var receipt = $"pdf_{userId.ToString("N")[..12]}_{grade}_{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
 
         var payload = new
