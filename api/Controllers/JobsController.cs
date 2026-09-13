@@ -43,7 +43,7 @@ public class JobsController : ControllerBase
 
             // Single query: pull activity counts for every user in one go.
             var users = await db.Users
-                .Where(u => !string.IsNullOrEmpty(u.Email))
+                .Where(u => !string.IsNullOrEmpty(u.Email) && !u.EmailOptOut)
                 .Select(u => new
                 {
                     u.UserId,
@@ -106,6 +106,7 @@ public class JobsController : ControllerBase
         // Users who signed up 24-48h ago and only have the auto-generated welcome paper
         var targets = await _db.Users
             .Where(u => !string.IsNullOrEmpty(u.Email)
+                     && !u.EmailOptOut
                      && u.FreeAttemptsUsed == 1
                      && u.CreatedAt >= windowStart
                      && u.CreatedAt < windowEnd)
@@ -146,6 +147,7 @@ public class JobsController : ControllerBase
         var targets = await _db.Users
             .Where(u => !string.IsNullOrEmpty(u.Email)
                      && !u.Email.EndsWith("@clerk.local")
+                     && !u.EmailOptOut
                      && u.CreatedAt >= windowStart
                      && u.CreatedAt < windowEnd
                      && !paidUserIds.Contains(u.UserId))
@@ -182,6 +184,7 @@ public class JobsController : ControllerBase
         var targets = await _db.Users
             .Where(u => !string.IsNullOrEmpty(u.Email)
                      && !u.Email.EndsWith("@clerk.local")
+                     && !u.EmailOptOut
                      && u.CreatedAt >= windowStart
                      && u.CreatedAt < windowEnd
                      && !paidUserIds.Contains(u.UserId))

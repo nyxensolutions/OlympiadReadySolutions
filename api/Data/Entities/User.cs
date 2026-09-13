@@ -52,4 +52,10 @@ public class User
 
     /// <summary>Expo push token for mobile device notifications. Null when not registered.</summary>
     public string? ExpoPushToken { get; set; }
+
+    /// <summary>
+    /// When true, this user has opted out of all marketing and progress emails.
+    /// Transactional emails (receipts, cancellation confirmations) are still sent.
+    /// </summary>
+    public bool EmailOptOut { get; set; } = false;
 }
