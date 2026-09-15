@@ -437,34 +437,34 @@ public class BrevoEmailService : IEmailService
         <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
             <div style=""background:#1e3a8a;padding:36px 20px 28px;text-align:center;"">
                 <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
-                <h1 style=""color:#ffffff;margin:18px 0 0;font-size:24px;font-weight:700;"">Olympiad exams start in October ⏰</h1>
+                <h1 style=""color:#ffffff;margin:18px 0 0;font-size:24px;font-weight:700;"">Olympiad exams are just weeks away ⏰</h1>
             </div>
             <div style=""padding:36px 32px;"">
                 <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
                 <p style=""font-size:15px;color:#475569;line-height:1.6;"">
-                    You tried OlympiadReady a few days ago — great first step! Students who practice consistently in August and September are 3× more likely to qualify for Level 2.
+                    You tried OlympiadReady a few days ago — great first step! Students who practice consistently in the weeks before exams are 3× more likely to qualify for Level 2.
                 </p>
-                <div style=""background:#fef9c3;border:1px solid #fde68a;border-radius:10px;padding:20px;margin:24px 0;"">
-                    <p style=""margin:0 0 8px;font-size:15px;color:#92400e;font-weight:700;"">🎉 August Special — 40% Off (ends 31 Aug)</p>
+                <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:20px;margin:24px 0;"">
+                    <p style=""margin:0 0 8px;font-size:15px;color:#1e40af;font-weight:700;"">📚 Unlock unlimited practice</p>
                     <table style=""width:100%;border-collapse:collapse;margin-top:8px;"">
                         <tr>
                             <td style=""font-size:14px;color:#44403c;padding:6px 0;"">Per Subject / Month</td>
-                            <td style=""text-align:right;font-size:14px;""><span style=""text-decoration:line-through;color:#a8a29e;"">₹129</span> → <strong style=""color:#15803d;"">₹77</strong></td>
+                            <td style=""text-align:right;font-size:14px;""><strong style=""color:#1e3a8a;"">₹129</strong></td>
                         </tr>
                         <tr>
                             <td style=""font-size:14px;color:#44403c;padding:6px 0;"">Champion (All Subjects)</td>
-                            <td style=""text-align:right;font-size:14px;""><span style=""text-decoration:line-through;color:#a8a29e;"">₹649</span> → <strong style=""color:#15803d;"">₹389/mo</strong></td>
+                            <td style=""text-align:right;font-size:14px;""><strong style=""color:#1e3a8a;"">₹649/mo</strong></td>
                         </tr>
                         <tr>
                             <td style=""font-size:14px;color:#44403c;padding:6px 0;"">PDF Practice Papers</td>
-                            <td style=""text-align:right;font-size:14px;""><span style=""text-decoration:line-through;color:#a8a29e;"">₹29</span> → <strong style=""color:#15803d;"">₹19</strong></td>
+                            <td style=""text-align:right;font-size:14px;""><strong style=""color:#1e3a8a;"">₹29</strong></td>
                         </tr>
                     </table>
                 </div>
                 <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:24px;text-align:center;"">
                     <p style=""margin:0 0 6px;font-size:15px;color:#1e40af;font-weight:600;"">7 fresh AI mock exams every week</p>
                     <p style=""margin:0 0 20px;font-size:14px;color:#3b82f6;"">Covers IMO · NSO · IEO · IGKO · Spell Bee — all in one place.</p>
-                    <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Upgrade Now — ₹77/month →</a>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Upgrade Now — ₹129/month →</a>
                 </div>
                 <p style=""margin-top:24px;font-size:13px;color:#64748b;text-align:center;"">No lock-in. Cancel anytime. Secured by Razorpay.</p>
             </div>
@@ -477,7 +477,7 @@ public class BrevoEmailService : IEmailService
         {
             sender = new { name = _senderName, email = _senderEmail },
             to = new[] { new { email = toEmail, name = firstName } },
-            subject = $"{firstName}, Olympiad exams start in October — upgrade at 40% off before August ends 🏆",
+            subject = $"{firstName}, Olympiad exams are weeks away — are you ready? 🏆",
             htmlContent
         };
         try
@@ -499,20 +499,20 @@ public class BrevoEmailService : IEmailService
 
         string htmlContent = $@"
         <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
-            <div style=""background:linear-gradient(135deg,#ea580c,#dc2626);padding:36px 20px 28px;text-align:center;"">
+            <div style=""background:linear-gradient(135deg,#1e3a8a,#1d4ed8);padding:36px 20px 28px;text-align:center;"">
                 <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
-                <h1 style=""color:#ffffff;margin:18px 0 0;font-size:24px;font-weight:700;"">Last chance — 40% off ends 31 August 🔥</h1>
+                <h1 style=""color:#ffffff;margin:18px 0 0;font-size:24px;font-weight:700;"">Exams are close — is your child ready? 🎯</h1>
             </div>
             <div style=""padding:36px 32px;"">
                 <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
                 <p style=""font-size:15px;color:#475569;line-height:1.6;"">
-                    The August Olympiad special ends in a few days. After August, prices go back to ₹129/subject — this is your last chance to lock in 40% off.
+                    It's been a week since you joined OlympiadReady. Olympiad exams like IMO, NSO, and IEO are just around the corner — students who practice weekly consistently outperform those who cram at the last minute.
                 </p>
-                <div style=""background:#fef2f2;border:2px solid #fca5a5;border-radius:12px;padding:24px;margin:24px 0;text-align:center;"">
-                    <p style=""margin:0 0 4px;font-size:13px;font-weight:700;color:#991b1b;text-transform:uppercase;letter-spacing:0.05em;"">Offer expires 31 August 2026</p>
-                    <p style=""margin:8px 0;font-size:32px;font-weight:800;color:#1e3a8a;"">₹77<span style=""font-size:16px;font-weight:400;color:#64748b;"">/subject/month</span></p>
-                    <p style=""margin:0 0 20px;font-size:14px;color:#64748b;"">Champion plan (all subjects): ₹389/month</p>
-                    <a href=""https://olympiadready.com/dashboard"" style=""background:#dc2626;color:#fff;padding:16px 36px;text-decoration:none;border-radius:8px;font-weight:700;font-size:16px;display:inline-block;"">Claim 40% Off Now →</a>
+                <div style=""background:#f0f9ff;border:2px solid #7dd3fc;border-radius:12px;padding:24px;margin:24px 0;text-align:center;"">
+                    <p style=""margin:0 0 4px;font-size:13px;font-weight:700;color:#0369a1;text-transform:uppercase;letter-spacing:0.05em;"">Unlock unlimited practice today</p>
+                    <p style=""margin:8px 0;font-size:32px;font-weight:800;color:#1e3a8a;"">₹129<span style=""font-size:16px;font-weight:400;color:#64748b;"">/subject/month</span></p>
+                    <p style=""margin:0 0 20px;font-size:14px;color:#64748b;"">Champion plan (all subjects): ₹649/month</p>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:16px 36px;text-decoration:none;border-radius:8px;font-weight:700;font-size:16px;display:inline-block;"">Start Practicing Now →</a>
                 </div>
                 <div style=""display:flex;gap:12px;margin-top:16px;"">
                     <div style=""flex:1;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px;text-align:center;"">
@@ -539,7 +539,7 @@ public class BrevoEmailService : IEmailService
         {
             sender = new { name = _senderName, email = _senderEmail },
             to = new[] { new { email = toEmail, name = firstName } },
-            subject = $"Last chance {firstName} — 40% off ends 31 August. Don't miss it! 🔥",
+            subject = $"{firstName}, Olympiad exams are around the corner — don't miss your window 🎯",
             htmlContent
         };
         try
