@@ -33,6 +33,11 @@ export const LIo = ({ children }: { children: ReactNode }) => <li className="pl-
 export const B = ({ children }: { children: ReactNode }) => (
   <strong className="font-semibold text-slate-900">{children}</strong>
 );
+export const A = ({ href, children }: { href: string; children: ReactNode }) => (
+  <Link href={href} className="font-semibold text-brand-700 underline decoration-brand-200 underline-offset-4 hover:decoration-brand-500">
+    {children}
+  </Link>
+);
 export const Callout = ({ children }: { children: ReactNode }) => (
   <div className="mt-6 rounded-2xl border border-brand-100 bg-brand-50 p-5 text-[16px] leading-7 text-slate-700">
     {children}
@@ -71,6 +76,2016 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 77 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-revision-plan-last-30-days",
+    title: "Olympiad Revision Plan: What to Do in the Last 30 Days Before the Exam",
+    description:
+      "A week-by-week revision plan for the final 30 days before IMO, NSO, IEO and other Olympiads. Covers what to revise, how many mock tests to take, how to fix weak topics fast, and what to avoid in the final week.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 10,
+    keywords: [
+      "olympiad revision plan",
+      "last 30 days olympiad preparation",
+      "how to revise for olympiad",
+      "IMO last month preparation",
+      "NSO revision plan",
+      "olympiad preparation one month",
+    ],
+    excerpt:
+      "The final 30 days decide more marks than the three months before them. Here is a week-by-week revision plan for IMO, NSO, IEO and other Olympiads, built around mock tests and error logs rather than rereading chapters.",
+    content: (
+      <>
+        <P>
+          Olympiad season is here. For most schools, SOF Level 1 exams and other Olympiads fall between October and
+          December, which means many students now have about a month left. That month matters more than it looks.
+          Students who revise well in the last 30 days often gain 10&ndash;15 percentage points over students who
+          simply &ldquo;keep studying&rdquo; the same way they did before.
+        </P>
+        <P>
+          The difference is about <B>what kind</B> of work you do, not how many hours you put in. Early preparation
+          builds knowledge. The last month is for turning that knowledge into marks: finding the questions you
+          still get wrong, fixing them, and getting used to working at exam speed. This plan works for maths,
+          science, English and GK Olympiads, whatever your class.
+        </P>
+
+        <H2 id="principle">The one principle: test, then fix</H2>
+        <P>
+          In the final month, every study session should start from evidence. That evidence is a mock test or a
+          topic test, not a chapter you feel you should read again. Rereading feels productive because the material
+          looks familiar, but recognising something is not the same as being able to use it under time pressure.
+          The loop that works is:
+        </P>
+        <OL>
+          <LIo><B>Test:</B> take a timed paper or topic set.</LIo>
+          <LIo><B>Log:</B> write down every wrong or guessed question with its topic and the reason you got it wrong.</LIo>
+          <LIo><B>Fix:</B> study only the concept behind each logged error, then solve 5&ndash;10 fresh questions on it.</LIo>
+          <LIo><B>Retest:</B> check a few days later that the fix held.</LIo>
+        </OL>
+        <Callout>
+          <B>Keep an error log.</B> Use a single notebook page per subject with four columns: question source, topic,
+          why it went wrong (concept gap / misread / calculation slip / ran out of time), and the correct idea in one
+          line. By exam week this page becomes the most valuable revision material you own, because it lists
+          exactly the mistakes <em>you</em> make.
+        </Callout>
+
+        <H2 id="week-1">Week 1 (Days 30&ndash;24): Diagnose</H2>
+        <UL>
+          <LI><B>Day 30:</B> Take one full sample paper under real conditions: 60 minutes, no breaks, no phone, answers marked the way the exam requires.</LI>
+          <LI><B>Day 29:</B> Score it section by section and fill in the error log. Sort errors into the four causes above.</LI>
+          <LI><B>Days 28&ndash;24:</B> Work on your three weakest topics, one each day, plus a short daily reasoning set (10 questions). Finish each topic day with a 10-question topic test.</LI>
+        </UL>
+        <P>
+          The cause of each error decides how you fix it. <B>Concept gaps</B> need study. <B>Misreads</B> need a
+          reading habit (underline what the question asks). <B>Calculation slips</B> need slower checking on
+          multi-step problems. <B>Time problems</B> need timed practice, which is Week 3.
+        </P>
+
+        <H2 id="week-2">Week 2 (Days 23&ndash;17): Close gaps and target the high-value sections</H2>
+        <UL>
+          <LI>Carry on with topic repair: two weak topics a day now, each with 10&ndash;15 practice questions.</LI>
+          <LI>Take one full timed paper mid-week (Day 20) and update the error log.</LI>
+          <LI>Spend 20 minutes a day on the <B>Achievers section</B>. In SOF exams these questions carry more marks each, so every one you learn to crack is worth two or three ordinary questions.</LI>
+          <LI>Keep the daily reasoning set going. Series, analogies, coding-decoding and direction problems improve steadily with daily practice and fade quickly without it.</LI>
+        </UL>
+        <P>
+          If reasoning is costing you marks, work through our guide to{" "}
+          <A href="/blog/how-to-improve-logical-reasoning-for-olympiads">improving logical reasoning for Olympiads</A>.
+          It covers each question type with worked examples.
+        </P>
+
+        <H2 id="week-3">Week 3 (Days 16&ndash;8): Build exam speed</H2>
+        <UL>
+          <LI>Take <B>three full timed papers</B> this week, spaced two days apart (for example Days 16, 13 and 10).</LI>
+          <LI>After each one, review for as long as the paper took. A paper you do not review teaches you almost nothing.</LI>
+          <LI>Practise the two-pass method (explained in our <A href="/blog/time-management-in-olympiad-exam">time management guide</A>): answer everything you are sure of first, mark the rest, then come back.</LI>
+          <LI>Track your score trend. If it is flat, your review is not specific enough. Go back to the error log and check that each entry has a real fix, not just the correct option copied down.</LI>
+        </UL>
+
+        <H2 id="week-4">Week 4 (Days 7&ndash;1): Consolidate, don&rsquo;t cram</H2>
+        <UL>
+          <LI><B>Days 7&ndash;5:</B> One final full paper (Day 7), then revise only from your error log and formula/fact sheets.</LI>
+          <LI><B>Days 4&ndash;2:</B> Light work only: 20&ndash;30 mixed questions a day, all from topics you have already covered. No new chapters.</LI>
+          <LI><B>Day 1 (the day before):</B> 30 minutes reading through the error log, pack your exam kit, and sleep early. See our <A href="/blog/olympiad-exam-day-checklist">exam day checklist</A>.</LI>
+        </UL>
+        <Callout>
+          <B>Why no new topics in the final week?</B> Something learned in the last three days is shaky, and it can
+          interfere with what you already know well. The marks available from fixing mistakes you already make
+          are much bigger than the marks from a chapter you have never studied.
+        </Callout>
+
+        <H2 id="subject-notes">Subject-specific notes</H2>
+        <H3>Maths (IMO)</H3>
+        <UL>
+          <LI>Keep a one-page formula sheet (areas, perimeters, percentage, ratio, algebraic identities for your class) and read it once a day.</LI>
+          <LI>Do 3&ndash;5 word problems every day. The Everyday Mathematics section is all word problems, and reading carefully is half the work.</LI>
+        </UL>
+        <H3>Science (NSO)</H3>
+        <UL>
+          <LI>Revise diagrams (plant and animal cells, human organ systems, circuits, ray diagrams) by redrawing them from memory, not by looking at them.</LI>
+          <LI>Science questions often describe a situation and ask what happens next. Practise explaining <em>why</em>, not just recalling facts.</LI>
+        </UL>
+        <H3>English (IEO)</H3>
+        <UL>
+          <LI>Spend 15 minutes a day reading anything well written. Reading keeps comprehension sharp in a way grammar drills do not.</LI>
+          <LI>Revise grammar rules from the error log: tenses, articles, prepositions and subject-verb agreement are the usual trouble spots.</LI>
+        </UL>
+        <H3>General Knowledge (IGKO)</H3>
+        <UL>
+          <LI>Read current affairs from the last 6&ndash;9 months: awards, sports events, space missions, important days.</LI>
+          <LI>Revise static GK in short daily bursts (flags, capitals, inventions, national symbols). Frequent short reviews stick better than one long session.</LI>
+        </UL>
+
+        <H2 id="parents">For parents: how to help in the last month</H2>
+        <UL>
+          <LI>Protect a fixed daily study slot. Consistency matters more than length.</LI>
+          <LI>Ask about the error log, not the score: &ldquo;What did you fix today?&rdquo; works better than &ldquo;How much did you get?&rdquo;</LI>
+          <LI>Keep sleep normal. A tired child loses more marks to misreading than an extra hour of study can win back.</LI>
+          <LI>If your child is anxious, read our guide on <A href="/blog/olympiad-exam-anxiety-in-children">helping children with Olympiad exam anxiety</A>.</LI>
+        </UL>
+
+        <CTA href="/mock-exams">Take a full-length timed Olympiad mock today and start your error log.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is one month enough to prepare for an Olympiad?",
+        a: "One month is enough for a strong revision phase if the student has covered their school syllabus. It is not enough to learn a whole syllabus from scratch. In 30 days, focus on diagnosing weak topics with a timed paper, fixing them, and building exam speed with 5–6 full mock tests.",
+      },
+      {
+        q: "How many mock tests should I take in the last month before an Olympiad?",
+        a: "Five to six full timed papers is a good number: one to diagnose at the start, one in week two, three in week three, and a final one about a week before the exam. Each paper should be followed by a careful review. Reviewing is where the improvement actually happens.",
+      },
+      {
+        q: "Should I study new chapters in the last week before the Olympiad?",
+        a: "No. In the final week, revise from your error log and formula or fact sheets, and do light mixed practice on topics you already know. Material learned in the last few days is unreliable under exam pressure, and the marks available from fixing repeated mistakes are far larger.",
+      },
+      {
+        q: "What is an error log and why does it help?",
+        a: "An error log is a record of every question you got wrong or guessed: the topic, why you got it wrong (concept gap, misreading, calculation slip, or running out of time), and the correct idea in one line. It turns vague revision into targeted revision, and by exam week it is the best summary of exactly what you need to review.",
+      },
+    ],
+  },
+
+  /* 78 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-exam-day-checklist",
+    title: "Olympiad Exam Day Checklist: Tips for Students and Parents",
+    description:
+      "Everything to do the night before and the morning of an Olympiad exam: what to pack, what to eat, how to use the first five minutes, how to handle hard questions, and what parents should (and should not) say.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "olympiad exam day tips",
+      "olympiad exam checklist",
+      "tips for olympiad exam",
+      "what to do before olympiad exam",
+      "SOF olympiad exam day",
+    ],
+    excerpt:
+      "Marks are lost on exam day in avoidable ways: a missing pencil, a rushed start, a misfilled answer sheet. Here is a complete checklist for the night before, the morning, and the 60 minutes inside the hall.",
+    content: (
+      <>
+        <P>
+          After weeks of preparation, it would be a shame to lose marks to things that have nothing to do with
+          knowledge: arriving flustered, misfilling the answer sheet, spending eight minutes on one question, or
+          running out of time with ten bubbles still empty. Almost all exam-day losses can be prevented with a
+          simple routine. This checklist covers the night before, the morning, and the exam itself, with a
+          section for parents at the end.
+        </P>
+
+        <H2 id="night-before">The night before</H2>
+        <UL>
+          <LI><B>Pack the exam kit:</B> two pencils or pens of the type your school&rsquo;s instructions specify, a good eraser, a sharpener, a transparent pouch, a watch without smart features if allowed, and any admit card or roll number slip your school has issued.</LI>
+          <LI><B>Light revision only:</B> 20&ndash;30 minutes with your error log and formula or fact sheet. No new topics and no full mock test.</LI>
+          <LI><B>Check the practical details:</B> exam timing, which room, and which subject is on which date if there is more than one Olympiad this week.</LI>
+          <LI><B>Sleep at the usual time.</B> For younger children, a normal bedtime is worth more than any last-minute practice.</LI>
+        </UL>
+
+        <H2 id="morning">The morning of the exam</H2>
+        <UL>
+          <LI>Eat a normal breakfast that won&rsquo;t cause a sugar crash. Something familiar is best; exam day is not the day to try new food.</LI>
+          <LI>Go to the toilet before the exam starts. Sixty minutes is a long time for a young child.</LI>
+          <LI>Arrive early enough to settle in, but not so early that there is a long anxious wait.</LI>
+          <LI>Skip heavy revision in the last hour. A quick look at the formula sheet is fine; trying to learn something new is not.</LI>
+        </UL>
+
+        <H2 id="first-five-minutes">The first five minutes in the hall</H2>
+        <OL>
+          <LIo><B>Fill in your details carefully:</B> name, roll number, class and any codes, exactly as instructed. Mistakes here can cause real problems with results. See our <A href="/blog/how-to-fill-omr-sheet-olympiad">OMR sheet guide</A>.</LIo>
+          <LIo><B>Read the instructions:</B> how many questions, how answers are marked, and whether there is negative marking. SOF Olympiads have no negative marking, but other exams might, so check.</LIo>
+          <LIo><B>Look through the paper:</B> note where each section starts and where the Achievers section is.</LIo>
+          <LIo><B>Take three slow breaths.</B> It sounds trivial, but it genuinely lowers exam nerves before question 1.</LIo>
+        </OL>
+
+        <H2 id="during-exam">During the exam</H2>
+        <UL>
+          <LI><B>Use two passes.</B> In the first pass, answer every question you can do confidently and mark the rest in the question paper. In the second pass, go back to the marked ones.</LI>
+          <LI><B>Set a two-minute limit per question.</B> If you are stuck at two minutes, mark it and move on. That question is worth the same as an easy one you haven&rsquo;t reached yet.</LI>
+          <LI><B>Underline what the question actually asks.</B> &ldquo;Which is NOT&rdquo;, &ldquo;how many more&rdquo;, &ldquo;the remaining amount&rdquo;: most careless errors come from misreading these words.</LI>
+          <LI><B>Use elimination.</B> Even when you can&rsquo;t solve a question, you can often rule out two options. Choosing between two is a much better bet than choosing between four.</LI>
+          <LI><B>Check the question number when marking answers,</B> especially after skipping a question. Marking every answer one row off is a disaster that is entirely avoidable.</LI>
+          <LI><B>Keep five minutes at the end</B> to fill every remaining answer. With no negative marking, a blank earns nothing and a reasoned guess might earn marks.</LI>
+        </UL>
+        <Callout>
+          <B>A useful time checkpoint for a 50-question, 60-minute paper:</B> aim to reach question 25 by about the
+          25-minute mark. If you are well behind, speed up by skipping sooner, not by reading less carefully. Our{" "}
+          <A href="/blog/time-management-in-olympiad-exam">time management guide</A> explains the full strategy.
+        </Callout>
+
+        <H2 id="hard-questions">When a question looks impossible</H2>
+        <P>
+          Every Olympiad paper has questions that most students cannot solve, and they are there on purpose.
+          Finding one hard does not mean you are doing badly. Don&rsquo;t let one question spoil the next five.
+          Mark it, move on, and come back with fresh eyes. Often the second look shows something you missed:
+          a pattern, an option you can rule out, or a simpler way in.
+        </P>
+
+        <H2 id="after-exam">After the exam</H2>
+        <UL>
+          <LI>Avoid comparing answers question by question outside the hall, especially if there is another Olympiad later in the week.</LI>
+          <LI>Once the official answer key is released, check your paper against it. It is useful feedback for the next exam.</LI>
+          <LI>Write down two things that went well and one thing to change next time.</LI>
+        </UL>
+
+        <H2 id="parents">For parents: what to say (and not say)</H2>
+        <UL>
+          <LI><B>Before:</B> &ldquo;Just do your best and enjoy the puzzles&rdquo; works better than &ldquo;You must get a medal.&rdquo; Pressure raises anxiety, and anxiety leads to misreading.</LI>
+          <LI><B>After:</B> Ask &ldquo;Which question was the most interesting?&rdquo; instead of &ldquo;How many did you get right?&rdquo;</LI>
+          <LI><B>For young children (Classes 1&ndash;3):</B> practise filling a sample answer sheet at home beforehand so the format is not new on the day.</LI>
+        </UL>
+
+        <CTA href="/mock-exams">Rehearse exam day at home with a full timed Olympiad mock.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What should I carry on Olympiad exam day?",
+        a: "Carry two pencils or pens of the type specified in your school's instructions, an eraser, a sharpener, a transparent pouch, any admit card or roll number slip the school has issued, and a basic watch if allowed. Pack everything the night before so the morning is calm.",
+      },
+      {
+        q: "Is there negative marking in SOF Olympiads like IMO and NSO?",
+        a: "No. SOF Olympiads such as IMO, NSO, IEO and IGKO have no negative marking, so you should answer every question before time runs out. Always read the instructions on the paper anyway, because some other competitive exams do use negative marking.",
+      },
+      {
+        q: "How much time should I spend on each Olympiad question?",
+        a: "For a 50-question, 60-minute paper, the average is just over a minute per question. Set a personal limit of about two minutes. If you are stuck at that point, mark the question and move on, then come back to it in your second pass.",
+      },
+      {
+        q: "Should my child revise on the morning of the Olympiad?",
+        a: "Only lightly. A quick look at a formula or fact sheet is fine. Trying to learn new material on exam morning raises anxiety and rarely helps. A normal breakfast, a calm journey and arriving on time are worth more.",
+      },
+    ],
+  },
+
+  /* 79 ──────────────────────────────────────────────────────── */
+  {
+    slug: "how-to-fill-omr-sheet-olympiad",
+    title: "How to Fill an OMR Sheet in Olympiad Exams: A Guide for Students",
+    description:
+      "A step-by-step guide to filling the OMR answer sheet in Olympiad exams correctly: bubbling roll numbers and details, marking answers, avoiding stray marks, and practising with young children who are using an OMR sheet for the first time.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 7,
+    keywords: [
+      "how to fill OMR sheet",
+      "OMR sheet olympiad",
+      "OMR sheet for class 1",
+      "olympiad answer sheet",
+      "OMR sheet tips for kids",
+    ],
+    excerpt:
+      "For many young students, the Olympiad is the first time they use an OMR sheet. A misfilled roll number or answers marked one row off can cost more than any hard question. Here is how to get it right.",
+    content: (
+      <>
+        <P>
+          Many Olympiads, including most school-conducted SOF exams, use an OMR (Optical Mark Recognition) sheet.
+          A machine reads the bubbles you darken, so it only sees what you mark, not what you meant. For a Class 1
+          or Class 2 student this is often the first time they have used one, and even older students lose marks
+          to OMR mistakes every year. The good news: every OMR mistake can be prevented with a few minutes of
+          practice before exam day.
+        </P>
+
+        <H2 id="what-is-omr">What an OMR sheet looks like</H2>
+        <P>An Olympiad OMR sheet usually has two parts:</P>
+        <UL>
+          <LI><B>A details section:</B> boxes to write your name, class, roll number and sometimes school code or subject code, with columns of numbered bubbles underneath where you darken the matching digit.</LI>
+          <LI><B>An answer grid:</B> one row per question number, each with bubbles for the options (A, B, C, D).</LI>
+        </UL>
+
+        <H2 id="filling-details">Step 1: Fill in your details correctly</H2>
+        <OL>
+          <LIo>Write your roll number clearly in the boxes, one digit per box.</LIo>
+          <LIo>Under each box, darken the bubble for that same digit. For roll number 30524, the first column gets 3 darkened, the second 0, and so on.</LIo>
+          <LIo>Check each column against the written digit before moving on.</LIo>
+          <LIo>Fill in class, subject or any other codes exactly as the invigilator tells you.</LIo>
+        </OL>
+        <Callout>
+          <B>The most costly OMR mistake is a wrong roll number,</B> not a wrong answer. If the machine can&rsquo;t
+          match your sheet to your name, your whole paper can be affected. Take a full minute over this section.
+          It is the best-spent minute of the exam.
+        </Callout>
+
+        <H2 id="marking-answers">Step 2: Mark answers the right way</H2>
+        <UL>
+          <LI><B>Use exactly the pen or pencil the instructions say.</B> Scanners are set up for a particular kind of mark.</LI>
+          <LI><B>Fill the whole bubble, darkly and neatly.</B> A tick, a cross, a dot or a half-filled circle may not be read.</LI>
+          <LI><B>Only one bubble per question.</B> Two darkened bubbles usually means the answer is treated as wrong.</LI>
+          <LI><B>Stay inside the circle.</B> Heavy marks spilling into the next bubble can confuse the scanner.</LI>
+          <LI><B>Don&rsquo;t make stray marks</B> anywhere on the answer grid. Do rough work only where the instructions allow.</LI>
+        </UL>
+
+        <H2 id="changing-answers">Step 3: If you need to change an answer</H2>
+        <P>
+          This depends on the exam. Where pencil is allowed, erase the old mark <em>completely</em> before darkening
+          the new one, because a faint leftover mark can be read as a second answer. Where pen is required,
+          changes are often not possible, so follow the instructions on the sheet. This is exactly why it helps
+          to be sure of an answer before bubbling it.
+        </P>
+
+        <H2 id="strategy">A strategy that avoids &ldquo;one row off&rdquo; mistakes</H2>
+        <P>
+          The worst OMR accident is skipping a question in the paper but not on the sheet, so every answer after
+          it lands one row off. Two ways to prevent it:
+        </P>
+        <UL>
+          <LI><B>Mark your answers in the question paper first</B> (circle the option), then transfer them to the OMR sheet in blocks of 10. Say the question number to yourself as you bubble.</LI>
+          <LI><B>Leave enough time to transfer.</B> If you use the block method, don&rsquo;t leave everything until the last five minutes. Transfer after every 10&ndash;15 questions.</LI>
+          <LI>Whenever you skip a question, <B>check the row number</B> before bubbling the next answer.</LI>
+        </UL>
+
+        <H2 id="young-children">Practising with young children (Classes 1&ndash;3)</H2>
+        <UL>
+          <LI>Print a practice OMR sheet (sample sheets are widely available) and let your child fill it in at home 2&ndash;3 times before the exam.</LI>
+          <LI>Turn bubbling into a colouring game: &ldquo;fill the circle so no white shows, and don&rsquo;t colour outside the line.&rdquo;</LI>
+          <LI>Practise finding the right row: call out &ldquo;Question 7, answer C&rdquo; and let your child find and fill it.</LI>
+          <LI>Tell them it is fine to ask the invigilator if they are unsure how to fill their details.</LI>
+        </UL>
+
+        <H2 id="final-check">Final 3-minute check</H2>
+        <UL>
+          <LI>Roll number and details bubbled and matching what is written</LI>
+          <LI>No question with two bubbles</LI>
+          <LI>No blank rows (with no negative marking in SOF exams, a guess beats a blank)</LI>
+          <LI>No stray marks or half-erased bubbles</LI>
+        </UL>
+
+        <P>
+          For the rest of the exam-day routine, see our <A href="/blog/olympiad-exam-day-checklist">Olympiad exam day checklist</A>.
+        </P>
+
+        <CTA href="/mock-exams">Practise full Olympiad papers at home before the real exam.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Should I use a pen or pencil on the Olympiad OMR sheet?",
+        a: "Use exactly what your exam's instructions specify. This can differ between exams and years, so read the instructions on your admit card or answer sheet, or ask your school's Olympiad coordinator beforehand.",
+      },
+      {
+        q: "What happens if I darken two bubbles for one question?",
+        a: "In most OMR-based exams, a question with two darkened bubbles is treated as wrong or unanswered, even if one of them is correct. If you are allowed to erase, erase the unwanted mark completely.",
+      },
+      {
+        q: "How can I avoid marking answers in the wrong row on the OMR sheet?",
+        a: "Circle your answers in the question paper first, then transfer them to the OMR sheet in blocks of 10, saying each question number as you bubble. Whenever you skip a question, check the row number before marking the next answer.",
+      },
+      {
+        q: "How do I prepare a Class 1 child for an OMR sheet?",
+        a: "Print a sample OMR sheet and let your child practise 2–3 times at home. Treat it like a colouring task: fill the circle completely without going outside the line. Practise finding rows by calling out a question number and an option.",
+      },
+    ],
+  },
+
+  /* 80 ──────────────────────────────────────────────────────── */
+  {
+    slug: "time-management-in-olympiad-exam",
+    title: "Time Management in Olympiad Exams: How to Finish 50 Questions in 60 Minutes",
+    description:
+      "Running out of time is one of the most common reasons students underperform in Olympiads. Learn the two-pass method, section-wise time budgets, when to skip, and how to practise speed without losing accuracy.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "olympiad time management",
+      "how to finish olympiad paper on time",
+      "IMO time management",
+      "olympiad exam strategy",
+      "how to attempt olympiad paper",
+    ],
+    excerpt:
+      "Fifty questions in sixty minutes leaves just over a minute per question. Students who know every topic still lose marks by getting stuck. Here is the exact strategy for finishing on time without rushing.",
+    content: (
+      <>
+        <P>
+          In SOF Olympiads, students in Classes 5 and above answer 50 questions in 60 minutes, and Classes 1&ndash;4
+          answer 35 questions in the same hour. For older students that is roughly 72 seconds per question,
+          including reading time. Many well-prepared students finish with 8&ndash;12 questions unattempted or
+          guessed in a rush, and those are often easy questions they simply never reached. Good time management
+          is a skill you can learn, just like fractions or grammar.
+        </P>
+
+        <H2 id="why-students-run-out">Why students run out of time</H2>
+        <UL>
+          <LI><B>Getting stuck:</B> spending 5&ndash;6 minutes on one hard question. That time could have covered four easier ones.</LI>
+          <LI><B>Going strictly in order:</B> treating the paper as a line to walk along instead of a set of points to collect.</LI>
+          <LI><B>Over-checking easy questions</B> while hard ones wait.</LI>
+          <LI><B>Slow reasoning questions:</B> seating arrangements and puzzles eat time if they haven&rsquo;t been practised.</LI>
+          <LI><B>Never practising against a clock:</B> the student has solved hundreds of questions, but never 50 in 60 minutes.</LI>
+        </UL>
+
+        <H2 id="two-pass-method">The two-pass method</H2>
+        <P>This is the most effective single strategy for Olympiad papers.</P>
+        <OL>
+          <LIo>
+            <B>Pass 1 (about 40 minutes):</B> go through the whole paper. Answer every question you can solve
+            confidently in under a minute or so. If a question looks long or confusing, mark it with a small
+            symbol in the question paper and move on without guilt.
+          </LIo>
+          <LIo>
+            <B>Pass 2 (about 15 minutes):</B> return to the marked questions. You now know exactly how much time you
+            have, and the easy marks are already safe. Take the most promising marked questions first.
+          </LIo>
+          <LIo>
+            <B>Final 5 minutes:</B> make sure every question has an answer. With no negative marking in SOF exams,
+            use elimination and make your best guess on anything left.
+          </LIo>
+        </OL>
+        <Callout>
+          <B>Why it works:</B> every question in a section is worth the same marks, whether it is easy or hard. The
+          two-pass method makes sure you collect every easy mark before spending time on the hard ones. Many
+          students who switch to it see their score rise without learning anything new.
+        </Callout>
+
+        <H2 id="section-budgets">A time budget for a 50-question paper</H2>
+        <P>A starting point you can adjust to your own strengths:</P>
+        <UL>
+          <LI><B>Main subject section (maths or science):</B> about 30 minutes</LI>
+          <LI><B>Logical reasoning:</B> about 10 minutes</LI>
+          <LI><B>Achievers section:</B> about 12 minutes. These questions carry higher marks, so they deserve proportionally more time.</LI>
+          <LI><B>Buffer and final answer check:</B> about 8 minutes</LI>
+        </UL>
+        <P>
+          Checkpoints help more than a budget you never look at. A simple one: <B>question 25 by the 25-minute mark</B>.
+          If you are behind, skip sooner. Don&rsquo;t read faster.
+        </P>
+
+        <H2 id="when-to-skip">When to skip a question</H2>
+        <UL>
+          <LI>You have read it twice and still don&rsquo;t know how to start.</LI>
+          <LI>It needs a long calculation and you haven&rsquo;t finished pass 1 yet.</LI>
+          <LI>You have spent two minutes and aren&rsquo;t close to an answer.</LI>
+          <LI>It is a long reasoning puzzle (like an eight-person seating arrangement) and there are still easy questions ahead.</LI>
+        </UL>
+        <P>
+          Skipping is not giving up. It is choosing the order. You will come back with more time and a clearer head.
+        </P>
+
+        <H2 id="speed-without-errors">Getting faster without making more mistakes</H2>
+        <UL>
+          <LI><B>Know common results by heart:</B> squares up to 25, cubes up to 10, common fraction-to-percentage conversions and key formulas. Our <A href="/blog/mental-maths-tricks-for-olympiad">mental maths tricks guide</A> has shortcuts that save real time.</LI>
+          <LI><B>Look at the options first</B> in calculation questions. They often show how precise you need to be, or let you estimate instead of calculating exactly.</LI>
+          <LI><B>Practise reasoning types in timed sets</B> of 10 questions. Timing each type shows you which ones slow you down.</LI>
+          <LI><B>Don&rsquo;t over-check easy questions</B> during pass 1. Check them at the end if time is left.</LI>
+        </UL>
+
+        <H2 id="practice-plan">How to practise time management</H2>
+        <OL>
+          <LIo>Take a full paper with a visible timer and note the time at questions 10, 20, 30 and 40.</LIo>
+          <LIo>After the paper, find where time went. Usually it is 3&ndash;5 questions that took more than three minutes each.</LIo>
+          <LIo>In the next paper, use the two-pass method on purpose and compare how many questions you finished and your score.</LIo>
+          <LIo>Repeat with 3&ndash;4 papers until the two passes feel automatic.</LIo>
+        </OL>
+        <P>
+          Pair this with a proper final-month plan. See our <A href="/blog/olympiad-revision-plan-last-30-days">30-day Olympiad revision plan</A>.
+        </P>
+
+        <H2 id="younger-students">A note for Classes 1&ndash;4</H2>
+        <P>
+          Younger students have 35 questions in 60 minutes, so time pressure is lower, but they tire more
+          easily. For them the priorities are reading each question fully, not rushing, and not leaving blanks.
+          Parents can help by running one or two relaxed timed practice papers at home so the length of the exam
+          feels familiar.
+        </P>
+
+        <CTA href="/mock-exams">Practise the two-pass method on a full timed Olympiad mock.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How many questions and how much time are there in SOF Olympiads?",
+        a: "SOF Olympiads such as IMO and NSO are 60-minute papers. Classes 1–4 answer 35 questions and Classes 5–12 answer 50 questions. Check the official SOF website for the exact section-wise pattern for your class and exam.",
+      },
+      {
+        q: "What is the best strategy to finish the Olympiad paper on time?",
+        a: "Use the two-pass method. In the first pass, answer every question you can solve confidently and mark the rest. In the second pass, go back to the marked questions. Keep the last five minutes to make sure every question has an answer, since SOF exams have no negative marking.",
+      },
+      {
+        q: "How long should I spend on one Olympiad question?",
+        a: "Aim for about a minute on average and set a personal limit of about two minutes. If you are stuck at two minutes, mark the question and come back in your second pass. Achievers-section questions carry more marks, so they can justify a little more time.",
+      },
+      {
+        q: "How do I improve my speed in Olympiad exams?",
+        a: "Take full papers against a timer and note where the time goes, memorise common results like squares and fraction–percentage conversions, practise each reasoning type in timed sets of 10, and look at the options before doing long calculations so you can estimate where possible.",
+      },
+    ],
+  },
+
+  /* 81 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-exam-anxiety-in-children",
+    title: "Olympiad Exam Anxiety in Children: A Practical Guide for Parents",
+    description:
+      "How to recognise exam anxiety in children before Olympiads, what causes it, and practical steps parents can take at home, from how you talk about results to breathing techniques and rehearsal.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "exam anxiety in children",
+      "olympiad exam stress",
+      "how to help child with exam fear",
+      "exam stress tips for parents",
+      "child nervous before exam",
+    ],
+    excerpt:
+      "Some nerves before an Olympiad are normal and even helpful. When worry starts to hurt sleep, appetite or performance, parents can make a real difference. Here is how.",
+    content: (
+      <>
+        <P>
+          A little nervousness before an exam is normal and can even help: it sharpens attention and gets the body
+          ready to perform. But some children feel much more than that. Stomach aches on exam mornings, tears
+          over practice papers, trouble sleeping, or a child who says &ldquo;I&rsquo;ll fail anyway&rdquo; before
+          they have started. Olympiads can add to the pressure because they are competitive, the questions are
+          harder than school tests, and ranks feel very public. This guide covers what parents can realistically
+          do to help.
+        </P>
+
+        <H2 id="signs">Signs your child may be anxious about the exam</H2>
+        <UL>
+          <LI><B>Physical:</B> stomach aches or headaches, especially on exam or practice days; changes in sleep or appetite.</LI>
+          <LI><B>Emotional:</B> irritability, tearfulness, or unusual clinginess in the weeks before the exam.</LI>
+          <LI><B>Behavioural:</B> avoiding practice, &ldquo;forgetting&rdquo; study time, or wanting to drop the exam.</LI>
+          <LI><B>Thinking patterns:</B> all-or-nothing statements like &ldquo;If I don&rsquo;t get a medal, I&rsquo;m useless&rdquo; or &ldquo;Everyone else is smarter.&rdquo;</LI>
+          <LI><B>In the exam:</B> going blank on topics they clearly know, or freezing on the first hard question.</LI>
+        </UL>
+
+        <H2 id="causes">What usually drives Olympiad anxiety</H2>
+        <UL>
+          <LI><B>Feeling that results decide their worth,</B> often picked up from small, well-meant comments at home.</LI>
+          <LI><B>Comparison</B> with siblings, cousins or classmates who did well last year.</LI>
+          <LI><B>Unfamiliar formats:</B> an OMR sheet, a strict invigilator and a new hall are a lot for a 7-year-old.</LI>
+          <LI><B>Hard practice questions</B> without an explanation of why Olympiad papers are meant to feel difficult.</LI>
+        </UL>
+
+        <H2 id="how-you-talk">Change how the exam is talked about at home</H2>
+        <P>This is the most powerful thing parents can do, and it costs nothing.</P>
+        <UL>
+          <LI><B>Talk about effort and learning, not ranks.</B> &ldquo;You got much better at fractions this month&rdquo; builds more confidence than &ldquo;You need to be in the top 100.&rdquo;</LI>
+          <LI><B>Explain that Olympiad papers are meant to be hard.</B> Most students can&rsquo;t answer every question, and the paper is designed that way. A difficult question is normal, not a sign of failure.</LI>
+          <LI><B>Put the exam in perspective.</B> It is one experience among many. A child who sits it calmly and learns from it has benefited, whatever the rank.</LI>
+          <LI><B>Avoid comparisons,</B> including positive ones like &ldquo;your cousin got a gold medal, you can too.&rdquo;</LI>
+          <LI><B>Watch your own nerves.</B> Children pick up on parental stress quickly. If you are anxious about the result, try not to show it around them.</LI>
+        </UL>
+        <Callout>
+          <B>A useful question to ask after any practice paper:</B> &ldquo;What&rsquo;s one thing you learned from the
+          questions you got wrong?&rdquo; It treats mistakes as useful information instead of a judgement, and that
+          is exactly the mindset that lowers anxiety.
+        </Callout>
+
+        <H2 id="rehearsal">Rehearse to make exam day feel familiar</H2>
+        <P>A lot of anxiety is fear of the unknown. Familiarity reduces it.</P>
+        <UL>
+          <LI>Do one or two full practice papers at home in exam-like conditions: 60 minutes, a quiet table, a timer.</LI>
+          <LI>Practise filling an OMR sheet so the format isn&rsquo;t new. See our <A href="/blog/how-to-fill-omr-sheet-olympiad">OMR guide</A>.</LI>
+          <LI>Talk through the day: where they will sit, what to do if they don&rsquo;t understand a question, and that it is fine to raise a hand and ask the invigilator.</LI>
+          <LI>Teach the two-pass method so a hard question doesn&rsquo;t feel like a dead end. It&rsquo;s explained in our <A href="/blog/time-management-in-olympiad-exam">time management guide</A>.</LI>
+        </UL>
+
+        <H2 id="calming-techniques">Simple calming techniques children can use</H2>
+        <UL>
+          <LI><B>Box breathing:</B> breathe in for 4 counts, hold for 4, breathe out for 4, hold for 4. Repeat three times. It works in the exam hall and nobody can tell.</LI>
+          <LI><B>A &ldquo;reset&rdquo; phrase:</B> something short the child chooses, like &ldquo;skip it, come back later&rdquo; or &ldquo;one question at a time.&rdquo;</LI>
+          <LI><B>Name the feeling:</B> saying &ldquo;I&rsquo;m nervous because this matters to me&rdquo; can make the feeling easier to manage.</LI>
+          <LI><B>Physical activity:</B> a short walk, play or cycling on the day before helps burn off nervous energy.</LI>
+        </UL>
+
+        <H2 id="routine">Keep the routine steady in the final weeks</H2>
+        <UL>
+          <LI>Normal sleep times. Late-night cramming makes anxiety worse.</LI>
+          <LI>Regular meals and time to play. Olympiad preparation shouldn&rsquo;t replace everything else.</LI>
+          <LI>Short, predictable study sessions rather than long, tense ones. See our <A href="/blog/how-many-hours-to-study-for-olympiad">guide to daily study time by class</A>.</LI>
+        </UL>
+
+        <H2 id="after-results">When results arrive</H2>
+        <P>
+          Whatever the rank, start by recognising the preparation your child put in. Then, together, pick one or
+          two specific things to do differently next year. If the result is disappointing, say so honestly
+          (&ldquo;I can see you&rsquo;re disappointed; that makes sense&rdquo;) and don&rsquo;t hurry past it.
+          Children who learn that setbacks can be survived are better prepared for every exam that follows.
+        </P>
+
+        <H2 id="when-to-seek-help">When to seek more support</H2>
+        <P>
+          If anxiety is severe or long-lasting (panic symptoms, refusing to go to school, ongoing sleep problems,
+          or worry that spreads well beyond exams), talk to your child&rsquo;s school counsellor or your
+          paediatrician. Exam anxiety is common and very treatable, and getting support early helps.
+        </P>
+
+        <CTA href="/mock-exams">Let your child practise at home in a relaxed, low-pressure way.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is it normal for my child to be nervous before an Olympiad?",
+        a: "Yes. Mild nervousness is normal and can even sharpen focus. It becomes a concern when it disrupts sleep or appetite, causes frequent stomach aches or headaches, leads to avoiding practice, or causes the child to freeze on topics they know well.",
+      },
+      {
+        q: "What should I say to my child before an Olympiad exam?",
+        a: "Focus on effort and enjoyment rather than ranks: 'Do your best, and if a question is hard, skip it and come back.' Remind them that Olympiad papers are designed to include questions most students can't solve. Avoid comparisons with siblings or classmates.",
+      },
+      {
+        q: "How can my child calm down during the exam?",
+        a: "Teach box breathing: breathe in for 4 counts, hold for 4, breathe out for 4, hold for 4, repeated three times. Pair it with a simple phrase like 'skip it, come back later', and with the two-pass method so a hard question never feels like a dead end.",
+      },
+      {
+        q: "When should I seek professional help for exam anxiety?",
+        a: "If anxiety is severe or persistent — panic symptoms, refusing school, ongoing sleep problems, or worry spreading well beyond exams — speak to the school counsellor or your paediatrician. Exam anxiety is common and responds well to early support.",
+      },
+    ],
+  },
+
+  /* 82 ──────────────────────────────────────────────────────── */
+  {
+    slug: "how-to-analyse-olympiad-mock-test",
+    title: "How to Analyse an Olympiad Mock Test (The Step Most Students Skip)",
+    description:
+      "Taking mock tests is only half the work. Learn a simple 5-step method to analyse any Olympiad mock test: sorting errors by cause, finding time sinks, reviewing guesses, and turning each paper into a focused study plan.",
+    date: "2026-09-23",
+    tag: "Tips",
+    readingMinutes: 8,
+    keywords: [
+      "how to analyse mock test",
+      "olympiad mock test analysis",
+      "mock test review strategy",
+      "how to improve olympiad score",
+      "olympiad practice test tips",
+    ],
+    excerpt:
+      "Two students take the same five mock tests. One improves 20%, the other stays flat. The difference is what happens after the paper. Here is a simple, repeatable way to analyse a mock test.",
+    content: (
+      <>
+        <P>
+          Most students treat a mock test as a score: they take it, see the number, feel good or bad, and move on.
+          But the score is the least useful thing a mock test gives you. The real value is the list of exactly
+          which questions you lose marks on, and why. Students who analyse every paper carefully often improve
+          more from five mocks than others do from fifteen.
+        </P>
+
+        <H2 id="rule">The rule: review for as long as the test took</H2>
+        <P>
+          A 60-minute paper deserves about 60 minutes of review, ideally the same day or the next. If that sounds
+          like a lot, remember the paper only showed you the problems. The review is where you actually fix them.
+        </P>
+
+        <H2 id="step-1">Step 1: Mark every question into one of four groups</H2>
+        <UL>
+          <LI><B>Correct and confident:</B> nothing to do.</LI>
+          <LI><B>Correct but guessed or unsure:</B> treat these as wrong. You got lucky, and luck won&rsquo;t repeat on exam day.</LI>
+          <LI><B>Wrong:</B> the main work of the review.</LI>
+          <LI><B>Not attempted:</B> note whether it was because of time or because you didn&rsquo;t know how to start.</LI>
+        </UL>
+        <Callout>
+          <B>Why guessed-correct answers matter:</B> a paper where you scored 70% with ten lucky guesses is really a
+          paper where you know about 55&ndash;60%. Reviewing guesses closes the gap between your mock score and
+          what you&rsquo;ll actually score on the day.
+        </Callout>
+
+        <H2 id="step-2">Step 2: Find the cause of each mistake</H2>
+        <P>For every wrong or guessed question, pick one cause:</P>
+        <UL>
+          <LI><B>Concept gap:</B> you didn&rsquo;t know the idea or formula. <em>Fix:</em> study the concept, then solve 5&ndash;10 new questions on it.</LI>
+          <LI><B>Misread:</B> you knew it but answered a different question (missed &ldquo;NOT&rdquo;, units, &ldquo;remaining&rdquo;). <em>Fix:</em> underline what the question is asking before solving.</LI>
+          <LI><B>Calculation slip:</B> right method, wrong arithmetic. <em>Fix:</em> write steps more neatly and check the last step of multi-step problems.</LI>
+          <LI><B>Time pressure:</B> rushed or skipped because the clock was running out. <em>Fix:</em> better time strategy (see our <A href="/blog/time-management-in-olympiad-exam">time management guide</A>).</LI>
+          <LI><B>Trap option:</B> fell for a distractor designed to catch a common mistake. <em>Fix:</em> learn what the trap was testing.</LI>
+        </UL>
+
+        <H2 id="step-3">Step 3: Look for patterns</H2>
+        <P>Count your causes and topics. Patterns tell you what to do next:</P>
+        <UL>
+          <LI><B>Mostly concept gaps in two or three topics:</B> spend the next few days on those topics.</LI>
+          <LI><B>Mostly misreads:</B> you don&rsquo;t need more study, you need a reading routine.</LI>
+          <LI><B>Mostly unattempted at the end:</B> your problem is time, not knowledge.</LI>
+          <LI><B>Errors clustered in the Achievers section:</B> practise harder questions in the topics your class syllabus leads into.</LI>
+        </UL>
+
+        <H2 id="step-4">Step 4: Check where your time went</H2>
+        <P>
+          If you noted the time at questions 10, 20, 30 and 40 during the test (worth doing), you can see which
+          stretch was slow. Usually 3&ndash;5 questions took well over three minutes each. Ask yourself: should I
+          have skipped them in the first pass? Nearly always, the answer is yes.
+        </P>
+
+        <H2 id="step-5">Step 5: Write the plan for the next few days</H2>
+        <P>End every review with a short, specific plan. For example:</P>
+        <UL>
+          <LI>&ldquo;Two sessions on percentage word problems, 15 questions each.&rdquo;</LI>
+          <LI>&ldquo;Underline the question stem on every question in the next mock.&rdquo;</LI>
+          <LI>&ldquo;Ten blood-relation reasoning questions a day for four days.&rdquo;</LI>
+        </UL>
+        <P>
+          Then take the next mock and check whether those specific errors went down. That is how you know the
+          review worked.
+        </P>
+
+        <H2 id="error-log">Keep it all in one error log</H2>
+        <P>
+          Keep every mistake in one running error log (source, topic, cause, correct idea) and it becomes your
+          final-week revision material. Our <A href="/blog/olympiad-revision-plan-last-30-days">30-day revision plan</A>{" "}
+          shows how to fit mock tests and error-log review into the final month.
+        </P>
+
+        <H2 id="parents">For parents</H2>
+        <P>
+          Sitting with a younger child for the review helps more than sitting with them during the test. Ask
+          &ldquo;Why do you think this one went wrong?&rdquo; before explaining. Children who work out the cause
+          themselves remember the fix far better.
+        </P>
+
+        <CTA href="/mock-exams">Take a full Olympiad mock and use this 5-step review afterwards.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How long should I spend reviewing an Olympiad mock test?",
+        a: "About as long as the test itself took — roughly 60 minutes for a full paper, ideally the same day or the next. The review is where improvement happens, so skipping it wastes most of the value of the test.",
+      },
+      {
+        q: "Should I review questions I answered correctly?",
+        a: "Review the ones you got right by guessing or weren't sure about. Treat them like wrong answers, because a lucky guess won't repeat on exam day. Questions you answered correctly and confidently don't need review.",
+      },
+      {
+        q: "What are the common causes of mistakes in Olympiad mock tests?",
+        a: "The five common causes are concept gaps, misreading the question, calculation slips, time pressure, and falling for trap options. Each needs a different fix, so identifying the cause for every mistake is the key step in mock test analysis.",
+      },
+      {
+        q: "How many mock tests should I take before the Olympiad?",
+        a: "Quality matters more than quantity. Five or six full mocks, each followed by a careful review, usually beats fifteen mocks taken without review. Space them out so you have time to fix the problems each one reveals.",
+      },
+    ],
+  },
+
+  /* 83 ──────────────────────────────────────────────────────── */
+  {
+    slug: "sof-olympiad-result-rank-card-explained",
+    title: "SOF Olympiad Results Explained: Rank Card, Awards and Level 2 Qualification",
+    description:
+      "A parent's guide to SOF Olympiad results for IMO, NSO, IEO and IGKO: what the different ranks mean, how to read the performance report, how awards and Level 2 qualification generally work, and what to do next.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "SOF olympiad result",
+      "SOF rank card explained",
+      "IMO result how to check",
+      "SOF level 2 qualification criteria",
+      "olympiad international rank meaning",
+    ],
+    excerpt:
+      "SOF result reports show several ranks, section-wise scores and sometimes a Level 2 qualification. Here is how to read them, what they really tell you, and how to use them to plan next year.",
+    content: (
+      <>
+        <P>
+          A few weeks after the Olympiad, the results come out and many parents have the same questions. What does
+          an international rank of 1,240 actually mean? Is a zonal rank better than a school rank? Did my child
+          qualify for Level 2? This guide explains how SOF Olympiad results for IMO, NSO, IEO, IGKO and the other
+          SOF exams are generally structured, and how to turn the report into a useful plan.
+        </P>
+        <Callout>
+          <B>Always check the official source.</B> SOF publishes results, qualification criteria and award details
+          on its official website, and the details can change from year to year. Use this guide to understand
+          the report, and check specific rules and dates on the official site or with your school&rsquo;s Olympiad
+          coordinator.
+        </Callout>
+
+        <H2 id="where-to-check">Where to find the result</H2>
+        <UL>
+          <LI>Results are usually available on the official SOF website using the student&rsquo;s roll number and the details asked for.</LI>
+          <LI>Schools also get results for their registered students, so the Olympiad coordinator can help if you are unsure of the roll number.</LI>
+          <LI>Certificates and awards are generally sent through the school.</LI>
+        </UL>
+
+        <H2 id="ranks">The ranks and what they mean</H2>
+        <P>Olympiad reports typically show a student&rsquo;s position at several levels:</P>
+        <UL>
+          <LI><B>School rank:</B> position among students in the same class at your school who took the exam.</LI>
+          <LI><B>Zonal or regional rank:</B> position among students of the same class in the wider region.</LI>
+          <LI><B>International rank:</B> position among all students of that class who took the exam, across every participating school.</LI>
+        </UL>
+        <P>
+          The international rank looks intimidating as a raw number, but it only makes sense next to the number
+          of students who took the exam. SOF Olympiads have very large entries, so an international rank in the
+          low thousands can still be in the top few percent of the class.
+        </P>
+        <Callout>
+          <B>Turn the rank into a percentile.</B> If the report or official data gives the number of participants,
+          divide the rank by that number. For example, rank 1,500 out of 60,000 students is the top 2.5%. That is a
+          far more meaningful figure to discuss with your child than the raw rank.
+        </Callout>
+
+        <H2 id="section-scores">Section-wise scores: the most useful part</H2>
+        <P>
+          The section breakdown (for example logical reasoning, the main subject section and the Achievers section)
+          matters more for next year than any rank. Look for:
+        </P>
+        <UL>
+          <LI><B>A weak reasoning score:</B> often the quickest thing to improve with daily practice. See our <A href="/blog/how-to-improve-logical-reasoning-for-olympiads">logical reasoning guide</A>.</LI>
+          <LI><B>A strong subject score but a low Achievers score:</B> the student knows the syllabus but needs practice with harder, multi-step questions.</LI>
+          <LI><B>Low scores everywhere:</B> usually a preparation-time or exam-strategy problem rather than ability. See our <A href="/blog/common-mistakes-in-olympiad-preparation">common Olympiad preparation mistakes</A>.</LI>
+        </UL>
+
+        <H2 id="awards">Awards and certificates</H2>
+        <P>
+          SOF gives certificates to participants and awards such as medals and certificates of distinction to top
+          performers at school, zonal and international level. Exact categories vary by exam and year. The official
+          award list for your exam is the final word.
+        </P>
+
+        <H2 id="level-2">Level 2 qualification</H2>
+        <P>
+          Some SOF Olympiads, including IMO, NSO and IEO, have a second level for top Level 1 performers. SOF&rsquo;s
+          published criteria have typically included a class-wise top percentage of all candidates, top rank
+          holders in each zone, and class toppers from school sections that meet minimum participation and score
+          conditions. Because the criteria can be revised, check the current year&rsquo;s rules on the SOF website.
+        </P>
+        <P>
+          If your child has qualified, Level 2 is a noticeably harder paper aimed at the strongest students.
+          Preparation should move from covering the syllabus to depth and harder problems. See our guide on{" "}
+          <A href="/blog/how-to-crack-olympiad-level-2">how to crack Olympiad Level 2</A>.
+        </P>
+
+        <H2 id="talking-about-results">How to talk about the result with your child</H2>
+        <UL>
+          <LI>Start with effort: &ldquo;You prepared consistently for six weeks. That was great.&rdquo;</LI>
+          <LI>Use the percentile, not the raw rank, to put the result in context.</LI>
+          <LI>Pick <B>one</B> area to improve next year from the section scores, not a list of five.</LI>
+          <LI>If the result is disappointing, let your child feel it before moving on to plans. Our <A href="/blog/olympiad-exam-anxiety-in-children">guide on exam anxiety</A> covers this.</LI>
+        </UL>
+
+        <H2 id="next-year">Turning the report into next year&rsquo;s plan</H2>
+        <OL>
+          <LIo>Note the weakest section and the weakest topics (from your child&rsquo;s memory of the paper and the answer key).</LIo>
+          <LIo>Start a short weekly practice routine early. Twenty minutes a few times a week through the year beats a rush in October.</LIo>
+          <LIo>Plan to begin focused preparation 6&ndash;8 weeks before next year&rsquo;s exam, using mock tests and an error log.</LIo>
+        </OL>
+
+        <CTA href="/topics">Start targeted practice on the topics this year&rsquo;s result showed as weak.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How do I check my child's SOF Olympiad result?",
+        a: "SOF results are usually published on the official SOF website and can be checked with the student's roll number and the details requested. The school's Olympiad coordinator also receives results for registered students and can help if you don't have the roll number.",
+      },
+      {
+        q: "What is a good international rank in SOF Olympiads?",
+        a: "It depends on how many students in the class took the exam. Divide the rank by the number of participants to get a percentile. Because SOF exams have very large entries, a rank in the low thousands can still be in the top few percent.",
+      },
+      {
+        q: "Who qualifies for SOF Olympiad Level 2?",
+        a: "SOF's published criteria have typically included a class-wise top percentage of all candidates, top rank holders in each zone, and class toppers from school sections meeting minimum participation and score conditions. The criteria can change, so check the current rules on the official SOF website.",
+      },
+      {
+        q: "What should we do after the Olympiad results?",
+        a: "Look at the section-wise scores to find the weakest area, choose one or two specific things to improve, start a light weekly practice routine early, and plan focused preparation 6–8 weeks before next year's exam.",
+      },
+    ],
+  },
+
+  /* 84 ──────────────────────────────────────────────────────── */
+  {
+    slug: "do-olympiad-certificates-help-in-admissions",
+    title: "Do Olympiad Certificates Help in Admissions? An Honest Guide for Parents",
+    description:
+      "What Olympiad certificates and medals are really worth for school admissions, scholarships, IIT and college admissions, and study abroad, and the key difference between SOF Olympiads and the HBCSE Olympiad programme.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 10,
+    keywords: [
+      "do olympiad certificates help in admission",
+      "olympiad certificate value",
+      "olympiad for IIT admission",
+      "SOF vs HBCSE olympiad",
+      "benefits of olympiad certificate",
+    ],
+    excerpt:
+      "Olympiad certificates can help, but not in the way many parents assume. Here is an honest look at what school, college, IIT and international admissions actually value, and which Olympiads count for what.",
+    content: (
+      <>
+        <P>
+          &ldquo;Will this certificate help in admissions?&rdquo; is one of the most common questions parents ask
+          about Olympiads. The honest answer: it depends a lot on <B>which Olympiad</B>, <B>what level</B> the
+          student reached, and <B>which admission</B> you mean. Some Olympiad results can open real doors. Many
+          participation certificates, on their own, carry very little weight. This guide explains the difference
+          so you can set realistic expectations and choose Olympiads for the right reasons.
+        </P>
+
+        <H2 id="two-kinds">First: there are two very different kinds of &ldquo;Olympiad&rdquo;</H2>
+        <H3>1. School-level Olympiads (SOF, Silverzone, and others)</H3>
+        <P>
+          These include IMO, NSO, IEO and IGKO from SOF, and similar exams from other organisers. They are held in
+          schools, cover Classes 1&ndash;12, follow the school syllabus with harder application questions, and
+          attract very large numbers of students. They are excellent for building skills and confidence, and top
+          ranks are a genuine achievement.
+        </P>
+        <H3>2. The national Olympiad programme leading to International Olympiads</H3>
+        <P>
+          This is the pathway run in India by HBCSE (Homi Bhabha Centre for Science Education) with partner bodies.
+          In maths it begins with <A href="/blog/ioqm-preparation-guide">IOQM</A>, and in the sciences with the
+          National Standard Examinations. The top students go on to training camps and eventually represent India at
+          the International Mathematical, Physics, Chemistry, Biology and Astronomy Olympiads. These exams are far
+          more selective and much harder.
+        </P>
+        <Callout>
+          <B>A common confusion:</B> the SOF exam called &ldquo;IMO&rdquo; (International Mathematics Olympiad) is
+          not the same as <em>the</em> International Mathematical Olympiad, the global competition for which
+          India&rsquo;s team is chosen through the HBCSE pathway. Both are valuable, but they carry very different
+          weight in university admissions.
+        </Callout>
+
+        <H2 id="school-admissions">School admissions</H2>
+        <P>
+          For admission to a new school, especially at middle and senior secondary level, Olympiad achievements can
+          help a student&rsquo;s profile, particularly medals and high ranks. They show interest in a subject and
+          the ability to perform beyond the classroom. They rarely decide an admission on their own, but they add
+          to a well-rounded portfolio and are useful to mention in interviews.
+        </P>
+
+        <H2 id="indian-college">College admissions in India</H2>
+        <UL>
+          <LI>
+            <B>Engineering and medicine</B> are still mainly decided by entrance exams such as JEE and NEET. School-level
+            Olympiad certificates are not a replacement for these exams.
+          </LI>
+          <LI>
+            <B>Olympiad-based routes at some IITs:</B> in recent years, some institutes, including IIT Madras and IIT
+            Kanpur, have announced admission routes for students with outstanding performance in the national or
+            international Olympiad programme. These routes are aimed at students who reach advanced stages of that
+            pathway, and the rules differ by institute and year, so always check the official admission notices.
+          </LI>
+          <LI>
+            <B>Research institutes and science programmes</B> tend to value strong national-programme performance, and
+            the preparation itself gives students a real advantage.
+          </LI>
+        </UL>
+
+        <H2 id="abroad">Study abroad</H2>
+        <P>
+          Universities in the US, UK and elsewhere look at the whole profile. Strong competition results help,
+          especially for maths, science and engineering applicants, but they work best as part of a consistent
+          story of academic interest. High distinction in national-level Olympiads carries clear weight.
+          Participation certificates on their own carry very little.
+        </P>
+
+        <H2 id="real-value">Where the real value of Olympiads lies</H2>
+        <P>
+          For most students, the biggest benefit of Olympiads is not the certificate but the skills they build:
+        </P>
+        <UL>
+          <LI><B>Problem-solving depth</B> beyond textbook exercises</LI>
+          <LI><B>Exam temperament:</B> handling timed papers and hard questions calmly</LI>
+          <LI><B>A strong base for JEE, NEET and other competitive exams,</B> as explained in our guide on <A href="/blog/how-olympiads-help-jee-neet-preparation">how Olympiads help JEE and NEET preparation</A></LI>
+          <LI><B>Confidence and subject interest,</B> which drive long-term academic success</LI>
+        </UL>
+        <P>
+          For a full list of benefits, see <A href="/blog/benefits-of-olympiad-exams-for-students">the benefits of Olympiad exams for students</A>.
+        </P>
+
+        <H2 id="how-to-choose">What this means for choosing Olympiads</H2>
+        <UL>
+          <LI><B>Classes 1&ndash;7:</B> choose school-level Olympiads for learning and enjoyment. Don&rsquo;t pick exams only for certificates.</LI>
+          <LI><B>Classes 8&ndash;12 with a strong interest in maths or science:</B> alongside school-level Olympiads, look at the national programme (IOQM for maths, the National Standard Examinations for sciences). That pathway carries the most weight for admissions.</LI>
+          <LI><B>Build a portfolio,</B> not a pile of certificates: a few serious, well-prepared exams beat ten rushed ones.</LI>
+        </UL>
+        <P>
+          Not sure which exams fit your child? Read <A href="/blog/how-to-choose-the-right-olympiad-for-your-child">how to choose the right Olympiad for your child</A>.
+        </P>
+
+        <CTA href="/topics">Build real Olympiad skills with topic-wise practice for every class.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Do SOF Olympiad certificates help in college admission?",
+        a: "SOF Olympiad certificates can strengthen a student's profile, especially medals and high ranks, but they don't replace entrance exams like JEE or NEET. Their main value is the problem-solving skills and exam temperament they build. The national Olympiad programme run through HBCSE carries much more weight for university admissions.",
+      },
+      {
+        q: "Is SOF IMO the same as the International Mathematical Olympiad?",
+        a: "No. SOF's International Mathematics Olympiad (IMO) is a school-level exam taken by students from Class 1 to 12. The International Mathematical Olympiad is the global competition for which India's team is selected through the HBCSE pathway, which starts with IOQM.",
+      },
+      {
+        q: "Can Olympiads help in getting into IIT?",
+        a: "JEE remains the main route into IITs. However, some institutes, including IIT Madras and IIT Kanpur, have announced admission routes for students with outstanding performance in the national or international Olympiad programme. Rules vary by institute and year, so check the official admission notices.",
+      },
+      {
+        q: "Are Olympiad certificates useful for school admissions?",
+        a: "They can help, particularly medals and high ranks, by showing subject interest and the ability to perform beyond the classroom. They usually add to a well-rounded profile rather than decide an admission on their own.",
+      },
+    ],
+  },
+
+  /* 85 ──────────────────────────────────────────────────────── */
+  {
+    slug: "ioqm-preparation-guide",
+    title: "IOQM Preparation Guide: Syllabus, Pattern, Books and Strategy",
+    description:
+      "A complete guide to IOQM (Indian Olympiad Qualifier in Mathematics), the first stage of India's maths Olympiad pathway: exam pattern, syllabus, how it differs from school Olympiads, recommended books and a preparation plan for Classes 8–12.",
+    date: "2026-09-23",
+    tag: "Maths",
+    readingMinutes: 11,
+    keywords: [
+      "IOQM preparation",
+      "IOQM syllabus",
+      "IOQM exam pattern",
+      "IOQM books",
+      "how to prepare for IOQM",
+      "indian olympiad qualifier in mathematics",
+    ],
+    excerpt:
+      "IOQM is the first step towards representing India at the International Mathematical Olympiad. Here is the pattern, syllabus, the best books, and how to prepare, whether you just sat IOQM or are aiming for next year.",
+    content: (
+      <>
+        <P>
+          The Indian Olympiad Qualifier in Mathematics (IOQM) is the entry point to India&rsquo;s maths Olympiad
+          programme, the pathway that ends with the six students who represent India at the International
+          Mathematical Olympiad. It is organised by the Mathematics Teachers&rsquo; Association (India) with HBCSE,
+          and it is open to school students, typically from Class 8 to Class 12. If your child enjoys maths beyond
+          the textbook, IOQM is worth knowing about, and the earlier preparation starts the better.
+        </P>
+
+        <H2 id="pathway">Where IOQM fits: the Olympiad pathway</H2>
+        <P>The maths Olympiad programme runs in stages. In recent years it has broadly looked like this:</P>
+        <OL>
+          <LIo><B>IOQM:</B> the qualifying exam, with the largest number of candidates.</LIo>
+          <LIo><B>Regional and national rounds</B> (such as RMO and INMO): proof-based papers for those who qualify.</LIo>
+          <LIo><B>Training camp (IMOTC):</B> for the top performers at the national round.</LIo>
+          <LIo><B>International Mathematical Olympiad:</B> India&rsquo;s team of six is selected from the camp.</LIo>
+        </OL>
+        <Callout>
+          <B>Stages and cut-offs change.</B> The organisers sometimes change the stage structure, eligibility and
+          qualification rules. Always check the current year&rsquo;s official announcements from MTA(I) and HBCSE
+          before planning.
+        </Callout>
+
+        <H2 id="pattern">IOQM exam pattern</H2>
+        <UL>
+          <LI><B>Duration:</B> 3 hours</LI>
+          <LI><B>Questions:</B> 30, and every answer is a whole number (typically from 00 to 99)</LI>
+          <LI><B>Marking:</B> questions carry different marks (in recent papers, 10 questions each at 2, 3 and 5 marks, for a total of 100)</LI>
+          <LI><B>No options:</B> there are no multiple-choice answers, so you can&rsquo;t guess or work backwards from options</LI>
+          <LI><B>No negative marking</B> in recent editions</LI>
+        </UL>
+        <P>
+          Three hours for 30 questions is about 6 minutes per question, but the difficulty rises steeply, and the
+          5-mark questions can take 15&ndash;20 minutes each. This is very different from the 60-minute,
+          50-question format of school Olympiads.
+        </P>
+
+        <H2 id="how-it-differs">How IOQM differs from school Olympiads</H2>
+        <UL>
+          <LI><B>Beyond the school syllabus:</B> it uses the same basic tools (algebra, geometry, number properties) but combines them in ways school maths never does.</LI>
+          <LI><B>Problem-solving, not recall:</B> almost no question can be solved just by applying a formula.</LI>
+          <LI><B>Topics schools barely cover:</B> number theory and combinatorics (counting) make up a large part of the paper.</LI>
+          <LI><B>No options:</B> you need the exact answer.</LI>
+        </UL>
+        <P>
+          Doing well in school Olympiads like SOF&rsquo;s IMO is a good sign of interest and a strong base, but
+          IOQM needs a different kind of preparation. See <A href="/blog/do-olympiad-certificates-help-in-admissions">our guide on SOF vs the HBCSE programme</A> for how they compare.
+        </P>
+
+        <H2 id="syllabus">IOQM syllabus</H2>
+        <P>
+          There is no formal syllabus beyond &ldquo;pre-college mathematics&rdquo;, but questions come from four areas:
+        </P>
+        <UL>
+          <LI><B>Number theory:</B> divisibility, primes, GCD and LCM, modular arithmetic (remainders), digits, Diophantine equations (equations with whole-number solutions)</LI>
+          <LI><B>Algebra:</B> polynomials and their roots, identities, inequalities (such as AM&ndash;GM), sequences and series, functional equations at an introductory level</LI>
+          <LI><B>Geometry:</B> triangles and circles, similarity, angle chasing, areas, key theorems (Ceva, Menelaus, power of a point), some coordinate and trigonometric methods</LI>
+          <LI><B>Combinatorics:</B> counting principles, permutations and combinations, the pigeonhole principle, inclusion&ndash;exclusion, basic probability</LI>
+        </UL>
+
+        <H2 id="books">Recommended books and resources</H2>
+        <UL>
+          <LI><B>Past IOQM and PRMO papers:</B> the single most important resource. PRMO was the earlier first-stage exam, and its papers are very similar in style.</LI>
+          <LI><B><em>Challenge and Thrill of Pre-College Mathematics</em></B> (Krishnamurthy, Pranesachar, Ranganathan, Venkatachala): the classic Indian starting point.</LI>
+          <LI><B><em>An Excursion in Mathematics</em></B> (Bhaskaracharya Pratishthana): broad coverage of Olympiad topics.</LI>
+          <LI><B>Art of Problem Solving books</B> (Introduction to Number Theory, Counting &amp; Probability, Geometry): very clear explanations with graded problems.</LI>
+          <LI><B><em>Problem-Solving Strategies</em></B> (Arthur Engel): for strong students aiming beyond IOQM.</LI>
+        </UL>
+
+        <H2 id="plan">A preparation plan</H2>
+        <H3>If you have a year or more (Classes 8&ndash;10)</H3>
+        <OL>
+          <LIo><B>Months 1&ndash;3:</B> number theory and combinatorics basics, since school hardly teaches them. Solve every problem in an introductory book.</LIo>
+          <LIo><B>Months 4&ndash;6:</B> algebra (identities, polynomials, inequalities) and geometry (angle chasing, similarity, circle theorems).</LIo>
+          <LIo><B>Months 7&ndash;9:</B> mixed problem sets and older PRMO papers, untimed. Focus on understanding full solutions.</LIo>
+          <LIo><B>Final 2&ndash;3 months:</B> recent IOQM papers under timed 3-hour conditions, with a detailed error log.</LIo>
+        </OL>
+        <H3>If you have 2&ndash;3 months</H3>
+        <UL>
+          <LI>Start with 2&ndash;3 past papers to see where you stand.</LI>
+          <LI>Focus on the topics where your errors cluster, usually number theory and counting.</LI>
+          <LI>Aim to be completely reliable on the 2-mark and 3-mark questions. Consistent marks there often count for more than the occasional 5-mark question.</LI>
+        </UL>
+
+        <H2 id="exam-strategy">Exam-day strategy</H2>
+        <UL>
+          <LI>Read all 30 questions in the first 10&ndash;15 minutes and mark the ones you can do.</LI>
+          <LI>Secure the approachable questions first, whatever their mark value.</LI>
+          <LI>Because answers are integers, check that your answer is reasonable. A non-integer or a number outside the allowed range means an error somewhere.</LI>
+          <LI>Keep time at the end to transfer answers carefully to the answer sheet.</LI>
+        </UL>
+
+        <H2 id="just-sat">Just sat IOQM this year?</H2>
+        <P>
+          Compare your answers with the official key when it is released, and list the topics behind every
+          question you couldn&rsquo;t do. That list is next year&rsquo;s plan. If you qualified for the next stage,
+          shift to <B>proof writing</B>: later rounds need complete written solutions, not just numerical answers.
+        </P>
+
+        <CTA href="/?subject=Math">Build a strong maths foundation with Olympiad-level practice for your class.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is IOQM?",
+        a: "IOQM (Indian Olympiad Qualifier in Mathematics) is the first stage of India's maths Olympiad programme, organised by MTA(I) with HBCSE. Top performers progress to further rounds and a training camp, from which India's team for the International Mathematical Olympiad is selected.",
+      },
+      {
+        q: "What is the IOQM exam pattern?",
+        a: "In recent editions IOQM has been a 3-hour paper with 30 questions, each with a whole-number answer (typically 00–99). Questions carry 2, 3 or 5 marks for a total of 100, with no multiple-choice options and no negative marking. Check the official notice each year for any changes.",
+      },
+      {
+        q: "Which topics are important for IOQM?",
+        a: "IOQM covers four areas: number theory, algebra, geometry and combinatorics. Number theory and combinatorics are especially important because school maths covers them lightly, so most students need to learn them from scratch.",
+      },
+      {
+        q: "Which class should a student start preparing for IOQM?",
+        a: "Classes 8 and 9 are ideal starting points. Starting early gives time to learn number theory and combinatorics properly and to attempt IOQM more than once. Students in Classes 10–12 can still prepare effectively with a focused plan built around past papers.",
+      },
+    ],
+  },
+
+  /* 86 ──────────────────────────────────────────────────────── */
+  {
+    slug: "isso-social-studies-olympiad-preparation",
+    title: "ISSO Preparation Guide: How to Prepare for the Social Studies Olympiad",
+    description:
+      "A complete guide to preparing for SOF's International Social Studies Olympiad (ISSO): what it tests across history, geography, civics and economics, how questions are framed, map skills, and a 6-week study plan.",
+    date: "2026-09-23",
+    tag: "General Knowledge",
+    readingMinutes: 9,
+    keywords: [
+      "ISSO preparation",
+      "social studies olympiad",
+      "international social studies olympiad",
+      "ISSO syllabus",
+      "SOF ISSO tips",
+    ],
+    excerpt:
+      "ISSO rewards understanding over memorised dates: cause and effect in history, map reading in geography, and how institutions work in civics. Here is how to prepare for it.",
+    content: (
+      <>
+        <P>
+          The International Social Studies Olympiad (ISSO) from SOF is the least-known member of the SOF family,
+          which is one reason it is a good opportunity. Fewer students prepare seriously for it, and a methodical
+          student can stand out. Many families assume social studies is about memorising dates and definitions.
+          ISSO questions, like other Olympiads, reward <B>understanding</B>: why events happened, how maps are
+          read, and how institutions work.
+        </P>
+        <Callout>
+          <B>Check the official pattern.</B> Eligible classes, the question count and section structure are published
+          on the SOF website and can change. Confirm the details for your child&rsquo;s class before starting.
+        </Callout>
+
+        <H2 id="what-it-tests">What ISSO tests</H2>
+        <UL>
+          <LI><B>History:</B> timelines, causes and effects of events, important people, and the connection between historical developments.</LI>
+          <LI><B>Geography:</B> physical features, climate, resources, agriculture, and above all <B>map skills</B>: directions, reading maps, locating places, and interpreting diagrams.</LI>
+          <LI><B>Civics and political science:</B> the Constitution, government at different levels, rights and duties, and how elections and laws work.</LI>
+          <LI><B>Economics</B> (higher classes): basic ideas such as resources, markets, money and development.</LI>
+          <LI><B>Reasoning and application:</B> questions that describe a situation and ask which concept applies.</LI>
+        </UL>
+        <P>
+          The content follows your class&rsquo;s school social science syllabus (NCERT for CBSE schools), but the
+          questions go a level deeper than school tests.
+        </P>
+
+        <H2 id="question-style">How ISSO questions are framed</H2>
+        <UL>
+          <LI><B>Cause and effect:</B> &ldquo;Which of the following was a <em>reason</em> for&hellip;&rdquo; rather than &ldquo;In which year&hellip;&rdquo;</LI>
+          <LI><B>Match the following:</B> rulers with dynasties, rivers with states, rights with articles or examples.</LI>
+          <LI><B>Map and diagram questions:</B> identifying a marked location, direction or physical feature.</LI>
+          <LI><B>Statement-based:</B> &ldquo;Which of these statements is/are correct?&rdquo;, which tests precise understanding.</LI>
+          <LI><B>Odd one out:</B> for example, three of four items that share a category, such as Himalayan rivers.</LI>
+        </UL>
+
+        <H2 id="history-tips">Preparing history</H2>
+        <UL>
+          <LI><B>Make a timeline</B> for each chapter on one page. Seeing events in order helps with sequence questions.</LI>
+          <LI><B>For every major event, write three lines:</B> cause, what happened, and the result. This matches how ISSO asks questions.</LI>
+          <LI><B>Group people by role</B> (rulers, reformers, freedom fighters) rather than learning random lists.</LI>
+        </UL>
+
+        <H2 id="geography-tips">Preparing geography and maps</H2>
+        <UL>
+          <LI><B>Practise with blank maps.</B> Mark rivers, mountain ranges, states and capitals from memory, then check.</LI>
+          <LI><B>Learn directions and relative position:</B> which state lies north-east of another, which river flows east or west.</LI>
+          <LI><B>Connect features to causes:</B> why a region gets heavy rainfall, why a crop grows in a particular soil.</LI>
+          <LI>Map questions are usually the most reliable marks in the paper once practised. Don&rsquo;t skip them.</LI>
+        </UL>
+
+        <H2 id="civics-tips">Preparing civics</H2>
+        <UL>
+          <LI>Learn the structure of government as a diagram: Union, State and local levels, and legislature, executive and judiciary.</LI>
+          <LI>For rights and duties, learn one real-life example of each. Statement-based questions often describe a situation.</LI>
+          <LI>Understand key terms precisely (secularism, federalism, sovereignty), since options are often close in meaning.</LI>
+        </UL>
+
+        <H2 id="plan">6-week study plan</H2>
+        <UL>
+          <LI><B>Week 1:</B> Take one sample paper to diagnose, then make timelines for all history chapters.</LI>
+          <LI><B>Week 2:</B> History in depth using cause&ndash;event&ndash;result notes, with 20 practice questions.</LI>
+          <LI><B>Week 3:</B> Geography, with daily blank-map practice for 15 minutes.</LI>
+          <LI><B>Week 4:</B> Civics and economics, with diagrams and real-life examples.</LI>
+          <LI><B>Week 5:</B> Mixed practice, statement-based questions, and a timed sample paper with an error log.</LI>
+          <LI><B>Week 6:</B> Two more timed papers, and revision from timelines, maps and the error log only.</LI>
+        </UL>
+
+        <H2 id="gk-overlap">Overlap with IGKO</H2>
+        <P>
+          Students taking both ISSO and IGKO get a double benefit. Geography, national symbols, the Constitution
+          and important days appear in both. See our <A href="/blog/igko-preparation-guide">IGKO preparation guide</A>{" "}
+          to plan them together.
+        </P>
+
+        <CTA href="/topics">Explore Olympiad practice across subjects for your child&rsquo;s class.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is ISSO?",
+        a: "ISSO is the International Social Studies Olympiad conducted by SOF (Science Olympiad Foundation). It tests history, geography, civics and, in higher classes, economics, following the school social science syllabus but with deeper, understanding-based questions.",
+      },
+      {
+        q: "How do I prepare for the Social Studies Olympiad?",
+        a: "Make one-page timelines for history, write cause–event–result notes for major events, practise daily with blank maps for geography, learn civics structures as diagrams with real-life examples, and take 2–3 timed sample papers with an error log in the final weeks.",
+      },
+      {
+        q: "Are map questions important in ISSO?",
+        a: "Yes. Map and direction questions are a regular part of the paper and are usually the most reliable marks once practised. Practise marking rivers, mountains, states and capitals on blank maps for 15 minutes a day.",
+      },
+      {
+        q: "Is ISSO similar to IGKO?",
+        a: "They overlap in areas like geography, national symbols, the Constitution and important days, but ISSO follows the social studies syllabus in more depth, while IGKO covers broad general knowledge and current affairs. Preparing for both together is efficient.",
+      },
+    ],
+  },
+
+  /* 87 ──────────────────────────────────────────────────────── */
+  {
+    slug: "mental-maths-tricks-for-olympiad",
+    title: "15 Mental Maths Tricks for Olympiad Exams (With Worked Examples)",
+    description:
+      "Fast mental maths shortcuts that save time in IMO and other maths Olympiads: multiplying by 5, 11, 25 and 99, squaring numbers ending in 5, the Vedic base method, difference of squares, percentage tricks, divisibility rules and more.",
+    date: "2026-09-23",
+    tag: "Maths",
+    readingMinutes: 10,
+    keywords: [
+      "mental maths tricks",
+      "vedic maths tricks for olympiad",
+      "maths shortcuts for IMO",
+      "fast calculation tricks",
+      "multiplication tricks for kids",
+      "mental math for class 5",
+    ],
+    excerpt:
+      "Olympiads give you about a minute per question. These 15 mental maths tricks, with worked examples, turn slow calculations into seconds. Includes Vedic maths methods and when to use each.",
+    content: (
+      <>
+        <P>
+          In a maths Olympiad, the difficulty is usually in the thinking, not the arithmetic. But slow or
+          error-prone calculation eats into the time you need for that thinking. The tricks below are simple,
+          dependable shortcuts. Several come from Vedic mathematics, and all of them rest on ordinary maths you
+          can check. Learn them one at a time and use each in practice until it feels natural. That is how they
+          start saving you time in the exam.
+        </P>
+        <Callout>
+          <B>How to learn these:</B> pick two tricks a week. Do 10 quick examples of each daily for five days. A
+          trick you have to stop and remember is slower than normal calculation. It only helps once it&rsquo;s
+          automatic.
+        </Callout>
+
+        <H2 id="multiply-5-25">1. Multiply by 5: multiply by 10, then halve</H2>
+        <P><B>68 × 5</B> = 680 ÷ 2 = <B>340</B>. It works because 5 is half of 10.</P>
+
+        <H2 id="multiply-25">2. Multiply by 25: multiply by 100, then divide by 4</H2>
+        <P><B>36 × 25</B> = 3600 ÷ 4 = <B>900</B>. Useful for money and percentage problems.</P>
+
+        <H2 id="multiply-11">3. Multiply a two-digit number by 11</H2>
+        <P>
+          Write the two digits apart and put their sum in the middle. <B>43 × 11</B>: 4, (4+3), 3 = <B>473</B>.
+          If the sum is 10 or more, carry the 1: <B>78 × 11</B>: 7, 15, 8 becomes <B>858</B>.
+        </P>
+
+        <H2 id="multiply-9-99">4. Multiply by 9 or 99</H2>
+        <P>
+          Multiply by 10 or 100 and subtract the number once. <B>36 × 9</B> = 360 − 36 = <B>324</B>.{" "}
+          <B>47 × 99</B> = 4700 − 47 = <B>4653</B>.
+        </P>
+
+        <H2 id="square-5">5. Square a number ending in 5 (Vedic: Ekadhikena Purvena)</H2>
+        <P>
+          Multiply the first part by the next number up, then write 25 at the end. <B>35²</B>: 3 × 4 = 12, so the
+          answer is <B>1225</B>. <B>85²</B>: 8 × 9 = 72, so <B>7225</B>.
+        </P>
+
+        <H2 id="base-method">6. Multiply numbers near 100 (Vedic: Nikhilam)</H2>
+        <P>For two numbers just below 100, find how far each is from 100.</P>
+        <UL>
+          <LI><B>97 × 96:</B> the gaps are 3 and 4. Left part: 97 − 4 = 93. Right part: 3 × 4 = 12. Answer <B>9312</B>.</LI>
+          <LI><B>98 × 97:</B> the gaps are 2 and 3. Left: 95. Right: 2 × 3 = 6, written as <B>06</B> (the right part must have two digits for base 100). Answer <B>9506</B>.</LI>
+          <LI><B>104 × 107</B> (above 100): the extras are 4 and 7. Left: 104 + 7 = 111. Right: 4 × 7 = 28. Answer <B>11128</B>.</LI>
+        </UL>
+
+        <H2 id="difference-squares">7. Difference of squares</H2>
+        <P>
+          When two numbers are the same distance either side of a round number, use (a − b)(a + b) = a² − b².{" "}
+          <B>48 × 52</B> = 50² − 2² = 2500 − 4 = <B>2496</B>. <B>29 × 31</B> = 900 − 1 = <B>899</B>.
+        </P>
+
+        <H2 id="compensation">8. Round and adjust (compensation)</H2>
+        <P>
+          Round one number to something easy, then correct. <B>398 + 257</B> = 400 + 257 − 2 = <B>655</B>.{" "}
+          <B>523 − 198</B> = 523 − 200 + 2 = <B>325</B>.
+        </P>
+
+        <H2 id="percent-swap">9. Swap the percentage</H2>
+        <P>
+          x% of y is the same as y% of x. <B>8% of 50</B> = 50% of 8 = <B>4</B>. <B>16% of 25</B> = 25% of 16 = <B>4</B>.
+          Always check whether the swapped version is easier.
+        </P>
+
+        <H2 id="percent-building">10. Build percentages from 10% and 5%</H2>
+        <P>
+          <B>15% of 240:</B> 10% is 24 and 5% is 12, so the answer is <B>36</B>. <B>35% of 80:</B> 30% is 24 and 5% is 4, so <B>28</B>.
+        </P>
+
+        <H2 id="fractions-percent">11. Know fraction&ndash;percentage pairs by heart</H2>
+        <UL>
+          <LI>1/2 = 50%, 1/4 = 25%, 3/4 = 75%, 1/5 = 20%</LI>
+          <LI>1/8 = 12.5%, 3/8 = 37.5%, 5/8 = 62.5%</LI>
+          <LI>1/3 ≈ 33.33%, 2/3 ≈ 66.67%, 1/6 ≈ 16.67%</LI>
+          <LI>1/20 = 5%, 1/25 = 4%, 1/12 ≈ 8.33%</LI>
+        </UL>
+        <P>These save time in profit and loss, discount and data questions.</P>
+
+        <H2 id="divisibility">12. Divisibility rules</H2>
+        <UL>
+          <LI><B>3 and 9:</B> the digit sum is divisible by 3 or 9.</LI>
+          <LI><B>4:</B> the last two digits form a number divisible by 4.</LI>
+          <LI><B>8:</B> the last three digits form a number divisible by 8.</LI>
+          <LI><B>6:</B> divisible by both 2 and 3.</LI>
+          <LI><B>11:</B> the alternating digit sum is 0 or divisible by 11. <B>2728</B>: 2 − 7 + 2 − 8 = −11, so it is divisible (2728 = 11 × 248).</LI>
+        </UL>
+
+        <H2 id="average-deviation">13. Averages with a base number</H2>
+        <P>
+          Pick a base close to the numbers and average the differences. Average of <B>47, 52, 49, 55, 47</B>: using
+          base 50, the differences are −3, +2, −1, +5, −3, which add to 0. So the average is <B>50</B>.
+        </P>
+
+        <H2 id="square-near-50">14. Squares near 50</H2>
+        <P>
+          Use (50 ± d)² = 2500 ± 100d + d². <B>47²</B> = 2500 − 300 + 9 = <B>2209</B>. <B>53²</B> = 2500 + 300 + 9 = <B>2809</B>.
+        </P>
+
+        <H2 id="estimate">15. Estimate before you calculate</H2>
+        <P>
+          Look at the options first. If they are far apart, a rough estimate is enough. For <B>498 × 21</B> with
+          options 8,458 / 10,458 / 11,958 / 12,458, the estimate 500 × 21 = 10,500 points straight to <B>10,458</B>.
+          Estimating is often the fastest trick of all.
+        </P>
+
+        <H2 id="by-class">Which tricks to learn at which class</H2>
+        <UL>
+          <LI><B>Classes 2&ndash;4:</B> tricks 1, 3, 4 and 8 (with small numbers), plus divisibility by 2, 5 and 10.</LI>
+          <LI><B>Classes 5&ndash;6:</B> add 2, 5, 9, 10, 11, 12 and 13.</LI>
+          <LI><B>Classes 7 and up:</B> all 15, especially 6, 7 and 14, which connect to algebraic identities.</LI>
+        </UL>
+
+        <H2 id="time">Tricks are one part of speed</H2>
+        <P>
+          Faster calculation frees up time, but good exam strategy matters just as much. Read our{" "}
+          <A href="/blog/time-management-in-olympiad-exam">guide to time management in Olympiad exams</A> and our{" "}
+          <A href="/blog/how-to-prepare-for-the-maths-olympiad-imo">complete IMO preparation guide</A>.
+        </P>
+
+        <CTA href="/?subject=Math">Practise these tricks on real Olympiad maths questions for your class.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Are Vedic maths tricks useful for Olympiad exams?",
+        a: "Some are very useful: the Nikhilam base method for multiplying numbers near 100 and the Ekadhikena Purvena method for squaring numbers ending in 5 save real time. The key is to learn a few tricks thoroughly rather than many superficially, since a trick you have to stop and recall is slower than normal calculation.",
+      },
+      {
+        q: "What is the trick to multiply by 11 quickly?",
+        a: "For a two-digit number, write the two digits apart and put their sum in the middle: 43 × 11 = 473. If the sum is 10 or more, carry the 1 to the left digit: 78 × 11 = 7 | 15 | 8 = 858.",
+      },
+      {
+        q: "How can I square numbers ending in 5 quickly?",
+        a: "Multiply the part before the 5 by the next whole number, then write 25 at the end. For 35², 3 × 4 = 12, giving 1225. For 85², 8 × 9 = 72, giving 7225.",
+      },
+      {
+        q: "How long does it take to learn mental maths tricks?",
+        a: "Learn about two tricks a week, practising 10 quick examples of each daily for five days. In six to eight weeks, most students can use the full set comfortably in timed practice papers.",
+      },
+    ],
+  },
+
+  /* 88 ──────────────────────────────────────────────────────── */
+  {
+    slug: "coding-decoding-questions-for-olympiad",
+    title: "Coding-Decoding Questions for Olympiad: Types, Tricks and Solved Examples",
+    description:
+      "Master coding-decoding in the logical reasoning section of IMO, NSO, IEO and other Olympiads. Covers letter shifting, reverse alphabet, number coding, sentence coding and substitution, with solved examples and memory tricks.",
+    date: "2026-09-23",
+    tag: "Tips",
+    readingMinutes: 9,
+    keywords: [
+      "coding decoding questions",
+      "coding decoding for olympiad",
+      "coding decoding tricks",
+      "logical reasoning coding decoding class 5",
+      "reasoning questions for olympiad",
+    ],
+    excerpt:
+      "Coding-decoding appears in the reasoning section of almost every Olympiad. Learn the five main types, the memory tricks that make them fast, and work through solved examples.",
+    content: (
+      <>
+        <P>
+          Coding-decoding questions show up in the logical reasoning section of almost every Olympiad, from
+          Class 2 IMO papers to Class 10 NSO. They can look confusing at first, but they follow a small number of
+          patterns. Once you can spot the pattern type, most of them take under a minute. This guide covers the
+          five main types, the memory tricks that make them fast, and solved examples of each.
+        </P>
+
+        <H2 id="memory-tricks">Two memory tricks to learn first</H2>
+        <H3>1. Letter positions: EJOTY</H3>
+        <P>
+          Knowing each letter&rsquo;s position in the alphabet is the key to most coding questions. Remember{" "}
+          <B>EJOTY</B>: E = 5, J = 10, O = 15, T = 20, Y = 25. You can then find any letter in a step or two:
+          R is two before T, so R = 18.
+        </P>
+        <H3>2. Opposite letters add up to 27</H3>
+        <P>
+          In &ldquo;reverse alphabet&rdquo; coding, each letter pairs with its opposite: A&ndash;Z, B&ndash;Y,
+          C&ndash;X, and so on. Their positions always add to 27 (A = 1, Z = 26). The pairs to remember: AZ, BY,
+          CX, DW, EV, FU, GT, HS, IR, JQ, KP, LO, MN.
+        </P>
+
+        <H2 id="type-1">Type 1: Letter shifting</H2>
+        <P>Each letter moves forward or backward by a fixed number of places.</P>
+        <P>
+          <B>Example:</B> If CAT is coded as DBU, how is DOG coded?<br />
+          C→D, A→B, T→U: every letter moves forward by 1. So D→E, O→P, G→H. <B>Answer: EPH.</B>
+        </P>
+        <P>
+          <B>A variation, increasing shifts:</B> if ACE is coded as BEH, then A+1 = B, C+2 = E, E+3 = H. So BDF is
+          coded as B+1, D+2, F+3 = <B>CFI</B>.
+        </P>
+
+        <H2 id="type-2">Type 2: Reverse alphabet</H2>
+        <P>Each letter is replaced by its opposite (the two positions add to 27).</P>
+        <P>
+          <B>Example:</B> If GOOD is coded as TLLW, how is BAD coded?<br />
+          Check: G (7) → T (20), 7 + 20 = 27. O (15) → L (12), 15 + 12 = 27. Confirmed. So B → Y, A → Z, D → W.{" "}
+          <B>Answer: YZW.</B>
+        </P>
+
+        <H2 id="type-3">Type 3: Number coding</H2>
+        <P>Words are turned into numbers, usually using letter positions.</P>
+        <P>
+          <B>Example:</B> If CAT = 24, what is DOG?<br />
+          C (3) + A (1) + T (20) = 24, so the rule is &ldquo;add the positions.&rdquo; DOG = 4 + 15 + 7 ={" "}
+          <B>26</B>.
+        </P>
+        <Callout>
+          <B>Test your rule on the whole example.</B> Many wrong answers come from finding a rule that fits the first
+          letter or two and not checking the rest. Always confirm the pattern on every letter before using it.
+        </Callout>
+
+        <H2 id="type-4">Type 4: Reversal and rearrangement</H2>
+        <P>
+          <B>Example:</B> If PENCIL is written as LICNEP, how is ERASER written?<br />
+          The word is simply reversed. <B>Answer: RESARE.</B>
+        </P>
+        <P>
+          Other versions split the word in half and reverse each half, or swap letters in pairs. Write the
+          positions (1 2 3 4 5 6) under the original and the code to see where each letter went.
+        </P>
+
+        <H2 id="type-5">Type 5: Sentence (word-code) coding</H2>
+        <P>You are given coded sentences and have to match each word to its code by finding common words.</P>
+        <P><B>Example:</B> In a code language:</P>
+        <UL>
+          <LI><B>pit na sa</B> means &ldquo;you are good&rdquo;</LI>
+          <LI><B>na ko ta</B> means &ldquo;good and bad&rdquo;</LI>
+          <LI><B>sa ho pit</B> means &ldquo;you are brave&rdquo;</LI>
+        </UL>
+        <P>
+          Sentences 1 and 2 share only the word &ldquo;good&rdquo; and only the code <B>na</B>, so good = na.
+          Sentences 1 and 3 share &ldquo;you are&rdquo; and the codes pit and sa. So in sentence 3, the remaining
+          code <B>ho</B> means <B>brave</B>.
+        </P>
+        <P>
+          Notice what <em>can&rsquo;t</em> be worked out: whether &ldquo;you&rdquo; is pit or sa. Olympiad options
+          sometimes include &ldquo;cannot be determined&rdquo;, and it is the right answer when the information
+          genuinely isn&rsquo;t enough.
+        </P>
+
+        <H2 id="type-6">Bonus: Substitution questions</H2>
+        <P>
+          <B>Example:</B> If sky is called sea, sea is called water, water is called air, and air is called cloud,
+          where do fish live?<br />
+          Fish live in water, and water is called <B>air</B>. <B>Answer: air.</B> The trick is to find the real
+          answer first, then give its new name.
+        </P>
+
+        <H2 id="method">A 4-step method for any coding question</H2>
+        <OL>
+          <LIo>Write the original and the code one above the other, letter by letter.</LIo>
+          <LIo>Write the alphabet positions under both (use EJOTY).</LIo>
+          <LIo>Look for the pattern: same shift, growing shift, opposite letters, reversal, or a sum or product.</LIo>
+          <LIo>Check the rule on every letter, then apply it.</LIo>
+        </OL>
+
+        <H2 id="by-class">What to expect at each class level</H2>
+        <UL>
+          <LI><B>Classes 1&ndash;3:</B> simple +1/−1 shifts, picture or symbol codes, and word reversal.</LI>
+          <LI><B>Classes 4&ndash;6:</B> fixed and growing shifts, reverse alphabet, and simple number coding.</LI>
+          <LI><B>Classes 7 and up:</B> mixed rules, sentence coding, substitution, and &ldquo;cannot be determined&rdquo; options.</LI>
+        </UL>
+        <P>
+          Coding-decoding is one of several reasoning topics. For series, analogies, blood relations and more, see{" "}
+          <A href="/blog/how-to-improve-logical-reasoning-for-olympiads">how to improve logical reasoning for Olympiads</A>.
+        </P>
+
+        <CTA href="/topics">Practise coding-decoding and other reasoning questions for your class.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How do I solve coding-decoding questions quickly?",
+        a: "Learn letter positions using EJOTY (E=5, J=10, O=15, T=20, Y=25) and the opposite-letter pairs that add to 27. Then write the original and the code letter by letter, find the pattern, check it on every letter, and apply it.",
+      },
+      {
+        q: "What are the main types of coding-decoding questions?",
+        a: "The main types are letter shifting (fixed or growing shifts), reverse alphabet (A↔Z), number coding using letter positions, reversal or rearrangement of letters, sentence coding where words map to codes, and substitution questions where words are renamed.",
+      },
+      {
+        q: "What is the EJOTY trick?",
+        a: "EJOTY is a memory aid for alphabet positions: E is 5, J is 10, O is 15, T is 20 and Y is 25. From these anchor points you can find any letter's position in a step or two, which speeds up coding-decoding questions.",
+      },
+      {
+        q: "Are coding-decoding questions asked in Class 1–3 Olympiads?",
+        a: "Yes, in simpler forms: moving letters forward or backward by one place, picture or symbol codes, and reversing short words. More complex versions like sentence coding appear from around Class 7.",
+      },
+    ],
+  },
+
+  /* 89 ──────────────────────────────────────────────────────── */
+  {
+    slug: "science-experiments-at-home-for-nso",
+    title: "12 Easy Science Experiments at Home That Build NSO Skills",
+    description:
+      "Simple, safe science experiments parents and children can do at home with household items, each linked to topics tested in NSO and other science Olympiads, with what to observe and the Olympiad-style question each one answers.",
+    date: "2026-09-23",
+    tag: "Science",
+    readingMinutes: 10,
+    keywords: [
+      "science experiments at home",
+      "easy science experiments for kids",
+      "NSO preparation activities",
+      "science olympiad activities",
+      "home science experiments class 5",
+    ],
+    excerpt:
+      "NSO questions often describe an experiment and ask what happens next. Children who have done the experiment answer confidently. Here are 12 safe, easy experiments linked to NSO topics.",
+    content: (
+      <>
+        <P>
+          Many NSO questions describe a situation or an experiment and ask what will happen, or why it happened.
+          Children who have <em>seen</em> the result remember the reason far better than children who have only
+          read about it. The experiments below use everyday household items, take 10&ndash;30 minutes, and each
+          links to a topic that regularly appears in science Olympiads. They also make good family weekend
+          activities in the weeks before the exam.
+        </P>
+        <Callout>
+          <B>Safety first:</B> an adult should supervise every experiment, and do anything that involves heat,
+          cutting or boiling. Use only the materials listed. Never mix other household chemicals, never use mains
+          electricity for circuit experiments, and wash hands afterwards.
+        </Callout>
+
+        <H2 id="plants">Plants and living things</H2>
+        <H3>1. The plant that finds the light</H3>
+        <P>
+          <B>You need:</B> a small potted seedling, a shoebox with a hole cut in one side.<br />
+          <B>Do:</B> put the plant in the box with the hole facing a window and close the lid. Check after 4&ndash;5 days.<br />
+          <B>Observe:</B> the stem bends towards the hole.<br />
+          <B>NSO link:</B> plants respond to light (phototropism). Expect questions like &ldquo;Why does a plant near a window lean outwards?&rdquo;
+        </P>
+        <H3>2. Coloured celery or flower</H3>
+        <P>
+          <B>You need:</B> a celery stick or white flower, a glass of water, food colouring.<br />
+          <B>Do:</B> stand the stem in coloured water for a day.<br />
+          <B>Observe:</B> the colour travels up into the leaves or petals.<br />
+          <B>NSO link:</B> water moves up the stem through thin tubes (xylem), which is transport in plants.
+        </P>
+        <H3>3. What seeds need to sprout</H3>
+        <P>
+          <B>You need:</B> moong or chana seeds, four small containers, cotton.<br />
+          <B>Do:</B> set up four versions: dry cotton; moist cotton; seeds fully under water that was boiled and cooled (with little air); moist cotton kept in the fridge.<br />
+          <B>Observe:</B> only the moist, warm container sprouts well.<br />
+          <B>NSO link:</B> germination needs water, air and suitable warmth, a favourite comparison question.
+        </P>
+
+        <H2 id="materials">Materials and changes</H2>
+        <H3>4. Baking soda and vinegar balloon</H3>
+        <P>
+          <B>You need:</B> a bottle, vinegar, baking soda, a balloon.<br />
+          <B>Do:</B> put 2 spoons of baking soda in the balloon and half a cup of vinegar in the bottle. Stretch the balloon over the neck and tip the soda in.<br />
+          <B>Observe:</B> fizzing, and the balloon inflates.<br />
+          <B>NSO link:</B> a chemical change that produces a new substance, a gas (carbon dioxide). Compare it with melting ice, which is a physical change.
+        </P>
+        <H3>5. Red cabbage indicator</H3>
+        <P>
+          <B>You need:</B> red cabbage, hot water (adult only), clear cups, lemon juice, baking soda solution.<br />
+          <B>Do:</B> an adult soaks chopped cabbage in hot water and strains out the purple liquid. Add a little to cups of lemon juice and baking soda solution.<br />
+          <B>Observe:</B> lemon juice turns it pinkish-red, baking soda turns it greenish-blue.<br />
+          <B>NSO link:</B> acids and bases, and natural indicators (Classes 7 and 10).
+        </P>
+        <H3>6. Which nail rusts?</H3>
+        <P>
+          <B>You need:</B> three iron nails, three jars, water, cooking oil.<br />
+          <B>Do:</B> jar A: nail half in water. Jar B: nail completely in oil. Jar C: nail in a dry, closed jar. Check after a week.<br />
+          <B>Observe:</B> jar A rusts most, and B and C barely at all.<br />
+          <B>NSO link:</B> rusting needs both air and water, and oil or paint prevents it by blocking them.
+        </P>
+        <H3>7. The density tower</H3>
+        <P>
+          <B>You need:</B> a tall glass, honey, water, cooking oil, small objects (a grape, a plastic bead).<br />
+          <B>Do:</B> pour honey, then water, then oil slowly down the side. Drop in the objects.<br />
+          <B>Observe:</B> the liquids form layers (honey at the bottom, oil on top), and objects stop at different levels.<br />
+          <B>NSO link:</B> floating and sinking depend on density.
+        </P>
+        <H3>8. Evaporation race</H3>
+        <P>
+          <B>You need:</B> two equal amounts of water, a plate and a narrow glass.<br />
+          <B>Do:</B> leave both in the same place for a day or two.<br />
+          <B>Observe:</B> the plate dries first.<br />
+          <B>NSO link:</B> a larger surface area makes evaporation faster, which is why clothes are spread out to dry.
+        </P>
+
+        <H2 id="physics">Light, electricity and magnets</H2>
+        <H3>9. Pinhole camera</H3>
+        <P>
+          <B>You need:</B> a shoebox, butter paper, foil, a pin.<br />
+          <B>Do:</B> replace one end of the box with butter paper and the other with foil. Make a pinhole in the foil and point it at a bright window from inside a dim room.<br />
+          <B>Observe:</B> an upside-down image appears on the butter paper.<br />
+          <B>NSO link:</B> light travels in straight lines (Class 6).
+        </P>
+        <H3>10. Shadow clock</H3>
+        <P>
+          <B>You need:</B> a stick, a sunny spot, chalk.<br />
+          <B>Do:</B> mark the tip of the stick&rsquo;s shadow at 9 am, 12 noon and 3 pm.<br />
+          <B>Observe:</B> the shadow is shortest around midday and changes direction.<br />
+          <B>NSO link:</B> shadows, the Sun&rsquo;s apparent movement, and the Earth&rsquo;s rotation.
+        </P>
+        <H3>11. Conductor or insulator?</H3>
+        <P>
+          <B>You need:</B> a 1.5 V battery, a small bulb or LED, two wires, household objects (a coin, eraser, key, pencil lead, plastic spoon).<br />
+          <B>Do:</B> make a simple circuit with a gap, then bridge the gap with each object. (An LED only lights one way round. Swap its legs if it doesn&rsquo;t light.)<br />
+          <B>Observe:</B> metals and pencil lead (graphite) complete the circuit, while plastic and rubber don&rsquo;t.<br />
+          <B>NSO link:</B> conductors and insulators, and closed and open circuits.
+        </P>
+        <H3>12. Magnet hunt</H3>
+        <P>
+          <B>You need:</B> a fridge magnet or bar magnet, a thread, assorted objects.<br />
+          <B>Do:</B> sort objects into magnetic and non-magnetic. Then hang a bar magnet from a thread and let it settle.<br />
+          <B>Observe:</B> only some metals are attracted, and the hanging magnet settles pointing north&ndash;south.<br />
+          <B>NSO link:</B> magnetic materials, and how a compass works.
+        </P>
+
+        <H2 id="make-it-count">How to turn experiments into Olympiad marks</H2>
+        <UL>
+          <LI><B>Predict first:</B> ask &ldquo;What do you think will happen?&rdquo; before starting. Predicting is exactly what NSO questions ask for.</LI>
+          <LI><B>Explain after:</B> ask your child to explain the result in one sentence, in their own words.</LI>
+          <LI><B>Change one thing:</B> &ldquo;What if we used salt water?&rdquo; This builds the idea of a fair test, which higher-class NSO questions test directly.</LI>
+          <LI><B>Keep a science journal</B> with a drawing and a one-line conclusion for each experiment. It doubles as revision material.</LI>
+        </UL>
+        <P>
+          For a full study plan, see our <A href="/blog/how-to-prepare-for-the-nso-national-science-olympiad">NSO preparation guide</A>.
+        </P>
+
+        <CTA href="/?subject=Science">Pair hands-on learning with NSO practice questions for your class.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Do home science experiments help with NSO preparation?",
+        a: "Yes. Many NSO questions describe an experiment or real situation and ask what happens or why. Children who have seen the result remember the concept and the reason far better, and predicting outcomes before experiments builds exactly the reasoning NSO tests.",
+      },
+      {
+        q: "What are some safe science experiments for kids at home?",
+        a: "Safe, easy options include growing a seedling towards light in a box, coloured celery to show water transport, the baking soda and vinegar balloon, a red cabbage acid–base indicator (with an adult handling the hot water), a rusting nails comparison, a density tower, and a pinhole camera. An adult should supervise all experiments.",
+      },
+      {
+        q: "Which NSO topics can be learned through experiments?",
+        a: "Plant responses and transport, germination conditions, physical and chemical changes, acids and bases, rusting, density, evaporation, light travelling in straight lines, shadows, conductors and insulators, and magnetism can all be explored with simple home experiments.",
+      },
+      {
+        q: "How should parents use experiments for learning, not just fun?",
+        a: "Ask your child to predict the result before starting, explain it in one sentence afterwards, and then change one variable to see what happens. Keeping a short science journal with a drawing and a conclusion turns each experiment into revision material.",
+      },
+    ],
+  },
+
+  /* 90 ──────────────────────────────────────────────────────── */
+  {
+    slug: "how-many-hours-to-study-for-olympiad",
+    title: "How Many Hours a Day Should a Child Study for Olympiads? (By Class)",
+    description:
+      "Practical guidance on daily Olympiad study time for every class from 1 to 12, including how to split sessions, how to manage multiple Olympiads, how to balance with school work, and signs your child is doing too much or too little.",
+    date: "2026-09-23",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "how many hours to study for olympiad",
+      "olympiad study time per day",
+      "daily study routine for olympiad",
+      "olympiad preparation time table",
+      "how long to prepare for olympiad",
+    ],
+    excerpt:
+      "More hours is not the same as better preparation. Here is a class-by-class guide to how much daily Olympiad study actually works, and how to structure it.",
+    content: (
+      <>
+        <P>
+          &ldquo;How many hours should my child study for the Olympiad?&rdquo; is one of the first questions
+          parents ask, and the answer is usually less than they expect. For school-level Olympiads like IMO, NSO
+          and IEO, short and consistent daily practice beats long weekend sessions at almost every age. What
+          happens in the session matters far more than how long it lasts. This guide gives practical ranges for
+          each class and explains how to use the time well.
+        </P>
+
+        <H2 id="principles">Three principles before the numbers</H2>
+        <UL>
+          <LI><B>Consistency beats length.</B> Twenty-five minutes on five days a week (125 minutes) usually does more than a single three-hour Sunday session, because regular practice is remembered better.</LI>
+          <LI><B>Match attention span.</B> Younger children focus well for short periods. A session that goes past that becomes time spent sitting, not learning.</LI>
+          <LI><B>Practise, don&rsquo;t just read.</B> Most of the time should go on solving questions and reviewing mistakes, not rereading chapters.</LI>
+        </UL>
+
+        <H2 id="by-class">Daily time by class (peak preparation, 6&ndash;8 weeks before the exam)</H2>
+        <UL>
+          <LI><B>Classes 1&ndash;2:</B> 15&ndash;20 minutes a day, 4&ndash;5 days a week. Keep it playful, with puzzles, picture questions and reading aloud.</LI>
+          <LI><B>Classes 3&ndash;5:</B> 20&ndash;30 minutes a day, 5 days a week, plus one relaxed practice paper at the weekend in the final weeks.</LI>
+          <LI><B>Classes 6&ndash;8:</B> 30&ndash;45 minutes a day, 5&ndash;6 days a week, with a timed mock test every week in the final month.</LI>
+          <LI><B>Classes 9&ndash;10:</B> 45&ndash;60 minutes a day, fitted around board preparation. Olympiad maths and science reinforce the board syllabus, as our guide on <A href="/blog/olympiad-vs-board-exams-how-to-balance">balancing Olympiads and board exams</A> explains.</LI>
+          <LI><B>Classes 11&ndash;12:</B> Olympiad work should overlap with JEE or NEET preparation rather than add separate hours. Advanced national-level Olympiads like <A href="/blog/ioqm-preparation-guide">IOQM</A> need dedicated time, but that is a different kind of commitment.</LI>
+        </UL>
+        <Callout>
+          <B>Outside Olympiad season,</B> a light routine of 2&ndash;3 short sessions a week keeps skills warm. It
+          makes the next peak season much easier and takes the stress out of starting from zero every October.
+        </Callout>
+
+        <H2 id="session-structure">How to structure a session</H2>
+        <P>A 30-minute session for a Class 5 student might look like this:</P>
+        <UL>
+          <LI><B>5 minutes:</B> warm-up with 5 quick reasoning or mental maths questions</LI>
+          <LI><B>15 minutes:</B> the day&rsquo;s focus topic, around 10 practice questions</LI>
+          <LI><B>10 minutes:</B> review the wrong answers and write them in the error log</LI>
+        </UL>
+        <P>
+          For older students, use the same shape with longer blocks, and take a 5-minute break after every 25&ndash;30
+          minutes of focused work.
+        </P>
+
+        <H2 id="multiple-olympiads">What if my child is taking several Olympiads?</H2>
+        <UL>
+          <LI>Don&rsquo;t multiply the time. Rotate subjects instead, for example maths on Monday and Wednesday, science on Tuesday and Thursday, English on Friday.</LI>
+          <LI>Increase total time by about a third to a half, not double or triple.</LI>
+          <LI>Logical reasoning appears in IMO and NSO, so practising it once helps both.</LI>
+          <LI>If the schedule feels crushing, drop an Olympiad. One well-prepared exam beats three rushed ones. See <A href="/blog/how-to-choose-the-right-olympiad-for-your-child">how to choose the right Olympiad</A>.</LI>
+        </UL>
+
+        <H2 id="too-much">Signs of too much</H2>
+        <UL>
+          <LI>Regular reluctance or tears at study time</LI>
+          <LI>Scores falling despite more hours</LI>
+          <LI>Less sleep, or no time left for play and hobbies</LI>
+          <LI>Anxiety about the exam. See our <A href="/blog/olympiad-exam-anxiety-in-children">guide to exam anxiety in children</A>.</LI>
+        </UL>
+        <H2 id="too-little">Signs of too little</H2>
+        <UL>
+          <LI>The same mistakes repeating from one practice paper to the next</LI>
+          <LI>Not finishing timed papers by the final month</LI>
+          <LI>Whole topics still untouched three weeks before the exam</LI>
+        </UL>
+
+        <H2 id="working-parents">For busy parents</H2>
+        <P>
+          You don&rsquo;t need to sit through every session. A weekly 20-minute review of the error log is usually
+          enough to keep things on track. Our guide on <A href="/blog/olympiad-preparation-schedule-for-working-parents">Olympiad preparation for working parents</A>{" "}
+          gives a full weekly plan.
+        </P>
+
+        <CTA href="/topics">Short, focused daily practice sessions for every class, free to start.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How many hours should a Class 5 student study for Olympiads?",
+        a: "During the 6–8 weeks before the exam, 20–30 minutes a day on five days a week is enough for most Class 5 students, plus one relaxed practice paper at the weekend in the final weeks. Consistent practice matters more than long sessions.",
+      },
+      {
+        q: "How much time should a Class 1 or Class 2 child spend on Olympiad preparation?",
+        a: "About 15–20 minutes a day, 4–5 days a week, in the weeks before the exam. Keep it playful, with puzzles, picture questions and reading aloud. Longer sessions usually go beyond a young child's attention span.",
+      },
+      {
+        q: "How should students manage time for multiple Olympiads?",
+        a: "Rotate subjects across the week instead of studying every subject every day, and increase total time by about a third to a half rather than doubling it. Logical reasoning is common to IMO and NSO, so practising it once helps both.",
+      },
+      {
+        q: "When should Olympiad preparation start?",
+        a: "Focused preparation works best 6–8 weeks before the exam for Classes 1–7 and 8–10 weeks for Classes 8–10. A light routine of 2–3 short sessions a week during the rest of the year makes each peak season much easier.",
+      },
+    ],
+  },
+
+  /* 91 ──────────────────────────────────────────────────────── */
+  {
+    slug: "how-to-improve-english-vocabulary-for-kids",
+    title: "How to Improve English Vocabulary for Kids: 12 Methods That Work",
+    description:
+      "Practical, research-backed ways for parents to build a child's English vocabulary: reading habits, word journals, roots and prefixes, context clues, word games and review routines, with class-wise targets for IEO and Spell Bee.",
+    date: "2026-09-23",
+    tag: "English",
+    readingMinutes: 9,
+    keywords: [
+      "how to improve vocabulary for kids",
+      "english vocabulary for children",
+      "vocabulary building activities",
+      "IEO vocabulary preparation",
+      "improve child's english",
+    ],
+    excerpt:
+      "A strong vocabulary helps with IEO, Spell Bee, reading comprehension and every school subject. Here are 12 practical methods parents can start this week.",
+    content: (
+      <>
+        <P>
+          Vocabulary is one of the strongest predictors of reading comprehension, and comprehension affects every
+          subject, including maths word problems and science questions. It is also a core part of the IEO and
+          Spell Bee. The good news for parents: vocabulary grows steadily with the right daily habits, and most of
+          them take less than 15 minutes. Here are 12 methods that work, from the most powerful to the useful
+          extras.
+        </P>
+
+        <H2 id="reading">1. Daily reading, just above comfort level</H2>
+        <P>
+          Nothing builds vocabulary like wide reading. Children meet thousands of words in context that they would
+          never hear in conversation. Aim for <B>15&ndash;20 minutes a day</B> of books slightly above your child&rsquo;s
+          comfortable level: they should understand most of the page, with a few new words. Mix fiction with
+          non-fiction (science, history, biographies), since each brings different words.
+        </P>
+
+        <H2 id="read-aloud">2. Read aloud, even to older children</H2>
+        <P>
+          Children can understand harder books when they hear them than when they read alone. Reading aloud a few
+          times a week, even to 9&ndash;11-year-olds, exposes them to richer language. Stop now and then to ask what
+          a word might mean.
+        </P>
+
+        <H2 id="context-clues">3. Teach context clues</H2>
+        <P>
+          Instead of reaching for the dictionary straight away, teach your child to guess from the sentence first.
+          &ldquo;The <em>arid</em> land hadn&rsquo;t seen rain in months.&rdquo; The clue says <em>arid</em> means
+          very dry. This is exactly the &ldquo;meaning in context&rdquo; skill the IEO reading section tests.
+        </P>
+
+        <H2 id="word-journal">4. Keep a word journal</H2>
+        <P>
+          Each new word gets one line: the word, its meaning in the child&rsquo;s own words, and a sentence they
+          write themselves. Writing the sentence is the important part. It turns a word they recognise into one
+          they can use.
+        </P>
+
+        <H2 id="roots">5. Learn roots, prefixes and suffixes</H2>
+        <P>A few building blocks unlock hundreds of words:</P>
+        <UL>
+          <LI><B>Prefixes:</B> un- (not), re- (again), pre- (before), mis- (wrongly), sub- (under)</LI>
+          <LI><B>Suffixes:</B> -ful (full of), -less (without), -able (can be), -ology (study of)</LI>
+          <LI><B>Roots:</B> port (carry: transport, portable), spect (look: inspect, spectator), dict (say: predict, dictionary), graph (write: autograph, paragraph)</LI>
+        </UL>
+        <Callout>
+          <B>Roots multiply learning.</B> A child who knows that <em>bio</em> means life and <em>-logy</em> means study
+          can work out <em>biology</em>, and then <em>geology</em>, <em>zoology</em> and more. Roots are also the best
+          tool for spelling unfamiliar words in a <A href="/blog/spell-bee-practice-complete-guide">Spell Bee</A>.
+        </Callout>
+
+        <H2 id="talk">6. Use rich words in everyday conversation</H2>
+        <P>
+          Children pick up words they hear used naturally. Swap a plain word for a more precise one now and then:
+          &ldquo;That was a <em>tremendous</em> effort&rdquo;, &ldquo;The traffic is <em>chaotic</em> today.&rdquo;
+          Explain the word if they ask. This costs nothing and works.
+        </P>
+
+        <H2 id="word-of-day">7. A word of the day at the dinner table</H2>
+        <P>
+          One family member picks a word each day. Everyone tries to use it in a sentence during the meal. It takes
+          two minutes and makes vocabulary fun rather than a chore.
+        </P>
+
+        <H2 id="synonyms">8. Look for better words</H2>
+        <P>
+          When your child writes &ldquo;good&rdquo; or &ldquo;big&rdquo;, ask for a stronger word: <em>excellent,
+          delicious, generous</em>; <em>enormous, vast, massive</em>. Synonyms and antonyms are a staple of IEO
+          vocabulary questions.
+        </P>
+
+        <H2 id="games">9. Word games</H2>
+        <P>
+          Scrabble, Boggle, crosswords, word searches and games like &ldquo;20 Questions&rdquo; all build
+          vocabulary without feeling like study. Short weekly game sessions work well for younger children.
+        </P>
+
+        <H2 id="review">10. Review on a schedule</H2>
+        <P>
+          New words fade fast unless they are reviewed. A simple rhythm: look at new words again after 1 day, 3 days
+          and 7 days. Words the child gets right three times in a row can leave the list.
+        </P>
+
+        <H2 id="audio">11. Audiobooks and good podcasts</H2>
+        <P>
+          Audiobooks on car journeys or at bedtime add listening practice and richer vocabulary, and they help
+          children who find long reading sessions tiring.
+        </P>
+
+        <H2 id="use-it">12. Write, and use the new words</H2>
+        <P>
+          Encourage short pieces of writing: a diary entry, a letter to a grandparent, a story. Challenge your
+          child to include three words from their journal. Using words in writing is what fixes them in memory.
+        </P>
+
+        <H2 id="targets">Rough targets by class</H2>
+        <UL>
+          <LI><B>Classes 1&ndash;2:</B> 3&ndash;5 new words a week, mostly through read-aloud and conversation.</LI>
+          <LI><B>Classes 3&ndash;5:</B> 5&ndash;8 new words a week, a word journal, and simple prefixes and suffixes.</LI>
+          <LI><B>Classes 6&ndash;8:</B> 8&ndash;12 words a week, roots, and synonyms and antonyms practice.</LI>
+          <LI><B>Classes 9 and up:</B> 10&ndash;15 words a week from wider reading (quality newspapers, non-fiction), plus idioms and collocations.</LI>
+        </UL>
+
+        <P>
+          Preparing for the English Olympiad? Our <A href="/blog/ieo-preparation-guide">IEO preparation guide</A>{" "}
+          covers grammar, reading and the full exam strategy.
+        </P>
+
+        <CTA href="/?subject=English">Build vocabulary with English Olympiad practice for your child&rsquo;s class.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the fastest way to improve a child's English vocabulary?",
+        a: "Daily reading of books slightly above the child's comfort level is the most effective method, supported by a word journal where each new word gets a meaning and a sentence written by the child, and regular review after 1, 3 and 7 days.",
+      },
+      {
+        q: "How many new words should a child learn each week?",
+        a: "Roughly 3–5 a week for Classes 1–2, 5–8 for Classes 3–5, 8–12 for Classes 6–8, and 10–15 for Classes 9 and above. Deep learning of fewer words beats superficial memorising of long lists.",
+      },
+      {
+        q: "Do word roots help with vocabulary and spelling?",
+        a: "Yes. Learning common roots, prefixes and suffixes — like bio (life), -logy (study of), port (carry) and un- (not) — lets children work out the meaning and spelling of many unfamiliar words. It is especially useful for IEO and Spell Bee preparation.",
+      },
+      {
+        q: "How does vocabulary help in IEO?",
+        a: "IEO tests vocabulary directly through synonyms, antonyms, word meanings and analogies, and indirectly through reading comprehension, where knowing words in context is essential. A strong vocabulary improves scores across the whole paper.",
+      },
+    ],
+  },
+
   /* 60 ──────────────────────────────────────────────────────── */
   {
     slug: "imo-sample-papers-class-4",
@@ -9687,7 +11702,11 @@ export const posts: BlogPost[] = [
    Helpers
    ───────────────────────────────────────────────────────────── */
 export function getAllPosts(): BlogPost[] {
-  return [...posts].sort((a, b) => +new Date(b.date) - +new Date(a.date));
+  // Keep the first occurrence of each slug (matches getPostBySlug) so an
+  // accidental duplicate never produces duplicate cards or sitemap URLs.
+  const seen = new Set<string>();
+  const unique = posts.filter((p) => !seen.has(p.slug) && seen.add(p.slug));
+  return unique.sort((a, b) => +new Date(b.date) - +new Date(a.date));
 }
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return posts.find((p) => p.slug === slug);

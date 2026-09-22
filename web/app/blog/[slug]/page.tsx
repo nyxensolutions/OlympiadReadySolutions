@@ -44,7 +44,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   if (!post) notFound();
 
   const url = `${SITE_URL}/blog/${post.slug}`;
-  const related = getAllPosts().filter((p) => p.slug !== post.slug).slice(0, 2);
+  // Prefer posts with the same tag so internal links spread across topic clusters
+  // instead of every post pointing at the two newest articles.
+  const others = getAllPosts().filter((p) => p.slug !== post.slug);
+  const related = [
+    ...others.filter((p) => p.tag === post.tag),
+    ...others.filter((p) => p.tag !== post.tag),
+  ].slice(0, 2);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
