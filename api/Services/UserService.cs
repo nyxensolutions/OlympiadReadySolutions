@@ -110,7 +110,8 @@ public class UserService
         {
             ExternalId = sub,
             Email = email,
-            FullName = name
+            FullName = name,
+            TrialExpiresAt = DateTime.UtcNow.AddDays(7),
         };
         _db.Users.Add(user);
 

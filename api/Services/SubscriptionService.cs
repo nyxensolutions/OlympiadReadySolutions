@@ -97,6 +97,10 @@ public class SubscriptionService
 
         if (user == null) return false;
 
+        // Active 7-day trial
+        if (user.TrialExpiresAt.HasValue && DateTime.UtcNow < user.TrialExpiresAt.Value)
+            return true;
+
         // Active school pilot
         if (user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value)
             return true;
@@ -265,7 +269,8 @@ public class SubscriptionService
             if (user != null)
             {
                 bool pilotActive = user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value;
-                if (!pilotActive)
+                bool onTrial = user.TrialExpiresAt.HasValue && DateTime.UtcNow < user.TrialExpiresAt.Value;
+                if (!pilotActive && !onTrial)
                     user.FreeAttemptsUsed++;
             }
         }
