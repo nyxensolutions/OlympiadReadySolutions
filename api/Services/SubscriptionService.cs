@@ -97,15 +97,18 @@ public class SubscriptionService
 
         if (user == null) return false;
 
-        // Active 7-day trial
-        if (user.TrialExpiresAt.HasValue && DateTime.UtcNow < user.TrialExpiresAt.Value)
-            return true;
-
         // Active school pilot
         if (user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value)
             return true;
 
-        return user.FreeAttemptsUsed < GetEffectiveLimit(user);
+        bool withinCount = user.FreeAttemptsUsed < GetEffectiveLimit(user);
+
+        // New users have a trial window — both trial AND count must pass (whichever runs out first blocks)
+        if (user.TrialExpiresAt.HasValue)
+            return DateTime.UtcNow < user.TrialExpiresAt.Value && withinCount;
+
+        // Existing/legacy users: count only
+        return withinCount;
     }
 
     /// <summary>Returns true if the user is currently on an active school pilot.</summary>
@@ -269,8 +272,7 @@ public class SubscriptionService
             if (user != null)
             {
                 bool pilotActive = user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value;
-                bool onTrial = user.TrialExpiresAt.HasValue && DateTime.UtcNow < user.TrialExpiresAt.Value;
-                if (!pilotActive && !onTrial)
+                if (!pilotActive)
                     user.FreeAttemptsUsed++;
             }
         }
