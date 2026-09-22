@@ -1,135 +1,141 @@
 "use client";
 
-import {
-  Brain,
-  Clock,
-  FileText,
-  Medal,
-  MicVocal,
-  Trophy,
-  TrendingUp,
-  Zap,
-  Award,
-  MessageCircle,
-  type LucideIcon,
-} from "lucide-react";
+import { Award, Brain, Clock, FileText, Medal, MessageCircle, MicVocal, TrendingUp, Trophy, Zap, type LucideIcon } from "lucide-react";
 
 interface Feature {
   icon: LucideIcon;
+  emoji: string;
   title: string;
   description: string;
-  gradient: string;
+  bg: string;
+  iconColor: string;
 }
 
 const FEATURES: Feature[] = [
   {
     icon: Zap,
-    title: "Infinite fresh questions",
-    description:
-      "AI generates a brand-new paper every session. Unlike static question banks, you'll never run out of practice material — and never see the same question twice.",
-    gradient: "from-yellow-500 to-orange-500",
+    emoji: "⚡",
+    title: "Infinite Fresh Questions",
+    description: "AI generates a brand-new paper every session. You'll never run out — and never see the same question twice.",
+    bg: "bg-yellow-50 border-yellow-200",
+    iconColor: "bg-yellow-400 text-white",
   },
   {
     icon: Brain,
-    title: "Instant AI explanations",
-    description:
-      "Every question comes with a clear, step-by-step explanation. Understand the concept, not just the answer — powered by AI.",
-    gradient: "from-violet-500 to-purple-600",
+    emoji: "🧠",
+    title: "Instant AI Explanations",
+    description: "Every question comes with a clear, step-by-step explanation. Understand the concept, not just the answer.",
+    bg: "bg-violet-50 border-violet-200",
+    iconColor: "bg-violet-500 text-white",
   },
   {
     icon: MessageCircle,
-    title: "Interactive AI Doubt Chatbot",
-    description:
-      "Stuck on a tricky question? Chat directly with our AI Tutor to get step-by-step hints and concept explanations without giving away the answer. Available 24/7.",
-    gradient: "from-sky-500 to-blue-600",
+    emoji: "🤖",
+    title: "AI Doubt Chatbot",
+    description: "Stuck? Chat with our AI Tutor for hints and explanations — without giving away the answer. Available 24/7.",
+    bg: "bg-blue-50 border-blue-200",
+    iconColor: "bg-blue-500 text-white",
   },
   {
     icon: TrendingUp,
-    title: "Topic mastery heatmap",
-    description:
-      "A live heatmap tracks your mastery across every topic, updated after every test. Always know exactly what to work on next.",
-    gradient: "from-emerald-500 to-green-600",
+    emoji: "📊",
+    title: "Topic Mastery Heatmap",
+    description: "A live heatmap tracks your mastery across every topic. Always know exactly what to work on next.",
+    bg: "bg-emerald-50 border-emerald-200",
+    iconColor: "bg-emerald-500 text-white",
   },
   {
     icon: Clock,
-    title: "Timed exam simulation",
-    description:
-      "Practice with a real countdown timer per question. Build the speed and focus you need for the actual Olympiad exam day.",
-    gradient: "from-blue-500 to-cyan-500",
+    emoji: "⏱️",
+    title: "Timed Exam Simulation",
+    description: "Practice with a real countdown timer. Build the speed and focus you need for Olympiad exam day.",
+    bg: "bg-cyan-50 border-cyan-200",
+    iconColor: "bg-cyan-500 text-white",
   },
   {
     icon: FileText,
+    emoji: "📥",
     title: "Download as PDF",
-    description:
-      "Save any practice paper as a clean, printer-ready PDF — perfect for offline revision, group study, or keeping a record.",
-    gradient: "from-rose-500 to-pink-600",
+    description: "Save any practice paper as a printer-ready PDF — perfect for offline revision and group study.",
+    bg: "bg-pink-50 border-pink-200",
+    iconColor: "bg-pink-500 text-white",
   },
   {
     icon: Medal,
-    title: "All major exams covered",
-    description:
-      "IMO, NSO, IEO, IGKO, IHO, ICSO, iiO and more — question styles and difficulty levels are calibrated to each Olympiad's pattern.",
-    gradient: "from-amber-500 to-yellow-500",
+    emoji: "🥇",
+    title: "All Major Exams Covered",
+    description: "IMO, NSO, IEO, IGKO, IHO, ICSO, iiO and more — questions calibrated to each Olympiad's pattern.",
+    bg: "bg-amber-50 border-amber-200",
+    iconColor: "bg-amber-500 text-white",
   },
   {
     icon: Trophy,
-    title: "Level 1 & Level 2 prep",
-    description:
-      "Cleared Level 1? Switch to Level 2 mode for harder, national-round style questions calibrated to the Achievers Section of top Olympiad papers.",
-    gradient: "from-indigo-500 to-brand-600",
+    emoji: "🏆",
+    title: "Level 1 & Level 2 Prep",
+    description: "Cleared Level 1? Switch to Level 2 for harder, national-round questions calibrated to the Achievers Section.",
+    bg: "bg-indigo-50 border-indigo-200",
+    iconColor: "bg-indigo-600 text-white",
   },
   {
     icon: MicVocal,
+    emoji: "🐝",
     title: "Spell Bee",
-    description:
-      "India's popular Spell Bee competition — now with structured practice. Grade-wise word lists with definitions, usage examples, and memory tips.",
-    gradient: "from-violet-500 to-purple-600",
+    description: "Grade-wise word lists with definitions, usage examples, and memory tips for Spell Bee competitions.",
+    bg: "bg-purple-50 border-purple-200",
+    iconColor: "bg-purple-600 text-white",
   },
   {
     icon: Award,
+    emoji: "🎯",
     title: "AI-Generated Mock Exams",
-    description:
-      "Take official-pattern mock exams dynamically generated by our advanced AI. Tailored to grade, subjects, and learning skills, with full Achievers section calibration so you never run out of practice exams.",
-    gradient: "from-orange-500 to-red-600",
+    description: "Official-pattern mock exams dynamically generated by AI — tailored to grade, subject, and skill level.",
+    bg: "bg-rose-50 border-rose-200",
+    iconColor: "bg-rose-500 text-white",
   },
 ];
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="bg-white px-4 py-20 sm:py-32">
-      <div className="mx-auto max-w-6xl">
-        <div className="mb-16 text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-brand-600">
+    <section id="features" className="relative overflow-hidden bg-gradient-to-b from-white via-indigo-50/40 to-white px-4 py-20 sm:py-28">
+      {/* Decorative blobs */}
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute left-0 top-1/4 h-80 w-80 rounded-full bg-blue-100/50 blur-3xl" />
+        <div className="absolute right-0 top-3/4 h-80 w-80 rounded-full bg-violet-100/50 blur-3xl" />
+      </div>
+      <div className="relative mx-auto max-w-6xl">
+        {/* Header */}
+        <div className="mb-14 text-center">
+          <span className="inline-block rounded-full bg-brand-100 px-4 py-1.5 text-sm font-bold uppercase tracking-widest text-brand-700">
             Why OlympiadReady
-          </p>
-          <h2 className="mt-2 text-balance text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl">
-            Everything a serious Olympiad student needs
+          </span>
+          <h2 className="mt-3 text-3xl font-extrabold text-slate-900 sm:text-5xl">
+            Everything a student needs 🌟
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-500">
             No static question banks. No recycled papers. Intelligent, personalised
             practice — powered by AI.
           </p>
         </div>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {FEATURES.map(({ icon: Icon, title, description, gradient }) => (
+        {/* Cards grid */}
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 xl:gap-4">
+          {FEATURES.map(({ icon: Icon, emoji, title, description, bg, iconColor }) => (
             <div
               key={title}
-              className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-8 transition hover:border-slate-300 hover:shadow-xl"
+              className={`card-lift group relative overflow-hidden rounded-3xl border-2 ${bg} p-6`}
             >
-              {/* Gradient overlay on hover */}
-              <div
-                className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-0 transition duration-300 group-hover:opacity-5`}
-              />
-              <div className="relative z-10">
-                <div
-                  className={`mb-6 inline-flex rounded-xl bg-gradient-to-br ${gradient} p-3 text-white`}
-                >
-                  <Icon className="h-6 w-6" />
-                </div>
-                <h3 className="mb-3 text-lg font-bold text-slate-900">{title}</h3>
-                <p className="leading-relaxed text-slate-600">{description}</p>
+              {/* Emoji watermark */}
+              <div className="absolute right-3 top-3 text-3xl opacity-20 group-hover:opacity-40 transition-opacity">
+                {emoji}
               </div>
+
+              {/* Icon */}
+              <div className={`mb-4 inline-flex h-11 w-11 items-center justify-center rounded-2xl ${iconColor} shadow-md`}>
+                <Icon className="h-5 w-5" />
+              </div>
+
+              <h3 className="mb-2 text-base font-extrabold text-slate-900">{title}</h3>
+              <p className="text-sm leading-relaxed text-slate-600">{description}</p>
             </div>
           ))}
         </div>

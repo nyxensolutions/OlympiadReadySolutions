@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { BarChart2, BookOpen, Crown, FileText, Flame, Link2, Lock, Loader2, Shield, Sparkles, TrendingUp, Trophy, Award, School as SchoolIcon, CheckCircle2 } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
@@ -703,10 +704,19 @@ function DashboardBody() {
         <WeeklyReport results={data.results} />
 
         {/* Achievements */}
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="relative overflow-hidden rounded-2xl border border-amber-100 bg-gradient-to-br from-amber-50 via-white to-yellow-50 p-6 shadow-sm">
+          {/* Trophy watermark */}
+          <div className="pointer-events-none absolute -right-4 -top-4 h-28 w-28 opacity-10">
+            <Image src="/kids-ui/decor/trophy.png" alt="" fill className="object-contain" />
+          </div>
+          {/* Confetti texture */}
+          <div className="pointer-events-none absolute -left-2 bottom-0 h-full w-full opacity-[0.03]"
+            style={{ backgroundImage: "url('/kids-ui/decor/confetti.png')", backgroundSize: 'cover' }} />
             <div className="mb-4 flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <Award className="h-5 w-5 text-indigo-500" />
+                <div className="relative h-8 w-8">
+                  <Image src="/kids-ui/decor/trophy.png" alt="Achievements" fill className="object-contain" />
+                </div>
                 <h2 className="text-lg font-semibold text-slate-900">Achievements</h2>
               </div>
               

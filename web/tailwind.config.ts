@@ -62,6 +62,25 @@ const config: Config = {
         "gradient-brand":  "linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)",
         // Warm gradient for CTAs / achiever callouts
         "gradient-warm":   "linear-gradient(135deg, #f97316 0%, #f59e0b 100%)",
+        // Subject card backgrounds
+        "gradient-math":    "linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%)",
+        "gradient-science": "linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%)",
+        "gradient-english": "linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%)",
+        "gradient-gk":      "linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%)",
+        "gradient-bee":     "linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%)",
+      },
+      boxShadow: {
+        "glow-orange": "0 0 24px rgba(249, 115, 22, 0.45)",
+      },
+      animation: {
+        "float":      "float 3s ease-in-out infinite",
+        "float-slow": "float 4.5s ease-in-out infinite",
+      },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%":      { transform: "translateY(-12px)" },
+        },
       },
     },
   },
