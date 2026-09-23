@@ -66,31 +66,52 @@ public class BrevoEmailService : IEmailService
 
                 <div style=""margin:24px 0;"">
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
-                        <span style=""font-size:22px;margin-right:14px;"">📄</span>
+                        <span style=""font-size:22px;margin-right:14px;"">📝</span>
                         <div>
                             <strong style=""color:#1e293b;"">5 Free Practice Papers</strong>
-                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">SOF-aligned questions for IMO, NSO, IEO, IGKO & more. No card needed.</p>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">AI-powered tests for IMO, NSO, IEO, IGKO, Spell Bee & more — any class, any subject. Retake any paper as many times as you like; retakes don't use your free quota.</p>
+                        </div>
+                    </div>
+                    <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
+                        <span style=""font-size:22px;margin-right:14px;"">🎯</span>
+                        <div>
+                            <strong style=""color:#1e293b;"">3 Free Mock Exams</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Simulate real Olympiad conditions with full-length mock tests. Start one whenever you feel ready.</p>
+                        </div>
+                    </div>
+                    <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
+                        <span style=""font-size:22px;margin-right:14px;"">📥</span>
+                        <div>
+                            <strong style=""color:#1e293b;"">Free PDF Download</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Download a practice paper as a PDF for each grade + subject/topic combination. Print it and study offline — no subscription needed.</p>
                         </div>
                     </div>
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
                         <span style=""font-size:22px;margin-right:14px;"">🤖</span>
                         <div>
                             <strong style=""color:#1e293b;"">AI Explains Every Answer</strong>
-                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Get step-by-step explanations after every test — instantly.</p>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">After every test, get step-by-step AI explanations for every question — understand the why, not just the right answer.</p>
                         </div>
                     </div>
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
-                        <span style=""font-size:22px;margin-right:14px;"">📥</span>
+                        <span style=""font-size:22px;margin-right:14px;"">💬</span>
                         <div>
-                            <strong style=""color:#1e293b;"">Free PDF Downloads</strong>
-                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Download and print practice papers. Study offline anytime.</p>
+                            <strong style=""color:#1e293b;"">10 Free AI Tutor Chats</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Stuck on a concept? Ask your AI doubt solver and get instant, personalised help. You have 10 free chats to use anytime.</p>
+                        </div>
+                    </div>
+                    <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
+                        <span style=""font-size:22px;margin-right:14px;"">📊</span>
+                        <div>
+                            <strong style=""color:#1e293b;"">Topic Mastery Heatmap</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">See at a glance which topics you've nailed and where to focus next.</p>
                         </div>
                     </div>
                     <div style=""display:flex;align-items:flex-start;"">
                         <span style=""font-size:22px;margin-right:14px;"">🏅</span>
                         <div>
-                            <strong style=""color:#1e293b;"">Earn Badges & Certificates</strong>
-                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Track your progress and earn real rewards as you improve.</p>
+                            <strong style=""color:#1e293b;"">Streaks & Badges</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Build daily practice streaks and earn badges as you improve.</p>
                         </div>
                     </div>
                 </div>
@@ -101,11 +122,6 @@ public class BrevoEmailService : IEmailService
                     <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Start Practising Free →</a>
                 </div>
 
-                <div style=""background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:16px 20px;margin-top:24px;"">
-                    <p style=""margin:0;font-size:14px;color:#9a3412;"">
-                        🎉 <strong>August Special:</strong> After your 5 free papers, unlock unlimited practice for just <strong>₹77/subject/month</strong> (40% off — offer ends 31 August).
-                    </p>
-                </div>
             </div>
 
             <div style=""background:#f1f5f9;padding:20px;text-align:center;border-top:1px solid #e2e8f0;"">
@@ -118,7 +134,7 @@ public class BrevoEmailService : IEmailService
         {
             sender = new { name = _senderName, email = _senderEmail },
             to = new[] { new { email = toEmail, name = firstName } },
-            subject = "Welcome to OlympiadReady — Your 5 Free Papers Are Ready! 🎉",
+            subject = "Welcome to OlympiadReady — you're all set to start! 🎉",
             htmlContent
         };
 
