@@ -37,10 +37,11 @@ export default function AdminNotificationsPage() {
         }),
       });
 
-      const data = await res.json();
+      const text = await res.text();
+      const data = text ? JSON.parse(text) : {};
 
       if (!res.ok) {
-        throw new Error(data.message || "Failed to send broadcast");
+        throw new Error(data.message || `Request failed (${res.status})`);
       }
 
       setStatus("success");

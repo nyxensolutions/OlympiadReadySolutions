@@ -120,16 +120,90 @@ public class OlympiadDatesController : ControllerBase
 
     private static List<OlympiadSchedule> Build2026Schedules(DateTime verifiedAt) =>
     [
-        // ── Unicus ──────────────────────────────────────────────────
+        // ── Unicus (Winter 2026-27 — Global Series) ─────────────────
         new()
         {
-            OrgName = "Unicus", OlympiadName = "UMO", FullName = "Unicus Mathematics Olympiad",
+            OrgName = "Unicus", OlympiadName = "UGEO", FullName = "Unicus Global English Olympiad",
+            Subject = "English", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
+            RegistrationWindow = "Open now",
+            ExamDateText = "9 Jan / 20 Jan 2027",
+            ExamDateFrom = new DateTime(2027,1,9), ExamDateTo = new DateTime(2027,1,20),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/ugeo",
+            Notes = "Winter Olympiad (Global series).",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "Unicus", OlympiadName = "UGSO", FullName = "Unicus Global Science Olympiad",
+            Subject = "Science", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
+            RegistrationWindow = "Open now",
+            ExamDateText = "14 Jan / 23 Jan 2027",
+            ExamDateFrom = new DateTime(2027,1,14), ExamDateTo = new DateTime(2027,1,23),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/ugso",
+            Notes = "Winter Olympiad (Global series).",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "Unicus", OlympiadName = "UGMO", FullName = "Unicus Global Mathematics Olympiad",
             Subject = "Math", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
             RegistrationWindow = "Open now",
-            ExamDateText = "Jul 14, 2026 / Jul 29, 2026",
-            ExamDateFrom = new DateTime(2026,7,14), ExamDateTo = new DateTime(2026,7,29),
-            ResultDateText = "Aug 2026",
-            OfficialWebsite = "https://www.unicusolympiads.com/umo",
+            ExamDateText = "16 Jan / 28 Jan 2027",
+            ExamDateFrom = new DateTime(2027,1,16), ExamDateTo = new DateTime(2027,1,28),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/ugmo",
+            Notes = "Winter Olympiad (Global series). Replaces UNMO.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "Unicus", OlympiadName = "UAIO", FullName = "Unicus Artificial Intelligence Olympiad",
+            Subject = "Computers", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
+            RegistrationWindow = "Open now",
+            ExamDateText = "19 Jan / 30 Jan 2027",
+            ExamDateFrom = new DateTime(2027,1,19), ExamDateTo = new DateTime(2027,1,30),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/uaio",
+            Notes = "Winter Olympiad. AI concepts for school students.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "Unicus", OlympiadName = "UGXO", FullName = "Unicus Global Xtempore Olympiad",
+            Subject = "English", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
+            RegistrationWindow = "Open now",
+            ExamDateText = "22 Jan / 3 Feb 2027",
+            ExamDateFrom = new DateTime(2027,1,22), ExamDateTo = new DateTime(2027,2,3),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/ugxo",
+            Notes = "Winter Olympiad. Impromptu speaking and Xtempore.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+
+        // ── Unicus (Summer 2027) ─────────────────────────────────────
+        new()
+        {
+            OrgName = "Unicus", OlympiadName = "UGKO", FullName = "Unicus General Knowledge Olympiad",
+            Subject = "General Knowledge", Stage = "Single Level", GradeMin = 2, GradeMax = 11,
+            RegistrationWindow = "Opens early 2027",
+            ExamDateText = "6 Jul / 16 Jul 2027",
+            ExamDateFrom = new DateTime(2027,7,6), ExamDateTo = new DateTime(2027,7,16),
+            ResultDateText = "Aug 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/ugko",
+            Notes = "Summer Olympiad.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "Unicus", OlympiadName = "UCTO", FullName = "Unicus Critical Thinking Olympiad",
+            Subject = "Critical Thinking", Stage = "Single Level", GradeMin = 2, GradeMax = 11,
+            RegistrationWindow = "Opens early 2027",
+            ExamDateText = "7 Jul / 20 Jul 2027",
+            ExamDateFrom = new DateTime(2027,7,7), ExamDateTo = new DateTime(2027,7,20),
+            ResultDateText = "Aug 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/ucto",
             Notes = "Summer Olympiad.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
@@ -137,64 +211,117 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "Unicus", OlympiadName = "USO", FullName = "Unicus Science Olympiad",
             Subject = "Science", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
-            RegistrationWindow = "Open now",
-            ExamDateText = "Jul 11, 2026 / Jul 25, 2026",
-            ExamDateFrom = new DateTime(2026,7,11), ExamDateTo = new DateTime(2026,7,25),
-            ResultDateText = "Aug 2026",
+            RegistrationWindow = "Opens early 2027",
+            ExamDateText = "9 Jul / 24 Jul 2027",
+            ExamDateFrom = new DateTime(2027,7,9), ExamDateTo = new DateTime(2027,7,24),
+            ResultDateText = "Aug 2027",
             OfficialWebsite = "https://www.unicusolympiads.com/uso",
+            Notes = "Summer Olympiad.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
         {
             OrgName = "Unicus", OlympiadName = "UEO", FullName = "Unicus English Olympiad",
             Subject = "English", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
-            RegistrationWindow = "Open now",
-            ExamDateText = "Jul 10, 2026 / Jul 22, 2026",
-            ExamDateFrom = new DateTime(2026,7,10), ExamDateTo = new DateTime(2026,7,22),
-            ResultDateText = "Aug 2026",
+            RegistrationWindow = "Opens early 2027",
+            ExamDateText = "10 Jul / 22 Jul 2027",
+            ExamDateFrom = new DateTime(2027,7,10), ExamDateTo = new DateTime(2027,7,22),
+            ResultDateText = "Aug 2027",
             OfficialWebsite = "https://www.unicusolympiads.com/ueo",
+            Notes = "Summer Olympiad.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
         {
-            OrgName = "Unicus", OlympiadName = "UGKO", FullName = "Unicus General Knowledge Olympiad",
-            Subject = "General Knowledge", Stage = "Single Level", GradeMin = 2, GradeMax = 11,
-            RegistrationWindow = "Open now",
-            ExamDateText = "Jul 8, 2026 / Jul 15, 2026",
-            ExamDateFrom = new DateTime(2026,7,8), ExamDateTo = new DateTime(2026,7,15),
-            ResultDateText = "Aug 2026",
-            OfficialWebsite = "https://www.unicusolympiads.com/ugko",
-            AcademicYear = 2026, LastVerified = verifiedAt
-        },
-        new()
-        {
-            OrgName = "Unicus", OlympiadName = "UCTO", FullName = "Unicus Critical Thinking Olympiad",
-            Subject = "Critical Thinking", Stage = "Single Level", GradeMin = 2, GradeMax = 11,
-            RegistrationWindow = "Open now",
-            ExamDateText = "Jul 9, 2026 / Jul 18, 2026",
-            ExamDateFrom = new DateTime(2026,7,9), ExamDateTo = new DateTime(2026,7,18),
-            ResultDateText = "Aug 2026",
-            OfficialWebsite = "https://www.unicusolympiads.com/ucto",
-            AcademicYear = 2026, LastVerified = verifiedAt
-        },
-        new()
-        {
-            OrgName = "Unicus", OlympiadName = "UNMO", FullName = "Unicus Non-Routine Mathematics Olympiad",
-            Subject = "Math", Stage = "Single Level", GradeMin = 3, GradeMax = 10,
-            RegistrationWindow = "Open now",
-            ExamDateText = "Jan 16, 2027 / Jan 28, 2027",
-            ExamDateFrom = new DateTime(2027,1,16), ExamDateTo = new DateTime(2027,1,28),
-            ResultDateText = "Feb 2027",
-            OfficialWebsite = "https://www.unicusolympiads.com/unmo",
+            OrgName = "Unicus", OlympiadName = "UMO", FullName = "Unicus Mathematics Olympiad",
+            Subject = "Math", Stage = "Single Level", GradeMin = 1, GradeMax = 11,
+            RegistrationWindow = "Opens early 2027",
+            ExamDateText = "13 Jul / 30 Jul 2027",
+            ExamDateFrom = new DateTime(2027,7,13), ExamDateTo = new DateTime(2027,7,30),
+            ResultDateText = "Aug 2027",
+            OfficialWebsite = "https://www.unicusolympiads.com/umo",
+            Notes = "Summer Olympiad.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
 
         // ── SOF ─────────────────────────────────────────────────────
         new()
         {
+            OrgName = "SOF", OlympiadName = "IGKO", FullName = "International General Knowledge Olympiad",
+            Subject = "General Knowledge", Stage = "Single Level", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Registration closed",
+            ExamDateText = "22 Sep, 6 Oct, 3 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,22), ExamDateTo = new DateTime(2026,11,3),
+            ResultDateText = "Jan 2027",
+            OfficialWebsite = "https://sofworld.org",
+            Notes = "Schools register students. Single level.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SOF", OlympiadName = "IEO", FullName = "International English Olympiad",
+            Subject = "English", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration closed",
+            ExamDateText = "30 Sep, 27 Oct, 17 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,30), ExamDateTo = new DateTime(2026,11,17),
+            ResultDateText = "Jan 2027",
+            OfficialWebsite = "https://sofworld.org",
+            Notes = "Schools register students.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SOF", OlympiadName = "IEO", FullName = "International English Olympiad",
+            Subject = "English", Stage = "Level 2", GradeMin = 3, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "Feb 2027 (tentative — 2nd/3rd Sunday)",
+            ExamDateFrom = new DateTime(2027,2,1), ExamDateTo = new DateTime(2027,2,28),
+            ResultDateText = "Apr 2027",
+            OfficialWebsite = "https://sofworld.org",
+            Notes = "Top rankers from Level 1 qualify automatically.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SOF", OlympiadName = "ICSO", FullName = "International Computer Science Olympiad",
+            Subject = "Computers", Stage = "Single Level", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Registration closed",
+            ExamDateText = "24 Sep, 17 Dec 2026",
+            ExamDateFrom = new DateTime(2026,9,24), ExamDateTo = new DateTime(2026,12,17),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://sofworld.org",
+            Notes = "Previously called NCO (National Cyber Olympiad). Single level.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SOF", OlympiadName = "ISO", FullName = "International Science Olympiad",
+            Subject = "Science", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open",
+            ExamDateText = "30 Oct, 19 Nov, 3 Dec 2026",
+            ExamDateFrom = new DateTime(2026,10,30), ExamDateTo = new DateTime(2026,12,3),
+            ResultDateText = "Jan 2027",
+            OfficialWebsite = "https://sofworld.org",
+            Notes = "Previously called NSO (National Science Olympiad).",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SOF", OlympiadName = "ISO", FullName = "International Science Olympiad",
+            Subject = "Science", Stage = "Level 2", GradeMin = 3, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "Feb 2027 (tentative — 2nd/3rd Sunday)",
+            ExamDateFrom = new DateTime(2027,2,1), ExamDateTo = new DateTime(2027,2,28),
+            ResultDateText = "Apr 2027",
+            OfficialWebsite = "https://sofworld.org",
+            Notes = "Top rankers from Level 1 qualify automatically.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
             OrgName = "SOF", OlympiadName = "IMO", FullName = "International Mathematics Olympiad",
             Subject = "Math", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jul – Sep 2026",
+            RegistrationWindow = "Registration open",
             ExamDateText = "23 Oct, 26 Nov, 10 Dec 2026",
             ExamDateFrom = new DateTime(2026,10,23), ExamDateTo = new DateTime(2026,12,10),
             ResultDateText = "Jan 2027",
@@ -207,7 +334,7 @@ public class OlympiadDatesController : ControllerBase
             OrgName = "SOF", OlympiadName = "IMO", FullName = "International Mathematics Olympiad",
             Subject = "Math", Stage = "Level 2", GradeMin = 3, GradeMax = 12,
             RegistrationWindow = "N/A — qualify via Level 1",
-            ExamDateText = "Feb 2027",
+            ExamDateText = "Feb 2027 (tentative — 2nd/3rd Sunday)",
             ExamDateFrom = new DateTime(2027,2,1), ExamDateTo = new DateTime(2027,2,28),
             ResultDateText = "Apr 2027",
             OfficialWebsite = "https://sofworld.org",
@@ -216,46 +343,38 @@ public class OlympiadDatesController : ControllerBase
         },
         new()
         {
-            OrgName = "SOF", OlympiadName = "ISO / NSO", FullName = "National Science Olympiad",
-            Subject = "Science", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jul – Sep 2026",
-            ExamDateText = "30 Oct, 19 Nov, 3 Dec 2026",
-            ExamDateFrom = new DateTime(2026,10,30), ExamDateTo = new DateTime(2026,12,3),
-            ResultDateText = "Jan 2027",
-            OfficialWebsite = "https://sofworld.org",
-            AcademicYear = 2026, LastVerified = verifiedAt
-        },
-        new()
-        {
-            OrgName = "SOF", OlympiadName = "IEO", FullName = "International English Olympiad",
-            Subject = "English", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jul – Sep 2026",
-            ExamDateText = "30 Sept, 27 Oct, 17 Nov 2026",
-            ExamDateFrom = new DateTime(2026,9,30), ExamDateTo = new DateTime(2026,11,17),
-            ResultDateText = "Jan 2027",
-            OfficialWebsite = "https://sofworld.org",
-            AcademicYear = 2026, LastVerified = verifiedAt
-        },
-        new()
-        {
-            OrgName = "SOF", OlympiadName = "NCO", FullName = "National Cyber Olympiad",
-            Subject = "Computers", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jul – Sep 2026",
+            OrgName = "SOF", OlympiadName = "ISSO", FullName = "International Social Studies Olympiad",
+            Subject = "Social Studies", Stage = "Single Level", GradeMin = 3, GradeMax = 10,
+            RegistrationWindow = "Registration open",
             ExamDateText = "30 Nov 2026, 19 Jan 2027",
             ExamDateFrom = new DateTime(2026,11,30), ExamDateTo = new DateTime(2027,1,19),
             ResultDateText = "Feb 2027",
             OfficialWebsite = "https://sofworld.org",
+            Notes = "Single level. Schools register students.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
         {
-            OrgName = "SOF", OlympiadName = "IGKO", FullName = "International General Knowledge Olympiad",
-            Subject = "General Knowledge", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
-            RegistrationWindow = "Jul – Sep 2026",
-            ExamDateText = "22 Sept, 6 Oct, 3 Nov 2026",
-            ExamDateFrom = new DateTime(2026,9,22), ExamDateTo = new DateTime(2026,11,3),
-            ResultDateText = "Jan 2027",
+            OrgName = "SOF", OlympiadName = "IHO", FullName = "International Hindi Olympiad",
+            Subject = "Hindi", Stage = "Single Level", GradeMin = 3, GradeMax = 10,
+            RegistrationWindow = "Registration open",
+            ExamDateText = "23 Nov 2026, 22 Jan 2027",
+            ExamDateFrom = new DateTime(2026,11,23), ExamDateTo = new DateTime(2027,1,22),
+            ResultDateText = "Feb 2027",
             OfficialWebsite = "https://sofworld.org",
+            Notes = "Single level. Schools register students.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SOF", OlympiadName = "ICO", FullName = "International Commerce Olympiad",
+            Subject = "Commerce", Stage = "Single Level", GradeMin = 11, GradeMax = 12,
+            RegistrationWindow = "Registration open",
+            ExamDateText = "30 Nov 2026, 19 Jan 2027",
+            ExamDateFrom = new DateTime(2026,11,30), ExamDateTo = new DateTime(2027,1,19),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://sofworld.org",
+            Notes = "Classes 11 & 12 only. Single level.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
 
@@ -347,21 +466,54 @@ public class OlympiadDatesController : ControllerBase
         // ── SilverZone ───────────────────────────────────────────────
         new()
         {
+            OrgName = "SilverZone", OlympiadName = "SKGKO", FullName = "Smart Kid General Knowledge Olympiad",
+            Subject = "General Knowledge", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
+            ExamDateText = "28 Sep, 27 Oct, 30 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,28), ExamDateTo = new DateTime(2026,11,30),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "SKGKO", FullName = "Smart Kid General Knowledge Olympiad",
+            Subject = "General Knowledge", Stage = "Level 2", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "14 Nov 2026 (tentative)",
+            ExamDateFrom = new DateTime(2026,11,14), ExamDateTo = new DateTime(2026,11,14),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
             OrgName = "SilverZone", OlympiadName = "iOM", FullName = "International Olympiad of Mathematics",
-            Subject = "Math", Stage = "Single Level", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jun – Aug 2026",
+            Subject = "Math", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
             ExamDateText = "8 Oct, 18 Nov, 7 Dec 2026",
             ExamDateFrom = new DateTime(2026,10,8), ExamDateTo = new DateTime(2026,12,7),
             ResultDateText = "Feb 2027",
             OfficialWebsite = "https://silverzone.org",
-            Notes = "35 questions, 60 minutes. Schools register in bulk. Individual prizes + merit certificates.",
+            Notes = "35 questions, 60 minutes. Schools register in bulk.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "iOM", FullName = "International Olympiad of Mathematics",
+            Subject = "Math", Stage = "Level 2", GradeMin = 3, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "26 Dec 2026 (tentative)",
+            ExamDateFrom = new DateTime(2026,12,26), ExamDateTo = new DateTime(2026,12,26),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
         {
             OrgName = "SilverZone", OlympiadName = "iOS", FullName = "International Olympiad of Science",
-            Subject = "Science", Stage = "Single Level", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jun – Aug 2026",
+            Subject = "Science", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
             ExamDateText = "14 Oct, 19 Nov, 8 Dec 2026",
             ExamDateFrom = new DateTime(2026,10,14), ExamDateTo = new DateTime(2026,12,8),
             ResultDateText = "Feb 2027",
@@ -370,9 +522,20 @@ public class OlympiadDatesController : ControllerBase
         },
         new()
         {
+            OrgName = "SilverZone", OlympiadName = "iOS", FullName = "International Olympiad of Science",
+            Subject = "Science", Stage = "Level 2", GradeMin = 3, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "27 Dec 2026 (tentative)",
+            ExamDateFrom = new DateTime(2026,12,27), ExamDateTo = new DateTime(2026,12,27),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
             OrgName = "SilverZone", OlympiadName = "iOEL", FullName = "International Olympiad of English Language",
-            Subject = "English", Stage = "Single Level", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jun – Aug 2026",
+            Subject = "English", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
             ExamDateText = "21 Oct, 26 Nov, 10 Dec 2026",
             ExamDateFrom = new DateTime(2026,10,21), ExamDateTo = new DateTime(2026,12,10),
             ResultDateText = "Feb 2027",
@@ -381,24 +544,92 @@ public class OlympiadDatesController : ControllerBase
         },
         new()
         {
-            OrgName = "SilverZone", OlympiadName = "iOIT", FullName = "International Olympiad of Information Technology",
-            Subject = "Computers", Stage = "Single Level", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jun – Aug 2026",
-            ExamDateText = "24 Sep, 22 Oct, 25 Nov 2026",
-            ExamDateFrom = new DateTime(2026,9,24), ExamDateTo = new DateTime(2026,11,25),
+            OrgName = "SilverZone", OlympiadName = "iOEL", FullName = "International Olympiad of English Language",
+            Subject = "English", Stage = "Level 2", GradeMin = 3, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "12 Dec 2026 (tentative)",
+            ExamDateFrom = new DateTime(2026,12,12), ExamDateTo = new DateTime(2026,12,12),
             ResultDateText = "Feb 2027",
             OfficialWebsite = "https://silverzone.org",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
         {
-            OrgName = "SilverZone", OlympiadName = "STEM", FullName = "Science Technology Engineering Mathematics Olympiad",
-            Subject = "Science", Stage = "Single Level", GradeMin = 6, GradeMax = 12,
-            RegistrationWindow = "Jun – Aug 2026",
-            ExamDateText = "Oct – Dec 2026",
-            ExamDateFrom = new DateTime(2026,10,1), ExamDateTo = new DateTime(2026,12,31),
+            OrgName = "SilverZone", OlympiadName = "iCSO", FullName = "International Computer Science Olympiad",
+            Subject = "Computers", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
+            ExamDateText = "24 Sep, 22 Oct, 25 Nov 2026",
+            ExamDateFrom = new DateTime(2026,9,24), ExamDateTo = new DateTime(2026,11,25),
             ResultDateText = "Feb 2027",
             OfficialWebsite = "https://silverzone.org",
+            Notes = "Previously called iOIT / iIO.",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "iCSO", FullName = "International Computer Science Olympiad",
+            Subject = "Computers", Stage = "Level 2", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "7 Nov 2026 (tentative)",
+            ExamDateFrom = new DateTime(2026,11,7), ExamDateTo = new DateTime(2026,11,7),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "STEM", FullName = "SilverZone STEM Innovation Olympiad",
+            Subject = "Science", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
+            ExamDateText = "1 Oct, 3 Nov, 3 Dec 2026",
+            ExamDateFrom = new DateTime(2026,10,1), ExamDateTo = new DateTime(2026,12,3),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "STEM", FullName = "SilverZone STEM Innovation Olympiad",
+            Subject = "Science", Stage = "Level 2", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "5 Dec 2026 (tentative)",
+            ExamDateFrom = new DateTime(2026,12,5), ExamDateTo = new DateTime(2026,12,5),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "iRAO", FullName = "International Reasoning and Mental Ability Olympiad",
+            Subject = "Logical Reasoning", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
+            ExamDateText = "30 Sep, 2 Nov, 2 Dec 2026",
+            ExamDateFrom = new DateTime(2026,9,30), ExamDateTo = new DateTime(2026,12,2),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "iRAO", FullName = "International Reasoning and Mental Ability Olympiad",
+            Subject = "Logical Reasoning", Stage = "Level 2", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "19 Dec 2026 (tentative)",
+            ExamDateFrom = new DateTime(2026,12,19), ExamDateTo = new DateTime(2026,12,19),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "SilverZone", OlympiadName = "AI Olympiad", FullName = "SilverZone International AI Olympiad",
+            Subject = "Computers", Stage = "Level 1", GradeMin = 1, GradeMax = 12,
+            RegistrationWindow = "Registration open (deadline 30 days before exam)",
+            ExamDateText = "7 Oct, 23 Nov, 21 Dec 2026",
+            ExamDateFrom = new DateTime(2026,10,7), ExamDateTo = new DateTime(2026,12,21),
+            ResultDateText = "Feb 2027",
+            OfficialWebsite = "https://silverzone.org",
+            Notes = "Artificial Intelligence concepts for school students.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
 
@@ -407,12 +638,12 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "Unified", OlympiadName = "NSTSE", FullName = "National Level Science Talent Search Examination",
             Subject = "Science", Stage = "Single Level", GradeMin = 1, GradeMax = 12,
-            RegistrationWindow = "Jul – Oct 2026",
-            ExamDateText = "Jan – Feb 2027",
-            ExamDateFrom = new DateTime(2027,1,1), ExamDateTo = new DateTime(2027,2,28),
+            RegistrationWindow = "Registration open",
+            ExamDateText = "18 Sep 2026 (offline/school) / 27 Dec 2026 (online/direct)",
+            ExamDateFrom = new DateTime(2026,9,18), ExamDateTo = new DateTime(2026,12,27),
             ResultDateText = "Mar – Apr 2027",
             OfficialWebsite = "https://unifiedcouncil.com",
-            Notes = "Diagnostic-style, NCERT-based. Awarded from Class 1. Scholarships for toppers.",
+            Notes = "Diagnostic-style, NCERT-based. Awarded from Class 1. Scholarships for toppers. Offline exam via school; individual students can register online for the December slot.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
@@ -442,28 +673,78 @@ public class OlympiadDatesController : ControllerBase
         new()
         {
             OrgName = "CREST", OlympiadName = "CMO", FullName = "CREST Mathematics Olympiad",
-            Subject = "Math", Stage = "Single Level", GradeMin = 1, GradeMax = 10,
-            RegistrationWindow = "Open year-round",
-            ExamDateText = "Online, on-demand scheduling",
+            Subject = "Math", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Registration open",
+            ExamDateText = "10 Dec / 19 Dec 2026",
+            ExamDateFrom = new DateTime(2026,12,10), ExamDateTo = new DateTime(2026,12,19),
+            ResultDateText = "Jan 2027",
             OfficialWebsite = "https://crestolympiads.com",
             Notes = "Online Olympiad; student books own slot. Results within 7 days.",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
         {
+            OrgName = "CREST", OlympiadName = "CMO", FullName = "CREST Mathematics Olympiad",
+            Subject = "Math", Stage = "Level 2", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "9 Feb / 10 Feb 2027",
+            ExamDateFrom = new DateTime(2027,2,9), ExamDateTo = new DateTime(2027,2,10),
+            ResultDateText = "Mar 2027",
+            OfficialWebsite = "https://crestolympiads.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
             OrgName = "CREST", OlympiadName = "CSO", FullName = "CREST Science Olympiad",
-            Subject = "Science", Stage = "Single Level", GradeMin = 1, GradeMax = 10,
-            RegistrationWindow = "Open year-round",
-            ExamDateText = "Online, on-demand scheduling",
+            Subject = "Science", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Registration open",
+            ExamDateText = "3 Dec / 12 Dec 2026",
+            ExamDateFrom = new DateTime(2026,12,3), ExamDateTo = new DateTime(2026,12,12),
+            ResultDateText = "Jan 2027",
+            OfficialWebsite = "https://crestolympiads.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "CREST", OlympiadName = "CSO", FullName = "CREST Science Olympiad",
+            Subject = "Science", Stage = "Level 2", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "4 Feb / 6 Feb 2027",
+            ExamDateFrom = new DateTime(2027,2,4), ExamDateTo = new DateTime(2027,2,6),
+            ResultDateText = "Mar 2027",
             OfficialWebsite = "https://crestolympiads.com",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
         new()
         {
             OrgName = "CREST", OlympiadName = "CEO", FullName = "CREST English Olympiad",
-            Subject = "English", Stage = "Single Level", GradeMin = 1, GradeMax = 10,
-            RegistrationWindow = "Open year-round",
-            ExamDateText = "Online, on-demand scheduling",
+            Subject = "English", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Registration open",
+            ExamDateText = "1 Dec / 5 Dec 2026",
+            ExamDateFrom = new DateTime(2026,12,1), ExamDateTo = new DateTime(2026,12,5),
+            ResultDateText = "Jan 2027",
+            OfficialWebsite = "https://crestolympiads.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "CREST", OlympiadName = "CEO", FullName = "CREST English Olympiad",
+            Subject = "English", Stage = "Level 2", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "N/A — qualify via Level 1",
+            ExamDateText = "30 Jan / 1 Feb 2027",
+            ExamDateFrom = new DateTime(2027,1,30), ExamDateTo = new DateTime(2027,2,1),
+            ResultDateText = "Mar 2027",
+            OfficialWebsite = "https://crestolympiads.com",
+            AcademicYear = 2026, LastVerified = verifiedAt
+        },
+        new()
+        {
+            OrgName = "CREST", OlympiadName = "CSBW", FullName = "CREST SpellBee Worldwide",
+            Subject = "English", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
+            RegistrationWindow = "Registration open",
+            ExamDateText = "7 Jan / 16 Jan 2027",
+            ExamDateFrom = new DateTime(2027,1,7), ExamDateTo = new DateTime(2027,1,16),
+            ResultDateText = "Feb 2027",
             OfficialWebsite = "https://crestolympiads.com",
             AcademicYear = 2026, LastVerified = verifiedAt
         },
@@ -501,8 +782,8 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "AmarUjala", OlympiadName = "AUNO English", FullName = "National English Olympiad by Amar Ujala",
             Subject = "English", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
-            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
-            ExamDateText = "23 Sep 2026 / 18 Nov 2026",
+            RegistrationWindow = "Registration open",
+            ExamDateText = "23 Sep 2026 (1st date passed) / 18 Nov 2026",
             ExamDateFrom = new DateTime(2026,9,23), ExamDateTo = new DateTime(2026,11,18),
             ResultDateText = "After Level 2 (Feb 2027)",
             OfficialWebsite = "https://amarujalaolympiad.com",
@@ -513,7 +794,7 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "AmarUjala", OlympiadName = "AUNO Mathematics", FullName = "National Mathematics Olympiad by Amar Ujala",
             Subject = "Math", Stage = "Level 1", GradeMin = 1, GradeMax = 10,
-            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            RegistrationWindow = "Registration open",
             ExamDateText = "28 Sep 2026 / 23 Nov 2026",
             ExamDateFrom = new DateTime(2026,9,28), ExamDateTo = new DateTime(2026,11,23),
             ResultDateText = "After Level 2 (Feb 2027)",
@@ -524,8 +805,8 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "AmarUjala", OlympiadName = "AUNO Science", FullName = "National Science Olympiad by Amar Ujala",
             Subject = "Science", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
-            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
-            ExamDateText = "25 Sep 2026 / 25 Nov 2026",
+            RegistrationWindow = "Registration open",
+            ExamDateText = "25 Sep 2026 (1st date passed) / 25 Nov 2026",
             ExamDateFrom = new DateTime(2026,9,25), ExamDateTo = new DateTime(2026,11,25),
             ResultDateText = "After Level 2 (Feb 2027)",
             OfficialWebsite = "https://amarujalaolympiad.com",
@@ -535,8 +816,8 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "AmarUjala", OlympiadName = "AUNO GK", FullName = "National General Knowledge Olympiad by Amar Ujala",
             Subject = "General Knowledge", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
-            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
-            ExamDateText = "21 Sep 2026 / 19 Nov 2026",
+            RegistrationWindow = "Registration open",
+            ExamDateText = "21 Sep 2026 (1st date passed) / 19 Nov 2026",
             ExamDateFrom = new DateTime(2026,9,21), ExamDateTo = new DateTime(2026,11,19),
             ResultDateText = "After Level 2 (Feb 2027)",
             OfficialWebsite = "https://amarujalaolympiad.com",
@@ -546,8 +827,8 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "AmarUjala", OlympiadName = "AUNO Logical Reasoning", FullName = "National Logical Reasoning Olympiad by Amar Ujala",
             Subject = "Logical Reasoning", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
-            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
-            ExamDateText = "22 Sep 2026 / 26 Nov 2026",
+            RegistrationWindow = "Registration open",
+            ExamDateText = "22 Sep 2026 (1st date passed) / 26 Nov 2026",
             ExamDateFrom = new DateTime(2026,9,22), ExamDateTo = new DateTime(2026,11,26),
             ResultDateText = "After Level 2 (Feb 2027)",
             OfficialWebsite = "https://amarujalaolympiad.com",
@@ -557,7 +838,7 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "AmarUjala", OlympiadName = "AUNO Hindi", FullName = "National Hindi Olympiad by Amar Ujala",
             Subject = "Hindi", Stage = "Level 1", GradeMin = 3, GradeMax = 10,
-            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            RegistrationWindow = "Registration open",
             ExamDateText = "29 Sep 2026 / 27 Nov 2026",
             ExamDateFrom = new DateTime(2026,9,29), ExamDateTo = new DateTime(2026,11,27),
             ResultDateText = "After Level 2 (Feb 2027)",
@@ -568,7 +849,7 @@ public class OlympiadDatesController : ControllerBase
         {
             OrgName = "AmarUjala", OlympiadName = "AUNO Tech & AI", FullName = "National Tech & AI Olympiad by Amar Ujala",
             Subject = "Computers", Stage = "Level 1 (Online)", GradeMin = 3, GradeMax = 10,
-            RegistrationWindow = "Open now (Early-bird until 15 Jul 2026)",
+            RegistrationWindow = "Registration open",
             ExamDateText = "Dates TBA",
             ResultDateText = "After Level 2 (Feb 2027)",
             OfficialWebsite = "https://amarujalaolympiad.com",
