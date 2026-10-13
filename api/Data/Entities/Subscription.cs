@@ -19,6 +19,10 @@ public class Subscription
     public string? RazorpaySubscriptionId { get; set; }
     public bool IsAutoRenewing { get; set; } = false;
 
+    // "Razorpay" (website) or "GooglePlay" (Android app).
+    public string Provider { get; set; } = "Razorpay";
+    public string? GooglePurchaseToken { get; set; }
+
     // Computed by SQL — do not set in code.
     public bool IsActive { get; private set; }
 }

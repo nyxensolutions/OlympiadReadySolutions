@@ -105,6 +105,9 @@ public class AppDbContext : DbContext
             e.Property(x => x.IsActive)
                 .HasComputedColumnSql("CASE WHEN [EndDate] > GETDATE() THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT) END");
             e.HasIndex(x => new { x.UserId, x.EndDate });
+            e.Property(x => x.Provider).HasMaxLength(20).IsRequired().HasDefaultValue("Razorpay");
+            e.Property(x => x.GooglePurchaseToken).HasMaxLength(512);
+            e.HasIndex(x => x.GooglePurchaseToken).HasFilter("[GooglePurchaseToken] IS NOT NULL");
             e.HasOne(x => x.User)
                 .WithMany(u => u.Subscriptions)
                 .HasForeignKey(x => x.UserId)
@@ -287,6 +290,9 @@ public class AppDbContext : DbContext
             e.HasIndex(x => x.UserId);
             e.HasIndex(x => x.RazorpayOrderId).IsUnique().HasFilter("[RazorpayOrderId] IS NOT NULL");
             e.HasIndex(x => x.RazorpayPaymentId).IsUnique().HasFilter("[RazorpayPaymentId] IS NOT NULL");
+            e.Property(x => x.Provider).HasDefaultValue("Razorpay");
+            e.HasIndex(x => x.GooglePurchaseToken).HasFilter("[GooglePurchaseToken] IS NOT NULL");
+            e.HasIndex(x => x.GoogleOrderId).IsUnique().HasFilter("[GoogleOrderId] IS NOT NULL");
         });
     }
 }

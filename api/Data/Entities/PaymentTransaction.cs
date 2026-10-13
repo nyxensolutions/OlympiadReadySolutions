@@ -42,4 +42,19 @@ public class PaymentTransaction
     public int Days { get; set; }
 
     public DateTime CreatedAt { get; set; }
+
+    [MaxLength(20)]
+    public string Provider { get; set; } = "Razorpay";
+
+    [MaxLength(512)]
+    public string? GooglePurchaseToken { get; set; }
+
+    [MaxLength(100)]
+    public string? GoogleProductId { get; set; }
+
+    [MaxLength(50)]
+    public string? GoogleBasePlanId { get; set; }
+
+    [MaxLength(100)]
+    public string? GoogleOrderId { get; set; }
 }

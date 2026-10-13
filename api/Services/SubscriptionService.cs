@@ -321,6 +321,56 @@ public class SubscriptionService
     }
 
     /// <summary>
+    /// Creates or updates the per-subject rows for one Google Play subscription (one purchase token).
+    /// Google owns the billing period, so EndDate mirrors Google's expiry instead of stacking days.
+    /// </summary>
+    public async Task SyncGooglePlayEntitlementAsync(
+        Guid userId, int grade, IReadOnlyList<string> subjects, string purchaseToken,
+        DateTime endDateUtc, bool isAutoRenewing, int totalAmountInPaise, CancellationToken ct)
+    {
+        var rows = await _db.Subscriptions
+            .Where(s => s.GooglePurchaseToken == purchaseToken)
+            .ToListAsync(ct);
+
+        if (rows.Count == 0)
+        {
+            int count = subjects.Count > 0 ? subjects.Count : 1;
+            int basePrice = totalAmountInPaise / count;
+            int remainder = totalAmountInPaise % count;
+            for (int i = 0; i < subjects.Count; i++)
+            {
+                _db.Subscriptions.Add(new Subscription
+                {
+                    UserId = userId,
+                    PlanName = "Modular",
+                    Grade = grade,
+                    Subject = subjects[i],
+                    StartDate = DateTime.UtcNow,
+                    EndDate = endDateUtc,
+                    AmountInPaise = basePrice + (i == 0 ? remainder : 0),
+                    IsAutoRenewing = isAutoRenewing,
+                    Provider = "GooglePlay",
+                    GooglePurchaseToken = purchaseToken,
+                });
+            }
+
+            var user = await _db.Users.FindAsync(new object[] { userId }, ct);
+            if (user != null && user.SubscriptionTier == "Free")
+                user.SubscriptionTier = "Modular";
+        }
+        else
+        {
+            foreach (var row in rows)
+            {
+                row.EndDate = endDateUtc;
+                row.IsAutoRenewing = isAutoRenewing;
+            }
+        }
+
+        await _db.SaveChangesAsync(ct);
+    }
+
+    /// <summary>
     /// Returns a summary of the user's active unlocks and free attempts.
     /// </summary>
     public async Task<object> GetSubscriptionSummaryAsync(Guid userId, CancellationToken ct = default)

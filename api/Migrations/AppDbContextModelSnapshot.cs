@@ -164,12 +164,35 @@ namespace OlympiadReady.Api.Migrations
                     b.Property<int>("Days")
                         .HasColumnType("int");
 
+                    b.Property<string>("GoogleBasePlanId")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("GoogleOrderId")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("GoogleProductId")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("GooglePurchaseToken")
+                        .HasMaxLength(512)
+                        .HasColumnType("nvarchar(512)");
+
                     b.Property<int>("Grade")
                         .HasColumnType("int");
 
                     b.Property<string>("PlanName")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Provider")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasDefaultValue("Razorpay");
 
                     b.Property<string>("RazorpayOrderId")
                         .HasMaxLength(100)
@@ -196,6 +219,13 @@ namespace OlympiadReady.Api.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("TransactionId");
+
+                    b.HasIndex("GoogleOrderId")
+                        .IsUnique()
+                        .HasFilter("[GoogleOrderId] IS NOT NULL");
+
+                    b.HasIndex("GooglePurchaseToken")
+                        .HasFilter("[GooglePurchaseToken] IS NOT NULL");
 
                     b.HasIndex("RazorpayOrderId")
                         .IsUnique()
@@ -607,6 +637,10 @@ namespace OlympiadReady.Api.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("GooglePurchaseToken")
+                        .HasMaxLength(512)
+                        .HasColumnType("nvarchar(512)");
+
                     b.Property<int>("Grade")
                         .HasColumnType("int");
 
@@ -622,6 +656,13 @@ namespace OlympiadReady.Api.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Provider")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasDefaultValue("Razorpay");
 
                     b.Property<string>("RazorpayOrderId")
                         .HasMaxLength(100)
@@ -645,6 +686,9 @@ namespace OlympiadReady.Api.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("SubscriptionId");
+
+                    b.HasIndex("GooglePurchaseToken")
+                        .HasFilter("[GooglePurchaseToken] IS NOT NULL");
 
                     b.HasIndex("UserId", "EndDate");
 
@@ -682,6 +726,9 @@ namespace OlympiadReady.Api.Migrations
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
+
+                    b.Property<bool>("EmailOptOut")
+                        .HasColumnType("bit");
 
                     b.Property<string>("ExpoPushToken")
                         .HasColumnType("nvarchar(max)");

@@ -50,6 +50,7 @@ builder.Services.AddHttpClient<AiGenerationService>(c =>
 builder.Services.AddScoped<PdfService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<SubscriptionService>();
+builder.Services.AddSingleton<GooglePlayService>();
 builder.Services.AddScoped<MasteryService>();
 builder.Services.AddScoped<QuestionBankService>();
 builder.Services.AddHttpClient<RazorpayService>(c =>
