@@ -41,9 +41,12 @@ export default function DeleteAccountPage() {
         <li>Your account and sign-in details (name, email address, profile information).</li>
         <li>Your class, subject preferences and onboarding answers.</li>
         <li>Practice papers, test answers, results, scores, topic mastery and badges.</li>
-        <li>Your AI Tutor conversations.</li>
         <li>Notification settings and the device token used to send you notifications.</li>
       </ul>
+
+      <p>
+        AI Tutor conversations are not stored on our servers, so there is nothing to delete for them.
+      </p>
 
       <h2>What we keep, and for how long</h2>
       <ul>
@@ -60,8 +63,7 @@ export default function DeleteAccountPage() {
 
       <h2 id="delete-data">Deleting only some of your data</h2>
       <p>
-        If you want to keep your account but remove specific data, such as your test history or AI Tutor
-        conversations, email{" "}
+        If you want to keep your account but remove specific data, such as your test history, email{" "}
         <a href="mailto:support@olympiadready.com">support@olympiadready.com</a> and tell us what you would like
         removed.
       </p>

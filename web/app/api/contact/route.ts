@@ -19,13 +19,13 @@ export async function POST(req: NextRequest) {
 
     const isSchool  = type === "school";
     const subject   = isSchool
-      ? `School Inquiry from ${schoolName || name} â€” OlympiadReady`
-      : `Contact Form â€” ${name} â€” OlympiadReady`;
+      ? `School Inquiry from ${schoolName || name} — OlympiadReady`
+      : `Contact Form — ${name} — OlympiadReady`;
 
     const schoolDetails = isSchool
-      ? `<tr><td style="padding:4px 0;color:#64748b;font-size:13px;">School Name</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${schoolName || "â€”"}</td></tr>
-         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">City</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${city || "â€”"}</td></tr>
-         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">Est. Students</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${studentCount || "â€”"}</td></tr>`
+      ? `<tr><td style="padding:4px 0;color:#64748b;font-size:13px;">School Name</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${schoolName || "—"}</td></tr>
+         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">City</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${city || "—"}</td></tr>
+         <tr><td style="padding:4px 0;color:#64748b;font-size:13px;">Est. Students</td><td style="padding:4px 0 4px 16px;font-size:13px;font-weight:600;">${studentCount || "—"}</td></tr>`
       : "";
 
     const htmlContent = `
@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
           </div>
         </div>
         <div style="padding:12px 24px;background:#f8fafc;border-top:1px solid #e2e8f0;">
-          <p style="margin:0;font-size:11px;color:#94a3b8;">Sent via OlympiadReady contact form Â· Reply directly to ${email}</p>
+          <p style="margin:0;font-size:11px;color:#94a3b8;">Sent via OlympiadReady contact form · Reply directly to ${email}</p>
         </div>
       </div>`;
 
