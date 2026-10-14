@@ -22,6 +22,8 @@ type BillingHistory = {
     amountInPaise?: number;
     razorpaySubscriptionId?: string;
     isAutoRenewing?: boolean;
+    provider?: "Razorpay" | "GooglePlay";
+    purchaseGroup?: string;
   }>;
   pdfPurchases: Array<{
     id: string;
@@ -172,7 +174,7 @@ export function BillingHistoryCard({ onPurchaseMore }: { onPurchaseMore?: () => 
             <div className="grid gap-3 sm:grid-cols-2">
               {Array.from(
                 history.subscriptions.reduce((acc, sub) => {
-                  const key = sub.razorpaySubscriptionId || sub.id;
+                  const key = sub.purchaseGroup || sub.razorpaySubscriptionId || sub.id;
                   if (!acc.has(key)) acc.set(key, []);
                   acc.get(key)!.push(sub);
                   return acc;
@@ -229,14 +231,26 @@ export function BillingHistoryCard({ onPurchaseMore }: { onPurchaseMore?: () => 
                             {cancellingId === sub.razorpaySubscriptionId ? "Cancelling..." : "Cancel Auto-Renewal"}
                           </button>
                         )}
-                        <a
-                          href={`/invoice/${sub.id}?type=subscription`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-xs font-semibold text-brand-600 hover:text-brand-700 hover:underline"
-                        >
-                          View Invoice
-                        </a>
+                        {sub.provider === "GooglePlay" ? (
+                          <a
+                            href="https://play.google.com/store/account/subscriptions?package=com.nyxensolutions.olympiadready"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs font-semibold text-brand-600 hover:text-brand-700 hover:underline"
+                            title="Bought in the Olympiad Ready app. Google Play sends the receipt and manages renewal."
+                          >
+                            Billed by Google Play · Manage
+                          </a>
+                        ) : (
+                          <a
+                            href={`/invoice/${sub.id}?type=subscription`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs font-semibold text-brand-600 hover:text-brand-700 hover:underline"
+                          >
+                            View Invoice
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>

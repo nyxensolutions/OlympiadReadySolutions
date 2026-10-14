@@ -70,6 +70,7 @@ public class BillingController : ControllerBase
                 razorpaySubscriptionId = s.RazorpaySubscriptionId,
                 isAutoRenewing    = s.IsAutoRenewing,
                 provider          = s.Provider,
+                purchaseGroup     = s.RazorpaySubscriptionId ?? s.GooglePurchaseToken,
                 purchasedAt       = s.StartDate
             })
             .ToListAsync(ct);
