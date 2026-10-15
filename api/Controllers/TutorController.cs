@@ -26,22 +26,36 @@ public class TutorController : ControllerBase
         _subs = subs;
     }
 
+    private const int FreeChatLimit = 10;
+    private const int PaidMessagesPerConversation = 20;
+    private const int MaxMessageChars = 2000;
+    private const int MaxHistoryMessages = 40;
+
+    // Paid = this class and subject unlocked (same rule as practice and mock exams), or an active school pilot.
+    private async Task<bool> HasPaidAccessAsync(Guid userId, int grade, string subject, CancellationToken ct) =>
+        await _subs.IsSchoolPilotActiveAsync(userId, ct)
+        || await _subs.HasUnlockedSubjectAsync(userId, grade, subject, ct);
+
     [HttpGet("quota")]
-    public async Task<IActionResult> GetQuota([FromQuery] string subject, CancellationToken ct)
+    public async Task<IActionResult> GetQuota([FromQuery] string subject, [FromQuery] int? grade, CancellationToken ct)
     {
         var user = await _users.GetOrSyncAsync(User, ct);
         if (user == null) return Unauthorized();
 
-        await _db.Entry(user).Collection(u => u.Subscriptions).LoadAsync(ct);
+        bool hasPaidAccess;
+        if (grade is >= 1 and <= 12)
+        {
+            hasPaidAccess = await HasPaidAccessAsync(user.UserId, grade.Value, subject, ct);
+        }
+        else
+        {
+            // App 1.0.0 doesn't send a class: report paid if the subject is unlocked in any class.
+            hasPaidAccess = await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
+            for (int g = 1; g <= 12 && !hasPaidAccess; g++)
+                hasPaidAccess = await _subs.HasUnlockedSubjectAsync(user.UserId, g, subject, ct);
+        }
 
-        bool onSchoolPilot = await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
-        bool hasPaidAccess = onSchoolPilot || user.Subscriptions.Any(s =>
-            s.IsActive &&
-            (s.Subject.Equals(subject, StringComparison.OrdinalIgnoreCase) ||
-             s.Subject.Equals("All Subjects", StringComparison.OrdinalIgnoreCase))
-        );
-
-        return Ok(new { hasPaidAccess, freeChatsUsed = user.FreeAiTutorChatsUsed });
+        return Ok(new { hasPaidAccess, freeChatsUsed = user.FreeAiTutorChatsUsed, freeChatLimit = FreeChatLimit });
     }
 
     [HttpPost("chat")]
@@ -50,48 +64,61 @@ public class TutorController : ControllerBase
         var user = await _users.GetOrSyncAsync(User, ct);
         if (user == null) return Unauthorized();
 
-        // Ensure subscriptions are loaded since GetOrSyncAsync might not Include them
-        await _db.Entry(user).Collection(u => u.Subscriptions).LoadAsync(ct);
+        if (string.IsNullOrWhiteSpace(req.UserMessage))
+            return BadRequest(new { message = "Please type your doubt first." });
+        if (req.UserMessage.Length > MaxMessageChars)
+            return BadRequest(new { message = $"Please keep your message under {MaxMessageChars} characters." });
 
-        // 1. Check if user has paid access or is on an active school pilot
-        bool onSchoolPilot = await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
-        bool hasPaidAccess = onSchoolPilot || user.Subscriptions.Any(s =>
-            s.IsActive &&
-            (s.Subject.Equals(req.Subject, StringComparison.OrdinalIgnoreCase) ||
-             s.Subject.Equals("All Subjects", StringComparison.OrdinalIgnoreCase))
-        );
+        // Bound what reaches the model regardless of what the client sends.
+        req.History = (req.History ?? new())
+            .TakeLast(MaxHistoryMessages)
+            .Select(m => new ChatDoubtMessage
+            {
+                Role = m.Role,
+                Content = m.Content.Length > 4000 ? m.Content[..4000] : m.Content,
+            })
+            .ToList();
 
-        // 2. If not paid for this subject, check free quota
+        bool hasPaidAccess = await HasPaidAccessAsync(user.UserId, req.Grade, req.Subject, ct);
+
         if (!hasPaidAccess)
         {
-            if (user.FreeAiTutorChatsUsed >= 10)
+            if (user.FreeAiTutorChatsUsed >= FreeChatLimit)
             {
-                return StatusCode(403, new { message = "You have used all 10 of your free AI Tutor chats! Subscribe to any subject to continue chatting." });
+                return StatusCode(403, new
+                {
+                    code = "QUOTA_EXCEEDED",
+                    upgrade = true,
+                    message = $"You have used all {FreeChatLimit} of your free AI Tutor chats. Unlock Class {req.Grade} {req.Subject} to keep chatting.",
+                });
             }
-
-            // Increment quota
-            user.FreeAiTutorChatsUsed++;
-            await _db.SaveChangesAsync(ct);
         }
         else
         {
-            // Paid users are limited to 20 user messages per question
             int userMessageCount = req.History.Count(m => m.Role.Equals("user", StringComparison.OrdinalIgnoreCase));
-            if (userMessageCount >= 20)
+            if (userMessageCount >= PaidMessagesPerConversation)
             {
-                return StatusCode(403, new { message = "You have reached the maximum of 20 chats for this specific question. Please move on to the next question!" });
+                return StatusCode(403, new { message = $"You have reached the maximum of {PaidMessagesPerConversation} chats for this question. Please move on to the next question!" });
             }
         }
 
-        // 3. Call AI Service
+        string reply;
         try
         {
-            var reply = await _tutor.AskTutorAsync(req, ct);
-            return Ok(new { reply, freeChatsUsed = user.FreeAiTutorChatsUsed, hasPaidAccess });
+            reply = await _tutor.AskTutorAsync(req, ct);
         }
-        catch (Exception ex)
+        catch (Exception)
         {
-            return StatusCode(500, new { message = "Error communicating with AI Tutor.", details = ex.Message });
+            return StatusCode(500, new { message = "The AI Tutor is not responding right now. Please try again in a moment." });
         }
+
+        // Count a free chat only once the student actually got a reply.
+        if (!hasPaidAccess)
+        {
+            user.FreeAiTutorChatsUsed++;
+            await _db.SaveChangesAsync(ct);
+        }
+
+        return Ok(new { reply, freeChatsUsed = user.FreeAiTutorChatsUsed, hasPaidAccess });
     }
 }

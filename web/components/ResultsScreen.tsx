@@ -50,7 +50,7 @@ export function ResultsScreen({
       try {
         const token = await getToken();
         if (!token) return;
-        const res = await fetch(`${API_URL}/api/tutor/quota?subject=${encodeURIComponent(config.subject)}`, {
+        const res = await fetch(`${API_URL}/api/tutor/quota?subject=${encodeURIComponent(config.subject)}&grade=${config.grade}`, {
           headers: { Authorization: `Bearer ${token}` }
         });
         if (res.ok) {
@@ -61,7 +61,7 @@ export function ResultsScreen({
       }
     }
     void fetchQuota();
-  }, [simulationMode, config.subject, getToken]);
+  }, [simulationMode, config.subject, config.grade, getToken]);
 
   async function copyToClipboard(text: string) {
     try {
