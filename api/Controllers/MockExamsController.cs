@@ -131,7 +131,7 @@ public class MockExamsController : ControllerBase
 
         if (recentMocks >= mockExamLimit)
         {
-            return StatusCode(402, new { message = isSubscribed ? "You have reached your limit of 7 mock exams per week." : "You've used your 3 free mock exams — upgrade to unlock 7 fresh mock exams every week." });
+            return StatusCode(402, new { code = "QUOTA_EXCEEDED", upgrade = !isSubscribed, message = isSubscribed ? "You have reached your limit of 7 mock exams per week." : "You've used your 3 free mock exams — upgrade to unlock 7 fresh mock exams every week." });
         }
 
         // Level 2 always uses Olympiad-only difficulty — no easy or mid questions.
