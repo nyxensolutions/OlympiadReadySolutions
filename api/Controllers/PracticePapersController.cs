@@ -102,6 +102,10 @@ public class PracticePapersController : ControllerBase
             {
                 activeSubs = subjects.ToList(); // treat all subjects as subscribed
             }
+            else if (await _subs.HasUnlockedSubjectAsync(user.UserId, grade, "Spell Bee", ct))
+            {
+                activeSubs.Add("Spell Bee"); // Champion includes Spell Bee without a row of its own
+            }
 
             DateTime now = DateTime.UtcNow;
             int diff = (7 + (now.DayOfWeek - DayOfWeek.Monday)) % 7;

@@ -74,11 +74,22 @@ public class SubscriptionService
             .Where(s => s.UserId == userId && s.Grade == grade && s.EndDate > DateTime.UtcNow)
             .ToListAsync(ct);
 
-        return activeSubs.Any(s => 
+        var activeCanonical = activeSubs
+            .Select(s => SubjectNormalizer.Normalize(s.Subject).Name ?? s.Subject)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+        if (activeCanonical.Contains(canonicalTarget))
+            return true;
+
+        // Champion is stored as one row per subject with no "All" marker, and the all-subjects list
+        // doesn't include Spell Bee — so treat "every subject of the class unlocked" as including it.
+        if (string.Equals(canonicalTarget, "Spell Bee", StringComparison.OrdinalIgnoreCase))
         {
-            var (canonicalSub, _) = SubjectNormalizer.Normalize(s.Subject);
-            return string.Equals(canonicalSub, canonicalTarget, StringComparison.OrdinalIgnoreCase);
-        });
+            return Controllers.BillingController.AllSubjectsForGrade(grade)
+                .All(s => activeCanonical.Contains(SubjectNormalizer.Normalize(s).Name ?? s));
+        }
+
+        return false;
     }
 
     /// <summary>
