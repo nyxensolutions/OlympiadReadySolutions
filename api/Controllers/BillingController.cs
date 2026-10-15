@@ -109,6 +109,7 @@ public class BillingController : ControllerBase
             school        = schoolInfo,
             freeAttemptsUsed = user.FreeAttemptsUsed,
             freeAttemptsLimit = SubscriptionService.GetEffectiveLimit(user),
+            freeTrialEnded = user.TrialExpiresAt.HasValue && DateTime.UtcNow >= user.TrialExpiresAt.Value,
             subscriptions,
             pdfPurchases
         });
