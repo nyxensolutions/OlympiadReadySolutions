@@ -85,8 +85,31 @@ public class MockExamsController : ControllerBase
             req.Subject = canonicalSubject!;
         }
 
+        if (req.Level != "L2") req.Level = "L1";
+
+        // The mobile app doesn't send a pattern; use the same official pattern the website would.
+        if (req.Sections == null || req.Sections.Count == 0)
+        {
+            var pattern = MockExamPatterns.Find(req.Subject, req.Grade, req.Level);
+            req.Sections = pattern.ToSections();
+            req.TotalTimeMinutes = pattern.TotalTimeMinutes;
+            if (string.IsNullOrEmpty(req.PatternId)) req.PatternId = pattern.Id;
+            if (string.IsNullOrEmpty(req.OlympiadId) || req.OlympiadId == "custom") req.OlympiadId = pattern.Id;
+        }
+
         // Quota check
         bool isSubscribed = await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, req.Subject, ct);
+
+        // Unpaid class/subject: same rule as practice tests — only while free attempts, the trial or a school pilot allow it.
+        if (!isSubscribed && !await _subs.CanGenerateOnlineTestAsync(user.UserId, req.Grade, req.Subject, ct))
+        {
+            return StatusCode(402, new
+            {
+                code = "QUOTA_EXCEEDED",
+                message = $"You have used your free attempts. Please unlock Class {req.Grade} {req.Subject} to take mock exams.",
+                upgrade = true
+            });
+        }
 
         int mockExamLimit = isSubscribed ? 7 : 3;
 

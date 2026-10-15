@@ -97,6 +97,8 @@ public static class SubjectNormalizer
         ["reasoning and aptitude"]   = "Logical Reasoning",
         ["irao"]                     = "Logical Reasoning",
         ["lr"]                       = "Logical Reasoning",
+        ["mental ability"]           = "Logical Reasoning",   // mobile app's label
+        ["mentalability"]            = "Logical Reasoning",
 
         // Computer Science (SOF NCO)
         ["computer science"]         = "Computer Science",
