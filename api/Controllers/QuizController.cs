@@ -2,6 +2,7 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OlympiadReady.Api.Data;
+using OlympiadReady.Api.Services;
 
 namespace OlympiadReady.Api.Controllers;
 
@@ -26,7 +27,9 @@ public class QuizController : ControllerBase
         var query = _db.QuestionBank.AsNoTracking().Where(q => q.Grade == grade);
         if (!string.IsNullOrEmpty(subject))
         {
-            query = query.Where(q => q.Subject == subject);
+            // Accept aliases ("Math", "Mental Ability", ...) the same way paper generation does.
+            var canonical = SubjectNormalizer.Normalize(subject).Name ?? subject;
+            query = query.Where(q => q.Subject == canonical);
         }
 
         var count = await query.CountAsync(ct);
