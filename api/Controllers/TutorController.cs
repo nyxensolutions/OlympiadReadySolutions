@@ -98,7 +98,13 @@ public class TutorController : ControllerBase
             int userMessageCount = req.History.Count(m => m.Role.Equals("user", StringComparison.OrdinalIgnoreCase));
             if (userMessageCount >= PaidMessagesPerConversation)
             {
-                return StatusCode(403, new { message = $"You have reached the maximum of {PaidMessagesPerConversation} chats for this question. Please move on to the next question!" });
+                return StatusCode(403, new
+                {
+                    code = "CHAT_LIMIT",
+                    message = string.IsNullOrWhiteSpace(req.QuestionText)
+                        ? $"This chat has reached {PaidMessagesPerConversation} messages. Start a new chat to keep going."
+                        : $"You have reached the maximum of {PaidMessagesPerConversation} chats for this question. Please move on to the next question!",
+                });
             }
         }
 
