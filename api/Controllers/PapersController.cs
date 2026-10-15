@@ -60,8 +60,7 @@ public class PapersController : ControllerBase
             string jsonContent;
             List<Question> questions = new();
 
-            bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) || 
-                                 user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
+            bool isTestAccount = _subs.IsNoAiAccount(user.Email);
 
             if (req.MistakesOnly)
             {

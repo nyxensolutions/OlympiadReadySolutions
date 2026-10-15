@@ -53,6 +53,7 @@ public class SubscriptionService
 
     private readonly AppDbContext _db;
     private readonly decimal _monthlyDollarCap;
+    private readonly HashSet<string> _noAiEmails;
 
     public SubscriptionService(AppDbContext db, IConfiguration config)
     {
@@ -60,7 +61,17 @@ public class SubscriptionService
         _monthlyDollarCap = decimal.TryParse(config["OpenAi:MonthlyDollarCapPerUser"], out var cap)
             ? cap
             : DefaultMonthlyDollarCap;
+        // Comma-separated exact addresses (e.g. payment-gateway review logins) that are served
+        // from the bank only. Replaces an "email contains 'test'" check that also matched real
+        // addresses such as "contest..." or "latest...".
+        _noAiEmails = (config["OpenAi:NoAiEmails"] ?? "")
+            .Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
     }
+
+    /// <summary>True for configured test/review accounts that must never trigger AI generation.</summary>
+    public bool IsNoAiAccount(string? email) =>
+        !string.IsNullOrWhiteSpace(email) && _noAiEmails.Contains(email.Trim());
 
     /// <summary>
     /// Checks if the user has an active paid subscription for the given Grade and Subject.

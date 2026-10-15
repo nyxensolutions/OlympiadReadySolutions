@@ -149,8 +149,7 @@ public class MockExamsController : ControllerBase
             _            => "Advanced"
         };
 
-        bool isTestAccount = user.Email.Contains("test", StringComparison.OrdinalIgnoreCase) ||
-                             user.Email.Contains("razorpay", StringComparison.OrdinalIgnoreCase);
+        bool isTestAccount = _subs.IsNoAiAccount(user.Email);
 
         // Difficulty distribution weights per complexity level.
         // L2 / Olympiad complexity: 100% Olympiad difficulty — no mixing.
@@ -308,7 +307,9 @@ public class MockExamsController : ControllerBase
                     QuestionBankId = newBankId,
                     Subject = req.Subject,
                     Grade = req.Grade,
-                    Difficulty = section.Difficulty,
+                    // Level 2 sections are generated at Olympiad level; filing them under the
+                    // section's nominal difficulty put Olympiad-hard questions into easier papers.
+                    Difficulty = isLevel2 ? "Olympiad" : section.Difficulty,
                     Topic = q.Topic ?? "General",
                     QuestionText = q.Q ?? "",
                     OptionsJson = JsonSerializer.Serialize(q.Options ?? new List<string>()),
