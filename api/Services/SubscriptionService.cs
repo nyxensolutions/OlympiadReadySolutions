@@ -275,7 +275,7 @@ public class SubscriptionService
             if (usedHybridAi)
                 subscription.AiGenerationsUsed++;
         }
-        else
+        else if (!await HasUnlockedSubjectAsync(userId, grade, subject, ct))  // e.g. Spell Bee via Champion has no row of its own
         {
             var user = await _db.Users
                 .Include(u => u.School)
@@ -415,14 +415,19 @@ public class SubscriptionService
         string tier = activeSubs.Any() ? "Modular" : (onSchoolPilot ? "School" : "Free");
 
         int effectiveLimit = user != null ? GetEffectiveLimit(user) : GlobalFreeAttemptsLimit;
+        int used = user?.FreeAttemptsUsed ?? 0;
+        // Same rule as CanGenerateOnlineTestAsync: a trial window, when set, must still be open as well.
+        bool trialEnded = user?.TrialExpiresAt.HasValue == true && DateTime.UtcNow >= user.TrialExpiresAt!.Value;
+        bool freeAllowed = used < effectiveLimit && !trialEnded;
 
         return new
         {
             tier,
-            used = user?.FreeAttemptsUsed ?? 0,
+            used,
             limit = effectiveLimit,
-            allowed = onTrial || onSchoolPilot || (user?.FreeAttemptsUsed ?? 0) < effectiveLimit || activeSubs.Any(),
+            allowed = freeAllowed || onSchoolPilot || activeSubs.Any(),
             onTrial,
+            trialEnded,
             trialExpiresAt = user?.TrialExpiresAt,
             onSchoolPilot,
             school = user?.School == null ? null : new

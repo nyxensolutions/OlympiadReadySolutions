@@ -70,7 +70,9 @@ public class GooglePlayBillingController : ControllerBase
 
         if (!isChampion)
         {
-            var unknown = req.Subjects.FirstOrDefault(s => !gradeSubjects.Contains(s, StringComparer.OrdinalIgnoreCase));
+            // Spell Bee is sold on its own (as on the website) but is not one of Champion's per-subject rows.
+            var sellable = gradeSubjects.Append("Spell Bee");
+            var unknown = req.Subjects.FirstOrDefault(s => !sellable.Contains(s, StringComparer.OrdinalIgnoreCase));
             if (unknown != null)
                 return BadRequest($"{unknown} is not available for Class {req.Grade}.");
             if (req.Subjects.Distinct(StringComparer.OrdinalIgnoreCase).Count() != req.Subjects.Count)

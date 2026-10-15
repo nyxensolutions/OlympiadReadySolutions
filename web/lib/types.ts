@@ -15,6 +15,8 @@ export type DashboardSummary = {
     tier: "Free" | "Pro" | "Modular" | "School";
     used: number;
     limit: number;
+    allowed: boolean;
+    trialEnded?: boolean;
     onSchoolPilot?: boolean;
     school?: { name: string; logoUrl?: string; pilotEndsAt?: string } | null;
     activeUnlocks?: Array<{
@@ -118,6 +120,8 @@ export type SubscriptionStatus = {
   used: number;
   limit: number;
   allowed: boolean;
+  // Free trial window (10 days for new accounts) has closed, even if free papers are left.
+  trialEnded?: boolean;
   onSchoolPilot?: boolean;
   school?: { name: string; logoUrl?: string; pilotEndsAt?: string } | null;
   activeUnlocks?: Array<{

@@ -408,6 +408,7 @@ public class MockExamsController : ControllerBase
             difficulty = paper.DifficultyLevel,
             isMockExam = true,
             patternId = req.PatternId,
+            totalTimeMinutes = req.TotalTimeMinutes,
             questions = finalQuestions
         });
     }

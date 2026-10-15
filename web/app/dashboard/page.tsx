@@ -476,7 +476,7 @@ function DashboardBody() {
                 tier: data.subscription.tier,
                 used: data.subscription.used,
                 limit: data.subscription.limit,
-                allowed: data.subscription.onSchoolPilot || data.subscription.used < data.subscription.limit,
+                allowed: data.subscription.allowed,
                 onSchoolPilot: data.subscription.onSchoolPilot,
                 school: data.subscription.school,
                 activeUnlocks: data.subscription.activeUnlocks,
@@ -546,9 +546,9 @@ function DashboardBody() {
         )}
 
         {/* Free papers usage banner — shown to Free tier users only */}
-        {data.subscription.tier === "Free" && !data.subscription.onSchoolPilot && data.subscription.used > 0 && (
+        {data.subscription.tier === "Free" && !data.subscription.onSchoolPilot && (data.subscription.used > 0 || data.subscription.trialEnded) && (
           <div className={`flex flex-wrap items-center gap-4 rounded-2xl border px-5 py-4 ${
-            data.subscription.used >= data.subscription.limit
+            (data.subscription.used >= data.subscription.limit || data.subscription.trialEnded)
               ? "border-red-200 bg-red-50"
               : data.subscription.used >= Math.floor(data.subscription.limit * 0.8)
               ? "border-amber-200 bg-amber-50"
@@ -556,16 +556,18 @@ function DashboardBody() {
           }`}>
             <div className="flex-1 min-w-0">
               <p className={`text-sm font-bold ${
-                data.subscription.used >= data.subscription.limit ? "text-red-800" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "text-amber-800" : "text-brand-800"
+                (data.subscription.used >= data.subscription.limit || data.subscription.trialEnded) ? "text-red-800" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "text-amber-800" : "text-brand-800"
               }`}>
-                {data.subscription.limit - data.subscription.used <= 0
+                {data.subscription.trialEnded && data.subscription.used < data.subscription.limit
+                  ? "Your free trial has ended 🎯"
+                  : data.subscription.limit - data.subscription.used <= 0
                   ? "You've used all your free papers 🎯"
                   : `${data.subscription.used} of ${data.subscription.limit} free papers used`}
               </p>
               <p className={`text-xs mt-0.5 ${
-                data.subscription.used >= data.subscription.limit ? "text-red-600" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "text-amber-600" : "text-brand-600"
+                (data.subscription.used >= data.subscription.limit || data.subscription.trialEnded) ? "text-red-600" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "text-amber-600" : "text-brand-600"
               }`}>
-                {data.subscription.limit - data.subscription.used <= 0
+                {data.subscription.limit - data.subscription.used <= 0 || data.subscription.trialEnded
                   ? "Upgrade to continue practising with unlimited AI-generated papers."
                   : `${data.subscription.limit - data.subscription.used} paper${data.subscription.limit - data.subscription.used === 1 ? "" : "s"} remaining — unlock unlimited practice for ₹129/subject/month.`}
               </p>
@@ -575,7 +577,7 @@ function DashboardBody() {
               <div className="h-2 w-full rounded-full bg-white/60">
                 <div
                   className={`h-2 rounded-full transition-all ${
-                    data.subscription.used >= data.subscription.limit ? "bg-red-500" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "bg-amber-500" : "bg-brand-500"
+                    (data.subscription.used >= data.subscription.limit || data.subscription.trialEnded) ? "bg-red-500" : data.subscription.used >= Math.floor(data.subscription.limit * 0.8) ? "bg-amber-500" : "bg-brand-500"
                   }`}
                   style={{ width: `${Math.min(100, (data.subscription.used / data.subscription.limit) * 100)}%` }}
                 />
