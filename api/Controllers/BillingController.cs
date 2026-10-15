@@ -117,7 +117,7 @@ public class BillingController : ControllerBase
     // Subjects available per grade — mirrors PracticePapersController.IsSubjectAvailable
     internal static List<string> AllSubjectsForGrade(int grade) => grade switch
     {
-        11 or 12 => new() { "Math", "Science", "English", "Logical Reasoning", "Computers", "AI", "General Knowledge", "Commerce" },
+        11 or 12 => new() { "Math", "Science", "English", "Logical Reasoning", "Computers", "General Knowledge", "Commerce" },
         >= 3     => new() { "Math", "Science", "English", "Hindi", "Social Studies", "General Knowledge", "Logical Reasoning", "Computers", "AI" },
         _        => new() { "Math", "Science", "English", "General Knowledge", "Logical Reasoning", "Computers", "AI" }
     };

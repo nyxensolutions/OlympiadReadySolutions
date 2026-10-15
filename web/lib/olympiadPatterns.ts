@@ -177,7 +177,7 @@ export const OLYMPIAD_PATTERNS: OlympiadPattern[] = [
     name: "NCO - National Cyber Olympiad (Level 1)",
     org: "SOF",
     subject: "Computer Science",
-    grades: { min: 5, max: 10 },
+    grades: { min: 5, max: 12 },  // id kept for saved results; NCO runs to Class 12
     level: "L1",
     totalTimeMinutes: 60,
     sections: [

@@ -52,7 +52,8 @@ public class PracticePapersController : ControllerBase
         return subject switch
         {
             "Math" or "Mathematics" or "Science" or "English" or "Logical Reasoning" or "Spell Bee" => grade >= 1 && grade <= 12,
-            "Computers" or "Computer Science" or "AI" or "General Knowledge" => grade >= 1 && grade <= 10,
+            "Computers" or "Computer Science" or "General Knowledge" => grade >= 1 && grade <= 12,
+            "AI" => grade >= 1 && grade <= 10,
             "Social Studies" or "Hindi" => grade >= 3 && grade <= 10,
             "Commerce" => grade == 11 || grade == 12,
             _ => false

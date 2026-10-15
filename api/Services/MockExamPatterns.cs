@@ -33,7 +33,7 @@ public static class MockExamPatterns
         new("sof_lr_l1_1_4", "Logical Reasoning", 1, 4, "L1", 60, [("Verbal Reasoning", 10, 1, F), ("Non-Verbal Reasoning", 10, 1, F), ("Achievers Section", 5, 2, O)]),
         new("sof_lr_l1_5_12", "Logical Reasoning", 5, 12, "L1", 60, [("Verbal Reasoning", 15, 1, F), ("Non-Verbal Reasoning", 20, 1, A), ("Achievers Section", 5, 3, O)]),
         new("sof_nco_l1_1_4", "Computer Science", 1, 4, "L1", 60, [("Logical Reasoning", 5, 1, F), ("Computers & IT", 25, 1, A), ("Achievers Section", 5, 2, O)]),
-        new("sof_nco_l1_5_10", "Computer Science", 5, 10, "L1", 60, [("Logical Reasoning", 10, 1, F), ("Computers & IT", 35, 1, A), ("Achievers Section", 5, 3, O)]),
+        new("sof_nco_l1_5_10", "Computer Science", 5, 12, "L1", 60, [("Logical Reasoning", 10, 1, F), ("Computers & IT", 35, 1, A), ("Achievers Section", 5, 3, O)]),
         new("sof_ai_l1_1_4", "AI", 1, 4, "L1", 60, [("Core AI Concepts", 15, 1, F), ("Logical Reasoning", 10, 1, F), ("Achievers Section", 5, 2, O)]),
         new("sof_ai_l1_5_10", "AI", 5, 10, "L1", 60, [("Core AI Concepts", 25, 1, A), ("Logical Reasoning", 10, 1, F), ("Achievers Section", 5, 3, O)]),
         new("sof_igko_l1_1_4", "General Knowledge", 1, 4, "L1", 60, [("General Awareness", 20, 1, F), ("Current Affairs", 5, 1, F), ("Life Skills", 5, 1, F), ("Achievers Section", 5, 2, O)]),

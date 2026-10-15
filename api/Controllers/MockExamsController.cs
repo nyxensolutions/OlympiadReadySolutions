@@ -87,6 +87,10 @@ public class MockExamsController : ControllerBase
 
         if (req.Level != "L2") req.Level = "L1";
 
+        // GK for Classes 11–12 is practice-only: no official pattern and too few banked questions for a full mock.
+        if (req.Subject == "General Knowledge" && req.Grade >= 11)
+            return BadRequest(new { message = "Mock exams for Class 11–12 General Knowledge are coming soon. Practice tests are available now." });
+
         // The mobile app doesn't send a pattern; use the same official pattern the website would.
         if (req.Sections == null || req.Sections.Count == 0)
         {

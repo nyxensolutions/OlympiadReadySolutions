@@ -56,7 +56,7 @@ const TOP_SUBJECTS: SubjectCard[] = [
     name: "gk",
     label: "General Knowledge",
     exams: "IGKO · GKIO",
-    grades: "Class 1–10",
+    grades: "Class 1–12",
     bg: "bg-gradient-gk",
     border: "border-orange-200",
     textColor: "text-orange-700",
@@ -78,7 +78,7 @@ const TOP_SUBJECTS: SubjectCard[] = [
 
 const MORE_SUBJECTS: SubjectCard[] = [
   { icon: Brain,     name: "lr",      label: "Logical Reasoning", exams: "All Olympiads",      grades: "Class 1–12",  bg: "bg-cyan-50",   border: "border-cyan-200",   textColor: "text-cyan-700"   },
-  { icon: Cpu,       name: "cs",      label: "Computer Science",  exams: "ICSO · CCO",         grades: "Class 1–10",  bg: "bg-indigo-50", border: "border-indigo-200", textColor: "text-indigo-700" },
+  { icon: Cpu,       name: "cs",      label: "Computer Science",  exams: "ICSO · CCO",         grades: "Class 1–12",  bg: "bg-indigo-50", border: "border-indigo-200", textColor: "text-indigo-700" },
   { icon: Map,       name: "sst",     label: "Social Studies",    exams: "ISSO · GKIO",        grades: "Class 3–10",  bg: "bg-teal-50",   border: "border-teal-200",   textColor: "text-teal-700"   },
   { icon: Languages, name: "hindi",   label: "Hindi",             exams: "IHO · ABHO",         grades: "Class 3–10",  bg: "bg-amber-50",  border: "border-amber-200",  textColor: "text-amber-700"  },
   { icon: Briefcase, name: "commerce",label: "Commerce",          exams: "SOF ICO",            grades: "Class 11–12", bg: "bg-rose-50",   border: "border-rose-200",   textColor: "text-rose-700",  badge: "New" },

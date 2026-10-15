@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { Award, Clock, FileText, ChevronRight, CheckCircle2, AlertTriangle, Loader2, Sparkles, Star, Check } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { OLYMPIAD_PATTERNS, getAvailableOlympiads, type OlympiadLevel } from "@/lib/olympiadPatterns";
-import { SUBJECT_GRADE_MAP, type Subject, type GeneratedPaper, type AttemptResult } from "@/lib/types";
+import { MOCK_GRADE_MAP, type Subject, type GeneratedPaper, type AttemptResult } from "@/lib/types";
 import { TestArena } from "@/components/TestArena";
 import { ResultsScreen } from "@/components/ResultsScreen";
 import { useAuth } from "@clerk/nextjs";
@@ -71,7 +71,7 @@ export default function MockExamsPage() {
   const availablePatterns = getAvailableOlympiads(subject, grade, level);
   const selectedPattern = availablePatterns.length > 0 ? availablePatterns[0] : null;
 
-  const gradeRange = SUBJECT_GRADE_MAP[subject] || { min: 1, max: 12 };
+  const gradeRange = MOCK_GRADE_MAP[subject] || { min: 1, max: 12 };
   const gradeOptions = [];
   for (let g = gradeRange.min; g <= gradeRange.max; g++) {
     gradeOptions.push(g);
@@ -80,7 +80,7 @@ export default function MockExamsPage() {
   const handleSubjectChange = (newSubject: Subject) => {
     setSubject(newSubject);
     setGeneratedPaper(null);
-    const range = SUBJECT_GRADE_MAP[newSubject] || { min: 1, max: 12 };
+    const range = MOCK_GRADE_MAP[newSubject] || { min: 1, max: 12 };
     if (grade < range.min) {
       setGrade(range.min);
     } else if (grade > range.max) {
@@ -400,7 +400,7 @@ export default function MockExamsPage() {
                   onChange={(e) => handleSubjectChange(e.target.value as Subject)}
                   className="w-full rounded-xl border-slate-300 bg-slate-50 px-4 py-3 font-medium text-slate-800 focus:border-brand-500 focus:ring-brand-500"
                 >
-                  {Object.keys(SUBJECT_GRADE_MAP).map((s) => (
+                  {Object.keys(MOCK_GRADE_MAP).map((s) => (
                     <option key={s} value={s}>{s}</option>
                   ))}
                 </select>

@@ -44,7 +44,7 @@ public class GeneratePaperRequest : IValidatableObject
         ["Logical Reasoning"]  = (1, 12),
         ["Computer Science"]   = (1, 12),
         ["AI"]                 = (1, 10),
-        ["General Knowledge"]  = (1, 10),
+        ["General Knowledge"]  = (1, 12),  // Classes 11–12: practice only (thin bank, no mock pattern)
         ["Social Studies"]     = (1, 10),
         ["Hindi"]              = (3, 10),
         ["Commerce"]           = (11, 12),

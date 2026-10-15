@@ -168,13 +168,19 @@ export const SUBJECT_GRADE_MAP: Record<Subject, { min: number; max: number }> = 
   Science:              { min: 1,  max: 12 },
   English:              { min: 1,  max: 12 },
   "Logical Reasoning":  { min: 1,  max: 12 },
-  "Computer Science":   { min: 1,  max: 10 },
+  "Computer Science":   { min: 1,  max: 12 },
   AI:                   { min: 1,  max: 10 },
-  "General Knowledge":  { min: 1,  max: 10 },
+  "General Knowledge":  { min: 1,  max: 12 },
   "Social Studies":     { min: 3,  max: 10 },
   Hindi:                { min: 3,  max: 10 },
   "Spell Bee":          { min: 1,  max: 12 },
   Commerce:             { min: 11, max: 12 },
+};
+
+// Mock exams need an official pattern and a deep bank; GK for Classes 11–12 is practice-only for now.
+export const MOCK_GRADE_MAP: Record<Subject, { min: number; max: number }> = {
+  ...SUBJECT_GRADE_MAP,
+  "General Knowledge":  { min: 1,  max: 10 },
 };
 
 export function getSafeSubject(subjectStr: string | null | undefined): Subject {
