@@ -36,7 +36,7 @@ public class GeneratePaperRequest : IValidatableObject
     private static readonly Dictionary<string, (int Min, int Max)> GradeRanges = new(StringComparer.OrdinalIgnoreCase)
     {
         ["Mathematics"]        = (1, 12),
-        ["Science"]            = (1, 8),   // general science (NSO junior)
+        ["Science"]            = (1, 12),  // the website and mock patterns offer Science up to Class 12
         ["Science-Physics"]    = (6, 12),
         ["Science-Chemistry"]  = (6, 12),
         ["Science-Biology"]    = (6, 12),
