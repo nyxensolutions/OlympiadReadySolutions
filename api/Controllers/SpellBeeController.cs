@@ -63,6 +63,15 @@ public class SpellBeeController : ControllerBase
 
         var user = await _users.GetOrSyncAsync(User, ct);
         bool isUnlocked = await _subs.HasUnlockedSubjectAsync(user.UserId, grade, "Spell Bee", ct);
+        if (!isUnlocked && !await _subs.CanGenerateOnlineTestAsync(user.UserId, grade, "Spell Bee", ct))
+        {
+            return StatusCode(402, new
+            {
+                code = "QUOTA_EXCEEDED",
+                message = $"You have used your free attempts. Please unlock Class {grade} Spell Bee to keep practising.",
+                upgrade = true
+            });
+        }
 
         var maxWords = isUnlocked ? 20 : FreeWordLimit;
         count = Math.Min(count, maxWords);
