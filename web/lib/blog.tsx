@@ -76,6 +76,979 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 92 ──────────────────────────────────────────────────────── */
+  {
+    slug: "sof-olympiad-answer-key-how-to-check-and-calculate-score",
+    title: "SOF Olympiad Answer Key: How to Check It and Calculate Your Score",
+    description:
+      "How to find the official SOF answer key for IMO, NSO, IEO and IGKO, match it to your exam set, calculate your score with the correct marking scheme, and estimate your chances of qualifying for Level 2.",
+    date: "2026-10-29",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "SOF answer key",
+      "IMO answer key",
+      "NSO answer key",
+      "IEO answer key",
+      "how to calculate olympiad score",
+      "SOF level 2 cut off",
+    ],
+    excerpt:
+      "Just sat an SOF Olympiad? Here is how to find the right answer key for your exam set, calculate your score with the correct marks per section, and estimate whether you might qualify for Level 2.",
+    content: (
+      <>
+        <P>
+          Once the Olympiad is over, most students and parents want to know one thing: how did it go? The answer
+          key lets you work out an expected score weeks before the official result. Done carefully, it also tells
+          you whether Level 2 is a realistic hope and what to work on next year. This guide covers SOF Olympiads
+          such as IMO, NSO, IEO and IGKO.
+        </P>
+
+        <H2 id="where">Where to find the official answer key</H2>
+        <UL>
+          <LI><B>The official source is sofworld.org.</B> SOF publishes answer keys on its website after the exam. Some keys may need your roll number or login details.</LI>
+          <LI><B>Unofficial keys appear first.</B> Coaching websites often post their own answers on the day of the exam. They can be useful for a rough idea, but they are not official and sometimes contain mistakes.</LI>
+          <LI><B>Your school&rsquo;s Olympiad coordinator</B> can also help, especially if you are not sure which set you sat.</LI>
+        </UL>
+
+        <H2 id="sets">Match the key to your exam set</H2>
+        <P>
+          SOF holds each Olympiad on more than one date, and each date usually has its own question paper (often
+          called Set A, Set B, Set C and so on). The answers for one set will not match another set&rsquo;s paper.
+          Before checking anything, confirm the date your school held the exam and use the key for that set.
+        </P>
+        <Callout>
+          <B>Check the first few answers.</B> If the first five or six answers in the key look completely wrong for
+          your paper, you almost certainly have the wrong set. Don&rsquo;t panic. Find the right key before calculating.
+        </Callout>
+
+        <H2 id="calculate">How to calculate your score</H2>
+        <P>
+          SOF Olympiads have <B>no negative marking</B>, so you only need to count correct answers. What changes by
+          class is the marks per question in the Achievers section.
+        </P>
+        <H3>Classes 1&ndash;4 (35 questions, 40 marks)</H3>
+        <UL>
+          <LI>Every question outside the Achievers section is worth 1 mark (30 questions).</LI>
+          <LI>Each of the 5 Achievers questions is worth <B>2 marks</B>.</LI>
+          <LI><B>Score = correct one-mark answers + (2 × correct Achievers answers).</B></LI>
+        </UL>
+        <H3>Classes 5&ndash;12 (50 questions, 60 marks)</H3>
+        <UL>
+          <LI>Every question outside the Achievers section is worth 1 mark (45 questions).</LI>
+          <LI>Each of the 5 Achievers questions is worth <B>3 marks</B>.</LI>
+          <LI><B>Score = correct one-mark answers + (3 × correct Achievers answers).</B></LI>
+        </UL>
+        <P>
+          <B>Example:</B> a Class 6 student gets 34 of the 45 one-mark questions right and 3 of the 5 Achievers
+          questions. Their score is 34 + (3 × 3) = <B>43 out of 60</B>.
+        </P>
+        <P>
+          For the full section-by-section pattern, see our guides for <A href="/blog/imo-sample-papers-class-5">IMO</A>,{" "}
+          <A href="/blog/nso-sample-papers-class-5">NSO</A> and <A href="/blog/ieo-preparation-guide">IEO</A>.
+        </P>
+
+        <H2 id="remember">Can you remember your answers?</H2>
+        <P>
+          Students usually keep the question paper but not the OMR sheet, so your estimate depends on remembering
+          what you marked. Two tips:
+        </P>
+        <UL>
+          <LI>If you circled answers in the question paper (as our <A href="/blog/how-to-fill-omr-sheet-olympiad">OMR guide</A> recommends), your estimate will be accurate.</LI>
+          <LI>If you&rsquo;re unsure about some answers, calculate a low estimate (counting doubtful ones as wrong) and a high estimate. The real score will usually be between them.</LI>
+        </UL>
+
+        <H2 id="level-2">Will you qualify for Level 2?</H2>
+        <P>
+          Level 2 is held for IMO, NSO and IEO, for Classes 3&ndash;12. Under SOF&rsquo;s published rules, you qualify by
+          meeting any one of three criteria: being in the top 5% of your class among all Level 1 candidates, being
+          among the top 25 rank holders of your class in your zone, or being your school&rsquo;s class topper (where at
+          least 10 students from the class sat the exam) with at least 50% marks.
+        </P>
+        <P>
+          SOF also publishes the <B>top-5% cut-off marks</B> for each class once results are out. For example,
+          SOF&rsquo;s published 2025&ndash;26 IMO cut-offs included 32 out of 40 for Class 3 and 42 out of 60 for Class 5.
+          Cut-offs differ by exam, class and year, so use last year&rsquo;s figures only as a rough guide. Ties are broken
+          using section marks, with the Achievers section counted first.
+        </P>
+        <Callout>
+          <B>Don&rsquo;t write off your chances too early.</B> Even if your score is below last year&rsquo;s top-5% cut-off,
+          you may still qualify as a zonal top-25 rank holder or as your school&rsquo;s class topper. Wait for the
+          official result.
+        </Callout>
+
+        <H2 id="error">If you think an answer in the key is wrong</H2>
+        <P>
+          SOF does not run a public challenge window like some entrance exams. If you are confident an official answer
+          is wrong, ask your school&rsquo;s Olympiad coordinator to raise it with SOF. Unofficial coaching keys are
+          different: when they disagree with the official key, the official key is the one used for results.
+        </P>
+
+        <H2 id="use-it">Use the key to plan, not just to score</H2>
+        <OL>
+          <LIo>Mark every question you got wrong, and note the topic.</LIo>
+          <LIo>Sort the mistakes by cause: concept gap, misreading, calculation slip, or running out of time. Our <A href="/blog/how-to-analyse-olympiad-mock-test">mock test analysis guide</A> explains how.</LIo>
+          <LIo>If you might qualify for Level 2, start preparing now. Level 2 is usually held in February. See our <A href="/blog/olympiad-level-2-preparation-december-to-february">Level 2 preparation plan</A>.</LIo>
+          <LIo>If not, write down the two topics that cost you most. They are next year&rsquo;s starting point.</LIo>
+        </OL>
+        <P>
+          When results arrive, our guide to <A href="/blog/sof-olympiad-result-rank-card-explained">reading SOF results and rank cards</A>{" "}
+          explains what each rank means.
+        </P>
+
+        <CTA href="/topics">Turn this year&rsquo;s mistakes into targeted practice, topic by topic.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Where can I find the official SOF Olympiad answer key?",
+        a: "The official answer keys for SOF Olympiads such as IMO, NSO, IEO and IGKO are published on sofworld.org after the exam. Coaching websites often post unofficial keys on the exam day, but only the official SOF key is used for results.",
+      },
+      {
+        q: "How do I calculate my IMO or NSO score from the answer key?",
+        a: "There is no negative marking, so count only correct answers. For Classes 1–4, score = correct one-mark answers + 2 × correct Achievers answers (maximum 40). For Classes 5–12, score = correct one-mark answers + 3 × correct Achievers answers (maximum 60).",
+      },
+      {
+        q: "Why doesn't the answer key match my question paper?",
+        a: "SOF holds each Olympiad on several dates, and each date usually has a different question paper (Set A, Set B and so on). Check which date your school held the exam and use the answer key for that set.",
+      },
+      {
+        q: "What score is needed to qualify for SOF Level 2?",
+        a: "There is no fixed score. You qualify by being in the top 5% of your class, among the top 25 rank holders of your class in your zone, or your school's class topper (with at least 10 students appearing and at least 50% marks). SOF publishes class-wise top-5% cut-offs after results; for example, its 2025–26 IMO cut-offs included 32/40 for Class 3 and 42/60 for Class 5.",
+      },
+    ],
+  },
+
+  /* 93 ──────────────────────────────────────────────────────── */
+  {
+    slug: "olympiad-level-2-preparation-december-to-february",
+    title: "SOF Olympiad Level 2 Preparation: A December-to-February Plan",
+    description:
+      "Qualified (or likely to qualify) for IMO, NSO or IEO Level 2? Here is how the Level 2 paper differs from Level 1 — including why there is no reasoning section — and a week-by-week plan from December to the February exam.",
+    date: "2026-10-29",
+    tag: "Guides",
+    readingMinutes: 10,
+    keywords: [
+      "olympiad level 2 preparation",
+      "IMO level 2 preparation",
+      "NSO level 2 preparation",
+      "IEO level 2",
+      "SOF level 2 exam pattern",
+    ],
+    excerpt:
+      "Level 2 is a different exam from Level 1: no reasoning section, more subject questions, and tougher competition. Here is the pattern and a week-by-week plan from December to February.",
+    content: (
+      <>
+        <P>
+          Qualifying for Level 2 of IMO, NSO or IEO puts your child among the strongest students in their class.
+          In recent years SOF has held Level 2 in February, which leaves about ten weeks from the Level 1 results
+          season. Many qualifiers prepare for Level 2 the same way they prepared for Level 1. That is a mistake,
+          because the Level 2 paper is built differently. This guide explains the difference and gives a practical
+          plan for the weeks in between.
+        </P>
+        <Callout>
+          <B>Dates and rules change.</B> Check the official Level 2 date, centre and pattern for your class on
+          sofworld.org or with your school once qualification is confirmed.
+        </Callout>
+
+        <H2 id="how-different">How Level 2 differs from Level 1</H2>
+        <P>
+          The biggest change is easy to miss: according to SOF&rsquo;s published patterns, <B>Level 2 has no logical
+          reasoning section</B>. Those questions are replaced with more subject questions.
+        </P>
+        <H3>IMO Level 2</H3>
+        <UL>
+          <LI><B>Classes 3&ndash;4:</B> 30 Mathematics questions (1 mark each) + 5 Achievers questions (2 marks each) = 35 questions, 40 marks</LI>
+          <LI><B>Classes 5&ndash;10:</B> 45 Mathematics questions (1 mark each) + 5 Achievers questions (3 marks each) = 50 questions, 60 marks</LI>
+          <LI><B>Classes 11&ndash;12:</B> 25 Mathematics + 20 Mathematical Reasoning/Applied Mathematics + 5 Achievers questions</LI>
+        </UL>
+        <H3>NSO Level 2</H3>
+        <UL>
+          <LI><B>Classes 3&ndash;4:</B> 30 Science questions + 5 Achievers questions (2 marks each)</LI>
+          <LI><B>Classes 5&ndash;10:</B> 45 Science questions + 5 Achievers questions (3 marks each)</LI>
+          <LI><B>Classes 11&ndash;12:</B> 25 Physics &amp; Chemistry + 20 Mathematics/Biology + 5 Achievers questions</LI>
+        </UL>
+        <H3>IEO Level 2</H3>
+        <UL>
+          <LI><B>Classes 3&ndash;4:</B> 20 Word and Structure Knowledge + 10 Reading + 5 Achievers questions (2 marks each)</LI>
+          <LI><B>Classes 5&ndash;12:</B> 35 Word and Structure Knowledge + 10 Reading + 5 Achievers questions (3 marks each). There is no Spoken and Written Expression section.</LI>
+        </UL>
+        <Callout>
+          <B>What this means:</B> at Level 1, strong reasoning skills could make up for gaps in the subject. At Level 2
+          they can&rsquo;t. Almost every mark now comes from subject knowledge, and the competition is the top slice
+          of the country. Depth in the syllabus is what decides ranks.
+        </Callout>
+
+        <H2 id="ranking">How Level 2 ranks are decided</H2>
+        <P>
+          SOF ranks Level 2 students on their Level 2 total first. Ties are broken using Level 2 section marks, then
+          Level 1 total marks, then Level 1 section marks. So Level 1 still matters, but only as a tie-breaker.
+        </P>
+
+        <H2 id="plan">A 10-week plan (December to February)</H2>
+        <H3>Weeks 1&ndash;2: Diagnose</H3>
+        <UL>
+          <LI>Go back through your Level 1 paper with the answer key and list every topic you lost marks on. See <A href="/blog/sof-olympiad-answer-key-how-to-check-and-calculate-score">how to check the answer key</A>.</LI>
+          <LI>List the chapters of your class syllabus and mark each one strong, okay or weak.</LI>
+          <LI>Sit one Level 2 sample paper untimed to see the difficulty.</LI>
+        </UL>
+        <H3>Weeks 3&ndash;6: Deepen the syllabus</H3>
+        <UL>
+          <LI>Work through every weak and okay chapter, one or two per week, with harder problems than school exercises.</LI>
+          <LI>For maths, focus on multi-step word problems and questions that combine two topics.</LI>
+          <LI>For science, focus on application: experiments, &ldquo;what happens if&rdquo; questions, diagrams and calculations.</LI>
+          <LI>For English, read daily and work on grammar precision; with no spoken-expression section, grammar and vocabulary carry even more weight.</LI>
+        </UL>
+        <H3>Weeks 7&ndash;9: Exam practice</H3>
+        <UL>
+          <LI>One full timed Level 2 paper a week, followed by a full review.</LI>
+          <LI>Practise the Achievers section separately with 15&ndash;20 hard questions a week.</LI>
+          <LI>Keep an error log, and revise from it every few days.</LI>
+        </UL>
+        <H3>Week 10: Consolidate</H3>
+        <UL>
+          <LI>Light revision from the error log and formula or fact sheets only.</LI>
+          <LI>No new topics in the final days. Follow our <A href="/blog/olympiad-exam-day-checklist">exam day checklist</A>.</LI>
+        </UL>
+
+        <H2 id="balance">Balancing Level 2 with school exams</H2>
+        <P>
+          Level 2 often falls close to school finals, and for Class 10 and 12 students, close to board exams. Level 2
+          preparation is deep work on the school syllabus, so it supports school exams rather than competing with
+          them. For Class 10 students, see our guide on <A href="/blog/class-10-pre-boards-and-olympiad-balance">balancing pre-boards and Olympiads</A>.
+        </P>
+
+        <H2 id="mindset">Mindset</H2>
+        <P>
+          Qualifying is already an achievement. At Level 2 almost everyone is strong, so a good rank needs depth
+          and calm execution, not panic. Students who prepare steadily over ten weeks do much better than those who
+          cram in the last fortnight. For more strategy, read <A href="/blog/how-to-crack-olympiad-level-2">how to crack Olympiad Level 2</A>.
+        </P>
+
+        <CTA href="/mock-exams">Practise harder, Level 2-style questions with full explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "When is the SOF Olympiad Level 2 exam held?",
+        a: "In recent years SOF has held Level 2 for IMO, NSO and IEO in February (in the 2025–26 cycle, on 8 February 2026, with a separate date for Maharashtra). Check sofworld.org or your school for the confirmed date each year.",
+      },
+      {
+        q: "Is there a logical reasoning section in Olympiad Level 2?",
+        a: "No. According to SOF's published patterns, IMO and NSO Level 2 papers have no logical reasoning section; those marks go to more subject questions. IEO Level 2 has Word and Structure Knowledge, Reading and Achievers sections only.",
+      },
+      {
+        q: "How is the Level 2 exam pattern different from Level 1?",
+        a: "For Classes 5–10, IMO Level 2 has 45 Mathematics questions plus 5 Achievers questions (50 questions, 60 marks), and NSO Level 2 has 45 Science questions plus 5 Achievers questions. Level 1 instead includes a logical reasoning section. Classes 3–4 and 11–12 have their own patterns.",
+      },
+      {
+        q: "How should I prepare for Olympiad Level 2?",
+        a: "Spend the first two weeks diagnosing weak chapters from your Level 1 paper, four weeks deepening the syllabus with harder problems, three weeks on timed Level 2 sample papers with an error log, and the final week on light revision only.",
+      },
+    ],
+  },
+
+  /* 94 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nsejs-preparation-guide",
+    title: "NSEJS Preparation Guide: Pattern, Syllabus and Last-Month Strategy",
+    description:
+      "Everything about NSEJS (National Standard Examination in Junior Science), the first step towards IJSO: eligibility, the 2026 exam date, paper pattern and negative marking, syllabus, best books, and a final-month preparation plan.",
+    date: "2026-10-29",
+    tag: "Science",
+    readingMinutes: 10,
+    keywords: [
+      "NSEJS preparation",
+      "NSEJS 2026",
+      "NSEJS exam pattern",
+      "NSEJS syllabus",
+      "national standard examination in junior science",
+      "IJSO India",
+    ],
+    excerpt:
+      "NSEJS is the first stage of India's route to the International Junior Science Olympiad. Here is the 2026 date, pattern, syllabus and a final-month plan.",
+    content: (
+      <>
+        <P>
+          NSEJS (National Standard Examination in Junior Science) is the first stage of India&rsquo;s selection
+          process for the International Junior Science Olympiad (IJSO). It is organised by the Indian Association of
+          Physics Teachers (IAPT), and the later stages are run by HBCSE. It is very different from school-level
+          Olympiads like the NSO: harder, with negative marking, and covering physics, chemistry, biology and
+          mathematics together.
+        </P>
+        <Callout>
+          <B>Key 2026 date:</B> NSEJS 2026 is scheduled for <B>22 November 2026</B> (afternoon session, 2 hours), as
+          listed in IAPT&rsquo;s 2026 schedule. Registration for 2026 has closed. Always confirm details on iapt.org.in.
+        </Callout>
+
+        <H2 id="eligibility">Who can take NSEJS</H2>
+        <UL>
+          <LI>Students in Class 10 or below (Classes 8&ndash;10 for 2026) as of 30 November of the exam year.</LI>
+          <LI>Students must not have completed (or be due to complete) their Class 10 board exams before 30 November.</LI>
+          <LI>There are birth-date and Indian-citizenship/residence conditions. Check the IAPT brochure for the exact rules.</LI>
+          <LI>Registration is through an enrolment centre (often a school or coaching centre) in August&ndash;September.</LI>
+        </UL>
+
+        <H2 id="pattern">Exam pattern</H2>
+        <UL>
+          <LI><B>Duration:</B> 2 hours</LI>
+          <LI><B>Questions:</B> 60 multiple-choice questions, for a total of 216 marks in recent papers</LI>
+          <LI><B>Two question types</B> (recent pattern): single-correct questions with <B>negative marking</B> for wrong answers, and multiple-correct questions where you get marks only if you choose all the correct options</LI>
+          <LI><B>Subjects:</B> physics, chemistry, biology and mathematics</LI>
+          <LI><B>Format:</B> offline, pen-and-paper with an OMR sheet</LI>
+        </UL>
+        <Callout>
+          <B>Negative marking changes your strategy.</B> Unlike SOF exams, guessing blindly costs marks. Only answer a
+          single-correct question if you can rule out at least two options. For multiple-correct questions, mark only
+          the options you are sure of, since one wrong option can cost you the whole question.
+        </Callout>
+
+        <H2 id="syllabus">Syllabus</H2>
+        <P>
+          The syllabus is broadly the CBSE science and maths content up to Class 10, but questions go well beyond
+          textbook level:
+        </P>
+        <UL>
+          <LI><B>Physics:</B> motion and laws of motion, gravitation, work and energy, sound, light (reflection, refraction, lenses), electricity and magnetism</LI>
+          <LI><B>Chemistry:</B> atoms and molecules, mole concept, structure of the atom, chemical reactions, acids, bases and salts, metals and non-metals, carbon compounds, periodic classification</LI>
+          <LI><B>Biology:</B> cell and tissues, life processes, control and coordination, reproduction, heredity, diversity of life, ecology</LI>
+          <LI><B>Mathematics:</B> algebra, geometry, mensuration, trigonometry, number systems, statistics and probability, at Class 10 level and slightly beyond</LI>
+        </UL>
+
+        <H2 id="books">Best preparation resources</H2>
+        <UL>
+          <LI><B>NCERT Classes 9 and 10:</B> the foundation. Every line matters for biology and chemistry.</LI>
+          <LI><B>Past NSEJS papers:</B> the most important resource for understanding question style and difficulty.</LI>
+          <LI><B>Concept-building books for physics and chemistry</B> at a level between Class 10 and Class 11, especially for mechanics, optics and the mole concept.</LI>
+          <LI>For maths, practise <A href="/blog/ioqm-preparation-guide">IOQM</A>-style problem solving at an introductory level.</LI>
+        </UL>
+
+        <H2 id="final-month">Final-month plan (late October to 22 November)</H2>
+        <UL>
+          <LI><B>Week 1:</B> Two past papers under timed conditions. Score them with negative marking and list the weakest chapters.</LI>
+          <LI><B>Week 2:</B> Repair the weakest physics and chemistry chapters: mechanics, optics, electricity, mole concept.</LI>
+          <LI><B>Week 3:</B> Biology (NCERT line by line) and maths revision. Two more timed past papers.</LI>
+          <LI><B>Final days:</B> Revise from your error log, formula sheet and biology notes. No new topics.</LI>
+        </UL>
+        <P>
+          The general approach in our <A href="/blog/olympiad-revision-plan-last-30-days">30-day revision plan</A> works
+          for NSEJS too. The difference is negative marking, so practise deciding when <em>not</em> to answer.
+        </P>
+
+        <H2 id="after">What comes after NSEJS</H2>
+        <OL>
+          <LIo><B>INJSO</B> (Indian National Junior Science Olympiad), conducted by HBCSE for top NSEJS scorers, usually early in the following year.</LIo>
+          <LIo><B>Orientation-cum-selection camp (OCSC)</B> at HBCSE for the top INJSO performers.</LIo>
+          <LIo><B>IJSO:</B> the team selected at the camp represents India internationally.</LIo>
+        </OL>
+        <P>
+          Even students who don&rsquo;t go beyond NSEJS gain a lot: it is excellent preparation for Class 11 science
+          and for JEE and NEET. See <A href="/blog/how-olympiads-help-jee-neet-preparation">how Olympiads help JEE and NEET preparation</A>.
+        </P>
+
+        <CTA href="/?subject=Science">Strengthen your science concepts with Olympiad-level practice.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "When is NSEJS 2026?",
+        a: "NSEJS 2026 is scheduled for 22 November 2026, as a 2-hour afternoon paper, according to IAPT's 2026 schedule. Registration for 2026 has closed. Confirm all details on the official IAPT website, iapt.org.in.",
+      },
+      {
+        q: "What is the NSEJS exam pattern?",
+        a: "Recent NSEJS papers have had 60 multiple-choice questions worth a total of 216 marks, in 2 hours. The paper includes single-correct questions with negative marking and multiple-correct questions where all correct options must be chosen. It covers physics, chemistry, biology and mathematics.",
+      },
+      {
+        q: "Who is eligible for NSEJS?",
+        a: "Students in Class 10 or below (Classes 8–10 for 2026) as of 30 November of the exam year who have not completed their Class 10 board exams before that date, subject to birth-date and Indian citizenship/residence conditions in the IAPT brochure.",
+      },
+      {
+        q: "What comes after NSEJS?",
+        a: "Top NSEJS performers are selected for INJSO (Indian National Junior Science Olympiad), conducted by HBCSE. The best INJSO performers attend a selection camp at HBCSE, from which India's team for the International Junior Science Olympiad (IJSO) is chosen.",
+      },
+    ],
+  },
+
+  /* 95 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nsep-nsec-nseb-national-standard-exams-guide",
+    title: "NSEP, NSEC, NSEB and NSEA: A Guide to the National Standard Examinations",
+    description:
+      "A guide to the National Standard Examinations in Physics, Chemistry, Biology and Astronomy, the first stage of India's science Olympiad programme for Classes 10–12: 2026 dates, eligibility, pattern, and how to prepare alongside JEE or NEET.",
+    date: "2026-10-29",
+    tag: "Science",
+    readingMinutes: 9,
+    keywords: [
+      "NSEP preparation",
+      "NSEC preparation",
+      "NSEB preparation",
+      "NSEA",
+      "national standard examination 2026",
+      "science olympiad class 11",
+    ],
+    excerpt:
+      "NSEP, NSEC, NSEB and NSEA are the first step to the International Physics, Chemistry, Biology and Astronomy Olympiads. Here are the 2026 dates, eligibility, pattern and a preparation strategy.",
+    content: (
+      <>
+        <P>
+          The National Standard Examinations (NSEs) are the first stage of India&rsquo;s science Olympiad programme
+          for senior students. There are four: <B>NSEP</B> (Physics), <B>NSEC</B> (Chemistry), <B>NSEB</B> (Biology) and{" "}
+          <B>NSEA</B> (Astronomy). They are organised by IAPT, and the later stages are run by HBCSE. Top performers
+          can go on to represent India at the International Physics, Chemistry, Biology and Astronomy Olympiads.
+        </P>
+        <Callout>
+          <B>2026 dates (IAPT schedule):</B> NSEA on Saturday 21 November 2026; NSEP, NSEC and NSEB on Sunday
+          22 November 2026, in separate two-hour sessions so a student can take more than one. Registration for 2026
+          has closed. Confirm details on iapt.org.in.
+        </Callout>
+
+        <H2 id="eligibility">Eligibility</H2>
+        <UL>
+          <LI>Students in Classes 10, 11 or 12 as of 30 November of the exam year (for 2026).</LI>
+          <LI>Students must not have completed (or be due to complete) Class 12 board exams before 30 November.</LI>
+          <LI>Birth-date and Indian citizenship/residence conditions apply. See the IAPT brochure.</LI>
+          <LI>You can register for more than one NSE, since they are held in different sessions.</LI>
+        </UL>
+
+        <H2 id="pattern">What the papers are like</H2>
+        <UL>
+          <LI><B>Duration:</B> 2 hours per subject</LI>
+          <LI><B>Format:</B> offline, pen-and-paper with an OMR sheet</LI>
+          <LI><B>Question types</B> (recent pattern): single-correct questions with negative marking, plus multiple-correct questions that only score if every correct option is chosen</LI>
+          <LI><B>Level:</B> broadly Class 11&ndash;12 content (CBSE level and beyond), with an emphasis on concepts rather than formula-plugging</LI>
+        </UL>
+        <P>
+          Exact question counts and marks are published in the IAPT brochure each year, so check it before your
+          final practice papers.
+        </P>
+
+        <H2 id="which">Which NSE should you take?</H2>
+        <UL>
+          <LI><B>JEE aspirants:</B> NSEP and NSEC fit naturally. The concepts overlap heavily with JEE Main and Advanced.</LI>
+          <LI><B>NEET aspirants:</B> NSEB, and NSEC as a second option.</LI>
+          <LI><B>Strong in maths and physics, curious about space:</B> NSEA, which draws on physics and mathematics applied to astronomy.</LI>
+          <LI>Many students take two. Pick subjects you would study deeply anyway.</LI>
+        </UL>
+
+        <H2 id="prepare">How to prepare (alongside JEE or NEET)</H2>
+        <UL>
+          <LI><B>Concepts over speed:</B> NSE questions reward understanding why. Revise chapter theory, not just problem types.</LI>
+          <LI><B>Past papers:</B> work through several years of past NSE papers under timed conditions and score them with negative marking.</LI>
+          <LI><B>NCERT for biology and inorganic chemistry:</B> line-by-line knowledge pays off.</LI>
+          <LI><B>Decide when to skip:</B> with negative marking, an unanswered question beats a wild guess. Answer only when you can eliminate options.</LI>
+        </UL>
+
+        <H2 id="final-weeks">Final three weeks</H2>
+        <UL>
+          <LI><B>Week 1:</B> two timed past papers per subject; list weak chapters.</LI>
+          <LI><B>Week 2:</B> targeted chapter repair, with the theory written up as short notes.</LI>
+          <LI><B>Week 3:</B> one more past paper, then revise from notes and the error log only.</LI>
+        </UL>
+
+        <H2 id="stages">What comes next</H2>
+        <OL>
+          <LIo><B>Indian National Olympiad (INO):</B> INPhO, INChO, INBO or INAO, held by HBCSE early in the following year for top NSE scorers.</LIo>
+          <LIo><B>Orientation-cum-selection camp</B> at HBCSE for the best INO performers.</LIo>
+          <LIo><B>International Olympiad:</B> the selected team represents India.</LIo>
+        </OL>
+        <P>
+          Doing well in this pathway carries real weight. Some institutes have introduced admission routes for
+          strong performers in the national Olympiad programme, as explained in our guide on{" "}
+          <A href="/blog/do-olympiad-certificates-help-in-admissions">whether Olympiads help with admissions</A>. Younger
+          students should look at <A href="/blog/nsejs-preparation-guide">NSEJS</A>, the junior version.
+        </P>
+
+        <CTA href="/?subject=Science">Build strong science fundamentals with Olympiad-level practice.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "When are NSEP, NSEC, NSEB and NSEA in 2026?",
+        a: "According to IAPT's 2026 schedule, NSEA is on 21 November 2026, and NSEP, NSEC and NSEB are on 22 November 2026 in separate two-hour sessions. Confirm the final timetable on iapt.org.in.",
+      },
+      {
+        q: "Who can appear for the National Standard Examinations?",
+        a: "For 2026, students in Classes 10, 11 or 12 as of 30 November who have not completed their Class 12 board exams before that date, subject to birth-date and citizenship/residence conditions in the IAPT brochure.",
+      },
+      {
+        q: "Is there negative marking in NSEP and NSEC?",
+        a: "Yes. Recent NSE papers have used negative marking for wrong answers in single-correct questions, and multiple-correct questions score only if all correct options are chosen. Check the current year's brochure for exact marks.",
+      },
+      {
+        q: "Does NSE preparation help with JEE and NEET?",
+        a: "Yes. NSEP and NSEC overlap heavily with JEE concepts, and NSEB with NEET biology. Because NSE questions focus on understanding rather than speed, preparing for them strengthens fundamentals for both exams.",
+      },
+    ],
+  },
+
+  /* 96 ──────────────────────────────────────────────────────── */
+  {
+    slug: "rmo-inmo-preparation-after-ioqm",
+    title: "Cleared IOQM? How to Prepare for RMO and INMO",
+    description:
+      "A guide for students who qualified from IOQM: how RMO and INMO differ from IOQM, the 2026–27 dates, how to write proofs that score, the key topics, and a plan for the weeks before each exam.",
+    date: "2026-10-29",
+    tag: "Maths",
+    readingMinutes: 10,
+    keywords: [
+      "RMO preparation",
+      "INMO preparation",
+      "RMO 2026",
+      "how to write olympiad proofs",
+      "after IOQM",
+      "regional mathematical olympiad",
+    ],
+    excerpt:
+      "RMO and INMO are proof-based exams: six problems, full written solutions, no answer options. Here is how they differ from IOQM and how to prepare in the weeks you have.",
+    content: (
+      <>
+        <P>
+          Qualifying from IOQM is a big achievement. The next stages, the Regional Mathematical Olympiad (RMO) and
+          the Indian National Mathematical Olympiad (INMO), are a different kind of exam. IOQM asks for numerical
+          answers. RMO and INMO ask you to <B>prove</B> results and write complete solutions, which are graded by
+          examiners. A student with a correct idea but a messy, incomplete write-up can lose most of the marks. This
+          guide focuses on what changes and how to use the weeks you have.
+        </P>
+        <Callout>
+          <B>2026&ndash;27 dates (HBCSE schedule):</B> RMO on <B>15 November 2026</B> (3 hours, 6 problems) and INMO on{" "}
+          <B>17 January 2027</B> (4.5 hours, 6 problems). Check olympiads.hbcse.tifr.res.in for any updates.
+        </Callout>
+
+        <H2 id="who">Who qualifies for RMO</H2>
+        <P>
+          Selection to RMO is based on IOQM scores, region by region. For 2026&ndash;27, HBCSE&rsquo;s criteria select about
+          the top 200 Category A candidates (Classes 8&ndash;11) and the top 40 Category B candidates (Class 12) from each
+          region, subject to a minimum IOQM score. Check the official list for your region.
+        </P>
+
+        <H2 id="difference">How RMO and INMO differ from IOQM</H2>
+        <UL>
+          <LI><B>Proofs, not numbers:</B> every problem needs a complete, logical argument.</LI>
+          <LI><B>Fewer, deeper problems:</B> six problems in 3 hours (RMO) or 4.5 hours (INMO), so about 30&ndash;45 minutes each.</LI>
+          <LI><B>Partial credit:</B> examiners give marks for real progress, such as a correct key lemma or a correct case, even if the full proof is unfinished.</LI>
+          <LI><B>Presentation matters:</B> a correct idea written unclearly can lose marks.</LI>
+        </UL>
+
+        <H2 id="proofs">How to write proofs that score</H2>
+        <OL>
+          <LIo><B>State what you will prove.</B> Begin with a clear sentence, for example &ldquo;We show that n must be odd.&rdquo;</LIo>
+          <LIo><B>Define your notation.</B> Name points, variables and cases before you use them.</LIo>
+          <LIo><B>One step per line,</B> each with a reason: &ldquo;since triangle ABC is isosceles&hellip;&rdquo;, &ldquo;by AM&ndash;GM&hellip;&rdquo;</LIo>
+          <LIo><B>Check every case.</B> Many lost marks come from a missed case, such as n = 1, equality cases, or negative values.</LIo>
+          <LIo><B>Write down partial progress.</B> If you can&rsquo;t finish, clearly state what you have proved. It can still earn marks.</LIo>
+          <LIo><B>End with a conclusion</B> that answers the question asked.</LIo>
+        </OL>
+        <Callout>
+          <B>The fastest way to improve proof writing:</B> solve a past RMO problem, write a full solution, then compare
+          it with an official or well-known solution. Note exactly what yours left out. Doing this for a few problems a
+          week improves write-ups more than solving many problems silently.
+        </Callout>
+
+        <H2 id="topics">Topics to prioritise</H2>
+        <UL>
+          <LI><B>Number theory:</B> divisibility, modular arithmetic, primes, Diophantine equations</LI>
+          <LI><B>Algebra:</B> inequalities (AM&ndash;GM, Cauchy&ndash;Schwarz), polynomials, functional equations at an introductory level</LI>
+          <LI><B>Geometry:</B> angle chasing, similar triangles, cyclic quadrilaterals, power of a point, key triangle centres</LI>
+          <LI><B>Combinatorics:</B> counting, the pigeonhole principle, invariants and extremal arguments</LI>
+        </UL>
+        <P>
+          Geometry and number theory problems appear in almost every RMO paper, so make sure both are strong.
+        </P>
+
+        <H2 id="resources">Resources</H2>
+        <UL>
+          <LI><B>Past RMO and INMO papers</B>, the most important resource</LI>
+          <LI><B><em>Challenge and Thrill of Pre-College Mathematics</em></B> and <B><em>An Excursion in Mathematics</em></B> for core topics</LI>
+          <LI><B><em>Problem-Solving Strategies</em></B> (Engel) for INMO-level depth</LI>
+          <LI>Geometry-focused books and problem sets for the geometry that RMO tests regularly</LI>
+        </UL>
+
+        <H2 id="rmo-plan">Two-to-three weeks before RMO</H2>
+        <UL>
+          <LI>Do one full past RMO paper (3 hours) twice a week, and spend the next day writing up clean solutions.</LI>
+          <LI>On other days, two or three problems in your weakest area, with full write-ups.</LI>
+          <LI>In the final three days, review solutions you have already written. No new heavy topics.</LI>
+        </UL>
+        <H2 id="exam-strategy">In the exam hall</H2>
+        <UL>
+          <LI>Read all six problems first and rank them by how approachable they look.</LI>
+          <LI>Spend real time on the two or three you are most likely to solve completely.</LI>
+          <LI>Do rough work separately, then write a clean final solution.</LI>
+          <LI>Leave 15 minutes to write partial progress on unfinished problems.</LI>
+        </UL>
+
+        <H2 id="inmo">If you qualify for INMO</H2>
+        <P>
+          INMO is longer (4.5 hours) and harder. Between RMO and INMO you have about two months. Spend them on deeper
+          problems, especially inequalities, functional equations and harder geometry, and keep writing full
+          solutions. Top INMO performers are invited to the training camp (IMOTC), from which India&rsquo;s team for the
+          International Mathematical Olympiad is selected.
+        </P>
+        <P>
+          New to the pathway? Start with our <A href="/blog/ioqm-preparation-guide">IOQM preparation guide</A>.
+        </P>
+
+        <CTA href="/?subject=Math">Keep your maths fundamentals sharp with Olympiad-level practice.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "When is RMO 2026?",
+        a: "According to HBCSE's 2026–27 schedule, RMO is on 15 November 2026 (3 hours, 6 proof-based problems) and INMO is on 17 January 2027 (4.5 hours, 6 problems). Check olympiads.hbcse.tifr.res.in for updates.",
+      },
+      {
+        q: "How is RMO different from IOQM?",
+        a: "IOQM asks for numerical answers. RMO and INMO are proof-based: you write complete solutions that examiners grade, with partial credit for real progress. Clear, logical presentation matters as much as the key idea.",
+      },
+      {
+        q: "Who qualifies for RMO after IOQM?",
+        a: "For 2026–27, HBCSE's criteria select about the top 200 Category A candidates (Classes 8–11) and top 40 Category B candidates (Class 12) from each region based on IOQM scores, subject to a minimum score. Check the official qualifier list for your region.",
+      },
+      {
+        q: "How can I improve my proof writing for RMO?",
+        a: "Write full solutions to past RMO problems, then compare them with official or well-known solutions and note what you missed. State what you will prove, define notation, give a reason for every step, check all cases, and write down partial progress if you can't finish.",
+      },
+    ],
+  },
+
+  /* 97 ──────────────────────────────────────────────────────── */
+  {
+    slug: "nmms-exam-preparation-guide",
+    title: "NMMS Exam Preparation Guide: Eligibility, Pattern and Study Plan",
+    description:
+      "A complete guide to the NMMS (National Means-cum-Merit Scholarship) exam for Class 8 students: who is eligible, the ₹12,000-a-year scholarship, the MAT and SAT papers, how to prepare, and a 10-week study plan.",
+    date: "2026-10-29",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "NMMS exam preparation",
+      "NMMS eligibility",
+      "NMMS exam pattern",
+      "NMMS MAT SAT",
+      "NMMS scholarship class 8",
+    ],
+    excerpt:
+      "NMMS offers ₹12,000 a year from Class 9 to 12 for Class 8 students in government and aided schools. Here is the eligibility, the two papers, and a 10-week preparation plan.",
+    content: (
+      <>
+        <P>
+          The National Means-cum-Merit Scholarship (NMMS) is one of India&rsquo;s most valuable scholarships for
+          school students. Selected students receive <B>₹12,000 a year from Class 9 to Class 12</B>, a total of up
+          to ₹48,000, with around one lakh scholarships awarded each year. The exam is taken in Class 8 and is
+          conducted by each state, usually between November and February. This guide covers eligibility, the
+          exam, and how to prepare.
+        </P>
+        <Callout>
+          <B>Exam dates vary by state.</B> NMMS is conducted by state education authorities, so the date, application
+          window and some rules differ. Check your state&rsquo;s official notification and the National Scholarship
+          Portal (scholarship.gov.in).
+        </Callout>
+
+        <H2 id="eligibility">Who is eligible</H2>
+        <UL>
+          <LI>Students studying in <B>Class 8</B> at a <B>government, government-aided or local body school</B>. Students in private unaided schools are not eligible.</LI>
+          <LI>Annual family income below <B>₹3,50,000</B>.</LI>
+          <LI>Usually at least <B>55% marks in Class 7</B> (relaxed by 5% for SC/ST students in most states).</LI>
+        </UL>
+
+        <H2 id="pattern">Exam pattern</H2>
+        <P>NMMS has two papers, usually taken on the same day:</P>
+        <UL>
+          <LI><B>MAT (Mental Ability Test):</B> 90 multiple-choice questions, 90 minutes. Tests reasoning: analogies, classification, number and letter series, patterns, coding-decoding, hidden figures and more.</LI>
+          <LI><B>SAT (Scholastic Aptitude Test):</B> 90 multiple-choice questions, 90 minutes. Covers science, social science and mathematics from the Class 7 and 8 syllabus.</LI>
+        </UL>
+        <P>
+          Each paper carries 90 marks. To be considered for the merit list, students typically need at least 40% in
+          each paper (32% for SC/ST), and the final selection follows the state&rsquo;s merit list and quotas.
+        </P>
+
+        <H2 id="mat">Preparing for MAT</H2>
+        <P>
+          MAT is very similar to the logical reasoning sections of Olympiads, and it is the most improvable paper with
+          practice.
+        </P>
+        <UL>
+          <LI>Practise each question type separately: series, analogies, classification, coding-decoding, mirror and water images, figure counting, direction sense and blood relations.</LI>
+          <LI>Learn the shortcuts. Our <A href="/blog/coding-decoding-questions-for-olympiad">coding-decoding guide</A> and <A href="/blog/how-to-improve-logical-reasoning-for-olympiads">logical reasoning guide</A> cover the main types.</LI>
+          <LI>Build speed: 90 questions in 90 minutes is one a minute. Practise in timed sets of 30.</LI>
+        </UL>
+
+        <H2 id="sat">Preparing for SAT</H2>
+        <UL>
+          <LI><B>Science:</B> Class 7 and 8 NCERT chapters, read carefully, plus diagrams and definitions.</LI>
+          <LI><B>Social science:</B> history, geography and civics from Classes 7 and 8. Map work and important dates help.</LI>
+          <LI><B>Mathematics:</B> Class 7 and 8 topics, with special focus on fractions, percentages, ratios, algebra basics and mensuration. <A href="/blog/mental-maths-tricks-for-olympiad">Mental maths shortcuts</A> save time.</LI>
+          <LI>SAT covers a lot of ground, so revise little and often rather than in long sessions.</LI>
+        </UL>
+
+        <H2 id="plan">A 10-week study plan</H2>
+        <UL>
+          <LI><B>Weeks 1&ndash;2:</B> One previous-year paper of each type to diagnose. Start daily MAT practice (20 minutes).</LI>
+          <LI><B>Weeks 3&ndash;5:</B> SAT science and maths, chapter by chapter, with MAT practice continuing daily.</LI>
+          <LI><B>Weeks 6&ndash;7:</B> SAT social science, and map practice.</LI>
+          <LI><B>Weeks 8&ndash;9:</B> Full timed MAT and SAT papers twice a week, with an error log.</LI>
+          <LI><B>Week 10:</B> Revise from the error log and short notes only.</LI>
+        </UL>
+
+        <H2 id="keeping">Keeping the scholarship</H2>
+        <P>
+          The scholarship continues only if the student keeps up their marks in later classes (for example, scoring
+          at least 60% in Class 10 for it to continue into Class 11). Check the renewal rules on the National
+          Scholarship Portal each year, and renew on time.
+        </P>
+
+        <H2 id="olympiads">NMMS and Olympiads</H2>
+        <P>
+          NMMS preparation overlaps a lot with Olympiad preparation, especially the reasoning section. Students who
+          practise Olympiad-style questions are well placed for MAT, and the same habits (timed practice, error logs,
+          mock tests) work for both.
+        </P>
+
+        <CTA href="/topics">Practise reasoning and Class 7–8 topics with instant explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Who is eligible for the NMMS exam?",
+        a: "Class 8 students in government, government-aided or local body schools, with annual family income below ₹3,50,000 and, in most states, at least 55% marks in Class 7 (relaxed by 5% for SC/ST). Students in private unaided schools are not eligible.",
+      },
+      {
+        q: "How much is the NMMS scholarship?",
+        a: "Selected students receive ₹12,000 a year from Class 9 to Class 12, up to ₹48,000 in total, subject to meeting the renewal conditions each year.",
+      },
+      {
+        q: "What is the NMMS exam pattern?",
+        a: "There are two papers: MAT (Mental Ability Test) with 90 reasoning questions in 90 minutes, and SAT (Scholastic Aptitude Test) with 90 questions on Class 7–8 science, social science and maths in 90 minutes. Each carries 90 marks.",
+      },
+      {
+        q: "When is the NMMS exam held?",
+        a: "NMMS is conducted by each state, usually between November and February, so the date differs by state. Check your state education department's notification and the National Scholarship Portal.",
+      },
+    ],
+  },
+
+  /* 98 ──────────────────────────────────────────────────────── */
+  {
+    slug: "winter-vacation-study-plan-for-olympiad",
+    title: "Winter Vacation Study Plan for Olympiad Students (Classes 1–10)",
+    description:
+      "How to use the December winter break well: separate plans for Level 2 qualifiers, students with exams still ahead, and students starting next year's preparation early, with daily schedules by class and ideas for learning that feels like a break.",
+    date: "2026-10-29",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "winter vacation study plan",
+      "winter break study timetable",
+      "olympiad preparation in holidays",
+      "holiday study plan for kids",
+      "december study plan",
+    ],
+    excerpt:
+      "The winter break is a rare stretch of free time. Here is how to use it for Olympiads without losing the holiday, with plans for Level 2 qualifiers, upcoming exams and next year's head start.",
+    content: (
+      <>
+        <P>
+          The winter break, usually in late December, comes at an interesting point in the Olympiad year. Some
+          students are preparing for Level 2 in February. Some still have Olympiads coming up. Others have finished
+          for the year and could use a little of the break to get ahead. A good holiday plan does two things: it keeps
+          skills sharp, and it leaves plenty of real rest. Children who come back from the break rested learn faster
+          in January.
+        </P>
+
+        <H2 id="pick-your-plan">Pick the plan that fits</H2>
+        <H3>Plan A: Qualified (or likely to qualify) for Level 2</H3>
+        <UL>
+          <LI>This is the most important study window before the February exam. Aim for 45&ndash;60 minutes a day (Classes 5 and up) or 25&ndash;30 minutes (Classes 3&ndash;4).</LI>
+          <LI>Focus on depth in the subject. Level 2 has no reasoning section. Our <A href="/blog/olympiad-level-2-preparation-december-to-february">Level 2 plan</A> covers this.</LI>
+          <LI>Take one full Level 2 sample paper a week during the break.</LI>
+        </UL>
+        <H3>Plan B: Olympiads still coming up</H3>
+        <UL>
+          <LI>Some SOF exam sets and other Olympiads fall in December or January. Follow the final weeks of our <A href="/blog/olympiad-revision-plan-last-30-days">30-day revision plan</A>.</LI>
+          <LI>Keep daily practice short and focused: one topic, one review, and the error log.</LI>
+        </UL>
+        <H3>Plan C: Done for the year, getting ahead</H3>
+        <UL>
+          <LI>Just 15&ndash;25 minutes a day, three or four days a week.</LI>
+          <LI>Fix the two weakest topics from this year&rsquo;s paper (check them against the <A href="/blog/sof-olympiad-answer-key-how-to-check-and-calculate-score">answer key</A>).</LI>
+          <LI>Build skills that help every subject: reading, mental maths and reasoning.</LI>
+        </UL>
+
+        <H2 id="daily">A sample holiday day</H2>
+        <P>For a Class 5 student on Plan A:</P>
+        <UL>
+          <LI><B>Morning (after breakfast):</B> 30 minutes of focused topic work, when attention is best</LI>
+          <LI><B>Late morning:</B> outdoor play, family time, or a trip</LI>
+          <LI><B>Afternoon:</B> 20 minutes reviewing yesterday&rsquo;s mistakes, plus 15 minutes of free reading</LI>
+          <LI><B>Evening:</B> free time, no study</LI>
+        </UL>
+        <P>
+          For younger children (Classes 1&ndash;3), one 15&ndash;20 minute session a day is plenty. For Classes 8&ndash;10,
+          sessions can be longer, but keep at least one full day off each week. Our guide on{" "}
+          <A href="/blog/how-many-hours-to-study-for-olympiad">daily study time by class</A> has the details.
+        </P>
+        <Callout>
+          <B>Protect the break.</B> A holiday spent doing four hours of study a day usually backfires: children come back
+          tired and less motivated. Short, regular sessions with plenty of rest work better, and the child returns to
+          school looking forward to it.
+        </Callout>
+
+        <H2 id="fun-learning">Learning that feels like a holiday</H2>
+        <UL>
+          <LI><B>Science:</B> try two or three of our <A href="/blog/science-experiments-at-home-for-nso">easy home science experiments</A>.</LI>
+          <LI><B>Maths:</B> board games with scoring, cooking with measurements, shopping with a budget, or <A href="/blog/mental-maths-tricks-for-olympiad">mental maths tricks</A> as a family challenge.</LI>
+          <LI><B>English:</B> pick two holiday books and talk about them, and use our <A href="/blog/how-to-improve-english-vocabulary-for-kids">vocabulary-building ideas</A>.</LI>
+          <LI><B>GK:</B> a weekly family quiz on current events and the places you visit.</LI>
+          <LI><B>Reasoning:</B> puzzles, Sudoku, and logic games.</LI>
+        </UL>
+
+        <H2 id="parents">For parents</H2>
+        <UL>
+          <LI>Agree on the plan with your child at the start of the break, including the days off.</LI>
+          <LI>Keep the study slot at the same time each day, so it becomes a habit rather than a negotiation.</LI>
+          <LI>Check progress weekly, not daily.</LI>
+          <LI>Travelling? Two short sessions a week on the road are enough to stay in touch.</LI>
+        </UL>
+
+        <CTA href="/topics">Short daily practice sets that fit around the holidays.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How many hours should a child study during the winter vacation?",
+        a: "It depends on the goal. Level 2 qualifiers in Class 5 and above can do 45–60 minutes a day, Classes 3–4 about 25–30 minutes. Students who are done for the year need only 15–25 minutes, three or four days a week. Always keep at least one full day off each week.",
+      },
+      {
+        q: "What should my child study for Olympiads in the winter break?",
+        a: "Level 2 qualifiers should deepen subject knowledge, since Level 2 has no reasoning section. Students with exams still coming up should follow a final-weeks revision plan. Others should fix their two weakest topics from this year's paper and build reading, mental maths and reasoning skills.",
+      },
+      {
+        q: "How do I keep holiday study from feeling like a burden?",
+        a: "Keep sessions short and at a fixed time, mix in hands-on learning like home science experiments, cooking with measurements, family quizzes and puzzles, and protect plenty of free time and full days off.",
+      },
+      {
+        q: "Is the winter break a good time to start next year's Olympiad preparation?",
+        a: "Yes, lightly. Two or three short sessions a week on this year's weak topics, plus reading and reasoning practice, give a real head start without turning the holiday into school.",
+      },
+    ],
+  },
+
+  /* 99 ──────────────────────────────────────────────────────── */
+  {
+    slug: "class-10-pre-boards-and-olympiad-balance",
+    title: "Class 10 Pre-Boards and Olympiads: How to Balance Both",
+    description:
+      "Class 10 students face pre-boards, Olympiad exams and possibly Level 2, all before the board exams. Here is how to decide what to prioritise, combine preparation, and plan December to February without burning out.",
+    date: "2026-10-29",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "class 10 pre board preparation",
+      "olympiad and board exam class 10",
+      "class 10 study plan",
+      "balance olympiad and boards",
+      "class 10 olympiad level 2",
+    ],
+    excerpt:
+      "Pre-boards, Olympiads, Level 2 and then boards: Class 10 students have a crowded winter. Here is how to prioritise and combine preparation so each one helps the next.",
+    content: (
+      <>
+        <P>
+          Class 10 has the most crowded winter of any school year. Pre-board exams usually fall in December or January,
+          some Olympiad sets are still being held, Level 2 qualifiers have a February exam, and the board exams start
+          soon after. Students and parents often ask whether they should drop Olympiads this year. Usually the answer is
+          no, but they should be handled differently from earlier years.
+        </P>
+
+        <H2 id="priorities">Get the priorities straight</H2>
+        <OL>
+          <LIo><B>Board exams</B> come first. They matter most for the next step.</LIo>
+          <LIo><B>Pre-boards</B> are practice for the boards. Treat them seriously, but as rehearsals.</LIo>
+          <LIo><B>Olympiads and Level 2</B> are valuable, especially maths and science, because the preparation overlaps heavily with the board syllabus.</LIo>
+        </OL>
+        <P>
+          The good news: Class 10 Olympiad maths and science <B>use the same syllabus</B> as the boards, just with deeper
+          questions. Done right, Olympiad practice strengthens board preparation instead of competing with it. See our
+          guide on <A href="/blog/olympiad-vs-board-exams-how-to-balance">balancing Olympiads and board exams</A>.
+        </P>
+
+        <H2 id="combine">How to combine preparation</H2>
+        <UL>
+          <LI><B>Study each chapter for the board first:</B> NCERT theory, definitions, derivations and diagrams.</LI>
+          <LI><B>Then add 10&ndash;15 Olympiad-style questions</B> on the same chapter. They test whether you really understand it.</LI>
+          <LI><B>Use one error log for both.</B> A misconception that costs an Olympiad mark will also cost a board mark.</LI>
+          <LI><B>Don&rsquo;t over-practise options-only thinking.</B> Boards need written answers, so keep writing full solutions for maths and long answers for science.</LI>
+        </UL>
+        <Callout>
+          <B>Where the two differ:</B> boards reward complete, well-presented written answers and exact NCERT language.
+          Olympiads reward speed, application and spotting traps. Spend most of December on board-style writing, and
+          use Olympiad questions as a weekly test of depth.
+        </Callout>
+
+        <H2 id="calendar">A December-to-February plan</H2>
+        <H3>December</H3>
+        <UL>
+          <LI>Main focus: pre-board preparation, with full syllabus revision and written practice.</LI>
+          <LI>If you have an Olympiad exam this month, give it 3&ndash;4 sessions of mock practice in the final week before it.</LI>
+          <LI>Level 2 qualifiers: two short sessions a week on harder subject problems.</LI>
+        </UL>
+        <H3>January (pre-boards and after)</H3>
+        <UL>
+          <LI>Write the pre-boards, then spend the following days going through every mistake.</LI>
+          <LI>Level 2 qualifiers: step up to 3&ndash;4 sessions a week, including one timed Level 2 paper a week.</LI>
+        </UL>
+        <H3>February</H3>
+        <UL>
+          <LI>Level 2 week: light revision and the exam. Use our <A href="/blog/olympiad-level-2-preparation-december-to-february">Level 2 plan</A> for the final weeks.</LI>
+          <LI>After Level 2, switch fully to board preparation.</LI>
+        </UL>
+
+        <H2 id="drop">When dropping an Olympiad makes sense</H2>
+        <UL>
+          <LI>Pre-board results show you are seriously behind in several board subjects.</LI>
+          <LI>Stress is affecting sleep, health or mood. See our guide to <A href="/blog/olympiad-exam-anxiety-in-children">exam anxiety</A>.</LI>
+          <LI>The Olympiad is in a subject unrelated to your board weak spots and adds little.</LI>
+        </UL>
+        <P>
+          If none of these apply, keeping maths and science Olympiads in your plan usually <em>helps</em> your board
+          preparation.
+        </P>
+
+        <H2 id="wellbeing">Look after yourself</H2>
+        <UL>
+          <LI>Keep a regular sleep schedule. Memory consolidates during sleep, so late nights cost more than they gain.</LI>
+          <LI>Take short breaks every 45&ndash;50 minutes, and keep some exercise or outdoor time in your day.</LI>
+          <LI>Plan one relaxed half-day each week.</LI>
+        </UL>
+        <P>
+          Looking ahead: Class 10 is also the year many students take <A href="/blog/nsejs-preparation-guide">NSEJS</A> or
+          start on the senior <A href="/blog/nsep-nsec-nseb-national-standard-exams-guide">National Standard Examinations</A>,
+          which build directly towards JEE and NEET.
+        </P>
+
+        <CTA href="/?subject=Math">Practise Class 10 maths and science at Olympiad depth.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Should Class 10 students skip Olympiads because of board exams?",
+        a: "Usually not. Class 10 Olympiad maths and science use the same syllabus as the boards, with deeper questions, so the practice strengthens board preparation. Consider dropping one only if pre-board results show you are seriously behind, or stress is affecting your health.",
+      },
+      {
+        q: "How can I prepare for pre-boards and Olympiads together?",
+        a: "Study each chapter for the board first, with NCERT theory and written answers, then test your understanding with 10–15 Olympiad-style questions on the same chapter. Keep one error log for both, and keep writing full solutions since boards need written answers.",
+      },
+      {
+        q: "Is Olympiad Level 2 worth it in Class 10?",
+        a: "Yes, if you qualify. Level 2 tests the Class 10 syllabus in depth, which supports board preparation. Increase Level 2 practice gradually after the pre-boards, then switch fully to board revision once the Level 2 exam is over.",
+      },
+      {
+        q: "What is the difference between board and Olympiad preparation?",
+        a: "Boards reward complete, well-presented written answers and exact NCERT language. Olympiads reward speed, application and spotting traps in multiple-choice questions. Both rely on the same underlying understanding of the syllabus.",
+      },
+    ],
+  },
+
   /* 77 ──────────────────────────────────────────────────────── */
   {
     slug: "olympiad-revision-plan-last-30-days",
@@ -844,6 +1817,7 @@ export const posts: BlogPost[] = [
     description:
       "A parent's guide to SOF Olympiad results for IMO, NSO, IEO and IGKO: what the different ranks mean, how to read the performance report, how awards and Level 2 qualification generally work, and what to do next.",
     date: "2026-09-23",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -915,10 +1889,19 @@ export const posts: BlogPost[] = [
 
         <H2 id="level-2">Level 2 qualification</H2>
         <P>
-          Some SOF Olympiads, including IMO, NSO and IEO, have a second level for top Level 1 performers. SOF&rsquo;s
-          published criteria have typically included a class-wise top percentage of all candidates, top rank
-          holders in each zone, and class toppers from school sections that meet minimum participation and score
-          conditions. Because the criteria can be revised, check the current year&rsquo;s rules on the SOF website.
+          Only three SOF Olympiads have a second level: <B>IMO, NSO and IEO</B>, for Classes 3&ndash;12. IGKO, NCO,
+          ISSO and the other SOF exams are single-level, as are Classes 1&ndash;2 in every subject. According to SOF&rsquo;s
+          published rules, a student qualifies for Level 2 by meeting <em>any one</em> of these:
+        </P>
+        <UL>
+          <LI>Being in the <B>top 5% of students in their class</B> among everyone who sat Level 1.</LI>
+          <LI>Being among the <B>top 25 rank holders of their class in their zone</B>.</LI>
+          <LI>Being the <B>class topper at their school</B>, where at least 10 students from that class took the exam, and scoring at least 50%.</LI>
+        </UL>
+        <P>
+          When students tie on total marks, SOF breaks the tie using section marks, with the Achievers section
+          usually counted first. That is one more reason the Achievers section matters. Rules can be revised, so
+          check the current year&rsquo;s criteria on the SOF website.
         </P>
         <P>
           If your child has qualified, Level 2 is a noticeably harder paper aimed at the strongest students.
@@ -955,7 +1938,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "Who qualifies for SOF Olympiad Level 2?",
-        a: "SOF's published criteria have typically included a class-wise top percentage of all candidates, top rank holders in each zone, and class toppers from school sections meeting minimum participation and score conditions. The criteria can change, so check the current rules on the official SOF website.",
+        a: "Level 2 is held only for IMO, NSO and IEO, for Classes 3–12. A student qualifies by meeting any one of SOF's three criteria: being in the top 5% of their class among all Level 1 candidates, being among the top 25 rank holders of their class in their zone, or being their school's class topper (where at least 10 students from the class took the exam) with at least 50% marks. Check the current rules on the official SOF website.",
       },
       {
         q: "What should we do after the Olympiad results?",
@@ -2093,6 +3076,7 @@ export const posts: BlogPost[] = [
     description:
       "Class 4 IMO sample papers reveal exactly what the exam tests and where students lose marks. This guide covers the topic distribution, the trickiest question types, and a practical preparation plan.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 7,
     keywords: [
@@ -2116,14 +3100,18 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">Class 4 IMO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 10 questions</LI>
-          <LI><B>Mathematical Reasoning:</B> 20 questions from the Class 4 maths syllabus</LI>
-          <LI><B>Everyday Mathematics:</B> 5 word problems applying Class 4 concepts to real-world situations</LI>
-          <LI><B>Achievers Section:</B> 5 questions at 3 marks each (Class 5 difficulty)</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Mathematical Reasoning:</B> 10 questions from the Class 4 maths syllabus, 1 mark each</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems applying Class 4 concepts to real-world situations, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 higher-order questions at 2 marks each</LI>
         </UL>
-        <P>Total: 40 questions in 60 minutes. No negative marking.</P>
+        <P>Total: 35 questions and 40 marks in 60 minutes. No negative marking. (Source: SOF&rsquo;s published Class 1&ndash;4 pattern.)</P>
 
         <H2 id="topic-distribution">Topic distribution in Class 4 IMO sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Fractions (basic):</B> 4&ndash;5 questions &mdash; comparing fractions, equivalent fractions, adding/subtracting with same denominators</LI>
           <LI><B>Multiplication and division:</B> 4&ndash;5 questions &mdash; multi-digit multiplication, division with remainders, word problems</LI>
@@ -2142,10 +3130,10 @@ export const posts: BlogPost[] = [
 
         <H2 id="achievers-at-class4">Achievers section at Class 4</H2>
         <P>
-          The Achievers section at Class 4 typically draws from the Class 5 syllabus &mdash; mainly
-          introduction to decimals, more complex fraction operations, and area/perimeter problems with
-          non-standard shapes. Students aiming for Level 2 should spend 2&ndash;3 weeks studying these
-          ahead-of-grade topics specifically.
+          SOF describes the Achievers section as higher-order thinking questions on the <B>same Class 4
+          syllabus</B>. It is not ahead-of-grade content, but it asks for more steps and more careful reasoning.
+          Fractions, multi-step word problems and area/perimeter with non-standard shapes are common sources of
+          these questions. Students aiming for Level 2 should practise these harder question types specifically.
         </P>
         <P>Common Achievers question types:</P>
         <UL>
@@ -2173,11 +3161,11 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many questions are in the IMO Class 4 paper?",
-        a: "40 questions in 60 minutes: 10 Logical Reasoning, 20 Mathematical Reasoning, 5 Everyday Mathematics (word problems), and 5 Achievers questions worth 3 marks each. No negative marking."
+        a: "35 questions (40 marks) in 60 minutes: 10 Logical Reasoning, 10 Mathematical Reasoning and 10 Everyday Mathematics questions at 1 mark each, plus 5 Achievers questions at 2 marks each. No negative marking."
       },
       {
         q: "What level of difficulty is the IMO Class 4 Achievers section?",
-        a: "The Achievers section at Class 4 draws from the Class 5 syllabus — mainly decimals introduction, more complex fraction operations, and area/perimeter of non-standard shapes. Students need to study slightly ahead of their current class syllabus to score well here."
+        a: "The Achievers section has higher-order thinking questions on the same Class 4 syllabus. The content isn't ahead of grade, but the questions need more steps and careful reasoning. Fractions, multi-step word problems and non-standard area/perimeter problems are common sources."
       },
       {
         q: "How many sample papers should a Class 4 student practise for IMO?",
@@ -2191,8 +3179,9 @@ export const posts: BlogPost[] = [
     slug: "imo-sample-papers-class-5",
     title: "IMO Sample Papers for Class 5: Complete Topic Guide and Preparation Plan",
     description:
-      "Class 5 is the final year of the 35-question IMO paper before the step up to 50 questions. Sample papers at this level introduce decimals, factors, and basic geometry problems. This guide covers everything you need to prepare effectively.",
+      "Class 5 is the first year of the full 50-question IMO paper. Sample papers at this level test decimals, factors, HCF/LCM and basic geometry. This guide covers the official pattern, key topics and a preparation plan.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 7,
     keywords: [
@@ -2207,23 +3196,27 @@ export const posts: BlogPost[] = [
     content: (
       <>
         <P>
-          Class 5 is a pivotal IMO year. The 35-question paper format is the same as Classes 1&ndash;4,
-          but the topics are significantly more demanding &mdash; decimals, factors and multiples, HCF and LCM,
-          percentage introduction, and area/perimeter all enter the syllabus. Students who have coasted through
+          Class 5 is a pivotal IMO year. The paper grows from 35 questions (Classes 1&ndash;4) to <B>50 questions
+          in the same 60 minutes</B>, and the topics get much more demanding: decimals, factors and multiples, HCF
+          and LCM, percentage and area/perimeter all enter the syllabus. Students who have coasted through
           the earlier classes often find Class 5 is where preparation needs to become more systematic.
           Sample papers are the most efficient way to identify exactly which new topics need the most attention.
         </P>
 
         <H2 id="paper-structure">Class 5 IMO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 10 questions</LI>
-          <LI><B>Mathematical Reasoning:</B> 20 questions</LI>
-          <LI><B>Everyday Mathematics:</B> 5 word problems</LI>
-          <LI><B>Achievers Section:</B> 5 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions, 1 mark each</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions, 1 mark each</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
-        <P>Total: 35 questions in 60 minutes. No negative marking.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. (Source: SOF&rsquo;s published Class 5 pattern.)</P>
 
         <H2 id="topic-distribution">Key topics in Class 5 IMO sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Decimals:</B> 4&ndash;6 questions &mdash; the most heavily tested new topic at Class 5. Includes comparing decimals, operations, and place value in decimal form</LI>
           <LI><B>Factors and multiples / HCF and LCM:</B> 3&ndash;5 questions &mdash; finding HCF/LCM, word problems using LCM (when two events coincide)</LI>
@@ -2234,10 +3227,10 @@ export const posts: BlogPost[] = [
           <LI><B>Volume (introduction):</B> 2&ndash;3 questions &mdash; cubes and cuboids</LI>
           <LI><B>Geometry:</B> 2&ndash;3 questions &mdash; angles introduction, types of triangles and quadrilaterals</LI>
           <LI><B>Data handling:</B> 2 questions &mdash; reading bar graphs and pictographs</LI>
-          <LI><B>Logical Reasoning:</B> 10 questions covering series, analogies, coding-decoding, and mirror images</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions covering series, analogies, coding-decoding, and mirror images</LI>
         </UL>
         <Callout>
-          <B>Decimals are the most important topic to master at Class 5.</B> They appear in 4&ndash;6 questions
+          <B>Decimals are the most important topic to master at Class 5.</B> They often appear in several questions
           directly and also affect fraction-decimal conversion questions and word problems. Students who are
           not fully comfortable with decimal place value consistently underperform in Class 5 IMO sample papers
           even when they know all other topics well.
@@ -2245,14 +3238,15 @@ export const posts: BlogPost[] = [
 
         <H2 id="achievers-patterns">Achievers section at Class 5</H2>
         <P>
-          Class 5 Achievers questions typically draw from the Class 6 syllabus. Common types:
+          SOF describes the Achievers section as higher-order thinking questions on the <B>same Class 5
+          syllabus</B>, not on next year&rsquo;s topics. What makes them hard is the extra steps. Common types:
         </P>
         <UL>
           <LI>An HCF/LCM word problem with three numbers instead of two</LI>
           <LI>A percentage problem with a reverse calculation (finding the original value given the percentage result)</LI>
           <LI>A composite area/perimeter problem with an unusual shape configuration</LI>
-          <LI>An introduction to integers (negative numbers) &mdash; ordering or basic operations</LI>
-          <LI>A ratio or proportion problem at Class 6 difficulty</LI>
+          <LI>A decimal or fraction word problem that needs two or three operations in the right order</LI>
+          <LI>A pattern or data question where you must find the rule before you can answer</LI>
         </UL>
 
         <H2 id="preparation-plan">6-week preparation plan</H2>
@@ -2261,7 +3255,7 @@ export const posts: BlogPost[] = [
           <LI><B>Week 2:</B> HCF, LCM, factors, multiples &mdash; include word problems (two events coinciding). This is the second most tested area.</LI>
           <LI><B>Week 3:</B> Fractions extended (unlike fractions, mixed numbers, fraction-decimal conversion), area and perimeter of composite shapes.</LI>
           <LI><B>Week 4:</B> Percentage basics, volume, data handling. Reasoning section &mdash; series and coding-decoding practice.</LI>
-          <LI><B>Week 5:</B> Achievers section prep &mdash; Class 6 topics. Timed full paper.</LI>
+          <LI><B>Week 5:</B> Achievers section prep &mdash; harder multi-step questions on Class 5 topics. Timed full paper.</LI>
           <LI><B>Week 6:</B> Two complete timed papers. Error review. No new topics.</LI>
         </UL>
 
@@ -2271,19 +3265,19 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "What is the most important topic in IMO Class 5?",
-        a: "Decimals — they appear in 4–6 questions directly and affect fraction-decimal conversion and word problems as well. HCF and LCM are a close second, appearing in 3–5 questions including word problems about events coinciding."
+        a: "Decimals — they appear directly in several questions and also affect fraction-decimal conversion and word problems. HCF and LCM are a close second, including word problems about events coinciding."
       },
       {
         q: "How is IMO Class 5 different from Class 4?",
-        a: "Class 5 introduces several major new topics: decimals, HCF and LCM, percentage basics, volume of cuboids, and angles/triangle types in geometry. The question depth also increases — word problems at Class 5 are more multi-step than Class 4. The paper format (35 questions, 60 minutes) stays the same."
+        a: "The paper grows from 35 questions (40 marks) to 50 questions (60 marks) in the same 60 minutes, and Achievers questions rise from 2 to 3 marks each. Class 5 also introduces decimals, HCF and LCM, percentage basics, volume of cuboids, and angles/triangle types, and word problems become more multi-step."
       },
       {
         q: "What does the IMO Class 5 Achievers section test?",
-        a: "Achievers questions at Class 5 draw from the Class 6 syllabus — HCF/LCM with three numbers, reverse percentage calculations, introduction to integers (negative numbers), ratio and proportion, and composite area/perimeter with complex shapes."
+        a: "Five higher-order thinking questions worth 3 marks each, on the same Class 5 syllabus. Typical examples are HCF/LCM problems with three numbers, reverse percentage calculations, multi-step decimal word problems, and composite area/perimeter with complex shapes."
       },
       {
         q: "How should a Class 5 student divide preparation time for IMO?",
-        a: "Spend roughly 40% of preparation time on decimals and HCF/LCM (the two highest-weighted topics), 30% on fractions, area/perimeter, and percentage, 20% on reasoning section practice, and 10% on Achievers-level ahead-of-grade topics. This weighting reflects the actual mark distribution in Class 5 IMO papers."
+        a: "A reasonable split is about 40% on decimals and HCF/LCM, 30% on fractions, area/perimeter and percentage, 20% on the 15-question reasoning section, and 10% on harder Achievers-style multi-step questions. Adjust it to whatever your first diagnostic paper shows."
       }
     ]
   },
@@ -2295,6 +3289,7 @@ export const posts: BlogPost[] = [
     description:
       "IMO Class 7 is where algebra and geometry both become major portions of the paper. This guide covers the topic distribution, the hardest question types in sample papers, and a preparation strategy built around what actually appears in the exam.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -2326,6 +3321,10 @@ export const posts: BlogPost[] = [
         <P>Total: 50 questions in 60 minutes. No negative marking.</P>
 
         <H2 id="topic-distribution">Topic distribution in Class 7 IMO sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Integers (advanced):</B> 3&ndash;4 questions &mdash; operations, properties, word problems with negative numbers</LI>
           <LI><B>Fractions and decimals (extended):</B> 3&ndash;4 questions &mdash; operations with rational numbers, comparison</LI>
@@ -2370,11 +3369,11 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "What topics are most important for IMO Class 7?",
-        a: "Simple equations (algebra), triangle properties (angle sum, exterior angle, congruence), and ratio/proportion with profit/loss and simple interest applications. These three areas together account for roughly 40% of the marks and are the most consistently tested Achievers-section topics."
+        a: "Simple equations (algebra), triangle properties (angle sum, exterior angle, congruence), and ratio/proportion with profit/loss and simple interest applications. These three areas carry a big share of the mathematical questions and are common sources of Achievers-section questions."
       },
       {
         q: "How many questions are in the IMO Class 7 paper?",
-        a: "50 questions in 60 minutes: 15 Logical Reasoning, 20 Mathematical Reasoning, 10 Everyday Mathematics word problems, and 5 Achievers questions worth 3 marks each. This is the same format as Classes 6–10."
+        a: "50 questions in 60 minutes: 15 Logical Reasoning, 20 Mathematical Reasoning, 10 Everyday Mathematics word problems, and 5 Achievers questions worth 3 marks each. This is the same format SOF uses for Classes 5–12."
       },
       {
         q: "What makes Class 7 IMO harder than Class 6?",
@@ -2394,6 +3393,7 @@ export const posts: BlogPost[] = [
     description:
       "IMO Class 10 is the most mathematically demanding school Olympiad paper in the IMO series. This guide covers the topic distribution across coordinate geometry, quadratics, circles, and trigonometry, and how to prepare for the Achievers section.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 9,
     keywords: [
@@ -2426,6 +3426,10 @@ export const posts: BlogPost[] = [
         <P>Total: 50 questions in 60 minutes. No negative marking.</P>
 
         <H2 id="topic-distribution">Topic distribution in Class 10 IMO sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Quadratic equations:</B> 4&ndash;6 questions &mdash; factorisation, quadratic formula, nature of roots (discriminant), word problems requiring equation formation</LI>
           <LI><B>Coordinate geometry:</B> 4&ndash;5 questions &mdash; distance formula, section formula, area of triangle using coordinates, slope</LI>
@@ -2506,6 +3510,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 3 is an ideal first Olympiad for young science learners. This guide covers what the paper tests, how the questions are worded, the most common topic areas in sample papers, and a simple 4-week preparation plan.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 6,
     keywords: [
@@ -2536,6 +3541,10 @@ export const posts: BlogPost[] = [
         <P>Total: 35 questions in 60 minutes. No negative marking.</P>
 
         <H2 id="topic-distribution">Topics in Class 3 NSO sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Plants:</B> 4&ndash;5 questions &mdash; parts of a plant and their functions, types of plants, plants we eat</LI>
           <LI><B>Animals:</B> 4&ndash;5 questions &mdash; animal habitats, what animals eat (herbivore/carnivore/omnivore), body coverings, movement</LI>
@@ -2611,8 +3620,9 @@ export const posts: BlogPost[] = [
     slug: "nso-sample-papers-class-5",
     title: "NSO Sample Papers for Class 5: Complete Guide to Topics and Preparation",
     description:
-      "NSO Class 5 is the last year with a 35-question paper before the format expands at Class 6. This guide covers what topics appear most in sample papers, how Achievers questions are structured, and the best preparation approach.",
+      "NSO Class 5 is the first year of the full 50-question NSO paper. This guide covers the official pattern, the topics that matter most in sample papers, how Achievers questions are structured, and the best preparation approach.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -2623,11 +3633,11 @@ export const posts: BlogPost[] = [
       "NSO class 5 question paper with solutions",
     ],
     excerpt:
-      "NSO Class 5 covers plants, animals, matter, force, and the solar system in 35 questions. Sample papers reveal the question patterns — here is the full guide.",
+      "NSO Class 5 covers plants, animals, matter, force, and the solar system in 50 questions. Sample papers reveal the question patterns — here is the full guide.",
     content: (
       <>
         <P>
-          Class 5 NSO is the final year of the smaller 35-question format. The science syllabus at Class 5
+          Class 5 is when the NSO grows from 35 questions to the full 50-question paper, still in 60 minutes. The science syllabus at Class 5
           is broader than any previous year &mdash; it introduces matter and its states, force and simple
           machines, rocks and the soil, and the solar system alongside biology topics like food chains
           and human body systems. Students preparing for this paper for the first time often underestimate
@@ -2637,13 +3647,17 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">Class 5 NSO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 5 questions</LI>
-          <LI><B>Science:</B> 25 questions from the Class 5 science syllabus</LI>
-          <LI><B>Achievers Section:</B> 5 questions at 2 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Science:</B> 35 questions from the Class 5 science syllabus, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
-        <P>Total: 35 questions in 60 minutes. No negative marking.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. (Source: SOF&rsquo;s published Class 5 pattern.)</P>
 
         <H2 id="topic-distribution">Topic distribution in Class 5 NSO sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Plants (food chains, photosynthesis):</B> 3&ndash;4 questions &mdash; food webs, producers/consumers/decomposers, photosynthesis process</LI>
           <LI><B>Animals (adaptation, reproduction):</B> 3&ndash;4 questions &mdash; adaptation to habitats, reproduction in animals (oviparous/viviparous)</LI>
@@ -2653,7 +3667,7 @@ export const posts: BlogPost[] = [
           <LI><B>Earth and environment:</B> 2&ndash;3 questions &mdash; soil types and composition, rocks, natural disasters</LI>
           <LI><B>Solar system and space:</B> 2&ndash;3 questions &mdash; planets, stars, moon phases</LI>
           <LI><B>Weather and water cycle:</B> 2 questions</LI>
-          <LI><B>Logical Reasoning:</B> 5 questions</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions</LI>
         </UL>
         <Callout>
           <B>Food chains and food webs are consistently the most application-heavy topic</B> in Class 5 NSO.
@@ -2664,9 +3678,9 @@ export const posts: BlogPost[] = [
 
         <H2 id="achievers-at-class5">Achievers section at Class 5</H2>
         <P>
-          Class 5 Achievers questions draw from the Class 6 syllabus &mdash; primarily separation of
-          substances, components of food (nutrients and deficiency diseases), and changes around us
-          (physical vs. chemical changes). Common Achievers question types:
+          SOF describes the Achievers section as higher-order thinking questions on the <B>same Class 5
+          syllabus</B>. The topics are familiar; what makes them hard is applying them to an unfamiliar
+          situation. Common Achievers question types:
         </P>
         <UL>
           <LI>A food web intervention question with three or more trophic levels</LI>
@@ -2694,11 +3708,11 @@ export const posts: BlogPost[] = [
       },
       {
         q: "What does the NSO Class 5 Achievers section test?",
-        a: "Achievers questions draw from the Class 6 syllabus — mainly separation of substances, components of food (nutrients and deficiency diseases), physical vs. chemical changes, and more complex ecosystem scenarios. Students aiming for Level 2 should study these Class 6 topics as part of their preparation."
+        a: "Five higher-order thinking questions worth 3 marks each, on the same Class 5 syllabus. Typical examples are food web intervention scenarios, whether a given change is reversible, mechanical advantage in simple machines, and what happens when a body organ is not working properly."
       },
       {
         q: "How is NSO Class 5 different from Class 4?",
-        a: "Class 5 introduces several major new topic areas: simple machines and force, matter and its states, rocks and soil, and the solar system. The food chain questions also become significantly more complex, moving from basic identification to ecosystem intervention scenarios. The paper format remains the same (35 questions)."
+        a: "The paper grows from 35 questions (40 marks) to 50 questions (60 marks) in the same 60 minutes: 10 Logical Reasoning, 35 Science and 5 Achievers questions at 3 marks each. Class 5 also introduces simple machines and force, matter and its states, rocks and soil, and the solar system, and food chain questions move to ecosystem intervention scenarios."
       },
       {
         q: "How long should a Class 5 student prepare for NSO?",
@@ -2714,6 +3728,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 10 covers the widest science syllabus of any NSO paper — chemical reactions, life processes, electricity, light, and the human reproductive system in 50 questions. This guide breaks down the topic distribution and how to prepare.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 9,
     keywords: [
@@ -2738,13 +3753,17 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">Class 10 NSO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 15 questions</LI>
-          <LI><B>Science:</B> 25 questions from the Class 10 science syllabus</LI>
-          <LI><B>Achievers Section:</B> 10 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Science:</B> 35 questions from the Class 10 science syllabus, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
-        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. (Source: SOF&rsquo;s published Class 5&ndash;10 pattern.)</P>
 
         <H2 id="topic-distribution">Topic distribution and weightage</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Chemical reactions and equations:</B> 3&ndash;4 questions &mdash; types of reactions, balancing equations, oxidation/reduction identification</LI>
           <LI><B>Acids, bases and salts:</B> 3&ndash;4 questions &mdash; pH, indicators, salt formation, everyday applications</LI>
@@ -2756,11 +3775,11 @@ export const posts: BlogPost[] = [
           <LI><B>Electricity:</B> 3&ndash;4 questions &mdash; Ohm&rsquo;s law, series/parallel circuits, heating effect, power calculations</LI>
           <LI><B>Magnetic effects of electric current:</B> 2&ndash;3 questions &mdash; electromagnet, motor, generator principles</LI>
           <LI><B>Light (reflection and refraction):</B> 3&ndash;4 questions &mdash; mirror/lens formula, ray diagrams, image characteristics</LI>
-          <LI><B>Logical Reasoning:</B> 15 questions including critical reasoning and data sufficiency</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions including critical reasoning and data sufficiency</LI>
         </UL>
         <Callout>
-          <B>Chemistry topics (chemical reactions, acids/bases/salts, metals, carbon) account for nearly
-          40% of the science section</B> in Class 10 NSO sample papers. Students from biology-focused
+          <B>Chemistry topics (chemical reactions, acids/bases/salts, metals, carbon) make up a large share
+          of the science section</B> in Class 10 NSO sample papers. Students from biology-focused
           schools or those who find chemistry less comfortable should address this imbalance early in
           preparation. Neglecting chemistry leaves too many marks on the table.
         </Callout>
@@ -2795,7 +3814,7 @@ export const posts: BlogPost[] = [
           <LIo><B>Chemistry first:</B> It carries the most marks and is often the weakest area. Cover chemical reactions, acids/bases, metals, and carbon compounds in the first 3 weeks of dedicated preparation.</LIo>
           <LIo><B>Physics calculations:</B> Electricity (Ohm&rsquo;s law, power calculations) and light (mirror/lens formula) require calculation practice, not just concept reading. Do 15&ndash;20 calculation problems per topic.</LIo>
           <LIo><B>Biology:</B> Life processes and reproduction are concept-heavy but less calculation-intensive. Use diagrams and flowcharts to organise the content.</LIo>
-          <LIo><B>Reasoning section:</B> 15 reasoning questions at Class 10 include data sufficiency &mdash; practise these specifically as they are rarely covered in school.</LIo>
+          <LIo><B>Reasoning section:</B> 10 reasoning questions at Class 10 include data sufficiency &mdash; practise these specifically as they are rarely covered in school.</LIo>
           <LIo><B>Achievers block:</B> Practise Achievers sections from 4&ndash;5 past papers as a dedicated unit in the final 2 weeks.</LIo>
         </OL>
 
@@ -2805,7 +3824,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "What topics are most important for NSO Class 10?",
-        a: "Chemistry topics — chemical reactions, acids/bases/salts, metals and non-metals, and carbon compounds — collectively account for nearly 40% of the science section. Electricity (Ohm's law, circuits) and light (mirror/lens formula) are the highest-priority physics topics. Life processes is the most important biology topic."
+        a: "Chemistry topics — chemical reactions, acids/bases/salts, metals and non-metals, and carbon compounds — together make up a large share of the 35-question science section. Electricity (Ohm's law, circuits) and light (mirror/lens formula) are the highest-priority physics topics. Life processes is the most important biology topic."
       },
       {
         q: "How does NSO Class 10 preparation help with board exams?",
@@ -2829,6 +3848,7 @@ export const posts: BlogPost[] = [
     description:
       "Class 7 IMO preparation is different from lower classes — algebra and triangle geometry now matter as much as arithmetic. This guide covers the full Class 7 syllabus, how to study each topic for Olympiad depth, and a structured 8-week plan.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -2929,7 +3949,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "Should a Class 7 student use a coaching class for IMO?",
-        a: "Not necessarily. The Class 7 IMO syllabus is fully aligned with the CBSE/NCERT Class 7 maths curriculum. A student who has studied the syllabus thoroughly and practised with 4–6 sample papers can score well without coaching. Coaching helps primarily with the Achievers section questions, which require ahead-of-grade thinking — but this can also be developed through targeted self-study."
+        a: "Not necessarily. The Class 7 IMO syllabus is fully aligned with the CBSE/NCERT Class 7 maths curriculum. A student who has studied the syllabus thoroughly and practised with 4–6 sample papers can score well without coaching. Coaching helps primarily with the Achievers section questions, which ask higher-order, multi-step questions on the same syllabus — but this skill can also be developed through targeted self-study."
       }
     ]
   },
@@ -3061,6 +4081,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 8 is one of the broadest science Olympiad papers at the middle school level. This guide covers how to prepare across all 18 chapters, which topics carry the most marks, and a structured 8-week plan to maximise your score.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -3148,7 +4169,7 @@ export const posts: BlogPost[] = [
           <LI><B>Week 4:</B> Force and pressure, friction, sound (properties, echo, reverberation, noise pollution)</LI>
           <LI><B>Week 5:</B> Microorganisms, chemical effects of current, adolescence</LI>
           <LI><B>Week 6:</B> Coal and petroleum, synthetic fibres, crop production, conservation, pollution</LI>
-          <LI><B>Week 7:</B> Reasoning section (15 questions &mdash; series, analogies, blood relations, seating arrangements)</LI>
+          <LI><B>Week 7:</B> Reasoning section (10 questions in the NSO paper &mdash; series, analogies, blood relations, seating arrangements)</LI>
           <LI><B>Week 8:</B> Two complete timed papers. Achievers sections from 3&ndash;4 past papers as a focused set.</LI>
         </UL>
 
@@ -3182,6 +4203,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 9 introduces motion, gravitation, work and energy, atoms and molecules, and cells and tissues. This guide covers what each chapter looks like at Olympiad depth, the topic priority order, and an 8-week preparation plan.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -3269,7 +4291,7 @@ export const posts: BlogPost[] = [
           <LI><B>Week 4:</B> Tissues (plant: meristematic, permanent; animal: epithelial, connective, muscular, nervous) and fundamental unit of life</LI>
           <LI><B>Week 5:</B> Matter in our surroundings, is matter pure, sound, natural resources</LI>
           <LI><B>Week 6:</B> Diversity in living organisms, why do we fall ill, improvement in food resources</LI>
-          <LI><B>Week 7:</B> Reasoning section (15 questions at Class 9 level)</LI>
+          <LI><B>Week 7:</B> Reasoning section (10 questions in the NSO paper, at Class 9 level)</LI>
           <LI><B>Week 8:</B> Two complete timed papers; Achievers sections from 3&ndash;4 past papers</LI>
         </UL>
 
@@ -3303,6 +4325,7 @@ export const posts: BlogPost[] = [
     description:
       "The International English Olympiad (IEO) tests grammar, vocabulary, reading comprehension, and spoken English. This complete guide covers what each section tests, which skills matter most at each class level, and how to prepare effectively.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "English",
     readingMinutes: 8,
     keywords: [
@@ -3328,17 +4351,18 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">IEO paper structure</H2>
         <P>
-          The IEO paper varies slightly by class level, but the general structure for Classes 3&ndash;12 is:
+          SOF publishes two patterns for IEO Level 1, one for Classes 1&ndash;4 and one for Classes 5&ndash;12:
         </P>
         <UL>
-          <LI><B>Word and Structure Knowledge:</B> 10&ndash;15 questions &mdash; grammar, vocabulary, word forms, sentence structure</LI>
-          <LI><B>Reading:</B> 10&ndash;15 questions &mdash; passage comprehension, inference, vocabulary in context</LI>
-          <LI><B>Spoken and Written Expression:</B> 10&ndash;15 questions &mdash; dialogue completion, formal and informal writing conventions, tone and register</LI>
-          <LI><B>Achievers Section:</B> 5&ndash;10 questions at higher marks &mdash; advanced grammar, critical reading, complex vocabulary</LI>
+          <LI><B>Word and Structure Knowledge:</B> 15 questions (Classes 1&ndash;4) or 30 questions (Classes 5&ndash;12), 1 mark each &mdash; grammar, vocabulary, word forms, sentence structure</LI>
+          <LI><B>Reading:</B> 10 questions, 1 mark each &mdash; passage comprehension, inference, vocabulary in context</LI>
+          <LI><B>Spoken and Written Expression:</B> 5 questions, 1 mark each &mdash; dialogue completion, formal and informal conventions, tone and register</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 2 marks each (Classes 1&ndash;4) or 3 marks each (Classes 5&ndash;12) &mdash; advanced grammar, critical reading, complex vocabulary</LI>
         </UL>
         <P>
-          Total: 35 questions (Classes 1&ndash;4) or 50 questions (Classes 5&ndash;12). Time: 60 minutes.
-          No negative marking.
+          Total: 35 questions and 40 marks (Classes 1&ndash;4) or 50 questions and 60 marks (Classes 5&ndash;12).
+          Time: 60 minutes. No negative marking. Word and Structure Knowledge is by far the biggest section, so
+          grammar and vocabulary deserve the most preparation time.
         </P>
 
         <H2 id="what-each-section-tests">What each section actually tests</H2>
@@ -3429,7 +4453,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "What is the Achievers section in IEO?",
-        a: "The Achievers section contains 5–10 questions at higher marks, testing advanced grammar nuance (choosing between two grammatically correct options based on meaning), complex reading inference, and advanced vocabulary. These questions are designed to be difficult for students who have only drilled grammar rules — they reward genuine language fluency and reading experience."
+        a: "The Achievers section contains 5 questions worth 2 marks each in Classes 1–4 and 3 marks each in Classes 5–12, testing advanced grammar nuance (choosing between two grammatically correct options based on meaning), complex reading inference, and advanced vocabulary. These questions are designed to be difficult for students who have only drilled grammar rules — they reward genuine language fluency and reading experience."
       }
     ]
   },
@@ -3441,6 +4465,7 @@ export const posts: BlogPost[] = [
     description:
       "IEO Class 5 introduces longer reading passages, active/passive voice, and direct/indirect speech. This guide covers the topic distribution across sample papers, the most common question types, and a 6-week preparation plan.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "English",
     readingMinutes: 7,
     keywords: [
@@ -3465,12 +4490,12 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">Class 5 IEO paper structure</H2>
         <UL>
-          <LI><B>Word and Structure Knowledge:</B> 15 questions</LI>
-          <LI><B>Reading:</B> 10 questions based on 1&ndash;2 passages</LI>
-          <LI><B>Spoken and Written Expression:</B> 10 questions</LI>
-          <LI><B>Achievers Section:</B> 5 questions at 2 marks each</LI>
+          <LI><B>Word and Structure Knowledge:</B> 30 questions, 1 mark each</LI>
+          <LI><B>Reading:</B> 10 questions based on passages, 1 mark each</LI>
+          <LI><B>Spoken and Written Expression:</B> 5 questions, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 3 marks each</LI>
         </UL>
-        <P>Total: 40 questions (SOF IEO transitions to 40 questions at Class 5). Time: 60 minutes. No negative marking.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes, up from 35 questions in Classes 1&ndash;4. No negative marking. (Source: SOF&rsquo;s published Class 5&ndash;12 pattern.)</P>
 
         <H2 id="grammar-topics">Grammar topics in Class 5 IEO sample papers</H2>
         <UL>
@@ -3542,7 +4567,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How is IEO Class 5 different from Class 4?",
-        a: "Class 5 introduces active and passive voice conversion, makes reading passages longer with more inference questions, expands vocabulary questions to include word analogies, and adds one-word substitution questions. The total paper expands to 40 questions. The grammar difficulty step from Class 4 to Class 5 is the largest in the primary school IEO series."
+        a: "Class 5 introduces active and passive voice conversion, makes reading passages longer with more inference questions, expands vocabulary questions to include word analogies, and adds one-word substitution questions. The paper also grows from 35 to 50 questions, with Word and Structure Knowledge doubling from 15 to 30 questions and Achievers questions rising from 2 to 3 marks. The grammar difficulty step from Class 4 to Class 5 is the largest in the primary school IEO series."
       }
     ]
   },
@@ -3554,6 +4579,7 @@ export const posts: BlogPost[] = [
     description:
       "IEO Class 8 is where grammar becomes genuinely complex — conditionals, all modal verbs, and nuanced direct/indirect speech all enter the picture. This guide covers what sample papers test, the most important grammar and vocabulary areas, and a preparation plan.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "English",
     readingMinutes: 8,
     keywords: [
@@ -3580,12 +4606,12 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">Class 8 IEO paper structure</H2>
         <UL>
-          <LI><B>Word and Structure Knowledge:</B> 15 questions</LI>
-          <LI><B>Reading:</B> 15 questions based on 1&ndash;2 passages</LI>
-          <LI><B>Spoken and Written Expression:</B> 10 questions</LI>
-          <LI><B>Achievers Section:</B> 10 questions at 2 marks each</LI>
+          <LI><B>Word and Structure Knowledge:</B> 30 questions, 1 mark each</LI>
+          <LI><B>Reading:</B> 10 questions based on passages, 1 mark each</LI>
+          <LI><B>Spoken and Written Expression:</B> 5 questions, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 questions at 3 marks each</LI>
         </UL>
-        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. (Source: SOF&rsquo;s published Class 5&ndash;12 pattern.)</P>
 
         <H2 id="grammar-at-class8">Grammar topics at Class 8</H2>
         <UL>
@@ -3671,6 +4697,7 @@ export const posts: BlogPost[] = [
     description:
       "Cracking the IMO in your first attempt is entirely achievable with the right preparation strategy. This guide covers the mindset, study approach, common mistakes to avoid, and a structured preparation plan that works regardless of class level.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -3703,9 +4730,10 @@ export const posts: BlogPost[] = [
           </LI>
           <LI>
             <B>Mistake 2: Neglecting the Achievers section.</B> The Achievers section carries 3 marks
-            per question versus 1 mark for regular questions. A student who scores 8/10 on Achievers
-            and 25/40 on the rest scores 49 marks. A student who scores 0/10 on Achievers and 35/40
-            on the rest scores 35 marks. The Achievers section is the most mark-efficient part of the
+            per question versus 1 mark for regular questions (from Class 5; in Classes 1&ndash;4 it is 2 marks).
+            In a 50-question, 60-mark paper, a student who gets 4 of the 5 Achievers questions right and 30 of
+            the other 45 scores 42 marks. A student who gets no Achievers questions but 38 of the other 45 scores
+            only 38. The Achievers section is the most mark-efficient part of the
             paper &mdash; every mark there is worth three times a regular mark.
           </LI>
           <LI>
@@ -3767,7 +4795,7 @@ export const posts: BlogPost[] = [
           <LI>If a question is taking more than 2 minutes, mark it and move on; return at the end</LI>
           <LI>Attempt every question &mdash; there is no negative marking</LI>
           <LI>In the final 5 minutes, go back to any skipped questions and make a best guess</LI>
-          <LI>Allocate time specifically: roughly 20 minutes for mathematical reasoning, 12 minutes for everyday maths, 15 minutes for reasoning, and 5 minutes for Achievers, with 8 minutes reserve</LI>
+          <LI>Allocate time specifically (Classes 5&ndash;12): roughly 18 minutes for mathematical reasoning (20 questions), 10 minutes for everyday maths (10 questions), 15 minutes for logical reasoning (15 questions), and 10 minutes for the five Achievers questions, with 7 minutes reserve</LI>
         </UL>
 
         <CTA>Start IMO preparation with class-level practice questions and full sample papers &mdash; free to begin today.</CTA>
@@ -3938,6 +4966,7 @@ export const posts: BlogPost[] = [
     description:
       "Most Olympiad underperformance comes from a small set of avoidable preparation mistakes. This guide identifies the 10 most common ones — from reading without practising to ignoring the reasoning section — and gives a concrete fix for each.",
     date: "2026-08-17",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -4026,8 +5055,9 @@ export const posts: BlogPost[] = [
         <H2 id="mistake6">6. Neglecting the reasoning section</H2>
         <P>
           <B>The mistake:</B> Students focus exclusively on the mathematical content and barely practise
-          the logical reasoning section. At Class 6 and above, reasoning is 15 of 50 questions &mdash;
-          30% of the paper. Neglecting it guarantees low total scores even with perfect maths.
+          the logical reasoning section. In the IMO from Class 5 onwards, reasoning is 15 of 50 questions &mdash;
+          30% of the paper (in the NSO it is 10 of 50). Neglecting it guarantees low total scores even with
+          perfect maths.
         </P>
         <P>
           <B>The fix:</B> Practise each reasoning type (series, analogies, coding-decoding, seating
@@ -4113,6 +5143,7 @@ export const posts: BlogPost[] = [
     description:
       "With dozens of Olympiads available, how do you choose the right ones? This guide helps parents match the right exam to their child's strengths, class, available time, and long-term goals.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -4142,9 +5173,9 @@ export const posts: BlogPost[] = [
         </P>
         <UL>
           <LI><B>Strong in maths:</B> IMO (SOF International Maths Olympiad) or Silverzone IOM &mdash; both cover the school maths syllabus with application-level questions</LI>
-          <LI><B>Strong in science:</B> NSO (National Science Olympiad) for Classes 3&ndash;12 or NSTSE which covers all sciences in one integrated paper</LI>
+          <LI><B>Strong in science:</B> NSO (National Science Olympiad) for Classes 1&ndash;12 or NSTSE which covers all sciences in one integrated paper</LI>
           <LI><B>Strong in English:</B> IEO (International English Olympiad) &mdash; tests grammar, vocabulary, comprehension, and creative writing</LI>
-          <LI><B>Curious about the world and current affairs:</B> IGKO (International General Knowledge Olympiad) &mdash; tests GK, life skills, and logical reasoning</LI>
+          <LI><B>Curious about the world and current affairs:</B> IGKO (International General Knowledge Olympiad) &mdash; tests general awareness, current affairs and life skills</LI>
           <LI><B>Interested in computers:</B> NCO (National Cyber Olympiad) or UCO (Unified Cyber Olympiad) &mdash; tests computer fundamentals, MS Office, and programming basics</LI>
           <LI><B>No clear favourite subject yet:</B> NSTSE covers all subjects in one paper and gives a detailed diagnostic report that can actually help identify strengths</LI>
         </UL>
@@ -4517,6 +5548,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to IMO preparation for Class 4 — the full syllabus, how the Achievers section works, what changes from Class 3, and a practical 6-week study plan for students and parents.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -4539,12 +5571,13 @@ export const posts: BlogPost[] = [
 
         <H2 id="exam-format">Exam format</H2>
         <P>
-          The Class 4 IMO has <B>35 questions</B> in <B>60 minutes</B> with no negative marking. The structure is:
+          The Class 4 IMO has <B>35 questions</B> worth <B>40 marks</B> in <B>60 minutes</B>, with no negative marking. SOF&rsquo;s published structure is:
         </P>
         <UL>
-          <LI><B>Logical Reasoning:</B> 10 questions &mdash; series, analogy, coding-decoding, odd-one-out, direction problems</LI>
-          <LI><B>Mathematical Reasoning:</B> 20 questions covering the Class 4 maths syllabus</LI>
-          <LI><B>Achievers:</B> 5 questions at 3 marks each &mdash; multi-step problems combining two or more topics</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each &mdash; series, analogy, coding-decoding, odd-one-out, direction problems</LI>
+          <LI><B>Mathematical Reasoning:</B> 10 questions covering the Class 4 maths syllabus, 1 mark each</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems on real-life situations, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 questions at 2 marks each &mdash; higher-order, multi-step problems on the same syllabus</LI>
         </UL>
 
         <H2 id="syllabus">IMO Class 4 syllabus</H2>
@@ -4620,7 +5653,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many marks does the Achievers section carry in IMO Class 4?",
-        a: "The Achievers section has 5 questions worth 3 marks each, totalling 15 marks out of the paper's 40 marks. Performing well in Achievers is essential for Level 2 qualification, as the main section questions produce similar scores across well-prepared students."
+        a: "In Classes 1–4 the Achievers section has 5 questions worth 2 marks each, totalling 10 of the paper's 40 marks. Performing well in Achievers matters for Level 2 qualification, because well-prepared students score similarly on the main sections and SOF breaks ties using the Achievers section first."
       },
       {
         q: "Is Level 2 achievable from Class 4 IMO?",
@@ -4636,6 +5669,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to NSO preparation for Class 5 — the full science syllabus, which topics appear most in the paper, how the Achievers section works, and a practical study plan.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -4650,21 +5684,25 @@ export const posts: BlogPost[] = [
     content: (
       <>
         <P>
-          Class 5 NSO is the last year of the primary-level science paper before the significant step up to
-          Classes 6&ndash;8. It covers a broader range of topics than Class 4 and the Achievers section begins
-          to test genuine application &mdash; not just recall. This guide covers the full syllabus, the most
-          commonly tested topics, and a practical preparation plan.
+          Class 5 is a big year for the NSO. The paper grows from 35 to <B>50 questions</B> in the same 60
+          minutes, it covers a broader range of topics than Class 4, and the Achievers section tests genuine
+          application, not just recall. This guide covers the full syllabus, the most commonly tested topics,
+          and a practical preparation plan.
         </P>
 
         <H2 id="exam-format">Exam format</H2>
         <P>
-          The Class 5 NSO has <B>35 questions</B> in <B>60 minutes</B>. Structure:
+          The Class 5 NSO has <B>50 questions</B> worth <B>60 marks</B> in <B>60 minutes</B>, with no negative marking. SOF&rsquo;s published structure:
         </P>
         <UL>
-          <LI><B>Logical Reasoning:</B> 10 questions</LI>
-          <LI><B>Science:</B> 20 questions on the Class 5 science syllabus</LI>
-          <LI><B>Achievers:</B> 5 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Science:</B> 35 questions on the Class 5 science syllabus, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
+        <P>
+          The jump from 35 to 50 questions in the same hour means time management matters from Class 5. Practise
+          under timed conditions from early in your preparation.
+        </P>
 
         <H2 id="syllabus">NSO Class 5 syllabus</H2>
         <UL>
@@ -4733,7 +5771,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How does NSO Class 5 differ from Class 4?",
-        a: "Class 5 introduces microorganisms, expands human body coverage to include nervous and circulatory systems, goes deeper into matter (sublimation, solutions vs mixtures), and includes more complex food chain and ecosystem questions. The Achievers section moves from recall to genuine application and multi-step reasoning."
+        a: "Class 5 introduces microorganisms, expands human body coverage to include nervous and circulatory systems, goes deeper into matter (sublimation, solutions vs mixtures), and includes more complex food chain and ecosystem questions. The paper also grows from 35 to 50 questions (10 reasoning, 35 science, 5 Achievers at 3 marks each), and the Achievers section moves from recall to genuine application and multi-step reasoning."
       },
       {
         q: "How should a Class 5 student prepare for the NSO Achievers section?",
@@ -4753,6 +5791,7 @@ export const posts: BlogPost[] = [
     description:
       "Class 6 is the first year of middle-school science in the NSO — food, materials, changes around us, and living organisms all enter with new depth. This complete guide covers the full syllabus and preparation strategy.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -4767,24 +5806,24 @@ export const posts: BlogPost[] = [
     content: (
       <>
         <P>
-          Class 6 NSO marks the transition to middle-school science. The paper grows to 50 questions, the syllabus
-          expands significantly, and the Achievers section begins to test concepts at a depth that requires genuine
-          understanding rather than memorisation. Students who found Class 5 manageable will feel the step up &mdash;
-          but with the right preparation plan it is very achievable.
+          Class 6 NSO marks the transition to middle-school science. The paper format stays the same as Class 5,
+          but the syllabus expands significantly, and the Achievers section tests concepts at a depth that requires
+          genuine understanding rather than memorisation. Students who found Class 5 manageable will feel the step
+          up &mdash; but with the right preparation plan it is very achievable.
         </P>
 
         <H2 id="exam-format">Exam format at Class 6</H2>
         <P>
-          The Class 6 NSO has <B>50 questions</B> in <B>60 minutes</B> &mdash; up from 35 in Class 5. Structure:
+          The Class 6 NSO has <B>50 questions</B> worth <B>60 marks</B> in <B>60 minutes</B>, the same format SOF uses from Class 5 to Class 10. Structure:
         </P>
         <UL>
-          <LI><B>Logical Reasoning:</B> 15 questions</LI>
-          <LI><B>Science:</B> 25 questions on the Class 6 science syllabus</LI>
-          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Science:</B> 35 questions on the Class 6 science syllabus, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
         <P>
-          The jump from 35 to 50 questions in the same 60 minutes means time management becomes a critical skill
-          from Class 6 onward. Practise under timed conditions from the beginning of your preparation.
+          Fifty questions in 60 minutes is about 72 seconds per question, so time management is a critical skill.
+          Practise under timed conditions from the beginning of your preparation.
         </P>
 
         <H2 id="syllabus">NSO Class 6 syllabus</H2>
@@ -4825,7 +5864,7 @@ export const posts: BlogPost[] = [
           </LI>
         </UL>
         <Callout>
-          <B>Time management is the biggest new challenge at Class 6.</B> The paper has 50 questions in 60
+          <B>Time management is a major challenge at Class 6.</B> The paper has 50 questions in 60
           minutes &mdash; 72 seconds per question average. Practise skipping questions you cannot answer in
           90 seconds and returning to them. This alone improves scores by 5&ndash;8 questions on exam day.
         </Callout>
@@ -4835,7 +5874,7 @@ export const posts: BlogPost[] = [
           <LI><B>Weeks 1&ndash;2:</B> Food, nutrition, fibre to fabric, materials and their properties</LI>
           <LI><B>Weeks 3&ndash;4:</B> Separation of substances, changes around us, plants and body movements</LI>
           <LI><B>Weeks 5&ndash;6:</B> Habitats, motion, light, electricity, magnets, water, air</LI>
-          <LI><B>Week 7:</B> Logical reasoning &mdash; targeted 15-question daily practice</LI>
+          <LI><B>Week 7:</B> Logical reasoning &mdash; targeted 10&ndash;15-question daily practice</LI>
           <LI><B>Week 8:</B> Two full 50-question timed mock papers; error analysis and topic review</LI>
         </UL>
 
@@ -4845,7 +5884,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "How many questions are in the NSO Class 6 paper?",
-        a: "The NSO Class 6 paper has 50 questions in 60 minutes — an increase from the 35 questions in Classes 1–5. The structure is 15 Logical Reasoning questions, 25 Science questions, and 10 Achievers questions worth 3 marks each."
+        a: "The NSO Class 6 paper has 50 questions (60 marks) in 60 minutes: 10 Logical Reasoning questions, 35 Science questions, and 5 Achievers questions worth 3 marks each. This is the same format SOF uses for Classes 5–10; Classes 1–4 have a shorter 35-question paper."
       },
       {
         q: "What is the hardest topic in NSO Class 6?",
@@ -4869,6 +5908,7 @@ export const posts: BlogPost[] = [
     description:
       "IMO sample papers for Class 3 are the most effective preparation tool — but only when used correctly. This guide covers the topic distribution in Class 3 IMO papers, how to analyse mistakes, and a paper-based study plan.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 7,
     keywords: [
@@ -4891,16 +5931,21 @@ export const posts: BlogPost[] = [
 
         <H2 id="class3-paper-structure">Class 3 IMO paper structure</H2>
         <P>
-          The Class 3 IMO has 35 questions in 60 minutes. From Class 3, Level 2 qualification is available for top
-          performers. The paper divides into:
+          The Class 3 IMO has 35 questions worth 40 marks in 60 minutes. From Class 3, Level 2 qualification is
+          available for top performers. SOF&rsquo;s published structure is:
         </P>
         <UL>
-          <LI><B>Logical Reasoning (10 questions):</B> Pattern completion, analogy, odd-one-out, classification, mirror images</LI>
-          <LI><B>Mathematical Reasoning (20 questions):</B> Class 3 syllabus questions</LI>
-          <LI><B>Achievers (5 questions, 3 marks each):</B> Multi-step problems combining two Class 3 concepts</LI>
+          <LI><B>Logical Reasoning (10 questions, 1 mark each):</B> Pattern completion, analogy, odd-one-out, classification, mirror images</LI>
+          <LI><B>Mathematical Reasoning (10 questions, 1 mark each):</B> Class 3 syllabus questions</LI>
+          <LI><B>Everyday Mathematics (10 questions, 1 mark each):</B> Word problems on money, time, measurement and daily-life situations</LI>
+          <LI><B>Achievers (5 questions, 2 marks each):</B> Higher-order, multi-step problems on the Class 3 syllabus</LI>
         </UL>
 
         <H2 id="topic-distribution">Topic distribution across papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Numbers and place value (3-digit numbers):</B> 4&ndash;5 questions &mdash; comparison, expanded form, predecessor/successor</LI>
           <LI><B>Addition and subtraction with carrying/borrowing:</B> 3&ndash;4 questions including word problems</LI>
@@ -4967,6 +6012,7 @@ export const posts: BlogPost[] = [
     description:
       "IMO sample papers for Class 6 are the most reliable preparation tool for the middle-school maths Olympiad. This guide covers the paper structure, which topics appear most, and how to turn practice papers into score improvement.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 7,
     keywords: [
@@ -4981,21 +6027,26 @@ export const posts: BlogPost[] = [
     content: (
       <>
         <P>
-          Class 6 is a step-change year for the IMO &mdash; the paper grows to 50 questions, integers and algebra
-          enter the syllabus, and the time per question drops significantly. Sample papers are the most effective
-          tool for calibrating to this new format. This guide explains how to use them strategically, not just as
-          extra practice.
+          Class 6 is a step-change year for the IMO &mdash; integers and algebra enter the syllabus, and the
+          50-question paper (in place since Class 5) starts to feel much tighter because the questions take
+          longer. Sample papers are the most effective tool for calibrating to this. This guide explains how to
+          use them strategically, not just as extra practice.
         </P>
 
         <H2 id="paper-structure">Class 6 IMO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 15 questions &mdash; series, analogy, coding-decoding, direction problems, blood relations</LI>
-          <LI><B>Mathematical Reasoning:</B> 25 questions on the Class 6 maths syllabus</LI>
-          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions, 1 mark each &mdash; series, analogy, coding-decoding, direction problems, blood relations</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions on the Class 6 maths syllabus, 1 mark each</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
-        <P>Total: 50 questions in 60 minutes. No negative marking. Level 2 for top performers.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. Level 2 for top performers. (Source: SOF&rsquo;s published Class 5&ndash;10 pattern.)</P>
 
         <H2 id="topic-distribution">Topic distribution across Class 6 IMO papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Integers (positive and negative numbers):</B> 4&ndash;5 questions &mdash; arithmetic with negative numbers, number line, absolute value</LI>
           <LI><B>Fractions and decimals:</B> 4&ndash;5 questions &mdash; operations, comparison, word problems</LI>
@@ -5006,7 +6057,7 @@ export const posts: BlogPost[] = [
           <LI><B>Mensuration (area and perimeter):</B> 2&ndash;3 questions</LI>
           <LI><B>Data handling:</B> 2&ndash;3 questions &mdash; mean, median, mode; chart reading</LI>
           <LI><B>Logical Reasoning:</B> 15 questions</LI>
-          <LI><B>Achievers:</B> 10 questions, typically on integers, LCM/HCF word problems, ratio, and geometry</LI>
+          <LI><B>Achievers:</B> 5 questions, typically on integers, LCM/HCF word problems, ratio, and geometry</LI>
         </UL>
         <Callout>
           <B>Integers and LCM/HCF word problems account for the most Achievers-section errors.</B> Students know
@@ -5016,7 +6067,7 @@ export const posts: BlogPost[] = [
 
         <H2 id="time-management-strategy">Time management strategy for 50 questions</H2>
         <P>
-          At 60 seconds average per question, time management is non-negotiable. The proven approach:
+          At about 72 seconds per question on average, time management is non-negotiable. The proven approach:
         </P>
         <OL>
           <LIo><B>First pass (30 minutes):</B> Attempt every question you can answer in under 90 seconds. Mark the rest. Target: 30&ndash;35 questions.</LIo>
@@ -5028,7 +6079,7 @@ export const posts: BlogPost[] = [
         <OL>
           <LIo><B>Cold paper first:</B> Attempt without preparation to get an honest baseline and identify which of the new Class 6 topics (integers, algebra) are causing the most problems.</LIo>
           <LIo><B>Separate the reasoning section:</B> Practise the 15-question reasoning section separately first. Students who have not practised coding-decoding and direction problems lose easy marks here.</LIo>
-          <LIo><B>Achievers-only practice:</B> After two full papers, extract the Achievers sections from 3&ndash;4 more papers and practise only those 10-question blocks. This builds the depth needed for Level 2 qualification.</LIo>
+          <LIo><B>Achievers-only practice:</B> After two full papers, extract the Achievers sections from 3&ndash;4 more papers and practise only those 5-question blocks. This builds the depth needed for Level 2 qualification.</LIo>
           <LIo><B>Timed full simulation:</B> One complete paper under real exam conditions in the week before the exam. Review mistakes but do not start new topics at this stage.</LIo>
         </OL>
 
@@ -5042,11 +6093,11 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many questions are in the IMO Class 6 paper?",
-        a: "50 questions in 60 minutes — up from 35 in Class 5. The structure is 15 Logical Reasoning questions, 25 Mathematical Reasoning questions, and 10 Achievers questions worth 3 marks each."
+        a: "50 questions (60 marks) in 60 minutes, the same format SOF uses from Class 5 to Class 10: 15 Logical Reasoning, 20 Mathematical Reasoning and 10 Everyday Mathematics questions at 1 mark each, plus 5 Achievers questions worth 3 marks each."
       },
       {
         q: "How do I improve my score on IMO Class 6 Achievers questions?",
-        a: "Extract the Achievers sections from 3–4 past papers and practise only those 10-question blocks, focusing especially on integers and LCM/HCF word problems. Understanding why each answer is correct (not just which one) is more valuable than high-volume Achievers practice."
+        a: "Extract the Achievers sections from 3–4 past papers and practise only those 5-question blocks, focusing especially on integers and LCM/HCF word problems. Understanding why each answer is correct (not just which one) is more valuable than high-volume Achievers practice."
       },
       {
         q: "When should I start practising IMO Class 6 sample papers?",
@@ -5062,6 +6113,7 @@ export const posts: BlogPost[] = [
     description:
       "IMO Class 8 is one of the most competitive middle-school Olympiad years. This guide covers the Class 8 paper structure, topic weightage, how the Achievers section works, and a strategic approach to using sample papers.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -5085,11 +6137,12 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">Class 8 IMO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 15 questions &mdash; series, analogy, coding-decoding, blood relations, seating arrangements</LI>
-          <LI><B>Mathematical Reasoning:</B> 25 questions on the Class 8 maths syllabus</LI>
-          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 15 questions, 1 mark each &mdash; series, analogy, coding-decoding, blood relations, seating arrangements</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions on the Class 8 maths syllabus, 1 mark each</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
-        <P>Total: 50 questions in 60 minutes. No negative marking. Level 2 for top performers.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. Level 2 for top performers. (Source: SOF&rsquo;s published Class 5&ndash;10 pattern.)</P>
 
         <H2 id="syllabus-overview">Class 8 IMO syllabus overview</H2>
         <UL>
@@ -5110,6 +6163,10 @@ export const posts: BlogPost[] = [
         </UL>
 
         <H2 id="topic-weightage">Topic weightage in Class 8 sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Algebraic expressions and identities:</B> 4&ndash;5 questions &mdash; highest frequency in both main and Achievers sections</LI>
           <LI><B>Mensuration (3D shapes):</B> 4&ndash;5 questions &mdash; surface area and volume calculations, often multi-step</LI>
@@ -5165,6 +6222,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO sample papers for Class 6 are your best preparation tool for the first middle-school science Olympiad paper. This guide covers the topic distribution, the hardest question types, and how to use papers for maximum score improvement.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -5175,25 +6233,29 @@ export const posts: BlogPost[] = [
       "NSO class 6 question paper with solutions",
     ],
     excerpt:
-      "NSO Class 6 is the first year with 50 questions. Sample papers reveal the exact topic distribution and question style — here is how to use them strategically.",
+      "NSO Class 6 is the first middle-school science paper. Sample papers reveal the topic distribution and question style — here is how to use them strategically.",
     content: (
       <>
         <P>
-          Class 6 marks the transition to a 50-question NSO paper &mdash; 15 more questions than Classes 1&ndash;5,
-          in the same 60 minutes. The syllabus is also significantly broader, introducing topics like separation
-          of substances, electric circuits, and reversible vs. irreversible changes. Sample papers are the most
+          Class 6 is the first year of middle-school science in the NSO. The 50-question, 60-minute format is the
+          same as Class 5, but the syllabus is significantly broader, introducing topics like separation of
+          substances, electric circuits, and reversible vs. irreversible changes. Sample papers are the most
           effective tool for understanding what this paper actually looks like and where preparation time should go.
         </P>
 
         <H2 id="paper-structure">Class 6 NSO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 15 questions</LI>
-          <LI><B>Science:</B> 25 questions from the Class 6 science syllabus</LI>
-          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Science:</B> 35 questions from the Class 6 science syllabus, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
-        <P>Total: 50 questions in 60 minutes. No negative marking.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. (Source: SOF&rsquo;s published Class 5&ndash;10 pattern.)</P>
 
         <H2 id="topic-distribution">Topic distribution in Class 6 NSO sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Living organisms and their surroundings (habitats, adaptation):</B> 4&ndash;5 questions &mdash; the most consistently tested topic across all years</LI>
           <LI><B>Components of food:</B> 3&ndash;4 questions &mdash; nutrient types, deficiency diseases, tests for nutrients</LI>
@@ -5204,7 +6266,7 @@ export const posts: BlogPost[] = [
           <LI><B>Light, shadows, and reflections:</B> 2&ndash;3 questions</LI>
           <LI><B>Water, air, and garbage:</B> 2&ndash;3 questions combined &mdash; primarily environment and conservation</LI>
           <LI><B>Body movements:</B> 2 questions &mdash; joint types and movement in animals</LI>
-          <LI><B>Logical Reasoning:</B> 15 questions</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions</LI>
         </UL>
         <Callout>
           <B>Habitat and adaptation questions are the most common source of wrong answers</B> in Class 6 NSO papers,
@@ -5232,8 +6294,8 @@ export const posts: BlogPost[] = [
         <H2 id="strategy">Strategy for using sample papers</H2>
         <OL>
           <LIo><B>Cold attempt:</B> Sit the first paper without preparation. Identify which topics cause the most errors. This is your study priority list.</LIo>
-          <LIo><B>Reasoning section isolation:</B> At Class 6, the reasoning section grows to 15 questions. Students who have not practised series and analogy specifically lose easy marks here. Practise the reasoning section from 2&ndash;3 papers separately.</LIo>
-          <LIo><B>Achievers block practice:</B> Extract Achievers sections from 4&ndash;5 papers and practise only those 50 questions as a focused set.</LIo>
+          <LIo><B>Reasoning section isolation:</B> The NSO reasoning section has 10 questions. Students who have not practised series and analogy specifically lose easy marks here. Practise the reasoning section from 2&ndash;3 papers separately.</LIo>
+          <LIo><B>Achievers block practice:</B> Extract Achievers sections from 4&ndash;5 papers and practise only those 20&ndash;25 questions as a focused set.</LIo>
           <LIo><B>Timed full paper:</B> One complete timed paper in the week before the exam for pacing practice.</LIo>
         </OL>
 
@@ -5247,7 +6309,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many questions are in the NSO Class 6 paper?",
-        a: "50 questions in 60 minutes. The structure is 15 Logical Reasoning questions, 25 Science questions, and 10 Achievers questions worth 3 marks each. This is an increase from the 35-question paper used in Classes 1–5."
+        a: "50 questions (60 marks) in 60 minutes: 10 Logical Reasoning questions, 35 Science questions, and 5 Achievers questions worth 3 marks each. This is the same format SOF uses from Class 5 to Class 10; Classes 1–4 have a 35-question paper."
       },
       {
         q: "What makes the NSO Class 6 Achievers section difficult?",
@@ -5267,6 +6329,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 8 is one of the most syllabus-dense Olympiad papers at the middle school level. This guide breaks down the topic distribution, hardest question types, and the strategic approach to using sample papers for maximum preparation efficiency.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -5289,11 +6352,11 @@ export const posts: BlogPost[] = [
 
         <H2 id="paper-structure">Class 8 NSO paper structure</H2>
         <UL>
-          <LI><B>Logical Reasoning:</B> 15 questions</LI>
-          <LI><B>Science:</B> 25 questions from the Class 8 science syllabus</LI>
-          <LI><B>Achievers:</B> 10 questions at 3 marks each</LI>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Science:</B> 35 questions from the Class 8 science syllabus, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 higher-order questions at 3 marks each</LI>
         </UL>
-        <P>Total: 50 questions in 60 minutes. No negative marking. Level 2 for top performers.</P>
+        <P>Total: 50 questions and 60 marks in 60 minutes. No negative marking. Level 2 for top performers. (Source: SOF&rsquo;s published Class 5&ndash;10 pattern.)</P>
 
         <H2 id="syllabus">Class 8 NSO syllabus overview</H2>
         <UL>
@@ -5318,6 +6381,10 @@ export const posts: BlogPost[] = [
         </UL>
 
         <H2 id="topic-weightage">Topic weightage across sample papers</H2>
+        <P>
+          The question counts below are rough ranges to help you prioritise. They are not official SOF figures,
+          and the exact mix changes from year to year.
+        </P>
         <UL>
           <LI><B>Cell structure and functions:</B> 4&ndash;5 questions &mdash; plant vs. animal cell differences and organelle functions dominate the Achievers section</LI>
           <LI><B>Light (reflection, mirrors):</B> 4&ndash;5 questions &mdash; image characteristics in concave/convex mirrors are a consistent Achievers topic</LI>
@@ -5718,98 +6785,89 @@ export const posts: BlogPost[] = [
     slug: "silverzone-olympiad-preparation-guide",
     title: "Silverzone Olympiad Preparation Guide: All You Need to Know",
     description:
-      "Silverzone Olympiads are among India's most widely taken school competitions. This guide covers all Silverzone exams — iOM, iOSS, iFLO, iOEL, SKGKO — the paper format, syllabus alignment, and preparation strategy.",
+      "Silverzone Olympiads are among India's most widely taken school competitions. This guide covers the main Silverzone exams — iOM, iOS, iOEL, iSSO, SKGKO, iiO — how the papers are structured, how they differ from SOF, and how to prepare.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
       "silverzone olympiad preparation",
       "silverzone olympiad guide",
       "silverzone iOM preparation",
-      "silverzone iOSS preparation",
+      "silverzone iOS preparation",
       "silverzone olympiad syllabus",
     ],
     excerpt:
-      "Silverzone Olympiads &mdash; iOM, iOSS, iFLO, iOEL, SKGKO &mdash; are among India's most widely taken school competitions. Here is the complete preparation guide.",
+      "Silverzone Olympiads — iOM, iOS, iOEL, iSSO, SKGKO and more — are among India's most widely taken school competitions. Here is how they work and how to prepare.",
     content: (
       <>
         <P>
-          Silverzone Foundation is one of India&rsquo;s leading Olympiad organisers, running competitions in
-          maths, science, English, French, reasoning, and computers for Classes 1&ndash;12. Their exams are
-          known for high-quality questions, a rigorous marking structure, and National Cyber Olympiad-style
-          computer science competitions. This guide covers the full Silverzone family of competitions and how
-          to prepare for each.
+          SilverZone Foundation is one of India&rsquo;s best-known Olympiad organisers, alongside SOF. It runs
+          school-based competitions in maths, science, English, social studies, general knowledge, computers,
+          Hindi and more, for Classes 1&ndash;12. Students register through their school and sit the first level
+          in school. This guide covers the main Silverzone exams, how their papers are built, how they differ
+          from SOF Olympiads, and how to prepare.
         </P>
-
-        <H2 id="silverzone-exams">The Silverzone exam family</H2>
-        <UL>
-          <LI>
-            <B>iOM (International Olympiad of Mathematics):</B> Classes 1&ndash;12. Maths competition aligned
-            with school curriculum. Known for slightly higher difficulty at the Achievers level compared to SOF IMO.
-          </LI>
-          <LI>
-            <B>iOSS (International Olympiad of Science and Social Studies):</B> Classes 3&ndash;8. Unique
-            feature: combines science and social studies in a single paper, which is unlike any other major
-            Olympiad in India.
-          </LI>
-          <LI>
-            <B>iFLO (International French Language Olympiad):</B> Classes 5&ndash;12. For students learning
-            French as a second or third language in school. Tests reading comprehension, grammar, and vocabulary.
-          </LI>
-          <LI>
-            <B>iOEL (International Olympiad of English Language):</B> Classes 1&ndash;12. English language
-            competition covering grammar, comprehension, vocabulary, and creative writing elements.
-          </LI>
-          <LI>
-            <B>SKGKO (Sai Speed Maths Exam / Smart Kid General Knowledge Olympiad):</B> General knowledge
-            and mental maths competition for Classes 1&ndash;12.
-          </LI>
-          <LI>
-            <B>iIO (International Informatics Olympiad):</B> Computer science and informatics for Classes 1&ndash;12.
-            Covers computer fundamentals, MS Office, internet concepts, and basic programming for higher classes.
-          </LI>
-        </UL>
-
-        <H2 id="iom-preparation">iOM (International Olympiad of Mathematics) preparation</H2>
-        <P>
-          The iOM paper follows the school maths syllabus closely but is known for Achievers-section questions
-          that require multi-step reasoning and occasionally introduce concepts slightly ahead of the grade syllabus.
-        </P>
-        <UL>
-          <LI><B>Paper structure:</B> 35 questions (Classes 1&ndash;5) or 50 questions (Classes 6&ndash;12), 60 minutes, no negative marking</LI>
-          <LI><B>Achievers section emphasis:</B> More conceptually demanding than comparable SOF IMO Achievers questions at the same class level &mdash; prepare specifically for multi-step application</LI>
-          <LI><B>What to prioritise:</B> The same high-frequency topics as IMO (arithmetic, fractions, algebra at higher classes) but with particular attention to the Achievers section</LI>
-        </UL>
-
-        <H2 id="ioss-preparation">iOSS (Science + Social Studies) preparation</H2>
-        <P>
-          The iOSS is the only major Olympiad that combines science and social studies (history, civics, geography)
-          in a single paper. This makes it uniquely demanding to prepare for.
-        </P>
-        <UL>
-          <LI><B>Paper structure:</B> 40 questions in 40 minutes for Classes 3&ndash;8; split between science and social studies sections</LI>
-          <LI><B>Preparation approach:</B> Prepare science and social studies in parallel &mdash; you cannot focus exclusively on one. The split between the two sections varies, so prepare both fully.</LI>
-          <LI><B>Social studies content at Olympiad level:</B> Tests understanding and application &mdash; map reading, cause-and-effect historical reasoning, civic processes &mdash; not just recall of facts</LI>
-        </UL>
         <Callout>
-          <B>The iOSS is underestimated by students who strong science but weak social studies</B> (or vice versa).
-          Since both sections appear in the same paper, a student who neglects social studies will lose significant
-          marks even if their science preparation is excellent. Treat both sections as equal priority.
+          <B>Check the official pattern for your class.</B> Silverzone publishes question counts, timings and award
+          rules on silverzone.org, and they have changed between years and differ by class group. Use this guide for
+          strategy, and the official site for exact numbers and dates.
         </Callout>
 
-        <H2 id="ioel-preparation">iOEL (English Language) preparation</H2>
+        <H2 id="silverzone-exams">The main Silverzone exams</H2>
         <UL>
-          <LI><B>Grammar and usage:</B> Tense consistency, subject-verb agreement, active/passive voice, direct/indirect speech &mdash; at a slightly higher level than SOF IEO for the same class</LI>
-          <LI><B>Comprehension:</B> Passage-based questions requiring inference and vocabulary in context</LI>
-          <LI><B>Vocabulary:</B> Word meanings, analogies, antonyms, synonyms &mdash; more advanced vocabulary list than IEO at equivalent classes</LI>
+          <LI><B>iOM (International Olympiad of Mathematics):</B> maths, aligned with the school curriculum.</LI>
+          <LI><B>iOS (International Olympiad of Science):</B> science across physics, chemistry and biology topics for each class.</LI>
+          <LI><B>iOEL (International Olympiad of English Language):</B> grammar, vocabulary and reading comprehension.</LI>
+          <LI><B>iSSO (International Social Studies Olympiad):</B> history, geography and civics.</LI>
+          <LI><B>SKGKO (Smart Kid General Knowledge Olympiad):</B> general knowledge, current events and sports.</LI>
+          <LI><B>iiO (International Informatics Olympiad):</B> computers and informatics.</LI>
+          <LI><B>Others:</B> a reasoning and aptitude Olympiad, a talent hunt Olympiad, a commerce Olympiad, and the Akhil Bhartiya Hindi Olympiad (ABHO).</LI>
+        </UL>
+
+        <H2 id="paper-structure">How Silverzone papers are structured</H2>
+        <UL>
+          <LI><B>Three parts:</B> published patterns describe a subject section, a <B>Reasoning and Aptitude</B> section, and a harder <B>Scholar&rsquo;s Zone</B> section, which plays a similar role to SOF&rsquo;s Achievers section.</LI>
+          <LI><B>Objective questions, no negative marking:</B> every question is multiple choice, so attempt them all.</LI>
+          <LI><B>Shorter papers than SOF:</B> recent published patterns show fewer questions and less time than SOF&rsquo;s 60-minute papers, with the exact numbers depending on the class group. Speed matters, so practise against the clock.</LI>
+          <LI><B>More than one level:</B> top performers in the school-level round can progress to further rounds, depending on Silverzone&rsquo;s eligibility rules for that year.</LI>
+        </UL>
+
+        <H2 id="iom-preparation">iOM (maths) preparation</H2>
+        <UL>
+          <LI>Cover your class syllabus thoroughly. iOM follows school maths closely.</LI>
+          <LI>Practise the Reasoning and Aptitude section separately: series, analogies, patterns, and direction questions.</LI>
+          <LI>Treat Scholar&rsquo;s Zone like SOF&rsquo;s Achievers section: multi-step questions on familiar topics. Practise harder word problems specifically.</LI>
+          <LI>Because the paper is shorter, build speed with timed practice sets well before the exam.</LI>
+        </UL>
+
+        <H2 id="ios-preparation">iOS (science) preparation</H2>
+        <UL>
+          <LI>Study each chapter for understanding, then practise application questions: &ldquo;what happens if&rdquo; and &ldquo;why&rdquo; questions.</LI>
+          <LI>Diagrams (plant and animal cells, organ systems, circuits, ray diagrams) are frequent question sources. Redraw them from memory.</LI>
+          <LI>Most NSO preparation transfers directly. Students taking both should prepare once and practise both formats.</LI>
+        </UL>
+
+        <H2 id="isso-preparation">iSSO (social studies) preparation</H2>
+        <UL>
+          <LI>Questions test understanding and application: map reading, cause-and-effect in history, and how institutions work.</LI>
+          <LI>Practise blank-map work daily and write short cause&ndash;event&ndash;result notes for major historical events.</LI>
+          <LI>Our <A href="/blog/isso-social-studies-olympiad-preparation">social studies Olympiad guide</A> covers this preparation in detail.</LI>
+        </UL>
+
+        <H2 id="ioel-preparation">iOEL (English) preparation</H2>
+        <UL>
+          <LI><B>Grammar and usage:</B> tenses, subject-verb agreement, active/passive voice, direct/indirect speech.</LI>
+          <LI><B>Comprehension:</B> passage-based questions requiring inference and vocabulary in context.</LI>
+          <LI><B>Vocabulary:</B> word meanings, analogies, antonyms and synonyms. Daily reading is the best long-term preparation.</LI>
         </UL>
 
         <H2 id="general-preparation-strategy">General Silverzone preparation strategy</H2>
         <UL>
-          <LI>The Silverzone syllabus closely mirrors CBSE &mdash; CBSE students have natural alignment; ICSE students should verify topic coverage</LI>
-          <LI>Silverzone publishes official sample papers on their website (silverzone.org) &mdash; always practise these before the exam</LI>
-          <LI>The question style is slightly more application-oriented than SOF at equivalent levels &mdash; rote recall without understanding will underperform</LI>
-          <LI>Level 2 qualification criteria and awards are competitive &mdash; appearing for both SOF and Silverzone exams in the same subject is a recognised strategy for maximising competitive experience</LI>
+          <LI>The syllabus closely follows CBSE. ICSE and state-board students should check topic coverage for their class.</LI>
+          <LI>Practise official Silverzone sample papers before the exam to get used to the question style and timing.</LI>
+          <LI>Reasoning practice helps across both Silverzone and SOF exams, so it is time well spent if your child takes both.</LI>
+          <LI>Taking both SOF and Silverzone exams in the same subject is common and gives extra exam practice. See our <A href="/blog/sof-vs-silverzone-vs-crest-olympiad">SOF vs Silverzone vs CREST comparison</A>.</LI>
         </UL>
 
         <CTA>Practise Silverzone-style Olympiad questions by subject and class &mdash; free to start.</CTA>
@@ -5818,19 +6876,19 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "What is the difference between Silverzone and SOF Olympiads?",
-        a: "SOF (Science Olympiad Foundation) and Silverzone are both reputable Olympiad organisers with large participation bases. SOF Olympiads (IMO, NSO, IEO) have a larger total student base, making their national ranks more competitive. Silverzone exams (iOM, iOSS, iOEL) are known for slightly more application-oriented question styles at the Achievers level. Many students appear for both to maximise competitive experience."
+        a: "SOF (Science Olympiad Foundation) and SilverZone are both well-established Olympiad organisers that run school-based exams. SOF papers are 60 minutes with an Achievers section; SilverZone papers are generally shorter and include a Reasoning and Aptitude section and a harder Scholar's Zone section. Many students take both for extra practice."
       },
       {
         q: "Is the Silverzone iOM harder than the SOF IMO?",
-        a: "At the main-section level, difficulty is comparable. The Silverzone iOM Achievers section is generally considered slightly more conceptually demanding than the SOF IMO Achievers section at equivalent class levels. Students who find the SOF IMO straightforward often use iOM as the next challenge."
+        a: "They test the same school maths at a similar level, but the formats differ. iOM papers are generally shorter, so speed matters more, and its Scholar's Zone plays a similar role to the IMO's Achievers section. Practising both formats is the best preparation if your child takes both."
       },
       {
-        q: "What makes the Silverzone iOSS unique?",
-        a: "iOSS is the only major Olympiad in India that combines science and social studies in a single paper. This makes it significantly different from separate science or social studies competitions — students must prepare both subjects equally rather than focusing on one strength."
+        q: "Does Silverzone have a social studies Olympiad?",
+        a: "Yes. The International Social Studies Olympiad (iSSO) covers history, geography and civics. It is a separate exam from the science Olympiad (iOS)."
       },
       {
         q: "Where can I find Silverzone sample papers?",
-        a: "Silverzone publishes official sample papers on silverzone.org. Their annual workbooks (published by Silverzone Foundation) contain 5+ years of past papers with solutions. Always practise at least 2–3 official papers before the exam to calibrate to the question style, which differs from SOF even at the same class level."
+        a: "SilverZone publishes sample papers and exam details on silverzone.org, and also sells practice workbooks. Practise at least 2–3 official papers before the exam to get used to the question style and timing, which differ from SOF even at the same class level."
       }
     ]
   },
@@ -5842,6 +6900,7 @@ export const posts: BlogPost[] = [
     description:
       "ASSET (Assessment of Scholastic Skills through Educational Testing) is one of India's most skill-focused school assessments. This guide explains how ASSET differs from Olympiads, what skills it tests, and how to prepare for the maths, science, and English papers.",
     date: "2026-07-23",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -5889,16 +6948,14 @@ export const posts: BlogPost[] = [
 
         <H2 id="subjects-and-classes">Subjects and classes</H2>
         <P>
-          ASSET is available in three subjects:
+          ASSET&rsquo;s core subjects are <B>English, Maths and Science</B>, offered across primary and secondary
+          classes. Educational Initiatives also offers Social Studies and Hindi papers for some classes. The exact
+          class range for each subject can change, so check with your school or the official ASSET site.
         </P>
-        <UL>
-          <LI><B>Maths:</B> Classes 3&ndash;9</LI>
-          <LI><B>Science:</B> Classes 3&ndash;9</LI>
-          <LI><B>English:</B> Classes 3&ndash;9</LI>
-        </UL>
         <P>
-          Each subject is a separate 35-question paper in 45 minutes. Students can appear for one, two, or
-          all three subjects.
+          Each subject is a separate multiple-choice paper. The number of questions and the time allowed vary
+          by class and subject (published durations generally fall between about 45 and 70 minutes), and the
+          details are shared before the test. Students can appear for one subject or several.
         </P>
 
         <H2 id="maths-preparation">Preparing for ASSET Maths</H2>
@@ -5969,7 +7026,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "Which classes can appear for the ASSET exam?",
-        a: "ASSET is available for Classes 3–9 in three subjects: Maths, Science, and English. Each subject is a separate 35-question paper in 45 minutes. Students can appear for one, two, or all three subjects."
+        a: "ASSET's core subjects — English, Maths and Science — are offered across primary and secondary classes, with Social Studies and Hindi available for some classes. Each subject is a separate multiple-choice paper; the question count and duration vary by class and subject and are shared before the test. Check with your school or the official ASSET site for the current class range."
       },
       {
         q: "How should I prepare for ASSET Maths?",
@@ -6680,6 +7737,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete preparation guide for the International General Knowledge Olympiad (IGKO) — what the exam tests, the full syllabus across classes, how to build GK systematically, and a practical study plan.",
     date: "2026-07-09",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -6697,33 +7755,35 @@ export const posts: BlogPost[] = [
           The International General Knowledge Olympiad (IGKO), organised by the Science Olympiad Foundation (SOF),
           is one of the most underrated Olympiad opportunities for Indian school students. While most students and
           parents focus on maths and science Olympiads, IGKO tests a different and equally important skill set:
-          awareness of the world, life skills, and logical reasoning. This guide covers everything you need to
+          awareness of the world, current affairs and life skills. This guide covers everything you need to
           know to prepare effectively.
         </P>
 
         <H2 id="what-is-igko">What is IGKO and who conducts it?</H2>
         <P>
           IGKO is conducted by the Science Olympiad Foundation (SOF), the same organisation behind IMO, NSO, and
-          IEO. It is open to students in Classes 1&ndash;10. Like other SOF Olympiads, it has two levels for
-          Classes 3&ndash;10: a school-based Level 1 and a national Level 2 for top performers. Classes 1&ndash;2
-          have a single level.
+          IEO. Unlike IMO, NSO and IEO, IGKO is a <B>single-level exam</B>: there is no Level 2, and ranks and
+          awards are decided on the one school-based paper.
         </P>
         <P>
-          The IGKO paper is 35 questions for Classes 1&ndash;4 and 50 questions for Classes 5&ndash;10, to be
-          completed in 60 minutes. No negative marking applies.
+          SOF&rsquo;s published pattern is 35 questions (40 marks) for Classes 1&ndash;4 and 50 questions (60 marks)
+          for Classes 5 and above, to be completed in 60 minutes. No negative marking applies.
         </P>
 
         <H2 id="syllabus">IGKO syllabus breakdown</H2>
         <P>
-          The IGKO syllabus is divided into three main sections:
+          The IGKO paper has four sections:
         </P>
-        <H3>1. Logical Reasoning (15 questions for Classes 5+)</H3>
+        <UL>
+          <LI><B>General Awareness:</B> 20 questions (Classes 1&ndash;4) or 30 questions (Classes 5+), 1 mark each</LI>
+          <LI><B>Current Affairs:</B> 5 questions (Classes 1&ndash;4) or 10 questions (Classes 5+), 1 mark each</LI>
+          <LI><B>Life Skills:</B> 5 questions, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 harder questions at 2 marks each (Classes 1&ndash;4) or 3 marks each (Classes 5+)</LI>
+        </UL>
         <P>
-          This section is identical in format to the logical reasoning section in IMO and NSO &mdash; series
-          completion, analogy, coding-decoding, direction problems, blood relations. Students already preparing
-          for other Olympiads have a strong head start here.
+          There is no separate logical reasoning section in IGKO, unlike IMO and NSO.
         </P>
-        <H3>2. General Knowledge (core section)</H3>
+        <H3>1. General Awareness (the biggest section)</H3>
         <P>
           This is the distinctive section of IGKO. It covers:
         </P>
@@ -6734,8 +7794,12 @@ export const posts: BlogPost[] = [
           <LI><B>Books and authors:</B> Famous books, authors, award-winning literature (Booker Prize, Nobel Prize in Literature), Indian authors in English</LI>
           <LI><B>Arts and culture:</B> Classical dance forms, music traditions, UNESCO heritage sites in India, famous painters and their works</LI>
           <LI><B>History and civics:</B> Indian freedom movement, constitutional facts (rights, duties, important articles), historical events and their dates</LI>
-          <LI><B>Current affairs:</B> Recent events in sports, science, politics, and environment over the past 12 months</LI>
         </UL>
+        <H3>2. Current Affairs</H3>
+        <P>
+          Recent events in sports, science, politics, awards and the environment, usually from the months leading
+          up to the exam. This section has its own fixed share of the paper (10 of 50 questions from Class 5).
+        </P>
         <H3>3. Life Skills and Values</H3>
         <P>
           This section tests awareness of everyday situations requiring judgment: road safety, first aid basics,
@@ -6770,8 +7834,9 @@ export const posts: BlogPost[] = [
           </LIo>
         </OL>
         <Callout>
-          <B>Current affairs are the highest ROI category for IGKO.</B> They appear in 8&ndash;10 questions per
-          paper and are almost entirely predictable from major events in the 6&ndash;12 months before the exam.
+          <B>Current affairs are the highest ROI category for IGKO.</B> SOF&rsquo;s pattern gives them a dedicated
+          10 questions from Class 5 (5 in Classes 1&ndash;4), and they are largely predictable from major events in
+          the months before the exam.
           A student who follows news regularly needs minimal additional preparation for this section.
         </Callout>
 
@@ -6783,21 +7848,21 @@ export const posts: BlogPost[] = [
           <LI><B>Week 4:</B> Sports &mdash; major tournaments, Indian achievements, records</LI>
           <LI><B>Week 5:</B> History, arts, culture, and life skills</LI>
           <LI><B>Week 6:</B> Current affairs &mdash; review major events from the past 6 months</LI>
-          <LI><B>Week 7:</B> Logical reasoning &mdash; targeted practice on series, analogy, coding-decoding</LI>
+          <LI><B>Week 7:</B> Life skills scenarios and Achievers-style harder questions across categories</LI>
           <LI><B>Week 8:</B> Mixed mock paper practice; fill gaps identified from mock results</LI>
         </UL>
 
-        <CTA>Practise GK and reasoning questions across all classes &mdash; free to start.</CTA>
+        <CTA>Practise GK and Olympiad questions across all classes &mdash; free to start.</CTA>
       </>
     ),
     faqs: [
       {
         q: "What is IGKO and who organises it?",
-        a: "IGKO stands for International General Knowledge Olympiad, organised by the Science Olympiad Foundation (SOF). It is open to Classes 1–10 and tests general knowledge, life skills, and logical reasoning. Like other SOF Olympiads, it has a Level 1 school round and a Level 2 national round for top performers from Classes 3 onward."
+        a: "IGKO stands for International General Knowledge Olympiad, organised by the Science Olympiad Foundation (SOF). It tests general awareness, current affairs and life skills. Unlike IMO, NSO and IEO, IGKO is a single-level exam with no Level 2."
       },
       {
         q: "What topics are covered in IGKO?",
-        a: "IGKO covers three main areas: Logical Reasoning (same format as IMO/NSO reasoning sections), General Knowledge (India, world, sports, science, history, current affairs, arts), and Life Skills (scenario-based questions on road safety, environment, civic responsibility, first aid)."
+        a: "IGKO has four sections: General Awareness (India, world, sports, science, history, arts — 30 questions from Class 5), Current Affairs (10 questions), Life Skills (5 scenario-based questions on safety, environment and civic responsibility) and an Achievers section (5 harder questions). Classes 1–4 have a shorter 35-question version. There is no logical reasoning section."
       },
       {
         q: "How do I prepare for current affairs in IGKO?",
@@ -6817,6 +7882,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to the National Science Talent Search Exam (NSTSE) — what it tests, how it differs from SOF Olympiads, the full syllabus, and a practical preparation strategy for Classes 2–12.",
     date: "2026-07-09",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -6867,16 +7933,19 @@ export const posts: BlogPost[] = [
 
         <H2 id="syllabus">NSTSE syllabus overview</H2>
         <P>
-          NSTSE follows the CBSE curriculum closely. The paper is divided by subject with question counts
-          approximately as follows for Classes 6+:
+          NSTSE follows the CBSE curriculum closely. According to the Unified Council&rsquo;s published pattern, the
+          Classes 6&ndash;10 paper has 60 questions (60 marks) in one hour, with no negative marking:
         </P>
         <UL>
           <LI><B>Mathematics:</B> 25 questions &mdash; number systems, algebra, geometry, mensuration, statistics (class-specific topics)</LI>
-          <LI><B>Physics:</B> 15 questions &mdash; mechanics, light, sound, electricity (class-specific)</LI>
-          <LI><B>Chemistry:</B> 15 questions &mdash; matter, atoms, chemical reactions, periodic table (class-specific)</LI>
-          <LI><B>Biology:</B> 15 questions &mdash; cell, tissues, systems, ecology (class-specific)</LI>
+          <LI><B>Physics:</B> 10 questions &mdash; mechanics, light, sound, electricity (class-specific)</LI>
+          <LI><B>Chemistry:</B> 10 questions &mdash; matter, atoms, chemical reactions, periodic table (class-specific)</LI>
+          <LI><B>Biology:</B> 10 questions &mdash; cell, tissues, systems, ecology (class-specific)</LI>
           <LI><B>Critical thinking:</B> 5 questions &mdash; logical reasoning and application questions</LI>
         </UL>
+        <P>
+          Patterns can change between years, so confirm the current one on the Unified Council website.
+        </P>
         <P>
           For Classes 2&ndash;5, the paper is simpler and combines general science and maths without the
           physics/chemistry/biology split.
@@ -6898,9 +7967,9 @@ export const posts: BlogPost[] = [
             chapters. Practise questions that require understanding &lsquo;why&rsquo; &mdash; not just procedures.
           </LIo>
           <LIo>
-            <B>Time management across subjects:</B> With 75 questions in 60 minutes, you have less than 50 seconds
-            per question. Practise distributing time across subjects. Most students allocate: Maths 20 min,
-            Physics 12 min, Chemistry 12 min, Biology 12 min, Critical Thinking 4 min.
+            <B>Time management across subjects:</B> With 60 questions in 60 minutes, you have about a minute
+            per question. Practise distributing time across subjects. A sensible split is roughly: Maths 25 min,
+            Physics 10 min, Chemistry 10 min, Biology 10 min, Critical Thinking 5 min.
           </LIo>
           <LIo>
             <B>Prioritise the diagnostic report:</B> If you have a previous year&rsquo;s NSTSE diagnostic report,
@@ -6934,7 +8003,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many questions are in the NSTSE paper?",
-        a: "For Classes 6 and above, NSTSE has 75 questions to be completed in 60 minutes — approximately 25 in Maths, 15 each in Physics, Chemistry, and Biology, and 5 in Critical Thinking. For Classes 2–5, the paper is shorter and combines general science and maths."
+        a: "According to the Unified Council's published pattern, NSTSE for Classes 6–10 has 60 questions (60 marks) in one hour: 25 in Maths, 10 each in Physics, Chemistry and Biology, and 5 in Critical Thinking, with no negative marking. For Classes 2–5, the paper is shorter and combines general science and maths."
       },
       {
         q: "Is NSTSE harder than SOF Olympiads?",
@@ -6950,6 +8019,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete preparation guide for Cyber Olympiads including UCO and SOF NCO — what the exam tests, the full syllabus for Classes 3–10, key topics, and a practical study plan for students and parents.",
     date: "2026-07-09",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -6974,15 +8044,17 @@ export const posts: BlogPost[] = [
         <H2 id="about-cyber-olympiads">About the major Cyber Olympiads</H2>
         <H3>SOF National Cyber Olympiad (NCO)</H3>
         <P>
-          Conducted by the Science Olympiad Foundation, NCO is open to Classes 3&ndash;12. It follows the same
-          SOF format as IMO and NSO: a 35-question Level 1 paper (50 questions for Classes 7+), no negative marking,
-          and a Level 2 national round for top performers from Classes 3 onward. The paper includes Logical
-          Reasoning and Computer & IT sections, plus an Achievers section.
+          Conducted by the Science Olympiad Foundation, NCO is a <B>single-level</B> exam (SOF holds a Level 2
+          only for IMO, NSO and IEO). SOF&rsquo;s published pattern is 35 questions (40 marks) for Classes 1&ndash;4
+          and 50 questions (60 marks) for Classes 5&ndash;10, in 60 minutes with no negative marking. From Class 5
+          the paper has Logical Reasoning (10 questions), Computer Science (30 questions), AI, Robotics and
+          Information Technology (5 questions) and an Achievers section (5 questions at 3 marks each).
         </P>
         <H3>Unified Cyber Olympiad (UCO)</H3>
         <P>
-          Conducted by the Unified Council, UCO is open to Classes 3&ndash;10. It has a single national level and
-          tests similar content to NCO but with a slightly different question distribution. It is known for a
+          Conducted by the Unified Council, UCO is generally described as a two-level exam for school students
+          (check unifiedcouncil.com for the current classes and pattern, which have changed over the years). It
+          tests similar content to NCO but with a different question distribution. It is known for a
           strong emphasis on practical computer knowledge &mdash; MS Office, internet usage, and operating
           system concepts.
         </P>
@@ -7058,7 +8130,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "What is the difference between NCO and UCO?",
-        a: "NCO (National Cyber Olympiad) is conducted by SOF and follows the same two-level format as IMO and NSO, with a school-level Level 1 and a national Level 2. UCO (Unified Cyber Olympiad) is conducted by the Unified Council and has a single national level. Both test similar content — computer fundamentals, MS Office, networking, and logical reasoning."
+        a: "NCO (National Cyber Olympiad) is conducted by SOF as a single-level, school-based exam: 35 questions for Classes 1–4 and 50 for Classes 5–10. UCO (Unified Cyber Olympiad) is conducted by the Unified Council and is generally run in two levels; check its official site for the current pattern. Both test similar content — computer fundamentals, MS Office, networking, and logical reasoning."
       },
       {
         q: "What programming language is tested in Class 9–10 Cyber Olympiad?",
@@ -7082,6 +8154,7 @@ export const posts: BlogPost[] = [
     description:
       "IMO previous year question papers for Class 5 are one of the most valuable preparation tools available — but only if you use them the right way. This guide explains which topics appear most, how to analyse your mistakes, and how to build a paper-based study plan.",
     date: "2026-07-09",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -7128,16 +8201,16 @@ export const posts: BlogPost[] = [
 
         <H2 id="topic-distribution">Topic distribution in IMO Class 5 papers</H2>
         <P>
-          Based on the consistent pattern across recent IMO Class 5 papers, here is how topics are distributed:
+          These are rough ranges to help you prioritise, not official SOF figures, and the mix changes from year to year. Here is how topics are distributed:
         </P>
         <UL>
-          <LI><B>Numbers and operations (place value, comparison, addition, subtraction, multiplication, division):</B> 8&ndash;10 questions &mdash; highest weightage in the paper</LI>
+          <LI><B>Numbers and operations (place value, comparison, addition, subtraction, multiplication, division):</B> 8&ndash;10 questions &mdash; the biggest maths topic in the paper</LI>
           <LI><B>Fractions and decimals:</B> 4&ndash;5 questions, including word problems</LI>
           <LI><B>Geometry (shapes, angles, area, perimeter):</B> 4&ndash;5 questions</LI>
           <LI><B>Measurement (length, weight, capacity, time, money):</B> 3&ndash;4 questions</LI>
           <LI><B>Data handling (pictographs, bar charts, tables):</B> 2&ndash;3 questions</LI>
           <LI><B>Patterns and sequences:</B> 2&ndash;3 questions (often in Achievers section)</LI>
-          <LI><B>Logical reasoning:</B> 8&ndash;10 questions (number series, analogy, odd-one-out, direction problems)</LI>
+          <LI><B>Logical reasoning:</B> 15 questions, a fixed section in SOF&rsquo;s Class 5 pattern (number series, analogy, odd-one-out, direction problems)</LI>
           <LI><B>Achievers section:</B> 5 questions worth 3 marks each, drawing from numbers, fractions, geometry, and patterns</LI>
         </UL>
         <Callout>
@@ -7200,7 +8273,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "What topics appear most in IMO Class 5 papers?",
-        a: "Numbers and operations consistently carry the highest weightage (8–10 questions). Logical reasoning is the second-largest section (8–10 questions). Fractions, decimals, geometry, and measurement each appear in 3–5 questions. The Achievers section draws mainly from numbers, fractions, patterns, and geometry."
+        a: "Logical reasoning is a fixed 15-question section in SOF's Class 5 pattern, and among the maths topics, numbers and operations usually carry the most questions (roughly 8–10). Fractions, decimals, geometry, and measurement each appear in 3–5 questions. The Achievers section draws mainly from numbers, fractions, patterns, and geometry."
       },
       {
         q: "Is the IMO Class 5 syllabus the same every year?",
@@ -7216,6 +8289,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO sample papers for Class 4 are the most effective preparation tool — but only when used strategically. This guide covers the topic distribution in Class 4 NSO papers, how to analyse your mistakes, and a paper-based preparation plan.",
     date: "2026-07-09",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -7239,12 +8313,12 @@ export const posts: BlogPost[] = [
 
         <H2 id="nso-class4-format">NSO Class 4 exam format</H2>
         <P>
-          The NSO Class 4 paper has <B>35 questions</B> to be completed in <B>60 minutes</B>. It is divided into:
+          The NSO Class 4 paper has <B>35 questions</B> worth <B>40 marks</B>, to be completed in <B>60 minutes</B>. SOF&rsquo;s published structure:
         </P>
         <UL>
-          <LI><B>Logical Reasoning:</B> 10 questions (non-science: patterns, series, analogy, classification)</LI>
-          <LI><B>Science:</B> 20 questions on the Class 4 science syllabus</LI>
-          <LI><B>Achievers:</B> 5 questions worth 3 marks each (harder, application-based)</LI>
+          <LI><B>Logical Reasoning:</B> 5 questions, 1 mark each (non-science: patterns, series, analogy, classification)</LI>
+          <LI><B>Science:</B> 25 questions on the Class 4 science syllabus, 1 mark each</LI>
+          <LI><B>Achievers:</B> 5 questions worth 2 marks each (harder, application-based)</LI>
         </UL>
         <P>
           No negative marking. The paper is the same structure as IMO at this level &mdash; students who have
@@ -7253,7 +8327,7 @@ export const posts: BlogPost[] = [
 
         <H2 id="topic-distribution">Topic distribution in NSO Class 4 papers</H2>
         <P>
-          Based on the consistent pattern across recent NSO Class 4 papers:
+          These are rough ranges to help you prioritise, not official SOF figures, and the mix changes from year to year:
         </P>
         <UL>
           <LI><B>Plants:</B> Parts of a plant, photosynthesis concept, plant reproduction, types of plants &mdash; 3&ndash;4 questions consistently</LI>
@@ -7264,7 +8338,7 @@ export const posts: BlogPost[] = [
           <LI><B>Earth and environment:</B> Weather, seasons, natural resources, pollution, conservation &mdash; 2&ndash;3 questions</LI>
           <LI><B>Light, sound, and forces:</B> Basic properties, sources, simple applications &mdash; 2&ndash;3 questions</LI>
           <LI><B>Space:</B> Solar system, planets, moon phases, stars and constellations &mdash; 1&ndash;2 questions</LI>
-          <LI><B>Logical reasoning:</B> 10 questions (number series, analogy, odd-one-out, direction problems)</LI>
+          <LI><B>Logical reasoning:</B> 5 questions (number series, analogy, odd-one-out, direction problems)</LI>
           <LI><B>Achievers:</B> 5 application questions drawing mainly from human body, food, and matter topics</LI>
         </UL>
         <Callout>
@@ -7312,7 +8386,7 @@ export const posts: BlogPost[] = [
 
         <H2 id="class4-science-depth">How deep does Class 4 NSO science go?</H2>
         <P>
-          The main science section (20 questions) tests the Class 4 curriculum at school level &mdash; it does not
+          The main science section (25 questions) tests the Class 4 curriculum at school level &mdash; it does not
           go significantly beyond what is taught in CBSE/ICSE Class 4. The Achievers section (5 questions) is where
           depth is tested: application questions, scenario-based questions, and questions that combine two concepts.
           A student who genuinely understands their Class 4 science topics &mdash; rather than having memorised
@@ -7325,7 +8399,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "How many questions are in the NSO Class 4 paper?",
-        a: "The NSO Class 4 paper has 35 questions: 10 Logical Reasoning questions, 20 Science questions, and 5 Achievers questions worth 3 marks each. The paper must be completed in 60 minutes. There is no negative marking."
+        a: "The NSO Class 4 paper has 35 questions worth 40 marks: 5 Logical Reasoning questions, 25 Science questions, and 5 Achievers questions worth 2 marks each. The paper must be completed in 60 minutes. There is no negative marking."
       },
       {
         q: "What topics appear most in NSO Class 4 sample papers?",
@@ -7337,7 +8411,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "Is NSO Class 4 science beyond the school syllabus?",
-        a: "The main 20-question science section closely follows the Class 4 school curriculum. The Achievers section tests application and concept combination rather than content beyond the syllabus. A student who deeply understands their Class 4 science — not just memorised it — is well-prepared for the Achievers section without additional advanced material."
+        a: "The main 25-question science section closely follows the Class 4 school curriculum. The Achievers section tests application and concept combination rather than content beyond the syllabus. A student who deeply understands their Class 4 science — not just memorised it — is well-prepared for the Achievers section without additional advanced material."
       }
     ]
   },
@@ -7925,6 +8999,7 @@ export const posts: BlogPost[] = [
     description:
       "A practical 90-day olympiad study plan for Indian students. Month-by-month schedule, weekly routines, and daily time breakdowns for IMO, NSO, and IEO preparation.",
     date: "2026-06-29",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 7,
     keywords: [
@@ -7992,7 +9067,8 @@ export const posts: BlogPost[] = [
         </P>
         <P>
           In the final 2 weeks, specifically practise the Achievers section of your olympiad. These 5 questions
-          worth 3 marks each are the biggest single opportunity to separate your score from the average.
+          (3 marks each from Class 5, 2 marks each in Classes 1&ndash;4) are the biggest single opportunity to
+          separate your score from the average.
         </P>
         <UL>
           <LI><B>Daily time:</B> 45&ndash;60 minutes</LI>
@@ -8335,6 +9411,7 @@ export const posts: BlogPost[] = [
     description:
       "Complete olympiad preparation guide for Class 4. Covers IMO, NSO, and IEO syllabus for Class 4, study strategy, practice tips, and what parents need to know.",
     date: "2026-06-28",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 6,
     keywords: [
@@ -8383,7 +9460,7 @@ export const posts: BlogPost[] = [
           <LI><B>Start with the school textbook:</B> Class 4 olympiad questions are firmly rooted in the NCERT/CBSE syllabus. Make sure all textbook exercises are comfortable before starting olympiad-specific questions</LI>
           <LI><B>Use the official SOF workbook:</B> The SOF Class 4 workbook covers the exam pattern closely and includes previous year questions with solutions</LI>
           <LI><B>Practise word problems daily:</B> The biggest differentiator at Class 4 is solving word problems correctly &mdash; reading questions carefully and setting them up beats raw calculation speed</LI>
-          <LI><B>Focus on the Achievers section:</B> Even at Class 4, these 5 questions worth 3 marks each carry significant weight. Practise them explicitly in the final 3 weeks</LI>
+          <LI><B>Focus on the Achievers section:</B> Even at Class 4, these 5 questions worth 2 marks each make up a quarter of the 40 marks. Practise them explicitly in the final 3 weeks</LI>
           <LI><B>Take 2 full mock tests before exam day:</B> One 4&ndash;6 weeks before, one 1&ndash;2 weeks before</LI>
         </UL>
 
@@ -8559,6 +9636,7 @@ export const posts: BlogPost[] = [
     description:
       "Complete guide to IMO preparation for Class 2 students — covering the full syllabus, common question types, a practical home study plan, and what the Achievers section tests.",
     date: "2026-06-28",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 7,
     keywords: [
@@ -8587,8 +9665,9 @@ export const posts: BlogPost[] = [
           strategy.
         </P>
         <P>
-          The paper is divided into three sections: a <B>Logical Reasoning</B> section, a <B>Mathematical Reasoning</B>{" "}
-          section, and a high-weightage <B>Achievers</B> section with harder questions worth more marks per question.
+          The 35-question, 40-mark paper has four sections: <B>Logical Reasoning</B> (10 questions),{" "}
+          <B>Mathematical Reasoning</B> (10 questions), <B>Everyday Mathematics</B> (10 word problems), and a
+          high-weightage <B>Achievers</B> section (5 harder questions worth 2 marks each).
         </P>
 
         <H2 id="syllabus">IMO Class 2 syllabus</H2>
@@ -8606,7 +9685,7 @@ export const posts: BlogPost[] = [
 
         <H2 id="achievers">The Achievers section &mdash; what it actually tests</H2>
         <P>
-          The Achievers section is the key differentiator. These 5 questions carry 3 marks each (vs 1 mark each for
+          The Achievers section is the key differentiator. These 5 questions carry 2 marks each (vs 1 mark each for
           other questions), so they can shift a score significantly. At Class 2 level the Achievers questions are not
           impossibly hard &mdash; they typically involve:
         </P>
@@ -8648,7 +9727,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many marks does the Achievers section carry in Class 2 IMO?",
-        a: "The Achievers section has 5 questions worth 3 marks each, totalling 15 marks out of the paper's 40 marks. This is why focusing on Achievers practice alongside the main syllabus matters."
+        a: "In Classes 1–4 the Achievers section has 5 questions worth 2 marks each, totalling 10 of the paper's 40 marks. That is a quarter of the total, which is why focusing on Achievers practice alongside the main syllabus matters."
       },
       {
         q: "Should a Class 2 student know multiplication tables for IMO?",
@@ -8664,6 +9743,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete preparation guide for the IMO Class 3 exam — full syllabus breakdown, key topics, how the Achievers section works, and a 6-week study plan parents can follow at home.",
     date: "2026-06-28",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -8686,15 +9766,16 @@ export const posts: BlogPost[] = [
 
         <H2 id="exam-structure">Exam structure at Class 3</H2>
         <P>
-          The Class 3 IMO paper has <B>35 questions</B> to be completed in <B>60 minutes</B>. From Class 3 onward,
+          The Class 3 IMO paper has <B>35 questions</B> worth <B>40 marks</B>, to be completed in <B>60 minutes</B>. From Class 3 onward,
           top-scoring students qualify for a Level 2 national exam, which makes performing well in the Achievers
           section genuinely important. No negative marking applies.
         </P>
-        <P>The paper is structured as:</P>
+        <P>SOF&rsquo;s published structure is:</P>
         <UL>
           <LI><B>Logical Reasoning:</B> 10 questions on patterns, classification, and visual reasoning</LI>
-          <LI><B>Mathematical Reasoning:</B> 20 questions on the Class 3 maths syllabus</LI>
-          <LI><B>Achievers:</B> 5 questions worth 3 marks each (harder, multi-step problems)</LI>
+          <LI><B>Mathematical Reasoning:</B> 10 questions on the Class 3 maths syllabus</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems on money, time, measurement and daily life</LI>
+          <LI><B>Achievers:</B> 5 questions worth 2 marks each (harder, multi-step problems)</LI>
         </UL>
 
         <H2 id="syllabus">IMO Class 3 syllabus</H2>
@@ -8752,9 +9833,11 @@ export const posts: BlogPost[] = [
 
         <H2 id="level2">Qualifying for Level 2</H2>
         <P>
-          From Class 3 onward, students who achieve top scores qualify for the Level 2 national paper. The qualifying
-          criteria changes each year but typically includes class toppers, zone toppers (top 25 per zone), and
-          students in the top 5% nationally. If Level 2 is a goal, the Achievers section is where the gap is made
+          From Class 3 onward, students who achieve top scores qualify for the Level 2 paper. Under SOF&rsquo;s published
+          rules, a student qualifies by being in the top 5% of their class among all Level 1 candidates, being among
+          the top 25 rank holders of their class in their zone, or being their school&rsquo;s class topper (where at
+          least 10 students from the class sat the exam) with at least 50% marks. If Level 2 is a goal, the
+          Achievers section is where the gap is made
           &mdash; the main section questions are similar across all serious students, but the Achievers questions
           separate the national qualifiers.
         </P>
@@ -8789,6 +9872,7 @@ export const posts: BlogPost[] = [
     description:
       "Class 6 marks the jump to middle-school maths — integers, basic algebra, and ratio appear for the first time. This guide covers the full IMO Class 6 syllabus, hardest topics, and a proven study plan.",
     date: "2026-06-28",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 9,
     keywords: [
@@ -8812,17 +9896,18 @@ export const posts: BlogPost[] = [
 
         <H2 id="exam-format">Exam format</H2>
         <P>
-          The Class 6 IMO has <B>50 questions</B> in <B>60 minutes</B> (up from 35 questions in primary classes). The
-          structure is:
+          The Class 6 IMO has <B>50 questions</B> worth <B>60 marks</B> in <B>60 minutes</B>, the same format SOF uses
+          from Class 5 to Class 10 (Classes 1&ndash;4 have 35 questions). SOF&rsquo;s published structure is:
         </P>
         <UL>
           <LI><B>Logical Reasoning:</B> 15 questions</LI>
-          <LI><B>Mathematical Reasoning:</B> 25 questions on the Class 6 syllabus</LI>
-          <LI><B>Achievers:</B> 10 questions worth 3 marks each</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions on the Class 6 syllabus</LI>
+          <LI><B>Everyday Mathematics:</B> 10 word problems</LI>
+          <LI><B>Achievers:</B> 5 questions worth 3 marks each</LI>
         </UL>
         <P>
-          No negative marking. Top scorers qualify for Level 2, which is a tougher national-level paper. The jump to
-          50 questions in the same 60 minutes means time management becomes critical for the first time.
+          No negative marking. Top scorers qualify for Level 2, which is a tougher national-level paper. With longer
+          Class 6 questions in the same 60 minutes, time management becomes critical.
         </P>
 
         <H2 id="syllabus">IMO Class 6 syllabus</H2>
@@ -8884,8 +9969,8 @@ export const posts: BlogPost[] = [
         <H2 id="level2-strategy">Level 2 strategy</H2>
         <P>
           If qualifying for Level 2 is the goal, the Achievers section is the deciding factor. The best students
-          typically finish the Logical Reasoning and Mathematical Reasoning sections in about 40 minutes and use the
-          remaining 20 minutes on Achievers questions. Practise this pacing deliberately &mdash; do not leave it to
+          typically finish the 45 one-mark questions in about 45 minutes and keep 10&ndash;15 minutes for the five
+          Achievers questions. Practise this pacing deliberately &mdash; do not leave it to
           instinct on exam day.
         </P>
 
@@ -8895,7 +9980,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: "How many questions are in the IMO Class 6 paper?",
-        a: "The Class 6 IMO has 50 questions to be completed in 60 minutes — an increase from the 35 questions in primary classes. The extra questions and the same time limit make time management a critical skill from Class 6 onward."
+        a: "The Class 6 IMO has 50 questions (60 marks) in 60 minutes: 15 Logical Reasoning, 20 Mathematical Reasoning and 10 Everyday Mathematics questions at 1 mark each, plus 5 Achievers questions at 3 marks each. This format starts at Class 5; Classes 1–4 have 35 questions."
       },
       {
         q: "Is algebra included in IMO Class 6?",
@@ -8907,7 +9992,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "What is the biggest difference between IMO Class 5 and Class 6?",
-        a: "Three main changes: the paper grows to 50 questions (up from 35), integers and negative numbers enter the syllabus, and basic algebra appears for the first time. These make the Class 6 paper noticeably harder for students who haven't specifically prepared."
+        a: "The paper format is the same (50 questions in 60 minutes), but the syllabus changes: integers and negative numbers enter, and basic algebra appears for the first time. These make the Class 6 paper noticeably harder for students who haven't specifically prepared."
       }
     ]
   },
@@ -9206,6 +10291,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to IMO preparation for Class 5 — the exact syllabus, exam pattern, how to tackle the Achievers section, and a practical week-by-week study plan.",
     date: "2026-06-21",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -9230,21 +10316,21 @@ export const posts: BlogPost[] = [
 
         <H2 id="exam-pattern">IMO Class 5 exam pattern</H2>
         <P>
-          The IMO Level 1 paper for Class 5 has <B>35 questions</B> to be completed in{" "}
-          <B>60 minutes</B>. It is divided into four sections:
+          The IMO Level 1 paper for Class 5 has <B>50 questions</B> worth <B>60 marks</B>, to be completed in{" "}
+          <B>60 minutes</B> (up from 35 questions in Classes 1&ndash;4). SOF&rsquo;s published pattern has four sections:
         </P>
         <UL>
           <LI>
             <B>Logical Reasoning</B> — number and letter series, analogies, patterns, coding-decoding,
-            odd one out, and mirror images. Roughly 10 questions.
+            odd one out, and mirror images. 15 questions.
           </LI>
           <LI>
             <B>Mathematical Reasoning</B> — core Class 5 maths concepts tested at a slightly deeper level
-            than the school exam. Roughly 15 questions.
+            than the school exam. 20 questions.
           </LI>
           <LI>
-            <B>Everyday Mathematics</B> — word problems that apply maths to real-world situations. Roughly
-            5 questions.
+            <B>Everyday Mathematics</B> — word problems that apply maths to real-world situations.
+            10 questions.
           </LI>
           <LI>
             <B>Achievers Section</B> — 5 questions, each worth <B>3 marks</B> instead of 1. These questions
@@ -9381,7 +10467,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many questions are in the IMO Level 1 paper for Class 5?",
-        a: "The IMO Level 1 paper for Class 5 has 35 questions to be completed in 60 minutes. These are divided across Logical Reasoning, Mathematical Reasoning, Everyday Mathematics, and the Achievers Section (5 questions worth 3 marks each)."
+        a: "The IMO Level 1 paper for Class 5 has 50 questions (60 marks) to be completed in 60 minutes: 15 Logical Reasoning, 20 Mathematical Reasoning and 10 Everyday Mathematics questions at 1 mark each, plus 5 Achievers questions worth 3 marks each."
       },
       {
         q: "How long before the exam should a Class 5 student start preparing for IMO?",
@@ -9401,6 +10487,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to NSO preparation for Class 4 — science topics, exam pattern, the Achievers section, and a simple 6-week study plan for young learners.",
     date: "2026-06-22",
+    updated: "2026-10-29",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -9424,20 +10511,20 @@ export const posts: BlogPost[] = [
 
         <H2 id="exam-pattern">NSO Class 4 exam pattern</H2>
         <P>
-          The NSO Level 1 paper for Class 4 has <B>35 questions</B> to be answered in{" "}
-          <B>60 minutes</B>, divided into three sections:
+          The NSO Level 1 paper for Class 4 has <B>35 questions</B> worth 40 marks, to be answered in{" "}
+          <B>60 minutes</B>. SOF&rsquo;s published pattern has three sections:
         </P>
         <UL>
           <LI>
             <B>Logical Reasoning</B> &mdash; series, patterns, analogies, odd one out, and simple
-            non-verbal questions. Around 10 questions.
+            non-verbal questions. 5 questions.
           </LI>
           <LI>
-            <B>Science</B> &mdash; Class 4 science concepts with application questions. Around
-            20 questions.
+            <B>Science</B> &mdash; Class 4 science concepts with application questions.
+            25 questions.
           </LI>
           <LI>
-            <B>Achievers Section</B> &mdash; 5 questions, each worth <B>3 marks</B>. Higher-order
+            <B>Achievers Section</B> &mdash; 5 questions, each worth <B>2 marks</B>. Higher-order
             questions where most of the rank difference is made.
           </LI>
         </UL>
@@ -9543,7 +10630,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "How many questions are in the NSO Class 4 paper?",
-        a: "The NSO Level 1 paper for Class 4 has 35 questions to be completed in 60 minutes: around 10 logical reasoning questions, 20 science questions, and 5 Achievers section questions worth 3 marks each."
+        a: "The NSO Level 1 paper for Class 4 has 35 questions (40 marks) to be completed in 60 minutes: 5 logical reasoning questions, 25 science questions, and 5 Achievers section questions worth 2 marks each."
       },
       {
         q: "How can a Class 4 student improve their Achievers section score?",
@@ -9563,6 +10650,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete subject-wise Olympiad preparation guide for Class 7 — covering IMO, NSO and IEO syllabi, the Achievers section strategy, and a weekly plan that fits around school.",
     date: "2026-06-22",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -9587,10 +10675,10 @@ export const posts: BlogPost[] = [
 
         <H2 id="exam-pattern">Olympiad exam pattern for Class 7</H2>
         <UL>
-          <LI><B>35 questions, 60 minutes</B> for Level 1.</LI>
+          <LI><B>50 questions (60 marks), 60 minutes</B> for Level 1, with no negative marking.</LI>
           <LI>
             <B>Logical Reasoning section</B> &mdash; series, coding-decoding, analogies,
-            non-verbal reasoning, direction and blood-relation problems.
+            non-verbal reasoning, direction and blood-relation problems (15 questions in IMO, 10 in NSO).
           </LI>
           <LI>
             <B>Subject section</B> &mdash; the core subject at slightly deeper than school exam
@@ -9691,6 +10779,7 @@ export const posts: BlogPost[] = [
     description:
       "A focused preparation guide for IMO Class 8 — the complete syllabus, exam pattern, Level 2 strategy, and a 10-week study plan covering algebra, mensuration and compound interest.",
     date: "2026-06-22",
+    updated: "2026-10-29",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -9713,10 +10802,10 @@ export const posts: BlogPost[] = [
 
         <H2 id="exam-pattern">IMO Class 8 exam pattern</H2>
         <UL>
-          <LI><B>35 questions, 60 minutes</B> for Level 1.</LI>
-          <LI><B>Logical Reasoning</B> &mdash; series, coding-decoding, analogies, data sufficiency, non-verbal.</LI>
-          <LI><B>Mathematical Reasoning</B> &mdash; core Class 8 maths with application questions.</LI>
-          <LI><B>Everyday Mathematics</B> &mdash; real-world word problems across the full syllabus.</LI>
+          <LI><B>50 questions (60 marks), 60 minutes</B> for Level 1, with no negative marking.</LI>
+          <LI><B>Logical Reasoning</B> (15 questions) &mdash; series, coding-decoding, analogies, data sufficiency, non-verbal.</LI>
+          <LI><B>Mathematical Reasoning</B> (20 questions) &mdash; core Class 8 maths with application questions.</LI>
+          <LI><B>Everyday Mathematics</B> (10 questions) &mdash; real-world word problems across the full syllabus.</LI>
           <LI><B>Achievers Section</B> &mdash; 5 questions at 3 marks each; multi-step and challenging.</LI>
         </UL>
         <Callout>
@@ -9793,7 +10882,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: "What score do I need in IMO Class 8 Level 1 to qualify for Level 2?",
-        a: "Qualification thresholds change each year, but school toppers, students above the 90th percentile nationally, and zone toppers typically qualify. The Achievers section score is critical — aim for at least 3 out of 5 Achievers questions correct."
+        a: "There is no fixed score. Under SOF's published rules you qualify by being in the top 5% of your class among all Level 1 candidates, among the top 25 rank holders of your class in your zone, or your school's class topper (where at least 10 students from the class sat the exam) with at least 50% marks. SOF publishes the top-5% cut-off marks for each class after results. The Achievers section matters most — aim for at least 3 out of 5 Achievers questions correct."
       },
       {
         q: "Are there sample papers available for IMO Class 8?",
@@ -9809,6 +10898,7 @@ export const posts: BlogPost[] = [
     description:
       "A guide to the 10 most important Olympiad exams for Indian students in 2025–26 — covering SOF, Silverzone, Unified Council, CREST, Aryabhatta, Spell Bee and more.",
     date: "2026-06-23",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -9911,7 +11001,7 @@ export const posts: BlogPost[] = [
 
         <H2 id="uco">9. UCO &mdash; Unified Cyber Olympiad (Unified Council)</H2>
         <P>
-          <B>Who:</B> Classes 3&ndash;12. &nbsp;<B>Subject:</B> Computers and IT.
+          <B>Who:</B> School students (check unifiedcouncil.com for the current class range). &nbsp;<B>Subject:</B> Computers and IT.
         </P>
         <P>
           Tests programming fundamentals, internet literacy, MS Office applications, and hardware
@@ -9968,6 +11058,7 @@ export const posts: BlogPost[] = [
     description:
       "Comparing the three biggest Olympiad bodies in India — SOF, Silverzone and CREST — on syllabus alignment, difficulty, rewards, fees and reach to help you choose.",
     date: "2026-06-23",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 7,
     keywords: [
@@ -9991,30 +11082,30 @@ export const posts: BlogPost[] = [
 
         <H2 id="sof">Science Olympiad Foundation (SOF)</H2>
         <P>
-          SOF is the <B>largest Olympiad body in India</B>, running the IMO, NSO, IEO, IGKO and
-          ISSO. With over 65,000 registered schools across 140+ countries, SOF certificates are the
-          most widely recognised.
+          SOF is the <B>largest Olympiad body in India</B>, running the IMO, NSO, IEO, IGKO, NCO,
+          ISSO and more. Its exams are taken in tens of thousands of schools, and SOF certificates are
+          the most widely recognised.
         </P>
         <UL>
           <LI><B>Syllabus:</B> Closely follows CBSE, with strong overlap for ICSE and state boards.</LI>
-          <LI><B>Structure:</B> Two levels &mdash; Level 1 (school-based) and Level 2 (national) for qualifying students.</LI>
+          <LI><B>Structure:</B> IMO, NSO and IEO have two levels for Classes 3&ndash;12 &mdash; Level 1 (school-based) and Level 2 for qualifying students. Other SOF exams are single-level.</LI>
           <LI><B>Awards:</B> Medals, certificates, cash prizes and scholarships for top rankers.</LI>
-          <LI><B>Fee:</B> Typically ₹125&ndash;₹150 per exam, paid through the school.</LI>
+          <LI><B>Fee:</B> Paid through the school; check the current per-exam fee with your school&rsquo;s Olympiad coordinator.</LI>
           <LI><B>Best for:</B> Students wanting nationally recognised performance data and competitive benchmarking.</LI>
         </UL>
 
         <H2 id="silverzone">Silverzone Foundation</H2>
         <P>
-          Silverzone runs olympiads in Maths (IOM), Science (iOS), English (IOEL), GK (IOGL),
-          Reasoning (IORA), Computers (IOCI), and more &mdash; giving students more subject options
-          than SOF.
+          Silverzone runs olympiads in Maths (iOM), Science (iOS), English (iOEL), Social Studies (iSSO),
+          GK (SKGKO), Computers (iiO), Reasoning, Hindi and more. See our{" "}
+          <A href="/blog/silverzone-olympiad-preparation-guide">Silverzone preparation guide</A> for details.
         </P>
         <UL>
           <LI><B>Syllabus:</B> Broad &mdash; covers CBSE, ICSE, and most state boards well.</LI>
-          <LI><B>Structure:</B> School-level, zonal, national. Some exams have a direct international route.</LI>
-          <LI><B>Awards:</B> Medals, trophies, tablets and cash for top performers; participation certificates for all.</LI>
-          <LI><B>Fee:</B> Approximately ₹150&ndash;₹200 per exam.</LI>
-          <LI><B>Best for:</B> Students who want Reasoning or Computer olympiads not offered by SOF, or those on ICSE/state syllabi.</LI>
+          <LI><B>Structure:</B> A school-level first round, with further rounds for top performers depending on the exam and year.</LI>
+          <LI><B>Awards:</B> Medals, trophies and other prizes for top performers; participation certificates for all.</LI>
+          <LI><B>Fee:</B> Paid through the school; check the current fee on silverzone.org or with your school.</LI>
+          <LI><B>Best for:</B> Students who want a dedicated reasoning Olympiad or extra practice alongside SOF, or those on ICSE/state syllabi.</LI>
         </UL>
 
         <H2 id="crest">CREST Olympiads</H2>
@@ -10026,14 +11117,14 @@ export const posts: BlogPost[] = [
           <LI><B>Syllabus:</B> Covers maths, science, English, reasoning, cyber and more.</LI>
           <LI><B>Structure:</B> Single-level online exam with international ranking.</LI>
           <LI><B>Awards:</B> Digital certificates, medals, and scholarship prizes. Results within days.</LI>
-          <LI><B>Fee:</B> Around ₹225&ndash;₹250 per exam.</LI>
+          <LI><B>Fee:</B> Paid online at registration; check the current fee on the CREST website.</LI>
           <LI><B>Best for:</B> Students whose schools don&rsquo;t offer SOF/Silverzone, or those who prefer online exams.</LI>
         </UL>
 
         <H2 id="comparison">How to choose</H2>
         <UL>
           <LI><B>If your school offers SOF exams:</B> Register for IMO and/or NSO. Reach and recognition are unmatched.</LI>
-          <LI><B>If you want Reasoning or Computer olympiads:</B> Silverzone has dedicated exams SOF does not.</LI>
+          <LI><B>If you want a dedicated reasoning Olympiad:</B> Silverzone runs one; SOF tests reasoning inside its subject papers instead. (For computers, both SOF&rsquo;s NCO and Silverzone&rsquo;s iiO are options.)</LI>
           <LI><B>If your school isn&rsquo;t registered with either:</B> CREST allows individual registration online.</LI>
           <LI><B>If your child is on ICSE or a state board:</B> Silverzone has better syllabus overlap for non-CBSE students.</LI>
         </UL>
@@ -10911,6 +12002,7 @@ export const posts: BlogPost[] = [
     description:
       "How to prepare young children in Classes 1 to 5 for Olympiad exams — what to expect, how to build the right habits, and how to keep it fun without pressure.",
     date: "2026-06-14",
+    updated: "2026-10-29",
     tag: "Guides",
     readingMinutes: 7,
     keywords: [
@@ -10939,13 +12031,15 @@ export const posts: BlogPost[] = [
           that class, one level deeper in reasoning and application.
         </P>
         <P>
-          By Classes 3, 4 and 5, papers become two-level (Level 1 and Level 2 for top scorers), and a <B>logical
-          reasoning section</B> is introduced. The reasoning section is often what catches students off-guard, because
-          schools rarely teach it explicitly &mdash; but it is very learnable with practice.
+          From Class 3, IMO, NSO and IEO become two-level (Level 1 and Level 2 for top scorers), and at Class 5 the
+          paper grows to 50 questions. IMO and NSO include a <B>logical reasoning section</B> from Class 1. It is often
+          what catches students off-guard, because schools rarely teach it explicitly &mdash; but it is very learnable
+          with practice.
         </P>
         <UL>
-          <LI><B>Class 1–2:</B> 35 questions, 60 minutes, single level, subject + basic logical thinking.</LI>
-          <LI><B>Class 3–5:</B> 35 questions, 60 minutes, two levels for IMO/NSO/IEO, plus a logical reasoning section.</LI>
+          <LI><B>Class 1–2:</B> 35 questions, 60 minutes, single level, subject questions plus a logical reasoning section.</LI>
+          <LI><B>Class 3–4:</B> 35 questions (40 marks), 60 minutes, two levels for IMO/NSO/IEO.</LI>
+          <LI><B>Class 5:</B> 50 questions (60 marks), 60 minutes, two levels for IMO/NSO/IEO, with Achievers questions worth 3 marks each.</LI>
           <LI><B>All classes:</B> There is an <B>Achievers section</B> with fewer but higher-mark questions. This section decides ranks and deserves special attention.</LI>
         </UL>
 

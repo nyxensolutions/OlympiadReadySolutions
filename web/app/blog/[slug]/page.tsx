@@ -51,6 +51,15 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     ...others.filter((p) => p.tag === post.tag),
     ...others.filter((p) => p.tag !== post.tag),
   ].slice(0, 2);
+  // Class-specific posts (slugs ending "...-class-5" etc.) also link to their siblings for the
+  // same class, so prep guides, sample papers and Spell Bee posts for one class reinforce each other.
+  const classOf = (slug: string) => slug.match(/(?:^|-)class-(\d+)(?=-|$)/)?.[1];
+  const postClass = classOf(post.slug);
+  const sameClass = postClass
+    ? others
+        .filter((p) => classOf(p.slug) === postClass && !related.some((r) => r.slug === p.slug))
+        .slice(0, 6)
+    : [];
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -116,6 +125,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           </h1>
           <div className="mt-4 flex items-center gap-4 text-sm text-slate-500">
             <span>{formatDate(post.date)}</span>
+            {post.updated && post.updated !== post.date && <span>Updated {formatDate(post.updated)}</span>}
             <span className="inline-flex items-center gap-1">
               <Clock className="h-4 w-4" /> {post.readingMinutes} min read
             </span>
@@ -158,6 +168,22 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 </Link>
               ))}
             </div>
+          </section>
+        )}
+
+        {/* Same-class guides */}
+        {sameClass.length > 0 && (
+          <section className="mt-12">
+            <h2 className="text-xl font-extrabold tracking-tight text-slate-900">More for Class {postClass}</h2>
+            <ul className="mt-4 space-y-2">
+              {sameClass.map((p) => (
+                <li key={p.slug}>
+                  <Link href={`/blog/${p.slug}`} className="font-semibold text-brand-700 hover:underline">
+                    {p.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
       </article>
