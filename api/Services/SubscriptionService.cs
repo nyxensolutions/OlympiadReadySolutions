@@ -54,10 +54,12 @@ public class SubscriptionService
     private readonly AppDbContext _db;
     private readonly decimal _monthlyDollarCap;
     private readonly HashSet<string> _noAiEmails;
+    private readonly IEmailService _email;
 
-    public SubscriptionService(AppDbContext db, IConfiguration config)
+    public SubscriptionService(AppDbContext db, IConfiguration config, IEmailService email)
     {
         _db = db;
+        _email = email;
         _monthlyDollarCap = decimal.TryParse(config["OpenAi:MonthlyDollarCapPerUser"], out var cap)
             ? cap
             : DefaultMonthlyDollarCap;
@@ -295,7 +297,21 @@ public class SubscriptionService
             {
                 bool pilotActive = user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value;
                 if (!pilotActive)
+                {
                     user.FreeAttemptsUsed++;
+                    // Fire paywall email the moment the counter hits the limit (exactly once per user)
+                    if (user.FreeAttemptsUsed == GetEffectiveLimit(user)
+                        && !string.IsNullOrEmpty(user.Email)
+                        && !user.Email.EndsWith("@clerk.local")
+                        && !user.EmailOptOut)
+                    {
+                        var emailCopy = user.Email;
+                        var nameCopy = user.FullName ?? "";
+                        _ = _email.SendPaywallHitEmailAsync(emailCopy, nameCopy)
+                            .ContinueWith(t => Console.WriteLine($"[PaywallEmail] Failed for {emailCopy}: {t.Exception?.Message}"),
+                                TaskContinuationOptions.OnlyOnFaulted);
+                    }
+                }
             }
         }
 

@@ -13,6 +13,8 @@ public interface IEmailService
     Task SendUpgradeNudgeEmailAsync(string toEmail, string toName);      // Day 4
     Task SendOfferDeadlineEmailAsync(string toEmail, string toName);     // Day 7
     Task SendSubscriptionCancelledAsync(string toEmail, string toName, string planName);
+    Task SendPaywallHitEmailAsync(string toEmail, string toName);
+    Task SendTrialExpiredEmailAsync(string toEmail, string toName);
 }
 
 public class BrevoEmailService : IEmailService
@@ -603,5 +605,125 @@ public class BrevoEmailService : IEmailService
             await CreateClient().PostAsJsonAsync("smtp/email", payload);
         }
         catch (Exception ex) { _log.LogError(ex, "Failed to send cancellation email to {Email}", toEmail); }
+    }
+
+    // ── Paywall hit — fires the moment a user uses their last free paper ──────
+    public async Task SendPaywallHitEmailAsync(string toEmail, string toName)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey)) return;
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "Student" : toName.Split(' ')[0];
+
+        string htmlContent = $@"
+        <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
+            <div style=""background:linear-gradient(135deg,#1e3a8a,#1d4ed8);padding:40px 20px 30px;text-align:center;"">
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
+                <h1 style=""color:#ffffff;margin:20px 0 0;font-size:24px;font-weight:700;"">You've used all your free papers, {firstName} 🎯</h1>
+            </div>
+            <div style=""padding:36px 32px;"">
+                <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
+                <p style=""font-size:15px;color:#475569;line-height:1.6;"">
+                    You've just completed your last free practice paper — which means you've been preparing seriously.
+                    Now it's time to keep that momentum going into exam season.
+                </p>
+
+                <div style=""background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:20px;margin:24px 0;"">
+                    <p style=""margin:0 0 10px;font-size:14px;font-weight:700;color:#92400e;"">What you unlock with a subscription:</p>
+                    <ul style=""margin:0;padding-left:20px;font-size:14px;color:#44403c;line-height:1.9;"">
+                        <li><strong>Unlimited practice papers</strong> — generate as many as you need, any subject, any topic</li>
+                        <li><strong>7 fresh mock exams every week</strong> — full-length, timed, Olympiad-style</li>
+                        <li><strong>Unlimited AI Tutor</strong> — instant doubt clearing, step-by-step explanations</li>
+                        <li><strong>50-question PDF downloads</strong> — print and study offline</li>
+                    </ul>
+                </div>
+
+                <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:24px;margin:24px 0;text-align:center;"">
+                    <p style=""margin:0 0 4px;font-size:22px;font-weight:800;color:#1e3a8a;"">₹129<span style=""font-size:14px;font-weight:400;color:#64748b;"">/subject/month</span></p>
+                    <p style=""margin:4px 0 20px;font-size:14px;color:#64748b;"">Champion (all subjects): ₹649/month &nbsp;·&nbsp; No lock-in, cancel anytime</p>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 36px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Upgrade Now →</a>
+                </div>
+
+                <p style=""font-size:13px;color:#64748b;text-align:center;margin-top:8px;"">Secured by Razorpay. Instant activation.</p>
+            </div>
+            <div style=""background:#f1f5f9;padding:20px;text-align:center;border-top:1px solid #e2e8f0;"">
+                <p style=""margin:0;font-size:12px;color:#64748b;"">© {DateTime.UtcNow.Year} OlympiadReady · <a href=""https://olympiadready.com"" style=""color:#4f46e5;"">olympiadready.com</a></p>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = firstName } },
+            subject = $"{firstName}, you've used your 5 free papers — keep the streak going 🚀",
+            htmlContent
+        };
+        try
+        {
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+                _log.LogError("Paywall-hit email failed for {Email}: {Status}", toEmail, res.StatusCode);
+            else
+                _log.LogInformation("Paywall-hit email sent to {Email}", toEmail);
+        }
+        catch (Exception ex) { _log.LogError(ex, "Exception sending paywall-hit email to {Email}", toEmail); }
+    }
+
+    // ── Trial expired — fired by daily cron for users whose 10-day trial just ended ──
+    public async Task SendTrialExpiredEmailAsync(string toEmail, string toName)
+    {
+        if (string.IsNullOrWhiteSpace(_apiKey)) return;
+        var firstName = string.IsNullOrWhiteSpace(toName) ? "Student" : toName.Split(' ')[0];
+
+        string htmlContent = $@"
+        <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
+            <div style=""background:#1e3a8a;padding:40px 20px 30px;text-align:center;"">
+                <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
+                <h1 style=""color:#ffffff;margin:20px 0 0;font-size:24px;font-weight:700;"">Your 10-day trial has ended ⏰</h1>
+            </div>
+            <div style=""padding:36px 32px;"">
+                <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
+                <p style=""font-size:15px;color:#475569;line-height:1.6;"">
+                    Your free trial on OlympiadReady has now ended. Olympiad exams — IMO, NSO, IEO, IGKO — are just around the corner.
+                    Don't let preparation stall right when it matters most.
+                </p>
+
+                <div style=""background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:20px;margin:24px 0;"">
+                    <p style=""margin:0 0 10px;font-size:14px;font-weight:700;color:#166534;"">Continue where you left off:</p>
+                    <ul style=""margin:0;padding-left:20px;font-size:14px;color:#14532d;line-height:1.9;"">
+                        <li>Unlimited AI-generated practice papers for any subject</li>
+                        <li>7 mock exams per week — timed, Olympiad-format</li>
+                        <li>Unlimited AI Tutor for instant doubt clearing</li>
+                        <li>Full topic mastery tracking and mistake review</li>
+                    </ul>
+                </div>
+
+                <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:24px;margin:24px 0;text-align:center;"">
+                    <p style=""margin:0 0 4px;font-size:22px;font-weight:800;color:#1e3a8a;"">₹129<span style=""font-size:14px;font-weight:400;color:#64748b;"">/subject/month</span></p>
+                    <p style=""margin:4px 0 20px;font-size:14px;color:#64748b;"">Champion (all subjects): ₹649/month &nbsp;·&nbsp; No lock-in, cancel anytime</p>
+                    <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 36px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Subscribe Now →</a>
+                </div>
+
+                <p style=""font-size:13px;color:#64748b;text-align:center;margin-top:8px;"">Secured by Razorpay. Instant activation.</p>
+            </div>
+            <div style=""background:#f1f5f9;padding:20px;text-align:center;border-top:1px solid #e2e8f0;"">
+                <p style=""margin:0;font-size:12px;color:#64748b;"">© {DateTime.UtcNow.Year} OlympiadReady · <a href=""https://olympiadready.com"" style=""color:#4f46e5;"">olympiadready.com</a></p>
+            </div>
+        </div>";
+
+        var payload = new
+        {
+            sender = new { name = _senderName, email = _senderEmail },
+            to = new[] { new { email = toEmail, name = firstName } },
+            subject = $"{firstName}, your free trial has ended — Olympiad exams are close 📚",
+            htmlContent
+        };
+        try
+        {
+            var res = await CreateClient().PostAsJsonAsync("smtp/email", payload);
+            if (!res.IsSuccessStatusCode)
+                _log.LogError("Trial-expired email failed for {Email}: {Status}", toEmail, res.StatusCode);
+            else
+                _log.LogInformation("Trial-expired email sent to {Email}", toEmail);
+        }
+        catch (Exception ex) { _log.LogError(ex, "Exception sending trial-expired email to {Email}", toEmail); }
     }
 }

@@ -224,6 +224,56 @@ public class JobsController : ControllerBase
         return Ok(new { success = true, message = $"Day-7 offer deadline email sent to {email}" });
     }
 
+    // Trial expired — users whose 10-day trial ended in the last 25 hours, no active sub
+    [HttpPost("trial-expired-emails")]
+    public async Task<IActionResult> SendTrialExpiredEmails([FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
+    {
+        var expectedKey = _config["Cron:SecretKey"];
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
+            return Unauthorized("Invalid Cron-Key");
+
+        var now = DateTime.UtcNow;
+        // 25-hour window so even if the cron fires slightly late, no user is missed
+        var windowStart = now.AddHours(-25);
+
+        var paidUserIds = await _db.Subscriptions
+            .Where(s => s.EndDate > now)
+            .Select(s => s.UserId)
+            .Distinct()
+            .ToListAsync(ct);
+
+        var targets = await _db.Users
+            .Where(u => !string.IsNullOrEmpty(u.Email)
+                     && !u.Email.EndsWith("@clerk.local")
+                     && !u.EmailOptOut
+                     && u.TrialExpiresAt.HasValue
+                     && u.TrialExpiresAt.Value >= windowStart
+                     && u.TrialExpiresAt.Value < now
+                     && !paidUserIds.Contains(u.UserId))
+            .ToListAsync(ct);
+
+        int sent = 0;
+        foreach (var user in targets)
+        {
+            await _email.SendTrialExpiredEmailAsync(user.Email!, user.FullName ?? "");
+            sent++;
+        }
+        _log.LogInformation("Trial-expired job: sent {Count} emails", sent);
+        return Ok(new { success = true, emailsSent = sent });
+    }
+
+    [HttpPost("trial-expired-emails/test")]
+    public async Task<IActionResult> TestTrialExpiredEmail([FromQuery] string email, [FromHeader(Name = "Cron-Key")] string? cronKey)
+    {
+        var expectedKey = _config["Cron:SecretKey"];
+        if (string.IsNullOrEmpty(expectedKey) || cronKey != expectedKey)
+            return Unauthorized("Invalid Cron-Key");
+        if (string.IsNullOrWhiteSpace(email)) return BadRequest("Email is required");
+
+        await _email.SendTrialExpiredEmailAsync(email, "Student");
+        return Ok(new { success = true, message = $"Trial-expired email sent to {email}" });
+    }
+
     [HttpPost("weekly-emails/test")]
     public async Task<IActionResult> TestWeeklyEmail([FromQuery] string email, [FromHeader(Name = "Cron-Key")] string? cronKey)
     {
