@@ -168,7 +168,8 @@ public class QuestionBankService
         string Explanation,
         bool IsReviewed = false,
         DateTime? ReviewedAt = null,
-        string? ReviewedBy = null);
+        string? ReviewedBy = null,
+        string Source = "AI");
 
     public record ImportResult(int Inserted, int Skipped, List<string> Errors);
     public record BankStats(string Subject, int Grade, string Difficulty, int Count);
@@ -226,7 +227,8 @@ public class QuestionBankService
                 Explanation = row.Explanation.Trim(),
                 IsReviewed = row.IsReviewed,
                 ReviewedAt = row.ReviewedAt,
-                ReviewedBy = row.ReviewedBy
+                ReviewedBy = row.ReviewedBy,
+                Source = row.Source
             });
 
             existing.Add(row.QuestionText.Trim()); // prevent dupes within the same batch

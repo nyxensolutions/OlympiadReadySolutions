@@ -491,7 +491,8 @@ public class AdminController : ControllerBase
             Explanation: dto.Explanation ?? "",
             IsReviewed: true,
             ReviewedAt: now,
-            ReviewedBy: adminUserId
+            ReviewedBy: adminUserId,
+            Source: "Admin"
         );
 
         var result = await _bank.ImportAsync(canonicalSubject!, dto.Grade, new[] { row }, ct);

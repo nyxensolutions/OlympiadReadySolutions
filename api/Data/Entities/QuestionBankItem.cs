@@ -33,6 +33,9 @@ public class QuestionBankItem
 
     public DateTime CreatedAt { get; set; }
 
+    /// <summary>Origin of the question: "AI" | "Admin" | "Import"</summary>
+    public string Source { get; set; } = "AI";
+
     // ── Review tracking ────────────────────────────────────────────────────────
     /// <summary>
     /// True when an admin has manually verified this question via the CMS.
