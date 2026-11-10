@@ -107,7 +107,7 @@ export default function WelcomePage() {
         </div>
 
         <p className="mt-4 text-center text-xs text-slate-400">
-          No credit card needed. Start with 5 free papers, upgrade any time.
+          No credit card needed. Start with 3 free papers, upgrade any time.
         </p>
       </div>
     </div>

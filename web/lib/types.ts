@@ -120,7 +120,7 @@ export type SubscriptionStatus = {
   used: number;
   limit: number;
   allowed: boolean;
-  // Free trial window (10 days for new accounts) has closed, even if free papers are left.
+  // Free trial window (5 days for new accounts) has closed, even if free papers are left.
   trialEnded?: boolean;
   onSchoolPilot?: boolean;
   school?: { name: string; logoUrl?: string; pilotEndsAt?: string } | null;

@@ -1,7 +1,7 @@
 export const LANDING_FAQS = [
   {
     q: "Is OlympiadReady free to use?",
-    a: "Yes. Every student gets 5 free practice papers across any subject and class, plus 10 free AI chatbot sessions — no credit card required. Paid plans unlock unlimited practice for ₹129 per subject per month."
+    a: "Yes. Every student gets 3 free practice papers across any subject and class, plus 5 free AI chatbot sessions — no credit card required. Paid plans unlock unlimited practice for ₹129 per subject per month."
   },
   {
     q: "Which Olympiads does OlympiadReady cover?",
@@ -21,7 +21,7 @@ export const LANDING_FAQS = [
   },
   {
     q: "What is the AI doubt chatbot?",
-    a: "After each question, students can open an interactive AI chatbot to ask follow-up questions, request a step-by-step explanation, or explore the concept further. Free users get 10 chatbot sessions; subscribers get unlimited."
+    a: "After each question, students can open an interactive AI chatbot to ask follow-up questions, request a step-by-step explanation, or explore the concept further. Free users get 5 chatbot sessions; subscribers get unlimited."
   },
   {
     q: "Can I download practice papers as PDFs?",

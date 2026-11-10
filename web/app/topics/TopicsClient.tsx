@@ -419,7 +419,7 @@ function TopicsBody() {
               },
               {
                 q: "How many free online attempts do I get?",
-                a: "Free users get 5 practice papers across any class or subject — enough to experience the platform before subscribing.",
+                a: "Free users get 3 practice papers across any class or subject — enough to experience the platform before subscribing.",
               },
               {
                 q: "What happens if I subscribe to a subject?",
@@ -427,7 +427,7 @@ function TopicsBody() {
               },
               {
                 q: "What if I use all my free attempts?",
-                a: "Once you hit your 5-paper free limit, subscribe to any subject for ₹129/month to continue with unlimited practice and AI-fresh questions.",
+                a: "Once you hit your 3-paper free limit, subscribe to any subject for ₹129/month to continue with unlimited practice and AI-fresh questions.",
               },
               {
                 q: "Do I have to subscribe to all subjects?",

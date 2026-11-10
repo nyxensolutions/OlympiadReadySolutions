@@ -218,7 +218,7 @@ export function ReviewCard({
           
           {!simulationMode && (
             <div 
-              title={isFreeLimitReached ? "You've used all 10 free AI Tutor chats. Subscribe to any subject to continue." : undefined}
+              title={isFreeLimitReached ? "You've used all 5 free AI Tutor chats. Subscribe to any subject to continue." : undefined}
             >
               <button
                 type="button"
