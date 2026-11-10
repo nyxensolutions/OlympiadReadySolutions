@@ -103,22 +103,23 @@ public class MockExamsController : ControllerBase
 
         // Quota check
         bool isSubscribed = await _subs.HasUnlockedSubjectAsync(user.UserId, req.Grade, req.Subject, ct);
+        bool onSchoolPilot = await _subs.IsSchoolPilotActiveAsync(user.UserId, ct);
 
-        // Unpaid class/subject: same rule as practice tests — only while free attempts, the trial or a school pilot allow it.
-        if (!isSubscribed && !await _subs.CanGenerateOnlineTestAsync(user.UserId, req.Grade, req.Subject, ct))
+        // Mock exams have their own independent quota — 3 lifetime for free, 7/week for paid.
+        // They are NOT gated by CanGenerateOnlineTestAsync (practice paper counter) because:
+        //   (a) mock exams are a distinct feature with their own advertised free allowance, and
+        //   (b) the practice paper FreeAttemptsUsed counter should not block a user's 3 free mock exams.
+        // School pilot users are treated as subscribed for access purposes.
+        if (!isSubscribed && !onSchoolPilot)
         {
-            return StatusCode(402, new
-            {
-                code = "QUOTA_EXCEEDED",
-                message = $"You have used your free attempts. Please unlock Class {req.Grade} {req.Subject} to take mock exams.",
-                upgrade = true
-            });
+            // Completely unauthenticated/unknown user path is handled above by [Authorize].
+            // No extra gate here — the per-exam count check below is the only limit for free users.
         }
 
-        int mockExamLimit = isSubscribed ? 7 : 3;
+        int mockExamLimit = (isSubscribed || onSchoolPilot) ? 7 : 3;
 
         DateTime startOfWeek = DateTime.UtcNow;
-        if (isSubscribed)
+        if (isSubscribed || onSchoolPilot)
         {
             int diff = (7 + (startOfWeek.DayOfWeek - DayOfWeek.Monday)) % 7;
             startOfWeek = startOfWeek.AddDays(-1 * diff).Date;
@@ -135,7 +136,15 @@ public class MockExamsController : ControllerBase
 
         if (recentMocks >= mockExamLimit)
         {
-            return StatusCode(402, new { code = "QUOTA_EXCEEDED", upgrade = !isSubscribed, message = isSubscribed ? "You have reached your limit of 7 mock exams per week." : "You've used your 3 free mock exams — upgrade to unlock 7 fresh mock exams every week." });
+            bool isPaidOrPilot = isSubscribed || onSchoolPilot;
+            return StatusCode(402, new
+            {
+                code = "QUOTA_EXCEEDED",
+                upgrade = !isPaidOrPilot,
+                message = isPaidOrPilot
+                    ? "You have reached your limit of 7 mock exams per week."
+                    : "You've used your 3 free mock exams — upgrade to unlock 7 fresh mock exams every week."
+            });
         }
 
         // Level 2 always uses Olympiad-only difficulty — no easy or mid questions.
@@ -396,9 +405,10 @@ public class MockExamsController : ControllerBase
         
         await _db.SaveChangesAsync(ct);
 
-        // Charge the account AI credit budget once per AI-backed mock (Olympiad complexity costs more).
-        if (aiUsed)
-            await _subs.RecordOnlineTestGenerationAsync(user.UserId, req.Grade, req.Subject, true, complexity, ct);
+        // AI credit reservation and reconciliation already happened per-section above via
+        // TryReserveAiGenerationAsync / ReconcileAiGenerationAsync. RecordOnlineTestGenerationAsync
+        // is intentionally NOT called here — it manages FreeAttemptsUsed which belongs to practice
+        // papers, not mock exams. Mock exams have their own independent 3-lifetime / 7-weekly quota.
 
         return Ok(new
         {
