@@ -667,7 +667,7 @@ public class BrevoEmailService : IEmailService
         catch (Exception ex) { _log.LogError(ex, "Exception sending paywall-hit email to {Email}", toEmail); }
     }
 
-    // ── Trial expired — fired by daily cron for users whose 10-day trial just ended ──
+    // ── Trial expired — fired by daily cron for users whose 5-day trial just ended ──
     public async Task SendTrialExpiredEmailAsync(string toEmail, string toName)
     {
         if (string.IsNullOrWhiteSpace(_apiKey)) return;
@@ -677,7 +677,7 @@ public class BrevoEmailService : IEmailService
         <div style=""font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:600px;margin:0 auto;color:#333;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;background:#ffffff;"">
             <div style=""background:#1e3a8a;padding:40px 20px 30px;text-align:center;"">
                 <img src=""https://pub-10c8d4fc83f3441291d56f22a87f0da6.r2.dev/olympiadready/Logo_white.png"" alt=""OlympiadReady"" style=""height:48px;max-width:100%;display:block;margin:0 auto;"" />
-                <h1 style=""color:#ffffff;margin:20px 0 0;font-size:24px;font-weight:700;"">Your 10-day trial has ended ⏰</h1>
+                <h1 style=""color:#ffffff;margin:20px 0 0;font-size:24px;font-weight:700;"">Your 5-day trial has ended ⏰</h1>
             </div>
             <div style=""padding:36px 32px;"">
                 <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>

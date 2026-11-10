@@ -224,7 +224,7 @@ public class JobsController : ControllerBase
         return Ok(new { success = true, message = $"Day-7 offer deadline email sent to {email}" });
     }
 
-    // Trial expired — users whose 10-day trial ended in the last 25 hours, no active sub
+    // Trial expired — users whose 5-day trial ended in the last 25 hours, no active sub
     [HttpPost("trial-expired-emails")]
     public async Task<IActionResult> SendTrialExpiredEmails([FromHeader(Name = "Cron-Key")] string? cronKey, CancellationToken ct)
     {
