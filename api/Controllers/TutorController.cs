@@ -26,7 +26,7 @@ public class TutorController : ControllerBase
         _subs = subs;
     }
 
-    private const int FreeChatLimit = 10;
+    private const int FreeChatLimit = 5;
     private const int PaidMessagesPerConversation = 20;
     private const int MaxMessageChars = 2000;
     private const int MaxHistoryMessages = 40;

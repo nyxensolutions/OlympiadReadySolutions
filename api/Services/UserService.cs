@@ -111,7 +111,7 @@ public class UserService
             ExternalId = sub,
             Email = email,
             FullName = name,
-            TrialExpiresAt = DateTime.UtcNow.AddDays(10),
+            TrialExpiresAt = DateTime.UtcNow.AddDays(5),
         };
         _db.Users.Add(user);
 

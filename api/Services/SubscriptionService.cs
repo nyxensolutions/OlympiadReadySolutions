@@ -7,7 +7,7 @@ namespace OlympiadReady.Api.Services;
 
 public class SubscriptionService
 {
-    public const int GlobalFreeAttemptsLimit = 5;
+    public const int GlobalFreeAttemptsLimit = 3;
 
     // Users who signed up before the July 2026 tier change keep the original 15-paper limit.
     public const int LegacyFreeAttemptsLimit = 15;

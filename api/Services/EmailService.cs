@@ -70,7 +70,7 @@ public class BrevoEmailService : IEmailService
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
                         <span style=""font-size:22px;margin-right:14px;"">📝</span>
                         <div>
-                            <strong style=""color:#1e293b;"">5 Free Practice Papers</strong>
+                            <strong style=""color:#1e293b;"">3 Free Practice Papers</strong>
                             <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">AI-powered tests for IMO, NSO, IEO, IGKO, Spell Bee & more — any class, any subject. Retake any paper as many times as you like; retakes don't use your free quota.</p>
                         </div>
                     </div>
@@ -98,8 +98,8 @@ public class BrevoEmailService : IEmailService
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
                         <span style=""font-size:22px;margin-right:14px;"">💬</span>
                         <div>
-                            <strong style=""color:#1e293b;"">10 Free AI Tutor Chats</strong>
-                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Stuck on a concept? Ask your AI doubt solver and get instant, personalised help. You have 10 free chats to use anytime.</p>
+                            <strong style=""color:#1e293b;"">5 Free AI Tutor Chats</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Stuck on a concept? Ask your AI doubt solver and get instant, personalised help. You have 5 free chats to use anytime.</p>
                         </div>
                     </div>
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
@@ -653,7 +653,7 @@ public class BrevoEmailService : IEmailService
         {
             sender = new { name = _senderName, email = _senderEmail },
             to = new[] { new { email = toEmail, name = firstName } },
-            subject = $"{firstName}, you've used your 5 free papers — keep the streak going 🚀",
+            subject = $"{firstName}, you've used your 3 free papers — keep the streak going 🚀",
             htmlContent
         };
         try
