@@ -33,7 +33,7 @@ jobs:
     - name: Apply EF Core Migrations
       working-directory: ./api
       run: |
-        dotnet tool install --global dotnet-ef
+        dotnet tool install --global dotnet-ef --version 8.*
         dotnet ef database update --connection "${{ secrets.AZURE_SQL_CONNECTION_STRING }}"
 
     - name: Azure Login (Test Account)
@@ -75,7 +75,7 @@ jobs:
     - name: Apply EF Core Migrations
       working-directory: ./api
       run: |
-        dotnet tool install --global dotnet-ef
+        dotnet tool install --global dotnet-ef --version 8.*
         dotnet ef database update --connection "${{ secrets.AZURE_SQL_CONNECTION_STRING }}"
 
     - name: Azure Login (Prod Account)
