@@ -76,6 +76,1295 @@ export type BlogPost = {
    POSTS
    ───────────────────────────────────────────────────────────── */
 export const posts: BlogPost[] = [
+  /* 100 ─────────────────────────────────────────────────────── */
+  {
+    slug: "imo-level-2-preparation-guide",
+    title: "IMO Level 2 Preparation: Pattern, Topics by Class and a Practice Plan",
+    description:
+      "How to prepare for SOF IMO Level 2 (2026–27): the official pattern with no reasoning section, why it tests only your current class syllabus, which topics carry Level 2 at each class, worked Level 2-style questions and a weekly practice routine.",
+    date: "2026-11-12",
+    tag: "Maths",
+    readingMinutes: 10,
+    keywords: [
+      "IMO level 2 preparation",
+      "IMO level 2 syllabus",
+      "IMO level 2 exam pattern",
+      "IMO level 2 question paper",
+      "IMO level 2 2027",
+      "international maths olympiad level 2",
+    ],
+    excerpt:
+      "IMO Level 2 drops the reasoning section and tests only your current class syllabus. Here is the official pattern, the topics that matter at each class, worked examples and a practice plan for February.",
+    content: (
+      <>
+        <P>
+          IMO Level 2 is a different exam from the one your child sat in October, November or December. The
+          reasoning questions are gone, every question is mathematics, and the questions come only from the
+          current class syllabus. Everyone in the hall has already finished in the top slice of Level 1. This guide
+          covers what the Level 2 paper looks like, the topics that matter at each class, and how to use the weeks
+          before February well.
+        </P>
+        <Callout>
+          <B>2026&ndash;27 timeline (from SOF&rsquo;s official schedule):</B> IMO Level 1 is held on 23 October,
+          26 November and 10 December 2026. SOF says the Level 2 date will be announced by December 2026, and it is
+          tentatively planned for the second or third Sunday of February 2027 (14 or 21 February). Check sofworld.org
+          or your school for the confirmed date.
+        </Callout>
+
+        <H2 id="pattern">The official IMO Level 2 pattern</H2>
+        <P>
+          SOF&rsquo;s syllabus pages give the Level 2 pattern for each class band. The paper is 60 minutes, as at
+          Level 1.
+        </P>
+        <UL>
+          <LI><B>Classes 3&ndash;4:</B> 30 Mathematics questions (1 mark each) + 5 Achievers questions (2 marks each) = 35 questions, 40 marks.</LI>
+          <LI><B>Classes 5&ndash;10:</B> 45 Mathematics questions (1 mark each) + 5 Achievers questions (3 marks each) = 50 questions, 60 marks.</LI>
+          <LI><B>Classes 11&ndash;12:</B> 25 Mathematics + 20 Mathematical Reasoning/Applied Mathematics + 5 Achievers questions.</LI>
+        </UL>
+        <P>
+          Compare that with Level 1 for Classes 5&ndash;10, which has 15 Logical Reasoning, 20 Mathematical Reasoning,
+          10 Everyday Mathematics and 5 Achievers questions. At Level 2 the 15 reasoning marks are now maths marks.
+        </P>
+
+        <H2 id="syllabus">Current class only: what that changes</H2>
+        <P>
+          SOF&rsquo;s IMO syllabus pages state that Level 1 papers take about 60% of their questions from the current
+          class and 40% from the previous class. For Level 2, they state that questions come from the{" "}
+          <B>current class syllabus only</B>, and that the Achievers questions do too.
+        </P>
+        <P>That has two practical effects:</P>
+        <UL>
+          <LI><B>Chapters taught after the Level 1 exam now count.</B> A Class 7 student who sat IMO in October may not have done every Class 7 chapter at school yet. Level 2 can test all of them. Finish the full syllabus first.</LI>
+          <LI><B>Previous-class topics lose their weight.</B> A Class 9 student no longer needs to revise Class 8 chapters as a separate block. Older skills still appear inside Class 9 questions, but the chapters themselves are not the target.</LI>
+        </UL>
+        <Callout>
+          <B>First step:</B> open the IMO syllabus page for your class on sofworld.org and tick off each chapter your
+          child has done at school. Any unticked chapter goes to the top of the plan.
+        </Callout>
+
+        <H2 id="topics">Where Level 2 marks come from, by class</H2>
+        <P>
+          SOF does not publish chapter weightings, so the lists below are our guide to the heaviest areas of each
+          class syllabus, not official figures. They are where Level 2 questions tend to be hardest, so they deserve
+          the most practice.
+        </P>
+        <H3>Classes 3&ndash;4</H3>
+        <UL>
+          <LI>Large numbers, place value and the four operations, especially multi-step word problems.</LI>
+          <LI>Fractions, measurement (length, weight, capacity, time) and money.</LI>
+          <LI>Patterns, shapes, simple perimeter and area, and data from pictographs and tables.</LI>
+        </UL>
+        <H3>Classes 5&ndash;6</H3>
+        <UL>
+          <LI>Factors, multiples, HCF and LCM, and divisibility.</LI>
+          <LI>Fractions, decimals and percentages, including word problems that mix them.</LI>
+          <LI>Geometry basics: angles, triangles, perimeter and area of composite shapes.</LI>
+          <LI>For Class 6, introduction to algebra, ratio and proportion, and integers.</LI>
+        </UL>
+        <H3>Classes 7&ndash;8</H3>
+        <UL>
+          <LI>Simple and linear equations, especially forming the equation from a word problem.</LI>
+          <LI>Ratio, percentage, profit and loss, and interest.</LI>
+          <LI>Triangles, quadrilaterals and mensuration (area, surface area and volume in Class 8).</LI>
+          <LI>Exponents, squares and cubes, and algebraic identities (Class 8).</LI>
+        </UL>
+        <H3>Classes 9&ndash;10</H3>
+        <UL>
+          <LI>Class 9: number systems and surds, polynomials, coordinate geometry, triangles, quadrilaterals, circles, Heron&rsquo;s formula, surface areas and volumes, statistics and probability.</LI>
+          <LI>Class 10: quadratic equations, arithmetic progressions, coordinate geometry, triangles and similarity, trigonometry and its applications, circles, and probability.</LI>
+        </UL>
+
+        <H2 id="examples">Worked examples in the Level 2 style</H2>
+        <P>
+          Level 2 questions are rarely about a new idea. They combine two familiar ideas, or need one extra step.
+          These are our own practice questions, written in that style.
+        </P>
+        <P>
+          <B>Class 6:</B> The LCM of two numbers is 180 and their HCF is 6. One number is 36. What is the other?<br />
+          For two numbers, HCF × LCM = product of the numbers. So 6 × 180 = 36 × n, which gives n = 1080 ÷ 36 ={" "}
+          <B>30</B>.
+        </P>
+        <P>
+          <B>Class 8:</B> The sum of three consecutive even numbers is 78. What is the largest?<br />
+          Let them be x, x + 2 and x + 4. Then 3x + 6 = 78, so x = 24. The numbers are 24, 26 and 28. <B>Answer: 28.</B>
+        </P>
+        <P>
+          <B>Class 9:</B> If x + 1/x = 5, what is x² + 1/x²?<br />
+          Square both sides: x² + 2 + 1/x² = 25. So x² + 1/x² = <B>23</B>.
+        </P>
+        <P>
+          <B>Class 10:</B> The roots of x² &minus; 5x + k = 0 differ by 1. Find k.<br />
+          Let the roots be r and r + 1. Their sum is 2r + 1 = 5, so r = 2 and the roots are 2 and 3. Their product is
+          k = 2 × 3 = <B>6</B>.
+        </P>
+        <Callout>
+          <B>Notice the pattern:</B> each one has a quick route (the HCF&ndash;LCM rule, squaring, sum and product of
+          roots). At Level 2, students who know these shortcuts finish with time to check. Students who grind through
+          long methods often run short of time.
+        </Callout>
+
+        <H2 id="achievers">Why the Achievers section matters even more</H2>
+        <P>
+          The 5 Achievers questions are worth 15 of the 60 marks for Classes 5&ndash;10. Under SOF&rsquo;s published
+          ranking rules, Level 2 ties are broken by section marks in priority order (with the Achievers section first),
+          then by Level 1 total marks, then by Level 1 section marks. At Level 2 many students score close to each
+          other, so a single Achievers question can move a rank a long way. Practise them separately: three or four
+          hard, multi-step questions a day, with a full written solution.
+        </P>
+
+        <H2 id="plan">A weekly practice routine until February</H2>
+        <P>
+          For a full week-by-week timetable, see our{" "}
+          <A href="/blog/olympiad-level-2-preparation-december-to-february">December-to-February Level 2 plan</A>. For
+          IMO specifically, a good week looks like this:
+        </P>
+        <UL>
+          <LI><B>Four days of chapter work (40&ndash;45 minutes each):</B> one chapter at a time, starting with chapters not yet covered at school, then weak ones. Do harder questions than the school exercise.</LI>
+          <LI><B>One day of Achievers practice:</B> 8&ndash;10 hard questions, untimed, with written solutions.</LI>
+          <LI><B>One day for a timed paper:</B> from January, a full 60-minute paper of 50 maths questions every week.</LI>
+          <LI><B>One rest day.</B></LI>
+        </UL>
+        <P>
+          After every paper, sort each mistake as a concept gap, a calculation slip, a misread question or a time
+          problem. Our <A href="/blog/how-to-analyse-olympiad-mock-test">mock test analysis guide</A> shows how. Keep an
+          error log and revise from it twice a week.
+        </P>
+
+        <H2 id="dont-wait">Don&rsquo;t wait for the result</H2>
+        <P>
+          In the 2025&ndash;26 cycle, IMO Level 1 results came out in mid-January (as reported at the time), and
+          Level 2 was held on 8 February 2026. That left about three weeks between knowing and sitting the exam. If
+          your child&rsquo;s score from the <A href="/blog/sof-olympiad-answer-key-how-to-check-and-calculate-score">answer key</A>{" "}
+          looks strong, start now. The work also helps with school maths, so nothing is wasted if they don&rsquo;t
+          qualify.
+        </P>
+        <P>
+          For more on strategy, read <A href="/blog/how-to-crack-olympiad-level-2">how to crack Olympiad Level 2</A>,
+          and for the exam day itself, our <A href="/blog/olympiad-exam-day-checklist">exam day checklist</A>.
+        </P>
+
+        <CTA href="/mock-exams">Practise harder, Level 2-style maths questions with full worked solutions.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the IMO Level 2 exam pattern?",
+        a: "According to SOF's syllabus pages, IMO Level 2 for Classes 5–10 has 45 Mathematics questions (1 mark each) and 5 Achievers questions (3 marks each): 50 questions, 60 marks, in 60 minutes. Classes 3–4 have 30 Mathematics and 5 Achievers questions (40 marks). There is no logical reasoning section.",
+      },
+      {
+        q: "What is the syllabus for IMO Level 2?",
+        a: "SOF states that IMO Level 2 questions, including the Achievers section, come from the current class syllabus only. Level 1, by contrast, takes about 60% of questions from the current class and 40% from the previous class. Check the class-wise syllabus on sofworld.org.",
+      },
+      {
+        q: "When is the IMO Level 2 exam in 2027?",
+        a: "SOF's 2026–27 schedule says the Level 2 date will be announced by December 2026 and is tentatively planned for the second or third Sunday of February 2027 (14 or 21 February). Confirm the date on sofworld.org or with your school.",
+      },
+      {
+        q: "How should I prepare for IMO Level 2?",
+        a: "First finish every chapter of your current class syllabus, since Level 2 can test chapters taught after Level 1. Then practise harder multi-step questions chapter by chapter, practise Achievers questions separately, and from January sit one timed 50-question maths paper a week with an error log.",
+      },
+    ],
+  },
+
+  /* 101 ─────────────────────────────────────────────────────── */
+  {
+    slug: "nso-level-2-preparation-guide",
+    title: "NSO Level 2 (Now SOF ISO) Preparation Guide: Pattern, Topics and Plan",
+    description:
+      "SOF's National Science Olympiad is now called the International Science Olympiad (ISO). Here is the official Level 2 pattern for 2026–27, why only the current class syllabus is tested, the science topics to prioritise by class, worked examples and a practice plan.",
+    date: "2026-11-12",
+    tag: "Science",
+    readingMinutes: 10,
+    keywords: [
+      "NSO level 2 preparation",
+      "ISO level 2 SOF",
+      "NSO level 2 syllabus",
+      "NSO level 2 exam pattern",
+      "SOF International Science Olympiad level 2",
+      "NSO renamed ISO",
+    ],
+    excerpt:
+      "From 2026–27, SOF's NSO is called the International Science Olympiad (ISO). Level 2 has no reasoning section and tests only the current class syllabus. Here is the pattern, the topics to prioritise and a plan for February.",
+    content: (
+      <>
+        <P>
+          First, a name change parents should know about. From the 2026&ndash;27 session, SOF&rsquo;s National
+          Science Olympiad (NSO) is called the <B>SOF International Science Olympiad (ISO)</B>. It is the same exam
+          with the same syllabus and the same two levels, and sofworld.org now lists it as ISO. Schools, coaching
+          sites and parents still often say NSO, so you will see both names this year.
+        </P>
+        <P>
+          Level 2 of the science Olympiad is a harder, narrower paper than Level 1. There is no reasoning section,
+          every question is science from the current class, and everyone sitting it has already done well at Level 1.
+          This guide covers the official pattern, the topics to put first at each class, and how to use the weeks
+          before February.
+        </P>
+        <Callout>
+          <B>2026&ndash;27 timeline (from SOF&rsquo;s official schedule):</B> ISO (NSO) Level 1 is held on 30 October,
+          19 November and 3 December 2026. SOF says the Level 2 date will be announced by December 2026, and it is
+          tentatively planned for the second or third Sunday of February 2027 (14 or 21 February).
+        </Callout>
+
+        <H2 id="pattern">The official Level 2 pattern</H2>
+        <UL>
+          <LI><B>Classes 3&ndash;4:</B> 30 Science questions (1 mark each) + 5 Achievers questions (2 marks each) = 35 questions, 40 marks.</LI>
+          <LI><B>Classes 5&ndash;10:</B> 45 Science questions (1 mark each) + 5 Achievers questions (3 marks each) = 50 questions, 60 marks.</LI>
+          <LI><B>Classes 11&ndash;12:</B> 25 Physics &amp; Chemistry + 20 Mathematics or Biology + 5 Achievers questions.</LI>
+        </UL>
+        <P>
+          The paper is 60 minutes. At Level 1, Classes 5&ndash;10 have 10 Logical Reasoning, 35 Science and 5
+          Achievers questions. At Level 2 those 10 reasoning questions become science questions, so the science
+          section grows from 35 to 45.
+        </P>
+
+        <H2 id="syllabus">Current class only</H2>
+        <P>
+          SOF&rsquo;s syllabus pages state that Level 1 papers take about 60% of questions from the current class and
+          40% from the previous class. For Level 2, questions, including the Achievers section, come from the{" "}
+          <B>current class syllabus only</B>.
+        </P>
+        <UL>
+          <LI><B>Chapters taught after Level 1 count.</B> If your child sat the exam on 30 October, several chapters of the class syllabus may still be untaught at school. Level 2 can test every one of them.</LI>
+          <LI><B>Classes 6&ndash;8 use the new NCERT books.</B> SOF&rsquo;s Class 7 syllabus, for example, now uses the new chapter names such as &ldquo;Heat Transfer in Nature&rdquo; and &ldquo;Electricity: Circuits and their Components&rdquo;. Check your class&rsquo;s chapter list on sofworld.org and work from that list, not an old guide.</LI>
+        </UL>
+
+        <H2 id="topics">Topics to put first, by class</H2>
+        <P>
+          SOF does not publish chapter weightings, so these are our suggestions for the chapters that most reward
+          extra depth. They are not official figures.
+        </P>
+        <H3>Classes 3&ndash;5</H3>
+        <UL>
+          <LI>Plants and animals: parts, adaptations, food and habitats.</LI>
+          <LI>The human body, food and health.</LI>
+          <LI>Matter and materials, air and water, and simple force and energy.</LI>
+          <LI>Earth, the Sun and Moon, and the environment.</LI>
+        </UL>
+        <H3>Classes 6&ndash;8</H3>
+        <UL>
+          <LI>Physics: motion and measurement, electricity and circuits, light, heat, force and pressure (Class 8), sound (Class 8).</LI>
+          <LI>Chemistry: separating mixtures, acids, bases and salts, metals and non-metals, physical and chemical changes.</LI>
+          <LI>Biology: nutrition in plants and animals, respiration, reproduction, cells (Class 8), microorganisms and adolescence.</LI>
+        </UL>
+        <H3>Classes 9&ndash;10</H3>
+        <UL>
+          <LI>Class 9: motion, force and laws of motion, gravitation, work and energy, sound; atoms and molecules, structure of the atom; cells and tissues.</LI>
+          <LI>Class 10: light (reflection and refraction), electricity, magnetic effects of current; chemical reactions, acids, bases and salts, metals and non-metals, carbon compounds; life processes, control and coordination, heredity.</LI>
+        </UL>
+        <Callout>
+          <B>Numerical chapters decide ranks.</B> In Classes 7&ndash;10, chapters with calculations (speed, pressure,
+          motion, current and resistance, mirrors and lenses) are where Level 2 questions get hardest. Many strong
+          students lose marks here because they revise science as facts to remember. Do 15&ndash;20 numericals per
+          chapter.
+        </Callout>
+
+        <H2 id="examples">Worked examples in the Level 2 style</H2>
+        <P>These are our own practice questions, written to show how Level 2 adds a step or applies an idea.</P>
+        <P>
+          <B>Class 6:</B> How would you separate a mixture of salt and sand?<br />
+          Add water and stir, so the salt dissolves. Filter to remove the sand. Then evaporate the water to get the salt
+          back. <B>Answer: dissolving, filtration, then evaporation.</B> At Level 2, options often list the right steps
+          in the wrong order, so the sequence matters.
+        </P>
+        <P>
+          <B>Class 8:</B> A force of 200 N acts on an area of 0.5 m². What is the pressure?<br />
+          Pressure = force ÷ area = 200 ÷ 0.5 = <B>400 Pa</B>. A Level 2 version might then ask what happens if the area
+          is halved (pressure doubles to 800 Pa).
+        </P>
+        <P>
+          <B>Class 9:</B> A car speeds up uniformly from 10 m/s to 30 m/s in 5 s. What is its acceleration?<br />
+          a = (v &minus; u) ÷ t = (30 &minus; 10) ÷ 5 = <B>4 m/s²</B>.
+        </P>
+        <P>
+          <B>Class 10:</B> An object is placed 30 cm in front of a concave mirror of focal length 15 cm. Where is the
+          image?<br />
+          30 cm is twice the focal length, which is the centre of curvature. The image forms at the centre of
+          curvature: <B>30 cm in front of the mirror, real, inverted and the same size</B>.
+        </P>
+
+        <H2 id="achievers">The Achievers section and tie-breaks</H2>
+        <P>
+          The 5 Achievers questions carry 15 of the 60 marks for Classes 5&ndash;10. SOF&rsquo;s published rules break
+          Level 2 ties using section marks in priority order (with the Achievers section first), then Level 1 total marks,
+          then Level 1 section marks. Achievers questions in science usually test application: an unfamiliar
+          experiment, a graph or data table, or a &ldquo;what would happen if&rdquo; situation. Practise them
+          separately, and explain each answer aloud in a sentence or two.
+        </P>
+
+        <H2 id="plan">A weekly practice routine until February</H2>
+        <UL>
+          <LI><B>Four days of chapter work (40&ndash;45 minutes):</B> untaught chapters first, then weak ones. Read the NCERT chapter closely, including the activities and boxed facts, then do harder questions.</LI>
+          <LI><B>One day of numericals and diagrams:</B> labelled diagrams (the eye, the heart, a flower, circuits) and calculation chapters.</LI>
+          <LI><B>One day for a timed paper:</B> from January, a full 60-minute paper of 50 science questions every week, with every mistake logged.</LI>
+          <LI><B>One rest day.</B></LI>
+        </UL>
+        <P>
+          Doing the NCERT activities at home is a good way to make application questions easier. Our{" "}
+          <A href="/blog/science-experiments-at-home-for-nso">science experiments at home</A> post has ideas. For the full
+          10-week timetable, see our <A href="/blog/olympiad-level-2-preparation-december-to-february">Level 2 plan</A>.
+        </P>
+
+        <H2 id="dont-wait">Start before the result</H2>
+        <P>
+          In the 2025&ndash;26 cycle, NSO Level 1 results were declared on 12 January 2026 (as reported at the time),
+          and Level 2 was held on 8 February 2026, less than four weeks later. If your child&rsquo;s{" "}
+          <A href="/blog/sof-olympiad-answer-key-how-to-check-and-calculate-score">answer key score</A> looks strong,
+          start preparing now. Everything in this plan also helps with school science.
+        </P>
+
+        <CTA href="/mock-exams">Practise Level 2-style science questions with full explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Has NSO been renamed ISO?",
+        a: "Yes. From the 2026–27 session, SOF's National Science Olympiad (NSO) is called the SOF International Science Olympiad (ISO). sofworld.org now lists it as ISO. The syllabus structure and the two-level format are the same.",
+      },
+      {
+        q: "What is the NSO (ISO) Level 2 exam pattern?",
+        a: "For Classes 5–10, Level 2 has 45 Science questions (1 mark each) and 5 Achievers questions (3 marks each): 50 questions, 60 marks, in 60 minutes. Classes 3–4 have 30 Science and 5 Achievers questions (40 marks). There is no logical reasoning section.",
+      },
+      {
+        q: "What is the syllabus for NSO Level 2?",
+        a: "SOF states that Level 2 questions, including the Achievers section, come from the current class syllabus only. Level 1 takes about 60% of questions from the current class and 40% from the previous class.",
+      },
+      {
+        q: "When is NSO (ISO) Level 2 in 2027?",
+        a: "SOF's 2026–27 schedule says the Level 2 date will be announced by December 2026 and is tentatively planned for the second or third Sunday of February 2027. Confirm the date on sofworld.org or with your school.",
+      },
+    ],
+  },
+
+  /* 102 ─────────────────────────────────────────────────────── */
+  {
+    slug: "sof-olympiad-result-date",
+    title: "When Do SOF Olympiad Results Come Out? IMO, ISO (NSO) and IEO Result Timeline 2026–27",
+    description:
+      "When to expect SOF Olympiad results for IMO, ISO (formerly NSO), IEO, IGKO and the other 2026–27 Olympiads, based on the official exam schedule and last year's timeline, plus how to check the result, what the scorecard shows and what to do while you wait.",
+    date: "2026-11-12",
+    tag: "Guides",
+    readingMinutes: 8,
+    keywords: [
+      "SOF olympiad result date",
+      "IMO result 2026-27",
+      "NSO result date",
+      "ISO result SOF",
+      "IEO result date",
+      "SOF level 2 result",
+      "results.sofworld.org",
+    ],
+    excerpt:
+      "SOF does not announce result dates in advance, but its exam schedule and last year's timeline tell you roughly when to expect them. Here is the likely timeline for each Olympiad, how to check the result and what to do while you wait.",
+    content: (
+      <>
+        <P>
+          &ldquo;When will the result come?&rdquo; is the question every Olympiad parent asks in December. SOF does not
+          publish result dates in advance, but two things give a good idea: SOF&rsquo;s own 2026&ndash;27 exam schedule,
+          and when results came out last year. This guide puts the two together.
+        </P>
+        <Callout>
+          <B>A name change first:</B> from 2026&ndash;27, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO), and the National Cyber Olympiad is listed as the International Computer
+          Science Olympiad (ICSO). Results for both are under their new names on sofworld.org.
+        </Callout>
+
+        <H2 id="why-wait">Why results take a while</H2>
+        <P>
+          Each SOF Olympiad is held on two or three dates, with a different paper on each date. Results are prepared
+          only after the <B>last</B> date for that Olympiad, because international, zonal and school ranks compare every
+          student in the class across all dates. So if your school chose the first date in October, you will still wait
+          for the December sitting to finish.
+        </P>
+
+        <H2 id="schedule">The 2026&ndash;27 exam dates (official)</H2>
+        <P>From SOF&rsquo;s published 2026&ndash;27 schedule:</P>
+        <UL>
+          <LI><B>IGKO</B> (Classes 1&ndash;10): 22 September, 6 October and 3 November 2026.</LI>
+          <LI><B>IEO</B> (Classes 1&ndash;12): 30 September, 27 October and 17 November 2026.</LI>
+          <LI><B>ISO, formerly NSO</B> (Classes 1&ndash;12): 30 October, 19 November and 3 December 2026.</LI>
+          <LI><B>IMO</B> (Classes 1&ndash;12): 23 October, 26 November and 10 December 2026.</LI>
+          <LI><B>ICSO</B> (Classes 1&ndash;10): 24 September and 17 December 2026.</LI>
+          <LI><B>ISSO</B> (Classes 3&ndash;10): 30 November 2026 and 19 January 2027.</LI>
+          <LI><B>IHO</B> (Classes 3&ndash;10): 23 November 2026 and 22 January 2027.</LI>
+          <LI><B>ICO</B> (Classes 11&ndash;12): 30 November 2026 and 19 January 2027.</LI>
+        </UL>
+
+        <H2 id="last-year">What happened last year</H2>
+        <P>In the 2025&ndash;26 cycle, as reported in the news at the time:</P>
+        <UL>
+          <LI><B>IEO Level 1</B> results were declared in early January 2026.</LI>
+          <LI><B>NSO Level 1</B> results were declared on 12 January 2026.</LI>
+          <LI><B>IMO Level 1</B> results came out in mid-January 2026.</LI>
+          <LI><B>Level 2</B> for IMO, NSO and IEO was held on 8 February 2026, and Level 2 results were reported around 19 March 2026.</LI>
+        </UL>
+
+        <H2 id="expected">When to expect 2026&ndash;27 results</H2>
+        <P>
+          If SOF follows a similar timeline this year, a reasonable expectation is:
+        </P>
+        <UL>
+          <LI><B>IEO, ISO and IMO Level 1:</B> most likely in <B>January 2027</B>. IEO finishes first (17 November), so it may again be the first of the three.</LI>
+          <LI><B>IGKO and ICSO:</B> once all their dates are over and results are processed. IGKO finished on 3 November, ICSO finishes on 17 December.</LI>
+          <LI><B>ISSO, IHO and ICO:</B> later, since their second dates are in January 2027.</LI>
+          <LI><B>Level 2 (IMO, ISO, IEO):</B> the exam is tentatively planned for the second or third Sunday of February 2027, with results some weeks after that.</LI>
+        </UL>
+        <P>
+          These are estimates, not announced dates. SOF announces results on sofworld.org, and schools are told at the
+          same time.
+        </P>
+
+        <H2 id="how-to-check">How to check the result</H2>
+        <OL>
+          <LIo>Go to sofworld.org and open the Results section (results are hosted at results.sofworld.org).</LIo>
+          <LIo>Choose the Olympiad and session, for example IMO 2026&ndash;27.</LIo>
+          <LIo>Enter the details asked for, usually the student&rsquo;s roll number and name.</LIo>
+          <LIo>View and download the scorecard.</LIo>
+        </OL>
+        <P>
+          If you don&rsquo;t have the roll number, ask your school&rsquo;s Olympiad coordinator. The school also gets a
+          result list for all its registered students, and certificates and awards usually come through the school.
+        </P>
+
+        <H2 id="scorecard">What the scorecard shows</H2>
+        <UL>
+          <LI>Section-wise marks and the total.</LI>
+          <LI>School, zonal and international ranks.</LI>
+          <LI>Level 2 qualification status (for IMO, ISO and IEO, Classes 3&ndash;12).</LI>
+          <LI>Any award or scholarship won.</LI>
+        </UL>
+        <P>
+          Our guide to <A href="/blog/sof-olympiad-result-rank-card-explained">reading the SOF rank card</A> explains
+          what each rank means and how to turn the section marks into next year&rsquo;s plan.
+        </P>
+
+        <H2 id="level-2">Level 2 qualification</H2>
+        <P>
+          Under SOF&rsquo;s published rules, a student in Classes 3&ndash;12 qualifies for Level 2 of IMO, ISO or IEO by
+          meeting any one of these: being in the top 5% of their class among all Level 1 candidates; being among the top
+          25 of their class in their zone; or being their school&rsquo;s class topper, where at least 10 students from the
+          class sat the exam, with at least 50% marks. SOF also says that if Level 2 cannot be held, Level 1 results are
+          treated as final.
+        </P>
+
+        <H2 id="while-waiting">What to do while you wait</H2>
+        <UL>
+          <LI><B>Estimate the score now.</B> Use the official answer key for your exam set. Our <A href="/blog/sof-olympiad-answer-key-how-to-check-and-calculate-score">answer key guide</A> shows how to calculate it.</LI>
+          <LI><B>If the estimate is strong, start Level 2 preparation before the result.</B> Last year there were only about four weeks between the results and Level 2. See our guides for <A href="/blog/imo-level-2-preparation-guide">IMO Level 2</A> and <A href="/blog/nso-level-2-preparation-guide">ISO (NSO) Level 2</A>.</LI>
+          <LI><B>If not, let the Olympiad go for now.</B> Use the break for school work and reading. If the result disappoints, our guide on <A href="/blog/child-did-not-qualify-olympiad-level-2-what-next">what to do when your child doesn&rsquo;t qualify</A> may help.</LI>
+        </UL>
+
+        <CTA href="/topics">Keep skills fresh with short topic-wise practice while you wait for results.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "When will the SOF IMO result 2026-27 be declared?",
+        a: "SOF has not announced a date. IMO Level 1 ends on 10 December 2026, and last year the IMO Level 1 results came out in mid-January, so January 2027 is a reasonable expectation. Check sofworld.org for the official announcement.",
+      },
+      {
+        q: "When is the NSO result for 2026-27?",
+        a: "NSO is now called the SOF International Science Olympiad (ISO). Its Level 1 ends on 3 December 2026. Last year NSO Level 1 results were declared on 12 January 2026, so January 2027 is likely, but SOF announces the exact date only on release.",
+      },
+      {
+        q: "How do I check my SOF Olympiad result?",
+        a: "Go to sofworld.org, open the Results section (results.sofworld.org), choose the Olympiad and session, and enter the student's roll number and the other details asked for. The school's Olympiad coordinator can help if you don't have the roll number.",
+      },
+      {
+        q: "Why do SOF results take so long?",
+        a: "Each Olympiad is held on two or three dates with different papers, and ranks compare all students in a class across every date. Results can be prepared only after the last exam date for that Olympiad.",
+      },
+    ],
+  },
+
+  /* 103 ─────────────────────────────────────────────────────── */
+  {
+    slug: "child-did-not-qualify-olympiad-level-2-what-next",
+    title: "My Child Didn't Qualify for Olympiad Level 2. What Now? A Parent's Guide",
+    description:
+      "Your child didn't make SOF Level 2 for IMO, ISO (NSO) or IEO. Here is how to put the result in perspective, what to say, how to read the scorecard properly, and a calm 12-month plan for next year's Olympiad.",
+    date: "2026-11-12",
+    tag: "Guides",
+    readingMinutes: 9,
+    keywords: [
+      "did not qualify olympiad level 2",
+      "olympiad result disappointing",
+      "what to do after olympiad result",
+      "how to improve olympiad score next year",
+      "olympiad level 2 not qualified",
+    ],
+    excerpt:
+      "Most Olympiad students don't qualify for Level 2. That is how the exam is designed. Here is how to talk about the result, what the scorecard really tells you, and a calm plan for next year.",
+    content: (
+      <>
+        <P>
+          The result is out, and your child&rsquo;s name isn&rsquo;t on the Level 2 list. Maybe they expected it, maybe
+          a friend made it, maybe they cried. This guide is for that evening and the weeks after: how to put the result
+          in perspective, what to say, and how to turn it into a better year without turning it into pressure.
+        </P>
+
+        <H2 id="perspective">First, the numbers</H2>
+        <P>
+          Under SOF&rsquo;s published rules, Level 2 places go to the top 5% of each class nationally, the top 25 in
+          each zone, and school class toppers who score at least 50% (where at least 10 students from the class sat
+          the exam). By design, the large majority of students who sit Level 1 do not go to Level 2.
+        </P>
+        <P>
+          Not qualifying puts your child with most of the students who sat the exam. It doesn&rsquo;t mean they did
+          badly or that Olympiads aren&rsquo;t for them. A child at the 80th percentile is doing better than four out of
+          five students of their class who chose to sit an extra exam. Work out the percentile from the rank (rank ÷
+          number of participants) before reacting. Our <A href="/blog/sof-olympiad-result-rank-card-explained">rank card guide</A>{" "}
+          shows how.
+        </P>
+
+        <H2 id="first-conversation">The first conversation</H2>
+        <P>Children read our reaction more closely than the scorecard. A few things help:</P>
+        <UL>
+          <LI><B>Let them feel it first.</B> &ldquo;You really wanted that. It&rsquo;s okay to be disappointed.&rdquo; Skip the plan for now.</LI>
+          <LI><B>Praise what they controlled.</B> The weeks of practice, the papers they finished, the topic they finally understood.</LI>
+          <LI><B>Avoid comparisons.</B> Whether a cousin or classmate qualified tells your child nothing useful, and it hurts.</LI>
+          <LI><B>Don&rsquo;t blame the exam or the school.</B> It teaches children that results are out of their hands, which isn&rsquo;t true.</LI>
+          <LI><B>Talk about next year a few days later</B>, and only if they want to.</LI>
+        </UL>
+        <Callout>
+          <B>If the disappointment lasts</B>, shows up as stomach aches before tests, or turns into &ldquo;I&rsquo;m just
+          bad at maths&rdquo;, slow down. Our guide on <A href="/blog/olympiad-exam-anxiety-in-children">exam anxiety in children</A>{" "}
+          covers what to watch for.
+        </Callout>
+
+        <H2 id="read-scorecard">Read the scorecard properly</H2>
+        <P>A week or so later, sit down together with the scorecard and the answer key. Look at three things:</P>
+        <OL>
+          <LIo><B>Which section lost most marks.</B> Reasoning, the main subject section or the Achievers section. Each has a different fix.</LIo>
+          <LIo><B>How close they came.</B> Compare the score with SOF&rsquo;s top-5% cut-off for the class when it is published. Missing by 3 marks needs a different plan from missing by 20.</LIo>
+          <LIo><B>Why marks were lost.</B> Using the <A href="/blog/sof-olympiad-answer-key-how-to-check-and-calculate-score">answer key</A> and your child&rsquo;s marked paper, sort mistakes into: didn&rsquo;t know the concept, careless slip, misread the question, ran out of time.</LIo>
+        </OL>
+
+        <H2 id="patterns">Four common patterns and what to do</H2>
+        <H3>1. Strong subject marks, weak reasoning</H3>
+        <P>
+          Reasoning (10&ndash;15 questions from Class 5) is very trainable. Twenty minutes, three times a week, on one
+          question type at a time makes a real difference within a few months. Start with our guides to{" "}
+          <A href="/blog/how-to-improve-logical-reasoning-for-olympiads">logical reasoning</A>,{" "}
+          <A href="/blog/coding-decoding-questions-for-olympiad">coding-decoding</A> and{" "}
+          <A href="/blog/blood-relations-and-direction-sense-questions-for-olympiad">blood relations and direction sense</A>.
+        </P>
+        <H3>2. Good overall, poor Achievers section</H3>
+        <P>
+          The syllabus is known but harder, multi-step questions aren&rsquo;t. This is the most common pattern among
+          near-misses. Add two or three challenging questions a week through the year, rather than only in October.
+        </P>
+        <H3>3. Ran out of time</H3>
+        <P>
+          Fifty questions in sixty minutes is tight. If the last ten questions were rushed or blank, the fix is timed
+          practice and a question-skipping strategy. See our <A href="/blog/time-management-in-olympiad-exam">time management guide</A>.
+        </P>
+        <H3>4. Gaps from the previous class</H3>
+        <P>
+          SOF&rsquo;s syllabus pages state that Level 1 papers take about 40% of questions from the previous class. A
+          student who prepared only this year&rsquo;s chapters can lose many marks here. Next year, plan time for both
+          years&rsquo; syllabus.
+        </P>
+
+        <H2 id="plan">A calm 12-month plan</H2>
+        <UL>
+          <LI><B>January to March: rest from Olympiads.</B> Focus on school exams. Keep reading, puzzles and games that build reasoning without calling it practice.</LI>
+          <LI><B>April to June: build habits.</B> Twenty to thirty minutes, three times a week: the new class topics as they are taught, plus the one weak area from this year&rsquo;s scorecard.</LI>
+          <LI><B>July to September: steady practice.</B> Topic-wise practice across both years&rsquo; syllabus, and harder questions once a week.</LI>
+          <LI><B>The six to eight weeks before the exam:</B> full timed mock papers with an error log, then light revision. Our <A href="/blog/olympiad-revision-plan-last-30-days">30-day revision plan</A> covers the final month.</LI>
+        </UL>
+        <P>
+          The total time is modest. What changes results is spreading it over the year, so the final weeks are for
+          practice papers rather than first-time learning. If your evenings are busy, see our{" "}
+          <A href="/blog/olympiad-preparation-schedule-for-working-parents">schedule for working parents</A>.
+        </P>
+
+        <H2 id="rethink">When to rethink the plan</H2>
+        <UL>
+          <LI><B>Your child no longer enjoys the subject</B> and dreads practice. Taking a year off is fine. Interest matters more than any one Olympiad.</LI>
+          <LI><B>A different Olympiad suits them better.</B> A child who struggles with IMO but loves reading may do well in IEO. See <A href="/blog/how-to-choose-the-right-olympiad-for-your-child">choosing the right Olympiad</A>.</LI>
+          <LI><B>School work is suffering.</B> Olympiads should support school learning, not compete with it.</LI>
+        </UL>
+
+        <H2 id="value">What this year still gave them</H2>
+        <P>
+          A child who prepared for an Olympiad has met harder questions than their school book offers, practised working
+          under time pressure and finished a 60-minute paper. That&rsquo;s worth having whether or not they qualified,
+          and it is the base next year&rsquo;s result will be built on.
+        </P>
+
+        <CTA href="/topics">Start next year&rsquo;s practice gently with short, topic-wise questions.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What percentage of students qualify for SOF Olympiad Level 2?",
+        a: "SOF does not publish one overall figure. Students qualify by being in the top 5% of their class nationally, among the top 25 of their class in their zone, or their school's class topper with at least 50% marks (where at least 10 students from the class sat the exam). By design, most students who sit Level 1 do not qualify.",
+      },
+      {
+        q: "What should I say to my child if they didn't qualify for Level 2?",
+        a: "Acknowledge the disappointment first, praise the effort and consistency they controlled, avoid comparing them with others, and wait a few days before talking about next year. Use the percentile rather than the raw rank to put the result in context.",
+      },
+      {
+        q: "How can my child improve their Olympiad score next year?",
+        a: "Use the scorecard to find the weakest section, sort mistakes by cause, and fix that area with short practice three times a week from April. Include the previous class syllabus, since about 40% of Level 1 questions come from it, and save full mock papers for the six to eight weeks before the exam.",
+      },
+      {
+        q: "Should my child stop doing Olympiads if they didn't qualify?",
+        a: "Not necessarily. Most students don't qualify for Level 2, and preparation still builds skills that help in school. Consider a break or a different Olympiad only if your child has lost interest or school work is suffering.",
+      },
+    ],
+  },
+
+  /* 104 ─────────────────────────────────────────────────────── */
+  {
+    slug: "ieo-preparation-class-6",
+    title: "IEO Class 6 Preparation: Syllabus, Exam Pattern and Practice Questions",
+    description:
+      "A complete guide to the SOF International English Olympiad (IEO) for Class 6: the official 50-question pattern, the full syllabus by section, solved practice questions on tenses, voice, narration and collocations, and a study plan.",
+    date: "2026-11-12",
+    tag: "English",
+    readingMinutes: 9,
+    keywords: [
+      "IEO class 6",
+      "IEO preparation class 6",
+      "IEO class 6 syllabus",
+      "IEO sample paper class 6",
+      "international english olympiad class 6",
+      "IEO class 6 exam pattern",
+    ],
+    excerpt:
+      "Class 6 IEO adds voice, narration, collocations and idioms to the grammar of earlier years. Here is the official pattern, the full syllabus, solved practice questions and a study plan.",
+    content: (
+      <>
+        <P>
+          Class 6 is a step up in the International English Olympiad. The paper moves from basic grammar to the parts of
+          English that need real understanding: active and passive voice, reported speech, collocations, phrasal verbs
+          and idioms. Reading passages also become more practical, using brochures, itineraries and letters. This guide
+          covers the official pattern, the full syllabus and how to practise each section.
+        </P>
+
+        <H2 id="pattern">IEO Class 6 exam pattern</H2>
+        <P>From SOF&rsquo;s official Class 6 syllabus page (the same pattern applies to Classes 5&ndash;12):</P>
+        <UL>
+          <LI><B>Word and Structure Knowledge:</B> 30 questions, 1 mark each</LI>
+          <LI><B>Reading:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Spoken and Written Expression:</B> 5 questions, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 questions, 3 marks each</LI>
+        </UL>
+        <P>
+          Total: <B>50 questions, 60 marks, 60 minutes</B>, with no negative marking. Word and Structure Knowledge alone
+          is half the marks, so grammar and vocabulary decide most of the score.
+        </P>
+
+        <H2 id="syllabus">The official Class 6 syllabus</H2>
+        <H3>Language structure and vocabulary</H3>
+        <UL>
+          <LI>Parts of speech: nouns, pronouns, verbs, adverbs, adjectives, articles, conjunctions and prepositions</LI>
+          <LI>Punctuation and jumbled words</LI>
+          <LI>Tenses and voice (active and passive)</LI>
+          <LI>Narration (direct and reported speech)</LI>
+          <LI>Spelling</LI>
+          <LI>Collocations, phrasal verbs and idioms</LI>
+          <LI>Synonyms and antonyms</LI>
+        </UL>
+        <H3>Reading and information retrieval</H3>
+        <UL>
+          <LI>Finding information in news headlines, brochures, formal and informal letters and itineraries</LI>
+          <LI>Understanding short narratives, timetables, news stories, diary entries and messages</LI>
+          <LI>Poster making</LI>
+        </UL>
+        <H3>Situation-based language functions</H3>
+        <UL>
+          <LI>Agreeing and disagreeing</LI>
+          <LI>Making requests, refusing and apologising</LI>
+        </UL>
+        <H3>Achievers Section</H3>
+        <P>Higher-order questions based on all of the above.</P>
+
+        <H2 id="practice">Solved practice questions</H2>
+        <P>These are our own questions, written in the style of the IEO paper.</P>
+        <H3>Tenses</H3>
+        <P>
+          By the time we reached the station, the train ______.<br />
+          (a) leaves (b) has left (c) had left (d) was leaving<br />
+          Two past actions: the train leaving happened <em>before</em> we reached. The earlier action takes the past
+          perfect. <B>Answer: (c) had left.</B>
+        </P>
+        <H3>Voice</H3>
+        <P>
+          Change to passive: &ldquo;The children planted ten trees.&rdquo;<br />
+          The object (ten trees) becomes the subject, and the verb becomes &ldquo;were planted&rdquo; because the
+          subject is plural and the tense is simple past. <B>Answer: Ten trees were planted by the children.</B>
+        </P>
+        <H3>Narration</H3>
+        <P>
+          Change to reported speech: Riya said, &ldquo;I am tired.&rdquo;<br />
+          The pronoun changes (I → she) and the tense moves one step back (am → was).{" "}
+          <B>Answer: Riya said that she was tired.</B>
+        </P>
+        <H3>Collocations</H3>
+        <P>
+          Rohan ______ a mistake in his maths homework.<br />
+          (a) did (b) made (c) took (d) gave<br />
+          In English we <em>make</em> a mistake, not <em>do</em> one. <B>Answer: (b) made.</B> Other common pairs:
+          make a decision, do homework, take a photo, pay attention.
+        </P>
+        <H3>Phrasal verbs and idioms</H3>
+        <P>
+          The match was <em>called off</em> because of rain. &ldquo;Called off&rdquo; means: <B>cancelled.</B><br />
+          The test was <em>a piece of cake</em>. This means the test was: <B>very easy.</B>
+        </P>
+        <H3>Spoken and written expression</H3>
+        <P>
+          You can&rsquo;t go to your friend&rsquo;s birthday party. Which is the most polite reply?<br />
+          (a) I won&rsquo;t come. (b) I&rsquo;m so sorry, I can&rsquo;t make it on Saturday. I hope you have a wonderful
+          party! (c) Parties are boring. (d) Maybe.<br />
+          <B>Answer: (b).</B> It refuses clearly, apologises and stays friendly, which is what situation-based questions
+          test.
+        </P>
+
+        <H2 id="section-tips">How to prepare for each section</H2>
+        <H3>Word and Structure Knowledge (30 marks)</H3>
+        <UL>
+          <LI>Learn the rule behind each grammar topic, then do 15&ndash;20 questions on it. Rules alone don&rsquo;t stick.</LI>
+          <LI>Keep a notebook of collocations, phrasal verbs and idioms, with one example sentence each. Five new ones a day adds up fast.</LI>
+          <LI>Practise jumbled words by finding the subject and verb first, then building the sentence around them.</LI>
+          <LI>For spelling, focus on common traps: double letters (necessary, accommodation), silent letters (knowledge, island) and -ible/-able words.</LI>
+        </UL>
+        <H3>Reading (10 marks)</H3>
+        <UL>
+          <LI>Practise with real-world texts: train timetables, travel brochures, notices and short news reports.</LI>
+          <LI>Read the questions first, then scan the text for the answer. Timetable and itinerary questions are about finding details fast.</LI>
+          <LI>For diary entries and narratives, ask: who, what, why, and how did they feel?</LI>
+        </UL>
+        <H3>Spoken and Written Expression (5 marks)</H3>
+        <UL>
+          <LI>Learn polite forms: &ldquo;Could you please&hellip;&rdquo;, &ldquo;Would you mind&hellip;&rdquo;, &ldquo;I&rsquo;m afraid I can&rsquo;t&hellip;&rdquo;, &ldquo;I see your point, but&hellip;&rdquo;.</LI>
+          <LI>Choose the reply that suits the situation and the person, such as a teacher, a friend or a shopkeeper.</LI>
+        </UL>
+        <H3>Achievers (15 marks)</H3>
+        <P>
+          Achievers questions combine skills: an idiom inside a reading passage, or a sentence where both the tense and
+          the voice change. Practise mixed sets once a week after the individual topics are secure.
+        </P>
+
+        <H2 id="plan">An 8-week study plan</H2>
+        <UL>
+          <LI><B>Weeks 1&ndash;2:</B> parts of speech, articles, prepositions and conjunctions; daily vocabulary.</LI>
+          <LI><B>Weeks 3&ndash;4:</B> tenses, voice and narration, with lots of conversion practice.</LI>
+          <LI><B>Week 5:</B> collocations, phrasal verbs, idioms, synonyms and antonyms.</LI>
+          <LI><B>Week 6:</B> reading practice with timetables, brochures, letters and diary entries; situation-based questions.</LI>
+          <LI><B>Weeks 7&ndash;8:</B> two full timed papers a week, with an error log.</LI>
+        </UL>
+        <P>
+          Throughout, 15&ndash;20 minutes of reading a day helps every section. Our guide on{" "}
+          <A href="/blog/how-to-improve-english-vocabulary-for-kids">building vocabulary</A> has ideas that work for Class 6.
+          For a wider view of the exam, see our <A href="/blog/ieo-preparation-guide">complete IEO guide</A>.
+        </P>
+
+        <H2 id="level-2">IEO Level 2 for Class 6</H2>
+        <P>
+          Class 6 students who qualify sit IEO Level 2, which has 35 Word and Structure Knowledge, 10 Reading and 5
+          Achievers questions (60 marks). There is no Spoken and Written Expression section, so grammar and vocabulary
+          carry even more weight. SOF&rsquo;s 2026&ndash;27 schedule says Level 2 is tentatively planned for the second or
+          third Sunday of February 2027.
+        </P>
+
+        <CTA href="/topics">Practise Class 6 English Olympiad questions by topic, with explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the IEO Class 6 exam pattern?",
+        a: "IEO Class 6 has 50 questions and 60 marks in 60 minutes: 30 Word and Structure Knowledge, 10 Reading, 5 Spoken and Written Expression (all 1 mark each) and 5 Achievers questions worth 3 marks each. There is no negative marking.",
+      },
+      {
+        q: "What is the IEO Class 6 syllabus?",
+        a: "SOF's Class 6 syllabus covers parts of speech, punctuation, jumbled words, tenses and voice, narration, spelling, collocations, phrasal verbs, idioms, synonyms and antonyms; reading from headlines, brochures, letters, itineraries, timetables, stories and diary entries; and situation-based language such as agreeing, disagreeing, requests, refusals and apologies.",
+      },
+      {
+        q: "Which topics are most important for IEO Class 6?",
+        a: "Word and Structure Knowledge carries 30 of the 60 marks, so grammar and vocabulary matter most. In Class 6, voice, narration, tenses, collocations, phrasal verbs and idioms are the topics students find hardest and are worth extra practice.",
+      },
+      {
+        q: "Is there a Level 2 for IEO Class 6?",
+        a: "Yes. IEO has Level 2 for Classes 3–12. For Class 6 it has 35 Word and Structure Knowledge, 10 Reading and 5 Achievers questions (60 marks), with no Spoken and Written Expression section.",
+      },
+    ],
+  },
+
+  /* 105 ─────────────────────────────────────────────────────── */
+  {
+    slug: "imo-sample-papers-class-9",
+    title: "IMO Sample Papers for Class 9: Pattern, Question Types and Solved Examples",
+    description:
+      "How to use IMO sample papers for Class 9: the official 50-question pattern, the full SOF syllabus, worked examples on polynomials, surds, coordinate geometry, Heron's formula, circles, statistics and probability, and a plan for sample-paper practice.",
+    date: "2026-11-12",
+    tag: "Maths",
+    readingMinutes: 9,
+    keywords: [
+      "IMO sample papers class 9",
+      "IMO class 9 question paper",
+      "IMO previous year papers class 9",
+      "IMO class 9 syllabus",
+      "international maths olympiad class 9",
+      "IMO class 9 solved examples",
+    ],
+    excerpt:
+      "Class 9 IMO tests polynomials, surds, coordinate geometry, circles, statistics and more, plus 40% from Class 8. Here is the official pattern, eight solved examples and how to get the most from sample papers.",
+    content: (
+      <>
+        <P>
+          Class 9 maths is a big jump: polynomials, surds, coordinate geometry, Euclid&rsquo;s geometry and proofs about
+          triangles and circles all arrive in one year. The IMO paper follows. Sample papers are the fastest way to see
+          how these chapters are actually tested, and where the time goes in a 60-minute paper. For a full study plan, see
+          our <A href="/blog/imo-preparation-class-9">IMO Class 9 preparation guide</A>. This post focuses on the paper
+          itself and solved examples.
+        </P>
+
+        <H2 id="pattern">Official IMO Class 9 pattern</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 15 questions, 1 mark each</LI>
+          <LI><B>Mathematical Reasoning:</B> 20 questions, 1 mark each</LI>
+          <LI><B>Everyday Mathematics:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 questions, 3 marks each</LI>
+        </UL>
+        <P>
+          Total: <B>50 questions, 60 marks, 60 minutes</B>, with no negative marking. SOF&rsquo;s syllabus page also states
+          that about 60% of Level 1 questions come from the Class 9 syllabus and 40% from Class 8, so Class 8 chapters
+          still need revision.
+        </P>
+
+        <H2 id="syllabus">The official Class 9 syllabus</H2>
+        <P>SOF&rsquo;s Class 9 IMO syllabus lists:</P>
+        <UL>
+          <LI><B>Logical reasoning:</B> verbal and non-verbal reasoning</LI>
+          <LI><B>Mathematics:</B> number systems, polynomials, algebraic identities, coordinate geometry, linear equations in two variables, introduction to Euclid&rsquo;s geometry, lines and angles, sequences and progressions, triangles, quadrilaterals, areas of parallelograms and triangles, circles, area and perimeter, constructions, surface areas and volumes, statistics, and introduction to probability</LI>
+          <LI><B>Everyday mathematics:</B> mathematical reasoning and quantitative aptitude</LI>
+          <LI><B>Achievers:</B> higher-order questions on the Class 9 syllabus</LI>
+        </UL>
+
+        <H2 id="examples">Solved examples, chapter by chapter</H2>
+        <P>These are our own practice questions, written at the level of the IMO Class 9 paper.</P>
+        <P>
+          <B>1. Polynomials (remainder theorem).</B> What is the remainder when x³ &minus; 3x² + 4x &minus; 5 is divided by
+          (x &minus; 2)?<br />
+          By the remainder theorem, it is p(2) = 8 &minus; 12 + 8 &minus; 5 = <B>&minus;1</B>.
+        </P>
+        <P>
+          <B>2. Algebraic identities.</B> If x + 1/x = 5, find x² + 1/x².<br />
+          Square both sides: x² + 2 + 1/x² = 25, so x² + 1/x² = <B>23</B>.
+        </P>
+        <P>
+          <B>3. Number systems.</B> Rationalise 1/(√5 &minus; √3).<br />
+          Multiply top and bottom by (√5 + √3). The bottom becomes 5 &minus; 3 = 2. <B>Answer: (√5 + √3)/2.</B>
+        </P>
+        <P>
+          <B>4. Coordinate geometry.</B> The point P(a, b) lies in the second quadrant. In which quadrant does Q(b, a)
+          lie?<br />
+          In the second quadrant a is negative and b is positive. So Q has a positive x-coordinate and a negative
+          y-coordinate. <B>Answer: the fourth quadrant.</B>
+        </P>
+        <P>
+          <B>5. Heron&rsquo;s formula.</B> Find the area of a triangle with sides 13 cm, 14 cm and 15 cm.<br />
+          s = (13 + 14 + 15)/2 = 21. Area = √(21 × 8 × 7 × 6) = √7056 = <B>84 cm²</B>.
+        </P>
+        <P>
+          <B>6. Circles.</B> A chord AB subtends an angle of 110° at the centre O. Find the angle it subtends at a point C on
+          the major arc.<br />
+          The angle at the centre is twice the angle at the circle, so ∠ACB = 110° ÷ 2 = <B>55°</B>.
+        </P>
+        <P>
+          <B>7. Statistics.</B> The mean of five numbers is 18. When one number is removed, the mean of the rest is 16. What
+          number was removed?<br />
+          Total of five = 90, total of four = 64, so the removed number is <B>26</B>.
+        </P>
+        <P>
+          <B>8. Probability.</B> A coin is tossed 200 times and shows heads 112 times. What is the experimental probability
+          of a tail?<br />
+          Tails = 200 &minus; 112 = 88, so the probability is 88/200 = <B>0.44</B>.
+        </P>
+        <Callout>
+          <B>The pattern in these questions:</B> every one has a short route through a theorem or identity. In the
+          Mathematical Reasoning section, students who know the result (remainder theorem, angle at the centre,
+          Heron&rsquo;s formula) answer in under a minute. Students who don&rsquo;t often can&rsquo;t answer at all.
+          Learn every theorem with one example.
+        </Callout>
+
+        <H2 id="everyday">Everyday Mathematics and the reasoning section</H2>
+        <UL>
+          <LI><B>Everyday Mathematics (10 questions)</B> uses word problems on percentages, profit and loss, interest, speed and time, and mensuration, often from the Class 8 syllabus. These are usually the quickest marks in the paper.</LI>
+          <LI><B>Logical Reasoning (15 questions)</B> covers series, analogies, coding-decoding, <A href="/blog/blood-relations-and-direction-sense-questions-for-olympiad">blood relations and direction sense</A>, mirror and water images, and figure puzzles. At Class 9 the questions are longer, so speed matters.</LI>
+        </UL>
+
+        <H2 id="how-to-use">How to get the most from sample papers</H2>
+        <OL>
+          <LIo><B>Sit the first paper untimed.</B> Mark every question you couldn&rsquo;t start. That is your list of chapters to revise, not a score to worry about.</LIo>
+          <LIo><B>Revise by chapter for two to three weeks.</B> Use topic-wise practice, especially for polynomials, coordinate geometry, triangles and circles.</LIo>
+          <LIo><B>Then sit full papers timed.</B> One or two a week, in 60 minutes, in one sitting.</LIo>
+          <LIo><B>Review every paper fully.</B> Sort mistakes by cause. Our <A href="/blog/how-to-analyse-olympiad-mock-test">mock test analysis guide</A> explains how.</LIo>
+          <LIo><B>Practise time splits.</B> A good target is about 12 minutes on reasoning, 23 on Mathematical Reasoning, 10 on Everyday Mathematics and 10 on Achievers, leaving 5 minutes to check.</LIo>
+        </OL>
+
+        <H2 id="level-2">If you reach Level 2</H2>
+        <P>
+          IMO Level 2 for Class 9 has 45 maths questions and 5 Achievers questions (60 marks), with no reasoning
+          section, and tests only the Class 9 syllabus. That includes chapters taught after the Level 1 exam. See our{" "}
+          <A href="/blog/imo-level-2-preparation-guide">IMO Level 2 preparation guide</A>.
+        </P>
+
+        <CTA href="/practice-papers">Practise full Class 9 IMO papers with step-by-step solutions.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "What is the IMO Class 9 exam pattern?",
+        a: "IMO Class 9 has 50 questions and 60 marks in 60 minutes: 15 Logical Reasoning, 20 Mathematical Reasoning and 10 Everyday Mathematics questions (1 mark each), and 5 Achievers questions worth 3 marks each. There is no negative marking.",
+      },
+      {
+        q: "Does IMO Class 9 include Class 8 topics?",
+        a: "Yes. SOF's syllabus page states that about 60% of Level 1 questions come from the current class syllabus and 40% from the previous class, so Class 8 topics also appear. Level 2 uses the Class 9 syllabus only.",
+      },
+      {
+        q: "Which chapters are most important for IMO Class 9?",
+        a: "Polynomials and identities, number systems, coordinate geometry, triangles, quadrilaterals, circles, Heron's formula and surface areas and volumes carry many of the mathematics questions. Statistics and probability give quick marks. Geometry theorems are especially important for the Achievers section.",
+      },
+      {
+        q: "How should I use IMO Class 9 sample papers?",
+        a: "Sit the first one untimed to find weak chapters, revise those chapter by chapter for two to three weeks, then sit one or two full timed papers a week and review every mistake by cause.",
+      },
+    ],
+  },
+
+  /* 106 ─────────────────────────────────────────────────────── */
+  {
+    slug: "nso-sample-papers-class-7",
+    title: "NSO (SOF ISO) Sample Papers for Class 7: New Syllabus, Pattern and Solved Questions",
+    description:
+      "How to use science Olympiad sample papers for Class 7 in 2026–27: NSO is now SOF ISO, the syllabus follows the new NCERT chapters, and 40% of questions come from Class 6. Includes the official pattern, solved questions for each chapter and a practice plan.",
+    date: "2026-11-12",
+    tag: "Science",
+    readingMinutes: 9,
+    keywords: [
+      "NSO sample papers class 7",
+      "NSO class 7 syllabus",
+      "ISO class 7 SOF",
+      "NSO class 7 question paper",
+      "science olympiad class 7",
+      "NSO class 7 solved questions",
+    ],
+    excerpt:
+      "Class 7 science Olympiad papers now follow the new NCERT chapters, and NSO is now called SOF ISO. Here is the official pattern, the chapter list, solved questions and how to use sample papers well.",
+    content: (
+      <>
+        <P>
+          Two things have changed for Class 7 science Olympiad students. From 2026&ndash;27, SOF&rsquo;s National Science
+          Olympiad (NSO) is called the <B>International Science Olympiad (ISO)</B>. And SOF&rsquo;s Class 7 syllabus now
+          follows the chapters of the new NCERT science book, so older sample papers organised by the old chapter names
+          won&rsquo;t match it exactly. This guide covers the current pattern and syllabus, solved questions for each
+          chapter, and how to use sample papers well.
+        </P>
+
+        <H2 id="pattern">Official Class 7 pattern</H2>
+        <UL>
+          <LI><B>Logical Reasoning:</B> 10 questions, 1 mark each</LI>
+          <LI><B>Science:</B> 35 questions, 1 mark each</LI>
+          <LI><B>Achievers Section:</B> 5 questions, 3 marks each</LI>
+        </UL>
+        <P>
+          Total: <B>50 questions, 60 marks, 60 minutes</B>, with no negative marking. SOF&rsquo;s syllabus page states that
+          about 60% of Level 1 questions come from the Class 7 syllabus and 40% from Class 6, so revise Class 6 science
+          too.
+        </P>
+
+        <H2 id="syllabus">The Class 7 chapters (from SOF&rsquo;s syllabus)</H2>
+        <OL>
+          <LIo>The Ever-Evolving World of Science</LIo>
+          <LIo>Life Processes in Plants</LIo>
+          <LIo>Life Processes in Animals</LIo>
+          <LIo>Acidic, Basic and Neutral Substances</LIo>
+          <LIo>The World of Metals and Non-metals</LIo>
+          <LIo>Adolescence: A Stage of Growth and Change</LIo>
+          <LIo>Heat Transfer in Nature</LIo>
+          <LIo>Changes Around Us: Physical and Chemical</LIo>
+          <LIo>Measurement of Time and Motion</LIo>
+          <LIo>Electricity: Circuits and their Components</LIo>
+          <LIo>Light: Shadows and Reflections</LIo>
+          <LIo>Earth, Moon and the Sun</LIo>
+        </OL>
+        <Callout>
+          <B>Using older sample papers?</B> They are still useful, because the science hasn&rsquo;t changed. Before using
+          one, match its questions to the chapter list above and skip anything that isn&rsquo;t in the new book.
+        </Callout>
+
+        <H2 id="examples">Solved questions, chapter by chapter</H2>
+        <P>These are our own practice questions, written at the level of the Class 7 paper.</P>
+        <P>
+          <B>Acidic, basic and neutral substances.</B> A drop of soap solution turns turmeric paper red. What does this
+          show?<br />
+          Turmeric turns red in a basic solution. <B>Answer: soap solution is basic.</B> A follow-up might ask what
+          happens to the red colour if lemon juice (an acid) is added: it turns back to yellow.
+        </P>
+        <P>
+          <B>Metals and non-metals.</B> Which non-metal conducts electricity?<br />
+          <B>Answer: graphite</B> (a form of carbon). Most non-metals are poor conductors, so this exception is a
+          favourite.
+        </P>
+        <P>
+          <B>Heat transfer.</B> On a sunny afternoon at the beach, which way does the breeze blow, and why?<br />
+          Land heats up faster than water, so the air above the land rises and cooler air from the sea moves in.{" "}
+          <B>Answer: from the sea to the land (a sea breeze), by convection.</B> At night it reverses.
+        </P>
+        <P>
+          <B>Physical and chemical changes.</B> Which is a chemical change: melting ice, dissolving sugar, rusting of iron,
+          or tearing paper?<br />
+          <B>Answer: rusting of iron.</B> A new substance (rust) forms, and the change can&rsquo;t be reversed by simple
+          means.
+        </P>
+        <P>
+          <B>Time and motion.</B> A pendulum completes 20 oscillations in 32 seconds. What is its time period?<br />
+          Time period = 32 ÷ 20 = <B>1.6 s</B>.
+        </P>
+        <P>
+          <B>Time and motion.</B> A bus covers 120 km in 2 hours 30 minutes. What is its average speed?<br />
+          120 ÷ 2.5 = <B>48 km/h</B>.
+        </P>
+        <P>
+          <B>Electricity.</B> In the circuit symbol for a cell, which line is the positive terminal?<br />
+          <B>Answer: the longer, thinner line.</B> The shorter, thicker line is the negative terminal.
+        </P>
+        <P>
+          <B>Light.</B> You stand 2 m in front of a plane mirror. How far are you from your image?<br />
+          The image is as far behind the mirror as you are in front: 2 m. So the distance between you and the image is{" "}
+          <B>4 m</B>. This &ldquo;add both distances&rdquo; step is a common trap.
+        </P>
+        <P>
+          <B>Earth, Moon and the Sun.</B> When does a solar eclipse happen?<br />
+          <B>Answer: when the Moon comes between the Sun and the Earth</B>, casting its shadow on part of the Earth. In a
+          lunar eclipse, the Earth comes between the Sun and the Moon.
+        </P>
+        <P>
+          <B>Life processes.</B> Which gas do leaves release during photosynthesis, and through what?<br />
+          <B>Answer: oxygen, through the stomata.</B>
+        </P>
+
+        <H2 id="question-types">The question types to expect</H2>
+        <UL>
+          <LI><B>Direct facts:</B> definitions, examples and properties. Quick marks if the NCERT chapter has been read closely.</LI>
+          <LI><B>Activity-based questions:</B> what you would see in an NCERT activity, such as an indicator changing colour. Doing a few at home helps; see <A href="/blog/science-experiments-at-home-for-nso">science experiments at home</A>.</LI>
+          <LI><B>Short calculations:</B> speed, time period and distances in mirrors.</LI>
+          <LI><B>Diagrams:</B> circuits, the digestive system, a leaf section, eclipse positions.</LI>
+          <LI><B>Assertion and reason, or match-the-columns:</B> these test whether two facts are linked, not just known.</LI>
+        </UL>
+
+        <H2 id="how-to-use">How to use sample papers</H2>
+        <OL>
+          <LIo><B>Finish the NCERT chapters first.</B> Sample papers test understanding of the book, so they work best after a close reading.</LIo>
+          <LIo><B>Sit one paper untimed</B> and list the chapters where you were unsure.</LIo>
+          <LIo><B>Revise those chapters and the Class 6 basics</B>, especially food and nutrition, magnets, measurement and motion, materials, temperature, states of water and methods of separation.</LIo>
+          <LIo><B>Then sit full papers in 60 minutes</B>, one or two a week, with an error log.</LIo>
+          <LIo><B>Practise the 10 reasoning questions separately.</B> They are quick marks with practice. Our <A href="/blog/how-to-improve-logical-reasoning-for-olympiads">logical reasoning guide</A> covers the types.</LIo>
+        </OL>
+        <P>
+          For neighbouring classes, see our <A href="/blog/nso-sample-papers-class-6">Class 6</A> and{" "}
+          <A href="/blog/nso-sample-papers-class-8">Class 8</A> guides. If your child reaches Level 2, read our{" "}
+          <A href="/blog/nso-level-2-preparation-guide">ISO (NSO) Level 2 guide</A>.
+        </P>
+
+        <CTA href="/practice-papers">Practise Class 7 science Olympiad papers with full explanations.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "Is NSO Class 7 now called ISO?",
+        a: "Yes. From 2026–27, SOF's National Science Olympiad (NSO) is called the SOF International Science Olympiad (ISO). The Class 7 pattern is the same: 10 Logical Reasoning, 35 Science and 5 Achievers questions, 60 marks in 60 minutes.",
+      },
+      {
+        q: "What is the NSO (ISO) Class 7 syllabus?",
+        a: "SOF's Class 7 syllabus follows the new NCERT chapters: The Ever-Evolving World of Science; Life Processes in Plants; Life Processes in Animals; Acidic, Basic and Neutral Substances; The World of Metals and Non-metals; Adolescence; Heat Transfer in Nature; Changes Around Us; Measurement of Time and Motion; Electricity; Light: Shadows and Reflections; and Earth, Moon and the Sun.",
+      },
+      {
+        q: "Does the Class 7 science Olympiad include Class 6 topics?",
+        a: "Yes. SOF's syllabus page states that about 60% of Level 1 questions come from the current class syllabus and 40% from the previous class, so Class 6 science should also be revised. Level 2 uses only the Class 7 syllabus.",
+      },
+      {
+        q: "Are old NSO Class 7 sample papers still useful?",
+        a: "Yes, because the science concepts are the same. Match each paper's questions to the new chapter list and skip anything not in the new book.",
+      },
+    ],
+  },
+
+  /* 107 ─────────────────────────────────────────────────────── */
+  {
+    slug: "blood-relations-and-direction-sense-questions-for-olympiad",
+    title: "Blood Relations and Direction Sense Questions for Olympiad: Tricks and Solved Examples",
+    description:
+      "Master two of the most common logical reasoning question types in IMO, ISO (NSO) and other Olympiads. Learn the family-tree method for blood relations and the drawing method for direction sense, with tricks, common traps and solved examples.",
+    date: "2026-11-12",
+    tag: "Tips",
+    readingMinutes: 9,
+    keywords: [
+      "blood relation questions for olympiad",
+      "direction sense questions",
+      "blood relations tricks",
+      "direction sense test reasoning",
+      "logical reasoning for olympiad class 5",
+      "reasoning questions with answers",
+    ],
+    excerpt:
+      "Blood relations and direction sense questions appear in the reasoning section of most Olympiads. Learn the two drawing methods that make them easy, the traps to avoid and work through solved examples.",
+    content: (
+      <>
+        <P>
+          Blood relations and direction sense are two of the most common question types in the logical reasoning
+          section of SOF Olympiads. From Class 5, IMO has 15 reasoning questions and ISO (formerly NSO) has 10, and both
+          types appear regularly. Children often find them confusing at first because they try to work them out in their
+          heads. Both become easy with one habit: <B>draw it</B>. This guide shows how, with solved examples.
+        </P>
+
+        <H2 id="blood-relations">Part 1: Blood relations</H2>
+        <H3>The family-tree method</H3>
+        <P>Draw every relation as a small family tree using these symbols:</P>
+        <UL>
+          <LI><B>+</B> for a male and <B>&minus;</B> for a female, written next to the name (A+ is male, B&minus; is female).</LI>
+          <LI>A <B>horizontal double line (=)</B> between a married couple.</LI>
+          <LI>A <B>horizontal single line</B> between brothers and sisters.</LI>
+          <LI>A <B>vertical line</B> from parents down to children. Each row is one generation.</LI>
+        </UL>
+        <P>
+          Keeping each generation on its own row makes grandparents, uncles and cousins easy to see.
+        </P>
+
+        <H3>Words to know</H3>
+        <UL>
+          <LI><B>Grandfather&rsquo;s or grandmother&rsquo;s only son</B> = father (on that side of the family).</LI>
+          <LI><B>Mother&rsquo;s or father&rsquo;s only daughter</B> (said by a girl) = herself.</LI>
+          <LI><B>Father&rsquo;s brother</B> = uncle; <B>mother&rsquo;s brother</B> = maternal uncle (mama).</LI>
+          <LI><B>Brother&rsquo;s or sister&rsquo;s son</B> = nephew; their daughter = niece.</LI>
+          <LI><B>Wife&rsquo;s or husband&rsquo;s brother</B> = brother-in-law; <B>sister&rsquo;s husband</B> = brother-in-law.</LI>
+        </UL>
+
+        <H3>Solved examples</H3>
+        <P>
+          <B>Example 1.</B> Pointing to a man, Riya says, &ldquo;He is the son of my grandfather&rsquo;s only son.&rdquo;
+          How is the man related to Riya?<br />
+          Riya&rsquo;s grandfather&rsquo;s only son is Riya&rsquo;s father. The son of Riya&rsquo;s father is her
+          brother. <B>Answer: brother.</B>
+        </P>
+        <P>
+          <B>Example 2.</B> A is B&rsquo;s sister. C is B&rsquo;s mother. D is C&rsquo;s father. How is A related to D?<br />
+          C is the mother of both A and B. D is C&rsquo;s father, so D is A&rsquo;s grandfather. A is female (a sister).{" "}
+          <B>Answer: A is D&rsquo;s granddaughter.</B>
+        </P>
+        <P>
+          <B>Example 3.</B> M is N&rsquo;s brother. N is O&rsquo;s daughter. O is P&rsquo;s wife. How is M related to P?<br />
+          N is O&rsquo;s daughter and M is N&rsquo;s brother, so M is O&rsquo;s son. O is P&rsquo;s wife, so P is M&rsquo;s
+          father. <B>Answer: M is P&rsquo;s son.</B>
+        </P>
+        <P>
+          <B>Example 4 (coded relations).</B> P + Q means P is the father of Q. P &minus; Q means P is the sister of Q.
+          What does A + B &minus; C mean?<br />
+          A is B&rsquo;s father, and B is C&rsquo;s sister. So A is the father of both. <B>Answer: A is C&rsquo;s
+          father.</B>
+        </P>
+        <Callout>
+          <B>The most common trap: unknown gender.</B> &ldquo;X is the sibling of Y, and Y is Z&rsquo;s son. How is X
+          related to Z?&rdquo; X is Z&rsquo;s child, but we don&rsquo;t know whether X is a son or a daughter. If the
+          options say &ldquo;son&rdquo;, &ldquo;daughter&rdquo; and &ldquo;cannot be determined&rdquo;, the answer is{" "}
+          <B>cannot be determined</B>. Never assume gender from a name or from a word like &ldquo;sibling&rdquo;,
+          &ldquo;child&rdquo; or &ldquo;cousin&rdquo;.
+        </Callout>
+
+        <H2 id="direction-sense">Part 2: Direction sense</H2>
+        <H3>The drawing method</H3>
+        <OL>
+          <LIo>Draw a small compass in the corner: N at the top, S at the bottom, E on the right, W on the left.</LIo>
+          <LIo>Mark the starting point with a dot.</LIo>
+          <LIo>Draw each movement as a line in the right direction, writing the distance beside it.</LIo>
+          <LIo>For turns, work out the new direction from the way the person is <em>facing</em>, not from the page.</LIo>
+        </OL>
+
+        <H3>Left and right turns</H3>
+        <UL>
+          <LI>Facing <B>north</B>: right is east, left is west.</LI>
+          <LI>Facing <B>east</B>: right is south, left is north.</LI>
+          <LI>Facing <B>south</B>: right is west, left is east.</LI>
+          <LI>Facing <B>west</B>: right is north, left is south.</LI>
+        </UL>
+        <P>
+          A <B>right turn is 90° clockwise</B>, and a left turn is 90° anticlockwise. If you&rsquo;re unsure, turn the
+          page so that you&rsquo;re &ldquo;facing&rdquo; the same way as the person.
+        </P>
+
+        <H3>Solved examples</H3>
+        <P>
+          <B>Example 1.</B> Ravi walks 5 km north, turns right and walks 3 km, then turns right again and walks 5 km. Where
+          is he now from his starting point?<br />
+          North 5 km. Facing north, right is east: 3 km east. Facing east, right is south: 5 km south, which brings him
+          back level with the start. <B>Answer: 3 km east of the starting point.</B>
+        </P>
+        <P>
+          <B>Example 2.</B> Meena walks 6 m east and then 8 m north. How far is she from her starting point?<br />
+          The two paths make a right angle, so use Pythagoras: √(6² + 8²) = √100 = <B>10 m</B>, towards the north-east.
+        </P>
+        <P>
+          <B>Example 3.</B> Starting from home, Sana walks 10 m south, turns left and walks 15 m, turns left again and walks
+          10 m, then turns right and walks 5 m. How far is she from home, and in which direction?<br />
+          South 10 m. Facing south, left is east: 15 m east. Facing east, left is north: 10 m north, which brings her back
+          level with home, 15 m east of it. Facing north, right is east: 5 m more. <B>Answer: 20 m east of home.</B>
+        </P>
+        <P>
+          <B>Example 4 (turning by degrees).</B> A man faces north. He turns 90° clockwise, then 180° anticlockwise, then
+          45° clockwise. Which way is he facing?<br />
+          North → 90° clockwise → east. East → 180° anticlockwise → west. West → 45° clockwise → <B>north-west</B>.
+        </P>
+        <P>
+          <B>Example 5 (shadows).</B> One morning after sunrise, Arjun stands facing a pole, and the pole&rsquo;s shadow
+          falls exactly to his right. Which direction is he facing?<br />
+          In the morning the Sun is in the east, so shadows fall towards the west. The shadow is on his right, so his
+          right is west. A person whose right hand points west is facing <B>south</B>.
+        </P>
+        <Callout>
+          <B>Shadow rule:</B> shadows point away from the Sun. In the morning (Sun in the east), shadows fall to the
+          west. In the evening (Sun in the west), they fall to the east.
+        </Callout>
+
+        <H2 id="practice">How to practise</H2>
+        <UL>
+          <LI><B>One type at a time.</B> Do ten blood relations questions in a session, then ten direction questions in the next. Mixing types too early slows learning.</LI>
+          <LI><B>Always draw, even for easy questions.</B> The habit is what saves you on hard ones.</LI>
+          <LI><B>Time yourself after a week.</B> Aim for under a minute on simple questions and two minutes on long ones.</LI>
+          <LI><B>Check the last step.</B> Many wrong answers come from getting the position right and then misreading what the question asked, such as the distance from the end point instead of from the start.</LI>
+        </UL>
+        <P>
+          For other reasoning types, read our guides to <A href="/blog/coding-decoding-questions-for-olympiad">coding-decoding</A>{" "}
+          and <A href="/blog/how-to-improve-logical-reasoning-for-olympiads">improving logical reasoning</A>. Remember that
+          SOF Level 2 papers have no reasoning section, so this is a Level 1 skill.
+        </P>
+
+        <CTA href="/topics">Practise logical reasoning questions by type, with step-by-step answers.</CTA>
+      </>
+    ),
+    faqs: [
+      {
+        q: "How do you solve blood relation questions quickly?",
+        a: "Draw a family tree: use + for male and − for female, a double line for a married couple, and vertical lines from parents to children, with each generation on its own row. Then read the answer off the tree. Never assume someone's gender unless the question states it.",
+      },
+      {
+        q: "What is the trick for direction sense questions?",
+        a: "Draw a compass with north at the top, mark the starting point, and draw each movement with its distance. Work out every left or right turn from the direction the person is facing. Use Pythagoras when two movements form a right angle.",
+      },
+      {
+        q: "Which Olympiads have blood relation and direction sense questions?",
+        a: "They appear in the logical reasoning sections of SOF Level 1 papers such as IMO (15 reasoning questions from Class 5) and ISO, formerly NSO (10 reasoning questions from Class 5), and in other Olympiads with a reasoning section. SOF Level 2 papers have no reasoning section.",
+      },
+      {
+        q: "In which direction does a shadow fall in the morning?",
+        a: "Shadows point away from the Sun. In the morning the Sun is in the east, so shadows fall towards the west. In the evening they fall towards the east.",
+      },
+    ],
+  },
+
   /* 92 ──────────────────────────────────────────────────────── */
   {
     slug: "sof-olympiad-answer-key-how-to-check-and-calculate-score",
