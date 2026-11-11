@@ -5,7 +5,7 @@ export const LANDING_FAQS = [
   },
   {
     q: "Which Olympiads does OlympiadReady cover?",
-    a: "OlympiadReady covers all major school Olympiads — IMO (Maths), NSO (Science), IEO (English), IGKO (GK), ICSO (Computer Science), Spell Bee, Hindi Olympiad, Social Studies, and AI Olympiad, for Classes 1–12."
+    a: "OlympiadReady covers all major school Olympiads — IMO (Maths), ISO, formerly NSO (Science), IEO (English), IGKO (GK), ICSO, formerly NCO (Computer Science), Spell Bee, Hindi Olympiad, Social Studies, and AI Olympiad, for Classes 1–12."
   },
   {
     q: "How are the questions generated?",

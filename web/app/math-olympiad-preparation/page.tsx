@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is the IMO exam pattern?",
-    a: "The SOF IMO has three sections: Mathematical Reasoning (10–15 questions), Everyday Mathematics (10–15 questions), and Achievers Section (5 questions worth 3–4 marks each). Total: 35–40 questions in 60 minutes. There is no negative marking.",
+    a: "For Classes 5–12, the SOF IMO has 50 questions (60 marks) in 60 minutes: Logical Reasoning (15), Mathematical Reasoning (20), Everyday Mathematics (10) and the Achievers Section (5 questions, 3 marks each). Classes 1–4 have 35 questions (40 marks): 10 each of Logical Reasoning, Mathematical Reasoning and Everyday Mathematics, plus 5 Achievers questions worth 2 marks each. There is no negative marking.",
   },
   {
     q: "Is the IMO syllabus the same as the school syllabus?",
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "How do I qualify for IMO Level 2?",
-    a: "Roughly the top 5% of students per class per zone qualify for Level 2 (national round). To qualify, aim for near-perfect accuracy on Sections 1 and 2, and attempt at least 3 out of 5 Achievers questions correctly.",
+    a: "Level 2 is held for Classes 3–12. Under SOF's rules, a student qualifies by meeting any one of three criteria: being in the top 5% of their class among all Level 1 candidates, being among the top 25 of their class in their zone, or being their school's class topper (where at least 10 students from the class appeared) with at least 50% marks.",
   },
   {
     q: "What topics should I focus on most for the IMO?",
@@ -116,8 +116,8 @@ export default function MathOlympiadPreparationPage() {
         </h1>
 
         <p className="mt-5 text-lg leading-8 text-slate-600">
-          The International Mathematics Olympiad (IMO) run by the Science Olympiad Foundation is the most popular
-          school olympiad in India, with over 5 million participants annually. This guide covers everything you need
+          The International Mathematics Olympiad (IMO) run by the Science Olympiad Foundation is one of the most
+          widely taken school olympiads in India. This guide covers everything you need
           for effective math olympiad preparation — the exam pattern, class-wise syllabus priorities, study strategy,
           and how to tackle the high-value Achievers section.
         </p>
@@ -128,7 +128,7 @@ export default function MathOlympiadPreparationPage() {
         </h2>
         <p className="mt-4 text-[17px] leading-8 text-slate-700">
           The SOF IMO is a 60-minute multiple-choice paper taken inside school. There is no negative marking, so
-          students should attempt every question. The paper has three sections:
+          students should attempt every question. For Classes 5–12, the paper has 50 questions (60 marks) in four sections:
         </p>
 
         <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
@@ -143,14 +143,20 @@ export default function MathOlympiadPreparationPage() {
             </thead>
             <tbody className="divide-y divide-slate-100 text-slate-700">
               <tr>
-                <td className="px-4 py-2.5 font-medium">Mathematical Reasoning</td>
+                <td className="px-4 py-2.5 font-medium">Logical Reasoning</td>
                 <td className="px-4 py-2.5">15</td>
+                <td className="px-4 py-2.5">1</td>
+                <td className="px-4 py-2.5">Series, coding, analogies, figures</td>
+              </tr>
+              <tr className="bg-slate-50/50">
+                <td className="px-4 py-2.5 font-medium">Mathematical Reasoning</td>
+                <td className="px-4 py-2.5">20</td>
                 <td className="px-4 py-2.5">1</td>
                 <td className="px-4 py-2.5">Concepts, calculation</td>
               </tr>
-              <tr className="bg-slate-50/50">
+              <tr>
                 <td className="px-4 py-2.5 font-medium">Everyday Mathematics</td>
-                <td className="px-4 py-2.5">15</td>
+                <td className="px-4 py-2.5">10</td>
                 <td className="px-4 py-2.5">1</td>
                 <td className="px-4 py-2.5">Word problems, application</td>
               </tr>
@@ -166,7 +172,8 @@ export default function MathOlympiadPreparationPage() {
 
         <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
           <span className="font-semibold">Note on the Achievers section:</span> Those 5 questions are worth 15 marks
-          out of a typical 45-mark paper. Students who score full marks on Achievers separate themselves from students
+          out of 60. (Classes 1–4 have 35 questions and 40 marks: 10 each of Logical Reasoning, Mathematical
+          Reasoning and Everyday Mathematics, plus 5 Achievers questions worth 2 marks each.) Students who score full marks on Achievers separate themselves from students
           who only focus on the first two sections. Dedicating 30% of your practice time to higher-order questions
           pays off disproportionately.
         </div>
@@ -257,10 +264,11 @@ export default function MathOlympiadPreparationPage() {
           Level 1 vs Level 2: different preparation
         </h2>
         <p className="mt-4 text-[17px] leading-8 text-slate-700">
-          Level 1 rewards speed and accuracy across the full syllabus. Level 2 (national round) rewards deep
-          problem-solving — questions are fewer, longer, and require multi-step reasoning. Students who qualify
-          for Level 2 should shift from broad coverage to intense practice on the top 5–6 topic areas, focusing
-          specifically on Achievers-style problems and non-routine application questions.
+          Level 1 rewards speed and accuracy across the full syllabus. Level 2 rewards deep
+          problem-solving. For Classes 5–10 it has 45 mathematics questions and 5 Achievers questions (60 marks), with
+          no reasoning section, and SOF says it tests the current class syllabus only. Students who qualify should
+          finish every chapter of their class syllabus, then focus on Achievers-style problems and non-routine
+          application questions.
         </p>
         <p className="mt-4 text-[17px] leading-8 text-slate-700">
           For Level 2 preparation, working through SOF Level 2 past papers is non-negotiable. The difficulty
@@ -323,7 +331,7 @@ export default function MathOlympiadPreparationPage() {
             </Link>
             <Link href="/science-olympiad-preparation" className="group rounded-2xl border border-slate-200 p-5 transition hover:border-brand-200 hover:shadow-md">
               <span className="text-xs font-semibold text-slate-500">Science</span>
-              <h3 className="mt-1 font-bold text-slate-900 group-hover:text-brand-700">Science Olympiad Preparation — NSO Guide →</h3>
+              <h3 className="mt-1 font-bold text-slate-900 group-hover:text-brand-700">Science Olympiad Preparation — ISO (NSO) Guide →</h3>
             </Link>
           </div>
         </div>

@@ -1372,6 +1372,7 @@ export const posts: BlogPost[] = [
     description:
       "How to find the official SOF answer key for IMO, NSO, IEO and IGKO, match it to your exam set, calculate your score with the correct marking scheme, and estimate your chances of qualifying for Level 2.",
     date: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -1392,6 +1393,12 @@ export const posts: BlogPost[] = [
           you whether Level 2 is a realistic hope and what to work on next year. This guide covers SOF Olympiads
           such as IMO, NSO, IEO and IGKO.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="where">Where to find the official answer key</H2>
         <UL>
@@ -1515,6 +1522,7 @@ export const posts: BlogPost[] = [
     description:
       "Qualified (or likely to qualify) for IMO, NSO or IEO Level 2? Here is how the Level 2 paper differs from Level 1 — including why there is no reasoning section — and a week-by-week plan from December to the February exam.",
     date: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 10,
     keywords: [
@@ -1529,7 +1537,7 @@ export const posts: BlogPost[] = [
     content: (
       <>
         <P>
-          Qualifying for Level 2 of IMO, NSO or IEO puts your child among the strongest students in their class.
+          Qualifying for Level 2 of IMO, ISO (formerly NSO) or IEO puts your child among the strongest students in their class.
           In recent years SOF has held Level 2 in February, which leaves about ten weeks from the Level 1 results
           season. Many qualifiers prepare for Level 2 the same way they prepared for Level 1. That is a mistake,
           because the Level 2 paper is built differently. This guide explains the difference and gives a practical
@@ -1644,6 +1652,7 @@ export const posts: BlogPost[] = [
     description:
       "Everything about NSEJS (National Standard Examination in Junior Science), the first step towards IJSO: eligibility, the 2026 exam date, paper pattern and negative marking, syllabus, best books, and a final-month preparation plan.",
     date: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 10,
     keywords: [
@@ -1662,7 +1671,7 @@ export const posts: BlogPost[] = [
           NSEJS (National Standard Examination in Junior Science) is the first stage of India&rsquo;s selection
           process for the International Junior Science Olympiad (IJSO). It is organised by the Indian Association of
           Physics Teachers (IAPT), and the later stages are run by HBCSE. It is very different from school-level
-          Olympiads like the NSO: harder, with negative marking, and covering physics, chemistry, biology and
+          Olympiads like the ISO (formerly NSO): harder, with negative marking, and covering physics, chemistry, biology and
           mathematics together.
         </P>
         <Callout>
@@ -2345,6 +2354,7 @@ export const posts: BlogPost[] = [
     description:
       "A week-by-week revision plan for the final 30 days before IMO, NSO, IEO and other Olympiads. Covers what to revise, how many mock tests to take, how to fix weak topics fast, and what to avoid in the final week.",
     date: "2026-09-23",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 10,
     keywords: [
@@ -2443,7 +2453,7 @@ export const posts: BlogPost[] = [
           <LI>Keep a one-page formula sheet (areas, perimeters, percentage, ratio, algebraic identities for your class) and read it once a day.</LI>
           <LI>Do 3&ndash;5 word problems every day. The Everyday Mathematics section is all word problems, and reading carefully is half the work.</LI>
         </UL>
-        <H3>Science (NSO)</H3>
+        <H3>Science (ISO, formerly NSO)</H3>
         <UL>
           <LI>Revise diagrams (plant and animal cells, human organ systems, circuits, ray diagrams) by redrawing them from memory, not by looking at them.</LI>
           <LI>Science questions often describe a situation and ask what happens next. Practise explaining <em>why</em>, not just recalling facts.</LI>
@@ -3106,7 +3116,7 @@ export const posts: BlogPost[] = [
     description:
       "A parent's guide to SOF Olympiad results for IMO, NSO, IEO and IGKO: what the different ranks mean, how to read the performance report, how awards and Level 2 qualification generally work, and what to do next.",
     date: "2026-09-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -3126,6 +3136,13 @@ export const posts: BlogPost[] = [
           qualify for Level 2? This guide explains how SOF Olympiad results for IMO, NSO, IEO, IGKO and the other
           SOF exams are generally structured, and how to turn the report into a useful plan.
         </P>
+
+        <Callout>
+          <B>New names for two SOF Olympiads.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad
+          (NSO) is called the International Science Olympiad (ISO), and the National Cyber Olympiad (NCO) is called the
+          International Computer Science Olympiad (ICSO). The exam patterns are the same, so everything here about NSO and
+          NCO applies to ISO and ICSO.
+        </Callout>
         <Callout>
           <B>Always check the official source.</B> SOF publishes results, qualification criteria and award details
           on its official website, and the details can change from year to year. Use this guide to understand
@@ -3243,6 +3260,7 @@ export const posts: BlogPost[] = [
     description:
       "What Olympiad certificates and medals are really worth for school admissions, scholarships, IIT and college admissions, and study abroad, and the key difference between SOF Olympiads and the HBCSE Olympiad programme.",
     date: "2026-09-23",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 10,
     keywords: [
@@ -3267,7 +3285,7 @@ export const posts: BlogPost[] = [
         <H2 id="two-kinds">First: there are two very different kinds of &ldquo;Olympiad&rdquo;</H2>
         <H3>1. School-level Olympiads (SOF, Silverzone, and others)</H3>
         <P>
-          These include IMO, NSO, IEO and IGKO from SOF, and similar exams from other organisers. They are held in
+          These include IMO, ISO (formerly NSO), IEO and IGKO from SOF, and similar exams from other organisers. They are held in
           schools, cover Classes 1&ndash;12, follow the school syllabus with harder application questions, and
           attract very large numbers of students. They are excellent for building skills and confidence, and top
           ranks are a genuine achievement.
@@ -3795,6 +3813,7 @@ export const posts: BlogPost[] = [
     description:
       "Master coding-decoding in the logical reasoning section of IMO, NSO, IEO and other Olympiads. Covers letter shifting, reverse alphabet, number coding, sentence coding and substitution, with solved examples and memory tricks.",
     date: "2026-09-23",
+    updated: "2026-11-12",
     tag: "Tips",
     readingMinutes: 9,
     keywords: [
@@ -3810,7 +3829,7 @@ export const posts: BlogPost[] = [
       <>
         <P>
           Coding-decoding questions show up in the logical reasoning section of almost every Olympiad, from
-          Class 2 IMO papers to Class 10 NSO. They can look confusing at first, but they follow a small number of
+          Class 2 IMO papers to Class 10 ISO (formerly NSO). They can look confusing at first, but they follow a small number of
           patterns. Once you can spot the pattern type, most of them take under a minute. This guide covers the
           five main types, the memory tricks that make them fast, and solved examples of each.
         </P>
@@ -3946,6 +3965,7 @@ export const posts: BlogPost[] = [
     description:
       "Simple, safe science experiments parents and children can do at home with household items, each linked to topics tested in NSO and other science Olympiads, with what to observe and the Olympiad-style question each one answers.",
     date: "2026-09-23",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 10,
     keywords: [
@@ -3966,6 +3986,12 @@ export const posts: BlogPost[] = [
           links to a topic that regularly appears in science Olympiads. They also make good family weekend
           activities in the weeks before the exam.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
         <Callout>
           <B>Safety first:</B> an adult should supervise every experiment, and do anything that involves heat,
           cutting or boiling. Use only the materials listed. Never mix other household chemicals, never use mains
@@ -4103,6 +4129,7 @@ export const posts: BlogPost[] = [
     description:
       "Practical guidance on daily Olympiad study time for every class from 1 to 12, including how to split sessions, how to manage multiple Olympiads, how to balance with school work, and signs your child is doing too much or too little.",
     date: "2026-09-23",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -4118,7 +4145,7 @@ export const posts: BlogPost[] = [
       <>
         <P>
           &ldquo;How many hours should my child study for the Olympiad?&rdquo; is one of the first questions
-          parents ask, and the answer is usually less than they expect. For school-level Olympiads like IMO, NSO
+          parents ask, and the answer is usually less than they expect. For school-level Olympiads like IMO, ISO (formerly NSO)
           and IEO, short and consistent daily practice beats long weekend sessions at almost every age. What
           happens in the session matters far more than how long it lasts. This guide gives practical ranges for
           each class and explains how to use the time well.
@@ -4799,7 +4826,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 3 is an ideal first Olympiad for young science learners. This guide covers what the paper tests, how the questions are worded, the most common topic areas in sample papers, and a simple 4-week preparation plan.",
     date: "2026-08-17",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 6,
     keywords: [
@@ -4820,6 +4847,12 @@ export const posts: BlogPost[] = [
           paper format is structured to reward curiosity and observation as much as textbook knowledge.
           Sample papers are the best way to understand what this looks like in practice.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="paper-structure">Class 3 NSO paper structure</H2>
         <UL>
@@ -4911,7 +4944,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 5 is the first year of the full 50-question NSO paper. This guide covers the official pattern, the topics that matter most in sample papers, how Achievers questions are structured, and the best preparation approach.",
     date: "2026-08-17",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -4933,6 +4966,12 @@ export const posts: BlogPost[] = [
           how much new content needs to be covered. Sample papers calibrate expectations and reveal which
           topics need the most preparation.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="paper-structure">Class 5 NSO paper structure</H2>
         <UL>
@@ -5017,7 +5056,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 10 covers the widest science syllabus of any NSO paper — chemical reactions, life processes, electricity, light, and the human reproductive system in 50 questions. This guide breaks down the topic distribution and how to prepare.",
     date: "2026-08-17",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 9,
     keywords: [
@@ -5039,6 +5078,12 @@ export const posts: BlogPost[] = [
           use IMO-style preparation to reinforce both. The difference is depth: NSO Achievers questions
           require application and reasoning, not board-exam-style derivation.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="paper-structure">Class 10 NSO paper structure</H2>
         <UL>
@@ -5250,6 +5295,7 @@ export const posts: BlogPost[] = [
     description:
       "Class 9 IMO introduces coordinate geometry, polynomials, Euclid's geometry, and statistics. This guide covers the full preparation framework — which topics matter most, how to approach the Achievers section, and an 8-week study plan.",
     date: "2026-08-17",
+    updated: "2026-11-12",
     tag: "Maths",
     readingMinutes: 8,
     keywords: [
@@ -5315,7 +5361,7 @@ export const posts: BlogPost[] = [
 
         <H2 id="euclids-geometry">Euclid&apos;s geometry at Olympiad level</H2>
         <P>
-          Euclid&rsquo;s geometry is often skipped in school preparation but appears in the Class 9 NSO and IMO
+          Euclid&rsquo;s geometry is often skipped in school preparation but appears in the Class 9 ISO (formerly NSO) and IMO
           Achievers sections. The Olympiad questions test logical deduction:
         </P>
         <UL>
@@ -5370,7 +5416,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 8 is one of the broadest science Olympiad papers at the middle school level. This guide covers how to prepare across all 18 chapters, which topics carry the most marks, and a structured 8-week plan to maximise your score.",
     date: "2026-08-17",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -5392,6 +5438,12 @@ export const posts: BlogPost[] = [
           light, sound, force, and more, all in the same paper. Systematic preparation is essential. This
           guide gives you a priority framework and a concrete study plan.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="syllabus">Class 8 NSO full syllabus</H2>
         <UL>
@@ -5492,7 +5544,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 9 introduces motion, gravitation, work and energy, atoms and molecules, and cells and tissues. This guide covers what each chapter looks like at Olympiad depth, the topic priority order, and an 8-week preparation plan.",
     date: "2026-08-17",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -5515,6 +5567,12 @@ export const posts: BlogPost[] = [
           systematically &mdash; topic by topic, priority first &mdash; consistently outperform those who
           try to read everything without a framework.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="syllabus">Class 9 NSO syllabus</H2>
         <UL>
@@ -6255,7 +6313,7 @@ export const posts: BlogPost[] = [
     description:
       "Most Olympiad underperformance comes from a small set of avoidable preparation mistakes. This guide identifies the 10 most common ones — from reading without practising to ignoring the reasoning section — and gives a concrete fix for each.",
     date: "2026-08-17",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -6345,7 +6403,7 @@ export const posts: BlogPost[] = [
         <P>
           <B>The mistake:</B> Students focus exclusively on the mathematical content and barely practise
           the logical reasoning section. In the IMO from Class 5 onwards, reasoning is 15 of 50 questions &mdash;
-          30% of the paper (in the NSO it is 10 of 50). Neglecting it guarantees low total scores even with
+          30% of the paper (in ISO, formerly NSO, it is 10 of 50). Neglecting it guarantees low total scores even with
           perfect maths.
         </P>
         <P>
@@ -6432,7 +6490,7 @@ export const posts: BlogPost[] = [
     description:
       "With dozens of Olympiads available, how do you choose the right ones? This guide helps parents match the right exam to their child's strengths, class, available time, and long-term goals.",
     date: "2026-07-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -6453,6 +6511,13 @@ export const posts: BlogPost[] = [
           clear decision framework based on four factors: your child&rsquo;s strengths, their class, the time
           available for preparation, and what you want to get out of the experience.
         </P>
+
+        <Callout>
+          <B>New names for two SOF Olympiads.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad
+          (NSO) is called the International Science Olympiad (ISO), and the National Cyber Olympiad (NCO) is called the
+          International Computer Science Olympiad (ICSO). The exam patterns are the same, so everything here about NSO and
+          NCO applies to ISO and ICSO.
+        </Callout>
 
         <H2 id="factor-1-subject-strength">Factor 1: Your child&rsquo;s subject strengths</H2>
         <P>
@@ -6579,6 +6644,7 @@ export const posts: BlogPost[] = [
     description:
       "Should you invest in Olympiad preparation or traditional tuition classes? This honest comparison covers what each approach delivers, where they overlap, and how to decide what is right for your child's stage and goals.",
     date: "2026-07-23",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -6652,7 +6718,7 @@ export const posts: BlogPost[] = [
         <Callout>
           <B>The overlap is larger than most parents realise.</B> For Classes 4&ndash;9, quality Olympiad
           preparation covers the school syllabus in full and goes beyond it. A student who prepares well for
-          IMO or NSO will typically outperform peers in school maths and science tests as a direct result
+          IMO or ISO (formerly NSO) will typically outperform peers in school maths and science tests as a direct result
           &mdash; even without separate tuition for those subjects. The skill-transfer runs in both directions.
         </Callout>
 
@@ -6958,7 +7024,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to NSO preparation for Class 5 — the full science syllabus, which topics appear most in the paper, how the Achievers section works, and a practical study plan.",
     date: "2026-07-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -6978,6 +7044,12 @@ export const posts: BlogPost[] = [
           application, not just recall. This guide covers the full syllabus, the most commonly tested topics,
           and a practical preparation plan.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="exam-format">Exam format</H2>
         <P>
@@ -7080,7 +7152,7 @@ export const posts: BlogPost[] = [
     description:
       "Class 6 is the first year of middle-school science in the NSO — food, materials, changes around us, and living organisms all enter with new depth. This complete guide covers the full syllabus and preparation strategy.",
     date: "2026-07-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -7100,6 +7172,12 @@ export const posts: BlogPost[] = [
           genuine understanding rather than memorisation. Students who found Class 5 manageable will feel the step
           up &mdash; but with the right preparation plan it is very achievable.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="exam-format">Exam format at Class 6</H2>
         <P>
@@ -7511,7 +7589,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO sample papers for Class 6 are your best preparation tool for the first middle-school science Olympiad paper. This guide covers the topic distribution, the hardest question types, and how to use papers for maximum score improvement.",
     date: "2026-07-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -7531,6 +7609,12 @@ export const posts: BlogPost[] = [
           substances, electric circuits, and reversible vs. irreversible changes. Sample papers are the most
           effective tool for understanding what this paper actually looks like and where preparation time should go.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="paper-structure">Class 6 NSO paper structure</H2>
         <UL>
@@ -7618,7 +7702,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO Class 8 is one of the most syllabus-dense Olympiad papers at the middle school level. This guide breaks down the topic distribution, hardest question types, and the strategic approach to using sample papers for maximum preparation efficiency.",
     date: "2026-07-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 8,
     keywords: [
@@ -7638,6 +7722,12 @@ export const posts: BlogPost[] = [
           in the same 60-minute paper. Students who only read chapters and do not practise in question format
           consistently underperform relative to their actual knowledge. Sample papers fix that gap.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="paper-structure">Class 8 NSO paper structure</H2>
         <UL>
@@ -8076,7 +8166,7 @@ export const posts: BlogPost[] = [
     description:
       "Silverzone Olympiads are among India's most widely taken school competitions. This guide covers the main Silverzone exams — iOM, iOS, iOEL, iSSO, SKGKO, iiO — how the papers are structured, how they differ from SOF, and how to prepare.",
     date: "2026-07-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -8134,7 +8224,7 @@ export const posts: BlogPost[] = [
         <UL>
           <LI>Study each chapter for understanding, then practise application questions: &ldquo;what happens if&rdquo; and &ldquo;why&rdquo; questions.</LI>
           <LI>Diagrams (plant and animal cells, organ systems, circuits, ray diagrams) are frequent question sources. Redraw them from memory.</LI>
-          <LI>Most NSO preparation transfers directly. Students taking both should prepare once and practise both formats.</LI>
+          <LI>Most ISO (formerly NSO) preparation transfers directly. Students taking both should prepare once and practise both formats.</LI>
         </UL>
 
         <H2 id="isso-preparation">iSSO (social studies) preparation</H2>
@@ -8477,6 +8567,7 @@ export const posts: BlogPost[] = [
     description:
       "Worried that Olympiad preparation will harm board exam performance? This guide explains how the two overlap, how to plan your time across both, and why students who do both consistently outperform those who don't.",
     date: "2026-07-09",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 10,
     keywords: [
@@ -8496,6 +8587,12 @@ export const posts: BlogPost[] = [
           concern is genuine: time is finite, boards matter enormously, and the last thing any student needs is an
           extra burden. This guide gives you an honest, practical answer.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="the-overlap">The overlap is larger than most people think</H2>
         <P>
@@ -8617,6 +8714,7 @@ export const posts: BlogPost[] = [
     description:
       "Olympiad participation in Classes 8–10 builds the exact thinking skills JEE and NEET demand. This guide explains the syllabus overlaps, the problem-solving mindset connection, and how to use Olympiads strategically as a JEE/NEET foundation.",
     date: "2026-07-09",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -8636,6 +8734,12 @@ export const posts: BlogPost[] = [
           about content knowledge. It is about how students think when they see a problem they have never seen
           before. This guide explains the connection in detail.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="mindset-difference">The mindset difference Olympiads build</H2>
         <P>
@@ -8746,6 +8850,7 @@ export const posts: BlogPost[] = [
     description:
       "Qualified for Olympiad Level 2? This complete guide covers how Level 2 differs from Level 1, the exact preparation strategy, topic priorities, time management, and what a strong Level 2 result means for your child.",
     date: "2026-07-09",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -8826,7 +8931,7 @@ export const posts: BlogPost[] = [
           </LIo>
         </OL>
 
-        <H2 id="topic-priorities">Topic priorities for IMO and NSO Level 2</H2>
+        <H2 id="topic-priorities">Topic priorities for IMO and ISO (NSO) Level 2</H2>
         <H3>IMO Level 2</H3>
         <UL>
           <LI>Number theory and properties &mdash; prime factorisation, divisibility, LCM/HCF in complex contexts</LI>
@@ -8892,6 +8997,7 @@ export const posts: BlogPost[] = [
     description:
       "Should a Class 1 child appear for Olympiads? This honest guide covers the real benefits, the risks of starting too early, what the research says about early competition, and how to make the right decision for your child.",
     date: "2026-07-09",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -8914,7 +9020,7 @@ export const posts: BlogPost[] = [
 
         <H2 id="what-actually-happens">What actually happens in a Class 1 Olympiad</H2>
         <P>
-          The International Mathematics Olympiad (IMO) and the National Science Olympiad (NSO) at Class 1 level are
+          The International Mathematics Olympiad (IMO) and the International Science Olympiad (ISO, formerly the National Science Olympiad or NSO) at Class 1 level are
           35-question multiple-choice papers completed in school, during a regular school period, in a familiar
           environment. There is no travel to an exam centre, no unfamiliar room, no supervision by strangers.
           For Class 1 there is no Level 2 national round &mdash; every student gets a school rank, a national rank,
@@ -9026,7 +9132,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete preparation guide for the International General Knowledge Olympiad (IGKO) — what the exam tests, the full syllabus across classes, how to build GK systematically, and a practical study plan.",
     date: "2026-07-09",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -9047,6 +9153,12 @@ export const posts: BlogPost[] = [
           awareness of the world, current affairs and life skills. This guide covers everything you need to
           know to prepare effectively.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="what-is-igko">What is IGKO and who conducts it?</H2>
         <P>
@@ -9171,7 +9283,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to the National Science Talent Search Exam (NSTSE) — what it tests, how it differs from SOF Olympiads, the full syllabus, and a practical preparation strategy for Classes 2–12.",
     date: "2026-07-09",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -9199,7 +9311,7 @@ export const posts: BlogPost[] = [
           written paper with class-specific content. Key features:
         </P>
         <UL>
-          <LI><B>All subjects in one paper:</B> Unlike SOF which has separate IMO (maths) and NSO (science) exams, NSTSE combines maths, physics, chemistry, and biology in one 75-question, 60-minute paper</LI>
+          <LI><B>All subjects in one paper:</B> Unlike SOF which has separate IMO (maths) and ISO, formerly NSO (science) exams, NSTSE combines maths, physics, chemistry, biology and critical thinking in one 60-question, 60-minute paper</LI>
           <LI><B>No negative marking:</B> Like SOF Olympiads, incorrect answers are not penalised</LI>
           <LI><B>National ranking:</B> NSTSE provides detailed diagnostic reports showing performance by subject and chapter &mdash; one of its most valuable features</LI>
           <LI><B>Single level:</B> Unlike SOF&rsquo;s two-level system, NSTSE is a single national round</LI>
@@ -9308,7 +9420,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete preparation guide for Cyber Olympiads including UCO and SOF NCO — what the exam tests, the full syllabus for Classes 3–10, key topics, and a practical study plan for students and parents.",
     date: "2026-07-09",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -9329,6 +9441,13 @@ export const posts: BlogPost[] = [
           prominent competitions at the school level. This guide covers both and gives you a complete preparation
           strategy.
         </P>
+
+        <Callout>
+          <B>New names for two SOF Olympiads.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad
+          (NSO) is called the International Science Olympiad (ISO), and the National Cyber Olympiad (NCO) is called the
+          International Computer Science Olympiad (ICSO). The exam patterns are the same, so everything here about NSO and
+          NCO applies to ISO and ICSO.
+        </Callout>
 
         <H2 id="about-cyber-olympiads">About the major Cyber Olympiads</H2>
         <H3>SOF National Cyber Olympiad (NCO)</H3>
@@ -9578,7 +9697,7 @@ export const posts: BlogPost[] = [
     description:
       "NSO sample papers for Class 4 are the most effective preparation tool — but only when used strategically. This guide covers the topic distribution in Class 4 NSO papers, how to analyse your mistakes, and a paper-based preparation plan.",
     date: "2026-07-09",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -9599,6 +9718,12 @@ export const posts: BlogPost[] = [
           what topics appear most, and a step-by-step method for turning practice papers into genuine score
           improvement.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="nso-class4-format">NSO Class 4 exam format</H2>
         <P>
@@ -10288,7 +10413,7 @@ export const posts: BlogPost[] = [
     description:
       "A practical 90-day olympiad study plan for Indian students. Month-by-month schedule, weekly routines, and daily time breakdowns for IMO, NSO, and IEO preparation.",
     date: "2026-06-29",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 7,
     keywords: [
@@ -10306,7 +10431,7 @@ export const posts: BlogPost[] = [
         <P>
           Most students know they should prepare for olympiads but aren&rsquo;t sure how to structure their time. This
           90-day study plan breaks preparation into three clear phases so you always know what to focus on and when.
-          The plan works for Classes 4&ndash;12 and can be adapted for IMO, NSO, or IEO.
+          The plan works for Classes 4&ndash;12 and can be adapted for IMO, ISO (formerly NSO), or IEO.
         </P>
 
         <H2 id="phase1">Phase 1 (Days 1&ndash;30): Foundation and topic mapping</H2>
@@ -10510,6 +10635,7 @@ export const posts: BlogPost[] = [
     description:
       "Should Class 12 students do olympiads? Yes — and here is how to balance boards with IMO and NSO preparation without sacrificing either. Practical strategy for Class 12.",
     date: "2026-06-28",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 6,
     keywords: [
@@ -10530,6 +10656,12 @@ export const posts: BlogPost[] = [
           &mdash; it actively reinforces board preparation. Class 12 olympiad questions are essentially a harder
           version of the board paper.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="why-class12">Why olympiads still make sense at Class 12</H2>
         <P>
@@ -10606,6 +10738,7 @@ export const posts: BlogPost[] = [
     description:
       "How to prepare for olympiads in Class 11. Covers IMO and NSO strategy for senior students, how Class 11 topics differ from earlier classes, and balancing with JEE and NEET preparation.",
     date: "2026-06-28",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 6,
     keywords: [
@@ -10626,6 +10759,12 @@ export const posts: BlogPost[] = [
           Students who do well at Class 11 olympiads approach them as a complement to competitive exam
           preparation &mdash; not as an addition to it.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="whats-different">What changes at Class 11</H2>
         <P>
@@ -10700,7 +10839,7 @@ export const posts: BlogPost[] = [
     description:
       "Complete olympiad preparation guide for Class 4. Covers IMO, NSO, and IEO syllabus for Class 4, study strategy, practice tips, and what parents need to know.",
     date: "2026-06-28",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 6,
     keywords: [
@@ -10721,6 +10860,12 @@ export const posts: BlogPost[] = [
           foundation for the harder classes ahead. The syllabus at this level is fully manageable alongside
           school work &mdash; 25&ndash;30 minutes of daily practice is enough.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="syllabus">Class 4 olympiad syllabus overview</H2>
         <H3>IMO &mdash; Mathematics</H3>
@@ -11429,6 +11574,7 @@ export const posts: BlogPost[] = [
     description:
       "Class 10 is a board exam year — but Olympiads can coexist and even help. This guide covers which Olympiads to prioritise in Class 10, how to prep without burning out, and the real benefits for admissions.",
     date: "2026-06-28",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -11448,6 +11594,12 @@ export const posts: BlogPost[] = [
           for, both for skill development and for competitive exam foundations. This guide explains how to make both
           work without burning out.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="why-class10-olympiads">Why Class 10 Olympiads are worth it</H2>
         <P>
@@ -11776,7 +11928,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete guide to NSO preparation for Class 4 — science topics, exam pattern, the Achievers section, and a simple 6-week study plan for young learners.",
     date: "2026-06-22",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 7,
     keywords: [
@@ -11797,6 +11949,12 @@ export const posts: BlogPost[] = [
           close to the school science curriculum, but questions reward understanding and application
           rather than memory. A structured approach for six weeks is all most students need.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="exam-pattern">NSO Class 4 exam pattern</H2>
         <P>
@@ -11939,7 +12097,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete subject-wise Olympiad preparation guide for Class 7 — covering IMO, NSO and IEO syllabi, the Achievers section strategy, and a weekly plan that fits around school.",
     date: "2026-06-22",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -11967,7 +12125,7 @@ export const posts: BlogPost[] = [
           <LI><B>50 questions (60 marks), 60 minutes</B> for Level 1, with no negative marking.</LI>
           <LI>
             <B>Logical Reasoning section</B> &mdash; series, coding-decoding, analogies,
-            non-verbal reasoning, direction and blood-relation problems (15 questions in IMO, 10 in NSO).
+            non-verbal reasoning, direction and blood-relation problems (15 questions in IMO, 10 in ISO, formerly NSO).
           </LI>
           <LI>
             <B>Subject section</B> &mdash; the core subject at slightly deeper than school exam
@@ -12187,7 +12345,7 @@ export const posts: BlogPost[] = [
     description:
       "A guide to the 10 most important Olympiad exams for Indian students in 2025–26 — covering SOF, Silverzone, Unified Council, CREST, Aryabhatta, Spell Bee and more.",
     date: "2026-06-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 8,
     keywords: [
@@ -12207,6 +12365,12 @@ export const posts: BlogPost[] = [
           profile. Here are the 10 most important ones &mdash; what they test, who runs them, and
           who they are best suited for.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="imo">1. IMO &mdash; International Mathematics Olympiad (SOF)</H2>
         <P>
@@ -12347,7 +12511,7 @@ export const posts: BlogPost[] = [
     description:
       "Comparing the three biggest Olympiad bodies in India — SOF, Silverzone and CREST — on syllabus alignment, difficulty, rewards, fees and reach to help you choose.",
     date: "2026-06-23",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 7,
     keywords: [
@@ -12368,6 +12532,13 @@ export const posts: BlogPost[] = [
           millions of registered students, overlapping subjects, and strong reputations &mdash; but
           they are not identical. Here is what actually matters when choosing.
         </P>
+
+        <Callout>
+          <B>New names for two SOF Olympiads.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad
+          (NSO) is called the International Science Olympiad (ISO), and the National Cyber Olympiad (NCO) is called the
+          International Computer Science Olympiad (ICSO). The exam patterns are the same, so everything here about NSO and
+          NCO applies to ISO and ICSO.
+        </Callout>
 
         <H2 id="sof">Science Olympiad Foundation (SOF)</H2>
         <P>
@@ -12453,6 +12624,7 @@ export const posts: BlogPost[] = [
     description:
       "A clear comparison of Olympiad exams and NTSE — what each tests, who is eligible, scholarship value, and whether preparing for one helps with the other.",
     date: "2026-06-23",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 7,
     keywords: [
@@ -12472,6 +12644,12 @@ export const posts: BlogPost[] = [
           <B>different tools for different goals</B> &mdash; and for many students, they complement
           each other rather than competing.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="what-is-ntse">What is NTSE?</H2>
         <P>
@@ -12560,6 +12738,7 @@ export const posts: BlogPost[] = [
     description:
       "A week-by-week 30-day NSO study plan — what to cover, what to skip, how to tackle the Achievers section fast, and how to use mock exams in the final week.",
     date: "2026-06-22",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 6,
     keywords: [
@@ -12579,6 +12758,12 @@ export const posts: BlogPost[] = [
           Level 1 result if preparation is focused. The key is spending time on the sections and
           topics that carry the most marks, not attempting to cover everything equally.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="week1">Week 1: Know the paper, fix the gaps</H2>
         <P>
@@ -12942,6 +13127,7 @@ export const posts: BlogPost[] = [
     description:
       "What to look for in an Olympiad preparation app in India in 2025–26 — syllabus alignment, question quality, adaptive practice, mock exams, and what to avoid.",
     date: "2026-06-22",
+    updated: "2026-11-12",
     tag: "AI & Learning",
     readingMinutes: 6,
     keywords: [
@@ -12989,8 +13175,8 @@ export const posts: BlogPost[] = [
             essential for the final month of preparation.
           </LI>
           <LI>
-            <B>Class and subject coverage.</B> A Class 4 NSO need is very different from Class 10
-            IMO. The platform should cover the exact class and subject, not a generic range.
+            <B>Class and subject coverage.</B> A Class 4 ISO (formerly NSO) student needs very different practice from a Class 10
+            IMO student. The platform should cover the exact class and subject, not a generic range.
           </LI>
         </UL>
 
@@ -13061,6 +13247,7 @@ export const posts: BlogPost[] = [
     description:
       "A complete subject-wise Olympiad preparation guide for Classes 6 to 10 — how each class differs, what the syllabus covers, and how to fit preparation around increasing school workload.",
     date: "2026-06-23",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 9,
     keywords: [
@@ -13081,6 +13268,12 @@ export const posts: BlogPost[] = [
           widens. Students who prepare strategically during these years build the reasoning
           foundation that serves them through board exams and beyond.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="class6">Class 6: Building the foundation</H2>
         <P>
@@ -13291,7 +13484,7 @@ export const posts: BlogPost[] = [
     description:
       "How to prepare young children in Classes 1 to 5 for Olympiad exams — what to expect, how to build the right habits, and how to keep it fun without pressure.",
     date: "2026-06-14",
-    updated: "2026-10-29",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 7,
     keywords: [
@@ -13312,6 +13505,12 @@ export const posts: BlogPost[] = [
           circular and very little guidance. The good news: these early classes are the <B>easiest time</B> to build the
           right habits, and the exams themselves are genuinely manageable with simple, consistent practice.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="what-to-expect">What do Olympiad exams look like at this age?</H2>
         <P>
@@ -13421,7 +13620,7 @@ export const posts: BlogPost[] = [
     description:
       "What are the IMO, NSO and IEO? A clear, jargon-free guide for Indian parents to SOF Olympiads — levels, syllabus, eligibility, dates and how to prepare.",
     date: "2026-05-20",
-    updated: "2026-06-21",
+    updated: "2026-11-12",
     tag: "Guides",
     readingMinutes: 7,
     keywords: ["SOF Olympiad", "IMO", "NSO", "IEO", "Olympiad for kids", "Indian Olympiad exams"],
@@ -13434,6 +13633,12 @@ export const posts: BlogPost[] = [
           feeling a little lost. Between the IMO, NSO, IEO, IGKO and a dozen other abbreviations, it is hard to know
           what actually matters. This guide breaks it down in plain language.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="what-are-olympiads">What exactly is an Olympiad?</H2>
         <P>
@@ -13767,7 +13972,7 @@ export const posts: BlogPost[] = [
     description:
       "A practical, class-by-class plan to prepare for the National Science Olympiad (NSO) — syllabus sections, study schedule, the Achievers section and free practice tips.",
     date: "2026-05-27",
-    updated: "2026-06-21",
+    updated: "2026-11-12",
     tag: "Science",
     readingMinutes: 8,
     keywords: ["NSO preparation", "national science olympiad", "how to prepare for NSO", "NSO syllabus", "science olympiad practice"],
@@ -13780,6 +13985,12 @@ export const posts: BlogPost[] = [
           many facts they can recall. With a structured plan, almost any curious student can do well. Here is a
           step-by-step approach you can follow at home.
         </P>
+
+        <Callout>
+          <B>NSO is now ISO.</B> From the 2026&ndash;27 session, SOF&rsquo;s National Science Olympiad (NSO) is called the
+          International Science Olympiad (ISO). The exam pattern and syllabus structure are the same, so everything in this
+          guide about NSO applies to ISO.
+        </Callout>
 
         <H2 id="exam-pattern">Step 1: Know the NSO paper pattern</H2>
         <P>A typical NSO Level 1 paper is divided into clear sections:</P>
@@ -14014,6 +14225,7 @@ export const posts: BlogPost[] = [
     description:
       "Logical reasoning appears in every major Olympiad and is the easiest section to improve. Here are practical techniques to master patterns, series, analogies and non-verbal reasoning.",
     date: "2026-06-01",
+    updated: "2026-11-12",
     tag: "Tips",
     readingMinutes: 6,
     keywords: ["logical reasoning olympiad", "reasoning for olympiad", "improve logical reasoning", "non-verbal reasoning practice"],
@@ -14022,7 +14234,7 @@ export const posts: BlogPost[] = [
     content: (
       <>
         <P>
-          Almost every major Olympiad &mdash; IMO, NSO, IEO and others &mdash; opens with a <B>logical reasoning</B>
+          Almost every major Olympiad &mdash; IMO, ISO (formerly NSO), IEO and others &mdash; opens with a <B>logical reasoning</B>
           section. It is often the most scoring part of the paper, because the skills are learnable with focused
           practice. Here is how to get good at it.
         </P>

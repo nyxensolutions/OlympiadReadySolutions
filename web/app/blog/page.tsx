@@ -7,12 +7,12 @@ import { getAllPosts, formatDate } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Olympiad Prep Blog — Tips & Exam Strategy",
   description:
-    "Practical guides and tips on Olympiad preparation for Indian students — IMO, NSO, IEO and more. Class-by-class strategy, study plans and free practice advice.",
+    "Practical guides and tips on Olympiad preparation for Indian students — IMO, ISO (NSO), IEO and more. Class-by-class strategy, study plans and free practice advice.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Olympiad Prep Blog — Tips, Guides & Exam Strategy | OlympiadReady",
     description:
-      "Practical guides and tips on Olympiad preparation for Indian students — IMO, NSO, IEO and more.",
+      "Practical guides and tips on Olympiad preparation for Indian students — IMO, ISO (NSO), IEO and more.",
     url: "https://olympiadready.com/blog",
     type: "website",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "OlympiadReady Blog" }]
@@ -35,7 +35,7 @@ export default function BlogIndexPage() {
             Olympiad preparation, made clear.
           </h1>
           <p className="mt-3 max-w-2xl text-brand-100">
-            Guides, tips and exam strategy for IMO, NSO, IEO and every major school Olympiad — written for Indian
+            Guides, tips and exam strategy for IMO, ISO (NSO), IEO and every major school Olympiad — written for Indian
             parents and students, Classes 1–12.
           </p>
         </div>

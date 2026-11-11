@@ -6,9 +6,9 @@ import { LandingFooter } from "@/components/landing/LandingFooter";
 const SITE_URL = "https://olympiadready.com";
 
 export const metadata: Metadata = {
-  title: "Science Olympiad Preparation — Complete NSO Guide",
+  title: "Science Olympiad Preparation — ISO (NSO) Guide",
   description:
-    "Complete NSO preparation guide for Indian students. Covers class-wise science olympiad syllabus, exam pattern, study strategy, and practice tips for the National Science Olympiad, Classes 1–12.",
+    "Complete preparation guide for SOF's science Olympiad, now called the International Science Olympiad (ISO, formerly NSO). Class-wise syllabus, exam pattern, study strategy and practice tips, Classes 1–12.",
   keywords: [
     "science olympiad preparation",
     "NSO preparation",
@@ -17,12 +17,14 @@ export const metadata: Metadata = {
     "NSO study tips",
     "science olympiad guide India",
     "NSO syllabus guide",
+    "ISO olympiad SOF",
+    "International Science Olympiad preparation",
   ],
   alternates: { canonical: "/science-olympiad-preparation" },
   openGraph: {
-    title: "Science Olympiad Preparation — Complete NSO Guide | OlympiadReady",
+    title: "Science Olympiad Preparation — ISO (NSO) Guide | OlympiadReady",
     description:
-      "Step-by-step NSO preparation guide. Class-wise syllabus, exam pattern, Achievers section strategy, and practice tips for the National Science Olympiad.",
+      "Step-by-step guide to SOF's science Olympiad, ISO (formerly NSO). Class-wise syllabus, exam pattern, Achievers section strategy and practice tips.",
     url: `${SITE_URL}/science-olympiad-preparation`,
     type: "article",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Science Olympiad Preparation Guide" }],
@@ -31,12 +33,12 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: "What is the NSO exam pattern?",
-    a: "The SOF NSO has three sections: Science (15 questions, 1 mark each), Achievers Section (5 questions, 3 marks each), and Logical Reasoning (10 questions, 1 mark each). The total time is 60 minutes and there is no negative marking.",
+    q: "What is the NSO (ISO) exam pattern?",
+    a: "For Classes 5–10, SOF's science Olympiad (ISO, formerly NSO) has 50 questions and 60 marks in 60 minutes: Logical Reasoning (10), Science (35) and the Achievers Section (5 questions, 3 marks each). Classes 1–4 have 5 Logical Reasoning, 25 Science and 5 Achievers questions (2 marks each), 40 marks in all. Classes 11–12 have 25 Physics & Chemistry, 20 Mathematics or Biology and 5 Achievers questions. There is no negative marking.",
   },
   {
     q: "Is the NSO syllabus the same as the CBSE science syllabus?",
-    a: "Yes, the NSO follows the CBSE/NCERT school science curriculum for each class. The questions test the same topics but with higher application depth — especially in the Achievers section which tests reasoning and multi-concept understanding.",
+    a: "Yes, the NSO (now ISO) follows the CBSE/NCERT school science curriculum. SOF says about 60% of Level 1 questions come from the current class and 40% from the previous class. The questions test the same topics with more application, especially in the Achievers section.",
   },
   {
     q: "Which topics carry the most weight in the NSO?",
@@ -44,7 +46,7 @@ const faqs = [
   },
   {
     q: "How is NSO different from NTSE science?",
-    a: "NSO is purely objective (MCQ) and based on the current class syllabus, while NTSE tests cumulative science knowledge up to Class 10 with a separate mental ability component. NSO is ideal preparation for students in Classes 1–10 before attempting NTSE in Class 10.",
+    a: "NSO is purely objective (MCQ) and based on the school syllabus for the current and previous class, while NTSE tests cumulative science knowledge up to Class 10 with a separate mental ability component. NSO is ideal preparation for students in Classes 1–10 before attempting NTSE in Class 10.",
   },
   {
     q: "How many mock tests should I take before the NSO?",
@@ -55,7 +57,7 @@ const faqs = [
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Science Olympiad Preparation — Complete NSO Guide for Classes 1–12",
+  headline: "Science Olympiad Preparation — Complete ISO (NSO) Guide for Classes 1–12",
   description:
     "Complete NSO preparation guide. Covers class-wise science olympiad syllabus, exam pattern, study strategy, and practice tips for the National Science Olympiad.",
   author: { "@type": "Organization", name: "OlympiadReady", url: SITE_URL },
@@ -112,12 +114,14 @@ export default function ScienceOlympiadPreparationPage() {
         </span>
 
         <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-          Science Olympiad Preparation — Complete NSO Guide for Classes 1–12
+          Science Olympiad Preparation — Complete ISO (NSO) Guide for Classes 1–12
         </h1>
 
         <p className="mt-5 text-lg leading-8 text-slate-600">
-          The National Science Olympiad (NSO) by the Science Olympiad Foundation is one of India&apos;s most
-          widely taken school olympiads, testing science knowledge alongside logical reasoning for Classes 1–12.
+          SOF&apos;s science Olympiad is one of India&apos;s most widely taken school olympiads, testing science
+          knowledge alongside logical reasoning for Classes 1–12. From the 2026–27 session it is called the
+          International Science Olympiad (ISO); it was previously the National Science Olympiad (NSO), and the
+          exam pattern is the same.
           This guide covers everything for NSO preparation — exam pattern, class-wise syllabus priorities, how
           to handle application-based questions, and a practical practice routine.
         </p>
@@ -127,8 +131,9 @@ export default function ScienceOlympiadPreparationPage() {
           NSO exam pattern at a glance
         </h2>
         <p className="mt-4 text-[17px] leading-8 text-slate-700">
-          The NSO is a 60-minute multiple-choice paper conducted inside school. No negative marking applies,
-          so students should attempt all questions. The three sections are:
+          The NSO (ISO) is a 60-minute multiple-choice paper conducted inside school. No negative marking applies,
+          so students should attempt all questions. For Classes 5–10, the paper has 50 questions (60 marks) in three
+          sections:
         </p>
 
         <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200">
@@ -150,7 +155,7 @@ export default function ScienceOlympiadPreparationPage() {
               </tr>
               <tr className="bg-slate-50/50">
                 <td className="px-4 py-2.5 font-medium">Science</td>
-                <td className="px-4 py-2.5">20</td>
+                <td className="px-4 py-2.5">35</td>
                 <td className="px-4 py-2.5">1</td>
                 <td className="px-4 py-2.5">Concepts and application</td>
               </tr>
@@ -167,7 +172,9 @@ export default function ScienceOlympiadPreparationPage() {
         <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
           <span className="font-semibold">Achievers section weight:</span> Those 5 questions are worth 15 marks.
           A student who scores full marks on Achievers has a significant rank advantage even with a few errors in
-          the main Science section. Prioritise this section in your practice.
+          the main Science section. Prioritise this section in your practice. Classes 1–4 have 35 questions (5
+          Logical Reasoning, 25 Science, 5 Achievers worth 2 marks each), and Classes 11–12 replace reasoning with
+          Physics &amp; Chemistry and Mathematics or Biology sections.
         </div>
 
         {/* Syllabus by class */}
@@ -202,7 +209,7 @@ export default function ScienceOlympiadPreparationPage() {
 
         <h3 className="mt-8 text-xl font-bold text-slate-900">Classes 10–12: Integration across all science streams</h3>
         <p className="mt-4 text-[17px] leading-8 text-slate-700">
-          At this level, the NSO tests across Physics, Chemistry, and Biology. Chemical bonding and reactions,
+          At this level, the NSO (ISO) tests across Physics, Chemistry, and Biology. Chemical bonding and reactions,
           life processes, electricity and magnetism, carbon compounds, and genetics are consistently
           high-scoring topics in Class 10. For Classes 11–12, the paper aligns closely with the board syllabus
           — students preparing for JEE/NEET will find NSO preparation naturally complementary.

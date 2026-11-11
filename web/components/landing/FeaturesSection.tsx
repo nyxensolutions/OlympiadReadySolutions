@@ -64,7 +64,7 @@ const FEATURES: Feature[] = [
     icon: Medal,
     emoji: "🥇",
     title: "All Major Exams Covered",
-    description: "IMO, NSO, IEO, IGKO, IHO, ICSO, iiO and more — questions calibrated to each Olympiad's pattern.",
+    description: "IMO, ISO (NSO), IEO, IGKO, IHO, ICSO, iiO and more — questions calibrated to each Olympiad's pattern.",
     bg: "bg-amber-50 border-amber-200",
     iconColor: "bg-amber-500 text-white",
   },

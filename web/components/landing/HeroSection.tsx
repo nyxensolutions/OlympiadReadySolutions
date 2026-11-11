@@ -50,7 +50,7 @@ export function HeroSection() {
             {/* Sub-headline */}
             <p className="mb-8 text-base leading-relaxed text-white/80 sm:text-lg lg:max-w-lg">
               AI-generated practice papers, interactive AI doubt chatbot, and topic-by-topic mastery
-              tracking — for IMO, NSO, IEO, IGKO, Spell Bee & every major school Olympiad.
+              tracking — for IMO, ISO (NSO), IEO, IGKO, Spell Bee & every major school Olympiad.
               Prepare for{" "}
               <span className="font-bold text-yellow-300">Level 1 or Level 2</span>{" "}
               with questions calibrated to your round.

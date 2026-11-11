@@ -537,7 +537,7 @@ export default function MockExamsPage() {
             {[
               {
                 q: "How do Mock Exams differ from regular practice tests?",
-                a: "Practice tests focus on single masteries and are customizable. Mock Exams perfectly replicate official Olympiad patterns (SOF IMO, NSO, NSTSE, etc.), matching exact section layouts, time limits, scoring schemes, and question counts.",
+                a: "Practice tests focus on single masteries and are customizable. Mock Exams perfectly replicate official Olympiad patterns (SOF IMO, ISO (NSO), NSTSE, etc.), matching exact section layouts, time limits, scoring schemes, and question counts.",
               },
               {
                 q: "What are the limits for Free vs. Upgraded users?",

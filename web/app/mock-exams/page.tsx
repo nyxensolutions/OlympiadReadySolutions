@@ -4,11 +4,12 @@ import MockExamsClient from "./MockExamsClient";
 export const metadata: Metadata = {
   title: "Olympiad Mock Exams — AI Adaptive Practice Tests",
   description:
-    "Take AI-powered adaptive mock exams for SOF Olympiads (IMO, NSO, IEO) for Classes 1–12. Timed, exam-pattern tests with instant scoring and detailed explanations.",
+    "Take AI-powered adaptive mock exams for SOF Olympiads (IMO, ISO/NSO, IEO) for Classes 1–12. Timed, exam-pattern tests with instant scoring and detailed explanations.",
   keywords: [
     "olympiad mock test",
     "IMO mock exam",
     "NSO mock test",
+    "ISO olympiad mock test",
     "online olympiad practice test",
     "adaptive mock exam",
     "olympiad exam preparation"
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AI Mock Exams for Olympiads — Adaptive Practice Tests | OlympiadReady",
     description:
-      "AI-powered adaptive mock exams for IMO, NSO, IEO — Classes 1–12. Timed, exam-pattern tests with instant scoring.",
+      "AI-powered adaptive mock exams for IMO, ISO (NSO), IEO — Classes 1–12. Timed, exam-pattern tests with instant scoring.",
     url: "https://olympiadready.com/mock-exams",
     type: "website",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "OlympiadReady Mock Exams" }]

@@ -13,12 +13,13 @@ export const metadata: Metadata = {
     template: "%s | OlympiadReady"
   },
   description:
-    "AI-powered Olympiad prep for Classes 1–12. Practice papers, mock exams & mastery tracking for IMO, NSO, IEO, IGKO & more. Free to start.",
+    "AI-powered Olympiad prep for Classes 1–12. Practice papers, mock exams & mastery tracking for IMO, ISO (NSO), IEO, IGKO & more. Free to start.",
   keywords: [
     "Olympiad preparation",
     "AI Olympiad practice",
     "IMO practice papers",
     "NSO mock test",
+    "ISO olympiad mock test",
     "IEO preparation",
     "SOF Olympiad",
     "Olympiad mock exam",
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "OlympiadReady",
     title: "OlympiadReady — India's First AI Olympiad Prep Platform",
     description:
-      "AI-generated practice papers, mock exams & mastery tracking for IMO, NSO, IEO & every major school Olympiad. Classes 1–12. Free to start.",
+      "AI-generated practice papers, mock exams & mastery tracking for IMO, ISO (NSO), IEO & every major school Olympiad. Classes 1–12. Free to start.",
     images: [
       {
         url: "/og-image.png",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "OlympiadReady — India's First AI Olympiad Prep Platform",
     description:
-      "AI-generated practice papers, mock exams & mastery tracking for IMO, NSO, IEO & more. Classes 1–12. Free to start.",
+      "AI-generated practice papers, mock exams & mastery tracking for IMO, ISO (NSO), IEO & more. Classes 1–12. Free to start.",
     images: ["/og-image.png"]
   },
   robots: {

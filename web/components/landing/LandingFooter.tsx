@@ -79,7 +79,7 @@ export function LandingFooter() {
             <ul className="space-y-2.5 text-sm text-slate-600">
               <li><Link href="/olympiad-preparation" className="transition hover:text-brand-600">Olympiad Preparation</Link></li>
               <li><Link href="/math-olympiad-preparation" className="transition hover:text-brand-600">Math Olympiad (IMO)</Link></li>
-              <li><Link href="/science-olympiad-preparation" className="transition hover:text-brand-600">Science Olympiad (NSO)</Link></li>
+              <li><Link href="/science-olympiad-preparation" className="transition hover:text-brand-600">Science Olympiad (ISO/NSO)</Link></li>
               <li><Link href="/blog/olympiad-preparation-for-classes-1-to-5" className="transition hover:text-brand-600">Classes 1-5 Guide</Link></li>
               <li><Link href="/blog/olympiad-preparation-classes-6-to-10" className="transition hover:text-brand-600">Classes 6-10 Guide</Link></li>
               <li><Link href="/olympiad-dates" className="transition hover:text-brand-600">Olympiad Dates 2026</Link></li>

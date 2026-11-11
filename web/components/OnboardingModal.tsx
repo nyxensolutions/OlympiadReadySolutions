@@ -44,7 +44,7 @@ export function OnboardingModal({ onComplete }: { onComplete: (data: OnboardingD
   const mapOlympiadId = (display: string): OlympiadId => {
     switch (display) {
       case "SOF IMO": return "sof_imo";
-      case "SOF NSO": return "sof_nso";
+      case "SOF ISO (NSO)": return "sof_nso";
       case "Homi Bhabha": return "hbcse";
       case "SilverZone": return "silverzone_math";
       case "NSTSE": return "unified_nstse";
@@ -182,7 +182,7 @@ export function OnboardingModal({ onComplete }: { onComplete: (data: OnboardingD
               <h2 className="text-xl font-bold text-slate-900">Target Olympiad?</h2>
             </div>
             <div className="grid grid-cols-2 gap-3 mt-4">
-              {["SOF IMO", "SOF NSO", "Homi Bhabha", "SilverZone", "NSTSE", "Not Sure Yet"].map((oly) => (
+              {["SOF IMO", "SOF ISO (NSO)", "Homi Bhabha", "SilverZone", "NSTSE", "Not Sure Yet"].map((oly) => (
                 <button
                   key={oly}
                   onClick={() => handleOlympiadSelect(oly)}

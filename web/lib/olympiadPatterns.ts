@@ -57,7 +57,7 @@ export const OLYMPIAD_PATTERNS: OlympiadPattern[] = [
   // --- SOF NSO (Science) ---
   {
     id: "sof_nso_l1_1_4",
-    name: "NSO - National Science Olympiad (Level 1)",
+    name: "ISO - International Science Olympiad, formerly NSO (Level 1)",
     org: "SOF",
     subject: "Science",
     grades: { min: 1, max: 4 },
@@ -71,7 +71,7 @@ export const OLYMPIAD_PATTERNS: OlympiadPattern[] = [
   },
   {
     id: "sof_nso_l1_5_12",
-    name: "NSO - National Science Olympiad (Level 1)",
+    name: "ISO - International Science Olympiad, formerly NSO (Level 1)",
     org: "SOF",
     subject: "Science",
     grades: { min: 5, max: 12 },
@@ -160,7 +160,7 @@ export const OLYMPIAD_PATTERNS: OlympiadPattern[] = [
   // --- Computers & Cyber ---
   {
     id: "sof_nco_l1_1_4",
-    name: "NCO - National Cyber Olympiad (Level 1)",
+    name: "ICSO - International Computer Science Olympiad, formerly NCO (Level 1)",
     org: "SOF",
     subject: "Computer Science",
     grades: { min: 1, max: 4 },
@@ -174,7 +174,7 @@ export const OLYMPIAD_PATTERNS: OlympiadPattern[] = [
   },
   {
     id: "sof_nco_l1_5_10",
-    name: "NCO - National Cyber Olympiad (Level 1)",
+    name: "ICSO - International Computer Science Olympiad, formerly NCO (Level 1)",
     org: "SOF",
     subject: "Computer Science",
     grades: { min: 5, max: 12 },  // id kept for saved results; NCO runs to Class 12

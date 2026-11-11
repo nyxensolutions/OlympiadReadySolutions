@@ -8,7 +8,7 @@ const SITE_URL = "https://olympiadready.com";
 export const metadata: Metadata = {
   title: "Olympiad Preparation Guide — Classes 1–12",
   description:
-    "Complete olympiad preparation guide for Indian students. Step-by-step strategies for IMO, NSO, IEO, IGKO — study plans, practice tips, and a clear roadmap for Classes 1–12.",
+    "Complete olympiad preparation guide for Indian students. Step-by-step strategies for IMO, ISO (NSO), IEO, IGKO — study plans, practice tips, and a clear roadmap for Classes 1–12.",
   keywords: [
     "olympiad preparation",
     "how to prepare for olympiads",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Olympiad Preparation Guide — Classes 1–12 | OlympiadReady",
     description:
-      "Complete olympiad preparation guide for Indian students. Step-by-step strategies for IMO, NSO, IEO, IGKO for Classes 1–12.",
+      "Complete olympiad preparation guide for Indian students. Step-by-step strategies for IMO, ISO (NSO), IEO, IGKO for Classes 1–12.",
     url: `${SITE_URL}/olympiad-preparation`,
     type: "article",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Olympiad Preparation Guide" }],
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "Can I prepare for multiple olympiads at the same time?",
-    a: "Yes — IMO, NSO, and IEO share a significant portion of their syllabus with the school curriculum. Students in Classes 3–8 often prepare for 2–3 olympiads simultaneously with only slightly more effort than preparing for one.",
+    a: "Yes — IMO, ISO (formerly NSO) and IEO share a significant portion of their syllabus with the school curriculum. Students in Classes 3–8 often prepare for 2–3 olympiads simultaneously with only slightly more effort than preparing for one.",
   },
   {
     q: "Are olympiad questions harder than school exams?",
@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     q: "Does OlympiadReady cover all olympiad subjects?",
-    a: "Yes. OlympiadReady covers Maths (IMO), Science (NSO), English (IEO), General Knowledge (IGKO), Reasoning, and Spell Bee for Classes 1–12. Questions are aligned to SOF, Silverzone, and CREST Olympiad patterns.",
+    a: "Yes. OlympiadReady covers Maths (IMO), Science (ISO, formerly NSO), English (IEO), General Knowledge (IGKO), Reasoning, and Spell Bee for Classes 1–12. Questions are aligned to SOF, Silverzone, and CREST Olympiad patterns.",
   },
 ];
 
@@ -61,7 +61,7 @@ const articleJsonLd = {
   "@type": "Article",
   headline: "Olympiad Preparation Guide — Everything You Need to Know",
   description:
-    "Complete olympiad preparation guide for Indian students. Step-by-step strategies for IMO, NSO, IEO, IGKO — study plans, practice tips, and a clear roadmap for Classes 1–12.",
+    "Complete olympiad preparation guide for Indian students. Step-by-step strategies for IMO, ISO (NSO), IEO, IGKO — study plans, practice tips, and a clear roadmap for Classes 1–12.",
   author: { "@type": "Organization", name: "OlympiadReady", url: SITE_URL },
   publisher: {
     "@type": "Organization",
@@ -149,13 +149,13 @@ export default function OlympiadPreparationPage() {
         </h2>
         <p className="mt-4 text-[17px] leading-8 text-slate-700">
           India has several major school olympiad bodies. The Science Olympiad Foundation (SOF) is the largest,
-          running the International Mathematics Olympiad (IMO), National Science Olympiad (NSO), International English
+          running the International Mathematics Olympiad (IMO), International Science Olympiad (ISO, formerly the National Science Olympiad or NSO), International English
           Olympiad (IEO), and International General Knowledge Olympiad (IGKO). Silverzone and CREST are two other
           reputable bodies with strong national reach.
         </p>
         <p className="mt-4 text-[17px] leading-8 text-slate-700">
           For most students, starting with the SOF olympiad in their strongest subject is the best first step.
-          Students in Classes 3–8 can reasonably prepare for 2–3 olympiads in a single season because the IMO, NSO,
+          Students in Classes 3–8 can reasonably prepare for 2–3 olympiads in a single season because the IMO, ISO,
           and IEO all draw from the school curriculum. Adding a reasoning-based olympiad like IGKO requires minimal
           extra effort once the core subjects are covered.
         </p>
@@ -173,7 +173,7 @@ export default function OlympiadPreparationPage() {
             <tbody className="divide-y divide-slate-100">
               {[
                 ["IMO", "Mathematics", "1–12", "SOF"],
-                ["NSO", "Science", "1–12", "SOF"],
+                ["ISO (formerly NSO)", "Science", "1–12", "SOF"],
                 ["IEO", "English", "1–12", "SOF"],
                 ["IGKO", "General Knowledge", "1–10", "SOF"],
                 ["Spell Bee", "English Spelling", "1–12", "Various"],
@@ -401,7 +401,7 @@ export default function OlympiadPreparationPage() {
             >
               <span className="text-xs font-semibold text-slate-500">Science</span>
               <h3 className="mt-1 font-bold text-slate-900 group-hover:text-brand-700">
-                Science Olympiad Preparation — NSO Guide →
+                Science Olympiad Preparation — ISO (NSO) Guide →
               </h3>
             </Link>
           </div>

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import PracticePapersClient from "./PracticePapersClient";
 
 export const metadata: Metadata = {
-  title: "Olympiad Practice Papers — IMO, NSO, IEO PDFs",
+  title: "Olympiad Practice Papers — IMO, ISO (NSO), IEO PDFs",
   description:
-    "Download Olympiad practice question papers for IMO, NSO, IEO and more — Classes 1–12. AI-generated, exam-pattern PDFs with answer keys, from just ₹29.",
+    "Download Olympiad practice question papers for IMO, ISO (NSO), IEO and more — Classes 1–12. AI-generated, exam-pattern PDFs with answer keys, from just ₹29.",
   keywords: [
     "olympiad practice papers",
     "olympiad sample papers",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Olympiad Practice Papers & Sample Question Papers | OlympiadReady",
     description:
-      "Download exam-pattern Olympiad practice papers (IMO, NSO, IEO) for Classes 1–12 with answer keys, from just ₹29.",
+      "Download exam-pattern Olympiad practice papers (IMO, ISO/NSO, IEO) for Classes 1–12 with answer keys, from just ₹29.",
     url: "https://olympiadready.com/practice-papers",
     type: "website",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "OlympiadReady Practice Papers" }]

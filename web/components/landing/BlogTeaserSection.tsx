@@ -16,7 +16,7 @@ export function BlogTeaserSection() {
               Olympiad prep guides &amp; tips
             </h2>
             <p className="mt-2 max-w-2xl text-slate-600">
-              Practical advice on IMO, NSO, IEO and more — written for Indian parents and students, Classes 1–12.
+              Practical advice on IMO, ISO (NSO), IEO and more — written for Indian parents and students, Classes 1–12.
             </p>
           </div>
           <Link

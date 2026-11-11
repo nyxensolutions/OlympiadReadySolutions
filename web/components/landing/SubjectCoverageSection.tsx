@@ -33,7 +33,7 @@ const TOP_SUBJECTS: SubjectCard[] = [
     img: "/kids-ui/subjects/science.png",
     name: "science",
     label: "Science",
-    exams: "NSO · IOS · CSO",
+    exams: "ISO (NSO) · IOS · CSO",
     grades: "Class 1–12",
     bg: "bg-gradient-science",
     border: "border-green-200",

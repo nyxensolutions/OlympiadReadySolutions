@@ -25,7 +25,7 @@ export default function TermsPage() {
       <p>
         OlympiadReady provides AI-powered Olympiad practice papers, test simulations, topic mastery
         tracking, and related educational content for school students preparing for Indian school
-        Olympiads (IMO, NSO, IEO, and others).
+        Olympiads (IMO, ISO (formerly NSO), IEO, and others).
       </p>
 
       <h2>3. User Accounts</h2>

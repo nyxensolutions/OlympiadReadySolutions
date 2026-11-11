@@ -71,7 +71,7 @@ public class BrevoEmailService : IEmailService
                         <span style=""font-size:22px;margin-right:14px;"">📝</span>
                         <div>
                             <strong style=""color:#1e293b;"">3 Free Practice Papers</strong>
-                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">AI-powered tests for IMO, NSO, IEO, IGKO, Spell Bee & more — any class, any subject. Retake any paper as many times as you like; retakes don't use your free quota.</p>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">AI-powered tests for IMO, ISO (NSO), IEO, IGKO, Spell Bee & more — any class, any subject. Retake any paper as many times as you like; retakes don't use your free quota.</p>
                         </div>
                     </div>
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
@@ -384,7 +384,7 @@ public class BrevoEmailService : IEmailService
                 <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
                 <p style=""font-size:15px;color:#475569;line-height:1.6;"">
                     You tried OlympiadReady yesterday — great start! You still have <strong>{papersLeft} free practice papers</strong> left.
-                    Many students use them to prepare for IMO, NSO, and IEO in the weeks before the exam.
+                    Many students use them to prepare for IMO, ISO (NSO) and IEO in the weeks before the exam.
                 </p>
 
                 <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:24px;margin:28px 0;text-align:center;"">
@@ -481,7 +481,7 @@ public class BrevoEmailService : IEmailService
                 </div>
                 <div style=""background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:24px;text-align:center;"">
                     <p style=""margin:0 0 6px;font-size:15px;color:#1e40af;font-weight:600;"">7 fresh AI mock exams every week</p>
-                    <p style=""margin:0 0 20px;font-size:14px;color:#3b82f6;"">Covers IMO · NSO · IEO · IGKO · Spell Bee — all in one place.</p>
+                    <p style=""margin:0 0 20px;font-size:14px;color:#3b82f6;"">Covers IMO · ISO (NSO) · IEO · IGKO · Spell Bee — all in one place.</p>
                     <a href=""https://olympiadready.com/dashboard"" style=""background:#1e3a8a;color:#fff;padding:14px 32px;text-decoration:none;border-radius:8px;font-weight:700;font-size:15px;display:inline-block;"">Upgrade Now — ₹129/month →</a>
                 </div>
                 <p style=""margin-top:24px;font-size:13px;color:#64748b;text-align:center;"">No lock-in. Cancel anytime. Secured by Razorpay.</p>
@@ -524,7 +524,7 @@ public class BrevoEmailService : IEmailService
             <div style=""padding:36px 32px;"">
                 <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
                 <p style=""font-size:15px;color:#475569;line-height:1.6;"">
-                    It's been a week since you joined OlympiadReady. Olympiad exams like IMO, NSO, and IEO are just around the corner — students who practice weekly consistently outperform those who cram at the last minute.
+                    It's been a week since you joined OlympiadReady. Olympiad exams like IMO, ISO (NSO) and IEO are just around the corner — students who practice weekly consistently outperform those who cram at the last minute.
                 </p>
                 <div style=""background:#f0f9ff;border:2px solid #7dd3fc;border-radius:12px;padding:24px;margin:24px 0;text-align:center;"">
                     <p style=""margin:0 0 4px;font-size:13px;font-weight:700;color:#0369a1;text-transform:uppercase;letter-spacing:0.05em;"">Unlock unlimited practice today</p>
@@ -682,7 +682,7 @@ public class BrevoEmailService : IEmailService
             <div style=""padding:36px 32px;"">
                 <p style=""font-size:16px;margin-top:0;"">Hi <strong>{firstName}</strong>,</p>
                 <p style=""font-size:15px;color:#475569;line-height:1.6;"">
-                    Your free trial on OlympiadReady has now ended. Olympiad exams — IMO, NSO, IEO, IGKO — are just around the corner.
+                    Your free trial on OlympiadReady has now ended. Olympiad exams — IMO, ISO (NSO), IEO, IGKO — are just around the corner.
                     Don't let preparation stall right when it matters most.
                 </p>
 

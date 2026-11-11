@@ -4,11 +4,12 @@ import TopicsClient from "./TopicsClient";
 export const metadata: Metadata = {
   title: "Olympiad Syllabus Map — Topic-wise Practice",
   description:
-    "Explore the Olympiad syllabus for Maths, Science & English (IMO, NSO, IEO). Practise topic by topic, track mastery and find weak areas. Classes 1–12.",
+    "Explore the Olympiad syllabus for Maths, Science & English (IMO, ISO/NSO, IEO). Practise topic by topic, track mastery and find weak areas. Classes 1–12.",
   keywords: [
     "olympiad syllabus",
     "IMO syllabus",
     "NSO syllabus",
+    "ISO olympiad syllabus",
     "olympiad topics class wise",
     "olympiad maths topics",
     "olympiad preparation topics"

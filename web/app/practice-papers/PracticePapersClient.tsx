@@ -851,7 +851,7 @@ function PracticePapersBody() {
               },
               {
                 q: "Which Olympiads do these papers prepare for?",
-                a: "All major Indian school Olympiads — SOF IMO/NSO/IEO, SilverZone, NSTSE, and more. Questions are NCERT-aligned and pitched at competition level.",
+                a: "All major Indian school Olympiads — SOF IMO/ISO (NSO)/IEO, SilverZone, NSTSE, and more. Questions are NCERT-aligned and pitched at competition level.",
               },
               {
                 q: "Can I re-download a paid paper?",

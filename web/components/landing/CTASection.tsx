@@ -37,7 +37,7 @@ export function CTASection() {
             </h2>
             <p className="mb-8 text-lg text-white/80 lg:max-w-xl">
               Get your first AI-generated practice paper in under 60 seconds.
-              Join hundreds of students preparing smarter for IMO, NSO, IEO & more.
+              Join hundreds of students preparing smarter for IMO, ISO (NSO), IEO & more.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-start">
               <SignUpButton mode="modal">
@@ -54,7 +54,7 @@ export function CTASection() {
               </SignInButton>
             </div>
             <p className="mt-5 text-sm text-white/50">
-              Covers IMO · NSO · IEO · IGKO · IHO · ICSO · iiO · Spell Bee and more
+              Covers IMO · ISO (NSO) · IEO · IGKO · IHO · ICSO · iiO · Spell Bee and more
             </p>
           </div>
         </div>
