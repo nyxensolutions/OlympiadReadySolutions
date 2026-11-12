@@ -18,7 +18,7 @@ namespace OlympiadReady.Api.Controllers;
 using Microsoft.AspNetCore.Authorization;
 
 [ApiController]
-[Authorize(Policy = "AdminPolicy")]
+[Authorize]
 [Route("api/admin")]
 public class AdminController : ControllerBase
 {
@@ -62,6 +62,7 @@ public class AdminController : ControllerBase
     // rupee sign, etc.) that Claude includes are preserved correctly,
     // regardless of what Content-Type charset the client declares.
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPost("import-questions")]
     public async Task<IActionResult> ImportQuestions(
         [FromQuery] string subject,
@@ -129,6 +130,7 @@ public class AdminController : ControllerBase
     // ---------------------------------------------------------------
     // GET /api/admin/config-check  (temporary diagnostic)
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpGet("config-check")]
     public IActionResult ConfigCheck()
     {
@@ -156,6 +158,7 @@ public class AdminController : ControllerBase
     // Header: X-Admin-Key: <value>
     // Returns question counts per (subject, grade, difficulty)
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpGet("bank-stats")]
     public async Task<IActionResult> BankStats(CancellationToken ct)
     {
@@ -167,6 +170,7 @@ public class AdminController : ControllerBase
     // ---------------------------------------------------------------
     // POST /api/admin/fix-corrupted-questions
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPost("fix-corrupted-questions")]
     public async Task<IActionResult> FixCorruptedQuestions([FromQuery] string dirPath, CancellationToken ct)
     {
@@ -283,6 +287,7 @@ public class AdminController : ControllerBase
     // Header: X-Admin-Key: <value>
     // Search/filter questions in the bank for admin preview.
     // ---------------------------------------------------------------
+    [Authorize(Policy = "EditorPolicy")]
     [HttpGet("questions")]
     public async Task<IActionResult> SearchQuestions(
         [FromQuery] string? subject,
@@ -292,12 +297,21 @@ public class AdminController : ControllerBase
         [FromQuery] string? search,
         [FromQuery] bool? hasImage,
         [FromQuery] bool? isReviewed,
+        [FromQuery] string? source,
+        [FromQuery] DateTime? dateFrom,
+        [FromQuery] DateTime? dateTo,
         [FromQuery] int page = 1,
         [FromQuery] int pageSize = 20,
         CancellationToken ct = default)
     {
+        var callerRole = User.FindFirst("role")?.Value;
+        bool isEditorRole = callerRole == "editor";
 
         var query = _db.QuestionBank.AsQueryable();
+
+        // Editors can only browse unreviewed questions
+        if (isEditorRole)
+            query = query.Where(q => !q.IsReviewed);
 
         if (!string.IsNullOrWhiteSpace(subject))
         {
@@ -318,8 +332,14 @@ public class AdminController : ControllerBase
                 (q.ImageUrl != null && q.ImageUrl != "") ||
                 q.OptionsJson.Contains("http") ||
                 q.OptionsJson.Contains("/question-images/"));
-        if (isReviewed.HasValue)
+        if (!isEditorRole && isReviewed.HasValue)
             query = query.Where(q => q.IsReviewed == isReviewed.Value);
+        if (!isEditorRole && !string.IsNullOrWhiteSpace(source))
+            query = query.Where(q => q.Source == source);
+        if (!isEditorRole && dateFrom.HasValue)
+            query = query.Where(q => q.CreatedAt >= dateFrom.Value);
+        if (!isEditorRole && dateTo.HasValue)
+            query = query.Where(q => q.CreatedAt < dateTo.Value.AddDays(1));
 
         var total = await Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync(query, ct);
 
@@ -349,6 +369,7 @@ public class AdminController : ControllerBase
                 q.CorrectAnswer,
                 q.Explanation,
                 q.CreatedAt,
+                q.Source,
                 q.IsReviewed,
                 q.ReviewedAt,
                 q.ReviewedBy,
@@ -362,6 +383,7 @@ public class AdminController : ControllerBase
     // DELETE /api/admin/questions/{id}
     // Header: X-Admin-Key: <value>
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpDelete("questions/{id:guid}")]
     public async Task<IActionResult> DeleteQuestion(Guid id, CancellationToken ct)
     {
@@ -383,6 +405,7 @@ public class AdminController : ControllerBase
     // Body: multipart/form-data with field "file"
     // Uploads to Cloudflare R2 and returns: { url: "https://<public-base-url>/questions/..." }
     // ---------------------------------------------------------------
+    [Authorize(Policy = "EditorPolicy")]
     [HttpPost("upload-image")]
     [RequestSizeLimit(10 * 1024 * 1024)] // 10 MB
     public async Task<IActionResult> UploadImage(IFormFile file, CancellationToken ct)
@@ -459,6 +482,7 @@ public class AdminController : ControllerBase
     // Header: X-Admin-Key: <value>
     // Body: JSON matching AddQuestionDto
     // ---------------------------------------------------------------
+    [Authorize(Policy = "EditorPolicy")]
     [HttpPost("add-question")]
     public async Task<IActionResult> AddQuestion([FromBody] AddQuestionDto dto, CancellationToken ct)
     {
@@ -476,8 +500,9 @@ public class AdminController : ControllerBase
         if (!recognized)
             return BadRequest(new { error = SubjectNormalizer.UnrecognisedMessage(dto.Subject) });
 
-        // Questions added manually via CMS are immediately marked as reviewed
-        var adminUserId = User.FindFirst("sub")?.Value;
+        var callerUserId = User.FindFirst("sub")?.Value;
+        var callerRole = User.FindFirst("role")?.Value;
+        bool isEditorRole = callerRole == "editor";
         var now = DateTime.UtcNow;
 
         var row = new QuestionBankService.ImportRow(
@@ -489,10 +514,10 @@ public class AdminController : ControllerBase
             SubTopic: dto.SubTopic,
             Difficulty: dto.Difficulty ?? "Foundation",
             Explanation: dto.Explanation ?? "",
-            IsReviewed: true,
-            ReviewedAt: now,
-            ReviewedBy: adminUserId,
-            Source: "Admin"
+            IsReviewed: !isEditorRole,
+            ReviewedAt: isEditorRole ? null : now,
+            ReviewedBy: isEditorRole ? null : callerUserId,
+            Source: isEditorRole ? "Editor" : "Admin"
         );
 
         var result = await _bank.ImportAsync(canonicalSubject!, dto.Grade, new[] { row }, ct);
@@ -507,6 +532,7 @@ public class AdminController : ControllerBase
     }
 
     // ── PUT /api/admin/questions/{id} — update an existing question ──────────
+    [Authorize(Policy = "EditorPolicy")]
     [HttpPut("questions/{id:guid}")]
     public async Task<IActionResult> UpdateQuestion(Guid id, [FromBody] AddQuestionDto dto, CancellationToken ct)
     {
@@ -530,6 +556,9 @@ public class AdminController : ControllerBase
         if (item is null)
             return NotFound(new { error = "Question not found." });
 
+        var updateCallerRole = User.FindFirst("role")?.Value;
+        bool updateIsEditor = updateCallerRole == "editor";
+
         item.Subject       = canonicalSubject!;
         item.Grade         = dto.Grade;
         item.Difficulty    = dto.Difficulty ?? item.Difficulty;
@@ -540,11 +569,15 @@ public class AdminController : ControllerBase
         item.OptionsJson   = System.Text.Json.JsonSerializer.Serialize(dto.Options);
         item.CorrectAnswer = dto.CorrectAnswer!;
         item.Explanation   = dto.Explanation?.Trim() ?? item.Explanation;
+        item.Source        = updateIsEditor ? "Editor" : item.Source;
 
-        // Editing a question via CMS counts as a manual review
-        item.IsReviewed  = true;
-        item.ReviewedAt  = DateTime.UtcNow;
-        item.ReviewedBy  = User.FindFirst("sub")?.Value;
+        // Only admins promote a question to reviewed status via edit
+        if (!updateIsEditor)
+        {
+            item.IsReviewed  = true;
+            item.ReviewedAt  = DateTime.UtcNow;
+            item.ReviewedBy  = User.FindFirst("sub")?.Value;
+        }
 
         await _db.SaveChangesAsync(ct);
         return Ok(new { message = "Question updated successfully." });
@@ -552,6 +585,7 @@ public class AdminController : ControllerBase
 
     // ── PATCH /api/admin/questions/{id}/mark-reviewed ────────────────────────
     // One-click "mark as reviewed" without editing the question content.
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPatch("questions/{id:guid}/mark-reviewed")]
     public async Task<IActionResult> MarkReviewed(Guid id, CancellationToken ct)
     {
@@ -570,6 +604,7 @@ public class AdminController : ControllerBase
     // GET /api/admin/badges
     // Returns all users with their computed badge breakdown and physical-reward eligibility.
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpGet("badges")]
     public async Task<IActionResult> GetUserBadges(CancellationToken ct)
     {
@@ -715,6 +750,7 @@ public class AdminController : ControllerBase
     // GET /api/admin/physical-rewards
     // Lists all physical reward claims with user info.
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpGet("physical-rewards")]
     public async Task<IActionResult> GetPhysicalRewards(CancellationToken ct)
     {
@@ -745,6 +781,7 @@ public class AdminController : ControllerBase
     // PUT /api/admin/physical-rewards/{id}
     // Update status, tracking number, or notes on a claim.
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPut("physical-rewards/{id:guid}")]
     public async Task<IActionResult> UpdatePhysicalReward(Guid id, [FromBody] UpdateRewardDto dto, CancellationToken ct)
     {
@@ -769,6 +806,7 @@ public class AdminController : ControllerBase
     // POST /api/admin/physical-rewards/{userId}/claim
     // Manually create a claim on behalf of a student (admin-initiated).
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPost("physical-rewards/{userId:guid}/claim")]
     public async Task<IActionResult> CreatePhysicalRewardClaim(Guid userId, [FromBody] CreateRewardClaimDto dto, CancellationToken ct)
     {
@@ -798,6 +836,7 @@ public class AdminController : ControllerBase
     // GET /api/admin/reports
     // Lists all reported questions.
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpGet("reports")]
     public async Task<IActionResult> GetReports(CancellationToken ct)
     {
@@ -833,6 +872,7 @@ public class AdminController : ControllerBase
     // POST /api/admin/reports/{reportId}/resolve
     // Accept or Reject a reported question, sends notification.
     // ---------------------------------------------------------------
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPost("reports/{reportId:guid}/resolve")]
     public async Task<IActionResult> ResolveReport(Guid reportId, [FromBody] ResolveReportDto dto, CancellationToken ct)
     {
@@ -937,6 +977,7 @@ public class AdminController : ControllerBase
 
     // ── School Management ─────────────────────────────────────────────────────
 
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPost("schools")]
     public async Task<IActionResult> CreateSchool([FromBody] CreateSchoolDto dto, CancellationToken ct)
     {
@@ -961,6 +1002,7 @@ public class AdminController : ControllerBase
         return Ok(new { school.SchoolId, school.Name, school.InviteCode, school.PilotEndsAt });
     }
 
+    [Authorize(Policy = "AdminPolicy")]
     [HttpGet("schools")]
     public async Task<IActionResult> ListSchools(CancellationToken ct)
     {
@@ -984,6 +1026,7 @@ public class AdminController : ControllerBase
         return Ok(schools);
     }
 
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPatch("schools/{id:guid}")]
     public async Task<IActionResult> UpdateSchool(Guid id, [FromBody] UpdateSchoolDto dto, CancellationToken ct)
     {
@@ -999,6 +1042,7 @@ public class AdminController : ControllerBase
         return Ok(new { school.SchoolId, school.Name, school.InviteCode, school.PilotEndsAt, school.LogoUrl });
     }
 
+    [Authorize(Policy = "AdminPolicy")]
     [HttpGet("schools/{id:guid}/students")]
     public async Task<IActionResult> GetSchoolStudents(Guid id, CancellationToken ct)
     {
@@ -1031,6 +1075,7 @@ public class AdminController : ControllerBase
         return $"{namePart}-{cityPart}-{year}";
     }
 
+    [Authorize(Policy = "AdminPolicy")]
     [HttpPost("notifications/broadcast")]
     public async Task<IActionResult> BroadcastPushNotification([FromBody] BroadcastRequest req, CancellationToken ct)
     {

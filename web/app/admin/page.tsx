@@ -46,7 +46,11 @@ function detectMode(q: BankQuestion): QuestionMode {
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function AdminPage() {
-  const { getToken, isLoaded, userId, signOut } = useAuth();
+  const { getToken, isLoaded, userId, sessionClaims, signOut } = useAuth();
+  const role = (sessionClaims as any)?.role as string | undefined;
+  const isAdmin = role === "admin";
+  const isEditor = role === "editor";
+
   const [authed, setAuthed] = useState(true); // Auto-authed by clerk
   const [toast, setToast] = useState<Toast | null>(null);
   const [activeTab, setActiveTab] = useState<TabId>("add");
@@ -56,6 +60,7 @@ export default function AdminPage() {
   const [browseFilters, setBrowseFilters] = useState({
     subject: "", grade: "" as number | "", difficulty: "", topic: "", search: "", hasImage: false,
     reviewStatus: "" as "" | "reviewed" | "unreviewed",
+    source: "", dateFrom: "", dateTo: "",
   });
   const [triggerSearch, setTriggerSearch] = useState(0);
 
@@ -131,9 +136,11 @@ export default function AdminPage() {
             )}
           </div>
           <div className="flex items-center gap-4">
-            <a href="/admin/notifications" className="text-xs bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-1.5 rounded-lg flex items-center gap-1 transition-colors">
-              Broadcast Push
-            </a>
+            {isAdmin && (
+              <a href="/admin/notifications" className="text-xs bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-1.5 rounded-lg flex items-center gap-1 transition-colors">
+                Broadcast Push
+              </a>
+            )}
             <button onClick={() => signOut()} className="text-xs text-slate-400 hover:text-white underline">
               Sign out
             </button>
@@ -146,12 +153,18 @@ export default function AdminPage() {
             icon={<PlusCircle size={15} />} label="Add Question" />
           <TabBtn id="browse" active={activeTab === "browse"} onClick={() => setActiveTab("browse")}
             icon={<Search size={15} />} label="Browse & Manage" />
-          <TabBtn id="badges" active={activeTab === "badges"} onClick={() => setActiveTab("badges")}
-            icon={<Award size={15} />} label="Badges & Rewards" />
-          <TabBtn id="reports" active={activeTab === "reports"} onClick={() => setActiveTab("reports")}
-            icon={<AlertCircle size={15} />} label="Reports" />
-          <TabBtn id="schools" active={activeTab === "schools"} onClick={() => setActiveTab("schools")}
-            icon={<School size={15} />} label="Schools" />
+          {isAdmin && (
+            <TabBtn id="badges" active={activeTab === "badges"} onClick={() => setActiveTab("badges")}
+              icon={<Award size={15} />} label="Badges & Rewards" />
+          )}
+          {isAdmin && (
+            <TabBtn id="reports" active={activeTab === "reports"} onClick={() => setActiveTab("reports")}
+              icon={<AlertCircle size={15} />} label="Reports" />
+          )}
+          {isAdmin && (
+            <TabBtn id="schools" active={activeTab === "schools"} onClick={() => setActiveTab("schools")}
+              icon={<School size={15} />} label="Schools" />
+          )}
         </div>
 
         {activeTab === "add" && (
@@ -179,7 +192,7 @@ export default function AdminPage() {
 
         {activeTab === "browse" && (
           <BrowsePanel
-
+            isAdmin={isAdmin}
             showToast={showToast}
             filters={browseFilters}
             setFilters={setBrowseFilters}
@@ -732,10 +745,10 @@ function AddQuestionForm({ showToast, onAdded, goToBrowse, lastAdded, onDismissA
 }
 
 // ─── Browse & Manage Panel ────────────────────────────────────────────────────
-function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted, onEdit, pendingUpdate, onUpdateConsumed }: {
-
+function BrowsePanel({ isAdmin, showToast, filters, setFilters, triggerSearch, onDeleted, onEdit, pendingUpdate, onUpdateConsumed }: {
+  isAdmin: boolean;
   showToast: (t: Toast["type"], m: string) => void;
-  filters: { subject: string; grade: number | ""; difficulty: string; topic: string; search: string; hasImage: boolean; reviewStatus: "" | "reviewed" | "unreviewed" };
+  filters: { subject: string; grade: number | ""; difficulty: string; topic: string; search: string; hasImage: boolean; reviewStatus: "" | "reviewed" | "unreviewed"; source: string; dateFrom: string; dateTo: string };
   setFilters: React.Dispatch<React.SetStateAction<typeof filters>>;
   triggerSearch: number;
   onDeleted: () => void;
@@ -782,6 +795,9 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
       if (filters.hasImage)  params.set("hasImage",   "true");
       if (filters.reviewStatus === "reviewed")   params.set("isReviewed", "true");
       if (filters.reviewStatus === "unreviewed") params.set("isReviewed", "false");
+      if (isAdmin && filters.source)   params.set("source",   filters.source);
+      if (isAdmin && filters.dateFrom) params.set("dateFrom", filters.dateFrom);
+      if (isAdmin && filters.dateTo)   params.set("dateTo",   filters.dateTo);
       params.set("page",     String(p));
       params.set("pageSize", String(PAGE_SIZE));
 
@@ -820,7 +836,8 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
   }, [hasMore, loading, loadingMore, page, search]);
 
   function clearFilters() {
-    setFilters({ subject: "", grade: "", difficulty: "", topic: "", search: "", hasImage: false, reviewStatus: "" });
+    setFilters({ subject: "", grade: "", difficulty: "", topic: "", search: "", hasImage: false,
+      reviewStatus: isAdmin ? "" : "unreviewed", source: "", dateFrom: "", dateTo: "" });
   }
 
   async function deleteQuestion(id: string) {
@@ -867,7 +884,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  const hasActiveFilters = filters.subject || filters.grade || filters.difficulty || filters.topic || filters.search || filters.hasImage || filters.reviewStatus;
+  const hasActiveFilters = filters.subject || filters.grade || filters.difficulty || filters.topic || filters.search || filters.hasImage || filters.reviewStatus || filters.source || filters.dateFrom || filters.dateTo;
 
   return (
     <div className="space-y-4 pb-10">
@@ -910,6 +927,28 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                 onKeyDown={(e) => e.key === "Enter" && search(1)} placeholder="Search question text..." className="input" />
             </div>
           </div>
+          {isAdmin && (
+            <div className="grid grid-cols-3 gap-3">
+              <div>
+                <label className="label">Source</label>
+                <select value={filters.source} onChange={(e) => setFilters((f) => ({ ...f, source: e.target.value }))} className="select">
+                  <option value="">All sources</option>
+                  <option value="AI">AI</option>
+                  <option value="Admin">Admin</option>
+                  <option value="Editor">Editor</option>
+                  <option value="Import">Import</option>
+                </select>
+              </div>
+              <div>
+                <label className="label">Added from</label>
+                <input type="date" value={filters.dateFrom} onChange={(e) => setFilters((f) => ({ ...f, dateFrom: e.target.value }))} className="input" />
+              </div>
+              <div>
+                <label className="label">Added to</label>
+                <input type="date" value={filters.dateTo} onChange={(e) => setFilters((f) => ({ ...f, dateTo: e.target.value }))} className="input" />
+              </div>
+            </div>
+          )}
           <div className="flex items-center justify-between gap-3 flex-wrap">
             <div className="flex items-center gap-4 flex-wrap">
               <label className="flex items-center gap-2 cursor-pointer select-none">
@@ -917,15 +956,21 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                   className="w-4 h-4 accent-indigo-500" />
                 <span className="text-sm text-slate-300">Image questions only</span>
               </label>
-              <select
-                value={filters.reviewStatus}
-                onChange={(e) => setFilters((f) => ({ ...f, reviewStatus: e.target.value as "" | "reviewed" | "unreviewed" }))}
-                className="select text-sm py-1.5 pr-8"
-              >
-                <option value="">All review statuses</option>
-                <option value="reviewed">✓ Reviewed only</option>
-                <option value="unreviewed">⚠ Unreviewed only</option>
-              </select>
+              {isAdmin ? (
+                <select
+                  value={filters.reviewStatus}
+                  onChange={(e) => setFilters((f) => ({ ...f, reviewStatus: e.target.value as "" | "reviewed" | "unreviewed" }))}
+                  className="select text-sm py-1.5 pr-8"
+                >
+                  <option value="">All review statuses</option>
+                  <option value="reviewed">✓ Reviewed only</option>
+                  <option value="unreviewed">⚠ Unreviewed only</option>
+                </select>
+              ) : (
+                <span className="text-xs text-amber-400 bg-amber-900/30 px-2 py-1 rounded-lg border border-amber-700/40">
+                  ⚠ Showing unreviewed questions only
+                </span>
+              )}
             </div>
             <div className="flex gap-2 items-center">
               {hasActiveFilters && (
@@ -993,7 +1038,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                 }
               </div>
               <div className="shrink-0 flex items-center gap-1">
-                {!q.isReviewed && !confirmingDelete && (
+                {isAdmin && !q.isReviewed && !confirmingDelete && (
                   <button
                     type="button"
                     onClick={() => markAsReviewed(q.questionBankId)}
@@ -1014,7 +1059,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                     <Pencil size={13} /> Edit
                   </button>
                 )}
-                {!confirmingDelete ? (
+                {isAdmin && (!confirmingDelete ? (
                   <button type="button" onClick={() => setDeleteConfirm(q.questionBankId)}
                     className="flex items-center gap-1 text-xs text-slate-500 hover:text-red-400 transition px-2 py-1 rounded-lg hover:bg-red-900/20">
                     <Trash2 size={13} /> Delete
@@ -1029,7 +1074,7 @@ function BrowsePanel({ showToast, filters, setFilters, triggerSearch, onDeleted,
                     <button type="button" onClick={() => setDeleteConfirm(null)}
                       className="text-xs text-slate-400 hover:text-slate-200">Cancel</button>
                   </div>
-                )}
+                ))}
               </div>
             </div>
 
@@ -1207,7 +1252,7 @@ function ImageInput({ slotKey, inputRef, uploading, onFile, onUrl, compact = fal
   slotKey: string; inputRef: React.RefObject<HTMLInputElement>; uploading: boolean;
   onFile: (f: File) => void; onUrl: (url: string) => void; compact?: boolean;
 }) {
-  const [tab, setTab]         = useState<"upload" | "url" | "paste">("upload");
+  const [tab, setTab]         = useState<"upload" | "url" | "paste">("paste");
   const [urlValue, setUrlValue] = useState("");
   const [pasteActive, setPasteActive] = useState(false); // true when zone is focused & ready
   const pasteZoneRef = useRef<HTMLDivElement>(null);

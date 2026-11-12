@@ -81,6 +81,7 @@ builder.Services
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminPolicy", policy => policy.RequireClaim("role", "admin"));
+    options.AddPolicy("EditorPolicy", policy => policy.RequireClaim("role", new[] { "admin", "editor" }));
 });
 
 const string CorsPolicy = "WebDev";
