@@ -323,6 +323,19 @@ public class SubscriptionService
     /// </summary>
     public async Task UnlockSubjectAsync(Guid userId, int grade, string subject, int days, int amountInPaise, string? razorpayOrderId, string? razorpayPaymentId, string? razorpaySubscriptionId, bool isAutoRenewing, CancellationToken ct)
     {
+        // Idempotency guard: Razorpay fires both payment.captured and subscription.charged for
+        // the same payment, so this method can be called twice with the same paymentId.
+        // If a row already exists for this payment + subject + grade, skip the insert entirely.
+        if (razorpayPaymentId != null)
+        {
+            var alreadyExists = await _db.Subscriptions
+                .AnyAsync(s => s.RazorpayPaymentId == razorpayPaymentId
+                            && s.UserId == userId
+                            && s.Subject == subject
+                            && s.Grade == grade, ct);
+            if (alreadyExists) return;
+        }
+
         // Always create a new subscription row so every payment has its own history record.
         // If an active subscription exists, the new one starts from its EndDate (seamless renewal).
         var existing = await _db.Subscriptions
