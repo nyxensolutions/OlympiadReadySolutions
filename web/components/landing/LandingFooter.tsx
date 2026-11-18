@@ -1,13 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { GraduationCap, Mail, MessageCircle, Instagram, Facebook } from "lucide-react";
+import { GraduationCap, Mail, MessageCircle, Instagram, Facebook, Smartphone } from "lucide-react";
 
 export function LandingFooter() {
   return (
     <footer className="border-t border-slate-200 bg-white px-4 py-12 sm:py-16">
       <div className="mx-auto max-w-6xl">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-6">
 
           {/* Brand */}
           <div className="lg:col-span-1">
@@ -116,6 +116,28 @@ export function LandingFooter() {
               <li><Link href="/cookies" className="transition hover:text-brand-600">Cookie Policy</Link></li>
               <li><Link href="/refund"  className="transition hover:text-brand-600">Refund Policy</Link></li>
             </ul>
+          </div>
+
+          {/* Mobile App */}
+          <div>
+            <h3 className="mb-4 font-semibold text-slate-900">Mobile App</h3>
+            <p className="mb-3 text-sm text-slate-500 leading-relaxed">
+              Practice on the go with our free Android app.
+            </p>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.nyxensolutions.olympiadready"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl border border-brand-200 bg-brand-50 px-3 py-2 text-sm font-semibold text-brand-700 transition hover:bg-brand-100"
+            >
+              <Smartphone className="h-4 w-4" />
+              Get on Google Play
+            </a>
+            <div className="mt-3">
+              <Link href="/#mobile-app" className="text-xs text-slate-400 hover:text-brand-600 transition">
+                Learn more →
+              </Link>
+            </div>
           </div>
         </div>
 

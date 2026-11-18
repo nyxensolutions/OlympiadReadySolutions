@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Wand2, AlertTriangle, AlertOctagon, Undo2 } from "lucide-react";
 import { MarkdownMath } from "@/components/MarkdownMath";
 import { repastePdfNotation, detectNotationIssues, type RepairResult } from "@/lib/notation";
@@ -34,6 +34,8 @@ export function MathField({
   value, onChange, rows, placeholder, className = "", alwaysPreview = false, ariaLabel,
 }: MathFieldProps) {
   const [repair, setRepair] = useState<{ before: string; changes: RepairResult["changes"] } | null>(null);
+
+  useEffect(() => { if (value === "") setRepair(null); }, [value]);
 
   const issues = useMemo(() => detectNotationIssues(value), [value]);
   const showPreview = value.trim().length > 0 && (alwaysPreview || MATHY.test(value));

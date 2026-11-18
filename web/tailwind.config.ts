@@ -73,13 +73,24 @@ const config: Config = {
         "glow-orange": "0 0 24px rgba(249, 115, 22, 0.45)",
       },
       animation: {
-        "float":      "float 3s ease-in-out infinite",
-        "float-slow": "float 4.5s ease-in-out infinite",
+        "float":         "float 3s ease-in-out infinite",
+        "float-slow":    "float 4.5s ease-in-out infinite",
+        "bounce-up":     "bounceUp 2.4s ease-in-out infinite",
+        "bounce-down":   "bounceDown 2.4s ease-in-out infinite",
+        "bounce-down-2": "bounceDown 2.4s ease-in-out 0.8s infinite",
       },
       keyframes: {
         float: {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%":      { transform: "translateY(-12px)" },
+        },
+        bounceUp: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%":      { transform: "translateY(-14px)" },
+        },
+        bounceDown: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%":      { transform: "translateY(14px)" },
         },
       },
     },

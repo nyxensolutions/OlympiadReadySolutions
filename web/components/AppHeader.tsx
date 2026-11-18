@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X, Sparkles, Target } from "lucide-react";
+import { BookOpen, Calendar, Crown, FileText, LayoutDashboard, LogIn, Menu, MicVocal, Receipt, X, Sparkles, Smartphone, Target } from "lucide-react";
 import { useState, useEffect } from "react";
 import {
   SignedIn,
@@ -168,6 +168,13 @@ export function AppHeader({ active }: { active?: ActivePage }) {
                 <span className="sm:hidden">Start free</span>
               </span>
             </SignUpButton>
+            <a
+              href="/#mobile-app"
+              className="hidden sm:inline-flex items-center gap-1.5 rounded-lg border border-green-300 bg-green-50 px-3 py-2 text-sm font-semibold text-green-700 transition hover:bg-green-100 whitespace-nowrap"
+            >
+              <Smartphone className="h-4 w-4 shrink-0" />
+              Get the App
+            </a>
           </SignedOut>
 
           {/* Mobile menu toggle */}
@@ -194,6 +201,13 @@ export function AppHeader({ active }: { active?: ActivePage }) {
               <Link href="/#pricing" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Pricing</Link>
               <Link href="/olympiad-dates" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Olympiad Dates</Link>
               <Link href="/blog" className="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50" onClick={() => setMobileOpen(false)}>Blog</Link>
+              <a
+                href="/#mobile-app"
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center gap-2 rounded-lg border border-green-200 bg-green-50 px-3 py-2 text-sm font-semibold text-green-700 hover:bg-green-100"
+              >
+                <Smartphone className="h-4 w-4" /> Get the App
+              </a>
             </div>
           </SignedOut>
           <SignedIn>

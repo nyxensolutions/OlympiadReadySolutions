@@ -10,6 +10,7 @@ import { HowItWorksSection } from "./landing/HowItWorksSection";
 import { LandingFooter } from "./landing/LandingFooter";
 import { LandingLeaderboard } from "./landing/LandingLeaderboard";
 import { LandingRewards } from "./landing/LandingRewards";
+import { MobileAppSection } from "./landing/MobileAppSection";
 import { PricingTransparencySection } from "./landing/PricingTransparencySection";
 import { SocialProofSection } from "./landing/SocialProofSection";
 import { SubjectCoverageSection } from "./landing/SubjectCoverageSection";
@@ -35,6 +36,7 @@ export function LandingPage() {
       <BlogTeaserSection />
       <FaqSection />
       <CTASection />
+      <MobileAppSection />
       <LandingFooter />
     </div>
   );

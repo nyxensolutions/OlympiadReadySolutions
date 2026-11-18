@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { SignUpButton, SignInButton } from "@clerk/nextjs";
-import { ArrowRight, Bot, Sparkles, TrendingUp } from "lucide-react";
+import { ArrowRight, Bot, Smartphone, Sparkles, TrendingUp } from "lucide-react";
 
 const STATS = [
   { value: "50,000+", label: "Questions" },
@@ -76,6 +76,13 @@ export function HeroSection() {
                   Sign in
                 </button>
               </SignInButton>
+              <a
+                href="#mobile-app"
+                className="inline-flex items-center gap-2 rounded-2xl border border-green-400/40 bg-green-500/10 px-5 py-3 text-base font-semibold text-green-200 backdrop-blur-sm transition hover:bg-green-500/20 hover:scale-105 active:scale-95"
+              >
+                <Smartphone className="h-4 w-4" />
+                Get the App
+              </a>
             </div>
 
             {/* Feature pills — single row on sm+ */}
