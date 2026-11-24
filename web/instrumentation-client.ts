@@ -6,7 +6,7 @@ if (process.env.NODE_ENV === "production") {
 
     // Capture 10% of transactions for performance monitoring.
     // Increase to 1.0 temporarily when investigating a specific issue.
-    tracesSampleRate: 0.1,
+    tracesSampleRate: 0,
 
     // GlitchTip does not support session replay — keep both at 0.
     replaysSessionSampleRate: 0,
