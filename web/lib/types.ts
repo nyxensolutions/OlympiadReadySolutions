@@ -130,6 +130,8 @@ export type SubscriptionStatus = {
     aiGenerationsUsed: number;
     endDate: string;
   }>;
+  papersLeft?: number | null;
+  showUpgradeNudge?: boolean;
 };
 
 export type CheckoutResponse = {

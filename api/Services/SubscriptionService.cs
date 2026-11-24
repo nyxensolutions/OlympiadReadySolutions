@@ -460,6 +460,11 @@ public class SubscriptionService
         bool trialEnded = user?.TrialExpiresAt.HasValue == true && DateTime.UtcNow >= user.TrialExpiresAt!.Value;
         bool freeAllowed = used < effectiveLimit && !trialEnded;
 
+        bool isPaidUser = activeSubs.Any() || onSchoolPilot;
+        int papersLeft = isPaidUser ? int.MaxValue : Math.Max(0, effectiveLimit - used);
+        // Nudge free users when they have exactly 1 paper left and trial is still open.
+        bool showUpgradeNudge = !isPaidUser && papersLeft == 1 && !trialEnded;
+
         return new
         {
             tier,
@@ -478,7 +483,9 @@ public class SubscriptionService
             },
             aiCreditsUsed,
             aiCreditsLimit = aiBudget,
-            activeUnlocks = activeSubs
+            activeUnlocks = activeSubs,
+            papersLeft = isPaidUser ? (int?)null : papersLeft,
+            showUpgradeNudge
         };
     }
 }
