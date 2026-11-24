@@ -48,6 +48,7 @@ builder.Services.AddHttpClient<AiGenerationService>(c =>
 });
 
 builder.Services.AddScoped<PdfService>();
+builder.Services.AddMemoryCache();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<SubscriptionService>();
 builder.Services.AddSingleton<GooglePlayService>();

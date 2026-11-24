@@ -2,6 +2,7 @@ using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using OlympiadReady.Api.Data;
 using OlympiadReady.Api.Data.Entities;
 
@@ -13,14 +14,16 @@ public class UserService
     private readonly IEmailService _email;
     private readonly IHttpClientFactory _http;
     private readonly IConfiguration _config;
+    private readonly IMemoryCache _cache;
     private readonly ILogger<UserService> _log;
 
-    public UserService(AppDbContext db, IEmailService email, IHttpClientFactory http, IConfiguration config, ILogger<UserService> log)
+    public UserService(AppDbContext db, IEmailService email, IHttpClientFactory http, IConfiguration config, IMemoryCache cache, ILogger<UserService> log)
     {
         _db = db;
         _email = email;
         _http = http;
         _config = config;
+        _cache = cache;
         _log = log;
     }
 
@@ -28,6 +31,12 @@ public class UserService
     {
         var secret = _config["Clerk:SecretKey"];
         if (string.IsNullOrEmpty(secret)) return null;
+
+        // Students without a name in Clerk would otherwise cost a Clerk call on every API request.
+        var triedKey = $"clerk-name-tried:{externalId}";
+        if (_cache.TryGetValue(triedKey, out _)) return null;
+        _cache.Set(triedKey, true, TimeSpan.FromHours(1));
+
         try
         {
             var client = _http.CreateClient();

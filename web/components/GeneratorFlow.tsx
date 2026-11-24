@@ -94,7 +94,7 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
       )}
 
       <div className="flex justify-center">
-        {phase.kind === "config" && status?.tier === "Free" && typeof status.used === "number" && status.used >= (status.limit ?? 5) ? (
+        {phase.kind === "config" && status?.tier === "Free" && typeof status.used === "number" && status.used >= (status.limit ?? 3) ? (
           <div className="w-full max-w-lg rounded-2xl border border-achiever-200 bg-gradient-to-b from-achiever-50 to-white p-8 shadow-sm text-center">
             <div className="mb-4 inline-flex items-center justify-center w-14 h-14 rounded-full bg-achiever-100">
               <Sparkles className="h-7 w-7 text-achiever-600" />

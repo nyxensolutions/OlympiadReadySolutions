@@ -74,7 +74,7 @@ public class SchoolsController : ControllerBase
         // must upgrade rather than silently falling back to 15 free papers.
         // Paid subscriptions are checked before free-tier quota, so purchasing
         // later is unaffected.
-        user.FreeAttemptsUsed = SubscriptionService.GlobalFreeAttemptsLimit;
+        user.FreeAttemptsUsed = Math.Max(user.FreeAttemptsUsed, SubscriptionService.GetEffectiveLimit(user));
 
         // In-app notification for the student
         _db.UserNotifications.Add(new UserNotification
