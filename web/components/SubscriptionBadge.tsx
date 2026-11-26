@@ -34,10 +34,14 @@ export function SubscriptionBadge({ status }: { status: SubscriptionStatus | nul
           ? "bg-achiever-50 text-achiever-700 ring-1 ring-achiever-600/20"
           : "bg-slate-100 text-slate-700"
       }`}
-      title={`${status.used} of ${status.limit} free papers used`}
+      title={status.used >= status.limit ? "Free papers exhausted — upgrade to continue" : `${status.used} of ${status.limit} free papers used`}
     >
       {isPremium && <Crown className="h-3 w-3" />}
-      {isPremium ? status.tier : `${status.limit - status.used} free papers left`}
+      {isPremium
+        ? status.tier
+        : status.used >= status.limit
+          ? "Upgrade to unlock"
+          : `${status.limit - status.used} free paper${status.limit - status.used === 1 ? "" : "s"} left`}
     </Link>
   );
 }
