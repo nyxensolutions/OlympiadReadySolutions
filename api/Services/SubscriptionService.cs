@@ -9,12 +9,8 @@ public class SubscriptionService
 {
     public const int GlobalFreeAttemptsLimit = 3;
 
-    // Users who signed up before the July 2026 tier change keep the original 15-paper limit.
-    public const int LegacyFreeAttemptsLimit = 15;
-    private static readonly DateTime TierChangeDate = new DateTime(2026, 7, 8, 0, 0, 0, DateTimeKind.Utc);
-
-    public static int GetEffectiveLimit(User user) =>
-        user.CreatedAt < TierChangeDate ? LegacyFreeAttemptsLimit : GlobalFreeAttemptsLimit;
+    // All users now share the same 3-paper free limit (legacy 15-paper grace period ended Nov 2026).
+    public static int GetEffectiveLimit(User user) => GlobalFreeAttemptsLimit;
 
     // Retained for backward-compat/analytics on the per-subscription counter; no longer the AI gate.
     public const int PaidAiGenerationLimit = 50;
@@ -287,6 +283,7 @@ public class SubscriptionService
         {
             if (usedHybridAi)
                 subscription.AiGenerationsUsed++;
+            await _db.SaveChangesAsync(ct);
         }
         else if (!await HasUnlockedSubjectAsync(userId, grade, subject, ct))  // e.g. Spell Bee via Champion has no row of its own
         {
@@ -298,24 +295,32 @@ public class SubscriptionService
                 bool pilotActive = user.School?.PilotEndsAt.HasValue == true && DateTime.UtcNow < user.School.PilotEndsAt!.Value;
                 if (!pilotActive)
                 {
-                    user.FreeAttemptsUsed++;
-                    // Fire paywall email the moment the counter hits the limit (exactly once per user)
-                    if (user.FreeAttemptsUsed == GetEffectiveLimit(user)
-                        && !string.IsNullOrEmpty(user.Email)
-                        && !user.Email.EndsWith("@clerk.local")
-                        && !user.EmailOptOut)
+                    // Atomic check-and-increment: prevents the race condition where two concurrent
+                    // requests both pass CanGenerateOnlineTestAsync before either updates the counter.
+                    int rowsUpdated = await _db.Database.ExecuteSqlInterpolatedAsync(
+                        $"UPDATE Users SET FreeAttemptsUsed = FreeAttemptsUsed + 1 WHERE UserId = {user.UserId} AND FreeAttemptsUsed < {GlobalFreeAttemptsLimit}",
+                        ct);
+
+                    if (rowsUpdated == 1)
                     {
-                        var emailCopy = user.Email;
-                        var nameCopy = user.FullName ?? "";
-                        _ = _email.SendPaywallHitEmailAsync(emailCopy, nameCopy)
-                            .ContinueWith(t => Console.WriteLine($"[PaywallEmail] Failed for {emailCopy}: {t.Exception?.Message}"),
-                                TaskContinuationOptions.OnlyOnFaulted);
+                        // Reload to get the committed value for the paywall email trigger.
+                        await _db.Entry(user).ReloadAsync(ct);
+                        if (user.FreeAttemptsUsed == GlobalFreeAttemptsLimit
+                            && !string.IsNullOrEmpty(user.Email)
+                            && !user.Email.EndsWith("@clerk.local")
+                            && !user.EmailOptOut)
+                        {
+                            var emailCopy = user.Email;
+                            var nameCopy = user.FullName ?? "";
+                            _ = _email.SendPaywallHitEmailAsync(emailCopy, nameCopy)
+                                .ContinueWith(t => Console.WriteLine($"[PaywallEmail] Failed for {emailCopy}: {t.Exception?.Message}"),
+                                    TaskContinuationOptions.OnlyOnFaulted);
+                        }
                     }
                 }
             }
+            // Raw SQL already committed — no SaveChangesAsync needed.
         }
-
-        await _db.SaveChangesAsync(ct);
     }
 
     /// <summary>

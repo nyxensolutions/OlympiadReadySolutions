@@ -31,14 +31,14 @@ export function GeneratorFlow({ initialConfig, autoStart, olympiadId }: { initia
   const [upgradeSubject, setUpgradeSubject] = useState<string | undefined>(undefined);
   const softNudgeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Soft upgrade nudge: after 3rd paper completed, show upgrade modal 2.5s into results screen
+  // Soft upgrade nudge: when the user completes their second-to-last free paper (1 left),
+  // show the upgrade modal 2.5s into the results screen — fires exactly once.
   useEffect(() => {
     if (
       phase.kind === "results" &&
       status?.tier === "Free" &&
       typeof status.used === "number" &&
-      status.used >= 2 &&
-      status.used < (status.limit ?? 3)
+      status.used === (status.limit ?? 3) - 1
     ) {
       softNudgeTimer.current = setTimeout(() => {
         openUpgrade(`You've completed ${status.used} of ${status.limit ?? 3} free papers — unlock unlimited practice for ₹129/subject/month.`);
