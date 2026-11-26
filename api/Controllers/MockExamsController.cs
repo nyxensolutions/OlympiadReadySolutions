@@ -116,7 +116,7 @@ public class MockExamsController : ControllerBase
             // No extra gate here — the per-exam count check below is the only limit for free users.
         }
 
-        int mockExamLimit = (isSubscribed || onSchoolPilot) ? 7 : 3;
+        int mockExamLimit = (isSubscribed || onSchoolPilot) ? 7 : 1;
 
         DateTime startOfWeek = DateTime.UtcNow;
         if (isSubscribed || onSchoolPilot)
@@ -143,7 +143,7 @@ public class MockExamsController : ControllerBase
                 upgrade = !isPaidOrPilot,
                 message = isPaidOrPilot
                     ? "You have reached your limit of 7 mock exams per week."
-                    : "You've used your 3 free mock exams — upgrade to unlock 7 fresh mock exams every week."
+                    : "You've used your 1 free mock exam — upgrade to unlock 7 fresh mock exams every week."
             });
         }
 
