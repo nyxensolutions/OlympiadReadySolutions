@@ -77,8 +77,8 @@ public class BrevoEmailService : IEmailService
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
                         <span style=""font-size:22px;margin-right:14px;"">🎯</span>
                         <div>
-                            <strong style=""color:#1e293b;"">3 Free Mock Exams</strong>
-                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Simulate real Olympiad conditions with full-length mock tests. Start one whenever you feel ready.</p>
+                            <strong style=""color:#1e293b;"">1 Free Mock Exam</strong>
+                            <p style=""margin:4px 0 0;font-size:14px;color:#64748b;"">Simulate real Olympiad conditions with a full-length mock test. Upgrade to unlock 7 fresh mock exams every week.</p>
                         </div>
                     </div>
                     <div style=""display:flex;align-items:flex-start;margin-bottom:16px;"">
