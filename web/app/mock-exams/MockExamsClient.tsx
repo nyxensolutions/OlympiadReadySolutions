@@ -541,7 +541,7 @@ export default function MockExamsPage() {
               },
               {
                 q: "What are the limits for Free vs. Upgraded users?",
-                a: "Free tier accounts get 3 free Mock Exams to experience the full simulator. Upgraded users (Pro/Modular) unlock 7 fresh Mock Exam generations every single week per subject, resetting every Monday!",
+                a: "Free tier accounts get 1 free Mock Exam to experience the full simulator. Upgraded users (Pro/Modular) unlock 7 fresh Mock Exam generations every single week per subject, resetting every Monday!",
               },
               {
                 q: "Are the questions in Mock Exams fresh or repeated?",
